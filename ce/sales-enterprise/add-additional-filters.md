@@ -19,12 +19,12 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 2.	Select **+ Add** > **Add row**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Select add row](media/forecast-add-filter-add-row.png "Select Add row")
+    > ![Select add row.](media/forecast-add-filter-add-row.png "Select Add row")
  
 3.	In the selection boxes, select the attribute as **Potential Customer**, the condition as **Does Not Equals**, and the company to be considered as **Adatum Corporation**.
  
     > [!div class="mx-imgBorder"]
-    > ![Enter a condition to ignore a company](media/forecast-add-filter-configure-condition-1.png "Enter a condition to ignore a company")
+    > ![Enter a condition to ignore a company.](media/forecast-add-filter-configure-condition-1.png "Enter a condition to ignore a company")
 
     With this condition, the opportunities related to **Adatum Corporation** will be removed from the forecast. In the next step, you'll add a condition to filter revenue that's more than or equal to **$10,000**.
 
@@ -33,7 +33,7 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 5.	In the selection boxes, select the attribute as **Est. Revenue**, the condition as **Is greater than**, and revenue to be considered as **10000**.
 
     > [!div class="mx-imgBorder"]
-    > ![Enter the second condition](media/forecast-add-filter-configure-condition-2.png "Enter the second condition")
+    > ![Enter the second condition.](media/forecast-add-filter-configure-condition-2.png "Enter the second condition")
  
     Now the conditions are created for the query. When the forecast is activated, the query will be executed to filter the forecast for the added conditions.
 

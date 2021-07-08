@@ -4,7 +4,7 @@ description: "This sample shows how to get report history limit"
 ms.custom: 
 ms.date: 01/28/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

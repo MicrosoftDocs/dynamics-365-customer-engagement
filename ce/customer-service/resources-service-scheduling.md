@@ -63,7 +63,7 @@ Make sure that you have the required security role or equivalent permissions.
 
     - In the **Resource Categories** section, select the ellipses  (**...**) and then select **Add New Bookable Resource Category** to add a category.
 
-     ![bookable resources](media/bookable-resource-csh.png)
+     ![bookable resources.](media/bookable-resource-csh.png)
 
 
 5. In the **Scheduling** section:
@@ -77,7 +77,7 @@ Make sure that you have the required security role or equivalent permissions.
     - Select whether the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
     - Select whether you want to enable the resource for availability search in the **Enable for Availability Search** box.
 
-    ![service-resources-scheduling](media/service-resources-scheduling-section.png)
+    ![service-resources-scheduling.](media/service-resources-scheduling-section.png)
 
 7. Once you are ready, select **Save**.
 
@@ -163,7 +163,7 @@ You can set work hours for the bookable resources where you can define when the 
   
 14. To close the **Weekly Schedule** dialog box, select **Save and Close**.
 
-    ![set-work-hours](media/set-work-hours-csh-1a.png) 
+    ![set-work-hours.](media/set-work-hours-csh-1a.png) 
 
 > [!NOTE]
 > To define a time when a service won’t be available, on the **Service Restrictions** tab, select **New**. In the **Edit a Service Restriction** dialog box, select the service, and select the start and end time between which the service will be unavailable, and then select **OK**.  

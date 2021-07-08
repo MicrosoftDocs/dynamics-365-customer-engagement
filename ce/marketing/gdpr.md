@@ -94,7 +94,7 @@ By default, GDPR features such as consent management are disabled on new Dynamic
 
 
     > [!div class="mx-imgBorder"]
-    > ![The GDPR configuration form](media/gdpr-config2.png)
+    > ![The GDPR configuration form.](media/gdpr-config2.png)
 
     Make the following settings:
     - **Name**: Enter any name that you like.
@@ -108,7 +108,7 @@ By default, GDPR features such as consent management are disabled on new Dynamic
 When GDPR is enabled, you can view and set data-protection options for each contact. To work with them, open a contact record, go to its **Details** tab, and then scroll down to find the **Data protection** section.
 
 > [!div class="mx-imgBorder"]
-> ![Data protection settings for contacts](media/gdpr-contact2.png)
+> ![Data protection settings for contacts.](media/gdpr-contact2.png)
 
 The following settings and information are available here:
 
@@ -122,7 +122,7 @@ The following settings and information are available here:
 You can filter segments by consent level just like you can when filtering by other contact values. Use the **Consent Given** field of the **Contact** entity to filter by consent level.
 
 > [!div class="mx-imgBorder"]
-> ![Filter a segment by consent level](media/gdpr-segment2.png)
+> ![Filter a segment by consent level.](media/gdpr-segment2.png)
 
 <a name="journey-consent-level"></a> 
 
@@ -131,7 +131,7 @@ You can filter segments by consent level just like you can when filtering by oth
 You can set the minimum consent level for any customer journey. When set, the journey will process only contacts of that level or higher. To do this, open the journey, go to its **General** tab, and set the **Minimum consent** field to the appropriate level.
 
 > [!div class="mx-imgBorder"]
-> ![Set the minimum required consent level for a customer journey](media/gdpr-jouney3.png)
+> ![Set the minimum required consent level for a customer journey.](media/gdpr-jouney3.png)
 
 If you change the consent level of a running customer journey, the journey stops processing any contacts that don't meet that level of consent, including contacts that are already partly through the journey.
 
@@ -142,7 +142,7 @@ You can set the minimum consent level for any lead-scoring model. When set, the 
 To do this, open the lead scoring model, go to the **Summary** tab, and set the **Minimum consent** field to the appropriate level.
 
 > [!div class="mx-imgBorder"]
-> ![Set the minimum required consent level for lead scoring models](media/gdpr-jouney3.png)
+> ![Set the minimum required consent level for lead scoring models.](media/gdpr-jouney3.png)
 
 ## Include a consent selector in a subscription center
 
@@ -182,7 +182,7 @@ Then prepare a single customer journey with three parallel pipelines, one for ea
 1. End with an email message, which informs the customer that their request was received and provides additional links and instructions (such as a subscription center link), depending on the type of request.
 
 > [!div class="mx-imgBorder"]
-> ![Example customer journey for handling GDPR requests](media/gdpr-example-journey2.png)
+> ![Example customer journey for handling GDPR requests.](media/gdpr-example-journey2.png)
  
 The remaining subsections offer more details about how this example solution could be completed to support each type of request.
 
@@ -242,7 +242,7 @@ To add a comment about why you changed the consent level of a contact, or to rev
 1. If you'd like to export this list, select the **Export** button on the command bar.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of GDPR consent change records](media/gdpr-inspect-consent-changes.png)
+> ![Screenshot of GDPR consent change records.](media/gdpr-inspect-consent-changes.png)
 
 ### Enable auditing to log all record changes
 
@@ -250,7 +250,7 @@ Dynamics 365 can keep a record of all database changes, who made them, and when.
 
 To access the auditing features:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **System** > **Auditing** to open the **Audit** page. From there, you can access the auditing settings and review the audit record.
 
 This feature is part of the standard functionality of Dynamics 365. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](/power-platform/admin/audit-data-user-activity).
@@ -266,7 +266,7 @@ Once you've enabled auditing for contacts, you'll be able to view a record of ch
 1. To view consent changes only, set **Filter on** to **Consent given**.
 
 > [!div class="mx-imgBorder"]
-> ![Filter audit history by consent given](media/gdpr-audit-history2.png)
+> ![Filter audit history by consent given.](media/gdpr-audit-history2.png)
 
 ### See also
 

@@ -4,7 +4,7 @@ description: "Provides quick results to users who enter simple queries to common
 ms.custom: 
 ms.date: 10/17/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)

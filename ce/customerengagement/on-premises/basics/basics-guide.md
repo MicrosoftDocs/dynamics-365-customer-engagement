@@ -5,7 +5,7 @@ description: Basics Guide for Dynamics 365 Customer Engagement (on-premises), ve
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

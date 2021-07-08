@@ -32,11 +32,11 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
 
 3. In the **Add New Item** dialog box, select **Visual C#** > **Workflow** in the left pane, select **Activity** as the project type, specify an appropriate name, and then click **Add**.
 
-   ![Add a workflow to your HAT application](../unified-service-desk/media/usd-add-automation-1.png "Add a workflow to your HAT application")
+   ![Add a workflow to your HAT application.](../unified-service-desk/media/usd-add-automation-1.png "Add a workflow to your HAT application")
 
 4. This adds the activity workflow (XAML) in your project, and opens up the XAML in the workflow activity designer area where you can drop the [!INCLUDE[pn_hat](../includes/pn-hat.md)] automation activities as well as other activities to design your automation.
 
-   ![Drop HAT automation activities](../unified-service-desk/media/usd-add-automation-2.png "Drop HAT automation activities")
+   ![Drop HAT automation activities.](../unified-service-desk/media/usd-add-automation-2.png "Drop HAT automation activities")
 
 5. Create your automation using the [!INCLUDE[pn_hat](../includes/pn-hat.md)] activities, save your project, and then build it.
 
@@ -54,26 +54,26 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
 
 4. Under **Automation**, from the **Mode** list, select **Use Workflow Assembly** or **Use Workflow XAML** to associate an automation with the action.
 
-   ![Select the automation mode](../unified-service-desk/media/usd-add-automation-3.png "Select the automation mode")
+   ![Select the automation mode.](../unified-service-desk/media/usd-add-automation-3.png "Select the automation mode")
 
 5. Click **Select Workflow** to specify the automation.
 
 6. In the **Workflow Selector** dialog box, expand your project name, and then select the workflow (.xaml) to be associated with the action, and then click **OK**.
 
-   ![Select the workflow](../unified-service-desk/media/usd-add-automation-4.png "Select the workflow")
+   ![Select the workflow.](../unified-service-desk/media/usd-add-automation-4.png "Select the workflow")
 
 7. If you selected:
 
    1. **Use Workflow Assembly** in step 4, the type information is populated in the **Type** field for the selected automation (workflow).
 
-   ![Type information for the selected workflow](../unified-service-desk/media/usd-add-automation-5.png "Type information for the selected workflow")
+   ![Type information for the selected workflow.](../unified-service-desk/media/usd-add-automation-5.png "Type information for the selected workflow")
 
    > [!NOTE]
    > As the absolute path to the workflow assembly is not mentioned in the **Type** field, you must copy the workflow assembly file in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory to test and use the hosted application and the automation.  
   
    2. **Use Workflow XAML** in step 4, the workflow XAML is populated in the XAML field for the selected automation (workflow).  
   
-   ![XAML for the selected workflow](../unified-service-desk/media/usd-add-automation-6.png "XAML for the selected workflow")  
+   ![XAML for the selected workflow.](../unified-service-desk/media/usd-add-automation-6.png "XAML for the selected workflow")  
   
 8. If you want the run automation in an asynchronous mode, select the **Async** check box. Automation can be executed *synchronously* or *asynchronously*.  
   
@@ -100,7 +100,7 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
   
    2.  Click the run icon to test it.  
   
-   ![Use Debugger to test your action with automation](../unified-service-desk/media/usd-add-automation-7.png "Use Debugger to test your action with automation")  
+   ![Use Debugger to test your action with automation.](../unified-service-desk/media/usd-add-automation-7.png "Use Debugger to test your action with automation")  
   
     For more information about using the Debugger hosted control, see [Debug issues in Unified Service Desk](/previous-versions/dn646903(v=usd.6)) in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Administration Guide.  
   

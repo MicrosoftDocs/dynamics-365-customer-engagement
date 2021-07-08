@@ -59,7 +59,7 @@ window.Microsoft.Omnichannel.TranslationFramework.getTranslationProvider = funct
 
 2. If this property is not set, the following error will be displayed to the agent.
 
-![initializeNewConversation error message](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
+![initializeNewConversation error message.](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
 
 ### See also
 

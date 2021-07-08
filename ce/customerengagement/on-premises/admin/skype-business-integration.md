@@ -4,7 +4,7 @@ description: "Skype for Business and SKype integration with Dynamics 365 for Cus
 ms.custom: 
 ms.date: 08/07/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

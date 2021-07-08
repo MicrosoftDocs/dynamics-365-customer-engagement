@@ -18,7 +18,7 @@ ms.custom:
 # Integrate with external applications and web applications
 Use the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted application to host your external application or a web application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. To host an external or web application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you configure a hosted control of type **CCA Hosted Application**, and then select **Web Hosted Application** or **External Hosted Application** from the **Hosted Application** list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [UII Hosted Applications](../unified-service-desk/uii-hosted-applications.md)  
   
- ![Hosting external app in Unified Service Desk](../unified-service-desk/media/usd-new-uii-hosted-control.png "Hosting external app in Unified Service Desk")  
+ ![Hosting external app in Unified Service Desk.](../unified-service-desk/media/usd-new-uii-hosted-control.png "Hosting external app in Unified Service Desk")  
   
  For information about hosting external applications or web applications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see steps 1 through 3 in [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md) and [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md).  
   

@@ -46,7 +46,7 @@ To set up a recurring event:
 
 1. In the **Schedule** section on the **General** tab, set **This is a recurring event** to **Yes**. The **Event recurrence** section opens.  
 
-    ![Event recurrence settings](media/event-recurring-setup.png "Event recurrence settings")
+    ![Event recurrence settings.](media/event-recurring-setup.png "Event recurrence settings")
 
 1. Use the settings in the **Event recurrence** section to establish the pattern for your schedule of occurrences. The example shown in the previous screenshot creates a series where each event runs from 9:00 AM – 5:00 PM on the first Monday every other month, and which ends after 10 occurrences.
 
@@ -67,11 +67,11 @@ To edit all non-custom events in a series:
 1. Do one of the following:
     - Find any occurrence of your target event series in the list and select that event to open it. The **Open recurring item** dialog opens; select **The entire series** to edit the entire series (rather than just the event occurrence you happen to have selected). 
     
-      ![Open the entire series after selecting a single event of the series](media/event-recurring-open-series.png "Open the entire series after selecting a single event of the series")
+      ![Open the entire series after selecting a single event of the series.](media/event-recurring-open-series.png "Open the entire series after selecting a single event of the series")
 
     - Open the view selector (located just above the list) and choose **Event Series**. The list now shows just one row for the event series you have set up. Select an event series to open it.  
     
-      ![The view selector menu](media/events-recurring-view-selector.png "The view selector menu")
+      ![The view selector menu.](media/events-recurring-view-selector.png "The view selector menu")
 
 1. Edit the event series as required and save your settings.
 
@@ -85,11 +85,11 @@ To change a single event that is part of a series:
 
 1. Set the view selector to **Active Events** (or almost anything other than **Event Series** or **Event Templates**). You should now see a list of individual event occurrences (and non-recurring events).  
 
-    ![Set the view selector to Active Events](media/events-recurring-view-selector2.png "Set the view selector to Active Events")
+    ![Set the view selector to Active Events.](media/events-recurring-view-selector2.png "Set the view selector to Active Events")
 
 1. Find and select the event occurrence that you want to customize. The **Open recurring item** dialog opens; select **Just this one** to edit the event occurrence you have selected (rather than the whole series). Then select OK to make the current occurrence a custom occurrence.  
 
-    ![Open just one event from a series](media/event-recurring-open-single.png "Open just one event from a series")
+    ![Open just one event from a series.](media/event-recurring-open-single.png "Open just one event from a series")
 
 1. Edit your custom occurrence as required and save your settings.
 
@@ -103,15 +103,15 @@ To revert a customized event-series occurrence to a standard occurrence from tha
 
 1. Set the view selector to **Active Events** (or almost anything other than **Event Series** or **Event Templates**). You should now see a list of individual event occurrences (and non-recurring events). 
 
-    ![Screenshot of setting the view selector to Active Events](media/events-recurring-view-selector2.png "Screenshot of setting the view selector to Active Events")
+    ![Screenshot of setting the view selector to Active Events.](media/events-recurring-view-selector2.png "Screenshot of setting the view selector to Active Events")
 
 1. Find and select the custom occurrence that you want to revert. The **Open recurring item** dialog opens; select **Just this one** to edit the custom occurrence and then select **OK**.  
 
-    ![Open just one event from a series](media/event-recurring-open-single.png "Open just one event from a series")
+    ![Open just one event from a series.](media/event-recurring-open-single.png "Open just one event from a series")
 
 1. In the banner at the top of the page, choose **As Default** to revert the current custom occurrence to a standard occurrence.  
 
-    ![Revert the custom occurrence to a standard occurrence](media/event-recurring-custom-revert.png "Revert the custom occurrence to a standard occurrence")
+    ![Revert the custom occurrence to a standard occurrence.](media/event-recurring-custom-revert.png "Revert the custom occurrence to a standard occurrence")
 
 1. Confirm the operation and then save your settings.
 

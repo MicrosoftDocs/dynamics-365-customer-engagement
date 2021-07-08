@@ -34,7 +34,7 @@ The Welcome page has resources to get you started—you’ll see links to videos
 The **Standard settings** page provides an intuitive experience of setting up what's most important with the fewest number of clicks. With just one click, Microsoft Exchange and SharePoint are automatically configured for you, and your users are ready to send out emails or share documents. The quick setup also lets you quickly import data, so your users have it ready in the app to start their work.
 
 > [!div class="mx-imgBorder"]
-> ![Standard settings page](media/standard-settings-page.png "Standard settings page")
+> ![Standard settings page.](media/standard-settings-page.png "Standard settings page")
 
 > [!TIP]
 > To learn how to use the site map to go to different areas of the app, see [Site map on the side](learn-basics-sales-professional.md#site-map).
@@ -51,7 +51,7 @@ drag-and-drop designers to quickly make changes that reflect the
 specific information that your company needs. For example, change the pipeline phases to match your organization’s business flows, or add new fields to capture data relevant to your business—all of this without writing a single line of code.
 
 > [!div class="mx-imgBorder"]
-> ![Customize the business process flow](media/customize-bpf.png "Customize the business process flow")
+> ![Customize the business process flow.](media/customize-bpf.png "Customize the business process flow")
 
 ### See also
 

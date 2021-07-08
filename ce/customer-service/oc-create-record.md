@@ -33,7 +33,7 @@ To create a record
     | New Case | Case | Select this option to create a new case record |
 
     > [!div class=mx-imgBorder]
-    > ![Create account, contact, and case](media/customer-summary-create-record.PNG "Create account, contact, and case")
+    > ![Create account, contact, and case.](media/customer-summary-create-record.PNG "Create account, contact, and case")
 
 
 2. Specify the details in the form fields.
@@ -41,17 +41,17 @@ To create a record
 3. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Fill in the form](media/customer-summary-create-new-contact.PNG "Fill in the form")
+    > ![Fill in the form.](media/customer-summary-create-new-contact.PNG "Fill in the form")
 
 After you save, the record is automatically linked to the conversation. when you switch to the Customer summary page, you can view the auto-linked record.
 
    > [!div class=mx-imgBorder]
-   > ![Automatic linking of the record](media/customer-summary-customer-card-linked.PNG "Automatic linking of the record")
+   > ![Automatic linking of the record.](media/customer-summary-customer-card-linked.PNG "Automatic linking of the record")
 
 If you create the account or contact first and then start to create a case record, the case form shows the linked customer name in the **Customer** field.
 
    > [!div class=mx-imgBorder]
-   > ![Case form automatically links the customer who is already linked to conversation](media/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
+   > ![Case form automatically links the customer who is already linked to conversation.](media/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
 
 ## Create a record using the quick create option
 
@@ -67,7 +67,7 @@ To create a record
  - Account
 
    > [!div class=mx-imgBorder]
-   > ![Create record quickly](media/oc-oceh-create-quick-create.png "Create record quickly")
+   > ![Create record quickly.](media/oc-oceh-create-quick-create.png "Create record quickly")
 
 3. In the left pane, you can see a new record page. Specify the details in the form.
 
@@ -75,7 +75,7 @@ To create a record
 
 
  > [!div class=mx-imgBorder]
- > ![Quick create contact](media/oc-oceh-quick-create-contact.png "Quick create contact")
+ > ![Quick create contact.](media/oc-oceh-quick-create-contact.png "Quick create contact")
 
 After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oc-search-link-unlink-record.md#search-for-records-by-using-the-inline-search-option) 
 
@@ -88,12 +88,12 @@ In the Customer summary page, when you are trying to search a record in customer
 2. Select **New** below the list of records. The Quick create pane appears.
 
     > [!div class=mx-imgBorder]
-    > ![Quick create record](media/customer-summary-search-section-create-case.png "Quick create record")
+    > ![Quick create record.](media/customer-summary-search-section-create-case.png "Quick create record")
 
 3. Fill in the form and select **Save and Close**. The quick create pane closes and the customer summary page refreshes. The record you created is auto-linked in the customer or case section.
 
     > [!div class=mx-imgBorder]
-    > ![Auto-link record](media/customer-summary-search-section-auto-link-case.png "Auto-link record")
+    > ![Auto-link record.](media/customer-summary-search-section-auto-link-case.png "Auto-link record")
 
 ### See also
 

@@ -61,7 +61,7 @@ ms.custom:
 
 5. In the connect screen, provide authentication details to connect to the Dataverse instance where you want to deploy the package. If you have multiple organizations, and want to select the organization where you want to deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, select the **Display list of available organizations** check box. Choose **Login**.  
 
-   ![Authentication details sign in](../../unified-service-desk/media/usd-package-deployer-1.PNG "Authentication details sign in")  
+   ![Authentication details sign in.](../../unified-service-desk/media/usd-package-deployer-1.PNG "Authentication details sign in")  
 
 6. If you have multiple organizations and chose to select the organization that you want to connect to in the previous step, the next screen displays the list of organizations. Select Dataverse organization to connect to, and proceed.  
 
@@ -71,13 +71,13 @@ ms.custom:
 
 9. The **Ready to Install** screen displays the package selected for deployment and name of Dataverse organization where it will be deployed to. Review the information, and choose **Next**.
 
-   ![Package Ready](../../unified-service-desk/media/usd-package-deployer-2.png "Package Ready")
+   ![Package Ready.](../../unified-service-desk/media/usd-package-deployer-2.png "Package Ready")
 
 10. The next screen displays the validation status of the package selected to be deployed. After the validation completes successfully, choose **Next**.
 
 11. The next page displays the package deployment status. You can choose the log link at the bottom-left corner of the screen to view the package deployment log file, PackageDeployer.log. For more information about logging, see [Troubleshoot package deployment issues using log files](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md#Logfiles) later in this topic. A confirmation message is displayed on successful deployment of the package. Click **Next**.
 
-    ![Package deployment status](../../unified-service-desk/media/usd-package-deployer-5.png "Package deployment status")
+    ![Package deployment status.](../../unified-service-desk/media/usd-package-deployer-5.png "Package deployment status")
 
 12. The next screen displays the name and information about the package that you just deployed. Review the information, and choose **Finish** to exit the [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)].
 

@@ -45,7 +45,7 @@ The automation dictionary uses the context data parameters that are available fr
 - [Context data from Dataverse](#context-data-from-dataverse)
 
 > [!div class=mx-imgBorder] 
-> ![Automation dictionary](../media/automation-dictionary-cif.PNG "Automation dictionary")
+> ![Automation dictionary.](../media/automation-dictionary-cif.PNG "Automation dictionary")
 
 ### Context data from the channel provider 
 

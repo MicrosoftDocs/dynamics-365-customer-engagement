@@ -63,7 +63,7 @@ To configure options to download and email chat transcripts for both customers a
     > Whether an administrator chooses to use the email template provided or create their own, the "{conversation.transcript}" text determines where the transcript is injected into email.
 
     > [!div class=mx-imgBorder]
-    > ![Customize email chat transcript](media/oc-chat-transcript-customize-email-transcript.png "Customize email chat transcript")
+    > ![Customize email chat transcript.](media/oc-chat-transcript-customize-email-transcript.png "Customize email chat transcript")
 
 ## Customer experience
 
@@ -72,7 +72,7 @@ Customers can choose to download and email a copy of their chat transcript conve
 - **Download the chat transcript:** Select the download icon at the bottom of the chat screen. 
 
     > [!div class=mx-imgBorder]
-    > ![Download chat transcript](media/oc-chat-transcript-download.png "Download chat transcript")
+    > ![Download chat transcript.](media/oc-chat-transcript-download.png "Download chat transcript")
 
 - **Email the chat transcript:** Select the email icon at the bottom of the chat screen.
 
@@ -81,12 +81,12 @@ Customers can choose to download and email a copy of their chat transcript conve
     2. Select **Send** to receive a copy of the chat transcript once the conversation ends.
 
      > [!div class=mx-imgBorder]
-     > ![Email chat transcript](media/oc-chat-transcript-email.png "Email chat transcript")
+     > ![Email chat transcript.](media/oc-chat-transcript-email.png "Email chat transcript")
 
     At the end of the chat conversation, the following window appears reminding the customer they can either download or email a copy of their chat transcript to themselves.
 
     > [!div class=mx-imgBorder]
-    > ![Chat transcript prompt](media/oc-chat-transcript-prompt-screen.png "Chat transcript prompt")
+    > ![Chat transcript prompt.](media/oc-chat-transcript-prompt-screen.png "Chat transcript prompt")
 
 
 ### See also

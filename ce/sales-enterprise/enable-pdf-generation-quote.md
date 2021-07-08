@@ -16,18 +16,18 @@ The PDF generation capability allows users to generate PDF files directly from D
 > [!IMPORTANT]
 > With the 2020 release wave 2, the PDF generation capability is enhanced to support all custom entities. The PDF enhancements are limited to the web experience and aren't available in the mobile app. If you haven't opted in, or you're using Sales Hub on the mobile app, you'll see the old experience.
 
-1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
+1. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
 2. In the site map, select **Overview**.
 
 3. On the **Overview** page, under **Productivity tools**, select **Manage** for **Convert to PDF**.
 
-    ![Convert to PDF setting on the Overview page](media/convert-to-pdf-option.png "Convert to PDF setting on the Overview page")
+    ![Convert to PDF setting on the Overview page.](media/convert-to-pdf-option.png "Convert to PDF setting on the Overview page")
 
 4. On the **Convert to PDF** page, select the entities for which you want to enable the PDF generation capability.
 
     > [!div class="mx-imgBorder"]
-    > ![Convert to PDF settings](media/convert-to-pdf-setting-enhanced.png "Convert to PDF settings")
+    > ![Convert to PDF settings.](media/convert-to-pdf-setting-enhanced.png "Convert to PDF settings")
 
     1. To see only the entities on which PDF generation is currently enabled, set the **Show only enabled entities** option to **Yes**.  
     2. To filter the list of entities and find a specific entity on which you want to enable PDF generation, use the **Filter by entity name** field. For example, to enable PDF generation on the Opportunity entity, enter **opp** and you'll see the entity name list filtered to show the entity names starting with *opp*.  
@@ -44,7 +44,7 @@ After you enable PDF generation, sellers will be able to generate a PDF, downloa
 
 If you're using Dynamics 365 for phones on a mobile device, you can enable the capability to create PDF files only on the following entities: Accounts, Contacts, Leads, Opportunities, Quotes, Orders, and Invoices.
 
-1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
+1. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
 2. In the site map, select **Overview**.
 
@@ -53,7 +53,7 @@ If you're using Dynamics 365 for phones on a mobile device, you can enable the c
 4. On the **Convert to PDF** page, set the entity toggle to **Enabled** or **Disabled**. For example, if you want to enable PDF generation on Opportunity records, set the **Opportunity** toggle to **Enabled**.  
 
     > [!div class="mx-imgBorder"]    
-    > ![Convert to PDF settings](media/convert-to-pdf-setting.png "Convert to PDF settings")
+    > ![Convert to PDF settings.](media/convert-to-pdf-setting.png "Convert to PDF settings")
 
 5. Select **Save**.
 

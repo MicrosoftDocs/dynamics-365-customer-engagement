@@ -4,7 +4,7 @@ description: "Learn about using access teams and owner teams to colloborate and 
 ms.custom: 
 ms.date: 08/06/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

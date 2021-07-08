@@ -77,7 +77,7 @@ When you're creating a new hosted control, you can select **Chrome Process** as 
 6. Select **Save** to create the hosted control.
 
   > [!div class="mx-imageBorder"]
-  > ![Select hosting type as Chrome Process](media/hosted-control-chrome-process.GIF "Create a hosted control with hosting type as Chrome Process")
+  > ![Select hosting type as Chrome Process.](media/hosted-control-chrome-process.GIF "Create a hosted control with hosting type as Chrome Process")
 
 ### Enable Chrome for Unified Service Desk on client desktops
 
@@ -93,7 +93,7 @@ Example path: C:\Program Files\Microsoft Dynamics CRM USD\USD
 3. Save the file.
 
   > [!div class="mx-imageBorder"]
-  > ![Add a GlobalBrowserMode key with the value of Chrome](media/chrome-process-app-config-file-setting.GIF "Add a GlobalBrowserMode key with the value of Chrome")
+  > ![Add a GlobalBrowserMode key with the value of Chrome.](media/chrome-process-app-config-file-setting.GIF "Add a GlobalBrowserMode key with the value of Chrome")
 
 ### Enable Chrome for an entire organization
 
@@ -114,7 +114,7 @@ Add a new Global UII option named **GlobalBrowserMode** for your organization, a
 7. Select **Save**.
 
   > [!div class="mx-imageBorder"]
-  > ![For the Global Option field, enter GlobalBrowserMode with a value of Chrome](media/chrome-process-uii-option.GIF "For the Global Option field, enter GlobalBrowserMode with a value of Chrome")
+  > ![For the Global Option field, enter GlobalBrowserMode with a value of Chrome.](media/chrome-process-uii-option.GIF "For the Global Option field, enter GlobalBrowserMode with a value of Chrome")
 
 ## Recover a Chrome Process instance
 

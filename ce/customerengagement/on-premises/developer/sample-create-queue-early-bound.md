@@ -4,7 +4,7 @@ decription: The sample code demonstrates how to create a simple queue and set th
 ms.custom: 
 ms.date: 12/18/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

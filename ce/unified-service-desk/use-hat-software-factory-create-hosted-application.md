@@ -44,19 +44,19 @@ The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-applicati
 
       In this topic, you’ll create a web application.
 
-   ![HAT Bing search](../unified-service-desk/media/usd-hat-bing-search.PNG "HAT Bing search")
+   ![HAT Bing search.](../unified-service-desk/media/usd-hat-bing-search.PNG "HAT Bing search")
 
 3. Specify the name and location of the project, and click **OK**.
 
 4. You are prompted to enter a URL for your web application. Type the URL, and then click **OK**.
 
-   ![Application properties for Bing](../unified-service-desk/media/usd-bing-url.PNG "Application properties for Bing")
+   ![Application properties for Bing.](../unified-service-desk/media/usd-bing-url.PNG "Application properties for Bing")
 
     This creates a web application project with an initialization string (Initstring.xml) that contains information about your web application URL, adapter info, and data bindings. This is basic information, and will get updated as you configure your hosted application with automations and bindings.
 
 5. Next, configure the application by using one of the following options by right-clicking the project name, and selecting an option from the shortcut menu.
 
-   ![Use the shortcut menu to configure](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")
+   ![Use the shortcut menu to configure.](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")
 
 
    |             Option             |                                                                                                                                                                             Description                                                                                                                                                                             |

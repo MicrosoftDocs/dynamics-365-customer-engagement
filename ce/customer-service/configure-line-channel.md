@@ -87,7 +87,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
    To create a work stream, see [Create work streams](work-streams-introduction.md).
  
    > [!div class=mx-imgBorder]
-   > ![LINE Callback information](media/line-callback-information.png "LINE Callback URL")
+   > ![LINE Callback information.](media/line-callback-information.png "LINE Callback URL")
 
 5. The Callback URL might take a few minutes to generate. Select **Refresh**.
 
@@ -96,7 +96,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
 7. Make sure that **Use webhook** is enabled in the LINE app dashboard.
  
    > [!div class=mx-imgBorder]
-   > ![LINE callback information](media/line-create-new-channel-2.png "LINE callback information")
+   > ![LINE callback information.](media/line-create-new-channel-2.png "LINE callback information")
 
    > More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
 
@@ -140,7 +140,7 @@ The LINE channel setup is complete.
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **LINE Engagement Context**. For example, you can create a rule to transfer LINE chat from a customer named LINE to the default queue.
 
 > [!div class=mx-imgBorder]
-> ![LINE routing rule creation](media/line-create-routing-rule.png "Create LINE routing rule")
+> ![LINE routing rule creation.](media/line-create-routing-rule.png "Create LINE routing rule")
 
 ## Customer and agent experiences
 

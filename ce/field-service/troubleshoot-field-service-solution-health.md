@@ -43,7 +43,7 @@ To run an analysis job for Field Service:
 1.	Open the Solution Health Hub app.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Solution Health Hub in the navigation](./media/troubleshoot-solution-health-nav.png)
+> ![Screenshot of the Solution Health Hub in the navigation.](./media/troubleshoot-solution-health-nav.png)
 
 2.	Select **Analysis Jobs** and create a new analysis job.
 3.	When the dialog box opens, select **Field Service**.
@@ -59,7 +59,7 @@ Once you run the analysis job, you will be directed to the overview page, which 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-fs-rules-analysis.png)
+> ![Screenshot of a complete analysis job overview.](./media/troubleshoot-solution-health-fs-rules-analysis.png)
 
 
 When running an analysis job, you will see a **Return Status** for each rule, which indicates whether the rule passed, failed, or there was a configuration error. Rules also return a severity if they are failing, which shows how severe each problem is. All possible return status outcomes are listed in the following table. 

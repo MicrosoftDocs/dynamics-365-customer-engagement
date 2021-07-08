@@ -26,8 +26,8 @@ You can use the personalization menu that's accessible through the application t
 
 You can create, edit, and delete the personal quick replies you own. The quick replies that you create are available on the **Personal** tab in the **Quick replies** panel of the conversation window.
 
-1. Sign in to Omnichannel for Customer Service, and on the home page, select the plus sign ![plus sign](media/plus-sign.png) on the application tab.
-   > ![Personalization menu](media/personalization-menu.png "Personalization menu")
+1. Sign in to Omnichannel for Customer Service, and on the home page, select the plus sign ![plus sign.](media/plus-sign.png) on the application tab.
+   > ![Personalization menu.](media/personalization-menu.png "Personalization menu")
 
 2. Select **Personalization**.
 
@@ -39,9 +39,8 @@ You can create, edit, and delete the personal quick replies you own. The quick r
         > - To avoid duplicating quick replies, check the predefined messages before creating a personal quick reply.
         > - Personal quick replies aren't localized in Omnichannel for Customer Service. To provide quick responses in multiple languages, create a separate quick response record for each language and select its corresponding locale.
 
-   > ![Create a personal quick reply](media/create-personal-quick-reply.png "Create a personal quick reply")
-4. In the **Tags** area, enter the keyword you want to associate with the quick reply, and then select ![plus sign](media/plus-sign.png). If you want to use the number sign (#), don't use it anywhere else in the keyword except at the beginning.
-
+   > ![Create a personal quick reply.](media/create-personal-quick-reply.png "Create a personal quick reply")
+4. In the **Tags** area, enter the keyword you want to associate with the quick reply, and then select ![plus sign.](media/plus-sign.png). If you want to use the number sign (#), don't use it anywhere else in the keyword except at the beginning.
 5. Select **Save**.
 
 It can take up to 15 minutes for the quick replies to be available for your use.

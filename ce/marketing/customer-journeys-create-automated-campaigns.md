@@ -26,7 +26,7 @@ Dynamics 365 Marketing can help you visualize and automate the journey that cust
 
 Dynamics 365 Marketing provides a graphical journey modeler that works like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
 
-![An example of a customer journey](media/customer-journey-full3.png "An example of a customer journey")
+![An example of a customer journey.](media/customer-journey-full3.png "An example of a customer journey")
 
 The previous figure shows how a simple customer journey might look. A more complex example could work like this:
 
@@ -52,7 +52,7 @@ To create a new journey, select **New** on the command bar.
 
 When you create a new customer journey, you'll first be presented with a list of customer journey templates, which can help you get started quickly. The **Customer journey templates** dialog box provides a categorized overview of templates and a search form to help you find the one you're looking for. Each template represents a particular type of campaign and includes a pre-configured pipeline and a few related settings that will help you create a customer journey of the selected type.
 
-![Select a Journey Template dialog](media/customer-journey-template.png "Select a journey template")
+![Select a Journey Template dialog.](media/customer-journey-template.png "Select a journey template")
 
 You can also choose to start from scratch instead of using a template. The pipelines provided by a template represent the form and logic of your campaign, but you'll still need to configure the various tiles by&mdash;for example&mdash;assigning the specific marketing email message that should be sent by each email tile.
 
@@ -66,13 +66,13 @@ Use the **Design** tab to design your campaign by adding tiles into a logical fl
 
 You can add tiles to the pipeline by selecting them from the **in-place menu** shown each time you select the "+" button on the canvas.
 
-![Drag a tile from the Toolbox to the canvas](media/customer-journey-segment-start.png "Drag a tile from the Toolbox to the canvas")
+![Drag a tile from the Toolbox to the canvas.](media/customer-journey-segment-start.png "Drag a tile from the Toolbox to the canvas")
 
 The first tile in the pipeline establishes the target audience for the customer journey. This is what determines which contacts are sent down the pipeline. You'll typically start with a segment tile, which finds contacts based on a logical query (a dynamic segment) or on a static segment, where individual contacts are added and removed manually.
 
 After you establish the target audience, most tiles provide features such as those illustrated in the following figure.
 
-![Features of a customer-journey tile](media/customer-journey-tile-features2.png "Features of a customer-journey tile")
+![Features of a customer-journey tile.](media/customer-journey-tile-features2.png "Features of a customer-journey tile")
 
 Legend:
 
@@ -93,7 +93,7 @@ Though most people add and arrange tiles by selecting them from the in-place men
 
 1. Press the **Enter** key on your keyboard and choose the type of tile you want to add from the drop-down list using your mouse or arrow keys. After you select the tile, press the **Enter** key.
 
-    ![Add a tile from the drop-down list](media/customer-journey-add-menu.png "Choose the type of tile you want to add")
+    ![Add a tile from the drop-down list.](media/customer-journey-add-menu.png "Choose the type of tile you want to add")
 
 1. The pipeline is now updated to show all the available insertion points where you can drop your new tile. Use your mouse or arrow keys and the Enter key to choose the location and drop the tile there.
 
@@ -110,7 +110,7 @@ To configure a tile, select it in the pipeline, then go to the tile settings tab
 
 For tiles that must refer to some other record in Dynamics 365 Marketing, such as emails or events, you can choose to leave the record unspecified, choose an existing record, or create a new record to use with the tile. All tiles of this type include the **Properties** settings highlighted in the following figure.
 
-![An example of common tile settings](media/customer-journey-tile-details.png "An example of common tile settings")
+![An example of common tile settings.](media/customer-journey-tile-details.png "An example of common tile settings")
 
 Legend:
 
@@ -144,7 +144,7 @@ To set up a segment tile to target a subscription list:
 
 1. Set the **Segment** field to **Subscription List**, which activates the **Look for Marketing list** field. Then use the **Look for Marketing list** field to find the subscription list you want to use for this journey.
   
-    ![Set a segment tile to load a subscription list](media/customer-journey-subscription-list3.png "Set a segment tile to load a subscription list")
+    ![Set a segment tile to load a subscription list.](media/customer-journey-subscription-list3.png "Set a segment tile to load a subscription list")
 
 > [!IMPORTANT]
 > When a customer journey targets a subscription list, any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a user removes a contact from the list manually using the Dynamics 365 Marketing interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request that all contacts manage their own subscriptions using the subscription center.
@@ -268,7 +268,7 @@ As soon as your journey starts running, it will begin to generate and collect in
 
 Customer journeys pass through many states while you create, edit, and run them. You can now view a full history of these milestones for any customer journey. To see the milestone history, open any live or previously live journey, go to the **Designer** tab, and view the **Journey milestones** panel on the right side of the page.
  
-![Journey events list](media/customer-journey-milestones.png "Journey events list")
+![Journey events list.](media/customer-journey-milestones.png "Journey events list")
 
 ### See also
 

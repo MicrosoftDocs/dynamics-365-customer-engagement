@@ -57,7 +57,7 @@ When your work order or requirement has relevant details and you're ready to sch
 - From the list after selecting a work order record
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing three ways to trigger the schedule assistant in Field Service. ](../../field-service/media/scheduling-schedule-assistant7.png)
+> ![Screenshot showing three ways to trigger the schedule assistant in Field Service.](../../field-service/media/scheduling-schedule-assistant7.png)
 
 ## Schedule assistant filters
 

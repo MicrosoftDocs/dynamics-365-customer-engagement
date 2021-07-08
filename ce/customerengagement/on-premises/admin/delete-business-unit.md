@@ -4,7 +4,7 @@ description: "Delete a business unit to completely remove it from Dynamics 365 C
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -48,7 +48,7 @@ You can delete a business unit to completely remove it from Dynamics 365 Custome
   
 6. Change the view to **Inactive Business Units**.
 
-7. Select the business unit to delete, and then choose the **Delete** icon ![Delete button](../admin/media/delete.gif "Delete button").  
+7. Select the business unit to delete, and then choose the **Delete** icon ![Delete button.](../admin/media/delete.gif "Delete button").  
   
 8. In the **Confirm Deletion** dialog box, choose **Delete**.  
   

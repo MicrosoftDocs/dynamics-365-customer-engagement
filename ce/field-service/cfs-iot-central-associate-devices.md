@@ -31,14 +31,14 @@ Associate a device in Connected Field Service with a customer account so that wo
 2. On the Active Device page, select the dropdown just to the right of "Active IoT Devices" and select the view, "IoT devices without customer account." Select one of these devices.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of IoT devices in Connected Field Service](media/iot-central-associate-devices-2.png)
+> ![Screenshot of a list of IoT devices in Connected Field Service.](media/iot-central-associate-devices-2.png)
 
 3. On the device detail page, start typing the name of the customer account in the "Account" field.
 
     a. For the purposes of this tutorial, you can select "Active Transport Inc." 
     
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the account field on the device detail page in Connected Field Service](media/iot-central-associate-devices-3.png)
+> ![Screenshot of the account field on the device detail page in Connected Field Service.](media/iot-central-associate-devices-3.png)
 
 4. Save the changes you've made (the Save button is in the bottom corner of your window).
 

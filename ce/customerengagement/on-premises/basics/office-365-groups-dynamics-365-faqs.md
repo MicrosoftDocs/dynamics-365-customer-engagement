@@ -3,7 +3,7 @@ title: "Microsoft 365 Groups in Dynamics 365 for Dynamics 365 Customer Engagemen
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

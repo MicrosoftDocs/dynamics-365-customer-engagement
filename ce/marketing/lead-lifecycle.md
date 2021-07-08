@@ -82,7 +82,7 @@ Like many entities in Dynamics 365, lead records support _business processes_. A
 
 The following image shows the out-of-box business process, which creates the horizontal bar in the page header. The Inquiry stage is currently active, and the menu for this stage is shown open. Select any stage of the process to open its menu, where you can enter values, switch to that stage, or advance to the next stage as needed.
 
-![The lead to opportunity marketing sales process](media/lead-lifecycle-process-line.png "The lead to opportunity marketing sales process")
+![The lead to opportunity marketing sales process.](media/lead-lifecycle-process-line.png "The lead to opportunity marketing sales process")
 
 If you don't see the marketing business process on your lead record, then select **Process** > **Switch process** on the command bar and then choose the **Lead to opportunity marketing sales process** in the **Switch process** dialog box. This is the out-of-box process supplied with Marketing; your organization might have its own to match your internal process, in which case you should select that one instead (the rest of this section describes the out-of-box process).
 

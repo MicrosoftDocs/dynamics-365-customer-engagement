@@ -44,7 +44,7 @@ Here is an example:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of mobile projects](./media/mobile-upgrade-project-customizations.png)
+> ![Screenshot of a list of mobile projects.](./media/mobile-upgrade-project-customizations.png)
 
 Now Microsoft has released a new mobile project template (Example: FSDyn_1.0.2735).
 
@@ -60,7 +60,7 @@ The following are steps for option 2:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the mobile projects with attention to the export button](./media/mobile-upgrade-project-export.png)
+> ![Screenshot of the mobile projects with attention to the export button.](./media/mobile-upgrade-project-export.png)
 
 3. Download GitHub Desktop. 
 4. Open GitHub Desktop and initialize a repo in a folder of your choosing. 
@@ -68,7 +68,7 @@ The following are steps for option 2:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the file explorer with attention to the Woodford and Zip files](./media/mobile-upgrade-extract.png)
+> ![Screenshot of the file explorer with attention to the Woodford and Zip files.](./media/mobile-upgrade-extract.png)
 
 
 6. Commit this to the main branch in GitHub desktop. 
@@ -95,7 +95,7 @@ If you created or updated offline HTML files, typically for offline JavaScript w
 If you make changes to a mobile entity, it will show as **Overridden**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the mobile views, forms, and charts list with attention to the default views showing as overridden](./media/mobile-upgrade-overridden.png)
+> ![Screenshot of the mobile views, forms, and charts list with attention to the default views showing as overridden.](./media/mobile-upgrade-overridden.png)
 
 ### See also
 
