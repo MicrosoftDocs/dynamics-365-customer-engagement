@@ -1,6 +1,6 @@
 ---
 title: "getConversationId (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
-description: 
+description: " "
 ms.date: 10/15/2020
 ms.topic: article
 author: platkat
@@ -19,7 +19,6 @@ This function can be called to fetch the unique GUID of the current ongoing conv
 `Microsoft.Omnichannel.getConversationId();`
 
 ## Parameters
-
 None
 
 ## Return Value
@@ -33,6 +32,5 @@ A promise resolved with currently ongoing conversation ID.
 ### See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
