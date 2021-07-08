@@ -1,5 +1,6 @@
 ---
-title: "Place calls with Skype or Skype for Business (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Click to call in Dynamics 365 Customer Engagement (on-premises)"
+description: "If your organization is set up to use Skype or Skype for Business, you can select a phone number and "click to call" your contacts from within the system."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
