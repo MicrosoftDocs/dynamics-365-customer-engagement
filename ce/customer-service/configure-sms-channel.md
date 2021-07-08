@@ -130,16 +130,18 @@ To sign up for TeleSign
 
 7. Select **Save**.
 
-8. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md) and on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+8. (Optional). On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
-9. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
+9. (Optional). On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+
+10. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
 
     > [!div class=mx-imgBorder]
     > ![Validate API Key](media/validate-key.png "Validate API Key")
 
-10. Open the work stream you created for SMS.
+11. Open the work stream you created for SMS.
 
-11. On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity. The customer is identified based on the **Mobile Phone** field and the conversation is automatically linked to the contact record.
+12. On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity. The customer is identified based on the **Mobile Phone** field and the conversation is automatically linked to the contact record.
 
 ## Flow of data between Omnichannel for Customer Service - SMS channel and TeleSign
 

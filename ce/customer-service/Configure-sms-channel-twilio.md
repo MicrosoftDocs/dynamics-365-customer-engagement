@@ -43,6 +43,7 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 ### Configure the SMS channel in Omnichannel admin center
 
 1. In the site map of Omnichannel admin center, select **Channels** under **General Settings**, and select **Add account**.
+
 2. Enter the following details:
    1. In **Channel details**, enter a name, and select SMS in **Channel**.
    2. In **Account details**, select **Twilio** in **Provider**, and then enter the following details:
@@ -54,7 +55,9 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
       - **Description**: Specify a description for the number. (Optional)
    4. In **Callback information**, copy the callback information. You'll use the copied information for the Twilio account.
    5. Select **Done**. The account is configured.
+
 3. Open the workstream that you created for the SMS channel for Twilio.
+
 4. Select **Add SMS Channel**, and then configure the following options:
    1. On the **SMS number** page, select a number from the list.
    2. On the **Language** page, select the language that you want to set as the default.
@@ -65,10 +68,14 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
    4. In **User features**, set the toggle for **File attachments** to On and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md).
      - Customers can send file attachments
      - Agents can send file attachments
-   5. Verify the settings on the **Summary** page, and then select **Finish**. The SMS for Twilio channel is configured.
+   5. Verify the settings on the **Summary** page, and then select **Finish**. The SMS channel for Twilio is configured.
+
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+
+7. Add a bot. More information: [Configure a bot](create-workstreams.md#add-a-bot)
+
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
@@ -76,10 +83,9 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
+### Create a workstream in Omnichannel Administration
 
-### Create a work stream in Omnichannel Administration
-
-Perform the following steps to create a work stream for the SMS channel for Twilio:
+Perform the following steps to create a workstream for the SMS channel for Twilio:
 
 1. Sign in to Omnichannel Administration and go to **Work Distribution Management** > **Work Streams**.
 
@@ -92,7 +98,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 3. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
 
    > [!div class=mx-imgBorder]
-   > ![Work stream settings for Twilio](media/sms-twilio.png "Work stream settings for Twilio")
+   > ![Workstream settings for Twilio](media/sms-twilio.png "Workstream settings for Twilio")
 
 4. On the **SMS Settings** tab, enter the following details:
 
@@ -118,11 +124,13 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 7. Select **Save**.
 
-8. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md) and on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+8. (Optional). On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
-9. On the command bar, select **Validate API Key**. The Twilio account and phone number are validated.
+9. (Optional). On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-10. Configure the routing rules on the **Routing rule items** tab. The routing rule for SMS works on **Mobile Phone** of the **Contact** entity. The customer is identified based on **Mobile Phone**, and the conversation is automatically linked to the contact record.
+10. On the command bar, select **Validate API Key**. The Twilio account and phone number are validated.
+
+11. Configure the routing rules on the **Routing rule items** tab. The routing rule for SMS works on **Mobile Phone** of the **Contact** entity. The customer is identified based on **Mobile Phone**, and the conversation is automatically linked to the contact record.
 
     > [!NOTE]
     > To configure routing rules and other options in the workstream for Twilio, see the following:
