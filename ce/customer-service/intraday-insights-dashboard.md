@@ -180,7 +180,7 @@ This Conversation insights report displays the following metrics about conversat
 
 | Metric | Description |
 |-------|-------|
-| Inbound | The number of conversations created in the last 24 hours. |
+| Inbound | The number of conversations that were started or closed within the last 24 hours. |
 | Ongoing |The number of conversations in Active, Waiting, and Wrap-up statuses. |
 | Waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |
 | Closed | The number of conversations closed in the last 24 hours. |
