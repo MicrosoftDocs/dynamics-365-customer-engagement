@@ -33,7 +33,7 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 
 
-## End-to-end walk-through
+## End-to-end walkthrough
 
 [Step 1: Register your messaging channel](#step-1-register-your-messaging-channel)
 
