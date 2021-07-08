@@ -8,7 +8,7 @@ ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
-# getConversations
+# getConversations 
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
@@ -22,32 +22,12 @@ This function can be used to fetch a list of conversation (`msdyn_ocliveworkitem
 
 | Parameter     | Type   | Description           |
 | ------------- | ------ | --------------------- |
-| input         | String | JSON input. (Required) | 
+| input         | String | JSON input in the following format: (Required) | 
 | correlationId | String | Unique identifier for telemetry logging. (Optional)  |
 
 ## Return Value
 
-A resolved promise with `msdyn_ocliveworkitem` entity records in the following format:
-
-In case of success: 
-
-```javascript 
-    { 
-    result: { 
-    values: [{...}] //Array of objects, each object is a msdyn_ocliveworkitem record 
-    }, 
-    status: Boolean 
-    } 
-``` 
-
-In case of failure: 
-
-```javascript
-{ 
-error: {..}, // Error object 
-status: Boolean 
-} 
-```
+A resolved/reject promise on the basis of the outcome of the operation. 
 
 > [!Note] 
 > Even if the caller doesn't pass any attributes in the input, the function returns the records with the following default attributes: 
@@ -61,24 +41,10 @@ status: Boolean
 
 The following code snippet fetches the currently waiting conversation for the given agent ID: 
 
-```
+```javascript
 var input = { 
-
-    "attributes": ["msdyn_title", "msdyn_channel"], 
-
-    "orderBy": [{ 
-
-        "attributeName": "createdon", 
-
-        "descending": true 
-
-    }], 
-
-    "agentId": "<<AgentId>>", 
-
-    "status": [3], 
-
-}; 
+            "attributes": ["msdyn_title", "msdyn_channel"], "orderBy": [{ "attributeName": "createdon", "descending": true }], 
+"agentId": "<<AgentId>>", "status": [3], }; 
 
 
 Microsoft.Omnichannel.getConversations(input).then(result=>{ 

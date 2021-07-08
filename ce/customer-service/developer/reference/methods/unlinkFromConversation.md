@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This method can be used to unlink an already linked entity record of type customer (account or contact) or case from a conversation. 
+This function can be used to unlink an already linked entity record of type customer (account or contact) or case from a conversation. 
 
 ## Syntax
 

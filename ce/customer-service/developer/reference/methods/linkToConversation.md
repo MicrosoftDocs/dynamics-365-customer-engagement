@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This method can be used to link account, contact, or incident records to the conversation in the focused session. This method will only link the records in the backend. The link is reflected once the page is refreshed. The caller is responsible for the UI refresh. Only one account or contact and one case can be linked to a conversation at a time. If a new customer or case record is linked, it will override the previous record link for the conversation. Omnichannel for Customer Service supports linking only to active conversations. 
+This function can be used to link account, contact, or incident records to the conversation in the focused session. The function will only link the records in the backend. The link is reflected once the page is refreshed. The caller is responsible for the UI refresh. Only one account or contact and one case can be linked to a conversation at a time. If a new customer or case record is linked, it will override the previous record link for the conversation. Omnichannel for Customer Service supports linking only to active conversations. 
 
 ## Syntax
 
