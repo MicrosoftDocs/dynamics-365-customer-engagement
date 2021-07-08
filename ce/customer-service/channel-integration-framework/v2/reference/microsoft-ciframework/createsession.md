@@ -25,13 +25,13 @@ Creates a session based on the session template defined as part of the template 
 
 ## Parameters
 
-| **Name**              | **Type** | **Required** | **Description**                                                                                                                      |
-|-----------------------|----------|--------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| input                 | String   | Yes          | JSON string                                                                                                                          |
+| **Name**              | **Type** | **Required** | **Description** |
+|-----------------------|----------|--------------|-----------------|
+| input                 | String   | Yes          | JSON string     |
 | successCallback       | Function | No           | A function to call when the request is successful. The input to this function is the unique identifier of the newly created session. |
-| errorCallback         | Function | No           | A function to call when the request fails                                                                                            |
+| errorCallback         | Function | No           | A function to call when the request fails   |
 
-The structure of the `input` parameter JSON is as follows.
+The structure of the `input` parameter JSON is as follows:
 
 ```json
 { 
