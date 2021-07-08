@@ -52,7 +52,7 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
     > [!div class="mx-imgBorder"] 
     > ![Outlook Checker pane.](media/outloook-checker-pane.png "Outlook Checker pane") 
 
-    When you set the toggle to **Show**, you can access the **Outlook checker** by selecting **More commands** ![More commands button in Outlook pane](media/morecommends_outlook.png "More commands in Outlook pane").
+    When you set the toggle to **Show**, you can access the **Outlook checker** by selecting **More commands** ![More commands button in Outlook pane.](media/morecommends_outlook.png "More commands in Outlook pane").
    
     > [!div class="mx-imgBorder"] 
     > ![Outlook Checker on the command bar.](media/checker-commandbar.png "Outlook Checker on the command bar")

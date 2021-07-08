@@ -39,6 +39,10 @@ In most ways, Marketing trials are fully functional, but time-limited, productio
 - You can't uninstall or re-install trials using the standard tools provided by the Power Platform admin center. Trials are special and are handled differently than production instances.
 - You don't need to run the [setup wizard](purchase-setup.md) when setting up a trial.
 
+### Is the trial available in all supported geographical regions and languages?
+
+Yes, the trial is available in all regions where the app is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF). For a list of supported languages, see [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages).
+
 ### What are the trial limits and quotas?
 
 The following limitations apply for the trial:

@@ -4,7 +4,7 @@ description: "Configuration class hierarchy can be used to specify the required 
 ms.custom: 
 ms.date: 01/25/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -66,7 +66,7 @@ Use the configuration class hierarchy to specify the required connection data fo
 
  The following diagram shows the public members of the configuration class hierarchy.  
 
- ![Dynamics 365 Customer Engagement Web API Helper Library&#45;Configuration Class Diagram](../media/web-api-helper-library-configuration-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-Configuration Class Diagram")  
+ ![Dynamics 365 Customer Engagement Web API Helper Library&#45;Configuration Class Diagram.](../media/web-api-helper-library-configuration-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-Configuration Class Diagram")  
 
  **Configuration class**  
 

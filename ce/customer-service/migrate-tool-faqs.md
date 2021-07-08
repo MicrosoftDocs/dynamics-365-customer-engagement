@@ -74,7 +74,7 @@ No. We currently only support one level of the related entity hierarchy. For suc
   
 **a.**	Premigration web client view.
 
-![Web view](media/migration-tool-11-a.png "Web view")
+![Web view.](media/migration-tool-11-a.png "Web view")
     
 **Example: Post-migration Unified Interface view** 
   
@@ -83,7 +83,7 @@ No. We currently only support one level of the related entity hierarchy. For suc
 **2b.** The same standard placeholder **Created On equals 2200-01-01** is added to the condition.
 
 
-![Unified Interface view](media/migration-tool-11-b.png "Unified Interface view")
+![Unified Interface view.](media/migration-tool-11-b.png "Unified Interface view")
 
 ### Why do my rule items or conditions with a DateType field that uses a "not on" operator fail during the premigration checkup and actual migration?
 
@@ -93,7 +93,7 @@ The **Not on** operator for the **Date** data type is not supported in Unified I
     
 **a.**	Premigration web client view.
         
-![Web view](media/migration-tool-12-a.png "Web view")
+![Web view.](media/migration-tool-12-a.png "Web view")
 
 **Example: Post-migration Unified Interface view**
     
@@ -103,7 +103,7 @@ The **Not on** operator for the **Date** data type is not supported in Unified I
 **2b.** The condition **Created On equals 2200-01-01** is added to the condition.
 
 
-![Unified Interface view](media/migration-tool-12-b.png "Unified Interface view")
+![Unified Interface view.](media/migration-tool-12-b.png "Unified Interface view")
 
 
 ### Why does the data in my DateTime field change during migration?
@@ -116,7 +116,7 @@ A separate time field doesn't exist in the Unified Interface, so the DateTime fi
     
 **b.**	Premigration **Date only** location.
     
-![Web view](media/faq-arc-sla-web-view-13.png "Web view")
+![Web view.](media/faq-arc-sla-web-view-13.png "Web view")
 
 **Example: Post-migration Unified Interface view** 
 
@@ -124,7 +124,7 @@ A separate time field doesn't exist in the Unified Interface, so the DateTime fi
 
 **b.**	Post-migration **Date only** location
 
-![Unified Interface view](media\faq-arc-sla-uci-view-13.png "Unified Interface view")
+![Unified Interface view.](media\faq-arc-sla-uci-view-13.png "Unified Interface view")
 
 ### Why are some of my operator fields blank in Unified Interface after migration?**
 
@@ -134,13 +134,13 @@ For lookup data types, only the **equal / not equal, null /not null** operators 
     
 **a.**	Premigration web client view.
     
- ![Web view](media/faq-arc-sla-web-client-14.png "Web view")
+ ![Web view.](media/faq-arc-sla-web-client-14.png "Web view")
 
 **Example: Post-migration Unified Interface view**
 
 **b.**	Post-migration Unified Interface view.
     
- ![Unified Interface view](media\faq-arc-sla-uci-14.png "Unified Interface view")
+ ![Unified Interface view.](media\faq-arc-sla-uci-14.png "Unified Interface view")
 
 > [!Note]
 >
@@ -170,9 +170,9 @@ However, there is a limitation with Unified Interface SLA rules, and once a rule
 ### Migration doesn't support multiple items or conditions having the same "applicable when" within same SLA.
 
 In the web client, multiple items can be defined with the same "applicable when" condition and different success criteria for an SLA. However, the same capability is not supported in Unified Interface. Therefore, during migration, the second or subsequent such SLA item with the same "applicable when" condition will not be created. The following screenshots capture the scenario that is not supported in Unified Interface.
-![Applicable when condition with success criteria one](media/applicable-when.png "Applicable when condition with success criteria one")
+![Applicable when condition with success criteria one.](media/applicable-when.png "Applicable when condition with success criteria one")
 
-![Same applicable when condition with different success criteria](media/different-success-condition.png "Same applicable when condition with different success criteria")
+![Same applicable when condition with different success criteria.](media/different-success-condition.png "Same applicable when condition with different success criteria")
 
 
 ### Activity party-type attribute issues during workflow-to-flow conversion.
@@ -185,13 +185,13 @@ Any activity party-type attribute assigned to another activity party-type field 
 
 **b.**	The **To** field will migrate.
     
-![Web view](media/faq-arc-sla-web-client-17.png "Web view")
+![Web view.](media/faq-arc-sla-web-client-17.png "Web view")
 
 **Example: Post-migration Unified Interface view**
 
 **b.**	The **To** field post-migration.
 
-![Unified Interface flow view](media\migration-tool-17-b.PNG "Unified Interface flow view")
+![Unified Interface flow view.](media\migration-tool-17-b.PNG "Unified Interface flow view")
 
 ### First not null checks in expressions within legacy workflow during workflow-to-flow conversion is not supported.
 
@@ -205,7 +205,7 @@ In legacy workflows, a lookup field can be mapped with multiple expressions wher
 **b. Web client view:** In the workflow, the Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}** 
 
 
-![Web view](media/faq-arc-sla-web-client-18.png "Web view")
+![Web view.](media/faq-arc-sla-web-client-18.png "Web view")
 
 > [!Important] 
 > 

@@ -4,7 +4,7 @@ description: "Dynamics 365 Customer Engagement (on-premises) and perform basic c
 ms.custom: 
 ms.date: 01/29/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

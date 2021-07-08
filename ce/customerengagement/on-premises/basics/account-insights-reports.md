@@ -4,7 +4,7 @@ ms.custom:
 description: Report showing account insights.
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -33,7 +33,7 @@ See which account generates the most revenue for your business. Then use the inf
   
  This report is generated from revenue based on opportunities that have been won.  
   
- ![Account Distribution report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/account-distribution-report.png "Account Distribution report in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Account Distribution report in Dynamics 365 Customer Engagement (on-premises).](../basics/media/account-distribution-report.png "Account Distribution report in Dynamics 365 Customer Engagement (on-premises)")  
 
 
 ## Account Overview report
@@ -43,7 +43,7 @@ Get a one-page overview of everything that's happening with an account. The repo
   
 - For support cases, the report shows a chart with closed cases grouped by customer satisfaction level and also by the case status.  
   
-  ![Account Account Overview report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/account-overview-report.png "Account Overview reportn report in Dynamics 365 Customer Engagement (on-premises)")  
+  ![Account Account Overview report in Dynamics 365 Customer Engagement (on-premises).](../basics/media/account-overview-report.png "Account Overview reportn report in Dynamics 365 Customer Engagement (on-premises)")  
  
 
 ## Neglected Accounts report
@@ -72,7 +72,7 @@ See which account generates the most revenue for your business. Then use the inf
   
  This report is generated from revenue based on opportunities that have been won.  
   
- ![Account Distribution report in Dynamics 365 Customer Engagement (on-premises) showing most revenue](../basics/media/account-distribution-report.png "Account Distribution report in Dynamics 365 Customer Engagement (on-premises) showing most revenue")  
+ ![Account Distribution report in Dynamics 365 Customer Engagement (on-premises) showing most revenue.](../basics/media/account-distribution-report.png "Account Distribution report in Dynamics 365 Customer Engagement (on-premises) showing most revenue")  
 
 
 ## Account Overview report
@@ -82,7 +82,7 @@ Get a one-page overview of everything that's happening with an account. The repo
   
 - For support cases, the report shows a chart with closed cases grouped by customer satisfaction level and also by the case status.  
   
-  ![Report shows a chart with closed cases grouped by customer satisfaction level](../basics/media/account-overview-report.png "Report shows a chart with closed cases grouped by customer satisfaction level")  
+  ![Report shows a chart with closed cases grouped by customer satisfaction level.](../basics/media/account-overview-report.png "Report shows a chart with closed cases grouped by customer satisfaction level")  
  
 
 ## Neglected Accounts report

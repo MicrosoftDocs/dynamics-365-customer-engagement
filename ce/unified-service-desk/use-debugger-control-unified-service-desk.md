@@ -24,7 +24,7 @@ To use debugger control in one of your sample [!INCLUDE[pn_unified_service_desk]
 ## Action Calls tab  
  The first tab in the debugger is **Action Calls**. Action calls are the primary mechanisms by which things occur in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Tracking the progress of these, as well as the values used in your replacement parameters, can give you valuable information about your hosted controls.  
   
- ![Unified Service Desk Debugger Action Calls tab](../unified-service-desk/media/usd-debugger-action-calls.png "Unified Service Desk Debugger Action Calls tab")  
+ ![Unified Service Desk Debugger Action Calls tab.](../unified-service-desk/media/usd-debugger-action-calls.png "Unified Service Desk Debugger Action Calls tab")  
   
  The following color highlights are used for the records in the **Action Calls** tab:  
   
@@ -32,17 +32,17 @@ To use debugger control in one of your sample [!INCLUDE[pn_unified_service_desk]
   
 - Red indicates the condition succeeded but the action failed, either due to an exception or because required parameters in the data weren’t replaceable.  
   
-  ![Unified Service Desk Debugger Action Call fail](../unified-service-desk/media/usd-debugger-action-calls-issues.PNG "Unified Service Desk Debugger Action Call fail")  
+  ![Unified Service Desk Debugger Action Call fail.](../unified-service-desk/media/usd-debugger-action-calls-issues.PNG "Unified Service Desk Debugger Action Call fail")  
   
   Right-click on a row or multiple rows in the **Action Calls** tab, and select **Copy Data To Clipboard** from the shortcut menu to copy action call data and then paste it in another application (say Microsoft Word or Notepad) to easily review the data or share the copied data with others using email for troubleshooting.  
   
-  You can also refresh the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to use the latest configuration changes on the server without having to manually restart it by clicking the refresh icon (![Refresh Unified Service Desk Configuration symbol](../unified-service-desk/media/usd-action-call-refresh-icon.png "Refresh Unified Service Desk Configuration symbol")). On clicking this icon, you are prompted whether to reload the configuration. Click **Yes** to reload the configuration or click **No** to cancel.  
+  You can also refresh the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to use the latest configuration changes on the server without having to manually restart it by clicking the refresh icon (![Refresh Unified Service Desk Configuration symbol.](../unified-service-desk/media/usd-action-call-refresh-icon.png "Refresh Unified Service Desk Configuration symbol")). On clicking this icon, you are prompted whether to reload the configuration. Click **Yes** to reload the configuration or click **No** to cancel.  
   
 <a name="DebugOutput"></a>   
 ## Debug Output tab  
  This tab displays a trace listener. If you attached a code debugger to the application, this is the output you would see. It also displays text that will be written to a log file.  
   
- ![Unified Service Desk Debug Output tab](../unified-service-desk/media/usd-debugger-debug-output.png "Unified Service Desk Debug Output tab")  
+ ![Unified Service Desk Debug Output tab.](../unified-service-desk/media/usd-debugger-debug-output.png "Unified Service Desk Debug Output tab")  
   
 <a name="DataParameters"></a>   
 ## Data Parameters tab  
@@ -50,13 +50,13 @@ To use debugger control in one of your sample [!INCLUDE[pn_unified_service_desk]
   
  You can refresh data parameters by clicking the **Update data parameters** button. You can also copy the data parameters to your clipboard.  
   
- ![Unified Service Desk Debug Data Parameters  tab](../unified-service-desk/media/usd-debugger-data-parameters.png "Unified Service Desk Debug Data Parameters  tab")  
+ ![Unified Service Desk Debug Data Parameters  tab.](../unified-service-desk/media/usd-debugger-data-parameters.png "Unified Service Desk Debug Data Parameters  tab")  
   
 <a name="Test"></a>   
 ## Test your action calls and UII actions  
  The debugger also lets you test the existing action calls and UII actions using different conditions and replacement parameters to experiment and view results however you need. To display the area where you can test action calls and UII actions, click the down arrow above the **Action Calls** tab.  
   
- ![Test action calls & UII actions in debugger](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
+ ![Test action calls & UII actions in debugger.](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
   
 - In the **Action Calls** tab, select an action call from the drop-down list, and then click the **Run Action Call** button ![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button") to view the results of the action call. For more information about testing an action call, see the [Test the action call for customizing your display](/previous-versions/dynamicsusd-2/developers-guide/dn864892(v=usd.2)#Test) section in the topic for customizing a theme.  
   

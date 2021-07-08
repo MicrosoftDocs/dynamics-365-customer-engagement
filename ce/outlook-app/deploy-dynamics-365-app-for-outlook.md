@@ -50,17 +50,17 @@ To use Dynamics 365 App for Outlook, you need to set server-side synchronization
 1. From your app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
-   > ![Setting Customizations](media/outlookapp_advancedsettings.png)
+   > ![Setting Customizations.](media/outlookapp_advancedsettings.png)
 
 2. Go **Settings** > **Administration** and then select **System Settings**.
 
    > [!div class="mx-imgBorder"]
-   >![Go to system settings](media/system-settings.png)
+   >![Go to system settings.](media/system-settings.png)
    
 3. Select the **Email** tab, and set **Process Email Using** to **Server-Side Synchronization**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select server-side sync](media/set-sync-settings.png)
+   > ![Select server-side sync.](media/set-sync-settings.png)
 
 
 ## Step 2: Test email configuration and enable mailboxes
@@ -70,32 +70,32 @@ Enable and test your user mailboxes so they can use Dynamics 365 App for Outlook
 1. From your app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
-   > ![Setting Customizations](media/outlookapp_advancedsettings.png)
+   > ![Setting Customizations.](media/outlookapp_advancedsettings.png)
    
 2. Go **Settings** > **Email Configuration** and then select **Mailboxes**.
 
    > [!div class="mx-imgBorder"]
-   > ![Go to mailboxes settings](media/mailboxes.png)
+   > ![Go to mailboxes settings.](media/mailboxes.png)
    
 3. Select the **Active Mailboxes** view, and then select the mailboxes that you want to test and enable. 
 
    > [!div class="mx-imgBorder"]
-   > ![Select the mailboxes that you want to enable](media/select-mailboxes.png)
+   > ![Select the mailboxes that you want to enable.](media/select-mailboxes.png)
 
 4. On the command bar, select **APPROVE EMAIL** and then select **OK**.  
 
    > [!div class="mx-imgBorder"]
-   > ![Select approve email](media/select-mailboxes-1.png)
+   > ![Select approve email.](media/select-mailboxes-1.png)
 
 5. Once approved, select **TEST & ENABLE MAILBOX**.   
 
    > [!div class="mx-imgBorder"]
-   > ![Select test and enable maillbox](media/select-mailboxes-test.png)
+   > ![Select test and enable maillbox.](media/select-mailboxes-test.png)
 
 6. On the confirmation dialog box, select **OK**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select ok to confirm](media/select-mailboxes-confirm.png)
+   > ![Select ok to confirm.](media/select-mailboxes-confirm.png)
 
 You may need to wait for the system to process the updates. The more mailboxes you enable, the longer it may take.
 
@@ -106,7 +106,7 @@ To verify  mailbox is set up correctly, open the mailbox that you tested in the 
 If the set up is successful, the **configuration Test Results** section will change from **Not Run** to **Success**. 
 
 > [!div class="mx-imgBorder"]
-> ![Open a mailbox to verify that it's set up correctly](media/verify-mailbox.png)
+> ![Open a mailbox to verify that it's set up correctly.](media/verify-mailbox.png)
 
 
 ## Step 3: Provide security role access
@@ -152,22 +152,22 @@ App for Outlook also requires server-side synchronization to be properly configu
 1. To add users to the App for Outlook security role, from your app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/outlookapp_advancedsettings.png)
+   >![Setting Customizations.](media/outlookapp_advancedsettings.png)
 
 2. Go **Settings** > **Security** and then select **Users**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select a user settings](media/user-settings.png)
+   > ![Select a user settings.](media/user-settings.png)
 
 3. Select the users from the list and then select **Manage Roles**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select manage roles](media/manage-roles.png)
+   > ![Select manage roles.](media/manage-roles.png)
 
 5. In the **Manage User Roles** dialog, select the **Dynamics 365 App for Outlook User** security role to the users and then select **OK**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select user role](media/select-user-role.png)
+   > ![Select user role.](media/select-user-role.png)
 
 
 ## Step 4: Install App for Outlook
@@ -180,43 +180,43 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
 1. To push the app to your users, from your app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
-   > ![Setting Customizations](media/outlookapp_advancedsettings.png)
+   > ![Setting Customizations.](media/outlookapp_advancedsettings.png)
 
 2. Go **Settings** > **Dynamics 365 App for Outlook**.
 
    > [!div class="mx-imgBorder"]
-   > ![Go to Dynamics 365 App for Outlook](media/settings-app-for-outlook.png)
+   > ![Go to Dynamics 365 App for Outlook.](media/settings-app-for-outlook.png)
 
 3. The **Getting Started with Microsoft Dynamics 365 App for Outlook** page lists all eligible users that can use App for Outlook. You have several different options on how you can deploy the app to your users:
  
     - **Option 1**: Select the checkbox to automatically add App for Outlook to all eligible users. If a user's email is synchronized through server-side synchronization, you won’t have to do anything more to push the app to them.
 
       > [!div class="mx-imgBorder"]
-      > ![Automatically deply the app](media/deploy-app-auto.png)
+      > ![Automatically deply the app.](media/deploy-app-auto.png)
    
    
     - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. The **Status** will change to **Pending**.
 
       > [!div class="mx-imgBorder"]
-      > ![Automatically deply the app for eigible users](media/deploy-app-auto-1.png)
+      > ![Automatically deply the app for eigible users.](media/deploy-app-auto-1.png)
 
    
    - **Option 3**: Push the app to certain users, select those users in the list, and then select **Add App to Outlook**.
    
       > [!div class="mx-imgBorder"]
-      > ![Automatically deply the app to certain users](media/add-app-to-selected.png)
+      > ![Automatically deply the app to certain users.](media/add-app-to-selected.png)
    
    
 4. The status will change to **Added to Outlook** and the app will be available for your users. 
 
    > [!div class="mx-imgBorder"]
-   > ![Status changes to added to Outlook](media/added-to-outlook.png)
+   > ![Status changes to added to Outlook.](media/added-to-outlook.png)
 
 
 The app will appear in the Outlook ribbon for the added users.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open App for Outlook pane](media/open-pane-appforoutlook.png)  
+   > ![Open App for Outlook pane.](media/open-pane-appforoutlook.png)  
 
 
 ### Have users install App for Outlook themselves  
@@ -225,12 +225,12 @@ The app will appear in the Outlook ribbon for the added users.
 1. From your app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
-   > ![Setting Customizations](media/outlookapp_advancedsettings.png)
+   > ![Setting Customizations.](media/outlookapp_advancedsettings.png)
 
-2. Select the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), again and then select **Apps for Dynamics 365 apps**.  
+2. Select the **Settings** button ![Settings button.](../admin/media/mp-ua-r16-settings.png "Settings button"), again and then select **Apps for Dynamics 365 apps**.  
 
    > [!div class="mx-imgBorder"]
-   > ![Select Apps for Dynamics 365 apps](media/apps-for-ce.png)
+   > ![Select Apps for Dynamics 365 apps.](media/apps-for-ce.png)
 
 3. In the **Apps for Dynamics 365 apps** screen, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, users select **Add app to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]**.  
 
@@ -247,7 +247,7 @@ The app will appear in the Outlook ribbon for the added users.
 ## Troubleshooting installation problems  
 
 
-1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature.
+1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button.](../admin/media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature.
 
 2. If you or your users have trouble installing [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], it may be because their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox is currently linked to another Microsoft Dataverse environment or Customer Engagement (on-premises) organization. An [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize appointments, contacts, and tasks with one [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  You can overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] if you want to change the primary synchronizing organization. For more information, see [this KB article.](https://support.microsoft.com/en-gb/help/3211627/incomingemailrejected-error-when-attempting-to-install-dynamics-365-app-for-outlook)
 

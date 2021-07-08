@@ -17,12 +17,12 @@ Great news! A lead that you thought wasn't interested has contacted you, and it 
 1.  On the list of leads, select the down arrow, and then select the **Closed Leads** view.  
 
    > [!div class="mx-imgBorder"]
-   > ![Shows closed leads in Dynamics 365 Sales](../sales-enterprise/media/close-sales-lead.png "Shows closed leads in Dynamics 365 Sales")  
+   > ![Shows closed leads in Dynamics 365 Sales.](../sales-enterprise/media/close-sales-lead.png "Shows closed leads in Dynamics 365 Sales")  
   
 2.  Select the lead you want to reopen, and then select **Reactivate Lead**.  
 
    > [!div class="mx-imgBorder"]  
-   > ![Shows reactivating a lead in Dynamics 365 Sales](../sales-enterprise/media/sales-lead-reactivate.png "Shows reactivating a lead in Dynamics 365 Sales")  
+   > ![Shows reactivating a lead in Dynamics 365 Sales.](../sales-enterprise/media/sales-lead-reactivate.png "Shows reactivating a lead in Dynamics 365 Sales")  
   
 ### See also  
  [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md)   

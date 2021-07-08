@@ -101,13 +101,13 @@ If you deploy the sample package or import the solution, in either way you can f
 > Alternatively, there are two other ways to go to the app. 
 > - Use the `https://<orgURL>.dynamics.com/apps` to navigate to the **Unified Service Desk Administrator** app.
 > - Go to Settings > **My Apps** > **Unified Service Desk Administrator**.<br><br>
-> If you use any of the above mentioned steps, you can select the app. <br>![Unified Service Desk Administrator app](../media/usd-crm-admin-app.PNG "Unified Service Desk Administrator app")
+> If you use any of the above mentioned steps, you can select the app. <br>![Unified Service Desk Administrator app.](../media/usd-crm-admin-app.PNG "Unified Service Desk Administrator app")
 
 ## Unified Service Desk Administrator app Layout
 
 When you navigate to the Unified Service Desk Administrator app, layout by default opens the configuration element - **Hosted Controls**. 
 
-![Unified Service Desk Administrator app Layout](../unified-interface/media/usd-crm-unified-interface-admin-app-layout.PNG "Unified Service Desk Administrator app Layout")
+![Unified Service Desk Administrator app Layout.](../unified-interface/media/usd-crm-unified-interface-admin-app-layout.PNG "Unified Service Desk Administrator app Layout")
 
 ### 1. Quick-access Configuration Toolbar
 
@@ -127,7 +127,7 @@ The quick-access toolbar is same as **Basic Settings** under the **Site Map** an
 
 Site Map contains the complete configuration elements required to administer and manage your Unified Service Desk client application.
 
-![Site Map](../unified-interface/media/usd-crm-admin-app-site-map-callouts.PNG "Site Map")
+![Site Map.](../unified-interface/media/usd-crm-admin-app-site-map-callouts.PNG "Site Map")
 
   A. **Recent** - You can find all the recently used configurational elements here.
 

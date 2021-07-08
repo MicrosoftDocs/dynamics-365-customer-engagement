@@ -78,7 +78,7 @@ ms.custom:
   
   - **Tier 2 Dashboard**.  Displays lists or visualizations for several service key performance indicators associated with the agent, such as active cases, cases by priority, cases by product, case mix by incident type, and agent totals for active cases, resolved cases, activities, and phone calls.  
   
-  ![Unified ServiceDesk interactive service hub package](../../unified-service-desk/media/unifiedservicedeskishpackage.PNG "Unified ServiceDesk interactive service hub package")  
+  ![Unified ServiceDesk interactive service hub package.](../../unified-service-desk/media/unifiedservicedeskishpackage.PNG "Unified ServiceDesk interactive service hub package")  
 
   ## See also  
   [Unified Service Desk Overview](../../unified-service-desk/admin/overview-unified-service-desk.md)

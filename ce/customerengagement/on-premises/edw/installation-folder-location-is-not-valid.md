@@ -1,7 +1,7 @@
 ---
 title: "Installation folder location is not valid | Microsoft Docs"
 description: Environment diagnostics warning that the specified installation folder isn't valid.
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

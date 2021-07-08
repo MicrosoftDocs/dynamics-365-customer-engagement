@@ -27,7 +27,7 @@ Each predefined hosted control type in [!INCLUDE[pn_unified_service_desk](../inc
   
 4. Select **Related** tab, and select **UII Actions** or **Events** to view the predefined UII actions or events for the hosted control.   
   
-   ![Navigation to predefined UII actions and events](../unified-service-desk/media/usd-hosted-control.png "Navigation to predefined UII actions and events")  
+   ![Navigation to predefined UII actions and events.](../unified-service-desk/media/usd-hosted-control.png "Navigation to predefined UII actions and events")  
   
 ### See also  
  [UII actions](../unified-service-desk/uii-actions.md)   

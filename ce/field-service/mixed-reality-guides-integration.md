@@ -22,7 +22,7 @@ search.app:
 
 Integration with Dynamics 365 Guides lets Field Service customers attach mixed reality guides to Field Service tasks. When work orders are assigned to technicians, the technicians can use a dedicated **Field Service** tab in the Dynamics 365 Guides HoloLens app to launch the assigned guide and get their work done. 
 
-![Select guide](media/select-guide.PNG "Select guide")   
+![Select guide.](media/select-guide.PNG "Select guide")   
 
 > [!IMPORTANT]
 > To attach guides to service tasks in Field Service, you'll need Dynamics 365 Field Service version 8.6.0.183 or later.
@@ -39,30 +39,30 @@ Integration with Dynamics 365 Guides lets Field Service customers attach mixed r
 
    1. To create a new work order in Field Service, select **Work Orders** in the left navigation, and then select **New Work Order**.
    
-      ![Create work order](media/create-work-order.PNG "Create work order")  
+      ![Create work order.](media/create-work-order.PNG "Create work order")  
       
    2. In the **Service Tasks** view, select the **More Commands** button (...), and then select **Add New Work Order Service Task**.
    
-      ![Add new task](media/add-new-task.PNG "Add new task")   
+      ![Add new task.](media/add-new-task.PNG "Add new task")   
       
    3. In the **New Work Order Service Task** view, select a task type, provide an optional description, and then select a 
    guide to associate with the service task. Select **Save** when you're done.
    
-      ![Select task type and associate guide](media/new-work-order-options.PNG "Select task type and associate guide")   
+      ![Select task type and associate guide.](media/new-work-order-options.PNG "Select task type and associate guide")   
       
 3. Assign the work order to a resource (the technician). To do this, you need to create a booking for the resource:
 
    1. In the **Work Order** view, scroll down to the **Bookings** tab, select the **More Commands** (...) button, and then select **Add New Bookable Resource**.
    
-      ![Add bookable resource](media/add-bookable-resource.PNG "Add bookable resource")   
+      ![Add bookable resource.](media/add-bookable-resource.PNG "Add bookable resource")   
       
    2. In the **New Bookable Resource Booking** view, schedule the service task at the appropriate time for the technician, and then select the appropriate technician as the resource.
    
-      ![Schedule and select resource](media/schedule-select-resource.PNG "Schedule and select resource")   
+      ![Schedule and select resource.](media/schedule-select-resource.PNG "Schedule and select resource")   
       
 4. Have your technician launch the Dynamics 365 Guides app on HoloLens. After signing in, the technician will see the **Field Service** tab. The tab shows the guide (and any other guides assigned to them) along with a brief description of the booking and when that order is scheduled.
 
-    ![Select guide](media/select-guide-3.PNG "Select guide")   
+    ![Select guide.](media/select-guide-3.PNG "Select guide")   
     
     
 > [!NOTE]
@@ -76,7 +76,7 @@ Integration with Dynamics 365 Guides lets Field Service customers attach mixed r
 
 - When assigning a guide to a Field Service service task, there's an option to create a new guide. Do not use this option to create a new guide. Guides must be created using the Dynamics 365 Guides PC and HoloLens apps as described in step 1 of this procedure.
    
-   ![Create a new guide from Field Service](media/create-new-guide-from-field-service.PNG "Create a new guide from Field Service")   
+   ![Create a new guide from Field Service.](media/create-new-guide-from-field-service.PNG "Create a new guide from Field Service")   
 
 ### See also
 

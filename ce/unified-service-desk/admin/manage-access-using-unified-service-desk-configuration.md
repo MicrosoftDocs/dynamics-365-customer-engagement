@@ -63,7 +63,7 @@ You can add the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-u
 
 7. Enter an alphanumeric value as the cache key in the text box of the **Configuration Cache Version** field, and then select **Save**. <br>For example, the alphanumeric value can be updated as **XY12**. To learn more about Configuration Cache Version, see [Cache specific configuration for agents](set-configuration-cache-version.md).
   
-   ![Menu with components added to configuration](../../unified-service-desk/unified-interface/media/usd-configuration-1.PNG "Menu with components added to configuration")  
+   ![Menu with components added to configuration.](../../unified-service-desk/unified-interface/media/usd-configuration-1.PNG "Menu with components added to configuration")  
   
 8. Select a component to add it. Each tab has certain components in it. The table provides the components available in different tabs.
 
@@ -78,13 +78,13 @@ You can add the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-u
 
 10. Select the more commands (...) in the component section, and then select **Add Existing <component name>**. The **Lookup Records** pane appears. Type the name of the component in the search box and then select **Add**. If a record doesn’t exist, select **+ New** to create an instance of the component you want to add. When you select **+ New**, a confirmation dialog appears. Ensure that you've saved the record before leave the page. Now, when you select **OK**, the component page appears.
   
-   ![Add existing component record](../../unified-service-desk/unified-interface/media/usd-configuration-2.PNG "Add existing component record")  
+   ![Add existing component record.](../../unified-service-desk/unified-interface/media/usd-configuration-2.PNG "Add existing component record")  
   
 11. After you create the component, select **Configuration** in the site map and select the record for which you wanted to add the component.
 
 12. Select the tab and select  the more commands (...) in the component section, and then select **Add Existing <component name>**. The **Lookup Records** pane appears. Type the name of the component in the search box and then select **Add**.
   
-13. Select **Save** ![Auto save button](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save the configuration.
+13. Select **Save** ![Auto save button.](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save the configuration.
 
 14. Repeat steps 9 to 13 to add other components to the configuration.
   
@@ -128,7 +128,7 @@ You can add the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-u
   
 6. Type the name of the Audit & Diagnostic record in the search box, and then select the record.  
   
-7. After you add the Audit & Diagnostics record, select the **Save** button ![Auto save button](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save the configuration.  
+7. After you add the Audit & Diagnostics record, select the **Save** button ![Auto save button.](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save the configuration.  
   
 <a name="Assign"></a>
   
@@ -147,13 +147,13 @@ You can add the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-u
   
 6. Select the **Related** tab, and then select **Assigned Users**. Now, you can either assign the configuration to an existing user, or create a new user and assign the configuration to it.
   
-   ![Navigation to assign users to a configuration](../../unified-service-desk/unified-interface/media/usd-configuration-3.PNG "Navigation to assign users to a configuration")  
+   ![Navigation to assign users to a configuration.](../../unified-service-desk/unified-interface/media/usd-configuration-3.PNG "Navigation to assign users to a configuration")  
   
 7. Select **Add Existing User**. The **Lookup Records** pane appears.
   
 8. Type the name of the required user in the search box and select **Search**. Now, select the user from the list, and then select **Add**.
   
-9. Select the **Save** button ![Auto save button](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save your changes.  
+9. Select the **Save** button ![Auto save button.](../../unified-service-desk/media/cust-auto-save-icon.png "Auto save button") to save your changes.  
   
      If you select the user name under the **Name** column, the user record opens, and you can see that the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration is assigned to the user in the **USD Configuration** field.
   

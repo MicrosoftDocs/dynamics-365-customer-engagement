@@ -38,7 +38,7 @@ You can create only one prioritization ruleset per queue.
 
 As an example, consider the prioritization rule as seen in the following screenshot. This rule will match all the work items where the routed record (case) contains data and priority equals high. The matched items will be further sorted based on a first in and first out attribute.
 
-![Prioritization scenario](media/ur-prioritization-scenario.png "Prioritization scenario")
+![Prioritization scenario.](media/ur-prioritization-scenario.png "Prioritization scenario")
 
 ## How assignment rulesets work
 
@@ -46,7 +46,7 @@ The assignment ruleset is an order list of assignment rules. Each assignment rul
 
 A sample assignment rule is explained in the following scenario with a screenshot.
 
-![Sample assignment method](media/ur-sample-assign-scenaro.png "Sample assignment method")
+![Sample assignment method.](media/ur-sample-assign-scenaro.png "Sample assignment method")
 
 The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators and values for each attribute, such as the **Presence status** attribute should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition will be matched at runtime based on the expression you specify. For example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level,"
 the "preferred customer type" of every agent will be matched against the dynamically calculated membership level of the customer associated with the chat.
@@ -97,7 +97,7 @@ You can create a sample assignment rule with the following conditions.
 | Available capacity | Is greater than | Static value | 50 |
 ||||
 
-![Sample assignment rule](media/ur-sample-assign-rule.png "Sample assignment rule")
+![Sample assignment rule.](media/ur-sample-assign-rule.png "Sample assignment rule")
 
 ### Configure selection criteria
 

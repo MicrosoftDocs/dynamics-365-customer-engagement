@@ -13,7 +13,7 @@ A product catalog includes the list of products and services that your company s
 
 **To configure the product catalog settings**
 
-1. In the Sales Hub app, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App settings**.
+1. In the Sales Hub app, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App settings**.
 
 2. Under **Product catalog**, select **Product catalog settings**.
 

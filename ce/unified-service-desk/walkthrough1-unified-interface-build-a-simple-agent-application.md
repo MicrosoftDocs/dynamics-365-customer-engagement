@@ -109,7 +109,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 
 7. Type `Contoso` in the search bar, and select the search icon. The three hosted controls that you created earlier are displayed in the search results. Select the records and then select **Add**. 
   
-   ![Add the hosted controls to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
+   ![Add the hosted controls to the configuration.](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
   
     The hosted controls are added to the configuration. 
 
@@ -128,7 +128,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 3. Select **Save**.  
   
-   ![User added to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration") 
+   ![User added to the configuration.](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration") 
   
 <a name="Step4"></a>   
 ## Step 4: Test the application  
@@ -136,7 +136,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
  Your agent application will look like the following:  
   
- ![Basic agent application without any controls](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
+ ![Basic agent application without any controls.](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
   
  The desktop in the agent application is empty because no other controls were added to **Contoso Configuration** apart from the hosted controls required for setting up a basic agent application. In the rest of the walkthroughs, you’ll see controls appear in the agent application as you progressively configure and add controls to **Contoso Configuration**. 
   

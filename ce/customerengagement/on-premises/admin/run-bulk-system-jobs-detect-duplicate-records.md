@@ -4,7 +4,7 @@ description: "Check for duplicates regularly to make sure that users don’t ina
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -50,7 +50,7 @@ To maintain the integrity of system data, you should check for duplicates regula
   
 7. To further limit the records searched, click **Select** and then enter the criteria you want.  
   
-   ![Screenshot of duplicate detection wizard, page 1](../admin/media/duplicate-detection-wizard.png "Screenshot of duplicate detection wizard, page 1")  
+   ![Screenshot of duplicate detection wizard, page 1.](../admin/media/duplicate-detection-wizard.png "Screenshot of duplicate detection wizard, page 1")  
   
 8. Click **Next**.  
   

@@ -39,7 +39,7 @@ In the next screenshot, you'll see that same schedule *with* **Allow travel time
 By not considering travel time as part of a technician's working hours, schedulers may see improved resource utilization.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/rso-travel-outside-utilization.png)
+> ![Screenshot of .](./media/rso-travel-outside-utilization.png)
 
 In this article, we'll walk through how to enable **Allow travel time outside of working hours** in resource scheduling optimization.
 For more information, see the following video for a walkthrough.
@@ -82,7 +82,7 @@ Now it's time to test your work. You can either run resource scheduling optimiza
 Travel time begins before the start of working hours, as shown in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a schedule that shows travel time outside of work hours](./media/rso-travel-outside-after2.png)
+> ![Screenshot of a schedule that shows travel time outside of work hours.](./media/rso-travel-outside-after2.png)
 
 Since we used 30 minutes as our travel time limit example, you'll see that is respected in this example optimized schedule.
 

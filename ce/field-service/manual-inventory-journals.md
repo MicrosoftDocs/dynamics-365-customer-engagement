@@ -22,7 +22,7 @@ search.app:
 In Dynamics 365 Field Service, organizations can track their product inventory. For any given warehouse and product, an organization can track **Available**, **On Hand**, **On Order**, and **Allocated** inventory.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of product inventory levels](./media/inventory-product-inventory-levels.png)
+> ![Screenshot of product inventory levels.](./media/inventory-product-inventory-levels.png)
 
 **Inventory Journals** is a Field Service entity that serves as a ledger for all inventory changes related to field service warehouses and products. 
 
@@ -58,7 +58,7 @@ Inventory journals are accessed through **Advanced Find**; they are *not* part o
 Navigate to **Advanced Find** and select the **Inventory Journals** entity; choose **Results** to view existing inventory journals.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the advanced find window in Field SErvice](./media/inventory-inventory-journals-advanced-find1.png)
+> ![Screenshot of the advanced find window in Field SErvice.](./media/inventory-inventory-journals-advanced-find1.png)
 
 
 ### 2. Create a manual inventory journal
@@ -68,12 +68,12 @@ Next, we'll create a new manual inventory journal.
 Select **New Inventory Journal**, as seen highlighted in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of inventory journals](./media/inventory-inventory-journals-advanced-find.png)
+> ![Screenshot of inventory journals.](./media/inventory-inventory-journals-advanced-find.png)
 
 Set the **Transaction Type** field to **Manual**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of manual inventory journal creation](./media/inventory-create-manual-journal.png)
+> ![Screenshot of manual inventory journal creation.](./media/inventory-create-manual-journal.png)
 
 Many fields on the inventory journal form are locked because they relate to field service inventory processes, such as the purchase order process. However, manual inventory journals are designed to work outside of field service inventory processes, making the locked fields irrelevant. 
  
@@ -84,7 +84,7 @@ Select a journal type for your manual inventory. This will determine how the inv
 - Creating an **Allocated** journal will increase **Allocated** product inventory and reduce **Available** inventory.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of journal type dropdown](./media/inventory-manual-journal-type.png)
+> ![Screenshot of journal type dropdown.](./media/inventory-manual-journal-type.png)
 
 > [!Note]
 > Quantity value can be negative to decrement inventory.
@@ -95,7 +95,7 @@ Select a journal type for your manual inventory. This will determine how the inv
 Navigate to **Field Service > Warehouse > Product Inventory** to view inventory changes, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of product inventory tab](./media/inventory-new-product-inventory-levels.png)
+> ![Screenshot of product inventory tab.](./media/inventory-new-product-inventory-levels.png)
 
 ## Additional notes
 

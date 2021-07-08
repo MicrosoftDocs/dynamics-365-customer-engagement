@@ -22,13 +22,13 @@ You can sign in to the Dynamics 365 Sales mobile app by using the work email add
 
 2. On the welcome screen, tap **Sign in**.
 
-    ![Sign in screen](media/sm-sign-in.png "Sign in screen")
+    ![Sign in screen.](media/sm-sign-in.png "Sign in screen")
 
 3. Enter your email and password.
 
 4. From the list of apps, tap the app you want to use.
 
-    ![Select an app](media/sm-apps-list.png "Select an app")
+    ![Select an app.](media/sm-apps-list.png "Select an app")
 
 ### Sign out from the app
 
@@ -36,11 +36,11 @@ You can sign in to the Dynamics 365 Sales mobile app by using the work email add
 
 2. Tap **Settings**.
 
-    ![Tap Settings](media/sm-select-settings.png "Tap Settings")
+    ![Tap Settings.](media/sm-select-settings.png "Tap Settings")
 
 3. Under the **Account** section, tap **Sign out**.
 
-    ![Sign out](media/sm-settings-panel.png "Sign out")
+    ![Sign out.](media/sm-settings-panel.png "Sign out")
 
 ## View non-production apps
 
@@ -52,7 +52,7 @@ By default, the production apps are displayed. If you want to see the apps from 
 
 2. Turn on the **Show non-production apps** toggle.
 
-    ![Show non-production apps toggle](media/non-prod-apps-toggle.png "Show non-production apps toggle")
+    ![Show non-production apps toggle.](media/non-prod-apps-toggle.png "Show non-production apps toggle")
 
 3. In the confirmation message, tap **Confirm**.
 
@@ -68,7 +68,7 @@ By default, the production apps are displayed. If you want to see the apps from 
 
 4. Turn on the **Show non-production apps** toggle.
 
-    ![Show non-production apps toggle](media/non-prod-apps-toggle.png "Show non-production apps toggle")
+    ![Show non-production apps toggle.](media/non-prod-apps-toggle.png "Show non-production apps toggle")
 
 5. In the confirmation message, tap **Confirm**.
 
@@ -79,12 +79,12 @@ By default, the production apps are displayed. If you want to see the apps from 
 
 When you sign in and select the app for the first time, you'll see the display cards. Review the display cards on the app and on the last card, select **Let's go** to move to the home page.
 
-![Second welcome screen](media/sm-welcome-screen1.png "Second welcome screen")
+![Second welcome screen.](media/sm-welcome-screen1.png "Second welcome screen")
 
 The home page is displayed as shown in the following example screen:
 
 > [!div class="mx-imgBorder"]
-> ![Sales mobile app home page](media/sa-home-page.png "Sales mobile app home page") 
+> ![Sales mobile app home page.](media/sa-home-page.png "Sales mobile app home page") 
 
 ### See also
 

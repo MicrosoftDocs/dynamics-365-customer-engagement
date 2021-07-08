@@ -4,7 +4,7 @@ description: "View the fields that are synchronized between Customer Engagement 
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -34,7 +34,7 @@ In [!INCLUDE[pn_crm_2015_outlook](../includes/pn-crm-2015-outlook.md)] or later,
 
 ## View the synchronized fields  
 
-1. In the web app, in the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](../../../outlook-app/media/priv-user.gif "User profile Settings button") > **Options**.  
+1. In the web app, in the upper-right corner of the screen, click the **Settings** button ![User profile Settings button.](../../../outlook-app/media/priv-user.gif "User profile Settings button") > **Options**.  
 
 2. In the **Set Personal Options** dialog box, choose the **Synchronization** tab.    
 
@@ -42,7 +42,7 @@ In [!INCLUDE[pn_crm_2015_outlook](../includes/pn-crm-2015-outlook.md)] or later,
 
 4. In the **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]** dialog box, click the **Synchronization Fields** tab.  
 
-   ![Field-level Sync tab](media/field-level-sync-tab.png "Field-level Sync tab")  
+   ![Field-level Sync tab.](media/field-level-sync-tab.png "Field-level Sync tab")  
 
 5. In the **Entity Type** list, select the record type you want to view.  
 
@@ -53,8 +53,8 @@ In [!INCLUDE[pn_crm_2015_outlook](../includes/pn-crm-2015-outlook.md)] or later,
    |------------|---------------|
       | ![One-way sync arrow (right) in Dynamics 365 for Customer Engagement](media/one-way-sync-arrow-right.png "One-way sync arrow (right) in Dynamics 365 for Customer Engagement") | Are synced one way from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] to Customer Engagement (on-premises) |
    |  ![One-way sync arrow (left) in Dynamics 365 for Customer Engagement](media/one-way-sync-arrow-left.png "One-way sync arrow (left) in Dynamics 365 for Customer Engagement")   | Are synced one way from Customer Engagement (on-premises) to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] |
-   |            ![Two-way sync arrow in Dynamics 365 for Customer Engagement](media/two-way-sync-arrow.png "Two-way sync arrow in Dynamics 365 for Customer Engagement")            |                                                                  Are synced two way                                                                  |
-   |       ![No synchronization arrow for Dynamics 365 for Customer Engagement](media/no-sync-arrow.png "No synchronization arrow for Dynamics 365 for Customer Engagement")        |                                                                    Aren’t synced                                                                     |
+   |            ![Two-way sync arrow in Dynamics 365 for Customer Engagement.](media/two-way-sync-arrow.png "Two-way sync arrow in Dynamics 365 for Customer Engagement")            |                                                                  Are synced two way                                                                  |
+   |       ![No synchronization arrow for Dynamics 365 for Customer Engagement.](media/no-sync-arrow.png "No synchronization arrow for Dynamics 365 for Customer Engagement")        |                                                                    Aren’t synced                                                                     |
 
    > [!NOTE]
    >  Field synchronization direction can be impacted by security settings configured by your system administrator. For example, if you don’t have read privileges for a field, it won’t be synchronized in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] even if the field is configured for two-way synchronization. To determine whether you have read privileges for a field, click the **View in Customer Engagement (on-premises)** button to open the record in Customer Engagement (on-premises). If you see the **Lock** icon, you can’t access the field.  

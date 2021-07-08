@@ -72,7 +72,7 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 1. Open the **Form hosting** tab that appears.
 
-    ![The form hosting tab](media/marketing-form-hosting2.png "The form hosting tab")
+    ![The form hosting tab.](media/marketing-form-hosting2.png "The form hosting tab")
 
 1. In the **Related marketing form pages** column, select **Add new form page** (select the the ellipsis button here to find this command if you don't see it). A quick-create flyout slides in. A _form page_ is a virtual page where you can make a few extra configuration settings for forms that will be embedded externally.
 
@@ -112,7 +112,7 @@ To create a form with prefilling that you can embed on an external website:
 
 1. Set up domain authentication for the external domain (website) where you'll host your form, and be sure to select the **Enable prefilled forms** checkbox. You don't need to also enable email authentication on that domain, but you can. For instructions, go to [Authenticate your domains](mkt-settings-authenticate-domains.md).
 
-    ![Enable prefilling on an authenticated domain](media/authenticated-domains-prefill.png "Enable prefilling on an authenticated domain")
+    ![Enable prefilling on an authenticated domain.](media/authenticated-domains-prefill.png "Enable prefilling on an authenticated domain")
 
 1. Create a form with the required fields and design elements, as described in [Create, view, and manage marketing forms](marketing-forms.md).
 
@@ -146,13 +146,13 @@ To set up a form capture:
 
 1. **Enter the form location**: Enter the URL of the third-party page where the form capture wizard will check if there is a valid tracking script inserted. Your webpage will open in a new tab where the wizard will continuously check for tracking scripts. This enables the wizard to detect dynamically injected scripts. Leave this tab open until you're finished capturing your form.
 
-    ![Enter the form location](media/embed-forms-location.png "Enter the form location")
+    ![Enter the form location.](media/embed-forms-location.png "Enter the form location")
 
 1. Select the button in the new tab to proceed to the next steps in the form capture wizard.
 
 1. **Check for a tracking script**: If this is your first time capturing this form and you need to generate a script for your website, select **I need a new script**. This will create a website entity, which you can access in the **Marketing websites** section and rename later. If you already have a script, use the dropdown list to find your script for the form’s webpage.
 
-    ![Check for the tracking script](media/embed-forms-check-script.png "Check for the tracking script")
+    ![Check for the tracking script.](media/embed-forms-check-script.png "Check for the tracking script")
 
     > [!NOTE]
     > Go to **Marketing** > **Internet Marketing** > **Marketing websites** to view your website entity records created via the wizard. Each of the website records listed here (if any) provides a website-tracking and a form-capture code for a specific website or sub-site.
@@ -160,7 +160,7 @@ To set up a form capture:
 1. **Place the script into your webpage**: Copy the tracking script and place it at the top of your webpage HTML code, or share it with your  developer to do so. In third-party pages, this is done via inserting embedded HTML code.
 After adding the script to your webpage, refresh the tab that contains your webpage so that the update is visible to the form capture wizard.
 
-    ![Copy the tracking script](media/embed-forms-copy-script.png "Copy the tracking script")
+    ![Copy the tracking script.](media/embed-forms-copy-script.png "Copy the tracking script")
 
 1. **Choose the form**: After you refresh the webpage, you'll see all available forms. You can select the form you'd like to capture.
 
@@ -210,21 +210,21 @@ To set up a journey that invites contacts to visit an external form and then rea
 
 1. Drag a **Marketing form** tile from the **Toolbox** onto your **Marketing email** message tile to add the form as a child of that message. Then follow this message tile with a **Trigger** tile.
 
-    ![Marketing-form and trigger tiles](media/journey-host-form-trigger1.png "Marketing-form and trigger tiles")
+    ![Marketing-form and trigger tiles.](media/journey-host-form-trigger1.png "Marketing-form and trigger tiles")
 
 1. Expand the Marketing email message tile to see the **Marketing form** tile you just added to it. Select the **Marketing form** tile, open the **Properties** panel, and configure it to reference the form record that created the JavaScript (form page) that you've embedded on your external site.
 
-    ![Assign a form page to the form tile](media/journey-host-form-trigger2.png "Assign a form page to the form tile")
+    ![Assign a form page to the form tile.](media/journey-host-form-trigger2.png "Assign a form page to the form tile")
 
 1. Select the **Trigger** tile and open its **Properties** panel.
 
 1. Select **New** next to the **Set rules** heading in the trigger properties.
 
-    ![Trigger properties](media/journey-host-form-trigger3.png "Trigger properties")
+    ![Trigger properties.](media/journey-host-form-trigger3.png "Trigger properties")
 
 1. A new rule is added to the trigger. Set the **Source** to the name of the **Marketing form** tile that you added to the **Marketing email message** tile, and set the **Condition** to **Marketing form visited** (to trigger when a contact loads the form) or to **Marketing form contact registered** (to trigger when a contact submits the form).
 
-    ![Conditions for a form-based trigger](media/journey-host-form-trigger4.png "Conditions for a form-based trigger")
+    ![Conditions for a form-based trigger.](media/journey-host-form-trigger4.png "Conditions for a form-based trigger")
 
 1. Continue designing your customer journey as required.
 
@@ -234,7 +234,7 @@ To set up a journey that invites contacts to visit an external form and then rea
 
 You can create an inbound campaign by placing a **Marketing form** tile at the start of a journey, and then configure the tile to reference the marketing-form record that created the embedded or captured form that you're using on your external site. This will cause each contact who submits the form to be added to the journey, as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a portal creaated with Power Apps portals](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing form.
 
-![Inbound campaign from a hosted form](media/journey-host-form-trigger5.png "Inbound campaign from a hosted form")
+![Inbound campaign from a hosted form.](media/journey-host-form-trigger5.png "Inbound campaign from a hosted form")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
