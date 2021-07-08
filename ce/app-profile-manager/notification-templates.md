@@ -1,10 +1,10 @@
 ---
 title: "Manage notification templates in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about managing notification templates in Omnichannel Administration app"
-ms.date: 10/12/2020
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.date: 10/12/2020
 ms.topic: article
 ---
 
@@ -37,7 +37,7 @@ Agents can receive desktop notifications when the Customer Service workspace or 
 - The agent is working on another tab of the browser.
 
  > [!div class=mx-imgBorder]
- > ![Desktop notification](../customer-service/media/desktop-notification.png "Desktop notification")
+ > ![Desktop notification.](../customer-service/media/desktop-notification.png "Desktop notification")
 
 Agents can accept or reject the conversation request by selecting a button on the desktop notification. When an agent accepts the conversation, the app is made active and displayed to the agent, and a session is started.
 
@@ -57,7 +57,7 @@ To get desktop notifications, agents need to allow their browser (Microsoft Edge
 Also, as an administrator, you can set the browser notification permission by using group policy.
 
  > [!div class=mx-imgBorder]
- > ![Allow desktop notifications](../customer-service/media/allow-desktop-notification.png "Allow desktop notifications")
+ > ![Allow desktop notifications.](../customer-service/media/allow-desktop-notification.png "Allow desktop notifications")
 
 ### Notification fields
 
@@ -143,7 +143,7 @@ Perform the following steps to create a notification template:
    | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notifications when app is in background](../customer-service/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
 
     > [!div class=mx-imgBorder] 
-    > ![Create notification template](../customer-service/media/notification-template-default-entity.png "Create notification template")
+    > ![Create notification template.](../customer-service/media/notification-template-default-entity.png "Create notification template")
 
 4. Select **Save**. The template is saved, and the **Notification Fields** section appears on the page.
 
@@ -162,7 +162,7 @@ Perform the following steps to create a notification template:
     | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slugs-for-notification-field-header). |{customerName} |
 
     > [!div class=mx-imgBorder]
-    > ![Create notification field](../customer-service/media/notification-field.png "Create notification field")
+    > ![Create notification field.](../customer-service/media/notification-field.png "Create notification field")
 
 9. Select the back arrow on the browser to go to the notification template you created. Alternatively, you can select **Notifications** in the sitemap, and then select the template you created.
 
@@ -228,7 +228,7 @@ As an administrator, you need to customize the notification template to show the
 | Language | Language | `{visitorLanguage}` |
 
 > [!div class=mx-imgBorder] 
-> ![Customize notification template](../customer-service/media/customize-notification-template.png "Customize notification template")
+> ![Customize notification template.](../customer-service/media/customize-notification-template.png "Customize notification template")
 
 #### Step 3: Save the changes
 

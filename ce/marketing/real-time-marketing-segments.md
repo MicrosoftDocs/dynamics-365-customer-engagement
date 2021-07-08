@@ -51,7 +51,7 @@ You can create a new segment directly within the customer journey editor by sele
 This will take you directly to the segment builder, where you can create and save your segment.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of selecting the +New segment option](media/real-time-marketing-segment-from-journey.png "Screenshot of selecting the +New segment option")
+> ![Screenshot of selecting the +New segment option.](media/real-time-marketing-segment-from-journey.png "Screenshot of selecting the +New segment option")
 
 ## Edit your segment
 
@@ -68,7 +68,7 @@ Learn more: [Use Customer Insights profiles and segments in real-time marketing]
 As shown in the following image, you can see whether a segment is a Marketing segment or a Customer Insights segment when you make a segment selection in your customer journey.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of segment sources](media/real-time-marketing-segment-source.png "Screenshot of segment sources")
+> ![Screenshot of segment sources.](media/real-time-marketing-segment-source.png "Screenshot of segment sources")
 
 Learn more about [setting up and managing a Customer Insights connection to Dynamics 365 Marketing](/dynamics365/customer-insights/audience-insights/manage-environments).
 
@@ -90,4 +90,4 @@ You can use a segment as an exit criterion for your customer journey.
 To use a suppression segment, select **Exit criteria** in the right-side pane in the customer journey editor. Then, choose a segment under **Exit by segment**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of suppression segment selection](media/real-time-marketing-suppression.png "Screenshot of suppression segment selection")
+> ![Screenshot of suppression segment selection.](media/real-time-marketing-suppression.png "Screenshot of suppression segment selection")

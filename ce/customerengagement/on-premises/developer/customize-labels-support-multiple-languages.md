@@ -4,7 +4,7 @@ description: "Learn about customizing labels to support multiple languages."
 ms.custom: 
 ms.date: 11/03/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

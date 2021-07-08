@@ -5,7 +5,6 @@ author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
 ms.date: 06/09/2021
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
 

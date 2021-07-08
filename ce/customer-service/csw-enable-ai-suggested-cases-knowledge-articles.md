@@ -106,7 +106,7 @@ Sign in to Omnichannel Admin Centre application. Select **Insights** and then se
 
 5. Select **Save**.
 
-   > ![Enable AI-suggested similar cases](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
+   > ![Enable AI-suggested similar cases.](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
 ## Enable AI suggestions for knowledge articles
 

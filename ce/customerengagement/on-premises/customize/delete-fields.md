@@ -2,7 +2,7 @@
 title: "Delete fields with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to delete fields"
 ms.date: 11/03/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)

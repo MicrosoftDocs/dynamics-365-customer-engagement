@@ -39,7 +39,7 @@ This topic describes how to create a work stream for an entity that has been ena
     | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** <ul><li> The value provided is an example. </li></ul>|
 
     > [!div class=mx-imgBorder] 
-    > ![Specify values for the fields](media/case-ws3.png "New case work stream")
+    > ![Specify values for the fields.](media/case-ws3.png "New case work stream")
 
 5. Select **Save** to save the work stream.
 

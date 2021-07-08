@@ -53,6 +53,6 @@ One reason pull device data may fail (especially if you've successfully register
 Go to the Azure portal, find your IoT Hub resource, then set pricing and scale tier to **S1-Standard**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the pricing and scale tier settings in IoT Hub](./media/cfs-pricing-tier.png)
+> ![Screenshot of the pricing and scale tier settings in IoT Hub.](./media/cfs-pricing-tier.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

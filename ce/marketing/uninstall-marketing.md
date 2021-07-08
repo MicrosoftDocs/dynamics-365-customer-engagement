@@ -43,7 +43,7 @@ To run the uninstall wizard:
 1. [Run the Marketing setup wizard](re-run-setup.md) for the instance where you want to uninstall the Marketing application. Make sure the correct instance is listed.
 
     > [!div class="mx-imgBorder"]
-    > ![Setup wizard for an existing instance with portal integration](media/fre-re-run3.png)
+    > ![Setup wizard for an existing instance with portal integration.](media/fre-re-run3.png)
 
 1. From the **Other actions** panel, choose **Uninstall Marketing from this org**.
 

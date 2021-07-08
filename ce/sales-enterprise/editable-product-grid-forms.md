@@ -32,17 +32,17 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
 
 5. If you’re enabling the editable product grid in the Opportunity form, select the **Opportunity Products** area in the **Product Line items** section, and in the **Edit** group, select **Change Properties**.
 
-    ![Opportunity Products area in the Product Line Items section](media/opportunity-products-area-product-line-items-section.png "Opportunity Products area in the Product Line Items section")
+    ![Opportunity Products area in the Product Line Items section.](media/opportunity-products-area-product-line-items-section.png "Opportunity Products area in the Product Line Items section")
     
     **– OR –** 
     
     If you’re enabling the editable product grid in the Quote, Order, or Invoice form, select the **Products** area in the **Products** section, and in the **Edit** group, select **Change Properties**.
   
-    ![Products area](media/products-area.png "Products area in the Products section")
+    ![Products area.](media/products-area.png "Products area in the Products section")
 
 6.	In the **Set Properties** dialog box, select the devices on which you want the editable grid to be available by selecting the corresponding radio button. Currently, the editable grid is optimized to work on the web.
 
-    ![Editable grid control in the Set Properties dialog box](media/editable-grid-set-properties-dialog-box.png "Editable grid control in the Set Properties dialog box")
+    ![Editable grid control in the Set Properties dialog box.](media/editable-grid-set-properties-dialog-box.png "Editable grid control in the Set Properties dialog box")
 
     Notice that the properties of the editable grid such as Grid view or Nested grid view are preconfigured by default.
  

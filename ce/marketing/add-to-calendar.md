@@ -37,7 +37,7 @@ To create an **Add to Calendar** button:
 1. Go to the button **Properties** tab. Select **Add to Calendar** from the **Link to** dropdown.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Add to Calendar option in the button properties](media/add-to-calendar-properties2.png "Screenshot of the Add to Calendar option in the button properties")
+    > ![Screenshot of the Add to Calendar option in the button properties.](media/add-to-calendar-properties2.png "Screenshot of the Add to Calendar option in the button properties")
 
 1. Choose the information you want to include in the iCalendar file using the **What should be added to calendar** dropdown. The options include:
     - **Only the event**: The iCalendar file will contain only the *event* the contact has registered for.
@@ -57,7 +57,7 @@ Each event or session in the iCalendar file contains a configurable description.
 1. To edit the iCalendar information, go to the **Calendar content** section. The left content section allows you to edit content for calendars that support HTML descriptions, such as Outlook. The right content section allows you to edit content for calendars that only support text descriptions, such as Gmail and Apple Calendar. Depending on which calendar the iCalendar file is imported into, either the HTML *or* the text only description will be used.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of calendar content editing](media/add-to-calendar-content.png "Screenshot of calendar content editing")
+    > ![Screenshot of calendar content editing.](media/add-to-calendar-content.png "Screenshot of calendar content editing")
 
 ## Streamed event check-ins
 

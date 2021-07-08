@@ -31,7 +31,7 @@ To use the Sales Navigator controls, an admin needs to [enable the Sales Navigat
 
 3. If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the **Sign in** button in the control and give the requested permissions to the app. 
 
-  ![Sign in to LinkedIn Sales Navigator dialog box](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
+  ![Sign in to LinkedIn Sales Navigator dialog box.](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
 
 ## Work with the Sales Navigator controls
 
@@ -58,13 +58,13 @@ If the control doesn't load the correct profile on the first match, you can chan
 3. Find the correct match on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with the search interface. 
 4. Additionally, you can send [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members a request to **Connect** or **Message** them using InMail in Sales Navigator.
 
-> ![More options with Sales Navigator control](media/more-options-sales-navigator.png "More options with Sales Navigator control")
+> ![More options with Sales Navigator control.](media/more-options-sales-navigator.png "More options with Sales Navigator control")
 
 ### Find a matching company for an account
 
 If no company account is associated with a person's profile, there's no company profile suggested. You can use the search interface to find the right company and match it to the related account. 
 
-![Search a company and match it to an account](media/match-company-sales-navigator.png "Search a company and match it to an account")
+![Search a company and match it to an account.](media/match-company-sales-navigator.png "Search a company and match it to an account")
 
 1. Enter the Name and other known details of the company you're looking for. 
 2. Select **Search**.

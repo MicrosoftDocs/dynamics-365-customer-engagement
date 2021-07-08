@@ -82,7 +82,7 @@ Every time you create a new marketing page, you must fill out the required field
 
 (These settings are also available on the **Summary** tab.)
 
-![Required fields for a new page](media/page-required-fields.png "Required fields for a new page")
+![Required fields for a new page.](media/page-required-fields.png "Required fields for a new page")
 
 Select **Save** on the command bar after you've finished making these settings.
 
@@ -96,7 +96,7 @@ After choosing a template, you'll be in the page content designer, which resembl
 
 - To style the overall page with basic fonts, colors, and background, select anywhere in the background of your marketing page in the designer. After you select the background, the **Properties** tab will display **General layout** options.
 
-    ![General layout options](media/marketing-pages-general-layout2.png "General layout options")
+    ![General layout options.](media/marketing-pages-general-layout2.png "General layout options")
 
 - Use the **Designer** > **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways the graphical editor doesn't support (such as custom attributes or logic).
 

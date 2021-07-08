@@ -3,7 +3,7 @@ title: "See relationships in a hierarchical view (Dynamics 365 Customer Engageme
 description: "See how records are related by looking at their hierarchichal relationship in Dynamics 365 for Customer Engagement."
 keywords: hierarchy, relationship
 ms.date: 09/15/2010
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -40,12 +40,12 @@ Hierarchical views are also available on mobile.
 To see hierarchies that show the relationships between records, on the list of accounts, contacts, products, or users, select a record, and on the command bar, choose **View Hierarchy** or select the hierarchy icon.   
 
 > [!div class="mx-imgBorder"] 
-> ![View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)](../basics/media/view-hierarchy-button.png "View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)")  
+> ![View Hierarchy button in Dynamics 365 Customer Engagement (on-premises).](../basics/media/view-hierarchy-button.png "View Hierarchy button in Dynamics 365 Customer Engagement (on-premises)")  
 
 The hierarchy of the related records is shown in a Tree view and Tile view:
 
 > [!div class="mx-imgBorder"] 
-> ![Tree view and Tile view in hierarchy in Dynamics 365 Customer Engagement (on-premises)](../basics/media/tree-view-and-tile-view-in-hierarchy.png "Tree view and Tile view in hierarchy in Dynamics 365 Customer Engagement (on-premises)")
+> ![Tree view and Tile view in hierarchy in Dynamics 365 Customer Engagement (on-premises).](../basics/media/tree-view-and-tile-view-in-hierarchy.png "Tree view and Tile view in hierarchy in Dynamics 365 Customer Engagement (on-premises)")
 
 You can take the following actions from the hierarchical view:
 
@@ -60,7 +60,7 @@ You can take the following actions from the hierarchical view:
 -	 In the Tile view, select the down arrow to see the record’s child records of the existing record.
 
    > [!div class="mx-imgBorder"] 
-   > ![See child records](../basics/media/see-child-records.png "See child records")
+   > ![See child records.](../basics/media/see-child-records.png "See child records")
 
    The number before the arrow denotes the number of child records for that record.
 

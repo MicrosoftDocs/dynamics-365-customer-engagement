@@ -3,7 +3,7 @@ title: "Set personal options (Dynamics 365 Customer Engagement (on-premises)) | 
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -32,7 +32,7 @@ If you're an administrator, you can also set system settings that affect all use
   
 ## To set personal options  
   
-1.  Select the **Settings** button ![Options button for Dynamics 365 Customer Engagement (on-premises)](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises)") in the upper-right corner of the screen.  
+1.  Select the **Settings** button ![Options button for Dynamics 365 Customer Engagement (on-premises).](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises)") in the upper-right corner of the screen.  
   
 2.  Select **Options**.  
  
@@ -159,7 +159,7 @@ If you're an administrator, you can also set system settings that affect all use
   
 ## To set personal options  
   
-1.  Select the **Settings** button ![Options button for Dynamics 365 Customer Engagement (on-premises)](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises)") in the upper-right corner of the screen.  
+1.  Select the **Settings** button ![Options button for Dynamics 365 Customer Engagement (on-premises).](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises)") in the upper-right corner of the screen.  
   
 2.  Select **Options**.  
  

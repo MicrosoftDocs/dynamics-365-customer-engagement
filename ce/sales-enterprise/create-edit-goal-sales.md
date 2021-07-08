@@ -23,7 +23,7 @@ Use goals to keep track of your progress on achieving target revenue.
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
   
-2. Select the site map icon ![Site map icon](media/site-map-icon.png "Icon for Site map"), and then select **Goals**.   
+2. Select the site map icon ![Site map icon.](media/site-map-icon.png "Icon for Site map"), and then select **Goals**.   
   
 3. On the command bar, select **New**.  
 
@@ -41,7 +41,7 @@ Use goals to keep track of your progress on achieving target revenue.
    - Goal Owner. Select the user or team responsible for meeting the goal.
 
       > [!div class="mx-imgBorder"]
-      > ![Goal form](media/goal-form.png "Goal form")
+      > ![Goal form.](media/goal-form.png "Goal form")
   
 5. Select **Save**.
 
@@ -52,7 +52,7 @@ Use goals to keep track of your progress on achieving target revenue.
    - If **Goal Period** Type is **Custom Period**, select a date in the From and To fields to define a custom period for which the goal is tracked.
 
      > [!div class="mx-imgBorder"]
-     > ![Time Period tab on the Goal form](media/time-period-tab-goal-form.png "Time Period tab on the Goal form")
+     > ![Time Period tab on the Goal form.](media/time-period-tab-goal-form.png "Time Period tab on the Goal form")
 
    > [!NOTE]
    > 

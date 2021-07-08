@@ -41,15 +41,15 @@ See below for some common customization examples.
 ### Home screen
 You can edit how entities are displayed and ordered upon signing into the mobile app. For instance, as seen in the screenshot below, mobile administrators can move *Time-Off Requests* to the top of the list, or remove it from the screen completely.
 
-> ![Screenshot of mobile home](media/mobile-home.png)
+> ![Screenshot of mobile home.](media/mobile-home.png)
 
 ### Views
 After selecting an entity, you can decide how records are displayed. For instance, as in the account view below, mobile administrators can customize the fields displayed and the position, how the view is sorted, size and color of fonts.
-> ![Screenshot of mobile view](media/mobile-account-view.png)
+> ![Screenshot of mobile view.](media/mobile-account-view.png)
 
 ### Fields and forms
 After selecting a record in the view, edit the forms and fields. For instance, in the Account form below, mobile administrators can edit which fields are displayed and the order, actions available such as triggering phone/email, and whether related records can be accessed from the form.
-> ![Screenshot of mobile form](media/mobile-account-form.png)
+> ![Screenshot of mobile form.](media/mobile-account-form.png)
 
 ### Offline HTML and JavaScript
 

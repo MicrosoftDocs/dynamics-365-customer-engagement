@@ -44,7 +44,7 @@ A Solution Only license includes all of the entities and solutions for Dynamics 
 As shown below, the Solution Only app appears as a separate Dynamics 365 Marketing app that is labeled **Dynamics 365 Marketing Solution Only** in the Power Platform admin center. You can set up and configure the Solution Only app using the [Marketing setup wizard](purchase-setup.md#run-the-marketing-setup-wizard).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 Marketing Solution Only app in the Power Platform admin center](media/purchase-setup-solution-only.png)
+> ![Screenshot of the Dynamics 365 Marketing Solution Only app in the Power Platform admin center.](media/purchase-setup-solution-only.png)
 
 As with production environments, Solution Only app updates [are pushed to all customers automatically](apply-updates.md) each time an update becomes available. To convert a Solution Only environment to a production environment, make sure you have an unconfigured production license and then [run the setup wizard](#run-wizard) to apply that license to the existing Solution Only environment.
 
@@ -107,15 +107,15 @@ To set up a new Marketing environment:
 
 1. Go to **Resources** > **Dynamics 365 apps** on the left navigation pane.
 
-   ![Navigate to the Dynamics 365 apps](media/purchase-setup-ppac-apps2.png "Navigate to the Dynamics 365 apps")
+   ![Navigate to the Dynamics 365 apps.](media/purchase-setup-ppac-apps2.png "Navigate to the Dynamics 365 apps")
 
 1. Find and select an unconfigured Dynamics 365 Marketing application in the **Dynamics 365 apps** list. Then select the three dots between the **Name** and the **Status** columns for the Marketing application.
 
-    ![Choose an app and then select the Manage or Details link](media/purchase-setup-ppac-manage.png "Choose an app and then select the Manage or Details link")
+    ![Choose an app and then select the Manage or Details link.](media/purchase-setup-ppac-manage.png "Choose an app and then select the Manage or Details link")
 
     - To launch the Dynamics 365 Marketing setup wizard, choose **Manage** from the pop-up menu. A message will pop up informing you that you are going to the Dynamics 365 Marketing admin page. To go to the page, select **OK**.
     
-      ![Dynamics 365 Marketing admin page prompt](media/purchase-setup-ppac-prompt.png "Dynamics 365 Marketing admin page prompt")
+      ![Dynamics 365 Marketing admin page prompt.](media/purchase-setup-ppac-prompt.png "Dynamics 365 Marketing admin page prompt")
     
     - To view more details about the selected Marketing application, choose **Details** from the pop-up menu.
 
@@ -130,7 +130,7 @@ To set up a new Marketing environment:
 1. The setup wizard launches, which you will use to make initial settings for the app. The first page of the wizard lets you choose where you will install the app and to choose whether to set up a portal to run your marketing pages and event website.
 
     > [!div class="mx-imgBorder"]
-    > ![Choose an organization and name your portal](media/setup-form-3-2.png)
+    > ![Choose an organization and name your portal.](media/setup-form-3-2.png)
 
 1. From the top drop-down list, select the Dynamics 365 organization where you want to add Dynamics 365 Marketing. (A Dynamics 365 *organization* is another name for a Dynamics 365 *environment*.)
 
@@ -148,7 +148,7 @@ To set up a new Marketing environment:
 
 1. Select  **Continue**  to continue. Dynamics 365 Marketing includes several services, solutions, and apps, some of which require you to consider and accept various license agreements and privacy statements. The second page of the setup wizard lists each of these and provides links for more information. It also asks you to enter your organization's postal address.
 
-    ![Provide consent and enter your postal address](media/setup-form-4.png "Provide consent and enter your postal address")
+    ![Provide consent and enter your postal address.](media/setup-form-4.png "Provide consent and enter your postal address")
 
 1. Carefully read the consent text shown for each check box, and follow the links to make sure you understand all the relevant issues. If you agree with the terms, then mark each check box as you go to indicate your consent. Some of these are optional, so you can still use the product without them, though the related features will be disabled. Other features are required, so you won't be able to use Dynamics 365 Marketing without agreeing to them.
 

@@ -55,7 +55,7 @@ Next, go to the **Device Readings** section to see the most recent IoT measureme
 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image of a mobile phone, showing live device readings](./media/cfs-device-readings-mobile.png)
+> ![Simulated image of a mobile phone, showing live device readings.](./media/cfs-device-readings-mobile.png)
 
 Summary tiles and device readings are only visible after an asset is related to a connected device. Otherwise, this information is displayed on the IoT device or IoT alert.
 

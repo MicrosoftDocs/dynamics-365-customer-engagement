@@ -31,7 +31,7 @@ You can also create an invoice that doesn’t generate from a quote.
     The Invoice form opens.
 
     > [!div class="mx-imgBorder"]
-    > ![Invoice form populated with data from opportunity and quote](media/invoice-populated-form.png "Invoice form populated with data from opportunity and quote")
+    > ![Invoice form populated with data from opportunity and quote.](media/invoice-populated-form.png "Invoice form populated with data from opportunity and quote")
 
     > [!IMPORTANT]
     > If Dynamics 365 Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 Sales to be submitted, after which it is synchronized with the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 Sales, except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
@@ -47,7 +47,7 @@ You can also create an invoice that doesn’t generate from a quote.
     The Invoice form opens.
 
     > [!div class="mx-imgBorder"]
-    > ![Invoice form](media/empty-invoice-form.png "Invoice form")
+    > ![Invoice form.](media/empty-invoice-form.png "Invoice form")
 
 3.  Add the invoice details.
 
@@ -62,7 +62,7 @@ You can also create an invoice that doesn’t generate from a quote.
     In the **Products** section, select the **More Commands** icon, and then select **Add New Invoice Products**.
 
     > [!div class="mx-imgBorder"]
-    > ![Add New Invoice Products menu option](media/add-new-invoice-products-menu-option.png "Add New Invoice Products menu option")
+    > ![Add New Invoice Products menu option.](media/add-new-invoice-products-menu-option.png "Add New Invoice Products menu option")
 
 
 7.  In the **Quick Create: Invoice Product** form, enter the details:

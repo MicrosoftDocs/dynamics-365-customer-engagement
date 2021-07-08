@@ -43,7 +43,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 6. In the **Related** section, you can view and manage various resource category associations.
 
-   ![resource categories](media/resource-categories.png)
+   ![resource categories.](media/resource-categories.png)
 
 Similarly, you can create a new requirement resource category for requirements.
 

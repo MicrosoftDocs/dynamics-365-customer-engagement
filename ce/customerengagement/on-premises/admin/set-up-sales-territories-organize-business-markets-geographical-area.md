@@ -3,7 +3,7 @@ title: "Set up sales territories to organize business markets by geographical ar
 description: "Create territories for customer and market segments in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 03/30/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
@@ -58,17 +58,17 @@ Organizations can create a model and visualize their sales territories in a hier
 
 6.    Select the **Related** tab, and then select **Members**.
 
-      ![Members option on Related tab of territory form](../../../sales-enterprise/media/members-option-related-tab-territory-form.png "Members option on Related tab of territory form")
+      ![Members option on Related tab of territory form.](../../../sales-enterprise/media/members-option-related-tab-territory-form.png "Members option on Related tab of territory form")
  
 7.    On the **Members** tab, select **Add members**.
 
 8.    In the **Lookup Records** pane, select the search icon, select a user record, and then select **Add**.
 
-      ![Lookup Records pane](../../../sales-enterprise/media/lookup-records.png "Lookup Records pane")
+      ![Lookup Records pane.](../../../sales-enterprise/media/lookup-records.png "Lookup Records pane")
 
 9. To add sub territories to this territory, select the **Sub-territories** tab, and select **Add New Territory**. 
  
-    ![Add sub-territory](media/sales-add-sub-territory.png "Add sub-territory")
+    ![Add sub-territory.](media/sales-add-sub-territory.png "Add sub-territory")
 
     Enter the necessary information and select **Save**. This territory will be added as a sub territory in the Sub-territories grid.
 

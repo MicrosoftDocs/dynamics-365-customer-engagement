@@ -90,7 +90,7 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
 8. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Post-conversation survey](media/oc-post-conversation-survey.png "Post-conversation survey")
+    > ![Post-conversation survey.](media/oc-post-conversation-survey.png "Post-conversation survey")
 
 ## Runtime experience of post-conversation surveys
 

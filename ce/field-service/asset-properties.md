@@ -61,7 +61,7 @@ Select **+New**. Give the property a name and select the type of value that will
 - **Date**: Select if the property will always be a date value.
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a property definition](./media/assets-properties-form.png)
+> ![Screenshot of a property definition.](./media/assets-properties-form.png)
 
 Since we need to manage a laptop in our example, we create a new property called **RAM (GB)**, where the property value will always be a number.
 

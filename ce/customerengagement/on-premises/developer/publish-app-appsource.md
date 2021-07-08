@@ -4,7 +4,7 @@ description: "Learn about how to publish your Dynamics 365 Customer Engagement a
 ms.custom: 
 ms.date: 04/02/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
