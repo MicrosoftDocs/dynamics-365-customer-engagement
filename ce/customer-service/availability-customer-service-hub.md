@@ -19,6 +19,8 @@ ms.custom:
 
 # Availability of Customer Service Hub
 
+*<a href="https://dynamics.microsoft.com/en-us/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
+
 The Customer Service Hub solution is automatically installed in the environments that have customer engagement apps, such as Customer Service and Sales Hub.
 
 The salient features of the integrated solution are as follows:
