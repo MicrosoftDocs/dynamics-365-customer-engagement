@@ -90,6 +90,8 @@
         href: configure-live-chat.md
   - name: User management
     items: 
+    - name: Overview of user management
+      href: overview-users.md
     - name: Create users and assign security roles
       href: /power-platform/admin/create-users-assign-online-security-roles
     - name: Assign roles and enable users
