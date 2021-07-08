@@ -35,17 +35,17 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
   
 4. Click the **Data Parameters** tab, and expand **$Session** to see the current session information.  
   
-   ![Current session information](../unified-service-desk/media/usd-session-info.png "Current session information")  
+   ![Current session information.](../unified-service-desk/media/usd-session-info.png "Current session information")  
   
 5. Now, expand the **$Context** parameter to view information about the customer record such as the customer ID, address, and so on. You will also find information about the session.  
   
-   ![Current session context information](../unified-service-desk/media/usd-session-context.png "Current session context information")  
+   ![Current session context information.](../unified-service-desk/media/usd-session-context.png "Current session context information")  
   
 <a name="SessionName"></a>   
 ## Session name  
  A session name is the label text that is displayed on the tab; it helps identify the session to the agent.  
   
- ![Session name in Unified Service Desk](../unified-service-desk/media/usd-session-name.png "Session name in Unified Service Desk")  
+ ![Session name in Unified Service Desk.](../unified-service-desk/media/usd-session-name.png "Session name in Unified Service Desk")  
   
  In this example, there are two session tabs with the following session names: **Sidney Higa (sample)- Maintenance** and **Like some of our new products (sample)** – Information.  
   
@@ -55,7 +55,7 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
 ## Session overview  
  Session overview entries are unique in the fact that more than one may display in a stacking fashion in the user interface (UI) area. Each session overview entry that has all replacement parameters successfully replaced will display in the output window. For example, the following two session overview entries are available for the Adventure Works (sample)-US session tab: **General** and **Social Info**.  
   
- ![Session overview entries in Unified Service Desk](../unified-service-desk/media/usd-session-overview-1.png "Session overview entries in Unified Service Desk")  
+ ![Session overview entries in Unified Service Desk.](../unified-service-desk/media/usd-session-overview-1.png "Session overview entries in Unified Service Desk")  
   
  These entries are not typically populated by a business user, however, a skilled business user may copy and paste existing entries and replace values that will meet their needs. This is because the entries are actually XAML markup often seen in [!INCLUDE[pn_MS_Silverlight_full](../includes/pn-ms-silverlight-full.md)] or [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] applications. They can be created with designer tools such as [!INCLUDE[pn_blend_for_visual_studio](../includes/pn-blend-for-visual-studio.md)] in a graphical fashion, or with a text editor. The XAML markup must be properly formatted for it to display correctly in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   

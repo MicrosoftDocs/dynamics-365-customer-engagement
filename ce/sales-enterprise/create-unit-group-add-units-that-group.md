@@ -31,12 +31,12 @@ Units are the quantities or measurements that you sell your products or services
 
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
-2. Select the site map icon ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **App Settings**. 
+2. Select the site map icon ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **App Settings**. 
   
 3. In the **Product Catalog** area, select **Unit Groups**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Unit groups in site map](media/site-map-unit-group.png "Unit groups in site map")
+    > ![Unit groups in site map.](media/site-map-unit-group.png "Unit groups in site map")
 
 4. To create a new unit group, on the command bar, select **New**.
 
@@ -51,7 +51,7 @@ Units are the quantities or measurements that you sell your products or services
     b.	**Primary Unit**. Type the lowest common unit of measure that the product will be sold in. In our example, you would type "Piece." Other examples could include box, cartons, ounces, hours, or tons, depending on your product.
 
     > [!div class="mx-imgBorder"]
-    > ![Create unit group dialog box](media/create-unit-group-dialog-box.png "Create unit group dialog box")
+    > ![Create unit group dialog box.](media/create-unit-group-dialog-box.png "Create unit group dialog box")
  
       > [!NOTE]
       > You cannot delete the primary unit in a unit group.
@@ -59,7 +59,7 @@ Units are the quantities or measurements that you sell your products or services
 6.	To add units to the unit group, select the **Related** tab, and then select **Units**.
 
     > [!div class="mx-imgBorder"]
-    > ![Units option on the Related tab](media/units-option-on-related-tab.png "Units option on the Related tab")
+    > ![Units option on the Related tab.](media/units-option-on-related-tab.png "Units option on the Related tab")
  
 7.	On the **Units** tab, you’ll see that the primary unit is already added. Select **Add New Unit**.
 
@@ -72,7 +72,7 @@ Units are the quantities or measurements that you sell your products or services
     c.	**Base Unit**. Select a base unit. The base unit will establish the lowest unit of measurement for the unit you're creating. Using our example, you would select "Piece."
 
     > [!div class="mx-imgBorder"]	
-      ![Quick create: Unit form](media/quick-create-form-unit.png "Quick create: Unit form")
+      ![Quick create: Unit form.](media/quick-create-form-unit.png "Quick create: Unit form")
 
   
 ## Typical next steps  

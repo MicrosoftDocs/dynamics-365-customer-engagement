@@ -22,7 +22,7 @@ A hosted application can be imported from [!INCLUDE[pn_unified_service_desk](../
   
 2. In the import dialog box, enter the Common Data platform server name and your credentials.  
   
-   ![Screenshot of import from dialog box](../unified-service-desk/media/usd-import.PNG "Screenshot of import from dialog box")  
+   ![Screenshot of import from dialog box.](../unified-service-desk/media/usd-import.PNG "Screenshot of import from dialog box")  
   
 3. If there’s more than one organization, select the **Display list of available organizations** check box and click **Login**.  
   
@@ -30,11 +30,11 @@ A hosted application can be imported from [!INCLUDE[pn_unified_service_desk](../
   
 5. From the list of hosted applications, select the one that you want and choose **Import**. In this case, it’s StandAloneTestApp.  
   
-   ![Screenshot of import list](../unified-service-desk/media/usd-hosted-app-list-import.PNG "Screenshot of import list")  
+   ![Screenshot of import list.](../unified-service-desk/media/usd-hosted-app-list-import.PNG "Screenshot of import list")  
   
 6. The hosted application you selected (StandAloneTestApp) is imported and you can see it displayed in **Solution Explorer**.  
   
-   ![Screenshot of Solution Explorer test import](../unified-service-desk/media/usd-import-test.PNG "Screenshot of Solution Explorer test import")  
+   ![Screenshot of Solution Explorer test import.](../unified-service-desk/media/usd-import-test.PNG "Screenshot of Solution Explorer test import")  
   
 ### See also  
  [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create)   

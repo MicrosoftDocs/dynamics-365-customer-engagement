@@ -35,7 +35,7 @@ When you close an opportunity, the opportunity is marked as complete, and can't 
 To close an opportunity, open the opportunity record, and on the command bar, select **Close as Won** or **Close as Lost**.
 
 > [!div class="mx-imgBorder"]  
-> ![Close opportunity as Won or Lost](media/close-opportunity.png "Close opportunity as Won or Lost")
+> ![Close opportunity as Won or Lost.](media/close-opportunity.png "Close opportunity as Won or Lost")
 
 <a name="close_opportunity"> </a>
 ### Issue: I can't close an opportunity
@@ -60,7 +60,7 @@ There might be active or draft quotes associated with the opportunity.
 2. Make sure none of the quotes is in the Draft or Active status.
 
     > [!div class="mx-imgBorder"]  
-    > ![Quotes in the Draft status](media/quotes-in-draft-state.png "Quotes in the Draft status")
+    > ![Quotes in the Draft status.](media/quotes-in-draft-state.png "Quotes in the Draft status")
 
 
 <a name="AccessDeniedOpportunity"> </a> 
@@ -93,7 +93,7 @@ If you've already closed an opportunity as Won or Lost, it becomes read-only and
 To reopen, open the opportunity, and on the command bar, select **Reopen Opportunity**.
 
 > [!div class="mx-imgBorder"]
-> ![Reopen opportunity](media/reopen-opportunity.png "Reopen opportunity")
+> ![Reopen opportunity.](media/reopen-opportunity.png "Reopen opportunity")
 
 
 <a name="add_products"> </a>

@@ -4,7 +4,7 @@ description: "Download and read these documents that can help plan and execute y
 ms.custom: ""
 ms.date: 05/20/2020
 ms.reviewer: ""
-ms.service: powerapps
+ms.prod: d365ce-op
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"

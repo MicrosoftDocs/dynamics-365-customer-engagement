@@ -28,12 +28,12 @@ manager: annbe
 2.  In the navigation pane, select **Purchase Services**, and then select the Dynamics 365 Sales Professional tile. 
 
     > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 Sales Professional tile](media/select-dynamics365-sales-pro-tile.png "Select Dynamics 365 Sales Professional tile") 
+    > ![Select Dynamics 365 Sales Professional tile.](media/select-dynamics365-sales-pro-tile.png "Select Dynamics 365 Sales Professional tile") 
 
 3.  Select **Buy**, and then follow the steps to purchase new licenses. 
 
     > [!div class="mx-imgBorder"]
-    > ![Select Buy](media/buy-sales-professional.png "Select Buy") 
+    > ![Select Buy.](media/buy-sales-professional.png "Select Buy") 
 
 
 ## Assign licenses to your users
@@ -45,7 +45,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 2.	Select multiple users, and then select **Manage product licenses**. 
     
     > [!div class="mx-imgBorder"]
-    > ![Assign licenses to multiple users](media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
+    > ![Assign licenses to multiple users.](media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
 
 3.	Select **Replace existing product license assignments**, and then select **Next**. 
 

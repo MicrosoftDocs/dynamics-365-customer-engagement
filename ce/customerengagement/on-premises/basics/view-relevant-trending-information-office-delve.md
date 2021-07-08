@@ -4,7 +4,7 @@ ms.custom:
 description: View relevant and trending information on a dashboard with Office Delve.
 ms.date: 09/15/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ description: "Learn how to import a new or update an existing solution"
 ms.custom: 
 ms.date: 07/11/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

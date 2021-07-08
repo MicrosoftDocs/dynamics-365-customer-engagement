@@ -48,7 +48,7 @@ The statuses and their corresponding symbols are as follows.
 
 A sample runtime view of the SLA Timer is as follows.
 
-![Run time view of SLA timers](media/sla-timer-runtime.png "Run time view of SLA timers")
+![Run time view of SLA timers.](media/sla-timer-runtime.png "Run time view of SLA timers")
 
 
 ### Case form with SLA applied  

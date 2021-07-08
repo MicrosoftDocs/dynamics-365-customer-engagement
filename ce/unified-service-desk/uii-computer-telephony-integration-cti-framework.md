@@ -22,13 +22,13 @@ The [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-in
 ## UII CTI framework: Overview  
  In [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)], all communications over a particular channel—whether chat, email, telephone, or others—occur directly from the organization's [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] system to the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] desktop (such as [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]). [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] isn’t involved in this process. The following illustration shows an example of this type of communication.  
   
- ![Sample call center telecom system](../unified-service-desk/media/usd-cti-infra-structure.png "Sample call center telecom system")  
+ ![Sample call center telecom system.](../unified-service-desk/media/usd-cti-infra-structure.png "Sample call center telecom system")  
   
 <a name="Architecture"></a>   
 ## UII CTI framework components  
  The [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] framework in [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] contains the following three components or layers: [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)], [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)], and CTI controls.  
   
- ![Components in the UII CTI framework](../unified-service-desk/media/usd-cti-components.png "Components in the UII CTI framework")  
+ ![Components in the UII CTI framework.](../unified-service-desk/media/usd-cti-components.png "Components in the UII CTI framework")  
   
 ### CTI Connector  
  [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] provides the logic to connect to and communicate with the external [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] system. [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] layer exposes the methods and events that will be called and listened to by the [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] component. [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] supports either a polling or instance-based connection model.  

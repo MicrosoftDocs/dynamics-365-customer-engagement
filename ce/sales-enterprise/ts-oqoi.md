@@ -37,7 +37,7 @@ These issues might occur due to improper customization of the application. You m
 3. Select the **Filter** icon, select the column **Primary Object Type Code (Sdk Message Filter)**, and then select the entity for which the error is occurring.
     
     > [!div class="mx-imgBorder"]
-    > ![Go to the custom plug-in list](media/troubleshooting-goto-custom-plugin-list.png "Go to the custom plug-in list")
+    > ![Go to the custom plug-in list.](media/troubleshooting-goto-custom-plugin-list.png "Go to the custom plug-in list")
 
 4. Select the SDK message processing steps that are coming from the solutions owned by you. 
 
@@ -50,7 +50,7 @@ These issues might occur due to improper customization of the application. You m
 6. Publish the customizations.
  
     > [!div class="mx-imgBorder"]
-    > ![Choose and deactivate unmanaged custom plug-ins](media/troubleshooting-deactivate-unmanaged-custom-plugin.png "Choose and deactivate unmanaged custom plug-ins")
+    > ![Choose and deactivate unmanaged custom plug-ins.](media/troubleshooting-deactivate-unmanaged-custom-plugin.png "Choose and deactivate unmanaged custom plug-ins")
 
 7. Verify the issue and if it doesn't occur, the issue is with the custom SDK message processing steps. Resolve the issue.
 
@@ -62,19 +62,19 @@ These issues might occur due to improper customization of the application. You m
 1. Open the form editor of the entity in which the error is occurring. In this example, we're selecting the entity as Opportunities and the default solution form.
 
     > [!div class="mx-imgBorder"]
-    > ![Open form editor](media/troubleshooting-javascript-form-editor.png "Open form editor")
+    > ![Open form editor.](media/troubleshooting-javascript-form-editor.png "Open form editor")
 
 2. Select **Form Properties** on the form editor.
 
     > [!div class="mx-imgBorder"]
-    > ![Edit form page](media/troubleshooting-javascript-form-editor-edit-properties.png "Edit form page")
+    > ![Edit form page.](media/troubleshooting-javascript-form-editor-edit-properties.png "Edit form page")
 
     The **Form Properties** dialog box opens.
 
 3. On the **Events** tab, select the control **OnLoad** from the **Events** drop-down list. 
 
    > [!div class="mx-imgBorder"]
-   > ![Event control selection](media/troubleshooting-javascript-form-properties-event-control-selection.png "Event control selection")
+   > ![Event control selection.](media/troubleshooting-javascript-form-properties-event-control-selection.png "Event control selection")
 
 4. Choose the custom **JavaScript** files that are coming from the solution owned by you.
 
@@ -84,17 +84,17 @@ These issues might occur due to improper customization of the application. You m
    > b. Select **WebResources**. Verify the values are selected as:  **Component Type** to **WebResources** and **View** to **All**.<br>
    > c. Select **Filter** icon to enable filter options for columns. Select **Type** and set the filter as **Script (JScript)**.<br>
    >> [!div class="mx-imgBorder"]
-   >> ![Select type filter as script](media/troubleshooting-javascript-view-javascript-filter.png "Select type filter as script")
+   >> ![Select type filter as script.](media/troubleshooting-javascript-view-javascript-filter.png "Select type filter as script")
 
 5. Select **Edit**. In this example, we have selected the custom JavaScript file **eg_opportunity** to edit.
    
     > [!div class="mx-imgBorder"]
-    > ![Handler properties dialog](media/troubleshooting-javascript-handler-properties-dialog.png "Handler properties dialog") 
+    > ![Handler properties dialog.](media/troubleshooting-javascript-handler-properties-dialog.png "Handler properties dialog") 
 
 6. Clear the **Enabled** option and select **OK**.
  
     > [!div class="mx-imgBorder"]
-    > ![Clear enabled option](media/troubleshooting-javascript-handler-properties-uncheck-enabled.png "Clear enabled option") 
+    > ![Clear enabled option.](media/troubleshooting-javascript-handler-properties-uncheck-enabled.png "Clear enabled option") 
  
 7. Publish the customizations.
 
@@ -111,7 +111,7 @@ These issues might occur due to improper customization of the application. You m
 3. Select the **Filter** icon, select the column **Primary Entity**, and then select the entity for which the error is occurring.
     
     > [!div class="mx-imgBorder"]
-    > ![Go to the custom process workflow list](media/troubleshooting-goto-custom-process-workflow-list.png "Go to the custom process workflow list")
+    > ![Go to the custom process workflow list.](media/troubleshooting-goto-custom-process-workflow-list.png "Go to the custom process workflow list")
 
 4. Choose the processes that are coming from the solutions owned by you.
 
@@ -124,7 +124,7 @@ These issues might occur due to improper customization of the application. You m
 6. Publish the customizations.
  
     > [!div class="mx-imgBorder"]
-    > ![Choose and deactivate unmanaged process workflows](media/troubleshooting-goto-deactivate-unmanaged-custom-process-workflow.png "Choose and deactivate unmanaged custom process workflows") 
+    > ![Choose and deactivate unmanaged process workflows.](media/troubleshooting-goto-deactivate-unmanaged-custom-process-workflow.png "Choose and deactivate unmanaged custom process workflows") 
 
 7. Verify the issue and if it doesn't occur, the issue is with the custom processes. Resolve the issue.
 

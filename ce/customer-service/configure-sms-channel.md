@@ -98,7 +98,7 @@ To sign up for TeleSign
     - **Allow automated messages**: Specify **Yes** to be able to define the business hours.
 
     > [!div class=mx-imgBorder]
-    > ![SMS work stream](media/sms-workstream.png "SMS work stream")
+    > ![SMS work stream.](media/sms-workstream.png "SMS work stream")
 
 3. On the **SMS Settings** tab, enter the following information:
     - **Customer ID**: Customer ID generated from the TeleSign account.
@@ -109,7 +109,7 @@ To sign up for TeleSign
 5. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![SMS Settings tab](media/sms-settings.png "SMS Settings tab")
+    > ![SMS Settings tab.](media/sms-settings.png "SMS Settings tab")
 
 6. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
@@ -126,7 +126,7 @@ To sign up for TeleSign
     > - Short code is supported for enterprise accounts.
 
     > [!div class=mx-imgBorder]
-    > ![SMS Numbers tab](media/sms-number.png "SMS Numbers tab")
+    > ![SMS Numbers tab.](media/sms-number.png "SMS Numbers tab")
 
 7. Select **Save**.
 
@@ -137,7 +137,7 @@ To sign up for TeleSign
 10. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
 
     > [!div class=mx-imgBorder]
-    > ![Validate API Key](media/validate-key.png "Validate API Key")
+    > ![Validate API Key.](media/validate-key.png "Validate API Key")
 
 11. Open the work stream you created for SMS.
 

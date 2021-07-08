@@ -3,7 +3,7 @@ title: "Create and edit public or system views using the app designer with Dynam
 description: "Learn now to create or edit views by using the app designer"
 keywords: 
 ms.date: 11/09/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -44,7 +44,7 @@ As an app maker, you can create and edit public views by using the app designer.
 1. [Open a view in the app designer](#open-and-add-a-view-in-the-app-designer).
 2. On the **Components** tab, select **Create New**.
 
-    ![Create a Public View](../customize/media/ViewAppDesigner_CreateNew.png "create a public view")
+    ![Create a Public View.](../customize/media/ViewAppDesigner_CreateNew.png "create a public view")
     
 3. Add the columns you want to display in the view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a column to your view](#add-a-column-to-your-view)
 4. Apply filtering criteria to refine the data that is displayed in the view.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define filter criteria](#define-filter-criteria)
@@ -62,7 +62,7 @@ As an app maker, you can create and edit public views by using the app designer.
 
     You will see a visual indicator when you hold the column over a position it can be moved to.
 
-    ![Reorder Column](../customize/media/ViewAppDesigner_ReorderColumn.png "Reorder columns in a view")
+    ![Reorder Column.](../customize/media/ViewAppDesigner_ReorderColumn.png "Reorder columns in a view")
 
     > [!NOTE]
     > You can also change column order by using keyboard shortcut keys. Cut the column by selecting Ctrl + X, select a column, and then paste by selecting Ctrl + V. The column will be moved to the right of the selected column.
@@ -80,7 +80,7 @@ The following steps explain how to open and add a view in the app designer.
 
     In this example, we have selected **Views** from the **Account** entity.
 
-    ![App Designer View](../customize/media/ViewAppDesigner_AccountAppDesignerView.png "App Designer view of Account entity")
+    ![App Designer View.](../customize/media/ViewAppDesigner_AccountAppDesignerView.png "App Designer view of Account entity")
 
 3. To add a view, select it by using view types such as Public, Advanced Find, Associated, and Lookup. The view is automatically added to the **Views** list.
 
@@ -95,7 +95,7 @@ Views display records in a table that contains rows and columns. Each row is a r
 
 1. In app designer, on the **Components** tab, select the **Column Attributes** list for either the **Primary Entity** or **Related Entity**.
 
-    ![Add a column](../customize/media/ViewAppDesigner_AddColumn.png "Add a column to view") 
+    ![Add a column.](../customize/media/ViewAppDesigner_AddColumn.png "Add a column to view") 
 
 2. From the list, select the attribute you want  and drag it to the column heading. You can also add the attribute by double-clicking it.
 3. Repeat step 2 until you’ve added all the attributes you want to display in your view .
@@ -107,13 +107,13 @@ As you add attributes, you can drag them to any position among existing column h
 You can set filter criteria so that only a subset of the records is displayed in a view. When a user opens the view, only the records that meet the defined filter criteria are displayed. You can select fields from both the primary and related entities to filter on.
 1. In the app designer, expand the **Filter Criteria** section.
    
-    ![Set Filter Criteria](../customize/media/ViewAppDesigner_FilterCriteria.png "Set filter criteria") 
+    ![Set Filter Criteria.](../customize/media/ViewAppDesigner_FilterCriteria.png "Set filter criteria") 
 
 2. Select **Add Filter**.
 3. Select an attribute from the drop-down list in the first column. 
 4. Select an operator from the drop-down list in the second column.
 
-    ![Set Filter Criteria Operator](../customize/media/ViewAppDesigner_FilterCriteriaOption.png "Set filter criteria operator")
+    ![Set Filter Criteria Operator.](../customize/media/ViewAppDesigner_FilterCriteriaOption.png "Set filter criteria operator")
 
 5. Enter a value to filter by in the third column.
 
@@ -131,9 +131,9 @@ You can filter data based on the attributes of related entities in addition to t
 You can add multiple filters to your view if you want to filter records by using more than one field. 
 
 1. Select the filters that you want to group.
-    ![Set Group Filter](../customize/media/ViewAppDesigner_GroupFilter.png "Set group filter")
+    ![Set Group Filter.](../customize/media/ViewAppDesigner_GroupFilter.png "Set group filter")
 2. Select Group And or Group Or to group the filters.
-    ![Group Filter Selection](../customize/media/ViewAppDesigner_GroupFilterSelection.png "Select a group filter")
+    ![Group Filter Selection.](../customize/media/ViewAppDesigner_GroupFilterSelection.png "Select a group filter")
 When you select **Group And**, only records that meet both criteria are displayed in the view. When you select **Group Or**, records that meet any of the filter criteria are displayed. For example, to show only records that have priority of High or Normal, and status of Active, select **Group And**.
 
 To remove the filter from a group, select the group, and then select **Ungroup**. 
@@ -147,7 +147,7 @@ When a view is opened, the records it displays are sorted in the order you set w
 1. Select the column you want to use for sorting.
 2. Select the down arrow, and then choose **Primary Sort** or **Secondary Sort**.
  
-    ![Sort Record](../customize/media/ViewAppDesigner_SortRecords.png "Sort records based on primary and secondary sort orders") 
+    ![Sort Record.](../customize/media/ViewAppDesigner_SortRecords.png "Sort records based on primary and secondary sort orders") 
 
 If you remove the column you chose for the primary sort order, the column you chose for the secondary sort order becomes the primary.
 
@@ -161,9 +161,9 @@ Specify a web resource of script type, to associate with a column in your view. 
 
 ## Edit a public or system view
 You can change the way a public or system view is displayed by adding, configuring, or removing columns.
-1. In the **Views** list for an entity, select the **Show list of references** down arrow ![Drop Down](../customize/media/DownArrow.png "Drop down arrow").
-    ![Edit View](../customize/media/ViewAppDesigner_EditView.png "Edit a public or system view")
-2. Next to the view you want to edit, select **Open the View Designer** ![Open view Designer](../customize/media/dynamics365-open-designer.png "Open view designer"). 
+1. In the **Views** list for an entity, select the **Show list of references** down arrow ![Drop Down.](../customize/media/DownArrow.png "Drop down arrow").
+    ![Edit View.](../customize/media/ViewAppDesigner_EditView.png "Edit a public or system view")
+2. Next to the view you want to edit, select **Open the View Designer** ![Open view Designer.](../customize/media/dynamics365-open-designer.png "Open view designer"). 
 
     The view opens in the view designer. 
 

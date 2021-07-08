@@ -82,7 +82,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 4. On the **Work Distribution** tab, in the **Channel** field, select **Facebook**.
 
     > [!div class=mx-imgBorder]
-    > ![Create a Facebook work stream](media/fb-workstream.png "Create a Facebook work stream")
+    > ![Create a Facebook work stream.](media/fb-workstream.png "Create a Facebook work stream")
 
 5. Specify other details as required. To learn more, see [Understand and create work streams](work-streams-introduction.md).
 
@@ -104,7 +104,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 
     > [!div class=mx-imgBorder]
-    > ![Register a Facebook application](media/fb-new-app.png "Register a Facebook application")
+    > ![Register a Facebook application.](media/fb-new-app.png "Register a Facebook application")
 
 4. Select **Save**. After you save the record, the **Facebook Pages** section is enabled, and it allows you to add the Facebook pages through which a customer can connect to an agent.
 
@@ -133,7 +133,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
    > You can add multiple Facebook **Page Id** (pages) to a **Facebook Application** channel. However, a Facebook **Page Id** can be linked to one **Facebook Application** only. If you link the same Facebook **Page Id** to multiple **Facebook Application** channels, then **Callback Uri** and **Verify Token** won't be generated automatically.
 
 > [!div class=mx-imgBorder]
-> ![Facebook application created](media/fb-app-created.png "Facebook application created")
+> ![Facebook application created.](media/fb-app-created.png "Facebook application created")
 
 ### Create routing rules
 
@@ -146,7 +146,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
     For example, you can create a rule to transfer Facebook chat from a customer named Lesa to the default queue. 
 
     > [!div class=mx-imgBorder]
-    > ![Facebook channel routing rule](media/fb-routing-rule.png "Facebook channel routing rule")
+    > ![Facebook channel routing rule.](media/fb-routing-rule.png "Facebook channel routing rule")
 
 When you create conditions for routing rules, the **Facebook Engagement Context (Conversation)** entity enables you to set the following attributes:
 
@@ -204,7 +204,7 @@ If the customer is not identified based on name, a new contact record can be cre
 The customer can send attachments only if you enable them. When the option isn't enabled for the customers, they can still attempt to send the file. However, agents won't receive the file and will see an error.
 
 > [!div class=mx-imgBorder]
-> ![Customer sending file](media/fb-customer1.png "Customer sending file")
+> ![Customer sending file.](media/fb-customer1.png "Customer sending file")
 
 ## Privacy notice
 

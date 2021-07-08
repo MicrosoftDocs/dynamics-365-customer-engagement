@@ -74,7 +74,7 @@ You can enable Edge WebView2 Process in any of the following ways:
 
 5. On the **New Hosted Control** page, specify the details, and then select **Edge WebView2 Process** from the **Hosting Type** dropdown list.
 
-   ![Edge WebView2 Process hosted control](media/edge-webview2-process-hosted-control-setting.PNG "Edge WebView2 Process hosted control")
+   ![Edge WebView2 Process hosted control.](media/edge-webview2-process-hosted-control-setting.PNG "Edge WebView2 Process hosted control")
 
 6. Select **Save**.
 

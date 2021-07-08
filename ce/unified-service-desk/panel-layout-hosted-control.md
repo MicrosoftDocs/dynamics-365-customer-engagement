@@ -31,7 +31,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
 ## Create a Panel Layout hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Panel Layout** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
- ![Panel Layout hosted control](../unified-service-desk/media/crm-itpro-usd-panellayouthostedcontrol.png "Panel Layout hosted control")  
+ ![Panel Layout hosted control.](../unified-service-desk/media/crm-itpro-usd-panellayouthostedcontrol.png "Panel Layout hosted control")  
   
  In the **New Hosted Control** screen:  
   

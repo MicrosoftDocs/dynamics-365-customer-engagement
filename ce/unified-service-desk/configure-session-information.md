@@ -42,7 +42,7 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
   
    5.  In the **Display** field, type the display format for the tab. In this case, we want to display the name of the account followed by a dash, and then the primary contact name for the account. Type the following value: [[account.name]]-[[account.address1_primarycontactname]].  
   
-   ![Configure session tab name](../unified-service-desk/media/usd-configure-session-name.png "Configure session tab name")  
+   ![Configure session tab name.](../unified-service-desk/media/usd-configure-session-name.png "Configure session tab name")  
   
     Alternatively, you can use replacement parameters as well to pick up values at runtime, and dynamically display the tab name. For example, to display the name of the account followed by a dash and ending with the name of the activity that started the session (such as chat, or phonecall). Type the following value: [[account.name]]-[[$Context.InitialEntity]].  
   
@@ -74,7 +74,7 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
   
    5. In the **Display** field, specify XAML script that defines the layout and content of the overview area. You can use designer tools such as [!INCLUDE[pn_blend_for_visual_studio](../includes/pn-blend-for-visual-studio.md)] to create and design the XAML script, and then copy it in this field. The XAML script must be properly formatted for it to display correctly in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-   ![Configure session overview](../unified-service-desk/media/usd-configure-session-overview.png "Configure session overview")  
+   ![Configure session overview.](../unified-service-desk/media/usd-configure-session-overview.png "Configure session overview")  
   
 5. Select **Save**.  
   
@@ -100,11 +100,11 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
   
  Here is an example scriptlet that checks to see if the loaded account has its credit on hold.  
   
- ![Example scriptlet in Unified Service Desk](../unified-service-desk/media/usd-sample-scriptlet.png "Example scriptlet in Unified Service Desk")  
+ ![Example scriptlet in Unified Service Desk.](../unified-service-desk/media/usd-sample-scriptlet.png "Example scriptlet in Unified Service Desk")  
   
  Notice that the `creditonhold` property is checked for the account. If the value is `true`, it returns `true`, otherwise it throws an exception. Next here is a session overview line that displays a textbox and button (my alert) if the value is `true`.  
   
- ![Display alerts in Unified Service Desk](../unified-service-desk/media/usd-sample-session-information.png "Display alerts in Unified Service Desk")  
+ ![Display alerts in Unified Service Desk.](../unified-service-desk/media/usd-sample-session-information.png "Display alerts in Unified Service Desk")  
   
  Notice the highlighted command. This is on a column that isn’t visible to the user. Instead the replacement parameter here will either cause this session overview line to display or cause it to be skipped. If the Credit On Hold True Check scriptlet throws the exception, the system won’t display any of this Session Information element. Now that we have the condition that decides when to show the alert, let’s look at the button and some interesting features here.  
   

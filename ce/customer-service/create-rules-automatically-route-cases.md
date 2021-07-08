@@ -37,7 +37,7 @@ While creating custom apps, you might not have routing rules sets available in y
 4. Select the area in which you want to add the routing ruleset entity, such as **Service Management**, select **Add**, and then select **Subarea**.
 
     > [!div class="mx-imgBorder"]
-    > ![add routing rules to site map](media/rr-add-to-sitemap.png "add routing rules to site map")
+    > ![add routing rules to site map.](media/rr-add-to-sitemap.png "add routing rules to site map")
 
   The **SUB AREA** section appears in the right pane.
 
@@ -82,7 +82,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 4. Select **Save**. The routing ruleset is saved, and the **Rule Items** section is displayed.
 
     > [!div class="mx-imgBorder"]
-    > ![Create routing rules general information](media/rr-create-rule-set.png "Create routing rules general information")
+    > ![Create routing rules general information.](media/rr-create-rule-set.png "Create routing rules general information")
 
 5. In the **Rule Items** section, select **New Rule Item**. The **New Rule Item** dialog box appears in which you can specify conditions that will be evaluated for routing cases to a queue, an agent, or a team.
 
@@ -111,7 +111,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
       For example, all cases about printer issues from customers should be routed to an agent named Bert Heir, who is the subject matter expert in the team. The rule item for the condition can be configured as shown in the screenshot.
 
       > [!div class="mx-imgBorder"]
-      > ![Create condition](media/rr-create-condition.png "Create condition")
+      > ![Create condition.](media/rr-create-condition.png "Create condition")
 
     d. Select **Save & Close** to save and close the rule item.
 
@@ -186,7 +186,7 @@ Perform the following steps to manually apply the rule to any existing or manual
 2. Select the cases that you want to route using this rule, and on the command bar, select **Apply Routing Rule**.
 
     > [!div class="mx-imgBorder"]
-    > ![Apply routing rules set](media/rr-activate-rules.png "Apply routing rules set") 
+    > ![Apply routing rules set.](media/rr-activate-rules.png "Apply routing rules set") 
 
 > [!NOTE]
 >

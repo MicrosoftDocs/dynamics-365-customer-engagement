@@ -31,7 +31,7 @@ To resolve this, you must add the **Parent** field back to the form. You can do 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
 
@@ -46,7 +46,7 @@ To resolve this, you must add the **Parent** field back to the form. You can do 
 6. In the form editor, select the **Parent** field from Field Explorer and drag it to the **Summary** section on the left side of the form editor.
 
     > [!div class="mx-imgBorder"]
-    > ![Add the Parent field to the Product form](media/add-parent-field-product-form.png "Add the Parent field to the Product form")
+    > ![Add the Parent field to the Product form.](media/add-parent-field-product-form.png "Add the Parent field to the Product form")
 
 7. Select **Save**, and then **Publish**.
 

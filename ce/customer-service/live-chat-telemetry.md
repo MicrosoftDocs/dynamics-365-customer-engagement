@@ -29,7 +29,7 @@ Some of the data collected in the live chat widget include the following.
 If your organization is concerned about the data collected by this service, you have the option to turn off automatic data collection by adding an HTML attribute to the chat widget script. 
 
 ```html
-data-enable-telemetry = "false"
+data-disable-telemetry = "true"
 ```
 
 ### See also

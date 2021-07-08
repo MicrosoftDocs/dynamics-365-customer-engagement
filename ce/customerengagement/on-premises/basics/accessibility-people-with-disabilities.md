@@ -6,7 +6,7 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics 365 Customer Engagement (on-premises)Version 8.x
 ms.date: 05/05/2020
-ms.service: dynamics-365-crossapp
+ms.prod: d365ce-op
 ms.topic: article
 author: ReneeW-CPub
 ms.author: renwe
@@ -45,7 +45,7 @@ For accessibility information about your browser, visit the following websites:
 ## Heighten color contrast of some text and images  
  The high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You'll find this setting on the **Ease of Access** page in [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx).  
   
- If you're using the high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)], you should also select **Enable high contrast** in your Dynamics 365 Customer Engagement (on-premises) personal options. On your dashboard, click or tap ![Gear button](../basics/media/selection-rule-gear-button.gif "Gear button") **>** **Options**. Click or tap the **General** tab, click or tap **Enable high contrast**, and then click or tap **OK**.  
+ If you're using the high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)], you should also select **Enable high contrast** in your Dynamics 365 Customer Engagement (on-premises) personal options. On your dashboard, click or tap ![Gear button.](../basics/media/selection-rule-gear-button.gif "Gear button") **>** **Options**. Click or tap the **General** tab, click or tap **Enable high contrast**, and then click or tap **OK**.  
 
 ### See also  
  [Microsoft Accessibility](https://www.microsoft.com/enable/default.aspx)
@@ -83,7 +83,7 @@ For accessibility information about your browser, visit the following websites:
 ## Heighten color contrast of some text and images  
  The high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You'll find this setting on the **Ease of Access** page in [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx).  
   
- If you're using the high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)], you should also select **Enable high contrast** in your Dynamics 365 Customer Engagement (on-premises) personal options. On your dashboard, click or tap ![Gear button](../basics/media/selection-rule-gear-button.gif "Gear button") **>** **Options**. Click or tap the **General** tab, click or tap **Enable high contrast**, and then click or tap **OK**.  
+ If you're using the high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)], you should also select **Enable high contrast** in your Dynamics 365 Customer Engagement (on-premises) personal options. On your dashboard, click or tap ![Gear button.](../basics/media/selection-rule-gear-button.gif "Gear button") **>** **Options**. Click or tap the **General** tab, click or tap **Enable high contrast**, and then click or tap **OK**.  
 
 ### See also  
  [Microsoft Accessibility](https://www.microsoft.com/enable/default.aspx)
