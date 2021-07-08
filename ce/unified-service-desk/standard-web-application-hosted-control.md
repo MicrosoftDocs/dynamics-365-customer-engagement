@@ -29,7 +29,7 @@ The Standard Web Application hosted control type is similar to the CRM Page type
 
 While you're creating a new hosted control, the fields on the **New Hosted Control** screen will vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the Standard Web Application hosted control type. More information: [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)
 
-![Standard Web Application hosted control](../unified-service-desk/media/crm-itpro-usd-standardwebapplicationhostedcontrol.png "Standard Web Application hosted control")  
+![Standard Web Application hosted control.](../unified-service-desk/media/crm-itpro-usd-standardwebapplicationhostedcontrol.png "Standard Web Application hosted control")  
 
 On the **New Hosted Control** screen:  
 

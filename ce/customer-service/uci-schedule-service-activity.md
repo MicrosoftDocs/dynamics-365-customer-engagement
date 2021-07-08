@@ -33,11 +33,11 @@ Before beginning to create a service activity, make sure you have the Scheduler 
 
 2. Select **Service Activities**. 
 
-   ![Select Service Activities](media/uci-service-activities.png "Select Service Activities on the Scheduling tab")
+   ![Select Service Activities.](media/uci-service-activities.png "Select Service Activities on the Scheduling tab")
 
 3. On the **Schedule Service Activity** form, select **Schedule**.
 
-   ![Schedule a service activity](media/uci-schedule-service-activity.png "Schedule a service activity")
+   ![Schedule a service activity.](media/uci-schedule-service-activity.png "Schedule a service activity")
    
 4. Under **Requested Time**, select criteria for the times you want:
   - To search for a time on a specific date, in Start Date, select **Specific Date**, and then enter the date you want.

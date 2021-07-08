@@ -37,7 +37,7 @@ Because there's no change to functionality in version 3.x, we aren't upgrading. 
 <a name="unable-sync-d365-org-under-admin-tab-linkedin"> </a>
 **Why am I unable to sync a Dynamics 365 organization with LinkedIn Sales Navigator on the Admin tab? I get an error message saying that the start of the sync has failed.**    
 > [!div class="mx-imgBorder"]  
-> ![Unable to sync a Dynamics 365 organization with LinkedIn Sales Navigator error message](media/faq-unable-sync-d365-lsn-error.png "Unable to sync Dynamics 365 organization with LinkedIn Sales Navigator error message")   
+> ![Unable to sync a Dynamics 365 organization with LinkedIn Sales Navigator error message.](media/faq-unable-sync-d365-lsn-error.png "Unable to sync Dynamics 365 organization with LinkedIn Sales Navigator error message")   
 
 **Answer:**    
 The error is from the LinkedIn Sales Navigator application. Contact [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue. 
@@ -61,7 +61,7 @@ If the issue persists, contact [LinkedIn Sales Navigator](https://www.linkedin.c
 <a name="unable-writeback-inmails"> </a>
 **Why am I unable to write back inMails and messages from LinkedIn Sales Navigator to Dynamics 365? The Copy message to CRM option is unavailable.**     
 > [!div class="mx-imgBorder"]  
-> ![Copy message to CRM option unavailable](media/faq-unable-writeback-inmails-messages-error.png "Copy message to CRM option unavailable")   
+> ![Copy message to CRM option unavailable.](media/faq-unable-writeback-inmails-messages-error.png "Copy message to CRM option unavailable")   
 
 **Answer:**     
 The issue has occurred due to the insufficient permissions in your user account to write back to Dynamics 365 from LinkedIn Sales Navigator. Contact [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.
@@ -82,14 +82,14 @@ In the Dynamics 365 LinkedIn 3.x solution, only the PointDrive label is changed 
 2. Go to **Advanced Settings** > **Customizations** > **Customize the System**.    
 3. From the **Entities** site map, select the **PointDrive Presentation Viewed** entity.      
    > [!div class="mx-imgBorder"]
-   > ![PointDrive Presentation Viewed entity view](media/faq-pointdrive-presentation-viewed-entity.png "PointDrive Presentation Viewed entity view")     
+   > ![PointDrive Presentation Viewed entity view.](media/faq-pointdrive-presentation-viewed-entity.png "PointDrive Presentation Viewed entity view")     
 4. For **Display Name** and **Plural Name**, enter **Smart Links Content Viewed**.    
    > [!div class="mx-imgBorder"]
-   > ![Change Display Name and Plural Name to Smart Links Content Viewed](media/faq-change-name-smart-links-content-viewed.png "Change Display Name and Plural Name to Smart Links Content Viewed")     
+   > ![Change Display Name and Plural Name to Smart Links Content Viewed.](media/faq-change-name-smart-links-content-viewed.png "Change Display Name and Plural Name to Smart Links Content Viewed")     
 5. Save and publish the customizations.     
 6. Browse to an entity record and verify that the Smart Links label appears on the timeline.     
    > [!div class="mx-imgBorder"]
-   > ![Smart Links Content Viewed confirmation on the timeline](media/faq-smart-links-content-viewed-confirmation.png "Smart links Content Viewed confirmation on the timeline")     
+   > ![Smart Links Content Viewed confirmation on the timeline.](media/faq-smart-links-content-viewed-confirmation.png "Smart links Content Viewed confirmation on the timeline")     
 
 <a name="show-smart-links-activity-on-timeline"> </a>
 **How can I show an activity (InMail, Message, or Smart Links) on the timeline?**    
@@ -102,13 +102,13 @@ If you've properly configured CRM sync and activity writeback, the activity will
 3. From the **Entities** site map, select the entity (Contact or Lead) and then the form for which you want to configure the timeline.     
 4. On the entity form, on the **SOCIAL PANE** tab, select **Notes Properties**, and then select **Change Properties**.     
    > [!div class="mx-imgBorder"]
-   > ![Select the Change Properties option for notes properties](media/faq-select-notes-properties.png "Select the Change Properties option for notes properties")     
+   > ![Select the Change Properties option for notes properties.](media/faq-select-notes-properties.png "Select the Change Properties option for notes properties")     
 5. In the **Activities Tab Properties** window, under **Unified Interface Properties (New)** tab, select the **Activities** tab.     
 6. In the **Filter By** section, select the following options:    
    - From the **Show these activities** list, select **Show selected**.
    - From the options, select the **Ctrl** key, and then select the activity.    
    > [!div class="mx-imgBorder"]
-   > ![Select options to show Smart Links activities](media/faq-select-options-filter-by-section.png "Select options to show Smart Links activities")         
+   > ![Select options to show Smart Links activities.](media/faq-select-options-filter-by-section.png "Select options to show Smart Links activities")         
 7. Select **OK**, and then save and publish the customizations.
 
 ### See also

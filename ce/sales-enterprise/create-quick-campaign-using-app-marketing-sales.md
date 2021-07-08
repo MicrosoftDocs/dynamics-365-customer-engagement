@@ -23,7 +23,7 @@ searchScope:
 
 Send an e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product by using a quick campaign in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. A quick campaign is a single campaign activity geared toward a targeted audience. Track the success of your quick campaign through campaign responses, and convert the positive responses into new leads, quotes, orders, or opportunities.  
   
- ![Quick campaign wizard](../sales-enterprise/media/quick-campaign-wizard.png "Quick campaign wizard")  
+ ![Quick campaign wizard.](../sales-enterprise/media/quick-campaign-wizard.png "Quick campaign wizard")  
   
  If you need to perform more than one activity for your campaign, such as an email blast and a mailing, create a new campaign instead. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)  
   

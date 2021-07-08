@@ -168,7 +168,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 
 15. Select **Save**. The new action call gets added to the **Contoso Show Help** button. You can see both action calls added to the toolbar button.  
 
-    ![Action calls added to the toolbar button](../unified-service-desk/media/crm-itpro-usd-wt02-07.png "Action calls added to the toolbar button")  
+    ![Action calls added to the toolbar button.](../unified-service-desk/media/crm-itpro-usd-wt02-07.png "Action calls added to the toolbar button")  
 
 <a name="Step5"></a>   
 ## Step 5: Add the controls to the configuration  
@@ -217,11 +217,11 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 
  Your agent application will now have a **Show Help** button at the top-right corner:  
 
- ![Show Help button in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-08.png "Show Help button in Unified Service Desk")  
+ ![Show Help button in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-wt02-08.png "Show Help button in Unified Service Desk")  
 
  Clicking **Show Help** displays the specified web URL within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application.  
 
- ![Help displayed in the client application](../unified-service-desk/media/crm-itpro-usd-wt02-09.png "Help displayed in the client application")  
+ ![Help displayed in the client application.](../unified-service-desk/media/crm-itpro-usd-wt02-09.png "Help displayed in the client application")  
 
 <a name="Conclusion"></a>   
 ## Conclusion  

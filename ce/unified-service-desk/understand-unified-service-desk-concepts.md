@@ -59,7 +59,7 @@ To change the **TotalRecordCountLimit** timeout value:
 
 7. Select **Save**.
 
-![Configure TotalRecordCountLimit](../unified-service-desk/unified-interface/media/total-record-count-limit.PNG "Configure TotalRecordCountLimit")
+![Configure TotalRecordCountLimit.](../unified-service-desk/unified-interface/media/total-record-count-limit.PNG "Configure TotalRecordCountLimit")
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage options for Unified Service Desk](../unified-service-desk/admin/manage-options-unified-service-desk.md)
 

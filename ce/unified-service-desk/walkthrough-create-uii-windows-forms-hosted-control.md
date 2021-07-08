@@ -56,7 +56,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
    2.  Specify the name and location of the project, and select **OK** to create a new project.  
   
-   ![Create a UII Windows Form hosted control](../unified-service-desk/media/usd-create-uii-windows-form-hosted-control-1.png "Create a UII Windows Form hosted control")  
+   ![Create a UII Windows Form hosted control.](../unified-service-desk/media/usd-create-uii-windows-form-hosted-control-1.png "Create a UII Windows Form hosted control")  
   
 3. In **Solution Explorer** pane, right-click the **UiiWinformControl.cs** file, and select **Open** to display the Windows Forms designer.  
   
@@ -77,7 +77,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
     This is how the controls should be laid out in the designer.  
   
-   ![Layout of the controls in your UII hosted control](../unified-service-desk/media/usd-ui-iwindows-form-hosted-control-design.png "Layout of the controls in your UII hosted control")  
+   ![Layout of the controls in your UII hosted control.](../unified-service-desk/media/usd-ui-iwindows-form-hosted-control-design.png "Layout of the controls in your UII hosted control")  
   
 5. Double-click the **Update values in hosted apps** button (`btnUpdate`) to add the code for the `click` event for this button, and add the following code.  
   
@@ -193,7 +193,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
 7. Similarly, add the following two actions: **UpdateLastName** and **UpdateAddress**. All the three actions become available for the **QsExternalApp** hosted control.  
   
-   ![Available UII actions for a hosted control](../unified-service-desk/media/usd-available-uii-actions-hosted-control.png "Available UII actions for a hosted control")  
+   ![Available UII actions for a hosted control.](../unified-service-desk/media/usd-available-uii-actions-hosted-control.png "Available UII actions for a hosted control")  
   
 8. Follow steps 4 through 7 to create three [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions with the same names for the **QsExternalWebApp** hosted control.  
   
@@ -205,19 +205,19 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
 2. On successful sign in, you’ll see three hosted controls: **Sample UII Windows Forms Hosted Control**, **Sample External Web Application**, and **Sample External Application**.  
   
-   ![Sample hosted controls available](../unified-service-desk/media/usd-sample-hosted-controls-available.png "Sample hosted controls available")  
+   ![Sample hosted controls available.](../unified-service-desk/media/usd-sample-hosted-controls-available.png "Sample hosted controls available")  
   
 3. Choose **Search**, and then choose **Contacts**. Choose any of the contacts to display the contact details in a session. This also displays the first name, last name, street address, and ID of the currently displayed contact record in all the three sample controls as shown in the following illustration.  
   
-   ![Sample controls in USD with contact information](../unified-service-desk/media/usd-3-samplecontrols-1.png "Sample controls in USD with contact information")  
+   ![Sample controls in USD with contact information.](../unified-service-desk/media/usd-3-samplecontrols-1.png "Sample controls in USD with contact information")  
   
 4. Change the values in **Sample UII Windows Forms Hosted Control**, and select **Update values in hosted apps** to update the values in the other two external applications.  
   
-   ![Sample controls with updated values](../unified-service-desk/media/usd-3-sample-controls-updated-values.png "Sample controls with updated values")  
+   ![Sample controls with updated values.](../unified-service-desk/media/usd-3-sample-controls-updated-values.png "Sample controls with updated values")  
   
 5. In **Sample UII Windows Forms Hosted Control**, select **Update context** to update the context information in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-   ![Values updated in the USD context](../unified-service-desk/media/usd-values-updated-context.png "Values updated in the USD context")  
+   ![Values updated in the USD context.](../unified-service-desk/media/usd-values-updated-context.png "Values updated in the USD context")  
   
 ### See also  
  [Work with UII Hosted Controls](../unified-service-desk/use-uii-hosted-controls-unified-service-desk.md)   

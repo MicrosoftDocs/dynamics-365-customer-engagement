@@ -32,15 +32,15 @@ To send sales literature, you must have the appropriate permission and use [Dyna
 2. At the top select, **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
+   > ![Open App for Outlook pane.](../media/open-pane-appforoutlook.png)  
   
-3. Select **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) and then select **Insert**.
+3. Select **More commands** ![Main more commnands button.](../media/main-more-commands-button-appforoutlook.png) and then select **Insert**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select more commands and then insert](../media/insert-appforoutlook.png)
+   > ![Select more commands and then insert.](../media/insert-appforoutlook.png)
 
 
 3. Select **Add Sales Literature** or **Add Knowledge Article**, and then follow the steps to add or insert the literature or article.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select sales literature or Knowledge Article](../media/insert-sales-lit-kb.png)
+   > ![Select sales literature or Knowledge Article.](../media/insert-sales-lit-kb.png)

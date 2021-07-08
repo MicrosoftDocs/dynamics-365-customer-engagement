@@ -19,14 +19,14 @@ Using the general properties and scheduling options of the forecast configuratio
 1.	In the **General** step, enter a descriptive name for the forecast. For example, **Kenny's Org FY 2020 Forecast**.
 
     > [!div class="mx-imgBorder"]
-    > ![Enter a name for the forecast](media/forecast-general-properties-forecast-name.png "Enter a name for the forecast")
+    > ![Enter a name for the forecast.](media/forecast-general-properties-forecast-name.png "Enter a name for the forecast")
 
 2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. 
 
     By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Track** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
     > [!div class="mx-imgBorder"]
-    > ![Select a rollup entity](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
+    > ![Select a rollup entity.](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
 
     The following rollup entities are selected for templates:
 
@@ -51,12 +51,12 @@ Using the general properties and scheduling options of the forecast configuratio
     For example, if you've selected the hierarchy entity as **User**, the attributes in the **Opportunity** entity that has a relationship with the **User** entity are displayed. 
     
     > [!div class="mx-imgBorder"]
-    > ![Select an attribute to define relationship](media/forecast-relationship-entity-attribute.png "Select an attribute to define relationship")
+    > ![Select an attribute to define relationship.](media/forecast-relationship-entity-attribute.png "Select an attribute to define relationship")
     
     Select an attribute to define the rollup relationship between the rollup entity (**Opportunity**) and the hierarchy entity (**User**). Here, we're selecting the relationship attribute as **Owner (User)**. The relationship is mapped as *Opportunity > Owner (User) > User*. The mapping specifies that the attribute **Owner** is in the **Opportunity** entity that has a relationship with the **User** entity.
 
     > [!div class="mx-imgBorder"]
-    > ![Selected owner attribute](media/forecast-relationship-entity-attribute-created-by.png "Selected owner attribute")
+    > ![Selected owner attribute.](media/forecast-relationship-entity-attribute-created-by.png "Selected owner attribute")
 
     Similarly, if there is no direct entity relationship between the rollup entity and the hierarchy entity, you can choose a related attribute to define the relationship. Select the **Related** tab, and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only.
 
@@ -68,7 +68,7 @@ Using the general properties and scheduling options of the forecast configuratio
     The relationship is mapped as *Opportunity > Account (Account) > Territory (Territory) > Territory*. The mapping specifies that there is an attribute **Account** in the **Opportunity** entity that's related to the **Account** entity, which in turn has the **Territory** attribute that's related to the **Territory** entity. The rollup values in the forecast will be based on the relationship defined through the **Territory** attribute.
 
     > [!div class="mx-imgBorder"]
-    > ![Selected related attribute](media/forecast-relationship-entity-related-attribute-account-user.png "Selected related attribute")
+    > ![Selected related attribute.](media/forecast-relationship-entity-related-attribute-account-user.png "Selected related attribute")
 
     By default, for both the **Org chart forecast** and **Territory forecast** templates, the rollup relationships are predefined as described in the following table.
 
@@ -85,7 +85,7 @@ Using the general properties and scheduling options of the forecast configuratio
     For example, if you select the hierarchy entity as **User**, the list displays all active users in your organization. You can then select a user from the list to be displayed at the top of the hierarchy. Say, Kenny Smith, a sales director, is looking at a forecast based on the **Org chart** template. He wants to see a forecast for his team, so he selects his name as the top name in the hierarchy. After Kenny makes his selection, he can see a preview of the full hierarchy in the rightmost pane. 
 
     > [!div class="mx-imgBorder"]
-    > ![Configuration section](media/forecast-general-tab-configuration-section.png "Configuration section")
+    > ![Configuration section.](media/forecast-general-tab-configuration-section.png "Configuration section")
 
 6.	Choose a **Default underlying records view**. This is the default view used when users select a row or a cell of the forecast to view its underlying opportunities. To learn more, see [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md).
 
@@ -104,7 +104,7 @@ Using the general properties and scheduling options of the forecast configuratio
     | Valid to | This field is read-only. It identifies the date the forecast ends. |
     
     > [!div class="mx-imgBorder"]
-    > ![Scheduling section](media/forecast-general-tab-scheduling-section.png "Scheduling section")
+    > ![Scheduling section.](media/forecast-general-tab-scheduling-section.png "Scheduling section")
 
     Scheduling supports fiscal year that spans across calendar years and fiscal months that spans across calendar months. For example, your organization's fiscal year spans across two different calendar years&mdash;from 28 December to 27 December of next year. Let's see how we can schedule a monthly forecast for the fiscal year FY2020.
     
@@ -113,7 +113,7 @@ Using the general properties and scheduling options of the forecast configuratio
         The start date determines when the fiscal year must start and the name base defines which date has to be considered to name the fiscal year.
         
         > [!div class="mx-imgBorder"]
-        > ![Verify organizational fiscal settings](media/forecast-schedule-org-fy-settings.png "Verify organizational fiscal settings")
+        > ![Verify organizational fiscal settings.](media/forecast-schedule-org-fy-settings.png "Verify organizational fiscal settings")
         
         In the above image, you can see that:
         
@@ -135,7 +135,7 @@ Using the general properties and scheduling options of the forecast configuratio
         When this option is enabled, the forecast’s first month will be taken from the **Valid from** month (**December** when valid from is **12/28/2019**). When disabled, the forecast’s first month will be the following month (**January**). 
 
     > [!div class="mx-imgBorder"]
-    > ![Schedule a forecast with start month name](media/forecast-schedule-org-select-name.png "Schedule a forecast with start month name")
+    > ![Schedule a forecast with start month name.](media/forecast-schedule-org-select-name.png "Schedule a forecast with start month name")
 
 8.	Select **Next**.
 
@@ -146,7 +146,7 @@ Using advanced scheduling, you can configure forecast scheduling based on the ca
 Forecasting now supports the selection of different calendar patterns to match your organizational requirements. In the **Scheduling** section, enable the advanced scheduling option.
 
 > [!div class="mx-imgBorder"]
-> ![Enable advanced scheduling preview](media/forecast-adv-scheduling-enable-preview.png "Enable advanced scheduling preview")     
+> ![Enable advanced scheduling preview.](media/forecast-adv-scheduling-enable-preview.png "Enable advanced scheduling preview")     
 
 In addition to the [basic scheduling settings described earlier in this article](#basic-scheduling), the following options are available for you to configure:
 

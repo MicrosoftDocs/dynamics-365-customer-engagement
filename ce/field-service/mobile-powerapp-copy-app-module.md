@@ -72,7 +72,7 @@ To make the app module available to the Field Service mobile app:
 
     2.  If you haven't yet created the app module, you can start the creation process by selecting **New**.
 
-![Power Apps showing the model-driven apps, highlighting the new and add existing options](media/image5.png)
+![Power Apps showing the model-driven apps, highlighting the new and add existing options.](media/image5.png)
 
 3.  Once the app is added to the solution, **Save and Close**, which will add your app module to the solution you created.
 

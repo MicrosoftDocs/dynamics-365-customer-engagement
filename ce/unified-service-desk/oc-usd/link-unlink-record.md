@@ -20,7 +20,7 @@ The topic explains how to link and unlink a record to the conversation.
 During inline search, the search results are displayed, and you can select a record to link the conversation to the selected record. After you link the record, the **Customer summary** form loads with the details.
 
 > [!div class=mx-imgBorder]
-> ![Cusomter summary is loaded with details after linking](../../customer-service/media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
+> ![Cusomter summary is loaded with details after linking.](../../customer-service/media/agent-inline-search-link.PNG "Cusomter summary is loaded with details after linking")
 
 > [!Note]
 > You can link only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
@@ -30,7 +30,7 @@ During inline search, the search results are displayed, and you can select a rec
 
 You can unlink a record only when you are interacting with customer using the communication panel. That is, after you accept an incoming conversation request and view the **Customer summary** page, you can unlink the record from the conversation. 
 
-![Select X button next the textbox to unlink](../../customer-service/media/oceh-oc-unlink-customer.PNG "Unlink a record")
+![Select X button next the textbox to unlink.](../../customer-service/media/oceh-oc-unlink-customer.PNG "Unlink a record")
 
 To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank.
 

@@ -20,7 +20,7 @@ To allow users in your organization to capture more relevant details about an op
 
 To enable customization:
 
-1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar](../sales-enterprise/media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
+1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](../sales-enterprise/media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
     The **Business Management settings** page opens in a new browser tab.
 
@@ -31,7 +31,7 @@ To enable customization:
 4.  In the **System Settings dialog** box, on the **Sales** tab, set the **Customize close opportunity form** field to **Yes**.
 
     > [!div class="mx-imgBorder"]
-    > ![Customize opportunity close option in System Settings](../sales-enterprise/media/system-setting-customize-close-opportunity-form.png "Customize opportunity close option in System Settings")
+    > ![Customize opportunity close option in System Settings.](../sales-enterprise/media/system-setting-customize-close-opportunity-form.png "Customize opportunity close option in System Settings")
 
 5.  Select **OK**.
 

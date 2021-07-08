@@ -3,7 +3,7 @@ title: "Drill down in a chart (Dynamics 365 Customer Engagement (on-premises)) |
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -30,7 +30,7 @@ Make Connected Field Service send booking updates to Azure IoT Central when a re
 2. Once you've selected the template, you'll be asked to sign in with both your Dynamics 365 account and Azure IoT Central account.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the account association page in Power Automate](media/iot-central-bookings-1.png)
+> ![Screenshot of the account association page in Power Automate.](media/iot-central-bookings-1.png)
 
 3. Like with work order updates in step 3 of this tutorial, this Flow template will be mostly ready-to-go. To get it working, you need to update the following (see screenshots below for reference):
 
@@ -39,24 +39,24 @@ Make Connected Field Service send booking updates to Azure IoT Central when a re
     b. Add your IoT Central application name in the field for **Application**.
     
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate template, with letters for reference to correspond with the instructions](media/iot-central-bookings-2.png)
+> ![Screenshot of the Power Automate template, with letters for reference to correspond with the instructions.](media/iot-central-bookings-2.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate template, with letters for reference to correspond with the instructions](media/iot-central-bookings-3.png)
+> ![Screenshot of the Power Automate template, with letters for reference to correspond with the instructions.](media/iot-central-bookings-3.png)
 
 4. Save the flow.
 
 5. Head on back to your Field Service environment and open the schedule board. Find a resource that matches your IoT requirements, based on criteria such as location and alert type. Confirm the booking for the work order that was generated in response to the IoT alert.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedule Board in Field Service, booking a resource](media/iot-central-bookings-4.png)
+> ![Screenshot of the Schedule Board in Field Service, booking a resource.](media/iot-central-bookings-4.png)
 
 ## See the results
 
 Back in Azure IoT Central, you'll now see booking information associated with this device, such as technician name, estimated arrival time, and estimated service duration.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the device page in Azure IoT Central, which now includes booking details](media/iot-central-bookings-5.png)
+> ![Screenshot of the device page in Azure IoT Central, which now includes booking details.](media/iot-central-bookings-5.png)
 
 You've now completed the tutorials. Nice work.
 

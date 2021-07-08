@@ -1,7 +1,7 @@
 ---
 title: "Base currency code, base currency symbol, and base currency name must be specified | Microsoft Docs"
 description: Environment diagnostics warning that currency parameters must be specified
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

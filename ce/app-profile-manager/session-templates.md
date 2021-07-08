@@ -80,7 +80,7 @@ The following out-of-the-box session templates are of the generic type and are f
 10. Select **Save**.
 
    > [!div class=mx-imgBorder]
-   > ![Session template](media/session-template1.png "Session template")
+   > ![Session template.](media/session-template1.png "Session template")
 
 The session template is configured. Now, you must associate the session template with a work stream. To learn more, see [Associate templates with work streams](associate-templates.md).
 

@@ -3,7 +3,7 @@ title: "Sample: Initialize a record from an existing record (Developer Guide for
 description: "This sample shows how to use the IOrganizationService.InitializeFromRequest message to create new records from an existing record"
 keywords: 
 ms.date: 01/08/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

@@ -2,7 +2,7 @@
 title: "Support for Dynamics 365 Customer Engagement (on-premises) multiple-server topologies | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -40,7 +40,7 @@ This section provides examples of various multiple-server topologies.
 -   CRMWebClient, CRMforOutlook, tablet, and phone devices: These computers and devices are running applications that are available, connecting from the Internet or the LAN-based network, such as [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], and [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)].  
  
 <!--  
- ![Diagram shows five&#45;server topology in Dynamics 365](media/5-servertopology.jpg "Diagram shows five-server topology in Dynamics 365")  
+ ![Diagram shows five&#45;server topology in Dynamics 365.](media/5-servertopology.jpg "Diagram shows five-server topology in Dynamics 365")  
   
  Basic [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] five-server topology with Internet access example  -->
   
@@ -107,7 +107,7 @@ This section provides examples of various multiple-server topologies.
   
     -   [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] running [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (Server Y).  
  <!--  
- ![Diagram of conceptual enterprise deployment in Dynamics 365](media/crm-itpro-ig-complex-topology.jpg "Diagram of conceptual enterprise deployment in Dynamics 365")  
+ ![Diagram of conceptual enterprise deployment in Dynamics 365.](media/crm-itpro-ig-complex-topology.jpg "Diagram of conceptual enterprise deployment in Dynamics 365")  
   
  Multiple forest with Internet access to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] topology example  -->
   

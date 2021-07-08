@@ -4,7 +4,7 @@ description: "Synchronize data for each user that can be controlled by using syn
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -31,7 +31,7 @@ Server-side synchronization is the preferred option for organizations with users
   
  For more information about server-side synchronization, see [Server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
- ![Server-side synchronization in Dynamics 365 for Customer Engagement](../admin/media/server-side-sync-diagram.png "Server-side synchronization in Dynamics 365 for Customer Engagement")  
+ ![Server-side synchronization in Dynamics 365 for Customer Engagement.](../admin/media/server-side-sync-diagram.png "Server-side synchronization in Dynamics 365 for Customer Engagement")  
   
 > [!NOTE]
 >  A Customer Engagement (on-premises) user can only map to a single [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or POP3 mailbox. Similarly, an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or POP3 mailbox can only be mapped to a single Customer Engagement (on-premises) user. When Customer Engagement (on-premises) detects that an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or POP3 mailbox has already been mapped to a Customer Engagement (on-premises) user, a dialog box is displayed to present a choice to the user whether to map the Customer Engagement (on-premises) user to the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox. When the user selects yes, it breaks the previous Customer Engagement (on-premises) user to [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox mapping and subsequently the synchronization that would occur between the Customer Engagement (on-premises) user and the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  

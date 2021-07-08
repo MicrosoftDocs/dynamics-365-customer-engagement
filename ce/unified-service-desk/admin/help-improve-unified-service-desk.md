@@ -46,7 +46,7 @@ With the release of [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-uni
 
 During installation or upgrade, a notice about transmitting product usage and performance information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] appears as shown in the following image. This information helps us improve the product experience.
 
-![Transmitting usage and performance information](../media/helpimprove-usd-install.PNG "Transmitting usage and performance information")
+![Transmitting usage and performance information.](../media/helpimprove-usd-install.PNG "Transmitting usage and performance information")
 
 
 Configuring and setting the value of the **HelpImproveUSD** global option to **FALSE** disables data collection, and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] won't send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].

@@ -48,7 +48,7 @@ Entity searches are FetchXML definitions that query Microsoft Dataverse web serv
   
  This is how the entity search definition looks like:  
   
- ![Sample entity search definition](../unified-service-desk/media/usd-entity-search-definition.png "Sample entity search definition")  
+ ![Sample entity search definition.](../unified-service-desk/media/usd-entity-search-definition.png "Sample entity search definition")  
   
 > [!IMPORTANT]
 >  While defining FetchXML queries in an entity search, you should only return the fields that are required for the purpose. This minimizes the impact on the network by limiting the size of the request and the data being returned, thus optimizing the resource usage.  

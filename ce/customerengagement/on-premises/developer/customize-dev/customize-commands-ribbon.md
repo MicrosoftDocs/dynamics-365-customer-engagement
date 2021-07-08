@@ -4,7 +4,7 @@ description: "Dynamics 365 Customer Engagement displays commands in different wa
 ms.custom: 
 ms.date: 09/25/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

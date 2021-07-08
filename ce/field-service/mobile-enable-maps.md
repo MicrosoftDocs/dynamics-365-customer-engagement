@@ -78,7 +78,7 @@ Once in Woodford, double-click into your active project.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the mobile configuration tool, showing the project name in a list of projects](./media/mobile-map-api-projects.png)
+> ![Screenshot of the mobile configuration tool, showing the project name in a list of projects.](./media/mobile-map-api-projects.png)
 
 From the left menu, go to **Configuration** then go to the **Integrations** tab.
 

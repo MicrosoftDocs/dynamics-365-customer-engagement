@@ -49,11 +49,11 @@ To access the forms:
 
 2.  Under **Customization**, select **Forms**.
 
-    ![Customize Forms in site map](media/customize-option-in-sitemap.png "Customize Forms in site map")
+    ![Customize Forms in site map.](media/customize-option-in-sitemap.png "Customize Forms in site map")
 
     You'll see the list of available forms.
 
-    ![List of forms](media/form-list.png "List of forms")
+    ![List of forms.](media/form-list.png "List of forms")
 
     The page displays the date when the form was published, and whether the form is active or not.
 

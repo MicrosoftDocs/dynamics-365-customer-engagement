@@ -3,7 +3,7 @@ title: "Dynamics 365 Customer Engagement (on-premises) reporting requirements | 
 description: Understand the requirements for running reports in Dynamics 365
 ms.custom: ""
 ms.date: 03/31/2021
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -94,7 +94,7 @@ Follow the steps given below to create or edit a queue:
 
 6. Select **Save**.
 
-   ![queues in Customer Service hub](media/queues-csh.png)
+   ![queues in Customer Service hub.](media/queues-csh.png)
 
 ## Create a queue in Customer Service app
 
