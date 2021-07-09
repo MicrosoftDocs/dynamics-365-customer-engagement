@@ -1,8 +1,8 @@
 ---
 title: "Request licenses for Field Service Mobile (Xamarin app) configurator licenses | MicrosoftDocs"
 description: Learn about how to request licenses for the Field Service Mobile (Xamarin app) configurator tool.
-ms.custom: dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.date: 03/02/2020
 ms.reviewer: krbjoran
 ms.topic: article
