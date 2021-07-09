@@ -13,7 +13,7 @@ applies_to:
 ms.assetid: d8029ee8-6c19-4ce8-96eb-3a74b48c4d37
 caps.latest.revision: 11
 author: mkaur
-ms.author: mduelae
+ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
