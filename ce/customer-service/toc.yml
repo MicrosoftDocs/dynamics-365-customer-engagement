@@ -196,6 +196,8 @@
         href: trigger-routing-non-case-records.md
   - name: Case management
     items: 
+    - name: Overview of case management
+      href: overview-cases.md
     - name: Administrator experience
       items: 
       - name: Define parent and child cases
