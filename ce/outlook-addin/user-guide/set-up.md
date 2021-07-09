@@ -70,7 +70,7 @@ search.app:
   
 #### Download the software  
   
-1. In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], click the **Settings** icon ![Dynamics 365 apps web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 apps web client Settings button"), and then click **Apps for Dynamics 365 apps**.  
+1. In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], click the **Settings** icon ![Dynamics 365 apps web client Settings button.](../media/mp-ua-r16-settings.png "Dynamics 365 apps web client Settings button"), and then click **Apps for Dynamics 365 apps**.  
   
 2. On the **Apps for Dynamics 365 apps** page, click **Download from [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] Download Center**.  
   
@@ -81,7 +81,7 @@ search.app:
 
     The software will start downloading and you’ll see the following dialog box:
 
-    ![Getting Started with Dynamics 365 for Outlook dialog box](../media/outlook-setup-gettingstarted.png "Getting Started with Dynamics 365 for Outlook dialog box")
+    ![Getting Started with Dynamics 365 for Outlook dialog box.](../media/outlook-setup-gettingstarted.png "Getting Started with Dynamics 365 for Outlook dialog box")
 
 4. In the **Getting Started with Dynamics 365 for Outlook** dialog box, under **2. Configure**, click **Copy** to copy your organization’s URL to your computer’s Clipboard. You’ll paste this URL in the following **Configure** step.
 
@@ -105,7 +105,7 @@ search.app:
 ### Step 3: Configure Dynamics 365 for Outlook  
  After restarting [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], you’ll see the following dialog box:  
   
- ![Add a Dynamics 365 apps Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dynamics 365 apps Organization dialog box")  
+ ![Add a Dynamics 365 apps Organization dialog box.](../media/crm-outlook-add-organization.png "Add a Dynamics 365 apps Organization dialog box")  
   
 1. Press **Ctrl+V** to paste the URL you copied in the preceding **Download the software** step, and then click **Connect**. You can also enter a Server URL or a Discovery URL.  
   
@@ -162,7 +162,7 @@ search.app:
   
 1. In the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] user interface, click **Get Dynamics 365 for Outlook** on the message bar.  
   
-    ![Dynamics 365 apps message bar for installing Dynamics 365 apps for Outllook](../media/install-crm-outloook-message-bar.png "Dynamics 365 apps message bar for installing Dynamics 365 for Outlook")  
+    ![Dynamics 365 apps message bar for installing Dynamics 365 apps for Outllook.](../media/install-crm-outloook-message-bar.png "Dynamics 365 apps message bar for installing Dynamics 365 for Outlook")  
   
    > [!TIP]
    >  If you prefer, you can [download the software from this page](https://go.microsoft.com/fwlink/p/?LinkID=403030).
@@ -171,7 +171,7 @@ search.app:
 
     The software will start downloading and you’ll see the following dialog box:
 
-    ![Getting Started with Dynamics 365 for Outlook dialog box](../media/outlook-setup-gettingstarted.png "Getting Started with Dynamics 365 for Outlook dialog box")
+    ![Getting Started with Dynamics 365 for Outlook dialog box.](../media/outlook-setup-gettingstarted.png "Getting Started with Dynamics 365 for Outlook dialog box")
 
 3. In the **Getting Started with Dynamics 365 for Outlook** dialog box, under **2. Configure**, click **Copy** to copy your organization’s URL to your computer’s Clipboard. You’ll paste this URL in the following **Configure** step.
 
@@ -195,7 +195,7 @@ search.app:
 ### Step 3: Configure Dynamics 365 for Outlook  
  After restarting [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], you’ll see the following dialog box:  
   
- ![Add a Dynamics 365 apps Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dynamics 365 apps Organization dialog box")  
+ ![Add a Dynamics 365 apps Organization dialog box.](../media/crm-outlook-add-organization.png "Add a Dynamics 365 apps Organization dialog box")  
   
 1. Press **Ctrl+V** to paste the URL you copied in the preceding **Download the software** step, and then click **Connect**. You can also enter a Server URL or a Discovery URL.  
   
@@ -246,7 +246,7 @@ search.app:
   
    - **From the message bar in Dynamics 365 apps:**  In the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] user interface, click **Get Dynamics 365 for Outlook** on the message bar. If you see one or more **Security Warning** dialog boxes, click **Run** in each.  
   
-      ![Dynamics 365 apps message bar for installing Dynamics 365 apps for Outllook](../media/install-crm-outloook-message-bar.png "Dynamics 365 apps message bar for installing Dynamics 365 apps for Outllook")  
+      ![Dynamics 365 apps message bar for installing Dynamics 365 apps for Outllook.](../media/install-crm-outloook-message-bar.png "Dynamics 365 apps message bar for installing Dynamics 365 apps for Outllook")  
   
    - **From the web:** [Go to the download page](https://go.microsoft.com/fwlink/p/?LinkID=393787), and then download and run the appropriate executable file (32-bit or 64-bit), depending on your system and the version of [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] you use.  
   
@@ -288,7 +288,7 @@ search.app:
        > [!NOTE]
        >  If you’re unsure of what url to use, check with your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] administrator.
 
-        ![Screenshot of the configuration wizard](../media/crm-outlook-configuration-wizard.PNG "Screenshot of the configuration wizard")
+        ![Screenshot of the configuration wizard.](../media/crm-outlook-configuration-wizard.PNG "Screenshot of the configuration wizard")
 
 2. Click **Test Connection**. This adds organizations to the **Organization Information** list. If you’re prompted for credentials, select from the following options:
 

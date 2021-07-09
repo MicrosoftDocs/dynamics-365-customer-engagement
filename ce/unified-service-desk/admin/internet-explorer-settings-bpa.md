@@ -1,12 +1,11 @@
 ---
 title: "Internet Explorer settings | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
+ms.date: 09/03/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 09/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings

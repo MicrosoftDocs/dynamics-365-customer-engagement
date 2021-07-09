@@ -41,6 +41,7 @@ In this article, we'll take a look at how to setup and use predictive work durat
 
 ## Prerequisites
 
+- This feature is only available in non-trial instances of Field Service.
 - As of October 2020, this feature is in public preview. To turn on the preview, go to **Settings**. Under the **Analytics and insights** section, select **Settings** > 
 **Enable Predictive Work Duration preview**. 
 - Enter a number in the **Minimum number of resources per territory** field. Minimum number of resources in a territory lets you set restrictions on analyses and reports. If the value is set to 10, territories that have 10 or fewer resources will be excluded from territory analyses and reports; the limitation can help protect technician privacy.

@@ -1,13 +1,12 @@
 ---
-title: "Preview: Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Preview  Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize the Add Products dialog box so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
 ms.date: 04/02/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-opportunity
   - D365-UI-*
@@ -48,11 +47,11 @@ By default, the **Add products** dialog box displays the following columns in th
 > - Invoice products Add products
 
 For information about editing views, go to [Choose and configure columns in model-driven app
-views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
+views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or remove columns in the grid**
 
-1. In the Sales Hub app, select the **Change area** icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") in the lower-left corner of the page and then select **App Settings**.  
+1. In the Sales Hub app, select the **Change area** icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") in the lower-left corner of the page and then select **App Settings**.  
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.  
 
@@ -77,16 +76,16 @@ views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-c
 
 By default, the **Product** column in the Add product dialog includes the product name and ID. You can customize this column to add other attributes to help you better distinguish the products. For example, you can add the product category to differentiate products as shown in the following image:
 
-![Screenshot showing additional details in the Product column of the Add products dialog](media/ProductColumn.png)
+![Screenshot showing additional details in the Product column of the Add products dialog.](media/ProductColumn.png)
 
 **Note**: The **Product** column can display up to three attributes, apart from the product name.  
 
 > [!NOTE]
-> The procedure below refers to the customization option available in **Product Catalog Settings**. If you are using a custom app, access the **Product Lookup View** from Power Apps. For information on editing views in Power Apps, see [Choose and configure columns in model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
+> The procedure below refers to the customization option available in **Product Catalog Settings**. If you are using a custom app, access the **Product Lookup View** from Power Apps. For information on editing views in Power Apps, see [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or edit product attributes:**
 
-1. In the Sales Hub app, select the **Change area** icon ![Icon to change the work area](media/change-area-icon.png  "Icon to change the work area") in the lower-left corner of the page and then select **App Settings**.
+1. In the Sales Hub app, select the **Change area** icon ![Icon to change the work area.](media/change-area-icon.png  "Icon to change the work area") in the lower-left corner of the page and then select **App Settings**.
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.
 
@@ -123,7 +122,7 @@ By default, the search field in the Add products dialog searches the product nam
     > Select only the text-based fields.
 
     >[!div class="mx-imgBorder"]
-    >![Image of the Find by section in the right pane with the Edit find table column highlighted](media\sales-hub-quick-find-view.png "Image of the Find by section in the right pane with the Edit find table column highlighted")
+    >![Image of the Find by section in the right pane with the Edit find table column highlighted.](media\sales-hub-quick-find-view.png "Image of the Find by section in the right pane with the Edit find table column highlighted")
 
 5. Select **Publish** to save and publish changes to the view.
     The changes are applicable to the product search in the Add products dialog of opportunity, quote, order, and invoice.

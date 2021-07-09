@@ -1,20 +1,19 @@
 ---
 title: "Replacement parameters in Unified Service Desk | MicrosoftDocs"
-description: "Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the Unified Service Desk context."
+description: "Learn to view replacement parameters to pull data from data elements. Also find information about system replacement parameters."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Replacement parameters in Unified Service Desk
 
@@ -35,11 +34,11 @@ Replacement parameters can be used throughout the application to pull data from 
   
 2. In the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, click the down arrow next to the gear on the top-right corner, and select **Debug**. The Debugger appears.  
   
-   ![Debug option to open Debugger](../unified-service-desk/media/usd-view-debugger.png "Debug option to open Debugger")  
+   ![Debug option to open Debugger.](../unified-service-desk/media/usd-view-debugger.png "Debug option to open Debugger")  
   
 3. In the Debugger, click **Data Parameters** to view the replacement parameters.  
   
-   ![Replacement parameters on Data Parameters tab](../unified-service-desk/media/usd-replacement-parameters.PNG "Replacement parameters on Data Parameters tab")  
+   ![Replacement parameters on Data Parameters tab.](../unified-service-desk/media/usd-replacement-parameters.PNG "Replacement parameters on Data Parameters tab")  
   
    A tree view is used to represent the available variables. When specifying the variable, specify the name at the root level, followed by a period (.), and then the name in the list. Here are some examples:  
   

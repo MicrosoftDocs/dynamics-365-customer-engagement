@@ -30,23 +30,23 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
 
 ### Get the session ID from the Setting menu
 
-1. From the navigation bar, select ![Sitemap toggle button](media/sitemap-button.png "Sitemap toggle button") and then the gear icon (**Settings**).
+1. From the navigation bar, select ![Sitemap toggle button.](media/sitemap-button.png "Sitemap toggle button") and then the gear icon (**Settings**).
 
    > [!div class="mx-imgBorder"]
-   > ![Sitemap expanded screenshot, gear icon is at the bottom left](media/sessionid-uci-step-1.png)
+   > ![Sitemap expanded screenshot, gear icon is at the bottom left.](media/sessionid-uci-step-1.png)
 
 2. Select **Session details** (at the bottom of the menu) and then you will see the **Session ID**.
 
    > [!div class="mx-imgBorder"]
-   > ![Settings menu screenshot, session details is under the general category](media/sessionid-uci-step-2.png)
-   > ![Session details screenshot, session id is in the middle of the page](media/sessionid-uci-step-3.png)
+   > ![Settings menu screenshot, session details is under the general category.](media/sessionid-uci-step-2.png)
+   > ![Session details screenshot, session id is in the middle of the page.](media/sessionid-uci-step-3.png)
 
 ### Get the session ID from the sign in screen
 
 - On the sign in screen, select the clipboard icon and then select **Copy session ID**.
 
    > [!div class="mx-imgBorder"]
-   > ![Login screen screenshot, the clipboard menu is expected, copy session id is the second item](media/sessionid-login-step.jpg)
+   > ![Login screen screenshot, the clipboard menu is expected, copy session id is the second item.](media/sessionid-login-step.jpg)
    
    
 ## Error: On iOS 14, canvas embedding, Power BI dashboards or iframes relying on cookies do not work.
@@ -95,9 +95,14 @@ For other device manufacturers, please email Dynamics 365 Mobile Support dynmobi
 
 
 ## Error message: This record is unavailable
- If this message appears when a user starts the mobile app, and then selects the **Home** button, or **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
-  
-  
+If this message appears when a user starts the mobile app, and then selects the **Home** button, or **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
+ 
+## Power Automate Flow menu opens a blank login to Flow screen on iOS 14 
+If you get a blank **Login to Flow** screen when using the Power Automate Flow menu in Power Apps mobile, then go to **iOS Settings** > **Power Apps** and enable **Allow Cross-Website Tracking**. When you're done, open the app again. 
+
+## Flows created in a solution is not supported 
+The Flow action menu in Dynamics 365 for phones and tablets app doesn't support flows created in a solution.
+
 ### Admin instructions to resolve the issue
 
 If you're an admin, you can avoid users getting this error by making sure all mobile users have access to the sales dashboard:  
@@ -160,7 +165,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
  Access the **Active** users section in the admin center and verify you have a **Dynamics 365 Customer Engagement Plan** license assigned to your user record.  
   
    > [!div class="mx-imgBorder"]
-   > ![License](media/customer_engagement_lic.png "Dynamics 365 Customer Engagement Plan License")  
+   > ![License.](media/customer_engagement_lic.png "Dynamics 365 Customer Engagement Plan License")  
   
   
 ## Error message: Sorry, something went wrong while initializing the app. Please try again, or restart the app  

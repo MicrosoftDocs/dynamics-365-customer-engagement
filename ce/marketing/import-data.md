@@ -1,7 +1,7 @@
 ---
 title: "Import data (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 Marketing."
-ms.date: 07/01/2018
+ms.date: 06/09/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -110,7 +110,7 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 
 8. On the **Review Mapping** page, review how your column headings are mapped to the fields in Dynamics 365.
 
-    ![The Review Mapping page](media/import-csv-mapping.png "The Review Mapping page")
+    ![The Review Mapping page.](media/import-csv-mapping.png "The Review Mapping page")
 
    - On the left side, by default the **Primary Fields** section of the **Review Mapping** page shows all the required fields for the entity that must be mapped for the data to be imported successfully.
    - If you've selected an alternate key, all the fields of the alternate key also become required fields and must be mapped.
@@ -123,11 +123,11 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
    - If the column headings don't match, the unmapped fields will be shown with a red exclamation point.
    - Select a Dynamics 365 field to map to the unmapped column heading of your file.
    - You can also choose **Ignore** from the drop-down list for one or more optional fields. Data from ignored columns won't be imported into Dynamics 365 Marketing.  
-     ![A field set to be ignored during import](media/import-csv-ignore.png "A field set to be ignored during import")
+     ![A field set to be ignored during import.](media/import-csv-ignore.png "A field set to be ignored during import")
 
-10. If any column in your source file includes a fixed set of values, you must map the column to a field of type **Option Set** type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, click the ![The Option Set button](media/import-option-set-button.png "Click the Option Set button to map field values") button next to the option set field. The **Option set mapping** section opens:
+10. If any column in your source file includes a fixed set of values, you must map the column to a field of type **Option Set** type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, click the ![The Option Set button.](media/import-option-set-button.png "Click the Option Set button to map field values") button next to the option set field. The **Option set mapping** section opens:
 
-     ![The option-set value mapping menu](media/import-option-set-values.png "The option-set value mapping menu")
+     ![The option-set value mapping menu.](media/import-option-set-values.png "The option-set value mapping menu")
 
     - For each **Source Option Values** item, click an item from the **Dynamics 365 Option Values** list to map it, and then click OK.
     - The **Dynamics 365 Option Values** drop-down list combines the values available in the incoming file with those already in the Dynamics 365 database. For example:
@@ -142,15 +142,15 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 
 11. If some data in your source file references other existing records in Dynamics 365 Marketing, you must map the column in the source file to a lookup field of Dynamics 365 Marketing.
 
-     For example, you might want to import a file named Leads.csv, which contains customer records. The **Customer** column in Leads.csv contains the associated account or contact data. To map this, select the ![The Lookup Reference button](media/import-lookup-reference-button.png "The Lookup Reference button") button next to the lookup field. The **Lookup Reference** section opens and lists the entities related to the current entity.
+     For example, you might want to import a file named Leads.csv, which contains customer records. The **Customer** column in Leads.csv contains the associated account or contact data. To map this, select the ![The Lookup Reference button.](media/import-lookup-reference-button.png "The Lookup Reference button") button next to the lookup field. The **Lookup Reference** section opens and lists the entities related to the current entity.
 
-    ![The Lookup Reference section](media/import-lookup-reference-section.png "The Lookup Reference section")
+    ![The Lookup Reference section.](media/import-lookup-reference-section.png "The Lookup Reference section")
 
      For each entity, select the fields to search during import to retain the relationships between the records, and then select **OK**.
 
 12. To save your mapping settings for next time, enter a name in the **Name your data map** box. This way, the next time you need to import a similar set of data, you'll be able to use this mapping again.
 
-     ![Name your data map here](media/import-save-settings.png "Name your data map to use it again")
+     ![Name your data map here.](media/import-save-settings.png "Name your data map to use it again")
 
 13. When you're ready to continue, select **Finish Import** to import that data by using your mappings.
 
@@ -175,31 +175,30 @@ Note the following on how alternate key and duplicate detection works while impo
 
 You must wait for an import job to be completed before you can repair failures.
 
-1. Go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. Import jobs for all recent imports are listed here.
-1. Find your job in the list and check its progress. The **Status** column shows the status of the import by using the following values:
+1. Go to **Settings** > **Advanced Settings** > **System** > **Data Management** > **Imports**. Import jobs for all recent imports are listed here.
+1. Find your job in the list and check its progress. The **Status Reason** column shows the status of the import by using the following values:
     - Submitted
     - Parsing
     - Transforming
     - Importing
     - Completed
-1. After the import is complete, the **Success**, **Failure**, and **Partial Import** columns will show the number of records that were successfully imported, failed to be imported, or were partially imported.
+1. After the import is complete, the **Success**, **Failure**, and **Partial Failure** columns will show the number of records that were successfully imported, failed to be imported, or were partially imported.
 1. Open the import file to view the records that were not imported or were partially imported. Double-click the import file record.
 1. Use the tabs to see information about failures, success, or partial failure of records during import.  
-![Results of your import](media/import-results.png "Results of your import")
+![Results of your import.](media/import-results.png "Results of your import")
 1. On the **Failures** tab, select **Export Error Rows** to export rows that failed to be imported to a new .csv file. You can correct the errors in this file, and then import it.
 
 ## Delete imported records
 
-1. Go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. Import jobs for all recent imports are listed here.
+1. Go to **Settings** > **Advanced Settings** > **System** > **Data Management** > **Imports**. Import jobs for all recent imports are listed here.
 1. Select the import file that you want to delete, followed by one of the following actions:
    - **Delete import source file**: Deletes the import log file and its details.
-   - **Delete imported records**: Deletes all records that were imported from the selected file.
-   - **Delete all**: Deletes the import file along with the records that were imported from the import file.
+   - **All records imported to this entity during this import**: Deletes all records that were imported from the selected file.
+   - **All imported records from the .zip file**: Deletes the import file along with the records that were imported from the import file.
 
 ### See also
 
 [Business management settings](business-management-settings.md) 
 [Export data](export-data-Word-Excel.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

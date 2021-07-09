@@ -1,12 +1,11 @@
 ---
 title: "FAQs for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
-description: "Frequently asked questions about the Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
+description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
+ms.date: 04/09/2021
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -136,7 +135,7 @@ You can invoke the `Microsoft.CIFramework.setMode(1)` method from your provider 
 
 Beyond that point, you can listen to `onSessionClosed` Event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
 
-For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](reference/events/onsessionclosed.md) event.
+For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) event.
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 

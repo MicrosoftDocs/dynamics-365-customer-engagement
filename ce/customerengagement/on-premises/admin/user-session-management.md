@@ -1,9 +1,10 @@
 ---
 title: "Security enhancements: User session and access management | MicrosoftDocs"
+description: "Use security enhancements to secure Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -115,7 +116,7 @@ SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSF
 
 Sample:
 
-![SetAdvancedSettings.ps1](media/ps_setadvancedsettings.png)
+![SetAdvancedSettings.ps1.](media/ps_setadvancedsettings.png)
 
 -OR- 
 
@@ -133,7 +134,7 @@ Get-CrmOrganization
         
 Sample:
 
-![Example Organization ID](media/ps_orgid.png)
+![Example Organization ID.](media/ps_orgid.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

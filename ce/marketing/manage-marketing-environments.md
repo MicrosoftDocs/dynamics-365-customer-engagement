@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 12/02/2020
+ms.date: 05/28/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -101,7 +101,7 @@ Once your source and target environments are prepared, you're ready to make the 
 
 Pay special attention when choosing whether to create an [Everything or Customizations and schemas only copy](#target-content).
 
-![Select the copy type](media/instances-everything-schemas.png "Select the copy type")
+![Select the copy type.](media/instances-everything-schemas.png "Select the copy type")
 
 ### Step 4: Prepare the target environment for use
 
@@ -116,6 +116,9 @@ As with copy operations, backup and restore operations typically require a few e
 
 > [!IMPORTANT]
 > Backups **do not** include Marketing services or the data they contain. When you restore a backup, all organizational data, solutions, apps, and customizations will be present, but no interaction data, insights, or previously uploaded files will be available on the restored system. The situation is similar to that of [copying a Marketing environment](#copy-to-sandbox).
+
+> [!WARNING]
+> If you restore data in real-time marketing, all consents will return to the state they were in at the time backup was made. This may result in consent data being obsolete. To avoid complications, export all consent data into Excel before starting the restore process and use it as a reference after the restore is completed.
 
 ### Automatic system backups
 
@@ -132,7 +135,7 @@ You can create an on-demand backup at any time, but when Marketing is installed 
 1. [Open the Power Platform admin center](/power-platform-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source environment, as described in [Keep Marketing up to date](apply-updates.md).
 1. Create the on-demand backup as usual, as described in [Backup and restore environments](/power-platform/admin/backup-restore-environments).
 
-    ![Create an on-demand backup](media/instances-backup.png "Create an on-demand backup")
+    ![Create an on-demand backup.](media/instances-backup.png "Create an on-demand backup")
 
 As with automatic backups, on-demand backups include the full organizational database, the interaction records or image files stored in the marketing services. For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
@@ -185,7 +188,7 @@ To copy a production environment to a support environment:
 
 1. Select the production environment that you want to copy and then select **Copy** in the top ribbon.
 
-    ![Select the source environment and then choose Copy](media/instances-copy.png "Select the source environment and then choose Copy")
+    ![Select the source environment and then choose Copy.](media/instances-copy.png "Select the source environment and then choose Copy")
 
 1. The **Copy environment** pane opens on the right side of the page. Make the following settings:
 
@@ -193,7 +196,7 @@ To copy a production environment to a support environment:
    - **Copy over**: Select **Everything**.
    - **Select environment to overwrite**: Select the name of the support environment that was created for you. The name of your support environment includes your case number.
 
-    ![Choose your copy options](media/instances-overwrite-support4.png "Choose your copy options")
+    ![Choose your copy options.](media/instances-overwrite-support4.png "Choose your copy options")
 
 1. When you select the target environment, most of the other settings here are set automatically, and a notice is shown to alert you that Microsoft Support will be able to access the support environment. Read the notice and select **OK** if you agree with the terms.
 
@@ -228,6 +231,5 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 [Move configuration data across environments and organizations](/power-platform/admin/manage-configuration-data)  
 [Solutions overview](/powerapps/maker/common-data-service/solutions-overview)  
 [Import, update, and export solutions](/powerapps/maker/common-data-service/import-update-export-solutions)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

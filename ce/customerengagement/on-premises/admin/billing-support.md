@@ -1,9 +1,10 @@
 ---
 title: "Support and billing | MicrosoftDocs"
+description: "Support is available in markets where Dynamics 365 Online services are offered."
 ms.custom: 
 ms.date: 09/12/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -168,7 +169,7 @@ Any users with the tenant admin roles on the tenant containing the Dynamics 365 
 
 ### How do I authorize another person to submit support requests for a particular Dynamics 365 subscription? 
 
-To grant permission, you must have a tenant administrator role on the tenant that contains the Dynamics 365 subscription. Assign the Service Administrator role to all users who want to create and manage support requests for that given tenant but do not require other permissions. [Learn more](/office365/admin/add-users/about-admin-roles?view=o365-worldwide) about role assignments in the portal.
+To grant permission, you must have a tenant administrator role on the tenant that contains the Dynamics 365 subscription. Assign the Service Administrator role to all users who want to create and manage support requests for that given tenant but do not require other permissions. [Learn more](/office365/admin/add-users/about-admin-roles) about role assignments in the portal.
 
 ### I am developing applications on behalf of my client or assisting my client who is running Dynamics 365. How do I get support? 
 
@@ -228,7 +229,7 @@ At the end of your term, your plan will automatically renew to the same Dynamics
 Manage your support plan subscriptions through the [Microsoft 365 Admin Portal](https://portal.office.com/).
 
 - To change your support plan, first cancel your existing support plan, and then purchase a new support plan.
-- To cancel your support plan, select the support plan subscription that you want to cancel, and then select **Cancel subscription**.   [Learn more](/office365/admin/subscriptions-and-billing/cancel-your-subscription?view=o365-worldwide) by reviewing this article.
+- To cancel your support plan, select the support plan subscription that you want to cancel, and then select **Cancel subscription**.   [Learn more](/office365/admin/subscriptions-and-billing/cancel-your-subscription) by reviewing this article.
 
 If you still have questions, open a new support request with the Billing team in the [Microsoft 365 Admin Portal](https://portal.office.com/). 
 

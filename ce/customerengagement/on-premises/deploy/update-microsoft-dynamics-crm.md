@@ -2,7 +2,7 @@
 title: "Update Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +16,6 @@ ms.author: matp
 manager: kvivek
 ---
 # Update Dynamics 365 Customer Engagement (on-premises)
-
-
 
 With Dynamics 365 Customer Engagement (on-premises), you have several options that help make your deployment run optimally, reliably, and securely. In most situations where Dynamics 365 Customer Engagement (on-premises) is running in a production environment, we recommend that you apply the latest update for all Dynamics 365 Customer Engagement (on-premises) applications shortly after the update becomes available.  
   
@@ -42,7 +40,10 @@ With Dynamics 365 Customer Engagement (on-premises), you have several options th
   
 <a name="BKMK_UpdateRollup"></a>   
 ## Microsoft Dynamics 365 Customer Engagement (on-premises) application updates  
- Dynamics 365 Customer Engagement (on-premises) publishes updates in a package format that is a collection of software updates. Microsoft fully tests and supports installing any published update for Dynamics 365 Customer Engagement (on-premises) at the time of its release. <!-- Get the latest Dynamics 365 Customer Engagement (on-premises) application updates [KB: Microsoft Dynamics 365 Customer Engagement (on-premises) on-premises cumulative updates](https://support.microsoft.com/kb/3142345).  -->
+ Dynamics 365 Customer Engagement (on-premises) publishes updates in a package format that is a collection of software updates. Microsoft fully tests and supports installing any published update for Dynamics 365 Customer Engagement (on-premises) at the time of its release. Get the latest Dynamics 365 Customer Engagement (on-premises) application updates [KB: Microsoft Dynamics 365 Customer Engagement (on-premises) on-premises cumulative updates](https://support.microsoft.com/kb/3142345). 
+
+### Dynamics 365 Customer Engagement (on-premises), update 9.1
+The Dynamics 365 Customer Engagement (on-premises), version 9.1 update introduces many feature enhancements designed to empower marketing, sales, and service teams. More information: [New features in Dynamics 365 Customer Engagement (on-premises), version 9.x](../whats-new.md)
   
 ### Distribution and application of Dynamics 365 Customer Engagement (on-premises) updates  
 Dynamics 365 Server and desktop applications are engineered to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)], a service that can automatically download and install updates to Microsoft applications.  
@@ -53,8 +54,8 @@ Dynamics 365 Server and desktop applications are engineered to use [!INCLUDE[pn_
   
  If you don’t want to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)], you can still download updates from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)] and manually install them or push them out to the appropriate computers by using [!INCLUDE[pn_ms_Windows_Update_Srvcs_long](../includes/pn-ms-windows-update-srvcs-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Windows Server Update Services](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus).  
   
-   
-### Update requirements  
+### Update requirements
+
  An update may require updates to required components, such as the [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] or even an earlier Dynamics 365 Customer Engagement (on-premises) update. For more information about such requirements, see the [!INCLUDE[pn_Microsoft_Knowledge_Base](../includes/pn-microsoft-knowledge-base.md)] article for the update.  
   
 <!-- ## See Also  

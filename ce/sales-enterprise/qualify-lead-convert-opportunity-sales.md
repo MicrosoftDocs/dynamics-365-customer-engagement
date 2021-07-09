@@ -2,7 +2,6 @@
 title: "Qualify or convert leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -27,7 +26,7 @@ Your system administrator defines what happens to a lead when it is qualified:
 
 ## Qualify a lead (Sales Hub)
 
-1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**.
+1. Select the site map ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Leads**.
 
 2. In the list of leads, open the lead you want to qualify.
 
@@ -37,7 +36,7 @@ Your system administrator defines what happens to a lead when it is qualified:
 
 5. If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and then select **OK**.
 
-      ![Select which records to create in the Qualify lead dialog box](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
+      ![Select which records to create in the Qualify lead dialog box.](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
 
 If you don't see a prompt, qualifying a lead will automatically create an account, contact, and opportunity record. 
 

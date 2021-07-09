@@ -3,7 +3,7 @@ title: "Visual Studio and the .NET Framework (Developer Guide for Dynamics 365 C
 description: "Learn about managed code development tools and requirements."
 keywords: 
 ms.date: 05/29/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

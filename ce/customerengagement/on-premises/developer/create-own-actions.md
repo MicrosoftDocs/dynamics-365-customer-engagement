@@ -4,7 +4,7 @@ description: "Actions are custom messages that help in extending functionality o
 ms.custom: 
 ms.date: 01/10/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -1,14 +1,11 @@
 ---
 title: "Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service."
+ms.date: 01/22/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/22/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create entitlements to define support terms
@@ -84,7 +83,7 @@ Define what kind of support your customers are eligible for by creating entitlem
 
 When you save the entitlement, additional sections are added for a new entitlement, such as Entitlement channel, Products, and Contacts.
 
-![entitlements-csh](media/entitlement-csh.png)
+![entitlements-csh.](media/entitlement-csh.png)
   
 ### Add an entitlement channel
 
@@ -150,7 +149,7 @@ You can activate the entitlement and then set it as the default entitlement for 
   
 2. In the **Confirm set default** dialog box, select **OK**.  
   
-   Now the default entitlement will automatically be applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the **Automatically apply entitlement** section in step 4 here, [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md).  
+   Now the default entitlement will automatically be applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the **Automatically apply entitlement** section in step 4 here, [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab).  
   
 ## Associate entitlements to cases
 

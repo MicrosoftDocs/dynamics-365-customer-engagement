@@ -1,14 +1,11 @@
 ---
 title: Schedule a service activity in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to schedule a service activity in service scheduling in Dynamics 365 Customer Service
+ms.date: 11/20/2018
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/20/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Schedule a service activity
@@ -47,7 +46,7 @@ Make sure that you have the required security role or equivalent permissions.
     - Select **Show Time As** either Requested or Tentative.
     - Provide the **Organizational Business Unit**.
 
-    ![create service activity](media/create-service-activity.png)
+    ![create service activity.](media/create-service-activity.png)
 
 5. Select **Save**.
 
@@ -69,11 +68,11 @@ Make sure that you have the required security role or equivalent permissions.
 
       [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service activity](use-schedule-board-configure-service-activity.md#schedule-a-booking-for-a-service-activity)
 
-      ![book-service-activity](media/book-service-activity.png)
+      ![book-service-activity.](media/book-service-activity.png)
 
    The bookings that you schedule appear in the **Bookings** tab.
 
-   ![bookable-resource-bookings](media/resource-bookings-tab.png)
+   ![bookable-resource-bookings.](media/resource-bookings-tab.png)
 
    You can select an existing booking and edit, activate, or deactivate it from the **Bookings** tab.
 

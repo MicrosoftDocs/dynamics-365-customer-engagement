@@ -1,5 +1,7 @@
 ---
 title: "The configuration database does not exist on the specified SQL Server | Microsoft Docs"
+description: Environment diagnostics warning that there's no configuration database.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

@@ -1,5 +1,7 @@
 ---
 title: "Insufficient permissions | Microsoft Docs"
+description: Environment diagnostics warning that there's insufficient permission.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

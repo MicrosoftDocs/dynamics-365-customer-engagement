@@ -1,8 +1,7 @@
 ---
-title: "Enable the enhanced adding products experience | MicrosoftDocs"
-description: "Enable your salespeople to quickly find and add multiple products to opportunities in Dynamics 365 Sales Enterprise by enabling the enhanced add product experience."
+title: "Enable the enhanced add products experience - Sales Enterprise | MicrosoftDocs"
+description: "Enable your salespeople to quickly find and add multiple products to opportunities by enabling the enhanced add product experience."
 ms.date: 04/02/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,6 +18,8 @@ The enhanced experience helps your salespeople to quickly find products that the
 - Compare products before selecting them.
 - Add multiple products in one go.
 
+[!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
+
 > [!IMPORTANT]
 >
 > - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -30,13 +31,13 @@ You can enable the enhanced experience through the **App Settings** page or thro
 **To enable the enhanced experience from the App settings page in Sales Hub**
 
 1. In the Sales Hub app, select the **Change area** icon
-    ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
+    ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**.
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.
 
 3. On the **Product Catalog Settings** page, turn on **Adding products (preview)**.  
-    ![Product catalog settings page with the Adding products preview enabled](media/EnableAddProductPreview.png)
+    ![Product catalog settings page with the Adding products preview enabled.](media/EnableAddProductPreview.png)
 
    You'll see additional options for customizing the Add products dialog box. Sellers use this dialog box for adding products to an opportunity, quote, order,or invoice. You can either add more columns to the grid or add more attributes to the Product column in the dialog box. For more information, see [Preview: Customize the Add Products dialog box](customize-add-products-dialog-box.md).
 
@@ -44,9 +45,9 @@ You can enable the enhanced experience through the **App Settings** page or thro
 
 If you're using a custom app, you can enable the enhanced experience from **System Settings** in the legacy web client.
 
-1. In your app, select **Settings** ![Settings](media/settings-icon.png "Settings"), and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings.](media/settings-icon.png "Settings"), and then select **Advanced Settings**.
 
-   ![Advanced Settings link in the site map](media/advanced-settings-option.png)
+   ![Advanced Settings link in the site map.](media/advanced-settings-option.png)
 
    The **Business Management settings** page opens in a new browser tab.
 

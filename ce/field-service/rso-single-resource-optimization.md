@@ -36,7 +36,7 @@ If an individual resource's schedule needs to be reoptimized, a dispatcher can m
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
+> ![Screenshot of triggering single resource optimization from schedule board_1.](media/rso-single-resource-1.png)
 
 
 ## Prerequisites
@@ -55,7 +55,7 @@ Goals define what resource scheduling optimization should consider and prioritiz
 Go to **Resource Scheduling Optimization** > **Optimization Goals** > **+New**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a new scheduling optimization goal](./media/rso-sro-goal.png)
+> ![Screenshot of a new scheduling optimization goal.](./media/rso-sro-goal.png)
 
 When creating a goal for single resource optimization, keep in mind that single resource optimization is typically used to clean up a schedule that was altered throughout the day. Consider the following recommendations:
 
@@ -74,7 +74,7 @@ Next, add your single resource optimization goal as the default goal.
 Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameter** > **Resource Scheduling Optimization** and enter your newly created default goal. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the default goal on a scheduling parameter set to single resource optimization](./media/rso-sro-default-goal.png)
+> ![Screenshot of the default goal on a scheduling parameter set to single resource optimization.](./media/rso-sro-default-goal.png)
 
 > [!Note]
 > A default goal is created automatically when resource scheduling optimization is deployed.
@@ -95,7 +95,7 @@ There are three ways to run single resource optimization:
 In Field Service version 8.0+, you can right-click a resource from any schedule board view and select **Optimize Schedule**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-2.png)
+> ![Screenshot of triggering single resource optimization from schedule board_2.](media/rso-single-resource-2.png)
 
 
 You will now see:
@@ -105,7 +105,7 @@ You will now see:
 3. An **Optimizations** panel showing the resource's name, default range, default goal, and optimization request status. 
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of single resource optimization with range and goal](media/rso-single-resource-3.png) 
+   > ![Screenshot of single resource optimization with range and goal.](media/rso-single-resource-3.png) 
 
 
 > [!Note]
@@ -122,7 +122,7 @@ Select a resource's name and then go to the **Optimizations** panel.
 > This capability is **only** available from the schedule board view associated with the optimization scope.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of single resource optimization pane with options](media/rso-single-resource-4.png)
+> ![Screenshot of single resource optimization pane with options.](media/rso-single-resource-4.png)
 
 
 Set the optimization range to the date and time.
@@ -137,7 +137,7 @@ Select **Run Now** to run the optimization and schedule bookings.
 By running single resource optimization as a simulation, you can see the resulting optimization before committing to it. Proposed bookings appear on the schedule board in white, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of running single resource optimization with simulation mode](media/rso-single-resource-5.png)
+> ![Screenshot of running single resource optimization with simulation mode.](media/rso-single-resource-5.png)
 
 To run a simulation, right-click a resource and select **Optimize Schedule**. 
 

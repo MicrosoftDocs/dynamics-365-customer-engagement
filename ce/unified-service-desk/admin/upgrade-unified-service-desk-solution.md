@@ -1,20 +1,19 @@
 ---
-title: "Upgrade a Unified Service Desk  solution | MicrosoftDocs"
-description: "Learn how to upgrade Unified Service Desk ."
+title: "Upgrade a Unified Service Desk solution | MicrosoftDocs"
+description: "Learn how to upgrade Unified Service Desk sample application package to the latest version using the upgrade procedure."
+ms.date: 02/06/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/06/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Upgrading the solution
 You can upgrade an existing Unified Service Desk sample application package to the latest Unified Service Desk by importing the Upgrade sample application package. The upgrade will not affect the configuration data associated with the existing solution.  
@@ -32,17 +31,17 @@ You can upgrade an existing Unified Service Desk sample application package to t
   
 5. Under Select the import package to use, click **Unified Service Desk – Upgrade**, and then click **Next**.  
   
-   ![Select the import package](../../unified-service-desk/media/usd-select-package.png "Select the import package")  
+   ![Select the import package.](../../unified-service-desk/media/usd-select-package.png "Select the import package")  
   
 6. The Welcome to the Unified Service Desk – Upgrade Setup Tool page appears. Review the information about the components that will be upgraded, and then click **Next**.  
   
-   ![Unified Service Desk upgrade details](../../unified-service-desk/media/usd-upgrade-details.png "Unified Service Desk upgrade details")  
+   ![Unified Service Desk upgrade details.](../../unified-service-desk/media/usd-upgrade-details.png "Unified Service Desk upgrade details")  
   
 7. On the Ready to Install page, click **Next** to verify the components to upgrade.  
   
 8. On the Reading Unified Service Desk – Upgrade Installer Configuration page, information about what will be upgraded is listed. Click **Next** to begin the upgrade.  
   
-   ![Upgrade in progress](../../unified-service-desk/media/usd-upgrade-progress.png "Upgrade in progress")  
+   ![Upgrade in progress.](../../unified-service-desk/media/usd-upgrade-progress.png "Upgrade in progress")  
   
 9. The Executing Install Actions page appears. Updating one or more solutions can take several minutes.  
   

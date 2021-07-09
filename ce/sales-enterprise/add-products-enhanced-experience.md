@@ -1,13 +1,12 @@
 ---
-title: "Enhanced experience for adding products | MicrosoftDocs"
-description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales Enterprise."
+title: "Find and add multiple products to opportunity-Sales Enterprise | MicrosoftDocs"
+description: "Use the enhanced experience to quickly identify and add multiple products from catalog to opportunities."
 ms.date: 04/02/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-opportunity
   - D365-UI-*
@@ -38,6 +37,8 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 - Specify price, quantity, and any other required information as configured by your system administrator.
 
+[!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
+
 > [!IMPORTANT]
 >- The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 >- [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
@@ -64,7 +65,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 5. In the **Products** grid, select **Add products**.
 
-   ![Screenshot showing the enhanced Add products dialog box](media/enhancedAddProductsDialog.png)
+   ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
 
    > [!NOTE]
 

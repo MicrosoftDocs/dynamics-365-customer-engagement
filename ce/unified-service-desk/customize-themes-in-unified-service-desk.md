@@ -1,20 +1,19 @@
 ---
 title: "Customize themes in Unified Service Desk | MicrosoftDocs"
-description: "Themes in Unified Service Desk define the look and feel of the agent application. A theme in Unified Service Desk consists of a XAML resource library, and can be placed on any web server and referenced via URL or can be compile into .NET assemblies (dll), and distributed with the agent applications."
+description: "Learn how to use predefined and customized themes to define the look and feel of your agent application in Unified Service Desk."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Customize themes in Unified Service Desk
@@ -39,7 +38,7 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
 
 This is Unified Blue theme, which is the predefined theme for Unified Service Desk when you are using Unified Interface App.
 
-![Unified Blue in Unified Service Desk](media/unified-blue-theme.png "Unified Blue in Unified Service Desk")
+![Unified Blue in Unified Service Desk.](media/unified-blue-theme.png "Unified Blue in Unified Service Desk")
 
 ::: moniker-end
 
@@ -47,7 +46,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
 ### Air Theme  
  This is the Air theme. This theme supports high-contrast mode.  
   
- ![Air theme in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk") 
+ ![Air theme in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk") 
   
 <a name="SetPredefinedTheme"></a>   
 ## Set a predefined theme  
@@ -69,7 +68,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
  Selecting a theme in the **Set Theme** submenu makes an action call to the **SetTheme** action with the appropriate syntax in the **Data** field as mentioned earlier. For example, this is the action call definition for the Air style:  
   
- ![Action call definition for Air theme](../unified-service-desk/media/crm-itpro-usd-actioncallforairstyle.png "Action call definition for Air theme")  
+ ![Action call definition for Air theme.](../unified-service-desk/media/crm-itpro-usd-actioncallforairstyle.png "Action call definition for Air theme")  
   
 <a name="Customize"></a>   
 ## Customize themes in Unified Service Desk  
@@ -141,7 +140,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
      This is how your action call definition looks like:  
   
-   ![Define action call for customizing display](../unified-service-desk/media/crm-itpro-usd-customizedisplay01.png "Define action call for customizing display")  
+   ![Define action call for customizing display.](../unified-service-desk/media/crm-itpro-usd-customizedisplay01.png "Define action call for customizing display")  
   
 9. Select **Save**.  
   
@@ -157,11 +156,11 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
   
 3. In Debugger, select the down arrow above the **Action Calls** tab to display the area where you can test action calls and UII actions.  
   
-   ![Test action calls & UII actions in debugger](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
+   ![Test action calls & UII actions in debugger.](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
   
-4. From the **Action Calls** drop-down list, select **Action Call for Custom Theme**, and select the **Run Action Call** icon (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). The text in the title bar and skin color of the agent application change.  
+4. From the **Action Calls** drop-down list, select **Action Call for Custom Theme**, and select the **Run Action Call** icon (![USD debugger Run Action Call button.](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). The text in the title bar and skin color of the agent application change.  
   
-   ![Customized display of the client application](../unified-service-desk/media/crm-itpro-usd-customizedisplay03.PNG "Customized display of the client application")  
+   ![Customized display of the client application.](../unified-service-desk/media/crm-itpro-usd-customizedisplay03.PNG "Customized display of the client application")  
   
    To undo the changes, select one of the predefined themes in the client application.  
   

@@ -1,14 +1,11 @@
 ---
 title: Overview of productivity pane | MicrosoftDocs
 description: Overview of productivity pane in Dynamics 365 Customer Service workspace.
+ms.date: 10/20/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/20/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Use the productivity pane to help resolve customer issues
@@ -29,7 +28,7 @@ The productivity pane and the controls are enabled for agents through profiles t
 > [!Important]
 > The productivity pane displays information (for example, knowledge article and similar case suggestions) for the first tab (referred to as the anchor tab) of an active case session.
 
-![Productivity pane](media/csw-productivity-pane.png "View of the productivity pane")
+![Productivity pane.](media/csw-productivity-pane.png "View of the productivity pane")
 
 ## Productivity pane modes
 
@@ -37,11 +36,11 @@ The productivity pane has two modes: expanded and collapsed. Depending on which 
 
 **Expanded mode**:
 
-![Productivity pane expanded view](media/csw-productivity-pane-expanded-mode.png "View of the productivity pane in expanded mode")
+![Productivity pane expanded view.](media/csw-productivity-pane-expanded-mode.png "View of the productivity pane in expanded mode")
 
 **Collapsed mode**:
 
-![Productivity pane collapsed view](media/csw-productivity-pane-collapsed-mode.png "View of the productivity pane mode in collapsed mode")
+![Productivity pane collapsed view.](media/csw-productivity-pane-collapsed-mode.png "View of the productivity pane mode in collapsed mode")
 
 Two things to keep in mind about the productivity pane modes:
 

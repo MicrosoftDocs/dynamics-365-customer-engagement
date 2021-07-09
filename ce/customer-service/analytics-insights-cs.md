@@ -1,12 +1,11 @@
 ---
 title: "Analytics and insights in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Discover insights from your customer service data"
+ms.date: 10/05/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Preview: Discover insights from your customer service data
@@ -24,7 +23,7 @@ Customer Service Insights is now part of the embedded experience for Customer Se
 Customer Service Insights uses AI-generated topics to automatically group your cases, from across different channels, using natural language understanding. As a supervisor, you can see view notable trends in metrics sorted by topics, channels, queues, and agents. By better understanding what impacts your support operations you can feel empowered to make more informed decisions about how to improve resolution rates, reduce wait times, and decrease customer service costs. 
 
   > [!div class=ms-imgBorder]
-  > ![View analytics and insights](media/cs-analytics-insights.png "View analytics and insights in Customer Service")
+  > ![View analytics and insights.](media/cs-analytics-insights.png "View analytics and insights in Customer Service")
     
 By pinpointing and fixing issues before they impact customers, you can adapt to current and emerging trends, improve brand sentiment, and deliver better customer service experiences.
 
@@ -61,7 +60,7 @@ The Summary dashboard gives you a broad overview of the customer service experie
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic. 
 
    > [!div class=ms-imgBorder]
-   > ![View Summary dashboard](media/cs-analytics-insights.png "View analytics and insights on the Summary dashboard")
+   > ![View Summary dashboard.](media/cs-analytics-insights.png "View analytics and insights on the Summary dashboard")
     
 The Summary dashboard provides information about the following areas:
 
@@ -102,7 +101,7 @@ The Key Insights Discovery card has two areas
 - Topics to watch 
 
  > [!div class=ms-imgBorder]
- > ![Key Insights Discovery card](media/key-insights.png "View the Key Insights Discovery card")
+ > ![Key Insights Discovery card.](media/key-insights.png "View the Key Insights Discovery card")
 
 #### KPI insights 
 

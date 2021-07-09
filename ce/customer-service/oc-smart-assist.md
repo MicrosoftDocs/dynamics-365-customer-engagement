@@ -1,12 +1,11 @@
 ---
 title: "Smart assist for agents configured using custom Azure bot | MicrosoftDocs"
-description: "Learn how to use smart assist feature in the Omnichannel for Customer Service app."
+description: "Learn how to configure the smart assist bot by using Azure bot in the Omnichannel for Customer Service app."
+ms.date: 09/07/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # View smart assist suggestions for agents configured using custom Azure bot
@@ -30,7 +29,7 @@ For a macro recommendation card, if the run is successful, a success message is 
 When a conversation is escalated from a bot, the agent needs to accept the request and start the conversation with the customer. Now, from this instance, the smart assist bot interprets the conversation in real-time and provides recommendations.
 
 > [!div class=mx-imgBorder]
-> ![Smart assist](media/smart-assist.png "Smart assist")
+> ![Smart assist.](media/smart-assist.png "Smart assist")
 
 ## See also
 

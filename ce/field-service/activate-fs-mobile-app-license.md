@@ -23,10 +23,9 @@ Eligible organizations may request to activate mobile configurator licenses by c
 
 ## FAQs
 
-### How long is Field Service Mobile - Xamarin supported?
+### How long is Field Service Mobile (Xamarin app) supported?
 
 Field Service Mobile (Xamarin app) will reach end of life on June 30, 2022. Existing customers will be required to migrate to the new Field Service (Dynamics 365) mobile app by that date. For more information, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2020/05/01/next-generation-field-service-mobile-app-available/).
-
 
 ### Can I use Resco MobileCRM application with Field Service Mobile licenses?
 

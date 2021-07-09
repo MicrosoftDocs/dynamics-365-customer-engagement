@@ -2,7 +2,6 @@
 title: "Track and manage activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use activities in Dynamics 365 to track of all your customer communications."
 ms.date: 04/03/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -29,7 +28,7 @@ To get the most out of Dynamics 365 Sales, it's important for everyone in the or
 You can find your activities under **My Work** in the site map. 
 
 > [!div class="mx-imgBorder"] 
-> ![Activities link in the site map](media/activities-in-sitemap.png "Activities link in the site map")
+> ![Activities link in the site map.](media/activities-in-sitemap.png "Activities link in the site map")
 
 ## See activities in List, Calendar, or Kanban view
 
@@ -37,45 +36,45 @@ You can see the activities in three different views:
 -  **List.** Shows a list of all activities. 
 
     > [!div class="mx-imgBorder"] 
-    > ![Activity List view](media/activity-list-view.png "Activity List view")
+    > ![Activity List view.](media/activity-list-view.png "Activity List view")
 
 -  **Calendar.** Shows a calendar with a list of the day's scheduled activities and the associated deals. 
 
     > [!div class="mx-imgBorder"] 
-    > ![Activity Calendar view](media/activity-calendar-view.png "Activity Calendar view")
+    > ![Activity Calendar view.](media/activity-calendar-view.png "Activity Calendar view")
 
 -  **Kanban.** Shows a visual representation of your sales activities in their different states. This lets you see the status of every activity in your pipeline and drag them to move from one status to another (for example, Open, Completed, Canceled, Scheduled). More information: [Work with activities in the Kanban view](activity-kanban-view.md)
 
     > [!div class="mx-imgBorder"]  
-    > ![Activities in the Kanban view](media/activities-kanban-view.png "Activities in the Kanban view") 
+    > ![Activities in the Kanban view.](media/activities-kanban-view.png "Activities in the Kanban view") 
 
 To switch to a different view:
 
 1. In the site map, select **Activities**.
 
-2. On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-icon.png "More commands icon"), and then select **Show As**, and then the view type such as, **Kanban**, **Calendar Control**, or **Read Only Grid**.
+2. On the command bar, select the **More commands** icon ![More commands icon.](media/more-commands-icon.png "More commands icon"), and then select **Show As**, and then the view type such as, **Kanban**, **Calendar Control**, or **Read Only Grid**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Show activities in the Kanban view](media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
+    > ![Show activities in the Kanban view.](media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
 
 ## Change your activities view
 
 You can use views to see the activities you want. For example, you can use the **My Activities** view to see activities assigned to you and **My Team Members' Activities** view to see your team's activities. 
 
 > [!div class="mx-imgBorder"] 
-> ![Activity view drop-down list](media/activity-view-drop-down.png "Activity view drop-down list")
+> ![Activity view drop-down list.](media/activity-view-drop-down.png "Activity view drop-down list")
 
 ## Filter the list of activities
 
 You can filter the list of activities to see only the ones you're interested in. For example, you can further limit the activities you are seeing in a view by using the activity type filter. The activity type filter allows you to filter activities based on the type, such as email, task, phone call, and so on.
 
 > [!div class="mx-imgBorder"] 
-> ![Activity type filter](media/activity-type-filter.png "Activity type filter")
+> ![Activity type filter.](media/activity-type-filter.png "Activity type filter")
 
 You can also use the **Due** filter to see the activities that are due in a specified time, such as activities that are due today or earlier or activities that are due in the next seven days or earlier.
 
 > [!div class="mx-imgBorder"] 
-> ![Due filter](media/due-filter-activity.png "Due filter")
+> ![Due filter.](media/due-filter-activity.png "Due filter")
 
 ## Create or edit a new activity
 
@@ -124,7 +123,7 @@ To attach a document to email:
     The Add attachment dialog box opens.
    
     > [!div class="mx-imgBorder"] 
-    > ![Add attachment](media/add-attachment-dialog-box.png "Add attachment")
+    > ![Add attachment.](media/add-attachment-dialog-box.png "Add attachment")
   
 3. Browse to and then select the file that you want to attach, and then select **Attach**.   
 
@@ -147,7 +146,7 @@ After you call someone, complete a task, send an email, or go to an appointment,
 2. On the command bar, select **Mark Complete**.  
   
    > [!div class="mx-imgBorder"] 
-   > ![Mark an activity as complete](media/mark-activity-complete.png "Mark an activity as complete")  
+   > ![Mark an activity as complete.](media/mark-activity-complete.png "Mark an activity as complete")  
   
 ## Mark several activities complete at the same time  
 

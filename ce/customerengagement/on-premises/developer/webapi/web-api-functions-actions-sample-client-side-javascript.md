@@ -4,7 +4,7 @@ description: "This sample demonstrates how to perform bound and unbound function
 ms.custom: 
 ms.date: 12/24/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

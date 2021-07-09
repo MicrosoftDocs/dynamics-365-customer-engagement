@@ -1,9 +1,10 @@
 ---
 title: "Supported web browsers and mobile devices | MicrosoftDocs"
+description: "Access the model-driven apps with the most recent versions of popular browsers."
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

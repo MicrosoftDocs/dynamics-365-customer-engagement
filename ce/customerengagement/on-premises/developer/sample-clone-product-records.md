@@ -4,7 +4,7 @@ description: "Sample demonstrates how to clone a product record."
 ms.custom: 
 ms.date: 06/11/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

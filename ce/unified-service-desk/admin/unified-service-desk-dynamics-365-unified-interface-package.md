@@ -1,18 +1,17 @@
 ---
-title: "Unified Service Desk  Unified Interface package | MicrosoftDocs"
-description: "Overview of the Unified Interface sample application."
+title: "Unified Service Desk Unified Interface package | MicrosoftDocs"
+description: "Learn about the Unified Interface sample application that's part of Unified Service Desk and how you can use it."
+ms.date: 08/17/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/17/2018
-ms.topic: article
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
 ---
-
 # Unified Interface sample application package
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -24,9 +23,7 @@ search.app:
   
   With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface sample application package, the following components are installed:  
   
-- Unified Service Desk Administrator App (Public preview feature)
-
-::: moniker-end
+- Unified Service Desk Administrator App
 
 - User Interface Integration Solution 
   
@@ -59,14 +56,14 @@ search.app:
   
 1. Left Nav: Opens the left navigation area that you can open or collapse.  
   
-2. Dashboards: Opens the customer service dashboard.  
+2. Dashboards: Opens the Customer Service Dashboard.  
 
 > [!NOTE]
-> During login, if you choose Customer Service Hub, customer service dashboard appears in the Dashboard area. 
+> During login, if you select Customer Service Hub, the Customer Service Dashboard appears in the Dashboard area. 
   
 3. My Work: Shows a list of all active cases assigned to a service rep.  
   
-4. search tab: Opens search for navigating through various entities. For this package you can search for accounts and contacts.  
+4. Search tab: Opens search for navigating through various entities. For this package you can search for accounts and contacts.  
   
 5. Session tabs: When you have multiple customer sessions open, each tab shows a different session. The tabs make it easy for an agent to work on multiple customer cases.  
   
@@ -78,37 +75,37 @@ search.app:
   
    Additional KPI features displayed at the bottom of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client  include:  
   
--   Avg Case Resolution Time (Sec). Displays the average case resolution duration in seconds for the agent.  
+-   Avg Case Resolution Time (Sec): Displays the average case resolution duration in seconds for the agent.  
   
--   Number of cases resolved. Displays the total number of resolved cases for the agent.  
+-   Number of cases resolved: Displays the total number of resolved cases for the agent.  
   
 -   Session Time: Displays the accrued time that the session tab it open.  
   
   
 ## View active cases  
- From the toolbar, click **My Work** to see all of your active cases, and then select a case to work on. When you open a case, a new session opens.  
+ From the toolbar, select **My Work** to see all of your active cases, and then select a case to work on. When you open a case, a new session opens.  
   
 ## Create a case  
   
-1.  Look up the contact information by clicking **search** on the toolbar.  
+1.  Look up the contact information by selecting **Search** on the toolbar.  
   
-2.  In the **search** field, enter the contact or account information. You can also search on other entities such as cases, activities, or queues.  
+2.  In the **Search** field, enter the contact or account information. You can also search on other entities such as cases, activities, or queues.  
   
 3.  When you find the contact information, click the record to open a new session.  
   
-4.  In the left nav **Call Script** area, use the list of call scripts to guide you through the support case. When you click a call script, a green check mark indicates the action has been performed.  
+4.  In the left nav **Call Script** area, use the list of call scripts to guide you through the support case. When you select a call script, a green check mark indicates the action has been performed.  
   
-5.  Enter your case notes in the **Notes** area. To attach your notes to the case, click **Update** notes from call scripts.  
+5.  Enter your case notes in the **Notes** area. To attach your notes to the case, select **Update** notes from call scripts.  
   
-## search for a resolution  
+## Search for a resolution  
  To help resolve the case, use the knowledge base articles search window to find a solution.  
   
-1.  From the **KB search** area, enter text to search for published articles that can be used to help resolve the case.  
+1.  In the **KB search** area, enter text to search for published articles that can be used to help resolve the case.  
   
-2.  Send a link via email, link the article to the case, or copy the article link to the clipboard to  paste it into another application.  
+2.  Send a link via email, link the article to the case, or copy the article link to the clipboard to paste it into another application.  
   
 ## Resolve a case  
- To resolve a case, from the **Call Script** area, click the **Resolve Case** call script.  
+ To resolve a case, from the **Call Script** area, select the **Resolve Case** call script.  
 
 ## See also  
  [Unified Service Desk Overview](../../unified-service-desk/admin/overview-unified-service-desk.md)

@@ -1,12 +1,11 @@
 ---
 title: "Azure subscription prerequisites for Connected Customer Service with IoTHub | MicrosoftDocs"
 description: "Learn about prerequisites and considerations for your Azure subscription When deploying and administering Connected Customer Service (CFS) with IoTHub."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Azure subscription prerequisites for Connected Customer Service with IoTHub
@@ -26,7 +25,7 @@ When deploying and administering Connected Customer Service (CCS) with IoTHub, t
   - Account administrator
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of azure security role dropdown](./media/cs-iot-azure-security-roles.png)
+> ![Screenshot of azure security role dropdown.](./media/cs-iot-azure-security-roles.png)
 
 
 3. You will only see subscriptions that are tied to your login's **primary active directory**. For example, david@contoso.com will only see subscriptions from the contoso.com directory. If jason@fabrikam.com invites David into their fabrikam.onmicrosoft.com subscription, David will not be able to use the fabrikam subscription on the deployment app.
@@ -36,7 +35,7 @@ When deploying and administering Connected Customer Service (CCS) with IoTHub, t
 5. Your user must have permission to use the Dynamics API within the Azure active directory tenant.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of CRM API access](./media/cs-iot-azure-api-management.png)
+> ![Screenshot of CRM API access.](./media/cs-iot-azure-api-management.png)
 
 
 

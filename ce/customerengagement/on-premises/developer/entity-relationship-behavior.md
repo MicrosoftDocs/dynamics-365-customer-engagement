@@ -4,7 +4,7 @@ descriptions: Cascading of behaviors may arise in case of one-to-many entity rel
 ms.custom: 
 ms.date: 11/03/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

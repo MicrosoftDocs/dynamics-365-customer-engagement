@@ -1,9 +1,8 @@
 ---
 title: "Web application requirements  | MicrosoftDocs"
-description: ""
-keywords: 
+description: "Lists the hardware and software requirements for the Dynamics 365 Customer Engagement (on-premises) and  Dynamics 365 web and mobile device client applications."
 ms.date: 01/07/2021
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

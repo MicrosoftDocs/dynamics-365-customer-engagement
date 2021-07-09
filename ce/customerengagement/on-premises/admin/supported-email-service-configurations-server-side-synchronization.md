@@ -1,9 +1,10 @@
 ---
 title: "Supported email service configurations for server-side synchronization  | MicrosoftDocs"
+description: "Scenarios supported by server-side synchronization."
 ms.custom: 
 ms.date: 05/19/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

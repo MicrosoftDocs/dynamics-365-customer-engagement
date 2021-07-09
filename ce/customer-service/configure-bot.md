@@ -1,12 +1,9 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
-description: "Instructions to integrate an Azure bot in Omnichannel for Customer Service."
+description: "Perform the steps mentioned in the topic to integrate an Azure bot in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/09/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Integrate an Azure bot
@@ -35,7 +32,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Integrate a bot with Omnichannel for Customer Service
 
-**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service).
+**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](/azure/bot-service/?view=azure-bot-service).
 
 > [!NOTE]
 > Bots can escalate conversations to agents only if they are a part of push-based work streams.
@@ -62,12 +59,12 @@ To get Microsoft App ID of the bot:
 2.	Search for the appropriate **Bot Channels Registration** in the list and select it.
 
     > [!div class=mx-imgBorder]
-    > ![Bot Channels Registration](media/bot-channels-reg.png "Bot Channels Registration")
+    > ![Bot Channels Registration.](media/bot-channels-reg.png "Bot Channels Registration")
 
 3.	Select **Settings** and then copy the value in the **Microsoft App ID** field. This value is your bot's application ID to be used while creating a bot user.
 
     > [!div class=mx-imgBorder]
-    > ![Copy Microsoft App ID](media/bot-id.png "Copy Microsoft App ID")
+    > ![Copy Microsoft App ID.](media/bot-id.png "Copy Microsoft App ID")
 
 To create a bot user:
 
@@ -87,7 +84,7 @@ To create a bot user:
     - **Agent type**: Select **Bot application user**.
     - **Bot application ID**: Bot's application ID from Azure AD that you copied in the previous step.
 
-    For more information on creating an application user, see [Create an application user](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
+    For more information on creating an application user, see [Create an application user](/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
 
 5.	Save the record.
 
@@ -157,13 +154,13 @@ This sample provides exact steps and configuration values to integrate a bot and
 5.	Create three routing rules in the **ChatWorkStream** work stream in the following order:
     - **BotRule**: Specify the work stream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
-        > ![Create a rule to send customer query to bot](media/bot-rule.png "Create a rule to send customer query to bot")
+        > ![Create a rule to send customer query to bot.](media/bot-rule.png "Create a rule to send customer query to bot")
     - **CreditCardRule**: Specify the work stream and queue as **ChatWorkStream** and **CreditCardQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Send customer queries from a bot to an agent, by creating a rule.](media/credit-card-rule.png "Send customer queries from a bot to an agent, by creating a rule.")
     - **HomeLoanRule**: Specify the work stream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
-        > ![Create a rule to send customer query from bot to an agent](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
+        > ![Create a rule to send customer query from bot to an agent.](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
 
 When a chat is initiated by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md).
 

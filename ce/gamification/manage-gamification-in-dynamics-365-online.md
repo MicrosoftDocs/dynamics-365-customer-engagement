@@ -153,17 +153,17 @@ When you sign in to Dynamics 365 - Gamification for the first time, the **Settin
 
 1. Select **Start Activation**.
 
-    ![Select Start Activation](media/start-activation-button.png "Select Start Activation")
+    ![Select Start Activation.](media/start-activation-button.png "Select Start Activation")
 
 2. Select **Generate Security Key** to start the activation and obtain the security key.
 
-    ![Select Generate Security Key](media/generate-security-key.png "Select Generate Security Key")
+    ![Select Generate Security Key.](media/generate-security-key.png "Select Generate Security Key")
 
 3. Copy the value from the **Security Key** field, and then paste it in the input box.
 
 4. Select **Activate now**.
 
-    ![Select Activate now](media/activate-gamification.png "Select Activate now")
+    ![Select Activate now.](media/activate-gamification.png "Select Activate now")
 
 The system creates a set of default KPIs in so you can quickly get started with the first game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md)  
   
@@ -207,7 +207,7 @@ If an update is available, a notification is displayed on the **Gamification Set
 
 ## Uninstall the Gamification solution
 
-To uninstall Gamification, delete the **GamificationUpdater** and **Gamification** solutions from the Dynamics 365 organization. Note that you must first delete the **GamificationUpdater** solution followed by the **Gamification** solution. More information about removing a preferred solution: [Delete a preferred solution](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn878909(v=crm.8)#Delete%20a%20preferred%20solution)
+To uninstall Gamification, delete the **GamificationUpdater** and **Gamification** solutions from the Dynamics 365 organization. Note that you must first delete the **GamificationUpdater** solution followed by the **Gamification** solution. More information: [Delete a preferred solution](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn878909(v=crm.8)#Delete%20a%20preferred%20solution)
 
 ## Privacy notice  
 

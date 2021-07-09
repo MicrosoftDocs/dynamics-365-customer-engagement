@@ -1,8 +1,7 @@
 ---
-title: "Add an activity to a campaign using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "Add planning and campaign activities to a campaign to make it successful."
+title: "Add activity to campaign in in-app marketing-Sales Professional | MicrosoftDocs"
+description: "Make your marketing campaigns successful by creating, distributing, and assigning your planning and campaign activities."
 ms.date: 12/06/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -62,7 +61,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
 
 5. On the Campaign Activity form, select **Save**.
 
-6. The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing list, select the **More Commands** icon ![More Commands icon](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
+6. The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing list, select the **More Commands** icon ![More Commands icon.](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
   
 7. To distribute the new campaign activity, on the command bar, select **Distribute Campaign Activity**.  
   

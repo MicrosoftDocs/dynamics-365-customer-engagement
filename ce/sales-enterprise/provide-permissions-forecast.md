@@ -2,12 +2,12 @@
 title: "Provide viewing permissions to access a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Provide viewing permissions to access a forecast in Dynamics 365 Sales."
 ms.date: 02/03/2020
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Provide viewing and adjustment privileges to a forecast
@@ -31,12 +31,12 @@ In the **Permissions** step of the forecast configuration, you define which team
 	| Specific security roles | This option allows you to specify which security roles will receive either read-only access, or read-only and adjustment access within this forecast.|
 
     > [!div class="mx-imgBorder"]
-    > ![Forecast permissions step](media/forecast-permissions.png "Forecast permissions step")
+    > ![Forecast permissions step.](media/forecast-permissions.png "Forecast permissions step")
 
     A message displays at the bottom of the page that helps you understand how the forecast security is applied based on your selections.
 
     > [!div class="mx-imgBorder"]
-    > ![Information on forecast security](media/forecast-add-security-information.png "Information on forecast security")
+    > ![Information on forecast security.](media/forecast-add-security-information.png "Information on forecast security")
     
 3.	Select **Next**.
 

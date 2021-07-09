@@ -1,12 +1,11 @@
 ---
 title: "Connected Customer Service - Overview| MicrosoftDocs"
 description: "Overview of Connected Customer Service."
+ms.date: 07/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 07/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 
@@ -33,7 +32,7 @@ Connected Customer Service for IoT Central provides a direct integration of Dyna
 Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Customer Service. Also, based on service activities in Connected Customer Service, information can be sent back to IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram representing the relationship between Azure IoT Central, Power Automate, and Connected Customer Service](media/cs-iot-overview.png)
+> ![Diagram representing the relationship between Azure IoT Central, Power Automate, and Connected Customer Service.](media/cs-iot-overview.png)
  
 The below end-to-end integration processes can be easily implemented based on a pure configuration experience:
 
@@ -44,7 +43,7 @@ Azure IoT Central requires no extensive cloud development or coding skills to ge
 
 With [Power Automate templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows.
 
-Check out our [Connected Customer Service for IoT Central tutorial](https://docs.microsoft.com/dynamics365/customer-service/cs-iot-receive-alerts) to get started.
+Check out our [Connected Customer Service for IoT Central tutorial](./cs-iot-receive-alerts.md) to get started.
 
 ## Connected Customer Service for Azure IoT Hub
 
@@ -58,7 +57,7 @@ After you install Connected Customer Service for Dynamics 365 and provide your A
 The Azure components and services that are involved with Connected Customer Service functionality are described in the following sections.
 
 
-[Service bus queue](https://azure.microsoft.com/documentation/articles/service-bus-dotnet-get-started-with-queues/)
+[Service bus queue](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
 
 This provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 for Customer Engagement and Azure. When an IoT alert is sent to Dynamics 365 for Customer Engagement, or a command is sent from Dynamics 365 for Customer Engagement to the IoT hub, it will be queued here.
 
@@ -86,7 +85,7 @@ Connected Customer Service uses SQL Azure to store device heartbeat messages for
 
 Queries that Stream Analytics uses are stored to Azure Blob storage.
 
-- [Connected Customer Service Device Readings (Preview)](https://docs.microsoft.com/dynamics365/customer-service/cs-iot-visualize-device-readings) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+- [Connected Customer Service Device Readings (Preview)](./cs-iot-visualize-device-readings.md) uses [Azure Time Series Insight (Preview)](/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
 
 > [!NOTE]
 > For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
@@ -98,37 +97,37 @@ A list of Connected Customer Service actions that agents can take is as follows:
 1. **Convert an IoT alert to a case**: Agents can convert an IoT alert to a case that includes pre-populated IoT alert details.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of a case with pre-populated IoT alert details](media/cs-iot-alert-details.png)
+  > ![Screenshot of a case with pre-populated IoT alert details.](media/cs-iot-alert-details.png)
 
 2. **View a customer’s device alert history**: Agents can view a customer’s device alert history by selecting the customer’s account. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a customer's device alert history](media/cs-iot-customer-device-alert-history.png)
+> ![Screenshot of a customer's device alert history.](media/cs-iot-customer-device-alert-history.png)
 
 3. **Create a case with multiple devices**: Agents can create a case by selecting multiple devices. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a case with multiple devices](media/cs-iot-customer-case-multiple-devices.png)
+> ![Screenshot of a case with multiple devices.](media/cs-iot-customer-case-multiple-devices.png)
 
 4. **Send commands to IoT devices**: Agents can send commands to IoT devices. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a command sent to an IoT device](media/cs-iot-send-commands-devices.png)
+> ![Screenshot of a command sent to an IoT device.](media/cs-iot-send-commands-devices.png)
 
 5. **View device history summaries**: Agents can view a device's history summary. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a device's history summary](media/cs-iot-view-device-history-summary.png)
+> ![Screenshot of a device's history summary.](media/cs-iot-view-device-history-summary.png)
 
 6. **Check real-time device readings**: Agents can check real-time device readings. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a real-time device readings summary](media/cs-iot-realtime-device-reading.png)
+> ![Screenshot of a real-time device readings summary.](media/cs-iot-realtime-device-reading.png)
 
 7. **View case histories on devices**: Agents can check a case history on a device. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the case history for a device](media/cs-iot-view-case-histories-devices.png)
+> ![Screenshot of the case history for a device.](media/cs-iot-view-case-histories-devices.png)
 
 
 

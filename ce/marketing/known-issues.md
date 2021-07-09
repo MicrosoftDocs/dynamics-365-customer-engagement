@@ -1,7 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 01/25/2021
+ms.date: 06/22/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -49,7 +49,7 @@ This document provides important, late-breaking information about known issues a
 
 ## General
 
-- The following features from the April 2019 release require that your instance has access to the latest Dynamics 365  infrastructure and services: *manage segment memberships from the contact record*, *session-level event registration*, *event-registration QR codes in email*, *portal-optional operation*, and some *segmentation improvements*. We are rolling out the needed infrastructure updates as quickly as possible, and most customers should have them already. If you are running the April 2019 release and require one or more of these features but don't have them available on your instance, [contact Microsoft Support](setup-troubleshooting.md#contact-support) to get your infrastructure updated right away.
+- The following features from the April 2019 release require that your instance has access to the latest Dynamics 365  infrastructure and services: *manage segment memberships from the contact record*, *session-level event registration*, *event-registration QR codes in email*, *portal-optional operation*, and some *segmentation improvements*. We are rolling out the needed infrastructure updates as quickly as possible, and most customers should have them already. If you are running the April 2019 release and require one or more of these features but don't have them available on your instance, [contact Microsoft Support](setup-troubleshooting.yml#contact-support) to get your infrastructure updated right away.
 - If you have different Dynamics 365 sessions open in other browser windows or tabs, and then open the Marketing app in the same browser, it will authenticate using the same user that you have open in the other sessions. We recommend that you restart the browser each time you need to sign in using a different Dynamics 365 user account.
 - Avoid deactivating publishable (go-live) records. Instead, change the publishing state (Status reason), and use the **Stop** buttons to manage records that are no longer required. More information: [Go live with publishable entities and track their status](go-live.md).
 - Dynamics 365 Marketing is currently supported only on the following browsers: Microsoft Edge, Google Chrome, and Apple Safari on Mac. More information: [Browser and system requirements](browser-requirements.md).
@@ -80,6 +80,7 @@ This document provides important, late-breaking information about known issues a
 - Subscription lists are managed at the *contact* level. If multiple contacts share the same email address, only the specific contact who opted out will stop receiving communications. Other contacts using the same email address will continue to receive communications. If you require opt-outs to be processed at the email level, you will need to create custom processes. More information: [Manage subscriptions at an email level](set-up-subscription-center.md#manage-subscriptions-at-an-email-level).
 - As of March 2021, A/B testing is not yet available in the new email designer.
 - If you have any email editor customizations, your administrator will need to manually recreate them in the new email designer.
+- Due to a limitation in Outlook, the maximum divider height is 10 pixels.
 
 ## Marketing pages and forms
 
@@ -108,7 +109,7 @@ This document provides important, late-breaking information about known issues a
 ## Trials
 
 - Trials are subject to the [Dynamics 365 Marketing trial limits and restrictions](./trial-preview-limits.md).
-- You can't use the sign-up process to add more users to a Marketing trial that is running on a trial tenant without a mailbox set up for the organization admin. Instead, each new user must be added in a specific way. For more information, see [Add more users to a Marketing trial running on a trial tenant](trial-signup.md#add-users).
+- You can't use the sign-up process to add more users to a Marketing trial that is running on a trial tenant without a mailbox set up for the organization admin. Instead, each new user must be added in a specific way. For more information, see [How can I add more users to a trial?](trial-faq.md#how-do-i-add-more-users-to-a-trial).
 - You can't sign up using an \@microsoft.com email address. If you are a Microsoft employee and would like to sign up for a trial, start by setting up a Microsoft 365 E3 trial, which will provide you both with a trial tenant (where you can install the Marketing trial) and a new email address that you can use to sign up for the Marketing trial. More information: [Sign up for a free trial](trial-signup.md).
 
 ## Videos

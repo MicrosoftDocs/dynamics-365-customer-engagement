@@ -1,9 +1,10 @@
 ---
 title: "Add or remove territory members  | MicrosoftDocs"
+description: "Add or remove territory members in Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ author: jimholtz
 ms.assetid: 79c76f73-d104-4619-a996-e8f2ac4fba48
 caps.latest.revision: 14
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Add or remove territory members
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 To accommodate changes in sales territories or the representatives that are assigned to each territory, you can add or remove territory members in Dynamics 365 Customer Engagement (on-premises).  
   
@@ -37,7 +40,7 @@ To accommodate changes in sales territories or the representatives that are assi
   
    1.  On the ribbon, choose **Add Members**, view the text in the **Message from webpage** dialog box, and then choose **OK** to close the dialog box.  
   
-   2.  In the **Look Up Records** dialog box, in the **Search** text box, type in the name or a part of the name of the user you want to add to the sales territory, and then choose the **Start search** icon ![54934](../admin/media/search-button.png "54934").  
+   2.  In the **Look Up Records** dialog box, in the **Search** text box, type in the name or a part of the name of the user you want to add to the sales territory, and then choose the **Start search** icon ![54934.](../admin/media/search-button.png "54934").  
   
    3.  In the list of records, select the people you want to add to the sales territory, and then tap or click **Add**.  
   

@@ -1,20 +1,19 @@
 ---
 title: "Interactive Service Hub Page (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "The topic explains using the Interactive Service Hub Page hosted control type to host interactive service hub forms within Unified Service Desk to integrate the capabilities of both the applications. Interactive Service Hub provides an intuitive interface and displays all the vital information related to customers in one place that lets customer support agents focus on things that require attention."
+description: "Learn to create the Interactive Service Hub Page hosted control in Unified Service Desk. Also, find information about the predefined UII actions supported by it."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Interactive Service Hub Page (Hosted Control)
 
@@ -34,7 +33,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
   
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Interactive Service Hub Page** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![Interactive Service Hub Page hosted control](../unified-service-desk/media/interactive-service-hub-page-hosted-control.png "Interactive Service Hub Page hosted control")  
+ ![Interactive Service Hub Page hosted control.](../unified-service-desk/media/interactive-service-hub-page-hosted-control.png "Interactive Service Hub Page hosted control")  
 
  In the **New Hosted Control** screen:  
 

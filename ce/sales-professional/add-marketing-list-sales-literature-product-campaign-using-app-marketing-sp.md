@@ -1,8 +1,7 @@
 ---
-title: "Add a marketing list, sales literature, or product to a campaign using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Add items to campaign using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Add all items to your campaign in Dynamics 365 Sales Professional that your need in this marketing context."
 ms.date: 12/06/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -38,7 +37,7 @@ Add all items to your campaign that your need in this marketing context. Usually
 
 3. Select the type of record you want in the **Look Up Records** dialog box, in the **Look for** list.  
 
-4. Type the first few letters of the name of the record to narrow your search in the **Search** box, and then select the Search icon ![Search icon](../sales-enterprise/media/search-icon.png "Search icon").  
+4. Type the first few letters of the name of the record to narrow your search in the **Search** box, and then select the Search icon ![Search icon.](../sales-enterprise/media/search-icon.png "Search icon").  
 
 5. Select the check boxes for the records that you want to add in the list of records that appears, select **Add**, and then select **OK**.  
 

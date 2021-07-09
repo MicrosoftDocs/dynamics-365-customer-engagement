@@ -1,8 +1,7 @@
 ---
-title: "Work with activities in the Kanban view (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "Use the opportunity Kanban view to visualize all your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
+title: "Work with activities in Kanban view - Sales Professional | MicrosoftDocs"
+description: "Use the opportunity Kanban view to visualize activities in a card-based view and manage by moving them across the swim lanes."
 ms.date: 04/16/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,7 +14,7 @@ searchScope:
   - Sales
 ---
 
-# Work with activities in the Kanban view (Sales Professional)
+# Work with activities in Kanban view (Sales Professional)
 
 The Kanban view for activities helps salespeople to manage multiple activities quickly. Looking at the Kanban view, salespeople can quickly see the activities and the status they're in. In the Activity Kanban view, activities are represented visually with cards. The lanes represent the default statuses of activities. You can drag the activities to different lanes to move them from one status to another.
 
@@ -26,15 +25,15 @@ A Kanban view is available when the Kanban control is added to the Activity enti
 To open the Kanban view:
 
 1. In the site map, select **Activities**.
-2. On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-icon.png "More commands icon"), and select **Show As** > **Kanban**.
+2. On the command bar, select the **More commands** icon ![More commands icon.](media/more-commands-icon.png "More commands icon"), and select **Show As** > **Kanban**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Show activities in the Kanban view](../sales-enterprise/media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
+    > ![Show activities in the Kanban view.](../sales-enterprise/media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
 
     The activities are shown in the Kanban view.
 
       > [!div class="mx-imgBorder"]  
-      > ![Activities in the Kanban view](../sales-enterprise/media/activities-kanban-view.png "Activities in the Kanban view") 
+      > ![Activities in the Kanban view.](../sales-enterprise/media/activities-kanban-view.png "Activities in the Kanban view") 
 
  
 ## Know your Kanban views
@@ -50,14 +49,14 @@ Here are some important things to know about your Kanban view:
 -  The card fields are editable inline. You can quickly change details for the three fields of an activity record right from the card.
 
     > [!div class="mx-imgBorder"]  
-    > ![Editable fields on the activity card](../sales-enterprise/media/editable-card-fields.png "Editable fields on the activity card")
+    > ![Editable fields on the activity card.](../sales-enterprise/media/editable-card-fields.png "Editable fields on the activity card")
 
 -  When you select a different view or filter, cards in the lanes are refreshed to show the filtered activity records. For example, if you are currently using the All Activities view, and select the **Activity Type** filter to show only phone calls, the swim lanes are refreshed to show only the phone call activities.
 
 -  You can use the **Search** box to filter the records/cards in the swim lane based on the search criteria. For example, if you enter the keyword "Discuss," it will refresh the Kanban view to only show the activity records where the title begins with "Discuss".
 
     > [!div class="mx-imgBorder"]  
-    > ![Use the Search box to filter records in the Kanban view](../sales-enterprise/media/search-in-activity-kanban.png "Use the Search box to filter records in the Kanban view")
+    > ![Use the Search box to filter records in the Kanban view.](../sales-enterprise/media/search-in-activity-kanban.png "Use the Search box to filter records in the Kanban view")
 
 -  You can drag a card and move it to other lanes. When you drag a card from one lane to another, the activity status changes:
 

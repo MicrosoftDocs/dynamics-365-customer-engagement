@@ -1,12 +1,11 @@
 ---
 title: "Understand Omnichannel for Customer Service with Customer Service Hub app | MicrosoftDocs"
 description: "Understand how Omnichannel for Customer Service can be used with Dynamics 365 Customer Service Hub application."
+ms.date: 11/11/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/11/2019
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Understand Omnichannel for Customer Service with Customer Service Hub
 
@@ -31,7 +30,7 @@ Similar to the Customer Service Hub app, Omnichannel for Customer Service uses t
 2. Select **Service Management**.
 
     > [!div class=mx-imgBorder]
-    > ![Select service management](media/service-management.png "Select service management")
+    > ![Select service management.](media/service-management.png "Select service management")
 
 3. Select **Queues** under **Case Settings**.
 
@@ -40,7 +39,7 @@ Similar to the Customer Service Hub app, Omnichannel for Customer Service uses t
 5. Select the checkbox to enable the queue for automatic distribution of work items.
 
     > [!div class=mx-imgBorder]
-    > ![Enable automatic work distribution](media/automatic-work-distribution.png "Enable automatic work distribution")
+    > ![Enable automatic work distribution.](media/automatic-work-distribution.png "Enable automatic work distribution")
 
 6. Select **Save**.
  

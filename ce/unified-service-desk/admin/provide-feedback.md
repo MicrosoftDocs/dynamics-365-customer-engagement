@@ -1,12 +1,11 @@
 ---
-title: "Provide feedback about Unified Service Desk | MicrosoftDocs"
-description: "Learn about providing feedback about Unified Service Desk."
+title: "Provide feedback through toolbar option| MicrosoftDocs"
+description: "Learn how to provide feedback about Unified Service Desk from the toolbar. Also included is a walkthrough to configure the feedback window in your agent app."
+ms.date: 04/24/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/24/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -193,7 +192,7 @@ Your agent application will now have a **Smiley** button in the toolbar area.
 3. Type your feedback or suggestion in the text box. 
 4. Select **Submit** to send your feedback to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].<br>
 
-   ![Provide feedback smiley and window](../media/provide-feedback-smiley-window.PNG "Provide feedback smiley and window")
+   ![Provide feedback smiley and window.](../media/provide-feedback-smiley-window.PNG "Provide feedback smiley and window")
 
 
 <a name="Conclusion"></a> 
@@ -206,7 +205,7 @@ Your agent application will now have a **Smiley** button in the toolbar area.
 > 
 > [!Note]
 > Setting the **HelpImproveUsd** global option to **False**, disables the data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] dose not send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. If the data collection is disabled, then agent or system administrator cannot provide feedback due to insufficient permissions.<br>
-> ![Insufficient Permissions](../media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
+> ![Insufficient Permissions.](../media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
 
 ## See also
 

@@ -1,12 +1,11 @@
 ---
-title: "Productivity pane in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Use productivity pane settings in Power Apps to display agent scripts and smart-assist cards for your agents."
+title: "Productivity pane | MicrosoftDocs"
+description: "Use the productivity pane settings in Power Apps to display agent scripts and smart-assist cards for your agents."
+ms.date: 10/09/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/09/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Productivity pane overview
@@ -26,12 +25,12 @@ You can set the productivity pane in collapsed mode or expanded mode, as shown i
 **Collapsed mode**
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane in collapsed mode](media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
+> ![Productivity pane in collapsed mode.](media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
 
 **Expanded mode**
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
+> ![Productivity pane.](media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
 
 ### See also
 

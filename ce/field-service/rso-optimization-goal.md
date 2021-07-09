@@ -27,17 +27,17 @@ A goal is what the resource scheduling optimization solution aims to optimize. A
 When resource scheduling optimization is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. Users can modify as needed or create a new optimization goal and associate it as a default goal.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
+> ![Screenshot of default goal in scheduling parameters.](media/rso-default-goal-1.png)
 
 **Engine Effort Level** determines how much effort resource scheduling optimization makes finding the best combination of resources, route, and day or time. The higher the effort, the longer resource scheduling optimization takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the resource scheduling optimization engine considers.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of default goal deployed with resource scheduling optimization](media/rso-default-goal-2.png)
+> ![Screenshot of default goal deployed with resource scheduling optimization_1.](media/rso-default-goal-2.png)
 
 The default goal is used when single resource optimization is selected from the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of default goal deployed with resource scheduling optimization](media/rso-single-resource-1.png)
+> ![Screenshot of default goal deployed with resource scheduling optimization_2.](media/rso-single-resource-1.png)
  
 
 ## Define constraints
@@ -46,9 +46,9 @@ The default goal is used when single resource optimization is selected from the 
 
 This creates the booking if it can be completed within the resource’s working hours. Verifies the booking is not scheduled out of the resource’s working hours. This includes travel time from the last booking to the resource’s end location, although it’s not visually displayed on the schedule board.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a booked resource](media/c56516997db07c1f0ef64bdcc507350f.png)
+> ![Screenshot of a booked resource_1.](media/c56516997db07c1f0ef64bdcc507350f.png)
 
-[What happens if I remove the **Schedule within working hours** constraint?](./rso-faq.md#what-happens-if-i-remove-the-schedule-within-working-hours-constraint)
+[What happens if I remove the **Schedule within working hours** constraint?](/dynamics365/field-service/rso-faq#what-happens-if-i-remove-the-schedule-within-working-hours-constraint)
 
 ### Meets Required Characteristics
 
@@ -68,7 +68,7 @@ If marked, resource scheduling optimization will respect lock options configured
 - Resource + Time
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a booked resource](media/rso-scheduling-lock-options.png)
+> ![Screenshot of a booked resource_2.](media/rso-scheduling-lock-options.png)
 
 ### Scheduling Windows
 
@@ -76,15 +76,15 @@ If marked, resource scheduling optimization will schedule work to comply within 
 
 - If **From Date** and **To Date** on resource requirement or **Date Window Start** and **Date Window End** on resource booking are set as shown in the following example, it indicates you want resource scheduling optimization to schedule the booking on 5/24/2018 and time of day doesn’t matter.
  > [!div class="mx-imgBorder"]
- > ![Screenshot of the date selectors](media/753086631f45017fa9cef8f3795078ba.png)
+ > ![Screenshot of the date selectors.](media/753086631f45017fa9cef8f3795078ba.png)
 
 - If **Time Window Start** and **Time Window End** are set as shown in the following example, it indicates you want resource scheduling optimization to schedule a booking from 2:00 AM to 6:00 AM and the date doesn’t matter.
  > [!div class="mx-imgBorder"]
- > ![Screenshot of the time window start and time window end fields](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
+ > ![Screenshot of the time window start and time window end fields.](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
 
 - If **Time From Promised** and **Time To Promised** are set as shown in the following example, it indicates you want resource scheduling optimization to schedule a booking between 4:00 AM and 8:00 AM on 5/24/2018. It has to be a specific date and specific time range.
  > [!div class="mx-imgBorder"]
- > ![Screenshot of the time from promised and time to promised fields](media/f08dd1dd681a4369a2b46a968c08e631.png)
+ > ![Screenshot of the time from promised and time to promised fields.](media/f08dd1dd681a4369a2b46a968c08e631.png)
   
 > [!NOTE]
 > 
@@ -96,7 +96,7 @@ If marked, resource scheduling optimization will schedule work to comply within 
   In the following example, a requirement has only a time window start value; resource scheduling optimization schedules the requirement anytime after 1:00 PM regardless of date.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-empty-time-promised.png)
+  > ![Screenshot of requirement group with two requirements_1.](./media/scheduling-rso-3-0-empty-time-promised.png)
 
   This logic applies to the following fields. 
 
@@ -147,7 +147,7 @@ In general, resource types define how the resource relates to the organization. 
 Additionally, requirements allow multi-select so you can specify which resource types you need for a given requirement.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
+> ![Screenshot of multi-select resource type attribute on requirement.](media/rso-requirement-resource-type-field.png)
 
 ## Define objectives
 
@@ -155,7 +155,7 @@ Add and rank the objectives of resource scheduling optimization scheduling by us
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-order-objectives.png)
+> ![Screenshot of requirement group with two requirements_2.](./media/scheduling-rso-3-0-order-objectives.png)
 
 ### Maximize total working hours: The combination of the engine results
 
@@ -173,17 +173,17 @@ Iteration with the total lowest aggregate travel time will best meet this object
 Once a booking is created, a lock can be set on the scheduling lock options field in the resource scheduling optimization section of the booking. The options are Time Range, Resource, Time, and Resource and Time. When the locked bookings objective is selected, resource scheduling optimization will try to include locked bookings into the optimal route. For example, the following screenshot shows that Norbert has a booking that starts at 2:30 AM, and this booking is locked to**Time**. When resource scheduling optimization runs, the system detects a 30-minute idle time for Norbert in the morning, but none of the other requirement durations fit into that slot with the locked booking next to it, even though resource scheduling optimization tries to move it to other resources’ time.
     
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board](media/8c6c7de10ed96ca76c884ee41086507b.png)
+> ![Screenshot of the schedule board_1.](media/8c6c7de10ed96ca76c884ee41086507b.png)
 
 If locked booking is a high-ranking objective, resource scheduling optimization will keep the locked booking there with 30 minutes of idle time before it by sacrificing the other objectives. The following screenshot shows the result.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board](media/49561093ec91a28a5961b0be4f892cbf.png)
+> ![Screenshot of the schedule board_2.](media/49561093ec91a28a5961b0be4f892cbf.png)
 
 If locked booking is not a selected objective or is ranked lower in the order of importance for objectives, resource scheduling optimization might ignore this locked booking (exclude this locked booking from the optimal route) and schedule other bookings for Matthew at 2:30 AM in order to achieve the highest score for top-ranking objectives, with the result shown in the following screenshot. It looks as if a booking overlaps, but actually the locked booking was ignored in this case. Resource scheduling optimization would not delete the locked booking because it would lose the lock information defined on the booking record, which can’t be retrieved from the backing requirement.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board optimization](media/rso-edgar-dominquez.png)
+> ![Screenshot of the schedule board optimization.](media/rso-edgar-dominquez.png)
 
 ### High priority requirements 
 
@@ -196,18 +196,18 @@ Resource scheduling optimization will consider the list of preferred resources n
 This is achieved by adding the "Maximize Preferred Resources" objective to your resource scheduling optimization goal and adding a preferred resource(s) on the requirement that will be optimized.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of maximize preferred resource objective in a goal](./media/scheduling-rso-3-0-maximize-preferred-resources.png)
+> ![Screenshot of maximize preferred resource objective in a goal.](./media/scheduling-rso-3-0-maximize-preferred-resources.png)
 
 
 The following screenshot shows an example of adding a resource to a requirement (for example: Jorge Gault) as a preferred resource.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement with preferred resource](./media/scheduling-rso-3-0-requirement-preferred-resources.png)
+> ![Screenshot of requirement with preferred resource.](./media/scheduling-rso-3-0-requirement-preferred-resources.png)
 
 
 After running an optimization schedule, the requirement is scheduled to the preferred resource. In the following example, work order 00100 is scheduled to Jorge Gault.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-preferred-resource-optimized.png)
+> ![Screenshot of requirement group with two requirements_3.](./media/scheduling-rso-3-0-preferred-resource-optimized.png)
 
 > [!Note]
 > The Maximize Preferred Resources objective only applies to **preferred** resources. 
@@ -232,11 +232,11 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-characteristic-proficiency-chart.png)
+> ![Screenshot of requirement group with two requirements_4.](./media/scheduling-rso-3-0-characteristic-proficiency-chart.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with two requirements](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
+> ![Screenshot of requirement group with two requirements_5.](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
 
 > [!Note]
 > In the 2020 release wave 2 update, the **Best matching skill level** objective was enhanced to prioritize assigning jobs to resources with fewer skills first. This is valuable for organizations that have a workforce with varying skillsets. Assigning jobs to resources with fewer skills or more common skills first when there is more capacity than demand allows resource scheduling optimization to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. For example, imagine one resource has installation skills and another resource has installation _and_ repair skills. Resource scheduling optimization will initially schedule installation jobs to the first resource who only has installation skills. This is advantageous because if a repair job needs to be scheduled later, the second resource will have capacity; if all the installation jobs were scheduled to the second resource, then no one would be available for the repair job since the first resource does not have the skills for repairs. This improvement to the **Best Matching Skill** level objective requires no additional configuration and is an update to the background algorithm.
@@ -249,7 +249,7 @@ In order to effectively front load optimized bookings, add the **Schedule As Soo
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule as soon as possible constraint in correct order](./media/rso-schedule-as-soon-as-possible-objective-order.png)
+> ![Screenshot of schedule as soon as possible constraint in correct order.](./media/rso-schedule-as-soon-as-possible-objective-order.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

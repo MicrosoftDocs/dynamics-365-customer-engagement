@@ -1,5 +1,7 @@
 ---
 title: "Indexes on the Microsoft Dynamics 365 for Customer Engagement database are not consistent | Microsoft Docs"
+description: Environment diagnostics warning that indexes aren't consistent.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

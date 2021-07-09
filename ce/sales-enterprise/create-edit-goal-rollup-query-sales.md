@@ -2,7 +2,6 @@
 title: "Define goal rollup queries (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 Sales."
 ms.date: 04/23/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -24,10 +23,10 @@ Use rollup queries to specify additional criteria that you want to apply on exis
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
-2.	In the site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
+2.	In the site map, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
     > [!div class="mx-imgBorder"]
-    > ![Select the Change area icon and then select App Settings](media/change-area-app-settings.png "Select the Change area icon and then select App Settings")
+    > ![Select the Change area icon and then select App Settings.](media/change-area-app-settings.png "Select the Change area icon and then select App Settings")
 
 3. Select **Rollup Queries** under **Goal Management**.
  
@@ -40,7 +39,7 @@ Use rollup queries to specify additional criteria that you want to apply on exis
 6. In the Query builder, add the criteria for your query.  
 
     > [!div class="mx-imgBorder"]  
-    > ![Build a query for rollup](media/rollup-query-builder.png "Build a query for rollup")
+    > ![Build a query for rollup.](media/rollup-query-builder.png "Build a query for rollup")
   
 7. To see the results for the query, select **View records**.  
   
@@ -63,7 +62,7 @@ Rollup queries define additional criteria for a goal. Applying the rollup query 
 5. Select the rollup query in the **Rollup Query - Actual** and **Rollup Query - In-Progress** fields.  
 6. Select **Recalculate** on the command bar and wait for the calculations. Calculation time depends on the complexity of the query and the volume of data.  
     >[!div class="mx-imgBorder"]
-    >![Image of the Goal Criteria tab with the rollup query fields, also highlighting the Recalculate option](media\rollup-query.png "IImage of the Goal Criteria tab with the rollup query fields, also highlighting the Recalculate option")
+    >![Image of the Goal Criteria tab with the rollup query fields, also highlighting the Recalculate option.](media\rollup-query.png "IImage of the Goal Criteria tab with the rollup query fields, also highlighting the Recalculate option")
 7. Select the **Actuals** tab of the goal and verify the **Last Rolled Up Date** to ensure that the recalculated data is the latest.  
     The **Percentage Achieved**, **Actual**, and **In-Progress** fields display the values after applying the additional criteria in the rollup query. For example, values for a specific customer.  
 

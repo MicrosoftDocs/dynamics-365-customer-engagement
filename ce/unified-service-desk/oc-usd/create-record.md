@@ -1,12 +1,11 @@
 ---
-title: "Create a record in Omnichannel for Customer Service on Unified Service Desk | MicrosoftDocs"
-description: "Learn how to create a record in Omnichannel for Customer Service from within Unified Service Desk client application"
+title: "Create a record | MicrosoftDocs"
+description: "Learn how you can create a record by using the various methods in the Omnichannel for Customer Service app from within the Unified Service Desk client application."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -21,7 +20,7 @@ If no records are linked to a conversation in Omnichannel for Customer Service, 
 1. Select the plus sign (**+**) to create a record.
  
  > [!div class=mx-imgBorder]
- > ![Quick create record](../../customer-service/media/quick-create-record.png "Quick create record")
+ > ![Quick create record.](../../customer-service/media/quick-create-record.png "Quick create record")
 
 2. Select a record type from the list.<br>
     - Case
@@ -33,7 +32,7 @@ If no records are linked to a conversation in Omnichannel for Customer Service, 
 3. Specify the details on the page, and then save your changes.
 
  > [!div class=mx-imgBorder]
- > ![Create record](../media/oc-usd-create-contact.png "Quick create record")
+ > ![Create record.](../media/oc-usd-create-contact.png "Quick create record")
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for records](search-record.md)

@@ -2,7 +2,6 @@
 title: "Integrate sample softphone with Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the sample to learn how to integrate a softphone dialer in Dynamics 365 Sales."
 ms.date: 10/22/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -42,20 +41,20 @@ To configure the sample:
 After you complete the configuration, you'll see a phone icon next to any contact on an opportunity record who has a defined cell phone number.
 
 > [!div class="mx-imgBorder"]
-> ![Phone icon next to an opportunity contact](../sales-enterprise/media/phone-icon-opportunity-contact.png "Phone icon next to an opportunity contact")
+> ![Phone icon next to an opportunity contact.](../sales-enterprise/media/phone-icon-opportunity-contact.png "Phone icon next to an opportunity contact")
 
 When users select this icon, the sample softphone dialer opens and calls the number. 
 
 > [!div class="mx-imgBorder"]
-> ![Sample softphone dialer calling a contact](../sales-enterprise/media/dialer-calling-cell-number.png "Sample softphone dialer calling a contact")
+> ![Sample softphone dialer calling a contact.](../sales-enterprise/media/dialer-calling-cell-number.png "Sample softphone dialer calling a contact")
 
 All details regarding the call such as duration, phone number, and notes are automatically captured in the call summary and the phone call activity record, and the record is associated with the opportunity record the call was initiated from.
 
 > [!div class="mx-imgBorder"]
-> ![Call summary](../sales-enterprise/media/call-summary.png "Call summary")
+> ![Call summary.](../sales-enterprise/media/call-summary.png "Call summary")
 
 > [!div class="mx-imgBorder"]
-> ![Call summary added to phone call activity](../sales-enterprise/media/phone-call-activity-details.png "Call summary added to phone call activity")
+> ![Call summary added to phone call activity.](../sales-enterprise/media/phone-call-activity-details.png "Call summary added to phone call activity")
 
 ### See also
 

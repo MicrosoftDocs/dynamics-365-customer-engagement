@@ -1,18 +1,17 @@
 ---
-title: "What is Dynamics 365 Channel Integration Framework version 2.0? | Microsoft Docs"
-description: "Learn what Dynamics 365 Channel Integration Framework version 2.0 is and how to get started using it."
+title: "Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Learn about Dynamics 365 Channel Integration Framework 2.0 is and how to get started using it."
+ms.date: 11/02/2020
+ms.topic: get-started-article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2020
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# What is Dynamics 365 Channel Integration Framework version 2.0?
+# What is Dynamics 365 Channel Integration Framework 2.0?
 
 Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework for integrating telephony channels with model-driven apps in Dynamics 365 by using a browser-based JavaScript API library. With this framework, you can integrate any telephony channel into a model-driven app in Dynamics 365, and the framework will act as the interface between the channel and the app.
 
@@ -112,7 +111,7 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 
 [Support multiple providers](support-multiple-providers.md)
 
-[Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md)
+[Bring your own channel](../../bring-your-own-channel.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

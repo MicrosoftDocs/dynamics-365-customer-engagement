@@ -1,9 +1,10 @@
 ---
 title: "Troubleshoot SharePoint integration  | MicrosoftDocs"
+description: "This topic explains how to fix common issues that may occur with SharePoint document management."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -13,12 +14,14 @@ ms.assetid: 28ba29c2-a661-4d6e-b72a-47c69a94de98
 caps.latest.revision: 7
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Troubleshoot SharePoint integration
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 This topic explains how to fix common issues that may occur with SharePoint document management.
 
@@ -26,7 +29,7 @@ This topic explains how to fix common issues that may occur with SharePoint docu
 
 If **Documents** is missing from entities such as account, use the following to restore.
 
-![Documents](media/crm-itpro-crmo365tg-seldoc.png "Documents")
+![Documents.](media/crm-itpro-crmo365tg-seldoc.png "Documents")
 
 1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 Customer Engagement (on-premises).
     Check your security role:
@@ -47,7 +50,7 @@ For more information, see [Enable SharePoint document management for specific en
 
 If the Documents associated grid is missing, use the following to restore.
 
-![Documents associated grid](../basics/media/list-of-documents-in-onedrive.png "Documents associated grid")
+![Documents associated grid.](../basics/media/list-of-documents-in-onedrive.png "Documents associated grid")
 
 The most common cause for the Documents associated grid not loading is the corrupted FetchXML and LayoutXML. These sections could be corrupted due to many reasons. The most common of them is through customizing the entity/grid view, adding/removing columns, and other similar customizations.
 
@@ -67,7 +70,7 @@ The most common cause for the Documents associated grid not loading is the corru
 11. Search LayoutXml of Document associated grid (search for *Document Associated*).
     
     > [!div class="mx-imgBorder"] 
-    > ![Search for Document Associated](media/sharepoint-document-associated-grid.png "Search for Document Associated")
+    > ![Search for Document Associated.](media/sharepoint-document-associated-grid.png "Search for Document Associated")
 
 12. Make the changes as below for the LayoutXML section:
 
@@ -171,7 +174,7 @@ This error message can occur when the SharePoint site that is configured with do
 2. Open the **SharePoint Site** record that has been renamed and enter the **Absolute URL** with new URL.
 
     > [!div class="mx-imgBorder"] 
-    > ![Enter SharePoint relative URL](media/fix-renamed-sp-site.png "Enter SharePoint relative URL")
+    > ![Enter SharePoint relative URL.](media/fix-renamed-sp-site.png "Enter SharePoint relative URL")
 
 3. Select **Save & Close**.
 

@@ -40,14 +40,14 @@ Admins can use the [Help + support experience](/power-platform/admin/get-help-su
 1. Select **Help + support** > **New support request**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Help + support in the Power Platform admin center](media/troubleshoot-faq-support.png)
+    > ![Select Help + support in the Power Platform admin center.](media/troubleshoot-faq-support.png)
 
 1. Select **Dynamics 365 Customer Engagement** > **Marketing app**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select the Marketing app from the drop down](media/troubleshoot-faq-support-request.png)
+    > ![Select the Marketing app from the drop down.](media/troubleshoot-faq-support-request.png)
 
 ### See also
 
-[Administration and setup FAQ](setup-troubleshooting.md)   
-[Installation and management FAQ](install-manage-faq.md)
+[Administration and setup FAQ](setup-troubleshooting.yml)   
+[Installation and management FAQ](install-manage-faq.yml)

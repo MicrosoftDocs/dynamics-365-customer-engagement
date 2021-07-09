@@ -4,7 +4,7 @@ description: "The topic contains information about the message and entity combin
 ms.custom: on-premise
 ms.date: 2/5/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -67,7 +67,7 @@ To verify if a message and entity combination supports execution of plug-ins usi
 4. Enter the target message and primary entity in the appropriate fields to see if that combination is supported for plug-in registration.
 5. Cancel (close) the step registration form and exit the tool.
 
-To verify if a message and entity combination supports execution of plug-ins using a database query, use Advanced Find or a community tool (e.g., [FetchXML Builder](https://fxb.xrmtoolbox.com)) to execute the following fetchXML query. When using Advanced Find, you must create the query interactively.
+To verify if a message and entity combination supports execution of plug-ins using a database query, use Advanced Find or a community tool (e.g., [FetchXML Builder](https://www.xrmtoolbox.com/plugins/Cinteros.Xrm.FetchXmlBuilder/)) to execute the following fetchXML query. When using Advanced Find, you must create the query interactively.
 
 For Outlook client offline plug-ins:
 ```xml

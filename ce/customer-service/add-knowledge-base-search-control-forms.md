@@ -1,14 +1,11 @@
 ---
 title: Add the Knowledge Base Search control to Dynamics 365 Customer Service forms | Microsoft Docs
 description: Know how to add the Knowledge Base Search control to Dynamics 365 Customer Service forms.
+ms.date: 04/05/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/05/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Add the Knowledge Base Search control to forms
@@ -69,7 +68,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 3. Select the entity for which Knowledge is enabled. To search for the entity, in the **Search** field, enter the entity name.
    
-    ![Search for entity](media\knowledge-entity.png "Search for entity")
+    ![Search for entity.](media\knowledge-entity.png "Search for entity")
     
 4.	Select the entity name, select the **Forms** tab, and then open the form where you want to add the knowledge control. To add the control, create a section and then add a knowledge search control within it. Select **+Component** to add a new component, select **Related Data**, and then **Knowledge Search**. 
 
@@ -77,7 +76,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 5. After you've added your new section, select **Save and Publish**. You might need to refresh the screen to see the new section.
 
-   ![View new section](media/knowledge-control-settings.png "Knowledge control settings")
+   ![View new section.](media/knowledge-control-settings.png "Knowledge control settings")
 
  
  The knowledge properties are displayed in the pane on the right side of the page. 
@@ -89,7 +88,7 @@ Make sure that you have the System Administrator or System Customizer security r
 |---------|---------|
 |Reference name     |**Required**: The unique name for the tab that's used when referencing it in scripts. The name must follow these rules:<ul><li>Can't be empty</li><li>Must be a unique name</li><li>Must start with a letter only</li><li>Must contain only alphanumeric characters and underscores</li><li>Can't be greater than 100 characters</li></ul> |
 |Label        |**Required**: The localizable label for the tab visible to users. The label must follow these rules:<ul><li>Can't be empty</li><li>Must be a unique name</li><li>Must start with a letter only</li><li>Must contain only alphanumeric characters and underscores</li><li>Can't be greater than 100 characters</li></ul> |
-|Results shown on page       |Select how many articles to show in the search results at first. <br> </br> **Note**: If Relevance Search is enabled, the number of results that are displayed might differ from what you set due to the default Relevant Search setting. Your system administrator must disable Relevance Search or enable Simple Relevance Search for this property to work correctly. (Simple Relevance Search queries only articles, excluding attachments and notes.) For more information, go to [Understand knowledge base search mechanisms](https://docs.microsoft.com/dynamics365/customer-service/knowledge-base-search-methods). |
+|Results shown on page       |Select how many articles to show in the search results at first. <br> </br> **Note**: If Relevance Search is enabled, the number of results that are displayed might differ from what you set due to the default Relevant Search setting. Your system administrator must disable Relevance Search or enable Simple Relevance Search for this property to work correctly. (Simple Relevance Search queries only articles, excluding attachments and notes.) For more information, go to [Understand knowledge base search mechanisms](./knowledge-base-search-methods.md). |
 |Automatic search > Provide search results using     |After you open the entity form, automatic search is performed by using the field you specify in the field below.<br><br> If you've enabled automatic suggestions, select the field for the entity that Dynamics 365 Customer Service will use to suggest article results in the Give knowledge base (KB) suggestions drop-down list.<br><br> For example, if you're adding the search control to the Account entity and want Dynamics 365 Customer Service to automatically show search results that contain the account name, select Account Name in the drop-down list. **Note**: This drop-down list can include all fields that are text, multi-line text, or lookup type fields. |
 |Actions   |**Link article**: Lets users link a knowledge article to the record they're viewing the knowledge article search results in.<br><br>**Unlink article**: Lets users unlink a knowledge article from a primary record.<br><br>**Copy URL**: Lets users copy the external URL of the article so they can share it over channels like chat or email. In the native Dynamics 365 customer engagement knowledge management solution, the Copy URL option is available only for published articles.<br><br>**Open in new tab**: Opens a knowledge article in a new tab within the same browser window.<br><br>**Link article and email URL**: Lets users associate an article with the primary record and share the article URL with the customer through email.<br><br>**Link article and send article content**: Lets users associate an article with a primary record and share the contents of the article with the customer through email. |
 |Select default email recipient    |Select who the email will be sent to when an agent sends the article link in email. This drop-down list includes all fields for the entity that are enabled for email (for example Customer, Contact, or Responsible contact).<br></br> When the agent chooses to send a link to the article to the customer, the To field is automatically populated with the value of the field that you select here. If you leave it blank, in the email recipient display, it will show as blank and you need to fill it in manually.|
@@ -112,7 +111,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 [!div class="mx-imgBorder"] 
   
-   ![Setting to enable knowledge management](media/check-knowledge-management.png "Setting to enable knowledge management")
+   ![Setting to enable knowledge management.](media/check-knowledge-management.png "Setting to enable knowledge management")
 
    Select the  **Save** icon to save the setting for the entity.
   
@@ -122,7 +121,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 [!div class="mx-imgBorder"] 
   
-   ![Choose form type](media/choose-form-type-km.png "Choose form type")
+   ![Choose form type.](media/choose-form-type-km.png "Choose form type")
   
 7. Select the area where you want to place the search control, and on the **Insert** tab, select **Knowledge Base Search**.  
   
@@ -132,7 +131,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 [!div class="mx-imgBorder"] 
   
-   ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png "Set properties for Knowledge Base Search control") 
+   ![Set properties for Knowledge Base Search control.](media/km-search-control-tab.png "Set properties for Knowledge Base Search control") 
 
    
 |Tab  |Property  |Description|
@@ -143,7 +142,7 @@ Make sure that you have the System Administrator or System Customizer security r
 |     |  Set Default Language |     If you want users to see search results only for articles in a specific language, in the **Set Default Language** drop-down list, select a language. By default, User's Default Language is selected: <br><ul><li>If you select User's Default Language, search results will be filtered based on the signed-in user's default language. </li> <li> If the language you select isn't an active language, the search results will be filtered by using the signed-in user's default language. </li> <li> If you select User's Default Language, and the user's default language isn't an active language, the first active language available alphabetically is used as the default filter. </li> <li>	To let users select a different language filter on search results so they can see other articles in other languages, select the **Users can change Language Filter** check box. Only when you enable this option will users see an option to change the filter in the Search pane in a record. </li> </ul> |
 |  |     Additional Options    |      If you want Dynamics 365 Customer Service to suggest articles automatically based on the value in certain fields of the entity, select **Turn on automatic suggestions**. <br> </br>If you've enabled automatic suggestions, select the field for the entity that Dynamics 365 Customer Service will use to suggest article results in the **Give knowledge base (KB) suggestions** drop-down list.  <br> </br>For example, if you're adding the search control to the Account entity and want Dynamics 365 Customer Service to automatically show search results that contain the account name, select Account Name in the drop-down list. **Note**:  This drop-down list can include all fields that are text, multi-line text, or lookup type fields. <br> </br>If you want the article rating to appear for each article in the search results, select the **Enable ratings on KB article search results based on the specified field** check box, and then select the field from the drop-down list. |
 |   |  Select Primary customer       |     In **Select primary customer**, select who the email will be sent to when a customer service rep sends the article link in email. This drop-down list includes all fields for the entity that are enabled for email, for example Customer, Contact, or Responsible contact. <br> </br> When the customer service rep chooses to send a link to the article to the customer, the **To** field is automatically populated with the value of the field that you select here.     |
-|  |   Number of results      |      Select how many articles to show in the search results at first. <br> </br> **Note**: If Relevance Search is enabled, the number of results that are displayed might differ from what you set due to the default Relevant Search setting. Your system administrator must disable Relevance Search or enable Simple Relevance Search for this property to work correctly. (Simple Relevance Search queries only articles, excluding attachments and notes.) For more information, go to [Understand knowledge base search mechanisms](https://docs.microsoft.com/dynamics365/customer-service/knowledge-base-search-methods).   |
+|  |   Number of results      |      Select how many articles to show in the search results at first. <br> </br> **Note**: If Relevance Search is enabled, the number of results that are displayed might differ from what you set due to the default Relevant Search setting. Your system administrator must disable Relevance Search or enable Simple Relevance Search for this property to work correctly. (Simple Relevance Search queries only articles, excluding attachments and notes.) For more information, go to [Understand knowledge base search mechanisms](./knowledge-base-search-methods.md).   |
 |    |  Actions       |   Select whether you want to make all the default actions available to reps or only selected ones. If you choose **Show Selected Actions**, select the actions you want to show. <br> The following actions are available: <ul> <li>**Link the KB article**. Lets users link the knowledge article to the record they're viewing the knowledge article search results in. </li> <li>	**Unlink**. Lets users unlink the knowledge article from the primary record. </li> <li> **Copy link**. Lets users copy the external URL of the article, so they can share it over channels like chat or email. In the native Dynamics 365 Customer Service knowledge management solution, the **Copy Link** option is available only for published articles.</li> <li> **Link KB article and email link**. Lets users associate an article with the primary record and share the article link with the customer through email. |
 |**Formatting**     |      Layout   |    Choose the type of layout to determine the number of columns the control should occupy.     |
 |    |    Row Layout  |  Select the maximum number of rows per page.|
@@ -168,13 +167,13 @@ Open the **Knowledge Base Search** control and edit its properties to configure 
 
 [!div class="mx-imgBorder"]
 
-   ![Configure auto filtering](media/ka-config-auto-filtering.png "Configure auto filtering")
+   ![Configure auto filtering.](media/ka-config-auto-filtering.png "Configure auto filtering")
 
 To learn more about how to use the automatic filtering option, go to [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-auto-filtered-results)
 
 ## Add a knowledge article subgrid to a form
 
-You can add a customized knowledge article subgrid to a form. To learn more about the components of a subgrid form, go to [Add and configure a subgrid component on a form](https://go.microsoft.com/fwlink/p/?linkid=2154326).
+You can add a customized knowledge article subgrid to a form. To learn more about the components of a subgrid form, go to [Add and configure a subgrid component on a form](/powerapps/maker/model-driven-apps/form-designer-add-configure-subgrid).
 
 **To add a subgrid**
 
@@ -193,7 +192,7 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 7. Retain the default values for all the other fields, and then select **OK**.
 
 > [!div class="mx-imgBorder"]
-> ![Set properties for subgrid](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
+> ![Set properties for subgrid.](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
 
 8. Save your knowledge subgrid, and then select **Publish**.
 

@@ -1,12 +1,9 @@
 ---
 title: "Facebook channel agent experience in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about Facebook channel through Twilio agent experience in Omnichannel for Customer Service."
+description: "This topic provides information about agent experience in handling conversation requests that come from the Facebook channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Use Facebook channel
@@ -26,7 +23,7 @@ Make sure your administrator has configured a Facebook channel.
 You'll receive a notification when a customer requests a Facebook conversation. Accepting the Facebook request starts a session and you'll see the communication panel in which you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
-> ![Facebook chat agent notification](media/fb-agent-notif.png "Facebook chat agent notification")
+> ![Facebook chat agent notification.](media/fb-agent-notif.png "Facebook chat agent notification")
 
 In Omnichannel for Customer Service, you can:
 
@@ -58,7 +55,7 @@ You can send file attachments to customers during a Facebook channel conversatio
 You can see the files that you receive from a customer on the communication panel. To view the file, select it and save it to your computer. The file name you see on an image that was sent by a customer might not reflect the actual file name, but a randomly generated number.
 
    > [!div class=mx-imgBorder]
-   > ![Facebook attachment](media/fb-receive-file1.png "Facebook attachment")
+   > ![Facebook attachment.](media/fb-receive-file1.png "Facebook attachment")
 
 If a customer sends an unsupported file extension type, you will see an error message in the communication panel: **Error: Customer sent an unsupported message type**.
 
@@ -73,7 +70,7 @@ To send a file, follow these steps:
 3. Browse and select the file to send it.
 
     > [!div class=mx-imgBorder]
-    > ![Send a file](media/fb-attach.png "Send a file")
+    > ![Send a file.](media/fb-attach.png "Send a file")
 
 To learn more about the Facebook channel setup, see [Configure a Facebook channel](configure-facebook-channel.md).
 

@@ -1,20 +1,19 @@
 ---
-title: "Use knowledge base management for effective customer engagement in Unified Service Desk | MicrosoftDocs"
+title: "Use knowledge base management for effective customer engagement | MicrosoftDocs"
 description: "Learn how to use knowledge base management for effective customer engagement in Unified Service Desk."
+ms.date: 08/17/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/17/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Use knowledge base management for effective customer engagement in Unified Service Desk
@@ -33,7 +32,7 @@ Knowledge base management plays an important part in the customer service proces
   
  When you deploy the **Knowledge Management** sample application, and search for a case in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the hosted control is automatically displayed in the right panel of the agent desktop application in a case session.  
   
- ![KM Control in Unified Service Desk](../unified-service-desk/media/usd-kb-search-panel.png "KM Control in Unified Service Desk")  
+ ![KM Control in Unified Service Desk.](../unified-service-desk/media/usd-kb-search-panel.png "KM Control in Unified Service Desk")  
   
  The actions and events exposed by the **KM Control** type of hosted control let you configure a knowledge base search experience in the agent desktop. 
 
@@ -61,11 +60,11 @@ Knowledge base management plays an important part in the customer service proces
   
   - Click a knowledge base article in the search panel to open it in a tab in the main panel with all the contextual actions available. Links in a knowledge base article can be accessed to navigate to the linked topic from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-  ![Knowledge base article displayed in a tab](../unified-service-desk/media/usd-kb-main-panel.png "Knowledge base article displayed in a tab")  
+  ![Knowledge base article displayed in a tab.](../unified-service-desk/media/usd-kb-main-panel.png "Knowledge base article displayed in a tab")  
   
   - Pop out and pop in a knowledge base article on the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] main panel. This feature is useful if you’re working on multiple monitors, and want to pop a knowledge base article out from the client and display it on another monitor while you continue to work with the customer on the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client on the current monitor. After finishing your work, you can pop the article back in on the main panel.  
   
-  ![Knowledge base article can be popped out or in](../unified-service-desk/media/usd-kb-article-popped-out.png "Knowledge base article can be popped out or in")  
+  ![Knowledge base article can be popped out or in.](../unified-service-desk/media/usd-kb-article-popped-out.png "Knowledge base article can be popped out or in")  
   
   For information about how you can configure knowledge management integration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md) and [Walkthrough 8: Use knowledge base within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md).  
   

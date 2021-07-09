@@ -1,10 +1,10 @@
 ---
-title: "Import translated entity and field text | MicrosoftDocs"
+title: "Import translated entity and field text with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to import translated entity and field text"
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

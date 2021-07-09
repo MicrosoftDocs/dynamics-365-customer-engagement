@@ -1,12 +1,11 @@
 ---
 title: "Monitor real-time customer sentiment | MicrosoftDocs"
-description: "Learn how to monitor real-time customer sentiment while interacting with customers."
+description: "This topic provides information on how to monitor real-time customer sentiment and analyse customer's satisfaction levels while interacting with customers."
+ms.date: 07/01/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 07/01/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Monitor real-time customer sentiment
@@ -24,7 +23,7 @@ When you get an incoming conversation request, you accept the request and commun
 When a conversation is escalated from a bot, the sentiment icon you see is based on the previous messages exchanged between the customer and the bot.
 
 > [!div class=mx-imgBorder]
-> ![Very positive sentiment](media/sentiment-very-positive-cc.png "Very positive sentiment")
+> ![Very positive sentiment.](media/sentiment-very-positive-cc.png "Very positive sentiment")
 
 ## Understand real-time customer sentiment
 
@@ -34,13 +33,13 @@ The sentiment icons displayed on the communication panel are as follows:
 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
-| Very positive | ![Very positive sentiment](media/sentiment-very-positive.png "Very positive sentiment") |
-| Positive | ![Positive sentiment](media/sentiment-positive.png "Positive sentiment") |
-| Slightly positive | ![Slightly positive sentiment](media/sentiment-slightly-positive.png "Slightly positive sentiment") |
-| Neutral | ![Neutral sentiment](media/sentiment-neutral.png "Neutral sentiment") |
-| Slightly negative | ![Slightly negative sentiment](media/sentiment-slightly-negative.png "Slightly negative sentiment") |
-| Negative | ![Negative sentiment](media/sentiment-negative.png " Negative sentiment") |
-| Very negative | ![Very negative sentiment](media/sentiment-very-negative.png "Very negative sentiment") |
+| Very positive | ![Very positive sentiment icon.](media/sentiment-very-positive.png "Very positive sentiment icon") |
+| Positive | ![Positive sentiment.](media/sentiment-positive.png "Positive sentiment") |
+| Slightly positive | ![Slightly positive sentiment.](media/sentiment-slightly-positive.png "Slightly positive sentiment") |
+| Neutral | ![Neutral sentiment.](media/sentiment-neutral.png "Neutral sentiment") |
+| Slightly negative | ![Slightly negative sentiment.](media/sentiment-slightly-negative.png "Slightly negative sentiment") |
+| Negative | ![Negative sentiment.](media/sentiment-negative.png " Negative sentiment") |
+| Very negative | ![Very negative sentiment.](media/sentiment-very-negative.png "Very negative sentiment") |
 
 > [!Note]
 > The real-time sentiment is shown to you only if the supervisor or administrator has enabled sentiment analysis for a queue where you've been added as a member.

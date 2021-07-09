@@ -1,9 +1,10 @@
 ---
 title: "Enable accessible email  | MicrosoftDocs"
+description: "Improve accessibility when reading and editing email in Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ ms.assetid: bc0377a3-db62-4d0d-9531-a12dc01d1d0c
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Enable accessible email flow
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 To improve accessibility when reading and editing email in Dynamics 365 Customer Engagement (on-premises), we're introducing an app that provides an accessible email flow. This topic explains how admins can enable this flow and how end users can access it.
 
@@ -33,13 +36,13 @@ Follow these steps to deploy the solution and enable users to use the accessible
   
 2. Select **Admin centers** > **Dynamics 365**.  
 
-3. Select the **Instances** tab, select the instance to add the app to, and then select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").
+3. Select the **Instances** tab, select the instance to add the app to, and then select **Manage your solutions** ![Manage your solutions.](media/manage-solution.png "Manage your solutions").
 
 4. Select the **Email in Unified Interface** app, and then select **Install**.  
 
 You can now see the app in the list of published apps. Go to **Settings** > **My Apps** to see it.
 
-![Email Unified Interface app published](media/email-unified-interface-app-published.png "Email Unified Interface app published")
+![Email Unified Interface app published.](media/email-unified-interface-app-published.png "Email Unified Interface app published")
 
 **Provide users with permissions for the accessible email access flow**
 
@@ -67,11 +70,11 @@ Users with the **Email app access role**, go to **Sales**, **Service**, or **Mar
 > - If you don't see **Sales**, **Service**, or **Marketing**, your Customer Engagement (on-premises) has been customized. Talk to your administrator or customizer.
 > - **Email Messages** will not appear if **Activities** has been customized to not be included in the sitemap.
 
-![Select Email Messages](media/select-email-messages75.png "Select Email Messages")
+![Select Email Messages.](media/select-email-messages75.png "Select Email Messages")
 
 Here, you can read and manage your emails in the Email in Unified Interface app.
 
-![Email for Unified Interface](media/email-for-unified-interface.png "Email for Unified Interface")
+![Email for Unified Interface.](media/email-for-unified-interface.png "Email for Unified Interface")
 
 ### See also
 

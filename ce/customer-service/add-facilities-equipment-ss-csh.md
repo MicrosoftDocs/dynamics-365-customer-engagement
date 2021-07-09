@@ -1,14 +1,11 @@
 ---
 title: Add facilities and equipment for Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to add facilities and equipment for service scheduling in Dynamics 365 Customer Service
+ms.date: 11/20/2018
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/20/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Add facilities and equipment to schedule service
@@ -46,13 +45,13 @@ Make sure that you have the required security role or equivalent permissions.
   
     - **Primary Email**. Enter the email address of the site manager or equipment manager. If there are any updates or cancellations related to the schedule, facilities, or equipment, notifications are sent to this email address.  
   
-    - **Time Zone**. Select the appropriate time zone to determine availability for the facility or equipment. By default, this is set to the time zone you’ve selected in the **General** tab of the **Set Personal Options** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set personal options](../basics/set-personal-options.md)  
+    - **Time Zone**. Select the appropriate time zone to determine availability for the facility or equipment. By default, this is set to the time zone you’ve selected in the **General** tab of the **Set Personal Options** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md)  
   
     - **Description**. Add details about the facility or equipment, such as the numbers, size, make, or model.  
   
 6.  When you’re done, select **Save** or **Save and Close**.  
 
-    ![facility and equipment](media/facility-equipment-csh-ss.png)
+    ![facility and equipment.](media/facility-equipment-csh-ss.png)
 
 
 ### See also

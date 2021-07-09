@@ -1,14 +1,11 @@
 ---
 title: Knowledge base search options in Dynamics 365 Customer Service| MicrosoftDocs
 description: Know how the Knowledge base search methods work in Microsoft Dynamics 365 Customer Service.
+ms.date: 06/29/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 06/29/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Understand knowledge base search
@@ -31,16 +30,16 @@ See the following section to learn the types of search mechanisms available:
 
 - **Full-text search**: Lets you run full-text queries against character-based data in SQL Server tables. 
  
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Full-text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Full-text search](/sql/relational-databases/search/full-text-search)
 
 - **Relevance search**:  Lets you search across multiple pre-defined entities and returns result sorted by relevance.  
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relevance search](https://docs.microsoft.com/powerapps/user/relevance-search)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relevance search](/powerapps/user/relevance-search)
    <br> 
 
-   See [Configure Relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) to learn how to configure Relevance search to improve search results and performance.
+   See [Configure Relevance search](/power-platform/admin/configure-relevance-search-organization) to learn how to configure Relevance search to improve search results and performance.
 
-   To better understand the various searches used in Dynamics 365 Customer Service and how they can be compared, see [Compare Dynamics 365 apps searches](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).
+   To better understand the various searches used in Dynamics 365 Customer Service and how they can be compared, see [Compare Dynamics 365 apps searches](/power-platform/admin/configure-relevance-search-organization).
 
 ## Search the knowledge base
 
@@ -48,7 +47,7 @@ You can search the knowledge base from the following areas in the Customer Servi
 
 - **Knowledge base search control**. In the app, select a case by navigating to **Service** > **Cases**. In the **Related** section (also known as Reference panel), select **Knowledge Base Search** and search for knowledge articles using keywords in the search box. 
   
-  ![Knowledge base search control](media/kb-search-control.png)
+  ![Knowledge base search control.](media/kb-search-control.png)
 
    To explore more options in the knowledge base search given in the Related section, see [Search for knowledge articles](search-knowledge-articles-csh.md).
 
@@ -60,11 +59,11 @@ You can search the knowledge base from the following areas in the Customer Servi
 
 - **Quick find in Grids**. In the app, go to **Service** > **Knowledge Articles**, and select the search box to search the knowledge base using keywords. 
 
-   ![Quick find search](media/quick-find-search.png)
+   ![Quick find search.](media/quick-find-search.png)
 
   
 > [!NOTE]
-> You can also search the knowledge base using Portals. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md).
+> You can also search the knowledge base using Portals. See [Use faceted search to improve portal search](/powerapps/maker/portals/configure/improve-portal-search-faceted-search).
 
 
 With each of the previous search areas, the search results might vary based on the underlying search option used:

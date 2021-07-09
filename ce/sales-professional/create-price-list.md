@@ -2,7 +2,6 @@
 title: "Create price lists in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Define what to charge for your products or services by creating a price list and price list items in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -35,7 +34,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
     The Price List form opens.
 
     > [!div class="mx-imgBorder"]
-    > ![Empty Price list form](media/empty-price-list-form.png "Empty Price list form")
+    > ![Empty Price list form.](media/empty-price-list-form.png "Empty Price list form")
 
 4.  Fill in your information, and then select **Save**.
 
@@ -50,7 +49,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
     1.  In the **Price List** form, select the **Price List Items** tab, and then select **Add New Price List Item**.
 
     > [!div class="mx-imgBorder"]
-    > ![Add New Price List Item button on the Price List Items tab](media/price-list-items-tab.png "Add New Price List Item button on the Price List Items tab")
+    > ![Add New Price List Item button on the Price List Items tab.](media/price-list-items-tab.png "Add New Price List Item button on the Price List Items tab")
 
     2. In the **Price List Item** form, fill in the information, and select **Save and Close**:
 
@@ -69,7 +68,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
         -  **Quantity Selling Option**. Select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the Quantity field of Quote Product, Order Product, and Invoice Product records.
 
         > [!div class="mx-imgBorder"]
-        > ![New Price List Item form](media/empty-price-list-item-form.png "New Price List Item form")
+        > ![New Price List Item form.](media/empty-price-list-item-form.png "New Price List Item form")
 
 
 ### See also

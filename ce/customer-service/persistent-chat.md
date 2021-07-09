@@ -1,12 +1,11 @@
 ---
 title: "Persistent chat | MicrosoftDocs"
 description: "Overview of Persistent chat in Omnichannel for Customer Service."
+ms.date: 01/06/2020
+ms.topic: article
 author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 01/06/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Preview: Configure persistent chat

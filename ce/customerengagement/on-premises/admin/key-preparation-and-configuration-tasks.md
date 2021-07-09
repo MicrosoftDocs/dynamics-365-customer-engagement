@@ -1,9 +1,10 @@
 ---
 title: "Key preparation and configuration tasks | MicrosoftDocs"
+description: "Keep your organization optimized so that you can focus on what’s important."
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -65,7 +66,7 @@ If your Customer Engagement (on-premises) performance is slower in Internet Expl
   
 3. Expand **Internet Explorer** > **JavaScript Timer Frequency**, for **On battery** and **Plugged in**, choose **Maximum Performance**.  
   
-   ![Internet Explorer power options](../admin/media/crm-itpro-iepoweroptions.png "Internet Explorer power options")  
+   ![Internet Explorer power options.](../admin/media/crm-itpro-iepoweroptions.png "Internet Explorer power options")  
   
 **Increase data storage limits for websites**  
   

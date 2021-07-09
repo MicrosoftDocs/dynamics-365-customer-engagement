@@ -141,7 +141,7 @@ The mobile app has multiple dashboards are available for users. After you set up
 5. Select **Properties** > **Enable for mobile** > **OK**.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Enable for mobile ](media/mobile_enable_dashboard.png "Select Enable for mobile").
+   > ![Enable for mobile .](media/mobile_enable_dashboard.png "Select Enable for mobile").
 
  
 6. Select **Save**.  
@@ -156,7 +156,7 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 ### Forms  
  Forms in the Dynamics 365 mobile app are based on the development principle of *Design once and deploy across clients*.
  
-![Sales form in Dynamics 365 apps](media/sales_form.png "Sales form in Dynamics 365 apps")
+![Sales form in Dynamics 365 apps.](media/sales_form.png "Sales form in Dynamics 365 apps")
   
  Forms in the Dynamics 365 mobile app use the Main form type. The main form is used by all model-driven apps. This form provides a consistent user experience whether someone is using a web browser or the Dynamics 365 mobile app.
   
@@ -166,17 +166,17 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 2. Expand **Entities** > expand the **Contact** entity > **Forms** and then select the **Contact** form.
 
    > [!div class="mx-imgBorder"] 
-   > ![Mobile contact form](media/mobile_contact_form.png "Select the Contact form")
+   > ![Mobile contact form.](media/mobile_contact_form.png "Select the Contact form")
 
 3. Select **Change Properties**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Mobile contact form change properties](media/mobile_change_prop.png "Select the Contact form change properties]")
+   > ![Mobile contact form change properties.](media/mobile_change_prop.png "Select the Contact form change properties]")
 
 4. Clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Available on phone](media/uncheck_for_mobile_app.png "Uncheck Available on phone")
+   > ![Available on phone.](media/uncheck_for_mobile_app.png "Uncheck Available on phone")
   
   
 <a name="BKMK_PhoneEntities"></a>   
@@ -191,7 +191,7 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 4. Under **Outlook & Mobile**, select **Enable for Unified Client**. 
  
    > [!div class="mx-imgBorder"] 
-   > ![Enable mobile entities](media/enable_mobile_entity.png "Enable mobile entities").
+   > ![Enable mobile entities.](media/enable_mobile_entity.png "Enable mobile entities").
 
 Things to note:  
   

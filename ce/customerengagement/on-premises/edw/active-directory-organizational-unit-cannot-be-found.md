@@ -1,5 +1,7 @@
 ---
 title: "Active Directory organizational unit cannot be found | Microsoft Docs"
+description: Environment diagnostics warning that the AD OU can't be found
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

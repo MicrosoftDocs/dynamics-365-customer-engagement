@@ -1,14 +1,11 @@
 ---
 title: Create a simple selection rule (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to create a simple selection rule in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create a selection rule to determine how resources are selected for service activities (Customer Service app)
@@ -45,7 +44,7 @@ You can also add resources to existing selection rules.
   
 5.  On the **Service** form, click **Required Resources**, and then double-click or double-tap the first selection rule in the right pane.  
   
-     Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
+     Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button.](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
 
 
 6.  In the **Edit a Selection Rule** dialog box, enter the following information:  

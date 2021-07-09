@@ -1,14 +1,11 @@
 ---
 title: Resolve, cancel, and reassign a cases in Customer Service Hub | Microsoft Docs
 description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
+ms.date: 04/06/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Resolve, cancel, and reassign cases
@@ -45,7 +44,7 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 > [!NOTE]
 >
 > - While you can't edit or update through the UI any attribute of the case after it is resolved, you can configure an API or a Power Automate flow to be run if the setting in service configuration is enabled. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
-> - The "resolve cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](https://docs.microsoft.com/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
+> - The "resolve cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
 ## Resolve a case with a parent and child relationship  
 
@@ -97,7 +96,7 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 Located on the right side of the form, is the case resolution sub-grid. Here you will find the case resolution history.  Should a case need to be reopened, agents have the ability to view case history here.
 
   > [!div class=mx-imgBorder]
-  > ![status bar](media/case_resolution_16.png "status bar")
+  > ![status bar.](media/case_resolution_16.png "status bar")
 
 ### See also
 

@@ -1,8 +1,7 @@
 ---
-title: "Set up product bundles to sell multiple items together (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Combine products in a bundle in Dynamics 365 Sales to sell multiple items together."
+title: "Set up product bundles to sell multiple items - Sales Enterprise| MicrosoftDocs"
+description: "Encourage customers to buy more products instead of a single product by combining products in a bundle."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -36,7 +35,7 @@ Here are some things to know about bundles:
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.  
+2. Select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.  
   
 3. To add a standalone product bundle, select **Add Bundle**.  
   
@@ -45,7 +44,7 @@ Here are some things to know about bundles:
     To add product bundle to an existing family, select the family in the list, and then select **Add Bundle**.  
 
     > [!div class="mx-imgBorder"]
-    > ![Add Bundle button on the Products grid](media/add-bundle.png "Add Bundle button on the Products grid")
+    > ![Add Bundle button on the Products grid.](media/add-bundle.png "Add Bundle button on the Products grid")
   
 4. Fill in the information:
 

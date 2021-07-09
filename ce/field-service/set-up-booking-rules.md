@@ -106,7 +106,7 @@ The following screenshot shows an example custom CRM action.  This sample is che
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a custom CRM action](./media/scheduling-booking-rules-worflow.png)
+> ![Screenshot of a custom CRM action.](./media/scheduling-booking-rules-worflow.png)
 
 ## Sample code
 
@@ -161,9 +161,9 @@ Example JavaScript function definition. The following JavaScript code is the onl
     function Validate(ctx) {
       var url = Xrm.Page.context.getClientUrl();
       var ruleResult = {
-  	IsValid = false;
-       Message = '';
-       Type = 'error';
+  	IsValid = false,
+       Message = '',
+       Type = 'error'
       };
 
       //
@@ -187,7 +187,8 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
     /// <reference path="xrm.d.ts" />
     function brErrorCallback(sb) {
     // Add custom error handeling here if desired.
-     return:
+     return;
+    }
     function brWarningCallback(sb) {
     // Add custom warning handeling here if desired.
     return;

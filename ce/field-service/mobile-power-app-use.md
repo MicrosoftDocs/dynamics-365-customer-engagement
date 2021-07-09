@@ -96,6 +96,9 @@ On the **Service tab**, you'll see work order details like work order service ta
 
 On the **Notes** tab, you can easily capture multiple text, photo, audio, and video notes and associate them with the booking. You can also attach files. These notes help you record and build relevant work history. Customer signatures can also be captured. The **Timeline** tab is available for other historical data connected to the booking.
 
+> [!Note]
+> Notes taken in the Field Service mobile app are stored in the `msdyn_bookableresourcebookingquicknotes` table. The default **Field Service - Resource** security role includes permissions to this table. If your app users do not have the out-of-the-box **Field Service - Resource** security role, you may have to include access to this table for these users. Follow the best practices described in the [Field Service security roles documentation](/dynamics365/field-service/view-user-accounts-security-roles#q--a) to make sure your app users have access to this table.
+
 > [!div class="mx-imgBorder"]
 > ![Three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the notes tab with options to attach notes. Middle screenshot shows camera view. Right screenshot shows the notes tab with photo notes added.](./media/mobile-uci-quick-notes.png)
 
@@ -123,7 +126,7 @@ Select the global search icon to search for records across accounts, contacts, w
 > [!div class="mx-imgBorder"]
 > ![Four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
 
-For more information, see the article on [configuring global search](./mobile-power-app-configure.md#customize-global-search-and-enable-scan-to-search).
+For more information, see the article on [configuring global search](mobile-power-app-system-barcode-scanning.md).
 
 ## Work offline and update offline data
 
@@ -220,7 +223,7 @@ For a guided walkthrough, check out the following video.
 To create a follow-up work order, the technician must select the **Follow-up** option in the bottom app menu. This option is only available if the booking status is set to **Completed** and the user has **create** permissions for the work order table. For more information on the security roles, see [users and security roles](./view-user-accounts-security-roles.md).
 
 > [!div class="mx-imgBorder"]
-> ![Device render showing the Field Service (Dynamics 365) mobile app, showing the follow up work order option](./media/mobile-2020-follow-up.png)
+> ![Device render showing the Field Service (Dynamics 365) mobile app, showing the follow up work order option.](./media/mobile-2020-follow-up.png)
 
 After selecting **Follow up**, the technician is guided through the new work order creation flow.
 

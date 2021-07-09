@@ -1,20 +1,19 @@
 ---
 title: "Global Manager (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "The Global Manager hosted control type is the core of Unified Service Desk, and an instance of this hosted control is required by Unified Service Desk."
+ms.date: 02/17/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/17/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Global Manager (Hosted Control)
 
@@ -31,7 +30,7 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 ## Create a Global Manager hosted control
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Global Manager** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
- ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-globalmanagerhostedcontrol.PNG "Global Manager hosted control")
+ ![Global Manager hosted control.](../unified-service-desk/media/crm-itpro-usd-globalmanagerhostedcontrol.PNG "Global Manager hosted control")
 
  In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Global Manager** from the **Unified Service Desk Component Type** drop-down list. Also, ensure that you set the **Sort Order** value of this hosted control to **2** to ensure it is loaded by your agent application immediately *after* the connection has been established to Dataverse using the Connection Manager hosted control. For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
@@ -490,6 +489,12 @@ Param=value
 |Parameter|Description|
 |---------------|-----------------|
 |name|Name of the event timer to stop.|
+
+### TriggerEdgeWebView2PoolCleanUp
+Cleans up the Edge WebView2 pool.
+
+### TriggerChromePoolCleanUp
+Cleans up the Chrome pool.
 
 <a name="Translate"></a>
 ### Translate

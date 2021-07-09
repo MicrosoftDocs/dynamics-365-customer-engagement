@@ -1,20 +1,19 @@
 ---
 title: "Guide customer interactions with agent scripts in Unified Service Desk | MicrosoftDocs"
-description: "Agent scripting in Unified Service Desk provides guidance to agents about what they should say on calls or what they should type on chat conversations. It includes a script that can use values from any loaded entity on the agent application, hosted control, or the Unified Service Desk context (using replacement parameters)."
+description: "Understand agent scripting in Unified Service Desk. Also, learn about the components of an agent script."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Guide customer interactions with agent scripts in Unified Service Desk
 Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides guidance to agents about what they should say on calls or what they should type on chat conversations. It includes a script that can use values from any loaded entity on the agent application, hosted control, or the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context (using replacement parameters). Agent scripting also provides a mechanism to display instructions to the agent on what and how to perform the tasks necessary to complete their work.  
@@ -24,7 +23,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 ## Components of an agent script  
  The following is a sample agent script in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
- ![Agent script in Unified Service Desk](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
+ ![Agent script in Unified Service Desk.](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
   
 - **Current step and history**: The drop down list (Welcome to Contact Session) shows the current step. If you click the list, you’ll see a history of where you have been. You can select a previous step from this list to return to it.  
   

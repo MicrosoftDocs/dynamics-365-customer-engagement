@@ -1,9 +1,10 @@
 ---
 title: "System Settings dialog box - Email tab  | MicrosoftDocs"
+description: "Set up email processing in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ ms.assetid: 7ffc3f15-6624-4718-ab77-5bcb5360943a
 caps.latest.revision: 63
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # System Settings dialog box - Email tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Use the settings on this page to set up email processing in Dynamics 365 Customer Engagement (on-premises).  
   
@@ -66,7 +69,7 @@ Use the settings on this page to set up email processing in Dynamics 365 Custome
   
 ### See also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
- [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)   
+ [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.yml)   
  [Set up email through server-side synchronization](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
 

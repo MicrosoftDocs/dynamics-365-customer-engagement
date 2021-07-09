@@ -2,7 +2,6 @@
 title: "Manage your customers in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Store important information about the accounts and contacts you do business with in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -39,7 +38,7 @@ You can add accounts or contacts manually or use the Import wizard in your Sales
 
     Required fields are marked with a red asterisk (*). Here are some important fields in the account record:
 
-    ![Account form](media/account-form.png "Account form")
+    ![Account form.](media/account-form.png "Account form")
 
     **Summary tab.** Use the summary tab to store all of the primary information about the account. This is the tab you’ll use the most.
 
@@ -58,11 +57,11 @@ You can add accounts or contacts manually or use the Import wizard in your Sales
 
     The **Timeline** pane shows all the activities in the account.
 
-    ![Timeline section](media/timeline-section.png "Timeline section")
+    ![Timeline section.](media/timeline-section.png "Timeline section")
 
     The last pane has three tabs that show the contacts of the account, the recent opportunities with the account, and the recent invoices generated for them.
 
-    ![Related tabs in account form](media/related-tab-account-form.png "Related tabs in account form")
+    ![Related tabs in account form.](media/related-tab-account-form.png "Related tabs in account form")
 
     **Details tab (Company Profile).** This is used to track important profile information about an account, like the organization's industry, number of employees, or annual revenue.
 
@@ -88,7 +87,7 @@ To create or edit a contact:
 
     Here are some important fields of a contact record:
 
-    ![Contact form showing the Summary tab](media/summary-tab-contact-form.png "Contact form showing the Summary tab")
+    ![Contact form showing the Summary tab.](media/summary-tab-contact-form.png "Contact form showing the Summary tab")
 
     The **Summary** tab stores all the primary information about the contact.
 

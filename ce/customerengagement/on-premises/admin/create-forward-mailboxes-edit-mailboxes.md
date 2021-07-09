@@ -1,9 +1,10 @@
 ---
 title: "Create forward mailboxes or edit mailboxes  | MicrosoftDocs"
+description: "When you create queues in Dynamics 365 Customer Engagement (on-premises), respective mailbox records also get created."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ ms.assetid: 35df6ab6-23e5-479f-8bff-4862a17daaae
 caps.latest.revision: 27
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Create forward mailboxes or edit mailboxes
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 By default, when users and queues are created in Dynamics 365 Customer Engagement (on-premises), their respective mailbox records are also created. These mailbox records contain information that is specific to an individual mailbox on the email server, like email address, mailbox credentials, and email synchronization method. To process email messages using server-side synchronization for users and queues, their respective mailbox records should be associated to an email server profile record in Customer Engagement (on-premises).  
 

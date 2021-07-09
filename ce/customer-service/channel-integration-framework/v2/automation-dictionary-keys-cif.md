@@ -1,12 +1,11 @@
 ---
-title: "Use automation dictionary to pass parameter keys in Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
-description: "Learn how to use automation dictionary to pass parameter keys in Dynamics 365 Channel Integration Framework version 2.0"
+title: "Use automation dictionary to pass data parameter keys | MicrosoftDocs"
+description: "Learn how to use automation dictionary to pass parameter keys in Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 11/19/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/19/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Use automation dictionary to pass data parameter keys
@@ -46,7 +45,7 @@ The automation dictionary uses the context data parameters that are available fr
 - [Context data from Dataverse](#context-data-from-dataverse)
 
 > [!div class=mx-imgBorder] 
-> ![Automation dictionary](../media/automation-dictionary-cif.PNG "Automation dictionary")
+> ![Automation dictionary.](../media/automation-dictionary-cif.PNG "Automation dictionary")
 
 ### Context data from the channel provider 
 

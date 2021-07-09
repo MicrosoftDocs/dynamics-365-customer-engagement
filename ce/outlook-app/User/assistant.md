@@ -2,7 +2,7 @@
 title: "Use the assistant to gain insights and guide customer communication (Dynamics 365 apps) | MicrosoftDocs"
 description: Use the assistant in Dynamics 365 App for Outlook to gain insights and guide customer communication
 ms.custom: 
-ms.date: 03/18/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -49,12 +49,12 @@ When you start your day the assistant draws your attention to your most importan
 1. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png) 
+   > ![Open App for Outlook pane.](../media/open-pane-appforoutlook.png) 
    
 2. Select an item in your email that you're tracking using App for Outlook.
    
-3. From the **Dynamics 365** pane select **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) > **Assistant**.
+3. From the **Dynamics 365** pane select **More commands** ![Main more commnands button.](../media/main-more-commands-button-appforoutlook.png) > **Assistant**.
 
    > [!div class="mx-imgBorder"] 
-   > ![From the menu select Assistant](../media/assistant-menu.png)
+   > ![From the menu select Assistant.](../media/assistant-menu.png)
 

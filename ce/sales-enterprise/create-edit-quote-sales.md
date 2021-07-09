@@ -1,8 +1,7 @@
 ---
-title: "Create or edit quotes (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Quotes include the pricing details of the products your potential customer is interested in."
+title: "Create or edit quotes - Sales Enterprise | MicrosoftDocs"
+description: "Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -30,7 +29,7 @@ One way that can help you increase your sales is to add all products that your c
   
 ## Create a quote from an opportunity (Sales Hub)
 
-1. Select the site map  ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
+1. Select the site map  ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
 
 2. Select the opportunity you want to create a quote for.
 
@@ -54,7 +53,7 @@ One way that can help you increase your sales is to add all products that your c
 
 ## Create a quote (Sales Hub)
 
-1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Quotes**.
+1. Select the site map ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Quotes**.
 
 2. Select **+ New**.
 

@@ -1,8 +1,7 @@
 ---
-title: "Customize forms (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "Change or design the forms to allow your users to enter or find information quickly."
+title: "Customize forms - Sales Professional) | MicrosoftDocs"
+description: "Use the form designer to customize the forms that allow your users to enter or find information quickly."
 ms.date: 06/22/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,7 +10,7 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Customize forms (Sales Professional)
+# Customize forms in Sales Professional
 
 > [!IMPORTANT]
 > This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
@@ -50,11 +49,11 @@ To access the forms:
 
 2.  Under **Customization**, select **Forms**.
 
-    ![Customize Forms in site map](media/customize-option-in-sitemap.png "Customize Forms in site map")
+    ![Customize Forms in site map.](media/customize-option-in-sitemap.png "Customize Forms in site map")
 
     You'll see the list of available forms.
 
-    ![List of forms](media/form-list.png "List of forms")
+    ![List of forms.](media/form-list.png "List of forms")
 
     The page displays the date when the form was published, and whether the form is active or not.
 

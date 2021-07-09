@@ -1,9 +1,10 @@
 ---
 title: "Configure actions for workflows in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to configure actions for workflows
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

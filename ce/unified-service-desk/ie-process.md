@@ -1,24 +1,23 @@
 ---
-title: "Use IE Process hosting method for your controls in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the IE process hosting methods for your controls in Unified Service Desk."
+title: "Use the IE Process hosting method for hosting web applications | MicrosoftDocs"
+description: "Learn about the IE Process hosting method and its advantages for hosting your controls in Unified Service Desk."
+ms.date: 12/01/2018
+ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/01/2018
-ms.topic: "article"
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: '>= dynamics-usd-3'
 ---
 
-# Use IE Process to host web applications (Deprecated)
+# Use IE Process to host web applications 
 
 > [!Note]
 >
@@ -27,7 +26,7 @@ monikerRange: '>= dynamics-usd-3'
 The `IE Process` browser control hosts your controls in individual [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] process instances, and displays them in tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. It facilitates predictable page rendering by making sure that if your web application works in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], it will work in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You can select **IE Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
 
 
- ![Hosting type in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-samplehostedcontrol.PNG "Hosting type in Unified Service Desk")
+ ![Hosting type in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-samplehostedcontrol.PNG "Hosting type in Unified Service Desk")
 
 > [!NOTE]
 > To use the **IE Process** browser control, you must select the **Enable Protected Mode** check box for the **Local Intranet** security zone in Internet Explorer. More information: [What does Internet Explorer protected mode do?](https://windows.microsoft.com/windows-vista/What-does-Internet-Explorer-protected-mode-do)

@@ -1,8 +1,7 @@
 ---
-title: "Create a quick campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
+title: "Create a quick campaign using in-app marketing - Sales Enterprise | MicrosoftDocs"
+description: "A quick campaign is a single campaign activity meant for a specific audience. For example, sending an e-mail blast to customers in a specific region."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -24,7 +23,7 @@ searchScope:
 
 Send an e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product by using a quick campaign in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. A quick campaign is a single campaign activity geared toward a targeted audience. Track the success of your quick campaign through campaign responses, and convert the positive responses into new leads, quotes, orders, or opportunities.  
   
- ![Quick campaign wizard](../sales-enterprise/media/quick-campaign-wizard.png "Quick campaign wizard")  
+ ![Quick campaign wizard.](../sales-enterprise/media/quick-campaign-wizard.png "Quick campaign wizard")  
   
  If you need to perform more than one activity for your campaign, such as an email blast and a mailing, create a new campaign instead. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)  
   
@@ -55,6 +54,7 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
  [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
+ [Customize quick campaign and campaign activity distribution forms](../sales-enterprise/developer/marketingformdisplayattributessetApi.md)
  
 
 

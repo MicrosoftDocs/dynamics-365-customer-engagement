@@ -1,12 +1,11 @@
 ---
 title: "Configure a custom channel, or bring your own channel | MicrosoftDocs"
 description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Configure a custom messaging channel, or bring your own channel
@@ -46,13 +45,13 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 ## Step 1: Register your messaging channel
 
-To integrate your messaging channel with Omnichannel for Customer Service, register your channel in **Azure Bot Service**. To learn how to register, see [Register a bot with Azure Bot Service](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration).
+To integrate your messaging channel with Omnichannel for Customer Service, register your channel in **Azure Bot Service**. To learn how to register, see [Register a bot with Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration).
 
-After you register, save the **Microsoft app ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel Administrator app.  To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
+After you register, save the **Microsoft app ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel Administrator app.  To learn more, see [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
 
 ## Step 2: Add the messaging channel to bot channel registration
 
-After registering your messaging channel, add the messaging channel to the bot channel registration. To learn more, see [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels).
+After registering your messaging channel, add the messaging channel to the bot channel registration. To learn more, see [Connect a bot to channels](/azure/bot-service/bot-service-manage-channels).
 
 ## Step 3: Create a workstream
 
@@ -62,7 +61,7 @@ After you add the messaging channel to the Bot Channel registration in Azure Bot
 
 In Omnichannel admin center, perform the following steps to configure a workstream for the custom messaging channel:
 
-1. [Create a workstream](create-workstreams.md#create-a-workstream-in-omnichannel-admin-center).
+1. [Create a workstream](create-workstreams.md).
 2. [Configure work distribution](create-workstreams.md#configure-work-distribution)
 3. [Configure Advanced settings](create-workstreams.md#configure-advanced-settings)
 4. [Add a bot](create-workstreams.md#add-a-bot)
@@ -72,7 +71,7 @@ In Omnichannel admin center, perform the following steps to configure a workstre
 
 To create a custom channel work stream, use the following steps:
 
-1. Sign in to Omnichannel Administrator.
+1. Sign in to Dynamics 365, and go to the Omnichannel Administration app.
 
 2. Select **Work Streams** under **Work Distribution Management**.
 
@@ -89,9 +88,9 @@ You've created a workstream for the custom channel. To learn more, see [Create w
 To configure other options in the work stream, see the following:
 
 - [Skill-based routing](overview-skill-work-distribution.md)
-- [Productivity tools](productivity-tools.md)
+- [Productivity tools](../app-profile-manager/productivity-tools.md)
 - [Smart assist](../app-profile-manager/smart-assist.md)
-- [Templates](templates-overview.md)
+- [Templates](/dynamics365/app-profile-manager/templates-overview)
 
 ## Step 4: Create a custom messaging account
 
@@ -135,19 +134,19 @@ To create a custom channel, follow these steps:
     | Section | Field | Description | Example  value |
     |-------------|-------------------|---------------------------|--------------------------------------|
     | Account details |Name| Specify a name for the custom channel.| Contoso custom channel |
-    | Account details |Microsoft app ID| Copy and paste the **Microsoft app ID** that you saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
-    | Account details |Client secret| Copy and paste the **Client secret** that you saved earlier from the Azure Bot Channel Registration page.  <br> To learn more, see [Get registration password](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration#get-registration-password).| |
+    | Account details |Microsoft app ID| Copy and paste the **Microsoft app ID** that you saved earlier from the Azure Bot Channel Registration page. <br> To learn more, see [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password). | cae1d83e-8b07-4fca-8072-c2eb3444vxyz |
+    | Account details |Client secret| Copy and paste the **Client secret** that you saved earlier from the Azure Bot Channel Registration page.  <br> To learn more, see [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).| |
 
 
 5. Select **Validate app ID + secret**  to validate the **Microsoft app ID** and **Client secret** values. After the validation, a toast notification is displayed. Also, the **Last validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
 
     > [!div class=mx-imgBorder]
-    > ![Account details in custom channel](media/custom-channel-1.png "Account details in custom channel")
+    > ![Account details in custom channel.](media/custom-channel-1.png "Account details in custom channel")
 
 6. Select **Save** to save the changes. After you save, in the **Callback information** section, the **Message endpoint (URL)** field is generated with a URL. Copy the URL from the field.
 
     > [!div class=mx-imgBorder]
-    > ![Callback information for custom channel](media/custom-channel-2.png "Callback information for custom channel")
+    > ![Callback information for custom channel.](media/custom-channel-2.png "Callback information for custom channel")
 
 7. Go to the **Azure Portal** > **Bot Channel Registration** page, paste the URL into the **Message endpoint** field, and save the changes.
 
@@ -169,7 +168,7 @@ To create a custom channel, follow these steps:
 
 
     > [!div class=mx-imgBorder]
-    > ![General tab page for custom channel](media/custom-channel-3.png "General tab page for custom channel") 
+    > ![General tab page for custom channel.](media/custom-channel-3.png "General tab page for custom channel") 
 
 10. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
@@ -180,7 +179,7 @@ To create a custom channel, follow these steps:
 13. Select **Save** to save the configurations.
 
     > [!div class=mx-imgBorder]
-    > ![Summary page for custom channel](media/custom-channel-4.png "Summary page for custom channel")
+    > ![Summary page for custom channel.](media/custom-channel-4.png "Summary page for custom channel")
 
 ## Test your channel
 
@@ -210,7 +209,7 @@ For more information, see the developer guide, [Bring your own custom messaging 
     
        To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
        
-       To learn more about uploading media in Direct Line, see [Azure Bot Service documentation](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-send-activity?view=azure-bot-service-4.0). 
+       To learn more about uploading media in Direct Line, see [Azure Bot Service documentation](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-send-activity?view=azure-bot-service-4.0). 
        
        To learn more about uploading media in Telegram, see the [Telegram Bot API](https://core.telegram.org/bots/api#available-types).
 
@@ -224,9 +223,9 @@ For more information, see the developer guide, [Bring your own custom messaging 
 [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)  
 [Test the custom messaging channel](bring-your-own-channel-sample-html.md)  
 [Skill-based routing](overview-skill-work-distribution.md)  
-[Productivity tools](productivity-tools.md)  
+[Productivity tools](../app-profile-manager/productivity-tools.md)  
 [Smart assist](../app-profile-manager/smart-assist.md)  
-[Templates](templates-overview.md)  
+[Templates](/dynamics365/app-profile-manager/templates-overview)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

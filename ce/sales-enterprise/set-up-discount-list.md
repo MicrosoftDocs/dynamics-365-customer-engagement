@@ -2,7 +2,6 @@
 title: "Set up discount lists (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Set up discounts on products in Dynamics 365 Sales to offer products to your customers on marked down rates."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,12 +16,13 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
 
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
-2. Select the site map icon ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **App Settings**. 
-  
-3. In the **Product Catalog** area, select **Discount Lists**. 
+2. In the Sales Hub app, select the **Change area** icon
+    ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") in the lower-left corner and then select **App Settings**.
+
+2. Under **Product Catalog**, select **Discount Lists**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Unit groups in site map](media/site-map-unit-group.png "Unit groups in site map")
+    > ![Unit groups in site map.](media/site-map-unit-group.png "Unit groups in site map")
 
 
 4.	To create a new discount list, on the command bar, select **New**.
@@ -40,27 +40,27 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
     c.	**Currency**. If you chose to give discount as a fixed amount, select the currency.
 
     > [!div class="mx-imgBorder"]
-    > ![Discount list form](media/discount-list-form.png "Discount list form")
+    > ![Discount list form.](media/discount-list-form.png "Discount list form")
  
-6.	To add discount details to the list, on select the **Related** tab, and then select **Discounts**.
+6.	To add discount details to the list, select the **Related** tab, and then select **Discounts**.
 
     > [!div class="mx-imgBorder"]
-    > ![Discount tab on the Discount List form](media/discount-list-form-related-tab-discounts-option.png "Discount tab on the Discount List form")
+    > ![Discount tab on the Discount List form.](media/discount-list-form-related-tab-discounts-option.png "Discount tab on the Discount List form")
  
-7.	On the **Discounts** tab, select **Add New Discount**.
+7.	On the **Discounts** tab, select **New Discount**.
 
 8.	In the **New Discount** form, fill in the following information, and select **Save & Close**:
 
-    a.	**Begin quantity**. Enter the minimum quantity that if a customer purchase, they will be eligible for a discount.
+    a.	**Begin quantity**. Enter the minimum quantity a customer should purchase to be eligible for the discount.  
 
-    b.	**End quantity**. Enter the maximum quantity that if a customer purchase, they will be eligible for a discount.
+    b.	**End quantity**. Enter the maximum quantity for which the discount is applicable.  
 
-    c.	**Percentage**. Enter the percentage of discount the customer will receive.
+    c.	**Percentage** or **Amount**. Enter the percentage or the amount of discount the customer will receive.
 
-    For example, this discount list will offer a discount of 5% whenever the customer purchases between 3 – 5 pieces of televisions.
+    For example, this discount list will offer a discount of $5 whenever the customer purchases between 2 – 5 pieces of televisions.
 
     > [!div class="mx-imgBorder"]
-    > ![Discount form](media/discount-form.png "Discount form")
+    > ![Discount form.](media/discount-form.png "Discount form")
  
 
 ## Typical next steps  

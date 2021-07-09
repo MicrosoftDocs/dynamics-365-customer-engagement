@@ -2,20 +2,19 @@
 title: "View a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target."
 ms.date: 10/26/2020
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+ms.custom: 
+  - dyn365-sales
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastinstance
   - D365-UI-*
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # View a forecast
@@ -28,15 +27,15 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 
 2.	Sign in to the Sales Hub app.
 
-3.	At the bottom of the site map, select **Change area** ![Change area icon](media/change-area-icon.png "Change area icon"), and then select **Sales**. 
+3.	At the bottom of the site map, select **Change area** ![Change area icon.](media/change-area-icon.png "Change area icon"), and then select **Sales**. 
  
     > [!div class="mx-imgBorder"]
-    > ![Icon to change area in the site map](media/site-map-area.png "Icon to change an area of the site map")
+    > ![Icon to change area in the site map.](media/site-map-area.png "Icon to change an area of the site map")
 
 3. Under **Performance**, select **Forecasts**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Forecasts view page](media/forecast-view-page.png "Forecasts view page")
+    > ![Forecasts view page.](media/forecast-view-page.png "Forecasts view page")
     
 4.	On the grid page, do the following:
 
@@ -46,7 +45,7 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 
  
     > [!div class="mx-imgBorder"]
-    > ![Drop-down list to select forecast](media/forecast-view-drop-down.png "Drop-down list to select a forecast")
+    > ![Drop-down list to select forecast.](media/forecast-view-drop-down.png "Drop-down list to select a forecast")
 
 5. The forecast grid displays all relevant columns as defined in the forecast configuration. The totals are aggregated by user or by territory, at each level of the hierarchy and for each period according to the forecast column attributes.
 
@@ -78,7 +77,7 @@ Every forecast is attached to an organization-defined hierarchy that rolls up th
 For example, you created a forecast by using the **Org chart forecast** template. The hierarchy is defined based on the **User** record. If Alyce Durham is a sales manager with one direct report, and she's designated as manager in her direct report's **User** record, she'll see a forecast for herself and her direct report. Because Alyce Durham reports to Samuel Strom, Samuel will see his own forecasts along with the rolled-up forecasts of his direct reports, including Alyce's.
 
 > [!div class="mx-imgBorder"]
-> ![Forecasts for a manager and direct reports](media/forecast-for-team-hierarchy.png "Forecasts for a manager and direct reports")
+> ![Forecasts for a manager and direct reports.](media/forecast-for-team-hierarchy.png "Forecasts for a manager and direct reports")
 
 To see the rolled-up forecast for everyone in the hierarchy, expand a specific forecast.
 
@@ -92,7 +91,7 @@ When your sales teams are distributed across different geographies and viewing t
 For example, you have sales teams in the US and Europe. The base currency for your organization is defined as US Dollar and also, Euro is defined as one of the currencies. When you create forecast with multi currency enabled, sales teams open the forecast the data is displayed in Dollar. Sales teams in Europe can select currency as Euro and the forecast data is displayed in Euro. The conversion of currency happens in real time based on the current exchange rate. Also, manual adjustments can be made on the chosen currency. 
 
 > [!div class="mx-imgBorder"]
-> ![Select currency drop-down](media/forecast-multi-currency-select.png "Select currency drop-down")
+> ![Select currency drop-down.](media/forecast-multi-currency-select.png "Select currency drop-down")
 
 >[!NOTE]
 >Administrator or forecast manager must enable the option to select currency. More information: [Enable multi-currency selection](forecast-configure-advanced-settings.md#enable-multi-currency-selection)

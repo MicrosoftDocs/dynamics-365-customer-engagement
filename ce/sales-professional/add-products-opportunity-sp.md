@@ -1,8 +1,7 @@
 ---
-title: "Add products an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Develop your opportunity by defining the products your customers are interested in purchasing."
+title: "Add products to opportunity - Sales Professional | MicrosoftDocs"
+description: "Develop your opportunity by defining product bundles that helps you to choose products for upsell and cross-sell."
 ms.date: 02/03/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,7 +10,7 @@ manager: annbe
 
 # Add products to an opportunity (Sales Professional)
 
-A way that might help you increase your sales is to add all products that your customer might need. You can add product bundles or product families to make it easier for you to choose products for upsell and cross-sell. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
+A way that might help you increase your sales is to add all products that your customer might need. You can add product bundles to make it easier for you to choose products for upsell and cross-sell. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
 
 
 1. From the list of opportunities, open the opportunity to which you want to add products.
@@ -27,7 +26,7 @@ A way that might help you increase your sales is to add all products that your c
 
 5. In the **Product Line Items** grid, select **Add Product**.
 
-    ![Product line item grid](media/product-line-item-grid.png "Product line item grid")
+    ![Product line item grid.](media/product-line-item-grid.png "Product line item grid")
 
 6. In the **Quick Create:  Opportunity Product** form, do the following:  
 
@@ -63,7 +62,7 @@ Here are the actions you can take on the products added to the **Product Line It
 |--------------------------------------|--------------------------------------------------------------|
 |Edit properties of a product  |Select a product, and on the command bar, select **Edit Properties**. You can change details, such as the price, quantity, or discount of the added products. <br/> You can also open the opportunity product record and view or change the properties of the product inline on the **Product Properties** tab. |
 |Delete a product associated with the opportunity |Select the product, and on the command bar, select **Delete Opportunity Product**. |
-|View products within a bundle | Select the **Chevron** icon ![Chevron icon](../sales-enterprise/media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
+|View products within a bundle | Select the **Chevron** icon ![Chevron icon.](../sales-enterprise/media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
 |See and add related products for cross-selling or upselling or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
 

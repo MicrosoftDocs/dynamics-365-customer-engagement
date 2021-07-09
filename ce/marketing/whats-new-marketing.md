@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 04/22/2021
+ms.date: 06/09/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -22,10 +22,186 @@ search.app:
 
 We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](/dynamics365/release-plans/).
 
-Marketing updates are [pushed to all customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Marketing follows a [phased deployment approach](https://dynamics.wiki/index.php/Dynamics_365_Marketing_Overall_Release_Calendar) aligned with the platform deployment schedule. Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
+Marketing updates are [pushed to customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Marketing follows a [phased deployment approach](https://dynamics.wiki/index.php/Dynamics_365_Marketing_Overall_Release_Calendar) aligned with the platform deployment schedule. Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## June 2021 update
+
+The Dynamics 365 Marketing June 2021 update includes improved engagement-tracking for Microsoft Teams events, email editor improvements, an option to include iCalendar files in emails, improved bounce error notifications, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10073.2001 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+### Monthly enhancements
+
+- **Event management**
+    - Seamlessly push webinar attendee data from Microsoft Teams to Dynamics 365 Marketing. Use the data to engage with attendees and gain insights.
+    - Attendee registrations and check-ins for Teams webinars are available in Marketing, regardless of whether the Teams webinar was created through Teams or event management in Marketing.
+    - Create segments, powered by Teams registration and check-in information, to share event summaries and recordings.
+    - Use check-in information segments to gather attendee feedback to better understand what kind of webinars attendees would like to see in the future.
+- **Marketing emails**
+    - “Add to Calendar” email button functionality automatically generates iCalendar files for events and sessions. Event attendees receive a personalized link to download their agenda as a calendar file.
+    - Test send UI improvements.
+    - Ability to set up a physical company address in the email editor.
+    - Improved email rendering and reliability.
+    - More visibility for bounces caused by suppression lists, allowing users to differentiate between new and old bounces.
+    - Detailed bounce error codes are displayed, leading to an improved understanding of bounce causes.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Fixed an issue that prevented date and time input when adding a second **Wait until** tile.
+    - Customer journeys now show an error if segmentation times out while going live.
+    - Fixed an issue that caused an error when attempting to stop a campaign with multiple iterations.
+    - Fixed an error related to the time control on the **Permitted times** setting.
+- **Event management**
+    - Resolved an issue that caused a business process error to appear instead of a "Check-in is already created for this registration" error.
+    - Fixed an error that cause recording and attendance data to disappear when pushing ExtensionData to SchedulingService.
+    - Deactivated registration responses for canceled registrations.
+- **Marketing emails**
+    - Improved rendering in Outlook when adding images to columns with borders.
+    - Fixed an error that caused changes in the HTML editor to not correctly propagate to entities.
+- **Marketing insights**
+    - Improved sorting of segment records.
+- **Marketing pages**
+    - Fixed an issue that sometimes caused a delete button to appear for users without delete and write permissions.
+    - Resolved an error that sometimes led to form double submission when using a redirect URL.
+    - Resolved a form ID error when a form is inserted into a page multiple times.
+- **Settings**
+    - Resolved an error that occasionally prevented the **Versions** page from loading.
+    - Improved language localization in advanced settings.
+- **Shared UX**
+    - Improved rendering of custom controls in forms.
+- **Social posting**
+    - Removed exception on assigning a lead owner when no LinkedIn account is set.
+
+## May 2021 update
+
+The much-anticipated customer journey orchestration features have made their public preview debut to customers in North America. Customers with Dynamics 365 Marketing paid or trial subscriptions are able to use the new features. Marketing now has capabilities to empower customer experience-focused organizations to deliver digitally transformed customer experiences in real time. These features enable organizations to:
+
+- Engage customers in real-time.
+    - With features such as event-based customer journeys, custom event triggers, and SMS and push notifications, organizations can trigger customer journeys in real-time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
+- Win customers and earn loyalty faster.
+    - Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
+- Personalize customer experiences with AI.
+    - Turn insights into relevant action with AI-driven recommendations for content, channels, and analytics.
+    - Customer Insights segment and profile integration allows organizations to seamlessly leverage the deep customer understanding in Customer Insights.
+- Grow with a unified, adaptable platform.
+    - Easily customize and connect with tools you already use.
+    - Efficiently manage compliance requirements and accessibility guidelines.
+
+The May 2021 Marketing monthly update includes email editor improvements, expanded Teams webinar configuration options, JavaScript support for marketing forms, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10072.1070 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+### Preview features
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+> [!NOTE]
+> The customer journey orchestration preview features are available in the US region. The preview features will be available in the EU region in May. Other regions will be supported at the time of general availability.
+
+- **AI-driven run-time channel optimization**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/ai-driven-run-time-channel-optimization)
+    - [Docs](real-time-marketing-channel-optimization.md)
+- **AI-driven recommendations for images**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/ai-driven-recommendations-image-video-document-or-fragment)
+    - [Docs](real-time-marketing-email.md#ai-driven-image-suggestions)
+- **Author personalized content across email, SMS, and push notifications through a new point-and-click interface**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/author-dynamic-content-ease-through-new-point-and-click-interface)
+    - [Docs](real-time-marketing-email.md#add-personalized-data-to-a-real-time-marketing-email)
+- **Create and send SMS messages to any mobile phone**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-send-sms-messages-mobile-phone)
+    - [Docs](real-time-marketing-outbound-text-messaging.md)
+- **Deliver push notifications to any Android or iOS app**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/deliver-push-notifications-android-or-ios-app)
+    - [Docs](real-time-marketing-push-notifications.md)
+- **Event catalog with built-in and custom events for triggering customer journeys**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/event-catalog-built-in-custom-events-triggering-customer-journeys)
+    - [Docs](real-time-marketing-event-triggers.md)
+- **Experiment with the next action in a journey to optimize for results**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/experiment-next-action-journey-optimize-results)
+    - [Docs](real-time-marketing-experimentation.md)
+- **Hyper-personalize customer journeys using data and insights from Dynamics 365 Customer Insights**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/hyper-personalize-customer-journeys-using-data-insights-dynamics-365-customer-insights)
+    - [Docs](real-time-marketing-segments.md)
+- **Improve journey effectiveness with a built-in cross-journey aggregate dashboard**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/improve-journey-effectiveness-new-set-built-analytics-dashboards-cross-journey-insights)
+    - [Docs](real-time-marketing-analytics.md)
+- **In real time, monitor your customer journeys and channel KPIs**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/real-time-monitor-customer-journeys-channel-kpis)
+    - [Docs](real-time-marketing-analytics.md)
+- **Real-time, event-based customer journey orchestration**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/real-time-event-based-customer-journey-orchestration)
+    - [Docs](real-time-marketing-event-based-journey.md)
+- **Search, version, manage, and tag your digital assets with a new centralized asset library**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/search-version-manage-tag-digital-assets-new-centralized-asset-library)
+    - [Docs](real-time-marketing-asset-library.md)
+- **Set business goals for journeys and measure progress to the goals**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/set-business-goals-journeys-measure-progress-goal)
+    - [Docs](real-time-marketing-business-goals.md)
+- **Use continuously updating, multidata-source segments from Customer Insights in your marketing campaigns**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/use-continuously-updating-multidata-source-segments-customer-insights-marketing-campaigns)
+    - [Docs](real-time-marketing-ci-profile.md)
+- **Use natural language to create conditions for branching customer journeys**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/use-natural-language-create-conditions-branching-customer-journeys)
+    - [Docs](real-time-marketing-natural-language.md)
+
+### Monthly enhancements
+
+- **Event management**
+    - Set comprehensive Teams webinar configuration options directly from Marketing events pages.
+- **Marketing emails**
+    - The [new email editor experience](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-emails-quickly-low-effort-without-compromises) is now available to new users by default .
+    - Duplicate, edit, and delete email sections and elements with one click.
+    - Move sections and elements on the canvas.
+    - Switch to the new email editor experience directly from the editor itself, without admin privileges.
+    - Select one or multiple borders in an element.
+- **Marketing pages**
+    - Marketing forms now support JavaScript, improving customization possibilities.
+    - Improved user interface for C2 lookup fields.
+    - New API to populate lookup fields with customizable values.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Upgraded *ConditionControl* to integrate new strings.
+    - Improved timezone labels in customer journey milestone timestamps.
+- **Data services**
+    - Resolved a data services issue that sometimes resulted in an entity sync failure.
+- **Event management**
+    - Fixed an error related to the *autocreateaccessteams* property that occasionally resulted in an upgrade failure.
+    - Fixed an issue that sometimes caused deactivated wait list items to get picked up for registration.
+    - Resolved an error that caused cancelled registrations to sometimes appear in the *My registrations* list.
+- **First run experience**
+    - Improved data clean up during uninstall.
+- **Marketing emails**
+    - Added dynamic content support to the *Link to* field.
+    - Added support for custom forms to the email editor.
+    - Resolved an error that caused email button text to not load correctly.
+    - Fixed an issue that caused rounded buttons to not center correctly in Outlook.
+- **Marketing pages**
+    - Resolved an issue that caused query strings to not be parsed by some servers.
+- **Shared UX**
+    - Resolved an error that caused image links added to content blocks to not function as expected.
 
 ## April 2021 update
 
@@ -43,7 +219,7 @@ This release also includes social posting to Instagram, an API to enable or disa
 | Marketing        | 1.35.10071.2007 |
 
 > [!Tip]
-> To check your current version number, refer to go **Settings** > **Overview** > **Versions**.
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
 
 ### Monthly enhancements
 
@@ -1042,7 +1218,7 @@ Dynamics 365 Marketing now evaluates segment membership much more quickly than b
 
 You can now export the contacts that are members of a dynamic segment straight to an Excel file and with just a few clicks, no matter how large the segment is. To do it, open a live, dynamic segment, select **Related** > **Contacts** to add a **Contacts** tab; then select **Export Contacts** from the command bar for that tab and choose the Excel format you would like.
 
-![Export segment members to Excel](media/export-segment-members.png "Export segment members to Excel")
+![Export segment members to Excel.](media/export-segment-members.png "Export segment members to Excel")
 
 More information: [Export dynamic segment members to Excel](segments-export-members.md)
 
@@ -1050,7 +1226,7 @@ More information: [Export dynamic segment members to Excel](segments-export-memb
 
 You can now create a library of templates to make it fast and easy to create any of a variety commonly used segment queries. To help get you started, we provide a collection of common queries right out of the box, each of which provides both an example and a starting point for creating your own queries. Start by selecting a template that resembles the query you want to make, then customize as needed.
 
-![Segment template gallery](media/segment-template-gallery.png "Segment template gallery")
+![Segment template gallery.](media/segment-template-gallery.png "Segment template gallery")
 
 Each time you create a new segment you'll be presented with the **Segment templates** gallery, which resembles the galleries already provided for many other types of entities. Here you can browse, filter, search, and learn more about each listed template. Select **Cancel** to skip the templates and go to the standard new-segment hub, where you can select a basic segment type to build from scratch (as with previous versions of Dynamics 365 Marketing).
 
@@ -1064,7 +1240,7 @@ When you design a new marketing email, page, form, or segment you are first pres
 
 System customizers can create as many labels as you need, and define the display text and background color for each of them. In the following screenshot, you can see a tile view of marketing-page templates labeled with "New", "Old", and "VIP".
 
-![Template gallery with labels in tile view](media/template-label-example.png "Template gallery with labels in tile view")
+![Template gallery with labels in tile view.](media/template-label-example.png "Template gallery with labels in tile view")
 
 More information: [Add visual labels for templates](email-templates.md#add-visual-labels-for-templates)
 
@@ -1072,7 +1248,7 @@ More information: [Add visual labels for templates](email-templates.md#add-visua
 
 Dynamics 365 Marketing provides a flexible and powerful framework for designing interactive email campaigns comprised of target segments, marketing email messages, customer-journey automation, and more. But sometimes, when all you want to do is write a quick marketing email with simple personalization and send it to a few selected recipients, all of these extra components and capabilities can just get in the way. In this situation, use the new _send now_ feature, which lets you design an email as usual and then just select **Send now** to choose your recipients and deliver the message.
 
-![Send-now ready announcement](media/send-now-ready.png "Send-now ready announcement")
+![Send-now ready announcement.](media/send-now-ready.png "Send-now ready announcement")
 
 In the background, Dynamics 365 Marketing creates a static segment to contain your recipients, and a customer journey preconfigured to send your message to that segment. The journey goes live automatically and starts sending right away. After this, you can open the generated customer journey to view results and insights as usual. Both the segment and the journey that are generated by this feature are easy to identify because Dynamics 365 Marketing assigns them the same name as the email message that generated them.
 
@@ -1082,7 +1258,7 @@ More information: [Quickly design and deliver a marketing email with](email-send
 
 Section elements are used to establish the basic layout of your emails, marketing pages, and marketing forms. Each section offers a collection of formatting options, which already included options such as columns, background color, border style, padding, and margin. To this we now add the ability to show a background image, including fitting options such as stretch-to-fit and horizontal/vertical positioning. You can choose any image uploaded to the Dynamics 365 Marketing image gallery, or specify an external image-source URL.
 
-![Section-element style settings](media/section-element-bg.png "Section-element style settings")
+![Section-element style settings.](media/section-element-bg.png "Section-element style settings")
 
 More information: [Section (layout) elements](content-blocks-reference.md#section-layout-elements)
 
@@ -1090,7 +1266,7 @@ More information: [Section (layout) elements](content-blocks-reference.md#sectio
 
 Some of your customer journeys may include email messages with time-sensitive content, such as a time-limited offer, holiday promotional, or a two-week reminder for an upcoming event. Because contacts might join the journey at any time, you can now prevent delivering outdated information by setting an expiration date for one or more selected email messages. Any contact who enters an email tile after its expiration date has past will simply pass through that tile without being sent the message.
 
-![Journey email-tile expiration settings](media/journey-email-expire.png "Journey email-tile expiration settings")
+![Journey email-tile expiration settings.](media/journey-email-expire.png "Journey email-tile expiration settings")
 
 > [!IMPORTANT]
 > This is a preview feature, which means that it's available on all updated instances, but is turned off by default and shouldn't be enabled on production instances. Admins can easily enable or disable it as needed. See [the documentation](email-expire.md) for details.
@@ -1106,7 +1282,7 @@ The _marketing websites_ feature generates a JavaScript code that you can add to
 
 The feature already provided a list of page visits, each associated with a contact when possible (for known contacts with the right cookie). Now the feature also provides separate insights for visits to pages that include a marketing form, and for each submission of each form. The feature tracks both embedded and captured forms.
 
-![Website form-submissions insights](media/website-form-submit-insights.png "Website form-submissions insights")
+![Website form-submissions insights.](media/website-form-submit-insights.png "Website form-submissions insights")
 
 More information: [Analyze results to gain insights from your marketing activities](insights.md)
 
@@ -1116,7 +1292,7 @@ Marketing-form records already provided a **Failed submissions** tab, where you 
 
 We've also renamed this tab to **Form submissions** because now we've made it possible to include successfully processed submissions here too (optional). This lets you edit any failed _or successful_ submission and then resubmit it to update your database with or without generating a new interaction record for the resubmission.
 
-![Edit and resubmit form submissions](media/form-resubmit.png "Edit and resubmit form submissions")
+![Edit and resubmit form submissions.](media/form-resubmit.png "Edit and resubmit form submissions")
 
 > [!NOTE]
 > You can always review successful, processed submissions by going to the **Insights** tab and opening the **Submissions** panel, but you can't resubmit from there.

@@ -1,12 +1,9 @@
 ---
 title: "Demo data installation for Chat for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Demo data installation for Chat for Dynamics 365 Customer Service"
+description: "This topic offers instructions on how to install sample or demo data for Chat for Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/19/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 
@@ -61,7 +58,7 @@ Depending on the operating system and security settings, you might need to perfo
 3. Choose **Unblock**.
 
     > [!div class=mx-imgBorder] 
-    > ![Select unblock](media/omnichannel-sample-data-2.png "Select unblock")
+    > ![Select unblock.](media/omnichannel-sample-data-2.png "Select unblock")
 
 4. Select **Apply**.
 
@@ -116,7 +113,7 @@ Next you need to update a data mapping file with the email address of the defaul
 4. Select **Save**.
 
   > [!TIP]
-  > We recommend creating a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](https://docs.microsoft.com/dynamics365/admin/backup-restore-instances).
+  > We recommend creating a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](../admin/backup-restore-instances.md).
 
 ## Run the package deployer
 
@@ -145,17 +142,17 @@ Wondering what capabilities you can demo with the demo data? See the Fabrikam sc
     | User Name | `lilymichael@sampleorg.onmicrosoft.com` | Specify the user name of the system administrator user that you configured in the [Configure users](#configure-users) section. |
     | Password |  | Specify the password of the system administrator user that you configured in the [Configure users](#configure-users) section. |
 
-    ![Dialog box for connecting to an environment](media/omnichannel-sample-data-3.png "Dialog box for connecting to an environment")
+    ![Dialog box for connecting to an environment.](media/omnichannel-sample-data-3.png "Dialog box for connecting to an environment")
 
 5. Select **Next** in the subsequent screens until you see the **Reading Chat for Dynamics 365 Customer Service demo data Package Installer Configuration** dialog box.
 
 6. To start the demo data installation, select **Next**.
 
-    ![Reading demo data](media/omnichannel-sample-data-4.png "Reading demo data")
+    ![Reading demo data.](media/omnichannel-sample-data-4.png "Reading demo data")
     
 7. After the demo data is installed successfully, select **Finish**.
 
-    ![Demo data is installed successfully](media/omnichannel-sample-data-5.png "Demo data is installed successfully")
+    ![Demo data is installed successfully.](media/omnichannel-sample-data-5.png "Demo data is installed successfully")
 
 ## Verify demo data installation
 
@@ -229,7 +226,7 @@ A high-level overview of the Chat for Dynamics 365 Customer Service demo data is
 
 ### See also
 
-[Try channels in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/try-channels)
+[Try channels in Omnichannel for Customer Service](./try-channels.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

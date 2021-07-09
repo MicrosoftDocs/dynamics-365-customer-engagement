@@ -1,9 +1,10 @@
 ---
 title: "Email message filtering and correlation | MicrosoftDocs"
+description: "Use Email message filtering and correlation to specify which emails are tracked."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ ms.assetid: 053e42e3-078e-4768-9c76-5ad3a0ff1fa9
 caps.latest.revision: 24
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Use Email message filtering and correlation to specify which emails are tracked 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Server-side synchronization, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], or the Email Router can automatically create email activities in Dynamics 365 Customer Engagement (on-premises), which are based on received email messages. This type of automation is known as email message tracking. Users can select a filtering option that determines what email messages will be tracked in Customer Engagement (on-premises). Filtering is set on the **Email** tab of the **Set Personal Options** dialog box in the Customer Engagement (on-premises) client applications. Users can set the following options:  
 
@@ -47,7 +50,7 @@ Email correlation is set on the **Email** tab of the System Settings page and ca
 
 3. In the **Configure folder-level tracking and email correlation** area, click **Use correlation to track email conversations**.  
 
-   ![Configure folder-level tracking](../admin/media/configure-folder-level-tracking.png "Configure folder-level tracking")  
+   ![Configure folder-level tracking.](../admin/media/configure-folder-level-tracking.png "Configure folder-level tracking")  
 
    If checked, this option uses the conversation id to identify all the emails that replied to a tracked email.  
 
@@ -78,7 +81,7 @@ In the email **To** field, all of the Customer Engagement (on-premises) records 
 ### Tracking token structure  
  By default, Customer Engagement (on-premises) uses the following token structure, that consists of a 4 character prefix and a 7 digit identifier.  
 
- ![Tracking token structure in Dynamics 365 for Customer Engagement](../admin/media/tracking-token.png "Tracking token structure in Dynamics 365 for Customer Engagement")  
+ ![Tracking token structure in Dynamics 365 for Customer Engagement.](../admin/media/tracking-token.png "Tracking token structure in Dynamics 365 for Customer Engagement")  
 
  The following table lists tracking token parts and descriptions.  
 

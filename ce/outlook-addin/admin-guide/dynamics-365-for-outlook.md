@@ -27,17 +27,17 @@ search.app:
 
 
 > [!IMPORTANT]
-> Effective October 1 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) is retired. Customers must transition to the modern [Dynamics 365 App for Outlook](../../outlook-app/overview.md) at the earliest. Microsoft will not provide support or any further updates (including security and critical updates) to the Outlook COM Add-in.
+>Effective October 1, 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) was retired. Microsoft won’t provide support or any further updates (including security and critical updates) to the Outlook COM Add-in for customer engagement apps (Dynamics 365 Sales, Customer Service, Marketing, and Field Service). 
 >
-> 
-> Starting December 4, 2020 the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) will be removed and users will no longer be able to use Outlook COM add-in. This removal will happen by geographic location and follows the weekly release schedule.
+>- Effective December 4, 2020, the legacy Dynamics 365 for Outlook is not available for customer engagement apps (Dynamics 365 Sales, Customer Service, Marketing, and Field Service). Use the modern [Dynamics 365 App for Outlook instead](../../outlook-app/overview.md).
+>- [Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/overview.md) users can continue to use the legacy Dynamics 365 for Outlook and will continue to receive critical security updates. However, we recommend that you transition to the modern Dynamics 365 App for Outlook at the earliest. 
 >
 > For further information and steps to make a smooth transition, download [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook).
 
 
 [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)] can synchronize email messages, contacts, tasks, and appointments between [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] and Dynamics 365 (client-to-server synchronization). Similar to [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], synchronization filters are used to synchronize messaging data from Dynamics 365 to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]. Manually tracked or Inbox-rule based tracking is used to synchronize messaging data from [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] or [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to Dynamics 365.  
   
- ![Dynamics 365 for Outlook synchronization](../media/crmforoutlooksync.png "Dynamics 365 for Outlook synchronization")  
+ ![Dynamics 365 for Outlook synchronization.](../media/crmforoutlooksync.png "Dynamics 365 for Outlook synchronization")  
   
  When you use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], there are a few synchronization concepts that are helpful to understand. Notice that, to have any of this [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] functionality, each [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] user must run the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] add-in and the Dynamics 365 user mailbox record must be configured appropriately.  
   

@@ -1,10 +1,10 @@
 ---
-title: "Create an entity with Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create an entity with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to create an entity"
 ms.custom: 
 ms.date: 02/13/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement log file does not exist | Microsoft Docs"
+description: Environment diagnostics warning that a database file is missing.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

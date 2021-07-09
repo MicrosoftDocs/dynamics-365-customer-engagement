@@ -1,20 +1,19 @@
 ---
-title: "Use the Chrome Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
-description: "Learn about the Chrome Process hosting method for your controls in Unified Service Desk."
+title: "Chrome Process hosting method for controls in Unified Service Desk | MicrosoftDocs"
+description: "Learn about the Chrome Process hosting method in Unified Service Desk. Also, learn how to enable the process and recover unresponsive process instances."
+ms.date: 02/15/2021
+ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/15/2021
-ms.topic: "article"
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -78,7 +77,7 @@ When you're creating a new hosted control, you can select **Chrome Process** as 
 6. Select **Save** to create the hosted control.
 
   > [!div class="mx-imageBorder"]
-  > ![Select hosting type as Chrome Process](media/hosted-control-chrome-process.GIF "Create a hosted control with hosting type as Chrome Process")
+  > ![Select hosting type as Chrome Process.](media/hosted-control-chrome-process.GIF "Create a hosted control with hosting type as Chrome Process")
 
 ### Enable Chrome for Unified Service Desk on client desktops
 
@@ -94,7 +93,7 @@ Example path: C:\Program Files\Microsoft Dynamics CRM USD\USD
 3. Save the file.
 
   > [!div class="mx-imageBorder"]
-  > ![Add a GlobalBrowserMode key with the value of Chrome](media/chrome-process-app-config-file-setting.GIF "Add a GlobalBrowserMode key with the value of Chrome")
+  > ![Add a GlobalBrowserMode key with the value of Chrome.](media/chrome-process-app-config-file-setting.GIF "Add a GlobalBrowserMode key with the value of Chrome")
 
 ### Enable Chrome for an entire organization
 
@@ -115,7 +114,7 @@ Add a new Global UII option named **GlobalBrowserMode** for your organization, a
 7. Select **Save**.
 
   > [!div class="mx-imageBorder"]
-  > ![For the Global Option field, enter GlobalBrowserMode with a value of Chrome](media/chrome-process-uii-option.GIF "For the Global Option field, enter GlobalBrowserMode with a value of Chrome")
+  > ![For the Global Option field, enter GlobalBrowserMode with a value of Chrome.](media/chrome-process-uii-option.GIF "For the Global Option field, enter GlobalBrowserMode with a value of Chrome")
 
 ## Recover a Chrome Process instance
 
@@ -516,7 +515,7 @@ To investigate Chrome Process crashes in Unified Service Desk, you must generate
 
 ## Add parameters using Chrome Process
 
-The Chrome Process provides many options that can be used on the webpages within Unified Service Desk. The **ChromeProcessParameters** option helps to add the parameters. The format to add the parameters is:<br> ` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `<br>Note that the parameters are separated by semicolons. More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189)
+The Chrome Process provides many options that can be used on the webpages within Unified Service Desk. The **ChromeProcessParameters** option helps to add the parameters. 
 
 **To add the ChromeProcessParameters UII option**
 
@@ -532,7 +531,11 @@ The Chrome Process provides many options that can be used on the webpages within
 
 6. For the **Name** field, enter **ChromeProcessParameters**.
 
-7. For the **Value** field, enter **True**.
+7. For the **Value** field, enter a valid Chrome process parameter.
+
+    The format to add the parameters is:<br> ` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `.
+  
+    Note that the parameters are separated by semicolons. More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189)
 
 8. Select **Save**.
 
@@ -600,10 +603,6 @@ Chrome Process supports the ability to check spelling on webpages within Unified
     > Only the locales available in the path C:\Program Files\Microsoft Dynamics CRM USD\USD\locales are supported.
 
 8. Select **Save**.
-
-## Limitations
-
-To learn about the limitations of Chrome Process, go to [Chrome Process limitations](release-notes.md).
 
 
 ### See also

@@ -1,12 +1,9 @@
 ---
-title: "Configure channel provider in Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
-description: "Learn how to configure a channel provider in Microsoft Dynamics 365 Channel Integration Framework (CIF) version 1.0."
+title: "Configure channel providers for your Dynamics 365 organization | MicrosoftDocs"
+description: "Use this topic to understand how to configure channel providers in Dynamics 365 Channel Integration Framework 1.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -21,7 +18,7 @@ To configure channel providers:
 
 2. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
 
-  ![Dynamics 365 drop-down button to find Channel Integration Framework](media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
+  ![Dynamics 365 drop-down button to find Channel Integration Framework.](media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
 
 3.	Select **+ New** to add a new provider.
 
@@ -40,7 +37,7 @@ To configure channel providers:
   |Select Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Note:** If you do not assign any role, the channel provider is shown to all users assigned for the Dynamics 365 Unified Interface App.|
   |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
   
-  ![Channel provider configuration](media/channel-provider-configuration-v1.PNG "Channel provider configuration")
+  ![Channel provider configuration.](media/channel-provider-configuration-v1.PNG "Channel provider configuration")
 
   > [!Note]
   > The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel will not load for a non-administrator roles. To load the panel for the non-administrator roles, create a new role and provide read-access to the msdyn_ciprovider entity. Now, add the role to the users who will be accessing the Channel Integration Framework.
@@ -48,19 +45,19 @@ To configure channel providers:
 5. Launch the Unified Interface App to see the communication widget on the right side.<br><br>
 
 **The communication widget in the minimized mode**<br><br>
-![communication widget in the minimized mode](media/widget-minimized-mode.PNG "communication widget in the minimized mode")
+![communication widget in the minimized mode.](media/widget-minimized-mode.PNG "communication widget in the minimized mode")
 <br><br>
 
 **The communication widget in the expanded mode**<br><br>
-![communication widget in the expanded mode](media/widget-expanded-mode.PNG "communication widget in the expanded mode")
+![communication widget in the expanded mode.](media/widget-expanded-mode.PNG "communication widget in the expanded mode")
 
 ## See also
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md)<br />
-[Configure channel provider in Channel Integration Framework version 2.0](v2/configure-channel-provider-channel-integration-framework.md)<br />
+[Configure channel provider in Channel Integration Framework version 2.0](/dynamics365/customer-service/channel-integration-framework/configure-channel-provider-app-profile-manager)<br />
 [FAQs for Channel Integration Framework](faq-channel-integration-framework.md)<br />
-[Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md)
+[Bring your own channel](../bring-your-own-channel.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

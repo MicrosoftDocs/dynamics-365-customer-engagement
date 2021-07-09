@@ -1,12 +1,11 @@
 ---
 title: "Configure a WeChat channel in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Instructions for configuring a WeChat channel in Omnichannel for Customer Service."
+description: "Perform the steps mentioned in this topic to configure a WeChat channel in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Configure a WeChat channel
 
@@ -98,7 +97,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 6. Copy the information that's displayed in the **IP whitelist** and **Server address (URL)** boxes. This step is required for only WeChat service account.
 
     > [!div class=mx-imgBorder]
-    > ![Create a WeChat channel](media/wechat-channel-config.png "Create a WeChat channel")
+    > ![Create a WeChat channel.](media/wechat-channel-config.png "Create a WeChat channel")
 
 ### Configure WeChat details
 
@@ -133,7 +132,7 @@ If you're using the service account of WeChat, perform the following steps:
 
 ## Privacy notice
 
-By enabling this feature, your data will be shared with WeChat and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). Consult the feature technical documentation for more information [here](https://go.microsoft.com/fwlink/p/?linkid=2124947).
+By enabling this feature, your data will be shared with WeChat and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). Consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-wechat).
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 

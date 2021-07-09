@@ -2,7 +2,7 @@
 title: "Set up delegate access for Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Set up delegate access for Dynamics 365 App for Outlook. 
-ms.date: 02/26/2020
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -46,22 +46,22 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 2.	On the home page, go to [**Settings** > **Advanced Settings**](/power-platform/admin/admin-settings#app-settings).
 
     > [!div class="mx-imgBorder"] 
-    > ![Go to settings](media/step1.png) 
+    > ![Go to settings.](media/step1.png) 
 
 3. From the main menu, go to **Settings** > **Customizations** and then select **Solutions**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Select solutions](media/step2.png) 
+    > ![Select solutions.](media/step2.png) 
     
 4. On the **All Solutions** screen, select **Organization Settings Editor (Dynamics 365)**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Select org setting editor](media/step3.png) 
+    > ![Select org setting editor.](media/step3.png) 
     
 5. On the **Solution Organization Settings Editor** screen, find the **TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled** settings and set both to **True** (if not already set to True) and then select **Update**.
   
     > [!div class="mx-imgBorder"] 
-    > ![Select update](media/step4.png) 
+    > ![Select update.](media/step4.png) 
     
 
 > [!IMPORTANT]
@@ -73,7 +73,7 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 > - The organization settings are configured properly.
 > - After the organization settings are configured, App for Outlook is redeployed for all users.
 
-## Frequently asked questions
+## FAQs about delegate access
 
 ### Are shared folders supported as part of the delegate access feature?
 

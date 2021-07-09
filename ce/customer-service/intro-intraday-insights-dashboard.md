@@ -1,13 +1,12 @@
 ---
 title: "Introduction to Intraday insights dashboard for supervisor | MicrosoftDocs"
 description: "Introduction to Intraday insights dashboard for supervisor"
-author: neeranelli
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: nenellim
-manager: shujoshi
 ms.date: 04/09/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Introduction to intraday supervisor experiences
@@ -60,7 +59,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md)  
 [View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md)  
 [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)  
-[Monitor conversations](monitor-conversations.md)  
+[Monitor and assign conversations](monitor-conversations.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

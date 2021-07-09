@@ -2,7 +2,6 @@
 title: "Sales Team Member app for users with Team Member license (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn about the Team Member license enforcement and the new Sales Team Member app."
 ms.date: 04/03/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -34,7 +33,7 @@ Administrators can configure the app for additional scenarios, but not beyond th
 Users with the Team Member license can go to home.dynamics.com. They'll see the designated team member apps. 
 
 > [!div class="mx-imgBorder"]
-> ![Sales Team Member app](media/sales-team-member-app.png "Sales Team Member app")
+> ![Sales Team Member app.](media/sales-team-member-app.png "Sales Team Member app")
     
 > [!IMPORTANT]
 > - The Sales Team Member app is available by default in all organizations. System administrators can use security roles to control the visibility of the app, if required.
@@ -44,7 +43,7 @@ Users with the Team Member license can go to home.dynamics.com. They'll see the 
 When users open the Sales Team Member app, in the site map, they'll see the available entities. 
 
 > [!div class="mx-imgBorder"]
-> ![Site map of the Sales Team Member app](media/sales-team-member-app-site-map.png "Site map of the Sales Team Member app")
+> ![Site map of the Sales Team Member app.](media/sales-team-member-app-site-map.png "Site map of the Sales Team Member app")
 
 
 ### See also

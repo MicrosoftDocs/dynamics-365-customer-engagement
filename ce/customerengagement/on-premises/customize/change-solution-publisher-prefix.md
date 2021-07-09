@@ -1,9 +1,10 @@
 ---
-title: "Change the publisher prefix (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
+title: "Change the publisher prefix Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn what a solution publisher is and how to use it for the solutions you distribute
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -1,14 +1,11 @@
 ---
 title: Merge cases | MicrosoftDocs
 description: Merge cases when multiple cases are created about same issue in different channels.
+ms.date: 03/18/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/18/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Merge cases
@@ -41,8 +40,8 @@ In the Customer Service Hub, you can merge cases from the dashboard streams or f
 
 2. Open the dashboard you want to look at.  
 
-3. Select at least two active case records that you want to merge using the **Bulk select** button ![Bulk select option](media/bulk-select.png "Bulk select option").
-4. Select the **More Actions** button ![More Actions button](../customer-service/media/v8-1-more-actions--button.png "More Actions button"), and then select **Merge Cases**.  
+3. Select at least two active case records that you want to merge using the **Bulk select** button ![Bulk select option.](media/bulk-select.png "Bulk select option").
+4. Select the **More Actions** button ![More Actions button.](../customer-service/media/v8-1-more-actions--button.png "More Actions button"), and then select **Merge Cases**.  
 
 5. In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then select **Merge**.  
 

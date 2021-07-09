@@ -1,8 +1,7 @@
 ---
-title: "Adjust forecast values in sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Adjust values in a forecast in Dynamics 365 Sales."
+title: "Adjust forecast values in sales forecasting - Sales Enterprise | MicrosoftDocs"
+description: "Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period."
 ms.date: 02/03/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -40,32 +39,32 @@ You can also view the history of the adjustments that are made on a forecast, an
 1.	Hover over the field, and select the pencil icon that appears.
 
     > [!div class="mx-imgBorder"]
-    > ![Select adjust value](media/forecast-adjust-value-pencil.png "Select Adjust value")
+    > ![Select adjust value.](media/forecast-adjust-value-pencil.png "Select Adjust value")
 
     The following dialog box is displayed.
 
     > [!div class="mx-imgBorder"]
-    > ![Adjust value dialog box](media/forecast-adjust-value-dialog.png "Adjust value dialog box")
+    > ![Adjust value dialog box.](media/forecast-adjust-value-dialog.png "Adjust value dialog box")
 
 2.	On the **Adjustment** tab, enter the value and add a note for the adjustment. In this example, the **Pipeline** column is configured as editable and you know that Nicolas Frizzell has a pipeline revenue of $20,000 instead of the existing value, $11,752.16. Enter the value as **20000**. You can see that the actual system-calculated value for the forecast, based on existing data, is $10,000.
 
     > [!div class="mx-imgBorder"]
-    > ![Enter values to adjust](media/forecast-adjust-value-enter-value.png "Enter values to adjust")
+    > ![Enter values to adjust.](media/forecast-adjust-value-enter-value.png "Enter values to adjust")
 
 3.	Select **Adjust**. The old value is struck off and a new value is added to the **Pipeline** column for Nicolas Frizzell. You can see the indirect adjustment of values has been added to the top of the hierarchy from Nicolas's manager, Alyce Durham.
  
     > [!div class="mx-imgBorder"]
-    > ![Values adjusted](media/forecast-adjust-value-adjusted-value.png "Values adjusted")
+    > ![Values adjusted.](media/forecast-adjust-value-adjusted-value.png "Values adjusted")
 
 4.	You can roll back the value if you think it was inappropriately adjusted from the system-calculated value. Open the adjustment dialog box, and then select **Reset**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select reset value](media/forecast-adjust-value-reset.png "Select Reset")
+    > ![Select reset value.](media/forecast-adjust-value-reset.png "Select Reset")
 
     The following dialog box is displayed so you can enter a note to explain the reason for the rollback. 
  
     > [!div class="mx-imgBorder"]
-    > ![Reset adjusted value](media/forecast-adjust-reset-confirmation.png "Reset an adjusted value")
+    > ![Reset adjusted value.](media/forecast-adjust-reset-confirmation.png "Reset an adjusted value")
 
 5.	Enter a note, and then select **Reset**. 
 
@@ -74,7 +73,7 @@ You can also view the history of the adjustments that are made on a forecast, an
 6.	To view the history of the adjustable forecast, open the adjustment dialog box and select the **History** tab. In this example, you can see the history of changes that were made for Nicolas Frizzell's pipeline forecast.
 
     > [!div class="mx-imgBorder"]
-    > ![Adjusted value history](media/forecast-adjust-value-history.png "Adjusted value history")
+    > ![Adjusted value history.](media/forecast-adjust-value-history.png "Adjusted value history")
  
 ### See also
 

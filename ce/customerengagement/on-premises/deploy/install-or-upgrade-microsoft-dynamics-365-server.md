@@ -2,7 +2,7 @@
 title: "Install or upgrade Microsoft Dynamics 365 Server | Microsoft Docs"
 ms.custom: 
 ms.date: 01/25/2019
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Install or upgrade Microsoft Dynamics 365 Server
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 This section explains how to install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].   
   
@@ -115,6 +120,6 @@ This section explains how to install [!INCLUDE[pn_microsoftcrm_server](../includ
  [Microsoft Dynamics 365 Customer Engagement (on-premises) Installation Guide](installing-on-premises-dynamics-365.md) </br>   
  [Install and enable a Language Pack](install-and-enable-a-language-pack.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
