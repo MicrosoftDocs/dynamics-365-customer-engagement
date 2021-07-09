@@ -45,7 +45,7 @@ On the **Active Time Off Request** screen, select **New**.
 Use the tooltips to help fill in your information, and then select **Save**.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a time-off request](./media/time-off-request.png)
+> ![Screenshot of a time-off request.](./media/time-off-request.png)
 
 
 ## Approve a time-off request  
@@ -63,7 +63,7 @@ To approve a request, select it, and in the command bar at the top, select **App
 When the approval is completed, select **OK**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of active time-off requests, with attention to the approve option](./media/time-off-approve.png)
+> ![Screenshot of active time-off requests, with attention to the approve option.](./media/time-off-approve.png)
 
 Approved time-off requests will change to a status of *Inactive*. Inactive records can be found in the **Inactive Time Off Requests** view. Additionally, time off requests will show in the resource's calendar along with their normal working hours.
 
@@ -73,7 +73,7 @@ Approved time-off requests will change to a status of *Inactive*. Inactive recor
 Once the time-off request is created or approved, depending on whether the resource requires approval or not, the resource's time-off time range will show as unavailable on the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing time-off greyed out](./media/time-off-schedule-board.png)
+> ![Screenshot of the schedule board showing time-off greyed out.](./media/time-off-schedule-board.png)
 
 These time-off hours are displayed and treated the same as non-working hours.
 
@@ -88,7 +88,7 @@ To **edit**, double-click the time-off that was created when the time-off reques
 To **delete**, select and highlight the time-off and select the delete icon.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the monthly view of a resource's work hours, pointing to the delete option](./media/time-off-delete.png)
+> ![Screenshot of the monthly view of a resource's work hours, pointing to the delete option.](./media/time-off-delete.png)
 
 > [!Note]
 > Deleting a time-off request record will not delete the time-off from the schedule board or resource's calendar.

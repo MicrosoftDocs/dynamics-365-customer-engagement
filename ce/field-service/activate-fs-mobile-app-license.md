@@ -29,7 +29,7 @@ Complete the [activation request form for the mobile configurator (Woodford)](ht
 
 - To find out your **trial end date**, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
-  > ![OrgID](media/woodford-expiration.png)  
+  > ![OrgID.](media/woodford-expiration.png)  
 
 - If you make any updates or do any work that changes the organization ID, you need to submit a new request to activate the mobile configurator for the organization.
 
@@ -38,7 +38,7 @@ Complete the [activation request form for the mobile configurator (Woodford)](ht
  1. Go to **Settings** > **Customizations** > **Developer Resources**.
  2. In the **Instance Reference Information** section, locate the ID.
         
-  > ![OrgID](media/admin-orgid.png)  
+  > ![OrgID.](media/admin-orgid.png)  
   
 
 ## Previous app versions

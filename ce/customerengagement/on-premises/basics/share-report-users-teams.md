@@ -3,7 +3,7 @@ title: "Share a report with other users or teams (Dynamics 365 Customer Engageme
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -33,7 +33,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report and on the command bar, select **Edit**.  
 
-3. On the **Actions**![action](../basics/media/action-button.gif "action") menu, select **Sharing**.
+3. On the **Actions**![action.](../basics/media/action-button.gif "action") menu, select **Sharing**.
   
 4.  In the **Share Report** dialog box, select **Add User/Team**.  
   
@@ -52,7 +52,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report, and on the command bar, select **Edit**.  
  
-3.  On the **Actions**![action](../basics/media/action-button.gif "action") menu, select **Make Report Available to Organization**.  
+3.  On the **Actions**![action.](../basics/media/action-button.gif "action") menu, select **Make Report Available to Organization**.  
  
 ize/customize-organize-reports.md)
 
@@ -77,7 +77,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report and on the command bar, select **Edit**.  
 
-3. On the **Actions**![action](../basics/media/action-button.gif "action") menu, select **Sharing**.
+3. On the **Actions**![action.](../basics/media/action-button.gif "action") menu, select **Sharing**.
   
 4.  In the **Share Report** dialog box, select **Add User/Team**.  
   
@@ -96,7 +96,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report, and on the command bar, select **Edit**.  
  
-3.  On the **Actions**![action](../basics/media/action-button.gif "action") menu, select **Make Report Available to Organization**.  
+3.  On the **Actions**![action.](../basics/media/action-button.gif "action") menu, select **Make Report Available to Organization**.  
  
 ize/customize-organize-reports.md)
 

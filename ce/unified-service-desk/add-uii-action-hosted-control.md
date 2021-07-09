@@ -35,7 +35,7 @@ As new versions of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 6. On the **New UII Action** page, specify the name of the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action in the **Name** field, and then select **Save and Close**. You don’t have to specify any other value on this page.  
   
-   ![Add a UII action to a hosted control](../unified-service-desk/media/usd-new-uii-action-hc.png "Add a UII action to a hosted control")  
+   ![Add a UII action to a hosted control.](../unified-service-desk/media/usd-new-uii-action-hc.png "Add a UII action to a hosted control")  
   
     The new [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action gets added to the hosted control instance, and can be used in your action calls.  
   

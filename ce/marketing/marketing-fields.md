@@ -90,11 +90,11 @@ To create a cascading field:
 1. Select the child set that you want to nest into the parent field.
 1. On the **Properties** pane, go to **Field attributes** > **Filter by** and select **Set up relationships**.
 
-    ![Field attributes](media/cascading-fields.png "Field attributes")
+    ![Field attributes.](media/cascading-fields.png "Field attributes")
 
 1. Set the parent and child options that will be connected.
 
-    ![Parent child options](media/marketing-fields-cascading.png "Parent child options")
+    ![Parent child options.](media/marketing-fields-cascading.png "Parent child options")
 
 > [!NOTE]
 > If there are no fields that can be selected as a parent, the **Field attributes** section is not shown.
@@ -114,7 +114,7 @@ If the lookup field that you want to set up is a custom field you've created, en
 
 To set the Security Role manually:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 1. Select the **Security roles** icon.
 1. Go to **Marketing Services User Extensible Role** > **Custom Entities**.

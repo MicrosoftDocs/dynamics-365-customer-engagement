@@ -97,7 +97,7 @@ In the form, fill out relevant details.
 Finally, you'll schedule the work order to a frontline worker. On the getting started page, select **Schedule** to go to the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the getting started page in Field Service, with attention to the schedule your work orders section,](./media/getstarted-schedule1.png)
+> ![Screenshot of the getting started page in Field Service, with attention to the schedule your work orders section,.](./media/getstarted-schedule1.png)
 
 Find your work order in the lower pane, then select-and-drag it to your frontline worker.
 

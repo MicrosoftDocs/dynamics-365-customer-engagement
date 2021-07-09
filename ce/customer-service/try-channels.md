@@ -42,7 +42,7 @@ With this option, you can get a free 30-day trial of Omnichannel for Customer Se
 3. Enter your work email and phone number, and then select **Get started**.
 
     > [!div class=mx-imgBorder]
-    > ![Create a Customer Service trial](media/cs-trial.png "Create a Customer Service trial")
+    > ![Create a Customer Service trial.](media/cs-trial.png "Create a Customer Service trial")
 
 4. Sign in with your global administrator credentials and accept the terms and privacy policy. If you already have trial instances (Dynamics 365 instances with Instance Type set to Trial), you'll be asked to create your own trial.
 
@@ -65,7 +65,7 @@ If you already have a subscription of Dynamics 365 Customer Service Enterprise o
 3. Search for Power BI (free) and complete the purchase of Power BI (free) subscription.
 
     > [!div class=mx-imgBorder]
-    > ![Power BI (free) subscription](media/powerbi-free.png "Power BI (free) subscription")
+    > ![Power BI (free) subscription.](media/powerbi-free.png "Power BI (free) subscription")
 
 ## Channels trial through Microsoft 365 admin center
 
@@ -98,7 +98,7 @@ For information about the Digital Messaging license, pricing, and prerequisites,
 5. After signing up for a trial, you must assign licenses of Digital Messaging to the users who need to engage with customers and provide support via Omnichannel for Customer Service. Select one or more active users and edit their product licenses. After you're done, select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Digital Messaging product licenses dialog box](media/digital-trial-assign-users.png "Digital Messaging product licenses dialog box")
+    > ![Digital Messaging product licenses dialog box.](media/digital-trial-assign-users.png "Digital Messaging product licenses dialog box")
 
 ## Provision channels in your organization
 

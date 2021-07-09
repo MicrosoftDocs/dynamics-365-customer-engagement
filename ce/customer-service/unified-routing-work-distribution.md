@@ -73,7 +73,7 @@ The following section outlines a scenario to understand unified routing and work
 A customer initiates a conversation (chat) regarding **Billing**. Now, routing and work assignment help route the conversation to the **Billing** queue, and assign the conversation to an agent who is a member of the queue with the required presence and capacity. This is shown in the following illustration.
 
 > [!div class=mx-imgBorder]
-> ![Routing and work assignment scenario](media/oc-scenario.png)
+> ![Routing and work assignment scenario.](media/oc-scenario.png)
 
 Let us see the steps involved in the scenario walk-through.
 

@@ -37,7 +37,7 @@ The CTI Desktop Manager component is the interface between the computer telephon
   
   Use the BaseCtiDesktopManagerControl.cs file in the **USD CTI Connector** project template to configure your CTI Desktop Manager, and the AgentStateManager.cs and CallStateManager.cs files in to configure call and agent states. These files provide pre-wired methods and instructions (in the form of comments) to help you create a CTI Desktop Manager component.  
   
-  ![Manage CTI Desktop Manager](../unified-service-desk/media/usd-manage-cti-desktop-manager.png "Manage CTI Desktop Manager")  
+  ![Manage CTI Desktop Manager.](../unified-service-desk/media/usd-manage-cti-desktop-manager.png "Manage CTI Desktop Manager")  
   
 <a name="CustLookup"></a>   
 ## Raise a search request when a call arrives  

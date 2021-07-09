@@ -30,7 +30,7 @@ Consider the following scenarios that might call for requirement dependencies:
 Requirement dependencies let you schedule requirements in a specific order by relating them through a predecessor and successor dependency relationship. When resource scheduling optimization runs, it ensures the requirements are scheduled in the correct order where the start time of the defined predecessor is after the end time of the predecessor. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing scheduled requirements](./media/rso-requirement-dependency.png)
+> ![Screenshot of the schedule board showing scheduled requirements.](./media/rso-requirement-dependency.png)
 
 In the previous screenshot, you can see resource scheduling optimization scheduled requirements "Task 2.1," "Task 2.2," and "Task 2.3" in order.
 

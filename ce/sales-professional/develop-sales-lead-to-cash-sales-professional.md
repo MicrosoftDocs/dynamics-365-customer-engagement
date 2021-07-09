@@ -25,7 +25,7 @@ You also end up with a more complete history that you can refer to later, if you
 
 Your sales process begins with a lead—someone who is interested in the products or services you provide. Your leads might be automatically generated or they might come from other sources, such as website opt-in pages, email queries, or business cards that you gather at trade shows.
 
-![Steps in a lead-to-cash process](media/lead-to-cash-process.png "Steps in a lead-to-cash process")
+![Steps in a lead-to-cash process.](media/lead-to-cash-process.png "Steps in a lead-to-cash process")
 
 
 ### See also

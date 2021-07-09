@@ -106,7 +106,7 @@ The following screenshot shows an example custom CRM action.  This sample is che
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a custom CRM action](./media/scheduling-booking-rules-worflow.png)
+> ![Screenshot of a custom CRM action.](./media/scheduling-booking-rules-worflow.png)
 
 ## Sample code
 

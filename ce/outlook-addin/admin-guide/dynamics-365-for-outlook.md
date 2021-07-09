@@ -37,7 +37,7 @@ search.app:
 
 [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)] can synchronize email messages, contacts, tasks, and appointments between [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] and Dynamics 365 (client-to-server synchronization). Similar to [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], synchronization filters are used to synchronize messaging data from Dynamics 365 to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]. Manually tracked or Inbox-rule based tracking is used to synchronize messaging data from [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] or [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to Dynamics 365.  
   
- ![Dynamics 365 for Outlook synchronization](../media/crmforoutlooksync.png "Dynamics 365 for Outlook synchronization")  
+ ![Dynamics 365 for Outlook synchronization.](../media/crmforoutlooksync.png "Dynamics 365 for Outlook synchronization")  
   
  When you use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], there are a few synchronization concepts that are helpful to understand. Notice that, to have any of this [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] functionality, each [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] user must run the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] add-in and the Dynamics 365 user mailbox record must be configured appropriately.  
   

@@ -61,7 +61,7 @@ For example, in Field Service, you'll see new fields added to the warehouse enti
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a warehouse, showing the integration section](./media/inventory-warehouse-supply-chain2.png)
+> ![Screenshot of a warehouse, showing the integration section.](./media/inventory-warehouse-supply-chain2.png)
 
 When a warehouse record is created or updated in either system, the change will show in the other system in near real time.
 
@@ -85,7 +85,7 @@ For each entity in the integration, the relevant fields are mapped to the other 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of dual-write mapping details](./media/scm-pomap-details.jpg)
+> ![Screenshot of dual-write mapping details.](./media/scm-pomap-details.jpg)
 
 As the last part of the process, a purchase order is created in Field Service with relevant information from both systems. 
 

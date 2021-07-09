@@ -51,7 +51,7 @@ Field Service supports three out-of-the-box returns:
 4. When you're done, **Save**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an RMA](./media/inventory-rma.png)
+> ![Screenshot of an RMA.](./media/inventory-rma.png)
 
 #### Ship via
 
@@ -66,7 +66,7 @@ When you create a Field Service RMA, you can track how the return will be transp
 2.  Use the tooltips to help fill in your information, and then select **Save & Close**.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an RMA with associated RMA products](./media/inventory-rma-product.png)
+> ![Screenshot of an RMA with associated RMA products.](./media/inventory-rma-product.png)
 
 ### Add products used in a work order
 

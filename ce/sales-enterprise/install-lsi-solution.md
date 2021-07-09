@@ -17,7 +17,7 @@ LinkedIn Sales Insights integration imports the latest company profile data&mdas
 As an administrator, you can install LinkedIn Sales Insights and make it available for your sales teams to use. When installed, all the accounts that are available in your organization will display the **LinkedIn Sales Insights** tab in **Account** forms. Those accounts that have a matching LinkedIn Sales Insights company profile will show data from LinkedIn Sales Insights.
 
 > [!div class="mx-imgBorder"]
-> ![LinkedIn Sales Insights tab in an account form](media/lsi-tab-account.png "LinkedIn Sales Insights tab in an account form")
+> ![LinkedIn Sales Insights tab in an account form.](media/lsi-tab-account.png "LinkedIn Sales Insights tab in an account form")
 
 ## Review the prerequisites
 
@@ -40,17 +40,17 @@ Before you install LinkedIn Sales Insights, be sure you meet the following requi
 1. Go to the [LinkedIn Sales Insights for Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2154471) page, and then select **Get it now**.
 
     > [!div class="mx-imgBorder"]
-    > ![LinkedIn Sales Insights for Dynamics 365 AppSource page](media/lsi-appsource-page.png "LinkedIn Sales Insights for Dynamics 365 AppSource page")
+    > ![LinkedIn Sales Insights for Dynamics 365 AppSource page.](media/lsi-appsource-page.png "LinkedIn Sales Insights for Dynamics 365 AppSource page")
 
 2. Read the terms and conditions, and then select **Continue**.     
 
     > [!div class="mx-imgBorder"]
-    > ![Select Continue to proceed with installation](media/lsi-installation-continue.png "Select Continue to proceed with installation")
+    > ![Select Continue to proceed with installation.](media/lsi-installation-continue.png "Select Continue to proceed with installation")
 
     A Power Platform admin center page opens where you can select the organization to install LinkedIn Sales Insights for Dynamics 365.
 
     > [!div class="mx-imgBorder"]
-    > ![Select your organization to install LinkedIn Sales Insights](media/lsi-select-organization.png "Select your organization to install LinkedIn Sales Insights")
+    > ![Select your organization to install LinkedIn Sales Insights.](media/lsi-select-organization.png "Select your organization to install LinkedIn Sales Insights")
 
 3. In the **Select an environment** list, select your organization, select the check boxes for Microsoft and Dynamics 365 legal terms and privacy statements, and then select **Install**. On the **Manage your solutions** page, you can see the status of the installation.
 
@@ -65,7 +65,7 @@ To verify that the installation is complete, perform the steps in the following 
 3. Verify that the **msdyn_linkedinsalesinsights** solution is installed in your organization.
 
     > [!div class="mx-imgBorder"]
-    > ![Validate the LinkedIn Sales Insights solution installation](media/lsi-validate-installation.png "Validate the LinkedIn Sales Insights solution installation")
+    > ![Validate the LinkedIn Sales Insights solution installation.](media/lsi-validate-installation.png "Validate the LinkedIn Sales Insights solution installation")
 
 ## Uninstall the solution
 

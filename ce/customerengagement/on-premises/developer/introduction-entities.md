@@ -4,7 +4,7 @@ description: "Learn about entities that manage business data. Business entities 
 ms.custom: 
 ms.date: 11/30/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

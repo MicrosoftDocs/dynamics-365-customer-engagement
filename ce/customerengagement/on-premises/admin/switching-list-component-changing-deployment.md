@@ -4,7 +4,7 @@ description: "Switch from the list component to server-based authentication."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -65,15 +65,15 @@ If the **Enable Server-Based SharePoint Integration** icon doesn't appear in the
     -	**Use Saved View**: **[new]**
     -	Select the down arrow next to the **Service Type** clause and then select **Delete** to remove it. 
 
-        ![Delete Service Type clause](media/delete-service-type-clause.png)
+        ![Delete Service Type clause.](media/delete-service-type-clause.png)
 
 2. Add **Status** as a new clause, select **Active** as the value, and then select **OK**: 
 
-    ![Select Active SharePoint Sites](media/select-active.png)
+    ![Select Active SharePoint Sites.](media/select-active.png)
 
 3. The **Status** clause appears like this. 
 
-    ![Status clause](media/status-clause.png)
+    ![Status clause.](media/status-clause.png)
 
 4. Select **Results**.
     In the list of active SharePoint sites returned by the query, select all records, and then on the toolbar, select **Deactivate**.

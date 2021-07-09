@@ -3,7 +3,7 @@ title: "Create, edit, or save an Advanced Find search (Dynamics 365 Customer Eng
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -44,7 +44,7 @@ With the Customer Engagement (on-premises), you can use the advanced find option
          
         If you're using Dynamics 365 Customer Engagement (on-premises), can use advanced find to build a "Does not contain data" query. For example, you can query for all cases that do not contain a task. To do this launch advanced find and in the query, choose look for **Cases** and **Tasks (Regarding)** and chooses **Does not contain data**. 
          
-        ![Advanced find does not contain query](media/advancedfind.png "Advanced find does not contain query")
+        ![Advanced find does not contain query.](media/advancedfind.png "Advanced find does not contain query")
   
 3. Specify the columns to include in the search results.  
   
@@ -99,7 +99,7 @@ With the Customer Engagement (on-premises), you can use the advanced find option
          
         If you're using Dynamics 365 Customer Engagement (on-premises), can use advanced find to build a "Does not contain data" query. For example, you can query for all cases that do not contain a task. To do this launch advanced find and in the query, choose look for **Cases** and **Tasks (Regarding)** and chooses **Does not contain data**. 
          
-        ![Advanced find does not contain query](media/advancedfind.png "Advanced find does not contain query")
+        ![Advanced find does not contain query.](media/advancedfind.png "Advanced find does not contain query")
   
 3. Specify the columns to include in the search results.  
   

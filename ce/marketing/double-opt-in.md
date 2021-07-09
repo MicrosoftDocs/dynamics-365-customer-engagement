@@ -75,7 +75,7 @@ To create a subscription confirmation-request message:
     > You can't use the **Test Send** button to send yourself a test message when you are designing a confirmation-request message. To test your message design, set up a test subscription page and try to sign yourself up for a mailing list.
 
 
-![Dynamics elements in a subscription confirmation-request message](media/doi-subscription-confirm-message.png "Dynamics elements in a subscription confirmation-request message")
+![Dynamics elements in a subscription confirmation-request message.](media/doi-subscription-confirm-message.png "Dynamics elements in a subscription confirmation-request message")
 
 The previous illustration highlights important elements provided by the **diamante** template, with the **Properties** pane showing settings for the confirmation button. Note especially the Handlebars expressions, which are placeholders for dynamic values that will be resolved independently each time the message is sent. The following Handlebars expressions are available:
 
@@ -86,7 +86,7 @@ The previous illustration highlights important elements provided by the **diaman
 
 The following screenshot shows a Dynamics 365 Marketing subscription-list record with the **Name** and **Description** fields highlighted. These are the values that you can include in your subscription confirmation-request message.
 
-![Subscription list settings available to confirmation-request messages](media/doi-sub-list-settings.png "Subscription list settings available to confirmation-request messages")
+![Subscription list settings available to confirmation-request messages.](media/doi-sub-list-settings.png "Subscription list settings available to confirmation-request messages")
 
 More information: [Email marketing overview](prepare-marketing-emails.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md)
 
@@ -122,7 +122,7 @@ To create an increase consent confirmation-request message:
     > [!NOTE]
     > You can't use the **Test Send** button to send yourself a test message when you are designing a confirmation-request message. To test your message design, set up a test subscription page and use it to increase your consent level.
 
-![Dynamics elements in an increase consent confirmation-request message](media/doi-consent-confirm-message.png "Dynamics elements in an increase consent confirmation-request message")
+![Dynamics elements in an increase consent confirmation-request message.](media/doi-consent-confirm-message.png "Dynamics elements in an increase consent confirmation-request message")
 
 The previous illustration highlights important elements provided by the **custonaci** template, with the **Properties** pane showing settings for the confirmation button. Note especially the Handlebars expressions, which are placeholders for dynamic value that will be resolved independently each time the message is sent. The following Handlebars expressions are available:
 
@@ -134,7 +134,7 @@ The previous illustration highlights important elements provided by the **custon
 
 The following screenshot shows an **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. More information: [Create and edit global option sets](/powerapps/maker/common-data-service/create-edit-global-option-sets)
 
-![Consent option-set values available to confirmation-request messages](media/doi-consent-level-options.png "Consent option-set values available to confirmation-request messages")
+![Consent option-set values available to confirmation-request messages.](media/doi-consent-level-options.png "Consent option-set values available to confirmation-request messages")
 
 More information: [Data protection and the GDPR](gdpr.md)
 
@@ -174,7 +174,7 @@ To set up and enable the global double opt-in system:
 1. A list of default settings records opens. Usually there will be just one record here. Open the available record—or the one that is currently active (which has its **Default** field set to **Yes**).
 
 1. Open the **Double opt-in** tab on the **Default marketing settings** page.  
-    ![The Double opt-in tab for Marketing settings](media/doi-marketing-settings.png "The Double opt-in tab for Marketing settings")
+    ![The Double opt-in tab for Marketing settings.](media/doi-marketing-settings.png "The Double opt-in tab for Marketing settings")
 
 1. Make the following settings:
 
