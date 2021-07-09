@@ -56,7 +56,7 @@ Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.m
   
 - If you're using [!INCLUDE[pn_ms_Excel_2010_short](../includes/pn-ms-excel-2010-short.md)], \ you may get this error message when you export data from Accounts area: 
  
-      "The file is corrupt and cannot be opened."  
+      **The file is corrupt and cannot be opened.**  
   
    The error message occurs due to a setting in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]. To fix the issue, do this:  
   
@@ -126,7 +126,7 @@ Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.m
   
 - If you're using [!INCLUDE[pn_ms_Excel_2010_short](../includes/pn-ms-excel-2010-short.md)], \ you may get this error message when you export data from Accounts area: 
  
-      "The file is corrupt and cannot be opened."  
+      **The file is corrupt and cannot be opened.**  
   
    The error message occurs due to a setting in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]. To fix the issue, do this:  
   
