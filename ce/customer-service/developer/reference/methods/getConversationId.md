@@ -1,6 +1,6 @@
 ---
 title: "getConversationId (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
-description: " "
+description: "Omnichannel for Customer Service Session API reference "
 ms.date: 10/15/2020
 ms.topic: article
 author: platkat

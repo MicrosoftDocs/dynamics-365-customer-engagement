@@ -1,7 +1,7 @@
 ---
 title: "getConversations (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
 description: "Omnichannel for Customer Service Session API reference"
-ms.date: 07/06/2021
+ms.date: 07/12/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -45,18 +45,10 @@ The following code snippet fetches the currently waiting conversation for the gi
 var input = { 
             "attributes": ["msdyn_title", "msdyn_channel"], "orderBy": [{ "attributeName": "createdon", "descending": true }], 
 "agentId": "<<AgentId>>", "status": [3], }; 
-
-
-Microsoft.Omnichannel.getConversations(input).then(result=>{ 
-
-    console.log("result is as:", result); 
-
-} 
-
-, (error)=>{ 
-
+Microsoft.Omnichannel.getConversations(input).then(result => { 
+console.log("result is as:", result); 
+}, (error)=>{ 
     console.log("error is as:", error); 
-
 }); 
 ```
  
