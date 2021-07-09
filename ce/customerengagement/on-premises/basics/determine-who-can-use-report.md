@@ -1,5 +1,6 @@
 ---
-title: "Determine who can use a report (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Who can use reports in Dynamics 365 Customer Engagement (on-premises)"
+description: "By default, a report is personal and can only be used by the author unless it's shared. Follow these steps to share a report or change the owner."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
