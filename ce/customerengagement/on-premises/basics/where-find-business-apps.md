@@ -1,7 +1,7 @@
 ---
-title: "Where to find your business apps (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-ms.custom: 
-description: How to find your app in Dynamics 365 Customer Engagement (on-premises).
+title: "Find business apps in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to find your business apps in Dynamics 365 Customer Engagement (on-premises), including through the Unified Interface and in the legacy web client."
+ms.custom:
 ms.date: 03/24/2021
 ms.reviewer: 
 ms.prod: d365ce-op

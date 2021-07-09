@@ -1,7 +1,7 @@
 ---
-title: "Review settings and import data (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Review settings for imported data in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to set the Import Data wizard to check for duplicate data, decide who owns the imported data, and save the import settings to use again later."
 ms.custom: 
-description: Review settings and import data.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.suite: 

@@ -1,6 +1,6 @@
 ---
-title: Find your way around Dynamics 365 Customer Engagement (on-premises)| Microsoft Docs
-description: Know the sitemap of Microsoft Dynamics 365 Customer Engagement (on-premises)
+title: "Navigation of Dynamics 365 Customer Engagement (on-premises)"
+description: "Get familiar with the sitemap of Dynamics 365 Customer Engagement (on-premises). Learn how to move between apps, pages, and records."
 keywords: Microsoft Dynamics 365 Customer Engagement (on-premises); Customer Service; Sitemap;
 author: mduelae
 applies_to: Dynamics 365 Customer Engagement (on-premises)
