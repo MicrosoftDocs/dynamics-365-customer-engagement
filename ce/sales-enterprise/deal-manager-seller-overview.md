@@ -17,7 +17,7 @@ manager: shujoshi
 
 Deal manager is a dedicated workspace for sellers. As a seller, you can personalize the workspace depending on what you want to see in your workspace. You can organize opportunities in a way that makes sense to you, personalize your view, update information on-the-fly, add notes and tasks, and many more. You can also request your administrator to customize the experience further to improve your productivity.  
 
-:::image type="content" source="media/deal-manager-overview-v4.png" alt-text="Screenshot of deal manager workspace in a nutshell" lightbox="media/deal-manager-overview-v1.png":::
+:::image type="content" source="media/deal-manager-overview-v4.png" alt-text="Screenshot of deal manager workspace in a nutshell" lightbox="media/deal-manager-overview-v4.png":::
 
 
 |No in the image  |Feature  |Description  |

@@ -238,6 +238,8 @@
           href: access-deal-manager.md
         - name: Personalize the deal manager
           href: personalize-deal-manager.md   
+        - name: Known issues
+          href: deal-manager-known-issues.md  
       - name: Work with opportunities in the Kanban view
         href: opportunity-kanban-view.md
       - name: Reopen leads
