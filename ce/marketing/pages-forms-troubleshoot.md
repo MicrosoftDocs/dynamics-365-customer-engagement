@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot pages and forms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Troubleshooting and frequently asked questions for pages and forms in Dynamics 365 Marketing."
-ms.date: 07/07/2021
+ms.date: 07/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -29,14 +29,14 @@ If the form capture tool is not creating leads or contacts, follow the troublesh
 - Open the page where the form is hosted in the browser.
 - Open DevTools and go to the **Network** tab. Filter for "/t/c/", the request should look like this:
 ``
-https://a5b318f2701a4f129ec054dd67d89ddc.svc.dynamics.com/t/c/F1ImvEGziESreNxMvhPwM3NN4xgOIjGOOzZL_sv6ckA/rVsp5lpmbDK_yMF80q5inAQeM73bcYKkbmiHLOak/ISUqp_Lw?trackwebsitevisited=true&ad=https%3A%2F%2Fwww.contoso.com%2Fcontact%2F&rf=&id=9430316937
+https://5fe34c1f8d1dd6db05ad78a249c09712.svc.dynamics.com/t/c/IvgkEwv4GIs1ScAxmzz6GMONjZFNON3OMriPhE_eLxv/rVsp5lpmbDK_yMF80q5inAQeM73bcYKkbmiHLOak/ISUqp_Lw?trackwebsitevisited=true&ad=https%3A%2F%2Fwww.contoso.com%2Fcontact%2F&rf=&id=9430316937
 ``
 - Check if there is a successful response that contains captured forms (see image below).
   - If the response is an error, there is an issue with the setup.
   - Format the response by selecting **{}** on the bottom left of the console window.
   - Look for `captureForms` in the response.
   - If `captureForms` is missing, there is a setup issue. Likely, the form is captured on a different URL.
-- Check `formId`. First, try to match by the ID. If the ID is missing, match by the name/action/method combo. Check that the values match the form. Capturing the code writes the following line to the console: `Missing forms - []`. If there is something between **[** and **]**, the system was unable to find forms matching the capturing definition.
+- Check `formId`. Check that the values match the form. First, try to match by the ID. If the ID is missing, match by the name/action/method combo. Capturing the code writes the following line to the console: `Missing forms - []`. If there is something between **[** and **]**, the system was unable to find forms matching the capturing definition.
   - It is also possible that some identification data changed. You may be able to revert and prevent changes.
   - If changes cannot be prevented, the following attributes help:
     - `data-find-by-id-fallback-to-action="true"` to ignore the ID attribute of the form and use the name/action/method combo.
