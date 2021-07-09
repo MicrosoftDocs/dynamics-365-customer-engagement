@@ -9,7 +9,7 @@ ms.date: 05/05/2020
 ms.prod: d365ce-op
 ms.topic: article
 author: mduelae
-ms.author: mduelae
+ms.author: mkaur
 manager: kvivek
 ms.assetid: 1b5a5819-3547-4d9c-af3f-d6268cbeac02
 ms.custom: 
