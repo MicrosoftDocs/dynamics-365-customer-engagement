@@ -7,7 +7,7 @@ ms.reviewer: "kvivek"
 ms.prod: d365ce-op
 ms.topic: "article"
 author: "kvivek"
-ms.author: "KumarVivek"
+ms.author: "kvivek"
 manager: "annbe"
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9.x
@@ -52,7 +52,7 @@ To avoid duplicating the common information between Customer Engagement (on-prem
 
 ## Documentation for previous version
 
-Documentation for previous version (8.x and earlier) is available here: <https://docs.microsoft.com/previous-versions/dynamics/>.
+Documentation for previous version (8.x and earlier) is available here: </previous-versions/dynamics/>.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
