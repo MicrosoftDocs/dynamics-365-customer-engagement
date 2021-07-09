@@ -12,6 +12,8 @@ ms.custom:
 
 # Help resources for Customer Service
 
+*<a href="https://dynamics.microsoft.com/en-us/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
+<br><br>
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE41po2?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
