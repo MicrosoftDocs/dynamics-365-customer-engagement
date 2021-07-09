@@ -39,7 +39,7 @@ With the latest versions of Field Service Mobile (Xamarin app), you only need a 
 
 To find your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
-  > ![OrgID](media/woodford-expiration.png)  
+  > ![Woodford trial expiration date.](media/woodford-expiration.png)  
 
 > [!Note]
 > If you make any updates or do any work that changes the organization ID, you need to submit a new request to activate the mobile configurator for the organization.
@@ -49,7 +49,7 @@ To find your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woo
  1. Go to **Settings** > **Customizations** > **Developer Resources**.
  1. In the **Instance Reference Information** section, find the ID.
         
-  > ![OrgID](media/admin-orgid.png)  
+  > ![Org ID in settings.](media/admin-orgid.png)  
   
 
 
