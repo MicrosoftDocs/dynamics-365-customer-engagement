@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Known issues in deal manager
 
-This page includes the known issues and possible workarounds in this release of deal manager.
+This page includes the known issues in this release of deal manager. We're actively working on these issues and we should have an update soon.  
 
 ## Filters
 
@@ -30,7 +30,7 @@ When you customize the bubble chart, you have the option to change the Segment b
 ### Funnel chart cannot be customized
 Though you can customize the bubble chart, the Sales funnel chart cannot be customized. You can only enable or disable the chart and change the name of the chart.
 
-### Smart fields are not supported in tooltip
+### Smart fields are not supported in tooltips
   
 In the chart tooltip, you can only select the basic fields; smart fields are not yet supported.
 
@@ -38,6 +38,10 @@ In the chart tooltip, you can only select the basic fields; smart fields are not
 
 ### Client-side personalization cannot be saved to the view
 
-Any personalization that you do in the deal manager workspace directly cannot be saved to a view. For example, if you modify the metrics, edit columns, or add filters in the workspace, they will not be saved to a view. However, the changes you make will be persisted across sessions until you switch to a different view.
+Any personalization that you do in the deal manager workspace directly cannot be saved to a view. For example, if you modify the metrics, edit columns, or add filters in the workspace, they will not be saved to a view. However, the changes will be available until you logout. 
 
-If you want to save the personalization, create or edit a view and make those changes. 
+If you want to save the personalization, [create a view](personalize-deal-manager.md#create-a-view) and make those changes. 
+
+### Views cannot be edited
+
+Editing the view from the deal manager workspace is not supported in this release.

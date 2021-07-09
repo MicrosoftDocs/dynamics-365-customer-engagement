@@ -139,4 +139,5 @@ The following customizations are not supported for side panel in this release:
 
 ### See also
 
-- [Deal manager (Preview)](deal-manager-overview.md)
+- [Access deal manager workspace (Preview)](access-deal-manager.md)
+- [Using deal manager workspace (Preview)](deal-manager-seller-overview.md)

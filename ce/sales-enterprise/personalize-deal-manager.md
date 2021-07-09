@@ -56,6 +56,9 @@ Personalize the grid to include columns that you want to see and update quickly.
 - Drag-and-drop columns to rearrange them in the grid
 - Resize, sort, and group records by columns.  
 
+> [!NOTE]
+> The personalization changes explained in this section are only persisted until you logout. If you want to save your changes, [create a view](#create-a-view).  
+
 **To personalize the grid**
 
 1. In the deal manager workspace, scroll down to the grid.
@@ -87,20 +90,22 @@ The following smart columns are available:
 
 ## Apply filters
 
-As a seller, you want the workspace the display records that you're working on. As manager, you want to view records that team is working on. So, apply filters to view the records that you're interested in.
+As a seller, you want the workspace the display records that you're working on. As manager, you want to view records that your team is working on. So, apply filters to view the records that you're interested in.
 
 **To apply filters to the workspace**
 
 1. In the deal manager workspace, select **Filters**.
     The Filters panel displays the columns in your view. 
 1. Select **More filters** to,
-    - Select fields that are not in your view. Related entities are not supported in this release.
-    - View all the selected filters
+    - Select fields that are not in your view
+    - View or delete the existing filters
 1. To specify an OR condition, select **Add group** in the **Add** drop-down.
     :::image type="content" source="media/filter-add-group.PNG" alt-text="Screenshot of the Add group option in the More filters panel":::
+    > [!NOTE]
+    > Though the **Add** drop-down displays **Add related entity**, it is not supported in this release.   
 1. Select the **Or** operator in the drop-down next to the group filter checkbox.
 
-## Deal manager views
+## Create a view
 
 The personalization changes that you directly make in the grid do not persist across sessions. If you want to save your changes permanently, create a view. You can personalize the following aspects of the grid in a view:
 
@@ -110,8 +115,6 @@ The personalization changes that you directly make in the grid do not persist ac
 
 > [!NOTE]
 > Currently, changes to metrics or other personalization changes to the grid cannot be saved to the view.
-
-### Create a view
 
 **To create a view:**
 

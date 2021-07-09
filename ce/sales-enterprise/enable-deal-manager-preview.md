@@ -23,7 +23,7 @@ As an administrator, you must enable the preview and grant access to specific se
 
 Access the deal manager settings page to enable the deal manager preview, grant access to users, and to customize the grid and charts. If you're using the Sales Hub app, use the **App Settings** page to access the deal manager settings. If you're using a custom app, add the deal manager settings and the deal manager workspace in Power Apps Settings.
 
-### Access deal manager settings in Sales Hub**
+### Access deal manager settings in Sales Hub
 
 1. In the Sales Hub app, select the **Change area** icon
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
@@ -32,19 +32,19 @@ Access the deal manager settings page to enable the deal manager preview, grant 
 
 <a id="dmincustomapp"></a>
 
-### Add deal manager settings and deal manager workspace in custom app**
+### Add deal manager settings and deal manager workspace in custom app
 
 1. Sign in to [Power Apps](https://make.powerapps.com/)
 1. Select the environment and then select **Apps**.
      :::image type="content" source="media/powerapps-UI.PNG" alt-text="Power Apps UI with Environment and Apps highlighted":::
 1. Select your custom app and select **Edit**.
 1. In the **App Designer**, edit the **Site Map**.
-1. To add the deal manager settings page, add a sub-area component, select the type as URL and set the URL to:  
+1. To add the deal manager settings page, add a sub-area component, select the **Type** as *URL* and set the **URL** to:  
      ```
     /main.aspx?appid=860f4439-9cf8-ea11-a813-000d3a54419d&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings
     ``` 
     :::image type="content" source="media/appdesigner-subarea.PNG" alt-text="Subarea component in the App designer":::  
-1. To add the deal manager workspace, add a sub-area component, select the type as URL and set the URL to:
+1. To add the deal manager workspace, add a sub-area component, select the **Type** as *URL* and set the **URL** to:
     ```
     /main.aspx?pagetype=control&controlName=MscrmControls.Sales.DealManager.DealManager&data={"entityType":"opportunity"}
     ```
