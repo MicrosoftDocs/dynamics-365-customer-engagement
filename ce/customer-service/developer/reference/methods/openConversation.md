@@ -20,11 +20,11 @@ This function can be used to open a conversation as a session programmatically.
 
 ## Parameters
 
-| Parameter                  | Type   | Description |
-| ---------------------------| -----  | ----------- |
-| `liveworkitemId` (Required)  | String | Unique identifier for the conversation to open.   |
-| `lastsessionId` (Optional)   | String | Unique identifier for the last sessionId in which conversation was opened.    |
-| `liveworkstreamId` (Optional)| String | Unique identifier for the live workstream to which the conversation belong.   |
+| Parameter        | Type   | Description |
+| -----------------| -----  | ----------- |
+| liveworkitemId   | String | Unique identifier for the conversation to open. (Required) |
+| lastsessionId    | String | Unique identifier for the last sessionId in which conversation was opened. (Optional)     |
+| liveworkstreamId | String | Unique identifier for the live workstream to which the conversation belong. (Optional)  |
 
 ## Return Value
 
