@@ -20,14 +20,26 @@ This function can be used to fetch a list of conversation (`msdyn_ocliveworkitem
 
 ## Parameters
 
-| Parameter     | Type   | Description           |
-| ------------- | ------ | --------------------- |
-| input         | String | JSON input in the following format: (Required) | 
-| correlationId | String | Unique identifier for telemetry logging. (Optional)  |
+| Parameter               | Type   | Description           |
+| -------------           | -------| --------------------- |
+| input (Required)        | String | JSON input in the following format: <br>{`attributes, agentID, status, orderBy, createdBeforeDays`}  </br> <br> The `agentId` is the only required input variable and the rest are optional.</br>| 
+| correlationId (Optional)| String | Unique identifier for telemetry logging.   |
+
+`attributes`: String[] containing entity attribute names
+
+`agentId`: String containing unique identifier for the agent
+
+`status`: String[] containing statuscode values
+
+`orderBy`: Array of objects in the format: [{ `attributeName`: "<Attribute_Name>" `descending`:\<boolean>}]
+
+`createdBeforeDays`: Number of days
+
+
 
 ## Return Value
 
-A resolved/reject promise on the basis of the outcome of the operation. 
+A resolved or reject promise on the basis of the outcome of the operation. 
 
 > [!Note] 
 > Even if the caller doesn't pass any attributes in the input, the function returns the records with the following default attributes: 
