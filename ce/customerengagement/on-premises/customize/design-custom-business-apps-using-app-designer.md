@@ -4,7 +4,7 @@ description: Learn how to design apps using the app designer.
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -40,12 +40,12 @@ Custom business apps are comprised of components such as entities, dashboards, f
 
 |Step|Description|Related topics|  
 |----------|-----------------|--------------------|  
-|![Step 1](../customize/media/walkthrough-green-1.png "Step 1")|Define app properties.|[Create or edit an app](../customize/create-edit-app.md)|  
-|![Step 2](../customize/media/walkthrough-green-2.png "Step 2")|Define navigation for an app using the site map designer.|[Create a site map for an app](../customize/create-site-map-app.md)|  
-|![Step 3](../customize/media/walkthrough-green-3.png "Step 3")|Apps are composed of components like dashboards, entities, business process flows, forms, views, and charts. Include the required ones in your app by using the app designer.|[Add or edit app components](../customize/add-edit-app-components.md)|  
-|![Step 4](../customize/media/walkthrough-green-4.png "Step 4")|Check your app for any required components you haven't added.|[Validate an app](../customize/validate-app.md)|  
-|![Step 5](../customize/media/walkthrough-green-5.png "Step 5")|Make the app available for use.|[Publish an app](../customize/publish-an-app.md)|  
-|![Step 6](../customize/media/walkthrough-green-6.png "Step 6")|Give users access to the apps you created by using security roles.|[Manage access to apps with security roles](../customize/manage-access-apps-security-roles.md)|  
+|![Step 1.](../customize/media/walkthrough-green-1.png "Step 1")|Define app properties.|[Create or edit an app](../customize/create-edit-app.md)|  
+|![Step 2.](../customize/media/walkthrough-green-2.png "Step 2")|Define navigation for an app using the site map designer.|[Create a site map for an app](../customize/create-site-map-app.md)|  
+|![Step 3.](../customize/media/walkthrough-green-3.png "Step 3")|Apps are composed of components like dashboards, entities, business process flows, forms, views, and charts. Include the required ones in your app by using the app designer.|[Add or edit app components](../customize/add-edit-app-components.md)|  
+|![Step 4.](../customize/media/walkthrough-green-4.png "Step 4")|Check your app for any required components you haven't added.|[Validate an app](../customize/validate-app.md)|  
+|![Step 5.](../customize/media/walkthrough-green-5.png "Step 5")|Make the app available for use.|[Publish an app](../customize/publish-an-app.md)|  
+|![Step 6.](../customize/media/walkthrough-green-6.png "Step 6")|Give users access to the apps you created by using security roles.|[Manage access to apps with security roles](../customize/manage-access-apps-security-roles.md)|  
 
 ## Support matrix for the app designer and site map designer  
  The following table shows the supported operating systems and browsers.  

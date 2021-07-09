@@ -3,7 +3,7 @@ title: "Use OneDrive for Business to manage your private documents (Dynamics 365
 description: "Store your private or important documents on OneDrive for Business."
 keywords: documents, store, OneDrive, Business
 ms.date: 05/05/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -48,15 +48,15 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
 
 2. If you're using the web app, on the command bar, select the down arrow beside the record name, and then select **Documents**. 
 
-   ![Navigate to related documents of a record](media/go-to-related-documents.png "Navigate to related documents for a record")
+   ![Navigate to related documents of a record.](media/go-to-related-documents.png "Navigate to related documents for a record")
 
    If you're using a mobile-optimized app, select the **Related** tab, and then select **Documents**.
 
-   ![Open the Documents tab in a record in a mobile-optimized app](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
+   ![Open the Documents tab in a record in a mobile-optimized app.](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
 
    After [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled, you'll see the following dialog box when you go to the Document Associated Grid to view documents in Customer Engagement (on-premises) and upload a file to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], or when you attempt to create a new document or folder.  
 
-   ![Change your OneDrive folder](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
+   ![Change your OneDrive folder.](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
 
    Select **Change folder location** to pick a new location to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents, or select **Continue** to accept the default folder location: \Dynamics365. 
 
@@ -70,15 +70,15 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
 
 2. Choose an opportunity from the drop-down menu, and then select **Documents**.  
 
-    ![Choose Opportunities > Documents](../basics/media/choose-opportunity-documents.png "Choose Opportunities > Documents")  
+    ![Choose Opportunities > Documents.](../basics/media/choose-opportunity-documents.png "Choose Opportunities > Documents")  
 
     Customer Engagement (on-premises) now organizes documents in a consolidated view.  
 
-    ![List of documents on OneDrive for Business](media/list-of-documents-in-onedrive.png "List of documents on OneDrive")
+    ![List of documents on OneDrive for Business.](media/list-of-documents-in-onedrive.png "List of documents on OneDrive")
 
 3. Select **Document Location** to filter the document list.  
 
-     ![Choose a document location](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
+     ![Choose a document location.](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
 
 4. Select a location as described in the following table:  
 
@@ -157,15 +157,15 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
 
 2. If you're using the web app, on the command bar, select the down arrow beside the record name, and then select **Documents**. 
 
-   ![Navigate to related documents of a record](media/go-to-related-documents.png "Navigate to related documents for a record")
+   ![Navigate to related documents of a record.](media/go-to-related-documents.png "Navigate to related documents for a record")
 
    If you're using a mobile-optimized app, select the **Related** tab, and then select **Documents**.
 
-   ![Open the Documents tab in a record in a mobile-optimized app](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
+   ![Open the Documents tab in a record in a mobile-optimized app.](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
 
    After [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled, you'll see the following dialog box when you go to the Document Associated Grid to view documents in Customer Engagement (on-premises) and upload a file to [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)], or when you attempt to create a new document or folder.  
 
-   ![Change your OneDrive folder](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
+   ![Change your OneDrive folder.](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
 
    Select **Change folder location** to pick a new location to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents, or select **Continue** to accept the default folder location: \Dynamics365. 
 
@@ -179,15 +179,15 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
 
 2. Choose an opportunity from the drop-down menu, and then select **Documents**.  
 
-    ![Choose Opportunities > Documents](../basics/media/choose-opportunity-documents.png "Choose Opportunities > Documents")  
+    ![Choose Opportunities > Documents.](../basics/media/choose-opportunity-documents.png "Choose Opportunities > Documents")  
 
     Customer Engagement (on-premises) now organizes documents in a consolidated view.  
 
-    ![List of documents on OneDrive for Business](media/list-of-documents-in-onedrive.png "List of documents on OneDrive")
+    ![List of documents on OneDrive for Business.](media/list-of-documents-in-onedrive.png "List of documents on OneDrive")
 
 3. Select **Document Location** to filter the document list.  
 
-     ![Choose a document location](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
+     ![Choose a document location.](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
 
 4. Select a location as described in the following table:  
 

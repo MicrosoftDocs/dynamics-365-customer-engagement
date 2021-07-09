@@ -83,7 +83,7 @@ Back in Dynamics 365 Field Service, the bookable resource's current location app
 By using the **Geolocation Tracking** record type and advanced find in Field Service, you can query to run audits on technician locations.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of advanced find in Field Service](./media/mobile-location-geolocation-tracking-entity-advance-find.png)
+> ![Screenshot of advanced find in Field Service.](./media/mobile-location-geolocation-tracking-entity-advance-find.png)
 
 Here you see a list of locations throughout the day, listed by user.
 
@@ -99,7 +99,7 @@ Here you see a list of locations throughout the day, listed by user.
 > Dispatchers can use current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. See more details in the topic on [Advanced filters for the schedule assistant](schedule-assistant-advanced-filters.md).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of real time mode schedule assistant setting](./media/mobile-geofence-real-time-location-filter.png)
+> ![Screenshot of real time mode schedule assistant setting.](./media/mobile-geofence-real-time-location-filter.png)
 
 ### See also
 

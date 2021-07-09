@@ -30,7 +30,7 @@ Perform the following steps:
     The **Active Work Streams** view is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Omnichannel workstreams](media/oc-workstream-view.png "Omnichannel workstreams")
+    > ![Omnichannel workstreams.](media/oc-workstream-view.png "Omnichannel workstreams")
 
 2. On the command bar, select **New** to create a work stream.
 
@@ -81,7 +81,7 @@ Perform the following steps:
 
 
       > [!div class=mx-imgBorder] 
-      > ![New context variable](media/context-variable.png "New context variable")
+      > ![New context variable.](media/context-variable.png "New context variable")
 
 5. Define routing rule items in the **Routing rule items** tab. Routing rule items are configured for each work stream, so that conversations can be routed to the correct queues. To learn how to configure a routing rule, see [Create and manage routing rules in Omnichannel](routing-rules.md).
 

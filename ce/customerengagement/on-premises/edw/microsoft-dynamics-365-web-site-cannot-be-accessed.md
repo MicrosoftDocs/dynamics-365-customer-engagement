@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement website cannot be accessed | Microsoft Docs"
 description: Environment diagnostics warning that a website can't be accessed.
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

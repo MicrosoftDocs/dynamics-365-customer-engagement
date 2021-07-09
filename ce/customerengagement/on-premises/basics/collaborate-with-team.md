@@ -4,7 +4,7 @@ description: Learn about the collaboration integration features with Dynamics 36
 ms.custom: 
 ms.date: 9/15/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: index-page 

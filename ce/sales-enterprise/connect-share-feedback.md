@@ -18,7 +18,7 @@ The **Connect and share** capability in the Sales Hub app lets experts and peers
 
 To connect with experts and peers through Dynamics 365 Community, in your Sales Hub app, on the navigation bar, select **Connect and share**, and then select **Dynamics 365 Community**.
 
-![Connect and Share option on the navigation bar](media/connect-share-option.png "Connect and share option on the navigation bar")
+![Connect and Share option on the navigation bar.](media/connect-share-option.png "Connect and share option on the navigation bar")
 
 You’ll be taken to the Dynamics 365 Sales communities page where you can find valuable resources such as technical blogs, information on upcoming events, product updates, and so on.
 
@@ -35,11 +35,11 @@ You’ll be taken to the Dynamics 365 Sales Ideas page.
 
 2.  On the **Feedback** page, choose what kind of feedback you have.
 
-    ![Feedback page](media/feedback-page.png "Feedback page")
+    ![Feedback page.](media/feedback-page.png "Feedback page")
 
 3.  After you select an option, use the text box to enter additional information about your feedback. You have an option to enter your email. Microsoft Support may use this email to contact you for more information. When done, select **Submit**.
 
-    ![Enter and submit feedback](media/submit-feedback.png "Enter and submit feedback")
+    ![Enter and submit feedback.](media/submit-feedback.png "Enter and submit feedback")
 
 
 ### See also

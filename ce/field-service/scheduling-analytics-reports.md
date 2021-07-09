@@ -84,7 +84,7 @@ Let's take a look at what each of these metrics are reporting.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of additional sections on the resource and utilization report](./media/scheduling-analytics2.png)
+> ![Screenshot of additional sections on the resource and utilization report.](./media/scheduling-analytics2.png)
 
 | Visuals |	Description | 
 | --- | --- |

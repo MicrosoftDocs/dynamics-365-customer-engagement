@@ -69,7 +69,7 @@ Set up templates to send outbound messages. To create a template, consider the s
     You can choose a message template for the outbound message. The default message language and other localized message versions are part of the message template configuration, and will apply to outbound messages.
 
     > [!div class=mx-imgBorder]
-    > ![Configure outbound messages](media/outbound-configuration.png "Configure outbound messages")
+    > ![Configure outbound messages.](media/outbound-configuration.png "Configure outbound messages")
 
 ## Set up a Power Automate flow
 

@@ -38,7 +38,7 @@ For a guided walkthrough, see the following video.
 - This quickstart assumes you already have resource scheduling optimization deployed into your Field Service environment. You can do this by first purchasing a Field Service license and then purchasing a resource scheduling optimization license in the "Purchase Services" section of Microsoft 365. For more details, visit the article on [Deployment of the Resource Scheduling Optimization solution](rso-deployment.md).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource scheduling optimization app](media/rso-quickstart-app.png)
+> ![Screenshot of resource scheduling optimization app.](media/rso-quickstart-app.png)
 
 - Make sure the person who sets up resource scheduling optimization has the **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. For more information, see: [Resource scheduling optimization configuration](./rso-configuration.md).
 
@@ -51,21 +51,21 @@ After deploying resource scheduling optimization into your environment, you must
 Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** > **Resource Scheduling Optimization tab**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling parameter on the resource scheduling optimization tab](./media/rso-quickstart-enable.png)
+> ![Screenshot of a scheduling parameter on the resource scheduling optimization tab.](./media/rso-quickstart-enable.png)
 
 Set **Enable Resource Scheduling Optimization** to **Yes**.
 
 Select a **Default Goal**. Among other uses, a default goal tells resource scheduling optimization what to prioritize by default (such as maximizing working hours) and is important for using [Single Resource Optimization](single-resource-optimization.md). If no default goal is present, select **+New** and create one. See the following screenshot for some recommended settings.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
+> ![Screenshot of default goal deployed with Resource Scheduling Optimization.](media/rso-default-goal-2.png)
 
 ## Step 2: Verify Booking Statuses
 
 Installing Field Service will import booking statuses, and installing resource scheduling optimization will add the scheduling methods **Ignore**, **Do Not Move**, or **Optimize** to those booking statuses. Make sure the highlighted booking statuses match your system.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of active booking statuses](media/rso-quickstart-booking-statuses.png)
+> ![Screenshot of a list of active booking statuses.](media/rso-quickstart-booking-statuses.png)
 
 If they do not match, make sure resource scheduling optimization is finished installing. If it is finished, try resetting resource scheduling optimization by going to **Resource Scheduling Optimization** > **Optimization Schedules** > and selecting **Reset** in the top ribbon.
 
@@ -78,25 +78,25 @@ Create a new view in **Settings** > **Customizations**
 For our quickstart scenario, create a new view for the **Resource Requirement** entity for requirements related to work orders in the Washington (WA) service territory.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the edit filter criteria settings](./media/rso-quickstart-requirement-view.png)
+> ![Screenshot of the edit filter criteria settings.](./media/rso-quickstart-requirement-view.png)
 
 Next, ensure the requirements in that view are eligible for optimization.
 
 Go to **Resource Scheduling** > **Resource Requirements** and select the view you just created; highlight and edit those records.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of work order requirements](./media/rso-quickstart-requirement-view-select.png)
+> ![Screenshot of a list of work order requirements.](./media/rso-quickstart-requirement-view-select.png)
 
 Set the **Scheduling Method** to **Optimize**. This means that if resource scheduling optimization runs and targets this requirement, it can be scheduled automatically. This field also allows you to add workflows and business processes to which requirements can be automatically scheduled.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling method set to "optimize"](./media/rso-quickstart-requirement-view-bulk-edit.png)
+> ![Screenshot of the scheduling method set to "optimize."](./media/rso-quickstart-requirement-view-bulk-edit.png)
 
 This can also be done individually for each requirement record.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the resource requirement entity, showing the scheduling method set to optimize](./media/rso-quickstart-requirement-view-single-edit.png)
+> ![Screenshot of the resource requirement entity, showing the scheduling method set to optimize.](./media/rso-quickstart-requirement-view-single-edit.png)
 
 Additionally, you can have the system automatically set work order requirements to be optimized by default when a work order requirement is created in **Booking Setup Metadata**. 
 
@@ -106,7 +106,7 @@ Then double-click on **Work Order** and set **Default Scheduling Method** to **O
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the default scheduling method set to optimize](./media/rso-quickstart-bsm.png)
+> ![Screenshot of the default scheduling method set to optimize.](./media/rso-quickstart-bsm.png)
 
 
 ## Step 4:  Set resources as eligible for optimization 
@@ -119,14 +119,14 @@ To fulfill our scenario, we want to create a view of **Bookable Resources** that
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the edit filter criteria window](./media/rso-quickstart-resource-view.png)
+> ![Screenshot of the edit filter criteria window.](./media/rso-quickstart-resource-view.png)
 
 After the view is created to partition the bookable resources that will later be fed into resource scheduling optimization, make sure they are marked as eligible for optimization.
 
 For each resource in your view, set the **Optimize Schedule** field to **Yes**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of bookable resources](./media/rso-quickstart-resource-list.png)
+> ![Screenshot of a list of bookable resources.](./media/rso-quickstart-resource-list.png)
 
 Similar to requirements, this can be done individually or with a bulk edit.
 
@@ -153,7 +153,7 @@ Enter a **Name** that describes the requirements and resources you are optimizin
 In the **Resources and Unscheduled Requirements for this Optimization** section, select the **Resource View** and the **Requirement View** you created in the previous steps.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling optimization scope](./media/rso-quickstart-scope.png)
+> ![Screenshot of the scheduling optimization scope.](./media/rso-quickstart-scope.png)
 
 In the **Bookings for the Optimization** section, select the **Active Bookable Resource Bookings** view or a similar view for bookings.
 
@@ -196,7 +196,7 @@ For objectives, select the following order:
 3. **Best Matching Skill Level**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling optimization goal](./media/rso-quickstart-goal.png)
+> ![Screenshot of a scheduling optimization goal.](./media/rso-quickstart-goal.png)
 
 > [!Note]
 > **Minimize Total Travel Time** **cannot** be the first objective
@@ -220,12 +220,12 @@ Enter **Valid From** and **Valid To** dates.
 If you plan to run resource scheduling optimization manually, enter dates in the past. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the optimization schedule](./media/rso-quickstart-schedule.png)
+> ![Screenshot of the optimization schedule.](./media/rso-quickstart-schedule.png)
 
 Next, the **Filter** section. If you want resource scheduling optimization to run every night, enter the date range during which you want it to run nightly. Also enter the time of night (and specify time zone) it should run. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the optimizaiton schedule on the filter tab](./media/rso-quickstart-time-filter.png)
+> ![Screenshot of the optimizaiton schedule on the filter tab.](./media/rso-quickstart-time-filter.png)
 
 Every hour (based on the timer value previously set), resource scheduling optimization will check the filter values to see if it should run. In this example, every hour resource scheduling optimization will check to see if it should run, but only in the 12th hour of the morning (AM) will it actually run.
 
@@ -238,7 +238,7 @@ Finally, **Save and Publish**.
 Finally, after the schedule is **Published**, test resource scheduling optimization by selecting **Run Now** in the ribbon.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the optimization schedule, highlighting the status as published, and the list of scheduling optimization requests](./media/rso-quickstart-request.png)
+> ![Screenshot of the optimization schedule, highlighting the status as published, and the list of scheduling optimization requests.](./media/rso-quickstart-request.png)
 
 Every time resource scheduling optimization runs, either successfully or not, an optimization request record is created.
 
@@ -250,7 +250,7 @@ A new schedule board tab named after your scope appears, and yellow bars indicat
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board](./media/rso-quickstart-optimized-board.png)
+> ![Screenshot of the schedule board.](./media/rso-quickstart-optimized-board.png)
 
 A simple example of resource scheduling optimization optimizing travel time is when there is no travel time between two bookings. This means there were two work orders at the same location with the same service account and resource scheduling optimization scheduled them back-to-back.
 
@@ -258,7 +258,7 @@ Back on the completed scheduling optimization request in the **Bookings** tab, y
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the list of bookings](./media/rso-quickstart-graph.png)
+> ![Screenshot of the list of bookings.](./media/rso-quickstart-graph.png)
 
 Congratulations! You have successfully run resource scheduling optimization!
 

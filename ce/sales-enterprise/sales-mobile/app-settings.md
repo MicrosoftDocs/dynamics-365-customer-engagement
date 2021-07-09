@@ -24,11 +24,11 @@ The settings are divided into the following categories:
 
 2. Tap **Settings**.
 
-    ![Tap Settings](media/sm-select-settings.png "Tap Settings")
+    ![Tap Settings.](media/sm-select-settings.png "Tap Settings")
 
     The **Settings** panel is displayed.
 
-    ![Settings panel](media/sm-settings-panel.png "Settings panel")
+    ![Settings panel.](media/sm-settings-panel.png "Settings panel")
 
 ## Help and feedback
 
@@ -44,7 +44,7 @@ This section contains links to actions such as submitting an idea and reporting 
 
 - **Dynamics 365 Community**: Allows you to go to the [Dynamics 365 Sales community forum](https://go.microsoft.com/fwlink/p/?LinkID=2161919) to get help from experts and peers, discover blogs, webinars, videos, and events, and more.
 
-- **Copy session ID**: Allows you to copy the session ID to your clipboard. The session ID is helpful for troubleshooting. When you are asked to provide it, tap ![Copy icon](media/copy-icon.png "Copy icon") to copy the session ID and then share it with the required person.
+- **Copy session ID**: Allows you to copy the session ID to your clipboard. The session ID is helpful for troubleshooting. When you are asked to provide it, tap ![Copy icon.](media/copy-icon.png "Copy icon") to copy the session ID and then share it with the required person.
 
 ## About
 

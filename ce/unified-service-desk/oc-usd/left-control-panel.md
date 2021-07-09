@@ -36,7 +36,7 @@ The following keyboard commands are available in the communication panel.
  | Transfer         | View a list of agents or queues to transfer the conversation to | `/t` and `/tq` |
 
 > [!div class=mx-imgBorder]
-> ![omnichannel chat panel](../media/oc-usd-chat-control-left-panel.png "Omnichannel chat panel")   
+> ![omnichannel chat panel.](../media/oc-usd-chat-control-left-panel.png "Omnichannel chat panel")   
 
 > [!NOTE]
 > You can't play MP4 video files in the communication panel. To play videos, we recommend that you download the video files.
@@ -48,12 +48,12 @@ With the communication panel, you can send messages in two ways: **Internal** an
 When you want to send messages only to internal participants, like other agents or supervisors, use the **Internal** option. These internal messages won't be shown to the customers.
 
 > [!div class=mx-imgBorder]
-> ![Send messages to Send messages to internal participants](../media/oc-usd-cc-internal-message.png "Send messages to internal participants")
+> ![Send messages to Send messages to internal participants.](../media/oc-usd-cc-internal-message.png "Send messages to internal participants")
 
 When you want to send messages to all participants in the conversation, including the customer, use the **Public** option.
 
 > [!div class=mx-imgBorder]
-> ![Send messages to public](../media/oc-usd-cc-public-message.png "Send messages to public")
+> ![Send messages to public.](../media/oc-usd-cc-public-message.png "Send messages to public")
 
 You can use keyboard commands to alternate between sending internal and public messages:
 
@@ -68,7 +68,7 @@ You can change the mode while you're in the conversation. For example, if you're
 You can send messages that were created based on templates to the customer with whom you're interacting. These messages are stored as quick replies. Select **Quick replies** to retrieve and send a message to the customers.
 
 > [!div class=mx-imgBorder]
->![Omnichannel quick response](../media/oc-usd-cc-quick-replies.png "Omnichannel quick response")
+>![Omnichannel quick response.](../media/oc-usd-cc-quick-replies.png "Omnichannel quick response")
 
 You can also enter the keyboard command **/q** to see the list of quick replies.
 
@@ -77,7 +77,7 @@ You can also enter the keyboard command **/q** to see the list of quick replies.
 After you enter **/q** in the communication panel messaging area, continue by typing any keywords and if the **Quick replies** library has at least one message associated with the words, the message will be displayed.
 
  > [!div class=mx-imgBorder] 
- > ![Type /q and the keyword to filter the replies](../media/oc-usd-send-quick-replies-filter.png "Filter replies") 
+ > ![Type /q and the keyword to filter the replies.](../media/oc-usd-send-quick-replies-filter.png "Filter replies") 
 
 ## Search for and share knowledge articles
 
@@ -90,7 +90,7 @@ After opening knowledge article search, you can search for relevant knowledge ar
 You can consult with other agents or your supervisors. Select **Consult** to invite your colleagues.
 
 > [!div class=mx-imgBorder]
->![Omnichannel consult](../media/oc-usd-cc-consult.png "Omnichannel consult")  
+>![Omnichannel consult.](../media/oc-usd-cc-consult.png "Omnichannel consult")  
 
 You can also enter the keyboard command **/c** to see the list of the supervisors or agents who are available for consultation. 
 
@@ -106,7 +106,7 @@ After you enter **/c**, you can continue typing the name of a participant you'd 
 You can transfer the conversation (work item) either to an agent or a queue.
 
 > [!div class=mx-imgBorder]
->![Omnichannel transfer](../media/oc-usd-cc-transfer.png "Omnichannel transfer")
+>![Omnichannel transfer.](../media/oc-usd-cc-transfer.png "Omnichannel transfer")
 
 You can transfer a conversation only to agents who are configured in the same work stream and queue. If the conversation belongs to another queue, when you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
@@ -120,7 +120,7 @@ When skill-based routing is enabled, the **Transfer** flyout shows users sorted 
 
 Enter **/t** or **/tq** followed by the name of a participant or queue. If the participant or queue is present, the name is displayed.
 
-![Filter transfer queue list](../media/oc-usd-cc-transfer-queue-filter.png "Filter transfer queue list")
+![Filter transfer queue list.](../media/oc-usd-cc-transfer-queue-filter.png "Filter transfer queue list")
 
 > [!div class="nextstepaction"]
 > [Next topic: View call scripts, take notes, and search knowledge articles](right-control-panel.md)

@@ -99,7 +99,7 @@ Learn more about outbound marketing's consent model: [Data protection and the GD
 After you install real-time marketing, you will notice a slight change in the settings related to the GDPR configuration. To enable the GDPR configuration, go to **Settings** > **Compliance** > **Outbound consent**.
 
 > [!div class="mx-imgBorder"]
-> ![Configure outbound consent screenshot](media/real-time-marketing-outbound-consent.png "Configure outbound consent screenshot")
+> ![Configure outbound consent screenshot.](media/real-time-marketing-outbound-consent.png "Configure outbound consent screenshot")
 
 By default, both switches are turned off. If you had a GDPR configuration enabled before, the system will respect your previous settings.
 

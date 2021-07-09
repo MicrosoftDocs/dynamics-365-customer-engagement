@@ -4,7 +4,7 @@ description: "Learn how to create virtual entities"
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -33,7 +33,7 @@ Dynamics 365 Customer Engagement (on-premises) includes an OData Data Provider t
   
 Alternatively, developers can build their own data providers. Data providers are installed in an environment as a solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](../developer/virtual-entities/get-started-ve.md)
   
- ![Virtual entity diagram](../customize/media/virtual-entity-diagram.png "Virtual entity diagram")  
+ ![Virtual entity diagram.](../customize/media/virtual-entity-diagram.png "Virtual entity diagram")  
   
 <a name="benefits"></a>   
 ## Virtual entity benefits  
@@ -64,7 +64,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
 > [!NOTE]
 > The Data Source Secret attribute is only available with fields added to a Data Source form.
 
-![Data source secret attribute](../customize/media/datasourcesecret.png)
+![Data source secret attribute.](../customize/media/datasourcesecret.png)
   
 <a name="createVirtualEntity"></a>   
 ## Create a virtual entity  
@@ -79,7 +79,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
 3. On the **General** tab of the **Entity Definition**, select **Virtual Entity**, and then in the **Data Source** drop down list, select the data source that you want.  
   
-   ![Virtual Entity option on entity definition](../customize/media/virtual-entity-click-option.png "Virtual Entity option on entity definition")  
+   ![Virtual Entity option on entity definition.](../customize/media/virtual-entity-click-option.png "Virtual Entity option on entity definition")  
   
 4. On the Entity Definition, complete the following required fields.  
   
@@ -89,7 +89,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
      Here's an example of a virtual entity named *Movie* that uses a Azure Cosmos DB data provider to access document files.  
   
-   ![Virtual entity definition using the Azure Cosmos DB data provider](../customize/media/virtual-entity-definition.PNG "Virtual entity definition using the Azure Cosmos DB data provider")  
+   ![Virtual entity definition using the Azure Cosmos DB data provider.](../customize/media/virtual-entity-definition.PNG "Virtual entity definition using the Azure Cosmos DB data provider")  
   
    > [!IMPORTANT]
    > Several options, such as Access Teams, Queues, and Quick Create,  aren't available with virtual entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Considerations when you use virtual entities](#considerations)  

@@ -23,7 +23,7 @@ After [getting access to Resource Scheduling Optimization](./rso-get-install.md)
 
 1. Verify Field Service is installed in your environment. The Field Service app will appear in the Dynamics 365 main menu when logged in as a system administrator.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service in navigation](media/field-service-navigation.png)
+> ![Screenshot of Field Service in navigation.](media/field-service-navigation.png)
 
 
 2. Go to the Power Platform admin center: [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/). In the left pane, select **Resources** > **Dynamics 365 apps**. 
@@ -32,7 +32,7 @@ After [getting access to Resource Scheduling Optimization](./rso-get-install.md)
 3. Find Resource Scheduling Optimization and select **Manage**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center](./media/rso-upgrade-manage-powerapps-admin.png)
+> ![Screenshot of the Dynamics 365 admin center.](./media/rso-upgrade-manage-powerapps-admin.png)
 
 4. Select the organization where the Resource Scheduling Optimization solution will be installed, review the Terms of Service and select the agreement box, and then select **Deploy** to start the Resource Scheduling Optimization deployment.
 

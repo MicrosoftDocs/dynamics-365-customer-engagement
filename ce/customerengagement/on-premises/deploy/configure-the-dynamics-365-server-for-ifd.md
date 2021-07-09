@@ -2,7 +2,7 @@
 title: "Configure the Microsoft Dynamics 365 server for IFD | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -48,7 +48,7 @@ With internal claims authentication access enabled on [!INCLUDE[pn_microsoftcrm_
   
      With the example settings above, if your organization name was "orgname", clients would access your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website with the following URL: **https://orgname.contoso.com**.  
   
-     ![Configure IFD server role domains](media/crm-itpro-claimswp-configifd.PNG "Configure IFD server role domains")  
+     ![Configure IFD server role domains.](media/crm-itpro-claimswp-configifd.PNG "Configure IFD server role domains")  
   
 5.  In the **Enter the external domain where your Internet-facing servers are located** box, type the external domain information where your Internet-facing [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] servers are located, and then select **Next**.  
   
@@ -65,7 +65,7 @@ With internal claims authentication access enabled on [!INCLUDE[pn_microsoftcrm_
   
     -   External domain: **auth.contoso.com**  
   
-     ![Configure IFD external domain](media/crm-itpro-claimswp-configifdext.PNG "Configure IFD external domain")  
+     ![Configure IFD external domain.](media/crm-itpro-claimswp-configifdext.PNG "Configure IFD external domain")  
   
 6.  On the **System Checks** page, review the results, fix any problems, and then select **Next**.  
   

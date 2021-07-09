@@ -37,7 +37,7 @@ You can’t customize the service calendar or change the default view with the a
 
 1. Navigate to **Customer Service Hub** > **Scheduling** tab.
 
-   ![Select Scheduling tab](media/uci-tools-scheduling.png "Navigate to the Scheduling tab")
+   ![Select Scheduling tab.](media/uci-tools-scheduling.png "Navigate to the Scheduling tab")
 
 2. Under the Tools section, select the service calendar.
     A list of resources opens in alphabetical order on the left side of the calendar.
@@ -48,11 +48,11 @@ You can’t customize the service calendar or change the default view with the a
 
 5. To change how much of the calendar is available to view, use the **Zoom** scale.
 
-   ![Calendar view](media/uci-calendar-view.png "View the calendar")
+   ![Calendar view.](media/uci-calendar-view.png "View the calendar")
 
 ## Calendar legend of colors and statuses
 
-   ![View the calendar legend](media/uci-color-legend.png "View legend of calendar colors and statuses")
+   ![View the calendar legend.](media/uci-color-legend.png "View legend of calendar colors and statuses")
    
 ## Preview: View resources in a list view
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -65,7 +65,7 @@ You can’t customize the service calendar or change the default view with the a
 
 You can view the number of records in a list by selecting **List view**.
 
-  ![View resources in a list](media/resources-list-view.png "View resources in a list")
+  ![View resources in a list.](media/resources-list-view.png "View resources in a list")
 
 ## Preview: Configure the number of records shown
 
@@ -79,17 +79,17 @@ You can view the number of records in a list by selecting **List view**.
 
 Administrators can configure the number of records that are listed in the resources view as follows:
 
-1. In Dynamics 365 Customer Service, select the **Settings** icon ![Settings icon](media/record-settings-icon.png "Settings icon for Dynamics 365 Customer Service") in the upper-right corner of the page.
+1. In Dynamics 365 Customer Service, select the **Settings** icon ![Settings icon.](media/record-settings-icon.png "Settings icon for Dynamics 365 Customer Service") in the upper-right corner of the page.
 
 2. Select **Options**, and then on the **General** tab, set **Records per page** to the maximum value you want to show on the page. The value can be set from 50 to 250 records.
 
-   ![Set record results](media/configure-record-results.png "Set the number of records to list")
+   ![Set record results.](media/configure-record-results.png "Set the number of records to list")
   
 3. When you're done, select **OK**.
 
    The selected number of records is listed for the user.
   
-   ![Record display](media/records-display.png "Records displayed")
+   ![Record display.](media/records-display.png "Records displayed")
     
 ### See also  
 

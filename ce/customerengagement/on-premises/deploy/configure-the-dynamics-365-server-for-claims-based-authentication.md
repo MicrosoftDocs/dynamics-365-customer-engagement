@@ -2,7 +2,7 @@
 title: "Configure the Microsoft Dynamics 365 Server for claims-based authentication | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -38,7 +38,7 @@ After you have installed [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)]
   
      If you install [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] and [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] on separate servers, do not specify port 443 for the [!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)], [!INCLUDE[pn_Organization_Web_Service](../includes/pn-organization-web-service.md)], or [!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)].  
   
-     ![Configure the web address](media/crm-itpro-claimswp-config.PNG "Configure the web address")  
+     ![Configure the web address.](media/crm-itpro-claimswp-config.PNG "Configure the web address")  
   
 6.  Select **OK**.  
   
@@ -60,7 +60,7 @@ After you have installed [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)]
     > [!NOTE]
     >  You can use IIS Manager to determine what account was used during setup for the [!INCLUDE[ui_CRMAppPool](../includes/ui-crmapppool.md)] account. In the Connections pane, select Application Pools, and then check the Identity value for [!INCLUDE[ui_CRMAppPool](../includes/ui-crmapppool.md)].  
   
-     ![IIS Application Pools](media/crm-itpro-claimswp-apppool.png "IIS Application Pools")  
+     ![IIS Application Pools.](media/crm-itpro-claimswp-apppool.png "IIS Application Pools")  
   
 5.  Select **OK**.  
   

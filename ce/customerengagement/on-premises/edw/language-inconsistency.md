@@ -1,7 +1,7 @@
 ---
 title: "Language inconsistency | Microsoft Docs"
 description: Environment diagnostics warning that there's a language inconsistency with the upgrade.
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

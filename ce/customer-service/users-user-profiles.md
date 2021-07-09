@@ -55,7 +55,7 @@ For more information on how to create users and assign security roles, see [Assi
 8. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
 
 > [!div class=mx-imgBorder]
-> ![Default presence](media/oc-user-omni-tab.png)
+> ![Default presence.](media/oc-user-omni-tab.png)
 
 ### Capacity
 

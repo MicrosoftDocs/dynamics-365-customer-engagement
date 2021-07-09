@@ -4,7 +4,7 @@ description: Learn how to create and add business process flows to your apps
 ms.custom: 
 ms.date: 02/21/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -40,7 +40,7 @@ A business process flow definition is represented as a custom entity and an inst
   
  With business process flows, you define a set of *stages* and *steps* that are then displayed in a control at the top of the form.  
   
- ![Business process with stages](../customize/media/business-process-stages.png "Business process with stages")  
+ ![Business process with stages.](../customize/media/business-process-stages.png "Business process with stages")  
   
  Each stage contains a group of steps. Each step represents a field where data can be entered. People advance to the next stage by using the **Next Stage** button. You can make a step required so that people must enter data for the corresponding field before they can proceed to the next stage. This is commonly called ”stage-gating”.  
   
@@ -90,7 +90,7 @@ A business process flow definition is represented as a custom entity and an inst
 
 Each business process flow definition that is represented as a custom entity comes with its own set of privileges that can be edited within a security role just like any other system or custom entity. You can specify the privileges in the **Business Process Flows** tab for a security role.
 
-![Set privileges for business process flow](media/bpf-privileges-customizer.png) 
+![Set privileges for business process flow.](media/bpf-privileges-customizer.png) 
 
 You can assign the following privileges on a business process flow:
 - **Create**: Allows creating an instance of the business process flow, which is done at the same time as creating a new record. 
@@ -176,13 +176,13 @@ With business processes flows available as an entity, you can now use advanced f
 
 Business process flows, such as **Lead To Opportunity Sales Process**, appear as a customizable entity in Solution Explorer.
 
-![Solution Explorer with lead-to-opportunity process entity](media/bpf-lead-solution-explorer.png)
+![Solution Explorer with lead-to-opportunity process entity.](media/bpf-lead-solution-explorer.png)
 
 To access a default business process flow view, open solution explorer, expand **Entities** > expand the process that you want, such as **Lead To Opportunity Sales Process**, select **Views**, and then select the view that you want.
 
 Several default views are available that you can view as a chart, such as the **Active Opportunity Sales Process** view. 
 
-![Active Opportunity Sales Process view](media/bpf-default-view.png)
+![Active Opportunity Sales Process view.](media/bpf-default-view.png)
 
 ### Limitations of using business process flow entities
 

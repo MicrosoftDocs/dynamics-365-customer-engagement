@@ -4,7 +4,7 @@ description: "The topic explains about how to create alternate keys for an entit
 ms.custom: 
 ms.date: 04/03/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

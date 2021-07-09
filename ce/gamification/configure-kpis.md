@@ -72,7 +72,7 @@ The KPIs you define in Dynamics 365 apps will be available when you set up the g
 
 10. Under **To assign points to players, make at least one selection**, select which users are assigned points from a given KPI.
 
-    ![Creating a new KPI](media/new-kpi.png "Creating a new KPI")
+    ![Creating a new KPI.](media/new-kpi.png "Creating a new KPI")
 
 11. Optionally, you can set up an additional query parameter for a KPI by creating a saved view.
 
@@ -98,7 +98,7 @@ The KPIs you define in Dynamics 365 apps will be available when you set up the g
 
 13. Optionally, set the time scoring under **Score records only between these hours** in the **Additional Scoring Settings** section. By default, KPIs are scored all day, every day. You can specify the hours and days when the KPI is scored.
 
-    ![Additional Scoring Settings](media/additional-scoring-settings.png "Additional Scoring Settings")
+    ![Additional Scoring Settings.](media/additional-scoring-settings.png "Additional Scoring Settings")
 
 14. Select **Save**.
 

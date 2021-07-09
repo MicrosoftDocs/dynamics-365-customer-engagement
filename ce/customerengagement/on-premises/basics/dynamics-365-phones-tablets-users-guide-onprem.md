@@ -4,7 +4,7 @@ ms.custom:
 description: How to use the Dynamics 365 for phones and tablets app with Dynamics 365 Customer Engagement (on-premises) 
 ms.date: 1/14/2021
 ms.reviewer: kvivek
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -48,30 +48,30 @@ Sign in using your web address for the Dynamics 365 app and user name and passwo
 1. On the sign-in screen, select **Sign in with a web address instead**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
+   > ![Enter user name and password address.](media/userandpassword.png "Enter your user name and password"). 
 
-2. Enter the URL for your web address for the Dynamics 365 app that you use, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
+2. Enter the URL for your web address for the Dynamics 365 app that you use, and then select ![Sign in.](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
 3. Enter your user name and password.
 4. From the list of apps that you have access to, select the app that you want to use.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select an app that you want to use](media/navwebsignin.png "Select an app to use"). 
+   > ![Select an app that you want to use.](media/navwebsignin.png "Select an app to use"). 
 
 ### Sign out 
 
-- From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **User Information** > **Sign out**.
+- From the navigation bar, select ![Sign out button.](media/settingsmorebutton.png "Sign out button") > **User Information** > **Sign out**.
 
   > [!div class="mx-imgBorder"] 
-  > ![Sign out](media/previewsignout.png "Sign out")
+  > ![Sign out.](media/previewsignout.png "Sign out")
   
 ## Clear cache from the device
 
 If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
 
-- From the nav bar, select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
+- From the nav bar, select ![Dynamics 365 apps ellipsis.](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
 
      > [!div class="mx-imgBorder"] 
-     > ![Reconfigure the mobile app](media/reconfigure.png "Reconfigure the mobile app")
+     > ![Reconfigure the mobile app.](media/reconfigure.png "Reconfigure the mobile app")
 
 Reconfiguring deletes data and metadata for the current organization from the cache, however do not rely on this as a security measure.
 
@@ -84,39 +84,39 @@ For phones, portrait mode is set as the default screen orientation. For tablets,
 Use the navigation bar to get to your work area, create a new record, search, switch app, and more. 
 
   > [!div class="mx-imgBorder"] 
-  > ![Nav Bar](media/NavBar_2.png "Nav Bar")
+  > ![Nav Bar.](media/NavBar_2.png "Nav Bar")
 
 ### Favorites and recently used records
 
 The **Favorites** and **Recently Used** provides quick access to your records, views, or dashboards that you have recently used or pinned to favorites.
 
-- To get to **Favorites** and **Recently Used**, select the site map button ![Menu button](media/MenuButton.png "Menu button") > ![Fav Button](media/FavButton.png "Fav Button").
+- To get to **Favorites** and **Recently Used**, select the site map button ![Menu button.](media/MenuButton.png "Menu button") > ![Fav Button](media/FavButton.png "Fav Button").
 
 - To pin a record to favorites, from the list of **Recently Used** records, select the pin button next to the record that you want to add to favorites. This will move the record from  **Recently Used** to **Favorites**.
 
 - To unpin an item from favorites, from the list of **Favorites**, select the pin button next to the record that you want to unpin.
 
    > [!div class="mx-imgBorder"] 
-   > ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
+   > ![Favorites and Recent items.](media/Favs_3.png "Favorites and Recent items")
 
 ## Dashboards and charts
 
-Dashboards give you an overview of valuable information. Select on the Home button ![Home button](media/homeicon.png "Home button") to view dashboards.
+Dashboards give you an overview of valuable information. Select on the Home button ![Home button.](media/homeicon.png "Home button") to view dashboards.
 
 - To view a different dashboard, select the down arrow next to the name of the dashboard, and then select the dashboard that you want to view. 
 
   > [!div class="mx-imgBorder"] 
-  > ![Dynamics 365 apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 apps phones and tables dashboards")
+  > ![Dynamics 365 apps phones and tablets dashboards.](media/DashboardsOnHomePage_4.png "Dynamics 365 apps phones and tables dashboards")
   
-- To view a chart in the dashboard in full screen mode, select the Expand button ![Full screen button](media/expandviewbutton-1.png "Full screen button").
+- To view a chart in the dashboard in full screen mode, select the Expand button ![Full screen button.](media/expandviewbutton-1.png "Full screen button").
 
    > [!div class="mx-imgBorder"] 
-   > ![Chart in full screen view](media/expandchart.png "Chart in full screen view")
+   > ![Chart in full screen view.](media/expandchart.png "Chart in full screen view")
    
-- To view records in chart or refresh the chart view, select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
+- To view records in chart or refresh the chart view, select ![Dynamics 365 apps ellipsis.](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Refresh or view charts](media/charts_01.png "Refresh or view a chart")
+   > ![Refresh or view charts.](media/charts_01.png "Refresh or view a chart")
 
 
 Charts give you a quick view of how you’re tracking to your goals. They’re interactive, so you can select an area of a chart to get more info.
@@ -126,30 +126,30 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 - Select again on the same section to see a grid view with more details about the data in the chart.
   
    > [!div class="mx-imgBorder"] 
-   > ![Record view of chart](media/Recordview-1.png "Record view of chart") 
+   > ![Record view of chart.](media/Recordview-1.png "Record view of chart") 
       
  
 - To change the chart view to show a different breakdown of your data, select the down arrow next to the name of the chart, and then select the chart that you want to view.
 
 
   > [!div class="mx-imgBorder"] 
-  > ![Dynamics 365 for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for phones and tablets change a chart view")
+  > ![Dynamics 365 for phones and tablets change a chart view.](media/ChageChartView_20.png "Dynamics 365 for phones and tablets change a chart view")
 
 ## Work with records
 
 The **Quick create Menu** makes it fast and easy to add data into the system. 
     
-1.  To create a new record, on the navigation bar select, the More button ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").
+1.  To create a new record, on the navigation bar select, the More button ![Dynamics 365 apps ellipsis.](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis").
 
 2.  Select **Quick Create Menu**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Select the Quick create menu](media/quickcreate.png "Quick create menu")
+    > ![Select the Quick create menu.](media/quickcreate.png "Quick create menu")
 
 3. Select the type of activity or record you want to create. 
 
     > [!div class="mx-imgBorder"] 
-    > ![Select the type of record that you want to create](media/quickcreate3.png "Quick create menu")
+    > ![Select the type of record that you want to create.](media/quickcreate3.png "Quick create menu")
     
 4. Enter the required information for the record and then select **Save and Close**.
 
@@ -157,15 +157,15 @@ The **Quick create Menu** makes it fast and easy to add data into the system.
 
 Take action on a record without opening the record. 
 
-1. Select the site map button ![Menu button](media/MenuButton.png "Menu button"), then select the record type that you want to update, such as, **Accounts**.
+1. Select the site map button ![Menu button.](media/MenuButton.png "Menu button"), then select the record type that you want to update, such as, **Accounts**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Choose record](media/actionmenu1.png "Choose record").
+    > ![Choose record.](media/actionmenu1.png "Choose record").
 
-2. From the list of records, select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") on the record you want to update and then select an action such as **Assign**, **Deactivate** or **Delete**. 
+2. From the list of records, select ![Dynamics 365 apps ellipsis.](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") on the record you want to update and then select an action such as **Assign**, **Deactivate** or **Delete**. 
 
     > [!div class="mx-imgBorder"] 
-    > ![Action menu](media/actionmenu.png "Take action on a record").
+    > ![Action menu.](media/actionmenu.png "Take action on a record").
 
 
 ## Add activities in the Timeline 
@@ -180,30 +180,30 @@ Activities are details that you add to a record which include things like notes,
 1. Select the site map button ![Menu button](media/MenuButton.png "Menu button"), then select the record type that you want to update, such as, **Accounts**. Then choose a record to open it.
 
     > [!div class="mx-imgBorder"] 
-    > ![Choose record](media/actionmenu1.png "Choose record").
+    > ![Choose record.](media/actionmenu1.png "Choose record").
 
-2. On the open record, next to **Summary** select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png) > **Timeline**.
-
-    > [!div class="mx-imgBorder"] 
-    > ![Choose the timeline](media/timeline3.png "Choose the timeline").
-
-3. In the **Timeline** area, select the Add button ![Add button](media/addbutton.png) >, and then select the type of activity that you want to add.
+2. On the open record, next to **Summary** select ![Dynamics 365 apps ellipsis.](media/mobile-ellipsis.png) > **Timeline**.
 
     > [!div class="mx-imgBorder"] 
-    >![Add an activity](media/timeline1.png "Add an activity")
+    > ![Choose the timeline.](media/timeline3.png "Choose the timeline").
+
+3. In the **Timeline** area, select the Add button ![Add button.](media/addbutton.png) >, and then select the type of activity that you want to add.
+
+    > [!div class="mx-imgBorder"] 
+    >![Add an activity.](media/timeline1.png "Add an activity")
 
 
 > [!NOTE]
 > You can also add notes, attach photos, video, and attachments. 
  
    > [!div class="mx-imgBorder"] 
-   >![Add notes](media/timeline2.png "Add notes")
+   >![Add notes.](media/timeline2.png "Add notes")
 
 ### Sort and filter the Timeline view
 
-- Select ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and select **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline.
+- Select ![Dynamics 365 apps ellipsis.](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") and select **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline.
 
-- Select ![Sort timeline view](media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
+- Select ![Sort timeline view.](media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
 
 
 ## Send an email or make a call
@@ -211,7 +211,7 @@ Activities are details that you add to a record which include things like notes,
 Call or send email to your customers easily from the mobile app. Open a customer record and select phone number in record to start a call, or select the email button to send an email.
 
    > [!div class="mx-imgBorder"] 
-   > ![Dynamics 365 for phones and tablets send an email or make a call](media/SendEmailOrMakeCall_23.png "Dynamics 365 for phones and tablets send an email or make a call")
+   > ![Dynamics 365 for phones and tablets send an email or make a call.](media/SendEmailOrMakeCall_23.png "Dynamics 365 for phones and tablets send an email or make a call")
 
 
 ## Update an image for a record
@@ -219,22 +219,22 @@ Call or send email to your customers easily from the mobile app. Open a customer
 To add a new image, open the record and select the current image for the record. Choose **Use Camera** to take a new picture or **Upload Image** to choose an existing image on your device. Then follow the prompts on your device to add the new image.
 
    > [!div class="mx-imgBorder"] 
-   > ![Dynamics 365 for phones and tablets update image on a record](media/UpdateImageForRecord_12.png "Dynamics 365 for phones and tablets update image on a record")
+   > ![Dynamics 365 for phones and tablets update image on a record.](media/UpdateImageForRecord_12.png "Dynamics 365 for phones and tablets update image on a record")
 
 ## Business process flow
 
 Business process flows help you enter data consistently and follow the same steps every time you work with a record. As you work on a new record, the business process flow helps you see each step that you need to take to create the new record and fill out the required information according to your organizations business process.
 
   > [!div class="mx-imgBorder"] 
-  > ![Dynamics 365 for phones and tablets business process flow](media/BusinessProcessFlow.png "Dynamics 365 for phones and tablets business process flow")
+  > ![Dynamics 365 for phones and tablets business process flow.](media/BusinessProcessFlow.png "Dynamics 365 for phones and tablets business process flow")
 
 
 ## Task Flows
 
-Use Task Flows to complete common set of tasks. For example, if you need to perform a series of follow-up steps on a regular basis then select on the nav bar, select the Task Flow button ![Dynamics 365 for phones and tablets task flows button](media/taskflowbutton.png "Dynamics 365 for phones and tablets task flows button"). This will lead you through the entire task from start to finish so, you don't forget an important step.
+Use Task Flows to complete common set of tasks. For example, if you need to perform a series of follow-up steps on a regular basis then select on the nav bar, select the Task Flow button ![Dynamics 365 for phones and tablets task flows button.](media/taskflowbutton.png "Dynamics 365 for phones and tablets task flows button"). This will lead you through the entire task from start to finish so, you don't forget an important step.
 
   > [!div class="mx-imgBorder"] 
-  > ![Dynamics 365 for phones and tablets task flows](media/TaskBasedFlow.png "Dynamics 365 for phones and tablets task flows")
+  > ![Dynamics 365 for phones and tablets task flows.](media/TaskBasedFlow.png "Dynamics 365 for phones and tablets task flows")
 
 > [!NOTE]
 >  Tasked based flows need to be turned on by your admin. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a mobile task flow](../customize/create-mobile-task-flow.md)
@@ -260,16 +260,16 @@ Normally, Categorized search is the default search option. However, if Relevance
 
 If your organization has turned on both search options (Relevance and Categorized search), then you can switch between the two.
 
-1. To switch between search types, on the nav bar, select the Search button ![Search button](media/searchbutton.png).
+1. To switch between search types, on the nav bar, select the Search button ![Search button.](media/searchbutton.png).
 
 2. At the top select the drop-down to switch between **Relevance Search** or **Categorized Search**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Switch between search type](media/switchsearch.png "Switch between search type")
+    > ![Switch between search type.](media/switchsearch.png "Switch between search type")
 
 ### Start a search  
   
-1.  On the nav bar, select the Search button ![Search button](media/searchbutton.png).
+1.  On the nav bar, select the Search button ![Search button.](media/searchbutton.png).
   
 2.  Type your search words in the search box and then select Search button.  
 
@@ -278,7 +278,7 @@ If your organization has turned on both search options (Relevance and Categorize
 
 Rather than manually typing a barcode number into a field, you can scan barcodes by using your device's camera. This makes it easy to capture info about inventory and other issues when you're out in the field. 
 
-- To use the barcode scanner, when you are in search mode, select the Barcode Scanner button ![Bar code scanner button](media/barcodescannerbutton.png) and then follow the prompts on your device.
+- To use the barcode scanner, when you are in search mode, select the Barcode Scanner button ![Bar code scanner button.](media/barcodescannerbutton.png) and then follow the prompts on your device.
 
 
 ## Relationship Assistant
@@ -289,10 +289,10 @@ The assistant reminds you of upcoming activities; it evaluates your communicatio
 
 The assistant draws your attention to your most important items and tasks, drawn from all areas of the app.
 
-- To access the assistant, on the nav bar, select the More button  ![Dynamics 365 apps ellipsis](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Relationship Assistant**.
+- To access the assistant, on the nav bar, select the More button  ![Dynamics 365 apps ellipsis.](media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Relationship Assistant**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Dynamics 365 for phones and tablets Relationship Assistant](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
+    > ![Dynamics 365 for phones and tablets Relationship Assistant.](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
  
 
 

@@ -3,7 +3,7 @@ title: "Manage SharePoint documents in Dynamics 365 Customer Engagement (on-prem
 description: "Store your documents on SharePoint, and manage them from within your app."
 keywords: document, SharePoint, share, manage
 ms.date: 05/05/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -62,7 +62,7 @@ By default, [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] 
 
 For record types that support document management, open the record, select the **Related** tab, and then select **Documents**.
 
-![Select Documents option in Related tab](media/open-documents-tab-in-form.png "Select the Documents option on the Related tab")  
+![Select Documents option in Related tab.](media/open-documents-tab-in-form.png "Select the Documents option on the Related tab")  
 
 ## What happens when you navigate to the Documents tab first time?
 
@@ -78,16 +78,16 @@ By default, the location is set to Documents on Default Site 1.
 
 2. In the web app, on the command bar, select the arrow besides the record name, and select **Documents**.
 
-   ![Navigate to related documents of a record](media/go-to-related-documents.png "Navigate to related documents of a record")
+   ![Navigate to related documents of a record.](media/go-to-related-documents.png "Navigate to related documents of a record")
 
 
 ### Open the Document Associated grid in a mobile-optimized app
 
-1. Select the site map ![Menu icon](media/site-map-icon.png "Site map icon"), and then select **Opportunities**
+1. Select the site map ![Menu icon.](media/site-map-icon.png "Site map icon"), and then select **Opportunities**
 
 2. Select the **Related** tab, and then select **Documents**.
 
-   ![Open the Documents tab in a record in a mobile-optimized app](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
+   ![Open the Documents tab in a record in a mobile-optimized app.](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
   
    [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] organizes documents in a consolidated view.
 
@@ -107,7 +107,7 @@ To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.m
 
 4. In the **Create a New Document dialog** box, enter a document or folder name.
 
-   ![Dialog box for creating a new document](media/create-new-document-dialog-box.png "Dialog box for creating a new document")  
+   ![Dialog box for creating a new document.](media/create-new-document-dialog-box.png "Dialog box for creating a new document")  
 
 5. Select **Save**.
 
@@ -115,7 +115,7 @@ To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.m
 
    If you create a folder, you'll be able to see a folder hierarchy at the top of Documents list. 
  
-   ![Form showing folder hierarchy in the documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in the documents list")  
+   ![Form showing folder hierarchy in the documents list.](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in the documents list")  
 
    Select on the folder name to navigate between the folders.
 
@@ -147,15 +147,15 @@ In the **Documents** list
 
 1. To open the location, on the command bar, select **Open Location**, and then select the location.
 
-   ![Open document location from a record](media/open-location-from-record.png "Open document location from a record")  
+   ![Open document location from a record.](media/open-location-from-record.png "Open document location from a record")  
 
 2. To edit the location, on the command bar, select **Edit Location** &gt; &lt;location name&gt;.
 
-![Edit document location from a record](media/edit-location-from-record.png "Edit document location from a record") 
+![Edit document location from a record.](media/edit-location-from-record.png "Edit document location from a record") 
 
   The **Edit Location** dialog box appears.
 
-  ![Dialog box to edit a SharePoint location](media/edit-location-dialog-box.png "Dialog box to edit a SharePoint location")  
+  ![Dialog box to edit a SharePoint location.](media/edit-location-dialog-box.png "Dialog box to edit a SharePoint location")  
 
 3. The display name, parent site, and folder name are automatically populated. Enter details about the new location, and then select **Save**.
 
@@ -163,7 +163,7 @@ In the **Documents** list
 
    The **Add Location** dialog box appears.
 
-   ![Dialog box to add a SharePoint location](media/add-location-dialog-box.png "Dialog box to add a SharePoint location")  
+   ![Dialog box to add a SharePoint location.](media/add-location-dialog-box.png "Dialog box to add a SharePoint location")  
 
 5. The display name, parent site, and folder name are automatically populated. Change the details if required, and then select **Save**.
 
@@ -234,7 +234,7 @@ By default, [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] 
 
 For record types that support document management, open the record, select the **Related** tab, and then select **Documents**.
 
-![Select Documents option in Related tab](media/open-documents-tab-in-form.png "Select the Documents option on the Related tab")  
+![Select Documents option in Related tab.](media/open-documents-tab-in-form.png "Select the Documents option on the Related tab")  
 
 ## What happens when you navigate to the Documents tab first time?
 
@@ -250,16 +250,16 @@ By default, the location is set to Documents on Default Site 1.
 
 2. In the web app, on the command bar, select the arrow besides the record name, and select **Documents**.
 
-   ![Navigate to related documents of a record](media/go-to-related-documents.png "Navigate to related documents of a record")
+   ![Navigate to related documents of a record.](media/go-to-related-documents.png "Navigate to related documents of a record")
 
 
 ### Open the Document Associated grid in a mobile-optimized app
 
-1. Select the site map ![Menu icon](media/site-map-icon.png "Site map icon"), and then select **Opportunities**
+1. Select the site map ![Menu icon.](media/site-map-icon.png "Site map icon"), and then select **Opportunities**
 
 2. Select the **Related** tab, and then select **Documents**.
 
-   ![Open the Documents tab in a record in a mobile-optimized app](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
+   ![Open the Documents tab in a record in a mobile-optimized app.](media/open-documents-tab-in-form.png "Open the Documents tab in a record in a mobile-optimized app")
   
    [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] organizes documents in a consolidated view.
 
@@ -279,7 +279,7 @@ To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.m
 
 4. In the **Create a New Document dialog** box, enter a document or folder name.
 
-   ![Dialog box for creating a new document](media/create-new-document-dialog-box.png "Dialog box for creating a new document")  
+   ![Dialog box for creating a new document.](media/create-new-document-dialog-box.png "Dialog box for creating a new document")  
 
 5. Select **Save**.
 
@@ -287,7 +287,7 @@ To create a new [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.m
 
    If you create a folder, you'll be able to see a folder hierarchy at the top of Documents list. 
  
-   ![Form showing folder hierarchy in the documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in the documents list")  
+   ![Form showing folder hierarchy in the documents list.](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in the documents list")  
 
    Select on the folder name to navigate between the folders.
 
@@ -319,15 +319,15 @@ In the **Documents** list
 
 1. To open the location, on the command bar, select **Open Location**, and then select the location.
 
-   ![Open document location from a record](media/open-location-from-record.png "Open document location from a record")  
+   ![Open document location from a record.](media/open-location-from-record.png "Open document location from a record")  
 
 2. To edit the location, on the command bar, select **Edit Location** &gt; &lt;location name&gt;.
 
-![Edit document location from a record](media/edit-location-from-record.png "Edit document location from a record") 
+![Edit document location from a record.](media/edit-location-from-record.png "Edit document location from a record") 
 
   The **Edit Location** dialog box appears.
 
-  ![Dialog box to edit a SharePoint location](media/edit-location-dialog-box.png "Dialog box to edit a SharePoint location")  
+  ![Dialog box to edit a SharePoint location.](media/edit-location-dialog-box.png "Dialog box to edit a SharePoint location")  
 
 3. The display name, parent site, and folder name are automatically populated. Enter details about the new location, and then select **Save**.
 
@@ -335,7 +335,7 @@ In the **Documents** list
 
    The **Add Location** dialog box appears.
 
-   ![Dialog box to add a SharePoint location](media/add-location-dialog-box.png "Dialog box to add a SharePoint location")  
+   ![Dialog box to add a SharePoint location.](media/add-location-dialog-box.png "Dialog box to add a SharePoint location")  
 
 5. The display name, parent site, and folder name are automatically populated. Change the details if required, and then select **Save**.
 

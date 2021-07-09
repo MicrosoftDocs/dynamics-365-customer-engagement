@@ -136,7 +136,7 @@ In most cases items are immediately tracked, aside from when an email is in comp
 
 If the Dynamics 365 App for Outlook uses Server-side synchronization to track an item to Dynamics 365 apps, the track status of the item will be “Pending”.
 
-![Outlook app Server-side synchronization](media/Outlook_app_server_side_sync.png "Outlook app server side sync")
+![Outlook app Server-side synchronization.](media/Outlook_app_server_side_sync.png "Outlook app server side sync")
 
    > [!NOTE]
    > For manually tracked items, App for Outlook only synchronizes pre-definded fields between Outlook (Exchange) and Dynamics 365 apps. Any [Field level synchronization settings](/power-platform/admin/what-fields-synchronized-outlook) will have no effect while tracking the items manually from App for Outlook.

@@ -45,7 +45,7 @@ In this section, we cover information on how to create a queue and set operating
     3. Select **Create**. The queue that you created is displayed.
      
        > [!div class=mx-imgBorder]
-       > ![Queue in Omnichannel admin center](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
+       > ![Queue in Omnichannel admin center.](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
 
 2. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, then select **Add**. The users are added to the queue.
 3. In **Assignment method**, do one of the following:
