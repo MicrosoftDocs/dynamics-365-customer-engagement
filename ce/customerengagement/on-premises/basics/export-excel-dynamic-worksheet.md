@@ -1,5 +1,6 @@
 ---
-title: "Export to an Excel dynamic worksheet (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Export to Excel dynamic worksheet from Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to export data to an Excel dynamic worksheet. Learn tips for running this process and working with the Excel sheet after export."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
