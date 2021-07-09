@@ -2136,6 +2136,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/basics-service-service-scheduling.md",
+      "redirect_url": "universal-resource-scheduling-for-field-service",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/developer/workflow/create-custom-workflow-activity.md",
       "redirect_url": "/powerapps/developer/common-data-service/workflow/workflow-extensions#visual-studio-requirements",
       "redirect_document_id": "false"
