@@ -8,7 +8,7 @@ ms.author: margoc
 ---
 # Customer Service Learning Catalog
 
-*<a href="https://dynamics.microsoft.com/en-us/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
+*<a href="https://dynamics.microsoft.com/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
 
 Find the right online training, in-person workshops, and events for your role in Dynamics 365 Customer Service. 
 

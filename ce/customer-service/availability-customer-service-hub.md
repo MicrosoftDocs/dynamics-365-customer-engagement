@@ -1,7 +1,7 @@
 ---
 title: "Availability of Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Contains information on availability of Customer Service Hub."
-ms.date: 04/01/2020
+ms.date: 07/09/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ ms.custom:
 
 # Availability of Customer Service Hub
 
-*<a href="https://dynamics.microsoft.com/en-us/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
+*<a href="https://dynamics.microsoft.com/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
 
 The Customer Service Hub solution is automatically installed in the environments that have customer engagement apps, such as Customer Service and Sales Hub.
 
