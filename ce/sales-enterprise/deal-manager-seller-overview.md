@@ -1,5 +1,5 @@
 ---
-title: "Deal manager - A dedicated workspace for sellers - Sales Enterprise | MicrosoftDocs"
+title: "Using deal manager workspace - Sales Enterprise | MicrosoftDocs"
 description: "Deal manager is a dedicated workspace for sellers to efficiently manage their sales pipeline. Sellers can personalize the workspace for their needs."
 ms.date: 07/15/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Deal manager workspace (Preview)
+# Using deal manager workspace (Preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

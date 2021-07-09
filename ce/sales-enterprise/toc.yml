@@ -232,8 +232,8 @@
         href: ../sales-enterprise/create-edit-opportunity-sales.md
       - name: Deal manager
         items:
-        - name: Deal manager overview
-          href: deal-manager-overview.md
+        - name: Using deal manager workspace
+          href: deal-manager-seller-overview.md
         - name: Access deal manager workspace
           href: access-deal-manager.md
         - name: Personalize deal manager workspace

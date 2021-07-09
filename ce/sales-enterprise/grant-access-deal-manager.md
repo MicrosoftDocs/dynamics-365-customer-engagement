@@ -30,7 +30,7 @@ By default, deal manager is enabled only for the administrators. As an administr
     - Select **All security roles** to grant access to all users.
     - Select **Specific security roles** and add the security roles that you want to grant access to.
 1. Select **Publish**.
-   The deal manager workspace is now available to the selected roles. See how to [access deal manager workspace](deal-manager-overview.md#access-deal-manager-workspace).
+   The deal manager workspace is now available to the selected roles. See how to [access deal manager workspace](access-deal-manager.md).
 
 
 

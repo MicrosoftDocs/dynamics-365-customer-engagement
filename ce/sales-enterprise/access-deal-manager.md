@@ -1,5 +1,5 @@
 ---
-title: "Deal manager - A dedicated seller workspace - Sales Enterprise | MicrosoftDocs"
+title: "Access deal manager workspace | MicrosoftDocs"
 description: ""
 ms.date: 06/30/2021
 ms.topic: article
@@ -22,3 +22,8 @@ To access the deal manager workspace, select **Deal manager (preview)** in the S
 
 > [!NOTE]
 > If you do not see **Deal manager (preview)** in the sitemap, contact your administrator to get access. 
+
+### See also
+
+- [Using deal manager workspace (Preview)](deal-manager-seller-overview.md)
+- [Grant access to deal manager (Preview)](grant-access-deal-manager.md)
