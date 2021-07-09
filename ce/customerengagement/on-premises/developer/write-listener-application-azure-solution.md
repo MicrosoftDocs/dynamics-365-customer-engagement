@@ -4,7 +4,7 @@ description: "The topic describes how to write an Azure solution listener applic
 ms.custom: 
 ms.date: 12/17/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

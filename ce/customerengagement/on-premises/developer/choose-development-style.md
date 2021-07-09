@@ -4,7 +4,7 @@ description: "Learn about the various options available to developers to make us
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -39,7 +39,7 @@ The SDK offers a variety of methods and technologies to use when you write code 
 
   The following flow diagram illustrates which development style to choose when developing for Dynamics 365 Customer Engagement (on-premises):  
 
-  ![Development style flow for Dynamics 365 Customer Engagement (on-premises)](media/whentousewebapi.jpg "Development style flow for Dynamics 365 Customer Engagement (on-premises)")  
+  ![Development style flow for Dynamics 365 Customer Engagement (on-premises).](media/whentousewebapi.jpg "Development style flow for Dynamics 365 Customer Engagement (on-premises)")  
 
 <a name="SDKAssemblies"></a>   
 

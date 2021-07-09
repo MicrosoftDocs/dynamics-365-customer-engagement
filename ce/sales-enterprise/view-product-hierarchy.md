@@ -16,11 +16,11 @@ A product hierarchy gives you a visual snapshot of the products your organizatio
   
 1. [!INCLUDE[proc_sales_products](../includes/proc-sales-products.md)]  
   
-2. In the list of products, open a product, product family, or bundle whose hierarchy you want to see, and on the command bar, select **View Hierarchy**![View hierarchy button](../sales-enterprise/media/v7-view-hierarchy.png "View hierarchy button").  
+2. In the list of products, open a product, product family, or bundle whose hierarchy you want to see, and on the command bar, select **View Hierarchy**![View hierarchy button.](../sales-enterprise/media/v7-view-hierarchy.png "View hierarchy button").  
   
     You'll see the product in a tree structure and a visual organization of all products in the hierarchy.  
   
-   ![The product in the hierarchy in Dynamics 365 Sales](../sales-enterprise/media/v7-product-hierarchy-view.png "The product in the hierarchy in Dynamics 365 Sales")  
+   ![The product in the hierarchy in Dynamics 365 Sales.](../sales-enterprise/media/v7-product-hierarchy-view.png "The product in the hierarchy in Dynamics 365 Sales")  
   
 3. To find out more about a product, family, or bundle, select its corresponding **Open this record** button.  
   

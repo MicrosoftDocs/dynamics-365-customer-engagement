@@ -29,7 +29,7 @@ Before you begin, make sure you have the **System Administrator** security role 
 
 2. Select **Facility/Equipment**.
 
-   ![Select Facility/Equipment](media/uci-facility-equipment.png "Select Facility/Equipment")
+   ![Select Facility/Equipment.](media/uci-facility-equipment.png "Select Facility/Equipment")
 
 3. Select **New**.
 
@@ -52,11 +52,11 @@ Before you begin, make sure you have the **System Administrator** security role 
   
 4. When you are finished entering details, select **Save** or **Save & Close**.
 
-   ![Save details](media/uci-save-facility-equipment.png "Save the details you've entered")
+   ![Save details.](media/uci-save-facility-equipment.png "Save the details you've entered")
 
 5. Set up the workhour calendar.
 
-   ![Calendar with working hours](media/uci-workhour-calendar.png "Set up the workhour calendar")
+   ![Calendar with working hours.](media/uci-workhour-calendar.png "Set up the workhour calendar")
    
 
 ### See also  

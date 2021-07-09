@@ -29,9 +29,9 @@ Track your tasks in Microsoft Outlook to your Dynamics 365 app. You can only tra
 1. Navigate to your tasks in Microsoft Outlook.
 
    > [!div class="mx-imgBorder"] 
-   > ![Navigate to your tasks in Microsoft Outlook](../media/go-to-tasks.png) 
+   > ![Navigate to your tasks in Microsoft Outlook.](../media/go-to-tasks.png) 
    
 2. Right-click on the task that you want to track and then select **Categorize** > **Track to Dynamics 365**. The task will be created in your Dynamics 365 when  the synchronization occurs.
 
    > [!div class="mx-imgBorder"] 
-   > ![Demo of how to track a task](../media/track-task.gif)  
+   > ![Demo of how to track a task.](../media/track-task.gif)  

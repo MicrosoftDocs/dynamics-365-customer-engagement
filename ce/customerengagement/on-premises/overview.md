@@ -4,7 +4,7 @@ description: "Welcome to the Dynamics 365 Customer Engagement (on-premises) Help
 ms.custom: on-premises
 ms.date: 06/07/2021
 ms.reviewer: "kvivek"
-ms.service: crm
+ms.prod: d365ce-op
 ms.topic: "article"
 author: "kvivek"
 ms.author: "KumarVivek"
@@ -25,7 +25,7 @@ Dynamics 365 Customer Engagement (on-premises), version 9.1 update introduces ma
 
 To view information about Dynamics 365 Customer Engagement (on-premises), version 9.0, select 9.0 from the **Version** selector located above the left navigation pane.
 
-![Version selector on Microsoft Docs](deploy/media/docs-version-picker.png "Version selector on Microsoft Docs")
+![Version selector on Microsoft Docs.](deploy/media/docs-version-picker.png "Version selector on Microsoft Docs")
 
 ::: moniker-end
 

@@ -59,10 +59,10 @@ Users can also review their simulations through the resource scheduling optimiza
 After reviewing the results of their simulation runs, users can then apply or discard the simulation.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the apply or discard option](media/rso_trigger_sim_5.png)
+> ![Screenshot showing the apply or discard option.](media/rso_trigger_sim_5.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing simulation status](media/rso_trigger_sim_6.png)
+> ![Screenshot showing simulation status.](media/rso_trigger_sim_6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

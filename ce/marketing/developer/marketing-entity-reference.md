@@ -36,17 +36,17 @@ To view information about all the entities and their properties, attributes, and
 
 In your Dynamics 365 Marketing instance, select **Dynamics 365** >  **Metadata Tools** to open the app.
 
-![Metadata Tools menu selection](../media/dev-metadata-browser-app.png "Metadata Tools menu selection")
+![Metadata Tools menu selection.](../media/dev-metadata-browser-app.png "Metadata Tools menu selection")
 
 The app provides entity reference data under two views:
 
 - **Entities** is the default view when you open the app. More information: [Entities view in the Entity Metadata Browser](#entities-view-in-the-entity-metadata-browser) 
 
-    ![Screenshot of the entities view](../media/dev-metadata-browser-tool.png "Screenshot of the entities view")
+    ![Screenshot of the entities view.](../media/dev-metadata-browser-tool.png "Screenshot of the entities view")
 
 - Select **Tools** > **Entity Metadata** for the **Entity Metadata** view to inspect individual entities. More information: [Entity Metadata view in Entity Metadata Browser](#entity-metadata-view-in-entity-metadata-browser)
 
-    ![Screenshot of entity metadata](../media/dev-metadata-browser-tool-EM.png "Screenshot of entity metadata")
+    ![Screenshot of entity metadata.](../media/dev-metadata-browser-tool-EM.png "Screenshot of entity metadata")
 
 ## Entities view in the Entity Metadata Browser
 You can perform the following actions:

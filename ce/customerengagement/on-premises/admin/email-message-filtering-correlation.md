@@ -4,7 +4,7 @@ description: "Use Email message filtering and correlation to specify which email
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -50,7 +50,7 @@ Email correlation is set on the **Email** tab of the System Settings page and ca
 
 3. In the **Configure folder-level tracking and email correlation** area, click **Use correlation to track email conversations**.  
 
-   ![Configure folder-level tracking](../admin/media/configure-folder-level-tracking.png "Configure folder-level tracking")  
+   ![Configure folder-level tracking.](../admin/media/configure-folder-level-tracking.png "Configure folder-level tracking")  
 
    If checked, this option uses the conversation id to identify all the emails that replied to a tracked email.  
 
@@ -81,7 +81,7 @@ In the email **To** field, all of the Customer Engagement (on-premises) records 
 ### Tracking token structure  
  By default, Customer Engagement (on-premises) uses the following token structure, that consists of a 4 character prefix and a 7 digit identifier.  
 
- ![Tracking token structure in Dynamics 365 for Customer Engagement](../admin/media/tracking-token.png "Tracking token structure in Dynamics 365 for Customer Engagement")  
+ ![Tracking token structure in Dynamics 365 for Customer Engagement.](../admin/media/tracking-token.png "Tracking token structure in Dynamics 365 for Customer Engagement")  
 
  The following table lists tracking token parts and descriptions.  
 

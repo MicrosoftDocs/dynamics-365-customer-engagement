@@ -50,7 +50,7 @@ There are several ways to find out if a contact's company has changed.
 
 To update the org chart for a specific contact, perform the following steps in the **Verify Contact Details** pane.
 
-![Side pane to verify contact details](media/sales-navigator-side-pane.png)
+![Side pane to verify contact details.](media/sales-navigator-side-pane.png)
 
 1. In Dynamics 365 Sales, open the **Verify Contact Details** pane as described in the section above.
 

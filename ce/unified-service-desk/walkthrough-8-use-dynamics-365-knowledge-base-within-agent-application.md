@@ -91,7 +91,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
    |Application is Global|Checked|  
    |Display Group|RightPanel|  
 
-   ![Create a KM Control hosted control](../unified-service-desk/media/usd-createkmcontrol.png "Create a KM Control hosted control")  
+   ![Create a KM Control hosted control.](../unified-service-desk/media/usd-createkmcontrol.png "Create a KM Control hosted control")  
 
 6. Click **Save and Close**.  
 
@@ -113,7 +113,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
    |Hosted Control|Sample KB Search|  
    |Action|default|  
 
-   ![Action call to open the KB Search panel](../unified-service-desk/media/usd-openkmcontrol.png "Action call to open the KB Search panel")  
+   ![Action call to open the KB Search panel.](../unified-service-desk/media/usd-openkmcontrol.png "Action call to open the KB Search panel")  
 
 5. Click **Save and close**.  
 
@@ -123,9 +123,9 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 8. Click the **Add Action Call record** button to add the action call.  
 
-   ![Add action to event](../unified-service-desk/media/usd-addactiontoevent.png "Add action to event")  
+   ![Add action to event.](../unified-service-desk/media/usd-addactiontoevent.png "Add action to event")  
 
-9. Type `Sample: Open KB Search Control` in the search box, and press ENTER or click the search button to add the action to the event. Change the order of the added action to 1, and then click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+9. Type `Sample: Open KB Search Control` in the search box, and press ENTER or click the search button to add the action to the event. Change the order of the added action to 1, and then click the **Save** ![Auto save button.](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 <a name="Step3"></a>   
 ## Step 3: Configure action calls to automatically display and hide the knowledge base search panel  
@@ -144,13 +144,13 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 4. Click the down arrow next to **Main layout**, and then click **UII Actions**.  
 
-   ![Add UII action](../unified-service-desk/media/usd-adduiiaction.png "Add UII action")  
+   ![Add UII action.](../unified-service-desk/media/usd-adduiiaction.png "Add UII action")  
 
 5. Click **Add New UII Action**.  
 
 6. On the **New UII Action** page, type `SetVisualProperty` in the **Name** field, and then click **Save and Close**.  
 
-   ![Create a UII action for Main Layout hosted control](../unified-service-desk/media/usd-createuiiaction.png "Create a UII action for Main Layout hosted control")  
+   ![Create a UII action for Main Layout hosted control.](../unified-service-desk/media/usd-createuiiaction.png "Create a UII action for Main Layout hosted control")  
 
     The new action call gets added to the **Main layout** hosted control, and is ready to be used.  
 
@@ -170,7 +170,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=true                                                            |
 
-    ![Create a new action call for Expand Right Panel Action](../unified-service-desk/media/usd-expandrightpanelaction.png "Create a new action call for Expand Right Panel Action")  
+    ![Create a new action call for Expand Right Panel Action.](../unified-service-desk/media/usd-expandrightpanelaction.png "Create a new action call for Expand Right Panel Action")  
 
 11. Click **Save and Close**.  
 
@@ -186,7 +186,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=false                                                           |
 
-    ![Create a new action call for Collapse Right Panel Action](../unified-service-desk/media/usd-collapserightpanelaction.png "Create a new action call for Collapse Right Panel Action")  
+    ![Create a new action call for Collapse Right Panel Action.](../unified-service-desk/media/usd-collapserightpanelaction.png "Create a new action call for Collapse Right Panel Action")  
 
 14. Click **Save and Close**.  
 
@@ -196,9 +196,9 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 17. Click the **Add Action Call record** button to add the action call.  
 
-    ![Add action to event](../unified-service-desk/media/usd-addactiontoevent.png "Add action to event")  
+    ![Add action to event.](../unified-service-desk/media/usd-addactiontoevent.png "Add action to event")  
 
-18. Type `Sample: Expand Right Panel Action` in the search box, and press ENTER or click the search button to add the action to the event. Change the **Order** of the added action to 2, and then click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+18. Type `Sample: Expand Right Panel Action` in the search box, and press ENTER or click the search button to add the action to the event. Change the **Order** of the added action to 2, and then click the **Save** ![Auto save button.](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 19. Go to **Unified Service Desk** page, and then click **Events**.  
 
@@ -209,9 +209,9 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 21. Click the **Add Action Call record** button to add the action call.  
 
-    ![Add action call to event](../unified-service-desk/media/usd-addactiontosessionclosedevent.png "Add action call to event")  
+    ![Add action call to event.](../unified-service-desk/media/usd-addactiontosessionclosedevent.png "Add action call to event")  
 
-22. Type `Sample: Collapse Right Panel Action` in the search box, and press ENTER or click the search button to add the action to the event. Change the order of the added action to 1, and then click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+22. Type `Sample: Collapse Right Panel Action` in the search box, and press ENTER or click the search button to add the action to the event. Change the order of the added action to 1, and then click the **Save** ![Auto save button.](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 <a name="Step4"></a>   
 ## Step 4: Configure an action call to automatically search the knowledge base using the incident (case) title  
@@ -238,7 +238,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
    > [!TIP]
    >  You can use additional data parameters in the `Search` action to specify knowledge base search parameters such as the number of search results to return, the type of knowledge base articles to be searched, and sorting options. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Search](../unified-service-desk/km-control-hosted-control.md#Search)  
 
-   ![Create an action call](../unified-service-desk/media/usd-searchkbwithcasetitleaction.png "Create an action call")  
+   ![Create an action call.](../unified-service-desk/media/usd-searchkbwithcasetitleaction.png "Create an action call")  
 
 5. Click **Save**.  
 
@@ -248,15 +248,15 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 8. Click the down arrow next to **Incident**, and then click **Events**.  
 
-   ![View events for the Incident hosted control](../unified-service-desk/media/usd-addactiontoincidentevent.png "View events for the Incident hosted control")  
+   ![View events for the Incident hosted control.](../unified-service-desk/media/usd-addactiontoincidentevent.png "View events for the Incident hosted control")  
 
 9. In the events list for the **Incident** hosted control, click `BrowserDocumentComplete`.  
 
 10. Click the **Add Action Call record** button to add the action call.  
 
-    ![Add action to BrowserDocumentComplete event](../unified-service-desk/media/usd-addactiontobrowserdocumentcomplete.png "Add action to BrowserDocumentComplete event")  
+    ![Add action to BrowserDocumentComplete event.](../unified-service-desk/media/usd-addactiontobrowserdocumentcomplete.png "Add action to BrowserDocumentComplete event")  
 
-11. Type `Sample: Search KB with Incident (Case) Title Action` in the search box, and press ENTER or click the search button to add the action to the event. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+11. Type `Sample: Search KB with Incident (Case) Title Action` in the search box, and press ENTER or click the search button to add the action to the event. Click the **Save** ![Auto save button.](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 > [!NOTE]
 >  At this point, the knowledge base search control is configured to display knowledge bases in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and connecting to Dataverse instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  
@@ -291,7 +291,7 @@ In this step, you will:
    |Application is Global|Clear|  
    |Display Group|MainPanel|  
 
-   ![New hosted control for displaying the KB article](../unified-service-desk/media/usd-samplekbarticlehostedcontrol.png "New hosted control for displaying the KB article")  
+   ![New hosted control for displaying the KB article.](../unified-service-desk/media/usd-samplekbarticlehostedcontrol.png "New hosted control for displaying the KB article")  
 
 5. Click **Save and Close**.  
 
@@ -313,7 +313,7 @@ In this step, you will:
     |Action|SetArticleContext|  
     |Data|articleapplication=Sample KB Article<br />articledata=[[postdata]+]|  
 
-   ![Action call for setting article context](../unified-service-desk/media/usd-actioncallsetarticlecontext.png "Action call for setting article context")  
+   ![Action call for setting article context.](../unified-service-desk/media/usd-actioncallsetarticlecontext.png "Action call for setting article context")  
 
 10. Click **Save and Close**.  
 
@@ -329,7 +329,7 @@ In this step, you will:
     |Action|Navigate|  
     |Data|url=[[Sample KB Search.articleurl]]<br />header=[[header]+]<br />postdata=[[postdata]]|  
 
-    ![Action call to display the KB article](../unified-service-desk/media/usd-actioncallopenkbarticle.png "Action call to display the KB article")  
+    ![Action call to display the KB article.](../unified-service-desk/media/usd-actioncallopenkbarticle.png "Action call to display the KB article")  
 
 13. Click **Save and Close**.  
 
@@ -345,7 +345,7 @@ In this step, you will:
     |Action|ShowTab|  
     |Data|Sample KB Article|  
 
-    ![Action call to display the KB article in a tab](../unified-service-desk/media/usd-actionshowkbarticletab.png "Action call to display the KB article in a tab")  
+    ![Action call to display the KB article in a tab.](../unified-service-desk/media/usd-actionshowkbarticletab.png "Action call to display the KB article in a tab")  
 
 16. Click **Save and Close**.  
 
@@ -361,7 +361,7 @@ In this step, you will:
 
 21. Repeat the previous step with the `Sample: Open KB Article Action` and `Sample: Show KB Article Tab Action` action calls to add them to the event.  
 
-22. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
+22. Click the **Save** ![Auto save button.](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 <a name="Step6"></a>   
 ## Step 6: Configure contextual actions for the knowledge base article in the tab  
@@ -385,7 +385,7 @@ In this step, you will:
    |Button Text|Copy Link|  
    |Order|1 **Note:**  The **Order** field defines the position of buttons in the toolbar. Buttons are arranged from left to right or top to bottom in an ascending order.|  
 
-   ![New toolbar button](../unified-service-desk/media/usd-newtoolbarbutton1.png "New toolbar button")  
+   ![New toolbar button.](../unified-service-desk/media/usd-newtoolbarbutton1.png "New toolbar button")  
 
 7. Click **Save**.  
 
@@ -397,7 +397,7 @@ In this step, you will:
 
 10. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
 
-    ![Create a new action call for the toolbar button](../unified-service-desk/media/usd-actioncallfortoolbarbutton.png "Create a new action call for the toolbar button")  
+    ![Create a new action call for the toolbar button.](../unified-service-desk/media/usd-actioncallfortoolbarbutton.png "Create a new action call for the toolbar button")  
 
 11. On the **New Action Call** page, specify the following values:  
 
@@ -412,7 +412,7 @@ In this step, you will:
 
 12. Click **Save and Close**. The new action call gets added to the **Copy Link** button.  
 
-13. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
+13. Click the **Save** ![Auto save button.](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
 
 14. Close the **Copy Link** toolbar button page, and return to the **Sample: KB Toolbar** page to add another button.  
 
@@ -447,11 +447,11 @@ In this step, you will:
     |Action|Associate|  
     |Data|entitytypename=incident<br />recordid =[[incident.Id]] <br />articleuniqueid=[[Sample KB Article.articleUId]] <br />articletitle=[[Sample KB Article.question]] <br />articleprivateurl=[[Sample KB Article.serviceDeskUri]] <br />articlepublicurl=[[Sample KB Article.publicUrl]+]|  
 
-    ![New action call to associate KB article to case](../unified-service-desk/media/usd-actioncalltoassociatearticle.png "New action call to associate KB article to case")  
+    ![New action call to associate KB article to case.](../unified-service-desk/media/usd-actioncalltoassociatearticle.png "New action call to associate KB article to case")  
 
 22. Click **Save and Close**. The new action call gets added to the **Link Article** button.  
 
-23. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
+23. Click the **Save** ![Auto save button.](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
 
 24. Close the **Link Article** toolbar button page, and return to the **Sample: KB Toolbar** page.  
 
@@ -459,13 +459,13 @@ In this step, you will:
 
 26. On the navigation bar, click the down arrow next to **Sample: KB Toolbar**, and then click **Hosted Controls**.  
 
-    ![Add tool bar to a hosted control](../unified-service-desk/media/usd-addtoolbartohostedcontrol.png "Add tool bar to a hosted control")  
+    ![Add tool bar to a hosted control.](../unified-service-desk/media/usd-addtoolbartohostedcontrol.png "Add tool bar to a hosted control")  
 
 27. Click **Add Existing Hosted Control**.  
 
 28. In the search box, type `Sample KB Article`, and press ENTER or click the search button to add the hosted control.  
 
-29. Click the **Save** ![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
+29. Click the **Save** ![Auto save button.](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner of the page.  
 
 <a name="Step7"></a>   
 ## Step 7: Test the application  
@@ -477,17 +477,17 @@ In this step, you will:
 
 3. In the **My Work** tab, click a case title to open it in a session. The Sample KB Search panel is automatically displayed on the right side, with the current case title pre-populated in the search box.  
 
-   ![KB Search pane in your agent desktop](../unified-service-desk/media/usd-kmcontrolinaction.png "KB Search pane in your agent desktop")  
+   ![KB Search pane in your agent desktop.](../unified-service-desk/media/usd-kmcontrolinaction.png "KB Search pane in your agent desktop")  
 
 4. Click a case title in the search results to display the article in the main panel. Notice the two buttons in the article tab: **Copy Link** and **Link Article**.  
 
-   ![Article displayed in the main panel](../unified-service-desk/media/usd-kbarticleinmainpanel.png "Article displayed in the main panel")  
+   ![Article displayed in the main panel.](../unified-service-desk/media/usd-kbarticleinmainpanel.png "Article displayed in the main panel")  
 
    -   Click **Copy Link** to copy the URL of the article. You can paste the URL in the browser to go directly to the article or can copy it in an email and send it to your customer.  
 
    -   Click **Link Article** to associate the article with the current case. A message is displayed at the top of the Sample KB Search panel to inform you that the article has been linked.  
 
-   ![Link article to a case](../unified-service-desk/media/usd-linkarticletocase.png "Link article to a case")  
+   ![Link article to a case.](../unified-service-desk/media/usd-linkarticletocase.png "Link article to a case")  
 
 <a name="Conclusion"></a>   
 ## Conclusion  

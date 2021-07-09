@@ -2,7 +2,7 @@
 title: "Available apps for Dynamics 365 Customer Engagement (on-premises) (on-premises) | Microsoft Docs"
 ms.custom: 
 ms.date: 11/26/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

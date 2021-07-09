@@ -38,12 +38,12 @@ With real-time marketing analytics, you can:
 
 ### Journey operational analytics
 
-Evaluate journey performance in near real-time through built-in operational analytics. The Sankey view in the designer helps you understand the user flow through the journey to understand which branches are working well.
+Evaluate journey performance in near real time through built-in operational analytics. The Sankey view in the designer helps you understand the user flow through the journey to understand which branches are working well.
 
 Select any component to view near real-time operational analytics in the right pane, including:
 
-- **Goal analytics**: If a goal has been defined a target set, you can view how the journey is progressing towards its goal and if it has met the goal.
-- **Channel analytics**: For any message in the journey (email/text/push notification), view the delivery funnel and additional metrics to diagnose the content performance.
+- **Goal analytics**: If a goal has been defined a target set, you can view how the journey is progressing toward its goal and if it has met the goal.
+- **Channel analytics**: For any message in the journey (email, text, or push notification), view the delivery funnel and additional metrics to diagnose the content performance.
 - **AI optimization**: Near real-time data to help you evaluate how applying AI optimization has helped your engagement rate.
 
 ### Aggregate cross-journey analytics
@@ -60,7 +60,7 @@ In addition to email analytics, you can review text message and push notificatio
 
 Aggregate cross-journey analytics allow you to analyze your orchestrated journeys and evaluate their performance. Cross-journey analytics address your reporting needs by providing a performance dashboard out of the box with beautiful Power BI visuals. Use the dashboard to enhance stakeholder presentations regarding your journey's performance.
 
-The cross-journey analytics dashboard allows you to check in on the performance of all your orchestrated journeys in one place. This allows you to discontinue under-performing journeys early, or identify ways to optimize and increase a journey’s performance as it continues. Within the dashboard, there are widgets to:
+The cross-journey analytics dashboard allows you to check in on the performance of all your orchestrated journeys in one place. This allows you to discontinue underperforming journeys early, or identify ways to optimize and increase a journey’s performance as it continues. Within the dashboard, there are widgets to:
 
 - Give a journey overview to evaluate journey effectiveness against objectives.
     - If a goal target has been set, you can view if the journey is on trend to achieve its goal.
@@ -72,15 +72,15 @@ The following sections describe the widgets in greater depth.
 
 ### Overall effectiveness
 
-The list of journeys provides you with key metrics for a clear overview of journeys. Fields such as **Days active** and **Inflow** help you understand if your journey is gaining or losing momentum. If your journey has a goal target set (for example, 10%), the target will be available in the table and represented on the journey goal chart to the right, showing its trend.
+The list of journeys provides you with key metrics for a clear overview of journeys. Fields such as **Days active** and **Inflow** help you understand if your journey is gaining or losing momentum. If your journey has a goal target set (for example, 10 percent), the target will be available in the table and represented on the journey goal chart to the right, showing its trend.
 
-The journey list allows you to select and drill down into a specific journey to present a “single journey” analytical view. You can also select the journey name to go to the journey canvas to better understand the journey design and operational analytics in near-real time.
+The journey list allows you to select and drill down into a specific journey to present a “single journey” analytical view. You can also select the journey name to go to the journey canvas to better understand the journey design and operational analytics in near real time.
 
 ### Audience participation in journeys
 
-You can review journey inflow and outflow in an aggregated view, or select an item to see specifics. The participation tree map titled **Why people participated in the journeys** gives you a clear indication of which segments or real-time events are triggering most of your audience to join the orchestrated journey. You can use the tree map to identify your most engaged segments and event triggers to utilize them in the future orchestrations.
+You can review journey inflow and outflow in an aggregated view, or select an item to see specifics. The participation tree map titled **Why people participated in the journeys** gives you a clear indication of which segments or real-time events are triggering most of your audience to join the orchestrated journey. You can use the tree map to identify your most engaged segments and event triggers to use them in future orchestrations.
 
-The **Why people left journeys** pie chart helps you determine why individuals are exiting journeys. There are multiple reasons an individual could exit, for example, if they successfully completed the journey, or if they were part of a suppression segment, or if they ran into a problem. This can be beneficial for troubleshooting issues.
+The **Why people left journeys** pie chart helps you determine why individuals are exiting journeys. There are multiple reasons an individual could exit—for example, if they successfully completed the journey, or if they were part of a suppression segment, or if they ran into a problem. This can be beneficial for troubleshooting issues.
 
 ### Channel engagement successes
 
@@ -90,13 +90,13 @@ The channel engagement successes tile helps identify the content that is perform
 
 ### Channel engagement issues
 
-Complementing the engagement successes tile is a report for messages that are possible friction points with a lower engagement rate across all channels (email, text messages, and push notifications). Here you are  presented with messages that had the highest **Delivery failure rate**, **Unopened rate**, and **Unsubscribe rate**.
+Complementing the engagement successes tile is a report for messages that are possible friction points with a lower engagement rate across all channels (email, text messages, and push notifications). Here you are presented with messages that had the highest **Delivery failure rate**, **Unopened rate**, and **Unsubscribe rate**.
 
 These statistics don't always mean that the journey containing the messages is doing poorly. Rather, the metrics indicate that the other messages in the journey may have performed better.
 
 ### Channel performance
 
-With more out of the box channels available in real-time marketing, you can compare channel performance across journeys. Use metrics like **Content delivery rate**, **Open rate**, and **Click through rate** to understand channel engagement with your audience. You can then leverage high performing channels in new orchestrations, or make more use of underutilized channels to achieve higher audience participation.
+With more out-of-the-box channels available in real-time marketing, you can compare channel performance across journeys. Use metrics like **Content delivery rate**, **Open rate**, and **Click through rate** to understand channel engagement with your audience. You can then leverage high-performing channels in new orchestrations, or make more use of underused channels to achieve higher audience participation.
 
 ### Experimentation
 

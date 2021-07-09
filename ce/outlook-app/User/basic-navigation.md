@@ -45,12 +45,12 @@ Once installed it's easy to access the Dynamics 365 App for Outlook pane whether
 - In the Outlook desktop client, select **Dynamics 365**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
+   > ![Open App for Outlook pane.](../media/open-pane-appforoutlook.png)  
    
 - In Outlook Web Access, open an email and then select More (...) > **Dynamics 365**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open App for Outlook pane in Outlook Web Access](../media/outlook-web-app.png)  
+   > ![Open App for Outlook pane in Outlook Web Access.](../media/outlook-web-app.png)  
    
 ## Pin 
 
@@ -59,7 +59,7 @@ If you're using the Outlook desktop client or Outlook Web Access, you can pin Ap
 - To pin the app, select the pin. To unpin, select the pin again.
 
    > [!div class="mx-imgBorder"] 
-   > ![Pin the add-in](../media/pin-addin.gif)  
+   > ![Pin the add-in.](../media/pin-addin.gif)  
 
 
 ## Terminology
@@ -78,7 +78,7 @@ If you're using the Outlook desktop client or Outlook Web Access, you can pin Ap
 
 Use the navigation bar at the top to access the site map, search, quick create, and more commands.
 
-![Top navigation bar](../media/top-nav-bar.png)
+![Top navigation bar.](../media/top-nav-bar.png)
 
 1. **Site map**: Use the site map to navigate to the **Home**, **Recent** items, **Pinned** items, and **Dashboards**.
 2. **Search**: Search for rows across multiple tables sorted by relevance. 
@@ -92,13 +92,13 @@ Use the navigation bar at the top to access the site map, search, quick create, 
 
 Use the site map to navigate to **Home**, **Recent** items, **Pinned** items, and **Dashboards**.
 
-![Open the site map menu](../media/site-map-menu.gif)
+![Open the site map menu.](../media/site-map-menu.gif)
 
 ### Site map menu items
 
 It's easy to get around and get back to your favorite or most-used rows. The following illustration shows the primary navigation elements
 
-![Menu items in the site map](../media/site-map-menu-items.png)
+![Menu items in the site map.](../media/site-map-menu-items.png)
 
 
 Legend
@@ -112,7 +112,7 @@ Legend
 
 Select an email to view additional information about the tracked item in the Dynamics 365 pane.
 
-![Additional information when an email is tracked](../media/tracked-item.png)
+![Additional information when an email is tracked.](../media/tracked-item.png)
 
 Legend
 
@@ -121,7 +121,7 @@ Legend
 3. **Related information**: When a contact is selected, its parent account is also available so you can drill into the account details and surface more Dynamics 365 data. You can also see related data, such as related the contact's opportunities.
 
 
-![See mpre information about a tracked row](../media/tracked-item-more-info.png)
+![See mpre information about a tracked row.](../media/tracked-item-more-info.png)
 
 
 1. **Tracked information**: Shows if the email message or meeting is linked to a row and if it's being tracked in your Dynamics 365 app.

@@ -32,5 +32,5 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 
 After the *OrgDBOrgSetting* is enabled, when you open Dynamics 365 App for Outlook on an appointment created by another user in your organization, you can track the appointment. You will no longer see the banner blocking you from tracking the calendar item.
 
- ![Track appointments](../media/Trackappointments.png "Track appointments ")
+ ![Track appointments.](../media/Trackappointments.png "Track appointments ")
 

@@ -58,7 +58,7 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 > For information about how to integrate custom messaging channel providers with Omnichannel for Customer Service, see [Bring your own channel](../bring-your-own-channel.md).
 
 > [!div class="mx-imgBorder"]
-> ![Differences between versions 1.0 and 2.0](media/choose-between-version.png "Differences between versions 1.0 and 2.0")
+> ![Differences between versions 1.0 and 2.0.](media/choose-between-version.png "Differences between versions 1.0 and 2.0")
 
 ### See also
 

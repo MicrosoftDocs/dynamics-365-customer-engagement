@@ -3,7 +3,7 @@ title: "Sample: Import files as web resources (Developer Guide for Dynamics 365 
 description: "The sample provides a simplified example of importing files as web resources."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

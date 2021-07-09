@@ -1,10 +1,10 @@
 ---
-title: "Publish reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: Learn how to publish reports using the web application in Dynamics 365 Customer Engagement (on-premises)
+title: "Publish a report in Dynamics 365 Customer Engagement (on-premises)"
+description: "Make reports available to users by publishing reports using the web application. Determine where the report will appear and define default filters."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

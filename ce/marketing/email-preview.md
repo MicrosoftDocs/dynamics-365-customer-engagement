@@ -77,7 +77,7 @@ After you've [added dynamic content](dynamic-email-content.md) such as a contact
 
 You can even test send (see below) messages with dynamic data including dynamic field values, entity relationships, loops, and conditionals.
 
-![Test send dynamic data](media/email-dynamic-test-send.png "Test send dynamic data")
+![Test send dynamic data.](media/email-dynamic-test-send.png "Test send dynamic data")
 
 ## Send a test message
 

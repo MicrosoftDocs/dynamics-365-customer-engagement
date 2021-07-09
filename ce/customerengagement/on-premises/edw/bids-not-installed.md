@@ -1,7 +1,7 @@
 ---
 title: "Business Intelligence Development Studio is not installed for Microsoft SQL Server Reporting Services | Microsoft Docs"
 description: Environment diagnostics warning that a required application is missing
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

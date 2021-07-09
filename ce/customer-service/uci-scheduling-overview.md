@@ -40,7 +40,7 @@ The following topics contain information about legacy Service Scheduling feature
 > [!Note]
 > To set up a business closure, navigate to the [Admin portal](https://admin.powerplatform.microsoft.com/), as shown in the following screen.
 
-   ![Admin portal business closure navigation](media/uci-business-closure.png "Navigation to the business closure link in the Admin portal")
+   ![Admin portal business closure navigation.](media/uci-business-closure.png "Navigation to the business closure link in the Admin portal")
 
 You can also set up service scheduling in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md)
 

@@ -4,7 +4,7 @@ descrption: The sample shows how to programmatically create an asynchronous work
 ms.custom: 
 ms.date: 1/14/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
