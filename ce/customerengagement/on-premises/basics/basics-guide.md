@@ -1,5 +1,5 @@
 ---
-title: "Essential guide to Dynamics 365 Customer Engagement (on-premises)"
+title: "Basics guide to Dynamics 365 Customer Engagement (on-premises)"
 keywords: sales; service; marketing
 description: "This guide contains the basics you need to know to navigate the system, enter data, effectively use dashboards, charts, and reports, get support, and more."
 ms.custom: 
