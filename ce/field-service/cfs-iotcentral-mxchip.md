@@ -1,11 +1,10 @@
 ---
 title: "Set up and test IoT alerts from a real device (MXChip) | MicrosoftDocs"
 description: Learn how to set up and test IoT alerts from a real device for Connected Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 5/15/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
