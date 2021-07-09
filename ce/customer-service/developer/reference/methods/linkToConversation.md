@@ -20,14 +20,14 @@ This function can be used to link account, contact, or incident records to the c
 
 ## Parameters
 
-| Parameter         | Type    | Description |
-| ----------------- | ------- | ----------- |
-| entityLogicalName | String  | Logical name of the entity (such as account, contact or incident) | 
-| recordId          | String  | Unique identifier for the entity record to be linked |
+| Parameter           | Type    | Description |
+| -----------------   | ------- | ----------- |
+| `entityLogicalName` | String  | Logical name of the entity (such as account, contact, or incident) | 
+| `recordId`          | String  | Unique identifier for the entity record to be linked |
 
 ## Return Value
 
-A resolved/reject promise on the basis of the outcome of the operation. 
+Returns a resolved or reject promise based on the outcome of the operation. 
 
 ## Example
 

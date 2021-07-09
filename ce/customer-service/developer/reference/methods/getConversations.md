@@ -22,24 +22,13 @@ This function can be used to fetch a list of conversation (`msdyn_ocliveworkitem
 
 | Parameter               | Type   | Description           |
 | -------------           | -------| --------------------- |
-| input (Required)        | String | JSON input in the following format: <br>{`attributes, agentID, status, orderBy, createdBeforeDays`}  </br> <br> The `agentId` is the only required input variable and the rest are optional.</br>| 
-| correlationId (Optional)| String | Unique identifier for telemetry logging.   |
-
-`attributes`: String[] containing entity attribute names
-
-`agentId`: String containing unique identifier for the agent
-
-`status`: String[] containing statuscode values
-
-`orderBy`: Array of objects in the format: [{ `attributeName`: "<Attribute_Name>" `descending`:\<boolean>}]
-
-`createdBeforeDays`: Number of days
-
+| `input` (Required)      | String | JSON input in the following format: <br>{`attributes, agentID, status, orderBy, createdBeforeDays`}  </br> where: <ul><li> `attributes`is an array of strings containing entity attribute names</li><li>`agentId` is a string containing unique identifier for the agent</li><li>`status` is an array of strings with comma-separated values</li><li>`orderBy` is an array of objects in the format: <br> [{ `attributeName`: "<Attribute_Name>" `descending`:\<Boolean>}]</br></li><li>`createdBeforeDays`is the number of days since the conversation was created</li></ul> <br> The `agentId` is the only required input variable and the rest are optional.</br>| 
+| `correlationId` (Optional)| String | Unique identifier for telemetry logging.   |
 
 
 ## Return Value
 
-A resolved or reject promise on the basis of the outcome of the operation. 
+Returns a resolved or reject promise based on the outcome of the operation. 
 
 > [!Note] 
 > Even if the caller doesn't pass any attributes in the input, the function returns the records with the following default attributes: 
@@ -55,13 +44,25 @@ The following code snippet fetches the currently waiting conversation for the gi
 
 ```javascript
 var input = { 
-            "attributes": ["msdyn_title", "msdyn_channel"], "orderBy": [{ "attributeName": "createdon", "descending": true }], 
-"agentId": "<<AgentId>>", "status": [3], }; 
-Microsoft.Omnichannel.getConversations(input).then(result => { 
-console.log("result is as:", result); 
-}, (error)=>{ 
-    console.log("error is as:", error); 
-}); 
+    "attributes": [
+        "msdyn_title",
+        "msdyn_channel"
+        ],
+    "agentId": "2b330c52-6844-4d36-8e05-03c78c9681dc",
+    "status": [3], 
+    "orderBy": [
+        { 
+            "attributeName": "createdon",
+            "descending": true
+        }
+    ]
+};
+Microsoft.Omnichannel.getConversations(input).then(result => {
+    console.log("result is as:", result); 
+    }, (error) => {
+        console.log("error is as:", error); 
+    }
+);
 ```
  
 ### See also

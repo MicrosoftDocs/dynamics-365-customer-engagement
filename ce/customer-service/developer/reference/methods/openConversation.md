@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This function can be used to open a conversation as a session programmatically. 
+This function can be used to open a conversation as a session programmatically.
 
 ## Syntax
 
@@ -22,13 +22,13 @@ This function can be used to open a conversation as a session programmatically.
 
 | Parameter                  | Type   | Description |
 | ---------------------------| -----  | ----------- |
-| liveworkitemId (Required)  | String | Unique identifier for the conversation to open.   | 
-| lastsessionId (Optional)   | String | Unique identifier for the last sessionId in which conversation was opened.    |
-| liveworkstreamId (Optional)| String | Unique identifier for the live workstream to which the conversation belong.   |
+| `liveworkitemId` (Required)  | String | Unique identifier for the conversation to open.   |
+| `lastsessionId` (Optional)   | String | Unique identifier for the last sessionId in which conversation was opened.    |
+| `liveworkstreamId` (Optional)| String | Unique identifier for the live workstream to which the conversation belong.   |
 
 ## Return Value
 
-A resolved or reject promise on the basis of the outcome of the operation. 
+Returns a resolved or reject promise based on the outcome of the operation. 
 
 ## Example
 

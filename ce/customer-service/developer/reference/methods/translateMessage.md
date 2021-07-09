@@ -85,7 +85,7 @@ Returns a promise that resolves to a Javascript object implementing `TranslatedM
 
 **Interface object**
 
-```
+```javascript
 export interface ErrorObject{ 
         isError: boolean; //mandatory field, represents true for error while executing this function else no
         errorCode: ErrorCodes; //mandatory field, represents the type of error based on errorCode

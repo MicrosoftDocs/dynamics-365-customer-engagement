@@ -81,7 +81,7 @@ conversationConfig = {
 
 Returns a promise that resolves to the following Javascript object.
 
-```
+```javascript
 {
         keepTranslationOn: boolean;// mandatory field, if true the translation would be turned on for the conversation and vice-versa
         c1Language?: string;// optional field, return the agent's language if input param conversationConfig.c1Language needs to be overriden for the conversation

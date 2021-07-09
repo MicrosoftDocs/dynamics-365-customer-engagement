@@ -27,7 +27,7 @@ This function can be used to unlink an already linked entity record of type cust
 
 ## Return Value
 
-A resolved/reject promise on the basis of the outcome of the operation. 
+Returns a resolved or reject promise based on the outcome of the operation. 
 
 ## Example
 

@@ -29,7 +29,7 @@ manager: shujoshi
 
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
-| contextProvider | Function | Function that when invoked, returns the custom context |
+| `contextProvider` | Function | Function that when invoked, returns the custom context |
 
 ## Return Value
 
