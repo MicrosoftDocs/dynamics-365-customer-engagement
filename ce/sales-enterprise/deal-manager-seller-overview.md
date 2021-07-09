@@ -1,14 +1,14 @@
 ---
 title: "Deal manager - A dedicated workspace for sellers - Sales Enterprise | MicrosoftDocs"
-description: ""
-ms.date: 06/30/2021
+description: "Deal manager is a dedicated workspace for sellers to efficiently manage their sales pipeline. Sellers can personalize the workspace for their needs."
+ms.date: 07/15/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Deal manager (Preview)
+# Deal manager workspace (Preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -17,18 +17,17 @@ manager: shujoshi
 
 Deal manager is a dedicated workspace for sellers. As a seller, you can personalize the workspace depending on what you want to see in your workspace. You can organize opportunities in a way that makes sense to you, personalize your view, update information on-the-fly, add notes and tasks, and many more. You can also request your administrator to customize the experience further to improve your productivity.  
 
-:::image type="content" source="media/deal-manager-overview-v4.png" alt-text="Screenshot of deal manager workspace in a nutshell" lightbox="media/deal-manager-overview-v4.png":::
+:::image type="content" source="media/deal-manager-overview-v1-small.png" alt-text="Screenshot of deal manager workspace in a nutshell" lightbox="media/deal-manager-overview-v1.png":::
 
 
 |No in the image  |Feature  |Description  |
 |---------|---------|---------|
-|1     |  Metrics       |Lets you view key metrics or KPIs that you want to track. You can modify the metrics in this section as per your need. See the Edit metrics feature in this table or [Personalize deal manager (Preview)](personalize-deal-manager.md#personalize-the-metrics)         |
-|2     |Edit metrics         |Lets you select the metrics that you want to track. You can select the field and aggregate function (sum, average, and so on), and apply filters to narrow down the records specific to your role   |
-|3     |Charts         |Gives you a visual representation of the pipeline. The default bubble chart displays the revenue of the deals and their close dates. The size of the bubble indicates the opportunity score and the color of the bubble indicates the opportunity grade. You can request your administrator to customize the chart if you want to see different fields in the chart. See [Customize deal manager (Preview)](customize-deal-manager.md). When you filter the records, the chart is automatically updated.|
-|4     |Editable grid         |Lets you view a list of opportunities and edit values inline. Select any linked column, such as Name, Potential Customer, or Contact, to view and edit quick details in the side panel.          |
-|5     | Column actions        |Lets you perform quick actions on the columns such as sort, show/hide, insert column, and so on.         |
-|6     |Inline editing         |Lets you edit the values in the grid. Select the edit icon and update the value.         |
-|7     |Manage columns in the grid         |Lets you add or remove columns from the grid. You cannot remove the default columns; you can only hide them        |
-|8     | Group by        |Lets you group the records based on a specific column. For example, if you want to group all the records by their status, select the Status field in the Group by drop-down.         |
-|9     |Side panel         |Lets you view and edit quick details for the linked values such as Opportunity Name, Potential Customer, or Contact. You can also navigate from one object to another in the side panel. For example, while you're looking at the opportunity, you can click on a contact to view their quick details, make updates, and then return to the opportunity. 
-|10     |Filter data         |Filter data based on various conditions. Use the **Search** option to quickly search for a column to either apply filter or view the existing filter on the column. Select **More filters** to view all the existing filters and to add more filters on columns that are not listed in the Filters panel, including related entities.       |
+|1     |  Metrics       |Lets you view key metrics or KPIs that you want to track. You can modify the metrics in this section as per your need. See [Personalize deal manager (Preview)](personalize-deal-manager.md#personalize-the-metrics).         |
+|2     |Charts         |Gives you a visual representation of the pipeline. <br> **Bubble chart** <br> The default bubble chart displays the following values: <br> **x-axis:** Displays opportunity score if you've Sales insights, else displays the deal probability <br> **y-axis:** Displays close date - A smart column that displays the actual close date or estimated close date depending on whether the opportunity is closed or not.<br> **Size of the bubble:** Displays revenue - A smart column that displays the actual revenue or estimated revenue depending on whether the opportunity is closed or not.  For more information, see [What are Smart columns](personalize-deal-manager.md#what-are-smart-columns). <br> **Color of the bubble:** Indicates opportunity grade if you've Sales Insights, else displays pipeline phase. <br> You can request your administrator to customize the chart if you want to see different fields in the chart. See [Customize deal manager (Preview)](customize-deal-manager.md). <br> **Sales funnel chart** <br> The Sales funnel chart displays the following values. <br> **x-axis:** Displays the Pipeline phases. **y-axis**: Displays the Estimated revenue. Customization of the Sales funnel is not supported in this release. <br> When you filter the records, the chart is automatically updated.|
+|3     |Editable grid         |Lets you view a list of opportunities and edit records inline. Select any linked column, such as Name, Potential Customer, or Contact, to view and edit quick details in the side panel. You can personalize the grid; add, remove, resize, hide, rearrange, sort, and group columns on-the-fly. See [Personalize deal manager (Preview)](personalize-deal-manager.md). You can also save the personalization in a view so that you can switch to it at anytime. See [Create a view](personalize-deal-manager.md).  
+|4     |Side panel         |Lets you view and edit quick details for the linked values such as Opportunity Name, Potential Customer, or Contact. You can also navigate from one object to another in the side panel. For example, while you're looking at the opportunity, you can click on a contact to view their quick details, make updates, and then return to the opportunity. You can request your administrator to customize the side panel if you want to be able to view or update other fields in the panel.
+
+### See also
+- [Access deal manager workspace (Preview)](access-deal-manager.md)
+- [Personalize deal manager workspace (Preview)](personalize-deal-manager.md)
+- [Customize deal manager workspace (Preview)](customize-deal-manager.md)

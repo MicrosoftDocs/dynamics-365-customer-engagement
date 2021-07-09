@@ -1,14 +1,14 @@
 ---
 title: "Personalize deal manager workspace - Sales Enterprise | MicrosoftDocs"
 description: "As a seller, personalize the grid and apply filters to suit your needs."
-ms.date: 06/30/2021
+ms.date: 07/15/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Personalize deal manager (Preview)
+# Personalize deal manager workspace (Preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -82,10 +82,55 @@ The following smart columns are available:
 
 |Name  |Computation  |Action  |
 |---------|---------|---------|
-|Close date     | Displays the actual close date if the opportunity is closed, else it displays the estimated close date.         |None         |
-|Revenue     |Displays the actual revenue if the opportunity is closed, else it displays the estimated revenue.         |None         |
+|Close date     | Displays the actual close date if the opportunity is closed, else displays the estimated close date.         |None         |
+|Revenue     |Displays the actual revenue if the opportunity is closed, else displays the estimated revenue.         |None         |
 
+## Apply filters
 
+As a seller, you want the workspace the display records that you're working on. As manager, you want to view records that team is working on. So, apply filters to view the records that you're interested in.
+
+**To apply filters to the workspace**
+
+1. In the deal manager workspace, select **Filters**.
+    The Filters panel displays the columns in your view. 
+1. Select **More filters** to,
+    - Select fields that are not in your view. Related entities are not supported in this release.
+    - View all the selected filters
+1. To specify an OR condition, select **Add group** in the **Add** drop-down.
+    :::image type="content" source="media/filter-add-group.PNG" alt-text="Screenshot of the Add group option in the More filters panel":::
+1. Select the **Or** operator in the drop-down next to the group filter checkbox.
+
+## Deal manager views
+
+The personalization changes that you directly make in the grid do not persist across sessions. If you want to save your changes permanently, create a view. You can personalize the following aspects of the grid in a view:
+
+- Add or remove columns
+- Resize or rearrange columns
+- Apply filters
+
+> [!NOTE]
+> Currently, changes to metrics or other personalization changes to the grid cannot be saved to the view.
+
+### Create a view
+
+**To create a view:**
+
+1. In the deal manager workspace, select **View > Create Personal View**.
+1. In the **View Designer**, personalize the columns and apply filters as per your needs.
+    :::image type="content" source="media/view-designer.PNG" alt-text="Screenshot of the view designer in Power Apps":::
+1. Save the changes.
+
+## Edit a view
+
+The option to edit a view is not yet supported in the deal manager workspace. You can however, edit the view in Power Apps.
+
+## Switch to a view
+
+You can create multiple views with different filter conditions or columns and switch between them.
+
+In the deal manager workspace, select the views drop-down and search for the view that you want to switch to.
+
+:::image type="content" source="media/views-dropdown.PNG" alt-text="Screenshot highlighting views drop-down in deal manager":::
  
 
 ### See also

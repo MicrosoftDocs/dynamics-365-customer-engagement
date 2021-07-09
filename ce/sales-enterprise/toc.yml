@@ -38,13 +38,13 @@
         href: set-up-enhanced-email.md
       - name: Deal manager
         items:
-        - name: Deal manager overview
+        - name: Deal manager Overview
           href: deal-manager-overview.md
-        - name: Enable Deal manager preview
+        - name: Enable Deal manager workspace preview
           href: enable-deal-manager-preview.md
-        - name: Grant access to Deal manager
+        - name: Grant access to deal manager workspace
           href: grant-access-deal-manager.md
-        - name: Customize to Deal manager
+        - name: Customize Deal manager workspace
           href: customize-deal-manager.md 
       - name: Enable customization of the Opportunity Close form
         href: enable-opportunity-close-customization.md
@@ -234,11 +234,11 @@
         items:
         - name: Deal manager overview
           href: deal-manager-overview.md
-        - name: Access deal manager
+        - name: Access deal manager workspace
           href: access-deal-manager.md
-        - name: Personalize the deal manager
+        - name: Personalize deal manager workspace
           href: personalize-deal-manager.md   
-        - name: Known issues
+        - name: Known issues in deal manager
           href: deal-manager-known-issues.md  
       - name: Work with opportunities in the Kanban view
         href: opportunity-kanban-view.md

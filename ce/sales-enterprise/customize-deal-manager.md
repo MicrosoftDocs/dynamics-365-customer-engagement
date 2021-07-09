@@ -1,14 +1,14 @@
 ---
 title: "Customize deal manager workspace - Sales Enterprise | MicrosoftDocs"
-description: "Customize the grid, side panel, and charts displayed in the deal manager."
-ms.date: 06/30/2021
+description: "Customize the grid, side panel, and charts displayed in the deal manager according to your sales team's requirement."
+ms.date: 07/15/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Customize deal manager (Preview)
+# Customize deal manager workspace (Preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -23,7 +23,7 @@ As an administrator, you can customize the workspace to enhance your sales team'
 
 ## Customize the charts
 
-The deal manager charts help sellers visualize their pipeline better. As an administrator, you can customize various elements in the bubble chart such as, the data on x and y-axis, size of the bubble, sort order, and tool tips.
+The deal manager charts help sellers visualize their pipeline better. As an administrator, you can customize various elements in the bubble chart such as, the data on x and y-axis, size and color of the bubble, sort order for legend, and tool tips.
 
 > [!NOTE]
 > Customization of the sales funnel chart is not supported in this release.  
@@ -42,15 +42,17 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
     - **Size**
         Select a *numerical* field to indicate the size of the bubble.   
     - **Sort legend**
-    - Not sure what this is.  
+        Select how you want to sort the legends displayed on the chart. Legends indicate the color used for each segment. For example, if you select Opportunity grade as the segment, the legends will be sorted based on the chronological order of the grades.
+  
     - **Tooltips**
         Select the details that you want to see as tooltips when you hover each  bubble.  
+
 1. Save the changes. Access the deal manager workspace to verify if the changes are effective.
 
 
 ## Customize the editable grid in deal manager
 
-The editable grid in the deal manager workspace lets sellers quickly view a list of opportunities that they are interested in. You can customize the editable grid to include fields that sellers want to view and update in the list view, or to apply any business rules. 
+The editable grid in the deal manager workspace lets sellers quickly view a list of opportunities that they are interested in. You can customize the editable grid to include fields that sellers want to view by default and update, or to apply any business rules. 
 
 Customize the editable grid by adding a JavaScript library. These customizations include disabling fields based on a certain logic, preventing fields from being automatically saved, and setting error notifications for fields. Before you upload it, the JavaScript library must be created in accordance with the schemas defined in [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).  
 
@@ -102,7 +104,7 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
 ## Customize the side panel
 
-The side panel helps sellers view quick details about a selected record. It offers more details about the record, and displays notes and tasks, and activities associated with the record. 
+The side panel helps sellers view quick details about a selected record. It offers more details about the record, and displays notes, tasks, and activities associated with the record.  
 
 **Supported customizations**
 The following customizations are supported for side panel:
