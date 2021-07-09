@@ -1,7 +1,7 @@
 ---
-title: "Basics Guide (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Essential guide to Dynamics 365 Customer Engagement (on-premises)"
 keywords: sales; service; marketing
-description: Basics Guide for Dynamics 365 Customer Engagement (on-premises), version 9.
+description: "This guide contains the basics you need to know to navigate the system, enter data, effectively use dashboards, charts, and reports, get support, and more."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - enduser
 
 ---
-# Basics Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
+# Basics guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
 ::: moniker range=">= op-9-1"
 
