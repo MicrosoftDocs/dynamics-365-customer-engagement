@@ -1,7 +1,7 @@
 ---
-title: "Merge duplicate records for accounts, contacts, or leads (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-ms.custom: 
-description: Merge duplicate records for accounts, contacts, or leads.
+title: "Merge duplicate records in Dynamics 365 Customer Engagement (on-premises)"
+description: "Duplicate records can creep in when data is entered manually or imported in bulk. Use these steps to merge duplicate records for accounts, contacts, or leads."
+ms.custom:
 ms.date: 05/05/2020
 ms.reviewer:
 ms.prod: d365ce-op

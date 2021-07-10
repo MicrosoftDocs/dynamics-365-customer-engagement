@@ -1,7 +1,7 @@
 ---
-title: "Export to an Excel PivotTable (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Export to Excel PivotTable from Dynamics 365 Customer Engagement (on-premises)"
+description: "Export data to an Excel PivotTable to better see patterns and trends. Learn how to run this process and get tips for working with the table after export."
 ms.custom: 
-description: How to export to an Excel PivotTable.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.prod: d365ce-op
