@@ -1,7 +1,7 @@
 ---
-title: "Take Microsoft Teams data a step further with Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to follow up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 06/29/2021
+title: "Customize your Teams webinar participant follow-up (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to customize your follow-up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
+ms.date: 07/12/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,26 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Take Microsoft Teams data a step further with Dynamics 365 Marketing
-
-With Teams and Marketing, you can continue the conversation with webinar participants, using attendance data to build relationships. Let's say you've hosted a Microsoft Teams webinar and are reviewing your [Teams attendance report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report). Maybe some guests registered but didn't attend, while others canceled their registrations. You wish you could follow up with the guests to get feedback or tell them about an upcoming webinar that is more relevant to their interests.
-
-Marketing helps you automate and personalize the follow-up process. Using Marketing with Teams data, you can:
-
-- Store and manage webinar participant contact information
-- Create groups of participants for targeted messaging (for example, participants who attended, who didn't attend, or who canceled)
-- Use built-in email templates to send personalized emails that look professionally designed
-
-## Teams versus Marketing terminology
-
-The following bolded terms are tools that the Marketing app uses to organize, personalize, and automate your webinar participant data.
-
-- **Contact**: In Marketing, participant data such as names, email addresses, company names, and mailing addresses are stored as contacts. You can use other tools, such as segments, to group contacts for targeted messaging.
-- **Segment**: A segment is a defined group of contacts, such as contacts who work at Contoso and attended a webinar. Segments allow you to choose the right audience to market to.
-- **Customer journey**: After you've identified the audience you want to target, you can create a journey that automates a series of communications. For example, you can use a journey to send an email requesting a response from all participants who registered but did not attend a webinar. You may find that the webinar was off topic or was at an inconvenient time, helping you improve your future webinar plans.
-- **Customer journey tile**: Each step in a customer journey is represented by a tile. The [tiles represent actions](customer-journey-tiles-reference.md)) that the Marketing app can take. For example, an email tile automatically sends personalized email messages to a segment of your choosing.
-
-## Follow up with webinar participants
+# Customize your Teams webinar participant follow-up
 
 In just a few steps, you can use contacts, segments, and a customer journey to follow up with webinar participants, even if you are not an existing Dynamics 365 Marketing user. To follow up with participants:
 
@@ -50,9 +31,9 @@ In just a few steps, you can use contacts, segments, and a customer journey to f
     > [!div class="mx-imgBorder"]
     > ![Generated customer journey](media/team-follow-up-journey.png "Generated customer journey")
 
-## Using your webinar data customer journey
+## Use automatically created customer journeys with your webinar data
 
-The customer journey uses the power of Dynamics 365 Marketing to follow up with webinar participants on three paths:
+The automatically created customer journey uses the power of Dynamics 365 Marketing to follow up with webinar participants. The journey creates the three most common follow-ups (paths) for your webinar participants:
 
 - The first path sends an email to registrants who did not attend the webinar.
 - The second path sends an email to registrants who attended the webinar.
@@ -64,15 +45,14 @@ You can also add tiles to create more complex paths for your journey. For exampl
 
 Refer to the links below to learn more about Marketing features and how to customize your journey.
 
-## Learn more about customizing your journey
+## Customize your journey or create a new one
 
-The links below guide you through some of the key features of emails, segments, and customer journeys.
+The links below guide you through the key steps you'll need to follow to create custom groups of participants, create your own customer journeys, and customize your follow-ups.
 
-- [Create a marketing email and go live](create-marketing-email.md)
-- [Create a dynamic segment](create-segment.md)
-- [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
-- [Customer journey tiles reference](customer-journey-tiles-reference.md)
-- [Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md)
+- [Edit the email content for a specific path](create-marketing-email.md)
+- [Create a group of participants based on certain criteria](create-segment.md)
+- [Send a survey](customer-voice.md)
+- [Spread the word about the next webinar](create-simple-customer-journey.md)
 
 ## Additional resources
 
