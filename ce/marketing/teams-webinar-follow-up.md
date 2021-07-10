@@ -31,7 +31,7 @@ In just a few steps, you can use contacts, segments, and a customer journey to f
     > [!div class="mx-imgBorder"]
     > ![Generated customer journey](media/team-follow-up-journey.png "Generated customer journey")
 
-## Use automatically created customer journeys with your webinar data
+## Using the automatically created customer journey with your webinar data
 
 The automatically created customer journey uses the power of Dynamics 365 Marketing to follow up with webinar participants. The journey creates the three most common follow-ups (paths) for your webinar participants:
 
