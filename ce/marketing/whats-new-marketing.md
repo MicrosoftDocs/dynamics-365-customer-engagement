@@ -37,7 +37,7 @@ The Dynamics 365 Marketing July 2021 update includes an overhauled trial experie
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10073.2001 |
+| Marketing        | 1.35.10074.1038 |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
@@ -56,22 +56,41 @@ The Dynamics 365 Marketing July 2021 update includes an overhauled trial experie
 
 #### Bug fixes
 
+- **Core sending**
+    - Improved handling of Daylight Savings Time.
 - **Customer journeys**
-    - 
+    - Expired customer journeys are now prevented from automatically being stopped.
+    - Deprecated Marketing Machine Learning Spam Score User role.
+    - Fixed an error that prevented "RemovedActivityHasNotProcessedContactsRule" validation errors from displaying.
+    - Fixed an issue that sometimes caused field controls to not render.
+    - Resolved a time zone rendering error on the milestone panel.
+    - Updated display rules for modify actions (Go Live, Stop, Edit) to better reflect user privileges.
+    - Fixed an error that sometimes caused a "Reply to address" to change after a journey went live.
 - **Event management**
-    - 
+    - Custom registration fields now disassociate on deactivation of records.
+    - Fixed an issue that prevented adding rooms to an event created from a template.
+    - Resolved an error that caused recurrent events to not propagate start and end times to the series.
 - **Marketing emails**
-    - 
-- **Marketing insights**
-    - 
+    - Resolved an issue that sometimes caused a line to appear between email sections in Outlook.
+    - Fixed an error that caused email content to occasionally not load.
+    - Fixed an error that caused increasing the font size to create uneven column heights in Outlook desktop.
+    - Fixed media queries for outlook.com on Android.
+    - Resolved a column rendering issue when adding multiple images with rounded corners.
+    - Preheader values now render properly when added in the HTML editor.
+    - Fixed an error that prevented deselecting the inner spacing control checkbox when editing text.
+    - Fixed a rendering issue when using related record filtering for lookup fields.
 - **Marketing pages**
-    - 
-- **Settings**
-    - 
-- **Shared UX**
-    - 
-- **Social posting**
-    - 
+    - Resolved an issue that caused leads on an event form to not contain a reference to a source form.
+    - Fixed an issue that caused an empty `<p>` element to not render.
+    - Resolved an issue that cause the submitted values column to show as empty when exporting form submissions to Excel.
+    - Form capture now handles URLs with a `/` at the end.
+    - Fixed an issue that would cause form capturing to fail for pages with a non-jQuery `window.$` object.
+    - Upgrades no longer overwrite differently mapped form fields with the same name as an out of the box form field.
+    - Form capturing no longer fails validation if the captured option set has duplicate values.
+    - Fixed an error that sometimes caused form submissions to fail due to an SQL error.
+    - Fixed an error that caused an invalid form submission field when capturing a form with checkboxes.
+- **Segmentation**
+    - Fixed an error that caused the UI to change when reopening a segment from a query.
 
 ### June 2021 update
 
