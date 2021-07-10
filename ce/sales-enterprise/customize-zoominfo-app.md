@@ -12,7 +12,7 @@ manager: shujoshi
 After you install the ZoomInfo app, it's available as a standalone app, so every time sellers must come back to the app selection area and choose ZoomInfo to view the required information. 
 
 As an administrator, you can customize the ZoomInfo app in the following ways:   
--	**Add ZoomInfo entry to the sit emap**: You can add the ZoomInfo entry to your Dynamics 365 Sales environment on the left navigation site map and provide easy access to ZoomInfo, including the Admin Portal and ZoomInfo Knowledge Center. More information: [Add ZoomInfo entry to site map](#add-zoominfo-entry-to-site-map).
+-	**Add ZoomInfo entry to the site map**: You can add the ZoomInfo entry to your Dynamics 365 Sales environment on the left navigation site map and provide easy access to ZoomInfo, including the Admin Portal and ZoomInfo Knowledge Center. More information: [Add ZoomInfo entry to site map](#add-zoominfo-entry-to-site-map).
 -	**Add ZoomInfo form to table entities**: You can add the ZoomInfo form to standard or custom Account, Contacts, and Leads table entities to provide sellers with inline access to ZoomInfo data. More information: [Add ZoomInfo form to entities](#add-zoominfo-form-to-table-entities).
 
 ## Prerequisites
