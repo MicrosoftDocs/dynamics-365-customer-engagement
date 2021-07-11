@@ -40,8 +40,8 @@ sections:
           The mobile app can recommend addresses as technicians enter them into a work order when an internet connection is available. Address suggestions make data entry quicker and more accurate.    
           
           Enable address recommendations by going to **Field Service app** > **Settings** > **Field Service Settings** > **Other section**, and then set **Enable Address Suggestions** to **Yes**.
-<!--note from editor: The screenshot shows an actual address (appears to be the Mall of America). Can you mock up a fake address with an impossible zip code? The CELA guidelines say "For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052)." -->
-          > [!div class="mx-imgBorder"]<!--note from editor: Did the alt text mean to call out the mobile app? Or should it be something like "Screenshot of the Enable Address Suggestions command in Dynamics 365 Field Service."? -->
+<!--note from editor: The screenshot shows an actual address (appears to be the Mall of America). Can you mock up a fake address with an impossible zip code? The CELA guidelines say "For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052)." Did the alt text mean to call out the mobile app? Or should it be something like "Screenshot of the Enable Address Suggestions command in Dynamics 365 Field Service."? -->
+          > [!div class="mx-imgBorder"]
           > ![Screenshot of enabled address suggestions in the Field Service (Dynamics 365) mobile app.](./media/mobile-2020-settings-enable-address-recommendation.png)
           
           When the mobile user has no internet access, they can select **Edit** to manually enter address fields.
