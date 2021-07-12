@@ -74,7 +74,7 @@ To resolve this issue, you must edit or remove filters for the view. This will e
     The view edit page opens.
 
     > [!div class="mx-imgBorder"]
-    > ![Edit a view.](media/troubleshooting-record-edit-view.png "Edit the view")
+    > ![Edit the view.](media/troubleshooting-record-edit-view.png "Edit the view")
 
 4. Select **Edit Filter Criteria** and recheck the filter condition either by updating or deleting.
 
