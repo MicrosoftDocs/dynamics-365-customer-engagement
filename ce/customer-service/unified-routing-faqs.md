@@ -79,7 +79,7 @@ No. After upgrade, you'll no longer be able to create workstreams for routing re
 
 No. Basic routing can be used only for cases. To route any record type, use unified routing.
 
-### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the cases assignment?
+### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
 
 No. There is no priority amongst queues. However, you can prioritize records within a queue.
 
@@ -87,13 +87,17 @@ No. There is no priority amongst queues. However, you can prioritize records wit
 
 No. It is not possible to pause the assignment of a case.
 
-### Can I export a UR configuration and sign in to another environment?
+### Can I export a Unified Routing configuration and sign in to another environment?
 
 No, a configuration can't be exported.
 
-### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is is possible to now re-assign C1 to Q3?
+### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is is possible to now reassign C1 to Q3?
 
-Yes. It is possible to re-assign a case to another queue. Select **Save and route** to trigger reassignment of a work item from one queue to another queue.
+Yes. It is possible to reassign a case to another queue. On the case form, select **Save and route** to reassign the work item from one queue to another queue.
+
+### Why am I not able to see the **Keep same agent for entire conversation** toggle in my **Work distribution settings** for a workstream related to cases?
+
+A case remains with the agent that it was initially assigned to and therefore the corresponding workstream for cases does not have the agent affinity toggle.
 
 ### See also
 

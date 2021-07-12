@@ -223,7 +223,7 @@ The **Closed conversations** table provides information related to all the conve
 You can also assign a conversation to an agent or route it to another queue. More information: [Monitor and assign conversations](monitor-conversations.md#assign-conversations).
 
 
-## View and filter reportis
+## View and filter reports
 
 You can filter information by selecting the queues that have been defined for your organization. From the **Omnichannel queues** drop-down list, select the queues you want, and the information will be filtered according to your selection. This helps you quickly analyze the KPIs and take any necessary steps to improve outcomes.
 
