@@ -33,14 +33,11 @@ Returns a resolved or reject promise based on the outcome of the operation.
 ## Example
 
 ```javascript
-    Microsoft.Omnichannel.openConversation("051a340d-c821-42be-8c43-dfb42c4da821", "63e6b672-c1cc-4ba9-86d5-aea818e73092", "9e20ced1-7c81-eb11-a812-000d3a9c25eb").then(result=>
-        { 
-            console.log(result) 
-         } 
-        , error=>{ 
-            console.log(error) 
-                } 
-    );
+Microsoft.Omnichannel.openConversation("051a340d-c821-42be-8c43-dfb42c4da821", "63e6b672-c1cc-4ba9-86d5-aea818e73092", "9e20ced1-7c81-eb11-a812-000d3a9c25eb").then(result => { 
+  console.log(result); 
+}, error => { 
+    console.log(error);
+});
 ```
  
 ### See also
