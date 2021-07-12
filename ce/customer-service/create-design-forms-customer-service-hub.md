@@ -1,14 +1,11 @@
 ---
 title: Create and design forms for Customer Service Hub | Microsoft Docs
 description: Know how to create and design main forms for Customer Service Hub
+ms.date: 06/01/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create and design forms for Customer Service Hub
@@ -53,14 +52,14 @@ The following Customer Service Hub entities have the **Main** forms created out-
 
 You can see the forms for each entity in their list of forms given in the solution explorer in the **Customization** area. The default form type for the Unified interface based Customer Service Hub is **Case for Interactive experience - Main**. For more information on the types of forms available, see [Types of forms](#types-of-forms).
 
-![form-type](media/form-type-csh.png "See Form type")
+![form-type.](media/form-type-csh.png "See Form type")
 
 Both the **Main** type forms are available to use in the Customer Service Hub.
 
 ### Enable custom entities in the Customer Service Hub
 You can enable any custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable a custom entity for Unified interface experience, ensure that the flag **Enable for mobile** is checked in the **Outlook & Mobile** section in the entity metadata:
 
-![enable-custom-entity](media/enable-custom-entity.png "Enable custom entity")
+![enable-custom-entity.](media/enable-custom-entity.png "Enable custom entity")
 
 Check the flag **Read-only in mobile** if you want the custom entity to be read-only on a mobile device.
 

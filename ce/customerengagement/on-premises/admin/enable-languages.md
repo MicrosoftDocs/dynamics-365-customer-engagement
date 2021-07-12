@@ -1,9 +1,10 @@
 ---
 title: "Enable languages  | MicrosoftDocs"
+description: "Enable languages in your organization to display the user interface and Help in a language that’s different from the base language."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ ms.assetid: d5ac01dc-ebc6-455a-9a73-3367ff69eb1a
 caps.latest.revision: 11
 author: Mattp123
 ms.author: matp
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Regional and language options for your organization 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Enable languages in your organization to display the user interface and Help in a language that’s different from the base language. 
 
@@ -72,7 +75,7 @@ Enable languages in your organization to display the user interface and Help in 
 
 1. Sign in to Customer Engagement (on-premises) and open the **Set Personal Options** page, as follows:  
 
-   - If you’re using the Customer Engagement (on-premises) web client, click the **Settings** button ![Settings button](../admin/media/settings-button.png "Settings button"), and then click **Options**.  
+   - If you’re using the Customer Engagement (on-premises) web client, click the **Settings** button ![Settings button.](../admin/media/settings-button.png "Settings button"), and then click **Options**.  
 
    - If you are using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], on the top menu bar, choose **Dynamics 365**, and then click **Options**.  
 

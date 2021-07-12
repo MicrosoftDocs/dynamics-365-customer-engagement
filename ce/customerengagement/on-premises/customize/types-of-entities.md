@@ -1,10 +1,10 @@
 ---
-title: "Types of entities | MicrosoftDocs"
+title: "Types of entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Understand the different types of entities"
 ms.custom: 
 ms.date: 01/10/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

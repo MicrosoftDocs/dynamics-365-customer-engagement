@@ -1,5 +1,7 @@
 ---
 title: "MAPI runtime libraries are not installed | Microsoft Docs"
+description: Environment diagnostics warning that MAPI runtime libraries are missing.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

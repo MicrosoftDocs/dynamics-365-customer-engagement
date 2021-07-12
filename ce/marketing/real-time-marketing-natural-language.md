@@ -1,7 +1,7 @@
 ---
 title: "Use natural language in real-time marketing journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use natural language in real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 04/30/2021
+ms.date: 06/10/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -25,37 +25,34 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Natural language input enables you to use common words and phrases to describe a simple condition you want to include in your customer journey. The data model is built on top of Common Data Model (CDM).
+Natural language input enables you to use common words and phrases to describe a condition you want to include in your customer journey. The data model is built on top of Common Data Model (CDM).
 
 ## Sample conditions
 
-You can create a segment that will evaluate your Dynamics 365 organizational database for customers that meet a certain criterion. For example, customers with an annual income of $100,000.
+You can create a segment that will evaluate your Dynamics 365 organizational database for customers who meet a certain criterion. For example, customers with an annual income of $100,000.
 
-### Examples of simple conditional phrases using natural language:
+The following are examples of simple conditional phrases using natural language:
 
-#### Search by company
+**Search by company**
 
--	Customers who work at Microsoft (Profile)
--	People that work in a company named Amazon (Profile/Contact)
+- Customers who work at Microsoft (Profile)
+- People who work in a company named Amazon (Profile/Contact)
 
-#### Search by demographic
+**Search by demographic**
 
 -	Female customers (Profile)
--	Female contacts (Contacts)
 -	Contacts in Seattle (Contacts)
 -	Customers who are in Ohio (Contacts)
 -	Contacts with vice president as job title (Contacts)
 -	Customers with vice president as job title (Contacts/Profile)
 	 
-#### Search based on customer preferences
+**Search based on customer preferences**
 
--	Customers whose preferred contact method is email (Contacts/Profile)
--	Contacts whose preferred contact method is email (Contacts)
 -	Active contacts (Contacts)
 
-#### Search by segment membership within your organization 
+**Search by segment membership within your organization** 
 
--	Customers that are in Loyalty Segment
+- Customers who are in Loyalty Segment
 
 ## Give us feedback
 

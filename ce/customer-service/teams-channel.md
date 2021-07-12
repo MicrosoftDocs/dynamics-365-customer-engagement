@@ -1,12 +1,11 @@
 ---
 title: "Teams channel | MicrosoftDocs"
-description: "Information about Teams channel in the agent dashboard for Omnichannel for Customer Service."
+description: "This topic provides an overview about Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Use a Microsoft Teams channel
@@ -26,7 +25,7 @@ Make sure that your administrator has configured a Teams channel.
 You'll receive a notification when a customer requests a conversation through Teams. When you accept the Teams chat request, a session is started, and you'll see the communication panel in which you can exchange messages with the customer.
 
 > [!div class=mx-imgBorder]
-> ![Teams chat agent notification](media/incoming-chat-teams.png "Teams chat agent notification")
+> ![Teams chat agent notification.](media/incoming-chat-teams.png "Teams chat agent notification")
 
 In Omnichannel for Customer Service, you can:
 

@@ -1,18 +1,15 @@
 ---
-title: "Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
-description: "Learn about sample code for softphone integration using Dynamics 365 Channel Integration Framework version 1.0 with Dynamics 365 model-driven apps."
+title: "Softphone integration with Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Get the sample code for softphone integration using Dynamics 365 Channel Integration Framework 1.0 with Dynamics 365 model-driven apps."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# Sample softphone integration using Dynamics 365 Channel Integration Framework
+# Sample softphone integration using Dynamics 365 Channel Integration Framework 1.0
 
 [Download](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version1) the softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 1.0.
 
@@ -47,7 +44,7 @@ A valid Azure subscription is required to publish the sample app to Azure.
 
    For example, `https://sampleinteg.azurewebsites.net`.
 
-   ![Select Create to publish app on Azure](media/publish-app-azure.PNG "Select Create to publish app on Azure")<br />
+   ![Select Create to publish app on Azure.](media/publish-app-azure.PNG "Select Create to publish app on Azure")<br />
 
 ## Create a function to use with the app service
 
@@ -84,11 +81,11 @@ A valid Azure subscription is required to publish the sample app to Azure.
 
    **The communication widget in the minimized mode**
 
-   ![Communication widget in the minimized mode](media/widget-minimized-mode.png "Communication widget in the minimized mode")
+   ![Communication widget in the minimized mode.](media/widget-minimized-mode.png "Communication widget in the minimized mode")
    
    **The communication widget in the expanded mode**
    
-   ![Communication widget in the expanded mode](media/widget-expanded-mode.png "Communication widget in the expanded mode")
+   ![Communication widget in the expanded mode.](media/widget-expanded-mode.png "Communication widget in the expanded mode")
 
 > [!Important]
 > - All URLs must be HTTPS.

@@ -1,21 +1,20 @@
 ---
 title: "Configure JAWS screen reader for Unified Service Desk | MicrosoftDocs"
-description: "Learn about JAWS screen reader for Windows screen reader for speech output in the Unified Service Desk client. All the Unified Service Desk controls and custom controls that are part of the Web Client package  are JAWS compliant."
+description: "Learn how to configure the JAWS screen reader to enable support for interactive controls and tooltips."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-a11y
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-a11y
+  - dyn365-USD
 ---
 # Configure JAWS Screen Reader for Unified Service Desk
 
@@ -56,11 +55,11 @@ EndFunction
 ```
 In the example image, the button name and the tooltip text is same: **REMINDER**. In this scenario, the script checks for the button name and tooltip text, which is different and hence, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] does not read the tooltip text.
 
-![Unified Service Desk button with same tootip](media/usd-reminder-button-reminder-tootip.png "Unified Service Desk button with same tootip")
+![Unified Service Desk button with same tootip.](media/usd-reminder-button-reminder-tootip.png "Unified Service Desk button with same tootip")
 
 In the example image, the **REMINDER** button name is different than the tooltip text: **SET REMINDER**. In this scenario, the [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reads the tooltip text.
 
-![Unified Service Desk button with differnt tootip](media/usd-reminder-button-setreminder-tootip.png "Unified Service Desk button with differnt tootip")
+![Unified Service Desk button with differnt tootip.](media/usd-reminder-button-setreminder-tootip.png "Unified Service Desk button with differnt tootip")
 
 You can write script for your application in [!INCLUDE[pn-jaws](../includes/pn-jaws.md)]. For more information about writing scripts, see [Basics of Scripting Manual](https://www.freedomscientific.com/Content/Documents/Other/ScriptManual/01-0_Introduction.htm).
 

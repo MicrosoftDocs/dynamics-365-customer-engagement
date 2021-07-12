@@ -1,12 +1,9 @@
 ---
 title: "Configure a pre-conversation survey | MicrosoftDocs"
-description: "Instructions to configure a pre-conversation survey in Omnichannel for Customer Service."
+description: "Perform the following steps to configure a pre-conversation survey in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Configure a pre-conversation survey
@@ -36,7 +33,7 @@ For the chat channel, you can configure a survey that users can respond to when 
 5. Repeat steps 3 and 4 to create additional questions. You can add up to five questions only.
 
     > [!div class=mx-imgBorder]
-    > ![Pre-conversation survey questions](media/ocac-pre-conversation-questions.png "Pre-conversation survey questions")
+    > ![Pre-conversation survey questions.](media/ocac-pre-conversation-questions.png "Pre-conversation survey questions")
 
 6. Optionally, you can change the order in which the questions are listed.
 
@@ -72,24 +69,24 @@ You can configure your chat widget to show users a survey that they must respond
     
 
     > [!div class=mx-imgBorder]
-    > ![Add a question to the pre-chat survey](media/oc-add-chat-question.png "Add a question to the pre-chat survey")
+    > ![Add a question to the pre-chat survey.](media/oc-add-chat-question.png "Add a question to the pre-chat survey")
 
 7. Select **Save and Close**. The questions are added in the **Pre-chat unauthenticated questions** area.
   
     > [!div class=mx-imgBorder]
-    > ![Configure a pre-chat survey in a chat widget](media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
+    > ![Configure a pre-chat survey in a chat widget.](media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
 
 8. Optionally, select a question and select **Move up** or **Move down** in the right corner to change its order.
 
     > [!div class=mx-imgBorder]
-    > ![Change the order of a question in a pre-chat survey](media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
+    > ![Change the order of a question in a pre-chat survey.](media/oc-change-question-order.png "Change the order of a question in a pre-chat survey")
 
 ## Runtime view of survey questions
 
 The following screenshot is a sample of the pre-conversation survey that will be displayed for customers.
 
 > [!div class=mx-imgBorder]
-> ![Sample pre-chat survey](media/oc-pre-chat-survey.png "Sample pre-chat survey")
+> ![Sample pre-chat survey.](media/oc-pre-chat-survey.png "Sample pre-chat survey")
 
 More information: [Automatically identify customers using pre-chat responses](record-identification-rule.md)
 

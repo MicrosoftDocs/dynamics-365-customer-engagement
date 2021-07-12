@@ -1,12 +1,9 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
-description: "Instructions to add a chat widget in Omnichannel for Customer Service."
+description: "Perform the steps mentioned in the topic to add a chat widget in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/07/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Add a chat widget
@@ -126,7 +123,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
     |Post-conversation survey| Turn on | If you set to **Yes**, you can configure a post-conversation survey to be presented to customers. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md) |
 
     > [!div class=mx-imgBorder]
-    > ![Configure a pre-conversation survey in a chat widget](media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
+    > ![Configure a pre-conversation survey in a chat widget.](media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
 
 8. On the **Conversation options** tab, specify the information for the following fields.
 

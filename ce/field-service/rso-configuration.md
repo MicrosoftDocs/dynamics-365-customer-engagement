@@ -36,7 +36,7 @@ Perform these configuration steps after you deploy the Resource Scheduling Optim
      organization to interact with the Bing Maps service that the schedule board
      uses.
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of "Connect to Maps" set as "Yes"](media/c2e5f7299860832f2823f285d0fcd113.png)
+    > ![Screenshot of "Connect to Maps" set as "Yes."](media/c2e5f7299860832f2823f285d0fcd113.png)
 
      > [!NOTE]
      > Only a user with the system administrator role can enable this setting. 
@@ -87,7 +87,7 @@ The settings described here are selected and applied to all optimization scopes.
     and related resource requirement will be configured to optimize
     automatically.
     
-    ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to "Optimize"](media/f0d624969f46a29e897670479a546ef6.png)
+    ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to "Optimize."](media/f0d624969f46a29e897670479a546ef6.png)
 
 3. For existing resource requirement records, update the resource
     requirements scheduling Method. Go to **Resource Scheduling
@@ -106,18 +106,18 @@ The settings described here are selected and applied to all optimization scopes.
 5. Go to **Resource Scheduling Optimization** \> **Settings** \> **Booking
     Statuses** and configure **Scheduling Method** for booking status.
     > [!div class="mx-imgBorder"]
-    > ![Screenshot showing active booking statuses](media/bba178b0bd68c83aee9bb87cb66f19cb.jpg)
+    > ![Screenshot showing active booking statuses.](media/bba178b0bd68c83aee9bb87cb66f19cb.jpg)
 
     > [!NOTE]
     > Any booking status with an empty scheduling method will be treated as Do Not Move.
     
    - **Optimize**: This status means Resource Scheduling Optimization is free to move this booking around. 
-   - **Do Not Move**: This means Resource Scheduling Optimization doesn't alter the booking. Resource scheduling optimization preserves the estimated arrival time and assigned resource. The booking’s
+   - **Do Not Move**: This means Resource Scheduling Optimization doesn't alter the booking. Resource Scheduling Optimization preserves the estimated arrival time and assigned resource. The booking’s
     start time and estimated travel duration may be changed if Resource Scheduling Optimization schedules a
     booking in a new location before the Do Not Move booking). This operates the
     same as if the user set the booking to **Locked to resource + time** on the
     scheduling lock options field.
-   - **Ignore**: Resource scheduling optimization will completely ignore this booking. It will ignore for both
+   - **Ignore**: Resource Scheduling Optimization will completely ignore this booking. It will ignore for both
     location and time, meaning there will be overlaps. It is as if the booking
     doesn’t exist. Use this when the booking status is in the state of proposed or canceled.
 

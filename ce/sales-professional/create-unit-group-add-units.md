@@ -2,7 +2,6 @@
 title: "Create a unit group and add units in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use units in Dynamics 365 Sales Professional to define the quantities or measurements in which your products are available."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -34,7 +33,7 @@ Units are the quantities or measurements that you sell your products or services
     The **Create Unit Group** dialog box opens.
 
     > [!div class="mx-imgBorder"]
-    > ![Create unit group dialog box](media/create-unit-group-dialog-box.png "Create unit group dialog box")
+    > ![Create unit group dialog box.](media/create-unit-group-dialog-box.png "Create unit group dialog box")
 
 4.  Fill in your information, and select **OK**:
 
@@ -45,13 +44,13 @@ Units are the quantities or measurements that you sell your products or services
 5.  To add units to the unit group, open the unit group you just created, select the **Related** tab, and then select **Units**.
 
     > [!div class="mx-imgBorder"]
-    > ![Units option on the Related menu](media/related-tab-units-option.png "Units option on the Related menu")
+    > ![Units option on the Related menu.](media/related-tab-units-option.png "Units option on the Related menu")
 
  
 6.  On the **Units** tab, you’ll see that the primary unit is already added. Select **Add New Unit**.
 
     > [!div class="mx-imgBorder"]
-    > ![Add New Unit button](media/unit-tab-add-new-unit-button.png "Add New Unit button")
+    > ![Add New Unit button.](media/unit-tab-add-new-unit-button.png "Add New Unit button")
 
 7.  In the **Quick Create: Unit** form, fill in the following, and select
     **Save**:
@@ -63,7 +62,7 @@ Units are the quantities or measurements that you sell your products or services
     - **Base Unit**. Select a base unit. The base unit will establish the lowest unit of measurement for the unit you're creating. Using our example, you would select "Piece."
 
       > [!div class="mx-imgBorder"]
-      > ![Quick Create form for Unit](media/unit-quick-create-form.png "Quick create form for Unit")
+      > ![Quick Create form for Unit.](media/unit-quick-create-form.png "Quick create form for Unit")
 
 
 ### See also

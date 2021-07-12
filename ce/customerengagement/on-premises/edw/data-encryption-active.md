@@ -1,5 +1,7 @@
 ---
 title: "Data encryption will be active after the install or upgrade | Microsoft Docs"
+description: Environment diagnostics warning that data encryption will become active.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

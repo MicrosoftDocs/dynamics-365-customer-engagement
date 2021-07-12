@@ -72,6 +72,8 @@
       href: inspections-advanced.md
     - name: Run reports on inspections
       href: inspections-reporting.md
+    - name: Use inspections without work orders
+      href: inspections-customer-assets.md
   - name: Work order templates (incident types)
     href: configure-incident-types.md
   - name: Predictive work duration and resource proficiency suggestions (Preview)
@@ -130,6 +132,8 @@
       href: set-up-time-groups.md
     - name: Booking rules
       href: set-up-booking-rules.md
+    - name: Edit work hours calendar with APIs
+      href: field-service-work-hours-calendar-api.md
     - name: Analytics dashboard
       href: scheduling-analytics-reports.md
   - name: Scheduling
@@ -215,7 +219,7 @@
   - name: Use Microsoft Power Platform
     href: mobile-power-utilize-platform.md
   - name: FAQs
-    href: mobile-power-app-faq.md
+    href: mobile-power-app-faq.yml
   - name: Field Service Mobile (Xamarin app)
     items: 
     - name: Overview
@@ -245,15 +249,15 @@
     - name: FAQs (Xamarin app)
       items: 
       - name: What is the latest version of the mobile app and configuration tool?
-        href: mobile-faq-latest-version.md
+        href: mobile-faq-latest-version.yml
       - name: Mobile app won't sync to server or crashes immediately
-        href: mobile-faq-sync-crash.md
+        href: mobile-faq-sync-crash.yml
       - name: Bookings don't appear when logged into the app?
-        href: mobile-faq-bookings-not-showing.md
+        href: mobile-faq-bookings-not-showing.yml
       - name: Bookings not scheduled to me show up when logged into the mobile app
-        href: mobile-faq-bookings-not-scheduled-to-me.md
+        href: mobile-faq-bookings-not-scheduled-to-me.yml
       - name: More FAQs
-        href: mobile-faq.md
+        href: mobile-faq.yml
   - name: Get help
     href: mobile-get-help.md
 - name: Agreements and preventive maintenance
@@ -333,7 +337,7 @@
   - name: Analytics dashboard
     href: scheduling-analytics-reports.md
   - name: FAQs + troubleshooting
-    href: rso-faq.md
+    href: rso-faq.yml
 - name: Connected Field Service (IoT)
   items: 
   - name: Overview
@@ -429,4 +433,4 @@
 - name: Troubleshoot with Solution Health Hub
   href: troubleshoot-field-service-solution-health.md
 - name: General FAQs
-  href: troubleshoot-faq.md
+  href: troubleshoot-faq.yml

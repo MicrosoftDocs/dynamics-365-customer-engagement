@@ -1,14 +1,11 @@
 ---
 title: Set up resource categories for Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and set up resource categories for service scheduling in Dynamics 365 Customer Service
+ms.date: 11/20/2018
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/20/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create and manage resource categories 
@@ -44,7 +43,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 6. In the **Related** section, you can view and manage various resource category associations.
 
-   ![resource categories](media/resource-categories.png)
+   ![resource categories.](media/resource-categories.png)
 
 Similarly, you can create a new requirement resource category for requirements.
 

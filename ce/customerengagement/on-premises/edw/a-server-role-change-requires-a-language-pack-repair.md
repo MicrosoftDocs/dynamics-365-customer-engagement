@@ -1,5 +1,7 @@
 ---
 title: "A server role change requires a Language Pack repair | Microsoft Docs"
+description: Environment diagnostics warning requiring a language pack repair
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

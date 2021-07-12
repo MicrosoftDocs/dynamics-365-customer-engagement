@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement applications cannot be installed in the same folder | Microsoft Docs"
+description: Environment diagnostics warning that applications can't be installed in the same folder.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

@@ -1,12 +1,11 @@
 ---
 title: "Enable missed notification in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about managing notifications that are missed in Omnichannel Administration app"
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Enable missed notifications
@@ -27,7 +26,7 @@ With the missed notifications feature, you can now choose to automatically set a
 4. Select **Save**.
 
 > [!div class=mx-imgBorder] 
-> ![Enable missed notifications](media/enable-missed-notifications.png "Enable missed notifications")
+> ![Enable missed notifications.](media/enable-missed-notifications.png "Enable missed notifications")
 
 ### See also
 

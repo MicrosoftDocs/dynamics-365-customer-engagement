@@ -3,7 +3,6 @@ title: Configure tables for quick creation of records and activities in the Dyna
 description: Learn to configure tables for quick creation of records and activities in the Dynamics 365 Sales mobile app.
 ms.date: 05/04/2021
 ms.topic: article
-ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -27,7 +26,7 @@ For a table or an activity to be available for quick creation and visible in the
 - Allow quick create
 - Enable for phone express
 
-![Enable table or activity for quick creation and visibility in the mobile app](media/enable-quick-create.png "Enable table or activity for quick creation and visibility in the mobile app")
+![Enable table or activity for quick creation and visibility in the mobile app.](media/enable-quick-create.png "Enable table or activity for quick creation and visibility in the mobile app")
 
 When you select the checkboxes, the following metadata properties are set:
 

@@ -1,5 +1,7 @@
 ---
 title: "Microsoft SQL Server language identifier is not valid | Microsoft Docs"
+description: Environment diagnostics warning that a language identifier isn't valid.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

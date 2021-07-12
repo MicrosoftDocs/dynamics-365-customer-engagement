@@ -1,12 +1,9 @@
 ---
 title: "Delete Omnichannel solutions | MicrosoftDocs"
-description: "Learn how to delete an Omnichannel solution from an organization."
+description: "Perform the steps mentioned in the topic to delete an Omnichannel solution from your organization"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/20/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Delete solutions
@@ -88,7 +85,7 @@ The following steps describe how to delete the solution from your organization.
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**. 
 
     > [!div class=mx-imgBorder]
-    > ![Delete Omnichannel Solution](media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")  
+    > ![Delete Omnichannel Solution.](media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")  
 
 You have deleted the **OmnichannelCustomerServiceHub** solution from your organization.
 

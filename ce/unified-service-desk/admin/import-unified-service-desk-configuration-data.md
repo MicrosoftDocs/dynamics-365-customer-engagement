@@ -1,27 +1,26 @@
 ---
-title: "Import Unified Service Desk  configuration data | MicrosoftDocs"
-description: "Learn how configuration data can be imported in to a target instance."
+title: "About configuration data | MicrosoftDocs"
+description: "Learn how you can import the Unified Service Desk configuration into a target instance using the Configuration Migration tool or via the custom package."
+ms.date: 10/29/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/29/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
 # About configuration data
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data to the target [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] by using either of the following ways:  
+You can import configuration data by:  
   
 - Using the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)]  
   
@@ -30,6 +29,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   Before you can import the configuration data to the target system, make sure you have exported the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your source system. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md)  
   
 <a name="ConfigMigration"></a>   
+
 ## Import configuration data by using the Configuration Migration tool  
   
 1. Make sure that the Microsoft Dataverse instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
@@ -47,6 +47,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 7. Click **Exit** to close the tool.  
   
 <a name="CustomPackage"></a>   
+
 ## Import configuration data by using a custom package for Unified Service Desk  
  You can build a custom package to include the configuration data that you exported from your existing instance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. To create a custom package for deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data, you will use all the existing files in one of the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] packages, and replace the standard configuration data with your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data that you exported. You can create a custom package for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] template for [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
   
@@ -64,7 +65,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 1. Start [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)], and create a new project by using the **CRM Package** template.  
   
-   ![New project for creating a custom package](../../unified-service-desk/media/crm-sdkv6-packagedeployer-01.png "New project for creating a custom package")  
+   ![New project for creating a custom package.](../../unified-service-desk/media/crm-sdkv6-packagedeployer-01.png "New project for creating a custom package")  
   
 2. In the **Solution Explorer** pane, expand **PkgFolder**, and delete the **ImportConfig.xml** file.  
   
@@ -86,7 +87,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   
 5. For each file that you added under the **PkgFolder** folder, in the **Properties** pane, set the **Copy to Output Directory** value to **Copy Always**. This ensures that the files you added are available in the generated package.  
   
-   ![Copy to output directory field](../../unified-service-desk/media/crm-itpro-usd-custompackage.PNG "Copy to output directory field")  
+   ![Copy to output directory field.](../../unified-service-desk/media/crm-itpro-usd-custompackage.PNG "Copy to output directory field")  
   
 6. Double-click the **ImportConfig.xml** file under **PkgFolder** to edit it. Update the value of the `crmmigdataimportfile` parameter to match the name of the exported file (.zip) that you added in step 5.  
   

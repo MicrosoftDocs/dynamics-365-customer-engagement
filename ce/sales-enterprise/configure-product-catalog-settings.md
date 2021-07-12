@@ -2,12 +2,10 @@
 title: "Configure product catalog settings (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure the settings to change the seller experience while selecting products from the catalog."
 ms.date: 04/02/2021
-ms.service: dynamics-365-sales
 ms.topic: article
-author: lavanyakr01 
+author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
-
 ---
 # Configure product catalog settings
 
@@ -15,7 +13,7 @@ A product catalog includes the list of products and services that your company s
 
 **To configure the product catalog settings**
 
-1. In the Sales Hub app, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App settings**.
+1. In the Sales Hub app, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App settings**.
 
 2. Under **Product catalog**, select **Product catalog settings**.
 

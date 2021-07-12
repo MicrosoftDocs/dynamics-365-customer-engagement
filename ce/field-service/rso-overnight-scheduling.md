@@ -19,20 +19,20 @@ search.app:
 
 # Automated overnight scheduling with Resource Scheduling Optimization
 
-Resource scheduling optimization is flexible and can be configured to run optimizations based on your organization's scheduling needs. Sometimes it's best for these optimizations to run when the humans who do the work are asleep.
+Resource Scheduling Optimization is flexible and can be configured to run optimizations based on your organization's scheduling needs. Sometimes it's best for these optimizations to run when the humans who do the work are asleep.
 
 In this topic, we will dive into overnight scheduling. 
 
 Overnight scheduling means Resource Scheduling Optimization runs each night at a defined time and schedules work orders for the following day. The next morning, a dispatcher finds a fully optimized schedule board for that day where jobs are scheduled to the appropriate resources based on skills, promised time windows, preferred resources, roles, and more. 
 
-Resource scheduling optimization will not automatically run again for the rest of the work day. The dispatcher can make changes as needed with manual scheduling or the schedule assistant to accommodate delays, cancellations, and special customer requests. Any changes the dispatcher makes will take priority over resource scheduling  optimizations. 
+Resource Scheduling Optimization will not automatically run again for the rest of the work day. The dispatcher can make changes as needed with manual scheduling or the schedule assistant to accommodate delays, cancellations, and special customer requests. Any changes the dispatcher makes will take priority over resource scheduling  optimizations. 
 
 Overnight scheduling saves time by letting Resource Scheduling Optimization handle the bulk of scheduling during non-work hours while still relying on the expertise of dispatchers. 
 
 ## Prerequisites
 
 - Field Service version 7.x+.
-- Resource scheduling optimization version 1.5+.
+- Resource Scheduling Optimization version 1.5+.
 - This Resource Scheduling Optimization scenario involves creating a scope, goal, and a schedule. To learn more about these three key components of Resource Scheduling Optimization, see the article on [Resource Scheduling Optimization configuration](./rso-configuration.md).
 
 
@@ -43,7 +43,7 @@ Scopes define the resources, requirements, and bookings that Resource Scheduling
 Go to **Resource Scheduling Optimization app** > **Optimization Scopes** > **+New**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an optimization scope](./media/rso-overnight-scope.png)
+> ![Screenshot of an optimization scope.](./media/rso-overnight-scope.png)
 
 On your new optimization scope: 
 
@@ -58,12 +58,12 @@ On your new optimization scope:
 Create and select a bookable resource view that defines the resources that jobs can be scheduled to. In the following example, we're filtering for active resources in a specific territory, Washington state (WA). While not shown in this example, it's common to filter for specific resource types if all these jobs should be scheduled to people (where resource type is user, account, contact) or machines (where resource type is equipment).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the resource view set to Washington resources](./media/rso-overnight-scope-resources.png)
+> ![Screenshot of the resource view set to Washington resources.](./media/rso-overnight-scope-resources.png)
 
 Create and select a resource requirement view that defines the unscheduled jobs to book. In our example, we're filtering for requirements in the same territory as our resource list (Washington state - WA) that are active, and requirements that are related to unscheduled work orders.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the resource requirement view set to unscheduled jobs](./media/rso-overnight-scope-requirements.png)
+> ![Screenshot of the resource requirement view set to unscheduled jobs.](./media/rso-overnight-scope-requirements.png)
 
 
 In addition to booking unscheduled jobs, Resource Scheduling Optimization can also update, move, and improve existing schedules. When a requirement is scheduled, a **Bookable Resource Booking** record is created. Create and select a Bookable Resource Booking. 
@@ -72,7 +72,7 @@ In addition to booking unscheduled jobs, Resource Scheduling Optimization can al
 > Any bookings not in the booking view will be locked and not moved.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the booking view advanced find window](./media/rso-overnight-scope-bookings.png)
+> ![Screenshot of the booking view advanced find window.](./media/rso-overnight-scope-bookings.png)
 
 In this example, we're filtering for bookings that:
 
@@ -90,11 +90,11 @@ Goals define what Resource Scheduling Optimization should consider and prioritiz
 Go to **Resource Scheduling Optimization app** > **Optimization Goals** > **+New**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling optimization goal](./media/rso-overnight-goal.png)
+> ![Screenshot of a scheduling optimization goal.](./media/rso-overnight-goal.png)
 
 Set **Engine Effort Level** to **Moderate**, **Intense**, or **Very Intense**. As effort level intensity increases, the optimization will take longer to run, but will return better optimizations. Because overnight scheduling is intended to run during the night when no one is working, the optimization can typically afford more time to run. 
 
-Add the constraints Resource Scheduling Optimization should consider based on your business needs. For example, if your work orders require different characteristics (skills), add the **Meets Required Characteristics** constraint. For more information on constraints, see the article on [Resource Scheduling Optimization configurations](./rso-configuration.md#define-the-optimization-goal).
+Add the constraints Resource Scheduling Optimization should consider based on your business needs. For example, if your work orders require different characteristics (skills), add the **Meets Required Characteristics** constraint. For more information on constraints, see the article on [resource scheduling optimization configurations](/dynamics365/field-service/rso-configuration#enable-resource-scheduling-optimization).
 
 Select **Save**.
 
@@ -105,7 +105,7 @@ Schedules combine scopes and goals and tell Resource Scheduling Optimization whe
 Go to **Resource Scheduling Optimization** > **Optimization Schedules** > **+New**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an optimization schedule](./media/rso-overnight-schedule.png)
+> ![Screenshot of an optimization schedule.](./media/rso-overnight-schedule.png)
 
 Configure the following: 
 
@@ -113,7 +113,7 @@ Configure the following:
 
 - Set **Timer Mode** to **Fixed**.
 
-- For **Valid From** and **Valid To**, enter the date range for which overnight scheduling is valid. Resource scheduling optimization will not run automatically outside of this date range, but it can always be triggered manually with the **Run Now** option in the top ribbon.
+- For **Valid From** and **Valid To**, enter the date range for which overnight scheduling is valid. Resource Scheduling Optimization will not run automatically outside of this date range, but it can always be triggered manually with the **Run Now** option in the top ribbon.
 
 Next, go to the **Filter** tab and enter the following values to define when you want Resource Scheduling Optimization to run:
 
@@ -122,7 +122,7 @@ Next, go to the **Filter** tab and enter the following values to define when you
 3. **Days Of Week**: Enter days of business operations. In the following example, we entered **Monday, Tuesday, Wednesday, Thursday, Friday**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the filter tab on the optimization schedule](./media/rso-overnight-schedule-filter.png)
+> ![Screenshot of the filter tab on the optimization schedule.](./media/rso-overnight-schedule-filter.png)
 
 Based on the timer, Resource Scheduling Optimization will check the filter panel and run if there is a matching value. In our example, every hour, Resource Scheduling Optimization will check if the hour of the day is 12:00 AM and the day of the week is Monday through Friday. 
 
@@ -143,18 +143,18 @@ Here you can see jobs were only scheduled for one working day to our Washington-
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board](./media/rso-overnight-results.png)
+> ![Screenshot of the schedule board.](./media/rso-overnight-results.png)
 
 A defining characteristic of overnight scheduling is that dispatchers have priority and changes they make should not be moved by Resource Scheduling Optimization. For this reason, if a dispatcher moves a booking, or schedules a new one from the schedule board or with schedule assistant, it is automatically locked based on the booking method value. A lock icon will appear when viewing the booking on the schedule board tab related to the optimization scope.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a locked booking on the schedule board, pointing to the booking method "Schedule Board"](./media/rso-overnight-lock.png)
+> ![Screenshot of a locked booking on the schedule board, pointing to the booking method "Schedule Board."](./media/rso-overnight-lock.png)
 
 ### See also
 
-- [Resource scheduling optimization quickstart](./rso-quickstart.md)
+- [Resource Scheduling Optimization quickstart](./rso-quickstart.md)
 - [Booking lock options](./booking-lock-options.md)
-- [Resource scheduling optimization configuration](./rso-configuration.md)
+- [Resource Scheduling Optimization configuration](./rso-configuration.md)
 
 
 

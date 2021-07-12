@@ -1,8 +1,7 @@
 ---
-title: "Create a marketing list using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
+title: "Create a marketing list using in-app marketing - Sales Enterprise | MicrosoftDocs"
+description: "A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -40,7 +39,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
 3. On the **Summary** tab, add or change the information. This screenshot provides an example.  
   
    > [!div class="mx-imgBorder"]  
-   > ![Example of marketing list summary area](../sales-enterprise/media/marketing-list-summary-example.png "Example of marketing list summary area")  
+   > ![Example of marketing list summary area.](../sales-enterprise/media/marketing-list-summary-example.png "Example of marketing list summary area")  
   
    > [!NOTE]
    >  To look up records in the **Owner** field, first select **Save**, or you'll lose your changes.  
@@ -71,7 +70,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
     
     4.  Select **Find**.  
   
-    6.  Select the members that you want to add, and then select one of the following:  
+    6.  Select the members that you want to add, and then select one of the following options:  
   
         -   Add only selected  
   
@@ -87,12 +86,15 @@ Your marketing list is the core of running a successful marketing campaign. It c
     
     4.  Select **Find**.  
   
-    5.  Select the members that you want to remove, select one of the following:  
+    5.  Select the members that you want to remove, select one of the following options:  
   
         -   Remove only selected  
   
         -   Remove all  
   
+    >[!NOTE]
+    > For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10000 at a time. For example, if there are 20000 members in a marketing list and you want to remove the members. Remove 10000 members first and then remove the other 10000. 
+    
     #### Evaluate using Advanced Find  
   
     1. In the **Add Members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
@@ -103,7 +105,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
     4.  Select **Find**.  
   
-    5.  Select the members that you want to keep, select one of the following:  
+    5.  Select the members that you want to keep, select one of the following options:  
   
         -   Keep only selected  
   

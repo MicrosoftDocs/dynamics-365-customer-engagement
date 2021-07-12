@@ -1,14 +1,11 @@
 ---
 title: Create and manage parent and child cases in Customer Service Hub | Microsoft Docs
 description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
+ms.date: 04/28/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/28/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 # Create and manage parent and child cases
 
@@ -40,7 +39,7 @@ You can create a child case from the case form.
    - On the **Case Relationships** tab, in the **Child Case** section, select **Add New Case**.
 
 3. If you want to add an existing case as a child case, do the following:
-   1. On the **Case Relationships** tab, in the **Child Case** section, select the **More Commands** icon (![More Commands](media/more-commands-vertical.png "More Commands")), and then select **Add Existing Case**. The **Lookup Records** flyout appears to the right of the window.
+   1. On the **Case Relationships** tab, in the **Child Case** section, select the **More Commands** icon (![More Commands.](media/more-commands-vertical.png "More Commands")), and then select **Add Existing Case**. The **Lookup Records** flyout appears to the right of the window.
    2. Search for a case, and select **Add**.
 
 4. Fill in the case information for the child case, and then select **Save**.  

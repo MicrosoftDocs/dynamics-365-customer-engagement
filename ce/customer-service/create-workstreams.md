@@ -1,12 +1,9 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
-description: "Understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service"
+description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/19/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Create workstreams for unified routing
@@ -48,7 +45,7 @@ Perform the following steps:
 
 3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
-    > ![Set up a channel](media/set-up-chat.png "Set up a channel")
+    > ![Set up a channel.](media/set-up-chat.png "Set up a channel")
 4. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
    - [Configure a Facebook channel](configure-facebook-channel.md)
@@ -126,7 +123,7 @@ Select a workstream to perform any of the following actions:
 
 When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can use the agent affinity option to reassign the conversation to the agent who had worked on it earlier. This helps save the effort to reorient the agent or set the context about the problem again. The agent affinity works as follows:
 
-- Is enabled by default for SMS and social channels.
+- Is enabled by default for SMS, social channels, and Microsoft Teams.
 - Is available only for push type of work distribution.
 - Reassigns conversations to the same agent, irrespective of the agent's capacity and presence.
 

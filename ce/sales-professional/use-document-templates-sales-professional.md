@@ -2,7 +2,6 @@
 title: "Use document templates in Dynamics 365 Sales Professional to create standardized documents | MicrosoftDocs"
 description: "Send out standardized and consistent documents to your customers by using document templates in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -37,7 +36,7 @@ After you select your Word template, Dynamics 365 Sales Professional creates a W
 
 The process for using an Excel template looks like this.
 
-![Steps to use an Excel template](media/steps-use-excel-template.png "Steps to use an Excel template")
+![Steps to use an Excel template.](media/steps-use-excel-template.png "Steps to use an Excel template")
 
 ### Step 1: Select an entity to analyze
 
@@ -45,13 +44,13 @@ In Dynamics 365 Sales Professional, select a record type (entity) to analyze wit
 
 For example, go to **Sales** > **Opportunities** > **My Open Opportunities**.
 
-![List of opportunities](media/opportunity-list.png "List of opportunities")
+![List of opportunities.](media/opportunity-list.png "List of opportunities")
 
 ### Step 2: Export Dynamics 365 Sales Professional data using your new Excel template
 
 Select the Excel template you created. Select **Excel Templates** > \<template name>.
 
-![Select the Pipeline Management Excel template on opportunity record](media/pipeline-management-template.png "Select the Pipeline Management Excel template on opportunity record")
+![Select the Pipeline Management Excel template on opportunity record.](media/pipeline-management-template.png "Select the Pipeline Management Excel template on opportunity record")
 
 ### Step 3: Analyze your Dynamics 365 Sales Professional data in Excel
 

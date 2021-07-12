@@ -1,6 +1,56 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-overview.md",
+      "redirect_url": "/powerapps/user/add-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-overview.md",
+      "redirect_url": "/powerapps/user/view-create-email",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/timeline-faqs.md",
+      "redirect_url": "/powerapps/user/faq-for-timeline-and-activity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-create-template.md",
+      "redirect_url": "/powerapps/user/email-template-create",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-insert-template.md",
+      "redirect_url": "/powerapps/user/insert-email-template",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-convert-template.md",
+      "redirect_url": "/powerapps/user/email-template-convert",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-create-signature.md",
+      "redirect_url": "/powerapps/user/email-signature",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/email-faqs.md",
+      "redirect_url": "/powerapps/user/activities-known-issues",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/intelligent-skill-model.md",
+      "redirect_url": "set-up-skill-based-routing#set-up-intelligent-skill-finder-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/enable-skill-routing-create-rating-model.md",
+      "redirect_url": "allow-agents-update-skills",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/outlook-app/Customizing-the-app.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
@@ -1876,6 +1926,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/cfs-iot-central-setup.md",
+      "redirect_url": "cfs-iot-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/cfs-faq.md",
       "redirect_url": "cfs-troubleshoot",
       "redirect_document_id": "false"
@@ -2078,6 +2133,11 @@
     {
       "source_path": "ce/field-service/field-resource-hub-users-guide.md",
       "redirect_url": "field-service-mobile-app-user-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/basics-service-service-scheduling.md",
+      "redirect_url": "universal-resource-scheduling-for-field-service",
       "redirect_document_id": "false"
     },
     {
@@ -21362,6 +21422,26 @@
     {
       "source_path": "ce/sales-enterprise/embedded-intelligence-overview.md",
       "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/install-ios-app.md",
+      "redirect_url": "install-mobile-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/install-android-app.md",
+      "redirect_url": "install-mobile-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/omnichannel-readme.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/p/?linkid=2165393",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/unified-service-desk/admin/known-issues-performance-enhancement-CRM-entity-page-loads.md",
+      "redirect_url": "../release-notes",
       "redirect_document_id": false
     }
   ]

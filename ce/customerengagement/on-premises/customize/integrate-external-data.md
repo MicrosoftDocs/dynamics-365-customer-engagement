@@ -1,9 +1,10 @@
 ---
-title: "Integrate external data (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Integrate external data with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
+description: The articles in this section show you how to integrate with data sources
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,8 +21,6 @@ search.audienceType:
 ---
 
 # Integrate external data
-
-
 
 The topics in this section explain how you can integrate data from sources outside of [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 

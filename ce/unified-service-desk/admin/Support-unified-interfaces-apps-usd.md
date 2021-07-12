@@ -1,29 +1,28 @@
 ---
-title: "Support for Unified Interface apps in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the Unified Interface apps supportability in Unified Service Desk."
+title: "Support for Unified Interface in Unified Service Desk | MicrosoftDocs"
+description: "Learn about Unified Interface and how Unified Service Desk supports apps built using the Unified Interface framework."
+ms.date: 05/07/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/07/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Support for Unified Interface Apps in Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] now supports the Apps built using Unified Interface framework.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] now supports apps based on Unified Interface.
 
 ## What is Unified Interface?
 
 With the release of latest release, we have introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
-The new Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More Information: [About Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface)
+Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More Information: [About Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface)
 
 ## What is Unified Interface supportability in Unified Service Desk?
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from the model-driven app, which is built based on the Unified Interface framework.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports the apps built using the Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from the model-driven app, which is built based on the Unified Interface framework.
 
 The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of model-driven app windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
@@ -54,7 +53,7 @@ The application selection window appears when you login to [!INCLUDE[pn_unified_
 2. Select **UnifiedServiceDesk.exe.config** file.
 3. Under the **\<appSettings>** section, type the key.<br>
 `<add key="SelectAppModule" value="true"/>`<br>
-  ![Update SelectAppModule key in the UnifiedServiceDesk.exe.config file](../media/selectappmodule-app-config-file.PNG "Update SelectAppModule key in the UnifiedServiceDesk.exe.config file")
+  ![Update SelectAppModule key in the UnifiedServiceDesk.exe.config file.](../media/selectappmodule-app-config-file.PNG "Update SelectAppModule key in the UnifiedServiceDesk.exe.config file")
 4. Save the file.
 
 ### Login to Unified Service Desk client application
@@ -64,7 +63,7 @@ The application selection window appears when you login to [!INCLUDE[pn_unified_
 
 After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.config** file, you need to login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to select an web or Unified Interface app.
 
-![Select App Module](../media/select-app-module-new.PNG "Select App Module")
+![Select App Module.](../media/select-app-module-new.PNG "Select App Module")
 
 ::: moniker-end
 

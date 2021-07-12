@@ -1,20 +1,19 @@
 ---
-title: "Unified Service Desk  – Knowledge Management package | MicrosoftDocs"
-description: "Overview of the Knowledge Management sample application."
+title: "Unified Service Desk&mdash;Knowledge Management package | MicrosoftDocs"
+description: "Learn about the Knowledge Management sample application that's part of Unified Service Desk and how you can use it."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Knowledge Management sample application package 
 
@@ -62,7 +61,7 @@ search.app:
   
 9. **Session timer**: Shows how long a service rep has been on the session.  
   
-   ![Account session in Unified Service Desk](../../unified-service-desk/media/account-session-unified-service-desk.png "Account session in Unified Service Desk")  
+   ![Account session in Unified Service Desk.](../../unified-service-desk/media/account-session-unified-service-desk.png "Account session in Unified Service Desk")  
   
 ## View your cases  
   
@@ -96,18 +95,18 @@ search.app:
   
 3.  In the search results, select the article by choosing the article blurb, and do one of the following:  
   
-    -   To copy the URL of the article, click the **Copy Link** button ![Copy knowledge article link button](../../unified-service-desk/media/copy-link-button.png "Copy knowledge article link button"). You can then paste it in the chat session with customers or in the email body.  
+    -   To copy the URL of the article, click the **Copy Link** button ![Copy knowledge article link button.](../../unified-service-desk/media/copy-link-button.png "Copy knowledge article link button"). You can then paste it in the chat session with customers or in the email body.  
   
         > [!NOTE]
         >  If you don’t see a URL when you try to paste it, it could be because the article is still in the draft state or is expired.  
   
-    -   To send the link of the article to a customer, click the **Send Email**  button ![Case origin button for email](../../unified-service-desk/media/case-origin-email-button.png "Case origin button for email").  
+    -   To send the link of the article to a customer, click the **Send Email**  button ![Case origin button for email.](../../unified-service-desk/media/case-origin-email-button.png "Case origin button for email").  
   
          An email template opens with data populated in it.  
   
-    -   To link the article with the case, click the **Link Article** button ![Link knowledge article to current case button](../../unified-service-desk/media/link-article-current-record.png "Link knowledge article to current case button").  
+    -   To link the article with the case, click the **Link Article** button ![Link knowledge article to current case button.](../../unified-service-desk/media/link-article-current-record.png "Link knowledge article to current case button").  
   
-         Linking articles to cases helps in determining what articles were effective in resolving cases. You can also dissociate the article from the case by clicking the **Remove Link** button ![Unlink knowledge article from current record button](../../unified-service-desk/media/unlink-article.png "Unlink knowledge article from current record button").  
+         Linking articles to cases helps in determining what articles were effective in resolving cases. You can also dissociate the article from the case by clicking the **Remove Link** button ![Unlink knowledge article from current record button.](../../unified-service-desk/media/unlink-article.png "Unlink knowledge article from current record button").  
   
     -   To open the article in a new tab in the main panel and read its content, click the title of the article.  
   

@@ -3,7 +3,6 @@ title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365 Sales."
 keywords: custom control, sales navigator, linkedin, integration, customization
 ms.date: 03/03/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -47,7 +46,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 1. In the web client of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], go to **Settings** > **Customizations**.
 
-   ![Click path to customization area](media/customizations-nav-bar.png "Click path to customization area")
+   ![Click path to customization area.](media/customizations-nav-bar.png "Click path to customization area")
 
 2. Select **Customize the System**. For this example, we'll customize the default solution. [Learn more about customizing Dynamics 365 apps](/dynamics365/customer-engagement/customize/solutions-overview).
 
@@ -55,7 +54,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 4. Select **Forms** and then select the default **Lead** form.
 
-   ![Lead form in customization area](media/select-lead-form-sales-navigator.png "Lead form in customization area")
+   ![Lead form in customization area.](media/select-lead-form-sales-navigator.png "Lead form in customization area")
 
 5. To add a reference to a custom control, begin by opening a field on the form, which will be bound to the primary attribute of the control (“Last Name” field for the member profile control and “Company Name” for the company profile control). In this example, we already have the **Last Name** field to the form.
 
@@ -65,17 +64,17 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 6. Select the **Last Name** field and then select **Change Properties** in the ribbon.
     > [!TIP]
     > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, clear the **Display label** on the form check box on the **Display** tab.    
-    > ![Cleared checkbox to hide label on the form](media/display-label-form-cleared.png "Cleared checkbox to hide label on the form")
+    > ![Cleared checkbox to hide label on the form.](media/display-label-form-cleared.png "Cleared checkbox to hide label on the form")
 
-   ![Click path to Change Properties button](media/change-form-properties.png "Click path to Change Properties button")
+   ![Click path to Change Properties button.](media/change-form-properties.png "Click path to Change Properties button")
 
 6. In the **Field Properties** window, switch to the **Controls** tab and select **Add control**.
 
-   ![Click path to Add Control button](media/add-control.png "Click path to Add Control button")
+   ![Click path to Add Control button.](media/add-control.png "Click path to Add Control button")
 
 7. Select the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator member profile** control and select **Add**.
 
-   ![Click path to add a Sales Navigator controls](media/add-control-to-form.png "Click path to add a Sales Navigator control")
+   ![Click path to add a Sales Navigator controls.](media/add-control-to-form.png "Click path to add a Sales Navigator control")
 
 8. Now you need to configure the Sales Navigator control. In the **Control** area, select **Web** form factor for the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] control. 
    > [!TIP]
@@ -84,17 +83,17 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend binding the remaining parameters (first name, email, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the [accuracy to find the right match](https://www.linkedin.com/help/sales-navigator/answer/77041/leads-contacts-and-accounts-matching-between-sales-navigator-and-your-crm).  
 Select the **First Name** property with the description and select the pencil icon. Use this optional field to specify the LinkedIn member’s first name for the matching query. Specifying this attribute increases the match accuracy. 
 
-   ![Configure properties of a Sales Navigator control](media/configure-sales-navigator-control.png "Configure properties of a Sales Navigator control")
+   ![Configure properties of a Sales Navigator control.](media/configure-sales-navigator-control.png "Configure properties of a Sales Navigator control")
 
 10. In the **Bind to a value on a field** list, select **firstname (SingleLine.Text)** and select **OK**.   
 
-    ![Bind value on a field dialog box](media/configure-lastname-property.png "Bind value on a field dialog box")
+    ![Bind value on a field dialog box.](media/configure-lastname-property.png "Bind value on a field dialog box")
 
 11. Select **Add** in the Field Properties window.
 
 12. In the **Form Editor**, select **Save** to apply your changes to the form. 
 
-  ![Click path to save and publish customizations on a form](media/save-publish-customizations.png "Click path to save and publish customizations on a form")
+  ![Click path to save and publish customizations on a form.](media/save-publish-customizations.png "Click path to save and publish customizations on a form")
 
 13. Select **Publish** to make your customizations available to the organization.
 

@@ -1,12 +1,11 @@
 ---
 title: "Configure a custom channel, or bring your own channel | MicrosoftDocs"
 description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Configure a custom messaging channel, or bring your own channel
@@ -72,7 +71,7 @@ In Omnichannel admin center, perform the following steps to configure a workstre
 
 To create a custom channel work stream, use the following steps:
 
-1. Sign in to Omnichannel Administrator.
+1. Sign in to Dynamics 365, and go to the Omnichannel Administration app.
 
 2. Select **Work Streams** under **Work Distribution Management**.
 
@@ -91,7 +90,7 @@ To configure other options in the work stream, see the following:
 - [Skill-based routing](overview-skill-work-distribution.md)
 - [Productivity tools](../app-profile-manager/productivity-tools.md)
 - [Smart assist](../app-profile-manager/smart-assist.md)
-- [Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)
+- [Templates](/dynamics365/app-profile-manager/templates-overview)
 
 ## Step 4: Create a custom messaging account
 
@@ -142,12 +141,12 @@ To create a custom channel, follow these steps:
 5. Select **Validate app ID + secret**  to validate the **Microsoft app ID** and **Client secret** values. After the validation, a toast notification is displayed. Also, the **Last validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
 
     > [!div class=mx-imgBorder]
-    > ![Account details in custom channel](media/custom-channel-1.png "Account details in custom channel")
+    > ![Account details in custom channel.](media/custom-channel-1.png "Account details in custom channel")
 
 6. Select **Save** to save the changes. After you save, in the **Callback information** section, the **Message endpoint (URL)** field is generated with a URL. Copy the URL from the field.
 
     > [!div class=mx-imgBorder]
-    > ![Callback information for custom channel](media/custom-channel-2.png "Callback information for custom channel")
+    > ![Callback information for custom channel.](media/custom-channel-2.png "Callback information for custom channel")
 
 7. Go to the **Azure Portal** > **Bot Channel Registration** page, paste the URL into the **Message endpoint** field, and save the changes.
 
@@ -169,7 +168,7 @@ To create a custom channel, follow these steps:
 
 
     > [!div class=mx-imgBorder]
-    > ![General tab page for custom channel](media/custom-channel-3.png "General tab page for custom channel") 
+    > ![General tab page for custom channel.](media/custom-channel-3.png "General tab page for custom channel") 
 
 10. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
@@ -180,7 +179,7 @@ To create a custom channel, follow these steps:
 13. Select **Save** to save the configurations.
 
     > [!div class=mx-imgBorder]
-    > ![Summary page for custom channel](media/custom-channel-4.png "Summary page for custom channel")
+    > ![Summary page for custom channel.](media/custom-channel-4.png "Summary page for custom channel")
 
 ## Test your channel
 
@@ -226,7 +225,7 @@ For more information, see the developer guide, [Bring your own custom messaging 
 [Skill-based routing](overview-skill-work-distribution.md)  
 [Productivity tools](../app-profile-manager/productivity-tools.md)  
 [Smart assist](../app-profile-manager/smart-assist.md)  
-[Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)  
+[Templates](/dynamics365/app-profile-manager/templates-overview)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

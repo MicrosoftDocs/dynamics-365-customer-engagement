@@ -1,9 +1,10 @@
 ---
 title: "Add resources to a site  | MicrosoftDocs"
+description: "Add resources such as users, equipment, or facilities to a site."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ author: jimholtz
 ms.assetid: 71cdcd4d-09f8-48e0-b15a-e860dd325169
 caps.latest.revision: 14
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Add resources to a site
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 After you create a site, you can add resources such as users, equipment, or facilities to it.  
   
@@ -33,7 +36,7 @@ After you create a site, you can add resources such as users, equipment, or faci
   
 5. On the Actions toolbar, click or tap **Add Resources**.  
   
-6. In the **Look Up Records** dialog box, in the **Search** text box, type in a part of the name of the resource you want to add to the site, and then click or tap the **Start search** icon ![54934](../admin/media/search-button.png "54934").  
+6. In the **Look Up Records** dialog box, in the **Search** text box, type in a part of the name of the resource you want to add to the site, and then click or tap the **Start search** icon ![54934.](../admin/media/search-button.png "54934").  
   
 7. In the list of records, under **Full Name**, click or tap the entry for the resource you want to add to the site, and then click or tap **Add**.  
   

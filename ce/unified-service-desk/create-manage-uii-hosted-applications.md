@@ -1,20 +1,19 @@
 ---
 title: "Create and manage UII hosted applications | MicrosoftDocs"
-description: "Learn about using the User Interface Integration (UII) hosted application to host your external application or a web application in Unified Service Desk. To host an external or web application in Unified Service Desk, you configure a hosted control of type CCA Hosted Application, and then select Web Hosted Application or External Hosted Application from the Hosted Application list."
+description: "Learn how to configure a User Interface Integration (UII) hosted application to host your external, remote, or web application in Unified Service Desk."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Create and manage UII hosted applications in Unified Service Desk
 A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted application enables you to create and host a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control, Windows Forms or [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] application, web application, or a remote (Citrix) application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
@@ -58,7 +57,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
            4. **Manage Pop ups** – when checked, allows the pop-up windows to be managed in **Unified Service Desk**.  
   
-   ![Web hosted application type](../unified-service-desk/media/usd-webhostedapp.PNG "Web hosted application type")  
+   ![Web hosted application type.](../unified-service-desk/media/usd-webhostedapp.PNG "Web hosted application type")  
   
       For more information about how to build and host a web application in **Unified Service Desk**, see steps 1 to 3 of [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)  
   
@@ -84,7 +83,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
            4. **Main Window Acquisition Time out** – Specifies the timeout period for the top-level window handle to be found.  
   
-   ![External hosted appllication](../unified-service-desk/media/usd-exthostedapp.PNG "External hosted appllication")  
+   ![External hosted appllication.](../unified-service-desk/media/usd-exthostedapp.PNG "External hosted appllication")  
   
       For more information about how to build and host an external application in **Unified Service Desk**, see steps 1 to 3 of [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md)  
   
@@ -106,7 +105,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
    7. **Optimal Size Y** specifies the display size of the application in **Unified Service Desk** along the Y axis.  
   
-   ![Common Properties screen of hosted control](../unified-service-desk/media/usd-commonproperties.PNG "Common Properties screen of hosted control")  
+   ![Common Properties screen of hosted control.](../unified-service-desk/media/usd-commonproperties.PNG "Common Properties screen of hosted control")  
   
 9. In the **Dynamic** area, when the **Application is Dynamic** is checked, it means the application can be loaded dynamically and the **User Can Close** and the **Show in Toolbar Dropdown** check boxes become enabled.  
   

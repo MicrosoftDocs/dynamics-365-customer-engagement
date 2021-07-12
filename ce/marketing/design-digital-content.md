@@ -39,7 +39,7 @@ This topic describes how to work with the designer in general, in all contexts. 
 
 Most non-template entities that provide the content designer also support templates, so when you first create a marketing email, page, or form, you'll be asked to choose a template.
 
-![Select an Email Template window](media/select-template-email.png "Choose an email template")
+![Select an Email Template window.](media/select-template-email.png "Choose an email template")
 
 The template picker provides many controls for searching, sorting, and filtering the templates. Use these controls to find templates that might meet your requirements, then select a template to see a preview and more details about it in the **Preview** area. When you've found the right template, select **Select** to apply it to your new design.
 
@@ -63,7 +63,7 @@ The blank templates provide a one-column section by default, but you can edit it
 
 To add a section element, open the **Toolbox** panel, choose the section element that provides the column layout you'd like to start with and drag it into position above or below any existing section element in your design.
 
-![Add a section element to your design](media/email-layout-add.png "Add a section element to your design")
+![Add a section element to your design.](media/email-layout-add.png "Add a section element to your design")
 
 > [!NOTE]
 > If you choose a template that implement layouts using custom HTML instead of section elements, then section elements aren't available. Instead, you'll be able to drag design elements into any container defined by the template. This may also apply to other custom templates that use custom HTML to create layouts. This will usually only apply to templates created using an older version of Dynamics 365 Marketing.
@@ -77,7 +77,7 @@ To edit and configure a section element:
 1. Select the section element on the canvas. It now displays a blue border and tabs showing the element type and buttons for deleting or moving the element.
 1. The **Properties** panel opens to show the settings for your selected section.
 
-    ![Screenshot of the Properties panel](media/email-layout-edit.png "Screenshot of the Properties panel")
+    ![Screenshot of the Properties panel.](media/email-layout-edit.png "Screenshot of the Properties panel")
 
 1. Make settings in the following sections as needed:
 
@@ -95,14 +95,14 @@ Section elements create a structure onto which you can drag other types of desig
 
 - To add a design element, drag the required element from the **Toolbox** onto the appropriate section-element column. When you drop most types of elements, the **Properties** panel will open or, for text  elements, the formatting toolbar will open and you'll be able to start entering text.
 - To configure an existing element's properties, or start entering text into a text element, first select the containing section-element to activate it, then select the target element to begin editing it. For non-text elements, this will open the **Properties** panel for the selected element. For text elements, this will open the floating text-formatting toolbar.
-- To remove a design element, select it and then select the delete button ![Delete button](media/email-element-delete-button.png "Delete button") provided at the upper-right corner of the element.
-- To move a design element, select it, then click on the move button ![Move button](media/email-element-move-button.png "Move button")  provided at the upper-right corner of the element and drag the element to its new location.
+- To remove a design element, select it and then select the delete button ![Delete button.](media/email-element-delete-button.png "Delete button") provided at the upper-right corner of the element.
+- To move a design element, select it, then click on the move button ![Move button.](media/email-element-move-button.png "Move button")  provided at the upper-right corner of the element and drag the element to its new location.
 
 ## Work with the designer
 
 Most of the time you spend creating a marketing email, page, or form, you'll be using the designer or the HTML editor to add content, configure design elements, load images, apply styles, and more.
 
-![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
+![The designer toolbar and content area.](media/designer-tools-ill.png "The designer toolbar and content area")
 
 The designer features a toolbar and a content area. The toolbar provides a few basic commands and three navigation tabs (**Design**, **HTML**, and **Preview**), which control what you can see and do in the content area.
 
@@ -110,7 +110,7 @@ The designer features a toolbar and a content area. The toolbar provides a few b
 
 Choose **Designer** in the designer toolbar to open the graphical designer. It lets you assemble and design your content without using any code at all. In most cases, you'll never need to go to the **HTML** view unless you want to.
 
-![The designer canvas and toolbox](media/designer-canvas-ill.png "The designer canvas and toolbox")
+![The designer canvas and toolbox.](media/designer-canvas-ill.png "The designer canvas and toolbox")
 
 The graphical designer provides an editable preview (canvas), where you can select, edit, or remove content; and a set of tabs for adding design elements and working with the design:
 
@@ -147,7 +147,7 @@ The HTML editor provides a few handy code-editing features such as syntax colori
 
 Though the drag-and-drop editor provides an editable preview, this preview is still just an approximation, and includes a few compromises in its presentation to allow for its editing features. To get a better idea of how your design will look, go to the designer's **Preview** tab.
 
-![Preview mode selector](media/preview-mode-ill.png "Choose a preview mode")
+![Preview mode selector.](media/preview-mode-ill.png "Choose a preview mode")
 
 Use the buttons in the left column of the **Preview** tab to see how your design will look on different screen sizes and orientations, such as desktop, tablet landscape, or mobile portrait. The preview also reflects the responsive design features built into many of the templates. However, the preview doesn't run any custom scripts you might have added (such as for validating form input).
 

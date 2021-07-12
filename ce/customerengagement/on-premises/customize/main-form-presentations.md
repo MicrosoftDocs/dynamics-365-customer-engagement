@@ -1,10 +1,10 @@
 ---
-title: "Main form presentations | MicrosoftDocs"
+title: "Main form presentations with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how main forms appear when displayed on different devices"
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -40,7 +40,7 @@ The main form is used by all app clients. This form provides a consistent user e
 ## Updated forms  
  This diagram represents common components found in updated entity forms.  
 
- ![Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement](../customize/media/updated-form-diagram.png "Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement")  
+ ![Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement.](../customize/media/updated-form-diagram.png "Diagram shows Updated entity form structure in Dynamics 365 for Customer Engagement")  
 
  For updated entities, the layout of the form works with a wide range of displays and window sizes. As the width of window decreases, tab columns move down so that you can scroll down to work with them instead of being compressed or requiring you to scroll to the right.  
 
@@ -50,7 +50,7 @@ The main form is used by all app clients. This form provides a consistent user e
 |      Component      |                                                                                                                                                                                                                                                    Summary                                                                                                                                                                                                                                                    |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Navigation bar**  | Uses the data in the site map to provide the ability to move to different areas of the application.<br /><br /> The navigation pane used in classic forms isn’t included in the updated form. In the context of a record, the navigation bar provides access to views of related records. Rather than navigating to related records using the navigation pane or by using the navigation bar, adding sub-grids configured to show useful related entity records provides a better experience for most people. |
-|   **Command bar**   |                                                                                                  Uses the data defined for ribbons to provide commands relevant for the record.<br /><br /> The first five commands are displayed followed by an ellipsis (![More commands button](../customize/media/not-available.gif "More commands button")) that provides a flyout menu to choose additional commands.                                                                                                   |
+|   **Command bar**   |                                                                                                  Uses the data defined for ribbons to provide commands relevant for the record.<br /><br /> The first five commands are displayed followed by an ellipsis (![More commands button.](../customize/media/not-available.gif "More commands button")) that provides a flyout menu to choose additional commands.                                                                                                   |
 |      **Image**      |                                                                                                                                                         When an entity has an image field and the entity **Primary Image** option is set to **Default Image**, an image can be displayed in the header when the form is configured to show the image.                                                                                                                                                         |
 |     **Header**      |                                                                                                    Fields placed in the header remain visible when people scroll down through the body of the form.<br /><br /> Up to four fields can be placed in the header. Multiple lines of text, web resources, or iFrames aren’t allowed in the header. The header and footer share some properties with sections.                                                                                                     |
 | **Process Control** |                                                                                                                              When an entity has active business process flows, the process control displays below the header. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Business process flows](../customize/business-process-flows-overview.md)                                                                                                                               |
@@ -76,15 +76,15 @@ The main form is used by all app clients. This form provides a consistent user e
 
  **Web app**  
 
- ![Dynamics 365 for Customer Engagement form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 for Customer Engagement form reflow from web app")  
+ ![Dynamics 365 for Customer Engagement form reflow from web app.](../customize/media/custon-reflow-web-app.png "Dynamics 365 for Customer Engagement form reflow from web app")  
 
  **Tablet app**  
 
- ![Dynamics 365 for Customer Engagement form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 for Customer Engagement form reflow to tablet app")  
+ ![Dynamics 365 for Customer Engagement form reflow to tablet app.](../customize/media/reflow-tablet-app.png "Dynamics 365 for Customer Engagement form reflow to tablet app")  
 
  **Phone app**  
 
- ![Dynamics 365 for Customer Engagement form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 for Customer Engagement form reflow to phone app")  
+ ![Dynamics 365 for Customer Engagement form reflow to phone app.](../customize/media/custon-reflow-phone-app.png "Dynamics 365 for Customer Engagement form reflow to phone app")  
 
  The form elements are transformed to a wide panorama layout in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], where users swipe the screen to change elements visible within a view port. In [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], users swipe the screen to see a different column, or pane of elements, and the process control appears over every column.  
 
@@ -111,7 +111,7 @@ The main form is used by all app clients. This form provides a consistent user e
 
  In [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], the first panel displays contact information about relationships that exist for the record. In [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], the first panel also displays header fields from the form above the relationship tiles.  
 
- ![Dynamics 365 for tablets relationships panel](../customize/media/mobile-app-form-relationships.png "Dynamics 365 for tablets relationships panel")  
+ ![Dynamics 365 for tablets relationships panel.](../customize/media/mobile-app-form-relationships.png "Dynamics 365 for tablets relationships panel")  
 
  For Contact and User forms, the top item displays a communication card for the record. The communication card provides buttons to initiate communication with the person. For other entities, a communication card is displayed if there is a Contact quick view form embedded in the main form.  
 
@@ -128,7 +128,7 @@ The main form is used by all app clients. This form provides a consistent user e
 
  In [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], the second panel begins with the name of the first tab on the form. Any fields that are included within the header are included and then the contents of the first tab. In [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], headers appear in the first column.  
 
- ![CRM for Tablets Form First Panel](../customize/media/mobile-app-form-first-panel.png "CRM for Tablets Form First Panel")  
+ ![CRM for Tablets Form First Panel.](../customize/media/mobile-app-form-first-panel.png "CRM for Tablets Form First Panel")  
 
  If there is a process flow active for the form, the third tab displays tasks for the current stage of the process in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. In [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], the process control floats above the panes, expands over the user’s current pane when it’s selected, and is always visible and actionable.  
 
@@ -174,7 +174,7 @@ The main form is used by all app clients. This form provides a consistent user e
 ## Classic forms  
  The following diagram shows the main form components used in the classic presentation.  
 
- ![Major form elements](../customize/media/elements.png "Major form elements")  
+ ![Major form elements.](../customize/media/elements.png "Major form elements")  
 
  The forms for updated entities have inherited many components from the classic forms, but there are significant differences.  
 

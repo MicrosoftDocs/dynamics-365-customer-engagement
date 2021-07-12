@@ -1,14 +1,11 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
+ms.date: 05/03/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/03/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create and manage knowledge articles
@@ -36,7 +35,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 
  The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can also be translated.
   
- ![Knowledge management process in Dynamics 365 Customer Service](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service")  
+ ![Knowledge management process in Dynamics 365 Customer Service.](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service")  
   
 
 ## Create a knowledge article
@@ -59,7 +58,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
    - **Description**. Type a short overview of the article. This appears in the search results and is used for search engine optimization.  
   
-     ![Add content to the knowledge article](../customer-service/media/v9-add-content-article.png "Add content to the knowledge article")  
+     ![Add content to the knowledge article.](../customer-service/media/v9-add-content-article.png "Add content to the knowledge article")  
   
 5. In the **Content** section, add the content for your knowledge article.  
   
@@ -82,7 +81,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
     You can mark the article complete by selecting the checkbox at this stage.
 
 > [!TIP]
-> Select the icon ![flyout icon](media/flyout.png) to pin the stage flyout vertically.
+> Select the icon ![flyout icon.](media/flyout.png) to pin the stage flyout vertically.
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
 
@@ -120,14 +119,14 @@ Knowledge Authors can use the templates to create knowledge articles quickly and
 4.	On the **Select Knowledge Article Template** dialog box, select the template to use as a base on which you author the article and select **OK**. In this example, we are selecting the template as **Getting Started With Template**.
 
     > [!div class=mx-imgBorder]
-    > ![Select knowledge article template](media/ka-select-template.png "Select knowledge article template")
+    > ![Select knowledge article template.](media/ka-select-template.png "Select knowledge article template")
   
     You observe that some fields are pre-populated as defined in the template.
 
 5.	In the **New Knowledge Article** page, edit the fields as required. 
 
     > [!div class=mx-imgBorder]
-    > ![New knowledge article page](media/ka-new-article-page.png "New knowledge article page")
+    > ![New knowledge article page.](media/ka-new-article-page.png "New knowledge article page")
   
 6.	Select **Save**.
 
@@ -157,39 +156,39 @@ You can choose a specific format or style for the content you’re writing. The 
 
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
-|![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. **Note**: Copy formatting only works with inline styles, and won't copy or apply block-level styles. |
-|![Styles](../customer-service/media/format-styles.png "Style") | Formatting Styles | | Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text will look like. **Note**: This option is available in the expanded mode only.
-|![Paragraph Format](../customer-service/media/paragraph-format.png "Paragraph Format") | Paragraph Format | | Apply predefined block-level combinations of formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element. **Note:**  This option is available in the expanded mode only. |
-|![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
-|![Font Size](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font name of your selection is displayed.|
-|![Bold](../customer-service/media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
-|![Italic](../customer-service/media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
-|![Underline](../customer-service/media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
-|![Text Highlight Color](../customer-service/media/text-highlight-color.png "Text Highlight Color")| Text Highlight Color |  | Make your text stand out by highlighting it in a bright color. |
-|![Font Color](../customer-service/media/font-color.png "Font Color")| Font Color |  | Change the color of your text. |
-|![Bullets](../customer-service/media/format-bullets.png "Bullets")| Bullets |  | Create a bulleted list. |
-|![Numbering](../customer-service/media/format-numbering.png "Numbering")| Numbering |  | Create a numbered list. |
-|![Decrease Indent](../customer-service/media/decrease-indent.png "Decrease Indent")| Decrease Indent |  | Move your paragraph closer to the margin. |
-|![Increase Indent](../customer-service/media/increase-indent.png "Increase Indent")| Increase Indent |  | Move your paragraph farther away from the margin. |
-|![Block Quote](../customer-service/media/block-quote.png "Block Quote")| Block Quote |  | Apply a block-level quotation format in your content. |
-|![Align Left](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
-|![Align Center](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href="http://myexample.com">http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
-|![Remove Link](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
-|![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
-|![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
-|![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
+|![Format Painter.](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. **Note**: Copy formatting only works with inline styles, and won't copy or apply block-level styles. |
+|![Styles.](../customer-service/media/format-styles.png "Style") | Formatting Styles | | Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text will look like. **Note**: This option is available in the expanded mode only.
+|![Paragraph Format.](../customer-service/media/paragraph-format.png "Paragraph Format") | Paragraph Format | | Apply predefined block-level combinations of formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element. **Note:**  This option is available in the expanded mode only. |
+|![Font.](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
+|![Font Size.](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font name of your selection is displayed.|
+|![Bold.](../customer-service/media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
+|![Italic.](../customer-service/media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
+|![Underline.](../customer-service/media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
+|![Text Highlight Color.](../customer-service/media/text-highlight-color.png "Text Highlight Color")| Text Highlight Color |  | Make your text stand out by highlighting it in a bright color. |
+|![Font Color.](../customer-service/media/font-color.png "Font Color")| Font Color |  | Change the color of your text. |
+|![Bullets.](../customer-service/media/format-bullets.png "Bullets")| Bullets |  | Create a bulleted list. |
+|![Numbering.](../customer-service/media/format-numbering.png "Numbering")| Numbering |  | Create a numbered list. |
+|![Decrease Indent.](../customer-service/media/decrease-indent.png "Decrease Indent")| Decrease Indent |  | Move your paragraph closer to the margin. |
+|![Increase Indent.](../customer-service/media/increase-indent.png "Increase Indent")| Increase Indent |  | Move your paragraph farther away from the margin. |
+|![Block Quote.](../customer-service/media/block-quote.png "Block Quote")| Block Quote |  | Apply a block-level quotation format in your content. |
+|![Align Left.](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
+|![Align Center.](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
+|![Align Right.](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
+|![Link.](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href="http://myexample.com">http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
+|![Remove Link.](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
+|![Superscript.](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
+|![Subscript.](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
+|![Strikethrough.](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
 |![Image](../customer-service/media/insert-picture.png "Image") | Image | | Insert an image.<br /><br /> You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF. For details on using inline images, see [Use inline images](#use-inline-images).|
-|![Left to Right](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
-|![Right to Left](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
-|![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
-|![Redo Typing](../customer-service/media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
-|![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
-|![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
-|![Create Collapsible Section](../customer-service/media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This is useful in articles with a lot of information. Collapsed sections help agents find relative information more quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you have already typed and then click the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. |
-|![Embed Media](../customer-service/media/embed-media.png "Embed Media")| Embed Media | | To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button.<br />     The **Embed Video** dialog box opens.<br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**. |
-|![Create Div Container](../customer-service/media/div-container.png "Create Div Container") | Create Div Container | | Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure additional div element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties. **Note:**  This option is available in the expanded mode only. |
+|![Left to Right.](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
+|![Right to Left.](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
+|![Undo Typing.](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
+|![Redo Typing.](../customer-service/media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
+|![Clear All Formatting.](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
+|![Add a Table.](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
+|![Create Collapsible Section.](../customer-service/media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This is useful in articles with a lot of information. Collapsed sections help agents find relative information more quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you have already typed and then click the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. |
+|![Embed Media.](../customer-service/media/embed-media.png "Embed Media")| Embed Media | | To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button.<br />     The **Embed Video** dialog box opens.<br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**. |
+|![Create Div Container.](../customer-service/media/div-container.png "Create Div Container") | Create Div Container | | Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure additional div element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties. **Note:**  This option is available in the expanded mode only. |
 |![Create Anchor](../customer-service/media/create-anchor.png "Create Anchor") | Create Anchor | | You can add anchors in document text and then link to them for easier navigation.<br /><br />**Note**: The anchor feature only works when an article is open. It doesn't work if you are viewing an article from the **Preview** tab.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button.<br />     The **Anchor Properties** dialog box opens.<br />2.  Enter a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor. |   
   
 > [!IMPORTANT]
@@ -243,14 +242,14 @@ To insert an image by using a URL or navigating to the local image:
 
 You can author and edit the article in the HTML tab of the Content editor panel, using HTML tags.
 
-![HTML panel](media/html-panel.png "HTML pane in content editor for knowledge article")
+![HTML panel.](media/html-panel.png "HTML pane in content editor for knowledge article")
 
 
 ### Preview
 
 You can preview the content to view its compatibility on multiple devices, like Tablets, or Phones.
 
-![Preview panel](media/preview-panel.png "Preview pane in content editor for knowledge article")
+![Preview panel.](media/preview-panel.png "Preview pane in content editor for knowledge article")
 
 > [!NOTE]
 > This is an indicative preview. Content rendered can be different in the actual device or screen.
@@ -266,19 +265,19 @@ By default, the rich text editor functionality is available for use with knowled
 3. Under **Control**, select **Rich Text Editor Control.
 
     > [!div class=mx-imgBorder]
-    > ![Select the Controls tab on the properties page](media/csh-rte-add-form.png "Select the Controls tab, and then select the rich text editor control")
+    > ![Select the Controls tab on the properties page.](media/csh-rte-add-form.png "Select the Controls tab, and then select the rich text editor control")
 
 3. Under **Rich Text Editor Control** properties, select the pencil icon next to **RichTextEditorControl_URL**. 
     
     > [!div class=mx-imgBorder]
-    > ![Select the Rich Text Editor control](media/csh-rte-edit-control.png "Select the Rich Text Editor Control and pencil icon to add text")
+    > ![Select the Rich Text Editor control.](media/csh-rte-edit-control.png "Select the Rich Text Editor Control and pencil icon to add text")
     
     The properties configuration page is displayed.
 
 4. In the **Bind to a static value** field, enter the following text: **webResources/msdyncrm_/RichTextEditorControl/KnowledgeArticleRTEconfig.js** 
 
     > [!div class=mx-imgBorder]
-    > ![Enter value in Bind to a static filed](media/csh-rte-enter-static-value.png "Enter the value in the Bind to a static value field")
+    > ![Enter value in Bind to a static filed.](media/csh-rte-enter-static-value.png "Enter the value in the Bind to a static value field")
 
 5. Select **OK** > **OK**, and then select **Save and Publish**.
 
@@ -297,7 +296,7 @@ For more information about rich text control properties, see [Rich text editor c
   
 3.  In the **Mark for Review** field, select **Mark Complete**.  
 
-    ![Knowledge article review](media/ka-review.png)
+    ![Knowledge article review.](media/ka-review.png)
   
 4.  To assign the knowledge article to another reviewer or team, on the command bar, select **Assign** and select the user or a team.  
   
@@ -471,7 +470,7 @@ If the article has information that complements an existing knowledge article, a
   
     -   Select **Publish**. 
 
-        ![Knowledge article publish](media/ka-publish.png)
+        ![Knowledge article publish.](media/ka-publish.png)
 
 
 ## Track basic details of an article  
@@ -504,7 +503,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
 #### Add feedback to an article  
   
-1. In the **Feedback** subgrid, select **Create Feedback**. You can also select ![Add a record button](../customer-service/media/add-recordbutton.gif "Add a record button") in the nav bar and then go to **Feedback** to create a feedback.  
+1. In the **Feedback** subgrid, select **Create Feedback**. You can also select ![Add a record button.](../customer-service/media/add-recordbutton.gif "Add a record button") in the nav bar and then go to **Feedback** to create a feedback.  
   
 2. In the **Create Feedback** flyout, fill in the information:  
   
@@ -527,7 +526,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
 3. Select **Save**.
 
-   ![Knowledge article feedback](media/ka-feedback.png)
+   ![Knowledge article feedback.](media/ka-feedback.png)
 
 > [!NOTE]
 > You can also update the owner of the feedback in the flyout.
@@ -542,7 +541,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 ### My knowledge Dashboard  
  This dashboard is designed for authors to give them a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like article expiring in the month and articles in review.  
   
- ![My Knowledge Dashboard for authors](../customer-service/media/v9-my-knowledge-dashboard.PNG "My Knowledge Dashboard for authors")  
+ ![My Knowledge Dashboard for authors.](../customer-service/media/v9-my-knowledge-dashboard.PNG "My Knowledge Dashboard for authors")  
   
 -   **Streams** show data from views or queues. In the My Knowledge Dashboard, the stream shows the active articles assigned to the author.  
   
@@ -553,7 +552,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 ### Knowledge Manager  
  This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
   
- ![Dashboard for knowledge managers](../customer-service/media/v9-knowledge-manager-dashboard.PNG "Dashboard for knowledge managers")  
+ ![Dashboard for knowledge managers.](../customer-service/media/v9-knowledge-manager-dashboard.PNG "Dashboard for knowledge managers")  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
@@ -598,12 +597,12 @@ Follow these steps:
 5. In the **General** tab, select the **Add Step** drop-down list, and then select **Check Condition**. A new step will be added.
 
     > [!div class=mx-imgBorder]
-    > ![Select Check Condition](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
+    > ![Select Check Condition.](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
   
 6. In the step, select **<condition> (click to configure)**. The **Specify condition** page opens in a new browser window.
 
     > [!div class=mx-imgBorder]
-    > ![Select the condition to configure](media/workflows-configure-condition.png "Select the condition to configure")
+    > ![Select the condition to configure.](media/workflows-configure-condition.png "Select the condition to configure")
   
 7. From the entity drop-down, select **Knowledge Article**.
 
@@ -616,7 +615,7 @@ Follow these steps:
     - **No** for the update operation.
 
     > [!div class=mx-imgBorder]
-    > ![Set workflow condition](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the drop-down list")
+    > ![Set workflow condition.](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the drop-down list")
 
 11.	Select **Save and Close** to save the condition and close the window.
 

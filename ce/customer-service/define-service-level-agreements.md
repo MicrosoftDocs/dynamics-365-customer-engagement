@@ -1,14 +1,11 @@
 ---
 title: "Define service-level agreements (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
+ms.date: 04/05/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/28/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Define service-level agreements
@@ -36,10 +35,10 @@ Alternatively, you can set up a default SLA for the organization.
 With the SLA feature in Customer Service Hub, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
-- Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which helps track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level gives you added flexibility to define pause conditions at a more granular level.
+- Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which help track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level gives you added flexibility to define pause conditions at a more granular level.
 - In a case lifecycle, multiple SLA KPIs can be triggered at different start points. The following illustration depicts how you can define an overall resolution time, and also specify SLA KPIs at different start points.
 
-![SLA pause and resume](media/SLA-pause-resume.png "SLA pause and resume")
+![SLA pause and resume.](media/SLA-pause-resume.png "SLA pause and resume")
 
 Perform the following steps to configure SLAs in Customer Service Hub:
 
@@ -148,7 +147,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
    2. Select **Add** to define the conditions for pausing the SLA item.
-    > ![Pause settings at SLA item level](media/csh-sla-item-pause.png "Pause settings at SLA item level")
+    > ![Pause settings at SLA item level.](media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
 7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
 
@@ -196,7 +195,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
       A sample screenshot of the configured action is as follows.
 
-      ![Configured action in Power Automate](media/sla-default-flow.png "Configured action in Power Automate")
+      ![Configured action in Power Automate.](media/sla-default-flow.png "Configured action in Power Automate")
 
     h. Save and exit Power Automate.
 
@@ -213,7 +212,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 > [!NOTE]
 >
-> Standard SLAs have been deprecated and replaced with enhanced SLAs. <br><br>More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated)
+> Standard SLAs have been deprecated and replaced with enhanced SLAs. <br><br>More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](deprecations-customer-service.md#standard-slas-in-dynamics-365-customer-service-are-deprecated)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -256,7 +255,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 7. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-8. To add SLA details, in the **SLA Details** section, select the **Add** button ![Add button](media/crm-itpro-cust-subgridadd.PNG "Add button").  
+8. To add SLA details, in the **SLA Details** section, select the **Add** button ![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button").  
 
     You add SLA details to define the KPIs or metrics for the SLA. You can define any KPI your organization needs. For example, a KPI might be that all cases for standard customers must be resolved within five days from when the case was created.  
 
@@ -282,14 +281,14 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
       For example, the conditions might be as shown in the following image.
 
-      ![Customer (Account) Category equals Corporate; Case Priority equals High](media/crm-ua-sla-details-applicable-when.png "Customer (Account) category equals Corporate; Case priority equals High")
+      ![Customer (Account) Category equals Corporate; Case Priority equals High.](media/crm-ua-sla-details-applicable-when.png "Customer (Account) category equals Corporate; Case priority equals High")
 
      > [!NOTE]
      >  If there are multiple clauses, and you don't use AND or OR grouping, by default the clauses will use the AND grouping.  
 
    - In the **Success Criteria** section, specify the conditions to define when the KPI will be considered as met. For example, the condition might be as shown in the following image.
 
-       ![Success criteria for an SLA is Case First Response Sent equals Yes](media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is 'Case First Response Sent equals Yes'")  
+       ![Success criteria for an SLA is Case First Response Sent equals Yes.](media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is 'Case First Response Sent equals Yes'")  
   
 
      > [!NOTE]
@@ -357,7 +356,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 7. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-8. In the **SLA Details** section, select **Add** ![Add button](media/crm-itpro-cust-subgridadd.PNG "Add button").
+8. In the **SLA Details** section, select **Add** ![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button").
 
 9. Enter the following information in the SLA Item form:  
 
@@ -374,11 +373,11 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
       For example, the conditions might be as shown in the following image.
 
-     ![Customer (Account) Category equals Corporate; Case Priority equals High](media/crm-ua-sla-details-applicable-when.png "Customer (Account) category equals Corporate; Case priority equals High")  
+     ![Customer (Account) Category equals Corporate; Case Priority equals High.](media/crm-ua-sla-details-applicable-when.png "Customer (Account) category equals Corporate; Case priority equals High")  
 
    - In the **Success Criteria** section, specify the conditions to define when the KPI will be considered as met. For example, the condition might be as shown in the following image.  
 
-     ![Success criteria for an SLA is Case First Response Sent equals Yes](media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is Case First Response Sent equals Yes")  
+     ![Success criteria for an SLA is Case First Response Sent equals Yes.](media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is Case First Response Sent equals Yes")  
 
      > [!NOTE]
      > - Before you specify the failure and warning actions for an SLA, save the SLA item record.
@@ -439,7 +438,7 @@ To set an SLA as the default, select an active SLA from the list, and then selec
 
 During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)  
 
-## How an is SLA applied<a name="how-is-the-sla-applied"></a>
+## How an SLA is applied<a name="how-is-the-sla-applied"></a>
 
 When a record is created, the SLA is applied (either by default or through entitlement for the Case entity) and the related record field values are updated. When the record is modified and any of the record field values change&mdash;that is, when the fields that are added in the **Applicable When** conditions of the SLA change&mdash;the SLA is applied again. For example, if the priority of the case changes from Normal to High, and according to the SLA the first response should happen soon, the SLA is reapplied to make sure the KPIs are tracked based on the updated values.
 

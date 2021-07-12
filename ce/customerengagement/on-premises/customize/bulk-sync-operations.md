@@ -1,9 +1,10 @@
 ---
-title: "Perform bulk operations like cancel, pause and resume on async workflows| MicrosoftDocs"
+title: "Perform bulk operations on async workflows with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to Perform bulk operations like cancel, pause and resume on async workflows
 ms.custom: ""
 ms.date: 05/20/2019
 ms.reviewer: ""
-ms.service: flow
+ms.prod: d365ce-op
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -34,12 +35,12 @@ Follow these steps to access all bulk operations:
 1. Select **Settings**.
 1. Select **System Jobs**.
 
-    ![pic](media/bulk-sync-operations/settings-system-jobs.png)
+    ![System jobs settings area.](media/bulk-sync-operations/settings-system-jobs.png)
 
 1. Select **More Actions**.
 1. Notice all bulk operations on the menu.
 
-    ![pic](media/bulk-sync-operations/more-actions.png)
+    ![Bulk operations listed under actions menu.](media/bulk-sync-operations/more-actions.png)
 
 The **Define Search Criteria** screen launches. 
 
@@ -49,7 +50,7 @@ Before your bulk operation runs, you must select the jobs on which the operation
 
 1. On the **Define Search Criteria** screen, make the selections that define the jobs on which you want to run the bulk operation. Here's an example to get you started: 
 
-   ![pic ](media/bulk-sync-operations/define-search-criteria.png)
+   ![Define search criteria .](media/bulk-sync-operations/define-search-criteria.png)
 
    >[!IMPORTANT]
    > You must set **System Job Type** Equals **Workflow** conditions before advancing because bulk operations are only available for asynchronous workflows. 
@@ -60,7 +61,7 @@ Before your bulk operation runs, you must select the jobs on which the operation
 1. Select **Next**.
 1. On the **Select Options** screen, provide a **Name** for your operation, and then select **Immediately** for the **Sync bulk operation job start time**.
 
-   ![pic](media/bulk-sync-operations/select-immediately.png)
+   ![Select bulk operation job to start immediately.](media/bulk-sync-operations/select-immediately.png)
 
    >[!NOTE]
    >Bulk operations are synchronous so **Immediately** is the only option for the job start time.

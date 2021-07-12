@@ -1,12 +1,11 @@
 ---
-title: "Configure a Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Configure Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Configure a Microsoft Teams channel
 
@@ -73,7 +72,7 @@ Make sure that the following prerequisites are met:
 5. In **Step 3: Callback information**, copy the value that's displayed in **Bot ID**.
 
     > [!div class=mx-imgBorder]
-    > ![Create a Teams channel](media/teams-channel.png "Create a Teams channel")
+    > ![Create a Teams channel.](media/teams-channel.png "Create a Teams channel")
 
 6. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 7. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).

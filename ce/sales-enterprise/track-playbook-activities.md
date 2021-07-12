@@ -2,7 +2,6 @@
 title: "Track playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Carry out the playbook activities to ensure every event or scenario is dealt with consistently."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -34,19 +33,19 @@ To see the activities created by the playbook when the **Track progress** field 
 2.  Select the **Related** tab, and then select **Playbooks**.
 
      > [!div class="mx-imgBorder"]
-     > ![playbooks option in related tab on opportunity record](media/playbooks-option-related-tab-opportunity-record.png "Playbooks option in Related tab on opportunity record")  
+     > ![playbooks option in related tab on opportunity record.](media/playbooks-option-related-tab-opportunity-record.png "Playbooks option in Related tab on opportunity record")  
 
 3.  In **Playbook Associated View**, the playbook launched from the record is listed.
 
      > [!div class="mx-imgBorder"]
-     > ![playbooks tab on opportunity record](media/playbooks-tab-opportunity-record.png "Playbooks tab on opportunity record")  
+     > ![playbooks tab on opportunity record.](media/playbooks-tab-opportunity-record.png "Playbooks tab on opportunity record")  
 
 4.  Select the playbook.
 
     The playbook record shows all the details about the playbook and its associated activities.
 
      > [!div class="mx-imgBorder"]
-     > ![playbook record with associated playbook activities](media/playbook-record-with-associated-activities.png "Playbook record with associated playbook activities")  
+     > ![playbook record with associated playbook activities.](media/playbook-record-with-associated-activities.png "Playbook record with associated playbook activities")  
 
     For example, it shows when the playbook was launched, how many total activities it has, how many of the activities are completed, and the estimated close date. It also shows all the related playbook activities in the **Playbook activities** section. After you are done working on these activities, mark them as completed.
 
@@ -55,7 +54,7 @@ To see the activities created by the playbook when the **Track progress** field 
     Alternately, in the calling record, select the **Related** tab, and then select **Activities**.
 
      > [!div class="mx-imgBorder"]
-     > ![activities tab on the opportunity record](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
+     > ![activities tab on the opportunity record.](media/activities-tab-opportunity-record.png "Activities tab on the Opportunity record")  
  
    The Open Activity Associated View lists all the activities for the calling record along with the playbook activities created since the playbook was launched. However, this view doesn't show the total number of activities that have been created in the context of a playbook. 
 
@@ -69,11 +68,11 @@ If a sales manager has added sales brochures or training docs to a playbook acti
 
 To view or download a document, in the activity form, select the **Related** tab, and then select **Documents**.
 
-![Documents option on Related menu](media/documents-option-on-Related-tab-sales-rep.png "Documents option on Related menu")
+![Documents option on Related menu.](media/documents-option-on-Related-tab-sales-rep.png "Documents option on Related menu")
 
 The **Documents** list appears.
 
-![Documents list showing documents associated with the activity](media/doc-available-for-playbook-activity-documents-grid.png "Documents list showing documents associated with the activity")
+![Documents list showing documents associated with the activity.](media/doc-available-for-playbook-activity-documents-grid.png "Documents list showing documents associated with the activity")
 
 To download a document: 
 * In the **Documents** list, select a row, and then select **Download**.

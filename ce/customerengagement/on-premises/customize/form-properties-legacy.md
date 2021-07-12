@@ -1,5 +1,5 @@
 ---
-title: Form properties | MicrosoftDocs
+title: Form properties with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
 description: Understand the main form properties
 Keywords: Main form properties; Dynamics 365 for Customer Engagement
 author: Mattp123
@@ -9,7 +9,7 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 11/04/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 ms.assetid: 4ed30bb7-dca1-4de8-80f3-842152ea921a
 search.audienceType: 
@@ -17,13 +17,13 @@ search.audienceType:
 
 ---
 
-# Form properties 
+# Form properties
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Model-driven app form properties](/powerapps/maker/model-driven-apps/form-properties-legacy)
 
 You can access **Form properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Home** tab, select Form properties.
 
-![Form properties dialog box](media/form-properties.png)
+![Form properties dialog box.](media/form-properties.png)
 
 The following table lists the form properties:  
 

@@ -1,7 +1,7 @@
 ---
 title: "Add dynamic content to email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
-ms.date: 02/12/2021
+ms.date: 06/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -46,19 +46,20 @@ To view, edit, or create a content-settings record:
 
 1. The **Content Settings** form opens. If you are editing a record that is already live, you must choose **Edit** in the command bar before you can edit it. If you are creating a new one, you can just start filling in the fields.  
 
-    ![The content-settings form](media/content-settings-form.png "The content-settings form")
+    ![The content-settings form.](media/content-settings-form.png "The content-settings form")
 
 1. Make the following settings, as needed:
 
     - **Name**: Enter a name for the customer-settings record. This is the name shown when you're assigning content settings to a customer journey or email-message preview.
     - **Owner**: Shows the Dynamics 365 Marketing user who created the record.
-    - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings record. Select the  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
-    - **Address line 2**: Enter supplemental postal address information (if needed). Select the  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
+    - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings record. Select the  ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
+    - **Address line 2**: Enter supplemental postal address information (if needed). Select the  ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Default**: Set to **Yes** to make the current content-settings record the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
+    - **Default for owning business unit**: This setting is only available when [business unit scoping](business-units.md#enable-or-disable-business-unit-scopes) is enabled. Set this to **Yes** to make the current content-settings record the default for all new customer journeys within the business unit. There must always be exactly one default content setting for the business unit scope; if you change the default, the existing default will automatically be changed to **No**.
     - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
-    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. All marketing email messages must include a valid subscription-center link taken from a content-settings record. Select the  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist edit):<br>
+    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. All marketing email messages must include a valid subscription-center link taken from a content-settings record. Select the  ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist edit):<br>
     `{{msdyncrm_marketingpage(3343053c-8daf-e911-a85e-000d3a3155d5).msdyncrm_full_page_url}}`
-    - **Forward to a friend**: Specify an existing marketing page that is record up as a forward-to-a-friend page. Select the  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button")  button to choose from a list of available pages. Select the  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist edit):<br>
+    - **Forward to a friend**: Specify an existing marketing page that is record up as a forward-to-a-friend page. Select the  ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button")  button to choose from a list of available pages. Select the  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist edit):<br>
     `{{msdyncrm_marketingpage(36458a9e-72af-e911-a859-000d3a3159df).msdyncrm_full_page_url}}`
 
 1. Select **Save** in the bottom-right corner of the window to save your settings.
@@ -80,7 +81,7 @@ To use assist edit:
 
 1. Position your cursor in the field or text element where you want to insert the dynamic text, and then select the  **Assist edit**  button  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). The assist-edit dialog opens.
 
-    ![Assist edit, page 1](media/assist-edit1.png "Assist edit, page 1")
+    ![Assist edit, page 1.](media/assist-edit1.png "Assist edit, page 1")
 
 1. Do one of the following:
     - Select **Dynamic content** to place a value that can change based on the context where you use the message, and then choose one of the following from the drop-down list here:
@@ -97,7 +98,7 @@ To use assist edit:
         - **Select field**: Choose the field name you want to show. As with the relationship, you can also search here. This drop-down list is only available if you've chosen an [N:1 relationship](#assist-edit-relations).
 1. At the bottom of the dialog, you now see the [final expression](#assist-edit-expressions). Select **Insert** to place that expression.
 
-   ![Assist edit, page 2](media/assist-edit3.png "Assist edit, page 2")
+   ![Assist edit, page 2.](media/assist-edit3.png "Assist edit, page 2")
 
 > [!IMPORTANT]
 > Lists created using for-each loops are not rendered in a particular order and are not sortable by any field.
@@ -111,7 +112,7 @@ When you are selecting a relationship in assist edit, the options are displayed 
 - ***FieldName (PrimaryEntity) -> SecondaryEntity***  
     When the primary entity is in parentheses and shows a field name, it’s a *many-to-one* (N:1) relation that leads to a single record from the secondary entity. You should therefore usually use the second drop-down list to choose a field from the secondary entity to display with your expression.
 - ***PrimaryEntity -> FieldName (SecondaryEntity)***  
-    When the secondary entity is in parentheses and shows a field name, it’s a *one-to-many* (1:N) relation that can lead to multiple records from the secondary entity. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values form each available related record.
+    When the secondary entity is in parentheses and shows a field name, it’s a *one-to-many* (1:N) relation that can lead to multiple records from the secondary entity. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values from each available related record.
 - ***PrimaryEntity -> SecondaryEntity***  
     When neither entity is in parentheses, it’s a *many-to-many* (N:N) relation, which can connect multiple records in both directions. You therefore can’t choose a field (the second drop-down list is disabled) and you cannot use this relationship for personalization. This is because the relationship is maintained by an intermediate entity, and you can only traverse to the intermediate entity from the primary entity.
 
@@ -176,7 +177,7 @@ Once you have an expression that works, you can copy and paste it anywhere. You 
 
 On the **Summary** tab of the **Marketing Email** form, you can make various non-content-related settings for your message in the **Sender and receiver** section. This includes values and expressions for establishing the to, from-name, from-address, and reply-to values the message will use.
 
-![Sender and receiver settings for email messages](media/email-advanced-header-settings.png "Sender and receiver settings for email messages")
+![Sender and receiver settings for email messages.](media/email-advanced-header-settings.png "Sender and receiver settings for email messages")
 
 One typical way to take advantage of this feature is to set the **From name** and **From address** to the owner of the contact record. Then, by assigning the owner of each contact record to the salesperson managing that contact, recipients will receive marketing emails that show a from address of somebody they may know, which can greatly increase open rates. Here's how:
 
@@ -377,7 +378,7 @@ In this example, the Dynamics 365 Marketing system has been customized to includ
 You must be careful when entering advanced dynamic code in the designer because there are many, sometimes unexpected, ways to get it wrong, which will break your code. Here are some tips for how to enter and test your code:
 
 - Use custom-code elements to place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab. However, you might also use dynamic code *within* a text element, in which case you'll probably need to clean up that code on the **HTML** tab, as mentioned later in this list. (When working in the [full-page editor](custom-template-attributes.md#show-toolbox), select on a custom-code element to edit its content.)    
-    ![The custom-code element](media/custom-code-element.png "The custom-code element")
+    ![The custom-code element.](media/custom-code-element.png "The custom-code element")
 - When you enter code into a text element on the **Designer** tab, any extra spaces and carriage returns that you add will create `&nbsp;`and `<p>` tags in your code, which can break it. Always go to the **HTML** tab afterwards, where you'll see all of these extra tags, and be sure to remove them.
 - When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
 - Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).

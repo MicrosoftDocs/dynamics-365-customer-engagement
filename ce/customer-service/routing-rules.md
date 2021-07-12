@@ -1,16 +1,18 @@
 ---
 title: "Set up routing rules and assignment rules in Omnichannel Administration | MicrosoftDocs"
-description: "Understand how to create and manage routing rules in Omnichannel Administration app"
+description: "Understand how to create and manage the routing rules in the Omnichannel Administration app"
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Create and manage routing rules in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 Routing rules define how conversations are routed to different queues. Each routing rule has a condition and a destination queue. If the rule condition is evaluated as **True**, then the conversation is routed to the destination queue.
 
@@ -20,7 +22,7 @@ Routing rules define how conversations are routed to different queues. Each rout
 A single work stream can have multiple routing rules that are evaluated in the order of definition. For example, if a work stream called **Chat** contains 5 routing rules, an incoming chat conversation will be evaluated against all the 5 routing rules in the defined order. While you can define as many rules as your business requires, the application processes only the first 100 rules.
 
 > [!div class=mx-imgBorder] 
-> ![Routing rules](media/oc-routing-rules.png)
+> ![Routing rules.](media/oc-routing-rules.png)
 
 Routing rules are evaluated from top to bottom. If a rule condition is evaluated as **True**, the chat gets routed to the destination queue and skips further evaluation. If a rule condition is evaluated as **False**, further rules are evaluated. 
 
@@ -49,11 +51,11 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
     For an entity, you can define rules based on related level 1 attributes.
 
     > [!div class=mx-imgBorder]
-    > ![related entity](media/related-entity-rule-condition.png)
+    > ![related entity.](media/related-entity-rule-condition.png)
 2. Select **Save**.
 
       > [!div class=mx-imgBorder]
-      > ![Configured rule](media/configured-rule.png)
+      > ![Configured rule.](media/configured-rule.png)
 
 ### See also
 

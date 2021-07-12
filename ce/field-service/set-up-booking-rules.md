@@ -106,7 +106,7 @@ The following screenshot shows an example custom CRM action.  This sample is che
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a custom CRM action](./media/scheduling-booking-rules-worflow.png)
+> ![Screenshot of a custom CRM action.](./media/scheduling-booking-rules-worflow.png)
 
 ## Sample code
 
@@ -188,6 +188,7 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
     function brErrorCallback(sb) {
     // Add custom error handeling here if desired.
      return;
+    }
     function brWarningCallback(sb) {
     // Add custom warning handeling here if desired.
     return;

@@ -2,7 +2,6 @@
 title: "Create a marketing list using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Create marketing list in Dynamics 365 Sales Professional group your accounts, contacts or leads so you can send your marketing campaigns to these groups."
 ms.date: 12/06/2019
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -135,7 +134,7 @@ In any marketing list record, select the **Members** tab, and on the command bar
 ## Associate campaigns or quick campaigns to a marketing list  
  After you have created a campaign or quick campaign, you can associate it to your marketing list. You can also create a new campaign or quick campaign from your marketing list.  
   
-1.  In the **Campaigns** or **Quick Campaigns** area, select the **Add**![Add button](../sales-enterprise/media/add-button.PNG "Add button") button.  
+1.  In the **Campaigns** or **Quick Campaigns** area, select the **Add**![Add button.](../sales-enterprise/media/add-button.PNG "Add button") button.  
   
 2.  Search for the campaign or quick campaign you want to associate to this marketing list.  
   

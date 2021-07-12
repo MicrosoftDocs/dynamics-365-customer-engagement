@@ -1,12 +1,11 @@
 ---
-title: "Live chat widget telemetry| Microsoft Docs"
-description: ""
+title: "Live chat widget telemetry| MicrosoftDocs"
+description: "Learn about the telemetry data collected by the live chat widget. Also learn how to disable automatic data collection by the chat widget."
+ms.date: 05/15/2020
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/15/2020
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 # Live chat widget telemetry
 
@@ -30,7 +29,7 @@ Some of the data collected in the live chat widget include the following.
 If your organization is concerned about the data collected by this service, you have the option to turn off automatic data collection by adding an HTML attribute to the chat widget script. 
 
 ```html
-data-enable-telemetry = "false"
+data-disable-telemetry = "true"
 ```
 
 ### See also

@@ -1,17 +1,19 @@
 ---
 title: "Attach skill to an incoming conversation | MicrosoftDocs"
 description: "Learn about how to attach skills to an incoming conversation in Omnichannel for Customer Service app."
+ms.date: 05/17/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/17/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
-# Attach skills to conversations
+# Attach skills to conversations in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 ## Understand skill-based routing
 
@@ -119,19 +121,19 @@ To attach skills, you need a workstream record. You can either create or use an 
 11. Select a skill from the lookup menu, and select a proficiency level from the list, and then select **Save and Close** to save and add the skill to the grid.
 
     > [!div class=mx-imgBorder] 
-    > ![Attach skill to a conversation](media/attach-skill1.png "Attach skill")
+    > ![Attach skill to a conversation.](media/attach-skill1.png "Attach skill")
 
     If the condition (criteria) matches, then the omnichannel system attaches the skill.
 
 12. Select **Save**. After you save, the rule appears in the **Attachment Rules** section of the workstream.
 
     > [!div class=mx-imgBorder] 
-    > ![Add skill rule to workstream](media/attach-skill2.png "Add skill rule to workstream")
+    > ![Add skill rule to workstream.](media/attach-skill2.png "Add skill rule to workstream")
 
 ### See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
-[Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)  
+[Allow agents to update skills](allow-agents-update-skills.md)  
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 
 

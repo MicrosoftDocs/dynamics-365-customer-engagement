@@ -1,14 +1,11 @@
 ---
 title: "Migrate data from legacy Service Scheduling using migration tool (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Migrate entity records from legacy Service scheduling using migration tool to the Unified Interface Service Scheduling in Dynamics 365 Customer Service and learn to troubleshoot errors."
+ms.date: 10/11/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/11/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Migrate data from legacy Service scheduling using migration tool
@@ -28,7 +27,7 @@ Follow these steps to migrate entity records from legacy scheduling experience t
 
 3. Select **Data migration** under **Tools**. The **Migrate to Service scheduling on Unified Interface** page displays the **Last run status**. If you've never run the tool, then the **Date** and **Status** field will be blank.
 
-    ![Data Migration](media/data-migration.png "Data Migration")
+    ![Data Migration.](media/data-migration.png "Data Migration")
 
 4. Review the details and select **Next** in the **Migrate to Service scheduling on Unified Interface** page. The **Step 1/3: Configuration data** page appears that displays the name of the entity records and the total number of records that will be migrated.
 
@@ -51,7 +50,7 @@ Follow these steps to migrate entity records from legacy scheduling experience t
 
 7. Review the status of the migration. If the migration is successful, select **Done**, and the migration status page is displayed.
  
-    ![Migration in progress](media/migration-step3.png "Migration in progress")
+    ![Migration in progress.](media/migration-step3.png "Migration in progress")
 
     > [!Note]
     > After you’ve migrated an entity record, if you update the record in the legacy service scheduling, the difference of update can’t be migrated using the tool. You must manually update the changes in the new service scheduling experience.
@@ -67,7 +66,7 @@ The status column displays two types of migration statuses for the entity record
 
 If the migration of one or more entity records has failed, the status column displays for which entity records the error has occurred.
 
-   ![Migration with errors](media/migration-step4.png "Migration with errors")
+   ![Migration with errors.](media/migration-step4.png "Migration with errors")
 
 Select the **View Errors** in the status column to view the details in a new browser tab. The tool navigates to the associated entity view that shows the record name, status (which will be failed all the time), and migration failure reason.
 
@@ -79,7 +78,7 @@ To learn more, see [Troubleshoot using migration information](#troubleshoot-to-r
 
 One of the reasons for the failure of entity record migration is a dependency among the entity records. That is, a **Service Activity** entity record has a dependency on the **Service** entity record, which in turn has a dependency on the **Resource Group** entity record. If the migration of **Resource Group** fails, then migration of **Service** and **Service Activity** also fails.
 
-   ![Migration record failure](media/migration-record-failure.png "Migration record failure")
+   ![Migration record failure.](media/migration-record-failure.png "Migration record failure")
 
 > [!TIP]
 > Resolve the errors in the order in which the entity records are migrated. To learn about the order of migration, see [Considerations for migration](plan-migration.md#considerations-for-migration).

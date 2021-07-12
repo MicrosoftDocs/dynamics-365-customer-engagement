@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service mobile apps | Microsoft Docs"
 description: Learn about the two Field Service mobile apps and when to use each one.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/23/2021
+ms.date: 06/04/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: overview
@@ -87,8 +87,9 @@ Here are a few more planning tips to help with your project:
 
 ### See also
 
-[What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)  
-[Enable entities for mobile offline synchronization](//dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
+- [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- [5 tips for implementing the Field Service (Dynamics 365) mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
+- [Enable entities for mobile offline synchronization](/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
 
 
 

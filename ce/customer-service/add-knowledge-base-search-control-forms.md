@@ -1,14 +1,11 @@
 ---
 title: Add the Knowledge Base Search control to Dynamics 365 Customer Service forms | Microsoft Docs
 description: Know how to add the Knowledge Base Search control to Dynamics 365 Customer Service forms.
+ms.date: 04/05/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/05/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Add the Knowledge Base Search control to forms
@@ -69,7 +68,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 3. Select the entity for which Knowledge is enabled. To search for the entity, in the **Search** field, enter the entity name.
    
-    ![Search for entity](media\knowledge-entity.png "Search for entity")
+    ![Search for entity.](media\knowledge-entity.png "Search for entity")
     
 4.	Select the entity name, select the **Forms** tab, and then open the form where you want to add the knowledge control. To add the control, create a section and then add a knowledge search control within it. Select **+Component** to add a new component, select **Related Data**, and then **Knowledge Search**. 
 
@@ -77,7 +76,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 5. After you've added your new section, select **Save and Publish**. You might need to refresh the screen to see the new section.
 
-   ![View new section](media/knowledge-control-settings.png "Knowledge control settings")
+   ![View new section.](media/knowledge-control-settings.png "Knowledge control settings")
 
  
  The knowledge properties are displayed in the pane on the right side of the page. 
@@ -112,7 +111,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 [!div class="mx-imgBorder"] 
   
-   ![Setting to enable knowledge management](media/check-knowledge-management.png "Setting to enable knowledge management")
+   ![Setting to enable knowledge management.](media/check-knowledge-management.png "Setting to enable knowledge management")
 
    Select the  **Save** icon to save the setting for the entity.
   
@@ -122,7 +121,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 [!div class="mx-imgBorder"] 
   
-   ![Choose form type](media/choose-form-type-km.png "Choose form type")
+   ![Choose form type.](media/choose-form-type-km.png "Choose form type")
   
 7. Select the area where you want to place the search control, and on the **Insert** tab, select **Knowledge Base Search**.  
   
@@ -132,7 +131,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 [!div class="mx-imgBorder"] 
   
-   ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png "Set properties for Knowledge Base Search control") 
+   ![Set properties for Knowledge Base Search control.](media/km-search-control-tab.png "Set properties for Knowledge Base Search control") 
 
    
 |Tab  |Property  |Description|
@@ -168,7 +167,7 @@ Open the **Knowledge Base Search** control and edit its properties to configure 
 
 [!div class="mx-imgBorder"]
 
-   ![Configure auto filtering](media/ka-config-auto-filtering.png "Configure auto filtering")
+   ![Configure auto filtering.](media/ka-config-auto-filtering.png "Configure auto filtering")
 
 To learn more about how to use the automatic filtering option, go to [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-auto-filtered-results)
 
@@ -193,7 +192,7 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 7. Retain the default values for all the other fields, and then select **OK**.
 
 > [!div class="mx-imgBorder"]
-> ![Set properties for subgrid](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
+> ![Set properties for subgrid.](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
 
 8. Save your knowledge subgrid, and then select **Publish**.
 

@@ -1,9 +1,10 @@
 ---
-title: "Submit feedback or ratings for information stored in your system (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Add feedback to records in Dynamics 365 Customer Engagement (on-premises)"
+description: "Tracking feedback is important for improving customer satisfaction. You can now add feedback or ratings to records for any entity enabled for feedback."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -37,7 +38,7 @@ To improve customer satisfaction, tracking customer feedback for the products an
   
 3. On the nav bar, select the arrow next to the record name, and then select **Feedback**.  
   
-   ![Go to the list of associated records](../basics/media/v8-1-associatedlist.png "Go to the list of associated records")  
+   ![Go to the list of associated records.](../basics/media/v8-1-associatedlist.png "Go to the list of associated records")  
   
 4. On the Action toolbar, select **Add New Feedback**.  
   

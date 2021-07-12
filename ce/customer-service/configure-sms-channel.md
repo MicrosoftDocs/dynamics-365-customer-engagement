@@ -1,12 +1,11 @@
 ---
 title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
-description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
+description: "Perform the steps mentioned in the topic to configure an SMS channel in Omnichannel for Customer Service."
+ms.date: 04/15/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/15/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure an SMS channel for TeleSign
@@ -102,7 +101,7 @@ To sign up for TeleSign
     - **Allow automated messages**: Specify **Yes** to be able to define the business hours.
 
     > [!div class=mx-imgBorder]
-    > ![SMS work stream](media/sms-workstream.png "SMS work stream")
+    > ![SMS work stream.](media/sms-workstream.png "SMS work stream")
 
 5. On the **SMS Settings** tab, enter the following information:
     - **Customer ID**: Customer ID generated from the TeleSign account.
@@ -113,7 +112,7 @@ To sign up for TeleSign
 7. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![SMS Settings tab](media/sms-settings.png "SMS Settings tab")
+    > ![SMS Settings tab.](media/sms-settings.png "SMS Settings tab")
 
 8. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
@@ -130,7 +129,7 @@ To sign up for TeleSign
     > - Short code is supported for enterprise accounts.
 
     > [!div class=mx-imgBorder]
-    > ![SMS Numbers tab](media/sms-number.png "SMS Numbers tab")
+    > ![SMS Numbers tab.](media/sms-number.png "SMS Numbers tab")
 
 9. Select **Save**.
 
@@ -141,7 +140,7 @@ To sign up for TeleSign
 12. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
 
     > [!div class=mx-imgBorder]
-    > ![Validate API Key](media/validate-key.png "Validate API Key")
+    > ![Validate API Key.](media/validate-key.png "Validate API Key")
 
 13. Open the work stream you created for SMS.
 

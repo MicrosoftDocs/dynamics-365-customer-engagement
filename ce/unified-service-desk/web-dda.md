@@ -1,23 +1,22 @@
 ---
 title: "WebDDA in Unified Service Desk | MicrosoftDocs"
-description: "Learn about using Web data-driven adapter (WebDDA) in Unified Service Desk."
+description: "Learn about the Web data-driven adapter (WebDDA) and its binding elements to access HTML-based applications in Unified Service Desk."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # WebDDA
-The Web data-driven adapter (WebDDA) provides access to HTML-based applications. The key technology used in this DDA is the Document Object Model (DOM) of the browser. The bindings are created in a way similar to those for the WinDDA, by defining a key element and the path-through, in this case the DOM, to the element.  
+The Web data-driven adapter (WebDDA) provides access to HTML-based applications. The key technology used in this data-driven adapter is the Document Object Model (DOM) of the browser. The bindings are created in a way similar to those for the WinDDA, by defining a key element and the path-through, in this case the DOM, to the element.  
   
  The various WebDDA binding elements are as follows:  
   

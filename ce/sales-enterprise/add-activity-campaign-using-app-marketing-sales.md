@@ -1,8 +1,7 @@
 ---
-title: "Add an activity to a campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Add planning and campaign activities to a campaign to make it successful."
+title: "Add activity to campaign in in-app marketing - Sales Enterprise | MicrosoftDocs"
+description: "Create, distribute, and assign planning and campaign activities to a marketing campaign in Dynamics 365 Sales to make it successful."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,7 +19,7 @@ searchScope:
   - Customer Engagement
 ---
 
-# Add an activity to a campaign using in-app marketing (Sales)
+# Add activity to campaign using in-app marketing
 
 Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Planning activities are those you want to perform before you launch the campaign, and campaign activities are those you want to manage as part of the campaign. Examples of planning and campaign activities you can add include:  
   
@@ -71,7 +70,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
 
 5. On the Campaign Activity form, select **Save**.
 
-6. The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing list, select the **More Commands** icon ![More Commands icon](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
+6. The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing list, select the **More Commands** icon ![More Commands icon.](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
   
 7. To distribute the new campaign activity, on the command bar, select **Distribute Campaign Activity**.  
   

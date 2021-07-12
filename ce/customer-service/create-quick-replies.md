@@ -1,12 +1,9 @@
 ---
 title: "Create quick replies | MicrosoftDocs"
-description: "Instructions to set up quick replies in Omnichannel for Customer Service."
+description: "This topic provides the steps you can perform to set up quick replies in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create quick replies
@@ -28,7 +25,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
     - **Message:** Enter the text of the message.
 
       > [!div class=mx-imgBorder]
-      > ![Create a quick reply](media/oc-create-a-quick-reply.png "Create a quick reply")
+      > ![Create a quick reply.](media/oc-create-a-quick-reply.png "Create a quick reply")
 
      The **Message** field supports the following slugs.  
 
@@ -53,14 +50,14 @@ Quick replies can be classified and tagged into categories. The categorization c
 2. Select two or more quick replies for which you want to create a tag, and then select **Edit Tags**.
 
 > [!div class=mx-imgBorder]
-> ![Active quick replies](media/oc-active-quick-replies.png "Active quick replies")
+> ![Active quick replies.](media/oc-active-quick-replies.png "Active quick replies")
 
   The **Edit Tags** dialog box appears.
 
 3. In the **Add new tag** field, start typing the tag you want to create. If it already exists, it will appear in a list below the field. If it doesn’t appear, select the plus **+** sign to add it.
 
 > [!div class=mx-imgBorder]
-> ![Add a tag](media/oc-quick-reply-add-tag.png "Add a tag")
+> ![Add a tag.](media/oc-quick-reply-add-tag.png "Add a tag")
 
 4. After you're done, select **Close**.
 

@@ -3,7 +3,7 @@ title: "Create auto-number-attributes (Developer Guide for Dynamics 365 Customer
 description: "Learn about creating auto-number attribute in the same way you create a string attribute using the StringAttributeMetadata class except that you use the new AutoNumberFormat property. Use the AutoNumberFormat property to define a pattern that includes sequential numbers and random strings by composing placeholders, which indicate the length and type of values that are generated."
 keywords: Auto-number attributes
 ms.date: 04/03/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - CRM 2017
@@ -73,7 +73,7 @@ More information: [Create and update entity definitions using the Web API > Crea
 
 #### Request
 ```http
-POST [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='new_widget')/Attributes HTTP/1.1
+POST [Organization URI]/api/data/v9.1/EntityDefinitions(LogicalName='new_widget')/Attributes HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
@@ -124,7 +124,7 @@ OData-Version: 4.0
 ```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
-OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes(f01bef16-287c-e511-80d2-00155d2a68d2)
+OData-EntityId: [Organization URI]/api/data/v9.1/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes(f01bef16-287c-e511-80d2-00155d2a68d2)
 ```
 
 ## AutoNumberFormat options
@@ -250,7 +250,7 @@ More information: [Use Web API actions > Unbound actions](/previous-versions/dyn
 #### Request
 
 ```http
-POST [Organization URI]/api/data/v9.0/SetAutoNumberSeed HTTP/1.1
+POST [Organization URI]/api/data/v9.1/SetAutoNumberSeed HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0

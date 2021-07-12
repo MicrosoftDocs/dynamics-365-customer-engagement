@@ -1,5 +1,7 @@
 ---
 title: "Invalid customization of metadata configured | Microsoft Docs"
+description: Environment diagnostics warning there's customizations that aren't valid.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

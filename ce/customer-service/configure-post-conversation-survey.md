@@ -1,12 +1,11 @@
 ---
 title: "Configure post-conversation survey | MicrosoftDocs"
 description: "Instructions to configure a post-conversation survey in Omnichannel for Customer Service."
+ms.date: 06/15/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure a post-conversation survey
@@ -18,7 +17,7 @@ ms.service: "dynamics-365-customerservice"
 You can configure your chat widget to show users a survey that they can respond to after they finish a conversation.
 
 > [!NOTE]
-> Post-conversation survey is not supported in Government Community Cloud.
+> Post-conversation surveys are not supported for conversations handled by bots and in Government Community Cloud.
 
 ## How post-conversation surveys work
 
@@ -91,7 +90,7 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
 8. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Post-conversation survey](media/oc-post-conversation-survey.png "Post-conversation survey")
+    > ![Post-conversation survey.](media/oc-post-conversation-survey.png "Post-conversation survey")
 
 ## Runtime experience of post-conversation surveys
 

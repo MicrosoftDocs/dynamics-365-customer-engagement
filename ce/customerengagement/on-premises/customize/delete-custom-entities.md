@@ -1,10 +1,10 @@
 ---
-title: "Delete custom entities | MicrosoftDocs"
+title: "Delete custom entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to delete a custom entity"
 ms.custom: 
 ms.date: 12/03/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

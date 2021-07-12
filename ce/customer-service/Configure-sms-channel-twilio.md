@@ -1,12 +1,11 @@
 ---
 title: "Configure SMS channel for Twilio | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel for Twilio in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure an SMS channel for Twilio
@@ -97,7 +96,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 5. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
 
    > [!div class=mx-imgBorder]
-   > ![Works stream settings for Twilio](media/sms-twilio.png "Work stream settings for Twilio")
+   > ![Works stream settings for Twilio.](media/sms-twilio.png "Work stream settings for Twilio")
 
 6. On the **SMS Settings** tab, enter the following details:
 
@@ -108,7 +107,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 7. Select **Save**. The **Twilio inbound URL** is generated and displayed.
 
    > [!div class=mx-imgBorder]
-   > ![SMS settings for Twilio](media/sms-settings-twilio.png "SMS settings for Twilio")
+   > ![SMS settings for Twilio.](media/sms-settings-twilio.png "SMS settings for Twilio")
 
 8. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
@@ -136,7 +135,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
     > - [Skill-based routing](overview-skill-work-distribution.md)
     > - [Productivity tools](../app-profile-manager/productivity-tools.md)
     > - [Smart assist](../app-profile-manager/smart-assist.md)
-    > - [Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)
+    > - [Templates](/dynamics365/app-profile-manager/templates-overview)
 
 ## Establish a connection between Omnichannel for Customer Service and the Twilio account
 

@@ -1,9 +1,10 @@
 ---
 title: "Use Outlook category to track appointments and emails  | MicrosoftDocs"
+description: "Server-side synchronization allows tracking of emails, appointments and tasks in Outlook."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,7 +22,7 @@ search.audienceType:
 ---
 # Use Outlook category to track appointments and emails
 
-Server-side synchronization now allows tracking of emails, appointments and tasks in Outlook with a [special category](https://support.office.com/article/video-set-an-email-flag-reminder-or-color-a894348d-b308-4185-840f-aff63063d076?ui=en-US&rs=en-US&ad=US) **Tracked to Dynamics 365**. Assigning this category to an email, appointment or a task in Outlook syncs the item to Dynamics 365 Customer Engagement (on-premises). Similarly, removing the category from a tracked email, appointment or task untracks it from Customer Engagement (on-premises).
+Server-side synchronization allows tracking of emails, appointments and tasks in Outlook with a [special category](https://support.office.com/article/video-set-an-email-flag-reminder-or-color-a894348d-b308-4185-840f-aff63063d076?ui=en-US&rs=en-US&ad=US) **Tracked to Dynamics 365**. Assigning this category to an email, appointment or a task in Outlook syncs the item to Dynamics 365 Customer Engagement (on-premises). Similarly, removing the category from a tracked email, appointment or task untracks it from Customer Engagement (on-premises).
 
 You can also select multiple items and assign the **Tracked to Dynamics 365** Outlook category to them thereby tracking all of them to Dynamics 365 for Customer Engagement. Quickly identify tracked items by observing the presence of this category in your Inbox and other folders.
 
@@ -30,7 +31,7 @@ You can also select multiple items and assign the **Tracked to Dynamics 365** Ou
 As of Customer Engagement (on-premises) version 9.1.0.4039 or higher, category tracking is on by default.
 
 > [!TIP]
-> To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, select the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
+> To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, select the **Settings** button ![User profile Settings button.](media/user-profile-settings-button.gif) > **About**.  
 
 ## Use category to track Outlook items
 Once the **Tracked to Dynamics 365** category is available in Outlook, you can use it to track the following Outlook items.

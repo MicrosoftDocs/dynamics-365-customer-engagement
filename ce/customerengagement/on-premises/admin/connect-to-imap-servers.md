@@ -1,9 +1,10 @@
 ---
 title: "Connect to IMAP servers or SMTP servers | MicrosoftDocs"
+description: "Connect Dynamics 365 Customer Engagement (on-premises) with IMAP email servers."
 ms.custom: 
 ms.date: 05/18/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -24,7 +25,7 @@ search.audienceType:
 > Creating an IMAP/SMTP email server profile is not available for Customer Engagement (on-premises).
 
 <!-- 
-Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) with IMAP email servers such as used for Gmail and Yahoo! Mail.  
+Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) with IMAP email servers, such as used for Gmail and Yahoo! Mail.  
 
 > [!NOTE]
 > - Only emails in the Inbox folder are synchronized.
@@ -89,7 +90,7 @@ Set server-side synchronization to be the default configuration method.
 
      If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.  
 
-     ![System Settings for server-side synchronization](../admin/media/imap-profile.png "System Settings for server-side synchronization")  
+     ![System Settings for server-side synchronization.](../admin/media/imap-profile.png "System Settings for server-side synchronization")  
 
 3.  Click **OK**.  
 
@@ -110,7 +111,7 @@ Set server-side synchronization to be the default configuration method.
 
 3. Select all the mailboxes that you want to associate with the IMAP profile you created, click **Apply Default Email Settings**, verify the settings, and then click **OK**.  
 
-   ![Apply default email settings](../admin/media/apply-default-email-settings.png "Apply default email settings")  
+   ![Apply default email settings.](../admin/media/apply-default-email-settings.png "Apply default email settings")  
 
     By default, the mailbox configuration is tested and the mailboxes are enabled when you click **OK**.  
 

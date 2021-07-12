@@ -1,14 +1,11 @@
 ---
 title: Create or change a service (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create or edit a service (Customer Service app)
@@ -59,7 +58,7 @@ A service requires at least one selection rule and one or more resources, resour
   
     1.  Select a selection rule in the right-hand pane.  
   
-         Selection rules appear in the tree beside the **Selection Rule** button ![Gear button](../customer-service/media/crm-ua-selection-rule-gear.gif "Gear button").  
+         Selection rules appear in the tree beside the **Selection Rule** button ![Gear button.](../customer-service/media/crm-ua-selection-rule-gear.gif "Gear button").  
   
     2.  Select one of the items under **Common Tasks** to define the selection rule by indicating how many resources are required and in what combination.  
   
@@ -81,7 +80,7 @@ A service requires at least one selection rule and one or more resources, resour
   
 7.  When you’re ready to save your data, select **Save**.  
 
-    ![schedule-service-cs-app](media/services-cs-app.png)
+    ![schedule-service-cs-app.](media/services-cs-app.png)
   
 ## Activate or deactivate a service  
  You can make a service available on unavailable for scheduling by activating or deactivating it. To do this, in the list of service records, select a service, then select **More Actions** > **Activate** or **More actions** > **Deactivate**.  

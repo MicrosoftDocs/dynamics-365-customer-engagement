@@ -1,12 +1,11 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
-description: "This topic contains information on the geographic availability and languages supported."
+description: "This topic contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
+ms.date: 06/15/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/18/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # International availability of Omnichannel for Customer Service
 
@@ -20,7 +19,7 @@ The purpose of this document is to provide information about availability of Omn
 
 ## Geographic location availability
 
-Your Dynamics 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Dynamics 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
+Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
 
 ### April 2021 update
 
@@ -46,7 +45,7 @@ Omnichannel for Customer Service April 2021 update is available in the following
 
 > [!Note]
 >
-> If your Dynamics 365 tenant is located in Brazil or Norway, Omnichannel for Customer Service is currently not available.
+> If your tenant is located in Brazil or Norway, Omnichannel for Customer Service is currently not available.
 
 ### October 2020 update
 

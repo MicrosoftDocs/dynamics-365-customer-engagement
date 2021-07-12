@@ -1,9 +1,10 @@
 ---
 title: "Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+description: "Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell."
 ms.custom: 
 ms.date: 06/10/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -79,7 +80,7 @@ search.audienceType:
   
 8. Select the package to be deployed, and click **Next**.  
   
-   ![Select your package in the Package Deployer Tool](../admin/media/package-deployer-4.png "Select your package in the Package Deployer Tool")  
+   ![Select your package in the Package Deployer Tool.](../admin/media/package-deployer-4.png "Select your package in the Package Deployer Tool")  
   
 9. Follow the instructions on the subsequent screens to complete the deployment of your package.  
   

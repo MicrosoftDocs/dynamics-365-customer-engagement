@@ -3,16 +3,10 @@ title: "Matching strategy for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to specify which leads in Dynamics 365 apps get updated by configuring the matching strategy for newly synced LinkedIn leads."
 keywords: lead matching, field mapping, linkedin leads, lead record
 ms.date: 04/02/2018
-ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Sales
-  - Dynamics 365 Marketing
-ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -20,6 +14,11 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365LinkedIn
+applies_to: 
+  - Dynamics 365 Sales
+  - Dynamics 365 Marketing
+ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
+topic-status: Drafting
 ---
 
 # Configure a matching strategy to update leads from [!include[LinkedIn](../includes/pn-linkedin.md)] ads
@@ -36,7 +35,7 @@ A matching strategy applies to all [!include[LinkedIn](../includes/pn-linkedin.m
 You need a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** security role to manage lead matching strategies.  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 
-![Manage lead matching strategies](media/Manage-lead-matching-strategies.png "Manage lead matching strategies")
+![Manage lead matching strategies.](media/Manage-lead-matching-strategies.png "Manage lead matching strategies")
 
 1. Create a new matching strategy
 
@@ -51,7 +50,7 @@ You need a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Con
 
 1. Go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
 
-2. To create the matching strategy, select **New** ![New](media/Add-icon.png "New"), enter a **Name**, and then select **Save**.
+2. To create the matching strategy, select **New** ![New.](media/Add-icon.png "New"), enter a **Name**, and then select **Save**.
 
 3. To add a [!include[LinkedIn](../includes/pn-linkedin.md)] field mapping record, select **Add** ![Add](media/Add-icon.png "Add") and enter the name of the [!include[LinkedIn](../includes/pn-linkedin.md)] member field.
 
@@ -78,7 +77,7 @@ If another matching strategy is active, it will become deactivated.
 
 3. To add an additional [!include[LinkedIn](../includes/pn-linkedin.md)] field mapping record, select **Add** ![Add](media/Add-icon.png "Add") and enter the name of the [!include[LinkedIn](../includes/pn-linkedin.md)] member field.
 
-4. To remove a [!include[LinkedIn](../includes/pn-linkedin.md)] field mapping record, select **Delete**![Delete](media/Delete-icon.png "Delete").
+4. To remove a [!include[LinkedIn](../includes/pn-linkedin.md)] field mapping record, select **Delete**![Delete.](media/Delete-icon.png "Delete").
 
 ## Delete a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy
 
@@ -86,7 +85,7 @@ If another matching strategy is active, it will become deactivated.
 
 2. Select the check box for the lead matching strategy you want to delete.
 
-3. Select **Delete**![Delete](media/Delete-icon.png "Delete"), and then confirm your deletion.
+3. Select **Delete**![Delete.](media/Delete-icon.png "Delete"), and then confirm your deletion.
 
 > [!NOTE]
 > You can’t delete the activated lead matching strategy.

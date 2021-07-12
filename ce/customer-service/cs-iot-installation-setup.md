@@ -1,12 +1,11 @@
 ---
 title: "Develop customized IoT solutions in Connected Customer Service | MicrosoftDocs"
 description: "Learn how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Installation and setup - Connected Customer Service for IoT Hub
@@ -35,14 +34,14 @@ Connected Customer Service is included with Dynamics 365 Customer Service. Creat
  
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of IoT alerts in the asset menu in the sidebar](media/cs-iot-navigation.png)
+> ![Screenshot of IoT alerts in the asset menu in the sidebar.](media/cs-iot-navigation.png)
 
 Verify you have the Connected Customer Service entities in your environment.
 
 Next, deploy and connect Azure IoTHub to your Customer Service environment by going to [https://iotdeployment.dynamics.com/](https://iotdeployment.dynamics.com/) and following the instructions.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cs-iot-deployment-app-screen.png)
+> ![Screenshot of the IoT deployment app.](./media/cs-iot-deployment-app-screen.png)
 
   
 ### Set up the sample simulator (optional)  
@@ -55,12 +54,12 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cs-iot-deployment-app.png)
+> ![Screenshot of the IoT deployment app.](./media/cs-iot-deployment-app.png)
 
  The key can be accessed by clicking on the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cs-iot-resource-azure-portal.png)
+> ![Screenshot of the IoT deployment app.](./media/cs-iot-resource-azure-portal.png)
   
 4. Select the IoT hub in the **Resource Group**.  
   
@@ -102,7 +101,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 6. Copy the IP address when you see this message.  
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cs-iot-ip-address.png)  
+> ![Screenshot of the IoT deployment app.](./media/cs-iot-ip-address.png)  
   
 7. Go to the Azure portal, open the SQL server, and add your IP address to the firewall.  
   

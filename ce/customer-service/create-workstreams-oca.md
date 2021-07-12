@@ -1,16 +1,20 @@
 ---
 title: "Create workstreams in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn how to create workstreams in the Omnichannel Administration app"
+ms.date: 05/07/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/07/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Create workstreams in Omnichannel Administration
 
+
+> [!IMPORTANT]
+>
+> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
+> - Workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
 A workstream is a collection of routing rules. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in the Omnichannel admin center, Customer Service Hub, and Omnichannel Administration apps.
 
@@ -18,8 +22,6 @@ A workstream can belong to multiple channels of the same type, like multiple cha
 
 If you want to create workstreams to configure unified routing, see [Create workstreams in Omnichannel admin center](create-workstreams.md).
 
-> [!IMPORTANT]
-> Workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
 Perform the following steps:
 
@@ -28,7 +30,7 @@ Perform the following steps:
     The **Active Work Streams** view is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Omnichannel workstreams](media/oc-workstream-view.png "Omnichannel workstreams")
+    > ![Omnichannel workstreams.](media/oc-workstream-view.png "Omnichannel workstreams")
 
 2. On the command bar, select **New** to create a work stream.
 
@@ -79,7 +81,7 @@ Perform the following steps:
 
 
       > [!div class=mx-imgBorder] 
-      > ![New context variable](media/context-variable.png "New context variable")
+      > ![New context variable.](media/context-variable.png "New context variable")
 
 5. Define routing rule items in the **Routing rule items** tab. Routing rule items are configured for each work stream, so that conversations can be routed to the correct queues. To learn how to configure a routing rule, see [Create and manage routing rules in Omnichannel](routing-rules.md).
 

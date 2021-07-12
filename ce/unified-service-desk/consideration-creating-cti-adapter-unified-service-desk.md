@@ -1,20 +1,19 @@
 ---
 title: "Considerations for creating a CTI adapter for Unified Service Desk | MicrosoftDocs"
 description: "The topic provides information on things to consider while creating a computer telephony integration (CTI) adapter to make it work with Unified Service Desk."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Considerations for creating a CTI adapter for Unified Service Desk
 
@@ -100,7 +99,7 @@ We recommend that the following actions be defined and implemented in the **CTI 
 
     Enter the required FetchXML query for the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search. Use the advanced find feature in Dataverse to create your initial search, and then download the FetchXML. The key field is often not available in Dataverse Advanced Find search, so you may find that you need to add that condition manually to the XML after you have exported it. You should also select the attributes that you’re interested to show up in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. These show up immediately rather than be populated after pages load in the display like the other types of data parameters. Once you have the FetchXML you want, paste the text into the **FetchXML** box, and save the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search rule.  
 
-   ![New CTI search in Unified Service Desk](../unified-service-desk/media/usd-cti-search-rule-2.PNG "New CTI search in Unified Service Desk")  
+   ![New CTI search in Unified Service Desk.](../unified-service-desk/media/usd-cti-search-rule-2.PNG "New CTI search in Unified Service Desk")  
 
 9. The system will search each of your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search items for the rule. This can be thought of like a cross-entity search. The conditions relate to the final result set and might, in the case of multiple results handling, indicate that one or more records were found from more than one entity type.  
 

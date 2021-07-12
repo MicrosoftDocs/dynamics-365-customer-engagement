@@ -1,8 +1,7 @@
 ---
-title: "Enable automatic generation of quotes and invoices in Dynamics 365 Sales Professional | MicrosoftDocs"
-description: "Generate quotes and invoices with consistent format and branding by using templates in Dynamics 365 Sales Professional."
+title: "Enable generation of quotes and invoices-Sales Professional | MicrosoftDocs"
+description: "Help your sales team to generate quotes and invoices with consistent format and branding by using templates."
 ms.date: 07/21/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

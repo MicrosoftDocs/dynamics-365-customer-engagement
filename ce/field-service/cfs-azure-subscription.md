@@ -1,11 +1,10 @@
 ---
 title: "Microsoft Azure subscription prerequisites for Connected Field Service with IoT Hub | MicrosoftDocs"
 description: Learn about Microsoft Azure subscription prerequisites for Connected Field Service with IoT Hub
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 05/21/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -36,7 +35,7 @@ When deploying and administering Connected Field Service with IoT Hub, there are
   - Account administrator
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of azure security role dropdown](./media/cfs-azure-api-management-owner.png)
+> ![Screenshot of azure security role dropdown.](./media/cfs-azure-api-management-owner.png)
 
 
 3. You will only see subscriptions that are tied to your login's **primary active directory**. For example, david@contoso.com will only see subscriptions from the contoso.com directory. If jason@fabrikam.com invites David into their fabrikam.onmicrosoft.com subscription, David will not be able to use the fabrikam subscription on the deployment app.
@@ -46,7 +45,7 @@ When deploying and administering Connected Field Service with IoT Hub, there are
 5. Your user must have permission to use the Dynamics API within the Azure active directory tenant.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of CRM API access](./media/cfs-azure-api-management.png)
+> ![Screenshot of CRM API access.](./media/cfs-azure-api-management.png)
 
 
 

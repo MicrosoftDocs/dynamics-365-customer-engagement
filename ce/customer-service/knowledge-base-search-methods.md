@@ -1,14 +1,11 @@
 ---
 title: Knowledge base search options in Dynamics 365 Customer Service| MicrosoftDocs
 description: Know how the Knowledge base search methods work in Microsoft Dynamics 365 Customer Service.
+ms.date: 06/29/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 06/29/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Understand knowledge base search
@@ -48,7 +47,7 @@ You can search the knowledge base from the following areas in the Customer Servi
 
 - **Knowledge base search control**. In the app, select a case by navigating to **Service** > **Cases**. In the **Related** section (also known as Reference panel), select **Knowledge Base Search** and search for knowledge articles using keywords in the search box. 
   
-  ![Knowledge base search control](media/kb-search-control.png)
+  ![Knowledge base search control.](media/kb-search-control.png)
 
    To explore more options in the knowledge base search given in the Related section, see [Search for knowledge articles](search-knowledge-articles-csh.md).
 
@@ -60,7 +59,7 @@ You can search the knowledge base from the following areas in the Customer Servi
 
 - **Quick find in Grids**. In the app, go to **Service** > **Knowledge Articles**, and select the search box to search the knowledge base using keywords. 
 
-   ![Quick find search](media/quick-find-search.png)
+   ![Quick find search.](media/quick-find-search.png)
 
   
 > [!NOTE]

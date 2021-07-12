@@ -1,11 +1,11 @@
 ---
 title: Learn the basics of the Dynamics 365 Sales mobile app
 description: Learn the basic functions of the Dynamics 365 Sales mobile app.
-ms.date: 05/03/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.service: dynamics-365-sales
-author: udaykirang
-ms.author: udag
+author: sbmjais
+ms.author: shjais
 manager: shujoshi
 ---
 
@@ -14,7 +14,7 @@ manager: shujoshi
 When you open the Dynamics 365 Sales mobile app on your mobile device, you’ll see the home page. This home page provides high-level information on the meetings and insight cards that are specific to you. Typically, the home page displays the following kinds of information:
 
 > [!div class="mx-imgBorder"]
-> ![Sales mobile app home screen](media/sa-home-page-complete.png "Sales mobile app home screen")
+> ![Sales mobile app home screen.](media/sa-home-page-complete.png "Sales mobile app home screen")
 
 1. [Meetings](#meetings)
 2. [Recent contacts](#recent-contacts)
@@ -29,19 +29,19 @@ The Meetings section of the home page shows important information about the last
 > [!NOTE]
 > The Meetings section only includes meetings that have at least one attendee who's outside of your organization's domain.
 
-![Meetings displayed on the home page](media/sa-home-page.png "Meetings displayed on the home page")
+![Meetings displayed on the home page.](media/sa-home-page.png "Meetings displayed on the home page")
 
 ## Recent contacts
 
 The Recent contact section of the home page shows a few contacts you have recently accessed through the web or mobile app. You can tap a contact to views its details or tap  **Recent contacts** to open an extended list of recent contacts. More information: [Manage contacts](create-contact.md)
 
-![Recent contacts displayed on the home screen](media/sm-contacts-home.png "Recent contacts displayed on the home screen")
+![Recent contacts displayed on the home screen.](media/sm-contacts-home.png "Recent contacts displayed on the home screen")
 
 ## Recent records
 
 The Recent records section of the home page shows a few records you recently accessed through the web or mobile app, such as an account or opportunity. You can tap a record to views its details or tap **Recent records** to view an extended list. More information: [Manage records or regarding entities](open-record.md).
 
-![Recent records displayed on the home page](media/sm-records-home.png "Recent records displayed on home page")
+![Recent records displayed on the home page.](media/sm-records-home.png "Recent records displayed on home page")
 
 ## Reminders and insights
 
@@ -54,15 +54,15 @@ Insight cards help keep you up to date with your work in Dynamics 365 Sales, let
 
 When you tap **Reminders** or **Insights**, an extended list appears. Tap a reminder or an insight to see details about it. Tap **Open** in the card to open the reminder or the insight card.
 
-Tap the three dots ![Options button](media/sm-options-button.png "Options button") to take further action on a reminder, such as to dismiss, snooze, or mark it as helpful or not helpful.
+Tap the three dots ![Options button.](media/sm-options-button.png "Options button") to take further action on a reminder, such as to dismiss, snooze, or mark it as helpful or not helpful.
 
-![Reminders and insights displayed on the home screen](media/sm-reminders-insights-home.png "Reminders and insights displayed on the home screen")
+![Reminders and insights displayed on the home screen.](media/sm-reminders-insights-home.png "Reminders and insights displayed on the home screen")
 
 ## Navigation bar
 
 You can use the navigation bar at the bottom of the screen to navigate through the app.
 
-![Navigation bar](media/sm-navigation-bar.png "Navigation bar")
+![Navigation bar.](media/sm-navigation-bar.png "Navigation bar")
 
 The navigation bar includes the following options:
 
@@ -89,7 +89,7 @@ To add notes and add contacts, tap the plus sign icon (**+**). More information:
 Tap the **Meetings** icon. The calendar selection view is opened with a list of meetings that are scheduled for the current date. By default, information for the current date is displayed. You can swipe left or right to choose a date for which you want to view scheduled meetings.
 
 > [!div class="mx-imgBorder"]
-> ![Date selection to view meetings](media/sm-agenda-view.png "Date selection to view meetings")   
+> ![Date selection to view meetings.](media/sm-agenda-view.png "Date selection to view meetings")   
 
 To learn more, go to [View meetings](view-agenda.md).        
 
@@ -98,13 +98,22 @@ To learn more, go to [View meetings](view-agenda.md).
 To navigate to other areas of the app, tap the **More** icon to view the site map or menu of the Sales Hub app or any other custom app module you are using. The following screen is a site map sample:
 
 > [!div class="mx-imgBorder"]
-> ![Sales hub site map](media/sm-sales-hub-site-map.png "Sales hub site map")    
+> ![Sales hub site map.](media/sm-sales-hub-site-map.png "Sales hub site map")    
 
 The **Recent** option, listed at the top of the site map, displays the records that you have accessed recently through the Sales mobile app. Tap the **Pinned** option to display any pinned records.
 
 Select the bidirectional arrows in the upper-right corner to switch to other menus such as App settings and Sales Insights settings.  
 
-## See also
+## Mobile app settings
+
+The **Settings** panel provides more information about the app, helpful links to submit ideas, report issues, and share feedback, and a sign-out option.
+
+To open the **Settings** panel, tap your profile picture at the upper left of the screen, and then tap **Settings**.
+
+More information: [Dynamics 365 Sales mobile app settings](app-settings.md)
+
+
+### See also
 
 [View meetings](view-agenda.md)    
 [Open a record](open-record.md)

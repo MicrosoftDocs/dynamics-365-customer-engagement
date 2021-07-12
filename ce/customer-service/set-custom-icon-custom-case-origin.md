@@ -1,14 +1,11 @@
 ---
 title: Set custom icon for custom Case Origin field (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to set custom icon for custom Case Origin field in Dynamics 365 Customer Service
+ms.date: 06/01/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Set the custom icon in views for Case Origin field
@@ -27,15 +26,15 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a cus
   
 |Label|Value|Icon|  
 |-----------|-----------|----------|  
-|**Phone**|1|![Case origin icon for phone](../customerengagement/on-premises/customize/media/case-origin-phone-icon.png "Case origin icon for phone")|  
-|**Email**|2|![Case origin button for email](../customerengagement/on-premises/customize/media/case-origin-email-icon.png "Case origin button for email")|  
-|**Web**|3|![Case origin icon for web](../customerengagement/on-premises/customize/media/case-origin-web-icon.png "Case origin icon for web")|  
-|**Facebook**|2483|![Facebook Case origin icon](../customerengagement/on-premises/customize/media/case-origin-facebook-icon.png "Facebook Case origin icon")|  
-|**Twitter**|3986|![Case origin icon for Twitter](../customerengagement/on-premises/customize/media/case-origin-twitter-icon.png "Case origin icon for Twitter")|  
+|**Phone**|1|![Case origin icon for phone.](../customerengagement/on-premises/customize/media/case-origin-phone-icon.png "Case origin icon for phone")|  
+|**Email**|2|![Case origin button for email.](../customerengagement/on-premises/customize/media/case-origin-email-icon.png "Case origin button for email")|  
+|**Web**|3|![Case origin icon for web.](../customerengagement/on-premises/customize/media/case-origin-web-icon.png "Case origin icon for web")|  
+|**Facebook**|2483|![Facebook Case origin icon.](../customerengagement/on-premises/customize/media/case-origin-facebook-icon.png "Facebook Case origin icon")|  
+|**Twitter**|3986|![Case origin icon for Twitter.](../customerengagement/on-premises/customize/media/case-origin-twitter-icon.png "Case origin icon for Twitter")|  
   
  You can edit the case origin field to add additional options. The options used by this field are defined within the **Case Origin** global option set. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit global option sets](../customerengagement/on-premises/customize/create-edit-global-option-sets.md)  
   
- When you add a custom option, by default this icon will be displayed: ![Case origin icon for a custom origin](../customerengagement/on-premises/customize/media/case-origin-custom-icon.png "Case origin icon for a custom origin"). You can specify a different icon by creating an image web resource using the steps below:  
+ When you add a custom option, by default this icon will be displayed: ![Case origin icon for a custom origin.](../customerengagement/on-premises/customize/media/case-origin-custom-icon.png "Case origin icon for a custom origin"). You can specify a different icon by creating an image web resource using the steps below:  
   
 ## Set a custom icon for a custom case origin  
   

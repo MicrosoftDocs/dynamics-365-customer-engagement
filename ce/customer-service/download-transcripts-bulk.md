@@ -1,12 +1,11 @@
 ---
 title: "Download Omnichannel for Customer Service transcripts in bulk | MicrosoftDocs"
 description: "Learn about transcripts and how to download them in bulk"
+ms.date: 02/10/2021
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/10/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 # Download Omnichannel for Customer Service transcripts in bulk
 
@@ -36,7 +35,7 @@ OData-Version: 4.0
 ```
 The `documentBody` attribute in the response obtained from each of the web API requests contains the base64 encoded transcript or attachment.
 
-> ![Sample documentBody](media/document-body.png "Sample documentBody")
+> ![Sample documentBody.](media/document-body.png "Sample documentBody")
 
 You can call the APIs using C# code and then iterate over each of the returned records, access the `documentBody` attribute, and process it to get the whole transcripts.
 

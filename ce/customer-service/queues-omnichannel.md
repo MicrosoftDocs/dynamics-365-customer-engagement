@@ -1,21 +1,20 @@
 ---
-title: Work with queues in Omnichannel for Customer Service | MicrosoftDocs
-description: "See how you can create and manage queues in Omnichannel for Customer Service"
+title: Create and manage queues for unified routing | MicrosoftDocs
+description: "This topic provides information and steps to help you learn  how you can create and manage queues in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/13/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+ms.date: 07/01/2021
 ---
 
-# Work with queues in Omnichannel for Customer Service
+# Create and manage queues for unified routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
-In Omnichannel for Customer Service, queues are used for collecting and distributing workload among agents. Workload includes conversations, such as chat or SMS. Agents are added as members to the queues and the workload is distributed among these agents.
+In Omnichannel for Customer Service, queues are used for collecting and distributing work load among agents. Work load includes conversations, such as chat or SMS. Agents are added as members to the queues and the work load is distributed among these agents.
 
 ## How work items are routed to queues
 
@@ -46,7 +45,7 @@ In this section, we cover information on how to create a queue and set operating
     3. Select **Create**. The queue that you created is displayed.
      
        > [!div class=mx-imgBorder]
-       > ![Queue in Omnichannel admin center](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
+       > ![Queue in Omnichannel admin center.](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
 
 2. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, then select **Add**. The users are added to the queue.
 3. In **Assignment method**, do one of the following:
@@ -64,6 +63,24 @@ You can manage the queues on the **Queues** page.
 - Select a queue to edit the users, assignment methods, or operating hours record.
 
 - Select a queue on the **Queues** page, select **Copy** on the command menu, and then select **Copy** in the *<queue_name>* dialog box. The queue is copied and inherits the settings of the queue you copied from, including its name, prefixed with **Copy of**.
+
+### Default queues in Omnichannel for Customer Service
+
+Out of the box, the following default queues are available in Omnichannel for Customer Service:
+
+- **Default entity queue**: The queue that is available for routing entity records.
+- **Default messaging queue**: The queue that is available for routing all messaging conversations pertaining to the live chat, SMS, and social channels.
+
+Work is routed to the default queues that act as a safety net in the following scenarios:
+
+- Work item encounters an error during classification
+- Work item encounters an error when running a route to queue rule
+- Work item does not match any route to queue rules
+
+ > [NOTE]
+ > When you configure route to queues for work classification, we recommend that you don't select the default queues.
+
+The default queues can't be edited or deleted. All Omnichannel for Customer Service users are members of the default queues. Therefore, the membership of these default queues also can't be changed.
 
 ### See also
 

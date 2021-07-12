@@ -1,8 +1,7 @@
 ---
-title: "Create or edit invoices (Dynamics 365 Sales) | MicrosoftDocs"
-description: "An invoice is an order that has been billed to the customer."
+title: "Create or edit invoices - Sales Enterprise | MicrosoftDocs"
+description: "An invoice is an order that has been billed to the customer. You can either convert an order into an invoice or create an invoice separately."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -27,7 +26,7 @@ Typically, you convert an order into an invoice; however, you can also create an
 <a name="bkmk1"></a>   
 ## Create an invoice from an order  
 
-1. In the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
+1. In the Sales Hub app, select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
   
 2. Select the order you want to create an invoice from.  
   
@@ -45,7 +44,7 @@ Typically, you convert an order into an invoice; however, you can also create an
   
 ## Create an invoice  
   
-1. In the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Invoices**. 
+1. In the Sales Hub app, select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Invoices**. 
   
 2. Select **New**.  
 

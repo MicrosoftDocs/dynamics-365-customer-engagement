@@ -1,17 +1,19 @@
 ---
 title: "Create queues in Omnichannel Administration | MicrosoftDocs"
 description: "See how you can create and manage queues in Omnichannel Administration"
+ms.date: 05/24/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/24/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Create queues in the Omnichannel Administration app
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 ## Introduction
 
@@ -57,7 +59,7 @@ Perform the following steps to create a queue in Omnichannel for Customer Servic
 4. Select **Save**. The **Users (Agents)** section is displayed.
 
    > [!div class=mx-imgBorder]
-   > ![Omnichannel queue](media/oc-create-queue.png "Omnichannel queue")
+   > ![Omnichannel queue.](media/oc-create-queue.png "Omnichannel queue")
 
 5. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
 6. On the **Lookup Records** flyout menu, select the agents to add, and then select **Add**.

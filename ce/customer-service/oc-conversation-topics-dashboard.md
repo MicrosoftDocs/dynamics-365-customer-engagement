@@ -1,12 +1,11 @@
 ---
 title: Omnichannel Conversation Topics Dashboard | Microsoft Docs
 description: Learn about the Conversation topics dashboard in Omnichannel historical analytics to better understand agent performance in your organization.
+ms.date: 04/09/2021
+ms.topic: article
 author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Conversation Topics dashboard
@@ -14,7 +13,7 @@ ms.service: dynamics-365-customerservice
 The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your conversations to help you better understand how different topic areas are impacting your organization’s support performance. 
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel Conversation Topics dashboard](media/oc-topics.png "Omnichannel Conversation Topics dashboard")
+> ![Omnichannel Conversation Topics dashboard.](media/oc-topics.png "Omnichannel Conversation Topics dashboard")
 
 You can view the Topics dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Analytics and insights**. On the page that appears, select the **Topics** tab.
 
@@ -54,7 +53,7 @@ The Topics drill-down view provides supervisors with a holistic look into indivi
 To access the drill-down, select any metric value for the topic you're interested in, and then select **Details**.
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel Conversation topic drill down view](media/oc-conversation-topics-drill-down.png "Omnichannel Conversation topic drill down view")
+> ![Omnichannel Conversation topic drill down view.](media/oc-conversation-topics-drill-down.png "Omnichannel Conversation topic drill down view")
 
 ## Topic automation to Power Virtual Agents
 

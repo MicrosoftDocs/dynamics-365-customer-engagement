@@ -1,19 +1,20 @@
 ---
 title: "Modify case resolution dialog in Customer Service Hub | Microsoft Docs"
 description: "Understand cases in Customer Service Hub for Dynamics 365 Customer Service."
+ms.date: 04/07/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/07/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Modify case resolution dialog box
 
-Updates to the case resolution main form dialog box provide customers with additional functionality to support case resolution entities and edit the dialog box. This new functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code.
+Updates to the case resolution main form dialog box provide customers with additional functionality to support case resolution entities and edit the dialog box. This functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code.
 
-The new main form dialog experience is similar to the old experience, but behind the scenes, this is a form that customers can quickly edit. Customers can go to the form designer and edit and modify fields according to their business needs.
+Customers can go to the form designer and edit and modify fields according to their business needs.
+
+The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
 
 Use the following steps to get started:
 
@@ -31,10 +32,10 @@ The first step is to set your security permission. This is a critical requiremen
 Permissions must be set per the following example. Otherwise, you will not see the modified Case Resolution dialog box, but the box case resolution instead.
 
 > [!div class=mx-imgBorder]
-> ![Security Role: Customer Service Representative](media/csr-setting-case-resolution.png "Security Role: Customer Service Representative")
+> ![Security Role: Customer Service Representative.](media/csr-setting-case-resolution.png "Security Role: Customer Service Representative")
 
 > [!div class=mx-imgBorder]
-> ![Security Role: Customer Service Representative (CSR) Manager](media/csr-manager-setting-case-resolution.png "Security Role: Customer Service Representative (CSR) Manager")
+> ![Security Role: Customer Service Representative (CSR) Manager.](media/csr-manager-setting-case-resolution.png "Security Role: Customer Service Representative (CSR) Manager")
 
 > [!IMPORTANT]
 > If you've created your own security roles, you'll need to update your roles before you can use the modified Case Resolution dialog.
@@ -52,7 +53,7 @@ Perform the following steps to enable customizable dialog:
 **Step 4:** Select **Save**. 
 
   > [!div class=mx-imgBorder]
-  > ![Enable customizable dialog](media/case-resolution-entity.png "Enable customizable dialog")
+  > ![Enable customizable dialog.](media/case-resolution-entity.png "Enable customizable dialog")
 
 > [!NOTE]
 > The default setting is **Standard dialog**. You must select the **Customizable dialog** option, otherwise changes made to the form will be saved, but will not be displayed at runtime. 
@@ -78,19 +79,19 @@ To go to the **Customization** page:
 **Step 1:** On the navigation bar, select the **Settings** icon.
 
    > [!div class=mx-imgBorder]
-   > ![Status Values - select Settings](media/status-values-step-1.PNG "Status Values - select Settings")
+   > ![Status Values - select Settings.](media/status-values-step-1.PNG "Status Values - select Settings")
 
 
 **Step 2:** In the Power Platform admin center **Settings** page, select **All legacy settings**.
     
 
    > [!div class=mx-imgBorder]
-   > ![Status Values - select All legacy settings](media/status-values-step-2.PNG "Status Values - select All legacy settings")
+   > ![Status Values - select All legacy settings.](media/status-values-step-2.PNG "Status Values - select All legacy settings")
 
 **Step 3:** Select **Customize the System**.
     
    > [!div class=mx-imgBorder]
-   > ![Status Values - Customize the System](media/status-values-step-3.PNG "Status Values - Customize the System")
+   > ![Status Values - Customize the System.](media/status-values-step-3.PNG "Status Values - Customize the System")
 
 ### Case entity
 
@@ -103,36 +104,36 @@ From the **Customization** page, use the following steps to set the Case entity 
 **Step 2:** In the solution explorer, expand **Entities**, and then expand **Case**.
 
   > [!div class=mx-imgBorder]
-  > ![Expand Entities and then expand Case](media/case_resolution_1a.png "Expand Entities and then expand Case")
+  > ![Expand Entities and then expand Case.](media/case_resolution_1a.png "Expand Entities and then expand Case")
 
 **Step 3:** Select **Fields**.
 
   > [!div class=mx-imgBorder]
-  > ![Select Fields](media/case_resolution_2.png "Select Fields")
+  > ![Select Fields.](media/case_resolution_2.png "Select Fields")
 
 **Step 4:** Select the field you want to update. For this example, select **Status Reason**.
 
   > [!div class=mx-imgBorder]
-  > ![Select the field to update](media/case_resolution_3.png "Select the field to update")
+  > ![Select the field to update.](media/case_resolution_3.png "Select the field to update")
 
   After you open the field, the **Status Reason** in the case window will be displayed.
 
 **Step 5:** In the **Status** drop-down list, select a status. For this example, select **Resolved**. 
 
   > [!div class=mx-imgBorder]
-  > ![Select Resolved](media/case_resolution_4.png "Select Resolved")
+  > ![Select Resolved.](media/case_resolution_4.png "Select Resolved")
 
 **Step 6:** Select **Add**.
 
   > [!div class=mx-imgBorder]
-  > ![Select Add](media/case_resolution_5.png "Select Add")
+  > ![Select Add.](media/case_resolution_5.png "Select Add")
 
 When you select **Add**, the **Add List Value** dialog box will appear. 
 
 **Step 7:**  In the **Label** field, enter **Duplicate**. 
 
   > [!div class=mx-imgBorder]
-  > ![Enter Duplicate](media/case_resolution_6.png "Enter Duplicate")
+  > ![Enter Duplicate.](media/case_resolution_6.png "Enter Duplicate")
 
 You've successfully added a duplicate status to the status code field.  
 
@@ -147,7 +148,7 @@ Now that you've added the duplicate status to the Case entity, you need to add i
 **Step 3:** Select **Resolution Type**.
 
   > [!div class=mx-imgBorder]
-  > ![Open Resolution Type Code field of Case Resolution entity](media/enable-customizable-dialog-1.png "Open Resolution Type Code field of Case Resolution entity")
+  > ![Open Resolution Type Code field of Case Resolution entity.](media/enable-customizable-dialog-1.png "Open Resolution Type Code field of Case Resolution entity")
   
 **Step 4:** Under the **Options** section, select the **Plus** icon. This will enable the **Label** and **Value** fields to be populated.
 
@@ -158,7 +159,7 @@ Now that you've added the duplicate status to the Case entity, you need to add i
 **Step 7:** Select **Save**.
 
   > [!div class=mx-imgBorder]
-  > ![Add values to Resolution Type field](media/enable-customizable-dialog-2.png "Add values to Resolution Type field")
+  > ![Add values to Resolution Type field.](media/enable-customizable-dialog-2.png "Add values to Resolution Type field")
 
 Now, the Case Resolution entity will appear in the dialog field as an option that you can select. 
 
@@ -173,12 +174,12 @@ The following section describes how to remove the **Billable Time** field in the
 **Step 1:** In the solution explorer, expand the **Case Resolution** entity, and then select **Forms**.  
 
   > [!div class=mx-imgBorder]
-  > ![Select Forms](media/case_resolution_8.png "Select Forms")
+  > ![Select Forms.](media/case_resolution_8.png "Select Forms")
 
 **Step 2:** Open the form you want to edit. In this example, select the **Information** form.
 
   > [!div class=mx-imgBorder]
-  > ![Select the name of the form you want to edit](media/case_resolution_9.png "Select the name of the form you want to edit")
+  > ![Select the name of the form you want to edit.](media/case_resolution_9.png "Select the name of the form you want to edit")
 
 This will open the form in the form designer.
 
@@ -187,26 +188,26 @@ This will open the form in the form designer.
 **Step 3b:** On the command bar, select **Remove**. The **Billable Time** field is removed.
 
   > [!div class=mx-imgBorder]
-  > ![Billable Time field](media/case_resolution_10.png "Billable Time field")
+  > ![Billable Time field.](media/case_resolution_10.png "Billable Time field")
 
 **Step 4a:** Select **Save**.
 
 **Step 4b:** Select **Publish**.
 
   > [!div class=mx-imgBorder]
-  > ![Save and publish](media/case_resolution_13a.PNG "Save and publish")
+  > ![Save and publish.](media/case_resolution_13a.PNG "Save and publish")
 
 Now, when the customer service reps try to resolve a case, the case resolution dialog box will not display the field you've removed.
 
 **Step 5:** In the **Resolution Type** drop-down list, select **Duplicate**.
 
   > [!div class=mx-imgBorder]
-  > ![Resolution Type field on the Case Resolution dialog box](media/case_resolution_14a.PNG "Resolution Type field on the Case Resolution dialog box")
+  > ![Resolution Type field on the Case Resolution dialog box.](media/case_resolution_14a.PNG "Resolution Type field on the Case Resolution dialog box")
 
 You will know if a case has been successfully resolved per the status bar at the top of the form.
 
   > [!div class=mx-imgBorder]
-  > ![Status bar](media/case_resolution_15.png "Status bar")
+  > ![Status bar.](media/case_resolution_15.png "Status bar")
 
 ### See also
 

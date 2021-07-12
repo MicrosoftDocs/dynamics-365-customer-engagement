@@ -1,12 +1,11 @@
 ---
 title: "Connected Customer Service for Azure IoT Central - Overview | MicrosoftDocs"
 description: "Overview of Connected Customer Service for Azure IoT Central."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 
@@ -17,7 +16,7 @@ Connected Customer Service for Azure IoT Central provides a direct integration o
 Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Customer Service. Also, based on service activities in Connected Customer Service, information can be sent back to Azure IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram representing the relationship between Azure IoT Central, Power Automate, and Connected Customer Service](media/cs-iot-overview.png)
+> ![Diagram representing the relationship between Azure IoT Central, Power Automate, and Connected Customer Service.](media/cs-iot-overview.png)
  
 The below end-to-end integration processes can be easily implemented based on a pure configuration experience:
 

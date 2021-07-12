@@ -38,7 +38,7 @@ Connected Field Service is included with Dynamics 365 Field Service. Creating a 
 - Commands
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of IoT alerts in the asset menu in the sidebar](./media/cfs-navigation.png)
+> ![Screenshot of IoT alerts in the asset menu in the sidebar.](./media/cfs-navigation.png)
 
 Verify you have the Connected Field Service entities in your environment.
 
@@ -47,7 +47,7 @@ Verify you have the Connected Field Service entities in your environment.
 Next, deploy and connect Azure IoTHub to your Field Service environment by going to [https://cfsdeployment.crm.dynamics.com/](https://cfsdeployment.crm.dynamics.com/) and following the instructions.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cfs-deployment-app-screen-1.png)
+> ![Screenshot of the IoT deployment app.](./media/cfs-deployment-app-screen-1.png)
 
 
 > [!Note]

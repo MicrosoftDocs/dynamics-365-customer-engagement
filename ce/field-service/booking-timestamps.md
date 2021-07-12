@@ -1,11 +1,9 @@
 ---
 title: "Booking timestamps in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about booking timestamps in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 02/03/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

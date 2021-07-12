@@ -30,7 +30,7 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 
 
    > [!div class="mx-imgBorder"]
-   >![Set regaring lookup](media/set-regarding-lookup.png "Set regarding lookup")
+   >![Set regaring lookup.](media/set-regarding-lookup.png "Set regarding lookup")
 
 
 ## Enable activities for a table
@@ -41,7 +41,7 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 2. On the left nav, select **Data** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
-   >![Go to Tables in maker portal](media/maker-data-tables.png "Go to Tables in maker portal")
+   >![Go to Tables in maker portal.](media/maker-data-tables.png "Go to Tables in maker portal")
    
   
 3. Select a table.
@@ -49,12 +49,12 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 4. On the command bar, select **Settings**. 
 
    > [!div class="mx-imgBorder"]
-   >![Select settings](media/maker-row-settings.png "Select setting")
+   >![Select settings.](media/maker-row-settings.png "Select setting")
 
 5. Expand **More settings** > **Collaboration**, and select the checkbox for **Enable for activities**.
 6. 
    > [!div class="mx-imgBorder"]
-   >![Communication and collaboration activity enabled](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
+   >![Communication and collaboration activity enabled.](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
    
   > [!IMPORTANT]
   > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
@@ -70,12 +70,12 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 3. From the list of apps select **Dynamics 365 App for Outlook** and then select **Edit**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select Dynamics 365 App for Outlook and then select edit](media/edit-apps-outlook.png)
+   > ![Select Dynamics 365 App for Outlook and then select edit.](media/edit-apps-outlook.png)
 
 4. In the app designer, choose table and browse to find your custom table.
 
    > [!div class="mx-imgBorder"]
-   > ![Select and add the custom table](media/app-designer-add-table.png)
+   > ![Select and add the custom table.](media/app-designer-add-table.png)
 
 5. Select **Save** and then **Publish** the app.
 

@@ -100,7 +100,7 @@ Associated knowledge articles will be added to the work order in **Linked Articl
 > ![Screenshot of a Field Service work order, showing the linked articles.](./media/knowledge-article-associate-work-order-linked.jpg)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the opened related knowledge article in the Field Service work order](./media/knowledge-article-associate-work-order-read.jpg)
+> ![Screenshot of the opened related knowledge article in the Field Service work order.](./media/knowledge-article-associate-work-order-read.jpg)
 
 You can also link specific knowledge articles that are *not* associated to incidents, assets, or products. From the **Linked Articles** section, select **+New Linked Article**.
 

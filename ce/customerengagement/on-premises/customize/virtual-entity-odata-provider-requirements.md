@@ -1,10 +1,10 @@
 ---
-title: "Use the virtual entity OData v4 data provider | MicrosoftDocs"
+title: "Use the virtual entity OData v4 data provider with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to use the Virtual entity OData v4 data provider"
 ms.custom: 
 ms.date: 01/14/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -96,7 +96,7 @@ The following table lists the OData Entity Data Model (EDM) data type mappings w
 
    - **Request Parameters**. Optionally, you can add custom header or query string parameters used to connect to the OData web service, such as authentication parameters to the external service. Select **Query String** to toggle between header and query string parameter and value. Up to 10 header or query strings can be added.  
 
-   ![Virtual entity data source record](../customize/media/virtual-entity-data-source.png "Virtual entity data source record") 
+   ![Virtual entity data source record.](../customize/media/virtual-entity-data-source.png "Virtual entity data source record") 
 
 
 ### See also  

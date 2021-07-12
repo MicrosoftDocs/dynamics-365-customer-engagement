@@ -1,10 +1,10 @@
 ---
-title: "Define rollup fields | MicrosoftDocs"
+title: "Define rollup fields with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to define rollup fields"
 ms.custom: 
 ms.date: 11/28/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -80,7 +80,7 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
   
 - Online recalculation option. If you hover over the rollup field on the form, you can see the time of the last rollup and you can refresh the rollup value by choosing the Refresh icon next to the field, as shown below:  
   
-  ![Rollup field on the account form in Dynamics 365 for Customer Engagement](../customize/media/rollup-field-on-account-form.png "Rollup field on the account form in Dynamics 365 for Customer Engagement")  
+  ![Rollup field on the account form in Dynamics 365 for Customer Engagement.](../customize/media/rollup-field-on-account-form.png "Rollup field on the account form in Dynamics 365 for Customer Engagement")  
   
    There are a few considerations you should keep in mind when using the online recalculation option (manual refresh on the form):  
   
@@ -107,40 +107,40 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
 ### Aggregate data for a record from related records  
  In this example, a hierarchy is not used. The total estimated revenue is calculated for an account, from the related open opportunities.  
   
- ![Aggregate the estimated revenue for a Dynamics 365 for Customer Engagement account](../customize/media/rollup-field-no-hierarchy.png "Aggregate the estimated revenue for a Dynamics 365 for Customer Engagement account")  
+ ![Aggregate the estimated revenue for a Dynamics 365 for Customer Engagement account.](../customize/media/rollup-field-no-hierarchy.png "Aggregate the estimated revenue for a Dynamics 365 for Customer Engagement account")  
   
 ### Aggregate data for a record from the child records, over the hierarchy  
  In this example, we calculate the total estimated revenue of an opportunity including the child opportunities, over the hierarchy.  
   
- ![Aggregate estimated revenue, opportunity hierarchy](../customize/media/rollup-field-hierarchy-self.png "Aggregate estimated revenue, opportunity hierarchy")  
+ ![Aggregate estimated revenue, opportunity hierarchy.](../customize/media/rollup-field-hierarchy-self.png "Aggregate estimated revenue, opportunity hierarchy")  
   
 ### Aggregate data for a record from the related records, over the hierarchy  
  In this example, we calculate the total estimated revenue of open opportunities across all accounts, over the hierarchy.  
   
- ![Aggregate estimated revenue over account hierarchy](../customize/media/rollup-field-hierarchy.png "Aggregate estimated revenue over account hierarchy")  
+ ![Aggregate estimated revenue over account hierarchy.](../customize/media/rollup-field-hierarchy.png "Aggregate estimated revenue over account hierarchy")  
   
 ### Aggregate data for a record from all related activities  
  In this example, we calculate the total time spent and billed from all activities related to an account. This may include time spent on the phone, at appointments, or on  custom activities.  
   
  In earlier releases, you could define a rollup field for an individual activity, such as a phone call, fax, or appointment. But, to achieve the result of the example shown below, you had to total the data by using the calculated fields. Now, you can do it all in one step by defining one rollup field for the Activity entity.  
   
- ![Rollup all activities for an account](../customize/media/rollup-enhancements-activities.png "Rollup all activities for an account")  
+ ![Rollup all activities for an account.](../customize/media/rollup-enhancements-activities.png "Rollup all activities for an account")  
   
 ### Aggregate data for a record from all related activities and activities indirectly related via the Activity Party entity  
  In this example, we count the total number of emails sent to an account, where the account is listed on the email’s “To Recipient” line or “Cc Recipient line. This is done by specifying the **Participation Type** in **FILTERS** for the Activity Party entity in the rollup field definition. If you don’t use filtering, then all available participation types for an activity are used in the calculation. 
  For more information about the Activity Party entity and participation types available for a particular activity, see [ActivityParty entity](../developer/activityparty-entity.md).
 
   
- ![Rollup related activities and activity party](../customize/media/rollup-enhancements-indirect-activities.png "Rollup related activities and activity party")  
+ ![Rollup related activities and activity party.](../customize/media/rollup-enhancements-indirect-activities.png "Rollup related activities and activity party")  
   
 ### Aggregate data for a record from related records using the AVG operator  
  In this example, we calculate an average estimated revenue from all opportunities related to an account.  
   
- ![Average estimated revenue in Dynamics 365 for Customer Engagement](../customize/media/rollup-enhancements-average.PNG "Average estimated revenue in Dynamics 365 for Customer Engagement")  
+ ![Average estimated revenue in Dynamics 365 for Customer Engagement.](../customize/media/rollup-enhancements-average.PNG "Average estimated revenue in Dynamics 365 for Customer Engagement")  
   
  The following example shows how to calculate an average estimated revenue from related opportunities over a hierarchy of accounts. An average estimated revenue can be seen at each level in the hierarchy.  
   
- ![Average estimated revenue](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue")  
+ ![Average estimated revenue.](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue")  
   
 <a name="BKMK_considerations"></a>   
 ## Rollup field considerations  

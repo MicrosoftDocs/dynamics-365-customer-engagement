@@ -2,7 +2,7 @@
 title: "Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/12/2019"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

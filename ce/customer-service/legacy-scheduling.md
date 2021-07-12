@@ -1,12 +1,11 @@
 ---
 title: "Customer Service Scheduling - Legacy | MicrosoftDocs"
 description: "Overview of legacy Service Scheduling features."
+ms.date: 05/08/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 05/08/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Service Scheduling features for legacy users

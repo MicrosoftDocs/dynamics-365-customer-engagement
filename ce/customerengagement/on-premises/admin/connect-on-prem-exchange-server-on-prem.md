@@ -1,9 +1,10 @@
 ﻿---
 title: "Connect Dynamics 365 (on-premises) to Exchange Server (on-premises) | MicrosoftDocs"
+description: "Connect Dynamics 365 (on-premises) with Microsoft Exchange Server (on-premises)."
 ms.custom: ""
 ms.date: 11/28/2018
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.prod: d365ce-op
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -168,7 +169,7 @@ Set server-side synchronization to be the default configuration method.
     
     If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.
     
-    ![System Settings for server-side synchronization](media/system-settings-synch-method.png "System Settings for server-side synchronization")
+    ![System Settings for server-side synchronization.](media/system-settings-synch-method.png "System Settings for server-side synchronization")
 
 3.  Click **OK**.
 
@@ -188,7 +189,7 @@ Select **one** of the following methods:
 
 3.  Select all the mailboxes that you want to associate with the Exchange Server profile you created, click **Apply Default Email Settings**, verify the settings, and then click **OK**.
     
-    ![Apply default email settings](media/apply-default-email-settings.png "Apply default email settings")
+    ![Apply default email settings.](media/apply-default-email-settings.png "Apply default email settings")
     
     By default, the mailbox configuration is tested and the mailboxes are enabled when you click **OK**.
 

@@ -3,16 +3,10 @@ title: "Review leads updated by the Dynamics 365 Connector for LinkedIn Lead Gen
 description: "Learn how to see the details of the updated leads and review the aggregated lead performance."
 keywords: lead, lead gen form, sponsored content, linkedin, dashboard
 ms.date: 04/02/2018
-ms.service: dynamics-365-sales
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Sales
-ms.assetid: c372e325-991c-4178-a507-f7f4dfcc0dd5
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-ms.custom: 
-  - dyn365-LinkedIn
 search.audienceType: 
   - admin
   - customizer
@@ -20,6 +14,11 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365LinkedIn
+applies_to: 
+  - Dynamics 365 Sales
+ms.assetid: c372e325-991c-4178-a507-f7f4dfcc0dd5
+ms.custom: 
+  - dyn365-LinkedIn
 ---
 
 # Analyze leads and lead performance
@@ -31,7 +30,7 @@ When a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matches a lead reco
 To see the details of a lead record, go to **Sales** > **Leads** and select the lead record from the list. If the lead was created by the connector, the lead source is **[!include[LinkedIn](../includes/pn-linkedin.md)] Sponsored Content**. If an existing lead record was updated, the system updates the lead field values by using the information submitted by the lead on [!include[LinkedIn](../includes/pn-linkedin.md)].
 More information about creating or editing a lead: [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md).
 
-![Review and analyze leads and lead performance](media/See-details-of-lead.png "Review and analyze leads and lead performance")
+![Review and analyze leads and lead performance.](media/See-details-of-lead.png "Review and analyze leads and lead performance")
 
 1. Information about the lead from [!include[LinkedIn](../includes/pn-linkedin.md)]
 2. Source from which the lead originated and the [!include[LinkedIn](../includes/pn-linkedin.md)] campaign related to this lead
@@ -41,11 +40,11 @@ More information about creating or editing a lead: [Create or edit a lead](../sa
 
 Work with a dashboard containing charts about the source of new leads, or create new dashboards by using the charts that matter the most to get your reporting completed.</br>
 
-![Review aggregated lead performance](media/Review-aggregated-lead-performance.png "Review aggregated lead performance")
+![Review aggregated lead performance.](media/Review-aggregated-lead-performance.png "Review aggregated lead performance")
 
 When you create your own dashboard, consider adding a chart for the record type **[!include[LinkedIn](../includes/pn-linkedin.md)] Form Submissions** to see how your campaigns perform compared to each other. Or, you can create a **Leads by Source** chart for the record type **Lead**. Give it a try!
 
-![Add a component to dashboard](media/Add-component-to-dashboard.png "Add a component to the dashboard")
+![Add a component to dashboard.](media/Add-component-to-dashboard.png "Add a component to the dashboard")
 
 More information about building custom dashboards: [Create or customize dashboards](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826623(v=crm.8)) and [Manage dashboard components](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826584(v=crm.8)).
 
@@ -53,7 +52,7 @@ More information about building custom dashboards: [Create or customize dashboar
 
 To see all form submissions, go to **Sales** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the [!include[LinkedIn](../includes/pn-linkedin.md)] members when they answered the underlying [!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen form. 
 
-![Analyze LinkedIn Lead Gen Forms](media/Analyze-LinkedIn-lead-gen-forms.png "Analyze LinkedIn Lead Gen Forms")
+![Analyze LinkedIn Lead Gen Forms.](media/Analyze-LinkedIn-lead-gen-forms.png "Analyze LinkedIn Lead Gen Forms")
 
 ## Establish and grow relationships with [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator
 

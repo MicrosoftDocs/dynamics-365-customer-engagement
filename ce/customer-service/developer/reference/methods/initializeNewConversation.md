@@ -1,12 +1,11 @@
 ---
 title: "initializeNewConversation (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
+ms.date: 10/12/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # initializeNewConversation
@@ -157,7 +156,7 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 
 - If this method is not implemented, the following error will be displayed to the agent.
 
-![initializeNewConversation error message](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
+![initializeNewConversation error message.](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
 
 ### See also
 

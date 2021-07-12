@@ -35,7 +35,7 @@ To enable the Automated scheduler and make privacy settings for it:
 1. Go to **Settings** > **Other settings** > **Feature switches**.
 
     > [!div class="mx-imgBorder"]
-    > ![ML feature switches](./media/admin-ai-settings2.png)
+    > ![ML feature switches.](./media/admin-ai-settings2.png)
 
 1. Under **Machine learning** > **Smart scheduler**, set the **Enabled** slider to **On**.
 
@@ -50,7 +50,7 @@ The level of consent required for the Automated scheduler depends on your geogra
 
 Each user who needs access to the Marketing AI features needs to be granted the **Marketing Machine Learning Feature Configuration Reader** role. To inspect and customize a user's security roles:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
 1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
@@ -61,6 +61,6 @@ Each user who needs access to the Marketing AI features needs to be granted the 
 1. Ensure that the user's [**Business Unit**](business-units.md) contains the **Marketing Machine Learning Feature Configuration Reader** role.
 
     > [!div class="mx-imgBorder"]
-    > ![Marketing Machine Learning Feature Configuration Reader role](./media/admin-ai-role.png)
+    > ![Marketing Machine Learning Feature Configuration Reader role.](./media/admin-ai-role.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

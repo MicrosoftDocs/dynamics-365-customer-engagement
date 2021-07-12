@@ -31,7 +31,7 @@ For example, you could use a **Thank you** template to save time whenever you wa
 For information on creating email templates: [Create templates for email](/power-platform/admin/create-templates-email).  
 
   > [!div class="mx-imgBorder"] 
-  > ![Example of an email template](../media/email-template-appforoutlook.png)
+  > ![Example of an email template.](../media/email-template-appforoutlook.png)
 
 You must have the appropriate permissions to add email templates.
 
@@ -40,39 +40,39 @@ You must have the appropriate permissions to add email templates.
 2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
+   > ![Open App for Outlook pane.](../media/open-pane-appforoutlook.png)  
   
-3. Select **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) and then select **Insert**.
+3. Select **More commands** ![Main more commnands button.](../media/main-more-commands-button-appforoutlook.png) and then select **Insert**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select more commands and then insert](../media/insert-appforoutlook.png)
+   > ![Select more commands and then insert.](../media/insert-appforoutlook.png)
 
 4. Select **Add Template**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select add template](../media/add-template-appforoutlook.png)
+   > ![Select add template.](../media/add-template-appforoutlook.png)
    
 5. Select the record type. The default is the set regarding record and then select **Select**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select record type](../media/email-template-1-appforoutlook.png)
+   > ![Select record type.](../media/email-template-1-appforoutlook.png)
    
-6. Select the search box (![Select to search](../media/select-to-search-button.png)) to look for an email template.
+6. Select the search box (![Select to search.](../media/select-to-search-button.png)) to look for an email template.
 
     > [!div class="mx-imgBorder"] 
-    > ![Select to enter data in the search box](../media/email-template-2-appforoutlook.png)
+    > ![Select to enter data in the search box.](../media/email-template-2-appforoutlook.png)
    
  7. Use the search to find a template and then select it. 
  
     > [!div class="mx-imgBorder"] 
-    > ![Select an email template that you want to use](../media/email-template-3-appforoutlook.png)
+    > ![Select an email template that you want to use.](../media/email-template-3-appforoutlook.png)
    
  8. After selecting the email template that you want to add, select **Add to Email**.  
   
     > [!div class="mx-imgBorder"] 
-    > ![Select to add the template to your email](../media/email-template-4-appforoutlook.png)
+    > ![Select to add the template to your email.](../media/email-template-4-appforoutlook.png)
    
 9. The template is added to your email.
 
    > [!div class="mx-imgBorder"] 
-   > ![Show email template added to your email](../media/email-template-5-appforoutlook.png)
+   > ![Show email template added to your email.](../media/email-template-5-appforoutlook.png)

@@ -1,14 +1,11 @@
 ---
 title: Navigate the service calendar (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Understand how to navigate the service calendar in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Navigate the service calendar (Customer Service app)
@@ -40,7 +39,7 @@ In the Service calendar, you can do the following tasks and activities:
   
 3. To find a specific resource, in the **Search** box, enter the first few letters of a name.  
   
-4. To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button ![arrow&#95;up&#95;blue](../customer-service/media/crm-ua-arrow-up-blue.gif "arrow_up_blue") to expand the preview pane. You can also double-click a record to open it.  
+4. To view the details of any resource, appointment, or service activity, select the record in the list to the left of the calendar, and then at the bottom of the calendar, under the **Zoom** scale, select the **Expand** button ![arrow&#95;up&#95;blue.](../customer-service/media/crm-ua-arrow-up-blue.gif "arrow_up_blue") to expand the preview pane. You can also double-click a record to open it.  
   
 5. The Calendar pane appears on the right side of the calendar. It can be collapsed or expanded. To change the date, select a date in the calendar. Use the arrows on either side of the month to change the month displayed.  
   

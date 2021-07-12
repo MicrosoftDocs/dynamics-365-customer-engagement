@@ -1,20 +1,19 @@
 ---
-title: "Walkthrough 4  Display a record in a session in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
+title: "Walkthrough 4: Display session records in your agent applications | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying session records in your agent applications."
+ms.date: 11/12/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/12/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough 4: Display a record in a session in your agent application
 
@@ -77,7 +76,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
    |Application is Global|Not checked **Note:**  This ensures that the hosted control is session-scoped, that is, only displayed in a session.|  
    |Display Group|MainPanel|  
   
-   ![Create a session&#45;scoped hosted control](../unified-service-desk/media/usd-create-session-scoped-hosted-control.png "Create a session-scoped hosted control")  
+   ![Create a session&#45;scoped hosted control.](../unified-service-desk/media/usd-create-session-scoped-hosted-control.png "Create a session-scoped hosted control")  
   
 6. Select **Save**.  
   
@@ -87,7 +86,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 1. On the nav bar, select the down arrow next to the **Contoso Account Session** hosted control, and select **Events**.  
   
-   ![Configure events for a hosted control](../unified-service-desk/media/usd-configure-events-hosted-control2.png "Configure events for a hosted control")  
+   ![Configure events for a hosted control.](../unified-service-desk/media/usd-configure-events-hosted-control2.png "Configure events for a hosted control")  
   
 2. On the events page, select **BrowserDocumentComplete**.  
   
@@ -95,7 +94,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 4. In the search box, select the search icon or press ENTER, and then select **New** in the lower-right corner of the search results box.  
   
-   ![Add an action call to an event](../unified-service-desk/media/usd-add-action-call-event.png "Add an action call to an event")  
+   ![Add an action call to an event.](../unified-service-desk/media/usd-add-action-call-event.png "Add an action call to an event")  
   
 5. On the **New Action Call** page, specify the following values.  
   
@@ -105,7 +104,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
    |Hosted Control|Contoso Account Search|  
    |Action|Close|  
   
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call.png "Create an action call in Unified Service Desk")  
+   ![Create an action call in Unified Service Desk.](../unified-service-desk/media/usd-create-action-call.png "Create an action call in Unified Service Desk")  
   
 6. Select **Save** to add the action call to the **BrowserDocumentComplete** event.  
   
@@ -122,7 +121,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
    |Name|Contoso Session Tab|  
    |USD Component Type|Session Tabs|  
   
-   ![Create a Session Tabs hosted control](../unified-service-desk/media/usd-create-session-tabs-hosted-control.png "Create a Session Tabs hosted control")
+   ![Create a Session Tabs hosted control.](../unified-service-desk/media/usd-create-session-tabs-hosted-control.png "Create a Session Tabs hosted control")
 
 3. Update the XML in the **Extensions XML** field. To learn more, see [Chat indicator XML](session-tabs-hosted-control.md#chat-indicator-xml).
   
@@ -157,7 +156,7 @@ This walkthrough demonstrates how to display records in a session in your agent 
    |Hide Command Bar|No|  
    |Hide Navigation Bar|Yes|  
   
-   ![Create a window navigation rule](../unified-service-desk/media/usd-create-window-navigation-rule.png "Create a window navigation rule")  
+   ![Create a window navigation rule.](../unified-service-desk/media/usd-create-window-navigation-rule.png "Create a window navigation rule")  
   
 6. Select **Save**.  
   
@@ -204,11 +203,11 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 3. Select any of the account records to display the respective account information in a session; the information is displayed under a session tab. Note that the name of the hosted control tab that contains the account record automatically displays the account name because earlier you used replacement parameters to dynamically display the current account name instead of a static value.  
   
-   ![Account record displayed in a session](../unified-service-desk/media/usd-account-record-session.png "Account record displayed in a session")  
+   ![Account record displayed in a session.](../unified-service-desk/media/usd-account-record-session.png "Account record displayed in a session")  
   
 4. If you open another account record, it will be displayed in another session in your client application. To open another account, select the down arrow next to the **Search** button, select **Account**, and then select an account name to display the account information in another session.  
   
-   ![Multiple sessions in Unified Service Desk](../unified-service-desk/media/usd-multiple-sessions.png "Multiple sessions in Unified Service Desk")  
+   ![Multiple sessions in Unified Service Desk.](../unified-service-desk/media/usd-multiple-sessions.png "Multiple sessions in Unified Service Desk")  
   
 <a name="Conclusion"></a>   
 ## Conclusion  

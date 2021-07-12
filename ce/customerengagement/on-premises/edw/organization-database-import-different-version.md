@@ -1,5 +1,7 @@
 ---
 title: "The organization database selected for import is a different version | Microsoft Docs"
+description: Environment diagnostics warning that the organization you're trying to import is a different version than the deployment.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

@@ -1,12 +1,11 @@
 ---
-title: "Display custom context | Microsoft Docs"
-description: "Read how you can send display custom context on the UI"
+title: "Display custom context | MicrosoftDocs"
+description: "Use this topic to understand how to display custom context in the Conversation summary section of conversations."
+ms.date: 08/29/2019
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/29/2019
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 # Display custom context
 
@@ -14,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 To display the context variables in the Conversation Summary Control for a conversation on the UI, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method and set its value to `true`. If the value of `isDisplayable` attribute is set to `true`, the context variables will appear as shown below.
 
-![Display context keys](media/context-variable-display.png "Display context keys")
+![Display context keys.](media/context-variable-display.png "Display context keys")
 
 For more information, see [setContextProvider method](developer/reference/methods/setContextProvider.md) and [Conversation summary](oc-customer-summary.md#conversation-summary).
 

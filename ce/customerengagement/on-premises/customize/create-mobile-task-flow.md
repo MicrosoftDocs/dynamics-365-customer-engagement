@@ -1,9 +1,10 @@
 ---
-title: "Create a mobile task flow  | MicrosoftDocs"
+title: "Create a mobile task flow with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to create a task flow
 ms.custom: 
 ms.date: 08/19/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -19,8 +20,6 @@ search.audienceType:
 
 ---
 # Create a mobile task flow
-
-
 
 Design a flow in [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] based on common tasks your users perform. For example, if they need to regularly perform a series of follow-up steps after client meetings, create a task flow. When users tap the new task in their mobile app, it will lead them through from start to finish so they don't forget an important step.  
 
@@ -57,7 +56,7 @@ Task flows can use multi-entity forms and logic, and can have form logic that ru
   
      The task flow designer opens in a new window.  
   
-   ![Task flow designer window](../customize/media/task-flow-designer-window.png "Task flow designer window")  
+   ![Task flow designer window.](../customize/media/task-flow-designer-window.png "Task flow designer window")  
   
 7. If your users will progress from one page to another in order, drag the **Page** component from the **Components** tab on the right side of the screen and drop it on the + sign in the appropriate spot. To add a name for a page, select the page, select the **Properties** tab, type a new name, and then select **Apply**.  
   

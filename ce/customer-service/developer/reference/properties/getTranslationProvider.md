@@ -1,12 +1,11 @@
 ---
 title: "getTranslationProvider (Omnichannel for Customer Service JavaScript property reference) | MicrosoftDocs"
 description: 
+ms.date: 10/05/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # getTranslationProvider
@@ -60,7 +59,7 @@ window.Microsoft.Omnichannel.TranslationFramework.getTranslationProvider = funct
 
 2. If this property is not set, the following error will be displayed to the agent.
 
-![initializeNewConversation error message](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
+![initializeNewConversation error message.](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
 
 ### See also
 

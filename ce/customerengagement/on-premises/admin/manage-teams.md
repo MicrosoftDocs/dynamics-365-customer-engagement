@@ -1,9 +1,10 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps teams | MicrosoftDocs"
+description: "Share business objects and collaborate with other people across business units."
 ms.custom: 
 ms.date: 01/10/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ author: jimholtz
 ms.assetid: 5355ef54-ce27-4383-bf21-1419c71f4cc4
 caps.latest.revision: 29
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Manage teams
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Using teams in Dynamics 365 Customer Engagement (on-premises) is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   
@@ -52,13 +55,13 @@ The type of team you choose depends on the goals, nature of the project, and eve
 Anyone who has Create, Read, Update (Write), Delete (CRUD) privileges on the Team entity, can create any of the team types.
 
 > [!div class="mx-imgBorder"] 
-> ![Privileges for creating teams](media/create-teams-security-roles.png "Privileges for creating teams")
+> ![Privileges for creating teams.](media/create-teams-security-roles.png "Privileges for creating teams")
 
 ### Add a Team administrator
 When you create a team, you need to add a Team administrator with a security role that has Read privilege to the Team entity. Go to **Settings** > **Security** > **Teams** and select a team to enter the Team administrator.
 
 > [!div class="mx-imgBorder"] 
-> ![Adding Team administrator](media/add-team-administrator.png "Adding Team administrator")
+> ![Adding Team administrator.](media/add-team-administrator.png "Adding Team administrator")
 
 ### What inherited privilege do Team administrators have?
 Team administrators have access to Team owned records. Team administrators do not need to be added to a team and do not show up as a member of the team.

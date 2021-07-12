@@ -42,13 +42,13 @@ In order to get access to Resource Scheduling Optimization, you must first have 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center on the Instances tab](./media/admin-install-fs-instances.png)
+> ![Screenshot of the Dynamics 365 admin center on the Instances tab.](./media/admin-install-fs-instances.png)
 
 4. Purchase Resource Scheduling Optimization. Go to the **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of Resource Scheduling Optimization is based on the number of resources whose schedules are optimized.
 
 ## Option 2: Request trial
 
-Microsoft employees can request Resource Scheduling Optimization trial environments for themselves or for customers and partners by filling out the [Resource Scheduling Optimization trial environment form](https://aka.ms/rsotrial). If you are a customer or partner, contact your local Microsoft representative.
+Microsoft employees can request Resource Scheduling Optimization trial environments for themselves or for customers and partners by reaching out to the scheduling team. If you are a customer or partner, contact your local Microsoft representative.
 
 ## Next steps
 

@@ -2,7 +2,6 @@
 title: "Decimal precision in currency and pricing (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how decimal precision is used in currency and pricing in Dynamics 365 Sales."
 ms.date: 06/17/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -43,7 +42,7 @@ This setting allows you to enable and set decimal precision for all supported pr
 This precision setting is applied to any currency field whose precision is set to **Pricing Decimal Precision** in the field properties. To see the field properties, go to **Settings** &gt; **Customizations** &gt; **Entity** &gt; **Fields**. Open the currency field to see the properties.
 
 > [!div class="mx-imgBorder"]
-> ![Precision set to Pricing Decimal Precision](media/set-precision-pricing-decimal-precision.png "Precision set to Pricing Decimal Precision")
+> ![Precision set to Pricing Decimal Precision.](media/set-precision-pricing-decimal-precision.png "Precision set to Pricing Decimal Precision")
 
 By default, the following fields support pricing decimal precision:
 
@@ -70,7 +69,7 @@ This option allows you to enable and set decimal precision to individual currenc
 This precision setting is applied to any currency field whose precision is set to **Currency Precision** in the field properties. To see the field properties, go to **Settings** &gt; **Customizations** &gt; **Entity** &gt; **Fields**. Open the currency field to see the properties.
 
 > [!div class="mx-imgBorder"]
-> ![Precision set to Currency Precision](media/set-precision-currency-precision.png "Precision set to Currency Precision")
+> ![Precision set to Currency Precision.](media/set-precision-currency-precision.png "Precision set to Currency Precision")
 
 All currency fields except for the ones listed under the **Pricing decimal precision** section support currency precision.
 
@@ -81,7 +80,7 @@ This setting allows you to define the precision to individual currency fields.
 To apply this precision setting to any of the currency field in the system, go to **Settings** &gt; **Customizations** &gt; **Entity** &gt; **Fields**. Then, open a currency field and define the precision.
 
 > [!div class="mx-imgBorder"]
-> ![Field-level precision](media/field-level-precision.png "Field-level precision")
+> ![Field-level precision.](media/field-level-precision.png "Field-level precision")
 
 > [!NOTE]
 > This setting supports values between 0 and 4.

@@ -1,12 +1,11 @@
 ---
-title: "Walkthrough 7  Configure agent scripting in your agent application | MicrosoftDocs"
-description: 
+title: "Walkthrough 7: Configure agent scripting for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for configuring agent scripting in Unified Interface apps."
+ms.date: 06/25/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/25/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - customizer
   - developer
@@ -15,7 +14,7 @@ search.app:
   - D365USD
 ---
 
-# Walkthrough 7: Configure agent scripting in your agent application
+# Walkthrough 7: Configure agent scripting in agent applications
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -348,7 +347,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 4. Select the **Related** tab, and then select **Events**.  
 
-   ![Configure events for a hosted control](../unified-service-desk/media/usd-configure-events-hosted-control.png "Configure events for a hosted control")  
+   ![Configure events for a hosted control.](../unified-service-desk/media/usd-configure-events-hosted-control.png "Configure events for a hosted control")  
 
 5. On the events page, select **PageReady**.  
 
@@ -418,21 +417,21 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 3. Select the expander to display the left pane.  
 
-   ![Choose the expander in Unified Service Desk](../unified-service-desk/media/usd-choose-expander.png "Choose the expander in Unified Service Desk")  
+   ![Choose the expander in Unified Service Desk.](../unified-service-desk/media/usd-choose-expander.png "Choose the expander in Unified Service Desk")  
 
 4. Select on any of the account records to display the respective account information in a session. In the left pane, the **Contoso: Welcome to Account Session** agent script appears.  
 
-   ![Agent script in Unified Service Desk](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
+   ![Agent script in Unified Service Desk.](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
 
 5. In the agent script:  
 
    1.  Select **New case** to open a new case form with pre-populated values (in the red box) from the current account record.  
 
-   ![New case form using the agent script](../unified-service-desk/media/usd-new-case-form-agent-script.png "New case form using the agent script")  
+   ![New case form using the agent script.](../unified-service-desk/media/usd-new-case-form-agent-script.png "New case form using the agent script")  
 
    2.  Select **Display existing cases** to display the associated cases for the current account record.  
 
-   ![Display existing cases for an account](../unified-service-desk/media/usd-show-cases-account.png "Display existing cases for an account")  
+   ![Display existing cases for an account.](../unified-service-desk/media/usd-show-cases-account.png "Display existing cases for an account")  
 
    3.  Select **Close session** to close the current session.  
 

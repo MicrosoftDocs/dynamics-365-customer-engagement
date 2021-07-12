@@ -1,13 +1,12 @@
 ---
-title: "Enable sentiment analysis to view in Omnichannel Ongoing Conversation dashboard | MicrosoftDocs"
+title: "Enable sentiment analysis | MicrosoftDocs"
 description: "How to enable sentiment analysis for Omnichannel Ongoing Conversation dashboard in Omnichannel for Customer Service."
-author: lalexms
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: laalexan
-manager: shujoshi
 ms.date: 03/08/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Analyze real-time customer sentiment
@@ -34,10 +33,9 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Enable sentiment analysis](media/monitor-real-time.png "Enable sentiment analysis")
+    > ![Enable sentiment analysis.](media/monitor-real-time.png "Enable sentiment analysis")
 
 After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
-
 
 ## Agent settings
 
@@ -61,7 +59,7 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     - Very negative
 
       > [!div class=mx-imgBorder]
-      > ![Show alerts when a customer's sentiment decreases to or below](media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
+      > ![Show alerts when a customer's sentiment decreases to or below.](media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
 
 To turn off agent alerts, select **Don't show alerts**.
 
@@ -90,7 +88,7 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     - Very negative
 
     > [!div class=mx-imgBorder]
-    > ![Send notifications when a customer's sentiment decreases to or below](media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
+    > ![Send notifications when a customer's sentiment decreases to or below.](media/monitor-real-time-supervisor.png "Send notifications when a customer's sentiment decreases to or below")
 
 To turn off supervisor notifications, select **Don't send notifications**.
 

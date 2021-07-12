@@ -1,13 +1,10 @@
 ---
 title: "Ongoing Conversations dashboard for supervisor | MicrosoftDocs"
-description: "Learn about Ongoing Conversations dashboard for supervisor"
+description: "This topic provides information about the Ongoing Conversations dashboard for supervisors to view information about the conversations handled by agents."
 author: neeranelli
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # View and understand Omnichannel Ongoing Conversations dashboard
@@ -44,7 +41,7 @@ The **Omnichannel Ongoing Conversations** dashboard is available in:
     The **Omnichannel Ongoing Conversations** dashboard displays the list of conversations that you and agents are handling.
 
     > [!div class=mx-imgBorder]
-    > ![Ongoing Conversations dashboard in Unified service desk](media/supervisor-usd-ongoing-conversations-dashboard.png "Ongoing Conversations dashboard in Unified service desk")
+    > ![Ongoing Conversations dashboard in Unified service desk.](media/supervisor-usd-ongoing-conversations-dashboard.png "Ongoing Conversations dashboard in Unified service desk")
   
 ### Omnichannel for Customer Service
 
@@ -55,7 +52,7 @@ The **Omnichannel Ongoing Conversations** dashboard is available in:
     The Omnichannel Ongoing Conversations dashboard displays the list of conversations that you and agents are handling. 
 
     > [!div class=mx-imgBorder]
-    > ![Omnichannel Ongoing Conversations dashboard](media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard")
+    > ![Omnichannel Ongoing Conversations dashboard.](media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard")
 
 ### See also
 

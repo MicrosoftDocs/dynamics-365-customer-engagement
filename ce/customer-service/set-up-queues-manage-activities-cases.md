@@ -1,14 +1,11 @@
 ---
 title: Create and manage basic queues | MicrosoftDocs
 description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service.
+ms.date: 05/18/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/18/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create and manage basic queues
@@ -95,7 +94,7 @@ Follow the steps given below to create or edit a queue:
 
 6. Select **Save**.
 
-   ![queues in Customer Service hub](media/queues-csh.png)
+   ![queues in Customer Service hub.](media/queues-csh.png)
 
 ## Create a queue in Customer Service app
 

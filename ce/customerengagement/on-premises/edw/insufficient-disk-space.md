@@ -1,5 +1,7 @@
 ---
 title: "There is insufficient disk space to install Microsoft Dynamics 365 for Customer Engagement | Microsoft Docs"
+description: Environment diagnostics warning that there's insufficient disk space.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

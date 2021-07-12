@@ -2,7 +2,7 @@
 title: "Install Microsoft Dynamics 365 Server Front End and Back End server roles | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Install Dynamics 365 Server Front End Server and Back End Server roles
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 The following procedure installs [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] and [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles on two separate servers that do not already have [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]  installed. We recommend this configuration instead of a single Full Server deployment because it helps improve security and performance by isolating specific [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] services on each computer. As part of this procedure, the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] are installed on the server where the [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] roles are installed, and the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] are installed on the server where the [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] roles are installed. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Server roles](microsoft-dynamics-365-server-roles.md)  -->
   
@@ -59,7 +64,7 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 10. On the **Specify Server roles** page, select all the Back End Server roles. Leave the rest blank.  
   
-     ![Back end server role](media/crm-itpro-ig-backend-roles.jpg)
+     ![Back end server role.](media/crm-itpro-ig-backend-roles.jpg)
   
 11. On the **Specify Deployment Options** page, in the **Enter or select the name of the computer that is running SQL Server to use with the deployment** box, type or select the instance of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database (MSCRM_CONFIG).  
   
@@ -123,7 +128,7 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 8.  On the **Specify Server roles** page, select all the [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] and Deployment Administration Server roles. Leave the rest blank.  
   
-     ![Front end role](media/crm-itpro-ig-frontend-roles.jpg)  
+     ![Front end role.](media/crm-itpro-ig-frontend-roles.jpg)  
   
 9. On the **Specify Deployment Options** page, select **Connect to, and if necessary, upgrade an existing deployment**, and then in the **Enter or select the name of the computer that is running SQL Server to use with the deployment** box, type or select the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that you entered previously, and then select **Next**.  
   
@@ -181,6 +186,6 @@ On the computer named *CRMbackend*, complete the following procedure.
  [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
  [Install Microsoft Dynamics 365 Customer Engagement (on-premises) Full Server role on a server without Microsoft Dynamics 365 Customer Engagement (on-premises) installed](install-full-server-role-on-server.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

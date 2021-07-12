@@ -1,14 +1,11 @@
 ---
 title: Automatically create a case from an email in web client (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create a case from an email in Dynamics 365 Customer Service
+ms.date: 10/07/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/07/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Automatically create a case from an email in web client
@@ -110,11 +109,11 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
        Here’s how:  
 
-       ![Automatic case creation conditions](../customer-service/media/crm-ua-case-creation-condition.png "Automatic case creation conditions")  
+       ![Automatic case creation conditions.](../customer-service/media/crm-ua-case-creation-condition.png "Automatic case creation conditions")  
 
    3. In the **Case Properties** section, set the properties for the case. The following example shows how to set the priority of all the automatically created cases to **High**:  
 
-      ![Properties settings for a new case](../customer-service/media/crm-ua-case-creation-properties.png "Properties settings for a new case")  
+      ![Properties settings for a new case.](../customer-service/media/crm-ua-case-creation-properties.png "Properties settings for a new case")  
 
       Once a case is created, the incoming email is removed from the queue.  
 

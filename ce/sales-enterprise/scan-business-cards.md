@@ -2,7 +2,6 @@
 title: "Scan business cards (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the business card scanner in Dynamics 365 Sales to quickly scan business cards of the prospective customers you've met with."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -27,7 +26,7 @@ To scan a business card:
 2.  On the Quick Create form of a **Contact** or **Lead** form, select **Scan business card**.
 
     > [!div class="mx-imgBorder"]
-    > ![Option to scan business card in the Contact Quick Create form](media/scan-business-card-option-in-contact-quick-create-form.png "Option to scan business card in the Contact Quick Create form")
+    > ![Option to scan business card in the Contact Quick Create form.](media/scan-business-card-option-in-contact-quick-create-form.png "Option to scan business card in the Contact Quick Create form")
 
 3.  If you’re using the Dynamics 365 Sales app on a desktop, browse to the folder where the business card picture is stored, select the business card picture, and then select **Insert**.
 
@@ -38,7 +37,7 @@ To scan a business card:
     The details like first name, last name, account name, job title, and email will be automatically populated from the business card.
 
     > [!div class="mx-imgBorder"]
-    > ![Contact form showing scanned card with automatically populated fields](media/scanned-card-with-populated-fields.jpg "Contact form showing scanned card with automatically populated fields")
+    > ![Contact form showing scanned card with automatically populated fields.](media/scanned-card-with-populated-fields.jpg "Contact form showing scanned card with automatically populated fields")
 
 4. Select **Save**.
 
@@ -48,7 +47,7 @@ To scan a business card:
     > - When you save the **Contact** or **Lead** record, the business card is also associated and stored in the records, so you can refer to it later. If your system administrator has set the **Always retain business card images after scanning option** option to **No**, the business card image won't be saved. 
 
     > [!div class="mx-imgBorder"]
-    > ![Saved business card on the Business card tab of a Contact form](media/saved-business-card-on-business-card-tab.jpg "Saved business card on the Business card tab of a Contact form")
+    > ![Saved business card on the Business card tab of a Contact form.](media/saved-business-card-on-business-card-tab.jpg "Saved business card on the Business card tab of a Contact form")
 
 ### See also
 

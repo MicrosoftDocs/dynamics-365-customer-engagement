@@ -1,12 +1,11 @@
 ---
 title: "Productivity pane in the Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn what is and how to use productivity pane in Omnichannel for Customer Service to display agent scripts and smart-assist cards for your agents."
+ms.date: 01/31/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/31/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Use productivity pane to guide agents
@@ -21,17 +20,17 @@ Also, the modes are preserved in different sessions. For example, in session A, 
 
 Use the arrow to set the mode of the productivity pane.
 > [!div class='mx-imgBorder']
-> ![Productivity pane](media/productivity-pane-control.PNG "Productivity pane in collapsed mode")
+> ![Productivity pane.](media/productivity-pane-control.PNG "Productivity pane in collapsed mode")
 
 **Collapsed mode**
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
+> ![Productivity pane.](media/productivity-pane-collapsed.PNG "Productivity pane in collapsed mode")
 
 **Expanded mode**
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
+> ![Productivity pane.](media/productivity-pane-expanded.PNG "Productivity pane in expanded mode")
 
 ## See also
 

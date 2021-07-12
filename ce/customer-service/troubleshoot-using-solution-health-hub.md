@@ -1,12 +1,11 @@
 ---
 title: "Troubleshoot issues in Customer Service and Omnichannel for Customer Service with Solution Health Hub | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Customer Service and Omnichannel for Customer Service by using the Solution Health Hub."
+ms.date: 03/05/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/05/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Troubleshoot issues in Customer Service and Omnichannel for Customer Service using Solution Health Hub
@@ -78,7 +77,7 @@ The details of the results are displayed in a table as follows:
 You can do the following:
 
 1. Select a rule for which the status appears as failed. The results of the analysis of the objects that failed are displayed in the **Failing Records** area.
-    > ![Analysis job results for a rule](./media/oc-solution-health-results.png "Analysis job results for a rule")
+    > ![Analysis job results for a rule.](./media/oc-solution-health-results.png "Analysis job results for a rule")
 2. Optionally, select the **Summary** tab for an overview of the results.
 
 > [!NOTE]

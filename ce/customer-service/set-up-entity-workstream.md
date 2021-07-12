@@ -1,12 +1,11 @@
 ---
 title: "Set up workstream for records in Omnichannel Administration | MicrosoftDocs"
-description: "Learn how to set up record workstream in the Omnichannel for Customer Service."
+description: "Perform the steps mentioned in the topic to set up record workstream in Omnichannel for Customer Service."
+ms.date: 05/13/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/13/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create workstreams for record routing in Omnichannel Administration
@@ -40,7 +39,7 @@ This topic describes how to create a work stream for an entity that has been ena
     | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** <ul><li> The value provided is an example. </li></ul>|
 
     > [!div class=mx-imgBorder] 
-    > ![Specify values for the fields](media/case-ws3.png "New case work stream")
+    > ![Specify values for the fields.](media/case-ws3.png "New case work stream")
 
 5. Select **Save** to save the work stream.
 

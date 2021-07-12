@@ -1,9 +1,10 @@
 ---
 title: "Enable OneDrive for Business (on-premises) with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Create and manage private documents with OneDrive for Business."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,10 +15,8 @@ ms.assetid: bdd1ca68-8231-451e-ab5c-b1bfae86dd23
 caps.latest.revision: 13
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Enable OneDrive for Business (on-premises)
 
@@ -75,7 +74,7 @@ $wellKnownApp.Update()
    > [!NOTE]
    >  This privilege is visible in the Security Roles dialog only after [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled.  
   
-   ![Toggle availability of OneDrive for Business](../../../admin/media/onedrive-business-privileges.png "Toggle availability of OneDrive for Business")  
+   ![Toggle availability of OneDrive for Business.](../../../admin/media/onedrive-business-privileges.png "Toggle availability of OneDrive for Business")  
   
 ### See also  
  [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](/power-platform/admin/set-up-sharepoint-integration)   

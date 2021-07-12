@@ -2,7 +2,6 @@
 title: "Track a marketing campaign response using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses in Dynamics 365 Sales Professional."
 ms.date: 12/06/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -40,7 +39,7 @@ Record the replies you get from potential customers in response to a specific ma
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-2. In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar](../sales-enterprise/media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
+2. In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](../sales-enterprise/media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
 3. On the navigation bar, select **Settings**, and then select **Administration**.
 

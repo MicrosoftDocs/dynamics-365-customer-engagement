@@ -1,14 +1,11 @@
 ---
 title: Set when your business is closed (Dynamics 365 Customer Service) | MicrosoftDocs
 description: View how to set when your business is closed in Dynamics 365 Customer Service
+ms.date: 11/20/2018
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/20/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Set when your business is closed
@@ -35,7 +34,7 @@ Make sure that you have the required security role or equivalent permissions.
  
    You can also select **New** from the business closure grid to create a new business closure record.
 
-   ![Schedule business closure](media/create-business-closure.png)
+   ![Schedule business closure.](media/create-business-closure.png)
 
    A quick create dialog box is displayed.
   

@@ -1,9 +1,10 @@
 ---
 title: "Delete a business unit | MicrosoftDocs"
+description: "Delete a business unit to completely remove it from Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ author: jimholtz
 ms.assetid: d36a3897-24c4-434e-b255-4e1a1233ba41
 caps.latest.revision: 15
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Delete a business unit
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You can delete a business unit to completely remove it from Dynamics 365 Customer Engagement (on-premises).  
   
@@ -45,7 +48,7 @@ You can delete a business unit to completely remove it from Dynamics 365 Custome
   
 6. Change the view to **Inactive Business Units**.
 
-7. Select the business unit to delete, and then choose the **Delete** icon ![Delete button](../admin/media/delete.gif "Delete button").  
+7. Select the business unit to delete, and then choose the **Delete** icon ![Delete button.](../admin/media/delete.gif "Delete button").  
   
 8. In the **Confirm Deletion** dialog box, choose **Delete**.  
   

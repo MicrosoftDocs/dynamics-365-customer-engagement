@@ -1,15 +1,11 @@
 ---
 title: View and understand Customer Service Analytics | Microsoft Docs
 description: Dashboards and reports provide historical operational metrics and KPIs to manage contact centers.
-author: neeranelli
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: nenellim
-manager: shujoshi
 ms.date: 04/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -17,6 +13,9 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # View and understand Customer Service Analytics
@@ -28,7 +27,7 @@ The Customer Service Analytics dashboard that's created in Power BI provides inf
 The following is an example of the Customer Service Analytics overview dashboard:  
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics overview dashboard](media/cs-analytics-overview-dashboard.png "Customer Service Analytics overview dashboard")
+   > ![Customer Service Analytics overview dashboard.](media/cs-analytics-overview-dashboard.png "Customer Service Analytics overview dashboard")
 
 This view includes the following KPIs:
 
@@ -69,7 +68,7 @@ The Customer Service Analytics report detail view has three views:
   This view provides KPIs and metrics across Customer Service and gives supervisors the ability to filter the view.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics summary view](media/cs-analytics-summary-view.png "Customer Service Analytics summary view")
+   > ![Customer Service Analytics summary view.](media/cs-analytics-summary-view.png "Customer Service Analytics summary view")
 
    This view contains the following visuals or KPIs:
 
@@ -89,7 +88,7 @@ The Customer Service Analytics report detail view has three views:
    This view provides KPIs and metrics across Customer Service and gives supervisors the ability to filter the view.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics agent/queue view](media/cs-analytics-agent-queue-view.png "Customer Service Analytics agent/queue view")
+   > ![Customer Service Analytics agent/queue view.](media/cs-analytics-agent-queue-view.png "Customer Service Analytics agent/queue view")
 
    This view contains the following visuals or KPIs:
 
@@ -111,14 +110,14 @@ The Customer Service Analytics report detail view has three views:
    > Prerequisite for the link to work: you must have either a Customer Service Hub app or Customer Service app installed from AppSource.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics case/activity list view](media/cs-analytics-case-activity-list-view.png "Customer Service Analytics case/activity list view")
+   > ![Customer Service Analytics case/activity list view.](media/cs-analytics-case-activity-list-view.png "Customer Service Analytics case/activity list view")
 
 ## View and filter report  
 
 Filter information by viewing the reports and selecting from Duration, Queue, Agent, Case priority, Subject, and Case status.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics view and filter report](media/cs-analytics-view-filer-report.png "Customer Service Analytics view and filter report")
+   > ![Customer Service Analytics view and filter report.](media/cs-analytics-view-filer-report.png "Customer Service Analytics view and filter report")
 
 Select the subject you're interested in, and information is filtered according to your selection. This helps to quickly analyze KPIs and take necessary steps to improve outcomes.
 

@@ -1,12 +1,11 @@
 ---
 title: "Configure a chat widget and embed it in portal | MicrosoftDocs"
 description: "Instructions to configure a chat widget in Omnichannel for Customer Service and embed it in Power Apps portals."
+ms.date: 05/13/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/13/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Quickly configure a chat widget
@@ -27,7 +26,7 @@ Use the Omnichannel admin center app to quickly configure and add a chat widget 
    - **Channel**: Select **Chat**.
 
    > [!div class=mx-imgBorder]
-   > ![New work stream](media/omnichannel-new-workstream.png)
+   > ![New work stream.](media/omnichannel-new-workstream.png)
 
 4. Select **Create**.
 
@@ -47,20 +46,20 @@ Follow these steps to embed your chat widget into a Power Apps portal. For steps
 2.	Go to **Portal** > **Content Snippets**.
 3.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
-    > ![Go to Chat Widget Code content snippet in portal](media/portal-content-snippet.png "Go to Chat Widget Code content snippet in portal")
+    > ![Go to Chat Widget Code content snippet in portal.](media/portal-content-snippet.png "Go to Chat Widget Code content snippet in portal")
 4.	On the **General** tab, scroll down to the **Value (HTML)** section.
 5.	Paste the chat widget snippet code in the **HTML** tab.
     > [!div class=mx-imgBorder]
-    > ![Paste code snippet of a chat widget](media/paste-snippet.png "Paste code snippet of a chat widget")
+    > ![Paste code snippet of a chat widget.](media/paste-snippet.png "Paste code snippet of a chat widget")
 6.	Save the changes. The chat widget is now embedded into the portal. By default, the chat widget is displayed in minimized mode as follows:
 
     > [!div class=mx-imgBorder]
-    > ![Chat widget in minimized mode](media/oc-chat-widget-minimized-mode.png "Chat widget in minimized mode")
+    > ![Chat widget in minimized mode.](media/oc-chat-widget-minimized-mode.png "Chat widget in minimized mode")
     
 You can maximize the chat widget by selecting it.
 
 > [!div class=mx-imgBorder]
-> ![Chat widget in maximized mode](media/chat-widget-system-events.png "Chat widget in maximized mode")
+> ![Chat widget in maximized mode.](media/chat-widget-system-events.png "Chat widget in maximized mode")
 
 ### See also
 

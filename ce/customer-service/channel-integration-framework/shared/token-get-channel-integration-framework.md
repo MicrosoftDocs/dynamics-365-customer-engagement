@@ -10,7 +10,7 @@ To get the Dynamics 365 Channel Integration Framework solution from within Dynam
 
 2. Select **GET IT NOW**.<br>
 
-    ![Dynamics 365 Channel Integration Framework in Microsoft AppSource](../media/cif-app-source.png "Dynamics 365 Channel Integration Framework in Microsoft AppSource")
+    ![Dynamics 365 Channel Integration Framework in Microsoft AppSource.](../media/cif-app-source.png "Dynamics 365 Channel Integration Framework in Microsoft AppSource")
 
 3. In the **One more thing** window, select **Continue**.
 
@@ -50,9 +50,9 @@ To get the Dynamics 365 Channel Integration Framework solution from within Dynam
 
 2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
     
-    ![Dynamics 365 drop-down button to find Channel Integration Framework](../media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
+    ![Dynamics 365 drop-down button to find Channel Integration Framework.](../media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
 
 > [!TIP] 
 > Alternatively, you can use `https://<orgURL>.dynamics.com/apps` to navigate to the Dynamics 365 Channel Integration Framework.<br>
 
- ![Dynamics 365 org URL and apps to go to Channel Integration Framework](../media/cif-alternative-app-navigation.png "Dynamics 365 org URL and apps to go to Channel Integration Framework")
+ ![Dynamics 365 org URL and apps to go to Channel Integration Framework.](../media/cif-alternative-app-navigation.png "Dynamics 365 org URL and apps to go to Channel Integration Framework")
