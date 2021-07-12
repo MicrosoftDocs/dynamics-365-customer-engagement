@@ -20,16 +20,16 @@ search.app:
 
 # Customize your Teams webinar participant follow-up
 
-In just a few steps, you can use contacts, segments, and a customer journey to follow up with webinar participants, even if you are not an existing Dynamics 365 Marketing user. To follow up with participants:
+In just a few steps, you can use contacts, segments, and a customer journey to follow up with webinar participants, even if you are not an existing Dynamics 365 Marketing user. Before you continue and customize the conversation with webinar participants, it's helpful to familiarize yourself with some Dynamics 365 Marketing terminology.
 
-1. In Teams, select the **Attendance** tab to view the attendance report.
-1. In the top-right corner, select **Follow up with participants**.
-1. Select **Get started**. If you are an existing Marketing customer, a window pops up that lists your Dynamics organizations. Select the organization you want to use from the dropdown. If you are not a Marketing customer, a window opens that allows you [sign up for a free Dynamics 365 Marketing trial](trial-signup.md).
-    > [!div class="mx-imgBorder"]
-    > ![Follow up button](media/teams-follow-up-get-started.png "Follow up button")
-1. A browser tab then opens with a customer journey and segments that are personalized to your webinar data.
-    > [!div class="mx-imgBorder"]
-    > ![Generated customer journey](media/team-follow-up-journey.png "Generated customer journey")
+## Marketing terminology
+
+Marketing uses different terminology than Teams for your participant information. The following bolded terms are tools that the Marketing app uses to organize, personalize, and automate your webinar participant data.
+
+- **Contact**: In Marketing, participant information such as names, email addresses, company names, and mailing addresses are stored as contacts. You can use other tools, such as segments (see below), to group contacts for targeted messaging.
+- **Segment**: A segment is a defined group of contacts, such as contacts who work at Contoso and attended a webinar. Segments allow you to choose the right audience to market to.
+- **Customer journey**: After you've identified the audience you want to target, you can create a journey that automates a series of communications. For example, you can use a journey to send an email requesting a response from all participants who registered but did not attend a webinar. You may find that the webinar was off topic or was at an inconvenient time, helping you improve your future webinar plans.
+- **Customer journey tile**: Each step in a customer journey is represented by a tile. The [tiles represent actions](customer-journey-tiles-reference.md)) that the Marketing app can take. For example, an email tile automatically sends personalized email messages to a segment of your choosing.
 
 ## Using the automatically created customer journey with your webinar data
 
@@ -38,6 +38,9 @@ The automatically created customer journey uses the power of Dynamics 365 Market
 - The first path sends an email to registrants who did not attend the webinar.
 - The second path sends an email to registrants who attended the webinar.
 - The third path sends an email to registrants who canceled their webinar registration.
+
+> [!div class="mx-imgBorder"]
+> ![Generated customer journey](media/team-follow-up-journey.png "Generated customer journey")
 
 Each path includes an email template to send notification emails. You can personalize each email template to suit your branding and company needs. To personalize the email, select the **Send an email** tile.
 
