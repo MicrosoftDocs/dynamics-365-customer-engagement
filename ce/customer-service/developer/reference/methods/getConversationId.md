@@ -23,7 +23,7 @@ None
 
 ## Return Value
 
-A promise resolved with currently ongoing conversation ID.
+Returns a promise resolved with currently ongoing conversation ID.
 
 ## Example
 
