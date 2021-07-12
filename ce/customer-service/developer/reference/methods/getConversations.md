@@ -40,7 +40,7 @@ Returns a resolved or rejected promise based on the outcome of the operation.
 
 ## Example
 
-The following code snippet fetches the currently waiting conversation for the given agent ID: 
+The following code snippet fetches the currently waiting conversation for the given agent ID.
 
 ```javascript
 var input = { 
