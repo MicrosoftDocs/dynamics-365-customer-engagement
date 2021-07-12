@@ -36,7 +36,7 @@ Returns a resolved or reject promise based on the outcome of the operation.
 >   - msdyn_liveworkstreamid 
 >   - msdyn_lastsessionid 
 >   - StatusCode 
->   - msdyn_createdon 
+>   - CreatedOn 
 
 ## Example
 
