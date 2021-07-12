@@ -108,7 +108,7 @@ To update the case resolution entity for the changed value of case entity:
 1. In the Solution Explorer, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
 
 2. On the page that appears, select the field you want to update. For this example, let's select **resolutiontypecode** in the **Name** column.
- 
+
 3. Double-click the **resolutiontypecode** field. The **General** tab of **Resolution Type of Case Resolution** is displayed.
 
 4. In the **Options** section, select the plus icon to automatically populate the **Label** and **Value** fields.
@@ -123,8 +123,7 @@ To update the case resolution entity for the changed value of case entity:
 1. In the **Solution Explorer**, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
 
 2. Open the form you want to edit. For this example, let's select the **Information** form.
-
-  The form opens in the form designer.
+    The form opens in the form designer.
 
 3. On the form designer, do the following: 
     1. Select **Billable Time**.
