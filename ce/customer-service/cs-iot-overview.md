@@ -4,7 +4,7 @@ description: "Overview of Connected Customer Service."
 ms.date: 07/03/2020
 ms.topic: article
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.custom: intro-internal
 ---
