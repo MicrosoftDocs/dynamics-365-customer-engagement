@@ -6,7 +6,7 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.topic: article
-ms.custom: template-overview
+ms.custom: intro-internal
 ---
 
 # Overview of Service Scheduling
