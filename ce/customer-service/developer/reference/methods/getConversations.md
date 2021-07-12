@@ -22,8 +22,8 @@ This function can be used to fetch a list of conversation (`msdyn_ocliveworkitem
 
 | Parameter               | Type   | Description           |
 | -------------           | -------| --------------------- |
-| input      | String | JSON input (Required). It has the following format: <br>{`attributes, agentID, status, orderBy, createdBeforeDays`}  </br> where: <ul><li> `attributes`is an array of strings containing entity attribute names</li><li>`agentId` is a string containing unique identifier for the agent</li><li>`status` is an array of strings with comma-separated values</li><li>`orderBy` is an array of objects in the format: <br> [{ `attributeName`: "<Attribute_Name>" `descending`:\<Boolean>}]</br></li><li>`createdBeforeDays`is the number of days since the conversation was created</li></ul> <br> The `agentId` is the only required input variable and the rest are optional.</br>| 
-| correlationId | String | Unique identifier for telemetry logging. (Optional)  |
+| input      | String | JSON input. It has the following format: <br>{`attributes, agentID, status, orderBy, createdBeforeDays`}  </br> where: <ul><li> `attributes`is an array of strings containing entity attribute names</li><li>`agentId` is a string containing unique identifier for the agent</li><li>`status` is an array of strings with comma-separated values</li><li>`orderBy` is an array of objects in the format: <br> [{ `attributeName`: "<Attribute_Name>" `descending`:\<Boolean>}]</br></li><li>`createdBeforeDays`is the number of days since the conversation was created</li></ul> <br> The `agentId` is the only required input variable and the rest are optional.</br>| 
+| correlationId | String | Optional. Unique identifier for telemetry logging.  |
 
 
 ## Return Value
