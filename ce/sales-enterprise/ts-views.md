@@ -67,14 +67,14 @@ To resolve this issue, you must edit or remove filters for the view. This will e
 2. Select the entity > **Views** and select the view that has this error. In this example, we're selecting the entity **Account** and view as **Accounts I Follow**.
 
     > [!div class="mx-imgBorder"]
-    > ![Choose a view from the entity.](media/troubleshooting-record-entity-view-selection.png "Choose a view from the entity")
+    > ![Choose the view from the entity.](media/troubleshooting-record-entity-view-selection.png "Choose the view from the selected entity")
 
 3. Select **More Actions** > **Edit**. 
 
     The view edit page opens.
 
     > [!div class="mx-imgBorder"]
-    > ![Edit a view.](media/troubleshooting-record-edit-view.png "Edit a view")
+    > ![Edit a view.](media/troubleshooting-record-edit-view.png "Edit the view")
 
 4. Select **Edit Filter Criteria** and recheck the filter condition either by updating or deleting.
 
