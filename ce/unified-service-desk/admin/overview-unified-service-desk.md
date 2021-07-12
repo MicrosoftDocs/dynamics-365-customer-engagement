@@ -39,7 +39,7 @@ tags: MigrationHO
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a collection of solutions and data files that contain configuration entities and the underlying entities for the [!INCLUDE[pn_uii_acronym](../../includes/pn-uii-acronym.md)] framework. You configure the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities to define the user experience in the client application, such as various controls, their layout, user flow, and so on. All configuration information is stored in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities, and you can bundle it along with the solutions and data files into a “package” that defines a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application. The package can then be deployed to any Dataverse instance, and users can connect to it using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to experience the interface and functionality defined by the configuration data of the application.  
   
- ![Basic Unified Service Desk topology diagram](../../unified-service-desk/media/usd-basic-topology.png "Basic Unified Service Desk topology diagram")  
+ ![Basic Unified Service Desk topology diagram.](../../unified-service-desk/media/usd-basic-topology.png "Basic Unified Service Desk topology diagram")  
   
  The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is defined by the following two solution files:  
   

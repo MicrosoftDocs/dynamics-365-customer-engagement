@@ -4,7 +4,7 @@ description: "Learn how to use Postman to work with Dynamics 365 Customer Engage
 ms.custom: 
 ms.date: 04/23/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

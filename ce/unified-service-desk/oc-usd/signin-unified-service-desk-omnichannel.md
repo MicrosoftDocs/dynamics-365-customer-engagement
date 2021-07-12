@@ -29,7 +29,7 @@ monikerRange: '>= dynamics-usd-4.1'
      | Username | The username of the user (agent, supervisor, and administrator) signing in to Unified Service Desk | user1@onmicrosoft.com |
      | Password | The password associated with the username |  |
 
- ![login to Omnichannel for Customer Service](../media/oc-usd-login.png "Login to Omnichannel for Customer Service")  
+ ![login to Omnichannel for Customer Service.](../media/oc-usd-login.png "Login to Omnichannel for Customer Service")  
 
 3. If you have multiple organizations, select the organization you want to connect to.
 

@@ -25,7 +25,7 @@ The frontend part of the application is bundled into two resource files that are
 Although the frontend definition is hosted on Power Apps portals, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Power Apps portal as a set of [web pages](/dynamics365/customer-engagement/portals/web-page). The code containing the business logic behind it resides in Event Management plugins which are not customizable.
 
 > [!div class="mx-imgBorder"]
-> ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
+> ![Portal Hosted.](../media/portal-hosted.png "Portal Hosted")
 
 ## Additional project setup
 
@@ -35,7 +35,7 @@ Although the frontend definition is hosted on Power Apps portals, you can still 
 1. Open the **environment.ts** configuration file in the developer environment of your choice.
 1. Change the `apiEndpoint` variable to point to the **Website Bindings** value.
     > [!div class="mx-imgBorder"]
-    > ![Website binding](../media/website-binding-record.png "Website binding")
+    > ![Website binding.](../media/website-binding-record.png "Website binding")
 
     > [!NOTE]
     > You need to add a trailing slash at the end of the URL.

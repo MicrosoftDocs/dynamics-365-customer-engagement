@@ -34,7 +34,7 @@ In Dynamics 365 Sales Professional, a team is a group of users who share and col
     -   **Select Team Administrator**: Select the person who will do the team administration, such as adding members to or removing members from the team.
 
       > [!div class="mx-imgBorder"]
-      > ![Add New Team dialog box](media/add-new-team-dialog-box.png "Add New Team dialog box")
+      > ![Add New Team dialog box.](media/add-new-team-dialog-box.png "Add New Team dialog box")
 
 ## Add members to the team
 

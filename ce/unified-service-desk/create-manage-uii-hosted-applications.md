@@ -57,7 +57,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
            4. **Manage Pop ups** – when checked, allows the pop-up windows to be managed in **Unified Service Desk**.  
   
-   ![Web hosted application type](../unified-service-desk/media/usd-webhostedapp.PNG "Web hosted application type")  
+   ![Web hosted application type.](../unified-service-desk/media/usd-webhostedapp.PNG "Web hosted application type")  
   
       For more information about how to build and host a web application in **Unified Service Desk**, see steps 1 to 3 of [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)  
   
@@ -83,7 +83,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
            4. **Main Window Acquisition Time out** – Specifies the timeout period for the top-level window handle to be found.  
   
-   ![External hosted appllication](../unified-service-desk/media/usd-exthostedapp.PNG "External hosted appllication")  
+   ![External hosted appllication.](../unified-service-desk/media/usd-exthostedapp.PNG "External hosted appllication")  
   
       For more information about how to build and host an external application in **Unified Service Desk**, see steps 1 to 3 of [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md)  
   
@@ -105,7 +105,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-inte
   
    7. **Optimal Size Y** specifies the display size of the application in **Unified Service Desk** along the Y axis.  
   
-   ![Common Properties screen of hosted control](../unified-service-desk/media/usd-commonproperties.PNG "Common Properties screen of hosted control")  
+   ![Common Properties screen of hosted control.](../unified-service-desk/media/usd-commonproperties.PNG "Common Properties screen of hosted control")  
   
 9. In the **Dynamic** area, when the **Application is Dynamic** is checked, it means the application can be loaded dynamically and the **User Can Close** and the **Show in Toolbar Dropdown** check boxes become enabled.  
   

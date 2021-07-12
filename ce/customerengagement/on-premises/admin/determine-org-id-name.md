@@ -4,7 +4,7 @@ description: "Determine your environment's organization ID and name using custom
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -30,6 +30,6 @@ Follow these steps to determine your organization name and ID.
 2. Under **Instance Reference Information**, make note of **ID** and **Unique Name**. **Unique Name** is the organization name.
 
 > [!div class="mx-imgBorder"] 
-> ![Determine org ID and name](media/org-id-name.png "Determine org ID and name")
+> ![Determine org ID and name.](media/org-id-name.png "Determine org ID and name")
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

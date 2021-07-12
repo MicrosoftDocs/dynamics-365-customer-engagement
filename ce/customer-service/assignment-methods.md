@@ -16,13 +16,19 @@ Assignment methods determine how a work item is assigned. You can use the out-of
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream.
-- **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence.
+- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity and skills, the work item is assigned in the order in which the agents become available.
 
-The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
+- **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence. The initial order is based on when a user is added to queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
 
-- **Prioritization rulesets**: Let you define the order in which the work items will be assigned to agents when they are available to take more work.
-- **Assignment rulesets**: Represent a set of conditions that are used to select agents and use an order by option to sort the matching agents.
+- **Custom configuration**: Lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
+
+  - **Prioritization rulesets**: Let you define the order in which the work items will be assigned to agents when they are available to take more work.
+  - **Assignment rulesets**: Represent a set of conditions that are used to select agents and use an order by option to sort the matching agents.
+
+### Assignment cycle
+
+Assignment cycle is prioritization of work items, their selection, and their assignment to the best suited agent based on the assignment rules. An assignment cycle starts with one of the many triggers, including the arrival of a new work item in the queue or changes in the availability of the agent workforce associated with that queue. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
+
 
 ## How prioritization rulesets work
 
@@ -32,7 +38,7 @@ You can create only one prioritization ruleset per queue.
 
 As an example, consider the prioritization rule as seen in the following screenshot. This rule will match all the work items where the routed record (case) contains data and priority equals high. The matched items will be further sorted based on a first in and first out attribute.
 
-![Prioritization scenario](media/ur-prioritization-scenario.png "Prioritization scenario")
+![Prioritization scenario.](media/ur-prioritization-scenario.png "Prioritization scenario")
 
 ## How assignment rulesets work
 
@@ -40,7 +46,7 @@ The assignment ruleset is an order list of assignment rules. Each assignment rul
 
 A sample assignment rule is explained in the following scenario with a screenshot.
 
-![Sample assignment method](media/ur-sample-assign-scenaro.png "Sample assignment method")
+![Sample assignment method.](media/ur-sample-assign-scenaro.png "Sample assignment method")
 
 The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators and values for each attribute, such as the **Presence status** attribute should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition will be matched at runtime based on the expression you specify. For example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level,"
 the "preferred customer type" of every agent will be matched against the dynamically calculated membership level of the customer associated with the chat.
@@ -91,7 +97,7 @@ You can create a sample assignment rule with the following conditions.
 | Available capacity | Is greater than | Static value | 50 |
 ||||
 
-![Sample assignment rule](media/ur-sample-assign-rule.png "Sample assignment rule")
+![Sample assignment rule.](media/ur-sample-assign-rule.png "Sample assignment rule")
 
 ### Configure selection criteria
 
@@ -108,4 +114,5 @@ Follow these steps to configure the selection criteria for the assignment rulese
 
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  
-[Set up entities for unified routing](set-up-record-routing.md)  
+[Set up records for unified routing](set-up-record-routing.md)  
+[Set up skill-based routing for unified routing](set-up-skill-based-routing.md)  

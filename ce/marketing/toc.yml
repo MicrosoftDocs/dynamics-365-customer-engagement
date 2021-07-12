@@ -8,9 +8,11 @@
     href: whats-new-marketing.md
   - name: Installation and environment management
     items: 
-    - name: Sign up for a free trial
+    - name: Sign up for a free Marketing trial
       href: trial-signup.md
-    - name: Purchase and set up Dynamics 365 Marketing
+    - name: Marketing trial FAQ
+      href: trial-faq.md
+    - name: Purchase and set up Marketing
       href: purchase-setup.md
     - name: Integrate Marketing with a CMS system or Power Apps portals
       href: portal-optional.md
@@ -288,6 +290,8 @@
         href: dynamic-email-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
+      - name: Generate iCalendar files for events and sessions
+        href: add-to-calendar.md
       - name: Check your work using previews and test sends
         href: email-preview.md
       - name: Email accessibility checker
@@ -302,7 +306,7 @@
         href: email-a-b-testing.md
       - name: Disable auto-adjustment of HTML
         href: email-postprocessing.md
-      - name: Troubleshoot + FAQs
+      - name: Email troubleshoot + FAQ
         href: email-troubleshoot.md
     - name: Marketing pages and forms
       items: 
@@ -324,6 +328,8 @@
         href: set-up-subscription-center.md
       - name: Edit and resubmit form submissions
         href: failed-submissions.md
+      - name: Forms and pages troubleshoot + FAQ
+        href: pages-forms-troubleshoot.md
     - name: Marketing content library management
       items: 
       - name: Upload and use images and files
@@ -586,5 +592,5 @@
       href: learning-sales.md
   - name: Troubleshoot with Solution Health Hub
     href: troubleshoot-marketing-solution-health.md
-  - name: General FAQs
+  - name: General FAQ
     href: troubleshoot-faq.md

@@ -1,9 +1,10 @@
 ---
-title: "Create a signature for your email or for a queue (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Create email signature in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create an email signature to save time and be consistent in your responses. The owner of a signature can be a user or a team."
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -25,7 +26,7 @@ Use an email signature in Customer Engagement (on-premises) Customer Engagement 
 ## Create an email signature  
  To edit a signature if you are not a system administrator:  
   
-1. Select the **Settings** button ![Options button for Dynamics 365 Customer Engagement (on-premises)](../basics/media/optionsbutton.png "Options button for Dynamics 365 Customer Engagement (on-premises)") in the upper-right corner of the screen.  
+1. Select the **Settings** button ![Options button for Dynamics 365 Customer Engagement (on-premises).](../basics/media/optionsbutton.png "Options button for Dynamics 365 Customer Engagement (on-premises)") in the upper-right corner of the screen.  
   
 2. Select **Options**, and then select the **Email Signatures** tab.  
   
@@ -67,11 +68,11 @@ Use an email signature in Customer Engagement (on-premises) Customer Engagement 
   
 - If the **From** field is changed to a user, the user email signature will appear. When you select **Insert Signature**, all the signatures that the user owns will appear. If the **From** field is changed to a queue,  the default email signature of the owner of the queue will appear. The owner of a queue can be a user or a team. When you select **Insert Signature**, all the email signatures that are owned by the queue owner (user or a team) will appear.  
   
-  ![Email signature for user responding to an email](../basics/media/email-signature-user-responding-an-email.png "Email signature for user responding to an email")  
+  ![Email signature for user responding to an email.](../basics/media/email-signature-user-responding-an-email.png "Email signature for user responding to an email")  
   
 - If the **From** field is changed to a queue,  the default email signature of the owner of the queue will appear. The owner of a queue can be a user or a team. When you select **Insert Signature**, all the email signatures that are owned by the queue owner (user or a team) will appear.  
   
-  ![Email signature for a queue responding to email](../basics/media/email-signature-queue-responding-email.png "Email signature for a queue responding to email")  
+  ![Email signature for a queue responding to email.](../basics/media/email-signature-queue-responding-email.png "Email signature for a queue responding to email")  
   
 ### See also  
  [Work with templates](../admin/work-with-templates.md)

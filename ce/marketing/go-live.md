@@ -32,7 +32,7 @@ For most entities, you can manually assign the active or inactive **Status** for
 
 All entities provide a view selector for list views where you choose a saved query such as "Active journeys," "All live journeys," "Inactive journeys," and so on. In most cases, you can find inactive records by going to the "Inactive …" view, where you can usually reactivate a record if needed.
 
-![Use the system-view selector to see inactive records](media/golive-see-inactive-records.png "Use the system-view selector to see inactive records")
+![Use the system-view selector to see inactive records.](media/golive-see-inactive-records.png "Use the system-view selector to see inactive records")
 
 ## Customer journey go-live operations and status
 
@@ -68,7 +68,7 @@ Some customer journey settings become locked (read-only) based on the journey's 
 
 If you attempt to stop records such as email messages, forms, or segments utilized by live customer journeys, a warning pops up to prevent you from stopping a record that may disrupt a live journey.
 
-![Warning dialog when deleting a live record](media/customer-journey-publishable-entities.png "Warning dialog when deleting a live record")
+![Warning dialog when deleting a live record.](media/customer-journey-publishable-entities.png "Warning dialog when deleting a live record")
 
 > [!NOTE]
 > If you change the recurrence interval after the journey has already started, the current iteration will continue to run using the previous interval. Your new interval will take effect starting at the next iteration.

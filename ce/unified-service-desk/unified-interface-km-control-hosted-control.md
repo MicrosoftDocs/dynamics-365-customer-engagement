@@ -30,7 +30,7 @@ Use the **Unified Interface KM Control** type of hosted control to display knowl
 ## Create a KM Control hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Unified Interface KM Control** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![Unified Interface KM Control hosted control](../unified-service-desk/media/usd-unified-interface-kmcontrolhostedcontrol.png "Unified Interface KM Control hosted control")  
+ ![Unified Interface KM Control hosted control.](../unified-service-desk/media/usd-unified-interface-kmcontrolhostedcontrol.png "Unified Interface KM Control hosted control")  
 
  In the **New Hosted Control** screen:
 

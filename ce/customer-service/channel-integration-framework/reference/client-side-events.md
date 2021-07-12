@@ -26,8 +26,8 @@ Each event handler specifies a function within a JavaScript library and the para
 | [onPageNavigate](events/onPageNavigate.md) | Invoked when the main Unified Interface page navigation occurs. |
 | [onSendKBArticle](events/onSendKBArticle.md) | Invoked when the user selects the **Send** button in the Knowledge Base control. |
 | [onSizeChanged](events/onSizeChanged.md) | Invoked when the side panel width is changed. |
-| [onSessionSwitched](/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionSwitched) | Invoked when the session is switched. |
-| [onSessionClosed](/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) | Invoked when the session is closed. |
+| [onSessionSwitched](/dynamics365/customer-service/channel-integration-framework/referen/v2/reference/events/onSessionSwitched) | Invoked when the session is switched. |
+| [onSessionClosed](/dynamics365/customer-service/channel-integration-framework/referen/v2/reference/events/onSessionClosed) | Invoked when the session is closed. |
 | [CIFInitDone](events/cifinitdone.md) | Invoked when the Channel Integration framework is loaded to determine if Channel Integration Framework APIs are ready to be consumed. |
 
 

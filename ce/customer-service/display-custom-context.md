@@ -13,7 +13,7 @@ manager: shujoshi
 
 To display the context variables in the Conversation Summary Control for a conversation on the UI, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method and set its value to `true`. If the value of `isDisplayable` attribute is set to `true`, the context variables will appear as shown below.
 
-![Display context keys](media/context-variable-display.png "Display context keys")
+![Display context keys.](media/context-variable-display.png "Display context keys")
 
 For more information, see [setContextProvider method](developer/reference/methods/setContextProvider.md) and [Conversation summary](oc-customer-summary.md#conversation-summary).
 

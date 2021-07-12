@@ -5,7 +5,7 @@ This is done by entering date and time values on the work order form in the pref
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order](../../field-service/media/scheduling-time-constraint-work-order-fields.png)
+> ![Screenshot of a work order.](../../field-service/media/scheduling-time-constraint-work-order-fields.png)
 
 For instance, we will consider the following scheduling scenarios throughout this topic: 
 
@@ -50,17 +50,17 @@ In this scenario, an installation work order must be scheduled and needs to be c
 From the work order, complete the **Date Window Start** and **Date Window End** fields to represent the week the work order should be scheduled and completed within.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order, highlighting the date window start and end fields](../../field-service/media/scheduling-time-constraint-work-order-date-window.png)
+> ![Screenshot of a work order, highlighting the date window start and end fields.](../../field-service/media/scheduling-time-constraint-work-order-date-window.png)
 
 This will automatically populate the **From Date** and **To Date** fields on the related work order resource requirement and vice versa. This is true for the other fields in the **Preferences** section as well, such as **Time Promised** and **Time Window**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement, highlighting the from and to date fields](../../field-service/media/scheduling-time-constraint-requirement-start-end.png)
+> ![Screenshot of a resource requirement, highlighting the from and to date fields.](../../field-service/media/scheduling-time-constraint-requirement-start-end.png)
 
 When attempting to schedule this work order with the schedule assistant - from either the **Book** button on the form or from the **Find Availability** search on the schedule board - these date values will populate the **Search Start** and **Search End** filters. Resources that are available for the entire duration of the work order within the date range will display as options.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant, highlighting the search start and end filters](../../field-service/media/scheduling-time-constraint-schedule-assistant-search.png)
+> ![Screenshot of the schedule assistant, highlighting the search start and end filters.](../../field-service/media/scheduling-time-constraint-schedule-assistant-search.png)
 
 
 > [!Note]
@@ -74,18 +74,18 @@ In this next scenario, a diagnosis and repair work order must be scheduled befor
 To schedule based on a date *and* time, simply complete **Time From Promised** and **Time To Promised** on the work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order, highlighting the time from and time to promised fields](../../field-service/media/scheduling-time-constraint-work-order-promised.png)
+> ![Screenshot of a work order, highlighting the time from and time to promised fields.](../../field-service/media/scheduling-time-constraint-work-order-promised.png)
 
 These values will be passed to the related requirement and appear as new filters when the schedule assistant is triggered.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant, highlighting the time from and time to promised filters](../../field-service/media/scheduling-time-constraint-schedule-assistant-promised.png)
+> ![Screenshot of the schedule assistant, highlighting the time from and time to promised filters.](../../field-service/media/scheduling-time-constraint-schedule-assistant-promised.png)
 
 **Time From Promised** and **Time To Promised** implies that the estimated arrival time must fall within the time range for which the resource has availability for the duration of the work order. This is based on the resource's working hours, and is not necessarily completed before the end of **Time To Promised**. This differs from date window start and end.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board](../../field-service/media/scheduling-time-constraint-schedule-board-promised.png)
+> ![Screenshot of the schedule board.](../../field-service/media/scheduling-time-constraint-schedule-board-promised.png)
 
 Furthermore, when manually dragging and dropping a requirement on the schedule board, a popup will warn the dispatcher if the estimated arrival time falls within the promised time window or not.
 
@@ -105,7 +105,7 @@ First, on the work order, set a date range in the **Date Window Start** and **Da
 Next, set a **Time Window Start** and **Time Window End** that represents a time of day the work order should be automatically scheduled.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order](../../field-service/media/scheduling-time-constraint-work-order-rso-window.png)
+> ![Screenshot of a work order.](../../field-service/media/scheduling-time-constraint-work-order-rso-window.png)
 
 > [!Note]
 > For this scenario, we recommend using **Date Window** along with **Time Window** rather than **Time Promised**, as **Time Promised** will take priority over the other parameters during optimization.
@@ -114,12 +114,12 @@ When setting up RSO, make sure **Scheduling Windows** is a constraint in the opt
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling optimization goal, highlighting the scheduling windows constraint](../../field-service/media/scheduling-time-constraint-work-order-rso-goal.png)
+> ![Screenshot of a scheduling optimization goal, highlighting the scheduling windows constraint.](../../field-service/media/scheduling-time-constraint-work-order-rso-goal.png)
 
 After running RSO, you'll see the results on the schedule board. In our example, the work order could have been scheduled for either 9/12 or 9/13 based on the date window of the work order; whichever day it is scheduled, it should be scheduled in the afternoon between 12:00 PM and 5:00 PM. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board](../../field-service/media/scheduling-time-constraint-work-order-rso-schedule-board.png)
+> ![Screenshot of the schedule board.](../../field-service/media/scheduling-time-constraint-work-order-rso-schedule-board.png)
 
 ## Configuration considerations
 
@@ -153,7 +153,7 @@ You can define which fields on the entity enabled for scheduling should serve as
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of RSO settings](../../field-service/media/scheduling-time-constraint-bsm.png)
+> ![Screenshot of RSO settings.](../../field-service/media/scheduling-time-constraint-bsm.png)
 
 In the attribute mapping section, you can choose any date and time fields on the entity.
 

@@ -1,7 +1,7 @@
 ---
 title: "Download Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to download Unified Service Desk, client applications, and other tools to manage your Unified Service Desk implementation."
-ms.date: 04/05/2020
+ms.date: 06/21/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -47,7 +47,7 @@ This topic provides information about the location from where you can download v
 >
 > - To download older versions of Unified Service Desk, use the version selector and choose a version to see the download links.
 >
-> ![Select a version using the version selector](media/usd-version-selector.PNG "Unified Service Desk version selector")
+> ![Select a version using the version selector.](media/usd-version-selector.PNG "Unified Service Desk version selector")
 
 ::: moniker-end
 

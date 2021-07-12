@@ -1,9 +1,10 @@
 ---
-title: "Run a report (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Run reports in Dynamics 365 Customer Engagement (on-premises)"
+description: "Reports help you manage your progress towards your goals by helping you see how you're doing. Follow these steps to run a report."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -12,7 +13,7 @@ applies_to:
 ms.assetid: d691493b-2e39-4a89-9952-1500a8ddafd2
 caps.latest.revision: 41
 author: mkaur
-ms.author: mduelae
+ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
@@ -41,7 +42,7 @@ For example it's important for a sales team to know which product or service is 
    >  In **Report Viewer** dialog box, you can leave the search criteria as is, or change it as needed.  
   
    > [!div class="mx-imgBorder"] 
-   > ![Default reports in Dynamics 365 Customer Engagement (on-premises)](../basics/media/default-reports.png "Default reports in Dynamics 365 Customer Engagement (on-premises)")  
+   > ![Default reports in Dynamics 365 Customer Engagement (on-premises).](../basics/media/default-reports.png "Default reports in Dynamics 365 Customer Engagement (on-premises)")  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]
@@ -73,7 +74,7 @@ For example it's important for a sales team to know which product or service is 
    >  In **Report Viewer** dialog box, you can leave the search criteria as is, or change it as needed.  
   
    > [!div class="mx-imgBorder"] 
-   > ![Default reports in Dynamics 365 Customer Engagement (on-premises)](../basics/media/default-reports.png "Default reports in Dynamics 365 Customer Engagement (on-premises)")  
+   > ![Default reports in Dynamics 365 Customer Engagement (on-premises).](../basics/media/default-reports.png "Default reports in Dynamics 365 Customer Engagement (on-premises)")  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]

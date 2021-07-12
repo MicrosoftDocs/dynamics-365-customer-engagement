@@ -51,7 +51,7 @@ By default, SharePoint is enabled for the following entities:
 For record types that support document management, open the record, select the **Related** tab, and then select **Documents**.
 
 > [!div class="mx-imgBorder"]
-> ![Documents option in Related tab](media/documents-option-related-tab.png "Documents option in Related tab")
+> ![Documents option in Related tab.](media/documents-option-related-tab.png "Documents option in Related tab")
 
 ## What happens when you navigate to the Documents tab the first time?
 
@@ -69,7 +69,7 @@ Open a Document list for an entity record. For example, for an opportunity recor
 3.  Select the **Related** tab, and then select **Documents**.
 
     > [!div class="mx-imgBorder"]
-    > ![Documents tab showing the Documents list or Documents Associated Grid in a form](media/documents-tab-in-form.png "Documents tab showing the Documents list or Documents Associated Grid in a form")
+    > ![Documents tab showing the Documents list or Documents Associated Grid in a form.](media/documents-tab-in-form.png "Documents tab showing the Documents list or Documents Associated Grid in a form")
 
 4.  Select **Document Location** to filter the document list. Select from the available document locations.
 
@@ -89,7 +89,7 @@ To create a new SharePoint document in your app:
     name.
 
     > [!div class="mx-imgBorder"]
-    > ![Create a new Word document dialog box](media/create-word-document-dialog-box.png "Create a new Word document dialog box")
+    > ![Create a new Word document dialog box.](media/create-word-document-dialog-box.png "Create a new Word document dialog box")
 
 5.  Select **Save**.
 
@@ -98,7 +98,7 @@ To create a new SharePoint document in your app:
     If you create a folder, you’ll be able to see a folder hierarchy at the top of Documents list.
 
     > [!div class="mx-imgBorder"]
-    > ![Form showing folder hierarchy in documents list](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in documents list")
+    > ![Form showing folder hierarchy in documents list.](media/folder-hierarchy-in-document-list.png "Form showing folder hierarchy in documents list")
 
     Select the folder name to navigate between the folders.
 
@@ -133,14 +133,14 @@ In the **Documents** list:
     select the location.
 
     > [!div class="mx-imgBorder"]
-    > ![Open document location from a record](media/open-document-location.png "Open document location from a record")
+    > ![Open document location from a record.](media/open-document-location.png "Open document location from a record")
 
 2.  To edit the location, on the command bar, select **Edit Location** \> \<location name>.
 
     The **Edit Location** dialog box appears.
 
     > [!div class="mx-imgBorder"]
-    > ![Dialog box to edit a SharePoint location](media/edit-sharepoint-location.png "Dialog box to edit a SharePoint location")
+    > ![Dialog box to edit a SharePoint location.](media/edit-sharepoint-location.png "Dialog box to edit a SharePoint location")
 
 3.  The display name, parent site, and folder name are automatically populated. Provide the new location details, and select **Save**.
 
@@ -149,7 +149,7 @@ In the **Documents** list:
     The **Add Location** dialog box appears.
 
     > [!div class="mx-imgBorder"]
-    > ![Dialog box to add a SharePoint location](media/add-sharepoint-location.png "Dialog box to add a SharePoint location")
+    > ![Dialog box to add a SharePoint location.](media/add-sharepoint-location.png "Dialog box to add a SharePoint location")
 
 5.  The display name, parent site, and folder name are automatically populated. Change the details if required, and then select **Save**.
 

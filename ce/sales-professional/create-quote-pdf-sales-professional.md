@@ -30,7 +30,7 @@ Your system administrator can choose the entities for which PDF generation is en
 
     The **Export to PDF** dialog box appears.
 
-    ![Export to PDF dialog box](../sales-enterprise/media/export-to-pdf-dialog.png "Export to PDF dialog box")
+    ![Export to PDF dialog box.](../sales-enterprise/media/export-to-pdf-dialog.png "Export to PDF dialog box")
 
     A preview based on the selected template is shown, and the PDF file name is populated. If you'd like to use a different template than the one selected, search for and select it in the **Select a template to generate PDF document** box. After you select the template, the preview will be refreshed.
 
@@ -54,7 +54,7 @@ Your system administrator can choose the entities for which PDF generation is en
       |**Regarding**           |  The record from which the email was triggered    | 
       |**Subject**             |  The title of the record      |
 
-      ![Email form with a PDF file attached](../sales-enterprise/media/email-form-pdf-attachment.png "Email form with a PDF file attached")
+      ![Email form with a PDF file attached.](../sales-enterprise/media/email-form-pdf-attachment.png "Email form with a PDF file attached")
 
       > [!NOTE]
       > The **Regarding** field isn't populated if the **Sending email** flag in the primary entity isn't enabled in the **Customization** area. For more information about this flag, see [Entity options that can only be enabled](/powerapps/maker/common-data-service/edit-entities#entity-options-that-can-only-be-enabled). 
@@ -72,7 +72,7 @@ If you haven't opted in for the 2020 release wave 2 features, or if you're using
 2. On the command bar, select **Create PDF** and then select a template on which you want to create the PDF.  
 
     > [!div class="mx-imgBorder"]
-    > ![A quote form showing the Create PDF button on the command bar](media/create-pdf-sales-professional.png "A quote form showing the Create PDF button on the command bar")
+    > ![A quote form showing the Create PDF button on the command bar.](media/create-pdf-sales-professional.png "A quote form showing the Create PDF button on the command bar")
 
 
     > [!IMPORTANT]
@@ -84,7 +84,7 @@ If you haven't opted in for the 2020 release wave 2 features, or if you're using
 3. In the dialog box that appears, save or download the PDF.
 
     > [!div class="mx-imgBorder"]
-    > ![A quote form showing the Create PDF button on the command bar](../sales-enterprise/media/save-or-download-pdf-document.png "A quote form showing the Create PDF button on the command bar")
+    > ![A quote form showing the Create PDF button on the command bar.](../sales-enterprise/media/save-or-download-pdf-document.png "A quote form showing the Create PDF button on the command bar")
     
     - If you select **Save**, the PDF file is stored in the default SharePoint site if SharePoint is configured and enabled for the Quote entity. If SharePoint isn't configured, the **Save** option saves the PDF as a Notes attachment to the Quote record in Dynamics 365 Sales. 
     - If you select the **Download** option, the PDF is downloaded to your local drive. After it's downloaded, you can add this file to a note, send it as an attachment in an email, or upload it to SharePoint.
@@ -98,7 +98,7 @@ You can also generate a PDF file and directly email it to a customer.
 2. On the command bar, select **Email as PDF** and then select a document template.
 
     > [!div class="mx-imgBorder"]
-    > ![A quote form showing the Email as PDF button on the command bar](media/email-as-pdf-sales-professional.png "A quote form showing the Email as PDF button on the command bar")
+    > ![A quote form showing the Email as PDF button on the command bar.](media/email-as-pdf-sales-professional.png "A quote form showing the Email as PDF button on the command bar")
     
     An email form opens. 
     

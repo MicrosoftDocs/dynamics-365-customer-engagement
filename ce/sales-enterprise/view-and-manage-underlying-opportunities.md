@@ -43,7 +43,7 @@ You can view and edit underlying opportunities in two ways:
 With the enhanced grid, you can view and edit related entity records also. The following screen is an example of the enhanced grid view of underlying records:   
 
 > [!div class="mx-imgBorder"]
-> ![View underlying opportunity grid](media/forecast-view-grid-group-option.png "View underlying opportunity grid")
+> ![View underlying opportunity grid.](media/forecast-view-grid-group-option.png "View underlying opportunity grid")
 
 1. **General information**: You can identify whom the underlying records belongs to, and by their team or individual. Also, you can see the category of underlying records, such as won, committed, and pipeline along with its total value.
 
@@ -58,12 +58,12 @@ With the enhanced grid, you can view and edit related entity records also. The f
     To support such scenarios, the **Group by** drop-down lists the related entity attributes of opportunity split (rollup entity), so that users can select relevant opportunity attribute, and then view and edit related opportunity records.    
 
     > [!div class="mx-imgBorder"]
-    > ![Opportunity split data model](media/forecast-opportunity-split-data-model.png "Opportunity split data model")
+    > ![Opportunity split data model.](media/forecast-opportunity-split-data-model.png "Opportunity split data model")
 
     The following image is an example when you choose to group the records based on opportunity attribute from the related opportunity entity of an opportunity split forecast.
 
     > [!div class="mx-imgBorder"]
-    > ![Opportunity split group by example](media/forecast-opportunity-split-groupby-example.png "Opportunity split group by example")
+    > ![Opportunity split group by example.](media/forecast-opportunity-split-groupby-example.png "Opportunity split group by example")
 
 
 ## View and edit in a kanban view
@@ -71,14 +71,14 @@ With the enhanced grid, you can view and edit related entity records also. The f
 1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.
 
     > [!div class="mx-imgBorder"]
-    > ![View forecast grid](media/forecast-view-forecast-grid.png "View forecast grid")
+    > ![View forecast grid.](media/forecast-view-forecast-grid.png "View forecast grid")
 
 2.	Select a row or a cell for any level of the hierarchy for which you want to see underlying opportunities. 
 
     In this example, we're selecting **Alyce Durham**. Because she's a manager, all the underlying opportunities that are contributing to her team's forecast are listed. This view is opened in a table, by default.
 
     > [!div class="mx-imgBorder"]
-    > ![View forecast underlying opportunities](media/forecast-view-underlying-opportunities.png "View forecast underlying opportunities")
+    > ![View forecast underlying opportunities.](media/forecast-view-underlying-opportunities.png "View forecast underlying opportunities")
 
     You can identify whether the selected opportunities belong to a team, an individual, a single cell value, or a full row by looking at the table heading. The format of the heading is described in the following table:
 
@@ -96,7 +96,7 @@ With the enhanced grid, you can view and edit related entity records also. The f
     The table view changes into a kanban view and the order of columns is displayed based on the order that is defined in the option set in the application. All the underlying opportunities are displayed as cards in their respective forecast categories. Each card displays attributes that you can edit. In this example, the opportunity name, **Owner**, **Est. Revenue**, and **Est. Close Date** are displayed.
 
     > [!div class="mx-imgBorder"]
-    > ![View forecast underlying opportunities in kanban](media/forecast-view-underlying-opportunities-kanban.png "View forecast underlying opportunities in a kanban view")
+    > ![View forecast underlying opportunities in kanban.](media/forecast-view-underlying-opportunities-kanban.png "View forecast underlying opportunities in a kanban view")
 
     > [!NOTE]
     > The opportunities in columns **Won** and **Lost** are locked. You can't edit these values directly, because multiple attribute values must be set to enter an opportunity as **Won** or **Lost**. However, you can select the name of the opportunity, and the opportunity will open in a new page where you can edit the opportunity, and then save and close it.

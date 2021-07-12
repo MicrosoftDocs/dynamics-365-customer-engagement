@@ -5,8 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 05/17/2021
-ms.service: "dynamics-365-customerservice"
-ms.topic: article 
+ms.topic: article
 ---
 
 # Associate templates with workstreams

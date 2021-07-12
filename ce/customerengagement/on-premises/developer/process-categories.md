@@ -4,7 +4,7 @@ description: "Processes enable you to model real-life business processes, for ex
 ms.custom: 
 ms.date: 12/16/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

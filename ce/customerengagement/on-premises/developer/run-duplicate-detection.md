@@ -4,7 +4,7 @@ description: "Execute duplicate detection for a specific record, entity type, or
 ms.custom: 
 ms.date: 12/15/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -65,7 +65,7 @@ You can import configuration data by:
   
 1. Start [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)], and create a new project by using the **CRM Package** template.  
   
-   ![New project for creating a custom package](../../unified-service-desk/media/crm-sdkv6-packagedeployer-01.png "New project for creating a custom package")  
+   ![New project for creating a custom package.](../../unified-service-desk/media/crm-sdkv6-packagedeployer-01.png "New project for creating a custom package")  
   
 2. In the **Solution Explorer** pane, expand **PkgFolder**, and delete the **ImportConfig.xml** file.  
   
@@ -87,7 +87,7 @@ You can import configuration data by:
   
 5. For each file that you added under the **PkgFolder** folder, in the **Properties** pane, set the **Copy to Output Directory** value to **Copy Always**. This ensures that the files you added are available in the generated package.  
   
-   ![Copy to output directory field](../../unified-service-desk/media/crm-itpro-usd-custompackage.PNG "Copy to output directory field")  
+   ![Copy to output directory field.](../../unified-service-desk/media/crm-itpro-usd-custompackage.PNG "Copy to output directory field")  
   
 6. Double-click the **ImportConfig.xml** file under **PkgFolder** to edit it. Update the value of the `crmmigdataimportfile` parameter to match the name of the exported file (.zip) that you added in step 5.  
   

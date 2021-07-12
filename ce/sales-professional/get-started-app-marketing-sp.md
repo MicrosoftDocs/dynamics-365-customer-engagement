@@ -32,7 +32,7 @@ Promote your business and improve sales with targeted marketing campaigns in [!I
   
  In contrast to standard campaigns, use quick campaigns to automatically distribute a single activity to selected accounts, contacts, or leads, or to a single marketing list. The effects of a quick campaign are immediate.  
   
- ![Campaigns vs. quick campaigns](../sales-enterprise/media/marketing-campaign-vs-quick-campaign.png "Campaigns vs. quick campaigns")  
+ ![Campaigns vs. quick campaigns.](../sales-enterprise/media/marketing-campaign-vs-quick-campaign.png "Campaigns vs. quick campaigns")  
   
 ## Create a campaign or a quick campaign  
  Depending on your requirement, track your marketing activities through a campaign or a quick campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](../sales-professional/create-edit-campaign-using-app-marketing-sp.md), [Create a quick campaign using in-app marketing](../sales-professional/create-quick-campaign-using-app-marketing-sp.md)  

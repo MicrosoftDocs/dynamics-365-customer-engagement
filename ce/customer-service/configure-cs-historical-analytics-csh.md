@@ -31,7 +31,7 @@ Make sure that you have administrator permissions for Dynamics 365.
 3. Under **Insights**, select **Settings**. The **Insights** page is displayed.
 
     > [!div class=ms-imgBorder]
-    > ![Customer Service analytics installation](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
+    > ![Customer Service analytics installation.](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
 
 4. On the right of **Customer Service historical analytics**, select **Manage**.
 

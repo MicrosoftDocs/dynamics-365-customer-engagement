@@ -2,7 +2,7 @@
 title: "Configure OAuth settings to change the client session timeout | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/25/2019"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
