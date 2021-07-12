@@ -35,7 +35,7 @@ The **Connection Manager** hosted control type manages connections to Microsoft 
 ## Create a Connection Manager hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Connection Manager** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
- ![Connection manager hosted control](../unified-service-desk/media/crm-itpro-usd-connectionmanagerhostedcontrol.PNG "Connection manager hosted control")  
+ ![Connection manager hosted control.](../unified-service-desk/media/crm-itpro-usd-connectionmanagerhostedcontrol.PNG "Connection manager hosted control")  
   
  In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Connection Manager** from the **USD Component Type** drop-down list. Also, ensure that you set the **Sort Order** value of this hosted control to **1** to ensure this is the first hosted control to be retrieved and displayed by your agent application when the agent application is launched. For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   

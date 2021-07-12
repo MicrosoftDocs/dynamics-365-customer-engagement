@@ -23,7 +23,7 @@ To select a template, go to the **Forecast configurations** page and select one 
 - **Product forecast**: Rollup columns and projections are based on the product hierarchy. 
 
 > [!div class="mx-imgBorder"]
-> ![Select template](media/forecast-ce-template-selection.png "Select template")
+> ![Select template.](media/forecast-ce-template-selection.png "Select template")
 
 
 <table>

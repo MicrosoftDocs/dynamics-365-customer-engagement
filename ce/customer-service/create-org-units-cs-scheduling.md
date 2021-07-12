@@ -47,7 +47,7 @@ Make sure that you have the required security role or equivalent permissions.
 
    Active organizational units can be edited, assigned, shared, or viewed from the **Active Organizational Units** system view.
 
-   ![create organizational unit](media/create-org-unit.png)
+   ![create organizational unit.](media/create-org-unit.png)
 
 ### See also
 

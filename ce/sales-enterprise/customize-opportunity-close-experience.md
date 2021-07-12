@@ -58,14 +58,14 @@ To create fields,
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
 
 2.  On the navigation bar, select **Settings**, and then select **Customizations**.
 
     > [!div class="mx-imgBorder"]
-    > ![Customization option on the site map](media/customization-in-sitemap.png "Customization option on the site map")
+    > ![Customization option on the site map.](media/customization-in-sitemap.png "Customization option on the site map")
 
 3.  On the **Customization** page, select **Customize the System**.
 
@@ -85,7 +85,7 @@ After you’ve created the fields that are required by your organization, add th
 2.  Under **Opportunity Close** node, select **Forms**.
 
     > [!div class="mx-imgBorder"]
-    > ![Forms node in Solution explorer](media/forms-node-solution-explorer.png "Forms node in Solution explorer")
+    > ![Forms node in Solution explorer.](media/forms-node-solution-explorer.png "Forms node in Solution explorer")
 
 3.  Open the **Opportunity Close** form of type **Quick Create**.
 
@@ -112,7 +112,7 @@ To enable the capability of customizing the opportunity close experience on a cu
 
 2.  On the navigation bar, select **Settings**, and then under **Application**, select **My Apps**.
 
-3.	On the Sales Professional tile, select the **More options** icon ![More options icon](media/more-options-icon.png "More options icon"), and then select **Open in App designer**.
+3.	On the Sales Professional tile, select the **More options** icon ![More options icon.](media/more-options-icon.png "More options icon"), and then select **Open in App designer**.
 
     The app designer opens.
 

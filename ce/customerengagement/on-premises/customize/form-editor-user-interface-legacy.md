@@ -7,7 +7,7 @@ author: Mattp123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.author: matp
 manager: kvivek
 ms.assetid: 146f8035-4fcd-4572-8e71-4270cd150495
@@ -27,7 +27,7 @@ The form editor displays commands in three tabs: **File**, **Home**, and **Inser
 
 The form editor is divided into three areas: **Navigation**, **Body**, and **Explorer**.  
 
-![Form editor user interface](media/form-user-interface.png)
+![Form editor user interface.](media/form-user-interface.png)
 
 **Navigation**  
 Located on the left side, use the navigation area to control access to related entities or to add links to URLs to be displayed in the main pane of the form. To edit navigation, you must first select the **Navigation** command in the **Select** group of the **Home** tab.
@@ -43,7 +43,7 @@ By default, for the Case, Contact, and Account Main forms, the first section und
 >[!NOTE] 
 > To preserve the card format (as shown in the following image), we recommend that you do not move the quick view form to any other section on the form.
 
-![Card format](media/card-format.png)
+![Card format.](media/card-format.png)
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)  
 
@@ -88,7 +88,7 @@ Select the **File** tab to add/view the following options:
 ## Home tab  
  The **Home** tab displays the commands listed in the following table:
 
-![Home tab](media/home-tab.png)
+![Home tab.](media/home-tab.png)
 
 
 |    Group    |          Command          |                                                                                                                                                                                                                                                                                                         Description                                                                                                                                                                                                                                                                                                          |
@@ -114,7 +114,7 @@ Select the **File** tab to add/view the following options:
 | **Upgrade** |      **Merge forms**      |                                                                                                                                                                                                                                                         If applicable, this option lets you merge this form with a form from a previous version of Dynamics 365 Customer Engagement (on-premises) form                                                                                                                                                                                                                                                         |
 
 ## Insert tab  
-![Insert tab](media/insert-tab.png)
+![Insert tab.](media/insert-tab.png)
 
 The Insert tab displays the commands in the following table:
 

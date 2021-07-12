@@ -373,7 +373,7 @@ By default, Internet Explorer pooling is disabled. To enable pooling, the System
 
 9. Select **Save**.
 
-   ![Enable InternetExplorerPooling option](../../unified-service-desk/unified-interface/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
+   ![Enable InternetExplorerPooling option.](../../unified-service-desk/unified-interface/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
 
 ### See also
 

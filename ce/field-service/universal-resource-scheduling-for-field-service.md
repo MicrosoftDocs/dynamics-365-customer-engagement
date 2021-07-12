@@ -48,7 +48,7 @@ For more detailed information on Universal Resource Scheduling, visit the [Unive
 When Dynamics 365 Field Service is installed, Universal Resource Scheduling installs automatically, and appears in the menu as shown in the following screenshot.
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Screenshot of Universal Resource Scheduling and Field Service apps](media/scheduling-urs-apps.png) 
+> ![Screenshot of Screenshot of Universal Resource Scheduling and Field Service apps.](media/scheduling-urs-apps.png) 
 
 In general, work orders and related entities are a part of Field Service, while resource- and requirement-related entities are part of Universal Resource Scheduling. All work seamlessly together.
 
@@ -77,7 +77,7 @@ When a work order is created and saved, a related requirement automatically gene
 By default, one requirement is created but a single work order can have multiple requirements. Additionally, a requirement group with multiple requirements can also be added to a work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of related requirement](media/scheduling-urs-work-order-related-requirement.png) 
+> ![Screenshot of related requirement.](media/scheduling-urs-work-order-related-requirement.png) 
 
 ### Fields passed from work order to requirements
 
@@ -98,10 +98,10 @@ When a requirement is created, it inherits attributes from the work order, inclu
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Requirement data1](media/scheduling-urs-work-order-related-requirement-number.png) 
+> ![Screenshot of Requirement data1.](media/scheduling-urs-work-order-related-requirement-number.png) 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Requirement data](media/scheduling-urs-work-order-related-requirement-fields.png) 
+> ![Screenshot of Requirement data.](media/scheduling-urs-work-order-related-requirement-fields.png) 
 
 Updating work order attributes will update requirement attributes. Manual edits to requirements can be made before scheduling, too.
 
@@ -126,14 +126,14 @@ You can book from:
 Selecting **Book** from the work order will trigger the Universal Resource Scheduling schedule assistant to match the related work order requirement with available resources.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking from work order](media/scheduling-urs-work-order-book.png) 
+> ![Screenshot of booking from work order.](media/scheduling-urs-work-order-book.png) 
 
 ### Book from the requirement
 
 Like with work orders, the same booking experience can be triggered from the requirement entity, by selecting **Book** while on the requirement.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking requirement](media/scheduling-urs-work-order-related-requirement-book.png) 
+> ![Screenshot of booking requirement.](media/scheduling-urs-work-order-related-requirement-book.png) 
 
 ### Book from the schedule board
 
@@ -141,7 +141,7 @@ The lower schedule board pane displays requirement records and can be configured
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule board](media/scheduling-urs-schedule-board-schedule-assistant.png) 
+> ![Screenshot of schedule board.](media/scheduling-urs-schedule-board-schedule-assistant.png) 
 
 The requirement can be dragged and dropped onto a resource on the schedule board to schedule the work order. Alternatively, selecting  **find availability** on the requirement in the lower pane will trigger the schedule assistant, which recommends the most appropriate resources. 
 
@@ -150,7 +150,7 @@ The requirement can be dragged and dropped onto a resource on the schedule board
 Resource Scheduling Optimization can automatically schedule work order requirements based on predefined schedules or triggers. You can also manually accomplish this by selecting the **Run Now** button.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Resource scheduling Optimization schedule](media/scheduling-urs-rso-schedule.png)
+> ![Screenshot of Resource scheduling Optimization schedule.](media/scheduling-urs-rso-schedule.png)
 
 ## Configure Universal Resource Scheduling for Field Service 
 
@@ -161,7 +161,7 @@ There are a few things you'll need to configure before getting started with Univ
 Go to **Resource Scheduling** > **Administration** > **Enable Resource Scheduling for Entities**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Enabling entities for scheduling](media/Perform-Initial-Configurations-image8.png)
+> ![Screenshot of Enabling entities for scheduling.](media/Perform-Initial-Configurations-image8.png)
 
 This is where administrators decide which entities can be scheduled to resources. When Field Service is installed, work orders are enabled for resource scheduling by default. 
 
@@ -177,14 +177,14 @@ Connecting to a mapping service is critical if you want to geographically displa
 1. To connect a mapping service, navigate to **Resource Scheduling > Administration > Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/Perform-Initial-Configurations-image6.png)  
+> ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu.](media/Perform-Initial-Configurations-image6.png)  
 
 1. Set **Connect to Maps** to **Yes**. Then save and close.
 
 The API key will populate automatically and use the Bing Maps API.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of setting Connect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
+> ![Screenshot of setting Connect to Maps to yes.](media/Perform-Initial-Configurations-image7.png)  
 
 > [!Note]
 > In Field Service version 8.8.10.44+ the Bing Maps API key is hidden, and is unavailable for end users and external parties.   
@@ -198,7 +198,7 @@ Navigate to **Resource Scheduling > Booking Statuses**
 See the following screenshot for the recommended out-of-the-box values.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Booking Statuses](media/scheduling-booking-status-fs.png)
+> ![Screenshot of Booking Statuses.](media/scheduling-booking-status-fs.png)
 
 ### Geo-locate resources
 
@@ -215,12 +215,12 @@ There are **two ways** to geocode your resources.
 Set resource start/end location to **Resource address** and ensure the related resource record (User, Account, Contact) as defined by the resource type has latitude and longitude values.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource address](media/scheduling-resource-address.png)
+> ![Screenshot of resource address.](media/scheduling-resource-address.png)
 
 For example, in the following screenshot, the bookable resource has resource type = Contact; this means the related contact record must be geo-coded, meaning latitude and longitude fields must have values. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource address](media/scheduling-urs-resource-type.png)
+> ![Screenshot of resource address.](media/scheduling-urs-resource-type.png)
 
 > [!NOTE]
 > For routing purposes, the location of a resource is defined as the current work order location, current location of the mobile device, or the start/end location defined here when the other options are not applicable.
@@ -231,7 +231,7 @@ Set resource start/end location to **Organizational Unit Address** and ensure th
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource address](media/scheduling-urs-resource-organizational-unit.png)
+> ![Screenshot of resource address.](media/scheduling-urs-resource-organizational-unit.png)
 
 > [!NOTE] 
 > You may need to add the latitude/longitude fields to the organizational unit entity form.
@@ -242,7 +242,7 @@ To make sure resources are geocoded properly, navigate to **Universal Resource S
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of geo coded resource on map](media/scheduling-urs-schedule-board-locate-resource.png)
+> ![Screenshot of geo coded resource on map.](media/scheduling-urs-schedule-board-locate-resource.png)
 
 ## Additional notes
 

@@ -5,7 +5,7 @@ ms.date: 06/15/2020
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-quote
@@ -30,7 +30,7 @@ The process for adding a product to a quote record is the same as adding a produ
 
 1. From the list of quotes, open the quote record you want to add the product to. 
 
-2. On the **Summary** tab, in the **Products** section, select the **More Commands** button ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **Add New Quote Product**.
+2. On the **Summary** tab, in the **Products** section, select the **More Commands** button ![More Commands button.](media/more-commands-button.png "More Commands button"), and then select **Add New Quote Product**.
 
 3. In the **Quick Create: Quote Product form**, do the following: 
 
@@ -39,7 +39,7 @@ The process for adding a product to a quote record is the same as adding a produ
         - In the **Existing Product** field, select **Lookup** to search for and add a product. Also, select a unit of measurement for the product.
 
           > [!NOTE]
-          > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the product associated with the selected price list are shown in this field. 
+          > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the product associated with the selected price list are shown in this field. In this case, the default view is set to **Products in Parent Price List** view. You can't set a custom view as the default view. Even if you do, the Products lookup will automatically set it back to **Products in Parent Price List** view.
           > - When a price list isn't selected, the **Existing product** field shows all active products (not filtered by the price list). You can change the view to look for other products by selecting the **Change View** icon. 
           > - By default, the product lookup will show the most recently used products. The most recently used products are not filtered based on the selected price list. 
           > - If a price list is selected, and you select a product that isn’t associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
@@ -71,7 +71,7 @@ Here are the actions you can take on the products in the Products grid:
 |--------------------------------------|------------------------------------------------------------------|
 |Edit properties of a product  |Select a product, and on the command bar, select **Edit Properties**. You can change details such as the price, quantity, or discount of the added products. <br/> You can also open the quote product, order product, or invoice product record, and view or change the properties of the product inline on the **Product Properties** tab. |
 |Delete a product associated with the quote |Select the product, and on the command bar, select **Delete Quote Product**. |
-|View products within a bundle | Select the **Chevron** icon ![Chevron icon](media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
+|View products within a bundle | Select the **Chevron** icon ![Chevron icon.](media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
 |See and add related products for cross-selling or upselling or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The **Suggestions** pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
 

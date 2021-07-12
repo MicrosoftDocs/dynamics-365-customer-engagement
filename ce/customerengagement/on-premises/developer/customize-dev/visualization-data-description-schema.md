@@ -4,7 +4,7 @@ description: "The following is the schema for the data description XML string fo
 ms.custom: 
 ms.date: 12/22/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

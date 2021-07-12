@@ -1,10 +1,10 @@
 ---
-title: "Create or edit a chart (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Create and edit charts in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create and edit charts to present data in insightful and graphical ways. Follow these steps to specify what you want to display on the chart."
 ms.custom: 
-description: How to create or eidt a chart.
 ms.date: 09/15/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -66,7 +66,7 @@ Present large quantities of data in your organization in a more insightful and g
 
        The average for Account 1 is 250 because the NULL value wasn’t used. The average for Account 2 is 125 because the zero was used.  
 
-3.  To create a chart with multiple series, select the **Add a series** icon ![add&#95;series](../basics/media/add-series.png "add_series"), select another field to display on the series axis, and then select an aggregate option for that series.  
+3.  To create a chart with multiple series, select the **Add a series** icon ![add&#95;series.](../basics/media/add-series.png "add_series"), select another field to display on the series axis, and then select an aggregate option for that series.  
 
 4.  To change the chart type for a series, select the series, select the **Current chart type** icon for that series, and then select a chart type.  
 
@@ -80,7 +80,7 @@ Present large quantities of data in your organization in a more insightful and g
 
 7.  From the list under **Horizontal (Category)**, select the field to display on the category axis.  
 
-8.  To create a comparison chart with multiple categories, select the **Add a category** icon ![add&#95;series](../basics/media/add-series.png "add_series"), and then select another field to display on the category axis.  
+8.  To create a comparison chart with multiple categories, select the **Add a category** icon ![add&#95;series.](../basics/media/add-series.png "add_series"), and then select another field to display on the category axis.  
 
        You can add only two category items and one series item to a comparison chart.  
 
@@ -154,7 +154,7 @@ Present large quantities of data in your organization in a more insightful and g
 
        The average for Account 1 is 250 because the NULL value wasn’t used. The average for Account 2 is 125 because the zero was used.  
 
-3.  To create a chart with multiple series, select the **Add a series** icon ![add&#95;series](../basics/media/add-series.png "add_series"), select another field to display on the series axis, and then select an aggregate option for that series.  
+3.  To create a chart with multiple series, select the **Add a series** icon ![add&#95;series.](../basics/media/add-series.png "add_series"), select another field to display on the series axis, and then select an aggregate option for that series.  
 
 4.  To change the chart type for a series, select the series, select the **Current chart type** icon for that series, and then select a chart type.  
 
@@ -168,7 +168,7 @@ Present large quantities of data in your organization in a more insightful and g
 
 7.  From the list under **Horizontal (Category)**, select the field to display on the category axis.  
 
-8.  To create a comparison chart with multiple categories, select the **Add a category** icon ![add&#95;series](../basics/media/add-series.png "add_series"), and then select another field to display on the category axis.  
+8.  To create a comparison chart with multiple categories, select the **Add a category** icon ![add&#95;series.](../basics/media/add-series.png "add_series"), and then select another field to display on the category axis.  
 
        You can add only two category items and one series item to a comparison chart.  
 

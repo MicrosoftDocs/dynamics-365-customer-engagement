@@ -48,7 +48,7 @@ Facilities and equipment are resources you’d use to perform services for your 
   
     - **Name**. Enter the name of the facility or equipment you want to add for service scheduling.  
   
-    - **Business Unit**. Dynamics 365 Customer Service enters the business unit automatically. To select a different business unit, select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") and then select from the list.  
+    - **Business Unit**. Dynamics 365 Customer Service enters the business unit automatically. To select a different business unit, select the **Lookup** button ![Lookup button.](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") and then select from the list.  
   
     - **Site**. Select the location where the facility or equipment is located.  
   
@@ -63,7 +63,7 @@ Facilities and equipment are resources you’d use to perform services for your 
   
 6.  When you’re done, select **Save** or **Save and Close**.  
 
-    ![facility-cs-app](media/facility-equipment-cs-app.png)
+    ![facility-cs-app.](media/facility-equipment-cs-app.png)
   
 ### See also  
  [Basics of service and service scheduling](../customer-service/basics-service-service-scheduling.md)

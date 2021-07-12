@@ -3,7 +3,7 @@ title: "Choose and configure columns in views in Dynamics 365 Customer Engagemen
 description: "Learn how to select and configure views for your app"
 keywords: 
 ms.date: 11/08/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

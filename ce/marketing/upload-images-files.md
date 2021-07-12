@@ -39,7 +39,7 @@ Images are an important part of most marketing-page and marketing-email designs.
 
 Whenever you add an image element to a marketing page or email, you can choose to add an image that already exists in your Dynamics 365 Marketing library or upload a new one. After you've uploaded a file in this way, the file will also be available for use in other designs.
 
-![Upload a picture dialog](media/upload-picture.png "Upload a picture by dragging it to the upload dialog box")
+![Upload a picture dialog.](media/upload-picture.png "Upload a picture by dragging it to the upload dialog box")
 
 You can also add images for use later in some future design. You might do this to establish a collection of clip-art images that your message and page designers can use as needed. Go to **Marketing** > **Marketing content** > **Files** to see a list view of all files available to your organization, and then select **New** to upload a new file. You can also find and edit existing images here.
 
@@ -57,9 +57,9 @@ Be careful when editing or deleting keywords. If you edit an existing keyword, a
 
 ## Use images in your content
 
-To add an image to a marketing page or email, start by dragging an image element onto your design, which positions a placeholder. Then select the element with the placeholder image and open the **Properties** tab, where you can define the source, alt text, and link for the image. Select the browse button ![Browse for picture button](media/browse-button.png "Browse for picture button") for **Source** to open an image browser where you can find any image already uploaded to Dynamics 365 Marketing.
+To add an image to a marketing page or email, start by dragging an image element onto your design, which positions a placeholder. Then select the element with the placeholder image and open the **Properties** tab, where you can define the source, alt text, and link for the image. Select the browse button ![Browse for picture button.](media/browse-button.png "Browse for picture button") for **Source** to open an image browser where you can find any image already uploaded to Dynamics 365 Marketing.
 
-![The picture library](media/select-picture.png "Select a picture from the library")
+![The picture library.](media/select-picture.png "Select a picture from the library")
 
 To find an image more quickly, try using the **Filter Keyword** drop-down list to show only images that include the keyword you selected.
 

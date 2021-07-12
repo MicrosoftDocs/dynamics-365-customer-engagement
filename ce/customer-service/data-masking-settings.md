@@ -15,7 +15,7 @@ Use data masking to block sensitive data such as credit card information, social
 Masking rules can be configured to apply to messages sent by a customer, an agent, or both. You must make sure that the masking rules you want applied are set to **Active**; otherwise, they won't apply to the selections you make.
 
    > [!div class=mx-imgBorder]
-   > ![Data-masking rules](media/general-masking-rules.png "Data-masking rules")
+   > ![Data-masking rules.](media/general-masking-rules.png "Data-masking rules")
 
 You can choose to:
 
@@ -37,7 +37,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 ## Create a data-masking rule
 
    > [!div class=mx-imgBorder]
-   > ![Create a masking rule](media/new-masking-rule.png "Create a masking rule")
+   > ![Create a masking rule.](media/new-masking-rule.png "Create a masking rule")
     
 1.	In the site map of the Omnichannel admin center app, select **Agent experience**, and then select **Manage** for **Data masking**. If you're using the Omnichannel Administration app, select **Data Masking** under **Settings**.
 
@@ -54,7 +54,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 5. To test the data masking as defined by the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field. By default, the number sign (#) is used to mask sensitive data.
 
    > [!div class=mx-imgBorder]
-   > ![Email masking rules](media/email-masking-rule.png "Email masking rules")
+   > ![Email masking rules.](media/email-masking-rule.png "Email masking rules")
 
 6. Select **Save**.
 
@@ -63,7 +63,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 After a masking rule is created, you can edit, activate, deactivate, or permanently delete it.
 
    > [!div class=mx-imgBorder]
-   > ![Manage masking rules](media/masking-rule-card.png "Manage masking rules")
+   > ![Manage masking rules.](media/masking-rule-card.png "Manage masking rules")
 
 1.	Under **Masking rules**, select the ellipsis to see the options for managing an existing masking rule.
 

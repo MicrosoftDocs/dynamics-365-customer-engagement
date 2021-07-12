@@ -27,25 +27,27 @@ search.app:
 
 Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural language input assistance, business users can build event-based journeys that reach customers across multiple touch-points, growing relationships from prospects, through sales and support. Dynamics 365 Marketing’s real-time marketing features enable organizations to:
 
-## Engage customers in real-time
+- **Engage customers in real-time**
 
-- With features such as [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom event triggers](real-time-marketing-custom-events.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md), organizations can trigger customer journeys in real-time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
+  With features such as [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom event triggers](real-time-marketing-custom-events.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md), organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
 
-## Win customers and earn loyalty faster
+- **Win customers and earn loyalty faster**
 
-- Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
+  Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
 
-## Personalize customer experiences with AI
+- **Personalize customer experiences with AI**
 
-- Turn insights into relevant action with AI-driven recommendations for content, channels, and analytics.
-- [Customer Insights segment and profile integration](real-time-marketing-ci-profile.md) allows organizations to seamlessly leverage the deep customer understanding in Customer Insights.
+  Turn insights into relevant action with AI-driven recommendations for content, channels, and analytics. 
 
-## Grow with a unified, adaptable platform
+  [Customer Insights segment and profile integration](real-time-marketing-ci-profile.md) allows organizations to seamlessly leverage the deep customer understanding in Customer Insights.
 
-- Easily customize and connect with tools you already use.
-- Efficiently manage compliance requirements and accessibility guidelines.
+- **Grow with a unified, adaptable platform**
 
-To read about all of the new features, check out our [2021 wave 1 release plan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/planned-features). See a [demo of the real-time marketing features in action](https://youtu.be/8yfIwz3Ue3Q?t=961) from Microsoft Ignite 2021.
+  Easily customize and connect with tools you already use.
+
+  Efficiently manage compliance requirements and accessibility guidelines.
+
+To read about all of the new features, check out our [2021 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/planned-features). See a [demo of the real-time marketing features in action](https://youtu.be/8yfIwz3Ue3Q?t=961) from Microsoft Ignite 2021.
 
 > [!NOTE]
-> Preview features are available in the US region. The preview features will be available in the EU region in May. Other regions will be supported at the time of general availability.
+> Preview features are available in the US region. The preview features will be available in the EU region in May 2021. Other regions will be supported at the time of general availability.

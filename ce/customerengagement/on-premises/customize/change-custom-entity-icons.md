@@ -4,7 +4,7 @@ definition: Learn how to change the icon for a custom entity
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -53,7 +53,7 @@ When you create a custom entity, it is automatically assigned a default icon, an
   
 1. Open solution explorer, expand **Entities** if necessary, select the custom entity you want to update the icon for, and then on the command bar, select **Update Icons**.  
   
-2. In the **Select New Icons** dialog box, under **Icon in Web application** or **Icon for Entity Forms**, to the right of **New Icon**, select the **Browse** button ![Lookup button](../customize/media/lookup-button-4.gif "Lookup button"), select the appropriate image file, and then select **OK**.  
+2. In the **Select New Icons** dialog box, under **Icon in Web application** or **Icon for Entity Forms**, to the right of **New Icon**, select the **Browse** button ![Lookup button.](../customize/media/lookup-button-4.gif "Lookup button"), select the appropriate image file, and then select **OK**.  
   
 3. On the command bar, on the **File** menu, select **Save**.  
   

@@ -4,7 +4,7 @@ description: "In Dynamics 365 Customer Engagement (on-premises), solutions give 
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -29,7 +29,7 @@ search.audienceType:
 ---
 # Package and distribute extensions using solutions
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Introduction to solutions](/powerapps/developer/common-data-service/introduction-solutions).
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Solution concepts](/power-platform/alm/solution-concepts-alm).
 
 In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], solutions give you a framework for packaging, installing, and uninstalling components that provide specific business functionality. Solutions are used by ISVs and other Dynamics 365 Customer Engagement (on-premises) solution providers to distribute extensions they create, but you'll also use them to transfer customizations between different organizations you may use in your development process, such as separate development, test, and production organizations.  
   

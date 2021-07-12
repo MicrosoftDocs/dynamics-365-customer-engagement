@@ -33,11 +33,11 @@ Follow the steps in this topic to successfully create Word templates in Dynamics
 
 5.  In the **Create Template Type** pane, select **Word Template**, and then select **Next**.
 
-    ![Select template type in the Create Template wizard](media/select-template-type-create-template-wizard.png "Select template type in the Create Template wizard")
+    ![Select template type in the Create Template wizard.](media/select-template-type-create-template-wizard.png "Select template type in the Create Template wizard")
 
 6.  Select the entity to which the template applies. The template will use data from this entity.
 
-    ![Select entity in the Create Template wizard](media/select-entity-create-template-wizard.png "Select entity in the Create Template wizard")
+    ![Select entity in the Create Template wizard.](media/select-entity-create-template-wizard.png "Select entity in the Create Template wizard")
 
 7.  To add the fields that you want to be included in the Word template, select **Choose Related Entities**. The **Choose Related Entity** dialog box opens.
 
@@ -68,19 +68,19 @@ For more information, see the [Step 4: Upload the Word template back into the Sa
 
 Open the Word template file. At this point, the document appears to be blank.
 
-![Blank Word template](media/blank-word-template.png "Blank Word template")
+![Blank Word template.](media/blank-word-template.png "Blank Word template")
 
 To see and add Dynamics 365 Sales Professional XML data, you need to enable the Word Developer tab.
 
 1.  Go to **File** \> **Options** \> **Customize Ribbon**, and then select the **Developer** check box.
 
-    ![Enable Developer tab in Word](media/enable-developer-tab.png "Enable Developer tab in Word")
+    ![Enable Developer tab in Word.](media/enable-developer-tab.png "Enable Developer tab in Word")
 
 2.  Select **OK**.
 
     The **Developer** tab now appears in the Word ribbon.
 
-    ![Developer tab in Word](media/developer-tab-word.png "Developer tab in Word")
+    ![Developer tab in Word.](media/developer-tab-word.png "Developer tab in Word")
 
 
 ## Step 3: Define the Word template
@@ -89,32 +89,32 @@ Use the XML Mapping Pane to define the Word template with Dynamics 365 Sales Pro
 
 1.  In your Word template, select **Developer** \> **XML Mapping Pane**.
 
-    ![XML Mapping Pane in the Developer tab of Word](media/xml-mapping-developer-tab.png "XML Mapping Pane in the Developer tab of Word")
+    ![XML Mapping Pane in the Developer tab of Word.](media/xml-mapping-developer-tab.png "XML Mapping Pane in the Developer tab of Word")
 
     The default XML schema is selected.
 
-    ![Default XML schema selected in XML Mapping Pane](media/default-xml-schema-selected.png "Default XML schema selected in XML Mapping Pane")
+    ![Default XML schema selected in XML Mapping Pane.](media/default-xml-schema-selected.png "Default XML schema selected in XML Mapping Pane")
 
 2.  Select the Dynamics 365 Sales Professional XML schema. It will begin with “urn:microsoft-crm/document-template/”.
 
-    ![Select the schema for Dynamics 365 Sales Professional](media/select-schema-sales-professional.png "Select the schema for Dynamics 365 Sales")
+    ![Select the schema for Dynamics 365 Sales Professional.](media/select-schema-sales-professional.png "Select the schema for Dynamics 365 Sales")
 
       >[!IMPORTANT]
       >If you have frequent accidental edits that cause Word to freeze or have performance degradation, be sure to turn off the AutoCorrect options according to the section: “A known issue and how to avoid it”.
 
 3.  Expand the entity to see all available fields, right-click the field you wish to add, and then select **Insert Content Control** \> **Plain Text**.
 
-    ![Insert content as Plain Text](media/insert-content-as-plain-text.png "Insert content as Plain Text")
+    ![Insert content as Plain Text.](media/insert-content-as-plain-text.png "Insert content as Plain Text")
 
     The field from Dynamics 365 Sales Professional is added to the Word template.
 
-    ![Field added to Word doc](media/field-added-to-word-doc.png "Field added to Word doc")
+    ![Field added to Word doc.](media/field-added-to-word-doc.png "Field added to Word doc")
 
     Add additional entity fields, add descriptive labels and text, and format the document.
 
     A completed template might look like this:
 
-    ![Complete Word template](media/complete-word-template.png "Complete Word template")
+    ![Complete Word template.](media/complete-word-template.png "Complete Word template")
 
     Some content control fields you entered likely have multiple lines of data. For example, accounts have more than one contact. To include all the data in your Word template, set the content control field to repeat.
 
@@ -124,11 +124,11 @@ Use the XML Mapping Pane to define the Word template with Dynamics 365 Sales Pro
 
 2.  Select the entire table row in the template.
 
-    ![Row selected in a table](media/row-selected-table.png "Row selected in a table")
+    ![Row selected in a table.](media/row-selected-table.png "Row selected in a table")
 
 3.  In the XML Mapping Pane, right-click the relationship containing the content control fields, and then select **Repeating**.
 
-    ![Set the content control fields to repeat in Word template](media/set-content-control-fields.png "Set the content control fields to repeat in Word template")
+    ![Set the content control fields to repeat in Word template.](media/set-content-control-fields.png "Set the content control fields to repeat in Word template")
 
 When you use the Word template in Dynamics 365 Sales Professional to create a document, the table populates with multiple rows of data.
 
@@ -149,7 +149,7 @@ An administrator can use the **Advanced Settings** page to upload the Word templ
 
 3.  Find and upload the file.
 
-    ![Upload Template step of Create Template wizard](media/upload-template-step-create-template-wizard.png "Upload Template step of Create Template wizard")
+    ![Upload Template step of Create Template wizard.](media/upload-template-step-create-template-wizard.png "Upload Template step of Create Template wizard")
 
 4.  Select **Upload**.
 

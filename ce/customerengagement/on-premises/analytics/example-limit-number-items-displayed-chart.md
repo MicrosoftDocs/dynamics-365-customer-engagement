@@ -1,10 +1,10 @@
 ---
-title: "Example: Limit the number of items displayed in a chart (Dynamics 365 for Customer Engagement (on-premises))| MicrosoftDocs"
-description: This example illustrates how to limit the number of items displayed in a chart
+title: "Limit the number of items in a chart in Dynamics 365 Customer Engagement (on-premises)"
+description: "The following example describes how to limit the number of items displayed in a chart in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

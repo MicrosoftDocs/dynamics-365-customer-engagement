@@ -4,7 +4,7 @@ description: "Enable the rich text experience for appointment activities."
 ms.custom: 
 ms.date: 10/28/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,7 +21,7 @@ manager: kvivek
 
 When you enable the rich text experience, server-side synchronization and appointment activities support rich text. With the rich text editor, appointment descriptions can contain rich text. 
 
-![Rich text appointment editor](media/appointment-rich-text.png)
+![Rich text appointment editor.](media/appointment-rich-text.png)
 
 With rich text enabled you get the following benefits:
 

@@ -6,6 +6,10 @@
     href: overview.md
   - name: Release plans
     href: whats-new-customer-service.md
+  - name: Sign up for a free Customer Service trial
+    href: try-customer-service.md
+  - name: Customer Service trial FAQ
+    href: trial-faq.md  
   - name: Learning Catalog
     items: 
     - name: Learning Catalog
@@ -90,6 +94,8 @@
         href: configure-live-chat.md
   - name: User management
     items: 
+    - name: Overview of user management
+      href: overview-users.md
     - name: Create users and assign security roles
       href: /power-platform/admin/create-users-assign-online-security-roles
     - name: Assign roles and enable users
@@ -194,6 +200,8 @@
         href: trigger-routing-non-case-records.md
   - name: Case management
     items: 
+    - name: Overview of case management
+      href: overview-cases.md
     - name: Administrator experience
       items: 
       - name: Define parent and child cases
@@ -259,19 +267,19 @@
   - name: Email
     items: 
     - name: Use email
-      href: customer-service-hub-user-guide-email-overview.md
+      href: /powerapps/user/view-create-email
     - name: Email templates
       items: 
       - name: Create an email template
-        href: customer-service-hub-user-guide-email-create-template.md
+        href: /powerapps/user/email-template-create
       - name: Insert an email template
-        href: customer-service-hub-user-guide-email-insert-template.md
+        href: /powerapps/user/insert-email-template
       - name: Convert an email to a template
-        href: customer-service-hub-user-guide-email-convert-template.md
-      - name: Use a signature in email
-        href: customer-service-hub-user-guide-email-create-signature.md
+        href: /powerapps/user/email-template-convert
+      - name: Create a signature for emails
+        href: /powerapps/user/email-signature.md
     - name: Email FAQs and known issues
-      href: email-faqs.md
+      href: /powerapps/user/activities-known-issues
     - name: Administrator experience
       items: 
       - name: Configure the email form order
@@ -283,9 +291,9 @@
     - name: Configure timeline
       href: customer-service-hub-user-guide-timeline-admin.md
     - name: Use timeline
-      href: customer-service-hub-user-guide-timeline-overview.md
-    - name: Timeline FAQs
-      href: timeline-faqs.md
+      href: /powerapps/user/add-activities
+    - name: FAQs about Activities and the Timeline Wall
+      href: /powerapps/user/faq-for-timeline-and-activity
   - name: Knowledge management
     items: 
     - name: Administrator experience
@@ -1187,11 +1195,15 @@
       - name: Methods
         items: 
         - name: getConversationID
-          href: developer/reference/methods/getConversationId.md
+          href: developer/reference/methods/getConversationId.md        
         - name: linkToConversation
           href: developer/reference/methods/linkToConversation.md
         - name: unlinkFromConversation
           href: developer/reference/methods/unlinkFromConversation.md
+        - name: getConversations
+          href: developer/reference/methods/getConversations.md
+        - name: openConversation
+          href: developer/reference/methods/openConversation.md  
     - name: runMacro
       href: developer/reference/methods/runMacro.md
     - name: Action Reference

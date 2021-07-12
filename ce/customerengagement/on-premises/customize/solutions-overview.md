@@ -5,7 +5,7 @@ ms.custom:
   - dyn365-deflc
 ms.date: 12/04/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -112,7 +112,7 @@ If you’re an ISV creating an app that you will distribute, you’ll need to us
 ### How solutions are applied  
  All solutions are evaluated as layers to determine what your app will actually do. The following diagram shows how managed and unmanaged solutions are evaluated and how changes in them will appear in your organization.  
   
- ![Solution layering](../customize/media/solution-layering.png "Solution layering")  
+ ![Solution layering.](../customize/media/solution-layering.png "Solution layering")  
   
  Starting from the bottom and working up to top:  
   

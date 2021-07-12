@@ -1,9 +1,10 @@
 ---
-title: "Print leads, quotes, and other records (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Print records from Dynamics 365 Customer Engagement (on-premises)"
+description: "If you need a paper copy of a record such as a lead, quote, or invoice, this page walks you through the steps to print records individually or as a list."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -26,7 +27,7 @@ When you need a paper copy of a record such as a contact, lead, quote, or invoic
   
 1. Go to the record you want to print. For example, to print a lead, go to **Sales > Leads** and select a record.  
   
-2. Select the **Options**  button ![Options button for Dynamics 365 Customer Engagement (on-premises)](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises)") at the top right corner of the screen.  
+2. Select the **Options**  button ![Options button for Dynamics 365 Customer Engagement (on-premises).](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises)") at the top right corner of the screen.  
   
     (In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], select **File > Print**.)  
   
@@ -40,7 +41,7 @@ When you need a paper copy of a record such as a contact, lead, quote, or invoic
   
 1. Go to the list you want to print. For example, to print a list of invoices, go to **Sales > Invoices**.  
   
-2. Select the **Options**  button ![Options button for Dynamics 365 Customer Engagement (on-premises)](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises)") at the top right corner of the screen.  
+2. Select the **Options**  button ![Options button for Dynamics 365 Customer Engagement (on-premises).](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises)") at the top right corner of the screen.  
   
     (In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], select **File > Print**.)  
   

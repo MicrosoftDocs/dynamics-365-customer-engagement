@@ -15,12 +15,12 @@ manager: shujoshi
 Agent scripts in Omnichannel for Customer Service provide guidance about what you (an agent) should do when you get a customer issue and ensure that you share only accurate and company-endorsed information. Agent scripts help you be accurate, effective, and efficient in customer handling.
 
 > [!div class='mx-imgBorder']
-> ![Productivity pane](media/productivity-pane-agent-script.PNG "Productivity pane")
+> ![Productivity pane.](media/productivity-pane-agent-script.PNG "Productivity pane")
 
 ## Components in agent script
 
 > [!div class='mx-imgBorder']
-> ![Components in agent script](media/agent-script-section.PNG "Components in agent script")
+> ![Components in agent script.](media/agent-script-section.PNG "Components in agent script")
 
 1. Agent script menu
 2. Text instructions
@@ -50,7 +50,7 @@ The text instruction provides guidance on the actions you need to perform. The s
 | Greet customer | Greet the customer with welcome message from the quick reply repository.|
 
 > [!div class='mx-imgBorder']
-> ![Agent script text instruction](media/agent-script-text-instruction.PNG "Agent script text instruction")
+> ![Agent script text instruction.](media/agent-script-text-instruction.PNG "Agent script text instruction")
 
 ## Macro
 
@@ -65,14 +65,14 @@ A macro is a set of instructions that tells the system how to complete a task. W
 In this example, when an agent selects the **Macro** icon, the system opens a new **Create case** form in the application tab panel with prepopulated fields based on the customer context.
 
 > [!div class='mx-imgBorder']
-> ![Agent script macro](media/agent-script-run-macro.PNG "Agent script macro")
+> ![Agent script macro.](media/agent-script-run-macro.PNG "Agent script macro")
 
 ## Agent script
 
 The step is used to load another agent script from the current agent script. When you select the view icon, the system loads the agent script. You can see that newly loaded script replaces the current script in the Agent script menu.
 
 > [!div class='mx-imgBorder']
-> ![Agent script](media/agent-script-view.PNG "Agent script")
+> ![Agent script.](media/agent-script-view.PNG "Agent script")
 
 ## Sample agent script
 

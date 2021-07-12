@@ -33,7 +33,7 @@ The materials provide details on three main aspects of integrating Field Service
 Below is some example architecture for how the SAP Industry-Specific Utility "meter to cash" solution will interact with Dynamics 365 Field Service.
 
 > [!div class="mx-imgBorder"]
-> ![Illustration of a model showing the architecture of Dynamics 365 and SAP integration](./media/sap-integration-meter-cash-example.png)
+> ![Illustration of a model showing the architecture of Dynamics 365 and SAP integration.](./media/sap-integration-meter-cash-example.png)
 
 
 ## Additional notes

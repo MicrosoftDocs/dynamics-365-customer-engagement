@@ -31,6 +31,10 @@ Reports in Dynamics 365 Field Service can help you get a birds-eye understanding
 - How an individual technician performs on all key metrics
 - Insights around specific territories, from work order volume to travel time and more
 
+## Prerequisites
+
+- This feature is only available in non-trial instances of Field Service.
+
 ## Reports overview
 
 To find reports, go to **Field Service** > **Service** > **Analytics and Insights** > **Reports (Preview)**.
