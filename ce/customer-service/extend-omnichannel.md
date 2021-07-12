@@ -20,7 +20,7 @@ Microsoft Dynamics 365 supports several scenarios to extend Omnichannel for Cust
 
 **Telephony:** You can integrate a third-party telephony system. For example, in a contact center, you can bring the softphone provider of your choice directly into the agent experience. This telephony integration ensures that incoming and outgoing voice calls are handled in a single agent experience, and that all necessary data is passed between the telephony system and Microsoft Dynamics 365.
 
-**Additional Digital Channels:** Beyond the digital channels such as web chat and Facebook Messenger that are provided out of the box with the Digital Messaging Add-on, you might need additional custom channels. These might include channels that your organization has created for use internally.
+**Additional Digital Channels:** Beyond the digital channels such as web chat and Facebook Messenger that are provided out of the box with the Digital Messaging Add-on, you might need other custom channels. These might include channels that your organization has created for use internally.
 
 **Custom Experiences:** For some organizations, highly customized experiences from a user endpoint perspective might be needed. For example, an organization that wants to create a highly customized app that embeds the Omnichannel for Customer Service messaging capabilities might need to go beyond the standard canvas approach.
 
@@ -30,7 +30,7 @@ The following table shows the SKUs that correspond with each experience.
 |---------------------------------------------------------------------|------------|------------|------------|
 | Telephony (via third-party)          | Yes | Yes | Yes |
 | Web chat  | - | Yes | Yes |
-| Social channels including Facebook Messenger, WeChat, Teams, SMS and WhatsApp  | - | - | Yes |
+| Social channels including Facebook Messenger, WeChat, Teams, SMS, and WhatsApp  | - | - | Yes |
 | Custom chat and messaging channels via Direct Line  | - | - | Yes |
 
 

@@ -122,7 +122,7 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 > [!div class="mx-imgBorder"]
 > ![Conversation Topics.](media/conversation-topics-dashboard.png "Conversation Topics")
 
-For more details about the Topics dashboard, see [Topics dasboard](oc-conversation-topics-dashboard.md)
+For more details about the Topics dashboard, see [Topics dashboard](oc-conversation-topics-dashboard.md)
 
 
 ## Information that you need to know about the analytics reports
