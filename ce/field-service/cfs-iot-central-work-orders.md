@@ -1,9 +1,9 @@
 ---
 title: "Send work order updates to Azure IoT Central | MicrosoftDocs"
 description: Learn how to send work order updates to IoT Central.
-ms.custom: dyn365-fieldservice
 ms.date: 09/24/2018
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 ms.topic: article
 ms.author: daclar
 author: FieldServiceDave
@@ -30,19 +30,19 @@ Make Connected Field Service send service information to Azure IoT Central when 
 3. Select "Create a flow" in the top menu bar.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Create a Flow option in Connected Field Service](media/iot-central-work-orders-1.png)
+> ![Screenshot of the Create a Flow option in Connected Field Service.](media/iot-central-work-orders-1.png)
 
 4. From the list of available templates, select "**Sample Contoso- When a work order is created in Connected Field Service, update IoT Central"**
 
 Note: Alternatively, you can navigate directly to [the Power Automate templates page](https://preview.flow.microsoft.com/templates/) and search "CFS" to find this template, as seen below.
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Connected Field Service templates in Power Automate](media/iot-central-work-orders-2.png)
+> ![Screenshot of Connected Field Service templates in Power Automate.](media/iot-central-work-orders-2.png)
 
 5. Sign into Power Automate with your Dynamics 365 organization, along with your associated IoT Central account.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the account association page in Power Automate](media/iot-central-work-orders-4.png)
+> ![Screenshot of the account association page in Power Automate.](media/iot-central-work-orders-4.png)
 
 6. The template will be mostly ready to run; you only need to make the following changes (see the screenshots below for reference):
 
@@ -59,10 +59,10 @@ Note: Alternatively, you can navigate directly to [the Power Automate templates 
     f. **Note**: Running this flow will not add work order information retroactively---only devices going forward will be updated on the device page in Azure IoT Central.
     
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions](media/iot-central-work-orders-5.png)
+> ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions.](media/iot-central-work-orders-5.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions](media/iot-central-work-orders-6.png)
+> ![Screenshot of the Flow template, with letters as reference points to correspond to the instructions.](media/iot-central-work-orders-6.png)
 
 1. Save the Flow to make it run.
 
@@ -72,7 +72,7 @@ Note: Alternatively, you can navigate directly to [the Power Automate templates 
 After you've saved the flow, head on back to your Azure IoT Central environment. Select the device that has triggered an alert and a work order in Connected Field Service. You should now see the work order information populated in the fields on the IoT Central device properties page.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the updated device page in Azure IoT Central, which now includes work order information](media/iot-central-work-orders-7.png)
+> ![Screenshot of the updated device page in Azure IoT Central, which now includes work order information.](media/iot-central-work-orders-7.png)
 
 > [!div class="nextstepaction"]
 > [Step 4: Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)

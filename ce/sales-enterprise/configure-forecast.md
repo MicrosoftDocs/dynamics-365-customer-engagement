@@ -35,13 +35,13 @@ As an administrator or forecast manager, you can configure forecasts in your org
 By default, forecasting is available in your organization and the following page is displayed when you select **Forecast configuration**:
 
 > [!div class="mx-imgBorder"]
-> ![Forecasting configuration page](media/forecast-enable-forecasting-enabled.png "Forecasting configuration page") 
+> ![Forecasting configuration page.](media/forecast-enable-forecasting-enabled.png "Forecasting configuration page") 
 
 **To go to forecast configuration page**
 
 1.  Sign in to the **Sales Hub** app.
 
-2.  In the site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**. 
+2.  In the site map, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**. 
 
 3.  Under **Performance management**, select **Forecast configuration**.
 
@@ -52,12 +52,12 @@ Also, you can observe the following changes in the **Sales Hub** app:
 -	**Forecasts** appears under **Performance** in the **Sales** site map.
 
     > [!div class="mx-imgBorder"]
-    > ![Forecasts option in sales site map](media/forecast-select-sales-performance-forecasts.png "Forecasts option in the Sales site map")
+    > ![Forecasts option in sales site map.](media/forecast-select-sales-performance-forecasts.png "Forecasts option in the Sales site map")
  
 -	**Forecast category** appears on the **Opportunity** form. The categories define the confidence level of closing an opportunity. If necessary, you can add custom values specifically defined for your organization. To learn more, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).
 
     > [!div class="mx-imgBorder"]
-    > ![Forecast category option in opportunity form](media/capture-forecast-category-opportunity-form.png "Forecast category in an opportunity form")
+    > ![Forecast category option in opportunity form.](media/capture-forecast-category-opportunity-form.png "Forecast category in an opportunity form")
 
     > [!NOTE]
     > **Forecast category** options consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as **Won** or **Lost**, the forecast category automatically changes status through the **Opportunity Forecast Category Mapping Process** out-of-the-box workflow. <br>

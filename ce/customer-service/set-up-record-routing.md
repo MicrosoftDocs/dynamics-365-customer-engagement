@@ -38,7 +38,7 @@ To provision unified routing in Customer Service, do the following:
    - A request to grant consent to access data.
 
       > [!div class=mx-imgBorder]
-      > ![Consent to allow access to data](media/data-consent.png "Consent to allow access to data")
+      > ![Consent to allow access to data.](media/data-consent.png "Consent to allow access to data")
 
      The permissions are as follows:
       - **Access Common data Service as organization users**: Is required by Omnichannel for Customer Service to write conversation data to Dynamics 365 on behalf of the agent.
@@ -58,7 +58,7 @@ After unified routing is provisioned, for Customer Service users, the site map i
 
 However, the site map will also be updated with the **Unified Routing** area for users of Customer Service and Omnichannel for Customer Service if you install or upgrade Omnichannel for Customer Service.
 
-> ![Site map view for unified routing](media/unified-routing-site-map.png)
+> ![Site map view for unified routing.](media/unified-routing-site-map.png)
 
 ## Configure unified routing for records
 
@@ -100,13 +100,13 @@ Perform the following steps to configure the intake rules:
 2. In the **Intake rules** area, select **Create rule**.
 3. In the **Create intake rule** dialog box, enter a name and define the conditions for the rule.
 
-   ![Intake rule](media/ur-intake-rule.png "Intake rule")
+   ![Intake rule.](media/ur-intake-rule.png "Intake rule")
 
 4. Select **Create**.
 
 The following screenshot shows a workstream with the required intake rule and route to queues.
 
-![Workstream for a case record](media/ur-record-routing-workstream.png "Workstream for a case record")
+![Workstream for a case record.](media/ur-record-routing-workstream.png "Workstream for a case record")
 
 ### Configure work distribution and advanced settings
 

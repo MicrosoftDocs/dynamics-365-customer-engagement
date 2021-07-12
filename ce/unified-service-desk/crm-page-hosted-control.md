@@ -28,7 +28,7 @@ This hosted control type exposes a number of predefined UII actions and events t
 
 While you're creating a new hosted control, the fields on the **New Hosted Control** screen will vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the CRM Page hosted control type. More information: [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)
 
- ![CRM Page hosted control](../unified-service-desk/media/crm-itpro-usd-crmpagehostedcontrol.PNG "CRM Page hosted control")  
+ ![CRM Page hosted control.](../unified-service-desk/media/crm-itpro-usd-crmpagehostedcontrol.PNG "CRM Page hosted control")  
 
 On the **New Hosted Control** screen:
 

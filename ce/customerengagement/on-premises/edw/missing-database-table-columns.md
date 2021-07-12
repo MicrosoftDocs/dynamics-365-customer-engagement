@@ -1,7 +1,7 @@
 ---
 title: "Missing database table columns | Microsoft Docs"
 description: Environment diagnostics warning that table columns are missing.
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

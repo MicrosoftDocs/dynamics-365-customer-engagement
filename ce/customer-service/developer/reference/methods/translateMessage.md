@@ -135,7 +135,7 @@ The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageRe
 3. In case the returned response is invalid or incomplete, an error message on the translation banner will appear in the conversation control.
 4. If this method is not implemented, then the message will not be translated and the following error message will be displayed to the agent.
 
-![translateMessage error message](../../../media/translatemessage-api-error.png "translateMessage error message")
+![translateMessage error message.](../../../media/translatemessage-api-error.png "translateMessage error message")
 
 ### See also
 

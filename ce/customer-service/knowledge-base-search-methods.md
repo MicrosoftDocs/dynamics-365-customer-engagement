@@ -47,7 +47,7 @@ You can search the knowledge base from the following areas in the Customer Servi
 
 - **Knowledge base search control**. In the app, select a case by navigating to **Service** > **Cases**. In the **Related** section (also known as Reference panel), select **Knowledge Base Search** and search for knowledge articles using keywords in the search box. 
   
-  ![Knowledge base search control](media/kb-search-control.png)
+  ![Knowledge base search control.](media/kb-search-control.png)
 
    To explore more options in the knowledge base search given in the Related section, see [Search for knowledge articles](search-knowledge-articles-csh.md).
 
@@ -59,7 +59,7 @@ You can search the knowledge base from the following areas in the Customer Servi
 
 - **Quick find in Grids**. In the app, go to **Service** > **Knowledge Articles**, and select the search box to search the knowledge base using keywords. 
 
-   ![Quick find search](media/quick-find-search.png)
+   ![Quick find search.](media/quick-find-search.png)
 
   
 > [!NOTE]

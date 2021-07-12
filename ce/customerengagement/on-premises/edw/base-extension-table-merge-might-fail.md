@@ -1,7 +1,7 @@
 ---
 title: "The Base Extension table merge process might fail due to limits on SQL Server table row size | Microsoft Docs"
 description: Environment diagnostics warning that table merge might fail
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

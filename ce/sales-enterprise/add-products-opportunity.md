@@ -59,7 +59,7 @@ You can take the following actions on the products added to the **Product Line I
 |--------------------------------------|--------------------------------------------------------------|
 |Edit the properties of a product.  |Select the product, and on the command bar, select **Edit Properties**. You can change details such as the price, quantity, or discount of the added products. <br/> You can also open the opportunity product record, and view or change the properties of the product inline on the **Product Properties** tab. |
 |Delete a product associated with the opportunity. |Select the product, and on the command bar, select **Delete Opportunity Product**. |
-|View products within a bundle. | Select the **Chevron** icon ![Chevron icon](media/chevron-icon.png "Chevron icon") for the product bundle. You'll see all the products that are included in the bundle. |
+|View products within a bundle. | Select the **Chevron** icon ![Chevron icon.](media/chevron-icon.png "Chevron icon") for the product bundle. You'll see all the products that are included in the bundle. |
 |See and add related products for cross-selling or upselling, or select an accessory or substitute product. | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |Group specific records together by moving a record up or down in the grid. | Select the record, and on the command bar, use the **Up** or **Down** button. |
 

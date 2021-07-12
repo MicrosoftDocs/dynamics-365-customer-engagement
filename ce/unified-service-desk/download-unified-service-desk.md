@@ -47,7 +47,7 @@ This topic provides information about the location from where you can download v
 >
 > - To download older versions of Unified Service Desk, use the version selector and choose a version to see the download links.
 >
-> ![Select a version using the version selector](media/usd-version-selector.PNG "Unified Service Desk version selector")
+> ![Select a version using the version selector.](media/usd-version-selector.PNG "Unified Service Desk version selector")
 
 ::: moniker-end
 

@@ -94,6 +94,8 @@
         href: configure-live-chat.md
   - name: User management
     items: 
+    - name: Overview of user management
+      href: overview-users.md
     - name: Create users and assign security roles
       href: /power-platform/admin/create-users-assign-online-security-roles
     - name: Assign roles and enable users
@@ -198,6 +200,8 @@
         href: trigger-routing-non-case-records.md
   - name: Case management
     items: 
+    - name: Overview of case management
+      href: overview-cases.md
     - name: Administrator experience
       items: 
       - name: Define parent and child cases
@@ -263,19 +267,19 @@
   - name: Email
     items: 
     - name: Use email
-      href: /powerapps/user/view-create-email.md
+      href: /powerapps/user/view-create-email
     - name: Email templates
       items: 
       - name: Create an email template
-        href: /powerapps/user/email-template-create.md
+        href: /powerapps/user/email-template-create
       - name: Insert an email template
-        href: /powerapps/user/insert-email-template.md
+        href: /powerapps/user/insert-email-template
       - name: Convert an email to a template
-        href: /powerapps/user/email-template-convert.md
+        href: /powerapps/user/email-template-convert
       - name: Create a signature for emails
         href: /powerapps/user/email-signature.md
     - name: Email FAQs and known issues
-      href: /powerapps/user/activities-known-issues.md
+      href: /powerapps/user/activities-known-issues
     - name: Administrator experience
       items: 
       - name: Configure the email form order
@@ -287,9 +291,9 @@
     - name: Configure timeline
       href: customer-service-hub-user-guide-timeline-admin.md
     - name: Use timeline
-      href: /powerapps/user/add-activities.md
+      href: /powerapps/user/add-activities
     - name: FAQs about Activities and the Timeline Wall
-      href: /powerapps/user/faq-for-timeline-and-activity.md
+      href: /powerapps/user/faq-for-timeline-and-activity
   - name: Knowledge management
     items: 
     - name: Administrator experience

@@ -3,7 +3,7 @@ title: "Types of fields and field data types with Dynamics 365 Customer Engageme
 description: "Understand the different field and data types available for your app"
 keywords: 
 ms.date: 04/29/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -86,7 +86,7 @@ You can use global option sets that are defined in your organization to configur
 
 - Select New to create a global option set.
 
-    ![MultiSelect Option Set](../customize/media/MultiSelect_GlobalOptionSet.png "MultiSelect option Set") 
+    ![MultiSelect Option Set.](../customize/media/MultiSelect_GlobalOptionSet.png "MultiSelect option Set") 
 
 More information: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing global option sets](../customize/create-edit-global-option-sets.md)
 
@@ -187,7 +187,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
  When image display is enabled for an entity, any records that don’t have an image will display a placeholder image. For example, the Lead entity:  
 
- ![Placeholder image for Lead entity form in Dynamics 365 for Customer Engagement](../customize/media/lead-entity-form.PNG "Placeholder image for Lead entity form in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Placeholder image for Lead entity form in Dynamics 365 for Customer Engagement.](../customize/media/lead-entity-form.PNG "Placeholder image for Lead entity form in Dynamics 365 Customer Engagement (on-premises)")  
 
  People can choose the default image to upload a picture from their computer. Images must be less than 5120 KB and must one of the following formats:  
 

@@ -37,7 +37,7 @@ Find and note the **Org ID** of your Dynamics 365 environment you wish to add pr
 You can find the org ID in **Settings** > **Customizations** > **Developer Resources**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of developer resources in Field Service](./media/preview-orgid.png)
+> ![Screenshot of developer resources in Field Service.](./media/preview-orgid.png)
 
 Make sure your PC computer has PowerShell installed. If not, [install it](/powershell/scripting/install/installing-powershell?view=powershell-7).
 
@@ -139,7 +139,7 @@ In the left pane, go to **Resources** > **Dynamics 365 apps** and find **Dynamic
 Select the app and choose install.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of installing preview solution in Power Apps admin](./media/inspections-install.png)
+> ![Screenshot of installing preview solution in Power Apps admin.](./media/inspections-install.png)
 
 Then select your environment from the list, agree to the terms of service, and select **Install**.
 
