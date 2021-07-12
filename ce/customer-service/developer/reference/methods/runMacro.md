@@ -21,7 +21,7 @@ Allows you to execute a macro that was created using Macro Designer.
 
 | Parameter | Type | Required | Description |
 | ---- | ---- | ---- | ---- |
-| `macroName` | String | Yes | Name of the macro that is to be executed.  |
+| macroName | String | Yes | Name of the macro that is to be executed.  |
 
 ## Returns
 

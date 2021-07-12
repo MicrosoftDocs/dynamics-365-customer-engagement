@@ -34,7 +34,7 @@ This SDK is applicable only if authentication is enabled for the widget. To enab
 
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
-| `authTokenProvider` | Function | Function which when invoked with a callback function as an argument, fetches the JWT token and invokes the callback function with the JWT token as its argument  |
+| authTokenProvider | Function | Function which when invoked with a callback function as an argument, fetches the JWT token and invokes the callback function with the JWT token as its argument  |
 
 ## Return Value
 
