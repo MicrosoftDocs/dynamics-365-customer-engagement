@@ -28,7 +28,7 @@ This function can be used to fetch a list of conversation (`msdyn_ocliveworkitem
 
 ## Return Value
 
-Returns a resolved or reject promise based on the outcome of the operation. 
+Returns a resolved or rejected promise based on the outcome of the operation. 
 
 > [!Note] 
 > Even if the caller doesn't pass any attributes in the input, the function returns the records with the following default attributes: 

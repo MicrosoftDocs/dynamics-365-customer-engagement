@@ -28,7 +28,7 @@ This function can be used to open a conversation as a session programmatically.
 
 ## Return Value
 
-Returns a resolved or reject promise based on the outcome of the operation. 
+Returns a resolved or rejected promise based on the outcome of the operation. 
 
 ## Example
 
