@@ -157,6 +157,7 @@ Now that you've added the Account, Contacts, and Leads table entities to the sol
 
 ### Customize form components   
 Now that you've added the forms to the table entities, you can customize how the ZoomInfo inline pages will display within the standard form component used with your Account, Leads, and Contacts pages. Perform the customization in classic mode.
+
 1.	From the form page of the **Account** form, select **Switch to classic**.
 
     > [!div class="mx-imgBorder"]
