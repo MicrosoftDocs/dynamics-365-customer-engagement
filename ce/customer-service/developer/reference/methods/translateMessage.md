@@ -25,7 +25,7 @@ This method is required to be implemented in web resource. This method is called
 
 |Name|Type|Description|
 |----|----|----|
-|`translationConfig`|Javascript object| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
+|`translationConfig`|JavaScript object| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
 
 Here is the structure of `translationConfig` parameter.
 
@@ -81,7 +81,7 @@ translationConfig = {
 
 ## Return Value
 
-Returns a promise that resolves to a Javascript object implementing `TranslatedMessageResponse` interface.
+Returns a promise that resolves to a JavaScript object implementing `TranslatedMessageResponse` interface.
 
 **Interface object**
 
