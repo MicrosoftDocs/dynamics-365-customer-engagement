@@ -21,7 +21,7 @@ search.audienceType:
 ---
 # Introduction to solutions
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Introduction to solutions](/powerapps/developer/common-data-service/introduction-solutions).
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Solution concepts](/power-platform/alm/solution-concepts-alm).
 
 *Solutions* are how customizers and developers author, package, and maintain units of software that extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Customizers and developers distribute solutions so that organizations can use Dynamics 365 Customer Engagement (on-premises) to install and uninstall the business functionality defined by the solution.  
   

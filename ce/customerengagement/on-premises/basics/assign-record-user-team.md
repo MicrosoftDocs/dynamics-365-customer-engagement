@@ -1,5 +1,6 @@
 ---
-title: "Assign a record to a user or team (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Assign records in Dynamics 365 Customer Engagement (on-premises)"
+description: "If you'd like another person to handle an account or contact, you can assign them that record. You can also assign a record to a team, or to yourself."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
@@ -24,7 +25,7 @@ search.audienceType:
 
 [!INCLUDE [applies-to-unified-interface](../includes/applies-to-unified-interface.md)] [Assign or share records](/powerapps/user/assign-or-share-records)
 
-If you would like another person in your organization to handle an account or contact for you, you can assign the record to that person.  
+If you'd like another person in your organization to handle an account or contact for you, you can assign the record to that person.  
   
  You can also assign a record to a team, or to yourself.  
   
@@ -45,7 +46,7 @@ If you would like another person in your organization to handle an account or co
   
         Select **Lookup**, and then select **Look Up More Records**. From the **Look for** drop-down list, select **User** or **Team**. In the **Search** box, type the name, select the search icon, and then select the name to select it. Select **Add**.  
   
-4. Select **OK**
+4. Select **OK**.
  
 
 
@@ -79,7 +80,7 @@ If you would like another person in your organization to handle an account or co
   
         Select **Lookup**, and then select **Look Up More Records**. From the **Look for** drop-down list, select **User** or **Team**. In the **Search** box, type the name, select the search icon, and then select the name to select it. Select **Add**.  
   
-4. Select **OK**
+4. Select **OK**.
  
 
 
