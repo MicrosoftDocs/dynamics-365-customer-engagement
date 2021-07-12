@@ -10,41 +10,30 @@ manager: shujoshi
 
 # Modify case resolution dialog box
 
-As an administrator, you can customize the case resolution form and support case resolution entities. By customizing the case resolution form, you can help managers identify recurring issues and proven resolution patterns to inform other incident responses. 
-You can customize the case dialog box to add fields such as resolution type to suit your business needs. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
+As an administrator, you can customize the case resolution form and support case resolution entities. By customizing the case resolution form, your organization can cater the resolution process to suit your business needs.  
+You can customize the case dialog box to add fields such as resolution type to suit your business needs or remove fields like Billable time if they don't apply to your business scenarios. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
 
 > [!Note]
 > The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. 
 > More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
 
-<!--
-Use the following steps to get started:
-
-- **Step 1:** Set permissions (required)
-- **Step 2:** Enable customizable dialog (required)
-- **Step 3:** Create status values
-  - Case entity (status code)
-  - Case Resolution entity (resolution type code)
-- **Step 4:** Edit form
--->
 ## Check permissions
 
 Make sure that the Customer Service Manager and Customer Service Representative security roles have the following permissions set for **Environment Variable Definition**:
 
 - **Customer Service Manager**: Create, Read, and Write
+- **Customer Service Representative**: Read 
 
-> [!div class=mx-imgBorder]
-> ![Security Role: Customer Service Representative.](media/csr-setting-case-resolution.png "Security Role: Customer Service Representative")
-
-> [!div class=mx-imgBorder]
-> ![Security Role: Customer Service Representative (CSR) Manager.](media/csr-manager-setting-case-resolution.png "Security Role: Customer Service Representative (CSR) Manager")
 
 > [!Note]
 > If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
 
 ## Enable customizable dialog
 
-You must enable the Customizable dialog option to be able to make changes to your form. **Standard dialog** is the default option.
+You must enable the Customizable dialog option to ensure that the changes you make are reflected on the Resolve Case dialog when you select the Resolve case button.
+
+> [!Note]
+> **Standard dialog** is the default option.
 
 To enable customizable dialog:  
 
@@ -54,17 +43,17 @@ To enable customizable dialog:
 
 3. In the **Resolve case dialog** option, and select **Customizable dialog** from the dropdown list.
 
-  > [!div class=mx-imgBorder]
-  > ![Enable customizable dialog.](media/case-resolution-entity.png "Enable customizable dialog")
-
+4. Select **Save**. The Customizable dialog option is now enabled, and any changes you make to your form are now displayed at runtime. 
 
 ## Create and add custom status values
 
-After you enable customizable dialog, you can create status values in your form. You should add the custom status values in the following two locations. Also, if you change the value in the **Case entity**, you must update the value in the **Case Resolution entity** so they match.
+After you enable customizable dialog, you can create status values in your form. You should add the custom status values in the following two locations:
 
 - **Case entity** (**statuscode** in our example)
 - **Case Resolution entity** (**resolutiontypecode** in our example)
 
+> [!Important]
+> If you change the value in the **Case entity**, you must update the value in the **Case Resolution entity** so they match. An error may be thrown if these options don't match. If the values don't match in the customizable dialog, the option that you specified won't show up.
 
 <!-- content appears redundant
 ## Customize Case entity and Case Resolution entity
@@ -99,118 +88,54 @@ To set the case entity for duplicate case:
 
 2. In the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
 
-  > [!div class=mx-imgBorder]
-  > ![Expand Entities and then expand Case.](media/case_resolution_1a.png "Expand Entities and then expand Case")
+3. On the page that appears, select the field you want to update. For this example, let's select **statuscode** in the **Name** column. 
 
 4. Double-click the **statuscode** field. The **General** tab of **Status Reason of Case** is displayed.
 
-
-  > [!div class=mx-imgBorder]
-  > ![Select the field to update.](media/case_resolution_3.png "Select the field to update")
+5. In the **Status** dropdown list in the **Type** section, select a status. For this example, let's select **Resolved** and then select **Add**. 
+    The **Add List Value** dialog box is displayed. 
 
 6. In the **Label** field, enter **Duplicate** and note down the value listed in the **Value** field.  
 
-   You've successfully added a duplicate status to the case entity&mdash;**statuscode**.  
+7. Select **OK**. You've successfully added a duplicate status to the case entity&mdash;**statuscode**.  
 
 ### Update case resolution entity
-  > [!div class=mx-imgBorder]
-  > ![Select Resolved.](media/case_resolution_4.png "Select Resolved")
-When you select **Add**, the **Add List Value** dialog box will appear. 
-
-**Step 7:**  In the **Label** field, enter **Duplicate**. 
-
-  > [!div class=mx-imgBorder]
-  > ![Enter Duplicate.](media/case_resolution_6.png "Enter Duplicate")
 
 After you've added the duplicate status to the case entity, you must add the same to the case resolution entity.
 
 To update the case resolution entity for the changed value of case entity:
+
 1. In the Solution Explorer, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
 
 2. On the page that appears, select the field you want to update. For this example, let's select **resolutiontypecode** in the **Name** column.
+ 
 3. Double-click the **resolutiontypecode** field. The **General** tab of **Resolution Type of Case Resolution** is displayed.
 
-
-  > [!div class=mx-imgBorder]
-  > ![Open Resolution Type Code field of Case Resolution entity](media/enable-customizable-dialog-1.png "Open Resolution Type Code field of Case Resolution entity")
-  
-
 4. In the **Options** section, select the plus icon to automatically populate the **Label** and **Value** fields.
+
 5. In the **Label** field, enter a value name. For this example, enter **Duplicate**.
    Check whether the value listed for this field matches the value in the case entity.  
 
-7. Select **Save and Close**.
-<!--
-  > [!div class=mx-imgBorder]
-<<<<<<< HEAD
-  > ![Add values to Resolution Type field](media/enable-customizable-dialog-2.png "Add values to Resolution Type field")
--->
-  > ![Add values to Resolution Type field.](media/enable-customizable-dialog-2.png "Add values to Resolution Type field")
->>>>>>> 6de5f624a22ac1ca45811ddf4c5dc865e4fe5383
+6. Select **Save and Close**.
+
 ## Modify case resolution form
 
-
 1. In the **Solution Explorer**, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
-<!--
-  > [!div class=mx-imgBorder]
-  > ![Select Forms](media/case_resolution_8.png "Select Forms")
--->
+
 2. Open the form you want to edit. For this example, let's select the **Information** form.
-<!--
-  > [!div class=mx-imgBorder]
-  > ![Select the name of the form you want to edit](media/case_resolution_9.png "Select the name of the form you want to edit")
--->
+
   The form opens in the form designer.
+
 3. On the form designer, do the following: 
     1. Select **Billable Time**.
 
     2. On the command bar, select **Remove**. The **Billable Time** field is removed.
-<!--
-    > [!div class=mx-imgBorder]
-    > ![Billable Time field](media/case_resolution_10.png "Billable Time field")
--->
+
 4. Select **Save** and then select **Publish**.
-<!--
-  > [!div class=mx-imgBorder]
-  > ![Save and publish](media/case_resolution_13a.PNG "Save and publish")
--->
-Now, when the customer service reps try to resolve a case, the case resolution dialog box does not display the removed field.
-=======
+    Now, when the customer service reps try to resolve a case, the case resolution dialog box does not display the removed field.
 
-**Step 2:** Open the form you want to edit. In this example, select the **Information** form.
-
-  > [!div class=mx-imgBorder]
-  > ![Select the name of the form you want to edit.](media/case_resolution_9.png "Select the name of the form you want to edit")
-
-This will open the form in the form designer.
-**Step 3a:** Select **Billable Time**.
-
-**Step 3b:** On the command bar, select **Remove**. The **Billable Time** field is removed.
-
-  > [!div class=mx-imgBorder]
-  > ![Billable Time field.](media/case_resolution_10.png "Billable Time field")
-
-**Step 4a:** Select **Save**.
-
-**Step 4b:** Select **Publish**.
-
-  > [!div class=mx-imgBorder]
-  > ![Save and publish.](media/case_resolution_13a.PNG "Save and publish")
->>>>>>> 6de5f624a22ac1ca45811ddf4c5dc865e4fe5383
-
-<!--
-  > [!div class=mx-imgBorder]
-<<<<<<< HEAD
-  > ![Resolution Type field on the Case Resolution dialog box](media/case_resolution_14a.PNG "Resolution Type field on the Case Resolution dialog box")
--->
-You'll know if a case has been successfully resolved per the status bar at the top of the form.
-  > ![Resolution Type field on the Case Resolution dialog box.](media/case_resolution_14a.PNG "Resolution Type field on the Case Resolution dialog box")
-
-You will know if a case has been successfully resolved per the status bar at the top of the form.
->>>>>>> 6de5f624a22ac1ca45811ddf4c5dc865e4fe5383
-
-  > [!div class=mx-imgBorder]
-  > ![Status bar.](media/case_resolution_15.png "Status bar")
+5. In the **Resolution Type** dropdown list, select **Duplicate**.
+    You'll know if a case has been successfully resolved per the status bar at the top of the form.
 
 ### See also
 
