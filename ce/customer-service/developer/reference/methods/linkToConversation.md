@@ -1,6 +1,6 @@
 ---
 title: "linkToConversation (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
-description: "Omnichannel for Customer Service Session API reference"
+description: "Includes information about linkToConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 10/20/2020
 ms.topic: article
 author: platkat

@@ -1,6 +1,6 @@
 ---
 title: "getConversations (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
-description: "Omnichannel for Customer Service Session API reference"
+description: "Includes information about getConversations method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 07/12/2021
 ms.topic: article
 author: mh-jaya
