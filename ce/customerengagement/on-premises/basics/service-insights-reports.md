@@ -1,5 +1,6 @@
 ---
-title: "Service insights reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Customer service reports in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use customer service insights to better understand how your service team is doing. Learn about reports for case summaries, service activity volume, and more."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
@@ -24,16 +25,11 @@ Dynamics 365 Customer Engagement (on-premises) includes many system reports that
 
 <a name="BKMK_CaseSummary"></a>  
 ## Case Summary Table report
-Lower support calls and improve your product or service.   
-This report tracks service cases and tells you why customers are contacting support.  
+Lower support calls and improve your product or service. This report tracks service cases and tells you why customers are contacting support.  
   
- For example, if your company sells cell phones and you find out that majority of   
-the support calls are due to a faulty phone battery, you can take this information  
- to the team that makes the phone battery so they can fix the issue.   
-This will improve your product and drive support calls down.  
+ For example, if your company sells cell phones and you find out that majority of the support calls are due to a faulty phone battery, you can take this information to the team that makes the phone battery so they can fix the issue. This will improve your product and drive support calls down.  
   
- The report provides a list of cases that you can group by  
- owner, customer, status reason, product, priority, subject, origin, case type, satisfaction, service level, or severity.  
+ The report provides a list of cases that you can group by owner, customer, status reason, product, priority, subject, origin, case type, satisfaction, service level, or severity.  
   
  ![Case Summary Table reportin Dynamics 365 Customer Engagement (on-premises).](../basics/media/case-summary-table-report.png "Case Summary Table reportin Dynamics 365 Customer Engagement (on-premises)")  
 
