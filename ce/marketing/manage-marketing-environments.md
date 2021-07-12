@@ -101,7 +101,7 @@ Once your source and target environments are prepared, you're ready to make the 
 
 Pay special attention when choosing whether to create an [Everything or Customizations and schemas only copy](#target-content).
 
-![Select the copy type](media/instances-everything-schemas.png "Select the copy type")
+![Select the copy type.](media/instances-everything-schemas.png "Select the copy type")
 
 ### Step 4: Prepare the target environment for use
 
@@ -135,7 +135,7 @@ You can create an on-demand backup at any time, but when Marketing is installed 
 1. [Open the Power Platform admin center](/power-platform-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source environment, as described in [Keep Marketing up to date](apply-updates.md).
 1. Create the on-demand backup as usual, as described in [Backup and restore environments](/power-platform/admin/backup-restore-environments).
 
-    ![Create an on-demand backup](media/instances-backup.png "Create an on-demand backup")
+    ![Create an on-demand backup.](media/instances-backup.png "Create an on-demand backup")
 
 As with automatic backups, on-demand backups include the full organizational database, the interaction records or image files stored in the marketing services. For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
@@ -188,7 +188,7 @@ To copy a production environment to a support environment:
 
 1. Select the production environment that you want to copy and then select **Copy** in the top ribbon.
 
-    ![Select the source environment and then choose Copy](media/instances-copy.png "Select the source environment and then choose Copy")
+    ![Select the source environment and then choose Copy.](media/instances-copy.png "Select the source environment and then choose Copy")
 
 1. The **Copy environment** pane opens on the right side of the page. Make the following settings:
 
@@ -196,7 +196,7 @@ To copy a production environment to a support environment:
    - **Copy over**: Select **Everything**.
    - **Select environment to overwrite**: Select the name of the support environment that was created for you. The name of your support environment includes your case number.
 
-    ![Choose your copy options](media/instances-overwrite-support4.png "Choose your copy options")
+    ![Choose your copy options.](media/instances-overwrite-support4.png "Choose your copy options")
 
 1. When you select the target environment, most of the other settings here are set automatically, and a notice is shown to alert you that Microsoft Support will be able to access the support environment. Read the notice and select **OK** if you agree with the terms.
 

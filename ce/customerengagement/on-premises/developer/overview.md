@@ -4,7 +4,7 @@ description: "This SDK contains a wealth of resources, including code samples, w
 ms.custom: 
 ms.date: 04/20/2020
 ms.reviewer: pehecke
-ms.prod: dynamicscrm-2016 
+ms.prod: d365ce-op
 ms.topic: article
 ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
 author: KumarVivek

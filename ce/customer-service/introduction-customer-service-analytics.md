@@ -18,7 +18,7 @@ The premium AI capabilities in Customer Service Insights use advanced AI technol
 These capabilities are deeply embedded into the core agent and manager experiences in Customer Service and Omnichannel. 
 
 > [!div class="mx-imgBorder"]
->![Customer Service Insights](media/customer-service-insights.png "Customer Service Insights")
+>![Customer Service Insights.](media/customer-service-insights.png "Customer Service Insights")
 
 ## Customer Service Insights across your organization
 

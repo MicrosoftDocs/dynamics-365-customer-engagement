@@ -13,7 +13,7 @@ manager: shujoshi
 The Bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are playing a role in a support organization.
 
 > [!div class="mx-imgBorder"]
-> ![Bot dashboard](media/bot-dashboard-oc.png "Bot dashboard")
+> ![Bot dashboard.](media/bot-dashboard-oc.png "Bot dashboard")
 
 You can view the Bot dashboard in Omnichannel for Customer Service. On the **Home** tab, select the (**+**), and then select **Analytics and insights**. On the page that appears, select the **Bot** tab.
 
@@ -24,7 +24,7 @@ The reports summarize the KPIs for the specified time period and the percent cha
 KPIs for the following areas are displayed.
 
 > [!div class="mx-imgBorder"]
-> ![Bot dashboard KPI](media/bot-dashboard-KPI.png "Bot dashboard KPI")
+> ![Bot dashboard KPI.](media/bot-dashboard-KPI.png "Bot dashboard KPI")
 
 | KPI | Description |
 | ------- | ------------------ |
@@ -57,7 +57,7 @@ The Bot hourly details drill down view provides more granular insight into the h
 To view the drill down, select any single metric value on the desired day, then select **Hourly details**.
 
 > [!div class="mx-imgBorder"]
-> ![Bot hourly detail drill down view](media/bot-hourly-drill-down.png "Bot detail view") 
+> ![Bot hourly detail drill down view.](media/bot-hourly-drill-down.png "Bot detail view") 
 
 ### See also
 

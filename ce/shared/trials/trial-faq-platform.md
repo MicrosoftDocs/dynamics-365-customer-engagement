@@ -10,10 +10,6 @@ If your company doesn't have an existing relationship with Microsoft or you aren
 
 This app is a cloud-based service that doesn't require special software other than an up-to-date web browser, though some restrictions apply. For the best trial experience, avoid accessing the trial site in incognito mode. [Learn more about web application requirements](/power-platform/admin/web-application-requirements).
 
-### Is the trial available in all supported geographical regions and languages?
-
-Yes, the trial is available in all regions where the app is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF). For a list of supported languages, see [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages).
-
 ### How do I sign up for the trial without a Microsoft 365 tenant?
 
 You can enter a non-work email address and we will create an account and tenant for you.
@@ -33,7 +29,7 @@ When you sign up for the trial, you'll receive an email with the trial details. 
 
 ### How do I add more users to a trial?
 
-To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit. If the user you are adding already has a Microsoft 365 account, assign them an appropriate security role in the trial org. For more information, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles.md#assign-a-security-role-to-a-user).
+To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit. If the user you are adding already has a Microsoft 365 account, assign them an appropriate security role in the trial org. For more information, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 ### How do I reset the trial environment?
 
@@ -47,4 +43,4 @@ The trial expires if there's no activity for 14 consecutive days. An email notif
 
 ### How do I extend the trial?
 
-You can extend the trial for another 30 days in the admin center. For instructions, see [Extend your trial](/microsoft-365/commerce/try-or-buy-microsoft-365#extend-your-trial).
+You can extend the trial for another 30 days in the admin center. For instructions, see [Extend your trial](/power-platform/admin/trial-environments#extend-a-trial-standard-environment).

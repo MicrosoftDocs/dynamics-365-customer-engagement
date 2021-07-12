@@ -74,7 +74,7 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
 7. Select **Save**.  
 
-   ![customer service schedule](media/customer-service-schedule.png "customer service schedule")
+   ![customer service schedule.](media/customer-service-schedule.png "customer service schedule")
  
 ## Define the work hours for the schedule
 

@@ -35,7 +35,7 @@ You can also manually configure your columns for a fully customized forecast. Fo
     - **Lost**. If an opportunity fails and is closed as lost.
 
        > [!div class="mx-imgBorder"]
-       > ![Capture forecast category on an opportunity](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
+       > ![Capture forecast category on an opportunity.](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
 
 ## See also
 

@@ -31,7 +31,7 @@ Compose an email using the enhanced experience:
    A new email pop-up window opens. 
 
    > [!div class="mx-imgBorder"]
-   > ![Enhanced email pop-up window](../sales-enterprise/media/enhanced-email-pop-up.png "Enhanced email pop-up window")
+   > ![Enhanced email pop-up window.](../sales-enterprise/media/enhanced-email-pop-up.png "Enhanced email pop-up window")
 
    The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
 

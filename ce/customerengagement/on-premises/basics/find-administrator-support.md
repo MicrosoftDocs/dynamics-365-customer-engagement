@@ -1,9 +1,10 @@
 ---
-title: "Find your administrator or support person (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Find system administrator in Dynamics 265 Customer Engagement (on-premises)"
+description: "You may have an issue that requires working with your Dynamics 365 Customer Engagement (on-premises) administrator. Use Advanced Find to learn who they are."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -39,7 +40,7 @@ You may occasionally run across issues that require consultation with your Dynam
   
 6. Enter **System Administrator** in the box that says **Enter Text**. At this point, your screen should look like this:  
   
-   ![Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)")  
+   ![Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises).](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)")  
   
 7. Choose the **Results** button on the ribbon.  
   
@@ -71,7 +72,7 @@ You may occasionally run across issues that require consultation with your Dynam
   
 6. Enter **System Administrator** in the box that says **Enter Text**. At this point, your screen should look like this:  
   
-   ![Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)")  
+   ![Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises).](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)")  
   
 7. Choose the **Results** button on the ribbon.  
   

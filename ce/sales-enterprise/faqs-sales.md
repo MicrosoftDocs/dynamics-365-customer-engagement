@@ -36,7 +36,7 @@ manager: shubhadaj
 
 **Answer**:<br>This is by design. The What's new functionality is only available in the legacy web client. The equivalent in Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard:
 
-1. In your app, select **Settings** ![Settings](media/settings-icon.png), and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings.](media/settings-icon.png), and then select **Advanced Settings**.
 
    The **Business Management** page opens in a new browser tab.
 
@@ -61,7 +61,7 @@ manager: shubhadaj
 **Answer**:<br>To edit the value of estimated **Revenue** in the **Opportunity** form, the **Revenue** must be configured as **User Provided** and the opportunity must be in an **Open** state. 
 
    > [!div class="mx-imgBorder"]
-   > ![Edit estimated revenue](media/faqs-est-revenue.png "Edit estimated revenue")
+   > ![Edit estimated revenue.](media/faqs-est-revenue.png "Edit estimated revenue")
 
 
 ## Entities: Opportunity, Quote, Invoice, and Order
@@ -74,7 +74,7 @@ manager: shubhadaj
 **Answer**:<br>This is a by-design behavior in the legacy web client. However, this behavior is changed in Unified Interface. We recommend that you use Unified Interface to experience the inline edit view. To verify whether a grid is editable, go to **Grid control properties**.
 
    > [!div class="mx-imgBorder"]
-   > ![Properties settings for grid control](media/faqs-grid-control-properties.png "Properties settings for grid control")
+   > ![Properties settings for grid control.](media/faqs-grid-control-properties.png "Properties settings for grid control")
 
    > [!NOTE]
    > - In Unified Interface, the behavior of the grid columns **Price Per Unit** and **Quantity** as editable or non-editable is independent of the view that is selected.  
@@ -121,7 +121,7 @@ There are certain restrictions on inline editing based on the type of products i
 4. Save and publish the customizations.
 
   > [!div class="mx-imgBorder"]
-  > ![Change pricing on order form](media/faqs-pricing-change-order-product-form.png "Change pricing on order form")
+  > ![Change pricing on order form.](media/faqs-pricing-change-order-product-form.png "Change pricing on order form")
  
 ## Entities: Order and Invoice
 
@@ -142,11 +142,11 @@ There are certain restrictions on inline editing based on the type of products i
 
 In the legacy web client: 
   > [!div class="mx-imgBorder"]
-  > ![Edit pricing for a product](media/faqs-edit-pricing-for-product.png "Edit pricing for a product")
+  > ![Edit pricing for a product.](media/faqs-edit-pricing-for-product.png "Edit pricing for a product")
 
 In Unified Interface:
   > [!div class="mx-imgBorder"]
-  > ![Edit pricing for a product in Unified Interface](media/faqs-edit-pricing-for-product-uci.png "Edit pricing for a product in Unified Interface")
+  > ![Edit pricing for a product in Unified Interface.](media/faqs-edit-pricing-for-product-uci.png "Edit pricing for a product in Unified Interface")
 
 **Question**:<br>When can I change the values in the **Pricing Per Unit** column in the **Products** grid?
 

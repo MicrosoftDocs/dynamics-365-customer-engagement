@@ -38,12 +38,12 @@ You can select **Topics** to see the knowledge articles and topics that are prov
 6. On the authoring canvas, delete the **Escalate** item by selecting **Options.**
 
     > [!div class="mx-imgBorder"]
-    > ![Author a fallback topic](media/escalate-fallback-KM-PVA.png "Author a fallback topic")
+    > ![Author a fallback topic.](media/escalate-fallback-KM-PVA.png "Author a fallback topic")
 
 7. Select the connector flowing to the message box, select **Call an action**, and then **Create a flow**.
 
     > [!div class="mx-imgBorder"]
-    > ![Create a flow to call an action](media/create-a-flow-KM-PVA.png "Create a flow to call an action")
+    > ![Create a flow to call an action.](media/create-a-flow-KM-PVA.png "Create a flow to call an action")
 
 The Power Automate application is opened on a new tab where you will configure the template settings.
 
@@ -59,7 +59,7 @@ You can use the Power Automate template that you created to connect to the knowl
 2. On the templates page, search for the **Generate answers from Dataverse knowledge articles to Power Virtual Agent** template. 
 
     > [!div class="mx-imgBorder"]
-    > ![Create a flow](media/template-KM-PVA.png "Create a flow")
+    > ![Create a flow.](media/template-KM-PVA.png "Create a flow")
 
 3. Select **Continue**. You will be redirected to the Power Automate flow template.
 4. Save the template and then select **Solutions**. 
@@ -70,7 +70,7 @@ You can use the Power Automate template that you created to connect to the knowl
 9. Select **Create** to finish the process.
  
      > [!div class="mx-imgBorder"]
-     > ![Add a solution](media/add-solution-KM-PVA.png "Add a solution")
+     > ![Add a solution.](media/add-solution-KM-PVA.png "Add a solution")
 
 10. In the list of solutions, select the solution you just created. It should be at the top of the list. If it isn't, search by your email address, which is part of the solution name.
 11. In the solution, select **Add existing**, and then select **Cloud Flow** from the list.
@@ -84,7 +84,7 @@ You can use the Power Automate template that you created to connect to the knowl
 4. To correctly set the input variable to the action, select **Select a variable**, and then select **bot.UnrecognizedTriggerPhrase**.
 
      > [!div class="mx-imgBorder"]
-     > ![Add flow to Power Virtual Agents](media/bot-KM-PVA.png "Add flow to Power Virtual Agents")
+     > ![Add flow to Power Virtual Agents.](media/bot-KM-PVA.png "Add flow to Power Virtual Agents")
 
 5. To return the knowledge article search results to the bot, there are a few steps that you can perform.
     
@@ -163,7 +163,7 @@ You can use the Power Automate template that you created to connect to the knowl
 After you have the fallback topic saved, you can test your bot by typing some queries. If an existing topic can't answer the question, the topic that you created is displayed as a message. After publishing the Power Virtual Agents bot, you can also share your bot. 
 
   > [!div class="mx-imgBorder"]
-  > ![Test flow](media/test-flow-KM-PVA.png "Test flow")
+  > ![Test flow.](media/test-flow-KM-PVA.png "Test flow")
 
 To publish the Power Virtual agent bot, select **Publish**, and then look for the demo link that you will find on the same page.
 

@@ -28,12 +28,12 @@ When you're ready to sell a product or bundle, publish it to make it available t
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.  
+2. Select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.  
 
 3. Open the product, bundle, or family you want to publish, and on the command bar, select **Publish**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Product form with the Publish button](media/publish-product.png "Product form with the Publish button")
+    > ![Product form with the Publish button.](media/publish-product.png "Product form with the Publish button")
 
    This will change the product status to **Active** and make it available for selling.
 

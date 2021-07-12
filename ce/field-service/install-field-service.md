@@ -42,7 +42,7 @@ If the installation is complete, the "Field Service" and "Field Service Mobile" 
 ```https://[your-environment-name].crm.dynamics.com/apps```
    
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service apps](media/admin-apps.png)
+> ![Screenshot of Field Service apps.](media/admin-apps.png)
  
 
 ## Step 2: Install and set up the Dynamics 365 Field Service mobile app

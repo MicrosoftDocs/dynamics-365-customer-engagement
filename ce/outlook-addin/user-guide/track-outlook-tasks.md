@@ -45,7 +45,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 2. In the **Task** dialog box, if it’s a new task, enter a subject in the **Subject** box. If it’s an existing task, the **Subject** box will already be filled out.  
   
-    ![Track Tasks dialog box in Dynamics 365 apps](../media/track-task-dialog.png "Track Tasks dialog box in Dynamics 365 apps")  
+    ![Track Tasks dialog box in Dynamics 365 apps.](../media/track-task-dialog.png "Track Tasks dialog box in Dynamics 365 apps")  
   
 3. If you haven’t already done so, fill out other fields such as **Start date**, **Due date**, and **Priority**.  
   
@@ -71,7 +71,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
 
 6. To save the task, click the down arrow on the **Actions** button, and then click **Save & Close**.
 
-    [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] adds the **People** symbol ![People icon that indicates tracked item](../media/people--button.png "People icon that indicates tracked item") to the task to show that it’s tracked.
+    [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] adds the **People** symbol ![People icon that indicates tracked item.](../media/people--button.png "People icon that indicates tracked item") to the task to show that it’s tracked.
 
    > [!NOTE]
    >  If you want to stop tracking a task, open the task record, and then on the **Task** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Untrack**. It’s best to untrack items one at a time.
@@ -96,11 +96,11 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 2.  On the **Task** tab, in the **Manage Task** group, click **Assign Task**.  
   
-     ![Location of Assign Task button in Dynamics 365 apps](../media/assign-task-button.png "Location of Assign Task button in Dynamics 365 apps")  
+     ![Location of Assign Task button in Dynamics 365 apps.](../media/assign-task-button.png "Location of Assign Task button in Dynamics 365 apps")  
   
 3.  In the **Task** dialog box, in the **To** box, enter the name or email address of the person you want to assign the task to. To select from a list, click the **To** button.  
   
-     ![Assign Task dialog box in Dynamics 365 apps](../media/assign-task-dialog.png "Assign Task dialog box in Dynamics 365 apps")  
+     ![Assign Task dialog box in Dynamics 365 apps.](../media/assign-task-dialog.png "Assign Task dialog box in Dynamics 365 apps")  
   
     > [!NOTE]
     >  You can’t track tasks assigned to more than one person.
@@ -157,7 +157,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 -   To follow the progress of tasks you assign, select either or both of the following check boxes when you assign the task:  
   
-     ![Assign Task check boxes in Dynamics 365 apps](../media/assign-task-checkbox.png "Assign Task check boxes in Dynamics 365 apps")  
+     ![Assign Task check boxes in Dynamics 365 apps.](../media/assign-task-checkbox.png "Assign Task check boxes in Dynamics 365 apps")  
   
 -   To view tasks that you have assigned to others:  
   

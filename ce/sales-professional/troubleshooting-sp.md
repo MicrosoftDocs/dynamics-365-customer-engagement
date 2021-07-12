@@ -26,7 +26,7 @@ There are two ways that the tenant administrator can prevent users from performi
 - Prevent new users to be created within the tenant (NewUsersNotAllowed).  
 
 > [!div class="mx-imgBorder"]
-> ![Trial sign-up is turned off](media/trial-signup-turned-off.png "Trial sign-up is turned off")
+> ![Trial sign-up is turned off.](media/trial-signup-turned-off.png "Trial sign-up is turned off")
 
 **Workaround:**
 
@@ -35,7 +35,7 @@ Please contact your IT department and work with them to help you sign up.
 ### I see the error while signing up: "Something went wrong building your Sales Pro experience. Do you want to try again?"
 
 > [!div class="mx-imgBorder"]
-> ![Error while signing up](media/something-went-wrong-retry.png "Error while signing up")
+> ![Error while signing up.](media/something-went-wrong-retry.png "Error while signing up")
 
 **Reason:**
 

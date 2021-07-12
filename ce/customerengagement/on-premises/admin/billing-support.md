@@ -4,7 +4,7 @@ description: "Support is available in markets where Dynamics 365 Online services
 ms.custom: 
 ms.date: 09/12/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

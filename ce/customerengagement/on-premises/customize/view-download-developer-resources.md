@@ -3,7 +3,7 @@ title: "View or download developer resources | MicrosoftDocs"
 description: "Find developer resources and service enpoint URLs"
 keywords: 
 ms.date: 01/11/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

@@ -156,7 +156,7 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 
 - If this method is not implemented, the following error will be displayed to the agent.
 
-![initializeNewConversation error message](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
+![initializeNewConversation error message.](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
 
 ### See also
 

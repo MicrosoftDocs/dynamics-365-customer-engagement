@@ -4,7 +4,7 @@ description: "Synchronize your email system with Dynamics 365 Customer Engagemen
 ms.custom: 
 ms.date: 04/16/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

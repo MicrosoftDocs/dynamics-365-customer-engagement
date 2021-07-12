@@ -5,7 +5,6 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 04/09/2021
-ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
 
@@ -77,7 +76,7 @@ Create agent scripts in the Omnichannel admin center, Omnichannel Administration
 9.  Select **Save** to save the changes.
 
     > [!div class=mx-imgBorder] 
-    > ![Agent script](media/agent-script.png "Agent script")
+    > ![Agent script.](media/agent-script.png "Agent script")
 
 The agent script is now configured.
 
@@ -96,7 +95,7 @@ After you configure the agent script and add the field to a form, you need to as
 5. In the **Look for Records** box, select the search icon. Select the agent script from the list, and then select **Add**.
 
     > [!div class=mx-imgBorder] 
-    > ![Associate an agent script](../customer-service/media/associate-agent-script.png "Associate an agent script")
+    > ![Associate an agent script.](../customer-service/media/associate-agent-script.png "Associate an agent script")
 
 6. Select **Save**.
 
@@ -119,7 +118,7 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 3. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
-    > ![Build expression](../customer-service/media/agent-script-build-expression.png "Build expression")
+    > ![Build expression.](../customer-service/media/agent-script-build-expression.png "Build expression")
 
 4. Select the **Condition** step, and then create the condition.
 
@@ -128,12 +127,12 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 6. Select the **Customer Service** tab, and then select **Set default agent script**.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../customer-service/media/agent-script-build-expression2.png "Set default agent script")
+    > ![Set default agent script.](../customer-service/media/agent-script-build-expression2.png "Set default agent script")
 
 7. Select a script from the **Agent script** list.
 
     > [!div class=mx-imgBorder] 
-    > ![Select default agent script](../customer-service/media/agent-script-set-default.png "Select default agent script")
+    > ![Select default agent script.](../customer-service/media/agent-script-set-default.png "Select default agent script")
 
 8. Follow steps 4 through 7 for the **If false** step.
 

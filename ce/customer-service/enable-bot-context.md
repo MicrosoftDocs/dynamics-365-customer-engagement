@@ -24,7 +24,7 @@ For information on context variables that can be configured, see [Context variab
 
 2. In the NuGet Package Manager, select the feedname **nuget.org** and search for "Microsoft.Xrm.Omnichannel.BotSDK". Select the package and select install. Refer to [Nuget page](https://www.nuget.org/packages/Microsoft.Xrm.Omnichannel.BotSDK)
 
->![Search for Omnichannel middleware](media/enable_botcon_step2.png "Search for Omnichannel middleware")
+>![Search for Omnichannel middleware.](media/enable_botcon_step2.png "Search for Omnichannel middleware")
 
 Alternatively, you can use the following command in NuGet CLI.
 
@@ -48,7 +48,7 @@ Use this procedure if you have created your bot using Visual Studio Azure Bot te
     Use(new OmnichannelMiddleware()); 
     ```
 
-    ![Add import statement](media/bot-context-add-import.png "Add import statement")
+    ![Add import statement.](media/bot-context-add-import.png "Add import statement")
 
 ### See also
 

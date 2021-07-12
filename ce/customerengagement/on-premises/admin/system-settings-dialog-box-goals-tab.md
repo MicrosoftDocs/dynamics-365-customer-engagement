@@ -3,7 +3,7 @@ title: "System Settings dialog box - Goals tab  | MicrosoftDocs"
 description: "Set the duration and frequency of the automatic rollup of goals."
 keywords: 
 ms.date: 10/01/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)

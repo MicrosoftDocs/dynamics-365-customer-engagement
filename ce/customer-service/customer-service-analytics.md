@@ -27,7 +27,7 @@ The Customer Service Analytics dashboard that's created in Power BI provides inf
 The following is an example of the Customer Service Analytics overview dashboard:  
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics overview dashboard](media/cs-analytics-overview-dashboard.png "Customer Service Analytics overview dashboard")
+   > ![Customer Service Analytics overview dashboard.](media/cs-analytics-overview-dashboard.png "Customer Service Analytics overview dashboard")
 
 This view includes the following KPIs:
 
@@ -68,7 +68,7 @@ The Customer Service Analytics report detail view has three views:
   This view provides KPIs and metrics across Customer Service and gives supervisors the ability to filter the view.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics summary view](media/cs-analytics-summary-view.png "Customer Service Analytics summary view")
+   > ![Customer Service Analytics summary view.](media/cs-analytics-summary-view.png "Customer Service Analytics summary view")
 
    This view contains the following visuals or KPIs:
 
@@ -88,7 +88,7 @@ The Customer Service Analytics report detail view has three views:
    This view provides KPIs and metrics across Customer Service and gives supervisors the ability to filter the view.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics agent/queue view](media/cs-analytics-agent-queue-view.png "Customer Service Analytics agent/queue view")
+   > ![Customer Service Analytics agent/queue view.](media/cs-analytics-agent-queue-view.png "Customer Service Analytics agent/queue view")
 
    This view contains the following visuals or KPIs:
 
@@ -110,14 +110,14 @@ The Customer Service Analytics report detail view has three views:
    > Prerequisite for the link to work: you must have either a Customer Service Hub app or Customer Service app installed from AppSource.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics case/activity list view](media/cs-analytics-case-activity-list-view.png "Customer Service Analytics case/activity list view")
+   > ![Customer Service Analytics case/activity list view.](media/cs-analytics-case-activity-list-view.png "Customer Service Analytics case/activity list view")
 
 ## View and filter report  
 
 Filter information by viewing the reports and selecting from Duration, Queue, Agent, Case priority, Subject, and Case status.
 
    > [!div class=mx-imgBorder]
-   > ![Customer Service Analytics view and filter report](media/cs-analytics-view-filer-report.png "Customer Service Analytics view and filter report")
+   > ![Customer Service Analytics view and filter report.](media/cs-analytics-view-filer-report.png "Customer Service Analytics view and filter report")
 
 Select the subject you're interested in, and information is filtered according to your selection. This helps to quickly analyze KPIs and take necessary steps to improve outcomes.
 
