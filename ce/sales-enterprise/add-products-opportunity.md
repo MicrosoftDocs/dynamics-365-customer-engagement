@@ -34,7 +34,8 @@ A way that might help you increase your sales is to add all products that your c
 
             
             > [!NOTE]
-            > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the products associated with the selected price list are shown in this field. 
+            >
+            > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the products associated with the selected price list are shown in this field. In this case, the default view is set to **Products in Parent Price List** view. You cannot set a custom view as the default view. Even if you do, the products lookup will automatically set it back to **Products in Parent Price List** view.
             > - When a price list isn't selected, the **Existing product** field shows all active products (not filtered by the price list). You can change the view to look for other products by selecting the **Change View** icon. 
             > - By default, the product lookup will show the most recently used products. The most recently used products aren't filtered based on the selected price list. 
             > - If a price list is selected and you select a product that isn't associated with the price list, you'll see an error. Select a product that's associated with the selected price list.

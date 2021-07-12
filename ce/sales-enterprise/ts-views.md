@@ -150,6 +150,15 @@ To fix the issue of incorrect customization, follow these steps to make sure you
         >[!NOTE]
         >If you're using product bundles and edit these bundled line items in the product grid, select **Hide nested grid column header** as **Show Column**.
 
+## Issue: I can't set a custom view as the default view for the Existing products field in Add products dialog
+
+When you are adding products to an opportunity, quote, order, or invoice, you select the products from the **Existing product** lookup field in the **Add products** dialog. This field displays the list of products depending on the price list that you’ve selected for the opportunity, quote, order, or invoice. To be able to display products from the price list, the lookup always defaults to a system view named **Products in Parent Price List**. So, even if you change the default view to a custom view, the lookup field will set the default back to the **Products in Parent Price List** view.
+
+Resolution:
+This is working as designed. Though you can't set a default view, you can manually switch to the view in the **Existing products** lookup.
+
+:::image type="content" source="media/change-view-opportunity.PNG" alt-text="Change view option in add products dialog":::
+
 ## Issue: I can't update nested bundle items on the Product tab 
 <a name="cannot_update_nested_bundle_items"></a>
 
