@@ -6,6 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
 ms.topic: article
+ms.custom: intro-internal
 ---
 
 # Roles and privileges associated with app profile manager

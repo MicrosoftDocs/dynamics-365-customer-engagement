@@ -6,6 +6,7 @@ ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.custom: intro-internal
 ---
 
 # Preview: Discover insights from your customer service data

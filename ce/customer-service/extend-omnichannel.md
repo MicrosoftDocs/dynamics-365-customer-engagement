@@ -7,6 +7,7 @@ author: platkat
 ms.author: ktaylor
 manager: shujoshi
 ms.reviewer: nenellim
+ms.custom: intro-internal
 ---
 
 # Extend Omnichannel for Customer Service

@@ -1,9 +1,11 @@
 ---
 title: "WhatsApp channel agent experience in Omnichannel for Customer Service | MicrosoftDocs"
 description: "This topic provides information about agent experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service."
+ms.date: 07/09/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.custom: intro-internal
 ---
 
 # Use WhatsApp channel

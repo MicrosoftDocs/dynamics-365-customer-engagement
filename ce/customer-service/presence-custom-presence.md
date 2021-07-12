@@ -6,6 +6,7 @@ ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.custom: intro-internal
 ---
 # Configure and manage custom presence
 
