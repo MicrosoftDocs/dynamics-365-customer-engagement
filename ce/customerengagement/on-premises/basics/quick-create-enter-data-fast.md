@@ -1,7 +1,7 @@
 ---
-title: "Quick create--Enter new contacts (or other data)--fast! (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-ms.custom: 
-description: How to create a new record using quick create.
+title: "Use Quick Create in Dynamics 365 Customer Engagement (on-premises)"
+description: "The Quick Create commands make it fast and easy to enter contacts or other information. Start by filling out only a few fields, then enter more details later."
+ms.custom:
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.prod: d365ce-op
@@ -19,7 +19,7 @@ search.audienceType:
   - enduser
 
 ---
-# Quick create--Enter new records--fast!
+# Enter new records fast with Quick Create
 
 ::: moniker range=">= op-9-1"
 
@@ -28,7 +28,7 @@ search.audienceType:
 
 The Quick Create command makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it's always available whenever you need to enter new info into the system.  
   
- With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.  
+ With Quick Create, you need to complete only a few fields. Later, when you have more time or information, you can fill in more details.  
   
  You can quickly create:  
 - Contacts  
@@ -66,7 +66,7 @@ The Quick Create command makes it fast and easy to enter almost any type of info
 
 The Quick Create command makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it's always available whenever you need to enter new info into the system.  
   
- With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.  
+ With Quick Create, you need to complete only a few fields. Later, when you have more time or information, you can fill in more details.  
   
  You can quickly create:  
 - Contacts  
