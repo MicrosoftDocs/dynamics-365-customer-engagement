@@ -4,6 +4,9 @@ description: "This topic provides information on the different messaging channel
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.topic: overview
+ms.date: 06/11/2021 
+ms.custom: template-overview
 ---
 
 # Overview of channels

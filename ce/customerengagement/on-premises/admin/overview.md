@@ -4,7 +4,7 @@ description: "Resources and topics provided to help you manage and configure Cus
 ms.custom: on-premises
 ms.date: 09/12/2020
 ms.reviewer: "kvivek"
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: "article"
 author: "kvivek"
 ms.author: "kvivek"

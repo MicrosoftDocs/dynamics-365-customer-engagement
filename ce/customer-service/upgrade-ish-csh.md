@@ -51,7 +51,7 @@ The next sections describe notable upgrade-specific changes, general customizati
 
 Like Dynamics 365 Customer Service web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, will be modified and converted to Main forms when you upgrade to the latest version, and will import any solution into Dataverse. This change doesn't affect functionality, the form XML will largely remain the same except for a few changes in properties, shown below.
 
-![Converting Interactive experience forms to Main forms](media/upgrade-Convert-Interactive-experience-forms-to-Main-forms.png)
+![Converting Interactive experience forms to Main forms.](media/upgrade-Convert-Interactive-experience-forms-to-Main-forms.png)
 
 - The conversion process changes the form type. No new forms are created and the name of the form doesn't change
 - The segment of form XML representing form behavior and customization is unaffected. This conversion will not have an adverse impact on functionality
@@ -73,17 +73,17 @@ With the latest release, Unified Interface supports all Interactive Service hub 
 
   From My Apps page:
 
-  ![Launch the Customer Service Hub app from My Apps page](media/upgrade-Launch-Customer-Service-Hub-app-from-My-Apps.png)
+  ![Launch the Customer Service Hub app from My Apps page.](media/upgrade-Launch-Customer-Service-Hub-app-from-My-Apps.png)
 
   From the Navigation page:
 
-  ![Launch the Customer Service Hub app from Navigation](media/upgrade-Launch-Customer-Service-Hub-app-from-Navigation.png)
+  ![Launch the Customer Service Hub app from Navigation.](media/upgrade-Launch-Customer-Service-Hub-app-from-Navigation.png)
 
 - Interactive Dashboards deliver improved discoverability and reflow behavior. Read more about dashboards in the [ Customer Service Hub user guide](customer-service-hub-user-guide-dashboard.md).
 
 - The sitemap in Unified Interface is oriented vertically, to make it easy to use on smaller devices. In addition to layout changes, Customer Service Hub has better support for Sitemap customization because its dedicated sitemap can be configured in any way without affecting other apps. You can read more about editing sitemaps in the [Site map Designer documentation](../customerengagement/on-premises/customize/create-site-map-app.md). (Note, that this change is not specific to this upgrade.)
 
-  ![sitemap pre and post upgrade](media/upgrade-Sitemap-pre-and-post-update.png) 
+  ![sitemap pre and post upgrade.](media/upgrade-Sitemap-pre-and-post-update.png) 
 
 ## After the upgrade
 
@@ -100,7 +100,7 @@ Once you’ve upgraded to the latest version, Customer Service Hub will be provi
 - All entities that were enabled for Interactive Service hub will be added to the Customer Service Hub app definition, along with any business process flows that were part of Interactive Service hub
 - Users with customer service representative, customer service representative manager, and knowledge manager roles will have access to Customer Service Hub by default. System administrators can manage access to other roles from the My Apps page, as shown here:
 
-  ![Manage access roles](media/upgrade-Manage-roles-from-the-My-Apps-page.png)
+  ![Manage access roles.](media/upgrade-Manage-roles-from-the-My-Apps-page.png)
 
 ## Post-upgrade configurations for system administrators
 
@@ -109,7 +109,7 @@ As described earlier, most of the Main forms would be in *Inactive* state after 
  
 As Main forms are supported in Unified Interface as well as in web client, activation would make them visible in web client too. System administrators are advised to assign appropriate security roles to avoid unintended access. See [Assign security roles to forms](/power-platform/admin/assign-security-roles-form) for more information.
 
-![Post upgrade configuration for system admins](media/upgrade-post-upgrade-configurations-for-system-administrators.png)
+![Post upgrade configuration for system admins.](media/upgrade-post-upgrade-configurations-for-system-administrators.png)
 
 ## Work with solutions
 
@@ -118,7 +118,7 @@ As Main forms are supported in Unified Interface as well as in web client, activ
 
 - Uninstalling older solutions after upgrading to the latest version might require manual updates to the Customer Service Hub app in some cases. This typically occurs when the solution contains business process flows. While upgrading, all business process flows in the system (and their relevant entities) get added to Customer Service Hub, which creates dependencies on the solution. A solution framework dependency error will appear whenever such solutions are uninstalled.
 
-  ![Error message provides a link to the details](media/upgrade-details-link-error.png)
+  ![Error message provides a link to the details.](media/upgrade-details-link-error.png)
 
   Opening the error details reveals the solution components that are referenced by other components in the system. Resolving these dependencies by editing the Customer Service Hub and removing the referenced components should let you to uninstall the solution. If this issue persists, it is possible that dependencies remain and repeating this process should help identifying them. Read more about editing app definitions in [App Designer](../customerengagement/on-premises/customize/create-edit-app.md) documentation.
 

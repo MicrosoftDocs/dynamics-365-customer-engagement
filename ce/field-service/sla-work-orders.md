@@ -44,7 +44,7 @@ In this article, we'll walk through how to associate SLAs to Field Service work 
 2. Under the **Communication & Collaboration** header on the form, check the **Enable for SLA** box, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Enable SLA on Work Order](./media/work-order-sla-enable-work-order-1.png)
+> ![Screenshot of Enable SLA on Work Order.](./media/work-order-sla-enable-work-order-1.png)
 
 3. Save and publish customizations. 
 
@@ -59,12 +59,12 @@ In this article, we'll walk through how to associate SLAs to Field Service work 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-field-service-setting-2.png)
+> ![Screenshot of Field Service SLA Configuration.](./media/work-order-sla-field-service-setting-2.png)
 
 You can create new SLA KPI instances by going to **Settings > Customizations > Customize the System > Entities > SLA KPI Instances > 1:N relationships > New 1-to-Many Relationship**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service SLA Configuration](./media/work-order-sla-kpi-instance.png)
+> ![Screenshot of Field Service SLA Configuration.](./media/work-order-sla-kpi-instance.png)
 
 
 ## Step 2. Create a new SLA
@@ -74,7 +74,7 @@ Now we are going to create a new SLA.
 1. Go to **Settings** > **Service Management** > **Service Level Agreements** > **+New**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Settings > Service Management > Service Level Agreements](./media/work-order-sla-create-sla-3.png)
+> ![Screenshot of Settings > Service Management > Service Level Agreements.](./media/work-order-sla-create-sla-3.png)
 
 
 2. Enter the following information:
@@ -82,12 +82,12 @@ Now we are going to create a new SLA.
   - **Entity:** Select **Work Order** from the list
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating a new SLA for Work Order entity](./media/work-order-sla-create-sla-add-work-order-4.png)
+> ![Screenshot of creating a new SLA for Work Order entity.](./media/work-order-sla-create-sla-add-work-order-4.png)
 
 3. If appropriate, assign a business hours calendar and then **Save**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of assigning a Business Hours calendar](./media/work-order-sla-add-sla-details-5.png)
+> ![Screenshot of assigning a Business Hours calendar.](./media/work-order-sla-add-sla-details-5.png)
 
 4. Now we will add details to our SLA:
 
@@ -101,15 +101,15 @@ Now we are going to create a new SLA.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-add-actions-6.png)
+> ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related.](./media/work-order-sla-add-actions-6.png)
 
 The following screenshot shows the Field Service Mobile app that field technicians use to view and record on-site work. When a work order is scheduled to a field technician, a booking record is created. They can edit the booking status, which will update the related work order system status, which then updates the related SLA success status. 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related](./media/work-order-sla-mobile-app-booking-status.png)
+> ![Screenshot of creating SLA Details on the KPI that was identified as Arrival Time related.](./media/work-order-sla-mobile-app-booking-status.png)
 
 5. Select **Activate** on the SLA. The following screenshot shows an activated SLA. 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of activating the SLA](./media/work-order-sla-add-more-details-7.png)
+> ![Screenshot of activating the SLA.](./media/work-order-sla-add-more-details-7.png)
 
 ## Step 3. Add the SLA to a work order
 
@@ -117,13 +117,13 @@ The following screenshot shows the Field Service Mobile app that field technicia
 
 2. Add the SLA field to the work order form. The SLA field is created when SLA functionality is enabled for the work order entity.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of adding the SLA field to the WO form](./media/work-order-add-sla-field-8.png)
+> ![Screenshot of adding the SLA field to the WO form.](./media/work-order-add-sla-field-8.png)
 
 3. Save and publish form changes.
 
 4. Create a work order and associated to your SLA, or associate a current work order to your SLA.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating a Work Order associated to your SLA](./media/work-order-add-to-work-order-9.png)
+> ![Screenshot of creating a Work Order associated to your SLA.](./media/work-order-add-to-work-order-9.png)
 
 ## Step 4. Schedule a work order to meet SLA  
 
@@ -131,12 +131,12 @@ Once a work order is associated with an SLA, the **Time From Promised** and **Ti
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Time From Promised and Time To Promised fields on the work order being updated according to the SLA](./media/work-order-sla-time-window-10.png)
+> ![Screenshot of Time From Promised and Time To Promised fields on the work order being updated according to the SLA.](./media/work-order-sla-time-window-10.png)
 
 Additionally, scheduling tools like the schedule assistant and Resource Schedule Optimization consider **Time From Promised** and **Time To Promised** fields and therefore will respect the SLA.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Schedule Assistant parameters using Time From Promised and Time To Promised field values](./media/work-order-sla-schedule-11.png)
+> ![Screenshot of Schedule Assistant parameters using Time From Promised and Time To Promised field values.](./media/work-order-sla-schedule-11.png)
 
 ## Configuration considerations
 

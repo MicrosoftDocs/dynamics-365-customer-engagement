@@ -87,7 +87,7 @@ Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework
 
 7. In the **New Channel** page, set **Enable Analytics** field to **Yes**.
 
-![Enable channel analytics using user interface](../media/enable-channel-analytics.PNG "Enable channel analytics")
+![Enable channel analytics using user interface.](../media/enable-channel-analytics.PNG "Enable channel analytics")
 
 #### Using Web API
 

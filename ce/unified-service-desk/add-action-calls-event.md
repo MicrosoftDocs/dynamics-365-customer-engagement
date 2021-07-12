@@ -30,7 +30,7 @@ You can add multiple action calls to an event so that they are run in the order 
 
 6. Type the name of the action call in the search box, and then select the action call that you want to add from the list. You can select as many action calls from the **Look Records** pane. After selecting the action calls, choose **Add**. 
   
-   ![Add action call to an event](../unified-service-desk/media/usd-add-action-call-event.png "Add action call to an event") 
+   ![Add action call to an event.](../unified-service-desk/media/usd-add-action-call-event.png "Add action call to an event") 
   
 7. If you have added multiple action calls, double-click each of the added action call record, specify the **Order** value, and then save the action call record. The order values are updated in the **Active Actions** area.
   

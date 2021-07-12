@@ -20,7 +20,7 @@ Push notifications help to engage app users and help them prioritize key tasks. 
 - **Entity**:  Select which entity the notification is for.
 - **Record ID**: Enter the record ID. If you don't enter a record ID, the mobile app will open at the home screen when you tap the notification. If you enter the record ID, the mobile app will open the specified record when you tap the notification.
 
-![Send push notification V2 action](media/sm-push-notif.png "Send push notification V2 action")
+![Send push notification V2 action.](media/sm-push-notif.png "Send push notification V2 action")
 
 For information about creating push notifications, go to [Create push notifications for Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/power-apps-mobile-notification).
 
@@ -28,15 +28,15 @@ For information about creating push notifications, go to [Create push notificati
 
 1. In [Power Automate](https://flow.microsoft.com) on the left pane, select **My flows**, and then select a flow.
 
-    ![Select a flow](media/select-flow.png "Select a flow")
+    ![Select a flow.](media/select-flow.png "Select a flow")
 
 2. From the run history, select an instance of the run.
 
-    ![Run history of a flow](media/flow-run-history.png "Run history of a flow")
+    ![Run history of a flow.](media/flow-run-history.png "Run history of a flow")
 
 3. Validate the inputs passed during the run.
 
-    ![Validate the inputs of a flow](media/flow-inputs.png "Validate the inputs of a flow")
+    ![Validate the inputs of a flow.](media/flow-inputs.png "Validate the inputs of a flow")
 
 
 ### See also

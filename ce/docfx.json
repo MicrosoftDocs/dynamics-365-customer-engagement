@@ -133,6 +133,7 @@
         ]
       },
       "ms.service": {
+        "app-profile-manager/**/*.md": "dynamics-365-customerservice",
         "customer-service/**/*.md": "dynamics-365-customerservice",
         "linkedin/**/*.md": "dynamics-365-linkedinconnector",
         "sales-enterprise/**/*.md": "dynamics-365-sales",

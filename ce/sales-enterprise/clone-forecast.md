@@ -16,19 +16,19 @@ When you clone a forecast, you duplicate any configurations you made previously.
 
 1. Sign in to the Sales Hub app.
 
-2. In the site map, select **Change area** ![Change area](media/change-area-icon.png), and then select **App Settings**.
+2. In the site map, select **Change area** ![Change area.](media/change-area-icon.png), and then select **App Settings**.
 
 3. Under **Performance management**, select **Forecast configuration**.    
     The forecast configuration page opens.
 
-4. On the forecast that you want to clone, select **More options** ![More options](media/more-commands-icon.png), and then select **Clone**.   
+4. On the forecast that you want to clone, select **More options** ![More options.](media/more-commands-icon.png), and then select **Clone**.   
     > [!div class="mx-imgBorder"]    
-    > ![Clone the forecast](media/forecast-select-clone.png "Clone the forecast")   
+    > ![Clone the forecast.](media/forecast-select-clone.png "Clone the forecast")   
 
 5. In the message that appears, select **OK**.
 
     > [!div class="mx-imgBorder"]    
-    > ![Select OK in the confirmation message](media/forecast-clone-confirmation-message.png "Select OK in the confirmation message")    
+    > ![Select OK in the confirmation message.](media/forecast-clone-confirmation-message.png "Select OK in the confirmation message")    
 
     The clone of the selected forecast is opened in edit mode.
 

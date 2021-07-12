@@ -62,7 +62,7 @@ You can create an application adapter if you want to integrate an external appli
   
 4. Press F5 or choose **Debug** > **Start Debugging** to create a sample external application. The application (Microsoft.Uii.QuickStarts.QsExternalApp.exe) is created in the /bin/debug folder of the project.  
   
-   ![Sample external app](../unified-service-desk/media/usd-sample-external-app.PNG "Sample external app")  
+   ![Sample external app.](../unified-service-desk/media/usd-sample-external-app.PNG "Sample external app")  
   
 <a name="ConfigureExApp"></a>   
 ## Step 2: Configure the external application 
@@ -102,7 +102,7 @@ You can create an application adapter if you want to integrate an external appli
   
 4. Choose **Sample External Application** to see your external application hosted within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-   ![Sample external app in Unified Service Desk](../unified-service-desk/media/usd-sample-external-app-1.PNG "Sample external app in Unified Service Desk")  
+   ![Sample external app in Unified Service Desk.](../unified-service-desk/media/usd-sample-external-app-1.PNG "Sample external app in Unified Service Desk")  
   
 > [!NOTE]
 >  At this point the fields are empty as you’re only hosting the application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. To populate them with values from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you’ll have to create an application adapter as described in the next step.  
@@ -118,7 +118,7 @@ You can create an application adapter if you want to integrate an external appli
   
    2. Specify the name and location of the project, and select **OK** to create a new project.  
   
-   ![External application adapter in Visual Studio](../unified-service-desk/media/usd-external-app-adapter-vs.PNG "External application adapter in Visual Studio")  
+   ![External application adapter in Visual Studio.](../unified-service-desk/media/usd-external-app-adapter-vs.PNG "External application adapter in Visual Studio")  
   
 3. In Solution Explorer, expand the References section to ensure all the assembly references resolve correctly.  
   
@@ -213,7 +213,7 @@ You can create an application adapter if you want to integrate an external appli
    |URI|`ExternalApplicationAdapter`|  
    |Type|`ExternalApplicationAdapter.AppAdapter`|  
   
-   ![External adapter configuration](../unified-service-desk/media/usd-external-adapter-config.PNG "External adapter configuration")  
+   ![External adapter configuration.](../unified-service-desk/media/usd-external-adapter-config.PNG "External adapter configuration")  
   
    > [!NOTE]
    >  URI is the name of your assembly and the Type is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is `ExternalApplicationAdapter` and name of the class is `AppAdapter`, which is the default class name when you create an application adapter.  
@@ -231,11 +231,11 @@ You can create an application adapter if you want to integrate an external appli
   
 4. Choose **Search** and then choose **Contacts** and select a contact. In this case, we’ll select `Patrick Sands`.  
   
-   ![Contacts list in Unified Service Desk](../unified-service-desk/media/usd-external-app-contacts-list.PNG "Contacts list in Unified Service Desk")  
+   ![Contacts list in Unified Service Desk.](../unified-service-desk/media/usd-external-app-contacts-list.PNG "Contacts list in Unified Service Desk")  
   
 5. Select **Sample External Application** and you’ll see the customer’s first name, last name, address, and ID populated.  
   
-   ![Customer info in external application](../unified-service-desk/media/usd-external-app-customer-info.PNG "Customer info in external application")  
+   ![Customer info in external application.](../unified-service-desk/media/usd-external-app-customer-info.PNG "Customer info in external application")  
   
 > [!NOTE]
 >  This walkthrough demonstrates how to display or read data from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] in the external application. To understand how to update the data in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the external application, see [Walkthrough: Create a UII Windows Forms Hosted Control](../unified-service-desk/walkthrough-create-uii-windows-forms-hosted-control.md)

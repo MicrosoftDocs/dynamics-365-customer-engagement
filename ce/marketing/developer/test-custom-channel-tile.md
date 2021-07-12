@@ -28,7 +28,7 @@ To make the custom channel tile available in the customer journey designer:
     
     The tile should show up in the **Custom Content** section of the tile library in the customer journey designer.
 
-    ![Custom Content tiles](../media/marketing-custom-channel-tile.png)
+    ![Custom Content tiles.](../media/marketing-custom-channel-tile.png)
 
 
 > [!div class="nextstepaction"]

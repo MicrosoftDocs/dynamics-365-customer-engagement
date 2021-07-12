@@ -33,7 +33,7 @@ To create a new website entity configuration:
 5. Write a JSON array that contains the new custom field that should be visible through the API in the Selected fields. This exposes the new custom field through the Events API.
 
 > [!div class="mx-imgBorder"]
-> ![Customize API response](../media/using-events-api-customize-response.PNG)
+> ![Customize API response.](../media/using-events-api-customize-response.PNG)
 
 **Example**
 

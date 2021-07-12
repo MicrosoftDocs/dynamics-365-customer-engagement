@@ -58,7 +58,7 @@ The `isDisplayable` attribute, if set to `true`, will display the passed items w
 > [!NOTE]
 > If no context variables have been created under live work stream with a matching logical name, variables are created at runtime assuming the type as String. More information: [Context variables](../../../context-variables-for-bot.md#context-variables)
 
-![Display context keys](../../../media/context-variable-display.png "Display context keys")
+![Display context keys.](../../../media/context-variable-display.png "Display context keys")
 
 <a name="bkmk_navigationhistory"></a>
 

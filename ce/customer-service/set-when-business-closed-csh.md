@@ -34,7 +34,7 @@ Make sure that you have the required security role or equivalent permissions.
  
    You can also select **New** from the business closure grid to create a new business closure record.
 
-   ![Schedule business closure](media/create-business-closure.png)
+   ![Schedule business closure.](media/create-business-closure.png)
 
    A quick create dialog box is displayed.
   

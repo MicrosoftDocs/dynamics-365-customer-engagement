@@ -21,7 +21,7 @@ When enabling the data validation option (**Enable LinkedIn updates**) in the **
 - Data validation has failed because CRM sync is disabled in LinkedIn Sales Navigator.
 - Data validation failed with some other error (for example, an "unexpected error").
 
-![Error in enabling LinkedIn updates](media/lisn-update-error.png "Error in enabling LinkedIn updates")
+![Error in enabling LinkedIn updates.](media/lisn-update-error.png "Error in enabling LinkedIn updates")
 
 For more information about the data validation capability of LinkedIn Sales Navigator, see [Data validation](./data-validation.md).
 
@@ -61,13 +61,13 @@ When I try to sign in to LinkedIn Sales Navigator, errors are displayed. These e
 
 - Display widgets are showing the error&mdash;*LinkedIn Sales Navigator subscription not found. You need a LinkedIn Sales Navigator Team contract in order to gain access*.   
     > [!div class="mx-imgBorder"]  
-    > ![Display widgets show subscription not found error](media/display-widget-subscription-not-found-error.png "Display widgets show subscription not found error")    
+    > ![Display widgets show subscription not found error.](media/display-widget-subscription-not-found-error.png "Display widgets show subscription not found error")    
 
 -OR-    
 
 - Display widgets are not loading on different browsers. The error is displayed as shown in the following sample image:   
     > [!div class="mx-imgBorder"]  
-    > ![Display widgets are not loading](media/display-widget-not-loading-error.png "Display widgets are not loading")    
+    > ![Display widgets are not loading.](media/display-widget-not-loading-error.png "Display widgets are not loading")    
 
 **Resolution**
 
@@ -79,21 +79,21 @@ Microsoft Edge:<a name='microsoft-edge'></a>
 3. From the site map, go to **Privacy, search, and services**.    
 4. In the **Tracking Prevention** section, select **Balanced** and disable the **Always use “Strict” tracking prevention when browsing InPrivate** option.    
     > [!div class="mx-imgBorder"]  
-    > ![Configure track prevention section in edge](media/edge-select-browser-settings.png "Configure track prevention section in edge")
+    > ![Configure track prevention section in edge.](media/edge-select-browser-settings.png "Configure track prevention section in edge")
 
 Mozilla FireFox:<a name='mozilla-firefox'></a>    
 1. Open the Mozilla FireFox browse and open your organization.  
 2. Before the address bar, select the shield icon and the Enhanced tracking protection details appears.   
 3. Disable the **Enhanced tracking protection is ON for the site** option and refresh the browser.    
     > [!div class="mx-imgBorder"]  
-    > ![Configure track prevention section in firefox](media/firefox-select-browser-settings.png "Configure track prevention section in firefox")    
+    > ![Configure track prevention section in firefox.](media/firefox-select-browser-settings.png "Configure track prevention section in firefox")    
 4. Refresh the page and the display widgets start loading as expected.
 
 Google Chrome:<a name='google-chrome'></a>    
 In the Chrome browser, the display widgets loading issue could occur in Incognito/Private mode.   
 While browsing the org in Incognito/Private mode, disable the **Block third-party cookies** option. The display widgets load as expected.   
 > [!div class="mx-imgBorder"]  
-> ![Configure track prevention section in chrome](media/chrome-select-browser-settings.png "Configure track prevention section in chrome")
+> ![Configure track prevention section in chrome.](media/chrome-select-browser-settings.png "Configure track prevention section in chrome")
 
 Apple Safari:<a name='apple-safari'></a>
 1. Open the Apple Safari browse and open your organization.
@@ -116,11 +116,11 @@ To resolve this issue, add the **msdyn_linkedinintegrationcommon.js** library an
 4. Select the **Form Properties** option.    
     The **Form Properties** dialog opens.   
     > [!div class="mx-imgBorder"]  
-    > ![Form properties dialog box](media/ts-linkedin-contact-form-properties.png "Form properties dialog box")    
+    > ![Form properties dialog box.](media/ts-linkedin-contact-form-properties.png "Form properties dialog box")    
 5. In the **Form Libraries** section, search and add the **msdyn_linkedinintegrationcommon.js** library to the form.   
 6. In the **Event Handlers** section, search and add the **LinkedInIntegration.LinkedInIntegrationCommon.Instance.Form_OnLoad** function to the form.       
     > [!div class="mx-imgBorder"]  
-    > ![LinkedIn library and function added to the form](media/ts-linkedin-contact-form-properties-added.png "LinkedIn library and function added to the form")    
+    > ![LinkedIn library and function added to the form.](media/ts-linkedin-contact-form-properties-added.png "LinkedIn library and function added to the form")    
 7. Save and publish the form.    
 
 <a name="solution-missing-configure-lsn"></a>
@@ -138,7 +138,7 @@ Follow these steps:
     1. Go to **Advanced settings** > **Customization** > **Solutions**.    
     2. Select the LinkedIn solution and then **Show Dependency**.     
         > [!div class="mx-imgBorder"]     
-        > ![LinkedIn solution dependencies](media/ts-solution-dependencies.png "LinkedIn solution dependencies")       
+        > ![LinkedIn solution dependencies.](media/ts-solution-dependencies.png "LinkedIn solution dependencies")       
     3. Select **Required by** entity name and the dependent entity opens in a page.    
     4. Select **Form Properties** and under the **Events** tab go to the **Event Handlers** section.    
     5. Select and remove the events.    

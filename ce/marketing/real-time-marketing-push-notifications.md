@@ -34,7 +34,7 @@ You can send push messages as part of real-time journeys, similar to other outbo
 To send push notification messages to your customers, you first need to set up at least one *Mobile app configuration*. To create a new mobile app configuration, go to **Settings** > **Customer engagement** > **Push notifications** and select **+New** on the top ribbon.
 
 > [!div class="mx-imgBorder"]
-> ![Mobile app configuration screenshot](media/real-time-marketing-mobile-config.png)
+> ![Mobile app configuration screenshot.](media/real-time-marketing-mobile-config.png)
 
 The mobile app configuration connects your existing mobile application (already published on the App Store, Google Play, or both) to Dynamics 365 Marketing.
 
@@ -81,14 +81,14 @@ When the access token is established successfully, the connection is completed a
 Refer to the step-by-step summary on the right side of the mobile app configuration page for the current status of your mobile app configuration.
 
 > [!div class="mx-imgBorder"]
-> ![Mobile app configuration setup status screenshot](media/real-time-marketing-push-right-side.png "Mobile app configuration setup status screenshot")
+> ![Mobile app configuration setup status screenshot.](media/real-time-marketing-push-right-side.png "Mobile app configuration setup status screenshot")
 
 ## Create push notification messages
 
 After you have successfully created your mobile app configuration, you can start creating push notification messages by going to **Real-time marketing** > **Channels** > **Push notifications** and selecting **+New push notification** in the top ribbon. You will then be taken to the push notification message editor.
 
 > [!div class="mx-imgBorder"]
-> ![Push editor screenshot](media/real-time-marketing-push-editor2.png "Push editor screenshot")
+> ![Push editor screenshot.](media/real-time-marketing-push-editor2.png "Push editor screenshot")
 
 In the push notification message editor, you can enter a title, a subtitle, a message, and preview how your message will appear in iOS and Android.
 
@@ -106,7 +106,7 @@ As with the email editor, you can personalize push notifications to insert dynam
 
 To personalize a push notification:
 
-1. Select **Personalization** ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
+1. Select **Personalization** ![The Personalization button.](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
 1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
 1. After choosing the data source, you can search for the specific attribute or event trigger you want.
 1. Add a **Label** to quickly identify your token in the message content.

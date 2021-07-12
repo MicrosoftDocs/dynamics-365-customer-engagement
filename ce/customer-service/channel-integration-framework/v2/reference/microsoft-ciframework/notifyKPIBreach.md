@@ -17,7 +17,7 @@ This method is used to indicate a KPI breach. When this API is invoked, an excla
 
 To reset the KPI breach indication, invoke this API with the value of `shouldReset` parameter set as `false`.
 
-![Notify KPI Breach](../../../media/notifyKPIBreach.PNG "Notify KPI Breach")
+![Notify KPI Breach.](../../../media/notifyKPIBreach.PNG "Notify KPI Breach")
 <br>
 
 ## Syntax

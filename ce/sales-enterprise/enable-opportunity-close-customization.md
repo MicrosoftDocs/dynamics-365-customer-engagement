@@ -17,7 +17,7 @@ To allow users in your organization to capture more relevant details about an op
 
 To enable customization:
 
-1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
+1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
     The **Business Management settings** page opens in a new browser tab.
 
@@ -28,7 +28,7 @@ To enable customization:
 3.  In the **System Settings** dialog box, on the **Sales** tab, set the **Customize close opportunity form** field to **Yes**.
 
     > [!div class="mx-imgBorder"]
-    > ![Customize opportunity close option in System Settings](media/system-setting-customize-close-opportunity-form.png "Customize opportunity close option in System Settings")
+    > ![Customize opportunity close option in System Settings.](media/system-setting-customize-close-opportunity-form.png "Customize opportunity close option in System Settings")
 
 4.  Select **OK**.
 
@@ -38,7 +38,7 @@ If you're using a custom app, in addition to enabling the customization of oppor
 
 > [!IMPORTANT]
 > With the April 2020 release, this setting is also available in the **App Settings** area of the Sales Hub app itself. To go to this setting:
-> 1. At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
+> 1. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
 > 2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Collect additional details about closed opportunities using custom form fields on the closing form**.
 
 

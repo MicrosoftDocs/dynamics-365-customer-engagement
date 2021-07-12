@@ -4,7 +4,7 @@ description: "Learn about how various Dynamics 365 Customer Engagement services 
 ms.custom: on-premise
 ms.date: 12/15/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
