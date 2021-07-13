@@ -356,12 +356,12 @@ Bug Fixes:
 **Field Service Mobile** applies to Field Service 7.5.5+ and 8.2+.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
+> ![Screenshot of Field Service mobile app download example.](media/mobile-field-service-mobile-windows-app-store.png)
 
 **Field Service Mobile (2017)** applies to Field Service 6.1.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile 2017 app download example](media/mobile-field-service-mobile-2017-windows-app-store.png)
+> ![Screenshot of Field Service mobile 2017 app download example.](media/mobile-field-service-mobile-2017-windows-app-store.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

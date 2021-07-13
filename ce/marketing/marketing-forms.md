@@ -65,7 +65,7 @@ The header settings are available at the top of the page no matter which tab is 
 - **Update contacts/leads**: Choose which types of records can be created or updated in response to a form submission. Usually you should leave this set to **Contacts and leads**, which will update both types of records and link them together as needed to support lead scoring and insights. However, you might instead choose to update **Only contacts** or **Only leads** if you want to prevent one of these types of records from being changed. If you choose **Only contacts** or **Only leads**, you can even allow form submissions without updating the contact or lead. This gives you the option to collect form data, then export to Excel create a custom Workflow or Flow to map the data to an entity of your choosing. More information: [How form settings affect lead scoring and interaction records](#form-setting-effects)
 - **Status reason**: Shows the current go-live status of the form. A form must be live before you can use it in a marketing page or embed it on an external site. You can't change this setting here; use buttons on the command bar instead. More information: [Go live to make your marketing form available for use](#form-go-live)
 
-    ![Form settings in the header](media/form-header-settings.png "Form settings in the header")
+    ![Form settings in the header.](media/form-header-settings.png "Form settings in the header")
 
 ### Settings on the Summary tab
 
@@ -89,7 +89,7 @@ The following settings and information are provided on the **Summary** tab:
 - **Related marketing pages**: Here you can see a list of marketing pages where this form is used. Select any listed page to open it.
 - **Related fields**: Here you can see a list of fields used in this form. Select any listed field to open its definition.
 
-    ![Form Summary tab](media/form-summary.png "Form Summary tab")
+    ![Form Summary tab.](media/form-summary.png "Form Summary tab")
 
 <a name="form-setting-effects"></a>
 
@@ -148,11 +148,11 @@ You can also collect form data, but choose not to create new contacts or update 
 
 To prevent mapping form data to contacts or leads, go to **Settings** > **Advanced settings** > **Marketing settings** > **Landing pages** > **Default Marketing page configuration** and switch on **Allow for form submissions without update to contact/lead**.
 
-![Enable allowing form submissions without updating contact/lead](media/marketing-forms-allow-no-update.png "Enable allowing form submissions without updating contact/lead")
+![Enable allowing form submissions without updating contact/lead.](media/marketing-forms-allow-no-update.png "Enable allowing form submissions without updating contact/lead")
 
 After you enable allowing form submissions without updating contacts or leads, you will have the option to select **No update** in the marketing form settings.The submission records are created at the time of submission, however the process stops before any contact or lead is updated.
 
-![No update in marketing form settings](media/marketing-forms-no-update.png "No update in marketing form settings")
+![No update in marketing form settings.](media/marketing-forms-no-update.png "No update in marketing form settings")
 
 When a landing page type form is submitted with **Update contact/leads** set to **No update**:
 
@@ -170,7 +170,7 @@ When a landing page type form is submitted with **Update contact/leads** set to 
 
     As shown in the image below, this would give you a field with “Debit” and “Credit” options that you created previously, which you could then use as a dropdown field for collecting credit card applications without updating contacts or leads.
 
-    ![No update credit card example](media/marketing-forms-credit-card.png "No update credit card example")
+    ![No update credit card example.](media/marketing-forms-credit-card.png "No update credit card example")
 
 > [!NOTE]
 > Advanced users can create custom [Workflows](../customerengagement/on-premises/customize/workflow-processes.md) to map form data collected through the **No update** option to custom entities. Learn more: [Map form data to entities with custom Workflows](entity-mapping.md)
@@ -181,7 +181,7 @@ When a landing page type form is submitted with **Update contact/leads** set to 
 
 When creating or editing a form, you'll be in the form designer, which is an example of the Dynamics 365 Marketing digital-content designer that offers design elements for working with forms.
 
-![The form designer](media/designer-forms.png "The form designer")
+![The form designer.](media/designer-forms.png "The form designer")
 
 Use the designer to add, configure, and arrange the various fields, buttons, and graphical elements that your form requires by working as follows:
 

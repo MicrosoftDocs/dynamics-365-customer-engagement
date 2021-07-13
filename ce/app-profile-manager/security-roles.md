@@ -5,8 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
+ms.custom: intro-internal
 ---
 
 # Roles and privileges associated with app profile manager
@@ -64,16 +64,16 @@ The App Profile Manager Administrator has the following privileges.
 The App Profile User has the following privileges.
 
 |Action|Privileges|
-|-------|-----|----|---|
-|Read application module|prvReadAppModule |
-|Read channel provider| prvReadmsdyn_channelprovider  |
+|-------|-----|
+|Read application module|prvReadAppModule|
+|Read channel provider| prvReadmsdyn_channelprovider|
 |Read application configuration|prvReadmsdyn_appconfiguration |
 |Read application extension| prvReadmsdyn_applicationextension |
-|Read application tab template|prvReadmsdyn_applicationtabtemplate  |
-|Read notification field| prvReadmsdyn_notificationfield |||
+|Read application tab template|prvReadmsdyn_applicationtabtemplate|
+|Read notification field| prvReadmsdyn_notificationfield |
 |Read notification template| prvReadmsdyn_notificationtemplate |
 |Read session template|prvReadmsdyn_sessiontemplate|
-|Read template parameter|prvReadmsdyn_templateparameter  |
+|Read template parameter|prvReadmsdyn_templateparameter|
 |Read user|prvReadUser |
 |Read role|prvReadRole |
 || |

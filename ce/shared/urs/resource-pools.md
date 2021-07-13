@@ -32,10 +32,10 @@ To accommodate this scenario, we will create a pool to represent the pediatricia
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot navigating to resources](../../field-service/media/resource-create-new-navigation.png)
+> ![Screenshot navigating to resources.](../../field-service/media/resource-create-new-navigation.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the Active Bookable Resources grid](../../field-service/media/qs-1-img28.png)
+> ![Screenshot showing where to find the Active Bookable Resources grid.](../../field-service/media/qs-1-img28.png)
 
    2. Set **Resource Type** to **Pool**. A new field will appear called “Pool Type.”
    3. Set **Pool Type** to **Account, Contact, User** because this pool will consist of people resources (pediatricians, in our example).
@@ -46,7 +46,7 @@ To accommodate this scenario, we will create a pool to represent the pediatricia
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of pool resource](../../field-service/media/scheduling-facility-create-pediatrician-pool.png)
+> ![Screenshot of pool resource.](../../field-service/media/scheduling-facility-create-pediatrician-pool.png)
 
   6. Set **Start Location** and **End Location** to **Organizational Unit Address**, and assign an organizational unit with latitude and longitude values because the pediatricians work at a defined health clinic.
      1. Start and End Locations can be set to either **Organizational Unit Address** to represent a physical location where the pool works, or **Location Agnostic** for a pool of resources that will perform work remotely (for example, customer service phone calls). Resource address is not an option, as pools are currently excluded from **Onsite** scheduling (requirements where Work Location is set to Onsite).
@@ -64,7 +64,7 @@ Members can be added to a pool through the bookable resource group entity (booka
 1. From the pool you just created, go to **Related > Resource Children**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of pool children view](../../field-service/media/scheduling-facility-pediatrician-pool-children.png)
+> ![Screenshot of pool children view.](../../field-service/media/scheduling-facility-pediatrician-pool-children.png)
 
 2. Select **+Add New Bookable Resource Group**, and:
    1. Assign a **Name**.
@@ -87,7 +87,7 @@ Members can be added to a pool through the bookable resource group entity (booka
 4. Select **Options > Save Current Filters as Default** to save the changes made to the schedule board tab for the next time you visit.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board with the pool resources exposed](../../field-service/media/scheduling-pools-add-schedule-board.png)
+> ![Screenshot of the schedule board with the pool resources exposed.](../../field-service/media/scheduling-pools-add-schedule-board.png)
 
 ### Step 4: Create a single requirement
 
@@ -105,14 +105,14 @@ Now we will schedule a requirement to our newly created resource pool.
 > In our example, the requirement group field on the requirement record is blank. This means that this is a single requirement intended to be scheduled to one resource. One benefit of single requirements is that they can be scheduled and rescheduled by manual drag and drop. This is useful if dispatchers want to manually reschedule bookings from a pool to a pool member.  
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement for pools](../../field-service/media/scheduling-pools-single-requirement1.png)
+> ![Screenshot of requirement for pools.](../../field-service/media/scheduling-pools-single-requirement1.png)
 
 ### Step 5: Book the pool
 
 1. Select **Book** at the top of the requirement form to trigger the schedule assistant.
 
 > [!div class="mx-imgBorder"]
-> ![Image of schedule assistant results for pool resource](../../field-service/media/scheduling-pools-single-requirement2.png)
+> ![Image of schedule assistant results for pool resource.](../../field-service/media/scheduling-pools-single-requirement2.png)
 
 2. When searching for availability for a requirement or requirement group, both the pool and its child resources (pool members) can be returned in the results.
 
@@ -125,13 +125,13 @@ Since a pool can be booked multiple times up to defined capacity, now we'll crea
 The following screenshot shows a near identical requirement for another pediatrician that we will book to our pool. 
 
 > [!div class="mx-imgBorder"]
-> ![Image of another single requirement for pools](../../field-service/media/scheduling-pools-single-requirement3.png)
+> ![Image of another single requirement for pools.](../../field-service/media/scheduling-pools-single-requirement3.png)
 
 We will select the same resource pool as we did in step 5, and the same time slot at 9 AM to 10 AM.  
 
 
 > [!div class="mx-imgBorder"]
-> ![Image of schedule assistant and same time slot](../../field-service/media/scheduling-pools-single-requirement4.png)
+> ![Image of schedule assistant and same time slot.](../../field-service/media/scheduling-pools-single-requirement4.png)
 
 The resource pool will show as a result in the schedule assistant for the 9 AM time slot up to five times since five pediatric resources were added to the pool making the capacity five.
 
@@ -143,7 +143,7 @@ Load the **Hourly** Schedule Board and find your pool resource. Right click the 
 Here we see five bookings at the 9:00am time slot. 
 
 > [!div class="mx-imgBorder"]
-> ![Image of 5 bookings for a pool during the same time slot](../../field-service/media/scheduling-pools-single-requirement5.png)
+> ![Image of 5 bookings for a pool during the same time slot.](../../field-service/media/scheduling-pools-single-requirement5.png)
 
 > [!Note]
 > The Schedule Board **sorting** functionality applies to the split view, but the Schedule Board **filtering** functionality does not.
@@ -158,26 +158,26 @@ From the schedule board split view, we will accomplish this three ways:
 1. **Manually drag and drop**: Select and drag a booking from the resource pool and drag it to one of the pool members.
 
 > [!div class="mx-imgBorder"]
-> ![Image of dragging a booking from a pool to a resource](../../field-service/media/scheduling-pools-single-requirement6.png)
+> ![Image of dragging a booking from a pool to a resource.](../../field-service/media/scheduling-pools-single-requirement6.png)
 
 
 2. **Substitution**: Right-click a booking for the resource pool, select substitute resource, then select a pool member.
 
 > [!div class="mx-imgBorder"]
-> ![Image of triggering substitution from a pool booking](../../field-service/media/scheduling-pools-single-requirement7.png)
+> ![Image of triggering substitution from a pool booking.](../../field-service/media/scheduling-pools-single-requirement7.png)
 
 
 3. **Rebook**: Right-click a pool booking and select **Rebook**. Edit the filter criteria to no longer search for pools, but to search for Contact, User, and Account type resources.
 
 > [!div class="mx-imgBorder"]
-> ![Image of editing resource types](../../field-service/media/scheduling-pools-single-requirement8.png)
+> ![Image of editing resource types.](../../field-service/media/scheduling-pools-single-requirement8.png)
 
 When rebooking a previously fulfilled booking, the duration will default to the default booking duration as defined in **Universal Resource Scheduling > Settings > Administration > Enable Resource Scheduling for Entities > Booking Setup Metadata**.
 
 Therefore, as seen in the following screenshot, you must edit the end time to match the original duration.
 
 > [!div class="mx-imgBorder"]
-> ![Image of schedule assistant](../../field-service/media/scheduling-pools-single-requirement10.png)
+> ![Image of schedule assistant.](../../field-service/media/scheduling-pools-single-requirement10.png)
 
 Finally, cancel the original pool booking.
 
@@ -185,12 +185,12 @@ Finally, cancel the original pool booking.
 > You can also create a custom booking status to match your business needs, rather than changing the status to cancelled.
 
 > [!div class="mx-imgBorder"]
-> ![Image of cancelling a pool booking](../../field-service/media/scheduling-pools-single-requirement11.png)
+> ![Image of cancelling a pool booking.](../../field-service/media/scheduling-pools-single-requirement11.png)
 
 As an alternative to rebooking from the schedule board, go to the requirement record, edit the resource types, and book again. 
 
 > [!div class="mx-imgBorder"]
-> ![Image of resource types on requirement](../../field-service/media/scheduling-pools-single-requirement9.png)
+> ![Image of resource types on requirement.](../../field-service/media/scheduling-pools-single-requirement9.png)
 
 
 ## Scenario 2: Overbook a pool for expected cancellations
@@ -216,7 +216,7 @@ First we will create a pool resource to represent the hotel.
 
 
 > [!div class="mx-imgBorder"]
-> ![Image of facility pool resource record](../../field-service/media/scheduling-pools-facility-hotel.png)
+> ![Image of facility pool resource record.](../../field-service/media/scheduling-pools-facility-hotel.png)
 
 ### Step 2. Create and add pool members
 
@@ -224,11 +224,11 @@ First we will create a pool resource to represent the hotel.
    2. Go to the hotel pool resource you created in the previous step and add each room resource as a child by selecting **Related > Resource Children**.  
 
 > [!div class="mx-imgBorder"]
-> ![Image of navigating to resource children from facility pool](../../field-service/media/scheduling-pools-resource-children-nav.png)
+> ![Image of navigating to resource children from facility pool.](../../field-service/media/scheduling-pools-resource-children-nav.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Image of facility pool children, in this case rooms in a hotel](../../field-service/media/scheduling-pools-resource-children.png)
+> ![Image of facility pool children, in this case rooms in a hotel.](../../field-service/media/scheduling-pools-resource-children.png)
 
 
 ### Step 3. Manually add additional capacity
@@ -238,7 +238,7 @@ First we will create a pool resource to represent the hotel.
    3. Enter the desired capacity. In this example, we use a capacity of six though our pool has only five child resources (in other words, five rooms).
 
 > [!div class="mx-imgBorder"]
-> ![Image of working hours in a capacity](../../field-service/media/scheduling-pools-overbook-capacity.png)
+> ![Image of working hours in a capacity.](../../field-service/media/scheduling-pools-overbook-capacity.png)
 
 ### Step 4. Create requirement
 
@@ -255,7 +255,7 @@ Now we will create a requirement to represent a reservation for a traveler.
    3. For more information on the **Work Location** field, visit our [topic on facility scheduling](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/facility-scheduling#configuration-considerations).
 
 > [!div class="mx-imgBorder"]
-> ![Image of requirement for facility pools](../../field-service/media/scheduling-pools-overbook-requirement.png)
+> ![Image of requirement for facility pools.](../../field-service/media/scheduling-pools-overbook-requirement.png)
 
 ### Step 5. Book requirement
 
@@ -264,7 +264,7 @@ Select **Book** at the top of the requirement form to trigger the schedule assis
 The schedule assistant results in the following screenshot assume five reservations have already been scheduled to the hotel, and the scheduler is attempting to book a sixth reservation as extra capacity.
 
 > [!div class="mx-imgBorder"]
-> ![Image of schedule assistant results for overbooking a facility pool](../../field-service/media/scheduling-pools-facility-overbook-schedule-assistant.png)
+> ![Image of schedule assistant results for overbooking a facility pool.](../../field-service/media/scheduling-pools-facility-overbook-schedule-assistant.png)
 
 ### Step 6. View overbooking on the schedule board
 
@@ -273,7 +273,7 @@ The schedule assistant results in the following screenshot assume five reservati
 3. View the hotel pool and all related pool members (rooms) by right-clicking the hotel pool resource and selecting **View Pool Resources in Split View**.
 
 > [!div class="mx-imgBorder"]
-> ![Image of viewing facility pools in split view with overbooking](../../field-service/media/scheduling-pools-facility-schedule-board.png)
+> ![Image of viewing facility pools in split view with overbooking.](../../field-service/media/scheduling-pools-facility-schedule-board.png)
 
 ### Step 7. Reassign bookings
 

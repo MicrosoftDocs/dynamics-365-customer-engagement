@@ -75,7 +75,7 @@ ms.custom:
   
 - Session Time: Displays the accrued time that the session tab is open.  
   
-  ![Unified Service Desk CRM Web Client package](../../unified-service-desk/media/unifiedservicedeskcrmwebclientpackage.png "Unified Service Desk CRM Web Client package")  
+  ![Unified Service Desk CRM Web Client package.](../../unified-service-desk/media/unifiedservicedeskcrmwebclientpackage.png "Unified Service Desk CRM Web Client package")  
   
 ## View active cases  
  From the toolbar, click **My Work** to see all of your active cases, and then select a case to work on. When you open a case, a new session opens.  

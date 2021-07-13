@@ -39,7 +39,7 @@ Change the company logo to be shown in [!INCLUDE[pn_gamification_shortest](../in
 
 ### Upload your company logo  
 
-1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)],  go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)],  go to **Settings** ![Settings button in Gamification.](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
 2. Select the **Gamification Settings** tab.  
 
@@ -55,7 +55,7 @@ Define how players and fans get in touch with the commissioner. Participants can
 
 ### Set the link for the contact menu  
 
-1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification.](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
 2. Select the **Gamification Settings** tab.  
 
@@ -69,7 +69,7 @@ Choose whether you want to show or hide the **Actuals** tab in the **Player Stat
 
 ### Show or hide actuals in player stats  
 
-1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification.](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
 2. Select the **Gamification Settings** tab.  
 
@@ -97,7 +97,7 @@ You can opt in for early access to newly developed features to evaluate them for
 
 ### Opt in for early access
 
-1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification.](media/settings-symbol-gamification.png "Settings button in Gamification").
 
 2. Select the **Gamification Settings** tab.
 
@@ -108,7 +108,7 @@ You can opt in for early access to newly developed features to evaluate them for
 
 ## Show or hide completed games  
 
-1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification.](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
 2. Select the **Gamification Settings** tab.  
 
@@ -124,7 +124,7 @@ You can opt in for early access to newly developed features to evaluate them for
 
 ### Configure Stream TV settings  
 
-1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification](media/settings-symbol-gamification.png "Settings button in Gamification").  
+1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Settings** ![Settings button in Gamification.](media/settings-symbol-gamification.png "Settings button in Gamification").  
 
 2. Select the **Stream TV Settings** tab.  
 

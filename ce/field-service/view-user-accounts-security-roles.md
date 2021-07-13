@@ -131,7 +131,7 @@ Yes. Here's an example of copying the **Field Service - Dispatcher** role:
 2. Select a user, and then choose **Manage Roles**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of adding a security role to a User](media/users-3.png) 
+> ![Screenshot of adding a security role to a User.](media/users-3.png) 
 
 3. Assign the copied **Field Service—Dispatcher** role to allow schedule, dispatch, and work order editing capabilities to the user. Or, if the user is responsible for more than schedule and dispatch, make a copy of the **Field Service – Administrator** role and assign it to the user.
 

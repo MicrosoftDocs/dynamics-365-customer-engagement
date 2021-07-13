@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement database version is later than expected | Microsoft Docs"
 description: Environment diagnostics warning that the database version is later than expected.
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

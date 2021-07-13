@@ -34,7 +34,7 @@ There are two ways in which you can view the input and output parameters for the
  
     To view an action definition, select **Settings** > **Processes**. Next, search for the action name: **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**, and then select the action in the grid to display its definition. For example, here is the definition of the **Resource Scheduling - Geocode Address** (**msdyn_GeocodeAddress**) action where the highlighted area provides information about the input and output parameters:
 
-    ![Action definition](../media/FS-ActionDefinition.png)
+    ![Action definition.](../media/FS-ActionDefinition.png)
 
 ## Write your custom plug-in
 

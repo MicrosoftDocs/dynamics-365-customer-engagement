@@ -1,9 +1,9 @@
 ---
-title: "Create connections to define relationships between records (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: ""
+title: "Create connections between records in Dynamics 365 Customer Engagement (on-premises)"
+description: "Connections let you define the relationships between records for many entities. This page explains how to create, view, and deactivate or delete a connection."
 keywords: 
 ms.date: 05/05/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -49,7 +49,7 @@ In Dynamics 365 Customer Engagement (on-premises), you can create and view the r
   
 2. To view all the connections, select the related records drop-down menu next to the record name, and then select **Connections**.  
   
-   ![Select related records dropdown to view Connection](../basics/media/select-related-records-view-connection.png "Select related records dropdown to view Connection")  
+   ![Select related records dropdown to view Connection.](../basics/media/select-related-records-view-connection.png "Select related records dropdown to view Connection")  
   
 <a name="BKMK_Deactivateordelete"></a>   
 ## Deactivate or delete a connection  
@@ -97,7 +97,7 @@ In Dynamics 365 Customer Engagement (on-premises), you can create and view the r
   
 2. To view all the connections, select the related records drop-down menu next to the record name, and then select **Connections**.  
   
-   ![Select related records dropdown to view Connection](../basics/media/select-related-records-view-connection.png "Select related records dropdown to view Connection")  
+   ![Select related records dropdown to view Connection.](../basics/media/select-related-records-view-connection.png "Select related records dropdown to view Connection")  
   
 <a name="BKMK_Deactivateordelete"></a>   
 ## Deactivate or delete a connection  

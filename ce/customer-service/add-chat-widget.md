@@ -1,9 +1,11 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to add a chat widget in Omnichannel for Customer Service."
+ms.date: 07/12/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.topic: article
 ---
 
 # Add a chat widget
@@ -33,7 +35,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
      - **Operation hours name**: Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
-   - **Only show widget on the provided domains:** Enter the link of the portal.
+   - **Only show widget on the provided domains**: Enter the link of the portal.
 7. On the **Behaviors** page, configure the following options:
    - [Custom automated messages](configure-automated-message.md)
    - [Pre-conversation survey](configure-pre-chat-survey.md)
@@ -123,7 +125,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
     |Post-conversation survey| Turn on | If you set to **Yes**, you can configure a post-conversation survey to be presented to customers. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md) |
 
     > [!div class=mx-imgBorder]
-    > ![Configure a pre-conversation survey in a chat widget](media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
+    > ![Configure a pre-conversation survey in a chat widget.](media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
 
 8. On the **Conversation options** tab, specify the information for the following fields.
 

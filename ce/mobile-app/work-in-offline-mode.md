@@ -61,7 +61,7 @@ After you've installed the mobile app and your admin has [enabled mobile offline
 - When you see the dialog box that asks you to download updates to work offline, select **Download**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")  
+   > ![Download updates on your mobile device for mobile offline.](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")  
 
 Offline data starts downloading in the background. Don't close the app or disconnect from the internet until the download is complete.
 
@@ -74,7 +74,7 @@ If you didn't want to download offline data and selected **Skip for now**, you w
 2. On the **Offline Status** screen, select **Download offline updates**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Start offline download](media/start-offline-download.png "Start offline download")
+   > ![Start offline download.](media/start-offline-download.png "Start offline download")
 
 3. The download will start, and the status will change to **Initializing**.
 
@@ -84,7 +84,7 @@ If you didn't want to download offline data and selected **Skip for now**, you w
 4. When the download of offline data is complete, you'll get a notification that you can start working in offline mode.
 
    > [!div class="mx-imgBorder"] 
-   > ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")
+   > ![Download updates complete.](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")
 
 ## See whether offline mode is available
 
@@ -93,7 +93,7 @@ When offline updates are complete, you can check to see whether mobile offline m
 - On the home screen, select the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map"), and then select **Offline** ![Offline](media/offline_button.png "Offline").
   
     > [!div class="mx-imgBorder"] 
-    > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
+    > ![Mobile offline status.](media/OfflineStatus.png "Mobile offline status")
 
 Legend:
 
@@ -118,7 +118,7 @@ When you have intermittent connectivity, we recommend that you switch to offline
 2. Turn on the **Work in offline mode** toggle.
 
    > [!div class="mx-imgBorder"] 
-   > ![Turn on the Work in offline mode toggle](media/set_offline_toggle.png "Turn on the Work in offline mode toggle") 
+   > ![Turn on the Work in offline mode toggle.](media/set_offline_toggle.png "Turn on the Work in offline mode toggle") 
 
 ## Sync conflict resolution
 

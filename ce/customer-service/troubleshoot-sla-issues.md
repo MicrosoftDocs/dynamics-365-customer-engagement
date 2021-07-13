@@ -79,7 +79,7 @@ In such scenarios, we recommend that you don't define the "Applicable When" and 
 When updates are made to the target record, the attributes present in the "Applicable When" conditions of the SLA item are modified in the applied SLA.
 
 Consider a scenario in which you've created an SLA in the web client with an SLA item that has the following "Applicable When" and "Success Conditions", and is set as the default.
-> ![Scenario for troubleshooting SLAs](media/troubleshoot-sla.png "Scenario for troubleshooting SLAs")
+> ![Scenario for troubleshooting SLAs.](media/troubleshoot-sla.png "Scenario for troubleshooting SLAs")
 
 1. Create a case with case type set as question. The SLA timer starts.
 

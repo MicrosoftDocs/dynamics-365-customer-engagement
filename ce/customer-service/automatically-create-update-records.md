@@ -67,7 +67,7 @@ You can configure a rule that when active will be run for incoming emails. Using
 4. Select **Save**. The **Step two: conditions to evaluate and actions to take** area is enabled.
 
    > [!div class=mx-imgBorder]
-   > ![Automatically create record rule](media/arc-csh-rule.png " Automatically create record rule")
+   > ![Automatically create record rule.](media/arc-csh-rule.png " Automatically create record rule")
 
 5. In **Step two: conditions to evaluate and actions to take**, select **New**. The **Condition builder** page is displayed.
 6. Perform the following steps:
@@ -94,7 +94,7 @@ You can configure a rule that when active will be run for incoming emails. Using
 11. If you select **Yes**, select an email template in the **Select email template** list box.
 
    > [!div class=mx-imgBorder]
-   > ![Automatically create record rule configured](media/arc-csh-rule-all-steps-configured.png " Automatically create record rule configured")
+   > ![Automatically create record rule configured.](media/arc-csh-rule-all-steps-configured.png " Automatically create record rule configured")
 
   > [!NOTE]
   > The rule will be in the draft status until you activate it.
@@ -144,7 +144,7 @@ You can review and track the health of the automatic record creation rules and r
 > [!IMPORTANT]
 > The activity monitor tracks the rules only till they are evaluated in Customer Service Hub before the rule is run in Power Automate.
 
-> ![Results of the activity monitor](media/activity-monitor-results.png "Results of the activity monitor")
+> ![Results of the activity monitor.](media/activity-monitor-results.png "Results of the activity monitor")
 
 The following details are available for the rules:
 
@@ -198,7 +198,7 @@ Perform the following steps in Power Automate to manually map a contact:
 3. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
 4. Make sure that you remove the default mappings from **Contact (Contacts)** and **Customer (Accounts)**.
    > [!div class=mx-imgBorder]
-   > ![Configure manual mapping for creating contact](media/arc-manual-power-automate.png " Configure manual mapping for creating contact")
+   > ![Configure manual mapping for creating contact.](media/arc-manual-power-automate.png " Configure manual mapping for creating contact")
 
    > [!IMPORTANT]
    > If you want to map an account, make sure that you remove the default mappings from the **Contact (Contacts)** and **Customer (Contacts)** boxes and specify only an account in the **Customer (Accounts)** box for the workflow to run without errors.

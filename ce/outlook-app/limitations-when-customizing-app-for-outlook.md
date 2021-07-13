@@ -39,23 +39,23 @@ System customizers have access to the Sitemap Designer using the App Designer fo
 3. Select the **Default Solution** > **More Commands** > **Edit**.
 
    > [!div class="mx-imgBorder"]
-   > ![Edit the default solution](media/edit-solution.png)
+   > ![Edit the default solution.](media/edit-solution.png)
 
 4. Select **All** and then select **Dashboard**.
 
    > [!div class="mx-imgBorder"]
-   > ![Sort by dashboard](media/sort-by-dashboard.png)
+   > ![Sort by dashboard.](media/sort-by-dashboard.png)
 
 5. Select **App for Outlook Dashboard** and then on the command bar select **Enable security roles**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select App for OUtlook Dashbaord and then select enable security roles](media/enable-security-role.png)
+   > ![Select App for OUtlook Dashbaord and then select enable security roles.](media/enable-security-role.png)
 
 
 6. On the **Assign Security Role: App for Outlook Dashboard** dialog, select **Display to everyone** and **Enable for fallback**.
 
    > [!div class="mx-imgBorder"]
-   > ![Assign security role scren](media/assign-security-roles-screen.png)
+   > ![Assign security role scren.](media/assign-security-roles-screen.png)
 
 7. When you're done, select **OK**. 
 
@@ -67,17 +67,17 @@ This issue is also seen when the sitemap for App for Outlook has been modified. 
 3. From the list of apps select **Dynamics 365 App for Outlook** and then select **Edit**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select Dynamics 365 App for Outlook and then select edit](media/edit-apps-outlook.png)
+   > ![Select Dynamics 365 App for Outlook and then select edit.](media/edit-apps-outlook.png)
 
 4. Select **Open the Site Map Designer** 
 
    > [!div class="mx-imgBorder"]
-   > ![Edit Dynamics 365 App for Outlook sitemap designer](media/edit-site-map.png)
+   > ![Edit Dynamics 365 App for Outlook sitemap designer.](media/edit-site-map.png)
 
 5. Select **Dashboards** and make sure that the App for Outlook sitemap has **Dashboard** as the first sub area and that the **Default Dashboard** is **App for Outlook Dashboard**.
 
    > [!div class="mx-imgBorder"]
-   > ![Dynamics 365 App for Outlook sitemap designer page with default dashboard](media/default-dashboard.png)
+   > ![Dynamics 365 App for Outlook sitemap designer page with default dashboard.](media/default-dashboard.png)
 
 
 

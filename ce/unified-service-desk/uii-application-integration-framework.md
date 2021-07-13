@@ -24,7 +24,7 @@ The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-applicati
 ## AIF components  
  The following illustration shows the [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] components.  
   
- ![UII Application Integration Framework components](media/usd-aif-components.png "UII Application Integration Framework components")  
+ ![UII Application Integration Framework components.](media/usd-aif-components.png "UII Application Integration Framework components")  
   
  As shown in the preceding illustration, the [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] has the following major components:  
   
@@ -40,7 +40,7 @@ The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-applicati
 ## AIF object model  
  [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] exposes an object model to enable a shell application, such as [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm-md.md)], to instantiate line-of-business applications. The object model also lets you use a session context object to implement interactions between applications and actions to pass messages between them.  
   
- ![Application Integration Framework object model](media/usd-aif-object-model.png "Application Integration Framework object model")  
+ ![Application Integration Framework object model.](media/usd-aif-object-model.png "Application Integration Framework object model")  
   
 - `ApplicationHost`: The `ApplicationHost` acts as a broker between the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym-md.md)] desktop application (such as [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk-md.md)]) and a hosted application. It can also play the role of a broker between multiple hosted applications, enabling them to send and receive actions or events. The `ApplicationHost` object enables hosted applications to raise events, which are referred to as actions in [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym-md.md)]. The hosted applications pass actions to the `ApplicationHost` object, which in turn passes them to the target (hosted application) of the action. The `ApplicationHost` also provides hosted applications with access to the context object.  
   

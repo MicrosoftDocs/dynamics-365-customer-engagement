@@ -15,6 +15,7 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 ---
 
 # Introduction to migration of legacy Service scheduling data
@@ -38,7 +39,7 @@ Consider the following scenarios before you begin migration:
 
 2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
 
-    ![Microsoft Admin Center](media/microsoft-365-admin-center-dynamics-csh.png "Microsoft Admin Center")
+    ![Microsoft Admin Center.](media/microsoft-365-admin-center-dynamics-csh.png "Microsoft Admin Center")
 
 3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down.
 

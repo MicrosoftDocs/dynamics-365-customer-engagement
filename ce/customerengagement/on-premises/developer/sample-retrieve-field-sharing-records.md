@@ -4,7 +4,7 @@ description: "The sample shows how to retrieve the PrincipalObjectAttributeAcces
 ms.custom: 
 ms.date: 01/08/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

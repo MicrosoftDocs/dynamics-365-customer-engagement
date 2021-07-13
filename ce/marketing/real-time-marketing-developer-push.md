@@ -50,9 +50,9 @@ Parameters:
 - **ApplicationId**: Taken from the "Application ID" field of the mobile app configuration entity.
 - **UserId**: Identifier of the user in CRM. Can be a contact ID, a lead ID, or a Customer Insights ID.
 - **ApiToken**: Access token taken from the "Access Tokens" section of the mobile app configuration entity.
-- **ApnsToken**: Device registration token. [Learn more about how to locate the token](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)
+- **ApnsToken**: Device registration token. [Learn more about how to locate the token](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
 
-## Device Registration for Android Applications
+## Device registration for Android applications
 
 To register a device for an Android application, the following request should be issued:
 
@@ -80,7 +80,7 @@ Parameters:
 - **ApplicationId**: Taken from the "Application ID" field of the mobile app configuration entity.
 - **UserId**: Identifier of the user in CRM. Can be a contact ID, a lead ID, or a Customer Insights ID.
 - **ApiToken**: Access token taken from the "Access Tokens" section of the mobile app configuration entity.
-- **FcmToken**: Device registration token. [Learn more about how to locate the token](https://firebase.google.com/docs/cloud-messaging/android/client#retrieve-the-current-registration-token)
+- **FcmToken**: Device registration token. [Learn more about how to locate the token.](https://firebase.google.com/docs/cloud-messaging/android/client#retrieve-the-current-registration-token)
 
 ## Implement user mapping
 
@@ -88,11 +88,11 @@ Once the setup is complete, in order for the mobile application to work correctl
 
 This step is not related to the mobile application setup (whether on Android or Apple devices), but rather, to the logical connection between the person represented as a Marketing record and the counterpart record as a mobile application user.
 
-First, the correct entity must be selected. This step is crucial because, in Marketing, it is possible to orchestrate to multiple Dataverse entities (such as a Contact or Lead) or to a Customer Insights profile. Then, the correct record ID should be passed along to the mobile application and the mobile application should identify the user with that ID.
+First, the correct entity must be selected. This step is crucial because, in Marketing, it is possible to orchestrate to multiple Microsoft Dataverse entities (such as a Contact or Lead) or to a Customer Insights profile. Then, the correct record ID should be passed along to the mobile application and the mobile application should identify the user with that ID.
 
 ## User mapping example
 
-As an example, if the Contact Dataverse entity is used, and the email address field is used as the unique key for an end-user as a Contact, one possibility is to retrieve the correct ID using an OData GET call to Dataverse is the following:
+As an example, if the Contact Dataverse entity is used, and the email address field is used as the unique key for an end user as a Contact, one possibility to retrieve the correct ID using an OData GET call to Dataverse is the following:
 
 ```    
 https://<your Marketing instance>.dynamics.com/api/data/v9.0/contacts?$filter=emailaddress1 eq 'andrew@contosoltd.com'

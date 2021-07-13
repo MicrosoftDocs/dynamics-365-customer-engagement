@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 01/31/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.custom: intro-internal
 ---
 
 # Overview of templates in Customer Service

@@ -13,7 +13,7 @@ manager: shujoshi
 The Conversation dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to surface insights into the topics that  are generating the highest volume and the topics that are emerging with the fastest increase in volume.
 
 > [!div class="mx-imgBorder"]
-> ![Conversation dashboard in Omnichannel for Customer Service](media/oc-Conversation-dashboard.png "Conversation dashboard in Omnichannel for Customer Service")
+> ![Conversation dashboard in Omnichannel for Customer Service.](media/oc-Conversation-dashboard.png "Conversation dashboard in Omnichannel for Customer Service")
 
 You can view the Conversation dashboard in the Omnichannel for Customer Service app. Select the plus (**+**) icon, and then select **Analytics and insights**. The **Conversation** tab is displayed in the default view in your workspace. The dashboard includes a variety of charts with graphical views of your organization's key performance indicators (KPIs).
 
@@ -39,12 +39,12 @@ The following table displays the KPIs Conversation dashboard.
 
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel conversation report](media/oc-report.png "Omnichannel conversation report")
+> ![Omnichannel conversation report.](media/oc-report.png "Omnichannel conversation report")
 
 Conversation charts are displayed as shown in the image and described in the tables.
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel conversation chart](media/oc-conversation-chart.png "Omnichannel conversation chart")
+> ![Omnichannel conversation chart.](media/oc-conversation-chart.png "Omnichannel conversation chart")
 
 | Title | Description |
 | -------------------- | ----------------- |
@@ -61,7 +61,7 @@ Conversation charts are displayed as shown in the image and described in the tab
 | Emerging conversation volume by topic | The top emerging AI-discovered topics, from conversation data that featured the greatest increase in volume over the duration being evaluated. |
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel conversation summary chart](media/oc-conversation-summary.png "Omnichannel conversation summary chart")
+> ![Omnichannel conversation summary chart.](media/oc-conversation-summary.png "Omnichannel conversation summary chart")
 
 | Conversation summary | Description |
 | ------------------------ | --------------------- |
@@ -101,5 +101,5 @@ The Conversation hourly details drill down view provides more granular insight i
 To view the drill-down, select any single metric value on the day you're interested in, and then select **Hourly details**.  
 
 > [!div class="mx-imgBorder"]
-> ![Conversation hourly drill down view](media/conversation-hourly-drill-down-view.png "Conversation hourly drill down view")
+> ![Conversation hourly drill down view.](media/conversation-hourly-drill-down-view.png "Conversation hourly drill down view")
 

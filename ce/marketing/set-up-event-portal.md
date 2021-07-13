@@ -22,7 +22,7 @@ search.app:
 
 The event website provides an online resource where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more. The following image shows a simplified site map of your event website as your attendees will see it.
 
-![Sitemap for the standard event website](media/event-portal-sitemap-ill.png "Site map for the standard event website")
+![Sitemap for the standard event website.](media/event-portal-sitemap-ill.png "Site map for the standard event website")
 
 The event site is preconfigured to fetch all the relevant graphics and information for each published event from Dynamics 365 Marketing, and to enable visitors to create a registration account (including username and password), edit their profile, register themselves and others for an event, choose session passes, view their event schedule, and modify or cancel an event registration.
 
@@ -60,7 +60,7 @@ Event tracks are collections of sessions, usually related by theme or audience. 
 
 Event, session, and track entities all have a **Publish status** field, which users can use to store information about the readiness of the event, including whether it's ready to publish or live. This value is shown as a drop-down list in the upper-right corner when you are editing an event or session record, but is part of the main form for session tracks.
 
-![The Publish Status menu for events](media/golive-publish-event.png "The Publish Status menu for events")
+![The Publish Status menu for events.](media/golive-publish-event.png "The Publish Status menu for events")
 
 The default values for **Publish status** are **Draft**, **Ready to go live**, **In progress**, **Live**, and **Cancelled**. Other than **Live**, all these values are for information only, so you can use them to track your work progress and coordinate with coworkers as needed. The **Live** value works slightly differently depending on which entity you are working with as follows:
 
@@ -92,7 +92,7 @@ The website features a banner image for each event, and also shows speaker photo
 - You can set the banner image shown for any event by [editing the event record](set-up-event.md), going to the **General** tab and using the **Portal image** setting.
 
 - Speaker images come from each speaker record (not from the related contact record). To upload a speaker image, go to **Events** > **Participants** > **Speakers** and open the relevant speaker record. Then select the existing photo (or generic placeholder) in the heading area of the page to open a dialog where you can upload an image. More information: [Set up an event](set-up-event.md)  
-    ![Edit the speaker image](media/speaker-edit-image.png "Edit the speaker image")
+    ![Edit the speaker image.](media/speaker-edit-image.png "Edit the speaker image")
 
 - Sponsor images come from each sponsorship record (not from the related account record), which you can edit by working in the event record where the sponsorship applies (found on the **Agenda** tab, which links to related sponsorship records), or by finding the appropriate sponsorship record under **Events** > **Sponsorship management** > **Sponsorships**. As with speaker images, you can upload an image (such as a logo) to be displayed on the event website by selecting the existing photo (or the generic placeholder) in the heading area of the sponsorship record page.
 

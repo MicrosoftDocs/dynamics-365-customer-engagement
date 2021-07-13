@@ -18,7 +18,7 @@ manager: shujoshi
 The Agent dashboard shows charts and KPIs that you can use to guide agents and understand overall agent performance.
 
 > [!div class="mx-imgBorder"]
-> ![Agent dashboard in Omnichannel for Customer Service](media/oc-agent-dashboard.png "Agent dashboard in Omnichannel for Customer Service")
+> ![Agent dashboard in Omnichannel for Customer Service.](media/oc-agent-dashboard.png "Agent dashboard in Omnichannel for Customer Service")
 
 You can view the Agent dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Analytics and insights**. On the page that appears, select the **Agent** tab.
 
@@ -45,7 +45,7 @@ The charts display the following metrics.
 | Sentiment zones | The breakdown of customer sentiment across sessions by level.  |
 
 > [!div class="mx-imgBorder"]
-> ![Agent summary chart](media/oc-agent-summary.png "Agent summary chart")
+> ![Agent summary chart.](media/oc-agent-summary.png "Agent summary chart")
 
 
 | Session summary | Description 
@@ -96,7 +96,7 @@ The Agent drill-down view provides supervisors with a holistic look into individ
 To access the drill-down, select any metric value for the agent you're interested in, and then select **Details**.  
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel agent drill down](media/oc-agent-drill-down.png "Omnichannel agent drill down")
+> ![Omnichannel agent drill down.](media/oc-agent-drill-down.png "Omnichannel agent drill down")
 
 ## Agent hourly details drill down view
 
@@ -105,7 +105,7 @@ To view the drill down, select any single metric value on the desired day, then 
 
 
 > [!div class="mx-imgBorder"]
-> ![Agent hourly drill down view](media/OC-Agent-Hourly-Detail-Drill-Down.png "Agent hourly drill down view")
+> ![Agent hourly drill down view.](media/OC-Agent-Hourly-Detail-Drill-Down.png "Agent hourly drill down view")
 
 ### See also
 

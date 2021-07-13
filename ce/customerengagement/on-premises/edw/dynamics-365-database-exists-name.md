@@ -1,7 +1,7 @@
 ---
 title: "A Microsoft Dynamics 365 for Customer Engagement database already exists with the specified name | Microsoft Docs"
 description: Environment diagnostics warning that the database already exists with the same name.
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

@@ -4,7 +4,7 @@ description: "Provides field-level security to restrict access to high business 
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -50,7 +50,7 @@ In Dynamics 365 Customer Engagement (on-premises), you use field-level security 
   
    The following diagram shows the interaction between role-based security and field-level security.
   
-   ![Role&#45;based compared to field&#45;level security](../media/crm-v5s-sm-fieldlevelsecurity.png "Role-based compared to field-level security")  
+   ![Role&#45;based compared to field&#45;level security.](../media/crm-v5s-sm-fieldlevelsecurity.png "Role-based compared to field-level security")  
   
    Role-based security lets you see records of a specific entity type, record-based security lets you see individual records, and field-level security lets you see specific fields.  
   

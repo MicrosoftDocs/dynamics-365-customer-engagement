@@ -7,6 +7,7 @@ author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+ms.custom: intro-internal
 ---
 
 # View and understand Omnichannel intraday insights dashboards 
@@ -33,7 +34,7 @@ The IntradayMonitoring report consists of two sections - Conversation insights a
 The **Conversations insights** section provides metrics from a customer standpoint. The following image shows an example of the **Conversations insights** section of the IntradayMonitoring report.
 
 > [!div class="mx-imgBorder"]
-> ![Conversation Insights](media/conversation-insights.png "Conversation Insights")
+> ![Conversation Insights.](media/conversation-insights.png "Conversation Insights")
 
 This section of the IntradayMonitoring report displays the following KPIs about conversations.
 
@@ -56,7 +57,7 @@ This section of the IntradayMonitoring report displays the following KPIs about 
 The **Agent insights** section provides information about the latest KPIs, the health of the queues, and the status of agents on a given day. The agent insights section consolidates sessions across all channels. An example of the **Agent insights** section is shown in the following image.
 
 > [!div class="mx-imgBorder"]
-> ![Agent Insights](media/agent-insights.png "Agent Insights")
+> ![Agent Insights.](media/agent-insights.png "Agent Insights")
 
 
 
@@ -85,10 +86,10 @@ The agent insights report consists of metrics from an agent’s standpoint and p
 You can view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session. The agent insights report consists of the following metrics.
 
 > [!div class="mx-imgBorder"]
-> ![Agents insights dashboard](media/agents-insights-dashboard.png "Agents insights dashboard")
+> ![Agents insights dashboard.](media/agents-insights-dashboard.png "Agents insights dashboard")
 
 > [!div class="mx-imgBorder"]
-> ![Agents insights graph](media/agents-insights-dashboard-1.png "Agents insights graph")
+> ![Agents insights graph.](media/agents-insights-dashboard-1.png "Agents insights graph")
 
 | Metrics | Description |
 |-------|-------|
@@ -122,14 +123,14 @@ Wrap-up | The total number of conversations in the wrap-up stage. |
 
 
 > [!div class="mx-imgBorder"]
-> ![Agent details](media/agent-insights-dashboard-table.png "Agent details")
+> ![Agent details.](media/agent-insights-dashboard-table.png "Agent details")
 
 ### Agent details
 
 You can also view details about a specific agent by right-clicking the agent's name and then selecting **Drill through** > **Agent details** on the shortcut menu, as shown in the following image.
 
 > [!div class="mx-imgBorder"]
-> ![Access details for an agent](media/intraday-agent-drill-through.png "Access details for an agent")
+> ![Access details for an agent.](media/intraday-agent-drill-through.png "Access details for an agent")
 
 > [!NOTE]
 > The **Drill through** feature isn't supported outside of Omnichannel for Customer Service.
@@ -137,10 +138,10 @@ You can also view details about a specific agent by right-clicking the agent's n
 Details about the agent are displayed as shown in the following image.
 
 > [!div class="mx-imgBorder"]
-> ![View details for an agent](media/view-agent-details.png "View details for an agent")
+> ![View details for an agent.](media/view-agent-details.png "View details for an agent")
 
 > [!div class="mx-imgBorder"]
-> ![Agent profile](media/view-agent-details-1.png "Agent profile")
+> ![Agent profile.](media/view-agent-details-1.png "Agent profile")
 
 This section displays the following details.
 
@@ -176,11 +177,11 @@ This section displays the following details.
 This Conversation insights report displays the following metrics about conversations.
 
 > [!div class="mx-imgBorder"]
-> ![Conversation insights dashboard](media/conversation-insights-dashboard.png "Agents insights dashboard")
+> ![Conversation insights dashboard.](media/conversation-insights-dashboard.png "Agents insights dashboard")
 
 | Metric | Description |
 |-------|-------|
-| Inbound | The number of conversations created in the last 24 hours. |
+| Inbound | The number of conversations that were started or closed within the last 24 hours. |
 | Ongoing |The number of conversations in Active, Waiting, and Wrap-up statuses. |
 | Waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |
 | Closed | The number of conversations closed in the last 24 hours. |
@@ -200,7 +201,7 @@ The **Ongoing conversations** section provides information about the status of t
 
 
 > [!div class="mx-imgBorder"]
-> ![Ongoing conversations](media/ongoing-conversations.png "Ongoing conversations")
+> ![Ongoing conversations.](media/ongoing-conversations.png "Ongoing conversations")
 
 The **Ongoing conversations** table displays the following metrics.
 
@@ -228,7 +229,7 @@ You can also assign a conversation to an agent or route it to another queue. Mor
 You can filter information by selecting the queues that have been defined for your organization. From the **Omnichannel queues** drop-down list, select the queues you want, and the information will be filtered according to your selection. This helps you quickly analyze the KPIs and take any necessary steps to improve outcomes.
 
 > [!div class="mx-imgBorder"]
-> ![Queue selection](media/supervisor-queue-selector.png "Queue selection")
+> ![Queue selection.](media/supervisor-queue-selector.png "Queue selection")
 
 ## Average handle time
 

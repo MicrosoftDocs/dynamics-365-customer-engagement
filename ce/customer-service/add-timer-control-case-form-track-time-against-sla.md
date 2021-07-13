@@ -29,7 +29,7 @@ For information on how the SLA KPIs are displayed at runtime when agents view th
 
 A sample runtime view of the SLA Timer is as follows.
 
-![Runtime view of the SLA timers](media/sla-timer-runtime.png "Runtime view of the SLA timers")
+![Runtime view of the SLA timers.](media/sla-timer-runtime.png "Runtime view of the SLA timers")
 
 > [!NOTE]
 > The SLA Timer control displays SLA KPIs that are created in Unified Interface only.
@@ -46,13 +46,13 @@ Do the following steps to add the SLA timer control for the case entity.
 5. Double-click the subgrid, and on the **Set Properties** dialog box, enter the necessary details.
    - In the **Data Source** area, in **Default View**, you can add a view or edit an existing view to determine the SLA KPIs that should be displayed for agents at runtime. For information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
 
-   > ![Configure SLA Timer in customizations](../customer-service/media/sla-timer-properties.png "Configure SLA Timer in customizations")
+   > ![Configure SLA Timer in customizations.](../customer-service/media/sla-timer-properties.png "Configure SLA Timer in customizations")
 
 6. On the **Controls** tab, enter the following information:
    1. Select **Add Control**, and choose SLA Timer.
    2. In the **SLA Timer** area, enter a value for **Update_Frequency_key** to set the timer refresh interval. For optimal performance, choose an interval that is not too short. The default interval is 30 minutes.
 
-   > ![Set refresh frequency for timer](media/sla-timer-update-frequency.png)
+   > ![Set refresh frequency for timer.](media/sla-timer-update-frequency.png)
 
 7. Save and publish the solution.
 
@@ -70,16 +70,16 @@ Do the following steps to add the SLA timer control for the case entity.
   
 - If either of the required fields in the **Timer Control** dialog box does not have a value in the record, the control shows the words **Not Set**.  
   
-    ![Timer control state in Customer Service Hub](media/timer-sla-csh.png "Timer control state in Customer Service Hub")
+    ![Timer control state in Customer Service Hub.](media/timer-sla-csh.png "Timer control state in Customer Service Hub")
 
-    ![Timer control expired in Customer Service Hub](media/timer-sla-csh-expired.png "Timer control expired in Customer Service Hub")
+    ![Timer control expired in Customer Service Hub.](media/timer-sla-csh-expired.png "Timer control expired in Customer Service Hub")
   
 > [!IMPORTANT]
 > - The instructions in this topic apply if you're adding a timer to track time for the date/time field of any entity, or for tracking time against standard SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, see [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
 > - The timer control is designed to visually show the current state or show the remaining or elapsed time relative to the date and time as specified in the **Failure Time** field of the SLA KPI Instance. It doesn’t calculate or keep track of the time for which the Pause condition is true.  
  
 > [!NOTE]
-> The screens showcase the timer control on a Unified interface based app. On a webclient app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app](media/timer-control-webclient.png)
+> The screens showcase the timer control on a Unified interface based app. On a webclient app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app.](media/timer-control-webclient.png)
 
 
 For more information, see: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
@@ -105,7 +105,7 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
   
 6. On the **Insert** tab, in the **Control** group, select **Timer**.  
 
-   ![Timer control button on Insert tab in Customer Service Hub](media/insert-timer-control.png "Timer control button on Insert tab in Customer Service Hub")
+   ![Timer control button on Insert tab in Customer Service Hub.](media/insert-timer-control.png "Timer control button on Insert tab in Customer Service Hub")
   
 7. In the **Timer Control** dialog box:  
   
@@ -123,7 +123,7 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
   
    7. Next to **Pause Condition**, enter the condition that will cause the timer to pause the count down. For example, you want the timer to pause the count down every time the case status is set to “On-hold”. For this, in the first drop-down list, select **Status**. In the second drop-down list, select **On-hold**.  
   
-      ![Timer control in Customer Service Hub](media/timer-control-box-csh.png "Timer control in Customer Service Hub")
+      ![Timer control in Customer Service Hub.](media/timer-control-box-csh.png "Timer control in Customer Service Hub")
   
 8. Select **OK** to add the control to the form.  
   

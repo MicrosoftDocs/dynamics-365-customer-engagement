@@ -45,7 +45,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 - **Invoice and inventory adjustment**: Inventory adjustments are made and an invoice is generated for the corresponding account.  
   
-  ![Work order lifecycle in Dynamics 365 field service](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 field service")  
+  ![Work order lifecycle in Dynamics 365 field service.](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 field service")  
   
 ||||||||  
 |-|-|-|-|-|-|-|  

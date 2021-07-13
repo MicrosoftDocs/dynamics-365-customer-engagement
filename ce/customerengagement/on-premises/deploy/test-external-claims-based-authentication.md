@@ -2,7 +2,7 @@
 title: "Test external claims-based authentication | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -21,7 +21,7 @@ manager: kvivek
 
 You should now be able to access [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] externally using claims authentication. Browse to your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website's external address (for example: https://orgname.contoso.com). You should see a screen like the following:  
   
- ![IFD external sign in](media/crm-itpro-claimswp-signin.png "IFD external sign in")  
+ ![IFD external sign in.](media/crm-itpro-claimswp-signin.png "IFD external sign in")  
   
  Sign in and verify that you have external access to [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
   

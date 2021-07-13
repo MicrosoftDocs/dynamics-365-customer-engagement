@@ -62,7 +62,7 @@ Go to **Users** and create at least two users. One to represent a back-office ad
 Assign each user a license or trial license that includes Dynamics 365 Field Service.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of active users in the Microsoft 365 admin center](./media/quickstart-o365-admin-users.png)
+> ![Screenshot of active users in the Microsoft 365 admin center.](./media/quickstart-o365-admin-users.png)
 
 > [!Note]
 > You may also need to assign your users to your environment in the Power Platform admin center. For more information, see the article on [adding users to an environment](/power-platform/admin/add-users-to-environment).

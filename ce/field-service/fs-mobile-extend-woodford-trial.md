@@ -33,7 +33,7 @@ There are a few important details to know before you submit a request to activat
 
   To find out your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
-  > ![OrgID](media/woodford-expiration.png)  
+  > ![OrgID.](media/woodford-expiration.png)  
 
 - If you make any updates or do any work that changes the organization ID, you need to submit a new request to activate the mobile licenses for the organization.
 
@@ -49,7 +49,7 @@ You need the Dynamics 365 organization ID to complete the request form.
  2. Go to **Settings** > **Customizations** > **Developer Resources**.
  3. In the **Instance Reference Information** section, locate the ID.
         
-  > ![OrgID](media/admin-orgid.png)  
+  > ![OrgID.](media/admin-orgid.png)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
