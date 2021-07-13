@@ -328,7 +328,7 @@
         href: add-knowledge-base-search-control-forms.md
   - name: Routing in Omnichannel Administration
     items:
-    - name: Understand routing and work assignment in Omnichannel Administration
+    - name: Routing and assignment in Omnichannel Administration
       href: unified-routing-work-distribution.md
     - name: Create and manage workstreams in Omnichannel Administration
       href: create-workstreams-oca.md
