@@ -1,6 +1,6 @@
 ---
 title: "Preview features in trial - Sales Enterprise | MicrosoftDocs"
-description: "Develop your opportunity by defining product bundles or families that makes easier for you to choose products for upsell and cross-sell."
+description: "Learn about the auto-enabled preview features in your Sales trial app and how to disable them if needed."
 ms.date: 07/15/2021
 ms.topic: article
 author: lavanyakr01
@@ -14,9 +14,9 @@ Your trial app includes a few auto-enabled preview features.
 > [!IMPORTANT]
 > A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.  
 
-The following features in this trial are in preview: 
+The following preview features are in this trial: 
 
-- Deal manager – a new workspace to manage your deals/opportunities efficiently with an editable and customizable grid and side panel, charts for visualization, and metrics for tracking. For more information, see Using deal manager workspace.
+- Deal manager – a new workspace to manage your deals/opportunities efficiently with an editable and customizable grid and side panel, charts for visualization, and metrics for tracking. For more information, see [Using deal manager workspace](deal-manager-seller-overview.md).
 
 - A new view for contacts, opportunities, leads, and accounts with editable and customizable grid and side panel, along with the filter, sort, and group by options. To switch to the classic view, see [Switch to classic view for contacts, opportunities, leads, and accounts](#switch-to-classic-view-for-contacts-opportunities-leads-and-accounts).
 
