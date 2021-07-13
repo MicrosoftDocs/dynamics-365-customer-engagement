@@ -8,6 +8,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 ---
 
 # Overview of Dynamics 365 Customer Service
