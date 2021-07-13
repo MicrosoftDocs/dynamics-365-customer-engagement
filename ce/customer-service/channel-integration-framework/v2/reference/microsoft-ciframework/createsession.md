@@ -28,6 +28,7 @@ Creates a new session based on the session template defined as part of the templ
 | Name                  | Type     |  Required    | Description     |
 |-----------------------|----------|--------------|-----------------|
 | input                 | String   | Yes          | JSON string     |
+| correlationId         | String   | No           | Unique identifier for telemetry logging.          |
 | successCallback       | Function | No           | A function to call when the request is successful. The input to this function is the unique identifier of the newly created session. |
 | errorCallback         | Function | No           | A function to call when the request fails  |
 
