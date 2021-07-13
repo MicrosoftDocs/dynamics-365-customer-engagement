@@ -13,7 +13,7 @@ ms.custom:
 
 # notifyEvent
 
-Displays a notification that can be used to inform agent about an incoming conversation.
+Displays a notification that can be used to inform agent about incoming conversations.
 
 ## Syntax
 
