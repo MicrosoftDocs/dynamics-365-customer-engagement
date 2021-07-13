@@ -47,7 +47,7 @@ Similar to the Customer Service Hub app, Omnichannel for Customer Service uses t
 
 With Omnichannel for Customer Service, you can enable automatic distribution of cases to the best available agents based on their skill, capacity, and presence. The automatic distribution of cases seamlessly integrates with Dynamics 365 Customer Service case routing, as the routing is unified across applications.
 
-If your organization have a mix of Omnichannel for Customer Service agents and Customer Service Hub agents, you can get a unified and single view of routing rules for all the cases.
+If your organization has a mix of Omnichannel for Customer Service agents and Customer Service Hub agents, you can get a unified and single view of routing rules for all the cases.
 
 You can define routing rules (example: high and low priority) based on which the work distribution system automatically distributes the cases to the Omnichannel for Customer Service agents, and other cases remain in the queues for the Customer Service Hub agents to pick manually.
 
