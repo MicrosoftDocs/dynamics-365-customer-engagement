@@ -14,6 +14,7 @@ search.app:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
+  - intro-internal
 monikerRange: '>= dynamics-usd-3'
 ---
 
