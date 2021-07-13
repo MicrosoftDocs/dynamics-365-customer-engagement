@@ -17,15 +17,15 @@ ms.custom:
 
 [!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
 
-Creates a session based on the session template defined as part of the template and returns the unique identifier of the session that was created. This API supports session templates of the type **Generic**. For more information about session templates, see [Manage session templates](../app-profile-manager/session-templates.md).  
+Creates a new session based on the session template defined as part of the template and returns the unique identifier of the session that was created. This method supports session templates of the type **Generic**.  
 
 ## Syntax
 
 `Microsoft.CIFramework.createSession(input, correlationId).then(successCallback, errorCallback);`
 
 ## Parameters
-
-| **Name**              | **Type** | **Required** | **Description** |
+  
+| Name                  | Type     |  Required    | Description     |
 |-----------------------|----------|--------------|-----------------|
 | input                 | String   | Yes          | JSON string     |
 | successCallback       | Function | No           | A function to call when the request is successful. The input to this function is the unique identifier of the newly created session. |
