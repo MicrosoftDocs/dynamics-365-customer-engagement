@@ -39,14 +39,13 @@ Sample JSON object:
 ```json
 {
 	"value": {"actionName" : "Accept",
-
      "responseReason" : "Accept"}
 }
 ```
 
 **Parameters**
 
-| actionName   |  responseResponse value            |     Description   |
+| actionName   |  responseReason                    |     Description                            |
 |--------------|------------------------------------|--------------------------------------------|
 | Accept       | Accept                             | When user accepts the notification  |
 | Accept       | AutoAccept                         | The notification is accepted by default via a notification template |
@@ -62,17 +61,16 @@ Sample JSON object:
 ```json
 {
 	"message" : "<error details>",
-
 	"msdyn_name" : "NotifyEvent"
 }
 ```
 
 **Parameters**
 
-| **message**    |  **Description**         |
-|-------------------------------|-----------------------------------------|
-|NotificationTemplateNotFoundError |When the specified template name is not found |
-|RejectAfterClientError |An unknown exception occurred (occurs when the Platform API call fails or some input parameter is missing) |
+| message                          |  Description                            |
+|-------------------------------   |-----------------------------------------|
+| NotificationTemplateNotFoundError | When the specified template name is not found |
+| RejectAfterClientError            | An unknown exception occurred (occurs when the Platform API call fails or some input parameter is missing) |
 
 ## Example
 
