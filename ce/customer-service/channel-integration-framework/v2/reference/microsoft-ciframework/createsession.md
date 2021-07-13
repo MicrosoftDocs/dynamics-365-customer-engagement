@@ -28,7 +28,7 @@ Creates a new session based on the session template name and returns the unique 
 | Name                  | Type     |  Required    | Description     |
 |-----------------------|----------|--------------|-----------------|
 | input                 | String   | Yes          | JSON string     |
-| correlationId         | String   | No           | Unique identifier for telemetry logging.          |
+| correlationId         | String   | No           | Used to group all related API calls together for diagnostic telemetry.          |
 | successCallback       | Function | No           | A function to call when the request is successful. The input to this function is the unique identifier of the newly created session. |
 | errorCallback         | Function | No           | A function to call when the request fails  |
 
