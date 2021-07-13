@@ -17,7 +17,7 @@ ms.custom:
 
 [!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
 
-Creates a session based on the session template defined as part of the template and returns the unique identifier of the session (Id) that was created. This API supports session templates of the type **Generic**. For more information about session templates, see [Manage session templates](../app-profile-manager/session-templates.md).  
+Creates a session based on the session template defined as part of the template and returns the unique identifier of the session that was created. This API supports session templates of the type **Generic**. For more information about session templates, see [Manage session templates](ce\app-profile-manager\session-templates.md).  
 
 ## Syntax
 
@@ -29,7 +29,7 @@ Creates a session based on the session template defined as part of the template 
 |-----------------------|----------|--------------|-----------------|
 | input                 | String   | Yes          | JSON string     |
 | successCallback       | Function | No           | A function to call when the request is successful. The input to this function is the unique identifier of the newly created session. |
-| errorCallback         | Function | No           | A function to call when the request fails   |
+| errorCallback         | Function | No           | A function to call when the request fails.   |
 
 The structure of the `input` parameter JSON is as follows:
 
@@ -50,7 +50,7 @@ The structure of the `input` parameter JSON is as follows:
 
 ## Return Value
 
-Returns a promise with the value as String
+Returns a promise with the value as String.
 
 ## Example
 
