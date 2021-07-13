@@ -17,7 +17,7 @@ ms.custom:
 
 [!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
 
-Creates a new session based on the session template defined as part of the template and returns the unique identifier of the session that was created. This method supports session templates of the type **Generic**.  
+Creates a new session based on the session template defined as part of the `input` parameter and returns the unique identifier of the session that was created. This method supports session templates of the type **Generic**.  
 
 ## Syntax
 
