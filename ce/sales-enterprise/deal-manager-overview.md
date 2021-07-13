@@ -19,7 +19,7 @@ Deal manager is a dedicated workspace for sellers, which can be personalized and
 
 :::image type="content" source="media/deal-manager-overview-v1.png" alt-text="Screenshot of deal manager workspace in a nutshell" lightbox="media/deal-manager-overview-v1.png":::
 
-For more information, see [Deal manager - A dedicated workspace for sellers](deal-manager-seller-overview.md). 
+For more information, see [Using deal manager workspace (Preview)](deal-manager-seller-overview.md). 
 
 ## See also
 

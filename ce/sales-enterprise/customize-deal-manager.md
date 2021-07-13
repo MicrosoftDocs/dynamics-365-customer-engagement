@@ -26,7 +26,7 @@ As an administrator, you can customize the workspace to enhance your sales team'
 The deal manager charts help sellers visualize their pipeline better. As an administrator, you can customize various elements in the bubble chart such as, the data on x and y-axis, size and color of the bubble, sort order for legend, and tool tips.
 
 > [!NOTE]
-> Customization of the sales funnel chart is not supported in this release.  
+> This release has a few limitations related to chart customization. See [Known issues in deal manager](deal-manager-known-issues.md#charts).
  
 **To customize the bubble chart:**
 
@@ -54,7 +54,7 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
 
 The editable grid in the deal manager workspace lets sellers quickly view a list of opportunities that they are interested in. You can customize the editable grid to include fields that sellers want to view by default and update, or to apply any business rules. 
 
-Customize the editable grid by adding a JavaScript library. These customizations include disabling fields based on a certain logic, preventing fields from being automatically saved, and setting error notifications for fields. Before you upload it, the JavaScript library must be created in accordance with the schemas defined in [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).  
+Customize the editable grid by adding a JavaScript library. These customizations include disabling fields based on a certain logic, preventing fields from being automatically saved, and setting error notifications for fields. Before you upload it, the JavaScript library must be created in accordance with the schemas defined for forecasting [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).  
 
 **To create and upload a JavaScript library**  
 1. Write your custom JavaScript code. In the following example, we create JavaScript to disable all fields except a few for the **Opportunity** entity.   
@@ -82,23 +82,26 @@ Customize the editable grid by adding a JavaScript library. These customizations
     ```      
     > [!NOTE]
     > -	The function names in the JavaScript file must match the event names and must accept the context object parameter. 
-    > -	The deal manager context object that's referred to in the example is different from the execution context of the Common Data Service. A deal managercontext object is specific to deal manager and supports the advanced configurations of the underlying records grid. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
+    > -	The *deal manager context object* that's referred to in the example is different from the execution context of the Common Data Service. Currently, the  *deal manager context object* is the same as the *forecasting context object* and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
 2.	Add your JavaScript code in a Script web resource.  
-     1. Sign in to [Power Apps](https://make.powerapps.com/), and select **Settings** > **Customizations**.
-    2. In the **Customization** area, select **Customize the System**.
-    3. In the solution explorer, under **Components**, select **Web Resources**.
-    4. Select **New**.
-    5. In the new web resource dialog box, enter the **Name** (for example, **mySampleScript.js**) and **Display Name**(for example, **Sample: Walkthrough script**) for your web resource.
+     1. Sign in to [Power Apps](https://make.powerapps.com/).
+     1. Select the gear icon and select **Advanced Settings**. 
+     1. In the Business Management app, select the **Settings** drop-down and then select **Customizations**.
+     2. Select **Customize the System**.
+     3. In the solution explorer, under **Components**, select **Web Resources**.
+     4. Select **New**.
+     5. In the new web resource dialog box, enter the **Name** (for example, **mySampleScript.js**) and **Display Name**(for example, **My sample script**) for your web resource.
     6. From the **Type** drop-down list, select **Script (JScript)**, and then do one of the following:
         - Select **Choose File** to upload the file containing your JavaScript code.
         - Select **Text Editor**, and then paste your JavaScript code in the editor. 
     7. Select **Save**, and then select **Publish**. 
 3.	Upload the JavaScript library to the deal manager workspace.      
-    >[!NOTE]
-    >You can have only one JavaScript file at a time. To upload a new file, you must first remove the existing file. You can upload a file at any time. 
     1. Access the [deal manager settings](enable-deal-manager-preview.md#access-deal-manager-settings) page. 
     2. In the **Customize the workspace** section, select **Advanced field controls**.
     3. Select **Add a JavaScript library**. Search and select the web resource file. 
+        >[!NOTE]
+        > This field supports only one JavaScript file at a time. To upload a new file, you must first remove the existing file.  
+    
     1. Select **Publish** to save the changes.
   
 

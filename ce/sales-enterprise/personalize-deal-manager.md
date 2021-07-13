@@ -22,12 +22,14 @@ As a seller, you can personalize the deal manager workspace to suit your needs. 
 - Change the layout of the workspace to either list (grid only) or combo (grid and chart).  
 - Change the metrics displayed at the top of the workspace.
 
-
 ## Personalize the metrics 
 
 The deal manager workspace lists important metrics related to the sales pipeline at the top of the workspace. You can personalize this space to view metrics that you want to track.  
 
-**To personalize metrics:**
+> [!NOTE]
+> The personalized metrics are only available until you logout. Due to a limitation, the current release doesn't support saving the changes to metrics. 
+
+**To personalize the metrics:**
 
 1. In the Sales Hub sitemap, select **Deal manager (preview)**.
 1. Select **Combo** > **Edit Metrics**.
@@ -138,6 +140,6 @@ In the deal manager workspace, select the views drop-down and search for the vie
 
 ### See also
 - [Access deal manager workspace](deal-manager-overview.md)
-
+- [Known issues with personalization](deal-manager-known-issues.md#personalization)
 
 
