@@ -14,6 +14,7 @@ search.app:
   - D365USD
 ms.custom: 
   - dyn365-USD
+  - intro-internal
 ---
 # Get started with configuring your agent application
 

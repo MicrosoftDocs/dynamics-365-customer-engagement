@@ -37,7 +37,7 @@ Before you start, be sure you've met the following prerequisites:
 [Configure export preferences](configure-export-preferences-zoominfo.md)    
 [Match fields between Dynamics 365 and ZoomInfo](match-fields-between-dynamics365-zoominfo.md)   
 [Customize the ZoomInfo app](customize-zoominfo-app.md)         
-[Use ZoomInfo app data](use-zoominfo-app-data.md)
-
+[Use ZoomInfo app data](use-zoominfo-app-data.md)   
+[Dynamics Native Application](https://university.zoominfo.com/learn/article/implementation-guide-dynamics-native-application)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
