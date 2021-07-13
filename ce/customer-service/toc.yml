@@ -329,7 +329,7 @@
   - name: Routing in Omnichannel Administration
     items:
     - name: Routing and assignment in Omnichannel Administration
-      href: routing-work-distribution.md
+      href: routing-work-distribution-oca.md
     - name: Create and manage workstreams in Omnichannel Administration
       href: create-workstreams-oca.md
     - name: Create queues in Omnichannel Administration
