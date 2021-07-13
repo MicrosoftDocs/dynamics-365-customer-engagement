@@ -27,7 +27,7 @@ The following assignment methods are available out of the box:
 
 ### Assignment cycle
 
-Assignment cycle is prioritization of work items, their selection, and their assignment to the best suited agent based on the assignment rules. An assignment cycle starts with one of the many triggers, including the arrival of a new work item in the queue or changes in the availability of the agent workforce associated with that queue. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
+Assignment cycle is prioritization of work items, their selection, and their assignment to the best-suited agent based on the assignment rules. An assignment cycle starts with one of the many triggers, including the arrival of a new work item in the queue or changes in the availability of the agent workforce associated with that queue. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
 
 
 ## How prioritization rulesets work
@@ -36,13 +36,68 @@ A prioritization ruleset is an ordered list of prioritization rules. Every prior
 
 You can create only one prioritization ruleset per queue.
 
-As an example, consider the prioritization rule as seen in the following screenshot. This rule will match all the work items where the routed record (case) contains data and priority equals high. The matched items will be further sorted based on a first in and first out attribute.
+As an example, consider the prioritization ruleset as seen in the following screenshot with three rules.
 
 ![Prioritization scenario.](media/ur-prioritization-scenario.png "Prioritization scenario")
 
+During any assignment cycle, this prioritization ruleset will be run, and the rules within the ruleset will be run in the order they are listed.
+
+The first rule “High priority and premium”, will find all work items in the queue where the associated case priority is "High" and the case category is "‘"Premium". It will create the top priority bucket with those work items and sort them in "First in first out” manner as specified in the **Order by** attribute. The first work item to be assigned from the queue will be the oldest item in this bucket.
+
+The next priority bucket will be of the work items where case category is "Premium". The work items with "Premium" case category and "High" priority have already been put in top bucket as per the preceding rule, so this rule will only consider other work items with "Premium" case priority. The **Order by** attribute in this case also is "First in first out".
+
+The next priority bucket consists of work items where case priority is high and have not been bucketed already. Here the work items are ordered by their "First Response By" field in the ascending order, that is, the work items that require the first response at the earliest will be prioritized first.
+
+Some important points about prioritization rules are as follows:
+
+- You can create only one prioritization ruleset per queue.
+- Prioritization rules are run during every assignment cycle. If you change any attributes of the work item, such as the priority of the case, that change will be considered during the next assignment cycle.
+- By default, the queue is sorted in the "first in first out" basis. If you don't create a prioritization rule, then the oldest work item will be assigned first.
+- The work items that don't match the criteria of any of the prioritization rule sets are kept in the last priority bucket, and are ordered by "First in first out".
+
 ## How assignment rulesets work
 
-The assignment ruleset is an order list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the agents to select and an order by field to sort the matching agents. At runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agents exist, they are sorted by the ordered-by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated. This can be thought of as gradual relaxation of constraints in the assignment such that first the strictest criteria is applied, and then the conditions are slowly reduced so that the best agent is found.
+The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the agents to select and an order by field to sort the matching agents. At runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agents exist, they are sorted by the ordered-by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated. This can be thought of as gradual relaxation of constraints in the assignment such that first the strictest criteria is applied, and then the conditions are slowly reduced so that the best agent is found.
+
+### Components of an assignment rule
+
+The assignment rules are composed of the following items:
+
+- **Order**: Specifies the order in which the assignment rule will be evaluated in a ruleset. The lower order rules are run first. If any rule results in matching a user, then the next set of rules are not evaluated.
+- **Name**: Is the unique rule name.
+- **Condition**: Are the expressions that are evaluated to match the users with the attributes of incoming work. The conditions have three parts:
+   - **User attribute**: Properties of the users that can be used for comparing the user with the incoming work. The user attributes can be one of the following:
+     - Select attributes on the System User table
+     - **Presence Status**: Maintained by the unified routing service based on user workloads and manual selection.
+     - **Capacity**: Maintained by the unified routing service based on user workloads and manual selection.
+     - **User skills**: Represents the skills associated with the user that can be used for performing skill-based assignment.
+     - **Calendar Schedule**: Schedule of the user as represented in the user service scheduling calendars.
+     - **Bot attributes**: Can be used only when you have configured bots as users and want to perform some comparisons on them.
+   - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes. Unified routing filters the attribute specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
+    
+    |Attribute type|Operator|Definition|
+    |--------------|--------|----------|
+    |Presence Status| Equals, Does not Equal, Contains Data, Does not Contain Data| Use this operator to find agents who have matching presence status as specified in the work item.|
+    |Capacity||Use this operator to compare if the agent has enough capacity to work on the specified items|
+    |User skills|Exact match|Use this operator to find agents who have all the skills which the incoming work item requires|
+    |User skills|Custom match|Use this operator to find agents who have the custom skills that map to a lookup attribute on the work item. Read more (link)|
+    |Calendar Schedule|Is working|Use this operator to find agents who are working as per their service scheduling calendars|
+    ||||
+  - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, or fixed value e.g. 
+  The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. To select dynamics values, you need to click on the dropdown after the operator (before the value box) and select the dynamic option. In the dynamic values, you can select any attribute on the work item or related records. For example, the below condition finds the users whose country is same as that of the customer who is associated with the case.
+    
+- **Order by**: If there are multiple users that match the conditions in a rule, you can use the ‘order by’ clause to find the best suited one. You can specify following order by clauses:
+
+•	Ordering Attributes
+o	Round Robin
+o	Unit-based available capacity
+o	Profile-based available capacity
+o	Proficiency
+o	Skill count
+•	User Attributes
+These are the attributes on the system user entity. 
+
+
 
 A sample assignment rule is explained in the following scenario with a screenshot.
 
