@@ -51,7 +51,7 @@ The structure of the `input` parameter JSON is as follows:
 
 ## Return Value
 
-Returns a promise with the value as String.
+Promise with a value as String.
 
 ## Example
 
