@@ -24,7 +24,7 @@ Displays a notification that can be used to inform agent about an incoming conve
 | Name            | Type     | Required     | Description     |
 |-----------------|----------|--------------|-----------------|
 | input           | String   | Yes          | JSON input      |
-| correlationId   | String   | No           | Used to group all related API calls together for diagnostic telemetry.          |
+| correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.          |
 | successCallback | Function | No           | On success callback, response object will have the information about whether customer selected Accept or Reject. |
 | errorCallback   | Function | No           | A function to call when the operation fails.  |
 
