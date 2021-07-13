@@ -6,6 +6,7 @@ ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.custom: intro-internal
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
