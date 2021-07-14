@@ -17,7 +17,7 @@ Follow these steps to start a chat:
 2. Once the **lcw:ready** event is raised, call the [startChat](developer/reference/methods/startChat.md) method to start a chat.
 
 > [!NOTE]
-> To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the widget snippet and set its value to `true`. Invoke the [startChat](developer/reference/methods/startChat.md) method on click of the custom UI component to start chat.
+> To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the widget snippet and set its value to `true`. Invoke the [startChat](developer/reference/methods/startChat.md) method on click of the custom UI component to start the chat.
 >
 > **Sample widget code snippet to hide chat button**
 >

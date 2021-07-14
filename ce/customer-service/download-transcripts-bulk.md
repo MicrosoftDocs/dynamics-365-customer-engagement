@@ -17,7 +17,7 @@ Omnichannel for Customer Service transcripts are stored in base64 encoded format
 
 The option to download transcripts in bulk is not available out of the box. You can use the following Web API requests to retrieve all the transcripts and attachments exchanged in the past one month.
 
-The following Web API request retrieves all the textual transcripts.
+The following Web API request retrieves all the textual transcripts:
 
 ```http
 GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_transcript'
@@ -25,7 +25,7 @@ Accept: application/json
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```
-The following Web API request retrieves all the file attachment annotations.
+The following Web API request retrieves all the file attachment annotations:
 
 ```http
 GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_ocliveworkitem'
@@ -50,7 +50,7 @@ The transcripts you see in the link can contain different types of messages:
 
 On each of these types of messages, you can see a `createdDateTime` field that denotes the exact time at which this message was posted or created.
 
-A control message is of no visual value and indicates an event like agent joined or left conversation. It usually has a flag called `isControlMessage` set to `true`.
+A control message is of no visual value and indicates an event like agent joined or left the conversation. It usually has a flag called `isControlMessage` set to `true`.
 
 ```http
 {
@@ -70,7 +70,7 @@ A control message is of no visual value and indicates an event like agent joined
     "from": null
 },
 ```
-A system message is a special type of message that is shown to the customer regarding events during the conversations. For example, when an agent joins, when an agent disconnects, and when a new agent joins.
+A system message is a special type of message that's shown to the customer regarding events during the conversations. For example, when an agent joins, when an agent disconnects, and when a new agent joins.
 
 ```http
 {
@@ -104,7 +104,7 @@ A system message is a special type of message that is shown to the customer rega
 },
 ```
 
-Text messages exchanged during the chat between agent and customer appear as follows.
+Text messages exchanged during the chat between agent and customer appear as follows:
 
 ```http
 {
@@ -139,9 +139,9 @@ Text messages exchanged during the chat between agent and customer appear as fol
 },
 ```
 
-As seen in the preceding code, messages sent by the customer have a display name "Customer" in case of an unidentified customer or their actual name if they are known to Omnichannel for Customer Service.
+As seen in the preceding code, messages sent by the customer have a display name "Customer" in case of an unidentified customer or their actual name if they're known to Omnichannel for Customer Service.
 
-For the message that is sent by an agent to a customer, there are tags denoting that it's a “public” message sent by the agent. If the tags contain “private”, then they are internal messages exchanged between two agents and are not visible to the customer.
+For the message that's sent by an agent to a customer, there are tags denoting that it's a “public” message sent by the agent. If the tags contain “private”, then they're internal messages exchanged between two agents and are not visible to the customer.
 
 ```http
 {
@@ -175,7 +175,7 @@ For the message that is sent by an agent to a customer, there are tags denoting 
 	"deliveryMode": "unbridged"
 },
 ```
-A `FileAttachment` message looks like the following snippet in the JSON.
+A `FileAttachment` message looks like the following snippet in the JSON:
 
 ```http
 {
