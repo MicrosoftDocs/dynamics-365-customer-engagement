@@ -1,11 +1,10 @@
 ---
 title: "Dynamics 365 Field Service mobile apps | Microsoft Docs"
 description: Learn about the two Field Service mobile apps and when to use each one.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 06/04/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"

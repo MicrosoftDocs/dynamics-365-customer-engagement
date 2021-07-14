@@ -1,11 +1,10 @@
 ---
 title: "Use Dynamics 365 Field Service Mobile (Xamarin app) | MicrosoftDocs"
 description: Learn how to setup and use Field Service Mobile (Xamarin app).
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 10/28/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
