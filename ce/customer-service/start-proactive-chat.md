@@ -1,5 +1,5 @@
 ---
-title: "Start chat proactively | Microsoft Docs"
+title: "Start chat proactively | MicrosoftDocs"
 description: "Read how you can start chat proactively to see if customers need help and thereby improve customer experience."
 ms.date: 04/06/2020
 ms.topic: reference

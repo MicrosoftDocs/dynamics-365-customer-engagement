@@ -1,5 +1,5 @@
 ---
-title: "Enable third-party co-browse and screen sharing | Microsoft Docs"
+title: "Enable third-party co-browse and screen sharing | MicrosoftDocs"
 description: "Learn how to enable third-party co-browse and screen sharing escalation channels in Omnichannel for Customer Service."
 ms.date: 06/03/2021
 ms.topic: reference
