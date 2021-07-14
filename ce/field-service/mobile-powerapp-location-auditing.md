@@ -45,7 +45,7 @@ In Field Service, go to **Geolocation Settings**.
 
 1. Set **Enable Location Tracking**  to *Yes*.
 2. Enter a **Refresh Interval (seconds)** - indicates how frequently the system checks the user’s location; however, it doesn’t indicate that “Geolocation Tracking” records will be created. 60 to 300 seconds is recommended based on your business needs.
-3. Configure tracking times to meet your business needs. In the screenshot example, we have it configured so that tracking happens 24 hours a day, every day.
+3. Configure tracking times to meet your business needs. In the screenshot example, we have it configured so that tracking happens 24 hours a day, every weekday.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service, showing the geolocation settings.](./media/mobile-location-geolocation-settings.png)
