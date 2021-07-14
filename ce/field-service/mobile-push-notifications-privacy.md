@@ -1,8 +1,7 @@
 ---
 title: "Privacy note for Field Service Mobile Push Notifications | MicrosoftDocs"
 ms.date: 03/14/2019
-ms.service: dynamics-365-field-service
-ms.subservice: field-service-mobile
+ms.service: dynamics-365-customerservice
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
@@ -11,6 +10,8 @@ author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
 ms.reviewer: krbjoran
+ms.custom: 
+  - dyn365-fieldservice
 search.app: 
   - D365CE
   - D365FS
