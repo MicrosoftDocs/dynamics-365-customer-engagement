@@ -14,15 +14,15 @@ manager: shujoshi
 
 Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses model-driven app such as Customer Service Hub. In this case, if you are an agent who works on the model-driven app, and you need to analyze the conversation request from Omnichannel for Customer Service, you can find the information through **Activities** in the model-driven app.
 
-Select the plus icon in the application tab to view the sitemap and select **Activities**.
+Select the plus icon in the application tab to view the site map and select **Activities**.
 
 > [!div class=mx-imgBorder]
-> ![Select activities in the sitemap to view the list of activity types.](media/oceh-oc-activities.png "Select activities in the sitemap")
+> ![Select activities in the site map to view the list of activity types.](media/oceh-oc-activities.png "Select activities in the site map")
 
-There will be many activity types, and you need to look for **Conversation** and **Session** types.
+There'll be many activity types, and you need to look for **Conversation** and **Session** types.
 
 > [!div class=mx-imgBorder]
-> ![Select activities in the sitemap to view the list of activity types.](media/oceh-oc-activities-list.png "Select activities in the sitemap")
+> ![List of all activity types.](media/oceh-oc-activities-list.png "List of all activity types")
 
 ### Conversation activity type
 

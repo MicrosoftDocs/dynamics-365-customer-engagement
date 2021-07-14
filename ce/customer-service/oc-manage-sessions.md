@@ -95,14 +95,14 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     For an authenticated chat, name of the contact, account, or title of the case is displayed.
 
     > [!div class=mx-imgBorder]
-    > ![Session icon.](media/oceh-session-icon.png "Session icon")
+    > ![Session title.](media/oceh-session-title.png "Session title")
 
 - **Session icon**
 
     By default, the first two letters of the session title is displayed as the session icon.
 
     > [!div class=mx-imgBorder]
-    > ![Session title.](media/oceh-session-title.png "Session title")
+    > ![Session icon.](media/oceh-session-icon.png "Session icon")
 
 ## Session sentiment alert and unread message count
 

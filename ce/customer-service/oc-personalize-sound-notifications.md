@@ -6,8 +6,6 @@ ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/08/2021
-ms.topic: article
 ---
 
 # Personalize sound notification settings
