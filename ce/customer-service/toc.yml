@@ -134,8 +134,10 @@
           href: routing-rules.md
       - name: Configure work assignment
         items:
-        - name: Configure assignment methods for queues
+        - name: Assignment methods
           href: assignment-methods.md
+        - name: Configure assignment rules for queues
+          href: configure-assignment-rules.md
       - name: Set up record routing
         items: 
         - name: Set up unified routing for records
