@@ -1,12 +1,10 @@
 ---
 title: "Overview of Universal Resource Scheduling (Dynamics 365) | MicrosoftDocs"
 description: Schedule anything in Dynamics 365 using Universal Resource Scheduling
-ms.custom: 
-  - dyn365-projectservice
-  - dyn365-fieldservice
 ms.date: 01/03/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: overview
 author: krbjoran
 ms.author: krbjoran
