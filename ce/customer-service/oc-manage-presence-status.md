@@ -33,7 +33,7 @@ As an agent, you can view your presence status that is shown in the nav bar. Sel
   
   - ![Inactive presence status.](media/oceh-appear-away-icon.png "Appear away presence status") - Inactive
   
-If you can't see your presence, make sure that cookies are not blocked in your browser in any mode.
+If you can't see your presence status, make sure that cookies are not blocked in your browser in any mode.
  
 ## Update your presence status
 
@@ -46,7 +46,7 @@ Presence status is updated in two ways:
   - Busy
   - Available
   
-   Also, you may see any other additional presence statuses that your administrator configured for you.
+   You may also see other additional presence statuses that your administrator configured for you.
 
   > [!div class=mx-imgBorder]
   > ![Set your status.](media/oceh-presence.png "Set your status")
@@ -56,7 +56,7 @@ Presence status is updated in two ways:
   - When your capacity is fully utilized, the presence is set to **Do not disturb**.
   - When your capacity is partially utilized, the presence is set to **Busy**.
   - When your capacity is not utilized, the presence is set to **Available**.
-  - When you miss a notification and when missed notifications is enabled, the presence is set to **Inactive**.
+  - When you miss a notification and when missed notifications alert is enabled, the presence is set to **Inactive**.
 
 ### Troubleshoot display of presence
 

@@ -15,18 +15,18 @@ manager: shujoshi
 
 ## Overview
 
-As an administrator, you can enable the feature that displays a customer's average wait time in the queue when they're waiting to chat with an agent. It helps set customer expectations when wait times are long because of a high volume of customers needing support, understaffing, or long call-handling times. When you display the average wait time to the customer, the customer can decide whether to wait in the queue or return to the chat later.
+As an administrator, you can enable the feature that displays a customer's average wait time in the queue to start a chat with an agent. It helps set customer expectations when wait times are long because of a high volume of customers needing support, understaffing, or long call-handling times. When you display the average wait time to the customer, the customer can decide whether to wait in the queue or return to the chat later.
 
-With this feature turned on, when a new customer is placed in the queue, they receive the notification: **Average wait time \<n\> mins.** The average wait time is displayed only if the wait is one minute or longer.
+With this feature turned on, when customers are placed in the queue, they'll receive the notification: **Average wait time \<n\> mins.** 
 
-The average wait time is calculated based on wait times from the previous 48 hours and a minimum of 50 conversations for the specific queue. This is an estimated time, and doesn't change for the customer. When there's no wait, the average wait time isn't displayed.
+The average wait time is calculated based on wait times from the previous 48 hours and a minimum of 50 conversations for the specific queue. This is an estimated time, and doesn't change for the customer. The average wait time is displayed only if the wait is one minute or longer. When there's no wait, the average wait time isn't displayed.
 
 > [!NOTE]
 > If skill-based routing is configured with exact skill match, the queue position that's displayed to a customer on the chat portal widget might not be accurate; therefore, the assignment of an agent to the customer might take longer than expected.
 
 ## Enable average wait time
 
-If you're using Omnichannel admin center, do the following:
+If you're using Omnichannel admin center, follow these steps:
 
 1. Go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat channel Settings** page, go to the **Behaviors** tab.
 
@@ -34,7 +34,7 @@ If you're using Omnichannel admin center, do the following:
 
 3. Select **Save and Close**.
 
-If you're using Omnichannel Administration, do the following:
+If you're using Omnichannel Administration, follow these steps:
 
 1. Go to **Channels** &gt; **Chat**, and open the chat widget in which you need to configure the settings.
 

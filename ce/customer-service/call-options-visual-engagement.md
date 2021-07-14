@@ -81,7 +81,7 @@ After accepting the call, the customers can view and use the following options.
 |![End call.](media/end-call.png "End call")| End call | 
 
 
-After accepting the call, the customer can turn on or off the video, mute or unmute the conversation, and end the call.
+After accepting the call, the customer can turn on or turn off the video, mute or unmute the conversation, and end the call.
 
 > [!div class=mx-imgBorder]
 > ![Customer experience of a video call during live chat.](media/calling2.png "Customer experience of a video call during live chat")
@@ -110,16 +110,16 @@ When you're chatting with a customer, you can initiate a co-browsing or screen s
     An app tab opens, providing a way to sign in to the third-party provider and create a new session.
 
    > [!Note]
-   > The sign-in experience will vary depending upon the co-browse or screen share provider selected by your administrator. Refer to the third-party provider's documentation for more information about initiating co-browsing or screen sharing sessions.
+   > The sign-in experience will vary depending upon the co-browse or screen share provider selected by your administrator. For more information about co-browsing or screen sharing sessions, see the third-party provider's documentation.
 
-3. In the communication panel, share the password or pin with the customer that you received from the provider. 
+3. In the communication panel, share the password or PIN with the customer that you received from the provider. 
 
 4. Ask the customer to enter the password or PIN, if applicable, and accept the invitation to co-browse or share their screen.
 
     > [!div class=mx-imgBorder]
     > ![Agent requests a co-browse session during live chat.](media/third-party-co-browse-agent-chat.png "Agent requests a co-browse session during live chat")
 
-Once the customer accepts your invitation, you'll be able to see the customer's screen and more accurately diagnose the issue.
+After the customer accepts your invitation, you'll be able to see the customer's screen and more accurately diagnose the issue.
 
 When you enter a co-browse session, you can:
 
