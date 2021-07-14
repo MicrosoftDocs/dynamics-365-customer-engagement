@@ -1,6 +1,6 @@
 ---
 title: Restrict a resource from performing a service | MicrosoftDocs
-description: Know how to restrict a resource and from performing a service and define its service capacity in Dynamics 365 Customer Service.
+description: Know how to restrict a resource from performing a service and define its service capacity in Dynamics 365 Customer Service.
 ms.date: 10/01/2018
 ms.topic: article
 author: lalexms
