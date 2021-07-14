@@ -13,7 +13,7 @@ manager: shujoshi
 
 The live chat widget in Chat for Dynamics 365 collects telemetry data from end users to improve the feature’s capabilities, reliability, and performance over time by helping Microsoft understand usage patterns, plan new features, and troubleshoot and fix problem areas.
 
-Some of the data collected in the live chat widget include the following. 
+Some of the data collected by the live chat widget include the following. 
 
 |Field|Sample value|
 |----|----|
@@ -26,7 +26,7 @@ Some of the data collected in the live chat widget include the following.
 > [!IMPORTANT]
 > No personal data is contained in the live chat widget telemetry.
 
-If your organization is concerned about the data collected by this service, you have the option to turn off automatic data collection by adding an HTML attribute to the chat widget script. 
+If your organization is concerned about the data collected by this service, you can turn off automatic data collection by adding an HTML attribute to the chat widget script. 
 
 ```html
 data-disable-telemetry = "true"

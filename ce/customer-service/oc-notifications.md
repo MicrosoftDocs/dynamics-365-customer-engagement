@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-A notification is a visual alert that appears each time you get a chat or SMS conversation request from a customer. When you get a notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the customer summary page.
+A notification is a visual alert that appears each time you get a chat or SMS conversation request from a customer. When you get a notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the Customer summary page.
 
 Here are some scenarios where you might receive notifications:
 
@@ -32,7 +32,7 @@ Here are some scenarios where you might receive notifications:
 
 ## Receive notifications when the app is in the background
 
-You'll receive desktop notifications when the Omnichannel for Customer Service app isn't in focus. The desktop notification helps ensure that you won't miss any conversation requests. Some scenarios where the app isn't in focus include:
+You'll receive desktop notifications when the Omnichannel for Customer Service app isn't in focus. The desktop notification helps ensure that you don't miss any conversation requests. Some scenarios where the app isn't in focus include:
 
 - You've minimized the app.
 - You're working in another browser window.
@@ -49,7 +49,8 @@ The wait time that's configured by your administrator applies to the desktop not
 
 That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you've 90 seconds to take action. More information: [Manage notification templates and settings](/dynamics365/app-profile-manager/notification-templates)
 
-The desktop notification theme is based on the Windows operating system theme and settings.
+> [!Note]
+> The desktop notification theme is based on the Windows operating system theme and settings.
 
 ### Allow your browser to show notifications
 
@@ -62,7 +63,7 @@ To get desktop notifications, you need to allow your browser (Microsoft Edge or 
 
 There are two types of notifications:
 
-- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. This type of notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios.
+- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. This type of notification appears for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios.
 
 - **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with the customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
 
@@ -77,7 +78,7 @@ The details you'll see for a chat channel are as configured by your administrato
 
 ## Case assignment notification
 
-If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you'll receive a notification with the open item option. You can't reject the assignment and irrespective of the notification timeout, the case will be assigned to you.
+If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you'll receive a notification with the open item option. You can't reject the assignment, and irrespective of the notification timeout, the case will be assigned to you.
 
   > ![Case assignment notification.](media/case-assignment-notification.png "Case assignment notification")
 

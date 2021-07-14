@@ -29,11 +29,11 @@ Having this information ready can help support agents reduce the hold time that 
 > [!div class='mx-imgBorder']
 > ![View Customer summary.](media/customer-summary.png "View the Customer summary page")
 
-The customer summary form contains details specific to an active conversation and cannot be viewed for closed conversations. For a closed conversation, you can view details on the closed conversation form that can be accessed from the **Closed work items** section of the agent dashboard.
+The **Customer summary** form contains details specific to an active conversation and cannot be viewed for closed conversations. For a closed conversation, you can view details on the closed conversation form that can be accessed from the **Closed work items** section of the agent dashboard.
 
 ## Customer (Contact or Account)
 
-This section provides details like the contact name or account name. For a contact, you can view the location, email, and other details of the contact. For an account, you can view location, telephone number, and primary contact person for the account.
+This section provides details like the contact name or account name. For a contact, you can view the location, email, and other details of the contact. In case of an account, you can view location, telephone number, and primary contact person for the account.
 
 Use the customer section to search for an existing contact or account record in Omnichannel for Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **Add Contact** or **Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
 
@@ -66,9 +66,9 @@ These tabs are described in the following sections.
 
 The **Pre-chat survey** tab displays the customer's answers to the survey questions that were posed by your organization, which helps your interaction with the customer.
 
-### Self service
+### Self-service
 
-The **Self service** tab displays information about the activities that the customer performed before initiating a conversation with an agent. This information helps you understand why the customer reached out and helps you provide a personalized service for enhanced customer satisfaction. The activity information, which is categorized into the following action types, appears in reverse chronological order.
+The **Self service** tab displays information about the activities that the customer performed before starting a conversation with an agent. This information helps you understand why the customer reached out and helps you provide a personalized service for enhanced customer satisfaction. The activity information, which is categorized into the following action types, appears in reverse chronological order.
 
 | Action type | Description |
 |-------------|-----------------------------------|

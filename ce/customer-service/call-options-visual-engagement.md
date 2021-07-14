@@ -14,7 +14,7 @@ manager: shujoshi
 
 ## Call options in live chat
 
-With calling options in a live chat conversation, you can initiate a voice or video call while you're communicating with the customer over chat.
+With calling options in a live chat conversation, you can start a voice or video call while you're communicating with the customer over chat.
 
 As an agent, you exchange a lot of information when you communicate with a customer via chat. This can slow down your effort to resolve the customer's issue. The customer might prefer to show you the problem and explain the issue by using a physical product. In these scenarios, you might want to initiate a voice or video call during the chat conversation to resolve the issue quickly. The calling options in the communication panel help you to easily make these calls.
 
@@ -34,16 +34,16 @@ Make sure that the following prerequisites are met:
 - **Browser:** Latest version of Microsoft Edge or Google Chrome. For more information, see the [Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat).
 - **Internet bandwidth:**
   - **Minimum:** 500 KBps upload speed; 1 MBps download speed
-  - **Recommended:** 1 MBps  upload speed; 2 MBps download speed
+  - **Recommended:** 1 MBps upload speed; 2 MBps download speed
 
 ### Initiate voice and video call
 
-When you're chatting with the customer, you can initiate a voice or video call. In the communication panel, beside the **End** button, select More commands ![More commands.](media/ellipsis.png "More commands"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
+When you're chatting with the customer, you can start a voice or video call. In the communication panel, beside the **End** button, select More commands ![More commands.](media/ellipsis.png "More commands"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
 
 > [!div class=mx-imgBorder]
 > ![Voice and video call.](media/chat-voice-video-call.png "Voice and video call")
 
-When you initiate a voice call, you can view the flyout call control, which includes the following buttons.
+When you start a voice call, you can view the flyout call control, which includes the following buttons.
 
 |Button | Name | Description |
 |----------------------|-------------------------|-----------------------------|
@@ -59,7 +59,7 @@ When you initiate a voice call, you can view the flyout call control, which incl
 
 ### Capacity of the agent
 
-When you initiate a voice or video call, your capacity is consumed, and you can't take any conversation requests until you hang up. However, your supervisor can still assign conversations to you.
+When you start a voice or video call, your capacity is consumed, and you can't take any conversation requests until you hang up. However, your supervisor can still assign conversations to you.
 
 ### Site permissions
 
@@ -92,14 +92,14 @@ Customers need to provide the camera and microphone access in the browser.
 
 ## Co-browse and screen share in live chat
 
-The co-browsing and screen sharing features help you quickly and easily understand the customer's issue while communicating with the customer via chat channel. These visual engagement channels allow agents to interact with customers within their browsers for a precise and effective support experience. This integration capability allows agents to initiate a third-party co-browse or screen sharing session from the chat conversation. 
+The co-browsing and screen sharing features help to quickly and easily understand the customer's issue when you communicate via the chat channel. These visual engagement channels allow agents to interact with customers within their browsers for a precise and effective support experience. This integration capability allows agents to start a third-party co-browse or screen sharing session from the chat conversation. 
 
 > [!Important]
 > Third-party providers of co-browse or screen share capabilities may have separate pricing and licensing requirements. Before enabling and using these features through third-party applications, ensure you understand the terms of using these applications.
 
 ## Prerequisite
 
-To use the co-browsing and screen sharing features, your administrator must have selected a third party screen sharing and/or co-browse provider.
+To use the co-browsing and screen sharing features, your administrator must have selected a third-party screen sharing and/or co-browse provider.
 
 ### Initiate a co-browsing or screen sharing session
 

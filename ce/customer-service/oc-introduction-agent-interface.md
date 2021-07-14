@@ -79,7 +79,7 @@ The communication panel is where you, as an agent, interact with your customer. 
 
 ## Application tab panel
 
-The horizontal bar below the navigation bar is called the application tab panel. Every customer session has at least one that is not closable; it is called a Anchor tab. The Application tab has a **+** icon. If you select the icon, the menu that has options that are made available by your administrator. The menu shows the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
+The horizontal bar below the navigation bar is called the application tab panel. Every customer session has at least one that is not closable. The Application tab has a **+** icon. If you select the icon, the menu that has options that are made available by your administrator. The menu shows the out-of-box and custom entities. Also, you can access any third-party applications that are extended within Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
 
 > [!div class=mx-imgBorder]
 > ![Omnichannel for Customer Service sitemap appears when you select + icon in the application tab.](media/oceh-agent-interface-sitemap.png "Omnichannel for Customer Service sitemap in the application tab")
@@ -104,9 +104,9 @@ The horizontal bar below the navigation bar is called the application tab panel.
 
    ![Navigation bar buttons of Omnichannel for Customer Service.](media/oceh-navigation-bar-buttons.png "Navigation bar buttons of Omnichannel for Customer Service")
 
-   - **Search:** Do a simple search for records using the advanced search option and open the record in a application tab. Advanced Search is also called Categorized Search.
+   - **Search:** Do a simple search for records using the advanced search option and open the record in an application tab. Advanced Search is also called Categorized Search.
 
-   - **Quick create:** Add a new record. The quick-create option provides the list of related records that you can create. The following are the record types that you can create:
+   - **Quick create:** Add a new record. This option provides the list of related records that you can create. The following are the record types that you can create:
     
        - Activities
        - Appointment

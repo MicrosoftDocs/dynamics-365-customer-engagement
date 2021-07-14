@@ -19,7 +19,7 @@ Presence is the indication of your availability or status.
 
 ## View your presence status
 
-As an agent, you can view your presence status that is shown in the nav bar. Select the icon to launch the presence dialog. Each presence status indicates an icon:
+As an agent, you can view your presence status that is shown in the nav bar. Select the icon to launch the presence dialog. Each presence status is indicated by an icon:
 
   - ![Offline presence status.](media/oceh-offline-icon.png "Offline presence status") - Offline
 
@@ -38,7 +38,7 @@ If you can't see your presence, make sure that cookies are not blocked in your b
 ## Update your presence status
 
 Presence status is updated in two ways:
-- **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the presence icon from the nav bar and then select the status from the list to update your status manually. The list shows five standard presence statuses:
+- **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the presence icon from the nav bar and then select the status from the list. The list shows five standard presence statuses:
 
   - Offline
   - Appear away
@@ -51,12 +51,12 @@ Presence status is updated in two ways:
   > [!div class=mx-imgBorder]
   > ![Set your status.](media/oceh-presence.png "Set your status")
 
-- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity.
+- **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity as follows:
 
-  - When your capacity is completely utilized, the presence is set to **Do not disturb**.
+  - When your capacity is fully utilized, the presence is set to **Do not disturb**.
   - When your capacity is partially utilized, the presence is set to **Busy**.
   - When your capacity is not utilized, the presence is set to **Available**.
-  - When you miss a notification and missed notifications is enabled, the presence is set to **Inactive**.
+  - When you miss a notification and when missed notifications is enabled, the presence is set to **Inactive**.
 
 ### Troubleshoot display of presence
 
