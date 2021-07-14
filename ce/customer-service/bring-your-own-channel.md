@@ -1,5 +1,5 @@
 ---
-title: "Bring your own custom messaging channel: Direct Line Bot | MicrosoftDocs"
+title: "Bring your own custom messaging channel&mdash;Direct Line Bot | MicrosoftDocs"
 description: "This topic provides information on how you can integrate custom messaging channels using Direct Line Bot."
 ms.date: 10/12/2020
 ms.topic: reference
