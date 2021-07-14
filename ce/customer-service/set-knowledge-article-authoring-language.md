@@ -31,7 +31,7 @@ The ability to override follows the hierarchy order at the individual articles, 
 1.	Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
  
 2.	Under the **Knowledge Base Management** section, select **Settings**.
-3.	On the **Settings** page, scroll down to **Knowledge articles authoring language**, and then select **Yes** for **Set default knowledge authoring language for your users**.
+3.	On the **Settings** page, scroll down to **Knowledge articles authoring language**, and then set the toggle to **Yes** for **Set default knowledge authoring language for your users**.
 4.	If you set Use organization’s UI language to **No**, you can select the language you want to use by searching or pressing **Enter** to browse in the **Select a language search field**.
 5.	Select whether to allow your users to set their own default authoring language.
 6.	Select **Save**.
