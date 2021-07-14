@@ -1,12 +1,11 @@
 ---
 title: "Customize the Field Service (Dynamics 365) mobile app SiteMap, forms, and views | MicrosoftDocs"
 description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 06/01/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
