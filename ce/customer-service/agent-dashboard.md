@@ -45,7 +45,7 @@ The charts display the following metrics.
 | Sentiment zones | The breakdown of customer sentiment across sessions by level.  |
 
 > [!div class="mx-imgBorder"]
-> ![Agent summary chart.](media/oc-agent-summary.png "Agent summary chart")
+> ![Agent summary chart](media/oc-agent-summary.png "Agent summary chart")
 
 
 | Session summary | Description 
