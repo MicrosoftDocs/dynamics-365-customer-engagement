@@ -1,11 +1,11 @@
 ---
-title: "Add a chat channel | MicrosoftDocs"
-description: "Learn to add and configure a chat channel in Omnichannel for Customer Service. Also learn how to enable customer notifications."
-ms.date: 01/06/2021
-ms.topic: article
+title: "Add a chat widget | MicrosoftDocs"
+description: "Perform the steps mentioned in the topic to add a chat widget in Omnichannel for Customer Service."
+ms.date: 07/12/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.topic: article
 ---
 
 # Add a chat widget
@@ -39,10 +39,8 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
    - [Proactive chat](proactive-chat.md)
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
-         - **Operation hours name:** Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
-   - Only show widget on the provided domains
-         - **Domain URL:** Enter the domain link and select **Add Domain URL**.
-
+     - **Operation hours name**: Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
+   - **Only show widget on the provided domains**: Enter the link of the portal.
 7. On the **Behaviors** page, configure the following options:
    - [Custom automated messages](configure-automated-message.md)
    - [Pre-conversation survey](configure-pre-chat-survey.md)

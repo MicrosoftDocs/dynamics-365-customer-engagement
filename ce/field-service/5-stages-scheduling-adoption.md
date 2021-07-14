@@ -1,11 +1,9 @@
 ---
 title: "The five stages of scheduling adoption | MicrosoftDocs"
 description: Learn about the different stages of scheduling adoption for field service organizations.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 02/01/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"

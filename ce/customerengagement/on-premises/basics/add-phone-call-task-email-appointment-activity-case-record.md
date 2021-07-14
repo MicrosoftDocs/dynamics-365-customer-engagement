@@ -1,7 +1,7 @@
 ---
-title: "Add a phone call, task, email, or appointment activity to a record (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Add activities in Dynamics 365 Customer Engagement (on-premises)"
+description: "Activities help you keep track of all customer communications. Learn how to add activities to a record, such as a phone call, task, email, or appointment."
 ms.custom: 
-description: How to add a phone call, task, email, or appointment activity to a record.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.prod: d365ce-op

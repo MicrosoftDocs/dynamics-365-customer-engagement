@@ -1,5 +1,6 @@
 ---
-title: "Understanding how data is organized (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "How data is stored in Dynamics 365 Customer Engagement (on-premises)"
+description: "It's useful to understand a few things about how data is organized in Dynamics 365 Customer Engagement (on-premises.) This page outlines what you need to know."
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -23,9 +24,9 @@ Whether you’re in sales, service, or marketing, Dynamics 365 Customer Engageme
 
 With Customer Engagement business apps, you’ll be able to spot and respond to issues that may be blocking deals, see how your service team is doing with meeting the terms of your service level agreements, monitor the success of your marketing campaigns, and so much more. 
   
-Although you don’t need to know a lot about databases to start working with Dynamics 365 Customer Engagement (on-premises), it’s helpful to know a few things about how data is organized in the system. In particular, there are two definitions you should know because they are used many places in the system: **record** and **record type**.  
+Although you don’t need to know a lot about databases to start working with Dynamics 365 Customer Engagement (on-premises), it’s helpful to know a few things about how data is organized in the system. In particular, there are two definitions you should know because they're used many places in the system: **record** and **record type**.  
 
-Every day, you’ll work with different customer records and record types as you move customers through your business processes, collecting the data you need to fill in the fields for their records—and ultimately to win their business.  
+Every day, you’ll work with different customer records and record types as you move customers through your business processes, collecting the data you need to fill in the fields for their records—and ultimately win their business.  
 
 ## What’s a record?  
  In Dynamics 365 Customer Engagement (on-premises), a **record** is a complete unit of information. Think of it like a single row in a table, with multiple columns, also known as fields, to store the pieces of info that make up the entire row.  
