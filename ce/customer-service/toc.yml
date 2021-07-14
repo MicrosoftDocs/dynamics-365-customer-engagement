@@ -126,8 +126,6 @@
         items:
         - name: Configure work classification rulesets for unified routing
           href: configure-work-classification.md
-        - name: Set up routing and assignment rules in Omnichannel Administration
-          href: routing-rules.md
       - name: Configure work assignment
         items:
         - name: Configure assignment methods for queues
@@ -154,8 +152,6 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
-        - name: Set up routing for conversations in Omnichannel for Customer Service
-          href: understand-omnichannel-customer-service-hub.md
       - name: Configure users for unified routing
         items:
         - name: Manage users
@@ -334,6 +330,8 @@
       href: create-workstreams-oca.md
     - name: Create queues in Omnichannel Administration
       href: Create-queues-oca.md
+    - name: Set up routing and assignment rules in Omnichannel Administration
+      href: routing-rules.md  
     - name: Set up record routing in Omnichannel Administration
       href: set-up-entity-workstream.md
     - name: Create multiple workstreams for records in Omnichannel Administration
