@@ -1,14 +1,14 @@
 ---
-title: "Configure assignment methods for queues | MicrosoftDocs"
-description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
-ms.date: 04/09/2021
+title: "Assignment methods for queues | MicrosoftDocs"
+description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
+ms.date: 07/14/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# Configure assignment methods for queues
+# Assignment methods for queues
 
 Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the Customer Service Hub or Omnichannel admin center app.
 
