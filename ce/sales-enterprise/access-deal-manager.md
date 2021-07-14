@@ -1,6 +1,6 @@
 ---
 title: "Access deal manager workspace | MicrosoftDocs"
-description: ""
+description: "Access the deal manager workspace to get better visibility into your pipeline and manage your work efficiently."
 ms.date: 06/30/2021
 ms.topic: article
 author: lavanyakr01
