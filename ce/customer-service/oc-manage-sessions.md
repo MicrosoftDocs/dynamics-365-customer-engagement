@@ -119,7 +119,7 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     Example 2: **Kenny Smith. Urgent attention is needed in your conversation.**
 
     > [!div class=mx-imgBorder]
-    > ![Session icon.](media/sentiment-agent1.png "Session icon")
+    > ![Session sentiment alert.](media/sentiment-agent1.png "Session sentiment alert")
 
 - **Unread message count**
 
