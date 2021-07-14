@@ -246,7 +246,7 @@ To deprovision the third-party co-browse and screen sharing solution for our cus
 
 ## Publishing strategy
 
-The following are links for publishing the application to AppSource. 
+The following are links for publishing the application to AppSource:
 
 [AppSource onboarding](https://appsource.microsoft.com)
 

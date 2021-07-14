@@ -28,7 +28,7 @@ The number of customers waiting to chat counts down each time a customer in line
 
 ## Enable queue position setting
 
-To configure the queue position setting
+To configure the queue position setting:
 
 1.	Sign in to Omnichannel Administration.
 
