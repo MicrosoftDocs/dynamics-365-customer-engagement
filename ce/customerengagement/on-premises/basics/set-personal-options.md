@@ -1,5 +1,6 @@
 ---
-title: "Set personal options (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Set personal options in Dynamics 365 Customer Engagement (on-premises)"
+description: "Personalize your options and settings to suit requirements and preferences. Set your language, time zone, currency, calendar view, email options, and more."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 

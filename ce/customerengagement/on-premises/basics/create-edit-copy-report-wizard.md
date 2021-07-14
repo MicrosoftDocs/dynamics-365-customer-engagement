@@ -1,7 +1,7 @@
 ---
-title: "Create or edit a report using the Report Wizard (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-ms.custom: 
-description: How to create or edit a report using the Report Wizard.
+title: "Use Report Wizard in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create, edit, or copy a report with the Report Wizard. Organize and lay out your data, include a chart, then finish, test, and refine the report."
+ms.custom:
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.prod: d365ce-op

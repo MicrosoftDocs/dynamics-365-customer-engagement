@@ -4,8 +4,7 @@ description: "This topic provides information about agent experience in handling
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/04/2021
-ms.topic: article
+ms.custom: intro-internal
 ---
 
 # Use Facebook channel

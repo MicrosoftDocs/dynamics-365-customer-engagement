@@ -67,14 +67,14 @@ To resolve this issue, you must edit or remove filters for the view. This will e
 2. Select the entity > **Views** and select the view that has this error. In this example, we're selecting the entity **Account** and view as **Accounts I Follow**.
 
     > [!div class="mx-imgBorder"]
-    > ![Choose a view from the entity.](media/troubleshooting-record-entity-view-selection.png "Choose a view from the entity")
+    > ![Choose the view from the entity.](media/troubleshooting-record-entity-view-selection.png "Choose the view from the selected entity")
 
 3. Select **More Actions** > **Edit**. 
 
     The view edit page opens.
 
     > [!div class="mx-imgBorder"]
-    > ![Edit a view.](media/troubleshooting-record-edit-view.png "Edit a view")
+    > ![Edit the view.](media/troubleshooting-record-edit-view.png "Edit the view")
 
 4. Select **Edit Filter Criteria** and recheck the filter condition either by updating or deleting.
 
@@ -149,6 +149,20 @@ To fix the issue of incorrect customization, follow these steps to make sure you
 
         >[!NOTE]
         >If you're using product bundles and edit these bundled line items in the product grid, select **Hide nested grid column header** as **Show Column**.
+
+## Issue: I can't set a custom view as the default view for the Existing products field in Add products dialog
+
+To add products to an opportunity, quote, order, or invoice, you select the products from the **Existing product** lookup field in the **Add products** dialog. If you change the default view of the lookup field to a custom view, the field doesn't display products from the custom view. 
+
+**Reason:**
+
+To be able to display products from the selected price list, the lookup always defaults to a system view named **Products in Parent Price List**. So, even if you change the default, the lookup field will set the default back to the **Products in Parent Price List** view.
+
+**Resolution:**
+
+This behavior is working as designed. Though you can't set a default view, you can manually switch to the view in the **Existing products** lookup field.
+
+:::image type="content" source="media/change-view-opportunity.PNG" alt-text="Change view option in add products dialog":::
 
 ## Issue: I can't update nested bundle items on the Product tab 
 <a name="cannot_update_nested_bundle_items"></a>

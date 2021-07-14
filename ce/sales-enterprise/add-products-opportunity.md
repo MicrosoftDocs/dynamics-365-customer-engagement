@@ -30,16 +30,16 @@ A way that might help you increase your sales is to add all products that your c
 
     1.  **Select Product**: Set the switch to choose whether you want to add an existing product or create a new one:
     
-        -  To use an existing product, select **Lookup** to search for and add a product.
+         -  To use an existing product, select **Lookup** to search for and add a product.
+ 
+             > [!NOTE]
+             >
+            > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the products associated with the selected price list are shown in this field. In this case, the default view is set to **Products in Parent Price List** view. You can't set a custom view as the default view. Even if you do, the Products lookup will automatically set it back to **Products in Parent Price List** view.
+             > - When a price list isn't selected, the **Existing product** field shows all active products (not filtered by the price list). You can change the view to look for other products by selecting the **Change View** icon. 
+             > - By default, the product lookup will show the most recently used products. The most recently used products aren't filtered based on the selected price list. 
+             > - If a price list is selected and you select a product that isn't associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
 
-            
-            > [!NOTE]
-            > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the products associated with the selected price list are shown in this field. 
-            > - When a price list isn't selected, the **Existing product** field shows all active products (not filtered by the price list). You can change the view to look for other products by selecting the **Change View** icon. 
-            > - By default, the product lookup will show the most recently used products. The most recently used products aren't filtered based on the selected price list. 
-            > - If a price list is selected and you select a product that isn't associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
-
-        -  To add a product, select **Write-In**, and then enter the name of the product.
+         -  To add a product, select **Write-In**, and then enter the name of the product.
     
     2.  **Pricing**: Select the pricing option. By default, this is the per unit price that's listed in the product catalog. To override the catalog price, select **Override Price**: When you override the price, you can specify a price that you want to charge for each unit of the product.
 

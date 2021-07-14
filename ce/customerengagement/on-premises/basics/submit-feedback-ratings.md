@@ -1,5 +1,6 @@
 ---
-title: "Submit feedback or ratings for information stored in your system (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Add feedback to records in Dynamics 365 Customer Engagement (on-premises)"
+description: "Tracking feedback is important for improving customer satisfaction. You can now add feedback or ratings to records for any entity enabled for feedback."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
