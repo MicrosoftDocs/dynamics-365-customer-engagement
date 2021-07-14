@@ -7,6 +7,7 @@ author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+ms.custom: intro-internal
 ---
 
 # View and understand Omnichannel intraday insights dashboards 
@@ -223,7 +224,7 @@ The **Closed conversations** table provides information related to all the conve
 You can also assign a conversation to an agent or route it to another queue. More information: [Monitor and assign conversations](monitor-conversations.md#assign-conversations).
 
 
-## View and filter reportis
+## View and filter reports
 
 You can filter information by selecting the queues that have been defined for your organization. From the **Omnichannel queues** drop-down list, select the queues you want, and the information will be filtered according to your selection. This helps you quickly analyze the KPIs and take any necessary steps to improve outcomes.
 

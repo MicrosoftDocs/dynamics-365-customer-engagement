@@ -8,6 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 ---
 
 # Introduction to Customer Service Hub
