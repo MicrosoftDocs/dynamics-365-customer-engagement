@@ -1,6 +1,6 @@
 ---
-title: Use settings to set up knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See how to set up settings in knowledge management in Dynamics 365 Customer Service
+title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
 ms.date: 10/05/2020
 ms.topic: article
 author: lalexms
@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Use settings to set up knowledge management
+# Configure knowledge management
 
 A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in Dynamics 365 Customer Service.
 
