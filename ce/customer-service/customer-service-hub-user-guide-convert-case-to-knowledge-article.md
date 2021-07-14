@@ -1,5 +1,5 @@
 ---
-title:"Convert a case to a knowledge article in Customer Service Hub | Microsoft Docs"
+title: "Convert a case to a knowledge article in Customer Service Hub | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to convert a case to a Knowledge article in Customer Service Hub for Dynamics 365 Customer Service."
 ms.date: 11/27/2019
 ms.topic: article
@@ -24,8 +24,9 @@ searchScope:
 - Customer Service
 ---
 
-# Convert a case to a Knowledge article  
- There are times when existing knowledge articles do not contain relevant information for resolving a case. You, as a CSR, can now contribute to the knowledge base by turning all information that has been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
+# Convert a case to a Knowledge article
+
+There are times when existing knowledge articles do not contain relevant information for resolving a case. You, as a CSR, can now contribute to the knowledge base by turning all information that has been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
 
 
 1. Make sure you have Create permissions on the Knowledge Article entity.  
