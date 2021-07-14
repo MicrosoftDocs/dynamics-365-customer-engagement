@@ -25,7 +25,7 @@ When a customer initiates a chat conversation on the portal, irrespective of the
 
 If the agent has to consult a peer or supervisor, it can be done in the language preferred between the agent and peer or agent and supervisor, which can be different from the language used between the agent and customer. The chat transcripts are saved in the languages used in the conversation.
 
-The agent can see the following details pertaining to the feature.
+The agent can see the following details pertaining to the feature:
 
 - Information about the language in which the agent receives the chat content is displayed at the top of the chat window.
 
