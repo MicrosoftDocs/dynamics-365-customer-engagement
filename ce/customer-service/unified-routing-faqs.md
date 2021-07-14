@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about unified routing | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 05/18/2021
+ms.date: 07/13/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ manager: shujoshi
 
 This topic contains the FAQs that you as an administrator, supervisor, or agent might have about unified routing.
 
-### What SKUs must I have to get unified routing?​
+### What SKUs must I have to get unified routing?
 
 Customers will get unified routing for entities, such as Cases, Leads, and custom entities as a part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for chat and messaging channels automatically.
 
@@ -24,13 +24,13 @@ For messaging channels, use the migration utility to migrate the workstream and 
 
 ### What are the implications when migration is in progress?
 
-There is no downtime involved when you are migrating the workstreams, but it is recommended that you perform the migration during low load or off hours.
+There is no downtime involved when you are migrating the workstreams, but it's recommended that you perform the migration during low load or off hours.
 
 ### Why do I see workstreams that I didn't create in Omnichannel Administration?
 
 These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you've used to create them.
 
-### Will unified routing support activity routing?​
+### Will unified routing support activity routing?
 
 Yes, unified routing supports routing activities, including email.
 
@@ -38,9 +38,9 @@ Yes, unified routing supports routing activities, including email.
 
 The existing queues will be automatically migrated to unified routing.
 
-### Will intelligent skill finder be available in all geographical regions?​
+### Will intelligent skill finder be available in all geographical regions?
 
-Intelligent skill finder requires AI Builder to create and train the machine learning (ML) model. If AI Builder is not available in the customer region where unified routing is, the customer will get a generic error when trying to setup the model​.
+Intelligent skill finder requires AI Builder to create and train the machine learning (ML) model. If AI Builder is not available in the customer region where unified routing is, the customer will get a generic error when trying to setup the model.
 
 ### Can I use intelligent skill finder with email activities?
 
@@ -78,6 +78,26 @@ No. After upgrade, you'll no longer be able to create workstreams for routing re
 ### Can I route any record type by using basic routing?
 
 No. Basic routing can be used only for cases. To route any record type, use unified routing.
+
+### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
+
+No. There is no priority amongst queues. However, you can prioritize records within a queue.
+
+### Can I pause the assignment of a case?
+
+No. It's not possible to pause the assignment of a case.
+
+### Can I export a Unified Routing configuration and sign in to another environment?
+
+No, a configuration can't be exported.
+
+### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is is possible to now reassign C1 to Q3?
+
+Yes. It's possible to reassign a case to another queue. On the case form, select **Save and route** to reassign the work item from one queue to another queue.
+
+### Why am I not able to see the **Keep same agent for entire conversation** toggle in my **Work distribution settings** for a workstream related to cases?
+
+A case remains with the agent that it was initially assigned to and therefore the corresponding workstream for cases does not have the agent affinity toggle.
 
 ### See also
 

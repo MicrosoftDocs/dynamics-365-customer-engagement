@@ -1,6 +1,6 @@
 ---
 title: View and understand Customer Service Analytics | Microsoft Docs
-description: Dashboards and reports provide historical operational metrics and KPIs to manage contact centers.
+description: This topic provides information about the Customer Service Analytics dashboard and the different metrics that the dashboard displays.
 ms.date: 04/06/2020
 ms.topic: article
 author: neeranelli
