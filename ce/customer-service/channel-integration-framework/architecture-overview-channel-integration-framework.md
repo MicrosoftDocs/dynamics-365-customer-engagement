@@ -7,6 +7,7 @@ manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
+  - "intro-internal"
 ---
 
 # Architecture overview of Dynamics 365 Channel Integration Framework 1.0 

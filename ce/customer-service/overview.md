@@ -8,9 +8,12 @@ ms.author: laalexan
 manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 ---
 
 # Overview of Dynamics 365 Customer Service
+
+*<a href="https://dynamics.microsoft.com/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
 
 Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life. 
 

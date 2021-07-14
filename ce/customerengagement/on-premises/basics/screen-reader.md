@@ -1,6 +1,6 @@
 ---
-title: Moving around Unified Interface-enabled apps in Dynamics 365 Customer Engagement (on-premises)using a screen reader| Microsoft Docs
-description: 
+title: "Use screen reader with Unified Interface apps in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about using a screen reader with Dynamics 365 Customer Engagement (on-premises) and finding your way around the Unified Interface apps."
 keywords: 
 author: ReneeW-CPub
 applies_to: Dynamics 365 Customer Engagement (on-premises)
