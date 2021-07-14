@@ -40,14 +40,14 @@ To add the Facebook channel instance, you must configure the channel account by 
 4. Select the workstream that you've created for the Facebook channel and on the workstream page, select **Set up Facebook**, and do the following steps:
    1. In the **Available Facebook Pages** area, select a page from the list.
    2. On the **Language** page, select the language to use.
-   3. On the Behaviors page configure the following options:
+   3. On the Behaviors page, configure the following options:
       - Custom automated messages
       - [Post-conversation survey](configure-post-conversation-survey.md)
    4. On the **User features** page, configure the following options:
       - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. More information: [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates)
       - **Facebook message tag:** Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message.
 
-      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can initiate conversations with customers for up to 7 days.
+      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
 
       To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).  
    5. Review the **Summary** page, and select **Create**. The channel instance is configured.
@@ -176,7 +176,7 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
 
     - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. 
     
-      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can initiate conversations with customers for up to 7 days.
+      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
     
       To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).
 
@@ -186,14 +186,14 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
 
 ## Customer experience
 
-A customer can initiate a conversation in any of the following ways:
+A customer can start a conversation in any of the following ways:
 
 - Messenger on the Facebook page
 - [www.messenger.com](https://www.messenger.com/)
 - Messenger app on a mobile device
 - Messenger widget on a custom website
 
-If a customer initiates a conversation from the Facebook page and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
+If a customer starts a conversation from the Facebook page and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
 
 The agent receives the notification of the incoming conversation request. More information: [Use Facebook channel](facebook.md)
 
