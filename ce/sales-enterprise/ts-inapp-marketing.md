@@ -206,6 +206,43 @@ Campaign distribution is based on the members in the marketing list. The member 
 
 Review the detailed reason for the failure in the **Excluded members** grid, and take any necessary action.  
 
+<a name="campaign-activity-tab-not-available"></a>
+## The Campaign Activity tab isn't available in account, contact, and lead forms in Unified Interface
+
+**Reason**
+
+As there's no direct relationship between the campaign table and Account, Contact, or Lead tables, the **Campaign Activities** tab isn't available. 
+
+**Resolution**
+
+To resolve the issue, add the campaign activities tab to the form. Follow these steps:
+
+>[!NOTE]
+>In this process, we are using **Account** entity as an example to add the **Campaign Activities** tab.
+
+1. Go to **Advanced Settings** > **Settings** > **Customizations** > **Customize the System**.   
+2. From **Components**, select **Entities** > **Account** > **Forms**.    
+3. Select the **Account** from the list.   
+4. On the **Account** form page, select the **Insert** tab and then select **One column**.   
+    A new column is added as a **Tab**.   
+5. Select the **Tab** and then select **Change Properties**. The **Tab Properties** dialog opens.   
+6. Enter the values for **Name** and **Label** as **Campaign Activities**, and then select **OK**. The tab is then renamed as **Campaign Activities**.   
+7. Select the **Campaign Activities** tab, go to the **Insert** tab, and select **Sub-Grid**.   
+    The **Set Properties** dialog for the sub grid opens.   
+8. Enter the following information in the **Display** Tab:   
+    -	In the **Name** section, specify the unique name as **Campaign_Activities**.
+    -	In the **Name** section, label as **Campaign Activities**.
+    -	In the **Data Source** section, choose **Entity** as **Campaign Activities** and **Default View** as **All Campaign Activities**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Enter values in the display tab for sub grid](media/troubleshooting-inapp-campaign-activities-subgrid-properties.png "Enter values in the display tab for sub grid")
+
+9. Save the changes and Publish the form.   
+10. (Optional) To verify, open the account that has been used in campaigns and has some distributed campaign activities and then select the **Campaign Activities** tab to see the related campaign activities.
+
+    > [!div class="mx-imgBorder"]
+    > ![The Campaign Activities tab is added with the activities sub grid](media/troubleshooting-inapp-campaign-activities-tab-added.png "The Campaign Activities tab is added with the activities sub grid")
+
 ### See also
 
 [Frequently asked questions](faqs-sales.md) </br>
