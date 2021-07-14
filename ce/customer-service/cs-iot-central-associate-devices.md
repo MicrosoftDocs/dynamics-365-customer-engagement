@@ -1,5 +1,5 @@
 ---
-title: "Associate devices with customer accounts | MicrosoftDocs"
+title: "Associate devices with customer accounts in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn about how to associate devices with customer accounts in Connected Customer Service for Azure IoT Central."
 ms.date: 04/03/2020
 ms.topic: article
@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 
 
-# 2 - Associate devices with customer accounts 
+# 2 - Associate devices with customer accounts in Connected Customer Service.
 
 If an IoT device isn't associated with a customer account in Connected Customer Service, the system will not be able to generate work orders or cases against incoming alerts. In this tutorial, you'll learn how to associate a device with a customer account. While customer accounts are an optional association in Azure IoT Central, they are required in Connected Customer Service.
 
