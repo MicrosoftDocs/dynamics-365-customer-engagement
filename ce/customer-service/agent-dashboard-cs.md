@@ -15,6 +15,13 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+searchScope:
+- D365-App-customerservice
+- D365-Entity-*
+- D365-UI-Dashboard
+- Dynamics 365
+- Customer Service
+- Customer Engagement
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -35,7 +42,7 @@ To view the Agent dashboard, go to Customer Service historical analytics and sel
 The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, agent conversation and timezone. The KPIs for the dashboard are displayed as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Agent report dashboard.](media/agent-report-cs.png "Agent report dashboard")
+> ![Agent report dashboard](media/agent-report-cs.png "Agent report dashboard")
 
 The following table displays the key performance indicators in the agent report. 
 
