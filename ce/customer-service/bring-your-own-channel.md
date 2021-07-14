@@ -1,5 +1,5 @@
 ---
-title: "Bring your own custom messaging channel Direct Line Bot | Microsoft Docs"
+title: "Bring your own custom messaging channel: Direct Line Bot | MicrosoftDocs"
 description: "This topic provides information on how you can integrate custom messaging channels using Direct Line Bot."
 ms.date: 10/12/2020
 ms.topic: reference
@@ -321,7 +321,7 @@ Initiate a conversation with Direct Line and store the conversation object sent 
  }
  ```
 
-Starts a new thread to poll the outbound activities from the Direct Line based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from the Direct Line.
+Starts a new thread to poll the outbound activities from Direct Line based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from Direct Line.
 
 ```javascript
 /// <summary>

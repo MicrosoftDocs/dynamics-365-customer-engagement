@@ -14,7 +14,7 @@ manager: shujoshi
 
 ## Overview
 
-The SMS channel through Twilio in Omnichannel for Customer Service allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service agent. Agents can view the incoming SMS requests on their dashboard and respond accordingly.
+The SMS channel through Twilio in Omnichannel for Customer Service allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service agent. Agents can view incoming SMS requests on their dashboard and respond accordingly.
 
 ## Prerequisites
 
@@ -98,7 +98,7 @@ Perform the following steps to create a workstream for the SMS channel for Twili
 3. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
 
    > [!div class=mx-imgBorder]
-   > ![Works stream settings for Twilio.](media/sms-twilio.png "Work stream settings for Twilio")
+   > ![Workstream settings for Twilio.](media/sms-twilio.png "Workstream settings for Twilio")
 
 4. On the **SMS Settings** tab, enter the following details:
 

@@ -40,7 +40,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
    2. On the **Account details** page, enter the following details:
       - **Consumer API key:** Key of the Twitter application. Go to the Twitter developer portal > Twitter app dashboard > **Details** > **Keys and tokens**, and then copy the value in the **API key** field.
       - **Consumer API secret:** Application secret of the Twitter application. Go to the Twitter developer portal > Twitter app dashboard > **Details** > **Keys and tokens**, and then copy the value in the **API secret key** field.
-      - **Environment name:** Environment of the Twitter application. Go to the Twitter developer portal > Dev environments > **Dev environment label** (make sure that the dev environment was created under **Account Activity API**).
+      - **Environment name:** Environment of the Twitter application. Go to the Twitter developer portal > Dev environments > **Dev environment label** (make sure that the development environment was created under **Account Activity API**).
       
       > [!IMPORTANT]
       > The **Environment name** field cannot be a random string and must match the **Dev environment label** in the Twitter developer portal.

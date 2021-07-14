@@ -14,7 +14,7 @@ manager: shujoshi
 
 An SMS channel allows your organization to connect to customers by using text messages. After you configure an SMS channel, your customers can send text messages and connect with a customer service agent. This provides your customers the flexibility to connect with their mobile devices when an internet connection is not available to connect to a chat channel.
 
-Agents can view the incoming SMS requests on their dashboard and respond accordingly.
+Agents can view incoming SMS requests on their dashboard and respond accordingly.
 
 The tasks to add SMS support for TeleSign are as follows:
 
@@ -92,13 +92,13 @@ To sign up for TeleSign
 
 2. Select **New** to create a work stream. On the **Work Distribution** tab, enter the following information:
 
-    - **Name**: Name of the work stream.
+    - **Name**: Name of the workstream.
     - **Channel**: Select **SMS**.
-    - **Auto-close after inactivity**: Select a duration of at least 8 hours
+    - **Auto-close after inactivity**: Select a duration of at least 8 hours.
     - **Allow automated messages**: Specify **Yes** to be able to define the business hours.
 
     > [!div class=mx-imgBorder]
-    > ![SMS work stream.](media/sms-workstream.png "SMS work stream")
+    > ![SMS channel - new workstream.](media/sms-workstream.png "SMS channel - new workstream")
 
 3. On the **SMS Settings** tab, enter the following information:
     - **Customer ID**: Customer ID generated from the TeleSign account.
@@ -121,7 +121,7 @@ To sign up for TeleSign
 
     > [!NOTE]
     >
-    > - You can configure only one phone number per work stream.
+    > - You can configure only one phone number per workstream.
     > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
     > - Short code is supported for enterprise accounts.
 
@@ -139,7 +139,7 @@ To sign up for TeleSign
     > [!div class=mx-imgBorder]
     > ![Validate API Key.](media/validate-key.png "Validate API Key")
 
-11. Open the work stream you created for SMS.
+11. Open the workstream you created for SMS.
 
 12. On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity. The customer is identified based on the **Mobile Phone** field and the conversation is automatically linked to the contact record.
 

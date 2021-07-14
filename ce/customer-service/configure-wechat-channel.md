@@ -90,7 +90,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
     - **Token:** Specify the WeChat token.
     - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you're configuring a sandbox account, use a key of your choice.
   
-4. In the **Step 2: Work distribution** area, for **Work Stream**, select the out-of-the-box work stream for WeChat. Alternatively, you can create a [work stream](work-streams-introduction.md) for WeChat and associate it with the WeChat channel.
+4. In the **Step 2: Work distribution** area, for **Work Stream**, select the out-of-the-box workstream for WeChat. Alternatively, you can create a [work stream](work-streams-introduction.md) for WeChat and associate it with the WeChat channel.
 
 5. Select **Save**. The details are saved, and data is populated in the **Step 3: Callback information** section.
 
@@ -117,7 +117,7 @@ If you're using the service account of WeChat, perform the following steps:
     
     - **Language**: Select the preferred language for your WeChat account.
     
-    - **Work stream**: Select an existing work stream or create a new one.
+    - **Work stream**: Select an existing workstream or create a new one.
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
