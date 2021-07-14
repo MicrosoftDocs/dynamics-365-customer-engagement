@@ -5,11 +5,21 @@ ms.date: 07/09/2021
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
+ms.custom: intro-internal
+searchScope:
+- D365-App-customerservice
+- D365-Entity-incident
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # Overview of case management
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+Case management is the core record that tracks individual customer service issues across channels and agents over time. Customers want to have a long and happy relationship with brands over time, and throughout that relationship they may have several support inquiries through more than one support channel. To achieve this goal, Dynamics 365 Customer Service provides enhanced case configuration and improved case analytics for supervisors.
 
 A case typically represents a situation or incident that's reported by a customer and requires a resolution. Cases are designed to track the process from the initial intake of an incident, through the remediation process, to the final resolution. Dynamics 365 Customer Service has several components that work together to provide an end-to-end case management solution that not only helps identify cases but also routes each case to the most appropriate agent who can provide guidance and resolve the case. Here are some of the most commonly used components:
 
