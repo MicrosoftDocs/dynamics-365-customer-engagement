@@ -12,8 +12,7 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
-> A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 As an administrator, you can customize the workspace to enhance your sales team's productivity. For example, depending on the information that your sales team wants to view or update quickly, you can customize the grid or side panel. You can customize the following objects in the deal manager:
 
@@ -30,7 +29,7 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
  
 **To customize the bubble chart:**
 
-1. Access the [deal manager settings](enable-deal-manager-preview.md#access-deal-manager-settings) page.
+1. Open the [deal manager settings](enable-deal-manager-preview.md#access-deal-manager-settings) page.
 1. In the **Manage charts** section, edit the **Deal tracker** chart. 
 1. Customize the following elements:
     - **Horizontal (x) axis**
@@ -38,7 +37,7 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
     - **Vertical (y) axis**
       Select any *numerical* field to plot on the vertical axis.   
     - **Segment by**
-        Select how you want distinguish the bubbles using different color codes. For example, select **Pipeline Phase** to distinguish the bubbles based on the different phases of the pipeline such as identify, qualify, propose, and so on.   
+        Select how you want to distinguish the bubbles using different color codes. For example, select **Pipeline Phase** to distinguish the bubbles based on the different phases of the pipeline such as identify, qualify, develop, and propose.   
     - **Size**
         Select a *numerical* field to indicate the size of the bubble.   
     - **Sort legend**
@@ -86,17 +85,17 @@ Customize the editable grid by adding a JavaScript library. These customizations
 2.	Add your JavaScript code in a Script web resource.  
      1. Sign in to [Power Apps](https://make.powerapps.com/).
      1. Select the gear icon and select **Advanced Settings**. 
-     1. In the Business Management app, select the **Settings** drop-down and then select **Customizations**.
+     1. In the Business Management app, select the **Settings** dropdown and then select **Customizations**.
      2. Select **Customize the System**.
      3. In the solution explorer, under **Components**, select **Web Resources**.
      4. Select **New**.
-     5. In the new web resource dialog box, enter the **Name** (for example, **mySampleScript.js**) and **Display Name**(for example, **My sample script**) for your web resource.
-    6. From the **Type** drop-down list, select **Script (JScript)**, and then do one of the following:
+     5. In the new web resource dialog, enter the **Name** (for example, **mySampleScript.js**) and **Display Name**(for example, **My sample script**) for your web resource.
+    6. From the **Type** dropdown list, select **Script (JScript)**, and then do one of the following:
         - Select **Choose File** to upload the file containing your JavaScript code.
         - Select **Text Editor**, and then paste your JavaScript code in the editor. 
-    7. Select **Save**, and then select **Publish**. 
+    7. Save and publish the web resource. 
 3.	Upload the JavaScript library to the deal manager workspace.      
-    1. Access the [deal manager settings](enable-deal-manager-preview.md#access-deal-manager-settings) page. 
+    1. Open the [deal manager settings](enable-deal-manager-preview.md#access-deal-manager-settings) page. 
     2. In the **Customize the workspace** section, select **Advanced field controls**.
     3. Select **Add a JavaScript library**. Search and select the web resource file. 
         >[!NOTE]
@@ -132,7 +131,7 @@ The following customizations are not supported for side panel in this release:
 **To customize the side panel:**
 1. Sign in to [Power Apps](https://make.powerapps.com/)
 1. Select the environment and then select **Data** > **Tables**.
-1. Select the drop-down in the top-right corner and select **All**.
+1. Select the **Default** dropdown in the top-right corner and select **All**.
 1. Search for *Opportunity* to view all the opportunity-related entities.
 1. Select the **Opportunity** table and select **Forms**.
 1. Search for the **In Context View** form and edit the form to manage the fields that appear in the side panel.

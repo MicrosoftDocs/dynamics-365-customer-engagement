@@ -12,8 +12,7 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
-> A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 As a seller, you can personalize the deal manager workspace to suit your needs. You can,
 
@@ -69,7 +68,7 @@ Personalize the grid to include columns that you want to see and update quickly.
         - **Basic column**    
           Lets you select a column from the opportunity or related entities such as account, contact, price list, and so on.
         - **Smart column**
-          Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, see [What are Smart columns](#what-are-smart-columns). 
+          Lets you select a column that performs certain computations on the records to display smart and actionable information. More information: [What are Smart columns](#what-are-smart-columns). 
 
           :::image type="content" source="media/deal-manager-editcolumns-small.png" alt-text="Screenshot illustrating Edit columns option and the side panel " lightbox="media/deal-manager-editcolumns.png":::
 
@@ -109,16 +108,16 @@ As a seller, you want the workspace the display records that you're working on. 
 
 ## Create a view
 
-The personalization changes that you directly make in the grid do not persist across sessions. If you want to save your changes permanently, create a view. You can personalize the following aspects of the grid in a view:
+The personalization changes that you directly make in the grid don't persist across sessions. If you want to save your changes permanently, create a view. You can personalize the following aspects of the grid in a view:
 
 - Add or remove columns
 - Resize or rearrange columns
 - Apply filters
 
 > [!NOTE]
-> Currently, changes to metrics or other personalization changes to the grid cannot be saved to the view.
+> Currently, changes to metrics or other personalization changes to the grid can't be saved to the view.
 
-**To create a view:**
+**To create a view**
 
 1. In the deal manager workspace, select **View > Create Personal View**.
 1. In the **View Designer**, personalize the columns and apply filters as per your needs.
@@ -127,7 +126,7 @@ The personalization changes that you directly make in the grid do not persist ac
 
 ## Edit a view
 
-The option to edit a view is not yet supported in the deal manager workspace. You can however, edit the view in Power Apps.
+Currently, you can't edit a view in the deal manager workspace. You can however, edit it in Power Apps.
 
 ## Switch to a view
 

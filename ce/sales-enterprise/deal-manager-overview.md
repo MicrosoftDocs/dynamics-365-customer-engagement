@@ -12,14 +12,23 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
-> A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-Deal manager is a dedicated workspace for sellers, which can be personalized and customized depending on what sellers want to see in their workspace. Sellers can organize opportunities in a way that makes sense to them, personalize their view,update information on-the-fly, add notes and tasks, and many more. Administrators can customize the experience for sellers to improve their productivity.  
+Deal manager is a dedicated workspace for sellers, which can be personalized and customized depending on what sellers want to see in their workspace. 
+
+Sellers can,
+
+- Organize opportunities in a way that works for them
+- View important metrics
+- Personalize their view
+- Update information on-the-fly 
+- Add notes and tasks and more 
+
+As an administrator, you can customize the experience to improve the productivity of sellers.  
 
 :::image type="content" source="media/deal-manager-overview-v1.png" alt-text="Screenshot of deal manager workspace in a nutshell" lightbox="media/deal-manager-overview-v1.png":::
 
-For more information, see [Using deal manager workspace (Preview)](deal-manager-seller-overview.md). 
+To understand how sellers use the deal manager workspace, see [Using deal manager workspace (Preview)](deal-manager-seller-overview.md). 
 
 ## See also
 
