@@ -1,5 +1,5 @@
 ---
-title: "Start a chat | MicrosoftDocs"
+title: "Initiate a chat | MicrosoftDocs"
 description: "Understand how to start a chat using the startChat API. Also included are code snippets to start a chat and hide the chat button."
 ms.date: 07/15/2019
 ms.topic: reference
@@ -14,7 +14,7 @@ manager: shujoshi
 Follow these steps to start a chat:
 
 1. Listen to the **lcw:ready** event raised by a live chat to start using the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
-2. Once the **lcw:ready** event is raised, call the [startChat](developer/reference/methods/startChat.md) method to initiate a chat.
+2. Once the **lcw:ready** event is raised, call the [startChat](developer/reference/methods/startChat.md) method to start a chat.
 
 > [!NOTE]
 > To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the widget snippet and set its value to `true`. Invoke the [startChat](developer/reference/methods/startChat.md) method on click of the custom UI component to start chat.
@@ -39,7 +39,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-Consider a scenario where the customer is on your portal page, and you want to initiate chat once the customer has spent some time on the page. You can programmatically open the chat widget once the specified time has elapsed.
+Consider a scenario where the customer is on your portal page, and you want to start a chat after the customer has spent some time on the page. You can programmatically open the chat widget after the specified time has elapsed.
 
 The sample code given below shows how you can start a chat after the customer has been waiting for 5 minutes.
 

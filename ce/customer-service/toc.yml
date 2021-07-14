@@ -428,7 +428,7 @@
         href: relevance-search-chat-transcript.md
       - name: Configure link to conversation button
         href: configure-link-to-conversation-model-driven-app-form.md
-      - name: Start a chat
+      - name: Initiate a chat
         href: initiate-chat-wait-time.md
       - name: Start chat proactively
         href: start-proactive-chat.md
