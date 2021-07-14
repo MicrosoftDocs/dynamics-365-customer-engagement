@@ -84,12 +84,13 @@ Customize the editable grid by adding a JavaScript library. These customizations
     > -	The deal manager context object that's referred to in the example is different from the execution context of the Common Data Service. Currently, the  deal manager context object is the same as the forecasting context object and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
 2.	Add your JavaScript code in a Script web resource.  
      1. Sign in to [Power Apps](https://make.powerapps.com/).
+     
      1. Select the gear icon and select **Advanced Settings**. 
      1. In the Business Management app, select the **Settings** dropdown and then select **Customizations**.
-     2. Select **Customize the System**.
-     3. In the solution explorer, under **Components**, select **Web Resources**.
-     4. Select **New**.
-     5. In the new web resource dialog, enter the **Name** (for example, **mySampleScript.js**) and **Display Name**(for example, **My sample script**) for your web resource.
+     1. Select **Customize the System**.
+     1. In the solution explorer, under **Components**, select **Web Resources**.
+     1. Select **New**.
+     1. In the new web resource dialog, enter the **Name** (for example, **mySampleScript.js**) and **Display Name**(for example, **My sample script**) for your web resource.
     6. From the **Type** dropdown list, select **Script (JScript)**, and then do one of the following:
         - Select **Choose File** to upload the file containing your JavaScript code.
         - Select **Text Editor**, and then paste your JavaScript code in the editor. 
@@ -125,11 +126,13 @@ The following customizations are not supported for side panel in this release:
 -	Adding a web resource
 -	Adding a subgrid
 -	Changing the format or layout for header, tabs, sections, and fields
--	Changing certain properties for header, tabs, sections, and fields. For example, the available on phone property cannot be changed. 
+-	Changing certain properties for header, tabs, sections, and fields. For example, the available on phone property cannot be changed  
 
 
-**To customize the side panel:**
-1. Sign in to [Power Apps](https://make.powerapps.com/)
+**To customize the side panel**
+
+1. Sign in to [Power Apps](https://make.powerapps.com/).  
+
 1. Select the environment and then select **Data** > **Tables**.
 1. Select the **Default** dropdown in the top-right corner and select **All**.
 1. Search for *Opportunity* to view all the opportunity-related entities.

@@ -18,20 +18,24 @@ The deal manger workspace helps sellers be more productive and efficient. As an 
 
 ## Access deal manager settings
 
-Access the deal manager settings page to enable the preview, grant access to users, and customize the grid and charts. If you're using the Sales Hub app, use the **App Settings** page to access the deal manager settings. If you're using a custom app, add the deal manager settings and the deal manager workspace in Power Apps Settings.
+Access the deal manager settings page to enable the preview, grant access to users, and customize the grid and charts. 
+- If you're using the Sales Hub app, use the **App Settings** page to access the deal manager settings. 
+- If you're using a custom app, add the deal manager settings and the deal manager workspace in **Power Apps Settings**.
 
 ### Access deal manager settings in Sales Hub
 
 1. In the Sales Hub app, select the **Change area** icon
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**.  
+
 1. Under **General Settings**, select **Deal manager (preview)**.
 
 <a id="dmincustomapp"></a>
 
 ### Add deal manager settings and deal manager workspace in custom app
 
-1. Sign in to [Power Apps](https://make.powerapps.com/)
+1. Sign in to [Power Apps](https://make.powerapps.com/).  
+
 1. Select the environment and then select **Apps**.
      :::image type="content" source="media/powerapps-UI.PNG" alt-text="Power Apps UI with Environment and Apps highlighted":::
 1. Select your custom app and then select **Edit**.
@@ -52,6 +56,7 @@ Access the deal manager settings page to enable the preview, grant access to use
 ## Enable the preview
 
 1. Open the [deal manager settings page](#access-deal-manager-settings). 
+
 1. Select **Get started** to enable the preview.
 1. Select the roles that you want to give access to and select **Publish**.
    The deal manager workspace is now available to the administrators and the selected roles. 

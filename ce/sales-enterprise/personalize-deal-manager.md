@@ -26,28 +26,31 @@ As a seller, you can personalize the deal manager workspace to suit your needs. 
 The deal manager workspace lists important metrics related to the sales pipeline at the top of the workspace. You can personalize this space to view metrics that you want to track.  
 
 > [!NOTE]
-> The personalized metrics are only available until you logout. Due to a limitation, the current release doesn't support saving the changes to metrics. 
+> The personalized metrics are only available until you logout. Currently, you cannot save  changes to metrics. 
 
 **To personalize the metrics:**
 
-1. In the Sales Hub sitemap, select **Deal manager (preview)**.
-1. Select **Combo** > **Edit Metrics**.
+1. In the Sales Hub sitemap, select **Deal manager (preview)**.  
+1. Select **Combo** > **Edit Metrics**.  
    In the **Edit metrics** side panel, you can create, update, remove, or delete a metric.
 
     :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics" lightbox="media/deal-manager-editmetrics.png":::
 
-1. To create a metric,
-    1. Select **Create a Metric**.
-    1. Select the field and the aggregate function that you want to use for calculating the metric.
-       The **Field** list displays all the numerical fields in the opportunity entity. 
-    1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:
+1. To create a metric,  
+
+    1. Select **Create a Metric**.  
+    
+    1. Select the field and the aggregate function that you want to use for calculating the metric.  
+       The **Field** list displays all the numerical fields in the opportunity entity.  
+    1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:  
     - **Field:** Est. Revenue
     - **Aggregate function:** Sum
     - **Filters**
         - **Created On**: This year  
         - **Sales Stage**: Develop  
-2. To edit a metric, hover over the metric and select the **Edit** icon.
-3. To remove a metric temporarily, clear the checkbox against the metric.
+
+1. To edit a metric, hover over the metric and select the **Edit** icon.  
+1. To remove a metric temporarily, clear the checkbox against the metric.  
 
 ## Personalize the grid
 
@@ -63,6 +66,7 @@ Personalize the grid to include columns that you want to see and update quickly.
 **To personalize the grid**
 
 1. In the deal manager workspace, scroll down to the grid.
+
 1. Select **Edit columns** to add, remove, hide, show, and rearrange columns.
     1. To add a column, select **Add column** in the **Edit columns** panel and select the column type as one of the following: 
         - **Basic column**    
@@ -97,6 +101,7 @@ As a seller, you want the workspace the display records that you're working on. 
 
 1. In the deal manager workspace, select **Filters**.
     The Filters panel displays the columns in your view. 
+
 1. Select **More filters** to,
     - Select fields that are not in your view
     - View or delete the existing filters
@@ -120,6 +125,7 @@ The personalization changes that you directly make in the grid don't persist acr
 **To create a view**
 
 1. In the deal manager workspace, select **View > Create Personal View**.
+
 1. In the **View Designer**, personalize the columns and apply filters as per your needs.
     :::image type="content" source="media/view-designer.PNG" alt-text="Screenshot of the view designer in Power Apps":::
 1. Save the changes.

@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Known issues in deal manager
 
-This page includes known issues in this release of deal manager. We're actively working on these issues and we should have an update soon.  
+This page includes the known issues in this release of deal manager.  
 
 ## Filters
 
