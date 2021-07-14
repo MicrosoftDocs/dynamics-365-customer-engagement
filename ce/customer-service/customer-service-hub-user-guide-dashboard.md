@@ -1,6 +1,6 @@
 ---
-title: "Manage cases using interactive dashboards | Microsoft Docs"
-description: "Understand dashboards in Customer Service Hub in Dynamics 365 Customer Service."
+title: "Manage service cases using interactive dashboards | Microsoft Docs"
+description: "Understand dashboards and manage cases in Customer Service Hub in Dynamics 365 Customer Service."
 ms.date: 06/01/2018
 ms.topic: article
 author: neeranelli
