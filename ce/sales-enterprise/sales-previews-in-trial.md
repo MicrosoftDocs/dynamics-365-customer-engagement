@@ -29,10 +29,9 @@ As your trial app is enabled for preview features, you will see the new interfac
 If, for some reason, you want to switch to the classic list view, follow these steps:
 
 1.  Select **Sales Trial** at the top-left corner of the Sales trial app.
-    
-    :::image type="content" source="media/trial-app-link.png" alt-text="Screenshot highlighting the Sales Trial link at the top-left corner of the app":::
 
-1.  Select the **More options (…)** icon next to the Sales Trial app and select **OPEN IN APP DESIGNER**:
+1.  In the **Apps** page, go to the Sales Trial app, select the **More options (…)** icon and select **OPEN IN APP DESIGNER**:
+
     :::image type="content" source="media/open-in-app-designer.png" alt-text="Screenshot highlighting the Open in App Designer option":::
 
 3.  In the App Designer, edit the **Site Map** object.
@@ -47,6 +46,7 @@ If, for some reason, you want to switch to the classic list view, follow these s
     **Type**: Select **Entity**.
 
     **Entity**: Select the entity name that you want to associate such as Contact, Opportunity, Lead, or Account.
+
     :::image type="content" source="media/sitemap-designer.PNG" alt-text="Screenshot of the sitemap designer page":::
 
 6.  Save and publish the changes.
@@ -62,7 +62,7 @@ If you've switched over to the classic view and now want to revert to the new in
 
 1.  Select **Sales Trial** at the top-left corner of the Sales trial app.
 
-2.  Select the **More options (…)** icon next to the Sales Trial app and select **OPEN IN APP DESIGNER**:
+2.  In the **Apps** page, go to the Sales Trial app, select the **More options (…)** icon and select **OPEN IN APP DESIGNER**
 
 3.  In the App Designer, edit the **Site Map** object.
 
