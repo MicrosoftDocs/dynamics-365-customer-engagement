@@ -1,5 +1,6 @@
 ---
-title: "Manage Support instances | MicrosoftDocs"
+title: "Manage Dynamics 365 Support instances"
+description: description: "Managing Support instances (now called environments) has transitioned to the Power Platform admin center. See this page for more information."
 ms.custom: 
 ms.date: 08/12/2020
 ms.reviewer: 
@@ -20,6 +21,6 @@ search.app:
 ---
 # Manage Support instances
 
-Managing support instances (environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Manage support environments](/power-platform/admin/support-environment).
+Managing support instances (environments) has transitioned to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). For more information, see [Manage support environments](/power-platform/admin/support-environment).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
