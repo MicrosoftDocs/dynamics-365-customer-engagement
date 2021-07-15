@@ -5,11 +5,9 @@ author: FieldServiceDave
 ms.author: daclar
 ms.date: 11/14/2018
 ms.reviewer: krbjoran
-ms.service: crm-online
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: article
-ms.custom: 
-  - dyn365-projectservice
-  - dyn365-fieldservice
 search.app: 
   - D365CE
   - D365PS

@@ -1,11 +1,10 @@
 ---
 title: "Resolving booking conflicts in Resource Scheduling Optimization for Dynamics 365 | MicrosoftDocs"
 description: Learn how to resolve booking conflicts in Resource Scheduling Optimization for Dynamics 365
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 12/05/2018
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

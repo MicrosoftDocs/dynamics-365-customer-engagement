@@ -6,6 +6,13 @@ ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+searchScope:
+- D365-App-customerservice
+- D365-Entity-incident
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # Modify case resolution dialog box
