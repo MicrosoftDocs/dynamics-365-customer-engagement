@@ -5,6 +5,7 @@ ms.date: 02/11/2021
 ms.reviewer: krbjoran
 ms.topic: overview
 ms.service: dynamics-365-field-service
+ms.custom: intro-internal
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
