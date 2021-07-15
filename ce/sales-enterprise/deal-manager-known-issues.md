@@ -40,10 +40,10 @@ In the chart tooltip, you can only select the basic fields; smart fields aren't 
 
 ### Client-side personalization can't be saved to the view
 
-Any personalization that you do in the deal manager workspace directly can't be saved to a view. For example, if you modify the metrics, edit columns, or add filters in the workspace, they won't be saved to a view. However, the changes will be available until you sign out. 
+Any personalization that you do in the deal manager workspace directly can't be saved to a view. For example, if you modify the metrics, edit columns, or add filters in the workspace, they won't be saved to a view. However, the changes will be available until you sign out.  
 
 
-If you want to save the personalization, [create a view](personalize-deal-manager.md#create-a-view) and make those changes there.<!--note from editor: Suggested.--> 
+If you want to save the personalization changes, [create a view](personalize-deal-manager.md#create-a-view). 
 
 ### Views can't be edited
 

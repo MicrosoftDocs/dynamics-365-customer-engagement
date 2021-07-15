@@ -52,7 +52,7 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
 
 ## Customize the editable grid in deal manager
 
-The editable grid in the deal manager workspace lets sellers quickly view a list of opportunities that they're interested in. You can customize the editable grid to apply any business rules, or to include fields that sellers want to view by default and update.<!--note from editor: Suggested.-->
+The editable grid in the deal manager workspace lets sellers quickly view a list of opportunities that they're interested in. You can customize the editable grid to apply any business rules, or to include fields that sellers want to view by default and update.
 
 Customize the editable grid by adding a JavaScript library. These customizations include disabling fields based on a certain logic, preventing fields from being automatically saved, and setting error notifications for fields. Before you upload it, the JavaScript library must be created in accordance with the schemas defined for forecasting [events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).  
 
@@ -84,7 +84,7 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
     > [!NOTE]
     > -	The function names in the JavaScript file must match the event names and must accept the context object parameter. 
-    > -	The deal manager context object that's referred to in the example is different from the execution context of Common Data Service<!--note from editor: Should this be "Dataverse"?-->. Currently, the  deal manager context object is the same as the forecasting context object and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
+    > -	The deal manager context object that's referred to in the example is different from the execution context of Common Data Service. Currently, the  deal manager context object is the same as the forecasting context object and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
 
 1.	Add your JavaScript code in a script web resource:  
 
@@ -112,25 +112,13 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
 ## Customize the side panel
 
-The side panel helps sellers view quick details about a selected record. It offers more details about the record and displays notes, tasks, and activities associated with the record. Some customizations are supported in this release, others are slated for a future release.<!--note from editor: Suggested, along with the changes to the next paragraphs so they can fit better with the procedure.-->
+The side panel helps sellers view quick details about a selected record. It offers more details about the record and displays notes, tasks, and activities associated with the record. 
 
-**Supported side panel customizations** include:
+The following table lists the supported and unsupported customizations for side panel.
 
-- Define (add or remove) fields in the header.
-- Define (add or remove) fields in the **Key Details** section.
-- Change a field label.
-- Set a field requirement (for example, read-only).
-- Enable or disable tabs.
-- Rearrange tabs.
-
-**Unsupported side panel customizations** include:
-
-- Adding custom tabs or sections.
-- Adding a web resource.
-- Adding a subgrid.
-- Changing the format or layout for headers, tabs, sections, or fields.
-- Changing certain properties for headers, tabs, sections, or fields. For example, the **available on phone**<!--note from editor: Edit okay?--> property can't be changed. 
-
+|Supported customizations  |Unsupported customizations  |
+|---------------------------------|---------|
+|Define (add or remove) fields in the header.<br> Define (add or remove) fields in the **Key Details** section.<br> Change a field label.<br>Set a field requirement (for example, read-only).<br>Enable or disable tabs.<br>Rearrange tabs.| Adding custom tabs or sections.<br>Adding a web resource.<br>Adding a subgrid.<br>Changing the format or layout for headers, tabs, sections, or fields.<br>Changing certain properties for headers, tabs, sections, or fields. For example, the **available on phone** property can't be changed.  |
 
 **To customize the side panel**
 
