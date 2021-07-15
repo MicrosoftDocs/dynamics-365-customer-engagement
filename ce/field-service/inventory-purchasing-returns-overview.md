@@ -1,11 +1,9 @@
 ---
 title: "Overview of inventory, purchasing, and returns in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 01/09/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
