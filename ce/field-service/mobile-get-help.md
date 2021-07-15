@@ -1,11 +1,10 @@
 ---
 title: "Get help for Field Service Mobile | MicrosoftDocs"
 description: Learn about the ways you can get help for Field Service Mobile
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 01/23/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: troubleshooting
 applies_to: 
   - "Dynamics 365 (online)"

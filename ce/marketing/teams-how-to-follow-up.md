@@ -1,7 +1,7 @@
 ---
 title: "How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to customize your follow-up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 07/12/2021
+description: "Learn how to follow up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
+ms.date: 07/14/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-## How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing
+# How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing
 
 Teams has [built-in functionality](teams-journey.md) that allows you to quickly export webinar participant information to Marketing. In Marketing, you can then store contact information, follow up with participants with targeted campaigns, send personalized emails, and advertise upcoming events.
 
@@ -26,9 +26,9 @@ Here's how to export your Team's participant information to Marketing:
 
 1. In Teams, select the **Attendance** tab to view the attendance report.
 1. In the top-right corner, select **Follow up with participants**.
-1. Select **Get started**. If you are an existing Marketing customer, a window pops up that lists your Dynamics organizations. Select the organization you want to use from the dropdown. If you are not a Marketing customer, a window opens that allows you [sign up for a free Dynamics 365 Marketing trial](trial-signup.md).
-    > [!div class="mx-imgBorder"]
-    > ![Follow up button](media/teams-follow-up-get-started.png "Follow up button")
+    > [!NOTE]
+    > The **Follow up with participants** button only appears in the attendance tab *after* the webinar has ended.
+1. Select **Get started**. If you are an existing Marketing customer, a window pops up that lists your Dynamics organizations. Select the organization you want to use from the dropdown. If you are not a Marketing customer, a window opens that allows you [sign up for a free Dynamics 365 Marketing trial](https://dynamics.microsoft.com/marketing/offer).
 1. A browser tab then opens with a customer journey and segments that are personalized to your webinar data.
 
 ## Next steps

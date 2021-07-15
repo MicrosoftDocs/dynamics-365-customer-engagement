@@ -6,9 +6,8 @@ metadata:
   ms.reviewer: krbjoran
   ms.date: 11/20/2020
   ms.topic: troubleshooting
-  ms.custom: 
-    - dyn365-fieldservice
-  ms.service: dynamics-365-customerservice
+  ms.service: dynamics-365-field-service
+  ms.subservice: resource-scheduling-optimization
   ms.author: daclar
   search.app: 
     - D365CE
