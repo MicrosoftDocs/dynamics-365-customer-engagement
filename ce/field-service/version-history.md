@@ -59,11 +59,12 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 (Includes Universal Resource Scheduling version [3.12.49.XX](/dynamics365/field-service/field-service-version-history-resource-scheduling#31249XX)).
 
 - Update Field Service booking form logic to automatically update **Actual Arrival Time** on update of **Start Time** if the pre-change values of **Start Time** and **Actual Arrival Time** were the same.
-- When creating a follow-up Work Order from Dynamics 365 Field Service Mobile, there will be a link created between the source and new work order.
+- When creating a follow-up Work Order from Dynamics 365 Field Service Mobile, there will be a link created between the source and new Work Order.
 - Improved some text-based fields in mobile app forms to dynamically expand in height to show all content without the need for a technician to scroll within the field.
 - Dynamics 365 Field Service mobile calendar control will now show date and time format based on personalized settings.
 - Fixed an issue where booking status was showing "undefined" in mobile map control.
 - Metadata including image and description is added for Field Service mobile controls.
+- Work Order in the D365 Field Service Mobile will default to use use modern task-completion controls for WOS, WOP,and WOST.
 - Corrected an issue where, when a work order product was moved from one work order to another, the respective work orders' **Estimated Subtotal Amount** values were not being recalculated.
 - Resolved an issue with purchase order product records that kept the **Product** field active and editable even when the record's status was inactive.
 - Fixed an issue with **Enhanced Background Processing** on agreements where an object reference error could occur when updating agreement invoice setup records if the workflow is deactivated.
