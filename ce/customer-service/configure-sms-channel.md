@@ -90,7 +90,7 @@ To sign up for TeleSign
 
 1. Sign in to Omnichannel Administration app and go to **Work Distribution Management** > **Work Streams**.
 
-2. Select **New** to create a work stream. On the **Work Distribution** tab, enter the following information:
+2. Select **New** to create a workstream. On the **Work Distribution** tab, enter the following information:
 
     - **Name**: Name of the workstream.
     - **Channel**: Select **SMS**.
