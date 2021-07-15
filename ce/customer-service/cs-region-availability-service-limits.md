@@ -9,10 +9,6 @@ manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Regional availability for Customer Service
-
-<!-- Neeraja: Consider updating as follows:
-
 # Regional availability of insights in Customer Service
 
 The following insights features are available in all supported geographical regions:
@@ -24,28 +20,10 @@ The insights features are not supported in some of the regions as follows:
 - Smart Assist Suggestions: Not supported in India and Switzerland.
 - Omnichannel historical analytics: Not supported in France, Switzerland, and United Arab Emirates.
 - Conversation Topic clustering: Not supported in France, Switzerland, and United Arab Emirates. 
---!>
-
-Customer Service features are available in the following regions.
-
-| Feature | NAM | EUR | APJ | SAM | OCE |JPN | IND | CAN | GBR | FRA | UAE | CHE |
-| ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
-| Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Case Topic Clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Smart Assist Suggestions | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✖ |
-| Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
-| Conversation Topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
-| Sentiment analysis | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-
-
-✔ : Available
-
-✖: Not available
-
 
 ## Service limits in Dynamics 365 Customer Service Insights
 
-This article describes the built-in limits to the Customer Service Insights service, which are designed to ensure the reliability and stability of the service. Any requests for changes can be made through the Ideas forum.
+Customer Service Insights service have built-in limits which are designed to ensure the reliability and stability of the service. Any requests for changes can be made through the Ideas forum.
 
 ### Service limits
 
