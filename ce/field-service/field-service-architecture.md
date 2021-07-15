@@ -1,11 +1,9 @@
 ---
 title: "Dynamics 365 Field Service work order architecture | MicrosoftDocs"
 description: Learn about Dynamics 365 Field Service work order architecture
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 05/19/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"

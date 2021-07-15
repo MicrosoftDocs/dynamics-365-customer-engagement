@@ -1,11 +1,9 @@
 ---
 title: "Create products or services for work orders in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to create products or services for work orders in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 06/05/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar

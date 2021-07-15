@@ -1,10 +1,8 @@
 ---
 title: "Integrate Field Service with Dynamics 365 Guides | MicrosoftDocs"
 description: How to integrate Dynamics 365 Field Service with Dynamics 365 Guides (Preview) so Field Service technicians can follow a guide while doing a work order
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 08/16/2018
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
