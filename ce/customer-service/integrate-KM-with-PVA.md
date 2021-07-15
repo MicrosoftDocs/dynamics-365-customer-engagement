@@ -55,7 +55,7 @@ The Power Automate application opens on a new tab, where you'll configure the te
 
 Use the Power Automate template that you created to connect to the knowledge base by performing the following steps:
 
-1. On the Power Automate page, select **Templates**. On the pop-up window that appears, select **Leave** and exit the current browser page.
+1. On the Power Automate page, select **Templates**, and on the pop-up window that appears, select **Leave** to exit the current page.
  
 2. On the templates page, search for the **Generate answers from Dataverse knowledge articles to Power Virtual Agent** template. 
 
@@ -64,7 +64,7 @@ Use the Power Automate template that you created to connect to the knowledge bas
 
 3. Select **Continue**. You'll be redirected to the Power Automate flow template.
 
-4. Save the template, and then select **Solutions**. 
+4. Save the template, and then select **Solutions**. You might be prompted with a message on which you can select **OK**.
 
 5. Select **New solution**.
 
