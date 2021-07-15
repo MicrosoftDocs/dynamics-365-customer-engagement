@@ -47,7 +47,7 @@ If, for some reason, you want to switch to the classic list view, follow these s
 
     **Entity**: Select the entity name that you want to associate such as Contact, Opportunity, Lead, or Account.
 
-    :::image type="content" source="media/sitemap-designer.PNG" alt-text="Screenshot of the sitemap designer page":::
+    :::image type="content" source="media/sitemap-designer.png" alt-text="Screenshot of the sitemap designer page":::
 
 6.  Save and publish the changes.
 
@@ -86,7 +86,7 @@ If you've switched over to the classic view and now want to revert to the new in
 7.  Access the Sales Trial app and go to the corresponding page.
 
     The page should display the new interface as shown in the following screenshot:
-    :::image type="content" source="media/new-view-in-cola.PNG" alt-text="Screenshot of the new view":::
+    :::image type="content" source="media/new-view-in-cola.png" alt-text="Screenshot of the new view":::
   
 ### See also
 
