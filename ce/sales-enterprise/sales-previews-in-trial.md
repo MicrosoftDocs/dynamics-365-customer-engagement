@@ -20,7 +20,7 @@ The following preview features are available in this trial:
 
 - A new view for contacts, opportunities, leads, and accounts with editable and customizable grid and side panel, along with the filter, sort, and group by options.  
 
-- An enhanced experience for adding products to opportunities, quotes, orders, and invoice. The enhanced experience lets sellers select multiple products, filter by product families, compare products, and so on. For more information, see [Preview: Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md). 
+- An enhanced experience for adding products to opportunities, quotes, orders, and invoices. The enhanced experience lets sellers select multiple products, filter by product families, compare products, and so on. For more information, see [Preview: Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md). 
 
 ## Switch to classic view for contacts, opportunities, leads, and accounts
 
