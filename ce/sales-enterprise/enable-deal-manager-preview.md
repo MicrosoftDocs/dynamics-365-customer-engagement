@@ -66,5 +66,5 @@ The deal manager workspace is now available to administrators and the roles you 
 
 ### See also
 
-[Deal manager (Preview)](deal-manager-overview.md)
-
+- [Grant access to deal manager (Preview)](grant-access-deal-manager.md)
+- [Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)
