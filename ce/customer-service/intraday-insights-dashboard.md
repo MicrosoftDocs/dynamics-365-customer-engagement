@@ -81,7 +81,7 @@ This section consists of the following performance indicators.
 
 ## Agents insights report
 
-The agent insights report consists of metrics from an agent’s standpoint and provides an overview of agent performance. The report shows all-up agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** tab to view agent performance across all channels, or select the **Live chat** or **Digital messaging** tabs to view the agent performance for the corresponding channel. Digital messaging includes all asynchronous channels, like Facebook messenger, Twitter, WeChat, SMS, and so forth. 
+The agent insights report consists of metrics from an agent’s standpoint and provides an overview of agent performance. The report shows all-up agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** tab to view agent performance across all channels, or select the **Live chat** or **Digital messaging** tabs to view the agent performance for the corresponding channel. Digital messaging includes all asynchronous channels, like Facebook messenger, Twitter, WeChat, SMS, and so forth. The **Duration** option displays report details based on duration and time filter that is applied. The filter can be customized to show report data within the last four, eight, and twelve hour duration.
 
 You can view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session. The agent insights report consists of the following metrics.
 
@@ -245,6 +245,12 @@ Average handle time will be accurately calculated if you ensure the following:
 - Agents don't use incognito mode in Google Chrome or private browsing in Microsoft Edge.
 
 When an agent steps away from the desk during an ongoing session and doesn't interact with the customer, the system counts this time as active and subsequently computes a higher value for the handle time. For a more realistic report of the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, the idle time threshold isn't enabled out of the box. More information: [Set the idle time threshold](set-idle-time-threshold.md).
+
+## Saved views for Intraday reports
+
+You can save the filters that you used for the reports as bookmarks. These allow you to access the filters easily and repeatedly, without having to apply the filters again and again. You can switch between the multiple bookmarks when you're managing different reports and teams. Saved views allow you to save the queues and agents pertaining to different teams and lets you switch between the filters and view the metrics for each team.
+
+Admins can create bookmarks pertaining to different reports that can be accessible by supervisors, but can't be edited by supervisors. More information: [Create bookmarks in Power BI Desktop to share insights and build stories](/power-bi/create-reports/desktop-bookmarks).
 
 ### See also
 
