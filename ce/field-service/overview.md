@@ -2,13 +2,10 @@
 title: Overview of Dynamics 365 Field Service
 description: Learn about Dynamics 365 Field Service and its features.
 author: FieldServiceDave
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.reviewer: krbjoran
-ms.custom:
-  - dyn365-fieldservice
 ms.date: 02/23/2021
 ms.topic: overview
-ms.technology: field-service
 ms.author: daclar
 search.app:
   - D365CE

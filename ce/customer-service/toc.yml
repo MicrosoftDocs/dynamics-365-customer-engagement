@@ -120,8 +120,6 @@
         items:
         - name: Create and manage queues for unified routing
           href: queues-omnichannel.md
-        - name: Create and manage basic queues
-          href: set-up-queues-manage-activities-cases.md
       - name: Configure work classification
         items:
         - name: Configure work classification rulesets for unified routing

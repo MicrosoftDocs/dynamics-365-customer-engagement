@@ -1,11 +1,10 @@
 ---
 title: "Resource utilization on the schedule board - Universal Resource Scheduling | MicrosoftDocs"
 description: Learn about resource utilization on the schedule board in Universal Resource Scheduling
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 08/02/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
