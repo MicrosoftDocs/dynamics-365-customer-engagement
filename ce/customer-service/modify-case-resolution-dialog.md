@@ -17,7 +17,7 @@ searchScope:
 
 # Modify case resolution dialog box
 
-As an administrator, you can customize the case resolution dialog box. By customizing the case resolution form, your organization can cater the resolution process to suit your business needs. You can modify the case resolution dialog box to add fields like resolution type or remove fields like Billable time if they don't apply to your business scenarios. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
+As an administrator, you can customize the case resolution dialog box. By customizing the case resolution form, your organization can cater the case resolution process to suit your business needs. You can modify the case resolution dialog box to add fields like resolution type or remove fields like billable time, if they don't apply to your business scenarios. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
 
 > [!Note]
 > The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. 
@@ -30,13 +30,12 @@ Make sure that the Customer Service Manager and Customer Service Representative 
 - **Customer Service Manager**: Create, Read, and Write
 - **Customer Service Representative**: Read 
 
-
 > [!Note]
 > If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
 
 ## Enable customizable dialog
 
-You must enable the Customizable dialog option to ensure that the changes you make are reflected on the Resolve Case dialog when you select the Resolve case button.
+You must enable the Customizable dialog option to ensure that the changes you make are reflected on the Resolve Case dialog, when you select the Resolve case button.
 
 > [!Note]
 > **Standard dialog** is the default option.
@@ -53,13 +52,13 @@ To enable customizable dialog:
 
 ## Create and add custom status values
 
-After you enable customizable dialog, you can create status values in your form. You should add the custom status values in the following two locations:
+After you enable the Customizable dialog option, you can create status values in your form. Add the custom status values in the following two locations:
 
 - **Case entity** (**statuscode** in our example)
 - **Case Resolution entity** (**resolutiontypecode** in our example)
 
 > [!Important]
-> If you change the value in the **Case entity**, you must update the value in the **Case Resolution entity** so they match. An error may be thrown if these options don't match. If the values don't match in the customizable dialog, the option that you specified won't show up.
+> If you change the value in the **Case entity**, be sure to update the value in the **Case Resolution entity** so they match. An error may be thrown if these options don't match. If the values don't match in the customizable dialog, the option that you specified won't show up.
 
 <!-- content appears redundant
 ## Customize Case entity and Case Resolution entity
@@ -86,11 +85,12 @@ To go to the **Customization** page:
 -->
 ### Update case entity
 
-You can use case resolution to resolve situations where you receive duplicate cases. As an example, let's see how to set the resolution type to display cases that have the duplicate status.  
+You can use case resolution to resolve situations where you receive duplicate cases. As an example, let's see how to set the resolution type to display cases that have duplicate status.  
 
 To set the case entity for duplicate case:
 
 1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
+Alternatively, if you are using the Power Apps/Power Platform, 
 
 2. In the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
 
@@ -107,7 +107,7 @@ To set the case entity for duplicate case:
 
 ### Update case resolution entity
 
-After you've added the duplicate status to the case entity, you must add the same to the case resolution entity.
+After you've added the duplicate status to the case entity, add the same to the case resolution entity.
 
 To update the case resolution entity for the changed value of case entity:
 
