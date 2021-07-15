@@ -4,7 +4,7 @@ description: "This topic provides information about the different macros that ca
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 07/13/2021
 ms.topic: article
 ---
 
@@ -279,10 +279,8 @@ This action is used to unlink a record from the conversation when the customer i
 
 ### Flow connector
 
-As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
+As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
 
-> [!NOTE]
-> Macro actions for the flow connector can't be used in Customer Service workspace.
 
    > [!div class=mx-imgBorder]
    > ![Macro actions for flow connector.](../customer-service/media/macro-flow-connector.png "Macro actions for flow connector")
@@ -293,13 +291,13 @@ This action is used to trigger Power Automate flows using macros in agent script
 
 | Field                | Description                             | Parameter  |
 |----------------------|-----------------------------------------|------------|
-| Entity logical name	 | Specify the logical name of the entity that you want to link. This is a mandatory field. Any Microsoft Dataverse entity, such as Account, can be used based on business needs. | Account   |
+| Entity logical name	 | Specify the logical name of the entity that you want to link. This is a mandatory field. Any Microsoft Dataverse entity, such as Account, can be used based on business needs. | account   |
 | Entity record id     | Specify the entity record ID of the entity that you want to link. This is a mandatory field. Ids or slugs, such as {customerRecordId}, can be used. While this field is labeled as entity record id, any value to be processed can be passed. While the field is required, values do not have to be functional unless required for the flow logic. | {customerRecordId}   |
 | Select flow	         | Specify or select the Power Automate flow to be run by this action. Requires instant cloud flows with *When a record is selected* flow triggers. Existing flows with proper permissions will be detected and displayed in the drop-down list. |    |
 
 #### Power Automate flow permissions
 
-Referenced flows require valid connection and run permissions for the Omnichannel for Customer Service tenant and agents that run the flow from within agent scripts.
+Referenced flows require valid connection and run permissions for the Omnichannel for Customer Service and Customer Service workspace tenant and agents that run the flow from within agent scripts.
 
    > [!div class=mx-imgBorder] 
    > ![Flow permissions.](../customer-service/media/flow-permissions.png "Flow permissions")

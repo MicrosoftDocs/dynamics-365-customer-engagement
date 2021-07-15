@@ -10,6 +10,7 @@ applies_to:
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
+ms.custom: intro-internal
 search.app:
 - D365CE
 - D365FS
