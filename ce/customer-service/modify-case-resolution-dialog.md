@@ -17,8 +17,7 @@ searchScope:
 
 # Modify case resolution dialog box
 
-As an administrator, you can customize the case resolution form and support case resolution entities. By customizing the case resolution form, your organization can cater the resolution process to suit your business needs.  
-You can customize the case dialog box to add fields such as resolution type to suit your business needs or remove fields like Billable time if they don't apply to your business scenarios. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
+As an administrator, you can customize the case resolution dialog box. By customizing the case resolution form, your organization can cater the resolution process to suit your business needs. You can modify the case resolution dialog box to add fields like resolution type or remove fields like Billable time if they don't apply to your business scenarios. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
 
 > [!Note]
 > The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. 
