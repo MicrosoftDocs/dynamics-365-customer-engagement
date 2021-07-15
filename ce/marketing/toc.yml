@@ -416,11 +416,11 @@
         href: event-management-dashboard.md
       - name: Set up a Microsoft Teams webinar
         href: teams-webinar.md
-      - name: How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing
+      - name: Follow up with Teams webinar participants
         href: teams-how-to-follow-up.md
       - name: Customize your Teams webinar participant follow-up
         href: teams-webinar-follow-up.md
-      - name: Set up a webinar
+      - name: Set up a non-Teams webinar
         href: set-up-webinar.md
       - name: Manage event sponsorships
         href: manage-event-sponsorships.md
