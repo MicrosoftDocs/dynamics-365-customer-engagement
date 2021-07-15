@@ -339,7 +339,7 @@
     - name: Route records in Omnichannel Administration app
       href: entity-channel.md
     - name: Set up skill-based routing in Omnichannel Administration
-      href: attach-skills.md      
+      href: attach-skills.md
   - name: Chat
     items: 
     - name: Administrator experience
