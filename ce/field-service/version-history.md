@@ -89,7 +89,7 @@ This release is a hotfix on Field Service version [8.8.45.35](#884535).
 
 - Created an **Advanced Settings** flag for _bookingjournal.durationcalculationwithoutseconds.optin=true/false_ which, when true, ensures that booking journal duration is calculated without seconds to resolve potential visual discrepancies due to the number of seconds between milestone events.
 - Resolved a script error message related to opening the agreement's main form.
-- Fixed an incorrect crew booking cascade behavior after an initial crew's bookings were cancelled and subsequently rescheduled with a new set of bookings.
+- Fixed an incorrect crew booking cascade behavior after an initial crew's bookings were canceled and subsequently rescheduled with a new set of bookings.
 - Resolved an issue with share/unshare logic on work orders with multiple bookings to multiple user resources.
 - Corrected a localization issue with time formatting in the Field Service mobile agenda and map controls.
 - Reverted a previous performance change which under certain circumstances could cause an error to occur.
@@ -100,7 +100,7 @@ This release is a hotfix on Field Service version [8.8.45.35](#884535).
 - Improved logic which populated the **Actual Arrival Time** to populate the value without seconds which were not visible to the end user and which increased the potential for validation errors which would be potentially incorrect and unobvious to resolve.
 - Fixed an issue where, if customers created agreement booking dates manually after the agreement booking setup create the initial set of agreement booking dates and retriggering the agreement booking setup to create agreement booking dates for an earlier, still-future time range, the agreement would not generate booking dates for the new time range prior to the manually created agreement booking dates.
 - Added **Generate Actuals** toggle to Field Service settings which will allow organizations to disable actuals generation in Field Service. Additionally, when disabled, the time entry cost actuals generation field in Field Service settings is hidden since this setting becomes irrelevant.
-- Improved Field hervice Health with additional rules.
+- Improved Field Service health with additional rules.
 - Applied performance improvements.
 
 ## 8.8.44.56
