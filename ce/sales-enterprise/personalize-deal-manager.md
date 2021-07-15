@@ -12,8 +12,7 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
-> A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 As a seller, you can personalize the deal manager workspace to suit your needs. You can,
 
@@ -29,11 +28,13 @@ The deal manager workspace lists important metrics related to the sales pipeline
 > [!NOTE]
 > Any personalized metrics are only available until you sign out. The current release doesn't support saving the changes you make to metrics.<!--note from editor: Suggested. -->
 
+
 <!--markdownlint-disable MD036-->
 **To personalize the metrics**
 
 1. In the Sales Hub site map, select **Deal manager (preview)**.
 1. Select **Combo** > **Edit Metrics**.
+
    In the **Edit metrics** side panel, you can create, update, remove, or delete a metric.
 
     :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics." lightbox="media/deal-manager-editmetrics.png":::
@@ -43,13 +44,16 @@ The deal manager workspace lists important metrics related to the sales pipeline
     1. Select the field and the aggregate function that you want to use for calculating the metric.
        The **Field** list displays all the numerical fields in the opportunity entity. 
     1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:
+
     - **Field:** Est. Revenue
     - **Aggregate function:** Sum
     - **Filters**
         - **Created On**: This year  
         - **Sales Stage**: Develop  
+
 1. To edit a metric, hover over the metric and select the **Edit** icon.
 1. To remove a metric temporarily, clear the checkbox against the metric.
+
 
 ## Personalize the grid
 
@@ -66,6 +70,7 @@ Personalize the grid to include columns that you want to see and update quickly.
 **To personalize the grid**
 
 1. In the deal manager workspace, scroll down to the grid.
+
 1. Select **Edit columns** to add, remove, hide, show, or rearrange columns.
     1. To add a column, select **Add column** in the **Edit columns** panel and select the column type as one of the following: 
         - **Basic column**    
@@ -74,6 +79,7 @@ Personalize the grid to include columns that you want to see and update quickly.
           Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, go to [What are smart columns?](#what-are-smart-columns) later in this topic. 
 
           :::image type="content" source="media/deal-manager-editcolumns-small.png" alt-text="Screenshot illustrating the Edit columns option and the side panel." lightbox="media/deal-manager-editcolumns.png":::
+
 
     1. To show or hide columns, select or clear the checkboxes. You can't delete the default columns from the grid; however, you can hide them.
     1. To rearrange columns, drag the columns in the **Edit columns** panel or in the grid.
@@ -100,13 +106,14 @@ As a seller, you want the workspace the display records that you're working on. 
 **To apply filters to the workspace**
 
 1. In the deal manager workspace, select **Filters**.
+
     The **Filters** panel displays the columns in your view. 
 1. Select **More filters**, and then do one of the following:
     - Select fields that aren't currently displayed in your view.
     - View or delete the existing filters.
 1. To specify an OR condition, select **Add group** in the **Add** dropdown menu.
     :::image type="content" source="media/filter-add-group.PNG" alt-text="Screenshot of the Add group option in the More filters panel.":::
-    > [!NOTE]
+   > [!NOTE]
     > Though the **Add** dropdown menu displays **Add related entity**, this option isn't supported in this release.   
 1. Select the **Or** operator in the dropdown menu next to the group filter checkbox.
 
@@ -126,11 +133,13 @@ The personalization changes that you directly make in the grid don't persist acr
 1. In the deal manager workspace, select **View** > **Create Personal View**.
 1. In the **View Designer**, personalize the columns and apply filters to meet your needs.
     :::image type="content" source="media/view-designer.PNG" alt-text="Screenshot of the view designer in Power Apps.":::<!--note from editor: Should this say "in the deal manager workspace", or did we switch to the Power Apps UI here? -->
+
 1. Save the changes.
 
 ## Edit a view
 
-The option to edit a view isn't yet supported in the deal manager workspace. You can however, edit the view in Power Apps.
+The option to edit a view isn't yet supported in the deal manager workspace. You can, however, edit the view in Power Apps.
+
 
 ## Switch to a view
 

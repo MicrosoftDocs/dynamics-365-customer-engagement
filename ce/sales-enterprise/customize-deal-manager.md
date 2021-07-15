@@ -12,8 +12,7 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
-> A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 As an administrator, you can customize the workspace to enhance your sales team's productivity. For example, depending on the information that your sales team wants to view or update quickly, you can customize the grid or side panel. You can customize the following objects in the deal manager:
 
@@ -31,7 +30,7 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
 <!--markdownlint-disable MD036-->
 **To customize the bubble chart**
 
-1. Access the [deal manager settings](enable-deal-manager-preview.md#access-deal-manager-settings) page.
+1. Open the [deal manager settings](enable-deal-manager-preview.md#access-deal-manager-settings) page.
 1. In the **Manage charts** section, edit the **Deal tracker** chart. 
 1. Customize the following elements:
     - **Horizontal (x) axis**  
@@ -48,6 +47,7 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
         Select the details that you want users to see displayed as tooltips when they hover over each bubble.  
 
 1. Save the changes. Access the deal manager workspace to verify whether the changes took effect.
+
 
 
 ## Customize the editable grid in deal manager
@@ -141,6 +141,7 @@ The side panel helps sellers view quick details about a selected record. It offe
 1. Select the **Opportunity** table, and then select **Forms**.
 1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel.
     :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
+
 
 
 
