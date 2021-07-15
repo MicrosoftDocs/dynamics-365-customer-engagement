@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md",
+      "redirect_url": "modify-case-resolution-dialog",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-overview.md",
       "redirect_url": "/powerapps/user/add-activities",
       "redirect_document_id": "false"
