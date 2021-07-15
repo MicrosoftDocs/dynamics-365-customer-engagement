@@ -59,16 +59,17 @@ The agent dashboard has charts that have the following metrics.
 
 | KPI            | Description    |
 |----------------|----------------|
-| Case volume over duration   |  Day-over-day trend of case volume.   |
-| Average resolve time  | Month-over-month trend of case resolution time in minutes.     |
-| CSAT and survey sentiment by agent   | Agent-focused view comparing CSAT and sentiment from Customer Voice survey responses.     |
-| Agent metrics | Overview of core agent metrics in relation to other metrics and date.   |
+| Case volume over duration   |  Day-over-day trend of case volume.|
+| Average resolve time  | Month-over-month trend of case resolution time in minutes.|
+| CSAT and survey sentiment by agent   | Agent-focused view comparing CSAT and sentiment from Customer Voice survey responses.|
+| Agent metrics | Overview of core agent metrics in relation to other metrics and date.|
+|||
 
 ## Agent drill down view
 
 The Agent drill down view provides supervisors with a holistic look into individual agent performance on metrics and can be valuable in training scenarios for agents.
 
-To access the drill down report, select any metric value for the required agent and then select **Details**.
+To access the drill down report, select any metric value for the required agent, and then select **Details**.
 
 > [!div class="mx-imgBorder"]
 > ![Agent drill down view table.](media/agent-drill-down-view.png "Agent drill down view table")
