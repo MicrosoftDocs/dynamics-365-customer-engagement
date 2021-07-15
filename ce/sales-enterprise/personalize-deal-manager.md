@@ -26,10 +26,8 @@ As a seller, you can personalize the deal manager workspace to suit your needs. 
 The deal manager workspace lists important metrics related to the sales pipeline at the top of the workspace. You can personalize this space to view metrics that you want to track.  
 
 > [!NOTE]
-> Any personalized metrics are only available until you sign out. The current release doesn't support saving the changes you make to metrics.<!--note from editor: Suggested. -->
+> Any personalized metrics are only available until you log out. The current release doesn't support saving the changes you make to metrics.
 
-
-<!--markdownlint-disable MD036-->
 **To personalize the metrics**
 
 1. In the Sales Hub site map, select **Deal manager (preview)**.
@@ -73,10 +71,11 @@ Personalize the grid to include columns that you want to see and update quickly.
 
 1. Select **Edit columns** to add, remove, hide, show, or rearrange columns.
     1. To add a column, select **Add column** in the **Edit columns** panel and select the column type as one of the following: 
+
         - **Basic column**    
-          Lets you select a column from the opportunity or related entities such as account, contact, or price list.
+          Lets you select a column from the opportunity or related entities such as account, contact, price list, and so on.
         - **Smart column**   
-          Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, go to [What are smart columns?](#what-are-smart-columns) later in this topic. 
+          Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, see [What are smart columns?](#what-are-smart-columns) later in this topic. 
 
           :::image type="content" source="media/deal-manager-editcolumns-small.png" alt-text="Screenshot illustrating the Edit columns option and the side panel." lightbox="media/deal-manager-editcolumns.png":::
 
@@ -131,6 +130,7 @@ The personalization changes that you directly make in the grid don't persist acr
 **To create a view**
 
 1. In the deal manager workspace, select **View** > **Create Personal View**.
+
 1. In the **View Designer**, personalize the columns and apply filters to meet your needs.
     :::image type="content" source="media/view-designer.PNG" alt-text="Screenshot of the view designer in Power Apps.":::<!--note from editor: Should this say "in the deal manager workspace", or did we switch to the Power Apps UI here? -->
 
