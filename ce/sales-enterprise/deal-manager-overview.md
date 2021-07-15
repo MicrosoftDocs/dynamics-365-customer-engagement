@@ -14,24 +14,15 @@ manager: shujoshi
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-Deal manager is a dedicated workspace for sellers, which can be personalized and customized depending on what sellers want to see in their workspace. 
 
-Sellers can,
+Deal manager is a dedicated workspace for sellers that can be personalized and customized depending on what sellers want to see in their workspace. Sellers can organize opportunities in a way that makes sense to them, personalize their views, update information on the fly, add notes and tasks, and much more. Administrators can customize the experience for sellers to further<!--note from editor: Suggested.--> improve their productivity.  
+<!--note from editor: Please check whether my suggested alt text is adequate. I think we need to describe this image more than just say "in a nutshell" (which is charming!), but I'm not sure we have to make this a complex type of image and give it a long description.-->
+:::image type="content" source="media/deal-manager-overview-v1.png" alt-text="Screenshot showing the four main areas of the deal manager workspace - metrics, charts, an editable grid, and a customizable side panel." lightbox="media/deal-manager-overview-v1.png":::
 
-- Organize opportunities in a way that works for them
-- View important metrics
-- Personalize their view
-- Update information on-the-fly 
-- Add notes and tasks and more 
+More information: [Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)
 
-As an administrator, you can customize the experience to improve the productivity of sellers.  
+### See also
 
-:::image type="content" source="media/deal-manager-overview-v1.png" alt-text="Screenshot of deal manager workspace in a nutshell" lightbox="media/deal-manager-overview-v1.png":::
-
-To understand how sellers use the deal manager workspace, see [Using deal manager workspace (Preview)](deal-manager-seller-overview.md). 
-
-## See also
-
-- [Access deal manager workspace (Preview)](access-deal-manager.md)
-- [Enable the deal manager preview](enable-deal-manager-preview.md)
-- [Grant access to deal manager](grant-access-deal-manager.md)
+[Access the deal manager workspace (Preview)](access-deal-manager.md)  
+[Enable the preview for the deal manager workspace](enable-deal-manager-preview.md)  
+[Grant access to deal manager (Preview)](grant-access-deal-manager.md)

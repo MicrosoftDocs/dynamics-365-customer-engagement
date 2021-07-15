@@ -1,5 +1,5 @@
 ---
-title: "Personalize deal manager workspace - Sales Enterprise | MicrosoftDocs"
+title: "Personalize deal manager - Sales Enterprise | MicrosoftDocs"
 description: "As a seller, personalize the grid and apply filters to suit your needs."
 ms.date: 07/15/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Personalize deal manager workspace (Preview)
+# Personalize the deal manager workspace (Preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -26,90 +26,96 @@ As a seller, you can personalize the deal manager workspace to suit your needs. 
 The deal manager workspace lists important metrics related to the sales pipeline at the top of the workspace. You can personalize this space to view metrics that you want to track.  
 
 > [!NOTE]
-> The personalized metrics are only available until you logout. Currently, you cannot save  changes to metrics. 
+> Any personalized metrics are only available until you sign out. The current release doesn't support saving the changes you make to metrics.<!--note from editor: Suggested. -->
 
-**To personalize the metrics:**
 
-1. In the Sales Hub sitemap, select **Deal manager (preview)**.  
-1. Select **Combo** > **Edit Metrics**.  
+<!--markdownlint-disable MD036-->
+**To personalize the metrics**
+
+1. In the Sales Hub site map, select **Deal manager (preview)**.
+1. Select **Combo** > **Edit Metrics**.
+
    In the **Edit metrics** side panel, you can create, update, remove, or delete a metric.
 
-    :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics" lightbox="media/deal-manager-editmetrics.png":::
+    :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics." lightbox="media/deal-manager-editmetrics.png":::
 
-1. To create a metric,  
+1. To create a metric, do the following:
+    1. Select **Create a Metric**.
+    1. Select the field and the aggregate function that you want to use for calculating the metric.
+       The **Field** list displays all the numerical fields in the opportunity entity. 
+    1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:
 
-    1. Select **Create a Metric**.  
-    
-    1. Select the field and the aggregate function that you want to use for calculating the metric.  
-       The **Field** list displays all the numerical fields in the opportunity entity.  
-    1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:  
     - **Field:** Est. Revenue
     - **Aggregate function:** Sum
     - **Filters**
         - **Created On**: This year  
         - **Sales Stage**: Develop  
 
-1. To edit a metric, hover over the metric and select the **Edit** icon.  
-1. To remove a metric temporarily, clear the checkbox against the metric.  
+1. To edit a metric, hover over the metric and select the **Edit** icon.
+1. To remove a metric temporarily, clear the checkbox against the metric.
+
 
 ## Personalize the grid
 
-Personalize the grid to include columns that you want to see and update quickly. You can,
-- Add or remove columns from the grid
-- Show or hide columns
-- Drag-and-drop columns to rearrange them in the grid
+Personalize the grid to include columns that you want to see and update quickly. You can:
+
+- Add or remove columns from the grid.
+- Show or hide columns.
+- Drag columns to rearrange them in the grid.
 - Resize, sort, and group records by columns.  
 
 > [!NOTE]
-> The personalization changes explained in this section are only persisted until you logout. If you want to save your changes, [create a view](#create-a-view).  
+> The personalization changes explained in this section only persist until you sign out. If you want to save your changes, [create a view](#create-a-view).  
 
 **To personalize the grid**
 
 1. In the deal manager workspace, scroll down to the grid.
 
-1. Select **Edit columns** to add, remove, hide, show, and rearrange columns.
+1. Select **Edit columns** to add, remove, hide, show, or rearrange columns.
     1. To add a column, select **Add column** in the **Edit columns** panel and select the column type as one of the following: 
         - **Basic column**    
-          Lets you select a column from the opportunity or related entities such as account, contact, price list, and so on.
-        - **Smart column**
-          Lets you select a column that performs certain computations on the records to display smart and actionable information. More information: [What are Smart columns](#what-are-smart-columns). 
+          Lets you select a column from the opportunity or related entities such as account, contact, or price list.
+        - **Smart column**   
+          Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, go to [What are smart columns?](#what-are-smart-columns) later in this topic. 
 
-          :::image type="content" source="media/deal-manager-editcolumns-small.png" alt-text="Screenshot illustrating Edit columns option and the side panel " lightbox="media/deal-manager-editcolumns.png":::
+          :::image type="content" source="media/deal-manager-editcolumns-small.png" alt-text="Screenshot illustrating the Edit columns option and the side panel." lightbox="media/deal-manager-editcolumns.png":::
 
-    2. To show or hide columns, select or clear the checkboxes. You cannot delete the default columns from the grid. However, you can hide them.
-    1. To rearrange columns, drag-and-drop the columns in the **Edit columns** panel or in the grid.
-1. To sort the columns, select the column drop-down and select the sort option.
-1. To group the records by a column, select **Group by** and then select the column that you want to use for grouping. For example, to group opportunities based on different sales stages, group by the Sales stage column.
+
+    1. To show or hide columns, select or clear the checkboxes. You can't delete the default columns from the grid; however, you can hide them.
+    1. To rearrange columns, drag the columns in the **Edit columns** panel or in the grid.
+
+1. To sort columns, select the column dropdown menu and select the sort option.
+1. To group the records by a column, select **Group by** and then select the column that you want to use for grouping. For example, to group opportunities based on different sales stages, group by the **Sales stage** column.
    
-### What are Smart columns
+### What are smart columns?
 
-A smart column performs certain computations on the existing columns to display smart and actionable information. For example, the **Revenue** column displays the actual revenue if the opportunity is closed, else it displays the estimated revenue. These columns save you the trouble of manual computation and makes it easy for you to look at opportunities that need your attention. 
+A *smart column* performs certain computations on existing columns to display smart and actionable information. For example, the **Revenue** column displays the actual revenue if the opportunity is closed; otherwise, it displays the estimated revenue. These columns save you the trouble of manual computation and makes it easy for you to look at opportunities that need your attention. 
 
-The following smart columns are available:
+The following table lists the smart columns that are available.
 
 
 |Name  |Computation  |Action  |
 |---------|---------|---------|
-|Close date     | Displays the actual close date if the opportunity is closed, else displays the estimated close date.         |None         |
-|Revenue     |Displays the actual revenue if the opportunity is closed, else displays the estimated revenue.         |None         |
+|Close date     | Displays the actual close date if the opportunity is closed; otherwise, it displays the estimated close date.         |None         |
+|Revenue     |Displays the actual revenue if the opportunity is closed; otherwise, it displays the estimated revenue.         |None         |
 
 ## Apply filters
 
-As a seller, you want the workspace the display records that you're working on. As manager, you want to view records that your team is working on. So, apply filters to view the records that you're interested in.
+As a seller, you want the workspace the display records that you're working on. As a manager, you want to view records that your team is working on. To view the records that you're interested in, you apply filters.
 
 **To apply filters to the workspace**
 
 1. In the deal manager workspace, select **Filters**.
-    The Filters panel displays the columns in your view. 
 
-1. Select **More filters** to,
-    - Select fields that are not in your view
-    - View or delete the existing filters
-1. To specify an OR condition, select **Add group** in the **Add** drop-down.
-    :::image type="content" source="media/filter-add-group.PNG" alt-text="Screenshot of the Add group option in the More filters panel":::
-    > [!NOTE]
-    > Though the **Add** drop-down displays **Add related entity**, it is not supported in this release.   
-1. Select the **Or** operator in the drop-down next to the group filter checkbox.
+    The **Filters** panel displays the columns in your view. 
+1. Select **More filters**, and then do one of the following:
+    - Select fields that aren't currently displayed in your view.
+    - View or delete the existing filters.
+1. To specify an OR condition, select **Add group** in the **Add** dropdown menu.
+    :::image type="content" source="media/filter-add-group.PNG" alt-text="Screenshot of the Add group option in the More filters panel.":::
+   > [!NOTE]
+    > Though the **Add** dropdown menu displays **Add related entity**, this option isn't supported in this release.   
+1. Select the **Or** operator in the dropdown menu next to the group filter checkbox.
 
 ## Create a view
 
@@ -124,27 +130,29 @@ The personalization changes that you directly make in the grid don't persist acr
 
 **To create a view**
 
-1. In the deal manager workspace, select **View > Create Personal View**.
+1. In the deal manager workspace, select **View** > **Create Personal View**.
+1. In the **View Designer**, personalize the columns and apply filters to meet your needs.
+    :::image type="content" source="media/view-designer.PNG" alt-text="Screenshot of the view designer in Power Apps.":::<!--note from editor: Should this say "in the deal manager workspace", or did we switch to the Power Apps UI here? -->
 
-1. In the **View Designer**, personalize the columns and apply filters as per your needs.
-    :::image type="content" source="media/view-designer.PNG" alt-text="Screenshot of the view designer in Power Apps":::
 1. Save the changes.
 
 ## Edit a view
 
-Currently, you can't edit a view in the deal manager workspace. You can however, edit it in Power Apps.
+The option to edit a view isn't yet supported in the deal manager workspace. You can, however, edit the view in Power Apps.
+
 
 ## Switch to a view
 
 You can create multiple views with different filter conditions or columns and switch between them.
 
-In the deal manager workspace, select the views drop-down and search for the view that you want to switch to.
+In the deal manager workspace, select the views dropdown list and search for the view that you want to switch to.
 
-:::image type="content" source="media/views-dropdown.PNG" alt-text="Screenshot highlighting views drop-down in deal manager":::
+:::image type="content" source="media/views-dropdown.PNG" alt-text="Screenshot highlighting the views dropdown list in deal manager.":::
  
 
 ### See also
-- [Access deal manager workspace](deal-manager-overview.md)
-- [Known issues with personalization](deal-manager-known-issues.md#personalization)
+
+[Access the deal manager workspace (Preview)](access-deal-manager.md)  
+[Known issues with personalization](deal-manager-known-issues.md#personalization)
 
 
