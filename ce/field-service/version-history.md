@@ -61,14 +61,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 - Update Field Service booking form logic to automatically update **Actual Arrival Time** on update of **Start Time** if the pre-change values of **Start Time** and **Actual Arrival Time** were the same.
 - When creating a follow-up Work Order from Dynamics 365 Field Service Mobile, there will be a link created between the source and new work order.
 - Improved some text-based fields in mobile app forms to dynamically expand in height to show all content without the need for a technician to scroll within the field.
-- Dynamics 365 Field Service Mobile calendar control will now show date and time format based on personalized settings.
-- Fixed an issue where Booking Status was showing "undefined" in mobile map control.
-- Metadata including image and description is added for Field Service Mobile controls.
+- Dynamics 365 Field Service mobile calendar control will now show date and time format based on personalized settings.
+- Fixed an issue where booking status was showing "undefined" in mobile map control.
+- Metadata including image and description is added for Field Service mobile controls.
 - Corrected an issue where, when a work order product was moved from one work order to another, the respective work orders' **Estimated Subtotal Amount** values were not being recalculated.
-- Resolved an issue with purchase order product records which kept the **Product** field active and editable even when the record's status was inactive.
+- Resolved an issue with purchase order product records that kept the **Product** field active and editable even when the record's status was inactive.
 - Fixed an issue with **Enhanced Background Processing** on agreements where an object reference error could occur when updating agreement invoice setup records if the workflow is deactivated.
-- 
-- Added Field Service Health improvements including rule enhancements and new rules.
+- Added Field Service health improvements including rule enhancements and new rules.
 - Applied performance improvements.
 
 ## 8.8.45.47 
@@ -81,7 +80,7 @@ This release is a hotfix on Field Service version [8.8.45.47](#884547).
 
 This release is a hotfix on Field Service version [8.8.45.35](#884535).
 
-- Fixed an issue which could cause an error when the legacy address suggestion control was used on custom forms.
+- Fixed an issue that could cause an error when the legacy address suggestion control was used on custom forms.
 - Reverted a previous performance change which under certain circumstances could cause an error to occur.
 
 ## 8.8.45.35 
@@ -89,32 +88,32 @@ This release is a hotfix on Field Service version [8.8.45.35](#884535).
 (Includes Universal Resource Scheduling version [3.12.48.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124825)).
 
 - Created an **Advanced Settings** flag for _bookingjournal.durationcalculationwithoutseconds.optin=true/false_ which, when true, ensures that booking journal duration is calculated without seconds to resolve potential visual discrepancies due to the number of seconds between milestone events.
-- Resolved a script error message related to opening the Agreement's main form.
+- Resolved a script error message related to opening the agreement's main form.
 - Fixed an incorrect crew booking cascade behavior after an initial crew's bookings were cancelled and subsequently rescheduled with a new set of bookings.
 - Resolved an issue with share/unshare logic on work orders with multiple bookings to multiple user resources.
-- Corrected a localization issue with time formatting in the Field Service Mobile Agenda and Map controls.
+- Corrected a localization issue with time formatting in the Field Service mobile agenda and map controls.
 - Reverted a previous performance change which under certain circumstances could cause an error to occur.
-- Improved Field Service Health Rule "Process deinitions in draft status."
+- Improved Field Service health rule "Process deinitions in draft status."
 - Updated the validation for booking's **End Time** and **Actual Arrival Time** to allow them to have equal values.
 - Updated booking logic to automatically update **Actual Arrival Time** if **Start Time** is updated and **Actual Arrival Time** is not updated and where the pre-change **Start Time** is the same as pre-change **Actual Arrival Time**.
 - Improved cascading logic for crew bookings to reduce the possibility of data discrepancies and related, downstream errors on shared booking fields, depending on the crew's defined strategy.
 - Improved logic which populated the **Actual Arrival Time** to populate the value without seconds which were not visible to the end user and which increased the potential for validation errors which would be potentially incorrect and unobvious to resolve.
 - Fixed an issue where, if customers created agreement booking dates manually after the agreement booking setup create the initial set of agreement booking dates and retriggering the agreement booking setup to create agreement booking dates for an earlier, still-future time range, the agreement would not generate booking dates for the new time range prior to the manually created agreement booking dates.
-- Added **Generate Actuals** toggle to Field Service Settings which will allow organizations to disable actuals generation in Field Service. Additionally, when disabled, the time entry cost actuals generation field in Field Service Settings is hidden since this setting becomes irrelevant.
-- Improved Field Service Health with additional rules.
+- Added **Generate Actuals** toggle to Field Service settings which will allow organizations to disable actuals generation in Field Service. Additionally, when disabled, the time entry cost actuals generation field in Field Service settings is hidden since this setting becomes irrelevant.
+- Improved Field hervice Health with additional rules.
 - Applied performance improvements.
 
 ## 8.8.44.56
 
 This release is a hotfix on Field Service version [8.8.44.52](#884452).
 
-- Reverted an incorrect validation on work order incident which caused the **Estimated Duration** field for the work order incident to be read-only if the work order incident contained work order service task records, even if those work order service task records did not have a defined estimated duration.
+- Reverted an incorrect validation on work order incident that caused the **Estimated Duration** field for the work order incident to be read-only if the work order incident contained work order service task records, even if those work order service task records did not have a defined estimated duration.
 
 ## 8.8.44.52 
 
 This release is a hotfix on Field Service version [8.8.44.50](#884450).
 
-- Fixed an issue which could cause an error when the legacy address suggestion control was used on custom forms.
+- Fixed an issue that could cause an error when the legacy address suggestion control was used on custom forms.
 
 ## 8.8.44.50 
 
@@ -122,7 +121,7 @@ This release is a hotfix on Field Service version [8.8.44.50](#884450).
 
 This release is a hotfix on Field Service version [8.8.44.45](#884445).
 
-- Reverted a previous performance change which under certain circumstances could cause an error to occur.
+- Reverted a previous performance change that under certain circumstances could cause an error to occur.
 
 ## 8.8.44.45 
 
@@ -130,7 +129,7 @@ This release is a hotfix on Field Service version [8.8.44.45](#884445).
 
 This release is a hotfix on Field Service version [8.8.44.39](#884439).
 
-- Fixed a permissions issue with the FS Dispatcher role which could cause an error to be thrown when dragging an onsite requirement onto the schedule board when "Auto Update Booking Travel" is enabled.
+- Fixed a permissions issue with the Field Service dispatcher role that could cause an error to be thrown when dragging an onsite requirement onto the schedule board when "Auto Update Booking Travel" is enabled.
 
 ## 8.8.44.39 
 
