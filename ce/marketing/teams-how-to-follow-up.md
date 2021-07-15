@@ -1,6 +1,6 @@
 ---
 title: "How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to customize your follow-up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
+description: "Learn how to follow up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
 ms.date: 07/14/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-## How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing
+# How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing
 
 Teams has [built-in functionality](teams-journey.md) that allows you to quickly export webinar participant information to Marketing. In Marketing, you can then store contact information, follow up with participants with targeted campaigns, send personalized emails, and advertise upcoming events.
 
