@@ -1,11 +1,10 @@
 ---
 title: "Get Resource Scheduling Optimization | MicrosoftDocs"
 description: Learn how to get Resource Scheduling Optimization for Dynamics 365
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 03/11/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -42,7 +41,7 @@ In order to get access to Resource Scheduling Optimization, you must first have 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center on the Instances tab](./media/admin-install-fs-instances.png)
+> ![Screenshot of the Dynamics 365 admin center on the Instances tab.](./media/admin-install-fs-instances.png)
 
 4. Purchase Resource Scheduling Optimization. Go to the **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of Resource Scheduling Optimization is based on the number of resources whose schedules are optimized.
 

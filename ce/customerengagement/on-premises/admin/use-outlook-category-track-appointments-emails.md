@@ -4,7 +4,7 @@ description: "Server-side synchronization allows tracking of emails, appointment
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -31,7 +31,7 @@ You can also select multiple items and assign the **Tracked to Dynamics 365** Ou
 As of Customer Engagement (on-premises) version 9.1.0.4039 or higher, category tracking is on by default.
 
 > [!TIP]
-> To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, select the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
+> To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right side of the screen, select the **Settings** button ![User profile Settings button.](media/user-profile-settings-button.gif) > **About**.  
 
 ## Use category to track Outlook items
 Once the **Tracked to Dynamics 365** category is available in Outlook, you can use it to track the following Outlook items.

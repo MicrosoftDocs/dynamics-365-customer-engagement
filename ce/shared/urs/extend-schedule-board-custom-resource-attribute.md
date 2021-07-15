@@ -24,7 +24,7 @@ In this topic, we'll walk through how to configure this common example scenario.
 Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**. If your organization has a different schema prefix such as **new_**, it can be used if the code snippets (which you will find below) are updated to reflect this.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of adding resource cost attribute or field to a bookable resource](../../field-service/media/schedule-board-tab-settings-resource-cost.png)
+> ![Screenshot of adding resource cost attribute or field to a bookable resource.](../../field-service/media/schedule-board-tab-settings-resource-cost.png)
 
 
 Use the data type **Option Set** and select the existing option set **Level of Importance**. This is simply to have a list of 1 to 10, where the underlying numeric values are also 1 to 10.
@@ -42,7 +42,7 @@ Go to the schedule board that you want to add the new resource cost attribute to
 3. allow sorting by cost score
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of final result of changes that will be made in this article](../../field-service/media/schedule-board-tab-settings-tutorial.png)
+> ![Screenshot of final result of changes that will be made in this article.](../../field-service/media/schedule-board-tab-settings-tutorial.png)
 
 ## Step 3: Modify the resource cell template
 
@@ -56,7 +56,7 @@ Double-click the tab of your schedule board (DE#2 in our example). Scroll down t
 > If you want to set these changes as the default for all schedule boards, after double-clicking a schedule board tab, select **Open Default Settings** in the top right and make the code changes to **Resource Cell Template**, **Filter Layout**, and **Retrieve Resources Query**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of where to edit the resource cell template](../../field-service/media/schedule-board-tab-settings-edit-resource-cell.png)
+> ![Screenshot of where to edit the resource cell template.](../../field-service/media/schedule-board-tab-settings-edit-resource-cell.png)
 
 
 Below is the new code snippet to copy and paste into the resource cell template, followed by an image that shows the delta (highlighted in yellow) that can be used to modify an existing template. Replace **fa-euro** if you need a symbol different from the euro.
@@ -104,14 +104,14 @@ Below is the new code snippet to copy and paste into the resource cell template,
     </div>
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fetchXML with highlighted new code](../../field-service/media/schedule-board-tab-settings-resource-cell-template-yellow.png)
+> ![Screenshot of fetchXML with highlighted new code.](../../field-service/media/schedule-board-tab-settings-resource-cell-template-yellow.png)
 
 ## Step 4: Modify the filter layout
 
 Our next goal is to define a maximum cost score when filtering and searching for resources **(2)** and also allow sorting by cost score **(3)**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of final result of changes that will be made in this article](../../field-service/media/schedule-board-tab-settings-tutorial.png)
+> ![Screenshot of final result of changes that will be made in this article.](../../field-service/media/schedule-board-tab-settings-tutorial.png)
 
 To accomplish this, from the same schedule board tab setting where you edited the resource cell template, scroll to **Filter Layout**. Use the gear button and **Save As** to create a custom template. 
 
@@ -150,7 +150,7 @@ Copy and paste the following code snippet into the Filter Layout. The following 
     </filter>
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fetchXML with highlighted new code for filter layout](../../field-service/media/schedule-board-tab-settings-filter-layout-yellow.png)
+> ![Screenshot of fetchXML with highlighted new code for filter layout.](../../field-service/media/schedule-board-tab-settings-filter-layout-yellow.png)
 
 ## Step 5: Modify the query
 
@@ -169,7 +169,7 @@ Paste the following:
 See the following image for reference:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of code edit to resource query](../../field-service/media/schedule-board-tab-settings-resource-query-snippet1.png)
+> ![Screenshot of code edit to resource query.](../../field-service/media/schedule-board-tab-settings-resource-query-snippet1.png)
 
 After the ending:
 
@@ -186,7 +186,7 @@ Paste the following:
 See the following image for reference:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of code edit to resource query](../../field-service/media/schedule-board-tab-settings-resource-query-snippet2.png)
+> ![Screenshot of code edit to resource query.](../../field-service/media/schedule-board-tab-settings-resource-query-snippet2.png)
 
 
 ## Step 6: Test your new schedule board
@@ -194,13 +194,13 @@ See the following image for reference:
 Back on the schedule board we've been working on, you'll see that we have defined a maximum cost factor of 5 and ascending sort order based on cost. See the following screenshot for reference.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of final result entering 5 for resource cost on the schedule board](../../field-service/media/schedule-board-tab-settings-tutorial-end.png)
+> ![Screenshot of final result entering 5 for resource cost on the schedule board.](../../field-service/media/schedule-board-tab-settings-tutorial-end.png)
 
 ## Additional notes
 
 - At this time, resource cards can't be extended for custom layouts and fields. Resource cards are displayed when hovering over or right-clicking the resource's name on the schedule board.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource card](../../field-service/media/schedule-board-tab-settings-resource-card.png)
+> ![Screenshot of resource card.](../../field-service/media/schedule-board-tab-settings-resource-card.png)
 
 - For further context on schedule board extensibility, visit our [topic that provides a deep overview of scheduling extensibility](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs).
 

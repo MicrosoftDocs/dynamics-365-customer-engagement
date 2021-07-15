@@ -4,7 +4,7 @@ description: "Assign a different parent business to a business unit to accommoda
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -34,7 +34,7 @@ You can assign a different parent business to a business unit to accommodate cha
   
 4. On the Actions toolbar, choose **More Actions** > **Change Parent Business**.  
   
-5. In the **Change Parent Business** dialog box, in the New parent business text box, type part or all of the name of the parent business you want to assign the business unit to, and then choose the **Click to select a value for New parent business** icon  ![Lookup button](media/lookup-4.gif "Lookup button").  
+5. In the **Change Parent Business** dialog box, in the New parent business text box, type part or all of the name of the parent business you want to assign the business unit to, and then choose the **Click to select a value for New parent business** icon  ![Lookup button.](media/lookup-4.gif "Lookup button").  
   
 6. Select the record for the parent business you want to assign the business unit to, and then click **OK**.  
   

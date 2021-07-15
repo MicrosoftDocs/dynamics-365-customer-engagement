@@ -4,7 +4,7 @@ description: "Learn how to define alternate keys that can be used to reference r
 ms.custom: 
 ms.date: 04/03/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -50,7 +50,7 @@ To learn more about alternate keys programmability, see:
 
 The example below uses the Account Number field in the alternate key definition.  
   
- ![Define alternate key for the account entity](../customize/media/cust-alternatekeys-accountkey.PNG "Define alternate key for the account entity")  
+ ![Define alternate key for the account entity.](../customize/media/cust-alternatekeys-accountkey.PNG "Define alternate key for the account entity")  
   
 > [!NOTE]
 >  You can define up to five different keys for an entity.  

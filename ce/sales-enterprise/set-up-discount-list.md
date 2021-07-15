@@ -17,12 +17,12 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
 2. In the Sales Hub app, select the **Change area** icon
-    ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") in the lower-left corner and then select **App Settings**.
+    ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") in the lower-left corner and then select **App Settings**.
 
 2. Under **Product Catalog**, select **Discount Lists**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Unit groups in site map](media/site-map-unit-group.png "Unit groups in site map")
+    > ![Unit groups in site map.](media/site-map-unit-group.png "Unit groups in site map")
 
 
 4.	To create a new discount list, on the command bar, select **New**.
@@ -40,12 +40,12 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
     c.	**Currency**. If you chose to give discount as a fixed amount, select the currency.
 
     > [!div class="mx-imgBorder"]
-    > ![Discount list form](media/discount-list-form.png "Discount list form")
+    > ![Discount list form.](media/discount-list-form.png "Discount list form")
  
 6.	To add discount details to the list, select the **Related** tab, and then select **Discounts**.
 
     > [!div class="mx-imgBorder"]
-    > ![Discount tab on the Discount List form](media/discount-list-form-related-tab-discounts-option.png "Discount tab on the Discount List form")
+    > ![Discount tab on the Discount List form.](media/discount-list-form-related-tab-discounts-option.png "Discount tab on the Discount List form")
  
 7.	On the **Discounts** tab, select **New Discount**.
 
@@ -60,7 +60,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
     For example, this discount list will offer a discount of $5 whenever the customer purchases between 2 – 5 pieces of televisions.
 
     > [!div class="mx-imgBorder"]
-    > ![Discount form](media/discount-form.png "Discount form")
+    > ![Discount form.](media/discount-form.png "Discount form")
  
 
 ## Typical next steps  

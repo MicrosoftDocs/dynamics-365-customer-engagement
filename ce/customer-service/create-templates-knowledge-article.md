@@ -30,22 +30,22 @@ Before working with templates, make sure you have the required privileges to cre
 1.	Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
 
     > [!div class=mx-imgBorder]
-    > ![Select Service Management](media/ka-select-service-management.png "Select Service Management")
+    > ![Select Service Management.](media/ka-select-service-management.png "Select Service Management")
 
 2.	Under **Knowledge Base Management**, select **Article Templates**.
 
     > [!div class=mx-imgBorder]
-    > ![Select Article Templates](media/ka-select-article-template.png "Select Article Templates")
+    > ![Select Article Templates.](media/ka-select-article-template.png "Select Article Templates")
 
 3.	To create a template, select **New**.
 
     > [!div class=mx-imgBorder]
-    > ![Select New](media/ka-select-new.png "Select New")
+    > ![Select New.](media/ka-select-new.png "Select New")
  
 4.	In the **Choose Language** dialog box, select the language for the template, and then select **OK**. In this example, we are selecting the language as **English – United States**.
 
     > [!div class=mx-imgBorder]
-    > ![Choose language](media/ka-choose-language.png "Choose language")
+    > ![Choose language.](media/ka-choose-language.png "Choose language")
  
 5.	On the **New Knowledge Article Template** page, enter the values for the required fields that you want to pre-populate when the template is selected. 
 
@@ -57,7 +57,7 @@ Before working with templates, make sure you have the required privileges to cre
     | **CONTENT** | `--` | Define a structure that will be used in any knowledge article that’s created based on this template. To learn more, see [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). |
 
     > [!div class=mx-imgBorder]
-    > ![Enter the values in new knowledge article template](media/ka-new-template-page.png "Enter the values in new knowledge article template")
+    > ![Enter the values in new knowledge article template.](media/ka-new-template-page.png "Enter the values in new knowledge article template")
 
 6.	After you have entered the required information, select **Save**.
 

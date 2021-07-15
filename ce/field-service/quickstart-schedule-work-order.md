@@ -1,11 +1,9 @@
 ---
 title: "Quickstart: Set up users to create, schedule, and view work orders - Dynamics 365 Field Service | MicrosoftDocs"
 description: This quickstart walks through how to set up users to create, schedule, and view work orders in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 04/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -62,7 +60,7 @@ Go to **Users** and create at least two users. One to represent a back-office ad
 Assign each user a license or trial license that includes Dynamics 365 Field Service.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of active users in the Microsoft 365 admin center](./media/quickstart-o365-admin-users.png)
+> ![Screenshot of active users in the Microsoft 365 admin center.](./media/quickstart-o365-admin-users.png)
 
 > [!Note]
 > You may also need to assign your users to your environment in the Power Platform admin center. For more information, see the article on [adding users to an environment](/power-platform/admin/add-users-to-environment).

@@ -3,7 +3,7 @@ title: "Change application navigation using the SiteMap (Developer Guide for Dyn
 description: "The site map enables you to control the application navigation (menus) and other options in Dynamics 365 Customer Engagement such as editing labels, adding or changing icons, and adding or changing elements."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -35,11 +35,11 @@ The      site map enables you to control the application navigation (menus) and 
 ### Web application navigation bar  
  The following image shows the web application navigation bar. The default areas shown are **Sales** (SFA             ), **Service** (CS             ), **Marketing** (MA), **Settings**, and **Help Center** (HLP             ).  
   
- ![SiteMap shows Areas in Dynamics 365 Customer Engagement](../media/sitemap-areas.png "SiteMap shows Areas in Dynamics 365 Customer Engagement")  
+ ![SiteMap shows Areas in Dynamics 365 Customer Engagement.](../media/sitemap-areas.png "SiteMap shows Areas in Dynamics 365 Customer Engagement")  
   
  Selectable areas appear at the bottom of the navigation bar. When an             *area* is selected, the area displays as the             *selected area*. The most recently used             *subarea* for that area is automatically shown. When the selected area is chosen, the available groups and subareas are displayed as shown in the following image.  
   
- ![SiteMap shows groups and subareas in Dynamics 365 Customer Engagement](../media/sitemap-group-label.png "SiteMap shows groups and subareas in Dynamics 365 Customer Engagement")  
+ ![SiteMap shows groups and subareas in Dynamics 365 Customer Engagement.](../media/sitemap-group-label.png "SiteMap shows groups and subareas in Dynamics 365 Customer Engagement")  
   
  In this image, the **Sales** (SFA) area is selected and the groups **My Work**, **Customers**, **Sales** (SFA), **Collateral**, **Marketing** (MA), **Goals**, and **Tools**are visible.  
   
@@ -48,7 +48,7 @@ The      site map enables you to control the application navigation (menus) and 
 ### [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] navigation  
  The following diagram shows the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] navigation. [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] presents each navigation area in alphabetical order in a tree view instead of using the order specified in the             `SiteMap`. Each person can position the reading pane at the bottom as shown or on the side. They can also hide it. Each entity can be configured to determine whether it will display the reading pane. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Editable Entity Properties](../customize-entity-metadata.md#BKMK_OpenOptions)  
   
- ![SiteMap in Outlook](../media/sitemap-outlook-highlight.png "SiteMap in Outlook")  
+ ![SiteMap in Outlook.](../media/sitemap-outlook-highlight.png "SiteMap in Outlook")  
   
 <a name="BKMK_ConfigurationOptions"></a>   
 ## Configuration options available by using the SiteMap  
@@ -67,7 +67,7 @@ The      site map enables you to control the application navigation (menus) and 
  After [!INCLUDE[pn_crm_2015_sp_shortest](../../includes/pn-crm-2015-sp-shortest.md)], 
  the icons for the `<Area>` are 85x71 (width x height) pixel image, white in color, and with 18% opacity. The `<SubArea>` menus use 32x32 pixel image as entity icons.  
   
- ![Pixel sizes of the icons in Dynamics 365 Customer Engagement](../media/crm-icon-pixe-lsize.png "Pixel sizes of the icons in Dynamics 365 Customer Engagement")  
+ ![Pixel sizes of the icons in Dynamics 365 Customer Engagement.](../media/crm-icon-pixe-lsize.png "Pixel sizes of the icons in Dynamics 365 Customer Engagement")  
   
  You should use a GIF, PNG, or JPG image web resource as the source of your icon. When you reference the web resource, make sure that you use the web resource directive             ($webresource:). For example, use             `Icon="$webresource:sample_/icons/MyAreaIcon1.png"` when the name of the web resource is             “sample_/icons/MyAreaIcon1.png”. Using this directive will create a dependency so that the web resource can’t be deleted as long as your             `SiteMap` element requires it.  
   

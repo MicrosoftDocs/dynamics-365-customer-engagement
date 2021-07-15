@@ -14,6 +14,7 @@ search.app:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
+  - intro-internal
 ---
 
 # Migration of Unified Service Desk configurations from Web Client to Unified Interface apps

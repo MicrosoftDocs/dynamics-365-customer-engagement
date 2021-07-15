@@ -20,14 +20,14 @@ The nav bar at the top of every screen includes buttons for common tasks like se
 The nav bar also includes access to tools that help you manage your work, such as a guided task flow that walks you through common 
 tasks, or the Relationship Assistant that offers suggestions for the next steps to take with your customers. 
 
-![Sales Hub top nav bar](media/saleshubnav.png "Sale Hub top nav bar")
+![Sales Hub top nav bar.](media/saleshubnav.png "Sale Hub top nav bar")
 
 ## Menu options
 
 Choose the menu button to see a list of all your options in one place, including access to communication tools like e-mail and Skype calling,
 customer records, your calendar, and settings. You'll also find quick access to any recently viewed records and pinned favorites.
 
-![Sales Hub menu options](media/saleshubnav2.png "Sale Hub menu options")
+![Sales Hub menu options.](media/saleshubnav2.png "Sale Hub menu options")
 
 
 

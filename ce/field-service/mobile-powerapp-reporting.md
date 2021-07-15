@@ -1,13 +1,11 @@
 ---
 title: "Field Service technician service reporting | MicrosoftDocs"
 description: Learn about setting up service reports for Field Service technicians
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 05/21/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -24,7 +22,7 @@ search.app:
 Field Service technicians often create service reports summarizing work done during a customer visit. These reports can carry details such as tasks completed, and products or parts used during the service. Service reports must often be delivered to the customer in the form of a PDF.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile application reporting experience](./media/mobile-2020-reporting-app.png)
+> ![Screenshot of Field Service Mobile application reporting experience.](./media/mobile-2020-reporting-app.png)
 
 This article outlines how to use the Power Apps Component Framework (PCF) to build a service report for the Field Service mobile application. This article also provides a sample report and PCF control that will serve as a guide for developers to design and import the control for their environments.
 
@@ -71,7 +69,7 @@ Launch the Field Service mobile app and go to the bookable resource booking.
 Go to **More** > **Report**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile application reporting experience](./media/mobile-2020-reporting-app.png)
+> ![Screenshot of Field Service Mobile application reporting experience.](./media/mobile-2020-reporting-app.png)
 
 ## Generate reports from web
 

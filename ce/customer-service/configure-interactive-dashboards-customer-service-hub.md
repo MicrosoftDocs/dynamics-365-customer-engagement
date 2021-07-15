@@ -15,6 +15,7 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -44,37 +45,37 @@ The interactive dashboards come in two flavors:
 
 In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them: 
   
- ![Multistream interactive dashboard](../customer-service/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
+ ![Multistream interactive dashboard.](../customer-service/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
   
 ### Multi-stream dashboard tile view
 
  Multi-stream dashboard in tile view:  
   
- ![Multistream dashboard tile view](../customer-service/media/interactive-dashboards-multi-stream-tiles-csh.png "Multi-stream dashboard tile view")  
+ ![Multistream dashboard tile view.](../customer-service/media/interactive-dashboards-multi-stream-tiles-csh.png "Multi-stream dashboard tile view")  
   
 ### Multi-stream dashboard layouts
 
  For multi-stream dashboards, you can choose from four different layouts.  
   
- ![Multistream dashboard layouts](../customer-service/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
+ ![Multistream dashboard layouts.](../customer-service/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
   
 ### Multi-stream entity-specific dashboard
 
  The entity-specific dashboard for the **Case** entity is shown here.  
   
-![Multistream cases dashboard](../customer-service/media/interactive-dashboard-cases-entity-specific.png "Multi-stream cases dashboard")
+![Multistream cases dashboard.](../customer-service/media/interactive-dashboard-cases-entity-specific.png "Multi-stream cases dashboard")
   
 ### Single-stream dashboard
 
  The single-stream dashboard contains the data stream on the left and visual filters and tiles on the right.  
   
-![single stream dashboard](media/interactive-dashboards-single-stream-csh.png "Single-stream dashboard")
+![single stream dashboard.](media/interactive-dashboards-single-stream-csh.png "Single-stream dashboard")
   
 ### Single-stream dashboard layouts
 
  For single-stream dashboards, you can choose from four different layouts.  
   
- ![Single stream dashboard layouts](../customer-service/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts")  
+ ![Single stream dashboard layouts.](../customer-service/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts")  
   
 ## Configure filter fields and security roles for the interactive dashboards
 
@@ -94,7 +95,7 @@ For a field to appear in the global filter and to be included in the data stream
 
 Refer the screen below to see the two flags enabled in the **Case** entity for the **IsEscalated** field:
   
-![Enable a field for global filter and sort](media/enable-filter-sort.png "Enable a field for global filter and sort")
+![Enable a field for global filter and sort.](media/enable-filter-sort.png "Enable a field for global filter and sort")
 
 #### Configure the flag "Appears in global filter in interactive experience"
 
@@ -114,7 +115,7 @@ The fields that you configure will appear in the global filter flyout window whe
 
 The global filter flyout window is shown here:  
   
-![Add global filter fields](media/global-filter-escalated.png "Global filter fields")
+![Add global filter fields.](media/global-filter-escalated.png "Global filter fields")
   
 > [!TIP]
 >  When you configure a visual filter based on the fields like priority or status, a best practice is to also enable these fields (priority, status) to appear in the global filter.  
@@ -137,7 +138,7 @@ The fields that you configure for sorting will appear when you select the drop-d
 
 The following illustration shows the flyout dialog with the list of the available fields for sorting, in the drop-down list. The default sort is always set on the **Modified On** field.  
   
-![Sort by dropdown list](media/sort-field.png "Sort by dropdown list") 
+![Sort by dropdown list.](media/sort-field.png "Sort by dropdown list") 
   
 ### Enable security roles  
 
@@ -157,7 +158,7 @@ Select and enable security roles that will be able to view the interactive dashb
   
 6. Select **Publish All Customizations** for your changes to take effect. 
 
-   ![Choose to enable security role](media/choose-enable-security-role.png "Choose to enable security role")
+   ![Choose to enable security role.](media/choose-enable-security-role.png "Choose to enable security role")
 
      
 ## Configure interactive dashboards  
@@ -174,13 +175,13 @@ The following sections describe how to configure various types of interactive da
   
 4. In the grid, select **New**, and select **Interactive experience dashboard** in the drop-down list, as shown below:  
   
-   ![Select interactive experience dashboard](media/configure-dashboard.png "Select interactive experience dashboard")
+   ![Select interactive experience dashboard.](media/configure-dashboard.png "Select interactive experience dashboard")
   
 5. Choose the layout and select **Create**.  
   
 6. When the dashboard form opens, fill in the filtering information at the top of form, as shown here.  
   
-   ![Add visual filters](../customer-service/media/interactive-dashboards-add-visual-filters.png "Add visual filters")  
+   ![Add visual filters.](../customer-service/media/interactive-dashboards-add-visual-filters.png "Add visual filters")  
   
    - **Filter Entity**: The visual filters and global filter attributes are based on this entity.  
       
@@ -194,28 +195,28 @@ The following sections describe how to configure various types of interactive da
   
    The following shows adding the **Cases By Priority** doughnut chart.  
   
-   ![Add a doughnut chart component](media/add-stream.png "Add a doughnut chart component")
+   ![Add a doughnut chart component.](media/add-stream.png "Add a doughnut chart component")
   
    Some charts, such as bar charts or pie charts, render showing the data stored in the system. The doughnut charts and tag charts load as static images and don’t show the preview of the actual data.  
   
 > [!NOTE]
 >  The charts configured for the visual filters can use the fields of the **Filter** entity as well as related entities. When you use charts based on related entity fields, the customer service representatives can filter charts using these related entity fields. The fields that are based on the related entity usually have the following format in the chart configuration window: “field name (entity name)”, such as the **Modified By (Delegate)** field. To create multi-entity charts, you must add  fields of a related entity to any of the views, and then use these fields while creating charts.
  
-![Creating charts for visual filters](media/interactive-dashboard-visual-charts-x-y-axes.png "Creating charts for visual filters") 
+![Creating charts for visual filters.](media/interactive-dashboard-visual-charts-x-y-axes.png "Creating charts for visual filters") 
 
   
 Next, configure the **Streams**. Just like with adding components in the charts, select the element inside the stream panel. When the dialog appears, select **View** or **Queue** depending on what element you want the stream to use. Enter the required information, as shown in the following illustration.  
 
 Configure the stream for the **Items available to work on** as shown here:
 
-![Add a stream component](media/add-stream-dashboard.png "Add a stream component")
+![Add a stream component.](media/add-stream-dashboard.png "Add a stream component")
   
 > [!NOTE]
 >  The **Queue** option is available in the dialog box only for queue-enabled entities. For entity dashboards, if the entity is not queue enabled, you won't see the **Queue** option in the dialog box. You can only use the **View option** in the stream of dashboards for entities that are not queue enabled.  
   
 The following illustration is an example of a fully configured chart panel, and stream panel:
   
-![Fully configured dashboard](media/example-stream-visual.png "Fully configured dashboard")
+![Fully configured dashboard.](media/example-stream-visual.png "Fully configured dashboard")
 
 After you have completed configuring the dashboard, save it and publish the customizations for your changes to take effect.
   
@@ -268,7 +269,7 @@ Configuring a single-stream dashboard is similar to the multi-stream dashboard. 
 
 If the tiles are included, they are always displayed on the dashboard. To configure a tile, you select on the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
   
-![addtile](media/add-tile.png "Add tile")
+![addtile.](media/add-tile.png "Add tile")
   
 ## Configure dashboard colors  
 
@@ -295,15 +296,15 @@ For all **Option Set** and **Two Options** type fields, such as the **Case Type*
   
 In the following example, we’re changing the color for the **IsEscalated** field. Use the **Edit** button to open the **Modify List Value** dialog box:  
   
-![Change color in the dashboard](media/edit-color.png "Change color in the dashboard")
+![Change color in the dashboard.](media/edit-color.png "Change color in the dashboard")
   
 When the **Modify List Value** dialog box opens, choose the color as shown here:  
 
-![Modify the dashboard color](media/modify-color.png "Modify the dashboard color")  
+![Modify the dashboard color.](media/modify-color.png "Modify the dashboard color")  
 
 Similarly, if you go to the **Priority** field to modify the colors of the case priority options, choose the color in the **Options** sub-area of the **General** tab, as shown below:
 
-![Change dashboard color for case priority](media/priority-color-modify.png "Change dashboard color for case priority")
+![Change dashboard color for case priority.](media/priority-color-modify.png "Change dashboard color for case priority")
   
 ### See also
 

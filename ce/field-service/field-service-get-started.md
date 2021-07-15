@@ -1,11 +1,9 @@
 ---
 title: "Get started with Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to get started with Dynamics 365 Field Service
-ms.custom:
-- dyn365-fieldservice
 ms.date: 06/17/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -97,7 +95,7 @@ In the form, fill out relevant details.
 Finally, you'll schedule the work order to a frontline worker. On the getting started page, select **Schedule** to go to the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the getting started page in Field Service, with attention to the schedule your work orders section,](./media/getstarted-schedule1.png)
+> ![Screenshot of the getting started page in Field Service, with attention to the schedule your work orders section,.](./media/getstarted-schedule1.png)
 
 Find your work order in the lower pane, then select-and-drag it to your frontline worker.
 

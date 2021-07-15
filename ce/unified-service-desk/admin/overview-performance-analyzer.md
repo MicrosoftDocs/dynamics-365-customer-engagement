@@ -14,6 +14,7 @@ search.app:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
+  - intro-internal
 monikerRange: '>= dynamics-usd-3'
 ---
 
@@ -46,7 +47,7 @@ The advantages of the Unified Service Desk performance analyzer are as follows:
 - Ease of access to the reports for future reference.
 
 > [!div class="mx-imageBorder"]
-> ![Performance analyzer value proposition](../media/performance-analyzer-value-propositions.PNG "Performance analyzer value proposition")
+> ![Performance analyzer value proposition.](../media/performance-analyzer-value-propositions.PNG "Performance analyzer value proposition")
 
 ## Support matrix
 The Unified Service Desk Performance Analyzer supports Unified Service Desk 4.0 and later.

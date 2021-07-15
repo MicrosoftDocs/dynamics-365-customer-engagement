@@ -5,7 +5,6 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 03/11/2021
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
 

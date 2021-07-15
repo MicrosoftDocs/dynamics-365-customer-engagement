@@ -1,11 +1,9 @@
 ---
 title: "Time entries for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about time entry in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -103,7 +101,7 @@ Next, approve the time-off request. Approval is only required if the resource on
 The time entry **Entry Status** will be updated as approved.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of time entries, highlighting an approved time-off time entry](./media/time-entry-time-off-approve-time-entry.png)
+> ![Screenshot of a list of time entries, highlighting an approved time-off time entry.](./media/time-entry-time-off-approve-time-entry.png)
 
 Making changes to the date or duration of the time entry will update the time-off request and vice versa.
 

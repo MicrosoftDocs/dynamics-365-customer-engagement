@@ -26,7 +26,7 @@ search.app:
 
 Use the quick create form in App for Outlook to auto populate information from an Outlook item to the quick create form for the Case table. You can only enable the quick create auto-populate option for the case table.
 
-![Demo of how to create a case table using quick create](media/email-to-case.gif)
+![Demo of how to create a case table using quick create.](media/email-to-case.gif)
 
 
 
@@ -49,22 +49,22 @@ These fields that will be populated automatically:
 3. Select an existing unmanaged solution or create a new one and then select **Edit** on the command bar. For more information on solutions, see [Solutions overview](/maker/data-platform/solutions-overview.md).
 
    > [!div class="mx-imgBorder"]
-   > ![Edit the solution](media/edit-mailapp-solution.png)
+   > ![Edit the solution.](media/edit-mailapp-solution.png)
    
 4. Select the **Case** table and then on the command bar, select **Edit**.
 
    > [!div class="mx-imgBorder"]
-   > ![Edit the case table](media/edit-case-table.png)
+   > ![Edit the case table.](media/edit-case-table.png)
 
 5. Select the **Forms** tab and then on the command bar select **Form settings**.
 
    > [!div class="mx-imgBorder"]
-   > ![Edit form settings](media/form-settings.png)
+   > ![Edit form settings.](media/form-settings.png)
 
 6. On the left, select **Form order** and then select **Quick Create Form** from the dropdown menu. Move **App for Outlook Case Quick Create** to the top of the list. 
 
    > [!div class="mx-imgBorder"]
-   > ![Edit the form order](media/form-settings-1.png)
+   > ![Edit the form order.](media/form-settings-1.png)
    
 7. Select **Save and publish**.
 

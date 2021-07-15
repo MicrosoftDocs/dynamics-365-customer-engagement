@@ -6,6 +6,7 @@ ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.custom: intro-internal
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View agent dashboard and agent work items
@@ -25,7 +26,7 @@ The **Omnichannel Agent Dashboard** page consists of the following stream:
  - Closed work items
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel for Customer Service agent interface](../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")
+> ![Omnichannel for Customer Service agent interface.](../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")
 
 ## My work items
 

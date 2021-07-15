@@ -61,7 +61,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
 
 5. On the Campaign Activity form, select **Save**.
 
-6. The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing list, select the **More Commands** icon ![More Commands icon](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
+6. The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing list, select the **More Commands** icon ![More Commands icon.](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
   
 7. To distribute the new campaign activity, on the command bar, select **Distribute Campaign Activity**.  
   

@@ -7,6 +7,7 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+ms.custom: intro-internal
 ---
 
 # Customer Service Insights
@@ -18,7 +19,7 @@ The premium AI capabilities in Customer Service Insights use advanced AI technol
 These capabilities are deeply embedded into the core agent and manager experiences in Customer Service and Omnichannel. 
 
 > [!div class="mx-imgBorder"]
->![Customer Service Insights](media/customer-service-insights.png "Customer Service Insights")
+>![Customer Service Insights.](media/customer-service-insights.png "Customer Service Insights")
 
 ## Customer Service Insights across your organization
 

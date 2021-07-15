@@ -34,12 +34,12 @@ So that you can add documents, make sure that document management for the playbo
 2.	In the activity form, select the **Related** tab, and then select **Documents**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Documents option on the Related tab](media/documents-option-on-related-tab.png "Documents option on the Related tab")
+    > ![Documents option on the Related tab.](media/documents-option-on-related-tab.png "Documents option on the Related tab")
 
     The **Documents** list opens.
 
     > [!div class="mx-imgBorder"]  
-    > ![Documents tab on the Playbook activity form](media/documents-tab-on-playbook-activity-form.png "Documents tab on the Playbook activity form")
+    > ![Documents tab on the Playbook activity form.](media/documents-tab-on-playbook-activity-form.png "Documents tab on the Playbook activity form")
 
 3.	Select **Upload** to add documents that a sales rep might need while working on this playbook activity. The documents are stored on the configured SharePoint site. For more information about working with documents, see [Manage your SharePoint documents](../customerengagement/on-premises/basics/manage-sharepoint-documents-document-locations-in-dynamics-365-apps.md).
 

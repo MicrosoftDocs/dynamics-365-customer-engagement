@@ -2,13 +2,11 @@
 title: Enable self-scheduling service appointments in Dynamics 365 Field Service | MicrosoftDocs
 description: Learn how to allow customers to schedule work orders via a customer portal in Dynamics 365 Field Service
 ms.date: 04/21/2021
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shellyha
-ms.custom:
-  - dyn365-fieldservice
 search.app:
   - D365CE
   - D365FS

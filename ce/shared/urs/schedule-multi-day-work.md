@@ -39,14 +39,14 @@ This can be done in the following ways:
 - Not adding any incident types but entering a duration on the related resource requirement after the work order is created and saved.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order](../../field-service/media/scheduling-multi-day-work-order-30.png)
+> ![Screenshot of a work order.](../../field-service/media/scheduling-multi-day-work-order-30.png)
 
 After the work order is saved, a resource requirement is automatically created. Access it by going to **Related** > **Requirement** from the work order section menu. 
 
 If you have not done so, enter a multi-day duration in the **Duration** field, along with **From Date** and **To Date**, which describes the date range the multi-day work should be spread across. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement](../../field-service/media/scheduling-multi-day-requirement-30.png)
+> ![Screenshot of a resource requirement.](../../field-service/media/scheduling-multi-day-requirement-30.png)
 
 The requirement **From Date** and **To Date** will populate with the **Date Window Start** and **Date Window End** work order field values.
 
@@ -67,12 +67,12 @@ A **Create Resource Booking** pane will display on the right where you can confi
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board](../../field-service/media/scheduling-multi-day-work-order-30-schedule-board.png)
+> ![Screenshot of the schedule board.](../../field-service/media/scheduling-multi-day-work-order-30-schedule-board.png)
 
 After selecting **Book**, the system will create multiple bookings across multiple days.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the booking on the schedule board](../../field-service/media/scheduling-multi-day-work-order-30-schedule-board-booked.png)
+> ![Screenshot of the booking on the schedule board.](../../field-service/media/scheduling-multi-day-work-order-30-schedule-board-booked.png)
 
 On the **Days** view of the schedule board, you can more easily see the booking pattern. In our example, we chose **Front Load Hours** as our booking method, so the bookings filled the resource's available time with the leftover duration on the last day. 
 
@@ -80,14 +80,14 @@ On the **Days** view of the schedule board, you can more easily see the booking 
 > Using **Front Load Hours** as the booking method creates multiple bookings *around* the resource's existing schedule in instances where other bookings exist for the scheduled resource.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing bookings](../../field-service/media/scheduling-multi-day-work-order-30-schedule-board-booked-wrapped.png)
+> ![Screenshot of the schedule board showing bookings.](../../field-service/media/scheduling-multi-day-work-order-30-schedule-board-booked-wrapped.png)
 
 
 Dragging and dropping a multi-day requirement on the **Days** view will trigger the **Create Resource Booking** side panel to schedule multi-day bookings like above.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/scheduling-multi-drag-schedule-board.png)
+> ![Screenshot of .](../../field-service/media/scheduling-multi-drag-schedule-board.png)
 
 ## Scenario 2: Schedule a multi-day requirement with the schedule assistant
 
@@ -116,37 +116,37 @@ For **Duration**, enter a multi-day duration. In our example, it's 30 hours.
 **Save**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement](../../field-service/media/scheduling-multi-day-requirement-allocation-method.png)
+> ![Screenshot of a resource requirement.](../../field-service/media/scheduling-multi-day-requirement-allocation-method.png)
 
 Next, enter other requirement details such as skills, roles, resource preferences, and service territory. These will help define the eligible resources.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement](../../field-service/media/scheduling-multi-day-requirement-30-no-work-order.png)
+> ![Screenshot of a resource requirement.](../../field-service/media/scheduling-multi-day-requirement-30-no-work-order.png)
 
 From the newly created requirement, go to **Related** > **Requirement Details**.
 
 Requirement details are automatically created to split up the requirement into time segments and are based on the duration and the allocation method. In our example in the following screenshot, a 30-hour requirement split up between 5 days is 6 hours, or 360 minutes each day.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement details](../../field-service/media/scheduling-multi-day-requirement-30-requirement-details.png)
+> ![Screenshot of a resource requirement details.](../../field-service/media/scheduling-multi-day-requirement-30-requirement-details.png)
 
 The requirement details are based on the requirement's calendar, which you can edit by selecting **Modify Calendar** in the top ribbon of the requirement.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the edit calendar window](../../field-service/media/scheduling-multi-day-requirement-30-modify-calendar.png)
+> ![Screenshot of the edit calendar window.](../../field-service/media/scheduling-multi-day-requirement-30-modify-calendar.png)
 
 Then select **Book** to trigger the schedule assistant for this multi-day requirement.
 
 Resources with availability and that meet the other attributes will show as results. Simply select a resource, the dates, and then **Book**. This will create multiple bookings across the date range according to the pattern of the allocation method.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant showing resource availability](../../field-service/media/scheduling-multi-day-requirement-30-schedule-assistant.png)
+> ![Screenshot of schedule assistant showing resource availability.](../../field-service/media/scheduling-multi-day-requirement-30-schedule-assistant.png)
 
 Once booked, you'll see the resource's availability decrease and the fulfilled duration increase. In our example, 30 hours of duration were fulfilled, 6 of 6 hours booked each day; and the resource's 8 hours of availability was reduced to 2 hours each day.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant showing resources and decreased availability after booking](../../field-service/media/scheduling-multi-day-requirement-30-schedule-assistant-booked.png)
+> ![Screenshot of the schedule assistant showing resources and decreased availability after booking.](../../field-service/media/scheduling-multi-day-requirement-30-schedule-assistant-booked.png)
 
 
 > [!Note]
@@ -158,14 +158,14 @@ Once booked, you'll see the resource's availability decrease and the fulfilled d
 Like scenario 2, you'll first need to manually create a multi-day requirement. The requirement can exist on its own or be related to a work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement](../../field-service/media/scheduling-multi-2-person-requirement.png)
+> ![Screenshot of a resource requirement.](../../field-service/media/scheduling-multi-2-person-requirement.png)
 
 From the newly created requirement, go to **Related** > **Requirement Details** then choose **Specify Pattern** from the top ribbon. 
 
 This allows you to edit and override the requirement details pattern created by the allocation method.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the specify pattern window](../../field-service/media/scheduling-multi-day-requirement-2-resource-specify-pattern2.png)
+> ![Screenshot of the specify pattern window.](../../field-service/media/scheduling-multi-day-requirement-2-resource-specify-pattern2.png)
 
 Select **Book**.
 
@@ -173,17 +173,17 @@ Select a resource and specific days for just that resource, then choose **Book**
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant](../../field-service/media/scheduling-multi-2-person-requirement-book-1.png)
+> ![Screenshot of the schedule assistant.](../../field-service/media/scheduling-multi-2-person-requirement-book-1.png)
 
 Then choose another resource and specific days for only that resource. Then choose **Book** again.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant](../../field-service/media/scheduling-multi-2-person-requirement-book-2.png)
+> ![Screenshot of the schedule assistant.](../../field-service/media/scheduling-multi-2-person-requirement-book-2.png)
 
 Bookings are created for each resource on the days selected. Availability for each scheduled resource is updated as well.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant showing decreased resource capacity after booking](../../field-service/media/scheduling-multi-2-person-requirement-book-final.png)
+> ![Screenshot of the schedule assistant showing decreased resource capacity after booking.](../../field-service/media/scheduling-multi-2-person-requirement-book-final.png)
 
 
 ## Configuration considerations
@@ -191,7 +191,7 @@ Bookings are created for each resource on the days selected. Availability for ea
 - Each requirement has its own calendar that you can view and edit from the **Modify Calendar** option in the top ribbon menu. The calendar is important because it allows you to edit the time zone of the requirement and how the schedule assistant results should be displayed. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the modify calendar window](../../field-service/media/scheduling-multi-day-requirement-30-modify-calendar.png)
+> ![Screenshot of the modify calendar window.](../../field-service/media/scheduling-multi-day-requirement-30-modify-calendar.png)
 
 - The Booking Methods **Full Capacity**, **Percent Capacity**, and **Remaining Capacity** reflect the Bookable Resource's working hours calendar. For example, if the Bookable Resource's working hours calendar is 9:00 AM - 5:00 PM, Monday - Friday, and you select **Full Capacity** as the allocation method, it will assume **Full Capacity** means the total time of the resource's calendar (which can be less than the requirement duration).
 - Availability does not need to be continuous. For example, if a dispatcher needs to schedule a resource for 4 hours one day, that resource will show as available as long as there is 4 total hours of availability, not necessarily in a single block. 

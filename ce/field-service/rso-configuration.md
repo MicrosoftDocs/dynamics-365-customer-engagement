@@ -7,9 +7,8 @@ ms.reviewer: krbjoran
 manager: shellyha
 ms.date: 01/02/2020
 ms.topic: article
-ms.custom: 
-  - dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 search.app: 
   - D365CE
   - D365FS
@@ -36,7 +35,7 @@ Perform these configuration steps after you deploy the Resource Scheduling Optim
      organization to interact with the Bing Maps service that the schedule board
      uses.
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of "Connect to Maps" set as "Yes"](media/c2e5f7299860832f2823f285d0fcd113.png)
+    > ![Screenshot of "Connect to Maps" set as "Yes."](media/c2e5f7299860832f2823f285d0fcd113.png)
 
      > [!NOTE]
      > Only a user with the system administrator role can enable this setting. 
@@ -87,7 +86,7 @@ The settings described here are selected and applied to all optimization scopes.
     and related resource requirement will be configured to optimize
     automatically.
     
-    ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to "Optimize"](media/f0d624969f46a29e897670479a546ef6.png)
+    ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to "Optimize."](media/f0d624969f46a29e897670479a546ef6.png)
 
 3. For existing resource requirement records, update the resource
     requirements scheduling Method. Go to **Resource Scheduling
@@ -106,7 +105,7 @@ The settings described here are selected and applied to all optimization scopes.
 5. Go to **Resource Scheduling Optimization** \> **Settings** \> **Booking
     Statuses** and configure **Scheduling Method** for booking status.
     > [!div class="mx-imgBorder"]
-    > ![Screenshot showing active booking statuses](media/bba178b0bd68c83aee9bb87cb66f19cb.jpg)
+    > ![Screenshot showing active booking statuses.](media/bba178b0bd68c83aee9bb87cb66f19cb.jpg)
 
     > [!NOTE]
     > Any booking status with an empty scheduling method will be treated as Do Not Move.

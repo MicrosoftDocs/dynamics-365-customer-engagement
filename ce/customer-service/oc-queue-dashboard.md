@@ -13,7 +13,7 @@ manager: shujoshi
 The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
  
 > [!div class="mx-imgBorder"]
-> ![Queue dashboard historical analytics](media/queue-historical-analytics.png "Queue historical analytics dashboard")
+> ![Queue dashboard historical analytics.](media/queue-historical-analytics.png "Queue historical analytics dashboard")
 
 You can view the Queue dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Analytics and insights**. On the page that appears, select the **Queue** tab.
 
@@ -27,7 +27,7 @@ By default, the dashboard shows you key performance indicators (KPIs) for the pa
 The following KPIs are displayed in the Queue dashboard.
 
 > [!div class="mx-imgBorder"]
-> ![KPI for queue dashboard](media/queue-KPI.png "Key performance indicators for queue dashboard")
+> ![KPI for queue dashboard.](media/queue-KPI.png "Key performance indicators for queue dashboard")
 
 | KPI | Description |
 | ----------------- | ------------------ |
@@ -42,7 +42,7 @@ The following KPIs are displayed in the Queue dashboard.
 The following charts are displayed in the Queue dashboard.
 
 > [!div class="mx-imgBorder"]
-> ![Queue charts](media/queue-charts.png "Key performance indicator charts for queue dashboard")
+> ![Queue charts.](media/queue-charts.png "Key performance indicator charts for queue dashboard")
 
 | Title | Description |
 | ---------------- | ------------------ |
@@ -53,7 +53,7 @@ The following charts are displayed in the Queue dashboard.
 | Sessions rejected/timed out rate | The number of sessions presented to an agent that weren't accepted. |
 
 > [!div class="mx-imgBorder"]
-> ![Queue summary chart](media/oc-queue-summary.png "Queue summary chart")
+> ![Queue summary chart.](media/oc-queue-summary.png "Queue summary chart")
 
 | Session summary | Description |
 | ---------------- | ---------------- |
@@ -93,7 +93,7 @@ The queue hourly details drill-down view provides more granular insight into the
 To view the drill down, select any single metric value on the desired day, then select **Hourly details**. 
 
 > [!div class="mx-imgBorder"]
-> ![Queue Hourly drill down view](media/queue-hourly-drill-down-view.png "Queue hourly drill down view")
+> ![Queue Hourly drill down view.](media/queue-hourly-drill-down-view.png "Queue hourly drill down view")
 
 
 ### See also

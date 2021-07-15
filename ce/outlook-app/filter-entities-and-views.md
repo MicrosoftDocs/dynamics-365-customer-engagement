@@ -35,21 +35,21 @@ Follow these steps to set which tables and views appear in App for Outlook:
 3. From the list of apps select **Dynamics 365 App for Outlook** and then select **Edit**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select Dynamics 365 App for Outlook and then select edit](media/edit-apps-outlook.png)
+   > ![Select Dynamics 365 App for Outlook and then select edit.](media/edit-apps-outlook.png)
 
 4. In the app designer, **Add** > **Entities** and then select the table you want to add and complete the addition by including all assets.
 
    > [!div class="mx-imgBorder"]
-   > ![Select tables to enabled on the My Apps page](media/AddEntities_2.png "Dynamics 365 apps My Apps page")
+   > ![Select tables to enabled on the My Apps page.](media/AddEntities_2.png "Dynamics 365 apps My Apps page")
 
    > [!div class="mx-imgBorder"]
-   > ![Select table that you want to enable](media/AddEntities_3.png "Dynamics 365 apps My Apps page")
+   > ![Select table that you want to enable.](media/AddEntities_3.png "Dynamics 365 apps My Apps page")
    
 5. Review the list of Views that are available for the table and deselect the ones you don't want to be available in Dynamics 365 App for Outlook. In Dynamics 365 App for Outlook **Regarding** lookup,  you can filter results based on a table and further, on one of the views defined for that table.
 
  
    > [!div class="mx-imgBorder"]
-   > ![Review the list of views](media/ViewEntities_4.png "Dynamics 365 apps My Apps page")
+   > ![Review the list of views.](media/ViewEntities_4.png "Dynamics 365 apps My Apps page")
 
 5.  When you're done, select **Save** and then **Publish**.
 

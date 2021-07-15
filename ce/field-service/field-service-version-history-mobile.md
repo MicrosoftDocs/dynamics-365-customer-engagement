@@ -1,11 +1,10 @@
 ---
 title: "Dynamics 365 Field Service Mobile version history | MicrosoftDocs"
 description: Find a list of important updates for Dynamics 365 Field Service mobile apps.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 12/07/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -356,12 +355,12 @@ Bug Fixes:
 **Field Service Mobile** applies to Field Service 7.5.5+ and 8.2+.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
+> ![Screenshot of Field Service mobile app download example.](media/mobile-field-service-mobile-windows-app-store.png)
 
 **Field Service Mobile (2017)** applies to Field Service 6.1.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile 2017 app download example](media/mobile-field-service-mobile-2017-windows-app-store.png)
+> ![Screenshot of Field Service mobile 2017 app download example.](media/mobile-field-service-mobile-2017-windows-app-store.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,6 +14,7 @@ search.app:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
+  - intro-internal
 monikerRange: '>= dynamics-usd-3'
 ---
 
@@ -39,7 +40,7 @@ The landing page of the performance report displays the following:
 
 - **Individual reports:** See the details of the operations, percentiles, action, and time taken for the different methods in the form a timeline graph and table.
 
-![Performance report user interface](../media/performance-report-interface.PNG "Performance report user interface")
+![Performance report user interface.](../media/performance-report-interface.PNG "Performance report user interface")
 
 > [!div class="nextstepaction"]
 > [Terminologies in the performance report](terminologies-performance-report.md)

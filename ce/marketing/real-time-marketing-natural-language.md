@@ -29,16 +29,16 @@ Natural language input enables you to use common words and phrases to describe a
 
 ## Sample conditions
 
-You can create a segment that will evaluate your Dynamics 365 organizational database for customers that meet a certain criterion. For example, customers with an annual income of $100,000.
+You can create a segment that will evaluate your Dynamics 365 organizational database for customers who meet a certain criterion. For example, customers with an annual income of $100,000.
 
-### Examples of simple conditional phrases using natural language:
+The following are examples of simple conditional phrases using natural language:
 
-#### Search by company
+**Search by company**
 
--	Customers who work at Microsoft (Profile)
--	People that work in a company named Amazon (Profile/Contact)
+- Customers who work at Microsoft (Profile)
+- People who work in a company named Amazon (Profile/Contact)
 
-#### Search by demographic
+**Search by demographic**
 
 -	Female customers (Profile)
 -	Contacts in Seattle (Contacts)
@@ -46,13 +46,13 @@ You can create a segment that will evaluate your Dynamics 365 organizational dat
 -	Contacts with vice president as job title (Contacts)
 -	Customers with vice president as job title (Contacts/Profile)
 	 
-#### Search based on customer preferences
+**Search based on customer preferences**
 
 -	Active contacts (Contacts)
 
-#### Search by segment membership within your organization 
+**Search by segment membership within your organization** 
 
--	Customers that are in Loyalty Segment
+- Customers who are in Loyalty Segment
 
 ## Give us feedback
 

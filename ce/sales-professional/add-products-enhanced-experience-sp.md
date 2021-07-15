@@ -58,7 +58,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 5. In the grid, select **Add products**.
 
-   ![Screenshot showing the enhanced Add products dialog box](media/enhancedAddProductsDialog.png)
+   ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
 
    > [!NOTE]
 

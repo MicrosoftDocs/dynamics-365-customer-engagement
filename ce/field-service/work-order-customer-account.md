@@ -1,11 +1,9 @@
 ---
 title: "Add an account with customer, location, and related details to a work order in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 04/19/2019
+ms.date: 06/25/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -53,13 +51,13 @@ Enter an **Account name** and an **address** along with any other important deta
 Next, select **Geo Code** at the top of the form. If you have set **Auto Geo Code** to **Yes** in Field Service Settings (as noted in the prerequisites), then you can skip this step. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-service-account-create.png)
+> ![Screenshot of .](./media/work-order-service-account-create.png)
 
 Confirm geocoding is successful by the location visualized on the map and values populated in the latitude and longitude fields in the scheduling section. 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of geocoded account](./media/service-account-scheduling-section.png)
+> ![Screenshot of geocoded account.](./media/service-account-scheduling-section.png)
 
 Next, go to the **Field Service** section of the account form and fill in details based on your business needs. Values entered here are passed down to work orders where this account is listed as the service account, but the values can be edited on each work order if needed.
 
@@ -89,20 +87,22 @@ This decides if and how travel by a field technician to this service account sho
 This value serves as a text note and populates the **Instructions** field on all related work orders. This is a good way to ensure field technicians follow processes specific to this account. See an example in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service related values for a specific account](./media/service-account-field-service-section.png)
+> ![Screenshot of Field Service related values for a specific account.](./media/service-account-field-service-section.png)
 
 > [!Note]
 > Updating these values will not update previous work orders, only future work orders.
 
+### Currency
+
+Work order products and work order services will inherit the currency value noted on the work order service accounts and billing accounts. 
 
 ## Create a work order for the service account
 
-Next, go to **Field Service > Work Orders > +New**.
+Next, go to **Field Service** > **Work Orders** > +New**.
 
 Add the account you created as the service account. 
 
-
-Notice the following values are automatically populated:
+The following values are automatically populated:
 
 - **Billing Account**: populated as the billing account specified on the service account record.
 
@@ -114,23 +114,23 @@ Notice the following values are automatically populated:
 - **Primary Contact**: the primary contact of the service account shown on the work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of new work order with the account just created listed as a service account](./media/work-order-service-account.png)
+> ![Screenshot of new work order with the account just created listed as a service account.](./media/work-order-service-account.png)
 
 
 - **Service Territory and Instructions**: represented in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of service territory and instructions](./media/work-order-account-territory-instructions.png)
+> ![Screenshot of service territory and instructions.](./media/work-order-account-territory-instructions.png)
 
 - **Address**: represented in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of address of service account passed down to work order address](./media/work-order-account-address.png)
+> ![Screenshot of address of service account passed down to work order address.](./media/work-order-account-address.png)
 
 - **Location**: this work order location is passed down to the work order requirement and is reflected on the schedule board map. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work order map location](./media/work-order-account-map.png)
+> ![Screenshot of work order map location.](./media/work-order-account-map.png)
 
 **Bonus tip:** You can select and drag the map pin to edit the work order location (latitude and longitude) as needed. This is helpful for scenarios where the address points to an arbitrary location--at a university campus, for example--but the work order must take place at a specific building or location on-site.
 
@@ -144,7 +144,7 @@ When the work order is finished and the system status is changed to **Closed-Pos
 Go to **Field Service > Sales > Invoices** to view the newly generated invoice for the closed work order. Notice the account on the invoice is the billing account on the work order, and the name references the work order number. See the following screenshot for reference.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of invoice for billing account](./media/work-order-invoice.png)
+> ![Screenshot of invoice for billing account.](./media/work-order-invoice.png)
 
 ## Configuration considerations
 
@@ -155,12 +155,12 @@ If the work order's service account (*not* billing account) has a travel charge 
 First, go to **Field Service > Settings > Field Service Settings** and specify a product in the **Travel Charge Item** field. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of travel charge item in field service settings](./media/field-service-settings-travel-charge.png)
+> ![Screenshot of travel charge item in field service settings.](./media/field-service-settings-travel-charge.png)
 
 This is the product that will later show as a work order product.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of travel charge added as a work order product](./media/work-order-service-account-travel-charge-product.png)
+> ![Screenshot of travel charge added as a work order product.](./media/work-order-service-account-travel-charge-product.png)
 
 > [!Note]
 > The travel charge work order product is subject to the same pricing rules as all work order products and services. The unit amount pricing of travel charge work order products is dictated first by the **price list**; if the travel charge product is not part of the price list as a price list item, then the **list price** on the travel charge product will be used. If no list price is entered, the unit amount price will be the value entered in the service account **travel charge**.

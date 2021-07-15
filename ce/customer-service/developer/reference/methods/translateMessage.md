@@ -1,6 +1,6 @@
 ---
 title: "translateMessage (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: "translateMessage method in Omnichannel for Customer Service"
+description: "Includes information about translateMessage method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 10/12/2020
 ms.topic: article
 author: mh-jaya
@@ -25,7 +25,7 @@ This method is required to be implemented in web resource. This method is called
 
 |Name|Type|Description|
 |----|----|----|
-|`translationConfig`|Javascript object| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
+|`translationConfig`|JavaScript object| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
 
 Here is the structure of `translationConfig` parameter.
 
@@ -81,11 +81,11 @@ translationConfig = {
 
 ## Return Value
 
-Returns a promise that resolves to a Javascript object implementing `TranslatedMessageResponse` interface.
+Returns a promise that resolves to a JavaScript object implementing `TranslatedMessageResponse` interface.
 
 **Interface object**
 
-```
+```javascript
 export interface ErrorObject{ 
         isError: boolean; //mandatory field, represents true for error while executing this function else no
         errorCode: ErrorCodes; //mandatory field, represents the type of error based on errorCode
@@ -135,7 +135,7 @@ The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageRe
 3. In case the returned response is invalid or incomplete, an error message on the translation banner will appear in the conversation control.
 4. If this method is not implemented, then the message will not be translated and the following error message will be displayed to the agent.
 
-![translateMessage error message](../../../media/translatemessage-api-error.png "translateMessage error message")
+![translateMessage error message.](../../../media/translatemessage-api-error.png "translateMessage error message")
 
 ### See also
 

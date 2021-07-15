@@ -31,7 +31,7 @@ To ensure consistency in your business process or to know what steps to follow i
 3.  On the command bar, select **Launch playbook**.
 
      > [!div class="mx-imgBorder"]
-     > ![launch playbook button on opportunity record](media/launch-playbook-button-opportunity.png "Launch playbook button on opportunity record")  
+     > ![launch playbook button on opportunity record.](media/launch-playbook-button-opportunity.png "Launch playbook button on opportunity record")  
 
     > [!NOTE]
     > The **Launch playbook** button appears on an entity form only when there’s at least one published playbook template for that entity. If you do not see this button, talk to your playbook manager.

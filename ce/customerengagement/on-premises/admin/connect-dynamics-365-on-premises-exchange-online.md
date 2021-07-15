@@ -3,7 +3,7 @@ title: "Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Onlin
 description: "Configure server-based authentication between Dynamics 365 (on-premises) and Exchange Online."
 ms.custom: ""
 ms.date: "2/20/2020"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,7 +23,7 @@ author: Mattp123
 
 This topic describes how to configure server-based authentication between Dynamics 365 (on-premises) and Exchange Online. The diagram below illustrates the communication between Dynamics 365 (on-premises), Azure Active Directory, and Exchange Online.
 
-![Dynamics 365 (on-premises) and Exchange Online](media/dynamics-365-onprem-exchange-online.png)
+![Dynamics 365 (on-premises) and Exchange Online.](media/dynamics-365-onprem-exchange-online.png)
 
 ## Permissions required
 Microsoft Dynamics 365
@@ -204,7 +204,7 @@ Set server-side synchronization to be the default configuration method.
 
   If you leave the Email processing form unapproved user and queues at the default values (selected), you will need to approve emails and queues for user mailboxes as directed below in Approve Email.
 
-  ![Exchange Server profile](media/system-settings-exchange-profile.png)
+  ![Exchange Server profile.](media/system-settings-exchange-profile.png)
 
 3. Select **OK**.
  
@@ -215,7 +215,7 @@ In addition to administrator permissions, you must have Read and Write privilege
 
 Select one of the following methods:
 
-![Apply default email settings](media/apply-default-email-settings.png)
+![Apply default email settings.](media/apply-default-email-settings.png)
 
 ### Edit mailboxes to set the profile and delivery methods
 

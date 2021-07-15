@@ -22,7 +22,7 @@ Topic clustering is enabled by default when you enable historical analytics. To 
 ## Summary and Model Run Summary views
 
    > [!div class="ms-imgBorder"]
-   > ![Summary and Model Run Summary](media/summary-model-run.png "Summary and Model Run Summary views")
+   > ![Summary and Model Run Summary.](media/summary-model-run.png "Summary and Model Run Summary views")
 
 The Summary and Model Run Summary views provide key information about how the topic model is operating.
 
@@ -41,12 +41,12 @@ The Summary and Model Run Summary views provide key information about how the to
   Data mapping enables you to choose which text field where agents in your organization are most likely to describe the reason why a customer reached out to support. By default, the Case Title attribute is used, but this setting enables you to select and string attribute in the Case entity.
 
  > [!div class="ms-imgBorder"]
-   > ![Data mapping](media/data-mapping-cs.png "Data mapping configuration")
+   > ![Data mapping.](media/data-mapping-cs.png "Data mapping configuration")
 
 ### Improve data quality by cleaning support case data
 
    > [!div class=ms-imgBorder]
-   > ![Clean support case data](media/clean-support-case-data-cs.png "Clean support case data to improve data quality")
+   > ![Clean support case data.](media/clean-support-case-data-cs.png "Clean support case data to improve data quality")
 
 Customer Service Insights uses artificial intelligence technology to give you insights into your customer service data by grouping support cases as topics that are a collection of related cases. This can help you identify areas for improvement that can have the greatest impact on system performance. 
 
@@ -57,7 +57,7 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
 AI discovered topics in Customer Service Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, then the feature can be enabled by selecting the **Enable** toggle and selecting **Save**.
 
 > [!div class=ms-imgBorder]
-   > ![Topic automation for PVA](media/cs-topic-automation.png "Topic automation for PVA")
+   > ![Topic automation for PVA.](media/cs-topic-automation.png "Topic automation for PVA")
 
 > [!NOTE]
 > Topic automation to Power Virtual Agents bot is currently not supported in Government Community Cloud.

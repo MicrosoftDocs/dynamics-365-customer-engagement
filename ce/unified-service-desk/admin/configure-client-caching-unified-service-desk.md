@@ -88,7 +88,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
    2.  In the **Name** field, type **DisableCaching**. Leave the **Value** field empty.  
   
-    ![Disable client caching for a user](../../unified-service-desk/unified-interface/media/usd-disable-client-caching-user.PNG "Disable client caching for a user")    
+    ![Disable client caching for a user.](../../unified-service-desk/unified-interface/media/usd-disable-client-caching-user.PNG "Disable client caching for a user")    
   
 5. Select **Save**.  
   
@@ -139,7 +139,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 4. On the nav bar, select the down arrow next to the **CRM Global Manager** hosted control, and then select **UII Actions**.  
   
-   ![Navigation to UII Actions for hosted control](../../unified-service-desk/media/usd-hosted-contro-uii-action.png "Navigation to UII Actions for hosted control")  
+   ![Navigation to UII Actions for hosted control.](../../unified-service-desk/media/usd-hosted-contro-uii-action.png "Navigation to UII Actions for hosted control")  
   
 5. Select the **CRM Global Manager** hosted control.
   
@@ -148,7 +148,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 6. Select the **Related** tab, and then select **UII Actions**.  
   
-   ![Navigation to UII Actions for hosted control in Related tab](../../unified-service-desk/unified-interface/media/usd-hosted-control-uii-action.png "Navigation to UII Actions for hosted control in Related tab")  
+   ![Navigation to UII Actions for hosted control in Related tab.](../../unified-service-desk/unified-interface/media/usd-hosted-control-uii-action.png "Navigation to UII Actions for hosted control in Related tab")  
   
 7. Select **+ Add New UII Action**.  
   

@@ -1,12 +1,11 @@
 ---
 title: "Configure offline data for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 06/02/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -146,14 +145,13 @@ If data is not downloading, try signing out and signing back in. If offline data
 
 ## Understanding offline vs. online capabilities
 
-Once an offline profile is configured, the mobile app _always_ runs offline-first; both with and without internet connection. This functionality optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection.
-
-When it comes to internet connectivity, the app functions within three scenarios.
+Once an offline profile is configured and user assigned, the mobile app _always_ runs offline-first, both with and without internet connection. This functionality optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection. 
 
 1.	**Online**: Occurs when there is internet but no offline profile is configured. The mobile app functions like using a Dynamics 365 app with internet on your PC. When internet is lost or diminished, the mobile app is unusable. Not recommended.
 2.	**Offline First _without_ internet connection**: Data is downloaded to the device and all changes are saved locally to your mobile device. When internet is restored, the changes are synced to the server.
-1. **Offline First _With_ internet connection**: Data is downloaded to the device and all changes are saved locally; but because there is internet connection, the user can manually sync to receive the latest data from the server like a new booking. The app will also automatically attempt to sync every few minutes. For more information, see [sync filters](#sync-intervals) in this article.
+3. **Offline First _with_ internet connection**: Data is downloaded to the device and all changes are saved locally; but because there is internet connection, the user can manually sync to receive the latest data from the server (like a new booking). The app will also automatically attempt to sync every few minutes. For more information, see [sync filters](#sync-intervals) in this article.
 
+In summary, an offline-first application will always read from the local device database and will only leverage an active internet connection during the synchronization process. This makes it important that your offline profile is configured to sync all data to the device that the frontline worker requires during their working hours.
 
 ## Sync intervals
 

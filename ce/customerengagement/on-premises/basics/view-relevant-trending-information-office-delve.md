@@ -1,10 +1,10 @@
 ---
-title: "View relevant and trending information on a dashboard with Office Delve (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-ms.custom: 
-description: View relevant and trending information on a dashboard with Office Delve.
+title: "Office Graph removal in Dynamics 365 Customer Engagement (on-premises)"
+description: "Office Graph integration for Dynamics 365 Customer Engagement (on-premises) was removed on August 31, 2017." 
+ms.custom:
 ms.date: 09/15/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

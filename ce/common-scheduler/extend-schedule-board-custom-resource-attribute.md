@@ -1,11 +1,10 @@
 ---
 title: "Customize the schedule board with a custom resource attribute in Universal Resource Scheduling| MicrosoftDocs"
 description: Learn how to customize the schedule board with a custom resource attribute in Universal Resource Scheduling
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 03/29/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
