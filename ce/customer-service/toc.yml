@@ -227,7 +227,7 @@
       - name: Allow updates for resolved and canceled cases
         href: update-resolved-canceled-cases.md
       - name: Modify case resolution dialog box
-        href: customer-service-hub-user-guide-modify-case-resolution-dialog.md
+        href: modify-case-resolution-dialog.md
   - name: Automatically create or update records
     items: 
     - name: Automatically create or update records in Customer Service Hub
