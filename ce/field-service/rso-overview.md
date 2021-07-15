@@ -6,9 +6,8 @@ ms.reviewer: krbjoran
 manager: shellyha
 ms.date: 01/02/2020
 ms.topic: overview
-ms.custom: 
-  - dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.author: daclar
 search.app: 
   - D365CE

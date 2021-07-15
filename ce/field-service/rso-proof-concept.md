@@ -1,10 +1,9 @@
 ---
 title: "Setting up a proof of concept for resource scheduling optimization in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to set up a proof of concept for resource scheduling optimization in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 07/24/2019
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"

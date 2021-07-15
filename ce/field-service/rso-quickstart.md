@@ -1,11 +1,10 @@
 ---
 title: "Quickstart for resource scheduling optimization | MicrosoftDocs"
 description: Learn how to get up and running quickly with resource scheduling optimization
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 08/22/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

@@ -124,8 +124,6 @@
           href: queues-omnichannel.md
         - name: Create queues in Omnichannel Administration
           href: Create-queues-oca.md
-        - name: Create and manage basic queues
-          href: set-up-queues-manage-activities-cases.md
       - name: Configure work classification
         items:
         - name: Configure work classification rulesets for unified routing
@@ -1191,11 +1189,15 @@
       - name: Methods
         items: 
         - name: getConversationID
-          href: developer/reference/methods/getConversationId.md
+          href: developer/reference/methods/getConversationId.md        
         - name: linkToConversation
           href: developer/reference/methods/linkToConversation.md
         - name: unlinkFromConversation
           href: developer/reference/methods/unlinkFromConversation.md
+        - name: getConversations
+          href: developer/reference/methods/getConversations.md
+        - name: openConversation
+          href: developer/reference/methods/openConversation.md  
     - name: runMacro
       href: developer/reference/methods/runMacro.md
     - name: Action Reference
