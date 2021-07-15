@@ -19,7 +19,7 @@ Integrate a Power Virtual Agents bot to assist in knowledge management by perfor
 
 ## Create and publish knowledge articles
 
-Set up your portal with the Power Apps portals feature before integrating knowledge management with the Power Virtual Agents bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+Set up your portal with the Power Apps portals feature before integrating knowledge management with the Power Virtual Agents bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). For more information on setting up your Power Apps portal, see : [Power Apps portal documentation](/powerapps/maker/portals/).
 
 You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
@@ -31,35 +31,32 @@ The system fallback topic can help agents present answers to customers when the 
 
 2. Select **New bot**. More information: [Create and delete bots](/power-virtual-agents/authoring-first-bot)
 
-   Select **Topics** to see the knowledge articles and topics that are provided by the bot.
+3. Select **Topics** to see the knowledge articles and topics that are provided by the bot.
 
-3. Select **Settings** > **System Fallback**.
+4. Select **Settings** > **System Fallback**.
 
-4. Select **Add**.
+5. Select **Add**.
 
-5. After the topic is added, select **Go to Fallback topic** to author the topic.
+6. After the topic is added, select **Go to Fallback topic** to author the topic.
 
-6. On the authoring canvas, delete the **Escalate** item by selecting **Options.**
+7. On the authoring canvas, delete the **Escalate** item by selecting **Options.**
 
     > [!div class="mx-imgBorder"]
     > ![Author a fallback topic.](media/escalate-fallback-KM-PVA.png "Author a fallback topic")
 
-7. Select the connector flowing to the message box, and then select **Call an action** > **Create a flow**.
+8. Select the connector flowing to the message box, and then select **Call an action** > **Create a flow**.
 
     > [!div class="mx-imgBorder"]
     > ![Create a flow to call an action.](media/create-a-flow-KM-PVA.png "Create a flow to call an action")
 
 The Power Automate application opens on a new tab, where you'll configure the template settings.
 
-## Use a Power Automate template to add the solution to the flow
+## Use the Power Automate template to add the solution to the flow
 
 Use the Power Automate template that you created to connect to the knowledge base by performing the following steps:
 
-1. On the Power Automate page, select **Templates**.
+1. On the Power Automate page, select **Templates**. On the pop-up window that appears, select **Leave** and exit the current browser page.
  
-    > [!NOTE]
-    > In the pop-up window that appears, select **Leave** and exit the current browser page.
-
 2. On the templates page, search for the **Generate answers from Dataverse knowledge articles to Power Virtual Agent** template. 
 
     > [!div class="mx-imgBorder"]
