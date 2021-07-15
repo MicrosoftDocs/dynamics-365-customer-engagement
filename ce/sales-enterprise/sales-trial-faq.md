@@ -62,6 +62,7 @@ Your trial includes a simplified Sales Trial app with a few important capabiliti
 To get started with the Sales Enterprise functionalities, see [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 
 **Dynamics 365 Sales Insights**
+
 - Sell smartly using Sales accelerator that builds a strong and prioritized pipeline, offers context, and surfaces automated recommendations
 - Improve seller coaching and sales potential with conversation intelligence
 - Get the AI-powered assistant to stay on top of your activities – do we need ‘your’ in other bullets we are not using it
