@@ -207,11 +207,11 @@ Campaign distribution is based on the members in the marketing list. The member 
 Review the detailed reason for the failure in the **Excluded members** grid, and take any necessary action.  
 
 <a name="campaign-activity-tab-not-available"></a>
-## The Campaign Activity tab isn't available in account, contact, and lead forms in Unified Interface
+## The Campaign tab isn't available in account, contact, and lead forms in Unified Interface
 
 **Reason**
 
-As there's no direct relationship between the campaign table and Account, Contact, or Lead tables, the **Campaign Activities** tab isn't available. 
+As there's no direct relationship between the campaign table and Account, Contact, or Lead, the Campaign tab isn't available in the form. The only way to view the Campaign list is through a distributed Campaign Activity because a distributed Campaign Activity is the true indication of any target entity is used in a campaign.
 
 **Resolution**
 
@@ -222,8 +222,8 @@ To resolve the issue, add the campaign activities tab to the form. Follow these 
 
 1. Go to **Advanced Settings** > **Settings** > **Customizations** > **Customize the System**.   
 2. From **Components**, select **Entities** > **Account** > **Forms**.    
-3. Select the **Account** from the list.   
-4. On the **Account** form page, select the **Insert** tab and then select **One column**.   
+3. Open the form for which you want to add the sub grid.   
+4. On the form page, select the **Insert** tab and then select **One column**.   
     A new column is added as a **Tab**.   
 5. Select the **Tab** and then select **Change Properties**. The **Tab Properties** dialog opens.   
 6. Enter the values for **Name** and **Label** as **Campaign Activities**, and then select **OK**. The tab is then renamed as **Campaign Activities**.   
