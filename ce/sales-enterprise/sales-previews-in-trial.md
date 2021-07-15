@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 # Preview features in trial 
 
-Your trial app includes a few preview features that are enabled by default.
+This page lists the upcoming preview features that will be enabled by default in your trial app. Review the information in this page to understand what's coming up..
 
 > [!IMPORTANT]
 > A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.  
