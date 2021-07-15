@@ -1,12 +1,10 @@
 ---
 title: "User guide for Dynamics 365 Field Service | Microsoft Docs"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
-ms.custom:
-  - dyn365-fieldservice
 ms.date: 02/11/2021
 ms.reviewer: krbjoran
 ms.topic: overview
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
