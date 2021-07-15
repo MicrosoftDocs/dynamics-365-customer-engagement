@@ -281,8 +281,6 @@ This action is used to unlink a record from the conversation when the customer i
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
 
-> [!NOTE]
-> Macro actions for the flow connector can't be used in Customer Service workspace.
 
    > [!div class=mx-imgBorder]
    > ![Macro actions for flow connector.](../customer-service/media/macro-flow-connector.png "Macro actions for flow connector")
