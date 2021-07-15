@@ -4,6 +4,7 @@ description: Learn all about the schedule assistant in Dynamics 365 Field Servic
 ms.date: 06/18/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
+ms.custom: intro-internal
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"

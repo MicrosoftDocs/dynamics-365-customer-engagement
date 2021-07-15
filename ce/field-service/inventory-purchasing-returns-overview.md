@@ -5,6 +5,7 @@ ms.date: 01/09/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: overview
+ms.custom: intro-internal
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

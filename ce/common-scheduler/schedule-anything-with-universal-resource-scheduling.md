@@ -6,6 +6,7 @@ ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.subservice: common-scheduler
 ms.topic: overview
+ms.custom: intro-internal
 author: krbjoran
 ms.author: krbjoran
 manager: shellyha
