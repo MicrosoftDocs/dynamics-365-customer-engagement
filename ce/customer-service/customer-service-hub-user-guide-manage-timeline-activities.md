@@ -1,6 +1,6 @@
 ---
 title: Manage activities from the timeline in Customer Service Hub | Microsoft Docs
-description: Understand Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
+description: This topic provides information on how to manage customer interactions and communications from the timeline in Customer Service Hub for Dynamics 365 Customer Service.
 ms.date: 11/27/2019
 ms.topic: article
 author: neeranelli

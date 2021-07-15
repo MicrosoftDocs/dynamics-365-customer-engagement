@@ -52,7 +52,7 @@ To access and understand the ZoomInfo data, follow these steps:
     > ![ZoomInfo home page with account details](media/zoominfo-account-details-home-page.png "ZoomInfo home page with account details")
 
  
-To understand more about each component of the ZoomInfo home page, see [Knowledge Center of ZoomInfo for Sales](https://university.zoominfo.com/pages/knowledge-center-zoominfo-for-sales-platform-features).
+To understand more about each component of the ZoomInfo home page, see [Dynamics Native Application](https://university.zoominfo.com/learn/article/implementation-guide-dynamics-native-application).
 
 ### See also
 

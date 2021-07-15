@@ -170,6 +170,8 @@
         href: organize-daily-work.md
       - name: Manage customer information
         href: manage-customer-information.md
+      - name: Continue the conversation with Microsoft Teams webinar participants
+        href: teams-journey.md
       - name: Sales and marketing collaboration with Dynamics 365
         href: sales-marketing-integration.md
       - name: Import data
@@ -414,6 +416,10 @@
         href: event-management-dashboard.md
       - name: Set up a Microsoft Teams webinar
         href: teams-webinar.md
+      - name: How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing
+        href: teams-how-to-follow-up.md
+      - name: Customize your Teams webinar participant follow-up
+        href: teams-webinar-follow-up.md
       - name: Set up a webinar
         href: set-up-webinar.md
       - name: Manage event sponsorships

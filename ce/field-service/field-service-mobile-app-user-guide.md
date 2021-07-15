@@ -1,11 +1,10 @@
 ---
 title: "Field Service Mobile setup (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to install and set up Field Service Mobile.
-ms.custom:
-  - dyn365-fieldservice
 ms.date: 11/11/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar

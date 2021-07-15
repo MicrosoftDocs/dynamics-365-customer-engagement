@@ -1,6 +1,6 @@
 ---
 title: Extend transformer logic on templates (Dynamics 365 Customer Service) | MicrosoftDocs
-description: 
+description: This topic provides information on how customers can overwrite transformer logic in Dynamics 365 Customer Service.
 ms.date: 08/01/2019
 ms.topic: article
 author: mh-jaya
