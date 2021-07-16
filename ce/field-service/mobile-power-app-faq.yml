@@ -128,6 +128,17 @@ sections:
           If you see something like the previous screenshot, you're viewing the booking form, and *not* the combined booking and work order form.
           
           To solve this issue, make sure the user you're signed into the mobile app as has the **Field Service - Resource** security role. Also make sure that the right form (the mobile optimized booking and work order form) is associated with the booking entity in the app designer.
+      - question: |
+          How can I enable multiline text fields on forms to automatically expand based on the amount of content entered?
+        answer: |
+          To enable auto-expanding fields:
+          1. Enter the form designer interface for the entity that contains the multiline text field you want to auto-expand.
+          2. Select the desired multiline text field.
+          3. Within field properties, select the option "Automatically expand to use available space."
+          4. Save and publish.
+          
+          Note: At this time, you can only have one multiline text field *per tab* set to autoexpand. 
+  
   - name: Other
     questions:       
       - question: Can I connect Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
