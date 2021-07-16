@@ -1,7 +1,7 @@
 ---
 title: "Modify case resolution dialog box in Customer Service Hub | MicrosoftDocs"
 description: "Learn to customize the case resolution dialog box in Customer Service Hub to expand the case entity and case resolution entities to support varied business needs."
-ms.date: 06/30/2021
+ms.date: 07/16/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -15,9 +15,9 @@ searchScope:
 - Customer Service
 ---
 
-# Modify case resolution dialog box
+# Modify the case resolution dialog
 
-As an administrator, you can customize the case resolution dialog box. By customizing the case resolution form, your organization can cater the case resolution process to suit your business needs. You can modify the case resolution dialog box to add fields like resolution type or remove fields like billable time, if they don't apply to your business scenarios. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
+As an administrator, you can customize the case resolution dialog box. By modifying the case resolution form, your organization can cater the case resolution process to suit your business needs. You can modify the case resolution dialog box to add fields like **Resolution type** or remove fields like **Billable time**, if they don't apply to your business scenarios. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
 
 > [!Note]
 > The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. 
@@ -33,20 +33,20 @@ Make sure that the Customer Service Manager and Customer Service Representative 
 > [!Note]
 > If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
 
-## Enable customizable dialog
+## Enable customizable dialogs
 
-You must enable the Customizable dialog option to ensure that the changes you make are reflected on the Resolve Case dialog, when you select the Resolve case button.
+You must enable the Customizable dialog option to ensure that the changes you make are reflected on the Resolve case dialog, when you select the Resolve case button.
 
 > [!Note]
-> **Standard dialog** is the default option.
+> **Standard dialog** is the default option which you can change with the following procedure.
 
-To enable customizable dialog:  
+**To enable customizable dialogs**  
 
 1. In Customer Service Hub, go to **Service Management**.
 
-2. In the site map, under **Service Terms**, select **Service Configuration Settings**.
+2. In the site map under **Service Terms**, select **Service Configuration Settings**.
 
-3. In the **Resolve case dialog** option, and select **Customizable dialog** from the dropdown list.
+3. In the **Resolve case dialog** section, select **Customizable dialog** from the dropdown list.
 
 4. Select **Save**. The Customizable dialog option is now enabled, and any changes you make to your form are now displayed at runtime. 
 
@@ -58,7 +58,7 @@ After you enable the Customizable dialog option, you can create status values in
 - **Case Resolution entity** (**resolutiontypecode** in our example)
 
 > [!Important]
-> If you change the value in the **Case entity**, be sure to update the value in the **Case Resolution entity** so they match. An error may be thrown if these options don't match. If the values don't match in the customizable dialog, the option that you specified won't show up.
+> If you change the value in the **Case entity**, be sure to update the value in the **Case Resolution entity** so they match. If the values don't match, an error might be thrown. If the values don't match in the customizable dialog, the option that you specified won't show up.
 
 <!-- content appears redundant
 ## Customize Case entity and Case Resolution entity
@@ -85,39 +85,39 @@ To go to the **Customization** page:
 -->
 ### Update case entity
 
-You can use case resolution to resolve situations where you receive duplicate cases. As an example, let's see how to set the resolution type to display cases that have duplicate status.  
+You can use case resolution to resolve situations where you receive duplicate cases. As an example, let's see how to set the resolution type to display cases with duplicate status.  
 
-To set the case entity for duplicate case:
+**To set the case entity for duplicate cases**
 
 1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
-Alternatively, if you are using the Power Apps/Power Platform, 
+   If you're using the Power Apps/Power Platform, 
 
 2. In the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
 
 3. On the page that appears, select the field you want to update. For this example, let's select **statuscode** in the **Name** column. 
 
-4. Double-click the **statuscode** field. The **General** tab of **Status Reason of Case** is displayed.
+4. Double-click to select the **statuscode** field. The **General** tab of **Status Reason of Case** is displayed.
 
-5. In the **Status** dropdown list in the **Type** section, select a status. For this example, let's select **Resolved** and then select **Add**. 
+5. In the **Status** dropdown list in the **Type** section, select a status. For this example, let's select **Resolved** and then select **Add**. 
     The **Add List Value** dialog box is displayed. 
 
 6. In the **Label** field, enter **Duplicate** and note down the value listed in the **Value** field.  
 
 7. Select **OK**. You've successfully added a duplicate status to the case entity&mdash;**statuscode**.  
 
-### Update case resolution entity
+### Update the case resolution entity
 
 After you've added the duplicate status to the case entity, add the same to the case resolution entity.
 
-To update the case resolution entity for the changed value of case entity:
+**To update the case resolution entity for the changed value of the case entity**
 
 1. In the Solution Explorer, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
 
-2. On the page that appears, select the field you want to update. For this example, let's select **resolutiontypecode** in the **Name** column.
+2. On the page that appears, select the field that you want to update. For this example, let's select **resolutiontypecode** in the **Name** column.
 
-3. Double-click the **resolutiontypecode** field. The **General** tab of **Resolution Type of Case Resolution** is displayed.
+3. Double-click to select the **resolutiontypecode** field. The **General** tab of **Resolution Type of Case Resolution** is displayed.
 
-4. In the **Options** section, select the plus icon to automatically populate the **Label** and **Value** fields.
+4. In the **Options** section, select the plus sign to automatically populate the **Label** and **Value** fields.
 
 5. In the **Label** field, enter a value name. For this example, enter **Duplicate**.
    Check whether the value listed for this field matches the value in the case entity.  
@@ -126,43 +126,34 @@ To update the case resolution entity for the changed value of case entity:
 
 ## Modify case resolution form
 
-1. In the **Solution Explorer**, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
+1. In the solution explorer, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
 
 2. Open the form you want to edit. For this example, let's select the **Information** form.
     The form opens in the form designer.
 
-3. On the form designer, do the following: 
+3. In the form designer, do the following:
     1. Select **Billable Time**.
 
-    2. On the command bar, select **Remove**. The **Billable Time** field is removed.
+    2. On the command bar, select **Remove** to remove the field.
 
-4. Select **Save** and then select **Publish**.
-    Now, when the customer service reps try to resolve a case, the case resolution dialog box does not display the removed field.
+4. Select **Save**, and then select **Publish**.
+    Now, when the customer service reps try to resolve a case, the case resolution dialog box won't display the field you removed.
 
 5. In the **Resolution Type** dropdown list, select **Duplicate**.
-    You'll know if a case has been successfully resolved per the status bar at the top of the form.
+    You'll know if a case has been successfully resolved by checking the status bar at the top of the form.
 
 ### See also
 
-[Work with cases](customer-service-hub-user-guide-create-a-case.md) 
-
-[Create a case](customer-service-hub-user-guide-create-a-case.md)
-
-[Merge cases](customer-service-hub-user-guide-merge-cases.md)
-
-[Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
-
-[Create and manage parent and child cases](customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)
-
-[Case queues and routing](customer-service-hub-user-guide-case-queues-and-routing.md)
-
-[Convert case to knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
-
-[Case SLAs](customer-service-hub-user-guide-case-sla.md)
-
-[Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)
-
-[Use the main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
+[Work with cases](customer-service-hub-user-guide-create-a-case.md)  
+[Create a case](customer-service-hub-user-guide-create-a-case.md)  
+[Merge cases](customer-service-hub-user-guide-merge-cases.md)  
+[Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)  
+[Create and manage parent and child cases](customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)  
+[Case queues and routing](customer-service-hub-user-guide-case-queues-and-routing.md)  
+[Convert case to knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)  
+[Case SLAs](customer-service-hub-user-guide-case-sla.md)  
+[Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)  
+[Use the main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
