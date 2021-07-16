@@ -1,6 +1,6 @@
 ---
 title: "Modify case resolution dialog in Customer Service Hub | MicrosoftDocs"
-description: "Learn to customize the case resolution dialog in Customer Service Hub to expand the case entity and case resolution entities to support varied business needs."
+description: "Learn to customize the case resolution dialog in Customer Service Hub to support varied business needs."
 ms.date: 07/16/2021
 ms.topic: article
 author: mh-jaya
