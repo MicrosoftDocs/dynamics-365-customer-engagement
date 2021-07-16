@@ -1,6 +1,6 @@
 ---
-title: "Modify case resolution dialog box in Customer Service Hub | MicrosoftDocs"
-description: "Learn to customize the case resolution dialog box in Customer Service Hub to expand the case entity and case resolution entities to support varied business needs."
+title: "Modify case resolution dialog in Customer Service Hub | MicrosoftDocs"
+description: "Learn to customize the case resolution dialog in Customer Service Hub to expand the case entity and case resolution entities to support varied business needs."
 ms.date: 07/16/2021
 ms.topic: article
 author: mh-jaya
@@ -17,10 +17,10 @@ searchScope:
 
 # Modify the case resolution dialog
 
-As an administrator, you can customize the case resolution dialog box. By modifying the case resolution form, your organization can cater the case resolution process to suit your business needs. You can modify the case resolution dialog box to add fields like **Resolution type** or remove fields like **Billable time**, if they don't apply to your business scenarios. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
+As an administrator, you can customize the case resolution dialog so that your organization can cater the case resolution process to suit your business needs. You can modify the case resolution dialog to add fields like **Resolution type** or remove fields like **Billable Time**, if they don't apply to your business scenarios. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
 
 > [!Note]
-> The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. 
+> The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1.
 > More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
 
 ## Check permissions
@@ -28,7 +28,7 @@ As an administrator, you can customize the case resolution dialog box. By modify
 Make sure that the Customer Service Manager and Customer Service Representative security roles have the following permissions set for **Environment Variable Definition**:
 
 - **Customer Service Manager**: Create, Read, and Write
-- **Customer Service Representative**: Read 
+- **Customer Service Representative**: Read
 
 > [!Note]
 > If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
@@ -40,7 +40,7 @@ You must enable the Customizable dialog option to ensure that the changes you ma
 > [!Note]
 > **Standard dialog** is the default option which you can change with the following procedure.
 
-**To enable customizable dialogs**  
+**To enable customizable dialogs**
 
 1. In Customer Service Hub, go to **Service Management**.
 
@@ -48,7 +48,7 @@ You must enable the Customizable dialog option to ensure that the changes you ma
 
 3. In the **Resolve case dialog** section, select **Customizable dialog** from the dropdown list.
 
-4. Select **Save**. The Customizable dialog option is now enabled, and any changes you make to your form are now displayed at runtime. 
+4. Select **Save**. The Customizable dialog option is now enabled, and any changes you make to your form are now displayed at runtime.
 
 ## Create and add custom status values
 
@@ -90,16 +90,16 @@ You can use case resolution to resolve situations where you receive duplicate ca
 **To set the case entity for duplicate cases**
 
 1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
-   If you're using the Power Apps/Power Platform, 
+   If you're using the Power Apps/Power Platform,
 
 2. In the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
 
-3. On the page that appears, select the field you want to update. For this example, let's select **statuscode** in the **Name** column. 
+3. On the page that appears, select the field you want to update. For this example, let's select **statuscode** in the **Name** column.
 
 4. Double-click to select the **statuscode** field. The **General** tab of **Status Reason of Case** is displayed.
 
-5. In the **Status** dropdown list in the **Type** section, select a status. For this example, let's select **Resolved** and then select **Add**. 
-    The **Add List Value** dialog box is displayed. 
+5. In the **Status** dropdown list in the **Type** section, select a status. For this example, let's select **Resolved** and then select **Add**.
+    The **Add List Value** dialog box is displayed.
 
 6. In the **Label** field, enter **Duplicate** and note down the value listed in the **Value** field.  
 
@@ -111,7 +111,7 @@ After you've added the duplicate status to the case entity, add the same to the 
 
 **To update the case resolution entity for the changed value of the case entity**
 
-1. In the Solution Explorer, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
+1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
 
 2. On the page that appears, select the field that you want to update. For this example, let's select **resolutiontypecode** in the **Name** column.
 
@@ -126,7 +126,7 @@ After you've added the duplicate status to the case entity, add the same to the 
 
 ## Modify case resolution form
 
-1. In the solution explorer, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
+1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
 
 2. Open the form you want to edit. For this example, let's select the **Information** form.
     The form opens in the form designer.
