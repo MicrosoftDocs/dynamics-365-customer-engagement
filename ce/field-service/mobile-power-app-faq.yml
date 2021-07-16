@@ -136,6 +136,8 @@ sections:
           2. Select the desired multiline text field.
           3. Witin field Properties, select option "Automatically expand to use available space".
           4. Save and Publish.
+          
+          Note: At this time you can only have one multiline text field **per tab** set to auto-expand. 
   
   - name: Other
     questions:       
