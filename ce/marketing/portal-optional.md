@@ -89,13 +89,13 @@ To remove portal integration from an existing Marketing instance:
 1. [Launch the Marketing setup wizard](re-run-setup.md) for the instance you want to modify. You should be able to see that the **Use Dynamics 365 Portals or a Power Apps portal** option is currently selected.
 
     > [!div class="mx-imgBorder"]
-    > ![Setup wizard for an existing instance with portal integration](media/fre-re-run3.png)
+    > ![Setup wizard for an existing instance with portal integration.](media/fre-re-run3.png)
 
 1. From the **Other actions** panel, choose **Configure your portal**.
 
 1. The portal admin site opens. Select **Portal actions** from the side navigator.
 
-    ![Select Portal Actions](media/portal-reset.png "Select Portal Actions")
+    ![Select Portal Actions.](media/portal-reset.png "Select Portal Actions")
 
 1. Select **Reset portal** and follow the instructions on your screen to reset the portal. More information: [Reset a portal](/powerapps/maker/portals/admin/reset-portal).
 
@@ -119,16 +119,16 @@ To add a portal to an existing Marketing installation that doesn't have one:
 1. [Launch the Marketing setup wizard](re-run-setup.md) for the instance  you want to modify. You should be able to see that the **Use your own webserver** option is currently selected.
 
     > [!div class="mx-imgBorder"]
-    > ![Setup wizard for an existing instance without portal integration](media/fre-add-portal-1-2.png)
+    > ![Setup wizard for an existing instance without portal integration.](media/fre-add-portal-1-2.png)
 
 1. Select **Use Dynamics 365 Portals or a Power Apps portal**. The **Portal setup** dialog opens and shows some information about what to expect.
 
-    ![Portal setup notice](media/fre-add-portal-2.png "Portal setup notice")
+    ![Portal setup notice.](media/fre-add-portal-2.png "Portal setup notice")
 
 1. Select **OK** to continue. You go back to the setup wizard, which now shows the **Use Dynamics 365 Portals or a Power Apps portal** option selected.
 
     > [!div class="mx-imgBorder"]
-    > ![Setup wizard with the portals option selected](media/fre-add-portal-3-2.png)
+    > ![Setup wizard with the portals option selected.](media/fre-add-portal-3-2.png)
 
 1. In the field now provided under the **Use Dynamics 365 Portals or a Power Apps portal** option, enter a prefix for your portal URL in the field provided. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name.
 

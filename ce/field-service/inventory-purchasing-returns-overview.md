@@ -1,12 +1,11 @@
 ---
 title: "Overview of inventory, purchasing, and returns in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 01/09/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: overview
+ms.custom: intro-internal
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -51,14 +50,14 @@ A warehouse in Field Service is any company location that holds inventory. This 
 - Loading docks
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a warehouse in Field Service](./media/inventory-warehouse.png)
+> ![Screenshot of a warehouse in Field Service.](./media/inventory-warehouse.png)
 
 
 Inventory at each warehouse is updated based on used work order products, purchase orders, returns, adjustments, and transfers. This is recorded in the related **Product Inventory** entity.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of product inventory](./media/inventory-product-inventory.png)
+> ![Screenshot of product inventory.](./media/inventory-product-inventory.png)
 
 For each product at the warehouse, the system tracks:
 
@@ -69,7 +68,7 @@ For each product at the warehouse, the system tracks:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a new product inventory](./media/inventory-warehouse-product-inventory.png)
+> ![Screenshot of a new product inventory.](./media/inventory-warehouse-product-inventory.png)
 
 ## Inventory adjustments and transfers
 
@@ -77,12 +76,12 @@ For each product at the warehouse, the system tracks:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an inventory adjustment](./media/inventory-adjustment.png)
+> ![Screenshot of an inventory adjustment.](./media/inventory-adjustment.png)
 
 **Inventory Transfers** is a feature that lets you transfer inventory from a source warehouse to a destination warehouse. The most common example of this is transferring inventory from a warehouse to a technician’s truck.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an inventory transfer](./media/inventory-transfer.png)
+> ![Screenshot of an inventory transfer.](./media/inventory-transfer.png)
 
 
 You can also enable adjustments and transfers on the Field Service Mobile app to allow technicians to meet in the field and record an inventory transfer from one truck to another, for example.
@@ -139,7 +138,7 @@ All inventory transactions are recorded in the **Inventory Journals** entity, wh
 Most importantly, inventory journals are sometimes used to integrate Field Service inventory transactions into external ERP systems, depending on how the integration is architected. To make integrations easier and more flexible, [inventory journals can be manually created](./manual-inventory-journals.md). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of advanced find in Dynamics 365](./media/work-order-product-inv-journals.png)
+> ![Screenshot of advanced find in Dynamics 365.](./media/work-order-product-inv-journals.png)
 
 ## Configuration considerations
 - Adding the **Inventory Purchase** security role to a user's existing security role (dispatcher or resource) will give them access to create and edit inventory-related entities such as warehouse, purchase orders, and RMAs.

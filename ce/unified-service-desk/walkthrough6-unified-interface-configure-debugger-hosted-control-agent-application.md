@@ -155,7 +155,7 @@ search.app:
 
  Your agent application will now have a **DEBUGGER** button in the toolbar area. Selecting this button displays the Debugger control.  
 
- ![Debugger in your agent application](../unified-service-desk/media/usd-debugger-agent-application.png "Debugger in your agent application")  
+ ![Debugger in your agent application.](../unified-service-desk/media/usd-debugger-agent-application.png "Debugger in your agent application")  
 
 <a name="conclusion"></a>  
 ## Conclusion 

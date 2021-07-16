@@ -13,6 +13,13 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+searchScope:
+- D365-App-customerservice
+- D365-Entity-incident
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 # Use advanced similarity rules to view similar case suggestions
 
@@ -64,7 +71,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
     - Select **Save** to save the rule.
   
 
-      ![Similar case configuration](media/similar-case-config.PNG "Similar case configuration")
+      ![Similar case configuration.](media/similar-case-config.PNG "Similar case configuration")
 
   1. In the **Match Fields** tab:
 
@@ -79,7 +86,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
        | Field (required) | Choose the  field to be used to create a text search rule to find matching target records. <br /><br /> Two types of fields are used for similarity analysis:<br /><br /> **Structured fields**:  Used for exact match on a field to field basis. All fields except Multiple Lines of Text are available for exact match. Each field can be used only once.<br /><br /> **Text fields**: Only fields of type Text or Option Set are available. For Option Set, the  corresponding label in the language of the user is used. Text fields are used for fuzzy match in similarity analysis with keywords/key phrase extraction. Each field can be used only once. |
        |||
 
-       ![Similar case rule](media/similar-case-rule.PNG "Similar case rule")
+       ![Similar case rule.](media/similar-case-rule.PNG "Similar case rule")
 
 5. Select **Save** to save the rule.
 
@@ -116,19 +123,19 @@ See the below table to understand how search results are impacted when Relevance
 
 5. Double-click **Quick Find </entity name>** for the entity. (Note: You might need to scroll down to find this option.)
   
-   ![Views page](media/quick-find-view.png "Select Views") 
+   ![Views page.](media/quick-find-view.png "Select Views") 
    
    A view page is displayed.
   
 6. On the right-hand side, select **Add Find Columns**.
    
-   ![Add Find Columns](media/add-find-columns.png "Select Add Find Columns")
+   ![Add Find Columns.](media/add-find-columns.png "Select Add Find Columns")
   
    The **Add Find Columns** page is displayed.
    
 7. Select the checkbox for the entity you want to be an exact match field.
 
-   ![Exact match options](media/select-entities-view.png "Select the checkbox for the entity you want to be an exact match")
+   ![Exact match options.](media/select-entities-view.png "Select the checkbox for the entity you want to be an exact match")
 
 8. Select **OK**
 
@@ -157,7 +164,7 @@ You can view the similar case suggestions in the Related section of the Customer
   
 2. Select the **Similar Cases** in the **Related** section to view cases similar to the current case.  
   
-   ![View similar cases](media/view-similar-cases.png)
+   ![View similar cases.](media/view-similar-cases.png)
 
  > [!NOTE]
  >

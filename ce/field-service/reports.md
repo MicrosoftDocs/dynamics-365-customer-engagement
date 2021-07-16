@@ -1,11 +1,9 @@
 ---
 title: Reports in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to use work order summary reports in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -30,6 +28,10 @@ Reports in Dynamics 365 Field Service can help you get a birds-eye understanding
 - Whether or not you are meeting customer expectations around travel time or other needs
 - How an individual technician performs on all key metrics
 - Insights around specific territories, from work order volume to travel time and more
+
+## Prerequisites
+
+- This feature is only available in non-trial instances of Field Service.
 
 ## Reports overview
 

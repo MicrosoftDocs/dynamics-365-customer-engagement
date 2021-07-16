@@ -34,23 +34,23 @@ You can set up the customization of knowledge article search filters by first en
 
 1. Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
 2. Under the **Knowledge Base Management** section, select **Settings**.
-3. On the **Settings** page, scroll down to **Knowledge articles search filters**, and then set **Enable custom filters** to **Yes**.
+3. On the **Settings** page, scroll down to **Knowledge articles search filters**, and then set **Enable search filters** to **Yes**.
 
    In order for agents to be able to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, the **Allow agents to personalize the knowledge articles search filters** option also must be set to **Yes**.
    
     > [!div class=mx-imgBorder]
-    > ![Enable search filters](media/enable-search-filters.png "Enable search filters.")
+    > ![Enable search filters.](media/enable-search-filters.png "Enable search filters.")
 
 4. Select **Save**.
 5. In the left pane, under the **Knowledge Base Management** section, select **Filters**. The **Filters** page is displayed.
 6. Select the filters you want to make available for knowledge search. 
 7. To set predetermined values that will appear for agents by default, select the ellipsis in the top-right corner of a filter area, and then select **Preselects**.
     > [!div class=mx-imgBorder]
-    > ![Select filter preselects](media/select-filter-preselects.png "Select filter preselects.")
+    > ![Select filter preselects.](media/select-filter-preselects.png "Select filter preselects.")
 8. To make a filter value available by default, toggle the preset next to the filter to the right so that **Preselected** appears next to the filter name.
    Values that are set as preselected automatically participate in the filtering without requiring the agent to manually select them. Only values made visible can be preselected.
     > [!div class=mx-imgBorder]
-    > ![Toggle filter to show as Preselected](media/set-filter-preselects.png "Toggle filter to show as Preselected.")
+    > ![Toggle filter to show as Preselected.](media/set-filter-preselects.png "Toggle filter to show as Preselected.")
    
 9. Select **Done**.
 10. If you want to set the filters which must be shown to the agent, select the ellipsis in the top-right corner of a filter area, and then select **Visibility**.
@@ -71,7 +71,7 @@ The following steps apply to these data types:
 2. Scroll to the bottom of the page, choose the filter type you want from the drop-down menu, and then select **Add**. The filter is added to the page.
 
     > [!div class=mx-imgBorder]
-    > ![Add a default filter](media/default-filter-config.png "Add a default filter.")
+    > ![Add a default filter.](media/default-filter-config.png "Add a default filter.")
     
 3. Customize the filter according to your needs by selecting or deselecting the values displayed and then toggling the **Set as a preselected filter** option if you want the filter to be shown to the agent by default.
 4. Select **Save**.
@@ -87,7 +87,7 @@ To configure a lookup type filter:
    A **Lookup Records** field is displayed on the right-hand side of the page.
    
    > [!div class=mx-imgBorder]
-   > ![Lookup Records field](media/lookup-records.png "Lookup Records field.")
+   > ![Lookup Records field.](media/lookup-records.png "Lookup Records field.")
 
 3. To find the values you want, either enter the value details in the field or select the magnifying glass icon to list available records.
 4. Select the records you want in the results, and then select **Add**.

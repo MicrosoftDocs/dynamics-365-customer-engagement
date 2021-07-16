@@ -1,9 +1,12 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
+ms.date: 07/12/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.topic: article
+ms.custom: intro-internal
 ---
 
 # Create workstreams for unified routing
@@ -17,7 +20,7 @@ The workstream can belong to multiple channels of the same type, like multiple c
 The workstream can be one of the following types:
 
 - **Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
-- **Record**: To route entity records.
+- **Record**: To route records, such as case, email, and activity.
 
 
 > [!IMPORTANT]
@@ -40,12 +43,12 @@ Perform the following steps:
     - **Type**: Select one of the following types:
       - **Messaging**: To configure the workstream for chat and other conversation channels.
       - **Record**: To configure the workstream for entity record, such as case and email activity.
-    - **Channel**: This box appears if you have selected the type as Messaging. Select a channel from the list.
-    - **Record**: This box appears if you have selected the type as Record. Select the entity record from the list. More information: [Set up record routing](set-up-record-routing.md).
+    - **Channel**: This box appears if you have selected the type as **Messaging**. Select a channel from the list.
+    - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md).
 
 3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
-    > ![Set up a channel](media/set-up-chat.png "Set up a channel")
+    > ![Set up a channel.](media/set-up-chat.png "Set up a channel")
 4. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
    - [Configure a Facebook channel](configure-facebook-channel.md)

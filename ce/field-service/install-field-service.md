@@ -1,8 +1,7 @@
 ---
 title: "Install Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to install Dynamics 365 Field Service.
-ms.custom: dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 ms.date: 10/13/2020
 ms.reviewer: krbjoran
@@ -42,7 +41,7 @@ If the installation is complete, the "Field Service" and "Field Service Mobile" 
 ```https://[your-environment-name].crm.dynamics.com/apps```
    
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service apps](media/admin-apps.png)
+> ![Screenshot of Field Service apps.](media/admin-apps.png)
  
 
 ## Step 2: Install and set up the Dynamics 365 Field Service mobile app

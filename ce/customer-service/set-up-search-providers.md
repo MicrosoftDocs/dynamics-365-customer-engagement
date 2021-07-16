@@ -14,20 +14,21 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 ---
 
 # Set up a search provider in Customer Service Hub
 
 Knowledge management plays a vital role in enabling organizations to deliver world-class customer care. Allowing the agents to create rich, high-quality knowledge resources and showing the right knowledge content across engagement modalities (including self service, assisted service, and onsite service), expedites issue resolution and drives customer and agent satisfaction and productivity.
 
-The ability to create, import, and share knowledge bases is a core capability of successful support delivery. With knowledge management, agents and supervisors can author knowledge articles from templates, add knowledge search providers from multiple sources (SharePoint, Microsoft Search, and other Dynamics 365 organizations), and receive AI-triggered knowledge suggestions while helping customers to accelerate support delivery.  
+The ability to create, import, and share knowledge bases is a core capability of successful support delivery. With knowledge management, agents and supervisors can author knowledge articles from templates, add knowledge search providers from multiple sources (SharePoint, Microsoft Search, and other Dynamics 365 organizations), and receive AI-triggered knowledge suggestions while helping customers to accelerate support delivery.
 
 You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization.
 
-There are three types of search providers you can set up: 
+You can set up the following search providers:
 
 > [!NOTE]
-> Use of the search provider feature is not currently supported in the US Department of Defense cloud.<br></br> The SharePoint and the Microsoft Graph connector integrations described below are currently in preview and are subject to change.
+> Use of the search provider feature is not currently supported in the US Department of Defense cloud.<br></br> The SharePoint and the Microsoft Graph connector integrations are currently in preview and are subject to change.
 
   -	**Cross-Organizational Search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. 
   -	**Sharepoint** (Preview): This option requires you to enter the SharePoint URL. 
@@ -46,12 +47,12 @@ To set up a search provider, do the following:
 1.	Open the **Customer Service Hub** app and select **Change area > Service Management**.
 
     > [!div class=mx-imgBorder]
-    > ![Select service management](media/ka-select-service-management.png "Select service management")
+    > ![Select service management.](media/ka-select-service-management.png "Select service management")
 
 2.	Under the **Knowledge Base Management** section, select **Search providers**, and then select **New**.
 
     > [!div class=mx-imgBorder]
-    > ![Select search providers](media/select-search-providers.png "Select search providers")
+    > ![Select search providers.](media/select-search-providers.png "Select search providers")
     
     The **New Search provider** page is displayed.
 
@@ -62,7 +63,7 @@ To set up a search provider, do the following:
 5. Under **Details**, from the drop-down menu, select the type of search provider you want to use and the organization.
 
     > [!div class=mx-imgBorder]
-    > ![Select the search provider type and organization](media/search-provider-details.png "Select the search provider type and organization")
+    > ![Select the search provider type and organization.](media/search-provider-details.png "Select the search provider type and organization")
 
 6. When you are finished, select **Save** in the lower-right corner.
 
@@ -71,7 +72,7 @@ To set up a search provider, do the following:
 After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org. Search results display the first three articles for each search provider. Agents can select **Show more** to view additional results.
 
    > [!div class=mx-imgBorder]
-   > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
+   > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
    
 For more information about the agent search experience, see [Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md).
 

@@ -29,7 +29,7 @@ One way that can help you increase your sales is to add all products that your c
   
 ## Create a quote from an opportunity (Sales Hub)
 
-1. Select the site map  ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
+1. Select the site map  ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
 
 2. Select the opportunity you want to create a quote for.
 
@@ -53,7 +53,7 @@ One way that can help you increase your sales is to add all products that your c
 
 ## Create a quote (Sales Hub)
 
-1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Quotes**.
+1. Select the site map ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Quotes**.
 
 2. Select **+ New**.
 

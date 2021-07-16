@@ -15,6 +15,13 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+searchScope:
+- D365-App-customerservice
+- D365-Entity-queueitem
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # Create and manage basic queues
@@ -94,7 +101,7 @@ Follow the steps given below to create or edit a queue:
 
 6. Select **Save**.
 
-   ![queues in Customer Service hub](media/queues-csh.png)
+   ![queues in Customer Service hub.](media/queues-csh.png)
 
 ## Create a queue in Customer Service app
 

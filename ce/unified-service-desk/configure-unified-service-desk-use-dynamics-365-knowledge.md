@@ -84,14 +84,14 @@ entitytypename=incident
 ## Configure the pop-in and pop-out feature for knowledge base articles  
  You can configure to display a knowledge base article in a tab when you click the article title in the KB search panel. You can further use the `FloatingPanel` in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to pop out a knowledge base article from the main panel so that users can display the article on another monitor in a multi-monitor environment. To implement the pop-out feature for a knowledge base article, use the `MoveToPanel` action on the hosted control that displays the article in the main panel tab, and set the data parameter as `FloatingPanel`. This moves the hosted control that displays the article from `MainPanel` to `FloatingPanel`. You can call this action from a toolbar button on the hosted control.  
   
- ![Action call for configuring the pop&#45;out feature](../unified-service-desk/media/usd-action-call-pop-out.png "Action call for configuring the pop-out feature")  
+ ![Action call for configuring the pop&#45;out feature.](../unified-service-desk/media/usd-action-call-pop-out.png "Action call for configuring the pop-out feature")  
   
 > [!NOTE]
 >  In these examples, the name of the hosted control that displays the article is `KB Article`. You must use the appropriate hosted control name as per your configuration.
 
  To configure the pop-in feature, again use the `MoveToPanel` action, but set the data parameter to `MainPanel`. This moves the hosted control that displays the article from `FloatingPanel` to `MainPanel`.
 
- ![Action call for the pop&#45;in feature](../unified-service-desk/media/usd-action-call-pop-in.png "Action call for the pop-in feature")
+ ![Action call for the pop&#45;in feature.](../unified-service-desk/media/usd-action-call-pop-in.png "Action call for the pop-in feature")
 
  You can call this action from a toolbar button on the hosted control. However, you must configure the pop-in toolbar button to be visible only when the hosted control is in `FloatingPanel`. You can do so by specifying the following condition in the **Visible Condition** field of the pop-in toolbar button definition.
 

@@ -22,7 +22,7 @@ You create or edit an existing hosted control using the Unified Service Desk Adm
   
 2. Select **Hosted Controls** under **Basic Settings**. The page displays available hosted controls.  
   
-   ![Hosted controls list in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-hostedcontrollist.png "Hosted controls list in Unified Service Desk")  
+   ![Hosted controls list in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-hostedcontrollist.png "Hosted controls list in Unified Service Desk")  
   
 3. On the hosted control page:  
   
@@ -32,7 +32,7 @@ You create or edit an existing hosted control using the Unified Service Desk Adm
   
 4. Depending on what you selected, a new hosted control page or the existing hosted control page is displayed.  
   
-   ![New hosted control in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-newhostedcontrol.PNG "New hosted control in Unified Service Desk")  
+   ![New hosted control in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-newhostedcontrol.PNG "New hosted control in Unified Service Desk")  
   
 5. Under the **General** area, specify or change a name, sort order, and display name for the hosted control. Note that fields marked with a red asterisk are required.  
   

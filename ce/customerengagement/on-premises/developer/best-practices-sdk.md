@@ -4,7 +4,7 @@ description: "This topic describes best practices for developing with Dynamics 3
 ms.custom: 
 ms.date: 07/24/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

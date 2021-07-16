@@ -3,7 +3,7 @@ title: "Onboard your organization and users  | MicrosoftDocs"
 description: "Step-by-step guidance whether you’re still evaluating Customer Engagement apps, ready to make a purchase, or ready to onboard your organization and users."
 ms.custom:
 ms.date: 10/01/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 author: jimholtz
 ms.author: jimholtz

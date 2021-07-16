@@ -1,15 +1,13 @@
 ---
 title: "Create custom plug-in to use your preferred geospatial data provider | MicrosoftDocs"
 description: "Provides information on how to create a custom plug-in to use geospatial data provider other than the default Bing Maps in Dynamics 365 Field Service and Dynamics 365 Project Service Automation."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-customerservice
 ms.date: 01/29/2018
 searchScope: 
   - Field Service
   - Project Service
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: conceptual
 author: FieldServiceDave
 ms.author: daclar
@@ -34,7 +32,7 @@ There are two ways in which you can view the input and output parameters for the
  
     To view an action definition, select **Settings** > **Processes**. Next, search for the action name: **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**, and then select the action in the grid to display its definition. For example, here is the definition of the **Resource Scheduling - Geocode Address** (**msdyn_GeocodeAddress**) action where the highlighted area provides information about the input and output parameters:
 
-    ![Action definition](../media/FS-ActionDefinition.png)
+    ![Action definition.](../media/FS-ActionDefinition.png)
 
 ## Write your custom plug-in
 

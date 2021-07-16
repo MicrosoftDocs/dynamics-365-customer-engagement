@@ -1,12 +1,11 @@
 ---
 title: "Set up Omnichannel for Customer Service channels in Customer Service workspace | MicrosoftDocs"
 description: "Learn how to configure Omnichannel for Customer Service channels in Customer Service workspace"
-ms.date: 11/10/2020
-ms.service: "dynamics-365-customerservice"
-ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.date: 11/10/2020
+ms.topic: article
 ---
 
 # Set up Omnichannel for Customer Service channels in Customer Service workspace

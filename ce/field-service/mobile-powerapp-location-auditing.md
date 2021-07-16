@@ -1,13 +1,11 @@
 ---
 title: "Location auditing for the Dynamics 365 Field Service mobile app | MicrosoftDocs"
 description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 01/07/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -47,7 +45,7 @@ In Field Service, go to **Geolocation Settings**.
 
 1. Set **Enable Location Tracking**  to *Yes*.
 2. Enter a **Refresh Interval (seconds)** - indicates how frequently the system checks the user’s location; however, it doesn’t indicate that “Geolocation Tracking” records will be created. 60 to 300 seconds is recommended based on your business needs.
-3. Configure tracking times to meet your business needs. In the screenshot example, we have it configured so that tracking happens 24 hours a day, every day.
+3. Configure tracking times to meet your business needs. In the screenshot example, we have it configured so that tracking happens 24 hours a day, every weekday.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service, showing the geolocation settings.](./media/mobile-location-geolocation-settings.png)
@@ -83,7 +81,7 @@ Back in Dynamics 365 Field Service, the bookable resource's current location app
 By using the **Geolocation Tracking** record type and advanced find in Field Service, you can query to run audits on technician locations.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of advanced find in Field Service](./media/mobile-location-geolocation-tracking-entity-advance-find.png)
+> ![Screenshot of advanced find in Field Service.](./media/mobile-location-geolocation-tracking-entity-advance-find.png)
 
 Here you see a list of locations throughout the day, listed by user.
 
@@ -99,7 +97,7 @@ Here you see a list of locations throughout the day, listed by user.
 > Dispatchers can use current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. See more details in the topic on [Advanced filters for the schedule assistant](schedule-assistant-advanced-filters.md).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of real time mode schedule assistant setting](./media/mobile-geofence-real-time-location-filter.png)
+> ![Screenshot of real time mode schedule assistant setting.](./media/mobile-geofence-real-time-location-filter.png)
 
 ### See also
 

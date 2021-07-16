@@ -1,13 +1,11 @@
 ---
 title: "Add a custom app module to the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to make a custom app module for the Field Service (Dynamics 365) mobile app.
-ms.custom:
-- dyn365-fieldservice
 ms.date: 05/21/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -72,7 +70,7 @@ To make the app module available to the Field Service mobile app:
 
     2.  If you haven't yet created the app module, you can start the creation process by selecting **New**.
 
-![Power Apps showing the model-driven apps, highlighting the new and add existing options](media/image5.png)
+![Power Apps showing the model-driven apps, highlighting the new and add existing options.](media/image5.png)
 
 3.  Once the app is added to the solution, **Save and Close**, which will add your app module to the solution you created.
 

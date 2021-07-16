@@ -1,10 +1,9 @@
 ---
 title: "Setting up a proof of concept for resource scheduling optimization in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to set up a proof of concept for resource scheduling optimization in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 07/24/2019
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"
@@ -103,24 +102,24 @@ Account information is helpful when dealing with work orders, since **Service Ac
 Addresses should be geocoded on import. To make sure this happens, go to **Resource Scheduling Optimization** > **Resource Scheduling Parameters**. Make sure that **Connect to Maps** is set to **Yes** and there is a valid **Map API Key**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the connect to maps and map api key settings](./media/rso-poc-address1.png) 
+> ![Screenshot of the connect to maps and map api key settings.](./media/rso-poc-address1.png) 
 
 On that same screen, go to the **Resource Scheduling Optimization** tab, and set **Enable Resource Scheduling Optimization** to **Yes**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the enable resource scheduling setting set to yes](./media/rso-poc-address2.png) 
+> ![Screenshot of the enable resource scheduling setting set to yes.](./media/rso-poc-address2.png) 
 
 Addresses will then be automatically geocoded. If you're working with a small amount of address data, you can geocode them manually as well.
 
 If you don't wish to rely on geocoding, you can also import longitude and latitude directly to the account by adding those values in the imported Excel doc. However, manually added latitude and longitude are typically less accurate than the geocoded results.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the latitude and longitude fields on an account](./media/rso-poc-address4.png) 
+> ![Screenshot of the latitude and longitude fields on an account.](./media/rso-poc-address4.png) 
 
 Territories can then be assigned to the account, and will default to the work orders as imported.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the territories on an account record](./media/rso-poc-address5.png) 
+> ![Screenshot of the territories on an account record.](./media/rso-poc-address5.png) 
 
 
 ### Territories
@@ -139,17 +138,17 @@ Include a subset of actual resource data for the purposes of this POC. Working w
 Be sure to set the proper time zone on the resource. This will inform the required work hours. If multiple time zones are needed for the POC, be sure that you have schedule board views set up with the proper time zone filters, or you may misread the outputs. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the bookable resource record with time zone highlighted](./media/rso-poc-resource1.png) 
+> ![Screenshot of the bookable resource record with time zone highlighted.](./media/rso-poc-resource1.png) 
 
 Resources can start or end their day from an **Organization Unit** if it has been set up with a latitude and longitude. This represents starting or ending from an office or warehouse; however, this is fixed for a user and not adjustable for different days of the week.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the bookable resource record with organizational unit highlighted](./media/rso-poc-resource2.png) 
+> ![Screenshot of the bookable resource record with organizational unit highlighted.](./media/rso-poc-resource2.png) 
 
 On the bookable resource record, go to the **Resource Scheduling Optimization** tab and set the **Optimize Schedule** to **Yes**. This can be done on import, or manually afterwards.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Optimize Schedule setting set to yes on the resource record](./media/rso-poc-resource3.png) 
+> ![Screenshot of the Optimize Schedule setting set to yes on the resource record.](./media/rso-poc-resource3.png) 
 
 ### Start and end locations
 
@@ -159,13 +158,13 @@ Start and end locations are maintained on the resource record. The latitudes and
 Resource territory records must be created for each resource so that resource scheduling optimization will include the resources in any optimization run. Resource scheduling optimization will be more efficient if you can use multiple territories to filter the data to smaller subsets. You can run multiple resource scheduling optimization schedules at the same time for separate data sets and territory is a great way to do that. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a highlighted resource territory field on a resource record](./media/rso-poc-territory1.png) 
+> ![Screenshot of a highlighted resource territory field on a resource record.](./media/rso-poc-territory1.png) 
 
 ### Characteristics (Skills) 
 While not required for a POC, skills and characteristics can be used as additional filter criteria, as well as in the goals and objectives setups. You can set constraints to **Meet Required Characteristics**, which will add additional dimensions to resource scheduling optimization results. However, we recommend keeping a POC to a manageable number of skills and characteristics.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a characterstic record with type set to skill](./media/rso-poc-skillscharacteristics.png) 
+> ![Screenshot of a characterstic record with type set to skill.](./media/rso-poc-skillscharacteristics.png) 
 
 ### Work hours 
 
@@ -174,12 +173,12 @@ Work hours are required for resource scheduling optimization to consider a resou
 You can set work hours for the specific day of the week by checking off the days that the resource will not be working. You can also select **Vary by day** or set work hours.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a weekly schedule window with work hour fields highlighted](./media/rso-poc-workhours1.png) 
+> ![Screenshot of a weekly schedule window with work hour fields highlighted.](./media/rso-poc-workhours1.png) 
  
 If you select the **Vary by day** setting, work hours for the first day will replicate for the remaining days. Make sure to review, make the proper adjustments, and save. If you return to set work hours again, the settings will default to the original. 
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a weekly schedule window with vary by day set to yes](./media/rso-poc-workhours2.png) 
+> ![Screenshot of a weekly schedule window with vary by day set to yes.](./media/rso-poc-workhours2.png) 
 
 When setting up work hours, you may also set a fixed break time, which resource scheduling optimization will honor during optimizations.  Set the duration for the break, and include a start and end time to represent the scheduling window resource scheduling optimization should use to fit the break into the optimized schedule.
 
@@ -187,7 +186,7 @@ When setting up work hours, you may also set a fixed break time, which resource 
 > If you require floating breaks or breaks based on other business logic, you'll need to build a custom schedulable entity for breaks.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Set Work Hours and Service Restrictions window with the break fields highlighted](./media/rso-poc-workhours3.png) 
+> ![Screenshot of a Set Work Hours and Service Restrictions window with the break fields highlighted.](./media/rso-poc-workhours3.png) 
 
 
 ### Priorities
@@ -195,12 +194,12 @@ When setting up work hours, you may also set a fixed break time, which resource 
 Priorities provide additional dimensions to a resource scheduling optimization run. Using high priority requirements as a constraint will provide control over those more urgent requirements. If the data provided doesn’t include levels of priority, you should develop a prioritization logic. For example, perhaps requirements where the scheduling window is small are a higher priority than those with wider scheduling windows. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a priority record with the level of importance set to 10](./media/rso-poc-priorities1.png) 
+> ![Screenshot of a priority record with the level of importance set to 10.](./media/rso-poc-priorities1.png) 
 
 You can define priority codes as high, medium, or low and then set a ranking value (1-10). Resource scheduling optimization uses this numerical range to address priorities while optimizing. We recommended that you assign color coding to priorities, which will then be reflected on the schedule board as a colorful corner on the scheduled work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order on the schedule board, with a bright yellow corner to signify priority](./media/rso-poc-priorities2.png) 
+> ![Screenshot of a work order on the schedule board, with a bright yellow corner to signify priority.](./media/rso-poc-priorities2.png) 
 
 Using or excluding priority as a constraint will produce different optimized schedules. Review both to see which best meets the success criteria.
 
@@ -212,12 +211,12 @@ Field service POCs are typically set up to receive a bulk-load of data that repr
 Importing work orders will automatically create related requirements that the resource scheduling optimization will then automatically schedule. On import or afterwards, you must set the **Scheduling Method** field on the requirement to **Optimize**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement record with the scheduling method set to optimize](./media/rso-poc-workhours4.png) 
+> ![Screenshot of a resource requirement record with the scheduling method set to optimize.](./media/rso-poc-workhours4.png) 
 
 > [!Note]
 > Work Order requirements Scheduling Method field can be set to Optimize by default in the work order Booking Setup Metadata in **Resource Scheduling app > Settings > Administration > Enable Resource Scheduling for Entities**.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-rso-poc-work-order-booking-setup-metadata.png)
+> ![Screenshot of .](./media/scheduling-rso-poc-work-order-booking-setup-metadata.png)
 
 
 ### Time off
@@ -295,14 +294,14 @@ Let's take a look at some constraints and objectives.
 Resource scheduling optimization includes the ability to run simulations or "What If" scenarios. In an optimization schedule, Set **Run as Simulation** to **Yes** and when the schedule runs, it will create soft bookings with a Booking status of **Simulations - RSO**. These will show on the schedule board as a white booking. They can then be turned into hard bookings should a simulation meet specific requirements and it is deemed the best option. The simulations should be deleted if they don't meet expectations. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an optimization schedule with Run as Simulation highlighted](./media/rso-poc-simulations.png) 
+> ![Screenshot of an optimization schedule with Run as Simulation highlighted.](./media/rso-poc-simulations.png) 
 
 ### Schedule board optimization, selected resources
 
 From the schedule board, you can open the detail pane and select **Optimize**. Here you select to reoptimize one or more resources. This allows for the reoptimization of a single person, should they be assigned a disruptor that takes them some distance from the previously defined route. By optimizing a single resource, resource scheduling optimization can run more quickly and be more focused. You can also select a default goal, which allows for even more control over the schedule. Be sure to include this in your POC planning as it addresses several real-world problems dispatchers face daily.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a schedule details pane, on the Optimization tab, showing the optimization settings available](./media/rso-poc-scheduleboard.png) 
+> ![Screenshot of a schedule details pane, on the Optimization tab, showing the optimization settings available.](./media/rso-poc-scheduleboard.png) 
 
 
 ## Presenting results

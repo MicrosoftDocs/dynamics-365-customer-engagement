@@ -109,11 +109,11 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
        Here’s how:  
 
-       ![Automatic case creation conditions](../customer-service/media/crm-ua-case-creation-condition.png "Automatic case creation conditions")  
+       ![Automatic case creation conditions.](../customer-service/media/crm-ua-case-creation-condition.png "Automatic case creation conditions")  
 
    3. In the **Case Properties** section, set the properties for the case. The following example shows how to set the priority of all the automatically created cases to **High**:  
 
-      ![Properties settings for a new case](../customer-service/media/crm-ua-case-creation-properties.png "Properties settings for a new case")  
+      ![Properties settings for a new case.](../customer-service/media/crm-ua-case-creation-properties.png "Properties settings for a new case")  
 
       Once a case is created, the incoming email is removed from the queue.  
 

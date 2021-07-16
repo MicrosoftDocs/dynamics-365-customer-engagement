@@ -6,9 +6,9 @@ ms.reviewer: krbjoran
 manager: shellyha
 ms.date: 01/02/2020
 ms.topic: overview
-ms.custom: 
-  - dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
+ms.custom: intro-internal
 ms.author: daclar
 search.app: 
   - D365CE
@@ -23,7 +23,7 @@ Resource scheduling optimization is a more advanced form of scheduling for field
 
 
  > [!div class="mx-imgBorder"]
-  > ![Screenshot of resource scheduling optimization and the schedule board](media/rso-optimized-schedule-board-routes.png)
+  > ![Screenshot of resource scheduling optimization and the schedule board.](media/rso-optimized-schedule-board-routes.png)
 
   
 
@@ -73,7 +73,7 @@ Resource scheduling optimization is configurable based on your business needs an
 - **Goal**: Defines what the aim of a resource scheduling optimization run will be. What is most important for your company: minimizing travel time, maximizing utilization, handling high priority jobs, scheduling jobs as soon as possible? These are all goals that you will need to rank because sometimes there are trade-offs.
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board and booking requirements](media/8cce1b1462b960eecac5012ad1a2d685.png)
+> ![Screenshot of the schedule board and booking requirements.](media/8cce1b1462b960eecac5012ad1a2d685.png)
  
 ## System requirements
 
@@ -107,7 +107,7 @@ Resource scheduling optimization _optimizes_ schedules in addition to automatica
 In the following screenshot is an optimized schedule board. In the left pane, you'll see a map view of the optimized bookings. 
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of an optimized schedule board](media/rso-optimized-schedule-board-routes-with-annotation.png)
+  > ![Screenshot of an optimized schedule board.](media/rso-optimized-schedule-board-routes-with-annotation.png)
 
   One way you can see resource scheduling optimization working effectively is the travel routes are clustered around each resource's starting location where each color represents a different technician's route. When dispatchers manually schedule jobs without using resource scheduling optimization, the travel routes are often spread across the map zigzagging in different directions.
 
@@ -118,7 +118,7 @@ In the previous image, you can see some bookings are scheduled back-to-back with
 Every time resource scheduling optimization runs, it keeps track of the total travel time compared to working time in a graph as seen in the image below. This helps you understand how resource scheduling optimization will reduce the total travel time across all of your field technicians compared to manual or semi-automated scheduling (schedule assistant).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of active optimization request bookings](media/rso-working-vs-travel-time.png)
+> ![Screenshot of active optimization request bookings.](media/rso-working-vs-travel-time.png)
 
 ## Get started
 - [Get resource scheduling optimization](rso-get-install.md)

@@ -4,7 +4,7 @@ description: Learn how to create system dashboards
 ms.custom: 
 ms.date: 06/12/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

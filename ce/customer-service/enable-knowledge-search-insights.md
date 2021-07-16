@@ -27,7 +27,7 @@ To enable the Knowledge search analytics dashboard:
 3. Go to **Insights** and select **Settings**. The **Insights settings** page is displayed.
 
     > [!div class=ms-imgBorder]
-    > ![Enable knowledge search analytics](media/cs-enable-analyticsinsights.png "Enable knowledge search analytics")
+    > ![Enable knowledge search analytics.](media/cs-enable-analyticsinsights.png "Enable knowledge search analytics")
 
 4. Navigate to **Knowledge search** and select **Manage**.
 

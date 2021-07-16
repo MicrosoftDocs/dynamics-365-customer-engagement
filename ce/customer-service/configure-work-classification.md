@@ -6,21 +6,29 @@ ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+searchScope:
+- D365-App-customerservice
+- D365-Entity-queueitem
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 # Configure work classification rulesets for unified routing
+
+With the CSR Manager or Omnichannel administrator role, perform the tasks listed in this section to configure the work classification rules for the workstream that you created.
 
 You will perform the tasks listed in this topic in the Omnichannel admin center or Customer Service Hub app.
 
 In unified routing, work classification lets you define classification rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
 
-With the CSR Manager or Omnichannel administrator role, perform the tasks listed in this section to configure the work classification rules for the workstream that you created.
 
 > [!IMPORTANT]
 > You can create 10 rulesets per workstream, and for each ruleset, you can create up to 100 rule items.
 
 ## Create work classification rulesets
 
-The rules in a ruleset will be evaluated when a work item enters the queue.
+Routing rules are written as rulesets that consist of rule items.
 
 To create a manual work classification ruleset, do the following:
 
@@ -30,11 +38,11 @@ To create a manual work classification ruleset, do the following:
 4. In the **Conditions** area, define the conditions according to your business needs.
 5. In the **Output** area, select the attribute for which value needs to be set if the conditions are met.
 
-   ![Define rule conditions for demand rule](media/ur-demand-rule.png "Define rule conditions for demand rule")
+   ![Define rule conditions for demand rule.](media/ur-demand-rule.png "Define rule conditions for demand rule")
 
 6. Repeat steps 3 through 5 to create the demand rules.
  
-   ![Decision list for manual ruleset](media/ur-decision-list-manual.png "Decision list for manual ruleset")
+   ![Decision list for manual ruleset.](media/ur-decision-list-manual.png "Decision list for manual ruleset")
 
 ## Create manual skill classification rulesets
 
@@ -59,28 +67,29 @@ Do the following to configure a machine learning-based ruleset:
 3. In the **Create work classification ruleset** dialog box, select **Rule Type** as **Machine learning model**, and enter a name and description.
 4. Select a model in the **Select skill identification model** list, and select **Create**.
 
-   ![Machine learning skill ruleset](media/ur-ml-skill-ruleset.png "Machine learning skill ruleset")
+   ![Machine learning skill ruleset.](media/ur-ml-skill-ruleset.png "Machine learning skill ruleset")
 
 5. On the page that appears, in the **Input attributes** area, select **Add attribute**, and select the attributes from the **Attributes** or **Related Entities** category. For an incoming work item, these attribute values will be concatenated and sent to the machine learning model for skill prediction.
 
     > [!NOTE]
     > Skill is the default selection for output attributes and can't be edited or deleted.
 
-    ![Machine learning rule type](media/ur-ml-rule-type.png "Machine learning rule type")
+    ![Machine learning rule type.](media/ur-ml-rule-type.png "Machine learning rule type")
 
 ## Configure route to queues rulesets and rules
 
 1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** beside **Route to queues**, and then select **Create Rule** in **Decision list**.
 2. In the **Create route to queue rule** dialog box, enter a name in **Rule Name**.
 3. In **Conditions**, define the set of conditions.
-4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
+4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met. 
+   > [!NOTE]
+   > Make sure that you don't select the **Default messaging queue** or **Default entity queue** in the list.
 
-   ![Configure route to queue decision rules](media/ur-route-to-queue-decision.png "Configure route to queue decision rules")
+   ![Configure route to queue decision rules.](media/ur-route-to-queue-decision.png "Configure route to queue decision rules")
 
 5. Repeat steps 2 through 4 to define the rules to cater to your business needs.
 
-> [!NOTE] 
-> You can reorder the rules in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
+6. Optionally, after you create the required rules, you can reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
 
 ### See also
 

@@ -4,7 +4,7 @@ description: "Learn how to edit system entity messages"
 ms.custom: 
 ms.date: 11/03/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -188,7 +188,7 @@ If the source type for the rule is set to Social Activity, specify the condition
    > Dataverse determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
 
 ## Set record creation details
-In the **Specify Record Creation and Update Details** section, select ![Add a record button](../customer-service/media/crm-ua-add-record.gif "Add a record button") to define the conditions for creating or updating a record and specify the properties of the record.  
+In the **Specify Record Creation and Update Details** section, select ![Add a record button.](../customer-service/media/crm-ua-add-record.gif "Add a record button") to define the conditions for creating or updating a record and specify the properties of the record.  
 
 1.  In the **Name** box, enter a meaningful name for the rule item.  
 
@@ -196,16 +196,16 @@ In the **Specify Record Creation and Update Details** section, select ![Add a re
 
     For example, to create a record from a social post (social activity) with a sentiment value of less than 3, an influence score greater than 60, and hashtags containing SilverCreditCard, you can add the following conditions:  
 
-    ![Add conditions for record creation or update rule](../customer-service/media/crm-ua-record-creation-rule-item-conditions.png "Add conditions for record creation or update rule")  
+    ![Add conditions for record creation or update rule.](../customer-service/media/crm-ua-record-creation-rule-item-conditions.png "Add conditions for record creation or update rule")  
 
     > [!NOTE]
     > You can also use channel properties in your conditions.  
 
-    ![Use channel properties in record creation rules](../customer-service/media/crm-ua-record-creation-rule-item-conditions-channel-properties.png "Use channel properties in record creation rules")  
+    ![Use channel properties in record creation rules.](../customer-service/media/crm-ua-record-creation-rule-item-conditions-channel-properties.png "Use channel properties in record creation rules")  
 
     Here’s the rule item after you add all the conditions:  
 
-    ![Rule item with conditions specified](../customer-service/media/crm-ua-record-creation-rule-item-with-all-conditions.png "Rule item with conditions specified")  
+    ![Rule item with conditions specified.](../customer-service/media/crm-ua-record-creation-rule-item-with-all-conditions.png "Rule item with conditions specified")  
 
 3.  Add steps to create or update records for the incoming activity that matches the conditions you defined earlier.  
 
@@ -220,7 +220,7 @@ In the **Specify Record Creation and Update Details** section, select ![Add a re
 
        The entity form is displayed. You can map the target entity fields to the social activity record data, including channel properties. Some of the mappings are available out of the box: Case title, Customer, and Origin (highlighted in yellow). The out-of-the-box mappings can be changed and new mappings can be added using the **Form Assistant** control.  
 
-       ![Set properties of a record in case creation rule](../customer-service/media/crm-ua-set-properties-case.png "Set properties of a record in case creation rule")  
+       ![Set properties of a record in case creation rule.](../customer-service/media/crm-ua-set-properties-case.png "Set properties of a record in case creation rule")  
 
        The new record that is created will be automatically set as the regarding record of the incoming activity record. There is only one regarding object to the social activity, so, only one **Create** record action is possible in the **Actions** section.  
 
@@ -254,7 +254,7 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
 1. After you save the record creation and update rule form, under **Channel Properties** section, in the **Additional Properties** box, select the lookup button, and then select **New**.  
 
-   ![Add channel properties for record creation rule](../customer-service/media/crm-ua-record-creation-rule-additional-properties.png "Add channel properties for record creation rule")  
+   ![Add channel properties for record creation rule.](../customer-service/media/crm-ua-record-creation-rule-additional-properties.png "Add channel properties for record creation rule")  
 
    A channel property group form opens.  
 
@@ -283,14 +283,14 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
    > [!NOTE]
    >  This field isn’t available on the activity form by default. A system customizer can add the field to the activity forms. The field will have the JSON payload only when the external application sends it for the activity.  
 
-      ![Tweet payload in the social activity record](../customer-service/media/crm-ua-tweet-payload-json.png "Tweet payload in the social activity record")  
+      ![Tweet payload in the social activity record.](../customer-service/media/crm-ua-tweet-payload-json.png "Tweet payload in the social activity record")  
 
    > [!IMPORTANT]
    > - Create a channel property for each name from the name-value pair that you want to use in your record creation and update rule. For example, you could use `influenceScore` as a property name.  
    > - The information in the JSON payload isn’t very easy to read. To make it more readable, you can use [online JSON parser](https://json.parser.online.fr/) that will provide a better output.  
    > - The property group doesn’t support adding nested values in a JSON payload as channel properties. The following sample shows the "FollowersCount" under the user node as a nested JSON key-value pair.  
    > 
-   > ![Nested value in JSON payload](../customer-service/media/crm-ua-json-payload-nested-values.png "Nested value in JSON payload")  
+   > ![Nested value in JSON payload.](../customer-service/media/crm-ua-json-payload-nested-values.png "Nested value in JSON payload")  
 
    b. **Data Type**. Select a data type for the channel property. For example, if the property is influence score, use the data type as Whole Number because its value can’t be in decimals.  
 
@@ -308,7 +308,7 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
     You can see all the properties in the channel property group form.  
 
-   ![Add channel properties to channel property group](../customer-service/media/crm-ua-channel-property-group.png "Add channel properties to channel property group")  
+   ![Add channel properties to channel property group.](../customer-service/media/crm-ua-channel-property-group.png "Add channel properties to channel property group")  
 
 ## Activate a record creation and update rule
 

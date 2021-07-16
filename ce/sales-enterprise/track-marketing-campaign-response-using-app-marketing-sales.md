@@ -39,7 +39,7 @@ Record the replies you get from potential customers in response to a specific ma
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-2. In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar](../sales-enterprise/media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
+2. In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](../sales-enterprise/media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
 3. On the navigation bar, select **Settings**, and then select **Administration**.
 

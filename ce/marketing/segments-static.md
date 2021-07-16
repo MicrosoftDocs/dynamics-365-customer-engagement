@@ -24,7 +24,7 @@ Static segments enable you to choose and add segment members manually based on e
 
 To create a static segment, go to **Customers** > **Segments**. Click the **New** dropdown on the top ribbon. Then, select the **Static Segment** option, as described in [Create and go live with a new segment](segmentation-lists-subscriptions.md#create-segment).
 
-![Add a new static segment](media/static-segment-1.png "Add a new static segment")
+![Add a new static segment.](media/static-segment-1.png "Add a new static segment")
 
 ## Using static segments
 
@@ -42,7 +42,7 @@ Because your database may contain many contacts, the segment designer now includ
 
 To add segment members by query, click the **Add by Query** button in the **Members** tab of the static segment editor. A window titled Manage Segment Members will appear. In the Manage Segment Members window, you can edit the query and execute it by clicking the **Find** button.
 
-![Add segment members by query](media/static-segment-2.png "Add segment members by query")
+![Add segment members by query.](media/static-segment-2.png "Add segment members by query")
 
 In the list of query results, you can manually select contacts by clicking to the left of the contact name. You will see a check mark appear next to each selected contact. To add the selected contacts to your segment, click the **Add Selected** button at the bottom of the window and close the query window. To add the entire query list, click the **Add All** at the bottom of the window. If you need to refine your query, click the **Edit Query** button.
 

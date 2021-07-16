@@ -4,7 +4,7 @@ description: "Create new security roles to accommodate changes in your business 
 ms.custom: 
 ms.date: 10/11/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

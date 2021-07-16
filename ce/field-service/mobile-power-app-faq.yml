@@ -2,11 +2,10 @@
 metadata:
   title: "Frequently asked questions for Field Service (Dynamics 365) mobile app | MicrosoftDocs"
   description: Find answers to commonly asked questions about the Field Service (Dynamics 365) mobile app.
-  ms.custom: 
-    - dyn365-fieldservice
   ms.date: 06/10/2021
   ms.reviewer: krbjoran
-  ms.service: dynamics-365-customerservice
+  ms.service: dynamics-365-field-service
+  ms.subservice: field-service-mobile
   ms.topic: troubleshooting
   applies_to: 
     - "Dynamics 365 (online)"
@@ -62,6 +61,9 @@ sections:
       - question: Is there a way to choose the columns or "fields" that are downloaded as part of a mobile offline profile?
         answer: |
           Offline profiles are filtered at the row level which adjusts the number of records downloaded. There is currently no way to filter columns or "fields."
+      - question: While running the Field Service mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
+        answer: |
+          Search from the offline application will always search the local device database for data, which is defined within the mobile offline profile.
   - name: Sign in
     questions:     
         - question: What do the "Reconfigure" and "Sign out" options do?

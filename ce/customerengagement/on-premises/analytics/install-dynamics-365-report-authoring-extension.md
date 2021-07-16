@@ -1,9 +1,9 @@
 ---
-title: "Install Dynamics 365 Report Authoring Extension with Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
-description: Learn how to install the Report Authoring Extension for building fetch-based reports
+title: "Install the Report Authoring Extension for Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to install the Dynamics 365 Report Authoring Extension for creating and customizing Fetch-based reports." 
 ms.custom: ""
-ms.date: "11/28/2018"
-ms.prod: "crm-2016"
+ms.date: 06/28/2021
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -32,7 +32,7 @@ caps.latest.revision: 37
 ## Install the plug-in  
  Dynamics 365 Report Authoring Extension is a plug-in that obtains the metadata and data from Customer Engagement (on-premises). This metadata is required to design and preview Fetch-based reports in [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. You  can use Dynamics 365 Report Authoring Extension with either Customer Engagement (on-premises).  
   
-1.  In the /BIDSExtensions/ folder, double-click **SetupBIDSExtensions.exe**. [Download from the Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=624672).  
+1.  In the /BIDSExtensions/ folder, double-click **SetupBIDSExtensions.exe**. [Download from the Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=56973).  
   
 2.  On the **Welcome to Microsoft Dynamics 365 Report Authoring Extension Setup** page, we recommend that you choose **Get updates for Microsoft Dynamics 365**, to make sure that Setup has the most recent installation files. Select **Next**.  
   

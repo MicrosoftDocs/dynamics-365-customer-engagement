@@ -4,7 +4,7 @@ description: "Learn about defining specific rules to control when the ribbon ele
 ms.custom: 
 ms.date: 02/08/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ description: "To avoid multiple installed solutions from interfering with one an
 ms.custom: 
 ms.date: 04/02/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

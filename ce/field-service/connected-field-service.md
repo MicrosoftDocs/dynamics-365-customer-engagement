@@ -1,11 +1,11 @@
 ---
 title: "Connected Field Service - Overview | MicrosoftDocs"
 description: Learn all about Connected Field Service for Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 09/30/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
+ms.custom: intro-internal
 ms.topic: overview
 author: FieldServiceDave
 ms.author: daclar
@@ -41,7 +41,7 @@ Connected Field Service for IoT Central provides a direct integration of Dynamic
 Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing the relationships between Azure IoT Central, Power Automate, and Field Service](media/cfs-overview.png)
+> ![Diagram showing the relationships between Azure IoT Central, Power Automate, and Field Service.](media/cfs-overview.png)
  
 The below end-to-end integration processes can be easily implemented based on a pure configuration experience:
 

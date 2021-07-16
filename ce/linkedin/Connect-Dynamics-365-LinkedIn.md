@@ -35,19 +35,19 @@ Before we can sync leads from [!include[LinkedIn](../includes/pn-linkedin.md)] c
 3. To add [!include[LinkedIn](../includes/pn-linkedin.md)] accounts to this user profile, select **Authorize**.
 
 4. Enter the credentials for your [!include[LinkedIn](../includes/pn-linkedin.md)] profile, and then select **Sign In**.  
-   ![Sign In](media/Add-credentials-to-linked-profile.png "Enter credentials for your LinkedIn profile")  
+   ![Sign In.](media/Add-credentials-to-linked-profile.png "Enter credentials for your LinkedIn profile")  
 
 5. In the permissions dialog box, select **Allow**.  
-   ![Allow permissions](media/LinkedIn-permission-popup-dialog.png "LinkedIn permissions dialog box")  
+   ![Allow permissions.](media/LinkedIn-permission-popup-dialog.png "LinkedIn permissions dialog box")  
 
 6. Check and confirm the organization you want to sync your LinkedIn data to.  
-   ![LinkedIn permission popup dialogs](media/Confirm-dynamics-365-organization-to-sync-linkedin-data.png "Confirm the name of your organization")
+   ![LinkedIn permission popup dialogs.](media/Confirm-dynamics-365-organization-to-sync-linkedin-data.png "Confirm the name of your organization")
 
 After successful authorization, the [!include[LinkedIn](../includes/pn-linkedin.md)] accounts appear on the **[!include[LinkedIn](../includes/pn-linkedin.md)] User Profile** record. You can review the details of the [!include[LinkedIn](../includes/pn-linkedin.md)] accounts in the form. It might take a few seconds to get the accounts; try refreshing the view if you don’t see them.
 
 [!include[LinkedIn](../includes/pn-linkedin.md)] form submissions are now synced automatically to the destination system. You’ll be able to see the data in Dynamics 365 apps as soon as the sync is complete, which might take a few minutes. 
 
-![User profile in the LinkedIn Lead Gen Connector](media/LinkedIn-user-profile-information.png "User profile in the LinkedIn Lead Gen Connector")
+![User profile in the LinkedIn Lead Gen Connector.](media/LinkedIn-user-profile-information.png "User profile in the LinkedIn Lead Gen Connector")
 
 ## See the sync status for LinkedIn data
 

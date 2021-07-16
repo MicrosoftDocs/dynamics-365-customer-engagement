@@ -1,10 +1,9 @@
 ---
 title: "Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens | MicrosoftDocs"
 description: Learn how to collaborate in mixed reality by integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist.
-ms.custom: dyn365-fieldservice
 ms.date: 01/14/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -56,7 +55,7 @@ Before you begin, make sure you have the following set-up:
 First, create a bookable resource that will serve as the technician or front line worker that will use both Field Service on the Field Service Mobile app and Dynamics 365 Remote Assist on the Dynamics 365 Remote Assist mobile app on their phone or tablet.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a bookable resource in Field Service on a desktop](./media/remote-assist-field-service-resource.png)
+> ![Screenshot of a bookable resource in Field Service on a desktop.](./media/remote-assist-field-service-resource.png)
 
 The bookable resource must have a **Resource Type** set to **User**; the related user record will need licenses to use both Field Service and Remote Assist. 
 
@@ -195,7 +194,7 @@ Technicians can:
 > [!Note]
 > The **My In Progress Bookings** view has been renamed to **My Bookings for Today**. This doc has been updated to reflect the name change. Depending on your version of Dynamics 365 Field Service, you may see either name. The functionality remains the same regardless of the view name.
 
-> ![Bookable Resource view](media/bookable-resource-views.PNG "Bookable Resource view")
+> ![Bookable Resource view.](media/bookable-resource-views.PNG "Bookable Resource view")
 
 > [!Note]
 > Fields can be added to this view if necessary for your business needs.

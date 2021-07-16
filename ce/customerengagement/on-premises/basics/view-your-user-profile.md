@@ -1,10 +1,10 @@
 ---
-title: "View your user profile (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "View user profile in Dynamics 365 Customer Engagement (on-premises)"
+description: "View your profile to see the information that's available to the entire organization, such as your contact info, work hours, connections, and security role."
 ms.custom: 
-description: View your profile.
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -27,15 +27,15 @@ search.audienceType:
 
 Your user profile displays useful information about you to your entire organization; for example, your contact information, your organization, and your security role. Depending on your security role, you may be able to make changes to your user profile.  
   
-1. On the upper-right corner of the screen, select the **Settings** button ![Setting button](media/user-profile-settings-button.gif) > **Options**.  
+1. On the upper-right corner of the screen, select the **Settings** button ![Setting button.](media/user-profile-settings-button.gif) > **Options**.  
  
 2.  Scroll down to the very bottom of the **Set Personal Options** dialog box, and then choose **View your user information**.  
   
-3.  To check your security role, on the nav bar, select the down arrow ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name, and then select **Security Roles**.  
+3.  To check your security role, on the nav bar, select the down arrow ![User profile security option More Options button.](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name, and then select **Security Roles**.  
 
-    ![View user profile](media/view-user-profile.png)
+    ![View user profile.](media/view-user-profile.png)
   
-4.  To view other profile information, such as Work Hours, Connections, and Services, on the nav bar, choose the down arrow ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name.  
+4.  To view other profile information, such as Work Hours, Connections, and Services, on the nav bar, choose the down arrow ![User profile security option More Options button.](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name.  
   
 
 
@@ -52,15 +52,15 @@ Your user profile displays useful information about you to your entire organizat
 
 Your user profile displays useful information about you to your entire organization; for example, your contact information, your organization, and your security role. Depending on your security role, you may be able to make changes to your user profile.  
   
-1. On the upper-right corner of the screen, select the **Settings** button ![Setting button](media/user-profile-settings-button.gif) > **Options**.  
+1. On the upper-right corner of the screen, select the **Settings** button ![Setting button.](media/user-profile-settings-button.gif) > **Options**.  
  
 2.  Scroll down to the very bottom of the **Set Personal Options** dialog box, and then choose **View your user information**.  
   
-3.  To check your security role, on the nav bar, select the down arrow ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name, and then select **Security Roles**.  
+3.  To check your security role, on the nav bar, select the down arrow ![User profile security option More Options button.](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name, and then select **Security Roles**.  
 
-    ![View user profile](media/view-user-profile.png)
+    ![View user profile.](media/view-user-profile.png)
   
-4.  To view other profile information, such as Work Hours, Connections, and Services, on the nav bar, choose the down arrow ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name.  
+4.  To view other profile information, such as Work Hours, Connections, and Services, on the nav bar, choose the down arrow ![User profile security option More Options button.](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name.  
   
 
 

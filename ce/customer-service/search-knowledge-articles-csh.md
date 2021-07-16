@@ -72,7 +72,7 @@ Customer Service Hub comes with an enhanced Knowledge Base Search that shows you
 When you select the **Knowledge Base Search** option in the **RELATED** section, the **Knowledge Base Search** control loads, and you can view the following:
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search](media/knowledge-base-search-details.png "View the features in knowledge base search")
+  > ![Knowledge-article-search.](media/knowledge-base-search-details.png "View the features in knowledge base search")
 
   1. Knowledge Base Search
   2. Open filter pane
@@ -108,14 +108,14 @@ In the knowledge base search control, you can do the following:
 4. The article opens in an expanded form in a new window.
 
   > [!div class=mx-imgBorder]
-  > ![Pop out](media/knowledge-base-search-popout.png "Pop out the article in a new window")
+  > ![Pop out.](media/knowledge-base-search-popout.png "Pop out the article in a new window")
 
 ### Search for knowledge articles
 
 Type a keyword in the search box to search for knowledge articles.
 
   > [!div class=mx-imgBorder]
-  > ![Search for knowledge articles](media/search-kb-article.png "Search for knowledge articles using keywords")
+  > ![Search for knowledge articles.](media/search-kb-article.png "Search for knowledge articles using keywords")
 
 - If Relevance Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
@@ -151,12 +151,12 @@ To link the knowledge article to an entity, you need to do the following steps. 
 4. Select **More commands** (⁝), and then select **Add Existing Knowledge Article**.
 
    > [!div class=mx-imgBorder]
-   > ![Add an existing knowledge article](media/add-existing-knowledge-article.png "Add an existing knowledge article")
+   > ![Add an existing knowledge article.](media/add-existing-knowledge-article.png "Add an existing knowledge article")
 
 5. Search for the knowledge article that you want to link, and select **Link.**
 
    > [!div class=mx-imgBorder]
-   > ![Search for a knowledge article to link to an entity](media/search-related-article.png "Search for a related knowledge article to link to an entity")
+   > ![Search for a knowledge article to link to an entity.](media/search-related-article.png "Search for a related knowledge article to link to an entity")
 
 6. Select **Done**. The article will appear in the **Linked Knowledge Articles** subgrid.
 
@@ -173,7 +173,7 @@ Agents can do the following:
 To configure the ability to copy and send article URLs, see [Configure knowledge base article URLs](#configure-knowledge-base-article-urls).
 
   > [!div class=mx-imgBorder]
-  > ![Independent KB search](media/kb-independent-search.png "Search knowledge articles outside of cases")
+  > ![Independent KB search.](media/kb-independent-search.png "Search knowledge articles outside of cases")
 
   1. In the sitemap, select **Knowledge Search**.
   2. In search box, type keywords of an article.  
@@ -194,14 +194,14 @@ To configure a knowledge base article URL, do the following:
 1. In the sitemap, under **Knowledge Base Management** select **Settings**.
 
    > [!div class=mx-imgBorder]
-   > ![Select Knowledge Base Management settings](media/kb-management-settings.png "Navigate to Knowledge Base Management settings in the sitemap")
+   > ![Select Knowledge Base Management settings.](media/kb-management-settings.png "Navigate to Knowledge Base Management settings in the sitemap")
 
 2. Under **Support Portal Connection**, set **Use an external portal** to **Yes**.
 
 3. In the **URL format** field, enter the URL name.
 
    > [!div class=mx-imgBorder]
-   > ![Select URL format](media/kb-url-format.png "Select the URL format to use")
+   > ![Select URL format.](media/kb-url-format.png "Select the URL format to use")
 
 4. Select **Save**.
 
@@ -212,7 +212,7 @@ The knowledge base article link is now active and can be copied and shared.
 With the help of text and visual filters, you can filter the knowledge articles. To see knowledge articles in specific states, use the **Status** filter. You can filter search results to see all draft, published, or approved articles. See articles that are categorized as internal and external. You can also filter the articles based on date and language.
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge article filter](media/km-filter1.png "Knowledge article filter")  
+  > ![Knowledge article filter.](media/km-filter1.png "Knowledge article filter")  
   
   
 When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
@@ -257,7 +257,7 @@ The knowledge base search control provides sort the knowledge articles interacti
 - Last modified date (oldest first)
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge article sort](media/km-sort.png "Knowledge article sort")
+  > ![Knowledge article sort.](media/km-sort.png "Knowledge article sort")
   
 
 ### Link and unlink a knowledge article to a record
@@ -265,7 +265,7 @@ The knowledge base search control provides sort the knowledge articles interacti
 When configured, you can link an article to a case. You can associate and dissociate the knowledge article with a record.
 
   > [!div class=mx-imgBorder]
-  > ![Link to case](media/knowledge-base-search-2.png "Link or unlink a knowledge article with a record")
+  > ![Link to case.](media/knowledge-base-search-2.png "Link or unlink a knowledge article with a record")
 
   
 1. In the top-right of the article, there's a link icon. 
@@ -277,14 +277,14 @@ When configured, you can link an article to a case. You can associate and dissoc
 Use the **Email** button to send the knowledge article via mail. When you select the **Email** button, first, the knowledge article is linked to the current case record. Simultaneously, an email form opens with the link to the article. The article content is populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
 
   > [!div class=mx-imgBorder]
-  > ![Email knowledge article](media/km-email.png "Email knowledge article")
+  > ![Email knowledge article.](media/km-email.png "Email knowledge article")
 
 ### View the knowledge article inline in the search control
 
 Select an article title to see its full content rendered in the same control. The article opens inline and you can scroll to read the complete article. In this view mode, you can perform the actions such as linking the knowledge article to a record and emailing the knowledge article to a customer. To learn more about sending the knowledge articles via email, see [Email the knowledge article](#email-the-knowledge-article).
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge article inline view](media/km-inline-article-view.png "Knowledge article inline view")
+  > ![Knowledge article inline view.](media/km-inline-article-view.png "Knowledge article inline view")
 
 > [!Note]
 > - Select the **Copy Link** button ![Copy knowledge article link button Dynamics 365 Customer Service](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article so you can share it with your customers over channels like chat or email. If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available. 
@@ -314,18 +314,18 @@ Let’s understand this in detail with the help of an example.
 
 In the following illustration, the case subject is **Xbox**. If automatic filtering is configured on case subject, with the **Auto filter results** checkbox selected, only those knowledge articles whose subject is **Xbox** are displayed. Other articles are automatically filtered out, as shown in the following image.
 
-![Select Auto filter results](media/ka-select-auto-filter-results.png "Select Auto filter results")   
+![Select Auto filter results.](media/ka-select-auto-filter-results.png "Select Auto filter results")   
   
 However, if the **Auto-filter results** checkbox isn't selected, you can see more articles that aren't related to the subject. These are the results from the entire knowledge base.
 
-![Deselect Auto-filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto-filter results")
+![Deselect Auto-filter results.](media/ka-deselect-auto-filter-results.png "Deselect Auto-filter results")
 
 ## View search results from external sources
 
 If your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
 
    > [!div class=mx-imgBorder]
-   > ![Agent view of search providers](media/search-provider-agent.png "Agent view of available search providers")
+   > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
 
 For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md).
     
@@ -345,11 +345,11 @@ When you are working on a case and refer to an article from the **Knowledge Base
 
     You can provide your feedback on the article, whether it is helpful or not, by selecting the **Thumbs up** or **Thumbs down** button.    
 
-    ![Provide feedback](media/ka-rating-feedback-thubms-up-down.png "Provide feedback")
+    ![Provide feedback.](media/ka-rating-feedback-thubms-up-down.png "Provide feedback")
 
     If the article is not helpful, you can also provide your comments in the comment box on how the article can be improved. The comment box is displayed when you select **Thumbs down**.
 
-    ![Provide comments](media/ka-rating-feedback-provide-comments.png "Provide comments")
+    ![Provide comments.](media/ka-rating-feedback-provide-comments.png "Provide comments")
 
 To set up the feedback control, see [Enable feedback control](set-up-knowledge-management-embedded-knowledge-search.md#enable-feedback-control).
 

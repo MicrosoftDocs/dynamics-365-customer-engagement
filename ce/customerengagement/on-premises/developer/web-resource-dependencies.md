@@ -4,7 +4,7 @@ description: "Learn about defining dependencies between web resources in Dynamic
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -30,7 +30,7 @@ However there are some other behaviors which developers using JavaScript web res
 
 The following image shows the dependencies tab within the web resource form. Dependencies between web resources are set in the top list. Attribute dependencies are set using the lower list. Attribute dependencies are only available for JavaScript web resources. More information [Attribute dependencies](#attribute-dependencies)
 
-![web resource dependencies tab](media/web-resource-dependencies.PNG)
+![web resource dependencies tab.](media/web-resource-dependencies.PNG)
 
 Within a solution you can define dependencies within solution components. Up until [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)] the main purpose of these dependencies was to prevent the deletion of a solution component when another solution component depended on it. With [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)] the behavior for JavaScript web resources is enhanced so that any other web resource listed as a dependency to the JavaScript web resource will be loaded along with the JavaScript web resource. 
 

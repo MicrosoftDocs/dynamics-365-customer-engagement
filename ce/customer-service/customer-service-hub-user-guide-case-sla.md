@@ -1,6 +1,6 @@
 ---
-title: "Cases SLAs in Customer Service Hub | Microsoft Docs"
-description: "Learn about Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service."
+title: "Track and manage SLAs in Customer Service Hub | Microsoft Docs"
+description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service Hub for Dynamics 365 Customer Service."
 ms.date: 06/16/2021
 ms.topic: article
 author: neeranelli
@@ -48,7 +48,7 @@ The statuses and their corresponding symbols are as follows.
 
 A sample runtime view of the SLA Timer is as follows.
 
-![Run time view of SLA timers](media/sla-timer-runtime.png "Run time view of SLA timers")
+![Run time view of SLA timers.](media/sla-timer-runtime.png "Run time view of SLA timers")
 
 
 ### Case form with SLA applied  

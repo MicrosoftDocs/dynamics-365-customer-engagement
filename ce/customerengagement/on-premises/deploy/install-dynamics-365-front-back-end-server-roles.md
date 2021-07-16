@@ -2,7 +2,7 @@
 title: "Install Microsoft Dynamics 365 Server Front End and Back End server roles | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -64,7 +64,7 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 10. On the **Specify Server roles** page, select all the Back End Server roles. Leave the rest blank.  
   
-     ![Back end server role](media/crm-itpro-ig-backend-roles.jpg)
+     ![Back end server role.](media/crm-itpro-ig-backend-roles.jpg)
   
 11. On the **Specify Deployment Options** page, in the **Enter or select the name of the computer that is running SQL Server to use with the deployment** box, type or select the instance of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] that will be used to store the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database (MSCRM_CONFIG).  
   
@@ -128,7 +128,7 @@ On the computer named *CRMbackend*, complete the following procedure.
   
 8.  On the **Specify Server roles** page, select all the [!INCLUDE[Front_End_Server](../includes/front-end-server.md)] and Deployment Administration Server roles. Leave the rest blank.  
   
-     ![Front end role](media/crm-itpro-ig-frontend-roles.jpg)  
+     ![Front end role.](media/crm-itpro-ig-frontend-roles.jpg)  
   
 9. On the **Specify Deployment Options** page, select **Connect to, and if necessary, upgrade an existing deployment**, and then in the **Enter or select the name of the computer that is running SQL Server to use with the deployment** box, type or select the instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that you entered previously, and then select **Next**.  
   
