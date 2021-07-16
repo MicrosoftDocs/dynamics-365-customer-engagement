@@ -20,7 +20,7 @@ searchScope:
 As an administrator, you can customize the case resolution dialog so that your organization can cater the case resolution process to suit your business needs. You can modify the case resolution dialog to add fields like **Resolution type** or remove fields like **Billable Time**, if they don't apply to your business scenarios. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
 
 > [!Note]
-> The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1.
+> The option to customize the case resolution dialog is also available in Dynamics 365 Customer Engagement (on-premises) 9.1.
 > More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
 
 ## Check permissions
@@ -35,7 +35,7 @@ Make sure that the Customer Service Manager and Customer Service Representative 
 
 ## Enable customizable dialogs
 
-You must enable the Customizable dialog option to ensure that the changes you make are reflected on the Resolve case dialog, when you select the Resolve case button.
+You must enable the Customizable dialog option to ensure that the changes you make are reflected on the **Resolve case dialog**, when you select the **Resolve case** button.
 
 > [!Note]
 > **Standard dialog** is the default option which you can change with the following procedure.
@@ -90,7 +90,7 @@ You can use case resolution to resolve situations where you receive duplicate ca
 **To set the case entity for duplicate cases**
 
 1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
-   If you're using the Power Apps/Power Platform,
+   If using Power Apps, go to **Settings**, select  **Advanced Settings**, then select **Customizations** and **Customize the System**.
 
 2. In the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
 
@@ -105,6 +105,20 @@ You can use case resolution to resolve situations where you receive duplicate ca
 
 7. Select **OK**. You've successfully added a duplicate status to the case entity&mdash;**statuscode**.  
 
+<!--
+Tried to document the procedure for setting case entity in Power Apps.
+**To set the case entity for duplicate cases using Power Apps**
+
+1. Select **Solutions**. The list of all solutions available in your environment is displayed.
+
+2. Select **Default Solution** from the list. The list of all available objects in the default solutions is displayed.
+
+3. Expand **Tables** the list. Select **Case**, and then select **Columns**. The set of all columns or fields is displayed
+
+4. Select the column you want to update. For this example, let's select the **StatusReason** column. The **Status Reason** column properties dialog is displayed.
+
+
+-->
 ### Update the case resolution entity
 
 After you've added the duplicate status to the case entity, add the same to the case resolution entity.
@@ -137,7 +151,7 @@ After you've added the duplicate status to the case entity, add the same to the 
     2. On the command bar, select **Remove** to remove the field.
 
 4. Select **Save**, and then select **Publish**.
-    Now, when the customer service reps try to resolve a case, the case resolution dialog box won't display the field you removed.
+    Now, when the customer service reps try to resolve a case, the case resolution dialog won't display the field you removed.
 
 5. In the **Resolution Type** dropdown list, select **Duplicate**.
     You'll know if a case has been successfully resolved by checking the status bar at the top of the form.
