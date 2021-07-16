@@ -90,7 +90,7 @@ You can use case resolution to resolve situations where you receive duplicate ca
 **To set the case entity for duplicate cases**
 
 1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
-   If using Power Apps, go to **Settings**, select  **Advanced Settings**, then select **Customizations** and **Customize the System**.
+   If using [Power Apps](https://make.powerapps.com/), go to **Settings**, and under **Power Apps**, select  **Advanced Settings**, then select **Customizations** and **Customize the System**.
 
 2. In the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
 
