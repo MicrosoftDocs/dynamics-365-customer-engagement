@@ -174,7 +174,7 @@ You can add both an interval and a time group to a single fulfillment preference
 
 - There is an attribute on the booking entity called Time Group Detail Selected (**msdyn_timegroupdetailselected**), which points to the time group detail entity. This value is automatically populated when a booking is created through the schedule assistant. For example, if a requirement is scheduled and the results fall into the time group “9 to 12,” the booking created through the schedule assistant will have the value “9 to 12” in the **time group detail selected** field.
 
-- The **Intervals Begin** time is dependent on the time zone of the requirement calendar when triggered from the requirement; however, when triggered from the schedule board, it depends on the user's time zone.
+- The **Intervals Begin** time is dependent on the time zone of the requirement calendar when triggered from the requirement; however, when triggered from the schedule board, it depends on the timezone of the schedule board tab from which the request originated. 
 
 - Quick Scheduling does not support fulfillment preferences with time groups.
 

@@ -116,20 +116,14 @@
         items:
         - name: Create and manage workstreams for unified routing
           href: create-workstreams.md
-        - name: Create and manage workstreams in Omnichannel Administration
-          href: create-workstreams-oca.md
       - name: Create and manage queues
         items:
         - name: Create and manage queues for unified routing
           href: queues-omnichannel.md
-        - name: Create queues in Omnichannel Administration
-          href: Create-queues-oca.md
       - name: Configure work classification
         items:
         - name: Configure work classification rulesets for unified routing
           href: configure-work-classification.md
-        - name: Set up routing and assignment rules in Omnichannel Administration
-          href: routing-rules.md
       - name: Configure work assignment
         items:
         - name: Configure assignment methods for queues
@@ -138,12 +132,6 @@
         items: 
         - name: Set up unified routing for records
           href: set-up-record-routing.md
-        - name: Set up record routing in Omnichannel Administration
-          href: set-up-entity-workstream.md
-        - name: Create multiple workstreams for records in Omnichannel Administration
-          href: multiple-ws-entity-record-routing.md  
-        - name: Route records in Omnichannel Administration app
-          href: entity-channel.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md
       - name: Set up skill-based routing
@@ -156,16 +144,12 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
-        - name: Set up skill-based routing in Omnichannel Administration
-          href: attach-skills.md
       - name: Configure basic routing
         items:
         - name: Create and manage basic queues for cases
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
-        - name: Set up routing for conversations in Omnichannel for Customer Service
-          href: understand-omnichannel-customer-service-hub.md
       - name: Configure users for unified routing
         items:
         - name: Manage users
@@ -176,8 +160,6 @@
           href: role-persona-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
-      - name: Understand routing and work assignment in Omnichannel Administration
-        href: unified-routing-work-distribution.md  
     - name: Agent experience
       items:
       - name: Route records manually using unified routing
@@ -338,6 +320,24 @@
         href: knowledge-base-search-methods.md
       - name: Add the knowledge base search control to forms
         href: add-knowledge-base-search-control-forms.md
+  - name: Routing in Omnichannel Administration
+    items:
+    - name: Routing and assignment in Omnichannel Administration
+      href: routing-work-distribution-oca.md
+    - name: Create and manage workstreams in Omnichannel Administration
+      href: create-workstreams-oca.md
+    - name: Create queues in Omnichannel Administration
+      href: Create-queues-oca.md
+    - name: Set up routing and assignment rules in Omnichannel Administration
+      href: routing-rules.md  
+    - name: Set up record routing in Omnichannel Administration
+      href: set-up-entity-workstream.md
+    - name: Create multiple workstreams for records in Omnichannel Administration
+      href: multiple-ws-entity-record-routing.md  
+    - name: Route records in Omnichannel Administration app
+      href: entity-channel.md
+    - name: Set up skill-based routing in Omnichannel Administration
+      href: attach-skills.md
   - name: Chat
     items: 
     - name: Administrator experience
