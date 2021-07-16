@@ -1,5 +1,5 @@
 ---
-title: "Enable the enhanced add products experience - Sales Enterprise | MicrosoftDocs"
+title: "Enable or disable the enhanced add products experience - Sales Enterprise | MicrosoftDocs"
 description: "Enable your salespeople to quickly find and add multiple products to opportunities by enabling the enhanced add product experience."
 ms.date: 04/02/2021
 ms.topic: article
@@ -7,7 +7,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Preview: Enable the enhanced experience for adding products
+# Preview: Enable or disable the enhanced experience for adding products
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -26,9 +26,9 @@ The enhanced experience helps your salespeople to quickly find products that the
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-You can enable the enhanced experience through the **App Settings** page or through **System Settings**.
+You can enable or disable the enhanced experience through the **App Settings** page or through **System Settings**.
 
-**To enable the enhanced experience from the App settings page in Sales Hub**
+**To enable or disable the enhanced experience from the App settings page in Sales Hub**
 
 1. In the Sales Hub app, select the **Change area** icon
     ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area")
@@ -36,14 +36,18 @@ You can enable the enhanced experience through the **App Settings** page or thro
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.
 
-3. On the **Product Catalog Settings** page, turn on **Adding products (preview)**.  
+3. On the **Product Catalog Settings** page, toggle **Adding products (preview)** to enable or disable the preview.  
+    If you enable the preview, you'll see additional options for customizing the new **Add products** dialog box.
+
     ![Product catalog settings page with the Adding products preview enabled.](media/EnableAddProductPreview.png)
 
-   You'll see additional options for customizing the Add products dialog box. Sellers use this dialog box for adding products to an opportunity, quote, order,or invoice. You can either add more columns to the grid or add more attributes to the Product column in the dialog box. For more information, see [Preview: Customize the Add Products dialog box](customize-add-products-dialog-box.md).
+     You can either add more columns to the grid or add more attributes to the **Product** column in the dialog box. For more information, see [Preview: Customize the Add Products dialog box](customize-add-products-dialog-box.md).
+    
+    If you disable the preview, the **Add products** option in the opportunity, quote, order, and invoice will switch back to **Quick create** form.
 
-**To enable the enhanced experience from System Settings**
+**To enable or disable the enhanced experience from System Settings**
 
-If you're using a custom app, you can enable the enhanced experience from **System Settings** in the legacy web client.
+If you're using a custom app, you can enable or disable the enhanced experience from **System Settings** in the legacy web client.
 
 1. In your app, select **Settings** ![Settings.](media/settings-icon.png "Settings"), and then select **Advanced Settings**.
 
@@ -55,7 +59,7 @@ If you're using a custom app, you can enable the enhanced experience from **Sys
 
 3. Select **System Settings**.
 
-4. In the **System Settings** dialog box on the **Sales** tab, set **Enhanced add product experience** to **Yes**.
+4. In the **System Settings** dialog box, go to the **Sales** tab and set **Enhanced add product experience** to **Yes** to enable the enhanced experience. Set it to **No** to disable. 
 
 5. Select **OK**.
 
