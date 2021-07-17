@@ -20,7 +20,7 @@ Yes, you can. To view all available trials, [visit the trial hub page](https://d
 
 ## Trial app
 
-### What is the URL for my trial app?
+### I didn't receive the trial details email after signing up, what should I do?
 
 When you sign up for the trial, you'll receive an email with the trial details. If you don't see the email in your inbox, check your spam folder. Alternatively, use the following steps to access your app:
 
