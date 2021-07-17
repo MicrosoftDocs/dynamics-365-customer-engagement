@@ -17,7 +17,28 @@ ms.custom:
 
 [!INCLUDE[addHandler-description](includes/addHandler-description.md)] 
 
-[!INCLUDE[token-addHandler](../../../shared/token-addHandler.md)]
+## Syntax
+
+`Microsoft.CIFramework.addHandler(eventName, handlerFunction);`
+
+## Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+| eventName | string | Yes | Name of the event for which the handler is set. <br>The supported events are as follows:<br><ul><li><b>onclicktoact:</b> The event is invoked when the outbound communication (ClickToAct) enabled field is clicked.</li> <li><b>onmodechanged:</b> The event is invoked when the panel mode is manually toggled between Minimized (0) and Docked (1). </li><li><b>onsizechanged:</b> The event is invoked when the panel size is manually changed by dragging. </li><li><b>onpagenavigate:</b> The event is triggered before a navigation event occurs on the main page </li><li><b>onsendkbarticle: </b> The event is invoked when the user clicks the send button on the KB control.</li><li><b>onsizechanged: </b> The event is invoked when the side panel width is changed.</li><li><b>onsessionswitched: </b> The event is invoked when the current session is switched.</li><li><b>onsessionclosed: </b> The event is invoked when the session is closed</li><li><b>cifinitdone: </b> The event is invoked when the Channel Integration Framework is loaded to determine if the CIF APIs are ready to be consumed.</li></ul>  |
+| handlerFunction | Function | Yes | The handler function is invoked when the any of the supported events trigger. |
+
+## Example
+
+
+```JavaScript
+handlerFunction = function(eventData) {
+console.log(eventData)
+return Promise.resolve();
+}
+
+Microsoft.CIFramework.addHandler("onmodechanged", handlerFunction);
+```
 
 ## Related topics
 
