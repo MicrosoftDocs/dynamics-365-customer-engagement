@@ -60,29 +60,6 @@ After you enable the Customizable dialog option, you can create status values in
 > [!Important]
 > If you change the value in the **Case entity**, be sure to update the value in the **Case Resolution entity** so they match. If the values don't match, an error might be thrown. If the values don't match in the customizable dialog, the option that you specified won't show up.
 
-<!-- content appears redundant
-## Customize Case entity and Case Resolution entity
-
-To go to the **Customization** page:
-
-1. On the navigation bar, select the **Settings** icon.
-
-   > [!div class=mx-imgBorder]
-   > ![Status Values - select Settings.](media/status-values-step-1.PNG "Status Values - select Settings")
-
-
-2. In the Power Platform admin center **Settings** page, select **All legacy settings**.
-    
-
-   > [!div class=mx-imgBorder]
-   > ![Status Values - select All legacy settings.](media/status-values-step-2.PNG "Status Values - select All legacy settings")
-
-3. Select **Customize the System**.
-    
-   > [!div class=mx-imgBorder]
-   > ![Status Values - Customize the System.](media/status-values-step-3.PNG "Status Values - Customize the System")
-
--->
 ### Update case entity
 
 You can use case resolution to resolve situations where you receive duplicate cases. As an example, let's see how to set the resolution type to display cases with duplicate status.  
@@ -105,20 +82,6 @@ You can use case resolution to resolve situations where you receive duplicate ca
 
 7. Select **OK**. You've successfully added a duplicate status to the case entity&mdash;**statuscode**.  
 
-<!--
-Tried to document the procedure for setting case entity in Power Apps.
-**To set the case entity for duplicate cases using Power Apps**
-
-1. Select **Solutions**. The list of all solutions available in your environment is displayed.
-
-2. Select **Default Solution** from the list. The list of all available objects in the default solutions is displayed.
-
-3. Expand **Tables** the list. Select **Case**, and then select **Columns**. The set of all columns or fields is displayed
-
-4. Select the column you want to update. For this example, let's select the **StatusReason** column. The **Status Reason** column properties dialog is displayed.
-
-
--->
 ### Update the case resolution entity
 
 After you've added the duplicate status to the case entity, add the same to the case resolution entity.
@@ -168,6 +131,5 @@ After you've added the duplicate status to the case entity, add the same to the 
 [Case SLAs](customer-service-hub-user-guide-case-sla.md)  
 [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)  
 [Use the main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
