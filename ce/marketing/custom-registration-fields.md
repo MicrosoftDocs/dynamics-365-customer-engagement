@@ -29,7 +29,7 @@ Go to the **Custom registration fields** page to view and create all the custom 
 1. [Open the Events work area](open-events.md) and go to **Events** > **Event** > **Custom registration fields**.
 
 2. A list of your current custom fields is shown. Select **New** from the command bar to add a new field or select any listed field to edit that field.  
-    ![Example custom registration field setup](media/event-reg-field-setup.png "Example custom registration field setup")
+    ![Example custom registration field setup.](media/event-reg-field-setup.png "Example custom registration field setup")
 
 3. Make the following settings:
 
@@ -50,11 +50,11 @@ Once you have set up the custom fields you require, you can assign them to event
 1. A list of your current events is shown. Select **New** from the command bar to add a new event or select any listed event to edit that event. (If you are creating a new event, then enter values for all required fields and choose **Save** in the bottom-right corner of the window to save it before continuing.)
 
 1. Go to the **Registration &amp; attendance** tab and then look at the **Event custom registration fields** section, which lists all the custom fields already enabled for this event. If the field you are looking for isn't already listed, then select the **Add new event custom field** button at the top of this list.  
-    ![Add a custom registration field to an event](media/event-reg-field-add-to-event.png "Add a custom registration field to an event")
+    ![Add a custom registration field to an event.](media/event-reg-field-add-to-event.png "Add a custom registration field to an event")
 
 1. A new page opens, where you can set up the field for this event.
 Make the following settings:  
-     ![Set up the custom field for the current event](media/event-reg-field-add-to-event-2.png "Set up the custom field for the current event")
+     ![Set up the custom field for the current event.](media/event-reg-field-add-to-event-2.png "Set up the custom field for the current event")
 
     - **Custom registration field**: Select an existing custom field that is already set up for your instance as described in the previous section.
     - **Event**: This is the event where you will add this custom field. The current event should already be shown here.
@@ -71,7 +71,7 @@ Each event record provides a list that shows all the custom-field values submitt
 1. Go to the **Registration &amp; attendance** tab for your selected event.
 
 1. Scroll down to the **Event registration** section. The **Registration responses** table here lists each value supplied by each registrant for each custom field.  
-     ![Custom field values submitted for an event](media/event-reg-field-all-event-responses.png "Custom field values submitted for an event")
+     ![Custom field values submitted for an event.](media/event-reg-field-all-event-responses.png "Custom field values submitted for an event")
 
 ## Read custom field values submitted for individual registrations
 
@@ -84,7 +84,7 @@ Each event registration record includes the values that the registrant entered f
     - Go to **Marketing** > **Customers** > **Contacts** and open a contact. Then go to the **Events Attended** tab and find and open a registration record in the **Registered events** section of the page.
 
 1. Once you have an event registration record open, go to its **Registration Responses** tab.  
-    ![Custom field values submitted for a single registration](media/event-reg-field-single-registration-responses.png "Custom field values submitted for a single registration")
+    ![Custom field values submitted for a single registration.](media/event-reg-field-single-registration-responses.png "Custom field values submitted for a single registration")
 
 1. The **Registration responses** table here shows each custom-field value that was submitted together with this event registration.
 

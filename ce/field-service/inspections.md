@@ -1,12 +1,10 @@
 ---
 title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 02/01/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -65,7 +63,7 @@ First, create an inspection that can be reused and added to multiple work orders
 From the Field Service app, go to **Settings** > **Inspections** > **+New**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of active inspections in Dynamics 365 Field Service](./media/inspections-navigate.png)
+> ![Screenshot of active inspections in Dynamics 365 Field Service.](./media/inspections-navigate.png)
 
 Name your inspection and add a description.
 
@@ -112,7 +110,7 @@ In Early Access opt in release a TextBox can be input with a default value and c
 Use the **Required** toggle to make the inspection question mandatory.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service inspection, showing additional questions](./media/inspections-create2.png)
+> ![Screenshot of a Field Service inspection, showing additional questions.](./media/inspections-create2.png)
 
 By selecting the **Gear** icon, you can add more details for an inspection question.
 
@@ -214,7 +212,7 @@ Sign in with your Dynamics 365 URL, username, and password, and go to the assign
 Select the **Work Order Service Task** that has the related inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) mobile app showing service tasks](media/inspections-fsm-new1.png)
+> ![Screenshot of Field Service (Dynamics 365) mobile app showing service tasks.](media/inspections-fsm-new1.png)
 
 Find the inspection form and enter answers.
 
@@ -269,7 +267,7 @@ Sign in with your Dynamics 365 URL, username, and password, and go to the assign
 Select the **Work Order Service Task** that has the related inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile app showing service tasks](media/inspections-mobile-r-1.png)
+> ![Screenshot of Field Service Mobile app showing service tasks.](media/inspections-mobile-r-1.png)
 
 Find the inspection form and enter answers. Technicians can upload files, take pictures, or upload pictures from the phone's camera roll.
 

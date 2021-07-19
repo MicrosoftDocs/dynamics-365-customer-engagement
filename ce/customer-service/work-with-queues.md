@@ -1,11 +1,18 @@
 ---
 title: "Pick an item from a queue in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Pick an item from a queue in Customer Service Hub to work on it."
-ms.date: 11/02/2020
+ms.date: 07/01/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+searchScope:
+- D365-App-customerservice
+- D365-Entity-queueitem
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # Work with queues
@@ -21,7 +28,7 @@ Use the view list and queue list to filter and find items in queues.
 1. Go to **Service** > **Queues**.
 2. Select a view, and then select a filter to see the items you want.
 
-   ![Queues view list](media/queues_view_list.png "Customer Service Hub Queues View List") 
+   ![Queues view list.](media/queues_view_list.png "Customer Service Hub Queues View List") 
 
 3. From the **All items** drop-down, select the pin icon to pin the view that you want to appear on your dashboard.
 
@@ -81,12 +88,19 @@ Use the view list and queue list to filter and find items in queues.
 2. Select **Queues**.
 3. Select a view from the System Views menu.
 4. Select the queues from the menu.
-5. Select an item in the queue. Select the check box next to the item title.
-6. Select **Pick** from the command menu. The Pick dialog box appears.
-   > ![Pick a work item](media/pick-work-item-csh.png "Pick a work item")
+5. Select the checkbox next to the item title to select the item.
+6. Select **Pick** from the command menu. The **Pick** dialog box appears.
+   > ![Pick a work item.](media/pick-work-item-csh.png "Pick a work item")
 
 7. Optionally, select **No** to change it to **Yes** if you want item from the queue.
-8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected yes in the previous step.
+8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected yes in the previous step. Also, the following updates happen:
+   - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment.
+   - Your capacity will be updated. If the work item indicated capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, the available units of capacity in that profile for you will be deducted by one.
+   - Assignment rules, presence, or capacity constraints are not evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you will still be able to pick the work item and start working on it. This ability to manually override pre-configured capacity is to ensure that agents are able to pick up work beyond their normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
+   - Your presence will be updated. If  you have further capacity left, your presence will be set to "Busy". If you have no capacity left, your presence will be set to "Do not disturb".
+
+   > [!NOTE]
+   > Remove the items from the queue can't be set for work items in an advanced queue.
 
 ## Release an item or case that you’re working on so someone else can pick it up  
   
@@ -106,11 +120,17 @@ Route an activity or case to another queue or assign to a different user or team
 
     To assign the activity or case to another user or team to work on, select **User/Team**, and select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.
 
-## Remove an activity or case from a queue  
+As soon as the item is released the following updates will happen:
+
+- Your capacity will be updated based on whether capacity profile or capacity units have been configured.
+
+- Your presence will be updated to "Busy" or "Available" based on your available capacity.
+
+## Remove a record from a queue  
   
-1.  In the **View** list, select one of the views that show the items you want to remove.  
+1. In the **View** list, select one of the views that show the items you want to remove.  
   
-2.  Select the activity or case, and on the command bar, select **Remove**.
+2. Select the activity or case, and on the command bar, select **Remove**.
  
 ## Assign an activity to a user or queue
 
@@ -120,19 +140,19 @@ If you want another person in your organization to work on an activity, you can 
   
 1. In the left pane, go to **Activities**.  
   
-2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button](media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.    
+2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button.](media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.
   
 3. In the **Assign to another user or team** field, select **Lookup**, and select the user or team you want to assign the activity to.  
   
     If you don’t see the user or team you are looking for, select **Lookup**, and then select **Look Up More Records**. From the **Look for** drop-down list, select **User** or **Team**. In the **Search** box, type the name, select the search button, and then select the name to select it. select **Add**.  
   
-4. Select **Assign**.  
+4. Select **Assign**.
   
-## Add to a queue  
+## Add to a queue
   
-1. In the left pane, go to **Activities**.  
+1. In the left pane, go to **Activities**.
   
-2. In the list of activities, select the activity you want, select **More Commands** ![More commands button](media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
+2. In the list of activities, select the activity you want, select **More Commands** ![More commands button.](media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 

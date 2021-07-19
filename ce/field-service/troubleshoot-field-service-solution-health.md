@@ -1,11 +1,9 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 10/22/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -43,7 +41,7 @@ To run an analysis job for Field Service:
 1.	Open the Solution Health Hub app.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Solution Health Hub in the navigation](./media/troubleshoot-solution-health-nav.png)
+> ![Screenshot of the Solution Health Hub in the navigation.](./media/troubleshoot-solution-health-nav.png)
 
 2.	Select **Analysis Jobs** and create a new analysis job.
 3.	When the dialog box opens, select **Field Service**.
@@ -59,7 +57,7 @@ Once you run the analysis job, you will be directed to the overview page, which 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a complete analysis job overview](./media/troubleshoot-solution-health-fs-rules-analysis.png)
+> ![Screenshot of a complete analysis job overview.](./media/troubleshoot-solution-health-fs-rules-analysis.png)
 
 
 When running an analysis job, you will see a **Return Status** for each rule, which indicates whether the rule passed, failed, or there was a configuration error. Rules also return a severity if they are failing, which shows how severe each problem is. All possible return status outcomes are listed in the following table. 
@@ -422,6 +420,155 @@ Fails if there are workflow instances in the suspended state with the reason of 
 ### How to fix
 
 Retrigger the workflow. Refer to general documentation or contact support.
+
+## Check if required level of fields is modified
+
+Severity: High
+
+### What it checks
+
+ This rule checks if the required level of the system field on the form is modified
+
+### Why it fails
+If the required level of the system field (that is, Application Required field/ OOB Field) on the Work Order and Agreement form    is modified.
+
+### How to fix
+Go to customization -> Entities -> Work Order /Agreement -> Fields -> Double-click on field for which required level need to reset -> Select field requirement -> Business Required.
+
+> [!Note] 
+> This rule is implemented for the OOB required field on the Work Order and Agreement only.
+
+## Checks For Active Agreements Having Past End Dates
+
+Severity: High
+
+### What it checks
+
+Rule validates for Agreements where System Status as Active, but the end date is in the past [System Status should be Expired if the end date has passed].
+
+### Why it fails
+
+Rule fails if system status of an Agreement is Active even though its end date has passed [end date with a past date].
+
+### How to fix
+
+Providing option to resolve if there are any agreement with system status active and end with past date. Select the analysis result, review the agreements, and select the resolve button.
+
+### Additional notes and limitations
+
+- Rule validates for the agreements having end date in last 90 days.
+- Rule considers top 5000 agreements having system status as Active and end date hit.
+- Only Agreements having agreement booking setups and Agreement booking dates are considered for validation.
+
+### Check For Revision Mismatch on Agreement Booking Date with Agreement Booking Setup
+
+Severity: High
+
+### What it checks
+
+Rule validates whether Agreement Booking Dates’ revision matches the revision of the corresponding Agreement Booking Setups. 
+
+### Why it fails
+
+The rule fails if there is a mismatch with the revision value of agreement booking date and its corresponding agreement booking setup. This rule considers only Active Booking Date records whose booking date is not older than 90 days (that is, last three months active booking dates).
+If there is a mismatch then the system might not generate a work order for that booking date.
+
+### How to fix
+
+Contact support.
+
+### Additional notes and limitations
+
+Rule considers top 5000 active ABD records in last three months based on booking date (Latest)
+
+## Check For Revision Mismatch on Agreement Invoice Dates with Agreement Invoice Setups
+
+Severity: High
+
+### What it checks
+
+Rule validates Agreement Invoice Dates’ Revision matches the revision of the corresponding Agreement invoice setups.
+
+### Why it fails
+
+Rule fails if there is a mismatch with the revision value of agreement invoice date and its corresponding agreement invoice setup. This rule considers active Agreement Invoice Date records whose invoice date is not older than 90 days (that is, last three months active invoice dates).
+If there is a mismatch, then the system might not generate an invoice for that invoice date.
+
+### How to fix
+
+Contact support.
+
+### Additional notes and limitations
+
+Rule considers top 5000 active AID records in last three months based on invoice date (Latest)
+
+## Privilege check for Agreement Booking Setup owners
+
+Severity: High
+
+### What it checks
+
+Checks that agreement booking setup record owners have required the privileges to create work orders. 
+
+### Why it fails
+
+If agreement booking setup owners don’t have below privileges.
+
+`1.prvCreatemsdyn_workorder`
+
+### How to fix
+Assign the above privileges to respective agreement booking setup record owners.
+
+## Privilege check for Agreement Invoice Setup owners
+
+Severity: High
+
+### What it checks
+
+Checks for agreement invoice setup record owners have required privileges to create invoice.
+
+### Why it fails
+
+If agreement invoice setup owners don’t have below privileges.
+
+`1.prvCreateInvoice`
+
+### How to fix
+Assign the above privileges to respective agreement invoice setup record owners.
+
+## Recurrence on Agreement Booking Setup
+
+Severity: High
+
+### What it checks
+
+If recurrence setting is configured or not on an agreement booking setup and, if so, it checks if it is a valid recurrence setting value.
+
+### Why it fails
+
+If an agreement has System Status as Active and its Agreement booking setup record has Auto Generate WO set to Yes, but recurrence setting is not configured.
+If an agreement has System Status as Active and its Agreement booking setup record has Auto Generate WO set to Yes, but recurrence configured on it is not valid.
+
+### How to fix
+
+Configure a valid recurrence on Agreement Booking Setup.
+Go to **Agreement** > **Agreement Booking Setup** > **Booking Recurrence button** on command bar.
+
+## Latitude and Longitude values on account record
+
+Severity: Low
+
+### What it checks
+
+Checks whether latitude and/or longitude values are there on an account record or not.
+
+### Why it fails
+
+If either latitude or longitude or both are not present on an account record.  
+
+### How to fix
+
+Check if the address on the account form is provided. If so, then geocode the account by selecting the geocode button on the command bar of the account form.
 
 ### See also
 

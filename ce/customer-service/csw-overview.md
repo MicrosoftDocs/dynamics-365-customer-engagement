@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service Workspace application for Dynamics 365 Customer Service | Microsoft Docs
 description: Overview of the Customer Service Workspace application for Dynamics 365 Customer Service
-ms.date: 04/05/2021
+ms.date: 07/01/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -15,6 +15,7 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 ---
 
 # Customer Service workspace
@@ -25,7 +26,7 @@ Welcome to the Customer Service workspace app module, where we're increasing age
 
 If you've used Customer Service Hub or Omnichannel for Customer Service before, much of the behavior for managing cases and activities in the Customer Service workspace app module works the same way, with some exceptions to accommodate the multisession and conversation capabilities. This article walks you through the Customer Service workspace experience and explains how to navigate the app.
 
-Before we begin, a quick note about administration of Customer Service workspace: Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the [Customer Service Hub](customer-service-hub-user-guide-basics.md) > Service Management experience. Channel configuration is done in [Omnichannel Administration](omnichannel-administrator.md). Because all of these apps are on [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro), the data created through these experiences is accessible.
+Before we begin, a quick note about administration of Customer Service workspace: Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the [Customer Service Hub](customer-service-hub-user-guide-basics.md) > Service Management experience. Channel configuration is done in [app profile manager](../app-profile-manager/overview.md). Because all of these apps are on [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro), the data created through these experiences is accessible.
 
 ## Introduction to Customer Service workspace
 

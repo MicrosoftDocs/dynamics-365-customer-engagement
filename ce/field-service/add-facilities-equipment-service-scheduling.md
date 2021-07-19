@@ -2,13 +2,11 @@
 title: Add facilities and equipment for service scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to add facilities and equipment for service scheduling in Dynamics 365 Customer Service
 ms.date: 09/15/2017
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shellyha
-ms.custom: 
-  - dyn365-fieldservice
 search.app: 
   - D365CE
   - D365FS
@@ -45,7 +43,7 @@ Facilities and equipment are resources you’d use to perform services for your 
   
    - **Name**. Enter the name of the facility or equipment you want to add for service scheduling.  
   
-   - **Business Unit**. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] enters the business unit automatically. To choose a different business unit, choose the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") and then select from the list.  
+   - **Business Unit**. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] enters the business unit automatically. To choose a different business unit, choose the **Lookup** button ![Lookup button.](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") and then select from the list.  
   
    - **Site**. Select the location where the facility or equipment is located.  
   

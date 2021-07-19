@@ -4,7 +4,7 @@ description: Learn how to create and edit option sets
 ms.custom: 
 ms.date: 03/06/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

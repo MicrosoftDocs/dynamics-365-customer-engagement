@@ -22,7 +22,7 @@ After you have configured your application using the Hosted Application Toolkit 
   
 2. In Solution Explorer, right-click the HAT application name, and then click **Action Configuration**.  
   
-   ![Use the shortcut menu to configure](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
+   ![Use the shortcut menu to configure.](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
   
 3. In the **Action Configuration** dialog box, select the **Default** check box if you want the action to be a default action. Otherwise, click **New** to create a new action.  
   
@@ -47,7 +47,7 @@ After you have configured your application using the Hosted Application Toolkit 
   
 7. Click **Save** to save the configurations.  
   
-   ![Action configuration in HAT](../unified-service-desk/media/usd-action-config.png "Action configuration in HAT")  
+   ![Action configuration in HAT.](../unified-service-desk/media/usd-action-config.png "Action configuration in HAT")  
   
 ### See also
  [Integrate with external applications and web applications](../unified-service-desk/integrate-external-applications-web-applications.md)   

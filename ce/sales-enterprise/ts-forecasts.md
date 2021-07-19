@@ -33,13 +33,13 @@ To resolve this error, you must enable hierarchy in the **territory_parent_terri
     The **Power Apps** settings page opens.   
 3.	Select **Data** > **Entities**, and then select **Territory**.  
     > [!div class="mx-imgBorder"]
-    > ![Select the territory entity in Power Apps](media/forecast-troubleshooting-power-apps-select-territory.png "Select the territory entity in Power Apps")  
+    > ![Select the territory entity in Power Apps.](media/forecast-troubleshooting-power-apps-select-territory.png "Select the territory entity in Power Apps")  
 4.	On the **Territory** page, select the **Relationships** tab, and then select **Parent**.  
     > [!div class="mx-imgBorder"]
-    > ![Select the parent for the territory entity](media/forecast-troubleshooting-power-apps-select-territory-parent.png "Select the parent for the territory entity")  
+    > ![Select the parent for the territory entity.](media/forecast-troubleshooting-power-apps-select-territory-parent.png "Select the parent for the territory entity")  
 5.	In the **Many-to-one** dialog box, select the **Hierarchical** check box, and then select **Done**.  
     > [!div class="mx-imgBorder"]
-    > ![Enable Hierarchy option](media/forecast-troubleshooting-power-apps-select-enable-hierarchy.png "Enable Hierarchy option")   
+    > ![Enable Hierarchy option.](media/forecast-troubleshooting-power-apps-select-enable-hierarchy.png "Enable Hierarchy option")   
 6.	Save and close the entity.
 
 <a name="hide_forecast_category_field"> </a>
@@ -54,7 +54,7 @@ Sometimes, the app displays the **Forecast category** field in opportunity forms
 To resolve this error, you must delete the **Forecast category** field from the form. Follow these steps:  
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.  
     > [!div class="mx-imgBorder"]
-    > ![Advanced Settings on the Settings menu](media/advanced-settings-option.png "Advanced Settings on the Settings menu")   
+    > ![Advanced Settings on the Settings menu.](media/advanced-settings-option.png "Advanced Settings on the Settings menu")   
     The **Business Management** settings page opens in a new browser tab.   
 2. On the nav bar, select **Settings**, and then under **Customization**, select **Customizations**.   
 3. Select **Customize the System**.   
@@ -63,7 +63,7 @@ To resolve this error, you must delete the **Forecast category** field from the 
     The opportunity form opens in a new window.     
 6. In the **Summary** section, select the **Forecast category** field, and then select **Remove**.     
     > [!div class="mx-imgBorder"]
-    > ![Remove the forecast category field](media/ts-forecasting-remove-forecast-category-field.png "Remove the forecast category field")     
+    > ![Remove the forecast category field.](media/ts-forecasting-remove-forecast-category-field.png "Remove the forecast category field")     
 7. Save and publish the configuration.
 
 <a name="unable_view_forecasts"> </a>
@@ -74,7 +74,7 @@ To resolve this error, you must delete the **Forecast category** field from the 
 If you were using the previous version of forecasting and updated to the latest, the forecasting site map might not be updated. This can be caused by the presence of an unmanaged layer of the Sales Hub app, which would allow the forecasting site map to open the previous version of forecasting.    
 The following image is an example of the previous version of forecasting home page.     
 > [!div class="mx-imgBorder"]
-> ![Home page of the previous version of forecasting](media/ts-forecasting-older-version-homepage.png "Home page of the previous version of forecasting")
+> ![Home page of the previous version of forecasting.](media/ts-forecasting-older-version-homepage.png "Home page of the previous version of forecasting")
 
 **Resolution**
 
@@ -95,13 +95,13 @@ To resolve this error, activate the **ForecastInstanceActions** process. Follow 
 1. Go to **Advanced settings**, and then select **Settings** > **Process Center** > **Processes**.    
 2. In the search box, enter **ForecastInstanceActions**. You can see that the process is in the **Draft** state.     
     > [!div class="mx-imgBorder"]
-    > ![ForecastInstanceActions process in draft state](media/ts-forecasting-forecast-instance-actions-process-draft.png "ForecastInstanceActions process in draft state")      
+    > ![ForecastInstanceActions process in draft state.](media/ts-forecasting-forecast-instance-actions-process-draft.png "ForecastInstanceActions process in draft state")      
 3. Select the process, and then select **Activate**.    
     > [!div class="mx-imgBorder"]
-    > ![Activate the ForecastInstanceActions process](media/ts-forecasting-activate-forecast-instance-actions-process.png "Activate the ForecastInstanceActions process")     
+    > ![Activate the ForecastInstanceActions process.](media/ts-forecasting-activate-forecast-instance-actions-process.png "Activate the ForecastInstanceActions process")     
 4. On the confirmation message, select **Activate**.    
     > [!div class="mx-imgBorder"]
-    > ![Forecast instance actions process activated](media/ts-forecasting-forecast-instance-actions-process-activate.png "Forecast instance actions process activated")    
+    > ![Forecast instance actions process activated.](media/ts-forecasting-forecast-instance-actions-process-activate.png "Forecast instance actions process activated")    
 5. Verify that the process state is **Activated**, and then close **Settings**.   
 
 <a name="unable_view_drilldown_forecast_grid"> </a>
@@ -121,7 +121,7 @@ To resolve this error, your administrator must provide read privileges on **Fore
 3. On the security role page, select **Custom Entities** tab and go to **Forecast Configuration** row.   
 4. Select and provide the read privileges.   
     > [!div class="mx-imgBorder"]
-    > ![Provide read privileges for Forecast Configuration entity](media/ts-forecasting-provide-read-privileges.png "Provide read privileges for Forecast Configuration entity")  
+    > ![Provide read privileges for Forecast Configuration entity.](media/ts-forecasting-provide-read-privileges.png "Provide read privileges for Forecast Configuration entity")  
 5. Close the settings.   
 
 <a name="forecast-category-not-changed"> </a>
@@ -141,7 +141,7 @@ To resolve this error, your administrator must provide read privileges on **Fore
 3. On the security role page, select **Custom Entities** tab and go to **Forecast Configuration** row.   
 4. Select and provide the read privileges.   
     > [!div class="mx-imgBorder"]
-    > ![Provide read privileges for Forecast Configuration entity](media/ts-forecasting-provide-read-privileges.png "Provide read privileges for Forecast Configuration entity")  
+    > ![Provide read privileges for Forecast Configuration entity.](media/ts-forecasting-provide-read-privileges.png "Provide read privileges for Forecast Configuration entity")  
 5. Close the settings.   
 
 
@@ -157,11 +157,11 @@ To resolve the error, activate the **Opportunity Forecast Category Mapping Proce
 2. From the sitemap, select **Processes**.    
 3. Select the **Opportunity Forecast Category Mapping Process** workflow and select **Activate**.    
     > [!div class="mx-imgBorder"]
-    > ![Activate the Opportunity Forecast Category Mapping Process workflow](media/ts-forecasting-activate-opportunity-forecast-category-process.png "Activate the Opportunity Forecast Category Mapping Process workflow")  
+    > ![Activate the Opportunity Forecast Category Mapping Process workflow.](media/ts-forecasting-activate-opportunity-forecast-category-process.png "Activate the Opportunity Forecast Category Mapping Process workflow")  
     The forecast categories in the opportunities will be updated properly. For opportunities that were changed before activating the workflow must be manually changed.
     Also, open the **Opportunity Forecast Category Mapping Process** workflow and verify that the conditions are properly defined for each forecast category.   
     > [!div class="mx-imgBorder"]
-    > ![The Opportunity Forecast Category Mapping Process workflow conditions](media/ts-forecasting-opportunity-forecast-category-process-conditions.png "The Opportunity Forecast Category Mapping Process workflow conditions")    
+    > ![The Opportunity Forecast Category Mapping Process workflow conditions.](media/ts-forecasting-opportunity-forecast-category-process-conditions.png "The Opportunity Forecast Category Mapping Process workflow conditions")    
 4. Save and close the settings.    
 
 

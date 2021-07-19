@@ -35,7 +35,7 @@ Send weekly updates on the leaderboards or announce award winners by using sched
 
 1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Games** > **Emails**.
 
-2. Select the **Schedule New Email**  ![Add button in Gamification](media/add-button-gamification.png "Add button in Gamification") button.
+2. Select the **Schedule New Email**  ![Add button in Gamification.](media/add-button-gamification.png "Add button in Gamification") button.
 
 3. Provide the basic information for your email, including **Name**, **Game**, **Frequency**, and **Recipients**.
 

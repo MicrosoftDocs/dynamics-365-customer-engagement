@@ -1,6 +1,6 @@
 ---
 title: Manage activities from the timeline in Customer Service Hub | Microsoft Docs
-description: Understand Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
+description: This topic provides information on how to manage customer interactions and communications from the timeline in Customer Service Hub for Dynamics 365 Customer Service.
 ms.date: 11/27/2019
 ms.topic: article
 author: neeranelli
@@ -26,10 +26,10 @@ ms.custom:
 |-|-|-|  
 |**To**|**Do this**|| 
 |Enter a note |  Enter a note by selecting the **Enter a note** box. You can also add attachments to your notes.|
-|View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new](media/whats-new.png "What's new in Timeline") |
+|View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new.](media/whats-new.png "What's new in Timeline") |
 |Create a new interaction|In the **Timeline** section, select **+**, and then select an interaction type: Activity, Appointment, Email, Phone call, Task, Note or a Post.<br /> ![Create an activity from the timeline](../customer-service/media/v9-timeline-new-activity.png "Create an activity from the timeline")<br />To draft an email in the email activity, you can use the rich text editor, which has several formatting options. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). |
 |Filter activities|1.  In the **Timeline** section, select  **(...)**  and select **Open Filter Pane**.<br />2. Filter the timeline for a specific activity type or by date. You can filter on the basis of Activity status or record type. |  
-|Take actions on an activity|For an activity, select the **Quick Actions** button ![Select the icon to take actions on the activity](../customer-service/media/v8-quick-actions.png "Select the icon to take actions on the activity")  and select the action you want to take. For example, for a Phone Call activity, you will see actions like Close Activity, Add to Queue, and Open Entity Record.<br />|  
+|Take actions on an activity|For an activity, select the **Quick Actions** button ![Select the icon to take actions on the activity.](../customer-service/media/v8-quick-actions.png "Select the icon to take actions on the activity")  and select the action you want to take. For example, for a Phone Call activity, you will see actions like Close Activity, Add to Queue, and Open Entity Record.<br />|  
 
 
 ## See and manage related records in the Related section  

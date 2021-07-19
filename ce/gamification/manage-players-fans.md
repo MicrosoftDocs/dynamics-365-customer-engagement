@@ -48,7 +48,7 @@ For step-by-step instructions, see [Delete a user from your organization](/offic
 
 2. On the **Microsoft Dynamics 365 Users** page, search for the user you want to delete.
 
-3. Select the Delete symbol ![Delete user symbol](media/delete-symbol-gamification.png) and confirm the deletion.
+3. Select the Delete symbol ![Delete user symbol.](media/delete-symbol-gamification.png) and confirm the deletion.
 You can't undo this action.
 
 ### See also

@@ -6,6 +6,7 @@ ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.custom: intro-internal
 ---
 # Configure and manage custom presence
 
@@ -42,7 +43,7 @@ Omnichannel for Customer Service provides the following presence statuses out of
 The inactive presence is not available for manual selection by the agents; if the missed notifications feature is enabled, the agent status will be changed to inactive when agents do not respond to the incoming conversation request notification.
 
 > [!div class=mx-imgBorder]
-> ![Presence view](media/oc-presence-view.png)
+> ![Presence view.](media/oc-presence-view.png)
 
 > [!NOTE]
 > You cannot edit or delete these out-of-the-box base and presence statuses.
@@ -66,7 +67,7 @@ Perform the following steps to create a presence record:
 4. Select **Save**.
 
 > [!div class=mx-imgBorder]
-> ![custom presence](media/oc-custom-presence-example.png)
+> ![custom presence.](media/oc-custom-presence-example.png)
 
 ### See also
 

@@ -4,7 +4,7 @@ description: "Create a new security role based on an existing set of privileges.
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -52,7 +52,7 @@ The following steps describe a method to create a new custom security role with 
    |Append To     |Business Unit         |
    |Assign     |Business Unit         |
 
-   ![Security Role](media/security-role.png)
+   ![Security Role.](media/security-role.png)
 
 5. Choose **Save and Close**.
 

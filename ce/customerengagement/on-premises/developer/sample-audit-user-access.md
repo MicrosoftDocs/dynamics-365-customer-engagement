@@ -3,7 +3,7 @@ title: "Sample: Audit user access | MicrosoftDocs"
 description: "Sample demonstrating the auditing of user access to records."
 keywords: 
 ms.date: 03/29/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: audit
 ms.topic: samples
 applies_to: 

@@ -41,15 +41,15 @@ The Meeting details page displays the regarding entity that is related to the me
 
 Follow these steps to quickly create records and activities in the Dynamics 365 Sales mobile app.
 
-1.  Tap the plus sign ![Plus icon](media/sm-plus-icon.png "Plus icon") on the navigation bar at the bottom of the screen.
+1.  Tap the plus sign ![Plus icon.](media/sm-plus-icon.png "Plus icon") on the navigation bar at the bottom of the screen.
 
 2.  Tap **Create new**.
 
-    ![Create a new record](media/sm-create-record.png "Create a new record")
+    ![Create a new record.](media/sm-create-record.png "Create a new record")
 
 3.  Select a table type from the list.
 
-    ![Select a table from the list](media/select-table.png "Select a table from the list")
+    ![Select a table from the list.](media/select-table.png "Select a table from the list")
 
 4.	In the **Create New (table)** form, fill in the details, and then tap **Save**.
 
@@ -63,12 +63,12 @@ Follow these steps to edit records and entities in the Dynamics 365 Sales mobile
 - To edit records on the home page, open the record. In the upper-right corner of the quick view form, tap **Edit**. Edit the details in the Edit form and tap **Save**. To open the record in the Sales Hub app, tap **Open *record type***.
 
     >[!div class="mx-imgBorder"]
-    >![Quick view form opened from the home page](media/sm-homepage-view-details-lead.png "Quick view form opened from the home page")
+    >![Quick view form opened from the home page.](media/sm-homepage-view-details-lead.png "Quick view form opened from the home page")
     
-- To quickly edit the basic information about the regarding entity on the Meetings page, tap the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), and then tap **Quick edit**. The record's Edit form opens. Enter or update the required information, and then tap **Save**.
+- To quickly edit the basic information about the regarding entity on the Meetings page, tap the three dots, **More options** (![Options button.](media/sm-options-button.png "Options button")), and then tap **Quick edit**. The record's Edit form opens. Enter or update the required information, and then tap **Save**.
 
     >[!div class="mx-imgBorder"]
-    >![Tap quick edit option](media/sm-quick-edit-regarding-entity.png "Tap quick edit option")    
+    >![Tap quick edit option.](media/sm-quick-edit-regarding-entity.png "Tap quick edit option")    
 
     To edit the whole record, tap **Open *record type***. The record opens in the Sales Hub app for editing.   
 
@@ -80,7 +80,7 @@ Notes displayed in the Notes section are related to the regarding entity that is
 
 **Reminders**
 
-You can see the reminders through insight cards based on the regarding entity that is associated with the meeting. By tapping the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), on the card, you can take actions such as dismiss, snooze, and like or dislike the card. The cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity.
+You can see the reminders through insight cards based on the regarding entity that is associated with the meeting. By tapping the three dots, **More options** (![Options button.](media/sm-options-button.png "Options button")), on the card, you can take actions such as dismiss, snooze, and like or dislike the card. The cards are retrieved from your Dynamics 365 Sales organization for the selected regarding entity.
 
 The following reminder insight cards are supported:    
 

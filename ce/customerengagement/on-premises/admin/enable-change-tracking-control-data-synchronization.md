@@ -4,7 +4,7 @@ description: "Enable change tracking to control data synchronization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -32,7 +32,7 @@ Large Dynamics 365 Customer Engagement (on-premises) organizations that synchron
   
 2. Select an entity, and under **Data Services**, select the **Change Tracking** check box.  
   
-   ![Select Change Tracking for an entity](../admin/media/change-tracking.PNG "Select Change Tracking for an entity")  
+   ![Select Change Tracking for an entity.](../admin/media/change-tracking.PNG "Select Change Tracking for an entity")  
   
 ### See also  
  [Manage your data](../admin/manage-your-data.md "Manage your data")

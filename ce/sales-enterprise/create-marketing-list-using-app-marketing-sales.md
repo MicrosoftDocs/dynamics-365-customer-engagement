@@ -39,7 +39,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
 3. On the **Summary** tab, add or change the information. This screenshot provides an example.  
   
    > [!div class="mx-imgBorder"]  
-   > ![Example of marketing list summary area](../sales-enterprise/media/marketing-list-summary-example.png "Example of marketing list summary area")  
+   > ![Example of marketing list summary area.](../sales-enterprise/media/marketing-list-summary-example.png "Example of marketing list summary area")  
   
    > [!NOTE]
    >  To look up records in the **Owner** field, first select **Save**, or you'll lose your changes.  

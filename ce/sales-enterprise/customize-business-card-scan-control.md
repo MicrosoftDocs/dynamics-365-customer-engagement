@@ -25,7 +25,7 @@ To edit the mappings:
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
 
@@ -38,21 +38,21 @@ To edit the mappings:
 5.  Select **Forms**.
 
     > [!div class="mx-imgBorder"]
-    > ![Forms node of Contact entity in the solution explorer](media/forms-node-in-contact-entity.png "Forms node of Contact entity in the solution explorer")
+    > ![Forms node of Contact entity in the solution explorer.](media/forms-node-in-contact-entity.png "Forms node of Contact entity in the solution explorer")
 
 6.  Open the form of type **Quick Create**.
 
 7.  Locate and select the **Business Card** field on the form, and select **Change Properties** in the **Edit** group.
 
     > [!div class="mx-imgBorder"]
-    > ![Scan business card field in the Contact form](media/scan-business-card-field-in-contact-form.png "Scan business card field in the Contact form")
+    > ![Scan business card field in the Contact form.](media/scan-business-card-field-in-contact-form.png "Scan business card field in the Contact form")
 
 8.  In the **Field Properties** dialog box, select **AI Builder Business Card control** on the **Control** tab.
 
     > [!div class="mx-imgBorder"]
-    > ![Business card scanner control in the Field Properties dialog box](media/business-card-scanner-control-field-properties-dialog-box.png "Business card scanner control in the Field Properties dialog box")
+    > ![Business card scanner control in the Field Properties dialog box.](media/business-card-scanner-control-field-properties-dialog-box.png "Business card scanner control in the Field Properties dialog box")
 
-9.  Select the property that you want to change the mapping for, and select the **Edit** icon ![Edit icon](media/edit-icon.png "Edit icon") to change the value the field maps to.
+9.  Select the property that you want to change the mapping for, and select the **Edit** icon ![Edit icon.](media/edit-icon.png "Edit icon") to change the value the field maps to.
 10. When done, select **OK**.
 
 

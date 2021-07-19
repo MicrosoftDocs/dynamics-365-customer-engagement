@@ -28,14 +28,14 @@ To resolve this:
 1. On the navigation bar in your app, select the **Settings** icon and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
-    >![Advanced Settings option on the Settings menu](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    >![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens in a new browser tab.
 
 2. On the navigation bar, select **Settings** and then select **Customizations**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select Customizations](media/customization-in-sitemap.png "Select Customizations")
+    > ![Select Customizations.](media/customization-in-sitemap.png "Select Customizations")
  
 3. On the **Customization** page, select **Customize the System**.
 
@@ -44,7 +44,7 @@ To resolve this:
 5. On the **General** tab, under **Outlook & Mobile**, clear the **Read-only in Unified Client** check box.
 
     > [!div class="mx-imgBorder"]  
-    > ![Setting to make an entity read-only in the Unified Client](media/read-only-in-unified-client-setting.png "Setting to make an entity read-only in Unified Client")
+    > ![Setting to make an entity read-only in the Unified Client.](media/read-only-in-unified-client-setting.png "Setting to make an entity read-only in Unified Client")
  
 6. Save and publish the customizations.
 

@@ -1,11 +1,11 @@
 ---
 title: "Overview of Field Service Mobile (Xamarin app) - MicrosoftDocs"
 description: Learn general capabilities of the Field Service Mobile (Xamarin app).
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 03/29/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
+ms.custom: intro-internal
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
@@ -55,7 +55,7 @@ For a guided walkthrough, check out the following video.
   1. Scan a barcode on a new piece of equipment that was recently installed for a customer - this automatically enters the barcode number on the customer asset record, saving the technician time from manually entering this information. 
   2. Scan the barcode of an existing asset to automatically locate the asset record in the database. This ensures that new data is entered on the correct asset record for accurate service history.
 
-> ![Screenshot of Field Service Mobile showing a barcode on a record](./media/mobile-quick-facts-barcode.png)
+> ![Screenshot of Field Service Mobile showing a barcode on a record.](./media/mobile-quick-facts-barcode.png)
 
 - **Dictation**: This allows field technicians to enter notes and important work order data using the device's speech-to-text capabilities. It's helpful for field technicians who wear protective gloves and can't type information into mobile forms.
 
@@ -68,7 +68,7 @@ For a guided walkthrough, check out the following video.
 - **Push notifications**: Trigger push notifications to the field technician's device reminding their to perform actions or enter data. For example, you can notify field technicians with a push notification when they have been booked to a new work order. Selecting a push notification can take the user to specific booking, work order, or other records. 
 
 
-> ![Screenshot of Field Service Mobile push notifications showing "You've been booked on a work order" and "Synchronization complete"](./media/mobile-quick-facts-push-notifications-ios.png)
+> ![Screenshot of Field Service Mobile push notifications showing "You've been booked on a work order" and "Synchronization complete."](./media/mobile-quick-facts-push-notifications-ios.png)
 
 ## Device requirements
 
@@ -154,7 +154,7 @@ The system also keeps a **synchronization log** that tracks when users last sync
 You can keep an audit record of when specific entities are edited, as well as application state events and the GPS location of the device.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service Mobile audit settings options](./media/mobile-quick-facts-audit.png)
+> ![Screenshot of the Field Service Mobile audit settings options.](./media/mobile-quick-facts-audit.png)
 
 #### Dynamics security
 

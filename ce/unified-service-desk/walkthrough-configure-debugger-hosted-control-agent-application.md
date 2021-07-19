@@ -71,7 +71,7 @@ ms.custom:
    |USD Component Type|Debugger|  
    |Display Group|MainPanel|  
 
-   ![Create a Debugger hosted control](../unified-service-desk/media/usd-create-session-lines-hosted-control.png "Create a Debugger hosted control")  
+   ![Create a Debugger hosted control.](../unified-service-desk/media/usd-create-session-lines-hosted-control.png "Create a Debugger hosted control")  
 
 6. Click **Save**.  
 
@@ -115,7 +115,7 @@ ms.custom:
     |Action|CallDoAction|  
     |Data|action=default<br />application=Contoso Debugger|  
 
-    ![Create action call in Unified Service Desk](../unified-service-desk/media/usd-session-tab-name-format.png "Create action call in Unified Service Desk")  
+    ![Create action call in Unified Service Desk.](../unified-service-desk/media/usd-session-tab-name-format.png "Create action call in Unified Service Desk")  
 
 11. Click **Save**.  
 
@@ -156,7 +156,7 @@ ms.custom:
 
  Your agent application will now have a **DEBUGGER** button in the toolbar area. Clicking this button displays the Debugger control.  
 
- ![Debugger in your agent application](../unified-service-desk/media/usd-debugger-agent-application.png "Debugger in your agent application")  
+ ![Debugger in your agent application.](../unified-service-desk/media/usd-debugger-agent-application.png "Debugger in your agent application")  
 
 <a name="conclusion"></a>   
 ## Conclusion  

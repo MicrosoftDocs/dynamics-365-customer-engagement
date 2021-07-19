@@ -29,7 +29,7 @@ Make it easier for sales agents to find products and services in a product catal
   
 - Create as many levels of product families as you want by creating a family within a family.  
   
-  ![Hierarchy of families and products in Dynamics 365 Sales](../sales-enterprise/media/v7-product-hierarchy.png "Hierarchy of families and products in Dynamics 365 Sales")  
+  ![Hierarchy of families and products in Dynamics 365 Sales.](../sales-enterprise/media/v7-product-hierarchy.png "Hierarchy of families and products in Dynamics 365 Sales")  
   
 > [!NOTE]
 > The product family that you use for creating a product, bundle, or another product family becomes the parent family.   
@@ -38,7 +38,7 @@ Make it easier for sales agents to find products and services in a product catal
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**. 
+2. Select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**. 
   
 3. To create a family, on the command bar, select **Add Family**.  
   
@@ -47,7 +47,7 @@ Make it easier for sales agents to find products and services in a product catal
     To create a child product family under an existing family, select the family, and select **Add Family**. The selected family becomes the parent family of the new family you're creating.  
   
     > [!div class="mx-imgBorder"]
-    > ![List of products with Add Family button](media/add-family.png "List of products with Add Family button")  
+    > ![List of products with Add Family button.](media/add-family.png "List of products with Add Family button")  
   
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   

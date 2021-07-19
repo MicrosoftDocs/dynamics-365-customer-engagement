@@ -41,13 +41,13 @@ Real-time marketing offers three types of events in the event triggers catalog: 
 
 Custom events are defined by real-time marketing users. Custom events provide a flexible way to capture any customer action or significant business event.
 
-Refer to [Custom events triggers in real-time marketing](real-time-marketing-custom-events.md) for more information, including important notes about security for custom events.
+Refer to [Custom event triggers in real-time marketing](real-time-marketing-custom-events.md) for more information, including important notes about security for custom events.
 
-### Interaction Events
+### Interaction events
 
-Interaction events represent customer interactions with journey elements such as e-mail, SMS, and push channels. Interaction events cannot start or terminate journeys; they are used within a journey and represent a logical continuation of a preceding step. For example, when a journey sends an email message, a set of events such as *Email delivered*, *Email bounced*, or *Email opened* becomes available to journey authors, allowing them to make decisions about possible next steps.
+Interaction events represent customer interactions with journey elements such as email, SMS, and push channels. Interaction events cannot start or stop journeys; they are used within a journey and represent a logical continuation of a preceding step. For example, when a journey sends an email message, a set of events such as *Email delivered*, *Email bounced*, or *Email opened* becomes available to journey authors, allowing them to make decisions about possible next steps.
 
-### Business Events
+### Business events
 
 Business events represent changes in Dynamics 365 applications such as Sales or Service. These changes can reflect either the creation of a new record, or an update to an existing one. The following business events are available:
 

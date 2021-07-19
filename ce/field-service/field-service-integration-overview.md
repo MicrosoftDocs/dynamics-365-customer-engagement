@@ -1,13 +1,11 @@
 ---
 title: "Overview of Dynamics 365 Field Service integrations | MicrosoftDocs"
 description: Learn about the various ways to integrate Dynamics 365 Field Service with other business apps.
-ms.custom:
-- dyn365-fieldservice
 ms.date: 01/05/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.custom: intro-internal
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"

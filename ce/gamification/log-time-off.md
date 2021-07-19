@@ -44,7 +44,7 @@ Select each game period where you believe that your absence will impact your per
   
 2. In the list, select the game period to remove your time off from.  
   
-3. To indicate you are available again in that game period, select **Remove** ![Remove button in Gamification](media/remove-symbol-gamification.png "Remove button in Gamification").  
+3. To indicate you are available again in that game period, select **Remove** ![Remove button in Gamification.](media/remove-symbol-gamification.png "Remove button in Gamification").  
   
 ### See also
 

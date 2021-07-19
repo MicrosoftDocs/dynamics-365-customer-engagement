@@ -47,7 +47,7 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
 
    2.  Specify the name and location of the project, and click **OK**.
 
-   ![Create a USD CTI Connector](../unified-service-desk/media/usd-cti-connector.png "Create a USD CTI Connector")
+   ![Create a USD CTI Connector.](../unified-service-desk/media/usd-cti-connector.png "Create a USD CTI Connector")
 
 3. In **Solution Explorer**, right-click the CtiConnector.cs file, and select **View Code** to display the code.
 

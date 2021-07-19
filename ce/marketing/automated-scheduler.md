@@ -53,7 +53,7 @@ To create a journey that uses optimized delivery times:
 
 1. Design your journey as usual but turn on the **Automated scheduling** for each email tile where you want to use automated scheduling. To activate automated scheduled, select the email tile, go to **Schedule**, and flip the toggle for **Automated scheduling enabled**.
 
-    ![Activate automated scheduling](media/automated-scheduler-activate2.png "Activate automated scheduling")
+    ![Activate automated scheduling.](media/automated-scheduler-activate2.png "Activate automated scheduling")
         
 1. Repeat the previous step for each email in your journey where you want to use automated scheduling.
 
@@ -69,7 +69,7 @@ To see information about when a specific contact tends to open your messages, ho
 
 1. Open the **Insights** tab and then select **Email open times** from the tab navigator. This page includes three graphs that summarize how and when this contact interacts with your emails, plus a graph that shows the best time to email to this contact based on those results.
 
-    ![Enter the keyword name](media/automated-scheduler-insights.png "Enter the keyword name")
+    ![Enter the keyword name.](media/automated-scheduler-insights.png "Enter the keyword name")
 
 1. Read the **Email open times** graph as follows:
 

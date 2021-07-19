@@ -80,6 +80,9 @@ Policy-related errors may also indicate that the recipient’s server can't iden
 
 You can investigate bounce error details in your customer journey to correct any errors. To review bounce errors details, select the contact that bounced, or open your customer journey and go to the **Delivery** tab.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing email bounce details.](media/email-bounce-categories-errors.png "Screenshot showing email bounce details")
+
 ### See also
 
 [Best practices for email marketing](get-ready-email-marketing.md)  

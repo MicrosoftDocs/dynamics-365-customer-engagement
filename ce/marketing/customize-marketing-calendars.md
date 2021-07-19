@@ -44,17 +44,17 @@ To add an entity-level calendar to an entity:
 
 1. [Open a Power Apps customization window](customize-open-powerapps.md). In the left panel, expand **Components** > **Entities** to see a list of all entities. Then select the entity where you want to add the calendar.
 
-    ![Select an entity](media/calendar-add-to-entity-1.png "Select an entity")
+    ![Select an entity.](media/calendar-add-to-entity-1.png "Select an entity")
 
 1. Go to the **Controls** tab and choose **Add control**.
 
-    ![Add a control](media/calendar-add-to-entity-2.png "Add a control")
+    ![Add a control.](media/calendar-add-to-entity-2.png "Add a control")
 
 1. The **Add Control** dialog box opens. Use it to find and add the control called **Marketing Calendar**.
 
 1. The **Controls** tab updates to show configuration settings for the new calendar.
 
-    ![Configure the calendar control](media/calendar-add-to-entity-3.png "Configure the calendar control")
+    ![Configure the calendar control.](media/calendar-add-to-entity-3.png "Configure the calendar control")
 
     Do the following:
     - Select the **Marketing Calendar** in the **Control** section and then configure the mappings and quick-view form IDs for each entity you'd like to include in this calendar, plus other configuration settings. For details about these settings, see [Configure the entities available to a calendar](#config-calendar).
@@ -71,17 +71,17 @@ You can add a marketing calendar to any form where you think it could be useful.
 
 1. [Open a Power Apps customization window](customize-open-powerapps.md).. In the left panel, expand **Components** > **Entities** to see a list of all entities. Then expand the entity where you want to add the calendar and choose **Forms** to see a list of forms currently available to that entity. Select or create the form where you want to add the calendar.
 
-    ![Select a form](media/calendar-add-to-form-1.png "Select a form")
+    ![Select a form.](media/calendar-add-to-form-1.png "Select a form")
 
 1. In the form editor, go to the **Insert** tab and add a container to host the calendar (such as a tab or a section):
 
-    ![Add a tab to the form](media/calendar-add-to-form-2.png "Add a tab to the form")
+    ![Add a tab to the form.](media/calendar-add-to-form-2.png "Add a tab to the form")
 
 1. With the newly created tab or section selected, choose **Insert** > **Sub-Grid**.
 
 1. The **Set Properties** window opens. On the **Display** tab, give the sub-grid a **Name** and **Label**.
 
-    ![Sub-grid properties](media/calendar-add-to-form-3.png "Sub-grid properties")
+    ![Sub-grid properties.](media/calendar-add-to-form-3.png "Sub-grid properties")
 
 1. In the **Data Source** section, choose the type of entity that you want to show in your calendar. Make the following settings:
     - **Records:** Choose **All record types** to show any type of record, or choose **Only related records** to show only records that have a relation to a currently shown record (such as rooms reserved for a displayed event, or engagements assigned to a displayed speaker).
@@ -97,7 +97,7 @@ You can add a marketing calendar to any form where you think it could be useful.
 
 1. The **Controls** tab updates to show configuration settings for the new calendar.
 
-    ![Marketing calendar properties](media/calendar-add-to-form-4.png "Marketing calendar properties")
+    ![Marketing calendar properties.](media/calendar-add-to-form-4.png "Marketing calendar properties")
 
     Do the following:
     - Select the **Marketing Calendar** in the **Control** section and then configure the mappings and quick-view form IDs for the entity you chose to include in this calendar, plus other configuration settings. For details about these settings, see [Configure the entities available to a calendar](#config-calendar).
@@ -119,7 +119,7 @@ After you have added a marketing calendar to an entity or form, you must configu
 
     From this point on, the procedure is the same whether you are creating or editing an entity-level or form-level calendar.
 
-    ![Configure the calendar control](media/calendar-add-to-entity-3.png "Configure the calendar control")
+    ![Configure the calendar control.](media/calendar-add-to-entity-3.png "Configure the calendar control")
 
 1. Select **Marketing Calendar** in the **Control** section to open its configuration settings in the bottom section of the window.
 
@@ -128,7 +128,7 @@ After you have added a marketing calendar to an entity or form, you must configu
     - Form-level calendars can only display the entity set for **Entity 1**. You can add more entities to enable users to create those types of records from the calendar, but the calendar won't display them so doing so is likely to confuse users.
     - Entity-level calendars can display up to five entities of any type that has a start date, end date, and quick-create form.
 
-1. Use the **Configure property** buttons ![Configure property button](media/calendar-edit-property-button.png "Configure property button") to make each of the following settings for **Entity 1**:
+1. Use the **Configure property** buttons ![Configure property button.](media/calendar-edit-property-button.png "Configure property button") to make each of the following settings for **Entity 1**:
 
     - **Start Date**: Select the field from the target entity where the start date is defined for each record.
     - **End Date**: Select the field from the target entity where the end date is defined for each record.
@@ -138,7 +138,7 @@ After you have added a marketing calendar to an entity or form, you must configu
     - **Parent entity**: Select a parent entity (optional). In the future, this will be used to group child items under parent items when they are displayed in the calendar, but in the current version this setting has no effect. This will eventually be useful, for example, for sessions, which have events as a parent entity.
     - **Entity 1 quick view form ID**: When users select an item in the calendar, it displays a quick-view form with information about the selected record that includes a button for opening the full record for editing. You can choose any form for this purpose—you might create a custom one, but many people simply use the existing quick-create form. If you don't provide a value here, then users who select this type of calendar item will go straight to the edit form. To set this, choose the **Configure property** button for this setting, then choose the **Bind to a static value** radio button and paste the ID in the field provided here. For details about how to find the ID for a quick-view form, see [Find the form ID for a quick-view form](#find-form-id).
 
-      ![Configure property dialog](media/calendar-config-property-dialog.png "Configure property dialog")
+      ![Configure property dialog.](media/calendar-config-property-dialog.png "Configure property dialog")
 
 1. If you are creating an entity-level calendar and want to add another entity to the current calendar, then choose an entity for **Entity 2** and repeat the previous step for that entity. You can add up to five entities to entity-level calendars.
 
@@ -159,11 +159,11 @@ To configure the main marketing calendar:
 
 1. [Open a Power Apps customization window.](customize-open-powerapps.md) In the left panel, expand **Components** > **Entities** > **Customer journey** > **Views** to see a list of views for the customer journey entity. Then open the view named **Marketing Calendar**.
 
-    ![Views for the customer journey entity](media/calendar-main-views.png "Views for the customer journey entity")
+    ![Views for the customer journey entity.](media/calendar-main-views.png "Views for the customer journey entity")
 
 1. A configuration dialog box opens for your selected view. Under **Common Tasks**, select **Custom Controls**.
 
-    ![Edit-view dialog](media/calendar-main-edit-1.png "Edit-view dialog")
+    ![Edit-view dialog.](media/calendar-main-edit-1.png "Edit-view dialog")
 
 1. The **Custom Controls** dialog box opens, which provides the same settings as for other instances of the marketing calendar control. Proceed as described in [Configure the entities available to a calendar](#config-calendar).-->
 
@@ -179,7 +179,7 @@ When specifying the form, you must use the ID of the form you want to use. Here 
 
 2. Select the form you want to use as a quick-view form. The form opens in a new window.
 
-    ![Find the form ID in the URL](media/calendar-form-id.png "Find the form ID in the URL")
+    ![Find the form ID in the URL.](media/calendar-form-id.png "Find the form ID in the URL")
 
 3. Inspect the URL at the top of the new window and find the part that looks something like the following:
 
@@ -200,7 +200,7 @@ Each item displayed on the calendar uses a background color to indicate which ty
 
 1. [Open a Power Apps customization window.](customize-open-powerapps.md) In the left panel, expand **Components** > **Entities** to see a list of all entities. Then select the entity you want to assign a color to.
 
-    ![Set the color for an entity](media/calendar-set-color.png "Set the color for an entity")
+    ![Set the color for an entity.](media/calendar-set-color.png "Set the color for an entity")
 
 1. Use the **Color** setting on the **General** tab to set a color for the entity.
 
@@ -212,7 +212,7 @@ Each item displayed on the calendar uses a background color to indicate which ty
 
 In addition to the default entity color, you can also customize a calendar to enable users to select a custom color for each record as they add it. If no custom color is selected for a new record, the [default color](#entity-color) for the entity will be used.
 
-![A calendar with several custom-colored events](media/calendar-custom-colors.png "A calendar with several custom-colored events")
+![A calendar with several custom-colored events.](media/calendar-custom-colors.png "A calendar with several custom-colored events")
 
 To set up record-level custom colors using a free text field:
 

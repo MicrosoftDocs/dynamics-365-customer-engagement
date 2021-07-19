@@ -1,11 +1,9 @@
 ---
 title: "Dynamics 365 Field Service work order architecture | MicrosoftDocs"
 description: Learn about Dynamics 365 Field Service work order architecture
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 05/19/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"
@@ -30,7 +28,7 @@ The most important process in Field Service is the work order process where work
 The following diagram can help you understand the various entities, attributes, and relationships that enable the work order process. This diagram references the specific entity names in the application. For a diagram showing the more commonly used names, see the diagram at the end of this article. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the specific entity names in the application](./media/admin-field-service-architecture.png)
+> ![Screenshot of the specific entity names in the application.](./media/admin-field-service-architecture.png)
 
 The **Work Order** entity contains the details of the job that needs to be completed. This includes basic details like work order type, status, duration, priority, and more. Work orders are related to the standard Dynamics 365 **Account** entity in that specifying a **Service Account** on the work order adds related account information like territory, address, geocode (latitude and longitude), price list, and more. For instances where the work order location (service account) is different than the billing location, you can relate a service account to a **Billing Account**. 
 
@@ -68,7 +66,7 @@ Finally, when the work order is reviewed and closed by a service manager, **Inve
 
 The following diagram references the same work order process diagram in the beginning of this article, but with common names instead of entity names.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work order process diagram with common names](./media/admin-field-service-architecture-common.png)
+> ![Screenshot of work order process diagram with common names.](./media/admin-field-service-architecture-common.png)
 
 ### See also
 

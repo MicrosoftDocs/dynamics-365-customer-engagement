@@ -1,12 +1,11 @@
 ---
 title: "Troubleshoot Connected Field Service | Microsoft Docs"
 description: Troubleshoot issues with Connected Field Service
-ms.custom:
-- dyn365-fieldservice
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
 ms.topic: troubleshooting
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -53,6 +52,6 @@ One reason pull device data may fail (especially if you've successfully register
 Go to the Azure portal, find your IoT Hub resource, then set pricing and scale tier to **S1-Standard**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the pricing and scale tier settings in IoT Hub](./media/cfs-pricing-tier.png)
+> ![Screenshot of the pricing and scale tier settings in IoT Hub.](./media/cfs-pricing-tier.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,7 +50,7 @@ This topic describes how to create Omnichannel Toast Notification hosted control
     | Application is Global                | Select the checkbox              |
 
  > [!div class=mx-imgBorder] 
- > ![Omnichannel toast notification hosted control](../media/oc-usd-toastnotification-hostedcontrol.png "Omnichannel toast notification hosted control")
+ > ![Omnichannel toast notification hosted control.](../media/oc-usd-toastnotification-hostedcontrol.png "Omnichannel toast notification hosted control")
 
 5. Save the form.
 

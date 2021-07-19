@@ -2,13 +2,11 @@
 title: Overview of Dynamics 365 Field Service
 description: Learn about Dynamics 365 Field Service and its features.
 author: FieldServiceDave
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.reviewer: krbjoran
-ms.custom:
-  - dyn365-fieldservice
 ms.date: 02/23/2021
+ms.custom: intro-internal
 ms.topic: overview
-ms.technology: field-service
 ms.author: daclar
 search.app:
   - D365CE
@@ -112,12 +110,12 @@ Work orders describe the work that a technician needs to perform at a customer l
 1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) data and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and skills required.
 
     Most work orders also include a location based on the related customer account and/or equipment that needs attention; this location routes the field technician from job to job. Finally, incoming work orders that are marked as ready for assignment are passed along to a dispatcher for scheduling.
- > ![Screenshot of Active Work Orders](media/work-order-process-1.png)
+ > ![Screenshot of Active Work Orders.](media/work-order-process-1.png)
 
 2. An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more. This is done via a manual drag-and-drop method, a semi-automated scheduling assistant, or fully automated with Resource Scheduling Optimization.
 
     The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including work orders, sales orders, projects, and custom entities. Additionally, Microsoft 365 integration allows for emailing and skype calling to available resources.
-> ![Screenshot of schedule board](media/work-order-process-2.png) 
+> ![Screenshot of schedule board.](media/work-order-process-2.png) 
 
 3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history, and can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet is not available. 
 
@@ -128,7 +126,7 @@ Work orders describe the work that a technician needs to perform at a customer l
 4. As technicians submit completed work orders, equipment service history and inventory levels update automatically. This allows service managers to manage and track inventory needed, as well as track movement of parts from order to inventory to onsite installation.
 
     For example, if an equipment part is installed at a customer's location during an installation or repair, the system will document a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Closing a work order will then generate an invoice for any used parts or labor.
-> ![Screenshot of completed work order](media/work-order-process-4.png)
+> ![Screenshot of completed work order.](media/work-order-process-4.png)
 
 ## Watch an overview video
 

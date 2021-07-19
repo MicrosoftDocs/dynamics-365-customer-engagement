@@ -115,7 +115,7 @@ search.app:
 
 The following operating systems are supported for offline mode.
 
- ![Offline Support](../media/OfflineSupport.PNG "Offline Support") 
+ ![Offline Support.](../media/OfflineSupport.PNG "Offline Support") 
 
   
 ### See Also  

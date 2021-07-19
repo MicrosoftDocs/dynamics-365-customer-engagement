@@ -50,13 +50,13 @@ Make sure that you have the required security role or equivalent permissions.
 
 5. Select **Save** to save the service.
 
-   ![Create a service](media/create-service-csh.png)
+   ![Create a service.](media/create-service-csh.png)
 
 5. In the **Resource Requirements** section, define the selection criteria.
 
     - Here, the new service record forms the root node. In the root node, you can:
 
-      ![Resource requirement](media/resource-requirement-csh.png)
+      ![Resource requirement.](media/resource-requirement-csh.png)
 
       - Select **All** or **Any**. All selects resources for all the underlying requirements and Any selects resources for any one of underlying requirement.
 

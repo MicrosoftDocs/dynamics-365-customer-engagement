@@ -44,7 +44,7 @@ A valid Azure subscription is required to publish the sample app to Azure.
 
    For example, `https://sampleinteg.azurewebsites.net`.
 
-   ![Select Create to publish app on Azure](media/publish-app-azure.PNG "Select Create to publish app on Azure")<br />
+   ![Select Create to publish app on Azure.](media/publish-app-azure.PNG "Select Create to publish app on Azure")<br />
 
 ## Create a function to use with the app service
 
@@ -81,11 +81,11 @@ A valid Azure subscription is required to publish the sample app to Azure.
 
    **The communication widget in the minimized mode**
 
-   ![Communication widget in the minimized mode](media/widget-minimized-mode.png "Communication widget in the minimized mode")
+   ![Communication widget in the minimized mode.](media/widget-minimized-mode.png "Communication widget in the minimized mode")
    
    **The communication widget in the expanded mode**
    
-   ![Communication widget in the expanded mode](media/widget-expanded-mode.png "Communication widget in the expanded mode")
+   ![Communication widget in the expanded mode.](media/widget-expanded-mode.png "Communication widget in the expanded mode")
 
 > [!Important]
 > - All URLs must be HTTPS.

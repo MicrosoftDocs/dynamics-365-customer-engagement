@@ -23,7 +23,7 @@ You can do the following tasks in the communication panel:
 - Switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
 
  > [!div class=mx-imgBorder]
- > ![Omnichannel communication panel chat interface](media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
+ > ![Omnichannel communication panel chat interface.](media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
 
 ## Enhance agent productivity using keyboard commands
 
@@ -55,7 +55,7 @@ When you want to send messages only to the internal participants like other agen
 When you want to send messages to all the participants in the conversation including the customer, then use the **Public** option.
 
  > [!div class=mx-imgBorder]
- > ![Reply messages by selecting internal or public mode](media/oceh-cc-public-internal-modes.png "Reply messages by selecting internal or public mode")
+ > ![Reply messages by selecting internal or public mode.](media/oceh-cc-public-internal-modes.png "Reply messages by selecting internal or public mode")
 
 You can use the keyboard commands to send internal and public messages:
 
@@ -68,17 +68,17 @@ You can use the keyboard commands to send internal and public messages:
 The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and or internal participants.
 
  > [!div class=mx-imgBorder] 
- > ![Use quick replies option to optimize your replies to customers](media/oceh-send-quick-replies-chat.png "Use quick replies option to optimize your replies to customers")  
+ > ![Use quick replies option to optimize your replies to customers.](media/oceh-send-quick-replies-chat.png "Use quick replies option to optimize your replies to customers")  
 
 You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
 
 The quick replies can be created either by the administrator or by you. You can create personal quick replies if the administrator has enabled the option. The quick replies you created are available on the **Personal** tab of the **Quick replies** panel, and those created by the administrator are available on the **All** tab. Use the personal quick replies when you're in a conversation with a customer by doing the following:
 
-1. Select the quick responses icon ![quick responses icon](media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
+1. Select the quick responses icon ![quick responses icon.](media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
 2. Select the **Personal** tab, and type the number sign (**#**) in the compose box to list the tags and search for the personal quick replies that are available for your use.
 3. Use the **more** option to view the complete text of the quick reply.
 
-    > ![Use personal quick reply](media/use-personal-quick-replies.png "Use personal quick reply")
+    > ![Use personal quick reply.](media/use-personal-quick-replies.png "Use personal quick reply")
 
 
 ### Search for messages
@@ -86,7 +86,7 @@ The quick replies can be created either by the administrator or by you. You can 
 After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you. You can also use the number (#) sign to search for the predefined messages.
 
  > [!div class=mx-imgBorder]
- > ![Type /q and the keyword to filter the replies](media/oceh-send-quick-replies-filter.png "Filter replies")  
+ > ![Type /q and the keyword to filter the replies.](media/oceh-send-quick-replies-filter.png "Filter replies")  
 
 ### Share reconnection link with customers
 
@@ -100,7 +100,7 @@ If the reconnection link is configured by your administrator, you can share the 
 The communication panel allows you to consult with other agents and or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents. The consultee agent should be a part of the same queue as yours for you to consult. If your administrator has enabled the consult pane setting, a separate pane will open beside the communication panel when you start the consultation.
 
  > [!div class=mx-imgBorder]
- > ![Use the consult option to launch the consulting list](media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")
+ > ![Use the consult option to launch the consulting list.](media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")
 
 You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
@@ -116,7 +116,7 @@ After you type **/c** in the communication panel messaging area, you can continu
 In the communication panel, you can transfer the conversation (work item) either to an agent or a queue. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
 
  > [!div class=mx-imgBorder]
- > ![Use the transfer option to launch the transfer list](media/oceh-cc-options-ellipsis-tansfer.png "Use the transfer option to launch the transfer list")
+ > ![Use the transfer option to launch the transfer list.](media/oceh-cc-options-ellipsis-tansfer.png "Use the transfer option to launch the transfer list")
 
 You can transfer the request only to agents who are configured in the same queue. If the request belongs to another queue and you transfer the request, the work distribution system assigns the conversation to the appropriate agent in the queue.
 
@@ -132,20 +132,20 @@ When skill-based routing is enabled, then during the transfer, the **Transfer** 
 
 When a conversation needs to be transferred from one queue to another, the matching criteria that was used in the conversation will be reused to find an agent in the new queue. For example, if exact match had been used to attach the skills to the conversation, the same criteria will be used to find the agent in the new queue.
 
-![Transfer queue list](media/oceh-cc-transfer-queue-list.png "Transfer queue list")
+![Transfer queue list.](media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
 ### Search agents or queues for the transfer of a conversation request
 
 After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
 
-![Filter transfer queue list](media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
+![Filter transfer queue list.](media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
 
 ## Take notes specific to conversation
 
 Use the notes option to capture information specific to the conversation when you interact with customers. Use the option in the communication panel to launch the notes.
 
  > [!div class=mx-imgBorder]
- > ![Launch notes panel for taking notes](media/oceh-cc-option-notes.png "Launch notes panel for taking notes")
+ > ![Launch notes panel for taking notes.](media/oceh-cc-option-notes.png "Launch notes panel for taking notes")
 
 To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
@@ -154,7 +154,7 @@ To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the command to launch knowledge articles search.
 
  > [!div class=mx-imgBorder]
- > ![Use the knowledge articles option in the communication panel to launch the knowledge search page](media/oceh-cc-options-knowledge-articles.png "Use the knowledge articles option in the communication panel to launch the knowledge search page")  
+ > ![Use the knowledge articles option in the communication panel to launch the knowledge search page.](media/oceh-cc-options-knowledge-articles.png "Use the knowledge articles option in the communication panel to launch the knowledge search page")  
 
 **/kb** (forward slash, letter K, and letter B) is the keyboard command to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
 
@@ -165,7 +165,7 @@ To learn more, see [Search for and share knowledge articles](oc-search-knowledge
 When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
 
 > [!div class=mx-imgBorder]
-> ![Use the link to conversation option to launch the link the conversation to a record](media/oceh-cc-options-ellipsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
+> ![Use the link to conversation option to launch the link the conversation to a record.](media/oceh-cc-options-ellipsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
 
 To learn more, see [Search, link, and unlink a record to the conversation](oc-search-link-unlink-record.md).
 

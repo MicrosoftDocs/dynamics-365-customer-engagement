@@ -26,7 +26,7 @@ For a table or an activity to be available for quick creation and visible in the
 - Allow quick create
 - Enable for phone express
 
-![Enable table or activity for quick creation and visibility in the mobile app](media/enable-quick-create.png "Enable table or activity for quick creation and visibility in the mobile app")
+![Enable table or activity for quick creation and visibility in the mobile app.](media/enable-quick-create.png "Enable table or activity for quick creation and visibility in the mobile app")
 
 When you select the checkboxes, the following metadata properties are set:
 

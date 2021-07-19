@@ -4,7 +4,7 @@ description: "Impersonation is used to execute business logic (custom code) on b
 ms.custom: on-premise
 ms.date: 1/24/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

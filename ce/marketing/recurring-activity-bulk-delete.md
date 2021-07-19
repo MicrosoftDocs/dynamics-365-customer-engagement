@@ -35,7 +35,7 @@ To prevent the database size from increasing indefinitely, we have created recur
 - *Microsoft.Dynamics.EventManagement.ActivityBulkDeleteJob* to clear event management-specific activities.
 
 > [!div class="mx-imgBorder"]
-> ![Deployed bulk activity deletion job on a customer instance](media/bulk-activity-deletion.png)
+> ![Deployed bulk activity deletion job on a customer instance.](media/bulk-activity-deletion.png)
 
 ## Options to manually clear the table
 
