@@ -116,7 +116,7 @@ As a seller, you want the workspace the display records that you're working on. 
     > Though the **Add** dropdown menu displays **Add related entity**, this option isn't supported in this release.   
 1. Select the **Or** operator in the dropdown menu next to the group filter checkbox.
 
-For more information on filters with grouped and nested conditions, see [Create or edit filters in model-driven app views](/powerapps/maker/model-driven-apps/create-edit-view-filters)
+For more information on filters with grouped and nested conditions, see [Create or edit filters in model-driven app views](/powerapps/maker/model-driven-apps/create-edit-view-filters).
 
 ## Create a view
 
