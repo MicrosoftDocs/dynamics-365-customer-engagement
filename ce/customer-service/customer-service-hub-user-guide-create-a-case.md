@@ -15,6 +15,13 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+searchScope:
+- D365-App-customerservice
+- D365-Entity-incident
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 # Work with cases
 
@@ -29,6 +36,7 @@ Watch this video to learn more about case management in the Customer Service Hub
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Create a case
+
 1. Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
 2. In the Customer Service Hub sitemap, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
 
@@ -106,9 +114,7 @@ Watch this video to learn more about case management in the Customer Service Hub
 
 ### See also
 
-[Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
-
-[Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
-
+[Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)  
+[Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

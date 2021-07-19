@@ -1,6 +1,6 @@
 ---
-title: Set custom icon for custom Case Origin field (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to set custom icon for custom Case Origin field in Dynamics 365 Customer Service
+title: Set custom icon for custom Case Origin field | MicrosoftDocs
+description: This topic provides information on how to set custom icon for custom Case Origin field in Dynamics 365 Customer Service.
 ms.date: 06/01/2018
 ms.topic: article
 author: neeranelli

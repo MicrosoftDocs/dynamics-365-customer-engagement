@@ -1,15 +1,13 @@
 ---
 title: "Register and deploy custom plug-in to use your preferred geospatial data provider (Developer Guide for Dynamics 365 Field Service) | MicrosoftDocs"
 description: "Provides information on how to register and deploy your custom plug-in assembly to use geospatial data providers other than the default Bing Maps in Dynamics 365 Field Service."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-customerservice
 ms.date: 01/29/2018
 searchScope: 
   - Field Service
   - Project Service
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: conceptual
 author: FieldServiceDave
 ms.author: daclar
