@@ -12,23 +12,52 @@ ms.service: dynamics-365-customerservice
 
 # Outbound calling
 
+// Video: https://msit.microsoftstream.com/video/78a80840-98dc-b561-710e-f1ebd538f986
+
+- Oubound profiles
 
 ## Prerequisites
 > [!Note]
 >
 
->[!TIP] 
-> 
 
-
-
-## Step 1:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+## Configure a phone number for outbound calling
 
-## Step 2:
+- Enable Make calls
+
+
+
+## Create a queue
+
+- must be "voice" type queue
+
+>[!TIP] 
+> It it recommended to create a queue specifically for outbound calling. This helps with monitoring and reporting like outbound specific sentiment. Though it is supported for a queue to be both inbound and outbound. 
+
+## Create a capacity profile 
+- number of outbound calls a person can make at one time
+
+## Assign a user the capacity profile 
+
+## Create an Outbound profile
+
+
+- The first run experience create an outbound profile by default. Only 1 outbound profile can be created and cannot be deleted. 
+
+Profile Name
+Phone Number - use outbound calling phone number. shows in caller ID.
+Queue
+Capacity
+Hold Music
+Wait music
+Transcription and recording
+Start setting
+Allow agents to pause and resume
+
 
 ## Configuration considerations
 ## Additional Notes
