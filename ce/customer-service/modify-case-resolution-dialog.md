@@ -102,6 +102,7 @@ After you've added the duplicate status to the case entity, add the same to the 
 6. Select **Save and Close**.
 
 ## Modify case resolution form
+As an example, let's see how to remove the **Billable Time** field from the **Information** form.
 
 1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
 
@@ -116,7 +117,16 @@ After you've added the duplicate status to the case entity, add the same to the 
 4. Select **Save**, and then select **Publish**.
     Now, when the customer service reps try to resolve a case, the case resolution dialog won't display the field you removed.
 
-5. In the **Resolution Type** dropdown list, select **Duplicate**.
+## Check for resolved cases
+
+As an example, let's see how to check if a case has been resolved by using its status reason, like **Duplicate**. 
+
+1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
+
+2. Open the form you want to edit. For this example, let's select the **Case** form.
+    The form opens in the form designer.
+
+3. In the **Resolution Type** dropdown list, select **Duplicate**.
     You'll know if a case has been successfully resolved by checking the status bar at the top of the form.
 
 ### See also
