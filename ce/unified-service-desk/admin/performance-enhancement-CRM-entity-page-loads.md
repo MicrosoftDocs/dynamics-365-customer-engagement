@@ -101,9 +101,9 @@ In Edge WebView2 Process, the nav bar is always hidden on the pooled Edge WebVie
 
 ### Block second navigation in Edge WebView2 Process pooling
 
-When an application (hosted control) is initialized and you do an inline navigation to another entity page using the same application (hosted control), then the second navigation is also inline. If you've specific window navigation rule between the same entity type with the **Route Window** action and **In Place** type, then the window navigation rule triggers the rule in a loop causing Unified Service Desk to crash. 
+When an application (hosted control) is initialized and you do an inline navigation to another entity page using the same application (hosted control), then the second navigation also happens inline. If you have a specific window navigation rule between the same entity type with the **Route Window** action and **In Place** type, then the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
 
-For example, with Edge WebView2 Process pooling, if you've set window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, then window navigation rule loops in a recursive manner causing Unified Service Desk to crash.
+For example, with Edge WebView2 Process pooling, if you've set window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, then window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
 
 To prevent Unified Service Desk from crashing, you can do one of the following:
 
