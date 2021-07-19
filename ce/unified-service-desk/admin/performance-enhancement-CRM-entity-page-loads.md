@@ -282,7 +282,7 @@ Use the **ShowNavBar** UII option if you want to show the nav bar for all the en
 
 ### Block second navigation in Chrome Process pooling
 
-When an application (hosted control) is initialized and you perform an inline navigation to another entity page by using the same application (hosted control), then the second navigation also occurs inline. If you have a specific window navigation rule between two instances of the same entity type (such as a **Route Window** action and an **In Place** type), then the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash. 
+When an application (hosted control) is initialized and you perform an inline navigation to another entity page by using the same application (hosted control), then the second navigation also occurs inline. If you have a specific window navigation rule between two instances of the same entity type (such as a **Route Window** action and an **In Place** type), then the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
 
 For example, with Chrome Process pooling, if you've set a window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
 
@@ -318,8 +318,6 @@ After the adding UII option, and if you set the value as **True**, then the opti
 6. In the **Global Option** field, select **Others**.
 
 7. In the **Name** field, enter **BlockChromeProcessSecondInlineNavigation**.
-
-7. Type **BlockChromeProcessSecondInlineNavigation** for the **Name** field.
 
 8. In the **Value** field, select **True**.
 
