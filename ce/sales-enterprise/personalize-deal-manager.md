@@ -116,6 +116,8 @@ As a seller, you want the workspace the display records that you're working on. 
     > Though the **Add** dropdown menu displays **Add related entity**, this option isn't supported in this release.   
 1. Select the **Or** operator in the dropdown menu next to the group filter checkbox.
 
+For more information on filters with grouped and nested conditions, see [Create or edit filters in model-driven app views](/powerapps/maker/model-driven-apps/create-edit-view-filters)
+
 ## Create a view
 
 The personalization changes that you directly make in the grid don't persist across sessions. If you want to save your changes permanently, create a view. You can personalize the following aspects of the grid in a view:
@@ -132,14 +134,13 @@ The personalization changes that you directly make in the grid don't persist acr
 1. In the deal manager workspace, select **View** > **Create Personal View**.
 
 1. In the **View Designer**, personalize the columns and apply filters to meet your needs.
-    :::image type="content" source="media/view-designer.PNG" alt-text="Screenshot of the view designer in Power Apps.":::<!--note from editor: Should this say "in the deal manager workspace", or did we switch to the Power Apps UI here? -->
+    :::image type="content" source="media/view-designer.PNG" alt-text="Screenshot of the view designer in Power Apps.":::
 
 1. Save the changes.
 
 ## Edit a view
 
 The option to edit a view isn't yet supported in the deal manager workspace. You can, however, edit the view in Power Apps.
-
 
 ## Switch to a view
 
