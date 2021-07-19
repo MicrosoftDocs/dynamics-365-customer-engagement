@@ -58,6 +58,44 @@ Transcription and recording
 Start setting
 Allow agents to pause and resume
 
+## Call a customer
+
+
+
 
 ## Configuration considerations
+
+### Call backs
+
+Oftentimes agents need to call customers back at a later time. It is recommended to create a phone call activity with direction set to Outbound as a reminder for the agent. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-callback1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-callback2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-callback3.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-callback4.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-callback5.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-callback6.png)
+
+
 ## Additional Notes
+
+### Understanding outbound queues
+
+By creating an outbound queue, this allows managers to see outbound calls in the Omnichannel Ongoing Conversations Dashboard. Not used for capacity planning, used for monitoring and reporting. 
