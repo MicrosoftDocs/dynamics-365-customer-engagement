@@ -48,17 +48,17 @@ You must enable the Customizable dialog option to ensure that the changes you ma
 
 3. In the **Resolve case dialog** section, select **Customizable dialog** from the dropdown list.
 
-4. Select **Save**. The Customizable dialog option is now enabled, and any changes you make to your form are now displayed at runtime.
+4. Select **Save**. The customizable dialog option is now enabled, and any changes you make to your form will be displayed at runtime.
 
 ## Create and add custom status values
 
-After you enable the Customizable dialog option, you can create status values in your form. Add the custom status values in the following two locations:
+After you enable the customizable dialog option, you can create status values in your form. Add the custom status values in the following two locations:
 
 - **Case entity** (**statuscode** in our example)
 - **Case Resolution entity** (**resolutiontypecode** in our example)
 
 > [!Important]
-> If you change the value in the **Case entity**, be sure to update the value in the **Case Resolution entity** so they match. If the values don't match, an error might be thrown. If the values don't match in the customizable dialog, the option that you specified won't show up.
+> If you change the value in **Case entity**, be sure to update the value in **Case Resolution entity** so they match. If the values don't match, an error might be thrown. If the values don't match in the customizable dialog, the option that you specified won't show up.
 
 ### Update case entity
 
@@ -76,7 +76,7 @@ You can use case resolution to resolve situations where you receive duplicate ca
 4. Double-click to select the **statuscode** field. The **General** tab of **Status Reason of Case** is displayed.
 
 5. In the **Status** dropdown list in the **Type** section, select a status. For this example, let's select **Resolved** and then select **Add**.
-    The **Add List Value** dialog box is displayed.
+    The **Add List Value** dialog is displayed.
 
 6. In the **Label** field, enter **Duplicate** and note down the value listed in the **Value** field.  
 
@@ -112,10 +112,10 @@ As an example, let's see how to remove the **Billable Time** field from the **In
 3. In the form designer, do the following:
     1. Select **Billable Time**.
 
-    2. On the command bar, select **Remove** to remove the field.
+    2. On the command bar, select **Remove**.
 
 4. Select **Save**, and then select **Publish**.
-    Now, when the customer service reps try to resolve a case, the case resolution dialog won't display the field you removed.
+    Now, when the customer service reps try to resolve a case, the case resolution dialog won't display the field that you removed.
 
 ## Check for resolved cases
 
