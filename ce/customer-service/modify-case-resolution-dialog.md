@@ -52,7 +52,7 @@ You must enable the Customizable dialog option to ensure that the changes you ma
 
 ## Create and add custom status values
 
-After you enable the customizable dialog option, you can create status values in your form. Add the custom status values in the following two locations:
+Add the custom status values in the following two locations:
 
 - **Case entity** (**statuscode** in our example)
 - **Case Resolution entity** (**resolutiontypecode** in our example)
