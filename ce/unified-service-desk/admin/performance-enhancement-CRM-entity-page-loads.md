@@ -67,11 +67,11 @@ By default, Edge Webview2 Process pooling is enabled. To disable pooling, the Sy
 
 ### Skip inline entity navigation in Edge WebView2 Process pooling
 
-If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2PoolingForEntities** UII option and enter the entity names as comma-separated values. For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2PoolingForEntities UII option](#add-the-blockedgewebview2poolingforentities-uii-option).
+If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2PoolingForEntities** UII option and enter the entity names as comma-separated values, as described in the following section.
 
 #### Add the BlockEdgeWebView2PoolingForEntities UII option
 
-To skip inline navigation for certain entities, you must configure the option on the **Active UII Options** page and the entity names as comma-separated values.
+To skip inline navigation for certain entities, you must configure the option on the **Active UII Options** page and add the entity names as comma-separated values.
 
 1. Sign in to the Dynamics 365 instance.
 
@@ -198,7 +198,7 @@ By default, Chrome Process pooling is enabled. To disable pooling, you must conf
 
 ### Skip inline entity navigation in Chrome Process pooling
 
-If you want to skip the inline navigation for certain entities such as incident, account, and contact, add the **BlockChromeProcessPooling** UII option and enter the entity names as comma-separated values&mdash;for example, **incident,account,contact**, as described in the following section.
+If you want to skip the inline navigation for certain entities such as incident, account, and contact, add the **BlockChromeProcessPooling** UII option and enter the entity names as comma-separated values&mdash;for example, **incident,account,contact**&mdash;as described in the following section.
 
 #### Add the BlockChromeProcessPooling UII option
 
@@ -224,7 +224,7 @@ To skip inline navigation for certain entities, you must configure the option on
 
 ### Hide command bar in Chrome Process
 
-In Chrome Process, the command bar is always shown on pooled Chrome Process instances. You can hhide the command bar for a specific entity or for all entities in the Chrome Process pooled instances.
+In Chrome Process, the command bar is always shown on pooled Chrome Process instances. You can hide the command bar for a specific entity or for all entities in the Chrome Process pooled instances.
 
 **To hide command bar for a specific entity**
 
@@ -252,7 +252,7 @@ In Chrome Process, the command bar is always shown on pooled Chrome Process inst
 
 ### Show nav bar in Chrome Process
 
-In Chrome Process, the nav bar is always hidden on the pooled Chrome Process instances. You can show the nav bar for a specific entity or for all the entities in the Chrome Process pooled instances.
+In Chrome Process, the nav bar is always hidden on the pooled Chrome Process instances. You can show the nav bar for a specific entity or for all entities in the Chrome Process pooled instances.
 
 **To show nav bar for a specific entity**
 
