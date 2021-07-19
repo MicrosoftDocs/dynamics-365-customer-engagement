@@ -303,7 +303,7 @@ To avoid the crash of Unified Service Desk, you can do one of the following:
 
 By default, second inline navigation is blocked when using Chrome Process&mdash;that is, the option is enabled by default. However, if you want to allow the second inline navigation&mdash;in other words, disable the option&mdash;create the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **False**.
 
-After the adding UII option, and if you set the value as **True**, then the option is enabled and blocks the second inline navigation.
+After adding the UII option, if you set the value as **True**, the option is enabled and blocks the second inline navigation.
 
 1. Sign in to the Dynamics 365 instance.
 
