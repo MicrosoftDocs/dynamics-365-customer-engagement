@@ -119,15 +119,17 @@ Continuing with the same example, let's now see how to use the **Duplicate** cus
 
 **To automatically resolve duplicate cases**
 
-1. In Customer Service Hub, double-click to open a case that you recognize as similar or duplicate of an earlier resolved case. The Summary page with the case details opens.
+1. In the site map of Customer Service Hub, go to **Service**, and then select **Cases**.
 
-2. To resolve the case, select **Resolve Case** on the command bar.
+2. Double-click to open a case that you recognize as similar or duplicate of an earlier resolved case. The Summary page with the case details opens.
 
-3. In the **New Case Resolution** dialog that opens, do the following:
+3. To resolve the case, select **Resolve Case** on the command bar.
+
+4. In the **New Case Resolution** dialog that opens, do the following:
    1. In the **Resolution Type** dropdown list, select **Duplicate**.
    2. In the **Resolution** field, add case resolution notes.
 
-4. Select **Save and Close**.
+5. Select **Save and Close**.
 
 The case is automatically marked as resolved and you'll see the resolved status for the case, just below the command bar. 
 
