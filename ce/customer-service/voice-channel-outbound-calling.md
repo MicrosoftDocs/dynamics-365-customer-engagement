@@ -22,14 +22,15 @@ ms.service: dynamics-365-customerservice
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Configure a phone number for outbound calling
 
 - Enable Make calls
 
-voice-channel-outbound-phone-number
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-phone-number.png)
 
 
 
@@ -37,36 +38,52 @@ voice-channel-outbound-phone-number
 
 - must be "voice" type queue
 
-voice-channel-outbound-queue
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-queue.png)
 
 >[!TIP] 
 > It it recommended to create a queue specifically for outbound calling. This helps with monitoring and reporting like outbound specific sentiment. Though it is supported for a queue to be both inbound and outbound. 
 
 ## Add a user to the queue
 
-voice-channel-outbound-queue-add-user
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-queue-add-user.png)
 
 ## Create a capacity profile 
 - number of outbound calls a person can make at one time
 
-voice-channel-outbound-capacity-profile-nav
 
-voice-channel-outbound-capacity-profile
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-nav.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile.png)
 
 ## Assign a user the capacity profile 
 
-voice-channel-outbound-capacity-profile-add-user-nav
 
-voice-channel-outbound-capacity-profile-add-user
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user-nav.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user.png)
 
 ## Create an Outbound profile
 
-voice-channel-outbound-profile-nav
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-profile-nav.png)
 
 
 - The first run experience create an outbound profile by default. Only 1 outbound profile can be created and cannot be deleted. 
 
-voice-channel-outbound-profile
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-profile.png)
 
 
 Profile Name
@@ -93,9 +110,13 @@ See the topic on [Message session templates](https://docs.microsoft.com/dynamics
 
 ## Call a customer
 
-voice-channel-outbound-call
 
-voice-channel-outbound-call2
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-call.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-call2.png)
 
 
 
