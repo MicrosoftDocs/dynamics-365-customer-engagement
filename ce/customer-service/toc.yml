@@ -208,7 +208,7 @@
       items: 
       - name: Allow updates for resolved and canceled cases
         href: update-resolved-canceled-cases.md
-      - name: Modify case resolution dialog box
+      - name: Modify case resolution dialog
         href: modify-case-resolution-dialog.md
   - name: Automatically create or update records
     items: 
