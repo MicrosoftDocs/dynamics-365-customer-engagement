@@ -13,22 +13,33 @@ ms.service: dynamics-365-customerservice
 
 
 ## Prerequisites
-> [!Note]
->
 
->[!TIP] 
-> 
+[Set up Outbound Calling](voice-channel-outbound-calling.md)
 
+## Call from dialpad
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-call.png)
+
+## Call from contact 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-call2.png)
+
+## Configuration considerations
+
+### See number calling from
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-call3.png)
 
-## Step 1:
+### Choose device settings
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-call4.png)
 
 
 
 
-## Step 2:
-
-## Configuration considerations
 ## Additional Notes
