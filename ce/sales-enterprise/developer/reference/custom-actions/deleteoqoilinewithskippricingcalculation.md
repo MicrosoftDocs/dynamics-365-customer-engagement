@@ -18,7 +18,7 @@ Enables you to delete opportunity, quote, order, and invoice line item without t
 
 |Name|Type|Required|Description|
 |----|----|----|----|
-|entityName|String|Yes|Name of the entity|
+|entityLogicalName|String|Yes|Name of the entity|
 |entityId|GUID|Yes|Unique identifier of the entity record|
 
 ## Example
