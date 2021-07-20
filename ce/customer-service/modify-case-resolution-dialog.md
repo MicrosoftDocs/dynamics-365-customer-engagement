@@ -122,7 +122,7 @@ Continuing with the same example, let's now see how to use the **Duplicate** cus
 
 1. In the site map of Customer Service Hub, go to **Service**, and then select **Cases**.
 
-2. Double-click to open a case that you recognize as similar or duplicate of an earlier resolved case. The Summary page with the case details opens.
+2. Double-click to open a case that you recognize as similar or duplicate of a previously resolved case. The Summary page with the case details opens.
 
 3. To resolve the case, select **Resolve Case** on the command bar.
 
@@ -132,7 +132,7 @@ Continuing with the same example, let's now see how to use the **Duplicate** cus
 
 5. Select **Save and Close**.
 
-The case is automatically marked as resolved and you'll see the resolved status for the case, just below the command bar. 
+The case is automatically marked as resolved and you'll see the resolved status for the case, just below the command bar.
 
 ### See also
 
