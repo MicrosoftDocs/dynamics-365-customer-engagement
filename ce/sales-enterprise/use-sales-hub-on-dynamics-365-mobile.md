@@ -27,7 +27,7 @@ Before you can start using the app, you need to install the Dynamics 365 for mob
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
 
 > [!IMPORTANT]
-> It is recommended for all Dynamics 365 Sales users who are using the Dynamics 365 for phones and tablet app to migrate and start using the Dynamics 365 Sales app instead. More information: 
+> It is recommended for all Dynamics 365 Sales users who are using the Dynamics 365 for phones and tablet app to migrate and start using the Dynamics 365 Sales app instead. For more information about the Dynamics 365 Sales mobile app, go to [Overview of the Dynamics 365 Sales mobile app](sales-mobile/dynamics-365-sales-mobile-app.md)
 
 ## Basic navigation
 
