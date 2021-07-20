@@ -337,7 +337,12 @@
       - name: Track a marketing campaign response
         href: ../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md
     - name: Use Sales Hub on the mobile app
-      href: ../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md
+      items:
+      - name: Use the Sales Hub app on Dynamics 365 Sales app
+        href: use-sales-hub-on-mobile-app.md
+      - name: Use the Sales Hub app on Dynamics 365 for phones and tablets app
+        href: ../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md
+
   - name: Troubleshooting and FAQs
     items: 
     - name: Dynamics 365 Sales Troubleshooting guide

@@ -1,7 +1,7 @@
 ---
 title: Overview of the Dynamics 365 Sales mobile app
 description: Learn about the Dynamics 365 Sales mobile app
-ms.date: 05/31/2021
+ms.date: 07/20/2021
 ms.topic: article
 ms.custom: intro-internal
 author: sbmjais
@@ -16,7 +16,7 @@ Mobile apps help sellers build great customer relationships, stay up-to-date wit
 In contrast to the Dynamics 365 for phones and tablets app, which is a model-driven app that you use to open any customer engagement app like Sales Hub or Customer Service Hub on mobile, the Dynamics 365 Sales mobile app is specifically designed for core sales scenarios while still supporting model-driven configurations. 
 
 > [!NOTE]
-> It is recommended for all Dynamics 365 Sales users who are using the Dynamics 365 for phones and tablet app to migrate and start using the Dynamics 365 Sales app instead.
+> It is recommended for all Dynamics 365 Sales users who are using the Dynamics 365 for phones and tablets app to migrate and start using the Dynamics 365 Sales app instead. To know about the difference between Dynamics 365 Sales app and Dynamics 365 for phones and tablets app, click [here](#difference-between-dynamics-365-sales-app-and-dynamics-365-for-phones-and-tablets-app).
 
 With the Dynamics 365 Sales mobile app, you can do the following (and much more):
 
@@ -27,6 +27,25 @@ With the Dynamics 365 Sales mobile app, you can do the following (and much more)
 - Find required information and act accordingly: Find a contact you want to reach out to with ease, or find the recent records you worked on.
 
 The Dynamics 365 Sales mobile app can be installed on [iOS](install-ios-app.md) and [Android](install-android-app.md). 
+
+## Difference between Dynamics 365 Sales app and Dynamics 365 for phones and tablets app
+
+|Capability|Dynamics 365 Sales app|Dynamics 365 for phones and tablets app|
+|--------|----------------------|---------------------------------------|
+|Supported licenses|All|All|
+|Supported devices|iOS and Android mobile phones. The app supports tablets, but the app's user interface is displayed using Unified Interface (same as in Dynamics 365 for tablets).|iOS and Android mobile phones and tablets|
+|App store availability|Apple App Store, Google Play|Apple App Store, Google Play|
+|Offline|Partial. The app's user interface is displayed using Unified Interface.|Yes|
+|Supported model driven apps|All, including custom app modules. <br>**Note**: The app is not recommended for app modules that are not Dynamics 365 Sales.|All, including custom app modules|
+|Supported search capabilities|Relevance search and categorized search. The app has an improved user experience for relevance search.|Relevance search and categorized search.|
+|Online meeting|Supported. You can attend meetings through Exchange Online.|Not supported. You can only view meetings.|
+|Server-side sync integration (allows you to track meetings and perform other tasks)|Supported|Not supported|
+|Exchange Online calendar integration|Supported|Not supported|
+|Join Microsoft Teams meeting|Supported|Not supported|
+|Voice dictation for capturing notes|Supported|Not supported|
+|Push notifications|Supported|Not supported|
+|Lightweight record and activity forms|Supported|Not supported|
+|||
 
 ### See also
 
