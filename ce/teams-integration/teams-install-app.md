@@ -88,7 +88,7 @@ If you're using the Sales Hub app, use the App Settings page to enable the integ
 
 4. To enable the [Enhanced Collaboration Experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams integration**. To turn this option on, you need Microsoft 365 tenant admin permissions. When Enhanced Microsoft Teams integration is enabled, the **Collaborate** button appears on the record and view page in customer engagement apps. You can set up a connection with any Microsoft Teams collaboration channel within an app.
 
-    1. When you select **Yes** to **Enable Enhanced Microsoft Teams integration**, two consent permission pop-up boxes will display. If you have a pop-up blocker and don't see the second consent dialog, you'll need to disable the pop-up blocker in your browser. <!-- EJW: Per the style guidelines, we should be using pop-up as a hyphenate, however it was originally used here as both "pop-up" and "popup." I’ve changed it in the text, but since the image shows “popup” as one word, I’ll let you decide how best to handle this. -->
+    1. When you select **Yes** to **Enable Enhanced Microsoft Teams integration**, two consent permission pop-up boxes will display. If you have a popup blocker and don't see the second consent dialog, you'll need to disable the popup blocker in your browser.  
   
         > [!div class="mx-imgBorder"] 
         > ![Disable popup blocker ](media/popupblocker.png "Disable popup blocker")
