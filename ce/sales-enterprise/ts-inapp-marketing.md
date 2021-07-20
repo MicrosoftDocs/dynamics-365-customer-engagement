@@ -241,7 +241,7 @@ To resolve the issue, add the **Campaign Activities** tab to the form.
 
 9. Save the changes and publish the form.
 
-To verify that the issue has been resolved, open the account that has been used in campaigns and has some distributed campaign activities. Select the **Campaign Activities** tab to verify that the related campaign activities appear.<!--note from editor: Suggested.-->
+To verify that the issue has been resolved, open the account that has been used in campaigns and has some distributed campaign activities. Select the **Campaign Activities** tab to verify that the related campaign activities appear.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Campaign Activities tab and the activities subgrid added to the account form.](media/troubleshooting-inapp-campaign-activities-tab-added.png "The Campaign Activities tab is added with the activities subgrid")
