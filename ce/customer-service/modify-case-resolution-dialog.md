@@ -17,7 +17,8 @@ searchScope:
 
 # Modify the case resolution dialog
 
-As an administrator, you can customize the case resolution dialog so that your organization can cater the case resolution process to suit your business needs. You can modify the case resolution dialog to add fields like **Resolution type** or remove fields like **Billable Time**, if they don't apply to your business scenarios. You can introduce client-side business validations or remove existing ones. You can also customize the case resolution entity.
+You can customize the case resolution dialog to suit your business needs. You can modify the dialog to add fields like **Resolution type** or remove fields like **Billable Time**, if they don't apply to your business scenarios. You can also add or remove business rules.
+The following sections discuss the permissions you'll need to modify the case resolution dialog, how to enable the option to customize dialogs in Customer Service Hub, and also how you can add custom fields and values to your dialogs using sample scenarios.
 
 > [!Note]
 > The option to customize the case resolution dialog is also available in Dynamics 365 Customer Engagement (on-premises) 9.1.
@@ -33,11 +34,11 @@ Make sure that the Customer Service Manager and Customer Service Representative 
 > [!Note]
 > If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
 
-## Enable customizable dialog
+## Customize dialogs
 
-By default, the case resolution dialog is set to standard dialog. If you want custom status values to be available in **Resolve case dialog** when your customer service representatives resolve cases, you must set the option to customizable dialog.
+By default, the type of the case resolution or **Resolve case** dialog is set to standard dialog. You can, however, change the type of the Resolve case dialog so that you can add custom fields and values to it.
 
-**To enable customizable dialogs**
+**To enable the Customizable dialog option**
 
 1. In Customer Service Hub, go to **Service Management**.
 
@@ -47,63 +48,9 @@ By default, the case resolution dialog is set to standard dialog. If you want cu
 
 4. Select **Save**.
 
-## Create and add custom status values
+## Add or remove fields from the case resolution dialog
 
-Add the custom status values in the following two locations:
-<!-- Neeraja: This order is not required for configuration. You can add the custom status values and enable the customizable dialog. So, the first statement is not required. The information in the note is mandatory and therefore should be part of the introductory sentence and not listed as additional information. -->
-<!-- I understand that the procedures in the **Update case entity** and **Update case resolution entity** sections are example scenarios. Therefore, we should call it out explicitly in this section. Also, how does this play out in runtime? -->
-
-- **Case entity** (**statuscode** in our example)
-- **Case Resolution entity** (**resolutiontypecode** in our example)
-
-> [!Important]
-> If you change the value in **Case entity**, be sure to update the value in **Case Resolution entity** so they match. If the values don't match, an error might be thrown. If the values don't match in the customizable dialog, the option that you specified won't show up.
-
-
-### Update case entity
-
-You can use case resolution to resolve situations where you receive duplicate cases. As an example, let's see how to set the resolution type to display cases with duplicate status.
-
-**To set the case entity for duplicate cases**
-
-1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
-   If using [Power Apps](https://make.powerapps.com/), go to **Settings**, and under **Power Apps**, select  **Advanced Settings**, then select **Customizations** and **Customize the System**.
-
-2. In the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
-
-3. On the page that appears, select the field you want to update. For this example, let's select **statuscode** in the **Name** column.
-
-4. Double-click to select the **statuscode** field. The **General** tab of **Status Reason of Case** is displayed.
-
-5. In the **Status** dropdown list in the **Type** section, select a status. For this example, let's select **Resolved** and then select **Add**.
-    The **Add List Value** dialog is displayed.
-
-6. In the **Label** field, enter **Duplicate** and note down the value listed in the **Value** field.  
-
-7. Select **OK**. You've successfully added a duplicate status to the case entity&mdash;**statuscode**.  
-
-### Update case resolution entity
-
-After you've added the duplicate status to the case entity, add the same to the case resolution entity.
-
-**To update the case resolution entity for the changed value of the case entity**
-
-1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
-
-2. On the page that appears, select the field that you want to update. For this example, let's select **resolutiontypecode** in the **Name** column.
-
-3. Double-click to select the **resolutiontypecode** field. The **General** tab of **Resolution Type of Case Resolution** is displayed.
-
-4. In the **Options** section, select the plus sign to automatically populate the **Label** and **Value** fields.
-
-5. In the **Label** field, enter a value name. For this example, enter **Duplicate**.
-   Check whether the value listed for this field matches the value in the case entity.  
-
-6. Select **Save and Close**.
-
-## Modify case resolution form
-
-You can modify the case resolution form and remove a field so that it no longer appears at runtime for the user.
+You can modify the case resolution dialog and remove a field so that it no longer appears at runtime for the user.
 
 As an example, let's see how to remove the **Billable Time** field from the **Information** form.
 
@@ -121,19 +68,68 @@ As an example, let's see how to remove the **Billable Time** field from the **In
 
 When the customer service representatives try to resolve a case, the case resolution dialog won't display the field that you removed.
 
-## Check for resolved cases
+## Add custom values to the case resolution dialog
 
-<!-- Neeraja: Not sure if this procedure is accurate -->
+Let's understand how to add custom status values to the case resolution dialog with an example. Say, for example, you receive many similar business cases and you want improve agent productivity and reduce case resolution time. You can add a case resolution rule where any case that's similar to a previously resolved case can be resolved by marking it as a "duplicate case". 
+To do so, you'll need to update the Case entity to add a new **Resolved** status type and assign a **Duplicate** custom value to it. You'll also need to update the resolution type of the Case Resolution entity with the same custom value to ensure that all duplicate cases are assigned the same resolution type.
+<!--
+In our example, we'll add the custom status values in the following two locations:
+- **Case entity** (**statuscode** field in our example)
+- **Case Resolution entity** (**resolutiontypecode** field in our example)
+-->
+> [!Important]
+> If you change the value in **Case entity**, be sure to update the value in **Case Resolution entity** so they match. If the values don't match, an error might be thrown. If the values don't match in the customizable dialog, the values that you specified won't display.
 
-As an example, let's see how to check if a case has been resolved by using its status reason, like **Duplicate**. 
+**To update the case entity**
 
-1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
+1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
+   
+   If using [Power Apps](https://make.powerapps.com/), go to **Settings**, and under **Power Apps**, select  **Advanced Settings**, then select **Customizations** and **Customize the System**.
 
-2. Open the form you want to edit. For this example, let's select the **Case** form.
-    The form opens in the form designer.
+2. In the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
 
-3. In the **Resolution Type** dropdown list, select **Duplicate**.
-    You'll know if a case has been successfully resolved by checking the status bar at the top of the form.
+3. On the page that appears, select the field you want to update. For this example, let's select **statuscode** in the **Name** column.
+
+4. Double-click to select the **statuscode** field. The **General** tab of **Status Reason of Case** is displayed.
+
+5. In the **Status** dropdown list in the **Type** section, select a status. For this example, let's select **Resolved** and then select **Add**.
+   The **Add List Value** dialog is displayed.
+
+6. In the **Label** field, enter **Duplicate** and note down the value listed in the **Value** field.  
+
+7. Select **OK** and then select **Save and Close**. You've successfully added a custom status type and status value to the case entity.  
+
+After you've added the **Duplicate** custom status value to the status code field of the case entity, add the same status value to the resolution type field of the case resolution entity, as described in the following section.
+
+**To update the case resolution entity**
+
+1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
+
+2. On the page that appears, select the field that you want to update. For this example, let's select **resolutiontypecode** in the **Name** column.
+
+3. Double-click to select the **resolutiontypecode** field. The **General** tab of **Resolution Type of Case Resolution** is displayed.
+
+4. In the **Options** section, select the plus sign to add a new item to the **Label** and **Value** fields.
+
+5. In the **Label** field, enter a value name; **Duplicate** in our example. In the **Value** field,enter the corresponding value you noted earlier in the case entity statuscode field.
+
+6. Select **Save and Close**.
+
+Continuing with the same example, let's now see how to use the **Duplicate** custom status value in case resolution, so that duplicate cases are automatically marked as resolved.
+
+**To automatically resolve duplicate cases**
+
+1. In Customer Service Hub, double-click to open a case that you recognize as similar or duplicate of an earlier resolved case. The Summary page with the case details opens.
+
+2. To resolve the case, select **Resolve Case** on the command bar.
+
+3. In the **New Case Resolution** dialog that opens, do the following:
+   1. In the **Resolution Type** dropdown list, select **Duplicate**.
+   2. In the **Resolution** field, add case resolution notes.
+
+4. Select **Save and Close**.
+
+The case is automatically marked as resolved and you'll see the resolved status for the case, just below the command bar. 
 
 ### See also
 
