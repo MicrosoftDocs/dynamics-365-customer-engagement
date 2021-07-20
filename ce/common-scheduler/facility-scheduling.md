@@ -1,11 +1,10 @@
 ---
 title: "Facility scheduling with Universal Resource Scheduling | MicrosoftDocs"
 description: Learn all about facility scheduling with Universal Resource Scheduling
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 1/9/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

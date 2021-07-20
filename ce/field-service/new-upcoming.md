@@ -4,9 +4,7 @@ description: New and planned features for Field Service
 author: FieldServiceDave
 ms.reviewer: krbjoran
 manager: shellyha
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-fieldservice
+ms.service: dynamics-365-field-service
 ms.date: 05/16/2019
 ms.topic: article
 ms.author: daclar

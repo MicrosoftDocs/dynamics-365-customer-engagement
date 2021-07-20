@@ -1,11 +1,10 @@
 ---
 title: "Feature deprecations for Universal Resource Scheduling | MicrosoftDocs"
 description: Learn about features that are being deprecated for Universal Resource Scheduling
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 04/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

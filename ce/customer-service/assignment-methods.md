@@ -6,6 +6,13 @@ ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+searchScope:
+- D365-App-customerservice
+- D365-Entity-queueitem
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # Configure assignment methods for queues

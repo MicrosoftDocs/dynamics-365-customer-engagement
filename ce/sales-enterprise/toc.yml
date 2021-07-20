@@ -3,9 +3,13 @@
   - name: Help resources for Dynamics 365 Sales Enterprise
     href: help-hub.md
   - name: Sign up for a free Sales trial
-    href: sign-up-for-sales-trial.md
-  - name: Sales trial FAQ
-    href: sales-trial-faq.md
+    items:
+    - name: Sign up for a free Sales trial
+      href: sign-up-for-sales-trial.md
+    - name: Sales trial FAQ
+      href: sales-trial-faq.md
+    - name: Preview features in trial
+      href: sales-previews-in-trial.md
   - name: Set up Dynamics 365 Sales
     href: set-up-dynamics-365-sales.md
   - name: Overview of Dynamics 365 Sales
@@ -36,6 +40,16 @@
         href: enable-pdf-generation-quote.md
       - name: Set up enhanced email
         href: set-up-enhanced-email.md
+      - name: Deal manager
+        items:
+        - name: Deal manager overview
+          href: deal-manager-overview.md
+        - name: Enable the preview for the deal manager workspace
+          href: enable-deal-manager-preview.md
+        - name: Grant access to the deal manager workspace
+          href: grant-access-deal-manager.md
+        - name: Customize the deal manager workspace
+          href: customize-deal-manager.md 
       - name: Enable customization of the Opportunity Close form
         href: enable-opportunity-close-customization.md
       - name: Customize the Opportunity Close form
@@ -230,6 +244,16 @@
         href: ../sales-enterprise/qualify-lead-convert-opportunity-sales.md
       - name: Create or edit opportunities
         href: ../sales-enterprise/create-edit-opportunity-sales.md
+      - name: Deal manager
+        items:
+        - name: Using the deal manager workspace
+          href: deal-manager-seller-overview.md
+        - name: Access the deal manager workspace
+          href: access-deal-manager.md
+        - name: Personalize the deal manager workspace
+          href: personalize-deal-manager.md   
+        - name: Known issues in deal manager
+          href: deal-manager-known-issues.md  
       - name: Work with opportunities in the Kanban view
         href: opportunity-kanban-view.md
       - name: Reopen leads

@@ -51,7 +51,7 @@ If you want to test scenarios beyond the ones covered in the product tour, go ah
 
 ### What features are available in the trial?
 
-The environment you receive in trial is a fully functional, Dynamics 365 Sales Premium environment with the following licenses and capabilities pre-installed:  
+Your trial includes a simplified Sales Trial app with a few important capabilities to get you started quickly. However, you can access the fully functional, Dynamics 365 Sales Premium environment with the following licenses and capabilities pre-installed:
 
 **Dynamics 365 Sales Enterprise**
 - Manage sales pipeline from lead to cash
@@ -59,18 +59,23 @@ The environment you receive in trial is a fully functional, Dynamics 365 Sales P
 - Manage products, goals, playbooks
 - Enable seamless collaboration by integrating Dynamics 365 with Microsoft Teams
 
+To get started with the Sales Enterprise functionalities, see [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
+
 **Dynamics 365 Sales Insights**
+
 - Sell smartly using Sales accelerator that builds a strong and prioritized pipeline, offers context, and surfaces automated recommendations
 - Improve seller coaching and sales potential with conversation intelligence
 - Get the AI-powered assistant to stay on top of your activities – do we need ‘your’ in other bullets we are not using it
 - Prioritize leads and opportunities using predictive scoring
 - Analyze revenue outcome by using predictive forecasting
 
-**Dynamics 365 Power Platform**
-- Administer and customize your Dynamics 365 Sales environment to fit your needs
+To get started with the Sales Insights functionalities, see [Sales Insights Add-in for Dynamics 365 Sales Help & Training](/ai/sales/help-hub). To enable Sales Insights, see [Enable and configure standard Sales Insights features](/ai/sales/intro-admin-guide-sales-insights#enable-and-configure-standard-sales-insights-features).
 
 > [!NOTE]
 > Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
+
+**Dynamics 365 Power Platform**
+- Administer and customize your Dynamics 365 Sales environment to fit your needs  
 
 ### Why is the sample data not available to all trial users?
 
