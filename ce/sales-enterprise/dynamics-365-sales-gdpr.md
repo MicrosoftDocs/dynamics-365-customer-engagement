@@ -26,6 +26,10 @@ It is also possible to update the read-only records programmatically with the SD
 
 ## Update read-only records through export/import
 
+> [!IMPORTANT]
+> Only an administrator or an impersonating user with administrative privileges can perform this action. Other users will get the following error message if they try to do the import:
+```Business Process Error: Cannot perform the action because the record is read only```
+
 1. In your sales app, go to the list of records. For example, go to **Sales** > **Quotes**.
 
 2. Open the view that shows all the records regardless of their state. For example, open the **All Quotes** view.
