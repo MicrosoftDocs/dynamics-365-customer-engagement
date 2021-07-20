@@ -17,8 +17,8 @@ searchScope:
 
 # Modify the case resolution dialog
 
-You can customize the case resolution dialog to suit your business needs. You can modify the dialog to add fields like **Resolution type** or remove fields like **Billable Time**, if they don't apply to your business scenarios. You can also add or remove business rules.
-The following sections discuss the permissions you'll need to modify the case resolution dialog, how to enable the option to customize dialogs in Customer Service Hub, and also how you can add custom fields and values to your dialogs using sample scenarios.
+You can customize the case resolution dialog to suit your business needs. You can modify the dialog to add fields like **Resolution type** or remove fields like **Billable Time**, if they don't apply to your business scenarios. You can also create case resolution rules by adding custom status values.
+The following sections discuss the permissions you'll need to modify the case resolution dialog and how to enable the option to customize dialogs in Customer Service Hub. You'll also learn to customize the case resolution dialog and add custom case resolution rules using examples.
 
 > [!Note]
 > The option to customize the case resolution dialog is also available in Dynamics 365 Customer Engagement (on-premises) 9.1.
@@ -70,7 +70,8 @@ When the customer service representatives try to resolve a case, the case resolu
 
 ## Add custom values to the case resolution dialog
 
-Let's understand how to add custom status values to the case resolution dialog with an example. Say, for example, you receive many similar business cases and you want improve agent productivity and reduce case resolution time. You can add a case resolution rule where any case that's similar to a previously resolved case can be resolved by marking it as a "duplicate case". 
+Let's understand how to add custom status values to the case resolution dialog with an example. Say, for example, you receive many similar business cases and you want to improve agent productivity and reduce case resolution time. You can add a case resolution rule where any case that's similar to a previously resolved case can be resolved by marking it as a "duplicate case".
+
 To do so, you'll need to update the Case entity to add a new **Resolved** status type and assign a **Duplicate** custom value to it. You'll also need to update the resolution type of the Case Resolution entity with the same custom value to ensure that all duplicate cases are assigned the same resolution type.
 <!--
 In our example, we'll add the custom status values in the following two locations:
