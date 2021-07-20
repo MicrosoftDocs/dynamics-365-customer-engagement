@@ -17,7 +17,11 @@ manager: shujoshi
 > [!NOTE]
 > This feature will be rolled out in a phased manner across different regions, over the next few weeks.
 
-Deal manager is a dedicated workspace for sellers. As a seller, you can personalize the workspace depending on what you want to see in your workspace. You can organize opportunities in a way that makes sense to you, personalize your view, update information on the fly, add notes and tasks, and much more. You can also request your administrator to customize the experience further to improve your productivity.  
+Deal manager is a dedicated workspace for sellers. As a seller, you can personalize the workspace depending on what you want to see in your workspace. You can organize opportunities in a way that makes sense to you, personalize your view, update information on the fly, add notes and tasks, and much more. You can also request your administrator to customize the experience further to improve your productivity. 
+
+Watch this video for a quick overview of deal manager:
+> [!VIDEO https://www.youtube.com/embed/LerrPnkCPXc]
+
 
 
 :::image type="content" source="media/deal-manager-overview-v1-small.png" alt-text="Screenshot showing the four main areas of the deal manager workspace as described in the following table." lightbox="media/deal-manager-overview-v1.png":::
