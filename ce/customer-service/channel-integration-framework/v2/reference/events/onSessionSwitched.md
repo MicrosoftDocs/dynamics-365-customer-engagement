@@ -1,5 +1,5 @@
 ---
-title: "onSessionSwitched event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
+title: "onSessionSwitched event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: ""
 ms.date: 03/20/2020
 ms.topic: reference
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onSessionSwitched event (CIF JavaScript API reference)
+# onSessionSwitched event (JavaScript API reference)
 
 Invoked by the client when a session is switched.
 

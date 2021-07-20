@@ -1,5 +1,5 @@
 ---
-title: "onmodechanged (JavaScript API Reference) for Microsoft Dynamics Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
+title: "onmodechanged (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: ""
 ms.date: 12/31/2019
 ms.topic: reference
@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onmodechanged event (CIF JavaScript API reference)
+# onmodechanged event (JavaScript API reference)
 
 [!INCLUDE[token-onmodechanged](../../../shared/token-onmodechanged.md)]
 
