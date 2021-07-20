@@ -14,6 +14,8 @@ manager: shujoshi
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
+> [!NOTE]
+> This feature will be rolled out in a phased manner across different regions, over the next few weeks.
 
 Deal manager is a dedicated workspace for sellers that can be personalized and customized depending on what sellers want to see in their workspace. Sellers can,
 
