@@ -36,7 +36,7 @@ Make sure that the Customer Service Manager and Customer Service Representative 
 
 ## Customize dialogs
 
-By default, the type of the case resolution or **Resolve case** dialog is set to standard dialog. You can, however, change the type of the Resolve case dialog so that you can add custom fields and values to it.
+By default, the style of the **Resolve case** dialog is set to standard dialog. You can, however, change the style to **Customizable dialog** so that you can add custom fields and values to it.
 
 **To enable the Customizable dialog option**
 
@@ -112,7 +112,7 @@ After you've added the **Duplicate** custom status value to the status code fiel
 
 4. In the **Options** section, select the plus sign to add a new item to the **Label** and **Value** fields.
 
-5. In the **Label** field, enter a value name; **Duplicate** in our example. In the **Value** field,enter the corresponding value you noted earlier in the case entity statuscode field.
+5. In the **Label** field, enter a value name; **Duplicate** in our example. In the **Value** field, enter the corresponding value you noted earlier in the case entity **statuscode** field.
 
 6. Select **Save and Close**.
 
