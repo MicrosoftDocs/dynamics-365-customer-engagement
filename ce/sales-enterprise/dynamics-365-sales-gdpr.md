@@ -24,10 +24,10 @@ A system administrator can export read-only quote, order, and invoice records, u
 
 It is also possible to update the read-only records programmatically with the SDK for Dynamics 365 Sales.
 
-## Update read-only records through export/import
+## Update read-only records through export or import
 
 > [!IMPORTANT]
-> Only an administrator or an impersonating user with administrative privileges can perform this action. Other users will get the following error message if they try to do the import:
+> Only an administrator or an impersonating user with administrative privileges can perform this action. Other users will get the following error message if they try to import records:
 ```Business Process Error: Cannot perform the action because the record is read only```
 
 1. In your sales app, go to the list of records. For example, go to **Sales** > **Quotes**.
