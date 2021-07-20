@@ -1,7 +1,7 @@
 ---
 title: Modify quick view forms for the Dynamics 365 Sales mobile app
 description: Learn to modify quick view forms for the Dynamics 365 Sales mobile app.
-ms.date: 05/03/2021
+ms.date: 07/20/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -24,6 +24,9 @@ If you've created multiple quick view forms, the mobile app uses the first form 
 In this example, the mobile app displays information based on the fields defined in **Contact quick view form one**.
 
 If you want to change the fields that the mobile app displays, modify the first quick view form in the form order. If you want a different quick view form to be used for displaying information, move that form to the top of the form order. More information: [Set the form order](/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
+
+> [!NOTE]
+> When you modify a quick view form, the changes will take up to 6 hours to reflect in the mobile app.
 
 ### See also
 
