@@ -20,11 +20,12 @@ ms.service: dynamics-365-customerservice
 > 
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-call3.png)
 
 ## Step 1:
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 
 ## Step 2:
