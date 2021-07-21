@@ -13,13 +13,13 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The following insights features are available in all supported geographical regions:
 - Customer Service historical analytics
-- Case Topic Clustering
+- Case topic clustering
 - Sentiment analysis
 
-Some of the insights features that are not supported in some of the regions are as follows:
-- **Smart Assist Suggestions**: India and Switzerland.
-- **Omnichannel historical analytics**: France, Switzerland, and United Arab Emirates.
-- **Conversation Topic clustering**: France, Switzerland, and United Arab Emirates. 
+The following insights features are not supported in the listed regions:
+- **Smart assist suggestions**: India and Switzerland
+- **Omnichannel historical analytics**: France, Switzerland, and United Arab Emirates
+- **Conversation topic clustering**: France, Switzerland, and United Arab Emirates
 
 ## Service limits in Dynamics 365 Customer Service Insights
 
