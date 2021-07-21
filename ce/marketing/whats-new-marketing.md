@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 07/09/2021
+ms.date: 07/20/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -67,7 +67,7 @@ The Dynamics 365 Marketing July 2021 update includes an overhauled trial experie
     - Updated display rules for modify actions (Go Live, Stop, Edit) to better reflect user privileges.
     - Fixed an error that sometimes caused a "Reply to address" to change after a journey went live.
 - **Event management**
-    - Custom registration fields now disassociate on deactivation of records.
+    - Attendees can now register even after deactivation of related custom registration fields.
     - Fixed an issue that prevented adding rooms to an event created from a template.
     - Resolved an error that caused recurrent events to not propagate start and end times to the series.
 - **Marketing emails**
