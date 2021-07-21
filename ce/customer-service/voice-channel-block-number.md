@@ -23,15 +23,18 @@ ms.service: dynamics-365-customerservice
 >[!TIP] 
 > 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 
 ## Mark number as SPAM (agent)
 
-voice-channel-block-agent
 
-voice-channel-block-agent2
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-block-agent.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-block-agent2.png)
 
 
 
@@ -44,22 +47,26 @@ Customer Settings > blocked numbers
 
 - click on a pending block request to see basic details and the ability to view the related call. 
 
-voice-channel-block-pending
 
-voice-channel-block-approved
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-block-pending.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-block-approved.png)
 
 ## Manually block a phone number
 
-voice-channel-block-manual
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-block-manual.png)
 
 ## Auto block phone numbers
 
 Block numbers based on number of reports
 
-voice-channel-block-auto
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-block-auto.png)
 
 
-## Step 2:
-
-## Configuration considerations
-## Additional Notes
