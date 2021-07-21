@@ -1,3 +1,47 @@
+## 3.12.49.18
+
+(Includes Resource Scheduling controls version 1.1.7.211681)
+
+- Booking work orders to a resource on the schedule board fails with a null reference error if **Auto Update Booking Travel** feature is not set to a value. This bug is now fixed.
+- Fixed a bug on the schedule assistant to calculate the right travel distance of the Resource. 
+
+## 3.12.48.25
+
+(Includes Resource Scheduling controls version 1.1.7.211681)
+
+- Booking work orders to a resource on the schedule board fails with a null reference error if **Auto Update Booking Travel** feature is not set to a value. This bug is now fixed.
+- Fixed a bug on the schedule assistant to calculate the right travel distance of the Resource. 
+- Fixed a bug where the schedule board does not load. 
+- Fixed a bug where the timezone of the resource was not rendered on the Details panel, when a resource is selected. 
+
+## 3.12.47.108
+
+This release is a hotfix on Universal Resource Scheduling version [3.12.47.98](/dynamics365/common-scheduler/bug-fixes#3124798)
+
+- Fixed a bug where the schedule board does not load. 
+
+## 3.12.47.98
+
+This release is a hotfix on Universal Resource Scheduling version [3.12.47.98](/dynamics365/common-scheduler/bug-fixes#3124762)
+
+- Booking work orders to a resource on the schedule board fails with a null reference error if **Auto Update Booking Travel** feature is not set to a value. This bug is now fixed.
+
+## 3.12.47.62
+
+(Includes Resource Scheduling controls version 1.1.6.211322)
+
+- Fixed a bug where the schedule board does not load. 
+- Fixed an issue where Work Hours tab is removed from Bookable Resource Form. 
+- When the setting **Auto Update Booking Travel** is disabled, some bookings **Modified On** columns are shown updated when a new booking is created during non working hours for a resource. This bug is now fixed.
+- When the field **Estimated Arrival Time** is hidden from the **Information** form of the Bookable Resource Booking entity, updating the **Start time** of a booking record throws an error. This bug is now fixed. 
+- Fixed an issue, When two separate bookings in the Schedule Board are modified in quick succession, it can lead to an issue where duplicate calls are made for the same booking. This issue is now fixed. 
+
+## 3.12.46.64
+
+This release is a hotfix on Universal Resource Scheduling version [3.12.46.21](/dynamics365/common-scheduler/bug-fixes#3124621)
+
+- Fixed a bug where the schedule board does not load. 
+
 ## 3.12.46.21
 
 (Includes Resource Scheduling controls version 1.1.6.211322)
