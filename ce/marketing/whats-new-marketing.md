@@ -33,6 +33,11 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 The Dynamics 365 Marketing July 2021 update includes an overhauled trial experience that significantly reduces sign-up time, improved customer journey functionality, easier check-ins for Teams events, duplicate SMS message safeguards for custom channels, performance upgrades, and bug fixes.
 
+> [!IMPORTANT]
+> Starting in the July 2021 release, the [quotas limits page](quota-management.md) will be under construction. The revised quota limits page will monitor outbound marketing and real-time marketing quota usage in one place. Segmentation limits will return in the new quota limits page.
+>
+> In the meantime, your quota limits will not change. Strict quota limits will not be enforced while the quota page is temporarily under construction.
+
 #### Version number
 
 | App              | GA release      |
