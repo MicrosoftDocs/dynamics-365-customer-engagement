@@ -136,7 +136,7 @@ For more information, see [Run business process flows offline](/power-automate/b
 It is recommended that you have at least one rule defined for all mobile offline enabled entity for org filters, if you are using the entities across profiles. By default, this value is set to last 10 days for most of the offline-enabled entities.
 
  > [!div class="mx-imgBorder"]
- >![Edit org data filter](media/datafilter_1.png "Edit org data filter")
+ >![Edit org data filter.](media/datafilter_1.png "Edit org data filter")
 
 
 ### Profile filters 

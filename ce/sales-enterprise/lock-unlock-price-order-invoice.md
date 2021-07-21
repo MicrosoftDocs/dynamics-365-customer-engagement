@@ -29,11 +29,11 @@ To lock prices or to use current pricing:
 
 2. Open the order or invoice you want.
 
-3. To lock prices, on the command bar, select the More Commands icon ![More Commands icon](media/more-commands-icon.png "More Commands icon"), and then select **Lock Pricing**.
+3. To lock prices, on the command bar, select the More Commands icon ![More Commands icon.](media/more-commands-icon.png "More Commands icon"), and then select **Lock Pricing**.
  
      -OR-
     
-    To enable current pricing, on the command bar, select the More Commands icon ![More Commands icon](media/more-commands-icon.png "More Commands icon"), and then select **Use Current Pricing**.
+    To enable current pricing, on the command bar, select the More Commands icon ![More Commands icon.](media/more-commands-icon.png "More Commands icon"), and then select **Use Current Pricing**.
 
 ### See also
 

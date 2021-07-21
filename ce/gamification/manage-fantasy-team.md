@@ -53,7 +53,7 @@ After the commissioner activates the game, you'll receive an email with instruct
   
 1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Teams** > **Team Rosters**.  
   
-2. Select ![Edit the team roster in Gamification](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
+2. Select ![Edit the team roster in Gamification.](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
   
    > [!NOTE]
    >  You can only change a team roster after the first game period has ended.  

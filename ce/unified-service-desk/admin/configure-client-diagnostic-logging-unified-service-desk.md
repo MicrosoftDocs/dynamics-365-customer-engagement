@@ -17,7 +17,7 @@ ms.custom:
 tags: MigrationHO
 ---
 
-# Client diagnostic logging overview
+# How you can configure client diagnostic logging
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 

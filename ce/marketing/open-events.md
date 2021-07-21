@@ -26,15 +26,15 @@ To find the event management work area:
 
 1. If you haven't already done so, sign in to Dynamics 365 as a user with [event-management privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
 
-    ![The app-selector menu](media/nav-apps-ill.png "The app-selector menu")
+    ![The app-selector menu.](media/nav-apps-ill.png "The app-selector menu")
 
 1. Expand the work-area area menu at the bottom of the side navigator and select **Events**.
 
-    ![Open the Events work area](media/open-settings-menu-ill.png "Open the Events work area")
+    ![Open the Events work area.](media/open-settings-menu-ill.png "Open the Events work area")
 
 1. You are now in the Events work area, and can navigate between event-related entities using the side navigator, just as with the core **Marketing** work area.
 
-    ![Open the work area menu](media/events-nav.png "Open the work area menu")
+    ![Open the work area menu.](media/events-nav.png "Open the work area menu")
 
 For more information about how to get around in Dynamics 365 Marketing and work with its common features, see [Find your way around Marketing](navigation.md).
 

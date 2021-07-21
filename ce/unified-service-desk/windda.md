@@ -23,7 +23,7 @@ ms.custom:
   
 - [AccControl Tag](../unified-service-desk/acccontrol-tag.md)  
   
-- [ACCSelector Tag](../unified-service-desk/acc-selector-tag.md)  
+- [AccSelector Tag](../unified-service-desk/acc-selector-tag.md)  
   
 - [Next Tag](../unified-service-desk/next-tag-windda.md)  
   

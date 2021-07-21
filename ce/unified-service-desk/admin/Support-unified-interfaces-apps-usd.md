@@ -53,7 +53,7 @@ The application selection window appears when you login to [!INCLUDE[pn_unified_
 2. Select **UnifiedServiceDesk.exe.config** file.
 3. Under the **\<appSettings>** section, type the key.<br>
 `<add key="SelectAppModule" value="true"/>`<br>
-  ![Update SelectAppModule key in the UnifiedServiceDesk.exe.config file](../media/selectappmodule-app-config-file.PNG "Update SelectAppModule key in the UnifiedServiceDesk.exe.config file")
+  ![Update SelectAppModule key in the UnifiedServiceDesk.exe.config file.](../media/selectappmodule-app-config-file.PNG "Update SelectAppModule key in the UnifiedServiceDesk.exe.config file")
 4. Save the file.
 
 ### Login to Unified Service Desk client application
@@ -63,7 +63,7 @@ The application selection window appears when you login to [!INCLUDE[pn_unified_
 
 After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.config** file, you need to login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to select an web or Unified Interface app.
 
-![Select App Module](../media/select-app-module-new.PNG "Select App Module")
+![Select App Module.](../media/select-app-module-new.PNG "Select App Module")
 
 ::: moniker-end
 

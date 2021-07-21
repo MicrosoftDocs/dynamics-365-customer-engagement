@@ -39,9 +39,9 @@ You can generate dynamic segments that find contacts that got a specific result 
 
 1. Select a tile from the journey pipeline and inspect the **Data** panel, which shows how many contacts that tile has processed and, sometimes, more other information about what they did there. Here’s the **Data** panel for an email tile:
 
-    ![Data panel for an email tile](media/customer-journey-data-panel2.png "Data panel for an email tile")
+    ![Data panel for an email tile.](media/customer-journey-data-panel2.png "Data panel for an email tile")
 
-1. Identify the type of information you'd like to use in your new segment and select the **Save as segment** button ![Save-as-segment button](media/save-as-segment-button.png "Save-as-segment button") for that value. For example:
+1. Identify the type of information you'd like to use in your new segment and select the **Save as segment** button ![Save-as-segment button.](media/save-as-segment-button.png "Save-as-segment button") for that value. For example:
     - **Processed**: Nearly all types of tiles provide this value and a **Save as segment** button for it. This will find all contacts who were successfully processed by this tile in this journey.
     - **Unique clicks**: This is only shown for email tiles. This will find all contacts that clicked on this email when sent by this journey.
     - **Hard bounces**: This is only shown for email tiles. This will find all contacts that produced a hard bounce after this email was sent by this journey.
@@ -50,7 +50,7 @@ You can generate dynamic segments that find contacts that got a specific result 
 
 1. Select **Save and Close** at the bottom of the quick-create flyout to create the segment. You'll now be able to find it under **Marketing** > **Customers** > **Segments**. If you're fast, you can open the new segment right away by selecting **View record** in the pop-up announcement.
 
-    ![Changes saved pop-up announcement](media/popup-changes-saved.png "Changes saved pop-up announcement")
+    ![Changes saved pop-up announcement.](media/popup-changes-saved.png "Changes saved pop-up announcement")
 
 ## Generate segments based on incomplete journeys
 
@@ -64,15 +64,15 @@ To generate segments based on incomplete journeys:
 
 1. Select one of the rows under the **Stopped contacts** or **Blocked emails** headings to view a list of contacts stopped or blocked for that reason.
 
-1. select the **Save as segment** button ![Save-as-segment button](media/save-as-segment-button.png "Save-as-segment button") at the top of the relevant list to generate a segment containing all contacts who were stopped or blocked on that journey for that reason. The segment will continue to track the list if more contacts join it later.
+1. select the **Save as segment** button ![Save-as-segment button.](media/save-as-segment-button.png "Save-as-segment button") at the top of the relevant list to generate a segment containing all contacts who were stopped or blocked on that journey for that reason. The segment will continue to track the list if more contacts join it later.
 
-    ![Save stopped or blocked contacts as a segment](media/save-blocked-segment.png "Save stopped or blocked contacts as a segment")
+    ![Save stopped or blocked contacts as a segment.](media/save-blocked-segment.png "Save stopped or blocked contacts as a segment")
 
 1. A quick-create flyout slides in from the side of the screen. Use it to assign a **Name** and **Description** of the segment you are creating.
 
 1. Select **Save and Close** at the bottom of the quick-create flyout to create the segment. You'll now be able to find it under **Marketing** > **Customers** > **Segments**. If you're fast, you can open the new segment right away by selecting **View record** in the pop-up announcement.
 
-    ![Changes saved pop-up announcement](media/popup-changes-saved.png "Changes saved pop-up announcement")
+    ![Changes saved pop-up announcement.](media/popup-changes-saved.png "Changes saved pop-up announcement")
 
 ### See also
 

@@ -17,19 +17,21 @@ ms.custom:
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# Use Edge Process to host web applications (deprecated)
+# Use Edge Process to host web applications
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!Note]
+>
+> Because the Edge Process browser control is now replaced by the Edge WebView2 Process browser control, support for the Edge Process is now discontinued.
 
 The Edge Process browser control hosts your controls in individual Edge process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk. You can select **Edge Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
 
-![Edge process hosted control setting](media/edge-process-hosted-control-setting.gif "Edge process hosted control setting")
+![Edge process hosted control setting.](media/edge-process-hosted-control-setting.gif "Edge process hosted control setting")
 
 The advantages of using the Edge process hosting method are as follows:
 
-![Advantages of Edge Process](media/advantages-edge-process.PNG "Advantages of Edge Process")
+![Advantages of Edge Process.](media/advantages-edge-process.PNG "Advantages of Edge Process")
 
 - Webpages, including model-driven app pages, render faster in Microsoft Edge.
 - Microsoft Edge is a modern browser with better process and memory management.
@@ -80,7 +82,7 @@ When you are creating a new hosted control, you can select **Edge Process** as t
 4. To create a new hosted control, select **New**.
 
 5. On the **New Hosted Control** page, specify the details and select **Edge process** from the **Hosting Type** drop-down.<br>
-![Edge Process hosted control](media/edge-process-hosted-control.PNG "Edge Process hosted control")
+![Edge Process hosted control.](media/edge-process-hosted-control.PNG "Edge Process hosted control")
 
 6. Select **Save** to create the hosted control.
 
@@ -93,7 +95,7 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 `<add key="GlobalBrowserMode" value="Edge"/>`
 
   > [!div class="mx-imageBorder"]
-  > ![Edge Process configuration setting key](media/edge-process-app-config-file-setting.PNG "Edge Process configuration setting key")
+  > ![Edge Process configuration setting key.](media/edge-process-app-config-file-setting.PNG "Edge Process configuration setting key")
 
 3. Save the file.
 
@@ -115,7 +117,7 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
 
 7. Select **Save**.
 
-![Edge process global uii option](media/edge-process-global-uii-option.gif "Edge process global uii option")
+![Edge process global uii option.](media/edge-process-global-uii-option.gif "Edge process global uii option")
 
 ## Debug Edge Process using Microsoft Edge DevTools Preview
 
@@ -273,16 +275,11 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 
 To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL the model-driven app is `url=/main.aspx?signout=1`.
 
-## Limitations
-
-To learn about the limitations of the Edge process, see [Edge Process limitations](release-notes.md)
-
-## See also  
+### See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
 
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
-
- [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
-
+ [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

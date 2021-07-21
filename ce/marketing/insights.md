@@ -37,7 +37,7 @@ Dynamics 365 Marketing keeps track of the way your contacts react to your variou
 
 For nearly all entity types, you can view related results and analytics by opening a record and then switching to the **Insights** tab.
 
-![Open the insights tab](media/insights-tab-selector.png "Open the insights tab")
+![Open the insights tab.](media/insights-tab-selector.png "Open the insights tab")
 
 > [!IMPORTANT]
 > Marketing analytics are processed in less than 10 minutes per 100,000 items (emails sent, contacts, etc.). Processing, however, can take up to 1 hour, especially when processing a large number of items. For example, 1,000,000 items may take up 6 hours to process. The processing speed decreases when the number of items exceeds the maximum limit listed in the [fair use policy](fair-use-policy.md).
@@ -46,9 +46,9 @@ For nearly all entity types, you can view related results and analytics by openi
 
 ### Move between insight categories
 
-Some **Insights** tabs include two or more categories of insights. You can navigate between these categories by using the vertical navigator at the side of the page. Use the **Menu** button ![Insights tabs](media/insights-menu-button.png "Insights tabs") at the top of the tab to open or close the navigator.
+Some **Insights** tabs include two or more categories of insights. You can navigate between these categories by using the vertical navigator at the side of the page. Use the **Menu** button ![Insights tabs.](media/insights-menu-button.png "Insights tabs") at the top of the tab to open or close the navigator.
 
-![Insights navigator](media/insights-navigator.png "Insights navigator")
+![Insights navigator.](media/insights-navigator.png "Insights navigator")
 
 <a name="filter"></a>
 
@@ -56,13 +56,13 @@ Some **Insights** tabs include two or more categories of insights. You can navig
 
 At the top of most insights tabs, you'll find settings that let you filter the information shown—for example, by date (**From** and **To** settings) or usage (such as which **Customer journey** an email was used in).
 
-![Filter insights by date range and usage](media/insights-filters.png "Filter insights by date range and usage")
+![Filter insights by date range and usage.](media/insights-filters.png "Filter insights by date range and usage")
 
 ### Read and understand insights and KPIs
 
-When you're reviewing your insights, you'll see graphs, timelines, and values for a wide variety of results, interactions, and key performance indicators (KPIs). To learn more about what each display is telling you, hover your mouse pointer near the value you're interested in until the info icon ![The info icon](media/insights-info-icon.png "The info icon") appears, then hover on this icon to view a tool tip with a description of that value.
+When you're reviewing your insights, you'll see graphs, timelines, and values for a wide variety of results, interactions, and key performance indicators (KPIs). To learn more about what each display is telling you, hover your mouse pointer near the value you're interested in until the info icon ![The info icon.](media/insights-info-icon.png "The info icon") appears, then hover on this icon to view a tool tip with a description of that value.
 
-![Insights tool tips](media/insights-tooltip.png "Insights tool tips")
+![Insights tool tips.](media/insights-tooltip.png "Insights tool tips")
 
 For more information about many of the most-used insights and how they are calculated, see the [Insights glossary](insights-glossary.md). Many of the tool tips also reference this glossary.
 
@@ -125,7 +125,7 @@ For live journeys, the **Designer** tab is a read-only version of your journey p
 
 Below email tiles, you'll see the dependencies for the email.
 
-![Contact flow KPIs in the insights view of the customer journey pipeline](media/insights-tile-kpis1.png "Contact flow KPIs in the insights view of the customer journey pipeline")
+![Contact flow KPIs in the insights view of the customer journey pipeline.](media/insights-tile-kpis1.png "Contact flow KPIs in the insights view of the customer journey pipeline")
 
 Legend:
 
@@ -140,7 +140,7 @@ Legend:
 
 For even more information about what happened on a tile, select it from the pipeline and look at the **Data** panel. The information shown here depends on the tile type.
 
-![Data panel showing tile results](media/insights-journey-data-panel.png "Data panel showing tile results")
+![Data panel showing tile results.](media/insights-journey-data-panel.png "Data panel showing tile results")
 
 All types of tiles provide a **Volume** section on the **Data** panel with the following information:
 
@@ -161,7 +161,7 @@ The Insights tab for A/B test email tiles has a special section above the **Volu
 
 In the screenshot below, 10% of contacts received message A, 10% received message B, and the remaining 80% received the inconclusive default, which was set to message A.
 
-![A/B test insights](media/insights-a-b-test.png "A/B test insights")
+![A/B test insights.](media/insights-a-b-test.png "A/B test insights")
 
 ### Insights > Overview
 

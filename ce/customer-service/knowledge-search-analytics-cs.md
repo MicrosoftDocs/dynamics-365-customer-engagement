@@ -25,7 +25,7 @@ The knowledge search analytics dashboard is designed to provide your organizatio
 > [!NOTE]
 > Knowledge search analytics won't provide information about customer search behavior. Data is only from internal knowledge searches. 
 
-![Knowledge search analytics dashboard](media/knowledge-search-analytics-dashboard.png "Knowledge search analytics dashboard")
+![Knowledge search analytics dashboard.](media/knowledge-search-analytics-dashboard.png "Knowledge search analytics dashboard")
 
 As a knowledge manager, it's your responsibility to maintain and improve your organization's overall knowledge base article offerings. By identifying searches that have low success or return no results, the Knowledge search analytics dashboard can help you identify knowledge gaps, improve search results, and surface the most relevant articles.  
 

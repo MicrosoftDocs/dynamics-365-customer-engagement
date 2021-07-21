@@ -1,11 +1,10 @@
 ---
 title: "Send commands in Connected Field Service | MicrosoftDocs"
 description: Learn how to send commands using Connected Field Service
-ms.custom:
-- dyn365-fieldservice
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"

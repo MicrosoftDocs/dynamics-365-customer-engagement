@@ -19,11 +19,9 @@ ms.custom:
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to bundle in localized strings for your controls interface so that they appear in the language based on the locale settings of the user’s computer. The  language support is available for all the components except for those that are surfaced through [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)], which doesn’t support multiple language scenarios. This includes the hosted control tab names.  
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to bundle in localized strings for your controls interface so that they appear in the language based on the locale settings of the user’s computer. The language support is available for all the components except for those that are surfaced through [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)], which doesn’t support multiple language scenarios. This includes the hosted control tab names.  
 
-If you use web resource to link the button text to strings, then the web resource chooses the language based on your Dynamics 365 model-driven app environment settings. In addition, the app pages are rendered in the language set on the app environment settings. 
-
-Rest of the strings that is rendered by default on Unified Service Desk client application are rendered in the language set on your operating system.
+If you use a web resource to link the button text to strings, then the web resource chooses the language based on your Dynamics 365 model-driven app environment settings. In addition, the app pages are rendered in the language set on the app environment settings. The rest of the strings rendered by default on Unified Service Desk client application are rendered in the language set on your operating system.
   
  To provide localized resources for your component:  
   
@@ -53,9 +51,9 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
    5. On the new web resource page, specify the name of the web resource, select **Data (XML)** as the type, **English** as the language, and then select your .xml file.  
   
-   ![New web resource](../unified-service-desk/media/usd-new-web-resource.PNG "New web resource")  
+   ![New web resource.](../unified-service-desk/media/usd-new-web-resource.PNG "New web resource")  
   
-   6.  Save and publish the web resource.  
+   6. Save and publish the web resource.  
   
 4. After publishing the web resource for your language resource file, add the web resource to your **Global Manager** hosted control.  
   
@@ -70,11 +68,11 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
    3. On the **CRM Global Manager** page, select the **Language Services** tab, select **+ New Language Module** to add a language module record.  
 
-   4.  On the **New Language Module** page, specify the name, LCID, and the name of the web resource that contains the translation file.  
+   4. On the **New Language Module** page, specify the name, LCID, and the name of the web resource that contains the translation file.  
   
         The LCID should be populated with a value that represents the language that this resource represents. [View the list of locale IDs](https://msdn.microsoft.com/library/ms912047\(WinEmbedded.10\).aspx).  
   
-   ![New language module](../unified-service-desk/media/usd-new-language-module.png "New language module")  
+   ![New language module.](../unified-service-desk/media/usd-new-language-module.png "New language module")  
   
    > [!IMPORTANT]
    >  If you use language services, you should always configure language services for your base Dataverse language. In this example, add an English language service as well. The base language translation file is always used if someone uses a language pack in Dataverse that doesn’t have a translation file in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] language services.  

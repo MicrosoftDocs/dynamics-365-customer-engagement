@@ -4,7 +4,7 @@ description: "Learn how to control access to main forms"
 ms.custom: 
 ms.date: 06/18/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

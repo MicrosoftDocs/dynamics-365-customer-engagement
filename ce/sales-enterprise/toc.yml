@@ -2,9 +2,13 @@
   items: 
   - name: Help resources for Dynamics 365 Sales Enterprise
     href: help-hub.md
+  - name: Sign up for a free Sales trial
+    href: sign-up-for-sales-trial.md
+  - name: Sales trial FAQ
+    href: sales-trial-faq.md
   - name: Set up Dynamics 365 Sales
     href: set-up-dynamics-365-sales.md
-  - name: Overview of Sales and Sales Hub
+  - name: Overview of Dynamics 365 Sales
     href: ../sales-enterprise/overview.md
   - name: What's new
     href: ../sales-enterprise/whats-new.md
@@ -158,6 +162,16 @@
       items: 
       - name: Install or delete LinkedIn Sales Insights solution
         href: install-lsi-solution.md
+    - name: Integrate ZoomInfo app
+      items: 
+      - name: Install ZoomInfo app
+        href: install-zoominfo-app.md
+      - name: Configure export preferences
+        href: configure-export-preferences-zoominfo.md
+      - name: Match fields between Dynamics 365 and ZoomInfo
+        href: match-fields-between-dynamics365-zoominfo.md        
+      - name: Customize the ZoomInfo app
+        href: customize-zoominfo-app.md 
     - name: Configure Microsoft Teams dialer
       href: configure-microsoft-teams-dialer.md
     - name: Reporting
@@ -238,6 +252,10 @@
         href: ../sales-enterprise/create-edit-competitor-record-sales.md
       - name: Manage sales literature
         href: ../sales-enterprise/create-sales-literature.md
+    - name: Use ZoomInfo app
+      items: 
+      - name: Use ZoomInfo app data
+        href: ../sales-enterprise/use-zoominfo-app-data.md
     - name: Quotes and order management
       items: 
       - name: Sales transactions in Dynamics 365 Sales
@@ -596,7 +614,7 @@
       items: 
       - name: Install the mobile app
         href: sales-mobile/install-mobile-app.md
-      - name: Use the Dynamics 365 Sales mobile app
+      - name: Use the mobile app
         href: sales-mobile/use-sales-mobile-app.md
       - name: Learn the basics
         href: sales-mobile/learn-basics-mobile-app.md
@@ -610,3 +628,5 @@
         href: sales-mobile/create-contact.md
       - name: Manage notes
         href: sales-mobile/view-edit-add-note.md
+      - name: App settings
+        href: sales-mobile/app-settings.md

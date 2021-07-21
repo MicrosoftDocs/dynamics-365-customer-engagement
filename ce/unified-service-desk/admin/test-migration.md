@@ -55,7 +55,7 @@ Clear the CEF cache folder before you sign in to the Unified Service Desk applic
    |KB Article| CRM Page|
    |KB Search| KM Control|
 
-    ![Selected configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
+    ![Selected configurations.](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
 
 5. Select **Hosted Controls**.
 
@@ -66,7 +66,7 @@ You can see that the configurations have been migrated to Unified Interface&ndas
   |KB Article| Unified Interface Page|
   |KB Search| Unified Interface KM Control|
   
-  ![Verifying the configuration migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuration migration")
+  ![Verifying the configuration migration.](../media/usd-configuration-migration-verification.PNG "Verifying the configuration migration")
 
 
 ## Verify window navigation rules
@@ -579,7 +579,7 @@ More information: [Configure toolbars in your application](../configure-toolbars
 After you make these updates, when you sign in to the Unified Service Desk client application, you can view the interface.
 
   > [!div class=mx-imgBorder]
-  > ![New Unified Interface Settings record](../unified-interface/media/usd-unified-interface.PNG "New Unified Interface Settings record")
+  > ![New Unified Interface Settings record.](../unified-interface/media/usd-unified-interface.PNG "New Unified Interface Settings record")
 
 ### See also
 

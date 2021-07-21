@@ -115,7 +115,7 @@ To add a timer to track time against enhanced SLAs:
   
     Following is an example of the properties you'd set for a timer for a Case entity.  
   
-    ![Timer control properties for Enhanced SLA](../customer-service/media/crm-ua-v8-1-timer-control-dialog-box-enhanced-sla.png "Timer control properties for enhanced SLA")  
+    ![Timer control properties for Enhanced SLA.](../customer-service/media/crm-ua-v8-1-timer-control-dialog-box-enhanced-sla.png "Timer control properties for enhanced SLA")  
   
    > [!NOTE]
    >  Typically, for enhanced SLAs, the timer control is set up using the SLA KPI Instance status field values only.  

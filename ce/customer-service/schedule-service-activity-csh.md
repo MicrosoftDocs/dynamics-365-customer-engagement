@@ -46,7 +46,7 @@ Make sure that you have the required security role or equivalent permissions.
     - Select **Show Time As** either Requested or Tentative.
     - Provide the **Organizational Business Unit**.
 
-    ![create service activity](media/create-service-activity.png)
+    ![create service activity.](media/create-service-activity.png)
 
 5. Select **Save**.
 
@@ -68,11 +68,11 @@ Make sure that you have the required security role or equivalent permissions.
 
       [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service activity](use-schedule-board-configure-service-activity.md#schedule-a-booking-for-a-service-activity)
 
-      ![book-service-activity](media/book-service-activity.png)
+      ![book-service-activity.](media/book-service-activity.png)
 
    The bookings that you schedule appear in the **Bookings** tab.
 
-   ![bookable-resource-bookings](media/resource-bookings-tab.png)
+   ![bookable-resource-bookings.](media/resource-bookings-tab.png)
 
    You can select an existing booking and edit, activate, or deactivate it from the **Bookings** tab.
 

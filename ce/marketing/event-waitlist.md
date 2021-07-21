@@ -55,7 +55,7 @@ To enable or disable the waitlist for any event (for both event-level and sessio
 
 1. Open the **General** tab and find the **Venue constraints** area.
 
-    ![Enable the waitlist for an event](media/event-waitlist-enable.png "Enable the waitlist for an event")
+    ![Enable the waitlist for an event.](media/event-waitlist-enable.png "Enable the waitlist for an event")
 
 1. Make the following settings:
 
@@ -75,7 +75,7 @@ To see who is currently on the waitlist for any event or session:
 
 1. Open the **Registration and attendance** tab for your selected event or session and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown when the waitlist is enabled.)  
 
-    ![View the waitlist for an event](media/event-waitlist-view.png "View the waitlist for an event")
+    ![View the waitlist for an event.](media/event-waitlist-view.png "View the waitlist for an event")
 
     Here you'll find a list of each contact who is waiting to be invited to this event or session. You can see the following information for each:
 
@@ -103,15 +103,15 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 
 1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
-    ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
+    ![Choose the tree view.](media/segment-firmographic-tree-view.png "Choose the tree view")
 
 1. Open the **Add** drop-down list under the **Contact** entity and select **Add related entity**.
 
-    ![Add a related entity](media/segment-add-related-entity.png "Add a related entity")
+    ![Add a related entity.](media/segment-add-related-entity.png "Add a related entity")
 
 1. A new related entity is added to your query. Select the field with **Select related entity** in ghost text to open a large drop-down list of available relations. Type "waitlist" in the field to filter the list and then select **Waitlist Item (Waitlist Item -> Contact (Contact))** from the drop-down list. This relation links the parent **Contact** entity to the **Waitlist Item** entity through the **Contact** field of the **Waitlist** entity. The **Contact** field identifies the contact associated with each found waitlist item. More information: [Move between entities with relationships](segments-profile.md#relationships)
 
-    ![Link to waitlist items](media/segment-waitlist-relation.png "Link to waitlist items")
+    ![Link to waitlist items.](media/segment-waitlist-relation.png "Link to waitlist items")
 
 1. Open the **Add** drop-down list under the new related entity and select **Add row** to begin defining the collection of waitlist items you are looking for.
 
@@ -124,17 +124,17 @@ To create a segment that finds contacts who _are not_ using automatic registrati
     **Session | Equals | _&lt;YourSessionName&gt;_**  
     Where _&lt;YourSessionName&gt;_ is the name of the session.
 
-    ![Identify the event or session you are looking for](media/segment-waitlist-event.png "Identify the event or session you are looking for")
+    ![Identify the event or session you are looking for.](media/segment-waitlist-event.png "Identify the event or session you are looking for")
 
 1. Open the **Add** drop-down list under the previous row and select **Add row**. Use the fields and drop-down lists for the new row to set up the following clause:  
 **Automatically register | Equals | No**.
 
-    ![Set automatically register to no](media/segment-waitlist-register-no.png "Set automatically register to no")
+    ![Set automatically register to no.](media/segment-waitlist-register-no.png "Set automatically register to no")
 
 1. Add a third row here and set up the following clause:  
 **Invited | Equals | Yes**
 
-    ![Set invited to yes](media/segment-waitlist-invited-yes.png "Set invited to yes")
+    ![Set invited to yes.](media/segment-waitlist-invited-yes.png "Set invited to yes")
 
 1. Select the field above the query that shows **Enter segment name** as ghost text. Then type a name for your segment.
 
@@ -150,7 +150,7 @@ For a journey sending invites to waitlisted contacts who aren't auto-registered,
 
 The following example shows a journey that sends email to tell contacts using manual registration that space has become available for them and that they should register to claim it. Note that the message shows a child event tile, and that the invite flow includes a trigger, which is set to react by sending a welcome mail to contacts who register. After a few days, the trigger sends contacts who don't register down the bottom path, where a workflow removes unresponsive contacts from the waitlist so other waiting contacts can be invited (this requires that you create a [custom workflow](/flow/workflow-processes) to handle this).
 
-![A customer journey for processing a waitlist](media/event-waitlist-journey.png "A customer journey for processing a waitlist")
+![A customer journey for processing a waitlist.](media/event-waitlist-journey.png "A customer journey for processing a waitlist")
 
 More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md), [Email marketing overview](prepare-marketing-emails.md), [Customer journey tiles reference](customer-journey-tiles-reference.md)
 

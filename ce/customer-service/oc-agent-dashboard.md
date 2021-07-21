@@ -1,24 +1,24 @@
 ---
 title: "Omnichannel Agent Dashboard in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Omnichannel Agent Dashboard that shows the work items for the agents using Omnichannel for Customer Service"
-ms.date: 04/06/2020
+ms.date: 06/23/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# View agent dashboard and agent conversations (work items)
+# View agent dashboard and agent conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The Omnichannel Agent Dashboard is a default view when you sign in to the application. The dashboard displays the following streams:
+When you sign in to the Omnichannel for Customer Service app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
 
 - My work items
 - Open work items
 - Closed work items
 
- ![Agent dashboard of Omnichannel for Customer Service app](media/oceh-oc-mydashboard.png "Agent dashboard of Omnichannel for Customer Service app")
+ ![Agent dashboard of Omnichannel for Customer Service app.](media/oceh-oc-mydashboard.png "Agent dashboard of Omnichannel for Customer Service app")
 
 ## My work items
 
@@ -49,9 +49,9 @@ On the dashboard, you can sort the work items by the following categories:
 
 ### See also
 
-- [Create a record](oc-create-record.md)
-- [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [View communication panel](oc-conversation-control.md)
+[Create a record](oc-create-record.md)  
+[Introduction to the agent interface](oc-introduction-agent-interface.md)  
+[View communication panel](oc-conversation-control.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

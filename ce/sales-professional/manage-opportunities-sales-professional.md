@@ -55,9 +55,9 @@ To create or edit an opportunity:
     -   **Est. Revenue**. Opportunities with products added to them have their estimated revenue value calculated based on the base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, Dynamics 365 Sales Professional recalculates the estimated revenue value based on any changes to the products or product quantities associated with the opportunity.
 
         > [!div class="mx-imgBorder"]
-        > ![Opportunity form](media/opportunity-form.png "Opportunity form")
+        > ![Opportunity form.](media/opportunity-form.png "Opportunity form")
 
-4.  In the **Stakeholders** section, select **More Commands** ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
+4.  In the **Stakeholders** section, select **More Commands** ![More Commands button.](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
 
     In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to choose a different role such as **Decision Maker** or **Technical Buyer**.
 
@@ -81,7 +81,7 @@ To create or edit an opportunity:
     -   **Develop Proposal**. Select the check box to indicate that you’ve included notes on how the account will be approached (optional).
 
        > [!div class="mx-imgBorder"]
-       > ![Develop Opportunity stage in the process bar](media/develop-opportunity-stage-bpf.png "Develop Opportunity stage in the process bar")
+       > ![Develop Opportunity stage in the process bar.](media/develop-opportunity-stage-bpf.png "Develop Opportunity stage in the process bar")
 
 9.  In the **Develop Opportunity** stage, select **Next**.
 
@@ -115,7 +115,7 @@ Whether you win a sale or close an opportunity, you probably want to close it. Y
 2.  On the command bar, select **Close as Won** or **Close as Lost**.
 
     > [!div class="mx-imgBorder"]
-    > ![Close Opportunity dialog box](media/close-opportunity-dialog-box.png "Close Opportunity dialog box")
+    > ![Close Opportunity dialog box.](media/close-opportunity-dialog-box.png "Close Opportunity dialog box")
 
     1. When you close the opportunity as **Won**, in the **Close Opportunity** pane, do the following, and select **OK**:
 

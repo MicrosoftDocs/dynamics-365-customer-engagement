@@ -27,7 +27,7 @@ search.app:
 To have the Set Regarding lookup search on custom columns in Dynamics 365 App for Outlook, that column must be added to the table’s quick find view.
 
    > [!div class="mx-imgBorder"]
-   > ![Quick find view](media/set-regarding-search.png)
+   > ![Quick find view.](media/set-regarding-search.png)
 
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
@@ -35,19 +35,19 @@ To have the Set Regarding lookup search on custom columns in Dynamics 365 App fo
 3. Select the solution that contains the table and then select **Edit** on the command bar. For more information on solutions, see [Solutions overview](/maker/data-platform/solutions-overview.md).
 
    > [!div class="mx-imgBorder"]
-   > ![Edit the solution](media/edit-mailapp-solution-1.png)
+   > ![Edit the solution.](media/edit-mailapp-solution-1.png)
    
 4. On the command bar, select the **All** and then select **Table**.
 
    > [!div class="mx-imgBorder"]
-   > ![Select table](media/edit-table.png)
+   > ![Select table.](media/edit-table.png)
 
 5. Select a table such as **Account** to edit the table. 
 
 6. Select **Views** and make sure that **Quick Find Active Accounts** view is active. If it's not, then open the view and select the necessary find columns.
 
    > [!div class="mx-imgBorder"]
-   > ![Enable Quick Find Active Accounts view](media/quick-find-active-accounts.png)
+   > ![Enable Quick Find Active Accounts view.](media/quick-find-active-accounts.png)
    
 
 

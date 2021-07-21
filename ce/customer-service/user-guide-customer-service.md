@@ -27,7 +27,7 @@ Keep track of your customer requests and issues by creating support cases in Dyn
   
  To help you select the right status of a case, your admin may have set things up so that you only see a limited set of statuses based on the current status of a case. For more information on the available list of case statuses, contact your administrator.  
   
- ![Fill in the details in the case form](../customer-service/media/crm-ua-v8-case-form-web-application.png "Fill in the details in the case form")  
+ ![Fill in the details in the case form.](../customer-service/media/crm-ua-v8-case-form-web-application.png "Fill in the details in the case form")  
   
 ### Create a case  
   
@@ -137,9 +137,9 @@ Keep track of your customer requests and issues by creating support cases in Dyn
   
 2. Select the case that you want to reassign.  
   
-3.  On the command bar, select **More Commands** ![Ellipsis button](../customer-service/media/crm-ua-ellipsis-v4.gif "Ellipsis button"), and then select **Assign**.  
+3.  On the command bar, select **More Commands** ![Ellipsis button.](../customer-service/media/crm-ua-ellipsis-v4.gif "Ellipsis button"), and then select **Assign**.  
   
-4.  Select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), and select who you want to assign the case to.  
+4.  Select the **Lookup** button ![Lookup button.](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), and select who you want to assign the case to.  
   
 5.  Select **Assign**.  
   
@@ -151,9 +151,9 @@ Keep track of your customer requests and issues by creating support cases in Dyn
   
 2. Select the case that you want to add to a queue.  
   
-3. Select the **More Commands** ![Ellipsis button](../customer-service/media/crm-ua-ellipsis-v4.gif "Ellipsis button"), and select **Add to Queue**.  
+3. Select the **More Commands** ![Ellipsis button.](../customer-service/media/crm-ua-ellipsis-v4.gif "Ellipsis button"), and select **Add to Queue**.  
   
-4.  Select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), select the queue that you want to add the case to, and then select **Add**.
+4.  Select the **Lookup** button ![Lookup button.](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button"), select the queue that you want to add the case to, and then select **Add**.
   
 ### Save and route a case
 
@@ -182,7 +182,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
  All activities that you add from within a record appear in the **Activities** area. If the **Regarding** field of an activity is set, the activity appears in the activity wall of the regarding record. You can filter the list to show just the activities that are in progress or the ones that are overdue. Select or tap the inline **Complete** link to close the activity as **Completed**.  
   
- ![Add activities in Dynamics 365 Customer Service](../customer-service/media/add-activities-dynamics-crm.png "Add activities in Dynamics 365 Customer Service")  
+ ![Add activities in Dynamics 365 Customer Service.](../customer-service/media/add-activities-dynamics-crm.png "Add activities in Dynamics 365 Customer Service")  
   
 ### Add a phone call
   
@@ -221,7 +221,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
 1. Open the record you want to add the activity to.  
   
-2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity](../customer-service/media/morecommands.gif "More Commands button in Appointment Activity") > **Email**.  
+2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity.](../customer-service/media/morecommands.gif "More Commands button in Appointment Activity") > **Email**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -241,7 +241,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
 1. Open the record you want to add the activity to.  
   
-2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity](../customer-service/media/morecommands.gif "More Commands button in Appointment Activity") > **Appointment**.  
+2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity.](../customer-service/media/morecommands.gif "More Commands button in Appointment Activity") > **Appointment**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -253,7 +253,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
  This doesn’t replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
   
- ![Add notes or OneNote notes in Dynamics 365 Customer Service](../customer-service/media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 Customer Service")  
+ ![Add notes or OneNote notes in Dynamics 365 Customer Service.](../customer-service/media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 Customer Service")  
   
 1. Open the record you want to add the activity to.  
   
@@ -263,7 +263,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
 - In the **OneNote** area, select a notebook to make entries.  
   
-  ![Add Meeting Notes in OneNote](../customer-service/media/addonenotenotes.png "Add Meeting Notes in OneNote")  
+  ![Add Meeting Notes in OneNote.](../customer-service/media/addonenotenotes.png "Add Meeting Notes in OneNote")  
   
   > [!NOTE]
   > The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration](/power-platform/admin/set-up-onenote-integration-in-dynamics-365).  
@@ -292,7 +292,7 @@ Quickly see the items assigned to you or that are available to work on by using 
   
 2. Select a view and a filter to see the items that you want.  
   
-   ![View lists used to find queue items](../customer-service/media/crm-ua-queues-view-list.png "View lists used to find queue items")  
+   ![View lists used to find queue items.](../customer-service/media/crm-ua-queues-view-list.png "View lists used to find queue items")  
   
 #### Find all cases in selected queues  
   
@@ -420,7 +420,7 @@ If you want another person in your organization to work on an activity, you can 
   
 1. [!INCLUDE[proc_activities](../includes/proc-activities.md)]  
   
-2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button](../customer-service/media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.    
+2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button.](../customer-service/media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.    
   
 3. In the **Assign to another user or team** field, select **Lookup**, and select the user or team you want to assign the activity to.  
   
@@ -432,7 +432,7 @@ If you want another person in your organization to work on an activity, you can 
   
 1. [!INCLUDE[proc_activities](../includes/proc-activities.md)]  
   
-2. In the list of activities, select the activity you want, select **More Commands** ![More commands button](../customer-service/media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
+2. In the list of activities, select the activity you want, select **More Commands** ![More commands button.](../customer-service/media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 
@@ -477,7 +477,7 @@ You can manage multiple cases more efficiently if you use parent and child cases
 > - By default, child cases will not appear in the **Regarding** lookup option of an activity. If you want the child cases to be displayed in the lookup, you can customize the filter conditions of the **Case Lookup View** in the customizations setting of Customer Service.
 > - A child case can’t have a child case and a parent case can't be a child of another case.
 
-![How to associate a child case](../customer-service/media/gs-create-child-case.png "How to associate a child case")  
+![How to associate a child case.](../customer-service/media/gs-create-child-case.png "How to associate a child case")  
   
 ### Create a new child case
 

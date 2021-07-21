@@ -27,7 +27,7 @@ A team is a group of users who share and collaborate on business records. A user
 
 To create a new team:
 
-1. Go to **Settings** ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") > **Advanced settings**.
+1. Go to **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced settings**.
 1. A new window titled **Business management** will open. Go to **Settings** at the top of the new window, then **System** > **Security** > **Teams**.
 1. Select **New** on the command bar.
 1. The **Add new team** page opens. Enter the following details.
@@ -42,7 +42,7 @@ To create a new team:
 
 ## Add or remove members to the team
 
-1. Go to **Settings** ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") > **Advanced settings**.
+1. Go to **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced settings**.
 1. A new window titled **Business management** will open. Go to **Settings** at the top of the new window, then **System** > **Security** > **Teams**.
 1. Find and open the team in the list that you want to edit.
 1. The team record opens. Use the **Team members** section here to view and edit the team members as follows:
@@ -56,7 +56,7 @@ You can assign any number of security roles to each team. When a team is assigne
 
 To apply security roles to teams, and to customize each role:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **System** > **Security**.
 1. Work with the **Users**, **Security roles**, and **Teams** items here as needed.
 

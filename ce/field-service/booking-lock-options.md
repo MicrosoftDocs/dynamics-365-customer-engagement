@@ -1,8 +1,7 @@
 ---
 title: Booking lock options in Resource Scheduling Optimization for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about the booking lock options in Resource Scheduling Optimization for Dynamics 365 Field Service.
-ms.custom: dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.date: 01/29/2019
 ms.reviewer: krbjoran
 ms.topic: article
@@ -27,14 +26,14 @@ You can schedule lock options. There are four types:
        time of day doesn’t matter.
 
      > [!div class="mx-imgBorder"]
-     > ![Image 1](media/ff525574bddea8e5b50adbb2e1381267.png)
+     > ![Image 1.](media/ff525574bddea8e5b50adbb2e1381267.png)
 
    - If **Time Window Start** and **Time Window End** are set as shown in the following
      screenshot, it indicates you want Resource Scheduling Optimization to schedule the booking from 3 AM to 6
      AM and date doesn’t matter.
 
      > [!div class="mx-imgBorder"]
-     > ![Image 2](media/79a74b15392b9d62cdef7c9334e65520.png)
+     > ![Image 2.](media/79a74b15392b9d62cdef7c9334e65520.png)
 
    - If **Time From Promised** and **Time To Promised** are set as shown in the following
      screenshot, it indicates you want Resource Scheduling Optimization to schedule a booking between 4 AM and
@@ -42,14 +41,14 @@ You can schedule lock options. There are four types:
      time range.
 
      > [!div class="mx-imgBorder"]
-     > ![Image 3](media/15e2c158dedd80554b7eb933d6c57122.png)
+     > ![Image 3.](media/15e2c158dedd80554b7eb933d6c57122.png)
 
    - If **Date Window Start/End** and **Time From/To Promised** are set as shown
      in the following screenshot, it indicates you want RSO to schedule a booking between
      3 AM and 6 AM on 5/25/2018.
 
      > [!div class="mx-imgBorder"]
-     > ![Image 4](media/1da5485805579d347ce208cdcde0a22c.png)
+     > ![Image 4.](media/1da5485805579d347ce208cdcde0a22c.png)
 
      > [!NOTE]
      > - If these fields conflict, Resource Scheduling Optimization uses **Time From Promised** and **Time To

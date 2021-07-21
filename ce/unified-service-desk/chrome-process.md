@@ -77,7 +77,7 @@ When you're creating a new hosted control, you can select **Chrome Process** as 
 6. Select **Save** to create the hosted control.
 
   > [!div class="mx-imageBorder"]
-  > ![Select hosting type as Chrome Process](media/hosted-control-chrome-process.GIF "Create a hosted control with hosting type as Chrome Process")
+  > ![Select hosting type as Chrome Process.](media/hosted-control-chrome-process.GIF "Create a hosted control with hosting type as Chrome Process")
 
 ### Enable Chrome for Unified Service Desk on client desktops
 
@@ -93,7 +93,7 @@ Example path: C:\Program Files\Microsoft Dynamics CRM USD\USD
 3. Save the file.
 
   > [!div class="mx-imageBorder"]
-  > ![Add a GlobalBrowserMode key with the value of Chrome](media/chrome-process-app-config-file-setting.GIF "Add a GlobalBrowserMode key with the value of Chrome")
+  > ![Add a GlobalBrowserMode key with the value of Chrome.](media/chrome-process-app-config-file-setting.GIF "Add a GlobalBrowserMode key with the value of Chrome")
 
 ### Enable Chrome for an entire organization
 
@@ -114,7 +114,7 @@ Add a new Global UII option named **GlobalBrowserMode** for your organization, a
 7. Select **Save**.
 
   > [!div class="mx-imageBorder"]
-  > ![For the Global Option field, enter GlobalBrowserMode with a value of Chrome](media/chrome-process-uii-option.GIF "For the Global Option field, enter GlobalBrowserMode with a value of Chrome")
+  > ![For the Global Option field, enter GlobalBrowserMode with a value of Chrome.](media/chrome-process-uii-option.GIF "For the Global Option field, enter GlobalBrowserMode with a value of Chrome")
 
 ## Recover a Chrome Process instance
 
@@ -532,11 +532,10 @@ The Chrome Process provides many options that can be used on the webpages within
 6. For the **Name** field, enter **ChromeProcessParameters**.
 
 7. For the **Value** field, enter a valid Chrome process parameter.
-    
+
     The format to add the parameters is:<br> ` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `.
-    
-    Note that the parameters are separated by semicolons. 
-    More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189).
+  
+    Note that the parameters are separated by semicolons. More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189)
 
 8. Select **Save**.
 
@@ -604,10 +603,6 @@ Chrome Process supports the ability to check spelling on webpages within Unified
     > Only the locales available in the path C:\Program Files\Microsoft Dynamics CRM USD\USD\locales are supported.
 
 8. Select **Save**.
-
-## Limitations
-
-To learn about the limitations of Chrome Process, go to [Chrome Process limitations](release-notes.md).
 
 
 ### See also

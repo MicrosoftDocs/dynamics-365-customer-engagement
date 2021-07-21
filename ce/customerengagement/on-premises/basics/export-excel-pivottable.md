@@ -1,10 +1,10 @@
 ---
-title: "Export to an Excel PivotTable (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Export to Excel PivotTable from Dynamics 365 Customer Engagement (on-premises)"
+description: "Export data to an Excel PivotTable to better see patterns and trends. Learn how to run this process and get tips for working with the table after export."
 ms.custom: 
-description: How to export to an Excel PivotTable.
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -92,7 +92,7 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
   
 - Some system views, such as Accounts: No Campaign Activities in Last 3 Months, can be exported only to a static [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] worksheet.  
   
-- Your operating system region settings (in Windows, **Control Panel** > **Region**) and Dynamics 365 Customer Engagement (on-premises) region settings (**Settings** (![Settings button on the nav bar](../basics/media/settings-gear-icon.png "Settings button on the nav bar")) > **Options** > **Languages**) should be the same. If not, refreshing dynamic data with **Refresh from CRM** might cause data changes.  
+- Your operating system region settings (in Windows, **Control Panel** > **Region**) and Dynamics 365 Customer Engagement (on-premises) region settings (**Settings** (![Settings button on the nav bar.](../basics/media/settings-gear-icon.png "Settings button on the nav bar")) > **Options** > **Languages**) should be the same. If not, refreshing dynamic data with **Refresh from CRM** might cause data changes.  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_export_to_excel](../includes/cc-privacy-export-to-excel.md)]
@@ -178,7 +178,7 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
   
 - Some system views, such as Accounts: No Campaign Activities in Last 3 Months, can be exported only to a static [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] worksheet.  
   
-- Your operating system region settings (in Windows, **Control Panel** > **Region**) and Dynamics 365 Customer Engagement (on-premises) region settings (**Settings** (![Settings button on the nav bar](../basics/media/settings-gear-icon.png "Settings button on the nav bar")) > **Options** > **Languages**) should be the same. If not, refreshing dynamic data with **Refresh from CRM** might cause data changes.  
+- Your operating system region settings (in Windows, **Control Panel** > **Region**) and Dynamics 365 Customer Engagement (on-premises) region settings (**Settings** (![Settings button on the nav bar.](../basics/media/settings-gear-icon.png "Settings button on the nav bar")) > **Options** > **Languages**) should be the same. If not, refreshing dynamic data with **Refresh from CRM** might cause data changes.  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_export_to_excel](../includes/cc-privacy-export-to-excel.md)]

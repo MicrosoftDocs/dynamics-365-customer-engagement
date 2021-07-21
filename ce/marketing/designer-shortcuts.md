@@ -35,7 +35,7 @@ Dynamics 365 Marketing supports most (but not all) of the same keyboard shortcut
 
 Dynamics 365 Marketing provides advanced digital-content designers for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This section lists keyboard shortcuts and accessibility features that are available for working with the designers for marketing email messages, marketing pages, and marketing forms.
 
-![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
+![The designer toolbar and content area.](media/designer-tools-ill.png "The designer toolbar and content area")
 
 More information: [Design your digital content](design-digital-content.md)
 
@@ -82,7 +82,7 @@ More information: [Design your digital content](design-digital-content.md)
 
 When a text element is selected, you are able to enter and style text within that element. The keyboard shortcuts listed in the following subsections are active while you are working with a text element.
 
-![The text-element toolbar](media/text-block-toolbar.png "The text-element toolbar")
+![The text-element toolbar.](media/text-block-toolbar.png "The text-element toolbar")
 
 #### Navigating within a text element
 
@@ -150,7 +150,7 @@ When a text element is selected, you are able to enter and style text within tha
 
 Most of the standard navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
 
-![An example of a customer journey](media/customer-journey-full.png "An example of a customer journey")
+![An example of a customer journey.](media/customer-journey-full.png "An example of a customer journey")
 
 <a name="canvas-tabs"></a>
 
@@ -171,7 +171,7 @@ To navigate the side panel:
 1. Press space to open the **Add** menu.
 1. Use the arrow keys to select a tile type from the **Add** menu.
 1. Press space to choose the tile type currently selected in the **Add** menu.  
-    ![Add a tile from the toolbar](media/customer-journey-add-menu.png "Choose the type of tile you want to add")
+    ![Add a tile from the toolbar.](media/customer-journey-add-menu.png "Choose the type of tile you want to add")
 1. Use the arrow keys to select where you want to insert the new tile in the pipeline. Select a new-tile position to place the tile in a new position, or select an existing tile to place the tile as a child of that tile.  
 1. Press space to place the tile in the selected position.
 

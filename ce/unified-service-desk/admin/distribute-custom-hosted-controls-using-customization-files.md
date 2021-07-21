@@ -20,7 +20,7 @@ tags: MigrationHO
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents who are associated with the configuration sign in to the Dynamics 365 instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
+Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents associated with the configuration sign in to the Dynamics 365 instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
   
  To distribute custom controls and functionality:
   
@@ -63,7 +63,7 @@ Use the customization files feature to distribute custom hosted controls and fun
   
     To update an existing customization file record with a new customization compressed (.zip) folder, remove the existing zipped folder by selecting **X** next to the file. Then, select **Choose File**, and browse to the location of the compressed folder that contains the updated custom control and functionality files, and then select **Upload**.
 
-    ![Create or update customization file](../../unified-service-desk/unified-interface/media/usd-create-update-customization-file.PNG "Create or update customization file")
+    ![Create or update customization file.](../../unified-service-desk/unified-interface/media/usd-create-update-customization-file.PNG "Create or update customization file")
   
 9. Select **Save**.  
   

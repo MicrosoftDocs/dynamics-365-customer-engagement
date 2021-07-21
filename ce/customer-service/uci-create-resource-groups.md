@@ -29,7 +29,7 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 
 2. Select **Resource Group**.
 
-   ![Select Resource Group](media/uci-resource-groups.png "Select Resource Group")
+   ![Select Resource Group.](media/uci-resource-groups.png "Select Resource Group")
 
 3. Select **New**. 
 
@@ -41,7 +41,7 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
   
     - **Description**: You can add a detailed description of this resource group, including the criteria that you used to determine which resources to add to the resource group. 
 
-   ![New Resource Group](media/uci-new-resource-group.png "Add details for a new resource group")
+   ![New Resource Group.](media/uci-new-resource-group.png "Add details for a new resource group")
   
 5. Select **Save**.
     After you save the record, **Resources** appears under **Common**. 
@@ -52,7 +52,7 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 
     Adding other resource groups to a resource group is a good way to manage large numbers of resources. For example, you could add the resource groups of "senior technicians" and "junior technicians" to a resource group of "technicians."
 
-   ![Add Resources](media/uci-add-resource.png "Add other resources to your Resource Group")
+   ![Add Resources.](media/uci-add-resource.png "Add other resources to your Resource Group")
     
 8. Select **OK** to add the selected resources to the resource group.
 
@@ -68,7 +68,7 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 
 4. Select **Save** or **Save and Close**. 
 
-   ![Edit Resource Group](media/uci-change-resource.png "Edit the resources in your Resource Group")
+   ![Edit Resource Group.](media/uci-change-resource.png "Edit the resources in your Resource Group")
    
 ### See also  
 

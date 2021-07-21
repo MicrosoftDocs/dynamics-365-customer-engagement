@@ -30,7 +30,7 @@ The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unifie
 
 This diagram illustrates the flow of the migration:
 > [!div class="mx-imgBorder"]
-> ![Migration Steps](../media/migration-steps-web-client-unified-interface-migration-assistant.PNG "Migration Steps") 
+> ![Migration Steps.](../media/migration-steps-web-client-unified-interface-migration-assistant.PNG "Migration Steps") 
 
 1. **Web Client** </br></br> The Web Client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations. 
 
@@ -49,25 +49,25 @@ This diagram illustrates the flow of the migration:
 2. In the introduction screen, select **Continue**.
 
 3. In the **Login** screen, provide authentication details to connect to the instance from where you want to fetch and migrate the configurations. If you have multiple organizations, and want to select the organization where you want to fetch and migrate the configurations, select the **Display list of available organizations** check box, and select **Login**.</br>
-![Migration Assistant Login screen](../media/usd-migration-assistant-login.PNG "Migration Assistant Login Screen")
+![Migration Assistant Login screen.](../media/usd-migration-assistant-login.PNG "Migration Assistant Login Screen")
 
 4. In the **Export Configurations** screen, select **Export**.</br>
 **Data file location** is the location where the migration assistant stores the **Data.zip** folder, which contains the configurations that you export from the Web Client.</br>
 When the export is successfully completed, select **Next**.</br>
-![Export configurations screen](../media/usd-migration-assistant-export-configurations.PNG "Export configurations screen")
+![Export configurations screen.](../media/usd-migration-assistant-export-configurations.PNG "Export configurations screen")
 
 5. In the **Select Configurations** screen, select the configuration elements (hosted controls) you want to migrate, and select **Next**.</br>This is a multiple selection list, and you can select several configuration elements to migrate.
 </br>The migration assistant displays only the hosted controls to select. If you select a hosted control, the migration assistant exports all the actions, action calls, events, and other elements associated with the particular hosted control.</br>
-![Select configurations screen](../media/usd-migration-assistant-select-configurations.PNG "Select configurations screen")
+![Select configurations screen.](../media/usd-migration-assistant-select-configurations.PNG "Select configurations screen")
 
 6. In the **Confirm Selection** screen, review the configurations you selected for migration, and select **Next**. If you want to change the selection, select **Previous** and repeat step 5.
 
 7. In the **Migrate Configurations** screen, choose **Migrate**. After the migration is completed, select **Next**.</br>
-![Migrate configurations screen](../media/usd-migration-assistant-migrate.PNG "Migrate configurations screen")
+![Migrate configurations screen.](../media/usd-migration-assistant-migrate.PNG "Migrate configurations screen")
 
 8. In the **File Download** screen, the migration assistant provides a default location to download the **USD_UI_Configurations.zip** folder. To change the default download location, select **Browse** and choose a location, and select **Download File**.</br>
 The migration assistant displays the **Download Completed**.</br>
-![File Download screen](../media/usd-migration-assistant-download-file.PNG "File Download screen")
+![File Download screen.](../media/usd-migration-assistant-download-file.PNG "File Download screen")
 
 9. Select **Exit** to close and exit the tool.
 
@@ -92,7 +92,7 @@ You can see the success message after the solution is imported successfully.
 
 You can see the **USDWebResources** in the solutions list.</br>
 
-![USDWebResource imported to a instance](../media/usd-configuration-migration-webresources-import.PNG "USDWebResource imported to a instance")
+![USDWebResource imported to a instance.](../media/usd-configuration-migration-webresources-import.PNG "USDWebResource imported to a instance")
 
 For more information, see [Import, update, and export solutions](/dynamics365/customer-engagement/customize/import-update-export-solutions)
 
@@ -105,29 +105,29 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 2. Open **ConfigurationMigration** and execute **DataMigrationUtility.exe**. 
 
 3. In the next screen, select **Import data**, and select **Continue**.</br>
-![Configuration Migration Tool options screen](../media/usd-configuration-migration-tool-options.PNG "Configuration Migration Tool options data screen")
+![Configuration Migration Tool options screen.](../media/usd-configuration-migration-tool-options.PNG "Configuration Migration Tool options data screen")
 
 4. In the **Login** screen, provide authentication details to connect to the instance to which you want to deploy the migrated configurations. If you have multiple organizations, and want to select the organization to which you want to deploy the migrated configurations, select the **Display list of available organizations** check box, and select **Login**.</br>
-![Configuration Migration Tool login screen](../media/usd-configuration-migration-tool-login.PNG "Configuration Migration Tool login screen")
+![Configuration Migration Tool login screen.](../media/usd-configuration-migration-tool-login.PNG "Configuration Migration Tool login screen")
 
 5. In the next screen, browse the **USD_UI_Configurations** folder and select the **Data.zip** folder, and then select **Import Data**.</br>
-![Browse and select data.zip folder](../media/usd-configuration-migration-tool-import-data.PNG "Browse and select data.zip folder")
+![Browse and select data.zip folder.](../media/usd-configuration-migration-tool-import-data.PNG "Browse and select data.zip folder")
 
 6. After the import is complete, select **Exit**.</br>
-![Importing is completed. Select Exit](../media/usd-configuration-migration-tool-import-complete.PNG "Importing is completed. Select Exit")
+![Importing is completed. Select Exit.](../media/usd-configuration-migration-tool-import-complete.PNG "Importing is completed. Select Exit")
 
 > [!div class="nextstepaction"]
 > [Post-requisites steps](test-migration.md)
 
 ## See also
 
-[Migration of Unified Service Desk configurations from Web Client to Unified Interface apps](overview-migration-assistant.md)
+[Migration of Unified Service Desk configurations from Web Client to Unified Interface apps](overview-migration-assistant.md)  
 
-[Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)
+[Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)  
 
-[Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
+[Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)  
 
-[Import configuration data](/dynamics365/customer-engagement/admin/import-configuration-data)
+[Import configuration data](/dynamics365/customer-engagement/admin/import-configuration-data)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

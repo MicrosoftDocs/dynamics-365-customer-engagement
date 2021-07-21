@@ -1,6 +1,6 @@
 ---
-title: Convert a case to a knowledge article in Customer Service Hub | Microsoft Docs
-description: Understand Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
+title:"Convert a case to a knowledge article in Customer Service Hub | Microsoft Docs"
+description: "Perform the steps mentioned in the topic to convert a case to a Knowledge article in Customer Service Hub for Dynamics 365 Customer Service."
 ms.date: 11/27/2019
 ms.topic: article
 author: neeranelli

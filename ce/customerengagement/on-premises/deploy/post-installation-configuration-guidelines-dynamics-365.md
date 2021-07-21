@@ -2,7 +2,7 @@
 title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/13/2019"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -160,7 +160,7 @@ If clients experience issues connecting through the IFD after you have registere
 6. Right-click **Windows Authentication**, and select **Providers**. For each provider in the list, select the provider, and then select **Remove**. 
 7. After all providers are removed, right-click **Windows Authentication**, and then select **Disable**.
 
-   ![Remove site provider](media/remove-site-provider.png)
+   ![Remove site provider.](media/remove-site-provider.png)
 
 Repeat the previous steps to remove all Windows Authentication providers from the **nga** and **AppWebServices** site folders. 
 
@@ -170,7 +170,7 @@ Repeat the previous steps to remove all Windows Authentication providers from th
 3. In the middle pane, in **Global Settings**, locate **Authentication Methods** and then select **Edit**. 
 4. Clear **Windows Authentication** if it is checked, and then select **OK**.
 
-   ![Disable integrated windows authentication](media/disable-windows-auth.png)
+   ![Disable integrated windows authentication.](media/disable-windows-auth.png)
    
 #### Grant application permission when using Windows Server 2016 AD FS 
 On the AD FS server, run the following command in a Windows PowerShell console. This is required if you use Windows Server 2016 AD FS.

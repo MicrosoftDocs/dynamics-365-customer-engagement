@@ -5,8 +5,9 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
+ms.custom: intro-internal
+
 ---
 
 # App profile manager
@@ -40,7 +41,7 @@ Thereafter, users with the required agent or supervisor role will be able to see
 The Power Apps home page for app profiles is an easy-to-use interface that helps you get started with what you can do on the page.
 
   > [!div class=mx-imgBorder]
-  > ![App profiles home page](media/app-profile-home.png "App profiles home page")
+  > ![App profiles home page.](media/app-profile-home.png "App profiles home page")
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
@@ -60,7 +61,7 @@ The options to access and manage the following entities are available on the lef
 
 All these options are available in the Unified Interface and open on a new tab when you select any to access it.
 
-> ![Navigation menu](media/app-profile-navigation-items.png "App profiles home page")
+> ![Navigation menu.](media/app-profile-navigation-items.png "App profiles home page")
 
 Irrespective of the path from where you navigate to any of the components, such as session templates or application tab templates, the templates that you have defined for Customer Service workspace and Omnichannel for Customer Service will be displayed because they are stored in a common library.
 

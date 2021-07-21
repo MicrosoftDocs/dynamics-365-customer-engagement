@@ -5,7 +5,6 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 01/27/2021
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -58,7 +57,7 @@ The settings that you enable for the app profile will be available for agents an
 2. On the **Session templates**, select **Add entity session template**.
 3. Search for the template you want to add and select it. Make sure that the selected template is based on **Entity** type. More information: [Manage session templates](session-templates.md)
    > [!div class=mx-imgBorder]
-   > ![App profile session template](media/app-profile-session-template.png "App profile session template")
+   > ![App profile session template.](media/app-profile-session-template.png "App profile session template")
 
 4. Do the following on the **Productivity pane** tab:
    1. If you want to enable productivity tools, set the toggle to on for **Turn on productivity pane**.
@@ -84,7 +83,7 @@ The settings that you enable for the app profile will be available for agents an
 1. On the **App profiles** page, select the profile that you want to assign to a user.
 2. On the ***<profile_name>*** page, select **Assign users** on the command bar, and select **OK** on the message dialog box. The profile opens on a new tab.
    > [!div class=mx-imgBorder]
-   > ![Assign users](media/assign-users.png "Assign users")
+   > ![Assign users.](media/assign-users.png "Assign users")
 3. On the **General** tab, select **Add Existing User**.
 4. On the **Lookup Records** pane, search and select the user.
 

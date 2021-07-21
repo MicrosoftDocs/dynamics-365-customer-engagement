@@ -2,7 +2,7 @@
 title: "Monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -270,7 +270,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 1.  Install the Field Medic app from the [Windows Phone store](https://go.microsoft.com/fwlink/p/?LinkID=534099).  
   
-     ![Install the field Medic app](media/crm-itpro-tracewinphoneinstallapp.png "Install the field Medic app")  
+     ![Install the field Medic app.](media/crm-itpro-tracewinphoneinstallapp.png "Install the field Medic app")  
   
 #### Create a custom profile for AppHost logging  
   
@@ -278,7 +278,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 2.  Create the file FieldMedic-AppHost.xml in the following folder: `computer\<windows phone>\Phone\Documents\FieldMedic`. Create the folder structure if it doesn’t exist already. You can create the file using [!INCLUDE[pn_Notepad](../includes/pn-notepad.md)] and save as FieldMedic-AppHost.xml.  
   
-     ![Field Medic: folder and XML file](media/crm-itpro-tracefieldmedicfolder.png "Field Medic: folder and XML file")  
+     ![Field Medic: folder and XML file.](media/crm-itpro-tracefieldmedicfolder.png "Field Medic: folder and XML file")  
   
 3.  Using [!INCLUDE[pn_Notepad](../includes/pn-notepad.md)], add the following code to the FieldMedic-AppHost.xml file.  
   
@@ -316,23 +316,23 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 2.  Tap **Advanced**.  
   
-     ![Field Medic: choose Advanced](media/crm-itpro-tracefieldmedicadvanced.png "Field Medic: choose Advanced")  
+     ![Field Medic: choose Advanced.](media/crm-itpro-tracefieldmedicadvanced.png "Field Medic: choose Advanced")  
   
 3.  Tap **Choose which ETW providers to use**.  
   
-     ![Field Medic: choose ETW providers](media/crm-itpro-tracefieldmedicetw.png "Field Medic: choose ETW providers")  
+     ![Field Medic: choose ETW providers.](media/crm-itpro-tracefieldmedicetw.png "Field Medic: choose ETW providers")  
   
 4.  Swipe up to locate the **Custom Group** section and then select the checkbox for **FieldMedic-AppHost.xml**.  
   
-     ![Field Medic: choose FieldMedic&#45;AppHost.xml](media/crm-itpro-tracefieldmediccustomgroupscheckbox.png "Field Medic: choose FieldMedic-AppHost.xml")  
+     ![Field Medic: choose FieldMedic&#45;AppHost.xml.](media/crm-itpro-tracefieldmediccustomgroupscheckbox.png "Field Medic: choose FieldMedic-AppHost.xml")  
   
 5.  Tap the back button twice.  
   
-     ![Field Medic: Choose the Back button](media/crm-itpro-tracefieldmedicback.png "Field Medic: Choose the Back button")  
+     ![Field Medic: Choose the Back button.](media/crm-itpro-tracefieldmedicback.png "Field Medic: Choose the Back button")  
   
 6.  Tap **Start Logging**.  
   
-     ![Field Medic: Choose Start Logging](media/crm-itpro-tracefieldmedicstartloggin.png "Field Medic: Choose Start Logging")  
+     ![Field Medic: Choose Start Logging.](media/crm-itpro-tracefieldmedicstartloggin.png "Field Medic: Choose Start Logging")  
   
      The following will appear.  
   
@@ -352,11 +352,11 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 2.  Tap **Stop Logging**.  
   
-     ![Field Medic: Stop Logging](media/crm-itpro-tracefieldmedicstoplogging.png "Field Medic: Stop Logging")  
+     ![Field Medic: Stop Logging.](media/crm-itpro-tracefieldmedicstoplogging.png "Field Medic: Stop Logging")  
   
 3.  Provide a title for the logs and then tap **Save**.  
   
-     ![Field Medic: Save log file](media/crm-itpro-tracefieldmedicsavelog.png "Field Medic: Save log file")  
+     ![Field Medic: Save log file.](media/crm-itpro-tracefieldmedicsavelog.png "Field Medic: Save log file")  
   
 4.  Tap **View Reports** to confirm you logs were successfully saved.  
   
@@ -372,7 +372,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 3.  Copy the contents of this folder to your computer.  
   
-     ![Field Medic: Reports folder](media/crm-itpro-tracefieldmedicreportfolder.png "Field Medic: Reports folder")  
+     ![Field Medic: Reports folder.](media/crm-itpro-tracefieldmedicreportfolder.png "Field Medic: Reports folder")  
   
 #### View logs using Event Viewer  
   
@@ -380,7 +380,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 2.  Select **Action** > **Open Saved Log…**  
   
-     ![Field Medic: Open a log file](media/crm-itpro-tracefieldmedicopenreport.png "Field Medic: Open a log file")  
+     ![Field Medic: Open a log file.](media/crm-itpro-tracefieldmedicopenreport.png "Field Medic: Open a log file")  
   
 3.  Navigate to: `computer\<windows phone>\Phone\Documents\FieldMedic\reports` or wherever you copied the log files from your Windows Phone.  
   
@@ -390,7 +390,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 6.  Review the event log entries for any errors.  
   
-     ![Field Medic: Example of event](media/crm-itpro-tracefieldmediceventsample.png "Field Medic: Example of event")  -->
+     ![Field Medic: Example of event.](media/crm-itpro-tracefieldmediceventsample.png "Field Medic: Example of event")  -->
   
 <a name="BKMK_MoCA_tracing"></a>   
 ## Enable tracing for Dynamics 365 for tablets  
@@ -405,31 +405,31 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 3.  From the **View** menu, select **Show Analytic and Debug Logs**.  
   
-     ![Show Analytic and Debug Logs](media/crm-ua-moca-showanalytic.png "Show Analytic and Debug Logs")  
+     ![Show Analytic and Debug Logs.](media/crm-ua-moca-showanalytic.png "Show Analytic and Debug Logs")  
   
 4.  Additional nodes will appear under the **AppHost** folder.  
   
-     ![AppHost Folder](media/crm-ua-moca-apphostfolder.png "AppHost Folder")  
+     ![AppHost Folder.](media/crm-ua-moca-apphostfolder.png "AppHost Folder")  
   
 5.  Right-click (press and hold) the **AppTracing** node and then select **Enable Log**.  
   
-     ![AppTracing Enable Log](media/crm-ua-moca-enablelog.png "AppTracing Enable Log")  
+     ![AppTracing Enable Log.](media/crm-ua-moca-enablelog.png "AppTracing Enable Log")  
   
 6.  Select **OK** to agree to the following warning.  
   
-     ![Warning: logs may lose events](media/crm-ua-moca-mayloseevents.png "Warning: logs may lose events")  
+     ![Warning: logs may lose events.](media/crm-ua-moca-mayloseevents.png "Warning: logs may lose events")  
   
 7.  After reproducing the issue, right-click (press and hold) **AppTracing** and then click or tap **Disable Log**.  
   
-     ![AppTracing Disable Log](media/crm-ua-moca-disablelog.png "AppTracing Disable Log")  
+     ![AppTracing Disable Log.](media/crm-ua-moca-disablelog.png "AppTracing Disable Log")  
   
 8.  Refresh the Event Viewer to view log events. You can use **F5** or right-click (press and hold) **AppTracing** and then select **Refresh**.  
   
-     ![Refresh AppTracing](media/crm-ua-moca-refreshapptrace.png "Refresh AppTracing")  
+     ![Refresh AppTracing.](media/crm-ua-moca-refreshapptrace.png "Refresh AppTracing")  
   
 9. Review the details of events that are logged. Look for entries containing “Dynamics 365” in the field under the **General** tab.  
   
-     ![AppTracing Find](media/crm-ua-moca-apptracefind.png "AppTracing Find")  
+     ![AppTracing Find.](media/crm-ua-moca-apptracefind.png "AppTracing Find")  
   
     > [!TIP]
     >  You can right-click (press and hold) **AppTracing** and then select **Find** to initiate a find. Then search for any events containing a word such as “Dynamics 365.” Ctrl + F is the keyboard shortcut.  
@@ -438,7 +438,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
      To save an event log, right-click (press and hold) the log and select **Save All Events As**. Specify the directory where you want to save the log file.  
   
-     ![Events logged under admin](media/crm-ua-moca-eventlogadmin.png "Events logged under admin")  
+     ![Events logged under admin.](media/crm-ua-moca-eventlogadmin.png "Events logged under admin")  
   
 ### iPad  
  Follow these steps to set up and view logging on the [!INCLUDE[tn_ipad](../includes/tn-ipad.md)].  
@@ -447,19 +447,19 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 1.  Open **Settings**.  
   
-     ![iPad Settings](media/crm-ua-moca-ipadsettings.png "iPad Settings")  
+     ![iPad Settings.](media/crm-ua-moca-ipadsettings.png "iPad Settings")  
   
 2.  Select **Dynamics 365** from the Settings list.  
   
-     ![iPad Settings Dynamics 365](media/crm-ua-moca-ipadcrm.png "iPad Settings Dynamics 365")  
+     ![iPad Settings Dynamics 365.](media/crm-ua-moca-ipadcrm.png "iPad Settings Dynamics 365")  
   
 3.  The **Enable Logging** option is set to **OFF** by default.  Toggle this option to switch the setting to **ON**.  
   
-     ![iPad Enable Logging on](media/crm-ua-moca-ipadenableloggingon.png "iPad Enable Logging on")  
+     ![iPad Enable Logging on.](media/crm-ua-moca-ipadenableloggingon.png "iPad Enable Logging on")  
   
 4.  After reproducing the issue, toggle the **Enable Logging** setting to **OFF**.  
   
-     ![iPad Settings Dynamics 365](media/crm-ua-moca-ipadcrm.png "iPad Settings Dynamics 365")  
+     ![iPad Settings Dynamics 365.](media/crm-ua-moca-ipadcrm.png "iPad Settings Dynamics 365")  
   
 ##### View the iPad log files  
   
@@ -469,21 +469,21 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 3.  Select your device from the Devices section.  
   
-     ![iTunes Devices](media/crm-ua-moca-ipaditunesdevice.png "iTunes Devices")  
+     ![iTunes Devices.](media/crm-ua-moca-ipaditunesdevice.png "iTunes Devices")  
   
 4.  Select the Apps area from the header.  
   
-     ![iTunes Apps](media/crm-ua-moca-itunesapps.png "iTunes Apps")  
+     ![iTunes Apps.](media/crm-ua-moca-itunesapps.png "iTunes Apps")  
   
 5.  Locate the File Sharing section and select the Dynamics 365 app.  
   
-     ![iTunes File Sharing](media/crm-ua-moca-itunesfilesharing.png "iTunes File Sharing")  
+     ![iTunes File Sharing.](media/crm-ua-moca-itunesfilesharing.png "iTunes File Sharing")  
   
-     ![iTunes File Sharing Dynamics 365](media/crm-ua-moca-itunesfilesharing2.png "iTunes File Sharing Dynamics 365")  
+     ![iTunes File Sharing Dynamics 365.](media/crm-ua-moca-itunesfilesharing2.png "iTunes File Sharing Dynamics 365")  
   
 6.  On the right-side column you should see a list of log files if logging was enabled for the app. Select a log file, press **Save to**, and then choose a location to save the log file.  
   
-     ![iTunes Save Dynamics 365 log file](media/crm-ua-moca-itunessavelog.png "iTunes Save Dynamics 365 log file")  
+     ![iTunes Save Dynamics 365 log file.](media/crm-ua-moca-itunessavelog.png "iTunes Save Dynamics 365 log file")  
   
 7.  Locate the log file you saved and open it to view the log details.  
   
@@ -501,7 +501,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 1.  On the setup page for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], tap the ellipses (…) to display the option to enable logging.  
   
-     ![Enable logging for Android](media/crm-for-tablets-android-logging.png "Enable logging for Android")  
+     ![Enable logging for Android.](media/crm-for-tablets-android-logging.png "Enable logging for Android")  
   
 2.  Tap the **Enable Logging** checkbox.  
   
@@ -511,7 +511,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 2.  While on the dashboard, tap the ellipses (…) in the bottom-right corner to display the command bar.  
   
-     ![Ellipsis button](media/crm-for-tablets-android-seutp.png "Ellipsis button")  
+     ![Ellipsis button.](media/crm-for-tablets-android-seutp.png "Ellipsis button")  
   
 3.  Tap **Settings**, and then tap **Sign out**.  
   
@@ -519,7 +519,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 5.  On the setup page for [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], tap the ellipses (…) to display the option to enable logging.  
   
-     ![Enable logging for Android](media/crm-for-tablets-android-logging.png "Enable logging for Android")  
+     ![Enable logging for Android.](media/crm-for-tablets-android-logging.png "Enable logging for Android")  
   
 6.  Tap the **Enable Logging** check box.  
   
@@ -529,7 +529,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 2.  Open the MSCRM folder, then select and view the log file.  
   
-     ![Example Android log file](media/crm-for-tablet-android-log-file.png "Example Android log file")  
+     ![Example Android log file.](media/crm-for-tablet-android-log-file.png "Example Android log file")  
   
 ### Sample log  
  The following example shows you what you might see in a log file.  

@@ -37,7 +37,7 @@ Add all items to the campaign that your organization needs in this marketing con
    | A related campaign | On the **Related** tab, select **Related Campaigns**, and then select **Add Existing Campaign**.     |
 
 
-3. Select the type of record you want in the **LookUp Records** dialog box. In the **Look for Records** box, type the first few letters of the name of the record to narrow your search, and then select the Search icon ![Search icon](../sales-enterprise/media/search-icon.png "Search icon").  
+3. Select the type of record you want in the **LookUp Records** dialog box. In the **Look for Records** box, type the first few letters of the name of the record to narrow your search, and then select the Search icon ![Search icon.](../sales-enterprise/media/search-icon.png "Search icon").  
 
 5. Select the records that you want to add in the list of records that appears, and then select **Add**.  
 
