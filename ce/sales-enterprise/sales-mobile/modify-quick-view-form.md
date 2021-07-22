@@ -26,7 +26,7 @@ In this example, the mobile app displays information based on the fields defined
 If you want to change the fields that the mobile app displays, modify the first quick view form in the form order. If you want a different quick view form to be used for displaying information, move that form to the top of the form order. More information: [Set the form order](/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
 
 > [!NOTE]
-> When you modify a quick view form, the changes will take up to 6 hours to reflect in the mobile app.
+> When you modify a quick view form, the changes take up to 6 hours to reflect in the mobile app.
 
 ### See also
 
