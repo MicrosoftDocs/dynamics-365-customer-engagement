@@ -77,9 +77,6 @@ Each event record provides a list that shows all the custom field values submitt
 
 1. Scroll down to the **Event registration** section. The **Registration responses** table here lists each value supplied by each registrant for each custom field.
 
-    > [!div class="mx-imgBorder"]
-    > ![Custom field values submitted for an event.](media/event-reg-field-all-event-responses.png "Custom field values submitted for an event")
-
 ## Read custom field values submitted for individual registrations
 
 Each event registration record includes the values that the registrant entered for each custom field. To read them:
@@ -91,9 +88,6 @@ Each event registration record includes the values that the registrant entered f
     - Go to **Outbound marketing** > **Customers** > **Contacts** and open a contact. Then go to the **Events Attended** tab and find and open a registration record in the **Registered events** section of the page.
 
 1. Once you have an event registration record open, go to its **Registration Responses** tab.
-
-    > [!div class="mx-imgBorder"]
-    > ![Custom field values submitted for a single registration.](media/event-reg-field-single-registration-responses.png "Custom field values submitted for a single registration")
 
 1. The **Registration responses** table here shows each custom field value that was submitted together with this event registration.
 
