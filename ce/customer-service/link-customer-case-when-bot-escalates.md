@@ -22,7 +22,7 @@ For bots in Power Virtual Agents, you will set the values for the context variab
 
 A sample screenshot is as follows that outlines how the variables need to be set in Power Virtual Agents.
 
-You do not need to select the **External sources can set values** check box in the variable properties.
+You do not need to select the **External sources can set values** checkbox in the variable properties.
 
 ![Set context variables for Power Virtual Agents bot.](media/set-context-variables-pva.png "Set context variables for Power Virtual Agents bot")
 
