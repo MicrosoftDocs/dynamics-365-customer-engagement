@@ -112,6 +112,8 @@
       items: 
       - name: Email bounce categories
         href: email-bounce-categories.md
+      - name: Fix a high email bounce rate
+        href: fix-high-bounce-rate.md
       - name: Create an SPF TXT record
         href: create-spf-record.md
       - name: Dedicated vs shared IPs for email delivery
