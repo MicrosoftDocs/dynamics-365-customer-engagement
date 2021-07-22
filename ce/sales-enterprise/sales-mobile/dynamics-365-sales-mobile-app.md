@@ -36,7 +36,7 @@ The Dynamics 365 Sales mobile app can be installed on [iOS](install-ios-app.md) 
 |Supported devices|iOS and Android mobile phones. The app supports tablets, but the app's user interface is displayed using Unified Interface (same as in Dynamics 365 for tablets).|iOS and Android mobile phones and tablets|
 |App store availability|Apple App Store, Google Play|Apple App Store, Google Play|
 |Offline|Partial. If the app is launched by a user having [mobile offline profile](../../mobile-app/setup-mobile-offline.md) defined, the app's user interface is displayed using Unified Interface (same as in Dynamics 365 for phones).|Yes|
-|Supported model driven apps|All, including custom app modules. <br>**Note**: The app is not recommended for app modules that are not Dynamics 365 Sales.|All, including custom app modules|
+|Supported model-driven apps|All, including custom app modules. <br>**Note**: The app is not recommended for app modules that are not Dynamics 365 Sales.|All, including custom app modules.|
 |Supported search capabilities|Relevance search and categorized search. The app has an improved user experience for relevance search.|Relevance search and categorized search.|
 |Online meeting|Supported. You can attend meetings through Exchange Online.|Not supported. You can only view meetings.|
 |Server-side sync integration (allows you to track meetings and perform other tasks)|Supported|Not supported|
