@@ -588,16 +588,10 @@
     items: 
     - name: Administrator experience
       items: 
-      - name: Productivity pane Omnichannel for Customer Service
+      - name: Productivity pane
         href: productivity-pane.md
       - name: Enable productivity pane and smart assist
         href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
-      - name: Create macros
-        href: ../app-profile-manager/macros.md
-      - name: Guide agents with scripts
-        href: ../app-profile-manager/agent-scripts.md
-      - name: Use automation dictionary
-        href: ../app-profile-manager/automation-dictionary-keys.md
       - name: Create quick replies
         href: create-quick-replies.md
       - name: Enable personal quick replies
