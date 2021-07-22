@@ -53,16 +53,24 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
     27. `OmnichannelFacebook`
     28. `msdyn_OmnichannelBotEnablerPatch`
     29. `OmnichannelBotEnabler`
-    30. `msdyn_OmnichannelSBRPatch_managed`
-    31. `OmnichannelSBR`
-    32. `msdyn_OmnichannelBasePatch`
-    33. `OmnichannelBase`
-    34. `ScenariosAndChannels`
-    35. `msdyn_CIFrameworkPatch`
-    36. `ChannelAPIIntegrationFramework`
-    37. `OmnichannelIntelligence` 
-    38. `OmnichannelConfiguration`
-    39. `msdyn_MacrosDataOmnichannel`
+    30. `UnifiedRoutingPrimeAnchor`
+    31. `msdyn_OmnichannelSBRPatch_managed`
+    32. `OmnichannelSBR`
+    33. `OCBaseURBase`
+    34. `msdyn_OmnichannelBasePatch`
+    35. `OmnichannelBase`
+    36. `MLDecisionEngine`
+    37. `UnifiedRouting`
+    38. `msdyn_UnifiedRoutingForEntity`
+    39. `DecisionEngine`
+    40. `msdynce_AnyEntityRoutingRulePatch202001_managed`
+    41. `msdynce_AnyEntityRoutingRule`
+    42. `ScenariosAndChannels`
+    43. `msdyn_CIFrameworkPatch`
+    44. `ChannelAPIIntegrationFramework`
+    45. `OmnichannelIntelligence` 
+    46. `OmnichannelConfiguration`
+    47. `msdyn_MacrosDataOmnichannel`
 
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 

@@ -1,6 +1,6 @@
 ---
-title: Create a Cases in Customer Service Hub | Microsoft Docs
-description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
+title: Create a case in Customer Service Hub | MicrosoftDocs
+description: Understand cases in Customer Service Hub for Dynamics 365 Customer Service.
 ms.date: 11/27/2019
 ms.topic: article
 author: neeranelli
@@ -16,7 +16,7 @@ search.app:
 ms.custom: 
   - dyn365-customerservice
 searchScope:
-- D365-App-customerservice
+- D365-App-customerservicehub
 - D365-Entity-incident
 - D365-UI-*
 - Customer Engagement

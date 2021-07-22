@@ -16,7 +16,7 @@ search.app:
 ms.custom: 
   - dyn365-customerservice
 searchScope:
-- D365-App-customerservice
+- D365-App-customerservicehub
 - D365-Entity-queueitem
 - D365-UI-*
 - Customer Engagement
