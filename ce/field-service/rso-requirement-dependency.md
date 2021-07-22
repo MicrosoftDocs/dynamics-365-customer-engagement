@@ -1,11 +1,10 @@
 ---
 title: "Schedule in sequence with requirement dependencies | MicrosoftDocs"
 description: Learn how to schedule in sequence using requirement dependencies in resource scheduling optimization
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 02/10/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

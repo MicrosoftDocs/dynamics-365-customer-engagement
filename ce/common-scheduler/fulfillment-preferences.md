@@ -1,13 +1,10 @@
 ---
 title: "Fulfillment preferences in Universal Resource Scheduling in Dynamics 365 | MicrosoftDocs"
 description: Learn how to use fulfillment preferences in Universal Resource Scheduling in Dynamics 365
-ms.custom: 
-  - dyn365-projectservice
-  - dyn365-fieldservice
-  - dyn365-customerservice
 ms.date: 11/30/2018
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

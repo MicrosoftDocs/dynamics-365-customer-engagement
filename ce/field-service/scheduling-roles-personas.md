@@ -1,11 +1,9 @@
 ---
 title: "Scheduling personas | MicrosoftDocs"
 description: Learn about the different types of roles involved in scheduling with Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 1/28/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"

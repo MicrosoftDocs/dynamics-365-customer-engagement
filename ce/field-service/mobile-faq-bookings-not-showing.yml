@@ -2,11 +2,10 @@
 metadata:
   title: "Why can't I see my bookings when signed into the app? Dynamics 365 Field Service | MicrosoftDocs"
   description: Find help for the question, "Why can't I see my bookings when signed into the app?"
-  ms.custom: 
-    - dyn365-fieldservice
   ms.date: 10/25/2018
   ms.reviewer: krbjoran
-  ms.service: dynamics-365-customerservice
+  ms.service: dynamics-365-field-service
+  ms.subservice: field-service-mobile
   ms.topic: troubleshooting
   author: FieldServiceDave
   ms.author: daclar

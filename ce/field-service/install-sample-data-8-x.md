@@ -1,8 +1,7 @@
 ---
 title: "Sample data installation (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to install sample data for Dynamics 365 Field Service
-ms.custom: dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.date: 04/24/2020
 ms.topic: article
 ms.reviewer: krbjoran

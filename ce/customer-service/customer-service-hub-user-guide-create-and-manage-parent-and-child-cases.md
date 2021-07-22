@@ -1,6 +1,6 @@
 ---
 title: Create and manage parent and child cases in Customer Service Hub | Microsoft Docs
-description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
+description: This topic provides information on how to manage parent and child cases and also provides steps to create a case in Customer Service Hub for Dynamics 365 Customer Service.
 ms.date: 04/28/2020
 ms.topic: article
 author: neeranelli

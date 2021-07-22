@@ -112,6 +112,8 @@
       items: 
       - name: Email bounce categories
         href: email-bounce-categories.md
+      - name: Fix a high email bounce rate
+        href: fix-high-bounce-rate.md
       - name: Create an SPF TXT record
         href: create-spf-record.md
       - name: Dedicated vs shared IPs for email delivery
@@ -120,6 +122,8 @@
         href: email-warm-up.md
       - name: Email policies and suspension standards
         href: email-policies.md
+      - name: Improve deliverability to China
+        href: improve-deliverability-to-china.md
       - name: Deliverability recommendations when changing ESPs
         href: deliverability-change-esp.md
       - name: Google Postmaster Tools - What it is and how it can help you
@@ -170,6 +174,8 @@
         href: organize-daily-work.md
       - name: Manage customer information
         href: manage-customer-information.md
+      - name: Continue the conversation with Microsoft Teams webinar participants
+        href: teams-journey.md
       - name: Sales and marketing collaboration with Dynamics 365
         href: sales-marketing-integration.md
       - name: Import data
@@ -414,7 +420,11 @@
         href: event-management-dashboard.md
       - name: Set up a Microsoft Teams webinar
         href: teams-webinar.md
-      - name: Set up a webinar
+      - name: Follow up with Teams webinar participants
+        href: teams-how-to-follow-up.md
+      - name: Customize your Teams webinar participant follow-up
+        href: teams-webinar-follow-up.md
+      - name: Set up a non-Teams webinar
         href: set-up-webinar.md
       - name: Manage event sponsorships
         href: manage-event-sponsorships.md

@@ -34,7 +34,7 @@ You can set up the customization of knowledge article search filters by first en
 
 1. Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
 2. Under the **Knowledge Base Management** section, select **Settings**.
-3. On the **Settings** page, scroll down to **Knowledge articles search filters**, and then set **Enable custom filters** to **Yes**.
+3. On the **Settings** page, scroll down to **Knowledge articles search filters**, and then set **Enable search filters** to **Yes**.
 
    In order for agents to be able to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, the **Allow agents to personalize the knowledge articles search filters** option also must be set to **Yes**.
    
