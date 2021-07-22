@@ -1,7 +1,7 @@
 ---
 title: "Set up and manage marketing forms for use in marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about various types of marketing forms and how to create them in Dynamics 365 Marketing."
-ms.date: 10/01/2020
+ms.date: 07/22/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -207,7 +207,7 @@ Design element availability and requirements vary by form type, as outlined in t
 | **Reset button**                    | Yes               | No                      | Yes                      |
 | **Captcha \***                          | Yes               | No                      | No                       |
 
-*\* There can be only single form using Captcha element on the same page*
+*\* Only one form per page can use a Captcha element*
 
 You can also view and edit the raw HTML code for the form by going to the **Designer** > **HTML** tab. There, you can paste code you've copied from other applications and add features that aren't available in the graphical designer (such as custom scripts for validating form input).
 
