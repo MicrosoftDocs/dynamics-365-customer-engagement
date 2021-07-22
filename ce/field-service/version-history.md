@@ -181,7 +181,7 @@ This release is a hotfix on Field Service version [8.8.43.51](#884351).
 
 ## 8.8.42.66 
 
-(Includes Universal Resource Scheduling version [3.12.45.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124528).
+(Includes Universal Resource Scheduling version [3.12.45.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124528)).
 
 Includes all content from Field Service version 8.8.42.64.
 
