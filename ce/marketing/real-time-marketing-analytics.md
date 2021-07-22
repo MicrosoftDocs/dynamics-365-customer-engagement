@@ -20,11 +20,6 @@ search.app:
 
 # Access and interpret analytics
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
 Real-time marketing's dashboards and cross-journey insights present metrics, views, and insights summarized across single or multiple journeys, providing you with a deep understanding of journey, channel, and content performance. The built-in dashboards focus on engagement goals, so you can fine-tune the effectiveness of your journeys, channels, and content.
 
 ## Real-time marketing analytics overview

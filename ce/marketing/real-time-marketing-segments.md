@@ -20,11 +20,6 @@ search.app:
 
 # Work with segments in real-time marketing
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
 Real-time marketing uses [segments](segmentation-lists-subscriptions.md) directly from outbound marketing and [Customer Insights](/dynamics365/customer-insights/index). You can view the segments available to you in real-time marketing by going to **Audience** > **Segments**.
 
 ## Segments from outbound marketing

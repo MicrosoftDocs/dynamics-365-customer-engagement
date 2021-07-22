@@ -20,11 +20,6 @@ search.app:
 
 # Install real-time marketing
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
->
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
 Starting in the April 2021 Dynamics 365 Marketing release, you can opt in for preview feature updates and evaluate our new data and AI-powered real-time customer journey orchestration capabilities. The opt-in method detailed here is different from [traditional early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 > [!NOTE]

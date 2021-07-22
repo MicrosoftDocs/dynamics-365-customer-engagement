@@ -20,11 +20,6 @@ search.app:
 
 # Custom event triggers in real-time marketing
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
 Custom events are a flexible way to capture important moments and interactions, allowing you to orchestrate uniquely engaging customer interactions.
 
 A custom event is a user-defined signal that can contain and transport any type of information that a customer journey can act upon. Real-time marketing users are in full control of what custom events represent and what kind of information they convey.

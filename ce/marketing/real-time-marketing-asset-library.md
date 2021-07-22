@@ -20,11 +20,6 @@ search.app:
 
 # Real-time marketing asset library
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
 The new, centralized asset library lets you upload files that are automatically tagged by the app using AI. When authoring your email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content. 
 
 > [!NOTE]
