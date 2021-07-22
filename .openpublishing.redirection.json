@@ -21458,6 +21458,11 @@
       "source_path": "ce/customer-service/understand-omnichannel-customer-service-hub.md",
       "redirect_url": "set-up-record-routing",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/oc-productivity-pane.md",
+      "redirect_url": "productivity-pane",
+      "redirect_document_id": false
     }
   ]
 }
