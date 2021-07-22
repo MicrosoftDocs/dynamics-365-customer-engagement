@@ -86,9 +86,23 @@ To sign up for TeleSign
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
+## Flow of data between Omnichannel for Customer Service - SMS channel and TeleSign
+
+### Incoming text messages
+
+For an incoming text message sent by a customer to the support phone number, the message is first sent to the TeleSign service and then pushed by TeleSign to Omnichannel for Customer Service using the callback URL. After this, the message gets routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
+
+### Outgoing text messages
+
+For an outgoing message sent by an agent from within Dynamics 365, the message is first sent to the TeleSign service and then TeleSign sends it to the customer. In addition to the text message, Omnichannel for Customer Service uses the APIs provided by TeleSign to send the customer's phone number, support phone number (TeleSign SenderID), and the TeleSign account information (CustomerID and the API Key) to the TeleSign service.
+
+### TeleSign API Key Validation
+
+When you validate the API key while setting up the SMS channel, a call is made to TeleSign to validate customer ID and the API key.
+
 ## Add SMS support in Omnichannel Administration
 
-1. Sign in to Omnichannel Administration app and go to **Work Distribution Management** > **Work Streams**.
+1. In the Omnichannel Administration app, go to **Work Streams** under **Work Distribution Management**.
 
 2. Select **New** to create a workstream. On the **Work Distribution** tab, enter the following information:
 
@@ -142,20 +156,6 @@ To sign up for TeleSign
 11. Open the workstream you created for SMS.
 
 12. On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity. The customer is identified based on the **Mobile Phone** field and the conversation is automatically linked to the contact record.
-
-## Flow of data between Omnichannel for Customer Service - SMS channel and TeleSign
-
-### Incoming text messages
-
-For an incoming text message sent by a customer to the support phone number, the message is first sent to the TeleSign service and then pushed by TeleSign to Omnichannel for Customer Service using the callback URL. After this, the message gets routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
-
-### Outgoing text messages
-
-For an outgoing message sent by an agent from within Dynamics 365, the message is first sent to the TeleSign service and then TeleSign sends it to the customer. In addition to the text message, Omnichannel for Customer Service uses the APIs provided by TeleSign to send the customer's phone number, support phone number (TeleSign SenderID), and the TeleSign account information (CustomerID and the API Key) to the TeleSign service.
-
-### TeleSign API Key Validation
-
-When you validate the API key while setting up the SMS channel, a call is made to TeleSign to validate customer ID and the API key.
 
 ### See also
 
