@@ -62,7 +62,7 @@ Depending on which experience you're using, you can add the knowledge base searc
 
 Make sure that you have the System Administrator or System Customizer security role or equivalent before you begin.
 
-1. Go to [Power Apps](https://https://make.powerapps.com/), and then on the left pane, select **Data** > **Tables**.
+1. Go to [Power Apps](https://make.powerapps.com/), and then on the left pane, select **Data** > **Tables**.
 
 2. Ensure you have the Customer Service App installed, and then in the upper-right corner of the window, change **Default** to **All**.
 
