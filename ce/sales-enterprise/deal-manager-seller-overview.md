@@ -15,7 +15,7 @@ manager: shujoshi
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 > [!NOTE]
-> This feature will be rolled out in a phased manner across different regions, over the next few weeks.
+> This feature will be rolled out in a phased manner across different regions. To check if this feature is available in your region, see the **Next Refresh Scheduled Date** for version 9.0.21074.10001 in the [Latest version availability](../released-versions/dynamics365sales) section. 
 
 Deal manager is a dedicated workspace for sellers. As a seller, you can personalize the workspace depending on what you want to see in your workspace. You can organize opportunities in a way that makes sense to you, personalize your view, update information on the fly, add notes and tasks, and much more. You can also request your administrator to customize the experience further to improve your productivity. 
 
