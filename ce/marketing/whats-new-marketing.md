@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 07/09/2021
+ms.date: 07/21/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -32,6 +32,11 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 ### July 2021 update
 
 The Dynamics 365 Marketing July 2021 update includes an overhauled trial experience that significantly reduces sign-up time, improved customer journey functionality, easier check-ins for Teams events, duplicate SMS message safeguards for custom channels, performance upgrades, and bug fixes.
+
+> [!IMPORTANT]
+> Starting in the July 2021 release, the [quotas limits page](quota-management.md) will be under construction. The revised quota limits page will monitor outbound marketing and real-time marketing quota usage in one place. Segmentation limits will return in the new quota limits page.
+>
+> In the meantime, your quota limits will not change. Strict quota limits will not be enforced while the quota page is temporarily under construction.
 
 #### Version number
 
@@ -67,7 +72,7 @@ The Dynamics 365 Marketing July 2021 update includes an overhauled trial experie
     - Updated display rules for modify actions (Go Live, Stop, Edit) to better reflect user privileges.
     - Fixed an error that sometimes caused a "Reply to address" to change after a journey went live.
 - **Event management**
-    - Custom registration fields now disassociate on deactivation of records.
+    - Attendees can now register even after deactivation of related custom registration fields.
     - Fixed an issue that prevented adding rooms to an event created from a template.
     - Resolved an error that caused recurrent events to not propagate start and end times to the series.
 - **Marketing emails**
