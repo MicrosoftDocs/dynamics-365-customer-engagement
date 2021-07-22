@@ -1,7 +1,7 @@
 ---
 title: Set up a search provider in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 04/07/2021
+ms.date: 07/22/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -28,7 +28,7 @@ You can use search providers to federate the search of files, documents, or arti
 You can set up the following search providers:
 
 > [!NOTE]
-> Use of the search provider feature is not currently supported in the US Department of Defense cloud.<br></br> The SharePoint and the Microsoft Graph connector integrations are currently in preview and are subject to change.
+> Use of the search provider feature is not currently supported in the US Department of Defense cloud.
 
   -	**Cross-Organizational Search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. 
   -	**Sharepoint** (Preview): This option requires you to enter the SharePoint URL. 
