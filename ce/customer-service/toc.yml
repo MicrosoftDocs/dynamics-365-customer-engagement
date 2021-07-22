@@ -534,12 +534,60 @@
       href: outbound-messaging.md
     - name: Configure data masking
       href: data-masking-settings.md
+  - name: App profile manager for Customer Service
+    items: 
+    - name: App profile manager overview
+      href: ../app-profile-manager/overview.md
+    - name: Roles and permissions
+      href: ../app-profile-manager/security-roles.md
+    - name: Use app profile manager
+      href: ../app-profile-manager/app-profile-manager.md
+    - name: Settings
+      href: ../app-profile-manager/settings.md
+    - name: Templates
+      items: 
+      - name: Manage session templates
+        href: ../app-profile-manager/session-templates.md
+      - name: Manage application tab templates
+        href: ../app-profile-manager/application-tab-templates.md
+      - name: Manage notification templates
+        href: ../app-profile-manager/notification-templates.md
+      - name: Associate templates with work streams
+        href: ../app-profile-manager/associate-templates.md
+      - name: Associate templates with workstreams
+        href: associate-templates.md
+    - name: Productivity tools
+      items: 
+      - name: Overview of productivity tools
+        href: ../app-profile-manager/productivity-tools.md
+      - name: Manage smart assist
+        href: ../app-profile-manager/smart-assist.md
+      - name: Manage agent scripts
+        href: ../app-profile-manager/agent-scripts.md
+      - name: Manage macros
+        href: ../app-profile-manager/macros.md
+      - name: Automation dictionary to pass parameters
+        href: ../app-profile-manager/automation-dictionary-keys.md
+    - name: Developer guide
+      items: 
+      - name: Overview of JavaScript API reference
+        href: ../app-profile-manager/reference/microsoft-apm.md
+      - name: Methods
+        items: 
+        - name: createTab
+          href: ../app-profile-manager/reference/microsoft-apm/createTab.md
+        - name: focusTab
+          href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
+        - name: refreshTab
+          href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
+        - name: closeTab
+          href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
+    - name: Readme
+      href: https://go.microsoft.com/fwlink/p/?linkid=2141982
   - name: Agent productivity tools
     items: 
     - name: Administrator experience
       items: 
-      - name: Productivity pane in Customer Service workspace
-        href: csw-productivity-pane.md
       - name: Productivity pane Omnichannel for Customer Service
         href: productivity-pane.md
       - name: Enable productivity pane and smart assist
@@ -563,7 +611,9 @@
       - name: Enable sharing of knowledge articles
         href: knowledge-management-oc.md
     - name: Agent experience
-      items: 
+      items:
+      - name: Productivity pane in Customer Service workspace
+        href: csw-productivity-pane.md
       - name: View smart assist suggestions for knowledge articles and similar cases
         href: oc-view-ai-suggested-cases-articles.md
       - name: View smart assist suggestions for agents configured using custom Azure bot
@@ -576,18 +626,6 @@
         href: smart-assist-bot.md
       - name: Implement custom scenario
         href: smart-assist-scenario.md
-  - name: Templates
-    items: 
-    - name: Overview
-      href: ../app-profile-manager/templates-overview.md
-    - name: Manage session templates
-      href: ../app-profile-manager/session-templates.md
-    - name: Manage application tab templates
-      href: ../app-profile-manager/application-tab-templates.md
-    - name: Manage notification templates
-      href: ../app-profile-manager/notification-templates.md
-    - name: Associate templates with workstreams
-      href: associate-templates.md
   - name: Power Virtual Agents
     items: 
     - name: Integrate a Power Virtual Agents bot
@@ -1230,54 +1268,6 @@
       href: csw-faqs-ai-suggestions.md
     - name: FAQs on Omnichannel for Customer Service
       href: faqs.md
-  - name: App profile manager for Customer Service
-    items: 
-    - name: App profile manager overview
-      href: ../app-profile-manager/overview.md
-    - name: Roles and permissions
-      href: ../app-profile-manager/security-roles.md
-    - name: Use app profile manager
-      href: ../app-profile-manager/app-profile-manager.md
-    - name: Settings
-      href: ../app-profile-manager/settings.md
-    - name: Templates
-      items: 
-      - name: Manage session templates
-        href: ../app-profile-manager/session-templates.md
-      - name: Manage application tab templates
-        href: ../app-profile-manager/application-tab-templates.md
-      - name: Manage notification templates
-        href: ../app-profile-manager/notification-templates.md
-      - name: Associate templates with work streams
-        href: ../app-profile-manager/associate-templates.md
-    - name: Productivity tools
-      items: 
-      - name: Overview of productivity tools
-        href: ../app-profile-manager/productivity-tools.md
-      - name: Manage smart assist
-        href: ../app-profile-manager/smart-assist.md
-      - name: Manage agent scripts
-        href: ../app-profile-manager/agent-scripts.md
-      - name: Manage macros
-        href: ../app-profile-manager/macros.md
-      - name: Automation dictionary to pass parameters
-        href: ../app-profile-manager/automation-dictionary-keys.md
-    - name: Developer guide
-      items: 
-      - name: Overview of JavaScript API reference
-        href: ../app-profile-manager/reference/microsoft-apm.md
-      - name: Methods
-        items: 
-        - name: createTab
-          href: ../app-profile-manager/reference/microsoft-apm/createTab.md
-        - name: focusTab
-          href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
-        - name: refreshTab
-          href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
-        - name: closeTab
-          href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
-    - name: Readme
-      href: https://go.microsoft.com/fwlink/p/?linkid=2141982  
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide
