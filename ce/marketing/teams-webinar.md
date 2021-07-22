@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 07/21/2021
+ms.date: 07/22/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -50,15 +50,23 @@ Webinars are useful for conference keynotes or meetings where a few presenters a
 > [!NOTE]
 > You can only create "public" Teams webinars from Dynamics 365 Marketing. These events are open to anyone who registered for the event.
 
-#### Allow anyone to attend Teams webinars
+#### Enable Teams webinars in Dynamics 365
 
-You'll need to first make sure your organization is set up to host Teams webinars. To allow anyone, including anonymous users, to register for webinars, run the following PowerShell commands:
+To enable Teams webinars, the following policies need to be set by the Teams tenant administrator. These settings ensure that anyone, including anonymous users, can register for webinars. To implement the settings, run the following PowerShell commands:
+
+1. Turn on meeting registration:
+
+```powershell
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+```
+
+2. Turn on private meeting scheduling:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
-Then run:
+3. Allow anyone, including anonymous users, to register for webinars:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
