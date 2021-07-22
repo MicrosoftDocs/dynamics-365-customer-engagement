@@ -7,7 +7,7 @@ ms.author: ktaylor
 manager: shujoshi
 ms.custom: intro-internal
 searchScope:
-- D365-App-customerservice
+- D365-App-customerservicehub
 - D365-Entity-incident
 - D365-UI-*
 - Customer Engagement
