@@ -312,9 +312,9 @@
       href: /powerapps/user/activities-known-issues
     - name: Administrator experience
       items: 
-      - name: Configure the email form order
+      - name: Configure email
         href: customer-service-hub-user-guide-email-admin.md
-      - name: Configure the email experience
+      - name: Customize the email experience
         href: customer-service-hub-user-guide-email-font-admin.md
   - name: Timeline
     items: 
