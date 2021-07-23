@@ -4,7 +4,9 @@ description: "Learn how to quickly sign up for and start a free Dynamics 365 Mar
 ms.date: 06/30/2021
 ms.service: dynamics-365-marketing
 ms.topic: get-started
-ms.custom: template-get-started
+ms.custom: 
+    - template-get-started
+    - intro-internal
 author: alfergus
 ms.author: alfergus
 manager: shellyha

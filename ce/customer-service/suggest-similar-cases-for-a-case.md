@@ -13,6 +13,13 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+searchScope:
+- D365-App-customerservice
+- D365-Entity-incident
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 # Use advanced similarity rules to view similar case suggestions
 

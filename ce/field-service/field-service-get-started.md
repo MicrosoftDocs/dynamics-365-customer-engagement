@@ -1,17 +1,16 @@
 ---
 title: "Get started with Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to get started with Dynamics 365 Field Service
-ms.custom:
-- dyn365-fieldservice
 ms.date: 06/17/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
+ms.custom: intro-internal
 search.app:
 - D365CE
 - D365FS
