@@ -254,9 +254,9 @@ The channel adapter calls the REST API to send an outbound response to the chann
 
 ### Message relay processor
 
-The message relay processor receives the inbound activity from the channel adapter and does the activity model validation. Prior to sending this activity to Direct Line, the relay processor checks whether the conversation is active for the particular activity.
+The message relay processor receives the inbound activity from the channel adapter and does the activity model validation. Before sending this activity to Direct Line, the relay processor checks whether the conversation is active for the particular activity.
 
-To look up whether the conversation is active, the relay processor maintains a collection of active conversations in a dictionary. This dictionary contains key as User Id which uniquely identifies the user and Value as an object of the following class:
+To look up whether the conversation is active, the relay processor maintains a collection of active conversations in a dictionary. This dictionary contains key as User ID, which uniquely identifies the user and Value as an object of the following class:
 
 ```javascript
  /// <summary>
@@ -283,7 +283,7 @@ public class DirectLineConversation
 
 If conversation is not active for the activity received by the relay processor, it does the following steps:
 
-Initiate a conversation with Direct Line and store the conversation object sent by Direct Line against the user ID in the dictionary.
+Start a conversation with Direct Line and store the conversation object sent by Direct Line against the user ID in the dictionary.
 
 ```javascript
  /// <summary>
@@ -401,7 +401,7 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
 
 If the conversation is active for the activity received by the relay processor, it sends the activity to the message relay processor. For information about how to configure a custom messaging channel, see [Configure custom messaging channel](configure-custom-channel.md).
 
-This page briefly explained how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to OmniChannel for Customer Service. This source code and documentation describe the overall flow of how the channel can connect to OmniChannel for Customer Service through Direct Line, and doesn't focus on aspects of reliability and scalability.
+This page briefly explained how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to OmniChannel for Customer Service. This source code and documentation describe the overall flow of how the channel can connect to OmniChannel for Customer Service through Direct Line, and don't focus on aspects of reliability and scalability.
 
 ### See also
 
