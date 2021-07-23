@@ -4,7 +4,7 @@ description: "Use this topic to understand how Markdown formatting is passed thr
 author: mh-jaya
 ms.author: v-jmh
 manager: shujosh7
-ms.date: 06/30/2021
+ms.date: 07/30/2021
 ms.topic: reference
 
 ---

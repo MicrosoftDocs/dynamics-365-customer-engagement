@@ -1,10 +1,10 @@
 ---
 title: "Enable formatted messages in custom messaging channels | MicrosoftDocs"
-description: "Use this topic to understand how to enable formatted messages in custom messaging channels in Omnichannel for Customer Service."
+description: "Use this topic to understand how to enable formatted messages in custom messaging channels like Direct Line in Omnichannel for Customer Service."
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 06/30/2021
+ms.date: 07/30/2021
 ms.topic: article
 ---
 
