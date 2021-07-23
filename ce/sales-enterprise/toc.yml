@@ -126,7 +126,7 @@
           items:
           - name: Add the Kanban control to Opportunity or Activity entities
             href: ../sales-enterprise/add-kanban-control.md
-        - name: Email insights
+        - name: Configure email insights
           items:
           - name: Configure email engagement
             href: ../sales-enterprise/configure-email-engagement.md
@@ -339,7 +339,7 @@
     - name: Productivity
       items:
       - name: Activity management
-      items:
+        items:
         - name: Add activities to the timeline
           href: /powerapps/user/add-activities
         - name: Track and manage activities

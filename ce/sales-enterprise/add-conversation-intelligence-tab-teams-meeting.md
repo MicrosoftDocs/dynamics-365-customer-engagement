@@ -52,6 +52,6 @@ The **Dynamics 365 Sales** tab now appears on the meeting page. Select the tab t
 
 ### See also
 
-[First-run set up experience](../sales/fre-setup-sales-insight-app.md)
+[First-run set up experience](../sales-enterprise/fre-setup-sales-insight-app.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
