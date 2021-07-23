@@ -147,13 +147,15 @@ Agents can use basic formatting capabilities in their outgoing messages across b
 | -------------------- | ----- | -------- | ------ | -----------| ------------|
 | bold                 | ✔     | ✔       | ✔      | ✔         | ✔           |
 | italics              | ✔     | ✔       | ✔      | ✔         | ✔           |
-| strikethrough        | ✔     | ✔       | ✔      | ✔         | ✔           | 
+| strikethrough        | ✔     | ✔       | ✔      | ✔         | ✔           |
 | blockquote           | ✔     | ✖       | ✖      | ✖         | ✖           |
 | monospace            | ✔     | ✔       | ✔      | ✔         | ✔           |
 | hyperlink with text  | ✔     | ✖       | ✖      | ✔         | ✔           |
 | hyperlink            | ✔     | ✔       | ✔      | ✔         | ✔           |
 | new line             | ✔     | ✔       | ✔      | ✔         | ✔           |
 | headers              | ✔     | ✖       | ✖      | ✖         | ✔           |
+| numbered list        | ✔     | ✔       | ✔      | ✔         | ✔           |
+| unordered list       | ✔     | ✔       | ✔      | ✔         | ✔           |
 
 ### See also
 

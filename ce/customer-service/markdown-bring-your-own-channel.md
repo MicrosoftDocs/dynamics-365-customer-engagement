@@ -21,27 +21,30 @@ ms.topic: reference
 
 In Omnichannel for Customer Service, you can send and receive messages that you've formatted by using Markdown across custom messaging channels. As a developer, understanding how the Markdown format is passed through and knowing the details of the format will help you update the HTML styling and tags in your own user interface.
 
-For example, when an agent sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from its customer or the customer's bot, it must be able to appropriately interpret the message that's formatted with Markdown. As a developer, you'll need to use Markdown appropriately so that the message is formatted correctly for your agents and customers.
+For example, when an agent sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you'll need to use Markdown appropriately so that the message is formatted correctly for your agents and customers.
 
 > [!NOTE]
-> To be able to use markdown in your custom messaging channels, your administrator must enable the markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
+> To be able to use Markdown in your custom messaging channels, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
 
 ## Markdown formats
 
-The following table lists the markdown formatting used in inbound messages received by the customer (or customer's bot) and outbound messages sent by the agent to the customer (or customer's bot).
+The following table lists the Markdown formatting used in inbound messages received by the customer and outbound messages sent by the agent to the customer.
 
-|          Style            |      Inbound    |    Outbound     |Example   |
-| ----                      | ----------------| --------------- | -------- |
-| bold                      | \*bold\*        | \*bold\*        | **text** |
-| italic                    | \_italics\_     | \_italics\_     | *text*   |
-| strikethrough             | ~strikethrough~ | ~strikethrough~ | ~~text~~ |
-| heading levels 1 through 4| # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | **Heading Text 3** <br> 
-| link                      | [link](https://www.microsoft.com) | [link](https://www.microsoft.com) | <https://www.microsoft.com>|
-| monospace                 | \`\`\`\ntext\n\`\`\`  | \`\`\`\ntext\n\`\`\` | ```text```
+|          Style            |      Inbound                        |    Outbound                           | Example   |
+| ----                      | ----------------                    | ---------------                       | --------  |
+| bold                      | \*bold\*                            | \*bold\*                              | **text**  |
+| italic                    | \_italics\_                         | \_italics\_                           | *text*    |
+| strikethrough             | ~strikethrough~                     | ~strikethrough~                       | ~~text~~  |
+| heading levels 1 through 4| # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br>           | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | **Heading Text 3** <br> 
+| hyperlink                 | (https://www.microsoft.com)         | (https://www.microsoft.com)           | <https://www.microsoft.com>|
+| hyperlink with text       | [link](https://www.microsoft.com  ) | [link](https://www.microsoft.com)     | <https://www.microsoft.com>|
+| monospace                 | \`\`\`\ntext\n\`\`\`                | \`\`\`\ntext\n\`\`\`                  | ```text` ``                |
+| numbered list             |  <number> item one                  | <number> item one                     |  1. item one <br> 2. item two   |
+| unordered list            | \* item one <br> OR <br> - item one | \* item one <br> OR <br> - item one   |  \* item one <br> \* item two  |
 
-For inbound messages, set the markdown text to the Activity object's `Text` property. More information: [Process inbound activities](bring-your-own-channel.md#process-inbound-activities)
+For inbound messages, set the Markdown text to the Activity object's `Text` property. More information: [Process inbound activities](bring-your-own-channel.md#process-inbound-activities)
 
-For outbound messages, the markdown text is received in the Activity object's `Text` property (similar to a normal message).
+For outbound messages, the Markdown text is received in the Activity object's `Text` property (similar to a normal message).
 
 ### See also
 
