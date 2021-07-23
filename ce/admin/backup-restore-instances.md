@@ -1,5 +1,6 @@
 ---
-title: "Back up and restore instances  | MicrosoftDocs"
+title: "Back up and restore a Dynamics 365 instance"
+description: "Backing up and restoring an instance (now called an environment) is now done in the Power Platform admin center. See this page for more information."
 ms.custom: 
   - dyn365-deflc
 ms.date: 01/17/2020

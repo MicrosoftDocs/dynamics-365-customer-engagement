@@ -69,7 +69,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
    > [!NOTE]
    >  If the Configuration Wizard doesn’t start automatically, in the Start screen, search for **Configuration Wizard** and run it.  
   
-6. In the list, select **Dynamics 365 apps **, and then choose **Connect**.  
+6. In the list, select **Dynamics 365 apps**, and then choose **Connect**.  
   
 > [!TIP]
 >  If you encounter an issue installing, connecting, or enabling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](https://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.

@@ -5,6 +5,7 @@ ms.date: 03/29/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.subservice: field-service-mobile
+ms.custom: intro-internal
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"

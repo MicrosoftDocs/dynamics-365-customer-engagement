@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md",
+      "redirect_url": "modify-case-resolution-dialog",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-overview.md",
       "redirect_url": "/powerapps/user/add-activities",
       "redirect_document_id": "false"
@@ -21442,6 +21447,21 @@
     {
       "source_path": "ce/unified-service-desk/admin/known-issues-performance-enhancement-CRM-entity-page-loads.md",
       "redirect_url": "../release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/unified-routing-work-distribution.md",
+      "redirect_url": "routing-work-distribution-oca",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/understand-omnichannel-customer-service-hub.md",
+      "redirect_url": "set-up-record-routing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/oc-productivity-pane.md",
+      "redirect_url": "productivity-pane",
       "redirect_document_id": false
     }
   ]

@@ -1,5 +1,6 @@
 ---
-title: "Copy an instance  | MicrosoftDocs"
+title: "Copy Dynamics 365 instance to a sandbox"
+description: "Copying an instance (now called an environment) is now done in the Power Platform admin center. See this page for more information."
 ms.custom: 
   - dyn365-deflc
 ms.date: 04/23/2020
