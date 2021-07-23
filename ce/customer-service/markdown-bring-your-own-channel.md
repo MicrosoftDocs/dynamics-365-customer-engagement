@@ -1,5 +1,5 @@
 ---
-title: "Use Markdown format to send and receive messages: Direct Line | MicrosoftDocs"
+title: "Use Markdown format for messaging&mdash;Direct Line | MicrosoftDocs"
 description: "Use this topic to understand how Markdown formatting is passed through in custom messaging channel like Direct Line in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
@@ -8,7 +8,7 @@ ms.date: 06/30/2021
 ms.topic: reference
 
 ---
-# Preview: Markdown formats to send and receive messages via Direct Line
+# Preview: Markdown formats for inbound and outbound messaging&mdash;Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
