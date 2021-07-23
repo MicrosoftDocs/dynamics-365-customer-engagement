@@ -1,8 +1,7 @@
 ---
-title: "Who Knows Whom in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "how to get introduced to a lead in Dynamics 365 Sales Insights."
+title: "Who Knows Whom in Sales Insights | MicrosoftDocs"
+description: "Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact."
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 905fac5d-c36d-4d64-bc9d-be59c535ac56
@@ -85,3 +84,5 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 ### See also
 
 [Configure who knows whom](configure-who-knows-whom.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

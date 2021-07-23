@@ -1,9 +1,8 @@
 ---
-title: "Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (Dynamics 365 Sales Insights) | Microsoft Docs  "
-description: "Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored Azure service that is used to compute and store data"
+title: "Retrieve data using msdyn_RetrieveKPIValuesForGDPR action | Microsoft Docs"
+description: "Use the action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored Azure service."
 keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.topic: article
 ms.assetid: d0d20528-0a72-4dd2-8c91-6367a9d4279d
 author: KumarVivek
@@ -17,7 +16,7 @@ topic-status: Drafting
 Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an contact, lead, opportunity, or systemuser. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Dynamics 365 Sales Insights.
 
 > [!NOTE]
-> - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions#generate-early-bound-types-for-an-action)
+> - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions#generate-early-bound-types-for-an-action&preserve-view=true)
 > - This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) and [Introduction to Sales Insights application](dynamics365-sales-insights-app.md) features.
 
 ## Action parameters
@@ -32,7 +31,7 @@ The **msdyn_RetrieveKPIValuesForGDPR** action expects the following input parame
 </tr>
 <tr>
 <td valign="top"><code>CRMRecord</code></td>
-<td valign="top"><a href="/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9" data-raw-source="[mscrm.crmbaseentity](dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9)">mscrm.crmbaseentity</a></td>
+<td valign="top"><a href="/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true" data-raw-source="[mscrm.crmbaseentity](dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true)">mscrm.crmbaseentity</a></td>
 <td valign="top">Entity type for which you want to retrieve the data. Required.
 <p>You can specify one of the following values:</p>
 <ul>
@@ -114,3 +113,5 @@ OData-Version: 4.0
 [Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
 
 [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

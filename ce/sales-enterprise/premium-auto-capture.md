@@ -1,8 +1,8 @@
 ---
-title: "Premium auto capture for Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Premium auto capture for Sales Insights | MicrosoftDocs"
+description: "Use the premium auto capture to provide suggestions on creating new contacts along with capturing activities related to your emails and meetings."
 keywords: 
 ms.date: 01/31/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -11,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 ---
 
 # Premium auto capture
@@ -21,7 +21,7 @@ caps.latest.revision: 01
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](/dynamics365/legal/supp-dynamics365-preview).
 
 Premium auto capture helps salespeople focus on generating revenue instead of spending their time updating Dynamics 365 Sales data and logging every customer-related activity. In addition to activity suggestions based on capturing emails and meetings, premium auto capture also provides suggestions for creating new contacts.
 
@@ -54,17 +54,15 @@ When an administrator enables premium auto capture, you need to give your consen
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	In the change area, select **Sales Insights settings**.
+2.	At the bottom of the site map, select **Change area**, and then select **Personal settings** > **Insights** > **Productivity** > **Auto capture**.
 
-3.	On the site map, select **Sales Insights** > **Personal settings** > **Productivity intelligence** > **Auto capture**.
-
-4.	Turn on the **Enable preview version** toggle. 
+4.	Turn on the **Allow access** toggle. 
 
     > [!div class="mx-imgBorder"]
     > ![Provide consent through personal settings](media/auto-capture-premium-consent-personal-settings.png "Give consent through personal settings") 
 
     > [!NOTE]
-    > You can turn off the **Enable preview version** toggle if you don't want Dynamics 365 to access your Outlook data to get activity and contact suggestions. 
+    > You can turn off the **Allow access** toggle if you don't want Dynamics 365 to access your Outlook data to get activity and contact suggestions. 
 
 
 ## Manage activity suggestions on the timeline
@@ -313,3 +311,6 @@ A success message is displayed at the bottom of the screen, and the contact is d
 
 [Enable and configure auto capture](configure-auto-capture.md)<br>
 [Basic auto capture](free-auto-capture.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

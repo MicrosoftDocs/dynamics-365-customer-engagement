@@ -1,8 +1,7 @@
 ---
-title: "Use adaptive sequences to define conditions in sales accelerator in Dynamics 365 Sales | MicrosoftDocs"
-description: "Learn how to use adaptive sequences in sales accelerator in Dynamics 365 Sales."
-ms.date: 03/08/2021
-ms.service: crm-online
+title: "Use adaptive sequences to define conditions (Sales Insights) | MicrosoftDocs"
+description: "Use adaptive sequences in sales accelerator to define conditions steps that determines the path of a sequence."
+ms.date: 05/28/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -15,6 +14,23 @@ Use *adaptive sequences* to define conditions for the steps in a sequence. These
 
 - [Email](#define-conditions-for-email-activity)
 - [Phone call](#define-conditions-for-phone-call-activity)
+- [Field value](#define-conditions-for-field-values)
+- [Business process stage](#define-conditions-for-business-process-stage)
+
+## Prerequisite
+
+Conditions in the adaptive sequences work as defined only when **Adaptive Sequence Timeout Flow** process is enabled. To enable the process, follow these steps:     
+1. Go to [Power Automate](https://flow.microsoft.com) and change the environment to your organization.   
+2. Select **Solutions** and then select the view as **All** and search for **Sequence**.   
+    >[!div class="mx-imgBorder"]
+    >![Search and select Sequence solution](media/sa-condition-enable-process-select-sequence-solution.png "Search and select Sequence solution")    
+
+3. Open the **Sequence** solution page and select **Adaptive Sequence Timeout Flow** process.   
+4. On the **Adaptive Sequence Timeout Flow** page, select **Turn on**.   
+    >[!div class="mx-imgBorder"]
+    >![Enable the adaptive sequence timeout flow](media/sa-condition-enable-process-turn-on-adaptive-sequence-timeout-flow.png "Enable the adaptive sequence timeout flow")    
+
+    The process is enabled.
 
 <a name="define-conditions-for-email-activity"></a>
 ## Define conditions for an email activity
@@ -24,7 +40,8 @@ When you add an email activity to a sequence and select **Add** (**+**), the act
 When the seller skips an email activity that includes a condition, the flow follows the **No** path.
 
 >[!IMPORTANT]
->You need to [configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions that customers have with emails are displayed in the condition list.
+>- You need to [configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions that customers have with emails are displayed in the condition list.
+>- [Enable linking sequence steps and activities](personalize-sales-accelerator.md#enable-linking-sequence-steps-and-activities) to create conditions for email activities.
 
 The following table lists the interactions that are available in email conditions.
 
@@ -45,10 +62,10 @@ Let's define a flow so that if a customer opens your email, the next step is to 
     >[!div class="mx-imgBorder"]
     >![List of email engagement interactions](media/sa-condition-email-list-interactions.png "List of email engagement interactions")    
 3.	Select **Email open**.     
-4.	On the **Email open result** step, configure the time limit for satisfying the condition before proceeding to next step. 
+4.	On the **Email open result** step, configure the time limit for satisfying the condition before proceeding to the next step. 
     In the following example, we configure the wait time as one day. This establishes the following:     
-    - If the customer opens the email within the day, the **Yes** path is initiated, and the sequence moves to the next step after a day has passed.   
-    If you don't want to wait a day to move to the next step in the **Yes** path, select the **If the action is completed within the time limit, the sequence will move to the yes path** check box.
+    - If the customer opens the email within the day, the **Yes** path is initiated and the sequence moves to the next step after a day has passed.   
+    If you don't want to wait a day to move to the next step in the **Yes** path, select the **If the action is completed within the time limit, the sequence will move to the yes path** checkbox.
     - If the customer doesn't open the email within the time limit, the **No** path is executed.   
     >[!div class="mx-imgBorder"]
     >![Email open result "Advance to next step after" is set to 1 day](media/sa-condition-email-yes-not-paths.png "Email open result \"Advance to next step after\" is set to 1 day")     
@@ -81,14 +98,14 @@ When you add phone call activity to the sequence and select **Add** (**+**), the
 When the seller skips a phone call activity that includes a condition, the flow follows the **No** path.
 
 >[!NOTE]
->To learn about adding custom status for your organization, see [Define status reason transitions for the Case or custom tables](https://docs.microsoft.com/powerapps/maker/data-platform/define-status-reason-transitions).
+>To learn about adding custom status for your organization, see [Define status reason transitions for the Case or custom tables](/powerapps/maker/data-platform/define-status-reason-transitions).
 
-Let's define a flow so that when a seller makes a call to discuss product details with a customer and changes the status of the phone call to **Made**<!--note from editor: Edit okay? I assume te -->, an email must be sent with more details about the product for the customer to proceed further with the deal. If the call status is other than **Made**, an email must be sent to request for an appointment.    
+Let's define a flow so that when a seller makes a call to discuss product details with a customer and changes the status of the phone call to **Made**, an email must be sent with more details about the product for the customer to proceed further with the deal. If the call status is other than **Made**, an email must be sent to request an appointment.    
  
 1.	Select **Add** (**+**) after the phone call activity.    
     >[!div class="mx-imgBorder"]
     >![Select Add to add a phone call activity](media/sa-condition-phone-add-step.png "Select Add to add a phone call activity")     
-2.	In the activity selection box, select **Conditions** tab.
+2.	In the activity selection box, select the **Conditions** tab.
     A list of actions that are defined for the phone call status is displayed.    
     >[!div class="mx-imgBorder"]
     >![List of phone call status](media/sa-condition-phone-list-call-status.png "List of phone call status")     
@@ -106,11 +123,81 @@ Let's define a flow so that when a seller makes a call to discuss product detail
 5.	To create an email activity in the **No** path to request an appointment with the customer, do the following:     
     1.	Select **Add** (**+**), and then under **Steps**, select **Email**.     
         >[!div class="mx-imgBorder"]
-        >![Add an email activity in the No path](media/sa-condition-phone-no-add-email-activity.png "Add an email activity in the No path")     
+        >![Add an email activity to the No path](media/sa-condition-phone-no-add-email-activity.png "Add an email activity to the No path")     
     2.	Create the email activity with all necessary details, and then save the step.     
         >[!div class="mx-imgBorder"]
-        >![Save an email activity in the No path](media/sa-condition-phone-no-save-email-activity.png "Save an email activity in the No path")     
+        >![Save the email activity in the No path](media/sa-condition-phone-no-save-email-activity.png "Save the email activity in the No path")     
+
+<a name="define-conditions-for-field-values"></a>
+## Define conditions based on a field value
+
+When you add a condition based on a field value, you determine the next course of action for the sequence according to the value given in the field. The available field values&mdash;including related entities&mdash;are based on the type of record you've selected for the sequence.
+
+In the activity selection box, go to the **Conditions** tab, choose a field, and create a condition. The sequence follows the **Yes** path when the condition is true and the **No** path when the condition is false.
+
+In the following example, let's set the sequence to follow the **Yes** path when a lead's company name is **Contoso**.
+
+1.	In the activity selection box, select the **Conditions** tab.
+
+    >[!div class="mx-imgBorder"]
+    >![Conditions tab in the activity selection step for field values](media/sa-condition-tab.png "Conditions tab in the activity selection step for field values")
  
+2.	Select **Field value**.
+ 
+    >[!div class="mx-imgBorder"]
+    >![Field value condition step](media/sa-condition-field-value-step.png "Field value condition step")    
+  
+3.	In the **Advance to Yes path if** box, select **Company Name**, and then set the condition as **Equals** to **Contoso**.
+
+    >[!div class="mx-imgBorder"]
+    >![Add values to the field value condition step](media/sa-condition-field-value-add-condition.png "Add values to the field value condition step")    
+        
+    >[!NOTE]
+    >- When you select **Advanced**, the **Field values** pane opens on the right to define more conditions for the step. You can define conditions based on row, group, and related entities.    
+    >- Lookup type fields such as **Created by** and **Owner** are only displayed when you select **Advanced**.
+    >- If the connected record doesn't include the configured field, an error is displayed in the **Up next** widget. The following image shows an example of the error:<br>
+    >![Unable to evaluate attributes and move to the next step](media/sa-condition-field-value-step-error.png "Unable to evaluate attributes and move to the next step")    
+
+4.	Select **Save**.
+
+    >[!div class="mx-imgBorder"]
+    >![Field value step condition added](media/sa-condition-field-value-step-added.png "Field value step condition added")    
+ 
+The field value condition step is created.
+
+<a name="define-conditions-for-business-process-stage"></a>
+## Define conditions based on a business process stage
+
+When you add a condition based on the stage of a business process, you determine the path of a sequence based on which stage the business process is in. The business process flows are listed based on the type of record you've selected for the sequence.
+
+In the activity selection box, go to the **Conditions** tab, choose a **Business process stage**, and create a condition.  The sequence follows the **Yes** path when the condition is true and the **No** path when the condition is false.
+
+>[!NOTE]
+>Verify that business process flows are defined for the record type you've selected in the sequence.
+
+In the following example, let's set the sequence to the **Yes** path when the **Lead to Opportunity Sales Process** flow is in either the **Propose** or **Develop** stage.
+
+1.	In the activity selection box, select the **Conditions** tab.   
+
+    >[!div class="mx-imgBorder"]
+    >![Conditions tab in the activity selection step for business process stages](media/sa-condition-tab.png "Conditions tab in the activity selection step for business process stages")
+ 
+2.	Select **Business process stage**.
+
+    >[!div class="mx-imgBorder"]
+    >![Business process stage condition step](media/sa-condition-business-process-stage-step.png "Business process stage condition step")
+ 
+3.	In the **Advance to Yes path if BPF is** box, select **Lead to Opportunity Sales Process**. In the **and stage is** box, select **Propose** and **Develop**.
+
+    >[!div class="mx-imgBorder"]
+    >![Add the values to the business process stage condition step](media/sa-condition-business-process-stage-add-condition.png "Add the values to the business process stage condition step")    
+
+4.	Select **Save**.
+
+    >[!div class="mx-imgBorder"]
+    >![Business process stage step condition added](media/sa-condition-business-process-stage-step-added.png "Business process stage step condition added") 
+
+The business process flow condition step is created.
 
 ### See also
 

@@ -1,8 +1,7 @@
 ---
-title: "Work with conversation intelligence to understand team overview feature for conversation intelligence | MicrosoftDocs"
-description: "Analyze overall team performance  to improve sales and generate revenue"
+title: "Understand team overview feature in conversation intelligence | MicrosoftDocs"
+description: "Analyze sales calls and overall behavior of your team during customer calls to improve sales and generate revenue in Dynamics 365 Sales."
 ms.date: 04/09/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: c631cfc1-ed6b-41e1-a1aa-3437a344ef22
@@ -12,11 +11,11 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Analyze overall team's behavior on customer calls
+# Analyze behavior of your team on customer calls
 
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page in conversation intelligence helps sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
 
@@ -49,3 +48,6 @@ To view the **Teams overview** page, sign in to  **Conversation intelligence**, 
 [First-run set up experience](fre-setup-sales-insight-app.md)
 
 [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

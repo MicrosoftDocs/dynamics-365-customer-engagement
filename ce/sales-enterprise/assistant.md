@@ -1,8 +1,7 @@
 ---
-title: "Assistant for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Stay on top of your day with insight cards from the sales assistant"
+title: "Assistant for Dynamics 365 Sales | MicrosoftDocs"
+description: "Use the sales assistant to stay on top of your day through insight cards that provide tailored and actionable insights."
 ms.date: 04/09/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: cf444ca7-3ec1-4939-8710-655190701484
@@ -122,9 +121,9 @@ You can configure the assistant by choosing which types of insight cards you'd l
 
 1. Sign in to the **Dynamics 365 Sales Hub** app.
 
-2. At the bottom of the site map, select **Change area**, and then select **Sales Insights settings**.
+2. At the bottom of the site map, select **Change area**, and then select **Personal settings** > **Insights**.
 
-3. Select **Personal settings**, and under **Assistant studio**, select **Insight cards**.
+3. Under **Assistant studio**, select **Insight cards**.
 
    The **Manage insight cards** page appears with the list of insight cards ordered by status and priority.
 
@@ -160,3 +159,6 @@ You can configure the assistant by choosing which types of insight cards you'd l
 
 [Configure the assistant](configure-assistant.md)  
 [Insight cards reference](action-cards-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

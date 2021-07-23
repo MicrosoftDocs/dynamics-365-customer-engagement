@@ -1,18 +1,16 @@
 ---
-title: "Dynamics365 Sales Insights and GDPR (Dynamics 365 Sales Insights) | Microsoft Docs  "
-description: "Protect customer privacy and remain compliant with GDPR regulations when using Dynamics 365 Sales Insights"
+title: "Sales Insights and GDPR | Microsoft Docs"
+description: "Protect customer privacy and remain compliant with GDPR regulations when using Sales Insights add-in for Dynamics 365."
 keywords: "GDPR; data protection; privacy;"
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.topic: article
-ms.assetid: d12b1dbe-b02e-4f61-92b7-3cf06516fe6e
 author: KumarVivek
 ms.author: kvivek
 manager: kvivek
 topic-status: Drafting
 ---
 
-# Dynamics 365 Sales Insights and GDPR
+# Sales Insights add-in for Dynamics 365 and GDPR
 
 The **General Data Protection Regulation (GDPR)** is a European Union (EU) directive that is fundamentally about protecting and enabling the privacy rights of individuals. The GDPR establishes strict privacy requirements governing how you manage and protect personal data while respecting individual choice—no matter where data is sent, processed, or stored.
 
@@ -20,7 +18,7 @@ The [Auto Capture](/dynamics365/customer-engagement/sales-enterprise/auto-captur
 
 Here are some resources where you can learn more about how to bring your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] systems into compliance with the GDPR:
 
-- [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index). This webpage includes links to resources, white papers, blogs, and other information related to various [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications and the GDPR.
+- [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index). This webpage includes links to resources, white papers, blogs, and other information related to various [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications and the GDPR.
 - [Microsoft Trust Center](https://www.microsoft.com/trustcenter). This webpage includes links to information about how new features in Microsoft help you secure personal data and meet strict GDPR privacy requirements.
 
 ## Prepare Auto Capture, Relationship analytics, and Conversation intelligence features for GDPR compliance
@@ -36,3 +34,6 @@ You can perform the following tasks in the Auto Capture, Relationship analytics,
 ### See also
 
 [Overview of Dynamics 365 Sales Insights](overview.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

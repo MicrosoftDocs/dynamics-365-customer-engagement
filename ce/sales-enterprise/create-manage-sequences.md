@@ -1,8 +1,7 @@
 ---
-title: "Manage sequences in sales accelerator | MicrosoftDocs"
-description: "Learn how to manage sequences in sales accelerator."
+title: "Manage sequences in sales accelerator (Sales Insights) | MicrosoftDocs"
+description: "Manage sequences in sales accelerator by creating, activating, connecting, viewing details, cloning, editing, and deleting."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -24,7 +23,7 @@ As a sequence manager, you can use the sequence designer to:
 ## Review prerequisites
 
 Before you start, be sure you have met the following prerequisites:   
-- You must have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).   
+- You must have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).   
 - The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md).
 
 <table>
@@ -40,3 +39,6 @@ Before you start, be sure you have met the following prerequisites:
 
 [Configure the sales accelerator](enable-configure-sales-accelerator.md)  
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

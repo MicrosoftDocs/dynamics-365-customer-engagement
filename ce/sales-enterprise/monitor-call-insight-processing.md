@@ -1,13 +1,12 @@
 ---
-title: "Monitor call and insight processing in conversation intelligence | MicrosoftDocs"
-description: "Monitor call and insight processing in conversation intelligence "
+title: "Monitor call and insight processing (Sales Insights) | MicrosoftDocs"
+description: "Monitor the processing status of call to verify the call is processed successfully or an error is occurred."
 ms.date: 04/09/2020
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -48,3 +47,6 @@ To view the **System monitoring** page, follow these steps:
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
 
 [Improve seller coaching and sales potential with conversation intelligence](../sales/configure-conversation-intelligence-call-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

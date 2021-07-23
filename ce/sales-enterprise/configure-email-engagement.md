@@ -1,8 +1,7 @@
 ---
-title: "Configure email engagement for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to configure email engagement for Sales Insights"
+title: "Configure email engagement (Sales Insights) | MicrosoftDocs"
+description: "Configure email engagement to show alerts and reminders for sellers and sales managers to help build customer relationships."
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 04db6801-020a-4a99-9ad3-907422524b6f
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -38,7 +37,7 @@ Verify the following prerequisites before enabling email engagement for your org
 
     - Enable document management for email in Sales. More information:[Enable SharePoint document management for specific entities](/dynamics365/customer-engagement/admin/enable-sharepoint-document-management-specific-entities) 
 
-    - Enable SharePoint to be shared externally to anonymous (unauthenticated) users to allow external email recipients to access file attachments. More information: [External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)
+    - Enable SharePoint to be shared externally to anonymous (unauthenticated) users to allow external email recipients to access file attachments. More information: [External sharing overview](/sharepoint/external-sharing-overview)
 
 - To enable delivery-time recommendations based on recipients' time zones, you must enable [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] in Sales. More information: [System Settings dialog box - General tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-general-tab)
 
@@ -70,5 +69,8 @@ Email engagement is enabled and ready to use in your organization.
 
 ### See also
 
-[Introduction to administer Sales Insights](intro-admin-guide-sales-insights.md)  
+[Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)  
 [View message interactions with email engagement](email-engagement.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

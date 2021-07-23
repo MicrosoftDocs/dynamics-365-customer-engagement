@@ -1,22 +1,22 @@
 ---
-title: "Basic auto capture for Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Basic auto capture for Sales Insights | MicrosoftDocs"
+description: "Use the basic auto capture to capture activities related to your emails and contacts, and display on timeline."
 keywords: 
 ms.date: 01/31/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 ---
 
 # Basic auto capture
 
-The activities captured by the auto capture feature are shown on the timeline in Microsoft Dynamics 365 Sales. The feature finds activities by applying a set of rules that are specific to the record type. For example, when you look at an opportunity in Microsoft Dynamics 365 Sales, the timeline shows all the activities you've logged, and in addition it shows suggestions for up to 50 recent emails and meetings from your Outlook account that were sent to or from the primary contact for the opportunity or its stakeholders.
+The activities captured by the auto capture feature are shown on the timeline in Dynamics 365 Sales. The feature finds activities by applying a set of rules that are specific to the record type. For example, when you look at an opportunity in Microsoft Dynamics 365 Sales, the timeline shows all the activities you've logged, and in addition it shows suggestions for up to 50 recent emails and meetings from your Outlook account that were sent to or from the primary contact for the opportunity or its stakeholders.
+
+>[!NOTE]
+>The appointment suggestion start appearing on the timeLine three days prior to the actual appointment time.
 
 The following images show how tracked and auto-captured (not yet tracked) emails and meetings are displayed on the timeline:
 
@@ -56,3 +56,5 @@ Auto capture queries your Outlook account and looks for activities related to th
 
 [Enable and configure auto capture](configure-auto-capture.md)<br>
 [Premium auto capture](premium-auto-capture.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

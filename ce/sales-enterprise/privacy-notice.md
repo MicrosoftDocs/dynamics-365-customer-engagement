@@ -1,15 +1,13 @@
 ---
-title: " Dynamics 365 Sales Insights capabilities Privacy Notices | Microsoft Docs"
-description: "Privacy notices Sales Insights capabilities."
+title: "Privacy notices for Sales Insights | Microsoft Docs"
+description: "Privacy notices for Sales Insights capabilities such as, standard features, premium features, conversation intelligence, and data protection."
 keywords: "privacy notice, privacy statement addition"
 ms.date: 10/26/2020
-ms.service: dynamics-365-ai
+ms.custom: "dyn365-ai-sales"
 ms.topic: article
-ms.assetid: 40143ca0-2e09-4fb0-9c80-406671024000
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.custom: dyn365-ai-sales
 search.audienceType: 
   - admin
   - customizer
@@ -70,3 +68,6 @@ It is the enterprise customer’s responsibility to comply with the GDPR. If you
 Data as it is in transit between user devices and the Microsoft datacenters are secured. Connections established between customers and Microsoft datacenters are encrypted, and all public endpoints are secured using industry-standard TLS. TLS effectively establishes a security-enhanced browser to server connection to help ensure data confidentiality and integrity between desktops and datacenters. API access from the customer endpoint to the server is also similarly protected. Currently, TLS 1.2 (or higher) is required for accessing the server endpoints.
 
 All the data stored as part of sales insights are encrypted using Microsoft encryption keys.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

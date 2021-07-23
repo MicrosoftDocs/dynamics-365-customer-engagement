@@ -1,8 +1,7 @@
 ---
-title: "Configure talking points for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to configure talking points for Sales Insights"
+title: "Configure talking points (Sales Insights) | MicrosoftDocs"
+description: "Configure talking points to provide suggestions on conversation starters that help sellers to quickly establish communications with customers."
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: cc6353f5-f044-4872-a486-9954550caa1b
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -51,3 +50,5 @@ The talking points feature helps users in your organization to quickly establish
 [Know conversation starters for your customers](../sales/talking-points.md)
 
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

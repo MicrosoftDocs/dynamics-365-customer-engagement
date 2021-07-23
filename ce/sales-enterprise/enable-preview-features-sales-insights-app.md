@@ -1,8 +1,7 @@
 ---
-title: "Enable coming soon features in conversation intelligence | MicrosoftDocs"
-description: "Enable preview features in conversation intelligence."
+title: "Enable coming soon features (Sales Insights) | MicrosoftDocs"
+description: "Enable preview features to experience the conversation intelligence features that change the look, feel, or functionality before the formal release."
 ms.date: 11/08/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 0b710872-5351-4b42-b87c-c35af5568e12
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -63,3 +62,6 @@ As an administrator, activating **Coming soon** mode gives users in your organiz
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

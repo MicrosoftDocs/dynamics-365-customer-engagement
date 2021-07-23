@@ -1,18 +1,13 @@
 ---
-title: "Work with Predictive lead scoring feature for Dynamics 365 Sales  | MicrosoftDocs"
-description: "Work with Predictive lead scoring feature in Sales Insights for Dynamics 365 Sales"
+title: "Work with Predictive lead scoring (Sales Insights) | MicrosoftDocs"
+description: "Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates."
 ms.date: 11/16/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
-ms.assetid: f5f685e2-ea1b-4c1c-8a68-857160e22fb3
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -97,3 +92,6 @@ For more information about the lead score, select the **About** tab. The **About
 ### See also
 
 [Configure predictive lead scoring](configure-predictive-lead-scoring.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

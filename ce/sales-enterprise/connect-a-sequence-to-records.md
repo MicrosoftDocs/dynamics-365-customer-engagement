@@ -1,8 +1,7 @@
 ---
-title: "Connect a sequence to records in the sales accelerator | MicrosoftDocs"
-description: "Learn how to create a sequence in sales accelerator."
+title: "Connect sequence to records in the sales accelerator | MicrosoftDocs"
+description: "Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -129,7 +128,7 @@ You can create a flow based on a sequence. The flow connects the records automat
     -	**RegardingEntityId**: The unique identifier of the entity record that is to be connected to the sequence.    
     -	**RegardingEntityName**: The logical name of the entity.    
     -	**SequenceId**: The unique identifier of the sequence.    
-        To get the unique identifier of the sequence, query OData for the sequence entity (**msdyn_sequence**). More information: [Querying or browsing an OData endpoint](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/odata#querying-or-browsing-an-odata-endpoint)     
+        To get the unique identifier of the sequence, query OData for the sequence entity (**msdyn_sequence**). More information: [Querying or browsing an OData endpoint](/dynamics365/fin-ops-core/dev-itpro/data-entities/odata#querying-or-browsing-an-odata-endpoint)     
 8. Use **Flow Checker** to verify errors and warnings in the flow.   
     Errors and warnings in the flow cause performance or reliability issues. Ensure that the flow is free from errors and warnings. The checker is always active, appearing in the command bar in the designer. The checker shows a red dot when it finds one or more errors in your flow.   
     For example, while creating a **For due date coming up** card, you haven't entered **Card Name**. The flow checker identifies the error and displays a red dot.     
@@ -145,3 +144,6 @@ You can create a flow based on a sequence. The flow connects the records automat
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

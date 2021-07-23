@@ -1,8 +1,7 @@
 ---
-title: "Understand the configuration of premium forecasting in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Understand the configuration of premium forecasting in Dynamics 365 Sales Insights."
+title: "Configuration of premium forecasting (Sales Insights) | MicrosoftDocs"
+description: "Configure premium forecasting to help sellers and managers improve their forecast accuracy by providing forecast projections based on data."
 ms.date: 06/01/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -23,7 +22,7 @@ Review the following requirements before you use the predictive forecast feature
 
 - Purchase a Sales Insights, a Sales Premium license, or start a trial to use advanced Sales Insights features. 
 
-- Enable forecasting. To learn more, see [Configure forecasts in your organization](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-forecast). 
+- Enable forecasting. To learn more, see [Configure forecasts in your organization](/dynamics365/sales-enterprise/configure-forecast). 
 
 ## Features available in premium forecasting
 
@@ -33,14 +32,14 @@ The following premium forecasting features are available with Sales Insights.
 
 Provides an AI-powered forecast that helps sellers and managers understand how much revenue their sales team can achieve. These predictions are calculated based on historical data and the current sales pipeline, and are available at each level of the hierarchy. A detailed breakdown is also provided. 
 
-To verify that the predictive forecasting feature is enabled in your organization, go to **Change area** > **App settings** > **Forecast configuration**. The **Prediction** column appears in a forecast grid when you select it as a column. To learn more, see [Choose layout and columns](https://docs.microsoft.com/dynamics365/sales-enterprise/choose-layout-and-columns-forecast).
+To verify that the predictive forecasting feature is enabled in your organization, go to **Change area** > **App settings** > **Forecast configuration**. The **Prediction** column appears in a forecast grid when you select it as a column. To learn more, see [Choose layout and columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast).
 
 >[!NOTE]
 > **Predictive** column is now available for all hierarchies with rollup entity as **Opportunity**.
 
 After you activate the forecast for the first time, predictive forecasting will take about two hours to display data in the column.
 
-To learn more, see [Configure forecasts in your organization](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-forecast).
+To learn more, see [Configure forecasts in your organization](/dynamics365/sales-enterprise/configure-forecast).
 
 Consider the following before you start using predictive forecasting, you must have:
 
@@ -64,7 +63,7 @@ Sales organizations can use snapshots to "freeze" forecast data at a moment in t
 
 The **Trend** chart provides a visualization of how each forecast amount is trending over time, comparing it against the period end prediction and quota. A separate predicted realization line is automatically created to project the future revenues over time.
 
-The option **Show in Trend Chart** is available to add forecast columns to the trend chart while configuring the column in the forecast configuration. Only **Roll up** and **Calculated** column types can be displayed in the trend chart. To learn more, see [Configure columns](https://docs.microsoft.com/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
+The option **Show in Trend Chart** is available to add forecast columns to the trend chart while configuring the column in the forecast configuration. Only **Roll up** and **Calculated** column types can be displayed in the trend chart. To learn more, see [Configure columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
 
 To understand how to use trend charts, see [Understand forecast projection through trend charts](understand-forecast-projection-through-trend-chart.md).
 
@@ -77,3 +76,6 @@ The flow chart provides a visual representation of how the forecast changes betw
 [Take snapshots automatically](manage-snapshots-forecast.md)<br>
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)<br>
 [Blog: Predictive sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/02/26/predictive-sales-forecasting-in-dynamics-365-sales/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

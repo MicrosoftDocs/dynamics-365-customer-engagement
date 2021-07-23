@@ -1,8 +1,7 @@
 ---
-title: "Delete a sequence to records in sales accelerator | MicrosoftDocs"
-description: "Learn how to delete a sequence in sales accelerator."
+title: "Delete a sequence in sales accelerator (Sales Insights) | MicrosoftDocs"
+description: "Permanently delete a sequence that is no longer required in your organization and disconnect records from it."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -26,3 +25,6 @@ You can delete sequences that your organization no longer needs, and they'll be 
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,7 @@
 ---
-title: "Enable and configure the sales accelerator in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to enable and configure the sales accelerator in Dynamics 365 Sales Insights."
+title: "Enable and configure sales accelerator (Sales Insights) | MicrosoftDocs"
+description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -11,7 +10,7 @@ manager: shujoshi
 
 # Configure the sales accelerator
 
-The Dynamics 365 Sales Insights sales accelerator helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in your sales app. An administrator or a sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. Sequences are connected to relevant records, so sellers can follow the best practices that have been defined in the sequence for the leads and opportunities that are assigned to them. The sequence is then applied to leads or opportunities and assigned to a seller automatically, according to your organization's sales strategies.  
+The Dynamics 365 Sales Insights sales accelerator helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in your sales app. An administrator or a sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. Sequences are connected to relevant records, so sellers can follow the best practices that have been defined in the sequence for the record types that are assigned to them. The sequence is then applied to record types and assigned to a seller automatically, according to your organization's sales strategies.  
 
 As an administrator, you must enable and configure the sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
 
@@ -43,6 +42,10 @@ For the best experience of the sales accelerator, enable and configure [predicti
     >![Sales accelerator first-run setup](media/sa-fre-setup.png "Sales accelerator first-run setup")    
 
     A dialog box appears with the option to install sample data to explore the feature. Installing the sample data is relevant only for your sandbox or trial environments. Adding the sample data might take a few minutes. However, you can choose to ignore the sample data installation and add it later when required. More information: [Manage sample data](manage-sample-data.md)    
+    
+    >[!IMPORTANT]
+    >To prevent unwanted results, sample data is available only for non-production environments.
+    
     >[!div class="mx-imgBorder"]
     >![Sample data installation](media/sa-sample-data-popup-message.png "Sample data installation")        
 
@@ -59,13 +62,26 @@ For the best experience of the sales accelerator, enable and configure [predicti
     | All security roles | Select this option to give access to view the Sales Hub app to all the security roles in your organization. |
     | Specific security roles | Select this option to specify security roles to give access to view the Sales Hub app to just a few users. Use the lookup box to add the security roles. |    
     
-5. <a name="choose-content-and-layout"></a>In the **Choose content and layout** section, choose the record types (**Leads** and **Opportunities**) and their corresponding related forms that users use in your organization, as required. Select **Next**.     
-    The selected record type will display the **Sequence (up next)** widget, and sales managers will use the record types to configure the sequence that will be assigned to records to be displayed in the app. By default, the **Leads** and **Opportunities** record types are selected.     
-    >[!NOTE]
-    >If you're using custom record types for leads and opportunities, the names of your custom record types are displayed.    
-    
-    >[!div class="mx-imgBorder"]
-    >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
+5. <a name="choose-content-and-layout"></a>In the **Choose content and layout** section, select the record types and their corresponding related forms that are used in your organization, as required.      
+
+   >[!div class="mx-imgBorder"]
+   >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
+
+    1. Select **Add record type**, and then select the dropdown list to choose the records that you want to add. The selected record type will display the **Sequence (up next)** widget. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app. You can select record types such as **Accounts**, **Contacts**, **Leads**, **Opportunities**, and custom.    
+        >[!NOTE]
+        >- To view the custom records types in the list, enable the options **Activities**, **Connections**, and **Sending email (If an email field does not exist, one will be created)** under **Communication & Collaboration** in **Settings > Customizations** > **Customize the System** > **Components** > **Entities**.
+        >- To add the **Up next** widget to your custom entity form, see [Add the Up next widget to an entity form](add-upnext-widget-form.md).     
+        
+    2. Repeat step a to add more record types. In the example, the record types **Contacts**, **Leads**, **Accounts**, and **Orders** are added.   
+        
+        >[!div class="mx-imgBorder"]
+        >![Selected record types](media/sa-selected-record-types.png "Selected record types")         
+        
+        >[!NOTE]
+        >You can remove the records types that are no longer required to have automated activities associated with them. Select the **X** icon corresponding to the record type to remove it from the list. However, if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
+     
+    3. Select **Next**
+
 6. In the **Automate activity creation** section, choose an option based on your requirements:    
     - Select **Go to sequences** to create sequences and apply them to records. More information: [Create and manage sequences](create-manage-sequences.md)
     - Select **Skip this step** to come back later and create the sequences.
@@ -81,8 +97,8 @@ For the best experience of the sales accelerator, enable and configure [predicti
         >For opportunities, the phone number priority will be applied to the primary contacts.  
 
     - Under **Call settings**, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate a call from a sequence step or from the work list.   
-    >[!div class="mx-imgBorder"]
-    >![Advanced call settings](media/sa-advance-call-settings.png "Advanced call settings")       
+        >[!div class="mx-imgBorder"]
+        >![Advanced call settings](media/sa-advance-call-settings.png "Advanced call settings")       
 8. Save and publish the configuration.
     A status message is displayed at the top of the page with details including the time and user who published the configurations.
     >[!div class="mx-imgBorder"]
@@ -98,3 +114,6 @@ By default, the **Up next** widget is displayed on the **Default Main** and **Sa
 
 [Create and manage sequences](create-manage-sequences.md)     
 [What is the sales accelerator?](sales-accelerator-intro.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

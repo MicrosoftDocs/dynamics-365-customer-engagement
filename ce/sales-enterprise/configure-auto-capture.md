@@ -1,13 +1,9 @@
 ---
-title: "Configure auto capture for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to configure auto capture for Sales Insights"
+title: "Enable and configure auto capture (Sales Insights) | MicrosoftDocs"
+description: "Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook."
 ms.date: 10/01/2019
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
 author: udaykirang
 ms.author: udag
@@ -15,8 +11,11 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ---
 
 # Enable and configure auto capture
@@ -80,7 +79,7 @@ Before you enable auto capture, perform the following tasks:
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](/dynamics365/legal/supp-dynamics365-preview).
 
 In addition to getting suggestions for customer-related activities through capturing emails and meetings, premium auto capture gets suggestions by capturing contacts through a salesperson's communications.
 
@@ -135,3 +134,6 @@ Premium auto capture is now enabled for your organization.
 ### See also
 
 [Introduction to administering Sales Insights](intro-admin-guide-sales-insights.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

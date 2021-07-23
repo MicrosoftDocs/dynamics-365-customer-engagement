@@ -1,8 +1,7 @@
 ---
-title: "Configure notes analysis for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to configure notes analysis for Sales Insights"
+title: "Configure notes analysis (Sales Insights) | MicrosoftDocs"
+description: "Configure and enable notes analysis to display intelligent suggestions when your users enter an activity on the timeline."
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 08662c5d-1809-44fd-81d9-dc12774eb5e8
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -41,3 +40,6 @@ To help users with intelligent suggestions when they enter an activity in the ti
 
 [How notes analysis assists you with intelligent suggestion](notes-analysis.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

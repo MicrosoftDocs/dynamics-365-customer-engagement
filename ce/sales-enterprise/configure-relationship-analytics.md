@@ -1,8 +1,7 @@
 ---
-title: "Configure Relationship analytics and health for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to configure Relationship analytics and health for Sales Insights"
+title: "Configure Relationship analytics and health (Sales Insights) | MicrosoftDocs"
+description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
 ms.date: 10/28/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 03bfdad0-2575-4c4b-a845-d7ac1ff0b0c3
@@ -12,6 +11,9 @@ manager: shujoshi
 ---
 
 # Configure relationship analytics and health
+
+>[!IMPORTANT]
+>This feature is intended to help sellers or sales managers enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
 
 Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
 
@@ -155,3 +157,5 @@ By default, the health score widget is available only in the out-of-the-box **Sa
 [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)  
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

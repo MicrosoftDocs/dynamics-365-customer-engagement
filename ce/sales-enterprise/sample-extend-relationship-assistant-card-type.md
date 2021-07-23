@@ -1,8 +1,7 @@
 ---
-title: "Download custom card sample for Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Download custom card sample in Sales Insights | MicrosoftDocs"
 description: "Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card."
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 1b7a3dda-59c9-4b5d-b4b2-7fbc039a3f22
@@ -340,3 +339,6 @@ To learn more on how to enable cards, see [Turn on or off insights cards](edit-i
 [Configure Assistant](configure-assistant.md)
 
 [Guide customer communications with assistant](assistant.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

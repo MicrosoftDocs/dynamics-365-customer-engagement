@@ -1,42 +1,29 @@
 ---
-title: "What's new in Dynamics 365 Sales | MicrosoftDocs"
-description: "Learn about what's new in the latest release of Dynamics 365 Sales."
-ms.date: 02/10/2021
+title: "What's new in Sales Insights | MicrosoftDocs"
+description: "Get the resources on what's new in the latest release of Sales Insights Add-in for Dynamics 365 Sales."
+keywords: 
+ms.date: 04/06/2020
+ms.custom: 
 ms.topic: article
-author: lavanyakr01
-ms.author: lavanyakr
-manager: annbe
+ms.assetid: 6b697179-a0f0-4aee-b636-6cb7426212ec
+author: udaykirang
+ms.author: udag
+manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 1
+topic-status: Drafting
 ---
 
-# What's new in Dynamics 365 Sales 
+# What's new in Sales Insights
 
-This topic provides resources where you can learn about the new features that have recently released or that will be releasing over the next few months.
-
-## Sales 
+This topic provides resources where you can learn about the new features that have recently released or new features that will be releasing over the next few months.
 
 For information about new features releasing over the next few months that you can use for planning, see:
-- [2020 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/sales/dynamics365-sales/planned-features)
-  To learn more about early access features in the 2020 wave 2 release and how to opt in to early access updates, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access#dynamics-365-sales), [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates)
-- [2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-sales/planned-features)  
-- [2019 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-sales/planned-features)
-- [April 2019 release notes](https://docs.microsoft.com/business-applications-release-notes/april19/dynamics365-sales/planned-features)
-
-## Sales premium
-
-For information about new features releasing over the next few months that you can use for planning, see:
-- [2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/artificial-intelligence/dynamics365-sales-insights/planned-features)  
-- [2019 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/artificial-intelligence/dynamics365-sales-insights/planned-features)   
-- [April 2019 release notes](https://docs.microsoft.com/business-applications-release-notes/April19/artificial-intelligence/dynamics365-ai-sales/planned-features)    
-
-## Sales Professional
-
-For information about new features releasing over the next few months that you can use for planning, see:
-- [2021 release wave 1 plan](/dynamics365-release-plan/2021wave1/sales/dynamics365-sales/planned-features)<br>
-  To learn more about early access features in the 2021 wave 1 release and how to opt in to early access updates, see [2021 release wave 1 features available for early access](/dynamics365-release-plan/2021wave1/features-ready-early-access#dynamics-365-sales) and [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
-- [2020 release wave 2 plan](/dynamics365-release-plan/2020wave2/sales/dynamics365-sales/planned-features)
-- [2020 release wave 1 plan](/dynamics365-release-plan/2020wave1/dynamics365-sales/planned-features)  
-- [2019 release wave 2 plan](/dynamics365-release-plan/2019wave2/dynamics365-sales/planned-features)
-- [April 2019 release notes](/business-applications-release-notes/april19/dynamics365-sales/planned-features)
+- [2020 release wave 1 plan](/dynamics365-release-plan/2020wave1/artificial-intelligence/dynamics365-sales-insights/planned-features)  
+- [2019 release wave 2 plan](/dynamics365-release-plan/2019wave2/artificial-intelligence/dynamics365-sales-insights/planned-features)
+- [April 2019 release notes](/business-applications-release-notes/April19/artificial-intelligence/dynamics365-ai-sales/planned-features)
 
 
 > [!NOTE]

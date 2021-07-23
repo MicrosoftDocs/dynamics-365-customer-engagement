@@ -1,18 +1,13 @@
 ---
-title: "Create insight cards using Microsoft Power Automate in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Create custom insight cards using Microsoft Power Automate in Assistant"
-keywords: " "
+title: "Create insight cards using Microsoft Power Automate | MicrosoftDocs"
+description: "Create your own suggested actions through custom insight cards using Microsoft Power Automate in Assistant in Dynamics 365 Sales."
+keywords: ""
 ms.date: 10/07/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
-ms.assetid: e59e67ad-3646-4929-a6f8-c97ab2c5f6e2
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 1
 ---
 
@@ -20,7 +15,7 @@ caps.latest.revision: 1
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-As an administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:
+As a system administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:
 
 > [!div class="mx-imgBorder"]
 > ![Open assistant tab](media/cc-create-card.png "Open assistant tab")
@@ -300,7 +295,7 @@ Use the **REST** option to invoke REST API.
     | Body| Enter request parameters for the REST API. This option appears only for the **REST** button type.| 
 
     > [!div class="mx-imgBorder"]
-    > ![Create card for playbook](media/insight-card-rest-api.png "Create card for playbook")
+    > ![Create a card for playbook](media/insight-card-rest-api.png "Create a card for playbook")
     
 
 ### See also
@@ -311,3 +306,6 @@ Use the **REST** option to invoke REST API.
 
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,7 @@
 ---
-title: "Edit a sequence to records in sales accelerator | MicrosoftDocs"
-description: "Learn how to edit a sequence in sales accelerator."
+title: "Edit a sequence to records in sales accelerator (Sales Insights) | MicrosoftDocs"
+description: "You can edit an inactive sequence when there is a change in the process of selling in your organization."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -32,3 +31,6 @@ If your organization changes its selling process, you might want to edit a seque
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

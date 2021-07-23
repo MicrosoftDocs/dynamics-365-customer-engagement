@@ -1,9 +1,8 @@
 ---
-title: "Configure Sales Insights Assistant | MicrosoftDocs"
-description: "Describes how to configure Assistant, both free and advanced features."
-keywords: " "
+title: "Configure the Assistant (Sales Insights) | MicrosoftDocs"
+description: "Configure Assistant to help sellers track their daily actions and communications through a collection of actionable insight cards."
+keywords: ""
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 7170bd24-0252-4158-9e31-42004847ecbb
@@ -13,31 +12,18 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
 # Configure the assistant
 
-**Before you start**     
-<table>
-  <tr>
-    <td><b>Security role</b></td>
-    <td>System Administrator</td> 
-  </tr>
-  <tr>
-    <td><b>License</b></td>
-    <td>Dynamics 365 Sales premium</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+The assistant in Dynamics 365 Sales (formerly known as relationship assistant) helps sellers track their daily actions and communications through a collection of actionable insight cards. 
 
-The assistant in Dynamics 365 Sales helps sellers track their daily actions and communications through a collection of actionable insight cards.     
-The assistant is available in two forms:     
-- **Assistant (standard)**: This feature is included with Dynamics 365 Sales Enterprise. The assistant comes with a set of out-of-the-box standard cards. As an administrator, you can configure which insight cards to present to users to help them stay on top of their day. Some insight cards are enabled by default; you can enable, disable, or customize the standard cards. To configure the standard assistant, see [Configure and manage insight cards for the standard assistant](#configure-and-manage-insight-cards-for-the-standard-assistant).      
+The assistant is available in two forms:
+
+- **Assistant (standard)**: This feature is included with Dynamics 365 Sales Enterprise. The assistant comes with a set of out-of-the-box standard cards. As an administrator, you can configure which insight cards to present to users to help them stay on top of their day. Some insight cards are enabled by default; you can enable, disable, or customize the standard cards. To configure the standard assistant, see [Configure and manage insight cards for the standard assistant](#configure-and-manage-insight-cards-for-the-standard-assistant).
+
 - **Assistant (premium)**: The premium assistant is available in Sales with the Dynamics 365 Sales Insights license. With premium assistant capabilities, you can use Power Automate directly from the assistant studio to create custom insight cards, tailored to the specific needs of your team. To configure the premium assistant, see [Configure and manage insight cards for the premium assistant](#configure-and-manage-insight-cards-for-the-premium-assistant).
 
 ## Configure and manage insight cards for the standard assistant
@@ -115,7 +101,7 @@ The premium assistant that's part of the Sales Insights add-on offers advanced c
     > [!div class="mx-imgBorder"]
     > ![Assistant studio home page](media/si-admin-assistant-full-studio-home-page.png "Assistant studio home page")
 
-    |  |  | 
+    | Number | Description | 
     |--------|---------|
     | **1** | Create cards with that are custom-made for your organization by using Power Automate. More information: [Creating custom insight cards](create-insight-cards-flow.md) |
     | **2** | Quickly view cards by using tabs to view cards that are most popular, recently used, high in priority, and created by your organization. |
@@ -135,7 +121,7 @@ The premium assistant that's part of the Sales Insights add-on offers advanced c
 
 Assistant tutorials are available for you to learn how to create custom insight cards by using minimal or no code through Power Automate. Using the tutorials, you learn from creating a basic custom insight, a "hello world" equivalent, and gradually increase the complexity as you go along.
 
-More information: [Assistant studio tutorials for Dynamics 365 Sales Insights](https://docs.microsoft.com/learn/modules/sales-insights-lab/)
+More information: [Assistant studio tutorials for Dynamics 365 Sales Insights](/learn/modules/sales-insights-lab/)
 
 ## Disable teasers
 
@@ -154,9 +140,12 @@ Teasers will be disabled in your organization.
 
 ### See also
 
-[Introduction to administer Sales Insights](intro-admin-guide-sales-insights.md)  
+[Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)  
 [Create insight cards](create-insight-cards-flow.md)  
 [Edit insight cards](edit-insight-cards.md)  
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)  
 [Create custom cards in Assistant](extend-relationship-assistant-card.md)  
 [Sales Insights privacy notice](privacy-notice.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

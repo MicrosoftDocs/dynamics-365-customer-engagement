@@ -1,8 +1,7 @@
 ---
-title: "Configure keywords and competitors to track in conversation intelligence | MicrosoftDocs"
-description: "Configure keywords and competitors to track in conversation intelligence"
+title: "Configure keywords and competitors in conversation intelligence | MicrosoftDocs"
+description: "Configure conversation content such as, keywords and competitors to track in conversation intelligence in Dynamics 365 Sales organization."
 ms.date: 11/06/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 2d1fb7e4-f059-4e9b-b52e-f6023bc57ab2
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -64,5 +63,8 @@ Configure tracked keywords and competitors that are relevant to you and your org
 
 ### See also
 
-[Administer conversation intelligence](intro-admin-guide-sales-insights-app.md)   
+[Administer conversation intelligence](./intro-admin-guide-sales-insights.md)   
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

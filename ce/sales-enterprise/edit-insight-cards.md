@@ -1,12 +1,10 @@
 ---
-title: "Edit insight cards using Power Automate in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Edit insight cards in assistant"
-keywords: " "
+title: "Edit insight cards (Sales Insights) | MicrosoftDocs"
+description: "Edit insight cards in assistant by turning off or on, assigning or removing roles, setting priority, editing flow, and viewing usage metrics."
+keywords: ""
 ms.date: 06/01/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 (online)
 ms.assetid: f1565380-2c5b-4140-a657-156fee688cc9
 author: udaykirang
 ms.author: udag
@@ -15,6 +13,8 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
+applies_to: 
+  - Dynamics 365 (online)
 ---
 
 # Edit insight cards
@@ -181,3 +181,6 @@ The following metrics are available on the card.
 
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

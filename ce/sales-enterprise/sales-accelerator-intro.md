@@ -1,8 +1,8 @@
 ---
-title: "Understand what is sales accelerator in Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Understand what is sales accelerator (Sales Insights) | MicrosoftDocs"
 description: "Identify the best customer to contact next and prioritize sales activities by using the Sales accelerator in Dynamics 365 Sales Insights."
 ms.date: 01/11/2020
-ms.service: crm-online
+ms.custom: intro-internal
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -24,3 +24,5 @@ By using the Sales accelerator:
 ### See also
 
 [Enable and configure Sales accelerator](enable-configure-sales-accelerator.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

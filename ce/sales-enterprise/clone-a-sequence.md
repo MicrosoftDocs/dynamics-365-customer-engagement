@@ -1,8 +1,7 @@
 ---
-title: "Clone a sequence in sales accelerator | MicrosoftDocs"
-description: "Learn how to clone a sequence in sales accelerator."
+title: "Clone a sequence in sales accelerator (Sales Insights) | MicrosoftDocs"
+description: "Clone a sequence to make it easier to add or remove steps, and save the changes to create new sequence."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -29,3 +28,5 @@ You can clone a sequence to make it easier to add or remove steps, and save the 
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

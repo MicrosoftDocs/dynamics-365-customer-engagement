@@ -1,8 +1,7 @@
 ---
-title: "View details of a sequence and its connected records in sales accelerator | MicrosoftDocs"
-description: "Learn how to view details of a sequence and its connected records in sales accelerator."
+title: "View details of sequence and its connected records | MicrosoftDocs"
+description: "Use the sequence page to view the details of a sequence and its connected records in sales accelerator in Dynamics 365 Sales."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -36,3 +35,5 @@ You can view the details of a sequence and the records connected with it. This v
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

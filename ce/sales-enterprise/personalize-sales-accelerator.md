@@ -1,8 +1,7 @@
 ---
-title: "Personalize sales accelerator settings in Dynamics 365 Sales | MicrosoftDocs"
-description: "Learn how to use personal settings to customize sales accelerator in Dynamics 365 Sales."
+title: "Personalize sales accelerator settings (Sales Insights) | MicrosoftDocs"
+description: "Use personal settings to determine how activities are scheduled based on work availability and deciding what happens when an activity is complete."
 ms.date: 03/08/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -20,6 +19,9 @@ As a seller, you can personalize sales accelerator by determining how activities
 ## Configure your work availability
 
 Configure your working days, hours, and days off to adjust scheduled tasks and lead assignment according to your availability. For example, you're taking a day off on April 1, 2021, and you have a few activities to complete that day. When you configure the calendar with your day off, any activities that were scheduled for that day will be moved to your next available date or time.
+
+>[!NOTE]
+>Ensure that you've read and write privileges to **Calendar** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 ### Enable the availability option in sequence settings
 

@@ -1,9 +1,8 @@
 ---
-title: "Improve seller coaching and sales potential with conversation intelligence | MicrosoftDocs"
-description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence"
+title: "Improve seller coaching and sales potential (Sales Insights) | MicrosoftDocs"
+description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence."
 ms.date: 04/09/2020
-ms.service: crm-online
-ms.custom: 
+ms.custom: intro-internal
 ms.topic: article
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: udaykirang
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -54,7 +53,7 @@ The next sections describe:
 
 ## Recommendations to use conversation intelligence   
 Before you start using the application, we suggest you review the following requirements for effective use of conversation intelligence:   
--	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](https://docs.microsoft.com/power-platform/admin/wp-license-management).   
+-	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](/power-platform/admin/wp-license-management).   
 -	As a sales manager, verify that the proper manager hierarchy is defined for you, and that sellers or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
 ## How to get conversation intelligence   
@@ -101,3 +100,6 @@ The search results show the conversations that contain the tag **hot deal**. In 
 
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

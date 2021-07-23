@@ -1,8 +1,7 @@
 ---
-title: "Analyze revenue outcome using predictive forecasting in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Analyze revenue outcome using predictive forecasting in Dynamics 365 Sales Insights."
+title: "Analyze revenue outcome using predictive forecasting (Sales Insights) | MicrosoftDocs"
+description: "Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data."
 ms.date: 02/03/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -30,7 +29,7 @@ The **Prediction** column shows the predicted revenue for each seller and manage
 
 ### Prediction column
 
-Open a forecast that includes a **Prediction** column. To learn more, see [View a forecast](https://docs.microsoft.com/dynamics365/sales-enterprise/view-forecasts). 
+Open a forecast that includes a **Prediction** column. To learn more, see [View a forecast](/dynamics365/sales-enterprise/view-forecasts). 
 
 The following screen shows an example of a **Prediction** column. 
 
@@ -55,7 +54,7 @@ The graph in the **Prediction details** pane consists of the following values:
 The top factors that influence the prediction are displayed below the graph. These factors help you to understand the key points of the graph. As many as five of these factors will appear.
 
 >[!NOTE]
->In order for **Prediction details** to be displayed, an administrator or forecast manager must [enable prediction factors](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors).  
+>In order for **Prediction details** to be displayed, an administrator or forecast manager must [enable prediction factors](/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors).  
 
 The top prediction factors are categorized into three types:  
 -	A green icon with an upward-trending arrow (![Green icon](media/predictive-forecasting-factor-green-icon.png)) represents a positive influencing factor.  
@@ -76,4 +75,7 @@ The following image shows an example of a **Top factors that influence predictio
 ### See also
 
 [About premium forecasting](configure-premium-forecasting.md)  
-[Enable prediction factors](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors)
+[Enable prediction factors](/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

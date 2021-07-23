@@ -1,11 +1,10 @@
 ---
-title: "Connect with customers in Dynamics 365 Sales | MicrosoftDocs"
-description: "Make phone calls or send emails by using a record or the Up next widget in Dynamics 365 Sales."
-ms.date: 01/11/2021
-ms.service: crm-online
+title: "Connect with customers through record or up next widget | MicrosoftDocs"
+description: "Use the Up next widget or a record to connect with customers using channels such as, phone calls and emails in Dynamics 365 Sales."
+ms.date: 04/23/2021
 ms.topic: article
-author: sbmjais
-ms.author: shjais
+author: udaykirang
+ms.author: udag
 manager: shujoshi
 ---
 
@@ -35,7 +34,7 @@ When you make a phone call, a **Phone Call** activity is created and linked to t
 
 **To make a phone call**
 
-Do either of the following:
+Do one of the following actions:
 
 - Select the phone icon in the **My work** list record.
 
@@ -55,7 +54,7 @@ While composing an email, if you try to navigate to another record or send an em
 
 **To send an email**
 
-Do either of the following:
+Do one of the following actions:
 
 - Select the email icon in the **My work** list record.
 
@@ -67,11 +66,49 @@ Do either of the following:
     > [!div class="mx-imgBorder"]
     > ![Send email from the Up next widget](media/up-next-widget-email.png "Send email from the Up next widget")
 
+## Work with appointments
+
+When an appointment is created for a record through Dynamics 365, or created through Outlook and tracked in Dynamics 365, the appointment is associated with the record and displayed in the work list. If the appointment is associated with a Teams meeting, the Teams meeting icon appears in the associated record in the work list and **Up next** widget. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with a Teams meeting, sellers can open the appointment and view the details, such as participants, scheduled time, and description.
+
+>[!NOTE]
+>Verify that Microsoft Teams is configured for your organization. More information: [Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration) 
+
+More information: [Use Outlook category to track appointments and emails](/power-platform/admin/use-outlook-category-track-appointments-emails) and [Track Outlook appointments in Dynamics 365 for Outlook](/dynamics365/outlook-addin/user-guide/track-outlook-appointments)
+
+**To join a Teams meeting**
+
+Do one of the following actions:
+
+- Select the **Teams** icon in the work list record.   
+
+    > [!div class="mx-imgBorder"]
+    > ![Join a Teams meeting through a work list record](media/sa-join-teams-meeting-work-list.png "Join a Teams meeting through a work list record") 
+ 
+- Select **Join** in the activity in the **Up next** widget. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Join a Teams meeting through the Up next widget](media/sa-join-teams-meeting-upnext-widget.png "Join a Teams meeting through the Up next widget") 
+
+**To open an appointment**
+
+Do one of the following actions:
+
+- Select the **Event** icon in the work list record.
+
+    > [!div class="mx-imgBorder"]
+    > ![Create an appointment through a work list record](media/sa-create-appointment-work-list.png "Create an appointment through a work list record") 
+
+- Select **Open** in the activity in the **Up next** widget.
+
+    > [!div class="mx-imgBorder"]
+    > ![Create an appointment through the Up next widget](media/sa-create-appointment-upnext-widget.png "Create an appointment through the Up next widget") 
+
+
 ## Skip or snooze an activity
 
 You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as canceled.
 
-If you're unable to connect with a customer by the due date&mdash;but still need to follow up later&mdash;you can snooze the activity, and select a new date and time to connect with the customer. Note that you can't snooze a manual task.
+If you're unable to connect with a customer by the due date&mdash;but still need to follow up later&mdash;you can snooze the activity, and select a new date and time to connect with the customer. You can't snooze a manual task.
 
 **To skip an activity**
 
@@ -102,3 +139,6 @@ The activity is skipped, and the next activity in the sequence is displayed.
 
 [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)<br>
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,18 +1,13 @@
 ---
-title: "Work with call intelligence feature for conversation intelligence | MicrosoftDocs"
-description: "Analyze customer call to improve sales and generate revenue"
+title: "Work with call intelligence feature (Sales Insights) | MicrosoftDocs"
+description: "View insights and analyze the performers of sellers during calls with customer to improve sales and generate revenue."
 ms.date: 04/09/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
-ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -93,3 +88,6 @@ Let's look at the KPIs and insights in detail:
 [First-run set up experience of conversation intelligence](fre-setup-sales-insight-app.md)
 
 [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

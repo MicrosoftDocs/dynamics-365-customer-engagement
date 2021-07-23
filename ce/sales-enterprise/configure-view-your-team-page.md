@@ -1,17 +1,16 @@
 ---
-title: "Configure and view your team page in conversation intelligence | MicrosoftDocs"
-description: "Configure and view your team page in conversation intelligence "
+title: "Configure and view your team page (Sales Insights) | MicrosoftDocs"
+description: "Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data."
 ms.date: 11/17/2020
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Configure and view your team page
+# Configure and view team page
 
 As an administrator, you can:
 
@@ -75,7 +74,7 @@ The matrix explains which data you’ll view as a sales manager, for different h
 | Level 3 | Choose this option to get insights on level 1, level 2, and level 2’s team members. |
 
 > [!NOTE]
-> Conversation intelligence supports up to three levels of hierarchy. To learn more about hierarchy, see [Set up Manager and Position hierarchies](https://docs.microsoft.com/power-platform/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
+> Conversation intelligence supports up to three levels of hierarchy. To learn more about hierarchy, see [Set up Manager and Position hierarchies](/power-platform/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
 ## Choose top performers    
 The top performers who are selected here are compared against other sellers in your team to project how the other sellers are performing based on best practices conversational style KPIs. Those are displayed with relevant data on the home page in [What characterizes top sellers?](../sales/dynamics365-sales-insights-app-home-page.md#what-characterizes-top-sellers).  
@@ -109,3 +108,6 @@ The list is updated every 24 hours to display the current active sellers in the 
 
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)      
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,7 @@
 ---
-title: "Understand how to view snapshots for a forecast in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Understand how to view snapshots for a forecast in Dynamics 365 Sales Insights"
+title: "View snapshots of a forecast (Sales Insights) | MicrosoftDocs"
+description: "Use the see forecast grid history page to view snapshots of a forecast in Dynamics 365 Sales Insights."
 ms.date: 10/26/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -70,3 +69,6 @@ For a snapshot, you can view the underlying opportunities of a column or the use
 [About premium forecasting](configure-premium-forecasting.md)<br>
 [Take snapshots automatically](manage-snapshots-forecast.md)<br>
 [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

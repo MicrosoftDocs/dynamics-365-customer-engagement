@@ -1,8 +1,7 @@
 ---
-title: "Understand forecast projection through trend charts in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Understand forecast projection through trend charts in Dynamics 365 Sales Insights."
+title: "View forecast projection through trend charts (Sales Insights) | MicrosoftDocs"
+description: "Use the trend charts to understand how each forecast amount is trending over time, comparing it against the period end prediction and quota."
 ms.date: 02/03/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -34,7 +33,7 @@ The **Trend** chart shows how each forecast amount is trending over time, compar
 ## Understand trend charts
 
 > [!NOTE]
-> Columns available for trending can be configured in the forecast configuration. To learn more, see [configure columns](https://docs.microsoft.com/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
+> Columns available for trending can be configured in the forecast configuration. To learn more, see [configure columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
 
 The following screenshot shows an example of a trend chart.
 
@@ -52,3 +51,6 @@ If you don't want to view any forecast category on the chart, select the forecas
 
 [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)<br>
 [About premium forecasting](configure-premium-forecasting.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
