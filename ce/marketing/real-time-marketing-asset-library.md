@@ -20,7 +20,7 @@ search.app:
 
 # Real-time marketing asset library
 
-The new, centralized asset library lets you upload files that are automatically tagged by the app using AI. When authoring your email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content. 
+The centralized real-time marketing asset library lets you upload files that are automatically tagged by the app using AI. When authoring your email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content.
 
 > [!NOTE]
 > The asset library supports JPEG, GIF, and PNG images.
