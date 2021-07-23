@@ -562,7 +562,7 @@
         items:
         - name: About Lead entity
           href: ../customerengagement/on-premises/developer/lead-entity.md
-        - name: Sample: Qualify a lead
+        - name: Qualify a lead (Sample)
           href: ../customerengagement/on-premises/developer/sample-qualify-lead.md
       - name: Opportunity entity
         items:
@@ -572,21 +572,21 @@
           href: ../customerengagement/on-premises/developer/create-opportunity.md
         - name: Convert an opportunity to a quote, sales order or invoice
           href: ../customerengagement/on-premises/developer/convert-opportunity-quote-sales-order-invoice.md
-        - name: Sample: Create an opportunity (early bound)
+        - name: Create an opportunity (early bound sample)
           href: ../customerengagement/on-premises/developer/sample-create-opportunity-early-bound.md
-        - name: Sample: Retrieve an opportunity (early bound)
+        - name: Retrieve an opportunity (early bound sample)
           href: ../customerengagement/on-premises/developer/sample-retrieve-opportunity-early-bound.md
-        - name: Sample: Convert an opportunity to a quote (early bound)
+        - name: Convert an opportunity to a quote (early bound sample)
           href: ../customerengagement/on-premises/developer/sample-convert-opportunity-quote-early-bound.md
       - name: Quote, order, and invoice entities
         items:
         - name: About Quote, order, and invoice entities
           href: ../customerengagement/on-premises/developer/quote-order-invoice-entities.md
-        - name: Sample: Set negative prices in opportunities, quotes, and sales orders
+        - name: Set negative prices in opportunities, quotes, and sales orders (Sample)
           href: ../customerengagement/on-premises/developer/sample-set-negative-prices-opportunities-quotes-sales-orders.md
-        - name: Sample: Process quotes, sales orders and invoices
+        - name: Process quotes, sales orders and invoices (Sample)
           href: ../customerengagement/on-premises/developer/sample-process-quotes-sales-orders-invoices.md
-        - name: Sample: Fulfill a sales order
+        - name: Fulfill a sales order (Sample)
           href: ../customerengagement/on-premises/developer/sample-fulfill-sales-order.md
         - name: Enable sales order processing integration
           href: ../sales-enterprise/developer/enable-sales-order-processing-integration.md
@@ -598,11 +598,11 @@
         href: ../customerengagement/on-premises/developer/campaign-entities.md
       - name: List (marketing list) entity
         href: ../customerengagement/on-premises/developer/list-marketing-list-entity.md
-      - name: Sample: Distribute a quick campaign
+      - name: Distribute a quick campaign (Sample)
         href: ../customerengagement/on-premises/developer/sample-distribute-a-quick-campaign.md
-      - name: Sample: Distribute campaign activities to dynamic and static lists
+      - name: Distribute campaign activities to dynamic and static lists (Sample)
         href: ../customerengagement/on-premises/developer/sample-distribute-campaign-activities-dynamic-static-lists.md
-      - name: Sample: Distribute campaign activities to qualified marketing list
+      - name: Distribute campaign activities to qualified marketing list (Sample)
         href: ../customerengagement/on-premises/developer/sample-distribute-campaign-activities-qualified-marketing-list.md
     - name: Goal management entities
       items:
@@ -616,13 +616,13 @@
         href: ../customerengagement/on-premises/developer/add-complex-goal-criteria.md
       - name: Roll up goal totals
         href: ../customerengagement/on-premises/developer/roll-up-goal-totals.md
-      - name: Sample: Rollup goal data for a custom period against the target revenue
+      - name: Rollup goal data for a custom period against the target revenue (Sample)
         href: ../customerengagement/on-premises/developer/sample-rollup-goal-data-custom-period-target-revenue.md
-      - name: Sample: Rollup goal data for a fiscal period against the stretch target count
+      - name: Rollup goal data for a fiscal period against the stretch target count (Sample)
         href: ../customerengagement/on-premises/developer/sample-rollup-goal-data-fiscal-period-stretch-target-count.md
-      - name: Sample: Use rollup queries to track goals
+      - name: Use rollup queries to track goals (Sample)
         href: ../customerengagement/on-premises/developer/sample-use-rollup-queries-track-goals.md
-      - name: Sample: Override goal total count and close the goal
+      - name: Override goal total count and close the goal (Sample)
         href: ../customerengagement/on-premises/developer/sample-override-goal-total-count-close-goal.md
     - name: Product catalog entities
       items:
@@ -642,13 +642,13 @@
         href: ../customerengagement/on-premises/developer/product-discounting-methods.md
       - name: Localize product property values
         href: ../customerengagement/on-premises/developer/localize-product-property-values.md
-      - name: Sample: Create and publish products
+      - name: Create and publish products (Sample)
         href: ../customerengagement/on-premises/developer/sample-create-publish-products.md
-      - name: Sample: Clone product records
+      - name: Clone product records (Sample)
         href: ../customerengagement/on-premises/developer/sample-clone-product-records.md
-      - name: Sample: Add products to a bundle
+      - name: Add products to a bundle (Sample)
         href: ../customerengagement/on-premises/developer/sample-add-products-bundle.md
-      - name: Sample: Calculate Price plug-in
+      - name: Calculate Price plug-in (Sample)
         href: ../customerengagement/on-premises/developer/sample-calculate-price-plugin.md
     - name: Sales literature entities
       href: ../customerengagement/on-premises/developer/sales-literature-entities.md
@@ -790,7 +790,7 @@
       - name: Create insight cards using solution
         href: extend-relationship-assistant-card.md
         items:
-        - name: Sample: Extend assistant card type (custom card)
+        - name: Extend assistant card type (custom card sample) 
           href: sample-extend-relationship-assistant-card-type.md
     - name: Troubleshooting
       items:
