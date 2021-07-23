@@ -15,6 +15,13 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+searchScope:
+- D365-App-customerservicehub
+- D365-Entity-incident
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # Merge cases

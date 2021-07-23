@@ -1,11 +1,10 @@
 ---
 title: "Resource Scheduling Optimization version history | MicrosoftDocs"
 description: Find a list of important updates for resource scheduling optimization in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 07/09/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -29,7 +28,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | | |  | |
-| | <i>First Release</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) | N/A
+| | <i>First Release</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) | TBD | N/A
 |<strong>Station 2</strong> | | |  | |
 | | <i>South America</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD | TBD
 | | <i>Canada</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |TBD  | TBD
@@ -40,18 +39,18 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Germany</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |TBD  | TBD
 | | <i>Switzerland</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |TBD  | TBD
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324)|[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)   | 07/16/2021
-| | <i>Asia Pacific</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) | 07/16/2021
-| | <i>Great Britain</i> |[3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  | 07/16/2021
-| | <i>Oceania</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)   | 07/16/2021
+| | <i>Japan</i> |  [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)| TBD   | TBD
+| | <i>Asia Pacific</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD | TBD
+| | <i>Great Britain</i> |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  | TBD
+| | <i>Oceania</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD   | TBD
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  | 07/23/2021
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  | 07/30/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |N/A
-| | <i>China</i> |  [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324)|[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |N/A
-| | <i>Dedicated Scale Groups</i> |  [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |N/A
+| | <i>Government Community Cloud</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  |N/A
+| | <i>China</i> |  [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)|TBD |N/A
+| | <i>Dedicated Scale Groups</i> |  [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  |N/A
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.

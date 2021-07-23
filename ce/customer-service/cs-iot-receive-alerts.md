@@ -1,6 +1,6 @@
 ---
-title: "Receive IoT alerts in Connected Customer Service from Azure IoT Central | MicrosoftDocs | MicrosoftDocs"
-description: "Learn how to receive IoT alerts in Connected Customer Service from Azure IoT Central."
+title: "Receive IoT alerts in Connected Customer Service from Azure IoT Central | MicrosoftDocs"
+description: "This topic provides information on how to receive IoT alerts in Connected Customer Service from Azure IoT Central."
 ms.date: 04/03/2020
 ms.topic: article
 author: lalexms

@@ -1,11 +1,11 @@
 ---
 title: "Connected Field Service - Overview | MicrosoftDocs"
 description: Learn all about Connected Field Service for Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 09/30/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
+ms.custom: intro-internal
 ms.topic: overview
 author: FieldServiceDave
 ms.author: daclar

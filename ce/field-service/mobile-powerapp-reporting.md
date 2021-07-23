@@ -1,13 +1,11 @@
 ---
 title: "Field Service technician service reporting | MicrosoftDocs"
 description: Learn about setting up service reports for Field Service technicians
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 05/21/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

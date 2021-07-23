@@ -26,7 +26,7 @@ search.app:
 
 The tables below shows the supported features using App for Outlook on Outlook desktop client, Outlook Web Access, and a mobile device.
 
-**Dynamics 365 and Microsoft Exchange Online**
+## Dynamics 365 and Microsoft Exchange Online
 
 | **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook Web Access: Microsoft Edge** | **Outlook Web Access: Google Chrome**         | **Mobile Device: Android** |**Mobile Device: iOS** |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------| 
@@ -75,7 +75,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 
  
 
-**Feature support per client (either Dynamics 365 or Microsoft Exchange Server is on-premises)**
+## Feature support per client (either Dynamics 365 or Microsoft Exchange Server is on-premises)
 
 | **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook Web Access: Microsoft Edge** | **Outlook Web Access: Google Chrome**         | **Mobile Device: Android** |**Mobile Device: iOS** |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------|                                                  
@@ -122,7 +122,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 
  
 
-**Feature support per client (both Dynamics 365 or Microsoft Exchange Server is on-premises)**
+## Feature support per client (both Dynamics 365 or Microsoft Exchange Server is on-premises)
 
 | **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook Web Access: Microsoft Edge** | **Outlook Web Access: Google Chrome**         | **Mobile Device: Android** |**Mobile Device: iOS** |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------| 

@@ -23,10 +23,17 @@ The trial takes a few moments to load, then you can start using the app.
 
 ## What to try
 
-Your trial environment includes many of the same features as the paid version. The links below guide you through some of the key features.
+Your trial environment includes many of the same features as the paid version. The following links guide you through some of the key features:
 
-- [Get started](user-guide-learn-basics.md)
-- [How do I start using the trial?](sales-trial-faq.md#how-do-i-start-using-the-trial)
+- [Accelerate your sales](/ai/sales/sales-accelerator-intro)
+    - [Prioritize your sales pipeline through the work list](/ai/sales/prioritize-sales-pipeline-through-work-list)
+    - [Manage sequences](/ai/sales/create-manage-sequences) 
+- [Nurture your sales from lead to order](nurture-sales-from-lead-order-sales.md)
+    - [Manage your pipeline using deal manager](deal-manager-seller-overview.md)
+    - [Create an opportunity](create-edit-opportunity-sales.md)
+- [Project your revenue](project-accurate-revenue-sales-forecasting.md)
+    - [Configure forecasting](configure-forecast.md)
+    - [View a forecast](view-forecasts.md)
 
 ## Additional resources
 
