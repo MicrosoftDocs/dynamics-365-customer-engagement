@@ -1,14 +1,14 @@
 ---
-title: "Use Markdown format in custom messaging channels | MicrosoftDocs"
-description: "Use this topic to understand how Markdown formatting is passed through in custom messaging channels in Omnichannel for Customer Service."
+title: "Use Markdown format to send and receive messages: Direct Line | MicrosoftDocs"
+description: "Use this topic to understand how Markdown formatting is passed through in custom messaging channel like Direct Line in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
-manager: shujoshi
+manager: shujosh7
 ms.date: 06/30/2021
 ms.topic: reference
 
 ---
-# Preview: Markdown format for custom messaging channels
+# Preview: Markdown formats to send and receive messages via Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -19,12 +19,12 @@ ms.topic: reference
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-In Omnichannel for Customer Service, you can send and receive messages that you've formatted by using Markdown across custom messaging channels. As a developer, understanding how the Markdown format is passed through and knowing the details of the format will help you update the HTML styling and tags in your own user interface.
+In Omnichannel for Customer Service, you can send and receive messages that you've formatted by using Markdown in Direct Line custom messaging channel. As a developer, understanding how the Markdown format is passed through and knowing the details of the format will help you update the HTML styling and tags in your own user interface.
 
 For example, when an agent sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you'll need to use Markdown appropriately so that the message is formatted correctly for your agents and customers.
 
 > [!NOTE]
-> To be able to use Markdown in your custom messaging channels, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
+> To be able to use Markdown in your custom messaging channels like Direct Line, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
 
 ## Markdown formats
 
@@ -33,7 +33,7 @@ The following table lists the Markdown formatting used in inbound messages recei
 |          Style            |      Inbound                        |    Outbound                           | Example   |
 | ----                      | ----------------                    | ---------------                       | --------  |
 | bold                      | \*bold\*                            | \*bold\*                              | **text**  |
-| italic                    | \_italics\_                         | \_italics\_                           | *text*    |
+| italics                   | \_italics\_                         | \_italics\_                           | *text*    |
 | strikethrough             | ~strikethrough~                     | ~strikethrough~                       | ~~text~~  |
 | heading levels 1 through 4| # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br>           | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | **Heading Text 3** <br> 
 | hyperlink                 | (https://www.microsoft.com)         | (https://www.microsoft.com)           | <https://www.microsoft.com>|
