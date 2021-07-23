@@ -1,6 +1,6 @@
 ---
-title: "Use Markdown format for messaging&mdash;Direct Line | MicrosoftDocs"
-description: "Use this topic to understand how Markdown formatting is passed through in custom messaging channel like Direct Line in Omnichannel for Customer Service."
+title: "Use Markdown to format messages&mdash;Direct Line | MicrosoftDocs"
+description: "Use this topic to understand how Markdown formats are passed through in custom messaging channels like Direct Line in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujosh7
@@ -28,7 +28,7 @@ For example, when an agent sends (*outbound*) a message formatted with Markdown 
 
 ## Markdown formats
 
-The following table lists the Markdown formatting used in inbound messages received by the customer and outbound messages sent by the agent to the customer.
+The following table lists the Markdown formats used in inbound messages received by the customer and outbound messages sent by the agent to the customer.
 
 |          Style            |      Inbound                        |    Outbound                           | Example   |
 | ----                      | ----------------                    | ---------------                       | --------  |
@@ -39,7 +39,7 @@ The following table lists the Markdown formatting used in inbound messages recei
 | hyperlink                 | (https://www.microsoft.com)         | (https://www.microsoft.com)           | <https://www.microsoft.com>|
 | hyperlink with text       | [link](https://www.microsoft.com  ) | [link](https://www.microsoft.com)     | <https://www.microsoft.com>|
 | monospace                 | \`\`\`\ntext\n\`\`\`                | \`\`\`\ntext\n\`\`\`                  | ```text` ``                |
-| numbered list             |  <number> item one                  | <number> item one                     |  1. item one <br> 2. item two   |
+| numbered list             |  <number> item one                  | <number> item one                     |  1. item one <br> 2. item two  |
 | unordered list            | \* item one <br> OR <br> - item one | \* item one <br> OR <br> - item one   |  \* item one <br> \* item two  |
 
 For inbound messages, set the Markdown text to the Activity object's `Text` property. More information: [Process inbound activities](bring-your-own-channel.md#process-inbound-activities)
