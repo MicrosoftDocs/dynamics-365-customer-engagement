@@ -1,10 +1,10 @@
 ---
-title: "Virtual entity walkthrough using the OData Data Provider | MicrosoftDocs"
+title: "Virtual entity walkthrough using the OData Data Provider with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to use the OData v4 data provider with a virtual entity"
 ms.custom: 
-ms.date: 01/14/2019
+ms.date: 05/03/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,6 +20,13 @@ search.audienceType:
   - customizer
 ---
 # Virtual entity walkthrough using the OData v4 Data Provider
+
+::: moniker range="op-9-1"
+Imagine that you want to access, create, update, and delete some personal information about a contact from an external data source within your custom business app. Because the data source used for this walkthrough has an OData v4 web service, you can use the OData v4 Data Provider included with your version of Dynamics 365 Customer Engagement. More information: [Virtual table walkthrough using the OData v4 Data Provider](/powerapps/maker/data-platform/virtual-entity-walkthrough-using-odata-provider)
+
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Virtual table walkthrough](/powerapps/maker/data-platform/virtual-entity-walkthrough-using-odata-provider)
 
@@ -46,7 +53,7 @@ For this walkthrough, a single virtual entity that contains the following three 
 
 The OData metadata of the external data source Ticket entity as viewed from a web browser.
 
-![Ticket entity medadata](media/ticket-entity-metadata.png)
+![Ticket entity medadata.](media/ticket-entity-metadata.png)
 
 ## Create the Data Source
 
@@ -88,7 +95,7 @@ On the **Entity: New** form, select the **Virtual Entity** option, and then ente
 
 Next to **Areas that display this entity**, select **Service**, and then select **Save** (but don’t close the entity form).
 
-![Ticket entity definition](media/ticket-entity.png)
+![Ticket entity definition.](media/ticket-entity.png)
 
 ## Create the fields for the virtual entity
 
@@ -103,7 +110,7 @@ Open the **new_ticketid** field, and change the following attribute with the val
 
 External Name: TicketID
 
-![TicketID field](media/ticketid-field.png)
+![TicketID field.](media/ticketid-field.png)
 
 Select **Save and Close**.
 
@@ -112,7 +119,7 @@ Open the **new_name** field, and change the following attributes to have the val
 - Display Name: Title
 - External Name: Title
 
-![Title field](media/title-field.png)
+![Title field.](media/title-field.png)
 
 Select **Save and Close**.
 
@@ -126,7 +133,7 @@ Select **New**, and on the **Field: New for Ticket** page enter the following in
 - Minimum Value: 0
 - Maximum Value: 4
 
-![Severity field](media/severity-field.png)
+![Severity field.](media/severity-field.png)
 
 Select **Save and Close**.
 
@@ -136,7 +143,7 @@ On the Ticket entity window, select **Forms**.
 
 Open the main form, drag and drop the **Severity** field from the right pane onto the form in the **General** section under the **Title** field. 
 
-![Severity field added to main form](media/drop-severity-field.png)
+![Severity field added to main form.](media/drop-severity-field.png)
 
 On the Ticket entity window select **Save and Close**.
 
@@ -148,7 +155,7 @@ Open the **All Tickets** view.
 
 In the **Common Tasks** pane select **Add Columns**.
 
-![Add columns for view](media/addcolumns.png)
+![Add columns for view.](media/addcolumns.png)
 
 Select **Severity**, and then select **OK**.
 
@@ -156,7 +163,7 @@ On the **View: All Tickets** window select **Save and Close**.
 
 On the Solution Explorer window select **Publish All Customizations**.
 
-![Publish all customizations](media/publishall.png)
+![Publish all customizations.](media/publishall.png)
 
 After all customizations are published, close the Solution Explorer window.
 
@@ -164,17 +171,19 @@ After all customizations are published, close the Solution Explorer window.
 
 Go to **Service** > **Extensions** > **Tickets**.
 
-![Ticket area](media/ticket-area.png)
+![Ticket area.](media/ticket-area.png)
 
 The **All Tickets** view displays. Notice that you may need to refresh your browser to view the entity from the **Service** area.
 
-![All Tickets view](media/all-tickets-view.png)
+![All Tickets view.](media/all-tickets-view.png)
 
 Open a **Ticket** record to view the form that includes the **Title** and **Severity** fields for the given record.
 
-![Ticket record](media/ticket-record.png)
+![Ticket record.](media/ticket-record.png)
 
-### See also
+::: moniker-end
+
+### See also 
 
 [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
 

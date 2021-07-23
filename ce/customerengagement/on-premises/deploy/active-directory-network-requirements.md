@@ -2,7 +2,7 @@
 title: "Active Directory and network requirements for Microsoft Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,9 +17,6 @@ ms.author: matp
 manager: kvivek
 ---
 # Active Directory and network requirements for Microsoft Dynamics 365 Customer Engagement (on-premises)
-
-
-
 
 [!INCLUDE[pn_Active_Directory_Domain_Services](../includes/pn-active-directory-domain-services.md)] is a feature of the [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] operating system. AD DS provides a directory and security structure for network applications such as [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   

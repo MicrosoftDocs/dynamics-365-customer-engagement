@@ -1,12 +1,11 @@
 ---
 title: "Add a web resource for real-time translation| Microsoft Docs"
 description: "Read how you can add a web resource for real-time translation"
+ms.date: 09/18/2020
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/18/2020
-ms.topic: reference
-ms.service: "dynamics-365-customerservice"
 ---
 # Add a web resource for real-time translation
 
@@ -40,7 +39,7 @@ Perform the following steps to upload the web resource file for real-time transl
 6. In the site map of Omnichannel Administration, select **Real Time Translation**.
 7. In the **Web resource URL** field, paste the link that you had copied, and save the changes.
 
-   ![Add a web resource](media/real-time-translation-web-resource.png "Add a web resource")
+   ![Add a web resource.](media/real-time-translation-web-resource.png "Add a web resource")
 8. Select **Save**.
 
 ### See also

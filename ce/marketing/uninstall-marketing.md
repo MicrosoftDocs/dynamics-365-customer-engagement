@@ -43,7 +43,7 @@ To run the uninstall wizard:
 1. [Run the Marketing setup wizard](re-run-setup.md) for the instance where you want to uninstall the Marketing application. Make sure the correct instance is listed.
 
     > [!div class="mx-imgBorder"]
-    > ![Setup wizard for an existing instance with portal integration](media/fre-re-run3.png)
+    > ![Setup wizard for an existing instance with portal integration.](media/fre-re-run3.png)
 
 1. From the **Other actions** panel, choose **Uninstall Marketing from this org**.
 
@@ -59,8 +59,8 @@ Portals are optional, so you might not have one connected to your Marketing inst
 
 To reset a portal:
 
-1. Follow the instructions provided in [Reset a portal](../portals/reset-portal.md).
-1. Portal reset leaves behind its website bindings, which may prevent you from reusing your portal name. Therefore, you should always delete all website bindings that are related to the portals used by your uninstalled Marketing instance. More information: [Create and manage website bindings](../portals/website-bindings.md)
+1. Follow the instructions provided in [Reset a portal](/powerapps/maker/portals/admin/reset-portal).
+1. Portal reset leaves behind its website bindings, which may prevent you from reusing your portal name. Therefore, you should always delete all website bindings that are related to the portals used by your uninstalled Marketing instance. More information: [Create and manage website bindings](/powerapps/maker/portals/configure/website-bindings)
 
 ### See also
 

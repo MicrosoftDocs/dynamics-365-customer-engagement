@@ -26,7 +26,7 @@ Like many entities in Dynamics 365 Marketing, segments support templates, each o
 
 Each time you create a new segment, the **Segment templates** dialog box opens, showing a list of available templates. Each template provides a fully or partially defined query designed for a particular purpose, as indicated by the template name. Select any template to read more information about it in the information panel. **Filter** and **Search** features are provided to help you find the template you're looking for. Select a listed template and then choose **Select** to load the that template, or choose **Cancel** to start [building a new segment from scratch](segmentation-lists-subscriptions.md).
 
-![Choose a segment template](media/segment-choose-template.png "Choose a segment template")
+![Choose a segment template.](media/segment-choose-template.png "Choose a segment template")
 
 Segment templates can sometimes include "parametrized" rows, in which a row provides help text instead of a value. This helps make each template flexible enough to use in multiple situations. If you see these, be sure to replace the help text with the value you'd like to define for your current segment.
 
@@ -73,15 +73,15 @@ To include one or more parameterized rows in a segment template:
 
 1. For any row that you want to parameterize, mark the checkbox at the end of the row. Then open the **More options** menu for that row, which looks like an ellipsis (...), and select **Make template**.
 
-    ![Use the More-options menu to parameterize a row](media/segment-template-parameter.png "Use the More-options menu to parameterize a row")
+    ![Use the More-options menu to parameterize a row.](media/segment-template-parameter.png "Use the More-options menu to parameterize a row")
 
 1. The value field for your selected row turns into a parametrized value. Enter some help text here so users will know what kind of value to enter when they create a segment based on this template. Note also that the parameterized value now shows a template icon.
 
-    ![The row is now parameterized](media/segment-template-parameter-2.png "The row is now parameterized")
+    ![The row is now parameterized.](media/segment-template-parameter-2.png "The row is now parameterized")
 
 1. Repeat these steps until you've configured all rows as needed. (If you need to de-parametrize a row, open the **More options** menu for that row, which looks like an ellipsis (...), and select **Make clause**)
 
-    ![A template with three parameterized rows](media/segment-template-parameter-3.png "A template with three parameterized rows")
+    ![A template with three parameterized rows.](media/segment-template-parameter-3.png "A template with three parameterized rows")
 
 1. Select **Save** in the bottom corner to save your work.
 
@@ -95,7 +95,7 @@ As with other types of templates in Dynamics 365 Marketing, segment templates su
 [Design dynamic demographic or firmographic segments](segments-profile.md)  
 [Design behavioral segments](segments-interaction.md)  
 [Design static segments](segments-static.md)  
-[Combine segments into a compound segment (combined audiences)](segments-compound.md)
+[Combine segments into a compound segment (combined audiences)](./segmentation-lists-subscriptions.md)
 
 
 

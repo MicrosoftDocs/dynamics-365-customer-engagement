@@ -3,7 +3,7 @@ title: "View or download developer resources | MicrosoftDocs"
 description: "Find developer resources and service enpoint URLs"
 keywords: 
 ms.date: 01/11/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -39,7 +39,7 @@ This page is designed for developers who want to link to the Dynamics 365 Custom
   
  **Developer Guide** 
 
- The [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-guide) contains a wealth of information to help developers. Here you will find the SDK, which includes documentation, samples, and tools, as well as technical articles, ramp-up kits, videos, blogs, and more. 
+ The [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customer-engagement/developer/developer-guide) contains a wealth of information to help developers. Here you will find the SDK, which includes documentation, samples, and tools, as well as technical articles, ramp-up kits, videos, blogs, and more. 
  
 For more information about using each item on the developer resources page, see [Download the endpoints using the Dynamics 365 Customer Engagement (on-premises) Developer resources page](../developer/developer-resources-page.md).   
   

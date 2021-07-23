@@ -1,20 +1,19 @@
 ---
-title: "Unified Service Desk  Base package | MicrosoftDocs"
-description: "Overview of the base sample application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Unified Service Desk Base package | MicrosoftDocs"
+description: "Learn about the Base sample application that's part of Unified Service Desk, its components, and how you can use it."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Base sample application package
 
@@ -52,7 +51,7 @@ search.app:
   
 8. **Notes**: This is the area to take notes in regarding the case.  
   
-   ![Unified Service Desk Base package components](../../unified-service-desk/media/unifiedservicedeskbasepackage.png "Unified Service Desk Base package components")  
+   ![Unified Service Desk Base package components.](../../unified-service-desk/media/unifiedservicedeskbasepackage.png "Unified Service Desk Base package components")  
   
 ## View active cases  
  From the toolbar, click **My Work** to see all of your active cases, and then select a case to work on. When you open a case, a new session opens.  

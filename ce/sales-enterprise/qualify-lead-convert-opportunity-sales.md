@@ -2,13 +2,11 @@
 title: "Qualify or convert leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 ms.date: 02/10/2021
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-lead
   - D365-UI-*
@@ -28,7 +26,7 @@ Your system administrator defines what happens to a lead when it is qualified:
 
 ## Qualify a lead (Sales Hub)
 
-1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Leads**.
+1. Select the site map ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Leads**.
 
 2. In the list of leads, open the lead you want to qualify.
 
@@ -38,7 +36,7 @@ Your system administrator defines what happens to a lead when it is qualified:
 
 5. If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and then select **OK**.
 
-      ![Select which records to create in the Qualify lead dialog box](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
+      ![Select which records to create in the Qualify lead dialog box.](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
 
 If you don't see a prompt, qualifying a lead will automatically create an account, contact, and opportunity record. 
 
@@ -59,7 +57,7 @@ For information on how to resolve the common errors that you may get while you q
 
 When qualifying a lead, if a duplicate account or contact is detected while creating new records, a duplicate warning is shown to you. Depending on whether your system administrator has enabled the improved duplicate detection and merge experience, you will see the options to resolve duplicates.
 
-For information on enabling the improved duplicate detection and merge experience, see [Enable the improved duplicate detection and merge experience](https://go.microsoft.com/fwlink/p/?linkid=2148601).
+For information on enabling the improved duplicate detection and merge experience, see [Enable the improved duplicate detection and merge experience](/power-platform/admin/enable-improved-duplicate-detection).
 
 ### Duplicate detection when improved duplicate detection and merge experience is disabled
 
@@ -96,7 +94,7 @@ When salespeople work on a lead, they use notes to store key information on the 
   
 ### See also  
 [Define lead qualification experience](define-lead-qualification-experience.md)  
-[Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)          
+[Print leads, quotes, and other records](../customerengagement/on-premises/basics/print-leads-quotes-other-records.md)          
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  

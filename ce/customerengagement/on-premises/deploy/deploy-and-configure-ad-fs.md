@@ -2,7 +2,7 @@
 title: "Deploy and configure AD FS | Microsoft Docs"
 ms.custom: ""
 ms.date: 12/09/2016
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -28,7 +28,7 @@ A variety of identity providers can be used with [!INCLUDE[pn_microsoftcrm_serve
 >  This does not apply to [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] as [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] in [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] does not depend on IIS.  
   
 ## Deploy a federation server  
- For information on deploying an [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server, see [AD FS Deployment](https://go.microsoft.com/fwlink/p/?LinkID=390135).  
+ For information on deploying an [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server, see [AD FS Deployment](/windows-server/identity/ad-fs/deployment/ad-fs-deployment-guide).  
   
 ## Configure AD FS for Windows Server 2012 R2  
  To configure [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] as a stand-alone federation server for [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] claims authentication, do the following:  
@@ -46,13 +46,13 @@ A variety of identity providers can be used with [!INCLUDE[pn_microsoftcrm_serve
     >   
     >  If you install [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] and [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] on the same server, do not use the same URL for the Federation Service name and internal claims access to [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. For example, if you use sts1.contoso.com for the Federation Service name, do not use https://sts1.contoso.com for internal [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data access.  
   
-     ![AD FS: Specify Service Properties](media/crm-itpro-claimswp-adfs12r2.png "AD FS: Specify Service Properties")  
+     ![AD FS: Specify Service Properties.](media/crm-itpro-claimswp-adfs12r2.png "AD FS: Specify Service Properties")  
   
 5.  Proceed through and complete the **Active Directory Federation Services Configuration Wizard**. Close the **Add Roles and Features Wizard**.  
   
 6.  If you have not created a host record in DNS for the federation server name you specified in Step 4 previously, do so now.  
   
- For more information, see [Configure a Federation Server](https://technet.microsoft.com/library/dn486807.aspx).  
+ For more information, see [Configure a Federation Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn486807(v=ws.11)).  
   
 ## Verifying AD FS installation  
  Use the following steps to verify the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] installation:  
@@ -65,7 +65,7 @@ A variety of identity providers can be used with [!INCLUDE[pn_microsoftcrm_serve
   
 3.  Verify that no certificate-related warnings appear. If necessary, check your certificate and DNS settings.  
   
- ![URL of federation metadata](media/crm-itpro-claimswp-adfsxml.png "URL of federation metadata")  
+ ![URL of federation metadata.](media/crm-itpro-claimswp-adfsxml.png "URL of federation metadata")  
   
 ## See Also  
  [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md)

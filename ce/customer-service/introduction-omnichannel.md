@@ -1,12 +1,12 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
-description: 
+description: Learn about Omnichannel for Customer Service, the features that are offered, and how they can be configured in your organization.
+ms.date: 06/18/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/18/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
+ms.custom: intro-internal
 ---
 # Introduction to Omnichannel for Customer Service
 
@@ -54,8 +54,8 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Configure an SMS channel](configure-sms-channel.md)  
 [Configure a Facebook channel](configure-facebook-channel.md)  
 [Quickly configure a chat widget](configure-live-chat.md)  
-[Understand unified routing and work distribution](unified-routing-work-distribution.md)  
-[Administrators guide](omnichannel-administrator.md)  
+[Understand routing](overview-unified-routing.md)  
+[Omnichannel admin center](oc-admin-center.md)  
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
 [System customizers guide](omnichannel-customizer.md)  

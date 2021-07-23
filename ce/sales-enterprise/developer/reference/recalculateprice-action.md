@@ -1,15 +1,13 @@
 ---
-title: "RecalculatePrice Action (Developer Guide for Dynamics 365 Sales) | MicrosoftDocs"
-description: 
+title: "RecalculatePrice Action - Developer Guide - Sales Enterprise | MicrosoftDocs"
+description: "Programmatically trigger the out-of-the-box price calculation for Opportunity, Quote, Sales Order or Invoice entities."
 ms.date: 04/25/2019
-ms.service: 
-  - dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ---
 
 # RecalculatePrice Action

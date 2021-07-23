@@ -1,22 +1,21 @@
 ---
-title: "JAccTree Tag in Unified Service Desk | MicrosoftDocs"
-description: "The topic describes the elements of <JAccTree>."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "JAccTree tag in Unified Service Desk | MicrosoftDocs"
+description: "Understand how the JAccTree tag works in Unified Service Desk. Also, find a code snippet that shows how to use the tag."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
-# JAccTree Tag in Unified Service Desk
+# JAccTree tag in Unified Service Desk
 The `JAccTree` associates a named control to the Java accessibility tree element that is specified in the search path. This topic describes the elements of `<JAccTree>`  
   
 ## \<JAccTree> syntax  

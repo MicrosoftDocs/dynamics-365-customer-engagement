@@ -2,7 +2,7 @@
 title: "Enable a custom entity to appear in the Regarding lookup in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Enable activities to use Set Regarding lookup in App for Outlook.
-ms.date: 02/17/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -30,7 +30,7 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 
 
    > [!div class="mx-imgBorder"]
-   >![Set regaring lookup](media/set-regarding-lookup.png "Set regarding lookup")
+   >![Set regaring lookup.](media/set-regarding-lookup.png "Set regarding lookup")
 
 
 ## Enable activities for a table
@@ -41,7 +41,7 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 2. On the left nav, select **Data** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
-   >![Go to Tables in maker portal](media/maker-data-tables.png "Go to Tables in maker portal")
+   >![Go to Tables in maker portal.](media/maker-data-tables.png "Go to Tables in maker portal")
    
   
 3. Select a table.
@@ -49,24 +49,41 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 4. On the command bar, select **Settings**. 
 
    > [!div class="mx-imgBorder"]
-   >![Select settings](media/maker-row-settings.png "Select setting")
+   >![Select settings.](media/maker-row-settings.png "Select setting")
 
-5. Expand **Collaboration**, and select **Enable for activities** and then choose **Done**. 
-
+5. Expand **More settings** > **Collaboration**, and select the checkbox for **Enable for activities**.
+6. 
    > [!div class="mx-imgBorder"]
-   >![Communication and collaboration activity enabled](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
+   >![Communication and collaboration activity enabled.](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
    
   > [!IMPORTANT]
   > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
    
-6.  Select **Save Table** > and then publish the table.
+6.  Select **Done** and then **Save Table**.
+
+
+## Verify the table is added to the app designer
+
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+2. On the left navigation pane, select **Apps**.
+3. From the list of apps select **Dynamics 365 App for Outlook** and then select **Edit**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Dynamics 365 App for Outlook and then select edit.](media/edit-apps-outlook.png)
+
+4. In the app designer, choose table and browse to find your custom table.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select and add the custom table.](media/app-designer-add-table.png)
+
+5. Select **Save** and then **Publish** the app.
 
 
 
 ## See also
 
-[Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
+[Filter entities and views that appear in Dynamics 365 App for Outlook](/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-

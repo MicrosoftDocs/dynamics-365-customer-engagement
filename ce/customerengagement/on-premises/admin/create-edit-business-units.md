@@ -1,9 +1,10 @@
 ---
 title: "Create or edit business units  | MicrosoftDocs"
+description: "In Dynamics 365 Customer Engagement (on-premises), a business unit is a logical grouping of related business activities."
 ms.custom: 
 ms.date: 10/02/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ author: jimholtz
 ms.assetid: 0a7ad0db-887f-4139-b3d1-8f18a84b10d2
 caps.latest.revision: 14
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Create or edit business units to improve security and control
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 In Dynamics 365 Customer Engagement (on-premises), a business unit is a logical grouping of related business activities.  
   
@@ -51,9 +54,9 @@ In Dynamics 365 Customer Engagement (on-premises), a business unit is a logical 
   
 4. In the **Business Unit** dialog box, type a name for the new business unit. Customer Engagement (on-premises) automatically fills in the **Parent Business** field with the name of the root business unit.  
   
-   ![Business Unit dialog box in Dynamics 365 for Customer Engagement](../admin/media/business-unit-dialog-box.png "Business Unit dialog box in Dynamics 365 for Customer Engagement")  
+   ![Business Unit dialog box in Dynamics 365 for Customer Engagement.](../admin/media/business-unit-dialog-box.png "Business Unit dialog box in Dynamics 365 for Customer Engagement")  
   
-5. If you want to change the parent business unit, select the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button"), **Look Up More Records**, and then do one of the following:  
+5. If you want to change the parent business unit, select the **Lookup** button ![Lookup button.](../admin/media/lookup-4.gif "Lookup button"), **Look Up More Records**, and then do one of the following:  
   
    -   Select an existing business unit from the list.  
   
@@ -100,7 +103,7 @@ In Dynamics 365 Customer Engagement (on-premises), a business unit is a logical 
   
 4. In the **Facility/Equipment** dialog box, on the **Actions** menu, choose **Change Business Unit**.  
   
-5. In the **Change Business Unit** dialog box, use the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button") to select a new business unit, and then select **OK**.  
+5. In the **Change Business Unit** dialog box, use the **Lookup** button ![Lookup button.](../admin/media/lookup-4.gif "Lookup button") to select a new business unit, and then select **OK**.  
   
 6. Select **Save and Close**.  
 
@@ -117,7 +120,7 @@ In Dynamics 365 Customer Engagement (on-premises), a business unit is a logical 
   
 4. On the **More Commands** (**…**) menu, select **Change Business Unit**.  
   
-5. In the **Change Business Unit** dialog box, use the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button") to select a new business unit, and then select **OK**.  
+5. In the **Change Business Unit** dialog box, use the **Lookup** button ![Lookup button.](../admin/media/lookup-4.gif "Lookup button") to select a new business unit, and then select **OK**.  
   
 ### See also  
  [Set up an organization](../admin/set-up-a-dynamics-365-organization.md)   

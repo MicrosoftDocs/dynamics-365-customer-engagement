@@ -4,7 +4,7 @@ description: "Learn about creating campaign activites, use the marketing lists t
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: peheckenabuthuk
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

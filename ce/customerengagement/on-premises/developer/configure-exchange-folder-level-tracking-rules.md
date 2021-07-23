@@ -4,7 +4,7 @@ description: "Learn how to configure Exchange folder-level tracking rules"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -34,7 +34,7 @@ Configure folder-level tracking rules to map a [!INCLUDE[pn_Microsoft_Exchange](
 
 |                                   Attribute                                   |                                                                                                                                                                                                                Description                                                                                                                                                                                                                 |
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  [ExchangeFolderId](entities/mailboxtrackingfolder.md#BKMK_ExchangeFolderId)  | Specify the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder ID that you want to map. You can use the [!INCLUDE[pn_Exchange_Web_Services_EWS](../includes/pn-exchange-web-services-ews.md)] to retrieve the ID of a folder under your Inbox folder. For more information, see [MSDN: How to: Work with folders by using EWS in Exchange](https://msdn.microsoft.com/library/office/dn535504.aspx). This is a required attribute. |
+|  [ExchangeFolderId](entities/mailboxtrackingfolder.md#BKMK_ExchangeFolderId)  | Specify the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder ID that you want to map. You can use the [!INCLUDE[pn_Exchange_Web_Services_EWS](../includes/pn-exchange-web-services-ews.md)] to retrieve the ID of a folder under your Inbox folder. For more information, see [MSDN: How to: Work with folders by using EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-work-with-folders-by-using-ews-in-exchange). This is a required attribute. |
 |         [MailboxId](entities/mailboxtrackingfolder.md#BKMK_MailboxId)         |                                                                                                                                         Specify the mailbox ID in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that you want to create the rule for. This is a required attribute.                                                                                                                                          |
 | [RegardingObjectId](entities/mailboxtrackingfolder.md#BKMK_RegardingObjectId) |                                                                                                       Set the regarding object in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that you want the specified [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder to be mapped to. This is an optional attribute.                                                                                                       |
 

@@ -2,15 +2,13 @@
 title: "Develop sales from lead to cash in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use the sales process in Dynamics 365 Sales Professional to close more deals and improve customer satisfaction."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-lead
   - D365-Entity-opportunity
@@ -27,7 +25,7 @@ You also end up with a more complete history that you can refer to later, if you
 
 Your sales process begins with a lead—someone who is interested in the products or services you provide. Your leads might be automatically generated or they might come from other sources, such as website opt-in pages, email queries, or business cards that you gather at trade shows.
 
-![Steps in a lead-to-cash process](media/lead-to-cash-process.png "Steps in a lead-to-cash process")
+![Steps in a lead-to-cash process.](media/lead-to-cash-process.png "Steps in a lead-to-cash process")
 
 
 ### See also

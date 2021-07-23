@@ -2,7 +2,7 @@
 title: "Hardware requirements | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -46,7 +46,7 @@ Depending on how you plan to deploy the system, as a single-server solution, a m
 ## See also  
  [Dynamics 365 for Outlook hardware requirements](../../../outlook-addin/admin-guide/hardware-requirements.md)   </br>
  [Phone and tablet support](../../../mobile-app/support-phones-tablets.md)   </br>
- [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md) </br>
+ [User Guide (Dynamics 365 for phones and tablets)](../basics/dynamics-365-phones-tablets-users-guide-onprem.md) </br>
  [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md)
 
 

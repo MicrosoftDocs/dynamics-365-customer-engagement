@@ -1,12 +1,11 @@
 ---
 title: "notifyNewActivity (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -16,7 +15,7 @@ ms.custom:
 
 This method is used to indicate the number of new activities in a session that is currently not in focus. The indicator is automatically removed when the user switches to the session. 
 
-![Notify new activity](../../../media/notifyNewActivity.PNG "Notify new activity")
+![Notify new activity.](../../../media/notifyNewActivity.PNG "Notify new activity")
 <br>
 
 > [!NOTE]

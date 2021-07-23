@@ -1,27 +1,26 @@
 ---
-title: "Call center challenges and how Unified Service Desk can help | MicrosoftDocs"
-description: "Understand how Unified Service Desk can help your service agents."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Handle call center challenges with Unified Service Desk | MicrosoftDocs"
+description: "Learn about the call center industry and its challenges, and how Unified Service Desk can help you and your service agents address those challenges."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
-# Call center industry concerns
+# How Unified Service Desk helps address the challenges faced by call centers
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)], it’s important to have an overview of the call center industry and its challenges, and how [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps address these challenges.  
+This topic discusses the call center industry and its challenges, and how [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you and your service agents address those challenges.  
   
 <a name="Challenges"></a>   
 ## Call center challenges  

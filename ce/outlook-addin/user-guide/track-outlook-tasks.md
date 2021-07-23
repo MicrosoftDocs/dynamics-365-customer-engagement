@@ -45,7 +45,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 2. In the **Task** dialog box, if it’s a new task, enter a subject in the **Subject** box. If it’s an existing task, the **Subject** box will already be filled out.  
   
-    ![Track Tasks dialog box in Dynamics 365 apps](../media/track-task-dialog.png "Track Tasks dialog box in Dynamics 365 apps")  
+    ![Track Tasks dialog box in Dynamics 365 apps.](../media/track-task-dialog.png "Track Tasks dialog box in Dynamics 365 apps")  
   
 3. If you haven’t already done so, fill out other fields such as **Start date**, **Due date**, and **Priority**.  
   
@@ -67,17 +67,17 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
 
    - To track the task and link it to a particular [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record (for example, a specific opportunity or case), on the **Task** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Set Regarding**, click **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, click **Add**.
 
-      When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the task record. This pane shows that the record is tracked and provides links to related records. If you set a Regarding value, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the Regarding record. [Tell me more about how tracking works.](https://go.microsoft.com/fwlink/p/?LinkID=510100)
+      When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the task record. This pane shows that the record is tracked and provides links to related records. If you set a Regarding value, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the Regarding record. [Tell me more about how tracking works.](../../customerengagement/on-premises/basics/basics-guide.md)
 
 6. To save the task, click the down arrow on the **Actions** button, and then click **Save & Close**.
 
-    [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] adds the **People** symbol ![People icon that indicates tracked item](../media/people--button.png "People icon that indicates tracked item") to the task to show that it’s tracked.
+    [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] adds the **People** symbol ![People icon that indicates tracked item.](../media/people--button.png "People icon that indicates tracked item") to the task to show that it’s tracked.
 
    > [!NOTE]
    >  If you want to stop tracking a task, open the task record, and then on the **Task** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Untrack**. It’s best to untrack items one at a time.
 
 ## Assigning tasks
- If you’re using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or later, you can also track assigned tasks if your administrator has enabled this capability. [Learn more about enabling tracking of assigned tasks](https://go.microsoft.com/fwlink/p/?LinkID=512487)
+ If you’re using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or later, you can also track assigned tasks if your administrator has enabled this capability. [Learn more about enabling tracking of assigned tasks](./system-settings-dialog-box-synchronization-tab.md)
 
  To track a task, you must be the owner of the task. You own a task that you create until you assign it to someone else. After you assign the task, the person you assign it to owns the task. When a task is tracked, the task owner can work on the task in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. The person who assigns the task can follow the progress of the task in either tool.
 
@@ -96,11 +96,11 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 2.  On the **Task** tab, in the **Manage Task** group, click **Assign Task**.  
   
-     ![Location of Assign Task button in Dynamics 365 apps](../media/assign-task-button.png "Location of Assign Task button in Dynamics 365 apps")  
+     ![Location of Assign Task button in Dynamics 365 apps.](../media/assign-task-button.png "Location of Assign Task button in Dynamics 365 apps")  
   
 3.  In the **Task** dialog box, in the **To** box, enter the name or email address of the person you want to assign the task to. To select from a list, click the **To** button.  
   
-     ![Assign Task dialog box in Dynamics 365 apps](../media/assign-task-dialog.png "Assign Task dialog box in Dynamics 365 apps")  
+     ![Assign Task dialog box in Dynamics 365 apps.](../media/assign-task-dialog.png "Assign Task dialog box in Dynamics 365 apps")  
   
     > [!NOTE]
     >  You can’t track tasks assigned to more than one person.
@@ -157,7 +157,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 -   To follow the progress of tasks you assign, select either or both of the following check boxes when you assign the task:  
   
-     ![Assign Task check boxes in Dynamics 365 apps](../media/assign-task-checkbox.png "Assign Task check boxes in Dynamics 365 apps")  
+     ![Assign Task check boxes in Dynamics 365 apps.](../media/assign-task-checkbox.png "Assign Task check boxes in Dynamics 365 apps")  
   
 -   To view tasks that you have assigned to others:  
   

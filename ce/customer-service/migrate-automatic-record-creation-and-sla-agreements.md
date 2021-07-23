@@ -1,20 +1,19 @@
 ---
 title: Migrate automatic record creation rules and service-level agreements | MicrosoftDocs
 description: 
+ms.date: 10/05/2020
+ms.topic: article
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - migration
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -57,7 +56,7 @@ To learn about how to create rules in the Customer Service Hub app, see [Automat
 ## How the migration process works
 
 The migration progress is indicated on the page as follows; the colored circle indicates the migration stage.
-> ![Migration stages](media/migration-stages.png "Migration stages")
+> ![Migration stages.](media/migration-stages.png "Migration stages")
 
 1. **Category to migrate:** Allows you to pick and choose the rules you want to migrate.
 
@@ -79,13 +78,13 @@ You can access the migration tool using the following steps:
 
 2. Under **Data Management**, select **ARC & SLA Migration Tool (Preview)**.
 
-> ![Access Migration Tool](media/migration-tool-access-location.png "Migration tool access locations")
+> ![Access Migration Tool.](media/migration-tool-access-location.png "Migration tool access locations")
   
 ## Migration Summary
 
 When you select **ARC & SLA Migration** in the left pane, the **Summary** page is displayed as follows.
 
-> ![Migration summary page](media/migration-summary-page.png  "Migration summary page")
+> ![Migration summary page.](media/migration-summary-page.png  "Migration summary page")
 
 The annotations are explained as follows.
 
@@ -108,7 +107,7 @@ You can migrate both the automatic record creation rules and SLA items together 
 
 When you select **Start migration**, the **Step 1** page is displayed. Select the categories that you want to migrate.
 
-![Migration tool for first-time user - Step 1 - Next button](media/migration-tool-step-1-first-time-users-2.png "Migration tool for first-time user - Step 1 - Next button")
+![Migration tool for first-time user - Step 1 - Next button.](media/migration-tool-step-1-first-time-users-2.png "Migration tool for first-time user - Step 1 - Next button")
 
 The annotations are explained as follows.
 
@@ -127,7 +126,7 @@ The check can be done on automatic record creation rules and or SLAs, depending 
 
 When you run the migration process for the first time, you won't have any insights until you complete the premigration checkup. After the premigration check is complete, the following overview is displayed.
 
-![Migration tool - Step 2](media/migration-tool-step-2-first-time-users-1.png "Migration Tool - Step 2")
+![Migration tool - Step 2.](media/migration-tool-step-2-first-time-users-1.png "Migration Tool - Step 2")
 
 |Label|Description|
 |-------|-------|
@@ -147,7 +146,7 @@ The rules and items that fail the premigration check can still be migrated; howe
 
 In this section, the Step 3.1 page that appears for the rules that you select for migration is shown as an example.
 
-![Rules and items to migrate](media/migration-tool-step-3-first-time-users-1.png "Rules and items to migrate")
+![Rules and items to migrate.](media/migration-tool-step-3-first-time-users-1.png "Rules and items to migrate")
 
 |Label|Description|
 |----|------|
@@ -164,7 +163,7 @@ When you select a rule that failed the premigration check, you have a choice of 
 
 The **Basic** view provides an overview for each individual rule that failed.
 
-![Migration tool - Basic detail screen for failed rules](media/migration-tool-step-3-basic-screen-first-time-users-1.png "Migration tool - Basic detail screen for failed rules")
+![Migration tool - Basic detail screen for failed rules.](media/migration-tool-step-3-basic-screen-first-time-users-1.png "Migration tool - Basic detail screen for failed rules")
 
 |Label|Description|
 |---|--------|
@@ -176,7 +175,7 @@ The **Basic** view provides an overview for each individual rule that failed.
 
 The **Advanced** view provides the problem details on rules that failed.
 
-![Migration tool - Advanced detail screen for failed rules](media/migration-tool-step-3-advanced-screen-first-time-users-1.png "Migration tool - Advanced detail screen for failed rules")
+![Migration tool - Advanced detail screen for failed rules.](media/migration-tool-step-3-advanced-screen-first-time-users-1.png "Migration tool - Advanced detail screen for failed rules")
 
 |Label|Description|
 |---|----|
@@ -188,7 +187,7 @@ The **Advanced** view provides the problem details on rules that failed.
 
 When you have selected the automatic record creation rules and SLA items, a list is displayed for your review.
 
-![Migration tool - Step 4](media/migration-tool-step-4-first-time-users-1.png "Migration tool - Step 4") 
+![Migration tool - Step 4.](media/migration-tool-step-4-first-time-users-1.png "Migration tool - Step 4") 
 
 |Label|Description|
 |---|----|
@@ -201,11 +200,11 @@ When you have selected the automatic record creation rules and SLA items, a list
 
 After you begin your migration, the details are displayed on the page.
 
-![Migration tool - Step 5](media/migration-tool-step-5-first-time-users-1.png "Migration tool - Step 5")
+![Migration tool - Step 5.](media/migration-tool-step-5-first-time-users-1.png "Migration tool - Step 5")
 
 The migration details are displayed after the migration is complete.
 
-![Migration tool - Step 5](media/migration-tool-step-5-first-time-users-2.png "Migration tool  - Step 5")
+![Migration tool - Step 5.](media/migration-tool-step-5-first-time-users-2.png "Migration tool  - Step 5")
 
 |Label|Description|
 |---|----|
@@ -220,7 +219,7 @@ The migration details are displayed after the migration is complete.
 
 To view ARC or SLA rules that did not successfully complete migration, you can select **Incomplete** in the **Migration status** section.  
 
-![Migration tool - Step 5 - Incomplete migration details](media/migration-tool-step-5-first-time-users-3.png "Migration tool - Step 5 - Incomplete migration details")
+![Migration tool - Step 5 - Incomplete migration details.](media/migration-tool-step-5-first-time-users-3.png "Migration tool - Step 5 - Incomplete migration details")
 
 |Label|Description|
 |---|----|
@@ -234,7 +233,7 @@ To view ARC or SLA rules that did not successfully complete migration, you can s
 
 When you've completed your first run and selected **Finish**, a migration **Summary** page is displayed.
 
-![Migration tool - Step 6](media/migration-tool-step-6-first-time-users-1.png "Migration tool - Step 6")
+![Migration tool - Step 6.](media/migration-tool-step-6-first-time-users-1.png "Migration tool - Step 6")
 
 |Label|Description|
 |---|----|
@@ -249,7 +248,7 @@ When you've completed your first run and selected **Finish**, a migration **Summ
 
 You can select the links on the migration summary page to view the automatic record creation rules or SLA items in Customer Service Hub. On the respective pages that appear, you can review and activate the migrated rules or items.
 
-![Migration tool - Activate new rules](media/migration-tool-step-6-first-time-users-2.png "Migration tool - Activate new rules")
+![Migration tool - Activate new rules.](media/migration-tool-step-6-first-time-users-2.png "Migration tool - Activate new rules")
 
 |Label|Description|
 |---|----|
@@ -260,7 +259,7 @@ You can select the links on the migration summary page to view the automatic rec
 
 Select a rule with the **\_migrated** suffix to view its details. On the **Migration details** tab, you can review the problem details and set the **Mark as complete** toggle to Yes after resolving the migration issue.
 
-![Migration tool - Step 6 - Migration status](media/migration-tool-step-6-first-time-users-3.png "Migration tool - Step 6 - Migration status")
+![Migration tool - Step 6 - Migration status.](media/migration-tool-step-6-first-time-users-3.png "Migration tool - Step 6 - Migration status")
 
 |Label|Description|
 |---|----|
@@ -274,7 +273,7 @@ Select a rule with the **\_migrated** suffix to view its details. On the **Migra
 
 A successfully migrated rule's migration status is set to migrated by default.
 
-![Migration tool - Step 6 - Migration status](media/migration-tool-step-6-first-time-users-3a.png "Migration tool - Step 6 - Migration status")
+![Migration tool - Step 6 - Migration status.](media/migration-tool-step-6-first-time-users-3a.png "Migration tool - Step 6 - Migration status")
 
 |Label|Description|
 |---|----|
@@ -288,21 +287,21 @@ If you have many rules and items to migrate and want to perform the migration in
 
 1. Select **ARC & SLA Migration tool (Preview)** in the left pane in **Service Management**. The **Summary** page displays the status of the previous migration. In the **Pending** column, the number indicates the rules and items that are pending migration. These include failed rules, partially or incomplete migrated rules, and rules that have not been attempted.
  
-    ![Rerun migration tool](media/rerun-migration.png "Rerun migration tool")
+    ![Rerun migration tool.](media/rerun-migration.png "Rerun migration tool")
 2. Select **Start migration**, and perform the steps to run the migration of the rules and items again.
 
 The steps to rerun the migration are same as when you run the migration for the first time. More information: [Migrate the automatic record creation rules and SLA items](#migrate-the-automatic-record-creation-rules-and-sla-items)
 
 In the **Premigration checkup** state, the tool reviews only those rules that were previously not migrated, partially migrated, or failed the migration. On this page, the **Total** column lists the number of rules that are available for migration.
 
-![Premigration check](media/premigration-check-rerun-migration.png "Premigration check")
+![Premigration check.](media/premigration-check-rerun-migration.png "Premigration check")
 
 ### See also
 
 [Migration tool FAQs](migrate-tool-faqs.md)  
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
 [Define service-level agreements](define-service-level-agreements.md)  
-[Important changes (deprecations) coming](https://docs.microsoft.com/power-platform/important-changes-coming)  
+[Important changes (deprecations) coming](/power-platform/important-changes-coming)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

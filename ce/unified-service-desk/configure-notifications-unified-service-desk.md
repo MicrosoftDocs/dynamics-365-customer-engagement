@@ -1,20 +1,19 @@
 ---
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
-description: "Learn about configuring notifications in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn how to configure global or session-based notifications in Unified Service Desk to display popup messages to your agents or customers."
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # How to configure notifications in Unified Service Desk
@@ -53,7 +52,7 @@ You can use default keyboard shortcuts to navigate to, shift focus to and from t
 ## Define layout and behavior of notification using forms  
  Use [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] forms to define the layout and behavior of your forms. When you define a new form record, you specify your XAML in the **Markup** field of the form record to define the layout.  
   
- ![Create a form using XAML](../unified-service-desk/media/usd-new-form.png "Create a form using XAML")  
+ ![Create a form using XAML.](../unified-service-desk/media/usd-new-form.png "Create a form using XAML")  
   
 > [!NOTE]
 >  You should have prior knowledge of [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] and XAML scripting for defining the layout and behavior of the form.  
@@ -245,7 +244,7 @@ The added custom parameter can be used in the form XAML as replacement parameter
 
  > [!Note]
  > When there are more than 5 notifications, the new notification overlays the recently shown notification.</br> For example, you see 5 notifications in stack. Now, 6th notification is incoming, then the 6th notification overlays the 5th notification. Similarly, when the 7th notification is incoming, it overlays the 6th notification.<br/>
- ![New notification replacing the recent notification in the stack](../unified-service-desk/media/stack-notification.PNG "New notification replacing the recent notification in the stack")
+ ![New notification replacing the recent notification in the stack.](../unified-service-desk/media/stack-notification.PNG "New notification replacing the recent notification in the stack")
 ::: moniker-end
 
 ::: moniker range="dynamics-usd-3"  
@@ -271,7 +270,7 @@ The added custom parameter can be used in the form XAML as replacement parameter
   
 2. Create a `Popup Notification` control, and keep it global. For example, create a control with the following name: `MaxSessionNotificationControl`.
 
-    ![Hosted control with USD Component type as Popup Notification](../unified-service-desk/media/usd-popupnotification-hosted-control.PNG "Hosted control with USD Component type as Popup Notification")
+    ![Hosted control with USD Component type as Popup Notification.](../unified-service-desk/media/usd-popupnotification-hosted-control.PNG "Hosted control with USD Component type as Popup Notification")
   
 3. Create an action call to display the notification.</br> For example, create an action call and specify the following: 
 

@@ -1,11 +1,10 @@
 ---
 title: "Use deep links with Field Service Mobile | MicrosoftDocs"
 description: Learn how to use deep links with Field Service Mobile
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 03/02/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -28,7 +27,7 @@ Consider the following scenario. While using work orders on Field Service Mobile
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of deep link example on app](./media/mobile-deeplink-work-order-fsm.png)
+> ![Screenshot of deep link example on app.](./media/mobile-deeplink-work-order-fsm.png)
 
 In this article, we'll create a work order deep link that when triggered by technicians on Field Service Mobile, will open a specific Power Apps form and pass along the work order number field value. To do this, we'll configure both Field Service Mobile and the Power App by: 
 
@@ -42,9 +41,9 @@ You can reference this [sample mobile project template](https://1drv.ms/u/s!AhAj
 
 ## Prerequisites
 
-- Field Service Mobile must be set up for technicians to sign in and view work orders. Follow the instructions in [Field Service installation (web + mobile)](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-2-download-the-field-service-mobile-app-on-a-phone-or-tablet).
+- Field Service Mobile must be set up for technicians to sign in and view work orders. Follow the instructions in [Field Service installation (web + mobile)](./install-field-service.md#step-2-download-the-field-service-mobile-app-on-a-phone-or-tablet).
 
-- This article assumes you have a Power App to deep link to. The Parts Order Power App referenced in this article is a simple, custom-built Power App that connects to a SharePoint list. If you are building a Power App for the first time, the [Power App in a day](https://aka.ms/appinaday) guide and the article on [canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started) is helpful.
+- This article assumes you have a Power App to deep link to. The Parts Order Power App referenced in this article is a simple, custom-built Power App that connects to a SharePoint list. If you are building a Power App for the first time, the [Power App in a day](https://aka.ms/appinaday) guide and the article on [canvas apps](/powerapps/maker/canvas-apps/getting-started) is helpful.
 
 
 ## 1. Create custom command
@@ -59,12 +58,12 @@ Go to the work order form where you will add a command.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of navigating to edit mobile work order form](./media/mobile-deeplink-command-navigate.png)
+> ![Screenshot of navigating to edit mobile work order form.](./media/mobile-deeplink-command-navigate.png)
 
 In the commands section, select **Edit**, then **New Command** in the window that appears.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating a command](./media/mobile-deeplink-command.png)
+> ![Screenshot of creating a command.](./media/mobile-deeplink-command.png)
 
 Enter a **Name**, which must not contain spaces. The name will be referenced in the JavaScript code. 
 
@@ -94,12 +93,12 @@ All deep links to Windows, iOS, and Android Power Apps apps begin with: **ms-app
 To find and add the unique GUID of your Power App, go to **https://make.powerapps.com/** > **Apps**, select your app, and then **Details**.
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot of navigating to Power App id](./media/mobile-deeplink-app-id.png)
+> ![Screenshot of navigating to Power App id.](./media/mobile-deeplink-app-id.png)
 
 Find your Power App GUID in the **App ID** section. It will be a 32-digit number in the following format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power App id](./media/mobile-deeplink-app-id-final.png)
+> ![Screenshot of Power App id.](./media/mobile-deeplink-app-id-final.png)
 
 > [!Note]
 > The web link can be used to open the Power App in a web browser
@@ -109,7 +108,7 @@ Find your Power App GUID in the **App ID** section. It will be a 32-digit number
 Next, find the name of the specific Power Apps form you want to deep link to. In our example, it's "**requestparts**". This will be preceded by "**?deeplink=**" in the deep link.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps form name](./media/mobile-deeplink-powerapps-form.png)
+> ![Screenshot of Power Apps form name.](./media/mobile-deeplink-powerapps-form.png)
 
 ### Work order entity Work Order Number" field
 
@@ -124,12 +123,12 @@ In the mobile project where you added the work order form command earlier, go to
 Go to the **WorkOrder** folder then the **WorkOrder.js** file.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of navigating to offline html](./media/mobile-deeplink-work-order-js-navigate.png)
+> ![Screenshot of navigating to offline html.](./media/mobile-deeplink-work-order-js-navigate.png)
 
 Here you will enter JavaScript that constructs the deep link and tells the work order form command to call the deep link.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of javascript code snippet](./media/mobile-deeplink-work-order-js.png)
+> ![Screenshot of javascript code snippet.](./media/mobile-deeplink-work-order-js.png)
 
 Here is the code snippet that was used in our example:
 
@@ -161,7 +160,7 @@ First, we want the Power App to accept the deep link.
 Go to the **App** section in the left pane of the Power App and edit the **OnStart** formula.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of editing the Power App to accept deep link](./media/mobile-deeplink-powerapp-accept-deeplink.png)
+> ![Screenshot of editing the Power App to accept deep link.](./media/mobile-deeplink-powerapp-accept-deeplink.png)
 
 In our example, we entered the following logic that tells the Power App to go to the specific form if the deep link parameter is "requestparts":
 
@@ -173,7 +172,7 @@ In our example, we entered the following logic that tells the Power App to go to
 In the Power Apps form, find the field you want the work order number value to populate.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of configuring Power Apps to add work order paramter value](./media/mobile-deeplink-powerapp-accept-parameter.png)
+> ![Screenshot of configuring Power Apps to add work order paramter value.](./media/mobile-deeplink-powerapp-accept-parameter.png)
 
 In the **Advanced** tab of the right panel, enter the following formula for the default value.
 
@@ -192,7 +191,7 @@ Power Apps will launch and may ask that you sign in if you haven't done so alrea
 The correct form will open and the work order number will populate the desired field.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of deep link example on app](./media/mobile-deeplink-work-order-fsm.png)
+> ![Screenshot of deep link example on app.](./media/mobile-deeplink-work-order-fsm.png)
 
 ## Configuration considerations
 
@@ -216,7 +215,7 @@ By editing the **WorkOrder** folder and WorkOrder.js file, you're editing files 
 - [Sample mobile project template](https://1drv.ms/u/s!AhAjbOq5aB_lsUMGyM8rQ1g_IVHY?e=Lg32Nu)
 - [Sample "Parts Order" PowerApp](https://1drv.ms/u/s!AhAjbOq5aB_lsUKadMDMR9zrTVPW?e=LHZari) for guidance in this article.
 - [Power Apps update – Universal links, HTML control improvements, new service connections and more](https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/) 
-- [Set URI parameters for your canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
+- [Set URI parameters for your canvas apps](/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

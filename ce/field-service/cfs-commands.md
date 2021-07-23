@@ -1,11 +1,10 @@
 ---
 title: "Send commands in Connected Field Service | MicrosoftDocs"
 description: Learn how to send commands using Connected Field Service
-ms.custom:
-- dyn365-fieldservice
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -60,7 +59,7 @@ search.app:
 
 ## Create business process flows to automatically handle incoming IoT alerts
 
-When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue is not resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a business process flow](../customize/create-business-process-flow.md)
+When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue is not resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a business process flow](../customerengagement/on-premises/customize/create-business-process-flow.md)
 
  List of default IoT actions:
 

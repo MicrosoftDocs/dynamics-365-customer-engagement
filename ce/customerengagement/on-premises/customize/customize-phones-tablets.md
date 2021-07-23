@@ -1,9 +1,10 @@
 ---
 title: "Customize Dynamics 365 for phones and tablets (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: Learn how to customize for the phone and tablet apps
 ms.custom: 
 ms.date: 06/18/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +20,6 @@ search.audienceType:
 
 ---
 # Customize Dynamics 365 for phones and tablets to work for your business
-
-
 
 With Dynamics 365 Customer Engagement (on-premises), you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
 
@@ -40,15 +39,15 @@ With Dynamics 365 Customer Engagement (on-premises), you can design once and dep
 
  **Web app**  
 
- ![Dynamics 365 for Customer Engagement form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow from web app")  
+ ![Dynamics 365 for Customer Engagement form reflow from web app.](../customize/media/custon-reflow-web-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow from web app")  
 
  **Tablet app**  
 
- ![Dynamics 365 for Customer Engagement form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to tablet app")  
+ ![Dynamics 365 for Customer Engagement form reflow to tablet app.](../customize/media/reflow-tablet-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to tablet app")  
 
  **Phone app**  
 
- ![Dynamics 365 for Customer Engagement form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to phone app")  
+ ![Dynamics 365 for Customer Engagement form reflow to phone app.](../customize/media/custon-reflow-phone-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to phone app")  
 
  Dynamics 365 for phones and tablets does not provide the capability to switch between forms. If you have more than one main form for an entity, the one displayed depends on the form order set and which security roles are assigned to the form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Multiple forms](../customize/main-form-presentations.md#BKMK_MultipleForms)  
 
@@ -70,54 +69,6 @@ That way, if you think phone users need to focus only on the primary information
 
 3.  Clear **Available on phone** and click **OK**.  
 
-<a name="BKMK_CustomEntity"></a>   
-## Entities displayed in Dynamics 365 for phones and tablets  
- You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity, click **Settings** > **Customizations** > **Customize the System** > **Entities**. Select an entity and review the **Outlook & Mobile** settings.  
-
- Note the following:  
-
-- All custom entities can be enabled for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
-
-- You can use the Lookup for entities that are not enabled for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] from a record that is enabled and see the data. However, the entity will not be editable.  
-
-  **Entities that are visible and read-write in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**  
-
-|     Entity Name     | [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] Visibility Property | [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] Read-only Property |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Account       |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|      Activity       |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-|     Appointment     |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|        Case         |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|     Competitor      |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|    Connection\*     |                                                                       Not modifiable                                                                        |                                                                         Modifiable                                                                         |
-|       Contact       |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|        Lead         |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|        Note         |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-|     Opportunity     |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-| Opportunity Product |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|     Phone Call      |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|     Queue Item      |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|   Social Activity   |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|   Social Profile    |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|        Task         |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-
-*For Dynamics 365 Customer Engagement (on-premises), we support basic connections. For earlier versions, we only support connections for Sales Team and Stakeholders on the Opportunity form.
-
- **Entities that are visible and read-only in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**  
-
-
-|      Entity Name      | [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] Visibility Property | [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] Read-only Property |
-|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|      Attachment       |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-|         Email         |                                                                         Modifiable                                                                          |                                                                       Not modifiable                                                                       |
-|      Entitlement      |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-| Knowledge Base Record |                                                                         Modifiable                                                                          |                                                                       Not modifiable                                                                       |
-|        Product        |                                                                         Modifiable                                                                          |                                                                       Not modifiable                                                                       |
-|         Queue         |                                                                         Modifiable                                                                          |                                                                       Not modifiable                                                                       |
-|   SLA KPI Instance    |                                                                       Not modifiable                                                                        |                                                                         Modifiable                                                                         |
-|         Team          |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-|         User          |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-|     Web Resource      |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
 
 <a name="BKMK_NavigationOptions"></a>   
 ## Change navigation options for Dynamics 365 for phones and tablets  
@@ -131,7 +82,7 @@ That way, if you think phone users need to focus only on the primary information
 
  Custom entities use a fixed custom entity icon.  
 
- ![Dynamics 365 for tablets nav bar](../customize/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for Tablets nav bar")  
+ ![Dynamics 365 for tablets nav bar.](../customize/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for Tablets nav bar")  
 
 See [Change application navigation using the SiteMap](../developer/customize-dev/change-application-navigation-using-sitemap.md) for more information. 
 
@@ -139,12 +90,12 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 ## Change commands for Dynamics 365 for phones and tablets  
  Dynamics 365 for phones and tablets uses the same ribbon definitions to provide commands as the web application except that it is optimized for presentation in the mobile apps. You can set the ribbon definitions to display based on the type of client. For example, you can set commands so they appear in the web app but not the phone or tablet apps. Some default commands are set to appear only in the web app, which is why you won’t see them in the mobile apps.  
 
- ![Account form commands for Dynamics 365 for tablets](../customize/media/mobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for tablets")  
+ ![Account form commands for Dynamics 365 for tablets.](../customize/media/mobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for tablets")  
 
 > [!NOTE]
 >  Icons configured for commands aren’t displayed, and labels that are too long are truncated.  
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize commands and the ribbon](https://go.microsoft.com/fwlink/p/?LinkId=320344)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize commands and the ribbon](/previous-versions/dynamicscrm-2016/developers-guide/gg309639(v=crm.8))  
 
 <a name="BKMK_FormScriptDifferences"></a>   
 ## Form script differences for Dynamics 365 for phones and tablets  
@@ -152,7 +103,7 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 
  The following list shows what to expect with scripts in the mobile apps. For specific details, see the developer documentation in the [Client API Reference for Customer Engagement](/dynamics365/customer-engagement/developer/clientapi/reference).  
 
-- Using [window.alert](https://msdn.microsoft.com/library/ie/ms535933.aspx), [window.confirm](https://msdn.microsoft.com/library/ie/ms536376.aspx), [window.prompt](https://msdn.microsoft.com/library/ms536673.aspx) or any other code that blocks code execution while waiting for a user’s response won’t work as expected or will display an error. You shouldn’t use these methods in scripts for the mobile apps.  
+- Using [window.alert](https://msdn.microsoft.com/library/ie/ms535933.aspx), [window.confirm](https://msdn.microsoft.com/library/ie/ms536376.aspx), [window.prompt](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms536673(v=vs.85)) or any other code that blocks code execution while waiting for a user’s response won’t work as expected or will display an error. You shouldn’t use these methods in scripts for the mobile apps.  
 
 - Because tabs displayed in Dynamics 365 for phones and tablets can’t expand or collapse, code that tries to expand or collapse them won’t work, and code configured for event handlers using these events won’t execute.  
 

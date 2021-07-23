@@ -1,12 +1,11 @@
 ---
 title: "Set up Omnichannel for Customer Service channels in Customer Service workspace | MicrosoftDocs"
 description: "Learn how to configure Omnichannel for Customer Service channels in Customer Service workspace"
-ms.date: 11/10/2020
-ms.service: "dynamics-365-customerservice"
-ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+ms.date: 11/10/2020
+ms.topic: article
 ---
 
 # Set up Omnichannel for Customer Service channels in Customer Service workspace
@@ -25,7 +24,7 @@ To enable agents to be able to have conversations in Customer Service workspace,
     
     b. [Queues and users](../customer-service/queues-omnichannel.md)
     
-    c. [Work streams](../customer-service/work-streams-introduction.md)
+    c. [Work streams](../customer-service/create-workstreams.md)
     
 3. Assign the Omnichannel agent and/or Omnichannel supervisor roles to your users. More information: [Assign roles and enable users for Omnichannel for Customer Service](../customer-service/add-users-assign-roles.md).
 

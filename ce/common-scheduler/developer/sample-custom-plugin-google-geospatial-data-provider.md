@@ -1,15 +1,13 @@
 ---
 title: "Sample: Custom plug-in to use Google Maps API as geospatial data provider | MicrosoftDocs"
 description: "A sample that demonstrates how to use a custom plug-in use Google Maps API for geospatial operations in Dynamics 365 Field Service."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-customerservice
 ms.date: 04/01/2020
 searchScope: 
   - Field Service
   - Project Service
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice 
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -45,7 +43,7 @@ This sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll*
 
 1. Download or clone the [samples repo](https://github.com/microsoft/Dynamics365-Apps-Samples).
 2. Navigate to the location where you downloaded or cloned the repo on your computer, go to the **field-service/CustomPlugin-FS-Geospatial** folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
-3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](https://docs.microsoft.com/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
+3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
 
 ## After running the sample
 

@@ -2,15 +2,14 @@
 title: "Insights, powered by InsideView (Dynamics 365 Sales) | MicrosoftDocs"
 description: ""
 ms.date: 09/30/2017
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-insightsinsideview"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ms.reviewer: 
+ms.custom: 
+  - "dyn365-insightsinsideview"
 ---
 
 # Insights, powered by InsideView
@@ -21,7 +20,7 @@ Boost your sales close rates with information that will help you find, understan
 ## Get started
  [InsideView Insights Overview on AppSource](https://go.microsoft.com/fwlink/p/?linkid=2061233)
 
- [![Reader button](../insights-insideview/media/reader-button.png "Reader button")](https://go.microsoft.com/fwlink/p/?LinkId=524621) [Effective B2B selling with Insights](https://go.microsoft.com/fwlink/p/?LinkId=524621)
+ [![Reader button](../insights-insideview/media/reader-button.png "Reader button.")](https://go.microsoft.com/fwlink/p/?LinkId=524621) [Effective B2B selling with Insights](https://go.microsoft.com/fwlink/p/?LinkId=524621)
 
  [InsideView home page](https://go.microsoft.com/fwlink/p/?LinkId=524622)
 

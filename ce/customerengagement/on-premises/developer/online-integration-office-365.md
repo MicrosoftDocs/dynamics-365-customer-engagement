@@ -4,7 +4,7 @@ description: "Learn how Dynamics 365 Customer Engagement (on-premises) customers
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -48,8 +48,8 @@ This documentation applies to customers who access Dynamics 365 Customer Engagem
  [Access the Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
  <xref:Microsoft.Xrm.Sdk.Client.AuthenticationCredentials>   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
- [Active Directory Federation Services](https://msdn.microsoft.com/library/bb897402.aspx)   
- [Access Control Service 2.0](https://msdn.microsoft.com/library/hh147631.aspx)
+ [Active Directory Federation Services](/previous-versions/windows/server-2008/bb897402(v=msdn.10))   
+ [Access Control Service 2.0](/previous-versions/azure/azure-services/hh147631(v=azure.100))
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

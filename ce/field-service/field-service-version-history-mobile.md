@@ -1,11 +1,10 @@
 ---
 title: "Dynamics 365 Field Service Mobile version history | MicrosoftDocs"
 description: Find a list of important updates for Dynamics 365 Field Service mobile apps.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 12/07/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -24,6 +23,21 @@ search.app:
 > We recommend using the [Field Service (Dynamics 365) mobile app](mobile-power-app-overview.md) instead of the Field Service Mobile (Xamarin) app to benefit from the new features and continuous investments in the platform. While the new Field Service (Dynamics 365) mobile app continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use the Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile (Xamarin) app will end June 2022.
 
 This article chronicles important updates related to Field Service Mobile (Xamarin) app and associated mobile project templates.
+
+
+## 13.2.208 (Only iOS)
+
+### Bug fixes
+
+- iOS 14.5: Apps crashing on iOS 14.5 when using Intune policies
+
+## 13.2.205
+
+### Bug fixes
+
+- All platforms: App is crashing when an entity form has invalid fields
+- Localized report does not appear on the list in the App
+- iOS 14.2: App crashes when distributed via Intune MDM
 
 ## 13.2.203
 
@@ -241,7 +255,7 @@ This article chronicles important updates related to Field Service Mobile (Xamar
 
 Mobile projects hold configurations and customizations of the Field Service Mobile app such as view and form layout, mobile workflows called form rules, and offline HTML/JavaScript. These mobile projects are imported through the Field Service Mobile Configuration Tool (Woodford). The Field Service engineering team periodically releases new mobile project templates and the latest one can always be downloaded at [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project).
 
-To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
+To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
 ## 1.0.7289
 
@@ -341,12 +355,12 @@ Bug Fixes:
 **Field Service Mobile** applies to Field Service 7.5.5+ and 8.2+.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
+> ![Screenshot of Field Service mobile app download example.](media/mobile-field-service-mobile-windows-app-store.png)
 
 **Field Service Mobile (2017)** applies to Field Service 6.1.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile 2017 app download example](media/mobile-field-service-mobile-2017-windows-app-store.png)
+> ![Screenshot of Field Service mobile 2017 app download example.](media/mobile-field-service-mobile-2017-windows-app-store.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

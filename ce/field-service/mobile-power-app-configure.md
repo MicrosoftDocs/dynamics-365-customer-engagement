@@ -1,12 +1,11 @@
 ---
-title: "Edit the Field Service (Dynamics 365) mobile app SiteMap, forms, and views | MicrosoftDocs"
+title: "Customize the Field Service (Dynamics 365) mobile app SiteMap, forms, and views | MicrosoftDocs"
 description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 10/30/2020
+ms.date: 06/01/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -18,9 +17,9 @@ search.app:
   - D365FS
 ---
 
-# Edit the sitemap (home screen), forms, and views
+# Customize the mobile app
 
-Administrators can edit how the Field Service (Dynamics 365) mobile app looks and functions for technicians.
+Administrators can customize how the Field Service (Dynamics 365) mobile app looks and functions for technicians.
 
 ## Edit Sitemap entities on home screen
 
@@ -64,7 +63,7 @@ Administrators who want to customize the booking and work order forms must know 
 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing a device with the Field Service (Dynamics 365) mobile app, showing a screenshot of a Bookable Resource Booking on the General tab. ](./media/mobile-2020-work-order-form-all-sections.png)
+> ![Simulated image showing a device with the Field Service (Dynamics 365) mobile app, showing a screenshot of a Bookable Resource Booking on the General tab.](./media/mobile-2020-work-order-form-all-sections.png)
 
 To edit the work order portion of the form, go to **Settings** > **Customizations** > **Customize the System** and find the **Work Order** entity in the Power Apps admin console.
 
@@ -97,22 +96,28 @@ Add and delete booking fields as needed.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the form editor for the Bookable Resource Booking.](./media/mobile-2020-admin-booking-form-combined-add-fields.png)
 
-Another way you can add work order information to the booking form is to add a [quick view form](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-view-forms) that displays work order fields. Quick view forms are read-only, but you can go to the related work order form from there.
+Another way you can add work order information to the booking form is to add a [quick view form](../customerengagement/on-premises/customize/create-edit-quick-view-forms.md) that displays work order fields. Quick view forms are read-only, but you can go to the related work order form from there.
 
-For more information, see the article on [customizing entity forms](https://docs.microsoft.com/powerapps/developer/model-driven-apps/customize-entity-forms).
+>[!TIP] 
+> The combined _Booking and Work Order_ form is made possible by a PCF control called "Form component control." For more information, see the article on
+[editing related table records directly from another table’s main form](/powerapps/maker/model-driven-apps/form-component-control) for more details.
+
+For more general information, see the article on [customizing entity forms](/powerapps/developer/model-driven-apps/customize-entity-forms).
 
 ## Edit views
 
-- [Create and edit public or system model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views-app-designer) 
+- [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer) 
 
-- [Customize entity views](https://docs.microsoft.com/powerapps/developer/model-driven-apps/customize-entity-views)
+- [Customize entity views](/powerapps/developer/model-driven-apps/customize-entity-views)
 
 > [!Note]
 > Currently, the booking calendar view is not editable. You cannot edit the fields displayed in the time slots on the calendar.
 
 ### See also
 
-- [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
-- [Enable entities for mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
+- [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- [Model-driven apps developer documentation](/powerapps/developer/model-driven-apps/)
+- [Enable entities for mobile offline synchronization](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
+- [Editing related table records directly from another table’s main form](/powerapps/maker/model-driven-apps/form-component-control)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: "Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/12/2019"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -45,12 +45,12 @@ This [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] version req
 >  For detailed hardware and software requirements or specific product versions and service pack levels that are supported for this version, see the topics in this section. 
 >
 >  For hardware and software requirements of earlier versions, see the following topics.  
->  - [Dynamics 365 (version 8.x) and Dynamics CRM 2016](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699831(v%3dcrm.8))
->  - [Microsoft Dynamics CRM 2015](https://docs.microsoft.com/previous-versions/dynamicscrm-2015/deployment-administrators-guide/hh699831(v=crm.7))
->  - [Microsoft Dynamics CRM 2013](https://docs.microsoft.com/previous-versions/dynamicscrm-2013/implementation-guide/hh699831(v%3dcrm.6))
+>  - [Dynamics 365 (version 8.x) and Dynamics CRM 2016](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699831(v%3dcrm.8))
+>  - [Microsoft Dynamics CRM 2015](/previous-versions/dynamicscrm-2015/deployment-administrators-guide/hh699831(v=crm.7))
+>  - [Microsoft Dynamics CRM 2013](/previous-versions/dynamicscrm-2013/implementation-guide/hh699831(v%3dcrm.6))
   
 > [!IMPORTANT]
->  The optional and dependent products listed here that have reached their mainstream support end date might only receive full support with the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] application. Updates may not be made available if Microsoft determines the issue is caused by the expired product. For more information about product lifecycles, see [Select a Product for Lifecycle Information](https://go.microsoft.com/fwlink/p/?LinkId=248439).  
+>  The optional and dependent products listed here that have reached their mainstream support end date might only receive full support with the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] application. Updates may not be made available if Microsoft determines the issue is caused by the expired product. For more information about product lifecycles, see [Select a Product for Lifecycle Information](/lifecycle/products/).  
   
  Before you install [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], review the articles in this section, which provide detailed information about the products and technologies that are required or optional and supported configurations.  
   

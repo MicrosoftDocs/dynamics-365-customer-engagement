@@ -31,7 +31,7 @@ search.app:
 ## How to
  Track customer interactions wherever you are, and from virtually any device by using folder tracking. After you set up a tracked folder, you can drag or move email to that folder to track it automatically in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Additionally, if you set a regarding record (such as a specific account or opportunity record) for the folder, [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] automatically links all email in that folder to that specific record. Tracked folders work in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], [!INCLUDE[pn_Exchange_Online](../../includes/pn-exchange-online.md)], [!INCLUDE[pn_outlook_web_app](../../includes/pn-outlook-web-app.md)], or any other mobile app that supports [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)].
 
- ![Exchange email folder tracking in Dynamics 365 apps](../media/exchange-folder-tracking-dynamics-crm.png "Exchange email folder tracking in Dynamics 365 apps")  
+ ![Exchange email folder tracking in Dynamics 365 apps.](../media/exchange-folder-tracking-dynamics-crm.png "Exchange email folder tracking in Dynamics 365 apps")  
 
 > [!TIP]
 >  Tracked folders work with [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] Inbox rules. This makes it easy to automatically route email messages to a particular folder. For example, set up an [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] rule that automatically routes email from a Contoso contact to a tracked Contoso folder, which is linked to a specific Contoso opportunity. [Tell me more about setting up rules](https://go.microsoft.com/fwlink/p/?LinkID=528086).
@@ -41,16 +41,16 @@ search.app:
 
 - [!INCLUDE[cc_feature_included_with_2015_update_1](../../includes/cc-feature-included-with-2015-update-1.md)]
 
-- The tracking folders feature must also be enabled by your administrator. For more information, contact your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] administrator. For admin information on enabling tracked folders, see [Configure Outlook or Exchange folder-level tracking](../../admin/configure-outlook-exchange-folder-level-tracking.md)
+- The tracking folders feature must also be enabled by your administrator. For more information, contact your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] administrator. For admin information on enabling tracked folders, see [Configure Outlook or Exchange folder-level tracking](/power-platform/admin/configure-outlook-exchange-folder-level-tracking)
 
-- Your organization must use server-side synchronization as your email synchronization method. If you don’t know which synchronization method your organization uses, contact your Dynamics 365 apps administrator. For admin information about setting up server-side synchronization, see [Set up server-side synchronization of email, appointments, contacts, and tasks](../../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md) 
+- Your organization must use server-side synchronization as your email synchronization method. If you don’t know which synchronization method your organization uses, contact your Dynamics 365 apps administrator. For admin information about setting up server-side synchronization, see [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks) 
 
 <a name="Setup"></a>
 ### Set up a tracked folder
 
 1. Go to **Options**:
 
-   - In the web app: On the nav bar, click **Options** ![Options button for Dynamics 365 apps](../media/optionsbutton.png "Options button for Dynamics 365 apps").  
+   - In the web app: On the nav bar, click **Options** ![Options button for Dynamics 365 apps.](../media/optionsbutton.png "Options button for Dynamics 365 apps").  
 
    - In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]: Click **File** > **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** > **Options**.
 
@@ -58,12 +58,12 @@ search.app:
 
 3. In the **Folder-Level Tracking** dialog box, under **Exchange Folder**, click **+ New Folder Mapping**, click the down arrow in the box that appears, and then select the folder you want to track.
 
-    ![Folder Tracking Rules dialog box in Dynamics 365 apps](../media/outlook-folder-tracking.png "Folder Tracking Rules dialog box in Dynamics 365 apps")  
+    ![Folder Tracking Rules dialog box in Dynamics 365 apps.](../media/outlook-folder-tracking.png "Folder Tracking Rules dialog box in Dynamics 365 apps")  
 
    > [!NOTE]
    >  You can only track folders or subfolders inside your Exchange Inbox. Only the folder you select will be tracked. For example, if you select a folder that includes subfolders, the subfolders aren’t tracked unless you specifically select them in this dialog box. The maximum number of folders you can track is 25.
 
-4. If you want to link the folder to a specific record—for example, an account or opportunity—under **Regarding Record in Dynamics 365 apps**, click the **Lookup** button ![Lookup button graphic](../media/lookup-button-dynamics-crm.png "Lookup button graphic"), and then search for the record.  
+4. If you want to link the folder to a specific record—for example, an account or opportunity—under **Regarding Record in Dynamics 365 apps**, click the **Lookup** button ![Lookup button graphic.](../media/lookup-button-dynamics-crm.png "Lookup button graphic"), and then search for the record.  
 
 5. Repeat steps 3 and 4 for any additional folders you want to track and (optionally) link to regarding records.
 
@@ -133,7 +133,7 @@ search.app:
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
- [Configure Outlook or Exchange folder-level tracking](../../admin/configure-outlook-exchange-folder-level-tracking.md)
+ [Configure Outlook or Exchange folder-level tracking](/power-platform/admin/configure-outlook-exchange-folder-level-tracking)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

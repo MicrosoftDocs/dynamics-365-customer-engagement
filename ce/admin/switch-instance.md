@@ -1,5 +1,6 @@
 ---
-title: "Switch an instance | MicrosoftDocs"
+title: "Switch instance from sandbox to production"
+description: "Switching an instance (now called an environment) is now done in the Power Platform admin center. See this page for more information."
 ms.custom: 
 ms.date: 02/27/2020
 ms.reviewer: 
@@ -20,7 +21,7 @@ search.app:
 ---
 # Switch an instance
 
-Switching an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Change the environment type](https://docs.microsoft.com/power-platform/admin/switch-environment).
+Switching an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Change the environment type](/power-platform/admin/switch-environment).
 
 
 

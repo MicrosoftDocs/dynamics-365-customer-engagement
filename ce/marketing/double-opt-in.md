@@ -1,7 +1,7 @@
 ---
 title: "Set up global double opt-in (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up the global double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 Marketing."
-ms.date: 04/23/2020
+ms.date: 04/23/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin    
@@ -30,6 +30,9 @@ The global double opt-in process works as follows:
 3. Dynamics 365 Marketing sends a confirmation email of the appropriate type (subscribe or consent) to the address registered for the contact.
 4. The contact opens the confirmation email, reads the text, and clicks the link. This opens a web browser, which submits a coded URL that identifies the contact and request message to Dynamics 365 Marketing.
 5. Dynamics 365 Marketing registers the click, applies the requested subscription or consent change, logs the change, and immediately redirects to a thank-you page that is shown to the contact.
+
+> [!IMPORTANT]
+> The link in the confirmation email remains valid for 30 days. After that period, the user that recieved the email will not be able to confirm their opt-in. 
 
 Double opt-in is a good idea in all countries/regions, and in many countries/regions (especially in Europe), it's required by law.
 
@@ -72,7 +75,7 @@ To create a subscription confirmation-request message:
     > You can't use the **Test Send** button to send yourself a test message when you are designing a confirmation-request message. To test your message design, set up a test subscription page and try to sign yourself up for a mailing list.
 
 
-![Dynamics elements in a subscription confirmation-request message](media/doi-subscription-confirm-message.png "Dynamics elements in a subscription confirmation-request message")
+![Dynamics elements in a subscription confirmation-request message.](media/doi-subscription-confirm-message.png "Dynamics elements in a subscription confirmation-request message")
 
 The previous illustration highlights important elements provided by the **diamante** template, with the **Properties** pane showing settings for the confirmation button. Note especially the Handlebars expressions, which are placeholders for dynamic values that will be resolved independently each time the message is sent. The following Handlebars expressions are available:
 
@@ -83,7 +86,7 @@ The previous illustration highlights important elements provided by the **diaman
 
 The following screenshot shows a Dynamics 365 Marketing subscription-list record with the **Name** and **Description** fields highlighted. These are the values that you can include in your subscription confirmation-request message.
 
-![Subscription list settings available to confirmation-request messages](media/doi-sub-list-settings.png "Subscription list settings available to confirmation-request messages")
+![Subscription list settings available to confirmation-request messages.](media/doi-sub-list-settings.png "Subscription list settings available to confirmation-request messages")
 
 More information: [Email marketing overview](prepare-marketing-emails.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md)
 
@@ -119,7 +122,7 @@ To create an increase consent confirmation-request message:
     > [!NOTE]
     > You can't use the **Test Send** button to send yourself a test message when you are designing a confirmation-request message. To test your message design, set up a test subscription page and use it to increase your consent level.
 
-![Dynamics elements in an increase consent confirmation-request message](media/doi-consent-confirm-message.png "Dynamics elements in an increase consent confirmation-request message")
+![Dynamics elements in an increase consent confirmation-request message.](media/doi-consent-confirm-message.png "Dynamics elements in an increase consent confirmation-request message")
 
 The previous illustration highlights important elements provided by the **custonaci** template, with the **Properties** pane showing settings for the confirmation button. Note especially the Handlebars expressions, which are placeholders for dynamic value that will be resolved independently each time the message is sent. The following Handlebars expressions are available:
 
@@ -129,9 +132,9 @@ The previous illustration highlights important elements provided by the **custon
 - **{{Message.ConfirmationObjectDescription}}**: Resolves to the **Description** field for the new consent level the contact has chosen.
 - **{{Message.ConfirmationRedirectURL}}**: Resolves to a URL that targets the Dynamics 365 Marketing server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
 
-The following screenshot shows an **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. More information: [Create and edit global option sets](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-global-option-sets)
+The following screenshot shows an **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. More information: [Create and edit global option sets](/powerapps/maker/common-data-service/create-edit-global-option-sets)
 
-![Consent option-set values available to confirmation-request messages](media/doi-consent-level-options.png "Consent option-set values available to confirmation-request messages")
+![Consent option-set values available to confirmation-request messages.](media/doi-consent-level-options.png "Consent option-set values available to confirmation-request messages")
 
 More information: [Data protection and the GDPR](gdpr.md)
 
@@ -171,7 +174,7 @@ To set up and enable the global double opt-in system:
 1. A list of default settings records opens. Usually there will be just one record here. Open the available record—or the one that is currently active (which has its **Default** field set to **Yes**).
 
 1. Open the **Double opt-in** tab on the **Default marketing settings** page.  
-    ![The Double opt-in tab for Marketing settings](media/doi-marketing-settings.png "The Double opt-in tab for Marketing settings")
+    ![The Double opt-in tab for Marketing settings.](media/doi-marketing-settings.png "The Double opt-in tab for Marketing settings")
 
 1. Make the following settings:
 

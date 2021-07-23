@@ -1,10 +1,11 @@
 ---
 title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
-ms.date: 03/12/2021
+ms.date: 05/27/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
+  - intro-internal
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
@@ -62,23 +63,23 @@ Dynamics 365 Marketing includes a bundle of apps and solutions carefully selecte
 
 All these features are fully integrated and work together to create a comprehensive marketing solution.
 
-## A fully responsive app built on the new Unified Interface
+## A fully responsive app built on the Dynamics 365 Unified Interface
 
-Dynamics 365 Marketing is built to run exclusively on the new Unified Interface for Dynamics 365 applications. The Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience on any device, regardless of screen size or orientation. There is no need to install a special client on each device, or to switch to a different site based on which device you are using.
+Marketing is built to run exclusively on the Unified Interface for Dynamics 365 applications. The Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience on any device, regardless of screen size or orientation. There is no need to install a special client on each device, or to switch to a different site based on which device you are using.
 
 Many Dynamics 365 applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface. Some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
 
 > [!NOTE]
 > Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
 
-More information: [About Unified Interface for model-driven apps in Power Apps](https://docs.microsoft.com/power-platform/admin/about-unified-interface) and [Find your way around Marketing](navigation.md)
+More information: [About Unified Interface for model-driven apps in Power Apps](/power-platform/admin/about-unified-interface) and [Find your way around Marketing](navigation.md)
 
 ## Design attractive and effective messages for email marketing campaigns
 
 Email is a key component of most online marketing campaigns. Use the drag-and-drop marketing-email designer to create attractive messages quickly, based on professional, customizable templates. All templates are carefully designed to look great on a variety of devices, platforms, and email clients.
 
 > [!div class="mx-imgBorder"]
-> ![Email designer screenshot](media/designer-email2.png)  
+> ![Email designer screenshot.](media/designer-email2.png)  
 
 Key marketing email design features include:
 
@@ -105,7 +106,7 @@ Other types of marketing pages include subscription centers, which enable contac
 Design your marketing pages by using the graphical, drag-and-drop content designer, which works just like the email designer. When your page is ready, publish it to make it available to users on the internet. The system uses the standard Power Apps portals feature to publish and operate all marketing pages.
 
 > [!div class="mx-imgBorder"]
-> ![Marketing page designer screenshot](media/designer-pages3.png)  
+> ![Marketing page designer screenshot.](media/designer-pages3.png)  
 
 Key marketing page features include:
 
@@ -130,7 +131,7 @@ More information: [Create and deploy marketing pages](create-deploy-marketing-pa
 
 Customer journey orchestration lets marketers create multiple-step, multichannel marketing campaigns that target a specific segment, deliver marketing email messages, respond to contact interactions, launch Dynamics 365 workflows, and more.
 
-![Customer journey screenshot](media/customer-journey-full.png "The customer journey designer")
+![Customer journey screenshot.](media/customer-journey-full.png "The customer journey designer")
 
 Key campaign-automation features include:
 
@@ -159,7 +160,7 @@ Custom channel development takes advantage of the existing extensibility infrast
 
 Live events and webinars are often a vital sales-and-marketing channel, but they can be complex to arrange, execute, and follow up on. The Dynamics 365 Marketing event management feature helps you every step of the way, from initial planning and budgeting, through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
 
-![Event website screenshot](media/event-portal.png "The event website")  
+![Event website screenshot.](media/event-portal.png "The event website")  
 
 Key event management features include:
 
@@ -191,7 +192,7 @@ More information: [Event planning and management](event-management.md)
 As a marketer, your primary goals are to generate demand, identify sales prospects, and forward the best prospects as leads for salespeople to follow up with. Dynamics 365 supports this process from discovery all the way to close.
 
 > [!div class="mx-imgBorder"]
-> ![Lead-scoring model designer screenshot](media/designer-lead-score-model2.png) 
+> ![Lead-scoring model designer screenshot.](media/designer-lead-score-model2.png) 
 
 Key lead-management features include:
 
@@ -229,7 +230,7 @@ More information: [Design lead-scoring models](score-manage-leads.md)
 
 Bring your LinkedIn leads into Dynamics 365 for follow-up and nurturing.
 
-![LinkedIn analytics screenshot](media/linkedin-analytics.png "LinkedIn Lead Gen analytics")  
+![LinkedIn analytics screenshot.](media/linkedin-analytics.png "LinkedIn Lead Gen analytics")  
 
 Use the Microsoft Dynamics 365 Connector for LinkedIn Lead Gen Forms to automatically sync leads captured on LinkedIn with your Dynamics 365 organization so that your sales and marketing teams can develop and nurture them. Features include:
 

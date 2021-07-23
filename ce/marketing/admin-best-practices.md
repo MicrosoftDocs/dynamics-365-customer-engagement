@@ -32,7 +32,7 @@ This document discusses some of the key elements for managing Marketing, focusin
 Dynamics 365 Marketing has a different licensing model than other Dynamics 365
 applications. You can find more details about the Marketing licensing model in
 [How to Purchase](purchase-setup.md#how-to-purchase-dynamics-365-marketing)
-and [Marketing Contacts Purchase](setup-troubleshooting.md#how-is-dynamics-365-marketing-licensed), as well as in the [Dynamics 365 Licensing guide](https://download.microsoft.com/download/9/6/7/96706B15-1CBE-47B7-AB9E-6BC31A377BBB/Dynamics%20365%20Licensing%20Guide%20-%20Feb%202020.pdf). Some important aspects of Marketing’s licensing model are:
+and [Marketing Contacts Purchase](setup-troubleshooting.yml#how-is-dynamics-365-marketing-licensed-), as well as in the [Dynamics 365 Licensing guide](https://download.microsoft.com/download/9/6/7/96706B15-1CBE-47B7-AB9E-6BC31A377BBB/Dynamics%20365%20Licensing%20Guide%20-%20Feb%202020.pdf). Some important aspects of Marketing’s licensing model are:
 
 - You do not purchase user licenses of Marketing. You purchase the Marketing app and bundles of marketing contacts.
 - One Marketing app license permits deployment on only one Dynamics 365 environment. The environment could be a sandbox or production. Deploying on multiple Dynamics 365 environments requires multiple Marketing app licenses.
@@ -89,7 +89,7 @@ might face when working with multiple Marketing apps/environments:
 ## ALM operations
 
 Dynamics 365 Marketing supports most of the Dynamics 365 platform’s Application
-Lifecycle Management (ALM) capabilities such as copy, backup, and restore. Learn more about ALM capabilities in [Manage Marketing environments](https://docs.microsoft.com/dynamics365/marketing/manage-marketing-environments).
+Lifecycle Management (ALM) capabilities such as copy, backup, and restore. Learn more about ALM capabilities in [Manage Marketing environments](./manage-marketing-environments.md).
 There are specifics to these operations, however, which you should adhere to
 when working with Marketing. Some of the common pitfalls include:
 
@@ -119,9 +119,9 @@ environment), you should open a support ticket to resolve the issue.
 Currently, Dynamics 365 Marketing, like other Dynamics 365 model apps (Sales,
 Service, etc.), can only be deployed on CE environments (also known as orgs).
 
-- [This documentation](https://docs.microsoft.com/power-platform/admin/create-environment) describes how to add CE environments via purchase into a tenant on which Marketing can be deployed.
+- [This documentation](/power-platform/admin/create-environment) describes how to add CE environments via purchase into a tenant on which Marketing can be deployed.
 
-- A CE environment could also be [provisioned via the Power Platform Admin Center with a CE DB](https://docs.microsoft.com/power-platform/admin/create-environment). If you need to create a Marketing template-based CE environment, you should open a support ticket to resolve the issue.
+- A CE environment could also be [provisioned via the Power Platform Admin Center with a CE DB](/power-platform/admin/create-environment). If you need to create a Marketing template-based CE environment, you should open a support ticket to resolve the issue.
 
 ## Trials
 
@@ -141,12 +141,12 @@ environments using the standard tools provided for Dynamics 365. More informatio
 
 ## Migrations
 
-- **Tenant to tenant**:* Dynamics 365 Marketing supports [tenant to tenant migration within the same geo](https://docs.microsoft.com/power-platform/admin/move-environment-tenant). There are, however, specific conditions to such migration that you must follow when provided as part of the support request.
+- **Tenant to tenant**:* Dynamics 365 Marketing supports [tenant to tenant migration within the same geo](/power-platform/admin/move-environment-tenant). There are, however, specific conditions to such migration that you must follow when provided as part of the support request.
 - **Geo to geo**: Marketing does not currently support geo to geo migration.
 
 ## Geos (commercial clouds)
 
-Dynamics 365 Marketing is only available in certain geos. Refer to [the International availability guide](https://docs.microsoft.com/dynamics365/get-started/availability) for Marketing geo availability.
+Dynamics 365 Marketing is only available in certain geos. Refer to [the International availability guide](/dynamics365/get-started/availability) for Marketing geo availability.
 
 If your tenant is in a non-supported geo, you cannot deploy Marketing in that
 geo. The tenant must be enabled for multi-geo before deploying Marketing in a

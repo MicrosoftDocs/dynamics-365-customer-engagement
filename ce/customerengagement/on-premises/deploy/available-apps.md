@@ -2,7 +2,7 @@
 title: "Available apps for Dynamics 365 Customer Engagement (on-premises) (on-premises) | Microsoft Docs"
 ms.custom: 
 ms.date: 11/26/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,8 +20,8 @@ manager: kvivek
 
 
 The following Dynamics 365 Customer Engagement (on-premises) that are based on the Unified Interface framework are available and can be downloaded from Dynamics CustomerSource.
-- [Dynamics 365 for Sales](https://docs.microsoft.com/dynamics/s-e/) 
-- [Dynamics 365 for Field Service](https://docs.microsoft.com/dynamics/s-e/365enterprise/365fieldservice7_delta) 
+- [Dynamics 365 for Sales](/dynamics/s-e/) 
+
  
  
 ## See also

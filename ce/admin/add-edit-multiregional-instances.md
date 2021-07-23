@@ -1,5 +1,6 @@
 ---
-title: "Add and edit multiregional instances  | MicrosoftDocs"
+title: "Create and edit instances in multiple regions"
+description: "Adding and editing multiregional instances (now called environments) has transitioned to the Power Platform admin center. See this page for more information."
 ms.custom: 
 ms.date: 02/27/2020
 ms.reviewer: 
@@ -19,7 +20,7 @@ search.app:
 ---
 # Add and edit multiregional instances
 
-Adding and editing multiregional instances (environments) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Regions overview](https://docs.microsoft.com/power-platform/admin/regions-overview).
+Adding and editing multiregional instances (environments) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Regions overview](/power-platform/admin/regions-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: "Set up Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to get and set up Dynamics 365 Sales."
-ms.date: 07-13-2020
-ms.service:
-  - "dynamics-365-sales"
+ms.date: 07/13/2020
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -36,7 +34,7 @@ After getting a Dynamics 365 Sales subscription, follow these steps to install t
 3. On the **Environments** page, select the environment where you want to install the Sales Hub app. You can use the **Search** box at the right side of the command bar to search for your specific environment.
 
     > [!div class="mx-imgBorder"]  
-    > ![Open your environment from the Environments list](media/open-environment.png "Open your environment from the Environments list")
+    > ![Open your environment from the Environments list.](media/open-environment.png "Open your environment from the Environments list")
 
     > [!NOTE]
     > If you don't have an environment created, create one. More information: [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center)
@@ -44,22 +42,22 @@ After getting a Dynamics 365 Sales subscription, follow these steps to install t
 4. After you open your environment, select **Dynamics 365 apps** under **Resources.**
 
     > [!div class="mx-imgBorder"]  
-    > ![Select Dynamics 365 apps in your environment](media/dynamics-365-apps-in-environment.png "Select Dynamics 365 apps in your environment")
+    > ![Select Dynamics 365 apps in your environment.](media/dynamics-365-apps-in-environment.png "Select Dynamics 365 apps in your environment")
 
 5. On the Dynamics 365 Apps page, on the command bar, select **Install Apps**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select Install app on the Dynamics 365 apps page](media/select-install-app-environment.png "Select Install app on the Dynamics 365 apps page")
+    > ![Select Install app on the Dynamics 365 apps page.](media/select-install-app-environment.png "Select Install app on the Dynamics 365 apps page")
 
 6. In the **Install Dynamics 365 apps** panel, select **Dynamics 365 Sales, Enterprise Edition App**, and then select **Next**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select the Dynamics 365 Sales app to install](media/select-sales-app-to-install.png "Select the Dynamics 365 Sales app to install")
+    > ![Select the Dynamics 365 Sales app to install.](media/select-sales-app-to-install.png "Select the Dynamics 365 Sales app to install")
 
 7. You'll see the app details with the version number. Select the **I agree to the terms of service** check box, and then select **Install**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Install the Sales app](media/install-sales-app.png "Install the Sales app")
+    > ![Install the Sales app.](media/install-sales-app.png "Install the Sales app")
 
 The Sales Hub app will be installed in your environment.
 
@@ -71,7 +69,7 @@ The Sales Hub app will be installed in your environment.
 Go to the **My Apps** page by going to https://&lt;orgurl&gt;/apps/. In the **Published Apps** section, you'll find a tile for Sales Hub from the publisher Dynamics 365.
 
 > [!div class="mx-imgBorder"]  
-> ![Sales Hub tile](media/sales-hub-tile.png "Sales Hub tile")
+> ![Sales Hub tile.](media/sales-hub-tile.png "Sales Hub tile")
 
 ## Grant access<a name="grant-access"></a>
 

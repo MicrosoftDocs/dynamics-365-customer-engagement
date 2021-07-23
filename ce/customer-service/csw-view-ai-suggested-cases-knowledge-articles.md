@@ -1,19 +1,26 @@
 ---
 title: View AI suggested similar cases, knowledge articles | MicrosoftDocs
 description: How to use AI suggested cases and knowledge articles in Dynamics 365 Customer Service.
+ms.date: 10/05/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+  - intro-internal
+searchScope:
+- D365-App-customerservice
+- D365-Entity-incident
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # View AI-suggested similar cases and knowledge articles
@@ -39,7 +46,7 @@ The AI suggestions are displayed in smart assist, which is an intelligent assist
 
 When you open an active case to work on it, up to three top knowledge articles that match the case context are displayed in the **Smart assist** pane.
 
-![Smart assist card for knowledge article suggestions](media/csw-ai-ka.png "Smart assist card for knowledge article suggestions") 
+![Smart assist card for knowledge article suggestions.](media/csw-ai-ka.png "Smart assist card for knowledge article suggestions") 
 
 The following table lists the explanation of the smart assist card for AI-suggested knowledge articles.
 
@@ -62,7 +69,7 @@ If no knowledge articles match, then the card displays an appropriate message, s
 
 When you open an active case to work on it, up to top three resolved cases that you have access to are suggested by the AI model and displayed in the **Smart assist** pane. By default, the suggestions are made based on case title and description. Your administrator may change the settings to use other text fields for the AI model to get the case context.
 
-![Smart assist for similar cases suggestions](media/csw-ai-similar-cases.png "Smart assist for similar cases suggestions")
+![Smart assist for similar cases suggestions.](media/csw-ai-similar-cases.png "Smart assist for similar cases suggestions")
 
 The following table lists the explanation of the smart assist card for AI-suggested similar cases.
 
@@ -85,7 +92,7 @@ Perform the following steps to view the similar cases and related articles for t
 
 1. In Dynamics 365, select Customer Service Workspace. The **Customer Service Agent Dashboard** page appears.
 
-   > ![Customer Service Workspace agent dashboard](media/csw-agent-dashboard.png "Customer Service Workspace agent dashboard")
+   > ![Customer Service Workspace agent dashboard.](media/csw-agent-dashboard.png "Customer Service Workspace agent dashboard")
 
 2. In the **My Active Cases** list, select shift+mouse click the case you want to work on. The case opens in a session tab, and the **Smart assist** pane appears on the right. The Smart assist pane lists the top three knowledge articles and five similar cases suggested by AI based on the case context.
 

@@ -1,9 +1,10 @@
 ---
 title: "View and take action on bulk deletion jobs | MicrosoftDocs"
+description: "view the status of, pause, postpone, and resume a system job that you created using Bulk Record Deletion."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ ms.assetid: 8a7e3846-a054-46d6-8a60-898b2c17523d
 caps.latest.revision: 24
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # View and take action on bulk deletion jobs
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You can view the status of, pause, postpone, and resume a system job that you created using **Bulk Record Deletion**.  
   

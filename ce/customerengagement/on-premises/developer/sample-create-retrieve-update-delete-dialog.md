@@ -4,7 +4,7 @@ description: "The sample shows how to create, retrieve, update, and delete a dia
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -21,7 +21,7 @@ search.audienceType:
 ---
 # Sample: Create, retrieve, update, and delete a dialog
 
-This sample code is for Dynamics 365 Customer Engagement (on-premises). See the complete sample here [Sample: Create, retrieve, update, and delete a dialog](https://msdn.microsoft.com/library/gg334435.aspx)
+This sample code is for Dynamics 365 Customer Engagement (on-premises). See the complete sample here [Sample: Create, retrieve, update, and delete a dialog](/previous-versions/dynamicscrm-2016/developers-guide/gg334435(v=crm.8))
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

@@ -1,14 +1,12 @@
 ---
-title: "Enable the enhanced experience of adding products | MicrosoftDocs"
-description: "Enable your salespeople to quickly find and add multiple products to opportunities in Dynamics 365 Sales by enabling the enhanced 'add product' experience."
+title: "Enable enhanced add products experience - Sales Professional | MicrosoftDocs"
+description: "Allow salespeople to quickly find and add multiple products to opportunities by enabling the enhanced add product experience."
 ms.date: 04/17/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-opportunityproduct
   - D365-Entity-quotedetail
@@ -30,6 +28,8 @@ Increase seller productivity by enabling the enhanced experience for searching a
 -  Compare products before selecting them.
 -  Add multiple products in one go.
 
+[!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
+
 > [!IMPORTANT]
 > - The enhanced "add product" experience is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
@@ -40,7 +40,7 @@ Increase seller productivity by enabling the enhanced experience for searching a
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+    > ![Advanced Settings link in the site map.](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
 
     The **Business Management settings** page opens in a new browser tab.
 
@@ -51,13 +51,16 @@ Increase seller productivity by enabling the enhanced experience for searching a
 4. In the **System Settings** dialog box, on the **Sales** tab, set **Enhanced add product experience** to **Yes**.
 
     > [!div class="mx-imgBorder"]
-    > ![Enhanced add product experience setting](media/system-settings-sales-tab-enhanced-add-products.png "Enhanced add product experience setting")
+    > ![Enhanced add product experience setting.](media/system-settings-sales-tab-enhanced-add-products.png "Enhanced add product experience setting")
 
 4. Select **OK**.
+   Sellers can now use the enhanced experience for adding products while working on opportunity, quote, order, and invoice.
+   Note: As an administrator, you can customize the Add products dialog box by adding  more columns to the grid or adding more attributes to the Product column in the dialog box. For more information, see [Preview: Customize the Add Products dialog box](customize-add-products-dialog-box-sp.md).  
 
 
 ### See also
 
 [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience-sp.md)  
+[Add products to quotes, orders, or invoices by using the enhanced experience](add-products-qoi-enhanced-sp.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

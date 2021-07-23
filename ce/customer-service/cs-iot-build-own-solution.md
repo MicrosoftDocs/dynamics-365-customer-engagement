@@ -1,12 +1,11 @@
 ---
 title: "Quickstart  Build your own Connected Customer Service (IoT) solution | MicrosoftDocs"
 description: "Learn how to build your own Connected Customer Service solution that integrates IoT data with Dynamics 365 Customer Service."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Quickstart: Build your own Connected Customer Service (IoT) solution
@@ -41,9 +40,9 @@ Here are the 3 things you need to get started building your own IoT solution:
 
 [Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)  
  
-[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)  
+[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](/previous-versions/dynamicscrm-2016/developers-guide/mt744253(v=crm.8))  
  
-[Check out more Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)  
+[Check out more Azure documentation resources](/azure/iot-hub/)  
 
 
 

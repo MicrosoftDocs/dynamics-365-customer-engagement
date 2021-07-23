@@ -2,12 +2,11 @@
 title: "View and understand data through drill-down entities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and understand drill-down entities in a forecast in Dynamics 365 Sales."
 ms.date: 10/26/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-forecast
   - D365-UI-*
@@ -24,14 +23,14 @@ By viewing drill-down data, you can understand how the records in each group are
 Let's look at an example. **Amber Rodriguez** is a seller who's associated with four accounts. Her projected revenue for the current period is $400,000. **Kevin Smith**, her sales manager, wants to understand how her revenue of $400,000 is broken down by each account. On the forecast page, Kevin chooses the Account drill-down option from the drop-down menu. Then he selects the drill-down icon beside Amber's record to view a list of accounts that make each of Amber's forecast pipeline values.
 
 > [!div class="mx-imgBorder"]
-> ![Forecast drill-down view](media/forecast-drill-down-view.png "Forecast drill-down view")
+> ![Forecast drill-down view.](media/forecast-drill-down-view.png "Forecast drill-down view")
 
 Before you start using the feature, an administrator or forecast manager must add the drill-down options to the forecast. To learn more, go to [Configure and manage drill-down entities](configure-manage-drill-downs.md).
 
 When a drill-down option is added to your forecast, a drop-down list is displayed below the **Grid** tab. The following screenshot is an example:
 
 > [!div class="mx-imgBorder"]
-> ![Drill-down option in forecast](media/forecast-drill-down-sample-screen.png "Drill-down option in forecast")
+> ![Drill-down option in forecast.](media/forecast-drill-down-sample-screen.png "Drill-down option in forecast")
 
 ## Select a drill-down option
 
@@ -42,12 +41,12 @@ By default, when you open a forecast, no drill-down choice is selected and the i
 2.	Select the **Drill down by** list and choose the drill-down option on which you want to break down the data. For example, **Account**.
  
     > [!div class="mx-imgBorder"]
-    > ![Select Account as drill-down choice](media/forecast-drill-down-selection.png "Select Account as drill-down choice")
+    > ![Select Account as drill-down choice.](media/forecast-drill-down-selection.png "Select Account as drill-down choice")
 
     The icon corresponding to each row turns blue and is now active. The data in the forecast is broken down into multiple groups according to the drill-down selection (**Account**).
 
     > [!div class="mx-imgBorder"]
-    > ![Drill-down choice is active](media/forecast-drill-down-active.png "Drill-down choice is active")
+    > ![Drill-down choice is active.](media/forecast-drill-down-active.png "Drill-down choice is active")
 
 ## View and understand the drill-down data
 
@@ -61,7 +60,7 @@ For simple column types such as **Quota**, the values are displayed as **Not app
 
 At the bottom of the table, a **blank** row is created with values for the opportunities that aren't related to any account.    
 > [!div class="mx-imgBorder"]
-> ![View account drill-down details](media/forecast-drill-down-account-drill-down.png "View account drill-down details")
+> ![View account drill-down details.](media/forecast-drill-down-account-drill-down.png "View account drill-down details")
 
 >[!NOTE]
 >- In the example, you can observe that the sum of all accounts' drill-down data matches the forecast data. If the data doesn't match, it might be that the forecast data is old. Drill-down is always calculated on live data. Select **Recalculate** to get the latest forecasting data to match with the drill-down data. More information: [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md)

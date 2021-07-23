@@ -24,7 +24,7 @@ The frontend can be fully customized and hosted by yourself. Additionally, you c
 
 If you choose to develop your backend service, you need to take care of the Dynamics 365 Marketing authentication and the web services by yourself. If you want the event registration linked to the appropriate user who created it, make sure that you create the Dynamics 365 Marketing contact record for every new website user.  
 
-![Self-hosted instance (same domain) diagram](../media/self-hosted.png "Self-hosted instance (same domain) diagram")
+![Self-hosted instance (same domain) diagram.](../media/self-hosted.png "Self-hosted instance (same domain) diagram")
 
 To give users full control of the event website, you can host the frontend by yourself.
 
@@ -40,7 +40,7 @@ To use event management public API, you need a web application token. The web ap
 4. Make sure that the `useRestStack` variable is set to true.
 5. Update the URL for `imagesEndpoint`. If you want to serve the images from the same server, the URL should look like this: `https://HOST/assets/images/` (HOST needs to be replaced with your domain name). 
 6. Change the `emApplicationtoken` variable to point to the URL from the **Token** field in the newly created in the web application record. 
-7. If you want to use the [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis), you need to set the `useAadB2C` variable to `true` and modify the `aadB2CConfig`. More information [Configure Azure Active Directory](#configuration-for-azure-active-directory).
+7. If you want to use the [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis), you need to set the `useAadB2C` variable to `true` and modify the `aadB2CConfig`. More information [Configure Azure Active Directory](#configuration-for-azure-active-directory).
 
 ## Configuration for Azure Active Directory
 

@@ -1,8 +1,7 @@
 ---
 title: "Install Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to install Dynamics 365 Field Service.
-ms.custom: dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 ms.date: 10/13/2020
 ms.reviewer: krbjoran
@@ -29,7 +28,7 @@ To follow the steps in this article, you will need:
 
 There are a few ways you can get access to Dynamics 365 Field Service: 
 
-- Sign up for an entirely new trial environment. Head to [the Dynamics 365 trials site](https://trials.dynamics.com), select **Field Service**, and follow the instructions.
+- Sign up for an entirely new trial environment. Head to [the Dynamics 365 trials site for Field Service](https://dynamics.microsoft.com/get-started/free-trial/?appname=fieldservice) and follow the instructions.
 
 - Purchase Field Service by going to your **Microsoft 365 admin center** > **Billing** > **Purchase Services** and select **Dynamics 365 Field Service** and **Buy Now**. You can also get Field Service from this [Dynamics 365 purchasing page](https://dynamics.microsoft.com/pricing/#FieldService).
 
@@ -42,12 +41,12 @@ If the installation is complete, the "Field Service" and "Field Service Mobile" 
 ```https://[your-environment-name].crm.dynamics.com/apps```
    
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service apps](media/admin-apps.png)
+> ![Screenshot of Field Service apps.](media/admin-apps.png)
  
 
 ## Step 2: Install and set up the Dynamics 365 Field Service mobile app
 
-Next, set up the mobile app that technicians will use to view and complete work orders in the field. For more information, see the article on [getting started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
+Next, set up the mobile app that frontline workers will use to view and complete work orders in the field. For more information, see the article on [getting started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
 
 
 ## Next steps

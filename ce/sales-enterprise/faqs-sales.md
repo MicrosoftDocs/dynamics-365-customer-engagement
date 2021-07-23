@@ -1,16 +1,14 @@
 ---
-title: "Frequently asked questions (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Frequently asked questions for Dynamics 365 Sales"
+title: "Frequently asked questions for Dynamics 365 Sales Enterprise | MicrosoftDocs"
+description: "Find a list of frequently asked questions that are related to different features in Dynamics 365 Sales Enterprise."
 ms.date: 09/29/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shubhadaj
 ---
 
-# Frequently asked questions
+# Frequently asked questions for Sales Enterprise
 
 ## Entity: Activity
 
@@ -28,7 +26,7 @@ manager: shubhadaj
 
 **Question**:<br>If the SchedulingEngine feature is enabled for appointments, why does the **Open Record Set** button disappear when an appointment is saved?
 
-**Answer**:<br>When you select **Save** to save an appointment, the **Open Record Set** button disappears. When you refresh the page, the button reappears. More information: [Open Record Set](https://docs.microsoft.com/powerapps/user/navigation#record-set-navigation)
+**Answer**:<br>When you select **Save** to save an appointment, the **Open Record Set** button disappears. When you refresh the page, the button reappears. More information: [Open Record Set](/powerapps/user/navigation#record-set-navigation)
 
 **Question**:<br>Why are the synchronized appointments from Outlook shown as unsaved in Dynamics 365?
 
@@ -38,7 +36,7 @@ manager: shubhadaj
 
 **Answer**:<br>This is by design. The What's new functionality is only available in the legacy web client. The equivalent in Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard:
 
-1. In your app, select **Settings** ![Settings](media/settings-icon.png), and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings.](media/settings-icon.png), and then select **Advanced Settings**.
 
    The **Business Management** page opens in a new browser tab.
 
@@ -63,7 +61,7 @@ manager: shubhadaj
 **Answer**:<br>To edit the value of estimated **Revenue** in the **Opportunity** form, the **Revenue** must be configured as **User Provided** and the opportunity must be in an **Open** state. 
 
    > [!div class="mx-imgBorder"]
-   > ![Edit estimated revenue](media/faqs-est-revenue.png "Edit estimated revenue")
+   > ![Edit estimated revenue.](media/faqs-est-revenue.png "Edit estimated revenue")
 
 
 ## Entities: Opportunity, Quote, Invoice, and Order
@@ -76,7 +74,7 @@ manager: shubhadaj
 **Answer**:<br>This is a by-design behavior in the legacy web client. However, this behavior is changed in Unified Interface. We recommend that you use Unified Interface to experience the inline edit view. To verify whether a grid is editable, go to **Grid control properties**.
 
    > [!div class="mx-imgBorder"]
-   > ![Properties settings for grid control](media/faqs-grid-control-properties.png "Properties settings for grid control")
+   > ![Properties settings for grid control.](media/faqs-grid-control-properties.png "Properties settings for grid control")
 
    > [!NOTE]
    > - In Unified Interface, the behavior of the grid columns **Price Per Unit** and **Quantity** as editable or non-editable is independent of the view that is selected.  
@@ -123,7 +121,7 @@ There are certain restrictions on inline editing based on the type of products i
 4. Save and publish the customizations.
 
   > [!div class="mx-imgBorder"]
-  > ![Change pricing on order form](media/faqs-pricing-change-order-product-form.png "Change pricing on order form")
+  > ![Change pricing on order form.](media/faqs-pricing-change-order-product-form.png "Change pricing on order form")
  
 ## Entities: Order and Invoice
 
@@ -144,11 +142,11 @@ There are certain restrictions on inline editing based on the type of products i
 
 In the legacy web client: 
   > [!div class="mx-imgBorder"]
-  > ![Edit pricing for a product](media/faqs-edit-pricing-for-product.png "Edit pricing for a product")
+  > ![Edit pricing for a product.](media/faqs-edit-pricing-for-product.png "Edit pricing for a product")
 
 In Unified Interface:
   > [!div class="mx-imgBorder"]
-  > ![Edit pricing for a product in Unified Interface](media/faqs-edit-pricing-for-product-uci.png "Edit pricing for a product in Unified Interface")
+  > ![Edit pricing for a product in Unified Interface.](media/faqs-edit-pricing-for-product-uci.png "Edit pricing for a product in Unified Interface")
 
 **Question**:<br>When can I change the values in the **Pricing Per Unit** column in the **Products** grid?
 
@@ -190,7 +188,7 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 -	On the [Permissions](provide-permissions-forecast.md) page, you can add security roles and provide them with permission to view or edit forecast. 
 -	On the [Layout](choose-layout-and-columns-forecast.md) page, you can edit column titles, descriptions, and whether or not they show up on the grid. 
 -	On the [Drill-down](configure-manage-drill-downs.md) page, you can add, delete, or update drill-downs.
--	On the [Snapshots](https://docs.microsoft.com/dynamics365/ai/sales/manage-snapshots-forecast) page, you can enable or disable daily snapshots for the forecast.
+-	On the [Snapshots](/dynamics365/ai/sales/manage-snapshots-forecast) page, you can enable or disable daily snapshots for the forecast.
 -	On the [Advanced](forecast-configure-advanced-settings.md) page, you can enable or disable auto-hide parent row, multi-currency selection, and customize access to edit fields in the underlying records grid.    
 When you save and publish the configuration, the changes will be applied immediately to the forecast. If you update data (simple columns and adjust fields), these changes may take up to two hours to reflect in the forecast. 
 

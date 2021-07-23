@@ -1,24 +1,27 @@
 ---
-title: "Recovering an Internet Explorer process instance in Unified Service Desk | MicrosoftDocs"
-description: "Learn about recovering an Internet Explorer process instance"
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Recover Internet Explorer process instances | MicrosoftDocs"
+description: "Learn how to recover Internet Explorer process instances in Unified Service Desk. Also, know how to use keyboard shortcuts to terminate and recover such instances."
 ms.date: 02/06/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Recover an Internet Explorer process instance
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+> [!Note]
+>
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been deprecated in Unified Service Desk. For information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11).
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
@@ -58,13 +61,13 @@ By default, Internet Explorer process instance recovery is enabled. To disable t
 
 When a hosted control that uses an Internet Explorer process browser control closes abruptly, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays the message **Internet Explorer closed abruptly**.
 
-![Internet Explorer closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Internet Explorer closed abruptly")
+![Internet Explorer closed abruptly.](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Internet Explorer closed abruptly")
 
 To recover the closed instance (which may contain more than one webpage), select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL. That is, when you open an **Account** Internet Explorer webpage and navigate inline to a **Case** Internet Explorer webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage.
 
 If you do not want to recover, select **Cancel**. If you cancel, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application skips recovery of the Internet Explorer process instance and displays a message, **The webpage stopped responding. If you frequently experience unexpected closing of Internet Explorer webpage, contact your system administrator**.
 
-![Cancel to skip the recovery of Internet Explorer webpage](../../unified-service-desk/media/usd-ie-closed-abruptly-cancel.PNG "Cancel to skip the recovery of Internet Explorer webpage")
+![Cancel to skip the recovery of Internet Explorer webpage.](../../unified-service-desk/media/usd-ie-closed-abruptly-cancel.PNG "Cancel to skip the recovery of Internet Explorer webpage")
 
 <a name="BKMK_recover_when_using_RunScript_on_a_hosted_control"></a>
 ## Recover when script executed on the webpage causes the webpage to run slowly
@@ -85,12 +88,12 @@ The following list shows the options and descriptions to select when you see the
 | Stop     | Terminates and does not to recover the Internet Explorer webpage.                                                                                                                                                         |
 | Continue | Waits until the Internet Explorer webpage to respond. If the webpage does not respond, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the window again after the timeout period. |
 
-![Script causing Internet Explorer webpage to run slowly](../../unified-service-desk/media/usd-ie-runscript.PNG "Script causing Internet Explorer webpage to run slowly")
+![Script causing Internet Explorer webpage to run slowly.](../../unified-service-desk/media/usd-ie-runscript.PNG "Script causing Internet Explorer webpage to run slowly")
 
 > [!Note]
 > If there are other webpages that are unresponsive, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the message - **Internet Explorer closed abruptly.** <br><br>
 > Select **Reload** to recover the webpage to the last known URL. Or, select **Cancel** to not to recover the webpage.</br>
-> ![Internet Explorer closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Internet Explorer closed abruptly")
+> ![Internet Explorer closed abruptly.](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Internet Explorer closed abruptly")
 
 ### Change IEWebPageInactivityTimeout option
 
@@ -127,13 +130,13 @@ When the Internet Explorer webpage is unresponsive and causes the [!INCLUDE[pn_u
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a dialog box: **You have chosen to end the Internet Explorer process that is active in Unified Service Desk by pressing Ctrl+Alt+K. Do you want to continue?**. 
 
-![Keyboard shortcut to terminate and not to recover Internet Explorer webpage](../../unified-service-desk/media/usd-ie-terminate-shortcutkey.PNG "Keyboard shortcut to terminate and not to recover Internet Explorer webpage")
+![Keyboard shortcut to terminate and not to recover Internet Explorer webpage.](../../unified-service-desk/media/usd-ie-terminate-shortcutkey.PNG "Keyboard shortcut to terminate and not to recover Internet Explorer webpage")
 
 Select **Yes** to terminate the Internet Explorer process instance. Select **No** to cancel the operation.
 
 After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a message, **Internet Explorer closed abruptly**. Select **Reload** to recover the closed Internet Explorer process instance. If you do not want to recover, select **Cancel**.
 
-![Internet Explorer closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Internet Explorer closed abruptly")
+![Internet Explorer closed abruptly.](../../unified-service-desk/media/usd-ie-closed-abruptly-33update.PNG "Internet Explorer closed abruptly")
 
 > [!Note]
 > - An agent must wait for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process (usdmp.exe) to detect and terminate the unresponsive Internet Explorer process instance.</br>
@@ -162,7 +165,7 @@ To change the keyboard shortcut:
 
 9. Select **Save**.
 
-![Change On-DemandIETerminationShortcut](../../unified-service-desk/unified-interface/media/crm-usd-options-on-demand-ie-termination-shortcut.PNG "Change On-DemandIETerminationShortcut")
+![Change On-DemandIETerminationShortcut.](../../unified-service-desk/unified-interface/media/crm-usd-options-on-demand-ie-termination-shortcut.PNG "Change On-DemandIETerminationShortcut")
 
 <a name="BKMK_Limitations"></a>
 ## Limitations 

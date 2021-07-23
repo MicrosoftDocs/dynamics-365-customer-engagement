@@ -1,10 +1,9 @@
 ---
 title: "Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens | MicrosoftDocs"
 description: Learn how to collaborate in mixed reality by integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist.
-ms.custom: dyn365-fieldservice
 ms.date: 01/14/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -56,13 +55,13 @@ Before you begin, make sure you have the following set-up:
 First, create a bookable resource that will serve as the technician or front line worker that will use both Field Service on the Field Service Mobile app and Dynamics 365 Remote Assist on the Dynamics 365 Remote Assist mobile app on their phone or tablet.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a bookable resource in Field Service on a desktop](./media/remote-assist-field-service-resource.png)
+> ![Screenshot of a bookable resource in Field Service on a desktop.](./media/remote-assist-field-service-resource.png)
 
 The bookable resource must have a **Resource Type** set to **User**; the related user record will need licenses to use both Field Service and Remote Assist. 
 
 To set up a field technician to use the Field Service mobile app, see the Field Service docs articles on:
 
-1. [Setting up Field Service users and security roles](https://docs.microsoft.com/dynamics365/field-service/view-user-accounts-security-roles#set-up-a-field-technician-user) 
+1. [Setting up Field Service users and security roles](./view-user-accounts-security-roles.md#set-up-a-field-technician-user) 
 2. [Install and setup the mobile app](mobile-power-app-get-started.md)
 
 Verify you can log into the Field Service mobile app successfully as the field technician user.
@@ -120,7 +119,7 @@ Like any typical day, the technician logs in to Field Service Mobile and sees th
 > ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
 > [!Note]
-> The deep link from Field Service Mobile to the Dynamics 365 Remote Assist mobile app is available on iOS and Android devices. For Field Service Mobile on iOS, your system administrator must import the [mobile project v1.0.4847 or later](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#104847). For Android devices, you must import the [mobile project v1.0.1322 or later](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#103482).
+> The deep link from Field Service Mobile to the Dynamics 365 Remote Assist mobile app is available on iOS and Android devices. For Field Service Mobile on iOS, your system administrator must import the [mobile project v1.0.4847 or later](./field-service-version-history-mobile.md#104847). For Android devices, you must import the [mobile project v1.0.1322 or later](./field-service-version-history-mobile.md#103482).
 
 ## Make a Dynamics 365 Remote Assist call
 
@@ -187,7 +186,7 @@ Technicians can:
 
 ### Set up Field Service for the HoloLens
 
-1. Ensure you're using Field Service v8.2 or later. [Upgrade](https://docs.microsoft.com/dynamics365/field-service/upgrade-field-service#field-service) your solution if necessary. 
+1. Ensure you're using Field Service v8.2 or later. [Upgrade](./upgrade-field-service.md#field-service) your solution if necessary. 
 2. Confirm the **My Bookings for Today** view on the **Bookable Resource Booking** entity is included:
 
      - Go to **Field Service** > **Settings** > **Customizations** > **Customize the System**.
@@ -195,7 +194,7 @@ Technicians can:
 > [!Note]
 > The **My In Progress Bookings** view has been renamed to **My Bookings for Today**. This doc has been updated to reflect the name change. Depending on your version of Dynamics 365 Field Service, you may see either name. The functionality remains the same regardless of the view name.
 
-> ![Bookable Resource view](media/bookable-resource-views.PNG "Bookable Resource view")
+> ![Bookable Resource view.](media/bookable-resource-views.PNG "Bookable Resource view")
 
 > [!Note]
 > Fields can be added to this view if necessary for your business needs.

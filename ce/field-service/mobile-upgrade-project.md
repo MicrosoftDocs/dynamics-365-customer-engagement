@@ -1,11 +1,10 @@
 ---
 title: "Upgrade the Field Service Mobile project template | MicrosoftDocs"
 description: Learn how to upgrade the Field Service Mobile project template.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 08/27/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -29,7 +28,7 @@ Periodically, Microsoft releases a new mobile project template when the Field Se
 If you have a new Field Service environment and want to set up the mobile app, follow these steps:
 
 1. [Download the latest Field Service Mobile project template](https://aka.ms/fsmobile-project). 
-2. Follow the instructions to [import and derive it in the mobile configuration tool (Woodford)](https://docs.microsoft.com/dynamics365/field-service/install-field-service#import-the-mobile-project-template).
+2. Follow the instructions to [import and derive it in the mobile configuration tool (Woodford)](./install-field-service.md#import-the-mobile-project-template).
 
 ## Upgrading an existing mobile project
 
@@ -44,7 +43,7 @@ Here is an example:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of mobile projects](./media/mobile-upgrade-project-customizations.png)
+> ![Screenshot of a list of mobile projects.](./media/mobile-upgrade-project-customizations.png)
 
 Now Microsoft has released a new mobile project template (Example: FSDyn_1.0.2735).
 
@@ -55,12 +54,12 @@ You have two options:
 
 The following are steps for option 2:
 
-1. Determine which Microsoft project template you customized. View the [version history](https://docs.microsoft.com/dynamics365/field-service/version-history#mobile-project-file-library) to find and download if you do not have the template.
+1. Determine which Microsoft project template you customized. View the [version history](./version-history.md#mobile-project-file-library) to find and download if you do not have the template.
 2. Once you have the project determined, download your customized project on your desktop along with the original Microsoft project that you started customizing. Select and highlight your project and choose **Export**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the mobile projects with attention to the export button](./media/mobile-upgrade-project-export.png)
+> ![Screenshot of the mobile projects with attention to the export button.](./media/mobile-upgrade-project-export.png)
 
 3. Download GitHub Desktop. 
 4. Open GitHub Desktop and initialize a repo in a folder of your choosing. 
@@ -68,7 +67,7 @@ The following are steps for option 2:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the file explorer with attention to the Woodford and Zip files](./media/mobile-upgrade-extract.png)
+> ![Screenshot of the file explorer with attention to the Woodford and Zip files.](./media/mobile-upgrade-extract.png)
 
 
 6. Commit this to the main branch in GitHub desktop. 
@@ -95,13 +94,13 @@ If you created or updated offline HTML files, typically for offline JavaScript w
 If you make changes to a mobile entity, it will show as **Overridden**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the mobile views, forms, and charts list with attention to the default views showing as overridden](./media/mobile-upgrade-overridden.png)
+> ![Screenshot of the mobile views, forms, and charts list with attention to the default views showing as overridden.](./media/mobile-upgrade-overridden.png)
 
 ### See also
 
 - [GitHub integration into Mobile Configurator Woodford](https://www.resco.net/github-integration-into-woodford/)
-- [Version history](https://docs.microsoft.com/dynamics365/field-service/version-history#mobile-project-file-library)
-- [Set up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet)
+- [Version history](./version-history.md#mobile-project-file-library)
+- [Set up Field Service Mobile](./install-field-service.md#download-the-field-service-mobile-app-on-a-phone-or-tablet)
 - [Common Field Service Mobile customizations](./mobile-app-configuration-customization.md)
 
 

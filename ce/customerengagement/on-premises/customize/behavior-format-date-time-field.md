@@ -1,9 +1,10 @@
 ---
 title: "Behavior and format of the Date and Time field in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn about the format options and behavior when you use the Date and Time data type
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -55,7 +56,7 @@ In Dynamics 365 Customer Engagement (on-premises), the Date and Time data type i
 
   The following screenshot shows the date and time manager property.  
 
-  ![Set managed property for Date/Time field](../customize/media/datetime-set-managed-property.PNG "Set managed property for Date/Time field")  
+  ![Set managed property for Date/Time field.](../customize/media/datetime-set-managed-property.PNG "Set managed property for Date/Time field")  
 
 <a name="DateOnly"></a>   
 ## Date Only example: birthdays and anniversaries  

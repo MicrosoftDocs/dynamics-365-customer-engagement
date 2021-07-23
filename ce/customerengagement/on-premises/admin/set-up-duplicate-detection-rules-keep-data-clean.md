@@ -1,9 +1,10 @@
 ---
 title: "Set up duplicate detection rules to keep your data clean in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Set rules to reduce duplicate records in the system."
 ms.custom: 
 ms.date: 10/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,14 @@ ms.assetid: a692ee2a-ad33-47a9-978e-00331ec0f75e
 caps.latest.revision: 54
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Set up duplicate detection rules to keep your data clean
 
-*This content also applies to the on-premises version.*
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 To maintain the integrity of your data, it’s a good idea to have rules in place to reduce duplicate records in the system. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule.  
   
@@ -78,7 +79,7 @@ To maintain the integrity of your data, it’s a good idea to have rules in plac
   
     The number of criteria that you can select is limited by the number of characters that can be stored in the matchcode for the record. As you add criteria, watch the **Current matchcode length** value shown at the bottom of the criteria list.  
   
-   ![Example duplicate detection rule](../admin/media/cc-duplicate-detection-rule-cc-duplicate-detection-rule.PNG "Example duplicate detection rule")  
+   ![Example duplicate detection rule.](../admin/media/cc-duplicate-detection-rule-cc-duplicate-detection-rule.PNG "Example duplicate detection rule")  
   
 6. When you’re finished adding criteria, choose **Save and Close**.  
   

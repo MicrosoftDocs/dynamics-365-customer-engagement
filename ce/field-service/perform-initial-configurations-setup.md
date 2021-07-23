@@ -1,10 +1,9 @@
 ---
 title: "Perform initial configurations (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about how to perform initial configurations for Dynamics 365 Field Service.
-ms.custom: dyn365-fieldservice
 ms.date: 02/26/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -52,20 +51,20 @@ First, you need to enable mapping and location services for the application. Map
 This is all accomplished by **geocoding**, where the solution associates a latitude and longitude to an address.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing settings for scheduling parameters](media/quickstart-apps-rs.png) 
+> ![Screenshot showing settings for scheduling parameters.](media/quickstart-apps-rs.png) 
 
 Go to **Resource Scheduling app** > **Administration** > **Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of settings](media/quickstart-rs-settings.png) 
+> ![Screenshot of settings.](media/quickstart-rs-settings.png) 
 
 Set **Connect to Maps** to **Yes**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of setting connect to maps to yes](media/Perform-Initial-Configurations-image7.png)  
+> ![Screenshot of setting connect to maps to yes.](media/Perform-Initial-Configurations-image7.png)  
 
 > [!Note]
-> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden.
+> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden, and is unavailable for end users and external parties.
 
 Save and close.
 
@@ -77,7 +76,7 @@ Later in this article, we'll test geocoding and location services to make sure t
 Next up, navigate to **Resource Scheduling > Administration > Enable Resource Scheduling for Entities**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Enabling entities for scheduling](media/Perform-Initial-Configurations-image8.png)  
+> ![Screenshot of Enabling entities for scheduling.](media/Perform-Initial-Configurations-image8.png)  
 
 This is where administrators decide which entities can be scheduled to Resources. When Field Service is installed, work orders are enabled for resource scheduling, and when Project Service is installed, projects are enabled. This is made possible by a solution called [Universal Resource Scheduling](universal-resource-scheduling.md) that adds scheduling capabilities to entities and makes use of the schedule board. Any entity (including custom entities) can be enabled for scheduling; typical examples include cases, opportunities, and orders.
 
@@ -108,22 +107,22 @@ Go to **Field Service** > **Work Orders** and select **+New**.
 Begin typing an address.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Work Order address form](media/Perform-Initial-Configurations-image13.png)  
+> ![Screenshot of Work Order address form.](media/Perform-Initial-Configurations-image13.png)  
 
 The system will find the address and present it as a suggestion.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of address](media/Perform-Initial-Configurations-image14.png)  
+> ![Screenshot of address.](media/Perform-Initial-Configurations-image14.png)  
 
 After selecting the correct address, the form will populate the rest of the address, **including the latitude and longitude**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of address with latitude and longitude populated on work order form](media/Perform-Initial-Configurations-image15.png)  
+> ![Screenshot of address with latitude and longitude populated on work order form.](media/Perform-Initial-Configurations-image15.png)  
 
 If you don't want the system to auto geocode addresses, select the geocode button in the top ribbon.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Geocode button](media/Perform-Initial-Configurations-image16.png)  
+> ![Screenshot of Geocode button.](media/Perform-Initial-Configurations-image16.png)  
 
 >[!Note]
 > **Pro Tip \#1:** When using the Field Service application, it's uncommon to enter addresses on a work order. The standard process is to geocode accounts, and when a service account is entered on a work order as the service location, the geocoded address is pulled from the account and added to the work order.
@@ -132,7 +131,7 @@ If you don't want the system to auto geocode addresses, select the geocode butto
 > **Pro Tip \#2:** It's possible to geocode multiple records at one time by selecting the records from a view. In the screenshot below, we are mass geocoding accounts.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of mass Geocoding multiple account records](media/Perform-Initial-Configurations-image17.png)  
+> ![Screenshot of mass Geocoding multiple account records.](media/Perform-Initial-Configurations-image17.png)  
 
 
 

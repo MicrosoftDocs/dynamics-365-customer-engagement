@@ -2,14 +2,12 @@
 title: "Customize the Dynamics 365 Sales Professional app"
 description: "Learn how to customize the Dynamics 365 Sales Professional app."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Customize the Dynamics 365 Sales Professional app
@@ -23,17 +21,17 @@ The Dynamics 365 Sales Professional application is a modular app built to provid
 
 2.	Under **Customization**, select **Application management**.
 
-    ![Application Management option in the site map](media/application-management-sitemap.png "Application Management option in the site map")
+    ![Application Management option in the site map.](media/application-management-sitemap.png "Application Management option in the site map")
 
 3.	Select **Edit Sales Professional app** to open the app designer.
 
-    ![Edit Sales Professional app button on the Application Management page](media/edit-sales-professional-app-button.png "Edit Sales Professional app button on the Application Management page")
+    ![Edit Sales Professional app button on the Application Management page.](media/edit-sales-professional-app-button.png "Edit Sales Professional app button on the Application Management page")
  
     The Sales Professional app opens in the app designer in a new tab. 
 
-    ![Sales Professional app in the App Designer](media/app-designer-sales-professional.png "Sales Professional app in the App Designer")
+    ![Sales Professional app in the App Designer.](media/app-designer-sales-professional.png "Sales Professional app in the App Designer")
  
-You can now edit the app using the app designer. To learn about how to use the app designer to edit the app module: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md).
+You can now edit the app using the app designer. To learn about how to use the app designer to edit the app module: [Design custom business apps by using the app designer](../customerengagement/on-premises/customize/design-custom-business-apps-using-app-designer.md).
 
 
 

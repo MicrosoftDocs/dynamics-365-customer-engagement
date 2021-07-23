@@ -1,8 +1,7 @@
 ---
 title: "Sample data installation (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to install sample data for Dynamics 365 Field Service
-ms.custom: dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.date: 04/24/2020
 ms.topic: article
 ms.reviewer: krbjoran
@@ -73,7 +72,7 @@ Plan for the computer to remain connected to a network, and for the installation
 The computer should have the screen saver function turned off. Otherwise, session credentials for the installation may be lost when the screen saver engages (unless you keep your session active throughout).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of screensaver settings, with screensaver turned off](media/sample-data-1.png)
+> ![Screenshot of screensaver settings, with screensaver turned off.](media/sample-data-1.png)
 
 ## Download and unpack
 
@@ -105,7 +104,7 @@ To create or configure users, go to **Settings** > **Security** > **Users**, and
 
 4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the username of your Spencer Low user. For more information, see the technical notes below.
 
-**Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see [Backup and restore instances](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## Run the Package Deployer
 
@@ -129,7 +128,7 @@ To create or configure users, go to **Settings** > **Security** > **Users**, and
 5. Select **Next** until you see the **Demo Data Setup** dialog.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the demo data installer status window](media/sample-data-3.png)
+    > ![Screenshot of the demo data installer status window.](media/sample-data-3.png)
 
 6. Installing sample data could take up to one hour (normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
 
@@ -148,10 +147,10 @@ After the sample data completely loads, sign in as the Spencer Low user and conf
 - If the Field Service application is installed, go to **Project Service** > **Settings** > **Price Lists**. Confirm that bill rates and costs rates exist. Go to **Field Service** > **Settings** > **Price Lists** and check that bill rates and costs rates exist, with the appropriate currency, for each country/region in the data set.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of active price lists](media/sample-data-4.png)
+  > ![Screenshot of active price lists.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of active organizational units](media/sample-data-5.png)
+  > ![Screenshot of active organizational units.](media/sample-data-5.png)
 
 ## Technical notes
 
@@ -248,7 +247,7 @@ If you need to change the work hours for sample bookable resources, go to **Univ
 Select a user (for example, Spencer Low) and change Spencer's work hours to the hours you want to apply to multiple users. Go to **Universal Resource Scheduling** > **Settings** > **Work Hour Templates** and edit the **Default Work Template** record. In the **Template Resource** field, select a user with work hours that you want to apply to other resources. Go to **Universal Resource Scheduling** > **Scheduling** > **Resources** > **Active Bookable Resources**. Select the resources you want to change, and then select **Set Calendar**. On the **Work Template** drop-down list, select the **Default Work Hour** template or another template with the correct templating resource. When you go the schedule board, you should be able to see that the resources now have updated work hours.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of active bookable resources](media/sample-data-6.png)
+> ![Screenshot of active bookable resources.](media/sample-data-6.png)
 
 ## Sample data for older version of Field Service
 

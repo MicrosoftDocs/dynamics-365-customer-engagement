@@ -4,7 +4,7 @@ description: "Learn about modifying the icons for an entity."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -35,7 +35,7 @@ When you create a new entity, default icons are provided. You can change the ico
 > [!NOTE]
 >  When you first associate Web Resources with icons in the application the size of the icons will be checked. If you associate Web Resources programmatically, no size validation occurs. If the Web Resource is later updated with a large size image, no validation occurs.  
 
- For more information about how to manually update icons, see [Change entity icons](https://go.microsoft.com/fwlink/p/?LinkId=316860).  
+ For more information about how to manually update icons, see [Change entity icons](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826682(v=crm.8)).  
 
 ## Types of icons  
  The following table liststhe types of entity icons you can update.  

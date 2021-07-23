@@ -50,7 +50,7 @@ To enable the preview features:
 
 1. Find the **Updates** section of the page, and then select the **Manage** link at the top of this section.
 
-    ![Location of the Updates section](media/preview-enable-1.png "Location of the Updates section")
+    ![Location of the Updates section.](media/preview-enable-1.png "Location of the Updates section")
 
     > [!NOTE]
     > If the **Manage** link isn't present, and it says **On** under **April 2019 update**, then you've already enabled the preview for this environment. But you might still need to install the features, so skip ahead to step 8 to make sure.
@@ -59,12 +59,12 @@ To enable the preview features:
 
 1. The **Turn on April 2019 update?** dialog box opens. To confirm that you want to enable the preview features for your selected environment, enter the environment name in the field provided here and then select **Confirm**.
 
-    ![The enable-preview flyout and dialog](media/preview-enable-2.png "The enable-preview flyout and dialog")
+    ![The enable-preview flyout and dialog.](media/preview-enable-2.png "The enable-preview flyout and dialog")
 
 1. [Open the Power Platform admin center](power-platform-admin-center.md).
 
 1. Go to the **Applications** tab of the admin center to see a list of applications you have installed.  
-    ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
+    ![Open the Applications tab.](media/update-app-tab.png "Open the Applications tab")
 
     The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for Dynamics 365 Marketing. Free entitlements show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the environment where they are installed at the end of their application name.
 
@@ -76,7 +76,7 @@ To enable the preview features:
 
 ## Preview support and feedback
 
-If you wish to report an issue with a preview feature, please [open a support ticket](https://docs.microsoft.com/power-platform/admin/get-help-support) and include the following tags in the **Issue title** of your ticket:
+If you wish to report an issue with a preview feature, please [open a support ticket](/power-platform/admin/get-help-support) and include the following tags in the **Issue title** of your ticket:
 
 - For marketing-contacts monitoring, please include: [PREVIEW][MCM]
 - For social posting, please include: [PREVIEW][SOCIAL]

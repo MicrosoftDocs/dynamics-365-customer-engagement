@@ -20,6 +20,8 @@ search.app:
 ---
 # Update game scores by using Excel point scoring capabilities in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 If you plan to run a game that uses one or more KPIs that can't be tracked by using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you can update the scores for those KPIs by using an [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] template.  
   
 > [!IMPORTANT]
@@ -29,13 +31,13 @@ If you plan to run a game that uses one or more KPIs that can't be tracked by us
   
 1. Go to **Games** > **Games**.  
   
-2. Select the **[!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] Point Scoring** ( ![Excel point scoring button in Gamification](media/excel-point-scoring-gamification.png "Excel point scoring button in Gamification")) button.  
+2. Select the **[!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] Point Scoring** ( ![Excel point scoring button in Gamification.](media/excel-point-scoring-gamification.png "Excel point scoring button in Gamification")) button.  
   
 3. Select the game you want to update the scores from, and then select the game period you want to update.  
   
-4. Select **Download [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template** ![Download Excel template in Gamification](media/download-excel-gamification.png "Download Excel template in Gamification"), and then update the scores in the file.  
+4. Select **Download [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] template** ![Download Excel template in Gamification.](media/download-excel-gamification.png "Download Excel template in Gamification"), and then update the scores in the file.  
   
-5. Select **Upload [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file** ![Upload Excel file in Gamification](media/upload-excel-gamification.png "Upload Excel file in Gamification") to upload the file, including the manually updated scores.  
+5. Select **Upload [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file** ![Upload Excel file in Gamification.](media/upload-excel-gamification.png "Upload Excel file in Gamification") to upload the file, including the manually updated scores.  
   
    The selected KPIs are now updated in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] for the selected game period.  
   

@@ -1,12 +1,12 @@
 ---
-title: "Overview of Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Know the basics of service and service scheduling in Dynamics 365 Customer Service."
+title: "Overview of Service Scheduling and Scheduling experience in Dynamics 365 Customer Service | MicrosoftDocs"
+description: "This topic provides information on the basics of service and service scheduling in Dynamics 365 Customer Service."
+ms.date: 12/15/2020
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.custom: intro-internal
 ---
 
 # Overview of Service Scheduling
@@ -37,7 +37,7 @@ Let's see how Contoso accomplishes the task:
 **Step 1: Create organizational units**  </br>
    Organizational units are the locations where Contoso provides service to their customers. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
 
-   ![organizational units](media/org-unit-csh.png) 
+   ![organizational units.](media/org-unit-csh.png) 
    
 **Step 2: Create resources**</br>
   Contoso lists the resources required to perform the services. 
@@ -47,13 +47,13 @@ Let's see how Contoso accomplishes the task:
 
   In this example, two resources (contacts) Bert Hair and Gilda Moss are created. Similarly, two more resources (facility/equipment) are created as Bike repair workbench - 1 and Bike repair workbench - 2, which are required to perform the service. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
 
-  ![resouces-csh](media/resources-csh.png) 
+  ![resouces-csh.](media/resources-csh.png) 
 
 
 **Step 3: Set work hours for the resource, resource group or facility/equipment** </br>
    The availability of the resources is defined in the work hours section. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)
 
-   ![set-work-hours](media/set-work-hours-csh-1a.png)  
+   ![set-work-hours.](media/set-work-hours-csh-1a.png)  
    
   
 **Step 4: Create resource groups** </br>
@@ -63,24 +63,24 @@ Let's see how Contoso accomplishes the task:
     
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
 
-   ![resource group](media/res-groups-csh.png) 
+   ![resource group.](media/res-groups-csh.png) 
 
 
 **Step 5: Create a service record**  </br>
    Contoso now collates all the above inputs to create a bike repair service record for the customer. They also specify the resources/resource groups they will need for the service. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md)
 
-   ![service-csh](media/service-csh.png) 
+   ![service record in Customer Service Hub.](media/service-csh.png "service record in Customer Service Hub") 
  
 **Step 6: Create a service activity**  </br>
    A service activity is defined to look for the next available time slot to schedule the service and align resources as per requirement.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
 
-   ![service-activity](media/service-activity-csh.png)
+   ![service-activity.](media/service-activity-csh.png)
 
 **Step 7: Book the service in the schedule board**  </br>
 
   The schedule board displays all the service configurations at one place to quickly schedule a service. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)
 
-   ![schedule-board](media/schedule-board-csh.png)  
+   ![schedule-board.](media/schedule-board-csh.png)  
 
 ## Set up the Service Scheduling experience
 
@@ -112,21 +112,21 @@ The set up experience is different based on the following scenarios:
 2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
 
    > [!div class=mx-imgBorder]
-   > ![Go to Dynamics 365 in the Microsoft 365 admin center](media/microsoft-365-admin-center-dynamics-csh.png)
+   > ![Go to Dynamics 365 in the Microsoft 365 admin center.](media/microsoft-365-admin-center-dynamics-csh.png)
 
 3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down. 
 
 4. select the edit icon next to solutions. Manage your solutions page appears.
 
    > [!div class=mx-imgBorder]
-   > ![Edit the solutions](media/dynamics-365-admin-instance-edit-csh.png)
+   > ![Edit the solutions.](media/dynamics-365-admin-instance-edit-csh.png)
 
 5. In the **Manage your solutions** page, select **Core Service Scheduling**. The status column shows **Not installed**.
 
 6. Select the install icon next on the **Core Service Scheduling** card. The **Terms of service** page appears.
 
    > [!div class=mx-imgBorder]
-   > ![Install the solutions](media/core-service-scheduling-install-csh.png)
+   > ![Install the solutions.](media/core-service-scheduling-install-csh.png)
 
 7. In the **Terms of service** page, read the terms and conditions and then select **install**. The installation may take few minutes.
 
@@ -136,10 +136,10 @@ After successful installation, you can access scheduling in the Customer Service
 
 With the latest release of Dynamics 365 Customer Service, Scheduling is powered by Universal Resource Scheduling, and is available from the Customer Service Hub sitemap.
 
-- Select ![change area](media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
+- Select ![change area.](media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
 
   > [!div class=mx-imgBorder]
-  > ![access-service-scheduling](media/access-service-scheduling-csh.png)
+  > ![access-service-scheduling.](media/access-service-scheduling-csh.png)
 
 ## Configure entity records in the new scheduling experience
 
@@ -167,7 +167,7 @@ Scheduling entities are grouped under the following logical groups:
 - **Facilities/Equipment**  </br>
    Facilities and equipment are resources you'd use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md)
 
 - **Resource Categories** </br>
    With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. 

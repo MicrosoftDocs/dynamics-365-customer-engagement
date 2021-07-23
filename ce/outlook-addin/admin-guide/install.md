@@ -65,7 +65,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 -   To install from the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] web application:
 
-    1.  Click the **Settings** button ![Settings button](../media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 apps**.  
+    1.  Click the **Settings** button ![Settings button.](../media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 apps**.  
 
     2.  On the **Apps for Dynamics 365 apps** page, click **Download from [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] Download Center**.  
 
@@ -107,7 +107,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 1. To add an organization, choose one of the following:
 
-   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 apps ** from the drop-down list.  
+   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 apps** from the drop-down list.  
 
 2. Click **Connect**.
 

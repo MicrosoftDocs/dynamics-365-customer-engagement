@@ -1,9 +1,10 @@
 ---
-title: "Collaborate with your colleagues using Microsoft 365 Groups (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-ms.custom: 
+title: "Collaborate using Office 365 Groups in Dynamics 365 Customer Engagement (on-premises)"
+description: "Office 365 Groups allow team members to collaborate to get stuff done. Learn how to create or join a group, start a conversation, share files, and more."
+ms.custom:
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -29,14 +30,14 @@ search.audienceType:
 > [!IMPORTANT]
 > [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
   
- ![Dashboard of an Microsoft 365 group](../basics/media/office-groups-dashboard.png "Dashboard of an Microsoft 365 group")  
+ ![Dashboard of an Microsoft 365 group.](../basics/media/office-groups-dashboard.png "Dashboard of an Microsoft 365 group")  
   
  Collaborate through meetings, conversations, notes, or documents.  
   
 > [!NOTE]
 >  Check out the following for a quick introduction to [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]:  
 > 
-> - [![Video symbol](../basics/media/video-button.png "Video symbol")](https://go.microsoft.com/fwlink/p/?LinkId=404225) Video: [Introducing Groups in Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkID=723955).  
+> - [![Video symbol](../basics/media/video-button.png "Video symbol.")](https://go.microsoft.com/fwlink/p/?LinkId=404225) Video: [Introducing Groups in Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkID=723955).  
 >   -   [Learn more about groups](https://support.office.com/article/Learn-more-about-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2?ct=t\(GS_SPO1_11_2015\)&ui=en-US&rs=en-US&ad=US).  
   
 ## Prerequisites  
@@ -56,7 +57,7 @@ search.audienceType:
 4. In the **Welcome to Microsoft 365 Groups for Dynamics 365 Customer Engagement (on-premises)!** section, select **Create Microsoft 365 Group** or search for an existing group to join.  
   
 > [!NOTE]
-> - As of November 2019, Office Groups with MIP (Microsoft Information Protection) sensitivity labels can't be created from Dynamics 365 (on-premises). You have to create the group outside of Dynamics 365 (on-premises). For more information see, [Learn more about creating new group with Sensitivity Label](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#apply-a-sensitivity-label-to-a-new-group). Once this is done, add the link from Dynamics 365 (on-premises) by [joining the group](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/collaborate-with-colleagues-using-office-365-groups#create--or-join-a-group).
+> - As of November 2019, Office Groups with MIP (Microsoft Information Protection) sensitivity labels can't be created from Dynamics 365 (on-premises). You have to create the group outside of Dynamics 365 (on-premises). For more information see, [Learn more about creating new group with Sensitivity Label](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#apply-a-sensitivity-label-to-a-new-group). Once this is done, add the link from Dynamics 365 (on-premises) by joining the group.
 > - You can only connect to groups returned in search for which you are a member. Hover over the search results to see your status.  
 >   - When you add team members to a project, they will be automatically added to the associated group.  
 >   - You can associate existing groups to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records. You don't need to create a new group to create an association.  

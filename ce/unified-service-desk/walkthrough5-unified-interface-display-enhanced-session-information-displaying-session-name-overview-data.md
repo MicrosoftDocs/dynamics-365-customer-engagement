@@ -1,12 +1,11 @@
 ---
-title: "Walkthrough 5  Display enhanced session information by displaying session name and overview data | MicrosoftDocs"
-description: "Demonstrates how to dynamically display session name and session overview information in Unified Service Desk to enhance the customer-interaction experience for your agents."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough 5: Display session information for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying enhanced session information for Unified Interface apps."
 ms.date: 06/25/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -14,7 +13,7 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Walkthrough 5: Display enhanced session information by displaying session name and overview data
+# Walkthrough 5: Display enhanced session information
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -186,15 +185,15 @@ In the previous walkthrough, [Walkthrough 4: Display a Unified Interface apps re
   
 3. Click the expander to display the left pane (SessionExplorerPanel).  
   
-   ![Choose the expander in Unified Service Desk](../unified-service-desk/media/usd-choose-expander-unified-interface-left-pane.png "Choose the expander in Unified Service Desk") 
+   ![Choose the expander in Unified Service Desk.](../unified-service-desk/media/usd-choose-expander-unified-interface-left-pane.png "Choose the expander in Unified Service Desk") 
   
 4. Click any of the account records to display the respective account information in a session in the agent application. Note that the name of the session tab automatically displays the word **Session:** followed by the current account name. The left pane displays the session overview information that was defined earlier.  
   
-   ![Session name and overview information](../unified-service-desk/media/crm-itpro-usd-wt05-05-unified-interface.png "Session name and overview information")  
+   ![Session name and overview information.](../unified-service-desk/media/crm-itpro-usd-wt05-05-unified-interface.png "Session name and overview information")  
   
 5. If you open another account record, it will be displayed in another session in your client application. To open another account, click the down arrow next to the **Search** button, click **Account**, and then click an account name to display the account information in another session.  
   
-   ![Multiple sessions in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt05-06-unified-interface.png "Multiple sessions in Unified Service Desk")
+   ![Multiple sessions in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-wt05-06-unified-interface.png "Multiple sessions in Unified Service Desk")
   
 <a name="Conclusion"></a>   
 ## Conclusion  

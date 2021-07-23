@@ -1,12 +1,11 @@
 ---
-title: "Asynchronous channel support"
+title: "Asynchronous channel support | MicrosoftDocs" 
 description: "Adaptive card, emojis, and other support in asynchronous channels in Omnichannel for Customer Service."
+ms.date: 04/15/2021
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 02/03/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -74,7 +73,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | LINE                 | Image, Audio, Video, GIF                   | Image, Audio, Video, Documents, GIF   |
 | Twitter              | Image, Video, GIF, Emoji                   | Image, Video, GIF                     |
 | WeChat               | Image, Audio, Video                        | Image, Audio, Video                   |
-| WhatsApp             | Image, Audio, Video, PDF                   | Image, Audio, Video, PDF              |
+| WhatsApp             | Image, Audio, Video, GIF PDF               | Image, Audio, Video, PDF              |
 | SMS (Twilio)         | Image, Video, GIF, Emoji                   | Image, Audio, Video, GIF              |
 | Custom (Telegram)    | Image, Audio, Video, Documents, GIF, Emoji | Image, Audio, Video, Documents, GIF   |
 | Custom (Direct Line) | All types except blocked types in org      | All types except blocked types in org |

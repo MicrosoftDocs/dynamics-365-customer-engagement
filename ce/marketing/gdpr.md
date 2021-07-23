@@ -30,7 +30,7 @@ Dynamics 365 Marketing is prepared to help organizations work in compliance with
 
 Here are some resources where you can learn more about how to bring your Dynamics 365 systems into compliance with the GDPR:
 
-- [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index). This webpage includes links to resources, white papers, blogs, and other information related to various Dynamics 365 applications and the GDPR.
+- [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index). This webpage includes links to resources, white papers, blogs, and other information related to various Dynamics 365 applications and the GDPR.
 - [Supporting Your EU GDPR Compliance Journey with Dynamics 365 Marketing](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=b26973bd-68c3-4507-b446-61a7f1b1f1f2&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers). This white paper (downloadable PDF) will help you build a basic understanding of the GDPR and relate that to Dynamics 365 Marketing.
 - [Data Protection Resources](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ%20and%20White%20Papers). This webpage includes links to compliance guides, white papers, FAQs, security reports, penetration tests, risk assessment tools, and other resources that apply to a wide range of Microsoft products.
 - [Microsoft Trust Center](https://www.microsoft.com/trustcenter). This webpage includes links to information about how new features in Microsoft 365 help you secure personal data and meet strict GDPR privacy requirements.
@@ -94,7 +94,7 @@ By default, GDPR features such as consent management are disabled on new Dynamic
 
 
     > [!div class="mx-imgBorder"]
-    > ![The GDPR configuration form](media/gdpr-config2.png)
+    > ![The GDPR configuration form.](media/gdpr-config2.png)
 
     Make the following settings:
     - **Name**: Enter any name that you like.
@@ -108,7 +108,7 @@ By default, GDPR features such as consent management are disabled on new Dynamic
 When GDPR is enabled, you can view and set data-protection options for each contact. To work with them, open a contact record, go to its **Details** tab, and then scroll down to find the **Data protection** section.
 
 > [!div class="mx-imgBorder"]
-> ![Data protection settings for contacts](media/gdpr-contact2.png)
+> ![Data protection settings for contacts.](media/gdpr-contact2.png)
 
 The following settings and information are available here:
 
@@ -122,7 +122,7 @@ The following settings and information are available here:
 You can filter segments by consent level just like you can when filtering by other contact values. Use the **Consent Given** field of the **Contact** entity to filter by consent level.
 
 > [!div class="mx-imgBorder"]
-> ![Filter a segment by consent level](media/gdpr-segment2.png)
+> ![Filter a segment by consent level.](media/gdpr-segment2.png)
 
 <a name="journey-consent-level"></a> 
 
@@ -131,7 +131,7 @@ You can filter segments by consent level just like you can when filtering by oth
 You can set the minimum consent level for any customer journey. When set, the journey will process only contacts of that level or higher. To do this, open the journey, go to its **General** tab, and set the **Minimum consent** field to the appropriate level.
 
 > [!div class="mx-imgBorder"]
-> ![Set the minimum required consent level for a customer journey](media/gdpr-jouney3.png)
+> ![Set the minimum required consent level for a customer journey.](media/gdpr-jouney3.png)
 
 If you change the consent level of a running customer journey, the journey stops processing any contacts that don't meet that level of consent, including contacts that are already partly through the journey.
 
@@ -142,7 +142,7 @@ You can set the minimum consent level for any lead-scoring model. When set, the 
 To do this, open the lead scoring model, go to the **Summary** tab, and set the **Minimum consent** field to the appropriate level.
 
 > [!div class="mx-imgBorder"]
-> ![Set the minimum required consent level for lead scoring models](media/gdpr-jouney3.png)
+> ![Set the minimum required consent level for lead scoring models.](media/gdpr-jouney3.png)
 
 ## Include a consent selector in a subscription center
 
@@ -182,7 +182,7 @@ Then prepare a single customer journey with three parallel pipelines, one for ea
 1. End with an email message, which informs the customer that their request was received and provides additional links and instructions (such as a subscription center link), depending on the type of request.
 
 > [!div class="mx-imgBorder"]
-> ![Example customer journey for handling GDPR requests](media/gdpr-example-journey2.png)
+> ![Example customer journey for handling GDPR requests.](media/gdpr-example-journey2.png)
  
 The remaining subsections offer more details about how this example solution could be completed to support each type of request.
 
@@ -223,7 +223,7 @@ Part of the GDPR regulations is a requirement that your organization takes steps
 - **Marketing insights:** Marketing insights can include details such as website browsing records, form submissions, event attendance, and more.  Some, but not necessarily all, users that have access to contact records may be granted access to view this information. You can control this access by assigning security groups at the form level.
 - **Fields with especially sensitive information:** Your contact records may include data fields with especially sensitive information, such as financial, medical, or political affiliation details. Some, but not necessarily all, users that have access to contact records may be granted access to view this information. You can control this access by assigning security groups at the field level.
 
-For more information about how to work with the security groups and other security features in Dynamics 365, see [Security in Microsoft Dataverse](https://docs.microsoft.com/power-platform/admin/wp-security).
+For more information about how to work with the security groups and other security features in Dynamics 365, see [Security in Microsoft Dataverse](/power-platform/admin/wp-security).
 
 ## Demonstrate GDPR compliance
 
@@ -242,7 +242,7 @@ To add a comment about why you changed the consent level of a contact, or to rev
 1. If you'd like to export this list, select the **Export** button on the command bar.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of GDPR consent change records](media/gdpr-inspect-consent-changes.png)
+> ![Screenshot of GDPR consent change records.](media/gdpr-inspect-consent-changes.png)
 
 ### Enable auditing to log all record changes
 
@@ -250,10 +250,10 @@ Dynamics 365 can keep a record of all database changes, who made them, and when.
 
 To access the auditing features:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **System** > **Auditing** to open the **Audit** page. From there, you can access the auditing settings and review the audit record.
 
-This feature is part of the standard functionality of Dynamics 365. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).
+This feature is part of the standard functionality of Dynamics 365. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](/power-platform/admin/audit-data-user-activity).
 
 ### View the audit history to find consent-level changes for a contact
 
@@ -266,7 +266,7 @@ Once you've enabled auditing for contacts, you'll be able to view a record of ch
 1. To view consent changes only, set **Filter on** to **Consent given**.
 
 > [!div class="mx-imgBorder"]
-> ![Filter audit history by consent given](media/gdpr-audit-history2.png)
+> ![Filter audit history by consent given.](media/gdpr-audit-history2.png)
 
 ### See also
 

@@ -1,12 +1,10 @@
 ---
 title: "Dynamics 365 Field Service inspections | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 02/01/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -24,11 +22,7 @@ search.app:
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection on a tablet and a phone](./media/inspections-mobile-2020-tablet-phone.png)
-
-With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](https://docs.microsoft.com/dynamics365/field-service/inspections-advanced#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
+With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-advanced.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
 Inspections in Field Service also provide: 
 
@@ -69,7 +63,7 @@ First, create an inspection that can be reused and added to multiple work orders
 From the Field Service app, go to **Settings** > **Inspections** > **+New**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of active inspections in Dynamics 365 Field Service](./media/inspections-navigate.png)
+> ![Screenshot of active inspections in Dynamics 365 Field Service.](./media/inspections-navigate.png)
 
 Name your inspection and add a description.
 
@@ -116,14 +110,11 @@ In Early Access opt in release a TextBox can be input with a default value and c
 Use the **Required** toggle to make the inspection question mandatory.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service inspection, showing additional questions](./media/inspections-create2.png)
+> ![Screenshot of a Field Service inspection, showing additional questions.](./media/inspections-create2.png)
 
 By selecting the **Gear** icon, you can add more details for an inspection question.
 
 ### Compact question view
-
-> [!Note]
-> The compact question view feature is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
 Before selecting an individual question, go to the advanced pane to edit the look and feel of the inspection.
 
@@ -221,7 +212,7 @@ Sign in with your Dynamics 365 URL, username, and password, and go to the assign
 Select the **Work Order Service Task** that has the related inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) mobile app showing service tasks](media/inspections-fsm-new1.png)
+> ![Screenshot of Field Service (Dynamics 365) mobile app showing service tasks.](media/inspections-fsm-new1.png)
 
 Find the inspection form and enter answers.
 
@@ -266,7 +257,7 @@ Back in Dynamics 365, a dispatcher will see inspection responses.
 After the work order is scheduled to the appropriate technician, they can see and complete the inspection from the work order on the [Field Service Mobile](field-service-mobile-overview.md) app.
 
 > [!Note]
-> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](https://aka.ms/fsmobile-project). For more information on mobile project templates, see the topic on [importing the mobile project template](https://docs.microsoft.com/dynamics365/field-service/field-service-mobile-app-user-guide#step-3-import-the-mobile-project-template).
+> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](https://aka.ms/fsmobile-project). For more information on mobile project templates, see the topic on [importing the mobile project template](./field-service-mobile-app-user-guide.md#step-3-import-the-mobile-project-template).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the mobile configurator, showing the list of projects.](media/inspections-fsm-mobile-project.png)
@@ -276,13 +267,12 @@ Sign in with your Dynamics 365 URL, username, and password, and go to the assign
 Select the **Work Order Service Task** that has the related inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile app showing service tasks](media/inspections-mobile-r-1.png)
+> ![Screenshot of Field Service Mobile app showing service tasks.](media/inspections-mobile-r-1.png)
 
 Find the inspection form and enter answers. Technicians can upload files, take pictures, or upload pictures from the phone's camera roll.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile app showing a sample inspection.](./media/inspections-mobile-r-2.png)
-
 
 When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
 

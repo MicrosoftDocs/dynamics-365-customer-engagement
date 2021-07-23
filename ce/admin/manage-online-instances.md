@@ -1,5 +1,6 @@
 ---
-title: "Manage instances | MicrosoftDocs"
+title: "Manage Dynamics 365 instances"
+description: "The management of Dynamics 365 instances (now called environments) has transitioned to the Power Platform admin center. See this page for more information."
 ms.custom: 
 ms.date: 08/12/2020
 ms.reviewer: 
@@ -18,9 +19,9 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Manage instances
+# Instance management
 
-Management of instances (now called environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview).
+Management of instances (now called environments) has transitioned to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). For more information, see [Environments overview](/power-platform/admin/environments-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

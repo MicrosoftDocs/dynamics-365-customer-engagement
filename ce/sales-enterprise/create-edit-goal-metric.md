@@ -1,14 +1,12 @@
 ---
-title: "Define a goal metric (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Define how you want to measure your goals by using goal metrics in Dynamics 365 Sales."
+title: "Define a goal metric - (Sales Enterprise) | MicrosoftDocs"
+description: "Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals."
 ms.date: 02/10/2021
-ms.service: 
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-goal
   - D365-Entity-metric
@@ -25,15 +23,15 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
-2.	In the site map, at the bottom, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
+2.	In the site map, at the bottom, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
     > [!div class="mx-imgBorder"]
-    > ![Select the Change area icon and then select App Settings](media/change-area-app-settings.png "Select the Change area icon and then select App Settings")
+    > ![Select the Change area icon and then select App Settings.](media/change-area-app-settings.png "Select the Change area icon and then select App Settings")
 
 3. Select **Goal Metrics**.
 
     > [!div class="mx-imgBorder"]
-    > ![Goal Metrics in the site map](media/site-map-goal-management.png "Goal Metrics in the site map")
+    > ![Goal Metrics in the site map.](media/site-map-goal-management.png "Goal Metrics in the site map")
  
 4.	To create a new goal metric, on the command bar, select **New**.
 
@@ -55,7 +53,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
     d.	**Track Stretch Target**. Select this check box if you want this metric to track an additional target beyond the primary goal.
 
     > [!div class="mx-imgBorder"]
-    > ![Goal metric form](media/goal-metric-form.png "Goal metric form")
+    > ![Goal metric form.](media/goal-metric-form.png "Goal metric form")
  
 6.	Select **Save**.
 
@@ -68,7 +66,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
       -  **Rollup Field**. Select a rollup field where the metric rollup data will be displayed in the goal. You can display an integer or money, depending on the Metric Type you chose. You can't select a field you already added to the metric.
 
           > [!div class="mx-imgBorder"]
-          > ![Rollup fields tab on goal metric form](media/rollup-fields-tab-goal-metric-form.png "Rollup fields tab on goal metric form")
+          > ![Rollup fields tab on goal metric form.](media/rollup-fields-tab-goal-metric-form.png "Rollup fields tab on goal metric form")
  
     c. Under **Step 2: Specify the details about the source data that rolls up**, fill in the information:
 
@@ -82,7 +80,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
       - **Source Record Type Status**. Required. Select the status of the records you want to use as the source of the rollup data for the metric. State and status may be identical, depending on the record type you selected.
 
           > [!div class="mx-imgBorder"] 
-          > ![Rollup fields tab](media/rollup-fields-tab-source-data-goal-metric-form.png "Rollup fields tab")
+          > ![Rollup fields tab.](media/rollup-fields-tab-source-data-goal-metric-form.png "Rollup fields tab")
 
     d. Under **Step 3: Specify the date field that determines the goal period that the records will roll up into**, fill in the information:
 
@@ -91,7 +89,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
       - **Date Field**. Select a date field. The options available in the list are from the entity you selected in the Record Type field.
 
          > [!div class="mx-imgBorder"]
-         > ![Specify a date field that determines the goal period](media/rollup-fields-tab-goal-period-goal-metric-form.png "Specify a date field that determines the goal period")
+         > ![Specify a date field that determines the goal period.](media/rollup-fields-tab-goal-period-goal-metric-form.png "Specify a date field that determines the goal period")
  
     e. Select **Save & Close**.
 

@@ -2,15 +2,13 @@
 title: "Mark a playbook as completed (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Close the playbook as completed to define if the playbook was successful or not."
 ms.date: 02/20/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_playbookinstance
   - D365-Entity-msdyn_playbookactivity
@@ -46,7 +44,7 @@ When you complete all the activities created for a playbook, you must mark the p
     > A system administrator or customizer can add custom values to this field.
 
     > [!div class="mx-imgBorder"]
-    > ![complete as button on playbook record](media/complete-playbook-as.png "Complete as button on playbook record")
+    > ![complete as button on playbook record.](media/complete-playbook-as.png "Complete as button on playbook record")
 
 ### See also
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  

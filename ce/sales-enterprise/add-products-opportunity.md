@@ -1,12 +1,10 @@
 ---
-title: "Add products to an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Develop your opportunity by defining the products your customers are interested in purchasing."
+title: "Add products to an opportunity - Sales Enterprise | MicrosoftDocs"
+description: "Develop your opportunity by defining product bundles or families that makes easier for you to choose products for upsell and cross-sell."
 ms.date: 06/15/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -32,16 +30,16 @@ A way that might help you increase your sales is to add all products that your c
 
     1.  **Select Product**: Set the switch to choose whether you want to add an existing product or create a new one:
     
-        -  To use an existing product, select **Lookup** to search for and add a product.
+         -  To use an existing product, select **Lookup** to search for and add a product.
+ 
+             > [!NOTE]
+             >
+            > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the products associated with the selected price list are shown in this field. In this case, the default view is set to **Products in Parent Price List** view. You can't set a custom view as the default view. Even if you do, the Products lookup will automatically set it back to **Products in Parent Price List** view.
+             > - When a price list isn't selected, the **Existing product** field shows all active products (not filtered by the price list). You can change the view to look for other products by selecting the **Change View** icon. 
+             > - By default, the product lookup will show the most recently used products. The most recently used products aren't filtered based on the selected price list. 
+             > - If a price list is selected and you select a product that isn't associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
 
-            
-            > [!NOTE]
-            > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the products associated with the selected price list are shown in this field. 
-            > - When a price list isn't selected, the **Existing product** field shows all active products (not filtered by the price list). You can change the view to look for other products by selecting the **Change View** icon. 
-            > - By default, the product lookup will show the most recently used products. The most recently used products aren't filtered based on the selected price list. 
-            > - If a price list is selected and you select a product that isn't associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
-
-        -  To add a product, select **Write-In**, and then enter the name of the product.
+         -  To add a product, select **Write-In**, and then enter the name of the product.
     
     2.  **Pricing**: Select the pricing option. By default, this is the per unit price that's listed in the product catalog. To override the catalog price, select **Override Price**: When you override the price, you can specify a price that you want to charge for each unit of the product.
 
@@ -61,7 +59,7 @@ You can take the following actions on the products added to the **Product Line I
 |--------------------------------------|--------------------------------------------------------------|
 |Edit the properties of a product.  |Select the product, and on the command bar, select **Edit Properties**. You can change details such as the price, quantity, or discount of the added products. <br/> You can also open the opportunity product record, and view or change the properties of the product inline on the **Product Properties** tab. |
 |Delete a product associated with the opportunity. |Select the product, and on the command bar, select **Delete Opportunity Product**. |
-|View products within a bundle. | Select the **Chevron** icon ![Chevron icon](media/chevron-icon.png "Chevron icon") for the product bundle. You'll see all the products that are included in the bundle. |
+|View products within a bundle. | Select the **Chevron** icon ![Chevron icon.](media/chevron-icon.png "Chevron icon") for the product bundle. You'll see all the products that are included in the bundle. |
 |See and add related products for cross-selling or upselling, or select an accessory or substitute product. | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |Group specific records together by moving a record up or down in the grid. | Select the record, and on the command bar, use the **Up** or **Down** button. |
 
@@ -72,7 +70,6 @@ You can take the following actions on the products added to the **Product Line I
 
 [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
-[Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
 

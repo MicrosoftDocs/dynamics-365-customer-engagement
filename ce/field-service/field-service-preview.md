@@ -5,7 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 09/18/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -21,7 +21,7 @@ search.app:
 # Install preview features for Dynamics 365 Field Service
 
 > [!Important]
-> As of September 2020, there are no features currently available in preview for Field Service. All features previously available in preview are now available as early access. For more information, [learn more about opting into early access](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates). 
+> As of September 2020, there are no features currently available in preview for Field Service. All features previously available in preview are now available as early access. For more information, [learn more about opting into early access](/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates). 
 
 New Field Service capabilities are often available as a preview before they are generally available. Preview features are not intended for production usage as they may be changed before becoming generally available. By installing and learning preview features, you can better prepare for how your business can adopt them when they are generally available.
 
@@ -37,9 +37,9 @@ Find and note the **Org ID** of your Dynamics 365 environment you wish to add pr
 You can find the org ID in **Settings** > **Customizations** > **Developer Resources**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of developer resources in Field Service](./media/preview-orgid.png)
+> ![Screenshot of developer resources in Field Service.](./media/preview-orgid.png)
 
-Make sure your PC computer has PowerShell installed. If not, [install it](https://docs.microsoft.com/powershell/scripting/install/installing-powershell?view=powershell-7).
+Make sure your PC computer has PowerShell installed. If not, [install it](/powershell/scripting/install/installing-powershell?view=powershell-7).
 
 ## Step 1: Run PowerShell
 
@@ -91,7 +91,7 @@ Run the following command:
 
 ## Step 5: Run command for your URL
 
-Next, check the article on [Service URLs](https://docs.microsoft.com/powerapps/developer/common-data-service/online-management-api/get-started-online-management-api#service-url).
+Next, check the article on [Service URLs](/powerapps/developer/common-data-service/online-management-api/get-started-online-management-api#service-url).
 
 Run the following command, substituting the service URL based on your environment's geography.
 
@@ -139,7 +139,7 @@ In the left pane, go to **Resources** > **Dynamics 365 apps** and find **Dynamic
 Select the app and choose install.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of installing preview solution in Power Apps admin](./media/inspections-install.png)
+> ![Screenshot of installing preview solution in Power Apps admin.](./media/inspections-install.png)
 
 Then select your environment from the list, agree to the terms of service, and select **Install**.
 

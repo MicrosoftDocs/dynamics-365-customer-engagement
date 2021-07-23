@@ -2,15 +2,13 @@
 title: "Revise products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Keep the product inventory updated by quickly revising the products in Dynamics 365 Sales."
 ms.date: 02/10/2021
-ms.service: 
-  - "dynamics-365-sales"
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-product
   - D365-UI-*
@@ -26,16 +24,16 @@ Keep the product inventory updated by quickly revising properties for the produc
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**. 
+2. Select the site map ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Products**. 
     
 3. Open an active product, bundle, or family you want to change, and on the command bar, select **Revise**.  
 
    > [!div class="mx-imgBorder"]
-   > ![Revise Product button on the Product form](media/revise-product.png "Revise Product button on the Product form")
+   > ![Revise Product button on the Product form.](media/revise-product.png "Revise Product button on the Product form")
   
 4. In the **Confirm Revise** dialog box, select **Confirm**.
 
-   ![Confirm revision of product](media/confirm-revise.png "Confirm revision of product")
+   ![Confirm revision of product.](media/confirm-revise.png "Confirm revision of product")
 
     This will change the product status to **Under Revision**.  
   

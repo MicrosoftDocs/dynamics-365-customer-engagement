@@ -1,12 +1,11 @@
 ---
 title: "Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk | MicrosoftDocs"
 description: "Learn to create personal quick replies in Omnichannel for Customer Service from within Unified Service Desk client application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 01/05/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -32,7 +31,7 @@ You can create, edit, and delete the personal quick replies you own. The quick r
 2. On the home page, select the icon on the Omnichannel toolbar under which the personalization tab was created.
 
    > [!div class=mx-imgBorder] 
-   > ![Personalization menu](../media/personalization-menu-usd.png "Personalization menu")
+   > ![Personalization menu.](../media/personalization-menu-usd.png "Personalization menu")
 
 3. Select **Personalization**.
 
@@ -46,7 +45,7 @@ You can create, edit, and delete the personal quick replies you own. The quick r
         > Personal quick replies aren't localized in Omnichannel for Customer Service. To provide quick responses in multiple languages, create a separate quick response record for each language and select its corresponding locale.
 
     > [!div class=mx-imgBorder]
-    > ![Create a personal quick reply](../media/create-personal-quick-reply-usd.png "Create a personal quick reply")
+    > ![Create a personal quick reply.](../media/create-personal-quick-reply-usd.png "Create a personal quick reply")
 
 5. In the **Tags** area, enter the keyword you want to associate with the quick reply, and then select the plus sign (**+**).
 
@@ -58,7 +57,7 @@ It can take up to 15 minutes for the quick replies to be available for your use.
 
 The quick replies you created are available on the **Personal** tab, and those created by the administrator are available on the **All** tab. Use personal quick replies when you are in a conversation with a customer by doing the following:
 
-1. Select the quick responses icon ![quick responses icon](../media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
+1. Select the quick responses icon ![quick responses icon.](../media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
 2. Select the **Personal** tab, and then type the number sign (**#**) in the compose box to list the tags and search for the personal quick replies that are available for your use.
 3. Use the **more** option to view the complete text of the quick reply.
 

@@ -23,11 +23,13 @@ search.app:
 
 # Get insights into stats from other players and teams
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 In team games, it's critical to draft a decent roster that keeps you on-par with the competition. Player stats are a handy tool to check which teams perform well and find out how their roster looks like. Even when playing without teams, you can review stats of your fellow competitors and get insights into how many points they are scoring. Keep up your good work and go get'em!
 
 To see player stats for active games, [sign in to Gamification](sign-in.md) and go to **Teams > Player Stats**. You'll see the following screen: 
 
-![Actuals section in player stats with highlighted controls](media/player-stats-actuals-section.png "Actuals section in player stats with highlighted controls")
+![Actuals section in player stats with highlighted controls.](media/player-stats-actuals-section.png "Actuals section in player stats with highlighted controls")
  
 1. Select the game to display the stats for.
 2. When you go to **Player Stats**, you start on the **Actuals** section. Switch between the sections to see the different types of stats.
@@ -51,10 +53,10 @@ Select the game and game period to define the data set. To get an [!INCLUDE[pn-e
 
 Ranking of the total points per team (depending on the game model). 
 
-![Team points section in player stats with highlighted controls](media/player-stats-team-points-section.png "Team points section in player stats with highlighted controls")
+![Team points section in player stats with highlighted controls.](media/player-stats-team-points-section.png "Team points section in player stats with highlighted controls")
 
 1. Select a game period for the selected game.
-2. Select the ![Expand the team view to see individual players](media/add-button-gamification.png "Expand the team view to see individual players") icon to see the team roster and each team member's contribution. 
+2. Select the ![Expand the team view to see individual players.](media/add-button-gamification.png "Expand the team view to see individual players") icon to see the team roster and each team member's contribution. 
 
 ### See also
 

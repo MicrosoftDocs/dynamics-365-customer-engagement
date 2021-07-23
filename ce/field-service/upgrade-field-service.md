@@ -1,11 +1,9 @@
 ---
 title: "Upgrade Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to upgrade Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 02/22/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -33,7 +31,7 @@ Multiple Field Service updates are released every year.
 
 Though it is rare, occasionally a critical "hot fix" will be released outside of the monthly minor updates or the bi-yearly major updates.
 
-The details of upcoming major and minor releases are listed in the [upcoming release plans](https://docs.microsoft.com/dynamics365/release-plans/) once they are committed. As an example, April 2020 release plans will include major and minor updates from November 2019 through April 2020; and October 2020 release plans will include major and minor updates from May 2020 through October 2020.
+The details of upcoming major and minor releases are listed in the [upcoming release plans](/dynamics365/release-plans/) once they are committed. As an example, April 2020 release plans will include major and minor updates from November 2019 through April 2020; and October 2020 release plans will include major and minor updates from May 2020 through October 2020.
 
 
 ### How do I upgrade my environment?
@@ -47,12 +45,12 @@ Sign in to [https://login.microsoftonline.com](https://login.microsoftonline.com
 Go to **Admin**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the admin option](./media/upgrade-admin.png)
+> ![Screenshot of the admin option.](./media/upgrade-admin.png)
 
 Then go to the Dynamics 365 Admin Center. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center](./media/upgrade-admin-d365.png)
+> ![Screenshot of the Dynamics 365 admin center_1.](./media/upgrade-admin-d365.png)
 
 
 
@@ -61,13 +59,13 @@ You can also go directly to [https://admin.powerplatform.microsoft.com/environme
 Select and highlight the environment that has the Field Service app you want to upgrade. In the top ribbon, select **Resources** > **Dynamics 365 apps**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center ](./media/upgrade-fs-new-ppac.jpg)
+> ![Screenshot of the Dynamics 365 admin center_2.](./media/upgrade-fs-new-ppac.jpg)
 
 In the list of solutions, find and select the Field Service app. It will indicate if an upgrade is available. Then select the **Update** in the top.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of solutions in the admin center noting there's an upgrade available for Field Service](./media/upgrade-fs-new-popup.jpg)
+> ![Screenshot of a list of solutions in the admin center noting there's an upgrade available for Field Service.](./media/upgrade-fs-new-popup.jpg)
 
 
 In addition, once your organization begins receiving automatic updates with version **8.8.6+**, you can manually upgrade the app in the seven days between the update release and when the automatic update applies. Manual updates can be done via the admin center process above.
@@ -82,14 +80,14 @@ When the Field Service app is upgraded, the Field Service solution is upgraded a
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of solutions](./media/upgrade-solution-list.png)
+> ![Screenshot of a list of solutions.](./media/upgrade-solution-list.png)
 
 To understand what version of the Field Service solution is in your environment, look at the version of the solution named **FieldService_anchor**. 
 
 ### Best practices
 
 1. Before upgrading your production instance of Field Service, make a copy of the production instance and upgrade the copy first. Then test your business processes to understand consequences and upgrade the actual production instance after.
-2. Upgrading from Field Service version 7.x to 8.x is considered a major upgrade because it's upgrading to the [Unified Client Interface (UCI)](https://docs.microsoft.com/power-platform/admin/about-unified-interface). For more information, see the [Field Service UCI Upgrade Playbook](https://aka.ms/fsuciupgrade). 
+2. Upgrading from Field Service version 7.x to 8.x is considered a major upgrade because it's upgrading to the [Unified Client Interface (UCI)](/power-platform/admin/about-unified-interface). For more information, see the [Field Service UCI Upgrade Playbook](https://aka.ms/fsuciupgrade). 
 3. If your organization is using Project Service Automation along with Field Service, it is recommended to upgrade both at the same time or soon after each other due to shared functionality.
 4. Editing out-of-the-box web resources is unsupported and can cause functional issues after upgrading. You can use [Solution Health Hub](./troubleshoot-field-service-solution-health.md) to understand if web resources have been edited.
 
@@ -100,7 +98,7 @@ To understand what version of the Field Service solution is in your environment,
 
 There are two steps to upgrade the Field Service (Dynamics 365) mobile app.
 
-**Step 1.** Upgrade Field Service (as described in the previous section). Upgrading Field Service will also upgrade the "Field Service Mobile" model-driven app. For example, upgrading to [Field Service v8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) includes an update to Field Service and the Field Service mobile app.
+**Step 1.** Upgrade Field Service (as described in the previous section). Upgrading Field Service will also upgrade the "Field Service Mobile" model-driven app. For example, upgrading to [Field Service v8.8.32.59](./version-history.md#883259) includes an update to Field Service and the Field Service mobile app.
 
 **Step 2.** After Field Service is upgraded, you must upgrade the mobile app on your mobile phone or tablet. You can do this the same way you upgrade any app on your phone or tablet, either manually or with automatic updates.
 
@@ -125,25 +123,25 @@ Go to **Resource Scheduling app** > **Settings** > **Administration** > **Schedu
 Then select **Health Diagnostics** in the top ribbon.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource scheduling health diagnostics](./media/upgrade-rs-health-diagnostics.png)
+> ![Screenshot of resource scheduling health diagnostics.](./media/upgrade-rs-health-diagnostics.png)
 
 If the diagnostic tool flags any web resources that should not have been edited, you will need to remove the customizations from the web resources and then run the upgrade. Not all customized web resources will be flagged by this tool, only the ones that could have critical impact. 
 
 ### Plan for updated Universal FetchXML (UFX) queries
 
-Occasionally, Resource Scheduling releases will include updates to the Universal FetchXML (UFX) queries that control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results. For more information, see the article on [schedule board tab settings](https://docs.microsoft.com/dynamics365/field-service/schedule-board-tab-settings#other-settings).
+Occasionally, Resource Scheduling releases will include updates to the Universal FetchXML (UFX) queries that control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results. For more information, see the article on [schedule board tab settings](./schedule-board-tab-settings.md#other-settings).
 
 For example, a new version of Resource Scheduling may add a new resource filter to the left panel of the schedule board. To make this update possible, the update will come with a new UFX query for the **Retrieve Resources Query** as seen in the screenshot below.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the retrieve resources query in tab settings](./media/upgrade-ufx-queries.png)
+> ![Screenshot of the retrieve resources query in tab settings.](./media/upgrade-ufx-queries.png)
 
 However, the XML in each UFX can be edited based on your specific needs. If a UFX query has been edited by your organization, the Resource Scheduling upgrade will import the new UFX query, but **will not apply it**. Therefore, you'll need to add your customizations to the new UFX query and select and apply it manually from the Schedule Board Tab Settings. One option is to use GitHub to understand the differences between the old XML file with your custom queries and the new XML file as part of the Resource Scheduling upgrade.
 
 All UFX queries, both custom ones your organization creates and queries included with the Resource Scheduling app, are listed as records in the configurations entity, and each record holds the XML queries.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of records and queries](./media/upgrade-configurations.png)
+> ![Screenshot of a list of records and queries.](./media/upgrade-configurations.png)
 
 ## Resource scheduling optimization
 
@@ -157,13 +155,13 @@ From the Power Platform admin center located at [https://admin.powerplatform.mic
 To upgrade resource scheduling optimization, in the left pane select **Resources** > **Dynamics 365 apps**, find resource scheduling optimization, and select **Manage**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center](./media/rso-upgrade-manage-powerapps-admin.png)
+> ![Screenshot of the Dynamics 365 admin center_3.](./media/rso-upgrade-manage-powerapps-admin.png)
 
 
 Then select **Upgrade to new version**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the upgrade resource scheduling optimization option](./media/upgrade-rso-upgrade-to-new-version.png)
+> ![Screenshot of the upgrade resource scheduling optimization option.](./media/upgrade-rso-upgrade-to-new-version.png)
 
 **Pro Tip:** By selecting **Change Organization**, you can point resource scheduling optimization at a different environment to optimize those work orders, projects, cases, etc. Doing so will initiate an upgrade. Furthermore, your resource scheduling optimization data and configurations (optimization scopes, goals, and schedules) will remain in the previous environment in case you ever want to switch it back.
 
@@ -188,13 +186,13 @@ Technicians use the Field Service Mobile app on their phones, tablets, and Windo
 When a new version of the mobile app is released, the app will need to be updated on each user's device. Updates can be done manually, automatically, or via Microsoft Intune.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
+> ![Screenshot of Field Service mobile app download example.](media/mobile-field-service-mobile-windows-app-store.png)
 
 As an example, downloading Field Service Mobile from the Windows Store can allow for automatic updates as new versions are released. 
 
 ### Step 2: Upgrade the mobile configuration tool (Woodford) solution
 
-To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](https://docs.microsoft.com/dynamics365/field-service/mobile-faq-latest-version) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
+To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](./mobile-faq-latest-version.yml) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
  
 
 ### Step 3: Upgrade the mobile project template.

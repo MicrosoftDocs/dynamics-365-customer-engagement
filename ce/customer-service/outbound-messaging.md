@@ -1,12 +1,11 @@
 ---
 title: "Configure outbound messaging in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about how to configure outbound messaging in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ms.reviewer: nenellim
 ---
 
@@ -18,7 +17,7 @@ ms.reviewer: nenellim
 
 Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS, Twitter, and WhatsApp channels.
 
-As an administrator, you can do the following tasks: 
+As an administrator, you can do the following tasks:
 
 - Create message templates that can be adopted for outbound messages.
 - Configure outbound messages to be sent for events that are triggered for an entity, such as creation of a case.
@@ -44,18 +43,18 @@ After meeting the prerequisites, you can send outbound messages from your organi
 
 Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to the Omnichannel admin center app.
 
 2. Create a template for your outbound message.
 
     - [Create a template for SMS and Twitter](create-message-templates.md). 
-    - [Create a template for WhatsApp](configure-whatsapp-channel.md#modify-settings-for-a-specific-whatsapp-phone-number).
+    - [Create a template for WhatsApp](configure-whatsapp-channel.md#configure-whatsapp-message-templates).
 
 ## Set up outbound configuration
 
-1. Go to **Settings**, and select **Outbound**.
+1. In the site map of Omnichannel admin center, select **Customer settings** under **Advanced settings**, and then select **Manage** for **Outbound**. If you're using the Omnichannel Administration app, go to **Settings**, and select **Outbound**.
 
-2. Complete the following fields:
+2. Select **New**, and on New Outbound Configureation page,  enter the details for the settings mentioned in the following table.
 
     | Field               | Description| Sample value                       |
     |---------------------|------------|--------------------------|
@@ -70,11 +69,11 @@ Set up templates to send outbound messages. To create a template, consider the s
     You can choose a message template for the outbound message. The default message language and other localized message versions are part of the message template configuration, and will apply to outbound messages.
 
     > [!div class=mx-imgBorder]
-    > ![Configure outbound messages](media/outbound-configuration.png "Configure outbound messages")
+    > ![Configure outbound messages.](media/outbound-configuration.png "Configure outbound messages")
 
 ## Set up a Power Automate flow
 
-Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. For more information, see [Power Automate documentation](https://docs.microsoft.com/power-automate/). You can download and import the following sample flows to get started:
+Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. For more information, see [Power Automate documentation](/power-automate/). You can download and import the following sample flows to get started:
 
 - [Case Creation flow](https://aka.ms/CaseCreation) (.zip file): This template sends an automatic outbound message when a case is created.
 
@@ -82,7 +81,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 **To set up a Power Automate flow**
 
-1. In the Omnichannel Administration app, select **Message template view** > **Flow** at the top of the screen, and then select **Create a flow**.
+1. In the Omnichannel admin center, go to **Message template view**, select **Flow** in the Command menu, and then select **Create a flow**. If you're using the Omnichannel Administration app, select **Message template view** > **Flow** at the top of the screen, and then select **Create a flow**.
 
     or
 
@@ -96,7 +95,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
     - **Scheduled:** Send a message at a point in time, at one or more times, or after an amount of time that you specify.
 
-    For more information about the current limits and configuration details for flows, see [Limits and configuration in Power Automate](https://docs.microsoft.com/power-automate/limits-and-config).
+    For more information about the current limits and configuration details for flows, see [Limits and configuration in Power Automate](/power-automate/limits-and-config).
 
  3. Add the action, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
 

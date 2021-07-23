@@ -4,7 +4,7 @@ description: "This sample shows how download report definition."
 ms.custom: 
 ms.date: 01/28/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -22,7 +22,7 @@ search.audienceType:
 
 # Download report definition
 
-This sample shows how to download a report definition (.rdl) file by using the [DownloadReportDefinitionRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.downloadreportdefinitionrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DownloadReportDefinition).
+This sample shows how to download a report definition (.rdl) file by using the [DownloadReportDefinitionRequest](/dotnet/api/microsoft.crm.sdk.messages.downloadreportdefinitionrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DownloadReportDefinition).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

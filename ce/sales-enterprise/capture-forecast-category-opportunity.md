@@ -1,15 +1,13 @@
 ---
-title: "Capture forecast category for opportunity (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Capture the forecast category in Dynamics 365 Sales to determine whether an opportunity is a low confidence or high confidence to indicate the chances of it getting converted to a sale."
+title: "Capture forecast category for opportunity - Sales Enterprise | MicrosoftDocs"
+description: "Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Capture forecast category for opportunity
@@ -37,7 +35,7 @@ You can also manually configure your columns for a fully customized forecast. Fo
     - **Lost**. If an opportunity fails and is closed as lost.
 
        > [!div class="mx-imgBorder"]
-       > ![Capture forecast category on an opportunity](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
+       > ![Capture forecast category on an opportunity.](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
 
 ## See also
 

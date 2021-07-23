@@ -1,10 +1,10 @@
 ---
-title: "Use custom controls for data visualizations | MicrosoftDocs"
+title: "Use custom controls for data visualizations with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to use custom controls for fields"
 ms.custom: 
 ms.date: 01/10/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -25,7 +25,7 @@ search.audienceType:
 
 Custom controls let you transform fields that traditionally contain text into visualizations. Similarly, you can use custom controls to transform datasets, such as a view, to display in a more visual rendering rather than a list of records. Custom controls can appear as visualizations on forms, dashboards, views, and homepage grids. You can set one type of custom control to appear in the web browser client while having a different custom control appear in your [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] phone or  tablet mobile apps. For example, you could use a number input custom control for a field in web browser clients and a slider custom control for the phone app. After the customization is published, users can fully interact with the control to change the value, such as by sliding the control when using the linear slider custom control. Changes are automatically saved when the form is closed just as they are when the user changes a traditional  field on a form.  
   
- ![Custom slider control](../customize/media/slider-control.PNG "Custom slider control")  
+ ![Custom slider control.](../customize/media/slider-control.PNG "Custom slider control")  
   
 ## Use a custom control to add visualizations to a field  
  Following the steps in this procedure will change the default label and text box field  of the **Budget Amount** field to the slider custom control on the Opportunity entity. You can use similar steps to replace an existing field with a custom control or configure a custom control for a custom field.  
@@ -40,7 +40,7 @@ Custom controls let you transform fields that traditionally contain text into vi
   
 5. On the Add Control page, select the control that you want, such as the **Linear Slider** control shown here, and then select **Add**.  
   
-   ![Add linear slider control](../customize/media/add-slider.PNG "Add linear slider control")  
+   ![Add linear slider control.](../customize/media/add-slider.PNG "Add linear slider control")  
   
 6. Choose the client where you want the control to appear.  
   
@@ -50,11 +50,11 @@ Custom controls let you transform fields that traditionally contain text into vi
   
    - **Tablet**. To make the custom control available on tablet devices running [!INCLUDE[pn_dyn_365_tablets](../includes/pn-dyn-365-tablets.md)], select the **Tablet** option next to the control.  
   
-   ![Choose the client apps to view the custom control](../customize/media/choose-client.png "Choose the client apps to view the custom control")  
+   ![Choose the client apps to view the custom control.](../customize/media/choose-client.png "Choose the client apps to view the custom control")  
   
-7. Select the ![Edit custom control property icon](../customize/media/ccf-pencil-icon.png "Edit custom control property icon") pencil icon next to **Min**, **Max**, and **Step**, set the property option described below, and then select **OK**.  
+7. Select the ![Edit custom control property icon.](../customize/media/ccf-pencil-icon.png "Edit custom control property icon") pencil icon next to **Min**, **Max**, and **Step**, set the property option described below, and then select **OK**.  
   
-   ![Add custom control properties](../customize/media/ccf-add-properties.png "Add custom control properties")  
+   ![Add custom control properties.](../customize/media/ccf-add-properties.png "Add custom control properties")  
   
    - **Min**. Set the minimum accepted value. You can bind a static value that you enter or bind the value to an existing field. In this example **Bind to static value** is **Currency** and the minimum value that can be entered is *zero*.  
   
@@ -71,7 +71,7 @@ Custom controls let you transform fields that traditionally contain text into vi
        > [!NOTE]
        >  The default control is identified with **(default)** following the control name.  
        >   
-       > ![Default control](../customize/media/default-control.png "Default control")  
+       > ![Default control.](../customize/media/default-control.png "Default control")  
   
 8. Select **OK**, to close the Field Properties page.  
   
@@ -82,7 +82,7 @@ Custom controls let you transform fields that traditionally contain text into vi
 ## See the custom control in action  
  Open a record that includes the field with the custom control, such as the Opportunity form from the previous example, and view how the field is changed.  
   
- ![Slider control rendered on form](../customize/media/slider-control.PNG "Slider control rendered on form")  
+ ![Slider control rendered on form.](../customize/media/slider-control.PNG "Slider control rendered on form")  
   
  The field is now rendered as a slider control instead of the text field.  
   

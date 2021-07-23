@@ -1,21 +1,20 @@
 ---
-title: "Generate performance data log files Performance data collection using keyboard shortcuts | MicrosoftDocs"
-description: "Learn about Unified Service Desk performance data collection to collect data about the operational events, errors, and performance in a client application and to create log files using keyboard shortcuts"
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Performance data log files to analyze performance issues | MicrosoftDocs"
+description: "Learn about Unified Service Desk performance data collection to analyze both agent and end-to-end performance, using configuration files and keyboard shortcuts."
 ms.date: 10/31/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-a11y
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-a11y
+  - dyn365-USD
+  - dyn365-admin
 monikerRange: '<= dynamics-usd-4'
 ---
 
@@ -59,7 +58,7 @@ When you are working with the client application and want to analyze the perform
 1. Press **Ctrl+Alt+Q** or the configured keyboard shortcut to start collecting performance data. 
    Unified Service Desk displays a window asking - **Do you want to start collecting performance data?**.
 
-   ![Do you want to start collecting performance data](../../unified-service-desk/media/usd-keyboard-shortcut-start-collecting-perf-data.PNG "Do you want to start collecting performance data")
+   ![Do you want to start collecting performance data.](../../unified-service-desk/media/usd-keyboard-shortcut-start-collecting-perf-data.PNG "Do you want to start collecting performance data")
 
    > [!Note]
    > When you press the keyboard shortcut and if [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not display the performance data collection starting window, then ensure the keyboard focus is not on the Internet Explorer Webpage. Press **Alt+0** to bring the keyboard focus outside the Internet Explorer webpage, and then press the keyboard shortcut to start the performance data collection. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
@@ -68,20 +67,20 @@ When you are working with the client application and want to analyze the perform
 
 > [!Note]
 > If you press **Ctrl+Alt+Q** after you start collecting performance data for a session, Unified Service Desk displays a window with a message - **Performance data collection has already started. PerfSessionId - XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**.
-> ![Performance data collection already started](../../unified-service-desk/media/usd-keyboard-shortcut-already-started-collecting-perf-data.PNG "Performance data collection already started")
+> ![Performance data collection already started.](../../unified-service-desk/media/usd-keyboard-shortcut-already-started-collecting-perf-data.PNG "Performance data collection already started")
 
 ### Stop performance data collection using keyboard shortcut
 
 1. Press **Ctrl+Alt+P** or the configured keyboard shortcut to stop the collection of performance data.</br>
    [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a window with a message - **Do you want to stop collecting performance data? PerfSessionId - XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**.
 
-   ![Do you want to stop collecting performance data](../../unified-service-desk/media/usd-keyboard-shortcut-stop-collecting-perf-data.PNG "Do you want to stop collecting performance data")
+   ![Do you want to stop collecting performance data.](../../unified-service-desk/media/usd-keyboard-shortcut-stop-collecting-perf-data.PNG "Do you want to stop collecting performance data")
 
 2. Click **Yes** to stop collecting the performance data.
 
 > [!Note]
 > If you press **Ctrl+Alt+P** after you stop collecting performance data for a session, Unified Service Desk displays a window **Performance data collection has already stopped**.
-> ![Performance data collection already stopped](../../unified-service-desk/media/usd-keyboard-shortcut-already-stopped-collecting-perf-data.PNG "Performance data collection already stopped")
+> ![Performance data collection already stopped.](../../unified-service-desk/media/usd-keyboard-shortcut-already-stopped-collecting-perf-data.PNG "Performance data collection already stopped")
 
 ## Location of the performance data file
 

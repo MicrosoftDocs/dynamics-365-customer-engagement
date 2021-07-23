@@ -1,24 +1,22 @@
 ---
-title: "Set idle time threshold| Microsoft Docs"
-description: "Learn how to set idle time threshold."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Set idle time threshold | Microsoft Docs"
+description: "Learn how to set the idle time threshold."
 ms.date: 12/29/2020
 ms.topic: reference
-ms.service: "dynamics-365-customerservice"
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 
 # Set the idle time threshold for average handle time
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can configure idle time threshold to pause the handle time computation of an agent for an ongoing session when the agent is idle. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time).
-
+You can configure the idle time threshold to pause the handle time computation of an agent for an ongoing session when the agent is idle. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time).
 
 ## How to set the idle time threshold
 
-In the Omnichannel Administration app, use F12 key to open the command prompt, and then run the following:
+In the Omnichannel Administration app, select the **F12** key to open the command prompt, and then run the following:
 
 ```JavaScript
 let entityName = "msdyn_channelprovider"

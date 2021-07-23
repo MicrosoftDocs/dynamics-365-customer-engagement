@@ -1,5 +1,6 @@
 ---
-title: "Multiple instances or tenants | MicrosoftDocs"
+title: "Multiple Dynamics 365 instances or tenants"
+description: "Learn about the options and use cases for using multiple environments or tenants in your Power Platform subscription, including a multi-tenant deployment."
 ms.custom: 
 ms.date: 02/27/2020
 ms.reviewer: 
@@ -20,7 +21,7 @@ search.app:
 ---
 # About multiple online instances or tenants
 
-This content has moved to the Admin Power Platform documentation: [About multiple online environments or tenants](https://docs.microsoft.com/power-platform/admin/multiple-online-environments-tenants). 
+This content has moved to Administer Power Platform documentation. See [About multiple online environments or tenants](/power-platform/admin/multiple-online-environments-tenants). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

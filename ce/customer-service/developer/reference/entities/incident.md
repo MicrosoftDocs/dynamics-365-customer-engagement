@@ -1,12 +1,11 @@
 ---
 title: "Incident Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Incident entity."
+ms.date: 10/12/2020
+ms.topic: "reference"
 author: "platkat"
 ms.author: "ktaylor"
 manager: "shujoshi"
-ms.date: 10/12/2020
-ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
 search.audienceType: 
   - developer
 search.app: 
@@ -14,7 +13,7 @@ search.app:
   - D365CE
 ms.reviewer: nenellim
 ---
-# Incident Entity Reference
+# Incident Entity Reference 
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
@@ -2692,31 +2691,31 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_incidentbase_createdby](systemuser.md#BKMK_lk_incidentbase_createdby) One-To-Many relationship.
+See systemuser Entity [lk_incidentbase_createdby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_incidentbase_createdonbehalfby"></a> lk_incidentbase_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_incidentbase_createdonbehalfby](systemuser.md#BKMK_lk_incidentbase_createdonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_incidentbase_createdonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_incidentbase_modifiedby"></a> lk_incidentbase_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_incidentbase_modifiedby](systemuser.md#BKMK_lk_incidentbase_modifiedby) One-To-Many relationship.
+See systemuser Entity [lk_incidentbase_modifiedby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_incidentbase_modifiedonbehalfby"></a> lk_incidentbase_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_incidentbase_modifiedonbehalfby](systemuser.md#BKMK_lk_incidentbase_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_incidentbase_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_system_user_incidents"></a> system_user_incidents
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [system_user_incidents](systemuser.md#BKMK_system_user_incidents) One-To-Many relationship.
+See systemuser Entity [system_user_incidents](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_incident_existingcase"></a> incident_existingcase
 

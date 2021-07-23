@@ -2,7 +2,7 @@
 title: "Configure the AD FS server for claims-based authentication | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -132,7 +132,7 @@ After enabling claims-based authentication, the next step is to add and configur
   
 22. Select **Finish**, and when you have created all three rules, select **OK** to close the Rules Editor.  
   
-     ![Three claims rules](media/crm-itpro-claimswp-3rules.PNG "Three claims rules")  
+     ![Three claims rules.](media/crm-itpro-claimswp-3rules.PNG "Three claims rules")  
   
      This illustration shows the three relying party trust rules you create.  
   
@@ -149,7 +149,7 @@ After enabling claims-based authentication, the next step is to add and configur
   
 4.  Under **Intranet**, enable (check) **Forms Authentication** and then select **OK**.  
   
- ![Enable forms authentication](media/crm-itpro-claimswp-formsauth.PNG "Enable forms authentication")  
+ ![Enable forms authentication.](media/crm-itpro-claimswp-formsauth.PNG "Enable forms authentication")  
   
 ## For Windows Server 2016, run a cmdlet  
  If you're [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server is running [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)], run the following Windows PowerShell cmdlet:  
@@ -162,7 +162,7 @@ Grant-AdfsApplicationPermission -ClientRoleIdentifier "<ClientRoleIdentifier>" -
   
 2.  ServerroleIdentified :  the Identifier of your relying party. For example: https://adventureworkscycle3.crm.crmifd.com/  
   
- For more information, see [Grant-AdfsApplicationPermission](https://technet.microsoft.com/itpro/powershell/windows/adfs/grant-adfsapplicationpermission).  
+ For more information, see [Grant-AdfsApplicationPermission](/powershell/module/adfs/grant-adfsapplicationpermission).  
   
 ## See Also  
  [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md)

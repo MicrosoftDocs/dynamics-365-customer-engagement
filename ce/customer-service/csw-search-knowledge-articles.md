@@ -1,14 +1,11 @@
 ---
 title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service workspace.
+ms.date: 10/05/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Search for knowledge articles
@@ -36,7 +35,7 @@ The knowledge articles are applicable for all knowledge-enabled entities.
 By default, the full text search displays 10 results and relevance search displays 50 results.
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search](media/csw-knowledge-tab.png "View the features in knowledge base search")
+  > ![Knowledge-article-search.](media/csw-knowledge-tab.png "View the features in knowledge base search")
 
   |Label|Description|
   |-----|-----------|
@@ -94,14 +93,14 @@ The knowledge base search control provides sort the knowledge articles interacti
 - Last modified date (oldest first)
 
   > [!div class=mx-imgBorder]
-  > ![Knowledge article sort](media/csw-sort-km.png "Knowledge article sort")
+  > ![Knowledge article sort.](media/csw-sort-km.png "Knowledge article sort")
 
 ### Link and unlink the knowledge article to a record
 
 When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
 
   > [!div class=mx-imgBorder]
-  > ![Link to case](media/csw-link-unlink-km.png "Link or unlink a knowledge article with a record")
+  > ![Link to case.](media/csw-link-unlink-km.png "Link or unlink a knowledge article with a record")
   
 - By default the articles are not linked to the case.
 - When you select to link the article to the case, the link icon changes, and **Linked to Case** is displayed for the article.
@@ -119,14 +118,14 @@ Add other information as needed, and then on the command bar, select **Send**.
 
 The knowledge base search is enabled to use the relevance search mechanism in the knowledge base search control area.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How relevance search works](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How relevance search works](/power-platform/admin/configure-relevance-search-organization)
 
 The relevance search mechanism uses Azure search service to index and search records. Relevance search provides improved search functionality, such as better relevance, highlighted search keyword text, and search within attachments and notes. With relevance search, you can also configure search fields in the knowledge article entity.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization)
 
 > [!NOTE]
-> To enable relevance search for knowledge article entity, see [Enable relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).</br>
+> To enable relevance search for knowledge article entity, see [Enable relevance search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](/power-platform/admin/configure-relevance-search-organization).</br>
 If relevance search is not enabled for the entity, standard full-text search is used.
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
@@ -151,6 +150,7 @@ The required view columns are as follows:
 - Rating
 - Status
 - Modified On
+- Content
 
 ### See also
 

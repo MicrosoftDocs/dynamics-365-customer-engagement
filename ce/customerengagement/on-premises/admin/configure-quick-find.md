@@ -1,16 +1,26 @@
 ---
 title: "Configure Quick Find options (Dynamics 365 Customer Engagement (on-premises))  | MicrosoftDocs"
+description: "Provides quick results to users who enter simple queries to commonly-searched entities."
 ms.custom: 
 ms.date: 10/17/2019
 ms.reviewer: 
-ms.service: 
+ms.prod: d365ce-op
 ms.topic: article
+applies_to: 
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+ms.assetid: 13aa0eb0-537f-432e-ac26-706ebd511dbd
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
+search.audienceType: 
+  - admin
 ---
 
 # Configure Quick Find options
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 The Quick Find search feature provides quick results to users who enter simple
 queries to commonly-searched entities. You can tailor the Quick Find
@@ -32,7 +42,7 @@ While the previous search method (standard indexing) returns results based on
 literal matches, full-text indexing returns linguistic-based matches. For
 example the term *service* can return similar words like *servicing* and
 *serviced*. More information: [Full-Text Search (SQL
-Server)](https://docs.microsoft.com/sql/relational-databases/search/full-text-search)
+Server)](/sql/relational-databases/search/full-text-search)
 
 To find information, standard indexing often requires users to add wildcards to
 search strings. This results in poor performance for large data sets, due to the
@@ -72,7 +82,7 @@ you enable or disable full-text indexing, consider the following:
     SQL Server database administrators can create a custom stoplist or choose
     not to use a stoplist by dropping the system stoplist (not recommended).
     More information: [TechNet: Configure and Manage Stopwords and Stoplists for
-    Full-Text Search](https://technet.microsoft.com/library/ms142551.aspx)
+    Full-Text Search](/sql/relational-databases/search/configure-and-manage-stopwords-and-stoplists-for-full-text-search)
 
 ## For Customer Engagement (on-premises) administrators
 
@@ -80,14 +90,14 @@ When you enable full-text indexing for a database with a large number of
 columns, the size of the transaction log of the organization database may
 increase. We recommend you monitor and consider shrinking the transaction log.
 More information: [Manage the Size of the Transaction Log
-File](https://docs.microsoft.com/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file)
+File](/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file)
 
 The aspects of resource consumption for full-text indexing are different from
 standard indexing, which may lead to SQL Server performance issues. Performance
 can especially be affected during the initial full-text indexing for all Quick
 Find text fields. More information: [Improve the Performance of Full-Text
 Indexes \> Common Causes of Performance
-Issues](https://docs.microsoft.com/sql/relational-databases/search/improve-the-performance-of-full-text-indexes)
+Issues](/sql/relational-databases/search/improve-the-performance-of-full-text-indexes)
 
 Index creation is a background process, so for large amounts of data serviced by
 busy SQL Servers, it can take several hours to multiple days for the full-text

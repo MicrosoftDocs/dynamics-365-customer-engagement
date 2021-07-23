@@ -1,12 +1,11 @@
 ---
 title: "translateMessage (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: "translateMessage method in Omnichannel for Customer Service"
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Includes information about translateMessage method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 
 # translateMessage
@@ -26,7 +25,7 @@ This method is required to be implemented in web resource. This method is called
 
 |Name|Type|Description|
 |----|----|----|
-|`translationConfig`|Javascript object| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
+|`translationConfig`|JavaScript object| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
 
 Here is the structure of `translationConfig` parameter.
 
@@ -82,11 +81,11 @@ translationConfig = {
 
 ## Return Value
 
-Returns a promise that resolves to a Javascript object implementing `TranslatedMessageResponse` interface.
+Returns a promise that resolves to a JavaScript object implementing `TranslatedMessageResponse` interface.
 
 **Interface object**
 
-```
+```javascript
 export interface ErrorObject{ 
         isError: boolean; //mandatory field, represents true for error while executing this function else no
         errorCode: ErrorCodes; //mandatory field, represents the type of error based on errorCode
@@ -113,7 +112,7 @@ The `errorCode` parameter in `ErrorObject` represents the errors only from the f
 |UNRECOGNIZED_ERROR|200|Error Code if there is any error other than the listed one.|
 ||||
 
-The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageResponse` interface represents a Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
+The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageResponse` interface represents a Locale ID. More information: [Locale ID](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
 **Sample response**
 
@@ -136,7 +135,7 @@ The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageRe
 3. In case the returned response is invalid or incomplete, an error message on the translation banner will appear in the conversation control.
 4. If this method is not implemented, then the message will not be translated and the following error message will be displayed to the agent.
 
-![translateMessage error message](../../../media/translatemessage-api-error.png "translateMessage error message")
+![translateMessage error message.](../../../media/translatemessage-api-error.png "translateMessage error message")
 
 ### See also
 

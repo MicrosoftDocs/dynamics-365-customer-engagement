@@ -1,20 +1,19 @@
 ---
 title: "Session Timer (Custom Hosted Control) in Unified Service Desk  | MicrosoftDocs"
-description: "Learn about Session Timer type of hosted control in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn to create the Session Timer hosted control. Also find information about the predefined UII actions supported by it."
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Session Timer (Custom Hosted Control)
 
@@ -40,13 +39,13 @@ In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], 
   
 2. Click the **My Work** menu, and then click a case record to open a session.  
   
-3. Click **Settings** (![User settings button](../unified-service-desk/media/mp-ua-r17-usersettingsicon.png "User settings button")) at the top-right corner to display the `Debugger` control.  
+3. Click **Settings** (![User settings button.](../unified-service-desk/media/mp-ua-r17-usersettingsicon.png "User settings button")) at the top-right corner to display the `Debugger` control.  
   
-4. On the **Direct Action** tab, select `Timer` from the **Hosted Control** list, the action name from the **Action** list, and click **Run Direct Action** (![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). Repeat this step for the other action.  
+4. On the **Direct Action** tab, select `Timer` from the **Hosted Control** list, the action name from the **Action** list, and click **Run Direct Action** (![USD debugger Run Action Call button.](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button")). Repeat this step for the other action.  
   
-5. Click **Refresh** (![refresh&#95;grid](../unified-service-desk/media/crm-ua-refresh-grid.gif "refresh_grid")) to refresh the replacement parameter grid. Expand the `$Return` parameter to view the value (time in seconds) returned by the `GetSessionUsageInSeconds` and `GetSessionSeconds` actions.  
+5. Click **Refresh** (![refresh&#95;grid.](../unified-service-desk/media/crm-ua-refresh-grid.gif "refresh_grid")) to refresh the replacement parameter grid. Expand the `$Return` parameter to view the value (time in seconds) returned by the `GetSessionUsageInSeconds` and `GetSessionSeconds` actions.  
   
-   ![Unified Service Desk session timer values](../unified-service-desk/media/usd-sessionvalueparameters.png "Unified Service Desk session timer values")  
+   ![Unified Service Desk session timer values.](../unified-service-desk/media/usd-sessionvalueparameters.png "Unified Service Desk session timer values")  
   
 <a name="ConfigureThreshold"></a>   
 ## Configure threshold limits and colors for the Timer hosted control  

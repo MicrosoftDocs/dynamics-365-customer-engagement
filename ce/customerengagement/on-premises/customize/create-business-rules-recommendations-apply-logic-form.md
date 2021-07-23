@@ -1,10 +1,10 @@
 ---
-title: "Create business rules and recommendations | MicrosoftDocs"
+title: "Create business rules and recommendations with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
 description: Learn how to create a business rule
 ms.custom: 
 ms.date: 10/23/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -52,13 +52,13 @@ You can create business rules and recommendations to apply form logic without wr
 
 3. Open the entity you want to create the business rule for (for example, open the **Account** entity), and then double-click **Business Rules**.  
 
-   ![Create a business rule in the default solution](../customize/media/create-business-rule-the-default-solution.png "Create a business rule in the default solution")  
+   ![Create a business rule in the default solution.](../customize/media/create-business-rule-the-default-solution.png "Create a business rule in the default solution")  
 
 4. Click **New**.  
 
     The Business Rule designer window opens with a single condition already created for you. Every rule starts with a condition. The business rule takes one or more actions based on that condition.  
 
-   ![Business Rules design window](../customize/media/business-rules-design-window.png "Business Rules design window")  
+   ![Business Rules design window.](../customize/media/business-rules-design-window.png "Business Rules design window")  
 
    > [!TIP]
    >  If you want to modify an existing business rule, you must deactivate it before you can modify it.  
@@ -80,13 +80,13 @@ You can create business rules and recommendations to apply form logic without wr
 
     1.  Drag the **Condition** component from the **Components** tab to a plus sign in the designer.  
 
-        ![Add a condition in a business rule](../customize/media/add-condition-business-rule.png "Add a condition in a business rule")  
+        ![Add a condition in a business rule.](../customize/media/add-condition-business-rule.png "Add a condition in a business rule")  
 
     2.  To set properties for the condition, click the **Condition** component in the designer window, and then set the properties in the **Properties** tab on the right side of the screen. As you set properties, an expression is created at the bottom of the **Properties** tab.  
 
     3.  To add an additional clause (an AND or OR)  to the  condition, click **New** in the **Properties** tab to create a new rule, and then set the properties for that rule. In the **Rule Logic** field, you can specify whether to add the new rule as an AND or an OR.  
 
-        ![Add a new rule to a condition](../customize/media/add-new-rule-condition.png "Add a new rule to a condition")  
+        ![Add a new rule to a condition.](../customize/media/add-new-rule-condition.png "Add a new rule to a condition")  
 
     4.  When you're done setting properties for the condition, click **Apply**.  
 
@@ -94,7 +94,7 @@ You can create business rules and recommendations to apply form logic without wr
 
     1.  Drag one of the action components from the **Components** tab to a plus sign next to **Condition** component. Drag the action to a plus sign next to a check mark if you want the business rule to take that action when the condition is met, or to a plus sign next to an  x if you want the business rule to take that action if the condition is not met.  
 
-        ![Drag an action to a business rule](../customize/media/drag-an-action-business-rule.png "Drag an action to a business rule")  
+        ![Drag an action to a business rule.](../customize/media/drag-an-action-business-rule.png "Drag an action to a business rule")  
 
     2.  To set properties for the action, click the **Action** component in the designer window, and then set the properties in the **Properties** tab.  
 
@@ -134,7 +134,7 @@ You can create business rules and recommendations to apply form logic without wr
 This section describes common issues that may occur when you use business rules.
 
 ### Composite attributes not supported with Unified Interface apps
-Actions or conditions that use [composite attributes](../developer/clientapi/reference/composite-attributes.md) are not supported in apps based on the Unified Interface.  Alternatively, you can use actions or conditions on the attributes that comprise the composite attributes. For example, instead of using the **Full Name** (fullname) attribute, you can use the **First Name** (firstname) and **Last Name** (lastname) attributes. 
+Actions or conditions that use [composite attributes](/powerapps/developer/model-driven-apps/clientapi/reference/composite-attributes) are not supported in apps based on the Unified Interface.  Alternatively, you can use actions or conditions on the attributes that comprise the composite attributes. For example, instead of using the **Full Name** (fullname) attribute, you can use the **First Name** (firstname) and **Last Name** (lastname) attributes. 
 
 ### Is your business rule not firing for a form?
 A business rule may not execute because the field referenced in the business rule isn’t included with the form. 
@@ -144,12 +144,12 @@ A business rule may not execute because the field referenced in the business rul
 4.	In the business rule designer select each condition and action to verify all the fields referenced in each condition and action. 
 
      > [!div class="mx-imgBorder"] 
-     > ![Field referenced in business rule exists in entity](media/business-rule-field.png "Field referenced in business rule exists in entity")
+     > ![Field referenced in business rule exists in entity.](media/business-rule-field.png "Field referenced in business rule exists in entity")
 
  5.	Verify that each field referenced in the business rule is also included on the form. If not, add the missing field to the form.
 
      > [!div class="mx-imgBorder"] 
-     > ![Account name field on form](media/account-name-on-form.png "Account name field on form")
+     > ![Account name field on form.](media/account-name-on-form.png "Account name field on form")
 
 ## Frequently asked questions (FAQ)
 *Can business rules unlock fields on a read-only form?*

@@ -1,20 +1,19 @@
 ---
 title: "Configure Unified Service Desk to use model-driven apps | MicrosoftDocs"
-description: "Learn how to configure Unified Service Desk to use model-driven apps."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn how to configure knowledge base search options in Unified Service Desk using the KM Control and Unified Interface KM Control types of hosted control."
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Configure Unified Service Desk to use model-driven apps
@@ -85,14 +84,14 @@ entitytypename=incident
 ## Configure the pop-in and pop-out feature for knowledge base articles  
  You can configure to display a knowledge base article in a tab when you click the article title in the KB search panel. You can further use the `FloatingPanel` in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to pop out a knowledge base article from the main panel so that users can display the article on another monitor in a multi-monitor environment. To implement the pop-out feature for a knowledge base article, use the `MoveToPanel` action on the hosted control that displays the article in the main panel tab, and set the data parameter as `FloatingPanel`. This moves the hosted control that displays the article from `MainPanel` to `FloatingPanel`. You can call this action from a toolbar button on the hosted control.  
   
- ![Action call for configuring the pop&#45;out feature](../unified-service-desk/media/usd-action-call-pop-out.png "Action call for configuring the pop-out feature")  
+ ![Action call for configuring the pop&#45;out feature.](../unified-service-desk/media/usd-action-call-pop-out.png "Action call for configuring the pop-out feature")  
   
 > [!NOTE]
 >  In these examples, the name of the hosted control that displays the article is `KB Article`. You must use the appropriate hosted control name as per your configuration.
 
  To configure the pop-in feature, again use the `MoveToPanel` action, but set the data parameter to `MainPanel`. This moves the hosted control that displays the article from `FloatingPanel` to `MainPanel`.
 
- ![Action call for the pop&#45;in feature](../unified-service-desk/media/usd-action-call-pop-in.png "Action call for the pop-in feature")
+ ![Action call for the pop&#45;in feature.](../unified-service-desk/media/usd-action-call-pop-in.png "Action call for the pop-in feature")
 
  You can call this action from a toolbar button on the hosted control. However, you must configure the pop-in toolbar button to be visible only when the hosted control is in `FloatingPanel`. You can do so by specifying the following condition in the **Visible Condition** field of the pop-in toolbar button definition.
 
@@ -115,15 +114,7 @@ entitytypename=incident
 <a name="Other"></a>   
 ## Configure other tasks for knowledge base articles
 
- You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your Dataverse instance under **Settings** > **Unified Service Desk** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636)).  
-  
-### See also
-
- [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) 
-
-<a name="Other"></a>
-## Configure other tasks for knowledge base articles
- You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your environment in **Unified Service Desk Administrator**.
+ You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your Dataverse instance under **Settings** > **Unified Service Desk** ([How do I get there?](../customerengagement/on-premises/basics/basics-guide.md)).  
 
 ### See also
  [Use knowledge management for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)

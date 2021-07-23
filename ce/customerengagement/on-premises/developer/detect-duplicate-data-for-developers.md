@@ -4,7 +4,7 @@ description: "Overview of the duplicate detection capabilities, including detect
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: nabuthuk
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -76,7 +76,7 @@ For more information: [DuplicateRecord Entity](/powerapps/developer/common-data-
 ## See Also
 
 [Sample: Enable Duplicate Detection and Retrieve Duplicates](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/EnableDuplicateDetection)<br />
-[Sample: Invoke Duplicate Detection For Creating and Updating Records](https://docs.microsoft.com/powerapps/developer/common-data-service/run-duplicate-detection)<br />
+[Sample: Invoke Duplicate Detection For Creating and Updating Records](/powerapps/developer/common-data-service/run-duplicate-detection)<br />
 [Sample: Detect Multiple Duplicate Records](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DetectMultipleDuplicateRecords)<br />
  
 

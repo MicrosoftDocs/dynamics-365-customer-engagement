@@ -2,7 +2,7 @@
 title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/13/2019"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -99,7 +99,7 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 1.  Log on to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server as an administrator.  
   
-2. Add the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in (Microsoft.Crm.PowerShell.dll). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer the deployment using Windows PowerShell](https://technet.microsoft.com/library/dn531202.aspx)  
+2. Add the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in (Microsoft.Crm.PowerShell.dll). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer the deployment using Windows PowerShell](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn531202(v=crm.8))  
   
    ```powershell  
    Add-PSSnapin Microsoft.Crm.PowerShell  
@@ -160,7 +160,7 @@ If clients experience issues connecting through the IFD after you have registere
 6. Right-click **Windows Authentication**, and select **Providers**. For each provider in the list, select the provider, and then select **Remove**. 
 7. After all providers are removed, right-click **Windows Authentication**, and then select **Disable**.
 
-   ![Remove site provider](media/remove-site-provider.png)
+   ![Remove site provider.](media/remove-site-provider.png)
 
 Repeat the previous steps to remove all Windows Authentication providers from the **nga** and **AppWebServices** site folders. 
 
@@ -170,7 +170,7 @@ Repeat the previous steps to remove all Windows Authentication providers from th
 3. In the middle pane, in **Global Settings**, locate **Authentication Methods** and then select **Edit**. 
 4. Clear **Windows Authentication** if it is checked, and then select **OK**.
 
-   ![Disable integrated windows authentication](media/disable-windows-auth.png)
+   ![Disable integrated windows authentication.](media/disable-windows-auth.png)
    
 #### Grant application permission when using Windows Server 2016 AD FS 
 On the AD FS server, run the following command in a Windows PowerShell console. This is required if you use Windows Server 2016 AD FS.
@@ -198,11 +198,11 @@ net start adfssrv
 ```
 
 #### Enable Device Registration Service (DRS) on the federation server
-To make sure that devices can connect to your deployment, follow the instructions in this topic: [Configure a federation server with Device Registration Service](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service). 
+To make sure that devices can connect to your deployment, follow the instructions in this topic: [Configure a federation server with Device Registration Service](/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service). 
 
 <a name="BKMK_usertrain"></a>   
 ## User training and adoption  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training and Adoption Kit for Microsoft Dynamics 365](https://go.microsoft.com/fwlink/p/?LinkId=386503)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training and Adoption Kit for Microsoft Dynamics 365](/power-platform/admin/try-powerapps-dynamics-365)  
   
 ## See also  
  [Installing on-premises Dynamics 365](installing-on-premises-dynamics-365.md)   

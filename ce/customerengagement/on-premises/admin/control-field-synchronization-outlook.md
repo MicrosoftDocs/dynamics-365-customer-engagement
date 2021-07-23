@@ -1,9 +1,10 @@
 ---
 title: "Control field synchronization between Customer Engagement (on-premises) and Outlook | MicrosoftDocs"
+description: "Set the sync direction between Dynamics 365 Customer Engagement (on-premises) and Outlook."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ ms.assetid: d570e1f0-d319-46c6-a247-00c32c78df3b
 caps.latest.revision: 15
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Control field synchronization with Outlook
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 With field synchronization, admins can set the sync direction between Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] fields. You can control synchronization when using either [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization or server-side synchronization ([!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]).  
   
@@ -34,13 +37,13 @@ With field synchronization, admins can set the sync direction between Dynamics 3
 
 2. In the web app, select **Settings** > **Administration** > **System Settings** > **Synchronization** tab.
   
-   For [Unified Interface](about-unified-interface.md), select Settings (![Gear button](../admin/media/selection-rule-gear.gif "Gear button")) in the upper-right corner > **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **Synchronization** tab.
+   For [Unified Interface](about-unified-interface.md), select Settings (![Selection rule gear button.](../admin/media/selection-rule-gear.gif "Gear button")) in the upper-right corner > **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **Synchronization** tab.
   
 3. Under **Synchronize Microsoft Dynamics 365 items with Outlook or Exchange**, select **synchronized fields**.  
   
 4. For the fields you want to change synchronization, choose the arrows in the Sync Direction column. Each choice will change the direction.  
   
-   ![Appointment fields for synchronization](../admin/media/appointment-field-sync.png "Appointment fields for synchronization")  
+   ![Appointment fields for synchronization.](../admin/media/appointment-field-sync.png "Appointment fields for synchronization")  
   
    > [!TIP]
    >  Hover over a field name to see the fields mapped to it.  

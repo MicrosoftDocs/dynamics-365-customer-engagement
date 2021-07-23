@@ -1,14 +1,12 @@
 ---
-title: "Work with activities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use the opportunity Kanban view to visualize all your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
+title: "Work with activities in the Kanban view - Sales Enterprise | MicrosoftDocs"
+description: "Use the opportunity Kanban view to visualize your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
 ms.date: 10/14/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-activitypointer
   - D365-UI-*
@@ -30,15 +28,15 @@ A Kanban view is available when the Kanban control is added to the Activity enti
 To open the Kanban view:
 
 1. In the site map, select **Activities**.
-2. On the command bar, select the **More commands** icon ![More commands icon](media/more-commands-icon.png "More commands icon"), and select **Show As** > **Kanban**.
+2. On the command bar, select the **More commands** icon ![More commands icon.](media/more-commands-icon.png "More commands icon"), and select **Show As** > **Kanban**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Show activities in the Kanban view](media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
+    > ![Show activities in the Kanban view.](media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
 
     The activities are shown in the Kanban view.
 
       > [!div class="mx-imgBorder"]  
-      > ![Activities in the Kanban view](media/activities-kanban-view.png "Activities in the Kanban view") 
+      > ![Activities in the Kanban view.](media/activities-kanban-view.png "Activities in the Kanban view") 
 
  
 ## Know your Kanban views
@@ -54,14 +52,14 @@ Here are some important things to know about your Kanban view:
 -  The card fields are editable inline. You can quickly change details for the three fields of an activity record right from the card.
 
     > [!div class="mx-imgBorder"]  
-    > ![Editable fields on the activity card](media/editable-card-fields.png "Editable fields on the activity card")
+    > ![Editable fields on the activity card.](media/editable-card-fields.png "Editable fields on the activity card")
 
 -  When you select a different view or filter, cards in the lanes are refreshed to show the filtered activity records. For example, if you are currently using the All Activities view, and select the **Activity Type** filter to show only phone calls, the swim lanes are refreshed to show only the phone call activities.
 
 -  You can use the **Search** box to filter the records/cards in the swim lane based on the search criteria. For example, if you enter the keyword "Discuss," it will refresh the Kanban view to only show the activity records where the title begins with "Discuss".
 
     > [!div class="mx-imgBorder"]  
-    > ![Use the Search box to filter records in the Kanban view](media/search-in-activity-kanban.png "Use the Search box to filter records in the Kanban view")
+    > ![Use the Search box to filter records in the Kanban view.](media/search-in-activity-kanban.png "Use the Search box to filter records in the Kanban view")
 
 -  You can drag a card and move it to other lanes. When you drag a card from one lane to another, the activity status changes:
 

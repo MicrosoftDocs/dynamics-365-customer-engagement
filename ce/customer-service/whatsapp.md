@@ -1,12 +1,11 @@
 ---
 title: "WhatsApp channel agent experience in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about WhatsApp channel through Twilio agent experience in Omnichannel for Customer Service."
+description: "This topic provides information about agent experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service."
+ms.date: 07/09/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
+ms.custom: intro-internal
 ---
 
 # Use WhatsApp channel
@@ -33,7 +32,7 @@ You'll receive a notification when a customer requests a WhatsApp conversation. 
 **Authenticated customer incoming notification**
 
 > [!div class=mx-imgBorder]
-> ![WhatsApp chat agent notification](media/whatsapp-agent-notif2.png "WhatsApp chat agent notification")
+> ![WhatsApp chat agent notification-unauthenticated](media/whatsapp-agent-notif2.png "WhatsApp chat agent notification-unauthenticated")
 
 In Omnichannel for Customer Service, you can:
 
@@ -46,7 +45,7 @@ In Omnichannel for Customer Service, you can:
 - Use productivity tools
     - [Use agent scripts](oc-agent-scripts.md)
     - [View Smart assist cards](oc-smart-assist.md)
-    - [Use productivity pane](oc-productivity-pane.md)
+    - [Use productivity pane](productivity-pane.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)

@@ -1,12 +1,11 @@
 ---
 title: "View a customer summary in Omnichannel for Dynamics 365 | MicrosoftDocs"
 description: "Customer summary is a page where you can get all available information about the customer with who you're going to interact."
+ms.date: 01/13/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/13/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View a customer summary to get available information about a customer
@@ -31,7 +30,7 @@ Having this information ready can help support agents reduce the hold time that 
 
 
 > [!div class=mx-imgBorder]
-> ![Customer summary page](../media/oc-usd-customer360-page.png "Customer summary page")
+> ![Customer summary page.](../media/oc-usd-customer360-page.png "Customer summary page")
 
 > [!NOTE]
 > We recommend that you don't use **Advanced Find** to navigate to the **Customer Summary** form because the form might not be displayed correctly.
@@ -41,7 +40,7 @@ Having this information ready can help support agents reduce the hold time that 
 The **Customer profile** section provides details about the customer, such as the name of the customer or account, job, title, relationship type, city, category, and preferred channel for engagement.
 
 > [!div class='mx-imgBorder']
-> ![Customer profile section in the customer summary form](../../customer-service/media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")
+> ![Customer profile section in the customer summary form.](../../customer-service/media/customer-summary-customer-form.PNG "Customer profile section of the Customer summary page")
 
 ## Conversation summary
 
@@ -55,7 +54,7 @@ The **Conversation summary** section provides detailed information about the con
 
 
   > [!div class='mx-imgBorder']
-  > ![Conversation details](../../customer-service/media/conversation-details.png "Conversation-details")
+  > ![Conversation details.](../../customer-service/media/conversation-details.png "Conversation-details")
  
 In addition, the **Conversation summary** section includes several tabs:
 
@@ -83,7 +82,7 @@ The **Self service** tab displays information about the activities the customer 
 | Custom action performed | Any other custom action that's being tracked by your organization, with time stamp. |
 
    > [!div class='mx-imgBorder']
-   > ![Self service tab](../../customer-service/media/customer-summary-self-service-tab.png "The Self service tab")
+   > ![Self service tab.](../../customer-service/media/customer-summary-self-service-tab.png "The Self service tab")
 
 To configure the appearance of the **Self service** tab, see [Enable self-service settings of customer actions in conversation summary](../../customer-service/enable-self-service-settings.md).
 
@@ -102,14 +101,14 @@ To learn more, see [Create chat authentication settings](../../customer-service/
 For an incoming conversation request, the system links an existing case to the conversation and shows it in the **Case** section. This section shows information such as the title of the case, its priority, its status, the relevant product, and the owner of the case.
 
 > [!div class='mx-imgBorder']
-> ![The Case section of the Customer summary page](../../customer-service/media/customer-summary-issue-snapshot.PNG "The Case section of the Customer summary page")
+> ![The Case section of the Customer summary page.](../../customer-service/media/customer-summary-issue-snapshot.PNG "The Case section of the Customer summary page")
 
 ## Recent cases
 
 This section displays the recent cases related to the customer.
 
 > [!div class='mx-imgBorder']
-> ![The Recent cases section on the Customer summary page](../../customer-service/media/customer-summary-recent-cases.PNG "The Recent cases section on the Customer summary page")
+> ![The Recent cases section on the Customer summary page.](../../customer-service/media/customer-summary-recent-cases.PNG "The Recent cases section on the Customer summary page")
 
 ## Timeline
 
@@ -117,7 +116,7 @@ This section displays activities related to the case and the customer in the for
 
 
 > [!div class='mx-imgBorder']
-> ![The Timeline section on the Customer summary page](../../customer-service/media/customer-summary-recent-activities.PNG "The Timeline section on the Customer summary page")
+> ![The Timeline section on the Customer summary page.](../../customer-service/media/customer-summary-recent-activities.PNG "The Timeline section on the Customer summary page")
 
 ## Agent script
 
@@ -127,7 +126,7 @@ When you accept an incoming conversation request, a session starts and the **Cus
 
 
 > [!div class='mx-imgBorder']
-> ![Agent script](../../customer-service/media/agent-script-section.PNG "Agent script")
+> ![Agent script.](../../customer-service/media/agent-script-section.PNG "Agent script")
 
 1. Agent script control
 2. Text instructions
@@ -145,12 +144,13 @@ Based on the type of agent script your system administrator has configured, you 
 Text instructions provides guidance for the action you must perform. A text instruction step in the agent script shows a title, instructions, and the **Text instruction** icon. After you perform the instruction, you can select the **Mark as done** icon to indicate that you've executed the step.
 
 **Example**
+
 | Title | Instruction that you perform |
 |----------------|-------------------------------------------------------------------------|
 | Greet customer | Greet the customer by using the welcome message from the quick reply repository.|
 
 > [!div class='mx-imgBorder']
-> ![Agent script text instruction](../../customer-service/media/agent-script-text-instruction.PNG "Agent script text instruction")
+> ![Agent script text instruction.](../../customer-service/media/agent-script-text-instruction.PNG "Agent script text instruction")
 
 ### Macro
 
@@ -165,14 +165,14 @@ A macro is a set of instructions that tells the system how to complete a task. W
 In this example, when an agent selects the macro icon, the system opens a new **Create case** form in the application tab panel with prepopulated fields based on the customer context.
 
 > [!div class='mx-imgBorder']
-> ![Agent script macro](../../customer-service/media/agent-script-run-macro.PNG "Agent script macro")
+> ![Agent script macro.](../../customer-service/media/agent-script-run-macro.PNG "Agent script macro")
 
 ### Sub-agent script
 
 A *sub-agent script* is another agent script that has been invoked from the current agent script. When you select the view icon, the system loads the sub-agent script.
 
 > [!div class='mx-imgBorder']
-> ![Sub-agent script](../../customer-service/media/agent-script-view.PNG "Sub-agent script")
+> ![Sub-agent script.](../../customer-service/media/agent-script-view.PNG "Sub-agent script")
 
 > [!div class="nextstepaction"]
 > [Next topic: View communication panel](left-control-panel.md)

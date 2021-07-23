@@ -30,7 +30,7 @@ search.app:
 # Track Outlook email by choosing a button in Dynamics 365 for Outlook 
 To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], it’s important to keep track of all your customer interactions, and email communications are key. Create a central repository of your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email communications by “tracking” them in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. When you track an email message in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the email is saved as an activity record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. Then you, or anyone who has access to your activity records, can view that email message along with all other customer activities in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], or on a mobile device.  
   
- ![Tracking buttons on Dynamics 365 for Outlook ribbon](../media/outlook-email-button-tracking.png "Tracking buttons on Dynamics 365 for Outlook ribbon")  
+ ![Tracking buttons on Dynamics 365 for Outlook ribbon.](../media/outlook-email-button-tracking.png "Tracking buttons on Dynamics 365 for Outlook ribbon")  
   
  Tracking email in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal email separate from your customer email. You can also set an option to automatically track email messages. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
   
@@ -60,7 +60,7 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
   
      When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the email record. This pane shows that the record is tracked and provides links to related records. If you set a “regarding” record, the tracking pane also provides a link to that record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
   
-     You can also tell that a record is tracked by looking in the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] folder. You’ll see the **Tracked in Dynamics 365 apps** symbol ![Tracked in Dynamics 365 apps icon](../media/priv-biz-unit.gif "Tracked in Dynamics 365 apps icon") next to any tracked records.  
+     You can also tell that a record is tracked by looking in the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] folder. You’ll see the **Tracked in Dynamics 365 apps** symbol ![Tracked in Dynamics 365 apps icon.](../media/priv-biz-unit.gif "Tracked in Dynamics 365 apps icon") next to any tracked records.  
   
 3. To modify the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] activity record (for example, to change the regarding record), open the email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and then, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **View in Dynamics 365 apps**.  
   
@@ -83,7 +83,7 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
- [Create templates for email](../../admin/create-templates-email.md) 
+ [Create templates for email](/power-platform/admin/create-templates-email) 
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
 
 

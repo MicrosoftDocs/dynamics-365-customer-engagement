@@ -48,22 +48,22 @@ for a quick overview of all the data that is available for your marketing analyt
 
 1. Sign into [portal.azure.com](https://portal.azure.com) using the same account where you are running Dynamics 365 Marketing.
 
-1. If you don't already have one, then create a general-purpose storage account in the Azure Blob storage as described in [Quickstart: Upload, download, and list blobs using the Azure portal](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal).
+1. If you don't already have one, then create a general-purpose storage account in the Azure Blob storage as described in [Quickstart: Upload, download, and list blobs using the Azure portal](/azure/storage/blobs/storage-quickstart-blobs-portal).
 
     > [!NOTE]
     > Your general-purpose storage account can be either V1 or V2. Both will work with the Power BI template supplied by Microsoft, but we recommend using V2 if possible because it will support more advanced Power BI capabilities in the future.
 
-1. Create a blob storage container in your storage account, also as described in [Quickstart: Upload, download, and list blobs using the Azure portal](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal).
+1. Create a blob storage container in your storage account, also as described in [Quickstart: Upload, download, and list blobs using the Azure portal](/azure/storage/blobs/storage-quickstart-blobs-portal).
 
 1. Launch the Microsoft Azure Storage Explorer, which is a desktop app, and connect it to your Azure account. If  you don't already have it, you can download if for free from [https://azure.microsoft.com/features/storage-explorer/](https://azure.microsoft.com/features/storage-explorer/).
 
 1. In the Storage Explorer, navigate down to the blob storage container you just created.
 
-    ![Azure Storage Explorer](media/custom-analytics-storage-explorer.png "Azure Storage Explorer")
+    ![Azure Storage Explorer.](media/custom-analytics-storage-explorer.png "Azure Storage Explorer")
 
 1. Right-click on your blob storage container and then select **Get shared access signature** from the context menu. The **Shared Access Signature** dialog opens.
 
-    ![The Shared Access Signature dialog](media/custom-analytics-sas.png "The Shared Access Signature dialog")
+    ![The Shared Access Signature dialog.](media/custom-analytics-sas.png "The Shared Access Signature dialog")
 
     Make the following settings:
 
@@ -72,13 +72,13 @@ for a quick overview of all the data that is available for your marketing analyt
 
 1. Select **Create** to create the signature. The dialog refreshes to show a **URL** and **Query string**. Select the **Copy** button to copy the **URL** shown here and paste in a temporary text file so you can use it later in this procedure.
 
-    ![Copy the URL](media/custom-analytics-sas-created.png "Copy the URL")
+    ![Copy the URL.](media/custom-analytics-sas-created.png "Copy the URL")
 
 1. Sign into Dynamics 365 Marketing and go to **Settings** > **Advanced settings** > **Marketing settings** > **Marketing analytics configuration**. A list of marketing analytics configurations opens. If a record is already listed here, then select it to open it; otherwise, select **New** from the command bar to create a new record.
 
 1. The **Marketing analytics configuration** page opens.
 
-    ![New marketing analytics configuration](media/custom-analytics-configuration-new.png "New marketing analytics configuration")
+    ![New marketing analytics configuration.](media/custom-analytics-configuration-new.png "New marketing analytics configuration")
 
     Make the following settings:
 
@@ -91,7 +91,7 @@ for a quick overview of all the data that is available for your marketing analyt
 
 1. Save your settings.
 
-    ![Saved marketing analytics configuration](media/custom-analytics-configuration-running.png "Saved marketing analytics configuration")
+    ![Saved marketing analytics configuration.](media/custom-analytics-configuration-running.png "Saved marketing analytics configuration")
 
     > [!NOTE]
     > The URL you pasted here has two parts: a storage URL identifying your storage account and container name, and an SAS token that allows Dynamics 365 Marketing to connect to your blob storage. To prevent other people from being able to connect to your blob storage, only the storage URL will be saved in the Dynamics 365 database. The full URL, including the SAS token, will be stored securely in Dynamics 365 Marketing. This is why you can never see the full URL in this form.
@@ -107,7 +107,7 @@ Once your Azure Blob storage is set up and connected to Dynamics 365 Marketing, 
 
 More information: [Download and use marketing analytics templates and sample reports for Power BI](marketing-analytics/analytics-gallery-start.md)
 
-![A collage of various Power BI reports](media/pbi-gallery-overview.png)
+![A collage of various Power BI reports.](media/pbi-gallery-overview.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

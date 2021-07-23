@@ -3,7 +3,7 @@ title: "Walkthrough: Register a Dynamics 365 Customer Engagement app with Active
 description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 Server, authenticate using OAuth, and access the web services"
 ms.custom: 
 ms.date: 03/29/2019
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -83,7 +83,7 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
 1. Log on as administrator on the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server that hosts the deployment service role and open a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command window.  
   
-2. Add the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in (Microsoft.Crm.PowerShell.dll). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer the deployment using Windows PowerShell](https://technet.microsoft.com/library/dn531202.aspx)  
+2. Add the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in (Microsoft.Crm.PowerShell.dll). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer the deployment using Windows PowerShell](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn531202(v=crm.8))  
   
    ```powershell  
    Add-PSSnapin Microsoft.Crm.PowerShell  
@@ -116,7 +116,7 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
     Where <CLIENT_ID> is a unique number, <APP_NAME> is a name for the application, and <REDIRECT_URI> is any valid URI that [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] is to redirect to after authentication has completed. It is recommended that the client ID be a GUID. You can generate a GUID in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] by opening the **Tools** menu and clicking **Create GUID**.  
   
 ### See also  
- [Adding, Updating, and Removing an Application](https://msdn.microsoft.com/library/dn132599.aspx)   
+ [Adding, Updating, and Removing an Application](/previous-versions/azure/dn132599(v=azure.100))   
  [Authenticate Users with Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)
 
 

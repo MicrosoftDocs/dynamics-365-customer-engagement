@@ -1,11 +1,10 @@
 ---
 title: "Register IoT devices in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about IoT devices and how to register them in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 10/19/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -89,7 +88,7 @@ Once the device is synced back to Azure IoT Hub, a device ID will be generated a
 > ![Screenshot of the new IoT device in Field Service, with a populated device ID.](./media/cfs-register-device-fs-new-register3.png)
 
 Back in Azure IoT Hub, we now see the IoT device we created in Field Service, with its new device ID. 
-
+ 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Azure IoT Hub, showing the new device in the list of devices.](./media/cfs-register-device-fs-new-register-iothub.png)
 
@@ -117,5 +116,13 @@ Once the IoT device has been associated with the asset, a new section will appea
 When a device does not register, you'll see an error in the **Registration Status** field of the asset record. For assets with multiple devices, device status will show the error message for each device.  
   
 This error may occur if Dynamics 365 is not connected to Azure or if Azure is offline.
+
+## Additional notes
+
+- Use the **Check IoT Setup** ribbon button to check for information about the IoT setup such as, is IoT deployed, are there any devices in the environment. Manually doing this refresh may display more CFS ribbon items.
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of a the "Check IoT Setup" option in the top ribbon.](./media/cfs-device-check-setup.png)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

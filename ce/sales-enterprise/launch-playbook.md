@@ -2,15 +2,13 @@
 title: "Launch a playbook to carry out activities consistently (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Playbooks lets you consistently perform recurrent business processes such as a sales process."
 ms.date: 02/20/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_playbookinstance
   - D365-Entity-msdyn_playbookactivity
@@ -33,7 +31,7 @@ To ensure consistency in your business process or to know what steps to follow i
 3.  On the command bar, select **Launch playbook**.
 
      > [!div class="mx-imgBorder"]
-     > ![launch playbook button on opportunity record](media/launch-playbook-button-opportunity.png "Launch playbook button on opportunity record")  
+     > ![launch playbook button on opportunity record.](media/launch-playbook-button-opportunity.png "Launch playbook button on opportunity record")  
 
     > [!NOTE]
     > The **Launch playbook** button appears on an entity form only when there’s at least one published playbook template for that entity. If you do not see this button, talk to your playbook manager.

@@ -37,7 +37,7 @@ Your users can access their data stored in Microsoft Dataverse while they're out
   
 ### Required privileges  
 
-Microsoft Dataverse uses security privileges to provide access to Dynamics 365 for phones and tablets app and [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile). The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
+Microsoft Dataverse uses security privileges to provide access to Dynamics 365 for phones and tablets app and [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile). The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
  
  The app should be shared for the security role that user has been assigned.
   
@@ -103,7 +103,7 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 | service.powerapps.com |Starting with version 13.19091.20, used for email sign-in and the app list. |
 
 ### Security privileges  
- Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Microsoft Dataverse, see [Share a model-driven app using Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app).
+ Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Microsoft Dataverse, see [Share a model-driven app using Power Apps](/powerapps/maker/model-driven-apps/share-model-driven-app).
   
   
 <a name="BKMK_Configure"></a>   
@@ -111,8 +111,8 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 
  You must configure apps that will be available for Dynamics 365 for phones and tablets mobile app.  
 
- - For Microsoft Dataverse, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
- - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/overview) 
+ - For Microsoft Dataverse, see [Create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity).
+ - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](../customerengagement/on-premises/customize/overview.md) 
   
 ### Charts  
  All the charts you can create in the Chart Designer, such as Bar, Line, Pie, and Funnel charts, are viewable in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
@@ -141,12 +141,12 @@ The mobile app has multiple dashboards are available for users. After you set up
 5. Select **Properties** > **Enable for mobile** > **OK**.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Enable for mobile ](media/mobile_enable_dashboard.png "Select Enable for mobile").
+   > ![Enable for mobile .](media/mobile_enable_dashboard.png "Select Enable for mobile").
 
  
 6. Select **Save**.  
   
-   Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [User Guide for Dynamics 365 for phones and tablets](dynamics-365-phones-tablets-users-guide.md)  
+   Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [User Guide for Dynamics 365 for phones and tablets](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)  
   
 You can assign security roles to a dashboard, so the dashboard appears only to users with certain security roles. For example, to set who has access to the Sales Dashboard.
 
@@ -156,7 +156,7 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 ### Forms  
  Forms in the Dynamics 365 mobile app are based on the development principle of *Design once and deploy across clients*.
  
-![Sales form in Dynamics 365 apps](media/sales_form.png "Sales form in Dynamics 365 apps")
+![Sales form in Dynamics 365 apps.](media/sales_form.png "Sales form in Dynamics 365 apps")
   
  Forms in the Dynamics 365 mobile app use the Main form type. The main form is used by all model-driven apps. This form provides a consistent user experience whether someone is using a web browser or the Dynamics 365 mobile app.
   
@@ -166,17 +166,17 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 2. Expand **Entities** > expand the **Contact** entity > **Forms** and then select the **Contact** form.
 
    > [!div class="mx-imgBorder"] 
-   > ![Mobile contact form](media/mobile_contact_form.png "Select the Contact form")
+   > ![Mobile contact form.](media/mobile_contact_form.png "Select the Contact form")
 
 3. Select **Change Properties**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Mobile contact form change properties](media/mobile_change_prop.png "Select the Contact form change properties]")
+   > ![Mobile contact form change properties.](media/mobile_change_prop.png "Select the Contact form change properties]")
 
 4. Clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Available on phone](media/uncheck_for_mobile_app.png "Uncheck Available on phone")
+   > ![Available on phone.](media/uncheck_for_mobile_app.png "Uncheck Available on phone")
   
   
 <a name="BKMK_PhoneEntities"></a>   
@@ -191,7 +191,7 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 4. Under **Outlook & Mobile**, select **Enable for Unified Client**. 
  
    > [!div class="mx-imgBorder"] 
-   > ![Enable mobile entities](media/enable_mobile_entity.png "Enable mobile entities").
+   > ![Enable mobile entities.](media/enable_mobile_entity.png "Enable mobile entities").
 
 Things to note:  
   
@@ -284,8 +284,8 @@ Things to note:
  [Secure and manage Dynamics 365 for phones and tablets](secure-manage-phones-tablets.md) </br>
  [What's supported](support-phones-tablets.md) </br>
  [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md) </br>
- [Install Dynamics 365 for tablets and phones](dynamics-365-phones-tablets-users-guide.md) </br>
- [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)
+ [Install Dynamics 365 for tablets and phones](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md) </br>
+ [Dynamics 365 for phones and tablets User's Guide](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
 
 

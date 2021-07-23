@@ -1,22 +1,21 @@
 ---
-title: "AccControl Tag | MicrosoftDocs"
-description: "Learn about the AccControl tag that uses the IAccessible interface from Microsoft Active Accessibility (MSAA)."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "AccControl tag | MicrosoftDocs"
+description: "Learn about the AccControl tag that uses the IAccessible interface from Microsoft Active Accessibility."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
-# AccControl Tag
+# AccControl tag
 The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/accessibility.iaccessible\(v=vs.110\).aspx) interface from Microsoft Active Accessibility (MSAA). The AccControl tag has:  
   
 - `Name` property to define the user-accessible (friendly) name for a control.  
@@ -38,7 +37,7 @@ The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/a
 ```  
   
 > [!NOTE]
->  Some elements in the `Path` tag have a `<match>` attribute that you can use to add a counter to the search description. Both the following examples return the same search result, but the first example implements the `<match>` tag:  
+> Some elements in the `Path` tag have a `<match>` attribute that you can use to add a counter to the search description. Both the following examples return the same search result, but the first example implements the `<match>` tag:  
 > 
 > - **Example 1**  
 > 
@@ -54,9 +53,9 @@ The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/a
 > 
 >   If `<match>` isn’t specified, the default value is 0.  
   
- The [String)](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.getcontrolvalue\(system.string,system.string\)) method on an `AccControl` tag is always mapped to the `get_accValue` method on the subject `IAccessible` node, unless the node contains `role="radio button"` or `role="check box"`. In these cases, the [String)](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.getcontrolvalue\(system.string,system.string\)) method returns `True` or `False`, depending on whether the state of the node is selected.  
+ The [String)](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.getcontrolvalue(system.string,system.string)) method on an `AccControl` tag is always mapped to the `get_accValue` method on the subject `IAccessible` node, unless the node contains `role="radio button"` or `role="check box"`. In these cases, the [String)](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.getcontrolvalue(system.string,system.string)) method returns `True` or `False`, depending on whether the state of the node is selected.  
   
- The [String)](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.setcontrolvalue\(system.string,system.string,system.string\)) method on an `AccControl` tag is always mapped to the `set_accValue` method on the subject `IAccessible` node, with the exception of nodes that have `role="radio button"` or `role="check box"`. In the case of a radio button, an `UnsupportedControlOperation` exception is raised because a radio button can’t be assigned a `True` or `False` value.  
+ The [String)](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.setcontrolvalue(system.string,system.string,system.string)) method on an `AccControl` tag is always mapped to the `set_accValue` method on the subject `IAccessible` node, with the exception of nodes that have `role="radio button"` or `role="check box"`. In the case of a radio button, an `UnsupportedControlOperation` exception is raised because a radio button can’t be assigned a `True` or `False` value.  
   
  The following example displays the [RELAX NG](https://relaxng.org/compact-tutorial-20030326.html) XML code for the \<Path> tag.  
   

@@ -2,15 +2,13 @@
 title: "Import data into Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Get your data in bulk into Dynamics 365 Sales Professional by importing it."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-account
   - D365-Entity-contact
@@ -150,7 +148,7 @@ remaining lines are imported as data.
     2.  If the column headings don’t match, the unmapped fields will be shown with a red exclamation point. Select a Dynamics 365 field to map to the
         unmapped column heading of your file.
 
-        ![Review mapping page to map data](media/review-mapping-page.png "Review mapping page to map data")
+        ![Review mapping page to map data.](media/review-mapping-page.png "Review mapping page to map data")
 
         >[!TIP]
         >To quickly filter on only the unmapped fields, select **Unmapped** from the **Map Attributes** drop-down list.
@@ -158,7 +156,7 @@ remaining lines are imported as data.
         In the **Optional Fields** section, the left side shows the column headings in your source file. If the column headings match the field
         display names, the fields will be automatically selected in the corresponding drop-down lists.
 
-        ![Review mapping page to map data](media/review-mapping-page.png "Review mapping page to map data")
+        ![Review mapping page to map data.](media/review-mapping-page.png "Review mapping page to map data")
 
         If the column headings don’t match, the unmapped fields will be shown with a red exclamation mark.
 
@@ -166,11 +164,11 @@ remaining lines are imported as data.
         from the drop-down list. If you select **Ignore** for a column, the data in that column won’t be imported into Dynamics 365 Sales
         Professional.
 
-        ![Optional Fields section in Review Mapping Page](media/review-mapping-page-optional-fields.png "Optional Fields section in Review Mapping Page")
+        ![Optional Fields section in Review Mapping Page.](media/review-mapping-page-optional-fields.png "Optional Fields section in Review Mapping Page")
 
-    4.  While importing your data, if any column in your source file includes a fixed set of values, you must map the column to a field of Option Set type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, select the ![Option Set icon](media/option-set-mapping-icon.png "Option Set icon") icon next to the option set field. The **Option set mapping** section opens:
+    4.  While importing your data, if any column in your source file includes a fixed set of values, you must map the column to a field of Option Set type. A column of this type has values such as "Yes" or "No," or "Hot," "Warm," or "Cold." To do this, select the ![Option Set icon.](media/option-set-mapping-icon.png "Option Set icon") icon next to the option set field. The **Option set mapping** section opens:
     
-        ![Option set mapping dialog box](media/option-set-mapping-dialog-box.png "Option set mapping dialog box")
+        ![Option set mapping dialog box.](media/option-set-mapping-dialog-box.png "Option set mapping dialog box")
     
         For each **Source Option Values** item, select an item from the **Dynamics 365 Option Values** list to map it, and then select **OK**.
 
@@ -208,11 +206,11 @@ remaining lines are imported as data.
         For example, say you want to import the file Leads.csv that contains customer records. The **Customer** column in the Leads.csv contains the
         associated account or contact data.
 
-        To do this, select the ![Mapping of an option set field](media/icon-for-option-set-field-mapping.png "Mapping of an option set field") icon next to the lookup field. The **Lookup Reference** section opens and lists the related entities to the current entity. For each entity, select the fields to search during import to retain the relationships between the records, and then select **OK**.
+        To do this, select the ![Mapping of an option set field.](media/icon-for-option-set-field-mapping.png "Mapping of an option set field") icon next to the lookup field. The **Lookup Reference** section opens and lists the related entities to the current entity. For each entity, select the fields to search during import to retain the relationships between the records, and then select **OK**.
 
     6.  To save these mappings as a data map, enter a name in the **Name your data map** box.
 
-        ![Name your data map](media/name-data-map.png "Name your data map")
+        ![Name your data map.](media/name-data-map.png "Name your data map")
 
         You can just select this data map when you want to import similar data in the future. The data map maps data based on the mappings you’ve
         defined earlier.
@@ -247,7 +245,7 @@ You must wait for an import job to complete before you can repair failures.
 
     Select appropriate tabs to see information about failures, success, or partial failure of records during import.
 
-    ![General tab of the import source file](media/general-tab-import-source-file.png "General tab of the import source file")
+    ![General tab of the import source file.](media/general-tab-import-source-file.png "General tab of the import source file")
 
 3.  On the **Failures** tab, export rows that failed to import to a new CSV file. Select **Export Error Rows**. You can correct the errors in this file, and then import it.
 
@@ -281,7 +279,7 @@ To be able to import from Exchange:
 1.   If you’re a user with a Sales Professional or Sales Professional Manager role, go to the list of contacts. On the command bar, select **Import
     from Excel** \> **Import from Exchange**.
 
-    ![Import from Exchange option](media/import-from-exchange-option.png "Import from Exchange option")
+    ![Import from Exchange option.](media/import-from-exchange-option.png "Import from Exchange option")
 
     -OR-
 
@@ -291,7 +289,7 @@ To be able to import from Exchange:
 
     The **Track data from Exchange** dialog box opens.
 
-    ![Track data from Exchange dialog box](media/track-data-from-exchange-dialog-box.png "Track data from Exchange dialog box")
+    ![Track data from Exchange dialog box.](media/track-data-from-exchange-dialog-box.png "Track data from Exchange dialog box")
 
 4. Select **Track**.
 

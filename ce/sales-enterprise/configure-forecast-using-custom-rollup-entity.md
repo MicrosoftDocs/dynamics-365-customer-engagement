@@ -2,13 +2,13 @@
 title: "Configure a forecast using custom rollup entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure a forecast using custom rollup entity in Dynamics 365 Sales."
 ms.date: 10/26/2020
-ms.service: "dynamics-365-sales"
-ms.custom: "dyn365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+ms.custom: 
+  - dyn365-sales
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastconfiguration
   - D365-Entity-msdyn_forecastdefinition
@@ -16,12 +16,11 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # Configure forecasts by using a custom rollup entity
 
-Forecasting supports custom and other out-of-the-box rollup entities so you can configure a forecast that's specific to your organizational requirements.
+Forecasting supports custom and other out-of-the-box rollup entities (now known as tables) so you can configure a forecast that's specific to your organizational requirements.
 
 ## How it works
 
@@ -50,7 +49,7 @@ So, we're using the following entities to create the forecast:
 The following image illustrates the above mentioned data model.
 
 > [!div class="mx-imgBorder"]
-> ![Opportunity product entity relationship with hierarchy and related entities](media/forecast-custom-entity-opportunity-product.png "Opportunity product entity relationship with hierarchy and related entities")
+> ![Opportunity product entity relationship with hierarchy and related entities.](media/forecast-custom-entity-opportunity-product.png "Opportunity product entity relationship with hierarchy and related entities")
 
 Let's configure this forecast.
 
@@ -60,14 +59,14 @@ Let's configure this forecast.
     >You can choose **Create from scratch** to create a forecast based on your custom entities and custom relationships.
  
     > [!div class="mx-imgBorder"]
-    > ![Select a template](media/forecast-ce-template-selection.png "Select a template")
+    > ![Select a template.](media/forecast-ce-template-selection.png "Select a template")
 
 2.	In the **General** section, select the rollup entity as **Opportunity Product** and the hierarchy entity as **Product**.
 
     A direct relationship exists between the rollup and hierarchy entities, so you select the relationship as **Opportunity Product > Existing Product (Product) > Product**. Here, **Existing Product** is an attribute in the **Opportunity Product** rollup entity that has a relationship to the **Product** hierarchy entity.
 
     > [!div class="mx-imgBorder"]
-    > ![Configure general properties](media/forecast-ce-general-properties.png "Configure general properties")
+    > ![Configure general properties.](media/forecast-ce-general-properties.png "Configure general properties")
 
     If there's no direct entity relationship between the rollup entity and the hierarchy entity, you can choose a related attribute to define the relationship. Select the **Related** tab, and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only. If no relationships exist, the entity and related tab will be empty, and you can't configure the forecast.    
 
@@ -78,16 +77,16 @@ Let's configure this forecast.
 4.	In the **Layout** section, choose the option set entity from the rollup entity or from its related entities. For this data model, the forecast categories exist in the Opportunity entity. Select the **Opportunity (Opportunity)** option set entity from **Related Entities**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select the Opportunity entity from related entities](media/forecast-ce-select-opportunity-entity.png "Select the Opportunity entity from related entities")
+    > ![Select the Opportunity entity from related entities.](media/forecast-ce-select-opportunity-entity.png "Select the Opportunity entity from related entities")
 
     a. In the **Opportunity (Opportunity)** entity, the **Forecast category** option set is selected and automatically configured.
 
-    b. To configure each column, select the corresponding gear icon ![Gear icon](media/gear-icon.png "Gear icon") and the column configuration section opens. 
+    b. To configure each column, select the corresponding gear icon ![Gear icon.](media/gear-icon.png "Gear icon") and the column configuration section opens. 
 
     c. In the **Amount field**, the **Extended Amount** attribute is selected from **Opportunity Product** (rollup entity). However, **Date field entity** isn't available in the **Opportunity Product** entity. You can select the related **Opportunity** entity, and then select the **Est.Close Date** attribute.
 
     > [!div class="mx-imgBorder"]
-    > ![Configure column](media/forecast-ce-configure-column.png "Configure column")
+    > ![Configure column.](media/forecast-ce-configure-column.png "Configure column")
 
     d. Enter other necessary information in the form, and then save it.
 
@@ -101,11 +100,14 @@ Let's configure this forecast.
 
 ## Opportunity split 
 
+>[!IMPORTANT]
+>The opportunity split is a custom entity and isn't available by default. You must first create the opportunity split custom entity to be able to use as a rollup entity. More information: [Create a custom table](/powerapps/maker/data-platform/data-platform-create-entity).
+
 Use this model to create an opportunity split forecast.
 
-For opportunity split&ndash;based forecasting, the user-level revenue comes from the Opportunity Split entity. Therefore, **Opportunity Split** must be selected as the rollup entity and **User** as the hierarchy entity that has a direct relationship with the rollup entity through the **Owner** attribute. 
+For opportunity split&ndash;based forecasting, the user-level revenue comes from the opportunity split entity. Therefore, **Opportunity Split** must be selected as the rollup entity and **User** as the hierarchy entity that has a direct relationship with the rollup entity through the **Owner** attribute. 
 
-The other key attributes for the forecast are **Forecast category** and **Est.Close Date**. These attributes are available in the Opportunity entity that's related to the Opportunity Split rollup entity. 
+The other key attributes for the forecast are **Forecast category** and **Est.Close Date**. These attributes are available in the Opportunity entity that's related to the opportunity split rollup entity. 
 
 So, we're using the following entities to create the forecast:
 
@@ -116,14 +118,14 @@ So, we're using the following entities to create the forecast:
 The following diagram illustrates the above mentioned data model.
 
 > [!div class="mx-imgBorder"]
-> ![Opportunity split entity relationship with hierarchy and related entities](media/forecast-custom-entity-opportunity-split.png "Opportunity split entity relationship with hierarchy and related entities")
+> ![Opportunity split entity relationship with hierarchy and related entities.](media/forecast-custom-entity-opportunity-split.png "Opportunity split entity relationship with hierarchy and related entities")
 
 Let's configure this forecast.
 
 1.	On the template selection page, select **Create from scratch** to create a forecast based on your custom rollup entities.
 
     > [!div class="mx-imgBorder"]
-    > ![Select template](media/forecast-ce-template-selection.png "Select template")
+    > ![Select template.](media/forecast-ce-template-selection.png "Select template")
 
 2.	In the **General** section, select **Opportunity Split** as the rollup entity and **User** as the hierarchy entity.
 
@@ -132,7 +134,7 @@ Let's configure this forecast.
     If there's no direct entity relationship between the rollup entity and the hierarchy entity, you can choose a related attribute to define the relationship. Select the **Related** tab, and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only. If no relationships exist, the entity and related tab will be empty, and you can't configure the forecast.
 
     > [!div class="mx-imgBorder"]
-    > ![Configure general properties](media/forecast-ce-os-general-properties.png "Configure general properties")
+    > ![Configure general properties.](media/forecast-ce-os-general-properties.png "Configure general properties")
 
     Enter other necessary information in the form, and then select **Next**. More information: [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
 
@@ -141,11 +143,11 @@ Let's configure this forecast.
 4.	In the **Layout** section, choose the option set entity from the rollup entity or from its related entities. In this example, we select **Parent Opportunity (Opportunity)** from **Related Entities**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Select the parent opportunity entity from related entities](media/forecast-ce-os-select-opportunity-entity.png "Select the parent opportunity entity from related entities")
+    > ![Select the parent opportunity entity from related entities.](media/forecast-ce-os-select-opportunity-entity.png "Select the parent opportunity entity from related entities")
 
     a. In **Parent Opportunity (Opportunity)**, the **Forecast category** option set is selected. The columns for the **Forecast category** option set won't be automatically configured, because you might want to use some of the custom attributes. You must manually configure each column.
 
-    b. To configure each column, select the corresponding gear icon ![Gear icon](media/gear-icon.png "Gear icon"), and the column configuration section opens.
+    b. To configure each column, select the corresponding gear icon ![Gear icon.](media/gear-icon.png "Gear icon"), and the column configuration section opens.
 
     c. Select **Amount field**. From this list of out-of-the-box and custom revenue attributes that are related to **Opportunity Split** (such as **Parent Opportunity Amount** and **Revenue Total**), select **Parent Opportunity Amount**.
 
@@ -154,7 +156,7 @@ Let's configure this forecast.
     e. In **Date field**, select the **Est.Close Date** attribute. 
 
     > [!div class="mx-imgBorder"]
-    > ![Configure column](media/forecast-ce-os-configure-column.png "Configure column")
+    > ![Configure column.](media/forecast-ce-os-configure-column.png "Configure column")
 
     Enter other necessary information in the form, and then save it.
 

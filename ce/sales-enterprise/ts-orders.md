@@ -2,11 +2,9 @@
 title: "Troubleshooting the Order entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Order entity in Dynamics 365 Sales."
 ms.date: 03/24/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -21,21 +19,21 @@ Sales order processing integration connects Dynamics 365 Sales with an external,
 
 **To disable sales order processing integration**
 
-1. In the Sales Hub app, at the bottom of the site map, select **Change area** ![Change area](media/change-area-icon.png "Change area"), and then select **App Settings**.
+1. In the Sales Hub app, at the bottom of the site map, select **Change area** ![Change area.](media/change-area-icon.png "Change area"), and then select **App Settings**.
 
 2. Under **General Settings**, select **Overview**. 
 
     When sales order processing is already enabled, users with the System Administrator role or equivalent permissions will see the **Back office order processing integration** setting on the **Overview** page.
 
     > [!div class="mx-imgBorder"]  
-    > ![Setting to disable back-office order-processing integration](media/order-processing-integration-setting.png "Setting to disable back-office order-processing integration")
+    > ![Setting to disable back-office order-processing integration.](media/order-processing-integration-setting.png "Setting to disable back-office order-processing integration")
  
 3. Select **Manage**. 
 
 4. To disable the integration, switch **Sales order processing** to **Off**, and then select **Save**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Sales order processing setting](media/sales-order-processing-setting.png "Sales order processing setting")
+    > ![Sales order processing setting.](media/sales-order-processing-setting.png "Sales order processing setting")
 
     > [!IMPORTANT]
     > - The **Back office order processing integration** setting is visible only when sales order processing is already enabled. 

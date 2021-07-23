@@ -3,7 +3,7 @@ title: "Use a left outer join in QueryExpression to query for records &quot;not 
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -60,10 +60,10 @@ WHERE ab.RegardingObjectId is null
 ```  
   
 ### See also  
- [Build Queries with QueryExpression](org-service/build-queries-with-queryexpression.md)   
- [Test for a Null Value](org-service/test-null-value.md)   
- [Using the QueryExpression Class](org-service/use-queryexpression-class.md)   
- [Using the QueryByAttribute Class](org-service/use-querybyattribute-class.md)
+ [Build Queries with QueryExpression](/powerapps/developer/data-platform/org-service/build-queries-with-queryexpression)   
+ [Test for a Null Value](/powerapps/developer/data-platform/org-service/test-null-value)   
+ [Using the QueryExpression Class](/powerapps/developer/data-platform/org-service/use-queryexpression-class)   
+ [Using the QueryByAttribute Class](/powerapps/developer/data-platform/org-service/use-querybyattribute-class)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

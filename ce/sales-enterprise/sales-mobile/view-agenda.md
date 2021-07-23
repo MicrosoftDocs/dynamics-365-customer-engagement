@@ -1,9 +1,8 @@
 ---
 title: View meetings in the Dynamics 365 Sales mobile app
 description: Learn how to view meetings in the Dynamics 365 Sales mobile app.
-ms.date: 11/30/2020
+ms.date: 05/03/2021
 ms.topic: article
-ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -11,9 +10,8 @@ manager: shujoshi
 
 # View meetings
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-The information on the home page of the Dynamics 365 Sales mobile app can help you better plan your day. For example, the Meetings section displays your most recent meeting and the next upcoming meeting. To see more meetings for the day, tap **Meetings** either on the home page or on the navigation bar. Meetings that have been scheduled in Microsoft Outlook are displayed.    
+The information on the home page of the Dynamics 365 Sales mobile app can help you better plan your day. For example, the Meetings section displays your most recent meeting and the next upcoming meeting. To see more meetings for the day, tap **Meetings** either on the home page or on the navigation bar. Meetings that have been scheduled in Microsoft Outlook are displayed.  
+  
 > [!NOTE]
 > - You can't create a meeting from the Dynamics 365 Sales mobile app.
 > - The Meetings section only include meetings that have at least one attendee who's outside of your organization's domain.   
@@ -22,20 +20,20 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
 
 1.  On the navigation bar, tap **Meetings**. The calendar view opens.
     
-    ![Meetings section](media/sm-meetings-nav-bar.png "Meetings section")
+    ![Meetings section.](media/sm-meetings-nav-bar.png "Meetings section")
     
     To see the details of a meeting, tap the meeting record.
     
 2.  To see meetings for a specific date, tap a date in the calendar.
 
-    ![Select a date to see meetings](media/sm-select-date.png "Select a date to see meetings")
+    ![Select a date to see meetings.](media/sm-select-date.png "Select a date to see meetings")
     
     If there are no meetings scheduled for the day, nothing is displayed.   
 
 ## View meeting details
 
 To see details of a specific meeting, tap the meeting record on either the home page or in the calendar view. The meeting details are displayed, as shown in the following image.    
-![Meeting details](media/sm-meeting-details.png "Meeting details")  
+![Meeting details.](media/sm-meeting-details.png "Meeting details")  
 
 Meeting details include the following:
 
@@ -67,7 +65,7 @@ The Regarding section or entity specifies what the meeting is about, such as an 
 In the following screenshot, you can see that the meeting is about an opportunity to purchase 10,000 cars.
 
 > [!div class="mx-imgBorder"]
-> ![View regarding entity](media/sm-view-regarding-entity.png "View regarding entity")
+> ![View regarding entity.](media/sm-view-regarding-entity.png "View regarding entity")
 
 You can perform the following action on regarding entities: [view and edit](open-record.md) the records along with [change regarding entity in meetings](#change-regarding-entity) and [add regarding entity in meetings](#add-regarding-entity).    
 
@@ -78,20 +76,20 @@ You can perform the following action on regarding entities: [view and edit](open
 
 You can update the regarding entity when it is no longer relevant or there are changes to the meeting. To change the regarding entity, follow these steps:
 
-1. Tap the three dots, **More options** (![Options button](media/sm-options-button.png "Options button")), and then tap **Change connected record**.
+1. Tap the three dots, **More options** (![Options button.](media/sm-options-button.png "Options button")), and then tap **Change connected record**.
 
     >[!div class="mx-imgBorder"]
-    >![Select change connected record option](media/sm-select-change-connected-record.png "Select change connected record option")
+    >![Select change connected record option.](media/sm-select-change-connected-record.png "Select change connected record option")
     
 2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.
 
     >[!div class="mx-imgBorder"]
-    >![Find a record to connect](media/sm-regarding-record.png "Find for a record to connect")
+    >![Find a record to connect.](media/sm-regarding-record.png "Find for a record to connect")
     
 3. After selecting a record, tap **Save**.
 
     >[!div class="mx-imgBorder"]
-    >![Select and save a record to connect](media/sm-select-regarding-record.png "Select and save a record to connect")
+    >![Select and save a record to connect.](media/sm-select-regarding-record.png "Select and save a record to connect")
     
 The connected record details are displayed in the Regarding section.
 
@@ -105,17 +103,17 @@ You can add a regarding entity to a meeting when no regarding entity is attached
 1. On the meeting details page, tap **Set regarding**.
 
     >[!div class="mx-imgBorder"]
-    >![Connect a record to a meeting](media/sm-meeting-details-no-record.png "Connect a record to a meeting")
+    >![Connect a record to a meeting.](media/sm-meeting-details-no-record.png "Connect a record to a meeting")
     
 2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.
 
     >[!div class="mx-imgBorder"]
-    >![Find a record to connect](media/sm-regarding-record.png "Find for a record to connect")
+    >![Find a record to connect.](media/sm-regarding-record.png "Find for a record to connect")
     
 3. After selecting a record, tap **Save**.
 
     >[!div class="mx-imgBorder"]
-    >![Select and save a record to connect](media/sm-select-regarding-record.png "Select and save a record to connect")
+    >![Select and save a record to connect.](media/sm-select-regarding-record.png "Select and save a record to connect")
     
 The connected record details are displayed in the Regarding section.
 
@@ -127,7 +125,7 @@ The Notes section for a meeting can be used to add notes related to a meeting, s
 
 Any reminders and insights related to the meeting are displayed in the Reminders section. For each card, you can tap the three dots on the left, **More options** (![Options button](media/sm-options-button.png "Options button")), to dismiss, snooze, and like or dislike the card. More information: [Notes and reminders](open-record.md#notes-and-reminders)
 
-## See also   
+### See also   
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Manage contacts](create-contact.md)   

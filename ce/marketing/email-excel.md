@@ -34,7 +34,7 @@ This tutorial provides an example of how to send marketing email messages to all
 > [!NOTE]
 > This step requires admin privileges, but only needs to be done once per instance. If you're not an admin, then please contact your admin for help with this step if it's not already been done on your instance.
 
-If you don't already have one, then add a custom field to the contact entity to hold a value that identifies each contact that is part of a given spreadsheet. For instructions, see [How to create and edit fields](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-fields). Later, you'll be able to create a segment that looks for a specific value in this field and thereby finds all contacts that were listed in the original spreadsheet.
+If you don't already have one, then add a custom field to the contact entity to hold a value that identifies each contact that is part of a given spreadsheet. For instructions, see [How to create and edit fields](/powerapps/maker/common-data-service/create-edit-fields). Later, you'll be able to create a segment that looks for a specific value in this field and thereby finds all contacts that were listed in the original spreadsheet.
 
 For this example, we'll assume you created a text field called "ImportSegment" for this purpose. Configure the field as follows (these are probably your default settings) and then publish the changes:
 
@@ -44,7 +44,7 @@ For this example, we'll assume you created a text field called "ImportSegment" f
 - **Data type**: Single line of text
 - **Field type**: Simple
 
-![Add a new field for contacts](media/excel-email-custom-field.png "Add a new field for contacts")
+![Add a new field for contacts.](media/excel-email-custom-field.png "Add a new field for contacts")
 
 ## Step 2: Prepare your spreadsheet
 
@@ -58,7 +58,7 @@ Add a column for the custom field that you added in step 1 of this scenario, and
 
 If your spreadsheet doesn't already include column headings, then we recommend you add them to make it easier to map the rows when you import to Dynamics 365.
 
-![Example spreadsheet](media/excel-email-spreadsheet.png "Example spreadsheet")
+![Example spreadsheet.](media/excel-email-spreadsheet.png "Example spreadsheet")
 
 When you're done, export the excel spreadsheet to a comma-separated values (CSV) file.
 
@@ -66,7 +66,7 @@ When you're done, export the excel spreadsheet to a comma-separated values (CSV)
 
 Import the CSV file that you created in Step 2 into Dynamics 365 Marketing as described in [Import records from a CSV file](import-data.md#import-records-from-a-csv-file). As usual, take care when mapping the incoming columns to the correct data fields.
 
-![Map spreadsheet columns to database fields](media/excel-email-import.png "Map spreadsheet columns to database fields")
+![Map spreadsheet columns to database fields.](media/excel-email-import.png "Map spreadsheet columns to database fields")
 
 > [!NOTE]
 > On import, Dynamics 365 Marketing will match the incoming contacts against existing contacts using the duplicate-detection rules established for your instance. If a match is found, then the incoming contact will be dropped and the existing contact will remain unchanged. This means that when a match is found, the matching contact won't be included in the segment that you will create later to email contacts from the imported file.
@@ -77,7 +77,7 @@ Now [create a profile-based dynamic segment](segmentation-lists-subscriptions.md
 
 **Contact | ImportSegment | is | Summer2019EventImport**
 
-![Segment example](media/excel-email-segment.png "Segment example")
+![Segment example.](media/excel-email-segment.png "Segment example")
 
 Give the segment a name, then save and go live.
 
@@ -87,13 +87,13 @@ If  you haven't already done so, then create, save, and go live with your email 
 
 Now you're ready to send the email to your contacts. Create a new journey as usual. Be sure it starts with the segment you created to find your imported contacts and also includes the email you created to send to these contacts. More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
-![Customer journey example](media/excel-email-journey.png "Customer journey example")
+![Customer journey example.](media/excel-email-journey.png "Customer journey example")
 
 Finish designing your journey as needed. When you're done, set the start date and time and then go live.
 
 ### See also
 
-[How to create and edit fields](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-fields)
+[How to create and edit fields](/powerapps/maker/common-data-service/create-edit-fields)
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Import data](import-data.md)  
 [Email marketing overview](prepare-marketing-emails.md)  

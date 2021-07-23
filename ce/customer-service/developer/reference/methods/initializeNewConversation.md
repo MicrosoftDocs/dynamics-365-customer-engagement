@@ -1,11 +1,11 @@
 ---
 title: "initializeNewConversation (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: 
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Includes information about initializeNewConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 10/12/2020
 ms.topic: article
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 
 # initializeNewConversation
@@ -29,7 +29,7 @@ This method is required to be implemented in web resource. It is called once, as
 
 |Name|Required|Type|Description|
 |----|----|----|----|
-|`conversationConfig`|Yes| Javascript object| Provides details about conversation. Such as conversation id, default agent input language (From Real-time translation administrator configuration) etc. <br /> More details are available in the following paragraphs.|
+|`conversationConfig`|Yes| JavaScript object| Provides details about conversation. Such as conversation id, default agent input language (From Real-time translation administrator configuration) etc. <br /> More details are available in the following paragraphs.|
 
 Here is the structure of `conversationConfig` parameter.
 
@@ -46,7 +46,7 @@ interface conversationConfig {
         inviteParams: InviteParams;  // Implements InviteParams interface, Represents the parameters received on a conversation invite  
 }
 ```
-The `inviteLocale` parameter in `InviteParams` interface represents a Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
+The `inviteLocale` parameter in `InviteParams` interface represents a Locale ID. More information: [Locale ID](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
 The `channelType` parameter in `InviteParams` interface represents a supported channel in Omnichannel for Customer Service. The channels are listed as follows.
 
@@ -79,15 +79,15 @@ conversationConfig = {
 
 ## Return Value
 
-Returns a promise that resolves to the following Javascript object.
+Returns a promise that resolves to the following JavaScript object.
 
-```
+```javascript
 {
         keepTranslationOn: boolean;// mandatory field, if true the translation would be turned on for the conversation and vice-versa
         c1Language?: string;// optional field, return the agent's language if input param conversationConfig.c1Language needs to be overriden for the conversation
 }
 ```
-The `c1Language` parameter in resolved Javascript object represents a Locale ID only from the following list.
+The `c1Language` parameter in resolved JavaScript object represents a Locale ID only from the following list.
 
 |Locale ID|Language|
 |----|----|
@@ -150,13 +150,13 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 
 ## Additional Information
 
-- On exception in this method or invalid return values, Omnichannel for Customer Service will keep translation off for the conversation. For example: if resolved Javascript object from the returned promise does not contains `keepTranslationOn` field or `c1Language` field contains a value that is not from list of Locale IDs, the conversation will start with translation turned off.
+- On exception in this method or invalid return values, Omnichannel for Customer Service will keep translation off for the conversation. For example: if resolved JavaScript object from the returned promise does not contains `keepTranslationOn` field or `c1Language` field contains a value that is not from list of Locale IDs, the conversation will start with translation turned off.
 
 - Consider including minimal processing in this function because it makes the UI wait before rendering. If the run time of this function exceeds 30 seconds, the conversation will start with translation turned off, irrespective of the values of the returned promise.
 
 - If this method is not implemented, the following error will be displayed to the agent.
 
-![initializeNewConversation error message](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
+![initializeNewConversation error message.](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
 
 ### See also
 

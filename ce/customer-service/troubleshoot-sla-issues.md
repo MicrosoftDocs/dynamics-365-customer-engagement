@@ -1,14 +1,11 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
+ms.date: 04/05/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/30/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Troubleshoot issues in service-Level agreements in Customer Service
@@ -66,7 +65,10 @@ When you update the target record such that “Applicable when” condition is n
 
 ### Reason
 
-When you define the Applicable When" and "Success Conditions" on the same attribute, such as "case status", one of the criteria might not be met, and the SLA KPI instance status will be canceled.
+When you define the "Applicable When" and "Success Conditions" on the same attribute, such as "case status", one of the criteria might not be met, and the SLA KPI instance status will be canceled.
+
+> [!NOTE]
+> When you define the conditions on the same attribute, a recommendation message is displayed that suggests you to not use the same attribute.
 
 ### Workaround
 
@@ -77,7 +79,7 @@ In such scenarios, we recommend that you don't define the "Applicable When" and 
 When updates are made to the target record, the attributes present in the "Applicable When" conditions of the SLA item are modified in the applied SLA.
 
 Consider a scenario in which you've created an SLA in the web client with an SLA item that has the following "Applicable When" and "Success Conditions", and is set as the default.
-> ![Scenario for troubleshooting SLAs](media/troubleshoot-sla.png "Scenario for troubleshooting SLAs")
+> ![Scenario for troubleshooting SLAs.](media/troubleshoot-sla.png "Scenario for troubleshooting SLAs")
 
 1. Create a case with case type set as question. The SLA timer starts.
 

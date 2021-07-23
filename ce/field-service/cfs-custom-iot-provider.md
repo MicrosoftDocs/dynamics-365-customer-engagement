@@ -1,11 +1,10 @@
 ---
 title: "Extensible IoT data sources for Connected Field Service | MicrosoftDocs"
 description: Learn how to use custom IoT providers in Connected Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 07/09/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -36,7 +35,7 @@ Consider using a custom IoT provider:
 
 ## Prerequisites
 
-- Development experience in model-driven apps that connect to Dynamics 365 and Common Data Service. For more information, see the [overview on model-driven apps](https://docs.microsoft.com/powerapps/developer/model-driven-apps/overview).
+- Development experience in model-driven apps that connect to Dynamics 365 and Common Data Service. For more information, see the [overview on model-driven apps](/powerapps/developer/model-driven-apps/overview).
 - Programming experience with C#, .NET, and Visual Studio.
 - Knowledge of REST/OData API.
 
@@ -84,7 +83,7 @@ The IoT settings entity now has an option to choose a default IoT provider insta
 
 ## Supported actions
 
-When you create a custom IoT provider, you'll specify a set of actions associated with that provider. Actions in Dynamics 365 are custom code that will run when you invoke them. For more information, see [this article on custom actions in Dynamics 365](https://docs.microsoft.com/powerapps/developer/common-data-service/custom-actions).
+When you create a custom IoT provider, you'll specify a set of actions associated with that provider. Actions in Dynamics 365 are custom code that will run when you invoke them. For more information, see [this article on custom actions in Dynamics 365](/powerapps/developer/common-data-service/custom-actions).
 
 For example, if you specify ```msdyn_MockProviderPullDeviceDataAction``` as the action for "Pull device data" in your provider, Connected Field Service will look for an action with the name ```msdyn_MockProviderPullDeviceDataAction``` and run that action's code when a user selects the **Pull device data** button on the asset or device form or views in Connected Field Service.
 
@@ -398,7 +397,7 @@ Here is some sample output.
 
 The device readings control in Connected Field Service also allows IoT providers to plot discrete events from service history, such as the creation and closure of work orders, scheduled start and end of bookings, and much more. For example, the following screenshot shows the out-of-the-box work order events as "pins" at the bottom of the chart. You can include any custom entities such as the last time you performed an asset upgrade. You don't need to create a **new** action. Rather, you can register a custom plug-in on the ```msdyn_IoTGetDeviceEvents``` action, similar to how you can create plug-ins for create events. 
 
-For more information, see the [article on events in Common Data Service](https://docs.microsoft.com/powerapps/developer/common-data-service/event-framework).
+For more information, see the [article on events in Common Data Service](/powerapps/developer/common-data-service/event-framework).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of device readings showing events.](./media/custom-iot-device-events.png)

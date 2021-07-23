@@ -4,7 +4,7 @@ description: "Learn more about URL addressable elements that enable you to inclu
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -28,8 +28,8 @@ URL addressable elements enable you to include links to [!INCLUDE[pn_microsoftcr
 
 > [!NOTE]
 > - URL addressable forms, views, dialogs, and reports cannot bypass [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security. Only licensed [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users, based on their security roles, can access the data and the records they see.  
->   -   Use `Xrm.Navigation.`[openForm](clientapi/reference/Xrm-Navigation/openForm.md) when you open entity forms programmatically within the application by using web resources. Do not use `window.open`.  
->   -   Outside the application, where pages do not have access to the `Xrm.Navigation.`[openForm](clientapi/reference/Xrm-Navigation/openForm.md) function, use `window.open` or a link to open a specific record or form for an entity.  
+>   -   Use `Xrm.Navigation.`[openForm](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openForm) when you open entity forms programmatically within the application by using web resources. Do not use `window.open`.  
+>   -   Outside the application, where pages do not have access to the `Xrm.Navigation.`[openForm](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openForm) function, use `window.open` or a link to open a specific record or form for an entity.  
 
 <a name="BKMK_URLAddressableFormsAndViews"></a>
 
@@ -58,11 +58,11 @@ https://myorg.crm.dynamics.com/main.aspx?etn=contact&pagetype=entitylist&viewid=
  ```  
 
 > [!NOTE]
->  Opening entity forms in a dialog window by using [showModalDialog](https://msdn.microsoft.com/library/ie/ms536759.aspx) or [showModelessDialog](https://msdn.microsoft.com/library/ie/ms536761.aspx) is not supported.  
+>  Opening entity forms in a dialog window by using [showModalDialog](/previous-versions/ms536759(v=vs.85)) or [showModelessDialog](https://msdn.microsoft.com/library/ie/ms536761.aspx) is not supported.  
 >   
 >  Displaying an entity form within an IFrame embedded in another entity form is not supported.  
 
- You will typically use the [getClientUrl](clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md) method to retrieve the organization root Url for both on-premises [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+ You will typically use the [getClientUrl](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl) method to retrieve the organization root Url for both on-premises [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
 
 <a name="BKMK_QueryStringParametersForMainForm"></a>   
 ### Query String Parameters for the Main.aspx Page  

@@ -2,7 +2,7 @@
 title: "After the upgrade | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -31,7 +31,7 @@ After Setup completes the upgrade, perform the following tasks.
   
 4.  If available, install the latest update. More information:  [Update Microsoft Dynamics 365](update-microsoft-dynamics-crm.md)
   
-5.  If needed, import organizations. During import, each organization will be upgraded. To do this, use the [Import-CrmOrganization](https://docs.microsoft.com/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command. Alternatively, you can use [!INCLUDE[pn_Deployment_Manager_long](../includes/pn-deployment-manager-long.md)].  
+5.  If needed, import organizations. During import, each organization will be upgraded. To do this, use the [Import-CrmOrganization](/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command. Alternatively, you can use [!INCLUDE[pn_Deployment_Manager_long](../includes/pn-deployment-manager-long.md)].  
   
 6.  In [!INCLUDE[pn_ms_SQL_SRS_ReportManager_long](../includes/pn-ms-sql-srs-reportmanager-long.md)], re-create any custom data sources under the *OrganizationName*_MSCRM folders.  
   

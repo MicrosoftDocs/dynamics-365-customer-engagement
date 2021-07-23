@@ -1,14 +1,11 @@
 ---
-title: Use settings to set up knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See how to set up settings in knowledge management in Dynamics 365 Customer Service
+title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
+ms.date: 10/05/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,14 +13,16 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
-# Use settings to set up knowledge management
+# Configure knowledge management
 
 A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in Dynamics 365 Customer Service.
 
 > [!IMPORTANT]
-> Usage of [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledgebase as a knowledge management solution has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Usage of [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledgebase as a knowledge management solution has been deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 After knowledge management is set up, users will be able to:  
   
@@ -40,7 +39,7 @@ After knowledge management is set up, users will be able to:
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
   
-1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Settings**. 
+1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Settings**.
   
 2. In the **Knowledge Base Management Settings** wizard, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
 
@@ -49,7 +48,7 @@ After knowledge management is set up, users will be able to:
   
    - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.  
 
-        Select **Yes** to share the knowledge article as a link in the email sent to the customer. Select **No** to share the article content inserted in the email body. If you choose **Yes**, provide the **URL format**.
+        Set the toggle to **Yes** to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No** to share the article content inserted in the email body. If you choose **Yes**, provide the **URL format**.
   
    - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: 
         </br> </br> *https://\<support portal URL>/knowledgebase/article/{kbnum}* 
@@ -62,7 +61,7 @@ After knowledge management is set up, users will be able to:
 
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
   
-2. Go to **Settings** > **Service Management**. 
+2. Go to **Settings** > **Service Management**.
   
 3. Under **Knowledge Base Management**, select **Embedded Knowledge Search**.  
   
@@ -74,7 +73,7 @@ After knowledge management is set up, users will be able to:
   
    - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.
 
-        Select **Yes** to share the knowledge article as a link in the email sent to the customer. Select **No** to share the article content inserted in the email body.  If you choose **Yes**, provide the **URL format**.
+        Set the toggle to **Yes** to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No** to share the article content inserted in the email body.  If you choose **Yes**, provide the **URL format**.
   
    - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: </br> </br> *https://\<support portal URL>/kb/{kbnum}*  
   

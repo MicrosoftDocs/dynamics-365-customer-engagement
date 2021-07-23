@@ -4,7 +4,7 @@ description: "Alternate keys can be used to create instances of Entity and Entit
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -75,8 +75,8 @@ public EntityReference(string logicalName, KeyAttributeCollection keyAttributeCo
   
 ### See also  
  [Define alternate keys for an entity](define-alternate-keys-entity.md)   
- [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md)   
- [Use Upsert to insert or update a record](use-upsert-insert-update-record.md)
+ [Use change tracking to synchronize data with external systems](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems)   
+ [Use Upsert to insert or update a record](/powerapps/developer/data-platform/use-upsert-insert-update-record)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

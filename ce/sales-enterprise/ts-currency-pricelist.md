@@ -2,8 +2,6 @@
 title: "Troubleshooting issues related to currency and price list (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with currency and price list in Dynamics 365 Sales."
 ms.date: 07/09/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -62,19 +60,19 @@ You can change the currency and price list for the entities in the following sta
 2. For an opportunity: go to the **Product Line Items** tab, and then delete the products from the list.
 
     > [!div class="mx-imgBorder"]
-    > ![Delete products from the product list in an opportunity form](media/ts-currency-opportunity-product-list.png "Delete products from the product list in an opportunity form")
+    > ![Delete products from the product list in an opportunity form.](media/ts-currency-opportunity-product-list.png "Delete products from the product list in an opportunity form")
 
     For a quote, order, or invoice: On the **Summary** tab, go to the **PRODUCTS** section, and delete the products from the list.
 
     > [!div class="mx-imgBorder"]
-    > ![Delete products from the product list in quote, order, or invoice forms](media/ts-currency-qoi-product-list.png "Delete products from the product list in quote, order, or invoice forms")
+    > ![Delete products from the product list in quote, order, or invoice forms.](media/ts-currency-qoi-product-list.png "Delete products from the product list in quote, order, or invoice forms")
 
 3. On the **Summary** tab, change the currency to the value you want, and then save the form. 
 
 4. Add back the product records or quote records, and then save the form.
 
 > [!NOTE]
-> You can change currency by using the entity attribute. To learn more, see [Transaction Currency (currency) entity](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/transaction-currency-currency-entity).
+> You can change currency by using the entity attribute. To learn more, see [Transaction Currency (currency) entity](../customerengagement/on-premises/developer/transaction-currency-currency-entity.md).
 
 ### See also
 

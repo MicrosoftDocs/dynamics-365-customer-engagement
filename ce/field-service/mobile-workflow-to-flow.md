@@ -1,11 +1,10 @@
 ---
 title: "Use Microsoft Power Automate flows with Field Service Mobile | MicrosoftDocs"
 description: Learn how to use Power Automate flows instead of Dynamics 365 workflows for Dynamics 365 Field Service Mobile processes.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -28,7 +27,7 @@ By using Power Automate for Field Service Mobile processes, you can:
 - Delete records and schedule jobs. 
 - Perform robust approvals. 
 
-For a comparison of features between Dynamics 365 workflows versus Power Automate flows, see [this feature comparison table.](https://docs.microsoft.com/power-automate/replace-workflows-with-flows).
+For a comparison of features between Dynamics 365 workflows versus Power Automate flows, see [this feature comparison table.](/power-automate/replace-workflows-with-flows).
 
 For more information, see the following video.
 

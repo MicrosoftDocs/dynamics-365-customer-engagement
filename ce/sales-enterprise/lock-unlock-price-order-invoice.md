@@ -2,13 +2,11 @@
 title: "Lock or unlock the price for an order or invoice in Dynamics 365 Sales | MicrosoftDocs"
 description: "Define whether the prices on orders and invoices in Dynamics 365 Sales will be locked."
 ms.date: 06/22/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-invoice
   - D365-Entity-salesorder
@@ -31,11 +29,11 @@ To lock prices or to use current pricing:
 
 2. Open the order or invoice you want.
 
-3. To lock prices, on the command bar, select the More Commands icon ![More Commands icon](media/more-commands-icon.png "More Commands icon"), and then select **Lock Pricing**.
+3. To lock prices, on the command bar, select the More Commands icon ![More Commands icon.](media/more-commands-icon.png "More Commands icon"), and then select **Lock Pricing**.
  
      -OR-
     
-    To enable current pricing, on the command bar, select the More Commands icon ![More Commands icon](media/more-commands-icon.png "More Commands icon"), and then select **Use Current Pricing**.
+    To enable current pricing, on the command bar, select the More Commands icon ![More Commands icon.](media/more-commands-icon.png "More Commands icon"), and then select **Use Current Pricing**.
 
 ### See also
 

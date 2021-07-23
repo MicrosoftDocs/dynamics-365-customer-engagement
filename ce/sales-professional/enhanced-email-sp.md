@@ -1,12 +1,10 @@
 ---
-title: "Send email using the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Send email using enhanced email experience - Sales Professional | MicrosoftDocs"
 description: "Use the enhanced email experience to compose an email without leaving the context of what you are working on."
 ms.date: 04/03/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -33,7 +31,7 @@ Compose an email using the enhanced experience:
    A new email pop-up window opens. 
 
    > [!div class="mx-imgBorder"]
-   > ![Enhanced email pop-up window](../sales-enterprise/media/enhanced-email-pop-up.png "Enhanced email pop-up window")
+   > ![Enhanced email pop-up window.](../sales-enterprise/media/enhanced-email-pop-up.png "Enhanced email pop-up window")
 
    The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
 

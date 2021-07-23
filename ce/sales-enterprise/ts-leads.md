@@ -2,13 +2,11 @@
 title: "Troubleshooting the Lead entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Lead entity in Dynamics 365 Sales."
 ms.date: 05/26/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-lead
   - D365-UI-*
@@ -38,7 +36,7 @@ You qualify a lead when you determine that the lead you've nurtured has a potent
 To qualify a lead, select **Qualify** on the command bar of the lead record.
 
 > [!div class="mx-imgBorder"]  
-> ![Qualify button on the Lead form](media/qualify-button-lead-form.png "Qualify button on the Lead form")
+> ![Qualify button on the Lead form.](media/qualify-button-lead-form.png "Qualify button on the Lead form")
 
 You can also qualify a lead from the list of leads. Go to **Sales** > **Leads**. Select the lead you want to qualify and on the command bar, select **Qualify**.
 
@@ -60,7 +58,7 @@ The following sections describe each of these errors and how you can resolve the
 #### 1. Duplicate warning – There might already be a match for this account or contact. If so, please select it.
 
 > [!div class="mx-imgBorder"]  
-> ![Duplicate warning while qualifying a lead](media/duplicate-warning.png "Duplicate warning while qualifying a lead")
+> ![Duplicate warning while qualifying a lead.](media/duplicate-warning.png "Duplicate warning while qualifying a lead")
 
 
 **Reason:**
@@ -98,7 +96,7 @@ The lead that you're trying to qualify isn't in the Active state. This might hap
 2. On the process stage, select the **Set Active** button.
 
     > [!div class="mx-imgBorder"]  
-    > ![Set Active button in the Qualify stage of lead form](media/set-active-button-qualify-stage.png "Set Active button in the Qualify stage of lead form")
+    > ![Set Active button in the Qualify stage of lead form.](media/set-active-button-qualify-stage.png "Set Active button in the Qualify stage of lead form")
 
 <a name="AccessDenied"> </a> 
 #### 4. Access denied or Insufficient permissions
@@ -149,12 +147,12 @@ Ensure that the status codes of Lead and Contact entities, or Lead and Opportuni
 4. Double-click a status to see its value.
 
     > [!div class="mx-imgBorder"]
-    > ![See the status code of the Lead entity](media/lead-status-code.png "See the status code of the Lead entity")
+    > ![See the status code of the Lead entity.](media/lead-status-code.png "See the status code of the Lead entity")
 
 5. Repeat steps 2 through 4 to see the status code for the target entity (for example, Contact).
 
     > [!div class="mx-imgBorder"]
-    > ![See the status code of the Contact entity](media/contact-status-code.png "See the status code of the Contact entity")
+    > ![See the status code of the Contact entity.](media/contact-status-code.png "See the status code of the Contact entity")
 
 **To see mappings**
 
@@ -167,7 +165,7 @@ Ensure that the status codes of Lead and Contact entities, or Lead and Opportuni
 4. Scroll to see the mapping.
 
     > [!div class="mx-imgBorder"]
-    > ![See entity mapping](media/entity-mapping.png "See entity mapping")
+    > ![See entity mapping.](media/entity-mapping.png "See entity mapping")
 
 5. If you don't see the required mapping, select **New** to create it.
 
@@ -198,9 +196,9 @@ How you resolve this error depends on the following ownership scenarios for the 
 
 | Ownership scenario   |  Resolution steps       |
 |--------------------- | -----------------       |
-| The lead is owned by the user trying to qualify it. | <ol> <li> Make sure you have a system administrator role or equivalent permissions. </li><li> Go to **Settings** > **Security Role**.</li><li> Open the security role of the user.</li><li> On the **Core Records** tab, assign **Create**, **Read**, **Append**, and **Append To** permissions to the Security Role at User level on the following entities:<ul><li>  Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul> ![Security role with access at User level](media/security-role-sales-person.png "Security role with access at User level") <br><br> <li> On the **Custom Entities** tab, assign Read access to any custom entity.</li><li> On the **Customizations** tab, assign **Read** access to **Attribute Map**, **Customizations**, **Entity**, and **Entity Map**.</li></ol> |
-| The lead that the user is trying to qualify is in their business unit.  | <ol><li>Go to **Settings** > **Security Role**.</li> <li> Open the security role of the user.</li><li> Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:<ul><li> Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul>![Security role with access at Business Unit level](media/security-role-sales-person-bu-access.png "Security role with access at Business Unit level") <li> Assign **Read** access to any custom entity.</li><li>Assign **Read** access to **Attribute Map**, **Customizations**, **Entity**, and **Entity Map**.</li></ol>|
-| The lead that the user is trying to qualify is in their organization.  | <ol><li>Go to **Settings** > **Security Role**.</li> <li> Open the security role of the user.</li><li> Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Organization level on the following entities:<ul><li> Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul>![Security role with access at Organization level](media/security-role-sales-person-org-access.png "Security role with access at Organization level") <li> Assign **Read** access to any custom entity.</li><li>Assign **Read** access to **Attribute Map**, **Customizations**, **Entity**, and **Entity Map**.</li></ol>|
+| The lead is owned by the user trying to qualify it. | <ol> <li> Make sure you have a system administrator role or equivalent permissions. </li><li> Go to **Settings** > **Security Role**.</li><li> Open the security role of the user.</li><li> On the **Core Records** tab, assign **Create**, **Read**, **Append**, and **Append To** permissions to the Security Role at User level on the following entities:<ul><li>  Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul> ![Security role with access at User level.](media/security-role-sales-person.png "Security role with access at User level") <br><br> <li> On the **Custom Entities** tab, assign Read access to any custom entity.</li><li> On the **Customizations** tab, assign **Read** access to **Attribute Map**, **Customizations**, **Entity**, and **Entity Map**.</li></ol> |
+| The lead that the user is trying to qualify is in their business unit.  | <ol><li>Go to **Settings** > **Security Role**.</li> <li> Open the security role of the user.</li><li> Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Business Unit level on the following entities:<ul><li> Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul>![Security role with access at Business Unit level.](media/security-role-sales-person-bu-access.png "Security role with access at Business Unit level") <li> Assign **Read** access to any custom entity.</li><li>Assign **Read** access to **Attribute Map**, **Customizations**, **Entity**, and **Entity Map**.</li></ol>|
+| The lead that the user is trying to qualify is in their organization.  | <ol><li>Go to **Settings** > **Security Role**.</li> <li> Open the security role of the user.</li><li> Assign **Create**, **Read**, **Append**, and **Append To** permissions to the user's Security Role at Organization level on the following entities:<ul><li> Account</li><li>Lead</li><li>Contact</li><li>Opportunity</li></ul>![Security role with access at Organization level.](media/security-role-sales-person-org-access.png "Security role with access at Organization level") <li> Assign **Read** access to any custom entity.</li><li>Assign **Read** access to **Attribute Map**, **Customizations**, **Entity**, and **Entity Map**.</li></ol>|
 
 During qualification of a lead, the records that (optionally) get created are: Opportunity, Contact, and Account. More information: [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md) 
 

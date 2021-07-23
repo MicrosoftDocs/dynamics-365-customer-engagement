@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Exchange Server not found or is not a supported version | Microsoft Docs"
+description: Environment diagnostics warning that there's a problem with the specified Exchange Server.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,7 +24,7 @@ ms.author: matp
   
  If this is an error, you must specify a version of [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] that is supported. If this is a warning, see the following link.  
   
- For more information, see [Microsoft Dynamics CRM Email Router software requirements](https://go.microsoft.com/fwlink/p/?LinkId=317864).
+ For more information, see [Microsoft Dynamics CRM Email Router software requirements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/hh699689(v=crm.8)).
 
 
 

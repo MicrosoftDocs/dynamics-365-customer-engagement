@@ -1,9 +1,10 @@
 ---
 title: "Set up server-side synchronization of email, appointments, contacts, and tasks | MicrosoftDocs"
+description: "Synchronize your email system with Dynamics 365 Customer Engagement (on-premises) at the server level."
 ms.custom: 
 ms.date: 04/16/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -36,7 +37,7 @@ You can use [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)
   
 -   [Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online](connect-dynamics-365-on-premises-exchange-online.md)
   
--   [Connect Customer Engagement (on-premises) to Exchange Server on-premises](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622062%28v%3dcrm.8%29)    
+-   [Connect Customer Engagement (on-premises) to Exchange Server on-premises](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622062%28v%3dcrm.8%29)    
   
 -   [Connect to a POP3 or SMTP server](../admin/connect-to-pop3-or-smtp-servers.md)
 

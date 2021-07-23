@@ -1,11 +1,9 @@
 ---
 title: "Using price lists in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about using price lists in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 11/18/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -27,7 +25,7 @@ In this article, we'll explore creating products, services, and price lists to u
 ## Prerequisites 
 
 - Any version of Dynamics 365 Field Service
-- Basic knowledge of Dynamics 365 [product catalogs](https://docs.microsoft.com/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough) and [price lists](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products). 
+- Basic knowledge of Dynamics 365 [product catalogs](../sales-enterprise/set-up-product-catalog-walkthrough.md) and [price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md). 
 
 ## Create products and services
 
@@ -40,12 +38,12 @@ Go to **Field Service app** > **Settings** > **Products** > **+New** and use the
 Since we are using **Field Service Price List** items to extend price lists, we'll start by creating a service.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a product](./media/price-list-service-create.png)
+> ![Screenshot of a product.](./media/price-list-service-create.png)
 
 In the **Field Service** section, enter a **Field Service Product Type** of **Service**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service section of a product](./media/work-order-product-create-service.png)
+> ![Screenshot of the Field Service section of a product.](./media/work-order-product-create-service.png)
 
 - **Inventory**: This option is used for high value products or inventoried products that have tracked quantities.  
   
@@ -56,11 +54,11 @@ In the **Field Service** section, enter a **Field Service Product Type** of **Se
 The following screenshots show examples of inventory and non-inventory products.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service inventory product](./media/work-order-product-create-field-service.png)
+> ![Screenshot of a Field Service inventory product.](./media/work-order-product-create-field-service.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service non-inventory product](./media/work-order-product-create-non-inventory.png)
+> ![Screenshot of a Field Service non-inventory product.](./media/work-order-product-create-non-inventory.png)
 
 > [!Note]
 > It's important to add a **List Price** to the product. This comes in handy when a product is used on a work order but does not belong to the work order's price list.
@@ -74,7 +72,7 @@ Go to **Field Service** > **Settings** > **Price Lists** > **+New**.
   
 Use the tooltips to help fill in your information, and then select **Save**.  
 
-For more information, see the article on [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
+For more information, see the article on [creating a price list (Project Service Automation)](/dynamics365/project-operations/psa/create-price-list). 
 
 
 ## Add price list items  
@@ -82,7 +80,7 @@ For more information, see the article on [creating a price list (Project Service
 Next, add the products and services as price list items to the price lists of your choice.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a price list showing price list items](./media/work-order-products-price-list-items.png)
+> ![Screenshot of a price list showing price list items.](./media/work-order-products-price-list-items.png)
 
 Enter the following information:
 
@@ -90,7 +88,7 @@ Enter the following information:
 
 - **Amount**: enter the price of the product or service. Note this represents an hourly rate for services.
 
-To understand the other standard pricing options with Dynamics 365 price lists, see the article on [adding price list items](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products#add-items-to-the-price-list-sales)
+To understand the other standard pricing options with Dynamics 365 price lists, see the article on [adding price list items](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md#add-items-to-the-price-list-sales)
 
 
 ## Add Field Service price list items
@@ -120,7 +118,7 @@ Sets minimum amount for a visit. Value will be added on to final price regardles
 Allows you to round service duration and choose the granularity. For example, if a service duration is 94 minutes, you can automatically round it to 90 minutes, 95 minutes, remain as 94 minutes, or other options.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service price list item](./media/price-list-field-service-price-list-item.png)
+> ![Screenshot of a Field Service price list item.](./media/price-list-field-service-price-list-item.png)
 
 
 > [!Note]
@@ -134,12 +132,12 @@ Finally, select **Save & Close**.
 When creating a work order, you must enter a price list. The price list can be entered manually, or can be automatically populated based on the price list of the billing account or work order type when chosen.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order, with attention to the price list field](./media/price-list-work-order.png)
+> ![Screenshot of a work order, with attention to the price list field.](./media/price-list-work-order.png)
 
 When a price list is added to a work order, it's automatically propagated to all work order products and services; however, the price list of an individual work order product or service can be manually overridden as needed or via entitlements.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order service in the duration and sale amount section](./media/price-list-service-used.png)
+> ![Screenshot of a work order service in the duration and sale amount section.](./media/price-list-service-used.png)
 
 In our example, the field technician set the work order service **Line Status** to **Used** from their mobile app, and the dispatcher can see the pricing in the **Duration & Sale Amount** section.
 

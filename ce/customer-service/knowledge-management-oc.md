@@ -1,12 +1,11 @@
 ---
-title: Share knowledge articles in the Omnichannel for Customer Service | MicrosoftDocs
-description: Understand how you can share knowledge articles in Omnichannel for Customer Service
+title: "Share knowledge articles in the Omnichannel for Customer Service | MicrosoftDocs"
+description: "Perform the steps provided in the topic to learn how to share knowledge articles in Omnichannel for Customer Service."
+ms.date: 10/09/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/09/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -32,7 +31,7 @@ Follow these steps to enable knowledge article sharing:
 3. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Omnichannel knowledge management](media/oc-km.png)
+    > ![Omnichannel knowledge management.](media/oc-km.png)
 
 To know more about how to configure the external portal in the **Customer Service Hub** app, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management-customer-service-hub).
 

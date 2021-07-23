@@ -1,11 +1,10 @@
 ---
 title: "Field Service Mobile setup (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to install and set up Field Service Mobile.
-ms.custom:
-  - dyn365-fieldservice
 ms.date: 11/11/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -44,7 +43,7 @@ Download **Field Service Mobile** from the Windows, Apple, or Google Play app st
 - [Download for Android](https://aka.ms/fsmobile-android)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
+> ![Screenshot of Field Service mobile app download example.](media/mobile-field-service-mobile-windows-app-store.png)
 
 ## Step 2: Install the Field Service Mobile configuration tool (Woodford)
 
@@ -58,18 +57,18 @@ The configuration tool allows app access for field technician users, and allows 
 > You may have to select the gear icon and go to **Advanced Settings** in order to access the **Solutions** option from the settings dropdown.
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of solution import view](media/field-service-mobile-solution-import.png)
+> ![Screenshot of solution import view.](media/field-service-mobile-solution-import.png)
 
 3. On the **Select Solution Package** screen, select the ```Woodford\_\#\_\#\_\#\_\#\_managed.zip``` file, and then select **Next**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of selecting the Woodford solution zip file for importation](media/field-service-mobile-solution-import-file.png)
+> ![Screenshot of selecting the Woodford solution zip file for importation.](media/field-service-mobile-solution-import-file.png)
 
 4. After the import completes, verify that **Woodford** appears on the **Settings** menu. If you don't see it, refresh the page.
 
 > [!div class="mx-imgBorder"]
 
-> ![Screenshot of Woodford under Settings menu in Dynamics 365 drop-down menu](media/field-service-mobile-solution-import-dropdown.png)  
+> ![Screenshot of Woodford under Settings menu in Dynamics 365 drop-down menu.](media/field-service-mobile-solution-import-dropdown.png)  
 
 
 ## Step 3: Import the mobile project template
@@ -81,7 +80,7 @@ The mobile project template contains all customizations for the Field Service Mo
 1. Open the Mobile Configuration Tool (Woodford) by going to **Settings** > **Woodford** and selecting **MobileCRM Woodford HTML5**. If you experience trouble opening or working in the HTML5 version, you can use the MobileCRM Woodford Legacy in a non-private Internet Explorer browser window.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Woodford admin interface](media/mobile-install-mobilecrm-woodford.png)
+> ![Screenshot of Woodford admin interface.](media/mobile-install-mobilecrm-woodford.png)
 
 2. You may be asked to set a storage quota. Set to **500 MB**, and then select **OK**.
 
@@ -91,11 +90,11 @@ The mobile project template contains all customizations for the Field Service Mo
 
   The mobile project is updated periodically; [bookmark this website](https://aka.ms/fsmobile-project) for regular access the latest mobile project.
 
-**For previous mobile apps** for D365 for Field Service, see the article on [Field Service Mobile project template version history](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-mobile#mobile-project-template-version-history). 
+**For previous mobile apps** for D365 for Field Service, see the article on [Field Service Mobile project template version history](./field-service-version-history-mobile.md#mobile-project-template-version-history). 
 
 5. Import the mobile project file.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of importing mobile project template](media/field-service-mobile-project-template.png)
+> ![Screenshot of importing mobile project template.](media/field-service-mobile-project-template.png)
 
 6. In the **Add Mobile Project** dialog:
 
@@ -112,12 +111,12 @@ The mobile project template contains all customizations for the Field Service Mo
 7. Double-click on your newly imported mobile project file. You'll be taken to the project detail page. Select **Publish**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the publish option](media/mobile-install-project-publish.PNG)
+> ![Screenshot of the publish option.](media/mobile-install-project-publish.PNG)
 
 8. Head back to the main Woodford page by selecting the back button in the navigation, as seen in the following screenshot. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Woodford back button](media/mobile-install-project-back-woodford.PNG)
+> ![Screenshot of the Woodford back button.](media/mobile-install-project-back-woodford.PNG)
 
 9.  Select to highlight the mobile project template and select **Derive**.
 
@@ -143,7 +142,7 @@ The mobile project template contains all customizations for the Field Service Mo
 
 2.   Verify that the mobile configurations are published by checking for an arrow next to the projects.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of published mobile project with arrow showing status](media/mobile-install-project-verify-publish.png)
+> ![Screenshot of published mobile project with arrow showing status.](media/mobile-install-project-verify-publish.png)
 
 > [!Note]
 > This is a trial license and is valid for 30 days. The trial can be extended by following the guidance in this article: [Extend Field Service Mobile configuration tool trial](../field-service/activate-fs-mobile-app-license.md).
@@ -157,16 +156,16 @@ Select work orders and related work order entities, such as work order products,
 This helps ensure that when work orders or related records are deleted on the server, they are removed from the mobile app too. For more information, [see the Woodford Guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Delete plugins section of Woodford](media/Perform-Initial-Configurations-image20.png)  
+> ![Screenshot of Delete plugins section of Woodford.](media/Perform-Initial-Configurations-image20.png)  
 
 **Save**.
 
-Next up, go to **Mobile Projects **and double-click on your mobile project template.
+Next up, go to **Mobile Projects**and double-click on your mobile project template.
 
 Select **Configuration** in the left pane.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Woodford mobile Configurations](media/Perform-Initial-Configurations-image21.png)  
+> ![Screenshot of Woodford mobile Configurations.](media/Perform-Initial-Configurations-image21.png)  
 
 This section details many configurations regarding the Field Service Mobile (2017) app user interface and how data passes back and forth between the mobile application and the server.
 

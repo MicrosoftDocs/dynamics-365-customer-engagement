@@ -1,14 +1,11 @@
 ---
-title: Create a Cases in Customer Service Hub | Microsoft Docs
-description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
+title: Create a case in Customer Service Hub | MicrosoftDocs
+description: Understand cases in Customer Service Hub for Dynamics 365 Customer Service.
+ms.date: 11/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,15 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+searchScope:
+- D365-App-customerservicehub
+- D365-Entity-incident
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 # Work with cases
 
@@ -30,6 +36,7 @@ Watch this video to learn more about case management in the Customer Service Hub
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Create a case
+
 1. Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
 2. In the Customer Service Hub sitemap, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
 
@@ -43,9 +50,9 @@ Watch this video to learn more about case management in the Customer Service Hub
    - Select **Assign** to assign a case to another owner.
    - Select **Add to Queue** to add a case to a queue.  
 
-   ![active-case-view](media/active-case-view.png "Active case view")
+   ![active-case-view.](media/active-case-view.png "Active case view")
 
-3. On the command bar, select **New Case**.  Alternatively, you can quickly create a new case by selecting ![quick-create-case](media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
+3. On the command bar, select **New Case**.  Alternatively, you can quickly create a new case by selecting ![quick-create-case.](media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
 
    View and update the **Priority**, **Status**, and **Owner** of the case. The **Created On** date is picked up as soon as you save the case. 
 
@@ -100,16 +107,14 @@ Watch this video to learn more about case management in the Customer Service Hub
        - Select **Create Child Case** to create a child case
        - Select **...** on the command bar to explore more options for the case.
 
-    ![completed-case](media/completed-case.png "Completed case form")
+    ![completed-case.](media/completed-case.png "Completed case form")
 
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
 ### See also
 
-[Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
-
-[Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
-
+[Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)  
+[Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

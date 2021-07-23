@@ -40,7 +40,7 @@ Complete the following prerequisites before transferring data and configurations
 1. Make sure no records are in a "live" state. The Configuration Migration tool will not transfer entities that are in a "live" state, thus import to the destination environment will be partial.
 
     > [!NOTE]
-    > The Configuration Migration tool includes options to exclude or filter live records. The exclude functionality removes the **Status** field, exporting all entities regardless of status. The filter functionality limited the entities that are exported. [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance with these features.
+    > The Configuration Migration tool includes options to exclude or filter live records. The exclude functionality removes the **Status** field, exporting all entities regardless of status. The filter functionality limited the entities that are exported. [Contact technical support](/power-platform/admin/get-help-support) for assistance with these features.
 
 1. Ensure that the source and destination environments are running the same version of Dynamics 365 Marketing and are using an identical database schema (at least for the data you are transferring).
 
@@ -55,7 +55,7 @@ The following notes apply when you use export/import to move data from one Dynam
 <a name="install-tools"></a>
 ## Download the Configuration Migration tool
 
-The Configuration Migration tool helps you extract your data and configuration details from one environment and then import them to another. To get the tool, follow the instructions given in [Download tools from NuGet](../developer/download-tools-nuget.md).
+The Configuration Migration tool helps you extract your data and configuration details from one environment and then import them to another. To get the tool, follow the instructions given in [Download tools from NuGet](../customerengagement/on-premises/developer/download-tools-nuget.md).
 
 ## Make sure your source and destination are running the same version of Marketing
 
@@ -70,12 +70,12 @@ To find your Dynamics 365 Marketing version number:
 1. Select the **Resources** drop down in the top ribbon, then select **Dynamics 365 apps**.
 
     > [!div class="mx-imgBorder"]
-    > ![Manage the apps installed on your environment](media/admin-cv-instances.png)
+    > ![Manage the apps installed on your environment.](media/admin-cv-instances.png)
 
 1. A list of solutions installed on your selected environment is shown. Select the solution called **Dynamics 365 Marketing Application** then select **Details** in the top ribbon.
 
     > [!div class="mx-imgBorder"]
-    > ![Marketing app details](media/admin-mkt-version2.png)
+    > ![Marketing app details.](media/admin-mkt-version2.png)
 
 1. A pane will appear on the right side of the page titled **Dynamics 365 Marketing Application Details**. Check the value shown in the **Version** column.
 
@@ -89,14 +89,14 @@ To generate the required schema:
 
 1. In the utility, select **Create schema** and then sign into your source environment.
 
-1. Follow the instructions provided in [Create a schema to export configuration data](https://docs.microsoft.com/power-platform/admin/create-schema-export-configuration-data) to generate the schema. Be sure to include all of the solutions, entities, and fields for which you want to transfer data, and also make sure all dependencies are included.
+1. Follow the instructions provided in [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data) to generate the schema. Be sure to include all of the solutions, entities, and fields for which you want to transfer data, and also make sure all dependencies are included.
 
 > [!TIP]
 > Here are a few links and notes that may help you generate the schema you need:
 > 
 > - You can use the metadata browser tool to explore and understand your database structure. For details about how to install and use it, see the [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md).
-> - While you're [creating your schema](https://docs.microsoft.com/power-platform/admin/create-schema-export-configuration-data) with the Configuration Migration tool, you can check for relationships used by any selected entity by selecting the **Show the relationships for the selected entity** check box. This can help keep you from leaving out any dependencies.
-> - When you're done [creating your schema](https://docs.microsoft.com/power-platform/admin/create-schema-export-configuration-data) with the Configuration Migration tool, select **Tools** > **Validate Schema** from the menu bar. This will check for dependencies for all your selected entities, and can also help point out other common issues.
+> - While you're [creating your schema](/power-platform/admin/create-schema-export-configuration-data) with the Configuration Migration tool, you can check for relationships used by any selected entity by selecting the **Show the relationships for the selected entity** check box. This can help keep you from leaving out any dependencies.
+> - When you're done [creating your schema](/power-platform/admin/create-schema-export-configuration-data) with the Configuration Migration tool, select **Tools** > **Validate Schema** from the menu bar. This will check for dependencies for all your selected entities, and can also help point out other common issues.
 
 ## Export data from your source environment
 
@@ -106,21 +106,21 @@ To export data from your source environment:
 
 1. The tool launches. Select **Export data** and then **Continue**.  
 
-    ![Select Export data and continue](media/dmt-export1.png "Select Export data and continue")
+    ![Select Export data and continue.](media/dmt-export1.png "Select Export data and continue")
 
 1. Set the **Deployment type** to **Microsoft 365** and then select **Login**.
 
-    ![Select Microsoft 365 and then Login](media/dmt-export2.png "Select Microsoft 365 and then Login")
+    ![Select Microsoft 365 and then Login.](media/dmt-export2.png "Select Microsoft 365 and then Login")
 
 1. Follow the instructions on your screen to sign in using the user name and password for the tenant where your source environment is running.
 
 1. If multiple environments are available on the tenant you signed in to, then choose your source environment and select **Login** to continue. (If only one environment is available, then you'll skip this step.)
 
-    ![Choose your source environment and then Login](media/dmt-export2b.png "Choose your source environment and then Login")
+    ![Choose your source environment and then Login.](media/dmt-export2b.png "Choose your source environment and then Login")
 
 1. On successful sign in, you're asked to choose a schema and export file name.
   
-    ![Choose a schema and export file name](media/dmt-export3.png "Choose a schema and export file name")
+    ![Choose a schema and export file name.](media/dmt-export3.png "Choose a schema and export file name")
 
     Make the following settings:
     - **Schema file**: Select the ellipsis button to open a file browser, and then navigate to and select the schema file that you generated for your source environment.
@@ -128,7 +128,7 @@ To export data from your source environment:
 
 1. Select **Export data** to continue. The tool tracks the progress of your export and, when it's done, creates a zip file containing both the schema and your data.
 
-    ![Export complete](media/dmt-export4.png "Export complete")
+    ![Export complete.](media/dmt-export4.png "Export complete")
 
 1. When the export is done, select **Exit** to close the export page.
 
@@ -140,38 +140,38 @@ To import data to your destination environment:
 
 1. Select **Import data** and then **Continue**.
 
-    ![Select Import data and continue](media/dmt-import1.png "Select Import data and continue")
+    ![Select Import data and continue.](media/dmt-import1.png "Select Import data and continue")
 
 1. Set the **Deployment type** to **Microsoft 365** and then select **Login**.
  
-    ![Select the Deployment type and then Login](media/dmt-export2.png "Select the Deployment type and then Login")
+    ![Select the Deployment type and then Login.](media/dmt-export2.png "Select the Deployment type and then Login")
 
 1. Follow the instructions on your screen to sign in using the user name and password for the tenant where your destination environment is running.
 
 1. If multiple environments are available on the tenant you signed in to, then choose your destination environment and select **Login** to continue. (If only one environment is available, then you'll skip this step.)
 
-    ![Choose the destination environment and then Login](media/dmt-import2b.png "Choose the destination environment and then Login")
+    ![Choose the destination environment and then Login.](media/dmt-import2b.png "Choose the destination environment and then Login")
 
 1. On successful sign in, you're asked to choose a file to import. Select the ellipsis button next to the **Zip file** field to open a file browser, and then navigate to the folder where you saved the export file from your source environment. This file contains both data and the schema you used for export
  
-    ![Choose a file to import](media/dmt-import3.png "Choose a file to import")
+    ![Choose a file to import.](media/dmt-import3.png "Choose a file to import")
 
     > [!IMPORTANT]
     > As mentioned previously, your source and destination environments must use exactly the same schema for the data being transferred, so they must be running identical versions of Dynamics 365 Marketing, and all relevant schema customizations must be identical on both environments. If the schemas don't match, you will get an error and the import will fail. <!-- but can we use just a partial schema? -->
 
 1. Select **Import data** to continue. The tool tracks the progress of your import.
 
-    ![Import complete](media/dmt-import4.png "Import complete")
+    ![Import complete.](media/dmt-import4.png "Import complete")
 
 1. When the import is done, select **Exit** to close the import page.
 
 ### See also
 [Manage your Marketing environments](manage-marketing-environments.md)  
 [Transfer customizations between environments](transfer-solution.md)  
-[Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
-[Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)  
-[Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
-[Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)
+[Administer Power Apps](/power-platform/admin/admin-guide)  
+[Environments overview](/power-platform/admin/environments-overview)  
+[Move configuration data across environments and organizations](/power-platform/admin/manage-configuration-data)  
+[Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

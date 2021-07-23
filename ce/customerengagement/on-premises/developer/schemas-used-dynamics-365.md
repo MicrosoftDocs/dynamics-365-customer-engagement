@@ -4,7 +4,7 @@ description: "The topic contains links to all the schemas needed for features de
 ms.custom: 
 ms.date: 12/22/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: reference
@@ -30,7 +30,7 @@ This topic contains links to all the schemas needed for features described in th
   
  [Form XML Schema](customize-dev/form-xml-schema.md)  
   
- [Fetch XML Schema](org-service/fetchxml-schema.md)  
+ [Fetch XML Schema](/powerapps/developer/data-platform/fetchxml-schema)  
   
  [Visualization Data Description Schema](customize-dev/visualization-data-description-schema.md)  
   
@@ -46,7 +46,7 @@ This topic contains links to all the schemas needed for features described in th
   
  [Publish Request Schema](customize-dev/publish-request-schema.md)  
   
- [Report Configuration File Schema](https://msdn.microsoft.com/library/gg334395.aspx)  
+ [Report Configuration File Schema](/previous-versions/dynamicscrm-2016/developers-guide/gg334395(v=crm.8))  
   
 ## Related Sections
 

@@ -1,8 +1,9 @@
 ---
 title: "Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online | Microsoft Docs"
+description: "Configure server-based authentication between Dynamics 365 (on-premises) and Exchange Online."
 ms.custom: ""
 ms.date: "2/20/2020"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,15 +14,16 @@ ms.assetid: 5622050b-a0e8-40ca-9ed5-fc082d5212a8
 caps.latest.revision: 61
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online
 
-
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 This topic describes how to configure server-based authentication between Dynamics 365 (on-premises) and Exchange Online. The diagram below illustrates the communication between Dynamics 365 (on-premises), Azure Active Directory, and Exchange Online.
 
-![Dynamics 365 (on-premises) and Exchange Online](media/dynamics-365-onprem-exchange-online.png)
+![Dynamics 365 (on-premises) and Exchange Online.](media/dynamics-365-onprem-exchange-online.png)
 
 ## Permissions required
 Microsoft Dynamics 365
@@ -52,7 +54,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
 
 The following software features are required to run the Windows PowerShell cmdlets described in this topic:
 - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](https://www.microsoft.com/download/details.aspx?id=39267)
-- [Azure Active Directory Module for Windows PowerShell (64-bit version)](https://docs.microsoft.com/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0)
+- [Azure Active Directory Module for Windows PowerShell (64-bit version)](/powershell/azure/active-directory/install-msonlinev1)
 
 ### Configure server-based authentication
 1. On the Microsoft Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
@@ -67,7 +69,7 @@ Invoke-Expression -command $CertificateScriptWithCommand
 
 3. Prepare the Windows PowerShell session.
 
-   The following cmdlets enable the computer to receive remote commands and add Office 365 modules to the Windows PowerShell session. For more information about these cmdlets see [Windows PowerShell Core Cmdlets](/powershell/module/Microsoft.PowerShell.Core/?view=powershell-5.1).
+   The following cmdlets enable the computer to receive remote commands and add Office 365 modules to the Windows PowerShell session. For more information about these cmdlets see [Windows PowerShell Core Cmdlets](/powershell/module/Microsoft.PowerShell.Core).
 
 ```powershell
 Enable-PSRemoting -force
@@ -81,7 +83,7 @@ Import-Module MSOnlineExt -force
 4. Connect to Office 365.
 
    When you run the Connect-MsolService command, you must provide a valid Microsoft account that has Office 365 Global Administrator membership for the Exchange Online license that is required.
-   For detailed information about each of the Azure Active Directory PowerShell commands listed here, see [MSDN: Manage Azure AD using Windows PowerShell](https://msdn.microsoft.com/library/azure/jj151815.aspx).
+   For detailed information about each of the Azure Active Directory PowerShell commands listed here, see [MSDN: Manage Azure AD using Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)).
 
 ```powershell
 $msolcred = get-credential
@@ -202,7 +204,7 @@ Set server-side synchronization to be the default configuration method.
 
   If you leave the Email processing form unapproved user and queues at the default values (selected), you will need to approve emails and queues for user mailboxes as directed below in Approve Email.
 
-  ![Exchange Server profile](media/system-settings-exchange-profile.png)
+  ![Exchange Server profile.](media/system-settings-exchange-profile.png)
 
 3. Select **OK**.
  
@@ -213,7 +215,7 @@ In addition to administrator permissions, you must have Read and Write privilege
 
 Select one of the following methods:
 
-![Apply default email settings](media/apply-default-email-settings.png)
+![Apply default email settings.](media/apply-default-email-settings.png)
 
 ### Edit mailboxes to set the profile and delivery methods
 

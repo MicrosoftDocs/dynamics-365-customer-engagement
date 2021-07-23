@@ -1,15 +1,14 @@
 ---
-title: "Create a record in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to create a record in Omnichannel for Customer Service app."
+title: "Create records | MicrosoftDocs"
+description: "Learn how you can create a record by using the various methods in the Omnichannel for Customer Service app."
+ms.date: 12/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
-# Create a record
+# Create a record for conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -21,7 +20,7 @@ When no records are linked to the conversation in Omnichannel for Customer Servi
 
 ## Create a record from the Customer Summary page
 
-In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation. 
+In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record, and the record is auto-linked to the conversation.
 
 To create a new record:
 
@@ -29,12 +28,12 @@ To create a new record:
     
     | Option | Section | Description |
     |---------------------|------------------------|------------------------------------------------|
-    | + New Account | Customer | Select this option to create a new account record |
-    | + New Contact | Customer | Select this option to create a new contact record |
-    | + New Case | Case | Select this option to create a new case record |
+    | New Account | Customer | Select this option to create a new account record |
+    | New Contact | Customer | Select this option to create a new contact record |
+    | New Case | Case | Select this option to create a new case record |
 
     > [!div class=mx-imgBorder]
-    > ![Create account, contact, and case](media/customer-summary-create-record.PNG "Create account, contact, and case")
+    > ![Create account, contact, and case.](media/customer-summary-create-record.PNG "Create account, contact, and case")
 
 
 2. Specify the details in the form's fields.
@@ -42,17 +41,17 @@ To create a new record:
 3. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Fill in the form](media/customer-summary-create-new-contact.PNG "Fill in the form")
+    > ![Fill in the form.](media/customer-summary-create-new-contact.PNG "Fill in the form")
 
 After you save, the record is automatically linked to the conversation. when you switch to the customer summary page, you can view the auto-linked record.
 
    > [!div class=mx-imgBorder]
-   > ![Automatic linking of the record](media/customer-summary-customer-card-linked.PNG "Automatic linking of the record")
+   > ![Automatic linking of the record.](media/customer-summary-customer-card-linked.PNG "Automatic linking of the record")
 
 If you create the account or contact first and then start to create a case record, the case form shows the linked customer's name in the **Customer** field who is already created and linked.
 
    > [!div class=mx-imgBorder]
-   > ![Case form automatically links the customer who is already linked to conversation](media/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
+   > ![Case form automatically links the customer who is already linked to conversation.](media/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
 
 ## Create a new record using the quick create option
 
@@ -68,7 +67,7 @@ To create a new record, follow the steps:
  - Account
 
    > [!div class=mx-imgBorder]
-   > ![Create record quickly](media/oc-oceh-create-quick-create.png "Create record quickly")
+   > ![Create record quickly.](media/oc-oceh-create-quick-create.png "Create record quickly")
 
 3. In the left pane, you can see a new record page. Specify the details in the form.
 
@@ -76,7 +75,7 @@ To create a new record, follow the steps:
 
 
  > [!div class=mx-imgBorder]
- > ![Quick create contact](media/oc-oceh-quick-create-contact.png "Quick create contact")
+ > ![Quick create contact.](media/oc-oceh-quick-create-contact.png "Quick create contact")
 
 After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oc-search-link-unlink-record.md#search-for-records-by-using-the-inline-search-option) 
 
@@ -86,15 +85,15 @@ In the Customer Summary page, when you are trying to search a record in customer
 
 1. Type to search in the search box. The records appear as a list that matches your search criteria.
 
-2. Select **+ New** below the list of records. The Quick create pane appears.
+2. Select **New** below the list of records. The Quick create pane appears.
 
     > [!div class=mx-imgBorder]
-    > ![Quick create record](media/customer-summary-search-section-create-case.png "Quick create record")
+    > ![Quick create record.](media/customer-summary-search-section-create-case.png "Quick create record")
 
 3. Fill in the form and select **Save and Close**. The quick create pane closes and the customer summary page refreshes. The record you created is auto-linked in the customer or case section.
 
     > [!div class=mx-imgBorder]
-    > ![Auto-link record](media/customer-summary-search-section-auto-link-case.png "Auto-link record")
+    > ![Auto-link record.](media/customer-summary-search-section-auto-link-case.png "Auto-link record")
 
 ### See also
 

@@ -2,19 +2,18 @@
 title: "Versium Predict (Dynamics 365 Sales) | MicrosoftDocs"
 description: ""
 ms.date: 09/30/2017
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-versium"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ms.reviewer: 
+ms.custom: 
+  - "dyn365-versium"
 ---
 
 # Versium Predict
-<a name="heroArea"></a> [![Get started with Versium Predict](../versium-predict/media/get-started-versium-predict.png "Get started with Versium Predict")](https://predict-help.versium.com/wp-content/uploads/2016/10/predict-video-1min-update.mp4)
+<a name="heroArea"></a> [![Get started with Versium Predict](../versium-predict/media/get-started-versium-predict.png "Get started with Versium Predict.")](https://predict-help.versium.com/wp-content/uploads/2016/10/predict-video-1min-update.mp4)
 
  Use Versium Predict with Dynamics 365 Sales to increase your marketing and sales effectiveness. Enhance your existing marketing process with predictive analytics that allow you to precisely target your campaigns.
 
@@ -33,9 +32,9 @@ ms.reviewer:
 ## Get started
  [Versium Predict home page](https://versium.com/predict)
 
- [![Reader button](../versium-predict/media/reader-button.png "Reader button")](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict Setup Guide](https://predict-help.versium.com/wp-content/uploads/Versium-Predict-Setup-Guide-Microsoft-Dynamics-365.pdf)
+ [![Reader button](../versium-predict/media/reader-button.png "Reader button.")](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict Setup Guide](https://predict-help.versium.com/wp-content/uploads/Versium-Predict-Setup-Guide-Microsoft-Dynamics-365.pdf)
 
- [![Reader button](../versium-predict/media/reader-button.png "Reader button")](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict User Guide](https://predict-help.versium.com/predict-for-dynamics-365-user-guide)
+ [![Reader button](../versium-predict/media/reader-button.png "Reader button."](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict User Guide](https://predict-help.versium.com/predict-for-dynamics-365-user-guide)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

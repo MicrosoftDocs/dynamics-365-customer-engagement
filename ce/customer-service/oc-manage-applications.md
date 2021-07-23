@@ -1,12 +1,11 @@
 ---
 title: "Manage applications in Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn how to manage applications using the application tab panel in Omnichannel for Customer Service app."
+ms.date: 08/03/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Manage applications in Omnichannel for Customer Service
@@ -18,7 +17,7 @@ The horizontal bar below the navigation bar is called the application tab panel.
 The application tab has a **+** icon. If you select the icon, a menu  appears that lists the out-of-the-box and custom entities. Also, you can access any third-party line-of-business applications that are extended within the Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel for Customer Service sitemap appears when you select **+** in the application tab](media/oceh-agent-interface-sitemap.png "Omnichannel for Customer Service sitemap in the application tab")
+> ![Omnichannel for Customer Service sitemap appears when you select **+** in the application tab.](media/oceh-agent-interface-sitemap.png "Omnichannel for Customer Service sitemap in the application tab")
 
 ## Open an application
 
@@ -32,7 +31,7 @@ You can open an application in the application tab panel in the following ways:
 On the application tab panel, select **+** to view the menu that has a list of out-of-the-box and custom entities. Selecting an option from the menu opens the application in the application tab panel. The application opens in the current active session.
 
 > [!div class=mx-imgBorder]
-> ![App tab menu](media/oceh-app-tab-select-icon.png "App tab menu")
+> ![App tab menu.](media/oceh-app-tab-select-icon.png "App tab menu")
 
 ### Use gesture (Ctrl + click) to open an application
 
@@ -55,7 +54,7 @@ You can switch between applications by selecting the application tab title.
 The title of the application tab is the name of the entity. For example, dashboard names, case, contact, account names, and so on. For third-party applications, the name appears as configured by your administrator.
 
 > [!div class=mx-imgBorder]
-> ![App tab title](media/oceh-app-tab-title.png "App tab title")
+> ![App tab title.](media/oceh-app-tab-title.png "App tab title")
 
 ### See also
 

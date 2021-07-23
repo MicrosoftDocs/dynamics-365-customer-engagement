@@ -1,28 +1,27 @@
 ---
 title: "What's new in Universal Resource Scheduling for Dynamics 365 | MicrosoftDocs"
 description: "Learn how the latest release makes optimizing resource scheduling and management even more powerful. The new capabilities apply to Universal Resource Scheduling version 2.2.0.49, Field Service version 7.2.0.43, and Project Service Automation version 2.2.0.74 for Dynamics 365."
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 12/15/2017
-ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: 70c37c89-fc96-421d-b559-500d26c200b3
-caps.latest.revision: 11
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
+ms.reviewer: krbjoran
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 11
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-fieldservice
 search.app: 
   - D365CE
   - D365FS
+ms.technology: field-service
 ---
 
 # What's new in Universal Resource Scheduling (URS)
@@ -138,16 +137,16 @@ The following capabilities were included with the October 2017 update to Field S
  
  **Field Service**
  
- - **Field Resource Hub app for field techs**: With this app, field technicians can do basic tasks on their phone or tablet, such as view upcoming appointments, view and edit bookings, and mark service tasks complete. For more information, check out the [Field Resource Hub User's Guide](../field-service/field-resource-hub-users-guide.md)
+ - **Field Resource Hub app for field techs**: With this app, field technicians can do basic tasks on their phone or tablet, such as view upcoming appointments, view and edit bookings, and mark service tasks complete. For more information, check out the [Field Resource Hub User's Guide](./field-service-mobile-app-user-guide.md)
 
 - **Easily find and assign another resource for a booking on the schedule board.** If the original resource is unavailable, right-click the booking and choose **Substitute Resource** to find another resource. The system automatically checks the original resource requirement for the booking and finds a substitute resource that fits the requirement.
 
 - Users can download the Field Resource Hub app from their usual app store. Note that the hub app is different from the full-featured Resco mobile app and doesn't require the organization to install the Woodford mobile solution.
 
-   ![Substitute Resource on the schedule board](../field-service/media/substitute_resource.png "Substitute Resource on the schedule board") 
+   ![Substitute Resource on the schedule board.](../field-service/media/substitute_resource.png "Substitute Resource on the schedule board") 
  
 **Project Service Automation**
- - **Project Resource hub**: The Project Resource Hub app lets resources use their phone or tablet to enter time and expenses for projects. For more information, check out the [Project Resource Hub User's Guide](../project-service/project-resource-hub-users-guide.md)
+ - **Project Resource hub**: The Project Resource Hub app lets resources use their phone or tablet to enter time and expenses for projects. For more information, check out the [Project Resource Hub User's Guide](/dynamics365/project-operations/psa/project-resource-hub-users-guide)
  
 **Connected Field Service**
  - **Use your existing Azure resources to provision Connected Field Service.** Do this by importing devices that are registered in Azure IoT hub into Dynamics 365. You can also use existing resource groups to provision required Azure resources. The following Azure resources can be used with Connected Field Service: 
@@ -178,13 +177,13 @@ These updates apply to Dynamics 365 (online), version 8.x.
   
     - **Everyone** – If the user has access to use the schedule board, they will see these boards.  
   
-  ![Share the schedule board](../field-service/media/field-service-share-schedule-board.png "Share the schedule board")  
+  ![Share the schedule board.](../field-service/media/field-service-share-schedule-board.png "Share the schedule board")  
   
 - **Dim unavailable resources**: When searching for availability on the schedule board, resources that are unavailable in the search are either be dimmed or removed from the schedule board.  
   
      A user who only wants to see a specific set of resources can choose to dim unavailable resources instead of removing resources that are  not a match while a user  without this requirement can have unavailable resources completely removed from the board. This setting can be changed in the schedule board tab settings.  
   
-  ![Dim the schedule board](../field-service/media/field-service-dim-schedule-board.png "Dim the schedule board")  
+  ![Dim the schedule board.](../field-service/media/field-service-dim-schedule-board.png "Dim the schedule board")  
   
   **Project Service Automation:**  
   
@@ -192,7 +191,7 @@ These updates apply to Dynamics 365 (online), version 8.x.
   
 ### See also  
  [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)   
- [Dynamics 365 Project Service Automation - User's Guide](../project-service/admin-guide.md)
+ [Dynamics 365 Project Service Automation - User's Guide](/dynamics365/project-operations/psa/admin-guide)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
-title: "Manage access to Power Apps apps by using security roles | MicrosoftDocs"
+title: "Manage access to Power Apps apps by using security roles with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to control access to your Power Apps apps"
 keywords: 
 ms.date: 12/04/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
   - dyn365-deflc
 ms.topic: article
@@ -41,7 +41,7 @@ You can choose what users see and access from the **My Apps** page or the [!INCL
     
    b. **Roles**: Choose whether you want to give app access to all security roles or selected roles. If you choose **Give access only to these roles**, select the specific security roles.  
 
-     ![Manage security roles for the app](../customize/media/app-manage-roles.png "Manage security roles for the app")
+     ![Manage security roles for the app.](../customize/media/app-manage-roles.png "Manage security roles for the app")
 
    c. Select **Save**.  
   

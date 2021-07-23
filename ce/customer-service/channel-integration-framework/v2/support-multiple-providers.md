@@ -1,12 +1,11 @@
 ---
-title: "Support multiple providers with Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
-description: "Support multiple providers with Dynamics 365 Channel Integration Framework version 2.0"
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Support multiple providers with Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Use this topic to understand how you can support multiple providers in Omnichannel for Customer Service using Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 12/31/2018
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -28,13 +27,13 @@ With Dynamics 365 Channel Integration Framework version 2.0, organizations can c
 > As a best practice, it is recommended that sessions are started after taking agent consent using a toast notification.
 
 > [!IMPORTANT]
-> For information on how to integrate custom (in-house) messaging channel providers, see [Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md).
+> For information on how to integrate custom (in-house) messaging channel providers, see [Bring your own channel](../../bring-your-own-channel.md).
 
 ### See also
 
 [What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
 [Configure channel providers](../configure-channel-provider-channel-integration-framework.md)<br />
-[Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md)
+[Bring your own channel](../../bring-your-own-channel.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

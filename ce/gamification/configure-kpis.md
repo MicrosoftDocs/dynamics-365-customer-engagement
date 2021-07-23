@@ -23,6 +23,8 @@ search.app:
 
 # Configure KPIs for Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](../includes/pn-gamification-shortest.md)]. It's a two-step process: first, in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online-shortest.md)], a user with a **Game Manager** security role creates the KPIs. Next, the user chooses and configures the KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] when setting up a new game.
 
 More information about setting up KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]: [Set up and run games in Gamification](run-games.md)  
@@ -70,7 +72,7 @@ The KPIs you define in Dynamics 365 apps will be available when you set up the g
 
 10. Under **To assign points to players, make at least one selection**, select which users are assigned points from a given KPI.
 
-    ![Creating a new KPI](media/new-kpi.png "Creating a new KPI")
+    ![Creating a new KPI.](media/new-kpi.png "Creating a new KPI")
 
 11. Optionally, you can set up an additional query parameter for a KPI by creating a saved view.
 
@@ -96,7 +98,7 @@ The KPIs you define in Dynamics 365 apps will be available when you set up the g
 
 13. Optionally, set the time scoring under **Score records only between these hours** in the **Additional Scoring Settings** section. By default, KPIs are scored all day, every day. You can specify the hours and days when the KPI is scored.
 
-    ![Additional Scoring Settings](media/additional-scoring-settings.png "Additional Scoring Settings")
+    ![Additional Scoring Settings.](media/additional-scoring-settings.png "Additional Scoring Settings")
 
 14. Select **Save**.
 

@@ -1,13 +1,10 @@
 ---
 title: "Capture work order resolution details in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to capture work order resolution details in Dynamics 365 Field Service
-ms.custom:
-- dyn365-fieldservice
 ms.date: 02/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -27,6 +24,10 @@ In Dynamics 365 Field Service, you can:
 
 - Associate work order resolutions with work orders
 - Relate resolutions to specific work order incident types to correlate issues with resolutions
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAMXK]
 
 In this article, we'll walk through how to create resolutions, add them to work orders, and associate them to incident types.
 

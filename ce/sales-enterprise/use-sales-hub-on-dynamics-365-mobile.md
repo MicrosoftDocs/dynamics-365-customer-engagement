@@ -2,15 +2,13 @@
 title: "Use Sales Hub on Dynamics 365 for phones and tablets (Dynamics 365 Sales) | Microsoft Docs"
 description: "Use Sales Hub on Dynamics 365 phones and tablets"
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-account
   - D365-Entity-contact
@@ -34,14 +32,14 @@ Before you can start using the app, you need to install the Dynamics 365 for mob
 2.	Select **Sales Hub**.
 
     > [!div class="mx-imgBorder"]
-    > ![Choose an app](media/ChooseAnApp_1.png "Choose an app")
+    > ![Choose an app.](media/ChooseAnApp_1.png "Choose an app")
 
 **The navigation bar**
 
-Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap **More** (![More](media/MoreButton.png "More")).
+Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap **More** (![More.](media/MoreButton.png "More")).
 
    > [!div class="mx-imgBorder"]
-   > ![Nav Bar](media/NavBar_2.png "Nav Bar")
+   > ![Nav Bar.](media/NavBar_2.png "Nav Bar")
 
 **Favorites and recently used records**
 
@@ -52,7 +50,7 @@ The **Favorites** and **Recently Used** sections provide quick access to your re
 - To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This will pin and move the item to **Favorites**.
 
     > [!div class="mx-imgBorder"]
-    > ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
+    > ![Favorites and Recent items.](media/Favs_3.png "Favorites and Recent items")
   
 ## How to use the Sales Hub app on the go  
 
@@ -93,12 +91,12 @@ As you start your day, go to **My Appointments** to find out how busy you're goi
 During your travels, you can open any appointment in the calendar to view more details such as start time, duration, and description of the meeting. The following image shows an example.
 
 > [!div class="mx-imgBorder"]
-> ![Appointment details](media/mobile-app-appointment-details.png "Appointment details")
+> ![Appointment details.](media/mobile-app-appointment-details.png "Appointment details")
 
 In addition, you can select the **Regarding** record to view which opportunity or account the meeting is about. As you view the opportunity or account, you can review the timeline of notes and past activities to ramp up on context before the meeting begins.
 
 > [!div class="mx-imgBorder"]
-> ![Opportunity related to appointment](media/mobile-app-appointment-details-opportunity.png "Opportunity related to an appointment")
+> ![Opportunity related to appointment.](media/mobile-app-appointment-details-opportunity.png "Opportunity related to an appointment")
 
 
 ### Send email
@@ -117,22 +115,22 @@ Use the Dynamics 365 for phones and tablets app to compose an email within the a
     1. **Home page grid**: On the home page, select the site map button in the the top-left corner > **Activities**, and then select the **More** button > **Email**.
     
        > [!div class="mx-imgBorder"]
-       > ![Compose new email](media/create-email-1.png "Compose new email")
+       > ![Compose new email.](media/create-email-1.png "Compose new email")
 
     1. **Quick create**: On the command bar, select **+** > **Activities** > **Email**. 
 
        > [!div class="mx-imgBorder"]
-       > ![Compose new email](media/create-email-1-1.png "Compose new email")
+       > ![Compose new email.](media/create-email-1-1.png "Compose new email")
 
 2. Fill in the subject of the email and use the space provided to write the email. You can select the more option (**...**) in the body area of the email to expand the full formatting capabilities for your email. Select **Save** to save your changes.
 
    > [!div class="mx-imgBorder"]
-   > ![Compose new email](media/compose-email-mobile-1.png "Compose new email")
+   > ![Compose new email.](media/compose-email-mobile-1.png "Compose new email")
    
 3. To add an attachment to the email, select the **More** button > **Attach File**, and then select the file that you want to attach to the email.
 
    > [!div class="mx-imgBorder"]
-   > ![Send email](media/more_command_email_mobile.png "Send email")
+   > ![Send email.](media/more_command_email_mobile.png "Send email")
    
 4. To use a template for the email body, select the **More** button > **Insert Template**. Select or search a template from the available templates, and select **Apply template**. 
    
@@ -149,22 +147,22 @@ It's no longer necessary for you to open a laptop to add notes to an opportunity
 2. On the opportunity, go to timeline section and add a note. 
 
     > [!div class="mx-imgBorder"]
-    > ![Add a note to an opportunity](media/mobile-app-take-notes-timeline.png "Add a note to an opportunity")
+    > ![Add a note to an opportunity.](media/mobile-app-take-notes-timeline.png "Add a note to an opportunity")
 
 3. (Optional) If the customer shows interest in additional products, go to the **Product line items** section, and then select **More options** > **+ Add Product**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select the Add Product option](media/mobile-app-select-add-product.png "Select the Add Product option")
+    > ![Select the Add Product option.](media/mobile-app-select-add-product.png "Select the Add Product option")
 
 4. Select a product from the catalog, or enter a product.
 
     > [!div class="mx-imgBorder"]
-    > ![Add product to an opportunity](media/mobile-app-add-product.png "Add a product to an opportunity")
+    > ![Add product to an opportunity.](media/mobile-app-add-product.png "Add a product to an opportunity")
 
 4. (Optional) If you've met a new stakeholder at the customer's office, under **Summary**, go to the **Stakeholder** section, select **More options** > **+ New Connection**, and then add the stakeholder. You can also add the contact from an account record.
 
     > [!div class="mx-imgBorder"]
-    > ![Stakeholder section](media/mobile-app-stakeholder-tab.png "Stakeholder section")
+    > ![Stakeholder section.](media/mobile-app-stakeholder-tab.png "Stakeholder section")
 
 ### Update deals and customer information after a meeting
 
@@ -181,17 +179,17 @@ After you step out of a meeting, you can quickly update information about the de
 2. On the opportunity, you can update the forecasted revenue or move to the next stage. 
 
     > [!div class="mx-imgBorder"]
-    > ![Update an opportunity](media/mobile-app-update-opportunity.png "Update an opportunity")
+    > ![Update an opportunity.](media/mobile-app-update-opportunity.png "Update an opportunity")
 
 3. To create a follow-up appointment for the opportunity, go to the **Appointments** tab, and then select **More options** > **+ New Appointment**.
 
     > [!div class="mx-imgBorder"]
-    > ![New appointment](media/mobile-app-new-appointment.png "New appointment")
+    > ![New appointment.](media/mobile-app-new-appointment.png "New appointment")
 
     On the Quick Create Appointment page, enter the necessary information, and then save the appointment.
 
     > [!div class="mx-imgBorder"]
-    > ![Appointment saved](media/mobile-app-appointment-saved.png "Appointment saved")
+    > ![Appointment saved.](media/mobile-app-appointment-saved.png "Appointment saved")
 
 After you're done, you can open the appointment and mark it as complete.
 
@@ -205,7 +203,7 @@ You can search for and find information about a contact or account referenced in
 
 
     > [!div class="mx-imgBorder"]
-    > ![Select contacts](media/mobile-app-select-contacts.png "Select contacts")
+    > ![Select contacts.](media/mobile-app-select-contacts.png "Select contacts")
 
 2. On the contacts page, select **More options** > **Search**. 
 
@@ -214,7 +212,7 @@ You can search for and find information about a contact or account referenced in
 3. In the search box, enter the name you want to search for.
 
     > [!div class="mx-imgBorder"]
-    > ![Search contact results](media/mobile-app-search-contact-results.png "Search contact results")
+    > ![Search contact results.](media/mobile-app-search-contact-results.png "Search contact results")
 
 4. In the search results, select and open the contact to view more information.
 
@@ -230,14 +228,14 @@ When you meet a new lead at an event, you can immediately add and qualify the le
 2. On the leads page, select **More options** > **+ New**.
 
     > [!div class="mx-imgBorder"]
-    > ![Create new lead](media/mobile-app-new-lead.png "Create a new lead")
+    > ![Create new lead.](media/mobile-app-new-lead.png "Create a new lead")
 
 3. Enter the necessary information, and then save the lead.
 
 4. To qualify a lead, open the lead and select  **More options** > **Qualify**.
 
     > [!div class="mx-imgBorder"]
-    > ![Qualify lead](media/mobile-app-qualify-lead.png "Qualify a new lead")
+    > ![Qualify lead.](media/mobile-app-qualify-lead.png "Qualify a new lead")
 
 ### Generate and share a quote or order
 
@@ -252,7 +250,7 @@ After a successful meeting, you can quickly generate a PDF of the quote from an 
 3. In the quote section, select **More options** > **+ New Quote**.
 
     > [!div class="mx-imgBorder"]
-    > ![Generate a quote](media/mobile-app-generate-quote.png "Generate a quote")
+    > ![Generate a quote.](media/mobile-app-generate-quote.png "Generate a quote")
 
     A quote is generated.
 
@@ -261,7 +259,7 @@ After a successful meeting, you can quickly generate a PDF of the quote from an 
     An email opens with the quote as an attachment.
 
     > [!div class="mx-imgBorder"]
-    > ![Send a quote as an email](media/mobile-app-quote-email.png "Send a quote as an email")
+    > ![Send a quote as an email.](media/mobile-app-quote-email.png "Send a quote as an email")
 
 5. Send the email.
 
@@ -270,7 +268,7 @@ After a successful meeting, you can quickly generate a PDF of the quote from an 
 Before you wrap up the day, make sure your opportunity status is reflected correctly in the dashboards.
 
 > [!div class="mx-imgBorder"]
-> ![Open opportunities](media/mobile-app-open-opportunities.png  "Open opportunities")
+> ![Open opportunities.](media/mobile-app-open-opportunities.png  "Open opportunities")
 
 Quickly review pending tasks and close the ones you got to during the day.
 
@@ -281,7 +279,7 @@ Quickly review pending tasks and close the ones you got to during the day.
 2. On the activities page, select the **My Tasks** view.
 
     > [!div class="mx-imgBorder"]
-    > ![My tasks view](media/mobile-app-my-tasks.png  "My tasks view")
+    > ![My tasks view.](media/mobile-app-my-tasks.png  "My tasks view")
 
     Review your tasks, and close any tasks that you've completed.
 
@@ -337,7 +335,7 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 
 ### See also
 
-[Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
+[Mobile Basics Guide](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
 [User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)
 

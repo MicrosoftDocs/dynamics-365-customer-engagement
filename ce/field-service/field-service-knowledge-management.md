@@ -1,13 +1,10 @@
 ---
 title: "Knowledge management in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about knowledge management in Dynamics 365 Field Service
-ms.custom:
-- dyn365-fieldservice
 ms.date: 02/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -32,9 +29,7 @@ Access to these articles can:
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO 
-https://www.microsoft.com/videoplayer/embed/RWxBzW]
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxBzW]
 
 In this article, we'll walk through how to: 
 
@@ -58,8 +53,8 @@ Then save and publish the article.
 
 For more information on knowledge articles, visit the following Customer Service documentation:
 
-- [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article)
-- [Set up a search provider](https://docs.microsoft.com/dynamics365/customer-service/set-up-search-providers)
+- [Create and manage knowledge articles](../customer-service/customer-service-hub-user-guide-knowledge-article.md)
+- [Set up a search provider](../customer-service/set-up-search-providers.md)
 
 ## Associate knowledge article to customer assets, incident types, products
 
@@ -102,7 +97,7 @@ Associated knowledge articles will be added to the work order in **Linked Articl
 > ![Screenshot of a Field Service work order, showing the linked articles.](./media/knowledge-article-associate-work-order-linked.jpg)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the opened related knowledge article in the Field Service work order](./media/knowledge-article-associate-work-order-read.jpg)
+> ![Screenshot of the opened related knowledge article in the Field Service work order.](./media/knowledge-article-associate-work-order-read.jpg)
 
 You can also link specific knowledge articles that are *not* associated to incidents, assets, or products. From the **Linked Articles** section, select **+New Linked Article**.
 

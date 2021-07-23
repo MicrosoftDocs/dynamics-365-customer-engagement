@@ -1,12 +1,11 @@
 ---
-title: "Walkthrough 4  Display a record in a session in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough 4: Display session records in Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying session records in Unified Interface apps."
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -211,11 +210,11 @@ This walkthrough demonstrates how to display records in a session in your agent 
   
 3. Select any of the account records to display the respective account information in a session; the information is displayed under a session tab. Note that the name of the hosted control tab that contains the account record automatically displays the account name because earlier you used replacement parameters to dynamically display the current account name instead of a static value.  
   
-   ![Account record displayed in a session](../unified-service-desk/media/usd-account-record-session-unified-interface.png "Account record displayed in a session")  
+   ![Account record displayed in a session.](../unified-service-desk/media/usd-account-record-session-unified-interface.png "Account record displayed in a session")  
   
 4. If you open another account record, it will be displayed in another session in your client application. To open another account, select the down arrow next to the **Search** button, select **Account**, and then select an account name to display the account information in another session.  
   
-   ![Multiple sessions in Unified Service Desk](../unified-service-desk/media/usd-multiple-sessions-unified-interface.png "Multiple sessions in Unified Service Desk")  
+   ![Multiple sessions in Unified Service Desk.](../unified-service-desk/media/usd-multiple-sessions-unified-interface.png "Multiple sessions in Unified Service Desk")  
   
 <a name="Conclusion"></a>   
 ## Conclusion  

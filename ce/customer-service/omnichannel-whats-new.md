@@ -1,12 +1,9 @@
 ---
 title: "What's new in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about what's new in Omnichannel for Customer Service."
+description: "This topic provides information about the new updates and features in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/09/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # What's new in Omnichannel for Customer Service
@@ -17,25 +14,25 @@ ms.service: dynamics-365-customerservice
 
 For information about the features that released in October 2020, see:
 
-[2020 release wave 2 plan - Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-customer-service/omnichannel-customer-service)
+[2020 release wave 2 plan - Omnichannel for Customer Service](/dynamics365-release-plan/2020wave2/service/dynamics365-customer-service/omnichannel-customer-service)
 
 ## What's new in August 2020 update
 
 For information about the features that released in August 2020, see:
 
-[2020 release wave 2 plan - Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-customer-service/omnichannel-customer-service)
+[2020 release wave 2 plan - Omnichannel for Customer Service](/dynamics365-release-plan/2020wave2/service/dynamics365-customer-service/omnichannel-customer-service)
 
 ## What's new in April 2020 update
 
 For information about the features that released in April 2020, see:
 
-[2020 release wave 1 plan - Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-customer-service/omnichannel-customer-service)
+[2020 release wave 1 plan - Omnichannel for Customer Service](/dynamics365-release-plan/2020wave1/dynamics365-customer-service/omnichannel-customer-service)
 
 ## What's new in October 2019 update
 
 For information about new features releasing in October 2019, see:
 
-[2019 release wave 2 plan - Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/omnichannel)
+[2019 release wave 2 plan - Omnichannel for Customer Service](/dynamics365-release-plan/2019wave2/dynamics365-customer-service/omnichannel)
 
 ## What's new in August 2019 update
 
@@ -48,7 +45,7 @@ This section contains information about new features and enhancements in Omnicha
     More information: [Entity records routing](entity-channel.md) and [Cases entity work streams](set-up-entity-workstream.md)
 
     > [!Note]
-    > Only case entity record is supported in this release. To learn about the support for other entity records routing, see [Unified routing for entity records](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/unified-routing-queues).
+    > Only case entity record is supported in this release. To learn about the support for other entity records routing, see [Unified routing for entity records](/dynamics365-release-plan/2019wave2/dynamics365-customer-service/unified-routing-queues).
 
 - **Automatic closure of a conversation:** Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is automatically moved to the closed state.
 
@@ -81,21 +78,21 @@ This section contains information about new features and enhancements in Omnicha
 - **Create and auto-link a record to the conversation:** You can create a new create a new record in the Customer Summary page on the customer and case form. When you select the **+ New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
 
     > [!div class=mx-imgBorder]
-    > ![Create account, contact, and case](media/customer-summary-create-record.PNG "Create account, contact, and case")
+    > ![Create account, contact, and case.](media/customer-summary-create-record.PNG "Create account, contact, and case")
 
     More information: [Create a new record from the Customer Summary page](oc-create-record.md#create-a-record-from-the-customer-summary-page)
 
 - **View timeline based on the Case, Contact, or Account record:** The Timeline section on the Customer Summary page displays case- and customer-related activities in the form of a timeline. The **Linked records** field is used to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 
     > [!div class='mx-imgBorder']
-    > ![View only the linked records in the drop-down](media/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
+    > ![View only the linked records in the drop-down.](media/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
 
     More information: [Timeline](oc-customer-summary.md#timeline)
 
 - **Monitor real-time customer satisfaction in customer sessions:** As an agent, when you interact with your customers, you want to know their satisfaction levels in real time. Analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
     > [!div class=mx-imgBorder]
-    > ![Very positive sentiment](media/sentiment-very-positive-cc.png "Very positive sentiment")
+    > ![Very positive sentiment.](media/sentiment-very-positive-cc.png "Very positive sentiment")
 
     More information: [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 
@@ -132,7 +129,7 @@ More information: [Deploy Unified Service Desk - Omnichannel for Customer Servic
     - **Extensibility:** The app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the app.
 
    > [!div class=mx-imgBorder]
-   > ![Omnichannel for Customer Service app interface](media/oceh-whats-new.png "Omnichannel for Customer Service app interface")
+   > ![Omnichannel for Customer Service app interface.](media/oceh-whats-new.png "Omnichannel for Customer Service app interface")
 
     The key features of agent interface are:
 

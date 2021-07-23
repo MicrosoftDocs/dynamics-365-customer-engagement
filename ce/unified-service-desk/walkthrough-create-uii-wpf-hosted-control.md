@@ -1,20 +1,19 @@
 ---
-title: "Walkthrough  Create a UII WPF Hosted Control | MicrosoftDocs"
-description: "Demonstrates how you can build a WPF-based User Interface Integration (UII) hosted control that interacts with Unified Service Desk and external applications (standalone and web)."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough: Create a UII WPF Hosted Control | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for building WPF-based UII hosted controls."
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough: Create a UII WPF Hosted Control in Unified Service Desk
 
@@ -57,7 +56,7 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
    2.  Specify the name and location of the project, and choose **OK** to create a new project.  
   
-   ![Create a UII WPF hosted control](../unified-service-desk/media/usd-create-uii-wpf-hosted-control-1.png "Create a UII WPF hosted control")  
+   ![Create a UII WPF hosted control.](../unified-service-desk/media/usd-create-uii-wpf-hosted-control-1.png "Create a UII WPF hosted control")  
   
 3. In **Solution Explorer**, right-click the **UiiWpfControl.xaml** file, and select **Open** to display the XAML designer.  
   
@@ -78,7 +77,7 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
     This is how the controls should be laid out in the XAML designer.  
   
-   ![Controls layout in the XAML designer](../unified-service-desk/media/usd-create-uii-wpf-hosted-control-2.png "Controls layout in the XAML designer")  
+   ![Controls layout in the XAML designer.](../unified-service-desk/media/usd-create-uii-wpf-hosted-control-2.png "Controls layout in the XAML designer")  
   
 5. Double-click the **Update values in hosted apps** button (btnUpdate) to add the code for the `click` event for this button, and add the following code.  
   
@@ -194,7 +193,7 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
 7. Similarly, add the following two actions:  `UpdateLastName` and `UpdateAddress`. All the three actions become available for the `QSExternalApp` hosted control.  
   
-   ![Available UII actions for a hosted control](../unified-service-desk/media/usd-available-uii-actions-hosted-control.png "Available UII actions for a hosted control")  
+   ![Available UII actions for a hosted control.](../unified-service-desk/media/usd-available-uii-actions-hosted-control.png "Available UII actions for a hosted control")  
   
 8. Follow Steps 5 and 6  to create three [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions with the same names for the **QSExternalWebApp**.  
   
@@ -206,19 +205,19 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
 2. On successful sign in, you’ll see three hosted controls: **Sample UII WPF Hosted Control**, **Sample External Web Application**, and **Sample External Application**.  
   
-   ![Sample UII WPF hosted control avaiilable](../unified-service-desk/media/usd-sample-hosted-controls-available-uii-wpf.png "Sample UII WPF hosted control avaiilable")  
+   ![Sample UII WPF hosted control avaiilable.](../unified-service-desk/media/usd-sample-hosted-controls-available-uii-wpf.png "Sample UII WPF hosted control avaiilable")  
   
 3. Choose **Search**, and then choose **Contacts**. Choose any of the contacts to display the contact details in a session. This also displays the first name, last name, street address, and ID of the currently displayed contact record in all the three sample controls:  
   
-   ![Data displayed from USD context in the 3 controls](../unified-service-desk/media/usd-sample-controls-uii-wpf.png "Data displayed from USD context in the 3 controls")  
+   ![Data displayed from USD context in the 3 controls.](../unified-service-desk/media/usd-sample-controls-uii-wpf.png "Data displayed from USD context in the 3 controls")  
   
 4. Change the values in **Sample UII WPF Hosted Control**, and select **Update values in hosted apps** to update the values in the other two external applications.  
   
-   ![Updated values in external apps](../unified-service-desk/media/usd-sample-controls-updated-values-uii-wpf.png "Updated values in external apps")  
+   ![Updated values in external apps.](../unified-service-desk/media/usd-sample-controls-updated-values-uii-wpf.png "Updated values in external apps")  
   
 5. In **Sample UII WPF Hosted Control**, choose **Update context** to update the context information in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-   ![Values updated in USD context](../unified-service-desk/media/usd-uii-wpf-values-updated-context.png "Values updated in USD context")  
+   ![Values updated in USD context.](../unified-service-desk/media/usd-uii-wpf-values-updated-context.png "Values updated in USD context")  
   
 ### See also  
  [Integrate with external applications and web applications](../unified-service-desk/integrate-external-applications-web-applications.md)   

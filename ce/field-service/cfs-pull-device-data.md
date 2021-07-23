@@ -1,11 +1,10 @@
 ---
 title: "Pull device data in Dynamics 365 Field Service - Connected Field Service | MicrosoftDocs"
 description: Learn how to pull in device data in Connected Field Service for Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -40,7 +39,7 @@ Go to an **IoT Device**, and select **Pull Device Data** to pull in the most rec
 From the **Device Data History** tab on the device, you'll find a list of all data pulls for this device.
 
 > [!Note]
-> You can pull device data from a customer asset if the customer asset is [connected to IoT devices](https://docs.microsoft.com/dynamics365/field-service/cfs-register-devices#connect-to-asset). Select **Pull Device Data** in the ribbon of the customer asset record.
+> You can pull device data from a customer asset if the customer asset is [connected to IoT devices](./cfs-register-devices.md#connect-to-asset). Select **Pull Device Data** in the ribbon of the customer asset record.
 
 ## Device data on IoT alerts
 

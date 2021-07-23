@@ -1,11 +1,10 @@
 ---
-title: "Geofencing for the Field Service mobile app | MicrosoftDocs"
-description: Learn how to use geofences for the Field Service mobile app.
-ms.custom:
-- dyn365-fieldservice
-ms.date: 01/07/2021
+title: "Geofencing for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+description: Learn how to use geofences for the Field Service (Dynamics 365) mobile app.
+ms.date: 06/04/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 ms.suite: ""
 applies_to:
@@ -45,9 +44,9 @@ In this article, we look at how to configure and use geofences by:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geofence solutions appearing in the solution list in Dynamics 365.](./media/mobile-geofence-solutions.png)
 
-- [Connect to Bing Maps](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts and work orders to later place geofences around.
+- [Connect to Bing Maps](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts and work orders to later place geofences around.
    
-- [Set auto geocode addresses to **yes**](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required in order to place geofences.
+- [Set auto geocode addresses to **yes**](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required in order to place geofences.
 
 - [Enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and test location tracking.
 
@@ -72,7 +71,7 @@ Go to **Settings** > **Processes** and **Activate** the following processes. The
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service settings, showing a list of processes.](./media/mobile-2020-geofence-processes.png)
 
-If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Settings](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#other-settings), enable the geofence Power Automate flows.
+If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Settings](./configure-default-settings.md#other-settings), enable the geofence Power Automate flows.
 
 1. Go to https://make.powerapps.com/ and select your environment.
 2. Go to **Solutions** > **Geofencing for Field Service**.
@@ -128,7 +127,7 @@ Next, go to the bookable resource configuration and enter the following:
 - **Enabled As:** Select **Geo tracked** because the bookable resource has a variable location that is compared against defined geofences.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of bookable resource geofence configurations](./media/mobile-geofence-bookable-resource.png)
+> ![Screenshot of bookable resource geofence configurations.](./media/mobile-geofence-bookable-resource.png)
 
 ## Step 5. Book a work order
 
@@ -160,7 +159,7 @@ When a technician arrives at the work order location and interacts with the Fiel
 > ![Screenshot of the schedule board, showing an "enter" geofence event on the map.](./media/mobile-2020-location-auditing-schedule-board-EDIT.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/geofence-entered.png)
+> ![Screenshot of .](./media/geofence-entered.png)
 
 Additionally, this will change the related geofence **Geo tracked Record Status** to **Inside**.
 
@@ -169,13 +168,43 @@ When the technician leaves the geofence, another "exit" event will be created.
 > [!Note]
 > If you want to test entering a geofence but cannot physically travel to the location, you can expand the geofence radius to include your current location. 
 
+## Geofence trigger filters
+
+Geofence trigger filters can be used to define when a geofence event will trigger, relative to time values of the booking.   
+
+When geofencing is enabled, the geofence will be created for all bookings, which can result in performance issues if there are many pre-created or past bookings. Geofence trigger filters allow you to define a time window within which the geofence will be created and events can be triggered. Along with performance improvements, these filters can help avoid false-positive geofence events. By filtering to only relevant upcoming service appointments, you can avoid a scenario where a frontline worker inadvertently travels through a geofence that isn't currently their active engagement.  
+
+When trigger filters are enabled, you can enable one or two different time-based filters. Filtered fields include: 
+
+- **Start Time** 
+- **End Time**
+- **Actual Arrival Time** 
+- **Created On** 
+- **Estimated Arrival Time** 
+- **Modified On** 
+- **Offline Time Stamp** 
+- **Record Created On** 
+
+You can then set a value in days before or after the current date for the filter. 
+
+In the scenario shown in the following screenshot, a geofence will only be created and trigger events for bookings that meet the following condition: 
+
+- **Start Time** of the booking is within the last day or next day. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Example of configured geofence filters in Field Service.](./media/mobile-geofence-filters.png)
+
+
+
 ## Configuration considerations
 
 - Custom geofences using entities other than accounts and bookable resources are supported.
 - You can configure how far back in time a geolocation is valid. This is important for scenarios when a bookable resource synchronizes a geolocation to the server and then loses internet connection, making dispatchers unaware of the true location. The time threshold can be configured in **Resource Scheduling** > **Settings** > **Scheduling Parameter** > **Geo Data** > **Geo Location Expires After X Minutes**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of location expiration configuration field](./media/mobile-geofence-location-expiration.png)
+> ![Screenshot of location expiration configuration field.](./media/mobile-geofence-location-expiration.png)
+
   
 ## Additional notes
 

@@ -4,7 +4,7 @@ description: "Dynamics 365 Customer Engagement (on-premises) and perform basic c
 ms.custom: 
 ms.date: 01/29/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -53,7 +53,7 @@ Display an option to delete the sample data created. The deletion is optional in
 ### See also
 
 [Tutorials for Learning About Dynamics 365 Customer Engagement Development apps](tutorials-resources-sdk.md)<br />
-[Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
+[Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start)<br />
 
 
 

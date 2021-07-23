@@ -1,20 +1,19 @@
 ---
-title: "Walkthrough 1  Build a simple agent application in Unified Service Desk  | MicrosoftDocs"
-description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to Microsoft Dataverse."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough 1: Build a simple agent application in Unified Service Desk  | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for setting up a basic agent application in Unified Service Desk. "
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough 1: Build a simple agent application
 
@@ -68,7 +67,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
    |Sort Order|1|  
    |USD Component Type|Connection Manager|  
   
-   ![Connection Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-01.png "Connection Manager hosted control")  
+   ![Connection Manager hosted control.](../unified-service-desk/media/crm-itpro-usd-wt01-01.png "Connection Manager hosted control")  
   
 6. Click **Save**.  
   
@@ -82,7 +81,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
    |Sort Order|2|  
    |USD Component Type|Global Manager|  
   
-   ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-02.png "Global Manager hosted control")  
+   ![Global Manager hosted control.](../unified-service-desk/media/crm-itpro-usd-wt01-02.png "Global Manager hosted control")  
   
 9. Click **Save**.  
   
@@ -98,7 +97,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
     |Application is Dynamic|No|  
     |User Can Close|Unchecked|  
   
-    ![Panel Layout hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-03.png "Panel Layout hosted control")  
+    ![Panel Layout hosted control.](../unified-service-desk/media/crm-itpro-usd-wt01-03.png "Panel Layout hosted control")  
   
 12. Click **Save**.  
   
@@ -127,7 +126,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 9. Select the three hosted controls, click **Select**, and then click **Add**.  
   
-   ![Add the hosted controls to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
+   ![Add the hosted controls to the configuration.](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
   
 10. The hosted controls are added to the configuration. Click **Save**.  
   
@@ -141,7 +140,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 3. From the search result, click the user name that you want to be assigned to the configuration. The user is added to the configuration. In this case, assign **Randy Blythe** to the configuration. Click **Save**.  
   
-   ![User added to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration")  
+   ![User added to the configuration.](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration")  
   
 <a name="Step4"></a>   
 ## Step 4: Test the application
@@ -150,7 +149,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
  Your agent application will look like the following.  
   
- ![Basic agent application without any controls](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
+ ![Basic agent application without any controls.](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
   
  The desktop in the agent application is empty because no other controls were added to **Contoso Configuration** apart from the hosted controls required for setting up a basic agent application. In the rest of the walkthroughs, you’ll see controls appear in the agent application as you progressively configure and add controls to **Contoso Configuration**.  
   

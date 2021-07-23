@@ -1,23 +1,21 @@
 ---
 title: Configure interactive experience dashboards in Microsoft Dynamics 365 for Customer Engagement | Microsoft Docs
 description: Know how to configure interactive experience dashboards in Microsoft Dynamics 365 for Customer Engagement
-author: neeranelli
-ms.author: nenellim
-manager: sakudes
-ms.date: 09/30/2017
-ms.topic: article
-ms.service: 
-  - crm-online
-search.audienceType: 
-  - customizer
-
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Interactive service hub; Customer Service Hub
+ms.date: 09/30/2017
+ms.prod: d365ce-op
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
+author: neeranelli
+ms.author: nenellim
+manager: sakudes
+search.audienceType: 
+  - customizer
 ---
 
-# Configure interactive experience dashboards
+# Configure interactive experience dashboards in Customer Service hub
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -46,27 +44,27 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 ### Multi-stream dashboard standard view  
  In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them.  
   
- ![Multi&#45;stream interactive dashboard](../customize/media/interactive-dashboards-multi-stream.png "Multi-stream interactive dashboard")  
+ ![Multi&#45;stream interactive dashboard.](../customize/media/interactive-dashboards-multi-stream.png "Multi-stream interactive dashboard")  
   
 ### Multi-stream dashboard tile view  
  The same dashboard, only in the tile view.  
   
- ![Multi&#45;stream dashboard tile view](../customize/media/interactive-dashboards-multi-stream-tiles.png "Multi-stream dashboard tile view")  
+ ![Multi&#45;stream dashboard tile view.](../customize/media/interactive-dashboards-multi-stream-tiles.png "Multi-stream dashboard tile view")  
   
 ### Multi-stream dashboard layouts  
  For multi-stream dashboards, you can choose from four different layouts.  
   
- ![Multi&#45;stream dashboard layouts](../customize/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
+ ![Multi&#45;stream dashboard layouts.](../customize/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
   
 ### Multi-stream entity-specific dashboard  
  The entity-specific dashboard for the `Case` entity is shown here.  
   
- ![Open cases dashboard](../customize/media/interactive-dashboard-cases-dashboard.PNG "Open cases dashboard")  
+ ![Open cases dashboard.](../customize/media/interactive-dashboard-cases-dashboard.PNG "Open cases dashboard")  
   
 ### Single-stream dashboard  
  The single-stream dashboard contains the data stream on the left and visual filters and tiles on the right.  
   
- ![Single&#45;stream interactive service hub dashboard](../customize/media/interactive-dashboards-single-stream.png "Single-stream interactive service hub dashboard")  
+ ![Single&#45;stream interactive service hub dashboard.](../customize/media/interactive-dashboards-single-stream.png "Single-stream interactive service hub dashboard")  
   
 ### Single-stream dashboard layouts  
  For single-stream dashboards, you can choose from four different layouts.  
@@ -114,14 +112,14 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 ### Configure fields  
  For a field to appear in the global filter and be included in the data stream sort, you have to set two flags, as shown in the example below for the **IsEscalated** field of the Case entity.  
   
- ![Enable a field for global filter and sort](../customize/media/interactive-dashboards-enable-global-filter-sort.png "Enable a field for global filter and sort")  
+ ![Enable a field for global filter and sort.](../customize/media/interactive-dashboards-enable-global-filter-sort.png "Enable a field for global filter and sort")  
   
 ### Configure global filter fields  
  For a field to appear in the global filter, you have to set the **Appears in global filter in interactive experience** flag for this field. The fields that you configure will appear in the global filter flyout window when the global filter icon is clicked on the dashboard header. In the flyout window, the service reps can select the fields on which they want to filter globally, in charts, and also in streams and tiles that are based on the filter entity. For more information about the filter entity see the “Configure multi-stream interactive dashboard” section later in this topic.  
   
  The global filter flyout window is shown here:  
   
- ![Add two global filter fields](../customize/media/interactive-dashboards-global-filter-two-fields.png "Add two global filter fields")  
+ ![Add two global filter fields.](../customize/media/interactive-dashboards-global-filter-two-fields.png "Add two global filter fields")  
   
 > [!NOTE]
 >  When you configure a visual filter (interactive chart) based on the fields like priority or status, a best practice is to also enable these fields (priority, status) to appear in the global filter.  
@@ -145,7 +143,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 ### Configure sortable fields  
  For a field to be used in sorting stream data, you have to set the **Sortable in interactive experience dashboard** flag for this field. The fields that you configure for sorting will appear in the drop-down list in the **Edit Property** flyout dialog when the user clicks **More (…)** on the stream header. The following illustration shows the flyout dialog with the list of the available fields for sorting, in the **Sort By** drop-down list. The default sort is always set on the **Modified On** field.  
   
- ![Sort by drop&#45;down list](../customize/media/interactive-dashboard-sortable-fields-dropdown.png "Sort by drop-down list")  
+ ![Sort by drop&#45;down list.](../customize/media/interactive-dashboard-sortable-fields-dropdown.png "Sort by drop-down list")  
   
  #### To set the sort flag  
   
@@ -182,9 +180,9 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
   
 7.  Click **Prepare Client Customizations**.  
   
- ![Enable security roles](../customize/media/interactive-dashboards-enable-security-roles.png "Enable security roles")  
+ ![Enable security roles.](../customize/media/interactive-dashboards-enable-security-roles.png "Enable security roles")  
   
- ![Assign security roles](../customize/media/interactive-dashboards-assign-security-roles.png "Assign security roles")  
+ ![Assign security roles.](../customize/media/interactive-dashboards-assign-security-roles.png "Assign security roles")  
   
 <a name="BKMK_Configure"></a>   
 ## Configure interactive experience dashboards  
@@ -200,21 +198,21 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
   
 4.  In the grid, click **New**, and select **Interactive experience dashboard** in the drop-down list, as shown here.  
   
- ![Select interactive experience dashboard](../customize/media/interactive-dashboards-choose-interactive.PNG "Select interactive experience dashboard")  
+ ![Select interactive experience dashboard.](../customize/media/interactive-dashboards-choose-interactive.PNG "Select interactive experience dashboard")  
   
 5.  Choose the layout and click **Create**.  
   
 6.  When the dashboard form opens, fill in the filtering information at the top of form, as shown here.  
   
- ![Add visual filters](../customize/media/interactive-dashboards-add-visual-filters.png "Add visual filters")  
+ ![Add visual filters.](../customize/media/interactive-dashboards-add-visual-filters.png "Add visual filters")  
   
    - **Filter Entity**: The visual filters (interactive charts) and global filter attributes are based on this entity.  
       
-    - **Entity View**: The visual filters (interactive charts) are based on this view.  
+   - **Entity View**: The visual filters (interactive charts) are based on this view.  
       
-    - **Filter By**: The field that the time frame filter applies to.  
+   - **Filter By**: The field that the time frame filter applies to.  
       
-    - **Time Frame**: The default time frame filter value for the **Filter By** field.  
+   - **Time Frame**: The default time frame filter value for the **Filter By** field.  
       
  After you  have specified the filtering information, start adding components for the charts and the data streams. To add a component, simply click on the element in the center of the chart or stream, and when the dialog appears, enter the required information, as shown in the following illustrations.  
   
@@ -227,7 +225,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 > [!NOTE]
 >  The charts configured for the visual filters can use the fields of the **Filter** entity as well as related entities. When you use charts based on related entity fields, the customer service representatives can filter charts using these related entity fields. The fields that are based on the related entity usually have the following format in the chart configuration window: “field name (entity name)”, such as the **Modified By (Delegate)** field. To create multi-entity charts, you must add  fields of a related entity to any of the views, and then use these fields while creating charts.  
   
- ![Creating charts for visual filters](../customize/media/interactive-dashboard-visual-charts-x-y-axes.PNG "Creating charts for visual filters")  
+ ![Creating charts for visual filters.](../customize/media/interactive-dashboard-visual-charts-x-y-axes.PNG "Creating charts for visual filters")  
   
  Next, configure the streams. Just like with adding components in the charts, click the element inside the stream panel. When the dialog appears, select **View** or **Queue** depending on what element you want the stream to use. Enter the required information, as shown in the following illustrations.  
   
@@ -240,11 +238,11 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
   
  The following illustration is an example of the chart panel, left to right: doughnut chart, tag chart, and bar chart:  
   
- ![All interactive charts](../customize/media/interactive-dashboards-add-all-charts.png "All interactive charts")  
+ ![All interactive charts.](../customize/media/interactive-dashboards-add-all-charts.png "All interactive charts")  
   
  This illustration is an example of the stream panel with several streams:  
   
- ![Add all streams](../customize/media/interactive-dashboards-add-all-streams.png "Add all streams")  
+ ![Add all streams.](../customize/media/interactive-dashboards-add-all-streams.png "Add all streams")  
   
  After you have completed configuring the dashboard, save it and publish the customizations for your changes to take effect. Also, make sure to click **Prepare Client Customizations**.  
   
@@ -291,7 +289,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 ### Configure a single-stream dashboard  
  Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. If the tiles are included, they are always displayed on the dashboard. To configure a tile, you click on the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
   
- ![Add a tile to the single&#45;stream dashboard](../customize/media/interactive-dashboard-add-tile-single-stream.png "Add a tile to the single-stream dashboard")  
+ ![Add a tile to the single&#45;stream dashboard.](../customize/media/interactive-dashboard-add-tile-single-stream.png "Add a tile to the single-stream dashboard")  
   
 <a name="BKMK_ConfigureColors"></a>   
 ## Configure dashboard colors  
@@ -318,11 +316,11 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
   
 In the following example, we’re changing the color for the **IsEscalated** field. Use the **Edit** button to open the **Modify List Value** dialog box:  
   
- ![Change color in the dashboard](../customize/media/interactive-dashboards-change-color-edit-button.PNG "Change color in the dashboard")  
+ ![Change color in the dashboard.](../customize/media/interactive-dashboards-change-color-edit-button.PNG "Change color in the dashboard")  
   
 When the **Modify List Value** dialog box opens, choose the color as shown here:  
   
- ![Modify the dashboard color](../customize/media/interactive-dashboards-modify-color-value.png "Modify the dashboard color")  
+ ![Modify the dashboard color.](../customize/media/interactive-dashboards-modify-color-value.png "Modify the dashboard color")  
   
 ### See also  
  [Create and edit dashboards](../customize/create-edit-dashboards.md)   

@@ -1,11 +1,10 @@
 ---
-title: "Manage session templates in Customer Service workspace and Omnichannel Administration app | MicrosoftDocs"
+title: "Manage session templates | MicrosoftDocs"
 description: "Learn about managing session templates in Customer Service workspace and Omnichannel Administration app"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
 
@@ -81,7 +80,7 @@ The following out-of-the-box session templates are of the generic type and are f
 10. Select **Save**.
 
    > [!div class=mx-imgBorder]
-   > ![Session template](media/session-template1.png "Session template")
+   > ![Session template.](media/session-template1.png "Session template")
 
 The session template is configured. Now, you must associate the session template with a work stream. To learn more, see [Associate templates with work streams](associate-templates.md).
 

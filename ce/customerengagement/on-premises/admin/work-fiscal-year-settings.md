@@ -1,9 +1,10 @@
 ---
 title: "Work with fiscal year settings  | MicrosoftDocs"
+description: "Set the fiscal year period, and how it’s displayed, for your organization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ ms.assetid: 521e711f-bced-4cab-9e31-506e40b5db01
 caps.latest.revision: 33
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Work with fiscal year settings
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You can set the fiscal year period, and how it’s displayed, for your organization.  
   

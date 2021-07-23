@@ -7,9 +7,8 @@ author: FieldServiceDave
 manager: shellyha
 ms.date: 05/04/2018
 ms.topic: quickstart
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-fieldservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 search.app: 
   - D365CE
   - D365FS
@@ -62,9 +61,9 @@ You can then get to the deployment app in one of two ways:
 
 [Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)  
  
-[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)  
+[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](/previous-versions/dynamicscrm-2016/developers-guide/mt744253(v=crm.8))  
  
-[Check out more Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)  
+[Check out more Azure documentation resources](/azure/iot-hub/)  
 
 
 

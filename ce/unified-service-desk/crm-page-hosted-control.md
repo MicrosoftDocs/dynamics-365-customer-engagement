@@ -1,20 +1,19 @@
 ---
 title: "CRM Page hosted control to load a page from a model-driven app | MicrosoftDocs"
-description: "Learn about the CRM Page hosted control type to load a URL or page from the model-driven app. When a model-driven app page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn how to create CRM Page hosted control type to load a URL or page from the model-driven app. Also, learn about the predefined UII actions for the hosted control."
 ms.date: 02/14/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # CRM Page (hosted control)
 
@@ -29,7 +28,7 @@ This hosted control type exposes a number of predefined UII actions and events t
 
 While you're creating a new hosted control, the fields on the **New Hosted Control** screen will vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the CRM Page hosted control type. More information: [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)
 
- ![CRM Page hosted control](../unified-service-desk/media/crm-itpro-usd-crmpagehostedcontrol.PNG "CRM Page hosted control")  
+ ![CRM Page hosted control.](../unified-service-desk/media/crm-itpro-usd-crmpagehostedcontrol.PNG "CRM Page hosted control")  
 
 On the **New Hosted Control** screen:
 
@@ -352,7 +351,7 @@ Occurs after a record in the model-driven app page is saved.
  [Events](../unified-service-desk/events.md)   
  [Walkthrough 3: Display records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
- [Administration Guide for Unified Service Desk](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+ [Administration Guide for Unified Service Desk](/previous-versions/dynamicsusd-2/administrators-guide/dn499779(v=usd.2))
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

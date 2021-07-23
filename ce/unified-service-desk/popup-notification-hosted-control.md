@@ -1,20 +1,19 @@
 ---
 title: "Popup Notification (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn about using the Popup Notification hosted control type to display notifications in Unified Service Desk. The notification layout and content is defined as XAML in a Unified Service Desk form instance, and the Popup Notification hosted control is used to display and hide the form instance as required"
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn to use the Popup Notification hosted control type to display notifications in Unified Service Desk. "
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Popup Notification (Hosted Control)
@@ -27,7 +26,7 @@ Use the **Popup Notification** hosted control type to display notifications in [
 ## Create a Popup Notification hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Popup Notification** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![Notification Hosted Control](../unified-service-desk/media/usd-notification-hosted-control.png "Notification Hosted Control")
+ ![Notification Hosted Control.](../unified-service-desk/media/usd-notification-hosted-control.png "Notification Hosted Control")
 
  In the **New Hosted Control** screen:  
 

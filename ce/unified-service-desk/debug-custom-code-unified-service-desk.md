@@ -1,20 +1,19 @@
 ---
 title: "Debug your custom code for Unified Service Desk | MicrosoftDocs"
-description: "Learn about debugging your custom code that you create for Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn to debug your custom code for Unified Service Desk by setting Visual Studio project properties."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Debug your custom code for Unified Service Desk
 
@@ -36,11 +35,11 @@ Debugging your custom code for [!INCLUDE[pn_unified_service_desk](../includes/pn
   
 2. On the **Build** tab, under the **Output** area, set the **Output path** field value to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory, typically C:\Program Files\Microsoft Dynamics CRM USD\USD\\.  
   
-   ![Set the output path of the assembly](../unified-service-desk/media/usd-project-build-tab.png "Set the output path of the assembly")  
+   ![Set the output path of the assembly.](../unified-service-desk/media/usd-project-build-tab.png "Set the output path of the assembly")  
   
 3. On the **Debug** tab, select **Start external program**, and specify the full path to the `UnifiedServiceDesk.exe` file in the field, typically C:\Program Files\Microsoft Dynamics CRM USD\USD\ UnifiedServiceDesk.exe  
   
-   ![Set the external application name](../unified-service-desk/media/usd-project-debug-tab.png "Set the external application name")  
+   ![Set the external application name.](../unified-service-desk/media/usd-project-debug-tab.png "Set the external application name")  
   
 4. Save your project.  
   

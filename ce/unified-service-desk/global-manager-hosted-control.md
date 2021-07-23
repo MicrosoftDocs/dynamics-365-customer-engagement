@@ -1,20 +1,19 @@
 ---
 title: "Global Manager (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "The Global Manager hosted control type is the core of Unified Service Desk, and an instance of this hosted control is required by Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 02/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Global Manager (Hosted Control)
 
@@ -31,7 +30,7 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 ## Create a Global Manager hosted control
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Global Manager** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
- ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-globalmanagerhostedcontrol.PNG "Global Manager hosted control")
+ ![Global Manager hosted control.](../unified-service-desk/media/crm-itpro-usd-globalmanagerhostedcontrol.PNG "Global Manager hosted control")
 
  In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Global Manager** from the **Unified Service Desk Component Type** drop-down list. Also, ensure that you set the **Sort Order** value of this hosted control to **2** to ensure it is loaded by your agent application immediately *after* the connection has been established to Dataverse using the Connection Manager hosted control. For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
@@ -49,7 +48,7 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 
 |Parameter|Description|
 |---------------|-----------------|
-|Name|The audit entry name. You must add an option under the **Options** area (**Settings** > **Unified Service Desk** > Options ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636))) with the value set to **1**.|
+|Name|The audit entry name. You must add an option under the **Options** area (**Settings** > **Unified Service Desk** > Options ([How do I get there?](../customerengagement/on-premises/basics/basics-guide.md))) with the value set to **1**.|
 |Action|String representing the action that is being audited.|
 |TargetApplication|String representing the target application for the audit.|
 |CustomerId|String representing the customer ID.|
@@ -361,7 +360,7 @@ Param=value
 
 <a name="Pause"></a>
 ### Pause
- Pauses execution of the action without blocking message processing. This action is different from suspending the current thread for the specified amount of time ([Thread.Sleep](https://msdn.microsoft.com/library/d00bd51t.aspx)) because the action allows the processing to continue. This action is useful when you are waiting for web operations to complete.
+ Pauses execution of the action without blocking message processing. This action is different from suspending the current thread for the specified amount of time ([Thread.Sleep](/dotnet/api/system.threading.thread.sleep)) because the action allows the processing to continue. This action is useful when you are waiting for web operations to complete.
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -491,6 +490,12 @@ Param=value
 |---------------|-----------------|
 |name|Name of the event timer to stop.|
 
+### TriggerEdgeWebView2PoolCleanUp
+Cleans up the Edge WebView2 pool.
+
+### TriggerChromePoolCleanUp
+Cleans up the Chrome pool.
+
 <a name="Translate"></a>
 ### Translate
  Enables you to perform language translation using [Microsoft Translator](https://datamarket.azure.com/dataset/bing/microsofttranslator).
@@ -499,8 +504,8 @@ Param=value
 |  Parameter   |                                                                                                                                                                                                                                               Description                                                                                                                                                                                                                                               |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    value     | This is the text to translate. This value may be escaped for multi-line support.<br /><br /> Some valid examples:<br /><br /> `value=$Escaped("my string<br>new line\\\"my text\\\"")`<br /><br /> `value=[[myapp.myparam]^]`<br /><br /> `value=$Escaped([[myapp.myparam]$])`<br /><br /> For more information about these replacement keys, see [Use replacement parameters to configure Unified Service Desk](../unified-service-desk/use-replacement-parameters-configure-unified-service-desk.md). |
-| fromlanguage |                                                                                                      Name of the language to translate from. If this is blank, the system will attempt to detect the language of the specified value to be translated before translating. For a list of valid language values, see [Translator Language Codes](https://msdn.microsoft.com/library/hh456380.aspx).                                                                                                       |
-|  tolanguage  |                                                                                                                                                                      Name of the language to translate to. For a list of valid language values, see [Translator Language Codes](https://msdn.microsoft.com/library/hh456380.aspx).                                                                                                                                                                      |
+| fromlanguage |                                                                                                      Name of the language to translate from. If this is blank, the system will attempt to detect the language of the specified value to be translated before translating. For a list of valid language values, see [Translator Language Codes](/azure/cognitive-services/Translator/).                                                                                                       |
+|  tolanguage  |                                                                                                                                                                      Name of the language to translate to. For a list of valid language values, see [Translator Language Codes](/azure/cognitive-services/Translator/).                                                                                                                                                                      |
 |   clientId   |                                                                                                       A client ID obtained from [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for translation services. For information about registering with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)], see [https://datamarket.azure.com](https://datamarket.azure.com).                                                                                                       |
 | clientsecret |                                                                                                     A client secret obtained from [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for translation services. For information about registering with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)], see [https://datamarket.azure.com](https://datamarket.azure.com).                                                                                                     |
 

@@ -1,12 +1,11 @@
 ---
 title: "notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: "Know about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
-ms.date: 02/10/2021
+ms.date: 07/13/2021
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -14,9 +13,7 @@ ms.custom:
 
 # notifyEvent
 
- 
-
-Displays a notification that can be used to inform agent about an incoming conversation.
+Displays a notification that can be used to inform agent about incoming conversations.
 
 ## Syntax
 
@@ -24,13 +21,14 @@ Displays a notification that can be used to inform agent about an incoming conve
 
 ## Parameters
 
-| **Name**        | **Type** | **Required** | **Description**                                                                                                  |
-|-----------------|----------|--------------|------------------------------------------------------------------------------------------------------------------|
-| input           | String   | Yes          | JSON input                                                                                                       |
+| Name            | Type     | Required     | Description     |
+|-----------------|----------|--------------|-----------------|
+| input           | String   | Yes          | JSON input      |
+| correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.          |
 | successCallback | Function | No           | On success callback, response object will have the information about whether customer selected Accept or Reject. |
-| errorCallback   | Function | No           | A function to call when the operation fails.                                                                     |
+| errorCallback   | Function | No           | A function to call when the operation fails.  |
 
-## Callback functions details
+## Callback function details
 
 The following objects are passed into successCallback and errorCallback functions.
 
@@ -41,21 +39,20 @@ Sample JSON object:
 ```json
 {
 	"value": {"actionName" : "Accept",
-
      "responseReason" : "Accept"}
 }
 ```
 
 **Parameters**
 
-| **actionName**    |  **responseResponse value**         |     **Description**        |
+| actionName   |  responseReason                    |     Description                            |
 |--------------|------------------------------------|--------------------------------------------|
-| Accept   |Accept    |When user accepts the notification  |
-| Accept   |AutoAccept |The notification is accepted by default via a notification template |
-|Reject    |DeclinedByAgent |When user rejects the notification |
-|Reject    |NotificationQueueLimitExceeded|The notification is rejected if the limit exceeds ten notifications in the queue |
-|Reject   |NotificationQueueTimeLimitExceeded |When a notification in the queue exceeds the configured timeout period |
-|Timeout   |DisplayTimeout |When user doesn't respond to the notification within the timeout period |
+| Accept       | Accept                             | When user accepts the notification  |
+| Accept       | AutoAccept                         | The notification is accepted by default via a notification template |
+| Reject       | DeclinedByAgent                    | When user rejects the notification |
+| Reject       | NotificationQueueLimitExceeded     | The notification is rejected if the limit exceeds ten notifications in the queue |
+| Reject       | NotificationQueueTimeLimitExceeded | When a notification in the queue exceeds the configured timeout period |
+| Timeout      | DisplayTimeout                     | When user doesn't respond to the notification within the timeout period |
 
 ### errorCallback function
 
@@ -64,17 +61,16 @@ Sample JSON object:
 ```json
 {
 	"message" : "<error details>",
-
 	"msdyn_name" : "NotifyEvent"
 }
 ```
 
 **Parameters**
 
-| **message**    |  **Description**         |
-|-------------------------------|-----------------------------------------|
-|NotificationTemplateNotFoundError |When the specified template name is not found |
-|RejectAfterClientError |An unknown exception occurred (occurs when the Platform API call fails or some input parameter is missing) |
+| message                          |  Description                            |
+|-------------------------------   |-----------------------------------------|
+| NotificationTemplateNotFoundError | When the specified template name is not found |
+| RejectAfterClientError            | An unknown exception occurred (occurs when the Platform API call fails or some input parameter is missing) |
 
 ## Example
 

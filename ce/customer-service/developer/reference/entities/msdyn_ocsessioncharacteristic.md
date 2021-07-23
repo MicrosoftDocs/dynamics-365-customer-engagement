@@ -1,12 +1,11 @@
 ---
 title: "msdyn_ocsessioncharacteristic Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocsessioncharacteristic entity."
-author: "v-sailab"
-ms.author: "v-sailab"
-manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ---

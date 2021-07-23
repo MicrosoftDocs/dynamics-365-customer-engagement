@@ -1,12 +1,11 @@
 ---
 title: "getTranslationProvider (Omnichannel for Customer Service JavaScript property reference) | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 
 # getTranslationProvider
@@ -33,9 +32,9 @@ interface {
 }
 ```
 
-The `initializeNewConversation` parameter in above interface represents a function which will be called to initialize a conversation. More information: [initializeNewConversation](https://docs.microsoft.com/dynamics365/omnichannel/developer/reference/methods/initializenewconversation).
+The `initializeNewConversation` parameter in above interface represents a function which will be called to initialize a conversation. More information: [initializeNewConversation](/dynamics365/omnichannel/developer/reference/methods/initializenewconversation).
 
-The `translateMessage` parameter in above interface represents a function which will be called to translate a message. More information: [translateMessage](https://docs.microsoft.com/dynamics365/omnichannel/developer/reference/methods/translatemessage).
+The `translateMessage` parameter in above interface represents a function which will be called to translate a message. More information: [translateMessage](/dynamics365/omnichannel/developer/reference/methods/translatemessage).
 
 A sample of setting the `getTranslationProvider` property is as follows.
 
@@ -60,7 +59,7 @@ window.Microsoft.Omnichannel.TranslationFramework.getTranslationProvider = funct
 
 2. If this property is not set, the following error will be displayed to the agent.
 
-![initializeNewConversation error message](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
+![initializeNewConversation error message.](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
 
 ### See also
 

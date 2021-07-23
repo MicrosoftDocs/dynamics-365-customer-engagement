@@ -34,20 +34,20 @@ You can leave feedback on the documentation by selecting **Submit and view feedb
 
 ## How can I create a support ticket from the Power Platform admin center?
 
-Admins can use the [Help + support experience](https://docs.microsoft.com/power-platform/admin/get-help-support) in the Power Platform admin center to open support requests.
+Admins can use the [Help + support experience](/power-platform/admin/get-help-support) in the Power Platform admin center to open support requests.
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments) with your admin credentials.
 1. Select **Help + support** > **New support request**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Help + support in the Power Platform admin center](media/troubleshoot-faq-support.png)
+    > ![Select Help + support in the Power Platform admin center.](media/troubleshoot-faq-support.png)
 
 1. Select **Dynamics 365 Customer Engagement** > **Marketing app**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select the Marketing app from the drop down](media/troubleshoot-faq-support-request.png)
+    > ![Select the Marketing app from the drop down.](media/troubleshoot-faq-support-request.png)
 
 ### See also
 
-[Administration and setup FAQ](setup-troubleshooting.md)   
-[Installation and management FAQ](install-manage-faq.md)   
+[Administration and setup FAQ](setup-troubleshooting.yml)   
+[Installation and management FAQ](install-manage-faq.yml)

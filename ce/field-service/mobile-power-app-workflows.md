@@ -1,12 +1,11 @@
 ---
 title: "Create workflows and scripts for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn about workflows and scripts for the Field Service (Dynamics 365) mobile app.
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 10/30/2020
+ms.date: 05/24/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -20,15 +19,34 @@ search.app:
 
 # Workflows and scripts for the Field Service (Dynamics 365) mobile app
 
-Use Microsoft Power Automate flows and the Dynamics 365 workflow engine to create workflows and business processes for technicians using the Field Service (Dynamics 365) mobile app.
+Administrators can use processes like Dynamics 365 workflows, Power Automate flows, JavaScript, and business rules and actions to help frontline workers and automate business processes. Some processes will work when the mobile app is running in [offline first](mobile-power-app-system-offline.md) and others require internet connectivity. For more information, see this article: [Mobile offline capabilities and limitations](/dynamics365/mobile-app/mobile-offline-capabilities).
 
-For more information, see the following articles: 
-- [Create a flow that uses Microsoft Dataverse](https://docs.microsoft.com/power-automate/common-data-model-intro) 
-- [Create custom business logic through processes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)
 
-Power Automate flows and workflows will trigger when the mobile app is synced with the server and the conditions of the workflow are met. If there is no internet connectivity, use offline JavaScript as seen in the next section.
+## Dynamics 365 workflows and Power Automate flows
+
+Workflows and flows are commonly used to run data validations and autopopulate data based on triggers and conditions. There are many things to consider when creating workflows and flows. Many Dynamics workflows are being replaced with Power Automate flows, so we recommend trying Power Automate flows first to be more future-proof. For more information, see this article: [Comparison of workflows and flow](/power-automate/replace-workflows-with-flows). 
+
+Workflows and flows will only run with an internet connection. Workflows and flows will execute when the mobile app is running online or running in **Offline First** with internet connection. The mobile app can only run online when there is no offline profile configured. When the app is running in **Offline First** with an internet connection, the user can execute workflows and flows by first saving the record; when saved, the changers are synced to the server, which triggers the workflow or flow server-side. The user can then sync the offline data manually or wait for next sync cadence (5 minutes by default) to pull down the results of the workflow or flow. 
+
+## Business rules
+
+You can create business rules and recommendations to apply form logic without writing JavaScript code or creating plugins. Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. They can be applied to main and quick create forms. 
+
+Business rules will run online, offline first with internet connection, and offline first without internet connection.
+
+## Actions
+
+With actions, you can perform operations, such as create, update, delete, assign, or perform action. Internally, an action creates a custom message. Developers refer to these actions as "messages". Each of these messages is based on actions taken on a record type. If the goal of a process is to create a record, then update it, and then assign it, there are three separate steps.
+
+Actions will only run when the app is running online.
+
 
 ## Offline JavaScript
+JavaScript web resources can be added to mobile forms and downloaded with Offline First. 
+
+JavaScript will run Online, Offline First with internet connection, and Offline First without internet connection (basically all the time).
+
+## Offline JavaScript example
 
 In some cases, an organization may want to run validation on certain field values after a technician updates an entity. For example, let's say you want to make sure the duration of a work order booking is at least two hours once a technician saves a record in the Field Service (Dynamics 365) mobile app.
 
@@ -70,8 +88,11 @@ Enter in the following code snippet:
 
 ```
 
-Ensure the web resource triggers on save of the form.
-  
+In the event handlers section, change the event from *onLoad* to *onSave* of the form.
+
+> [!div class="mx-imgBorder"]
+> ![Handler properties within the form properties.](./media/mobile-2020-workflows2.png))
+
 Save and publish customizations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

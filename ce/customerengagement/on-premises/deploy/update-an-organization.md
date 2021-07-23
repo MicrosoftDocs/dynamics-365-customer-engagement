@@ -2,7 +2,7 @@
 title: "Update an organization | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -38,9 +38,9 @@ When you update the organizations in your deployment, disabled organizations can
   
  For information about how to manage updates, see the following:  
   
--   [Windows Server Update Services](https://go.microsoft.com/fwlink/p/?LinkID=200474)  
+-   [Windows Server Update Services](/windows/deployment/deploy-whats-new)  
   
--   [Introduction to Software Updates in Configuration Manager](https://technet.microsoft.com/library/gg682168.aspx)  
+-   [Introduction to Software Updates in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg682168(v=technet.10))  
   
 ## See also  
  [Manage organizations](manage-organizations.md)   

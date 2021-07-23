@@ -4,7 +4,7 @@ description: "Contains information about the SDK for Microsoft Dynamics 365 Cust
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -35,7 +35,7 @@ To download developer tools, see [Download tools from NuGet](download-tools-nuge
 
 ## SDK assemblies
 
-The SDK assemblies are available as NuGet packages that you can directly use in your Visual Studio projects. For information about using a NuGet package in Visual Studio, see [Install and use a package in Visual Studio](https://docs.microsoft.com/nuget/quickstart/install-and-use-a-package-in-visual-studio)
+The SDK assemblies are available as NuGet packages that you can directly use in your Visual Studio projects. For information about using a NuGet package in Visual Studio, see [Install and use a package in Visual Studio](/nuget/quickstart/install-and-use-a-package-in-visual-studio)
 
 The following SDK assemblies are available:
 

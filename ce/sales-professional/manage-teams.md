@@ -2,14 +2,12 @@
 title: "Add or manage teams in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Add or manage teams in Dynamics 365 Sales Professional
@@ -36,7 +34,7 @@ In Dynamics 365 Sales Professional, a team is a group of users who share and col
     -   **Select Team Administrator**: Select the person who will do the team administration, such as adding members to or removing members from the team.
 
       > [!div class="mx-imgBorder"]
-      > ![Add New Team dialog box](media/add-new-team-dialog-box.png "Add New Team dialog box")
+      > ![Add New Team dialog box.](media/add-new-team-dialog-box.png "Add New Team dialog box")
 
 ## Add members to the team
 

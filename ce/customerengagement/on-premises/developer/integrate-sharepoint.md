@@ -4,7 +4,7 @@ description: "The SharePoint integration feature enables you to store and manage
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -47,7 +47,7 @@ search.audienceType:
 ## Reference  
  [Manage your documents using SharePoint](../admin/manage-documents-using-sharepoint.md)  
   
- [Office and SharePoint development](https://docs.microsoft.com/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio)  
+ [Office and SharePoint development](/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio)  
    
 ## Related Sections  
  [Extend Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)  

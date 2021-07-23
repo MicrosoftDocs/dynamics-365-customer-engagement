@@ -1,18 +1,15 @@
 ---
-title: "Known issues and resolutions for Dynamics 365 Channel Integration Framework | Microsoft Docs"
-description: "Learn about known issues and resolutions for Dynamics 365 Channel Integration Framework."
-author: v-sailab
-ms.author: v-sailab
+title: "Known issues for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
+description: "Learn about known issues and workarounds for Dynamics 365 Channel Integration Framework."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/12/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# Known issues and resolutions for Dynamics 365 Channel Integration Framework
+# Known issues and workarounds for Dynamics 365 Channel Integration Framework
 
 Here are some common issues that you might encounter while using Dynamics 365 Channel Integration Framework.
 
@@ -28,9 +25,6 @@ You won't be able to use the Hold, Mute, Dialer pad, and More options buttons in
 
 Providers might need a customer-less default session to show a dialer experience in the communication widget, and conversation dashboards in the application tab, and so on.  The framework doesn't support configurable default sessions for providers. However, to achieve this, they can create a session template with relevant application tabs and load the same when their widget is loaded. 
 
-## Presence synchronization between multiple providers
-
-The framework doesn't support the capability to synchronize presence across providers during the private preview. Support for this will come later.
 
 ## Form flickering when communication widget is expanded
 

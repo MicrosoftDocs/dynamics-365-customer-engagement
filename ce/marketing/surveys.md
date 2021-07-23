@@ -33,21 +33,21 @@ In the current version of Dynamics 365 Marketing, Surveys is provided as a separ
 
 Use the app-selector menu to switch between Surveys and your other Dynamics 365 apps.
 
-![The app-selector menu](media/nav-apps-surveys-ill.png "The app-selector menu")
+![The app-selector menu.](media/nav-apps-surveys-ill.png "The app-selector menu")
 
 <!-- Unlike other Dynamics 365 Marketing apps and work areas, the Surveys app provides a navigator at the top of the page rather than in a side column.
 
-![How to navigate to and around the Surveys app](media/surveys-navigation-ill.png "How to navigate to and around the Surveys app")
+![How to navigate to and around the Surveys app.](media/surveys-navigation-ill.png "How to navigate to and around the Surveys app")
 
 Go to **Customer Voice** to design your surveys. The functionality provided here is the same as that provided for other Dynamics 365 applications that include the Customer Voice feature.
 
 Go to **Marketing** to access your Dynamics 365 dashboards, activities, and customer data. This is the same data you'll find in your Marketing app and is provided here for convenience. These entities work just like they do in other Dynamics 365 applications, including Marketing.-->
 
-The Surveys app provides the same settings and options as the Customer Voice app. More information: [Customer Voice online help](https://docs.microsoft.com/dynamics365/customer-voice/create-survey)
+The Surveys app provides the same settings and options as the Customer Voice app. More information: [Customer Voice online help](/dynamics365/customer-voice/create-survey)
 
 ### See also
 
-[Create a survey](https://docs.microsoft.com/dynamics365/customer-voice/create-survey)<br>
+[Create a survey](/dynamics365/customer-voice/create-survey)<br>
 [Find your way around](navigation.md)
 
 

@@ -1,9 +1,10 @@
 ---
-title: "Use parameters in reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Use report parameters in Dynamics 365 Customer Engagement (on-premises)"
+description: "Parameters control reports by retrieving only the data requested by the user. Learn how to add parameters, including formatting and special hidden parameters."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -31,7 +32,7 @@ You use parameters in reports to control the data retrieved by prompting the use
 ## Adding parameters  
  You can add parameters to a report to define a report’s individual parameters, pass information through a query, or provide access to user settings, such as `CRM_CurrencySymbol` and `CRM_CurrencyPositivePattern` parameters.  
 
- The [\<ReportParameter>](https://technet.microsoft.com/library/ms153649(v=sql.90).aspx) is an element in the report definition (RDL) file that is used to describe an individual parameter in the report. The [\<QueryParameter>](https://technet.microsoft.com/library/ms155385(v=sql.90).aspx) contains information about an individual parameter that is passed to the data source as part of a query. The following XML code taken from the Account Summary report's RDL file demonstrates how to use the `ReportParameter` and `QueryParameter` parameters.  
+ The [\<ReportParameter>](/previous-versions/sql/sql-server-2005/ms153649(v=sql.90)) is an element in the report definition (RDL) file that is used to describe an individual parameter in the report. The [\<QueryParameter>](/previous-versions/sql/sql-server-2005/ms155385(v=sql.90)) contains information about an individual parameter that is passed to the data source as part of a query. The following XML code taken from the Account Summary report's RDL file demonstrates how to use the `ReportParameter` and `QueryParameter` parameters.  
 
 ```xml  
 <ReportParameter Name="CRM_FilteredAccount">  
@@ -123,7 +124,7 @@ You use parameters in reports to control the data retrieved by prompting the use
  You must create all parameters in a report before you can refer to them. The values of these special parameters are filled in by Customer Engagement (on-premises) when you run the report.  
 
 ### Additional format parameters  
- The following table contains additional parameters that you can use in the reports. Among them are parameters that provide access to the user Number settings information. You can use these values to format and display the numeric values. These parameters are similar to values specified in the [NumberFormatInfo Class](https://msdn.microsoft.com/library/system.globalization.numberformatinfo.aspx). Use these parameters in custom reports to format the data according to the user settings.  
+ The following table contains additional parameters that you can use in the reports. Among them are parameters that provide access to the user Number settings information. You can use these values to format and display the numeric values. These parameters are similar to values specified in the [NumberFormatInfo Class](/dotnet/api/system.globalization.numberformatinfo). Use these parameters in custom reports to format the data according to the user settings.  
 
 
 |           Parameter            |                                                   Description                                                   |

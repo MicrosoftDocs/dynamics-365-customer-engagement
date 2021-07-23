@@ -1,10 +1,10 @@
 ---
-title: "Optimize form performance | MicrosoftDocs"
+title: "Optimize form performance with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to avoid form designs that cause a form to load slowly"
 ms.custom: 
 ms.date: 01/08/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -22,8 +22,6 @@ search.audienceType:
 ---
 # Optimize form performance
 
-
-
 Forms that load slowly can reduce productivity and user adoption. Follow these recommendations to maximize how quickly your forms will load. Many of these recommendations are about how a developer may implement form scripts for your organization. Be sure to discuss these recommendations with developers who create form scripts for your forms.  
   
 <a name="BKMK_FormDesign"></a>   
@@ -38,7 +36,7 @@ Forms that load slowly can reduce productivity and user adoption. Follow these r
  When you have customizations using form scripts make sure that the developer understands these strategies to improve performance.  
  
  **Avoid using synchronous requests**
-  Synchronous requests can cause slow page loads and unresponsive forms. [Use asynchronous requests instead](https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously). See [this blog post](https://powerapps.microsoft.com/en-us/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests/) for more examples.
+  Synchronous requests can cause slow page loads and unresponsive forms. [Use asynchronous requests instead](/powerapps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously). See [this blog post](https://powerapps.microsoft.com/en-us/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests/) for more examples.
   
  **Avoid including unnecessary JavaScript web resource libraries**  
  The more scripts you add to the form, the more time it will take to download them. Usually scripts are cached in your browser after they are loaded the first time, but the performance the first time a form is viewed often creates a significant impression.  
@@ -60,7 +58,7 @@ Forms that load slowly can reduce productivity and user adoption. Follow these r
  Within the command bar or the ribbon for the form, evaluate what controls are necessary and hide any that you don’t need. Every control that is displayed increases resources that need to be downloaded to the browser. 
  
  **Use asynchronous network requests in Custom Rules**
-  When using custom rules that make network requests in Unified Interface, [use asynchronous rule evaluation](https://docs.microsoft.com/powerapps/developer/model-driven-apps/define-ribbon-enable-rules#custom-rule).
+  When using custom rules that make network requests in Unified Interface, [use asynchronous rule evaluation](/powerapps/developer/model-driven-apps/define-ribbon-enable-rules#custom-rule).
  
   
 ### See also  

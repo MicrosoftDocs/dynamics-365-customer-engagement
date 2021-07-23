@@ -1,5 +1,6 @@
 ---
-title: "Enable Office Delve| MicrosoftDocs"
+title: "Office Graph integration removal"
+description: "Office Graph integration for Dynamics 365 was removed on August 31, 2017. After this date, the Office Graph trending documents component ceased to function."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -19,12 +20,12 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# About Office Delve/Graph
+# About Office Graph removal
 
 [!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
 
 
-Office Graph integration will be removed on August 31, 2017, at the same time that [Office ends GQL query support](https://msdn.microsoft.com/office/office365/howto/query-office-graph-using-gql-with-search-rest-api). Customers can continue to use Office Graph integration through August 31, 2017. After August 31 that date, the Office Graph trending documents component will cease to function and you’ll see the following error message:
+Office Graph integration will be removed on August 31, 2017, at the same time that [Office ends GQL query support](/graph/api/resources/social-overview). Customers can continue to use Office Graph integration through August 31, 2017. After August 31 that date, the Office Graph trending documents component will cease to function and you’ll see the following error message:
 
 **We can't get to the trending documents. Try again later.**
 
@@ -36,7 +37,7 @@ To disable Office Graph:
 For more information, see the blog: [Office Graph integration removal](https://blogs.msdn.microsoft.com/crm/2017/07/31/office-graph-integration-removal/).
 
 ### See also  
- [View relevant and trending information on a dashboard with Office Delve](../basics/view-relevant-trending-information-office-delve.md)
+ [View relevant and trending information on a dashboard with Office Delve](../customerengagement/on-premises/basics/view-relevant-trending-information-office-delve.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

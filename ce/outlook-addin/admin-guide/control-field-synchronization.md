@@ -40,7 +40,7 @@ With field synchronization, admins can set the sync direction between Dynamics 3
   
 4. For the fields you want to change synchronization, choose the arrows in the Sync Direction column. Each choice will change the direction.  
   
-    ![Appointment fields for synchronization](../media/crm-itpro-appointmentfieldsync.png "Appointment fields for synchronization")  
+    ![Appointment fields for synchronization.](../media/crm-itpro-appointmentfieldsync.png "Appointment fields for synchronization")  
   
    > [!TIP]
    >  Hover over a field name to see the fields mapped to it.  
@@ -57,11 +57,11 @@ With field synchronization, admins can set the sync direction between Dynamics 3
   
  Best practice is to review the security settings for these security methods to ensure field synchronization is processes as desired. For more information see:  
   
--   Securing roles: [Create or edit a security role to manage access](../../admin/create-edit-security-role.md)
+-   Securing roles: [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role)
   
--   Securing fields: [Enable or disable security for a field](https://technet.microsoft.com/library/mt812240.aspx)  
+-   Securing fields: [Enable or disable security for a field](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt812240(v=crm.8))  
   
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Security concepts](../../admin/security-concepts.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Security concepts](/power-platform/admin/wp-security)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

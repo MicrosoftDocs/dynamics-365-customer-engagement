@@ -5,7 +5,8 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 04/15/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -41,7 +42,7 @@ In this article, we'll walk through how to set up maps and location services by 
 
 ## Get Map API key
 
-First, you'll need to generate a Bing Maps API key. For more information about getting a Bing Maps API key, [see this article](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
+First, you'll need to generate a Bing Maps API key. For more information about getting a Bing Maps API key, [see this article](/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
 
 
 1. Go to the [Bing Maps Dev Center](https://www.bingmapsportal.com/).
@@ -78,7 +79,7 @@ Once in Woodford, double-click into your active project.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the mobile configuration tool, showing the project name in a list of projects](./media/mobile-map-api-projects.png)
+> ![Screenshot of the mobile configuration tool, showing the project name in a list of projects.](./media/mobile-map-api-projects.png)
 
 From the left menu, go to **Configuration** then go to the **Integrations** tab.
 

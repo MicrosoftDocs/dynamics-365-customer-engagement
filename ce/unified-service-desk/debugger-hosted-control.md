@@ -1,29 +1,28 @@
 ---
 title: "Debugger (Hosted Control) | MicrosoftDocs"
-description: "Learn about using Debugger hosted control type in Unified Service Desk to configure a debugger control in Unified Service Desk to provide you with insights about the process and code executions in the agent application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Use this topic to get an overview of the Debugger hosted control type and the predefined UII actions associated with it."
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Debugger (Hosted Control)
-Use **Debugger** hosted control type in Unified Service Desk to configure a debugger control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to provide you with insights about the process and code executions in the agent application. All the three sample applications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] come with a preconfigured Debugger hosted control. For more information, see [Debug issues in Unified Service Desk](https://go.microsoft.com/fwlink/p/?LinkId=518149) in the Unified Service Desk Administration Guide.  
+Use **Debugger** hosted control type in Unified Service Desk to configure a debugger control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to provide you with insights about the process and code executions in the agent application. All the three sample applications in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] come with a preconfigured Debugger hosted control. For more information, see [Debug issues in Unified Service Desk](/previous-versions/dn646903(v=usd.6)) in the Unified Service Desk Administration Guide.  
   
 <a name="Create"></a>   
 ## Create a Debugger hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Debugger** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
   
- ![Debugger hosted control](../unified-service-desk/media/crm-itpro-usd-debuggerhostedcontrol.PNG "Debugger hosted control")  
+ ![Debugger hosted control.](../unified-service-desk/media/crm-itpro-usd-debuggerhostedcontrol.PNG "Debugger hosted control")  
   
  In the **New Hosted Control** screen:  
   
@@ -116,7 +115,7 @@ Use **Debugger** hosted control type in Unified Service Desk to configure a debu
 ### See also
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+ [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](/previous-versions/dynamicsusd-2/administrators-guide/dn499779(v=usd.2))
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

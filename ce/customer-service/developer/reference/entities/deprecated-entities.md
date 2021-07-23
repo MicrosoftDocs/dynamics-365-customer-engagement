@@ -1,12 +1,11 @@
 ---
 title: "Deprecated Omnichannel for Customer Service entities | Microsoft Docs"
 description: "List of Omnichannel for Customer Service entities that have been deprecated"
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 09/10/2020
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Deprecated entities
 

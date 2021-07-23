@@ -1,12 +1,9 @@
 ---
 title: "Delete Omnichannel solutions | MicrosoftDocs"
-description: "Learn how to delete an Omnichannel solution from an organization."
+description: "Perform the steps mentioned in the topic to delete an Omnichannel solution from your organization"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/08/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Delete solutions
@@ -25,7 +22,7 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
 
 3. Go to Dynamics 365 **Settings** > **Solutions**.
 
-2. On the **Solutions** page, select each solution from the list below, one at a time, in sequence, and then select **Delete**.
+4. On the **Solutions** page, select each solution from the list below, one at a time, in sequence, and then select **Delete**.
 
     1.  `ProductivityToolsAnchor`
     2.  `msdyn_OmnichannelProductivityToolsSettings`
@@ -56,15 +53,26 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
     27. `OmnichannelFacebook`
     28. `msdyn_OmnichannelBotEnablerPatch`
     29. `OmnichannelBotEnabler`
-    30. `msdyn_OmnichannelSBRPatch_managed`
-    31. `OmnichannelSBR`
-    32. `msdyn_OmnichannelBasePatch`
-    33. `OmnichannelBase`
-    34. `ScenariosAndChannels`
-    35. `msdyn_CIFrameworkPatch`
-    36. `ChannelAPIIntegrationFramework`
+    30. `UnifiedRoutingPrimeAnchor`
+    31. `msdyn_OmnichannelSBRPatch_managed`
+    32. `OmnichannelSBR`
+    33. `OCBaseURBase`
+    34. `msdyn_OmnichannelBasePatch`
+    35. `OmnichannelBase`
+    36. `MLDecisionEngine`
+    37. `UnifiedRouting`
+    38. `msdyn_UnifiedRoutingForEntity`
+    39. `DecisionEngine`
+    40. `msdynce_AnyEntityRoutingRulePatch202001_managed`
+    41. `msdynce_AnyEntityRoutingRule`
+    42. `ScenariosAndChannels`
+    43. `msdyn_CIFrameworkPatch`
+    44. `ChannelAPIIntegrationFramework`
+    45. `OmnichannelIntelligence` 
+    46. `OmnichannelConfiguration`
+    47. `msdyn_MacrosDataOmnichannel`
 
-3. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
+5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 
 After all the solutions are deleted, Omnichannel for Customer Service solutions are completely deleted from your organization.
 
@@ -85,7 +93,7 @@ The following steps describe how to delete the solution from your organization.
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**. 
 
     > [!div class=mx-imgBorder]
-    > ![Delete Omnichannel Solution](media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")  
+    > ![Delete Omnichannel Solution.](media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")  
 
 You have deleted the **OmnichannelCustomerServiceHub** solution from your organization.
 

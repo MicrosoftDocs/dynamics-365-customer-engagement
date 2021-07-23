@@ -20,6 +20,8 @@ search.app:
 ---
 # Draft and manage your fantasy teams in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 When you participate in a fantasy team game, you become a team manager who can draft your own team.  
   
 After the commissioner activates the game, you'll receive an email with instructions to sign in to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] and create your [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] profile. In a next step, you'll be asked to draft your team.  
@@ -51,7 +53,7 @@ After the commissioner activates the game, you'll receive an email with instruct
   
 1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Teams** > **Team Rosters**.  
   
-2. Select ![Edit the team roster in Gamification](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
+2. Select ![Edit the team roster in Gamification.](media/edit-team-roster-gamification.png "Edit the team roster in Gamification") in the **My Team** column to edit your team roster.  
   
    > [!NOTE]
    >  You can only change a team roster after the first game period has ended.  

@@ -30,7 +30,7 @@ Work with your data in offline mode even when you don't have internet access. Th
 If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to the app after you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
 > [!IMPORTANT]
-> This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
+> This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
 
 ## Install the mobile app
 
@@ -38,7 +38,7 @@ Mobile offline mode is currently available for iOS and Android devices. To use t
 
 ### Install Dynamics 365 phones and tablets app (for customer engagement apps in Dynamics 365 )
 
-For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing)<!--note from editor: As noted in the user-guide-mobile-app.md topic, is it okay that we don't mention Field Service and Project Service Automation? This list seems to imply that they aren't part of CE apps these days.-->, [install the Dynamics 365 phones and tablet app](install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store.md).
+For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing), [install the Dynamics 365 phones and tablet app](install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store).
 
 The following versions support mobile offline mode:
 
@@ -46,13 +46,13 @@ The following versions support mobile offline mode:
 - For Android, version 4.3.19043.33 or later
 
 > [!NOTE]
-> The offline mode feature isn't supported for Dynamics 365 Customer Engagement (on-premises). To run your on-premises apps on the mobile app, go to [Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem). 
+> The offline mode feature isn't supported for Dynamics 365 Customer Engagement (on-premises). To run your on-premises apps on the mobile app, go to [Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md). 
 
 ### Install Power Apps Mobile (for Power Apps)
 
-For model-driven apps and canvas apps, [install Power Apps Mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-power-apps-mobile-app).
+For model-driven apps and canvas apps, [install Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile#install-power-apps-mobile-app).
 
-For information about supported devices for Power Apps Mobile, go to [Supported devices](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
+For information about supported devices for Power Apps Mobile, go to [Supported devices](/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
 
 ## Download updates to work in offline mode
 
@@ -61,7 +61,7 @@ After you've installed the mobile app and your admin has [enabled mobile offline
 - When you see the dialog box that asks you to download updates to work offline, select **Download**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")  
+   > ![Download updates on your mobile device for mobile offline.](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")  
 
 Offline data starts downloading in the background. Don't close the app or disconnect from the internet until the download is complete.
 
@@ -69,12 +69,12 @@ Offline data starts downloading in the background. Don't close the app or discon
 
 If you didn't want to download offline data and selected **Skip for now**, you won't be able to use the app in offline mode until you manually download the updates:
 
-1. On the home screen, select the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map"), and then select **Offline** ![Offline](media/offline_button.png "Offline").<!--note from editor: Edited to be parallel with the user guide article.-->
+1. On the home screen, select the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map"), and then select **Offline** ![Offline](media/offline_button.png "Offline").
 
 2. On the **Offline Status** screen, select **Download offline updates**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Start offline download](media/start-offline-download.png "Start offline download")
+   > ![Start offline download.](media/start-offline-download.png "Start offline download")
 
 3. The download will start, and the status will change to **Initializing**.
 
@@ -84,7 +84,7 @@ If you didn't want to download offline data and selected **Skip for now**, you w
 4. When the download of offline data is complete, you'll get a notification that you can start working in offline mode.
 
    > [!div class="mx-imgBorder"] 
-   > ![Download updates complete](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")
+   > ![Download updates complete.](media/mobile_offline_download_updates_complete_updated.png "Download updates complete")
 
 ## See whether offline mode is available
 
@@ -93,7 +93,7 @@ When offline updates are complete, you can check to see whether mobile offline m
 - On the home screen, select the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map"), and then select **Offline** ![Offline](media/offline_button.png "Offline").
   
     > [!div class="mx-imgBorder"] 
-    > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
+    > ![Mobile offline status.](media/OfflineStatus.png "Mobile offline status")
 
 Legend:
 
@@ -118,15 +118,15 @@ When you have intermittent connectivity, we recommend that you switch to offline
 2. Turn on the **Work in offline mode** toggle.
 
    > [!div class="mx-imgBorder"] 
-   > ![Turn on the Work in offline mode toggle](media/set_offline_toggle.png "Turn on the Work in offline mode toggle") 
+   > ![Turn on the Work in offline mode toggle.](media/set_offline_toggle.png "Turn on the Work in offline mode toggle") 
 
 ## Sync conflict resolution
 
-Conflict errors can be resolved based on the settings set by your admin:<!--note from editor: Edits suggested.-->
+Conflict errors can be resolved based on the settings set by your admin:
 
 - If conflict resolution has been set to **No**, the data you upload from your client device "wins" and there will be no sync errors.
 
-- If conflict resolution has been set to **Yes**, the data on the server wins. While syncing changes to the server, you might notice that some errors have been automatically resolved.<!--note from editor: I'm not sure what this means. Are these fixed errors a separate issue from the synced changes?--> Client changes are overwritten by server values.
+- If conflict resolution has been set to **Yes**, the data on the server wins. While syncing changes to the server, you might notice that some errors have been automatically resolved. Client changes are overwritten by server values.
 
 ## Mobile offline capabilities and limitations
 

@@ -2,15 +2,13 @@
 title: "Create and manage leads in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track your potential buyers as leads in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-lead
   - D365-UI-*
@@ -35,7 +33,7 @@ When you create a lead, there are system-required fields to fill out. But other 
     The Lead form opens.
 
     > [!div class="mx-imgBorder"]
-    > ![Lead form](media/lead-form.png "Lead form")
+    > ![Lead form.](media/lead-form.png "Lead form")
 
 3.  If you’re creating the lead for new customers, enter name, contact details, and company name in the **Summary** tab of the Lead form.
 
@@ -53,7 +51,7 @@ When you create a lead, there are system-required fields to fill out. But other 
 
 4.  In the **Timeline** section, add any notes and activities (for example, phone calls or emails) related to this lead.
 
-5.  In the **Stakeholders** section, select **More Commands** ![More Commands button](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
+5.  In the **Stakeholders** section, select **More Commands** ![More Commands button.](media/more-commands-button.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
 
     In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to choose a different role such as **Decision Maker** or **Technical Buyer**.
 
@@ -86,7 +84,7 @@ Your system administrator defines what happens to a lead when it is qualified:
     If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and then select **OK**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select which records to create in the Qualify lead dialog box](../sales-enterprise/media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
+    > ![Select which records to create in the Qualify lead dialog box.](../sales-enterprise/media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
 
     If you don’t see a prompt, qualifying a lead will automatically create an account, contact, and opportunity record.
 
@@ -106,7 +104,7 @@ To qualify multiple leads at once, go to the list of lead records. Select the ch
 When qualifying a lead, if a duplicate account or contact is detected while creating new records, a “Duplicate warning ” dialog box is shown to you.
 
 > [!div class="mx-imgBorder"]
-> ![Duplicate warning while qualifying a lead](../sales-enterprise/media/lead-qualification-duplicate-warning.png "Duplicate warning while qualifying a lead")
+> ![Duplicate warning while qualifying a lead.](../sales-enterprise/media/lead-qualification-duplicate-warning.png "Duplicate warning while qualifying a lead")
 
 In the **Account** and **Contact** fields, select the matching account and contact record and select **Continue**. To ignore the duplicate warning and create new records, leave the Account and Contact fields blank, and select **Continue**.
 

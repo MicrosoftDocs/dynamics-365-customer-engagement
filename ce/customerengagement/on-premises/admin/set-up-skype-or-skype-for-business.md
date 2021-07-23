@@ -1,9 +1,10 @@
 ---
 title: "Set up Dynamics 365 for Customer Engagement apps (online) to use Skype or Skype for Business | MicrosoftDocs"
+description: "Set up Dynamics 365 for Customer Engagement apps (online) to use Skype or Skype for Business."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ ms.assetid: 657f02c5-0acf-40d8-b2b6-f0ad38c91ed6
 caps.latest.revision: 5
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Set up Dynamics 365 for Customer Engagement apps (online) to use Skype or Skype for Business
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 When you use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, your organization can benefit from these capabilities:  
   
@@ -29,17 +32,17 @@ When you use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.
   
 - Get Presence information for members of the same email domain you are signed in with in [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)].  
   
-  ![Call a contact with Skype](../admin/media/crm-itpro-crmo365tg2-kimpresence.png "Call a contact with Skype")  
+  ![Call a contact with Skype.](../admin/media/crm-itpro-crmo365tg2-kimpresence.png "Call a contact with Skype")  
   
 ## Set up Skype in Microsoft Dynamics 365 for Customer Engagement apps (online)  
   
 1. Verify that IM presence is enabled in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Go to **Settings** > **Administration** > **System Settings** > **General tab**.  
   
-   ![Set the IM presence option](../admin/media/crm-itpro-crmo365tg2-presencesetting.png "Set the IM presence option")  
+   ![Set the IM presence option.](../admin/media/crm-itpro-crmo365tg2-presencesetting.png "Set the IM presence option")  
   
 2. In **System Settings**, set the telephony provider to [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)].  
   
-   ![Select Skype or Lync as the provider](../admin/media/crm-itpro-crmo365tg2-lyncprovider.png "Select Skype or Lync as the provider")  
+   ![Select Skype or Lync as the provider.](../admin/media/crm-itpro-crmo365tg2-lyncprovider.png "Select Skype or Lync as the provider")  
   
 3. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
@@ -59,12 +62,12 @@ When you use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.
   
 6. Choose the **external communications** tab. Review and set the **external access** and public **IM connectivity** settings.  
   
-   ![Lync admin center external communications settings](../admin/media/crm-itpro-crmo365tg2-lyncsettingsexternal.png "Lync admin center external communications settings")  
+   ![Lync admin center external communications settings.](../admin/media/crm-itpro-crmo365tg2-lyncsettingsexternal.png "Lync admin center external communications settings")  
   
 ## Tracking Skype  
  Now that [!INCLUDE[pn_skype](../includes/pn-skype.md)] is setup, your [!INCLUDE[pn_skype](../includes/pn-skype.md)] calls are tracked as activities.  
   
- ![Lync calls tracked as activities](../admin/media/crm-itpro-crmo365tg2-lynctrack.png "Lync calls tracked as activities")  
+ ![Lync calls tracked as activities.](../admin/media/crm-itpro-crmo365tg2-lynctrack.png "Lync calls tracked as activities")  
   
 ### See also 
  [Skype for Business and Skype integration with Microsoft Dynamics 365 for Customer Engagement](skype-business-integration.md)   

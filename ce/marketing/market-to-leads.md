@@ -48,21 +48,21 @@ For example, to set up a segment that finds all the leads collected at a recent 
 
 1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
-    ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
+    ![Choose the tree view.](media/segment-firmographic-tree-view.png "Choose the tree view")
 
 1. Open the **Add** drop-down list under the **Contact** entity and select **Add related entity**.
 
-    ![Add a related entity](media/segment-add-related-entity.png "Add a related entity")
+    ![Add a related entity.](media/segment-add-related-entity.png "Add a related entity")
 
 1. A new related entity is added to your query. Select the field with **Select related entity** in ghost text to open a large drop-down list of available relations. Type "lead" in the field to filter the list and then select **Lead (Lead -> Contact (Parent Contact for lead))** from the drop-down list. This relation links the parent **Contact** entity to the **Lead** entity through the **Parent Contact for lead** field of the **Lead** entity. The **Parent Contact for lead** field identifies the contact that Dynamics 365 Marketing associates with each lead. More information: [Move between entities with relationships](segments-profile.md#relationships)
 
-    ![Link to leads](media/segment-leads-relation.png "Link to leads")
+    ![Link to leads.](media/segment-leads-relation.png "Link to leads")
 
 1. Open the **Add** drop-down list indented under the new related entity and select **Add row** to begin defining the collection of waitlist items you are looking for.
 
 1. In the group below the lead relationship, set up a query to find the leads you need. In the following example, we'll look for leads collected at a recent conference; each of these were assigned a **Topic** of "Contoso Ltd Conference".
 
-    ![An example lead query](media/segment-leads-clause.png "An example lead query")
+    ![An example lead query.](media/segment-leads-clause.png "An example lead query")
 
 1. Continue to add rows and groups as needed to define the collection of leads and contacts you are looking for.
 
@@ -71,7 +71,7 @@ For example, to set up a segment that finds all the leads collected at a recent 
 
     For example, the following query finds all the leads from the Contoso Ltd Conference, but then reduces the audience to only include contacts that have the role of decision maker.
 
-    ![An example query that finds decision makers associated with particular leads](media/segment-leads-contacts.png "An example query that finds decision makers associated with particular leads")
+    ![An example query that finds decision makers associated with particular leads.](media/segment-leads-contacts.png "An example query that finds decision makers associated with particular leads")
 
 1. Select the field above the query that shows **Enter segment name** as ghost text. Then type a name for your segment.
 
@@ -83,11 +83,11 @@ Segments, customer journeys, and other Dynamics 365 Marketing features require t
 
 To solve this, you can use Dynamics 365 custom workflows to automatically generate and link a contact record for each new or existing unmatched lead record. To create the link, populate the `parentcontactid` field of each lead record with the GUID of the relevant contact record (this field is labelled as **Parent contact for lead** when you're designing a workflow in the UI). This field connects to the contact record through an N:1 relation called `lead_parent_contact`.
 
-For more information about workflows, start with the [Classic Dataverse workflows](https://docs.microsoft.com/flow/workflow-processes).
+For more information about workflows, start with the [Classic Dataverse workflows](/flow/workflow-processes).
 
 Also, any user can manually select or create a contact for a lead by using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process on the lead record.
 
-![Manually link a lead to a contact record](media/leads-related-contact.png "Manually link a lead to a contact record")
+![Manually link a lead to a contact record.](media/leads-related-contact.png "Manually link a lead to a contact record")
 
 ## Keep automatically generated contacts from confusing users
 

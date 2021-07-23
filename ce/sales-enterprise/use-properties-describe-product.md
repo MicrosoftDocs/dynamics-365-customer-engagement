@@ -2,14 +2,12 @@
 title: "Use properties to describe a product (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Simplify product management and classification by adding product properties in Dynamics 365 Sales."
 ms.date: 02/10/2021
-ms.service: 
-  - "dynamics-365-sales"
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Use properties to describe a product (Sales Hub)
@@ -25,14 +23,14 @@ A property of a product could be its size, color, component, and so on. You can 
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]
 
-2. Select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.
+2. Select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.
 
 3. Open the product, bundle, or family you want to add the properties for.
 
 3. On the **Product Properties** tab, select **Add New Property**.
 
     > [!div class="mx-imgBorder"]
-    > ![Add new properties to a product family](media/add-new-properties.png "Add new properties to a product family")
+    > ![Add new properties to a product family.](media/add-new-properties.png "Add new properties to a product family")
 
 4. In the **Property** form, on the **Summary** tab, enter the name of the property, and set other fields, as required.
 
@@ -63,7 +61,7 @@ You can make changes to the inherited properties of an individual product or fam
 2. On the **Product Properties** tab, open the property you want to override. 
 
    > [!div class="mx-imgBorder"]
-   > ![Override property of a product](media/override-property.png "Override property of a product")
+   > ![Override property of a product.](media/override-property.png "Override property of a product")
 
 3. In the **Product Properties** form, select **Override**.  
 
@@ -89,7 +87,7 @@ When you revise a product and change the properties, [!INCLUDE[pn-dyn-365-sales]
 
 ### See also  
  [Set up a product catalog](set-up-product-catalog-walkthrough.md)   
- [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)   
+ [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)   
  [Create a product family](../sales-enterprise/create-product-family.md)
 
 

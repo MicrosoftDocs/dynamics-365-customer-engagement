@@ -4,7 +4,7 @@ description: "SolutionPackager is a tool that can reversibly decompose a Dynamic
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,6 +20,8 @@ search.audienceType:
 
 ---
 # Use the SolutionPackager tool to compress and extract a solution file
+
+*This topic applies to Dynamics 365 Customer Engagement (on-premises). For the Power Apps version of this topic, see: [SolutionPackager tool](/power-platform/alm/solution-packager-tool)*
 
 SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer Engagement (on-premises) compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system. The following sections show you how to run the tool and how to use the tool with managed and unmanaged solutions.  
   
@@ -239,8 +241,6 @@ SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer
 ### See also  
  [Solution Tools for Team Development](solution-tools-team-development.md)   
  [Use Source Control with Solution Files](use-source-control-solution-files.md)   
- [Solution Component File Reference](solution-component-file-reference-solutionpackager.md)   
  [Introduction to Solutions](introduction-solutions.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,11 +1,9 @@
 ---
 title: "Set up service task types (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set up service task types in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -41,7 +39,7 @@ Service task types in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365
  [Create work order types](../field-service/create-work-order-types.md)   
  [Create a work order](../field-service/create-work-order.md)   
  [Set priorities](../field-service/set-priorities.md)   
- [Set up work order substatuses](../field-service/set-up-work-order-sub-statuses.md)   
+ [Set up work order substatuses](./work-order-status-booking-status.md)   
  [Set up time groups](../field-service/set-up-time-groups.md)<br>
  [User's Guide](../field-service/user-guide.md) 
 

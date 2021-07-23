@@ -39,7 +39,7 @@ Automatic lead scoring only works for leads that are associated with a parent co
 
 For leads generated or updated by marketing forms configured to update both leads and contacts, the marketing form always finds or creates the records required to establish the lead/contact pair (but not all form configurations do this, as explained in the following section). Also, any user can manually associate a lead with a parent contact or parent account by opening the lead record and using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process. Here, the relevant fields are labeled **Existing contact?** and **Existing account?**, respectively.
 
-![Manually link a lead to a contact record](media/leads-related-contact.png "Manually link a lead to a contact record")
+![Manually link a lead to a contact record.](media/leads-related-contact.png "Manually link a lead to a contact record")
 
 In the database itself, the **Parent Contact for lead** lookup field of the lead entity identifies the associated contact, and the **Parent Account for lead** lookup field identifies the associated account. These are the same fields set by **Existing contact?** and **Existing account?** input fields of the **Lead to opportunity marketing sales process** business process. 
 
@@ -72,7 +72,7 @@ You can create as many scoring models as you want. If you have more than one mod
 
 To view, edit, and create lead-scoring models, go to **Marketing** > **Lead management** > **Scoring models**. This opens a standard list view, where you can create, delete, search, sort, or filter items in the list. Select any item in the list to open it, or select **New** to create a new one.
 
-![The lead-scoring model designer](media/lead-score-designer.png "The lead-scoring model designer")
+![The lead-scoring model designer.](media/lead-score-designer.png "The lead-scoring model designer")
 
 You'll spend most of your time working on the **Design** tab, which opens when you first open or create the model. This is where you define the model's logic by dragging tiles from the **Toolbox** tab to the canvas to construct one or more condition/action tile pairs. Each pair starts with a **Condition** tile, which establishes a rule (such as email clicked) and ends with an **Action**, which defines how the score should be adjusted when the condition is met. Your model can include any number of condition/action pairs.
 
@@ -96,7 +96,7 @@ More information: [Account-based marketing](account-based-marketing.md)
 
 The condition tile is a compound tile, which includes both parent and child tiles. When you add a condition, both the parent and one child are created. Use the expand/collapse button at the lower-right corner of the tile to show or hide the child tiles.
 
-![An expanded condition tile with one child](media/lead-score-condition.png "An expanded condition tile with one child")
+![An expanded condition tile with one child.](media/lead-score-condition.png "An expanded condition tile with one child")
 
 The parent condition tile just gives the condition group a name. Select the parent and open the **Properties** tab to assign the name. You can assign as many child conditions as you need by dragging additional condition tiles onto the parent.
 
@@ -105,7 +105,7 @@ The parent condition tile just gives the condition group a name. Select the pare
 
 The logic for the condition is contained in the child tile(s). Choose a child condition tile and open the **Properties** tab to establish the logic.
 
-![Condition tile settings](media/lead-score-logic.png "Condition tile settings")
+![Condition tile settings.](media/lead-score-logic.png "Condition tile settings")
 
 Set up the logic for a condition tile by making the following settings:
 
@@ -119,7 +119,7 @@ Set up the logic for a condition tile by making the following settings:
     > All expressions belonging to the same condition are combined using an AND operator, which means that all expressions must evaluate to TRUE for the overall condition to be true. To score for all qualifying occurrences (for example, to score for any email open, regardless of message or journey) remove all expressions using their close box (including the expression added by default).
 
     > [!IMPORTANT]
-    > [Calculated and rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/calculated-rollup-attributes) cannot be used in expressions.
+    > [Calculated and rollup fields](../customerengagement/on-premises/developer/calculated-rollup-attributes.md) cannot be used in expressions.
 
 There are two categories of conditions:
 
@@ -134,7 +134,7 @@ The action tile that comes after a condition tile controls how a lead's score wi
 
 The canvas provides an easy, graphical way to assemble your scoring rules, but it leaves most settings hidden until you open a tile's **Properties**. To get a quick overview of all your logic, set the **View** drop-down list (above the canvas) to **Text**. This shows you a compact, text-based view of your rules, expressed in a way that's similar to an actual database query.
 
-![Text view of a lead-scoring model](media/lead-score-text-view.png "Text view of a lead-scoring model")
+![Text view of a lead-scoring model.](media/lead-score-text-view.png "Text view of a lead-scoring model")
 
 ### Establish grades and the sales-ready score
 
@@ -144,7 +144,7 @@ When a score reaches the sales-ready threshold, a plug-in automatically sets the
 
 The grades and sales-ready score apply to the entire model, regardless of how many conditions it contains. To set them, open the **Grades** tab next to the canvas.
 
-![Grades and sales-ready score](media/lead-score-grades.png "Grades and sales-ready score")
+![Grades and sales-ready score.](media/lead-score-grades.png "Grades and sales-ready score")
 
 Enter an integer in the **Sales Ready Score** field to set the sales-ready score.
 
@@ -157,13 +157,13 @@ To add an additional grade, select **New**, which adds a new section to the tab,
 When you are setting up a condition tile for lead scoring, you can set up the **Entity** you are testing to include traversals across interactions and profiles by using a _dot notation_, where each hop is separated by a period. For example, you could start with an interaction such as _EmailClicked_ and traverse to the associated _Contact_ profile, and then test for values from the contact profile. Here's an example of how to set this up:
 
 1. Open the **Properties** for a **Condition** tile. Then set the **Entity** to **EmailClicked**.  
-    ![Choose the first entity in the hop](media/lead-scoring-hop-example-1.png "Choose the first entity in the hop")
+    ![Choose the first entity in the hop.](media/lead-scoring-hop-example-1.png "Choose the first entity in the hop")
 
 1. In the **Entity** field, type a period after the **EmailClicked** entity you just added to open a new drop-down list that shows the various types of hops you can make from here. Choose **Contact** to hop to the contact profile.  
-    ![Add a period to create a hop to a second entity](media/lead-scoring-hop-example-2.png "Add a period to create a hop to a second entity")
+    ![Add a period to create a hop to a second entity.](media/lead-scoring-hop-example-2.png "Add a period to create a hop to a second entity")
 
 1. Now you can add **Expressions** to specify values that come from the contact record associated with each email click. For example, you might only want to score on clicks for contacts that live in Chicago.  
-    ![Add a condition for the final entity in the chain](media/lead-scoring-hop-example-3.png "Add a condition for the final entity in the chain")
+    ![Add a condition for the final entity in the chain.](media/lead-scoring-hop-example-3.png "Add a condition for the final entity in the chain")
 
 > [!NOTE]
 > You can establish up to five hops by using this technique.
@@ -182,7 +182,7 @@ To find all the leads that a selected model has scored:
 
 1. Select the **Related** tab to open a drop-down list of related entities and then select **Lead scores** from the list.
 
-    ![Open related lead scores](media/lead-score-related.png "Open related lead scores")
+    ![Open related lead scores.](media/lead-score-related.png "Open related lead scores")
 
 1. A new **Lead scores** tab is added and opened. Here you can see each lead that your selected model has scored, plus the score and grade for each of them. You can select any listed lead to open it, or select **Export lead scores** to download the list as an Excel file.
 

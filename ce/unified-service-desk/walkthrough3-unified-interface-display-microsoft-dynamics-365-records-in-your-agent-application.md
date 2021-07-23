@@ -1,12 +1,11 @@
 ---
-title: "Walkthrough 3  Display records in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display Unified Interface apps records in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough 3: Display model-driven app records for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying model-driven app records for Unified Interface apps. "
 ms.date: 06/25/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -316,11 +315,11 @@ This walkthrough demonstrates how to display model-driven app records in your ag
 
  Your agent application will now have a **SEARCH** button in the toolbar area with two child buttons (**Account** and **Contact**) that are displayed on selecting the down arrow.  
 
- ![Display account and contact records](../unified-service-desk/media/crm-itpro-usd-wt03-12.png "Display account and contact records")  
+ ![Display account and contact records.](../unified-service-desk/media/crm-itpro-usd-wt03-12.png "Display account and contact records")  
 
  Select **Account** or **Contact** under the **SEARCH** button to display the respective records from your instance in separate tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.  
 
- ![Contact records displayed](../unified-service-desk/media/crm-itpro-usd-wt03-13-unified-interface.png "Contact records displayed")  
+ ![Contact records displayed.](../unified-service-desk/media/crm-itpro-usd-wt03-13-unified-interface.png "Contact records displayed")  
 
 <a name="Conclusion"></a>   
 ## Conclusion  

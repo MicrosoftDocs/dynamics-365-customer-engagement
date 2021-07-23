@@ -1,13 +1,11 @@
 ---
 title: "Location auditing for the Dynamics 365 Field Service mobile app | MicrosoftDocs"
 description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 01/07/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.suite: ""
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -47,7 +45,7 @@ In Field Service, go to **Geolocation Settings**.
 
 1. Set **Enable Location Tracking**  to *Yes*.
 2. Enter a **Refresh Interval (seconds)** - indicates how frequently the system checks the user’s location; however, it doesn’t indicate that “Geolocation Tracking” records will be created. 60 to 300 seconds is recommended based on your business needs.
-3. Configure tracking times to meet your business needs. In the screenshot example, we have it configured so that tracking happens 24 hours a day, every day.
+3. Configure tracking times to meet your business needs. In the screenshot example, we have it configured so that tracking happens 24 hours a day, every weekday.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service, showing the geolocation settings.](./media/mobile-location-geolocation-settings.png)
@@ -57,7 +55,7 @@ In Field Service, go to **Geolocation Settings**.
 The geolocation tracking records will be created in the following scenarios:
 
 1. **On sign-in** - When a user signs in to the Field Service mobile app, geolocation tracking records are created as the system figures out where the user is, and then it stops when the user stops moving. 
-2. **On move** - If the user moves away from their location more than 800 meters, it will create tracking records every 60 seconds (or your custom refresh interval) until they stop moving.
+2. **On move** - If the user moves away from their location more than 200 meters, it will create tracking records every 60 seconds (or your custom refresh interval) until they stop moving.
 3. **On stop after moving** - When the user comes to a still position after moving, it will create a few more tracking records as it settles and then it stops, before creating new records when location changes again.
 
 The above events only apply within the tracking start and end times and the location checking frequency is per the “Refresh Interval.”
@@ -83,7 +81,7 @@ Back in Dynamics 365 Field Service, the bookable resource's current location app
 By using the **Geolocation Tracking** record type and advanced find in Field Service, you can query to run audits on technician locations.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of advanced find in Field Service](./media/mobile-location-geolocation-tracking-entity-advance-find.png)
+> ![Screenshot of advanced find in Field Service.](./media/mobile-location-geolocation-tracking-entity-advance-find.png)
 
 Here you see a list of locations throughout the day, listed by user.
 
@@ -91,7 +89,7 @@ Here you see a list of locations throughout the day, listed by user.
 > ![Screenshot of advanced find in Field Service, showing a location audit for one user.](./media/mobile-location-geolocation-tracking-results.png)
 
 > [!Note]
-> If you want to correlate technician location with other Field Service record type updates, such as booking resource bookings, go to this [auditing overview](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).  
+> If you want to correlate technician location with other Field Service record type updates, such as booking resource bookings, go to this [auditing overview](/power-platform/admin/audit-data-user-activity).  
 
 ## Additional notes
 
@@ -99,7 +97,7 @@ Here you see a list of locations throughout the day, listed by user.
 > Dispatchers can use current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. See more details in the topic on [Advanced filters for the schedule assistant](schedule-assistant-advanced-filters.md).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of real time mode schedule assistant setting](./media/mobile-geofence-real-time-location-filter.png)
+> ![Screenshot of real time mode schedule assistant setting.](./media/mobile-geofence-real-time-location-filter.png)
 
 ### See also
 

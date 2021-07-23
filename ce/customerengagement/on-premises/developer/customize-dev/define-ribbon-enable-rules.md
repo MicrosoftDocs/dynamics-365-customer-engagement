@@ -4,7 +4,7 @@ description: "Learn about defining specific rules to control when the ribbon ele
 ms.custom: 
 ms.date: 02/08/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -72,9 +72,10 @@ Uses the  `<CrmClientTypeRule>` element to allow definition of rules depending o
  Uses the `<CustomRule>` element. Use this kind of rule to call a function in a JavaScript library that returns a Promise (Unified Interface) or boolean (Unified Interface and web client).
 
 ```JavaScript
-function EnableRule()
+function EnableRule(executionContext)
 {
-    const value = Xrm.Page.getAttribute("field1").getValue();
+    var formContext = executionContext.getFormContext();
+    const value = formContext.getAttribute("column1").getValue();
     return value === "Active";
 }
 ```

@@ -4,7 +4,7 @@ description: "For an on-premises deployment, you can use the deployment web serv
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -22,7 +22,7 @@ search.audienceType:
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
-For information regarding the use of the deployment web service, see the version of this topic for the previous release which supports on-premises deployments: [Administer the deployment using the deployment web service](https://msdn.microsoft.com/library/gg327886.aspx).
+For information regarding the use of the deployment web service, see the version of this topic for the previous release which supports on-premises deployments: [Administer the deployment using the deployment web service](/previous-versions/dynamicscrm-2016/developers-guide/gg327886(v=crm.8)).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

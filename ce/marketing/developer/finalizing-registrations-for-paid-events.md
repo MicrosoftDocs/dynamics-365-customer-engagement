@@ -18,12 +18,12 @@ search.app:
 
 # Finalizing registration for paid events
 
-This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 Marketing and triggers a custom action that finalizes the registration process for paid events. Before going through the topic, make sure that you read and understand [Set up online payments for events](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
+This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 Marketing and triggers a custom action that finalizes the registration process for paid events. Before going through the topic, make sure that you read and understand [Set up online payments for events](/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
 
-In this topic, we use [OAuth]( https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the service that finalize the paid registrations. 
+In this topic, we use [OAuth]( https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the service that finalize the paid registrations. 
 
 > [!NOTE]
-> If you choose to use .NET Framework for developing your service, you can use the XRM tooling library to authenticate and connect to the organization service. This library makes it more convenient to communicate with Dynamics 365 Marketing. More information: [Authenticate with .NET Framework applications](https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-dot-net-framework) 
+> If you choose to use .NET Framework for developing your service, you can use the XRM tooling library to authenticate and connect to the organization service. This library makes it more convenient to communicate with Dynamics 365 Marketing. More information: [Authenticate with .NET Framework applications](/powerapps/developer/common-data-service/authenticate-dot-net-framework) 
  
 ## Prerequisites 
 
@@ -38,7 +38,7 @@ In this topic, we use [OAuth]( https://docs.microsoft.com/powerapps/developer/co
  
 ## Step 1: Register your application 
 
-Before we start to authenticate against Dynamics 365 Marketing, we need to register the application in the **Azure Active Directory** to get the authentication credentials. More information: [How to register an application in Azure Active Directory](https://docs.microsoft.com/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication) 
+Before we start to authenticate against Dynamics 365 Marketing, we need to register the application in the **Azure Active Directory** to get the authentication credentials. More information: [How to register an application in Azure Active Directory](/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication) 
 
 Follow these steps to register your application:
 
@@ -46,34 +46,34 @@ Follow these steps to register your application:
 
 1. Navigate to **Azure Active Directory**, select **App registrations**, and then select **New registration**. 
 
-    ![Azure app registration](../media/azure-app-registration.png "Azure app registration")
+    ![Azure app registration.](../media/azure-app-registration.png "Azure app registration")
  
 1. Enter a name for your application. Select the **Accounts in any organizational directory** option in the **Supported account types** section. You don’t need to add a redirect URI. 
  
-    ![Supported account types](../media/supported-account-types.png "Supported account types")
+    ![Supported account types.](../media/supported-account-types.png "Supported account types")
 
 1. Select **Register**. 
 1. After the application is registered, you should be redirected to the **Overview** page. Look for the **application ID** and **tenant ID** values and save them. 
 
 1. Navigate to **Certificates & secrets** and select **New client secret**. Make note of the client secret value.  
 
-    ![Certificates and secrets](../media/certificates-and-secrets.png "Certificates and secrets")
+    ![Certificates and secrets.](../media/certificates-and-secrets.png "Certificates and secrets")
 
 ## Step 2: Create an application user 
 
-In this step, create an application user and associate the application user with the created application. More information: [Application user creation](https://docs.microsoft.com/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication#application-user-creation) 
+In this step, create an application user and associate the application user with the created application. More information: [Application user creation](/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication#application-user-creation) 
 
 1. Go to your Dynamics 365 Marketing instance and navigate to **Settings** > **Security** and then select **Users**. 
  
-    ![Select users](../media/settings-secuirty-users.png "Select users")
+    ![Select users.](../media/settings-secuirty-users.png "Select users")
 
 1. Switch the view to **Application Users** and select **New**. 
 
-    ![Application user form](../media/application-user-form.png "Application user form")
+    ![Application user form.](../media/application-user-form.png "Application user form")
 
 1. Make sure the **User: Application User** view is selected. If not, select the drop-down arrow, select **Application User**, and then enter the **User Name**, **Application ID**, **Full Name** and **Primary Email** values.
 
-   ![Application user form sample](../media/application-user-form-sample.png "Application user form sample")
+   ![Application user form sample.](../media/application-user-form-sample.png "Application user form sample")
 
 1. Select **Save**. After you save the record, the **Application ID URI** and **Azure AD Object ID** values should be automatically filled. If not, make sure that you entered the correct application ID and that you registered your application correctly. 
 
@@ -179,7 +179,7 @@ The next step is to assign the required security roles to the application user. 
 Implement the custom logic to authenticate against Dynamics 365 Marketing. The outcome of the authentication should be an access token. If you’re not able to retrieve an access token, check your configuration. 
 
 > [!NOTE] 
-> For a fully working example, check the code from the [Sample Code](#sample-code) section. More information: [Authenticate using OAuth](https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth#use-the-accesstoken-with-your-requests)
+> For a fully working example, check the code from the [Sample Code](#sample-code) section. More information: [Authenticate using OAuth](/powerapps/developer/common-data-service/authenticate-oauth#use-the-accesstoken-with-your-requests)
 
 ```csharp
 public static string AuthenticateToDynamics365()
@@ -198,7 +198,7 @@ public static string AuthenticateToDynamics365()
 After the access token is successfully retrieved, we can call the custom action `msevtmgt_FinalizeExternalRegistrationRequest`. 
 
 >[!NOTE]
-> If you’re using a solution version prior to the April 2019 release, the custom action is called `adx_FinalizeExternalRegistrationRequest` (different prefix). More information: [Calling custom actions with Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+> If you’re using a solution version prior to the April 2019 release, the custom action is called `adx_FinalizeExternalRegistrationRequest` (different prefix). More information: [Calling custom actions with Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ```csharp 
 private static HttpResponseMessage FinalizeRegistration(string accessToken)

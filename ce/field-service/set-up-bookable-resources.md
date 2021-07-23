@@ -1,15 +1,13 @@
 ---
 title: "Set up bookable resources (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 11/30/2020
+ms.date: 04/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
+author: xonatia
+ms.author: xolee
+manager: hegate
 search.app: 
   - D365CE
   - D365FS
@@ -28,20 +26,26 @@ Each resource can have different attributes that distinguish it from others, inc
 - Location (for example: Location Agnostic)
 - Resource Type (for example: User)
 
-In this article, we will walk through how to create a bookable resource and add details to distinguish it from other resources. We will also explore some common details for setting up field technician resources for Field Service organizations.
+In this article, we will walk through how to create a bookable resource and add details to distinguish it from other resources. We will also explore some common details for setting up field technician resources for Dynamics 365 Field Service organizations.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yg5v]
 
 > [!Note]
-> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
+> For additional Dynamics 365 Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
 
 
 ## Prerequisites
 
-- Any version of Field Service
-- You must be logged in as a user with **Field Service - Administrator** or **System Administrator** security roles
+- Any version of Dynamics 365 Field Service.
+- You must be logged in as a user with **Field Service - Administrator** or **System Administrator** security roles.
 
-## Create a bookable resource  
+## Quickly set up frontline workers to get started
+
+At its simplest, frontline workers are people in your organization who are primarily scheduled for onsite jobs, and who use the Dynamics 365 Field Service mobile app to view and update the details of their work orders. 
+
+To quickly create frontline workers refer to the topic on [setting up frontline workers](frontline-worker-set-up.md).
+
+## Create frontline workers and other bookable resources manually
   
 1.  From the Field Service main menu, select **Resources** > **Resources entity**. 
 
@@ -49,17 +53,17 @@ In this article, we will walk through how to create a bookable resource and add 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot navigating to Resources](media/resource-create-new-navigation.png)
+> ![Screenshot of active bookable resources, showing the "+New" option.](./media/quiickstart-new-bookable-resource.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the Active Bookable Resources grid](media/qs-1-img28.png)
+> ![Screenshot of a new bookable resource in Field Service.](./media/quickstart-new-bookable-resource-complete.png)
 
     
 3.  Select a **Resource Type**. 
   
   Resource type is a classification that describes who or what the resource is and how the resource relates to your organization. 
 
-   - **User**: Choose this option if the resource is a person and a member of your organization. This resource type must be chosen if the resource is a field technician who needs access to the Field Service Mobile app.
+   - **User**: Choose this option if the resource is a person and a member of your organization. This resource type must be chosen if the resource is a frontline worker who needs access to the Field Service mobile app. Note: The related user must have **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. For more information, learn more about [frontline worker setup](frontline-worker-set-up.md#view-and-update-the-details-of-individual-frontline-workers-on-the-bookable-resource-form).
    - **Account** or **Contact**: Choose this option if the resource is not directly a part of your organization, but needs to be scheduled. A common example is subcontractors. This also allows the scheduling framework to more easily apply to an organization's existing Dynamics system that may be using accounts and contacts to manage workers, partners, and contractors before Field Service is purchased and implemented. 
   - **Equipment**: Choose this option if the resource is a piece of equipment, tool, or machine that must be scheduled.
   - **Crew**: Choose this option as the first step to create a crew to assemble a group of resources where scheduling the crew resource will schedule all crew members. A typical example has two or more people or a person and a vehicle. The general process is to create a crew header resource with the resource type of crew, and then add other resources of resource type user, account, or equipment as resource children to the crew header. For more information, see our article on [resource crews](resource-crews.md).
@@ -76,7 +80,7 @@ In this article, we will walk through how to create a bookable resource and add 
 
 6. **Start/End Location**: Decide where the resource starts and ends their working day for scheduling and routing purposes.
    - **Location agnostic** - select this option if the location of this resource is not required for the business need and does not need to be considered during the scheduling process. If the work location of a requirement is set to **On site**, location agnostic resources will not return in results. 
-   - **Resource Address** - select this option if the resource starts and ends their day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. See the configuration considerations section in this article for an example of how resource type and start/end location work together. Be sure that you [connect to maps and turn on geo coding](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment. 
+   - **Resource Address** - select this option if the resource starts and ends their day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. See the configuration considerations section in this article for an example of how resource type and start/end location work together. Be sure that you [connect to maps and turn on geo coding](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment. 
    - **Organizational Unit** - select this option if the resource starts and ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there is a lookup field on the bookable resource form. If the resource is of type facility, the organizational unit acts as the location of the facility.
 7. **Organizational Unit**: Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, or the location where the resource starts and ends their day. 
 8. **Display On Schedule Board**: This determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board or manually selected.
@@ -85,13 +89,12 @@ In this article, we will walk through how to create a bookable resource and add 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of scheduling tab on resource form](media/resource-scheduling-tab.png)
+> ![Screenshot of scheduling tab on resource form.](media/resource-scheduling-tab.png)
 
 10. **Hourly Rate**: Enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It is used by schedule journals to calculate pay for time worked.
 11. **Warehouse**:  Select the default warehouse from which the resource will get their parts. 
 12. **Time Off Approval Required**: Choose this if time off needs to be approved or not. If set to **No**, then a time-off request record will block time on the schedule board and show as nonworking hours for that resource. If set to **yes**, the same result will occur once the time-off request is approved. 
 13. **Enable Drip Scheduling**: This controls how many bookings can appear on the Field Service Mobile app at one time. Set to **No** to allow all bookings for a resource to display  based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip**, where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed), more bookings will appear in the bookings tab of the Field Service Mobile app.
-14. **Enabled for Field Service Mobile**: Set to **Yes** if the resource will need to use the Field Service Mobile (Xamarin) app on their phone or tablet. Leave as "No" if the resource will only use the Field Service (Dynamics 365) mobile app. 
 
 **Save** the record.  
   
@@ -110,7 +113,7 @@ In the web interface (Field Service v7.x or earlier), select the arrow next to t
 In the unified client interface (Field Service v8.x or later), select **Show Working Hours** at the top of the form. 
 
  > [!div class="mx-imgBorder"]
-> ![Screenshot of work hours tab on a bookable resource](./media/resource-work-hours-new-navigate.png)
+> ![Screenshot of work hours tab on a bookable resource.](./media/resource-work-hours-new-navigate.png)
 
 In Field Service **v8.8.14** or later the work hours are displayed directly in the form.
 
@@ -118,24 +121,37 @@ In Field Service **v8.8.14** or later the work hours are displayed directly in t
 Select **+New** > **Working hours**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new work hours dropdown](./media/resource-work-hours-new-working-hours.png)
+> ![Screenshot of the new work hours dropdown.](./media/resource-work-hours-new-working-hours.png)
 
 Choosing the beginning and end time of working hours, along with a repeat option such as "every day."
 
 Then **Save**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the working hours, with emphasis on the repeat feature](./media/resource-work-hours-new-hours.png)
+> ![Screenshot of the working hours, with emphasis on the repeat feature.](./media/resource-work-hours-new-hours.png)
 
 This will update the working hours calendar.
 
 You can edit or delete the working hours bu double-clicking the time slot on the calendar. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work hours on a bookable resource](./media/resource-work-hours-new-edit.png) 
+> ![Screenshot of work hours on a bookable resource.](./media/resource-work-hours-new-edit.png) 
 
 > [!Note]
 > Whether setting the working hours for a day or longer, make sure the time zone reflects where the resource is located, which is configured on the resource form.
+
+In Field Service versions **v8.8.40** or later, you can use a new custom input for recurring working hours, where resources can have different working hours on different days of the week, which will recur until a selected end day. You can add breaks or split the resource's work hours into different capacities, as needed.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of custom work hours on a bookable resource.](./media/Resource-Work-Hours-Custom.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of custom work hours on a bookable resource with different work hours on different days of a week.](./media/Resource-Work-Hours-Custom-01.png)
+
+You can add breaks or split a resource's work hours into different capacities for each day of the week, as needed for your business. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of custom work hours on a bookable resource with different capacity on a day.](./media/Resource-Work-Hours-Custom-02.png)
 
 In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-down list and choose one of the following as seen in the following screenshot:  
   
@@ -146,27 +162,11 @@ In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-do
   - **Time Off**: Set the dates and times the resources can't work. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of setting working hours and timezone](media/resource-working-hours-timezone.png)
+> ![Screenshot of setting working hours and timezone.](media/resource-working-hours-timezone.png)
  
-## Set up technician resources
 
-At its simplest, a field technician is a mobile worker at your organization who uses the Field Service Mobile app on their mobile device to see Field Service entities like work orders.
 
-A bookable resource that represents a field technician must have:
-1. **Resource Type** set to **User**
-2. **Enabled for Field Service Mobile** set to **Yes**
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
-
-Other fields important for field technicians in field service scenarios are:
-
-- **Start/End Location**: where the resource starts and ends their day is factored into schedule work order requirements to the closest field technician.
-- **Display On Schedule Board**: displaying a field technician resource on the schedule board is crucial for enabling dispatchers to manage their schedules.
-- **Enable for Availability Search**: the schedule assistant is a dispatcher's best way to assign field technicians to work orders. 
-- **Warehouse**: this connects a field technician to a warehouse (typically the truck) to consume inventory on work orders. 
-
-In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Fields may need to be added to the bookable resource form. For more information, see the article on [enabling location tracking](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
+In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Fields may need to be added to the bookable resource form. For more information, see the article on [enabling location tracking](/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
 
 
 ## Add characteristics, territories, and categories 
@@ -175,7 +175,7 @@ The most common attributes that distinguish resources are characteristics, terri
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find related entities on the Bookable Resource form](media/resource-add-related-details.png)
+> ![Screenshot showing where to find related entities on the Bookable Resource form.](media/resource-add-related-details.png)
 
 
 ### Add characteristics 
@@ -230,7 +230,7 @@ Setting to yes does not mean requirements will automatically be scheduled to thi
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of enabling rso for a resource](media/resource-enable-rso.png)
+> ![Screenshot of enabling rso for a resource.](media/resource-enable-rso.png)
 
 ## Geolocate resources
 
@@ -282,14 +282,14 @@ Resource type and the start and end location of **resource address** work togeth
 For example, the following screenshot shows a bookable resource with resource type of **Contact** and a lookup to a contact record. Not shown is the start/end location field set to resource address.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource with resource type of contact](media/resource-type-contact.png)
+> ![Screenshot of resource with resource type of contact.](media/resource-type-contact.png)
 
 After going to the related contact record, you can add an address and then select the geo code button to populate latitude and longitude values that are used as the resource's start and end location for scheduling and routing purposes. This is also the resource's location displayed on the schedule board map.
 
 The process is similar for resources with resource type of Account or User. **Editing a user record address may have to be done in the Microsoft 365 admin center.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of geo coding a contact record](media/resource-contact-location-example.png)
+> ![Screenshot of geo coding a contact record.](media/resource-contact-location-example.png)
 
 ## Additional notes
 

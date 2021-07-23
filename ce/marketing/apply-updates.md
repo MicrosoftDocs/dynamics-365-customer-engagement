@@ -1,7 +1,7 @@
 ---
 title: "Find and apply updates to core and shared solutions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find out when an update for one or more Dynamics 365 Marketing solutions is available and apply the update."
-ms.date: 09/19/2020
+ms.date: 04/12/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -37,7 +37,7 @@ When you install Dynamics 365 Marketing, all its solutions are installed by the 
 
 ## Find out when new updates are available
 
-Microsoft releases updates to Dynamics 365 Marketing every month or so, with a major refresh every six months. We announce monthly updates (and other news) in the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) page, where we also summarize all the new features and bug fixes included with each release. Future directions and major releases are described on the [Dynamics 365 and Power Platform Release Plans](https://docs.microsoft.com/business-applications-release-notes/index) website.
+Microsoft releases updates to Dynamics 365 Marketing every month or so, with a major refresh every six months. We announce monthly updates (and other news) in the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) page, where we also summarize all the new features and bug fixes included with each release. Future directions and major releases are described on the [Dynamics 365 and Power Platform Release Plans](/business-applications-release-notes/index) website.
 
 You can also find out when an update is available by checking the status of your apps and solutions in the Marketing settings, as described in the following sections.
 
@@ -47,15 +47,13 @@ Dynamics 365 Marketing includes several solutions and services, each of which ha
 
 1. Select the area picker in the lower left, then select **Settings**.
 
-    ![Select Settings in the area picker](media/apply-updates-settings2.png "Select Settings in the area picker")
+    ![Select Settings in the area picker.](media/apply-updates-settings2.png "Select Settings in the area picker")
 
-1. Select **Advanced settings** in left pane, then select **Go to quick setup** in the upper right.
+1. The **Settings overview** page will open. Go to **Overview** > **Versions**.
 
-    ![Open the Instances tab](media/apply-updates-quick-setup2.png "Open the Instances tab")
+    ![Open the Instances tab.](media/apply-updates-versions.png "Open the Instances tab")
 
-1. In the quick setup form, verify the status of your application. If the application isn’t up to date, you can choose to update it from here.
-
-    ![Apply updates](media/apply-updates-version2.png "Apply updates")
+1. The versions page will open. Verify the status of your application. If the application isn’t up to date, you can choose to update it from here.
 
 ## Find and apply updates for core Marketing solutions
 
@@ -65,7 +63,7 @@ To find and apply available updates to all core Marketing solutions, including t
 
 1. Go to **Resources** > **Dynamics 365 apps** on the left navigation pane.  
 
-    ![Open the Applications tab](media/purchase-setup-ppac-apps2.png "Open the Applications tab")
+    ![Open the Applications tab.](media/purchase-setup-ppac-apps2.png "Open the Applications tab")
 
     The list shows a row for each entitlement (license) you have for Dynamics 365 Marketing and other apps. Unused Marketing entitlements (which can't be updated) show a **Status** of **Not Configured**. Used Marketing entitlements show a **Status** of **Enabled**.
 
@@ -76,12 +74,12 @@ To find and apply available updates to all core Marketing solutions, including t
 
 1. Select the configured Marketing entitlement that you want to update and then select the three dots between the Name and the Status columns for the Marketing application. To launch the Dynamics 365 Marketing setup wizard, choose **Manage** from the pop-up menu. A message will pop up informing you that you are going to the Dynamics 365 Marketing admin page. To go to the page, select **OK**.
 
-    ![Dynamics 365 Marketing admin page prompt](media/purchase-setup-ppac-prompt.png "Dynamics 365 Marketing admin page prompt")
+    ![Dynamics 365 Marketing admin page prompt.](media/purchase-setup-ppac-prompt.png "Dynamics 365 Marketing admin page prompt")
 
 1. The Marketing setup wizard opens. It shows the name of the Dynamics 365 Marketing instance you are about to update. Make sure you have chosen the right one. Look at the top of the page to see if any updates are available. If no message is shown, no updates are available for the current organization and you can quit the wizard.
 
     > [!div class="mx-imgBorder"]
-    > ![Setup wizard running on an existing Marketing instance](media/fre-re-run3.png)
+    > ![Setup wizard running on an existing Marketing instance.](media/fre-re-run3.png)
 
 1. If an **Install** button is shown next to the **Update available** message, select it to start the update. The update starts right away, and a page opens to track the progress of the update and will tell you when it's finished.
 
@@ -96,22 +94,22 @@ To update shared (non-core Marketing) solutions, including Customer Voice and Po
 
 1. Go to [admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com), then go to **Environments** on the left navigation pane.
 
-    ![Open the Environments page](media/apply-updates-environments.png "Open the Environments page")
+    ![Open the Environments page.](media/apply-updates-environments.png "Open the Environments page")
 
 1. If you have more than one environment, each will be listed here. To select the environment where you have Marketing installed, select the environment name.
 
-    ![Select the Environment name](media/apply-updates-environment-name.png "Select the Environment name")
+    ![Select the Environment name.](media/apply-updates-environment-name.png "Select the Environment name")
 
 1. You will now be on a page showing environment details include **Access** permissions, **Auditing** information, the database **Version**, **Updates**, and **Resources**. You also convert your environment to a sandbox or create a backup from this page. To view the solutions installed in this environment, go to **Resources** > **Dynamics 365 apps**.
 
-    ![Select Dynamics 365 apps in your environment](media/apply-updates-dynamics-365-apps.png "Select Dynamics 365 apps in your environment")
+    ![Select Dynamics 365 apps in your environment.](media/apply-updates-dynamics-365-apps.png "Select Dynamics 365 apps in your environment")
 
 1. A list of solutions installed on your selected environment is shown. Look in the **Status** column for any solutions that show a value of "Update available." The solutions that are relevant for Marketing are "Power Apps portals – Base Portal" and "Dynamics 365 Customer Voice."  
 
    > [!WARNING]
    > As mentioned at the start of this procedure, you must not update core Marketing solutions from here. Always run the Marketing update wizard first, before you start looking for shared-solution updates. Be sure not to update any of the core Marketing solutions while you are updating the shared solutions, even if they show an update is available.
 
-    ![Select a solution to update](media/apply-updates-update-available.png "Select a solution to update")
+    ![Select a solution to update.](media/apply-updates-update-available.png "Select a solution to update")
 
 1. Select a solution marked as having an update available and read the information shown in the side panel. Select the **update** button in the side panel and then follow the instructions on your screen to apply it.
 

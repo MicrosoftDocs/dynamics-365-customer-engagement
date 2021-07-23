@@ -1,12 +1,11 @@
 ---
 title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 02/04/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # setContextProvider
 
@@ -59,7 +58,7 @@ The `isDisplayable` attribute, if set to `true`, will display the passed items w
 > [!NOTE]
 > If no context variables have been created under live work stream with a matching logical name, variables are created at runtime assuming the type as String. More information: [Context variables](../../../context-variables-for-bot.md#context-variables)
 
-![Display context keys](../../../media/context-variable-display.png "Display context keys")
+![Display context keys.](../../../media/context-variable-display.png "Display context keys")
 
 <a name="bkmk_navigationhistory"></a>
 

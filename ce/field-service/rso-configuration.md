@@ -1,25 +1,24 @@
 ---
-title: Resource scheduling optimization configuration in Dynamics 365 Field Service
-description: Learn how to configure resource scheduling optimization in Dynamics 365 Field Service
+title: Resource Scheduling Optimization configuration in Dynamics 365 Field Service
+description: Learn how to configure Resource Scheduling Optimization in Dynamics 365 Field Service
 author: FieldServiceDave
 ms.author: daclar
 ms.reviewer: krbjoran
 manager: shellyha
 ms.date: 01/02/2020
 ms.topic: article
-ms.custom: 
-  - dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Resource scheduling optimization configuration 
+# Resource Scheduling Optimization configuration 
 
-Perform these configuration steps after you deploy the resource scheduling optimization solution.
+Perform these configuration steps after you deploy the Resource Scheduling Optimization solution.
 
-## Enable resource scheduling optimization
+## Enable Resource Scheduling Optimization
 
 1. Go to **Resource Scheduling Optimization** \> **Administration** \>
     **Resource Scheduling Parameters**.
@@ -27,7 +26,7 @@ Perform these configuration steps after you deploy the resource scheduling optim
    - Set **Enable Resource Scheduling Optimization** to **Yes**.
 
    - Set **Default Goal** if needed. A default goal helps speed up interactions with
-     resource scheduling optimization through the schedule board by predefining how the engine optimizes
+     Resource Scheduling Optimization through the schedule board by predefining how the engine optimizes
      data. Users can still pick different goals. 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of "Enable Resource Scheduling Optimization" field set to "Yes" ](media/9311df68c981d7f4c5e984622ca1e244.png)
@@ -36,12 +35,12 @@ Perform these configuration steps after you deploy the resource scheduling optim
      organization to interact with the Bing Maps service that the schedule board
      uses.
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of "Connect to Maps" set as "Yes"](media/c2e5f7299860832f2823f285d0fcd113.png)
+    > ![Screenshot of "Connect to Maps" set as "Yes."](media/c2e5f7299860832f2823f285d0fcd113.png)
 
      > [!NOTE]
      > Only a user with the system administrator role can enable this setting. 
 
-## Add required security roles to users who will configure and run resource scheduling optimization
+## Add required security roles to users who will configure and run Resource Scheduling Optimization
 
 2. Go to **Settings** \> **Security** \> **Users**, navigate to the
     **Application Users** view, and assign the Field Service - Administrator
@@ -51,9 +50,9 @@ Perform these configuration steps after you deploy the resource scheduling optim
     **Field Service – Administrator**, and add **Resource Scheduling
     Optimization** to the field security profile.
 
-  Steps 2 and 3 help ensure that resource scheduling optimization is able to optimize work order-related requirements and bookings. 
+  Steps 2 and 3 help ensure that Resource Scheduling Optimization is able to optimize work order-related requirements and bookings. 
   
-  For dispatchers who want to interact with resource scheduling optimization:
+  For dispatchers who want to interact with Resource Scheduling Optimization:
    1. Go to **Settings** \> **Security** \> **Users**.
   2. Locate the user or team of dispatchers.
    3. Select **Manage Roles**.
@@ -73,7 +72,7 @@ The settings described here are selected and applied to all optimization scopes.
     select **Edit** to bulk edit the **Optimize Schedule** field to **Yes**.
 
    > [!NOTE]
-   > - After you enable your resources for resource scheduling optimization, you need to set the latitude
+   > - After you enable your resources for Resource Scheduling Optimization, you need to set the latitude
     and longitude for the resources’ organizational unit or personal address,
     depending on whether their start/end location is an organizational unit or a
     personal address.
@@ -87,7 +86,7 @@ The settings described here are selected and applied to all optimization scopes.
     and related resource requirement will be configured to optimize
     automatically.
     
-    ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to "Optimize"](media/f0d624969f46a29e897670479a546ef6.png)
+    ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to "Optimize."](media/f0d624969f46a29e897670479a546ef6.png)
 
 3. For existing resource requirement records, update the resource
     requirements scheduling Method. Go to **Resource Scheduling
@@ -106,18 +105,18 @@ The settings described here are selected and applied to all optimization scopes.
 5. Go to **Resource Scheduling Optimization** \> **Settings** \> **Booking
     Statuses** and configure **Scheduling Method** for booking status.
     > [!div class="mx-imgBorder"]
-    > ![Screenshot showing active booking statuses](media/bba178b0bd68c83aee9bb87cb66f19cb.jpg)
+    > ![Screenshot showing active booking statuses.](media/bba178b0bd68c83aee9bb87cb66f19cb.jpg)
 
     > [!NOTE]
     > Any booking status with an empty scheduling method will be treated as Do Not Move.
     
-   - **Optimize**: This status means resource scheduling optimization is free to move this booking around. 
-   - **Do Not Move**: This means resource scheduling optimization doesn't alter the booking. Resource scheduling optimization preserves the estimated arrival time and assigned resource. The booking’s
-    start time and estimated travel duration may be changed if resource scheduling optimization schedules a
+   - **Optimize**: This status means Resource Scheduling Optimization is free to move this booking around. 
+   - **Do Not Move**: This means Resource Scheduling Optimization doesn't alter the booking. Resource Scheduling Optimization preserves the estimated arrival time and assigned resource. The booking’s
+    start time and estimated travel duration may be changed if Resource Scheduling Optimization schedules a
     booking in a new location before the Do Not Move booking). This operates the
     same as if the user set the booking to **Locked to resource + time** on the
     scheduling lock options field.
-   - **Ignore**: Resource scheduling optimization will completely ignore this booking. It will ignore for both
+   - **Ignore**: Resource Scheduling Optimization will completely ignore this booking. It will ignore for both
     location and time, meaning there will be overlaps. It is as if the booking
     doesn’t exist. Use this when the booking status is in the state of proposed or canceled.
 

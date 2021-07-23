@@ -85,7 +85,7 @@ To create a subscription list using easy subscription lists:
 
 1. A new list is created, preconfigured to function as a subscription list. Enter **Name** for the list and fill out the other information as needed.
 
-    ![Create a subscription list](media/subscription-list-create.png "Create a subscription list")
+    ![Create a subscription list.](media/subscription-list-create.png "Create a subscription list")
 
 1. Select **Save** to create the subscription list. After saving, you can use the **Members** tab to view, edit, or remove members for the list. Usually, however, you should allow your contacts to manage their own subscriptions using your subscription center.
 
@@ -104,12 +104,12 @@ Now that you have a subscription list available, you can add it to a subscriptio
 
 1. The **Filter** panel opens. It's important to select a template of the correct type (subscription center), so start by filtering the template list by setting the **Form type** to **subscription center**. Then select the close button of the **Filter** panel to view the results.
 
-    ![Use the filter to find subscription center templates in the gallery](media/form-template-subcenter.png "Use the filter to find subscription center templates in the gallery")
+    ![Use the filter to find subscription center templates in the gallery.](media/form-template-subcenter.png "Use the filter to find subscription center templates in the gallery")
 
 1. Select one of the subscription forms now shown in the gallery. We're using the **heraklion** template as the example in this procedure, so choose that if it's available. Then choose **Select**.
 
 1. Your selected template is now copied to your new form design.  
-    ![Edit the heading inserted by the form template](media/form-headings-from-template.png "Edit the heading inserted by the form template")
+    ![Edit the heading inserted by the form template.](media/form-headings-from-template.png "Edit the heading inserted by the form template")
 
     As you can see, the template has already provided the following:
    - A basic contact-information form that includes several typical fields
@@ -123,7 +123,7 @@ Now that you have a subscription list available, you can add it to a subscriptio
     > Many of the supplied templates for emails, pages, and forms employ this convention of using square brackets to mark instructional placeholder text. They also typically use pseudo-Latin ("lorem ipsum") text as a placeholder for body text, and sometimes example text for headlines, but these don't use square brackets because the text isn't instructional.
 
 1. On the **Toolbox** tab, scroll down until you find the **Subscription lists** heading. You should see the subscription list that you just made listed here, plus any others that were already in your system. Drag it from the **Toolbox** to the space under the **Newsletter subscriptions** heading.  
-    ![Add a subscription list to the form](media/from-add-subscription-list.png "Add a subscription list to the form")
+    ![Add a subscription list to the form.](media/from-add-subscription-list.png "Add a subscription list to the form")
 
     > [!TIP]
     > Only forms of type *subscription center* show subscription lists in the **Toolbox**.
@@ -159,16 +159,16 @@ To work with content settings records, go to **Marketing** > **Marketing templat
 
 Each field shown here (besides the **Name** and **Default** setting) can be referenced dynamically in your email messages. The two fields, **Address Main** and **Subscription Center** must be referenced in all marketing emails, so they are likewise required here.
 
-![Content-settings settings](media/content-settings-general.png "Content settings")
+![Content-settings settings.](media/content-settings-general.png "Content settings")
 
 To specify a subscription center in the content settings:
 
 1. Select the **Subscription Center** field.
 
-1. Select the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") for the **Subscription Center** field.
+1. Select the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button") for the **Subscription Center** field.
 
 1. The assist-edit dialog opens. Select the **Static** radio button.    
-    ![Assist edit with Static selected](media/assist-edit-subcenter-1.png "Assist edit with Static selected")
+    ![Assist edit with Static selected.](media/assist-edit-subcenter-1.png "Assist edit with Static selected")
 
 1. From the **Select an option** combo box, select **Marketing page**.
 
@@ -177,7 +177,7 @@ To specify a subscription center in the content settings:
 1. Select **Next** to continue.
 
 1. Select the **Property** radio button.
-    ![Choose a specific marketing page](media/assist-edit-subcenter-2.png "Choose a specific marketing page") 
+    ![Choose a specific marketing page.](media/assist-edit-subcenter-2.png "Choose a specific marketing page") 
 
     Note the code shown at the bottom of the dialog&mdash;this is the actual expression that you have built based on your choices so far
 
@@ -207,7 +207,7 @@ As mentioned, content settings are defined on the customer journey level, and ap
 1. Find your journey in the list, or select **New** in the command bar to create a new one.
 
 1. Go to the **General** page of the customer journey record.  
-    ![Where to set content settings for a journey](media/journey-general-content-settings.png "Where to set content settings for a journey")
+    ![Where to set content settings for a journey.](media/journey-general-content-settings.png "Where to set content settings for a journey")
 
 1. Use the **Content Settings** field to choose the Content Setting record that applies to the current journey.
 
@@ -217,10 +217,10 @@ To add a subscription center link to a marketing email:
 
 1. While working in a text element, add some link text (such as **manage subscriptions**) at an appropriate place.
 
-1. Select the anchor text, and then select the **Link** button ![The link button](media/email-link-button.png "The Link button") from the floating toolbar, which opens the **Link** dialog box.    
-      ![The email Link dialog](media/email-link-dialog.png "The email Link dialog box")  
+1. Select the anchor text, and then select the **Link** button ![The link button.](media/email-link-button.png "The Link button") from the floating toolbar, which opens the **Link** dialog box.    
+      ![The email Link dialog.](media/email-link-dialog.png "The email Link dialog box")  
 
-1. Select the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") for the **Link** field. In the assist-edit dialog, select **Contextual** and then **ContentSettings** on the first page. Select **Next** and then pick **Property** and **msdyncrm_subscriptioncenter** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` into the **Link** field. 
+1. Select the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button") for the **Link** field. In the assist-edit dialog, select **Contextual** and then **ContentSettings** on the first page. Select **Next** and then pick **Property** and **msdyncrm_subscriptioncenter** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` into the **Link** field. 
 
 1. Select **OK** to create the link.
 
@@ -252,7 +252,7 @@ To view, add, or remove list memberships for a displayed contact:
     - To remove the contact from any of these subscriptions, select the **More options** button (which looks like an ellipsis) next to the target list and then select **Remove**.
     - To add the contact to any existing subscription list, select the **More commands** button (which looks like an ellipsis) in the **Subscription lists** heading and then select **Add existing marketing list**. A flyout opens. Use it to search for and select each list that you want to add the selected contact(s) to. The select **Add** to add the contacts and close the flyout.
 
-    ![Lists a contact subscribes to](media/subscription-list-contact.png "Lists a contact subscribes to")
+    ![Lists a contact subscribes to.](media/subscription-list-contact.png "Lists a contact subscribes to")
 
 ### Add contacts to lists from a contact list or form view
 
@@ -289,9 +289,9 @@ You can apply duplicate detection rules [to your entire organization](business-m
 The global duplicate detection rule only applies to the “Email” field.
 
 > [!div class="mx-imgBorder"]
-> ![Create a duplicate detection rule](media/subscription-duplicate-detection.png)
+> ![Create a duplicate detection rule.](media/subscription-duplicate-detection.png)
 
-If you need to create additional duplicate detection rules, for example, for an “Email Address 2” field, you can add another rule by following the instructions in [this Power Platform guide](https://docs.microsoft.com/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean).
+If you need to create additional duplicate detection rules, for example, for an “Email Address 2” field, you can add another rule by following the instructions in [this Power Platform guide](/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean).
 
 > [!NOTE]
 > Changing or deleting system rules may cause duplicate detection to not function as expected.
@@ -304,14 +304,14 @@ If you need to create additional duplicate detection rules, for example, for an 
 
 ### Run bulk system jobs to detect email duplication
 
-As some changes to the customer database are not captured by the global duplicate detection rules (for example, when merging contact records or activating them), you can check for duplicates periodically using [scheduled jobs](https://docs.microsoft.com/power-platform/admin/run-bulk-system-jobs-detect-duplicate-records). To create a scheduled job, go to the Power Platform admin center then select **Settings** > **Data management** > **Duplicate detection jobs**. Create a new job, add the email address fields you want to check, and define the schedule.
+As some changes to the customer database are not captured by the global duplicate detection rules (for example, when merging contact records or activating them), you can check for duplicates periodically using [scheduled jobs](/power-platform/admin/run-bulk-system-jobs-detect-duplicate-records). To create a scheduled job, go to the Power Platform admin center then select **Settings** > **Data management** > **Duplicate detection jobs**. Create a new job, add the email address fields you want to check, and define the schedule.
 
 > [!div class="mx-imgBorder"]
-> ![Create a scheduled job](media/subscription-scheduled-job.png)
+> ![Create a scheduled job.](media/subscription-scheduled-job.png)
 
 After detecting duplicate email records, you can choose a master record and merge, delete, or edit other duplicates.
 
-If you need to further customize duplicate email processing, refer to the [Detect duplicate data using code](https://docs.microsoft.com/powerapps/developer/data-platform/detect-duplicate-data-with-code) article.
+If you need to further customize duplicate email processing, refer to the [Detect duplicate data using code](/powerapps/developer/data-platform/detect-duplicate-data-with-code) article.
 
 ### Update consent for all contacts sharing the same email address once one contact has opted out
 

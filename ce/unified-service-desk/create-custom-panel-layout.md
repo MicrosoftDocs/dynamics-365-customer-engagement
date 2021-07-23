@@ -1,20 +1,19 @@
 ---
 title: "Create a custom panel layout | MicrosoftDocs"
-description: "Panel layouts in Unified Service Desk are hosted controls, which provide the ability to load all sorts of different layouts in the system. Unified Service Desk provides some predefined panel layouts for you to use in your agent application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn how to create and test custom panel layouts in Unified Service Desk. Also, learn how to define the custom panel layout hosted control on server."
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Create a custom panel layout
 
@@ -53,13 +52,13 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
    3. Specify the name and location of the project, and select **OK**.  
   
-   ![Create a custom panel layout](../unified-service-desk/media/usd-custom-panel-type-1.png "Create a custom panel layout")  
+   ![Create a custom panel layout.](../unified-service-desk/media/usd-custom-panel-type-1.png "Create a custom panel layout")  
   
 3. In **Solution Explorer**, double-click the `CustomLayout.xaml` file to bring up the XAML designer. The XAML designer displays the default panel layout in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
 4. Replace the XAML code in the `CustomLayout.xaml` file with the code provided in the following sample. To do this, select all the code (CTRL+A) in the XAML area (as shown in the illustration), delete it, and then paste the XAML code provided at the same place. This is done to change the location of the expander pane from left to right.  
   
-   ![Update the XAML code for the custom panel layout](../unified-service-desk/media/usd-create-custom-panel-layout-2.png "Update the XAML code for the custom panel layout")  
+   ![Update the XAML code for the custom panel layout.](../unified-service-desk/media/usd-create-custom-panel-layout-2.png "Update the XAML code for the custom panel layout")  
   
    ```  
    <USD:PanelLayoutBase             
@@ -183,7 +182,7 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
     This is the updated `NotifyContextChange` method definition.  
   
-   ![Updated NotifyContextChange method](../unified-service-desk/media/usd-create-custom-panel-layout-3.png "Updated NotifyContextChange method")  
+   ![Updated NotifyContextChange method.](../unified-service-desk/media/usd-create-custom-panel-layout-3.png "Updated NotifyContextChange method")  
   
 8. Save your project, and build it (**Build** > **Build Solution**) to check if it builds successfully.  
   
@@ -233,11 +232,11 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 3. On successful sign in, you’ll see the custom panel layout without the expander pane in the left side. The expander pane is now on the right side.  
   
-   ![Screenshot of custom panel layout](../unified-service-desk/media/usd-create-custom-panel-layout-4.png "Screenshot of custom panel layout")  
+   ![Screenshot of custom panel layout.](../unified-service-desk/media/usd-create-custom-panel-layout-4.png "Screenshot of custom panel layout")  
   
 4. Choose **Search** on the toolbar, and then select a record to be displayed in a session. In this case, choose **Contacts** in the **Search** window, and then choose **Maria Campbell (Sample)**. The right pane automatically appears to display the associated session data, agent scripting, and other information about the current contact record.  
   
-   ![The right expander pane displays automatically](../unified-service-desk/media/usd-create-custom-panel-layout-5.png "The right expander pane displays automatically")  
+   ![The right expander pane displays automatically.](../unified-service-desk/media/usd-create-custom-panel-layout-5.png "The right expander pane displays automatically")  
   
 5. Close the session by selecting the cross button in the session tab at the top, and the right pane will automatically close/collapse.  
   

@@ -2,20 +2,19 @@
 title: "Maintain up-to-date forecast data (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Maintain up-to-date forecast data in Dynamics 365 Sales."
 ms.date: 10/26/2020
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+ms.custom: 
+  - dyn365-sales
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastinstance
   - D365-UI-*
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # Maintain up-to-date forecast data
@@ -42,18 +41,18 @@ If you know that the underlying data has changed, you can select **Recalculate**
 1. Select **Recalculate** on the command bar.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Recalculate](media/forecast-select-recalculate.png "Select Recalculate")
+    > ![Select Recalculate.](media/forecast-select-recalculate.png "Select Recalculate")
     
     A notification appears at the bottom of the screen, confirming the recalculation. Recalculation happens in the background, and you can continue to work while recalculation is in progress.
 
     > [!div class="mx-imgBorder"]
-    > ![Notification to confirm recalculation](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
+    > ![Notification to confirm recalculation.](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
 
 2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**.
 
 
     > [!div class="mx-imgBorder"]
-    > ![Notification to refresh page](media/forecast-refresh-data-toast-notification.png "Notification to refresh the page")
+    > ![Notification to refresh page.](media/forecast-refresh-data-toast-notification.png "Notification to refresh the page")
 
     > [!NOTE]
     > You can cancel the notification and refresh the data later. Select **Refresh** on the command bar.
@@ -66,7 +65,7 @@ After recalculation, the data in the forecast reflects the latest opportunity an
 
 [View a forecast](view-forecasts.md)<br>
 
-[Analyze revenue outcome by using predictive forecasting](https://docs.microsoft.com/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)
+[Analyze revenue outcome by using predictive forecasting](/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)
 
 [Troubleshooting forecasts](ts-forecasts.md)
 

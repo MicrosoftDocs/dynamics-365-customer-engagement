@@ -2,21 +2,18 @@
 title: "Create products in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Create an inventory of all the products that your company sells by creating product records in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-product
   - D365-UI-*
   - Dynamics 365
   - Sales
-
 ---
 
 # Create products in Dynamics 365 Sales Professional
@@ -35,7 +32,7 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
 
     -  **Product ID**.
 
-    -  **Parent**. Select a parent product family for the product. If you're creating a child product in a product family, the name of the parent product family is populated here. This can't be changed after the record is saved.
+    -  **Parent**. Do not use. This field is not supported for Sales Professional.
 
     -  **Valid From**/**Valid To**. Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.
 
@@ -50,7 +47,7 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
     -  **Subject**. Associate this product with a subject. You can use subjects to categorize your products and to filter reports.
 
        > [!div class="mx-imgBorder"]
-       >  ![Product form with data](media/product-form.png "Product form with data")
+       >  ![Product form with data.](media/product-form.png "Product form with data")
 
 
 5.  Select **Save**.
@@ -58,7 +55,7 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
 6.  To add price list items, go to the **Additional Details** tab. In the **Price List Items** section, select the **More commands** icon, and then select **Add New Price List Item**.
 
     > [!div class="mx-imgBorder"]
-    > ![Add New Price List Item menu option](media/add-new-price-list-item-menu-option.png "Add New Price List Item menu option")
+    > ![Add New Price List Item menu option.](media/add-new-price-list-item-menu-option.png "Add New Price List Item menu option")
 
 7.  To add product relationships, on the **Additional Details** tab of the product form, in the **Product Relationship** section, select the **More commands** icon, and then select **Add New Product Relationship.**
 
@@ -88,12 +85,12 @@ products, as required, and republishing the information so that your sales agent
 3.  Open an active product that you want to change, and on the command bar, select **Revise**.
 
     > [!div class="mx-imgBorder"]
-    > ![Revise button on the command bar](media/revise-button-product-form.png "Revise button on the command bar")
+    > ![Revise button on the command bar.](media/revise-button-product-form.png "Revise button on the command bar")
 
 4.  In the **Confirm Revise** dialog box, select **Confirm**.
 
     > [!div class="mx-imgBorder"]
-    > ![Confirm Revise dialog box](media/confirm-revise-dialog-box.png "Confirm Revise dialog box")
+    > ![Confirm Revise dialog box.](media/confirm-revise-dialog-box.png "Confirm Revise dialog box")
 
     This will change the product status to **Under Revision**.
 
@@ -114,12 +111,12 @@ When you're creating a new product, save time by cloning an existing one. This c
 3.  Select a product record that you want to clone, and on the command bar, select **Clone**.
 
     > [!div class="mx-imgBorder"]
-    > ![Clone button on the command bar](media/clone-button-product-form.png "Clone button on the command bar")
+    > ![Clone button on the command bar.](media/clone-button-product-form.png "Clone button on the command bar")
 
     A confirmation dialog box appears.
 
     > [!div class="mx-imgBorder"]
-    > ![Confirmation dialog box for cloning product](media/confirm-clone-dialog-box.png "Confirmation dialog box for cloning product")
+    > ![Confirmation dialog box for cloning product.](media/confirm-clone-dialog-box.png "Confirmation dialog box for cloning product")
 
 4.  Select **Confirm**.
 
@@ -136,12 +133,12 @@ If your organization doesn't sell a product anymore, retire it so that the produ
 3.  Open an active product that you want to retire, and on the command bar, select **Retire**.
 
     > [!div class="mx-imgBorder"]
-    > ![Retire button on the command bar](media/retire-button-product-form.png "Retire button on the command bar")
+    > ![Retire button on the command bar.](media/retire-button-product-form.png "Retire button on the command bar")
 
 4.  In the **Confirm Retire** dialog box, select **Confirm**.
 
     > [!div class="mx-imgBorder"]
-    > ![Confirm Retire dialog box](media/confirm-retire-dialog-box.png "Confirm Retire dialog box")
+    > ![Confirm Retire dialog box.](media/confirm-retire-dialog-box.png "Confirm Retire dialog box")
 
 ## Delete a product
 
@@ -158,12 +155,12 @@ To stop selling a product, delete it.
 3.  Select a product record you want to delete, and on the command bar, select **Delete**.
 
     > [!div class="mx-imgBorder"]
-    > ![Delete button on the command bar](media/delete-button-product-form.png "Delete button on the command bar")
+    > ![Delete button on the command bar.](media/delete-button-product-form.png "Delete button on the command bar")
 
 4.  In the **Confirm Deletion** dialog box, select **Continue**.
 
     > [!div class="mx-imgBorder"]
-    > ![Confirm Deletion dialog box](media/confirm-deletion-dialog-box.png "Confirm Deletion dialog box")
+    > ![Confirm Deletion dialog box.](media/confirm-deletion-dialog-box.png "Confirm Deletion dialog box")
 
 
 ### See also

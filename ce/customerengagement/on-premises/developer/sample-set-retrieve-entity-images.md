@@ -4,7 +4,7 @@ descriptions: The sample demonstrates how to set and retrieve data for entity im
 ms.custom: 
 ms.date: 01/08/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -31,7 +31,7 @@ This sample shows how to set and retrieve data for entity images. You can downlo
 
 ## What this sample does
 
-This sample shows how to create a connection role that can be used for accounts and contacts.
+This sample shows how to set and retrieve data for entity images.
 
 ## How this sample works
 

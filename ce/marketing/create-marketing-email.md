@@ -37,11 +37,11 @@ To create a marketing email and go live:
 
 1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails**. You will see a list of existing marketing emails. Select **New** on the command bar.
 
-    ![Location of the new-email button](media/new-email-button-location.png "Location of the new-email button")
+    ![Location of the new-email button.](media/new-email-button-location4.png "Location of the new-email button")
 
 1. The **New Marketing Email** page opens with the **Select an Email Template** dialog box shown. Each template provides a starting point for designing a particular type of message. The template dialog box provides tools for searching, browsing, and previewing your template collection.
 
-    ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog box for choosing an email template")
+    ![Dialog for choosing an email template.](media/email-template-dialog2.png "Dialog box for choosing an email template")
 
     For this exercise, select the **blank** template so that you can step through all the required content. Then choose **Select** to apply the template to your new message.
 
@@ -50,26 +50,26 @@ To create a marketing email and go live:
 
 1. The **Select an Email Template** dialog box closes and the content (if any) from your selected template is copied to your design. Select the **More header fields** button at the side of the header to open a drop-down dialog and then enter a **Name** for your new message.
 
-    ![Enter a name for your new email](media/email-edit-header-fields.png "Enter a name for your new email")
+    ![Enter a name for your new email.](media/email-edit-header-fields3.png "Enter a name for your new email")
 
 1. Enter a **Subject** for your message. The subject is an important setting because it is one of the first things recipients will see when they receive the email. Recipients may use the subject to decide whether to open or read the message.
 
-    ![Enter a subject for your new email](media/email-edit-subject.png "Enter a subject for your new email")
+    ![Enter a subject for your new email.](media/email-edit-subject2.png "Enter a subject for your new email")
 
 1. In the main part of the page, you now see the design canvas (on the left side), where you can drag, arrange, and enter content. If you chose the blank template, then your design includes just a single one-column section (layout) element with nothing in it. A **Toolbox** on the right side of the page provides design elements that you'll use to construct your message. Drag a **Text** element from the **Toolbox** tab into the section element. When you have dragged the element to a suitable location, a blue shaded region appears. Release the mouse button to drop the element at that location.
 
-    ![Add a text element](media/email-add-text-block.png "Add a text element")
+    ![Add a text element.](media/email-add-text-block.png "Add a text element")
 
 1. When you drop the text element, you'll see some placeholder text within the element and a floating toolbar just below or above it.  
 
-   ![The floating text toolbar](media/email-floating-text-toolbar.png "The floating text toolbar")
+   ![The floating text toolbar.](media/email-floating-text-toolbar.png "The floating text toolbar")
 
    Select and remove the placeholder text, and then add your own. Use the toolbar buttons to style your text as you would in a text editor like Microsoft Word (point to any toolbar button to see what it does). Most of the buttons are for styling text and paragraphs, but there are also buttons for creating links; entering dynamic text (more on this later); and moving, copying, or deleting the entire text element.
 
    > [!TIP]
    > The very first text that you enter on the page is especially important because most email clients show this as preview text for the messages in their inbox list. Here is how it looks in Microsoft Outlook:
    > 
-   > ![How email content looks in the Outlook inbox list](media/email-inbox-list-ill.png "How email content looks in the Outlook inbox list")
+   > ![How email content looks in the Outlook inbox list.](media/email-inbox-list-ill.png "How email content looks in the Outlook inbox list")
    > 
    > Messages that come from a familiar sender that have an enticing subject and relevant preview text are much more likely to get opened than messages that have just some, or none, of those things.
 
@@ -77,18 +77,18 @@ To create a marketing email and go live:
 
     1. Working in the text element you just added, enter a suitable opening such as "Dear".
 
-    1. On the pop-up toolbar, select the **Assist edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). This opens the assist-edit dialog.
+    1. On the pop-up toolbar, select the **Assist edit** button ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button"). This opens the assist-edit dialog.
 
     1. Select the **Contextual** radio button, and then select **Contact** from the combo box here. The **Contextual** setting means that you will place a dynamic value related to the context where you use the message, while the **Contact** setting means that the context relates to the individual recipient (contact) of the message.
 
     1. Select **Next** to continue to the next page of the assit-edit tool.
 
-        ![Assist edit, page 2](media/assist-edit-email-tutorial-p2.png "Assist edit, page 2")
+        ![Assist edit, page 2.](media/assist-edit-email-tutorial-p2.png "Assist edit, page 2")
 
     1. On the previous page, you choose the contact entity (in context). On this page, you must choose which field from that entity you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Select the **Property** radio button and then start to type "first" into the combo box here. This searches the available fields for those that include the text "first," which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
     
         > [!NOTE]
-        > [Calculated and rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/calculated-rollup-attributes) cannot be used in Marketing emails.
+        > [Calculated and rollup fields](../customerengagement/on-premises/developer/calculated-rollup-attributes.md) cannot be used in Marketing emails.
 
     1. Select OK to place the expression you've built and close the assist-edit tool. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using assist edit.)
 
@@ -101,15 +101,15 @@ To create a marketing email and go live:
 
    2. Choose a suitable location for the *subscription-center link*, and then enter some anchor text there (such as "Manage your subscriptions"). Select the anchor text, and then select the **Link** button ![The Link button](media/email-link-button.png "The link button") from the floating toolbar, which opens the **Link** dialog box. Select the **Assist edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") for the **Link** field. In the assist-edit dialog, select **Contextual** and then **ContentSettings** on the first page. Select **Next** and then pick **Property** and **msdyncrm_subscriptioncenter** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` into the **Link** field.
 
-        ![The email Link dialog](media/email-link-dialog.png "The email Link dialog box")  
+        ![The email Link dialog.](media/email-link-dialog.png "The email Link dialog box")  
 
 1. You should usually include at least one visible image in your design because this will invite recipients to load images, which is required for Dynamics 365 Marketing to log the message-open event. Drag an **Image** element from the **Toolbox** onto the canvas. This time, when you drop the element, you'll see an image placeholder and the **Properties** tab, which shows configuration settings for the selected element.
 
-    ![Where to set the Source for an image](media/email-image-source.png "Where to set the source for an image")
+    ![Where to set the Source for an image.](media/email-image-source.png "Where to set the source for an image")
 
-1. On the **Properties** tab, select the **Image gallery** button ![The browse button](media/email-browse-button.png "The browse button") at the right side of the **Source** field. The **Select a file** dialog box opens.
+1. On the **Properties** tab, select the **Image gallery** button ![The browse button.](media/email-browse-button.png "The browse button") at the right side of the **Source** field. The **Select a file** dialog box opens.
 
-    ![The image library browser](media/image-library.png "The image library browser")  
+    ![The image library browser.](media/image-library.png "The image library browser")  
 
     Here you can see all the images that have already been uploaded to your Dynamics 365 Marketing server. Select an image, and then choose **Select** to place it in your message design. (If you don't see any images, choose **Upload** to add a new one.)
 
@@ -118,25 +118,25 @@ To create a marketing email and go live:
 
 1. Your message now includes all the minimal required and recommended content, so go to the **Preview** tab to see an approximation of how it will be rendered on various screen sizes and how its dynamic content will get resolved.
 
-    ![The email preview and preview settings](media/email-preview-settings.png "The email preview and preview settings")  
+    ![The email preview and preview settings.](media/email-preview-settings.png "The email preview and preview settings")  
 
     Use the buttons in the leftmost column to choose a screen size and orientation to preview. Use the **Contact** and **Content Settings** fields in the **Properties** column to see how your dynamic content will resolve for various recipients and settings.
 
 1. To make sure your message includes all required content and is ready to send, select **Check for Errors** in the command bar. Dynamics 365 Marketing checks your message, and then displays results in the notification bar at the top of the page. If more than one error is found, then select the expansion button to see all of them.
 
-    ![The check-for-errors button and notifications](media/email-validation-result.png "The Check for Errors button and notifications")
+    ![The check-for-errors button and notifications.](media/email-validation-result.png "The Check for Errors button and notifications")
 
     If you followed this procedure, your message should pass the error check. If it doesn't, read the error message, fix the reported issue, and try again until it passes.
 
 1. Until now, your previews and error checks have been simulated. The final test is to deliver the message to yourself, open it in your email program, and inspect the results. On the command bar, select **Test Send**. A **Quick Create** form slides in from the side.
 
-    ![Email test-send settings](media/email-test-send-flyout.png "Email Test Send settings")
+    ![Email test-send settings.](media/email-test-send-flyout.png "Email Test Send settings")
 
     Enter your own **Email Address** in the field provided, and select the **Test Contact** and **Test Content Settings** records to use when resolving dynamic content (these work the same as for the simulated preview). Select **Save** to send yourself the message. You should receive it in a few minutes.
 
 1. If your message still looks good after you receive it in your inbox and open it, you're ready to publish it by selecting **Go Live** on the command bar.
 
-    ![Location of the Go Live button](media/email-golive-button-location.png "Location of the Go Live button")
+    ![Location of the Go Live button.](media/email-golive-button-location.png "Location of the Go Live button")
 
     Dynamics 365 Marketing copies your design to the email marketing service, which makes the message available for use by a customer journey (but doesn't deliver any messages yet). The go-live process also activates any dynamic code and replaces links with trackable versions that are redirected through Dynamics 365 Marketing (which identifies the recipient and logs the click). Finally, your message **Status Reason** is updated to **Live**
 

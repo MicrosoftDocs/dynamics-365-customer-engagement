@@ -1,7 +1,7 @@
 ---
 title: "Extend marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Extend marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
-ms.date: 11/05/2020
+ms.date: 05/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,13 +18,27 @@ search.app:
 
 # Extend marketing forms using code
 
-A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-forms)
+A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](/dynamics365/customer-engagement/marketing/marketing-forms)
 
-Marketing forms can be extended using JavaScript to perform custom business actions in the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/overview). Following are the methods that are available to extend marketing forms.
+Marketing forms can be extended using JavaScript to perform custom business actions in the [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/overview). Following are the methods that are available to extend marketing forms.
 
 ## JavaScript API
 
-We're consuming the latest version of JavaScript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=...` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=...` respectively. 
+We're consuming the latest version of the JavaScript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=[version tag]` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=[version tag]`, respectively. The `?v=[version tag]` section can be omitted. Older scripts (scripts that look like `https://mktdplp102cdn.azureedge.net/public/static/[version tag]/js/form-loader.js` or `https://mktdplp102cdn.azureedge.net/public/static/[version tag]/js/loader.js`) are obsolete and no longer supported.
+
+Place the custom code right after the `form-loader.js` script.
+
+Code sample:
+```JS
+<script src="https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=..."></script>
+<script>
+// correct - the script will attach event handlers right after form loader script
+MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {});
+
+// wrong - the script will attach event handlers after window has finished loading, form already might have been loaded in the meantime and no events will trigger anymore
+// window.onload = function() { MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {}); };
+</script>
+```
 
 ### MsCrmMkt.MsCrmFormLoader methods
 
@@ -63,7 +77,7 @@ The form capturing is directed by the configuration element that looks like `<di
 
 |Attribute name|Description|
 |------|-------|
-|`data-ignore-prevent-default="true"`|When specified, form will be submitted regardless of the fact that `.preventDefault()` was invoked on the event.|
+|`data-ignore-prevent-default="true"`|When specified, the form will be submitted regardless of the fact that `.preventDefault()` was invoked on the event.|
 |`data-no-submit="true"`|When specified, the form capturing script won't capture the form submit event, you should trigger the `MsCrmMkt.MsCrmFormLoader.sendFormCaptureToCrm(form)` explicitly. This is useful for cases when you want to do your form submission first and sync to Dynamics 365 Marketing later.
 
 > [!NOTE]
@@ -77,11 +91,11 @@ To add the JavaScript code, you need to follow the steps below:
 2. Choose **New** to create a new marketing page.
 3. Drag and drop **Form** element from the **Toolbox** tab into the **Designer** tab and select the marketing form you want to use.
    > [!div class="mx-imgBorder"]
-   > ![Add new form page](../media/new-marketing-page.png "Add new form page")
+   > ![Add new form page.](../media/new-marketing-page.png "Add new form page")
    
 4. Switch to **HTML** tab and your code snippet.
    > [!div class="mx-imgBorder"]
-   > ![Add code in HTML tab](../media/marketing-page-html-tab.png "Add code in HTML tab")
+   > ![Add code in HTML tab.](../media/marketing-page-html-tab.png "Add code in HTML tab")
 
 5. Select **Save** to save your changes and then select **Go live**.
 
@@ -94,21 +108,21 @@ To add the code snippet, you need to follow the steps below:
 3. Select **Go live**.
 4. Select the **Form hosting** tab and under the **Available domains for form hosting**, select the domain if it is available, or select **+ Create new domain**.
     > [!div class="mx-imgBorder"]
-    > ![Form Hosting Tab](../media/form-hosting-available-domains.png "Form Hosting Tab")
+    > ![Form Hosting Tab.](../media/form-hosting-available-domains.png "Form Hosting Tab")
 
 5. Add your own CMS domain and select **Save**.
 6. In the **From hosting** tab, under the **Related marketing form pages** tab, select **...** and **+ New Form Page** to add a marketing form page.
     > [!div class="mx-imgBorder"]
-    > ![Related Marketing Form Pages](../media/form-hosting-related-marketing-form-pages.png "Related Marketing Form Pages")
+    > ![Related Marketing Form Pages.](../media/form-hosting-related-marketing-form-pages.png "Related Marketing Form Pages")
 
 7. Select **Save**.
 8. Now select the form page you have created and copy the script to the clipboard.
     > [!div class="mx-imgBorder"]
-    > ![Add code snippet](../media/new-form-page-adding-code.png "Add code snippet")
+    > ![Add code snippet.](../media/new-form-page-adding-code.png "Add code snippet")
 
 9. Now in your CMS, edit the page where you want to include the form, add your customizations and script.
     > [!div class="mx-imgBorder"]
-    > ![Ad customizations to CMS](../media/add-code-to-cms-site.png "Add customization to CMS")
+    > ![Ad customizations to CMS.](../media/add-code-to-cms-site.png "Add customization to CMS")
 
 ## Examples 
 
@@ -153,5 +167,54 @@ To add the code snippet, you need to follow the steps below:
     });
     ```
 
+3. Localize the form (picklist) - You can use client-side extensibility to localize marketing forms. Localization must occur after the form is loaded (`afterFormLoad` event). Inside the marketing page (or in the CMS where you host the form), add the following localization script:
+
+    ```JS
+    <script>
+    function translatePicklists(lcid) {
+        var picklists = document.querySelectorAll("select");
+        for(var i = 0; i < picklists.length; i++) {
+            var picklist = picklists[i];
+            var relatedDatalist = document.getElementById("localize-" + picklist.name + "-" + lcid.toString());
+            if (relatedDatalist) {
+                for(var j = 0; j < picklist.options.length; j++) {
+                    if (j >= relatedDatalist.options.length) {
+                        break;
+                    }
+                    picklist.options[j].text = relatedDatalist.options[j].text;
+                }
+            }
+        }
+    }
+    MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function(event) { translatePicklists(1029); });
+    </script>
+    ```
+    
+    In the marketing form, make sure that you have prepared the translations. Edit the marketing form in the HTML designer, format it (right-click in the designer, then choose **format**), and add the necessary translations.
+
+    ```HTML
+    <div data-editorblocktype="Field-dropdown">
+	  <div class="marketing-field">
+	      <div class="lp-form-field" data-required-field="false">
+	        <label for="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-ellipsis" title="">Marital status</label>
+	        <select id="f7ae1a98-0d83-4592-afe0-272c85ce607d" name="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-form-fieldInput" title="" style="width: 100%; box-sizing: border-box;">
+                <option value=""></option>
+                <option value="1">Single</option>
+                <option value="2">Married</option>
+                <option value="3">Divorced</option>
+                <option value="4">Widowed</option>
+            </select>
+        </div>
+	    </div>
+    </div>
+    <!-- format is localize-fieldid-lcid -->
+    <datalist id="localize-f7ae1a98-0d83-4592-afe0-272c85ce607d-1029">
+        <option></option>
+        <option>Svobodny(a)</option>
+        <option>Zenaty(a)</option>
+        <option>Rozvedeny(a)</option>
+        <option>Vdovec(vdova)</option>
+    </datalist>
+    ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

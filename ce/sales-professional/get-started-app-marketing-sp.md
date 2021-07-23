@@ -2,15 +2,12 @@
 title: "Get started with in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use in-app marketing in Dynamics 365 Sales Professional to promote your business and improve sales with targeted marketing campaigns."
 ms.date: 12/06/2019
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.custom: intro-internal
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-list
   - D365-Entity-campaign
@@ -18,7 +15,6 @@ searchScope:
   - D365-UI-*
   - Dynamics 365
   - Sales
-
 ---
 
 # Get started with in-app marketing (Sales Professional)
@@ -36,7 +32,7 @@ Promote your business and improve sales with targeted marketing campaigns in [!I
   
  In contrast to standard campaigns, use quick campaigns to automatically distribute a single activity to selected accounts, contacts, or leads, or to a single marketing list. The effects of a quick campaign are immediate.  
   
- ![Campaigns vs. quick campaigns](../sales-enterprise/media/marketing-campaign-vs-quick-campaign.png "Campaigns vs. quick campaigns")  
+ ![Campaigns vs. quick campaigns.](../sales-enterprise/media/marketing-campaign-vs-quick-campaign.png "Campaigns vs. quick campaigns")  
   
 ## Create a campaign or a quick campaign  
  Depending on your requirement, track your marketing activities through a campaign or a quick campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](../sales-professional/create-edit-campaign-using-app-marketing-sp.md), [Create a quick campaign using in-app marketing](../sales-professional/create-quick-campaign-using-app-marketing-sp.md)  

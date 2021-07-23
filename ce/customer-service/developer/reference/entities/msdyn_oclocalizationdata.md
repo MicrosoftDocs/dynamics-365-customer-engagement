@@ -1,12 +1,11 @@
 ---
 title: "msdyn_oclocalizationdata Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_oclocalizationdata entity."
-author: "v-sailab"
-ms.author: "v-sailab"
-manager: "shujoshi"
 ms.date: 03/23/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 ---
 # msdyn_oclocalizationdata Entity Reference
 

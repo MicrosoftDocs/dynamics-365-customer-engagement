@@ -1,11 +1,9 @@
 ---
 title: "Use and configure the schedule board in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to configure the schedule board in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 01/12/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -43,13 +41,13 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
  When you’re looking at the schedule board for the current day, you’ll see a blue line that indicates the current time of day. You can also see a picture of all the resources listed on the schedule board. To quickly view contact information for a resource, hover over their name to view the contact card.  
   
- ![Schedule board color coding in Dynamics 365 Field Service](../field-service/media/field-service-schedule-board-color-coding-example.png "Schedule board color coding in Dynamics 365 Field Service")  
+ ![Schedule board color coding in Dynamics 365 Field Service.](../field-service/media/field-service-schedule-board-color-coding-example.png "Schedule board color coding in Dynamics 365 Field Service")  
   
 <a name="BKMK_ConfigureFilter-MapOver"></a>   
 ## Configure the filter and map view  
  Map view shows the location of resources, organizational units, bookings, and requirements. The screenshot below shows the color legend.  
   
- ![Schedule board filter and map view in Dynamics 365 Field Service](../field-service/media/field-service-schedule-board-map-view.png "Schedule board filter and map view in Dynamics 365 Field Service")  
+ ![Schedule board filter and map view in Dynamics 365 Field Service.](../field-service/media/field-service-schedule-board-map-view.png "Schedule board filter and map view in Dynamics 365 Field Service")  
   
 ### Set filters  
   
@@ -59,20 +57,20 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
    - **Characteristics – Rating**, filters by skills that resources possess, with a rating of familiar, good, or proficient. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
   
-   - **Roles**, filters by resource role and associates skills and proficiencies to that role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure resource roles (Project Service Automation)](../project-service/configure-resource-roles.md)  
+   - **Roles**, filters by resource role and associates skills and proficiencies to that role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure resource roles (Project Service Automation)](/dynamics365/project-operations/psa/configure-resource-roles)  
   
    - **Service Territory** filters will narrow down the schedule board to only those resources who belong to that territory.  
   
-   - **Organizational units** filters groups or divisions in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create organizational units (Project Service Automation)](../project-service/create-organizational-units.md)  
+   - **Organizational units** filters groups or divisions in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create organizational units (Project Service Automation)](/dynamics365/project-operations/psa/create-organizational-units)  
   
    - **Resource Types**, when selected, will show up in the Schedule Board pane by associated category. Categories are defined by the user, but could include things like crew, technician, or plumber.  
   
    - **Teams** filters by teams that have been set up.  
   
-   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-units.md)  
+   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](/power-platform/admin/create-edit-business-units)  
   
 ### Set default filters  
- ![Schedule Board Default Filters](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  
+ ![Schedule Board Default Filters.](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  
   
 -   If you update a filter and want to save it as your new default filter, select **Options** > **Save Current Filters as Default**.  
   
@@ -93,7 +91,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 ## Configuration tabs  
  Configuration tabs let you choose the time unit to be displayed, the view orientation, the time offset, and other actions like getting driving directions, moving bookings to the next day, printing the schedule, or add a booking alert.  
   
- ![Schedule board configuration tabs](../field-service/media/field-service-schedule-board-configuration-tabs.png "Schedule board configuration tabs")  
+ ![Schedule board configuration tabs.](../field-service/media/field-service-schedule-board-configuration-tabs.png "Schedule board configuration tabs")  
   
  **View Options**  
   
@@ -131,7 +129,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 ### Details  
  Select **Details** on the right to see a detailed view of bookings.  
   
- ![Schedule board details option](../field-service/media/field-service-schedule-board-details-option.png "Schedule board details option")  
+ ![Schedule board details option.](../field-service/media/field-service-schedule-board-details-option.png "Schedule board details option")  
   
 <a name="BKMK_ConfigureUnscheduledWorkOrderArea"></a>   
 ## Configure Booking Requirements  
@@ -157,7 +155,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   > [!NOTE]
   >  To edit an existing schedule board view, double-click the view name.  
   
-  ![Schedule board view name](../field-service/media/field-service-schedule-board-view-name.png "Schedule board view name")  
+  ![Schedule board view name.](../field-service/media/field-service-schedule-board-view-name.png "Schedule board view name")  
   
 - A window opens showing all the configuration options.  
   
@@ -172,7 +170,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   -   Select **Add** at the bottom of the pop-up window to create the new tab.  
   
   > [!NOTE]
-  >  Your admin can also add custom views to the list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a public view for an entity](../customize/create-edit-views.md)  
+  >  Your admin can also add custom views to the list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a public view for an entity](../customerengagement/on-premises/customize/create-edit-views.md)  
   
 - Select the **Unscheduled Panels** view, and then choose a view from the drop-down list. Choose a view for the unscheduled bookings at the bottom of the schedule board.  
   

@@ -1,12 +1,11 @@
 ---
 title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
-description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
-author: lalexms
-ms.author: laalexan
-manager: shujoshi
-ms.date: 10/05/2020
+description: "Get instructions for configuring an SMS channel for TeleSign in Omnichannel for Customer Service."
+ms.date: 04/15/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 ---
 
 # Configure an SMS channel for TeleSign
@@ -15,7 +14,7 @@ ms.service: "dynamics-365-customerservice"
 
 An SMS channel allows your organization to connect to customers by using text messages. After you configure an SMS channel, your customers can send text messages and connect with a customer service agent. This provides your customers the flexibility to connect with their mobile devices when an internet connection is not available to connect to a chat channel.
 
-Agents can view the incoming SMS requests on their dashboard and respond accordingly.
+Agents can view incoming SMS requests on their dashboard and respond accordingly.
 
 The tasks to add SMS support for TeleSign are as follows:
 
@@ -51,35 +50,82 @@ To sign up for TeleSign
 
 4. You are provided with a callback URL that must be sent to [TeleSign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization. When you send an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
 
-## Add SMS support for your organization
+## Add SMS support in Omnichannel admin center
 
-1. Sign in to Omnichannel Administration.
+1. In the Omnichannel admin center site map, select **Channels**, and select **Add account**.
+2. Enter the following details:
+   1. In **Channel details**, enter a name, and select SMS in **Channel**.
+   2. In **Account details**, select TeleSign in **Provider**, and enter the following details:
+      - **Customer ID:** Customer ID generated from the TeleSign account.
+      - **API key:** API key generated from the TeleSign account.
+   3. In **SMS phone numbers**, select **Add**, and enter the following details in **Add SMS number**:
+    - **Number:** Specify the support phone number that you purchased from TeleSign in the *<phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
+    - **Type:** Select Geo, Short code, or Toll free.
+    - **Description:** Enter a description.
+    - **Validate:** Select to validate the customer ID and API key.
+   4. In **Callback URL**, copy the value and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com) with your customer ID; enter the subject line as "Omnichannel for Customer Service callback URL update request".
+3. Open the workstream that you created for the SMS channel for TeleSign.
+4. Select **Add SMS Channel**, and configure the following options:
+   1. On the **SMS number** page, select a number from the list.
+   2. On the **Language** page, select the language that you want to set as the default.
+   3. On the **Behaviors** page, configure the following options:
+     - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md).
+     - [Custom automated messages](configure-automated-message.md)
+     - [Post-conversation survey](configure-post-conversation-survey.md)
+   4. In **User features**, set the toggle for **File attachments** to **On** and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md).
+     - Customers can send file attachments
+     - Agents can send file attachments
+   5. Verify the settings on the **Summary** page, and select **Finish**. The SMS for TeleSign channel is configured.
+5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+8. In **Advanced settings**, configure the following options based on your business needs:
+   - [Sessions](../app-profile-manager/session-templates.md)
+   - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
+   - [Context variables](create-workstreams.md#configure-context-variables)
+   - [Smart assist bots](smart-assist-bot.md)
+   - [Quick replies](create-quick-replies.md)
 
-2. Go to **Work Distribution Management** > **Work Streams**.
+## Flow of data between Omnichannel for Customer Service - SMS channel and TeleSign
 
-3. Select **New** to create a work stream.
+### Incoming text messages
 
-4. On the **Work Distribution** tab, enter the following information:
-    - **Name**: Name of the work stream.
+For an incoming text message sent by a customer to the support phone number, the message is first sent to the TeleSign service and then pushed by TeleSign to Omnichannel for Customer Service using the callback URL. After this, the message gets routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
+
+### Outgoing text messages
+
+For an outgoing message sent by an agent from within Dynamics 365, the message is first sent to the TeleSign service and then TeleSign sends it to the customer. In addition to the text message, Omnichannel for Customer Service uses the APIs provided by TeleSign to send the customer's phone number, support phone number (TeleSign SenderID), and the TeleSign account information (CustomerID and the API Key) to the TeleSign service.
+
+### TeleSign API Key Validation
+
+When you validate the API key while setting up the SMS channel, a call is made to TeleSign to validate customer ID and the API key.
+
+## Add SMS support in Omnichannel Administration
+
+1. In the Omnichannel Administration app, go to **Work Streams** under **Work Distribution Management**.
+
+2. Select **New** to create a workstream. On the **Work Distribution** tab, enter the following information:
+
+    - **Name**: Name of the workstream.
     - **Channel**: Select **SMS**.
-    - **Auto-close after inactivity**: Select a duration of at least 8 hours
+    - **Auto-close after inactivity**: Select a duration of at least 8 hours.
     - **Allow automated messages**: Specify **Yes** to be able to define the business hours.
 
     > [!div class=mx-imgBorder]
-    > ![SMS work stream](media/sms-workstream.png "SMS work stream")
+    > ![SMS channel - new workstream.](media/sms-workstream.png "SMS channel - new workstream")
 
-5. On the **SMS Settings** tab, enter the following information:
+3. On the **SMS Settings** tab, enter the following information:
     - **Customer ID**: Customer ID generated from the TeleSign account.
     - **API key**: API key generated from the TeleSign account.
 
-6. Copy the value from the **TeleSign inbound URL** field, and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com) with your customer ID; enter the subject line as "Omnichannel for Customer Service callback URL update request". This value is the callback URL that is used to process incoming SMS messages.
+4. Copy the value from the **TeleSign inbound URL** field, and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com) with your customer ID; enter the subject line as "Omnichannel for Customer Service callback URL update request". This value is the callback URL that is used to process incoming SMS messages.
 
-7. Select **Save**.
+5. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![SMS Settings tab](media/sms-settings.png "SMS Settings tab")
+    > ![SMS Settings tab.](media/sms-settings.png "SMS Settings tab")
 
-8. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
+6. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
     - **Number**: Specify the support phone number that you purchased from TeleSign in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
     - **SMS number language**: This is the preferred language that will be used when you configure automated messages on the **Automated messages** tab. 
@@ -89,46 +135,32 @@ To sign up for TeleSign
 
     > [!NOTE]
     >
-    > - You can configure only one phone number per work stream.
-    > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;country code&gt;&lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
+    > - You can configure only one phone number per workstream.
+    > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
     > - Short code is supported for enterprise accounts.
 
     > [!div class=mx-imgBorder]
-    > ![SMS Numbers tab](media/sms-number.png "SMS Numbers tab")
+    > ![SMS Numbers tab.](media/sms-number.png "SMS Numbers tab")
 
-9. Select **Save**.
+7. Select **Save**.
 
-10. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
+8. (Optional). On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
-11. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+9. (Optional). On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-12. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
+10. Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
 
     > [!div class=mx-imgBorder]
-    > ![Validate API Key](media/validate-key.png "Validate API Key")
+    > ![Validate API Key.](media/validate-key.png "Validate API Key")
 
-13. Open the work stream you created for SMS.
+11. Open the workstream you created for SMS.
 
-14. On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity. The customer is identified based on the **Mobile Phone** field and the conversation is automatically linked to the contact record.
-
-## Flow of data between Omnichannel for Customer Service - SMS channel and TeleSign
-
-### Incoming text messages
-
-For an incoming text message sent by a customer to the support phone number, the message is first sent to the TeleSign service and then pushed by TeleSign to Omnichannel for Customer Service using the callback URL. After this, the message gets routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
-
-### Outgoing Text Messages
-
-For an outgoing message sent by an agent from within Dynamics 365, the message is first sent to the TeleSign service and then TeleSign sends it to the customer. In addition to the text message, Omnichannel for Customer Service uses the APIs provided by TeleSign to send the customer's phone number, support phone number (TeleSign SenderID), and the TeleSign account information (CustomerID and the API Key) to the TeleSign service.
-
-### TeleSign API Key Validation
-
-When you validate the API key while setting up the SMS channel, a call is made to TeleSign to validate customer ID and the API key.
+12. On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity. The customer is identified based on the **Mobile Phone** field and the conversation is automatically linked to the contact record.
 
 ### See also
 
 [Overview of channels](channels.md) <br />
-[Understand and create work streams](work-streams-introduction.md)  <br />
+[Understand and create work streams](create-workstreams.md)  <br />
 [Create and manage routing rules](routing-rules.md) <br />
 [Configure automated messages](configure-automated-message.md) <br />
 [Delete a configured channel](delete-channel.md)<br />

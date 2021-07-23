@@ -1,12 +1,10 @@
 ---
-title: "msdyn_playbookcategory EntityType | MicrosoftDocs"
-description: "Entity reference for msdyn_playbookcategory EntityType"
+title: "msdyn_playbookcategory EntityType - Sales Enterprise | MicrosoftDocs"
+description: "As developer, use this reference information to understand the msdyn_playbookcategory EntityType and its properties"
 ms.date: 04/08/2019
-ms.service: 
-  - crm-online
 ms.topic: article
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # msdyn_playbookcategory EntityType
