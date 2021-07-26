@@ -139,12 +139,15 @@ With social profiles, you can do the following:
 
 ## Support for formatted messages
 <!-- Is Live Chat a supported channel as well? -->
-
+<!--
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+-->
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
 
-Agents can use basic formatting capabilities in their outgoing messages across both asynchronous and live chat channels. However, be aware that some styles are not currently supported across some channels. The following table lists the text styles supported by the Teams, Facebook, WhatsApp, Telegram, and Direct Line channels.
+Agents can use basic formatting capabilities in their outgoing messages across both asynchronous and live chat channels. However, be aware that some styles are not currently supported across some channels. The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
 
-| Style                | Teams | Facebook | WhatsApp | Telegram | Direct Line |
+| Style      | Microsoft Teams | Facebook | WhatsApp | Telegram | Custom Messaging (Direct Line) |
 | -------------------- | ----- | -------- | ------ | -----------| ------------|
 | bold                 | ✔     | ✔       | ✔      | ✔         | ✔           |
 | italics              | ✔     | ✔       | ✔      | ✔         | ✔           |

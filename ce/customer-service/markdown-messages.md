@@ -19,14 +19,14 @@ ms.topic: reference
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-In Omnichannel for Customer Service, you can send messages that you've formatted by using Markdown via the Direct Line custom messaging channel.
+In Omnichannel for Customer Service, you can send messages that you've formatted by using Markdown via custom messaging channel based on Direct Line.
 
 > [!NOTE]
 > To be able to use Markdown in your custom messaging channels, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
 
 ## Markdown formats
 
-The following table lists the Markdown formats that you can use when you send messages to the customer.
+The following table lists the Markdown formats that you can use when you send messages to customers.
 
 |      Style                |    Outbound                          | Example   |
 | ----                      |  ---------------                     | --------  |

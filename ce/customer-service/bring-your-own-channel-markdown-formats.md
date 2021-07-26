@@ -3,7 +3,7 @@ title: "Use Markdown to format messages: Direct Line | MicrosoftDocs"
 description: "Use this topic to understand how Markdown formats are passed through in custom messaging channels using Direct Line API in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
-manager: shujosh7
+manager: shujoshi
 ms.date: 07/30/2021
 ms.topic: reference
 
@@ -37,13 +37,14 @@ The following table lists the Markdown formats used in inbound messages received
 | strikethrough             | ~strikethrough~                     | ~strikethrough~                       | ~~text~~  |
 | heading levels 1 through 4| # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br>           | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | **Heading Text 3** <br> 
 | hyperlink                 | (https://www.microsoft.com)         | (https://www.microsoft.com)           | <https://www.microsoft.com>|
-| hyperlink with text       | [link](https://www.microsoft.com  ) | [link](https://www.microsoft.com)     | <https://www.microsoft.com>|
-| monospace                 | \`\`\`\ntext\n\`\`\`                | \`\`\`\ntext\n\`\`\`                  | ```text` ``                |
+| hyperlink with text       | [link](https://www.microsoft.com) | [link](https://www.microsoft.com)     | <https://www.microsoft.com>|
+| monospace                 | \`\`\`\ntext\n\`\`\`                | \`\`\`\ntext\n\`\`\`                  | ```text```                |
 | numbered list             |  <number> item one                  | <number> item one                     |  1. item one <br> 2. item two  |
 | unordered list            | \* item one <br> OR <br> - item one | \* item one <br> OR <br> - item one   |  \* item one <br> \* item two  |
 
-For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property. For outbound messages, the Markdown text is received in the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property (similar to a normal message). 
-.
+For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property. 
+
+For outbound messages, the Markdown text will be received in the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property (similar to a normal message).
 
 ### See also
 

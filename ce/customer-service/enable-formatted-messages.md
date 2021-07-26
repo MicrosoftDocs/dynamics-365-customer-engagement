@@ -22,8 +22,6 @@ You can allow your agents to send and receive formatted messages by enabling the
 
 3. In the **Markdown settings** area under Omnichannel Configuration, set the **Turn on Markdown** toggle to **Yes**.
 
-
-
 ### See also
 
 [Support for live chat and asynchronous channels](asynchronous-channels.md)  
@@ -33,6 +31,5 @@ You can allow your agents to send and receive formatted messages by enabling the
 [Configure a WhatsApp channel](configure-whatsapp-channel.md)  
 [Configure a WeChat channel](configure-wechat-channel.md)  
 [Configure a LINE channel](configure-line-channel.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

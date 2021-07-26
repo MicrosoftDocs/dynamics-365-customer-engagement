@@ -1,6 +1,6 @@
 ---
 title: "Bring your own custom messaging channel: Direct Line | MicrosoftDocs"
-description: "This topic provides information on how you can integrate custom messaging channels using Direct Line."
+description: "This topic provides information on how you can integrate custom messaging channels using Direct Line API 3.0."
 ms.date: 10/12/2020
 ms.topic: reference
 author: mh-jaya
@@ -59,7 +59,7 @@ The channel adapters perform the following inbound activities:
 
 1. Validate the inbound message request signature.
 
-The inbound request from the channel is validated based on the signing key, and if the request is invalid, it throws an Invalid Signature exception message. If the request is valid, it proceeds with following steps:
+The inbound request from the channel is validated based on the signing key, and if the request is invalid, it throws an "invalid signature" exception message. If the request is valid, it proceeds with following steps:
 
 ```javascript
   /// <summary>
@@ -183,7 +183,7 @@ The sample JSON payload is as follows:
 
 3. Send the activity to the message relay processor.
 
-After building the activity payload, it calls the message relay processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor will invoke as soon as it receives an outbound message from Omnichannel for Customer Service through Direct Line.
+After building the activity payload, it calls the message relay processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor will invoke when it receives an outbound message from Omnichannel for Customer Service through Direct Line.
 
 #### Process outbound activities
 

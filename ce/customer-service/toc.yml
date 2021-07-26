@@ -557,8 +557,8 @@
         - name: Test the custom messaging channel
           href: bring-your-own-channel-sample-html.md
         - name: "Markdown formats for custom messaging: Direct Line"
-          href: markdown-bring-your-own-channel.md
-    - name: Support for formatted messages
+          href: bring-your-own-channel-markdown-formats.md
+    - name: Support for live chat and asynchronous channels
       href: asynchronous-channels.md
   - name: Advanced settings for chat and channels
     items: 
