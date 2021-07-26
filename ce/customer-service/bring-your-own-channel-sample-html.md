@@ -1,6 +1,6 @@
 ---
 title: "Test the custom messaging channel | Microsoft Docs"
-description: "This topic provides sample code to test the integration of custom messaging channels."
+description: "This topic provides sample code to test the custom messaging channel you want to integrate with Omnichannel for Customer Service."
 ms.date: 07/07/2020
 ms.topic: reference
 author: platkat

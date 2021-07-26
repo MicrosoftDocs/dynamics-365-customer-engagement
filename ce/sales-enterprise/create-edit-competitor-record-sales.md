@@ -1,5 +1,5 @@
 ---
-title: "Create or edit competitor records - Sales Enterprise) | MicrosoftDocs"
+title: "Create or edit competitor records - (Sales Enterprise) | MicrosoftDocs"
 description: "Track information about your competitor’s strengths and weaknesses and share it with your colleagues to help everyone stay current."
 ms.date: 02/10/2021
 ms.topic: article

@@ -39,7 +39,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)  
-[Smart assist] (smart-assist.md)  
+[Smart assist](smart-assist.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
