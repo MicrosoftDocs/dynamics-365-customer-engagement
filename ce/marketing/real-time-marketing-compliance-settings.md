@@ -29,7 +29,7 @@ search.app:
 
 - **Consent center** (**Real-time marketing** > **Audience** > **Consent center**): The area within real-time marketing where you can manage your customers’ consent per contact point, either for email or mobile phone number.
 - **Compliance** (**Settings** > **Customer engagement** > **Compliance**): The area within the Dynamics 365 Marketing settings where an administrator sets up compliance for:
-    - **Real-time marketing**: The administrator can select the consent model, enter the company’s physical address, and define the content of the end user’s preference center page.
+    - **Real-time marketing**: The administrator can select the consent model, select to request tracking consent from your customers or not, enter the company’s physical address, and define the content of the end user’s preference center page.
     -	**Outbound marketing**: The administrator can enable use of the minimum consent level attribute for customer journeys and audit the *Consent given* field (formerly called *GDPR configuration*).
 - **Consent model**: The model that is applied throughout the system. There are two options to select from: Restrictive and Non-Restrictive (see details below).
 - **Preference center page**: A web page where your customers can change their consent settings for receiving emails and text messages, as well as for tracking.
@@ -53,16 +53,24 @@ There are two options to select from. With the **Restrictive** model, your custo
 |--------------|--------------|------------------|
 | FALSE        | FALSE        | FALSE            | 
 
-With the **Non-restrictive** model, your customers’ initial opt-ins will *not* be required to receive marketing emails and allow behavior tracking. In compliance with the [United State Telephone Consumer Protection Act (TCPA)](https://www.fcc.gov/sites/default/files/tcpa-rules.pdf), sending text messages will still require customers to opt in first. Default values for these fields are the following:
+ [!NOTE]
+>  Double opt-in is not currently supported in real-time customer journeys.
+> 
+With the **Non-restrictive** model, your customers’ initial opt-ins will *not* be required to receive marketing emails and allow behavior tracking. However, sending text messages will still require customers to opt in first. Default values for these fields are the following:
 
 | Allow Email  | Allow SMS    | Allow Tracking   |
 |--------------|--------------|------------------|
 | TRUE         | FALSE        | TRUE             | 
 
-The administrator will also need to enter a valid physical postal address for your organization. By default, the address that was entered during the Dynamics 365 Marketing setup is displayed. You may change the address at any time. The address will be included in the content of all marketing emails. 
+You can define yourself if you wish to gather tracking consent from your customers or not. This selection is made by the switch **Get tracking consent from customers**. By default it is set up to "Yes" and this consent is added to the Preference page. If you select not to gather tracking consent, you'll be requested to enter the default value for this type of consent that system will use.
+
+ [!NOTE]
+ If tracking consent is set to "no", you will not be able to capture interactions from the customer, eg to know if he has opened email or not.
+
+The administrator will also need to enter a valid physical postal address for your organization. You may change the address at any time, either in Compliance center or directly in email editor. The address will be included by default in the content of all marketing emails. 
 
 > [!IMPORTANT]
-> If the physical address field is empty, marketing emails will be blocked in customer journeys.
+> If the physical address field is empty, you will see a warning both in the email editor and in the customer journey designer.
 
 ## Preference page
 
@@ -84,6 +92,9 @@ The Preference page includes the following content:
 - **Submit button label**: Text for the *Submit* button.
 - **Thank you page**: Text for the confirmation or thank you page (in case of success).
 - **Error page**: Text for the error page (in case of error in submitting).
+
+[!IMPORTANT]
+You can preview your Preference page by clicking the "Preview the page" link on the bottom of the page. It will open a new window and show an example of the Preference page with all changes you've made.
 
 After configuring the **Compliance** and **Preference page** tabs, select **Save**.
 
