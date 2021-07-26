@@ -31,7 +31,7 @@ To add the Facebook channel instance, you must configure the channel account by 
    1. On the **Channel details** page, enter a name and select Facebook in **Channels**.
    2. On the **Add account** page, specify the Facebook application ID and application secret. To get the application ID and application secret, go to your Facebook application, select **Settings** > **Basic**, and copy the value in the **App ID** and **App Secret** fields, respectively.
    3. On **Add Facebook Pages to this account**, do the following steps:
-   4. Select **Add**, and in the** Add Facebook Page** pane, enter the following details:
+   4. Select **Add**, and in the **Add Facebook Page** pane, enter the following details:
       - **Page name:** Name of the Facebook page.
       - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select About, and copy the value in the Page ID field.
       - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
