@@ -13,16 +13,15 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-
 ## Support for adaptive cards
 
 | Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card |
 |----------------------|---------------|-----------|--------------|----------------|------------- |------------|
-| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ❌         | 
-| Facebook             | ⚠🔶          | ✔        | ✔            | ✔              | ✔           | 🌐         | 
-| LINE                 | ⚠🔶          | ✔        | ✔            | ✔              | ✔           | 🌐         | 
-| Custom messaging (Telegram)    | ⚠🔶            | ✔           | ✔              | ✔            | ✔         | 🌐         | 
-| Custom messaging (Direct Line) | ✔              | ✔            | ✔              | ✔            | ✔         | ✔          | 
+| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ❌         |
+| Facebook             | ⚠🔶          | ✔        | ✔            | ✔              | ✔           | 🌐         |
+| LINE                 | ⚠🔶          | ✔        | ✔            | ✔              | ✔           | 🌐         |
+| Custom messaging (Telegram)    | ⚠🔶            | ✔           | ✔              | ✔            | ✔         | 🌐         |
+| Custom messaging (Direct Line) | ✔              | ✔            | ✔              | ✔            | ✔         | ✔          |
 
 > [!Note]
 >
@@ -147,8 +146,8 @@ With social profiles, you can do the following:
 
 Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, be aware that some styles are not currently supported across some channels. The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
 
-| Style                |  Microsoft Teams | Facebook | WhatsApp | Custom messaging (Telegram) | Custom messaging (Direct Line) |
-| ---------------------| ----- ---------- | -------- | -------- | ---------------------------   |------------------------------|
+| Style         | Microsoft Teams | Facebook | WhatsApp | Custom messaging (Telegram) | Custom messaging (Direct Line) |
+|---------------| ---------- | -------- | -------- | --------------------------- |------------------------------|
 | bold                 | ✔                | ✔       | ✔      | ✔                            | ✔           |
 | italics              | ✔                | ✔       | ✔      | ✔                            | ✔           |
 | strikethrough        | ✔                | ✔       | ✔      | ✔                            | ✔           |
@@ -161,12 +160,13 @@ Agents can use basic formatting capabilities in their outbound messages across b
 | numbered list        | ✔                | ✖       | ✖      | ✖                            | ✔           |
 | unordered list       | ✔                | ✖       | ✖      | ✖                            | ✔           |
 
+
 ### See also
 
 [Overview of channels](channels.md)  
-[Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)  
+[Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 [Enable file attachments](enable-file-attachments.md)   
-[Markdown format for custom messaging channels](markdown-bring-your-own-channel.md)  
+[Use Markdown formats in custom messaging channels: Direct Line](bring-your-own-channel-markdown-formats.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
