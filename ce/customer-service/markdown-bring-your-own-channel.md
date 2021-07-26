@@ -1,5 +1,5 @@
 ---
-title: "Use Markdown to format messages&mdash;Direct Line | MicrosoftDocs"
+title: "Use Markdown to format messages: Direct Line | MicrosoftDocs"
 description: "Use this topic to understand how Markdown formats are passed through in custom messaging channels like Direct Line in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
@@ -49,7 +49,7 @@ For outbound messages, the Markdown text is received in the Activity object's `T
 ### See also
 
 [Support for live chat and asynchronous channels](asynchronous-channels.md)  
-[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
+[Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
 [Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 [Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)  

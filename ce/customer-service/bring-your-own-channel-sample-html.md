@@ -1,6 +1,6 @@
 ---
-title: "Test the custom messaging channel | Microsoft Docs"
-description: "This topic provides sample code to test the custom messaging channel you want to integrate with Omnichannel for Customer Service."
+title: "Test the custom messaging channel | MicrosoftDocs"
+description: "This topic provides sample code to test the custom messaging channel that you want to integrate with Omnichannel for Customer Service."
 ms.date: 07/07/2020
 ms.topic: reference
 author: platkat
@@ -67,6 +67,5 @@ You can use the following sample code to test the custom messaging channel you w
 
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

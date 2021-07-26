@@ -1,5 +1,5 @@
 ---
-title: "Bring your own custom messaging channel&mdash;Direct Line | MicrosoftDocs"
+title: "Bring your own custom messaging channel: Direct Line | MicrosoftDocs"
 description: "This topic provides information on how you can integrate custom messaging channels using Direct Line."
 ms.date: 10/12/2020
 ms.topic: reference
@@ -11,7 +11,9 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels by using Direct Line. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. This sample uses Direct Line API 3.0 as part of .NET SDK to create a Direct Line client and the channel adapter explained below to build a sample connector.
+Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0).
+
+The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
 
 ## Components
 
@@ -53,11 +55,11 @@ The channel adapter must implement the `IAdapterBuilder` interface. The channel 
 
 #### Process inbound activities
 
-The channel adapters do the following steps:
+The channel adapters perform the following inbound activities:
 
 1. Validate the inbound message request signature.
 
-The inbound request from the channel is validated based on the signing key, and if the request is invalid it throws an Invalid Signature Exception message. If the request is valid, it proceeds with following steps.
+The inbound request from the channel is validated based on the signing key, and if the request is invalid, it throws an Invalid Signature exception message. If the request is valid, it proceeds with following steps:
 
 ```javascript
   /// <summary>
@@ -97,20 +99,20 @@ The inbound request from the channel is validated based on the signing key, and 
 
 2. Convert the inbound request to a bot activity.
 
-The inbound request payload is converted into an activity that the Bot Framework can understand. This Activity object contains the following attributes.
+The inbound request payload is converted into an activity that the Bot Framework can understand. This Activity object includes the following attributes.
 
 |Attribute    |Description       |
 |-------------|------------------|
-|**From**| Stores the channel account information, which consists of the unique identifier of the user and name (combination of first name and last name, separated by a space delimiter).|
-|**ChannelId**| Indicates the channel identifier. For inbound requests, the channel ID is `directline`.|
-|**ServiceUrl**| Indicates the service URL. For inbound requests, the service URL is `https://directline.botframework.com/`.|
-|**Type**| Indicates the activity type. For message activities, the type is `Message`. |
-|**Text**|Stores the message content. |
-|**Id**| Indicates the identifier that the adapter uses to respond to outbound messages. |
-|**Channel Data**| Indicates channel data, which consists of `Channel Type`, `Conversation Context`, and `Customer Context`. |
-|**Channel Type**| Indicates the channel name through which the customer is sending messages. For example, MessageBird, KakaoTalk, Snapchat |
-|**Conversation Context**| Refers to a dictionary object that holds the context variables defined in the workstream. OmniChannel for Customer Service uses this information to route the conversation to the right agent. For example:<br>"conversationcontext ":{ "ProductName" : "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the agent who deals with Xbox installation.|
-|**Customer Context**| Refers to a dictionary object that holds the customer details such as phone number and email address. OmniChannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":"email@email.com", "phonenumber":"1234567890" }|
+|**from**| Stores the channel account information, which consists of the unique identifier of the user and name (combination of first name and last name, separated by a space delimiter).|
+|**channelId**| Indicates the channel identifier. For inbound requests, the channel ID is `directline`.|
+|**serviceUrl**| Indicates the service URL. For inbound requests, the service URL is `https://directline.botframework.com/`.|
+|**type**| Indicates the activity type. For message activities, the type is `message`. |
+|**text**|Stores the message content. |
+|**id**| Indicates the identifier that the adapter uses to respond to outbound messages. |
+|**channelData**| Indicates channel data, which consists of `channelType`, `conversationcontext`, and `customercontext`. |
+|**channelType**| Indicates the channel name through which the customer is sending messages. For example, MessageBird, KakaoTalk, Snapchat |
+|**conversationcontext**| Refers to a dictionary object that holds the context variables defined in the workstream. OmniChannel for Customer Service uses this information to route the conversation to the right agent. For example:<br>"conversationcontext ":{ "ProductName" : "Xbox", "Issue":"Installation" }<br>In this example, the context routes the conversation to the agent who deals with Xbox installation.|
+|**customercontext**| Refers to a dictionary object that holds the customer details such as phone number and email address. OmniChannel for Customer Service uses this information to identify the user's contact record.<br>"customercontext":{ "email":"email@email.com", "phonenumber":"1234567890" }|
 
 ```javascript
   /// <summary>
@@ -181,11 +183,11 @@ The sample JSON payload is as follows:
 
 3. Send the activity to the message relay processor.
 
-After building the activity payload, it calls the message relay processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor will invoke as soon as it receives an outbound message from OmniChannel for Customer Service through Direct Line.
+After building the activity payload, it calls the message relay processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor will invoke as soon as it receives an outbound message from Omnichannel for Customer Service through Direct Line.
 
 #### Process outbound activities
 
-The relay processor invokes the event handler to send outbound activities to the respective channel adapter, and the adapter then processes the outbound activities. The channel adapter does the following steps:
+The relay processor invokes the event handler to send outbound activities to the respective channel adapter, and the adapter then processes the outbound activities. The channel adapter performs the following outbound activities:
 
 1. Convert outbound activities to the channel response model.
 

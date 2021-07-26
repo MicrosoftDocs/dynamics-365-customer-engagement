@@ -1,5 +1,5 @@
 ---
-title: "Use Markdown format for outbound messaging&mdash;Direct Line | MicrosoftDocs"
+title: "Use Markdown format for outbound messaging: Direct Line | MicrosoftDocs"
 description: "Get information on how to use Markdown format to send messages via Direct Line custom messaging channel in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
@@ -33,17 +33,18 @@ The following table lists the Markdown formats that you can use when you send me
 | bold                      | \*bold\*                             | **text**  |
 | italics                   | \_italics\_                          | *text*    |
 | strikethrough             | ~strikethrough~                      | ~~text~~  |
+| blockquote                | > blockquote                         | > Quoted text  |
 | heading levels 1 through 4| # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br>     | **Heading Text 3** <br> |
-| hyperlink                 | (https://www.microsoft.com)          | <https://www.microsoft.com>    |
-| hyperlink with text       | [link](https://www.microsoft.com)    | <https://www.microsoft.com>    |
-| monospace                 | \`\`\`\ntext\n\`\`\`                 | ```text` ``                    |
+| hyperlink                 | https://www.microsoft.com            | <https://www.microsoft.com>    |
+| hyperlink with text       | \[text\]<https://www.microsoft.com>   | [Microsoft website](https://www.microsoft.com) |
+| monospace                 | \`\`\`\ntext\n\`\`\`                 | ```text```                  |
 | numbered list             |  <number> item one                   |  1. item one <br> 2. item two  |
 | unordered list            | \* item one <br> OR <br> - item one  |  \* item one <br> \* item two  |
 
 ### See also
 
 [Support for live chat and asynchronous channels](asynchronous-channels.md)  
-[Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
+[Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
 [Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 [Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)  
