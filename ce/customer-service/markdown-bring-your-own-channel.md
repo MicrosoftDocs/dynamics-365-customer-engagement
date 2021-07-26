@@ -1,6 +1,6 @@
 ---
 title: "Use Markdown to format messages: Direct Line | MicrosoftDocs"
-description: "Use this topic to understand how Markdown formats are passed through in custom messaging channels like Direct Line in Omnichannel for Customer Service."
+description: "Use this topic to understand how Markdown formats are passed through in custom messaging channels using Direct Line API in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujosh7
@@ -19,12 +19,12 @@ ms.topic: reference
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-In Omnichannel for Customer Service, you can send and receive messages that you've formatted by using Markdown in Direct Line custom messaging channel. As a developer, understanding how the Markdown format is passed through and knowing the details of the format will help you update the HTML styling and tags in your own user interface.
+In Omnichannel for Customer Service, you can send and receive messages that you've formatted by using Markdown in custom messaging channels using Direct Line API 3.0. As a developer, understanding how the Markdown format is passed through and knowing the details of the format will help you update the HTML styling and tags in your own user interface.
 
 For example, when an agent sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you'll need to use Markdown appropriately so that the message is formatted correctly for your agents and customers.
 
 > [!NOTE]
-> To be able to use Markdown in your custom messaging channels like Direct Line, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
+> To be able to use Markdown in your custom messaging channels via Direct Line, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
 
 ## Markdown formats
 
@@ -42,9 +42,8 @@ The following table lists the Markdown formats used in inbound messages received
 | numbered list             |  <number> item one                  | <number> item one                     |  1. item one <br> 2. item two  |
 | unordered list            | \* item one <br> OR <br> - item one | \* item one <br> OR <br> - item one   |  \* item one <br> \* item two  |
 
-For inbound messages, set the Markdown text to the Activity object's `Text` property. More information: [Process inbound activities](bring-your-own-channel.md#process-inbound-activities)
-
-For outbound messages, the Markdown text is received in the Activity object's `Text` property (similar to a normal message).
+For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property. For outbound messages, the Markdown text is received in the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property (similar to a normal message). 
+.
 
 ### See also
 
