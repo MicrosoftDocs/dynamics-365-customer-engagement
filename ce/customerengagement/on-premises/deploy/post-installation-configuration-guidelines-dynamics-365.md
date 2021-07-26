@@ -154,24 +154,28 @@ If clients experience issues connecting through the IFD after you have registere
 #### Remove site authentication providers
 1. On the Dynamics 365 Server where the web application server role is running, open Internet Information Services (IIS) Manager. 
 2. In the left pane, under the organization name, expand **Sites**, and then select **Microsoft Dynamics CRM**. 
-3. Expand the **XRMServices** folder, and then select **2011**. 
-4. Double-click **Authentication** in the middle pane.
-5. Right-click **Windows Authentication**, and then select **Enable**.
-6. Right-click **Windows Authentication**, and select **Providers**. For each provider in the list, select the provider, and then select **Remove**. 
+3. Double-click **Authentication** in the middle pane.
+4. Right-click **Windows Authentication**, and select **Providers**. For each provider in the list, select the provider, select **Remove**, and then select **OK**. 
 7. After all providers are removed, right-click **Windows Authentication**, and then select **Disable**.
 
    ![Remove site provider.](media/remove-site-provider.png)
 
 Repeat the previous steps to remove all Windows Authentication providers from the **nga** and **AppWebServices** site folders. 
 
-#### Disable integrated windows authentication to prevent client authentication prompts 
+<!-- #### Disable integrated windows authentication to prevent client authentication prompts 
 1. On the AD FS server, open AD FS Management. 
 2. Select **Authentication Policies** on the left pane.
 3. In the middle pane, in **Global Settings**, locate **Authentication Methods** and then select **Edit**. 
 4. Clear **Windows Authentication** if it is checked, and then select **OK**.
 
-   ![Disable integrated windows authentication.](media/disable-windows-auth.png)
-   
+   ![Disable integrated windows authentication.](media/disable-windows-auth.png) -->
+
+#### Add the AD FS address to the client local intranet zone to avoid client authentication prompts
+
+1.	On the client computer, select **Start**, enter *inetcpl.cpl*, and select enter to open **Internet Properties**.
+2.	Select the **Security** tab, select the **Local intranet** zone, select **Sites**, and then select **Advanced**.
+3. Enter in the AD FS address, select **Add**, select **Close**, select **OK**, and then select **OK** again.
+
 #### Grant application permission when using Windows Server 2016 AD FS 
 On the AD FS server, run the following command in a Windows PowerShell console. This is required if you use Windows Server 2016 AD FS.
 
