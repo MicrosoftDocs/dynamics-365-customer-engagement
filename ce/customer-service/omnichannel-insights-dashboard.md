@@ -53,7 +53,7 @@ The reporting structure consists of the following sections:
 
 - [Conversations and channels](#conversations-and-channels)
 - [Queue and agents](#queues-and-agents)
-- [Bot insights] (#botinsights)
+- [Bot insights](#botinsights)
 
 ### Conversations and channels
 
