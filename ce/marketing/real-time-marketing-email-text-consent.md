@@ -25,10 +25,14 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-The real-time marketing Consent center allows you to track consent information given by your customers.
+The real-time marketing Consent center allows you to manage consent information given by your customers.
 
 > [!NOTE]
 > Real-time marketing consent is contact-point based. Customer consent is stored per email address or phone number, as opposed to being stored per Contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
+
+>[!IMPORTANT]
+>If you wish to run a real-time customer journey for **contacts**, for which you have already gathered consent data in outbound marketing, you don't need to take any actions in the Consent center (eg, not required to press "Load consent" button or create new consent records) **under one condition**. Consent for sending commercial emails should be stored in "Allow bulk email" field of a Contact record. Even with the Consent center empty, the app will check "Allow bulk email" field of each contact record and send a commercial email based on this data. 
+
 
 Whether consent is checked before sending emails and text messages depends on the consent model that you select on the **Compliance** page. [Learn more about compliance settings.](real-time-marketing-compliance-settings.md)
 
@@ -41,30 +45,37 @@ The message designation is a dropdown field in which you can choose **Commercial
 > [!div class="mx-imgBorder"]
 > ![Message designation settings screenshot.](media/real-time-marketing-message-designation2.png "Message designation settings screenshot")
 
-As required for commercial email, a **Company Address** placeholder and an **Unsubscribe** link are added to the email footer automatically. The company address reflects the value set on the **Compliance** page. The unsubscribe link leads to the Preference page, where customers can review and change communication preferences.
+As required for commercial email, a **Company Address** placeholder and an **Unsubscribe** link are added to the email footer automatically. The company address reflects the value set on the **Compliance** page and can be edited directly from the email editor, if needed. The unsubscribe link leads to the Preference page, where customers can review and change communication preferences.
 
 The presence of a company address and unsubscribe link is checked when you select **Ready to send**. The app will notify you if one of these parameters is missing.
 
-If you want to send commercial email, the app will check whether the email addresses of the target audience have granted consent when a customer journey is started. Messages will only be sent to customers whose email addresses were opted in.  
+>[!NOTE]
+>The app will display warnings if, eg you occasionally delete either default Company address or link to the default Preference page. However, it will not block you from sending such an email. Thus, you are able to replace the given Company address field with another one on your choice - or add a link to the custom Preference page if you like.
+
+If you want to send commercial email, the app will check whether the email addresses of the target audience have granted consent when a customer journey is started. In Restrictive model, messages will only be sent to customers whose email addresses were opted in.  
  
 ## How consent is respected for text messages
  
-In the real-time marketing Public Preview, only transactional text messages can be sent. Sending transactional text messages requires that a mobile number has opted in before it can receive the message.
+In the real-time marketing, the rules for sending text messages are pretty the same as the ones for sending emails. For sending transactional text messages, consent is not required. Sending commercial text messages requires that a mobile number was opted in before it can receive the message.
 
 ## Adding consent data
 
-When you initially install real-time marketing, the real-time marketing consent center (**Real-time marketing** > **Audience** > **Consent center**) will contain no records, even if you already gathered consent in outbound marketing. You can add consent information using one of three methods:
+When you initially install real-time marketing, the real-time marketing consent center (**Real-time marketing** > **Audience** > **Consent center**) will contain no records, even if you already gathered consent in outbound marketing. 
+As it was mentioned above, you don't need to re-enter contact consent data from outbound marketing, if you plan to run real-time journeys for contacts. If you want to re-use contact consent data for leads or profiles or wish to add new consents, you can use one of three methods:
 
 - Add new consent records for email and text messages manually by selecting the corresponding option from the top ribbon.
 - Import consent settings from an Excel file.
   > [!TIP]
   > If you don't see the **Import from Excel** option in the top ribbon, you might have to select the three dots on the right side of the ribbon to see more items.
-- Load consent information that was already captured for contacts from previous Dynamics 365 Marketing settings.
+- Load consent information that was already captured for contacts in Dynamics 365 Marketing.
 
 > [!div class="mx-imgBorder"]
 > ![Email and text consent entry screenshot.](media/real-time-marketing-email-text-consent2.png "Email and text consent entry screenshot")
 
 ## Loading consent from contacts
+
+>[!NOTE]
+> **Load consent** button is served to load consent information that is stored in Contacts records in Dynamics 365 Marketing (in outbound marketing). It is not intended to load consent from other data sources. When loading consent from contacts, only "allow bulkk email" field is considered.
 
 To load consent from contacts, an administrator must select **Load consent** from the top ribbon on the **Consent center** page.
 
@@ -82,6 +93,9 @@ To load consent from contacts, the following prerequisites must be met:
 
 Consent loaded from contacts relates to emails only and includes the following fields: *Allow email*, *Allow bulk email*, and *Allow tracking*.
 
+>[!IMPORTANT]
+>If you store consent data for contacts in the other field than "Allow bulk email", you'll need to use "Import from excel" option to load consent data to Consent center first. Only then you'll be able to send commercial email in a real-time customer journey.
+
 ## View consent records
 
 In the Consent center, you can view a list of all contact-point consents and their related attributes (type, status, source of consent data, and date modified).
@@ -90,15 +104,7 @@ To see a compact view for a single consent record or make changes to it, select 
 
 ## Audit consent records
 
-You can keep a record of all consent-related changes per contact record (who made the changes and when). The auditing system is usually disabled by default, so you'll need to set it up if you want to use it to log consent changes.
-
-To access auditing features:
-
-1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
-2. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Auditing**.
-3. Select **Global audit settings**, then select the **Start auditing** checkbox. Begin the audit by selecting **OK**.
-4. Select **Entity and Field Audit Settings**. In the left column, in the list of fields, select **Contact Point Consent**. Ensure that auditing for this field is switched on.
-5. You can access all information about field changes in the **Audit summary View** area of the **Auditing** page in **Advanced settings**.
+You can keep a record of all consent-related changes per contact record (who made the changes and when). The **Audit history** is available under consent record's "Related" tab. 
 
 > [!IMPORTANT]
 > If you restore data in customer journey orchestration, all consents will be returned to the state they were in at the time backup was made. This may result in consent data being obsolete. To avoid complications, export all consent data into Excel before starting the restore process and use it as a reference after the restore is completed.
