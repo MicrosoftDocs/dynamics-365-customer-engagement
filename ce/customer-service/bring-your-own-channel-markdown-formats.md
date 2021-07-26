@@ -1,5 +1,5 @@
 ---
-title: "Use Markdown to format messages: Direct Line | MicrosoftDocs"
+title: "Use Markdown formats in custom messaging channel: Direct Line | MicrosoftDocs"
 description: "Use this topic to understand how Markdown formats are passed through in custom messaging channels using Direct Line API in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
@@ -8,7 +8,7 @@ ms.date: 07/30/2021
 ms.topic: reference
 
 ---
-# Preview: Markdown formats for inbound and outbound messaging&mdash;Direct Line
+# Preview: Markdown formats in custom messaging channel&mdash;Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -42,7 +42,7 @@ The following table lists the Markdown formats used in inbound messages received
 | numbered list             |  <number> item one                  | <number> item one                     |  1. item one <br> 2. item two  |
 | unordered list            | \* item one <br> OR <br> - item one | \* item one <br> OR <br> - item one   |  \* item one <br> \* item two  |
 
-For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property. 
+For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property.
 
 For outbound messages, the Markdown text will be received in the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property (similar to a normal message).
 
