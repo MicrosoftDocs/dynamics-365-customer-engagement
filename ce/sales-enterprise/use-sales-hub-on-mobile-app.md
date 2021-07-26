@@ -1,7 +1,7 @@
 ---
 title: "Use Sales Hub on Dynamics 365 Sales mobile app (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the Dynamics 365 Sales mobile app to work on core sales scenarios."
-ms.date: 07/20/2021
+ms.date: 07/26/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
