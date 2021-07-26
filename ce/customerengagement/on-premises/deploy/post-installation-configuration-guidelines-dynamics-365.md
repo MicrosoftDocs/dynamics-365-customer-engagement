@@ -172,7 +172,7 @@ Repeat the previous steps to remove all Windows Authentication providers from th
 
 #### Add the AD FS address to the client local intranet zone to avoid client authentication prompts
 
-1.	On the client computer, select **Start**, enter *inetcpl.cpl*, and select enter to open **Internet Properties**.
+1.	On the client computer, select **Start**, enter *inetcpl.cpl*, and select Enter to open **Internet Properties**.
 2.	Select the **Security** tab, select the **Local intranet** zone, select **Sites**, and then select **Advanced**.
 3. Enter in the AD FS address, select **Add**, select **Close**, select **OK**, and then select **OK** again.
 
