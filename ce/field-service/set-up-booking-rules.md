@@ -68,7 +68,7 @@ The following screenshot shows a newly created solution. We recommend that your 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the booking rules.](./media/scheduling-booking-rules-new.png)
 
-4. Save your booking rule. Once you save the booking rule, it will be used by the hourly view of schedule board and schedule assistant or the entity form. You can deactivate your booking rule record to keep the schedule board, schedule assistant or the booking entity form, from executing the rule.
+4. Save your booking rule. Once you save the booking rule, it will be used by the hourly view of schedule board and schedule assistant or the entity form. You can deactivate your booking rule record to keep the schedule board, schedule assistant, or the booking entity form, from executing the rule.
 
 > [!Note]
 > The booking rules are currently only supported on the hourly view of the schedule board and schedule assistant. The booking rules are also supported when the bookings are created or updated using the bookable resource booking form.
