@@ -1,1 +1,1 @@
-Ends the conversation between the agent and the customer. Any browser cache related to the conversation is also deleted.
+Ends the conversation between the agent and customer. Any browser cache related to the conversation is also deleted.
