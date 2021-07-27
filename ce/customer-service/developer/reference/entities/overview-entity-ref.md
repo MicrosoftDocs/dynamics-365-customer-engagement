@@ -103,6 +103,7 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_omnichannelqueue](msdyn_omnichannelqueue.md)|
 |[msdyn_omnichannelsyncconfig](msdyn_omnichannelsyncconfig.md)|
 |[msdyn_operatinghour](msdyn_operatinghour.md)|
+|[msdyn_overflowactionconfig](msdyn_overflowactionconfig.md)|
 |[msdyn_paneconfiguration](msdyn_paneconfiguration.md)|
 |[msdyn_panetabconfiguration](msdyn_panetabconfiguration.md)|
 |[msdyn_panetoolconfiguration](msdyn_panetoolconfiguration.md)|
