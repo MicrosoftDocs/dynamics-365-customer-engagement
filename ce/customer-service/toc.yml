@@ -14,7 +14,7 @@
     items: 
     - name: Learning Catalog
       href: learning-catalog.md
-    - name: Business Decision Maker
+    - name: Business Decision Maker 
       href: learning-bdm.md
     - name: Business User
       href: learning-bus-user.md
@@ -100,6 +100,56 @@
       href: /power-platform/admin/create-users-assign-online-security-roles
     - name: Assign roles and enable users
       href: add-users-assign-roles.md
+  - name: App profile manager for Customer Service
+    items: 
+    - name: App profile manager overview
+      href: ../app-profile-manager/overview.md
+    - name: Roles and permissions
+      href: ../app-profile-manager/security-roles.md
+    - name: Use app profile manager
+      href: ../app-profile-manager/app-profile-manager.md
+    - name: Settings
+      href: ../app-profile-manager/settings.md
+    - name: Templates
+      items: 
+      - name: Manage session templates
+        href: ../app-profile-manager/session-templates.md
+      - name: Manage application tab templates
+        href: ../app-profile-manager/application-tab-templates.md
+      - name: Manage notification templates
+        href: ../app-profile-manager/notification-templates.md
+      - name: Associate templates with work streams
+        href: ../app-profile-manager/associate-templates.md
+      - name: Associate templates with workstreams
+        href: associate-templates.md
+    - name: Productivity tools
+      items: 
+      - name: Overview of productivity tools
+        href: ../app-profile-manager/productivity-tools.md
+      - name: Manage smart assist
+        href: ../app-profile-manager/smart-assist.md
+      - name: Manage agent scripts
+        href: ../app-profile-manager/agent-scripts.md
+      - name: Manage macros
+        href: ../app-profile-manager/macros.md
+      - name: Automation dictionary to pass parameters
+        href: ../app-profile-manager/automation-dictionary-keys.md
+    - name: Developer guide
+      items: 
+      - name: Overview of JavaScript API reference
+        href: ../app-profile-manager/reference/microsoft-apm.md
+      - name: Methods
+        items: 
+        - name: createTab
+          href: ../app-profile-manager/reference/microsoft-apm/createTab.md
+        - name: focusTab
+          href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
+        - name: refreshTab
+          href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
+        - name: closeTab
+          href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
+    - name: Readme
+      href: https://go.microsoft.com/fwlink/p/?linkid=2141982
   - name: Unified routing and assignment
     items:
     - name: Overview of unified routing
@@ -208,8 +258,8 @@
       items: 
       - name: Allow updates for resolved and canceled cases
         href: update-resolved-canceled-cases.md
-      - name: Modify case resolution dialog box
-        href: customer-service-hub-user-guide-modify-case-resolution-dialog.md
+      - name: Modify case resolution dialog
+        href: modify-case-resolution-dialog.md
   - name: Automatically create or update records
     items: 
     - name: Automatically create or update records in Customer Service Hub
@@ -262,9 +312,9 @@
       href: /powerapps/user/activities-known-issues
     - name: Administrator experience
       items: 
-      - name: Configure the email form order
+      - name: Configure email
         href: customer-service-hub-user-guide-email-admin.md
-      - name: Configure the email experience
+      - name: Customize the email experience
         href: customer-service-hub-user-guide-email-font-admin.md
   - name: Timeline
     items: 
@@ -600,18 +650,10 @@
     items: 
     - name: Administrator experience
       items: 
-      - name: Productivity pane in Customer Service workspace
-        href: csw-productivity-pane.md
-      - name: Productivity pane Omnichannel for Customer Service
+      - name: Productivity pane
         href: productivity-pane.md
       - name: Enable productivity pane and smart assist
         href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
-      - name: Create macros
-        href: ../app-profile-manager/macros.md
-      - name: Guide agents with scripts
-        href: ../app-profile-manager/agent-scripts.md
-      - name: Use automation dictionary
-        href: ../app-profile-manager/automation-dictionary-keys.md
       - name: Create quick replies
         href: create-quick-replies.md
       - name: Enable personal quick replies
@@ -625,7 +667,9 @@
       - name: Enable sharing of knowledge articles
         href: knowledge-management-oc.md
     - name: Agent experience
-      items: 
+      items:
+      - name: Productivity pane in Customer Service workspace
+        href: csw-productivity-pane.md
       - name: View smart assist suggestions for knowledge articles and similar cases
         href: oc-view-ai-suggested-cases-articles.md
       - name: View smart assist suggestions for agents configured using custom Azure bot
@@ -638,26 +682,12 @@
         href: smart-assist-bot.md
       - name: Implement custom scenario
         href: smart-assist-scenario.md
-  - name: Templates
-    items: 
-    - name: Overview
-      href: ../app-profile-manager/templates-overview.md
-    - name: Manage session templates
-      href: ../app-profile-manager/session-templates.md
-    - name: Manage application tab templates
-      href: ../app-profile-manager/application-tab-templates.md
-    - name: Manage notification templates
-      href: ../app-profile-manager/notification-templates.md
-    - name: Associate templates with workstreams
-      href: associate-templates.md
-  - name: Power Virtual Agents
-    items: 
-    - name: Integrate a Power Virtual Agents bot
-      href: configure-bot-virtual-agent.md
   - name: Bots
-    items: 
+    items:
     - name: Administrator experience
-      items: 
+      items:
+      - name: Integrate a Power Virtual Agents bot
+        href: configure-bot-virtual-agent.md
       - name: Integrate an Azure bot
         href: configure-bot.md
       - name: Configure context variables for bots
@@ -1292,10 +1322,6 @@
       href: csw-faqs-ai-suggestions.md
     - name: FAQs on Omnichannel for Customer Service
       href: faqs.md
-  - name: App profile manager for Customer Service
-    items: 
-    - name: App profile manager overview
-      href: ../app-profile-manager/overview.md
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide
