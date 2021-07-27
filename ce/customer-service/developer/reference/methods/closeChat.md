@@ -1,6 +1,6 @@
 ---
 title: "closeChat (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
-description: 
+description: "Includes information about closeChat method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
 ms.date: 07/09/2020
 ms.topic: article
 author: mh-jaya
