@@ -46,7 +46,7 @@ In order to get access to Resource Scheduling Optimization, you must first have 
 
 4. Purchase Resource Scheduling Optimization. Go to the **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of Resource Scheduling Optimization is based on the number of resources whose schedules are optimized. 
 > [!NOTE]
-> You will need as many licenses as the number of bookable resources that are to be optimized. One license provides RSO capability for one bookable resource. The add-on license allows for unlimited usage of RSO, be it on a regular cadence or adhoc.
+> You are required to purchase as many licenses as the number of bookable resources that are to be optimized. One license provides RSO capability for one bookable resource. The add-on purchase allows unlimited usage of RSO for resources equal to the number of user licenses purchased, be it on a regular cadence or adhoc.
 
 ## Option 2: Request trial
 
