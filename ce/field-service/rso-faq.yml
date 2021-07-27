@@ -255,11 +255,11 @@ sections:
       - question: |
           Can I have my resources start and end their day at different locations?
         answer: |
-          Yes, you can, as long as neither locations are Location Agnostic. For more information on the configuration, see start/end location section of [this article](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources#create-frontline-workers-and-other-bookable-resources-manually). 
-          Additionally, if the resource is required to start/end from a location that is not Resource Address or Organizational Unit Address, there is a workaround that can be used: 
+          Yes, you can, as long as neither locations are location agnostic. For more information on the configuration, see start/end location section of [this article](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources#create-frontline-workers-and-other-bookable-resources-manually). 
+          Additionally, if the resource is required to start/end from a location that is not resource address or organizational unit address, there is a workaround that can be used: 
            1. Extend the resource work hours by 10 minutes at the start and end of the shift. For example, if the resource's shift is from 9AM to 5PM, change it to 8:50 AM to 5:10 PM. 
-           2. Then, create hardlocked bookings (locked to Resource and Time) for these two 10-minute time slots with dummy requirements located at the place the resource is expected to start/end. 
-          Using this temporary work around, your resources can start and end at locations other than just their Resource Address or Organizatinal Unit Address.  
+           2. Then, create hardlocked bookings (locked to resource and time) for these two 10-minute time slots with dummy requirements located at the place the resource is expected to start/end. 
+          Using this temporary work around, your resources can start and end at locations other than just their resource address or organizatinal unit address.  
           
       - question: |
           What happens if I remove the "Schedule within Working Hours" constraint?
