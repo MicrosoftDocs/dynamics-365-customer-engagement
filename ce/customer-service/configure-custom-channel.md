@@ -184,7 +184,7 @@ To create a custom channel, follow these steps:
 
 ## Test your channel
 
-For more information, see the developer guide, [Bring your own custom messaging channel: Test Client HTML](test-custom-channel-sample-html.md).
+For more information, see the developer guide, [Test your custom messaging channel: Test Client HTML](test-custom-channel-sample-html.md).
 
 ## Bring channels using Direct Line
 
