@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 
 
-# Dashbaord for call insights
+# Dashboard for call insights
 
 
 > [!Important]

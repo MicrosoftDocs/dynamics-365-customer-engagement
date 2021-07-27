@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Introduction to the Voice channel 
+# Introduction to the Voice channel
 
 Enable customer service representatives to communicate with customers on the phone to resolve issues with the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS text messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. With the voice channel, Omnichannel provides agents with the ability to receive inbound and make outbound PSTN calls through a native calling experience in Dynamics 365, with real time AI-powered features such as live call transcription, sentiment analysis and AI-based Suggestions working out of the box to boost agent productivity. Omnichannel also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
 
@@ -144,9 +144,47 @@ A new support session is created when the voice call is accepted.
 
 ## Next steps
 
-1. [Install and set up](voice-channel-install.md)
-2. [Make and receive your first phone call](voice-channel-first-call.md)
-3. [Using the agent desktop for voice](voice-channel-agent-experience.md)
+[Install and set up](voice-channel-install.md)  
+[Make and receive your first phone call](voice-channel-first-call.md)  
+[Using the agent desktop for voice](voice-channel-agent-experience.md)  
+[Regional Availability](voice-channel-region-availability.md)  
+[Supported Languages](voice-channel-supported-languages.md)  
+
+### Administrator experience
+
+[Number management](voice-channel-number-management.md)  
+[Inbound calling](voice-channel-inbound-calling.md)  
+[Outbound calling](voice-channel-outbound-calling.md)  
+[Add Power Virtual Agents for conversational IVR](voice-channel-ivr-bots.md)  
+[How to route voice calls to agents](voice-channel-route-queues.md)  
+[View usage and billing](voice-channel-usage-billing.md)  
+[Configure post call survey](voice-channel-survey.md)  
+[Set up a multi-language contact center](voice-channel-multi-language-contact-center.md)  
+[Handle Call Overflow](voice-channel-call-overflow.md)  
+[Block a SPAM Number](voice-channel-block-number.md)  
+[Manage Music](voice-channel-music.md)  
+[Manage voice channel](voice-channel-manage.md)  
+
+### Agent experience
+
+[Call a customer](voice-channel-call-customer.md)  
+[Using call controls and the agent desktop for voice](voice-channel-agent-experience.md)  
+[View call recording and transcripts](voice-channel-call-recording-transcripts.md)  
+
+### Supervisor experience
+
+[Monitor Voice Calls](voice-channel-monitor-calls.md)  
+[Call insights](voice-channel-call-insights.md)  
+[Reporting and analytics](voice-channel-report-analytics.md)  
+
+### Developer experience
+
+[Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
+
+### FAQ
+
+[Voice channel FAQ](voice-channel-faq.md)  
+
 
 ### See also
 
