@@ -1,7 +1,7 @@
 ---
 title: "Use window navigation rules in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use window navigation rules to define the interaction between various controls in Unified Service Desk."
-ms.date: 12/31/2019
+ms.date: 07/28/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -21,17 +21,19 @@ ms.custom:
 
 Window navigation rules define the interaction between various controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You can use the rules to define the location of the sessions or the model-driven app pages to appear in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application when invoked from a hosted control or an entity search. For more information about hosted controls and entity searches in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md) and [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
 
- Window navigation rules in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are executed in the numerical order and as per the conditions specified. The order is particularly important when more than one rule applies to the conditions under which the control might appear. For example, it is possible to create default handlers that will match when no other rules apply. Such default handlers must come after the more specific handlers, otherwise, the specific handlers will never get used.  
 
 <a name="Howtocreaterule"></a>   
 ## Create or edit a window navigation rule  
- To create or edit window navigation rules:  
+ 
+ Window navigation rules in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are executed in the numerical order and as per the conditions specified. The order is particularly important when more than one rule applies to the conditions under which the control might appear. For example, it is possible to create default handlers that will match when no other rules apply. Such default handlers must come after the more specific handlers, otherwise, the specific handlers will never get used.  
+
+**To create or edit window navigation rules**
 
 1. Sign in to Unified Service Desk Administrator.  
 
 2. Select **Windows Navigation Rules** under **Basic Settings**. The page displays all the existing navigation rules in the system.
 
-3. Select **+ New** to create a new navigation rule, or select an existing navigation rule to edit.
+3. Select **New** to create a new navigation rule, or select an existing navigation rule to edit.
 
 4. On the navigation rule definition page, specify or modify the following values if you are creating a new navigation rule or editing an existing navigation rule respectively. Fields marked with red asterisk are mandatory.
 
@@ -49,8 +51,9 @@ Window navigation rules define the interaction between various controls in [!INC
    |        Field        |     Description    |
    |---------------------|-------------------------------------------------------|
    |     Route Type      | - **Popup**: Used to determine how to handle a pop-up window.<br />- **OnLoad**: Used to determine how to handle an entity search, the model-driven apps page, or external Web page after it is loaded.<br />- **In Place**: Used to determine how to handle an in-place transition or loading of the model-driven apps form. For example, when you select on the contact name in an account page in the model-driven app, the contact information is loaded in the same frame where the account information was displayed.<br />- **Menu Chosen**: Used to determine how to handle the selection of a menu item, when the user selects the down arrow next to a record name in the nav bar, and selects an item from the menu list. For example, when you select the drop-down arrow next to an account name on the nav bar of the account page in the model-driven app to select an item such as **Contacts**, **Opportunities**, and **Cases**.          |
-   |       Action        | - **Create Session**: Only applies to a **Popup** route type. This action will load a session based upon the entity contained in the popup. For example, if the **From** is set to `Queues`, **Entity** is set to `incident`, **Route Type** is set to `Popup`, and **Action** is set to `Create Session`, double selecting an incident in the queue will create a session and load the popup in a tab identified in the **Target Tab** field.<br />- **Route Window**: Direct the window to another tab within the same session. This is the most basic form of routing of windows.<br />- **Show Outside**: When this rule matches, the pop-up window will appear outside the client application. This new window will not be under the control of Unified Service Desk any longer and will not participate in the Unified Service Desk session management. This is useful for displaying a window on a second monitor or for comparing a window against another tab or a window in another [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] session.<br />- **None**: No action is performed. |
+   |     Field     |  Indicates a filter on which the window navigation rule must be triggered. The value must be an attribute name from the entity page. Though a window navigation rule can be applied on a page that has multiple lookups, you can use the **Field** filter to apply the rule only on a specific lookup.  |
    |     Destination     | - **Tab**: The item selected in the route type should target a tab. It enables the **Target Tab** and **Show Tab** fields.<br />- **Entity Search**: The item selected in the route type should target an entity search to look up the data using a web service call to Dataverse. This populates the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] data so it can be used in replacement parameters. |
+   |       Action        | - **Create Session**: Only applies to a **Popup** route type. This action will load a session based upon the entity contained in the popup. For example, if the **From** is set to `Queues`, **Entity** is set to `incident`, **Route Type** is set to `Popup`, and **Action** is set to `Create Session`, double selecting an incident in the queue will create a session and load the popup in a tab identified in the **Target Tab** field.<br />- **Route Window**: Direct the window to another tab within the same session. This is the most basic form of routing of windows.<br />- **Show Outside**: When this rule matches, the pop-up window will appear outside the client application. This new window will not be under the control of Unified Service Desk any longer and will not participate in the Unified Service Desk session management. This is useful for displaying a window on a second monitor or for comparing a window against another tab or a window in another [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] session.<br />- **None**: No action is performed. |
    |     Target Tab      | When this rule matches, this is where the window will be directed. If the target tab (hosted control) is a dynamic control, it will automatically be loaded and the window will be directed to it. If this field is set to the **Global Manager** and the **Action** is **Create Session**, the system will re-evaluate the rules to determine the actual location of the window in the tabs. This is useful to avoid creating a **Create Session** rule for every route type that might pop up from a particular window. If you leave the **Target Tab** field empty, an entity search is performed using first entity search matching the type of entity from the popup.|
    |      Show Tab       |  After the action is taken, this field will be used to activate a specific tab. |
    |    Entity Search    | This is the entity search (FetchXML-based web service definition) that will be used to look up the data. This will populate the data fields in the session with the fields collected by the call. For more information about entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md). |
