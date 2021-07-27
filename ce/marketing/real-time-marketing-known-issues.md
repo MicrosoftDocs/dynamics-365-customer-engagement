@@ -61,6 +61,7 @@ As we continue to work on the real-time marketing preview and refine the experie
 
 - Segment-based journeys will only work with segments that are less than 100,000 members. If you try to use a segment with more than 100,000 members, only the first 100,000 will enter the journey.
 - The journey goal only counts unique profiles. Unique profiles are the number of unduplicated (counted only once) people that enter the journey. This means that in cases where the journey is a repeating journey, the total inflow will not match the number of unique profiles with which the goal attainment is calculated.
+- The journey goal met in analytics currently counts he number of unique profiles that met the goal divided by the total inflow. This will be fixed soon to count unique profiles that met the goal divided by total unique profiles.
 
 ## Natural language
 
