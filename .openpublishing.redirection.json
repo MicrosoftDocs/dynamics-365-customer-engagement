@@ -1931,6 +1931,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/install-sample-data-8-x.md",
+      "redirect_url": "user-guide",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/cfs-iot-central-setup.md",
       "redirect_url": "cfs-iot-overview",
       "redirect_document_id": "false"
@@ -8094,12 +8099,7 @@
       "source_path": "ce/customerengagement/on-premises/developer/clientapi/events-forms-grids.md",
       "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/events-forms-grids",
       "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customerengagement/on-premises/developer/clientapi/reference.md",
-      "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/reference",
-      "redirect_document_id": "false"
-    },
+    },    
     {
       "source_path": "ce/customerengagement/on-premises/developer/clientapi/understand-clientapi-object-model.md",
       "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model",

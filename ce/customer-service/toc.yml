@@ -314,9 +314,9 @@
       href: /powerapps/user/activities-known-issues
     - name: Administrator experience
       items: 
-      - name: Configure the email form order
+      - name: Configure email
         href: customer-service-hub-user-guide-email-admin.md
-      - name: Configure the email experience
+      - name: Customize the email experience
         href: customer-service-hub-user-guide-email-font-admin.md
   - name: Timeline
     items: 
@@ -622,14 +622,12 @@
         href: smart-assist-bot.md
       - name: Implement custom scenario
         href: smart-assist-scenario.md
-  - name: Power Virtual Agents
-    items: 
-    - name: Integrate a Power Virtual Agents bot
-      href: configure-bot-virtual-agent.md
   - name: Bots
-    items: 
+    items:
     - name: Administrator experience
-      items: 
+      items:
+      - name: Integrate a Power Virtual Agents bot
+        href: configure-bot-virtual-agent.md
       - name: Integrate an Azure bot
         href: configure-bot.md
       - name: Configure context variables for bots

@@ -1,5 +1,5 @@
 ---
-title: "Configure a custom channel, or bring your own channel | MicrosoftDocs"
+title: "Configure custom channel, or bring your own channel | MicrosoftDocs"
 description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
 ms.date: 04/09/2021
 ms.topic: article
@@ -34,7 +34,7 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 
 
-## End-to-end walk-through
+## End-to-end walkthrough
 
 [Step 1: Register your messaging channel](#step-1-register-your-messaging-channel)
 
@@ -70,13 +70,13 @@ In Omnichannel admin center, perform the following steps to configure a workstre
 
 ### Create a workstream in Omnichannel Administration
 
-To create a custom channel work stream, use the following steps:
+To create a custom channel workstream, use the following steps:
 
 1. Sign in to Dynamics 365, and go to the Omnichannel Administration app.
 
 2. Select **Work Streams** under **Work Distribution Management**.
 
-3. Select **New** to create a new work stream.
+3. Select **New** to create a new workstream.
 
 4. Specify the values for the fields.
 
@@ -86,7 +86,7 @@ To create a custom channel work stream, use the following steps:
 
 You've created a workstream for the custom channel. To learn more, see [Create workstreams](create-workstreams.md).
 
-To configure other options in the work stream, see the following:
+To configure other options in the workstream, see the following:
 
 - [Skill-based routing](overview-skill-work-distribution.md)
 - [Productivity tools](../app-profile-manager/productivity-tools.md)
@@ -120,7 +120,7 @@ To configure other options in the work stream, see the following:
 
 ### Create a custom messaging account in Omnichannel Administration
 
-After you create a work stream for a custom channel, you need to create a custom channel with the details of the **Microsoft app ID** and **Client secret** that you retrieved while registering your messaging channel in Azure Bot Service.
+After you create a workstream for a custom channel, you need to create a custom channel with the details of the **Microsoft app ID** and **Client secret** that you retrieved while registering your messaging channel in Azure Bot Service.
 
 To create a custom channel, follow these steps:
 
@@ -162,7 +162,7 @@ To create a custom channel, follow these steps:
     | Details | Name | Specify a name for the custom channel | Contoso channel |
     | Details | Custom Messaging Account | The **Custom messaging account** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
     | Details | Channel ID | Select a channel from the list. The list might contain line-of-business (in-house) messaging or another messaging channel. | Telegram |
-    | Work distribution | Work stream | Select a work stream from the lookup. | Contoso custom channel work stream |
+    | Work distribution | Work stream | Select a workstream from the lookup. | Contoso custom channel work stream |
 
     > [!Note]
     > A **Custom messaging account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom messaging account** because the Azure Bot Framework supports only one messaging account per App ID. For example, for **Contoso custom account**, you can't add two or more **Telegram** Channel IDs.
@@ -202,7 +202,7 @@ For more information, see the developer guide, [Bring your own custom messaging 
     
     - **Language**: Select the preferred language for your custom channel.
     
-    - **Work stream**: Select an existing work stream or create a new one.
+    - **Work stream**: Select an existing workstream or create a new one.
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
