@@ -557,7 +557,7 @@
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
         - name: Markdown formats
-          href: markdown-formats.md
+          href: markdown-formats-custom-channel.md
     - name: Support for live chat and asynchronous channels
       href: asynchronous-channels.md
   - name: Advanced settings for chat and channels
