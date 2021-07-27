@@ -546,7 +546,7 @@
         href: teams-channel.md
       - name: Use WeChat channel
         href: wechat-channel.md
-      - name: Use Markdown in outbound messaging
+      - name: Use Markdown to format messages
         href: markdown-messages.md
     - name: Developer experience
       items: 
@@ -555,9 +555,9 @@
         - name: "Bring your own custom messaging channel: Direct Line"
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
-          href: bring-your-own-channel-sample-html.md
-        - name: "Markdown formats for custom messaging: Direct Line"
-          href: bring-your-own-channel-markdown-formats.md
+          href: test-custom-channel-sample-html.md
+        - name: Markdown formats
+          href: markdown-formats.md
     - name: Support for live chat and asynchronous channels
       href: asynchronous-channels.md
   - name: Advanced settings for chat and channels

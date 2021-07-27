@@ -1,6 +1,6 @@
 ---
 title: "Use Markdown formats in custom messaging channel: Direct Line | MicrosoftDocs"
-description: "Use this topic to understand how Markdown formats are passed through in custom messaging channels using Direct Line API in Omnichannel for Customer Service."
+description: "Use this topic to understand how Markdown formats are passed through in custom messaging channels in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,7 +8,7 @@ ms.date: 07/30/2021
 ms.topic: reference
 
 ---
-# Preview: Markdown formats in custom messaging channel&mdash;Direct Line
+# Preview: Use Markdown formats
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -24,7 +24,7 @@ In Omnichannel for Customer Service, you can send and receive messages that you'
 For example, when an agent sends (*outbound*) a message formatted with Markdown to a Direct Line bot, the bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from a customer, it must be able to correctly interpret the message that's formatted with Markdown. As a developer, you'll need to use Markdown appropriately so that the message is formatted correctly for your agents and customers.
 
 > [!NOTE]
-> To be able to use Markdown in your custom messaging channels via Direct Line, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
+> To be able to use Markdown formats in your messages, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
 
 ## Markdown formats
 

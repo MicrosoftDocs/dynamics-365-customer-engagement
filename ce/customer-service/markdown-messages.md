@@ -1,5 +1,5 @@
 ---
-title: "Use Markdown format for outbound messaging | MicrosoftDocs"
+title: "Use Markdown to format messages | MicrosoftDocs"
 description: "Get information on using Markdown formats to send messages via live chat and asynchronous channels in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh

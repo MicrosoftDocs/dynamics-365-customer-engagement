@@ -67,5 +67,6 @@ You can use the following sample code to test the custom messaging channel you w
 
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
+[Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
