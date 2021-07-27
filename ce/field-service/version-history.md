@@ -54,6 +54,18 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+
+## 8.8.XX.XX (2021 Wave 2 early access)
+
+
+- Multi-line text fields in the Field Service (Dynamics 365) mobile app forms will dynamically expand in height to show all content within the field.
+- Metadata including image and description is added for Field Service (Dynamics 365) mobile controls.
+- Work order in the Field Service (Dynamics 365) mobile app will default to use modern task-completion controls for WOS, WOP, and WOST.
+- Minor text-casing changes within tabs of the Field Service (Dynamics 365) Product form.
+
+
+
+
 ## 8.8.46.28 
 
 This release is a hotfix on Field Service version [8.8.46.26](#884626).
