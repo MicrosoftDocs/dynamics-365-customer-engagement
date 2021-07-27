@@ -33,9 +33,10 @@ The following JavaScript methods can be used to perform various operations with 
 |---------|-------------|
 | [lcw:ready](reference/events/lcw-ready.md) | [!INCLUDE[lcw-ready-description](reference/includes/lcw-ready-description.md)] |
 | [lcw:error](reference/events/lcw-error.md) | [!INCLUDE[lcw-error-description](reference/includes/lcw-error-description.md)] |
+
 ### See also
 
-[Omnichannel for Customer Service for developers](omnichannel-developer.md)
+[Omnichannel for Customer Service for developers](omnichannel-developer.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
