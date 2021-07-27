@@ -1,5 +1,5 @@
 ---
-title: "Queue entity reference| MicrosoftDocs"
+title: "Queue entity reference (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Queue entity."
 ms.date: 07/26/2021
 ms.topic: "reference"
@@ -12,7 +12,7 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# Queue Entity Reference
+# Queue Entity Reference (Dynamics 365 Customer Service)
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
