@@ -1,4 +1,4 @@
-- name: Dynamics 365 Sales
+- name: Help resources
   items: 
   - name: Help resources for Dynamics 365 Sales Enterprise
     href: help-hub.md
