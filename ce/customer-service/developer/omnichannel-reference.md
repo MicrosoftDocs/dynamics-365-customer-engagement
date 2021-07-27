@@ -19,20 +19,28 @@ The following JavaScript methods can be used to perform various operations with 
 |---------|-------------|
 | [setContextProvider](reference/methods/setContextProvider.md) | [!INCLUDE[setContextProvider-description](reference/includes/setContextProvider-description.md)] |
 | [getContextProvider](reference/methods/getContextProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getContextProvider-description.md)] |
-| [removeContextProvider](reference/methods/removeContextProvider.md) | [!INCLUDE[setContextProvider-description](reference/includes/removeContextProvider-description.md)] |
+| [removeContextProvider](reference/methods/removeContextProvider.md) | [!INCLUDE[removeContextProvider-description](reference/includes/removeContextProvider-description.md)] |
 | [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md) | [!INCLUDE[setAuthTokenProvider-description](reference/includes/setAuthTokenProvider-description.md)] |
-| [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getAuthTokenProvider-description.md)] |
-| [removeAuthTokenProvider](reference/methods/removeAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/removeAuthTokenProvider-description.md)] |
+| [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md) | [!INCLUDE[getAuthTokenProvider-description](reference/includes/getAuthTokenProvider-description.md)] |
+| [removeAuthTokenProvider](reference/methods/removeAuthTokenProvider.md) | [!INCLUDE[removeAuthTokenProvider-description](reference/includes/removeAuthTokenProvider-description.md)] |
 | [startChat](reference/methods/startChat.md) | [!INCLUDE[startchat-description](reference/includes/startChat-description.md)] |
 | [startProactiveChat](reference/methods/startProactiveChat.md) | [!INCLUDE[startproactivechat-description](reference/includes/startProactiveChat-description.md)] |
+| [closeChat](reference/methods/closeChat.md) | [!INCLUDE[closechat-description](reference/includes/closeChat-description.md)] |
 
 ## Events
 
 | Events | Description |
 |---------|-------------|
+| [lcw:startChat](reference/events/lcw-startChat.md) | [!INCLUDE[lcw-startChat-description](reference/includes/lcw-startChat-description.md)] |
 | [lcw:ready](reference/events/lcw-ready.md) | [!INCLUDE[lcw-ready-description](reference/includes/lcw-ready-description.md)] |
 | [lcw:error](reference/events/lcw-error.md) | [!INCLUDE[lcw-error-description](reference/includes/lcw-error-description.md)] |
-
+| [lcw:threadUpdate](reference/events/lcw-threadUpdate.md) | [!INCLUDE[lcw-threadUpdate-description](reference/includes/lcw-threadUpdate-description.md)] |
+| [lcw:closeChat](reference/events/lcw-closeChat.md) | [!INCLUDE[lcw-closeChat-description](reference/includes/lcw-closeChat-description.md)] |
+| [lcw:onMessageReceived](reference/events/lcw-onMessageReceived.md) | [!INCLUDE[lcw-onMessageReceived-description](reference/includes/lcw-onMessageReceived-description.md)] |
+| [lcw:onMessageSent](reference/events/lcw-onMessageSent.md) | [!INCLUDE[lcw-onMessageSent-description](reference/includes/lcw-onMessageSent-description.md)] |
+| [lcw:onMinimize](reference/events/lcw-onMinimize.md) | [!INCLUDE[lcw-onMinimize-description](reference/includes/lcw-onMinimize-description.md)] |
+| [lcw:onMaximize](reference/events/lcw-onMaximize.md) | [!INCLUDE[lcw-onMaximize-description](reference/includes/lcw-onMaximize-description.md)] |
+| [lcw:onClose](reference/events/lcw-onClose.md) | [!INCLUDE[lcw-onClose-description](reference/includes/lcw-onClose-description.md)] |
 ### See also
 
 [Omnichannel for Customer Service for developers](omnichannel-developer.md)
