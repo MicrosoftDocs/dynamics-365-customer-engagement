@@ -39,9 +39,11 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Prerequisites
 
-You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. To create an Azure bot resource, see [Create Azure bot resource](azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation.
+1. You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. To create an Azure bot resource, see [Create Azure bot resource](azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation.
 
-*If you'd like to add the Azure bot service to conversational IVR, then you must create a bot resource that's enabled for cognitive services or the Direct Line speech channel.*
+2. To add the Azure bot service to conversational IVR, you must create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel.
+   1. [Create a Cognitive Services resource using the Azure portal](azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text services. 
+   2. Then, [add the Direct Line Speech channel](azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
 
 ## Integrate a bot with Omnichannel for Customer Service
 
@@ -203,9 +205,10 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 Authentication cards are not supported in bots integrated with Omnichannel for Customer Service.
 -->
 
-## Add Direct Line speech service
 
-You must integrate your bot resource with the Direct Line speech channel so that you can enable text-to-speech or speech-to-text services in Omnichannel for Customer Service.
+
+
+<!--
 
 **To add and connect speech services to your bot**
 
@@ -222,7 +225,7 @@ You must integrate your bot resource with the Direct Line speech channel so that
 4. Select **Create** to add your speech service to the cognitive services list. 
 
 Save the location and key details so you can use them when you add your bot as an application user.
-
+-->
 ## Associate the bot user with voice channel in Omnichannel admin center
 
 1. In Omnichannel admin center, under **General Settings**, select **Workstreams**.
