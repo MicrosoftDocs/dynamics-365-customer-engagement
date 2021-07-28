@@ -39,7 +39,19 @@ Adaptive cards displaying in Transcript​
 
 One download including both transcript and attachments
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-recording.png)
+
 ## Prerequisites
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-enable-recordings-transcripts.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-recording-number.png)
+
 > [!Note]
 >
 
@@ -48,8 +60,7 @@ One download including both transcript and attachments
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-recording.png)
+
 
 
 > [!div class="mx-imgBorder"]
@@ -60,8 +71,7 @@ One download including both transcript and attachments
 > ![Screenshot of ](./media/voice-channel-contact.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-enable-recordings-transcripts.png)
+
 
 
 > [!div class="mx-imgBorder"]
