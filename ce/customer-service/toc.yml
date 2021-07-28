@@ -716,6 +716,10 @@
           href: intro-intraday-insights-dashboard.md
         - name: View and understand Omnichannel intraday insights
           href: intraday-insights-dashboard.md
+        - name: Agents insights report
+          href: intraday-agents-insights.md
+        - name: Conversation insights report
+          href: intraday-conversation-insights.md
         - name: Set idle time threshold
           href: set-idle-time-threshold.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
