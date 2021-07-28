@@ -16,6 +16,7 @@ One Note: Setting up BYOB for voice  (Web view): https://microsoft.sharepoint.co
 
 Existing doc: https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot
 -->
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
@@ -39,40 +40,44 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Prerequisites
 
-1. You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. To create an Azure bot resource, see [Create Azure bot resource](azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Note the value of the Microsoft App ID.
+1. You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service.
 
-2. You must add the Azure bot service to conversational IVR. To create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel, perform the following steps:
+    To create an Azure bot resource, see [Create Azure bot resource](azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Note the values of the Microsoft App ID and the bot handle.
+
+2. You must add the Azure bot service to conversational IVR. 
+    
+    To create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel, perform the following steps:
    1. [Create a Cognitive Services resource using the Azure portal](azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
-   2. Then, [add the Cognitive Services speech resource you to the Direct Line Speech channel](azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
+   2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
 
 ## Integrate a bot with Omnichannel for Customer Service
 
 To integrate a bot with Omnichannel for Customer Service, you must:
 
-1. Create a bot user.
-2. Add the bot user to one or more queues or workstreams. 
+1. Create a bot user as an application user with the Omnichannel agent role.
+
+2. Add the bot user to one or more queues or workstreams.
 > [!NOTE]
 > *Bots can escalate conversations to agents only if they are a part of push-based workstreams.*
-3. Engage a bot to escalate or end conversations.
+
+3. Enable a bot to escalate or end conversations.
+
 4. Set escalation rules.
 
-### Create a bot user
-
-A bot user is created as an application user and assigned the **Omnichannel agent** role. *Creating an application user is supported in the Web Client only*. To create a bot user, you must:
-
+### Assign a bot user as application user
 
 **To assign a bot user as an application user**
 
-1. Open the Web Client and go to **Advanced Settings** > **Security** > **Users**.
+1. Open Omnichannel admin center and go to **Advanced Settings** > **Security** > **Users**.
 
 2. In the **Users** dropdown list, select **Application Users**, and then select **New**.
 
 3. In the New User dropdown list, select **Application User**.
 
 4. On the **New User** summary page, enter or select the following information:
-    - **User Name**: User name of the bot. It is not displayed in the chat widget.
+    - **User Name**: User name of the bot. Note that this name won't be displayed in the chat widget.
     - **Application ID**: An application ID for any valid (non-expired) application created in Azure Active Directory (Azure AD) under the same tenant. This ID is not used by the bot in Omnichannel for Customer Service.
-    - **Full Name**: Name of the bot to be displayed in the chat widget.
+    - **Full Name**: Name of the bot to be displayed in the *chat widget or conversation.*
     - **Primary Email**: Enter a dummy email address. This email address is not used by the bot in Omnichannel for Customer Service.
     - **User type**: Select **Bot application user**.
     - **Bot application ID**: Enter the Microsoft App ID from Azure AD that you noted earlier.
@@ -89,6 +94,7 @@ A bot user is created as an application user and assigned the **Omnichannel agen
     > [!IMPORTANT]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue or workstream, if you want the bot to handle the customer queries first. The capacity of a bot user is however not reduced when a query is handled by it.
 
+
 ### Add bot user to queues
 
 Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in the queue. This ensures that the bot user receives the customer query first.
@@ -102,17 +108,17 @@ An agent can transfer a chat to a bot by adding the bot to a queue, and then tra
 
 #### Add bot user to a voice or phone call workstream
 
-You can add the bot to a workstream for accepting incoming voice calls.
+To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls.
 
 1. In Omnichannel admin center, under **General Settings**, select **Workstreams**.
 
-2. Open an existing workstream, select **Add bot**. The **Add a bot** dialog opens.
+2. Open the workstream related to your voice channel, and under **Advanced Settings** > **Smart assist bots**, select **Add bot**. The **Add a bot** dialog opens.
 
 3. Select an existing bot from the dropdown list and select **Save and close**.
 
 Now, if there's a valid phone number associated with that workstream, the bot will automatically receive and respond to the phone call.
 
-### Engage a bot to escalate and end conversations
+### Enable a bot to escalate and end conversations
 
 In Omnichannel for Customer Service, you can program a bot to route a conversation to a human agent, or end the conversation if the customer is not responding. For more information about how you can program bots to escalate or end conversations, see [Engage a bot](bot-escalate-end-conversation.md#engage-a-bot).
 
@@ -138,18 +144,18 @@ Be sure to map the routing rules to the correct queues so that the queries are r
 
 This sample provides exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules will be created. A bot user is added to one queue, and agents are added to two other queues. Routing rules are defined in such a way that whenever a customer initiates a chat, it will be sent to the bot first and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
 
-1.	Follow the instructions in [Create a bot user](#create-a-bot-user) to create a bot user.
+1. Follow the instructions in [Create a bot user](#create-a-bot-user) to create a bot user.
 
-2.	Follow the instructions in [Add a bot user to the queues](#add-a-bot-user-to-the-queues) to create three queues and add users as follows:
+2. Follow the instructions in [Add a bot user to the queues](#add-a-bot-user-to-the-queues) to create three queues and add users as follows:
     - **BotQueue**: Add the bot user to this queue.
     - **CreditCardQueue**: Add agents who will handle credit card&ndash;related queries.
     - **HomeLoanQueue**: Add agents who will handle home loan&ndash;related queries.
 
 3. Follow the instructions in [Add code snippet to engage a bot](#add-code-snippet-to-engage-a-bot) to add a code snippet for engaging a bot.
 
-4.	Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
+4. Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
-5.	Create three routing rules in the **ChatWorkStream** workstream in the following order:
+5. Create three routing rules in the **ChatWorkStream** workstream in the following order:
     - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query to bot.](media/bot-rule.png "Create a rule to send customer query to bot")
@@ -220,20 +226,7 @@ Authentication cards are not supported in bots integrated with Omnichannel for C
 
 Save the location and key details so you can use them when you add your bot as an application user.
 -->
-## Associate the bot user with voice channel in Omnichannel admin center
 
-1. In Omnichannel admin center, under **General Settings**, select **Workstreams**.
-
-2. Open the workstream related to your voice channel, and under **Advanced Settings** > **Smart assist bots**, select **Add bot**.
-
-3. Select the bot user from the existing bots list, and select **Add**.
- 
-4. 
-
-5. 
- 
-6.
- 
 ## Privacy notice
 
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
