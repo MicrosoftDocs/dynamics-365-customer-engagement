@@ -79,8 +79,8 @@ A bot user is created as an application user and assigned the **Omnichannel agen
     - **User type**: Select **Bot application user**.
     - **Bot application ID**: Enter the Microsoft App ID from Azure AD that you copied in the previous step.
     - **Bot handle**: Enter the bot handle from the Bot profile settings.
-    - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the Cognitive Speech Service resource.
-    - **Cognitive Services Region**: Enter the Location/Region value.
+    - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the cognitive speech service resource you created earlier.
+    - **Cognitive Services Region**: Enter the Location/Region value from the cognitive speech service resource you created earlier.
 
     For more information about creating an application user, see [Create an application user](../powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant).
 
@@ -204,19 +204,24 @@ Authentication cards are not supported in bots integrated with Omnichannel for C
 -->
 
 ## Add Direct Line speech service
+
 You must integrate your bot resource with the Direct Line speech channel so that you can enable text-to-speech or speech-to-text services in Omnichannel for Customer Service.
 
 **To add and connect speech services to your bot**
+
 1. Go to the Azure portal and under **Azure Services**, select **Cognitive Services**.
 
 2. Select the **Add**, and then select **Speech Service** from the dropdown list.
 
 3. In the **Create** dialog, enter the following details:
-   1. **Name**:
-   2. **Subscription**:
-   3. **Location**:
-   4. **Pricing Tier**:
-   5. **Resource group**:
+   1. **Name**: Enter a name for the speech service.
+   2. **Subscription**: Select a subscription from the dropdown list.
+   3. **Location**: Select a location from the dropdown list.
+   4. **Pricing Tier**: Select an appropriate pricing tier.
+   5. **Resource group**: Select an existing resource group or create a new one.
+4. Select **Create** to add your speech service to the cognitive services list. 
+
+Save the location and key details so you can use them when you add your bot as an application user.
 
 ## Associate the bot user with voice channel in Omnichannel admin center
 
