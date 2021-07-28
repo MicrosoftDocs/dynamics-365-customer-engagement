@@ -22,7 +22,8 @@ Booking rules are custom JavaScript methods that will be executed prior to the b
 Set up booking rules to validate a booking when it is created or modified.  
  
 > [!Note]
-> - Booking rules are only available for the hourly view, and not daily, weekly, or monthly views.
+> - Booking rules are only available for the hourly view, and not daily, weekly, or monthly views of the schedule board and schedule assistant. They are also available when a booking is created or updated via bookable resource booking form. 
+> - Booking rules are not available on the bookable resource booking form, if it has business process flow enabled on the form.  
 > - Booking rules are not available on the reassign functionality on the schedule board.
 
 ## Create a solution
@@ -67,10 +68,10 @@ The following screenshot shows a newly created solution. We recommend that your 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the booking rules.](./media/scheduling-booking-rules-new.png)
 
-4. Save your booking rule. Once you save the booking rule, it will be used by the schedule board and schedule assistant. You can deactivate your booking rule record to keep the schedule board and schedule assistant from executing the rule.
+4. Save your booking rule. Once you save the booking rule, it will be used by the hourly view of schedule board and schedule assistant or the entity form. You can deactivate your booking rule record to keep the schedule board, schedule assistant, or the booking entity form, from executing the rule.
 
 > [!Note]
-> The booking rules are currently only supported on the hourly view of the schedule board.
+> The booking rules are currently only supported on the hourly view of the schedule board and schedule assistant. The booking rules are also supported when the bookings are created or updated using the bookable resource booking form.
 
 ## Create a CRM action
 
