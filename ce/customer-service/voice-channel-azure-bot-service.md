@@ -27,7 +27,8 @@ In Omnichannel for Customer Service, you can integrate a bot to start the conver
 
 When you integrate an Azure bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
-- Seamlessly integrate your Azure bot with all channels without needing to add channel-specific code in the bot.
+- Seamlessly integrate your Azure bot with all *chat and voice* channels without needing to add channel-specific code in the bot.
+- *Connect speech resource to the bot using Azure Cognitive Services.*
 - Transfer bot conversations *(both chat and voice)* to human agents, and include the full context of the conversation.
 - Analyze the bot transcript that's available in Microsoft Dataverse after the *chat or voice call* is completed.
 - Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the webpage browsing history of the customer.
@@ -38,8 +39,9 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Prerequisites
 
-You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. To create an Azure bot resource, see [Create Azure bot resource section](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) in the Bot Framework SDK documentation.
-If you'd like to add the Azure bot service to conversational IVR, then you must enable the bot resource for Direct Line Speech. 
+You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. To create an Azure bot resource, see [Create Azure bot resource](azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation.
+
+*If you'd like to add the Azure bot service to conversational IVR, then you must create a bot resource that's enabled for cognitive services or the Direct Line speech channel.*
 
 ## Integrate a bot with Omnichannel for Customer Service
 
@@ -48,8 +50,8 @@ To integrate a bot with Omnichannel for Customer Service, you must:
 1. Create a bot user.
 2. Add the bot user to one or more queues or workstreams. 
 > [!NOTE]
-*> Bots can escalate conversations to agents only if they are a part of push-based workstreams.*
-3. Add code snippet to engage a bot.
+> *Bots can escalate conversations to agents only if they are a part of push-based workstreams.*
+3. Engage a bot to escalate or end conversations.
 4. Set escalation rules.
 
 
@@ -57,10 +59,11 @@ To integrate a bot with Omnichannel for Customer Service, you must:
 
 A bot user is created as an application user and assigned the **Omnichannel agent** role. *Creating an application user is supported in the Web Client only*. To create a bot user, you must:
 
-1. Get the Microsoft App ID of the bot.
+1. [Create an Azure bot resource](azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource). Save the Microsoft App ID of the bot.
+
 2. Create an application user and add bot-specific information to the application user.
 
-**To create a bot user**
+**To assign a bot user as an application user**
 
 1. Open the Web Client and go to **Advanced Settings** > **Security** > **Users**.
 
@@ -194,10 +197,41 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 
 4.	Select the number of add-ons required and complete the purchase.
 
+<!--
 ## Known limitation
 
 Authentication cards are not supported in bots integrated with Omnichannel for Customer Service.
+-->
 
+## Add Direct Line speech service
+You must integrate your bot resource with the Direct Line speech channel so that you can enable text-to-speech or speech-to-text services in Omnichannel for Customer Service.
+
+**To add and connect speech services to your bot**
+1. Go to the Azure portal and under **Azure Services**, select **Cognitive Services**.
+
+2. Select the **Add**, and then select **Speech Service** from the dropdown list.
+
+3. In the **Create** dialog, enter the following details:
+   1. **Name**:
+   2. **Subscription**:
+   3. **Location**:
+   4. **Pricing Tier**:
+   5. **Resource group**:
+
+## Associate the bot user with voice channel in Omnichannel admin center
+
+1. In Omnichannel admin center, under **General Settings**, select **Workstreams**.
+
+2. Open the workstream related to your voice channel, and under **Advanced Settings** > **Smart assist bots**, select **Add bot**.
+
+3. Select the bot user from the existing bots list, and select **Add**.
+ 
+4. 
+
+5. 
+ 
+6.
+ 
 ## Privacy notice
 
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
