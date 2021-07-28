@@ -61,6 +61,7 @@ As we continue to work on the real-time marketing preview and refine the experie
 
 - Segment-based journeys will only work with segments that are less than 100,000 members. If you try to use a segment with more than 100,000 members, only the first 100,000 will enter the journey.
 - The journey goal only counts unique profiles. Unique profiles are the number of unduplicated (counted only once) people that enter the journey. This means that in cases where the journey is a repeating journey, the total inflow will not match the number of unique profiles with which the goal attainment is calculated.
+- After a Customer Journey Orchestration journey is migrated/restored/copied, its state is changed from ‘Live’ to ‘Stopped’. In order to restart a migrated/restored/copied journey, you can first duplicate the journey and then execute it.
 
 ## Natural language
 
