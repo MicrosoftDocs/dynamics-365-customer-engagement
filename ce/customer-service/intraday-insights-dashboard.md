@@ -93,7 +93,7 @@ You can view specific insights about the performance of individual agents or gro
 > [!div class="mx-imgBorder"]
 > ![Agents insights graph.](media/agents-insights-report-slice.png "Agents insights graph")
 
-The agent insights report consists of the following metrics.
+The agents insights report consists of the following metrics.
 
 | Metrics | Description |
 |-------|-------|
@@ -104,7 +104,9 @@ The agent insights report consists of the following metrics.
 | Session time out rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
 | Session transfer rate | The percentage of sessions that were transferred to another agent or queue. |
 | Agent status | The presence status of an agent. |
-| Conversation status by channel | The distribution of the different conversations statuses across different channels. |
+| Chat status | Available for Live chat. Displays the number of chat conversations that are in the different statuses.|
+| Conversation status by channel | Available for the digital messaging channels. The distribution of the different conversations statuses across different channels. |
+|Call status| Available for the voice channel (preview). Displays the number of calls that are in the different statuses. |
 | Participation mode | The distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session. |
 | Transfer rate by agent | The percentage of sessions transferred by the agent to another agent or queue. |
 | Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. |
@@ -205,11 +207,11 @@ The **Conversation insights** report displays the following metrics about conver
 | Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned. |
 | Average wrap time (min) | The average time taken to wrap up conversations. |
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |
-| Abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. |
+| Chat abandon rate and Call abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. |
 | Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. |
 |Service level | The percentage of chats that were answered within 30 seconds. The 30 seconds threshold can be modified to suit your business needs. |
-|SLA - First response time | Available for digital messaging channels; not available in Government Community Cloud (GCC). The percentage of conversations wherein the customer received the very first response from the agent within 1 minute. The 1 minute threshold can be modified to suit your business needs.|
-|SLA - Response time | Available for digital messaging channels; not available in GCC. The percentage of messages wherein the customer received a response within 1 min from the agent. The 1 minute threshold can be modified to suit your business needs.|
+|SLA - First response time | Available for only digital messaging channels; not available in Government Community Cloud (GCC). The percentage of conversations wherein the customer received the very first response from the agent within 1 minute. The 1 minute threshold can be modified to suit your business needs.|
+|SLA - Response time | Available for only digital messaging channels; not available in GCC. The percentage of messages wherein the customer received a response within 1 min from the agent. The 1 minute threshold can be modified to suit your business needs.|
 | Avg - First response time (min) | The average time that a customer waited to receive the first response from  agents. |
 |Avg - Response time (min)| The average time that a customer waited to receive responses from agents.|
 | Service level - Speed to answer |The percentage of calls that were answered within 30 seconds. he 30 seconds threshold can be modified to suit your business needs.|
@@ -285,9 +287,9 @@ When an agent steps away from the desk during an ongoing session and doesn't int
 
 ## Saved views for Intraday reports
 
-You can save the filters that you used for the reports as bookmarks. These allow you to access the filters easily and repeatedly, without having to apply the filters again and again. You can switch between the multiple bookmarks when you're managing different reports and teams. Saved views allow you to save the queues and agents pertaining to different teams and lets you switch between the filters and view the metrics for each team.
+You can save the filters that you used for the reports as bookmarks. The bookmarks allow you to access the filters easily and repeatedly, without having to apply the filters every time. You can switch between the multiple bookmarks when you're managing different reports and teams. The saved views allow you to save the queues and agents pertaining to different teams and lets you switch between the filters to view the metrics for each team.
 
-Admins can create bookmarks pertaining to different reports that can be accessible by supervisors, but can't be edited by supervisors. More information: [Create bookmarks in Power BI Desktop to share insights and build stories](/power-bi/create-reports/desktop-bookmarks).
+Administrators can create bookmarks pertaining to different reports that can be accessible by supervisors, but can't be edited by supervisors. More information: [Create bookmarks in Power BI Desktop to share insights and build stories](/power-bi/create-reports/desktop-bookmarks).
 
 ### See also
 
