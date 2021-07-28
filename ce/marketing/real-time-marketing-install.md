@@ -1,7 +1,7 @@
 ---
 title: "Install real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to install the real-time marketing preview in Dynamics 365 Marketing."
-ms.date: 06/24/2021
+description: "Learn how to install the real-time marketing features in Dynamics 365 Marketing."
+ms.date: 08/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,10 +20,10 @@ search.app:
 
 # Install real-time marketing
 
-Starting in the April 2021 Dynamics 365 Marketing release, you can opt in for preview feature updates and evaluate our new data and AI-powered real-time customer journey orchestration capabilities. The opt-in method detailed here is different from [traditional early access updates](/power-platform/admin/opt-in-early-access-updates).
+Starting in the August 2021 Dynamics 365 Marketing release, you can opt in for data and AI-powered real-time customer journey orchestration capabilities.
 
 > [!NOTE]
-> Preview features are limited to North America and Europe.
+> Real-time customer journey orchestration features are limited to North America and Europe.
 
 ## Steps to opt-in to real-time marketing
 
@@ -34,7 +34,7 @@ Starting in the April 2021 Dynamics 365 Marketing release, you can opt in for pr
 
 1. Navigate to **Overview** > **Versions**.
 1. Ensure that you are using the latest version of Dynamics 365 Marketing. Select **Manage + update** if you need to update your Marketing installation.
-1. In the **Preview features** tile, select **Install**.
+1. In the **Real-time marketing features** tile, select **Install**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the preview features tile showing in the versions page.](./media/real-time-marketing-install-tile.png)
