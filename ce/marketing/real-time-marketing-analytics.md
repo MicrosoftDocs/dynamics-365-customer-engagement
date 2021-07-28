@@ -1,7 +1,7 @@
 ---
 title: "Access and interpret analytics (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to access and interpret real-time marketing analytics in Dynamics 365 Marketing."
-ms.date: 04/30/2021
+ms.date: 07/22/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -25,7 +25,7 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Real-time marketing's dashboards and cross-journey insights present metrics, views, and insights summarized across single or multiple journeys, providing you with a deep understanding of journey, channel, and content performance. The built-in dashboards focus on engagement goals, so you can fine-tune the effectiveness of your journeys, channels, and content.
+Real-time marketing's dashboards and cross-journey insights show metrics, views, and insights summarized across single or multiple journeys, providing you with a deep understanding of journey, channel, and content performance. The built-in dashboards focus on engagement goals, so you can fine-tune the effectiveness of your journeys, channels, and content.
 
 ## Real-time marketing analytics overview
 
@@ -38,23 +38,33 @@ With real-time marketing analytics, you can:
 
 ### Journey operational analytics
 
-Evaluate journey performance in near real time through built-in operational analytics. The Sankey view in the designer helps you understand the user flow through the journey to understand which branches are working well.
+Evaluate journey performance in near real time using built-in operational analytics. The Sankey view in the designer helps you understand the user flow through the journey, highlighting which branches are working well.
 
-Select any component to view near real-time operational analytics in the right pane, including:
+Select any journey component to view near real-time operational analytics in the right pane, including:
 
 - **Goal analytics**: If a goal has been defined a target set, you can view how the journey is progressing toward its goal and if it has met the goal.
+
+    > [!div class="mx-imgBorder"]
+    > ![Goal analytics screenshot.](media/real-time-marketing-goal-analytics.png "Goal analytics screenshot")
+
 - **Channel analytics**: For any message in the journey (email, text, or push notification), view the delivery funnel and additional metrics to diagnose the content performance.
+
+    > [!div class="mx-imgBorder"]
+    > ![Email channel analytics screenshot.](media/real-time-marketing-channel-analytics.png "Email channel analytics screenshot")
+
 - **AI optimization**: Near real-time data to help you evaluate how applying AI optimization has helped your engagement rate.
+
+    > [!div class="mx-imgBorder"]
+    > ![AI optimization screenshot.](media/real-time-marketing-ai-optimization.png "AI optimization screenshot")
 
 ### Aggregate cross-journey analytics
 
-The built-in aggregate cross-journey analytics dashboard shows relevant metrics and insights for all your journey orchestrations in one place. Review recent journey effectiveness and quickly share reports with stakeholders.
+The built-in aggregate cross-journey analytics dashboard shows relevant metrics and insights for all your journey orchestrations in one place.
 
-### Channel analytics
+> [!div class="mx-imgBorder"]
+> ![Aggregate cross-journey analytics dashboard.](media/real-time-marketing-aggregate-analytics.png "Aggregate cross-journey analytics dashboard")
 
-Better understand each message's performance using near real-time analytics and historic trends.
-
-In addition to email analytics, you can review text message and push notification performance using the built-in channel reporting.
+Use the aggregate dashboard to review recent journey effectiveness and quickly share reports with stakeholders.
 
 ## How to use aggregate cross-journey analytics
 

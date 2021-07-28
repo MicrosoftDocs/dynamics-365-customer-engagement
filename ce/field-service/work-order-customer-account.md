@@ -98,7 +98,7 @@ Work order products and work order services will inherit the currency value note
 
 ## Create a work order for the service account
 
-Next, go to **Field Service** > **Work Orders** > +New**.
+Next, go to **Field Service** > **Work Orders** > **+New**.
 
 Add the account you created as the service account. 
 

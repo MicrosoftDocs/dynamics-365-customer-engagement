@@ -13,7 +13,7 @@ manager: shujoshi
 
 ## WeChat channel
 
-Using social messaging channels such as WeChat&mdash;which has a large user base in Asia&mdash;lets organizations enhance business efficiencies in certain geographical areas by integrating these services into Omnichannel for Customer Service.
+Using social messaging channels such as WeChat, which has a large user base in Asia, lets organizations enhance business efficiencies in certain geographical areas by integrating these services into Omnichannel for Customer Service.
 
   > [!NOTE]
   > The WeChat channel isn't available in the Government Community Cloud (GCC) region.
@@ -74,6 +74,16 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
+### Configure WeChat details
+
+If you're using the service account of WeChat, perform the following steps:
+
+1. Sign in to your WeChat Service Account, and then paste the IP whitelist and server address, which you copied from Omnichannel admin center in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is not blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
+
+2. In WeChat, make sure that you select **Security Mode** under **Message Encryption Method** for encryption of the chat messages.
+
+3. Select **Submit**.
+
 ## Create a WeChat channel in Omnichannel Administration
 
 1. In Omnichannel Administration, under **Channels**, select **WeChat**.
@@ -90,7 +100,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
     - **Token:** Specify the WeChat token.
     - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you're configuring a sandbox account, use a key of your choice.
   
-4. In the **Step 2: Work distribution** area, for **Work Stream**, select the out-of-the-box work stream for WeChat. Alternatively, you can create a [work stream](work-streams-introduction.md) for WeChat and associate it with the WeChat channel.
+4. In the **Step 2: Work distribution** area, for **Work Stream**, select the out-of-the-box workstream for WeChat. Alternatively, you can create a [work stream](work-streams-introduction.md) for WeChat and associate it with the WeChat channel.
 
 5. Select **Save**. The details are saved, and data is populated in the **Step 3: Callback information** section.
 
@@ -99,17 +109,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
     > [!div class=mx-imgBorder]
     > ![Create a WeChat channel.](media/wechat-channel-config.png "Create a WeChat channel")
 
-### Configure WeChat details
-
-If you're using the service account of WeChat, perform the following steps:
-
-1. Sign in to your WeChat Service Account, and then paste the IP whitelist and server address, which you copied from Omnichannel Administration in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is not blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
-
-2. In WeChat, make sure that you select **Security Mode** under **Message Encryption Method** for encryption of the chat messages.
-
-3. Select **Submit**.
-
-## Modify settings for a specific WeChat account
+### Modify settings for a specific WeChat account
 
 1. In the Omnichannel Administration app, go to your WeChat application and select the WeChat account you want to modify.
 
@@ -117,7 +117,7 @@ If you're using the service account of WeChat, perform the following steps:
     
     - **Language**: Select the preferred language for your WeChat account.
     
-    - **Work stream**: Select an existing work stream or create a new one.
+    - **Work stream**: Select an existing workstream or create a new one.
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
 
