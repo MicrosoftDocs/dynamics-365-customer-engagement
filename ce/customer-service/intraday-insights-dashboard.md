@@ -27,7 +27,7 @@ The information displayed in these reports is based on the conversations that we
 > [!IMPORTANT]
 > To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).
 
-## IntradayMonitoring
+## The IntradayMonitoring report
 
 The IntradayMonitoring report consists of two sections - Conversation insights and Agent insights.
 
