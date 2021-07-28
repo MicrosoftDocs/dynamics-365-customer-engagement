@@ -17,37 +17,22 @@ Admin toggle to turn on voice recording and transcript as part of voice channel 
 
 Leverage of conversation control for displaying transcript ​
 
-Same UX experience for C1, richer experience, eg, new webchat layout, markdown…​
 
 One code base for transcript control​
 
-New UI design to align with modern admin, fluent UI​
 
-Advanced playback features, including ​
-
-Sentiment highlights​
-
-Click to scroll ​
-
-Volume, speed, forward/backward controls​
-
-Conversation insight for voice channel (messaging channels will come in Oct)​
-
-One united transcript views to be leveraged by other features​
-
-Adaptive cards displaying in Transcript​
-
-One download including both transcript and attachments
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-recording.png)
 
 ## Prerequisites
 
+Enable the new transcript experience
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-enable-recordings-transcripts.png)
 
-
+Enable transcripts and recordings for each phone number in a workstream.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-recording-number.png)
@@ -62,13 +47,16 @@ One download including both transcript and attachments
 
 ## Go to a closed conversation
 
+### From a user (agent)
 Go to Users > Conversations > all conversations view
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-conversations-list.png)
 
-Go to Contact > Timeline 
+### From a contact (customer)
+
+Go to Contact > Timeline > conversations
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-contact.png)
@@ -76,25 +64,40 @@ Go to Contact > Timeline
 
 
 
-
-
-
-
-## View the recording and transcript
+## View the conversation recording and transcript
 
 Recording playback is available when the conversation is closed. The conversation is closed when both the agent and csutomer end the call. 
 
-Play back the call recording
+New UI design to align with modern admin, fluent UI​
+
+Advanced playback features, including ​
+
+Sentiment highlights​
+    Green - positive
+    Grey - neutral
+    Red - negative
+
+Click to scroll ​
+
+Volume, speed, fast forward and rewind controls​
+
+Conversation insight for voice channel (messaging channels will come in Oct)​
+
+One united transcript views to be leveraged by other features​
+
+Adaptive cards displaying in Transcript​
+
+One download including both transcript and attachments
+
+conversations recordings and transcripts are stored in CDS
+
+Playback the call recording
 
 Skip ahead or rewind
 
 Adjust volume
 
-Customer sentiment marked on recording as
 
-Green - positive
-Grey - neutral
-Red - negative
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-recording.png)
@@ -105,4 +108,3 @@ Selecting a location in the recording visualization will move to the transcript 
 
 ## Configuration considerations
 ## Additional Notes
-- conversations recordings and transcripts are stored in CDS
