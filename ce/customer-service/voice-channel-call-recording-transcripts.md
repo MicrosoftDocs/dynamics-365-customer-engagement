@@ -104,7 +104,3 @@ Adjust volume
 
 Selecting a location in the recording visualization will move to the transcript location below. 
 
-## Step 2:
-
-## Configuration considerations
-## Additional Notes
