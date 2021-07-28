@@ -56,6 +56,7 @@ As we continue to work on the real-time marketing preview and refine the experie
 ## Event triggers
 
 - You cannot instrument C# apps in real-time marketing. If you choose to use an alternate language like Python, you will have to manage an infra to run Python.
+- Event triggers cannot be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
 
 ## Journey & orchestration
 
