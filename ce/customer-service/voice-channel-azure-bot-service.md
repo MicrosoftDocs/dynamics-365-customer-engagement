@@ -36,19 +36,19 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 - Monitor the bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
 - Use historical dashboards to get insights into the effectiveness of the bots through metrics such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
 - Configure routing rules to use bots in *post-conversation* surveys.
-- Repurpose bots to be smart-assist bots and provide recommendations to agents.
+- Repurpose bots to be smart assist bots and provide recommendations to agents.
 
 ## Prerequisites
 
 1. You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service.
 
-    To create an Azure bot resource, see [Create Azure bot resource](azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Note the values of the Microsoft App ID and the bot handle.
+    To create an Azure bot resource, see [Create Azure bot resource](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Note the values of the Microsoft App ID and the bot handle.
 
-2. You must add the Azure bot service to conversational IVR. 
-    
+2. You must add the Azure bot service to conversational IVR.
+
     To create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel, perform the following steps:
-   1. [Create a Cognitive Services resource using the Azure portal](azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
-   2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
+   1. [Create a Cognitive Services resource using the Azure portal](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
+   2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
 
 ## Integrate a bot with Omnichannel for Customer Service
 
@@ -150,9 +150,9 @@ This sample provides exact steps and configuration values to integrate a bot and
     - **BotQueue**: Add the bot user to this queue.
     - **CreditCardQueue**: Add agents who will handle credit card&ndash;related queries.
     - **HomeLoanQueue**: Add agents who will handle home loan&ndash;related queries.
-
+<!--
 3. Follow the instructions in [Add code snippet to engage a bot](#add-code-snippet-to-engage-a-bot) to add a code snippet for engaging a bot.
-
+-->
 4. Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
 5. Create three routing rules in the **ChatWorkStream** workstream in the following order:
@@ -182,9 +182,10 @@ A bot session can be defined as a conversation in which a bot is invoked. The bo
 - If two different bots are invoked in the same conversation, it is counted as one.
 - A conversation with a bot that's escalated to a human agent is counted as a bot conversation.
 
+<!--
 > [!NOTE]
 > If smart assist is enabled, the bot conversations do not include smart-assist conversations.
-
+-->
 ### Purchase additional chatbot sessions
 
 Chatbot Session add-ons entitle customers with Chat or Digital Messaging to an additional 100 chatbot sessions for use with Microsoft Bot Framework bots, pooled at the tenant level. Additional chatbot sessions expire at the end of each month.
