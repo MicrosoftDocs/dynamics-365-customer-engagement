@@ -22,7 +22,7 @@ The **Omnichannel intraday insights** dashboards provide information about the h
 - [Conversations insights](#conversations-insights)
 - [Agent insights](#agent-insights)
 
-The information displayed in these reports is based on the conversations that were started or closed within the last 24 hours. The report fetches the latest data and is generated in real time when a supervisor accesses it. If the report in a customer configured workspace is kept open, it's automatically refreshed after 15 minutes. In a pre-configured Power BI workspace, the report auto refreshes after every 5 minutes. 
+The information displayed in these reports is based on the conversations that were started or closed within the last 24 hours. The report fetches the latest data and is generated in real time when a supervisor accesses it. If the report in a customer configured workspace is kept open, it's automatically refreshed after 15 minutes. In a pre-configured Power BI workspace, the report auto refreshes after every 5 minutes.
 
 > [!IMPORTANT]
 > To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).
@@ -52,15 +52,15 @@ This section of the IntradayMonitoring report displays the following KPIs about 
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |
 | Conversation status by queue | The distribution of the status of conversations across different queues. |
 | Transfer/Escalation rate by queue | The transfer rate is the percentage of conversations in a queue that was transferred atleast once. Escalation rate is the percentage of conversations within a queue that was escalated to a supervisor. |
+|||
 
 
 ### Agent insights
 
-The **Agent insights** section provides information about the latest KPIs, the health of the queues, and the status of agents on a given day. The agent insights section consolidates sessions across all channels. An example of the **Agent insights** section is shown in the following image.
+The **Agent insights** section provides information about the latest KPIs, the health of the queues, and the status of agents on a day. The agent insights section consolidates sessions across all channels. An example of the **Agent insights** section is shown in the following image.
 
 > [!div class="mx-imgBorder"]
 > ![Agent Insights.](media/agent-insights.png "Agent Insights")
-
 
 
 This section consists of the following performance indicators.
@@ -81,17 +81,19 @@ This section consists of the following performance indicators.
 | Average consult time | The average time spent by agents consulting with other agents or supervisors. |
 
 
-## Agents insights report
+## The Agents insights report
 
-The agent insights report consists of metrics from an agent’s standpoint and provides an overview of agent performance. The report shows all-up agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** tab to view agent performance across all channels, or select the **Live chat** or **Digital messaging** tabs to view the agent performance for the corresponding channel. Digital messaging includes all asynchronous channels, like Facebook messenger, Twitter, WeChat, SMS, and so forth. The **Duration** option displays report details based on duration and time filter that is applied. The filter can be customized to show report data within the last four, eight, and twelve hour duration.
+The **Agents insights** report consists of metrics from an agent’s standpoint and provides an overview of agent performance. The report shows all-up agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** tab to view agent performance across all channels, or select the **Live chat**, **Digital messaging**, or **Voice (preview)** tabs to view the agent performance for the corresponding channel. Digital messaging includes all asynchronous channels, like Facebook messenger, Twitter, WeChat, and SMS. The **Duration** option displays report details based on duration and time filter that is applied. The filter can be customized to show report data within the last four, eight, and twelve hours duration.
 
-You can view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session. The agent insights report consists of the following metrics.
-
-> [!div class="mx-imgBorder"]
-> ![Agents insights dashboard.](media/agents-insights-dashboard.png "Agents insights dashboard")
+You can view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
 
 > [!div class="mx-imgBorder"]
-> ![Agents insights graph.](media/agents-insights-dashboard-1.png "Agents insights graph")
+> ![Agents insights report.](media/agents-insights-report.png "Agents insights report")
+
+> [!div class="mx-imgBorder"]
+> ![Agents insights graph.](media/agents-insights-report-slice.png "Agents insights graph")
+
+The agent insights report consists of the following metrics.
 
 | Metrics | Description |
 |-------|-------|
@@ -106,11 +108,14 @@ You can view specific insights about the performance of individual agents or gro
 | Participation mode | The distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session. |
 | Transfer rate by agent | The percentage of sessions transferred by the agent to another agent or queue. |
 | Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. |
-| Consult acceptance rate | The percentage of consult requests accepted by an agent out of the total requests received. | 
+| Consult acceptance rate | The percentage of consult requests accepted by an agent out of the total requests received. |
+| Avg. talk time (min)| **For voice channel (Preview)**: The average time an agent spent talking with a customer over a voice call. |
+| Avg. hold time (min) | **For voice channel (Preview)**: The average time an agent put a customer on hold over a voice call. |
+|||
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can select the **Status** field to modify the presence indicator for an agent. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations, as well as an agent's available capacity across different capacity profiles. Unit-based capacity is accounted against Unit capacity profile.
 
-The **Agent insights** table displays the following information.
+The table in the **Agent insights** report displays the following information.
 
 | Agent details | Description |
 |-------|-------|
@@ -174,12 +179,20 @@ This section displays the following details.
 | Capacity and status timeline | Every change in capacity or status is plotted on the timeline. Negative capacity is displayed if a supervisor assigns a conversation to an agent that's beyond the agent's available capacity. |
 
 
-## Conversation insights report
+## The Conversation insights report
 
-This Conversation insights report displays the following metrics about conversations.
+The **Conversation insights** report is arranged in the following tabs:
+
+- Conversation insights - Overview
+- Conversation insights - Live chat
+- Conversation insights - Digital messaging
+- Conversation insights - Voice (preview)
+
 
 > [!div class="mx-imgBorder"]
-> ![Conversation insights dashboard.](media/conversation-insights-dashboard.png "Agents insights dashboard")
+> ![Conversation insights dashboard.](media/conversation-insights-dashboard.png "Conversation insights dashboard")
+
+The **Conversation insights** report displays the following metrics about conversations.
 
 | Metric | Description |
 |-------|-------|
@@ -194,18 +207,29 @@ This Conversation insights report displays the following metrics about conversat
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |
 | Abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. |
 | Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. |
+|Service level | The percentage of chats that were answered within 30 seconds. The 30 seconds threshold can be modified to suit your business needs. |
+|SLA - First response time | Available for digital messaging channels; not available in Government Community Cloud (GCC). The percentage of conversations wherein the customer received the very first response from the agent within 1 minute. The 1 minute threshold can be modified to suit your business needs.|
+|SLA - Response time | Available for digital messaging channels; not available in GCC. The percentage of messages wherein the customer received a response within 1 min from the agent. The 1 minute threshold can be modified to suit your business needs.|
+| Avg - First response time (min) | The average time that a customer waited to receive the first response from  agents. |
+|Avg - Response time (min)| The average time that a customer waited to receive responses from agents.|
+| Service level - Speed to answer |The percentage of calls that were answered within 30 seconds. he 30 seconds threshold can be modified to suit your business needs.|
+| Avg. talk time (min)| **For voice channel (Preview)**: The average time an agent spent talking with a customer over a voice call. |
+| Avg. hold time (min) | **For voice channel (Preview)**: The average time an agent put a customer on hold over a voice call. |
+|Avg. after call work time|**For voice channel (Preview)**: The average time an agent took to wrap up a call.|
+|||
+|||
 
-You can also view a report on the average conversation handle time, average wait time, transfer rate, and more. The report can be filtered to display an in-depth analysis of each chat channel through which conversations have come in.
+You can also view a report on the average conversation handle time, average wait time, transfer rate, and more. The report can be filtered to display an in-depth analysis of each channel through which conversations have come in.
 
 ### Ongoing conversations
 
-The **Ongoing conversations** section provides information about the status of the conversations that are not yet closed. This report also displays information about the channel through which the conversation came in, along with the time and date that the conversation was picked up.
+The **Ongoing conversations** section provides information about the status of the conversations that are not yet closed. This report also displays information about the channel through which the conversation came in, with the time and date that the conversation was picked up.
 
 
 > [!div class="mx-imgBorder"]
 > ![Ongoing conversations.](media/ongoing-conversations.png "Ongoing conversations")
 
-The **Ongoing conversations** table displays the following metrics.
+The **Ongoing conversations** table displays the following metrics based on the channels through which the conversations are being held.
 
 | Title | The title of the case |
 |------------ | --------------- |
@@ -214,12 +238,23 @@ The **Ongoing conversations** table displays the following metrics.
 | Action | The action that can be taken on the conversation. |
 | Queue | The name of the queue that the conversation is a part of |
 | Channel | The name of the channel that the conversation came through. |
+| Workstream| The workstream that the conversation is a part of.|
+| First response time (min) |The time it took for an agent to send the first response after the customer's message. |
+| Avg. response time (min)|The average time it took for an agent to respond after the customer's message.|
+| Total response time (min)|The total time it took for an agent to respond after the customer's messages.|
+| Transfers|The total number of transfers made for a chat or voice call (preview) if the conversation is routed to another agent.|
+| Escalations|The total number of escalations for a chat or voice call (preview). It does not include escalation from a bot to a human agent.|
+| Speed to answer (sec) | **For voice channel (Preview)**: The time it took for a customer call to be answered. |
+| Talk time (min)| **For voice channel (Preview)**: The total time spent by the customer and agent talking on the call. It’s the difference between the handle time and cumulative time in hold and after call work time. |
+| Hold time (min)|**For voice channel (Preview)**: The total time an agent has put a customer on hold.|
+| After call work time (min)| **For voice channel (Preview)**: The time spent by an agent in wrapping up a call. |
 | Wait time (min) | Total wait time of the conversation. |
 | Handle time (min) | Total time taken to accept and close the conversation. |
 | Wrap time (min) | Total time in which the conversation was in the wrap stage. |
 | Sentiment | The real-time sentiment analysis. |
 | Created on | The date on which the conversation was created on. The date and time is displayed in the UTC time zone. |
 | Conversation ID | The conversation's ID. |
+|||
 
 The **Closed conversations** table provides information related to all the conversations that have been closed.
 
