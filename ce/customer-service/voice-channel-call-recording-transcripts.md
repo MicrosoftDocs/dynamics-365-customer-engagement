@@ -60,12 +60,15 @@ One download including both transcript and attachments
 
 
 
+## Go to a closed conversation
 
+Go to Users > Conversations > all conversations view
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-conversations-list.png)
 
+Go to Contact > Timeline 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-contact.png)
@@ -74,17 +77,32 @@ One download including both transcript and attachments
 
 
 
+
+
+
+## View the recording and transcript
+
+Recording playback is available when the conversation is closed. The conversation is closed when both the agent and csutomer end the call. 
+
+Play back the call recording
+
+Skip ahead or rewind
+
+Adjust volume
+
+Customer sentiment marked on recording as
+
+Green - positive
+Grey - neutral
+Red - negative
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-transcript.png)
+> ![Screenshot of ](./media/voice-channel-recording.png)
 
-
-## Step 1:
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
+Selecting a location in the recording visualization will move to the transcript location below. 
 
 ## Step 2:
 
 ## Configuration considerations
 ## Additional Notes
+- conversations recordings and transcripts are stored in CDS
