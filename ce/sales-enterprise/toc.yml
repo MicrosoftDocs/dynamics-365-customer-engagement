@@ -34,7 +34,7 @@
       - name: Create users and assign security roles
         href: /power-platform/admin/create-users-assign-online-security-roles
       - name: Set up sales territories
-        href: admin/set-up-sales-territories-organize-business-markets-geographical-area
+        href: /admin/set-up-sales-territories-organize-business-markets-geographical-area
       - name: Add or remove sales territory members
         href: /power-platform/admin/add-remove-territory-members
       - name: Hierarchy security to control access
@@ -146,7 +146,7 @@
         - name: Collaborate using Microsoft Teams
           items:
           - name: Microsoft Teams integration
-            href: teams-integration/teams-integration
+            href: /teams-integration/teams-integration
         - name: Integrate a sample softphone
           href: sample-softphone-integration.md
     - name: Lead management
@@ -154,7 +154,7 @@
       - name: Define lead qualification experience
         href: define-lead-qualification-experience.md
       - name: Integrate LinkedIn Sales Navigator solutions
-        href: linkedin/integrate-sales-navigator.md
+        href: /linkedin/integrate-sales-navigator.md
     - name: Opportunity management
       items:
       - name: Deal manager
@@ -206,7 +206,7 @@
     - name: Goal management
       items:
       - name: Goal settings
-        href: admin/system-settings-dialog-box-goals-tab
+        href: /admin/system-settings-dialog-box-goals-tab
       - name: Create or edit goals
         href: create-edit-goal-sales.md
       - name: Define a goal metric
@@ -872,3 +872,7 @@
     href: ../sales-professional/help-hub.md
   - name: Sales Team Member app for users with Team Member license
     href: sales-team-member.md
+
+
+
+
