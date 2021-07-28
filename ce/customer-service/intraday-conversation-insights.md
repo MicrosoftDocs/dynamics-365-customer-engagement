@@ -10,7 +10,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 ms.custom: intro-internal
 ---
 
-# View and understand the Agents insights report in Omnichannel intraday insights
+# View and understand the Conversation insights report in Omnichannel intraday insights
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -41,7 +41,7 @@ The **Conversation insights** report displays the following metrics about conver
 | Waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |
 | Closed | The number of conversations closed in the last 24 hours. |
 | Longest wait time | The longest time that a conversation is in queue waiting to be picked up by an agent. |
-| Average conversation handle time | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](#average-handle-time). |
+| Average conversation handle time | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
 | Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned. |
 | Average wrap time (min) | The average time taken to wrap up conversations. |
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |

@@ -64,7 +64,7 @@ The table in the **Agent insights** report displays the following information.
 | Waiting | The total number of conversations waiting to be picked up by an agent. |
 Wrap-up | The total number of conversations in the wrap-up stage. |
 | Closed | The number of conversations that are closed. |
-| Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](#average-handle-time). |
+| Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
 | Email ID | The email address of the agent handling the conversation. |
 
 
@@ -105,7 +105,7 @@ This section displays the following details.
 | Queues | The queues that the agent is mapped to. |
 | Skills | The skills that are assigned to the agent.|
 | Conversation status reason | The status of the latest conversation between the agent and a customer. | 
-| Avg handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. More information: [Average handle time](#average-handle-time). |
+| Avg handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
 | Logged in states duration | The agent's presence when the agent is signed in.|
 | Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with the label **Visitor**. More information: [Automatically identify customers](record-identification-rule.md). |
 | Participation mode | **Primary** indicates that the agent is engaged in a session. **Consult** means that the agent is engaged in a consulting session with another agent. **Monitor** means that this agent is monitoring the session. |
