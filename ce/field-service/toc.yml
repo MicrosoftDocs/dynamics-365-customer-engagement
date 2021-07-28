@@ -32,8 +32,6 @@
     href: set-up-tax-codes.md
   - name: Territories
     href: set-up-territories.md
-  - name: Sample data installation
-    href: install-sample-data-8-x.md
   - name: Field Service settings
     href: configure-default-settings.md
 - name: Quickstarts
