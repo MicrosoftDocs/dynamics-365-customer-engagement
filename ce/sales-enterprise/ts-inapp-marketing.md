@@ -266,7 +266,7 @@ Deletion of a static marketing list with a large number of members (more than 50
 
 **Resolution**
 
-It is recommended to first remove all members from the marketing list by using [Remove using advanced find](create-marketing-list-using-app-marketing-sales.md#remove-using-advanced-find), and then delete the marketing list. For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10,000 at a time. For example, if there are 20,000 members in a marketing list and you want to remove the members. Remove 10,000 members first and then remove the other 10,000.
+It is recommended to first remove all members from the marketing list by using [Remove using Advanced Find](create-marketing-list-using-app-marketing-sales.md#remove-using-advanced-find), and then delete the marketing list. For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10,000 at a time. For example, if there are 20,000 members in a marketing list and you want to remove the members. Remove 10,000 members first and then remove the other 10,000.
 
 ### See also
 
