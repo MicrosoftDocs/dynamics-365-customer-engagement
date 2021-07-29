@@ -1,7 +1,7 @@
 ---
 title: "Move environments between tenants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to prepare for and request to move an environment from one tenant to another."
-ms.date: 12/02/2020
+ms.date: 07/28/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -36,7 +36,7 @@ After tenant to tenant migration, the Marketing environment will be in the follo
 - Interaction data from your source environment (such as email clicks or website visits) won't be available to the migrated environment. Most insights data will be initialized. You can freely generate new interaction data on the migrated environment without affecting your source environment.
 - Content assets uploaded to your source environment (such as images used in emails and landing pages) won't be available on the migrated environment. If you go live on the migrated environment with an email or page that was previously published on the source environment, the published design will show defunct links.
 - Other aspects of the org state not specific to Marketing will align with the [general tenant to tenant migration norms](/power-platform/admin/move-environment-tenant).
-- Migrating a Marketing environment between tenants with CI attached is unsupported at this time.
+- Migrating a Marketing environment between tenants with Customer Insights attached is unsupported at this time.
 
 ### See also
 
