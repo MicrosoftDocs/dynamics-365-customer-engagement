@@ -32,13 +32,18 @@ After the 60 minutes, purchase a new number. You cannot purchase the trial numbe
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-number-mgmt-create-new-number.png)
+To be able to use voice and SMS services in Omnichannel for Customer Service, you must have a resource that connects to Azure Communication Services. You can either create a new resource or use an existing one to connect to Azure Communication Services. You can also use a resource that you previously disconnected or unlinked from Azure Communication Services.
 
 ### Prerequisite
 
-Before you can create a new number you **need an Azure subscription**. If your Azure subscription is in the same tenant as your Dynamics 365 account **and** you have [insert the the blank] Azure permissions then select **Create New Resource**.
+To create a new phone number, you need the following:
+- A valid Azure subscription that's in the same tenant as your Dynamics 365 account. 
+- At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal.
 
-Otherwise, select the **Use Existing Resource** option and copy and paste the relevant information from your Azure subscription. 
 
+<!--
+Otherwise, select the [**Use existing resource**](#use-existing-resource) option and copy and paste the relevant information from your Azure subscription. 
+-->
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-number-mgmt-connect-azure-service.png)
@@ -53,6 +58,34 @@ Otherwise, select the **Use Existing Resource** option and copy and paste the re
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-number-mgmt-azure-success.png)
+
+> [!NOTE]
+> The resource group name should be unique within a given subscription.
+
+<a name="use-existing-resource"></a>
+
+### Use existing resource
+
+Say, you already have an Azure Communication Services resource that you'd like to use to connect with voice or SMS, you can use the **Use existing resource** option to connect to Azure Communication Services. Also, if you had previously unlinked a resource and wish to use it now, you can do so using this option. You can use an existing resource from any of your Azure subscriptions, available under *any* tenant. 
+
+**To use an existing resource**
+
+1. In Omnichannel admin center, under **General Settings**, select **Phone numbers**, and then select Get started. 
+   The Connect to Azure Communication Services dialog opens. 
+
+2. Select Use existing resource and enter the following details:
+   1. ACS Resource Name:
+   2. ACS Resource ID
+   3. Connection String
+   4. Event grip app ID
+   5. Event grip app tenant ID
+
+3.
+
+4.
+
+5.
+
 
 
 ### Add a number 
@@ -94,7 +127,7 @@ Releasing a number will delete a number
 
 ### Import existing numbers from Azure Communication Services
 
-### Unlink Resources
+### Unlink resources
 
 ## Additional notes
 
