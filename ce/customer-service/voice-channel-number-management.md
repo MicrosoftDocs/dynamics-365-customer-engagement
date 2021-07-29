@@ -68,13 +68,16 @@ Otherwise, select the [**Use existing resource**](#use-existing-resource) option
 
 Say, you already have an Azure Communication Services resource that you'd like to use to connect with voice or SMS, you can use the **Use existing resource** option to connect to Azure Communication Services. Also, if you had previously unlinked a resource and wish to use it now, you can do so using this option. You can use an existing resource from any of your Azure subscriptions, available under *any* tenant. 
 
+Before you proceed with adding an existing resource to Azure Communication Services, open your existing resource from the Azure portal in a new window or tab.  Select **Settings** > **Properties**, and get ready to copy the resource values (using the Copy to clipboard button) from this resource to Omnichannel admin center.
+
+
 **To use an existing resource**
 
-1. In Omnichannel admin center, under **General Settings**, select **Phone numbers**, and then select Get started. 
-   The Connect to Azure Communication Services dialog opens. 
+1. Open Omnichannel admin center. Under **General Settings**, select **Phone numbers**, and then select **Get started**. 
+   The **Connect to Azure Communication Services** dialog opens. 
 
-2. Select Use existing resource and enter the following details:
-   1. ACS Resource Name:
+2. Select **Use existing resource** and enter the following details:
+   1. ACS Resource Name: Copy the name from your existing resource here.
    2. ACS Resource ID
    3. Connection String
    4. Event grip app ID
