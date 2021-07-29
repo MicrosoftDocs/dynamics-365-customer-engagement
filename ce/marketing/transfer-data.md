@@ -1,7 +1,7 @@
 ---
 title: "Move data between environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to move data between environments using the Configuration Migration tool in Dynamics 365 Marketing."
-ms.date: 12/03/2020
+ms.date: 07/28/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -51,6 +51,7 @@ The following notes apply when you use export/import to move data from one Dynam
 - If you import (or reimport) a record that already exists on the destination environment, that record will end with a status of "draft" on the destination environment. Matching records won't be duplicated.
 - Interaction data can't be exported or transferred to a new environment. It will never be included in the export file.
 - If you export from a language not present on the destination environment, that language will simply be added to the destination environment.
+- Event triggers cannot be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
 
 <a name="install-tools"></a>
 ## Download the Configuration Migration tool
