@@ -262,11 +262,11 @@ To verify that the issue has been resolved, open the account that has been used 
 
 **Reason**
 
-Deletion of a static marketing list with a large number of members (more than 5000) takes a lot of time, and results into a time out.
+Deletion of a static marketing list with a large number of members (more than 50,000) takes a lot of time, and results into a time out.
 
 **Resolution**
 
-It is recommended to first remove all members from the marketing list by using Advanced find, and then delete the marketing list. For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10000 at a time. For example, if there are 20000 members in a marketing list and you want to remove the members. Remove 10000 members first and then remove the other 10000.
+It is recommended to first remove all members from the marketing list by using [Remove using advanced find](create-marketing-list-using-app-marketing-sales.md#remove-using-advanced-find), and then delete the marketing list. For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10000 at a time. For example, if there are 20000 members in a marketing list and you want to remove the members. Remove 10000 members first and then remove the other 10000.
 
 ### See also
 
