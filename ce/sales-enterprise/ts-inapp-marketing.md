@@ -160,7 +160,7 @@ To resolve this issue, enable the workflow background process and then activate 
     All the available processes are displayed.
     ![Select All in the view selector.](media/troubleshooting-inapp-campaign-distribution-select-all-view-selector.png "Select All in the view selector")   
 4.	Select the **ActivityPropagation** process, and then select **Activate**.
-    ![Activate the ActivityPropagation process.](media/troubleshooting-inapp-campaign-distribution-activate-activity-propagation-process.png "Deactivate the ActivityPropagation process")  
+    ![Activate the ActivityPropagation process.](media/troubleshooting-inapp-campaign-distribution-activate-activity-propagation-process.png "Activate the ActivityPropagation process")  
 
 ### My quick campaign failed and is set to Aborted
 
