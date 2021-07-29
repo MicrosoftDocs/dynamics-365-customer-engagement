@@ -46,7 +46,7 @@ The following table lists the options and the keyboard shortcuts that you can us
 ## Send messages using the Public and Internal modes
 
 > [!IMPORTANT]
-> The public and internal modes are not available if consult pane setting is enabled. More information: [Consult pane setting](enable-consult.md)
+> The public and internal modes are not available if the consult pane setting is enabled. More information: [Preview: Consult pane setting](enable-consult.md)
 
 The communication panel allows you to send messages in two modes: **Internal** and **Public**.
 
