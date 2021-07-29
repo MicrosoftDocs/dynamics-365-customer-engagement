@@ -43,7 +43,7 @@ The following tables show the current usage limits for Marketing features.
 | Feature                     | Attribute                                                   | Maximum                                                    |
 |-----------------------------|-------------------------------------------------------------|------------------------------------------------------------|
 | Interaction sending         | Interactions sent                                           | 10,000,000 per month (333,000 daily max)                   |
-| Interaction personalization | Number of dynamic attributes                                | No limit                                                   |
+| Interaction personalization | Number of distinct dynamic attributes used in a single message                                | 100                                                   |
 | Interaction personalization | Number of [entity relationships connected](../customerengagement/on-premises/customize/create-edit-entity-relationships.md) in personalization | 1:1 = up to 6 levels<br>(1:N & N:M = not currently supported) |
 
 ## Event management
