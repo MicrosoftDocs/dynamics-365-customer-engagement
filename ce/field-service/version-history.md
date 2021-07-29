@@ -66,11 +66,8 @@ This release is a hotfix on Field Service version [8.8.46.26](#884626).
 
 - Update Field Service booking form logic to automatically update **Actual Arrival Time** on update of **Start Time** if the pre-change values of **Start Time** and **Actual Arrival Time** were the same.
 - When creating a follow-up work order from Field Service (Dynamics 365) mobile, there will be a link created between the source and new work order.
-- Improved some text-based fields in mobile app forms to dynamically expand in height to show all content without the need for a technician to scroll within the field.
-- Dynamics 365 Field Service mobile calendar control will now show date and time format based on personalized settings.
+- Field Service (Dynamics 365) mobile calendar control will now show date and time format based on personalized settings.
 - Fixed an issue where booking status was showing "undefined" in mobile map control.
-- Metadata including image and description is added for Field Service mobile controls.
-- Work order in the Field Service (Dynamics 365) mobile app will default to use use modern task-completion controls for WOS, WOP,and WOST.
 - Corrected an issue where, when a work order product was moved from one work order to another, the respective work orders' **Estimated Subtotal Amount** values were not being recalculated.
 - Resolved an issue with purchase order product records that kept the **Product** field active and editable even when the record's status was inactive.
 - Fixed an issue with **Enhanced Background Processing** on agreements where an object reference error could occur when updating agreement invoice setup records if the workflow is deactivated.
