@@ -1,7 +1,7 @@
 ---
 title: "Move data between environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to move data between environments using the Configuration Migration tool in Dynamics 365 Marketing."
-ms.date: 12/03/2020
+ms.date: 07/28/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
