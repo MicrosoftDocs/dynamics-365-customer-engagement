@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 05/28/2021
+ms.date: 07/28/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -55,6 +55,7 @@ After copying or restoring an environment, as described later in this article, y
 - Because a new set of Marketing services is created on the target environment, interaction data from your source environment (such as email clicks or website visits) won't be available to the target environment. Most insights data will be initialized. You can freely generate new interaction data on the target environment without affecting your source environment.
 - Files uploaded to your source environment (such as images used in emails and landing pages) won't be available to the target environment. If you go live with an email or page that was previously published on the source environment, the published design will continue to use the previous image URLs from the source environment&mdash;these images will still appear in the republished designs provided they are still available on the source environment, but to avoid confusion, we strongly recommend that you upload all the images you need to the new environment and edit your emails and pages to use those images before going live with them again.
 - If the Marketing app on your source environment used a Power Apps portal, then you might choose to also set up a new portal on the target environment to host its marketing pages and event websites (requires an unconfigured Power Apps portals license to be available on your tenant). [Portals are optional](portal-optional.md), so you can choose not to use a portal with the copied environment if you prefer, even if the source environment was using one.
+- After backup, if you restore data in real-time marketing, all interaction data, analytics data, Customer Voice data, asset library connections, and Customer Insights connections will *not* be restored. All existing data will remain.
 
 <a name="copy-to-sandbox"></a>
 
