@@ -258,7 +258,7 @@ To verify that the issue has been resolved, open the account that has been used 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Campaign Activities tab and the activities subgrid added to the account form.](media/troubleshooting-inapp-campaign-activities-tab-added.png "The Campaign Activities tab is added with the activities subgrid")
 
-## User is getting timed-out when trying to delete a static marketing list
+## User is getting timed out when trying to delete a static marketing list
 
 **Reason**
 
