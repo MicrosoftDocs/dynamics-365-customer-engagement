@@ -37,6 +37,7 @@ After tenant to tenant migration, the Marketing environment will be in the follo
 - Content assets uploaded to your source environment (such as images used in emails and landing pages) won't be available on the migrated environment. If you go live on the migrated environment with an email or page that was previously published on the source environment, the published design will show defunct links.
 - Other aspects of the org state not specific to Marketing will align with the [general tenant to tenant migration norms](/power-platform/admin/move-environment-tenant).
 - When migrating a Marketing environment between tenants, interaction data (such as email clicks), analytics data (such as journey analytics), and Customer Voice data will *not* be migrated.
+- Migrating a Marketing environment between tenants with Customer Insights attached is unsupported at this time.
 
 ### See also
 
