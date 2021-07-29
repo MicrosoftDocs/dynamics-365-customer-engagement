@@ -4,6 +4,7 @@ description: " "
 ms.date: 08/13/2021
 ms.topic: article
 author: lavanyakr01
+ms.service: crm-online
 ms.author: lavanyakr
 manager: shujoshi
 ---
@@ -60,7 +61,7 @@ Open the dashboard or list view of any Dynamics 365 Customer engagement table or
 
 You can start a new linked chat or convert an existing Teams chat into a linked chat to associate the chat with a Dynamics 365 record.
 
-1.  Open any Dynamics 365 Customer engagement record and select the **Teams chats and channels integration** icon ![](media/image4.png).
+1.  Open any Dynamics 365 Customer engagement record and select the **Teams chats and channels integration** icon ![](media/teams-icon.png).
 
 The **Teams chats (preview)** panel opens.
 
@@ -82,7 +83,7 @@ All the participants in the linked chat will see the chat when they open the rec
 
 Link relevant Teams channels to a record so that all the members can easily access the linked channels from the record and follow the conversations.
 
-1.  Open any Dynamics 365 Customer engagement record and select the **Teams chats and channels integration** icon ![](media/image4.png).
+1.  Open any Dynamics 365 Customer engagement record and select the **Teams chats and channels integration** icon ![](media/teams-icon.png).
 
 The **Teams chats (preview)** panel opens.
 
