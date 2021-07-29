@@ -1,7 +1,7 @@
 ---
 title: Learn the basics of the Dynamics 365 Sales mobile app
 description: Learn the basic functions of the Dynamics 365 Sales mobile app.
-ms.date: 07/27/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
