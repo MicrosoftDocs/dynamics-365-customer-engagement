@@ -6,12 +6,18 @@
     href: teams-install-app.md
   - name: Basic vs Enhanced Collaboration Experience
     href: teams-basic-vs-enhanced-collaboration.md
+  - name: Enable or disable the Teams chat in Dynamics 365
+    href: enable-teams-chat.md
   - name: Use Teams integration
     items: 
     - name: Basic Collaboration with Teams
       href: teams-collaboration.md
     - name: Enhanced Collaboration with Teams
       href: teams-collaboration-enhanced-experience.md
+    - name: Engage in Teams chats from within Dynamics 365
+      href: teams-collaboration-in-dymanics.md
+    - name: Using Teams chat in Dynamics 365
+      href: using-teams-chat-in-dynamics.md
     - name: Use document management
       href: teams-doc-management.md
     - name: Use the personal dashboard

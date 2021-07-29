@@ -29,3 +29,6 @@ You can do the following Teams collaboration activities from Dynamics 365:
 
 - **Link an existing channel to a record –** While the channel is linked to the record, the channel conversations can only be accessed in Teams.
 
+### See also
+- [Admin: Enable or disable Teams chat in Dynamics 365 (preview)](enable-teams-chat.md)
+- [Using Teams chat in Dynamics 365](using-teams-chat-in-dynamics.md)
