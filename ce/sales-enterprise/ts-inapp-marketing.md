@@ -262,7 +262,7 @@ To verify that the issue has been resolved, open the account that has been used 
 
 **Reason**
 
-Deletion of a static marketing list with a large number of members (more than 50,000) takes a lot of time, and results into a time out.
+Deletion of a static marketing list with a large number of members (more than 50000) takes a lot of time, and results into a time out.
 
 **Resolution**
 
