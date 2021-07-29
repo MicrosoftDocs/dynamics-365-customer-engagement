@@ -25,13 +25,13 @@ Window navigation rules define the interaction between various controls in [!INC
 <a name="Howtocreaterule"></a>   
 ## Create or edit a window navigation rule  
  
- Window navigation rules in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are executed in the numerical order and as per the conditions specified. The order is particularly important when more than one rule applies to the conditions under which the control might appear. For example, it is possible to create default handlers that will match when no other rules apply. Such default handlers must come after the more specific handlers, otherwise, the specific handlers will never get used.  
+ Window navigation rules in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are run in the numerical order and as per the conditions specified. The order is particularly important when more than one rule applies to the conditions under which the control might appear. For example, it is possible to create default handlers that will match when no other rules apply. Such default handlers must come after the more specific handlers, otherwise, the specific handlers will never get used.  
 
 **To create or edit window navigation rules**
 
 1. Sign in to Unified Service Desk Administrator.  
 
-2. Select **Windows Navigation Rules** under **Basic Settings**. The page displays all the existing navigation rules in the system.
+2. Select **Window Navigation Rules** under **Basic Settings**. The page displays all the existing navigation rules in the system.
 
 3. Select **New** to create a new navigation rule, or select an existing navigation rule to edit.
 
@@ -42,9 +42,9 @@ Window navigation rules define the interaction between various controls in [!INC
    |        Name         | This is the name of the window navigation rule. |
    |        Order        | This is the numerical order of the rule that controls the order of execution. The smaller value here matches first. More specific rules should have a smaller value while more general or default rules should have larger values. |
    |        From         | Select the hosted control from where the navigation or routing request originates. **Note:**  If you select a **CTI Desktop Manager** type of hosted control in the **From** list, the interface on this page changes to let you define a CTI search. For more information about configuring a CTI search using window navigation rule, see [CTI search](../unified-service-desk/consideration-creating-cti-adapter-unified-service-desk.md#CTISearch). |
-   |     From Search     | Select the entity search name that initiates the **OnLoad** routing type rule (later) to display data from the related entities. When you want to access data that is not displayed on the form, you can use entity searches. When an entity search completes and returns data, the **OnLoad** routing type rule are executed to allow you to load related entities. For more information about entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md). |
+   |     From Search     | Select the entity search name that initiates the **OnLoad** routing type rule (later) to display data from the related entities. When you want to access data that is not displayed on the form, you can use entity searches. When an entity search completes and returns data, the **OnLoad** routing type rule are run to allow you to load related entities. For more information about entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md). |
    |       Entity        | Select the name of the apps entity for which the information will be displayed by the window navigation rule. |
-   |         Url         |  This field is typically used for windows that do not represent the Microsoft Dataverse entities or are standard web URLs. This field is used instead of the **Entity** field, but can be used with the **Entity** field in certain circumstances. An asterisk (*) in this field is used to create a default rule that applies to any pop-up windows originating from the \*\*From*\* field. |
+   |         Url         |  This field is typically used for windows that do not represent the Microsoft Dataverse entities or are standard web URLs. This field is used instead of the **Entity** field, but can be used with the **Entity** field in certain circumstances. An asterisk (\*) in this field is used to create a default rule that applies to any pop-up windows originating from the \*\*From*\* field. |
 
 5. Select the **Result** tab. 
 
@@ -60,9 +60,9 @@ Window navigation rules define the interaction between various controls in [!INC
    |  Hide Command Bar   | This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to hide the model-driven app command bar after the window is displayed in the new tab. |
    | Hide Navigation Bar |  This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to hide the model-driven app navigation bar on the left of the window, when the window is displayed in a new tab.  |
 
-6. Select the **Advanced** tab and update the condition. <br><br> The condition field is a JavaScript expression that results in true or false.<br/>The windows navigation rule is executed only if the conditional expression is validated as true at the run-time. In addition to the standard replacement parameters, you can use the `[[url]]` as a replacement parameter in the condition. The `[[url]]` replacement parameter is replaced with the URL of the target page at the run-time.<br/>The conditional expression is optional and does not affect the windows navigation rule validation.<br/> However, incorrect conditional expression causes the windows navigation rule to fail. |
+6. Select the **Advanced** tab and update the condition. <br><br> The condition field is a JavaScript expression that results in true or false.<br/>The windows navigation rule is run only if the conditional expression is validated as true at run time. In addition to the standard replacement parameters, you can use the `[[url]]` as a replacement parameter in the condition. The `[[url]]` replacement parameter is replaced with the URL of the target page at  run time.<br/>The conditional expression is optional and does not affect the windows navigation rule validation.<br/> However, incorrect conditional expression causes the windows navigation rule to fail. 
 
-7. select **Save** to create or modify the window navigation rule.
+7. Select **Save** to create or modify the window navigation rule.
 
 To see how window navigation rules are used for configuring and agent application, see [Walkthrough 4: Display a record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md), [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md), and [Walkthrough: Use a generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md). 
 
