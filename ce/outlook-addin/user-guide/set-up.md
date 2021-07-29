@@ -152,7 +152,7 @@ search.app:
 ### Step 2: Download the software  
  Before you or your users install [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], please note the following:  
   
-- Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 apps]../../customize/overview.md).  
+- Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 apps](../../customize/overview.md).  
   
 - Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753996(v=ws.11))  
   
@@ -234,7 +234,7 @@ search.app:
 ### Step 2: Download the software  
  Before you or your users install [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)], please note the following:  
   
-- Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 apps]../../customize/overview.md).  
+- Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 apps](../../customize/overview.md).  
   
 - Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753996(v=ws.11))  
   
@@ -277,7 +277,7 @@ search.app:
   
 1. In the Configuration Wizard, you’ll see a **Server URL** drop-down list. Click the arrow next to the drop-down list, and then do one of the following:  
   
-   - To connect to a [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, select **Dynamics 365 apps **. If you don’t know if you’re using the online or on-premises version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], look in your browser at the web address for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. If the web address contains “dynamics.com” after the name of your organization, you’re using the online version. Otherwise, it’s the on-premises version.  
+   - To connect to a [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, select **Dynamics 365 apps**. If you don’t know if you’re using the online or on-premises version of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], look in your browser at the web address for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. If the web address contains “dynamics.com” after the name of your organization, you’re using the online version. Otherwise, it’s the on-premises version.  
   
    - To connect to a [!INCLUDE[pn_crm_2013_shortest](../../includes/pn-crm-2013-shortest.md)] (on-premises) organization, there are two types of URLs, depending on whether your computer is connected to the Internet or not:  
   
