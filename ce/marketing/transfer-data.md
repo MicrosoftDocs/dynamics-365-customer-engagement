@@ -52,6 +52,7 @@ The following notes apply when you use export/import to move data from one Dynam
 - Interaction data can't be exported or transferred to a new environment. It will never be included in the export file.
 - If you export from a language not present on the destination environment, that language will simply be added to the destination environment.
 - After a real-time marketing journey is migrated, restored, or copied, its state is changed from **Live** to **Stopped**. To restart a migrated, restored, or copied journey, you need to first duplicate the journey, and then execute it.
+- Event triggers cannot be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
 
 <a name="install-tools"></a>
 ## Download the Configuration Migration tool
