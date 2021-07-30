@@ -26,20 +26,20 @@ In Omnichannel for Customer Service, you can send messages that you've formatted
 
 ## Markdown formats
 
-The following table lists the Markdown formats that you can use when you send messages to customers.
+The following table lists the Markdown formats that you can use when you send messages to customers via live chat and asynchronous channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and Direct Line. To know the formats supported by the various channels, see [Support for formatted messages](asynchronous-channels.md#support-for-formatted-messages).
 
 |      Style                |    Outbound                          | Example   |
 | ----                      |  ---------------                     | --------  |
-| bold                      | \*bold\*                             | **text**  |
-| italics                   | \_italics\_                          | *text*    |
-| strikethrough             | ~strikethrough~                      | ~~text~~  |
-| blockquote                | > blockquote                         | > Quoted text  |
-| heading levels 1 through 4| # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br>     | **Heading Text 3** <br> |
-| hyperlink                 | https://www.microsoft.com            | <https://www.microsoft.com>    |
-| hyperlink with text       | \[text\]<https://www.microsoft.com>  | [Microsoft website](https://www.microsoft.com) |
-| monospace                 | \`\`\`\ntext\n\`\`\`                 | ```text```                  |
-| numbered list             |  <number> item one                   |  1. item one <br> 2. item two  |
-| unordered list            | \* item one <br> OR <br> - item one  |  \* item one <br> \* item two  |
+| bold                      | `\*bold\*`                             | **text**  |
+| italics                   | `\_italics\_`                          | *text*    |
+| strikethrough             | `~strikethrough~`                      | ~~text~~  | 
+| blockquote                | `> blockquote`                         | <blockquote>text</blockquote>  |
+| header (levels 1&ndash;4) | `### header3`                          | **Text** <br> |
+| hyperlink                 | https://www.microsoft.com              | <https://www.microsoft.com>    |
+| hyperlink with text       | `[link]https://www.microsoft.com`    | [Microsoft website](https://www.microsoft.com) |
+| monospace                 | \`\`\`text\`\`\``                      | ```text```                  |
+| numbered list             |  `<number> item one`                   |  1. item one <br> 2. item two  |
+| unordered list            | `\* item one` <br> or <br> `- item one`|  \* item one <br> \* item two  |
 
 ### See also
 
