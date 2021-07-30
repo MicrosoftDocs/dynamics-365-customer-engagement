@@ -8,7 +8,7 @@ ms.date: 07/30/2021
 ms.topic: reference
 
 ---
-# Preview: Markdown formats for outbound messaging
+# Preview: Use Markdown to format messages
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
