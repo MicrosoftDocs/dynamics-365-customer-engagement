@@ -46,7 +46,7 @@ Finally, you can define on a work order **Time and Resource Preferences** that s
 All of the important work order details that relate to scheduling are passed to an automatically generated related entity called a **Resource Requirement**. Resource requirements are used to assign the work order to the most appropriate resource (field technician). The resource requirement framework is partly what allows any entity to be scheduled, such as cases, opportunities, or custom entities.
 
 > [!Note]
-> Field Service keeps the **Work Order** and the primary resource requirement in sync. All of the scheduling impacting fields are automatically synchronized. If a customer manually creates multiple requirements against a Work Order, those are not automatically synchronized. 
+> Field Service keeps the **Work Order** and the primary resource requirement in sync. All of the scheduling impacting fields are automatically synchronized. If a customer manually creates multiple requirements against a work order, those are not automatically synchronized. 
 
 Before any scheduling can take place, a **Bookable Resource** must be created that represents an employee, contractor, equipment, facility, or anything that needs to be scheduled. When creating a bookable resource, you can add attributes that distinguish them from each other like location, organizational unit, role, characteristics (skills), and more.
 
