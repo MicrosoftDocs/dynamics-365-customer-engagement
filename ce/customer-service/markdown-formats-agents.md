@@ -43,10 +43,9 @@ The following table lists the Markdown formats that you can use when you send me
 
 ### See also
 
+[Enable formatted messages](enable-formatted-messages.md)  
 [Support for live chat and asynchronous channels](asynchronous-channels.md)  
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
-[Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
-[Configure custom messaging channel](configure-custom-channel.md)  
-[Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)  
+[Markdown formats](markdown-formats-dev.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

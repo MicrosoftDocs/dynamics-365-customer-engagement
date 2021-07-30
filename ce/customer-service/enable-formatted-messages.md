@@ -30,11 +30,7 @@ You can allow your agents to send and receive formatted messages over live chat 
 ### See also
 
 [Support for live chat and asynchronous channels](asynchronous-channels.md)  
-[Configure file attachments](configure-file-attachment.md)  
-[Configure a Facebook channel](configure-facebook-channel.md)  
-[Configure a Twitter channel](configure-twitter-channel.md)  
-[Configure a WhatsApp channel](configure-whatsapp-channel.md)  
-[Configure a WeChat channel](configure-wechat-channel.md)  
-[Configure a LINE channel](configure-line-channel.md)  
+[Use Markdown to format messages](markdown-formats-agents.md)  
+[Markdown formats](markdown-formats-dev.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

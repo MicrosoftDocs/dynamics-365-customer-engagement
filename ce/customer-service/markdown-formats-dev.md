@@ -50,5 +50,7 @@ For outbound messages, the Markdown text will be received in the [Activity](/azu
 [Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 [Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)  
+[Enable formatted messages](enable-formatted-messages.md)  
+[Use Markdown to format messages](markdown-formats-agents.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
