@@ -33,8 +33,8 @@ The following table lists the Markdown formats used in inbound messages received
 | italics                   | \_italics\_                         | \_italics\_                           | *text*    |
 | strikethrough             | ~strikethrough~                     | ~strikethrough~                       | ~~text~~  |
 | heading levels 1 through 4| # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br>           | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | **Heading Text 3** <br> 
-| hyperlink                 | (https://www.microsoft.com)         | (https://www.microsoft.com)           | <https://www.microsoft.com>|
-| hyperlink with text       | [link](https://www.microsoft.com) | [link](https://www.microsoft.com)     | <https://www.microsoft.com>|
+| hyperlink                 | https://www.microsoft.com           | https://www.microsoft.com          | <https://www.microsoft.com>|
+| hyperlink with text       | \[link\](https://www.microsoft.com)   | \[link\](https://www.microsoft.com)     | <https://www.microsoft.com>|
 | monospace                 | \`\`\`\ntext\n\`\`\`                | \`\`\`\ntext\n\`\`\`                  | ```text```                |
 | numbered list             |  <number> item one                  | <number> item one                     |  1. item one <br> 2. item two  |
 | unordered list            | \* item one <br> OR <br> - item one | \* item one <br> OR <br> - item one   |  \* item one <br> \* item two  |

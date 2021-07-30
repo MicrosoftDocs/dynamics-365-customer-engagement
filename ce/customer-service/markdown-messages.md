@@ -1,6 +1,6 @@
 ---
 title: "Use Markdown to format messages | MicrosoftDocs"
-description: "Get information on using Markdown formats to send messages via live chat and asynchronous channels in Omnichannel for Customer Service."
+description: "Get information on Markdown formats that agents can use to send messages via live chat and asynchronous channels in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -22,7 +22,7 @@ ms.topic: reference
 In Omnichannel for Customer Service, you can send messages that you've formatted by using Markdown across live chat and asynchronous channels.
 
 > [!NOTE]
-> To be able to use Markdown in your custom messaging channels, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
+> To be able to use Markdown in live and asynchronous channels, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
 
 ## Markdown formats
 

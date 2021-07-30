@@ -15,9 +15,9 @@ ms.custom: intro-internal
 
 ## Overview
 
-As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. The custom channel feature lets you do this so you can engage with customers. Here are some of the messaging channel integrations that are supported:
+As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. The custom messaging channel capability lets you bring in your own channels, so you can engage better with customers. Here are some of the messaging channel integrations that are supported:
 
-- [Direct Line](#bring-channels-using-direct-line)
+- [Direct Line](bring-your-own-channel.md)
 - Telegram
 
 ### Value proposition
@@ -28,11 +28,9 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 - Create a single and unified agent experience in the Omnichannel for Customer Service app.
 
-## Prerequisites
+## Prerequisite
 
-- To enable the custom messaging channel and bring your own channel, you must have channels provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
-
-
+You must have channels provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
 ## End-to-end walkthrough
 
@@ -48,7 +46,7 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 To integrate your messaging channel with Omnichannel for Customer Service, register your channel in **Azure Bot Service**. To learn how to register, see [Register a bot with Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration).
 
-After you register, save the **Microsoft app ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel Administrator app.  To learn more, see [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
+After you register, save the **Microsoft App ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel admin center app.  To learn more, see [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
 
 ## Step 2: Add the messaging channel to bot channel registration
 
@@ -60,9 +58,9 @@ After you add the messaging channel to the Bot Channel registration in Azure Bot
 
 ### Create a workstream in Omnichannel admin center
 
-In Omnichannel admin center, perform the following steps to configure a workstream for the custom messaging channel:
+**To configure a workstream for custom messaging channel in Omnichannel admin center**
 
-1. [Create a workstream](create-workstreams.md).
+1. [Create a workstream](create-workstreams.md)
 2. [Configure work distribution](create-workstreams.md#configure-work-distribution)
 3. [Configure Advanced settings](create-workstreams.md#configure-advanced-settings)
 4. [Add a bot](create-workstreams.md#add-a-bot)
@@ -70,7 +68,7 @@ In Omnichannel admin center, perform the following steps to configure a workstre
 
 ### Create a workstream in Omnichannel Administration
 
-To create a custom channel workstream, use the following steps:
+**To create a workstream for custom channel in Omnichannel Administration**
 
 1. Sign in to Dynamics 365, and go to the Omnichannel Administration app.
 
@@ -186,17 +184,10 @@ To create a custom channel, follow these steps:
 
 For more information, see the developer guide, [Test your custom messaging channel: Test Client HTML](test-custom-channel-sample-html.md).
 
-## Bring channels using Direct Line
-
-If you want to help your customers using your line-of-business (in-house) messaging channels, you can use the Direct Line channel (Bot Framework method).
-
-The Bot Framework **Direct Line** channel helps you to integrate your line-of-business (in-house) messaging channels into the Omnichannel for Customer Service app.
-
-For more information, see the developer guide, [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md).
 
 ## Modify settings for a specific custom channel
 
-1. In the Omnichannel Administration app, go to **Custom** and select the custom channel you want to modify. 
+1. In the Omnichannel Administration app, go to **Custom** and select the custom channel you want to modify.
 
 2. On the **General settings** tab, provide the following information:
     
@@ -204,13 +195,13 @@ For more information, see the developer guide, [Bring your own custom messaging 
     
     - **Work stream**: Select an existing workstream or create a new one.
 
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**.
 
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**. 
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**.
     
-       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
+       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md).
        
-       To learn more about uploading media in Direct Line, see [Azure Bot Service documentation](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-send-activity?view=azure-bot-service-4.0). 
+       To learn more about uploading media in Direct Line, see [Azure Bot Service documentation](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-send-activity?view=azure-bot-service-4.0).
        
        To learn more about uploading media in Telegram, see the [Telegram Bot API](https://core.telegram.org/bots/api#available-types).
 

@@ -146,20 +146,19 @@ With social profiles, you can do the following:
 
 Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, be aware that some styles are not currently supported across some channels. The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
 
-| Style         | Microsoft Teams | Facebook | WhatsApp | Custom messaging (Telegram) | Custom messaging (Direct Line) |
-|---------------| ---------- | -------- | -------- | --------------------------- |------------------------------|
-| bold                 | ✔                | ✔       | ✔      | ✔                            | ✔           |
-| italics              | ✔                | ✔       | ✔      | ✔                            | ✔           |
-| strikethrough        | ✔                | ✔       | ✔      | ✔                            | ✔           |
-| blockquote           | ✔                | ✖       | ✖      | ✖                            | ✖           |
-| monospace            | ✔                | ✔       | ✔      | ✔                            | ✔           |
-| hyperlink with text  | ✔                | ✖       | ✖      | ✔                            | ✔           |
-| hyperlink            | ✔                | ✔       | ✔      | ✔                            | ✔           |
-| new line             | ✔                | ✔       | ✔      | ✔                            | ✔           |
-| headers              | ✔                | ✖       | ✖      | ✖                            | ✔           |
-| numbered list        | ✔                | ✖       | ✖      | ✖                            | ✔           |
-| unordered list       | ✔                | ✖       | ✖      | ✖                            | ✔           |
-
+| Style                | Live chat  | Microsoft Teams | Facebook | WhatsApp | Custom messaging (Telegram)| Custom messaging (Direct Line) |
+|----------------------| ---------- | -------------   | -------- | ---------|------------------          |------------------------------  | 
+| bold                 | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
+| italics              | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
+| strikethrough        | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
+| blockquote           | ✔          | ✔              | ✖        | ✖       | ✖                          | ✖                             |
+| monospace            | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
+| hyperlink with text  | ✔          | ✔              | ✖        | ✖       | ✔                          | ✔                             |
+| hyperlink            | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
+| new line             | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
+| headers              | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
+| numbered list        | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
+| unordered list       | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
 
 ### See also
 
