@@ -13,25 +13,29 @@ ms.service: dynamics-365-customerservice
 
 A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and voice.
 
+You'll perform the steps mentioned in this article in the Omnichannel admin center app.
+
 ## Set up a voice workstream
 
-Perform the following steps in the Omnichannel admin center app to configure a workstream for voice:
+Do the following to configure a workstream for voice:
 
 1. On the left pane, select **Workstreams**, and then on the **Create a workstream** dialog, enter the following.
 
 2. Enter the following details for the work stream:
 
-    1. **Name:** An intuitive name, such as Contoso voice workstream.
-    2. **Type:** Select **Voice**.
+    - **Name:** An intuitive name, such as Contoso voice workstream.
+    - **Type:** Select **Voice**.
 
-**Note:** By default, **Owner** and **Channel** are predefined and unavailable, and only push is available for work distribution mode.
-3.  Select **Create**. The workstream that you created is displayed.
+    > [!Note]
+    > By default, **Owner** and **Channel** are predefined and unavailable, and only push is available for work distribution mode.
 
-![Workstream for voice](media/voice-workstream.png "Workstream for voice")
+3. Select **Create**. The workstream that you created is displayed.
+
+    ![Workstream for voice](media/voice-workstream.png "Workstream for voice")
 
 ## Configure a voice channel
 
-You can view the list of available phone numbers by selecting **Phone numbers (preview)** in the left pane. To acquire a new number, you can select **Add number** on the **Phone numbers (preview)** page. More information: [*Acquire a phone number*](#acquire-a-phone-number).
+To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. To acquire a new number, you can select **Add number** on the **Phone numbers** page. More information: [Acquire a phone number](#acquire-a-phone-number).
 
 To configure the voice channel:
 
@@ -44,17 +48,15 @@ To configure the voice channel:
 
 ![](media/image20.png)
 
-1.  On the **Music** page, select **Next** again. In the private preview, the option to select the audio for ring tone is not available.
+1. On the **Music** page, select **Next** again. In private preview, the option to select the audio for ring tone is not available.
 
-![](media/image21.png)
+2. On the **Language** page, select **Next**. In private preview, only English is supported.
 
-1.  On the **Language** page, select **Next**. In the private preview, only English is supported.
-
-2.  On the **Summary** page, select **Save and close**.
+3. On the **Summary** page, select **Save and close**.
 
 ![](media/image22.png)
 
-The phone number is associated with the work stream.
+The phone number is associated with the workstream.
 
 ![](media/image23.png)
 
@@ -77,33 +79,29 @@ To acquire a phone number:
 
 1. Select **Add number**.
 
-![](media/image24.png)
+    ![Select a number for voice.](media/image24.png "Select a number for voice")
 
-1. Select **Next**.
+2. Select **Next**.
 
-2. On the page that appears, select United States in **Country/Region**, and Toll free for **Number type**.
+3. On the page that appears, select United States in **Country/Region**, and Toll free for **Number type**.
 
-3. Make sure that you select the options for inbound and outbound.
+4. Make sure that you select the options for inbound and outbound.
 
-![](media/image25.png)
+    ![Configure features for the number.](media/image25.png "Configure features for the number")
 
-1.  Select **Next**.
+5. Select **Next**.
 
-2.  On the **Summary** page, review the details and select **Purchase phone number**. It takes a few
+6. On the **Summary** page, review the details and select **Purchase phone number**. It takes a few minutes for the new phone number to be added, so don't close the page immediately. After a few seconds, a prompt will appear to indicate that you can either close the page or continue to wait until the purchase information is displayed. At this point, the number provisioning will start and will continue the process even if you close the page.
 
-minutes for the new phone number to be added, so don't close the page right away. After a few seconds, a prompt will appear to indicate that you can either close the page or continue to wait until the purchase information is displayed. At this point, the number provisioning will start and will continue the process even if you close the page.
+![Summary page for the number.](media/image26.png "Summary page for the number")
 
-![](media/image26.png)
+7. Select **Close**.
 
-1.  Select **Close**.
-
-![](media/image27.png)
+    ![Successful acquisition of phone number for voice.](media/image27.png "Successful acquisition of phone number for voice")
 
 ## Create queues for voice channels
 
-In Customer Service, work items are assigned to a queue and agent with the help of unified routing. Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item
-
-requirements and matching them with the agent's capabilities using round robin routing. For more information on how unified routing works, see *Appendix A: Unified routing*.
+In Customer Service, work items are assigned to a queue and agent with the help of unified routing. Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item requirements and matching them with the agent's capabilities using round robin routing. More information: [Overview of unified routing](overview-unified-routing.md)
 
 In this section, we'll cover information on how to create a queue for the voice channel and routing rules to evaluate conditions and assign work items.
 
@@ -111,33 +109,35 @@ In this section, we'll cover information on how to create a queue for the voice 
 
 In the left pane, select **Queues**, and then complete the following steps to create a queue for the voice channel:
 
-1.  On the **Queues** page, select **New**.
+1. On the **Queues** page, select **New**, and on **Create a queue** dialog, enter the following details:
 
-2.  On the **Create** a queue page, enter a name for the queue.
+    - **Name**: Specify a name.
+    - **Type**: Select **Voice**.
+    - **Group number**: Enter a number.
 
-3.  Select **Voice** for **Type** and enter a value for **Priority** as required by your business need.
+2. Select **Create**. The queue is created.
+3. On the queue page, select **Add users**, and on the **Add users** flyout menu that appears, select the users and select **Add**.
 
-![](media/image28.png)
+   > [!NOTE]
+   > You can add only those users who are configured for unified routing.
 
-1.  Select **Create**. The queue is created and its details are listed.
-
-![](media/image29.png)
+   ![Configure queue for voice.](media/queue-for-voice.png "Configure queue for voice")
 
 ### Assignment rules for a queue
 
 By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first.
 
-## Configure a routing rule for the work stream for voice
+## Configure a routing rule for the workstream for voice
 
-Navigate to the work stream for which you have configured the voice channel and perform the following steps:
+Navigate to the workstream for which you have configured the voice channel and perform the following steps:
 
-1.  In the **Routing rules (preview)** section, for the **Route to queues** option, select **Create ruleset.**
+1. In the **Routing rules** area, in the **Route to queues** option, select **Create ruleset**.
 
-2.  Provide a name and description for the ruleset, and then select **Create**.
+2. On the **Create route-to-queues ruleset** dialog, provide a name and description, and then select **Create**.
 
-![](media/image30.png)
+    ![](media/image30.png)
 
-1.  On the page that appears, select **Create rule**.
+1. On the page that appears, select **Create rule**.
 
 2.  On the **Create rule** page, enter a rule name, and in **Conditions**, define set of conditions using the conversation entity and related entity attributes.
 

@@ -76,7 +76,7 @@ A new support session is created when the voice call is accepted.
 
 ### Administrator experience
 
-[Install and set up](voice-channel-install.md)  
+[Provision and set up voice](voice-channel-install.md)  
 [Manage phone numbers](voice-channel-number-management.md)  
 [Inbound calling](voice-channel-inbound-calling.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
