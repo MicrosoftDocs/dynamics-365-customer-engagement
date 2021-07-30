@@ -539,7 +539,7 @@
       - name: Use WeChat channel
         href: wechat-channel.md
       - name: Use Markdown to format messages
-        href: markdown-messages.md
+        href: markdown-formats-agents.md
     - name: Developer experience
       items: 
       - name: Bring your own custom messaging channel
@@ -549,7 +549,7 @@
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
         - name: Markdown formats
-          href: markdown-formats-custom-channel.md
+          href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: asynchronous-channels.md
   - name: Advanced settings for chat and channels
