@@ -2,7 +2,7 @@
 title: "Set up workstreams and queues for the voice channel | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
 author: neeranelli
-ms.author: daclar
+ms.author: nenellim
 manager: shujoshi
 ms.date: 02/28/2021
 ms.topic: article
@@ -11,30 +11,23 @@ ms.service: dynamics-365-customerservice
 
 # Set up workstreams and queues for the voice channel
 
+A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and voice.
 
-A work stream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue.
+## Set up a voice workstream
 
-## Set up a voice work stream
+Perform the following steps in the Omnichannel admin center app to configure a workstream for voice:
 
-Perform the following steps in the **Omnichannel admin center (preview)** app to configure a work stream for voice:
+1. On the left pane, select **Workstreams**, and then on the **Create a workstream** dialog, enter the following.
 
-1.  On the left pane, select **Work streams**, and then select **Create a work stream**.
+2. Enter the following details for the work stream:
 
-2.  Enter the following details for the work stream:
+    1. **Name:** An intuitive name, such as Contoso voice workstream.
+    2. **Type:** Select **Voice**.
 
-    1. **Name:** An intuitive name, such as Contoso voice work stream.
+**Note:** By default, **Owner** and **Channel** are predefined and unavailable, and only push is available for work distribution mode.
+3.  Select **Create**. The workstream that you created is displayed.
 
-    2. **Work distribution mode:** Select **Push** or **Pick**.
-
-    3. **Type:** Select **Voice**.
-
-**Note:** By default, **Owner** and **Channel** are predefined and unavailable for selection in the private preview release.
-
-![](media/image18.png)
-
-1.  Select **Create**. The work stream that you created is displayed.
-
-![](media/image19.png)
+![Workstream for voice](media/voice-workstream.png "Workstream for voice")
 
 ## Configure a voice channel
 
@@ -42,11 +35,12 @@ You can view the list of available phone numbers by selecting **Phone numbers (p
 
 To configure the voice channel:
 
-1.  Go to the work stream that you created, and on the page that appears, select **Set up voice**.
+1. Go to the workstream that you created, and on the page that appears, select **Set up voice**.
 
-2.  On the **Phone number** page, select a number from the list, and select **Next**.
+2. On the **Phone number** page, select a number from the list, and select **Next**.
 
-**Note:** Only those numbers are displayed that have at the least inbound calling enabled and are not already associated with any other work stream. Use the steps in [*Acquire a phone number*](#acquire-a-phone-number) if you want to configure a new number.
+> [!NOTE]
+> Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.
 
 ![](media/image20.png)
 
@@ -66,29 +60,30 @@ The phone number is associated with the work stream.
 
 ## Acquire a phone number
 
-You can acquire additional phone numbers on the **Phone numbers (preview)** page. The following conditions are applicable:
+You can acquire additional phone numbers on the **Phone numbers** page. The following conditions are applicable:
 
--   Only three phone numbers are available in one org.
+- Only three phone numbers are available in one org.
 
--   Only U.S. numbers, and toll-free numbers.
+- Only U.S. numbers, and toll-free numbers.
 
--   Inbound calling must be enabled on the phone number.
+- Inbound calling must be enabled on the phone number.
 
--   If you are adding a number, before you can use it, it must be in the **Ready** state.
+- If you are adding a number, before you can use it, it must be in the **Ready** state.
 
--   Note: If you acquire new numbers in private preview, you will not be charged for the new phone numbers. After preview, you will be charged per phone number. All rates are subject to change.
+> [!Note]
+> If you acquire new numbers in private preview, you will not be charged for the new phone numbers. After preview, you will be charged per phone number. All rates are subject to change.
 
 To acquire a phone number:
 
-1.  Select **Add number**.
+1. Select **Add number**.
 
 ![](media/image24.png)
 
-1.  Select **Next**.
+1. Select **Next**.
 
-2.  On the page that appears, select United States in **Country/Region**, and Toll free for **Number type**.
+2. On the page that appears, select United States in **Country/Region**, and Toll free for **Number type**.
 
-3.  Make sure that you select the options for inbound and outbound.
+3. Make sure that you select the options for inbound and outbound.
 
 ![](media/image25.png)
 
