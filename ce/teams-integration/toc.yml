@@ -6,6 +6,8 @@
     href: teams-install-app.md
   - name: Basic vs Enhanced Collaboration Experience
     href: teams-basic-vs-enhanced-collaboration.md
+  - name: Enable Sensitivity labels
+    href: sensitivity-labels.md
   - name: Enable or disable the Teams chat in Dynamics 365
     href: enable-teams-chat.md
   - name: Use Teams integration
