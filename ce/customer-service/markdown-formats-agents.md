@@ -36,8 +36,8 @@ The following table lists the Markdown formats that you can use when you send me
 | blockquote                | `> blockquote`                         | <blockquote>text</blockquote>  |
 | header (levels 1&ndash;4) | `### header3`                          | **Text** <br> |
 | hyperlink                 | https://www.microsoft.com              | <https://www.microsoft.com>    |
-| hyperlink with text       | `[link]https://www.microsoft.com`    | [Microsoft website](https://www.microsoft.com) |
-| monospace                 | \`\`\`text\`\`\``                      | ```text```                  |
+| hyperlink with text       | `[text]https://www.microsoft.com`    | [Microsoft website](https://www.microsoft.com) |
+| monospace                 | \`\`\` <br> `text`<br>\`\`\`                      | ```text```                  |
 | numbered list             |  `<number> item one`                   |  1. item one <br> 2. item two  |
 | unordered list            | `\* item one` <br> or <br> `- item one`|  \* item one <br> \* item two  |
 
