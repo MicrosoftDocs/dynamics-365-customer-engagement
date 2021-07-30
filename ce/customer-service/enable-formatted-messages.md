@@ -1,8 +1,8 @@
 ---
 title: "Enable formatted messages | MicrosoftDocs"
 description: "Use this topic to understand how to enable formatted messages in Omnichannel for Customer Service."
-author: meghanalanka
-ms.author: v-mlanka
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 07/30/2021
 ms.topic: article
