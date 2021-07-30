@@ -28,7 +28,7 @@ When core sending is composing an email, it needs to fill in dynamic email eleme
 To ensure proper email sending functionality, make sure that the Marketing user has all the necessary rights and privileges to access the entities they want to use inside an email.
 
 - You can explicitly add *read* access to the entities you want to use. Learn more: [Record-level privileges](/power-platform/admin/security-roles-privileges#record-level-privileges)
-- You can also provide global *read* access for the Marketing user by giving them a [Service Reader role](https://docs.microsoft.com/power-platform-release-plan/2020wave2/data-platform/new-service-reader-service-writer-security-roles), as shown in the screenshot below. Learn more: [Manage user accounts, user licenses, and security roles](admin-users-licenses-roles.md)
+- You can also provide global *read* access for the Marketing user by giving them a [Service Reader role](/power-platform-release-plan/2020wave2/data-platform/new-service-reader-service-writer-security-roles), as shown in the screenshot below. Learn more: [Manage user accounts, user licenses, and security roles](admin-users-licenses-roles.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of Service Reader role selection.](media/email-sending-data-service-reader.png "Screenshot of Service Reader role selection")
