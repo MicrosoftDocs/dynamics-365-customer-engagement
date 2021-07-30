@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Set up workstreams and queues for the voice channel
+# Set up workstreams and queues for the voice channel using unified routing
 
 A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and voice.
 
@@ -127,7 +127,9 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first.
 
-## Configure a routing rule for the workstream for voice
+For a simple and quick voice call routing, you'll not need to set up any rules for unified routing. By default, all the incoming voice calls will get routed to the "default voice queue" and will get assigned to the agents with the round robin assignment methodology.
+
+## Configure routing rules for the workstream for voice
 
 Navigate to the workstream for which you have configured the voice channel and perform the following steps:
 
@@ -135,46 +137,23 @@ Navigate to the workstream for which you have configured the voice channel and p
 
 2. On the **Create route-to-queues ruleset** dialog, provide a name and description, and then select **Create**.
 
-    ![](media/image30.png)
+    ![Route-to-queue ruleset for voice.](media/voice-route-to-queues.png "Route-to-queue ruleset for voice")
 
 1. On the page that appears, select **Create rule**.
 
-2.  On the **Create rule** page, enter a rule name, and in **Conditions**, define set of conditions using the conversation entity and related entity attributes.
+2. On the **Create rule** page, enter a rule name, and in **Conditions**, define the set of conditions using the conversation entity and related entity attributes.
 
-3.  In **Route to queue**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
+3. In **Route to queue**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
 
-![](media/image31.png)
+    ![Create a rule for voice.](media/rule-for-voice.png "Create a rule for voice")
 
-1.  Select **Create**. The rule is created and appears in the list of rules.
+4. Select **Create**. The rule is created and appears in the list of rules.
 
-![](media/image32.png)
+    ![Decision list view of rules.](media/image32.png "Decision list view of rules")
 
-1.  Create as many rules as your business requires.
+5. Create as many rules as your business requires.
 
 ## Additional notes
-
-
-
-Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item
-requirements and matching them with the agent's capabilities on the other side using round robin routing.
-
-Unified routing can assign incoming work item from all channels- cases, live chat, digital messages, and voice. It works in a truly omnichannel way ensuring work items on all the channels are routed in a consistent and similar fashion and thus the agent engagement on different channels is respected before any new work is assigned to them.
-
-Unified routing has two broad stages – classification and assignment. During the classification phase, rules can be used to add information on the work item which can be further used to find the best suited agent. This stage can be termed as creating the demand on the incoming voice call. As part of classification rules, declarative skill attachment rules can be defined as well. For voice channel, skills can't be attached using the machine learning model.
-
-During the assignment phase, the work items are prioritized as per the business needs and then matched against the agent using round robin routing.
-
-For a simple and quick voice call routing, there is no need to set up any rules for unified routing. By
-
-default, all the incoming voice calls will get routed to 'Default voice queue' and will get assigned to the
-
-agents following the round robin assignment methodology.
-
-Work classification and route to queues ruleset can be configured for a work stream as per the business needs.
-
-Routing rules for a work stream
-
-Routing rules are configured for a work stream. A work stream is a container for work items to be enriched, routed, and assigned. A work stream is associated with a channel, such as voice and chat. Routing rules are written as rulesets which consist of rule items. Routing rules for a work stream are comprised of work classification rules and route-to-queue rules.
 
 Routing rules are divided into following:
 
@@ -248,12 +227,8 @@ Route to queue rules: Route to queue ruleset
 
 ![](media/image60.png)
 
-1.  Route to queues have only one ruleset which can have multiple rule items within.
+### See also
 
-![](media/image61.png)
+[Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
 
-Assignment rules for a queue
 
-By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first.
-
-![](media/image62.png)
