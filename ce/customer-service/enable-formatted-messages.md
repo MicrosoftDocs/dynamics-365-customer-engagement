@@ -21,11 +21,11 @@ ms.topic: article
 
 You can allow your agents to send and receive formatted messages over live chat and asynchronous channels by enabling the Markdown toggle in Omnichannel admin center.
 
-1. In the site map of Omnichannel admin center, select **Agent settings** under the **Advanced settings** menu.
+1. In the site map of Omnichannel admin center, select **Agent experience** under the **Advanced settings** menu.
 
 2. Select **Manage** next to **Message formatting**.
 
-3. In the **Markdown settings** area under Omnichannel Configuration, set the **Turn on Markdown** toggle to **Yes**.
+3. In the **Markdown settings** area under **Omnichannel Configuration**, set the **Turn on Markdown** toggle to **Yes**. 
 
 ### See also
 
