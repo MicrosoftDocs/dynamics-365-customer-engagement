@@ -19,7 +19,7 @@ ms.topic: article
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-You can allow your agents to send and receive formatted messages by enabling the Markdown toggle in Omnichannel admin center.
+You can allow your agents to send and receive formatted messages over live chat and asynchronous channels by enabling the Markdown toggle in Omnichannel admin center.
 
 1. In the site map of Omnichannel admin center, select **Agent settings** under the **Advanced settings** menu.
 
