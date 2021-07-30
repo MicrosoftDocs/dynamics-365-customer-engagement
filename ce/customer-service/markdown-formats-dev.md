@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 07/30/2021
 ms.topic: reference
 ---
-# Preview: Markdown formats: Direct Line
+# Preview: Markdown formats
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
