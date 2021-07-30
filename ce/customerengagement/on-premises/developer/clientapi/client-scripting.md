@@ -4,9 +4,6 @@ description: "Learn how to use Client API in Dynamics 365 Customer Engagement (o
 ms.date: 06/27/2019
 ms.prod: d365ce-op
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
-ms.assetid: 16271bd8-cfa8-4a7f-802a-60fbff7c3722
 author: KumarVivek
 ms.author: kvivek
 manager: annbe
@@ -37,7 +34,7 @@ Some client APIs are deprecated in the current release of Dynamics 365 Customer 
 
 ## Reference
 
-[Client API reference](/powerapps/developer/model-driven-apps/clientapi/reference)
+[Client API reference](reference.md)
 
 
 ## Related topics
