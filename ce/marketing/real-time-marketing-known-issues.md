@@ -35,7 +35,7 @@ As we continue to work on the real-time marketing preview and refine the experie
 
 ## Channel optimization
 
-- The AI model cannot consider availability and consent at the time of public preview. If a customer blocks a specific channel (for example, a text message) or has not provided consent to be reached through a specific channel, the AI model will not have access to this information and may send them down the blocked path.
+- The AI model cannot currently consider availability and consent. If a customer blocks a specific channel (for example, a text message) or has not provided consent to be reached through a specific channel, the AI model will not have access to this information and may send them down the blocked path.
 
 ## Consent
 
@@ -61,7 +61,7 @@ As we continue to work on the real-time marketing preview and refine the experie
 
 - Segment-based journeys will only work with segments that are less than 100,000 members. If you try to use a segment with more than 100,000 members, only the first 100,000 will enter the journey.
 - The journey goal only counts unique profiles. Unique profiles are the number of unduplicated (counted only once) people that enter the journey. This means that in cases where the journey is a repeating journey, the total inflow will not match the number of unique profiles with which the goal attainment is calculated.
-- The journey goal met in analytics currently counts he number of unique profiles that met the goal divided by the total inflow. This will be fixed soon to count unique profiles that met the goal divided by total unique profiles.
+- The journey goal met in analytics currently counts the number of unique profiles that met the goal divided by the total inflow. This will be fixed soon to count unique profiles that met the goal divided by total unique profiles.
 
 ## Natural language
 
