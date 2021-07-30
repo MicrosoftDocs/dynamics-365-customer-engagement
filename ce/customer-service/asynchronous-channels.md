@@ -166,6 +166,7 @@ Agents can use basic formatting capabilities in their outbound messages across b
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 [Enable file attachments](enable-file-attachments.md)   
-[Use Markdown formats in custom messaging channels: Direct Line](markdown-formats-custom-channel.md)  
+[Markdown formats](markdown-formats-dev.md)  
+[Use Markdown to format messages](markdown-formats-agents.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
