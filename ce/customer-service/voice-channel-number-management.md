@@ -1,23 +1,26 @@
 ---
 title: "Number management | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
-author: neeranelli
-ms.author: daclar
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/06/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-
-
-# Number management
-
-
+<!--
+Neema Tikoo - Talks about how you can purchase numbers from within Dynamics 365. - 
+Uses the "Create a new resource option"
 //Video 1: https://msit.microsoftstream.com/video/08ba0840-98dc-b561-3805-f1ebd1855239
 
-
+Nael Haddad/David Clarke - talks about how we simplify acquiring numbers, a one-stop shop for business admins to get new numbers, release numbers, etc using ACS.
 //Video 2: https://msit.microsoftstream.com/video/dd07a1ff-0400-b564-49f4-f1eb6cbe2392
 
+Naresh/Abhiney/Sudarshan - discusses how to use an existing resource (say you have unlinked a phone number and want to reuse it now).
+Video 3: https://msit.microsoftstream.com/video/8bfc99ff-0300-b561-3feb-f1ebe379b30a
+-->
+
+# Number management
 
 
 ## Use number included with the Voice Channel 

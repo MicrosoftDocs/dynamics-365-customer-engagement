@@ -1,10 +1,10 @@
 ---
 title: "Azure Bot Service in the Voice channel | MicrosoftDocs"
 description: 
-author: neeranelli
-ms.author: daclar
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/06/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -40,9 +40,9 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Prerequisites
 
-1. You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service.
+1. You must have a bot that's built using Microsoft Bot Framework and registered with Azure Bot Service.
 
-    To create an Azure bot resource, see [Create Azure bot resource](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Note the values of the Microsoft App ID and the bot handle.
+    To create an Azure bot resource, see [Create Azure bot resource](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 
 2. You must add the Azure bot service to conversational IVR.
 
@@ -52,7 +52,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Integrate a bot with Omnichannel for Customer Service
 
-To integrate a bot with Omnichannel for Customer Service, you must:
+To integrate a bot with Omnichannel for Customer Service, you must do the following steps:
 
 1. Create a bot user as an application user with the Omnichannel agent role.
 
@@ -62,7 +62,7 @@ To integrate a bot with Omnichannel for Customer Service, you must:
 
 3. Enable a bot to escalate or end conversations.
 
-4. Set escalation rules.
+4. Set escalation rules, as required.
 
 ### Assign a bot user as application user
 
@@ -93,7 +93,6 @@ To integrate a bot with Omnichannel for Customer Service, you must:
 
     > [!IMPORTANT]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue or workstream, if you want the bot to handle the customer queries first. The capacity of a bot user is however not reduced when a query is handled by it.
-
 
 ### Add bot user to queues
 
@@ -148,8 +147,8 @@ This sample provides exact steps and configuration values to integrate a bot and
 
 2. Follow the instructions in [Add a bot user to the queues](#add-a-bot-user-to-the-queues) to create three queues and add users as follows:
     - **BotQueue**: Add the bot user to this queue.
-    - **CreditCardQueue**: Add agents who will handle credit card&ndash;related queries.
-    - **HomeLoanQueue**: Add agents who will handle home loan&ndash;related queries.
+    - **CreditCardQueue**: Add agents to handle credit card&ndash;related queries.
+    - **HomeLoanQueue**: Add agents to handle home loan&ndash;related queries.
 <!--
 3. Follow the instructions in [Add code snippet to engage a bot](#add-code-snippet-to-engage-a-bot) to add a code snippet for engaging a bot.
 -->
