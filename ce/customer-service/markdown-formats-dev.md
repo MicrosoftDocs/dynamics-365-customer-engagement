@@ -26,18 +26,18 @@ In the Direct Line channel, when an agent sends (*outbound*) a message formatted
 
 The following table lists the Markdown formats used in inbound messages received by the customer and outbound messages sent by the agent to the customer.
 
-|          Style            |      Inbound                        |    Outbound                             | Example   |
-| ----                      | ----------------                    | ---------------                         | --------  |
-| bold                      | `\*bold\*`                          | `\*bold\*`                              | **text**  |
-| italics                   | `\_italics\_`                       | `\_italics\_`                           | *text*    |
-| strikethrough             | `~strikethrough~`                   | `~strikethrough~`                       | ~~text~~  |
-| blockquote                | `> blockquote`                      |  `> blockquote`                         | <blockquote>text</blockquote>|
-| header (levels 1&ndash;4) | `### header3`                       | `### header3`                           | **Text**  |      
-| hyperlink                 | `https://www.microsoft.com`         | `https://www.microsoft.com`             | <https://www.microsoft.com> |
-| hyperlink with text       |`[text](https://www.microsoft.com)`| `[text](https://www.microsoft.com)`   | [Microsoft website](https://www.microsoft.com)  |
-| monospace                 | \`\`\` <br> `text`<br>\`\`\`                    | \`\`\` <br> `text`<br>\`\`\`                        | ```text```                |
-| numbered list             |  `<number> item one`                | `<number> item one`                     |  1. item one <br> 2. item two  |
-| unordered list            |`\* item one` <br>or<br> `- item one`| `\* item one` <br> or <br> `- item one` |  \* item one <br> \* item two  |
+|          Style            |      Inbound                      |    Outbound                           | Example   |
+| ------------------------- | -------------------------------   | --------------------------------------|-----------|
+| bold                      | \*bold\*                          | \*bold\*                              | **text**  |
+| italics                   | \_italics\_                       | \_italics\_                           | *text*    |
+| strikethrough             | ~strikethrough~                   | ~strikethrough~                       | ~~text~~  |
+| blockquote                | > blockquote                      |  > blockquote                         | <blockquote>text</blockquote> |
+| header (levels 1&ndash;4) | ### header3                       | ### header3                           | **Text**  |      
+| hyperlink                 | https://www.microsoft.com         | https://www.microsoft.com             | <https://www.microsoft.com>    |
+| hyperlink with text       |[text]\(https://www.microsoft.com\)| [text]\(https://www.microsoft.com\)   | [Microsoft website](https://www.microsoft.com)  |
+| monospace                 | \`\`\` <br> text<br>\`\`\`        | \`\`\` <br> text<br>\`\`\`            | ```text```                     |
+| numbered list             |  <number> item one                | <number> item one                     |  1. item one <br> 2. item two  |
+| unordered list            |\* item one <br>or<br> - item one  | `\* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
 
 For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property.
 
