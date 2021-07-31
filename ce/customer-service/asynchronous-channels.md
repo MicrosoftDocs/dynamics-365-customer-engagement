@@ -1,10 +1,10 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
-description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting for live chat and asynchronous channels in Omnichannel for Customer Service."
+description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
 ms.date: 07/30/2021
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
@@ -137,10 +137,7 @@ With social profiles, you can do the following:
 | Custom messaging (Telegram) | Yes                                                        |
 
 ## Support for formatted messages
-<!-- Is Live Chat a supported channel as well? -->
-<!--
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
--->
+
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
