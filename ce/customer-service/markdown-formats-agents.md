@@ -29,8 +29,6 @@ In Omnichannel for Customer Service, you can send messages that you've formatted
 The following table lists the Markdown formats that you can use when you send messages to customers via live chat and asynchronous channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and Direct Line. 
 
 To know the formats supported by the various channels, see [Support for formatted messages](asynchronous-channels.md#support-for-formatted-messages).
-> [!Note]
-> The Twitter, WeChat, WhatsApp, and SMS channels do not support Markdown.
 
 |  Style                    |    You type...                       | The text displays as...  |
 | ------------------------- | -------------------------------      | -----------------------  |

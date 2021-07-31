@@ -160,6 +160,9 @@ Agents can use basic formatting capabilities in their outbound messages across b
 | numbered list        | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
 | unordered list       | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
 
+> [!Note]
+> The Twitter, WeChat, WhatsApp, and SMS channels do not support formatted messages.
+
 ### See also
 
 [Overview of channels](channels.md)  
