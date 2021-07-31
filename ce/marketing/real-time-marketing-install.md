@@ -23,7 +23,7 @@ search.app:
 Starting in the August 2021 Dynamics 365 Marketing release, you can opt in for data and AI-powered real-time customer journey orchestration capabilities.
 
 > [!NOTE]
-> Currently, real-time customer journey orchestration features are limited to North America (NAM) and Europe (EUR). Read more: [Datacenter regions](/power-platform/admin/new-datacenter-regions).
+> Real-time customer journey orchestration features are available in the United States, Europe, the United Kingdom, and Australia in August. The features will be available in Canada and Asia-Pacific geographies in October. Availability in other geographies will be communicated at a later date.
 
 ## Steps to opt-in to real-time marketing
 
