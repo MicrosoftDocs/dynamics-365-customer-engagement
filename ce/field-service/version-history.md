@@ -79,10 +79,9 @@ In addition, this release also includes the following changes:
 
 ## 8.8.47.21
 
-- Resolved an issue where the user-provided Pricelist value on a work order could be cleared based under certain form customization scenarios.
+- Resolved an issue where the user-provided Pricelist value on a work order could be cleared under certain form customization scenarios.
 - Corrected an validation issue on work order incidents which was causing users to be blocked from being able to update the work order incident's duration even when there were no work order service tasks on the record which carried a duration.
 - Improved error handling on work order service task creation to provide a more specific error under certain circumstances.
-![image](https://user-images.githubusercontent.com/42361102/127912545-34a4f393-ab06-4515-a01b-355194633900.png)
 
 ## 8.8.46.28 
 
