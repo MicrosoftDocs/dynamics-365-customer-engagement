@@ -19,7 +19,7 @@ ms.topic: reference
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-In Omnichannel for Customer Service, you can use Markdown to format messages that you receive via chat and social channels.
+In Omnichannel for Customer Service, you can use Markdown to format messages when you interact with customers over chat and social channels.
 
 > [!NOTE]
 > To be able to use Markdown in chat and social channels, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
