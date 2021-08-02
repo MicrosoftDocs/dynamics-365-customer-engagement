@@ -25,6 +25,18 @@ ms.service: dynamics-365-customerservice
 
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-monitor.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-monitor-ongoing-conversations.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-monitor-barge.png)
+
+
 ## Step 1:
 
 > [!div class="mx-imgBorder"]
