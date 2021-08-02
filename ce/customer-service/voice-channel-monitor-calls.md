@@ -11,6 +11,10 @@ ms.service: dynamics-365-customerservice
 
 # Monitor calls
 
+// Video: https://msit.microsoftstream.com/video/12860840-98dc-b561-7608-f1ebd85efbf7
+// PR: https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/tree/voice-aug02
+// Doc: https://review.docs.microsoft.com/en-us/dynamics365/customer-service/voice-channel-monitor-calls?branch=voice-aug02 
+
 
 ## Prerequisites
 > [!Note]
