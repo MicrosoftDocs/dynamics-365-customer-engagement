@@ -732,5 +732,5 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
+[About the Entity Reference](../../../../customerengagement/on-premises/developer/about-entity-reference.md)<br /> 
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
