@@ -148,7 +148,7 @@ Agents can use basic formatting capabilities in their outbound messages across b
 | bold                 | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
 | italics              | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
 | strikethrough        | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
-| blockquote           | ✔          | ✔              | ✖        | ✖       | ✖                          | ✖                             |
+| blockquote           | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
 | monospace            | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
 | hyperlink with text  | ✔          | ✔              | ✖        | ✖       | ✔                          | ✔                             |
 | hyperlink            | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
