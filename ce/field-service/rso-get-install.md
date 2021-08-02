@@ -1,7 +1,7 @@
 ---
 title: "Get Resource Scheduling Optimization | MicrosoftDocs"
 description: Learn how to get Resource Scheduling Optimization for Dynamics 365
-ms.date: 03/11/2020
+ms.date: 07/30/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.subservice: resource-scheduling-optimization
@@ -47,7 +47,7 @@ In order to get access to Resource Scheduling Optimization, you must first have 
 
 ## Option 2: Request trial
 
-Microsoft employees can request Resource Scheduling Optimization trial environments for themselves or for customers and partners by reaching out to the scheduling team. If you are a customer or partner, contact your local Microsoft representative.
+Microsoft employees can request Resource Scheduling Optimization trial environments for themselves or for customers and partners by [filling out this form](https://aka.ms/rsotrial). If you are a customer or partner, contact your local Microsoft representative.
 
 ## Next steps
 

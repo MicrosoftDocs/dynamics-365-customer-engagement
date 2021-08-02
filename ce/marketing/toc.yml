@@ -122,6 +122,8 @@
         href: email-warm-up.md
       - name: Email policies and suspension standards
         href: email-policies.md
+      - name: Email sending data access and privileges
+        href: email-sending-data.md
       - name: Improve deliverability to China
         href: improve-deliverability-to-china.md
       - name: Deliverability recommendations when changing ESPs

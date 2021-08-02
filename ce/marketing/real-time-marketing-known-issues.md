@@ -26,10 +26,11 @@ As we continue to work on the real-time marketing preview and refine the experie
 
 - In the aggregate cross-journey analytics dashboard, an extra step is needed to load the Power BI report in the Android and iPad native apps. To load the report, go to **Analytics**, then select a row, select the **Show as from** sub menu, then select **CC_Analytics_ReportingControl**.
 - Data retention is 3 months for added details of operational data (such as contacts impacted by delivery and interaction issues), and 12 months for all other metrics (including operational and aggregate analytics).
+- Some strings in the Power BI aggregate analytics dashboard are not localized.
 
 ## Channel optimization
 
-- The AI model cannot consider availability and consent at the time of public preview. If a customer blocks a specific channel (for example, a text message) or has not provided consent to be reached through a specific channel, the AI model will not have access to this information and may send them down the blocked path.
+- The AI model cannot currently consider availability and consent. If a customer blocks a specific channel (for example, a text message) or has not provided consent to be reached through a specific channel, the AI model will not have access to this information and may send them down the blocked path.
 
 ## Consent
 
@@ -51,10 +52,12 @@ As we continue to work on the real-time marketing preview and refine the experie
 
 - You cannot instrument C# apps in real-time marketing. If you choose to use an alternate language like Python, you will have to manage an infra to run Python.
 
-## Journey & orchestration
+## Journey and orchestration
 
 - Segment-based journeys will only work with segments that are less than 100,000 members. If you try to use a segment with more than 100,000 members, only the first 100,000 will enter the journey.
 - The journey goal only counts unique profiles. Unique profiles are the number of unduplicated (counted only once) people that enter the journey. This means that in cases where the journey is a repeating journey, the total inflow will not match the number of unique profiles with which the goal attainment is calculated.
+- The journey goal met in analytics currently counts the number of unique profiles that met the goal divided by the total inflow. This will be fixed soon to count unique profiles that met the goal divided by total unique profiles.
+- After a real-time marketing journey is migrated, restored, or copied, its state is changed from **Live** to **Stopped**. To restart a migrated, restored, or copied journey, you need to first duplicate the journey, and then execute it.
 
 ## Natural language
 
