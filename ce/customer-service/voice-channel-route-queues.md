@@ -2,113 +2,106 @@
 title: "Set up workstreams and queues for the voice channel | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
 author: neeranelli
-ms.author: daclar
+ms.author: nenellim
 manager: shujoshi
 ms.date: 02/28/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Set up workstreams and queues for the voice channel
+# Set up workstreams and queues for the voice channel using unified routing
 
+A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and voice.
 
-A work stream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue.
+You'll perform the steps mentioned in this article in the Omnichannel admin center app.
 
-## Set up a voice work stream
+## Set up a voice workstream
 
-Perform the following steps in the **Omnichannel admin center (preview)** app to configure a work stream for voice:
+Do the following to configure a workstream for voice:
 
-1.  On the left pane, select **Work streams**, and then select **Create a work stream**.
+1. On the left pane, select **Workstreams**, and then on the **Create a workstream** dialog, enter the following.
 
-2.  Enter the following details for the work stream:
+2. Enter the following details for the work stream:
 
-    1. **Name:** An intuitive name, such as Contoso voice work stream.
+    - **Name:** An intuitive name, such as Contoso voice workstream.
+    - **Type:** Select **Voice**.
 
-    2. **Work distribution mode:** Select **Push** or **Pick**.
+    > [!Note]
+    > By default, **Owner** and **Channel** are predefined and unavailable, and only push is available for work distribution mode.
 
-    3. **Type:** Select **Voice**.
+3. Select **Create**. The workstream that you created is displayed.
 
-**Note:** By default, **Owner** and **Channel** are predefined and unavailable for selection in the private preview release.
-
-![](media/image18.png)
-
-1.  Select **Create**. The work stream that you created is displayed.
-
-![](media/image19.png)
+    ![Workstream for voice](media/voice-workstream.png "Workstream for voice")
 
 ## Configure a voice channel
 
-You can view the list of available phone numbers by selecting **Phone numbers (preview)** in the left pane. To acquire a new number, you can select **Add number** on the **Phone numbers (preview)** page. More information: [*Acquire a phone number*](#acquire-a-phone-number).
+To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. To acquire a new number, you can select **Add number** on the **Phone numbers** page. More information: [Acquire a phone number](#acquire-a-phone-number).
 
 To configure the voice channel:
 
-1.  Go to the work stream that you created, and on the page that appears, select **Set up voice**.
+1. Go to the workstream that you created, and on the page that appears, select **Set up voice**.
 
-2.  On the **Phone number** page, select a number from the list, and select **Next**.
+2. On the **Phone number** page, select a number from the list, and select **Next**.
 
-**Note:** Only those numbers are displayed that have at the least inbound calling enabled and are not already associated with any other work stream. Use the steps in [*Acquire a phone number*](#acquire-a-phone-number) if you want to configure a new number.
+> [!NOTE]
+> Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.
 
 ![](media/image20.png)
 
-1.  On the **Music** page, select **Next** again. In the private preview, the option to select the audio for ring tone is not available.
+1. On the **Music** page, select **Next** again. In private preview, the option to select the audio for ring tone is not available.
 
-![](media/image21.png)
+2. On the **Language** page, select **Next**. In private preview, only English is supported.
 
-1.  On the **Language** page, select **Next**. In the private preview, only English is supported.
-
-2.  On the **Summary** page, select **Save and close**.
+3. On the **Summary** page, select **Save and close**.
 
 ![](media/image22.png)
 
-The phone number is associated with the work stream.
+The phone number is associated with the workstream.
 
 ![](media/image23.png)
 
 ## Acquire a phone number
 
-You can acquire additional phone numbers on the **Phone numbers (preview)** page. The following conditions are applicable:
+You can acquire additional phone numbers on the **Phone numbers** page. The following conditions are applicable:
 
--   Only three phone numbers are available in one org.
+- Only three phone numbers are available in one org.
 
--   Only U.S. numbers, and toll-free numbers.
+- Only U.S. numbers, and toll-free numbers.
 
--   Inbound calling must be enabled on the phone number.
+- Inbound calling must be enabled on the phone number.
 
--   If you are adding a number, before you can use it, it must be in the **Ready** state.
+- If you are adding a number, before you can use it, it must be in the **Ready** state.
 
--   Note: If you acquire new numbers in private preview, you will not be charged for the new phone numbers. After preview, you will be charged per phone number. All rates are subject to change.
+> [!Note]
+> If you acquire new numbers in private preview, you will not be charged for the new phone numbers. After preview, you will be charged per phone number. All rates are subject to change.
 
 To acquire a phone number:
 
-1.  Select **Add number**.
+1. Select **Add number**.
 
-![](media/image24.png)
+    ![Select a number for voice.](media/image24.png "Select a number for voice")
 
-1.  Select **Next**.
+2. Select **Next**.
 
-2.  On the page that appears, select United States in **Country/Region**, and Toll free for **Number type**.
+3. On the page that appears, select United States in **Country/Region**, and Toll free for **Number type**.
 
-3.  Make sure that you select the options for inbound and outbound.
+4. Make sure that you select the options for inbound and outbound.
 
-![](media/image25.png)
+    ![Configure features for the number.](media/image25.png "Configure features for the number")
 
-1.  Select **Next**.
+5. Select **Next**.
 
-2.  On the **Summary** page, review the details and select **Purchase phone number**. It takes a few
+6. On the **Summary** page, review the details and select **Purchase phone number**. It takes a few minutes for the new phone number to be added, so don't close the page immediately. After a few seconds, a prompt will appear to indicate that you can either close the page or continue to wait until the purchase information is displayed. At this point, the number provisioning will start and will continue the process even if you close the page.
 
-minutes for the new phone number to be added, so don't close the page right away. After a few seconds, a prompt will appear to indicate that you can either close the page or continue to wait until the purchase information is displayed. At this point, the number provisioning will start and will continue the process even if you close the page.
+![Summary page for the number.](media/image26.png "Summary page for the number")
 
-![](media/image26.png)
+7. Select **Close**.
 
-1.  Select **Close**.
-
-![](media/image27.png)
+    ![Successful acquisition of phone number for voice.](media/image27.png "Successful acquisition of phone number for voice")
 
 ## Create queues for voice channels
 
-In Customer Service, work items are assigned to a queue and agent with the help of unified routing. Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item
-
-requirements and matching them with the agent's capabilities using round robin routing. For more information on how unified routing works, see *Appendix A: Unified routing*.
+In Customer Service, work items are assigned to a queue and agent with the help of unified routing. Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item requirements and matching them with the agent's capabilities using round robin routing. More information: [Overview of unified routing](overview-unified-routing.md)
 
 In this section, we'll cover information on how to create a queue for the voice channel and routing rules to evaluate conditions and assign work items.
 
@@ -116,70 +109,51 @@ In this section, we'll cover information on how to create a queue for the voice 
 
 In the left pane, select **Queues**, and then complete the following steps to create a queue for the voice channel:
 
-1.  On the **Queues** page, select **New**.
+1. On the **Queues** page, select **New**, and on **Create a queue** dialog, enter the following details:
 
-2.  On the **Create** a queue page, enter a name for the queue.
+    - **Name**: Specify a name.
+    - **Type**: Select **Voice**.
+    - **Group number**: Enter a number.
 
-3.  Select **Voice** for **Type** and enter a value for **Priority** as required by your business need.
+2. Select **Create**. The queue is created.
+3. On the queue page, select **Add users**, and on the **Add users** flyout menu that appears, select the users and select **Add**.
 
-![](media/image28.png)
+   > [!NOTE]
+   > You can add only those users who are configured for unified routing.
 
-1.  Select **Create**. The queue is created and its details are listed.
-
-![](media/image29.png)
+   ![Configure queue for voice.](media/queue-for-voice.png "Configure queue for voice")
 
 ### Assignment rules for a queue
 
 By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first.
 
-## Configure a routing rule for the work stream for voice
+For a simple and quick voice call routing, you'll not need to set up any rules for unified routing. By default, all the incoming voice calls will get routed to the "default voice queue" and will get assigned to the agents with the round robin assignment methodology.
 
-Navigate to the work stream for which you have configured the voice channel and perform the following steps:
+## Configure routing rules for the workstream for voice
 
-1.  In the **Routing rules (preview)** section, for the **Route to queues** option, select **Create ruleset.**
+Navigate to the workstream for which you have configured the voice channel and perform the following steps:
 
-2.  Provide a name and description for the ruleset, and then select **Create**.
+1. In the **Routing rules** area, in the **Route to queues** option, select **Create ruleset**.
 
-![](media/image30.png)
+2. On the **Create route-to-queues ruleset** dialog, provide a name and description, and then select **Create**.
 
-1.  On the page that appears, select **Create rule**.
+    ![Route-to-queue ruleset for voice.](media/voice-route-to-queues.png "Route-to-queue ruleset for voice")
 
-2.  On the **Create rule** page, enter a rule name, and in **Conditions**, define set of conditions using the conversation entity and related entity attributes.
+1. On the page that appears, select **Create rule**.
 
-3.  In **Route to queue**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
+2. On the **Create rule** page, enter a rule name, and in **Conditions**, define the set of conditions using the conversation entity and related entity attributes.
 
-![](media/image31.png)
+3. In **Route to queue**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
 
-1.  Select **Create**. The rule is created and appears in the list of rules.
+    ![Create a rule for voice.](media/rule-for-voice.png "Create a rule for voice")
 
-![](media/image32.png)
+4. Select **Create**. The rule is created and appears in the list of rules.
 
-1.  Create as many rules as your business requires.
+    ![Decision list view of rules.](media/image32.png "Decision list view of rules")
+
+5. Create as many rules as your business requires.
 
 ## Additional notes
-
-
-
-Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item
-requirements and matching them with the agent's capabilities on the other side using round robin routing.
-
-Unified routing can assign incoming work item from all channels- cases, live chat, digital messages, and voice. It works in a truly omnichannel way ensuring work items on all the channels are routed in a consistent and similar fashion and thus the agent engagement on different channels is respected before any new work is assigned to them.
-
-Unified routing has two broad stages – classification and assignment. During the classification phase, rules can be used to add information on the work item which can be further used to find the best suited agent. This stage can be termed as creating the demand on the incoming voice call. As part of classification rules, declarative skill attachment rules can be defined as well. For voice channel, skills can't be attached using the machine learning model.
-
-During the assignment phase, the work items are prioritized as per the business needs and then matched against the agent using round robin routing.
-
-For a simple and quick voice call routing, there is no need to set up any rules for unified routing. By
-
-default, all the incoming voice calls will get routed to 'Default voice queue' and will get assigned to the
-
-agents following the round robin assignment methodology.
-
-Work classification and route to queues ruleset can be configured for a work stream as per the business needs.
-
-Routing rules for a work stream
-
-Routing rules are configured for a work stream. A work stream is a container for work items to be enriched, routed, and assigned. A work stream is associated with a channel, such as voice and chat. Routing rules are written as rulesets which consist of rule items. Routing rules for a work stream are comprised of work classification rules and route-to-queue rules.
 
 Routing rules are divided into following:
 
@@ -253,12 +227,8 @@ Route to queue rules: Route to queue ruleset
 
 ![](media/image60.png)
 
-1.  Route to queues have only one ruleset which can have multiple rule items within.
+### See also
 
-![](media/image61.png)
+[Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
 
-Assignment rules for a queue
 
-By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first.
-
-![](media/image62.png)
