@@ -68,3 +68,8 @@ As an administrator, you will perform all configuration and setting up tasks in 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/image8.png)
+
+### See also
+
+[Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
+[Configure unified routing for the voice channel](voice-channel-route-queues.md)  

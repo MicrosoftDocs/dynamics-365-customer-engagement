@@ -9,33 +9,29 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Handle Call Overflow
+# Handle call overflow
 
 // video 1: https://msit.microsoftstream.com/video/1e910840-98dc-b561-c1ad-f1ebd2b63bf5
 
+With call overflow, you can reduce long wait times for customer calls by setting options for voice queues.
 
-Your organization can set conditions for when a call
+As an administrator, you can determine what happens when an incoming call reaches the voice queue in the following situations:
 
-1. exceeds a defined number of calls waiting in the queue
-2. is recevied outside call center operation hours
+- Exceeds a defined number of calls waiting in the queue
+- Is received outside call center operation hours
 
 
 ## Prerequisites
-- Agents
-- Phone number
 
-> [!Note]
->
-
->[!TIP] 
-> 
-
-
+- Agents should be configured for the voice queues.
+- External phone numbers should be available to configure.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-overflow-queue.png)
 
-## Select an existing voice queue or create a new one
+## Configure call overflow
+
+
 
 
 

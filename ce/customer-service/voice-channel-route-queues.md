@@ -123,13 +123,16 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
    ![Configure queue for voice.](media/queue-for-voice.png "Configure queue for voice")
 
+### Configure call overflow for the voice queue
+
+
 ### Assignment rules for a queue
 
 By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first.
 
 For a simple and quick voice call routing, you'll not need to set up any rules for unified routing. By default, all the incoming voice calls will get routed to the "default voice queue" and will get assigned to the agents with the round robin assignment methodology.
 
-## Configure routing rules for the workstream for voice
+## Configure routing rules for the voice workstream
 
 Navigate to the workstream for which you have configured the voice channel and perform the following steps:
 
@@ -143,15 +146,20 @@ Navigate to the workstream for which you have configured the voice channel and p
 
 2. On the **Create rule** page, enter a rule name, and in **Conditions**, define the set of conditions using the conversation entity and related entity attributes.
 
-3. In **Route to queue**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
+3. In **Route to queues**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
 
     ![Create a rule for voice.](media/rule-for-voice.png "Create a rule for voice")
 
-4. Select **Create**. The rule is created and appears in the list of rules.
+4. In **Overflow action**, select one of the following options:
+   - **Default**: Specify if the work item should be in the queue to be routed to the next available agent.
+   - **End call**: Specify to end the call if the work item isn't a high-priority one.
+   - **Transfer to external number**: Set this option and specify a number to which the call should be routed if the work item should be handled on priority.
+
+5. Select **Create**. The rule is created and appears in the list of rules.
 
     ![Decision list view of rules.](media/image32.png "Decision list view of rules")
 
-5. Create as many rules as your business requires.
+6. Create as many rules as your business requires.
 
 ## Additional notes
 
@@ -173,7 +181,7 @@ Queue routing rules are rules to assign queue to the work item. They are written
 
 Configure work classification rules: Manual work classification ruleset
 
-1.  For a work stream, from **Work** classification area under Routing rules routing, select **Create ruleset**, and then select **Create New**.
+1. For a work stream, from **Work** classification area under Routing rules routing, select **Create ruleset**, and then select **Create New**.
 
 ![](media/image53.png)
 
