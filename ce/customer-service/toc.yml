@@ -1016,6 +1016,8 @@
         href: developer/reference/entities/msdyn_ocphonenumber.md
       - name: msdyn_ocprovisioningstate
         href: developer/reference/entities/msdyn_ocprovisioningstate.md
+        - name: msdyn_ocrecording
+        href: developer/reference/entities/msdyn_ocrecording.md
       - name: msdyn_ocrequest
         href: developer/reference/entities/msdyn_ocrequest.md
       - name: msdyn_ocruleitem
