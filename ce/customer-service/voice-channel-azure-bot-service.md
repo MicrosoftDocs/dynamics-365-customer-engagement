@@ -44,11 +44,15 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
     To create an Azure bot resource, see [Create Azure bot resource](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 
+    <a name="#cognitive-services"></a>
 2. You must add the Azure bot service to conversational IVR.
 
     To create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel, perform the following steps:
-   1. [Create a Cognitive Services resource using the Azure portal](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
-   2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
+    
+    1. [Create a Cognitive Services resource using the Azure portal](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
+    
+    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
+
 
 ## Integrate a bot with Omnichannel for Customer Service
 
@@ -82,8 +86,8 @@ To integrate a bot with Omnichannel for Customer Service, you must do the follow
     - **User type**: Select **Bot application user**.
     - **Bot application ID**: Enter the Microsoft App ID from Azure AD that you noted earlier.
     - **Bot handle**: Enter the bot handle from the Bot profile settings.
-    - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the cognitive speech service resource you created earlier.
-    - **Cognitive Services Region**: Enter the Location/Region value from the cognitive speech service resource you created earlier.
+    - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the [cognitive speech service resource](voice-channel-azure-bot-service.md#cognitive-services) that you created earlier.
+    - **Cognitive Services Region**: Enter the Location/Region value from the cognitive speech service resource that you created earlier.
 
 5. Select **Save and Close**.
 
