@@ -46,13 +46,13 @@ To set up your Customer Insights data for real-time marketing customer journeys,
 
 Marketing can automatically discover Customer Insights data and make it available for real-time marketing. To ensure automatic discovery, complete the following steps:
 
-1. If you haven't [enabled real-time marketing](real-time-marketing-install.md) or are yet to install the Dynamics 365 Marketing application in a Dataverse org, complete the steps [in the section above](real-time-marketing-ci-profile.md#set-up-your-ci-environment-for-real-time-marketing) to first set up your Customer Insights environment. If you complete these steps before real-time marketing is installed in the Dataverse org, the Marketing app will automatically discover the Customer Insights environment. You can verify whether Marketing has discovered the Customer Insights environment by going to **Settings** > **Data management** > **Customer Insights connector**.
+1. If you haven't [enabled real-time marketing](real-time-marketing-install.md) or are yet to install the Dynamics 365 Marketing application in a Dataverse org, complete the steps [in the section above](real-time-marketing-ci-profile.md#set-up-your-customer-insights-environment-for-real-time-marketing) to first set up your Customer Insights environment. If you complete these steps before real-time marketing is installed in the Dataverse org, the Marketing app will automatically discover the Customer Insights environment. You can verify whether Marketing has discovered the Customer Insights environment by going to **Settings** > **Data management** > **Customer Insights connector**.
 1. If you’ve already enabled real-time marketing in the Marketing app prior to setting up Customer Insights as described above, the automatic discovery won't take place. In this case, **Settings** > **Data management** > **Customer Insights connector** shows the following screen:
 
 > [!div class="mx-imgBorder"]
 > ![Customer Insights setup screenshot.](media/real-time-marketing-ci-setup.png)
 
-  - To retry Customer Insights discovery, complete the [above-listed steps](real-time-marketing-ci-profile.md#set-up-your-ci-environment-for-real-time-marketing) in your Customer Insights environment, and then return to **Settings** > **Data management** > **Customer Insights connector** and select **Connect**.
+  - To retry Customer Insights discovery, complete the [above-listed steps](real-time-marketing-ci-profile.md#set-up-your-customer-insights-environment-for-real-time-marketing) in your Customer Insights environment, and then return to **Settings** > **Data management** > **Customer Insights connector** and select **Connect**.
   - If the setup is correct, Marketing will be able to discover Customer Insights and you should see the success indicator.
 
 > [!div class="mx-imgBorder"]
