@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 07/30/2021
+ms.date: 08/02/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh

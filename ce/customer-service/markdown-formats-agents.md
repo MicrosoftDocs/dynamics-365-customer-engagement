@@ -4,7 +4,7 @@ description: "Get information on Markdown formats that agents can use to send me
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 07/30/2021
+ms.date: 08/02/2021
 ms.topic: reference
 
 ---
