@@ -1,6 +1,6 @@
 ---
 title: "Enable formatted messages | MicrosoftDocs"
-description: "Use this topic to understand how to enable formatted messages in Omnichannel for Customer Service."
+description: "Use this topic to understand how to enable your agents to send and receive formatted messages in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -23,9 +23,11 @@ ms.topic: article
 
 1. In the site map of Omnichannel admin center, select **Agent experience** under the **Advanced settings** menu.
 
-2. Select **Manage** next to **Message formatting**.
+2. Select **Manage**, next to **Message formatting**.
 
-3. In the **Markdown settings** area under **Omnichannel Configuration**, set the **Turn on Markdown** toggle to **Yes**. 
+3. In the **Markdown settings** area under **Omnichannel Configuration**, set the **Turn on Markdown** toggle to **Yes**.
+
+4. Select **Save & Close.**
 
 Your agents can now send and receive messages formatted using Markdown over live chat and asynchronous channels.
 
