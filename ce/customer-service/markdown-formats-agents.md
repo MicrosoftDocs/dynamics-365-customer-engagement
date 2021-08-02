@@ -19,14 +19,14 @@ ms.topic: reference
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-In Omnichannel for Customer Service, you can send messages that you've formatted by using Markdown across live chat and asynchronous channels.
+In Omnichannel for Customer Service, you can use Markdown to format messages that you receive via chat and social channels.
 
 > [!NOTE]
-> To be able to use Markdown in live and asynchronous channels, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
+> To be able to use Markdown in chat and social channels, your administrator must enable the Markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](enable-formatted-messages.md)
 
 ## Markdown formats
 
-The following table lists the Markdown formats that you can use when you send messages to customers via live chat and asynchronous channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and Direct Line. 
+The following table lists the Markdown formats that you can use. Formatted messages are supported in channels, such as Microsoft Teams, WhatsApp, Facebook, Telegram, and Direct Line. 
 
 To know the formats supported by the various channels, see [Support for formatted messages](asynchronous-channels.md#support-for-formatted-messages).
 
@@ -46,7 +46,6 @@ To know the formats supported by the various channels, see [Support for formatte
 ### See also
 
 [Enable formatted messages](enable-formatted-messages.md)  
-[Support for live chat and asynchronous channels](asynchronous-channels.md)  
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
 [Markdown formats](markdown-formats-dev.md)  
 

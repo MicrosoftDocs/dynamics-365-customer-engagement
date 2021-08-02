@@ -450,6 +450,8 @@
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
+      - name: Use Markdown to format messages
+        href: markdown-formats-agents.md
     - name: Developer experience
       items: 
       - name: Customize chat widgets using data tags
@@ -538,8 +540,6 @@
         href: teams-channel.md
       - name: Use WeChat channel
         href: wechat-channel.md
-      - name: Use Markdown to format messages
-        href: markdown-formats-agents.md
     - name: Developer experience
       items: 
       - name: Bring your own custom messaging channel
