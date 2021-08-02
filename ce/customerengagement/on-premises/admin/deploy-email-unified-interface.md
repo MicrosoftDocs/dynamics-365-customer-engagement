@@ -1,6 +1,6 @@
 ---
-title: "Enable accessible email  | MicrosoftDocs"
-description: "Improve accessibility when reading and editing email in Dynamics 365 Customer Engagement."
+title: "Accessible email flow in Dynamics 365 Customer Engagement (on-premises)"
+description: "Improve accessibility when reading and editing email by installing the Email in Unified Interface app to provide users an accessible flow."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Enable accessible email flow
+# Enable accessible email flow with the Email in Unified Interface app
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
