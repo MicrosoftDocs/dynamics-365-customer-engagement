@@ -90,6 +90,18 @@ To add a new asset, select the ellipses icon, and either add a new asset, or rel
 > [!Note]
 > You can't drag a sub asset to a functional location different from the parent asset's functional location.
 
+## Search the asset functional location tree
+
+// Video: https://msit.microsoftstream.com/video/4db40840-98dc-b561-500e-f1ebf15df4d3
+
+1. Use the search bar to search for functional locations, and/or Assets. Must check off show Assets button to include assets in search. Matching search results are highlighted and bold
+2. number of search matches found is displayed underneath search bar
+3. expand all and collapse all 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/assets-functional-location-search.png)
+
 ## Use functional location for work orders
 
 Once defined, functional locations help flesh out work order details, once again making it easier for technicians to see where they must perform their work.
