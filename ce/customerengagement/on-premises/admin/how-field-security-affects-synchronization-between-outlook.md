@@ -1,6 +1,6 @@
 ---
-title: "How field security affects synchronization between Customer Engagement (on-premises) and Outlook | MicrosoftDocs"
-description: "Securing a field in Dynamics 365 apps with field level security can impact synchronization with Dynamics 365 Customer Engagement (on-premises)."
+title: "How field security affects synchronization in Dynamics 365 Customer Engagement (on-premises)"
+description: "This page explains how field-level security can impact synchronization between Outlook and Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
