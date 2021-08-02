@@ -29,7 +29,9 @@ ms.topic: article
 
 4. Select **Save & Close.**
 
-Your agents can now send and receive messages formatted using Markdown over live chat and asynchronous channels.
+Your agents can now send and receive messages formatted using Markdown over live chat and asynchronous channels. 
+
+To know the formats supported by the various channels, see [Support for formatted messages](asynchronous-channels.md#support-for-formatted-messages).
 
 ### See also
 
