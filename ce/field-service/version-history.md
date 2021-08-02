@@ -26,7 +26,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | | |  | |
-| | <i>First Release</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | TBD | 07/30/2021
+| | <i>First Release</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | TBD | 08/13/2021
 |<strong>Station 2</strong> | | |  | |
 | | <i>South America</i> |  [8.8.46.28](/dynamics365/field-service/version-history#884628)  | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/06/2021
 | | <i>Canada</i> | [8.8.46.28](/dynamics365/field-service/version-history#884628)  | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/06/2021
@@ -37,14 +37,14 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Germany</i> | [8.8.46.28](/dynamics365/field-service/version-history#884628)  | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/06/2021
 | | <i>Switzerland</i> | [8.8.46.28](/dynamics365/field-service/version-history#884628)  | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/06/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |   [8.8.45.47](/dynamics365/field-service/version-history#884547)| [8.8.46.28](/dynamics365/field-service/version-history#884628)   | 07/30/2021
-| | <i>Asia Pacific</i> | [8.8.45.47](/dynamics365/field-service/version-history#884547)| [8.8.46.28](/dynamics365/field-service/version-history#884628)  | 07/30/2021
-| | <i>Great Britain</i> | [8.8.45.47](/dynamics365/field-service/version-history#884547)| [8.8.46.28](/dynamics365/field-service/version-history#884628)  | 07/30/2021
-| | <i>Oceania</i> |  [8.8.45.47](/dynamics365/field-service/version-history#884547) | [8.8.46.28](/dynamics365/field-service/version-history#884628)  | 07/30/2021
+| | <i>Japan</i> | [8.8.46.28](/dynamics365/field-service/version-history#884628) | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/13/2021
+| | <i>Asia Pacific</i> | [8.8.46.28](/dynamics365/field-service/version-history#884628) | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/13/2021
+| | <i>Great Britain</i> | [8.8.46.28](/dynamics365/field-service/version-history#884628) | [8.8.47.21](/dynamics365/field-service/version-history#884721)  | 08/13/2021
+| | <i>Oceania</i> |  [8.8.46.28](/dynamics365/field-service/version-history#884628) | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/13/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> |[8.8.45.47](/dynamics365/field-service/version-history#884547) |  [8.8.46.28](/dynamics365/field-service/version-history#884628) | 08/06/2021
+| | <i>Europe</i> | [8.8.45.47](/dynamics365/field-service/version-history#884547) |  [8.8.46.28](/dynamics365/field-service/version-history#884628) | 08/06/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |  [8.8.44.56](/dynamics365/field-service/version-history#884456)  | [8.8.45.47](/dynamics365/field-service/version-history#884547) | 07/30/2021
+| | <i>North America</i> | [8.8.45.47](/dynamics365/field-service/version-history#884547) |  [8.8.46.28](/dynamics365/field-service/version-history#884628) | 08/13/2021
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> |    [8.8.44.56](/dynamics365/field-service/version-history#884456)  | [8.8.45.47](/dynamics365/field-service/version-history#884547)   |   08/06/2021
 | | <i>China</i> |   [8.8.44.56](/dynamics365/field-service/version-history#884456)  | [8.8.45.47](/dynamics365/field-service/version-history#884547)   |   08/06/2021
