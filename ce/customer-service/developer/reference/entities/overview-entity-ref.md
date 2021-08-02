@@ -78,6 +78,7 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_ocoutboundmessage](msdyn_ocoutboundmessage.md)|
 |[msdyn_ocphonenumber](msdyn_ocphonenumber.md)|
 |[msdyn_ocprovisioningstate](msdyn_ocprovisioningstate.md)|
+|[msdyn_ocrecording](msdyn_ocrecording.md)|
 |[msdyn_ocrequest](msdyn_ocrequest.md)|
 |[msdyn_ocruleitem](msdyn_ocruleitem.md)|
 |[msdyn_ocsentimentdailytopic](msdyn_ocsentimentdailytopic.md)|
