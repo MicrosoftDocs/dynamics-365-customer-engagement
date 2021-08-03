@@ -1,6 +1,6 @@
 ---
-title: "View the fields that are synchronized between Customer Engagement (on-premises) and Outlook | MicrosoftDocs"
-description: "View the fields that are synchronized between Customer Engagement (on-premises) and Outlook."
+title: "View synchronized fields in Dynamics 365 Customer Engagement (on premises)"
+description: "Learn how to view the fields that are synchronized between Outlook and Customer Engagement (on-premises), and find out which direction they're syncing."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# View the fields that are synchronized between Customer Engagement (on-premises) and Outlook
+# View which fields are synchronized with Outlook and in which direction
 
 In [!INCLUDE[pn_crm_2015_outlook](../includes/pn-crm-2015-outlook.md)] or later, you can view the appointments, contacts, and tasks fields that are synchronized between Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] so you can see where the data is coming from. You can also determine whether the fields:  
 

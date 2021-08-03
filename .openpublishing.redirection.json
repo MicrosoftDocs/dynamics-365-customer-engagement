@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/bring-your-own-channel-sample-html.md",
+      "redirect_url": "test-custom-channel-sample-html",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md",
       "redirect_url": "modify-case-resolution-dialog",
       "redirect_document_id": "false"
@@ -8099,7 +8104,7 @@
       "source_path": "ce/customerengagement/on-premises/developer/clientapi/events-forms-grids.md",
       "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/events-forms-grids",
       "redirect_document_id": "false"
-    },    
+    },
     {
       "source_path": "ce/customerengagement/on-premises/developer/clientapi/understand-clientapi-object-model.md",
       "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model",

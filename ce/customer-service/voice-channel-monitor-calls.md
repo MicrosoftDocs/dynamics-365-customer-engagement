@@ -11,24 +11,44 @@ ms.service: dynamics-365-customerservice
 
 # Monitor calls
 
+// Video: https://msit.microsoftstream.com/video/12860840-98dc-b561-7608-f1ebd85efbf7
+
+// PR: https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/tree/voice-aug02
+
+// Doc: https://review.docs.microsoft.com/en-us/dynamics365/customer-service/voice-channel-monitor-calls?branch=voice-aug02 
+
+Monitor, consult, barge
 
 ## Prerequisites
-> [!Note]
->
-
->[!TIP] 
-> 
+Supervisor must have the **Omnichannel Supervisor** role to view consult and barge ongoing conversations.
 
 
 
-## Step 1:
+## Monitor ongoing conversations 
+
+Manager sees list of active conversations including customer sentiment analysis for each call
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/voice-channel-monitor-ongoing-conversations.png)
 
 
-## Step 2:
+Manager selects and highlights conversation and selects **Monitor**
 
-## Configuration considerations
-## Additional Notes
+Supervisor will see conversation wihtout being seen as a participant to the agent. 
+
+
+## Consult
+
+Supervisor can consult with agent and send messages to agent hidden from customer.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-monitor-barge.png)
+
+## Barge
+
+Supervisor can join call and speak with customer and agent.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-monitor.png)
+
 

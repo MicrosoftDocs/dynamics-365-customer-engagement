@@ -1,6 +1,6 @@
 ---
-title: "System Settings dialog box - Synchronization tab  | MicrosoftDocs"
-description: "Determine how data is synchronized between Dynamics 365 Customer Engagement (on-premises) and Dynamics 365."
+title: "Synchronization settings tab in Dynamics 365 Customer Engagement (on-premises)"
+description: "From the System Settings Synchronization tab, determine how data is synced between Customer Engagement (on-premises) and Dynamics 365 for Outlook."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# System Settings - Synchronization tab 
+# Control system settings from the Synchronization tab
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

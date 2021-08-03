@@ -27,10 +27,9 @@ ms.service: dynamics-365-customerservice
 
 Make sure that the following prerequisites are met:
 
-- [Prerequisites for provisioning Omnichannel for Customer Service](omnichannel-provision-license.md#prerequisites)
-- <Sign up for the voice channel through the private preview program> 
+- [Prerequisites for provisioning Omnichannel for Customer Service](omnichannel-provision-license.md#prerequisites).
+- Sign up for the voice channel through the private preview program.
 - The **Global Tenant Admin** and **Dynamics 365 System Admin** permissions for your organization.
-
 
 ## Set up the voice channel
 
@@ -42,7 +41,7 @@ To set up the voice channel, you will perform the steps for provisioning Omnicha
 
 1. Make sure that **Add voice** is toggled to **Yes**, and select the checkbox to accept the terms.
 
-![Provision voice channel.](media/provision-voice.png "Provision voice channel")
+    ![Provision voice channel.](media/provision-voice.png "Provision voice channel")
 
 1. Confirm your selections, and then select **Finish**. The installation begins.
 
@@ -68,3 +67,8 @@ As an administrator, you will perform all configuration and setting up tasks in 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/image8.png)
+
+### See also
+
+[Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
+[Configure unified routing for the voice channel](voice-channel-route-queues.md)  
