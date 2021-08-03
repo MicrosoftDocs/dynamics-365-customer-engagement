@@ -12,8 +12,8 @@ ms.custom: intro-internal
 
 # Preview: Introduction to the Voice channel
 
-
 > [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
 >
@@ -30,7 +30,6 @@ Enable your customer service representatives to communicate with customers on th
 
 > [!VIDEO 
 https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
-
 
 ## Why choose the voice channel
 
