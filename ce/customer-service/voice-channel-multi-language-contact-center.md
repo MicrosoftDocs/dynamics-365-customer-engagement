@@ -19,22 +19,71 @@ In this article we will show how to configure a phone number in a workstream all
 
 ## Prerequisites
 - Have a phone number set up. See topic on [Number management](voice-channel-number-management.md)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-create-number.png)
+
 - Create Queues for your business needs. For the example scenario in this article we have two Queues, English Queue and SPanish Queue based on the language fo the customer.
 
 
 
->[!TIP] 
-> 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-language-create-queues.png)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-route.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-add-bot.png)
 
 
 ## Add phone number to workstream
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-workstream.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-add-phone-number-workstream.png)
+
 ## Select languages in phone number in workstream
 
 Primary language is the first language the bot greets the customer in. this allows your organization to have 1 phone numebr that services multiple languages rather than having multiple phone numbers, each with one language and asking customers to call the right number.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-phone-primary-language.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-phone-primary-language2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-workstream-add-additional.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-workstream-add-additional2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-workstream-final.png)
 
 > [!Note]
 > Different music for different languages
@@ -43,11 +92,12 @@ Primary language is the first language the bot greets the customer in. this allo
 
 ## Create a multi-language IVR bot with Azure Bot Framework
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
 
-## Sample code for multi-language IVR bot
+https://azure.microsoft.com/en-us/services/bot-services/
+
+
+### Sample code for multi-language IVR bot
 
 > [!Note]
 > Bot author needs to set the va_CustomerLocale context variable field during IVR handoff with the Locale Code for the language they want to support. See supported Locale codes at the end of this document. 
@@ -117,9 +167,12 @@ Primary language is the first language the bot greets the customer in. this allo
                     }
                 }
 
-## Post call survey for specific languages
+## Add your bot to the workstream
 
+https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-add-bot.png)
 
 ## Supported locations and locale codes
 
@@ -173,7 +226,7 @@ Primary language is the first language the bot greets the customer in. this allo
 
 ## Configuration considerations
 
-The bot should repsect the primary language of the 
+The Azure bot should repsect the primary language of the workstream. As an example, if the primary language is English, the Azure bot should initially greet the customer in English.
 
 
 ## Additional Notes
