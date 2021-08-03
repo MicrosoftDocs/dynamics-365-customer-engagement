@@ -44,9 +44,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
     To create an Azure bot resource, see [Create Azure bot resource](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 
-    <a name="#cognitive-services"></a>
-
-2. You must add the Azure bot service to conversational IVR.
+2. <a name="#cognitive-services"></a> You must add the Azure bot service to conversational IVR.
 
     To create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel, perform the following steps:
     
