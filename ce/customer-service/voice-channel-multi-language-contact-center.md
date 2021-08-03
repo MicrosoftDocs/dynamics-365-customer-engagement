@@ -11,6 +11,9 @@ ms.service: dynamics-365-customerservice
 
 # Allow customers to choose a language
 
+
+// Video: https://msit.microsoftstream.com/video/a8a20840-98dc-b561-c6c3-f1ebd85972a9
+
 Contact centers are increasingly serving global and diverse customers that speak multiple languages.​
 
 The tools they use need to be flexible in working across languages.
