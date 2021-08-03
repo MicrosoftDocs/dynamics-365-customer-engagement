@@ -32,28 +32,6 @@ In this article we will show how to configure a phone number in a workstream all
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-route.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-add-bot.png)
-
-
 ## Add phone number to workstream
 
 > [!div class="mx-imgBorder"]
@@ -89,6 +67,9 @@ Primary language is the first language the bot greets the customer in. this allo
 > Different music for different languages
 
 ## Create language specific routing rules
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-route.png)
 
 ## Create a multi-language IVR bot with Azure Bot Framework
 
