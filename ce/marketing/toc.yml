@@ -224,7 +224,7 @@
         href: custom-template-attributes.md
       - name: Design elements reference
         href: content-blocks-reference.md
-    - name: "Preview: Real-time customer journey orchestration"
+    - name: "Real-time customer journey orchestration"
       items: 
       - name: Real-time marketing user guide
         href: real-time-marketing-user-guide.yml
@@ -232,7 +232,7 @@
         items: 
         - name: Real-time marketing overview
           href: real-time-marketing-overview.md
-        - name: Install the real-time marketing preview
+        - name: Install real-time marketing
           href: real-time-marketing-install.md
         - name: Use Customer Insights profiles and segments in real-time marketing
           href: real-time-marketing-ci-profile.md
@@ -288,6 +288,8 @@
         items: 
         - name: Push notification setup for application developers
           href: real-time-marketing-developer-push.md
+      - name: Real-time marketing troubleshoot + FAQ
+        href: real-time-marketing-faq.md
     - name: Email campaigns
       items: 
       - name: Email marketing overview

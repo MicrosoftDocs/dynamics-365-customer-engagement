@@ -1,6 +1,6 @@
 ---
-title: "When would I want to use this check box? | MicrosoftDocs"
-description: "A user can be a member of more than one Dynamics 365 Customer Engagement (on-premises) organization."
+title: "Change synchronizing organization in Dynamics 365 Customer Engagement (on-premises)"
+description: "To change the synchronizing organization, check the box, Sync items with Exchange from this org only, even if Exchange was set to sync with a different org."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# When would I want to use this check box?
+# Use a different synchronizing organization
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
