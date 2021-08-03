@@ -1,7 +1,7 @@
 ---
 title: "Trial FAQ (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Marketing trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 06/30/2021
+ms.date: 08/02/2021
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.custom: template-get-started
@@ -22,9 +22,11 @@ search.app:
 > [!NOTE]
 > For the Marketing trial, you'll need to use an account that is managed by [Microsoft Azure Active Directory](https://azure.microsoft.com/services/active-directory/). If you cannot sign up for Marketing using a work or school email address, sign up for a [free Office 365 E5 trial](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5), then use the email address associated with your Office 365 E5 trial to sign up for the Marketing trial.
 
-[!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
-
 ## Dynamics 365 Marketing-specific questions
+
+### Can I convert the trial to a paid license?
+
+No, you can't convert a Marketing trial instance to a production instance.
 
 ### How do I start using the trial?
 
@@ -60,8 +62,8 @@ Limits and quotas specific to the Marketing trial:
 
 You can monitor your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in Dynamics 365 Marketing. More information: [Quota limits](quota-management.md).
 
-### Can I convert the trial to a paid license?
+## Trial platform FAQ
 
-No, you can't convert a Marketing trial instance to a production instance.
+[!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

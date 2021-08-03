@@ -1,6 +1,6 @@
 ---
-title: "Control field synchronization between Customer Engagement (on-premises) and Outlook | MicrosoftDocs"
-description: "Set the sync direction between Dynamics 365 Customer Engagement (on-premises) and Outlook."
+title: "Control field synchronization in Dynamics 365 Customer Engagement (on-premises)"
+description: "With field synchronization, admins can set the sync direction between Outlook and Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Control field synchronization with Outlook
+# Set synchronization direction in Dynamics 365 Customer Engagement (on-premises)
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
