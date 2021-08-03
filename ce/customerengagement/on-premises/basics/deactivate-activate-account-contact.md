@@ -21,7 +21,7 @@ search.audienceType:
 searchScope:
   - D365-App-*
   - D365-Entity-account
-  - D365-UI-Form
+  - D365-UI-View
   - Customer Engagement
 ---
 # Deactivate or activate an account or contact

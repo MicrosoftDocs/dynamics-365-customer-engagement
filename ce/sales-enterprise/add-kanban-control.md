@@ -6,6 +6,12 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
+searchScope: 
+  - D365-App-msdyn_salespro
+  - D365-Entity-activitypointer
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Add the Kanban control to Opportunity or Activity entities
