@@ -163,21 +163,13 @@
     - name: Administrator experience
       items:
       - name: Create and manage workstreams
-        items:
-        - name: Create and manage workstreams for unified routing
-          href: create-workstreams.md
+        href: create-workstreams.md
       - name: Create and manage queues
-        items:
-        - name: Create and manage queues for unified routing
-          href: queues-omnichannel.md
+        href: queues-omnichannel.md
       - name: Configure work classification
-        items:
-        - name: Configure work classification rulesets for unified routing
-          href: configure-work-classification.md
-      - name: Configure work assignment
-        items:
-        - name: Configure assignment methods for queues
-          href: assignment-methods.md
+        href: configure-work-classification.md
+      - name: Configure assignment methods for queues
+        href: assignment-methods.md
       - name: Set up record routing
         items: 
         - name: Set up unified routing for records
@@ -458,6 +450,8 @@
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
+      - name: Use Markdown to format messages
+        href: markdown-formats-agents.md
     - name: Developer experience
       items: 
       - name: Customize chat widgets using data tags
@@ -534,8 +528,6 @@
         items: 
         - name: Configure a custom messaging channel
           href: configure-custom-channel.md
-      - name: Asynchronous channel support
-        href: asynchronous-channels.md
     - name: Agent experience
       items: 
       - name: Use SMS channel
@@ -552,16 +544,22 @@
       items: 
       - name: Bring your own custom messaging channel
         items: 
-        - name: "Bring your own custom messaging channel: Direct Line bot"
+        - name: "Bring your own custom messaging channel: Direct Line"
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
-          href: bring-your-own-channel-sample-html.md
+          href: test-custom-channel-sample-html.md
+        - name: Markdown formats
+          href: markdown-formats-dev.md
+    - name: Support for live chat and asynchronous channels
+      href: asynchronous-channels.md
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
       href: create-operating-hours.md
     - name: Enable file attachments
       href: enable-file-attachments.md
+    - name: Enable formatted messages
+      href: enable-formatted-messages.md
     - name: Configure pre-conversation surveys
       href: configure-pre-chat-survey.md
     - name: Configure post-conversation surveys
