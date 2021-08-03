@@ -125,6 +125,17 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 ### Configure call overflow for the voice queue
 
+With call overflow, you can reduce long wait times for customer calls by setting options for voice queues.
+
+As an administrator, you can determine what happens when an incoming call reaches the voice queue in the following situations:
+
+- Exceeds a defined number of calls waiting in the queue
+- Is received during the after hours of the call center operations
+
+For call overflow to work correctly, the following prerequisites must be in place:
+
+- Agents should be configured for the voice queues.
+- To configure call transfer to an external phone number, external phone numbers should be available.
 
 ### Assignment rules for a queue
 
