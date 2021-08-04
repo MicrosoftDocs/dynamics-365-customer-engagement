@@ -17,7 +17,9 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Enable search control for subjects in custom forms
+# Preview: Enable search control for subjects in custom forms
+
+[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 ## Introduction
 
@@ -26,7 +28,7 @@ The search control for the subject entity provides intuitive and fast search res
 The search control for the subject entity is available out of the box in the following forms:
 
 - Case for Multisession experience
-- Case form Interactive experience
+- Case for Interactive experience
 - Case Quick Create for Multisession
 - Case Quick Create
 

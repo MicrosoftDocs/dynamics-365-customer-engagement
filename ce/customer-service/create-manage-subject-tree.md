@@ -29,7 +29,7 @@ Dynamics 365 Customer Service includes a subject organizational structure that l
 [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
 
-1. In the Customer Service Hub sitemap, go to **Service Management** > **Subjects**.  
+1. In the Customer Service Hub site map, go to **Service Management** > **Subjects**.  
   
 2. To add a subject, select **Add Subject**.  
   
