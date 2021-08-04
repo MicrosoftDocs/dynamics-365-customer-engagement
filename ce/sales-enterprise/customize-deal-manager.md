@@ -118,7 +118,7 @@ The following table lists the supported and unsupported customizations for side 
 
 |Supported customizations  |Unsupported customizations  |
 |---------------------------------|---------|
-|Define (add or remove) fields in the header.<br> Define (add or remove) fields in the **Key Details** section.<br> Change a field label.<br>Set a field requirement (for example, read-only).<br>Enable or disable tabs.<br>Rearrange tabs.| Adding custom tabs or sections.<br>Adding sections other than Key Details, Contacts, Notes, Tasks, Collaboration, and Recent Opportunities.<br>Adding a web resource.<br>Adding a subgrid.<br>Changing the format or layout for headers, tabs, sections, or fields.<br>Changing certain properties for headers, tabs, sections, or fields. For example, the **available on phone** property can't be changed.  |
+|Define (add or remove) fields in the header.<br> Define (add or remove) fields in the **Key Details** section.<br> Change a field label.<br>Set a field requirement (for example, read-only).<br>Enable or disable tabs.<br>Rearrange tabs.| Adding custom tabs or sections.<br>Adding sections other than Key Details, Contacts, Notes, Tasks, Collaboration, and Recent Opportunities.<br>Adding a web resource.<br>Adding a subgrid.<br>Changing the format or layout for headers, tabs, sections, or fields.<br>Changing certain properties for headers, tabs, sections, or fields. For example, the **available on phone** property can't be changed.|
 
 **To customize the side panel**
 
@@ -130,10 +130,7 @@ The following table lists the supported and unsupported customizations for side 
 1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel.
     :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
 
-
-
-
 ### See also
 
-[Access the deal manager workspace (Preview)](access-deal-manager.md)  
-[Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)
+- [Access the deal manager workspace (Preview)](access-deal-manager.md)  
+- [Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)  

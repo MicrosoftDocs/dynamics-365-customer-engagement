@@ -88,7 +88,7 @@ When you log into the Dynamics 365 mobile app for the first time, you might enco
 1. Select your avatar on the mobile app and select **Settings**.  
 
 1. Enable the **Show non-production apps** option.  
-    You can now see all the trial apps that you've access to.
+    You can now see all the apps that you've access to. Select **Sales trial** to log into your trial. 
  
 ### Why is the sample data not available to all trial users?
 
