@@ -24,7 +24,7 @@ SLAs for Field Service help you ensure work orders are getting attention and com
 
 Consider the following scenario:
 
-A field service organization would like to offer an [SLA](https://hosting.review/web-hosting-glossary/#8) to their customers where field technicians must arrive at the customer's location within 3 hours from the time a work order is created. The organization would also like a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
+A field service organization would like to offer an [SLA](https://cybernews.com/resources/web-hosting-glossary/#sla) to their customers where field technicians must arrive at the customer's location within 3 hours from the time a work order is created. The organization would also like a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
 
 For more information on SLAs in a broader Dynamics 365 capacity, visit our [article on the defining SLAs](/dynamics365/customer-engagement/customer-service/define-service-level-agreements). 
 
