@@ -9,6 +9,9 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
+<!-- In line 76, is bold-italics correct for "record section"?  -->
+
+
 # Using Teams chat in Dynamics 365
 
 As a Dynamics 365 customer engagement app user, you can start or link chat conversations with a record that you're working on.  
@@ -72,9 +75,9 @@ You can start a new linked chat or convert an existing Teams chat into a linked 
 
     - To start a new linked chat with a participant, select **New linked chat** in the **Linked to this *record ***section***.***
 
-    - To start a linked chat with a **Suggested chat & contact**, select the **More** icon (**…**) &gt; **Start a linked chat**.
+    - To start a linked chat with a **Suggested chat & contact**, select the **More** icon (**…**) and then select **Start a linked chat**.
 
-    - To convert an existing chat into a linked chat, select a chat from the **All recents** section. Select the **More** icon (**…**) &gt; **Start a linked chat**.
+    - To convert an existing chat into a linked chat, select a chat from the **All recents** section. Select the **More** icon (**…**) and then select **Start a linked chat**.
 
     The chat name uses the record name or the participant's name depending on the configuration that your administrator chose. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for linked chats** setting. You can modify the chat name. Provide a meaningful name to the chat so that you can identify the chat even on Teams.
 
