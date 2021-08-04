@@ -57,6 +57,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 8.8.51.75 (2021 Wave 2 early access)
 
+(Includes Universal Resource Scheduling version [3.12.60.43](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126043)).
+
 The release is only applied when an environment is opted into Early Access and introduces the [Field Service 2021 Wave 2](/dynamics365-release-plan/2021wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined in the release notes.
  
 In addition, this release also includes the following changes:
@@ -78,6 +80,7 @@ In addition, this release also includes the following changes:
 - Resolved an issue where, when cycling a work order product from estimated to used and back multiple times could leave a previous value in unit amount which should have been nullified.
 
 ## 8.8.47.21
+(Includes Universal Resource Scheduling version [3.12.49.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124918)).
 
 - Resolved an issue where the user-provided Pricelist value on a work order could be cleared under certain form customization scenarios.
 - Corrected an validation issue on work order incidents which was causing users to be blocked from being able to update the work order incident's duration even when there were no work order service tasks on the record which carried a duration.
