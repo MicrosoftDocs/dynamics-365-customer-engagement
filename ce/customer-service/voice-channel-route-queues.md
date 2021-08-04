@@ -1,15 +1,30 @@
 ---
 title: "Set up workstreams and queues for the voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+description: "Learn about how to set up workstreams and queues for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/08/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Set up workstreams and queues for the voice channel using unified routing
+# Preview: Set up workstreams and queues for the voice channel using unified routing
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
+## Introduction
 
 A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and voice.
 
@@ -43,22 +58,22 @@ To configure the voice channel:
 
 2. On the **Phone number** page, select a number from the list, and select **Next**.
 
-> [!NOTE]
-> Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.
+    > [!NOTE]
+    > Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.
 
-![](media/image20.png)
+    ![](media/image20.png)
 
-1. On the **Music** page, select **Next** again. In private preview, the option to select the audio for ring tone is not available.
+3. On the **Music** page, select **Next** again. In private preview, the option to select the audio for ring tone is not available.
 
-2. On the **Language** page, select **Next**. In private preview, only English is supported.
+4. On the **Language** page, select **Next**. In private preview, only English is supported.
 
-3. On the **Summary** page, select **Save and close**.
+5. On the **Summary** page, select **Save and close**.
 
-![](media/image22.png)
+    ![](media/image22.png)
 
 The phone number is associated with the workstream.
 
-![](media/image23.png)
+    ![](media/image23.png)
 
 ## Acquire a phone number
 
@@ -93,7 +108,7 @@ To acquire a phone number:
 
 6. On the **Summary** page, review the details and select **Purchase phone number**. It takes a few minutes for the new phone number to be added, so don't close the page immediately. After a few seconds, a prompt will appear to indicate that you can either close the page or continue to wait until the purchase information is displayed. At this point, the number provisioning will start and will continue the process even if you close the page.
 
-![Summary page for the number.](media/image26.png "Summary page for the number")
+    ![Summary page for the number.](media/image26.png "Summary page for the number")
 
 7. Select **Close**.
 
@@ -127,16 +142,6 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 With call overflow, you can reduce long wait times for customer calls by setting options for voice queues.
 
-As an administrator, you can determine what happens when an incoming call reaches the voice queue in the following situations:
-
-- Exceeds a defined number of calls waiting in the queue
-- Is received during the after hours of the call center operations
-
-For call overflow to work correctly, the following prerequisites must be in place:
-
-- Agents should be configured for the voice queues.
-- To configure call transfer to an external phone number, external phone numbers should be available.
-
 ### Assignment rules for a queue
 
 By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first.
@@ -162,8 +167,8 @@ Navigate to the workstream for which you have configured the voice channel and p
     ![Create a rule for voice.](media/rule-for-voice.png "Create a rule for voice")
 
 4. In **Overflow action**, select one of the following options:
-   - **Default**: Specify if the work item should be in the queue to be routed to the next available agent.
-   - **End call**: Specify to end the call if the work item isn't a high-priority one.
+   - **Default**: Specify if the work item should remain in the queue to be routed to the next available agent.
+   - **End call**: Specify to end the call if no agent will be available to take the call, for example an operating hour is configured and the overflow action was triggered on account of it.
    - **Transfer to external number**: Set this option and specify a number to which the call should be routed if the work item should be handled on priority.
 
 5. Select **Create**. The rule is created and appears in the list of rules.
@@ -172,82 +177,12 @@ Navigate to the workstream for which you have configured the voice channel and p
 
 6. Create as many rules as your business requires.
 
-## Additional notes
+## Configure work classification rules
 
-Routing rules are divided into following:
-
-*Work classification rules*
-
-Work classification rules are for updating work item attributes. They are written in the format of - if defined condition satisfies then set the output attributes to certain values. They are optional and can be used to add additional detailed information to the incoming work items, which are then further used for more precise routing and assignment.
-
-They are declarative rules written as decision list in the following ways:
-
--   Manual – Rules to update work item attributes. They are written in the format of if defined condition satisfied, then set the output attributes to certain values. Create conditions to define rules based on multiple entity attributes.
-
--   Skill attachment rules – A sub type of manual work classification rules and are rules defined to attach skills to the work item. They are written in the format of if defined condition satisfied, then attach defined skills to the work item.
-
-*Queue routing rules*
-
-Queue routing rules are rules to assign queue to the work item. They are written in the format of- if defined condition satisfies then route the work item to the defined queue. They are optional and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a work stream, the route to queue ruleset is run after all the work classification rulesets have been run. A work stream has only one route to queue ruleset.
-
-Configure work classification rules: Manual work classification ruleset
-
-1. For a work stream, from **Work** classification area under Routing rules routing, select **Create ruleset**, and then select **Create New**.
-
-![](media/image53.png)
-
-1.  Choose **Rule Type** as **Manual** and provide a name and description for the ruleset, and then select **Create**.
-
-![](media/image54.png)
-
-1.  Select **Create Rule** to create a rule item within this ruleset and provide a name for the rule.
-
-2.  In the **Conditions** section, define a set of conditions using the conversation entity and related entity attributes.
-
-![](media/image55.png)
-
-1.  In the **Output** section, select the attribute from the conversation entity or related entity whose value will be set if the conditions are met.
-
-2.  Create multiple rulesets as your business needs. All rulesets will run in order in such a way that output attributes that are set in the previous ruleset can be used in conditions in the next rulesets. Within a ruleset, rule items will run in order following first-match policy, which means as soon as the rule item condition is satisfied, no further rule items will run in that ruleset and control will shift to next ruleset in the order.
-
-![](media/image56.png)
-
-Configure skill identification rules: Manual skill identification ruleset
-
-1.  For a work stream, from a routing rule section, select **Create ruleset**, and then select **Create New**.
-
-2.  Select **Rule Type** as **Manual**, provide a name and description for the ruleset, toggle **Skill identification ruleset** to **Yes**, and select **Create**.
-
-![](media/image57.png)
-
-1.  Select **Create Rule** to create a rule item within this ruleset and provide a name for the rule.
-
-2.  In the **Conditions** section, define set of conditions using conversation entity and related entity attributes.
-
-3.  In the **Skills** section, select skills and optional skill proficiency required. These skills will be attached to the conversation if the above defined conditions are satisfied.
-
-![](media/image58.png)
-
-Route to queue rules: Route to queue ruleset
-
-1.  For a work stream, in **Work classification** under the **Route to queues** section, select **Create ruleset**, and then select **Create New**.
-
-2.  Select **Create Rule** to create a rule item within this ruleset and provide a name for the rule.
-
-3.  In **Conditions**, define set of conditions using conversation entity and related entity attributes.
-
-4.  In **Route to queue**, select the queue where work items should route if the above conditions are satisfied.
-
-![](media/image59.png)
-
-1.  To route all incoming work items to a specific queue irrespective of the conditions, set attribute
-
-**ConversationId** to **Not null**, and select the queue.
-
-![](media/image60.png)
+You can configure work classification rules for the voice workstream to add detailed information to incoming work items. This information can be used to route the calls optimally. More information: [Configure work classification](configure-work-classification.md)
 
 ### See also
 
 [Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
-
-
+[Overview of unified routing](overview-unified-routing.md)  
+[Assignment methods](assignment-methods.md)  

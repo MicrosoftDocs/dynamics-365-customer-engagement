@@ -9,25 +9,82 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Set Up a Multi-Language Contact Center
+# Allow customers to choose a language
 
+
+// Video: https://msit.microsoftstream.com/video/a8a20840-98dc-b561-c6c3-f1ebd85972a9
+
+Contact centers are increasingly serving global and diverse customers that speak multiple languages.​
+
+The tools they use need to be flexible in working across languages.
+
+In this article we will show how to configure a phone number in a workstream allow customer to choose the language they speak and the language of the bot
 
 ## Prerequisites
-> [!Note]
->
-
->[!TIP] 
-> 
-
-
-
-## Step 1:
+- Have a phone number set up. See topic on [Number management](voice-channel-number-management.md)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/voice-language-create-number.png)
+
+- Create Queues for your business needs. For the example scenario in this article we have two Queues, English Queue and SPanish Queue based on the language fo the customer.
 
 
-## sample code
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-language-create-queues.png)
+
+
+
+## Add phone number to workstream
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-workstream.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-add-phone-number-workstream.png)
+
+## Select languages in phone number in workstream
+
+Primary language is the first language the bot greets the customer in. this allows your organization to have 1 phone numebr that services multiple languages rather than having multiple phone numbers, each with one language and asking customers to call the right number.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-phone-primary-language.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-phone-primary-language2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-workstream-add-additional.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-workstream-add-additional2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-workstream-final.png)
+
+> [!Note]
+> Different music for different languages
+
+## Create language specific routing rules
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-route.png)
+
+## Create a multi-language IVR bot with Azure Bot Framework
+
+
+
+https://azure.microsoft.com/en-us/services/bot-services/
+
+
+### Sample code for multi-language IVR bot
+
+> [!Note]
+> Bot author needs to set the va_CustomerLocale context variable field during IVR handoff with the Locale Code for the language they want to support. See supported Locale codes at the end of this document. 
 
         // Copyright (c) Microsoft Corporation. All rights reserved.
         // Licensed under the MIT License.
@@ -94,58 +151,68 @@ ms.service: dynamics-365-customerservice
                     }
                 }
 
+## Add your bot to the workstream
+
+https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-language-add-bot.png)
 
 ## Supported locations and locale codes
 
 | Language Name |	Locale Code |
 | ---- | ---- |
 | Arabic - Saudi Arabia	| ar-SA  |
-| Basque - Spain | 	eu-ES
-| Bulgarian - Bulgaria | 	bg-BG
-| Catalan - Spain	| ca-ES
-| Chinese - China	| zh-CN
-| Chinese - Hong Kong | 	zh-HK
-| Chinese - Taiwan	| zh-TW
-| Croatian - Croatia | 	hr-HR
-| Czech - Czech Republic	| cs-CZ
-| Danish - Denmark	| da-DK
-| Dutch - Netherlands | 	nl-NL
-| English - United States | 	en-US
-| Estonian - Estonia	| et-EE
-| Finnish - Finland	| fi-FI
-| French - France	| fr-FR
-| Galician - Spain	| gl-ES
-| German - Germany	| de-DE
-| Greek - Greece	| el-GR
-| Hebrew - Israel	| he-IL
-| Hindi - India	| hi-IN
-| Hungarian - Hungary	| hu-HU
-| Indonesian - Indonesia	| id-ID
-| Italian - Italy	| it-IT
-| Japanese - Japan	| ja-JP
-| Kazakh - Kazakhstan	| kk-KZ
-| Korean - Korea	| ko-KR
-| Latvian - Latvia	| lv-LV
-| Lithuanian - Lithuania	| lt-LT
-| Malay - Malaysia	| ms-MY
-| Norwegian Bokmal - Norway	| nb-NO
-| Polish - Poland	| pl-PL
-| Portuguese - Brazil	| pt-BR
-| Portuguese - Portugal	| pt-PT
-| Romanian - Romania	| ro-RO
-| Russian - Russia	| ru-RU
-| Serbian (Cyrillic) - Serbia	| sr-Cyrl-CS
-| Serbian (Latin) - Serbia	| sr-Latn-CS
-| Slovak - Slovakia	| sk-SK
-| Slovenian - Slovenia	| sl-SI
-| Spanish - Spain	| es-ES
-| Swedish - Sweden	| sv-SE
-| Thai - Thailand	| th-TH
-| Turkish - Turkey	| tr-TR
-| Ukrainian - Ukraine	| uk-UA
+| Basque - Spain | 	eu-ES  |
+| Bulgarian - Bulgaria | 	bg-BG  |
+| Catalan - Spain	| ca-ES  |
+| Chinese - China	| zh-CN  |
+| Chinese - Hong Kong | 	zh-HK  |
+| Chinese - Taiwan	| zh-TW  |
+| Croatian - Croatia | 	hr-HR  |
+| Czech - Czech Republic	| cs-CZ  |
+| Danish - Denmark	| da-DK  |
+| Dutch - Netherlands | 	nl-NL  |
+| English - United States | 	en-US  |
+| Estonian - Estonia	| et-EE  |
+| Finnish - Finland	| fi-FI  |
+| French - France	| fr-FR  |
+| Galician - Spain	| gl-ES  |
+| German - Germany	| de-DE  |
+| Greek - Greece	| el-GR  |
+| Hebrew - Israel	| he-IL  |
+| Hindi - India	| hi-IN  |
+| Hungarian - Hungary	| hu-HU  |
+| Indonesian - Indonesia	| id-ID  |
+| Italian - Italy	| it-IT  |
+| Japanese - Japan	| ja-JP  |
+| Kazakh - Kazakhstan	| kk-KZ  |
+| Korean - Korea	| ko-KR  |
+| Latvian - Latvia	| lv-LV  |
+| Lithuanian - Lithuania	| lt-LT  |
+| Malay - Malaysia	| ms-MY  |
+| Norwegian Bokmal - Norway	| nb-NO  |
+| Polish - Poland	| pl-PL  |
+| Portuguese - Brazil	| pt-BR  |
+| Portuguese - Portugal	| pt-PT  |
+| Romanian - Romania	| ro-RO  |
+| Russian - Russia	| ru-RU  |
+| Serbian (Cyrillic) - Serbia	| sr-Cyrl-CS  |
+| Serbian (Latin) - Serbia	| sr-Latn-CS  |
+| Slovak - Slovakia	| sk-SK  |
+| Slovenian - Slovenia	| sl-SI  |
+| Spanish - Spain	| es-ES  |
+| Swedish - Sweden	| sv-SE  |
+| Thai - Thailand	| th-TH  |
+| Turkish - Turkey	| tr-TR  |
+| Ukrainian - Ukraine	| uk-UA  |
 | Vietnamese - Vietnam	| vi-VN | 
 
 ## Configuration considerations
+
+The Azure bot should repsect the primary language of the workstream. As an example, if the primary language is English, the Azure bot should initially greet the customer in English.
+
+
 ## Additional Notes
 
 ### See also
