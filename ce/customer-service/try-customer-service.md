@@ -3,7 +3,7 @@ title: "Sign up for a free Dynamics 365 Customer Service trial | MicrosoftDocs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find additional learning resources."
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/30/2021
+ms.date: 08/03/2021
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.reviewer: shujoshi
@@ -52,7 +52,8 @@ The trial environment includes many of the same features as the paid version. Th
 
 ### Additional resources
 
-[Explore training on Microsoft Learn](/learn/browse/?filter-products=dynamics-customer-service)  
-[Watch videos on the product playlist](https://www.microsoft.com/en-us/videoplayer/embed/RE41po2?maskLevel=0)  
-[Trial FAQ](trial-faq.md)  
-[Try channels in Omnichannel for Customer Service](try-channels.md)  
+- [Dynamics 365 Customer Service free trial sign up page](https://dynamics.microsoft.com/customer-service/customer-service-software/free-trial)
+- [Explore training on Microsoft Learn](/learn/browse/?filter-products=dynamics-customer-service)  
+- [Watch videos on the product playlist](https://www.microsoft.com/en-us/videoplayer/embed/RE41po2?maskLevel=0)  
+- [Trial FAQ](trial-faq.md)  
+- [Try channels in Omnichannel for Customer Service](try-channels.md)  
