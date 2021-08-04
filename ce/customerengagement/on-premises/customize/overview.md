@@ -23,7 +23,7 @@ search.audienceType:
 
 # App making and customization overview for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
-Dynamics 365 Customer Engagement (on-premises) gives you powerful customization and app making capabilities that don't require you to write a single line of code. With a comprehensive set of WSYSIWYG designer and editor tools, most anyone can fully customize Dynamics 365 Customer Engagement (on-premises) or create their own custom apps.
+Dynamics 365 Customer Engagement (on-premises) gives you powerful customization and app making capabilities that don't require you to write a single line of code. With a comprehensive set of WYSIWYG designer and editor tools, most anyone can fully customize Dynamics 365 Customer Engagement (on-premises) or create their own custom apps.
 
 For documentation of earlier versions (8.x and earlier), visit [https://docs.microsoft.com/previous-versions/dynamics/](/previous-versions/dynamics/).
   
