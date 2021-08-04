@@ -50,7 +50,7 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
 
 
 
-## Customize the editable grid in deal manager
+## Customize the editable grid
 
 The editable grid in the deal manager workspace lets sellers quickly view a list of opportunities that they're interested in. You can customize the editable grid to apply any business rules, or to include fields that sellers want to view by default and update.
 
@@ -112,13 +112,13 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
 ## Customize the side panel
 
-The side panel helps sellers view quick details about a selected record. It offers more details about the record and displays notes, tasks, and activities associated with the record. 
+The side panel helps sellers edit and view quick details of a selected record. It also displays notes, tasks, and activities associated with the record. As an administrator, you can customize the side panel to meet the needs of your sellers. 
 
 The following table lists the supported and unsupported customizations for side panel.
 
 |Supported customizations  |Unsupported customizations  |
 |---------------------------------|---------|
-|Define (add or remove) fields in the header.<br> Define (add or remove) fields in the **Key Details** section.<br> Change a field label.<br>Set a field requirement (for example, read-only).<br>Enable or disable tabs.<br>Rearrange tabs.| Adding custom tabs or sections.<br>Adding a web resource.<br>Adding a subgrid.<br>Changing the format or layout for headers, tabs, sections, or fields.<br>Changing certain properties for headers, tabs, sections, or fields. For example, the **available on phone** property can't be changed.  |
+|Define (add or remove) fields in the header.<br> Define (add or remove) fields in the **Key Details** section.<br> Change a field label.<br>Set a field requirement (for example, read-only).<br>Enable or disable tabs.<br>Rearrange tabs.| Adding custom tabs or sections.<br>Adding sections other than Key Details, Contacts, Notes, Tasks, Collaboration, and Recent Opportunities.<br>Adding a web resource.<br>Adding a subgrid.<br>Changing the format or layout for headers, tabs, sections, or fields.<br>Changing certain properties for headers, tabs, sections, or fields. For example, the **available on phone** property can't be changed.  |
 
 **To customize the side panel**
 

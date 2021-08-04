@@ -43,7 +43,7 @@ The trial comes with product tours and videos, highlighting the important scenar
 
 **Play around with the mobile app**
 
-Install the Sales mobile app and explore the functionalities that you can access on the move. Open the **Get started** page and scroll down to the **Take it to go** section to download the app. For more information on using the app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md).
+Install the Sales mobile app and explore the functionalities that you can access on the move. Open the **Get started** page and scroll down to the **Take it to go** section to download the app. For more information on using the app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md). If you get a message that you currently have no apps, see What should I do if I don't see any apps in the mobile app. 
 
 **Deep dive into more scenarios**
 
@@ -77,6 +77,19 @@ To get started with the Sales Insights functionalities, see [Sales Insights Add-
 **Dynamics 365 Power Platform**
 - Administer and customize your Dynamics 365 Sales environment to fit your needs  
 
+### What should I do if I don't see any apps in the mobile app
+
+When you log into the Dynamics 365 mobile app for the first time, you might encounter the following message:
+
+```You currently have no apps```
+
+**To view your trial apps,**
+
+1. Select your avatar on the mobile app and select **Settings**.  
+
+1. Enable the **Show non-production apps** option.  
+    You can now see all the trial apps that you've access to.
+ 
 ### Why is the sample data not available to all trial users?
 
 Sample data related to forecasting and Sales accelerator are only available to the user who signed up for the trial. 
