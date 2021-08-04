@@ -57,7 +57,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 8.8.51.75 (2021 Wave 2 early access)
 
-(Includes Universal Resource Scheduling version [3.12.60.43](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126043)).
+(Includes Universal Resource Scheduling version [3.12.49.18](https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-version-history-resource-scheduling#3126043---2021-wave-2-early-access)).
 
 The release is only applied when an environment is opted into Early Access and introduces the [Field Service 2021 Wave 2](/dynamics365-release-plan/2021wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined in the release notes.
  
