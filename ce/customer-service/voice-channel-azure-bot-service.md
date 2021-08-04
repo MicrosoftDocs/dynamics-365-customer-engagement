@@ -37,6 +37,7 @@ Existing doc: https://docs.microsoft.com/en-us/dynamics365/customer-service/conf
 >
 
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
 ## Introduction
 
 A bot is a program that provides automated responses in a conversational manner to a customer. It can also help resolve customer queries by using case deflection. A bot can also collect basic information from a customer and then provide it to a customer service agent to work further on the issue raised by the customer.  
