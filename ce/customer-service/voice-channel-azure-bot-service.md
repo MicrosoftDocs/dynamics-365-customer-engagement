@@ -18,6 +18,25 @@ Existing doc: https://docs.microsoft.com/en-us/dynamics365/customer-service/conf
 -->
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+> [!IMPORTANT]
+
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+
+>
+
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+>
+
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+
+>
+
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+>
+
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 ## Introduction
 
 A bot is a program that provides automated responses in a conversational manner to a customer. It can also help resolve customer queries by using case deflection. A bot can also collect basic information from a customer and then provide it to a customer service agent to work further on the issue raised by the customer.  
@@ -38,13 +57,15 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 - Configure routing rules to use bots in *post-conversation* surveys.
 - Repurpose bots to be smart assist bots and provide recommendations to agents.
 
-## Prerequisites
+<a name="#cognitive-services"></a>
+
+##  Prerequisites
 
 1. You must have a bot that's built using Microsoft Bot Framework and registered with Azure Bot Service.
 
     To create an Azure bot resource, see [Create Azure bot resource](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 
-2. <a name="#cognitive-services"></a> You must add the Azure bot service to conversational IVR.
+2.  You must add the Azure bot service to conversational IVR.
 
     To create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel, perform the following steps:
     
