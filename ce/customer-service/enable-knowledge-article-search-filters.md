@@ -1,7 +1,7 @@
 ---
 title: Enable knowledge article search filters | MicrosoftDocs
 description: Learn how to enable knowledge article search filters in Dynamics 365 Customer Service
-ms.date: 04/05/2021
+ms.date: 08/04/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -30,7 +30,7 @@ You can set up the customization of knowledge article search filters by first en
 
 > [!NOTE] 
 > Any filter configurations you set will apply anywhere that the knowledge search experience is configured, including, but not limited to, the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, Unified Service Desk embedded search control, and Omnichannel for Customer Service Application tab search experience.<br></br>
-> By enabling this feature, the web client and maker experience knowledge management filter experience aren't deactivated. You can disable this anytime by setting the feature to **No**.
+> By enabling this feature, the web client and maker experience knowledge management filter experience are deactivated. You can disable this anytime by setting the feature to **No**.
 
 1. Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
 2. Under the **Knowledge Base Management** section, select **Settings**.
