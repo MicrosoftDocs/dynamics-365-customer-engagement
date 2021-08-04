@@ -17,7 +17,7 @@ manager: shujoshi
 As an administrator, you can customize the workspace to enhance your sales team's productivity. For example, depending on the information that your sales team wants to view or update quickly, you can customize the grid or side panel. You can customize the following objects in the deal manager:
 
 - [Charts](#customize-the-charts)
-- [Editable grid](#customize-the-editable-grid-in-deal-manager)
+- [Editable grid](#customize-the-editable-grid)
 - [Side panel](#customize-the-side-panel)
 
 ## Customize the charts
