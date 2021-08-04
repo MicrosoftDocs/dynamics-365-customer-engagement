@@ -255,7 +255,7 @@
       - name: Modify case resolution dialog
         href: modify-case-resolution-dialog.md
       - name: Enable search control for subjects
-        href: search-control-subject.md
+        href: search-control-for-subjects.md
   - name: Automatically create or update records
     items: 
     - name: Automatically create or update records in Customer Service Hub

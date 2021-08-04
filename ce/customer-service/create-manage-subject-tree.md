@@ -60,7 +60,9 @@ To remove a subject from the subject tree, select the subject and select **Remov
 
 ### See also
 
-[Configure Customer Service](configure-cs.md)
+[Configure Customer Service](configure-cs.md)  
+[Overview of case management](overview-cases.md)  
+[Enable search control for the subject entity](search-control-for-subjects.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
