@@ -76,7 +76,7 @@ A new support session is created when the voice call is accepted.
 
 ### Administrator experience
 
-[Provision and set up voice](voice-channel-install.md)  
+[Provision and set up the voice channel](voice-channel-install.md)  
 [Manage phone numbers](voice-channel-number-management.md)  
 [Inbound calling](voice-channel-inbound-calling.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
@@ -85,7 +85,7 @@ A new support session is created when the voice call is accepted.
 [View usage and billing](voice-channel-usage-billing.md)  
 [Configure post call survey](voice-channel-survey.md)  
 [Set up a multi-language contact center](voice-channel-multi-language-contact-center.md)  
-[Handle Call Overflow](voice-channel-call-overflow.md)  
+[Handle call overflow for the voice queues](voice-channel-call-overflow.md)  
 [Block a SPAM Number](voice-channel-block-number.md)  
 [Manage Music](voice-channel-music.md)  
 [Manage voice channel](voice-channel-manage.md)  
