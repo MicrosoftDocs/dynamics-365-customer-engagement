@@ -134,7 +134,7 @@
         href: ../app-profile-manager/macros.md
       - name: Automation dictionary to pass parameters
         href: ../app-profile-manager/automation-dictionary-keys.md
-    - name: Developer guide
+    - name: Developer experience
       items: 
       - name: Overview of JavaScript API reference
         href: ../app-profile-manager/reference/microsoft-apm.md
@@ -230,6 +230,8 @@
         href: define-settings-parent-child-cases.md
       - name: Similar records suggestions
         href: suggest-similar-cases-for-a-case.md
+      - name: Create and manage subjects
+        href: create-manage-subject-tree.md  
     - name: Agent experience
       items: 
       - name: Create cases
@@ -252,6 +254,8 @@
         href: update-resolved-canceled-cases.md
       - name: Modify case resolution dialog
         href: modify-case-resolution-dialog.md
+      - name: Enable search control for subjects
+        href: search-control-subjects.md
   - name: Automatically create or update records
     items: 
     - name: Automatically create or update records in Customer Service Hub
