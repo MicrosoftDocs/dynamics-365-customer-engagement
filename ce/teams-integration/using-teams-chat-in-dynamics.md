@@ -18,25 +18,25 @@ As a Dynamics 365 customer engagement app user, you can start or link chat conve
 
 ## Open Teams chats and channels related to a record
 
-Open any Dynamics 365 Customer engagement record and select the **Teams chats and channels integration** icon :::image type="icon" source="media/teams-icon.png" border="false":::.
+Open any Dynamics 365 customer engagement record and select the **Teams chats and channels integration** icon :::image type="icon" source="media/teams-icon.png" border="false":::.
 
 The **Teams chats (preview)** panel opens with the following sections in the **Chat** tab:
 
-**Chats linked to this *record***
+- **Chats linked to this *record***
 
-Lists Teams chats that either you've linked to the selected record or someone else has linked a chat with you as a participant.
+  Lists Teams chats that either you've linked to the selected record or someone else has linked a chat with you as a participant.
 
-**Suggested chats & contacts**
+- **Suggested chats & contacts**
 
-Lists suggested contacts depending on the users who are working on the record. For more information, see [How do contacts suggestions work?](#how-do-contacts-suggestions-work).
+  Lists suggested contacts depending on the users who are working on the record. For more information, see [How do contact suggestions work?](#how-do-contact-suggestions-work).
 
-**All recents**
+- **All recents**
 
-Lists your top 50 chat conversations on Teams. You can select any existing conversation and link it to a record.
+  Lists your top 50 chat conversations on Teams. You can select any existing conversation and link it to a record.
 
-The **Channel** tab lists the channels that either you've linked to the selected record or someone else has linked a channel where you're a participant. If you had linked a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab.
+The **Channel** tab lists the channels that either you've linked to the selected record or someone else has linked a channel where you're a participant. If you had linked a record to a channel using a basic or enhanced collaboration experience, that channel is also listed in this tab.
 
-### How do contacts suggestions work?
+### How do contact suggestions work?
 
 The suggested contacts list displays users who are connected or have interacted with the record. Accordingly, a suggested contact could be one or more of the following users, in the given order:
 
