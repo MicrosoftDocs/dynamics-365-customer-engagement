@@ -4,12 +4,10 @@ description: "Introduction to using Omnichannel for Customer Service."
 author: neeranelli
 ms.author: daclar
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/06/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-
-
 
 # Inbound calling
 
@@ -30,9 +28,7 @@ In order to receive inbound calls, you must have the following:
 2. You must have an Agent set up
 3. You must have a Queue set up
 
-
 ## Step 1: Create a phone number
-
 
 ### Phone Numbers
 
@@ -88,20 +84,3 @@ A customer will call your support organization by simply calling the phone numbe
 ## See also
 - Add a Power Virtual Agent Bot
 - Unified routing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
