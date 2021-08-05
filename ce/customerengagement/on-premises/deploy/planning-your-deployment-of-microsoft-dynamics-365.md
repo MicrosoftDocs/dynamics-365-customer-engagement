@@ -35,7 +35,7 @@ For larger organizations, planning a deployment of [!INCLUDE[pn_crm_op_edition](
  These resources are available to help you plan a deployment of [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
 ### Dynamics 365 Customer Engagement (on-premises) documentation
- Comprehensive documentation is available to you for Dynamics 365 Customer Engagement (on-premises) applications and services. More information: [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customer-engagement/) 
+ Comprehensive documentation is available to you for Dynamics 365 Customer Engagement (on-premises) applications and services. More information: [Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/overview?view=op-9-1) 
   
 ### Dynamics 365 Customer Engagement (on-premises) training
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training](/dynamics365/get-started/training/)  
