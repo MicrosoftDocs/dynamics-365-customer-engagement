@@ -50,7 +50,6 @@ IT admin perspective
 
 ## Add a user to the queue
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-queue-add-user.png)
 
