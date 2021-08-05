@@ -15,6 +15,9 @@ ms.service: dynamics-365-customerservice
 // video
 // https://msit.microsoftstream.com/video/a6dd0840-98dc-869c-1241-f1ebcfc77970
 
+Admin exp:
+**Advanced settings** > **Customer settings > **Phone music (preview)** > **Manage**. You'll see a list of out-of-the box music files.
+Select any of these or **Add new**. Add new phone music. Select **Upload** to upload a sound file from your computer.
 ## Prerequisites
 > [!Note]
 >

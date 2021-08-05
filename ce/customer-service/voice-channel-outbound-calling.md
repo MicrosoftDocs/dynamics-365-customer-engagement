@@ -13,8 +13,11 @@ ms.service: dynamics-365-customerservice
 # Outbound calling
 
 // Video: https://msit.microsoftstream.com/video/78a80840-98dc-b561-710e-f1ebd538f986
+IT admin perspective
 
-- Oubound profiles
+- You need a profile to set up an outbound profile
+- outbound profile (Advanced Settings > Agent experience > Outbound profiles (preview)), you cannot delete it, you can only change it.
+- Create an outbound profile - Select **Create a profile**
 
 ## Prerequisites
 > [!Note]
@@ -53,7 +56,6 @@ ms.service: dynamics-365-customerservice
 
 ## Create a capacity profile 
 - number of outbound calls a person can make at one time
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-nav.png)

@@ -17,13 +17,16 @@ ms.service: dynamics-365-customerservice
 // Video references
 // https://microsoft-my.sharepoint.com/:v:/p/kausri/EWPcqqb09OtKkN6_x5KhCy4B5WfyrPRN_yoU_Ez23Eswag?e=d3cseJ
 
-// https://msit.microsoftstream.com/video/9c970840-98dc-869d-c827-f1ebc890b85b
+// Use this for documentation -  https://msit.microsoftstream.com/video/9c970840-98dc-869d-c827-f1ebc890b85b
+Agent exp
+Admin exo
+
 
 ## Prerequisites
 
 In order to receive inbound calls, you must have the following:
 
-1. The Voice channel must be provsioned and set up
+1. The Voice channel must be provisioned and set up
 2. You must have an Agent set up
 3. You must have a Queue set up
 
