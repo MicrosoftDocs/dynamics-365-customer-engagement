@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: Visit this page to see what's recently deprecated in Dynamics 365 Customer Service
-ms.date: 05/18/2021
+ms.date: 08/05/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -26,6 +26,10 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!Important]
 >
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## setContextProvider method deprecated for authenticated chat
+
+The setContextProvider method for authenticated chat has been deprecated and will not be supported after October 01, 2021. Microsoft recommends that you use the JWT token for authenticated chat. More information: [Send authentication tokens](send-auth-token-starting-chat.md).
 
 ## Support for some knowledge management entities is deprecated <a name="deprecatedkmentities"></a>
 

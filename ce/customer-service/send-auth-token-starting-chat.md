@@ -1,7 +1,7 @@
 ---
 title: "Send authentication token | MicrosoftDocs"
 description: "Understand how to pass authentication token to Omnichannel for Customer Service. Also included is a code snippet to send an authentication token to start a chat."
-ms.date: 12/03/2020
+ms.date: 08/05/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -28,7 +28,9 @@ Follow these steps to send authentication token when starting a chat:
 3. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method.
 
 > [!NOTE]
-> To avoid timeout, the [authTokenProvider](developer/reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method must respond within 10 seconds.
+> 
+> - To avoid timeout, the [authTokenProvider](developer/reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method must respond within 10 seconds.
+> - You can set or send only 100 customer context variables for each chat.
 
 4. Use [startChat](developer/reference/methods/startChat.md) SDK to initiate a chat.
 
