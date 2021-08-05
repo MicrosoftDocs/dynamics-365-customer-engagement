@@ -1,7 +1,7 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
-ms.date: 08/03/2021
+ms.date: 08/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -186,13 +186,7 @@ The surveys package adds the following security role:
 
 - Project Owner
 
-### Real-time marketing roles
-
-After deploying real-time marketing features, several service users are created. One service user, **# DvDSUser**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through a data-bound parameter of a customer journey.
-
-**# DvDSUser** has **Service Reader** role assigned, which allows it privileged access to any Dataverse data within a given environment.
-
-## Don't modify or remove the Marketing service user
+## Don't modify or remove Marketing service users
 
 Dynamics 365 Marketing includes a preconfigured user called **MarketingServices ApplicationUser**, which must have the following security roles:
 
@@ -202,6 +196,14 @@ Dynamics 365 Marketing includes a preconfigured user called **MarketingServices 
 - Marketing, Business App Access
 
 The system uses this account when performing important internal tasks, and Marketing will stop working correctly if you remove the user or any of these required roles. Be sure not to remove or modify this user.
+
+### Real-time marketing service users
+
+After deploying real-time marketing features, several service users are created. As with outbound marketing, deleting these users will break your deployment.
+
+One service user, **# DvDSUser**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
+
+**# DvDSUser** has a **Service Reader** role assigned, which allows it privileged access to any Dataverse data within a given environment.
 
 ### See also
 
