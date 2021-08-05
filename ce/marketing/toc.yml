@@ -240,11 +240,11 @@
           href: real-time-marketing-known-issues.md
       - name: Channels
         items: 
-        - name: Create real-time marketing emails
+        - name: Real-time marketing emails
           href: real-time-marketing-email.md
-        - name: Create push notifications
+        - name: Push notifications
           href: real-time-marketing-push-notifications.md
-        - name: Create outbound text messages
+        - name: Outbound text messages
           href: real-time-marketing-outbound-text-messaging.md
         - name: Use AI-driven run-time channel optimization
           href: real-time-marketing-channel-optimization.md
