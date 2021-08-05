@@ -43,7 +43,7 @@ The trial comes with product tours and videos, highlighting the important scenar
 
 **Play around with the mobile app**
 
-Install the Sales mobile app and explore the functionalities that you can access on the move. Open the **Get started** page and scroll down to the **Take it to go** section to download the app. For more information on using the app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md). If you get a message that you currently have no apps, see What should I do if I don't see any apps in the mobile app. 
+Install the Sales mobile app and explore the functionalities that you can access on the move. Open the **Get started** page and scroll down to the **Take it to go** section to download the app. For more information on using the app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md). If you get a message that you currently have no apps, see [What should I do if I don't see any apps in the mobile app](#what-should-i-do-if-i-dont-see-any-apps-in-the-mobile-app). 
 
 **Deep dive into more scenarios**
 
