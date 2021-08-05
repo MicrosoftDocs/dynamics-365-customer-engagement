@@ -107,7 +107,16 @@ When an agent steps away from the desk during an ongoing session and doesn't int
 
 You can save the filters that you used for the reports as bookmarks. The bookmarks allow you to access the filters easily and repeatedly, without having to apply the filters every time. You can switch between the multiple bookmarks when you're managing different reports and teams. The saved views allow you to save the queues and agents pertaining to different teams and lets you switch between the filters to view the metrics for each team.
 
-Administrators can create bookmarks pertaining to different reports that can be accessible by supervisors, but can't be edited by supervisors. More information: [Create bookmarks in Power BI Desktop to share insights and build stories](/power-bi/create-reports/desktop-bookmarks).
+You can create personal bookmarks that are visible only to you. Bookmarks that are created by PowerBI administrators can be shared with all users in a read-only mode.
+
+More information:
+
+- [Create bookmarks in Power BI Desktop to share insights and build stories](/power-bi/create-reports/desktop-bookmarks)
+- [Create personal bookmarks](/power-bi/consumer/end-user-bookmarks)
+
+## Duration
+
+The **Duration** option that is available in all reports lets you filter the report details. Out of the box, the filter lets you show report data within the last four, eight, and twelve hours duration. You can apply a custom value as well to filter the data shown in the report.
 
 ### See also
 

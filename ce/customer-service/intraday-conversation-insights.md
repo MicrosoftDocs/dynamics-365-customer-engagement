@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Conversation insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Conversation insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 08/02/2021
+ms.date: 08/08/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -28,6 +28,7 @@ The **Conversation insights** report is arranged in the following tabs:
 - Conversation insights - Digital messaging
 - Conversation insights - Voice (preview)
 
+The overview section provides the most important metrics across Live chat, Digital messaging, and Voice. Supervisors can drill through to the detailed metrics for the respective channel type by selecting the Live chat, Digital Messaging, or Voice buttons.
 
 > [!div class="mx-imgBorder"]
 > ![Conversation insights dashboard.](media/conversation-insights-dashboard.png "Conversation insights dashboard")
@@ -37,7 +38,7 @@ The **Conversation insights** report displays the following metrics about conver
 | Metric | Description |
 |-------|-------|
 | Inbound | The number of conversations that were started or closed within the last 24 hours. |
-| Ongoing |The number of conversations in Active, Waiting, and Wrap-up statuses. |
+| Ongoing |The number of conversations in active, waiting, and wrap-up statuses. |
 | Waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |
 | Closed | The number of conversations closed in the last 24 hours. |
 | Longest wait time | The longest time that a conversation is in queue waiting to be picked up by an agent. |
@@ -48,22 +49,22 @@ The **Conversation insights** report displays the following metrics about conver
 | Chat abandon rate and Call abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. |
 | Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. |
 |Service level | The percentage of chats that were answered within 30 seconds. The 30 seconds threshold can be modified to suit your business needs. |
-|SLA - First response time | Available for only digital messaging channels; not available in Government Community Cloud (GCC). The percentage of conversations wherein the customer received the very first response from the agent within 1 minute. The 1 minute threshold can be modified to suit your business needs.|
-|SLA - Response time | Available for only digital messaging channels; not available in GCC. The percentage of messages wherein the customer received a response within 1 min from the agent. The 1 minute threshold can be modified to suit your business needs.|
+|SLA - First response time | The percentage of conversations wherein the customer received the very first response from the agent within 1 minute. The 1 minute threshold can be modified to suit your business needs. Available for only digital messaging channels; not available in Government Community Cloud (GCC).|
+|SLA - Response time | The percentage of messages wherein the customer received a response within 1 min from the agent. The 1 minute threshold can be modified to suit your business needs. Available for only digital messaging channels; not available in GCC. |
 | Avg - First response time (min) | The average time that a customer waited to receive the first response from  agents. |
 |Avg - Response time (min)| The average time that a customer waited to receive responses from agents.|
-| Service level - Speed to answer |The percentage of calls that were answered within 30 seconds. he 30 seconds threshold can be modified to suit your business needs.|
+| Service level - Speed to answer |The percentage of voice calls that were answered within 30 seconds. he 30 seconds threshold can be modified to suit your business needs.|
 | Avg. talk time (min)| **For voice channel (Preview)**: The average time an agent spent talking with a customer over a voice call. |
 | Avg. hold time (min) | **For voice channel (Preview)**: The average time an agent put a customer on hold over a voice call. |
-|Avg. after call work time|**For voice channel (Preview)**: The average time an agent took to wrap up a call.|
+|Avg. after call work time|**For voice channel (Preview)**: The average time an agent took to wrap up a voice call.|
 |||
 |||
 
 You can also view a report on the average conversation handle time, average wait time, transfer rate, and more. The report can be filtered to display an in-depth analysis of each channel through which conversations have come in.
 
-### Ongoing conversations
+### Ongoing and closed conversations
 
-The **Ongoing conversations** section provides information about the status of the conversations that are not yet closed. This report also displays information about the channel through which the conversation came in, with the time and date that the conversation was picked up.
+The **Ongoing conversations** table provides information about the status of the conversations that are not yet closed. The table also displays information about the channel through which the conversation came in, with the time and date that the conversation was picked up.
 
 
 > [!div class="mx-imgBorder"]
@@ -71,23 +72,23 @@ The **Ongoing conversations** section provides information about the status of t
 
 The **Ongoing conversations** table displays the following metrics based on the channels through which the conversations are being held.
 
-| Title | The title of the case |
+| Title | Description |
 |------------ | --------------- |
 | Agent | Name of the agent |
-| Status | The status of the conversation. |
-| Action | The action that can be taken on the conversation. |
-| Queue | The name of the queue that the conversation is a part of |
+| Status | The status of the conversation, that is, open, active, waiting, wrap up, and closed. |
+| Action | The action that can be taken on the conversation, that is, assign, monitor, or view the conversation.|
+| Queue | The name of the queue that the conversation is a part of. |
 | Channel | The name of the channel that the conversation came through. |
 | Workstream| The workstream that the conversation is a part of.|
-| First response time (min) |The time it took for an agent to send the first response after the customer's message. |
-| Avg. response time (min)|The average time it took for an agent to respond after the customer's message.|
-| Total response time (min)|The total time it took for an agent to respond after the customer's messages.|
-| Transfers|The total number of transfers made for a chat or voice call (preview) if the conversation is routed to another agent.|
-| Escalations|The total number of escalations for a chat or voice call (preview). It does not include escalation from a bot to a human agent.|
+| First response time (min) |After sending the message, the time the customer waited for the first response from the agent. Not available in GCC. |
+| Avg. response time (min)|The average time the customer waited for the agent to respond to their messages. Not available in GCC.|
+| Total response time (min)|The total time the customer waited for the agent to respond to their messages. Not available in GCC.|
+| Transfers|The total number of transfers made if the conversation is routed to another agent.|
+|Escalations |The total number of escalations made. It does not include escalation from a bot to a human agent.|
 | Speed to answer (sec) | **For voice channel (Preview)**: The time it took for a customer call to be answered. |
-| Talk time (min)| **For voice channel (Preview)**: The total time spent by the customer and agent talking on the call. It’s the difference between the handle time and cumulative time in hold and after call work time. |
+| Talk time (min)| **For voice channel (Preview)**: The total time spent by the customer and agent talking on the voice call. It’s the difference between the handle time and cumulative time in hold and after call work time. |
 | Hold time (min)|**For voice channel (Preview)**: The total time an agent has put a customer on hold.|
-| After call work time (min)| **For voice channel (Preview)**: The time spent by an agent in wrapping up a call. |
+| After call work time (min)| **For voice channel (Preview)**: The time spent by an agent in wrapping up a voice call. |
 | Wait time (min) | Total wait time of the conversation. |
 | Handle time (min) | Total time taken to accept and close the conversation. |
 | Wrap time (min) | Total time in which the conversation was in the wrap stage. |

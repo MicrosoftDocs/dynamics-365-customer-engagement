@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 08/02/2021
+ms.date: 08/08/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -20,7 +20,7 @@ The Omnichannel intraday insights dashboard contains the Agents insights report 
 
 ## The Agents insights report
 
-The **Agents insights** report consists of metrics from an agent’s standpoint. The report shows all-up agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** tab to view agent performance across all channels, or select the **Live chat**, **Digital messaging**, or **Voice (preview)** tabs to view the agent performance for the corresponding channel. Digital messaging includes all asynchronous channels, like Facebook messenger, Twitter, WeChat, and SMS. The **Duration** option displays report details based on duration and time filter that is applied. The filter can be customized to show report data within the last four, eight, and twelve hours duration.
+The **Agents insights** report consists of metrics from an agent’s standpoint. The report shows all-up agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** tab to view agent performance across all channels, or select the **Live chat**, **Digital messaging**, or **Voice (preview)** tabs to view the agent performance for the corresponding channel. Digital messaging includes all asynchronous channels, such as Facebook messenger, Twitter, WeChat, and SMS.
 
 You can view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
 
@@ -35,7 +35,7 @@ The agents insights report consists of the following metrics.
 | Metrics | Description |
 |-------|-------|
 | Agents logged in | The number of agents who are signed in.|
-| Agents with available capacity | The number of agents who can accept incoming conversation requests as well as their available capacity across all capacity profiles. |
+| Agents with available capacity | The number of signed-in agents who can accept incoming conversation requests as well as their available capacity across all capacity profiles. Unit-based capacity is accounted against the unit capacity profile. |
 | Average handle time per session | The average time taken by an agent to accept an incoming session after it is assigned. |
 | Session reject rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
 | Session time out rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
@@ -52,7 +52,7 @@ The agents insights report consists of the following metrics.
 | Avg. hold time (min) | **For voice channel (Preview)**: The average time an agent put a customer on hold over a voice call. |
 |||
 
-You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can select the **Status** field to modify the presence indicator for an agent. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations, as well as an agent's available capacity across different capacity profiles. Unit-based capacity is accounted against Unit capacity profile.
+You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations, as well as an agent's available capacity across different capacity profiles. Unit-based capacity is accounted against Unit capacity profile.
 
 The table in the **Agent insights** report displays the following information.
 
@@ -70,6 +70,12 @@ Wrap-up | The total number of conversations in the wrap-up stage. |
 
 > [!div class="mx-imgBorder"]
 > ![Agent details.](media/agent-insights-dashboard-table.png "Agent details")
+
+You can use the filters pane on the right to see only the signed-in agents in the table. Do the following:
+
+1. Select the agent table.
+2. Select the filter pane, and set **IsLoggedIn** field to **True**.
+    >![Set filters to view signed-in agents.](media/filters-signed-in.png "Set filters to view signed-in agents")
 
 ### Agent details
 
@@ -117,6 +123,11 @@ This section displays the following details.
 | Created on | The conversation creation time. |
 | Capacity and status timeline | Every change in capacity or status is plotted on the timeline. Negative capacity is displayed if a supervisor assigns a conversation to an agent that's beyond the agent's available capacity. |
 |||
+
+### Change agent status
+
+You can select the **Status** field to modify the presence indicator for an agent. The agent has to be signed in for you to change the agent status.
+
 
 
 ### See also
