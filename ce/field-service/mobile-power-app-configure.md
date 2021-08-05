@@ -117,7 +117,7 @@ You can customize this control to include up to three additional fields with opt
 To start, you will want to create a new view or edit an existing one with data which you will expose on the Booking Calendar Control. This can be the default view, or an alternate view on the Bookable Resource Booking.
 To setup your view, navigate in CRM to Settings > Customization > Customize the System > expand “Entities” and select Bookable Resource Booking.
 
-Click on Views, then select the desired view. In this example we show the default “Bookings” View.
+Click on Views, then select the desired view. In this example we are updating the “Active Bookable Resource Bookings” View.
 From the view you can then add any column from tables which have a relationship to the Bookable Resource Booking. E.g., if you wanted to show Work Order Priority, you would select Work Order then add the “Priority” column to the view. Note the Name of the column as this will be used later when customizing the field (in our example the Name is “msdyn_priority”).
 
 > [!div class="mx-imgBorder"]
@@ -130,7 +130,7 @@ Once the view has desired columns, return to the Customizations, and select the 
 
 To configure fields, click on the edit button next to the desired field. Then input the reference to the field as an attribute of Bookable Resource Booking, or as linkedEntity.attribute. In this example we are adding the Work Order Priority as Custom Field 1. This would be entered as “msdyn_workorder.msdyn_priority”. 
 
-You can also configure the optional Custom Field Label associated with the Custom Field. This label is displayed as entered with addition of a semicolon after the field before the value. Here we are entering “Priority”.
+You can also configure the optional Custom Field Label associated with the Custom Field. This label is displayed as entered with addition of a colon after the field before the value. Here we are entering “Priority”.
 
 If a field has no data, it will be hidden form the user interface.  This is illustrated below in the Booking Calendar Control where the first Booking has a Priority set and the second does not. In this case the control is configured with:
 
