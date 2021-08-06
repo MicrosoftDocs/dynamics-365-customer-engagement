@@ -1,10 +1,10 @@
 ---
 title: Migrate automatic record creation rules and service-level agreements | MicrosoftDocs
-description: 
+description: Learn how to use the migration tool to migrate automatic record creation rules and SLAs from legacy to Unified Interface.
 ms.date: 10/05/2020
 ms.topic: article
-author: lerobbin
-ms.author: lerobbin
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -204,7 +204,7 @@ After you begin your migration, the details are displayed on the page.
 
 The migration details are displayed after the migration is complete.
 
-![Migration tool - Step 5.](media/migration-tool-step-5-first-time-users-2.png "Migration tool  - Step 5")
+![Migration tool - Step 5-annotated.](media/migration-tool-step-5-first-time-users-2.png "Migration tool  - Step 5-annotated")
 
 |Label|Description|
 |---|----|
@@ -259,7 +259,7 @@ You can select the links on the migration summary page to view the automatic rec
 
 Select a rule with the **\_migrated** suffix to view its details. On the **Migration details** tab, you can review the problem details and set the **Mark as complete** toggle to Yes after resolving the migration issue.
 
-![Migration tool - Step 6 - Migration status.](media/migration-tool-step-6-first-time-users-3.png "Migration tool - Step 6 - Migration status")
+![Migration tool - Migration status.](media/migration-tool-step-6-first-time-users-3.png "Migration tool - Migration status")
 
 |Label|Description|
 |---|----|
