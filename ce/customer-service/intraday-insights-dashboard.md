@@ -1,7 +1,7 @@
 ---
 title: "Intraday insights dashboard for supervisors in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the intraday insights dashboard for supervisors"
-ms.date: 08/02/2021
+ms.date: 08/08/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -114,9 +114,9 @@ More information:
 - [Create bookmarks in Power BI Desktop to share insights and build stories](/power-bi/create-reports/desktop-bookmarks)
 - [Create personal bookmarks](/power-bi/consumer/end-user-bookmarks)
 
-## Duration
+## Slice metrics by time
 
-The **Duration** option that is available in all reports lets you filter the report details. Out of the box, the filter lets you show report data within the last four, eight, and twelve hours duration. You can apply a custom value as well to filter the data shown in the report.
+The **Duration** option that is available in all reports lets you filter the report details. The filter helps you look at the metrics for the shift the supervisor is handling out of the entire 24 hours duration. The filter lets you report the data within the last four, eight, or twelve hours duration or apply a custom value as well. The metrics within the reports are calculated based on the conversations created in the selected time duration.
 
 ### See also
 

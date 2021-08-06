@@ -28,7 +28,9 @@ The **Conversation insights** report is arranged in the following tabs:
 - Conversation insights - Digital messaging
 - Conversation insights - Voice (preview)
 
-The overview section provides the most important metrics across Live chat, Digital messaging, and Voice. Supervisors can drill through to the detailed metrics for the respective channel type by selecting the Live chat, Digital Messaging, or Voice buttons.
+The overview section provides the most important metrics across Live Chat, Digital messaging, and Voice. Supervisors can drill through to the detailed metrics for the respective channel type by selecting the Live chat, Digital Messaging, or Voice buttons.
+
+The Digital messaging report includes metrics from the social channels, SMS, Microsoft Teams, entity records, and custom messaging channels.
 
 > [!div class="mx-imgBorder"]
 > ![Conversation insights dashboard.](media/conversation-insights-dashboard.png "Conversation insights dashboard")
@@ -37,12 +39,12 @@ The **Conversation insights** report displays the following metrics about conver
 
 | Metric | Description |
 |-------|-------|
-| Inbound | The number of conversations that were started or closed within the last 24 hours. |
+| Inbound chats/Inbound conversations/Inbound calls | The number of conversations that were started or closed within the last 24 hours. |
 | Ongoing |The number of conversations in active, waiting, and wrap-up statuses. |
 | Waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |
 | Closed | The number of conversations closed in the last 24 hours. |
 | Longest wait time | The longest time that a conversation is in queue waiting to be picked up by an agent. |
-| Average conversation handle time | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
+| Average handle time | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
 | Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned. |
 | Average wrap time (min) | The average time taken to wrap up conversations. |
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |
@@ -60,7 +62,7 @@ The **Conversation insights** report displays the following metrics about conver
 |||
 |||
 
-You can also view a report on the average conversation handle time, average wait time, transfer rate, and more. The report can be filtered to display an in-depth analysis of each channel through which conversations have come in.
+
 
 ### Ongoing and closed conversations
 
