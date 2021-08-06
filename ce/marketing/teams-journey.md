@@ -1,7 +1,7 @@
 ---
 title: "Continue the conversation with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to continue the conversation with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 07/12/2021
+ms.date: 08/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -35,9 +35,16 @@ Marketing helps you automate and personalize the follow-up process. Using Market
 - Use built-in email templates to send personalized emails that look professionally designed.
 - Advertise upcoming events and webinars.
 
+## Free 6 month Dynamics 365 Marketing trial
+
+As an existing Microsoft customer, you are eligible for a free 6 month trial of Dynamics 365 Marketing. The trial allows you to integrate information about your Teams webinar participants with Marketing. To learn more about signing up for the trial, refer to [How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing](teams-how-to-follow-up.md).
+
+### What happens when the trial expires?
+
+When your Dynamics 365 Marketing trial expires, your administrator will have to purchase a license for the app if you wish to continue using it. You cannot convert a trial app to a production app. This means that you will not be able to transfer data from your Marketing trial to the production app after you purchase a license.
+
 ## Next steps
 
-- [How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing](teams-how-to-follow-up.md)
 - [Customize your Teams webinar participant follow-up](teams-webinar-follow-up.md)
 - [Run webinars and meetings with Microsoft Teams](teams-journey.md)
 
