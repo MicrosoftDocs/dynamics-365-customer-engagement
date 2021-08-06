@@ -6,6 +6,13 @@ ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+searchScope:
+- D365-App-customerservicehub
+- D365-Entity-queueitem
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # Configure assignment methods for queues
@@ -16,7 +23,7 @@ Assignment methods determine how a work item is assigned. You can use the out-of
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity and skills, the work item is assigned in the order in which the agents become available.
+- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity and skills, the work item is assigned in the order in which the agents become available. However, if closest match is chosen as the default skill-matching algorithm at the workstream level, the highest capacity setting will be overridden and all the incoming work items will be assigned to the same agent until other constraints, such as capacity and presence are exhausted.
 
 - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence. The initial order is based on when a user is added to queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
 

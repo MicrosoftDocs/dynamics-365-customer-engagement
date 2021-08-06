@@ -6,6 +6,13 @@ ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+searchScope:
+- D365-App-customerservicehub
+- D365-Entity-queueitem
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # Work with queues

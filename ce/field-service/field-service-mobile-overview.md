@@ -1,11 +1,11 @@
 ---
 title: "Overview of Field Service Mobile (Xamarin app) - MicrosoftDocs"
 description: Learn general capabilities of the Field Service Mobile (Xamarin app).
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 03/29/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
+ms.custom: intro-internal
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"

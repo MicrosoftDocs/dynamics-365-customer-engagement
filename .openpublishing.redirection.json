@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/bring-your-own-channel-sample-html.md",
+      "redirect_url": "test-custom-channel-sample-html",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md",
+      "redirect_url": "modify-case-resolution-dialog",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-overview.md",
       "redirect_url": "/powerapps/user/add-activities",
       "redirect_document_id": "false"
@@ -1923,6 +1933,11 @@
     {
       "source_path": "ce/field-service/create-inventory-adjustment.md",
       "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/install-sample-data-8-x.md",
+      "redirect_url": "user-guide",
       "redirect_document_id": "false"
     },
     {
@@ -8088,11 +8103,6 @@
     {
       "source_path": "ce/customerengagement/on-premises/developer/clientapi/events-forms-grids.md",
       "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/events-forms-grids",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customerengagement/on-premises/developer/clientapi/reference.md",
-      "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/reference",
       "redirect_document_id": "false"
     },
     {
@@ -21442,6 +21452,21 @@
     {
       "source_path": "ce/unified-service-desk/admin/known-issues-performance-enhancement-CRM-entity-page-loads.md",
       "redirect_url": "../release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/unified-routing-work-distribution.md",
+      "redirect_url": "routing-work-distribution-oca",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/understand-omnichannel-customer-service-hub.md",
+      "redirect_url": "set-up-record-routing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/oc-productivity-pane.md",
+      "redirect_url": "productivity-pane",
       "redirect_document_id": false
     }
   ]

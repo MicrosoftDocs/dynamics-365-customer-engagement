@@ -7,6 +7,13 @@ manager: shujoshi
 ms.topic: article
 ms.date: 07/01/2021
 ms.custom: intro-internal
+searchScope:
+- D365-App-customerservice
+- D365-Entity-queueitem
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # Create and manage queues for unified routing

@@ -1,6 +1,6 @@
 ---
-title: "Enable change tracking to control data synchronization  | MicrosoftDocs"
-description: "Enable change tracking to control data synchronization."
+title: "Enable change tracking in Dynamics 365 Customer Engagement (on-premises)"
+description: "Enable entities for change tracking to control data synchronization. This helps reduce the load of your server resources and save time when extracting data."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -26,7 +26,7 @@ search.audienceType:
 
 Large Dynamics 365 Customer Engagement (on-premises) organizations that synchronize their data with external data sources can now enable entities for change tracking. You can export or retrieve a selected set of Customer Engagement (on-premises) data, and then keep the external data warehouse in sync.  
   
- By selecting, or deselecting, change tracking for specific entities you can reduce the load on your server resources and save processing time when extracting Customer Engagement (on-premises) data and synchronizing it to an external store. You can enable change tracking for both system and custom entities.  
+ By selecting or deselecting change tracking for specific entities, you can reduce the load on your server resources and save processing time when extracting Customer Engagement (on-premises) data and synchronizing it to an external store. You can enable change tracking for both system and custom entities.  
   
 1. [!INCLUDE[proc_customization_customize_system](../includes/proc-customization-customize-system.md)]  
   

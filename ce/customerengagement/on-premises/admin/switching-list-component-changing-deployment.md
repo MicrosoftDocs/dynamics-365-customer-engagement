@@ -1,6 +1,6 @@
 ---
-title: "Switching from the list component or changing the SharePoint deployment  | MicrosoftDocs"
-description: "Switch from the list component to server-based authentication."
+title: "Switch from list component to server-based authentication with Dynamics 365 Customer Engagement (on-premises)"
+description: "If you're using the list component with SharePoint for document management, you can switch to server-based authentication by following these steps."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: matp
 search.audienceType: 
   - admin
 ---
-# Switching from the list component or changing the SharePoint deployment
+# Switch from the list component to server-based authentication or change SharePoint deployment type
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

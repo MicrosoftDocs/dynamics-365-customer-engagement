@@ -1,11 +1,10 @@
 ---
 title: "Enable an entity for scheduling in Universal Resource Scheduling| MicrosoftDocs"
 description: Learn how to enable an entity for scheduling in Universal Resource Scheduling
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 06/10/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
