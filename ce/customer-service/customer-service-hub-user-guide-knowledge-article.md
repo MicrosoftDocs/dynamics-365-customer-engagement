@@ -256,9 +256,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 
 ## Preview: Add a file attachment to a knowledge article
 
-When you're creating a knowledge article, you can attach one or more files to it to help provide more comprehensive information for your customers. There is no limit to the number of files you can attach to a knowledge article, but there may be file size restrictions that are set by your administrator. 
-
-Be aware that when you publish the knowledge article, if you've attached an article that is external from Customer Service Hub, it will be downloadable by any agent who accesses the article through Knowledge Search.
+When you're creating a knowledge article, you can attach one or more files to it to help provide more comprehensive information for your customers. 
 
 To attach a file to a knowledge article:
 
@@ -278,6 +276,8 @@ For your attached files, you can use the following attachment commands to do the
 
 - **Select**: Allows you to select one or more attachments by clicking the box that appears on the attachments, and then you can either **Remove** or **Download** the selected files.
 - **Sort**: Allows you to sort records by a specific filter, such a file name or size.
+
+When you publish your knowledge article, if you've attached files to it, it will be accessible by knowledge consumers through Knowledge Search. 
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
