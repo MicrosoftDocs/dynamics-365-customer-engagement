@@ -254,7 +254,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 > [!NOTE]
 > This is an indicative preview. Content rendered can be different in the actual device or screen.
 
-## Preview: Add a file attachment to a knowledge article
+## Add a file attachment to a knowledge article
 
 When you're creating a knowledge article, you can attach one or more files to it to help provide more comprehensive information for your customers. 
 
@@ -268,7 +268,7 @@ To attach a file to a knowledge article:
     - **My Device** lets you browse and select files from your local device.
     - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub.
 
-### Work with attached files
+### Work with file attachments
 
 The **Attached files** section displays all of your knowledge article attachments in a tile view horizontally above your message. The default setting for the maximum number of files that can display is five attachments before the page forward functionality is displayed.
 
