@@ -34,26 +34,45 @@ Post call surveys help measure customer satisfaction in the contact center.  Su
 
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-implicit.png)
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-explicit1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-explicit2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-agent-initiated1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-agent-initiated2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-agent-initiated-greeting.png)
 
 ## Prerequisites
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Create a survey bot
 Use either PVA (No code or low code experience) or Azure bot Service (pro developer experience)
 
-### Power Virtual Agent
+### Power Virtual Agent example
 
 
 > [!TIP] 
 > The bot author can use Power Automate to implement custom business logic to decide who gets surveyed (e.g. random %, VIP customers etc.)
 
-### Azure bot Service
+
 
 ## Connect your bot to Omnichannel
 
@@ -62,3 +81,6 @@ Use either PVA (No code or low code experience) or Azure bot Service (pro develo
 
 ## Enable Post-call survey in workstream phone number
 
+## Configuration considerations
+
+recommendation would be for a customer to have 2 bots if they want to use PVA for both IVR and Survey
