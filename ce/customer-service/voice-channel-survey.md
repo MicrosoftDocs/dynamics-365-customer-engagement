@@ -41,7 +41,8 @@ Post call surveys help measure customer satisfaction in the contact center.  Su
 > [!Note]
 >
 
-
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 ## Create a survey bot
 Use either PVA (No code or low code experience) or Azure bot Service (pro developer experience)
@@ -61,13 +62,3 @@ Use either PVA (No code or low code experience) or Azure bot Service (pro develo
 
 ## Enable Post-call survey in workstream phone number
 
-## Step 1:
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
-
-## Step 2:
-
-## Configuration considerations
-## Additional Notes
