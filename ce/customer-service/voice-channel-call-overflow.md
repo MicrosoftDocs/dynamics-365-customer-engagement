@@ -4,7 +4,7 @@ description: "Introduction to using Omnichannel for Customer Service."
 author: neeranelli
 ms.author: daclar
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -53,7 +53,7 @@ In Omnichannel admin center, go to the voice queue for which you want to configu
 
 2. On the **Overflow conditions** panel, in the **Work item limit**, enter a number to denote the maximum number of calls that can be in waiting before overflow is reached. For example, if you enter 5, then 5 calls should be waiting in the queue for the sixth call to trigger call overflow.
 
-3. If an operating hour record is configured for the queue, the toggle for **Out of operation hours**, is set to **On** by default and can't be edited. The call overflow is triggered when a call reaches the queue during the after hours of the call center operations. If no operating hour record is configured, the toggle will be set to **Off** and in the disabled mode and the call center is considered to be available all day.
+3. If an operating hour record is configured for the queue, the toggle for **Out of operation hours**, is set to **On** by default and can't be edited. The call overflow is triggered when a call reaches the queue during the after hours of the call center operations. If no operating hour record is configured, the toggle will be set to **Off** and in the disabled mode. In such a case, the call center is considered to be available all day.
 
 ## Define operation hours
 

@@ -144,7 +144,7 @@ With call overflow, you can reduce long wait times for customer calls by setting
 
 ### Assignment rules for a queue
 
-By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first.
+By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first. You can also choose hightest capacity or create custom assignment methods. More information: [Assigment methods](assignment-methods.md).
 
 For a simple and quick voice call routing, you'll not need to set up any rules for unified routing. By default, all the incoming voice calls will get routed to the "default voice queue" and will get assigned to the agents with the round robin assignment methodology.
 
@@ -156,26 +156,25 @@ Navigate to the workstream for which you have configured the voice channel and p
 
 2. On the **Create route-to-queues ruleset** dialog, provide a name and description, and then select **Create**.
 
-    ![Route-to-queue ruleset for voice.](media/voice-route-to-queues.png "Route-to-queue ruleset for voice")
+3. On the page that appears, select **Create rule**.
 
-1. On the page that appears, select **Create rule**.
+4. On the **Create rule** page, enter a rule name, and in **Conditions**, define the set of conditions using the conversation entity and related entity attributes.
 
-2. On the **Create rule** page, enter a rule name, and in **Conditions**, define the set of conditions using the conversation entity and related entity attributes.
-
-3. In **Route to queues**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
+5. In **Route to queues**, select the queue that you created and to which the voice call must be routed when the conditions specified are met.
 
     ![Create a rule for voice.](media/rule-for-voice.png "Create a rule for voice")
 
-4. In **Overflow action**, select one of the following options:
+6. In **Overflow action**, select one of the following options:
    - **Default**: Specify if the work item should remain in the queue to be routed to the next available agent.
    - **End call**: Specify to end the call if no agent will be available to take the call, for example an operating hour is configured and the overflow action was triggered on account of it.
    - **Transfer to external number**: Set this option and specify a number to which the call should be routed if the work item should be handled on priority.
 
-5. Select **Create**. The rule is created and appears in the list of rules.
+    > ![Note]
+    > Make sure that you configure overflow condition for the queue for the action to be run.
 
-    ![Decision list view of rules.](media/image32.png "Decision list view of rules")
+7. Select **Create**. The rule is created and appears in the list of rules.
 
-6. Create as many rules as your business requires.
+8. Create as many rules as your business requires.
 
 ## Configure work classification rules
 
