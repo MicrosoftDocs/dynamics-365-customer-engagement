@@ -24,13 +24,16 @@ Post call surveys help measure customer satisfaction in the contact center.  Su
     The IVR bot informs the customer about a post-call survey at the end of the call. 
     After the agent disconnects, the call is automatically transferred to a post-call survey bot.
 2. Automatic - explicit
+    The IVR bot asks the customer if they want to participate in a post call survey. The consent should be saved in a va_surveyconsent  Boolean variable.
+    If the customer consents, the call is automatically transferred to the post-call survey bot at the end of the agent call.
+    If the customer says no, the call ends when the agent hangs up.
 3. Agent initiated
+    Towards the end of the call, the agent asks if the customer wants to take a survey. 
+    If customer says yes, the agent transfers the call to the survey bot manually
 
 
-The IVR bot asks the customer if they want to participate in a post call survey. The consent should be saved in a va_surveyconsent  Boolean variable.
 
-If the customer consents, the call is automatically transferred to the post-call survey bot at the end of the agent call.
-If the customer says no, the call ends when the agent hangs up.
+
 
 
 
@@ -46,7 +49,7 @@ Use either PVA (No code or low code experience) or Azure bot Service (pro develo
 ### Power Virtual Agent
 
 
->[!TIP] 
+> [!TIP] 
 > The bot author can use Power Automate to implement custom business logic to decide who gets surveyed (e.g. random %, VIP customers etc.)
 
 ### Azure bot Service
