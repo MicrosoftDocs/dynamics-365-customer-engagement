@@ -570,6 +570,28 @@ If either latitude or longitude or both are not present on an account record.
 
 Check if the address on the account form is provided. If so, then geocode the account by selecting the geocode button on the command bar of the account form.
 
+
+## Verify mobile user security roles
+
+Severity: High
+
+### What it checks
+
+Checks whether Frontline Workers who have access to the Field Service Mobile (D365) application are assigned the Field Service Resource role and the Field Service Resource field security profile.
+
+### Why it fails
+
+When a Frontline Worker has access to the Field Service Mobile (D365) app without Field Service Resource role and/or the Field Service Resource field security profile
+
+### How to fix
+
+Add Field Service Resource Security role and field security profile to the user. For more information see: https://docs.microsoft.com/dynamics365/field-service/frontline-worker-set-up
+
+
+
+
+
+
 ### See also
 
 - [Frequently asked questions](./troubleshoot-faq.yml)
