@@ -12,6 +12,17 @@ manager: shujoshi
 
 This page includes the known issues in this release of deal manager.  
 
+## Customization
+
+### In Context Form appears in the form selector
+
+The In Context Form is used for displaying the side panel in deal manager, and in the new interface for contacts, opportunities, leads, and accounts.  
+
+However, this form appears in the form selector dropdown of these entities and thus lets users select this form. If this leads to confusion, you can deactivate the **In Context form** as shown in the screenshot below. 
+
+:::image type="content" source="media/deactivate-incontext-form.PNG" alt-text="Screenshot of In Context form with the option to deactivate":::
+
+
 ## Filters
 
 ### Related entities aren't supported
