@@ -56,22 +56,13 @@ Use either Power Virtual Agent (No code or low code experience) or Azure bot Ser
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-explicit2.png)
 
-#### Agent initiated survey
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-survey-pva-agent-initiated1.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-survey-pva-agent-initiated2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-survey-pva-agent-initiated-greeting.png)
-
-
 > [!TIP] 
 > The bot author can use Power Automate to implement custom business logic to decide who gets surveyed (e.g. random %, VIP customers etc.)
+
+
+
+
+
 
 
 
@@ -89,6 +80,24 @@ Use either Power Virtual Agent (No code or low code experience) or Azure bot Ser
 > [!Note]
 > Enabling Post call survey is not required for the agent initiated scenario.
 
+## Agent initiated survey
+
+Create a Queue where the onyl agent is the bot user.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-agent-initiated1.png)
+
+Transfer the call to the survey queue.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-agent-initiated2.png)
+
+When answered this will send the user to the greeting topic of the bot.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-agent-initiated-greeting.png)
+
 ## Configuration considerations
 
-recommendation would be for a customer to have 2 bots if they want to use PVA for both IVR and Survey
+It is recommended to have 2 bots if your organization wants to use Power Virtual Agent for both IVR and survey scenarios.
