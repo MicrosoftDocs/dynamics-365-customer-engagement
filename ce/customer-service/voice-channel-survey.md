@@ -32,22 +32,12 @@ Post call surveys help measure customer satisfaction in the contact center.  Su
     If customer says yes, the agent transfers the call to the survey bot manually
 
 
-
-
-
-
-
-
-
-
-
-
 ## Prerequisites
 
 
 
 
-## Create a survey bot
+## Step 1: Create a survey bot
 Use either Power Virtual Agent (No code or low code experience) or Azure bot Service (pro developer experience)
 
 ### Power Virtual Agent examples
@@ -66,7 +56,7 @@ Use either Power Virtual Agent (No code or low code experience) or Azure bot Ser
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-explicit2.png)
 
-#### Agent initiated
+#### Agent initiated survey
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-agent-initiated1.png)
@@ -85,12 +75,12 @@ Use either Power Virtual Agent (No code or low code experience) or Azure bot Ser
 
 
 
-## Connect your bot to Omnichannel
+## Step 2: Connect your bot to Omnichannel
 
 1. PVA: https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel, https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot
 2. Azure bot: https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot 
 
-## Enable Post-call survey in workstream phone number
+## Step 3: Enable Post-call survey in workstream phone number
 
 
 > [!div class="mx-imgBorder"]
