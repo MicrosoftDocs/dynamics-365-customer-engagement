@@ -76,7 +76,7 @@ You can access the migration tool using the following steps:
 
 1. In Customer Service Hub, select **Service Management** in **Change area**.
 
-2. Under **Data Management**, select **ARC & SLA Migration Tool (Preview)**.
+2. Under **Data Management**, select **ARC & SLA Migration Tool**.
 
 > ![Access Migration Tool.](media/migration-tool-access-location.png "Migration tool access locations")
   
@@ -285,7 +285,7 @@ A successfully migrated rule's migration status is set to migrated by default.
 
 If you have many rules and items to migrate and want to perform the migration in batches or want to attempt to migrate the unsuccessfully migrated rules and items again, you can rerun the migration tool. If you need to migrate a successfully migrated rule or item again, make sure you delete the migrated rule in Customer Service Hub, and then run the migration process.
 
-1. Select **ARC & SLA Migration tool (Preview)** in the left pane in **Service Management**. The **Summary** page displays the status of the previous migration. In the **Pending** column, the number indicates the rules and items that are pending migration. These include failed rules, partially or incomplete migrated rules, and rules that have not been attempted.
+1. Select **ARC & SLA Migration tool** in the left pane in **Service Management**. The **Summary** page displays the status of the previous migration. In the **Pending** column, the number indicates the rules and items that are pending migration. These include failed rules, partially or incomplete migrated rules, and rules that have not been attempted.
  
     ![Rerun migration tool.](media/rerun-migration.png "Rerun migration tool")
 2. Select **Start migration**, and perform the steps to run the migration of the rules and items again.
