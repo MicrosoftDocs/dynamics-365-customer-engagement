@@ -1,6 +1,4 @@
----
-title: "Inbound Calling in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+iajrvice."
 author: neeranelli
 ms.author: daclar
 manager: shujoshi
