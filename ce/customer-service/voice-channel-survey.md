@@ -61,11 +61,6 @@ Use either Power Virtual Agent (No code or low code experience) or Azure bot Ser
 
 
 
-
-
-
-
-
 ## Step 2: Connect your bot to Omnichannel
 
 1. PVA: https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel, https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot
