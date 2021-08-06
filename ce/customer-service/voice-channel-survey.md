@@ -34,9 +34,31 @@ Post call surveys help measure customer satisfaction in the contact center.  Su
 
 
 
+
+
+
+
+
+
+
+
+## Prerequisites
+> [!Note]
+>
+
+
+
+## Create a survey bot
+Use either PVA (No code or low code experience) or Azure bot Service (pro developer experience)
+
+### Power Virtual Agent examples
+
+#### Implicit survey
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-implicit.png)
 
+#### Explicit survey
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-explicit1.png)
@@ -45,6 +67,7 @@ Post call surveys help measure customer satisfaction in the contact center.  Su
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-explicit2.png)
 
+#### Agent initiated
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-agent-initiated1.png)
@@ -56,17 +79,6 @@ Post call surveys help measure customer satisfaction in the contact center.  Su
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-agent-initiated-greeting.png)
-
-## Prerequisites
-> [!Note]
->
-
-
-
-## Create a survey bot
-Use either PVA (No code or low code experience) or Azure bot Service (pro developer experience)
-
-### Power Virtual Agent example
 
 
 > [!TIP] 
@@ -80,6 +92,10 @@ Use either PVA (No code or low code experience) or Azure bot Service (pro develo
 2. Azure bot: https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot 
 
 ## Enable Post-call survey in workstream phone number
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-post-call-survey-toggle.png)
 
 ## Configuration considerations
 
