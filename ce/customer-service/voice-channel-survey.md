@@ -43,13 +43,12 @@ Post call surveys help measure customer satisfaction in the contact center.  Su
 
 
 ## Prerequisites
-> [!Note]
->
+
 
 
 
 ## Create a survey bot
-Use either PVA (No code or low code experience) or Azure bot Service (pro developer experience)
+Use either Power Virtual Agent (No code or low code experience) or Azure bot Service (pro developer experience)
 
 ### Power Virtual Agent examples
 
@@ -96,6 +95,9 @@ Use either PVA (No code or low code experience) or Azure bot Service (pro develo
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-post-call-survey-toggle.png)
+
+> [!Note]
+> Enabling Post call survey is not required for the agent initiated scenario.
 
 ## Configuration considerations
 
