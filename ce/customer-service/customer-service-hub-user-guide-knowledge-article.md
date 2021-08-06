@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 05/03/2021
+ms.date: 08/06/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -623,7 +623,7 @@ Follow these steps:
     > [!div class=mx-imgBorder]
     > ![Select Check Condition.](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
   
-6. In the step, select **<condition> (click to configure)**. The **Specify condition** page opens in a new browser window.
+6. In the step, select **&lt;condition&gt; (click to configure)**. The **Specify condition** page opens in a new browser window.
 
     > [!div class=mx-imgBorder]
     > ![Select the condition to configure.](media/workflows-configure-condition.png "Select the condition to configure")
