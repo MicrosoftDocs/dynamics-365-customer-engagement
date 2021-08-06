@@ -22,7 +22,8 @@ Video 3: https://msit.microsoftstream.com/video/8bfc99ff-0300-b561-3feb-f1ebe379
 
 # Number management
 
-This section discusses how you as an administrator can purchase phone numbers, how to choose the right plan for your organization, whether you want to avail call and SMS services, or whether you'd like to set up just inbound or outbound calling options, or both. You use the Azure Communication Services to purchase new phone numbers or use existing numbers for your business, in a seamless, integrated way within Dynamics 365.
+This section discusses how you as an administrator can purchase phone numbers, how to choose the right plan for your organization, whether you want to avail call and SMS services, or whether you'd like to set up just inbound or outbound calling options, or both. You use the Azure Communication Services to purchase new phone numbers or use existing numbers for your business, in a seamless, integrated way within Dynamics 365. 
+The following topics
 
 ## Use number included with the Voice Channel 
 
@@ -32,7 +33,12 @@ After the 60 minutes, purchase a new number. You cannot purchase the trial numbe
 
 ## Create a new phone number
 
-To be able to use voice and SMS services in Omnichannel for Customer Service, you must have a resource that connects to Azure Communication Services. You can either [create a new resource](#create-a-new-resource) or [use an existing one](#use-existing-resource) to connect to Azure Communication Services. You can also use a resource that you previously disconnected or unlinked from Azure Communication Services, and reuse it now.
+To be able to use voice and SMS services in Omnichannel for Customer Service, you must have a resource that connects to Azure Communication Services. To be able to add phone numbers to your business, you must first connect to Azure Communication Services
+- you must create a new resource and connect to 
+- deploy the resourc
+
+
+### Prerequisite
 
 **To purchase new phone numbers for your business**
 
@@ -49,19 +55,16 @@ To be able to use voice and SMS services in Omnichannel for Customer Service, yo
 
 ### Connect to Azure Communication Services
 
+You can either [create a new resource](#create-a-new-resource) or [use an existing one](#use-existing-resource) to connect to Azure Communication Services. You can also use a resource that you previously disconnected or unlinked from Azure Communication Services, and reuse it now.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-number-mgmt-create-new-number.png)
 
 Say, you already have an Azure Communication Services resource that you'd like to use to connect with voice or SMS, you can use the **Use existing resource** option to connect to Azure Communication Services. Also, if you had previously unlinked a resource and wish to use it now, you can do so using this option. You can use an existing resource from any of your Azure subscriptions, available under *any* tenant. 
 
-
-
-### Prerequisite
-
 To create a new phone number, you need the following:
 - A valid Azure subscription that's in the same tenant as your Dynamics 365 account. 
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal.
-
 
 <!--
 Otherwise, select the [**Use existing resource**](#use-existing-resource) option and copy and paste the relevant information from your Azure subscription. 
@@ -72,20 +75,20 @@ Otherwise, select the [**Use existing resource**](#use-existing-resource) option
 
 
 ### Create a new resource
-You can create a new resource to connect to Azure Communication Services.
+
 
 **To create a new resource**
 
-1. Open Omnichannel admin center. Under **General Settings**, select **Phone numbers**, and then select **Get started**. 
+1. Open Omnichannel admin center. Under **General Settings**, select **Phone numbers**, and then select **Get started**.
    The **Connect to Azure Communication Services** dialog opens.
 
-2. Select **Create new resource** or **Use existing resource**, 
+2. Select **Create new resource** or **Use existing resource**,
 
 2. Select **Create new resource** and enter the following details:
    - Azure subscription: .
-   - Azure resource group: 
+   - Azure resource group:
    - Resource name
-   
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-number-mgmt-azure-create-new-resource.png)
