@@ -22,8 +22,6 @@ search.app:
 
 As an existing Microsoft customer, you are eligible for a free 6 month trial of Dynamics 365 Marketing. The trial allows you to follow up with customers after a webinar and to personalize registration materials before your next webinar.
 
-Dynamics 365 Marketing is web-based, so no installation on your computer is required. Your data is secure with Microsoft; your data will not be shared outside of your company. You don't even need a credit card to sign up.
-
 To sign up for a 6 month Dynamics 365 Marketing trial:
 
 1. [Host a webinar in Teams](/microsoftteams/set-up-webinars) with at least one attendee.
@@ -45,9 +43,9 @@ To sign up for a 6 month Dynamics 365 Marketing trial:
 
 ## Why integrate Teams and Dynamics 365 Marketing?
 
-Let's say you've hosted a Microsoft Teams webinar and are reviewing your [Teams attendance report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report). Maybe some guests registered but didn't attend, while others canceled their registrations. You wish you could follow up with the guests to get feedback or tell them about an upcoming webinar that is more relevant to their interests. Maybe you'd like to send a survey to learn what content guests would like to hear about in the next webinar.
+Let's say you've hosted a Microsoft Teams webinar and are reviewing your [Teams attendance report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report). Maybe some guests registered but didn't attend, while others canceled their registrations. You wish you could follow up with the guests to get feedback or tell them about an upcoming webinar that is more relevant to their interests. Maybe you'd like to send a survey to learn what content guests would like to hear about in the next webinar. By integrating Teams with Dynamics 365 Marketing, you can engage your webinar attendees, converting participants to loyal customers.
 
-By integrating Teams with Dynamics 365 Marketing, you can engage your webinar attendees, converting participants to loyal customers.
+The 6 month trial allows you to immediately connect Teams to Dynamics 365 Marketing. You don't even need a credit card to sign up. Dynamics 365 Marketing is web-based, so no installation on your computer is required. Your data is secure with Microsoft; your data will not be shared outside of your company.
 
 ## Here's what you can do by connecting Teams to Dynamics 365 Marketing
 
