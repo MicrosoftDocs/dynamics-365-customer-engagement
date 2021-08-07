@@ -27,11 +27,12 @@ To sign up for a 6 month Dynamics 365 Marketing trial:
 1. [Host a webinar in Teams](/microsoftteams/set-up-webinars) with at least one attendee.
 1. In Teams, select the **Attendance** tab to view the attendance report.
 1. In the top-right corner, select **Follow up with participants**.
-    > [!IMPORTANT]
-    > The **Follow up with participants** button only appears in the attendance tab *after* the webinar has ended.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Follow up with participants button](media/teams-follow-up.png "Screenshot of the Follow up with participants button")
+
+    > [!IMPORTANT]
+    > The **Follow up with participants** button only appears in the attendance tab *after* the webinar has ended.
 
 1. Select **Get started**.
 
