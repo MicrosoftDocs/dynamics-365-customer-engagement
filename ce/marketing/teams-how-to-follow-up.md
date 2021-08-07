@@ -26,9 +26,11 @@ Here's how to export your Team's participant information to Marketing:
 
 1. In Teams, select the **Attendance** tab to view the attendance report.
 1. In the top-right corner, select **Follow up with participants**.
-    > [!NOTE]
+    > [!IMPORTANT]
     > The **Follow up with participants** button only appears in the attendance tab *after* the webinar has ended.
-1. Select **Get started**. If you are an existing Marketing customer, a window pops up that lists your Dynamics organizations. Select the organization you want to use from the dropdown. If you are not a Marketing customer, a window opens that allows you [sign up for a free 6 month Dynamics 365 Marketing trial](https://dynamics.microsoft.com/marketing/offer).
+1. Select **Get started**. If you are an existing Marketing customer, a window pops up that lists your Dynamics organizations. Select the organization you want to use from the dropdown.
+    > [!NOTE]
+    > If you are not a Marketing customer, a window opens that allows you [sign up for a free 6 month Dynamics 365 Marketing trial](teams-journey.md).
 1. A browser tab then opens with a customer journey and segments that are personalized to your webinar data.
 
 ## Next steps
