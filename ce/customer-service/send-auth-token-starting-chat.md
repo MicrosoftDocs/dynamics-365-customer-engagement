@@ -1,7 +1,7 @@
 ---
 title: "Send authentication token | MicrosoftDocs"
 description: "Understand how to pass authentication token to Omnichannel for Customer Service. Also included is a code snippet to send an authentication token to start a chat."
-ms.date: 08/05/2021
+ms.date: 12/03/2020
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
