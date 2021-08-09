@@ -1,5 +1,6 @@
 ---
 title: "Configure an Internet-facing deployment | Microsoft Docs"
+description: Learn how to configure an internet-facing deployment
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: d365ce-op
@@ -16,8 +17,6 @@ ms.author: matp
 manager: kvivek
 ---
 # Configure an Internet-facing deployment
-
-
 
 Configuring an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] lets users get to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] from the internet, outside the company firewall, without using a virtual private network (VPN). [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] configured for internet access uses claims-based authentication to verify credentials of external users. When you configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for internet access, integrated Windows authentication must remain in place for users accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] through your LAN or WAN.  
   
