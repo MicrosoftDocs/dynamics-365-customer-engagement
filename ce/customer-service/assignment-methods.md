@@ -23,7 +23,13 @@ Assignment methods determine how a work item is assigned. You can use the out-of
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity and skills, the work item is assigned in the order in which the agents become available. However, if closest match is chosen as the default skill-matching algorithm at the workstream level, the highest capacity setting will be overridden and all the incoming work items will be assigned to the same agent until other constraints, such as capacity and presence are exhausted.
+- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned randomly.
+
+  If you choose to assign work items using skill-based routing and set default skill-matching algorithm at the workstream level to exact match and choose highest capacity as assignment method, then the system will filter agents using exact skill match, workstream’s presence and capacity requirements and order the filtered agents by available capacity.
+
+  If default skill-matching algorithm at the workstream level is set to closest match, then the system will filter agents based on workstream's presence and capacity requirements and order the filtered agents by nearest match and not available capacity.
+
+  If you need to distribute  work fairly among agents, then you should consider switching to round robin assignment strategy.
 
 - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence. The initial order is based on when a user is added to queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
 
