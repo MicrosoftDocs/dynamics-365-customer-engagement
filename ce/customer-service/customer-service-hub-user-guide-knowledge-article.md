@@ -277,7 +277,7 @@ For your attached files, you can use the following attachment commands to do the
 - **Select**: Allows you to select one or more attachments by clicking the box that appears on the attachments, and then you can either **Remove** or **Download** the selected files.
 - **Sort**: Allows you to sort records by a specific filter, such a file name or size.
 
-When you publish your knowledge article, if you've attached files to it, the attachments can by accessed by knowledge consumers through Knowledge Search. 
+When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
