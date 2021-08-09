@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 05/03/2021
+ms.date: 08/06/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -254,6 +254,30 @@ You can preview the content to view its compatibility on multiple devices, like 
 > [!NOTE]
 > This is an indicative preview. Content rendered can be different in the actual device or screen.
 
+## Add a file attachment to a knowledge article
+
+When you're creating a knowledge article, you can attach one or more files to it to help provide more comprehensive information for your customers. 
+
+To attach a file to a knowledge article:
+
+1. Open the knowledge article where you want to add a file attachment, and then on the **Content** tab, on the right-hand side of the screen, select **Attach Files From**.
+ 
+   ![Attach a file.](media/attach-file-knowledge-article.png "Attach files to a knowledge article")
+
+2. Choose from the following file locations:
+    - **My Device** lets you browse and select files from your local device.
+    - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub.
+
+### Work with file attachments
+
+The **Attached files** section displays all of your knowledge article attachments in a tile view horizontally above your message. The default setting for the maximum number of files that can be displayed is five attachments before the page forward functionality is displayed.
+
+For your attached files, you can use the following attachment commands to do the following:
+
+- **Select**: Allows you to select one or more attachments by clicking the box that appears on the attachments, and then you can either **Remove** or **Download** the selected files.
+- **Sort**: Allows you to sort records by a specific filter, such a file name or size.
+
+When you publish your knowledge article, if you've attached files to it, the attachments can by accessed by knowledge consumers through Knowledge Search. 
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
@@ -599,7 +623,7 @@ Follow these steps:
     > [!div class=mx-imgBorder]
     > ![Select Check Condition.](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
   
-6. In the step, select **<condition> (click to configure)**. The **Specify condition** page opens in a new browser window.
+6. In the step, select **&lt;condition&gt; (click to configure)**. The **Specify condition** page opens in a new browser window.
 
     > [!div class=mx-imgBorder]
     > ![Select the condition to configure.](media/workflows-configure-condition.png "Select the condition to configure")
