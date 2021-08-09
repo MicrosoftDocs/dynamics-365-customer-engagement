@@ -1,7 +1,7 @@
 ---
 title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
-ms.date: 08/05/2021
+ms.date: 08/09/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -16,6 +16,7 @@ manager: shujoshi
 > [!IMPORTANT]
 > 
 > - The setContextProvider method for authenticated chat has been deprecated and will not be supported after October 01, 2021. Microsoft recommends that you use the JWT token for authenticated chat. More information: [Send authentication tokens](../../../send-auth-token-starting-chat.md).
+> - From October 01, 2021, customers can send only 100 custom context variables for each chat and session.
 > - The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
 > - The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.
 > - The custom context provider would be invoked by live chat widget when starting a new chat.
