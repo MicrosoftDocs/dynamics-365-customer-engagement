@@ -1,5 +1,6 @@
 ---
 title: "Sort records in a view in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to sort the records that appear in a view
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 

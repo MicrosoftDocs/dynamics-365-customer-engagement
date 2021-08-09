@@ -1,5 +1,6 @@
 ---
 title: "Create and design forms (Customer Engagement (on-premises)) | MicrosoftDocs"
+description: Learn how to create and design forms for your apps
 ms.custom: 
 ms.date: 03/07/2019
 ms.reviewer: 
