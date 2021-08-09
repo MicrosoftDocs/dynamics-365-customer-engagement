@@ -33,14 +33,14 @@ As an administrator, you can determine the actions when an incoming call reaches
 - Exceeds a defined number of calls that are waiting in the queue
 - Is received during the after hours of the call center operations
 
-When both the conditions are defined, when one of them is met, the overflow actions configured at the workstream level will be triggered.
+When both the conditions are defined, when one of them is met, the overflow actions configured at the workstream level will be run.
 
 ## Prerequisites
 
-For call overflow to work correctly, the following prerequisites must be in place:
+For call overflow to work correctly, the following prerequisites must be met:
 
 - Agents should be configured for the voice queues.
-- To configure call transfer to an external phone number, phone numbers should be available.
+- To transfer calls to an external phone number, phone numbers should be available.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-overflow-queue.png)
@@ -53,13 +53,13 @@ In Omnichannel admin center, go to the voice queue for which you want to configu
 
 2. On the **Overflow conditions** panel, in the **Work item limit**, enter a number to denote the maximum number of calls that can be in waiting before overflow is reached. For example, if you enter 5, then 5 calls should be waiting in the queue for the sixth call to trigger call overflow.
 
-3. If an operating hour record is configured for the queue, the toggle for **Out of operation hours**, is set to **On** by default and can't be edited. The call overflow is triggered when a call reaches the queue during the after hours of the call center operations. If no operating hour record is configured, the toggle will be set to **Off** and in the disabled mode. In such a case, the call center is considered to be available all day.
+3. If an operating hour record is configured for the queue, the toggle for **Out of operation hours**, is set to **On** by default and can't be edited. The call overflow is triggered when a call reaches the queue during the after hours of the call center operations. If no operating hour record is configured, the toggle will be set to **Off** and in the disabled mode. In such a case, the call center is considered to be available round the clock.
 
 ## Define operation hours
 
 Perform the steps in [Create and manage operating hours](create-operating-hours.md) to configure operating hours for the voice queues.
 
-If operation hours are not configured, they will be 24 hours by default.
+If operation hours are not configured, the queues will be available round the clock.
 
 ## Configure overflow action in the voice workstream
 
@@ -76,6 +76,10 @@ To edit the automated message, go to **Customer settings > Automated messages** 
 Then edit the value in the **Localized text** column as needed.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-overflow-end-call-message.png)
+> ![Out-of-the-box automated messages.](./media/voice-channel-overflow-end-call-message.png "Out-of-the-box automated messages.")
 
+### See also
 
+[Overview of voice channel](voice-channel.md)  
+[Overview of unified routing](overview-unified-routing.md)  
+[Configure routing for the voice channel](voice-channel-route-queues.md)  
