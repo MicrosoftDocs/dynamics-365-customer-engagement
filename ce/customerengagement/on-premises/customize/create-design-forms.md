@@ -60,6 +60,37 @@ There are still a number of entities, referred to here as classic entities, that
 |Saved View|Service|Service Activity|SharePoint Site|Site|  
 |Territory|Unit|Unit Group|||  
 
+:::row:::
+   :::column span="":::
+      Address
+   :::column-end:::
+   :::column span="":::
+      Article
+   :::column-end:::
+   :::column span="":::
+      Article Comment
+   :::column-end:::
+   :::column span="":::
+      Bulk Delete Operation
+   :::column-end:::
+   :::column span="":::
+      Stuff
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Connection
+   :::column-end:::
+   :::column span="":::
+      Discount
+   :::column-end:::
+   :::column span="":::
+      Discount List
+   :::column-end:::
+   :::column span="":::
+      Document Location
+   :::column-end:::
+:::row-end:::
 
 ### See also  
 
