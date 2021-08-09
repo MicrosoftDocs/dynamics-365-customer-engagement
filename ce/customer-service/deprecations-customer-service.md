@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: Visit this page to see what's recently deprecated in Dynamics 365 Customer Service
-ms.date: 08/05/2021
+ms.date: 08/09/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
