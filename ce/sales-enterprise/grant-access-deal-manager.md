@@ -18,9 +18,8 @@ By default, deal manager is enabled only for administrators. As an administrator
 
 **To grant access**
 
-1. In the Sales Hub app, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App Settings**. 
+1. Access the [deal manager settings page](enable-deal-manager-preview.md#access-deal-manager-settings).
 
-1. Under **General Settings**, select **Deal manager (preview)**.
 1. Under **Define team access**, select one of the following:
     - Select **All security roles** to grant access to all users.
     - Select **Specific security roles**, and then add the security roles that you want to grant access to.
