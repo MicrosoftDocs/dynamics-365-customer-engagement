@@ -32,6 +32,14 @@ You must be a global admin to provide the consent.
 
 ## What privileges are being provided to the enterprise application, what type of permissions and why are they needed?
   
+| **Permission**      | **Type**    | **What the app does with the permission**                                                                                                                                                                                                                                                                            |
+|---------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Chat.ReadWrite.All  | Delegated   | Reads user's chats and recent messages to display in chat list.                                                                                                                                                                                                                                                       |
+| Directory.Read.All  | Delegated   | Reads user's teams and channels display name.                                                                                                                                                                                                                                                                         |
+| Presence.Read.All   | Delegated   | Reads presence information of all users to be displayed on the user avatars in chat list.                                                                                                                                                                                                                             |
+| User.Read.All       | Application | Reads display name and licenses of users to validate if the suggested participants have a Teams license assigned. This permission is used by the **Suggested chats and contacts** section in the chat list. The permission is set at the application-level as it's being used a background service for better performance. |
+| User.ReadBasic.All  | Delegated   | Reads users' photos.                                                                                                                                                                                                                                                                                                  |
+
 ## Are any other services than Teams affected?
 
 No other Office services are affected as Teams is managing these services on its own.
