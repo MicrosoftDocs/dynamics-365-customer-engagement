@@ -59,6 +59,8 @@ Customize the editable grid by adding a JavaScript library. These customizations
 **To create and upload a JavaScript library**
 
 1. Write your custom JavaScript code. In the following example, we create JavaScript to disable all fields except a few for the Opportunity entity.   
+    > [!NOTE]
+    > The customizations are also applicable for the same fields in the side panel. 
     ```JavaScript
     function OnRowLoad(executionContext) {
 
@@ -129,7 +131,11 @@ The following table lists the supported and unsupported customizations for side 
 1. Select the **Opportunity** table, and then select **Forms**.
 1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel.
     :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
+    > [!NOTE]
+    > - By default, all the fields in the form are editable. If you want to set a field to read-only, select the field and enable the **Read-only** property.
+    > - If you've added field-level rules for the editable grid using a web resource, they also become applicable for the same fields in the side panel. 
 
+  
 ### See also
 
 - [Access the deal manager workspace (Preview)](access-deal-manager.md)  
