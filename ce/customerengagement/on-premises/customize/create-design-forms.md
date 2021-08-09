@@ -51,15 +51,6 @@ Dynamics 365 Customer Engagement (on-premises) provides many options for designi
 
 There are still a number of entities, referred to here as classic entities, that retain the appearance and capabilities from earlier versions. These entities are used less often. They are listed here:  
 
-||||||  
-|-|-|-|-|-|  
-|Address|Article|Article Comment|Bulk Delete Operation|Connection|  
-|Discount|Discount List|Document Location|Email Attachment|Follow|  
-|Goal|Goal Metric|Import Source File|Invoice Product|Order Product|  
-|Price List|Queue Item|Quote Product|Rollup Field|Rollup Query|  
-|Saved View|Service|Service Activity|SharePoint Site|Site|  
-|Territory|Unit|Unit Group|||  
-
 :::row:::
    :::column span="":::
       Address
@@ -74,13 +65,10 @@ There are still a number of entities, referred to here as classic entities, that
       Bulk Delete Operation
    :::column-end:::
    :::column span="":::
-      Stuff
+      Connection
    :::column-end:::
 :::row-end:::
 :::row:::
-   :::column span="":::
-      Connection
-   :::column-end:::
    :::column span="":::
       Discount
    :::column-end:::
@@ -89,6 +77,74 @@ There are still a number of entities, referred to here as classic entities, that
    :::column-end:::
    :::column span="":::
       Document Location
+   :::column-end:::
+   :::column span="":::
+      Email Attachment
+   :::column-end:::
+   :::column span="":::
+      Follow
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Goal
+   :::column-end:::
+   :::column span="":::
+      Goal Metric
+   :::column-end:::
+   :::column span="":::
+      Import Source File
+   :::column-end:::
+   :::column span="":::
+      Invoice Product
+   :::column-end:::
+   :::column span="":::
+      Order Product
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Price List
+   :::column-end:::
+   :::column span="":::
+      Queue Item
+   :::column-end:::
+   :::column span="":::
+      Quote Product
+   :::column-end:::
+   :::column span="":::
+      Rollup Field
+   :::column-end:::
+   :::column span="":::
+      Rollup Query
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Saved View
+   :::column-end:::
+   :::column span="":::
+      Service
+   :::column-end:::
+   :::column span="":::
+      Service Activity
+   :::column-end:::
+   :::column span="":::
+      SharePoint Site
+   :::column-end:::
+   :::column span="":::
+      Site
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Territory
+   :::column-end:::
+   :::column span="":::
+      Unit
+   :::column-end:::
+   :::column span="":::
+      Unit Group
    :::column-end:::
 :::row-end:::
 
