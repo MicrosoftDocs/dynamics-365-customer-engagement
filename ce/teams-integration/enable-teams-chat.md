@@ -10,8 +10,7 @@ manager: shujoshi
 ---
 # Admin: Enable or disable Teams chat in Dynamics 365 (preview)
 
-Enable the preview to help your users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application. This feature requires certain permissions to access Teams data. Review the [Permissions required](#permissions-required) and [Data security and privacy](#data-security-and-privacy) sections to know more.
-Access <a href="https://www.microsoft.com/en-in/download/default.aspx" target="_blank">Download Center</a> for more information.
+Enable the preview to help your users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application. This feature requires certain permissions to access Microsoft Teams data. Review the [Permissions required](#permissions-required) and [Data security and privacy](#data-security-and-privacy) sections to know more.
 
 ## Access Teams Chat and collaborate settings in Dynamics 365
 
