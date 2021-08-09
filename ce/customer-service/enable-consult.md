@@ -1,7 +1,7 @@
 ---
 title: "Enable consult in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Enable consult in agent experience for agent productivity in Omnichannel for Customer Service"
-ms.date: 08/01/2021
+ms.date: 08/09/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
