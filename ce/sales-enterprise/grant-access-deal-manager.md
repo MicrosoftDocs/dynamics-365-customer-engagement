@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Grant access to deal manager (Preview)
+# Grant access to deal manager (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

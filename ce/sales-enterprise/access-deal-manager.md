@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Access the deal manager workspace (Preview)
+# Access the deal manager workspace (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

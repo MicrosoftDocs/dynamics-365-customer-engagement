@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Customize the deal manager workspace (Preview)
+# Customize the deal manager workspace (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -140,5 +140,5 @@ The following table lists the supported and unsupported customizations for side 
   
 ### See also
 
-- [Access the deal manager workspace (Preview)](access-deal-manager.md)  
-- [Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)  
+- [Access the deal manager workspace (preview)](access-deal-manager.md)  
+- [Using the deal manager workspace (preview)](deal-manager-seller-overview.md)  
