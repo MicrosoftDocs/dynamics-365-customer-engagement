@@ -73,14 +73,36 @@ IT admin perspective
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user.png)
 
-## Create an Outbound profile
+## Create an outbound profile
 
+You can define the way outbound calls are made and who can make them. In private preview, only *one* outbound profile can be created and cannot be deleted. 
+
+**To create an outbound profile**
+
+1. In the site map of Omnichannel admin center, select **Agent experience** under the **Advanced settings** menu.
+
+2. Select **Manage**, next to **Outbound profiles (preview)**.
+   
+   The list of outbound profiles is displayed.
+
+3. Select **Add profile**. In the **Create outbound profile** dialog, enter the following details:
+   a. In the **Basic info** section, add the following details:
+     - Profile name:
+     - Phone number:
+     - Number label:
+     - Queue:
+     - Capacity:
+    
+   
+   b. In the **Behaviors** section, add the following details:
+   
+   c. In the **Summary** section, add the following details:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-profile-nav.png)
 
 
-- The first run experience create an outbound profile by default. Only 1 outbound profile can be created and cannot be deleted. 
+- The first run experience create an outbound profile by default. 
 
 
 > [!div class="mx-imgBorder"]

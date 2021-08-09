@@ -53,7 +53,7 @@ The voice channel has Microsoft's award winning AI built into the product. This 
 
 ## Key capabilities of the voice channel
 
-Take a look at some of the key capabilties that makes the voice channel great for customer service representatives and customers receiving help. 
+Take a look at some of the key capabilities that makes the voice channel great for customer service representatives and customers receiving help. 
 
 | Solution | Capability |
 | --- | --- |
@@ -87,7 +87,7 @@ A new support session is created when the voice call is accepted.
 [Set up a multi-language contact center](voice-channel-multi-language-contact-center.md)  
 [Handle call overflow for the voice queues](voice-channel-call-overflow.md)  
 [Block a SPAM Number](voice-channel-block-number.md)  
-[Manage Music](voice-channel-music.md)  
+[Manage music](voice-channel-music.md)  
 [Manage voice channel](voice-channel-manage.md)  
 
 ### Agent experience
@@ -96,6 +96,7 @@ A new support session is created when the voice call is accepted.
 [Call a customer](voice-channel-call-customer.md)  
 [Using call controls and the agent desktop for voice](voice-channel-agent-experience.md)  
 [View call recording and transcripts](voice-channel-call-recording-transcripts.md)  
+[Manage outbound profiles](voice-channel-outbound-profiles.md)
 
 ### Supervisor experience
 

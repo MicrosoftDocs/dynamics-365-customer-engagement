@@ -41,13 +41,13 @@ See the video on [Agent experience using the voice channel in Dynamics 365 Custo
 - Hold
 - Consult
 - Transfer (to agent or queue)
-- End 
+- End
 
 ## View customer information
 
 ## Sentiment analysis
 
-## Call transcirption
+## Call transcription
 
 ## Knowledge article suggestions
 
