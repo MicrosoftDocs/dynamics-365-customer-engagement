@@ -1,6 +1,6 @@
 ---
-title: "Cases SLAs in Customer Service Hub | Microsoft Docs"
-description: "Learn about Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service."
+title: "Track and manage SLAs in Customer Service Hub | Microsoft Docs"
+description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service Hub for Dynamics 365 Customer Service."
 ms.date: 06/16/2021
 ms.topic: article
 author: neeranelli

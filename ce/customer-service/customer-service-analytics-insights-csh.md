@@ -15,6 +15,7 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -121,7 +122,7 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 > [!div class="mx-imgBorder"]
 > ![Conversation Topics.](media/conversation-topics-dashboard.png "Conversation Topics")
 
-For more details about the Topics dashboard, see [Topics dasboard](oc-conversation-topics-dashboard.md)
+For more details about the Topics dashboard, see [Topics dashboard](oc-conversation-topics-dashboard.md)
 
 
 ## Information that you need to know about the analytics reports

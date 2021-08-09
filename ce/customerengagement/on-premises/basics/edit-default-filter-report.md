@@ -1,5 +1,6 @@
 ---
-title: "Edit the default filter of a report (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Edit report default filter in Dynamics 365 Customer Engagement (on-premises)"
+description: "If your report has a default filter, you can change it to show the data you want to see. Choose a report, select Edit Default Filter, and modify the criteria."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
@@ -64,14 +65,14 @@ When a report is a [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-
 
    7.  To ungroup a group, select the **Options menu** button ![arrow&#95;down&#95;black.](../basics/media/arrow-down-black.gif "arrow_down_black") for that group, and then select **Ungroup**.  
 
-   8.  To change a **Group AN**D group to a  Group OR group, or a **Group OR** group to a **Group AND** group, click the **Options menu** button ![arrow&#95;down&#95;black.](../basics/media/arrow-down-black.gif "arrow_down_black") for that group, and then select **Change to OR** or **Change to AND**.  
+   8.  To change a **Group AND** group to a  Group OR group, or a **Group OR** group to a **Group AND** group, click the **Options menu** button ![arrow&#95;down&#95;black.](../basics/media/arrow-down-black.gif "arrow_down_black") for that group, and then select **Change to OR** or **Change to AND**.  
 
    > [!TIP]
    > - To clear all criteria and start over, on the Filter toolbar, select **Clear**, and then select **Confirm**.  
    >   -   To delete a row, select the **Options menu** button ![arrow&#95;down&#95;black.](../basics/media/arrow-down-black.gif "arrow_down_black") for that row, and then select **Delete**.  
 
     
-4.  To save the filter click **Save Default Filter**.  
+4.  To save the filter, click **Save Default Filter**.  
   
 
 
@@ -125,14 +126,14 @@ When a report is a [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-
 
    7.  To ungroup a group, select the **Options menu** button ![arrow&#95;down&#95;black.](../basics/media/arrow-down-black.gif "arrow_down_black") for that group, and then select **Ungroup**.  
 
-   8.  To change a **Group AN**D group to a  Group OR group, or a **Group OR** group to a **Group AND** group, click the **Options menu** button ![arrow&#95;down&#95;black.](../basics/media/arrow-down-black.gif "arrow_down_black") for that group, and then select **Change to OR** or **Change to AND**.  
+   8.  To change a **Group AND** group to a  Group OR group, or a **Group OR** group to a **Group AND** group, click the **Options menu** button ![arrow&#95;down&#95;black.](../basics/media/arrow-down-black.gif "arrow_down_black") for that group, and then select **Change to OR** or **Change to AND**.  
 
    > [!TIP]
    > - To clear all criteria and start over, on the Filter toolbar, select **Clear**, and then select **Confirm**.  
    >   -   To delete a row, select the **Options menu** button ![arrow&#95;down&#95;black.](../basics/media/arrow-down-black.gif "arrow_down_black") for that row, and then select **Delete**.  
 
     
-4.  To save the filter click **Save Default Filter**.  
+4.  To save the filter, click **Save Default Filter**.  
   
 
 

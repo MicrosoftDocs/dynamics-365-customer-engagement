@@ -1,11 +1,9 @@
 ---
 title: "Add an account with customer, location, and related details to a work order in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 06/25/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -100,7 +98,7 @@ Work order products and work order services will inherit the currency value note
 
 ## Create a work order for the service account
 
-Next, go to **Field Service** > **Work Orders** > +New**.
+Next, go to **Field Service** > **Work Orders** > **+New**.
 
 Add the account you created as the service account. 
 

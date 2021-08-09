@@ -1,9 +1,11 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to add a chat widget in Omnichannel for Customer Service."
+ms.date: 07/12/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.topic: article
 ---
 
 # Add a chat widget
@@ -33,7 +35,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
      - **Operation hours name**: Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
-   - **Only show widget on the provided domains:** Enter the link of the portal.
+   - **Only show widget on the provided domains**: Enter the link of the portal.
 7. On the **Behaviors** page, configure the following options:
    - [Custom automated messages](configure-automated-message.md)
    - [Pre-conversation survey](configure-pre-chat-survey.md)
@@ -52,8 +54,23 @@ Perform the following steps to configure chat in Omnichannel admin center:
    - **Co-browse**: Set the toggle to **On** and select a provider if you want the agents to see and interact with a customer's web browse.
 9. Select **Save and close**.
 
+### Configure customer notifications
+
+You can configure visual and sound notifications to be sent to customers when they're interacting with agents through the chat widget on your organization portal. If the chat window is minimized or isn't active, a sound notification is played when a message arrives and a count of the unread messages is displayed.
+
+Perform the following steps to enable the customer notifications:
+
+1. In Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
+2. For **Customer notifications**, set the toggle to **On**. The following checkboxes are displayed as selected:
+   - **Show number of new messages**
+   - **Play sound notifications for new messages**
+3. Keep the default settings or select one of them depending on your requirement.
+
+You can also configure the customer notifications when you're configuring the chat channel.
+
 ## Configure a chat widget in Omnichannel Administration
 
+The information in this section is not applicable if you are using the Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
 
 1. Sign in to Dynamics 365, and select Omnichannel Administration.
 
@@ -70,7 +87,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
     |  | **Agent display name** | Select an agent display name type from the list: **Full name**, **First name**, **Last name**, and **Nick name**. <br> More information: [Configure agent display name](agent-display-name.md) | Full name |
     |  | **Authentication settings** |Select an authentication setting from the list. This is an optional field. More information: [Create chat authentication settings](create-chat-auth-settings.md) | Chat authentication |
     |||
-    
+
 
     |Section | Field | Description | Example value |
     |--------|-------|-------------|-------------------------------|
@@ -80,7 +97,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
     | **Work distribution** | **Work stream** | Select a work stream from the list. Initially, a default a work stream is selected. <br>More information: [Understand and create work streams](create-workstreams.md) <br> **Note:** <br> If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. | Live work stream |
-    
+
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|    
     | **Proactive chat** | **Enable Proactive Chat** | Select whether to enable proactive chat. <br>More information: [Configure proactive chat](proactive-chat.md) | Yes |
@@ -119,7 +136,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
     | Pre-conversation survey | Pre-conversation survey | Select whether to set up a pre-chat survey in the chat widget. The survey will be shown to users before a conversation is initiated. | Yes |
-    | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you set **Yes** for the **Pre-conversation survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-conversation survey][(configure-pre-chat-survey.md)] | Product |
+    | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you set **Yes** for the **Pre-conversation survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-conversation survey](configure-pre-chat-survey.md) | Product |
     |Post-conversation survey| Turn on | If you set to **Yes**, you can configure a post-conversation survey to be presented to customers. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md) |
 
     > [!div class=mx-imgBorder]
@@ -169,21 +186,6 @@ Perform the following steps to configure chat in Omnichannel admin center:
 12. Select **Save** to save the configurations.
 
 After you configure, agents can get the capabilities while they are in a conversation. To learn more, see [Call options and visual engagement in live chat](call-options-visual-engagement.md).
-
-### Configure customer notifications
-
-You can configure visual and sound notifications to be sent to customers when they're interacting with agents through the chat widget on your organization portal. If the chat window is minimized or isn't active, a sound notification is played when a message arrives and a count of the unread messages is displayed.
-
-Perform the following steps to enable the customer notifications:
-
-1. In Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
-2. For **Customer notifications**, set the toggle to **On**. The following checkboxes are displayed as selected:
-   - **Show number of new messages**
-   - **Play sound notifications for new messages**
-3. Keep the default settings or select one of them depending on your requirement.
-
-You can also configure the customer notifications when you're configuring the chat channel.
-
 
 ### Troubleshooting
 

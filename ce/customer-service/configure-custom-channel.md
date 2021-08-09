@@ -1,11 +1,12 @@
 ---
-title: "Configure a custom channel, or bring your own channel | MicrosoftDocs"
+title: "Configure custom channel, or bring your own channel | MicrosoftDocs"
 description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
 ms.date: 04/09/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.custom: intro-internal
 ---
 
 # Configure a custom messaging channel, or bring your own channel
@@ -14,9 +15,9 @@ manager: shujoshi
 
 ## Overview
 
-As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. The custom channel feature lets you do this so you can engage with customers. Here are some of the messaging channel integrations that are supported:
+As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. The custom messaging channel capability lets you bring in your own channels, so you can engage better with customers. Here are some of the messaging channel integrations that are supported:
 
-- [Direct Line](#bring-channels-using-direct-line)
+- [Direct Line](bring-your-own-channel.md)
 - Telegram
 
 ### Value proposition
@@ -27,13 +28,11 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 - Create a single and unified agent experience in the Omnichannel for Customer Service app.
 
-## Prerequisites
+## Prerequisite
 
-- To enable the custom messaging channel and bring your own channel, you must have channels provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
+You must have channels provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
-
-
-## End-to-end walk-through
+## End-to-end walkthrough
 
 [Step 1: Register your messaging channel](#step-1-register-your-messaging-channel)
 
@@ -47,7 +46,7 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 To integrate your messaging channel with Omnichannel for Customer Service, register your channel in **Azure Bot Service**. To learn how to register, see [Register a bot with Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration).
 
-After you register, save the **Microsoft app ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel Administrator app.  To learn more, see [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
+After you register, save the **Microsoft App ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel admin center app.  To learn more, see [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
 
 ## Step 2: Add the messaging channel to bot channel registration
 
@@ -59,9 +58,9 @@ After you add the messaging channel to the Bot Channel registration in Azure Bot
 
 ### Create a workstream in Omnichannel admin center
 
-In Omnichannel admin center, perform the following steps to configure a workstream for the custom messaging channel:
+**To configure a workstream for custom messaging channel in Omnichannel admin center**
 
-1. [Create a workstream](create-workstreams.md).
+1. [Create a workstream](create-workstreams.md)
 2. [Configure work distribution](create-workstreams.md#configure-work-distribution)
 3. [Configure Advanced settings](create-workstreams.md#configure-advanced-settings)
 4. [Add a bot](create-workstreams.md#add-a-bot)
@@ -69,13 +68,13 @@ In Omnichannel admin center, perform the following steps to configure a workstre
 
 ### Create a workstream in Omnichannel Administration
 
-To create a custom channel work stream, use the following steps:
+**To create a workstream for custom channel in Omnichannel Administration**
 
 1. Sign in to Dynamics 365, and go to the Omnichannel Administration app.
 
 2. Select **Work Streams** under **Work Distribution Management**.
 
-3. Select **New** to create a new work stream.
+3. Select **New** to create a new workstream.
 
 4. Specify the values for the fields.
 
@@ -85,7 +84,7 @@ To create a custom channel work stream, use the following steps:
 
 You've created a workstream for the custom channel. To learn more, see [Create workstreams](create-workstreams.md).
 
-To configure other options in the work stream, see the following:
+To configure other options in the workstream, see the following:
 
 - [Skill-based routing](overview-skill-work-distribution.md)
 - [Productivity tools](../app-profile-manager/productivity-tools.md)
@@ -119,7 +118,7 @@ To configure other options in the work stream, see the following:
 
 ### Create a custom messaging account in Omnichannel Administration
 
-After you create a work stream for a custom channel, you need to create a custom channel with the details of the **Microsoft app ID** and **Client secret** that you retrieved while registering your messaging channel in Azure Bot Service.
+After you create a workstream for a custom channel, you need to create a custom channel with the details of the **Microsoft app ID** and **Client secret** that you retrieved while registering your messaging channel in Azure Bot Service.
 
 To create a custom channel, follow these steps:
 
@@ -161,7 +160,7 @@ To create a custom channel, follow these steps:
     | Details | Name | Specify a name for the custom channel | Contoso channel |
     | Details | Custom Messaging Account | The **Custom messaging account** field is populated. However, you can change the value using the lookup. | Contoso custom channel |
     | Details | Channel ID | Select a channel from the list. The list might contain line-of-business (in-house) messaging or another messaging channel. | Telegram |
-    | Work distribution | Work stream | Select a work stream from the lookup. | Contoso custom channel work stream |
+    | Work distribution | Work stream | Select a workstream from the lookup. | Contoso custom channel work stream |
 
     > [!Note]
     > A **Custom messaging account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom messaging account** because the Azure Bot Framework supports only one messaging account per App ID. For example, for **Contoso custom account**, you can't add two or more **Telegram** Channel IDs.
@@ -183,33 +182,26 @@ To create a custom channel, follow these steps:
 
 ## Test your channel
 
-For more information, see the developer guide, [Bring your own custom messaging channel: Test Client HTML](bring-your-own-channel-sample-html.md).
+For more information, see the developer guide, [Test your custom messaging channel: Test Client HTML](test-custom-channel-sample-html.md).
 
-## Bring channels using Direct Line
-
-If you want to help your customers using your line-of-business (in-house) messaging channels, you can use the Direct Line channel (Bot Framework method).
-
-The Bot Framework **Direct Line** channel helps you to integrate your line-of-business (in-house) messaging channels into the Omnichannel for Customer Service app.
-
-For more information, see the developer guide, [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md).
 
 ## Modify settings for a specific custom channel
 
-1. In the Omnichannel Administration app, go to **Custom** and select the custom channel you want to modify. 
+1. In the Omnichannel Administration app, go to **Custom** and select the custom channel you want to modify.
 
 2. On the **General settings** tab, provide the following information:
     
     - **Language**: Select the preferred language for your custom channel.
     
-    - **Work stream**: Select an existing work stream or create a new one.
+    - **Work stream**: Select an existing workstream or create a new one.
 
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**.
 
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**. 
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app sends the blob storage URL to the channel. Otherwise, set **No**.
     
-       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md). 
+       To learn more about attachments, see [Enable file attachments](enable-file-attachments.md).
        
-       To learn more about uploading media in Direct Line, see [Azure Bot Service documentation](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-send-activity?view=azure-bot-service-4.0). 
+       To learn more about uploading media in Direct Line, see [Azure Bot Service documentation](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-send-activity?view=azure-bot-service-4.0).
        
        To learn more about uploading media in Telegram, see the [Telegram Bot API](https://core.telegram.org/bots/api#available-types).
 
@@ -220,8 +212,8 @@ For more information, see the developer guide, [Bring your own custom messaging 
 ### See also
 
 [Extend Omnichannel for Customer Service](extend-omnichannel.md)  
-[Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)  
-[Test the custom messaging channel](bring-your-own-channel-sample-html.md)  
+[Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
+[Test the custom messaging channel](test-custom-channel-sample-html.md)  
 [Skill-based routing](overview-skill-work-distribution.md)  
 [Productivity tools](../app-profile-manager/productivity-tools.md)  
 [Smart assist](../app-profile-manager/smart-assist.md)  

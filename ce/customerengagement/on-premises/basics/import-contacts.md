@@ -1,5 +1,6 @@
 ---
-title: "Import contacts (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Import contacts into Dynamics 365 Customer Engagement (on-premises)"
+description: "Whether your contacts are stored in an email program, a spreadsheet, or on your phone, you can follow these steps to import the files."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 

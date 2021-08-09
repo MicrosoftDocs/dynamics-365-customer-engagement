@@ -1,3 +1,60 @@
+## 3.12.60.43 - 2021 wave 2 early access
+
+(Includes Resource Scheduling controls version 1.2.0.212086)
+
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 2](/dynamics365-release-plan/2021wave2/service/dynamics365-field-service/planned-features#resource-scheduling) new and updated features. 
+
+This release also includes the following changes that have the potential to change the existing system behavior or interface. 
+
+- Performance improvements are made when applying the work hours templates to the resource(s). 
+- Fixed a bug where the column headers and the columns were misaligned in the list view of the schedule board.
+- The tooltip of the **Default radius unit** field of the schedule assistant under Resource Scheduling's scheduling parameter is corrected to **Choose the unit to display the distance on the Schedule assistant experience". 
+- When we have the **Derive Capacity From Group Members** set to **Yes** in the **Scheduling Tab** of parent pool resource, any updates to a bookable resource group membership will trigger the deletion of all existing inner calendars of the parent resource and recreate them based on the child resource calendar. This recreation of the inner calendars happens even when we try to add a new child to the pool resource. This takes a lot of time, especially when the time period between the from and to dates is long. The longer the time period between from and to dates, the longer it takes to edit the bookable resource group and can cause the offline or timeout error after a certain threshold. Performance improvements are made by making the deletion of the inner calendars asynchronous. 
+
+## 3.12.49.18
+
+(Includes Resource Scheduling controls version 1.1.7.211681)
+
+- Booking work orders to a resource on the schedule board fails with a null reference error if **Auto Update Booking Travel** feature is not set to a value. This bug is now fixed.
+- Fixed a bug on the schedule assistant to calculate the right travel distance of the resource. 
+
+## 3.12.48.25
+
+(Includes Resource Scheduling controls version 1.1.7.211681)
+
+- Booking work orders to a resource on the schedule board fails with a null reference error if **Auto Update Booking Travel** feature is not set to a value. This bug is now fixed.
+- Fixed a bug on the schedule assistant to calculate the right travel distance of the resource. 
+- Fixed a bug where the schedule board does not load. 
+- Fixed a bug where the time zone of the resource was not rendered on the details panel, when a resource is selected. 
+
+## 3.12.47.108
+
+This release is a hotfix on Universal Resource Scheduling version [3.12.47.98](/dynamics365/common-scheduler/bug-fixes#3124798)
+
+- Fixed a bug where the schedule board does not load. 
+
+## 3.12.47.98
+
+This release is a hotfix on Universal Resource Scheduling version [3.12.47.98](/dynamics365/common-scheduler/bug-fixes#3124762)
+
+- Booking work orders to a resource on the schedule board fails with a null reference error if **Auto Update Booking Travel** feature is not set to a value. This bug is now fixed.
+
+## 3.12.47.62
+
+(Includes Resource Scheduling controls version 1.1.6.211322)
+
+- Fixed a bug where the schedule board does not load. 
+- Fixed an issue where work hours tab is removed from bookable resource form. 
+- When the setting **Auto Update Booking Travel** is disabled, some bookings **Modified On** columns are shown updated when a new booking is created during non working hours for a resource. This bug is now fixed.
+- When the field **Estimated Arrival Time** is hidden from the **Information** form of the bookable resource booking entity, updating the **Start time** of a booking record throws an error. This bug is now fixed. 
+- Fixed an issue: when two separate bookings in the schedule board were modified in quick succession, it could lead to an issue where duplicate calls were made for the same booking. This issue is now fixed. 
+
+## 3.12.46.64
+
+This release is a hotfix on Universal Resource Scheduling version [3.12.46.21](/dynamics365/common-scheduler/bug-fixes#3124621)
+
+- Fixed a bug where the schedule board does not load. 
+
 ## 3.12.46.21
 
 (Includes Resource Scheduling controls version 1.1.6.211322)

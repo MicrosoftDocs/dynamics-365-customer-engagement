@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing link tracking mechanics (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing link tracking mechanics in Dynamics 365 Marketing."
-ms.date: 04/30/2021
+ms.date: 08/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -19,11 +19,6 @@ search.app:
 ---
 
 # Real-time marketing link tracking mechanics
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
 When executing customer journeys, all relevant hyperlinks are replaced with trackable links. If the content of a message is HTML, we also create an invisible pixel inside the message body. The invisible pixel is necessary to determine whether a user clicked on a link or opened the message.
 

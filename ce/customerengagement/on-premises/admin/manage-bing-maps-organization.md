@@ -1,6 +1,6 @@
 ---
-title: "Manage Bing Maps for your Dynamics 365 for Customer Engagement apps organization | MicrosoftDocs"
-description: "Manage Bing Maps for your entire Dynamics 365 apps organization."
+title: "Manage Bing Maps in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to manage Bing Maps for your entire Customer Engagement apps organization. View contacts, leads, or accounts to see a map of a customer's location."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

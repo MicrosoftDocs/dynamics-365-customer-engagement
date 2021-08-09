@@ -1,5 +1,6 @@
 ---
-title: "Download a report (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Download reports from Dynamics 365 Customer Engagement (on-premises)"
+description: "To edit a default report, download the report to a computer that's set up with the report development environment, and then make the necessary changes."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 

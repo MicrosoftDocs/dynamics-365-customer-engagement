@@ -1,5 +1,6 @@
 ---
-title: "Administrator reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "User summary reports in Dynamics 365 Customer Engagement (on-premises)"
+description: "Keep user information up to date by running a user summary report. Get a list of all your users, including contact info and security role in Dynamics 365."
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -18,7 +19,7 @@ search.audienceType:
   - enduser
 
 ---
-# Reports for customer service insights
+# Reports for user summaries
 
 Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. 
 

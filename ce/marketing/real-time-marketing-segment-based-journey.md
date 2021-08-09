@@ -1,7 +1,7 @@
 ---
 title: "Create a segment-based journey (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a real-time marketing segment-based journey in Dynamics 365 Marketing."
-ms.date: 04/30/2021
+ms.date: 08/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -19,11 +19,6 @@ search.app:
 ---
 
 # Create a segment-based journey
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
 You can use segment-based journeys to create outbound journeys like sending out announcements or a nurture campaign. To create journeys that can react to customers' actions in real time, see [Create an event-based journey](real-time-marketing-event-based-journey.md).
 

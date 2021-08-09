@@ -5,9 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.topic: overview
-ms.custom: 
-  - template-overview
+ms.topic: article
+ms.custom: intro-internal
 ---
 
 # Overview of productivity tools
@@ -40,7 +39,7 @@ The smart assist feature can be enabled across all channels like Chat for Dynami
 
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)  
-[Smart assist] (smart-assist.md)  
+[Smart assist](smart-assist.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

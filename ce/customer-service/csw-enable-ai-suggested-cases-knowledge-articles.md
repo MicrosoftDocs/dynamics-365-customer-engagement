@@ -13,6 +13,7 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -24,10 +25,10 @@ With the use of AI, suggestions about similar cases that were previously resolve
 
 The key highlights of the feature are as follows:
 
-- AI-driven case and knowledge articles suggestions based on case context and historical success rate.
-- Secondary actions that agents can take, such as collaborate with an expert, after a similar case has been found.
-- Capability of the AI model to process up to one million most recent cases for listing them at run time.
-- Continuous improvement of the recommendation model through comprehensive feedback mechanism.
+- AI-driven case and knowledge article suggestions that are based on case context and historical success rate.
+- Secondary actions that agents can take, such as collaborating with an expert, after a similar case has been found.
+- Capability of the AI model to process up to one million of the most recent cases for listing them at runtime.
+- Continuous improvement of the recommendation model through a comprehensive feedback mechanism.
 
 > [!NOTE]
 > The AI suggestions feature is currently available in few geographical locations. More information, see: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
@@ -35,21 +36,21 @@ The key highlights of the feature are as follows:
 
 ## How AI suggestions for similar cases and knowledge articles works
 
-The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to agents, helping agents take actions during their interactions with customers. After the productivity pane is enabled in Customer Service workspace or the Omnichannel for Customer Service app, the smart assist cards with suggestions appear on the productivity pane.
+The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to agents, helping agents take action during their interactions with customers. After the productivity pane is enabled in Customer Service workspace or the Omnichannel for Customer Service app, the smart assist cards with suggestions appear on the productivity pane.
 
 The AI suggestions are powered by a set of pre-trained natural language understanding models that help agents find relevant knowledge articles or similar cases quickly, based on the context of active cases or ongoing conversations. The AI models work as follows:
 
 - Knowledge articles and similar cases can be suggested based on the semantic meaning in case context and knowledge article content.
-- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time pre-processing, up to 1,500 published articles and 10,000 recently resolved cases will be processes. Subsequently, newly published articles and resolved cases will be processed. Up to 1 million of latest resolved cases will be processed to serve suggestions.
+- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time pre-processing, up to 1,500 published articles and 10,000 recently resolved cases will be processed. Subsequently, newly published articles and resolved cases will be processed. Up to 1 million of the latest resolved cases will be processed to serve suggestions.
 - After a case is created or updated, or during an ongoing conversation, the model finds out matching knowledge articles and similar cases from suggestion candidates.
-- A brief summary is auto-generated for each pre-processed knowledge article based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before agent clicks through it.
-- In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlights the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
+- A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before they click through it.
+- In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlight the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
 - The feedback provided by agents on the relevance of the similar cases and knowledge articles suggestions is used by the AI model to retrain and improve the suggestions over time.
 
 > [!NOTE]
 >
 > - After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup.
-> - After you enable or disable the settings, they will be in place only after agents refresh or reopen their browser and not in the currently active sessions nor on session switch.
+> - After you enable or disable the settings, they'll be in place only after agents refresh or reopen their browser; they won't appear in the currently active sessions nor on session switch.
 
 ## Language support for AI suggestions
 
@@ -67,13 +68,13 @@ After an agent opens a case or accepts a conversation, smart assist checks the l
 
 - If the language selected in the language settings is supported or not.
 
-- If the language that the AI has detected in the case or conversation that the agent accepts matches the language settings. 
+- If the language that the AI has detected in the case or conversation that the agent accepts matches the language settings.
 
 If the language verification passes, the suggestions are displayed in the language used in the case or the conversation. Suggestions aren't displayed if the language doesn't match or isn't supported. In such cases, the agent should update the settings to use supported languages. The language settings used in AI suggestions are listed as follows:
 
 - For similar case suggestions, the language selected in the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions.
 
-- For knowledge article suggestions, smart assist first checks for the language that is set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display knowledge article suggestions. More information, see [Search for knowledge articles](search-knowledge-articles-csh.md#personalize-your-knowledge-search-article-filters).
+- For knowledge article suggestions, smart assist first checks for the language that's set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display knowledge article suggestions. More information, see [Search for knowledge articles](search-knowledge-articles-csh.md#personalize-your-knowledge-search-article-filters).
 
 ## Prerequisites
 
@@ -83,7 +84,7 @@ Make sure that the following requirements are met:
 - The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane).
 - The System Administrator role is granted.
 - The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
-- If administration mode is enabled, make sure that background operations are also enabled. For more info about administration mode and how to enable background operations, see [Administration Mode](/power-platform/admin/admin-mode). 
+- If administration mode is enabled, make sure that background operations are also enabled. More information: [Administration Mode](/power-platform/admin/admin-mode).
 
 
 
@@ -95,11 +96,11 @@ Perform the following steps to enable the AI suggestions for similar cases:
 
 or
 
-Sign in to Omnichannel Admin Centre application. Select **Insights** and then select **Settings**.
+Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
 
-2. Select **Manage** and then **Suggestions**. The **Suggestions** page appears.
-3. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
-4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
+2. Select **Manage** > **Suggestions**. The **Suggestions** page appears.
+3. In the **Settings** > **Summary** area, turn on the **Enable similar case suggestions** toggle.
+4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you don't want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
 
    > [!NOTE]
    > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
@@ -116,22 +117,22 @@ Perform the following steps to enable the AI suggestions for related knowledge a
 
  or
 
- Sign in to Omnichannel Admin Centre application. Select **Insights** and then select **Settings**.
+ Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
 
 2. Select **Manage** and then **Suggestions**. The **Suggestions** page appears.
-3. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
-4. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
+3. In the **Settings** > **Summary** area, turn on the **Enable knowledge article suggestions** toggle.
+4. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in the **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that's displayed to the agent at runtime.
 
 5. Select **Save**.
 
 ## Model pre-processing status
 
-The **Model pre-processing status** area displays the following metadata pertaining to the AI processing. The run frequency is set out of the box. Every day, the model pre-processes newly published or updated knowledge articles and resolved or updated cases to prepare the candidates data for suggestions.
+The **Model pre-processing status** area displays the following metadata pertaining to the AI processing. The run frequency is set out of the box. Every day, the model pre-processes newly published or updated knowledge articles and resolved or updated cases to prepare the candidates for suggestions.
 
-- **Last successful run:** Displays the date and time the model was last run.
-- **Case records:** Displays the number of new or updated resolved case records that were processed.
-- **Knowledge articles:** Displays the number of new or updated published knowledge articles that were processed.
-- **Run frequency:** Display the frequency that is set for the model to run.
+- **Last successful run**: Displays the date and time the model was last run.
+- **Case records**: Displays the number of new or updated resolved case records that were processed.
+- **Knowledge articles**: Displays the number of new or updated published knowledge articles that were processed.
+- **Run frequency**: Displays the frequency that has been set for the model to run.
 
 ### Workflow processes
 
@@ -154,14 +155,15 @@ The AI model and AI configuration entities use the following workflow processes.
 
 ## Service protection limits for AI suggestions
 
-AI suggestions for Case and Knowledge became available as of Oct, 2020. We're introducing service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there is no penalty if customers exceed pre-defined limits. Over time, Microsoft may adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios/patterns to purchase additional capacity in a manner minimally disruptive to those customers. 
+AI suggestions for Case and Knowledge became available as of October 2020. We're introducing service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there's no penalty if customers exceed predefined limits. Over time, Microsoft might adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios and patterns to purchase additional capacity in a manner minimally disruptive to those customers.
 
 The service protection limits for AI suggestions are defined in the following table. The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
 
 | Area    | Limits     | Notes     |
 |----------|------------|-----------|
-| AI suggestions for active cases | 30 cases/month per user license | Each user license adds 30 active cases, where agents can get AI-suggested knowledge articles and similar cases in real-time. |
-| AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 Omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real-time.  |
+| AI suggestions for active cases | 30 cases/month per user license | Each user license adds 30 active cases, where agents can get AI-suggested knowledge articles and similar cases in real time. |
+| AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real time.|
+||||
 
 ### See also
 

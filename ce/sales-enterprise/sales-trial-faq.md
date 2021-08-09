@@ -43,7 +43,7 @@ The trial comes with product tours and videos, highlighting the important scenar
 
 **Play around with the mobile app**
 
-Install the Sales mobile app and explore the functionalities that you can access on the move. Open the **Get started** page and scroll down to the **Take it to go** section to download the app. For more information on using the app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md).
+Install the Sales mobile app and explore the functionalities that you can access on the move. Open the **Get started** page and scroll down to the **Take it to go** section to download the app. For more information on using the app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md). If you run into issues, see [What should I do if I don't see any apps in the mobile app](#what-should-i-do-if-i-dont-see-any-apps-in-the-mobile-app). 
 
 **Deep dive into more scenarios**
 
@@ -51,7 +51,7 @@ If you want to test scenarios beyond the ones covered in the product tour, go ah
 
 ### What features are available in the trial?
 
-The environment you receive in trial is a fully functional, Dynamics 365 Sales Premium environment with the following licenses and capabilities pre-installed:  
+Your trial includes a simplified Sales Trial app with a few important capabilities to get you started quickly. However, you can access the fully functional, Dynamics 365 Sales Premium environment with the following licenses and capabilities pre-installed:
 
 **Dynamics 365 Sales Enterprise**
 - Manage sales pipeline from lead to cash
@@ -59,19 +59,38 @@ The environment you receive in trial is a fully functional, Dynamics 365 Sales P
 - Manage products, goals, playbooks
 - Enable seamless collaboration by integrating Dynamics 365 with Microsoft Teams
 
+To get started with the Sales Enterprise functionalities, see [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
+
 **Dynamics 365 Sales Insights**
+
 - Sell smartly using Sales accelerator that builds a strong and prioritized pipeline, offers context, and surfaces automated recommendations
 - Improve seller coaching and sales potential with conversation intelligence
 - Get the AI-powered assistant to stay on top of your activities – do we need ‘your’ in other bullets we are not using it
 - Prioritize leads and opportunities using predictive scoring
 - Analyze revenue outcome by using predictive forecasting
 
-**Dynamics 365 Power Platform**
-- Administer and customize your Dynamics 365 Sales environment to fit your needs
+To get started with the Sales Insights functionalities, see [Sales Insights Add-in for Dynamics 365 Sales Help & Training](/ai/sales/help-hub). To enable Sales Insights, see [Enable and configure standard Sales Insights features](/ai/sales/intro-admin-guide-sales-insights#enable-and-configure-standard-sales-insights-features).
 
 > [!NOTE]
 > Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
 
+**Dynamics 365 Power Platform**
+- Administer and customize your Dynamics 365 Sales environment to fit your needs  
+
+### What should I do if I don't see any apps in the mobile app
+
+When you log into the Dynamics 365 mobile app for the first time, you might encounter the following message:
+
+```You currently have no apps```
+
+**To view your trial apps,**
+
+1. Select your avatar on the mobile app and select **Settings**.  
+
+1. Enable the **Show non-production apps** option.  
+    You can now see all the apps that you've access to. 
+1. Select **Sales trial** to log into your trial. 
+ 
 ### Why is the sample data not available to all trial users?
 
 Sample data related to forecasting and Sales accelerator are only available to the user who signed up for the trial. 
