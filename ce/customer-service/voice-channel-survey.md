@@ -32,11 +32,22 @@ Post call surveys help measure customer satisfaction in the contact center.  Su
     If customer says yes, the agent transfers the call to the survey bot manually
 
 
+## Prerequisites
 
+
+
+
+## Step 1: Create a survey bot
+Use either Power Virtual Agent (No code or low code experience) or Azure bot Service (pro developer experience)
+
+### Power Virtual Agent examples
+
+#### Implicit survey
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-implicit.png)
 
+#### Explicit survey
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-explicit1.png)
@@ -45,42 +56,43 @@ Post call surveys help measure customer satisfaction in the contact center.  Su
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-survey-pva-explicit2.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-survey-pva-agent-initiated1.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-survey-pva-agent-initiated2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-survey-pva-agent-initiated-greeting.png)
-
-## Prerequisites
-> [!Note]
->
-
-
-
-## Create a survey bot
-Use either PVA (No code or low code experience) or Azure bot Service (pro developer experience)
-
-### Power Virtual Agent example
-
-
 > [!TIP] 
 > The bot author can use Power Automate to implement custom business logic to decide who gets surveyed (e.g. random %, VIP customers etc.)
 
 
 
-## Connect your bot to Omnichannel
+## Step 2: Connect your bot to Omnichannel
 
 1. PVA: https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel, https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot
 2. Azure bot: https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot 
 
-## Enable Post-call survey in workstream phone number
+## Step 3: Enable Post-call survey in workstream phone number
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-post-call-survey-toggle.png)
+
+> [!Note]
+> Enabling Post call survey is not required for the agent initiated scenario.
+
+## Agent initiated survey
+
+Create a Queue where the onyl agent is the bot user.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-agent-initiated1.png)
+
+Transfer the call to the survey queue.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-agent-initiated2.png)
+
+When answered this will send the user to the greeting topic of the bot.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-survey-pva-agent-initiated-greeting.png)
 
 ## Configuration considerations
 
-recommendation would be for a customer to have 2 bots if they want to use PVA for both IVR and Survey
+It is recommended to have 2 bots if your organization wants to use Power Virtual Agent for both IVR and survey scenarios.
