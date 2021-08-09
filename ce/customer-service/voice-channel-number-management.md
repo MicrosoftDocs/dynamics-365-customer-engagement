@@ -22,15 +22,15 @@ Video 3: https://msit.microsoftstream.com/video/8bfc99ff-0300-b561-3feb-f1ebe379
 
 # Number management
 
-Omnichannel for Customer Services helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics. As an administrator, you can purchase phone numbers, select the right plan for your organization, decide whether you want to avail call and/or SMS services, or whether you'd like to set up inbound or outbound calling options, for your business.
+Omnichannel for Customer Services helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics 365. As an administrator, you can purchase phone numbers and call plans, decide whether you want to avail call and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
 
 ## Use number included with the Voice Channel
 
 The Voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services.
-However, after the 60 minutes of free calling time elapses, you must purchase a new number. You cannot, however, purchase the trial number.
+However, after the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot purchase the trial number.
 ## Prerequisites
-- A valid Azure subscription
 
+- A valid Azure subscription
 
 ## Create a new phone number
 
@@ -66,9 +66,9 @@ To add new phone numbers to your business, you must do the following:
 8. In **Location**, select the area code from the **Area** dropdown list. Then, select **Find numbers** to search for available numbers in your area.
    A summary page with the new phone number and its details is displayed.
 
-9. Select **Purchase phone number**. Your new phone number will be displayed after purchase. 
+9. Select **Purchase phone number**. Your new phone number will be displayed after purchase.
 
-11. After you select to purchase a phone number, you can Select Close
+10. After you select to purchase a phone number, you can select Close
 
 
 
@@ -96,18 +96,22 @@ Otherwise, select the [**Use existing resource**](#use-existing-resource) option
 
 ### Create a new resource
 
-
 **To create a new resource**
 
 1. Open Omnichannel admin center. Under **General Settings**, select **Phone numbers**, and then select **Get started**.
    The **Connect to Azure Communication Services** dialog opens.
 
-2. Select **Create new resource** or **Use existing resource**,
+2. Select **Create new resource** or **Use existing resource**.
 
-2. Select **Create new resource** and enter the following details:
+3. If you selected **Create new resource**, enter the following details:
    - Azure subscription: .
    - Azure resource group:
    - Resource name
+
+4.
+
+5.
+
 
 
 > [!div class="mx-imgBorder"]
@@ -127,7 +131,6 @@ Otherwise, select the [**Use existing resource**](#use-existing-resource) option
 Say, you already have an Azure Communication Services resource that you'd like to use to connect with voice or SMS, you can use the **Use existing resource** option to connect to Azure Communication Services. Also, if you had previously unlinked a resource and wish to use it now, you can do so using this option. You can use an existing resource from any of your Azure subscriptions, available under *any* tenant. 
 
 Before you proceed with adding an existing resource to Azure Communication Services, open your existing resource from the Azure portal in a new window or tab.  Select **Settings** > **Properties**, and get ready to copy the resource values (using the Copy to clipboard button) from this resource to Omnichannel admin center.
-
 
 **To use an existing resource**
 
@@ -149,7 +152,7 @@ Before you proceed with adding an existing resource to Azure Communication Servi
 
 
 
-### Add a number 
+### Add a phone number 
 
 Features
 
@@ -168,11 +171,15 @@ Summary
 Purchase Number
 
 
-## Add a number to a workstream
+## Add a phone number to a workstream
+
+You can associate a phone number with one workstream. 
+
+**To add a workstream to a phone number**
 
 ## Edit a number
 
-Select a number, click on Edit, upgrade a plan
+Select a phone number, click on Edit, upgrade a plan
 
 Reasons to upgrade:
 - enable Outbound
