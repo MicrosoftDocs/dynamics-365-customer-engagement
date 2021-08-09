@@ -83,7 +83,7 @@ Do the following to configure a machine learning-based ruleset:
 3. In **Conditions**, define the set of conditions.
 4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met. 
    > [!NOTE]
-   > Make sure that you don't select the **Default messaging queue** or **Default entity queue** in the list.
+   > Make sure that you don't select the **Default messaging queue** or **Default entity queue** in the list. More information: [Default queues in Omnichannel for Customer Service](queues-omnichannel.md#default-queues)
 
    ![Configure route to queue decision rules.](media/ur-route-to-queue-decision.png "Configure route to queue decision rules")
 

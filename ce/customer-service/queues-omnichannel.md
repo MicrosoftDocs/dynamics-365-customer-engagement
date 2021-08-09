@@ -52,7 +52,7 @@ In this section, we cover information on how to create a queue and set operating
     2. In the **Create a queue** dialog box, enter the following:
        - **Name**: A name for the queue.
        - **Type**: Select **Messaging** or **Record**.
-       - **Group number**: A number to organize the queue. 
+       - **Group number**: A number to organize the queue.
     3. Select **Create**. The queue that you created is displayed.
      
        > [!div class=mx-imgBorder]
@@ -75,18 +75,18 @@ You can manage the queues on the **Queues** page.
 
 - Select a queue on the **Queues** page, select **Copy** on the command menu, and then select **Copy** in the *<queue_name>* dialog box. The queue is copied and inherits the settings of the queue you copied from, including its name, prefixed with **Copy of**.
 
-### Default queues in Omnichannel for Customer Service
+### Default queues in Omnichannel for Customer Service<a name="default-queues"></a>
 
 Out of the box, the following default queues are available in Omnichannel for Customer Service:
 
 - **Default entity queue**: The queue that is available for routing entity records.
-- **Default messaging queue**: The queue that is available for routing all messaging conversations pertaining to the live chat, SMS, and social channels.
+- **Default messaging queue**: The queue that is available for routing all messaging conversations pertaining to the live chat, SMS, Microsoft Teams, and social channels.
 
 Work is routed to the default queues that act as a safety net in the following scenarios:
 
 - Work item encounters an error during classification
-- Work item encounters an error when running a route to queue rule
-- Work item does not match any route to queue rules
+- Work item encounters an error when running a route-to-queue rule
+- Work item does not match any route-to-queue rules
 
 > [!NOTE]
 > When you configure route to queues for work classification, we recommend that you don't select the default queues.
