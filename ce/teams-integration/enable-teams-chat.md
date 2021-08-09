@@ -10,8 +10,7 @@ manager: shujoshi
 ---
 # Admin: Enable or disable Teams chat in Dynamics 365 (preview)
 
-Enable the preview to help your users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application. This feature requires certain permissions to access Teams data. Review the [Permissions required](#permissions-required) and [Data security and privacy](#data-security-and-privacy) sections to know more.
-Access <a href="https://www.microsoft.com/en-in/download/default.aspx" target="_blank">Download Center</a> for more information.
+Enable the preview to help your users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application. This feature requires certain permissions to access Microsoft Teams data. Review the [Permissions required](#permissions-required) and [Data security and privacy](#data-security-and-privacy) sections to know more.
 
 ## Access Teams Chat and collaborate settings in Dynamics 365
 
@@ -64,19 +63,19 @@ The preview is now enabled for all the customer engagement apps. You can open a 
 
 As a tenant administrator, when you enable this feature, you agree to give the following permissions to the app:
 
-| **Permission**     | **What the app does with the permission?**                                                                                                                              |
+| **Permission**     | **What the app does with the permission**                                                                                                                              |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Chat.ReadWrite.All | Reads user's chats and recent messages to display in chat list.                                                                                                         |
 | Directory.Read.All | Reads user's teams and channels display name.                                                                                                                           |
 | Presence.Read.All  | Reads presence information of all users to be displayed on the user avatars in chat list.                                                                               |
-| User.Read.All      | Reads users' display name and licenses to validate if the suggested participants have a Teams license assigned. This is used by the suggested section in the chat list. |
+| User.Read.All      | Reads display name and licenses of users to validate if the suggested participants have a Teams license assigned. This is used by the suggested section in the chat list. |
 | User.ReadBasic.All | Reads users' photos.                                                                                                                                                  |
 
 ## Data security and privacy
 
 The following data security and privacy considerations apply for the Teams chat functionality in Dynamics 365:
 
-- Dynamics 365 doesn't store any of the Teams data, except for the mapping between the record id and linked chat id. No data from Teams is duplicated in Dynamics 365, unless the user manually adds them to the record notes or tasks.
+- Dynamics 365 doesn't store any of the Teams data, except for the mapping between the record ID and linked chat ID. No data from Teams is duplicated in Dynamics 365, unless the user manually adds them to the record notes or tasks.
 
 - The communication between the applications is secured through TLS.
 
