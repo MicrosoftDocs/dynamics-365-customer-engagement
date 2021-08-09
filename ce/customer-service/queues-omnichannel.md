@@ -96,7 +96,7 @@ The default queues can't be edited or deleted. All Omnichannel for Customer Serv
 ### See also
 
 [Create workstreams for unified routing](create-workstreams.md)  
-[Create and manage assignment methods](assignment-methods.md#create-an-assignment-method)  
+[Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  
 [Create and manage operating hours](create-operating-hours.md)  
 
 
