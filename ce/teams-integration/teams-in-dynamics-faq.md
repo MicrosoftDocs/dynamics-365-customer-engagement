@@ -14,7 +14,7 @@ manager: shujoshi
 
 The tenant admin will be required to provide the initial consent for the integration. After the tenant admin provides the consent, a system administrator can enable the integration at the instance-level.
 
-## What happens when consent is provided?
+## What happens when the consent is provided?
 
 When the tenant admin provides the consent, an enterprise application called **Dynamics 365 Microsoft Teams Collaboration Integration** is created in Azure AD and permissions are given to the enterprise application. Also a flag is set internally in Dynamics 365 to indicate that the feature is enabled. This flag controls the UI behavior, such as displaying the **Collaborate** menu in the command bar.
 
@@ -30,7 +30,7 @@ No. After the tenant admin provides the consent, a Dynamics 365 system administr
 
 You must be a global admin to provide the consent.
 
-## What privileges are being provided to the enterprise application, what type of permissions and why are they needed?
+## What are the privileges and type of permissions required by the integration?
   
 | **Permission**      | **Type**    | **What the app does with the permission**                                                                                                                                                                                                                                                                            |
 |---------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ You must be a global admin to provide the consent.
 No other Office services are affected as Teams is managing these services on its own.
 Therefore, they don’t need explicit consent.
 
-## Will the integration in any way impact security constraints or configuration in Dynamics? Is there a risk that linking a chat or channel to a Dynamics record will open up access to Dynamics data to all members of that chat or channel?  
+## Will the integration in any way impact security constraints or configuration in Dynamics 365 and Teams?  
 
 No. The integration is developed with the core principle of not violating security in any direction. Linking a chat or channel does not automatically grant participants of those chats or channels access to that Dynamics record.  Dynamics security roles & permissions will supersede any membership of a linked chat or channel. Similarly, the user trying to create a Team and/or channel from the **Collaborate** experience in Dynamics 365 must have Teams permissions to do so.
 
