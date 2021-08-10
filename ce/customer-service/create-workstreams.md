@@ -30,26 +30,31 @@ The workstream can be one of the following types:
 
 ## Create a workstream
 
-While you can create the workstreams for unified routing in the Omnichannel admin center and Customer Service Hub apps, this topic covers the steps for Omnichannel admin center.
+You can create workstreams for unified routing in the Omnichannel admin center and Customer Service Hub apps.
 
 Perform the following steps:
 
-1. In Omnichannel admin center, in the site map, select **Workstreams** under **General settings**, and then select **New**.
+1. In Omnichannel admin center, in the site map, select **Workstreams** under **General settings**. In Customer Service Hub, in the site map, select **Workstreams** under **Unified Routing**.
 
-2. In the **Create a workstream** dialog box, enter the following details:
+2. Select **New**.
+
+3. In the **Create a workstream** dialog box, enter the following details:
 
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
     - **Work distribution mode**: Select **Push** or **Pick**.
+         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up.
+         - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
     - **Type**: Select one of the following types:
-      - **Messaging**: To configure the workstream for chat and other conversation channels.
-      - **Record**: To configure the workstream for entity record, such as case and email activity.
+         - **Messaging**: To configure the workstream for chat and other conversation channels.
+         - **Record**: To configure the workstream for entity record, such as case and email activity.
     - **Channel**: This box appears if you have selected the type as **Messaging**. Select a channel from the list.
     - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md).
 
-3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
+4. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
     > ![Set up a channel.](media/set-up-chat.png "Set up a channel")
-4. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
+
+5. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
    - [Configure a Facebook channel](configure-facebook-channel.md)
    - [Configure a WeChat instance](configure-wechat-channel.md)

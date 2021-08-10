@@ -14,11 +14,12 @@ manager: shujoshi
 
 You can configure routing for records in Customer Service Hub, Omnichannel admin center, or Omnichannel Administration. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
 
-If you have only Customer Service, the options to configure unified routing is available only after you enable unified routing in service configuration settings.
+If you have only Dynamics 365 Customer Service, the options to configure unified routing is available only after you enable unified routing in service configuration settings.
 
 > [!IMPORTANT]
 > 
-> - Once you enable the unified routing feature in the configuration settings, you can't disable it. You'll need to contact Microsoft Support to disable the feature.
+> - After you enable the unified routing feature in **Service Configuration Settings**, you can't disable it. You'll need to contact Microsoft Support to disable the feature.
+> - Provisioning unified routing might impact runtime operations on account of solution import that can impact SQL load.
 > - If you are upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in Omnichannel admin center.
 
 ## Prerequisites
@@ -49,16 +50,16 @@ To provision unified routing in Customer Service, do the following:
 
    - A message that unified routing is being provisioned.
 
-   If Omnichannel for Customer Service is available but not provisioned or upgraded to the latest release, one of the following messages will be displayed above the **Turn on unified routing** toggle:
+   If Omnichannel for Customer Service doesn't have the required solutions, one of the following messages will be displayed above the **Turn on unified routing** toggle:
 
    - "Some required services need to be installed before unified routing can be turned on. Please contact Microsoft Support."
    - "Before unified routing can be turned on, Omnichannel needs to be updated. Please contact Microsoft Support."
 
-After unified routing is provisioned, for Customer Service users, the site map is updated with the **Unified Routing** area.
-
-However, the site map will also be updated with the **Unified Routing** area for users of Customer Service and Omnichannel for Customer Service if you install or upgrade Omnichannel for Customer Service.
+After unified routing is provisioned, for Customer Service users, **Unified Routing** appears in the site map.
 
 > ![Site map view for unified routing.](media/unified-routing-site-map.png)
+
+The site map will also be updated with **Unified Routing** for users of Customer Service and Omnichannel for Customer Service if you install or upgrade Omnichannel for Customer Service.
 
 ## Configure unified routing for records
 
@@ -80,10 +81,10 @@ Perform the following steps to configure record routing:
 
 To configure a workstream for the record, do the following:
 
-1. In the Customer Service Hub app, in the **Service Management** change area, on the site map, select **Workstream** under **Unified Routing**, and then select **New**. If you're using Omnichannel admin center, on the site map, select **Workstreams** under **General settings**.
+1. In the Customer Service Hub app, in **Service Management**, on the site map, select **Workstream** under **Unified Routing**, and then select **New**. If you're using Omnichannel admin center, on the site map, select **Workstreams** under **General settings**.
 
-2. In the **Create a workstream** dialog box, enter the following details:
-    - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
+2. In the **Create a workstream** dialog, enter the following details:
+    - **Name**: Enter an intuitive name, such as **Contoso case workstream**.
     - **Work distribution mode**: Select **Push** or **Pick**.
     - **Type**: Select **Record**.
     - **Record type**: Select a record from the list.
