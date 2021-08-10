@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Enable the preview for the deal manager workspace 
+# Preview: Enable the deal manager workspace 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -69,5 +69,5 @@ The deal manager workspace is now available to administrators and the roles you 
 
 ### See also
 
-- [Grant access to deal manager (Preview)](grant-access-deal-manager.md)
-- [Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)
+- [Grant access to deal manager](grant-access-deal-manager.md)
+- [Using the deal manager workspace](deal-manager-seller-overview.md)

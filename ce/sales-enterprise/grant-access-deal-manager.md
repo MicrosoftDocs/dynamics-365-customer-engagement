@@ -1,6 +1,6 @@
 ---
 title: "Grant or restrict access to deal manager - Sales Enterprise | MicrosoftDocs"
-description: "As an administrator, grant deal manager accesss to specific security roles or to all security roles."
+description: "As an administrator, grant deal manager access to specific security roles or to all security roles."
 ms.date: 08/10/2021
 ms.topic: article
 author: lavanyakr01
@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Grant access to deal manager (preview)
+# Preview: Grant access to deal manager
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

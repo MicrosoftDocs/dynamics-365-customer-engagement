@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Customize the deal manager workspace (preview)
+# Preview: Customize the deal manager workspace
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -140,6 +140,6 @@ The following table lists the supported and unsupported customizations for side 
   
 ### See also
 
-- [Access the deal manager workspace (preview)](access-deal-manager.md)  
-- [Using the deal manager workspace (preview)](deal-manager-seller-overview.md)  
+- [Access the deal manager workspace](access-deal-manager.md)  
+- [Using the deal manager workspace](deal-manager-seller-overview.md)  
 - [Issue: In Context Form may appear in the form selector](ts-oqoi.md#issue-in-context-form-may-appear-in-the-form-selector)

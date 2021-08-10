@@ -16,7 +16,7 @@ This article helps you troubleshoot and resolve common issues across multiple en
 
 The **In Context Form** is used for displaying and customizing the side panel in deal manager, and in the new interface for contacts, opportunities, leads, and accounts.  
 
-If your environment has any customizations that sets the **formActivationState** to **Active** for these tables, the **In Context Form** appears in the form selector dropdown and lets users select this form for viewing the record details. 
+If your environment has any customization that sets the **formActivationState** to **Active** for these tables, the **In Context Form** appears in the form selector dropdown and lets users select this form for viewing the record details. 
 
 :::image type="content" source="media/form-selector.PNG" alt-text="Form selector showing incontext form":::
 
