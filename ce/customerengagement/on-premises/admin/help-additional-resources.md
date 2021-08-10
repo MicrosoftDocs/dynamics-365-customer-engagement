@@ -1,6 +1,6 @@
 ---
-title: "Help and additional resources  | MicrosoftDocs"
-description: "Information about covering planning, operating, and using Dynamics 365 Customer Engagement (on-premises)."
+title: "Help resources for Dynamics 365 Customer Engagement (on-premises)"
+description: "Search the Support Blog, CRM Forum, or Microsoft Knowledge Base to find resources for help when using Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Help and additional resources
 
-There are several resources available to you covering planning, operating, and using Dynamics 365 Customer Engagement (on-premises).  
+There are several resources available to you that cover planning, operating, and using Dynamics 365 Customer Engagement (on-premises).  
 
   
 ## Self-service help resources  
