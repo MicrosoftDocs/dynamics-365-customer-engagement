@@ -10,6 +10,8 @@ manager: shujoshi
 
 # Create and manage capacity profiles
 
+## Introduction
+
 You can create capacity profiles to define the types and amount of work that agents can take. Capacity profiles improve efficiency in work distribution.
 
 - Capacity management helps administrators create various capacity profiles and associate users with the matching profiles.
