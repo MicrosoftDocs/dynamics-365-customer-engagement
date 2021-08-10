@@ -20,6 +20,8 @@ As a Dynamics 365 customer engagement app user, you can start or link chat conve
 
 Open any Dynamics 365 customer engagement record and select the **Teams chats and channels integration** icon :::image type="icon" source="media/teams-icon.png" border="false":::.
 
+:::image type="content" source="media/teams-chat-dynamics365-view.PNG" alt-text="Screenshot of the Teams collaboration panel for a selected opportunity":::
+
 The **Teams chats (preview)** panel opens with the following sections in the **Chat** tab:
 
 - **Chats linked to this *record***

@@ -12,23 +12,23 @@ manager: shujoshi
 
 ## When is the tenant admin required?
 
-The tenant admin will be required to provide the initial consent for the integration. After the tenant admin provides the consent, a system administrator can enable the integration at the instance-level.
+The tenant admin will be required to provide the initial consent for the integration. After the tenant admin provides the consent, an application administrator can enable the integration at the instance-level.
 
-## What happens when the consent is provided?
+## Which tenant admin role is required for providing consent? 
 
-When the tenant admin provides the consent, an enterprise application called **Dynamics 365 Microsoft Teams Collaboration Integration** is created in Azure AD and permissions are given to the enterprise application. Also a flag is set internally in Dynamics 365 to indicate that the feature is enabled. This flag controls the UI behavior, such as displaying the **Collaborate** menu in the command bar.
+You must be a global administrator to provide the consent.
 
 ## What is the scope of the consent?
 
 The consent is given at tenant-level. It applies to all Dynamics 365 instances under the same tenant.
 
+## What happens when the consent is provided?
+
+When the tenant admin provides the consent, an enterprise application called **Dynamics 365 Microsoft Teams Collaboration Integration** is created in Azure AD and permissions are given to the enterprise application. Also a flag is set internally in Dynamics 365 to indicate that the feature is enabled. This flag controls the UI behavior, such as displaying the **Collaborate** menu in the command bar.
+
 ## After the consent is provided, is the Teams integration enabled for all instances?
 
 No. After the tenant admin provides the consent, a Dynamics 365 system administrator can enable the integration for any instance under the same tenant.
-
-## Which tenant admin is required for providing consent? 
-
-You must be a global admin to provide the consent.
 
 ## What are the privileges and type of permissions required by the integration?
   
@@ -40,10 +40,10 @@ You must be a global admin to provide the consent.
 | User.Read.All       | Application | Reads display name and licenses of users to validate if the suggested participants have a Teams license assigned. This permission is used by the **Suggested chats and contacts** section in the chat list. The permission is set at the application-level as it's being used a background service for better performance. |
 | User.ReadBasic.All  | Delegated   | Reads users' photos.                                                                                                                                                                                                                                                                                                  |
 
-## Are any other services than Teams affected?
+## Does the consent apply to other Microsoft services as well?
 
-No other Office services are affected as Teams is managing these services on its own.
-Therefore, they don’t need explicit consent.
+No. Other Office services, such as Sharepoint and Exchange, do not require explicit consent as they are managed internally by Teams. 
+
 
 ## Will the integration in any way impact security constraints or configuration in Dynamics 365 and Teams?  
 
