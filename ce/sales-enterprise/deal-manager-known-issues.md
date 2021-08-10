@@ -1,7 +1,7 @@
 ---
 title: "Deal manager known issues - Sales Enterprise | MicrosoftDocs"
 description: "This page describes known deal manager issues and suggests possible workarounds (if any)"
-ms.date: 07/15/2021
+ms.date: 08/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,21 +11,6 @@ manager: shujoshi
 # Known issues in deal manager
 
 This page includes the known issues in this release of deal manager.  
-
-## Customization
-
-### In Context Form appears in the form selector
-
-The In Context Form is used for displaying the side panel in deal manager, and in the new interface for contacts, opportunities, leads, and accounts.  
-
-However, this form appears in the form selector dropdown of these tables and lets users select this form for viewing the record details.
-
-:::image type="content" source="media/form-selector.PNG" alt-text="Form selector showing incontext form":::
-
- If this leads to confusion, you can deactivate the **In Context form** as shown in the screenshot below. 
-
-:::image type="content" source="media/deactivate-incontext-form.PNG" alt-text="Screenshot of In Context form with the option to deactivate":::
-
 
 ## Filters
 
