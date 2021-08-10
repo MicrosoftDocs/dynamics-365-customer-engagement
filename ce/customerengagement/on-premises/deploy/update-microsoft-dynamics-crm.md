@@ -1,5 +1,5 @@
 ---
-title: "Update Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
+title: "Update Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"description: Learn how to update Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: d365ce-op
