@@ -27,6 +27,10 @@ Administrators and IT professionals can use this information to prepare for futu
 >
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## setContextProvider method deprecated for authenticated chat
+
+The setContextProvider method for authenticated chat has been deprecated and will not be supported after October 01, 2021. Microsoft recommends that you use the JWT token for authenticated chat. More information: [Send authentication tokens](send-auth-token-starting-chat.md).
+
 ## Support for some knowledge management entities is deprecated <a name="deprecatedkmentities"></a>
 
 The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management entities that were deprecated earlier will not be supported after October 01, 2021. We recommend that you use the newer KnowledgeArticle entity (introduced in CRM Online 2016 Update and Dynamics 365) for knowledge management in Dynamics 365. More information: [Work with knowledge articles](work-knowledge-articles.md).

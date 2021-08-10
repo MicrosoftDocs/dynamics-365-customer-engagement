@@ -1,3 +1,16 @@
+## 3.12.60.43 - 2021 wave 2 early access
+
+(Includes Resource Scheduling controls version 1.2.0.212086)
+
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 2](/dynamics365-release-plan/2021wave2/service/dynamics365-field-service/planned-features#resource-scheduling) new and updated features. 
+
+This release also includes the following changes that have the potential to change the existing system behavior or interface. 
+
+- Performance improvements are made when applying the work hours templates to the resource(s). 
+- Fixed a bug where the column headers and the columns were misaligned in the list view of the schedule board.
+- The tooltip of the **Default radius unit** field of the schedule assistant under Resource Scheduling's scheduling parameter is corrected to **Choose the unit to display the distance on the Schedule assistant experience". 
+- When we have the **Derive Capacity From Group Members** set to **Yes** in the **Scheduling Tab** of parent pool resource, any updates to a bookable resource group membership will trigger the deletion of all existing inner calendars of the parent resource and recreate them based on the child resource calendar. This recreation of the inner calendars happens even when we try to add a new child to the pool resource. This takes a lot of time, especially when the time period between the from and to dates is long. The longer the time period between from and to dates, the longer it takes to edit the bookable resource group and can cause the offline or timeout error after a certain threshold. Performance improvements are made by making the deletion of the inner calendars asynchronous. 
+
 ## 3.12.49.18
 
 (Includes Resource Scheduling controls version 1.1.7.211681)

@@ -33,6 +33,8 @@ You can achieve the following skill matching based on the business requirements:
 - Exact skill match
 - Closest or nearest skill match
 
+When you select one of these skill-matching types, you must configure the skill attachment rules for the conversation to be routed to the correct agent.
+
 ### Exact match
 
 In exact skill matching, the assignment logic searches for an agent with the required skills and proficiency.
