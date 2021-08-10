@@ -10,6 +10,8 @@
     href: sensitivity-labels.md
   - name: Enable or disable the Teams chat in Dynamics 365
     href: enable-teams-chat.md
+  - name: FAQ on Teams chat integration
+    href: teams-in-dynamics-faq.md
   - name: Use Teams integration
     items: 
     - name: Basic Collaboration with Teams
@@ -22,8 +24,6 @@
         href: teams-collaboration-in-dymanics.md
       - name: Using Teams chat in Dynamics 365
         href: using-teams-chat-in-dynamics.md
-      - name: FAQ on Teams integration
-        href: teams-in-dynamics-faq.md
     - name: Use document management
       href: teams-doc-management.md
     - name: Use the personal dashboard
