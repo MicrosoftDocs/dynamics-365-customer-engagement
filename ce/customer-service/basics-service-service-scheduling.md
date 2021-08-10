@@ -1,7 +1,7 @@
 ---
 title: "Overview of Service Scheduling and Scheduling experience in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "This topic provides information on the basics of service and service scheduling in Dynamics 365 Customer Service."
-ms.date: 12/15/2020
+ms.date: 08/09/2021
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -140,6 +140,26 @@ With the latest release of Dynamics 365 Customer Service, Scheduling is powered 
 
   > [!div class=mx-imgBorder]
   > ![access-service-scheduling.](media/access-service-scheduling-csh.png)
+
+## Access scheduling in Customer Service workspace
+
+In addition to Customer Service Hub, you can also access Scheduling in the Customer Service workspace app.
+
+- Select the + icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
+
+  > [!div class=mx-imgBorder]
+  > ![Access Scheduling from Customer Service workspace.](media/csw-service-scheduling.png)
+
+   - **Service Activities**
+
+     > [!div class=mx-imgBorder]
+     > ![View service activities in Customer Service workspace.](media/csw-service-activities.png)
+
+   - **Scheduling**
+
+     > [!div class=mx-imgBorder]
+     > ![View the schedule board in Customer Service workspace.](media/csw-schedule-board.png)
+
 
 ## Configure entity records in the new scheduling experience
 
