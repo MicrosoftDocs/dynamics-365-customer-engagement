@@ -1,7 +1,7 @@
 ---
 title: "Deal manager known issues - Sales Enterprise | MicrosoftDocs"
 description: "This page describes known deal manager issues and suggests possible workarounds (if any)"
-ms.date: 07/15/2021
+ms.date: 08/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

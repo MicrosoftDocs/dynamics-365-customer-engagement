@@ -1,7 +1,7 @@
 ---
 title: "Preview features in trial - Sales Enterprise | MicrosoftDocs"
 description: "Learn about the preview features in your Sales trial app and how to disable them if needed."
-ms.date: 07/15/2021
+ms.date: 08/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
