@@ -47,7 +47,7 @@ You can also set up service scheduling in Dynamics 365 Customer Engagement (on-p
 
 ## Access service scheduling in Customer Service workspace
 
-Service scheduling is now available in the Customer Service workspace app.
+Service scheduling is available in the Customer Service workspace app.
  
    - Select the + icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
 
