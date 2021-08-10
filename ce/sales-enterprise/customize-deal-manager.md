@@ -132,7 +132,7 @@ The following table lists the supported and unsupported customizations for side 
 1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel.
      > [!NOTE]
     > - By default, all the fields in the form are editable. If you want to set a field to read-only, select the field and enable the **Read-only** property.
-    > - If you've added field-level rules for the editable grid using a web resource, they also become applicable for the same fields in the side panel. 
+    > - If you've added field-level rules for the editable grid using a web resource, they also become applicable for the same fields in the side panel.  
 
     :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
    
@@ -142,3 +142,4 @@ The following table lists the supported and unsupported customizations for side 
 
 - [Access the deal manager workspace (preview)](access-deal-manager.md)  
 - [Using the deal manager workspace (preview)](deal-manager-seller-overview.md)  
+- [Issue: In Context Form may appear in the form selector](ts-oqoi.md#issue-in-context-form-may-appear-in-the-form-selector)

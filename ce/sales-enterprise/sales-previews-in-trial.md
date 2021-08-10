@@ -16,9 +16,7 @@ This page lists the upcoming preview features that will be enabled by default in
 
 The following preview features will be automatically enabled in your trial app when they become available:  
 
-- Deal manager – a new workspace to manage your deals or opportunities efficiently with an editable and customizable grid and side panel, charts for visualization, and metrics for tracking. For more information, see [Using deal manager workspace](deal-manager-seller-overview.md).
-
-- A new view for contacts, opportunities, leads, and accounts with editable and customizable grid and side panel, along with the filter, sort, and group by options.  
+- A new view for contacts, opportunities, leads, and accounts with editable and customizable grid and side panel, along with the filter, sort, and group by options. The opportunities view, also known as the deal manager workspace, includes customizable charts and metrics. For more information, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
 
 - An enhanced experience for adding products to opportunities, quotes, orders, and invoices. The enhanced experience lets sellers select multiple products, filter by product families, compare products, and so on. For more information, see [Preview: Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md). 
 

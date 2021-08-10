@@ -12,7 +12,20 @@ manager: annbe
 
 This article helps you troubleshoot and resolve common issues across multiple entities like opportunity, quote, order, or invoice.
 
+## Issue: In Context Form may appear in the form selector
+
+The **In Context Form** is used for displaying and customizing the side panel in deal manager, and in the new interface for contacts, opportunities, leads, and accounts.  
+
+If your environment has any customizations that sets the **formActivationState** to **Active** for these tables, the **In Context Form** appears in the form selector dropdown and lets users select this form for viewing the record details. 
+
+:::image type="content" source="media/form-selector.PNG" alt-text="Form selector showing incontext form":::
+
+ If this leads to confusion, you can deactivate the **In Context form** as shown in the following screenshot. 
+
+:::image type="content" source="media/deactivate-incontext-form.PNG" alt-text="Screenshot of In Context form with the option to deactivate":::
+
 <a name="error_on_entities"> </a>
+
 ## Issue: Error or unexpected behavior while working on entities 
 
 While working on entities (such as opportunities, quote, order, invoice, quote product, and order product), you observe unexpected behavior or an error in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The following are some of the errors that you might encounter while working on opportunities, and they might apply to other entities:
