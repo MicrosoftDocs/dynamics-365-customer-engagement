@@ -20,11 +20,9 @@ IT admin perspective
 - Create an outbound profile - Select **Create a profile**
 
 ## Prerequisites
+
 > [!Note]
 >
-
-
-
 
 
 ## Configure a phone number for outbound calling
@@ -75,7 +73,7 @@ IT admin perspective
 
 ## Create an outbound profile
 
-You can define the way outbound calls are made and who can make them. In private preview, only *one* outbound profile can be created and cannot be deleted. 
+You can define the way outbound calls are made and also who can make them. In private preview, only *one* outbound profile can be created and it cannot be deleted. To create an outbound profile, you'll need a phone number that's enabled for outbound calling. This means that in your calling plan for that number, the **Make calls** checkbox must be selected.  should be able to make calls from the phone number.    
 
 **To create an outbound profile**
 
@@ -92,22 +90,65 @@ You can define the way outbound calls are made and who can make them. In private
      - Number label:
      - Queue:
      - Capacity:
-    
    
    b. In the **Behaviors** section, add the following details:
-   
+     - Language:
+     - Hold music:
+     - Wait music:
+     - Call transfer to external phone number:
+     - Consult with teams
+     - Transcription and recording
+     - Start setting
+        
    c. In the **Summary** section, add the following details:
+
+     - Queue:
+     - Capacity:
+
+4. Select **Save and close**.
+
+**To edit an outbound profile**
+
+1. In the site map of Omnichannel admin center, select **Agent experience** under the **Advanced settings** menu.
+
+2. Select **Manage**, next to **Outbound profiles (preview)**.
+   
+   The list of outbound profiles is displayed.
+
+3. Select a profile from the list and select **Edit**. In the **Create outbound profile** dialog, enter the following details:
+   a. In the **Basic info** section, add the following details:
+     - Profile name:
+     - Phone number:
+     - Number label:
+     - Queue:
+     - Capacity:
+   
+   b. In the **Behaviors** section, add the following details:
+     - Language:
+     - Hold music:
+     - Wait music:
+     - Call transfer to external phone number:
+     - Consult with teams
+     - Transcription and recording
+     - Start setting
+        
+   c. In the **Advanced settings** section, add the following details for the session and notification templates that are used for outbound voice calls:
+     - Session - default:
+     - Notification - consult:
+     - Notification - transfer:
+
+4. Select **Save and close**.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-profile-nav.png)
 
 
-- The first run experience create an outbound profile by default. 
+- The first run experience create an outbound profile by default.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-profile.png)
-
 
 Profile Name
 Phone Number - use outbound calling phone number. shows in caller ID.
