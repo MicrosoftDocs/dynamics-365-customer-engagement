@@ -143,7 +143,7 @@ With the latest release of Dynamics 365 Customer Service, Scheduling is powered 
 
 ## Access scheduling in Customer Service workspace
 
-In addition to Customer Service Hub, you can also access Scheduling in the Customer Service workspace app.
+You can also access Scheduling in the Customer Service workspace app.
 
 - Select the + icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
 
