@@ -4,7 +4,7 @@ description: "Introduction to using Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/06/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -43,7 +43,7 @@ To add new phone numbers to your business, you must do the following:
 
 **To add a new phone number**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**.
+1. In Omnichannel admin center, under **General settings**, select **Phone numbers (preview)**, and then select **Get started**.
    
    The **Connect to Azure Communication Services** dialog opens.
 
@@ -184,7 +184,7 @@ If you no longer need a phone number, you can release it from your number list. 
 
 **To release a phone number**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
+1. In Omnichannel admin center, under **General settings**, select **Phone numbers (preview)**.
   
    The list of all available phone numbers for your business is displayed.
 

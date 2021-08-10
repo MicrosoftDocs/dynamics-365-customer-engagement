@@ -1,34 +1,45 @@
 ---
 title: "Outbound calling in the Voice channel | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
-author: neeranelli
-ms.author: daclar
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/06/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
+<!--
+IT admin perspective by Chris
+video: https://msit.microsoftstream.com/video/78a80840-98dc-b561-710e-f1ebd538f986
+-->
 
 # Outbound calling
 
-// Video: https://msit.microsoftstream.com/video/78a80840-98dc-b561-710e-f1ebd538f986
-IT admin perspective
-
-- You need a profile to set up an outbound profile
-- outbound profile (Advanced Settings > Agent experience > Outbound profiles (preview)), you cannot delete it, you can only change it.
-- Create an outbound profile - Select **Create a profile**
+This section describes how you as an IT administrator can set up outbound calling.
 
 ## Prerequisites
+Before you can set up outbound voice calls for your business, you'll need the following:
 
-> [!Note]
->
-
-
+- One or more phone numbers configured for outbound calling. 
+- [Create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
+- Assign one or more users with an outbound capacity profile, so that they can make calls.
+- [Create an outbound profile](#create-an-outbound-profile)
 ## Configure a phone number for outbound calling
 
-- Enable Make calls
+To check if a phone number is configured for outbound calling, go to **General settings** > **Phone numbers (preview)**, and check if you have phone numbers with **Make calls** mentioned in the **Calling** column.
 
+**To configure a number for outbound calling**
+
+1. In Omnichannel admin center, under **General settings**, select **Phone numbers (preview)**.
+  
+   The list of all available phone numbers for your business is displayed.
+
+2. Select a phone number and select **Edit number**.
+
+3. In the **Edit number** dialog, in the **Calling plans** area, select the **Make calls** option, and then select **Upgrade**.
+
+4. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-phone-number.png)
@@ -44,7 +55,7 @@ IT admin perspective
 > ![Screenshot of ](./media/voice-channel-outbound-queue.png)
 
 >[!TIP] 
-> It it recommended to create a queue specifically for outbound calling. This helps with monitoring and reporting like outbound specific sentiment. Though it is supported for a queue to be both inbound and outbound. 
+> Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This helps supervisors with monitoring and reporting outbound specific traffic and sentiment. Having a separate outbound queue
 
 ## Add a user to the queue
 
@@ -61,7 +72,7 @@ IT admin perspective
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-capacity-profile.png)
 
-## Assign a user the capacity profile 
+## Assign a user the capacity profile
 
 
 > [!div class="mx-imgBorder"]
@@ -73,17 +84,17 @@ IT admin perspective
 
 ## Create an outbound profile
 
-You can define the way outbound calls are made and also who can make them. In private preview, only *one* outbound profile can be created and it cannot be deleted. To create an outbound profile, you'll need a phone number that's enabled for outbound calling. This means that in your calling plan for that number, the **Make calls** checkbox must be selected.  should be able to make calls from the phone number.    
+You can define the way outbound calls are made and also who can make them. To create an outbound profile, you'll need a phone number that's enabled for outbound calling. This means that in your calling plan for that number, the **Make calls** checkbox must be selected. In private preview, only *one* outbound profile can be created. While you can edit the profile, you cannot delete it.
 
 **To create an outbound profile**
 
 1. In the site map of Omnichannel admin center, select **Agent experience** under the **Advanced settings** menu.
 
 2. Select **Manage**, next to **Outbound profiles (preview)**.
-   
-   The list of outbound profiles is displayed.
 
-3. Select **Add profile**. In the **Create outbound profile** dialog, enter the following details:
+3. If there are no available profiles, select **Create a profile**, else select **Add profile**. 
+
+4. In the **Create outbound profile** dialog, enter the following details:
    a. In the **Basic info** section, add the following details:
      - Profile name:
      - Phone number:
