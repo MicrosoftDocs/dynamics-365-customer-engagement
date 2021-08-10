@@ -56,7 +56,8 @@ To enable the Teams chat in Dynamics 365, you need to access the **Chat and coll
 1.  Access the **Chat and collaborate** settings page.
 
 2.  Toggle the **Microsoft Teams chats inside Dynamics 365 (preview)** option.
-
+    > [!IMPORTANT]
+    > You must be a global administrator (tenant administrator) to provide the initial consent. After that application administrators can enable the preview for other instances.   
 3.  To set the chat title as the record title by default, turn on the **Use record title as the default chat name for linked chats** option. Users can change the title if they want.
     :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page":::
 
