@@ -123,6 +123,8 @@ Then choose **Save and close**.
 
 Consider using incident types to add more details and instructions to your work orders. For more information, see the article on [configuring incident types](configure-incident-types.md).
 
+## Work Order User Interface settings
+
 ### Open work order subgrids as popup dialogue boxes
 
 Configure work order subentities to pop out as dialog boxes and edit them without having to leave the work order form. This configuration helps dispatchers maintain context through navigation.
@@ -143,6 +145,40 @@ Popup navigation will now be enabled when the following entities are selected fr
 
 > [!Note]
 > This feature is available in the Unified Interface only.
+
+### Show simplified Work Order commands
+
+In the Field Service Wave 2 2021 update (8.8.47+) the work order ribbon is simplified upon upgrade because a new Field Service Setting called **Show Simplified Work Order Commands** is set to **Yes** by default. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-ribbon-setting.png)
+
+When **Show Simplified Work Order Commands** is set to **Yes**, the Work Order Form ribbon command is simplified and certain commands are reduced as seen in the image below.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-ribbon-form-enabled.png)
+
+
+The setting also applies to the ribbon commands displayed in the Work Order Homepage where a list of work orders is displayed.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-ribbon-enabled-homepage.png)
+
+and when a record is selected from the work order homepage. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-ribbon-enabled-homepage-selected.png)
+
+Set **Show Simplified Work Order Commands** to **No** to show the full list of ribbon commands on the Work Order form, work order homepage, and when a record is selected on the work order homepage.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-ribbon-disabled.png)
+
+
+> [!Note]
+> The **Show Chart** ribbon command is **not** impacted by the _Show Simplified Work Order Commands_ setting.
 
 ### See also  
     
