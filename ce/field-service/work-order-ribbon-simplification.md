@@ -2,12 +2,12 @@
 
 
 
-By default, the new experience will be turned on, i.e., “Show Simplified Work Order Commands” will be set to ‘Yes’. 
+In Field Service Wave 2 2021 updates (8.8.47+) the work order ribbon is simplified upon upgrade because a new Field Service Setting called **Show Simplified Work Order Commands** is set to **Yes**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-ribbon-setting.png)
 
-Enabled
+When Enabled
 
 Form
 
