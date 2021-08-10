@@ -1,6 +1,6 @@
 ---
-title: "Copy a security role  | MicrosoftDocs"
-description: "Save time creating a security role by copying one."
+title: "Copy security role in Dynamics 365 Customer Engagement (on-premises)"
+description: "If you want to create a security role that's similar to another, copy the existing one, save it with a new name, and modify privileges and access levels."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -19,13 +19,13 @@ search.audienceType:
   - admin
 
 ---
-# Save time creating a security role by copying one
+# Copy a security role to save time
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
 
-If you want to create a security role that is similar to another security role, you can copy an existing security role and save it with a new name. You can then modify the privileges and access levels to accommodate the new security role.  
+If you want to create a security role that's similar to another, you can copy an existing security role and save it with a new name. You can then modify the privileges and access levels to accommodate the new role.  
   
 > [!NOTE]
 > - You can’t copy a security role to a different business unit.  
