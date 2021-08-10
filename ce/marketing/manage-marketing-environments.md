@@ -214,12 +214,12 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 > [!NOTE]
 > Your Dynamics 365 Marketing license is automatically released when you delete or reset its environment, so you'll be free to install it on another environment.
 
-## Do not change the URL for an environment with Marketing installed
+## Do not change the URL for an environment with Real-time or Outbound Marketing installed
 
-For standard Dynamics 365 environments (without Marketing installed), you can use the Power Platform admin center to change the URL of an environment. However, _you can't currently do this if you have Marketing installed_.
+For standard Dynamics 365 environments (without any flavor of Marketing installed), you can use the Power Platform admin center to change the URL of an environment. However, _you can't currently do this if you have Real-time or Outbound Marketing installed_.
 
 > [!IMPORTANT]
-> Do not attempt to change the URL for a Marketing environment. If you require a different URL, you must set up a new Dynamics 365 environment at the new URL and then reinstall Marketing there.
+> Do not attempt to change the URL for a Real-time or Outbound Marketing environment. If you require a different URL, you must set up a new Dynamics 365 environment at the new URL and then reinstall Real-time or Outbound Marketing there.
 
 ### See also
 
