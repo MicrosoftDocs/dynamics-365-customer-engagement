@@ -1,5 +1,6 @@
 ---
 title: "Add a field to a form in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: "Learn how to add a field to a form"
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
