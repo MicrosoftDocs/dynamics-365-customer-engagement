@@ -2,7 +2,7 @@
 metadata:
   title: "Frequently asked questions for Field Service (Dynamics 365) mobile app | MicrosoftDocs"
   description: Find answers to commonly asked questions about the Field Service (Dynamics 365) mobile app.
-  ms.date: 06/10/2021
+  ms.date: 08/09/2021
   ms.reviewer: krbjoran
   ms.service: dynamics-365-field-service
   ms.subservice: field-service-mobile
@@ -22,7 +22,7 @@ summary: |
 sections:
   - name: Mobile calendar and agenda view  
     questions:  
-      - question: I can't see the calendar or the wrong calendar is showing
+      - question: Why can't I see the calendar, or I see the wrong calendar?
         answer: |
           To fix this issue, make sure the **Booking Calendar Control** is enabled for phones and tablets from the bookable resource booking entity.
           
@@ -31,103 +31,105 @@ sections:
          
       - question: Can I customize the default booking calendar control, such as by changing the booking cell content?
         answer: |
-          Currently, customizations for the default booking calendar control are not supported.
+          Currently, customizations for the default booking calendar control aren't supported.
   - name: Maps and locations
     questions:          
       - question: How do I enable address suggestions?
         answer: |
-          The mobile app can recommend addresses as technicians type them into a work order when an Internet connection is available. Address suggestions make data entry quicker and more accurate.    
+          The mobile app can recommend addresses as technicians enter them into a work order when an internet connection is available. Address suggestions make data entry quicker and more accurate.    
           
-          Enable or disable address recommendations by going to **Field Service app** > **Settings** > **Field Service Settings** > **Other section**.
-          
-          Then set **Enable Address Suggestions** to **Yes**.
-          
+          Enable address recommendations by going to **Field Service app** > **Settings** > **Field Service Settings** > **Other section**, and then set **Enable Address Suggestions** to **Yes**.
+
           > [!div class="mx-imgBorder"]
-          > ![Screenshot of the enable address recommendations in the Field Service (Dynamics 365) Field Service.](./media/mobile-2020-settings-enable-address-recommendation.png)
+          > ![Screenshot of enabled address suggestions in Field Service.](./media/mobile-2020-settings-enable-address-recommendation.png)
           
-          When the mobile user has no Internet access, they can select **Edit** to manually enter address fields.
+          When the mobile user has no internet access, they can select **Edit** to manually enter address fields.
       
       - question: Can I configure the "Get Directions" map button to trigger a GPS map provider app of my choosing?
         answer: |
-          Currently, the **Get Directions** map button will only trigger the default map provider of the device and is currently not configurable.   
+          Currently, the **Get Directions** map button isn't configurable. It will only trigger the device's default map provider.   
   - name: Offline
     questions:
       - question: Is there a maximum number of records supported by the offline profile?
         answer: |
-          There is no limitation to the number of records that can be downloaded in offline mode outside of the physical device limitations. Going beyond 2MB per record is not recommended. Keep in mind that the sync duration will depend on the number and size of records being synced, as well as the quality of the network that the mobile device is connected to. For a good user experience, make sure the offline profile only includes the data that is relevant to the user. The configuration of the out-of-the-box offline profile takes into account the common scenarios faced by field service technicians and mobile app users.
+          There's no limit to the number of records that can be downloaded in offline mode, outside of the limitations of the physical device. We recommend that you limit the size of each record to 2 MB. Keep in mind that the sync duration will depend on the number and size of the records being synced, in addition to the quality of the network that the mobile device is connected to. For a good user experience, make sure the offline profile only includes data that's relevant to the user. The configuration of the out-of-the-box offline profile takes into account the common scenarios faced by field service technicians and mobile app users.
           
-          There is currently no limit to the number of entities, custom or otherwise that can be added to the mobile offline profile. However, it is strongly recommended to minimize the number of entities and records downloaded to the device to shorten load times, shorten sync times, and improve overall performance.
+          There's currently no limit to the number of entities, custom or otherwise, that you can add to the mobile offline profile. However, we strongly recommend that you minimize the number of entities and records downloaded to the device to shorten load times, shorten sync times, and improve overall performance.
           For more information, review the [platform documentation](../mobile-app/mobile-offline-capabilities.md).  
-      - question: Is there a way to choose the columns or "fields" that are downloaded as part of a mobile offline profile?
+      - question: Is there a way to choose the columns ("fields") that are downloaded as part of a mobile offline profile?
         answer: |
-          Offline profiles are filtered at the row level which adjusts the number of records downloaded. There is currently no way to filter columns or "fields."
-      - question: While running the Field Service mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
+          Offline profiles are filtered at the row level, which adjusts the number of records that are downloaded. There's currently no way to filter by column.
+      - question: While running the Field Service (Dynamics 365) mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
         answer: |
           Search from the offline application will always search the local device database for data, which is defined within the mobile offline profile.
   - name: Sign in
     questions:     
         - question: What do the "Reconfigure" and "Sign out" options do?
           answer: |
-           - Sign Out: User signs out of the app. After signing out, they can go back to the original sign-in screen where they can either sign in again or use an alternate account to sign in. Signing out and back in will clear Field Service mobile application data that had previously been synced to the device. 
-           - Reconfigure: User remains signed into the app, but will be sent back to the app module picker where they can select an alternate app module, if available. "Reconfigure" will clear Field Service mobile application data that had previously been synced to the device.         
+           - Sign out: The user signs out of the app. After signing out, they can go back to the original sign-in screen where they can either sign in again or use an alternate account to sign in. Signing out and back in will clear Field Service mobile app data that had previously been synced to the device. 
+           - Reconfigure: The user remains signed in to the app, but will be sent back to the app module picker where they can select an alternate app module, if available. "Reconfigure" will clear Field Service mobile app data that had previously been synced to the device.
           
-           ![Screenshot showing the mobile app sign-in screen, with the "Reconfigure" and the "Sign out" options.](./media/mobile_reconfigure-signout.PNG)
+           ![Screenshot showing the mobile app sign-in screen, with the "Reconfigure" and "Sign out" options.](./media/mobile_reconfigure-signout.PNG)
   
-        - question: Why do I get "Insufficient Permissions" error when accessing records on the Field Service (Dynamics 365) mobile app?
+        - question: Why do I get an "Insufficient Permissions" error when accessing records on the Field Service (Dynamics 365) mobile app?
           answer: |
-            ![An error message showing "Insufficient Permissions" in the Field Service (Dynamics 365) mobile app.](./media/fsm-error1.jpg)
+            ![Screenshot of an error message showing "Insufficient Permissions" in the Field Service (Dynamics 365) mobile app.](./media/fsm-error1.jpg)
           
-            This error can occur when your environment has multiple Dynamics 365 apps installed, like Dynamics 365 Field Service and Dynamics 365 Customer Service with Omnichannel.
+            This error can occur when your environment has multiple Dynamics 365 apps installed.
           
             To fix this issue:
           
-            1. Verify your user is assigned the **Field Service - Resource** security role _and_ field security profile
-            2. Edit the **Field Service - Resource** security role and assign read privileges for the **Master Entity Routing Configuration** entity in **Custom Entities**.
-            3. Edit the **Field Service - Resource** security role and assign read privileges for the **Routing Rule Set** entity in the **Service Management** tab.
+            1. Verify that your user is assigned the **Field Service - Resource** security role _and_ field security profile.
+            2. Edit the **Field Service - Resource** security role, and assign read privileges for the **Master Entity Routing Configuration** entity in **Custom Entities**.
+            3. Edit the **Field Service - Resource** security role, and assign read privileges for the **Routing Rule Set** entity on the **Service Management** tab.
                     
             > [!div class="mx-imgBorder"]
-            > ![Field Service security roles in Power Apps, showing permissions for the Field Service - Resource role.](./media/fsm-insufficient-permission-faq.png)
+            > ![Screenshot of Field Service security roles in Power Apps, showing permissions for the Field Service - Resource role.](./media/fsm-insufficient-permission-faq.png)
 
 
         - question: Why does the app say "Contact your administrator for access to your organization's mobile apps"?
           answer: |
             ![Screenshot of the "Contact your administrator" issue.](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
           
-            If you are getting this message, try the following steps:
+            If you're getting this message, try the following steps:
           
-            1. The list shows production apps by default and you may be using a trial or sandbox. Select the menu icon in the top left and toggle **Show non-production apps** to _Yes_. 
-            2. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service Mobile app.
-            3. Sign in again, pull down the screen to refresh and wait for at least a few minutes.
-            4. If completing steps 1 and 2 does not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
-        - question: Can External Users access the Field Service (Dynamics 365) mobile app?  
+            1. Select the menu icon in the upper-left corner, and set **Show non-production apps** to **Yes**. The list shows production apps by default, and you might be using a trial or sandbox app. 
+            2. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service (Dynamics 365) mobile app.
+            3. Sign in again, pull down the screen to refresh, and wait for at least a few minutes.
+          
+            If completing steps 1 and 2 doesn't resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
+        - question: Can external users access the Field Service (Dynamics 365) mobile app?  
           answer: |
-           Currently, external users cannot access the Field Service (Dynamics 365) mobile app.
+           Currently, external users can't access the Field Service (Dynamics 365) mobile app.
 
   - name: Entities, forms, views, and fields 
     questions:
         
       - question: |
-          How many columns or "fields" can be added to an entity view on the mobile app?
+          How many columns ("fields") can be added to an entity view on the mobile app?
         answer: |
-          Currently, a maximum of three columns or "fields" can be displayed in a mobile view. 
+          Currently, a maximum of three columns (formerly called "fields") can be displayed in a mobile view. 
 
       - question: |
           Can I only view Field Service entities on the Field Service (Dynamics 365) mobile app?
         answer: |
-          Because the Field Service (Dynamics 365) mobile app is a model-driven app on the Power Platform, any entity can be added; users can only see entities and records that they have the licenses and security to access, regardless of whether it's part of the Field Service app or not.
+
+          Because the Field Service (Dynamics 365) mobile app is a model-driven app on Microsoft Power Platform, any entity can be added; however, users can only see an entity or record that they have the licenses and permissions to access, regardless of whether it's part of the Dynamics 365 Field Service app.
 
           
       - question: |
           Why doesn't the bookable resource booking form show work order details like Customer, Service, and Notes?
         answer: |
-          Sometimes you may not see the correct booking form. You may see the following result:
-          
+          Sometimes you might not see the correct booking form. You might see a screen resembling the following image.
+         
           > [!div class="mx-imgBorder"]
-          > ![Screenshot of the wrong from issue.](./media/mobile-2020-faq-wrong-booking-form.png)
+          > ![Screenshot of the wrong form issue.](./media/mobile-2020-faq-wrong-booking-form.png)
           
           If you see something like the previous screenshot, you're viewing the booking form, and *not* the combined booking and work order form.
           
-          To solve this issue, make sure the user you're signed into the mobile app as has the **Field Service - Resource** security role. Also make sure that the right form (the mobile optimized booking and work order form) is associated with the booking entity in the app designer.
+
+          To solve this issue, make sure you've signed in to the mobile app as a user who has the **Field Service - Resource** security role. Also make sure that the right form (the mobile-optimized booking and work order form) is associated with the booking entity in the app designer.
+
       - question: |
           How can I enable multiline text fields on forms to automatically expand based on the amount of content entered?
         answer: |
@@ -139,8 +141,9 @@ sections:
           
           Note: At this time, you can only have one multiline text field *per tab* set to autoexpand. 
   
+
   - name: Other
     questions:       
-      - question: Can I connect Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
+      - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
         answer: |
-          Not at this time. Support for non-public clouds will be added to Field Service mobile in the near future.
+          Not at this time. Support for non-public clouds will be added to the Field Service (Dynamics 365) mobile app in the near future.
