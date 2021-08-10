@@ -88,7 +88,8 @@ A new support session is created when the voice call is accepted.
 [Handle call overflow for the voice queues](voice-channel-call-overflow.md)  
 [Block a SPAM Number](voice-channel-block-number.md)  
 [Manage Music](voice-channel-music.md)  
-[Manage voice channel](voice-channel-manage.md)  
+[Manage voice channel](voice-channel-manage.md)
+[Supported Regions and Languages](voice-channel-region-availability.md)  
 
 ### Agent experience
 
