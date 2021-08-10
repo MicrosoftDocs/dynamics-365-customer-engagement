@@ -1,6 +1,6 @@
 ---
 title: "Uninstall or repair Dynamics 365 Report Authoring Extension | Microsoft Docs"
-description: Learn how to uninstall, change, or repair Dynamics 365 Customer Engagement (on-premises) 
+description: Learn how to uninstall, change, or repair report authoring extension with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op
