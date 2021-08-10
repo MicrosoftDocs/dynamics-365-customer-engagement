@@ -1,6 +1,6 @@
 ---
-title: "Create or edit a site  | MicrosoftDocs"
-description: "Create a new site to add an office location or other facility where service operations take place."
+title: "Create a new site in Dynamics 365 Customer Engagement (on-premises)"
+description: "Create a new site to add an office or other location where operations take place. You can also edit existing sites for details like address and phone number."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Create or edit a site to specify location
+# Create a site to add a new location or edit an existing site
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
