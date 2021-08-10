@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 04/05/2021
+ms.date: 08/10/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -484,7 +484,14 @@ We recommend that you perform the following steps to upgrade a solution:
 2. Upgrade your solution.
 3. After the solution has been successfully upgraded, activate the SLAs as required.
 
-### See also  
+## Limitations
+
+In Unified Interface apps, the following "applicable when" and "success" conditions don't work as expected for SLAs:
+
+- When you configure them on a related entity, and not on the primary SLA-enabled entity.
+- If the "applicable when" conditions are defined on a related entity, the SLA will not be applied even when the related entity is updated to match the applicability criteria. Likewise, if the success conditions are defined on a related entity, the SLA timer will keep running even after the related entity is updated to meet the success condition.
+
+### See also
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](troubleshoot-sla-issues.md)  
