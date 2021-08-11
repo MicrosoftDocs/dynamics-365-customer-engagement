@@ -17,7 +17,7 @@ manager: shujoshi
 
 When you remove Omnichannel for Customer Service from your organization, the Omnichannel solutions are not deleted. If you want to delete Omnichannel solutions from your organization, you must use the following sequence. 
 
-1. Sign in to your https://<YourOrgURL>.dynamics.com/apps environment.
+1. Sign in to your https://<org>.dynamics.com/apps environment.
 
 2. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
 
@@ -85,7 +85,7 @@ When you upgrade Omnichannel for Customer Service to the latest release, certain
 
 The following steps describe how to delete the solution from your organization.
 
-1. Sign in to your https://<YourOrgURL>.dynamics.com/apps environment.
+1. Sign in to your https://<org>.dynamics.com/apps environment.
 
 2. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed on a new browser tab.
 
