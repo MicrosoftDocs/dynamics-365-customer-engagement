@@ -82,7 +82,7 @@ A new support session is created when the voice call is accepted.
 [Configure post call survey](voice-channel-survey.md)  
 [Set up a multi-language contact center](voice-channel-multi-language-contact-center.md)  
 [Handle call overflow for the voice queues](voice-channel-call-overflow.md)  
-[Block a spam mumber](voice-channel-block-number.md)  
+[Block a spam number](voice-channel-block-number.md)  
 [Manage music](voice-channel-music.md)  
 [Manage voice channel](voice-channel-manage.md)  
 [Supported regions and languages](voice-channel-region-availability.md)  
