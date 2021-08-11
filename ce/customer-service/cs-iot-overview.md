@@ -1,7 +1,7 @@
 ---
 title: "Connected Customer Service - Overview| MicrosoftDocs"
 description: "Overview of Connected Customer Service."
-ms.date: 07/03/2020
+ms.date: 08/08/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -130,8 +130,12 @@ A list of Connected Customer Service actions that agents can take is as follows:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the case history for a device.](media/cs-iot-view-case-histories-devices.png)
 
+## Connected Customer Service in Customer Service workspace
 
+The Connected Customer Service solution is available in Customer Service workspace:
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Connected Customer Service experience in Customer Service workspace.](media/cs-iot-csw.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
