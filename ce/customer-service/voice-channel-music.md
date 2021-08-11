@@ -1,5 +1,5 @@
 ---
-title: "Manage Music in the Voice channel | MicrosoftDocs"
+title: "Manage music in the voice channel | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
@@ -8,8 +8,10 @@ ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-
-# Manage Music
+<!--// video
+// https://msit.microsoftstream.com/video/a6dd0840-98dc-869c-1241-f1ebcfc77970
+-->
+# Manage phone music
 
 > [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -24,53 +26,50 @@ ms.service: dynamics-365-customerservice
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
-// video
-// https://msit.microsoftstream.com/video/a6dd0840-98dc-869c-1241-f1ebcfc77970
 
-Admin exp:
-**Advanced settings** > **Customer settings > **Phone music (preview)** > **Manage**. You'll see a list of out-of-the box music files.
-Select any of these or **Add new**. Add new phone music. Select **Upload** to upload a sound file from your computer.
 
+You can use existing out-of-the-box music files, replace them with your own ones, or even upload new ones to be used for hold or wait music for your customer calls.
+You can configure hold and wait music for each language in each workstream.
 
 ## Prerequisites
 > [!Note]
 >
 
+## Edit hold and wait music
+
+**To use existing music files as hold and wait music**
+
+1. In Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
+
+2. In the **Customer experience** area, select **Phone music (preview)**, and then select **Manage**.
+   You'll see a list of out-of-the box music files.
+
+3. Select any of these or **Add new**. Add new phone music. Select **Upload** to upload a sound file from your computer.
 
 
 
+## Add custom hold and wait music
 
-## Select Hold and Wait music
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-number.png)
+**Advanced settings** > **Customer settings** > **Phone music (preview)** > **Manage**. You'll see a list of out-of-the box music files.
+Select any of these or **Add new**. Add new phone music. Select **Upload** to upload a sound file from your computer.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-language.png)
+>[!TIP] 
+> Add music that loops well.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-select.png)
-
-## Add custom music
-
+<!--
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-music-customer-settings.png)
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-music-add-new.png)
 
->[!TIP] 
-> Add musoic that loops well.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-music-number.png)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-music-language.png)
 
-
-## Configuration considerations
-
-- Wait and hold music can be configured for each language in each workstream.
-
-## Additional Notes
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-music-select.png)
+-->

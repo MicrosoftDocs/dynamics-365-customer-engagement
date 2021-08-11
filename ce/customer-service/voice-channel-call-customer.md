@@ -44,12 +44,7 @@ When the call gets connected, you'll see the customer details on the conversatio
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-call2.png)
 
-## Configuration considerations
 
-### See number calling from
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-call3.png)
 
 ### Choose device settings
 
