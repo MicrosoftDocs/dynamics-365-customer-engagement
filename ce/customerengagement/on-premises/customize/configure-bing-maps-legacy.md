@@ -1,5 +1,6 @@
 ---
 title: "Configure Bing maps in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to configure Bing maps for your apps
 ms.custom: 
 ms.date: 01/31/2019
 ms.reviewer: 
