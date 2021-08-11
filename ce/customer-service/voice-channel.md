@@ -76,7 +76,6 @@ A new support session is created when the voice call is accepted.
 [Manage phone numbers](voice-channel-number-management.md)  
 [Inbound calling](voice-channel-inbound-calling.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
-[Manage outbound profiles](voice-channel-outbound-profiles.md)  
 [How to route voice calls to agents](voice-channel-route-queues.md)  
 [View usage and billing](voice-channel-usage-billing.md)  
 [Configure post call survey](voice-channel-survey.md)  
