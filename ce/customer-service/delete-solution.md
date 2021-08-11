@@ -1,6 +1,6 @@
 ---
 title: "Delete Omnichannel solutions | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to delete an Omnichannel solution from your organization"
+description: "Perform the steps mentioned in the topic to delete an Omnichannel solution from your organization."
 ms.date: 08/11/2021
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ manager: shujoshi
 
 When you remove Omnichannel for Customer Service from your organization, the Omnichannel solutions are not deleted. If you want to delete Omnichannel solutions from your organization, you must use the following sequence. 
 
-1. Sign in to your https://<org>.dynamics.com/apps environment.
+1. Sign in to your `https://<org>.dynamics.com/apps` environment.
 
 2. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
 
@@ -85,7 +85,7 @@ When you upgrade Omnichannel for Customer Service to the latest release, certain
 
 The following steps describe how to delete the solution from your organization.
 
-1. Sign in to your https://<org>.dynamics.com/apps environment.
+1. Sign in to your `https://<org>.dynamics.com/apps` environment.
 
 2. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed on a new browser tab.
 
@@ -96,7 +96,7 @@ The following steps describe how to delete the solution from your organization.
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**. 
 
     > [!div class=mx-imgBorder]
-    > ![Delete Omnichannel Solution.](media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")  
+    > ![Delete Omnichannel Solution.](media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")
 
 You have deleted the **OmnichannelCustomerServiceHub** solution from your organization.
 
@@ -106,7 +106,7 @@ The following steps describe how to delete the solution from your organization.
 
 1. Sign in to the Dynamics 365 instance.
 
-2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
+2. Select the dropdown button on Dynamics 365 and select **Channel Integration Framework**.
 
 3. Select the record that is related to Omnichannel.
 
