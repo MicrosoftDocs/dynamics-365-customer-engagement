@@ -4,7 +4,7 @@ description: "Introduction to using Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/10/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -16,7 +16,20 @@ video: https://msit.microsoftstream.com/video/78a80840-98dc-b561-710e-f1ebd538f9
 
 # Outbound calling
 
-This section describes how you as an IT administrator can set up outbound calling for phone numbers in your organization.
+> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
+This section describes how you as an IT administrator can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers via the Omnichannel Agent dashboard in Omnichannel for Customer Service.
 
 If you do not have any phone numbers provisioned for your business, then see [Create a new phone number](voice-channel-number-management.md#create-a-new-phone-number) to learn how you can acquire new phone numbers.
 
@@ -26,7 +39,7 @@ Before you set up outbound voice calls for your business, you'll need the follow
 
 - [Configure one or more phone numbers for outbound calling](#configure-a-phone-number-for-outbound-calling). 
 - [Create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
-- Assign one or more users with an outbound capacity profile, so that they can make calls.
+- Add users to the voice queue and set their capacity profile.
 - [Create an outbound profile](#create-an-outbound-profile)
 
 ## Configure a phone number for outbound calling
@@ -53,14 +66,14 @@ This phone number will now be displayed to your customers when your agents call 
 > ![Screenshot of ](./media/voice-channel-outbound-queue.png)
 
 >[!NOTE] 
-> Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This helps supervisors with monitoring and reporting outbound specific traffic and sentiment. Having a separate outbound queue
+> Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and report outbound specific traffic and sentiment. *Having a separate outbound queue...*
 
-## Add a user to the queue
+## Add a user to the voice queue
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-queue-add-user.png)
 
-## Create a capacity profile 
+## Create a capacity profile
 
 - number of outbound calls a person can make at one time
 
@@ -123,31 +136,11 @@ You can define the way outbound calls are made and also who can make them. To cr
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-profile.png)
 
-## Call a customer
-
-After you've set up outbound calling, your agents can now make calls to customers on the contact numbers via the Omnichannel Agent dashboard in Omnichannel for Customer Service.
-
-**To call a customer**
-
-1. In Omnichannel for Customer Service, go to Contacts, and select a customer that you want to call to.
-
-2. On the customer summary page, locate the **Mobile Phone** field and select the call icon to call the customer.
-   The phone dialer opens with the phone number.
-
-3. Select **Call** on the phone dialer
-
-4.
-
-
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-call.png)
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-call2.png)
-
 
 
 ## Configuration considerations

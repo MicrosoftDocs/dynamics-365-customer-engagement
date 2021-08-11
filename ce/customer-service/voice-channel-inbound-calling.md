@@ -2,7 +2,7 @@ iajrvice."
 author: neeranelli
 ms.author: daclar
 manager: shujoshi
-ms.date: 08/06/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -55,7 +55,7 @@ In order to receive inbound calls, you must have the following:
 > ![Screenshot of ](./media/voice-channel-inbound-call-number-behaviors.png)
 
 ## Step 3: Set up a workstream
-
+<!-- tell users or point to the main published topic - to channel type=voice-->
 ### Routing Rules
 
 > [!div class="mx-imgBorder"]

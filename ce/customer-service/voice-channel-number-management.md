@@ -4,7 +4,7 @@ description: "Introduction to using Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/10/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -22,12 +22,12 @@ Video 3: https://msit.microsoftstream.com/video/8bfc99ff-0300-b561-3feb-f1ebe379
 
 # Number management
 
-Omnichannel for Customer Services helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics 365. As an administrator, you can purchase phone numbers and call plans, decide whether you want to avail call and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
+Omnichannel for Customer Service helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics 365. As an administrator, you can purchase phone numbers and call plans, decide whether you want to avail call and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
 
 ## Use number included with the voice channel
 
 The Voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services.
-However, after the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot purchase the trial number.
+However, after the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
 
 ## Prerequisites
 <!--add Azure portal link, standard text here-->
@@ -122,7 +122,6 @@ After you've acquired a phone number, you must add it to a workstream to be able
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-number-mgmt-azure-success.png)
 
-
 <a name="use-existing-resource"></a>
 
 ### Use existing resource
@@ -131,7 +130,7 @@ If you already have an Azure Communication Services resource that you'd like to 
 
 Before you proceed with adding an existing resource to Azure Communication Services, do the following:
 
-1. Open your existing resource from the Azure portal in a new window or tab. 
+1. Open your existing resource from the Azure portal in a new window or tab.
 2. Select **Settings** > **Properties**, and get ready to copy the resource values (using the Copy to clipboard button) from this resource to Omnichannel admin center.
 
 **To use an existing resource**
@@ -150,7 +149,6 @@ Before you proceed with adding an existing resource to Azure Communication Servi
 3.
 
 4.
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-number-mgmt-add-features.png)
@@ -189,11 +187,11 @@ If you no longer need a phone number, you can release it from your number list. 
    The list of all available phone numbers for your business is displayed.
 
 2. Select a phone number and select **Release number**.
-   
+
    The **Release number** dialog requesting you to confirm the number deletion is displayed.
 
 3. Select **OK** if you are sure you don't need the number.
-   
+
    The **Phone numbers (preview)** page displays the phone number status as **Pending release**.
 
 *You cannot remove feature once granted to a phone number, but you can upgrade phone number features.*

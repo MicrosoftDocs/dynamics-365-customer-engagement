@@ -87,9 +87,9 @@ A new support session is created when the voice call is accepted.
 [Set up a multi-language contact center](voice-channel-multi-language-contact-center.md)  
 [Handle call overflow for the voice queues](voice-channel-call-overflow.md)  
 [Block a SPAM Number](voice-channel-block-number.md)  
-[Manage Music](voice-channel-music.md)  
-[Manage voice channel](voice-channel-manage.md)
-[Supported Regions and Languages](voice-channel-region-availability.md)  
+[Manage music](voice-channel-music.md)  
+[Manage voice channel](voice-channel-manage.md)  
+[Supported regions and languages](voice-channel-region-availability.md)  
 
 ### Agent experience
 
@@ -101,7 +101,7 @@ A new support session is created when the voice call is accepted.
 
 ### Supervisor experience
 
-[Monitor Voice Calls](voice-channel-monitor-calls.md)  
+[Monitor voice calls](voice-channel-monitor-calls.md)  
 [Call insights](voice-channel-call-insights.md)  
 [Reporting and analytics](voice-channel-report-analytics.md)  
 

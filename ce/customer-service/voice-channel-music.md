@@ -4,13 +4,25 @@ description: "Introduction to using Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/06/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
 # Manage Music
 
+> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
 // video
 // https://msit.microsoftstream.com/video/a6dd0840-98dc-869c-1241-f1ebcfc77970
@@ -18,6 +30,8 @@ ms.service: dynamics-365-customerservice
 Admin exp:
 **Advanced settings** > **Customer settings > **Phone music (preview)** > **Manage**. You'll see a list of out-of-the box music files.
 Select any of these or **Add new**. Add new phone music. Select **Upload** to upload a sound file from your computer.
+
+
 ## Prerequisites
 > [!Note]
 >
