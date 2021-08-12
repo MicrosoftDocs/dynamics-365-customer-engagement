@@ -31,10 +31,11 @@ When using Dynamics 365 Field Service (vX) and Universal Resource Scheduling (vY
 | Version | String | The version number of the API identifies the version of the API that should be invoked. It follows the format of major.minor.patch. The request doesn't have to contain the complete version number. <p> <li> If only a major version is specified, it invokes the highest minor and patch version available for that major version. <li> If both major and minor versions are specified, it invokes the highest patch version available. <li> If all three parts of the version are mentioned, it will invoke the exact version of the API specified.</ul>| Yes | 
 | IsWebApi | Boolean | Set this to _True_ in order to use the SA via the web API. | Yes
 | Requirement | Entity | This attribute specifies the resource requirement for which resource availability is being retrieved. This is expected to be a msdyn_resourcerequirement type entity. The requirement can be a pre-existing record from the database, or one created on the fly with the necessary constraints. The entity should contain all the specifics that are relevant for your search. The following some important attributes to populate: <ol> <li>**msdyn_fromdate** (_Datetime_): Requirement's from date in ISO format <li> **msdyn_todate** (_Datetime_): Requirement's to date in ISO format <li> **msdyn_remainingduration** (_Integer_): The remaining duration of the requirement in minutes <li> **msdyn_duration** (_Integer_): The total duration of the requirement in minutes | Yes |
-| Settings | Entity | The [settings attribute](###SettingsEntity) helps to filter the retrieved resources further. Settings are specified as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name.  | Yes
-| ResourceSpecification | Entity | The [resourceSpecification attribute](###ResourceSpecificationEntity) is defined as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name. | No
+| Settings | Entity | The [settings attribute](#settings-entity) helps to filter the retrieved resources further. Settings are specified as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name.  | Yes
+| ResourceSpecification | Entity | The [resourceSpecification attribute](#resource-specification-entity) is defined as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name. | No
 
 ### Settings entity
+
 | Name | Type | Description | Required | 
 | --- | --- | --- | --- |
 | ConsiderSlotsWithLessThanRequiredCapacity | Boolean | Set this to _True_ if a time slot with less than the required capacity (effort) should be considered when computing potential available time slots on the resource's calendar.
@@ -48,7 +49,8 @@ When using Dynamics 365 Field Service (vX) and Universal Resource Scheduling (vY
 | MaxResourceTravelRadius | Entity | This attribute specifies the maximum This attribute can be defined in an Entity. The type of entity does not matter, you can specify any entity logical name. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values.
 | MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request.
 
-### ResourceSpecification entity
+### Resource specification entity
+
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
 | Resource Types | EntityCollection | This attribute specifies the resource type required for the requirement. It can be specified using an entity collection. Each entity in the collection will represent one bookable resource type. The type of entity does not matter, you can specify any entity logical name. This is the attribute required: <ol> <li> **Value** (_Integer_): The option set value that represents the resource type.  | No
@@ -61,18 +63,20 @@ When using Dynamics 365 Field Service (vX) and Universal Resource Scheduling (vY
 #### Constraints
 Additional constraints can be specified through attributes in this entity. The type of entity does not matter, you can specify any entity logical name.
 
-Review the ‘Retrieve Resources Query’ on the schedule board settings to identify which constraints might apply. By default, it includes the following
+Review the ‘Retrieve Resources Query’ on the schedule board settings to identify which constraints might apply. By default, it includes the following:
+
 | Name | Type | Description |
 | --- | --- | --- | 
-| Characteristics | EntityCollection | A collection of characteristic IDs that a qualified resource must have.
-| Roles | EntityCollection | A collection of role IDs that a qualified resource must have.
-| Territories | EntityCollection | 	A collection of territory IDs. A qualified resource must be assigned to one of the territories.
-| UnspecifiedTerritory | Boolean | In combination with the Territories constraint, specifies that a qualified must be assigned to one of the territories or no territory at all.
-| OrganizationalUnits | EntityCollection | A collection of organizational unit IDs. A qualified resource must be a member of one of the specified organizational units.
+| Characteristics | EntityCollection | A collection of characteristic IDs that a qualified resource must have. |
+| Roles | EntityCollection | A collection of role IDs that a qualified resource must have. |
+| Territories | EntityCollection | 	A collection of territory IDs. A qualified resource must be assigned to one of the territories. |
+| UnspecifiedTerritory | Boolean | In combination with the Territories constraint, specifies that a qualified must be assigned to one of the territories or no territory at all. |
+| OrganizationalUnits | EntityCollection | A collection of organizational unit IDs. A qualified resource must be a member of one of the specified organizational units. |
 | Teams | EntityCollection | A collection of team IDs. A qualified resource must belong to one of the teams (implies that the resource type is a system user).
-| BusinessUnits | EntityCollection | A of collection of business unit IDs. A qualified resource must belong to one of the business units (Implies that the resource is a system user).
+| BusinessUnits | EntityCollection | A of collection of business unit IDs. A qualified resource must belong to one of the business units (Implies that the resource is a system user). |
 
 ## Output parameters
+
 At the highest level, the output has the following four parameters. The results are represented in entity collections and entities. Responses may not include all the attributes described here as null value or not NA values are omitted from the response. Always check for the presence of an attribute before trying to access it.
 | Name | Type | Description | Required | Default value |
 | --- | --- | --- | --- | --- |
