@@ -33,6 +33,7 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
 ## View meeting details
 
 To see details of a specific meeting, tap the meeting record on either the home page or in the calendar view. The meeting details are displayed, as shown in the following image.    
+
 ![Meeting details.](media/sm-meeting-details.png "Meeting details")  
 
 Meeting details include the following:
