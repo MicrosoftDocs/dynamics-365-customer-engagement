@@ -95,3 +95,8 @@ These four principals do not interact with each other. 
 ### Which principal performs the background automation that unified routing seemingly enables, and what permissions does it have?
 
 The “Omnichannel for Customer Service” application. This app has Dataverse permissions that is used to read data from Dataverse and write data to Dataverse for Omnichannel service for the unified routing capability of classification and assignment.
+
+### See also
+
+[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
+[Set up record routing](set-up-record-routing.md)  
