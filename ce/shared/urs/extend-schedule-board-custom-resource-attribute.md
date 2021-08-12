@@ -16,7 +16,7 @@ In this topic, we'll walk through how to configure this common example scenario.
 
 ## Prerequisites
 
-- Field Service v6.2.1+<!-- Edit note: Suggest review to ensure these are still correct prereqs. -->
+- Field Service v6.2.1+
 - Universal Resource Scheduling v1.1.1+
 
 ## Step 1: Add the new attribute to the bookable resource entity
@@ -30,8 +30,6 @@ Go to **Customizations > Customize the System > Bookable Resource > Fields** and
 Use the data type **Option Set** and select the existing option set **Level of Importance**. This is simply to have a list of 1 to 10, where the underlying numeric values are also 1 to 10.
 
 Add the newly created field to the form to be able to administrate your resources. **Publish the changes**.
-
-
 
 ## Step 2: Create a new schedule board (or modify an existing one)
 
@@ -61,6 +59,7 @@ Double-click the tab of your schedule board (DE#2 in our example). Scroll down t
 
 Below is the new code snippet to copy and paste into the resource cell template, followed by an image that shows the delta (highlighted in yellow) that can be used to modify an existing template. Replace **fa-euro** if you need a symbol different from the euro.
 
+```
     <div class='resource-card-wrapper {{iif ResourceCellSelected "resource-cell-selected" ""}} {{iif ResourceUnavailable "resource-unavailable" ""}} {{iif IsMatchingAvailability "availability-match" ""}}'>
     {{#if imagepath}}
     <img class='resource-image' src='{{client-url}}{{imagepath}}' />
@@ -102,6 +101,7 @@ Below is the new code snippet to copy and paste into the resource cell template,
     {{> resource-map-pin-template this }}
     {{/if}}
     </div>
+```
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of fetchXML with highlighted new code.](../../field-service/media/schedule-board-tab-settings-resource-cell-template-yellow.png "Screenshot of fetchXML with highlighted new code")
@@ -117,7 +117,7 @@ To accomplish this, from the same schedule board tab setting where you edited th
 
 Copy and paste the following code snippet into the filter layout. The following image shows the delta (highlighted in yellow) that can be used to modify an existing template.
 
-
+```
     <?xml version="1.0" encoding="utf-8" ?>
     <filter>
     <controls>
@@ -148,6 +148,7 @@ Copy and paste the following code snippet into the filter layout. The following 
     </control>
     </controls>
     </filter>
+ ```
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of fetchXML with highlighted new code for filter layout.](../../field-service/media/schedule-board-tab-settings-filter-layout-yellow.png "Screenshot of fetchXML with highlighted new code for filter layout")
@@ -160,11 +161,11 @@ Use the gear button and **Save As** to create a custom template. The existing co
 
 After this line: 
             
-        <entity name="bookableresource">:
+`<entity name="bookableresource">`:
 
 Paste the following:
 
-        <attribute name="tsp_resourcecost" alias="resourcecost" groupby="true"/>
+ `<attribute name="tsp_resourcecost" alias="resourcecost" groupby="true"/>`
 
 See the following image for reference:
 
@@ -173,15 +174,18 @@ See the following image for reference:
 
 After the ending:
 
-            </filter> tag of the <!-- Territory filter -->
+`</filter> tag of the <!-- Territory filter -->`
 
 Paste the following:
 
-		<filter type="or" ufx:if="$input/ResourceCost">
-			<condition attribute="tsp_resourcecost" operator="le">
-				<ufx:value select="$input/ResourceCost" attribute="value" />
-			</condition>
-		</filter>
+```
+<filter type="or" ufx:if="$input/ResourceCost">
+ <condition attribute="tsp_resourcecost" operator="le">
+  <ufx:value select="$input/ResourceCost" attribute="value" />
+ </condition>
+</filter>
+
+```
 
 See the following image for reference:
 
@@ -202,11 +206,7 @@ Back on the schedule board we've been working on, you'll see that we have define
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource card.](../../field-service/media/schedule-board-tab-settings-resource-card.png "Screenshot of resource card")
 
-- For further context on schedule board extensibility, visit our [topic that provides a deep overview of scheduling extensibility](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs).
+- For further context on schedule board extensibility, visit our [topic that provides a deep overview of scheduling extensibility](/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs).
 
-### See also
-- A [sample walkthrough](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/extending-urs-step-by-step) to help you learn how to implement extensibility.
-- [Extensibility language syntax (UFX)](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/universal-fetchxml).
-- [Extensibility-specific release notes](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).<!-- Edit note: This last link goes to a topic with 2018 dates. Check if there is a more recent file to point to. -->
 
 
