@@ -45,7 +45,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
   ![Work order lifecycle in Dynamics 365 field service.](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 field service")  
   
-||||||||  
+|  | Create | Schedule | Dispatch | Service | Review | Invoice |  
 |-|-|-|-|-|-|-|  
 |**What happens**|New work order is created.<br /><br /> Assigned incident, product, services, skills, territory, etc.|Work order schedule is created.<br /><br /> Resources assigned to the work order.<br /><br /> Date and time specified.|Field agent notified of work order.<br /><br /> Field agent may review and accept/decline the work order.|Work order is carried out.<br /><br /> Information about what is performed in the field is entered through the mobile app.|Supervisor verifies that all the work was done properly, and that all information regarding the work order is correct.|Invoice is created based on products and services used.<br /><br /> Inventory adjustments are made.<br /><br /> Products converted into equipment (if applicable)|  
 |**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Sales order: By sales/scheduling.<br /><br /> Unplanned: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification sent by system automatically to field agent, customer, and other parties. **Note:**  Notifications need to set up in the system.|Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
@@ -147,6 +147,10 @@ Popup navigation will now be enabled when the following entities are selected fr
 > This feature is available in the Unified Interface only.
 
 ### Show simplified work order commands
+
+> [!Note]
+> The simplified work order commands are available as an early access feature in the 2021 wave 2.
+
 
 In the Field Service 2021 wave 2 update (8.8.47+), the work order ribbon is simplified upon upgrade because a new Field Service setting called **Show Simplified Work Order Commands** is set to **Yes** by default. 
 
