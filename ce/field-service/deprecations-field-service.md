@@ -32,6 +32,6 @@ For more information about this deprecation, [see this blog post](https://cloudb
 
 ## See also
 
-- [Deprecations for Universal Resource Scheduling](../shared/urs/deprecations-scheduling.md)
+- [Deprecations for Universal Resource Scheduling](/dynamics365/common-scheduler/deprecations)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
