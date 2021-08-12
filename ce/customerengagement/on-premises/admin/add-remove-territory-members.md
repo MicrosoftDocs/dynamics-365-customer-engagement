@@ -1,6 +1,6 @@
 ---
-title: "Add or remove territory members  | MicrosoftDocs"
-description: "Add or remove territory members in Dynamics 365 Customer Engagement."
+title: "Add or remove territory members in Dynamics 365 Customer Engagement (on-premises)"
+description: "To accommodate changes in sales territories or the representatives that are assigned to them, follow these steps to add or remove sales territory members."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Add or remove territory members
+# Add or remove sales territory members
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

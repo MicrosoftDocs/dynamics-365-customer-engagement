@@ -1,6 +1,6 @@
 ---
-title: "Assign security roles to a form  | MicrosoftDocs"
-description: "Control form and field access by assigning different security roles to different forms you create."
+title: "Form-level security in Dynamics 365 Customer Engagement (on-premises)"
+description: "To more finely control form and field access, follow these steps to assign different security roles to the different forms you create."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
