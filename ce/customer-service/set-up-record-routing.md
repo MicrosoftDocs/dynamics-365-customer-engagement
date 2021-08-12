@@ -1,7 +1,7 @@
 ---
 title: "Set up record routing | MicrosoftDocs"
 description: "Learn how to set up record routing in Customer Service."
-ms.date: 05/31/2021
+ms.date: 08/13/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
