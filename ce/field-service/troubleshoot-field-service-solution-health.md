@@ -577,20 +577,15 @@ Severity: High
 
 ### What it checks
 
-Checks whether Frontline Workers who have access to the Field Service Mobile (D365) application are assigned the Field Service Resource role and the Field Service Resource field security profile.
+Checks whether frontline workers who have access to the Field Service (Dynamics 365) mobile app are assigned the Field Service resource role and the Field Service resource field security profile.
 
 ### Why it fails
 
-When a Frontline Worker has access to the Field Service Mobile (D365) app without Field Service Resource role and/or the Field Service Resource field security profile
+When a frontline worker has access to the Field Service (Dynamics 365) mobile app without Field Service resource role and/or the Field Service resource field security profile
 
 ### How to fix
 
-Add Field Service Resource Security role and field security profile to the user. For more information see: https://docs.microsoft.com/dynamics365/field-service/frontline-worker-set-up
-
-
-
-
-
+Add Field Service resource security role and field security profile to the user. For more information see, [see this article on setting up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
 
 ### See also
 
