@@ -1,5 +1,5 @@
 ---
-title: "Set up record routing | MicrosoftDocs"
+title: "Set up unified routing for records | MicrosoftDocs"
 description: "Learn how to set up record routing in Customer Service."
 ms.date: 08/13/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Set up record routing
+# Set up unified routing for records
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
