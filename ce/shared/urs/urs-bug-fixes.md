@@ -4,7 +4,7 @@
 
 - Fixed a bug where columns (fields) of type customer would not filter based on the text typed, but show all records, when filtered in column filters on the requirement panel of the schedule board.
 - When using the preferred resource on the requirement and quick scheduling is used, incorrect resources are shown with the heart icon for preferred resource. This issue is now fixed. 
-- Fixed a bug where an error is thrown when booking end time and actual arival time are same. This no longer throws an error, as it is a valid scenario for resources. 
+- Fixed a bug where an error is thrown when booking end time and actual arrival time are same. This no longer throws an error, as it is a valid scenario for resources. 
 - When a resource has time off for a few hours in a day, in the schedule board list view, there are two duplicate line entries for the same time off duration. This issue is now fixed, and should show as only one line item in the list view. 
 - Pushed an improvement to the upgrade experience: when an organization deleted an out-of-the box shipped booking status record, the upgrade failed. This issue is now fixed. 
 - Fixed an issue where users couldn't create a booking alert that they do not have read and write privileges to the booing alert status record type, even when the user has the necessary privileges but the team they are assigned to doesn't have the privileges. This bug is now fixed. 
