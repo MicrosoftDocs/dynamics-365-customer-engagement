@@ -90,17 +90,16 @@ To add a new asset, select the ellipses icon, and either add a new asset, or rel
 > [!Note]
 > You can't drag a sub asset to a functional location different from the parent asset's functional location.
 
-## Search the asset functional location tree
+## Search the functional location tree
 
-// Video: https://msit.microsoftstream.com/video/4db40840-98dc-b561-500e-f1ebf15df4d3
+Use the search bar to search for functional locations and associated assets. When searching, check the **Show Assets** box to include assets in search. Matching search results are highlighted and bold.
 
-1. Use the search bar to search for functional locations, and/or Assets. Must check off show Assets button to include assets in search. Matching search results are highlighted and bold
-2. number of search matches found is displayed underneath search bar
-3. expand all and collapse all 
+The number of search matches are shown beneath the search bar.
 
+For larger or more complex trees, you can also expand or collapse all the results by using the **Plus** and **Minus** icons at the top of the tree, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assets-functional-location-search.png)
+> ![Functional location tree in Field Service, showing the search bar and the collapse and expand all options.](./media/assets-functional-location-search.png)
 
 ## Use functional location for work orders
 
