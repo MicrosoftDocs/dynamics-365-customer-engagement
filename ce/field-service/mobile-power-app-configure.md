@@ -1,7 +1,7 @@
 ---
 title: "Customize the Field Service (Dynamics 365) mobile app SiteMap, forms, and views | MicrosoftDocs"
 description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
-ms.date: 06/01/2021
+ms.date: 08/12/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-field-service
@@ -103,58 +103,61 @@ Another way you can add work order information to the booking form is to add a [
 [editing related table records directly from another table’s main form](/powerapps/maker/model-driven-apps/form-component-control) for more details.
 
 For more general information, see the article on [customizing entity forms](/powerapps/developer/model-driven-apps/customize-entity-forms).
-## Edit the Bookings Calendar Control
 
-By default, the Booking Calendar Control will display the following details associated with the Booking:
-- Account
-- Incident Type
-- Address
-- Booking Status
-- Start Time and Duration
+## Edit the bookings calendar control
 
-You can customize this control to include up to three additional fields with optional labels, in addition to changing Incident Type, which is referred to as “Primary Custom Field”. The new fields can be modified to show data from any column in a view of the Bookable Resource Booking.
+By default, the booking calendar control shows the following details associated with the booking:
 
-To start, you will want to create a new view or edit an existing one with data which you will expose on the Booking Calendar Control. This can be the default view, or an alternate view on the Bookable Resource Booking.
-To setup your view, navigate in CRM to Settings > Customization > Customize the System > expand “Entities” and select Bookable Resource Booking.
+- **Account**
+- **Incident Type**
+- **Address**
+- **Booking Status**
+- **Start Time and Duration**
 
-Click on Views, then select the desired view. In this example we are updating the “Active Bookable Resource Bookings” View.
-From the view you can then add any column from tables which have a relationship to the Bookable Resource Booking. E.g., if you wanted to show Work Order Priority, you would select Work Order then add the “Priority” column to the view. Note the Name of the column as this will be used later when customizing the field (in our example the Name is “msdyn_priority”).
+You can customize this control to include up to three more fields with optional labels, in addition to changing the incident type, which is referred to as "Primary Custom Field." The new fields can be modified to show data from any column in a view of the **Bookable Resource Booking**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of editing a view to add new attribute.](./media/FSM_BCC1.png)
+To customize the control, create a new view or edit an existing view with data you want to expose on the booking calendar control.
 
-Once the view has desired columns, return to the Customizations, and select the Bookable Resource Booking entity, then select “Controls” and “Booking Calendar Control”. This will expose the control properties which can be configured.
+To setup your view, go to **Field Service** > **Settings** > **Customization** > **Customize the System** > **Entities** and select **Bookable Resource Booking**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of editing a Booking Calendar Control properties.](./media/FSM_BCC2.png)
+Select **Views**, then select the desired view. In the following screenshot, we updated the **Active Bookable Resource Bookings** view.
 
-To configure fields, click on the edit button next to the desired field. Then input the reference to the field as an attribute of Bookable Resource Booking, or as linkedEntity.attribute. In this example we are adding the Work Order Priority as Custom Field 1. This would be entered as “msdyn_workorder.msdyn_priority”. 
-
-You can also configure the optional Custom Field Label associated with the Custom Field. This label is displayed as entered with addition of a colon after the field before the value. Here we are entering “Priority”.
-
-If a field has no data, it will be hidden form the user interface.  This is illustrated below in the Booking Calendar Control where the first Booking has a Priority set and the second does not. In this case the control is configured with:
-
-- Custom Field 1: Work order Priority
-- Custom Label 1: “Priority”
-- Custom Field 2: Work Location
-- Custom Label 2: empty
-- Custom Field 3: Work Order Number
-- Custom Label 3: “WO #”
-
+From the view, you can then add any column from tables that have a relationship to the bookable resource booking. For example, if you wanted to show **Work Order Priority**, select **Work Order**, then add the **Priority** column to the view. Note the name of the column, as the name will be used later when customizing the field. In our example, the name is *msdyn_priority*.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile with Customized Calendar Agenda View.](./media/FSM_BCC3.png)
+> ![Editing a view to add new attribute in Power Apps](./media/mobile-2020-calendar-control-1.png)
 
-Custom Fields are also shown on the Day View of the Calendar, when booking duration is long enough to support the additional text. Custom data is also shown when opening booking details from the Map view.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile with Customized Calendar Day View.](./media/FSM_BCC4.png)
+Once the view has desired columns, return to **Customizations**. Select the bookable resource booking, then select **Controls** and **Booking Calendar Control**. Here you'll see the control properties that can be configured.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile with Customized Calendar Map View.](./media/FSM_BCC5.png)
+> ![Editing booking calendar control properties in Power Apps.](./media/mobile-2020-calendar-control-2.png)
+
+To configure fields, select the **Edit icon** next to the field. Input the reference to the field as an attribute of bookable resource booking, or as `linkedEntity.attribute`. In this example, we added the work order priority (`msdyn_workorder.msdyn_priority`) as **Custom Field 1**.
+
+You can also configure the optional custom field label associated with the custom field. This label is displayed as entered, with an added colon after the field and before the value. In our example, we entered *Priority*.
+
+If a field has no data, it is hidden. For example, in following screenshot, the first booking has a set **Priority**, and the second booking does not. In our example, the control is configured with:
+
+- Custom field 1: Work order priority
+- Custom label 1: *Priority*
+- Custom field 2: Work location
+- Custom label 2: empty
+- Custom field 3: Work order number
+- Custom label 3: *WO #*
+
+> [!div class="mx-imgBorder"]
+> ![Field Service mobile app with a customized calendar agenda view.](./media/mobile-2020-calendar-control-3.png)
+
+Custom fields are also shown on the calendar's day view when the booking duration is long enough to support the extra text. Custom data is also shown when opening booking details from the map view.
+
+> [!div class="mx-imgBorder"]
+> ![Field Service mobile app with customized calendar day view.](./media/mobile-2020-calendar-control-4.png)
+
+> [!div class="mx-imgBorder"]
+> ![Field Service mobile app with customized calendar map view.](./media/mobile-2020-calendar-control-5.png)
 
 > [!Note]
-> Note: If using Offline application, please be sure entities from which attributes are included on the Calendar are included in your Mobile Offline Profile.
+> If you're using the mobile app offline, be sure the record types from which attributes are included on the calendar are also included in your mobile offline profile.
 
 ## Edit views
 
