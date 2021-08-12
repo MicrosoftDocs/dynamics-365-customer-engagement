@@ -71,7 +71,8 @@ To set up a search provider, do the following:
 
 After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org.
 
->[!Note]
+>[!NOTE]
+>
 >If at least one knowledge search provider is enabled and configured, then the configured  value for article search results will not be applicable. For each configured search provider, three article search results will be displayed. Agents can select **Show more** to view additional results. For more information on articles shown in search results, see [Add the Knowledge Base Search control to forms](./add-knowledge-base-search-control-forms.md).
 
    > [!div class=mx-imgBorder]
