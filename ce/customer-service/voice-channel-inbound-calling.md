@@ -80,5 +80,3 @@ A customer will call your support organization by simply calling the phone numbe
 
 
 ## See also
-- Add a Power Virtual Agent Bot
-- Unified routing

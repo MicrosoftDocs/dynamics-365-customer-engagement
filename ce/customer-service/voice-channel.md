@@ -74,6 +74,7 @@ A new support session is created when the voice call is accepted.
 
 [Provision and set up the voice channel](voice-channel-install.md)  
 [Manage phone numbers](voice-channel-number-management.md)  
+[Block a spam number](voice-channel-block-number.md)  
 [Inbound calling](voice-channel-inbound-calling.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [How to route voice calls to agents](voice-channel-route-queues.md)  
@@ -81,10 +82,11 @@ A new support session is created when the voice call is accepted.
 [Configure post call survey](voice-channel-survey.md)  
 [Set up a multi-language contact center](voice-channel-multi-language-contact-center.md)  
 [Handle call overflow for the voice queues](voice-channel-call-overflow.md)  
-[Block a spam number](voice-channel-block-number.md)  
+
 [Manage music](voice-channel-music.md)  
 [Manage voice channel](voice-channel-manage.md)  
 [Supported regions and languages](voice-channel-region-availability.md)  
+[Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
 
 ### Agent experience
 
@@ -100,8 +102,6 @@ A new support session is created when the voice call is accepted.
 [Reporting and analytics](voice-channel-report-analytics.md)  
 
 ### Developer experience
-
-[Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
 
 ### FAQ
 
