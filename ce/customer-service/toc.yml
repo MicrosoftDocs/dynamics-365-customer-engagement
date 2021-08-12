@@ -70,6 +70,8 @@
       href: upgrade-omnichannel.md
     - name: Try channels in Omnichannel for Customer Service
       href: try-channels.md
+    - name: Provide consent to access data
+      href: data-access-consent.md
   - name: Get started
     items: 
     - name: Get started with Customer Service
