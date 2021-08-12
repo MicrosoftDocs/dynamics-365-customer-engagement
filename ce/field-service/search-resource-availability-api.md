@@ -29,10 +29,10 @@ When using Dynamics 365 Field Service (vX) and Universal Resource Scheduling (vY
 | Name | Type | Description | Required | 
 | --- | --- | --- | --- | 
 | Version | String | The version number of the API identifies the version of the API that should be invoked. It follows the format of major.minor.patch. The request doesn't have to contain the complete version number. <p> <li> If only a major version is specified, it invokes the highest minor and patch version available for that major version. <li> If both major and minor versions are specified, it invokes the highest patch version available. <li> If all three parts of the version are mentioned, it will invoke the exact version of the API specified.</ul>| Yes | 
-| IsWebApi | Boolean | Set this to _True_ in order to use the SA via the web API. | Yes
+| IsWebApi | Boolean | Set this to _True_ in order to use the SA via the web API. | Yes |
 | Requirement | Entity | This attribute specifies the resource requirement for which resource availability is being retrieved. This is expected to be a msdyn_resourcerequirement type entity. The requirement can be a pre-existing record from the database, or one created on the fly with the necessary constraints. The entity should contain all the specifics that are relevant for your search. The following some important attributes to populate: <ol> <li>**msdyn_fromdate** (_Datetime_): Requirement's from date in ISO format <li> **msdyn_todate** (_Datetime_): Requirement's to date in ISO format <li> **msdyn_remainingduration** (_Integer_): The remaining duration of the requirement in minutes <li> **msdyn_duration** (_Integer_): The total duration of the requirement in minutes | Yes |
-| Settings | Entity | The [settings attribute](#settings-entity) helps to filter the retrieved resources further. Settings are specified as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name.  | Yes
-| ResourceSpecification | Entity | The [resourceSpecification attribute](#resource-specification-entity) is defined as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name. | No
+| Settings | Entity | The [settings attribute](#settings-entity) helps to filter the retrieved resources further. Settings are specified as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name.  | Yes |
+| ResourceSpecification | Entity | The [resourceSpecification attribute](#resource-specification-entity) is defined as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name. | No |
 
 ### Settings entity
 
