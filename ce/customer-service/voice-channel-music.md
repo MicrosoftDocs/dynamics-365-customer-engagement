@@ -43,10 +43,9 @@ You can configure hold and wait music for each language in each workstream.
 4. In the Edit phone music dialog, you can do the following:
    - **Name**: Edit the name of the music file.
    - **Replace**: Select **Replace** to update the music file to any other music file (with maximum file size of 20 MB) from your computer.
+   - You can play the music file to test it, if you'd like.
 
-5. You can play the music file if you'd like.
-
-6. Select **Save and close**.
+5. Select **Save and close**.
 
 ## Add custom hold and wait music
 
@@ -55,28 +54,10 @@ You can configure hold and wait music for each language in each workstream.
 2. In the **Customer experience** area, select **Phone music (preview)**, and then select **Manage**.
    You'll see a list of out-of-the box music files.
 
-3. Select **Add new**. 
+3. Select **Add new**.
 
 4. In the **Add new phone music** dialog, enter the following details:
    - **Name**: Enter a name for your music file.
    - **Sound file**: Select **Upload** to upload any sound file from your computer with a file size no more than 20 MB. Be sure to choose some music that loops well.
 
->[!TIP]
-> Add music that loops well.
-
-<!--
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-customer-settings.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-add-new.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-number.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-language.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-select.png)
--->
+5. Select **Save and close**.

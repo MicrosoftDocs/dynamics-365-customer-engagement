@@ -26,7 +26,7 @@ Omnichannel for Customer Service helps you enable and use voice and SMS services
 
 ## Use number included with the voice channel
 
-The Voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services.
+The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services.
 However, after the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
 
 ## Prerequisites

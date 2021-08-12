@@ -37,9 +37,9 @@ If you do not have any phone numbers provisioned for your business, then see [Cr
 
 Before you set up outbound voice calls for your business, you'll need the following:
 
-- [Configure one or more phone numbers for outbound calling](#configure-a-phone-number-for-outbound-calling). 
+- [Configure one or more phone numbers for outbound calling](#configure-a-phone-number-for-outbound-calling).
 - [Create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
-- Add users to the voice queue and set their capacity profile.
+- [Set capacity profile and add users](capacity-profiles.md).
 - [Create an outbound profile](#create-an-outbound-profile)
 
 ## Configure a phone number for outbound calling
@@ -80,16 +80,13 @@ This phone number will now be displayed to your customers when your agents call 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-nav.png)
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-capacity-profile.png)
 
 ## Assign a user the capacity profile
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user-nav.png)
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user.png)
@@ -130,24 +127,15 @@ You can define the way outbound calls are made and also who can make them. To cr
 
 4. Select **Save and close**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-profile-nav.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-profile.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-call.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-call2.png)
-
-
 ## Configuration considerations
 
 ### Call backs
 
-Oftentimes agents need to call customers back at a later time. It is recommended to create a phone call activity with direction set to Outbound as a reminder for the agent. 
+Oftentimes agents need to call customers back at a later time. It is recommended to create a phone call activity with direction set to Outbound as a reminder for the agent.
+
+### Understanding outbound queues
+
+By creating an outbound queue, this allows managers to see outbound calls in the Omnichannel Ongoing Conversations Dashboard. Not used for capacity planning, used for monitoring and reporting.
 
 
 > [!div class="mx-imgBorder"]
@@ -173,6 +161,15 @@ Oftentimes agents need to call customers back at a later time. It is recommended
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-callback6.png)
 
-### Understanding outbound queues
 
-By creating an outbound queue, this allows managers to see outbound calls in the Omnichannel Ongoing Conversations Dashboard. Not used for capacity planning, used for monitoring and reporting.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-profile-nav.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-profile.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-call.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-call2.png)
