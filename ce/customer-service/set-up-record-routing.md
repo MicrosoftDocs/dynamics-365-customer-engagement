@@ -34,7 +34,7 @@ To provision unified routing in Customer Service, do the following:
 
 1. In Customer Service Hub, go to **Service Management**.
 2. In the site map, under **Service Terms**, select **Service Configuration**.
-3. On the page that appears, in **Unified routing**, set the toggle to **Yes** for **Turn on unified routing**. You'll see one of the following:
+3. On the page that appears, in **Unified routing**, try to set the toggle to **Yes** for **Turn on unified routing**. You'll see one of the following:
 
    - A request to grant consent to access data.
 
@@ -45,6 +45,8 @@ To provision unified routing in Customer Service, do the following:
       - **Access Common data Service as organization users**: Is required by Omnichannel for Customer Service to write conversation data to Dynamics 365 on behalf of the agent.
       - **Sign in and read user profile**: Is required for the app to acquire an Azure Active Directory token as the user to access Omnichannel for Customer Service back-end applications.
       - **Read and write all dashboards, Read and write all reports, Read and write all workspaces**: Are required for Omnichannel for Customer Service analytics. The application is used for configuring analytics for the customer using Microsoft Power BI, which requests access to Power BI workspaces or reports.
+
+      More information: [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md)
 
       Select **Accept**. The provisioning of unified routing starts.
 

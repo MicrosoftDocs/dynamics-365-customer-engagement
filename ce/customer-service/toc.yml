@@ -166,8 +166,12 @@
         href: queues-omnichannel.md
       - name: Configure work classification
         href: configure-work-classification.md
-      - name: Configure assignment methods for queues
-        href: assignment-methods.md
+      - name: Assignment methods for queues
+        items:  
+        - name: About assignment methods
+          href: assignment-methods.md
+        - name: Configure assignment methods for queues
+          href: configure-assignment-rules.md
       - name: Set up record routing
         items: 
         - name: Set up unified routing for records
