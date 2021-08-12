@@ -1,3 +1,14 @@
+## 3.12.50.27
+
+(Includes Resource Scheduling controls version 1.1.7.211681)
+
+- Fixed a bug where columns (fields) of type Customer would not filter based on the text typed, but show all records, when filtered in column filters on the requirement panel of the schedule board.
+- When using the preferred resource on the requirement and quick scheduling is used, incorrect resources are shown with the heart icon for preferred resource. This issue is now fixed. 
+- Fixed a bug where an error is thrown when Booking end time and Actual arival time are same. It would not throw an error anymore, as it is a valid scenario for Resources. 
+- When a resource has time off for a few hours in a day, in the Schedule board list view, there are two duplicate line entries for the same time off duration. This issue is now fixed, and should show as only one line item in the list view. 
+- Pushed an improvement to the upgrade experience, when an organization deleted an out of the box shipped booking status record, the upgrade failed, which is now fixed. 
+- Users could not create Booking Alert, that they do not have read/write privileges to the Booing Alert Status entity, even when the User has the necessary provileges but the Team he is assigned to, doesn't have the privileges. This bug is now fixed. 
+
 ## 3.12.60.43 - 2021 wave 2 early access
 
 (Includes Resource Scheduling controls version 1.2.0.212086)
