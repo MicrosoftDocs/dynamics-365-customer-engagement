@@ -1,14 +1,14 @@
 ---
 title: "Customize deal manager - Sales Enterprise | MicrosoftDocs"
 description: "Customize the grid, side panel, and charts displayed in deal manager according to your sales team's requirement."
-ms.date: 07/15/2021
+ms.date: 08/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Customize the deal manager workspace (Preview)
+# Preview: Customize the deal manager workspace
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -59,6 +59,8 @@ Customize the editable grid by adding a JavaScript library. These customizations
 **To create and upload a JavaScript library**
 
 1. Write your custom JavaScript code. In the following example, we create JavaScript to disable all fields except a few for the Opportunity entity.   
+    > [!NOTE]
+    > Field-level customizations are also applicable for the same fields in the side panel. 
     ```JavaScript
     function OnRowLoad(executionContext) {
 
@@ -128,9 +130,16 @@ The following table lists the supported and unsupported customizations for side 
 1. Search for **Opportunity** to view all the opportunity-related entities.
 1. Select the **Opportunity** table, and then select **Forms**.
 1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel.
-    :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
+     > [!NOTE]
+    > - By default, all the fields in the form are editable. If you want to set a field to read-only, select the field and enable the **Read-only** property.
+    > - If you've added field-level rules for the editable grid using a web resource, they also become applicable for the same fields in the side panel.  
 
+    :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
+   
+
+  
 ### See also
 
-- [Access the deal manager workspace (Preview)](access-deal-manager.md)  
-- [Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)  
+- [Access the deal manager workspace](access-deal-manager.md)  
+- [Using the deal manager workspace](deal-manager-seller-overview.md)  
+- [Issue: In Context Form may appear in the form selector](ts-oqoi.md#issue-in-context-form-may-appear-in-the-form-selector)
