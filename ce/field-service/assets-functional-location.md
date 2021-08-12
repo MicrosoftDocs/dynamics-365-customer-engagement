@@ -1,7 +1,7 @@
 ---
 title: "Functional location in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn how to use functional location for assets in Dynamics 365 Field Service.
-ms.date: 11/19/2020
+ms.date: 08/12/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
