@@ -25,7 +25,7 @@ If you have only Dynamics 365 Customer Service, the options to configure unified
 ## Prerequisites
 
 - To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing](#provision-unified-routing).
-- To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](entity-channel.md#enable-entities).
+- To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](enable-entities-for-queues.md).
 - You must have the CSR Manager role to configure record routing.
 
 ## Provision unified routing
