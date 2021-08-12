@@ -27,7 +27,7 @@ The following assignment methods are available out of the box:
 
   If you choose to assign work items using skill-based routing and set default skill-matching algorithm at the workstream level to exact match and choose highest capacity as assignment method, then the system will filter agents using exact skill match, workstream’s presence and capacity requirements and order the filtered agents by available capacity.
 
-  If default skill-matching algorithm at the workstream level is set to closest match, then the system will filter agents based on workstream's presence and capacity requirements and order the filtered agents by nearest match and not available capacity.
+  If default skill-matching algorithm at the workstream level is set to closest match, then the system will filter agents based on workstream's presence and capacity requirements and order the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
 
   If you need to distribute  work fairly among agents, then you should consider switching to round robin assignment strategy.
 
