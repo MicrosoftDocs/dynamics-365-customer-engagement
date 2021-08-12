@@ -1,7 +1,7 @@
 ---
 title: Set up a search provider in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 07/22/2021
+ms.date: 08/12/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -69,7 +69,10 @@ To set up a search provider, do the following:
 
 ## Post-configuration agent experience
 
-After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org. Search results display the first three articles for each search provider. Agents can select **Show more** to view additional results.
+After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org.
+
+>[!Note]
+If at least one knowledge search provider is enabled and configured, then the configured  value for article search results will not be applicable. For each configured search provider, three article search results will be displayed. Agents can select **Show more** to view additional results. For more information on articles shown in search results, see [Add the Knowledge Base Search control to forms](./add-knowledge-base-search-control-forms.md).
 
    > [!div class=mx-imgBorder]
    > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
