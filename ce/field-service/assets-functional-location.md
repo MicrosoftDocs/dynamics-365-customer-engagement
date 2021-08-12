@@ -66,7 +66,7 @@ In our example, we've created "Building A Roof" as a location under "Building A,
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the assets and locations on a service account.](./media/assets-functional-location-tree.png)
 
-Select any location in the list for additional details, such as latitude and longitude.
+Select any location in the list for more details, such as latitude and longitude.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a functional location details form.](./media/assets-functional-location-address.png)
@@ -116,7 +116,7 @@ Once the functional location is selected, you'll see that more detailed informat
 
 ### Add multiple functional locations to a single work order
 
-Use additional work order incidents to define more work that needs to be done in addition to the primary work order incident.
+Use more work order incidents to define more work that needs to be done in addition to the primary work order incident.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order incident.](./media/assets-functional-location-work-order-new-incident.png)
