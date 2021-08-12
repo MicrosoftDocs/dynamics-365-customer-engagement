@@ -27,7 +27,7 @@ Sign in to Dynamics 365 as a system administrator.
 
 To see your list of apps, go to:
 
-```https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps```
+`https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps`
 
 Find the Field Service Mobile app and go to the **App Designer**.
 
