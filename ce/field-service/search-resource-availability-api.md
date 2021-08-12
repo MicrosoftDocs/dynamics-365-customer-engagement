@@ -61,6 +61,7 @@ When using Dynamics 365 Field Service (vX) and Universal Resource Scheduling (vY
 | BookedResourceId | Guid | This attribute specifies the resource currently booked for the requirement.  
 
 #### Constraints
+
 Additional constraints can be specified through attributes in this entity. The type of entity does not matter, you can specify any entity logical name.
 
 Review the ‘Retrieve Resources Query’ on the schedule board settings to identify which constraints might apply. By default, it includes the following:
@@ -78,48 +79,50 @@ Review the ‘Retrieve Resources Query’ on the schedule board settings to iden
 ## Output parameters
 
 At the highest level, the output has the following four parameters. The results are represented in entity collections and entities. Responses may not include all the attributes described here as null value or not NA values are omitted from the response. Always check for the presence of an attribute before trying to access it.
+
 | Name | Type | Description | Required | Default value |
 | --- | --- | --- | --- | --- |
-| Time Slots | EntityCollection | A collection of time slot results. See ###TimeSlotsEntity section for more details.
-| Resources | EntityCollection | A collection of resource results. Resources are represented as a collection of entities with the following attributes: <ol> <li> **BookableResource** (_Entity_): The bookable resource entity that is available for the requirement. <li> **TotalAvailableTime** (_Double_): The total available time for the resource to perform the requirement.
-| Related | Entity | Related resources represent resources and time slots of resources that are not directly qualified for the requested requirement but are related. For example, if a crew member qualifies for a requirement, then the other members of that crew would be related results. <ol> <li> **Timeslots** (*EntityCollection*): Time slots of related resources. The definition of time slots is the same as described in the [time slots section](###TimeSlotsEntity). <li> **Resources** (*EntityCollection*): The related resources. The definition of resources is the same as described in the resources attribute definition above. 
-| Exceptions | Entity | This attribute contains information about any exception that occurred and information about if and where the resource search was truncated. <ol> <li> **Message** (_String_): Exception message <li> **ResourcesTruncatedAt** (_Integer_): If the number of resources exceeded the retrieval limit; the number where the resources where truncated.
+| Time Slots | EntityCollection | A collection of time slot results. See ###TimeSlotsEntity section for more details. |
+| Resources | EntityCollection | A collection of resource results. Resources are represented as a collection of entities with the following attributes: <ol> <li> **BookableResource** (_Entity_): The bookable resource entity that is available for the requirement. <li> **TotalAvailableTime** (_Double_): The total available time for the resource to perform the requirement. |
+| Related | Entity | Related resources represent resources and time slots of resources that are not directly qualified for the requested requirement but are related. For example, if a crew member qualifies for a requirement, then the other members of that crew would be related results. <ol> <li> **Timeslots** (*EntityCollection*): Time slots of related resources. The definition of time slots is the same as described in the [time slots section](#time-slots-entity). <li> **Resources** (*EntityCollection*): The related resources. The definition of resources is the same as described in the resources attribute definition above. |
+| Exceptions | Entity | This attribute contains information about any exception that occurred and information about if and where the resource search was truncated. <ol> <li> **Message** (_String_): Exception message <li> **ResourcesTruncatedAt** (_Integer_): If the number of resources exceeded the retrieval limit; the number where the resources where truncated. |
 
 ### Time slots entity
+
 | Name | Type | Description | Required | Default value |
 | --- | --- | --- | --- | --- |
-| ID | Guid | Unique identifier for the time slot
-| Type | Integer | The type of time slot can be one of the following: <ul><li> **0**: Available <li> **1**: Scheduled <li> **2**: Off <li> **3**: Break
-| StartTime | Datetime | The start time of the time slot. If there is travel for the requirement, then this is the start time of travel. If not, this is the start time of the requirement. 
-| Arrival Time | Datetime | The arrival time of the time slot. If there is travel for the requirement, then this is the start time of requirement, after travel has been completed. If not, it is the same as the start time of the time slot. 
-| EndTime | Datetime | The end time of the time slot.
-| Effort | Integer | The effort or capacity of the resource to carry out the requirements.
-| Resource Requirement | EntityReference | The resource requirement for which time slots are being retrieved.
-| Potential | Boolean | A boolean value indicating if the time slot has potential to fulfill the requested requirement.
-| IsDuplicate | Boolean | A boolean value indicating if the time slot is a duplicate.
-| Allow Overlapping | Boolean | A boolean value indicating if overlapping is allowed.
-| Resource| Entity | The resource to which the time slot belongs.
-| Location| Entity | The location of the time slot.
-| Travel| Entity | The travel associated with the time slot.
-| Next| Entity  | The travel associated with the next time slot.
-| Availability| Entity | The detailed availability information for a time slot. This is used in connection with time groups.
-| TimeGroup| Entity | The details about a time group.
+| ID | Guid | Unique identifier for the time slot | 
+| Type | Integer | The type of time slot can be one of the following: <ul><li> **0**: Available <li> **1**: Scheduled <li> **2**: Off <li> **3**: Break |
+| StartTime | Datetime | The start time of the time slot. If there is travel for the requirement, then this is the start time of travel. If not, this is the start time of the requirement. |
+| Arrival Time | Datetime | The arrival time of the time slot. If there is travel for the requirement, then this is the start time of requirement, after travel has been completed. If not, it is the same as the start time of the time slot. |
+| EndTime | Datetime | The end time of the time slot. |
+| Effort | Integer | The effort or capacity of the resource to carry out the requirements. |
+| Resource Requirement | EntityReference | The resource requirement for which time slots are being retrieved. |
+| Potential | Boolean | A boolean value indicating if the time slot has potential to fulfill the requested requirement. |
+| IsDuplicate | Boolean | A boolean value indicating if the time slot is a duplicate. |
+| Allow Overlapping | Boolean | A boolean value indicating if overlapping is allowed. |
+| Resource| Entity | The resource to which the time slot belongs. |
+| Location| Entity | The location of the time slot. |
+| Travel| Entity | The travel associated with the time slot. |
+| Next| Entity  | The travel associated with the next time slot. |
+| Availability| Entity | The detailed availability information for a time slot. This is used in connection with time groups. |
+| TimeGroup| Entity | The details about a time group. |
 
 #### Time slot resource
 
 | Name | Type |	Description |
 | --- | --- | --- |
-|Resource|	EntityReference|	An entity reference to the bookable resource.
-|ResourceGroup|	EntityReference	|An entity reference to the bookable resource group.
-|BusinessUnit|	EntityReference	|An entity reference to the business unit.
-OrganizationalUnit|	EntityReference|	An entity reference to the organizational unit.
-ResourceType	|Integer|	The resource type. See the **ResourceType** attribute on the **BookableResource** entity for possible values.
-PoolId|	Guid|	The ID of the pool that the resource is a member of for the duration of the time slot.
-CrewId|	Guid|	The ID of the crew that the resource is a member of for the duration of the time slot.
-Characteristics|	EntityCollection|	The bookable resource characteristics. See **Time Slot Resource Characteristics** section for more details.
-HasStartLocation|	Boolean|	A boolean value indicating if the resource has a start location.
-HasEndLocation|	Boolean	|A boolean value indicating if the resource has an end location.
-Email|	String	|The resource’s email address.
-Phone|	String|	The resource’s phone number.
-ImagePath|	String	|The path to the resource’s image.
-CalendarId|	Guid	|The resource’s calendar ID.
+| Resource |	EntityReference|	An entity reference to the bookable resource. |
+| ResourceGroup |	EntityReference	| An entity reference to the bookable resource group. |
+| BusinessUnit |	EntityReference	| An entity reference to the business unit. |
+| OrganizationalUnit |	EntityReference|	An entity reference to the organizational unit.
+| ResourceType |Integer|	The resource type. See the **ResourceType** attribute on the **BookableResource** entity for possible values. |
+| PoolId |	Guid|	The ID of the pool that the resource is a member of for the duration of the time slot. |
+| CrewId |	Guid|	The ID of the crew that the resource is a member of for the duration of the time slot. |
+| Characteristics |	EntityCollection|	The bookable resource characteristics. See **Time Slot Resource Characteristics** section for more details. |
+| HasStartLocation |	Boolean|	A boolean value indicating if the resource has a start location. |
+| HasEndLocation |	Boolean	|A boolean value indicating if the resource has an end location. |
+| Email |	String	|The resource’s email address. |
+| Phone |	String|	The resource’s phone number. |
+| ImagePath |	String	|The path to the resource’s image. |
+| CalendarId |	Guid	|The resource’s calendar ID. |
