@@ -4,6 +4,9 @@ description: "Collaborate efficiently in Dynamics 365 without switching to Teams
 ms.date: 08/13/2021
 ms.topic: article
 ms.service: crm-online
+search.app: 
+  - D365CE
+  - Powerplatform
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
@@ -37,7 +40,7 @@ No. After the tenant admin provides the consent, a Dynamics 365 system administr
 | Chat.ReadWrite.All  | Delegated   | Reads user's chats and recent messages to display in chat list.                                                                                                                                                                                                                                                       |
 | Directory.Read.All  | Delegated   | Reads user's teams and channels display name.                                                                                                                                                                                                                                                                         |
 | Presence.Read.All   | Delegated   | Reads presence information of all users to be displayed on the user avatars in chat list.                                                                                                                                                                                                                             |
-| User.Read.All       | Application | Reads display name and licenses of users to validate if the suggested participants have a Teams license assigned. This permission is used by the **Suggested chats and contacts** section in the chat list. The permission is set at the application-level as it's being used a background service for better performance. |
+| User.Read.All       | Application | Reads display name and licenses of users to validate if the suggested participants have a Teams license assigned. This permission is used by the **Suggested chats and contacts** section in the chat list. The permission is set at the application-level as it's used by a background service for better performance. |
 | User.ReadBasic.All  | Delegated   | Reads users' photos.                                                                                                                                                                                                                                                                                                  |
 
 ## Does the consent apply to other Microsoft services as well?

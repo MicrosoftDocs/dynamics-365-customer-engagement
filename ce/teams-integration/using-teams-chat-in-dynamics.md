@@ -5,6 +5,9 @@ ms.date: 08/13/2021
 ms.topic: article
 author: lavanyakr01
 ms.service: crm-online
+search.app: 
+  - D365CE
+  - Powerplatform
 ms.author: lavanyakr
 manager: shujoshi
 ---

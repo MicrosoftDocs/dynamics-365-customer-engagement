@@ -4,6 +4,9 @@ description: "Enable Teams chat to help users effectively collaborate on their D
 ms.date: 08/13/2021
 ms.topic: article
 ms.service: crm-online
+search.app: 
+  - D365CE
+  - Powerplatform
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi

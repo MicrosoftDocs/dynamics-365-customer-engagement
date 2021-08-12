@@ -4,6 +4,9 @@ description: "Collaborate efficiently in Dynamics 365 without switching context.
 ms.date: 08/13/2021
 ms.topic: article
 ms.service: crm-online
+search.app: 
+  - D365CE
+  - Powerplatform
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
