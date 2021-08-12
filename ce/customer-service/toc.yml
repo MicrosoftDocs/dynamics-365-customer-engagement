@@ -175,7 +175,9 @@
         - name: Configure assignment methods for queues
           href: configure-assignment-rules.md
       - name: Set up record routing
-        items: 
+        items:
+        - name: Provision unified routing for Customer Service
+          href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
         - name: Automatically route records using custom flow

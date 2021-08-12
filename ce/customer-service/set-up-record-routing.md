@@ -24,44 +24,9 @@ If you have only Dynamics 365 Customer Service, the options to configure unified
 
 ## Prerequisites
 
-- To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing](#provision-unified-routing).
+- To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing for Customer Service](provision-unified-routing.md).
 - To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](enable-entities-for-queues.md).
-- You must have the CSR Manager role to configure record routing.
-
-## Provision unified routing
-
-To provision unified routing in Customer Service, do the following:
-
-1. In Customer Service Hub, go to **Service Management**.
-2. In the site map, under **Service Terms**, select **Service Configuration**.
-3. On the page that appears, in **Unified routing**, try to set the toggle to **Yes** for **Turn on unified routing**. You'll see one of the following:
-
-   - A request to grant consent to access data.
-
-      > [!div class=mx-imgBorder]
-      > ![Consent to allow access to data.](media/data-consent.png "Consent to allow access to data")
-
-     The permissions are as follows:
-      - **Access Common data Service as organization users**: Is required by Omnichannel for Customer Service to write conversation data to Dynamics 365 on behalf of the agent.
-      - **Sign in and read user profile**: Is required for the app to acquire an Azure Active Directory token as the user to access Omnichannel for Customer Service back-end applications.
-      - **Read and write all dashboards, Read and write all reports, Read and write all workspaces**: Are required for Omnichannel for Customer Service analytics. The application is used for configuring analytics for the customer using Microsoft Power BI, which requests access to Power BI workspaces or reports.
-
-      More information: [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md)
-
-      Select **Accept**. The provisioning of unified routing starts.
-
-   - A message that unified routing is being provisioned.
-
-   If Omnichannel for Customer Service doesn't have the required solutions, one of the following messages will be displayed above the **Turn on unified routing** toggle:
-
-   - "Some required services need to be installed before unified routing can be turned on. Please contact Microsoft Support."
-   - "Before unified routing can be turned on, Omnichannel needs to be updated. Please contact Microsoft Support."
-
-After unified routing is provisioned, for Customer Service users, **Unified Routing** appears in the site map.
-
-> ![Site map view for unified routing.](media/unified-routing-site-map.png)
-
-The site map will also be updated with **Unified Routing** for users of Customer Service and Omnichannel for Customer Service if you install or upgrade Omnichannel for Customer Service.
+- You must have the System Administrator role to configure record routing.
 
 ## Configure unified routing for records
 
@@ -97,6 +62,8 @@ To configure a workstream for the record, do the following:
 
 Intake rules for a record help determine the workstream to be picked up to assign an incoming work item.
 
+You can create intake rules independently and map them to basic routing rulesets also. However, on any workstream details page, only those intake rules will be displayed that are mapped to the workstream. Therefore, if you want to prioritize the runtime evaluation of the intake rules, you'll need to select **See more** on the workstream details page, and reorder the rules in the **Decision list**.
+
 Perform the following steps to configure the intake rules:
 
 1. Select the workstream that you configured for routing records, such as the case.
@@ -127,7 +94,7 @@ The following screenshot shows a workstream with the required intake rule and ro
 
 ### See also
 
-[Records routing](entity-channel.md)  
+[Overview of unified routing](overview-unified-routing.md)  
 [Create workstreams](create-workstreams.md)  
 [Create multiple work streams for records routing](multiple-ws-entity-record-routing.md)  
 

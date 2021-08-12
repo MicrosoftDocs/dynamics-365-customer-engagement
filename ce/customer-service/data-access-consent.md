@@ -8,7 +8,7 @@ manager: shujoshi
 ms.topic: reference
 ---
 
-# Data access consent to provision Omnichannel for Customer Service
+# Provide consent to access data to provision Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -99,4 +99,4 @@ The “Omnichannel for Customer Service” application. This app has Dataverse p
 ### See also
 
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
-[Set up record routing](set-up-record-routing.md)  
+[Provision unified routing for Customer Service](provision-unified-routing.md)  
