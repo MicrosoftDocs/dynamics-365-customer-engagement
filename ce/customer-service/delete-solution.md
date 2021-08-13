@@ -86,8 +86,8 @@ Do the following to delete the solutions for Omnichannel historical analytics:
 1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](./configure-cs-historical-analytics-csh.md). 
 
 1. On the **Solutions** page, select and delete the following solutions:
-   1. msdyn_InsightsAnalyticsOCConfiguration
-   1. msdyn_DataInsightsAndAnalyticsForOC
+    1. `msdyn_InsightsAnalyticsOCConfiguration`
+    1. `msdyn_DataInsightsAndAnalyticsForOC`
 
 ## Delete OmnichannelCustomerServiceHub solution
 
