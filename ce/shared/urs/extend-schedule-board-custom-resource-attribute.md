@@ -208,5 +208,3 @@ Back on the schedule board we've been working on, you'll see that we have define
 
 - For further context on schedule board extensibility, visit our [topic that provides a deep overview of scheduling extensibility](/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs).
 
-
-
