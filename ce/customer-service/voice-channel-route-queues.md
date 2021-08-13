@@ -36,7 +36,7 @@ Do the following to configure a workstream for voice:
 
 1. On the left pane, select **Workstreams**, and then on the **Create a workstream** dialog, enter the following.
 
-2. Enter the following details for the work stream:
+2. Enter the following details for the workstream:
 
     - **Name:** An intuitive name, such as Contoso voice workstream.
     - **Type:** Select **Voice**.
