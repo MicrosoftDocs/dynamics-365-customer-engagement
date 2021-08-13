@@ -1,10 +1,10 @@
 ---
-title: "Set Up a Multi-Language Contact Center in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
-author: neeranelli
-ms.author: daclar
+title: "Set up a multi-language contact center in the voice channel | MicrosoftDocs"
+description: "Learn how to set up a multi-language contact center in the voice channel for Omnichannel for Customer Service."
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
@@ -12,81 +12,48 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 # Allow customers to choose a language
 
+Agents are increasingly serving global and diverse customers who speak multiple languages, so it's important that the communication tools they use be able to work across languages.
 
-// Video: https://msit.microsoftstream.com/video/a8a20840-98dc-b561-c6c3-f1ebd85972a9
-
-Contact centers are increasingly serving global and diverse customers that speak multiple languages.​
-
-The tools they use need to be flexible in working across languages.
-
-In this article we will show how to configure a phone number in a workstream allow customer to choose the language they speak and the language of the bot
+You can configure a phone number in a workstream that allows the customer to choose the language in which they speak, as well as choose the language of the bot.
 
 ## Prerequisites
-- Have a phone number set up. See topic on [Number management](voice-channel-number-management.md)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-create-number.png)
+- Set up a phone number. More information: [Number management](voice-channel-manage-phone-numbers.md)
 
-- Create Queues for your business needs. For the example scenario in this article we have two Queues, English Queue and SPanish Queue based on the language fo the customer.
+  
+- Create the queues you need for your business, based on the customer's language. More information: [Create and manage queues](queues-omnichannel.md)
 
+   
+- Create a workstream. For the **Type**, select **Voice**. More information: [Create and manage workstreams](create-workstreams.md)
+   
 
+## Add a phone number to the workstream and configure language settings
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-language-create-queues.png)
+1. In Omnichannel admin center, select **Workstreams** on the sitemap, and then select the name of the workstream you want to add the phone number to. 
+2. Select **Add a phone number**, select the number to add to the workstream, and then select **Next**.
+3. On the **Language page**, select **Add primary language**. A Language page is displayed, where you set the primary language for the channel. You can add additional languages to this voice channel, and each language added will have its own settings.
+   The **Primary language** is the first language the bot greets the customer in. This allows your organization to have one phone numebr that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
+4. Select the type of wait and hold music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
+5. Select a voice style, pitch, and speaking speed for the bot.
+6. Toggle **Post-call survey** to **On** if you want the bot to survey the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey bot after the agent hangs up.
+7. Select **Next**.
+8. Select the preferred behaviors, and then select **Next**.
+9. Select **Save and close** to save the settings.
+ 
+## Create language-specific routing rules
 
-
-
-## Add phone number to workstream
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-workstream.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-add-phone-number-workstream.png)
-
-## Select languages in phone number in workstream
-
-Primary language is the first language the bot greets the customer in. this allows your organization to have 1 phone numebr that services multiple languages rather than having multiple phone numbers, each with one language and asking customers to call the right number.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-phone-primary-language.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-phone-primary-language2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-workstream-add-additional.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-workstream-add-additional2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-workstream-final.png)
-
-> [!Note]
-> Different music for different languages
-
-## Create language specific routing rules
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-route.png)
+Define the language-based routing rules. More information: [Create and manage routing rules in Omnichannel Administration](routing-rules.md).
 
 ## Create a multi-language IVR bot with Azure Bot Framework
 
-
-
-https://azure.microsoft.com/en-us/services/bot-services/
-
+Create the bot. More information [Azure Bot Service](https://azure.microsoft.com/services/bot-services/)
 
 ### Sample code for multi-language IVR bot
 
 > [!Note]
-> Bot author needs to set the va_CustomerLocale context variable field during IVR handoff with the Locale Code for the language they want to support. See supported Locale codes at the end of this document. 
+> The bot author must set the va_CustomerLocale context variable field during the IVR handoff with the locale code for the language they want to support. For more information, see supported locations and locale codes below. 
 
+```
         // Copyright (c) Microsoft Corporation. All rights reserved.
         // Licensed under the MIT License.
         using System.Collections.Generic;
@@ -151,13 +118,13 @@ https://azure.microsoft.com/en-us/services/bot-services/
                         }
                     }
                 }
+              
+```
 
 ## Add your bot to the workstream
 
-https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot
+Add the bot as an IVR bot to the workstream. More information: [Integrate an Azure bot](configure-bot.md)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-add-bot.png)
 
 ## Supported locations and locale codes
 
@@ -211,11 +178,12 @@ https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot
 
 ## Configuration considerations
 
-The Azure bot should repsect the primary language of the workstream. As an example, if the primary language is English, the Azure bot should initially greet the customer in English.
+The Azure bot should respect the primary language of the workstream. For example, if the primary language is English, the Azure bot should initially greet the customer in English.
 
-
-## Additional Notes
 
 ### See also
 
-[Azure cognitive services - speech to text](https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/#features)
+[Introduction to the voice channel](voice-channel.md)
+[Azure cognitive services - speech to text](https://azure.microsoft.com/services/cognitive-services/text-to-speech/#features)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,10 @@
 ---
-title: "Monitor calls in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
-author: neeranelli
-ms.author: daclar
+title: "Monitor calls in the voice channel in Omnichannel for Dynamics 365 Customer Service | MicrosoftDocs"
+description: "Learn how to monitor calls in the voice channel for Omnichannel for Customer Service."
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
@@ -12,44 +12,50 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 # Monitor calls
 
-// Video: https://msit.microsoftstream.com/video/12860840-98dc-b561-7608-f1ebd85efbf7
-
-// PR: https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/tree/voice-aug02
-
-// Doc: https://review.docs.microsoft.com/en-us/dynamics365/customer-service/voice-channel-monitor-calls?branch=voice-aug02 
-
-Monitor, consult, barge
+As a supervisor, it's useful to be able to monitor the calls between your agents and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the agent or customer, as well as step into conversations when additional support is needed.
 
 ## Prerequisites
-Supervisor must have the **Omnichannel Supervisor** role to view consult and barge ongoing conversations.
-
+To monitor calls in the voice channel, you must have the **Omnichannel Supervisor** role. This role allows you to join and consult in ongoing conversations. 
 
 
 ## Monitor ongoing conversations 
 
-Manager sees list of active conversations including customer sentiment analysis for each call
+On the **Omnichannel Ongoing Conversations** dashboard, you, as a supervisor, can view a list of active conversations, including customer sentiment analysis for each call.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-monitor-ongoing-conversations.png)
+> ![Screenshot of ongoing conversations dashboard.](./media/voice-channel-monitor-ongoing-conversations.png)
+
+To find out details about an individual conversation:
+1. On the **Omnichannel Ongoing Conversations dashboard**, select it in the list of active conversations, and then select **Monitor**.
 
 
-Manager selects and highlights conversation and selects **Monitor**
 
-Supervisor will see conversation without being seen as a participant to the agent. 
+## Consult with an agent during a conversation
 
-
-## Consult
-
-Supervisor can consult with agent and send messages to agent hidden from customer.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-monitor-barge.png)
-
-## Barge
-
-Supervisor can join call and speak with customer and agent.
+As a supervisor, you can privately consult with an agent by sending them messages that are hidden from the customer.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-monitor.png)
+> ![Screenshot of monitoring a conversation.](./media/voice-channel-monitor-barge.png)
+
+## Join a conversation (also known as barge)
+
+If needed, you can select **Join call** to enter the conversation and speak with the agent, customer, or chat with the agent privately. When you join a conversation, the agent can see that you have joined.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of conversation barge.](./media/voice-channel-monitor.png)
+
+By joining a conversation, you have access to call controls that allow you to capture details about the conversation, pause the conversation if needed, and engage with the agent and customer as needed.
 
 
+
+### See also
+
+[Introduction to the voice channel](voice-channel.md)
+[Provision and set up the voice channel](voice-channel-install.md)
+[Outbound calling](voice-channel-outbound-calling.md)  
+[Route incoming calls to agents](voice-channel-route-queues.md)  
+[Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
+[View voice calls usage](voice-channel-usage.md)  
+[Configure post-call survey](voice-channel-survey.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
