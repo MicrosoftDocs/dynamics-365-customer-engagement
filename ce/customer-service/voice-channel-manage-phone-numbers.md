@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 <!--
 Neema Tikoo - Talks about how you can purchase numbers from within Dynamics 365. - 
