@@ -240,5 +240,6 @@ You understand that your data may be transmitted and shared with external system
 [Context variables for a bot](context-variables-for-bot.md)  
 [Enable bot context NuGet package](enable-bot-context.md)  
 [Create an application user](../powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant).
+[Overview of the voice channel](voice-channel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

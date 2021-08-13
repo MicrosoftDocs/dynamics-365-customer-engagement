@@ -113,4 +113,8 @@ In private preview, only *one* outbound profile can be created. While you can ed
 
 4. Select **Save and close**.
 
+### See also
+
+[Overview of the voice channel](voice-channel.md)  
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

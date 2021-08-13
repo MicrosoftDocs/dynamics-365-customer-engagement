@@ -9,17 +9,6 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
 ---
-<!--
-Neema Tikoo - Talks about how you can purchase numbers from within Dynamics 365. - 
-Uses the "Create a new resource option"
-//Video 1: https://msit.microsoftstream.com/video/08ba0840-98dc-b561-3805-f1ebd1855239
-
-Nael Haddad/David Clarke - talks about how we simplify acquiring numbers, a one-stop shop for business admins to get new numbers, release numbers, etc using ACS. High-level overview, old screens (Figma)
-//Video 2: https://msit.microsoftstream.com/video/dd07a1ff-0400-b564-49f4-f1eb6cbe2392
-
-Naresh/Abhiney/Sudarshan - discusses how to use an existing resource (say you have unlinked a phone number and want to reuse it now).
-Video 3: https://msit.microsoftstream.com/video/8bfc99ff-0300-b561-3feb-f1ebe379b30a
--->
 
 # Manage phone numbers
 
@@ -27,8 +16,7 @@ Omnichannel for Customer Service helps you enable and use voice and SMS services
 
 ## Use phone number included with the voice channel
 
-The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services.
-However, after the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
+The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. However, after the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
 
 ## Prerequisites
 <!--add Azure portal link, standard text here-->
@@ -49,12 +37,14 @@ To add new phone numbers to your business, you must do the following:
    The **Connect to Azure Communication Services** dialog opens.
 
 2. Select **Create new resource** or **Use existing resource**.
+
    a. If you selected the option to create a new resource, then enter the following details:
    - Azure subscription: 
-   - Azure resource group:   
+   - Azure resource group:
       > [!NOTE]
       > The resource group name should be unique within a given subscription.
    - Resource name: 
+   
    b. If you wish to use an existing resource, see [Use existing resource](#use-existing-resource) to connect to Azure Communication Services.
 
 3. Select **Deploy** to deploy the resource through Dynamics 365 and then select **Add number**.
@@ -132,9 +122,6 @@ Before you proceed with adding an existing resource to Azure Communication Servi
    - Event grip app ID
    - Event grip app tenant ID
 
-3.
-
-4.
 
 ## Edit phone number
 
@@ -187,5 +174,8 @@ If you no longer need a phone number, you can release it from your number list. 
 
 You can only use 1 ACS resource for number management
 
+### See also
+
+[Overview of the voice channel](voice-channel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

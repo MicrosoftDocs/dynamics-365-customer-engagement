@@ -30,62 +30,37 @@ In Omnichannel for Customer Service, you can block phone numbers that your agent
 
 ## Review phone numbers marked as spam
 
-The admin can review the record by clicking view report history​
-Look at all spam reports by looking through the call details, notes etc.​
+You can review all spam notification reports by viewing the report history​. You can visit the conversation history page to review the conversation or even the recordings.​ You can also choose to either block the number or remove the number from pending review list.
 
-They can choose to visit the conversation history page to review the conversation or even the recordings.​
-
-Then they choose to either block the number or remove the number from pending review aka. Potential spam number​
-
-Once they click on block number, it gets added to blocked list​
-
-Anyone calling from that number will no longer reach the queue thereby the agents. Thereby improving agent’s productivity ​
+**To review phone numbers marked as spam**
 
 1. In the site map of Omnichannel admin center, select **Customer settings** under the **Advanced settings** menu.
    
 2. In the **Customer experience** area, select **Blocked numbers (preview)**, and then select **Manage**.
-Select **Block a number**.
 
-3. On the **Blocked numbers (preview)** page, You can view the Pending review list and the set of blocked numbers.
-
-- click on a pending block request to see basic details and the ability to view the related call. 
-
-
-
+3. On the **Blocked numbers (preview) page**, you can do the following:
+    
+    - **Pending review** tab - Shows the list of numbers that have been flagged off as spam by your agents and supervisors. You can view the report for each phone number, and then block the specific number as spam. Select any number from the **Pending review** list and you can do the following:
+      - **Block** - Select to block the number.
+      - **Remove from list** - Select to remove the number from the **Pending review** numbers list.
+      - **View report history** - Select to view the reports for the specific phone number in the **Pending review** list. You can view call details 
+    
+    - **Blocked** tab - Shows the list of phone numbers that have been blocked as spam.
 
 ## Manually block a phone number
 
+1. In the site map of Omnichannel admin center, select **Customer settings** under the **Advanced settings** menu.
+   
+2. In the **Customer experience** area, select **Blocked numbers (preview)**, and then select **Manage**.
+   Select **Block a number**.
+
+## Automatically block phone numbers
+
+You can also automatically block numbers if they are reported as spam two or more times. This not only saves time needed to review every blocked call report received from your agents, it also helps remove the any delay from the administrator's end when there are too many spam numbers to be reviewed. The auto-block option also helps in situations or instances where there might be a surge in spam calls from different numbers. You can also set conditions such that some numbers get directly added to the blocked numbers list, if they match certain conditions based on number of reports.
 
 
+### See also
 
-## Auto block phone numbers 
+[Overview of the voice channel](voice-channel.md)  
 
-Block numbers based on number of reports
-
-Block a number through auto block option​
-
-Set conditions and it gets directly added to blocked list when condition is met​
-
-
-Saves admin time from reviewing every single record​
-
-Remove3s bottle-neck from admins when there are too many reports/records​
-
-Helps during surge in spam calls from different numbers
-
-<!--
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-block-pending.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-block-manual.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-block-approved.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-block-auto.png)
-
--->
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
