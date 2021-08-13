@@ -20,7 +20,7 @@ search.app:
 
 Field service organizations always have work coming in that needs to be scheduled, either by a service agent on the phone or directly by the customer through their website. Booking creation is typically based on the resources available to the company and the requirements of the work.
 
-When using Dynamics 365 Field Service and Universal Resource Scheduling to schedule work, the `msdyn_SearchResourceAvailability` API can be used to retrieve all the eligible resources for the job, to allow for efficient scheduling of the work.
+When using Dynamics 365 Field Service v8.8.43.51 and Universal Resource Scheduling v3.12.46.21 to schedule work, the `msdyn_SearchResourceAvailability` API can be used to retrieve all the eligible resources for the job, to allow for efficient scheduling of the work. At the time of writing, v3 is the latest version of msdyn_SearchResourceAvailability and supports web API calls. 
 
 ## Input parameters
 
