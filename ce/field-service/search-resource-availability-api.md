@@ -119,7 +119,7 @@ At the highest level, the output has the following four parameters. The results 
 | ResourceType |Integer|	The resource type. See the **ResourceType** attribute on the **BookableResource** entity for possible values. |
 | PoolId |	Guid|	The ID of the pool that the resource is a member of for the duration of the time slot. |
 | CrewId |	Guid|	The ID of the crew that the resource is a member of for the duration of the time slot. |
-| Characteristics |	EntityCollection|	The bookable resource characteristics. See **Time Slot Resource Characteristics** section for more details. |
+| Characteristics |	EntityCollection|	The bookable resource characteristics. Each entity in the collection contains entities with characteristics and rating information. <ol> <li> **Characteristic**	(_EntityReference_):	An entity reference to the characteristic. <li> **RatingId**	(_Guid_)	The rating Id for the characteristic. <li> **RatingName**	(_String_):	The rating name. <li> **RatingValue**	(_Integer_):	The rating value. |
 | HasStartLocation |	Boolean|	A boolean value indicating if the resource has a start location. |
 | HasEndLocation |	Boolean	|A boolean value indicating if the resource has an end location. |
 | Email |	String	|The resource’s email address. |
