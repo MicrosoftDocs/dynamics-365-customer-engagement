@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Conversation insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Conversation insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 08/08/2021
+ms.date: 08/13/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -37,30 +37,30 @@ The Digital messaging report includes metrics from the social channels, SMS, Mic
 
 The **Conversation insights** report displays the following metrics about conversations.
 
-| Metric | Description |
-|-------|-------|
-| Inbound chats/Inbound conversations/Inbound calls | The number of conversations that were started or closed within the last 24 hours. |
-| Ongoing |The number of conversations in active, waiting, and wrap-up statuses. |
-| Waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |
-| Closed | The number of conversations closed in the last 24 hours. |
-| Longest wait time | The longest time that a conversation is in queue waiting to be picked up by an agent. |
-| Average handle time | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
-| Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned. |
-| Average wrap time (min) | The average time taken to wrap up conversations. |
-| Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |
-| Chat abandon rate and Call abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. |
-| Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. |
-|Service level | The percentage of chats that were answered within 30 seconds. The 30 seconds threshold can be modified to suit your business needs. |
-|SLA - First response time | The percentage of conversations wherein the customer received the very first response from the agent within 1 minute. The 1 minute threshold can be modified to suit your business needs. Available for only digital messaging channels; not available in Government Community Cloud (GCC).|
-|SLA - Response time | The percentage of messages wherein the customer received a response within 1 min from the agent. The 1 minute threshold can be modified to suit your business needs. Available for only digital messaging channels; not available in GCC. |
-| Avg - First response time (min) | The average time that a customer waited to receive the first response from  agents. |
-|Avg - Response time (min)| The average time that a customer waited to receive responses from agents.|
-| Service level - Speed to answer |The percentage of voice calls that were answered within 30 seconds. he 30 seconds threshold can be modified to suit your business needs.|
-| Avg. talk time (min)| **For voice channel (Preview)**: The average time an agent spent talking with a customer over a voice call. |
-| Avg. hold time (min) | **For voice channel (Preview)**: The average time an agent put a customer on hold over a voice call. |
-|Avg. after call work time|**For voice channel (Preview)**: The average time an agent took to wrap up a voice call.|
-|||
-|||
+| Metric | Description | Availability|
+|-------|-------|------|
+| Inbound chats/Inbound conversations/Inbound calls | The number of chat, conversations, or calls that were started, closed, within the last 24 hours. | Live chat, Digital messaging, Voice (preview) |
+| Ongoing chats/Ongoing conversations/Ongoing calls|The number of chat, conversations, or calls in active, waiting, and wrap-up statuses. | Live chat, Digital messaging, Voice (preview)|
+|Service level | The percentage of chats that were answered within 30 seconds. The 30 seconds threshold can be modified to suit your business needs. | Live chat|
+| Chats waiting in queue/Conversations waiting in queue/Calls waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |Live chat, Digital messaging, Voice (preview)|
+| Closed chats/Closed conversations/Closed calls | The number of conversations closed in the last 24 hours. |Live chat, Digital messaging, Voice (preview)|
+| Longest wait time | The longest time that a conversation is in queue waiting to be picked up by an agent. | Live chat, Digital messaging, Voice (preview)|
+| Average handle time | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). | Live chat, Digital messaging, Voice (preview)|
+| Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned. | Live chat, Digital messaging|
+| Average wrap time (min) | The average time taken to wrap up conversations. | Live chat, Digital messaging|
+| Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |Live chat, Digital messaging, Voice (preview)|
+| Chat abandon rate/Call abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. |Live chat, Voice (preview)|
+| Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. | Live chat, Digital messaging|
+|SLA - First response time | The percentage of conversations wherein the customer received the very first response from the agent within 1 minute. The 1 minute threshold can be modified to suit your business needs. |Available for only digital messaging channels; not available in Government Community Cloud (GCC).|
+|SLA - Response time | The percentage of messages wherein the customer received a response within 1 min from the agent. The 1 minute threshold can be modified to suit your business needs. |Available for only digital messaging channels; not available in GCC. |
+| Avg - First response time (min) | The average time that a customer waited to receive the first response from  agents. | Live chat, Digital messaging|
+|Avg - Response time (min)| The average time that a customer waited to receive responses from agents.| Live chat, Digital messaging|
+| Service level - Speed to answer |The percentage of voice calls that were answered within 30 seconds. The 30 seconds threshold can be modified to suit your business needs.|Voice (preview)|
+| Avg. talk time (min)| The average time an agent spent talking with a customer over a voice call. | Voice (preview)|
+| Avg. hold time (min) |  The average time an agent put a customer on hold over a voice call. | Voice (preview)|
+|Avg. after call work time| The average time an agent took to wrap up a voice call.| Voice (preview)|
+|Avg. speed to answer|The average time it took for a customer call to be answered.| Voice (preview)|
+||||
 
 
 
@@ -74,7 +74,7 @@ The **Ongoing conversations** table provides information about the status of the
 
 The **Ongoing conversations** table displays the following metrics based on the channels through which the conversations are being held.
 
-| Title | Description |
+| Title | Description | 
 |------------ | --------------- |
 | Agent | Name of the agent |
 | Status | The status of the conversation, that is, open, active, waiting, wrap up, and closed. |

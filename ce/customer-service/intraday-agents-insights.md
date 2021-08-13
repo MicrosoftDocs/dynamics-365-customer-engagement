@@ -34,24 +34,24 @@ You can view specific insights about the performance of individual agents or gro
 
 The agents insights report consists of the following metrics.
 
-| Metrics | Description |
-|-------|-------|
-| Agents logged in | The number of agents who are signed in.|
-| Agents with available capacity | The number of signed-in agents who can accept incoming conversation requests as well as their available capacity across all capacity profiles. Unit-based capacity is accounted against the unit capacity profile. |
-| Average handle time per session | The average time taken by an agent to accept an incoming session after it is assigned. |
-| Session reject rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
-| Session time out rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
-| Session transfer rate | The percentage of sessions that were transferred to another agent or queue. |
-| Agent status | The presence status of an agent. |
-| Chat status | Available for Live chat. Displays the number of chat conversations that are in the different statuses.|
-| Conversation status by channel | Available for the digital messaging channels. The distribution of the different conversations statuses across different channels. |
-|Call status| Available for the voice channel (preview). Displays the number of calls that are in the different statuses. |
-| Participation mode | The distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session. |
-| Transfer rate by agent | The percentage of sessions transferred by the agent to another agent or queue. |
-| Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. |
-| Consult acceptance rate | The percentage of consult requests accepted by an agent out of the total requests received. |
-| Avg. talk time (min)| **For voice channel (Preview)**: The average time an agent spent talking with a customer over a voice call. |
-| Avg. hold time (min) | **For voice channel (Preview)**: The average time an agent put a customer on hold over a voice call. |
+| Metrics | Description |Availability|
+|-------|-------|--------|
+| Agents logged in | The number of agents who are signed in.| Live chat, Digital messaging, Voice (preview)|
+| Agents with available capacity | The number of signed-in agents who can accept incoming conversation requests as well as their available capacity across all capacity profiles. Unit-based capacity is accounted against the unit capacity profile. |Live chat, Digital messaging, Voice (preview)|
+| Average handle time per session | The average time taken by an agent to accept an incoming session after it is assigned. |Live chat, Digital messaging, Voice (preview)|
+| Session reject rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |Live chat, Digital messaging, Voice (preview)|
+| Session time out rate | The percentage of sessions that were timed out, out of the total sessions assigned. |Live chat, Digital messaging, Voice (preview)|
+| Session transfer rate | The percentage of sessions that were transferred to another agent or queue. |Live chat, Digital messaging, Voice (preview)|
+| Agent status | The presence status of an agent. |Live chat, Digital messaging, Voice (preview)|
+| Chat status | Displays the number of chat conversations that are in the different statuses.| Live chat|
+| Conversation status by channel | The distribution of the different conversations statuses across different channels. | Digital messaging|
+|Call status| Displays the number of calls that are in the different statuses. | Voice (preview)|
+| Participation mode | The distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session. |Live chat, Digital messaging, Voice (preview)|
+| Transfer rate by agent | The percentage of sessions transferred by the agent to another agent or queue. |Live chat, Digital messaging, Voice (preview)|
+| Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. |Live chat, Digital messaging, Voice (preview)|
+| Consult acceptance rate | The percentage of consult requests accepted by an agent out of the total requests received. |Live chat, Digital messaging|
+| Avg. talk time (min)| The average time an agent spent talking with a customer over a voice call. | Voice (preview)|
+| Avg. hold time (min) | The average time an agent put a customer on hold over a voice call. |Voice (preview)|
 |||
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations, as well as an agent's available capacity across different capacity profiles. Unit-based capacity is accounted against Unit capacity profile.
