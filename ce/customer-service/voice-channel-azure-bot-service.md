@@ -107,7 +107,7 @@ To integrate a bot with Omnichannel for Customer Service, you must do the follow
     - **User type**: Select **Bot application user**.
     - **Bot application ID**: Enter the Microsoft App ID from Azure AD that you noted earlier.
     - **Bot handle**: Enter the bot handle from the Bot profile settings.
-    - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the [cognitive speech service resource](voice-channel-azure-bot-service.md#cognitive-services) that you created earlier.
+    - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the [cognitive speech service resource](voice-channel-azure-bot-service.md) that you created earlier.
     - **Cognitive Services Region**: Enter the Location/Region value from the cognitive speech service resource that you created earlier.
 
 5. Select **Save and Close**.
