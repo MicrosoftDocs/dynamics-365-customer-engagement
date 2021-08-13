@@ -8,12 +8,22 @@
     href: teams-basic-vs-enhanced-collaboration.md
   - name: Enable Sensitivity labels
     href: sensitivity-labels.md
+  - name: Enable or disable the Teams chat in Dynamics 365
+    href: enable-teams-chat.md
+  - name: FAQ on Teams chat integration
+    href: teams-in-dynamics-faq.md
   - name: Use Teams integration
     items: 
     - name: Basic Collaboration with Teams
       href: teams-collaboration.md
     - name: Enhanced Collaboration with Teams
       href: teams-collaboration-enhanced-experience.md
+    - name: Engage in Teams chats from within Dynamics 365
+      items:
+      - name: Engage in Teams chats from within Dynamics 365
+        href: teams-collaboration-in-dymanics.md
+      - name: Using Teams chat in Dynamics 365
+        href: using-teams-chat-in-dynamics.md
     - name: Use document management
       href: teams-doc-management.md
     - name: Use the personal dashboard
