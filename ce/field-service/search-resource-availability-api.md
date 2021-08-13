@@ -80,8 +80,8 @@ Review the ‘Retrieve Resources Query’ on the schedule board settings to iden
 
 At the highest level, the output has the following four parameters. The results are represented in entity collections and entities. Responses may not include all the attributes described here as null value or not NA values are omitted from the response. Always check for the presence of an attribute before trying to access it.
 
-| Name | Type | Description | Required | Default value |
-| --- | --- | --- | --- | --- |
+| Name | Type | Description |
+| --- | --- | --- | 
 | Time Slots | EntityCollection | A collection of time slot results. See ###TimeSlotsEntity section for more details. |
 | Resources | EntityCollection | A collection of resource results. Resources are represented as a collection of entities with the following attributes: <ol> <li> **BookableResource** (_Entity_): The bookable resource entity that is available for the requirement. <li> **TotalAvailableTime** (_Double_): The total available time for the resource to perform the requirement. |
 | Related | Entity | Related resources represent resources and time slots of resources that are not directly qualified for the requested requirement but are related. For example, if a crew member qualifies for a requirement, then the other members of that crew would be related results. <ol> <li> **Timeslots** (*EntityCollection*): Time slots of related resources. The definition of time slots is the same as described in the [time slots section](#time-slots-entity). <li> **Resources** (*EntityCollection*): The related resources. The definition of resources is the same as described in the resources attribute definition above. |
@@ -89,8 +89,8 @@ At the highest level, the output has the following four parameters. The results 
 
 ### Time slots entity
 
-| Name | Type | Description | Required | Default value |
-| --- | --- | --- | --- | --- |
+| Name | Type | Description |
+| --- | --- | --- |
 | ID | Guid | Unique identifier for the time slot | 
 | Type | Integer | The type of time slot can be one of the following: <ul><li> **0**: Available <li> **1**: Scheduled <li> **2**: Off <li> **3**: Break |
 | StartTime | Datetime | The start time of the time slot. If there is travel for the requirement, then this is the start time of travel. If not, this is the start time of the requirement. |
