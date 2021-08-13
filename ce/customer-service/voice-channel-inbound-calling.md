@@ -94,7 +94,9 @@ A customer will call your support organization by simply calling the phone numbe
 [Manage notification settings and templates](https://docs.microsoft.com/dynamics365/app-profile-manager/notification-templates)
 -->
 
-## See also
+### See also
+
+[Overview of the voice channel](voice-channel.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

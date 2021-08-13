@@ -26,12 +26,15 @@ ms.service: dynamics-365-customerservice
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
-You can use existing out-of-the-box music files, replace them with your own ones, or even upload new ones to be used for hold or wait music for your customer calls.
-You can configure hold and wait music for each language in each workstream.
+Omnichannel for Customer Services comes with out-of-the-box music files that you can use to set hold tunes and wait tunes. You can replace them with your own ones, or even upload new ones to be used for hold or wait music for your customer calls.
 
-## Edit hold and wait music
+You can also configure hold and wait music for each language in each workstream.
 
-**To use existing music files as hold and wait music**
+## Edit music files
+
+You can update existing music files and replace them with your own music files.
+
+**To use existing music files**
 
 1. In Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
 
@@ -49,6 +52,10 @@ You can configure hold and wait music for each language in each workstream.
 
 ## Add custom hold and wait music
 
+You can also add new music files to use them in calls as hold and wait music.
+
+**To add new music files**
+
 1. In Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
 
 2. In the **Customer experience** area, select **Phone music (preview)**, and then select **Manage**.
@@ -62,5 +69,8 @@ You can configure hold and wait music for each language in each workstream.
 
 5. Select **Save and close**.
 
+### See also
+
+[Overview of the voice channel](voice-channel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
