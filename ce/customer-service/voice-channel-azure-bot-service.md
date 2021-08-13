@@ -168,9 +168,9 @@ Be sure to map the routing rules to the correct queues so that the queries are r
 
 This sample provides exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules will be created. A bot user is added to one queue, and agents are added to two other queues. Routing rules are defined in such a way that whenever a customer initiates a chat, it will be sent to the bot first and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
 
-1. Follow the instructions in [Create a bot user](#create-a-bot-user) to create a bot user.
+1. Follow the instructions in [Create a bot user](configure-bot#create-a-bot-user) to create a bot user.
 
-2. Follow the instructions in [Add a bot user to the queues](#add-a-bot-user-to-the-queues) to create three queues and add users as follows:
+2. Follow the instructions in [Add a bot user to the queues](configure-bot#add-a-bot-user-to-the-queues) to create three queues and add users as follows:
     - **BotQueue**: Add the bot user to this queue.
     - **CreditCardQueue**: Add agents to handle credit card&ndash;related queries.
     - **HomeLoanQueue**: Add agents to handle home loan&ndash;related queries.
