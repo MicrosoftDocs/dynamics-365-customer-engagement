@@ -20,9 +20,7 @@ search.app:
 
 Field service organizations always have work coming in that needs to be scheduled, either by a service agent on the phone or directly by the customer through their website. Booking creation is typically based on the resources available to the company and the requirements of the work.
 
-////////****** EDITING NOTE: MAKE SURE TO GET VERSION NUMBERS *********///////
-
-When using Dynamics 365 Field Service (vX) and Universal Resource Scheduling (vY) to schedule work, the `msdyn_SearchResourceAvailability` API can be used to retrieve all the eligible resources for the job, to allow for efficient scheduling of the work.
+When using Dynamics 365 Field Service and Universal Resource Scheduling to schedule work, the `msdyn_SearchResourceAvailability` API can be used to retrieve all the eligible resources for the job, to allow for efficient scheduling of the work.
 
 ## Input parameters
 
@@ -101,7 +99,7 @@ At the highest level, the output has the following four parameters. The results 
 | Potential | Boolean | A boolean value indicating if the time slot has potential to fulfill the requested requirement. |
 | IsDuplicate | Boolean | A boolean value indicating if the time slot is a duplicate. |
 | Allow Overlapping | Boolean | A boolean value indicating if overlapping is allowed. |
-| Resource| Entity | The resource to which the time slot belongs. See [time slot resource](####Timeslotresourcce) for more information.|
+| Resource| Entity | The resource to which the time slot belongs. See [time slot resource](#time-slot-resource) for more information.|
 | Location| Entity | The location has three attributes: <ol> <li> **Location** (_Entity_): It has two attributes - <ul> <li> Latitude <li> Longitude </ul> <li> **WorkLocation** (_Integer_): It has three attributes - <ul> <li> Onsite <li> Facility <li> Location Agnostic </ul> <li> **LocationSourceSlot** (_Integer_): The source of location information has three attributes - <ul> <li> Common <li> Custom GPS entity <li> Mobile audit </ul> |
 | Travel| Entity | This entity contains details of travel time and distance information for a time slot. The following are the attributes: <ol> <li> **Distance** (_Double_): The travel distance <li> **TravelTime** (_Double_):	The travel time in minutes. <li> **DistanceFromStartLocation** (_Double_): The distance from the resource’s start location. <li> **DistanceFromEndLocation**	(_Double_):	The distance from the resource’s end location. <li> **DistanceMethodSourceSlot**	(_Integer_): The source / calculation type of the distance values <ul> <li> Map Service <li> As the crow flies </ul> |
 | Next| Entity  | This entity contains details about the travel time and distance to the next time slot booking. <ol> <li> **NextScheduleLocation**	(_Entity_): The location of the next booking. The entity has two attributes: <ul> <li>Latitude <li>Longitude </ul> <li> **NextScheduleTravelTime** (_Integer_):	The travel time to the next booking in minutes. |
