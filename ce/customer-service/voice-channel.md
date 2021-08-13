@@ -88,7 +88,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 
 ### See also
 
-[Regional Availability](voice-channel-region-availability.md)  
-[Supported Languages](voice-channel-supported-languages.md)  
+[Regional availability](voice-channel-region-availability.md)  
+[Supported languages](voice-channel-supported-languages.md)  
 
 [Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)  
