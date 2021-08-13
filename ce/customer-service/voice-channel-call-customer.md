@@ -50,3 +50,6 @@ When the call gets connected, you'll see the customer details on the conversatio
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-call4.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

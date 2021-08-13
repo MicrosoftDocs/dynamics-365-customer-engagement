@@ -207,3 +207,6 @@ If you no longer need a phone number, you can release it from your number list. 
 ## Additional notes
 
 You can only use 1 ACS resource for number management
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

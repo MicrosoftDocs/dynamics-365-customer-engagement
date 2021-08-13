@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# How to Block a SPAM Number
+# How to block spam numbers
 
 > [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -33,27 +33,12 @@ ms.service: dynamics-365-customerservice
 > [!Note]
 >
 
->[!TIP] 
-> 
 
+## Review phone numbers marked as SPAM (Supervisor)
 
-## Mark number as SPAM (agent)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-block-agent.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-block-agent2.png)
-
-
-
-
-
-
-## Review phone numbers marked as SPAM
-
-Customer Settings > blocked numbers
+Customer Settings > Blocked numbers (preview)
+Select **Block a number**.
+You can view the Pending review list and the set of blocked numbers.
 
 - click on a pending block request to see basic details and the ability to view the related call. 
 
@@ -71,7 +56,7 @@ Customer Settings > blocked numbers
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-block-manual.png)
 
-## Auto block phone numbers
+## Auto block phone numbers (supervisor)
 
 Block numbers based on number of reports
 
@@ -80,3 +65,4 @@ Block numbers based on number of reports
 > ![Screenshot of ](./media/voice-channel-block-auto.png)
 
 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

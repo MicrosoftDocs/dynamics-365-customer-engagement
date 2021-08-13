@@ -1,10 +1,10 @@
 ---
 title: "Use the voice channel in the agent dashboard | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
-author: neeranelli
-ms.author: daclar
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -66,31 +66,14 @@ See the video on [Agent experience using the voice channel in Dynamics 365 Custo
 
 
 
-
-
-
-
-
-## Markdown syntax reference (WILL BE DELETED BEFORE PUBLISH)
-
-## Prerequisites
-> [!Note]
->
-
-
-## Step 1
+## Mark number as SPAM (agent)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/IMAGE-FILE-NAME.png)
-
-### smaller header
-
-#### even smaller header
+> ![Screenshot of ](./media/voice-channel-block-agent.png)
 
 
-## Step 2
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-block-agent2.png)
 
 
-## Configuration considerations
-## Additional Notes
-
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

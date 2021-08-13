@@ -59,41 +59,30 @@ To check for phone numbers configured for outbound calling, go to **General sett
 
 This phone number will now be displayed to your customers when your agents call them.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-phone-number.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-queue.png)
-
->[!NOTE] 
+>[!NOTE]
 > Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and report outbound specific traffic and sentiment. *Having a separate outbound queue...*
 
-## Add a user to the voice queue
+## Manage capacity profiles and assign users
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-queue-add-user.png)
+You must create or use existing capacity profiles to define and set the workload of your agents. For your agents to be able to make calls to customers, they must be assigned or added to an outbound capacity profile. So, after you create or update the capacity profile, you must add users to the profile. 
 
-## Create a capacity profile
+For detailed information on how to manage capacity profiles and add users, see [Create and manage capacity profiles ](capacity-profiles.md).
 
-- number of outbound calls a person can make at one time
+For outbound calls, set the capacity profile fields as follows:
+- **Work item limit**: Indicates the number of outbound calls an agent can make at a time. If the value is set to 1, it means that the agent can make only one call at a time, and cannot make a second call until the first call is ended. If the value is set to 3, it means that the agent can make 3 outbound calls at a time. 
+- **Reset frequency**: Indicates whether the agent can *immediately* make another call when the current ends or has to wait until end of day. For voice calls, set this field to **Immediate** so that the agent will be able to make another call as soon as the current one has ended.
+- **Assignment blocking**: Indicates whether you want to block any incoming calls when the agent is already on a call. Set this value to **Yes**, if you want to ensure the agent does not receive any incoming calls when an outbound call is in progress.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-nav.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile.png)
-
-## Assign a user the capacity profile
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user-nav.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user.png)
+> [!Note]
+> - While you can use the same capacity profile for both inbound and outbound calling, we recommend that you create separate profiles because not all considerations or settings applicable for outbound calling apply to inbound calling, and vice-versa.
+> - If your agents only use non-voice channels such as chat or SMS channels to connect with customers, you don't need to add them to outbound capacity profiles.
+> - If your agent is only assigned to receive calls from customers, then again, you don't need to assign them to outbound capacity profiles.
 
 ## Create an outbound profile
 
-You can define the way outbound calls are made and also who can make them. To create an outbound profile, you'll need a phone number that's enabled for outbound calling. This means that in your calling plan for that number, the **Make calls** checkbox must be selected. In private preview, only *one* outbound profile can be created. While you can edit the profile, you cannot delete it. *The first run experience creates an outbound profile by default.*
+You can define the way outbound calls are made and also who can make them. To create an outbound profile, you'll need a phone number that's enabled for outbound calling. This means that in your calling plan for that number, the **Make calls** checkbox must be selected.
+
+In private preview, only *one* outbound profile can be created. While you can edit the profile, you cannot delete it. *The first run experience creates an outbound profile by default.*
 
 **To create an outbound profile**
 
@@ -127,15 +116,21 @@ You can define the way outbound calls are made and also who can make them. To cr
 
 4. Select **Save and close**.
 
+
+<!--
+
 ## Configuration considerations
 
 ### Call backs
 
-Oftentimes agents need to call customers back at a later time. It is recommended to create a phone call activity with direction set to Outbound as a reminder for the agent.
+Often, agents need to call customers back at a later time. We recommend that you create a phone call activity with direction set to Outbound as a reminder for the agent.
 
 ### Understanding outbound queues
 
-By creating an outbound queue, this allows managers to see outbound calls in the Omnichannel Ongoing Conversations Dashboard. Not used for capacity planning, used for monitoring and reporting.
+By creating an outbound queue, supervisors can see outbound calls in the Omnichannel Ongoing Conversations Dashboard. 
+
+> [!Note]
+> Note that the outbound queue is used for monitoring and reporting purposes only, and not used for capacity planning.
 
 
 > [!div class="mx-imgBorder"]
@@ -153,6 +148,11 @@ By creating an outbound queue, this allows managers to see outbound calls in the
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-callback4.png)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-phone-number.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-queue.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-callback5.png)
@@ -173,3 +173,19 @@ By creating an outbound queue, this allows managers to see outbound calls in the
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-outbound-call2.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-nav.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user-nav.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user.png)
+
+-->
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

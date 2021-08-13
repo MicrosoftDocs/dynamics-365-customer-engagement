@@ -61,3 +61,6 @@ You can configure hold and wait music for each language in each workstream.
    - **Sound file**: Select **Upload** to upload any sound file from your computer with a file size no more than 20 MB. Be sure to choose some music that loops well.
 
 5. Select **Save and close**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

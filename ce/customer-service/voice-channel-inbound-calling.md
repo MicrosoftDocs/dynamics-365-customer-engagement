@@ -1,6 +1,8 @@
-iajrvice."
-author: neeranelli
-ms.author: daclar
+---
+title: "Inbound calling in the Voice channel | MicrosoftDocs"
+description: "Introduction to using Omnichannel for Customer Service."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/13/2021
 ms.topic: article
@@ -80,3 +82,6 @@ A customer will call your support organization by simply calling the phone numbe
 
 
 ## See also
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

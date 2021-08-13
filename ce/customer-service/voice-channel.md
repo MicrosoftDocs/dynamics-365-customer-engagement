@@ -47,7 +47,7 @@ The voice channel has Microsoft's award winning AI built into the product. This 
 
 ## Key capabilities of the voice channel
 
-Take a look at some of the key capabilties that makes the voice channel great for customer service representatives and customers receiving help.
+Take a look at some of the key capabilities that makes the voice channel great for customer service representatives and customers receiving help.
 
 | Solution | Capability |
 | --- | --- |
@@ -57,11 +57,10 @@ Take a look at some of the key capabilties that makes the voice channel great fo
 | Supervisor experience | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management through supervisor dashboards</li></ul> |
 | Customer experience  | <ul><li>Post-call Survey</li><li>Scheduled Callbacks</li><li>Music on hold</li></ul> |
 
-
 ## Administrator experience
 
 [Provision and set up the voice channel](voice-channel-install.md)  
-[Manage phone numbers](voice-channel-number-management.md)  
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Block a spam number](voice-channel-block-number.md)  
 [Inbound calling](voice-channel-inbound-calling.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
@@ -71,7 +70,6 @@ Take a look at some of the key capabilties that makes the voice channel great fo
 [Configure post-call survey](voice-channel-survey.md)  
 [Set up a multi-language contact center](voice-channel-multi-language-contact-center.md)  
 [Handle call overflow for the voice queues](voice-channel-call-overflow.md)  
-[Block a spam number](voice-channel-block-number.md)  
 [Manage music](voice-channel-music.md)  
 [Supported regions and languages](voice-channel-region-availability.md)  
 
