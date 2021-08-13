@@ -79,6 +79,16 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
 
 After all the solutions are deleted, Omnichannel for Customer Service solutions are completely deleted from your organization.
 
+## Delete Omnichannel historical analytics solutions
+
+Do the following to delete the solutions for Omnichannel historical analytics:
+
+1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](./configure-cs-historical-analytics-csh.md). 
+
+1. On the **Solutions** page, select and delete the following solutions:
+   1. msdyn_InsightsAnalyticsOCConfiguration
+   1. msdyn_DataInsightsAndAnalyticsForOC
+
 ## Delete OmnichannelCustomerServiceHub solution
 
 When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear on the **Solutions** page of your Microsoft Dataverse. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete it. In addition, if your organization is using **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
