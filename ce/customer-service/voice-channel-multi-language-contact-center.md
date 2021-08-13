@@ -126,7 +126,7 @@ Create the bot. More information [Azure Bot Service](https://azure.microsoft.com
 Add the bot as an IVR bot to the workstream. More information: [Integrate an Azure bot](configure-bot.md)
 
 
-## Supported locations and locale codes
+## Supported languages and locale codes
 
 | Language Name |	Locale Code |
 | ---- | ---- |
