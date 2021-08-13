@@ -24,8 +24,7 @@ You can configure a phone number in a workstream that allows the customer to cho
 
    
 - Create a workstream. For the **Type**, select **Voice**. More information: [Create and manage workstreams](create-workstreams.md)
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of ](./media/voice-language-workstream.png)
+   
 
 ## Add a phone number to the workstream and configure language settings
 
@@ -34,8 +33,8 @@ You can configure a phone number in a workstream that allows the customer to cho
 3. On the **Language page**, select **Add primary language**. A Language page is displayed, where you set the primary language for the channel. You can add additional languages to this voice channel, and each language added will have its own settings.
    The **Primary language** is the first language the bot greets the customer in. This allows your organization to have one phone numebr that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
 4. Select the type of wait and hold music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
-5. Select a voice style, pitch, and speaking speed for the voicebot.
-6. Toggle **Post-call survey** to **On** if you want the voicebot to survey the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey voicebot after the agent hangs up.
+5. Select a voice style, pitch, and speaking speed for the bot.
+6. Toggle **Post-call survey** to **On** if you want the bot to survey the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey bot after the agent hangs up.
 7. Select **Next**.
 8. Select the preferred behaviors, and then select **Next**.
 9. Select **Save and close** to save the settings.
@@ -122,8 +121,6 @@ Create the bot. More information [Azure Bot Service](https://azure.microsoft.com
 
 Add the bot as an IVR bot to the workstream. More information: [Integrate an Azure bot](configure-bot.md)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-add-bot.png)
 
 ## Supported locations and locale codes
 
