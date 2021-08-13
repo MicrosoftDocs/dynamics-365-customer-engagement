@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Personalize the deal manager workspace (Preview)
+# Preview: Personalize the deal manager workspace
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -153,7 +153,7 @@ In the deal manager workspace, select the views dropdown list and search for the
 
 ### See also
 
-[Access the deal manager workspace (Preview)](access-deal-manager.md)  
+[Access the deal manager workspace](access-deal-manager.md)  
 [Known issues with personalization](deal-manager-known-issues.md#personalization)
 
 

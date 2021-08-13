@@ -1,5 +1,6 @@
 ---
 title: "Dynamics 365 VSS writer service | Microsoft Docs"
+description: Learn about the Dynamics 365 VSS writer service for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op
