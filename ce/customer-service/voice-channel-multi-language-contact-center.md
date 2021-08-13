@@ -204,7 +204,7 @@ Add the bot as an IVR bot to the workstream. More information: [Integrate an Azu
 
 ## Configuration considerations
 
-The Azure bot should repsect the primary language of the workstream. As an example, if the primary language is English, the Azure bot should initially greet the customer in English.
+The Azure bot should respect the primary language of the workstream. For example, if the primary language is English, the Azure bot should initially greet the customer in English.
 
 
 ### See also
