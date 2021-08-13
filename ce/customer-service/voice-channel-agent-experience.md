@@ -1,6 +1,6 @@
 ---
 title: "Use the voice channel in the agent dashboard | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+description: "Use this topic to understand agent experience in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -24,6 +24,7 @@ ms.service: dynamics-365-customerservice
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
+<!--
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/oc-voice-agent-dashboard.png)
 
@@ -33,7 +34,7 @@ For a guided walkthrough, check out the following video.
 https://microsoft.sharepoint.com/:v:/t/CRMHOME/ua/EcxIBAEagJdKtkFer7rhItYBZJl_iNg-vtinvyAtaPeq3Q?e=W1tbR7]
 
 See the video on [Agent experience using the voice channel in Dynamics 365 Customer Service](https://microsoft.sharepoint.com/:v:/t/CRMHOME/ua/EcxIBAEagJdKtkFer7rhItYBZJl_iNg-vtinvyAtaPeq3Q?e=W1tbR7) for more details.
-
+-->
 
 
 
@@ -44,8 +45,7 @@ See the video on [Agent experience using the voice channel in Dynamics 365 Custo
 
 ## Call controls
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-inbound-call-controls.png)
+
 
 - Mute
 - Hold
@@ -79,13 +79,14 @@ As an agent, if you receive a phone call that you want to flag as spam, you can 
 You can add notes that'll help your administrator review and block numbers​. After you mark a number as spam, it goes into the pending review tab on the Blocked numbers (preview) page. 
 
 Un mark spam number within same call​.
-
+<!--
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-block-agent.png)
-
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-inbound-call-controls.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-block-agent2.png)
-
+-->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

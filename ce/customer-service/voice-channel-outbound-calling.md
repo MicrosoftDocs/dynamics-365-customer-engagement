@@ -1,6 +1,6 @@
 ---
-title: "Outbound calling in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+title: "Outbound calling in the voice channel | MicrosoftDocs"
+description: "Use this topic to understand outbound calling in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

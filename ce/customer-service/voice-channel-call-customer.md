@@ -1,6 +1,6 @@
 ---
-title: "Call a customer in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+title: "Call a customer in the voice channel | MicrosoftDocs"
+description: "Use this topic to understand how you can make customer calls in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

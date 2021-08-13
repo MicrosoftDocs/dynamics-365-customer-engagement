@@ -1,6 +1,6 @@
 ---
-title: "Block a SPAM Number in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+title: "Block spam numbers in the voice channel | MicrosoftDocs"
+description: "Use this topic to understand how to block spam numbers in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -24,15 +24,15 @@ ms.service: dynamics-365-customerservice
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
-
+<!-->
 // powerpoint: https://microsoft-my.sharepoint-df.com/:p:/p/deepikap/EbZQUBgs6vlOlqVYPCpa4QgBcTfW7dKPaAakl5hApAqP0A
 // video: https://msit.microsoftstream.com/video/5a970840-98dc-b561-c9ea-f1ebd507930f 
-
+-->
 In Omnichannel for Customer Service, you can block phone numbers that your agents receive as part of their incoming customer calls. As an administrator, you can mark phone numbers as spam so your agents can engage with actual customers​, instead of unsolicited or irrelevant calls that don't correspond to your line of business. This capability for admins to control which calls can be received by your agents helps improve efficiency of agents​. It also helps to prevent long waits of actual customers in queues​. Your agents and supervisors can also flag incoming phone calls as spam, that you can later review and mark as spam.
 
 ## Manage spam numbers
 
-## Review phone numbers marked as SPAM (Supervisor)
+## Review phone numbers marked as spam
 
 The admin can review the record by clicking view report history​
 Look at all spam reports by looking through the call details, notes etc.​
@@ -55,18 +55,12 @@ Select **Block a number**.
 - click on a pending block request to see basic details and the ability to view the related call. 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-block-pending.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-block-approved.png)
 
 ## Manually block a phone number
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-block-manual.png)
+
 
 ## Auto block phone numbers 
 
@@ -83,9 +77,19 @@ Remove3s bottle-neck from admins when there are too many reports/records​
 
 Helps during surge in spam calls from different numbers
 
+<!--
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-block-pending.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-block-manual.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-block-approved.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-block-auto.png)
 
-
+-->
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

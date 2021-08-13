@@ -1,6 +1,6 @@
 ---
-title: "Inbound calling in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+title: "Inbound calling in the voice channel | MicrosoftDocs"
+description: "Use this topic to understand inbound calling in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -23,7 +23,7 @@ ms.service: dynamics-365-customerservice
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
-
+<!--
 // Use the following videos for help in writing this doc
 // Video references
 // https://microsoft-my.sharepoint.com/:v:/p/kausri/EWPcqqb09OtKkN6_x5KhCy4B5WfyrPRN_yoU_Ez23Eswag?e=d3cseJ
@@ -31,7 +31,7 @@ ms.service: dynamics-365-customerservice
 // Use this for documentation -  https://msit.microsoftstream.com/video/9c970840-98dc-869d-c827-f1ebc890b85b
 Agent exp
 Admin exo
-
+-->
 
 ## Prerequisites
 
@@ -53,7 +53,7 @@ In order to receive inbound calls, you must have the following:
 ## Step 2: Configure phone number settings (Language, Behaviors, etc)
 
 ### Language
-
+<!--
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-inbound-call-number-language1.png)
 
@@ -61,25 +61,25 @@ In order to receive inbound calls, you must have the following:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-inbound-call-number-language2.png)
 
-
+-->
 
 
 ### Behaviors
-
+<!--
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-inbound-call-number-behaviors.png)
-
+-->
 ## Step 3: Set up a workstream
 <!-- tell users or point to the main published topic - to channel type=voice-->
 ### Routing Rules
-
+<!--
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-inbound-call-route-queue.png)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-inbound-call-route-queue2.png)
-
+-->
 ## Step 4: Make and receive a call
 
 ### Make a call
@@ -87,12 +87,12 @@ In order to receive inbound calls, you must have the following:
 A customer will call your support organization by simply calling the phone number you created. There are many ways a customer may find the phone number, like a website, portal, mobile app, via chat bot, etc.  
 
 ### Receive and accept a call
-
+<!--
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-incoming-call-notification.png)
 
 [Manage notification settings and templates](https://docs.microsoft.com/dynamics365/app-profile-manager/notification-templates)
-
+-->
 
 ## See also
 

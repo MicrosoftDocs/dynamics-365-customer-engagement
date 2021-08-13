@@ -1,6 +1,6 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+description: "Use this topic to understand how you can manage phone numbers in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
