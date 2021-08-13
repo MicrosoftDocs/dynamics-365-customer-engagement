@@ -1,5 +1,5 @@
 ---
-title: "Set Up a Multi-Language Contact Center in the Voice channel | MicrosoftDocs"
+title: "Set up a multi-language contact center in the voice channel | MicrosoftDocs"
 description: "Learn how to set up a multi-language contact center in the voice channel for Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
@@ -36,7 +36,7 @@ This topic shows you how to configure a phone number in a workstream to allow th
 1. In Omnichannel admin center, select **Workstreams** on the sitemap, and then select the name of the workstream you want to add the phone number to. 
 2. Select **Edit**, and then add the number to the workstream.
 
-## Select languages for phone number in workstream
+## Select languages for phone number in the workstream
 
 The Primary language is the first language the bot greets the customer in. This allows your organization to have one phone numebr that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
 
