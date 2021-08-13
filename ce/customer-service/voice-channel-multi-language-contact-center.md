@@ -19,14 +19,10 @@ You can configure a phone number in a workstream that allows the customer to cho
 
 - Set up a phone number. More information: [Number management](voice-channel-number-management.md)
 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the phone number setup.](./media/voice-language-create-number.png)
+  
+- Create the queues you need for your business, based on the customer's language. More information: [Create and manage queues](queues-omnichannel.md)
 
-- Create the queues you need for your business. This example scenario shows two queues (one for English and the other for Spanish), based on the customer's language. More information: [Create and manage queues](queues-omnichannel.md)
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of English and Spanish queues.](./media/work-language-create-queues.png)
-
+   
 - Create a workstream. For the **Type**, select **Voice**. More information: [Create and manage workstreams](create-workstreams.md)
    > [!div class="mx-imgBorder"]
    > ![Screenshot of ](./media/voice-language-workstream.png)
