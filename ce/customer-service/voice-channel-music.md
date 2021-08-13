@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 <!--// video
 // https://msit.microsoftstream.com/video/a6dd0840-98dc-869c-1241-f1ebcfc77970
