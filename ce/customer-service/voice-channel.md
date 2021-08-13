@@ -49,7 +49,7 @@ The voice channel has Microsoft's award winning AI built into the product. This 
 
 ## Key capabilities of the voice channel
 
-Take a look at some of the key capabilties that makes the voice channel great for customer service representatives and customers receiving help.
+Take a look at some of the key capabilities that makes the voice channel great for customer service representatives and customers receiving help.
 
 | Solution | Capability |
 | --- | --- |
@@ -62,6 +62,7 @@ Take a look at some of the key capabilties that makes the voice channel great fo
 
 ## Administrator experience
 
+[System requirements for the voice channel](voice-channel-requirements.md)
 [Provision and set up the voice channel](voice-channel-install.md)  
 [Manage phone numbers](voice-channel-number-management.md)  
 [Inbound calling](voice-channel-inbound-calling.md)  
