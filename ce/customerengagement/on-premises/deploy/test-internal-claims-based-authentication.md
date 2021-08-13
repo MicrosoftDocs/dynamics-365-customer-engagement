@@ -1,5 +1,6 @@
 ---
 title: "Test internal claims-based authentication | Microsoft Docs"
+description: Learn how to test internal claims-based authentication with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op

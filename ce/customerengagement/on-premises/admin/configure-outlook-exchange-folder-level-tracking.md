@@ -1,6 +1,6 @@
 ---
-title: "Configure Outlook or Exchange folder-level tracking  | MicrosoftDocs"
-description: "Enable folder-level tracking for Exchange folders to map an Exchange inbox folder to a Dynamics 365 Customer Engagement record."
+title: "Enable folder-level tracking in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to enable folder-level tracking to map an Exchange inbox folder to a Customer Engagement (on-premises) record."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Configure Outlook or Exchange folder-level tracking 
+# Enable folder-level tracking for Outlook or Exchange 
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
