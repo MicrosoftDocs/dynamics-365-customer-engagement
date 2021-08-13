@@ -1,7 +1,7 @@
 ---
 title: View meetings in the Dynamics 365 Sales mobile app
 description: Learn how to view meetings in the Dynamics 365 Sales mobile app.
-ms.date: 05/03/2021
+ms.date: 08/13/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
