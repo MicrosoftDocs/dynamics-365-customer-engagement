@@ -18,7 +18,7 @@ You can configure a phone number in a workstream that allows the customer to cho
 
 ## Prerequisites
 
-- Set up a phone number. More information: [Number management](voice-channel-number-management.md)
+- Set up a phone number. More information: [Number management](voice-channel-manage-phone-numbers.md)
 
   
 - Create the queues you need for your business, based on the customer's language. More information: [Create and manage queues](queues-omnichannel.md)
@@ -53,6 +53,7 @@ Create the bot. More information [Azure Bot Service](https://azure.microsoft.com
 > [!Note]
 > The bot author must set the va_CustomerLocale context variable field during the IVR handoff with the locale code for the language they want to support. For more information, see supported locations and locale codes below. 
 
+```
         // Copyright (c) Microsoft Corporation. All rights reserved.
         // Licensed under the MIT License.
         using System.Collections.Generic;
@@ -117,6 +118,7 @@ Create the bot. More information [Azure Bot Service](https://azure.microsoft.com
                         }
                     }
                 }
+                ```
 
 ## Add your bot to the workstream
 
@@ -181,6 +183,6 @@ The Azure bot should respect the primary language of the workstream. For example
 ### See also
 
 [Introduction to the voice channel](voice-channel.md)
-[Azure cognitive services - speech to text](https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/#features)
+[Azure cognitive services - speech to text](https://azure.microsoft.com/services/cognitive-services/text-to-speech/#features)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
