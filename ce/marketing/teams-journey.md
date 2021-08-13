@@ -63,7 +63,6 @@ When your Dynamics 365 Marketing trial expires, your administrator will have to 
 
 ## Next steps
 
-- [Create a Dynamics 365 Marketing webinar event and run it in Microsoft Teams](teams-journey.md)
 - [Follow up with Teams webinar participants](teams-webinar-follow-up.md)
 
 > [!NOTE]
