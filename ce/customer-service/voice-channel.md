@@ -64,7 +64,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 
 [System requirements for the voice channel](voice-channel-requirements.md)
 [Provision and set up the voice channel](voice-channel-install.md)  
-[Manage phone numbers](voice-channel-number-management.md)  
+[Manage phone numbers](voice-channel-manage-numbers.md)  
 [Inbound calling](voice-channel-inbound-calling.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Route incoming calls to agents](voice-channel-route-queues.md)  
