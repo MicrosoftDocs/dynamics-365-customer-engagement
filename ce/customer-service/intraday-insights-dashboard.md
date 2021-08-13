@@ -29,7 +29,7 @@ The information displayed in these reports is based on the conversations that we
 
 ## The IntradayMonitoring report
 
-The IntradayMonitoring report consists of two sections - Conversation insights and Agent insights.
+The IntradayMonitoring report deals with the overall contact center health and has relevant metrics to help understand it. This report contains two sections – The Conversation insights section provides metrics on the customer side, such as Customers waiting in queue and wait times. The Agent insights section contains metrics pertaining to agents such as Agents logged in, and handle times.
 
 ### Conversations insights
 
@@ -51,7 +51,7 @@ This section of the IntradayMonitoring report displays the following KPIs about 
 | Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. This metric is also displayed on a per-queue basis. |
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |
 | Conversation status by queue | The distribution of the status of conversations across different queues. |
-| Transfer/Escalation rate by queue | The transfer rate is the percentage of conversations in a queue that was transferred atleast once. Escalation rate is the percentage of conversations within a queue that was escalated to a supervisor. |
+| Transfer/Escalation rate by queue | The transfer rate is the percentage of conversations in a queue that was transferred atleast once. Escalation rate is the percentage of the conversations within a queue escalated to a supervisor. |
 |||
 
 

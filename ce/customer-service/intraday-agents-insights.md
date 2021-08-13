@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 08/08/2021
+ms.date: 08/13/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -20,7 +20,7 @@ The Omnichannel intraday insights dashboard contains the Agents insights report 
 
 ## The Agents insights report
 
-The **Agents insights** report consists of metrics from an agent’s standpoint. The report shows all-up agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** tab to view agent performance across all channels, or select the **Live chat**, **Digital messaging**, or **Voice (preview)** tabs to view the agent performance for the corresponding channel. 
+The **Agents insights** report consists of metrics from an agent’s standpoint. The report shows all-up agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** tab to view agent performance across all channels, or select the **Live chat**, **Digital messaging**, or **Voice (preview)** tabs to view the agent performance for the corresponding channel.
 
 The Digital messaging report includes metrics from the social channels, SMS, Microsoft Teams, entity records, and custom messaging channels.
 
