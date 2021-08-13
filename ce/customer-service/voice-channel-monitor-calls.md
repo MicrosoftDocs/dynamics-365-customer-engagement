@@ -24,12 +24,13 @@ On the **Omnichannel Ongoing Conversations** dashboard, you, as a supervisor, ca
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ongoing conversations dashboard.](./media/voice-channel-monitor-ongoing-conversations.png)
 
-To find out details about an individual conversation, select it in the list of active conversations, and then select **Monitor**.
+To find out details about an individual conversation:
+1. On the **Omnichannel Ongoing Conversations dashboard**, select it in the list of active conversations, and then select **Monitor**.
 
 
 ## Consult with an agent during a conversation
 
-Supervisor can consult with agent and send messages to agent hidden from customer.
+As a supervisor, you can privately consult with an agent by sending them messages that are hidden from the customer.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of monitoring a conversation.](./media/voice-channel-monitor-barge.png)
