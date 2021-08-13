@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 
 
-# Preview: View usage and billing
+# Preview: View voice calls usage
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -27,17 +27,7 @@ ms.service: dynamics-365-customerservice
 
 ## Introduction
 
-The Voice usage report lets Omnichannel administrators view a PowerBI report in Omnichannel admin center, which tells them how many minutes of the voice quota have been consumed by the voice channel, and helps them to get insights where they can pinpoint to control the consumption. The following areas are covered: 
-
-- How many minutes this org has already consumed (with quota limits in mind)?
-
-- Is there any abnormal daily usage (regarding consumed minutes) over time that needs attention? 
-
-- After identifying the abnormal usage, determine where those call minutes have been consumed. Is it related to a specific workstream, queue,  phone number, or call type (inbound and outbound)?
-
-- Is it consumed in specific conversations?
-
-- What's happened in the conversation that caused the problem?
+The Voice usage report lets Omnichannel administrators view a Power BI report in Omnichannel admin center that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from voice quota have been consumed.
 
 ## Prerequisites
 
@@ -53,9 +43,9 @@ The following table explains the metrics.
 
 |Metric|Description|
 |--------|------|
-|Call intelligence minutes|How many minutes of calls from the quota limits this org has already consumed? (with quota limits in mind)  |
-|Intelligent voicebot minutes|How many minutes of calls from the quota limits this org has already consumed?|
-|Usage over time|Is there any abnormal daily minutes that need more attention over time? |
+|Call intelligence minutes|Number of minutes of calls where call transcription is generated. Number is rounded down to a while number.  |
+|Intelligent voicebot minutes|Number of minutes used by voicebot. Number is rounded down to a whole number.|
+|Usage over time|Overtime trending of call intelligence minutes and intelligent voicebot minutes. |
 |||
 
 ### Slice metrics by time

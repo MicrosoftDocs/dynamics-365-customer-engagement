@@ -67,7 +67,8 @@ Take a look at some of the key capabilties that makes the voice channel great fo
 [Inbound calling](voice-channel-inbound-calling.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Route incoming calls to agents](voice-channel-route-queues.md)  
-[View usage and billing](voice-channel-usage-billing.md)  
+[Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
+[View voice calls usage](voice-channel-usage.md)  
 [Configure post-call survey](voice-channel-survey.md)  
 [Set up a multi-language contact center](voice-channel-multi-language-contact-center.md)  
 [Handle call overflow for the voice queues](voice-channel-call-overflow.md)  
@@ -88,19 +89,9 @@ Take a look at some of the key capabilties that makes the voice channel great fo
 [Call insights](voice-channel-call-insights.md)  
 [Reporting and analytics](voice-channel-report-analytics.md)  
 
-### Developer experience
-
-[Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
-
-### FAQ
-
-[Voice channel FAQ](voice-channel-faq.md)  
-
-
 ### See also
 
 [Regional Availability](voice-channel-region-availability.md)  
 [Supported Languages](voice-channel-supported-languages.md)  
 
-[Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)
-
+[Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)  
