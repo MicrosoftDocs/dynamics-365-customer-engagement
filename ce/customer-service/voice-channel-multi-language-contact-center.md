@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 Agents are increasingly serving global and diverse customers who speak multiple languages, so it's important that the communication tools they use be able to work across languages.
 
-This topic shows you how to configure a phone number in a workstream to allow the customer to choose the language in which they speak, as well as the language of the bot.
+You can configure a phone number in a workstream that allows the customer to choose the language in which they speak, as well as choose the language of the bot.
 
 ## Prerequisites
 
