@@ -32,33 +32,33 @@ When using Dynamics 365 Field Service (vX) and Universal Resource Scheduling (vY
 | IsWebApi | Boolean | Set this to _True_ in order to use the SA via the web API. | Yes |
 | Requirement | Entity | This attribute specifies the resource requirement for which resource availability is being retrieved. This is expected to be a msdyn_resourcerequirement type entity. The requirement can be a pre-existing record from the database, or one created on the fly with the necessary constraints. The entity should contain all the specifics that are relevant for your search. The following some important attributes to populate: <ol> <li>**msdyn_fromdate** (_Datetime_): Requirement's from date in ISO format <li> **msdyn_todate** (_Datetime_): Requirement's to date in ISO format <li> **msdyn_remainingduration** (_Integer_): The remaining duration of the requirement in minutes <li> **msdyn_duration** (_Integer_): The total duration of the requirement in minutes | Yes |
 | Settings | Entity | The [settings attribute](#settings-entity) helps to filter the retrieved resources further. Settings are specified as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name.  | Yes |
-| ResourceSpecification | Entity | The [resourceSpecification attribute](#resource-specification-entity) is defined as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name. | No |
+| ResourceSpecification | Entity | The [resourceSpecification attribute](#resource-specification-entity) is defined as attributes in an entity bag. The type of entity does not matter, you can specify any entity logical name. | No, Default - None |
 
 ### Settings entity
 
 | Name | Type | Description | Required | 
 | --- | --- | --- | --- |
-| ConsiderSlotsWithLessThanRequiredCapacity | Boolean | Set this to _True_ if a time slot with less than the required capacity (effort) should be considered when computing potential available time slots on the resource's calendar.
-| ConsiderSlotsWithLessThanRequiredDuration | Boolean | Set this to _True_ if a time slot with less than the required duration should be considered when computing potential available time slots on the resource's calendar.
-| ConsiderSlotsWithOverlappingBooking | Boolean | Set this to _True_ if a time slot with overlapping bookings should be considered when computing potential available time slots on the resource's calendar.
-| ConsiderSlotsWithProposedBookings | Boolean | Set this to _True_ if a time slot with proposed bookings should be considered when computing potential available time slots on the resource's calendar.
-| ConsiderTravelTime | Boolean | Set this to _True_ if travel time should be considered when computing potential time slots on the resource's calendar.
-| MovePastStartDateToCurrentDate | Boolean | Set this to _True_ to move a start date in the past to the current date.
-| UseRealTimeResourceLocation | Boolean | Set this to _True_ if the real-time location of resources should be used when computing potential time slots on the resource's calendar.
-| SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection will represent one sort criteria. The type of entity does not matter, you can specify any entity logical name. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending)
-| MaxResourceTravelRadius | Entity | This attribute specifies the maximum This attribute can be defined in an Entity. The type of entity does not matter, you can specify any entity logical name. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values.
-| MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request.
+| ConsiderSlotsWithLessThanRequiredCapacity | Boolean | Set this to _True_ if a time slot with less than the required capacity (effort) should be considered when computing potential available time slots on the resource's calendar. | No, Default - False
+| ConsiderSlotsWithLessThanRequiredDuration | Boolean | Set this to _True_ if a time slot with less than the required duration should be considered when computing potential available time slots on the resource's calendar. | No, Default - False
+| ConsiderSlotsWithOverlappingBooking | Boolean | Set this to _True_ if a time slot with overlapping bookings should be considered when computing potential available time slots on the resource's calendar. | No, Default - False
+| ConsiderSlotsWithProposedBookings | Boolean | Set this to _True_ if a time slot with proposed bookings should be considered when computing potential available time slots on the resource's calendar. | No, Default - False
+| ConsiderTravelTime | Boolean | Set this to _True_ if travel time should be considered when computing potential time slots on the resource's calendar. | No, Default - True
+| MovePastStartDateToCurrentDate | Boolean | Set this to _True_ to move a start date in the past to the current date. | No, Default - False
+| UseRealTimeResourceLocation | Boolean | Set this to _True_ if the real-time location of resources should be used when computing potential time slots on the resource's calendar. | No, Default - False
+| SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection will represent one sort criteria. The type of entity does not matter, you can specify any entity logical name. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No, Default - None
+| MaxResourceTravelRadius | Entity | This attribute specifies the maximum This attribute can be defined in an Entity. The type of entity does not matter, you can specify any entity logical name. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values. | No, Default - 0 km
+| MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No, Default - Resource Availability Retrieval Limit from schedulable entity definition
 
 ### Resource specification entity
 
 | Name | Type | Description | Required |
 | --- | --- | --- | --- |
-| Resource Types | EntityCollection | This attribute specifies the resource type required for the requirement. It can be specified using an entity collection. Each entity in the collection will represent one bookable resource type. The type of entity does not matter, you can specify any entity logical name. This is the attribute required: <ol> <li> **Value** (_Integer_): The option set value that represents the resource type.  | No
-| Preferred Resources | EntityCollection | This attribute specifies the resources preferred for the requirement. Preferred resources can be specified using an entity collection of bookable resource entities. Each entity in the collection will represent one preferred resource. This is the attribute required: <ol> <li> **Value** (_Guid_): The bookable resource ID of the preferred resource.
-| Restricted Resources | EntityCollection | This attribute specifies the resources that should not be considered for the requirement. Restricted resources can be specified using an entity collection of bookable resource entities. Each entity in the collection will represent one restricted resource. This is the attribute required: <ol> <li> **Value** (_Guid_): The bookable resource ID of the restricted resource.
-| Constraints | Entity | This attribute specifies the additional constraints that should be applied to the retrieval of available resources.
-| RetrieveResourcesQueryId | 
-| BookedResourceId | Guid | This attribute specifies the resource currently booked for the requirement.  
+| Resource Types | EntityCollection | This attribute specifies the resource type required for the requirement. It can be specified using an entity collection. Each entity in the collection will represent one bookable resource type. The type of entity does not matter, you can specify any entity logical name. This is the attribute required: <ol> <li> **Value** (_Integer_): The option set value that represents the resource type: <ul> <li> 1- Generic <li> 2- Contact <li> 3- User <li> 4- Equipment <li> 5- Account <li> 6- Crew <li> 7- Facility <li> 8- Pools | No, Default - All resource types except crews
+| Preferred Resources | EntityCollection | This attribute specifies the resources preferred for the requirement. Preferred resources can be specified using an entity collection of bookable resource entities. Each entity in the collection will represent one preferred resource. This is the attribute required: <ol> <li> **Value** (_Guid_): The bookable resource ID of the preferred resource. | No, Default - None
+| Restricted Resources | EntityCollection | This attribute specifies the resources that should not be considered for the requirement. Restricted resources can be specified using an entity collection of bookable resource entities. Each entity in the collection will represent one restricted resource. This is the attribute required: <ol> <li> **Value** (_Guid_): The bookable resource ID of the restricted resource. | No, Default - None
+| Constraints | Entity | This attribute specifies the additional constraints that should be applied to the retrieval of available resources. | No, Default - None
+| RetrieveResourcesQueryId | Guid | The Id for the Retrieve Resources query. | No, Default - The default Retrieve Resource Query Id.
+| BookedResourceId | Guid | This attribute specifies the resource currently booked for the requirement. | No, Default - None
 
 #### Constraints
 
