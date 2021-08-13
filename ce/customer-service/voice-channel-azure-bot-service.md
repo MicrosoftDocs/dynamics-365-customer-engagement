@@ -224,33 +224,6 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 
 4.	Select the number of add-ons required and complete the purchase.
 
-<!--
-## Known limitation
-
-Authentication cards are not supported in bots integrated with Omnichannel for Customer Service.
--->
-
-
-
-
-<!--
-
-**To add and connect speech services to your bot**
-
-1. Go to the Azure portal and under **Azure Services**, select **Cognitive Services**.
-
-2. Select the **Add**, and then select **Speech Service** from the dropdown list.
-
-3. In the **Create** dialog, enter the following details:
-   1. **Name**: Enter a name for the speech service.
-   2. **Subscription**: Select a subscription from the dropdown list.
-   3. **Location**: Select a location from the dropdown list.
-   4. **Pricing Tier**: Select an appropriate pricing tier.
-   5. **Resource group**: Select an existing resource group or create a new one.
-4. Select **Create** to add your speech service to the cognitive services list. 
-
-Save the location and key details so you can use them when you add your bot as an application user.
--->
 
 ## Privacy notice
 
