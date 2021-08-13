@@ -18,7 +18,7 @@ ms.custom: intro-internal
 
 The **Omnichannel intraday insights** dashboards provide information about the health and key performance indicators (KPIs) for your organization. Omnichannel intraday insights consists of the following reports.
 
-- [IntradayMonitoring](#intradaymonitoring)
+- [IntradayMonitoring](#the-intradaymonitoring-report)
 - [Conversation insights](intraday-conversation-insights.md)
 - [Agents insights](intraday-agents-insights.md)
 
