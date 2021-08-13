@@ -118,7 +118,8 @@ Create the bot. More information [Azure Bot Service](https://azure.microsoft.com
                         }
                     }
                 }
-                ```
+              
+```
 
 ## Add your bot to the workstream
 
