@@ -27,45 +27,22 @@ You can configure a phone number in a workstream that allows the customer to cho
    > [!div class="mx-imgBorder"]
    > ![Screenshot of ](./media/voice-language-workstream.png)
 
-## Add a phone number to the workstream
+## Add a phone number to the workstream and configure language settings
 
 1. In Omnichannel admin center, select **Workstreams** on the sitemap, and then select the name of the workstream you want to add the phone number to. 
-2. Select **Edit**, and then add the number to the workstream.
-
-## Select languages for phone number in the workstream
-
-The Primary language is the first language the bot greets the customer in. This allows your organization to have one phone numebr that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
-
-In each language setting, there are options for you to select the type of wait and hold music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
-
-You can also choose the voice style for the bot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-phone-primary-language.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-phone-primary-language2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-workstream-add-additional.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-workstream-add-additional2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-workstream-final.png)
-
-> [!Note]
-> Different music for different languages
-
+2. Select **Add a phone number**, select the number to add to the workstream, and then select **Next**.
+3. On the **Language page**, select **Add primary language**. A Language page is displayed, where you set the primary language for the channel. You can add additional languages to this voice channel, and each language added will have its own settings.
+   The **Primary language** is the first language the bot greets the customer in. This allows your organization to have one phone numebr that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
+4. Select the type of wait and hold music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
+5. Select a voice style, pitch, and speaking speed for the voicebot.
+6. Toggle **Post-call survey** to **On** if you want the voicebot to survey the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey voicebot after the agent hangs up.
+7. Select **Next**.
+8. Select the preferred behaviors, and then select **Next**.
+9. Select **Save and close** to save the settings.
+ 
 ## Create language-specific routing rules
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-language-route.png)
+Define the language-based routing rules. More information: [Create and manage routing rules in Omnichannel Administration](routing-rules.md).
 
 ## Create a multi-language IVR bot with Azure Bot Framework
 
