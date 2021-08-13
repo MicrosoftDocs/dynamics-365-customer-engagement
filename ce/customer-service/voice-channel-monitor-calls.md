@@ -34,7 +34,7 @@ Manager sees list of active conversations including customer sentiment analysis 
 
 Manager selects and highlights conversation and selects **Monitor**
 
-Supervisor will see conversation wihtout being seen as a participant to the agent. 
+Supervisor will see conversation without being seen as a participant to the agent. 
 
 
 ## Consult

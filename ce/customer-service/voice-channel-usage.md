@@ -39,7 +39,7 @@ To view the voice usage report, go to the Omnichannel admin center app, and in t
 
 > ![The voice usage report.](media/voice-usage-report.png "The voice usage report.")
 
-The following table explains the metrics.
+The following table contains the metrics.
 
 |Metric|Description|
 |--------|------|
