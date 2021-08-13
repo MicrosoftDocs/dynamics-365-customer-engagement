@@ -57,7 +57,7 @@ Use either Power Virtual Agent (no-code or low-code experience) or Azure bot Ser
 
 ## Step 2: Connect your bot to Omnichannel
 
-- Configure your PVA bot. More information: [Configure handoff to Omnichannel for Customer Service](https://docs.microsoft.com/power-virtual-agents/configuration-hand-off-omnichannel) and [Configure a bot](configure-bot-virtual-agent.md).
+- Configure your PVA bot. More information: [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel.md) and [Configure a bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](configure-bot.md)
 
 ## Step 3: Enable Post-call survey in workstream phone number settings
