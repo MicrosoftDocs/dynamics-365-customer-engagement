@@ -87,7 +87,7 @@ We're planning to support additional languages for the GA release in 2021. See t
 |Transcription | https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support | 
 |Power Virtual Agents (IVR) | https://docs.microsoft.com/power-virtual-agents/authoring-language-support |
 |Bring your own bot (IVR) | https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support  |
-|AI Suggestions | https://docs.microsoft.com/dynamics365-release-plan/2021wave1/service/dynamics365-customer-service/multi-language-support-ai-suggested-knowledge-articles-similar-cases |
+|AI Suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles#language-support-for-ai-suggestions.md) |
 | Sentiment Analysis | https://docs.microsoft.com/dynamics365/customer-service/enable-sentiment-analysis#multi-language-sentiment  |
 | Other Omnichannel features | https://docs.microsoft.com/dynamics365/customer-service/international-availability#language-availability   
 
