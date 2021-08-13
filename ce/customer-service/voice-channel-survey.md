@@ -76,12 +76,12 @@ Use either Power Virtual Agent (no-code or low-code experience) or Azure bot Ser
 1. Create a queue where only the agent is the bot user.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of ](./media/voice-survey-pva-agent-initiated1.png)
+   > ![Screenshot of agent-initiated survey.](./media/voice-survey-pva-agent-initiated.png)
 
 2. Transfer the call to the survey queue.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of ](./media/voice-survey-pva-agent-initiated2.png)
+   > ![Screenshot of ](./media/voice-survey-transcript.png)
 
 3. When answered, this sends the user to the bot's greeting topic.
 
