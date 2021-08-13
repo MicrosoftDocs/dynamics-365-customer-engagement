@@ -9,9 +9,20 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-
 # Use the voice channel in the agent dashboard 
 
+> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/oc-voice-agent-dashboard.png)
@@ -30,7 +41,6 @@ See the video on [Agent experience using the voice channel in Dynamics 365 Custo
 
 ## View call transcript
 
-## Call controls 
 
 ## Call controls
 
@@ -54,7 +64,6 @@ See the video on [Agent experience using the voice channel in Dynamics 365 Custo
 ## Topic discovery
 
 
-
 | Number reference in image | Function | Description |
 | --- | --- | --- |
 |  1 |  Mute  |    | 
@@ -63,10 +72,13 @@ See the video on [Agent experience using the voice channel in Dynamics 365 Custo
 |  4 |  Transfer  |    | 
 |  5 |  End call  |    | 
 
+## Mark a phone number as spam
 
+As an agent, if you receive a phone call that you want to flag as spam, you can do so by selecting the 
 
+You can add notes that'll help your administrator review and block numbers​. After you mark a number as spam, it goes into the pending review tab on the Blocked numbers (preview) page. 
 
-## Mark number as SPAM (agent)
+Un mark spam number within same call​.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-block-agent.png)

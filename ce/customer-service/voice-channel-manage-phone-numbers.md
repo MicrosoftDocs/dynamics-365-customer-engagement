@@ -1,5 +1,5 @@
 ---
-title: "Number management | MicrosoftDocs"
+title: "Manage phone numbers | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
@@ -20,11 +20,11 @@ Naresh/Abhiney/Sudarshan - discusses how to use an existing resource (say you ha
 Video 3: https://msit.microsoftstream.com/video/8bfc99ff-0300-b561-3feb-f1ebe379b30a
 -->
 
-# Number management
+# Manage phone numbers
 
 Omnichannel for Customer Service helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics 365. As an administrator, you can purchase phone numbers and call plans, decide whether you want to avail call and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
 
-## Use number included with the voice channel
+## Use phone number included with the voice channel
 
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services.
 However, after the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
@@ -107,21 +107,6 @@ After you've acquired a phone number, you must add it to a workstream to be able
 
    The workstream is added to the phone number and you can view the **Connected** status for phone number on the **Phone numbers** page.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-number-mgmt-create-new-number.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-number-mgmt-connect-azure-service.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-number-mgmt-azure-create-new-resource.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-number-mgmt-azure-success.png)
-
 <a name="use-existing-resource"></a>
 
 ### Use existing resource
@@ -149,13 +134,6 @@ Before you proceed with adding an existing resource to Azure Communication Servi
 3.
 
 4.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-number-mgmt-add-features.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-number-mgmt-add-summary.png)
 
 ## Edit phone number
 

@@ -4,7 +4,7 @@ description:
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/06/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
