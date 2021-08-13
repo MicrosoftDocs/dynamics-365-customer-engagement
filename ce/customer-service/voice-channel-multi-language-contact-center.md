@@ -209,6 +209,7 @@ The Azure bot should respect the primary language of the workstream. For example
 
 ### See also
 
+[Introduction to the voice channel](voice-channel.md)
 [Azure cognitive services - speech to text](https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/#features)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
