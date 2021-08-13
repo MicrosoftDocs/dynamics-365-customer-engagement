@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 02/28/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 
@@ -87,3 +88,9 @@ To configure the handoff between Power Virtual Agents to Omnichannel for Custome
 ![](media/image65.png)
 
 ![](media/image69.png)
+
+### See also
+
+[Overview of the voice channel](voice-channel.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
