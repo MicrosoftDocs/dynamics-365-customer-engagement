@@ -1,6 +1,6 @@
 ---
-title: "System and application users | MicrosoftDocs"
-description: "Identifying special system and application users created when the system is provisioned."
+title: "System and application users in Dynamics 365 Customer Engagement (on-premises)"
+description: "System and application users are created when the system is provisioned. Find info on the purpose of these users and details on security and permissions."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# System and application users
+# Special system and application users created during system provisioning
 
 There is a list of special system and application users that is created when the system is provisioned. Special system users are created for integration and support scenarios. Application users are created during system provisioning for setup and configuration management. Application users can also be used for performing back-end services.
 

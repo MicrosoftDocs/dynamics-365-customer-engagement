@@ -1,5 +1,6 @@
 ---
-title: "Add a new organization | Microsoft Docs"
+title: "Add a new organization in Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
+description: Learn how to add a new organization in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: d365ce-op
@@ -16,8 +17,6 @@ ms.author: matp
 manager: kvivek
 ---
 # Add a new organization
-
-
 
 You can add a new organization in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment in the Organizations node of [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)].  
   

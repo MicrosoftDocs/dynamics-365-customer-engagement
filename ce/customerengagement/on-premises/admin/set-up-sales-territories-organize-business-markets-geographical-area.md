@@ -1,6 +1,6 @@
 ---
-title: "Set up sales territories to organize business markets by geographical area  | MicrosoftDocs"
-description: "Create territories for customer and market segments in Dynamics 365 Customer Engagement (on-premises)."
+title: "Set up sales territories in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create sales territories and sub-territories, and assign people to handle the revenue opportunities for those areas."
 ms.custom: 
 ms.date: 03/30/2020
 ms.prod: d365ce-op
@@ -17,7 +17,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 36
 ---
 
-# Set up sales territories to organize business markets by geographical area
+# Create and assign sales territories
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
