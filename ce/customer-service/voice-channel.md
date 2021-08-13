@@ -59,7 +59,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 
 ## Administrator experience
 
-[System requirements for the voice channel](voice-channel-requirements.md)
+[System requirements for the voice channel](voice-channel-requirements.md)  
 [Provision and set up the voice channel](voice-channel-install.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Block a spam number](voice-channel-block-number.md)  
@@ -92,4 +92,5 @@ Take a look at some of the key capabilities that makes the voice channel great f
 [Regional availability](voice-channel-region-availability.md)  
 [Supported languages](voice-channel-supported-languages.md)  
 
-[Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)  
+[Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)
+

@@ -9,11 +9,6 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-<!--
-IT admin perspective by Chris
-video: https://msit.microsoftstream.com/video/78a80840-98dc-b561-710e-f1ebd538f986
--->
-
 # Outbound calling
 
 > [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
@@ -74,7 +69,8 @@ For outbound calls, set the capacity profile fields as follows:
 - **Assignment blocking**: Indicates whether you want to block any incoming calls when the agent is already on a call. Set this value to **Yes**, if you want to ensure the agent does not receive any incoming calls when an outbound call is in progress.
 
 > [!Note]
-> - While you can use the same capacity profile for both inbound and outbound calling, we recommend that you create separate profiles because not all considerations or settings applicable for outbound calling apply to inbound calling, and vice-versa.
+> - When you name your capacity profiles, we recommend that you clearly indicate whether it is outbound or inbound, or both in the capacity **Profile name** field, so it's easy for you to assign users or agents to the appropriate profile.
+- While you can use the same capacity profile for both inbound and outbound calling, we recommend that you create separate profiles because not all considerations or settings applicable for outbound calling apply to inbound calling, and vice-versa.
 > - If your agents only use non-voice channels such as chat or SMS channels to connect with customers, you don't need to add them to outbound capacity profiles.
 > - If your agent is only assigned to receive calls from customers, then again, you don't need to assign them to outbound capacity profiles.
 
@@ -115,77 +111,5 @@ In private preview, only *one* outbound profile can be created. While you can ed
 3. Select a profile from the list and select **Edit**. In the **Edit outbound profile** dialog, update details in the **Basic info**, **Behaviors**, and **Advanced settings** sections. For more information on session and notification templates, see [Manage session templates](../app-profile-manager/session-templates) and [Manage notification settings and templates](../app-profile-manager/notification-templates).
 
 4. Select **Save and close**.
-
-
-<!--
-
-## Configuration considerations
-
-### Call backs
-
-Often, agents need to call customers back at a later time. We recommend that you create a phone call activity with direction set to Outbound as a reminder for the agent.
-
-### Understanding outbound queues
-
-By creating an outbound queue, supervisors can see outbound calls in the Omnichannel Ongoing Conversations Dashboard. 
-
-> [!Note]
-> Note that the outbound queue is used for monitoring and reporting purposes only, and not used for capacity planning.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-callback1.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-callback2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-callback3.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-callback4.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-phone-number.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-queue.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-callback5.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-callback6.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-profile-nav.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-profile.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-call.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-call2.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-nav.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user-nav.png)
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-outbound-capacity-profile-add-user.png)
-
--->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
