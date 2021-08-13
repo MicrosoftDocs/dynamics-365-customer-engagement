@@ -9,9 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
 ---
-<!--// video
-// https://msit.microsoftstream.com/video/a6dd0840-98dc-869c-1241-f1ebcfc77970
--->
+
 # Manage phone music
 
 > [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
@@ -44,7 +42,7 @@ You can update existing music files and replace them with your own music files.
 
 3. Select any music file from the list and select **Edit**.
 
-4. In the Edit phone music dialog, you can do the following:
+4. In the **Edit phone music** dialog, you can do the following:
    - **Name**: Edit the name of the music file.
    - **Replace**: Select **Replace** to update the music file to any other music file (with maximum file size of 20 MB) from your computer.
    - You can play the music file to test it, if you'd like.

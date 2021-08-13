@@ -30,7 +30,6 @@ ROBOTS: NOINDEX,NOFOLLOW
 Make sure that the following prerequisites are met:
 
 - [Prerequisites for provisioning Omnichannel for Customer Service](omnichannel-provision-license.md#prerequisites).
-- Sign up for the voice channel through the private preview program.
 - The **Global Tenant Admin** and **Dynamics 365 System Admin** permissions for your organization.
 
 ## Set up the voice channel
@@ -52,7 +51,7 @@ To set up the voice channel, you will perform the steps for provisioning Omnicha
 
 After the installation is complete, perform the tasks in [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md) to assign the following security roles to your users:
 
-- Common Data Service User
+- Basic User
 - Customer Service Representative
 - Omnichannel administrator
 - Omnichannel supervisor

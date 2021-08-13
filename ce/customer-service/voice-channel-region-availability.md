@@ -67,6 +67,7 @@ OC Voice is currently only available in the United States
 | Vietnamese - Vietnam	| vi-VN | 
 
 ## Language limitations by feature
+
 Languages 
 
 What languages are supported in the voice channel at GA? 
@@ -110,4 +111,7 @@ Other Omnichannel features
 
 https://docs.microsoft.com/en-us/dynamics365/customer-service/international-availability#language-availability   
 
- 
+
+### See also
+
+[Overview of the voice channel](voice-channel.md)   

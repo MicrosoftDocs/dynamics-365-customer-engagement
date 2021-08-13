@@ -19,13 +19,14 @@ Omnichannel for Customer Service helps you enable and use voice and SMS services
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. However, after the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
 
 ## Prerequisites
-<!--add Azure portal link, standard text here-->
+
 - A valid Azure subscription that's in the same tenant as your Dynamics 365 account.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal.
 
 ## Create a new phone number
 
 To add new phone numbers to your business, you must do the following:
+
 - Create a resource or use an existing one to connect to Azure Communication Services. You can also use a resource that you previously disconnected or unlinked from Azure Communication Services, and reuse it now.
 - Deploy the resource through Dynamics 365.
 - Add a new phone number.
@@ -71,10 +72,10 @@ To add new phone numbers to your business, you must do the following:
   
    The new phone number is displayed in the numbers list with the status **Ready for setup**.
 
-  >   [!Note]
-  >  - After you are allotted a new number, you'll have just 15 minutes to purchase the number. If the time lapses, you'll have to try purchasing again.
-  >  - After you select **Purchase phone number**, you can close the page by selecting **Close** and return to the **Phone numbers** page.   
-  >  - The purchase happens in the background and the new phone number appears in the numbers list with **Pending** status. 
+   > [!Note]
+   >  - After you are allotted a new number, you'll have just 15 minutes to purchase the number. If the time lapses, you'll have to try purchasing again.
+   >  - After you select **Purchase phone number**, you can close the page by selecting **Close** and return to the **Phone numbers** page.
+   >  - The purchase happens in the background and the new phone number appears in the numbers list with **Pending** status. 
 
 6. Select **Setup Workstream** to [add the phone number to a workstream](#add-a-phone-number-to-a-workstream) or select **Done** to go back to the **Phone numbers** page where you can view details of the phone number you just purchased.
 
@@ -162,17 +163,9 @@ If you no longer need a phone number, you can release it from your number list. 
 
 *You cannot remove feature once granted to a phone number, but you can upgrade phone number features.*
 
-## Manage Azure Communication Services - Configuration considerations
-
-### Import existing numbers from Azure Communication Services
-
-### Unlink resources
-
-### Bring your own number via Azure Direct Routing
-
 ## Additional notes
 
-You can only use 1 ACS resource for number management
+You can use only one ACS resource for number management.
 
 ### See also
 

@@ -12,7 +12,6 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 # Preview: Handle call overflow for the voice queues
 
-// video 1: https://msit.microsoftstream.com/video/1e910840-98dc-b561-c1ad-f1ebd2b63bf5
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -42,9 +41,6 @@ For call overflow to work correctly, the following prerequisites must be met:
 
 - Agents should be configured for the voice queues.
 - To transfer calls to an external phone number, phone numbers should be available.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-overflow-queue.png)
 
 ## Configure call overflow
 

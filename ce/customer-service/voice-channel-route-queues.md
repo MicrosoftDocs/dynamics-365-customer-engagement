@@ -70,7 +70,7 @@ To configure the voice channel:
 
 5. On the **Summary** page, select **Save and close**.
 
-    ![](media/image22.png)
+    ![Voice setup preview.](media/image22.png "Voice setup preview.")
 
 The phone number is associated with the workstream.
 
@@ -78,42 +78,7 @@ The phone number is associated with the workstream.
 
 ## Acquire a phone number
 
-You can acquire additional phone numbers on the **Phone numbers** page. The following conditions are applicable:
-
-- Only three phone numbers are available in one org.
-
-- Only U.S. numbers, and toll-free numbers.
-
-- Inbound calling must be enabled on the phone number.
-
-- If you are adding a number, before you can use it, it must be in the **Ready** state.
-
-> [!Note]
-> If you acquire new numbers in private preview, you will not be charged for the new phone numbers. After preview, you will be charged per phone number. All rates are subject to change.
-
-To acquire a phone number:
-
-1. Select **Add number**.
-
-    ![Select a number for voice.](media/image24.png "Select a number for voice")
-
-2. Select **Next**.
-
-3. On the page that appears, select United States in **Country/Region**, and Toll free for **Number type**.
-
-4. Make sure that you select the options for inbound and outbound.
-
-    ![Configure features for the number.](media/image25.png "Configure features for the number")
-
-5. Select **Next**.
-
-6. On the **Summary** page, review the details and select **Purchase phone number**. It takes a few minutes for the new phone number to be added, so don't close the page immediately. After a few seconds, a prompt will appear to indicate that you can either close the page or continue to wait until the purchase information is displayed. At this point, the number provisioning will start and will continue the process even if you close the page.
-
-    ![Summary page for the number.](media/image26.png "Summary page for the number")
-
-7. Select **Close**.
-
-    ![Successful acquisition of phone number for voice.](media/image27.png "Successful acquisition of phone number for voice")
+Perform the steps mentioned in [Manage phone numbers](voice-channel-manage-phone-numbers.md) to acquire a phone number.
 
 ## Create queues for voice channels
 
@@ -171,7 +136,7 @@ Navigate to the workstream for which you have configured the voice channel and p
    - **Transfer to external number**: Set this option and specify a number to which the call should be routed if the work item should be handled on priority.
 
     > ![Note]
-    > Make sure that you configure overflow condition for the queue for the action to be run.
+    > Make sure that you configure overflow condition for the queue for the action to be run. More information: [Handle call overflow](voice-channel-call-overflow.md)
 
 7. Select **Create**. The rule is created and appears in the list of rules.
 

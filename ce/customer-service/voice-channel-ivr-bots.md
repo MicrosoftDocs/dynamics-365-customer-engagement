@@ -2,9 +2,9 @@
 title: "Add conversational IVR to the voice channel with Power Virtual Agents | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
 author: neeranelli
-ms.author: daclar
+ms.author: nenellim
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
@@ -17,9 +17,9 @@ Conversational IVR bots speak to customers when they call in to route their call
 
 ## Prerequisites
 
-A bot is configured in Power Virtual Agents, published, and with the Transfer to Agent configured. More information: Appendix C.
+A bot is configured in Power Virtual Agents, published, and with the Transfer to Agent configured. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 
-You might need to sign into [*Power Virtual Agents*](https://powerva.microsoft.com/environments) and select the right environment. More information: [*Create a bot in an existing environment*](https://docs.microsoft.com/en-us/power-virtual-agents/environments-first-run-experience#create-a-bot-in-an-existing-environment).
+You might need to sign into [*Power Virtual Agents*](https://powerva.microsoft.com/environments) and select the right environment. More information: [*Create a bot in an existing environment*](/power-virtual-agents/environments-first-run-experience#create-a-bot-in-an-existing-environment).
 
 **IMPORTANT:** The bot must be created in the same Dynamics 365 environment in which you are configuring the voice channel. Creating the bot in a different environment will not allow the bot to have speech capabilities.
 
@@ -43,23 +43,18 @@ Perform the following steps to add and configure a bot in Omnichannel for Custom
 
 More information:
 
--   [*https://docs.microsoft.com/power-virtual-agents/authoring-template-topics*](https://docs.microsoft.com/power-virtual-agents/authoring-template-topics)
+-   [*https://docs.microsoft.com/power-virtual-agents/authoring-template-topics*](/power-virtual-agents/authoring-template-topics)
 
 -   [*Create topics and test your bot*](https://go.microsoft.com/fwlink/?linkid=2062988)
 
--   [*Configure hand-off to Omnichannel for Customer Service - Power Virtual Agents | Microsoft*](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel) [*Docs*](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel) (See [*Appendix C*](#_bookmark42)).
-
--   See [*Appendix B*](#_bookmark40) for known limitations and workarounds with using Power Virtual Agents as IVR.
 
 ## Additional notes
 
 #### Configure handoff from Power Virtual Agents to Omnichannel for Customer Service
 
-For more information beyond this guide, see the following instructions: [*Configure handoff to*](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel) [*Omnichannel for Customer Service - Power Virtual Agents | Microsoft Docs*](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel)
+To configure the handoff between Power Virtual Agents bot to Omnichannel for Customer Service:
 
-To configure the handoff between Power Virtual Agents to Omnichannel for Customer Service:
-
-1.  Go to **Settings** and select **Transfer to agent**.
+1.  In Power Virtual Agents, go to **Settings** and select **Transfer to agent**.
 
 ![](media/image63.png)
 
@@ -71,7 +66,7 @@ To configure the handoff between Power Virtual Agents to Omnichannel for Custome
 
 ![](media/image65.png)
 
-1.  Select **+New registration**.
+1.  Select **New registration**.
 
 ![](media/image66.png)
 

@@ -64,9 +64,9 @@ Take a look at some of the key capabilities that makes the voice channel great f
 [Provision and set up the voice channel](voice-channel-install.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Block a spam number](voice-channel-block-number.md)  
-[Inbound calling](voice-channel-inbound-calling.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Route incoming calls to agents](voice-channel-route-queues.md)  
+[Add Power Virtual Agents for conversational IVR](voice-channel-ivr-bots.md)  
 [Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
 [View voice calls usage](voice-channel-usage.md)  
 [Configure post-call survey](voice-channel-survey.md)  
@@ -75,23 +75,21 @@ Take a look at some of the key capabilities that makes the voice channel great f
 [Manage music](voice-channel-music.md)  
 [Supported regions and languages](voice-channel-region-availability.md)  
 
-### Agent experience
+## Agent experience
 
 [Make and receive your first phone call](voice-channel-first-call.md)  
 [Call a customer](voice-channel-call-customer.md)  
 [Using call controls and the agent desktop for voice](voice-channel-agent-experience.md)  
 [View call recording and transcripts](voice-channel-call-recording-transcripts.md)  
 
-### Supervisor experience
+## Supervisor experience
 
 [Monitor voice calls](voice-channel-monitor-calls.md)  
-[Call insights](voice-channel-call-insights.md)  
-[Reporting and analytics](voice-channel-report-analytics.md)  
+[Real-time analytics](intraday-conversation-insights.md)  
 
 ### See also
 
-[Regional availability](voice-channel-region-availability.md)  
-[Supported languages](voice-channel-supported-languages.md)  
+[Regional availability](voice-channel-region-availability.md)    
 
 [Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)
 

@@ -35,8 +35,8 @@ The software and hardware requirements for trying the voice channel are as follo
 
 | Area   | Requirement|
 |------------|-------------------------------------------------------------------------------------|
-| Software   | Microsoft Edge ([*Chromium-based*](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended),  Google Chrome          |
-| Hardware   | Microphone and speakers for voice experience      |
+| Supported browsers   |Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li>          |
+| Hardware   | Microphone and speakers for the voice experience      |
 |||
 
 More information: [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)

@@ -11,7 +11,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 
-# Preview: View voice calls usage
+# Preview: View minutes used in voice calls
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -44,7 +44,7 @@ The following table contains the metrics.
 
 |Metric|Description|
 |--------|------|
-|Call intelligence minutes|Number of minutes of calls where call transcription is generated. Number is rounded down to a while number.  |
+|Call intelligence minutes|Number of minutes of calls where call transcription is generated. Number is rounded down to a whole number.  |
 |Intelligent voicebot minutes|Number of minutes used by voicebot. Number is rounded down to a whole number.|
 |Usage over time|Overtime trending of call intelligence minutes and intelligent voicebot minutes. |
 |||
