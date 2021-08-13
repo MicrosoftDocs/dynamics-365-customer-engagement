@@ -72,9 +72,17 @@ See the video on [Agent experience using the voice channel in Dynamics 365 Custo
 |  4 |  Transfer  |    | 
 |  5 |  End call  |    | 
 
-## Mark a phone number as spam
+## Report a phone number as spam
 
-As an agent, if you receive a phone call that you want to flag as spam, you can do so by selecting the 
+When you receive a phone call that you want to report as spam, you can use the call controls on your conversation panel to notify your administrator.
+
+**To report a phone number as spam**
+
+1.
+
+2.
+
+3. 
 
 You can add notes that'll help your administrator review and block numbers​. After you mark a number as spam, it goes into the pending review tab on the Blocked numbers (preview) page. 
 
