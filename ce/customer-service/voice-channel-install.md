@@ -4,7 +4,7 @@ description: "Learn how to provision the voice channel in Omnichannel for Custom
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/08/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
