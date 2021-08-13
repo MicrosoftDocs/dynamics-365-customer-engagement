@@ -1,15 +1,16 @@
 ---
 title: "Requirements to use the Voice Channel in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+description: "Requirements for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
-ms.author: daclar
+ms.author: nenellim
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Requirements to use the Voice Channel in Dynamics 365 Customer Service
+# Preview: Requirements to use the Voice Channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -24,16 +25,24 @@ ms.service: dynamics-365-customerservice
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
-# System requirements
+## Introduction
 
-The software and hardware requirements for trying the voice channel in preview are as follows:
+This topic lists the software and hardware that is required or supported for the voice channel.
 
-| **Area**   | **Requirement**                                                                                                                                      |
-|------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Software   | -   Microsoft Edge ([*Chromium-based*](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended),  Google Chrome          |
+## System requirements
+
+The software and hardware requirements for trying the voice channel are as follows:
+
+| Area   | Requirement|
+|------------|-------------------------------------------------------------------------------------|
+| Software   | Microsoft Edge ([*Chromium-based*](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended),  Google Chrome          |
 | Hardware   | Microphone and speakers for voice experience      |
+|||
 
+More information: [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)
 
+### See also
 
-In addition to this document, see the following video for a guided walk through: [*Voice channel (private preview): Set up and make your first call*](https://youtu.be/cQRQWOkXHTA)
+[Overview of the voice channel](voice-channel.md)  
 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

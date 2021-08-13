@@ -1,59 +1,77 @@
 ---
-title: "Manage Music in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
-author: neeranelli
-ms.author: daclar
+title: "Manage music in the voice channel | MicrosoftDocs"
+description: "Use this topic to understand how you can set hold and wait music in Omnichannel for Customer Service."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/28/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ROBOTS: NOINDEX,NOFOLLOW
 ---
-
-# Manage Music
-
-
-// video
+<!--// video
 // https://msit.microsoftstream.com/video/a6dd0840-98dc-869c-1241-f1ebcfc77970
+-->
+# Manage phone music
 
-## Prerequisites
-> [!Note]
+> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
 >
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
+Omnichannel for Customer Services comes with out-of-the-box music files that you can use to set hold tunes and wait tunes. You can replace them with your own ones, or even upload new ones to be used for hold or wait music for your customer calls.
 
+You can also configure hold and wait music for each language in each workstream.
 
+## Edit music files
 
+You can update existing music files and replace them with your own music files.
 
-## Select Hold and Wait music
+**To use existing music files**
 
+1. In Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
 
+2. In the **Customer experience** area, select **Phone music (preview)**, and then select **Manage**.
+   You'll see a list of out-of-the box music files.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-number.png)
+3. Select any music file from the list and select **Edit**.
 
+4. In the Edit phone music dialog, you can do the following:
+   - **Name**: Edit the name of the music file.
+   - **Replace**: Select **Replace** to update the music file to any other music file (with maximum file size of 20 MB) from your computer.
+   - You can play the music file to test it, if you'd like.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-language.png)
+5. Select **Save and close**.
 
+## Add custom hold and wait music
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-select.png)
+You can also add new music files to use them in calls as hold and wait music.
 
-## Add custom music
+**To add new music files**
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-customer-settings.png)
+1. In Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
 
+2. In the **Customer experience** area, select **Phone music (preview)**, and then select **Manage**.
+   You'll see a list of out-of-the box music files.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-music-add-new.png)
+3. Select **Add new**.
 
->[!TIP] 
-> Add musoic that loops well.
+4. In the **Add new phone music** dialog, enter the following details:
+   - **Name**: Enter a name for your music file.
+   - **Sound file**: Select **Upload** to upload any sound file from your computer with a file size no more than 20 MB. Be sure to choose some music that loops well.
 
+5. Select **Save and close**.
 
+### See also
 
-## Configuration considerations
+[Overview of the voice channel](voice-channel.md)  
 
-- Wait and hold music can be configured for each language in each workstream.
-
-## Additional Notes
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

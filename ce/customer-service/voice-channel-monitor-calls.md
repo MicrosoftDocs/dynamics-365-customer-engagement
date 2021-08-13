@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 # Monitor calls
@@ -26,6 +27,7 @@ On the **Omnichannel Ongoing Conversations** dashboard, you, as a supervisor, ca
 
 To find out details about an individual conversation:
 1. On the **Omnichannel Ongoing Conversations dashboard**, select it in the list of active conversations, and then select **Monitor**.
+
 
 
 ## Consult with an agent during a conversation
