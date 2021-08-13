@@ -1,5 +1,5 @@
 ---
-title: "View Usage and Billing in the Voice channel | MicrosoftDocs"
+title: "View voice calls usage | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
