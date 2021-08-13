@@ -12,11 +12,7 @@ ms.service: dynamics-365-customerservice
 
 # Configure a Post-call survey
 
-// Video: https://msit.microsoftstream.com/video/9c7f0840-98dc-b561-43e3-f1ebd609d1b6
-// Powerpoint: https://microsoft-my.sharepoint.com/:p:/p/kausri/Ebu5F_j6ZUZJj85tobOW7yEBsiGxOMe6Ya6EqMUGl3o9hA
-
-
-Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. Having the survey take place right after a call gives the customer an opportunity to offer feedback while the conversation is fresh on their mind.
+Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. Having the survey take place right after a call gives customers an opportunity to offer feedback while the conversation is fresh on their minds.
 
 There are three ways to initiate post-call surveys:
 
@@ -31,6 +27,9 @@ There are three ways to initiate post-call surveys:
     Toward the end of a call, the agent can ask the customer if they want to take a survey. 
     If the customer says yes, the agent manually transfers the call to the survey bot.
 
+## Configuration considerations
+
+We recommend that you have two bots if your organization wants to use Power Virtual Agent for both IVR and survey scenarios.
 
 ## Step 1: Create a survey bot
 Use either Power Virtual Agent (no-code or low-code experience) or Azure bot Service (pro-developer experience)
@@ -83,12 +82,16 @@ Use either Power Virtual Agent (no-code or low-code experience) or Azure bot Ser
    > [!div class="mx-imgBorder"]
    > ![Screenshot of ](./media/voice-survey-pva-agent-initiated2.png)
 
-3. When answered this will send the user to the greeting topic of the bot.
+3. When answered, this sends the user to the bot's greeting topic.
 
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of ](./media/voice-survey-pva-agent-initiated-greeting.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-survey-pva-agent-initiated-greeting.png)
+### See also
 
-## Configuration considerations
+[Introduction to the voice channel](voice-channel.md)
+[Outbound calling](voice-channel-outbound-calling.md)  
+[Route incoming calls to agents](voice-channel-route-queues.md)  
+[Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md) 
 
-We recommend that you have two bots if your organization wants to use Power Virtual Agent for both IVR and survey scenarios.
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
