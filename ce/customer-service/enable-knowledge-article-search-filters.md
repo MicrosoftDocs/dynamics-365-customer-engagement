@@ -29,9 +29,9 @@ You can set up the customization of knowledge article search filters by first en
 - Date and time
 
 > [!NOTE] 
-> Any filter configurations you set will apply anywhere that the knowledge search experience is configured, including, but not limited to, the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, Unified Service Desk embedded search control, and Omnichannel for Customer Service Application tab search experience.<br></br>
-> By enabling this feature, the web client and maker experience knowledge management filter experience are deactivated. You can disable this anytime by setting the feature to **No**.<br></br>
-> In full text search mode, archived and discarded status filters are not supported.
+> + Any filter configurations you set will apply anywhere that the knowledge search experience is configured, including, but not limited to, the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, Unified Service Desk embedded search control, and Omnichannel for Customer Service Application tab search experience.<br></br>
+> + By enabling this feature, the web client and maker experience knowledge management filter experience are deactivated. You can disable this anytime by setting the feature to **No**.<br></br>
+> + In full text search mode, archived and discarded status filters are not supported.
 
 
 ## Prerequisite
