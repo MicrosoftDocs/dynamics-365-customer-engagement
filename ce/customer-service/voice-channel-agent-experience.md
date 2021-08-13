@@ -39,7 +39,7 @@ The conversation panel in the agent interface includes the following controls th
 - **End** - Select to end the call.
 - **More actions (...)** - This dropdown includes the following controls:
     - **Show number pad** - Select to open the number pad, so you can view or dial a number.
-    - **Mark number as spam** - Select to [report the incoming call as spam](report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
+    - **Mark number as spam** - Select to [report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
     - **Device settings**
     - **Take notes** - You can take any important or specific notes regarding your conversation with the customer. Note that this is in addition to the call recording and transcription that happen during the conversation.
     - **Pause transcription** - If you do not want to capture some details of the conversation, such as bank details, billing, or payment information, you can temporarily pause the transcription and later resume it.
