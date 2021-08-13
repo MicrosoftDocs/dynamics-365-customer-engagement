@@ -116,11 +116,11 @@ By default, the booking calendar control shows the following details associated 
 
 You can customize this control to include up to three more fields with optional labels, in addition to changing the incident type, which is referred to as "Primary Custom Field." The new fields can be modified to show data from any column in a view of the **Bookable Resource Booking**.
 
-To customize the control, create a new view or edit an existing view with data you want to expose on the booking calendar control.
+To customize the control, edit your view assosiated with the Mobile application with data you want to expose on the booking calendar control.
 
 To setup your view, go to **Field Service** > **Settings** > **Customization** > **Customize the System** > **Entities** and select **Bookable Resource Booking**.
 
-Select **Views**, then select the desired view. In the following screenshot, we updated the **Active Bookable Resource Bookings** view.
+Select **Views**, then select the view for mobile. By default this is typically "Bookings" view but can be customized but the admin. 
 
 From the view, you can then add any column from tables that have a relationship to the bookable resource booking. For example, if you wanted to show **Work Order Priority**, select **Work Order**, then add the **Priority** column to the view. Note the name of the column, as the name will be used later when customizing the field. In our example, the name is *msdyn_priority*.
 
