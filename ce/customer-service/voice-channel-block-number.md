@@ -34,29 +34,30 @@ You can review all spam notification reports by viewing the report history​. Y
 
 **To review phone numbers marked as spam**
 
-1. In the site map of Omnichannel admin center, select **Customer settings** under the **Advanced settings** menu.
+1. In the site map of Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
    
 2. In the **Customer experience** area, select **Blocked numbers (preview)**, and then select **Manage**.
 
 3. On the **Blocked numbers (preview) page**, you can do the following:
     
-    - **Pending review** tab - Shows the list of numbers that have been flagged off as spam by your agents and supervisors. You can view the report for each phone number, and then block the specific number as spam. Select any number from the **Pending review** list and you can do the following:
+    - **Pending review** tab - Shows the list of numbers that have been flagged as spam by your agents and supervisors. You can view the report for each phone number, and then block the specific number as spam. Select any number from the **Pending review** list, and then you can do the following:
       - **Block** - Select to block the number.
       - **Remove from list** - Select to remove the number from the **Pending review** numbers list.
-      - **View report history** - Select to view the reports for the specific phone number in the **Pending review** list. You can view call details 
+      - **View report history** - Select to view the reports for the specific phone number in the **Pending review** list. You can view call details.
     
     - **Blocked** tab - Shows the list of phone numbers that have been blocked as spam.
 
 ## Manually block a phone number
 
-1. In the site map of Omnichannel admin center, select **Customer settings** under the **Advanced settings** menu.
-   
+1. In the site map of Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
+  
 2. In the **Customer experience** area, select **Blocked numbers (preview)**, and then select **Manage**.
-   Select **Block a number**.
+
+3. Select **Block a number**.
 
 ## Automatically block phone numbers
 
-You can also automatically block numbers if they are reported as spam two or more times. This not only saves time needed to review every blocked call report received from your agents, it also helps remove the any delay from the administrator's end when there are too many spam numbers to be reviewed. The auto-block option also helps in situations or instances where there might be a surge in spam calls from different numbers. You can also set conditions such that some numbers get directly added to the blocked numbers list, if they match certain conditions based on number of reports.
+You can also automatically block numbers if they're reported as spam two or more times. This not only saves time in reviewing every blocked call report received from your agents, but also helps remove the delay from the administrator's end when there are too many spam numbers to be reviewed. The auto-block option also helps in situations or instances where there might be a surge in spam calls from different numbers. You can also set conditions so that some numbers are automatically added to the blocked numbers list if they match certain conditions based on the number of reports.
 
 
 ### See also
