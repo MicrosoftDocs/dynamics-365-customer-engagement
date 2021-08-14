@@ -52,7 +52,7 @@ To add new phone numbers to your business, you must do the following:
 
 2. Select **Create new resource** or **Use existing resource**.
 
-   a. If you selected the option to create a new resource, then enter the following details:
+   a. If you selected the option to create a new resource, enter the following details:
    - Azure subscription: 
    - Azure resource group:
       > [!NOTE]
