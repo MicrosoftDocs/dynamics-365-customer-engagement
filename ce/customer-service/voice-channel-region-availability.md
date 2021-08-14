@@ -96,9 +96,9 @@ We're planning to support additional languages for the GA release in 2021. See t
 | Transcription | [Language and speech support](/azure/cognitive-services/speech-service/language-support) | 
 | Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](/power-virtual-agents/authoring-language-support) |
 | Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)  |
-| AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles#language-support-for-ai-suggestions.md) |
-| Sentiment Analysis | [Multi-language sentiment](enable-sentiment-analysis#multi-language-sentiment.md)  |
-| Other Omnichannel features | [Language availability in Omnichannel for Customer Service](international-availability#language-availability.md)
+| AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions) |
+| Sentiment Analysis | [Multi-language sentiment](enable-sentiment-analysis.md#multi-language-sentiment)  |
+| Other Omnichannel features | [Language availability in Omnichannel for Customer Service](international-availability.md#language-availability)
 
 
 ### See also

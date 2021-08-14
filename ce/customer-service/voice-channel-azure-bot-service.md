@@ -223,7 +223,7 @@ You understand that your data may be transmitted and shared with external system
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 [Enable bot context NuGet package](enable-bot-context.md)  
-[Create an application user](../powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant)  
+[Create an application user](/powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
