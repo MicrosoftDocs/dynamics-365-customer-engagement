@@ -67,7 +67,7 @@ Go to Contact > Timeline > conversations
 
 ## View the conversation recording and transcript
 
-Recording playback is available when the conversation is closed. The conversation is closed when both the agent and csutomer end the call. 
+Recording playback is available when the conversation is closed. The conversation is closed when both the agent and customer end the call. 
 
 New UI design to align with modern admin, fluent UI​
 
@@ -75,7 +75,7 @@ Advanced playback features, including ​
 
 Sentiment highlights​
     Green - positive
-    Grey - neutral
+    Gray - neutral
     Red - negative
 
 Click to scroll ​
