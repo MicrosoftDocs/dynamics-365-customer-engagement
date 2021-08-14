@@ -10,7 +10,20 @@ ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Allow customers to choose a language
+# Preview: Allow customers to choose a language
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
 Agents are increasingly serving global and diverse customers who speak multiple languages, so it's important that the communication tools they use be able to work across languages.
 
@@ -21,7 +34,7 @@ You can configure a phone number in a workstream that allows the customer to cho
 - Set up a phone number. More information: [Number management](voice-channel-manage-phone-numbers.md)
 
   
-- Create the queues you need for your business, based on the customer's language. More information: [Create and manage queues](queues-omnichannel.md)
+- Create the queues you need for your business, based on the customer's language. For the **Type**, select **Voice**. More information: [Create and manage queues](queues-omnichannel.md)
 
    
 - Create a workstream. For the **Type**, select **Voice**. More information: [Create and manage workstreams](create-workstreams.md)
@@ -42,7 +55,7 @@ You can configure a phone number in a workstream that allows the customer to cho
  
 ## Create language-specific routing rules
 
-Define the language-based routing rules. More information: [Create and manage routing rules in Omnichannel Administration](routing-rules.md).
+Define the language-based routing rules. More information: [Create and manage routing rules in Omnichannel admin center](configure-work-classification.md).
 
 ## Create a multi-language IVR bot with Azure Bot Framework
 
@@ -123,7 +136,7 @@ Create the bot. More information [Azure Bot Service](https://azure.microsoft.com
 
 ## Add your bot to the workstream
 
-Add the bot as an IVR bot to the workstream. More information: [Integrate an Azure bot](configure-bot.md)
+Add the bot as an IVR bot to the workstream. More information: [Integrate an Azure bot](voice-channel-azure-bot-service.md#add-bot-user-to-a-voice-or-phone-call-workstream)
 
 
 ## Supported languages and locale codes
