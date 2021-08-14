@@ -11,17 +11,33 @@ ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 
-# Add conversational IVR with Power Virtual Agents
+# Preview: Add conversational IVR with Power Virtual Agents
 
-Conversational IVR bots speak to customers when they call in to route their call to the best department, diagnose issues, collect information, and give recommendations. Using Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat, for voice too!
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
+# Introduction
+
+Conversational IVR bots speak to customers when they call in to route their call to the best department, diagnose issues, collect information, and give recommendations. Using Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
 
 ## Prerequisites
 
 A bot is configured in Power Virtual Agents, published, and with the Transfer to Agent configured. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 
-You might need to sign into [*Power Virtual Agents*](https://powerva.microsoft.com/environments) and select the right environment. More information: [*Create a bot in an existing environment*](/power-virtual-agents/environments-first-run-experience#create-a-bot-in-an-existing-environment).
+You might need to sign into [Power Virtual Agents](https://powerva.microsoft.com/environments) and select the right environment. More information: [Create a bot in an existing environment](/power-virtual-agents/environments-first-run-experience#create-a-bot-in-an-existing-environment).
 
-**IMPORTANT:** The bot must be created in the same Dynamics 365 environment in which you are configuring the voice channel. Creating the bot in a different environment will not allow the bot to have speech capabilities.
+> [!IMPORTANT]
+> The bot must be created in the same Dynamics 365 environment in which you are configuring the voice channel for the bot to have speech capabilities.
 
 ![](media/image33.png)
 
@@ -43,9 +59,9 @@ Perform the following steps to add and configure a bot in Omnichannel for Custom
 
 More information:
 
--   [*https://docs.microsoft.com/power-virtual-agents/authoring-template-topics*](/power-virtual-agents/authoring-template-topics)
+-   [Author template topics in Power Virtual Agents](/power-virtual-agents/authoring-template-topics)
 
--   [*Create topics and test your bot*](https://go.microsoft.com/fwlink/?linkid=2062988)
+-   [Create topics and test your bot](https://go.microsoft.com/fwlink/?linkid=2062988)
 
 
 ## Additional notes
