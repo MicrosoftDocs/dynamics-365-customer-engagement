@@ -32,7 +32,7 @@ You can configure a phone number in a workstream that allows the customer to cho
 1. In Omnichannel admin center, select **Workstreams** on the sitemap, and then select the name of the workstream you want to add the phone number to. 
 2. Select **Add a phone number**, select the number to add to the workstream, and then select **Next**.
 3. On the **Language page**, select **Add primary language**. A Language page is displayed, where you set the primary language for the channel. You can add additional languages to this voice channel, and each language added will have its own settings.
-   The **Primary language** is the first language the bot greets the customer in. This allows your organization to have one phone numebr that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
+   The **Primary language** is the first language the bot greets the customer in. This allows your organization to have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
 4. Select the type of wait and hold music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
 5. Select a voice style, pitch, and speaking speed for the bot.
 6. Toggle **Post-call survey** to **On** if you want the bot to survey the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey bot after the agent hangs up.
