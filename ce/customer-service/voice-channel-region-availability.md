@@ -1,6 +1,6 @@
 ---
 title: "Regional availability in the Voice channel | MicrosoftDocs"
-description: "Learn abou the region availability and supported languages for the voice channel in Omnichannel for Customer Service."
+description: "Learn about the region availability and supported languages for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: daclar
 manager: shujoshi
