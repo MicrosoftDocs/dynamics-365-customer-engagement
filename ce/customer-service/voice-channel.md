@@ -48,15 +48,15 @@ The voice channel has Microsoft's award winning AI built into the product. This 
 
 ## Key capabilities of the voice channel
 
-Take a look at some of the key capabilities that makes the voice channel great for customer service representatives and customers receiving help.
+Take a look at some of the key capabilities that makes the voice channel great for for IT administrators, supervisors, agents, and customers.
 
-| Solution | Capability |
+| User experience | Capability |
 | --- | --- |
-| Agent experience |  <ul><li>Call controls: Mute, Hold, End</li><li>Music on hold</li><li>Integrated customer and case history lookup</li><li>Notes and knowledge search</li><li>Mark a number as spam</li><li>Music on wait</li></ul>  |
+| Agent  |  <ul><li>Call controls: Mute, Hold, End</li><li>Music on hold</li><li>Music on wait</li><li>Integrated customer and case history lookup</li><li>Notes and knowledge search</li><li>Mark a number as spam</li></ul>  |
 | Calling and routing  | <ul><li>Ability to handle and distribute incoming calls, Automatic Call Distribution (Routing)</li><li>Ability to make outbound calls</li><li>Transfer to external phone number</li><li>Phone number procurement and management</li><li>Skills-based Assignment</li></ul> |
-| AI | <ul><li>Real-time sentiment analysis</li><li>Real-time transcription</li><li>Real-time translation</li><li>Real-time smart assist suggestions</li><li>No-code Virtual Agent as IVR</li></ul> |
-| Supervisor experience | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management through supervisor dashboards</li></ul> |
-| Customer experience  | <ul><li>Post-call Survey</li><li>Scheduled Callbacks</li><li>Music on hold</li></ul> |
+| AI | <ul><li>Real-time sentiment analysis</li><li>Real-time transcription and recording</li><li>Real-time translation</li><li>Real-time smart assist suggestions</li><li>No-code Virtual Agent as IVR</li></ul> |
+| Supervisor  | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management through supervisor dashboards</li></ul> |
+| Customer   | <ul><li>Post-call survey</li><li>Scheduled callbacks</li><li>Music on hold and wait</li></ul> |
 
 ## Administrator experience
 
