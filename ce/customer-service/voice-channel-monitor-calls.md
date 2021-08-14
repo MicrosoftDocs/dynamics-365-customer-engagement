@@ -37,7 +37,7 @@ To monitor calls in the voice channel, you must have the **Omnichannel Superviso
 On the **Omnichannel Ongoing Conversations** dashboard, you, as a supervisor, can view a list of active conversations, including customer sentiment analysis for each call.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ongoing conversations dashboard.](./media/voice-channel-monitor-ongoing-conversations.png)
+> ![Screenshot of ongoing conversations dashboard.](media/voice-channel-monitor-ongoing-conversations.png)
 
 To find out details about an individual conversation:
 1. On the **Omnichannel Ongoing Conversations dashboard**, select it in the list of active conversations, and then select **Monitor**.
@@ -48,14 +48,14 @@ To find out details about an individual conversation:
 As a supervisor, you can privately consult with an agent by sending them messages that are hidden from the customer.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of monitoring a conversation.](./media/voice-channel-monitor-barge.png)
+> ![Screenshot of monitoring a conversation.](media/voice-channel-monitor-barge.png)
 
 ## Join a conversation (also known as barge)
 
 If needed, you can select **Join call** to enter the conversation and speak with the agent, customer, or chat with the agent privately. When you join a conversation, the agent can see that you have joined.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of conversation barge.](./media/voice-channel-join-call.png)
+> ![Screenshot of conversation barge.](media/voice-channel-join-call.png)
 
 By joining a conversation, you have access to call controls that allow you to capture details about the conversation, pause the conversation if needed, and engage with the agent and customer as needed.
 
