@@ -1,5 +1,5 @@
 ---
-title: "Regional availability of the Voice channel | MicrosoftDocs"
+title: "Regional availability of the voice channel | MicrosoftDocs"
 description: "Learn about the region availability and supported languages for the voice channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Regional availability and supported languages for the Voice channel
+# Preview: Regional availability and supported languages for the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

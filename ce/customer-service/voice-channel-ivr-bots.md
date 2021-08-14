@@ -39,7 +39,7 @@ You might need to sign into [Power Virtual Agents](https://powerva.microsoft.com
 > [!IMPORTANT]
 > The bot must be created in the same Dynamics 365 environment in which you are configuring the voice channel for the bot to have speech capabilities.
 
-    ![Create a bot.](media/image33.png)
+> ![Create a bot.](media/image33.png)
 
 ## Configure a bot for voice
 
