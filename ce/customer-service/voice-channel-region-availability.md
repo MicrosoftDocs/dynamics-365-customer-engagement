@@ -84,12 +84,12 @@ We're planning to support additional languages for the GA release in 2021. See t
  
 | Feature |	List of supported languages |
 | ---- | ---- |
-| Transcription | [Language and speech support](language-support.md) | 
-| Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](authoring-language-support.md) |
-| Bring your own bot (IVR) | [Language and voice support for the Speech service](language-support.md)  |
-| AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md) |
-| Sentiment Analysis | [Multi-language sentiment](enable-sentiment-analysis#multi-language-sentiment.md) |
-| Other Omnichannel features | [Language availability in Omnichannel for Customer Service](international-availability#language-availability.md) | 
+| Transcription | [Language and speech support](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support) | 
+| Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](https://docs.microsoft.com/power-virtual-agents/authoring-language-support) |
+| Bring your own bot (IVR) | [Language and voice support for the Speech service](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support)  |
+| AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles#language-support-for-ai-suggestions.md) |
+| Sentiment Analysis | [Multi-language sentiment](https://docs.microsoft.com/dynamics365/customer-service/enable-sentiment-analysis#multi-language-sentiment)  |
+| Other Omnichannel features | [Language availability in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/customer-service/international-availability#language-availability)
 
 
 ### See also
