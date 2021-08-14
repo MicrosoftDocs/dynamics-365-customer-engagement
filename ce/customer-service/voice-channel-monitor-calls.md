@@ -42,7 +42,7 @@ As a supervisor, you can privately consult with an agent by sending them message
 If needed, you can select **Join call** to enter the conversation and speak with the agent, customer, or chat with the agent privately. When you join a conversation, the agent can see that you have joined.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of conversation barge.](./media/voice-channel-monitor.png)
+> ![Screenshot of conversation barge.](./media/voice-channel-join-call.png)
 
 By joining a conversation, you have access to call controls that allow you to capture details about the conversation, pause the conversation if needed, and engage with the agent and customer as needed.
 
