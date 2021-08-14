@@ -110,7 +110,7 @@ With call overflow, you can reduce long wait times for customer calls by setting
 
 ### Assignment rules for a queue
 
-By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first. You can also choose hightest capacity or create custom assignment methods. More information: [Assigment methods](assignment-methods.md).
+By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first. You can also choose hightest capacity or create custom assignment methods. More information: [Assignment methods](assignment-methods.md).
 
 For a simple and quick voice call routing, you'll not need to set up any rules for unified routing. By default, all the incoming voice calls will get routed to the "default voice queue" and will get assigned to the agents with the round robin assignment methodology.
 
