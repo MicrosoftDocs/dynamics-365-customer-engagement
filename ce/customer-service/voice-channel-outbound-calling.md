@@ -10,9 +10,9 @@ ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Outbound calling
+# Preview: Outbound calling
 
-> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -25,7 +25,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
-This section describes how you as an IT administrator can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers via the Omnichannel Agent dashboard in Omnichannel for Customer Service.
+This section describes how you as an IT administrator can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers via the Omnichannel Agent Dashboard in Omnichannel for Customer Service.
 
 If you do not have any phone numbers provisioned for your business, then see [Create a new phone number](voice-channel-manage-phone-numbers.md#create-a-new-phone-number) to learn how you can acquire new phone numbers.
 
