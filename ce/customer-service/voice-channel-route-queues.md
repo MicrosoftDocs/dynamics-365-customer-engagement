@@ -74,7 +74,7 @@ To configure the voice channel:
 
 The phone number is associated with the workstream.
 
-    ![](media/image23.png)
+    ![Phone number assoication with workstream.](media/image23.png "Phone number association with workstream.")
 
 ## Acquire a phone number
 
