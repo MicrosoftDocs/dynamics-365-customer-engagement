@@ -1,6 +1,6 @@
 ---
 title: "Add conversational IVR to the voice channel with Power Virtual Agents | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+description: "Learn about how to add conversational IVR for using in voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -26,7 +26,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
-# Introduction
+## Introduction
 
 Conversational IVR bots speak to customers when they call in to route their call to the best department, diagnose issues, collect information, and give recommendations. Using Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
 
@@ -39,66 +39,62 @@ You might need to sign into [Power Virtual Agents](https://powerva.microsoft.com
 > [!IMPORTANT]
 > The bot must be created in the same Dynamics 365 environment in which you are configuring the voice channel for the bot to have speech capabilities.
 
-![](media/image33.png)
+    ![Create a bot.](media/image33.png)
 
 ## Configure a bot for voice
 
 Perform the following steps to add and configure a bot in Omnichannel for Customer Service.
 
-1.  In the **Omnichannel admin center (preview)** app, go to the work stream you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
+1. In the **Omnichannel admin center (preview)** app, go to the workstream you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
 
-![](media/image34.png)
 
-1.  On the **Add Bot** pane, select a bot from the **Name** box.
+1. On the **Add Bot** pane, select a bot from the **Name** box.
 
-![](media/image35.png)
+   > ![Select a bot.](media/image35.png)
 
-1.  Select **Save and close**. The bot is added to the work stream.
+1. Select **Save and close**. The bot is added to the workstream.
 
-![](media/image36.png)
+   > ![Sample bot details.](media/image36.png)
 
 More information:
 
--   [Author template topics in Power Virtual Agents](/power-virtual-agents/authoring-template-topics)
+- [Author template topics in Power Virtual Agents](/power-virtual-agents/authoring-template-topics)
 
--   [Create topics and test your bot](https://go.microsoft.com/fwlink/?linkid=2062988)
-
+- [Create topics and test your bot](https://go.microsoft.com/fwlink/?linkid=2062988)
 
 ## Additional notes
 
-#### Configure handoff from Power Virtual Agents to Omnichannel for Customer Service
+### Configure handoff from Power Virtual Agents to Omnichannel for Customer Service
 
 To configure the handoff between Power Virtual Agents bot to Omnichannel for Customer Service:
 
-1.  In Power Virtual Agents, go to **Settings** and select **Transfer to agent**.
+1. In Power Virtual Agents, go to **Settings** and select **Transfer to agent**.
 
-![](media/image63.png)
+    ![Configure conditions for the bot.](media/image63.png)
 
-1.  Connect to **Dynamics 365 Omnichannel for Customer Service**.
+1. Connect to **Dynamics 365 Omnichannel for Customer Service**.
 
-![](media/image64.png)
+    ![Select Dynamics 365 Omnichannel for Customer Service.](media/image64.png)
 
-1.  Select **Azure App Registration**.
+1. Select **Azure App Registration**.
 
-![](media/image65.png)
+    ![Register for Azure app.](media/image65.png)
 
-1.  Select **New registration**.
+1. Select **New registration**.
 
-![](media/image66.png)
+    ![App registration page.](media/image66.png)
 
-1.  Enter the name of your bot, and then select **Register**.
+1. Enter the name of your bot, and then select **Register**.
 
-![](media/image67.png)
+    ![Register the bot in Azure.](media/image67.png)
 
 1.  Copy the **Application ID** to the clipboard.
 
-![](media/image68.png)
+    ![Copy the application ID.](media/image68.png)
 
-1.  Return to the Power Virtual Agent, paste the application ID into the field, and then select **Next**.
+1.  Return to the Power Virtual Agents, paste the application ID into the field, and then select **Next**.
 
-![](media/image65.png)
-
-![](media/image69.png)
+    ![Transfer to agent settings.](media/image69.png)
 
 ### See also
 
