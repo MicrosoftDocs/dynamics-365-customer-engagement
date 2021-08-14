@@ -1,6 +1,6 @@
 ---
-title: "Configure a Post-Call Survey in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+title: "Configure a post-call survey in the voice channel | MicrosoftDocs"
+description: "Learn about how to configure a post-call survey for the voice channel in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -11,7 +11,20 @@ ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 
-# Configure a Post-call survey
+# Preview: Configure a Post-call survey
+
+> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
 Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. Having the survey take place right after a call gives customers an opportunity to offer feedback while the conversation is fresh on their minds.
 
@@ -33,29 +46,32 @@ There are three ways to initiate post-call surveys:
 We recommend that you have two bots if your organization wants to use Power Virtual Agent for both IVR and survey scenarios.
 
 ## Step 1: Create a survey bot
-Use either Power Virtual Agent (no-code or low-code experience) or Azure bot Service (pro-developer experience)
 
-### Power Virtual Agent examples
+Use either Power Virtual Agents (no-code or low-code experience) or Azure bot Service (pro-developer experience).
+
+### Power Virtual Agents examples
+
+The following screenshots are examples of the survey types in Power Virtual Agents.
 
 #### Implicit survey
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-survey-pva-implicit.png)
+> ![Implicit survey in Power Virtual Agents.](./media/voice-survey-pva-implicit.png)
 
 #### Explicit survey
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-survey-pva-explicit1.png)
+> ![Explicit survey in Power Virtual Agents.](./media/voice-survey-pva-explicit1.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-survey-pva-explicit2.png)
+> ![Configure explicit survey in Power Virtual Agents.](./media/voice-survey-pva-explicit2.png)
 
-> [!TIP] 
+> [!TIP]
 > The bot author can use Power Automate to implement custom business logic to decide who receives a survey (for example, the bot may decide to survey someone random, VIP customers, and so forth).
 
 
-## Step 2: Connect your bot to Omnichannel
+## Step 2: Connect your bot to Omnichannel for Customer Service
 
 - Configure your PVA bot. More information: [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel.md) and [Configure a bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](configure-bot.md)
@@ -63,7 +79,7 @@ Use either Power Virtual Agent (no-code or low-code experience) or Azure bot Ser
 ## Step 3: Enable Post-call survey in workstream phone number settings
 
 > [!Note]
-> Enabling the Post-call survey feature isn't required for the agent-initiated scenario.
+> Enabling the post-call survey feature isn't required for the agent-initiated scenario.
 
 1. In **Omnichannel admin center**, select your voice workstream, and then select **Edit** to modify the settings.
 2. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
@@ -76,21 +92,21 @@ Use either Power Virtual Agent (no-code or low-code experience) or Azure bot Ser
 1. Create a queue where only the agent is the bot user.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of agent-initiated survey.](./media/voice-survey-pva-agent-initiated.png)
+   > ![Agent-initiated survey.](./media/voice-survey-pva-agent-initiated.png)
 
 2. Transfer the call to the survey queue.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of ](./media/voice-survey-transcript.png)
+   > ![Agent experience of voice survey. ](./media/voice-survey-transcript.png)
 
 3. When answered, this sends the user to the bot's greeting topic.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of ](./media/voice-survey-pva-agent-initiated-greeting.png)
+   > ![Configure agent initiated survey in Power Virtual Agents.](./media/voice-survey-pva-agent-initiated-greeting.png)
 
 ### See also
 
-[Introduction to the voice channel](voice-channel.md)
+[Introduction to the voice channel](voice-channel.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Route incoming calls to agents](voice-channel-route-queues.md)  
 [Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md) 

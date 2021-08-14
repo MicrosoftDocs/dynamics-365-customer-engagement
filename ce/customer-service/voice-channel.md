@@ -84,7 +84,8 @@ Take a look at some of the key capabilities that makes the voice channel great f
 ## Supervisor experience
 
 [Monitor voice calls](voice-channel-monitor-calls.md)  
-[Real-time analytics](intraday-conversation-insights.md)  
+[Real-time analytics - Intraday conversation insights](intraday-conversation-insights.md)  
+[Real-time analytics]
 
 ### See also
 
