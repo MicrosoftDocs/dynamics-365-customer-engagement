@@ -1,8 +1,8 @@
 ---
-title: "Handle Call Overflow in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+title: "Handle Call Overflow in the voice channel | MicrosoftDocs"
+description: "Learn how to configure call overflow for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
-ms.author: daclar
+ms.author: nenellim
 manager: shujoshi
 ms.date: 08/13/2021
 ms.topic: article
