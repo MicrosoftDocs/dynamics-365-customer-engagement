@@ -4,7 +4,7 @@ description: "Use this topic to understand how to block spam numbers in Omnichan
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/10/2021
+ms.date: 08/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
@@ -12,7 +12,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 # Manage spam numbers
 
-> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]

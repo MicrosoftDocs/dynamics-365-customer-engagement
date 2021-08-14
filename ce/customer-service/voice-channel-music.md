@@ -12,7 +12,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 # Preview: Manage phone music
 
-> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]

@@ -11,9 +11,9 @@ ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 
-# Preview: Configure a Post-call survey
+# Preview: Configure a post-call survey
 
-> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -25,6 +25,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
+## Introduction
 
 Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. Having the survey take place right after a call gives customers an opportunity to offer feedback while the conversation is fresh on their minds.
 
@@ -73,7 +75,7 @@ The following screenshots are examples of the survey types in Power Virtual Agen
 
 ## Step 2: Connect your bot to Omnichannel for Customer Service
 
-- Configure your PVA bot. More information: [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel.md) and [Configure a bot](configure-bot-virtual-agent.md).
+- Configure your Power Virtual Agents bot. More information: [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel.md) and [Configure a bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](configure-bot.md)
 
 ## Step 3: Enable Post-call survey in workstream phone number settings
@@ -109,6 +111,6 @@ The following screenshots are examples of the survey types in Power Virtual Agen
 [Introduction to the voice channel](voice-channel.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Route incoming calls to agents](voice-channel-route-queues.md)  
-[Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md) 
+[Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

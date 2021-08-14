@@ -12,7 +12,6 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 # Preview: Handle call overflow for the voice queues
 
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]

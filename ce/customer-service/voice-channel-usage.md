@@ -51,7 +51,7 @@ The following table contains the metrics.
 
 ### Slice metrics by time
 
-The Duration option lets you filter the report details and affects all metrics in the report.
+The Duration option lets you filter the report details and affects all metrics in the report. More information: [Slice metrics by time](intraday-insights-dashboard.md#slice-metrics-by-time)
 
 
 ### See also
