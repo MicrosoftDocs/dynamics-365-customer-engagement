@@ -54,9 +54,9 @@ Take a look at some of the key capabilities that makes the voice channel great f
 | --- | --- |
 | Agent  |  <ul><li>Call controls: Mute, Hold, End</li><li>Music on hold</li><li>Music on wait</li><li>Integrated customer and case history lookup</li><li>Notes and knowledge search</li><li>Mark a number as spam</li></ul>  |
 | Calling and routing  | <ul><li>Ability to handle and distribute incoming calls, Automatic Call Distribution (Routing)</li><li>Ability to make outbound calls</li><li>Transfer to external phone number</li><li>Phone number procurement and management</li><li>Skills-based Assignment</li></ul> |
-| AI | <ul><li>Real-time sentiment analysis</li><li>Real-time transcription and recording</li><li>Real-time translation</li><li>Real-time smart assist suggestions</li><li>No-code Virtual Agent as IVR</li></ul> |
+| AI | <ul><li>Call insights </li><li>Real-time sentiment analysis</li><li>Real-time transcription and recording</li><li>Real-time translation of call transcripts</li><li>Real-time smart assist suggestions</li><li>No-code Virtual Agent as IVR</li></ul> |
 | Supervisor  | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management through supervisor dashboards</li></ul> |
-| Customer   | <ul><li>Post-call survey</li><li>Scheduled callbacks</li><li>Music on hold and wait</li></ul> |
+| Customer   | <ul><li>Post-call survey</li><li>Queue position and wait time announcements</li><li>Music on hold and wait</li></ul> |
 
 ## Administrator experience
 
@@ -92,4 +92,3 @@ Take a look at some of the key capabilities that makes the voice channel great f
 [Regional availability](voice-channel-region-availability.md)  
 
 [Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)
-
