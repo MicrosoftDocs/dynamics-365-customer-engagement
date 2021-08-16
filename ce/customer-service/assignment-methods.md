@@ -27,7 +27,7 @@ The following assignment methods are available out of the box:
 
   If you choose to assign work items using skill-based routing and set default skill-matching algorithm at the workstream level to exact match and choose highest capacity as assignment method, then the system will filter agents using exact skill match, workstream’s presence and capacity requirements and order the filtered agents by available capacity.
 
-  If default skill-matching algorithm at the workstream level is set to closest match, then the system will filter agents based on workstream's presence and capacity requirements and order the filtered agents by nearest match and not available capacity.
+  If default skill-matching algorithm at the workstream level is set to closest match, then the system will filter agents based on workstream's presence and capacity requirements and order the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
 
   If you need to distribute  work fairly among agents, then you should consider switching to round robin assignment strategy.
 
@@ -53,13 +53,13 @@ As an example, consider the prioritization ruleset as seen in the following scre
 
 ![Prioritization scenario.](media/ur-prioritization-scenario.png "Prioritization scenario")
 
-During any assignment cycle, this prioritization ruleset will be run, and the rules within the ruleset will be run in the order they are listed.
+- During any assignment cycle, this prioritization ruleset will be run, and the rules within the ruleset will be run in the order they are listed.
 
-The first rule “High priority and premium”, will find all work items in the queue where the associated case priority is "High" and the case category is "‘"Premium". It will create the top priority bucket with those work items and sort them in "First in first out” manner as specified in the **Order by** attribute. The first work item to be assigned from the queue will be the oldest item in this bucket.
+- The first rule “High priority and premium”, will find all work items in the queue where the associated case priority is "High" and the case category is "‘"Premium". It will create the top priority bucket with those work items and sort them in "First in first out” manner as specified in the **Order by** attribute. The first work item to be assigned from the queue will be the oldest item in this bucket.
 
-The next priority bucket will be of the work items where case category is "Premium". The work items with "Premium" case category and "High" priority have already been put in top bucket as per the preceding rule, so this rule will only consider other work items with "Premium" case priority. The **Order by** attribute in this case also is "First in first out".
+- The next priority bucket will be of the work items where case category is "Premium". The work items with "Premium" case category and "High" priority have already been put in top bucket as per the preceding rule, so this rule will only consider other work items with "Premium" case priority. The **Order by** attribute in this case also is "First in first out".
 
-The next priority bucket consists of work items where case priority is high and have not been bucketed already. Here the work items are ordered by their "First Response By" field in the ascending order, that is, the work items that require the first response at the earliest will be prioritized first.
+- The next priority bucket consists of work items where case priority is high and have not been bucketed already. Here the work items are ordered by their "First Response By" field in the ascending order, that is, the work items that require the first response at the earliest will be prioritized first.
 
 Some important points about prioritization rules are as follows:
 
