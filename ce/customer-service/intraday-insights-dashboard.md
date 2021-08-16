@@ -29,17 +29,19 @@ The information displayed in these reports is based on the conversations that we
 
 ## The IntradayMonitoring report
 
-The IntradayMonitoring report deals with the overall contact center health and has relevant metrics to help understand it. This report contains two sections – The Conversation insights section provides metrics on the customer side, such as Customers waiting in queue and wait times. The Agent insights section contains metrics pertaining to agents such as Agents logged in, and handle times.
+The IntradayMonitoring report deals with the overall contact center health and has relevant metrics to help understand it. This report contains two sections:
+
+- The Conversation insights section provides metrics on the customer side, such as Customers waiting in queue and wait times.
+- The Agent insights section contains metrics pertaining to agents such as agents logged in and handle times.
 
 ### Conversations insights
 
-The **Conversations insights** section provides metrics from a customer standpoint. The following image shows an example of the **Conversations insights** section of the IntradayMonitoring report.
+The **Conversations insights** section provides metrics from a customer standpoint. A sample view of the metrics in **Conversations insights** is as follows.
 
 > [!div class="mx-imgBorder"]
 > ![Conversation Insights.](media/conversation-insights.png "Conversation Insights")
 
-This section of the IntradayMonitoring report displays the following KPIs about conversations.
-
+The KPIs for conversations in the IntradayMonitoring report are as follows.
 
 | Metric | Description |
 |-------|-------|
@@ -57,7 +59,7 @@ This section of the IntradayMonitoring report displays the following KPIs about 
 
 ### Agent insights
 
-The **Agent insights** section provides information about the latest KPIs, the health of the queues, and the status of agents on a day. The agent insights section consolidates sessions across all channels. An example of the **Agent insights** section is shown in the following image.
+The **Agent insights** section provides information about the health of the queues and the status of agents in a day. The agent insights section consolidates sessions across all channels. A sample view of the **Agent insights** section is as follows.
 
 > [!div class="mx-imgBorder"]
 > ![Agent Insights.](media/agent-insights.png "Agent Insights")
@@ -83,17 +85,17 @@ This section consists of the following performance indicators.
 
 ## View and filter reports
 
-You can filter information by selecting the queues that have been defined for your organization. From the **Omnichannel queues** drop-down list, select the queues you want, and the information will be filtered according to your selection. This helps you quickly analyze the KPIs and take any necessary steps to improve outcomes.
+You can filter information by selecting the queues that have been defined for your organization. From the **Omnichannel queues** dropdown list, select the queues you want, and the information will be filtered according to your selection. This helps you quickly analyze the KPIs and take any necessary steps to improve outcomes.
 
 > [!div class="mx-imgBorder"]
 > ![Queue selection.](media/supervisor-queue-selector.png "Queue selection")
 
 ## Average handle time
 
-The average handle time for a conversation is defined as the cumulative handle times of its individual sessions. The session handle times take into account only the active time of agents. The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. When an agent concurrently handles multiple customers and switches sessions, the active time for the previous session is paused and the active time for the current session resumes. 
+The average handle time for a conversation is defined as the cumulative handle times of its individual sessions. The session handle times take into account only the active time of agents. The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. When an agent concurrently handles multiple customers and switches sessions, the active time for the previous session is paused and the active time for the current session resumes.
 
 If the agent spends time providing consultation, it's included in the agent's average handle time. Similarly, for supervisors, the monitor time is included in the supervisor's average handle time.
-When a conversation is transferred, the active time spent by all agents who are involved is summed up to compute the handle time for the conversation.
+When a conversation is transferred, the active time spent by all agents who are involved is summed up to calculate the handle time for the conversation.
 
 Average handle time will be accurately calculated if you ensure the following:
 
@@ -101,7 +103,7 @@ Average handle time will be accurately calculated if you ensure the following:
 - Agents don't change the computer time.
 - Agents don't use incognito mode in Google Chrome or private browsing in Microsoft Edge.
 
-When an agent steps away from the desk during an ongoing session and doesn't interact with the customer, the system counts this time as active and subsequently computes a higher value for the handle time. For a more realistic report of the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, the idle time threshold isn't enabled out of the box. More information: [Set the idle time threshold](set-idle-time-threshold.md).
+When an agent steps away from the desk during an ongoing session and doesn't interact with the customer, the system counts this time as active and subsequently calculates a higher value for the handle time. For a more realistic report of the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, the idle time threshold isn't enabled out of the box. More information: [Set the idle time threshold](set-idle-time-threshold.md).
 
 ## Saved views for Intraday reports
 

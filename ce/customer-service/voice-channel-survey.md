@@ -28,30 +28,28 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 ## Introduction
 
-Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. Having the survey take place right after a call gives customers an opportunity to offer feedback while the conversation is fresh on their minds.
+Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. You can configure the survey to take place immediately after the call so that customers can provide their feedback while the conversation is fresh on their minds.
 
-There are three ways to initiate post-call surveys:
+There are three ways to start post-call surveys:
 
-1. Automatic - implicit
-    The IVR bot informs the customer about a post-call survey at the end of the call. 
+- **Automatic - implicit**: The IVR bot informs the customer about a post-call survey at the end of the call. 
     After the agent disconnects, the call is automatically transferred to a post-call survey bot.
-2. Automatic - explicit
-    The IVR bot asks the customer if they want to participate in a post-call survey. The consent is saved in a va_surveyconsent Boolean variable.
-    If the customer consents, the call is automatically transferred to the post-call survey bot at the end of the agent call.
-    If the customer says no, the call ends when the agent hangs up.
-3. Agent-initiated
-    Toward the end of a call, the agent can ask the customer if they want to take a survey. 
+- **Automatic - explicit**: The IVR bot asks the customer if they want to participate in a post-call survey. The consent is saved in a va_surveyconsent Boolean variable.
+
+    If the customer consents, the call is automatically transferred to the post-call survey bot at the end of the agent call. If the customer says no, the call ends when the bot hangs up.
+
+- **Agent-initiated**: Towards the end of a call, the agent can ask the customer if they want to take a survey.
     If the customer says yes, the agent manually transfers the call to the survey bot.
 
-## Configuration considerations
 
-We recommend that you have two bots if your organization wants to use Power Virtual Agent for both IVR and survey scenarios.
+> [!NOTE]
+> We recommend that you have two bots if your organization wants to use Power Virtual Agents for both IVR and survey scenarios.
 
 ## Step 1: Create a survey bot
 
 Use either Power Virtual Agents (no-code or low-code experience) or Azure bot Service (pro-developer experience).
 
-### Power Virtual Agents examples
+### Types of surveys in Power Virtual Agents
 
 The following screenshots are examples of the survey types in Power Virtual Agents.
 
@@ -78,14 +76,14 @@ The following screenshots are examples of the survey types in Power Virtual Agen
 - Configure your Power Virtual Agents bot. More information: [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel.md) and [Configure a bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](configure-bot.md)
 
-## Step 3: Enable Post-call survey in workstream phone number settings
+## Step 3: Enable post-call survey in phone number settings of the workstream
 
 > [!Note]
 > Enabling the post-call survey feature isn't required for the agent-initiated scenario.
 
 1. In **Omnichannel admin center**, select your voice workstream, and then select **Edit** to modify the settings.
 2. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
-3. From the drop-down menu, select the bot that you want to complete the survey.
+3. From the dropdown menu, select the required bot.
 4. Select **Confirm**.
 
 

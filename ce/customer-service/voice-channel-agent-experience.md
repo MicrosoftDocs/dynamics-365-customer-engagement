@@ -59,7 +59,7 @@ The conversation panel in the agent dashboard includes the following call contro
 
 ## Report a phone number as spam
 
-When you receive a phone call and you want to report the number as spam *while on the call*, you can do so immediately via the call controls on your conversation panel. A notification is then sent to your administrator for review and further action.
+When you receive a phone call and want to report the number as spam *while on the call*, you can do so immediately via the call controls on your conversation panel. A notification is then sent to your administrator for review and further action.
 
 To report a phone number as spam, select the ellipsis to open more actions and select **Mark number as spam**.
 
