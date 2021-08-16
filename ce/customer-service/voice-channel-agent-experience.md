@@ -28,13 +28,13 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 ## Introduction
 
-One of the main value propositions of the Omnichannel for Customer Service voice channel is that it is integrated directly with Dynamics 365; this integration is presented by way of the agent dashboard. The dashboard offers the agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps the agent provide quick, effective, and proactive solutions to customer issues. At the same time, the agent experience in the voice channel is similar to the chat, SMS, and other social channels, thereby reducing any agent training time and costs.
+One of the main value propositions of the Omnichannel for Customer Service voice channel is that it's integrated directly with Dynamics 365; this integration is presented by way of the agent dashboard. The dashboard offers the agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps the agent provide quick, effective, and proactive solutions to customer issues. At the same time, the agent experience in the voice channel is similar to the chat, SMS, and other social channels, thereby reducing any agent training time and costs.
 
 ## Make and receive customer calls
 
 You can call a customer either using the phone dialer on the customer summary page or the launch dialer button on the Omnichannel for Customer Service menu bar. More information: [Call a customer](voice-channel-call-customer.md)
 
-When a customer calls your business, the incoming  call is received by an intelligent bot. The bot gathers basic information about the customer issue and then transfers the call to you for further action. You'll receive a notification about the incoming call on your agent desktop so you can accept it. The following section describes the call controls and other features you can use during your conversation.
+When a customer calls your business, the incoming call is received by an intelligent bot. The bot gathers basic information about the customer issue and then transfers the call to you for further action. You'll receive a notification about the incoming call on your agent desktop so you can accept it. The following section describes the call controls and other features you can use during your conversation.
 
 ## Call controls
 
@@ -56,7 +56,7 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Knowledge Articles** - Select this option to get a list of knowledge base articles pertaining to the conversation, that you can use to resolve the customer issue.
 - **Link to conversation** - You can link another conversation, case, or knowledge article to the conversation.
 - **Transcription** - When transcription and recording service is enabled by your administrator, all of the conversation between you and the customer is automatically transcribed in real time, which means that the you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in case of a call transfer) to see the call history.
-- **Sentiment analysis** - The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer mood and feeling, via the sentiment icons.  
+- **Sentiment analysis** - The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer mood and feeling, via the sentiment icons.
 
 ## Report a phone number as spam
 
@@ -68,6 +68,6 @@ You can add notes that'll help your administrator review and block numbers. Afte
 
 ### See also
 
-[Overview of the voice channel](voice-channel.md)  
+[Overview of the voice channel](voice-channel.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
