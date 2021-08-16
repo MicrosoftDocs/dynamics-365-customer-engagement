@@ -25,7 +25,7 @@ The workstream can be one of the following types:
 
 > [!IMPORTANT]
 >
-> - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](set-up-record-routing.md#provision-unified-routing).
+> - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md).
 > - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
 ## Create a workstream
@@ -124,8 +124,9 @@ Context variables enrich conversations with pre-chat data, channel data, and cus
 You can manage the workstreams on the workstreams page in the Omnichannel admin center app.
 
 Select a workstream to perform any of the following actions:
+
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
-- **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*<workstream>*.
+- **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
 - **Delete**: Lets you delete the workstream if you no longer need it in your organization.
 
 ### Agent affinity

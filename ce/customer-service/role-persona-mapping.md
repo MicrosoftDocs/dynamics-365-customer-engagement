@@ -3,8 +3,8 @@ title: "Role persona mapping | MicrosoftDocs"
 description: "Information about how security roles can be mapped to personas."
 ms.date: 06/03/2021
 ms.topic: article
-author: meghanalanka
-ms.author: v-mlanka
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 
