@@ -1,6 +1,6 @@
 ---
 title: "Manage music in the voice channel | MicrosoftDocs"
-description: "Use this topic to understand how you can set hold and wait music in Omnichannel for Customer Service."
+description: "Use this topic to understand how you can configure hold and wait music in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
