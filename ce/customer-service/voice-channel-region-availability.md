@@ -1,8 +1,8 @@
 ---
-title: "Regional availability in the Voice channel | MicrosoftDocs"
-description: "Learn abou the region availability and supported languages for the voice channel in Omnichannel for Customer Service."
-author: neeranelli
-ms.author: daclar
+title: "Regional availability of the voice channel | MicrosoftDocs"
+description: "Learn about the region availability and supported languages for the voice channel in Omnichannel for Customer Service."
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 08/13/2021
 ms.topic: article
@@ -10,7 +10,16 @@ ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Regional availability and supported languages for the Voice channel
+# Preview: Regional availability and supported languages for the voice channel
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]>
 
 ## Supported Regions
 
@@ -79,19 +88,19 @@ We use Azure Cognitive Service Speech’s Speech-to-Text for transcription, so w
 
 **Are there any real-time limitations?**
 
-We're planning to support additional languages for the GA release in 2021. See the list of supported languages below. 
+We're planning to support additional languages for the GA release in 2021. See the list of supported languages. 
 
  
 | Feature |	List of supported languages |
 | ---- | ---- |
-| Transcription | [Language and speech support](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support) | 
-| Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](https://docs.microsoft.com/power-virtual-agents/authoring-language-support) |
-| Bring your own bot (IVR) | [Language and voice support for the Speech service](https://docs.microsoft.com/azure/cognitive-services/speech-service/language-support)  |
-| AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles#language-support-for-ai-suggestions.md) |
-| Sentiment Analysis | [Multi-language sentiment](https://docs.microsoft.com/dynamics365/customer-service/enable-sentiment-analysis#multi-language-sentiment)  |
-| Other Omnichannel features | [Language availability in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/customer-service/international-availability#language-availability)
+| Transcription | [Language and speech support](/azure/cognitive-services/speech-service/language-support) | 
+| Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](/power-virtual-agents/authoring-language-support) |
+| Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)  |
+| AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions) |
+| Sentiment Analysis | [Multi-language sentiment](enable-sentiment-analysis.md#multi-language-sentiment)  |
+| Other Omnichannel features | [Language availability in Omnichannel for Customer Service](international-availability.md#language-availability)
 
 
 ### See also
 
-[Overview of the voice channel](voice-channel.md)
+[Overview of the voice channel](voice-channel.md)  

@@ -9,34 +9,20 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
 ---
-# Add Azure Bot Services for conversational IVR
-<!--
-Video: https://msit.microsoftstream.com/video/e4a80840-98dc-b561-e190-f1ebe8cc24e2
+# Preview: Add Azure Bot Services for conversational IVR
 
-One Note: Setting up BYOB for voice  (Web view): https://microsoft.sharepoint.com/teams/Omnichannel-LiveChatRedmond/_layouts/OneNote.aspx?id=%2Fteams%2FOmnichannel-LiveChatRedmond%2FShared%20Documents%2FGeneral%2FOmnichanel%20-%20LiveChat%20Redmond&wd=target%28Features%2FTelephony.one%7C635CEA29-D34D-4FB6-B0F0-322F9FDE18BD%2FSetting%20up%20BYOB%20for%20voice%7CBA14B95C-F033-4B60-9E47-F07113C496A5%2F%29
-
-Existing doc: https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot
--->
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-
+>
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
-
 >
-
 > [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
 >
-
 > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-
 >
-
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 >
-
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
 ## Introduction
@@ -65,15 +51,15 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 1. You must have a bot that's built using Microsoft Bot Framework and registered with Azure Bot Service.
 
-    To create an Azure bot resource, see [Create Azure bot resource](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
+    To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 
 2. You must add the Azure bot service to conversational IVR.
 
     To create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel, perform the following steps:
     
-    1. [Create a Cognitive Services resource using the Azure portal](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
+    1. [Create a Cognitive Services resource using the Azure portal](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
     
-    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
+    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
 
 
 ## Integrate a bot with Omnichannel for Customer Service
@@ -83,8 +69,8 @@ To integrate a bot with Omnichannel for Customer Service, you must do the follow
 1. Create a bot user as an application user with the Omnichannel agent role.
 
 2. Add the bot user to one or more queues or workstreams.
-> [!NOTE]
-> *Bots can escalate conversations to agents only if they are a part of push-based workstreams.*
+    > [!NOTE]
+    > Bots can escalate conversations to agents only if they are a part of push-based workstreams.
 
 3. Enable a bot to escalate or end conversations.
 
@@ -175,12 +161,10 @@ This sample provides exact steps and configuration values to integrate a bot and
     - **BotQueue**: Add the bot user to this queue.
     - **CreditCardQueue**: Add agents to handle credit card&ndash;related queries.
     - **HomeLoanQueue**: Add agents to handle home loan&ndash;related queries.
-<!--
-3. Follow the instructions in [Add code snippet to engage a bot](#add-code-snippet-to-engage-a-bot) to add a code snippet for engaging a bot.
--->
-4. Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
-5. Create three routing rules in the **ChatWorkStream** workstream in the following order:
+3. Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
+
+4. Create three routing rules in the **ChatWorkStream** workstream in the following order:
     - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query to bot.](media/bot-rule.png "Create a rule to send customer query to bot")
@@ -207,10 +191,10 @@ A bot session can be defined as a conversation in which a bot is invoked. The bo
 - If two different bots are invoked in the same conversation, it is counted as one.
 - A conversation with a bot that's escalated to a human agent is counted as a bot conversation.
 
-<!--
+
 > [!NOTE]
 > If smart assist is enabled, the bot conversations do not include smart-assist conversations.
--->
+
 ### Purchase additional chatbot sessions
 
 Chatbot Session add-ons entitle customers with Chat or Digital Messaging to an additional 100 chatbot sessions for use with Microsoft Bot Framework bots, pooled at the tenant level. Additional chatbot sessions expire at the end of each month.
@@ -231,15 +215,15 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ### See also
-
-[Understand and create workstreams](create-workstreams.md)<br>
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)<br>
-[Create and manage routing rules](routing-rules.md)<br>
-[Add a chat widget](add-chat-widget.md)<br>
+[Overview of the voice channel](voice-channel.md)  
+[Understand and create workstreams](create-workstreams.md)  
+[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Add a chat widget](add-chat-widget.md)  
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 [Enable bot context NuGet package](enable-bot-context.md)  
-[Create an application user](../powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant).
-[Overview of the voice channel](voice-channel.md)  
+[Create an application user](/powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant)  
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

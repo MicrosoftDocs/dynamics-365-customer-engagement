@@ -10,19 +10,20 @@ ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Use the voice channel in the agent dashboard 
+# Preview: Use the voice channel in the agent dashboard 
 
-> [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
+>
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
-
+>
 > [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
+>
 > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-
+>
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
+>
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]>
 
 ## Call controls
@@ -52,15 +53,7 @@ When you receive a phone call and you want to report the number as spam *while o
 
 To report a phone number as spam, select the ellipsis to open more actions and select **Mark number as spam**.
 
-You can add notes that'll help your administrator review and block numbers​. After you mark a number as spam, it goes into the pending review tab on the Blocked numbers (preview) page.
-
-## View call transcript
-
-## View customer information
-
-## Sentiment analysis
-
-## Call transcription
+You can add notes that'll help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers (preview)** page.
 
 ### See also
 

@@ -1,6 +1,6 @@
 ---
-title: "View voice calls usage | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+title: "View minutes used in voice calls | MicrosoftDocs"
+description: "View the report to see the minutes used in voice calls in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -28,7 +28,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 ## Introduction
 
-The Voice usage report lets Omnichannel administrators view a Power BI report in Omnichannel admin center that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from voice quota have been consumed.
+The Voice usage report lets Omnichannel administrators view a Power BI report in Omnichannel admin center that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from the voice quota have been consumed.
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ The following table contains the metrics.
 
 ### Slice metrics by time
 
-The Duration option lets you filter the report details and affects all metrics in the report.
+The Duration option lets you filter the report details and affects all metrics in the report. More information: [Slice metrics by time](intraday-insights-dashboard.md#slice-metrics-by-time)
 
 
 ### See also

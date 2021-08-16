@@ -1,8 +1,8 @@
 ---
-title: "Handle Call Overflow in the Voice channel | MicrosoftDocs"
-description: "Introduction to using Omnichannel for Customer Service."
+title: "Handle call overflow in the voice channel | MicrosoftDocs"
+description: "Learn how to configure call overflow for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
-ms.author: daclar
+ms.author: nenellim
 manager: shujoshi
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,7 +11,6 @@ ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 # Preview: Handle call overflow for the voice queues
-
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -63,6 +62,8 @@ If operation hours are not configured, the queues will be available round the cl
 Configure the action to be performed when call overflow is triggered. More information: [Configure routing rules for the voice workstream](voice-channel-route-queues.md#configure-routing-rules-for-the-voice-workstream)
 
 ## Configuration considerations
+
+Some configuration considerations are discussed in this section.
 
 ### Edit automated messages for end call overflow action
 
