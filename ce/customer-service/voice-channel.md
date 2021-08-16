@@ -79,7 +79,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 
 [Make and receive your first phone call](voice-channel-first-call.md)  
 [Call a customer](voice-channel-call-customer.md)  
-[Using call controls and the agent desktop for voice](voice-channel-agent-experience.md)  
+[Use call controls and the agent desktop for voice](voice-channel-agent-experience.md)  
 
 ## Supervisor experience
 
