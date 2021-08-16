@@ -27,7 +27,7 @@ Omnichannel for Dynamics 365 Customer Service provides dashboards that help supe
 
 - Monitor unassigned workload
 
-- Manage agent and customer escalations 
+- Manage agent and customer escalations
 
 As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service app:
 
@@ -51,6 +51,7 @@ Verify the following prerequisites before you use the supervisor dashboards:
 -  **Power BI Pro** or **Power BI Premium** license is assigned to you.
 
 ## Videos
+
 [Overview of supervisor experience in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2099487)
 
 To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).

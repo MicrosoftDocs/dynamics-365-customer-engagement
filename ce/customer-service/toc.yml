@@ -660,7 +660,7 @@
     items: 
     - name: Introduction to Customer Service Insights
       href: introduction-customer-service-analytics.md
-    - name: Region availability and Service limits for Customer Service
+    - name: Regional availability and service limits for Customer Service
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items: 
@@ -724,8 +724,12 @@
         items: 
         - name: Introduction to intraday supervisor experiences
           href: intro-intraday-insights-dashboard.md
-        - name: View and understand Omnichannel intraday insights
+        - name: IntradayMonitoring report
           href: intraday-insights-dashboard.md
+        - name: Agents insights report
+          href: intraday-agents-insights.md
+        - name: Conversation insights report
+          href: intraday-conversation-insights.md
         - name: Set idle time threshold
           href: set-idle-time-threshold.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
