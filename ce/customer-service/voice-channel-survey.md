@@ -85,7 +85,7 @@ The following screenshots are examples of the survey types in Power Virtual Agen
 
 1. In **Omnichannel admin center**, select your voice workstream, and then select **Edit** to modify the settings.
 2. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
-3. From the drop-down menu, select the required bot.
+3. From the dropdown menu, select the required bot.
 4. Select **Confirm**.
 
 
