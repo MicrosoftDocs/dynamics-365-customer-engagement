@@ -29,17 +29,19 @@ The information displayed in these reports is based on the conversations that we
 
 ## The IntradayMonitoring report
 
-The IntradayMonitoring report deals with the overall contact center health and has relevant metrics to help understand it. This report contains two sections – The Conversation insights section provides metrics on the customer side, such as Customers waiting in queue and wait times. The Agent insights section contains metrics pertaining to agents such as Agents logged in, and handle times.
+The IntradayMonitoring report deals with the overall contact center health and has relevant metrics to help understand it. This report contains two sections:
+
+- The Conversation insights section provides metrics on the customer side, such as Customers waiting in queue and wait times.
+- The Agent insights section contains metrics pertaining to agents such as Agents logged in and and handle times.
 
 ### Conversations insights
 
-The **Conversations insights** section provides metrics from a customer standpoint. The following image shows an example of the **Conversations insights** section of the IntradayMonitoring report.
+The **Conversations insights** section provides metrics from a customer standpoint. A sample view of the metrics in **Conversations insights** is as follows.
 
 > [!div class="mx-imgBorder"]
 > ![Conversation Insights.](media/conversation-insights.png "Conversation Insights")
 
-This section of the IntradayMonitoring report displays the following KPIs about conversations.
-
+The KPIs for conversations in the IntradayMonitoring report are as follows.
 
 | Metric | Description |
 |-------|-------|
@@ -57,7 +59,7 @@ This section of the IntradayMonitoring report displays the following KPIs about 
 
 ### Agent insights
 
-The **Agent insights** section provides information about the latest KPIs, the health of the queues, and the status of agents on a day. The agent insights section consolidates sessions across all channels. An example of the **Agent insights** section is shown in the following image.
+The **Agent insights** section provides information about the health of the queues and the status of agents in a day. The agent insights section consolidates sessions across all channels. A sample view of the **Agent insights** section is as follows.
 
 > [!div class="mx-imgBorder"]
 > ![Agent Insights.](media/agent-insights.png "Agent Insights")
@@ -90,7 +92,7 @@ You can filter information by selecting the queues that have been defined for yo
 
 ## Average handle time
 
-The average handle time for a conversation is defined as the cumulative handle times of its individual sessions. The session handle times take into account only the active time of agents. The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. When an agent concurrently handles multiple customers and switches sessions, the active time for the previous session is paused and the active time for the current session resumes. 
+The average handle time for a conversation is defined as the cumulative handle times of its individual sessions. The session handle times take into account only the active time of agents. The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. When an agent concurrently handles multiple customers and switches sessions, the active time for the previous session is paused and the active time for the current session resumes.
 
 If the agent spends time providing consultation, it's included in the agent's average handle time. Similarly, for supervisors, the monitor time is included in the supervisor's average handle time.
 When a conversation is transferred, the active time spent by all agents who are involved is summed up to compute the handle time for the conversation.
