@@ -28,7 +28,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 ## Introduction
 
-One of the main value propositions of the Omichannel for Customer Service voice channel is that it is integrated directly with Dynamics 365; this integration is presented by way of the agent dashboard. The dashboard offers the agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps the agent provide quick, effective, and proactive solutions to customer issues. At the same time, the agent experience in the voice channel is similar to the chat, SMS, and other social channels, thereby reducing any agent training time and costs.
+One of the main value propositions of the Omnichannel for Customer Service voice channel is that it is integrated directly with Dynamics 365; this integration is presented by way of the agent dashboard. The dashboard offers the agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps the agent provide quick, effective, and proactive solutions to customer issues. At the same time, the agent experience in the voice channel is similar to the chat, SMS, and other social channels, thereby reducing any agent training time and costs.
 
 ## Make and receive customer calls
 
