@@ -76,11 +76,14 @@ Make sure that you have the System Administrator or System Customizer security r
 
 5. After you've added your new section, select **Save and Publish**. You might need to refresh the screen to see the new section.
 
+
    ![View new section.](media/knowledge-control-settings.png "Knowledge control settings")
 
  
  The knowledge properties are displayed in the pane on the right side of the page. 
- 
+
+> [!NOTE] 
+You can also specify the display for the knowledge search control tab by adding more than one column. To add more than one column, for example, a three-column tab, select your entity form and insert three columns. Specify the display of the knowledge search control along with the other fields,  save and publish. Here's how your three-column knowledge search control tab will be visible to the customer service representative during runtime.
  
  The following table describes the properties you can configure.
     
