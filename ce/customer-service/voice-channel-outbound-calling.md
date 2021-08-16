@@ -35,7 +35,7 @@ Before you set up outbound voice calls for your business, you'll need the follow
 
 - [Configure one or more phone numbers for outbound calling](#configure-a-phone-number-for-outbound-calling).
 - [Create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
-- [Set capacity profile and add users](capacity-profiles.md).
+- [Configure capacity profile and add users](capacity-profiles.md).
 - [Create an outbound profile](#create-an-outbound-profile)
 
 ## Configure a phone number for outbound calling
@@ -56,7 +56,7 @@ To check for phone numbers configured for outbound calling, go to **General sett
 This phone number will now be displayed to your customers when your agents call them.
 
 >[!NOTE]
-> Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and report outbound specific traffic and sentiment. *Having a separate outbound queue...*
+> Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and report outbound specific traffic and sentiment. 
 
 ## Manage capacity profiles and assign users
 
