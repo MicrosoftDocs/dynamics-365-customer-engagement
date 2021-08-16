@@ -21,7 +21,7 @@ In this topic, we'll walk through how to configure this common example scenario.
 
 ## Step 1: Add the new attribute to the bookable resource entity
 
-Go to **Customizations > Customize the System > Bookable Resource > Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**. If your organization has a different schema prefix such as **new_**, it can be used if the code snippets (which you will find below) are updated to reflect this.
+Go to **Customizations** > **Customize the System** > **Bookable Resource** > **Fields** and add a new field named **Resource Cost** with the schema name **tsp_resourcecost**. If your organization has a different schema prefix such as **new_**, it can be used if the code snippets (which you will find below) are updated to reflect this.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of adding resource cost attribute or field to a bookable resource.](../../field-service/media/schedule-board-tab-settings-resource-cost.png "Screenshot of adding resource cost attribute or field to a bookable resource")
