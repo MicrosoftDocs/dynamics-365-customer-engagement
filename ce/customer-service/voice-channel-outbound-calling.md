@@ -56,7 +56,7 @@ To check for phone numbers configured for outbound calling, go to **General sett
 This phone number will now be displayed to your customers when your agents call them.
 
 >[!NOTE]
-> Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and report outbound specific traffic and sentiment. 
+> Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and report outbound-specific traffic and sentiment. 
 
 ## Manage capacity profiles and assign users
 
