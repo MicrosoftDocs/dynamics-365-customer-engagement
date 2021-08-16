@@ -45,7 +45,6 @@ When the call connects, you'll see the customer details on the conversation page
 
 In Omnichannel for Customer Service, you can select the **Launch dialer** phone icon on the menu bar to quickly call a customer. The dialer opens the number pad where you can enter the customer's phone number and then select **Call** to make your call.
 
-
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
