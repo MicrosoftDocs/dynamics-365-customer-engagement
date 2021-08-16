@@ -60,8 +60,8 @@ The **Conversation insights** report displays the following metrics about conver
 | Avg. hold time (min) |  The average time an agent put a customer on hold over a voice call. | Voice (preview)|
 |Avg. after call work time| The average time an agent took to wrap up a voice call.| Voice (preview)|
 |Avg. speed to answer|The average time it took for a customer call to be answered.| Voice (preview)|
+|Customer Sentiment|An automatic and unbiased measurement of satisfaction levels of the customer in real time. More information: [Understand real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md#understand-real-time-customer-sentiment) |Voice (preview)|
 ||||
-
 
 
 ### Ongoing and closed conversations
