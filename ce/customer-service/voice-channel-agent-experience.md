@@ -33,10 +33,10 @@ The conversation panel in the agent interface includes the following controls th
 > [!div class="mx-imgBorder"]
 > ![Screenshot of call controls](./media/voice-channel-call-controls.png)
 
-- **Mute** - Select to mute yourself so you are not audible to the customer.
-- **Hold** - Select to put the customer on hold.
-- **Consult** - Select to consult a peer agent or your supervisor.
-- **Transfer (to agent or queue)** - Select to transfer the call to another agent or another queue.
+- **Mute** - Select to mute your microphone so your voice is not audible to the customer.
+- **Hold** - Select to put the customer on hold; the customer hears the hold music.
+- **Consult** - Select to consult or bring in another agent or supervisor into the call. You can have a *public* consult where the customer is actively involved in the conversation; you can also have a *private* consult where you can put the customer on hold before you talk to your peers or supervisor.
+- **Transfer (to agent or queue)** - Select to transfer the call to another agent or queue. During a transfer to queue, the customer is automatically put on hold.
 - **End** - Select to end the call.
 - **More actions (...)** - This dropdown includes the following controls:
     - **Show number pad** - Select to open the number pad, so you can view or dial a number.
