@@ -48,7 +48,7 @@ The voice channel has Microsoft's award winning AI built into the product. This 
 
 ## Key capabilities of the voice channel
 
-Take a look at some of the key capabilities that makes the voice channel great for for IT administrators, supervisors, agents, and customers.
+Take a look at some of the key capabilities that makes the voice channel great for IT administrators, supervisors, agents, and customers.
 
 | User experience | Capability |
 | --- | --- |

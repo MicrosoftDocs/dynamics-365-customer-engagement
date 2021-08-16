@@ -53,7 +53,7 @@ Do the following to configure a workstream for voice:
 
 To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. To acquire a new number, you can select **Add number** on the **Phone numbers** page. More information: [Acquire a phone number](#acquire-a-phone-number).
 
-To configure the voice channel:
+**To configure the voice channel**
 
 1. Go to the workstream that you created, and on the page that appears, select **Set up voice**.
 
@@ -74,7 +74,7 @@ To configure the voice channel:
 
 The phone number is associated with the workstream.
 
-![Phone number association with workstream.](media/image23.png "Phone number association with workstream.")
+   ![Phone number association with workstream.](media/image23.png "Phone number association with workstream.")
 
 ## Acquire a phone number
 
@@ -135,7 +135,7 @@ Navigate to the workstream for which you have configured the voice channel and p
    - **End call**: Specify to end the call if no agent will be available to take the call, for example an operating hour is configured and the overflow action was triggered on account of it.
    - **Transfer to external number**: Set this option and specify a number to which the call should be routed if the work item should be handled on priority.
 
-    > ![Note]
+    > [!Note]
     > Make sure that you configure overflow condition for the queue for the action to be run. More information: [Handle call overflow](voice-channel-call-overflow.md)
 
 7. Select **Create**. The rule is created and appears in the list of rules.
