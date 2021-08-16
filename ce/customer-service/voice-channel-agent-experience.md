@@ -34,7 +34,7 @@ One of the main value propositions of the Omichannel for Customer Service voice 
 
 You can call a customer either using the phone dialer on the customer summary page or the launch dialer button on the Omnichannel for Customer Service menu bar. More information: [Call a customer](voice-channel-call-customer.md)
 
-When a customer calls your business, the incoming  call is received by an intelligent voicebot. The voicebot gathers basic information about the customer issue and then transfers the call to you for further action. You'll receive a notification about the incoming call on your agent desktop so you can accept it. The following section describes the call controls and other features you can use during your conversation.
+When a customer calls your business, the incoming  call is received by an intelligent bot. The bot gathers basic information about the customer issue and then transfers the call to you for further action. You'll receive a notification about the incoming call on your agent desktop so you can accept it. The following section describes the call controls and other features you can use during your conversation.
 
 ## Call controls
 
@@ -45,7 +45,7 @@ The conversation panel in the agent dashboard includes the following call contro
 
 - **Mute** - Select to mute your microphone so your voice is not audible to the customer.
 - **Hold** - Select to put the customer on hold; the customer hears the hold music.
-- **Consult** - Select to consult or bring in another agent or supervisor into the call. You can have a *public* consult where the customer is actively involved in the conversation; you can also have a *private* consult where you can put the customer on hold before you talk to your peers or supervisor.
+- **Consult** - Select to consult or bring in another agent or supervisor into the call. You can have a *public* consultation where the customer is actively involved in the conversation; you can also have a *private* consultation where you can put the customer on hold before you talk to your peers or supervisor.
 - **Transfer (to agent or queue)** - Select to transfer the call to another agent or queue. During a transfer to queue, the customer is automatically put on hold.
 - **End** - Select to end the call.
 - **Show number pad** - Select to open the number pad, so you can dial an extension number, when required.
