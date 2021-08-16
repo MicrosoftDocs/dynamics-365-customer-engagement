@@ -1,5 +1,5 @@
 ---
-title: "Requirements to use the Voice Channel in Dynamics 365 Customer Service | MicrosoftDocs"
+title: "Requirements for voice channel in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Requirements for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim

@@ -23,7 +23,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 ## Supported Regions
 
-Omnichannel for Customer Service's voice channel is currently available only in the United States.
+The voice channel in Omnichannel for Customer Service is currently available only in the United States.
 
 ## Supported languages and locale codes
 
