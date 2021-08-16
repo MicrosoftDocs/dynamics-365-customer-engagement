@@ -38,7 +38,7 @@ Omnichannel for Customer Service's voice channel is currently available only in 
 | Chinese - Taiwan	| zh-TW  |
 | Croatian - Croatia | 	hr-HR  |
 | Czech - Czech Republic	| cs-CZ  |
-| Danish - Denmark	| da-DK  |
+| Danish - Denmark | da-DK  |
 | Dutch - Netherlands | 	nl-NL  |
 | English - United States | 	en-US  |
 | Estonian - Estonia	| et-EE  |
@@ -73,22 +73,20 @@ Omnichannel for Customer Service's voice channel is currently available only in 
 | Thai - Thailand	| th-TH  |
 | Turkish - Turkey	| tr-TR  |
 | Ukrainian - Ukraine	| uk-UA  |
-| Vietnamese - Vietnam	| vi-VN | 
+| Vietnamese - Vietnam	| vi-VN |
+|||
 
 ## Language limitations by feature
 
-### Languages 
-
-**What languages are supported in the voice channel at general availability (GA)?**
+### What languages are supported in the voice channel at general availability (GA)?
 
 For our GA release of voice channel, language support is feature-specific. 
 
-We use Azure Cognitive Service Speech’s Speech-to-Text for transcription, so we plan on supporting all of the languages that Speech-To-Text supports today. Power Virtual Agents is only available in a subset of languages, so for PVA-based IVR, we will be supporting the languages that PVA supports. We also support a bring-your-own-bot through Azure Bot Service for IVR that will be constrained by the languages that Speech-To-Text supports. For AI suggestions, we are adding more languages as of April 2021.  
+We use Azure Cognitive Service Speech’s Speech-to-Text for transcription, so we plan on supporting all of the languages that Speech-To-Text supports today. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports. We also support a bring-your-own-bot through Azure Bot Service for IVR that will be constrained by the languages that speech-to-text supports. For AI suggestions, we have added more languages as of April 2021.  
 
+### Are there any real-time limitations?
 
-**Are there any real-time limitations?**
-
-We're planning to support additional languages for the GA release in 2021. See the list of supported languages. 
+We're planning to support additional languages for the GA release in 2021. See the list of supported languages.
 
  
 | Feature |	List of supported languages |
