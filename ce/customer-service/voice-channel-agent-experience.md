@@ -43,20 +43,20 @@ The conversation panel in the agent dashboard includes the following call contro
 > [!div class="mx-imgBorder"]
 > ![Screenshot of call controls](./media/voice-channel-call-controls.png)
 
-- **Mute** - Select to mute your microphone so your voice isn't audible to the customer.
-- **Hold** - Select to put the customer on hold; the customer hears the hold music.
-- **Consult** - Select to consult or bring in another agent or supervisor into the call. You can have a *public* consultation where the customer is actively involved in the conversation. You can also have a *private* consultation where you can put the customer on hold before you talk to your peers or supervisor.
-- **Transfer (to agent or queue)** - Select to transfer the call to another agent or queue. During a transfer to queue, the customer is automatically put on hold.
-- **End** - Select to end the call.
-- **Show number pad** - Select to open the number pad, so you can dial an extension number, when required.
-- **Mark number as spam** - Select to [report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
-- **Device settings** - Configure your microphone and speaker settings.
-- **Take notes** - You can take any important or specific notes regarding your conversation with the customer. Note that this is in addition to the call recording and transcription that happen during the conversation.
-- **Pause transcription** - If you don't want to capture some details of the conversation, such as bank details, billing, or payment information, you can temporarily pause the transcription and later resume it.
-- **Knowledge Articles** - Select this option to get a list of knowledge base articles pertaining to the conversation that you can use to resolve the customer issue.
-- **Link to conversation** - You can link another conversation, case, or knowledge article to the conversation.
-- **Transcription** - When transcription and recording service is enabled by your administrator, all of the conversation between you and the customer is automatically transcribed in real time, which means that the you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in case of a call transfer) to see the call history.
-- **Sentiment analysis** - The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer mood and feeling via the sentiment icons.
+- **Mute**: Select to mute your microphone so your voice isn't audible to the customer.
+- **Hold**: Select to put the customer on hold; the customer hears the hold music.
+- **Consult**: Select to consult or bring in another agent or supervisor into the call. You can have a *public* consultation where the customer is actively involved in the conversation. You can also have a *private* consultation where you can put the customer on hold before you talk to your peers or supervisor.
+- **Transfer (to agent or queue)**: Select to transfer the call to another agent or queue. During a transfer to queue, the customer is automatically put on hold.
+- **End**: Select to end the call.
+- **Show number pad**: Select to open the number pad, so you can dial an extension number, when required.
+- **Mark number as spam**: Select to [report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
+- **Device settings**: Configure your microphone and speaker settings.
+- **Take notes**: You can take any important or specific notes regarding your conversation with the customer. Note that this is in addition to the call recording and transcription that happen during the conversation.
+- **Pause transcription**: If you don't want to capture some details of the conversation, such as bank details, billing, or payment information, you can temporarily pause the transcription and later resume it.
+- **Knowledge Articles**: Select this option to get a list of knowledge base articles pertaining to the conversation that you can use to resolve the customer issue.
+- **Link to conversation**: You can link another conversation, case, or knowledge article to the conversation.
+- **Transcription**: When transcription and recording service is enabled by your administrator, all of the conversation between you and the customer is automatically transcribed in real time, which means that the you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in case of a call transfer) to see the call history.
+- **Sentiment analysis**: The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer mood and feeling via the sentiment icons.
 
 ## Report a phone number as spam
 
