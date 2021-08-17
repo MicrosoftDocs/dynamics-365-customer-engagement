@@ -97,7 +97,7 @@ The co-browsing and screen sharing features help you quickly and easily understa
 > [!Important]
 > Third-party providers of co-browse or screen share capabilities may have separate pricing and licensing requirements. Before enabling and using these features through third-party applications, ensure you understand the terms of using these applications.
 
-## Prerequisite
+### Prerequisite
 
 To use the co-browsing and screen sharing features, your administrator must have selected a third party screen sharing and or co-browse provider. More information: [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
 
