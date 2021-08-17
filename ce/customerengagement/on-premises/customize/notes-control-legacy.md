@@ -1,5 +1,6 @@
 ---
 title: "Set up the Notes control to access information about posts (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: Learn how to configure the notes control
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 

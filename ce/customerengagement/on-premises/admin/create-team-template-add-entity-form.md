@@ -1,6 +1,6 @@
 ---
-title: "Create a team template and add to an entity form  | MicrosoftDocs"
-description: "Create a team template to control access rights for automatically created teams."
+title: "Create access team templates in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to enable an entity for access teams, create an access team template, and add the team template to the entity form."
 ms.custom: 
 ms.date: 03/19/2020
 ms.reviewer: 
@@ -22,7 +22,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Create a team template to control access rights for automatically created teams
+# Create an access team template and add it to an entity form
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
