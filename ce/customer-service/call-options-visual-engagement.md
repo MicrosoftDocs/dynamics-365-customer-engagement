@@ -1,7 +1,7 @@
 ---
 title: "Call options and visual engagement in live chat in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to use visual engagement, such as co-browse and screen sharing, and elevating a chat conversation to voice and video call in Omnichannel for Customer Service."
-ms.date: 05/26/2020
+ms.date: 08/17/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
