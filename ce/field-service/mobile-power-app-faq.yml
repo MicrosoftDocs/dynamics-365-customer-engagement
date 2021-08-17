@@ -139,7 +139,7 @@ sections:
           3. Within field properties, select the option "Automatically expand to use available space."
           4. Save and publish.
           
-          Note: When using the legacy form designer there is a restriction of only one text field per tab can auto-expand. Switch to the modern designer to enable more than one field.
+          Note: When using the legacy form designer, there is a restriction of only one text field per tab can autoexpand. Switch to the modern designer to enable more than one field.
   
 
   - name: Other
