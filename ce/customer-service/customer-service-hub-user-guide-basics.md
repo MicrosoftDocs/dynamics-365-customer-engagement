@@ -308,9 +308,9 @@ You can insert a knowledge article in an email in Dynamics 365 Customer Engageme
   > ![Insert content into email.](media/email-knowledge-article-insert-content.png "Insert an article into email by selecting either the Insert content icon from the search results or Insert article content from the preview pane") 
 
  >[!NOTE]
-> If you wish to insert knowledge article into a custom RTE in the email form, then you must first configure the newly added RTE. More information: [Customize the email experience](customer-service-hub-user-guide-email-font-admin.md)
+> To insert a knowledge article into a custom RTE in the email form, you must first configure the custom RTE. More information: [Customize the email experience](customer-service-hub-user-guide-email-font-admin.md).
 >
-> If you insert more than one RTE in the email form, the knowledge article will always be inserted in the first RTE section of the form. You can optionally create your additional RTEs after the first RTE section to avoid this.
+> If you insert more than one RTE in the email form, the knowledge article is always inserted in the first RTE section of the form by default.
 
    
    -OR-
