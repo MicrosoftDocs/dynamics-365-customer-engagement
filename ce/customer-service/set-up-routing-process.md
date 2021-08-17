@@ -1,5 +1,5 @@
 ---
-title: "How unified routing and assignment works in Customer Service | MicrosoftDocs"
+title: "Set up unified routing | MicrosoftDocs"
 description: "How to set up unified routing"
 ms.date: 08/18/2021
 ms.topic: article
