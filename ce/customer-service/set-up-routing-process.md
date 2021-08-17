@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Set up unified routing for records and work items
+# How to set up unified routing
 
 ## Introduction
 
@@ -18,7 +18,10 @@ Typically, you'll use Customer Service Hub to set up routing of records, such as
 
 You'll use Omnichannel admin center to route work items that come through different channels, such as live chat or Microsoft Teams.
 
-In this article, we'll take you through the high-level process of configuring unified routing.
+In this article, we'll take you through the high-level process of configuring unified routing. 
+
+> [!Note]
+> We recommend that you familiarize yourself with the UI because you'll perform the steps and procedures on different pages.
 
 ### Prerequisites
 
@@ -50,7 +53,7 @@ The process for setting up users is as follows:
 
 Perform the steps in [Create and manage queues for unified routing](queues-omnichannel.md).
 
-### Configure record for routing
+### Configure a record for routing
 
 Perform the steps in [Set up unified routing for records](set-up-record-routing.md#configure-unified-routing-for-records).
 
