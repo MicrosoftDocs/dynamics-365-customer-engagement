@@ -54,8 +54,8 @@ Perform the following steps to configure chat in Omnichannel admin center:
    - **Co-browse**: Set the toggle to **On** and select a provider if you want the agents to see and interact with a customer's web browse.
 
       > [!NOTE]
-      > You must install a third-party provider from AppSource to use the screen sharing or co-browse feature.
-      > You can select only one co-browse provider and or one screen sharing provider for each chat widget. Only those co-browse and screen sharing providers that have published a solution on AppSource will appear in the lists.
+      > - You must install a third-party provider from AppSource to use the screen sharing or co-browse feature.
+      > - You can select only one co-browse provider and or one screen sharing provider for each chat widget. Only those co-browse and screen sharing providers that have published a solution on AppSource will appear in the lists.
 
 9. Select **Save and close**.
 
