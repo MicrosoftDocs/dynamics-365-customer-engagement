@@ -1,7 +1,7 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to add a chat widget in Omnichannel for Customer Service."
-ms.date: 07/12/2021
+ms.date: 08/17/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -52,6 +52,11 @@ Perform the following steps to configure chat in Omnichannel admin center:
    - **Voice and video calls**: Set the toggle to **On** and select the calling option.
    - **Screen sharing**: Set the toggle to **On** and select a provider.
    - **Co-browse**: Set the toggle to **On** and select a provider if you want the agents to see and interact with a customer's web browse.
+
+      > [!NOTE]
+      > You must install a third-party provider from AppSource to use the screen sharing or co-browse feature.
+      > You can select only one co-browse provider and or one screen sharing provider for each chat widget. Only those co-browse and screen sharing providers that have published a solution on AppSource will appear in the lists.
+
 9. Select **Save and close**.
 
 ### Configure customer notifications
@@ -152,9 +157,7 @@ The information in this section is not applicable if you are using the Omnichann
     | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
     | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |
        
-   > [!NOTE]
-   > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the lists.
-   
+  
 9. On the **Design** tab, specify the information for the following fields. The offline settings are available only when the operating hours are set.
 
     | Section | Field | Description | Example value |
