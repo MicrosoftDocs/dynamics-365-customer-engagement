@@ -6,12 +6,12 @@ The release is only applied when an environment is opted into the early access o
 
 This release is an update to the 2021 wave 2 early access of URS version 3.12.60.43. 
 
-- This update contains an update to the new schedule board, and now new schedule assistant/Find Availability functionality could also be used with the Requirement groups. Apart from this we shipped a lot of experience, performance and stability improvements. 
-- Fixed a bug where, when a user enables the new schedule board toggle and refreshes the browser, the user preference is not remembered and is shown the old schedule board. 
-- Fixed a bug where some customers once opted into the 2021 wave 2 early access and installed the updates, they were unable to re-import new custom solutions. This behavior is now fixed in this update. 
-- Fixed non-blocking errors when updates are made to a Booking record, like **Sequence contains no matching element**, and **Nullable object must have a value**
-- A user could drag the resource routes on the schedule board map to a nearby unscheduld requirement to create a booking. In the new Schedule board, user was required to select a Resource first before letting them to drag the route, this issue is now fixed. 
-- When using the new Schedule assistant on a workorder to book a Resource, the workorder title was not shown in the header of the schedule assistant experience. This issue is now fixed.
+- This release contains an update to the new schedule board; now, new schedule assistant and find availability functionality can also be used with the requirement groups. We also shipped many experience, performance, and stability improvements. 
+- Fixed a bug: when a user enables the new schedule board toggle and refreshes the browser, the user preference wasn't remembered and they were shown the old schedule board. 
+- Fixed a bug: some customers were unable to re-import new custom solutions once they opted into the 2021 wave 2 early access and installed the updates. 
+- Fixed non-blocking errors when updates were made to a booking record, like **Sequence contains no matching element**, and **Nullable object must have a value**.
+- Fixed issue: Users couldn't drag the resource routes on the schedule board map to a nearby unscheduled requirement to create a booking. In the new schedule board, the user was required to select a resource before letting them drag the route. 
+- Fixed issue: When using the new schedule assistant on a work order to book a resource, the work order title was not shown in the header of the schedule assistant experience. 
 
 ## 3.12.50.27
 
