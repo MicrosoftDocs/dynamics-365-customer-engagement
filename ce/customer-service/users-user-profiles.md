@@ -19,9 +19,13 @@ For more information on how to create users and assign security roles, see [Assi
 
 ## Manage a user in Omnichannel for Customer Service
 
-1. In the site map of Omnichannel admin center, select **Users** under **General settings**. If you're using the Omnichannel Administration app, select **Users** under **Queues & Users**.
+Perform the steps in this section to manage users for unified routing.
 
-2. In the **Omnichannel Users** view, double-click a user in the list.
+1. Do one of the following:
+   - In the site map of Omnichannel admin center, select **Users** under **General settings**.
+   - In Customer Service Hub, go to the **Service Management** site map, and under **Unified Routing**, select **Users**.
+
+2. Double-click a user in the list.
 
 3. Select the **Omnichannel** tab.
 
@@ -50,9 +54,9 @@ For more information on how to create users and assign security roles, see [Assi
    
    6. In **Rating Value**, select the rating value that the user has on the skill.
    
-   5. Save and close to return to the **Omnichannel** tab of the **User** page.
+   7. Save and close to return to the **Omnichannel** tab of the **User** page.
 
-8. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
+7. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
 
 > [!div class=mx-imgBorder]
 > ![Default presence.](media/oc-user-omni-tab.png)
