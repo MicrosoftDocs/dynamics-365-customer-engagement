@@ -1,7 +1,7 @@
 ---
 title: Enable knowledge article search filters | MicrosoftDocs
 description: Learn how to enable knowledge article search filters in Dynamics 365 Customer Service
-ms.date: 08/04/2021
+ms.date: 08/12/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -29,8 +29,14 @@ You can set up the customization of knowledge article search filters by first en
 - Date and time
 
 > [!NOTE] 
-> Any filter configurations you set will apply anywhere that the knowledge search experience is configured, including, but not limited to, the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, Unified Service Desk embedded search control, and Omnichannel for Customer Service Application tab search experience.<br></br>
-> By enabling this feature, the web client and maker experience knowledge management filter experience are deactivated. You can disable this anytime by setting the feature to **No**.
+> + Any filter configurations you set will apply anywhere that the knowledge search experience is configured, including, but not limited to, the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, Unified Service Desk embedded search control, and Omnichannel for Customer Service Application tab search experience.<br></br>
+> + By enabling this feature, the web client and maker experience knowledge management filter experience are deactivated. You can disable this anytime by setting the feature to **No**.<br></br>
+> + In full text search mode, archived and discarded status filters are not supported.
+
+
+## Prerequisite
+
+If you want to configure custom fields as filters, you must add the fields to the Quick Find view columns. To add a field to the Quick Find view column, see [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization#configure-searchable-fields-for-relevance-search).
 
 1. Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
 2. Under the **Knowledge Base Management** section, select **Settings**.

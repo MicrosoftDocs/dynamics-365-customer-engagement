@@ -1,6 +1,6 @@
 ---
-title: "Manage product catalog configuration   | MicrosoftDocs"
-description: "Manage product catalog configuration to help your company sell products and services with greater efficiency."
+title: "Configure product catalog in Dynamics 365 Customer Engagement (on-premises)"
+description: "Configure the product catalog to help your company sell with greater efficiency. As an administrator, you can also migrate the configuration data."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Manage product catalog configuration
+# Configure the product catalog and migrate configuration data
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

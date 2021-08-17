@@ -70,6 +70,8 @@
       href: upgrade-omnichannel.md
     - name: Try channels in Omnichannel for Customer Service
       href: try-channels.md
+    - name: Provide consent to access data
+      href: data-access-consent.md
   - name: Get started
     items: 
     - name: Get started with Customer Service
@@ -118,10 +120,8 @@
         href: ../app-profile-manager/application-tab-templates.md
       - name: Manage notification templates
         href: ../app-profile-manager/notification-templates.md
-      - name: Associate templates with work streams
-        href: ../app-profile-manager/associate-templates.md
       - name: Associate templates with workstreams
-        href: associate-templates.md
+        href: ../app-profile-manager/associate-templates.md
     - name: Productivity tools
       items: 
       - name: Overview of productivity tools
@@ -168,10 +168,16 @@
         href: queues-omnichannel.md
       - name: Configure work classification
         href: configure-work-classification.md
-      - name: Configure assignment methods for queues
-        href: assignment-methods.md
+      - name: Assignment methods for queues
+        items:  
+        - name: About assignment methods
+          href: assignment-methods.md
+        - name: Configure assignment methods for queues
+          href: configure-assignment-rules.md
       - name: Set up record routing
-        items: 
+        items:
+        - name: Provision unified routing for Customer Service
+          href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
         - name: Automatically route records using custom flow
@@ -598,6 +604,8 @@
         href: create-quick-replies.md
       - name: Enable personal quick replies
         href: enable-personal-quick-replies.md
+      - name: Enable consult pane for agents
+        href: enable-consult.md  
       - name: Enable sound notifications
         href: enable-sound-notifications.md
       - name: Enable missed notifications
@@ -652,7 +660,7 @@
     items: 
     - name: Introduction to Customer Service Insights
       href: introduction-customer-service-analytics.md
-    - name: Region availability and Service limits for Customer Service
+    - name: Regional availability and service limits for Customer Service
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items: 
@@ -716,8 +724,12 @@
         items: 
         - name: Introduction to intraday supervisor experiences
           href: intro-intraday-insights-dashboard.md
-        - name: View and understand Omnichannel intraday insights
+        - name: IntradayMonitoring report
           href: intraday-insights-dashboard.md
+        - name: Agents insights report
+          href: intraday-agents-insights.md
+        - name: Conversation insights report
+          href: intraday-conversation-insights.md
         - name: Set idle time threshold
           href: set-idle-time-threshold.md
         - name: View and understand Omnichannel Ongoing Conversations dashboard
