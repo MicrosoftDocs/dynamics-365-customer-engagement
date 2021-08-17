@@ -12,7 +12,7 @@ ms.custom: intro-internal
 
 # Customer Service Insights
 
-Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and improve customer satisfaction. Agents and customers can use use artificial intelligence (AI) and analytics capabilities for Customer Service Insights and Omnichannel. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers. 
+Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and improve customer satisfaction. Agents and customers can use use AI and analytics capabilities for Customer Service Insights and Omnichannel for Customer Service. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
 
 The premium AI capabilities in Customer Service Insights use advanced AI technology in natural language understanding and natural language generation to help your service team focus on what matters and guide them to success. As an agent, you can use real-time similar cases and knowledge article suggestions that are customized for the current context. The AI-driven technology allows agents to help solve customer issues more quickly, improving resolution rates, and customer satisfaction. 
 

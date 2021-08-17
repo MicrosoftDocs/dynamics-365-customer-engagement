@@ -1,5 +1,6 @@
 ---
 title: "Sample XML configuration file that installs only the HelpServer role | Microsoft Docs"
+description: Use the sample Setup XML configuration file to install the help server role with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op
