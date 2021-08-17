@@ -8,9 +8,9 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# How unified routing and assignment works
+# Set up unified routing for records and work items
 
-## How to set up unified routing for records and work items
+## Introduction
 
 You can set up unified routing in Customer Service Hub or Omnichannel admin center.
 
@@ -33,7 +33,6 @@ The following prerequisites are applicable.
 |To use capacity profile-based classification, the capacity profile must be configured. More information: [Create and manage capacity profiles](capacity-profiles.md)|To route records and work items from channels|
 |||
 
-
 ## Set up unified routing for records in Customer Service Hub
 
 ### Provision unified routing
@@ -44,12 +43,12 @@ Perform the steps in [Provision unified routing for Customer Service](provision-
 
 The process for setting up users is as follows:
 
-1. [Create users in Microsoft 365 admin center](https://docs.microsoft.com/power-platform/admin/create-users)
+1. [Create users in Microsoft 365 admin center](https://docs.microsoft.com/power-platform/admin/create-users).
 2. [Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service).
 
 ### Set up queues
 
-Perform the steps in [Create and manage queues for unified routing](queues-omnichannel.md). 
+Perform the steps in [Create and manage queues for unified routing](queues-omnichannel.md).
 
 ### Configure record for routing
 
