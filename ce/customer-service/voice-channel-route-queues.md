@@ -29,7 +29,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and voice.
 
-You'll perform the steps mentioned in this article in the Omnichannel admin center app.
+You'll perform the steps mentioned in this article in the Omnichannel admin center app. 
 
 ## Set up a voice workstream
 
@@ -106,7 +106,7 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
 ### Configure call overflow for the voice queue
 
-With call overflow, you can reduce long wait times for customer calls by setting options for voice queues.
+With call overflow, you can reduce long wait times for customer calls by setting options for voice queues. More information: [Configure call overflow](voice-channel-call-overflow.md)
 
 ### Assignment rules for a queue
 
@@ -136,7 +136,7 @@ Navigate to the workstream for which you have configured the voice channel and p
    - **Transfer to external number**: Set this option and specify a number to which the call should be routed if the work item should be handled on priority.
 
     > [!Note]
-    > Make sure that you configure overflow condition for the queue for the action to be run. More information: [Handle call overflow](voice-channel-call-overflow.md)
+    > For the action to be run, overflow condition must be configured for the corresponding queue. More information: [Handle call overflow](voice-channel-call-overflow.md)
 
 7. Select **Create**. The rule is created and appears in the list of rules.
 
