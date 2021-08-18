@@ -1,6 +1,6 @@
-## 3.12.61.18 - 2021 wave 2 early access update 1
+## 3.12.61.21 - 2021 wave 2 early access update 1
 
-(Includes Resource Scheduling controls version 1.2.1.212245)
+(Includes Resource Scheduling controls version 1.2.1.212252)
 
 The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 2](/dynamics365-release-plan/2021wave2/service/dynamics365-field-service/planned-features#resource-scheduling) new and updated features. 
 
