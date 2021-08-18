@@ -486,10 +486,7 @@ We recommend that you perform the following steps to upgrade a solution:
 
 ## Limitations
 
-In Unified Interface apps, the following "applicable when" and "success" conditions don't work as expected for SLAs:
-
-- When you configure them on a related entity, and not on the primary SLA-enabled entity.
-- If the "applicable when" conditions are defined on a related entity, the SLA will not be applied even when the related entity is updated to match the applicability criteria. Likewise, if the success conditions are defined on a related entity, the SLA timer will keep running even after the related entity is updated to meet the success condition.
+In Unified Interface apps, the "applicable when" and "success conditions" don't work when they are configured on related entities.
 
 ### See also
 
