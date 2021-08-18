@@ -486,7 +486,7 @@ We recommend that you perform the following steps to upgrade a solution:
 
 ## Limitations
 
-In Unified Interface apps, the "applicable when" and "success conditions" don't work when they are configured on related entities.
+In Unified Interface apps, the "applicable when" and "success conditions" aren't supported if they are configured on related entities and will not work as expected.
 
 ### See also
 
