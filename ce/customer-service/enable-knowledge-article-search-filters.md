@@ -63,7 +63,8 @@ If you want to configure custom fields as filters, you must add the fields to th
    > [!NOTE]
    >* For the **Status** filter that is available out-of-box, note that if you select the **Archived**, **Discarded**, or **Expired** status values and if you have Relevance Search enabled, you must modify the **Quick Find Knowledge Article** view, as this view currently filters out all articles that have these values, and they aren't synced by Relevance Search. No status values are returned if you don't modify the **Quick Find Knowledge Article** view. 
 > 
->* If you want to view articles with **Archived**, **Discarded**, or **Expired** status values in Relevance Search, then you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** to **Yes** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog box.
+>* You can use the Quick Find view to define which fields must appear when users search by using Relevance Search. For more information on how this works, see [Configure Relevance Search to improve search results and performance](./configure-relevance-search-organization.md).
+However, to view articles with **Archived**, **Discarded**, or **Expired** status values in Relevance Search, which don't otherwise appear in Relevance Search results, you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** to **Yes** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog box.
 >
 >* Additionally, if you don't have Relevance Search enabled, the **Archived**, **Discarded**, and **Expired** filter values won't work, and no corresponding search results for these values will be returned.
    
