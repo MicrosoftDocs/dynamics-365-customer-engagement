@@ -1,7 +1,7 @@
 ---
 title: "Trial FAQ (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Marketing trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 08/02/2021
+ms.date: 08/17/2021
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.custom: template-get-started
@@ -40,6 +40,10 @@ In most ways, Marketing trials are fully functional, but time-limited, productio
 - Marketing trials can't be integrated with a Power Apps portal. Instead, they provide a special mechanism that lets you try out landing pages, forms, the event website, and other interactive features without requiring a Power Apps portal or external CMS system. More information: [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md).
 - You can't uninstall or re-install trials using the standard tools provided by the Power Platform admin center. Trials are special and are handled differently than production instances.
 - You don't need to run the [setup wizard](purchase-setup.md) when setting up a trial.
+
+### How long does the trial last?
+
+The Marketing trial lasts 30 days. As [mentioned below](trial-faq.md#how-do-i-extend-the-trial), you can extend the trial once.
 
 ### Is the trial available in all supported geographical regions and languages?
 

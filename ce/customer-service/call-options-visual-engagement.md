@@ -1,7 +1,7 @@
 ---
 title: "Call options and visual engagement in live chat in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to use visual engagement, such as co-browse and screen sharing, and elevating a chat conversation to voice and video call in Omnichannel for Customer Service."
-ms.date: 05/26/2020
+ms.date: 08/17/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -99,7 +99,7 @@ The co-browsing and screen sharing features help you quickly and easily understa
 
 ## Prerequisite
 
-To use the co-browsing and screen sharing features, your administrator must have selected a third party screen sharing and/or co-browse provider.
+To use the co-browsing and screen sharing features, your administrator must have selected a third party screen sharing and or co-browse provider. More information: [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
 
 ### Initiate a co-browsing or screen sharing session
 

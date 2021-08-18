@@ -47,9 +47,11 @@ In Omnichannel admin center, go to the voice queue for which you want to configu
 
 1. In **Overflow conditions (preview)**, select **Set overflow conditions**.
 
-2. On the **Overflow conditions** panel, in the **Work item limit**, enter a number to denote the maximum number of calls that can be in waiting before overflow is reached. For example, if you enter 5, then 5 calls should be waiting in the queue for the sixth call to trigger call overflow.
+2. On the **Overflow conditions** panel, in the **Work item limit**, enter a number to denote the maximum number of calls that can be in waiting before overflow is reached. For example, if you enter 5 as the value, then five calls should be waiting in the queue for the sixth call to trigger call overflow.
 
 3. If an operating hour record is configured for the queue, the toggle for **Out of operation hours**, is set to **On** by default and can't be edited. The call overflow is triggered when a call reaches the queue during the after hours of the call center operations. If no operating hour record is configured, the toggle will be set to **Off** and in the disabled mode. In such a case, the call center is considered to be available round the clock.
+
+To remove the overflow setting, you'll need to set the work item limit to zero.
 
 ## Define operation hours
 
