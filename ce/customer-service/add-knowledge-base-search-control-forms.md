@@ -77,7 +77,7 @@ Make sure that you have the System Administrator or System Customizer security r
 5. After you've added your new section, select **Save and Publish**. You might need to refresh the screen to see the new section.
 
  
-   ![View new section.](media\Knowledge-control-standard-view.png "Knowledge control standard view")
+   ![View new section.](media\Knowledge-control-standardview.png "Knowledge control standard view")
 
  The knowledge properties will now be displayed in the standard view at runtime. 
    
@@ -199,7 +199,7 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 
 8. Save your knowledge subgrid, and then select **Publish**.
 
-![New section in subgrid view.](media\Knowledge-control-subgrid-view.png "Knowledge control subgrid view")
+![New section in subgrid view.](media\Knowledge-control-subgridview.png "Knowledge control subgrid view")
 
 The linked knowledge article subgrid that you just added will now be visible to the customer service representative on the entity form during runtime.
 
