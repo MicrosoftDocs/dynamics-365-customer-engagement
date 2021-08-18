@@ -201,7 +201,7 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 
 ![New section in subgrid view.](media\Knowledge-control-subgrid-view.png "Knowledge control subgrid view")
 
-The linked knowledge article subgrid that you just added will be visible to the customer service representative on the entity form during runtime.
+The linked knowledge article subgrid that you just added will now be visible to the customer service representative on the entity form during runtime.
 
 
 
