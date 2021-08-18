@@ -1,6 +1,6 @@
 ---
-title: "Create and edit public or system views using the app designer with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn now to create or edit views by using the app designer"
+title: "Create views with the app designer in Dynamics 365 Customer Engagement (on-premises)"
+description: "Create and edit views using the app designer. This page walks you through the process of adding columns, defining filters, setting sort orders, and more."
 keywords: 
 ms.date: 11/09/2018
 ms.prod: d365ce-op
@@ -22,7 +22,7 @@ search.audienceType:
 
 ---
 
-# Create and edit public or system views by using the app designer
+# Create or edit a public or system view using the app designer
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Work with views in app designer](/powerapps/maker/model-driven-apps/create-edit-views-app-designer#work-with-views-in-app-designer)
 
