@@ -86,7 +86,7 @@ At the highest level, the output has the following four parameters. The results 
 
 | Name | Type | Description |
 | --- | --- | --- | 
-| TimeSlots | EntityCollection | A collection of time slot results. See ###TimeSlotsEntity section for more details. |
+| TimeSlots | EntityCollection | A collection of time slot results. See (time slot entity)[###TimeSlotsEntity] section for more details. |
 | Resources | EntityCollection | A collection of resource results. Resources are represented as a collection of entities with the following attributes: <ol> <li> **BookableResource** (_Entity_): The bookable resource entity that is available for the requirement. <li> **TotalAvailableTime** (_Double_): The total available time for the resource to perform the requirement. |
 | Related | Entity | Related resources represent resources and time slots of resources that are not directly qualified for the requested requirement but are related. For example, if a crew member qualifies for a requirement, then the other members of that crew would be related results. <ol> <li> **Timeslots** (*EntityCollection*): Time slots of related resources. The definition of time slots is the same as described in the [time slots section](#time-slots-entity). <li> **Resources** (*EntityCollection*): The related resources. The definition of resources is the same as described in the resources attribute definition above. |
 | Exceptions | Entity | This attribute contains information about any exception that occurred and information about if and where the resource search was truncated. <ol> <li> **Message** (_String_): Exception message <li> **ResourcesTruncatedAt** (_Integer_): If the number of resources exceeded the retrieval limit; the number where the resources where truncated. |
@@ -130,3 +130,68 @@ At the highest level, the output has the following four parameters. The results 
 | Phone |	String|	The resource’s phone number. |
 | ImagePath |	String	|The path to the resource’s image. |
 | CalendarId |	Guid	|The resource’s calendar ID. |
+
+## Examples
+  
+Here are some examples for reference - 
+In this example, v3 of Schedule Assistant API which allows for web API calls is being used for a requirement of duration 60 minutes. Using the settings attribute, the results are being filtered down. Two resource types are being considered for the final results - 1 and 2, i.e. Generic and Contact. 
+  
+  `{
+
+    "Version": "3",
+
+    "IsWebApi": true,
+
+    "Requirement": {
+
+        "msdyn_fromdate": "2021-07-14T00:00:00Z",
+
+        "msdyn_todate": "2021-07-15T23:59:00Z",
+
+        "msdyn_remainingduration": 60,
+
+        "msdyn_duration": 60,
+
+        "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourcerequirement"
+
+    },
+
+    "Settings": {
+
+        "ConsiderSlotsWithProposedBookings": false,
+
+        "MovePastStartDateToCurrentDate": true,
+
+        "@odata.type": "Microsoft.Dynamics.CRM.expando"
+
+    },
+
+    "ResourceSpecification": {
+
+        "@odata.type": "Microsoft.Dynamics.CRM.expando",
+
+        "ResourceTypes@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
+
+        "ResourceTypes": [
+
+            {
+
+                "@odata.type": "Microsoft.Dynamics.CRM.expando",
+
+                "value": "1"
+
+            },
+
+            {
+
+                "@odata.type": "Microsoft.Dynamics.CRM.expando",
+
+                "value": "2"
+
+            }
+
+        ]
+
+    }
+
+}`
