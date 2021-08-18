@@ -38,6 +38,26 @@ The following prerequisites are applicable.
 
 ## Set up unified routing for records in Customer Service Hub
 
+The sequence of the tasks that you'll need to perform for setting up unified routing are outlined in the following table.
+
+|Step|Task |Description|
+|----------|-----------|-------|
+|![Step 1.](media/step-1.png "Step 1") |[Provision unified routing for Customer Service](provision-unified-routing.md)| Turn on unified routing in Service Configuration Settings.|
+|![Step 2.](media/step-2.png "Step 2") |<ol><li>[Create users in Microsoft 365 admin center](https://docs.microsoft.com/power-platform/admin/create-users)</li><li>[Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)</li></ol>| Create users in Microsoft 365 and configure them in Customer Service.|
+|![Step 3.](media/step-3.png "Step 3") |[Create and manage queues for unified routing](queues-omnichannel.md)| Set up queues in advanced queues section and add users. |
+|![Step 4.](media/step-4.png "Step 4") |[Set up unified routing for records](set-up-record-routing.md#configure-unified-routing-for-records)|Configure a record for routing.|
+|![Step 5.](media/step-5.png "Step 5") |[Create workstreams for record routing](set-up-record-routing.md#create-workstreams-for-record-routing)|Configure a workstream for record routing|
+|![Step 6.](media/step-6.png "Step 6") |[Enable routing diagnostics](unified-routing-diagnostics.md#enable-routing-diagnostics)|Turn on routing diagnostics|
+||||
+
+### Try the runtime experience in Customer Service workspace
+
+Make sure that you have the Customer Service Representative role to try the runtime experience and do the following:
+
+1. Perform the steps in [Create a case](customer-service-hub-user-guide-create-a-case.md).
+2. Go to the case details page, and select **Save & Route** on the window.
+
+<!--
 ### Provision unified routing
 
 Perform the steps in [Provision unified routing for Customer Service](provision-unified-routing.md).
@@ -71,6 +91,8 @@ Make sure that you have the Customer Service Representative role to try the runt
 
 1. Perform the steps in [Create a case](customer-service-hub-user-guide-create-a-case.md).
 2. Go to the case details page, and select **Save & Route** on the window.
+
+-->
 
 ## Set up unified routing in Omnichannel admin center
 

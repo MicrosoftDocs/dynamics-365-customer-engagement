@@ -52,7 +52,14 @@ After unified routing is provisioned, for Customer Service users, **Unified Rout
 > [!NOTE]
 > **Unified Routing** also appears in the site map if you install or upgrade Omnichannel for Customer Service.
 
+### Typical next steps
+
+![Next step](media/right-arrow.png) [Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)  
+![Home](media/home-button.png) [Process for setting up unified routing](set-up-routing-process.md)  
+
+
 ### See also
+
 
 [Provide consent to access data](data-access-consent.md)  
 [Set up record routing](set-up-record-routing.md)  

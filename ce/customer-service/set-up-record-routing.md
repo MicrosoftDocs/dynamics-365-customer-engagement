@@ -95,6 +95,11 @@ The following screenshot shows a workstream with the required intake rule and ro
    > [!NOTE]
    > The agent notifications that you configure for routing of records based on unified routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
+### Typical next steps
+
+![Next step.](media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#enable-routing-diagnostics)  
+![Home.](media/home-button.png "Home") [Process for setting up unified routing](set-up-routing-process.md)  
+
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
