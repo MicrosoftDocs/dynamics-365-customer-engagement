@@ -36,7 +36,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
     > [!div class=mx-imgBorder]
     > ![Grant consent.](media/data-consent.png "Grant consent")
 
-> For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions).
+> For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
 
 ## Set up Omnichannel for Customer Service
 

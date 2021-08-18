@@ -53,8 +53,8 @@ The **Conversation insights** report displays the following metrics about conver
 | Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. | Live chat, Digital messaging|
 |SLA - First response time | The percentage of conversations wherein the customer received the very first response from the agent within 1 minute. The 1 minute threshold can be modified to suit your business needs. |Available for only digital messaging channels; not available in Government Community Cloud (GCC).|
 |SLA - Response time | The percentage of messages wherein the customer received a response within 1 min from the agent. The 1 minute threshold can be modified to suit your business needs. |Available for only digital messaging channels; not available in GCC. |
-| Avg - First response time (min) | The average time that a customer waited to receive the first response from  agents. | Live chat, Digital messaging|
-|Avg - Response time (min)| The average time that a customer waited to receive responses from agents.| Live chat, Digital messaging|
+| Avg - First response time (min) | The average time that a customer waited to receive the first response from  agents. | Live chat, Digital messaging; not available in GCC. |
+|Avg - Response time (min)| The average time that a customer waited to receive responses from agents.| Live chat, Digital messaging; not available in GCC. |
 | Service level - Speed to answer |The percentage of voice calls that were answered within 30 seconds. The 30 seconds threshold can be modified to suit your business needs.|Voice (preview)|
 | Avg. talk time (min)| The average time an agent spent talking with a customer over a voice call. | Voice (preview)|
 | Avg. hold time (min) |  The average time an agent put a customer on hold over a voice call. | Voice (preview)|
@@ -74,7 +74,7 @@ The **Ongoing conversations** table provides information about the status of the
 
 The **Ongoing conversations** table displays the following metrics based on the channels through which the conversations are being held.
 
-| Title | Description | 
+| Title | Description |
 |------------ | --------------- |
 | Agent | Name of the agent |
 | Status | The status of the conversation, that is, open, active, waiting, wrap up, and closed. |
@@ -94,7 +94,7 @@ The **Ongoing conversations** table displays the following metrics based on the 
 | Wait time (min) | Total wait time of the conversation. |
 | Handle time (min) | Total time taken to accept and close the conversation. |
 | Wrap time (min) | Total time in which the conversation was in the wrap stage. |
-| Sentiment | The real-time sentiment analysis. |
+| Sentiment | An automatic and unbiased measurement of satisfaction levels of the customer in real time. |
 | Created on | The date on which the conversation was created on. The date and time is displayed in the UTC time zone. |
 | Conversation ID | The conversation's ID. |
 |||

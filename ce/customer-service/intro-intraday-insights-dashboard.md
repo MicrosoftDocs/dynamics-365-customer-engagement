@@ -40,7 +40,7 @@ As a supervisor, you see the following tabs when you open the Omnichannel for Cu
 > [!NOTE]
 >
 > - Contact your system administrator for configuration errors or if you are unable to view the dashboards. To learn more, see [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md).
-> - The intraday insights dashboards are available only in the English language, out of the box. You'll need to customize the dashboards to make them available in a language of your choice.
+> - The intraday insights reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice.
 
 ## Prerequisites
 

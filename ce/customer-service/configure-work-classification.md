@@ -56,6 +56,15 @@ Follow these steps to create a manual skill classification ruleset:
 6. In the **Output** area, select the attribute whose value will be set if the conditions are met.
 7. If you want to manually set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
+## Create classification rulesets based on capacity profiles
+
+Create work classification rulesets that are based on capacity profiles so that work items are routed to agents based on capacity.
+
+1. Perform the steps 1 through 5 in [Create manual skill classification rulesets](#create-manual-skill-classification-rulesets).
+2. In the **Output** area, select **Capacity profile**, and choose a capacity profile whose value should be set if the conditions are met.
+
+   > ![Capacity profile-based work classification rule.](media/capacity-profile-based-rule.png "Capacity profile-based work classification rule.")
+
 ## Create machine learning-based skill classification rulesets
 
 To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)

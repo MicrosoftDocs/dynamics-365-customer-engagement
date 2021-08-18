@@ -70,6 +70,8 @@
       href: upgrade-omnichannel.md
     - name: Try channels in Omnichannel for Customer Service
       href: try-channels.md
+    - name: Provide consent to access data
+      href: data-access-consent.md
   - name: Get started
     items: 
     - name: Get started with Customer Service
@@ -166,10 +168,16 @@
         href: queues-omnichannel.md
       - name: Configure work classification
         href: configure-work-classification.md
-      - name: Configure assignment methods for queues
-        href: assignment-methods.md
+      - name: Assignment methods for queues
+        items:  
+        - name: About assignment methods
+          href: assignment-methods.md
+        - name: Configure assignment methods for queues
+          href: configure-assignment-rules.md
       - name: Set up record routing
-        items: 
+        items:
+        - name: Provision unified routing for Customer Service
+          href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
         - name: Automatically route records using custom flow

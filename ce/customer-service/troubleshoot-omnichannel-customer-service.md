@@ -86,7 +86,7 @@ To avoid the provisioning failure, you must remove the Microsoft Teams service p
 5. Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
 This establishes a connection with the tenant's Azure Active Directory, so you can manage it using PowerShell.
 6. Sign in to your organization as a tenant admin.
-7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
+7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **`<ObjectID>`** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
 
    > [!Note]
    > Right click in the PowerShell window to paste the Object ID.
@@ -315,7 +315,7 @@ The routing rule is configured incorrectly or not activated.
 
 ### Resolution
 
-Verify the routing rule set is configured correctly and ensure to activate it. To learn more, see [Create routing rules](entity-channel.md#step-4-create-routing-rules).
+Verify the routing rule set is configured correctly and ensure to activate it. To learn more, see [Create routing rules](entity-channel.md#create-routing-rules).
 
 ### Issue 2
 
@@ -580,7 +580,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
    |-------------------------------------------|--------------------------------------------------|
    | Name | Omnichannel |
    | Label | Omnichannel |
-   | Channel URL | \<Chat control cdn url>?uci=true&env=<env>&ocBaseUrl=\<oc endpoint\>&ucilib=\<crm org url\>/webresources/Widget/msdyn_ciLibrary.js |
+   | Channel URL | \<Chat control cdn url>?uci=true&env=`<env>`&ocBaseUrl=\<oc endpoint\>&ucilib=\<crm org url\>/webresources/Widget/msdyn_ciLibrary.js |
    | Enable Outbound Communication | No |
    | Channel Order | 0 |
    | API Version | 1.0 |
