@@ -1,11 +1,10 @@
 ---
 title: "Universal Resource Scheduling for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 08/12/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice 
+ms.service: dynamics-365-field-service
+ms.custom: intro-internal
 ms.topic: overview
 author: FieldServiceDave
 ms.author: daclar
@@ -107,6 +106,9 @@ Updating work order attributes will update requirement attributes. Manual edits 
 
 > [!NOTE]
 > Many work order attributes are added to the work order when work order incident types are created, including duration and characteristics. 
+
+> [!Note]
+> Field Service keeps the **Work Order** and the primary resource requirement in sync. All of the scheduling impacting fields are automatically synchronized. If a customer manually creates multiple requirements against a work order, those are not automatically synchronized. 
 
 ## Scheduling work orders with Universal Resource Scheduling
 

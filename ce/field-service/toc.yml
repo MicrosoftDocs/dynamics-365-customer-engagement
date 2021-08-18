@@ -32,8 +32,6 @@
     href: set-up-tax-codes.md
   - name: Territories
     href: set-up-territories.md
-  - name: Sample data installation
-    href: install-sample-data-8-x.md
   - name: Field Service settings
     href: configure-default-settings.md
 - name: Quickstarts
@@ -162,6 +160,8 @@
       href: schedule-assistant-advanced-filters.md
     - name: Self-scheduling for customers
       href: scheduling-self-customers.md
+    - name: Search resource availability API
+      href: search-resource-availability-api.md
   - name: Schedule board
     items: 
     - name: Configure the schedule board

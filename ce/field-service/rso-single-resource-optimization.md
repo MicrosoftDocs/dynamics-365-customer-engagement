@@ -1,12 +1,11 @@
 ---
 title: "Single resource optimization for resource scheduling optimization in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about optimization for a single resource using resource scheduling optimization in Dynamics 365 Field Service
-ms.service: dynamics-365-customerservice
-ms.custom: dyn365-fieldservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.date: 11/04/2019
 ms.reviewer: krbjoran
 ms.topic: article
-ms.tgt_pltfrm: 
 author: FieldServiceDave
 ms.author: daclar
 ms.manager: shellyhaverkamp

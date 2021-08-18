@@ -143,7 +143,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [LeadSourceCode](#BKMK_LeadSourceCode)
 - [MiddleName](#BKMK_MiddleName)
 - [MobilePhone](#BKMK_MobilePhone)
-- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [msdyn_ordertype](#BKMK_msdyn_ordertype)
 - [Need](#BKMK_Need)
 - [NumberOfEmployees](#BKMK_NumberOfEmployees)
@@ -1613,31 +1612,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|20|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
-
-**Added by**: SI Common Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Describes whether lead is opted out or not|
-|DisplayName|GDPR Optout|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_gdproptout|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_gdproptout Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
 
 
 ### <a name="BKMK_msdyn_ordertype"></a> msdyn_ordertype

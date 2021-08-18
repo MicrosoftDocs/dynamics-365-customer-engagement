@@ -1,6 +1,6 @@
 ---
-title: "Hierarchy security  | MicrosoftDocs"
-description: "Create several business units and then add the hierarchy security."
+title: "Hierarchy security in Dynamics 365 Customer Engagement (on-premises)"
+description: "Hierarchy security is an extension of existing models that allows for more granular access to data. This page explains the two models and how to set them up."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Hierarchy security to control access
+# Set up hierarchy security for granular access to data
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

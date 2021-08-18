@@ -1,11 +1,9 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.custom:
-  - dyn365-fieldservice
 ms.date: 04/09/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -28,41 +26,130 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | | |  | |
-| | <i>First Release</i> | [8.8.45.35](/dynamics365/field-service/version-history#884535) |TBD | 07/16/2021
+| | <i>First Release</i> | [8.8.48.23](/dynamics365/field-service/version-history#884823) | TBD | 08/27/2021
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [8.8.45.45](/dynamics365/field-service/version-history#884545) |  TBD | 07/23/2021
-| | <i>Canada</i> |[8.8.45.45](/dynamics365/field-service/version-history#884545) |  TBD|  07/23/2021
-| | <i>India</i> | [8.8.45.45](/dynamics365/field-service/version-history#884545) |  TBD |  07/23/2021
-| | <i>France</i> | [8.8.45.45](/dynamics365/field-service/version-history#884545) |  TBD |  07/23/2021
-| | <i>United Arab Emirates</i> | [8.8.45.45](/dynamics365/field-service/version-history#884545) |  TBD |  07/23/2021
-| | <i>South Africa</i> | [8.8.45.45](/dynamics365/field-service/version-history#884545) |  TBD |  07/23/2021
-| | <i>Germany</i> | [8.8.45.45](/dynamics365/field-service/version-history#884545) |  TBD | 07/23/2021
-| | <i>Switzerland</i> |[8.8.45.45](/dynamics365/field-service/version-history#884545) |  TBD |  07/23/2021
+| | <i>South America</i> |  [8.8.47.21](/dynamics365/field-service/version-history#884721) | [8.8.48.23](/dynamics365/field-service/version-history#884823)  | 08/20/2021
+| | <i>Canada</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | [8.8.48.23](/dynamics365/field-service/version-history#884823)  | 08/20/2021
+| | <i>India</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | [8.8.48.23](/dynamics365/field-service/version-history#884823)  | 08/20/2021
+| | <i>France</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | [8.8.48.23](/dynamics365/field-service/version-history#884823)  | 08/20/2021
+| | <i>United Arab Emirates</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | [8.8.48.23](/dynamics365/field-service/version-history#884823)  | 08/20/2021
+| | <i>South Africa</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | [8.8.48.23](/dynamics365/field-service/version-history#884823)  | 08/20/2021
+| | <i>Germany</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | [8.8.48.23](/dynamics365/field-service/version-history#884823)  | 08/20/2021
+| | <i>Switzerland</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | [8.8.48.23](/dynamics365/field-service/version-history#884823)  | 08/20/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |   [8.8.44.50](/dynamics365/field-service/version-history#884393)| [8.8.45.45](/dynamics365/field-service/version-history#884545)  | 07/16/2021
-| | <i>Asia Pacific</i> | [8.8.44.50](/dynamics365/field-service/version-history#884393)| [8.8.45.45](/dynamics365/field-service/version-history#884545)  | 07/16/2021
-| | <i>Great Britain</i> |[8.8.44.50](/dynamics365/field-service/version-history#884393)|[8.8.45.45](/dynamics365/field-service/version-history#884545)  | 07/16/2021
-| | <i>Oceania</i> |  [8.8.44.50](/dynamics365/field-service/version-history#884393)| [8.8.45.45](/dynamics365/field-service/version-history#884545)   | 07/16/2021
+| | <i>Japan</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | TBD | 08/27/2021
+| | <i>Asia Pacific</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | TBD | 08/27/2021
+| | <i>Great Britain</i> | [8.8.47.21](/dynamics365/field-service/version-history#884721) | TBD | 08/27/2021
+| | <i>Oceania</i> |  [8.8.47.21](/dynamics365/field-service/version-history#884721) | TBD | 08/27/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.44.52](/dynamics365/field-service/version-history#884452) |  [8.8.45.45](/dynamics365/field-service/version-history#884545) | 07/23/2021
+| | <i>Europe</i> | [8.8.46.28](/dynamics365/field-service/version-history#884628) | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/20/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |  [8.8.43.101](/dynamics365/field-service/version-history#8843101)  | [8.8.44.52](/dynamics365/field-service/version-history#884452) | 07/16/2021
+| | <i>North America</i> | [8.8.46.28](/dynamics365/field-service/version-history#884628) | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/27/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |   [8.8.43.101](/dynamics365/field-service/version-history#8843101)  |[8.8.44.52](/dynamics365/field-service/version-history#884452)   |   07/14/2021
-| | <i>China</i> |   [8.8.43.101](/dynamics365/field-service/version-history#8843101)  | [8.8.44.52](/dynamics365/field-service/version-history#884452)    | 07/14/2021
-| | <i>Dedicated Scale Groups</i> | [8.8.43.101](/dynamics365/field-service/version-history#8843101)  | [8.8.44.52](/dynamics365/field-service/version-history#884452)   | 07/23/2021
+| | <i>Government Community Cloud</i> |    [8.8.46.28](/dynamics365/field-service/version-history#884628) | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/27/2021
+| | <i>China</i> |    [8.8.46.28](/dynamics365/field-service/version-history#884628) | [8.8.47.21](/dynamics365/field-service/version-history#884721) | 08/27/2021
+| | <i>Dedicated Scale Groups</i> |  [8.8.45.47](/dynamics365/field-service/version-history#884547) |  [8.8.46.28](/dynamics365/field-service/version-history#884628)  |   08/20/2021   
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 
+## 8.8.51.75 (2021 Wave 2 early access)
+
+(Includes Universal Resource Scheduling version [3.12.49.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126043---2021-wave-2-early-access)).
+
+The release is only applied when an environment is opted into Early Access and introduces the [Field Service 2021 Wave 2](/dynamics365-release-plan/2021wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined in the release notes.
+ 
+In addition, this release also includes the following changes:
+- Multi-line text fields in the Field Service (Dynamics 365) mobile app forms will dynamically expand in height to show all content within the field.
+- Metadata including image and description is added for Field Service (Dynamics 365) mobile controls.
+- Work order in the Field Service (Dynamics 365) mobile app will default to use modern task-completion controls for WOS, WOP, and WOST.
+- Minor text-casing changes within tabs of the Field Service (Dynamics 365) Product form.
+- Improved views for Incident Type Product, Incident Type Service, and Incident Type Service Task.
+- Improved views for Work Order Incident.
+- Move Product Inventory to the top of the "Inventory" area within the Field Service app.
+- Improved error handling on certain crew related booking scenarios.
+- Added plugin validation to enforce that "Product" is required for a work order product.
+- Added plugin validation to enforce that "Service" is required for a work order service.
+- Corrected an issue where, when updating the currency on an existing work order, the Estimated Subtotal Amount currency wasn't accurately reflecting the update.
+- Resolved an issue on order lines in custom apps which could cause the order field not to be populated as expected if the app contained certain customizations.
+- Improved tab naming on the Booking Journal entity.
+- When deleting or deactivating the last work order service task on a work order incident with duration, the duration of the work order incident updates, appropriately.
+- Made keyboard and usability improvements to the Assets and Locations control.
+- Resolved an issue where, when cycling a work order product from estimated to used and back multiple times could leave a previous value in unit amount which should have been nullified.
+
+## 8.8.47.21
+(Includes Universal Resource Scheduling version [3.12.49.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124918)).
+
+- Resolved an issue where the user-provided Pricelist value on a work order could be cleared under certain form customization scenarios.
+- Corrected an validation issue on work order incidents which was causing users to be blocked from being able to update the work order incident's duration even when there were no work order service tasks on the record which carried a duration.
+- Improved error handling on work order service task creation to provide a more specific error under certain circumstances.
+
+## 8.8.46.28 
+
+This release is a hotfix on Field Service version [8.8.46.26](#884626).
+
+- Reverted an internal code change to avoid potential performance impact.
+
+## 8.8.46.26
+
+(Includes Universal Resource Scheduling version [3.12.49.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124918)).
+
+- Update Field Service booking form logic to automatically update **Actual Arrival Time** on update of **Start Time** if the pre-change values of **Start Time** and **Actual Arrival Time** were the same.
+- When creating a follow-up work order from Field Service (Dynamics 365) mobile, there will be a link created between the source and new work order.
+- Field Service (Dynamics 365) mobile calendar control will now show date and time format based on personalized settings.
+- Fixed an issue where booking status was showing "undefined" in mobile map control.
+- Corrected an issue where, when a work order product was moved from one work order to another, the respective work orders' **Estimated Subtotal Amount** values were not being recalculated.
+- Resolved an issue with purchase order product records that kept the **Product** field active and editable even when the record's status was inactive.
+- Fixed an issue with **Enhanced Background Processing** on agreements where an object reference error could occur when updating agreement invoice setup records if the workflow is deactivated.
+- Added Field Service health improvements including rule enhancements and new rules.
+- Applied performance improvements.
+
+## 8.8.45.47 
+
+This release is a hotfix on Field Service version [8.8.45.47](#884547).
+
+- Reverted an incorrect validation on work order incident which caused the **Estimated Duration** field for the work order incident to be read-only if the work order incident contained work order service task records, even if those work order service task records did not have a defined estimated duration.
+
 ## 8.8.45.45 
 
+This release is a hotfix on Field Service version [8.8.45.35](#884535).
+
+- Fixed an issue that could cause an error when the legacy address suggestion control was used on custom forms.
+- Reverted a previous performance change which under certain circumstances could cause an error to occur.
+
 ## 8.8.45.35 
+
 (Includes Universal Resource Scheduling version [3.12.48.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124825)).
 
+- Created an **Advanced Settings** flag for _bookingjournal.durationcalculationwithoutseconds.optin=true/false_ which, when true, ensures that booking journal duration is calculated without seconds to resolve potential visual discrepancies due to the number of seconds between milestone events.
+- Resolved a script error message related to opening the agreement's main form.
+- Fixed an incorrect crew booking cascade behavior after an initial crew's bookings were canceled and subsequently rescheduled with a new set of bookings.
+- Resolved an issue with share/unshare logic on work orders with multiple bookings to multiple user resources.
+- Corrected a localization issue with time formatting in the Field Service mobile agenda and map controls.
+- Reverted a previous performance change which under certain circumstances could cause an error to occur.
+- Improved Field Service health rule "Process deinitions in draft status."
+- Updated the validation for booking's **End Time** and **Actual Arrival Time** to allow them to have equal values.
+- Updated booking logic to automatically update **Actual Arrival Time** if **Start Time** is updated and **Actual Arrival Time** is not updated and where the pre-change **Start Time** is the same as pre-change **Actual Arrival Time**.
+- Improved cascading logic for crew bookings to reduce the possibility of data discrepancies and related, downstream errors on shared booking fields, depending on the crew's defined strategy.
+- Improved logic which populated the **Actual Arrival Time** to populate the value without seconds which were not visible to the end user and which increased the potential for validation errors which would be potentially incorrect and unobvious to resolve.
+- Fixed an issue where, if customers created agreement booking dates manually after the agreement booking setup create the initial set of agreement booking dates and retriggering the agreement booking setup to create agreement booking dates for an earlier, still-future time range, the agreement would not generate booking dates for the new time range prior to the manually created agreement booking dates.
+- Added **Generate Actuals** toggle to Field Service settings which will allow organizations to disable actuals generation in Field Service. Additionally, when disabled, the time entry cost actuals generation field in Field Service settings is hidden since this setting becomes irrelevant.
+- Improved Field Service health with additional rules.
+- Applied performance improvements.
+
+## 8.8.44.56
+
+This release is a hotfix on Field Service version [8.8.44.52](#884452).
+
+- Reverted an incorrect validation on work order incident that caused the **Estimated Duration** field for the work order incident to be read-only if the work order incident contained work order service task records, even if those work order service task records did not have a defined estimated duration.
+
 ## 8.8.44.52 
+
+This release is a hotfix on Field Service version [8.8.44.50](#884450).
+
+- Fixed an issue that could cause an error when the legacy address suggestion control was used on custom forms.
 
 ## 8.8.44.50 
 
@@ -70,11 +157,15 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 This release is a hotfix on Field Service version [8.8.44.45](#884445).
 
+- Reverted a previous performance change that under certain circumstances could cause an error to occur.
+
 ## 8.8.44.45 
 
 (Includes Universal Resource Scheduling version [3.12.47.98](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124798)).
 
-Includes all content from Field Service version [8.8.44.39](#884439).
+This release is a hotfix on Field Service version [8.8.44.39](#884439).
+
+- Fixed a permissions issue with the Field Service dispatcher role that could cause an error to be thrown when dragging an onsite requirement onto the schedule board when "Auto Update Booking Travel" is enabled.
 
 ## 8.8.44.39 
 
@@ -90,9 +181,9 @@ Includes all content from Field Service version [8.8.44.39](#884439).
 
 ## 8.8.43.101
 
-(Includes Universal Resource Scheduling version [3.12.46.64](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124664)).
-
 This release is a hotfix on Field Service version [8.8.43.97](#884397).
+
+- Reverted a previous performance change that under certain circumstances could cause an error to occur.
 
 ## 8.8.43.97
 
@@ -125,7 +216,7 @@ This release is a hotfix on Field Service version [8.8.43.51](#884351).
 
 ## 8.8.42.66 
 
-(Includes Universal Resource Scheduling version [3.12.45.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124528).
+(Includes Universal Resource Scheduling version [3.12.45.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124528)).
 
 Includes all content from Field Service version 8.8.42.64.
 
@@ -246,7 +337,7 @@ Fixes include:
 
 
 ## 8.8.39.118 (2021 Wave 1 early access update)
-(Includes Universal Resource Scheduling version [3.12.42.5](./field-service-version-history-resource-scheduling.md#312425))
+(Includes Universal Resource Scheduling version 3.12.42.5)
 
 The early access update release is only applied when an environment is opted into early access and applies below fixes and changes to the early access release:
  
@@ -282,7 +373,7 @@ Additional updates:
 
 
 ## 8.8.39.37 (2021 Wave 1 early access)
-(Includes Universal Resource Scheduling version [3.12.40.15](./field-service-version-history-resource-scheduling.md#3124015))
+(Includes Universal Resource Scheduling version 3.12.40.15)
 
 The release is only applied when an environment is opted into Early Access and introduces the [Field Service 2021 Wave 1](/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features) new and updated features as outlined below for availability in early access:
  
@@ -423,7 +514,7 @@ This release is a hotfix on Field Service version [8.8.30.103](#8830103).
 - Resolved an issue with inspection name value being empty in the parsed inspection record tables.
 
 ## 8.8.30.103
-(Includes Universal Resource Scheduling version [3.12.31.50](./field-service-version-history-resource-scheduling.md#3123150))
+(Includes Universal Resource Scheduling version 3.12.31.50)
 This version introduces the [Field Service 2020 Wave 2](/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features outlined as generally available. It also introduces all of the changes from the early access versions. In addition, it introduces the following updates:
 - Resolved an issue that had the potential to cause timeouts based on resource location updates from Field Service Mobile.
 - Improved update logic to a work order product's currency field to ensure that non-currency related changes did not appear as also making an update to the currency field.
@@ -437,7 +528,7 @@ This version introduces the [Field Service 2020 Wave 2](/dynamics365-release-pla
 - Corrected a problem that could present when bulk editing work order records.
 
 ## 8.8.29.333 (2020 Wave 2 early access update)
-(Includes Universal Resource Scheduling version [3.12.30.11](./field-service-version-history-resource-scheduling.md#version-3123011-2020-wave-2-early-access-update-1))
+(Includes Universal Resource Scheduling version 3.12.30.11)
 
 The release is only applied when an environment is opted into early access and introduces the [Field Service 2020 Wave 2](/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features.
 
@@ -456,7 +547,7 @@ In addition, this release includes the following changes:
 -	Corrected a bug: when the work order service’s **Line Status** was changed from "Estimated" to "Used," the **Estimated Discount %** field was not getting copied to the **Discount %**.
 
 ## 8.8.29.226 (2020 Wave 2 early access update)
-(Includes Universal Resource Scheduling version [3.12.30.11](./field-service-version-history-resource-scheduling.md#version-3123011-2020-wave-2-early-access-update-1))
+(Includes Universal Resource Scheduling version 3.12.30.11)
 
 The release is only applied when an environment is opted into early access and introduces the [Field Service 2020 Wave 2](/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features.
 
@@ -470,7 +561,7 @@ In addition, this release includes the following changes that have the potential
 -	Corrected travel calculation logic for the Field Service Mobile model-driven app to ensure that, when the booking is set to in progress, if there was no **Estimated Travel Duration** the system will update the **Actual Arrival Time** and will not immediately increase total duration.
 
 ## 8.8.29.165 (2020 Wave 2 early access)
-(Includes Universal Resource Scheduling version [3.12.29.5](./field-service-version-history-resource-scheduling.md#version-312295-2020-wave-2-early-access))
+(Includes Universal Resource Scheduling version 3.12.29.5)
 
 The release is only applied when an environment is opted into early access and introduces the [Field Service 2020 Wave 2](/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features) new and updated features as outlined for availability in early access:
 - Embedded Power BI Dashboard for key Field Service metrics
@@ -538,7 +629,7 @@ In addition, this release includes the following changes that have the potential
 
 ## 8.8.24.17
 
-(Includes Universal Resource Scheduling version [3.12.23.26](./field-service-version-history-resource-scheduling.md#3122326))
+(Includes Universal Resource Scheduling version 3.12.23.26)
 
 - Corrected a null reference error based on work order product form customizations to better handle when certain fields are removed from the form.
 - Resolved an issue with the incident type duration suggestions feature that produced an error when a user clicked “Recalculate Suggestions” for large query results.
@@ -550,7 +641,7 @@ In addition, this release includes the following changes that have the potential
 
 ## 8.8.23.85
 
-(Includes Universal Resource Scheduling version [3.12.22.9](./field-service-version-history-resource-scheduling.md?branch=master#312228))
+(Includes Universal Resource Scheduling version 3.12.22.9)
 
 - Improved crew booking validations, which ensure that the booked crew has at least one defined crew member for the date on which the booking is being created.
 - Improved descriptions in upgrade scripts to make the script more comprehensible by an administrator by documenting deprecated upgrade script steps to minimize confusion.

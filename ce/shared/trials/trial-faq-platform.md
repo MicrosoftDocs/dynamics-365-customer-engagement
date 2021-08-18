@@ -20,7 +20,7 @@ Yes, you can. To view all available trials, [visit the trial hub page](https://d
 
 ## Trial app
 
-### What is the URL for my trial app?
+### I didn't receive the trial details email after signing up, what should I do?
 
 When you sign up for the trial, you'll receive an email with the trial details. If you don't see the email in your inbox, check your spam folder. Alternatively, use the following steps to access your app:
 
@@ -31,16 +31,20 @@ When you sign up for the trial, you'll receive an email with the trial details. 
 
 To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit. If the user you are adding already has a Microsoft 365 account, assign them an appropriate security role in the trial org. For more information, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
+### How many users can I add to my trial environment?
+
+You can add an unlimited number of users to the trial environment.
+
 ### How do I reset the trial environment?
 
 You can't reset the trial environment. However, you can wait for the trial period to end and then sign up again for a new trial.
 
 ## Trial expiration and extension
 
-### Why did my trial expire before 30 days?
+### Why did my trial expire before the end of the trial period?
 
 The trial expires if there's no activity for 14 consecutive days. An email notification is sent to you after seven days of inactivity. Expired trials cannot be reactivated. However, you can start a new trial.
 
 ### How do I extend the trial?
 
-You can extend the trial for another 30 days in the admin center. For instructions, see [Extend your trial](/power-platform/admin/trial-environments#extend-a-trial-standard-environment).
+You can extend the trial for another trial period in the admin center. For instructions, see [Extend your trial](/power-platform/admin/trial-environments#extend-a-trial-standard-environment). You can extend your trial once.

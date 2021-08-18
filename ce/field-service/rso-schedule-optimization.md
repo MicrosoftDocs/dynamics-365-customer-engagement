@@ -1,19 +1,14 @@
 ---
-title: Schedule optimization in resource scheduling optimization with Dynamics 365 Field Service
-description: Learn about scheduling optimization using resource scheduling optimization with Dynamics 365 Field Service
+title: Schedule optimization in Resource Scheduling Optimization with Dynamics 365 Field Service
+description: Learn about scheduling optimization using Resource Scheduling Optimization with Dynamics 365 Field Service
 author: FieldServiceDave
 manager: shellyha
 ms.reviewer: krbjoran
 ms.date: 06/08/2018
 ms.topic: article
-ms.custom: 
-  - dyn365-fieldservice
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.author: daclar
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS

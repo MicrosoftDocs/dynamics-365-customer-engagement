@@ -2,13 +2,11 @@
 title: Overview of Dynamics 365 Field Service
 description: Learn about Dynamics 365 Field Service and its features.
 author: FieldServiceDave
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.reviewer: krbjoran
-ms.custom:
-  - dyn365-fieldservice
 ms.date: 02/23/2021
+ms.custom: intro-internal
 ms.topic: overview
-ms.technology: field-service
 ms.author: daclar
 search.app:
   - D365CE
@@ -54,7 +52,7 @@ Field service capabilities include:
 - **Time tracking** to help you track how resources are spending their time, whether they're traveling, on break, or working.
 - **Analytics for reporting** on key performance indicators for managing work orders, scheduling activities, and interacting with customers.
 
-## Customer Stories
+## Customer stories
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
 

@@ -112,6 +112,8 @@
       items: 
       - name: Email bounce categories
         href: email-bounce-categories.md
+      - name: Fix a high email bounce rate
+        href: fix-high-bounce-rate.md
       - name: Create an SPF TXT record
         href: create-spf-record.md
       - name: Dedicated vs shared IPs for email delivery
@@ -120,6 +122,10 @@
         href: email-warm-up.md
       - name: Email policies and suspension standards
         href: email-policies.md
+      - name: Email sending data access and privileges
+        href: email-sending-data.md
+      - name: Improve deliverability to China
+        href: improve-deliverability-to-china.md
       - name: Deliverability recommendations when changing ESPs
         href: deliverability-change-esp.md
       - name: Google Postmaster Tools - What it is and how it can help you
@@ -218,7 +224,7 @@
         href: custom-template-attributes.md
       - name: Design elements reference
         href: content-blocks-reference.md
-    - name: "Preview: Real-time customer journey orchestration"
+    - name: "Real-time customer journey orchestration"
       items: 
       - name: Real-time marketing user guide
         href: real-time-marketing-user-guide.yml
@@ -226,7 +232,7 @@
         items: 
         - name: Real-time marketing overview
           href: real-time-marketing-overview.md
-        - name: Install the real-time marketing preview
+        - name: Install real-time marketing
           href: real-time-marketing-install.md
         - name: Use Customer Insights profiles and segments in real-time marketing
           href: real-time-marketing-ci-profile.md
@@ -234,11 +240,11 @@
           href: real-time-marketing-known-issues.md
       - name: Channels
         items: 
-        - name: Create real-time marketing emails
+        - name: Real-time marketing emails
           href: real-time-marketing-email.md
-        - name: Create push notifications
+        - name: Push notifications
           href: real-time-marketing-push-notifications.md
-        - name: Create outbound text messages
+        - name: Outbound text messages
           href: real-time-marketing-outbound-text-messaging.md
         - name: Use AI-driven run-time channel optimization
           href: real-time-marketing-channel-optimization.md
@@ -282,6 +288,8 @@
         items: 
         - name: Push notification setup for application developers
           href: real-time-marketing-developer-push.md
+      - name: Real-time marketing troubleshoot + FAQ
+        href: real-time-marketing-faq.md
     - name: Email campaigns
       items: 
       - name: Email marketing overview
@@ -416,11 +424,11 @@
         href: event-management-dashboard.md
       - name: Set up a Microsoft Teams webinar
         href: teams-webinar.md
-      - name: How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing
+      - name: Follow up with Teams webinar participants
         href: teams-how-to-follow-up.md
       - name: Customize your Teams webinar participant follow-up
         href: teams-webinar-follow-up.md
-      - name: Set up a webinar
+      - name: Set up a non-Teams webinar
         href: set-up-webinar.md
       - name: Manage event sponsorships
         href: manage-event-sponsorships.md

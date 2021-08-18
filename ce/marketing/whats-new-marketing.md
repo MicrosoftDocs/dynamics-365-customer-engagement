@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 07/09/2021
+ms.date: 08/16/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -29,9 +29,69 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ## 2021 updates
 
+### August 2021 update
+
+The Dynamics 365 Marketing August 2021 update includes the general availability launch of Marketing's [real-time customer journey orchestration features](real-time-marketing-user-guide.yml). The August release also includes improved Microsoft Teams integration, better forms export functionality, performance upgrades, and bug fixes.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10075.1058 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Monthly enhancements
+
+- **Event management**
+    - Contact check out times (when a contact leaves a webinar before it ends) are now recorded for webinar events hosted on Microsoft Teams.
+- **Marketing forms**
+    - Data is now displayed for the **Submitted values** column when exporting marketing forms to Excel.
+
+#### Bug fixes
+
+- **Customer journeys**
+    - Customer journeys now go into an error state if segment provisioning times out when a journey is going live, preventing journeys from appearing to be running despite contacts not flowing from segments.
+    - A warning message is now displayed when the segmentation limit is exceeded.
+    - Improved error handling when stuck work items are reported.
+- **Event management**
+    - When deleting event registrations, previously created check-in records tied to the registrations are also deleted.
+- **LinkedIn integration**
+    - Resolved an error that caused LinkedIn LeadGen to fail when the **Default lead owner** on the LinkedIn account entity was set to something other than **System**.
+- **Marketing emails**
+    - Fixed an error that caused a link tag to be inserted before a div when adding a link to an image, resulting in added spaces before an image in Outlook.
+    - Resolved an error that sometimes caused a template to appear blank after saving an email as a template then selecting **View record** to open the newly created template.
+    - GUIDs are no longer inserted into email HTML in the new email editor.
+- **Marketing pages**
+    - Added a warning when including a field in a marketing form that does not follow the set matching strategy.
+    - Interactions are no longer generated for tracking links with shorted tracking IDs.
+    - When changing a form type from landing page to subscription center, a warning is shown explaining that subscription center forms cannot be saved with the **Update contacts/leads** field set to **Contacts and leads**. The field must be set to **Only contacts**.
+    - Resolved an issue where landing forms with a lead matching strategy ocassionally mapped leads to incorrect contacts.
+    - Fixed an error that caused tracking for Sharepoint links to break the link functionality.
+    - Resolved an error that caused the **Subscription lists** search box to fail to load if an org had a large number of subscription lists.
+    - Resolved an error that ocassionally caused the TXT record value for a domain to reset.
+    - Added a feature flag to allow event forms in marketing pages.
+    - Added the ability to use organization-owned custom entities in marketing form lookup fields.
+    - Resolved an "Error loading control" warning that sometimes appeared when adding a form tile to a blank marketing page.
+- **Shared UX**
+    - Fixed an error where multiple text spaces in a row did not render correctly in the preview view.
+    - Fixed a bug that caused 1px dividers to not render in the Edge browser.
+    - Resolved a limitation that prevented editing of live segments.
+    - Line heights set in points (pt) now render correctly in Outlook.
+    - Resolved an error that caused events to display incorrectly in the calendar week view when the week start date was set to Monday.
+    - Fixed an error that caused column outer spacing to break in Outlook when a background image was used.
+    - Fixed an error that sometimes caused text not to be underlined when underline was selected in the formatting bar.
+    - `property-reference` is no longer removed from HTML in the new email editor.
+
 ### July 2021 update
 
 The Dynamics 365 Marketing July 2021 update includes an overhauled trial experience that significantly reduces sign-up time, improved customer journey functionality, easier check-ins for Teams events, duplicate SMS message safeguards for custom channels, performance upgrades, and bug fixes.
+
+> [!IMPORTANT]
+> Starting in the July 2021 release, the [quotas limits page](quota-management.md) will be under construction. The revised quota limits page will monitor outbound marketing and real-time marketing quota usage in one place. Segmentation limits will return in the new quota limits page.
+>
+> In the meantime, your quota limits will not change. Strict quota limits will not be enforced while the quota page is temporarily under construction.
 
 #### Version number
 
@@ -67,7 +127,7 @@ The Dynamics 365 Marketing July 2021 update includes an overhauled trial experie
     - Updated display rules for modify actions (Go Live, Stop, Edit) to better reflect user privileges.
     - Fixed an error that sometimes caused a "Reply to address" to change after a journey went live.
 - **Event management**
-    - Custom registration fields now disassociate on deactivation of records.
+    - Attendees can now register even after deactivation of related custom registration fields.
     - Fixed an issue that prevented adding rooms to an event created from a template.
     - Resolved an error that caused recurrent events to not propagate start and end times to the series.
 - **Marketing emails**
