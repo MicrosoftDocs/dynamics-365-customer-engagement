@@ -51,14 +51,17 @@ When using Dynamics 365 Field Service v8.8.43.51 and Universal Resource Scheduli
 
 | Name | Type | Description | Required | Default
 | --- | --- | --- | --- | --- |
-| ResourceTypes | EntityCollection | This attribute specifies the resource type required for the requirement. It can be specified using an entity collection. Each entity in the collection will represent one bookable resource type. The type of entity does not matter, you can specify any entity logical name. This is the attribute required: <ol> <li> **Value** (_Integer_): The option set value that represents the resource type: <ul> <li> 1- Generic <li> 2- Contact <li> 3- User <li> 4- Equipment <li> 5- Account <li> 6- Crew <li> 7- Facility <li> 8- Pools | No | All resource types except crews
-| PreferredResources | EntityCollection | This attribute specifies the resources preferred for the requirement. Preferred resources can be specified using an entity collection of bookable resource entities. Each entity in the collection will represent one preferred resource. This is the attribute required: <ol> <li> **Value** (_Guid_): The bookable resource ID of the preferred resource. | No | None
-| RestrictedResources | EntityCollection | This attribute specifies the resources that should not be considered for the requirement. Restricted resources can be specified using an entity collection of bookable resource entities. Each entity in the collection will represent one restricted resource. This is the attribute required: <ol> <li> **Value** (_Guid_): The bookable resource ID of the restricted resource. | No| None
-| MustChooseFromResources | EntityCollection | 
+| ResourceTypes | EntityCollection | This attribute specifies the resource type required for the requirement. It can be specified using an entity collection. Each entity in the collection will represent one bookable resource type. The entity logical name must by msdyn_ResourceType. This is the attribute required: <ol> <li> **Value** (_Integer_): The option set value that represents the resource type: <ul> <li> 1- Generic <li> 2- Contact <li> 3- User <li> 4- Equipment <li> 5- Account <li> 6- Crew <li> 7- Facility <li> 8- Pools | No | All resource types except crews
+| PreferredResources | EntityCollection | This attribute specifies the resources preferred for the requirement. Adding resources to this entity collection ensures that they are at the top of the list of available resources. Even resources that are not a part of the entity collection will be on the list, but only after the preferred resources. | No | None
+| RestrictedResources | EntityCollection | This attribute specifies the resources that should not be considered for the requirement. All time slots of this resource will be filtered out of the list of results from this API.  | No| None
+| MustChooseFromResources | EntityCollection | This attribute specifies the only resources that can be on the list of available resources. It will filter out all the other results from the output list.
 | Constraints | Entity | This attribute specifies the additional constraints that should be applied to the retrieval of available resources. | No| None
 | RetrieveResourcesQueryId | Guid | The Id for the Retrieve Resources query. | No| The default Retrieve Resource Query Id.
 | BookedResourceId | Guid | This attribute specifies the resource currently booked for the requirement. | No| None
 
+> [!Note] 
+> The Preferred/ Restricted/ MustChooseFrom resources attributes can be specified using an entity collection of bookable resource entities. Each entity in the collection will represent one Preferred/ Restricted/ MustChooseFrom resource. This is the attribute required for them: <ol> <li> **Value** (_Guid_): The bookable resource ID of the Preferred/ Restricted/ MustChooseFrom resource. The entity logical name should be msdyn_bookableresource.
+  
 #### Constraints
 
 Additional constraints can be specified through attributes in this entity. The type of entity does not matter, you can specify any entity logical name.
@@ -81,7 +84,7 @@ At the highest level, the output has the following four parameters. The results 
 
 | Name | Type | Description |
 | --- | --- | --- | 
-| Time Slots | EntityCollection | A collection of time slot results. See ###TimeSlotsEntity section for more details. |
+| TimeSlots | EntityCollection | A collection of time slot results. See ###TimeSlotsEntity section for more details. |
 | Resources | EntityCollection | A collection of resource results. Resources are represented as a collection of entities with the following attributes: <ol> <li> **BookableResource** (_Entity_): The bookable resource entity that is available for the requirement. <li> **TotalAvailableTime** (_Double_): The total available time for the resource to perform the requirement. |
 | Related | Entity | Related resources represent resources and time slots of resources that are not directly qualified for the requested requirement but are related. For example, if a crew member qualifies for a requirement, then the other members of that crew would be related results. <ol> <li> **Timeslots** (*EntityCollection*): Time slots of related resources. The definition of time slots is the same as described in the [time slots section](#time-slots-entity). <li> **Resources** (*EntityCollection*): The related resources. The definition of resources is the same as described in the resources attribute definition above. |
 | Exceptions | Entity | This attribute contains information about any exception that occurred and information about if and where the resource search was truncated. <ol> <li> **Message** (_String_): Exception message <li> **ResourcesTruncatedAt** (_Integer_): If the number of resources exceeded the retrieval limit; the number where the resources where truncated. |
@@ -93,13 +96,13 @@ At the highest level, the output has the following four parameters. The results 
 | ID | Guid | Unique identifier for the time slot | 
 | Type | Integer | The type of time slot can be one of the following: <ul><li> **0**: Available <li> **1**: Scheduled <li> **2**: Off <li> **3**: Break |
 | StartTime | DateTime | The start time of the time slot. If there is travel for the requirement, then this is the start time of travel. If not, this is the start time of the requirement. |
-| Arrival Time | DateTime | The arrival time of the time slot. If there is travel for the requirement, then this is the start time of requirement, after travel has been completed. If not, it is the same as the start time of the time slot. |
+| ArrivalTime | DateTime | The arrival time of the time slot. If there is travel for the requirement, then this is the start time of requirement, after travel has been completed. If not, it is the same as the start time of the time slot. |
 | EndTime | DateTime | The end time of the time slot. |
 | Effort | Integer | The effort or capacity of the resource to carry out the requirements. |
-| Resource Requirement | EntityReference | The resource requirement for which time slots are being retrieved. |
+| ResourceRequirement | EntityReference | The resource requirement for which time slots are being retrieved. |
 | Potential | Boolean | A boolean value indicating if the time slot has potential to fulfill the requested requirement. |
 | IsDuplicate | Boolean | A boolean value indicating if the time slot is a duplicate. |
-| Allow Overlapping | Boolean | A boolean value indicating if overlapping is allowed. |
+| AllowOverlapping | Boolean | A boolean value indicating if overlapping is allowed. |
 | Resource| Entity | The resource to which the time slot belongs. See [time slot resource](#time-slot-resource) for more information.|
 | Location| Entity | The location has three attributes: <ol> <li> **Location** (_Entity_): It has two attributes - <ul> <li> Latitude <li> Longitude </ul> <li> **WorkLocation** (_Integer_): It has three attributes - <ul> <li> Onsite <li> Facility <li> Location Agnostic </ul> <li> **LocationSourceSlot** (_Integer_): The source of location information has three attributes - <ul> <li> Common <li> Custom GPS entity <li> Mobile audit </ul> |
 | Travel| Entity | This entity contains details of travel time and distance information for a time slot. The following are the attributes: <ol> <li> **Distance** (_Double_): The travel distance <li> **TravelTime** (_Double_):	The travel time in minutes. <li> **DistanceFromStartLocation** (_Double_): The distance from the resource’s start location. <li> **DistanceFromEndLocation**	(_Double_):	The distance from the resource’s end location. <li> **DistanceMethodSourceSlot**	(_Integer_): The source / calculation type of the distance values <ul> <li> Map Service <li> As the crow flies </ul> |
