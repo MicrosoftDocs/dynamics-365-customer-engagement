@@ -1,6 +1,6 @@
 ---
 title: "Add form navigation to related entity in Dynamics 365 Customer Engagement (on-premises)"
-description: "In the form Navigation Pane, add links to related entities. When a user clicks one of these in a record, the associated view for the entity is displayed."
+description: "In the form navigation pane, add links to related entities. When a user clicks one of these in a record, the associated view for the entity is displayed."
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -23,7 +23,7 @@ search.audienceType:
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add model-driven app form navigation for related entities](/powerapps/maker/model-driven-apps/add-edit-form-navigation-related-entities)
 
-In the form Navigation Pane, you can add links to related entities. When a user clicks one of these links in a record, the associated view for the entity is displayed.  
+In the form navigation pane, you can add links to related entities. When a user clicks one of these links in a record, the associated view for the entity is displayed.  
   
   
 1.  Open solution explorer.  
