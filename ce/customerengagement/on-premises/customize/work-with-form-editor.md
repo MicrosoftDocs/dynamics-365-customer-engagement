@@ -1,6 +1,6 @@
 ---
-title: "Work with the form editor in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to use the form editor
+title: "How to use form editor in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to use the form editor in Customer Engagement (on-premises), allowing for the customization of main, quick create, quick view, and card forms."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 

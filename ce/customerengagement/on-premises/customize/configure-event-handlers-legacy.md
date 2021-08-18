@@ -1,6 +1,6 @@
 ---
-title: Configure event handlers for Main forms in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand how to configure event handlers in Dynamics 365 Customer Engagement (on-premises)
+title: "Set up event handlers for a form in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to configure an event handler for a form. After you configure an event handler, always test it to verify that it's working correctly."
 Keywords: Main form; Configure event handlers; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -15,7 +15,7 @@ search.audienceType:
   - customizer
 
 ---
-# Configure event handlers
+# Configure event handlers for a form
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure model-driven app form event handlers](/powerapps/maker/model-driven-apps/configure-event-handlers-legacy)
 
