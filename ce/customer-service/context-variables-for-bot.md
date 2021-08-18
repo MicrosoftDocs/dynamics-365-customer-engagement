@@ -1,7 +1,7 @@
 ---
 title: "Context variables for a bot | MicrosoftDocs"
-description: "Context variables to use when configuring a bot in Omnichannel for Customer Service."
-ms.date: 03/24/2021
+description: "Get information on the context variables to use when configuring a bot in Omnichannel for Customer Service."
+ms.date: 08/20/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,37 +14,36 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic lists the context variables that you can configure for a bot in Power Virtual Agents or Azure to use in Omnichannel for Customer Service.
+This topic lists the context variables that you can configure for a Power Virtual Agent or Azure bot for use in Omnichannel for Customer Service.
+
+## Considerations
+
+Before you configure context variables for a Power Virtual Agent or Azure bot, check for the following conditions:
+
+ - The context variable names are used as is and not changed when you author flows in Power Virtual Agents or Azure bots.
+ - The length of the context variable names is 200 characters or less.
+ - Use exact match to pass the value to the context variable because it is case sensitive. Also, the value must be 4,000 characters or less so that the conversation can be successfully escalated to agents.
 
 ## Context variables
 
 The following table contains the list of variables in Omnichannel for Customer Service that can help you configure some of the context variables for a bot in [Power Virtual Agents](configure-bot-virtual-agent.md) or [Azure](configure-bot.md).
 
-> [!IMPORTANT]
-> Make sure of the following:
->
-> - The context variable names are used as is and not changed when you author flows in Power Virtual Agents or Azure bots.
-> - The length of the context variable names must be 200 characters or less.
-> - Use exact match to pass the value to the context variable because it is case sensitive. Also, the value must be 4,000 characters or less so that the conversation can be successfully escalated to agents.
-
 | Context variable type | Context variable name | Description | How to map in Power Virtual Agents | How to map in Azure |
 |-----|-----|-------|-------|-----|
 | [Pre-conversation survey](configure-pre-chat-survey.md) | Use the question type that you create in Omnichannel for Customer Service. | The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. | Use the following information to map the question type variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents:<br><ul><li> **Single line:** User’s entire response</li>**Multiple lines:** User's entire response<li>**Option set:** User's entire response</li><li>**User Consent:** Boolean</li></ul> |Use the following information to map the question type variable in Omnichannel for Customer Service with the variable type in Azure:<br><ul><li> **Single line:** String</li>**Multiple lines:** String<li>**Option set:** String</li><li>**User Consent:** Boolean</li></ul>|
-| [Custom Context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setcontext API. | These are custom context variables that can be created and passed through the Livechat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li> **String**: User's entire response </li> **Boolean**:Boolean <li> **Number**, **Floating Number**: Number |Map the user's response as a JSON to use custom context variable in Omnichannel for Customer Service. The JSON has two different variables, namely *IsDisplay* and *Value*. The input value for *IsDisplay* can be a **Boolean = true or false** and the input value for *Value* can be a **Boolean**, **String** or **Number**.|
-| Conversation | msdyn_liveworkitemid | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Common Data Service. | **String:** User's entire response. |**String:** String|
+| [Custom context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setContextProvider API. | These are custom context variables that can be created and passed through the live chat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li> **String**: User's entire response </li> **Boolean**:Boolean <li> **Number**, **Floating Number**: Number |Map the user's response as a JSON to use custom context variable in Omnichannel for Customer Service. The JSON has two different variables, namely *IsDisplay* and *Value*. The input value for *IsDisplay* can be a **Boolean = true or false** and the input value for *Value* can be **Boolean**, **String**, or **Number**.|
+| Conversation | msdyn_liveworkitemid | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft. | **String:** User's entire response. |**String:** String|
 |[Contact](record-identification-rule.md) |msdyn_contact_msdyn_ocliveworkitem_Customer| Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation. | [Parse the JSON to extract the record ID](#parse-json-to-extract-record-id). |Parse the JSON to extract the record ID.|
 | Account | msdyn_account_msdyn_ocliveworkitem_Customer |Use this context variable that contains the record ID for the account record linked to the conversation.|Parse the JSON to extract the record ID.|Parse the JSON to extract the record ID.|
 | Case | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation. |Parse the JSON to extract the record ID.| Parse the JSON to extract the record ID.|
 |||||
 
-
 ### Parse JSON for context variable
 
 Use the schema mentioned in this section to parse the JSON to use custom context variables.
 
-```
+```JavaScript
 Schema
-
 {
             "type": "object",
              "properties": {
@@ -62,12 +61,10 @@ Schema
 
 ```
 
-An example for the IsDisplay variable is as follows:
+An example for the `isDisplayable` variable is as follows:
+`{\"isDisplayable\":\"true\"," +"\"Value\":\"context variable value as string\"}`
 
-"{\"isDisplayable\":\"true\"," +"\"Value\":\"context variable value as string\"}"
-
-The "Value" mentioned in the example can be a string, number or a boolean.
-
+The "Value" mentioned in the example can be String, Number, or Boolean.
 
 ### Parse JSON to extract record ID
 
@@ -76,9 +73,11 @@ Perform the steps outlined in this section to parse the JSON to extract the reco
 Make sure that you have the following details:
 
 - The Omnichannel context variable, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
-- The schema details. A copy of the sample schema details is as follows.
+- The schema details.
 
-```
+A copy of the sample schema details is as follows:
+
+```JavaScript
         Schema: 
         {
             "type": "array",
@@ -100,7 +99,7 @@ Make sure that you have the following details:
         }
 ```
 
-"PrimaryDisplayValue" will contain the value from the attribute in the Dataverse entities. The mapping for the entity attributes is as follows:
+`PrimaryDisplayValue` will contain the value from the attribute in the Dataverse entities. The mapping for the entity attributes is as follows:
 
 - **Cases:** Case title
 - **Contacts:** Full name
@@ -129,6 +128,6 @@ The following steps explain how to configure a Power Automate flow to parse the 
 
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot.md)  
-
+[Live chat SDK JavaScript API Reference](developer/omnichannel-reference)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
