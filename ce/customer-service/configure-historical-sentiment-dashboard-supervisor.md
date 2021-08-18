@@ -257,7 +257,7 @@ Before customizing the template app, read the following information and perform 
     
 7. Select **Done**.
 
-8. Select **Close & Apply** in the Yellow warning ribbon that appears under the PowerBi Desktop Ribbon.
+8. Select **Close & Apply** in the Yellow warning ribbon that appears under the Power BI Desktop Ribbon.
 
     Queries are updated. This might take several minutes.
 
@@ -265,7 +265,7 @@ Before customizing the template app, read the following information and perform 
 
 10. Select **Sign in**.
 
-11. If needed, you can also access this from PowerBi desktop by going to **File > Options and Settings > Data Source Settings.**
+11. If needed, you can also access this from Power BI desktop by going to **File > Options and Settings > Data Source Settings.**
 
     a. Select **Edit Permissions > Edit**
     b.	Select **Organizational account.**
