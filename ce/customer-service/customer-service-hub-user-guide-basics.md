@@ -309,9 +309,9 @@ You can insert a knowledge article in an email in Dynamics 365 Customer Engageme
 
  >[!NOTE]
 > 
->To insert a knowledge article into a field with real text editor control, you must first configure the custom real text editor for the field. For more information on this configuration, see  [Customize the email experience](customer-service-hub-user-guide-email-font-admin.md).
+>To insert a knowledge article into a field with rich text editor control, you must first configure the custom rich text editor for the field. For more information on this configuration, see  [Customize the email experience](customer-service-hub-user-guide-email-font-admin.md).
 >
-> If you add more than one field with real text editor, clicking **Knowledge Base Search** will  insert the knowledge article into the first field in the form by default.
+> If you add more than one field with rich text editor, clicking **Knowledge Base Search** will  insert the knowledge article into the first field in the form by default.
 
    
    -OR-
