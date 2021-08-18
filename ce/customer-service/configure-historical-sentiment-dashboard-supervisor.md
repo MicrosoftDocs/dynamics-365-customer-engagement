@@ -246,9 +246,9 @@ Before customizing the template app, read the following information and perform 
 
 3. On the Power BI Desktop ribbon, select **Home > Transform Data**.
 
-4. In the left dropwdown menu under Transformation Data select **Edit Paramaters**.
+4. In the left dropwdown menu under Transformation Data, select **Edit Paramaters**.
 
-5. In the source definition, replace **https://kucustomerservice.crm.dynamics.com/api/data/v9.1 ** with your apps instance URL.
+5. In the source definition, replace **https://kucustomerservice.crm.dynamics.com/api/data/v9.1** with your apps instance URL.
 
     Example: if the organization name is Contoso, the URL looks like this:
     Source = https://contoso.crm.dynamics.com/api/data/v9.1/
@@ -257,7 +257,7 @@ Before customizing the template app, read the following information and perform 
     
 7. Select **Done**.
 
-8. Select **Close & Apply** in the Yellow warning ribbon that appears under the Power BI Desktop Ribbon.
+8. Select **Close & Apply** in the yellow warning ribbon that appears under the Power BI Desktop Ribbon.
 
     Queries are updated. This might take several minutes.
 
