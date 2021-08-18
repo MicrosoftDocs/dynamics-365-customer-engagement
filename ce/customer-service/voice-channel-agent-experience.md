@@ -1,5 +1,5 @@
 ---
-title: "Use the voice channel in the agent dashboard | MicrosoftDocs"
+title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand agent experience in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Use the voice channel in the agent dashboard 
+# Preview: Use agent dashboard and call controls in the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
