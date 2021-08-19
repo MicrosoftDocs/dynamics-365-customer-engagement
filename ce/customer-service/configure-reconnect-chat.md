@@ -1,6 +1,6 @@
 ---
 title: "Configure reconnection to a chat session | MicrosoftDocs"
-description: "Administrator steps for configuring reconnect chat in Omnichannel for Customer Service."
+description: "Learn about configuring reconnections to previous chat sessions in Omnichannel for Customer Service."
 ms.date: 10/12/2020
 ms.topic: article
 author: neeranelli
@@ -12,7 +12,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Overview
 
 When customers are disconnected in the middle of a conversation&mdash;for reasons that can range from restarting their system while troubleshooting to network disruption&mdash;they can reconnect to the same agent, if you've enabled the settings for reconnection. The options to reconnect to the same agent helps save time and effort, and improves customer satisfaction.
 
