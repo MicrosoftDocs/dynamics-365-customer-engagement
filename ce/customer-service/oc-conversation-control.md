@@ -97,7 +97,7 @@ If the reconnection link is configured by your administrator, you can share the 
 
 ## Consult with agent or supervisor
 
-The communication panel allows you to consult with other agents and or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents. The consultee agent should be a part of the same queue as yours for you to consult. If your administrator has enabled the consult pane setting, a separate pane will open beside the communication panel when you start the consultation.
+The communication panel allows you to consult with other agents or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents. The consulted agent should be a part of the same queue as yours for you to consult. If your administrator has enabled the consult pane setting, a separate pane will open beside the communication panel when you start the consultation.
 
  > [!div class=mx-imgBorder]
  > ![Use the consult option to launch the consulting list.](media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")
