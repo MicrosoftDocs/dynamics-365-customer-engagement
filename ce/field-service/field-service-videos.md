@@ -24,7 +24,7 @@ search.app:
 Check out the Dynamics 365 Field Service [YouTube channel](https://aka.ms/fs-videos) for introductory videos, how-to videos, release webinars, and more!
 
 
-Here are some of our most popular videos:
+Here are 3 examples of our most popular videos:
 
 1. [How to get started with Microsoft Dynamics 365 Field Service](https://youtu.be/oYl6yzYEJzQ)
 2. [Create and use Field Service Inspections](https://youtu.be/aDfwIP7rT-U)
