@@ -1,6 +1,6 @@
 ---
-title: "Understand views with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn about the different types of views"
+title: "Types of views in Dynamics 365 Customer Engagement (on-premises)"
+description: "Views help you define how a list of records is displayed in the app. This page provides an overview of the types of views and how to create and customize them."
 keywords: 
 ms.date: 11/09/2018
 ms.prod: d365ce-op
@@ -22,7 +22,7 @@ search.audienceType:
 
 ---
 
-# Understand views (lists) 
+# Overview of types of views and how to create them
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Understand model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views) 
 

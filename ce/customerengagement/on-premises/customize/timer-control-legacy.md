@@ -1,6 +1,6 @@
 ---
-title: "Timer control with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Understand how you can use the timer control"
+title: "Add timer control to a form in Dynamics 365 Customer Engagement (on-premises)"
+description: "Add a timer control to forms where records need to meet time-based milestones. Set up properties such as name, label, and conditions for failure and success."
 ms.custom: 
 ms.date: 01/09/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Timer control overview
+# Create and add a timer control to a form
 
 Use a timer control with forms where records need to meet a specific time-based milestone. A timer control shows people how much time is available to complete an action in the resolution of an active record or how much time has passed since the time to complete the action has passed. At a minimum, timer controls must be configured to show success or failure in completing the action. In addition, they can be configured to display warnings when the conditions are approaching failure.  
   

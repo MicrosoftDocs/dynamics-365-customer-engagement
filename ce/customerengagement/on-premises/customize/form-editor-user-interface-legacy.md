@@ -1,6 +1,6 @@
 ---
-title: Overview of the form editor user interface in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Know the form editor user interface to edit forms in Power Apps
+title: "Form editor user interface in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn the UI of the form editor in Customer Engagement (on-premises). The page breaks down the navigation, body, and explorer areas, as well as the three tabs."
 keywords: Forms; Main form;  Unified interface apps; Dynamics 365 Customer Engagement (on-premises)
 ms.date: 12/04/2018
 author: Mattp123
