@@ -1,7 +1,7 @@
 ---
 title: Learn the basics of the Dynamics 365 Sales mobile app
 description: Learn the basic functions of the Dynamics 365 Sales mobile app.
-ms.date: 06/22/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -102,7 +102,10 @@ To navigate to other areas of the app, tap the **More** icon to view the site ma
 
 The **Recent** option, listed at the top of the site map, displays the records that you have accessed recently through the Sales mobile app. Tap the **Pinned** option to display any pinned records.
 
-Select the bidirectional arrows in the upper-right corner to switch to other menus such as App settings and Sales Insights settings.  
+Select the bidirectional arrows in the upper-right corner to switch to other menus such as App settings and Sales Insights settings.
+
+> [!NOTE]
+> If you've added icons for a custom table, they are not displayed on the sitemap when the app is viewed on an Android device. Instead, the default icons are displayed. Icons for custom tables are not supported on Android.
 
 ## Mobile app settings
 

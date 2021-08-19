@@ -30,23 +30,23 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |<strong>Station 1</strong> | | |  | |
 | | <i>First Release</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) | TBD | N/A
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD | TBD
-| | <i>Canada</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |TBD  | TBD
-| | <i>India</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  | TBD
-| | <i>France</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  | TBD
-| | <i>United Arab Emirates</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  | TBD
-| | <i>South Africa</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  |TBD
-| | <i>Germany</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |TBD  | TBD
-| | <i>Switzerland</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |TBD  | TBD
+| | <i>South America</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD | 09/03/2021
+| | <i>Canada</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |TBD  | 09/03/2021
+| | <i>India</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  | 09/03/2021
+| | <i>France</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  | 09/03/2021
+| | <i>United Arab Emirates</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  | 09/03/2021
+| | <i>South Africa</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  | 09/03/2021
+| | <i>Germany</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |TBD  | 09/03/2021
+| | <i>Switzerland</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  |TBD  | 09/03/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)| TBD   | TBD
-| | <i>Asia Pacific</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD | TBD
-| | <i>Great Britain</i> |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  | TBD
-| | <i>Oceania</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD   | TBD
+| | <i>Japan</i> |  [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)| TBD   | 09/10/2021
+| | <i>Asia Pacific</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD | 09/10/2021
+| | <i>Great Britain</i> |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  | 09/10/2021
+| | <i>Oceania</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD   | 09/10/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  | 07/23/2021
+| | <i>Europe</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) | TBD  | 09/17/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  | 07/30/2021
+| | <i>North America</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) | TBD  | 09/24/2021
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  |N/A
 | | <i>China</i> |  [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)|TBD |N/A
@@ -63,7 +63,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 3.3.2.4
 
-- Bug fix: Adressed issue where the predicative travel info icon was not able to be selected and hovering caused formatting issues. 
+- Bug fix: Addressed issue where the predicative travel info icon was not able to be selected and hovering caused formatting issues. 
 - Bug fix: Addressed issue where single resource optimization requests with no schedulable requirements are canceled with message: "This request was canceled as none of the selected resource requirements or bookings were valid."
 
 
@@ -87,7 +87,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 -	Bug fix: reset would cause error: “Value cannot be null.” When a reset does happen, the confusing error is no longer provided. Instead, it errors by either defaulting the effort level or raising a ```RSODataNotFound``` exception.  
 -	Bug fix: reset all in resource scheduling optimization **Schedules** tab was not properly deleting data within database.  
--	Bug fix: Addressed erroring issue "System.OutOfMemoryException: Array dimensions exceeded supported range.” This scenario would occur when a trying to optimize a large number of resource requirements (~50k). 
+-	Bug fix: Addressed error issue "System.OutOfMemoryException: Array dimensions exceeded supported range.” This scenario would occur when a trying to optimize a large number of resource requirements (~50k). 
 -	Fixed “Keyset does not exist” errors. This error was a transient issue that would fail the authentication from Azure to CRM.
 -	Bug fix: within ineligibility graph in which an entire resource was incorrectly removed if other shifts associated with the resource were still eligible to be scheduled. 
 -	Bug fix: optimization would run for more than one day without completing. This scenario would occur when 5000 resource requirements and 500 resources were scheduled to be optimized over 21 days. 

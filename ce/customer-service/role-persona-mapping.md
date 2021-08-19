@@ -3,12 +3,14 @@ title: "Role persona mapping | MicrosoftDocs"
 description: "Information about how security roles can be mapped to personas."
 ms.date: 06/03/2021
 ms.topic: article
-author: meghanalanka
-ms.author: v-mlanka
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 
 # Add custom security roles in Customer Service
+
+## Introduction
 
 As part of unified routing you can enable the persona mapping settings. Persona mapping gives your organization the option to add custom security roles alongside existing Customer Service and Omnichannel for Customer Service roles. The admin, supervisor, and agent personas are user archetypes that security roles can map to. By mapping custom security roles to personas, you can fine-tune data access and security across users and business units.
 

@@ -1,5 +1,6 @@
 ---
-title: "Add a field to a form in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Add field to a form in Dynamics 365 Customer Engagement (on-premises)"
+description: "If a form in Customer Engagement (on-premises) doesn’t meet your business requirements, customize the form by changing existing fields or adding new ones."
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -18,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Add a field to a form 
+# Add a field to a form or edit an existing field
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add a field to a model-driven app form](/powerapps/maker/model-driven-apps/add-field-form)
 

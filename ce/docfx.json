@@ -144,6 +144,12 @@
         "customer-service/channel-integration-framework/**/*.md": "channel-integration-framework",
         "unified-service-desk/**/*.md": "unified-service-desk"
       },
+	  "ms.topic": {
+        "legal/**/*.md": "article"
+      },
+	  "ms.prod": {
+        "**/*.md": "dynamics-365"
+      },
       "learn_banner_products": {
         "**/*.md": [
           "dynamics-customer-engagement"
@@ -173,6 +179,10 @@
       "breadcrumb_path": {
         "**.*": "cebc/toc.yml",
         "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml"
+      },
+      "extendBreadcrumb": {
+        "**.*": true,
+        "unified-service-desk/**.*": true
       },
       "searchScope": {
         "**.*": [

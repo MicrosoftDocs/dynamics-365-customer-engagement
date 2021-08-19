@@ -1,6 +1,6 @@
 ---
-title: "Checklist: Unified Interface transition (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: "Checklist to ensure that you're prepared for transition to Unified Interface in Dynamics 365 Customer Engagement (on-premises)."
+title: "Unified Interface transition checklist for Dynamics 365 Sales and Service"
+description: "Use this checklist to ensure you're prepared for a transition from the legacy web client to Unified Interface for Dynamics 365 Sales and Service."
 ms.custom: ""
 ms.date: 05/21/2020
 ms.reviewer: "kvivek"
@@ -16,7 +16,7 @@ search.app:
   - D365CE
 ---
 
-# Checklist: Unified Interface transition
+# Checklist for Unified Interface transition
 
 Follow the steps in this article to ensure that you're prepared for transition to Unified Interface. Readiness for transitioning to Unified Interface will depend on whether you are aiming for basic compatibility or redesigning to take full advantage of new capabilities.
 
