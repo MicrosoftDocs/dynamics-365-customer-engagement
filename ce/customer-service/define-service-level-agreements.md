@@ -1,7 +1,7 @@
 ---
-title: "Define service-level agreements (Dynamics 365 Customer Service) | MicrosoftDocs"
+title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 08/10/2021
+ms.date: 08/19/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,6 +19,8 @@ ms.custom:
 
 # Define service-level agreements
 
+## Introduction
+
 Service-level agreements (SLAs) enable businesses to track support policies and ensure customers are being supported per the support policy to which they are entitled. Businesses use SLAs to govern support products that customers either receive as part of their purchase or add on to their purchase. SLAs include policy details such as how quickly a customer is entitled to receive support, how many support requests a customer can make, and how long after purchases a customer can be supported as part of the agreement.  
 
 Define the level of service or support that your organization agrees to offer to a customer by using service-level agreements (SLAs) in Dynamics 365 Customer Service. You can include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. KPIs help you get timely warnings about any issues your customer support team might be having.
@@ -26,9 +28,6 @@ Define the level of service or support that your organization agrees to offer to
 You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
 
 Alternatively, you can set up a default SLA for the organization.  
-
-> [!NOTE]
-> With the latest release of Customer Service, you can access and manage all service management tasks from the Customer Service Hub site map except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three settings, use **Service Management** under **Settings** in the Customer Service app.
 
 ## Configure SLAs in Customer Service Hub
 
@@ -486,7 +485,7 @@ We recommend that you perform the following steps to upgrade a solution:
 
 ## Limitations
 
-In Unified Interface apps, the "applicable when" and "success conditions" aren't supported if they are configured on related entities and will not work as expected.
+In Unified Interface apps, the "applicable when" and "success conditions" aren't supported and will not work as expected if they are configured on related entities.
 
 ### See also
 
