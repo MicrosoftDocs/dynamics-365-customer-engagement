@@ -1,6 +1,6 @@
 ---
-title: Form properties with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand the main form properties
+title: "Manage form properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to access and manage the properties of main forms, including display, events, parameters, and non-event dependencies."
 Keywords: Main form properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -17,7 +17,7 @@ search.audienceType:
 
 ---
 
-# Form properties
+# Access and manage the main form properties
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Model-driven app form properties](/powerapps/maker/model-driven-apps/form-properties-legacy)
 

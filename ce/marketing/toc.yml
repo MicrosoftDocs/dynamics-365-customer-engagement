@@ -14,6 +14,8 @@
       href: trial-faq.md
     - name: Purchase and set up Marketing
       href: purchase-setup.md
+    - name: Install real-time marketing
+      href: real-time-marketing-install.md
     - name: Integrate Marketing with a CMS system or Power Apps portals
       href: portal-optional.md
     - name: Open the Power Platform admin center
@@ -232,8 +234,6 @@
         items: 
         - name: Real-time marketing overview
           href: real-time-marketing-overview.md
-        - name: Install real-time marketing
-          href: real-time-marketing-install.md
         - name: Use Customer Insights profiles and segments in real-time marketing
           href: real-time-marketing-ci-profile.md
         - name: Known issues in real-time marketing
