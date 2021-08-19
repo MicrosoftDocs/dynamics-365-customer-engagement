@@ -9,7 +9,7 @@ manager: annbe
 ms.custom: 
   - dyn365-sales
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
   - D365-Entity-account
   - D365-Entity-contact
   - D365-Entity-lead

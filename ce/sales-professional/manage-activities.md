@@ -7,7 +7,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
   - D365-Entity-activitypointer
   - D365-UI-*
   - Dynamics 365
