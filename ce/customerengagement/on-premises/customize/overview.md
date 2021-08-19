@@ -1,6 +1,6 @@
 ---
-title: "App making and customization overview for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn about app making and customization with Dynamics 365 for Customer Engagement"
+title: "Customization of Dynamics 365 Customer Engagement (on-premises)"
+description: "In this overview, learn about the tools that allow you to customize Customer Engagement (on-premises) or create your own custom apps without writing any code."
 ms.custom: 
 ms.date: 05/20/2019
 ms.reviewer: 
