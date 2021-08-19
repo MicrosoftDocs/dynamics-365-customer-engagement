@@ -1,7 +1,7 @@
 ---
 title: "Customize the Field Service (Dynamics 365) mobile app sitemap, forms, and views | MicrosoftDocs"
 description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
-ms.date: 08/12/2021
+ms.date: 08/19/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-field-service
@@ -115,6 +115,11 @@ By default, the booking calendar control shows the following details associated 
 - **Start Time and Duration**
 
 You can customize this control to include up to three more fields with optional labels, in addition to changing the incident type, which is referred to as "Primary Custom Field." The new fields can be modified to show data from any column in a view of the **Bookable Resource Booking**.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWJJdl]
+
 
 To customize the control, edit your view assosiated with the mobile application with data you want to expose on the booking calendar control.
 
