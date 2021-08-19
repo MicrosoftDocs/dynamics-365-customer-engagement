@@ -51,8 +51,7 @@ When set to **Details Pane**, the map will be placed on the right-hand side. Thi
  
 ### Requirement map filter view
 
-This view defines the resource requirement records displayed on the map. The setting lists public views related to the resource requirement entity for selection. Resource requirements need to have a latitude and longitude to display it on the map. We strongly recommend making a copy of the default view and applying your changes to the copy.
-
+This view defines the resource requirement records displayed on the map. The setting lists public views related to the resource requirement entity for selection. Resource requirements need to have a latitude and longitude to display it on the map. And when a Requirement with a valid latitude and longitude is selected, the corresponding pin will be shown on the map, provided the requirement selected is included in the selected requirement view for this setting **Requirement map filter view**. We strongly recommend making a copy of the default view and applying your changes to the copy.
 
 ### Resource tooltips view
 
