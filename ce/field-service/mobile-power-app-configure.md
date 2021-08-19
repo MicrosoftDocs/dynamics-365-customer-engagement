@@ -118,7 +118,7 @@ You can customize this control to include up to three more fields with optional 
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWJJdl]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWJJdl]
 
 
 To customize the control, edit your view assosiated with the mobile application with data you want to expose on the booking calendar control.
