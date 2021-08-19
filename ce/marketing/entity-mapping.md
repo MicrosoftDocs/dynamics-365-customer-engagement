@@ -1,7 +1,7 @@
 ---
 title: "Map form data to entities with custom Workflows (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to map form data to entities with custom Workflows."
-ms.date: 09/22/2020
+ms.date: 08/18/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -23,6 +23,9 @@ search.app:
 If you have configured a marketing form to collect form submissions without updating contacts or leads, you can create a Workflow to map the form submission data to any entity.
 - Learn more about collecting form data without updating contacts or leads: [Create, view, and manage marketing forms](marketing-forms.md#do-not-createupdate-contacts-or-leads)
 - Learn more about building workflows: [Use Workflow processes to automate processes that don't require user interaction](../customerengagement/on-premises/customize/workflow-processes.md)
+
+> [!NOTE]
+> You can build more advanced data flows triggered by form submissions using Power Automate. Learn more: [Overview of how to integrate Power Automate flows with Dataverse](/power-automate/dataverse/overview).
 
 ## Creating a Workflow
 

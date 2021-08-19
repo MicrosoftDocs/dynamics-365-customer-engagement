@@ -1,6 +1,6 @@
 ---
-title: "Change navigation within a form with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to change the navigation within a form"
+title: "Edit navigation in a form with Dynamics 365 Customer Engagement (on-premises)"
+description: "Navigation within a form allows users to view lists of related records. In the form editor, you can override relationships or include navigation links."
 ms.custom: 
 ms.date: 01/11/2019
 ms.reviewer: 
