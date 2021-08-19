@@ -14,6 +14,8 @@
       href: trial-faq.md
     - name: Purchase and set up Marketing
       href: purchase-setup.md
+    - name: Install real-time marketing
+      href: real-time-marketing-install.md
     - name: Integrate Marketing with a CMS system or Power Apps portals
       href: portal-optional.md
     - name: Open the Power Platform admin center
@@ -122,6 +124,8 @@
         href: email-warm-up.md
       - name: Email policies and suspension standards
         href: email-policies.md
+      - name: Email sending data access and privileges
+        href: email-sending-data.md
       - name: Improve deliverability to China
         href: improve-deliverability-to-china.md
       - name: Deliverability recommendations when changing ESPs
@@ -222,7 +226,7 @@
         href: custom-template-attributes.md
       - name: Design elements reference
         href: content-blocks-reference.md
-    - name: "Preview: Real-time customer journey orchestration"
+    - name: "Real-time customer journey orchestration"
       items: 
       - name: Real-time marketing user guide
         href: real-time-marketing-user-guide.yml
@@ -230,19 +234,17 @@
         items: 
         - name: Real-time marketing overview
           href: real-time-marketing-overview.md
-        - name: Install the real-time marketing preview
-          href: real-time-marketing-install.md
         - name: Use Customer Insights profiles and segments in real-time marketing
           href: real-time-marketing-ci-profile.md
         - name: Known issues in real-time marketing
           href: real-time-marketing-known-issues.md
       - name: Channels
         items: 
-        - name: Create real-time marketing emails
+        - name: Real-time marketing emails
           href: real-time-marketing-email.md
-        - name: Create push notifications
+        - name: Push notifications
           href: real-time-marketing-push-notifications.md
-        - name: Create outbound text messages
+        - name: Outbound text messages
           href: real-time-marketing-outbound-text-messaging.md
         - name: Use AI-driven run-time channel optimization
           href: real-time-marketing-channel-optimization.md
@@ -286,6 +288,8 @@
         items: 
         - name: Push notification setup for application developers
           href: real-time-marketing-developer-push.md
+      - name: Real-time marketing troubleshoot + FAQ
+        href: real-time-marketing-faq.md
     - name: Email campaigns
       items: 
       - name: Email marketing overview

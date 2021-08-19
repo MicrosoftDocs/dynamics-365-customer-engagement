@@ -1,6 +1,6 @@
 ---
-title: "Create and edit public or system views using the app designer with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn now to create or edit views by using the app designer"
+title: "Create views with the app designer in Dynamics 365 Customer Engagement (on-premises)"
+description: "Create and edit views using the app designer. This page walks you through the process of adding columns, defining filters, setting sort orders, and more."
 keywords: 
 ms.date: 11/09/2018
 ms.prod: d365ce-op
@@ -22,7 +22,7 @@ search.audienceType:
 
 ---
 
-# Create and edit public or system views by using the app designer
+# Create or edit a public or system view using the app designer
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Work with views in app designer](/powerapps/maker/model-driven-apps/create-edit-views-app-designer#work-with-views-in-app-designer)
 
@@ -173,7 +173,7 @@ When you edit a public or system  view, you must save and publish your changes b
 ## Community tools
 **View Lyout Replicator** and **View Designer** are tools that XrmToolbox community developed for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Developer tools](https://review.docs.microsoft.com/dynamics365/customer-engagement/developer/developer-tools).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Developer tools](/dynamics365/customer-engagement/developer/developer-tools).
 
 > [!NOTE]
 > These tools are provided by XrmToolBox and are not supported by Microsoft. If you have questions pertaining to the tool, please contact the publisher. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [XrmToolBox](https://www.xrmtoolbox.com/). 

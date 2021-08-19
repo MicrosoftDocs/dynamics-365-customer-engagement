@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 01/11/2021
+ms.date: 08/09/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,9 +12,9 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You cannot view the communication panel unless you accept an incoming conversation to communicate with the customer.
+The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You can view the communication panel only when you accept an incoming conversation to communicate with the customer.
 
-From a conversation channel, you can do the following tasks:
+You can do the following tasks in the communication panel:
 
 - Send quick replies.
 - Search for and share knowledge articles with the customer with whom you are interacting.
@@ -29,7 +29,7 @@ From a conversation channel, you can do the following tasks:
 
 The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
 
-In the communication panel, you can see the following options.
+The following table lists the options and the keyboard shortcuts that you can use.
  
 | Annotation | Option     | Description                                   | command |
 |------|------------------|-----------------------------------------------|----------|
@@ -44,6 +44,9 @@ In the communication panel, you can see the following options.
 |  9   | Customer sentiment | View real-time customer satisfaction levels |  |
 
 ## Send messages using the Public and Internal modes
+
+> [!IMPORTANT]
+> The public and internal modes are not available if the consult pane setting is enabled. More information: [Preview: Consult pane setting](enable-consult.md)
 
 The communication panel allows you to send messages in two modes: **Internal** and **Public**.
 
@@ -78,7 +81,6 @@ The quick replies can be created either by the administrator or by you. You can 
     > ![Use personal quick reply.](media/use-personal-quick-replies.png "Use personal quick reply")
 
 
-
 ### Search for messages
 
 After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you. You can also use the number (#) sign to search for the predefined messages.
@@ -95,15 +97,15 @@ If the reconnection link is configured by your administrator, you can share the 
 
 ## Consult with agent or supervisor
 
-The communication panel allows you to consult with other agents and/or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
+The communication panel allows you to consult with other agents and or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents. The consultee agent should be a part of the same queue as yours for you to consult. If your administrator has enabled the consult pane setting, a separate pane will open beside the communication panel when you start the consultation.
 
  > [!div class=mx-imgBorder]
  > ![Use the consult option to launch the consulting list.](media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")
 
-You can use a keyboard command to see the list of agents and/or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
+You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
 > [!Note]
-> We recommend inviting a maximum of five consulting agents when conversing with the customer.
+> We recommend that you invite no more than five consulting agents when conversing with the customer.
 
 ### Search for consulting participants
 

@@ -1,5 +1,6 @@
 ---
-title: "Create and design forms (Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Create and edit forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "Dynamics 365 forms provide the interface people use to interact with the data they need. Learn about the types of forms available and their specific needs."
 ms.custom: 
 ms.date: 03/07/2019
 ms.reviewer: 
@@ -20,7 +21,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create and design forms 
+# Create, design, and edit forms 
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create and design model-driven app forms](/powerapps/maker/model-driven-apps/create-design-forms)
 
@@ -40,7 +41,7 @@ There are several types of forms:
 |     **Main**     |                                      Used in these Dynamics 365 Customer Engagement (on-premises): the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> These forms provide the main user interface for interacting with entity data.                                      | [Design considerations for main forms](../customize/design-considerations-main-forms.md) |
 | **Quick Create** |                               Used in Dynamics 365 Customer Engagement (on-premises), the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms provide a basic form optimized for creating new records.                                |    [Create and edit quick create forms](../customize/create-edit-quick-create-forms.md)    |
 |  **Quick View**  | Used in Dynamics 365 Customer Engagement (on-premises), the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms appear within the main form to display additional data for a record that is referenced by a lookup field in the form. |     [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)     |
-|**Card** | Used in views for unified interface apps. Card forms are designed to present information in a compact format that is suitable for mobile devices. | [Create a card form](/powerapps/maker/model-driven-apps/create-card-forms) |
+|**Card** | Used in views for Unified Interface apps. Card forms are designed to present information in a compact format that is suitable for mobile devices. | [Create a card form](/powerapps/maker/model-driven-apps/create-card-forms) |
 
 While each form type has specific needs, when working with forms you use the Form Editor. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with the form editor](work-with-form-editor.md)
 
@@ -50,15 +51,102 @@ Dynamics 365 Customer Engagement (on-premises) provides many options for designi
 
 There are still a number of entities, referred to here as classic entities, that retain the appearance and capabilities from earlier versions. These entities are used less often. They are listed here:  
 
-||||||  
-|-|-|-|-|-|  
-|Address|Article|Article Comment|Bulk Delete Operation|Connection|  
-|Discount|Discount List|Document Location|Email Attachment|Follow|  
-|Goal|Goal Metric|Import Source File|Invoice Product|Order Product|  
-|Price List|Queue Item|Quote Product|Rollup Field|Rollup Query|  
-|Saved View|Service|Service Activity|SharePoint Site|Site|  
-|Territory|Unit|Unit Group|||  
-
+:::row:::
+   :::column span="":::
+      Address
+   :::column-end:::
+   :::column span="":::
+      Article
+   :::column-end:::
+   :::column span="":::
+      Article Comment
+   :::column-end:::
+   :::column span="":::
+      Bulk Delete Operation
+   :::column-end:::
+   :::column span="":::
+      Connection
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Discount
+   :::column-end:::
+   :::column span="":::
+      Discount List
+   :::column-end:::
+   :::column span="":::
+      Document Location
+   :::column-end:::
+   :::column span="":::
+      Email Attachment
+   :::column-end:::
+   :::column span="":::
+      Follow
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Goal
+   :::column-end:::
+   :::column span="":::
+      Goal Metric
+   :::column-end:::
+   :::column span="":::
+      Import Source File
+   :::column-end:::
+   :::column span="":::
+      Invoice Product
+   :::column-end:::
+   :::column span="":::
+      Order Product
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Price List
+   :::column-end:::
+   :::column span="":::
+      Queue Item
+   :::column-end:::
+   :::column span="":::
+      Quote Product
+   :::column-end:::
+   :::column span="":::
+      Rollup Field
+   :::column-end:::
+   :::column span="":::
+      Rollup Query
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Saved View
+   :::column-end:::
+   :::column span="":::
+      Service
+   :::column-end:::
+   :::column span="":::
+      Service Activity
+   :::column-end:::
+   :::column span="":::
+      SharePoint Site
+   :::column-end:::
+   :::column span="":::
+      Site
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      Territory
+   :::column-end:::
+   :::column span="":::
+      Unit
+   :::column-end:::
+   :::column span="":::
+      Unit Group
+   :::column-end:::
+:::row-end:::
 
 ### See also  
 

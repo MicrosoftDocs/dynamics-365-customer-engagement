@@ -1,14 +1,14 @@
 ---
 title: "Customize deal manager - Sales Enterprise | MicrosoftDocs"
 description: "Customize the grid, side panel, and charts displayed in deal manager according to your sales team's requirement."
-ms.date: 07/15/2021
+ms.date: 08/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Customize the deal manager workspace (Preview)
+# Preview: Customize the deal manager workspace
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -17,7 +17,7 @@ manager: shujoshi
 As an administrator, you can customize the workspace to enhance your sales team's productivity. For example, depending on the information that your sales team wants to view or update quickly, you can customize the grid or side panel. You can customize the following objects in the deal manager:
 
 - [Charts](#customize-the-charts)
-- [Editable grid](#customize-the-editable-grid-in-deal-manager)
+- [Editable grid](#customize-the-editable-grid)
 - [Side panel](#customize-the-side-panel)
 
 ## Customize the charts
@@ -50,7 +50,7 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
 
 
 
-## Customize the editable grid in deal manager
+## Customize the editable grid
 
 The editable grid in the deal manager workspace lets sellers quickly view a list of opportunities that they're interested in. You can customize the editable grid to apply any business rules, or to include fields that sellers want to view by default and update.
 
@@ -59,6 +59,8 @@ Customize the editable grid by adding a JavaScript library. These customizations
 **To create and upload a JavaScript library**
 
 1. Write your custom JavaScript code. In the following example, we create JavaScript to disable all fields except a few for the Opportunity entity.   
+    > [!NOTE]
+    > Field-level customizations are also applicable for the same fields in the side panel. 
     ```JavaScript
     function OnRowLoad(executionContext) {
 
@@ -112,13 +114,13 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
 ## Customize the side panel
 
-The side panel helps sellers view quick details about a selected record. It offers more details about the record and displays notes, tasks, and activities associated with the record. 
+The side panel helps sellers edit and view quick details of a selected record. It also displays notes, tasks, and activities associated with the record. As an administrator, you can customize the side panel to meet the needs of your sellers. 
 
 The following table lists the supported and unsupported customizations for side panel.
 
 |Supported customizations  |Unsupported customizations  |
 |---------------------------------|---------|
-|Define (add or remove) fields in the header.<br> Define (add or remove) fields in the **Key Details** section.<br> Change a field label.<br>Set a field requirement (for example, read-only).<br>Enable or disable tabs.<br>Rearrange tabs.| Adding custom tabs or sections.<br>Adding a web resource.<br>Adding a subgrid.<br>Changing the format or layout for headers, tabs, sections, or fields.<br>Changing certain properties for headers, tabs, sections, or fields. For example, the **available on phone** property can't be changed.  |
+|Define (add or remove) fields in the header.<br> Define (add or remove) fields in the **Key Details** section.<br> Change a field label.<br>Set a field requirement (for example, read-only).<br>Enable or disable tabs.<br>Rearrange tabs.| Adding custom tabs or sections.<br>Adding sections other than Key Details, Contacts, Notes, Tasks, Collaboration, and Recent Opportunities.<br>Adding a web resource.<br>Adding a subgrid.<br>Changing the format or layout for headers, tabs, sections, or fields.<br>Changing certain properties for headers, tabs, sections, or fields. For example, the **available on phone** property can't be changed.|
 
 **To customize the side panel**
 
@@ -128,12 +130,16 @@ The following table lists the supported and unsupported customizations for side 
 1. Search for **Opportunity** to view all the opportunity-related entities.
 1. Select the **Opportunity** table, and then select **Forms**.
 1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel.
+     > [!NOTE]
+    > - By default, all the fields in the form are editable. If you want to set a field to read-only, select the field and enable the **Read-only** property.
+    > - If you've added field-level rules for the editable grid using a web resource, they also become applicable for the same fields in the side panel.  
+
     :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
+   
 
-
-
-
+  
 ### See also
 
-[Access the deal manager workspace (Preview)](access-deal-manager.md)  
-[Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)
+- [Access the deal manager workspace](access-deal-manager.md)  
+- [Using the deal manager workspace](deal-manager-seller-overview.md)  
+- [Issue: In Context Form may appear in the form selector](ts-oqoi.md#issue-in-context-form-may-appear-in-the-form-selector)

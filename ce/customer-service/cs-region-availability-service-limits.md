@@ -3,8 +3,8 @@ title: "Regional availability and service limits for Customer Service | Microsof
 description: "Learn about regional availability and service limits for Customer Service applications."
 ms.date: 04/09/2021
 ms.topic: article
-author: meghanalanka
-ms.author: v-mlanka
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
@@ -13,13 +13,13 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The following insights features are available in all supported geographical regions:
 - Customer Service historical analytics
-- Case Topic Clustering
+- Case topic clustering
 - Sentiment analysis
 
-Some of the insights features that are not supported in some of the regions are as follows:
-- **Smart Assist Suggestions**: India and Switzerland.
-- **Omnichannel historical analytics**: France, Switzerland, and United Arab Emirates.
-- **Conversation Topic clustering**: France, Switzerland, and United Arab Emirates. 
+The following insights features are not supported in the listed regions:
+- **Smart assist suggestions**: India and Switzerland
+- **Omnichannel historical analytics**: France, Switzerland, and United Arab Emirates
+- **Conversation topic clustering**: France, Switzerland, and United Arab Emirates
 
 ## Service limits in Dynamics 365 Customer Service Insights
 

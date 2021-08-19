@@ -1,5 +1,6 @@
 ---
 title: "Back up the Dynamics 365 Customer Engagement (on-premises) system | Microsoft Docs"
+description: Learn hos to back up your Dynamics 365 Customer Engagement (on-premises) databases
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op

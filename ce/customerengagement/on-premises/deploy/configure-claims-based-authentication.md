@@ -1,5 +1,6 @@
 ---
 title: "Configure claims-based authentication | Microsoft Docs"
+description: Learn how to configure claims-based authentication in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: d365ce-op
@@ -55,7 +56,7 @@ The claims-based security model extends traditional authentication models to inc
   
 4.  Select **Next**.  
   
-5.  On the **Specify the security token service** page, enter the **Federation metadata URL**, such as *https://adfs.contoso.com/federationmetadata2007-06/federationmetadata.xml*.  
+5.  On the **Specify the security token service** page, enter the **Federation metadata URL**, such as *https://adfs.contoso.com/federationmetadata/2007-06/federationmetadata.xml*.  
   
      This data is typically located on the website where the [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] is running. To verify the correct URL, open an internet browser by using the URL to view the federation metadata. Verify that no certificate-related warnings appear.  
   
