@@ -1,6 +1,6 @@
 ---
-title: "Types of fields and field data types with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Understand the different field and data types available for your app"
+title: "Types of fields and field data in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about the difference between simple, calculated, and rollup fields. Field data can include lines of text, currency, dates and times, images and more."
 keywords: 
 ms.date: 04/29/2019
 ms.prod: d365ce-op
@@ -21,7 +21,7 @@ topic-status: Drafting
 search.audienceType: 
   - customizer
 ---
-# Types of fields and field data types
+# Types of fields and field data
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Types of columns](/powerapps/maker/data-platform/types-of-fields)
 
