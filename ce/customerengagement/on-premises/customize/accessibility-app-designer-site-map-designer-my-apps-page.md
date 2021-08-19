@@ -1,6 +1,6 @@
 ---
-title: Understand accessibility app designer, site map designer, and My Apps page in Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs
-description: Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365 Customer Engagement (on-premises)
+title: "Accessibility in the app designer in Dynamics 365 for Customer Engagement (on-premises)"
+description: "Learn about the keyboard shortcuts, screen reader support, and other accessibility topics related to the app designer, site map designer, and My Apps page."
 keywords: App designer; site map designer; my apps; Dynamics 365 for Customer Engagement
 author: Mattp123
 ms.author: matp
@@ -16,7 +16,7 @@ search.audienceType:
 
 ---
 
-# Accessibility in Dynamics 365 Customer Engagement (on-premises) app designer, site map designer, and My Apps page
+# Accessibility in the app designer, site map designer, and My Apps page
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Accessibility in Power Apps app designer, site map designer, and My Apps page](/powerapps/maker/model-driven-apps/accessibility-app-designer-site-map-designer-my-apps-page)
 
