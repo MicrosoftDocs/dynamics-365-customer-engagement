@@ -205,11 +205,12 @@ Given a booking alert shows in the alerts pane, the HTML entered here dictates t
 
 For reference, the default HTML is as follows:
 
+```
     <b class="bold">Subject: </b>{msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert.subject}<br />
     <b class="bold">Due: </b>{msdyn_nexttimetoshow}<br />
     <b class="bold">Description: </b><br />
     {msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert.description}
-
+```
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the alert fields.](../../field-service/media/schedule-board-tab-settings-booking-alerts-template.png)
@@ -239,7 +240,7 @@ One scenario this enables is filtering resources without having to expose the fi
 
 Using the Schedule Board Client Extension framework, you can modify the CSS, add your own JavaScript files, and localize the schedule board. This means that you can change labels and wording on certain supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
 
-For more details on editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [this topic on schedule board extensibility](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).
+For more details on editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [this topic on schedule board extensibility](/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).
 
 ## Schedule types
 
@@ -287,7 +288,9 @@ HTML and CSS that controls the fields inside a booking time slot on the schedule
 
 Here is the default work order HTML:
 
-    <div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div>
+```
+<div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div>
+```
 
 This HTML results in the following:
 
