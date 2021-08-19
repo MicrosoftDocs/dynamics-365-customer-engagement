@@ -81,7 +81,7 @@ This view defines the fields displayed in a tooltip that appears when a schedule
 This view defines the fields displayed in the details pane when an organizational unit map pin is selected. The details pane is on the right-hand side of the schedule board and may have to be expanded. The setting lists public views related to the organizational unit entity for selection.
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Organizational Unit Details View.](../../field-service/media/organizational-unit-details-view.PNG)
+> ![Organizational unit details view.](../../field-service/media/organizational-unit-details-view.PNG)
  
 
 ## Custom web resource
@@ -93,14 +93,14 @@ Web resources represent files that can be used to extend the Microsoft Dynamics 
 - **Web Resource:** select a web resource from your Dynamics 365 organization.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Organizational Unit Details View.](../../field-service/media/schedule-board-tab-settings-web-resource.png)
+> ![Schedule board tab settings - web resource](../../field-service/media/schedule-board-tab-settings-web-resource.png)
 
 ## Schedule board colors
 
 The colors that represent a resource's utilization on the days, weeks, and months view of the schedule board are configurable here by entering HTML hex color codes. See an example of colors chosen and the effects in the following screenshot.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule board colors.](../../field-service/media/schedule-board-settings-schedule-board-colors.png)
+> ![Example of colors used on the schedule board.](../../field-service/media/schedule-board-settings-schedule-board-colors.png)
 
 To illustrate how these colors affect the schedule board, see the following example. In our example, we have a day view of the schedule board where each resource works 12 hours each day, and the range is 2 days. The colors are configured as follows:
 
@@ -151,7 +151,7 @@ The colors selected in the schedule assistant section represent how resource ava
 > ![Screenshot of schedule assistant section.](../../field-service/media/schedule-board-tab-settings-schedule-assistant.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant colors.](../../field-service/media/schedule-board-tab-settings-schedule-assistant-colors.png)
+> ![Schedule assistant, showing the colors.](../../field-service/media/schedule-board-tab-settings-schedule-assistant-colors.png)
 
 ### Available Icon, Partially Available Icon, Unavailable Icon
 
