@@ -121,7 +121,7 @@ For a guided walkthrough, check out the following video.
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWJJdl]
 
 
-To customize the control, edit your view assosiated with the mobile application with data you want to expose on the booking calendar control.
+To customize the control, edit your view associated with the mobile application with data you want to expose on the booking calendar control.
 
 To setup your view, go to **Field Service** > **Settings** > **Customization** > **Customize the System** > **Entities** and select **Bookable Resource Booking**.
 
