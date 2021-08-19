@@ -46,7 +46,7 @@ Presence status is updated in two ways:
   - Busy
   - Available
   
-   You may also see other additional presence statuses that your administrator configured for you.
+   You might also see other additional presence statuses that your administrator configured for you.
 
   > [!div class=mx-imgBorder]
   > ![Set your status.](media/oceh-presence.png "Set your status")
