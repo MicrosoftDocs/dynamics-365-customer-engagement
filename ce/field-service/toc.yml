@@ -414,22 +414,20 @@
     href: mixed-reality-guides-integration.md
   - name: SAP integration
     href: field-service-sap-integration.md
-- name: Additional resources
+- name: Version history (web + mobile)
   items: 
-  - name: Version history (web + mobile)
-    items: 
-    - name: Field Service
-      href: version-history.md
-    - name: Universal Resource Scheduling
-      href: field-service-version-history-resource-scheduling.md
-    - name: Resource Scheduling Optimization
-      href: field-service-version-history-resource-scheduling-optimization.md
-    - name: Field Service Mobile (Xamarin)
-      href: field-service-version-history-mobile.md
-  - name: AppSource add-ins for Field Service
-    href: appsource-addins.md
-  - name: Dynamics 365 US Government cloud (GCC) availability
-    href: field-service-dynamics365-government.md
+  - name: Field Service
+    href: version-history.md
+  - name: Universal Resource Scheduling
+    href: field-service-version-history-resource-scheduling.md
+  - name: Resource Scheduling Optimization
+    href: field-service-version-history-resource-scheduling-optimization.md
+  - name: Field Service Mobile (Xamarin)
+    href: field-service-version-history-mobile.md
+- name: AppSource add-ins for Field Service
+  href: appsource-addins.md
+- name: Dynamics 365 US Government cloud (GCC) availability
+  href: field-service-dynamics365-government.md
 - name: Troubleshoot with Solution Health Hub
   href: troubleshoot-field-service-solution-health.md
 - name: General FAQs
