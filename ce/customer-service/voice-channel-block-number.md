@@ -27,7 +27,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 ## Introduction
 
-In Omnichannel for Customer Service, you can block spam phone numbers that your agents receive as part of their incoming customer calls. This helps your agents engage with real customers​, instead of attending to unsolicited or irrelevant calls that don't correspond to your line of business. This capability for admins to control which calls can be received by your agents helps improve efficiency and productivity of agents​. It also helps to prevent long waits for actual customers in queues​. Your agents and supervisors can also flag incoming phone calls as spam, that you can later review and block as spam.
+In Omnichannel for Customer Service, you can block spam phone numbers that your agents receive as part of their incoming customer calls. This helps your agents engage with real customers​, instead of attending to unsolicited or irrelevant calls that don't correspond to your line of business. This capability for administrators to control which calls can be received by your agents helps improve efficiency and productivity of agents​. It also helps to prevent long waits for actual customers in queues​. Your agents and supervisors can also flag off incoming calls as spam, that you can later review and block as spam.
 
 ## Review phone numbers marked as spam
 
@@ -42,8 +42,8 @@ In Omnichannel for Customer Service, you can block spam phone numbers that your 
 3. On the **Blocked numbers (preview) page**, you can do the following:
     
     - **Pending review** tab - Shows the list of numbers that have been flagged as spam by your agents and supervisors. You can view the report for each phone number, and then block the specific number as spam. Select any number from the **Pending review** list, and then you can do the following:
-      - **Block** - Select to block the number.
-      - **Remove from list** - Select to remove the number from the **Pending review** numbers list.
+      - **Block** - Select to block the number; the agent will no longer receive any calls from the blocked number.
+      - **Remove from list** - Select to remove the number from the **Pending review** numbers list; the number is unmarked as spam.
       - **View report history** - Select to view the reports for the specific phone number in the **Pending review** list. You can review all spam notification reports by viewing the report history​. You can visit the conversation history page to review the conversation or recordings.​ You can also choose to either block the number or remove the number from pending review list.
     
     - **Blocked** tab - Shows the list of phone numbers that have been blocked as spam.
