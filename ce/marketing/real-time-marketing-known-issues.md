@@ -20,7 +20,7 @@ search.app:
 
 # Known issues in real-time marketing
 
-As we continue to work on the real-time marketing preview and refine the experience, we've become aware of some outstanding issues for you to bear in mind. These issues are summarized in the table below.
+As we continue to work on real-time marketing and refine the experience, we've become aware of some outstanding issues for you to bear in mind. These issues are summarized in the table below.
 
 ## Analytics
 
