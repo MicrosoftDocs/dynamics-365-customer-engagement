@@ -73,7 +73,7 @@ Supported Unified Service Desk versions are:
 
 | Supported Hosting Types | Recommended Hosting Types |
 |-----------------------------|--------------------------------------|
-| <ul><li> Chrome Process </li><li> IE Process (Deprecated) </li><li>Edge Process (Preview) </li> <li> Internal WPF </li></ul> | <ul><li> Chrome Process </li></ul> |
+| <ul><li> Chrome Process </li><li> IE Process (Deprecated) </li><li>Edge Process (Preview) </li> <li> Internal WPF </li></ul> | <ul><li> Edge WebView2 Process </li><li> Chrome Process </li></ul> |
 ||
 
 > [!Note]
