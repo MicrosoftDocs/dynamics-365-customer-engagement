@@ -1,7 +1,7 @@
 ---
 title: "Install real-time customer journey orchestration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to install the real-time customer journey orchestration features in Dynamics 365 Marketing."
-ms.date: 08/19/2021
+ms.date: 08/20/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -25,7 +25,7 @@ Starting in the August 2021 Dynamics 365 Marketing release, you can opt in for d
 > [!NOTE]
 > Real-time customer journey orchestration features are available in the United States, Europe, the United Kingdom, and Australia. The features will be available in Canada and Asia-Pacific geographies in October. Availability in other geographies will be communicated at a later date.
 
-## Steps to opt-in to real-time marketing
+## Steps to opt in to real-time marketing
 
 1. From Dynamics 365 Marketing, switch to the **Settings** area using the area switcher at the bottom of the left navigation.
 
@@ -44,3 +44,9 @@ Starting in the August 2021 Dynamics 365 Marketing release, you can opt in for d
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of real-time marketing in the area switcher.](./media/real-time-marketing-install-area-switch.png)
+
+## Next steps
+
+- [Get to know real-time customer journey orchestration](real-time-marketing-user-guide.yml)
+- [Use Customer Insights profiles and segments](real-time-marketing-ci-profile.md)
+- [Create an event-based journey](real-time-marketing-event-based-journey.md)
