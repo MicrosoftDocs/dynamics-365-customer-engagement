@@ -1,6 +1,6 @@
 ---
-title: "Configure actions for workflows in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to configure actions for workflows
+title: "Create custom actions in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create a custom action from a workflow without writing code. Consider what the action should do and under what conditions it should be performed."
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Configure custom actions from a workflow
+# Create or edit custom actions from a workflow
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure custom actions from a workflow](/powerapps/maker/common-data-service/configure-actions)
 
