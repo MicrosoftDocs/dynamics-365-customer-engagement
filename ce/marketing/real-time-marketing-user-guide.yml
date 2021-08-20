@@ -31,7 +31,7 @@ landingContent:
         links:
           - text: Real-time marketing overview
             url: real-time-marketing-overview.md
-          - text: Install the real-time marketing preview
+          - text: Install real-time customer journey orchestration
             url: real-time-marketing-install.md
           - text: Use Customer Insights profiles and segments in real-time marketing
             url: real-time-marketing-ci-profile.md

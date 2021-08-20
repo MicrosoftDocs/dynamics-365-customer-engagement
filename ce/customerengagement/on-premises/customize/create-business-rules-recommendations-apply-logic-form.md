@@ -1,6 +1,6 @@
 ---
-title: "Create business rules and recommendations with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to create a business rule
+title: "Create business rules in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create business rules to apply form logic without writing code or creating plug-ins. This page also addresses common issues and FAQs."
 ms.custom: 
 ms.date: 10/23/2019
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create business rules and recommendations to apply logic in a form
+# Create business rules and recommendations to apply logic to a form
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a business rule for an entity](/powerapps/maker/common-data-service/data-platform-create-business-rule)
 

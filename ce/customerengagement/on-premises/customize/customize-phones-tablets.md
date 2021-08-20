@@ -1,6 +1,6 @@
 ---
-title: "Customize Dynamics 365 for phones and tablets (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: Learn how to customize for the phone and tablet apps
+title: "Dynamics 365 customization for phones and tablets"
+description: "You can customize Dynamics 365 to be optimized for phone and tablet. Learn about the customization options for forms, navigation, commands, and more."
 ms.custom: 
 ms.date: 06/18/2019
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Customize Dynamics 365 for phones and tablets to work for your business
+# Customize Dynamics 365 for phones and tablets
 
 With Dynamics 365 Customer Engagement (on-premises), you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
 
