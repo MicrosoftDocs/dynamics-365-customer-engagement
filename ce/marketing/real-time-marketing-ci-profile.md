@@ -1,7 +1,7 @@
 ---
 title: "Use Customer Insights profiles and segments in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use Customer Insights profiles and segments in real-time marketing."
-ms.date: 08/02/2021
+ms.date: 08/19/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -37,7 +37,7 @@ Alternately, you can create a scheduled journey targeting the customers in an ab
 
 To set up your Customer Insights data for real-time marketing customer journeys, complete the following steps:
 
-1. Ensure that the Customer Insights environment is set up in a [region where real-time marketing is available](real-time-marketing-install.md). If your current environment is not in a region where real-time marketing is available, you can create a new Customer Insights environment using a copy of the previous environment.
+1. Ensure that the Customer Insights environment is set up in a [region where the real-time marketing preview is available](real-time-marketing-install.md). If your current environment is not in a region where real-time marketing is available, you can create a new Customer Insights environment using a copy of the previous environment.
 1. Enable data sharing between your Customer Insights environment and the Microsoft Dataverse organization where Dynamics 365 Marketing is or will be installed. This can be done in the Advanced settings of the [Customer Insights environment configuration](/dynamics365/customer-insights/audience-insights/manage-environments#create-an-environment-in-an-existing-organization).
 1. Set up **Map**, **Match**, and **Merge** rules in Customer Insights to unify customer data and create unified customer profiles. Be careful while setting up the unification rules. Any future changes to the rule can impact or break live customer journeys.
 1. Create at least one segment.
