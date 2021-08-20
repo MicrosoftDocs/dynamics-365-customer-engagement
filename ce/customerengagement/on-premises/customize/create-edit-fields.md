@@ -1,6 +1,6 @@
 ---
-title: "Create and edit fields with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to create and edit fields
+title: "Create or edit a field in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create or edit a field in Dynamics 365. Use tools in the solution explorer to edit system fields, or to create, edit, or delete custom fields."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create and edit fields (attributes)
+# Create or edit a field (attribute)
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [How to create and edit fields](/powerapps/maker/common-data-service/create-edit-fields)
 

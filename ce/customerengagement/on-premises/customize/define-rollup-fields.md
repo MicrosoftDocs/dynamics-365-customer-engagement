@@ -1,6 +1,6 @@
 ---
-title: "Define rollup fields with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to define rollup fields"
+title: "Create rollup fields in Dynamics 365 Customer Engagement (on-premises)"
+description: "Rollup fields are designed to offer insights into data by aggregating values. Learn about the capabilities of rollup fields and things to consider."
 ms.custom: 
 ms.date: 11/28/2018
 ms.reviewer: 
@@ -21,7 +21,7 @@ search.audienceType:
 
 ---
 
-# Define rollup fields that aggregate values
+# Create a rollup field to aggregate values
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Define rollup fields in Power Apps](/powerapps/maker/common-data-service/define-rollup-fields)
 

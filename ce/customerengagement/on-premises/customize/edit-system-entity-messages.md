@@ -1,6 +1,6 @@
 ---
-title: "Edit system entity messages with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to edit system entity messages"
+title: "Edit system entity messages in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to edit system entity messages, as well as the original entity display name. Using the solution explorer, editing this text is straightforward."
 ms.custom: 
 ms.date: 11/03/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Edit system entity messages
+# Edit system entity messages and display names
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Edit system entity messages in Power Apps](/powerapps/maker/common-data-service/edit-system-entity-messages)
 

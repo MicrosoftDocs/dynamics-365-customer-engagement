@@ -1,6 +1,6 @@
 ---
-title: "Set managed properties with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to set managed properties of an entity"
+title: "Set managed properties for an entity in Dynamics 365 Customer Engagement (on-premises)"
+description: "If an entity is customizable, you can set its managed properties to allow new forms, charts, and views to be created, its display name to be changed, and more."
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
@@ -17,7 +17,7 @@ caps.latest.revision: 41
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Set managed properties overview
+# Set managed properties for an entity
 <a name="BKMK_ManagedProperties"></a>   
 
 
