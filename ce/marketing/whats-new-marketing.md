@@ -33,9 +33,6 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 The Dynamics 365 Marketing August 2021 update includes the general availability launch of Marketing's [real-time customer journey orchestration features](real-time-marketing-user-guide.yml). The August release also includes improved Microsoft Teams integration, better forms export functionality, performance upgrades, and bug fixes.
 
-> [!NOTE]
-> Real-time customer journey orchestration features are available in the United States, Europe, the United Kingdom, and Australia. The features will be available in Canada and Asia-Pacific geographies in October. Availability in other geographies will be communicated at a later date.
-
 #### Version number
 
 | App              | GA release      |
