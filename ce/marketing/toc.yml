@@ -111,30 +111,38 @@
       - name: Control access to designer features
         href: designer-feature-protection.md
     - name: Email administration
-      items: 
-      - name: Email bounce categories
-        href: email-bounce-categories.md
-      - name: Fix a high email bounce rate
-        href: fix-high-bounce-rate.md
-      - name: Create an SPF TXT record
-        href: create-spf-record.md
-      - name: Dedicated vs shared IPs for email delivery
-        href: dedicated-vs-shared-ip.md
-      - name: Warm up an IP or domain
-        href: email-warm-up.md
-      - name: Email policies and suspension standards
-        href: email-policies.md
-      - name: Email sending data access and privileges
-        href: email-sending-data.md
-      - name: Improve deliverability to China
-        href: improve-deliverability-to-china.md
-      - name: Deliverability recommendations when changing ESPs
-        href: deliverability-change-esp.md
-      - name: Google Postmaster Tools - What it is and how it can help you
-        href: google-postmaster.md
+      items:
       - name: Best practices for email marketing
         href: get-ready-email-marketing.md
-      - name: Email troubleshooting
+      - name: Setup guides
+        items:
+        - name: Dedicated vs shared IPs for email delivery
+          href: dedicated-vs-shared-ip.md
+        - name: Email sending data access and privileges
+          href: email-sending-data.md
+        - name: Troubleshoot domain authentication errors
+          href: troubleshoot-domain-authentication.md
+      - name: Improve email deliverability
+        items:
+        - name: Email bounce categories
+          href: email-bounce-categories.md
+        - name: Fix a high email bounce rate
+          href: fix-high-bounce-rate.md
+        - name: Warm up an IP or domain
+          href: email-warm-up.md
+        - name: Create an SPF TXT record
+          href: create-spf-record.md
+        - name: Deliverability recommendations when changing ESPs
+          href: deliverability-change-esp.md
+        - name: Improve deliverability to China
+          href: improve-deliverability-to-china.md
+        - name: Google Postmaster Tools - What it is and how it can help you
+          href: google-postmaster.md
+      - name: Improve sending reputation
+        items:
+        - name: Email policies and suspension standards
+          href: email-policies.md
+      - name: Troubleshoot email issues
         href: email-troubleshooting.md
     - name: Customization
       items: 
