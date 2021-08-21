@@ -4,7 +4,7 @@ description: "Use this topic to understand agent experience in Omnichannel for C
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
@@ -73,16 +73,17 @@ If your administrator has enabled the ability to view call recordings and transc
 > [!NOTE] 
 > Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 
-There are a couple of ways to access recordings and transcripts from completed calls in the Omnichannel admin center:
+There are a couple of ways to access recordings and transcripts from completed calls in the Omnichannel admin center app:
 
 **From the Users option on the sitemap**:
+
 1. On the Omnichannel admin center sitemap, select **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. To view all conversations, select **All conversations** from the dashboard dropdown menu. (Alternatively, you can select **Closed conversations**.)
 4. Select the closed conversation for which you want to access the recording and transcript.
   
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of ](./media/voice-channel-conversations-list.png)
+   > ![Screenshot of closed conversation list.](./media/voice-channel-conversations-list.png)
 
 
 **From a contact (customer)**:
@@ -91,32 +92,36 @@ There are a couple of ways to access recordings and transcripts from completed c
 2. Select the **Open Record** icon.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of the open record icon for a conversation on the timeline of a customer contact page.](./media/voice-channel-contact.png)
+  > ![Screenshot of the open record icon for a conversation on the timeline of a customer contact page.](./media/voice-channel-customer-record.png)
 
 
 ### Call recording and transcript controls
 
-The **Details** tab of the Conversation Form displays the following options:
+The **Details** tab of the Conversation Form displays call recording details.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of call recording and transcript controls.](./media/voice-channel-recording.png)
 
 **Recording playback**
 
 - **Play**:  Select the button to listen to the conversation audio. 
 - **Rewind** or **Fast forward**: Select the buttons to either rewind in 10-second increments or fast-forward in 30-second increments.
-- **Volume**: Move the slider bar to adjust the volume to your desired level.
+- **Volume**: Move the slider to adjust the volume to your desired level.
 - **Download audio**: Download an .mp4 audio file of the complete conversation.
 - **Speed**: From the dropdown menu, select the playback speed of the conversation, whether slower or faster. **Normal** is the default, and is the speed in which the conversation was recorded.
-- **Conversations scroll bar**: Move the scroll bar to any point of the conversation, or listen to it from beginning to end.
+- **Conversation scroll bar**: Move the scroll bar to any point of the conversation, or listen to it from beginning to end. When you select a location in the recording visualization, the transcript also moves to same place in the conversation.
+- **Sentiment**: Colors and emojis help you quickly analyze the sentiment of the conversation. Green equals positive sentiment, red equals negative sentiment, and grey equals neutral sentiment.
 
 **Transcript**
 
 - **Search**: Enter keywords in the search field to locate desired sections of conversation.
-- **Download transcript**: Download a .txt file of the conversation transcript.
+- **Download transcript**: Open an HTML file of the conversation transcript in your browser.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of call recording and transcript controls.](./media/voice-channel-recording.png)
 
-Call recording details 
-New conversation form page, including recording playback, transcript, and overview and analytics tabs​
+
+
+
+
 
 Admin toggle to turn on voice recording and transcript as part of voice channel modern admin app
 
@@ -149,48 +154,6 @@ Enable transcripts and recordings for each phone number in a workstream.
 > 
 
 
-
-
-
-## View a conversation recording and transcript
-
-You can play back a recording of a conversation after it has ended (when both you and the customer have ended the call). 
-
-New UI design to align with modern admin, fluent UI​
-
-Advanced playback features, including ​
-
-Sentiment highlights​
-    Green - positive
-    Grey - neutral
-    Red - negative
-
-Click to scroll ​
-
-Volume, speed, fast forward and rewind controls​
-
-Conversation insight for voice channel (messaging channels will come in Oct)​
-
-One united transcript views to be leveraged by other features​
-
-Adaptive cards displaying in Transcript​
-
-One download including both transcript and attachments
-
-conversations recordings and transcripts are stored in CDS
-
-Playback the call recording
-
-Skip ahead or rewind
-
-Adjust volume
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-recording.png)
-
-Selecting a location in the recording visualization will move to the transcript location below. 
 
 
 
