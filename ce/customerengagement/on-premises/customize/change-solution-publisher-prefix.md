@@ -1,6 +1,6 @@
 ---
-title: "Change the publisher prefix Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn what a solution publisher is and how to use it for the solutions you distribute
+title: "Change publisher prefix in Dynamics 365 Customer Engagement (on-premises)"
+description: "Every solution has a publisher. Before you start customizing the system, follow these steps to change the prefix value for the default publisher."
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
 
 ---
 
-# Change the solution publisher prefix for the default publisher  
+# Change the prefix for the default publisher
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Change the solution publisher prefix](/powerapps/maker/common-data-service/change-solution-publisher-prefix)
 
 
