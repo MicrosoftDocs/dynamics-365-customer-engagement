@@ -149,7 +149,8 @@ This error is displayed in two scenarios:
  
     > [!IMPORTANT]
     > When you first create a new team and channel in Microsoft Teams, you might see this error because it takes some time for Microsoft Teams to provision a new SharePoint file library for the channel. Wait for a few minutes, and then refresh your browser to retry the connection.
-    - > [!NOTE]
+
+    > [!NOTE]
     > Though the connection fails, changes made to the record in Teams are updated in the customer engagement app.  
 
 **To repin the Dynamics 365 tab**
