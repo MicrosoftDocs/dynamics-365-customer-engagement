@@ -16,7 +16,7 @@ Returns the session object of the session that is in focus.
 
 `Microsoft.Apm.getFocusedSession();`
 
-## Returns
+## Return value
 
 Session as an object.
 

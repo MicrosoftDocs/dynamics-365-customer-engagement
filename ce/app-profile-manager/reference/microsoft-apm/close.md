@@ -20,6 +20,11 @@ Closes a session.
 `Microsoft.Apm.getFocusedSession().close();`
 `Microsoft.Apm.getSession(sessionId).close();`
 
+
+## Return value
+
+None
+
 ## Example
 
 ```JavaScript

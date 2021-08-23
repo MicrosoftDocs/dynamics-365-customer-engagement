@@ -10,17 +10,17 @@ ms.topic: reference
 
 # canCreateSession
 
-Returns a boolean value indicating whether a new session can be created.
+Allows you to check whether a new session can be created.
 
 > [!Note]
-> Customer Service workspace allows users to open up to 10 sessions including the Home session. If an users tries to launch more than 10 session, then the following message is shown: "Maximum sessions reached. Close a session before opening another."
+> Customer Service workspace lets you open up to 10 sessions simultaneously, including the Home session. If you open more than 10 sessions, then the message&mdash; "Maximum sessions reached. Close a session before opening another."&mdash; is displayed.
 
 ## Syntax
 
-`Microsoft.Apm.canCreateSession()`
+`Microsoft.Apm.canCreateSession();`
 
 
-## Returns
+## Return value
 
 A Boolean value of true if a new session can be created; otherwise false.
 

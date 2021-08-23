@@ -16,6 +16,9 @@ Sets the focus on a session.
 
 `Microsoft.Apm.getSession(sessionId).focus();`
 
+## Return value
+
+None
 ## Example
 
 ```JavaScript

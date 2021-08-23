@@ -42,7 +42,7 @@ The structure of the JSON `SessionInput` parameter is shown below.
     }
 ```
 
-## Returns
+## Return value
 
 Promise string with the value as created tab ID.
 

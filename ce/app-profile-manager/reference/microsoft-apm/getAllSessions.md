@@ -16,7 +16,7 @@ Returns the unique identifier of all sessions.
 
 `Microsoft.Apm.getAllSessions();`
 
-## Return Value
+## Return value
 
 Collection of session identifiers.
 

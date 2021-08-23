@@ -1,10 +1,10 @@
 ---
 title: "refreshTab (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
 description: "Learn about the refreshTab API for the multi-session apps such as Omnichannel for Customer Service and Customer Service workspace."
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 08/25/2021
 ms.topic: reference
 ---
 
@@ -14,30 +14,35 @@ Refreshes the app tab in the current session.
 
 ## Syntax
 
-`Microsoft.Apm.refreshTab(tabId).then(successCallback, errorCallback);`
+`Microsoft.Apm.refreshTab(tabId);`
+<!--`Microsoft.Apm.refreshTab(tabId).then(successCallback, errorCallback);`-->
 
 ## Parameters
 
 | **Name**        | **Type** | **Required** | **Description**                                      |
 |-----------------|----------|--------------|------------------------------------------------------|
 | tabId           | String   | Yes          | Unique identifier of the tab that has to be refreshed. |
-| successCallback | Function | No           | A function to call when a record is retrieved.       |
+<!--| successCallback | Function | No           | A function to call when a record is retrieved.       |
 | errorCallback   | Function | No           | A function to call when the operation fails.         |
-
-## Return Value
+-->
+## Return value
 
 None
 
-## Example
+## Examples
+
+The following examples use the refreshTab method to refresh a given tab.
+
+### Refreshing a tab using refreshTab method
 
 ```JavaScript
-Microsoft.Apm.focusTab("tab-id-8").then(
-function(result) {
-return Promise.resolve(result);
-},
-function(error) {
-return Promise.reject(error)
-};
+Microsoft.Apm.refreshTab("tab-id-2")
+```
+
+### Refreshing a tab using refresh method
+
+```JavaScript
+Microsoft.Apm.getFocusedSession().getFocusedTab().refresh();
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

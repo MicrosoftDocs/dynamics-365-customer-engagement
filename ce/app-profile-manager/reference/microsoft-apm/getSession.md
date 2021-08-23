@@ -22,7 +22,7 @@ Returns the session object for a given session ID.
 |------------------|----------|--------------| --------------- |
 | sessionID        | String   | Yes          | The session ID  |
 
-## Returns
+## Return value
 
 Session as an object.
 

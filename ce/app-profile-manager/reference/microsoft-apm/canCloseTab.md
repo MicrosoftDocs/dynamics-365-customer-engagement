@@ -10,10 +10,14 @@ ms.topic: reference
 
 # canCloseTab
 
-Boolean value indicating whether a given tab can be closed.
+A Boolean value indicating whether a given tab can be closed.
 
 > [!Note]
 > If canCloseTab property is set to false, then the button to close the tab is hidden. Else, the close button is visible.
+
+## Return value
+
+None
 
 ## Example
 

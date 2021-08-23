@@ -8,13 +8,13 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Microsoft.Apm methods (JavaScript API reference)
+# Preview: Microsoft.Apm methods (JavaScript API reference)
 
-Provides methods to use the JavaScript API to manage the app tabs in a session. The APIs can be used in the app tab management in the multi-session apps.
+Provides methods to use the JavaScript API to manage the app tabs in a session. The APIs can be used in the app tab management in multi-session apps.
 
 ## Session management APIs
 
-The following APIs allow you to manage sessions with Customer Service workspace.
+The following APIs allow you to manage sessions in Customer Service workspace.
 
 | Methods | Description |
 |---------|-------------|
@@ -36,18 +36,18 @@ The following APIs allow you to manage sessions with Customer Service workspace.
 
 ## Tab management APIs
 
-The following APIs allow you to manage sessions with Customer Service workspace.
+The following APIs allow you to manage tabs in Customer Service workspace.
 
 | Methods | Description |
 |---------|-------------|
-| [getFocusedTab](microsoft-apm/getFocusedTab.md) |Returns the tab object of the tab that is in focus. |
-| [getAllTabs](microsoft-apm/getAllTabs.md) |Returns the unique identifier of all tabs for a given session. |
-| [getTab](microsoft-apm/getTab.md) |Returns the tab object for a given tab ID.  |
-| [createTab](microsoft-apm/createTab.md) |Creates a tab in a focused Session and returns the unique identifier of the created tab. |
-| [canCreateTab](microsoft-apm/canCreateTab.md) |Returns a boolean value indicating if a new tab can be created for a given session. |
+| [getFocusedTab](microsoft-apm/getFocusedTab.md) | Returns the tab object of the tab that is in focus. |
+| [getAllTabs](microsoft-apm/getAllTabs.md) | Returns the unique identifier of all tabs for a given session. |
+| [getTab](microsoft-apm/getTab.md) | Returns the tab object for a given tab ID.  |
+| [createTab](microsoft-apm/createTab.md) | Creates a tab in a focused session and returns the unique identifier of the created tab. |
+| [canCreateTab](microsoft-apm/canCreateTab.md) | Returns a Boolean value indicating if a new tab can be created for a given session. |
 | [closeTab](microsoft-apm/closeTab.md) | Closes the tab object for a given tab ID. |
-| [focusTab](microsoft-apm/focusTab.md) |Sets the focus on the tab object for a given tab ID. |
-| [refreshTab](microsoft-apm/refreshTab.md) |Refreshes the tab object for a given tab ID.   |
+| [focusTab](microsoft-apm/focusTab.md) | Sets the focus on the tab object for a given tab ID. |
+| [refreshTab](microsoft-apm/refreshTab.md) | Refreshes the tab object for a given tab ID.   |
 
 | Properties | Description |
 |------------|-------------|

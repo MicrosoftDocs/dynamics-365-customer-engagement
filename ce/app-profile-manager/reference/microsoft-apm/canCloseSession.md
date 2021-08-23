@@ -15,6 +15,10 @@ Boolean value indicating whether a given session can be closed.
 > [!Note]
 > If canClose property is set to false, then the button to close a session from the session panel is hidden. Else, the close button is visible when hovering over the session on the session panel.
 
+## Return value
+
+None
+
 ## Example
 
 ```JavaScript
