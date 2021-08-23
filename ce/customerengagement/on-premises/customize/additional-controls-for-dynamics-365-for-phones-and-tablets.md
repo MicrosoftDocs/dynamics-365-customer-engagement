@@ -27,7 +27,7 @@ search.audienceType:
 
  
 > [!NOTE]
->  You can use these additional controls only with the mobile apps. They aren’t supported in the web app.  
+>  You can use these additional controls only with the mobile apps and Unified Interface apps. They aren’t supported in the classic web app.  
   
  To use these controls in the form editor:  
   
