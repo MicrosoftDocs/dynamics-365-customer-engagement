@@ -79,8 +79,8 @@ There are a couple of ways to access recordings and transcripts from completed c
 
 1. On the Omnichannel admin center sitemap, select **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
-3. To view all conversations, select **All conversations** from the dashboard dropdown menu. (Alternatively, you can select **Closed conversations**.)
-4. Select the closed conversation for which you want to access the recording and transcript.
+3. Select **Closed conversations** from the dashboard dropdown menu.
+4. Select the conversation for which you want to access the recording and transcript.
   
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](./media/voice-channel-conversations-list.png)
@@ -135,46 +135,12 @@ The **Overview** tab of the Conversation Form displays the following details:
 The **Metrics** tab of the Conversation Form displays the following details:
 
 - **Talking speed**: The rate of speed in which participants conversed during the call.
-- **Talk to listen ratio**: The rate of speed in which the agent speaks versus listens.
-- **Average pause**: The average amount of time in which a conversation is paused.
+- **Talk to listen ratio**: The ratio in which the agent spoke versus listened to the customer.
+- **Average pause**: The average amount of time in which the conversation was paused.
 - **Longest customer monologue**: The longest amount of time that the customer spoke during the conversation.
-- **Switches per conversation**: 
+- **Switches per conversation**: The number of times the conversation switched from agent to customer, and vice versa.
 
 The **Sessions** tab displays details about the number of voice calls between the agent and the customer, as well as the length of time of the conversation and the date and time each conversation took place.
-
-Admin toggle to turn on voice recording and transcript as part of voice channel modern admin app
-
-Leverage of conversation control for displaying transcript ​
-
-
-One code base for transcript control​
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-recording.png)
-
-### Prerequisites
-
-Enable the new transcript experience
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-enable-recordings-transcripts.png)
-
-Enable transcripts and recordings for each phone number in a workstream.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-recording-number.png)
-
-> [!Note]
->
-
->[!TIP] 
-> 
-
-
-
-
 
 
 ### See also
