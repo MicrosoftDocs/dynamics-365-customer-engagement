@@ -140,7 +140,6 @@
         href: ../app-profile-manager/reference/microsoft-apm.md
       - name: Session management APIs  
         items:       
-        - name: Methods
         - name: getFocusedSession
           href: ../app-profile-manager/reference/microsoft-apm/getFocusedSession.md
         - name: getAllSessions
@@ -156,9 +155,7 @@
         - name: focus
          href: ../app-profile-manager/reference/microsoft-apm/focus.md         
         - name: requestFocus
-         href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md     
-        - name: Properties
-          items:    
+         href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md      
           - name: sessionID
             href: ../app-profile-manager/reference/microsoft-apm/sessionID.md
           - name: isDefault
@@ -167,8 +164,7 @@
             href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
           - name: title
             href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md                      
-          - name: Tab management APIs   
-          - name: Methods      
+          - name: Tab management APIs      
             items: 
             - name: getFocusedTab
               href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md        
@@ -185,9 +181,7 @@
             - name: focusTab
               href: ../app-profile-manager/reference/microsoft-apm/focusTab.md  
             - name: refreshTab             
-              href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md          
-          - name: Properties
-            items:    
+              href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md              
             - name: tabID
               href: ../app-profile-manager/reference/microsoft-apm/tabID.md
             - name: canClose
