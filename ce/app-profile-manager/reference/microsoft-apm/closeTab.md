@@ -21,7 +21,7 @@ Closes the specified app tab in the current session.
 
 ## Parameters
 
-| **Name**        | **Type** | **Required** | **Description**                                      |
+| Name        | Type | Required | Description                               |
 |-----------------|----------|--------------|------------------------------------------------------|
 | tabId           | String   | Yes          | Unique identifier of the tab to be closed. |
 <!--| successCallback | Function | No           | A function to call when a record is retrieved.       |

@@ -138,16 +138,67 @@
       items: 
       - name: Overview of JavaScript API reference
         href: ../app-profile-manager/reference/microsoft-apm.md
+      - name: Session management APIs
       - name: Methods
         items: 
+        - name: getFocusedSession
+          href: ../app-profile-manager/reference/microsoft-apm/getFocusedSession.md
+        - name: getAllSessions
+          href: ../app-profile-manager/reference/microsoft-apm/getAllSessions.md
+        - name: getSession
+          href: ../app-profile-manager/reference/microsoft-apm/getSession.md
+        - name: createSession
+          href: ../app-profile-manager/reference/microsoft-apm/createSession.md
+        - name: canCreateSession
+          href: ../app-profile-manager/reference/microsoft-apm/canCreateSession.md
+        - name: close
+          href: ../app-profile-manager/reference/microsoft-apm/close.md
+        - name: focus
+          href: ../app-profile-manager/reference/microsoft-apm/focus.md         
+        - name: requestFocus
+          href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md     
+      - name: Properties
+        items:    
+        - name: sessionID
+          href: ../app-profile-manager/reference/microsoft-apm/sessionID.md
+        - name: isDefault
+          href: ../app-profile-manager/reference/microsoft-apm/isDefault.md  
+        - name: canClose
+          href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
+        - name: title
+          href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md                      
+      - name: Tab management APIs
+      - name: Methods      
+        items: 
+        - name: getFocusedTab
+          href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md        
+        - name: getAllTabs
+          href: ../app-profile-manager/reference/microsoft-apm/getAllTabs.md
+        - name: getTab
+          href: ../app-profile-manager/reference/microsoft-apm/getTab.md
         - name: createTab
           href: ../app-profile-manager/reference/microsoft-apm/createTab.md
-        - name: focusTab
-          href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
-        - name: refreshTab
-          href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
+        - name: canCreateTab
+          href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md                    
         - name: closeTab
           href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
+        - name: focusTab
+          href: ../app-profile-manager/reference/microsoft-apm/focusTab.md  
+        - name: refreshTab             
+          href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md          
+      - name: Properties
+        items:    
+        - name: tabID
+          href: ../app-profile-manager/reference/microsoft-apm/tabID.md
+        - name: canClose
+          href: ../app-profile-manager/reference/microsoft-apm/canCloseTab.md
+        - name: title
+          href: ../app-profile-manager/reference/microsoft-apm/tabtitle.md   
+      - name: Context management APIs
+      - name: Methods      
+        items: 
+        - name: updateContext
+          href: ../app-profile-manager/reference/microsoft-apm/updateContext.md                   
     - name: Readme
       href: https://go.microsoft.com/fwlink/p/?linkid=2141982
   - name: Unified routing and assignment

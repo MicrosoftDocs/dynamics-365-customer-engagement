@@ -57,7 +57,7 @@ The following APIs allow you to manage tabs in Customer Service workspace.
 
 ## Context management APIs
 
-The following APIs allow you to manage the session context with Customer Service workspace.
+The following APIs allow you to manage the session context in Customer Service workspace.
 
 | Methods | Description |
 |---------|-------------|
