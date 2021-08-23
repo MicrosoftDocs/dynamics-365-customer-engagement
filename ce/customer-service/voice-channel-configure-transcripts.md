@@ -55,6 +55,6 @@ As an administrator, you can enable live transcription and recording of conversa
 ### See also
 
 [Overview of the voice channel](voice-channel.md)<br>
-[Agent experience: View call recordings and transcripts](voice-channel-agent-experience#view-call-recordings-and-transcripts.md)
+[Agent experience: View call recordings and transcripts](voice-channel-agent-experience.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
