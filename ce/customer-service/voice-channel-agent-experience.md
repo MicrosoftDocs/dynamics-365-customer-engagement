@@ -105,7 +105,7 @@ The **Details** tab of the Conversation Form displays call recording details.
 **Recording playback**
 
 - **Play**:  Select the button to listen to the conversation audio. 
-- **Rewind** or **Fast forward**: Select the buttons to either rewind in 10-second increments or fast-forward in 30-second increments.
+- **Rewind** or **Fast-forward**: Select the buttons to either rewind in 10-second increments or fast-forward in 30-second increments.
 - **Volume**: Move the slider to adjust the volume to your desired level.
 - **Download audio**: Download an .mp4 audio file of the complete conversation.
 - **Speed**: From the dropdown menu, select the playback speed of the conversation, whether slower or faster. **Normal** is the default, and is the speed in which the conversation was recorded.
