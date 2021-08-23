@@ -156,16 +156,16 @@
           href: ../app-profile-manager/reference/microsoft-apm/focus.md         
         - name: requestFocus
           href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md      
-          - name: sessionID
-            href: ../app-profile-manager/reference/microsoft-apm/sessionID.md
-          - name: isDefault
-            href: ../app-profile-manager/reference/microsoft-apm/isDefault.md  
-          - name: canClose
-            href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
-          - name: title
-            href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md                      
-          - name: Tab management APIs      
-            items: 
+        - name: sessionID
+          href: ../app-profile-manager/reference/microsoft-apm/sessionID.md
+        - name: isDefault
+          href: ../app-profile-manager/reference/microsoft-apm/isDefault.md  
+        - name: canClose
+          href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
+        - name: title
+          href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md                      
+        - name: Tab management APIs      
+          items: 
             - name: getFocusedTab
               href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md        
             - name: getAllTabs
