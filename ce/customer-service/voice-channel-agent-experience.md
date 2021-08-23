@@ -91,8 +91,8 @@ There are a couple of ways to access recordings and transcripts from completed c
 1. Select the name of the contact, and then from the Timeline, hover over the closed conversation you want to view. The icon menu is displayed on the top-right of the conversation.
 2. Select the **Open Record** icon.
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of the open record icon for a conversation on the timeline of a customer contact page.](./media/voice-channel-customer-record.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the open record icon for a conversation on the timeline of a customer contact page.](./media/voice-channel-customer-record.png)
 
 
 ### Call recording and transcript controls
@@ -117,11 +117,30 @@ The **Details** tab of the Conversation Form displays call recording details.
 - **Search**: Enter keywords in the search field to locate desired sections of conversation.
 - **Download transcript**: Open an HTML file of the conversation transcript in your browser.
 
+The **Overview** tab of the Conversation Form displays the following details:
 
+- **Primary agent**: The name of the agent who conducted the call.
+- **Customer**: The name of the customer the call was with.
+- **Channel**: The type of communication conducted.
+- **Sentiment**: The average sentiment of the call.
+- **Status**: The state of the communication.
+- **Status reason**: The reason for the status of the call.
+- **Queue**: The queue the call was conducted in.
+- **Workstream**: The workstream the call was conducted in.
+- **Duration**: The total amount of time of the call, from start to finish.
+- **Skills**: 
+- **Regarding**:
+- **Last modified**: The date and time that the call was last edited.
 
+The **Metrics** tab of the Conversation Form displays the following details:
 
+- **Talking speed**: The rate of speed in which participants conversed during the call.
+- **Talk to listen ratio**: The rate of speed in which the agent speaks versus listens.
+- **Average pause**: The average amount of time in which a conversation is paused.
+- **Longest customer monologue**: The longest amount of time that the customer spoke during the conversation.
+- **Switches per conversation**: 
 
-
+The **Sessions** tab displays details about the number of voice calls between the agent and the customer, as well as the length of time of the conversation and the date and time each conversation took place.
 
 Admin toggle to turn on voice recording and transcript as part of voice channel modern admin app
 
