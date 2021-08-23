@@ -1,6 +1,6 @@
 ---
-title: "Export, import, or remove a custom business app with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn you can export, import, or remove a custom business app"
+title: "Export or import an app with Dynamics 365 for Customer Engagement (on-premises)"
+description: "After an app is created, it can be exported by the maker and imported by other organizations. Apps that are obsolete to a business can also be deleted."
 keywords: 
 ms.date: 02/20/2019
 ms.prod: d365ce-op
