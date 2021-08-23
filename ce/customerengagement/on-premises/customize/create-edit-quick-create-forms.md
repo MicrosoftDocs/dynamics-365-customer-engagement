@@ -1,6 +1,6 @@
 ---
-title: "Create or edit quick create forms in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit a quick create form"
+title: "Use quick create forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to create or edit quick create forms, ensuring streamlined data entry with support for logic defined by form scripts and business rules."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create or edit quick create forms for a streamlined data entry experience
+# Create or edit quick create forms for streamlined data entry
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create or edit model-driven app quick create forms for a streamlined data entry experience](/powerapps/maker/model-driven-apps/create-edit-quick-create-forms) 
 

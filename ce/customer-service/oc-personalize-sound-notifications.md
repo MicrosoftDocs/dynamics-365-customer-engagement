@@ -25,16 +25,19 @@ You can personalize sound notification settings for incoming conversation reques
 
 The personalized settings have precedence over the administrator settings. You can enable notifications at each channel level for all the channels that are provisioned and available for you.
 
-1. On the application tab panel, select the plus icon, and select **Personalization**. The **Personalization User settings** page appears.
+1. On the application tab panel, select the plus icon, and then select **Personalization**. The **Personalization User settings** page appears.
+
 2. Select **Sound Settings**.
+
 3. Personalize the following settings for the channels:
    - **Play Sound:** Set the toggle to **Yes**.
-   - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played till you respond.
+   - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played until you respond.
    - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice. You also have the option to preview the audio.
    - **Volume:** Accept the default setting or use the slider to adjust the volume.
       > ![Personalize sound notifications.](media/oc-personalize-sound-notifications.png "Personalize sound notifications")
    
    - **Reset to default settings:** When you customize any setting, the button is enabled for you to reset to the out-of-the-box settings.
+
 4. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channel.
     > ![Sound notification settings for open sessions.](media/sound-notification-open-session.png "Sound notification settings for open sessions")
 5. Select **Save**.

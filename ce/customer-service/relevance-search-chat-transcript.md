@@ -1,6 +1,6 @@
 ---
-title: "Configure relevance search for transcripts  | MicrosoftDocs"
-description: "Learn how to configure relevance search for chat transcript so agents can search in Omnichannel for Customer Service."
+title: "Configure relevance search for transcripts | MicrosoftDocs"
+description: "Learn how to configure relevance search for chat transcripts so agents can search in Omnichannel for Customer Service."
 ms.date: 02/03/2020
 ms.topic: article
 author: neeranelli
@@ -13,21 +13,15 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Overview
 
-In Omnichannel for Customer Service, agents can search for details in transcripts. To enable agents to search in transcripts, you as a system customizer need to configure relevance search for the Note entity.
+In Omnichannel for Customer Service, agents can search for details in transcripts. To enable agents to search in transcripts, you as a system customizer need to configure relevance search for the Note entity and then add the entity to Omnichannel for Customer Service.
 
 ## Prerequisites
 
 Ensure that relevance search is enabled in your environment. To learn more, see [Enable relevance search](/power-platform/admin/configure-relevance-search-organization#enable-relevance-search).
+
  
-## Walk-through to configure relevance search
-
-[Step 1: Configure relevance search for the Note entity](#step1)
-
-[Step 2: Add a Note entity to Omnichannel for Customer Service](#step2)
-
-## Step 1: Configure relevance search for the Note entity<a name="step1"></a>
+## Configure relevance search for the Note entity
 
 1. Sign in to Dynamics 365.
 
@@ -35,20 +29,18 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 3. Under **Components**, select **Entities**.
 
-4. Select **Configure Relevance Search**. The **Select Entities** dialog box appears.
+4. Select **Configure Relevance Search**. The **Select Entities** dialog appears.
 
-5. In the **Available Entities** box, select **Note**, select **Add >**, and then select **OK**.
+5. In the **Available Entities** box, select **Note**, select **Add**, and then select **OK**.
 
     > [!div class=mx-imgBorder]
     > ![Add the Note entity.](media/add-note-entity.png "Add the Note entity")  
 
 6. Select **Save**.
 
-7. Select **Publish All Customizations**. 
+7. Select **Publish All Customizations**.
 
-<a name="step2"></a>
-
-## Step 2: Add the Note entity to Omnichannel for Customer Service
+## Add the Note entity to Omnichannel for Customer Service
 
 1. Sign in to `https://<org>.dynamics.com/apps`.
 

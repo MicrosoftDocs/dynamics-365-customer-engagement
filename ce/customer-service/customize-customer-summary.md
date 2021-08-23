@@ -1,6 +1,6 @@
 ---
 title: "Customize the Customer summary form | MicrosoftDocs"
-description: "Learn on how to customize the Customer summary form in Omnichannel for Customer Service as a system customizer."
+description: "Learn how to add or remove custom controls, customize form layout, and add web resources to the Customer summary form in Omnichannel for Customer Service."
 ms.date: 10/05/2020
 ms.topic: article
 author: neeranelli
@@ -26,7 +26,7 @@ By default, the **Customer summary** page displays the sections that are listed 
 
 ## Customer profile
 
-The **Customer profile** section provides details about the customer or account. These details include the name of the customer or account, category or job, title, relationship type, city, and the preferred channel of engagement. You can modify the quick view forms in this section by navigating to respective entity forms. 
+The **Customer profile** section provides details about the customer or account. These details include the name of the customer or account, category or job, title, relationship type, city, and the preferred channel of engagement. You can modify the quick view forms in this section by navigating to the respective entity forms. 
 
 ## Conversation summary
 
@@ -40,22 +40,22 @@ If the customer signs in to the portal to initiate a chat with the support, then
 
 ## Issue snapshot
 
-For an incoming conversation request, the system links an existing case to the conversation and shows it on the **Issue Snapshot** section. This section shows information such as the title of the case, the priority, the status of the case, the product, and the owner. You can modify the quick view forms in this section by navigating to respective entity forms.
+For an incoming conversation request, the system links an existing case to the conversation and shows it on the **Issue Snapshot** section. This section shows information such as the title of the case, the priority, the status of the case, the product, and the owner. You can modify the quick view forms in this section by navigating to the respective entity forms.
 
 ## Recent cases
 
-This form section displays the recent cases that relate to the customer. You can modify the quick view forms in this section by navigating to respective entity forms.
+This form section displays the recent cases that relate to the customer. You can modify the quick view forms in this section by navigating to the respective entity forms.
 
 ## Timeline
 
-This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Use the **Linked records** field to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
+This section displays case-related and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Use the **Linked records** field to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 
 > [!div class="nextstepaction"]
 > [Next topic: Customize quick view forms](customize-quick-view-form.md)
 
 ### See also
 
-[Omnichannel  system customizers](omnichannel-customizer.md)  
+[Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize the conversation form](customize-session-form.md)  
 [Configure agent and supervisor configurations in Unified Service Desk](../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
 [Configure notification for agents](../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)  
