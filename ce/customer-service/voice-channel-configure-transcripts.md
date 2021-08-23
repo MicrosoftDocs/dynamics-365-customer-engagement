@@ -28,7 +28,10 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 ## Enable the transcript experience
 
-As an administrator, you can enable live transcription and recording of conversations, which allows agents and supervisors to listen to and view post-recordings and transcripts of customer calls.
+As an administrator, you can enable live transcription and recording of conversations, which allows agents and supervisors to listen to call recordings and view transcripts of customer calls.
+
+> [!NOTE] 
+> Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 
 1. In the Omnichannel admin center, under **Advanced settings** on the sitemap, select **Agent experience**.
 2. To the right of **Transcript (preview)**, select **Manage**.
