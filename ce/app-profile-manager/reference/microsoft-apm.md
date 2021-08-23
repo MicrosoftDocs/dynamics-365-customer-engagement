@@ -70,6 +70,6 @@ The following APIs allow you to manage the session context in Customer Service w
 
 | Methods | Description |
 |---------|-------------|
-| [updateContext](microsoft-apm/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are subsequently available for future macro invocations. |
+| [updateContext](microsoft-apm/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for future macro invocations. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,7 +10,7 @@ ms.topic: reference
 
 # updateContext
 
-Allows you to set the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are subsequently available for future macro invocations.
+Allows you to set the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for future macro invocations.
 
 ## Syntax
 
