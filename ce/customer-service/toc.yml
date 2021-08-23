@@ -104,7 +104,7 @@
       href: add-users-assign-roles.md
   - name: App profile manager for Customer Service
     items: 
-    - name: App profile manager overview
+    - name: Overview of app profile manager
       href: ../app-profile-manager/overview.md
     - name: Roles and permissions
       href: ../app-profile-manager/security-roles.md
@@ -136,7 +136,7 @@
         href: ../app-profile-manager/automation-dictionary-keys.md
     - name: Developer experience
       items: 
-      - name: Overview of JavaScript API reference for Application profile manager
+      - name: App profile manager JavaScript API reference 
         href: ../app-profile-manager/reference/microsoft-apm.md
       - name: Session management APIs  
         items:       
