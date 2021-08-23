@@ -141,15 +141,15 @@
       - name: Session management APIs  
         items:       
         - name: Methods
-          - name: getFocusedSession
-            href: ../app-profile-manager/reference/microsoft-apm/getFocusedSession.md
-          - name: getAllSessions
-            href: ../app-profile-manager/reference/microsoft-apm/getAllSessions.md
-          - name: getSession
-            href: ../app-profile-manager/reference/microsoft-apm/getSession.md
-          - name: createSession
-            href: ../app-profile-manager/reference/microsoft-apm/createSession.md
-          - name: canCreateSession
+        - name: getFocusedSession
+          href: ../app-profile-manager/reference/microsoft-apm/getFocusedSession.md
+        - name: getAllSessions
+          href: ../app-profile-manager/reference/microsoft-apm/getAllSessions.md
+        - name: getSession
+          href: ../app-profile-manager/reference/microsoft-apm/getSession.md
+        - name: createSession
+          href: ../app-profile-manager/reference/microsoft-apm/createSession.md
+       - name: canCreateSession
             href: ../app-profile-manager/reference/microsoft-apm/canCreateSession.md
           - name: close
             href: ../app-profile-manager/reference/microsoft-apm/close.md
