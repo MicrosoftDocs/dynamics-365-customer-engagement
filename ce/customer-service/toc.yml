@@ -149,13 +149,13 @@
         - name: createSession
           href: ../app-profile-manager/reference/microsoft-apm/createSession.md
         - name: canCreateSession
-         href: ../app-profile-manager/reference/microsoft-apm/canCreateSession.md
+          href: ../app-profile-manager/reference/microsoft-apm/canCreateSession.md
         - name: close
           href: ../app-profile-manager/reference/microsoft-apm/close.md
         - name: focus
-         href: ../app-profile-manager/reference/microsoft-apm/focus.md         
+          href: ../app-profile-manager/reference/microsoft-apm/focus.md         
         - name: requestFocus
-         href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md      
+          href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md      
           - name: sessionID
             href: ../app-profile-manager/reference/microsoft-apm/sessionID.md
           - name: isDefault
