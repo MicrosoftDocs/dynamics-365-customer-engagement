@@ -139,12 +139,28 @@ The customer engagement app environment that you are trying to connect does not 
 
 ### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
 
-A failed connection means file synchronization is not set up between Microsoft Teams and customer engagement apps in Dynamics 365; however, changes made to the record in Microsoft Teams will update in the customer engagement app.
+This error is displayed in two scenarios:
 
-This is how the error will display on the notification bar:
+- When the Dynamics 365 entity that you are trying to pin is not enabled for SharePoint document management. For example, if you are trying to pin an appointment record in Teams but the Appointment entity is not enabled for SharePoint. In this case, [Enable SharePoint document management for the entity](#enable-sharepoint-document-management-for-an-entity).
 
-> [!div class="mx-imgBorder"] 
-> ![Connection to Dynamics 365 apps failed.](media/teams-error-connection-failed.png "Connection to Dynamics 365 apps failed")
+- When the file synchronization is not set up or has failed between Teams and customer engagement apps in Dynamics 365. In this case, 
+    - [Set up apps in Dynamics 365 to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+    - Repin the Dynamics 365 tab.
+
+#### Enable SharePoint document management for an entity
+
+1. Sign into Power Apps.
+1. Select the **Settings** icon at the top-right corner, and then select **Advanced Settings**.
+1. From the **Settings** dropdown, select **Document Management Settings**.
+1. From the entities list, select the entity for which you want to enable SharePoint integration.
+    :::image type="content" source="media/entities-for-dms.png" alt-text="Screenshot of Document Management Settings dialog with the Appointment entity highlighted":::
+1. Save the changes.
+
+You should now be able to pin the records related to the selected entity in Teams.
+
+#### Repin the Dynamics 365 tab
+
+If file synchronization is not set up between Microsoft Teams and customer engagement apps in Dynamics 365, the connection fails; however, changes made to the record in Microsoft Teams will update in the customer engagement app.
 
 > [!IMPORTANT]
 > When you first create a new team and channel in Microsoft Teams, you might see this error because it takes some time for Microsoft Teams to provision a new SharePoint file library for the channel. Wait a few minutes, and then refresh your browser to retry the connection.
