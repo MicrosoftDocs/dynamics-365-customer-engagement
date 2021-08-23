@@ -60,7 +60,7 @@ The high-level process to set up unified routing for a channel is as follows.
 |Step|Task |Description|
 |----------|-----------|-------|
 |![Step 1 for configuring users in Omnichannel admin center.](media/step-1.png "Step 1") |<ol><li>[Create users in Microsoft 365 admin center](/power-platform/admin/create-users)</li><li>[Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)</li></ol>| Create users in Microsoft 365 and configure them in Customer Service.|
-|![Step 2.](media/step-2.png "Step 2")|[Create a workstream for unified routing](create-workstreams.md)| Create a workstream for routing conversations|[Create queues](queues-omnichannel.md)|
+|![Step 2.](media/step-2.png "Step 2")|[Create a workstream for unified routing](create-workstreams.md)| Create a workstream for routing conversations|
 |![Step 3 for configuring queues.](media/step-3.png "Step 3")|[Create and manage queues](queues-omnichannel.md)|Configure queues for conversations|
 |![Step 4 for configuring routing rules.](media/step-4.png "Step 4") |[Configure routing rules](configure-work-classification.md)| Configure routing rules for conversations|
 |![Step 5 for assignment rules.](media/step-5.png "Step 5") |[Configure assignment rules](assignment-methods.md)|Configure assignment rules for routing conversations.|
