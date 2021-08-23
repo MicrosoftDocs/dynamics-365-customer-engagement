@@ -45,7 +45,9 @@ You can create queues for unified routing in Omnichannel admin center or in the 
 
 In this section, we cover information on how to create a queue and set operating hour record for the queue.
 
-1. In the Omnichannel admin center site map, under **General settings**, select **Queues**. If you are using Customer Service Hub, go to the **Service Management** site map, and under **Unified Routing**, select **Advanced queues**.
+1. Do one of the following:
+   - In the Omnichannel admin center site map, under **General settings**, select **Queues**.
+   - In Customer Service Hub, go to the **Service Management** site map, and under **Unified Routing**, select **Advanced queues**.
 2. On the **Queues** page, do the following:
 
     1. Select **New**.
@@ -54,7 +56,7 @@ In this section, we cover information on how to create a queue and set operating
        - **Type**: Select **Messaging** or **Record**.
        - **Group number**: A number to organize the queue.
     3. Select **Create**. The queue that you created is displayed.
-     
+
        > [!div class=mx-imgBorder]
        > ![Queue in Omnichannel admin center.](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
 
