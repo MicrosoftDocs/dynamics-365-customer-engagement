@@ -139,6 +139,7 @@
       - name: Overview of JavaScript API reference
         href: ../app-profile-manager/reference/microsoft-apm.md
       - name: Session management APIs
+      items:       
       - name: Methods
         items: 
         - name: getFocusedSession
@@ -168,6 +169,7 @@
         - name: title
           href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md                      
       - name: Tab management APIs
+      items:       
       - name: Methods      
         items: 
         - name: getFocusedTab
