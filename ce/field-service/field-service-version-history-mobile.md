@@ -24,6 +24,44 @@ search.app:
 
 This article chronicles important updates related to Field Service Mobile (Xamarin) app and associated mobile project templates.
 
+## 13.2.216
+
+### Bug fixes
+
+- All Platforms: Fixed an issue which did not allow users to login to SharePoint
+
+- iOS: App crashes when trying to send logs from iPhone
+
+- Android: App crashes intermittently when device is on Airplane mode
+
+- All Platforms: Mobile report improvements
+
+## 13.2.214
+
+### Bug fixes
+- Android: Fixed an issue where users were repeatedly prompted for Location Access permission
+
+## 13.2.212
+
+### Updates
+
+- Windows: Enable WAM integration support for Windows app
+
+### Bug fixes
+
+- iOS: Blank Screen when using PIN for Field Service Mobile app
+- All platforms: Localized report does not appear on the list in the App
+- Windows: When reducing the FSM screen width the Label name does not render properly
+- Android: Some files not opening because of MimeType of attached files in the Notes entity is wrong
+- All platforms: Localization fixes in Calendar Control
+- iOS: Clicking on the "Email a link" button is not generating correct URL
+- All platforms: Fixed formatting issues with PDF/Word report (Background color, Header and Page number)
+- All platforms: Signature in the PDF Report appears bigger than usual size
+- All platforms: Settings locked in Woodford still showing under 'Settings' in the FSM app
+- Windows: Form UI jumps to top of form on clicking any field
+- Android,iOS: Default 'Notes' view does not show description
+- Android: Setting to allow user to give background Location tracking access to FSM
+
 
 ## 13.2.208 (Only iOS)
 
