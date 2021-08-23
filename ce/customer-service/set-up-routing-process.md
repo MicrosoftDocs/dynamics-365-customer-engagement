@@ -25,7 +25,7 @@ In this article, we'll take you through the high-level process of configuring un
 
 ### Prerequisites
 
-The following prerequisites are applicable.
+The following prerequisites are applicable:
 
 - The latest release of Customer Service must be installed. More information: [What's new in Customer Service](/dynamics365-release-plan/2021wave1/service/dynamics365-customer-service/)
 - The System Administrator role to set up unified routing for records and work items.

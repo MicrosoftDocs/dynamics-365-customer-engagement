@@ -24,10 +24,12 @@ If you have only Dynamics 365 Customer Service, the options to configure unified
 
 ## Prerequisites
 
+The following prerequisites are applicable:
+
 - To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing for Customer Service](provision-unified-routing.md).
 - To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](enable-entities-for-queues.md).
 - You must have the System Administrator role to configure record routing.
-- For runtime, you must have users configured as bookable resource. More information: [Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)
+- You must have users configured as bookable resource. More information: [Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)
 
 ## Configure unified routing for records
 
@@ -95,7 +97,7 @@ The following screenshot shows a workstream with the required intake rule and ro
    > [!NOTE]
    > The agent notifications that you configure for routing of records based on unified routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
-### Typical next steps
+### Next steps
 
 ![Next step.](media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#enable-routing-diagnostics)  
 ![Home.](media/home-button.png "Home") [Process for setting up unified routing](set-up-routing-process.md)  
