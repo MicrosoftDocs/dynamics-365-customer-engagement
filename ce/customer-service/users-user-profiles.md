@@ -19,9 +19,13 @@ For more information on how to create users and assign security roles, see [Assi
 
 ## Manage a user in Omnichannel for Customer Service
 
-1. In the site map of Omnichannel admin center, select **Users** under **General settings**. If you're using the Omnichannel Administration app, select **Users** under **Queues & Users**.
+Perform the steps in this section to manage users for unified routing.
 
-2. In the **Omnichannel Users** view, double-click a user in the list.
+1. Do one of the following:
+   - In the site map of Omnichannel admin center, select **Users** under **General settings**.
+   - In Customer Service Hub, go to the **Service Management** site map, and under **Unified Routing**, select **Users**.
+
+2. Double-click a user in the list.
 
 3. Select the **Omnichannel** tab.
 
@@ -40,7 +44,7 @@ For more information on how to create users and assign security roles, see [Assi
    2. Select **Save**. The **Work Hours** tab is enabled.
  
     > [!IMPORTANT]
-    > To add the work hour for a bookable resource, universal resource scheduling must be available in your organization. Universal resource scheduling is available with Dynamics 365 Field Service, Dynamics 365 Project Service, or Dynamics 365 Service Scheduling. More information: [Overview of Service Scheduling](/dynamics365/customer-service/basics-service-service-scheduling)
+    > To add the work hours for a bookable resource, universal resource scheduling must be available in your organization. Universal resource scheduling is available with Dynamics 365 Field Service, Dynamics 365 Project Service, or Dynamics 365 Service Scheduling. More information: [Overview of Service Scheduling](/dynamics365/customer-service/basics-service-service-scheduling)
 
    3. You can update the existing work hours or create work hours for the user.
 
@@ -50,16 +54,16 @@ For more information on how to create users and assign security roles, see [Assi
    
    6. In **Rating Value**, select the rating value that the user has on the skill.
    
-   5. Save and close to return to the **Omnichannel** tab of the **User** page.
+   7. Save and close to return to the **Omnichannel** tab of the **User** page.
 
-8. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
+7. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
 
 > [!div class=mx-imgBorder]
 > ![Default presence.](media/oc-user-omni-tab.png)
 
 ### Capacity
 
-Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the agent must be a multiplier of the capacity unit that you have defined for the associated work stream. Check the capacity unit defined for the work streams to determine the value that must be assigned to your agents. For example, if the capacity unit is 1 for a workstream and you want an agent to be able to take up to 3 conversations simultaneously, the capacity that you assign to the agent should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the agent to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity for the agent. You can also define capacity profiles. However, we recommend that you use either capacity units or capacity profiles in your environment and not both. More information: [Create and manage capacity profiles](capacity-profiles.md).
+Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the agent must be a multiplier of the capacity unit that you have defined for the associated workstream. Check the capacity unit defined for the workstreams to determine the value that must be assigned to your agents. For example, if the capacity unit is 1 for a workstream and you want an agent to be able to take up to 3 conversations simultaneously, the capacity that you assign to the agent should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the agent to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity for the agent. You can also define capacity profiles. However, we recommend that you use either capacity units or capacity profiles in your environment, and not both. More information: [Create and manage capacity profiles](capacity-profiles.md).
 
 ### See also
 
