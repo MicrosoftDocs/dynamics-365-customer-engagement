@@ -1,6 +1,6 @@
 ---
-title: "Configure post-call recordings and transcripts in the voice channel administrator dashboard | MicrosoftDocs"
-description: "Learn how to configure post-call recordings and transcripts in the voice channel for Omnichannel for Customer Service."
+title: "Configure call recordings and transcripts in the voice channel administrator dashboard | MicrosoftDocs"
+description: "Learn how to configure call recordings and transcripts in the voice channel for Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Configure post-call recordings and transcripts in the voice channel 
+# Preview: Configure call recordings and transcripts in the voice channel 
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
