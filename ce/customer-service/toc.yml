@@ -139,8 +139,8 @@
       - name: Overview of JavaScript API reference for Application profile manager
         href: ../app-profile-manager/reference/microsoft-apm.md
       - name: Session management APIs  
+        items:       
         - name: Methods
-          items: 
           - name: getFocusedSession
             href: ../app-profile-manager/reference/microsoft-apm/getFocusedSession.md
           - name: getAllSessions
@@ -195,8 +195,8 @@
             - name: title
               href: ../app-profile-manager/reference/microsoft-apm/tabtitle.md   
         - name: Context management APIs
-      - name: Methods      
-        items: 
+          items:        
+        - name: Methods       
         - name: updateContext
           href: ../app-profile-manager/reference/microsoft-apm/updateContext.md                   
     - name: Readme
