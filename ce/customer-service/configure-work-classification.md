@@ -92,7 +92,7 @@ At runtime, all rules in the decision list will be evaluated. Before a work item
 1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** beside **Route to queues**, and then select **Create Rule** in **Decision list**.
 2. In the **Create route to queue rule** dialog box, enter a name in **Rule Name**.
 3. In **Conditions**, define the set of conditions.
-4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met. 
+4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
    > [!NOTE]
    > Make sure that you don't select the **Default messaging queue** or **Default entity queue** in the list. More information: [Default queues in Omnichannel for Customer Service](queues-omnichannel.md#default-queues)
 

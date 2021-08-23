@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing | MicrosoftDocs"
 description: "How to set up unified routing"
-ms.date: 08/18/2021
+ms.date: 08/23/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ Typically, you'll use Customer Service Hub to set up routing of records, such as
 
 You'll use Omnichannel admin center to route work items that come through different channels, such as live chat or Microsoft Teams.
 
-In this article, we'll take you through the high-level process of configuring unified routing. 
+In this article, we'll take you through the high-level process of configuring unified routing in both the apps.
 
 > [!Note]
 > We recommend that you familiarize yourself with the UI because you'll perform the steps and procedures on different pages.
@@ -55,18 +55,18 @@ Make sure that you have the Customer Service Representative role to try the runt
 1. Perform the steps in [Create a case](customer-service-hub-user-guide-create-a-case.md).
 2. Go to the case details page, and select **Save & Route** on the window.
 
+## Set up unified routing for channels in Omnichannel admin center
 
-## Set up unified routing in Omnichannel admin center
+The high-level process to set up unified routing for a channel is as follows.
 
-### Set up routing for channels
-
-The high-level process to set up unified routing for a channel is as follows:
-
-1. Set up the users as a bookable resource.
-2. [Create a workstream for unified routing](create-workstreams.md)
-3. [Configure routing rules](configure-work-classification.md)
-4. [Create queues](queues-omnichannel.md)
-5. [Configure assignment rules](assignment-methods.md)
+|Step|Task |Description|
+|----------|-----------|-------|
+|![Step 1 for configuring users in Omnichannel admin center.](media/step-1.png "Step 1") |<ol><li>[Create users in Microsoft 365 admin center](https://docs.microsoft.com/power-platform/admin/create-users)</li><li>[Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)</li></ol>| Create users in Microsoft 365 and configure them in Customer Service.|
+|![Step 2.](media/step-2.png "Step 2")|[Create a workstream for unified routing](create-workstreams.md)| Create a workstream for routing conversations|[Create queues](queues-omnichannel.md)|
+|![Step 3 for configuring queues.](media/step-3.png "Step 3")|Configure queues for conversations|
+|![Step 4 for configuring routing rules.](media/step-4.png "Step 4") |[Configure routing rules](configure-work-classification.md)| Configure routing rules for conversations|
+|![Step 5 for assignment rules.](media/step-5.png "Step 5") |[Configure assignment rules](assignment-methods.md)|Configure assignment rules for routing conversations.|
+||||
 
 ## Additional settings
 
