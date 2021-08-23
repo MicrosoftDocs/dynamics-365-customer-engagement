@@ -13,6 +13,7 @@ searchScope:
   - D365-Entity-list
   - D365-Entity-campaign
   - D365-Entity-campaignresponse
+  - D365-Entity-campaignactivity
   - D365-Entity-bulkoperation
   - D365-UI-*
   - Dynamics 365

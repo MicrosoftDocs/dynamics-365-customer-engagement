@@ -6,6 +6,13 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
+searchScope: 
+  - D365-App-msdynce_saleshub
+  - D365-Entity-account
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Organize contacts in live org charts for accounts
