@@ -27,12 +27,10 @@ In this article, we'll take you through the high-level process of configuring un
 
 The following prerequisites are applicable.
 
-|Prerequisite|Applicable to|
-|-------|------------|
-|The latest release of Customer Service must be installed. More information: [What's new in Customer Service](/dynamics365-release-plan/2021wave1/service/dynamics365-customer-service/)| To route records and work items from channels|
-|System Administrator role |To set up unified routing for records and work items|
-|You must enable the record for routing using records channel configuration. More information: [Records routing](enable-entities-for-queues.md).| To route records |
-|||
+- The latest release of Customer Service must be installed. More information: [What's new in Customer Service](/dynamics365-release-plan/2021wave1/service/dynamics365-customer-service/)
+- The System Administrator role to set up unified routing for records and work items.
+- To route records, you must enable the record for routing using the records channel configuration. More information: [Records routing](enable-entities-for-queues.md)
+
 
 ## Set up unified routing for records in Customer Service Hub
 
@@ -63,7 +61,7 @@ The high-level process to set up unified routing for a channel is as follows.
 |----------|-----------|-------|
 |![Step 1 for configuring users in Omnichannel admin center.](media/step-1.png "Step 1") |<ol><li>[Create users in Microsoft 365 admin center](/power-platform/admin/create-users)</li><li>[Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)</li></ol>| Create users in Microsoft 365 and configure them in Customer Service.|
 |![Step 2.](media/step-2.png "Step 2")|[Create a workstream for unified routing](create-workstreams.md)| Create a workstream for routing conversations|[Create queues](queues-omnichannel.md)|
-|![Step 3 for configuring queues.](media/step-3.png "Step 3")|Configure queues for conversations|
+|![Step 3 for configuring queues.](media/step-3.png "Step 3")|[Create and manage queues](queues-omnichannel.md)|Configure queues for conversations|
 |![Step 4 for configuring routing rules.](media/step-4.png "Step 4") |[Configure routing rules](configure-work-classification.md)| Configure routing rules for conversations|
 |![Step 5 for assignment rules.](media/step-5.png "Step 5") |[Configure assignment rules](assignment-methods.md)|Configure assignment rules for routing conversations.|
 ||||

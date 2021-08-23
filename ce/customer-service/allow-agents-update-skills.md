@@ -19,7 +19,7 @@ Perform the following steps to enable the setting that allows agents to update s
 
 1. Sign in to Dynamics 365.
 
-2. In Omnichannel admin center or in Customer Service Hub, in the site map, select **User attributes**, and then select **Manage** beside **Skill-based routing** on the **User attributes** page.
+2. In Omnichannel admin center or in Customer Service Hub, in the site map, select **User attributes**, and then select **Manage** next to **Skill-based routing** on the **User attributes** page.
 
 3. On the **Skill based routing** tab, set the **Enable update skill control** toggle to **Yes**.
 

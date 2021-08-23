@@ -50,12 +50,12 @@ A detailed explanation is as follows:
      [Omnichannel Insights Dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard)  
      [Omnichannel Sentiment Analysis dashboard](omnichannel-insights-dashboard.md#omnichannelsentiment-analysisdashboard)  
 
-- **Sign in and read your profile**: This permission allows Omnichannel to sign into the app with user’s work account and let the app read the user profile. It also allows the app to read basic company information.
+- **Sign in and read your profile**: Allows Omnichannel to sign into the app with user’s work account and let the app read the user profile. It also allows the app to read basic company information.
 
 - **Access Common Data Service as you**: 
-  - **For Customer Service users**: This permission is needed so that Customer Service, on behalf of the administrator, can automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel agents and supervisors characteristics, such as capacity, skill, and presence; configuration data such as workstreams and queues; and to sync queue item and conversation data with Dataverse.
+  - **For Customer Service users**: Allows Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel agents and supervisors characteristics, such as capacity, skill, and presence; configuration data such as workstreams and queues; and to sync queue item and conversation data with Dataverse.
 
-  - **For Omnichannel for Customer Service users**: This permission is needed so that Omnichannel for Customer Service, on behalf of the administrator, can automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel agents’ characteristics, such as capacity, skill, and presence, and to sync chat-related entities with Dataverse.
+  - **For Omnichannel for Customer Service users**: Allows Omnichannel for Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel agents’ characteristics, such as capacity, skill, and presence, and to sync chat-related entities with Dataverse.
 
 ## What happens when I provide data access consent and provision Omnichannel for Customer Service?
 
@@ -74,7 +74,9 @@ A screenshot of the engagement hub is as follows.
 ### Why is an admin consent required? Is it only for giving consent to the delegated permissions that are listed? Or are more privileged operations performed in the tenant after the admin consent? If yes, which principals are created, and what roles or permissions are assigned?
 
 Only the delegated permissions are required. On consent, the following two service principals are created:
+
 – “Omnichannel APIs”
+
 - “Omnichannel for Customer Service”
 
 ### Why is the global admin role required, and not a less powerful one?
