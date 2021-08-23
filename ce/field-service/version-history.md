@@ -60,7 +60,7 @@ This release is an update to Field Service 2021 Wave 2 early access version [8.8
 
 (Includes Universal Resource Scheduling version [3.12.61.21](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126121---2021-wave-2-early-access-update-1)).
 
-- Improved the logic that updates the "Instructions" field on the work order when the service account is updated.
+- Improved the logic that updates the **Instructions** field on the work order when the service account is updated.
 
 ## 8.8.48.30 
 
@@ -72,7 +72,7 @@ This release is a hotfix on Field Service version [8.8.48.23](/dynamics365/field
 
 (Includes Universal Resource Scheduling version [3.12.50.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#3125027)).
 
-- Resolved a permissions inheritance issue which could impact users who have a role which worked when users belonged to a team with the same role.
+- Resolved a permissions inheritance issue that could impact users who have a role which worked when users belonged to a team with the same role.
 - Fixed an issue related to decimal point number formatting with inspections when using a symbol other than the dot to indicate the decimal place.
 
 ## 8.8.51.75 (2021 Wave 2 early access)
