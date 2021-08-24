@@ -138,7 +138,7 @@ The customer engagement app environment that you are trying to connect does not 
 
 ### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
 
-This error is displayed in two scenarios:
+This error is displayed in the following scenarios:
 
 - When the Dynamics 365 entity that you are trying to pin is not enabled for SharePoint document management. For example, if you are trying to pin an appointment record in Teams but the Appointment entity is not enabled for SharePoint. In this case, [Enable SharePoint document management for that entity](/power-platform/admin/enable-sharepoint-document-management-specific-entities).
 
