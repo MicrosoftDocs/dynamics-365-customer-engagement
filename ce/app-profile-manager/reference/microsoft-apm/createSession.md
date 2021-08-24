@@ -55,7 +55,7 @@ These examples use the `createSession` method to launch a new session passing an
 
 ### Basic session creation
 
-Launches a new session passing the incident as entity name, incident Id as entityId and unique name of the session template as templateName.
+Launches a new session passing the incident as entity name, incident Id as entityId, and unique name of the session template as templateName.
 
 > [!Note]
 > The user invoking these methods requires to be assigned to an app profile that contains the session template.

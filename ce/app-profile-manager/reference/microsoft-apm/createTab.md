@@ -50,7 +50,7 @@ These examples use the `createTab` method to launch a new tab.
 
 ### Basic tab creation
 
-Launches a new tab in the focused session passing entity name, recordId and app tab template.
+Launches a new tab in the focused session passing entity name, recordId, and app tab template.
 
 ```JavaScript
 var tabInput = {templateName: "msdyn_entityrecord",  appContext: new Map().set("entityName", "account").set("entityId", "09e68a6e-b7ef-eb11-bacb-000d3a373d11"),  isFocused: true};
