@@ -1,7 +1,7 @@
 ---
 title: "Resource preferences in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about resource preferences in Dynamics 365 Field Service
-ms.date: 01/14/2020
+ms.date: 08/24/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -30,9 +30,9 @@ From a requirement, the dispatcher can add one or more resource preferences.
 
 For each resource added as a resource preference, you can define a **Preference Type**:
 
-- **Preferred:** these resources will show at the top of schedule assistant(horizontal view) results. Resource scheduling optimization will prioritize these resources over others, but will not guarantee the requirement is scheduled to them. 
-- **Restricted:** these resources will be excluded from schedule assistant results. Resource scheduling optimization will not auto schedule the requirement to them.
-- **Must choose from:** only these resources will show in schedule assistant results. Resource scheduling optimization will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
+- **Preferred:** These resources will show at the top of schedule assistant (horizontal view) results. Resource scheduling optimization will prioritize these resources over others, but will not guarantee the requirement is scheduled to them. 
+- **Restricted:** These resources will be excluded from schedule assistant results. Resource scheduling optimization will not auto schedule the requirement to them.
+- **Must choose from:** Only these resources will show in schedule assistant results. Resource scheduling optimization will schedule to one of them. If none of these resources are available, the requirement will not be scheduled.
 
 Because you can add multiple resource preferences to a single requirement, you can note both preferred resources and restricted resources on the same requirement.
 
