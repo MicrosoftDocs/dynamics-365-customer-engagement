@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 search.audienceType: 
 
   - enduser
