@@ -24,9 +24,12 @@ If you have only Dynamics 365 Customer Service, the options to configure unified
 
 ## Prerequisites
 
+The following prerequisites are applicable:
+
 - To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing for Customer Service](provision-unified-routing.md).
 - To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](enable-entities-for-queues.md).
 - You must have the System Administrator role to configure record routing.
+- You must have users configured as bookable resource. More information: [Set up the user as a bookable resource](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)
 
 ## Configure unified routing for records
 
@@ -34,7 +37,9 @@ You can configure unified routing for records through Customer Service Hub or Om
 
 Perform the following steps to configure record routing:
 
-1. If you're using Customer Service Hub, then in the **Service Management** change area, on the site map, select **Record routing** under **Unified Routing**. If you're using Omnichannel admin center, on the site map, select **Record routing** under **General settings**.
+1. Do one of the following:
+   - In Customer Service Hub, in **Service Management**, on the site map, select **Record routing** under **Unified Routing**. 
+   - In Omnichannel admin center, on the site map, select **Record routing** under **General settings**.
 
 2. On the **Record routing** page, select **Add**.
 
@@ -91,6 +96,11 @@ The following screenshot shows a workstream with the required intake rule and ro
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    > [!NOTE]
    > The agent notifications that you configure for routing of records based on unified routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
+
+### Next steps
+
+![Next step.](media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#enable-routing-diagnostics)  
+![Home.](media/home-button.png "Home") [Process for setting up unified routing](set-up-routing-process.md)  
 
 ### See also
 

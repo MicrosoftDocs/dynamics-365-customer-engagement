@@ -1,6 +1,6 @@
 ---
-title: "Entities and metadata overview in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn about entities and metadata"
+title: "Overview of entity metadata in Dynamics 365 Customer Engagement (on-premises)"
+description: "Entity metadata controls the records you can create and which actions can be performed. You can edit metadata to create entities, relationships, and fields."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
 
 ---
 
-# Entities, metadata, and the metadata browser
+# Overview of entity metadata and the metadata browser
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Entities and metadata in Dataverse](/powerapps/maker/common-data-service/create-edit-metadata)
 

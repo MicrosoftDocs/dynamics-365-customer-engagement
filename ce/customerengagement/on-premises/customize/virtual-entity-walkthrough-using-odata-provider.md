@@ -1,6 +1,6 @@
 ---
-title: "Virtual entity walkthrough using the OData Data Provider with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to use the OData v4 data provider with a virtual entity"
+title: "Create virtual entity using OData Data Provider in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use this simple walkthrough to learn how to use the OData v4 data provider with a virtual entity to integrate data from an external source."
 ms.custom: 
 ms.date: 05/03/2021
 ms.reviewer: 

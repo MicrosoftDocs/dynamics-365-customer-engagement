@@ -1,6 +1,6 @@
 ---
-title: "Use the virtual entity OData v4 data provider with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to use the Virtual entity OData v4 data provider"
+title: "Configure OData v4 Data Provider in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to configure the OData v4 Data Provider to connect Dynamics 365 with an OData web service to integrate external data."
 ms.custom: 
 ms.date: 01/14/2019
 ms.reviewer: 
@@ -21,7 +21,7 @@ search.audienceType:
 
 ---
 
-# OData v4 Data Provider configuration, requirements, and best practices
+# OData v4 Data Provider configuration and best practices
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [OData v4 Data Provider configuration](/powerapps/maker/data-platform/virtual-entity-odata-provider-requirements)
 

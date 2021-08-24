@@ -24,7 +24,7 @@ In the Direct Line channel, when an agent sends (*outbound*) a message formatted
 
 ## Markdown formats
 
-The following table lists the Markdown formats used in inbound messages received by the customer and outbound messages sent by the agent to the customer.
+The following table lists the Markdown formats used in inbound messages sent by the customer and outbound messages sent by the agent to the customer.
 
 |          Style            |      Inbound                      |    Outbound                           | Example   |
 | ------------------------- | -------------------------------   | --------------------------------------|-----------|
