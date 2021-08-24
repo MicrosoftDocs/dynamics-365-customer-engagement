@@ -1,6 +1,6 @@
 ---
-title: "Microsoft.Apm (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the APIs of multi-session apps such as Omnichannel for Customer Service and Customer Service workspace."
+title: "App profile manager JavaScript API Reference for multi-session apps | MicrosoftDocs"
+description: "Learn about the app profile manager APIs of multi-session apps such as Omnichannel for Customer Service and Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: Microsoft.Apm methods (JavaScript API reference)
+# Preview: App profile manager JavaScript API reference
 
 <!--
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
@@ -22,17 +22,19 @@ ms.topic: reference
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-Provides methods to use the JavaScript API to manage the app tabs in a session. The APIs can be used in the app tab management in multi-session apps.
+## Introduction
+
+The app profile manager JavaScript API reference includes methods and properties to manage the app tabs in a session. The APIs can be used in app tab management of multi-session apps such as Omnichannel for Customer Service and Customer Service workspace.
 
 ## Prerequisite
 
 You must have App Profile user or Productivity tools user security roles to use the app profile manager APIs.
 
-## Session management APIs
+## Session management
 
 The following methods and properties allow you to manage sessions in Customer Service workspace.
 
-| Method | Description |
+| **Method** | Description |
 |---------|-------------|
 | [getFocusedSession](microsoft-apm/getFocusedSession.md) | Returns the session object of the session that is in focus. |
 | [getAllSessions](microsoft-apm/getAllSessions.md) | Returns the unique identifier of all sessions. |
@@ -51,11 +53,11 @@ The following methods and properties allow you to manage sessions in Customer Se
 | [canClose](microsoft-apm/canCloseSession.md) | Boolean value indicating whether a given session can be closed. |
 | [title](microsoft-apm/sessiontitle.md) | The text label of a given session. |
 ||||
-## Tab management APIs
+## Tab management
 
 The following methods and properties allow you to manage tabs in Customer Service workspace.
 
-| Method | Description |
+| **Method** | Description |
 |---------|-------------|
 | [getFocusedTab](microsoft-apm/getFocusedTab.md) | Returns the tab object of the tab that is in focus. |
 | [getAllTabs](microsoft-apm/getAllTabs.md) | Returns the unique identifier of all tabs for a given session. |
@@ -74,7 +76,7 @@ The following methods and properties allow you to manage tabs in Customer Servic
 | [title](microsoft-apm/tabtitle.md) | The text label of a given tab. |
 ||||
 
-## Context management APIs
+## Context management
 
 The following method allows you to manage the session context in Customer Service workspace.
 
