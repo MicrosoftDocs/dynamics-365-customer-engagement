@@ -14,8 +14,8 @@ Creates a session based on a session template and returns the unique identifier 
 
 ## Syntax
 
-`Microsoft.Apm.createSession(input, correlationId).then(successCallback, errorCallback);`
-For SessionInput, it contains templateName, sessionContext, isFocused as its JSON parameters.
+`Microsoft.Apm.createSession(SessionInput);`
+
 
 ## Parameters
 

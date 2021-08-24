@@ -14,8 +14,7 @@ Creates an app tab in a focused session and returns the unique identifier of the
 
 ## Syntax
 
-<!--`Microsoft.Apm.createTab(tabInput).then(successCallback, errorCallback);` -->
-`Microsoft.Apm.createTab(tabInput);`
+`Microsoft.Apm.createTab(AppTabInput);`
 
 ## Parameters
 
