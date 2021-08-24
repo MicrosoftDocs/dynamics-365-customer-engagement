@@ -89,7 +89,7 @@ After you have enabled IFD on the [!INCLUDE[pn_microsoftcrm_server](../includes/
   
 17. Select **Finish**.  
   
-18. In the **Rules Editor**, select **Add Rule**,  
+18. In the **Rules Editor**, select **Add Rule**.  
   
 19. In the **Claim rule template** list, select the **Transform an Incoming Claim** template, and then select **Next**.  
   

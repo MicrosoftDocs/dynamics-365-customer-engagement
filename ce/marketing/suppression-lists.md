@@ -1,7 +1,7 @@
 ---
 title: "How Dynamics 365 Marketing uses suppression lists (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how Dynamics 365 Marketing uses suppression lists to protect email sending reputations."
-ms.date: 08/20/2021
+ms.date: 08/23/2021
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.custom: 
@@ -56,4 +56,4 @@ The spam complaint suppression list stores information about spam complaints (*f
 
 ### Pattern suppression
 
-Pattern suppression is a manual list maintained by our deliverability engineers. The list stores patterns of recipient addresses that are not allowed to receive emails.
+The pattern suppression is a manual list maintained by the deliverability engineers. It contains domains or email addresses that may not be a good idea to send to. For example, test mailboxes that will never read emails or domains that host temporary or disposable email addresses. Such mailboxes and domains are accessible to anyone and sending to them may harm your sending reputation.
