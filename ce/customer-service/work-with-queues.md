@@ -168,11 +168,19 @@ You can select a view for your queues to find your required queue list.
 The table lists the views with their descriptions that you can use as per your requirements.
 | View         | Description |
 | :----------- | :------: |
-| Left-aligned | Centered |
-| blah         | blah     |
-|test| test|
-|test|test|
-|||
+|Queues Lookup View | Lists all the queues at one go. |
+|Business Queues (default)         | Lists all the queues which are not set as default queue for users or teams.    |
+|Private Queues Lookup View| Lists all the queues which are private in nature and are in active state.|
+|Entity Queues|test|
+|My Active Queues|Lists the active queues owned by you.|
+|Omnichannel queues|Lists all the active queues pertaining to Omnichannel or Unified Routing.|
+|Omnichannel queues for Entity|Lists all the active queues pertaining to Omnichannel or Unified Routing and are created for entities like case, email, and so on.|
+|Omnichannel queues for messaging|Lists all the active queues pertaining to Omnichannel or Unified Routing and are created for messaging (chat) purpose.|
+|Active Queues|Lists the queues in active state.|
+|All Queues||
+|Inactive Queues|Lists the queues in inactive state.|
+|Local User Queues||
+|Queues: Primary Email (Pending Approval)|Lists all the queues for which the primary email address is in pending approval state.|
 
 
 
