@@ -21,7 +21,7 @@ Creates an app tab in a focused Session and returns the unique identifier of the
 
 | **Name**         | **Type**      | **Required** | **Description**   |
 |------------------|----------     |--------------|-------------------|
-| tabInput         | AppTabInput   | Yes          | JSON input properties of the tab to be created       |
+| AppTabInput      | tabInput      | Yes          | JSON input properties of the tab to be created       |
 <!--| successCallback  | Function | No           | A function to call when the tab is created. Unique identifier(TabId) of the created tab is returned in the response. |
 | errorCallback    | Function | No           | A function to call when the operation fails. An object with the following properties will be passed:<br />**errorCode**: Number. The error code.<br />**message**: String. An error message describing the issue.|-->
 
@@ -43,7 +43,7 @@ The structure of the JSON `tabInput` parameter is shown below.
 
 ## Return value
 
-None
+Tab identifier as String.
 
 ## Examples
 

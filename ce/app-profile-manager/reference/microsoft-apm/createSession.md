@@ -18,9 +18,9 @@ Creates a session based on a session template and returns the unique identifier 
 
 ## Parameters
 
-| Name      | Type           | Required     | Description            |
-|-----------|----------------|--------------|--------------------    |
-| tabInput  | SessionInput   |      Yes     | JSON input properties of the session to be created.         |
+| Name         | Type           | Required     | Description            |
+|-----------   |----------------|--------------|--------------------    |
+| SessionInput |                |      Yes     | JSON input properties of the session to be created.         |
 <!--| successCallback  | Function | No           | A function to call when the tab is created. Unique identifier(TabId) of the created tab is returned in the response. |
 | errorCallback    | Function | No           | A function to call when the operation fails. An object with the following properties will be passed:<br />**errorCode**: Number. The error code.<br />**message**: String. An error message describing the issue.|
 -->
@@ -42,11 +42,11 @@ The structure of the JSON `SessionInput` parameter is shown below.
         isFocused?: boolean;
     }
 ```
-<!--
+
 ## Return value
 
-Promise string with the value as created tab identifier.
--->
+Session identifier as String.
+
 
 ## Examples
 
