@@ -34,7 +34,7 @@ You must have App Profile user or Productivity tools user security roles to use 
 
 The following methods and properties allow you to manage sessions in Customer Service workspace.
 
-| **Method** | Description |
+|Method | Description |
 |---------|-------------|
 | [getFocusedSession](microsoft-apm/getFocusedSession.md) | Returns the session object of the session that is in focus. |
 | [getAllSessions](microsoft-apm/getAllSessions.md) | Returns the unique identifier of all sessions. |
@@ -46,7 +46,7 @@ The following methods and properties allow you to manage sessions in Customer Se
 | [requestFocus](microsoft-apm/requestFocus.md) | Shows a notification indicator on a given session if the session is not focused.|
 ||||
 
-| Property | Description |
+|Property | Description |
 |------------|-------------|
 | [sessionId](microsoft-apm/sessionId.md) | The ID of a given session. |
 | [isDefault](microsoft-apm/isDefault.md) | Boolean value indicating if a given session is the Home session.|
@@ -57,7 +57,7 @@ The following methods and properties allow you to manage sessions in Customer Se
 
 The following methods and properties allow you to manage tabs in Customer Service workspace.
 
-| **Method** | Description |
+|Method | Description |
 |---------|-------------|
 | [getFocusedTab](microsoft-apm/getFocusedTab.md) | Returns the tab object of the tab that is in focus. |
 | [getAllTabs](microsoft-apm/getAllTabs.md) | Returns the unique identifier of all tabs for a given session. |
@@ -69,7 +69,7 @@ The following methods and properties allow you to manage tabs in Customer Servic
 | [refreshTab](microsoft-apm/refreshTab.md) | Refreshes the tab object for a given tab ID.   |
 ||||
 
-| Property | Description |
+|Property | Description |
 |------------|-------------|
 | [tabId](microsoft-apm/tabId.md) | The ID of a given tab. |
 | [canClose](microsoft-apm/canCloseTab.md) | Boolean value indicating if a given tab can be closed. |
@@ -80,7 +80,7 @@ The following methods and properties allow you to manage tabs in Customer Servic
 
 The following method allows you to manage the session context in Customer Service workspace.
 
-| Method | Description |
+|Method | Description |
 |---------|-------------|
 | [updateContext](microsoft-apm/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for future macro invocations. |
 ||||
