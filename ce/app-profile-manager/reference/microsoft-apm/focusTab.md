@@ -1,6 +1,6 @@
 ---
 title: "focusTab (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the focusTab API for the multi-session apps such as Omnichannel for Customer Service and Customer Service workspace."
+description: "Learn about the focusTab API for the multi-session apps such as Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -32,7 +32,7 @@ None
 
 ## Examples
 
-The following examples use the focusTab method to focus on a given tab.
+The following examples use the `focusTab` method to focus on a given tab.
 ### Focusing a tab using Microsoft.Apm.focusTab(tabId)
  ```JavaScript
 Microsoft.Apm.focusTab("tab-id-5);

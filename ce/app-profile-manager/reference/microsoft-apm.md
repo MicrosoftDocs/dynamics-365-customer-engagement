@@ -1,6 +1,6 @@
 ---
 title: "App profile manager JavaScript API Reference for multi-session apps | MicrosoftDocs"
-description: "Learn about the app profile manager APIs of multi-session apps such as Omnichannel for Customer Service and Customer Service workspace."
+description: "Learn about the app profile manager APIs of multi-session apps such as Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -24,7 +24,7 @@ ms.topic: reference
 
 ## Introduction
 
-The app profile manager JavaScript API reference includes methods and properties to manage the app tabs in a session. The APIs can be used in app tab management of multi-session apps such as Omnichannel for Customer Service and Customer Service workspace.
+The app profile manager JavaScript API reference includes methods and properties to manage tabs and sessions in Customer Service workspace.
 
 ## Prerequisite
 
@@ -64,7 +64,7 @@ The following methods and properties allow you to manage tabs in Customer Servic
 | [getTab](microsoft-apm/getTab.md) | Returns the tab object of a given tab ID.  |
 | [createTab](microsoft-apm/createTab.md) | Creates a tab in a focused session and returns the unique identifier of the created tab. |
 | [canCreateTab](microsoft-apm/canCreateTab.md) | Returns a Boolean value indicating whether a new tab can be created for a given session. |
-| [closeTab](microsoft-apm/closeTab.md) | Closes the tab object of a given tab ID. |
+| [closeTab](microsoft-apm/closeTab.md) | Closes the tab object for a given tab ID. |
 | [focusTab](microsoft-apm/focusTab.md) | Sets the focus on the tab object for a given tab ID. |
 | [refreshTab](microsoft-apm/refreshTab.md) | Refreshes the tab object for a given tab ID.   |
 ||||
@@ -72,7 +72,7 @@ The following methods and properties allow you to manage tabs in Customer Servic
 | Property | Description |
 |------------|-------------|
 | [tabId](microsoft-apm/tabId.md) | The ID of a given tab. |
-| [canClose](microsoft-apm/canCloseTab.md) | Boolean value indicating if a given tab can be closed. |
+| [canClose](microsoft-apm/canCloseTab.md) | Boolean value indicating whether a given tab can be closed. |
 | [title](microsoft-apm/tabtitle.md) | The text label of a given tab. |
 ||||
 

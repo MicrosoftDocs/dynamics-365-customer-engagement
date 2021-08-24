@@ -1,6 +1,6 @@
 ---
 title: "updateContext context management API (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the updateContext context management API for the multi-session apps such as Omnichannel for Customer Service and Customer Service workspace."
+description: "Learn about the updateContext context management API for the multi-session apps such as Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -20,7 +20,7 @@ Allows you to set the automation dictionary and enables providers to add, modify
 
 | Name             | Type     | Required | Description |
 |------------------|----------|----------|---------------------------------------------|
-| input            | object   | Yes      | JSON input properties of the session context to be updated. |
+| input            | String   | Yes      | JSON input properties of the session context to be updated. |
 <!--| successCallback  | Function | No           | A function to call when the tab is created. Unique identifier(TabId) of the created tab is returned in the response. |
 | errorCallback    | Function | No           | A function to call when the operation fails. An object with the following properties will be passed:<br />**errorCode**: Number. The error code.<br />**message**: String. An error message describing the issue.|
 -->

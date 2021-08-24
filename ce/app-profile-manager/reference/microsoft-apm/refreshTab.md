@@ -1,6 +1,6 @@
 ---
 title: "refreshTab (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the refreshTab API for the multi-session apps such as Omnichannel for Customer Service and Customer Service workspace."
+description: "Learn about the refreshTab API for the multi-session apps such as Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -31,7 +31,7 @@ None
 
 ## Examples
 
-The following examples use the refreshTab method to refresh a given tab.
+The following examples use the `refreshTab` method to refresh a given tab.
 
 ### Refreshing a tab using refreshTab method
 
