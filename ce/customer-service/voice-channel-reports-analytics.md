@@ -11,9 +11,9 @@ ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 search.app:
 - D365CE
 - D365FS
@@ -73,31 +73,31 @@ Omnichannel historical analytics reports provide comprehensive information on ho
 
 
 
-| **Metric**        | **Definition (historical)**     |
+| **Metric** | **Definition (historical)**  |
 |----------------|---------------------|
-| Incoming conversation            | Number of conversations initiated by the customer and can be presented to a human agent.                                                              |
-| Conversations engaged            | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point.                                              |
-| Abandon Rate                     | Percentage of conversations that are not engaged by agents.     |
-| Average wait time                | Average time customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation.  |                |
-| Average Speed to answer          | Average time customers waited in the queue before connecting to an agent (the time for acceptance).      |
-| Avg. CSAT          | The average of customer satisfaction ratings provided by customers. Only available if customer voice is being configured as a post-conversation survey tool.   |
-| Avg. Conversation sentiment      | Average sentiment score based on the verbatims provided in customer voice survey.                 |
-| Avg. handle time        | Average time that an agent spent on a conversation.           |
-| Transfer rate       | Percentage of times a conversation was transferred from one agent to another agent.             |
-| Avg. customer effort             | Time customer spent on a conversation to get their issue resolved.     |
-| Avg. sessions per conversation   | Average sessions created and engaged for each conversation engaged.    |
+| Incoming conversation  | Number of conversations initiated by the customer and can be presented to a human agent. |
+| Conversations engaged  | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. |
+| Abandon Rate | Percentage of conversations that are not engaged by agents. 
+| Average wait time | Average time customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation. |
+| Average Speed to answer | Average time customers waited in the queue before connecting to an agent (the time for acceptance). |
+| Avg. CSAT | The average of customer satisfaction ratings provided by customers. Only available if customer voice is being configured as a post-conversation survey tool. |
+| Avg. Conversation sentiment | Average sentiment score based on the verbatims provided in customer voice survey. |
+| Avg. handle time | Average time that an agent spent on a conversation.  |
+| Transfer rate | Percentage of times a conversation was transferred from one agent to another agent. |
+| Avg. customer effort | Time customer spent on a conversation to get their issue resolved. |
+| Avg. sessions per conversation | Average sessions created and engaged for each conversation engaged. |
 
 
 
 This report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
 
-| **Metrics**     | **Definition**  |
+| **Metrics**  | **Definition**  |
 |----------------|------------|
-| Talk to listen ratio         | Specifies the average listen and talk ratio of agent in conversations with customers.       |
-| Talking speed  | Displays the average number of words used per minute by agent.              |
-| Switches per hour            | Displays the average switches between a agent and customer in a conversation, meaning the number of times the conversation switched from one person to another. This is a sign of engagement during conversations.   |
-| Pause before speaking        | Displays how many milliseconds an agent paused before responding to customer queries; this is a signal of patience by the agent.                                                                                     |
-| Longest customer monologue   | Displays the longest length of speech without a break by the customer with an agent in seconds; this is a signal that agent are asking good questions and showing understanding of customer needs.                   |
+| Talk to listen ratio | Specifies the average listen and talk ratio of agent in conversations with customers.  |
+| Talking speed  | Displays the average number of words used per minute by agent. |
+| Switches per hour | Displays the average switches between a agent and customer in a conversation, meaning the number of times the conversation switched from one person to another. This is a sign of engagement during conversations. |
+| Pause before speaking  | Displays how many milliseconds an agent paused before responding to customer queries; this is a signal of patience by the agent. |                       
+| Longest customer monologue   | Displays the longest length of speech without a break by the customer with an agent in seconds; this is a signal that agent are asking good questions and showing understanding of customer needs. |
 
 
 ## View call insights
