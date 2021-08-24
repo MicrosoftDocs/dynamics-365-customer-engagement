@@ -1,6 +1,6 @@
-## 3.12.51.xx
+## 3.12.51.1
 
-(Includes Resource Scheduling controls version 1.1.7.xxxxxx)
+(Includes Resource Scheduling controls version 1.1.7.211681)
 
 - When using the API msdyn_SearchResourceAvailabilityForRequirementGroup throws an error **Nullable object must have a value.**, when eligible Crew has more crew resources than the requirements in the requirement group. This null handling error is now fixed. 
 - When a Resource has a time off starting from 12 AM, for a few hours, the schedule board is showing that the resource is not working for more than the time off period. This issue happens for the timezones GMT + x hours. This issue is not fixed and schedule board should reflect the right time off period. 
