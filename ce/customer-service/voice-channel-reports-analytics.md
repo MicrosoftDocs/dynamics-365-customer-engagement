@@ -42,32 +42,30 @@ The Omnichannel historical analytics dashboard provides KPIs and trends for supe
 
 ## Prerequisites
 
-To view the rich analytics and insights for your organization, you must enable **Omnichannel historical analytics** in the Omnichannel admin center app.
+To view the rich analytics and insights for your organization, you must enable **Omnichannel historical analytics for voice** in the Omnichannel admin center app.
 
 1. In Omnichannel admin center, under **Insights** on the site map, select **Settings**.
 
 2. For **Omnichannel historical analytics for voice**, select **Manage**.
 
-3. Under **Summary**, set the **Status** toggle to **Enabled**. This enables data to be synced to Azure from Microsoft Dataverse, and provides rich analytics and insights on the data that are visualized in the Power BI report. It takes 24 hours for the reports to be provisioned for the first time. The refresh runs on a 24-hour schedule.
+3. Under **Summary**, set the **Status** toggle to **Enabled**. This enables data to be synced to Azure from Microsoft Dataverse, and provides rich analytics and insights on the data that are visualized in the Power BI report. It takes 24 hours for the reports to be provisioned for the first time. Subsequently, the reports are refreshed on a 24-hour schedule.
 
   > ![Enable historical analytics for voice.](media/voice-enable-historical-analytics.png)
 
-
 ## View Omnichannel historical analytics dashboard for voice
 
-After your administrator provisions analytics and insights in your organization, supervisor will be able to access the **Omnichannel historical analytics - insights** report in the Omnichannel for Customer Service app. This helps supervisors to monitor the KPIs and metrics natively in the omnichannel app.
+After your administrator provisions analytics and insights in your organization, supervisors will be able to access the **Omnichannel historical analytics - insights** report in the Omnichannel for Customer Service app. This helps the supervisors to monitor the KPIs and metrics natively in the omnichannel app.
 
 To access the report, in the Omnichannel for Customer Service app, on the **Home** page, select the plus (**+**) icon, and then select Omnichannel historical analytics.
 
    > ![Access Omnichannel historical analytics report.](media/image44.png "Access Omnichannel historical analytics report")
 
-The report is displayed.
+The following report is displayed.
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel historical analytics for voice channel.](./media/voice-channel-3-agent-drill-down.png "Omnichannel historical analytics for voice channel.")
 
 Omnichannel historical analytics reports provide comprehensive information on how overall support is performing across channels. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
-
 
 
 | Metric | Definition (historical)  |
@@ -87,12 +85,12 @@ Omnichannel historical analytics reports provide comprehensive information on ho
 
 This report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
 
-| Metrics  | Definition  |
+| Metric  | Definition  |
 |----------------|------------|
 | Talk to listen ratio | Specifies the average listen and talk ratio of agent in conversations with customers.  |
 | Talking speed (WPM) | Displays the average number of words used per minute by agent. |
 | Switches per conversation | Displays the average switches between a agent and customer in a conversation, meaning the number of times the conversation switched from one person to another. This is a sign of engagement during conversations. |
-| Pause before speaking (sec)  | Displays how many milliseconds an agent paused before responding to customer queries; this is a signal of patience by the agent. |                       
+| Pause before speaking (sec)  | Displays how many milliseconds an agent paused before responding to customer queries; this is a signal of patience by the agent. |
 | Longest customer monologue (sec)  | Displays the longest length of speech without a break by the customer with an agent in seconds; this is a signal that agent are asking good questions and showing understanding of customer needs. |
 
 ## View call insights
