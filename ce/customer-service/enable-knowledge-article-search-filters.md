@@ -57,27 +57,30 @@ In full text search, the archived and discarded status filters are not supported
     > ![Toggle filter to show as Preselected.](media/set-filter-preselects.png "Toggle filter to show as Preselected.")
    
 
-10. If you want to set the filters which must be shown to the agent, select the ellipsis in the top-right corner of a filter area, and then select **Visibility**.
+10. If you want to set the filters that must be shown to the agent, select the ellipsis in the top-right corner of a filter area, and then select **Visibility**.
    
-11. Select the values you want to show the agent, and then select **Done**.
+11. Select the values that you want to show the agent, and then select **Done**.
 12.	When you're finished with configuring the values you want, select **Save**.
 
 ## Additional configuration settings
 
-* If you want to configure custom fields as filters, you must add the fields to the Quick Find view columns. To add a field to the Quick Find view column, see [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization#configure-searchable-fields-for-relevance-search).
+* To configure custom fields as filters, you must add the fields to the Quick Find view columns. To add a field to the Quick Find view column, see [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization#configure-searchable-fields-for-relevance-search).
 
-* If Relevance Search is enabled and if you have selected the **Archived**, **Discarded**, or **Expired** values for the Status filter, you must modify the Quick Find Knowledge Article view to display articles with these values.
+* If Relevance Search is enabled and if you have selected the **Archived**, **Discarded**, or **Expired** values for the **Status** filter, articles that contain these values will not be displayed.
 
- * To view these articles in your Relevance Search results, you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog box.
+ * To view these articles in your Relevance Search results, you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog.
 
-> [!NOTE] These filters will work only if you have Relevance Search enabled.
+> [!NOTE]
+> These filters will work only if you have Relevance Search enabled.
 
 ## Add a default filter configuration
+
 The following steps apply to these data types:
 - Options set
 - Multiselect options set
 - Two choices
 - Date and time
+
 1. In the **Customer Service Hub** app, under the **Knowledge Base Management** section, select **Filters**. 
    The **Filters** page is displayed.
 2. Scroll to the bottom of the page, choose the filter type you want from the dropdown menu, and then select **Add**. The filter is added to the page.
@@ -85,28 +88,29 @@ The following steps apply to these data types:
     > [!div class=mx-imgBorder]
     > ![Add a default filter.](media/default-filter-config.png "Add a default filter.")
     
-3. Customize the filter according to your needs by selecting or deselecting the values displayed and then turn on the **Set as a preselected filter** option if you want the filter to be shown to the agent by default.
+3. Customize the filter according to your needs by selecting or deselecting the values displayed, and then turn on the **Set as a preselected filter** option if you want the filter to be shown to the agent by default.
 4. Select **Save**.
 
 ## Configure fields with data type as lookup as filters
 
-Some configurable filter values may include lookup types, where there are numerous value options that can be set. Some examples of these filters are Created by, Modified by, and Owner. For these types of values, when you add the filter, you can manually search for and select the records you want to use.
+Some configurable filter values may include lookup types, where there are numerous value options that can be set. Some examples of these filters are Created by, Modified by, and Owner. For these types of values, when you add the filter, you can manually search for and select the records that you want to use.
 
 To configure a lookup type filter:
 1. In the **Customer Service Hub** app, under the **Knowledge Base Management** section, select **Filters**.
-   The Filters page is displayed.
+   The **Filters** page is displayed.
 2. Scroll to the bottom of the page, choose the filter type you want from the dropdown menu, and then select **Add**. 
-   A **Lookup Records** field is displayed on the right-hand side of the page.
+   The **Lookup Records** flyout menu is displayed.
    
    > [!div class=mx-imgBorder]
    > ![Lookup Records field.](media/lookup-records.png "Lookup Records field.")
 
-3. To find the values you want, either enter the value details in the field or select the magnifying glass icon to list available records.
-4. Select the records you want in the results, and then select **Add**.
+3. To find the values you want, either enter the value details in the field or select the search icon to list the available records.
+4. Select the records that you want in the results, and then select **Add**.
 5. If you want to set the values as defaults, turn on the preset next to the filter to the right so that **Preselected** appears next to the filter name.
 6. Select **Save**.
 
 ## Deactivate or reactivate a filter configuration
+
 There may be times when you want to temporarily suspend a filter configuration but don’t want to lose the configuration settings. You can deactivate a filter configuration and then reactivate it later on.
 
    > [!NOTE]
@@ -115,11 +119,11 @@ There may be times when you want to temporarily suspend a filter configuration b
 Keep in mind the following:
 - If you delete a knowledge article field for which a filter has been created, your agents won't see the filter and they won't be notified about the change in the UI. You, as the administrator, will see the filter with a message indicating that it has been deleted.
 
-- If you deactivate the filter, it will show as deactivated to you as the administrator, but your agents won't see the filter on the knowledge control. When the filter is activated again, the filter configuration will remain it was previously configured.
+- If you deactivate the filter, it will show as deactivated to you as the administrator, but your agents won't see the filter on the knowledge control. When the filter is activated again, the filter configuration will remain as it was previously configured.
 
 - If an agent doesn’t have permission to see a specific field because of field-level security, then a filter created on that field won't be visible to the agent.
 
-- Filters that are available in the default, out-of-box configuration cannot be deleted.
+- Filters that are available in the default, out-of-the-box configuration can't be deleted.
 
 - If an agent sets default values, those values will persist and cannot be overwritten by changes made by an administrator.
    
@@ -140,6 +144,6 @@ You may have scenarios within your organization where agents are working on diff
    > [!NOTE]
    > This option will be available only if **Enable custom filters** is set to **Yes**.
 
-3. Customize the filter according to your needs by selecting or deselecting the values displayed and then turn on the **Set as a preselected filter** toggle if you want the filter shown to the agent by default.
+3. Customize the filter according to your needs by selecting or deselecting the values displayed and then turn on the **Set as a preselected filter** toggle if you want the filter to be shown to the agent by default.
 4. Select **Save**.
 
