@@ -1,7 +1,7 @@
 ---
 title: "Install and set up the Dynamics 365 app for Microsoft Teams | MicrosoftDocs"
 description: "By default, Microsoft Teams integration is disabled for customer engagement apps. Follow these steps to install the Dynamics 365 app for Microsoft Teams."
-ms.date: 07/02/2021
+ms.date: 08/24/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 search.audienceType: 
   - enduser
 search.app: 
