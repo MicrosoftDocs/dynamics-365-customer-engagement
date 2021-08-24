@@ -34,40 +34,41 @@ You can set up the customization of knowledge article search filters by first en
 > + In full text search mode, archived and discarded status filters are not supported.
 
 
-## Prerequisite
-
-If you want to configure custom fields as filters, you must add the fields to the Quick Find view columns. To add a field to the Quick Find view column, see [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization#configure-searchable-fields-for-relevance-search).
 
 1. Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
-2. Under the **Knowledge Base Management** section, select **Settings**.
-3. On the **Settings** page, scroll down to **Knowledge articles search filters**, and then set **Enable search filters** to **Yes**.
+2. In the **Knowledge Base Management** section, select **Settings**.
+3. On the **Settings** page, go to **Knowledge articles search filters**, set **Enable search filters** to **Yes**, and then select **Save**.
 
-   In order for agents to be able to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, the **Allow agents to personalize the knowledge articles search filters** option also must be set to **Yes**.
+   To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, set the **Allow agents to personalize the knowledge articles search filters** option to **Yes**.
    
     > [!div class=mx-imgBorder]
     > ![Enable search filters.](media/enable-search-filters.png "Enable search filters.")
 
-4. Select **Save**.
-5. In the left pane, under the **Knowledge Base Management** section, select **Filters**. The **Filters** page is displayed.
-6. Select the filters you want to make available for knowledge search. 
+5. In the **Knowledge Base Management** section, select **Filters**.
+6. On the Filters page, select the filters you want to make available for knowledge search. 
 7. To set predetermined values that will appear for agents by default, select the ellipsis in the top-right corner of a filter area, and then select **Preselects**.
     > [!div class=mx-imgBorder]
     > ![Select filter preselects.](media/select-filter-preselects.png "Select filter preselects.")
-8. To make a filter value available by default, toggle the preset next to the filter to the right so that **Preselected** appears next to the filter name.
+8. To make a filter value available by default, turn on  the **Set as preselected filter** toggle, so that  **Preselected** appears next to the filter name, and then select **Done**.
    Values that are set as preselected automatically participate in the filtering without requiring the agent to manually select them. Only values made visible can be preselected.
     > [!div class=mx-imgBorder]
     > ![Toggle filter to show as Preselected.](media/set-filter-preselects.png "Toggle filter to show as Preselected.")
    
-9. Select **Done**.
+
 10. If you want to set the filters which must be shown to the agent, select the ellipsis in the top-right corner of a filter area, and then select **Visibility**.
-   > [!NOTE]
-   >* For the **Status** filter that is available out-of-box, note that if you select the **Archived**, **Discarded**, or **Expired** status values and if you have Relevance Search enabled, you must modify the **Quick Find Knowledge Article** view, as this view currently filters out all articles that have these values, and they aren't synced by Relevance Search. No status values are returned if you don't modify the **Quick Find Knowledge Article** view. 
-> * The out-of-the-box status filters for the archived, discarded, or expired articles in the **Edit Filter Criteria** dialog box prevent these articles from being displayed in your Relevance Search results. To view them, you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog box. 
->
->* Additionally, if you don't have Relevance Search enabled, the **Archived**, **Discarded**, and **Expired** filter values won't work, and no corresponding search results for these values will be returned.
    
 11. Select the values you want to show the agent, and then select **Done**.
 12.	When you're finished with configuring the values you want, select **Save**.
+
+## Additional configurations
+
+* If you want to configure custom fields as filters, you must add the fields to the Quick Find view columns. To add a field to the Quick Find view column, see [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization#configure-searchable-fields-for-relevance-search).
+
+* In Relevance Search, if you enable the out-of-the-box Archived, Discarded, and Expired status filters, no search results are returned for these. This is because the default settings in the Quick Find Knowledge Article view filters them out.
+
+* To view these articles in your Relevance Search results, you must delete the Archived, Discarded, Expired, and Is Latest Version filters in the Quick Find Knowledge Article > Edit Filter Criteria dialog box.
+
+>> [!NOTE] These filters will work only if you have Relevance Search enabled.
 
 ## Add a default filter configuration
 The following steps apply to these data types:
