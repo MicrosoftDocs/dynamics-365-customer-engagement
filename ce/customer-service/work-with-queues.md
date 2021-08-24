@@ -152,9 +152,29 @@ If you want another person in your organization to work on an activity, you can 
   
 1. In the left pane, go to **Activities**.
   
-2. In the list of activities, select the activity you want, select **More Commands** ![More commands button.](media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
+2. In the list of activities, select the activity you want,  and then select  **Add to Queue**.
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
+
+### Pick a view for your queues ###
+You can select a view for your queues to find your required queue list. 
+1. In the left pane, go to **Activities**.
+  
+2. In the list of activities, select the activity you want,  and then select  **Add to Queue**.
+  
+3. In the **Queue** field, select the Search icon, and then select **Advanced lookup**.  
+1. On the **Choose queue** dialog, click the **Business Queues(default)** dropdown menu to view the complete list of queues views available to you.
+
+The table lists the views with their descriptions that you can use as per your requirements.
+| View         | Description |
+| :----------- | :------: |
+| Left-aligned | Centered |
+| blah         | blah     |
+|test| test|
+|test|test|
+|||
+
+
 
 ### See also
 
