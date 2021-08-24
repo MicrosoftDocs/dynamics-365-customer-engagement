@@ -86,6 +86,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 [Monitor voice calls](voice-channel-monitor-calls.md)  
 [Real-time analytics - Intraday conversation insights](intraday-conversation-insights.md)  
 [Real-time analytics - Intraday Agents insights](intraday-agents-insights.md)  
+[Voice channel analytics, reports, and call insights](voice-channel-reports-analytics.md)
 
 ### See also
 
