@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service Mobile version history | MicrosoftDocs"
 description: Find a list of important updates for Dynamics 365 Field Service mobile apps.
-ms.date: 12/07/2020
+ms.date: 08/23/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.subservice: field-service-mobile
@@ -28,40 +28,37 @@ This article chronicles important updates related to Field Service Mobile (Xamar
 
 ### Bug fixes
 
-- All Platforms: Fixed an issue which did not allow users to login to SharePoint
-
-- iOS: App crashes when trying to send logs from iPhone
-
-- Android: App crashes intermittently when device is on Airplane mode
-
-- All Platforms: Mobile report improvements
+- All platforms: Fixed an issue that did not allow users to login to SharePoint.
+- All platforms: Mobile report improvements.
+- iOS: App crashes when trying to send logs from iPhone.
+- Android: App crashes intermittently when device is on airplane mode.
 
 ## 13.2.214
 
 ### Bug fixes
-- Android: Fixed an issue where users were repeatedly prompted for Location Access permission
+
+- Android: Fixed an issue where users were repeatedly prompted for location access permission.
 
 ## 13.2.212
 
 ### Updates
 
-- Windows: Enable WAM integration support for Windows app
+- Windows: Enable WAM integration support for Windows app.
 
 ### Bug fixes
 
-- iOS: Blank Screen when using PIN for Field Service Mobile app
-- All platforms: Localized report does not appear on the list in the App
-- Windows: When reducing the FSM screen width the Label name does not render properly
-- Android: Some files not opening because of MimeType of attached files in the Notes entity is wrong
-- All platforms: Localization fixes in Calendar Control
-- iOS: Clicking on the "Email a link" button is not generating correct URL
-- All platforms: Fixed formatting issues with PDF/Word report (Background color, Header and Page number)
-- All platforms: Signature in the PDF Report appears bigger than usual size
-- All platforms: Settings locked in Woodford still showing under 'Settings' in the FSM app
-- Windows: Form UI jumps to top of form on clicking any field
-- Android,iOS: Default 'Notes' view does not show description
-- Android: Setting to allow user to give background Location tracking access to FSM
-
+- All platforms: Localized report does not appear on the list in the app.
+- All platforms: Localization fixes in calendar control.
+- All platforms: Fixed formatting issues with PDF/Word report (Background color, Header and Page number).
+- All platforms: Signature in the PDF Report appears bigger than usual size.
+- All platforms: Settings locked in Woodford still showing under 'Settings' in the Field Service Mobile app.
+- Android and iOS: Default notes view does not show description.
+- Android: Setting to allow user to give background Location tracking access to Field Service Mobile.
+- Android: Some files not opening because the `MimeType` of attached files in the notes entity is wrong.
+- iOS: Clicking on the "Email a link" button is not generating correct URL.
+- iOS: Blank screen when using PIN for Field Service Mobile app.
+- Windows: When reducing the Field Service Mobile screen width, the label name does not render properly.
+- Windows: Form UI jumps to top of form on clicking any field.
 
 ## 13.2.208 (Only iOS)
 
