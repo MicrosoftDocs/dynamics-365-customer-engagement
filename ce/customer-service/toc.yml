@@ -196,7 +196,8 @@
               href: ../app-profile-manager/reference/microsoft-apm/canCloseTab.md
             - name: title
               href: ../app-profile-manager/reference/microsoft-apm/tabtitle.md   
-        - name: Context management     
+        - name: Context management    
+          items:                
             - name: updateContext
               href: ../app-profile-manager/reference/microsoft-apm/updateContext.md                   
     - name: Readme
