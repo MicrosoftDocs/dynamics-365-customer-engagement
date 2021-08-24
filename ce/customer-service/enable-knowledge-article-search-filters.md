@@ -65,8 +65,7 @@ You can set up the customization of knowledge article search filters by first en
 * If you want to configure custom fields as filters, you must add the fields to the Quick Find view columns. To add a field to the Quick Find view column, see [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization#configure-searchable-fields-for-relevance-search).
 
 * In Relevance Search, if you enable the out-of-the-box Archived, Discarded, and Expired status filters, no search results are returned for these. This is because the default settings in the Quick Find Knowledge Article view filters them out.
-
-* To view these articles in your Relevance Search results, you must delete the Archived, Discarded, Expired, and Is Latest Version filters in the Quick Find Knowledge Article > Edit Filter Criteria dialog box.
+ To view these articles in your Relevance Search results, you must delete the Archived, Discarded, Expired, and Is Latest Version filters in the Quick Find Knowledge Article > Edit Filter Criteria dialog box.
 
 >> [!NOTE] These filters will work only if you have Relevance Search enabled.
 
