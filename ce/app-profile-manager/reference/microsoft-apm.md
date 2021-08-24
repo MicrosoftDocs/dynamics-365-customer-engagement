@@ -24,6 +24,10 @@ ms.topic: reference
 
 Provides methods to use the JavaScript API to manage the app tabs in a session. The APIs can be used in the app tab management in multi-session apps.
 
+## Prerequisite
+
+You must have App Profile user or Productivity tools user security roles to use the Microsoft.APM namespace.
+
 ## Session management APIs
 
 The following APIs allow you to manage sessions in Customer Service workspace.
