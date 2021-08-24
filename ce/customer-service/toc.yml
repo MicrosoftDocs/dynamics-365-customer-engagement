@@ -137,7 +137,7 @@
     - name: Developer experience
       items:
       - name: App profile manager JavaScript API reference
-      - items:
+      items:
         - name: Overview       
           href: ../app-profile-manager/reference/microsoft-apm.md
         - name: Session management
