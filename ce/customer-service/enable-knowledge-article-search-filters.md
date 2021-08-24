@@ -68,7 +68,7 @@ In full text search, the archived and discarded status filters are not supported
 
 * If Relevance Search is enabled and if you have selected the **Archived**, **Discarded**, or **Expired** values for the Status filter, you must modify the Quick Find Knowledge Article view to display articles with these values.
 
- * To view these articles in your Relevance Search results, you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog box.
+ * To view these articles in your Relevance Search results, you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog.
 
 > [!NOTE] These filters will work only if you have Relevance Search enabled.
 
