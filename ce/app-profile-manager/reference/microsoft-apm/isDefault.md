@@ -1,6 +1,6 @@
 ---
 title: "isDefault property (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager isDefault session property for Customer Service workspace."
+description: "Learn about the isDefault session property of app profile manager in for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.topic: reference
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Boolean value indicating whether a given session is the Home session.
+Boolean value indicating whether a session is the Home session.
 
 ## Example
 

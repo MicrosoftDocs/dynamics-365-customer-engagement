@@ -1,6 +1,6 @@
 ---
 title: "canCreateTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager canCreateTab API for Customer Service workspace."
+description: "Learn about the canCreateTab API of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,10 +12,10 @@ ms.topic: reference
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Allows you to check whether a new tab can be created in a given session.
+Allows you to check whether a new tab can be created in a session.
 
 > [!Note]
-> Customer Service workspace lets you open up to 10 tabs simultaneously, in a given session. If you open more than 10 tabs, then the message&mdash;"Maximum tabs reached. Close a tab in this session before opening another."&mdash;is displayed.
+> Customer Service workspace lets you open up to 10 tabs simultaneously, in a session. If you open more than 10 tabs, then the following message is displayed: "Maximum tabs reached. Close a tab in this session before opening another."
 
 ## Syntax
 
@@ -23,7 +23,7 @@ Allows you to check whether a new tab can be created in a given session.
 
 ## Return value
 
-A Boolean value of true if a new tab can be created; otherwise false.
+A Boolean value of true if a new tab can be created; otherwise, false.
 
 
 ## Example

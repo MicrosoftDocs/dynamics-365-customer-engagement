@@ -1,6 +1,6 @@
 ---
 title: "createTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager createTab API for Customer Service workspace."
+description: "Learn about the createTab API of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -10,7 +10,7 @@ ms.topic: reference
 
 # createTab (app profile manager)
 
-Creates an app tab in a focused session and returns the unique identifier of the created tab.
+Creates an app tab in a focused session and returns the unique identifier of the tab.
 
 ## Syntax
 
@@ -46,16 +46,16 @@ Tab identifier as String.
 
 These examples use the `createTab` method to launch a new tab.
 
-### Basic tab creation
+### Create a basic tab
 
-Launches a new tab in the focused session passing entity name, recordId, and app tab template.
+Creates a new tab in the focused session, passing the entity name, recordId, and app tab template name as parameters.
 
 ```JavaScript
 var tabInput = {templateName: "msdyn_entityrecord",  appContext: new Map().set("entityName", "account").set("entityId", "09e68a6e-b7ef-eb11-bacb-000d3a373d11"),  isFocused: true};
 Microsoft.Apm.createTab(tabInput);
 ```
 
-### Tab creation passing values to an entity form
+### Create a tab passing values to an entity form
 
 Launches a new tab in the focused session passing entity name and app tab template. It also populates the target entity form with additional values.
 

@@ -1,6 +1,6 @@
 ---
 title: "title property of the session (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager session title property for Customer Service workspace."
+description: "Learn about the session title property of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -13,7 +13,7 @@ ms.topic: reference
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 
-The text label of a given session.
+The text label of a session.
 
 > [!Note]
 > The title of the Home session cannot be changed.

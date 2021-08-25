@@ -1,6 +1,6 @@
 ---
 title: "createSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager createSession API for Customer Service workspace."
+description: "Learn about the createSession API of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -51,14 +51,14 @@ Session identifier as String.
 
 ## Examples
 
-These examples use the `createSession` method to launch a new session passing an entity record identifier and a session template.
+These examples use the `createSession` method to create a new session passing an entity record identifier and a session template as parameters.
 
-### Basic session creation
+### Create a basic session
 
-Launches a new session passing the incident as entity name, incident Id as entityId, and unique name of the session template as templateName.
+Creates a new session passing the incident as entity name, incident Id as entityId, and unique name of the session template as templateName.
 
 > [!Note]
-> The user invoking these methods requires to be assigned to an app profile that contains the session template.
+> The user invoking these methods must be assigned to an app profile that contains the session template.
 
 ```JavaScript
 x=new Map();
@@ -66,7 +66,7 @@ x.set("parametersStr", '[["entityName", "incident"], ["entityId", "fac04293-1ab0
 Microsoft.Apm.createSession({templateName: "case_entity_session_default_template", sessionContext: x});
 ```
 
-### Session creation but without focusing
+### Create a session that is not in focus
 
 ```JavaScript
 x=new Map(); 

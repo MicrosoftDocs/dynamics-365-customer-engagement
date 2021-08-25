@@ -1,6 +1,6 @@
 ---
 title: "tabID property (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager tabID property for Customer Service workspace."
+description: "Learn about the tabID property of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.topic: reference
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The identifier of a given tab.
+The identifier of a tab.
 
 ## Example
 

@@ -1,6 +1,6 @@
 ---
 title: "close method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager close API for Customer Service workspace."
+description: "Learn about the close API of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

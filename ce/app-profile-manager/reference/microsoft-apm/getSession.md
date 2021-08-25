@@ -1,6 +1,6 @@
 ---
 title: "getSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager getSession API for Customer Service workspace."
+description: "Learn about the getSession API of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.topic: reference
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Returns the session object for a given session ID.
+Returns the session object for a session ID.
 
 ## Syntax
 
@@ -20,7 +20,7 @@ Returns the session object for a given session ID.
 
 ## Parameters
 
-| **Name**         | **Type** | **Required** | **Description** |
+| **Name        | **Type** | **Required** | **Description** |
 |------------------|----------|--------------| --------------- |
 | sessionID        | String   | Yes          | The session ID  |
 

@@ -1,6 +1,6 @@
 ---
 title: "focusTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager focusTab API for Customer Service workspace."
+description: "Learn about the focusTab API of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -28,15 +28,15 @@ None.
 
 ## Examples
 
-The following examples use the `focusTab` method to focus on a given tab.
+The following examples use the `focusTab` method to set the focus on a specified tab.
 
-### Focusing a tab using Microsoft.Apm.focusTab(tabId)
+### Set a tab in focus using Microsoft.Apm.focusTab(tabId)
 
  ```JavaScript
 Microsoft.Apm.focusTab("tab-id-5);
 ```
 
-### Focusing a tab using Microsoft.Apm.getFocusedSession().getTab().close()
+### Set a tab in focus using Microsoft.Apm.getFocusedSession().getTab().focus()
 
 ```JavaScript
 Microsoft.Apm.getFocusedSession().getTab("tab-id-5").focus();

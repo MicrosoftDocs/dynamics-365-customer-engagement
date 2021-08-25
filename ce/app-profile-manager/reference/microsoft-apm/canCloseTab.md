@@ -1,6 +1,6 @@
 ---
 title: "canClose property of a tab (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager canClose tab property for Customer Service workspace."
+description: "Learn about the canClose tab property of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,10 +12,10 @@ ms.topic: reference
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-A Boolean value indicating whether a given tab can be closed.
+A Boolean value indicating whether a tab can be closed.
 
 > [!Note]
-> If canClose property is set to false, then the button to close the tab is hidden. Else, the close button is visible.
+> If the canClose property is set to false, then the button to close the tab is hidden. Otherwise, the close button is visible.
 
 ## Return value
 

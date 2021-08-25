@@ -1,6 +1,6 @@
 ---
 title: "title property of the tab (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager tab title property for Customer Service workspace."
+description: "Learn about the tab title property of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.topic: reference
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The text label of a given tab.
+The text label of a tab.
 
 ## Example
 

@@ -1,6 +1,6 @@
 ---
 title: "canCreateSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager canCreateSession API for Customer Service workspace."
+description: "Learn about the canCreateSession API of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -15,7 +15,7 @@ ms.topic: reference
 Allows you to check whether a new session can be created.
 
 > [!Note]
-> Customer Service workspace lets you open up to 10 sessions simultaneously, including the Home session. If you open more than 10 sessions, then the message&mdash;"Maximum sessions reached. Close a session before opening another."&mdash;is displayed.
+> Customer Service workspace lets you open up to 10 sessions simultaneously. If you open more than 10 sessions, then the following message is displayed: "Maximum sessions reached. Close a session before opening another."
 
 ## Syntax
 
@@ -24,7 +24,7 @@ Allows you to check whether a new session can be created.
 
 ## Return value
 
-A Boolean value of true if a new session can be created; otherwise false.
+A Boolean value of true if a new session can be created; otherwise, false.
 
 
 ## Example

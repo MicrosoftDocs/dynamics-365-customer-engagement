@@ -1,6 +1,6 @@
 ---
 title: "refreshTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager refreshTab API for Customer Service workspace."
+description: "Learn about the refreshTab API of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -29,15 +29,15 @@ None.
 
 ## Examples
 
-The following examples use the `refreshTab` method to refresh a given tab.
+The following examples use the `refreshTab` method to refresh a specified tab.
 
-### Refreshing a tab using `refreshTab` method
+### Refresh a tab using `refreshTab` method
 
 ```JavaScript
 Microsoft.Apm.refreshTab("tab-id-2")
 ```
 
-### Refreshing a tab using `refresh` method
+### Refresh a tab using `refresh` method
 
 ```JavaScript
 Microsoft.Apm.getFocusedSession().getFocusedTab().refresh();

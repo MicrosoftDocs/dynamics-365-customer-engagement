@@ -1,6 +1,6 @@
 ---
 title: "getFocusedTab method (app profile manager) JavaScript API Reference| MicrosoftDocs"
-description: "Learn about the app profile manager getFocusedTab API for Customer Service workspace."
+description: "Learn about the getFocusedTab API of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

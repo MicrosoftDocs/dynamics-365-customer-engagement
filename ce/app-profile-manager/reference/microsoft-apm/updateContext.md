@@ -1,6 +1,6 @@
 ---
 title: "updateContext method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager updateContext API for Customer Service workspace."
+description: "Learn about the updateContext API of app profile manager in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.topic: reference
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Allows you to set the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for future macro invocations.
+Allows you to set the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for invoking macros in the future.
 
 ## Syntax
 
