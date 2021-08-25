@@ -69,7 +69,7 @@ The following methods and properties allow you to manage tabs in Customer Servic
 | [getFocusedTab](microsoft-apm/getFocusedTab.md) | Returns the tab object of the tab that is in focus. |
 | [getAllTabs](microsoft-apm/getAllTabs.md) | Returns the unique identifier of all tabs for a session. |
 | [getTab](microsoft-apm/getTab.md) | Returns the tab object of the specified tab ID.  |
-| [createTab](microsoft-apm/createTab.md) | Creates a tab in a focused session and returns the unique identifier of the created tab. |
+| [createTab](microsoft-apm/createTab.md) | Creates a tab in a focused session and returns the unique identifier of the tab. |
 | [canCreateTab](microsoft-apm/canCreateTab.md) | Returns a Boolean value indicating whether a new tab can be created for a session. |
 | [closeTab](microsoft-apm/closeTab.md) | Closes the tab object for a tab ID. |
 | [focusTab](microsoft-apm/focusTab.md) | Sets the focus on the tab object for a tab ID. |
