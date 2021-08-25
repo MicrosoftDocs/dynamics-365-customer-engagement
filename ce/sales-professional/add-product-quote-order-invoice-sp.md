@@ -13,6 +13,7 @@ searchScope:
   - D365-Entity-quotedetail
   - D365-Entity-salesorderdetail
   - D365-Entity-invoicedetail
+  - D365-Entity-invoice
   - D365-UI-*
   - Dynamics 365
   - Sales

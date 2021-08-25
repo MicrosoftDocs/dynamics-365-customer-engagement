@@ -11,7 +11,7 @@ searchScope:
   - D365-Entity-quote
   - D365-Entity-salesorder
   - D365-Entity-invoice
-  - D365-UI-*
+  - D365-UI-View
   - Dynamics 365
   - Sales
 ---

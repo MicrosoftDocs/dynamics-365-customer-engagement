@@ -11,7 +11,6 @@ searchScope:
   - D365-Entity-opportunity
   - D365-Entity-quote
   - D365-Entity-salesorder
-  - D365-Entity-invoice
   - D365-Entity-quoteproduct
   - D365-Entity-salesorderproduct
   - D365-Entity-invoiceproduct
