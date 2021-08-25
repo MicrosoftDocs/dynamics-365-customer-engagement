@@ -146,7 +146,12 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
 ## Enable LinkedIn Sales Navigator
 
-Use this procedure to enable default controls for LinkedIn Sales Navigator content. The Sales Navigator controls will appear on Account, Contact, Lead, and Opportunity pages by default. You can also customize other forms and entities to show Sales Navigator controls.
+When enabled, the Sales Navigator controls will appear on Account, Contact, Lead, and Opportunity pages by default. You can also customize other forms and entities to show Sales Navigator controls. Use one of the following procedures to enable default controls for LinkedIn Sales Navigator content.  
+
+- [Advanced Settings](#advanced-settings)   
+- [App Settings](#app-settings)
+
+### Advanced Settings
 
 1. In your app, select **Settings** ![Settings.](../sales-enterprise/media/settings-icon.png), and then select **Advanced Settings**.
 
@@ -165,8 +170,27 @@ Use this procedure to enable default controls for LinkedIn Sales Navigator conte
 
 4. Select **OK**.
 
+### App Settings
+
+1.	Sign in to your Sales Hub app and go to **App Settings**.  
+
+2.	Under **General Settings**, select **LinkedIn integration** and then select **Manage**.  
+
+    > [!div class="mx-imgBorder"]
+    > ![Select the LinkedIn integration option](media/install-sales-hub-select-lisn-settings.png "Select the LinkedIn integration option")
+
+4.	On the LinkedIn integration page, toggle the following options to enable: 
+    - Sales navigator integration
+    - Daily profile picture updates
+    - See personnel and employment changes
+
+    > [!div class="mx-imgBorder"]
+    > ![Enable the LinkedIn Sales Navigation options](media/enable-sales-hub-enable-linkedin-integration-options.png "Enable the LinkedIn Sales Navigation options")
+
+5. Select **Save**.
+
 >[!NOTE]
->After you have enabled the LinkedIn Sales Navigator solution in Dynamics 365 advanced settings, [enable CRM sync and activity writeback](#enable-crm-sync-and-activity-writeback).
+>After you have enabled the LinkedIn Sales Navigator solution, [enable CRM sync and activity writeback](#enable-crm-sync-and-activity-writeback). 
 
 ## Enable CRM sync and activity writeback
 
