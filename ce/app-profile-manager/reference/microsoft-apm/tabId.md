@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: tabID (app profile manager)
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 The identifier of a given tab.
 
 ## Example

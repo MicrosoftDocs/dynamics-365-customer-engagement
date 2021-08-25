@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: canCreateSession (app profile manager)
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Allows you to check whether a new session can be created.
 
 > [!Note]

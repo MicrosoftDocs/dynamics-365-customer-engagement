@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: getTab (app profile manager)
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Returns the tab object for a given tab identifier.
 
 ## Syntax

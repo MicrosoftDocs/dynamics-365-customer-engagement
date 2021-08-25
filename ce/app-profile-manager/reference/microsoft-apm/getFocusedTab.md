@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: getFocusedTab (app profile manager)
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Returns the tab object of the tab that is in focus.
 
 ## Syntax

@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: title (app profile manager tab) 
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 The text label of a given tab.
 
 ## Example

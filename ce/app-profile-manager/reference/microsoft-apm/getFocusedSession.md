@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: getFocusedSession (app profile manager)
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Returns the session object of the session that is in focus.
 
 ## Syntax

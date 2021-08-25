@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: getAllSessions (app profile manager)
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Returns the unique identifier of all sessions.
 
 ## Syntax

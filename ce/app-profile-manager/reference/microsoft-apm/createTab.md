@@ -10,6 +10,7 @@ ms.topic: reference
 
 # createTab (app profile manager)
 
+
 Creates an app tab in a focused session and returns the unique identifier of the created tab.
 
 ## Syntax

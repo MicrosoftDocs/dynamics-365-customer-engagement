@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: focus (app profile manager)
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Sets the focus on a session.
 
 ## Syntax

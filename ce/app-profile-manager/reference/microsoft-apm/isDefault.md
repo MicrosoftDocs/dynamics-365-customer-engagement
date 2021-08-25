@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: isDefault (app profile manager)
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Boolean value indicating whether a given session is the Home session.
 
 ## Example

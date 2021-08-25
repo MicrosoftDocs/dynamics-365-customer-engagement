@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: canClose (app profile manager session)
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Boolean value indicating whether a given session can be closed.
 
 > [!Note]

@@ -10,6 +10,8 @@ ms.topic: reference
 
 # Preview: getAllTabs (app profile manager)
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Returns the unique identifiers of all tabs for a given session.
 
 ## Syntax
