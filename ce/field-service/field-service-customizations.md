@@ -25,6 +25,7 @@ search.app:
 Customize processes, forms and business rules for your Microsoft Dynamics 365 Field Service to tailor your business needs and manage end-to-end business flow more efficiently   
 
 
+
 ## Customize resource scheduling  
 
 
