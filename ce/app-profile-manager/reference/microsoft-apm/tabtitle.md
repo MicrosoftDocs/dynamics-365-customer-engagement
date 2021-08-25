@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# title (app profile manager) 
+# title (app profile manager tab) 
 
 The text label of a given tab.
 
