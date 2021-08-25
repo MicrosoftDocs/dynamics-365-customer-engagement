@@ -29,7 +29,9 @@ None.
 ## Examples
 
 The following examples use the `focusTab` method to focus on a given tab.
+
 ### Focusing a tab using Microsoft.Apm.focusTab(tabId)
+
  ```JavaScript
 Microsoft.Apm.focusTab("tab-id-5);
 ```

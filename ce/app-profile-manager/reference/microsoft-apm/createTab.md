@@ -22,7 +22,7 @@ Creates an app tab in a focused session and returns the unique identifier of the
 |------------------|----------     |--------------|-------------------|
 | AppTabInput      |   String    | Yes          | JSON input properties of the tab to be created.     |
 
-The structure of the JSON `AppTabInput` parameter is shown below.
+The structure of the JSON `AppTabInput` parameter is as follows:
 
 ```json
 {

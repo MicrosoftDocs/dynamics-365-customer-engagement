@@ -25,7 +25,7 @@ Creates a session based on a session template and returns the unique identifier 
 | SessionInput |    String      |      Yes     | JSON input properties of the session to be created.         |
 
 
-The structure of the JSON `SessionInput` parameter is shown below.
+The structure of the JSON `SessionInput` parameter is as follows:
 
 ```json
 {
