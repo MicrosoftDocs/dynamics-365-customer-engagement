@@ -1,7 +1,7 @@
 ---
-title: Remove association between contact and customer for cases in Customer Service | MicrosoftDocs
+title: Remove validation on contact and customer for cases in Customer Service | MicrosoftDocs
 description: Learn how to remove validation on contact and customer for cases in Dynamics 365 Customer Service
-ms.date: 08/24/2021
+ms.date: 08/25/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -17,22 +17,24 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Remove association between contact and customer for cases in Customer Service
+# Remove validation on contact and customer for cases in Customer Service
 
 ## Introduction
 
-When you create or update a case record for a customer and contact, out of the box, the contact record must be associated with the customer. However, based on your business requirements, you might need to select a contact record that is not associated with the customer record. You can customize the case form to remove the form validation to meet your business needs.
+When you create or update a case record for a customer and contact, out of the box, the contact record must be associated with the customer record. However, based on your business requirements, you might need to select a contact record that doesn't belong to the customer organization. You can customize the case form to remove the form validation to meet your business needs.
 
-## Remove the association between contact and customer for a case
+## Remove the validation on contact and customer for a case
 
-Perform the following steps to disable validation and remove the association between contacts and customers:
+Perform the following steps to disable the validation on contacts and customers:
 
 1. Go to the [Power Apps](https://make.powerapps.com) portal.
 2. Select the required environment, select **Solutions** in the left pane.
 3. On the **Solutions** page, select Default Solution.
 4. On the top right, select All, and then select Environment variable in the list.
 5. Select the ellipses for msdyn_IncidentShouldValidatePrimaryContact, and then select Edit.
-6. On the flyout menu that appears, select **New value**, enter the number **0**, and select **Save**. Now, when creating or updating a case, the agents can select contacts who are not part of the customer organization.
+6. On the flyout menu that appears, select **New value**, enter the number **0**, and select **Save**.
+
+Now, when agents are creating or updating a case, they can select contacts who are not part of the customer organization.
 
 ### See also
 
