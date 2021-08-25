@@ -12,6 +12,7 @@ searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_playbookinstance
   - D365-Entity-msdyn_playbookactivity
+  - D365-Entity-msdyn_playbookcategory
   - D365-UI-*
   - Customer Engagement
   - Dynamics 365

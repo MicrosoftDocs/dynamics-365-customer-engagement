@@ -6,13 +6,6 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope: 
-  - D365-App-msdynce_salespro
-  - D365-Entity-quote
-  - D365-Entity-salesorder
-  - D365-UI-*
-  - Dynamics 365
-  - Sales
 ---
 
 # Enable automatic generation of quotes and invoices

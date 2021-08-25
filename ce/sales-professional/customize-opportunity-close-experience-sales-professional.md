@@ -5,13 +5,7 @@ ms.date: 07/31/2020
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
-searchScope: 
-  - D365-App-msdynce_salespro
-  - D365-Entity-opportunity
-  - D365-UI-Form
-  - Dynamics 365
-  - Sales
+manager: shujoshi
 ---
 
 # Customize the Opportunity Close form (Sales Professional)

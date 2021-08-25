@@ -12,7 +12,6 @@ searchScope:
   - D365-App-msdynce_salespro
   - D365-Entity-account
   - D365-Entity-contact
-  - D365-Entity-lead
   - D365-UI-*
   - Dynamics 365
   - Sales

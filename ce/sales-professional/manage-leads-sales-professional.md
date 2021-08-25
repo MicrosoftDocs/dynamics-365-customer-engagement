@@ -10,6 +10,7 @@ ms.custom:
   - "dyn365-sales"
 searchScope: 
   - D365-App-msdynce_salespro
+  - D365-Entity-opportunity
   - D365-Entity-lead
   - D365-UI-*
   - Dynamics 365
