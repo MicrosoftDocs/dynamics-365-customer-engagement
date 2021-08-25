@@ -34,7 +34,7 @@ A variety of identity providers can be used with [!INCLUDE[pn_microsoftcrm_serve
 ## Configure AD FS for Windows Server 2012 R2  
  To configure [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] as a stand-alone federation server for [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] claims authentication, do the following:  
   
-1.  Open the [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)]**Add Roles and Features Wizard** and add the **Active Directory Federation Services** server role.  
+1.  Open the [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] **Add Roles and Features Wizard** and add the **Active Directory Federation Services** server role.  
   
 2.  Proceed through the wizard. Click **Configure the federation service on this server**.  
   
