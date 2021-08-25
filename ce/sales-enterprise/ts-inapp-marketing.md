@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot in-app marketing issues (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues for in-app marketing in Dynamics 365 Sales."
-ms.date: 03/11/2021
+ms.date: 07/29/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -38,9 +38,9 @@ The error is occurring due to the customization of views for each subgrid in the
 7. Select the **My Active Contacts** view, and from the **View Selector** drop-down list, select **Off**.
     > [!div class="mx-imgBorder"]
     > ![Select Off in the View Selector.](media/troubleshooting-inapp-market-list-choose-off-view-selector.png "Select Off in the View Selector")
-8. In the **Name** section, clear the **Display the label on the Form** check box.
+8. In the **Name** section, clear the **Display label on the Form** checkbox.
     > [!div class="mx-imgBorder"]
-    > ![Clear the Display the label on the form check box.](media/troubleshooting-inapp-market-list-clear-display-label.png "Clear the Display the label on the form check box")
+    > ![Clear the Display label on the Form checkbox.](media/troubleshooting-inapp-market-list-clear-display-label.png "Clear the Display label on the Form checkbox")
 9. Select **OK**.
 10. Repeat steps 5 through 9 for **Accounts** and **Leads**.
 11. Save and publish the form.
@@ -66,10 +66,10 @@ The error occurs because the attribute **TmpRegardingObjectId** has been removed
    > ![Add TmpRegardingObjectId to the campaign form.](media/troubleshooting-inapp-campaign-add-temp-regarding-object-id.png "Add TmpRegardingObjectId to the campaign form")
 5. Select the **TmpRegardingObjectId** field, and then select **Change Properties**.
     The Set Properties window opens.
-6. In the **Label** section, clear the **Display label on the Form** check box, and in the **Visibility** section, clear the **Visible by default** check box.     
+6. In the **Label** section, clear the **Display label on the Form** checkbox, and in the **Visibility** section, clear the **Visible by default** checkbox.     
  
    > [!div class="mx-imgBorder"]
-   > ![Clear the Display the label on the form check box.](media/troubleshooting-inapp-campaign-clear-display-label.png "Clear the Display the label on the form check box")
+   > ![Clear the Display label on the form and Visibility by default checkboxes.](media/troubleshooting-inapp-campaign-clear-display-label.png "Clear the Display label on the form Visibility by default checkboxes")
 7. Save and publish the form.
 
 <a name="unable-to-find-related-account-field-for-a-member-account-using-advanced-find-in-unified-interface"></a>
@@ -100,7 +100,7 @@ To resolve the issue, do one of the following:
 - For the user who's creating the quick campaign, the **Send Email as Another User** privilege must be assigned to at least one role assigned to the user. More information: [Create a security role with team member's privilege inheritance](/power-platform/admin/security-roles-privileges#create-a-security-role-with-team-members-privilege-inheritance)
     > [!div class="mx-imgBorder"]
     > ![Provide permission to send email as another user privilege for the user.](media/troubleshooting-inapp-campaign-unable-send-email-assign-role.png "Provide permission to send email as another user privilege for the user")   
-- For the owner of the record, the **Allow other Microsoft Dynamics 365 users to send email on your behalf** check box must be selected under **Select whether other users can send email for you** on the **Set Personal Options** dialog box.
+- For the owner of the record, the **Allow other Microsoft Dynamics 365 users to send email on your behalf** checkbox must be selected under **Select whether other users can send email for you** on the **Set Personal Options** dialog box.
     > [!div class="mx-imgBorder"]
     > ![Allow other users to send email on the owner's behalf.](media/troubleshooting-inapp-campaign-allow-send-email-behalf-owner.png "Allow other users to send email on the owner's behalf")
 
@@ -137,7 +137,9 @@ The campaign distribution process requires a workflow to run in the background. 
 
 **Resolution**
 
-To resolve this issue, enable the workflow background process.
+To resolve this issue, enable the workflow background process and then activate the **ActivityPropagation** process.
+
+#### Enable the workflow background process
 
 1. Go to **Advanced Settings** > **Settings** > **System** > **System Jobs**.     
 2. Go to **ActivityPropagation** jobs and under **Process Sessions**, select the job that matches&mdash;or approximately matches&mdash;the date and time at which the quick campaign was run.    
@@ -145,10 +147,20 @@ To resolve this issue, enable the workflow background process.
    1. Go to the Dynamics 365 admin center, select your instance, and then select **Admin Settings**.
     > [!div class="mx-imgBorder"]
     > ![Select Admin Settings from the admin center.](media/troubleshooting-inapp-campaign-distribution-admin-settings.png "Select Admin Settings from the admin center")   
-   1. Clear the **Disable background operations** check box.
+   1. Clear the **Disable background operations** checkbox.
     > [!div class="mx-imgBorder"]
-    > ![Clear the Disable background operations check box.](media/troubleshooting-inapp-campaign-distribution-clear-background-operations.png "Clear the Disable background operations check box")
+    > ![Clear the Disable background operations checkbox.](media/troubleshooting-inapp-campaign-distribution-clear-background-operations.png "Clear the Disable background operations checkbox")
 4. Save your settings, and exit.
+
+#### Activate the ActivityPropagation process
+
+1.	Go to **Advanced Settings** > **Settings** > **Customizations** > **Customize the System**.
+2.	From the site map, go to **Processes**.
+3.	In the view selector, select **All**.
+    All the available processes are displayed.
+    ![Select All in the view selector.](media/troubleshooting-inapp-campaign-distribution-select-all-view-selector.png "Select All in the view selector")   
+4.	Select the **ActivityPropagation** process, and then select **Activate**.
+    ![Activate the ActivityPropagation process.](media/troubleshooting-inapp-campaign-distribution-activate-activity-propagation-process.png "Activate the ActivityPropagation process")  
 
 ### My quick campaign failed and is set to Aborted
 
@@ -245,6 +257,16 @@ To verify that the issue has been resolved, open the account that has been used 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the Campaign Activities tab and the activities subgrid added to the account form.](media/troubleshooting-inapp-campaign-activities-tab-added.png "The Campaign Activities tab is added with the activities subgrid")
+
+## User is getting timed out when trying to delete a static marketing list
+
+**Reason**
+
+Deletion of a static marketing list with a large number of members (more than 50,000) takes a lot of time, and results into a time out.
+
+**Resolution**
+
+It is recommended to first remove all members from the marketing list by using [Remove using Advanced Find](create-marketing-list-using-app-marketing-sales.md#remove-using-advanced-find), and then delete the marketing list. For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10,000 at a time. For example, if there are 20,000 members in a marketing list and you want to remove the members. Remove 10,000 members first and then remove the other 10,000.
 
 ### See also
 

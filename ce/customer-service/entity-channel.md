@@ -36,37 +36,20 @@ To setup the **Entity Record** channel for cases, follow the steps:
 
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
-| [Step 1: Create queues and add agents](#step-1-create-queues-and-add-agents) | Define queues for your organization and add agents (users) to the queues. |
-| [Step 2: Enable entity for queues](#enable-entities)| Enable the entity for queues. |
-| [Step 3: Enable entity for routing channel](#step-3-enable-record-for-routing) | Create entity record configuration to enable an entity for routing. |
-| [Step 4: Create routing rules](#step-4-create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
+| [Step 1: Create queues and add agents](#create-queues-and-add-agents) | Define queues for your organization and add agents (users) to the queues. |
+| [Step 2: Enable entity for queues](enable-entities-for-queues.md)| Enable the entity for queues. |
+| [Step 3: Enable entity for routing channel](#enable-record-for-routing) | Create entity record configuration to enable an entity for routing. |
+| [Step 4: Create routing rules](#create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
 
-## Step 1: Create queues and add agents
+## Create queues and add agents
 
 Create an omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md).
 
-## Step 2: Enable entity for queues<a name="enable-entities"> </a>
+## Enable entities for queues
 
-Any record you want to enable for routing needs to be enabled for queues.
+Perform the steps mentioned in [Enable entities for queues for unified routing](enable-entities-for-queues.md).
 
-1. Sign in to the Dynamics 365 instance.
-
-2. Select **Settings** > **Customizations** > **Customize the System**.
-
-3. Expand **Entities** below **Components**.
-
-4. Select a record from the solution pane.
-
-5. Select the Queues checkbox under **Communication & Collaboration** section:
-
-6. Select **Save**.
-
-7. Select **Publish**.
-
-> [!Note]
-> If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the entity customization, then the record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the records. <br><br> ![Automatic record movement to the agent's default queue.](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
-
-## Step 3: Enable record for routing
+## Enable record for routing
 
 Create record configuration to enable it for routing.
 
@@ -88,7 +71,7 @@ Create record configuration to enable it for routing.
 > [!Note]
 > When you create a record channel configuration, a default work stream will be created to distribute these records. You can edit the default work stream or create more work streams as per your business scenarios. To learn more, see [Create work stream for record routing](set-up-entity-workstream.md).
 
-## Step 4: Create routing rules
+## Create routing rules
 
 After creating a record configuration, and enabling the record for routing, you can define routing rules to route these records to appropriate queues.
 

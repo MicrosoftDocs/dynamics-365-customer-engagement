@@ -1,6 +1,6 @@
 ---
-title: "Define calculated fields with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to define calculated fields"
+title: "Create a calculated field in Dynamics 365 Customer Engagement (on-premises)"
+description: "Calculated fields are designed to let you automate manual calculations. Learn about the capabilities of calculated fields and things to consider."
 ms.custom: 
 ms.date: 11/28/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Define calculated fields to automate manual calculations
+# Create a calculated field to automate manual calculations
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Define calculated fields to automate manual calculations](/powerapps/maker/common-data-service/define-calculated-fields)
 

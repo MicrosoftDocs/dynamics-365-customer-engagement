@@ -37,10 +37,12 @@ Watch this video to learn more about case management in the Customer Service Hub
 
 ## Create a case
 
-1. Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
-2. In the Customer Service Hub sitemap, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
+You can create a case in Customer Service workspace or Customer Service Hub.
 
-   - The **My Active Cases** view is displayed. You can switch between case views using the drop-down.
+1. Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
+2. In Customer Service workspace, go to the **Customer Service Agent Dashboard**. If you are using  Customer Service Hub, in the site map, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
+
+   - The **My Active Cases** view is displayed. You can switch between the different case views by selecting the current view.
    - Select **Show Chart** on the command bar to see the chart view.
    - Select **Open Dashboards** on the command bar to directly open the entity dashboard. To switch back to views, select **Open Views**.
 

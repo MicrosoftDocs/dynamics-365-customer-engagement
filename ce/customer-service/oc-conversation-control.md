@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 01/11/2021
+ms.date: 08/09/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,9 +12,9 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You cannot view the communication panel unless you accept an incoming conversation to communicate with the customer.
+The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You can view the communication panel only when you accept an incoming conversation to communicate with the customer.
 
-From a conversation channel, you can do the following tasks:
+You can do the following tasks in the communication panel:
 
 - Send quick replies.
 - Search for and share knowledge articles with the customer with whom you are interacting.
@@ -29,7 +29,7 @@ From a conversation channel, you can do the following tasks:
 
 The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
 
-In the communication panel, you can see the following options:
+The following table lists the options and the keyboard shortcuts that you can use.
  
 | Annotation | Option     | Description                                   | command |
 |------|------------------|-----------------------------------------------|----------|
@@ -45,6 +45,9 @@ In the communication panel, you can see the following options:
 
 ## Send messages using the Public and Internal modes
 
+> [!IMPORTANT]
+> The public and internal modes are not available if the consult pane setting is enabled. More information: [Preview: Consult pane setting](enable-consult.md)
+
 The communication panel allows you to send messages in two modes: **Internal** and **Public**.
 
 When you want to send messages only to the internal participants like other agents and/or supervisors and not customers, then use the **Internal** option.
@@ -56,9 +59,9 @@ When you want to send messages to all the participants in the conversation inclu
 
 You can use the keyboard commands to send internal and public messages:
 
-- **/i** – Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
+- **/i:** Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
 
-- **/p** – Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
+- **/p:** Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
 
 ## Send predefined messages in chats
 
@@ -78,7 +81,6 @@ The quick replies can be created either by the administrator or by you. You can 
     > ![Use personal quick reply.](media/use-personal-quick-replies.png "Use personal quick reply")
 
 
-
 ### Search for messages
 
 After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you. You can also use the number (#) sign to search for the predefined messages.
@@ -95,21 +97,21 @@ If the reconnection link is configured by your administrator, you can share the 
 
 ## Consult with agent or supervisor
 
-The communication panel allows you to consult with other agents and/or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
+The communication panel allows you to consult with other agents or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents. The consulted agent should be a part of the same queue as yours for you to consult. If your administrator has enabled the consult pane setting, a separate pane will open beside the communication panel when you start the consultation.
 
  > [!div class=mx-imgBorder]
  > ![Use the consult option to launch the consulting list.](media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")
 
-You can use a keyboard command to see the list of agents and/or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
+You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
 > [!Note]
-> We recommend inviting a maximum of five consulting agents when conversing with the customer.
+> We recommend that you invite no more than five consulting agents when conversing with the customer.
 
 ### Search for consulting participants
 
 After you type **/c** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the names are filtered and displayed to you.
 
-## Transfer the conversation
+## Transfer conversations
 
 In the communication panel, you can transfer the conversation (work item) either to an agent or a queue. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
 
@@ -118,7 +120,7 @@ In the communication panel, you can transfer the conversation (work item) either
 
 You can transfer the request only to agents who are configured in the same queue. If the request belongs to another queue and you transfer the request, the work distribution system assigns the conversation to the appropriate agent in the queue.
 
-Agents whose presence is set to Busy-DND, Away, or Offline will not appear in the agents list of the transfer pane. Also, agents 
+Agents whose presence is set to Busy-DND, Away, or Offline do not appear in the agent list of the transfer pane. Also, agents 
 
 Use the keyboard command to see the list of agents and/or the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
 
@@ -132,13 +134,13 @@ When a conversation needs to be transferred from one queue to another, the match
 
 ![Transfer queue list.](media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
-### Search agents or queues for the transfer of a conversation request
+### Search agents or queues for transfer of conversation requests
 
 After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
 
 ![Filter transfer queue list.](media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
 
-## Take notes specific to conversation
+## Take notes specific to conversations
 
 Use the notes option to capture information specific to the conversation when you interact with customers. Use the option in the communication panel to launch the notes.
 
@@ -158,7 +160,7 @@ From the communication panel, you can search for relevant knowledge articles bas
 
 To learn more, see [Search for and share knowledge articles](oc-search-knowledge-articles.md).
 
-## Link to conversation
+## Link to conversations
 
 When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
 
