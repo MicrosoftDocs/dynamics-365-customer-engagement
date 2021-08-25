@@ -157,12 +157,12 @@ If you want another person in your organization to work on an activity, you can 
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 
 ### Pick a view for your queues ###
-You can select a view for your queues to find your required queue list. 
+You can select a view for your queues to find your required list of queues. 
 1. In the left pane, go to **Activities**.
   
 2. In the list of activities, select the activity you want,  and then select  **Add to Queue**.
   
-3. In the **Queue** field, select the Search icon, and then select **Advanced lookup**.  
+3. In the **Queue** field, select **Search**, and then select **Advanced lookup**.  
 1. On the **Choose queue** dialog, click the **Business Queues(default)** dropdown menu to view the complete list of queues views available to you.
 
 The table lists the views with their descriptions that you can use as per your requirements.
@@ -171,16 +171,16 @@ The table lists the views with their descriptions that you can use as per your r
 |Queues Lookup View, All Queues | Lists all the queues at one go. |
 |Business Queues (default)         | Lists all the queues which are not set as default queue for users or teams.    |
 |Private Queues Lookup View, Local User Queues| Lists all the queues which are private in nature and are in active state.|
-|Entity Queues|xxx|
+|Entity Queues|Lists all the active queues which are created for entities, such as case or email.|
 |My Active Queues|Lists the active queues owned by you.|
 |Omnichannel queues|Lists all the active queues pertaining to Omnichannel or Unified Routing.|
-|Omnichannel queues for Entity|Lists all the active queues pertaining to Omnichannel or Unified Routing and are created for entities like case, email, and so on.|
+|Omnichannel queues for Entity|Lists all the active queues pertaining to Omnichannel or Unified Routing and are created for entities, such as case or email.|
 |Omnichannel queues for messaging|Lists all the active queues pertaining to Omnichannel or Unified Routing and are created for messaging (chat) purpose.|
 |Active Queues|Lists the queues in active state.|
 |Inactive Queues|Lists the queues in inactive state.|
 |Queues: Primary Email (Pending Approval)|Lists all the queues for which the primary email address is in pending approval state.|
 
-
+You can also see the queues view list through cases. To select a queue view for cases, go to a case and then selecting **Route**.
 
 ### See also
 
