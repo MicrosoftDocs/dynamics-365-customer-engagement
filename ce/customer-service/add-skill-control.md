@@ -1,7 +1,7 @@
 ---
 title: "Skill control for routed records| MicrosoftDocs"
 description: "Learn how to add a skill control on forms to view skills of any routed record."
-ms.date: 04/20/2021
+ms.date: 08/25/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -47,8 +47,6 @@ The skill control is now added to the **Case Interactive experience** form.
 
 > [!NOTE]
 > To customize a form to add the skill control in Customer Service workspace or the Omnichannel admin center, you can add the control to the **Case for Multisession experience** form.
-
-After the skill control has been added to a case form, an agent can view the newly added custom control on all routed records in Customer Service Hub. The agent can view and delete existing skills, or even add new skills from the existing skill set. To enable agents to update skills, go to [Allow agents to update skills](allow-agents-update-skills.md).
 
 
 ### See also
