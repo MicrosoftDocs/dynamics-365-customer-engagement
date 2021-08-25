@@ -1,6 +1,6 @@
 ---
-title: "Schedule work for multiple days in Universal Resource Scheduling | MicrosoftDocs"
-description: Learn how to schedule work for multiple days in Universal Resource Scheduling
+title: "Schedule multi-day work in Universal Resource Scheduling"
+description: "Work orders and requirements can be scheduled across multiple days. Learn about multi-day scheduling and allocation methods by configuring 3 scenarios."
 ms.date: 10/21/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
@@ -17,7 +17,7 @@ search.app:
   - D365FS
 ---
 
-# Schedule work over multiple days in Universal Resource Scheduling 
+# Schedule multi-day work or requirements in Universal Resource Scheduling
 
 [!INCLUDE[schedule-multi-day-work.md](../shared/urs/schedule-multi-day-work.md)]
 
