@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Knowledge search insights for Dynamics 365 Customer Service
 
-The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
+The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. 
 
 > [!NOTE]
 > Knowledge search analytics will not provide information about customer search behavior. Data is only from internal knowledge searches.
