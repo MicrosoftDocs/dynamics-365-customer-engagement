@@ -10,7 +10,7 @@ ms.topic: reference
 
 # Preview: requestFocus (app profile manager)
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Shows a notification indicator on a given session if the session is not focused.
 

@@ -19,7 +19,7 @@ ms.topic: reference
 >
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../../legal/supp-dynamics365-preview.md).
 
 ## Introduction
 
@@ -27,7 +27,7 @@ The app profile manager JavaScript API reference includes methods and properties
 
 ## Prerequisite
 
-You must have App Profile user or Productivity tools user security roles to use the app profile manager APIs. More information: [Security roles](security-roles.md)
+You must have App Profile user or Productivity tools user security roles to use the app profile manager APIs. More information: [Security roles](../security-roles.md)
 
 ## Session management
 
@@ -87,6 +87,6 @@ The following method allows you to manage the session context in Customer Servic
 | [updateContext](microsoft-apm/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for future macro invocations. |
 
 ### See Also
-[App profile manager](app-profile-manager.md)  
+[App profile manager](../app-profile-manager.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

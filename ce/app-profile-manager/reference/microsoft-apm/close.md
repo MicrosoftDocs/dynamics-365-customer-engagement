@@ -10,7 +10,7 @@ ms.topic: reference
 
 # Preview: close (app profile manager)
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Closes a session.
 

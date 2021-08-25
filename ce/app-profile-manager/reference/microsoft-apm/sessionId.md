@@ -10,7 +10,7 @@ ms.topic: reference
 
 # Preview: sessionId (app profile manager)
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 The ID of a given session.
 

@@ -10,7 +10,7 @@ ms.topic: reference
 
 # Preview: canCreateTab (app profile manager)
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Allows you to check whether a new tab can be created in a given session.
 

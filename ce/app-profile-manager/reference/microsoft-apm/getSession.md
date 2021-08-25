@@ -10,7 +10,7 @@ ms.topic: reference
 
 # Preview: getSession (app profile manager)
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Returns the session object for a given session ID.
 
