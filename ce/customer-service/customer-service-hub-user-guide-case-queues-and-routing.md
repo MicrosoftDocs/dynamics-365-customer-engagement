@@ -39,7 +39,7 @@ To know more about queues, see [Work with queues](work-with-queues.md).
 
 ## Save and route a case  
 
- To save a case record and route it to a queue in a single action, use the **Save & Route** button.  
+ To save a case record and route it to a queue in a single action, use the **Save & Route** option.  
 
 1.  From the list of cases, open a case record.  
 
@@ -54,14 +54,12 @@ To know more about queues, see [Work with queues](work-with-queues.md).
 
 ## Manage skills
 
-When the custom skill control is added on all routed records in Customer Service Hub, you can view and update the skill set to  view and delete existing skills, or even add new skills from the existing skill set.
+*When the custom skill control is added on all routed records in Customer Service Hub, you can view and update the skill set to  view and delete existing skills, or even add new skills from the existing skill set. Sometimes agent facing skill control on case form and on conversation form doesnt load and thus skills are not visible. To troubleshoot this, user needs to clear the browser cache.*
 
 > [!Note]
 > To be able to update skills, your administrator must enable the setting in Omnichannel admin center or Customer Service Hub. More information: [Allow agents to update skills](allow-agents-update-skills.md).
 
-Sometimes agent facing skill control on case form and on conversation form doesnt load and thus skills are not visible. 
 
-To troubleshoot this, user needs to clear the browser cache 
 
 ### See also
 

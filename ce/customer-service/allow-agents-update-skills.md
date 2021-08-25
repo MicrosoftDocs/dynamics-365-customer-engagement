@@ -1,6 +1,6 @@
 ---
 title: "Allow agents to update skills | MicrosoftDocs"
-description: "Learn about how to enable agents to update skills at runtime and attach a rating model for skill-based routing in Customer Service and Omnichannel for Customer Service."
+description: "Learn about how to enable agents to update skills at runtime and attach a rating model for skill-based routing in Customer Service Hub and Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -23,7 +23,7 @@ Perform the following steps to enable the setting that allows agents to update s
 
 3. On the **Skill based routing** tab, set the **Enable update skill control** toggle to **Yes**.
 
-4. Select a rating model from the list for the **Rating Model** field.
+4. Select a rating model from the list for the **Rating Models** field.
 
    If the rating model doesn't exist, create a rating model. To learn more, see [Create rating model](setup-skills-assign-agents.md#create-a-rating-model).
 
