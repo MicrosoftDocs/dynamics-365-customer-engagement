@@ -35,14 +35,14 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 To view the Agent dashboard, go to Customer Service historical analytics and select **Agent** at the top of the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance, and includes the following insights:
 
 > [!div class="mx-imgBorder"]
-> ![Agent dashboard Insights](media/agent-dashboard.png "Agent dashboard insights")
+> ![Agent dashboard Insights](media/customer-service-analytics-agent-dashboard.png "Agent dashboard insights")
 
 ## Report details
 
 The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, agent conversation and timezone. The KPIs for the dashboard are displayed as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Agent report dashboard](media/agent-report-cs.png "Agent report dashboard")
+> ![Agent report dashboard](media/agent-report-dashboard.png "Agent report dashboard")
 
 The following table displays the key performance indicators in the agent report. 
 
