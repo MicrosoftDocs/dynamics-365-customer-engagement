@@ -1,6 +1,6 @@
 ---
 title: "title property of the tab (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager title property of the tab in Customer Service workspace."
+description: "Learn about the app profile manager tab title property for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

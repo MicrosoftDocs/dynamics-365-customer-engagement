@@ -1,6 +1,6 @@
 ---
 title: "isDefault property (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager isDefault property of sessions in Customer Service workspace."
+description: "Learn about the app profile manager isDefault session property for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

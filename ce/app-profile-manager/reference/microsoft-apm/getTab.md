@@ -1,6 +1,6 @@
 ---
 title: "getTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager getTab API in Customer Service workspace."
+description: "Learn about the app profile manager getTab API for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

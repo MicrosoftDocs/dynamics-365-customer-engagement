@@ -1,6 +1,6 @@
 ---
 title: "updateContext method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager updateContext API in Customer Service workspace."
+description: "Learn about the app profile manager updateContext API for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
