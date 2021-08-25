@@ -22,7 +22,7 @@ As an administrator, you can install and enable the LinkedIn Sales Navigator for
 
 - **Advanced Settings**: Use the **Advanced Settings** option to install and enable LinkedIn Sales Navigator for the organization that you're already signed in to. More information: [Install through Advanced Settings](#install-through-advanced-settings).  
 - **AppSource**: Use the **LinkedIn Sales Navigator for Dynamics 365** AppSource page to install and enable LinkedIn Sales Navigator if you're managing multiple organizations and want to enable it in an organization. To learn more, see [Install through the AppSource page](#install-through-the-appsource-page).   
-- **App Settings**: : Use the **LinkedIn Integration Settings** option under **App Settings** in Sales Hub app to install and enable LinkedIn Sales Navigator for the organization that you're already signed in to. More information: [Install through App Settings](#install-through-app-settings).
+- **App Settings**: Use the **LinkedIn Integration Settings** option under **App Settings** in Sales Hub app to install and enable LinkedIn Sales Navigator for the organization that you're already signed in to. More information: [Install through App Settings](#install-through-app-settings).
 
 > [!IMPORTANT]
 > Dynamics 365 Sales (on-premises) doesn't support LinkedIn Sales Navigator.
