@@ -10,7 +10,14 @@ ms.topic: reference
 
 # Preview: canClose (app profile manager session)
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
+
+<!-->
+C:\GitHub\dynamics-365-customer-engagement-pr\ce\customer-service\enable-formatted-messages.md
+
+C:\GitHub\dynamics-365-customer-engagement-pr\ce\app-profile-manager\reference\microsoft-apm\canCloseSession.md
+C:\GitHub\dynamics-365-customer-engagement-pr\ce\includes\cc-beta-prerelease-disclaimer.md
+-->
 
 Boolean value indicating whether a given session can be closed.
 
