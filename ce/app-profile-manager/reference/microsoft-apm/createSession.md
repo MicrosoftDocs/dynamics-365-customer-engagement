@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# createSession (app profile manager)
+# Preview: createSession (app profile manager)
 
 Creates a session based on a session template and returns the unique identifier of the session.
 

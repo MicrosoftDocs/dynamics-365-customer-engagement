@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# closeTab (app profile manager)
+# Preview: closeTab (app profile manager)
 
 Closes the specified app tab in the current session.
 

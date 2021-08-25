@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# refreshTab (app profile manager)
+# Preview: refreshTab (app profile manager)
 
 Refreshes the app tab in the current session.
 

@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# getAllSessions (app profile manager)
+# Preview: getAllSessions (app profile manager)
 
 Returns the unique identifier of all sessions.
 

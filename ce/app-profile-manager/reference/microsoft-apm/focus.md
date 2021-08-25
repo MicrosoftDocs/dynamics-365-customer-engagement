@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# focus (app profile manager)
+# Preview: focus (app profile manager)
 
 Sets the focus on a session.
 

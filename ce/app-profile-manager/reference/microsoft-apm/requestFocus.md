@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# requestFocus (app profile manager)
+# Preview: requestFocus (app profile manager)
 
 Shows a notification indicator on a given session if the session is not focused.
 

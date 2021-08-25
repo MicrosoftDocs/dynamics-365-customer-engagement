@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# canCreateTab (app profile manager)
+# Preview: canCreateTab (app profile manager)
 
 Allows you to check whether a new tab can be created in a given session.
 

@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# getTab (app profile manager)
+# Preview: getTab (app profile manager)
 
 Returns the tab object for a given tab identifier.
 

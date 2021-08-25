@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# canCreateSession (app profile manager)
+# Preview: canCreateSession (app profile manager)
 
 Allows you to check whether a new session can be created.
 

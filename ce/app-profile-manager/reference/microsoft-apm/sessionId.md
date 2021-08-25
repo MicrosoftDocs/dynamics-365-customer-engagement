@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-#  (app profile manager)
+# Preview: sessionId (app profile manager)
 The ID of a given session.
 
 ## Syntax

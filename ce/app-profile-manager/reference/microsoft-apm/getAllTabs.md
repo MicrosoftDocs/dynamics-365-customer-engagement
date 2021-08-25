@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# getAllTabs (app profile manager)
+# Preview: getAllTabs (app profile manager)
 
 Returns the unique identifiers of all tabs for a given session.
 

@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# close (app profile manager)
+# Preview: close (app profile manager)
 
 Closes a session.
 

@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# isDefault (app profile manager)
+# Preview: isDefault (app profile manager)
 
 Boolean value indicating whether a given session is the Home session.
 

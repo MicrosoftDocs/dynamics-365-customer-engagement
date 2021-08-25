@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# getFocusedTab (app profile manager)
+# Preview: getFocusedTab (app profile manager)
 
 Returns the tab object of the tab that is in focus.
 

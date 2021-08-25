@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# getFocusedSession (app profile manager)
+# Preview: getFocusedSession (app profile manager)
 
 Returns the session object of the session that is in focus.
 

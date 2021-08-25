@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# getSession (app profile manager)
+# Preview: getSession (app profile manager)
 
 Returns the session object for a given session ID.
 
