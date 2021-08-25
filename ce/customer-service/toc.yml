@@ -237,7 +237,7 @@
       - name: Similar records suggestions
         href: suggest-similar-cases-for-a-case.md
       - name: Create and manage subjects
-        href: create-manage-subject-tree.md  
+        href: create-manage-subject-tree.md
     - name: Agent experience
       items: 
       - name: Create cases
@@ -262,6 +262,8 @@
         href: modify-case-resolution-dialog.md
       - name: Enable search control for subjects
         href: search-control-for-subjects.md
+      - name: Remove validation on contact and customer for cases
+        href: remove-validation-contact.md
   - name: Automatically create or update records
     items: 
     - name: Automatically create or update records in Customer Service Hub

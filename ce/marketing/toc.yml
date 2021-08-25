@@ -14,7 +14,7 @@
       href: trial-faq.md
     - name: Purchase and set up Marketing
       href: purchase-setup.md
-    - name: Install real-time marketing
+    - name: Install real-time customer journey orchestration
       href: real-time-marketing-install.md
     - name: Integrate Marketing with a CMS system or Power Apps portals
       href: portal-optional.md
@@ -142,6 +142,8 @@
         items:
         - name: Email policies and suspension standards
           href: email-policies.md
+        - name: How Dynamics 365 Marketing uses suppression lists
+          href: suppression-lists.md
       - name: Troubleshoot email issues
         href: email-troubleshooting.md
     - name: Customization
