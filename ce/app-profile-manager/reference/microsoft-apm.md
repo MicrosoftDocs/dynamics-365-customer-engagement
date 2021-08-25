@@ -86,7 +86,8 @@ The following method allows you to manage the session context in Customer Servic
 |---------|-------------|
 | [updateContext](microsoft-apm/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for future macro invocations. |
 
-### See Also
+### See also
+
 [App profile manager](../app-profile-manager.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
