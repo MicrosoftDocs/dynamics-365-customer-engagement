@@ -1,7 +1,7 @@
 ---
 title: Insights dashboard overview | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 04/05/2021
+ms.date: 08/25/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
