@@ -1,6 +1,6 @@
 ---
 title: "title property of the session (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager title property of sessions for Customer Service workspace."
+description: "Learn about the app profile manager title property of sessions in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

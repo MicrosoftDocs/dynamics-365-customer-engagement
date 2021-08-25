@@ -1,6 +1,6 @@
 ---
 title: "refreshTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager refreshTab API for Customer Service workspace."
+description: "Learn about the app profile manager refreshTab API in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

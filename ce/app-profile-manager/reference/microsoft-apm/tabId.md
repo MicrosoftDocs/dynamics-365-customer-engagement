@@ -1,6 +1,6 @@
 ---
 title: "tabID property (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager tabID property for Customer Service workspace."
+description: "Learn about the app profile manager tabID property in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
