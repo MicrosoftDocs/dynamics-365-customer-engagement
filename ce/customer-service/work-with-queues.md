@@ -138,9 +138,9 @@ If you want another person in your organization to work on an activity, you can 
   
 ## Assign to another user or team  
   
-1. In the left pane, go to **Activities**.  
+1. Go to **Activities**.  
   
-2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button.](media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.
+2. Select the activity you want, and on the command bar, select **More Commands** ![More commands button.](media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.
   
 3. In the **Assign to another user or team** field, select **Lookup**, and select the user or team you want to assign the activity to.  
   
@@ -150,37 +150,36 @@ If you want another person in your organization to work on an activity, you can 
   
 ## Add to a queue
   
-1. In the left pane, go to **Activities**.
+1. Go to **Activities**.
   
-2. In the list of activities, select the activity you want,  and then select  **Add to Queue**.
+2. Select the activity you want,  and then select  **Add to Queue**.
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 
 ### Pick a view for your queues ###
-You can select a view for your queues to find your required list of queues. 
-1. In the left pane, go to **Activities**.
-  
-2. In the list of activities, select the activity you want,  and then select  **Add to Queue**.
+ 
+1. Go to **Activities**.
+1. Select the activity you want, and then select  **Add to Queue**.
   
 3. In the **Queue** field, select **Search**, and then select **Advanced lookup**.  
 1. On the **Choose queue** dialog, click the **Business Queues(default)** dropdown menu to view the complete list of queues views available to you.
 
-The table lists the views with their descriptions that you can use as per your requirements.
+The table lists the views with their descriptions.
 | View         | Description |
-| :----------- | :------: |
-|Queues Lookup View, All Queues | Lists all the queues at one go. |
-|Business Queues (default)         | Lists all the queues which are not set as default queue for users or teams.    |
-|Private Queues Lookup View, Local User Queues| Lists all the queues which are private in nature and are in active state.|
-|Entity Queues|Lists all the active queues which are created for entities, such as case or email.|
-|My Active Queues|Lists the active queues owned by you.|
-|Omnichannel queues|Lists all the active queues pertaining to Omnichannel or Unified Routing.|
-|Omnichannel queues for Entity|Lists all the active queues pertaining to Omnichannel or Unified Routing and are created for entities, such as case or email.|
-|Omnichannel queues for messaging|Lists all the active queues pertaining to Omnichannel or Unified Routing and are created for messaging (chat) purpose.|
-|Active Queues|Lists the queues in active state.|
-|Inactive Queues|Lists the queues in inactive state.|
-|Queues: Primary Email (Pending Approval)|Lists all the queues for which the primary email address is in pending approval state.|
+| :----------- | :------ |
+|Queues Lookup View, All Queues | Lists all queues at one go. |
+|Business Queues (default)         | Lists all  queues which haven't been set as the default queue for users or teams.    |
+|Private Queues Lookup View, Local User Queues| Lists all  queues which are private in nature and are in active state.|
+|Entity Queues|Lists all active queues which are created for entities, such as case or email.|
+|My Active Queues|Lists active queues owned by you.|
+|Omnichannel queues|Lists active queues pertaining to Omnichannel or Unified Routing.|
+|Omnichannel queues for Entity|Lists active queues pertaining to Omnichannel or Unified Routing and are created for entities, such as case or email.|
+|Omnichannel queues for messaging|Lists active queues pertaining to Omnichannel or Unified Routing and are created for messaging (chat).|
+|Active Queues|Lists queues in active state.|
+|Inactive Queues|Lists queues in inactive state.|
+|Queues: Primary Email (Pending Approval)|Lists queues for which the primary email address is in pending approval state.|
 
-You can also see the queues view list through cases. To select a queue view for cases, go to a case and then selecting **Route**.
+You can also select a view for your queues by navigating through Queues. You must select an item and then select **Route** to add the required view for your queues.  
 
 ### See also
 
