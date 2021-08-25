@@ -1,6 +1,6 @@
 ---
-title: "Multiresource scheduling with requirement groups in Universal Resource Scheduling| MicrosoftDocs"
-description: Learn about multiresource scheduling with requirement groups in Universal Resource Scheduling
+title: "Schedule work with requirement groups in Universal Resource Scheduling"
+description: "Learn how to use requirement groups to define a set of resources that are needed for a job and then schedule all those resources with a single search."
 ms.date: 06/24/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
@@ -17,7 +17,7 @@ search.app:
   - D365FS
 ---
 
-# Multiresource scheduling with requirement groups in Universal Resource Scheduling
+# Schedule work with multiple resources using requirement groups in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-fulfillment-pref.md](../shared/urs/multi-resource-scheduling.md)]
 
