@@ -1,3 +1,15 @@
+## 3.12.51.1
+
+(Includes Resource Scheduling controls version 1.1.7.211681)
+
+- When using the API `msdyn_SearchResourceAvailabilityForRequirementGroup` throws an error **Nullable object must have a value.**, when eligible crew has more crew resources than the requirements in the requirement group. This null handling error is now fixed. 
+- When a resource has a time off starting from 12 AM, for a few hours, the schedule board is showing that the resource is not working for more than the time-off period. This issue happens for the timezones GMT + x hours. This issue is now fixed and schedule board should reflect the right time-off period. 
+- When **Quick Book** is used on a requirement group with only start date and no end date, the quick book window loads forever and shows no results. This issue is now fixed. With this fix the behavior of quick book when used on requirement groups is that: 
+	- If there are start and end dates, then the availability is shown accordingly.
+	- If there are no start and end dates, then the availability is shown for current date to next 60 days.
+	- If only start date is populated, then the availability is shown for start date to next 60 days.
+	- If only end date is populated, then the availability is shown for current date to end date.
+
 ## 3.12.61.21 - 2021 wave 2 early access update 1
 
 (Includes Resource Scheduling controls version 1.2.1.212252)
