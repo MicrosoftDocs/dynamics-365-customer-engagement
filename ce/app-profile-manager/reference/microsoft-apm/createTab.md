@@ -57,7 +57,7 @@ Microsoft.Apm.createTab(tabInput);
 
 ### Create a tab passing values to an entity form
 
-Launches a new tab in the focused session passing entity name and app tab template. It also populates the target entity form with additional values.
+Creates a new tab in the focused session passing the entity name and app tab template name as parameters. It also populates the target entity form with additional values.
 
 ```JavaScript
 var formParams = {};
