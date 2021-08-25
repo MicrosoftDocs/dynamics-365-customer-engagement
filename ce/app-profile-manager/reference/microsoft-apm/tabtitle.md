@@ -1,6 +1,6 @@
 ---
-title: "title property of the tab (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the title property of the tab for multi-session apps such as Customer Service workspace."
+title: "title property of the tab (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the app profile manager title property of the tab in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# title    
+# title (app profile manager) 
 
 The text label of a given tab.
 

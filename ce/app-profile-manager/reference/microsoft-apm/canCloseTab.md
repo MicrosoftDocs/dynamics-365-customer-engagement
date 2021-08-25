@@ -1,6 +1,6 @@
 ---
-title: "canCloseTab property (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the canCloseTab property of the tab for multi-session apps such as Customer Service workspace."
+title: "canCloseTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the app profile manager canCreateSession API for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# canCloseTab
+# canCloseTab (app profile manager)
 
 A Boolean value indicating whether a given tab can be closed.
 

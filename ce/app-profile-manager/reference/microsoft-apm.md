@@ -1,6 +1,6 @@
 ---
-title: "App profile manager JavaScript API Reference for multi-session apps | MicrosoftDocs"
-description: "Learn about the app profile manager APIs of multi-session apps such as Customer Service workspace."
+title: "App profile manager JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the app profile manager methods and properties to manage tabs and sessions in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -44,7 +44,8 @@ The following methods and properties allow you to manage sessions in Customer Se
 | [close](microsoft-apm/close.md) | Closes a session.|
 | [focus](microsoft-apm/focus.md) | Sets the focus on a session. |
 | [requestFocus](microsoft-apm/requestFocus.md) | Shows a notification indicator on a given session if the session is not focused.|
-||||
+
+
 
 | Property | Description |
 |------------|-------------|
@@ -52,7 +53,8 @@ The following methods and properties allow you to manage sessions in Customer Se
 | [isDefault](microsoft-apm/isDefault.md) | Boolean value indicating if a given session is the Home session.|
 | [canClose](microsoft-apm/canCloseSession.md) | Boolean value indicating whether a given session can be closed. |
 | [title](microsoft-apm/sessiontitle.md) | The text label of a given session. |
-||||
+
+
 ## Tab management
 
 The following methods and properties allow you to manage tabs in Customer Service workspace.
@@ -67,14 +69,15 @@ The following methods and properties allow you to manage tabs in Customer Servic
 | [closeTab](microsoft-apm/closeTab.md) | Closes the tab object for a given tab ID. |
 | [focusTab](microsoft-apm/focusTab.md) | Sets the focus on the tab object for a given tab ID. |
 | [refreshTab](microsoft-apm/refreshTab.md) | Refreshes the tab object for a given tab ID.   |
-||||
+
 
 | Property | Description |
 |------------|-------------|
 | [tabId](microsoft-apm/tabId.md) | The ID of a given tab. |
 | [canClose](microsoft-apm/canCloseTab.md) | Boolean value indicating whether a given tab can be closed. |
 | [title](microsoft-apm/tabtitle.md) | The text label of a given tab. |
-||||
+
+
 
 ## Context management
 
@@ -83,6 +86,7 @@ The following method allows you to manage the session context in Customer Servic
 | Method | Description |
 |---------|-------------|
 | [updateContext](microsoft-apm/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for future macro invocations. |
-||||
+
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

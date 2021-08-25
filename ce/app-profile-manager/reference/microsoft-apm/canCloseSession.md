@@ -1,6 +1,6 @@
 ---
-title: "canClose property (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the canClose property of the session for multi-session apps such as Customer Service workspace."
+title: "canClose method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the app profile manager canClose property for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# canClose
+# canClose (app profile manager)
 
 Boolean value indicating whether a given session can be closed.
 

@@ -1,6 +1,6 @@
 ---
-title: "getSession (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the getSession API for the multi-session apps such as Customer Service workspace."
+title: "getSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the app profile manager canCreateSession API for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# getSession
+# getSession (app profile manager)
 
 Returns the session object for a given session ID.
 

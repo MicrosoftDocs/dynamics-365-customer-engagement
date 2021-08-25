@@ -1,6 +1,6 @@
 ---
-title: "refreshTab (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the refreshTab API for the multi-session apps such as Customer Service workspace."
+title: "refreshTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the app profile manager refreshTab API for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# refreshTab
+# refreshTab (app profile manager)
 
 Refreshes the app tab in the current session.
 
@@ -33,13 +33,13 @@ None
 
 The following examples use the `refreshTab` method to refresh a given tab.
 
-### Refreshing a tab using refreshTab method
+### Refreshing a tab using `refreshTab` method
 
 ```JavaScript
 Microsoft.Apm.refreshTab("tab-id-2")
 ```
 
-### Refreshing a tab using refresh method
+### Refreshing a tab using `refresh` method
 
 ```JavaScript
 Microsoft.Apm.getFocusedSession().getFocusedTab().refresh();

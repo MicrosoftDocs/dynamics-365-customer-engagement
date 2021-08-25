@@ -1,6 +1,6 @@
 ---
-title: "createSession (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the createSession API for the multi-session apps such as Customer Service workspace."
+title: "createSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the app profile manager createSession API for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# createSession
+# createSession (app profile manager)
 
 Creates a session based on a session template and returns the unique identifier of the session.
 

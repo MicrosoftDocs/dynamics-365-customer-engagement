@@ -1,6 +1,6 @@
 ---
-title: "sessionId property (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the sessionId property of the session for multi-session apps such as Customer Service workspace."
+title: "sessionId property (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the app profile manager sessionId property of sessions for Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,8 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# sessionId
-
+#  (app profile manager)
 The ID of a given session.
 
 ## Syntax
