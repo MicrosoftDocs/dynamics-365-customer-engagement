@@ -156,7 +156,7 @@ If you want another person in your organization to work on an activity, you can 
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 
-### Pick a view for your queues ###
+### Pick a view for your queues
  
 1. Go to **Activities**.
 1. Select the activity you want, and then select  **Add to Queue**.
@@ -165,8 +165,9 @@ If you want another person in your organization to work on an activity, you can 
 1. On the **Choose queue** dialog, click the **Business Queues(default)** dropdown menu to view the complete list of queues views available to you.
 
 The table lists the views with their descriptions.
+
 | View         | Description |
-| :----------- | :------ |
+| ----------- | ------ |
 |Queues Lookup View, All Queues | Lists all queues at one go. |
 |Business Queues        | This is default view. Lists all queues which aren't used as default queues by users or teams.    |
 |Private Queues Lookup View, Local User Queues| Lists all  queues which are private in nature and are in active state.|
@@ -178,6 +179,7 @@ The table lists the views with their descriptions.
 |Active Queues|Lists queues in active state.|
 |Inactive Queues|Lists queues in inactive state.|
 |Queues: Primary Email (Pending Approval)|Lists queues for which the primary email address is in pending approval state.|
+|||
 
 You can also select a view for your queues by navigating through Queues. You must select an item and then select **Route** to add the required view for your queues.  
 
