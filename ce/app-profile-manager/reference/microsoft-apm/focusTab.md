@@ -1,6 +1,6 @@
 ---
 title: "focusTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager canCreateSession API for Customer Service workspace."
+description: "Learn about the app profile manager focusTab API in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

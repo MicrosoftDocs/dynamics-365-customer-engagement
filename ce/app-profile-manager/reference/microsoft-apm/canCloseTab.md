@@ -1,6 +1,6 @@
 ---
-title: "canCloseTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager canCreateSession API for Customer Service workspace."
+title: "canClose property of a tab (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the app profile manager canClose property of a tab in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,12 +8,12 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# canCloseTab (app profile manager)
+# canClose (app profile manager)
 
 A Boolean value indicating whether a given tab can be closed.
 
 > [!Note]
-> If canCloseTab property is set to false, then the button to close the tab is hidden. Else, the close button is visible.
+> If canClose property is set to false, then the button to close the tab is hidden. Else, the close button is visible.
 
 ## Return value
 

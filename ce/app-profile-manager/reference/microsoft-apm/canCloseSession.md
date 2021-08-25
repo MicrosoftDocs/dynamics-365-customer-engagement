@@ -1,6 +1,6 @@
 ---
-title: "canClose method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager canClose property for Customer Service workspace."
+title: "canClose property of a session (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the app profile manager canClose property of a session in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

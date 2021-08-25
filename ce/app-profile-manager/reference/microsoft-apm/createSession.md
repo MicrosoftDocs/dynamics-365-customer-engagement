@@ -1,6 +1,6 @@
 ---
 title: "createSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager createSession API for Customer Service workspace."
+description: "Learn about the app profile manager createSession API in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

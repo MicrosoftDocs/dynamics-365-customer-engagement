@@ -1,6 +1,6 @@
 ---
 title: "closeTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the app profile manager canCreateSession API for Customer Service workspace."
+description: "Learn about the app profile manager closeTab API in Customer Service workspace."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -14,6 +14,7 @@ Closes the specified app tab in the current session.
 
 > [!Note]
 > The anchor tab of a session (the first tab) cannot be closed.
+
 ## Syntax
 
 `Microsoft.Apm.closeTab(tabId);`
