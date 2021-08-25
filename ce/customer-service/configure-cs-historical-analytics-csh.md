@@ -44,7 +44,7 @@ This configuration will also enable AI-discovered topics from cases with default
 
 ### View Customer Service analytics reports
 
-The service managers must have either the system administrator or the CSR manager role to view the reports.
+The service managers must have either the system administrator or the CSR manager role to view the reports. 
 
 ### Provide report access to additional security roles
 
