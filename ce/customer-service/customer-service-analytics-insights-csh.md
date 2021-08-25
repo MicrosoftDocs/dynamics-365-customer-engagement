@@ -48,7 +48,7 @@ For more information about the Summary dashboard, see [Summary dashboard](summar
 
 ### Agent
 
-The Agent dashboard shows charts and KPIs for individual agents and overall agent performance.
+The Agent dashboard shows charts and KPIs for individual agents and overall agent performance. 
 
    > [!div class=mx-imgBorder]
    > ![Analytics Agent dashboard.](media/customer-service-analytics-agent-dashboard.png "Customer Service Analytics Agent dashboard") 
