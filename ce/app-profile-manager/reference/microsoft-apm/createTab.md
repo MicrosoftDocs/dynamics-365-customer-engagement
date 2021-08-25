@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: createTab (app profile manager)
+# createTab (app profile manager)
 
 Creates an app tab in a focused session and returns the unique identifier of the created tab.
 

@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: focusTab (app profile manager)
+# focusTab (app profile manager)
 
 Sets the focus on a specified tab in the current session.
 
