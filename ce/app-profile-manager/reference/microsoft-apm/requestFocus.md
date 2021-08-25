@@ -20,7 +20,8 @@ Shows a notification indicator on a given session if the session is not focused.
 
 ## Return value
 
-None
+None.
+
 ## Example
 
 ```JavaScript

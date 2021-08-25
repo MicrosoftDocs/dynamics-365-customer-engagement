@@ -27,7 +27,7 @@ The app profile manager JavaScript API reference includes methods and properties
 
 ## Prerequisite
 
-You must have App Profile user or Productivity tools user security roles to use the app profile manager APIs.
+You must have App Profile user or Productivity tools user security roles to use the app profile manager APIs. More information: [Security roles](security-roles.md)
 
 ## Session management
 
@@ -86,6 +86,7 @@ The following method allows you to manage the session context in Customer Servic
 |---------|-------------|
 | [updateContext](microsoft-apm/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for future macro invocations. |
 
-
+### See Also
+[App profile manager](app-profile-manager.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

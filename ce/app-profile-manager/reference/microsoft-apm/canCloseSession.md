@@ -19,7 +19,7 @@ Boolean value indicating whether a given session can be closed.
 
 ## Return value
 
-None
+None.
 
 ## Example
 

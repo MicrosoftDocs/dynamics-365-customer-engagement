@@ -19,7 +19,7 @@ A Boolean value indicating whether a given tab can be closed.
 
 ## Return value
 
-None
+None.
 
 ## Example
 

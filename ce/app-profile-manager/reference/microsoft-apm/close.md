@@ -25,7 +25,7 @@ Closes a session.
 
 ## Return value
 
-None
+None.
 
 ## Example
 

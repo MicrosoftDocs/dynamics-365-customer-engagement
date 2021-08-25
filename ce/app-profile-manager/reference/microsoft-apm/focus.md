@@ -20,7 +20,8 @@ Sets the focus on a session.
 
 ## Return value
 
-None
+None.
+
 ## Example
 
 ```JavaScript

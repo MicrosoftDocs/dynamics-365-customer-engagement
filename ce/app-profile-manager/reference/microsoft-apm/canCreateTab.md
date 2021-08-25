@@ -21,7 +21,6 @@ Allows you to check whether a new tab can be created in a given session.
 
 `Microsoft.Apm.getFocusedSession().canCreateTab();`
 
-
 ## Return value
 
 A Boolean value of true if a new tab can be created; otherwise false.
