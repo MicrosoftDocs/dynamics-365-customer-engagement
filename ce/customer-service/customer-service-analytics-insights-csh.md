@@ -183,4 +183,4 @@ To troubleshoot issues when you try to access or view the reports, do the follow
 [Configure Customer Service analytics in Power BI](configure-customer-service-analytics-dashboard.md)
 
 
-[!INCLUDE[footer-include](footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
