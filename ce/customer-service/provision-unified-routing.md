@@ -21,9 +21,11 @@ To provision unified routing in Customer Service, do the following:
 1. In Customer Service Hub, go to **Service Management**.
 2. In the site map, under **Service Terms**, select **Service Configuration Settings**. The **Service Configuration Settings** page appears.
 
-    If consent to access is not provided by the tenant admin, in the **Unified routing** section, the following message with a link to the consent page is displayed:
+    If consent to access is not provided by the tenant admininstrator, in the **Unified routing** section, the following message with a link to the consent page is displayed:
 
     "Unified routing requires application permissions. A tenant administrator must provide consent before it can be turned on. Provide consent."
+    
+    If consent is already provided by the tenant administrator, go to step 6.
 
 3. Select **Provide consent**. The following consent form is displayed on a new tab.
 
