@@ -169,7 +169,7 @@ The table lists the views with their descriptions.
 | View         | Description |
 | ----------- | ------ |
 |Queues Lookup View, All Queues | Lists all queues at one go. |
-|Business Queues        | This is default view. Lists all queues which aren't used as default queues by users or teams.    |
+|Business Queues        | This is default view. Lists all queues which aren't used as default queues by users or teams.     |
 |Private Queues Lookup View, Local User Queues| Lists all  queues which are private in nature and are in active state.|
 |Entity Queues|Lists all active queues which are created for entities, such as case or email.|
 |My Active Queues|Lists active queues owned by you.|
