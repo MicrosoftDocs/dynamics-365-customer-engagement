@@ -8,6 +8,12 @@ ms.author: lavanyakr
 manager: annbe
 ms.custom: 
   - "dyn365-sales"
+searchScope: 
+  - D365-App-msdynce_salespro
+  - D365-Entity-campaignactivity
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Add an activity to a campaign using in-app marketing (Sales Professional)

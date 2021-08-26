@@ -7,7 +7,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
   - D365-Entity-quote
   - D365-Entity-salesorder
   - D365-UI-*
