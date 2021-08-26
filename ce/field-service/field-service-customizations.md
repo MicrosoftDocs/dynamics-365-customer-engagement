@@ -36,8 +36,8 @@ Find documentation to perform common customizations in the table below:
 |   | [Resource availability API](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/21/retrieve-resource-availability-with-universal-resource-scheduling-api/) & [Sample code](https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-use-resource-schedulings-search-resource-availability-api/)  |
 |   |  [Resource workhours extensibility](https://docs.microsoft.com/dynamics365/field-service/field-service-work-hours-calendar-api) |
 |   |  [Use your preferred GPS provider](https://docs.microsoft.com/dynamics365/common-scheduler/developer/use-preferred-geospatial-data-provider) |
-|   | [Add a custom app module to the Field Service (Dynamics 365) mobile app]()  |
-|   |  [Customize the Field Service (Dynamics 365) mobile app]() |
+|   | [Add a custom app module to the Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/mobile-powerapp-copy-app-module)  |
+|   |  [Customize the Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-configure) |
 |   |  [Use Microsoft Power Platform to configure the Field Service (Dynamics 365) mobile app]() |
 |   | [Edit work hour calendars by using APIs](https://docs.microsoft.com/dynamics365/field-service/field-service-work-hours-calendar-api) |
 
