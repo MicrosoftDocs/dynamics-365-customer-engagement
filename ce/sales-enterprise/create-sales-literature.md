@@ -9,6 +9,7 @@ manager: annbe
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-salesliterature
+  - D365-Entity-competitor
   - D365-UI-*
   - Dynamics 365
   - Sales
