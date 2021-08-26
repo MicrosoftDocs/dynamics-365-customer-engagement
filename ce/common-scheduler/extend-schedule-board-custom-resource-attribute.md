@@ -1,6 +1,6 @@
 ---
-title: "Customize the schedule board with a custom resource attribute in Universal Resource Scheduling| MicrosoftDocs"
-description: Learn how to customize the schedule board with a custom resource attribute in Universal Resource Scheduling
+title: "Customize the schedule board in Universal Resource Scheduling"
+description: "Learn how to customize the schedule board to help you meet business needs. Walk through an example to understand why and how to employ these customizations."
 ms.date: 03/29/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
@@ -17,7 +17,7 @@ search.app:
   - D365FS
 ---
 
-# Customize the schedule board with a custom resource attribute
+# Customize and extend the schedule board in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-extend-schedule-board-custom-resource-attribute.md](../shared/urs/extend-schedule-board-custom-resource-attribute.md)]
 
