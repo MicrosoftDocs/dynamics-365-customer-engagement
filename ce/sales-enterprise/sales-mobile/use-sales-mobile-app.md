@@ -1,7 +1,7 @@
 ---
 title: Using the Dynamics 365 Sales mobile app
 description: Instructions for using the Dynamics 365 Sales mobile app
-ms.date: 06/22/2021
+ms.date: 08/26/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -74,6 +74,8 @@ By default, the production apps are displayed. If you want to see the apps from 
 
 6. Go to the **Apps** screen, pull down the screen to refresh and wait for at least a few minutes.
 
+> [!NOTE]
+> If you close the app, the **Show non-production apps** toggle is turned off and the non-production apps are removed from the list when you reopen the app. To view the non-production apps again, turn on the **Show non-production apps** toggle.
 
 ## First run experience
 
