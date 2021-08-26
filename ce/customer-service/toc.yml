@@ -260,6 +260,8 @@
           href: capacity-profiles.md
         - name: Role persona mapping
           href: role-persona-mapping.md
+        - name: Roles, persona, and privileges
+          href: roles-persona-privileges.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
     - name: Agent experience
