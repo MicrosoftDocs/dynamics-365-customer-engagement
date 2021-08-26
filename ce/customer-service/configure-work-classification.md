@@ -38,10 +38,9 @@ After all the work classification rulesets have been run, the system evaluates t
 
 Before a work item is sent to a queue, the rules and operating hours are matched in the priority order. If no queues are operational, the work item will be sent to the queue corresponding to the rule condition that matches first in the priority order.
 
-Work classification rulesets are multi-stage, where values set in one of the rule items of a ruleset can be used in the next rulesets' rule items. For example: If in output section of one of the ruleitem of ruleset 1, priority is set to High; then any subsequent  ruleset ruleitem can use priority variable and corresponding value High to set value to another attribute , something like - If Priority equals  High , Set Severity to Critical 
+In work classification rulesets, values set in one of the rule items of a ruleset can be used in the next rulesets' rule items. For example: If in output section of one of the rule item of ruleset 1, priority is set to High; then any subsequent ruleset rule item can use the priority variable and corresponding value "High" to set value for another attribute, such as, "If Priority equals High, set severity to critical".
 
 For a rule item, you can set the output values for up to five attributes.
-
 
 ## Create work classification rulesets
 
