@@ -19,3 +19,4 @@ search.app:
 ---
 
 # Use AI to generate content with content ideas
+
