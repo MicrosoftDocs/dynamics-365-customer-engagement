@@ -210,7 +210,7 @@
       items:
       - name: Overview of unified routing
         href: overview-unified-routing.md
-      - name: How routing and assignment works
+      - name: How to set up unified routing
         href: set-up-routing-process.md
       - name: Routing and assignment rules
         href: routing-workstream-queues.md
