@@ -27,9 +27,9 @@ The following table lists the rich cards that are supported across different cha
 | Custom (Direct Line) | ✔ |  ✔ | ✔ | ✔*  | ✔* |
 
 
-✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. They might limit the number of actions allowed on each card that varies by channel.
+✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
-⚠: Partial support; card might not be displayed at all if it contains inputs or buttons and varies by channel. 
+⚠: Partial support; varies by channel; card might not be displayed at all if it contains inputs or buttons. 
 
 ✔* : Card elements are supported in the Webchat version of Custom (Direct Line), but not in the Android version.
 
@@ -50,9 +50,9 @@ For more information, see the following:
   - [Sending and Receiving Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
 
-### Support for suggested actions
+## Support for suggested actions
 
-Suggested actions are supported fully with the exception that some channels might limit the number of actions allowed. The number of actions supported varies by channel.
+Suggested actions are supported fully with the exception that some channels might limit the number of actions allowed. Also, the number of actions supported varies by channel.
 
 | Channel                        | Supported?                      |
 |--------------------            |---------------------------------|

@@ -617,7 +617,7 @@
         - name: Markdown formats
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
-      href: asynchronous-channels.md
+      href: card-support-in-channels.md
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
