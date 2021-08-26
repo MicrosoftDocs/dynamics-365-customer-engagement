@@ -28,7 +28,7 @@ Find documentation to perform common customizations in the table below:
 
 | Area | Documentations |
 | --- | --- |
-|   |   |
+|   | Create, edit, or configure forms using the form designer https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms |
 |   | Work order user interface settings https://docs.microsoft.com/en-us/dynamics365/field-service/create-work-order#work-order-user-interface-settings  |
 |   | Enabled scheduling for an entity  |
 |   | Customizer Resource matching logic with custom fields  |
