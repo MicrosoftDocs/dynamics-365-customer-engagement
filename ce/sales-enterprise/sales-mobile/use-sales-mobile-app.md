@@ -75,7 +75,7 @@ By default, only the production apps are displayed for you to choose from. If yo
 6. Go to the **Apps** screen, pull down the screen to refresh and wait for at least a few minutes.
 
 > [!NOTE]
-> If you've not selected an app module and you close the app, the **Show non-production apps** toggle is turned off and the non-production apps are removed from the list when you reopen the app. To view the non-production apps again, turn on the **Show non-production apps** toggle.
+> If you close the app, the **Show non-production apps** toggle is turned off and the non-production apps are removed from the list when you reopen the app. To view the non-production apps again, turn on the **Show non-production apps** toggle.
 
 ## First run experience
 
