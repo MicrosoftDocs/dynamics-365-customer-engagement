@@ -173,7 +173,7 @@ You can also configure the **Transfer to agent** node in the Power Virtual Agent
 
 The global variables that are created in Power Virtual Agents can be passed to Omnichannel for Customer Service when a conversation is escalated. For the complete list, see [Contextual variables available upon hand off](/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off)
 
-### Known limitations
+### Limitations
 
 | Description     | Limitation     |
 |-----------------|----------------|
@@ -190,8 +190,7 @@ This conversation will then appear in the **Closed** state in the Customer Servi
 
 ## Enable a Power Virtual Agent bot to end conversations
 
-A Power Virtual Agents bot can choose to end conversations if it determines that the customer query has been solved or the when the customer has been inactive for a period of time. The bot can choose to end conversations only after 30 minutes of inactivity.
-
+You can configure the Power Virtual Agents bot to end conversations if the customer query has been solved or the when the customer has been inactive for a period of time. The bot conversations will automatically close after 30 minutes of inactivity.
 
 ## Privacy notice
 

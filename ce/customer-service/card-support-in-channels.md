@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 08/02/2021
+ms.date: 08/26/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -83,7 +83,8 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Custom messaging (Direct Line) | All types except blocked types in org      | All types except blocked types in org |
 
 > [!Note]
-> - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent receives a PNG image. When an agent sends a GIF image (outbound), the customer will receive a PNG image. 
+>
+> - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent receives a PNG image. When an agent sends a GIF image (outbound), the customer will receive a PNG image.
 > - The Direct Line channel supports the above attachment types, but it's up to the client to implement them.
 > - For LINE inbound and outbound messages, when a GIF image is sent, the recipient will receive a JPG image.
 > - For WhatsApp messages, when a customer sends an attachment in document format (for example, a DOCX, XLSX, or TXT file), the agent will receive the attachment name as message text. We recommend converting documents to PDF format before sending them as attachments.
@@ -98,7 +99,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Twitter            | Yes. Emoji in text like “😀”                                       |
 | WeChat             | Yes. When an emoji is sent, the recipient sees characters like :-) |
 | WhatsApp           | Not supported.                                                      |
-| SMS (Twilio)       | Yes. Emoji in text like “😀”                                       | 
+| SMS (Twilio)       | Yes. Emoji in text like “😀”                                       |
 | Custom messaging (Telegram) | Yes. Emoji in text like “😀”                              |
 | Custom messaging (Direct Line) | Yes. Emoji in text like “😀”                           |
 
@@ -140,7 +141,7 @@ With social profiles, you can do the following:
 | WhatsApp           | Yes                                                                 |
 | Custom messaging (Telegram) | Yes                                                        |
 
-## Support for formatted messages
+## Preview: Support for formatted messages
 
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
@@ -148,7 +149,7 @@ With social profiles, you can do the following:
 Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, be aware that a few styles are not currently supported across some channels. The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
 
 | Style                | Live chat  | Microsoft Teams | Facebook | WhatsApp | Custom messaging (Telegram)| Custom messaging (Direct Line) |
-|----------------------| ---------- | -------------   | -------- | ---------|------------------ |------------------------------  | 
+|----------------------| ---------- | -------------   | -------- | ---------|------------------ |------------------------------  |
 | bold                 | ✔          | ✔              | ✔        | ✔       | ✔                         | ✔                             |
 | italics              | ✔          | ✔              | ✔        | ✔       | ✔                         | ✔                             |
 | strikethrough        | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
