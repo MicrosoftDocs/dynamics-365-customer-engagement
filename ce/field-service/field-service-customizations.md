@@ -28,6 +28,8 @@ Find documentation to perform common customizations in the table below:
 
 | Area | Documentations |
 | --- | --- |
+|   |   |
+|   | Work order user interface settings https://docs.microsoft.com/en-us/dynamics365/field-service/create-work-order#work-order-user-interface-settings  |
 |   | Enabled scheduling for an entity  |
 |   | Customizer Resource matching logic with custom fields  |
 |   |  Set up booking rules for customers to extend business logic	https://docs.microsoft.com/en-us/dynamics365/field-service/set-up-booking-rules |
@@ -39,7 +41,7 @@ Sample code: https://cloudblogs.microsoft.com/dynamics365/it/2019/07/15/how-to-u
 |   | Add a custom app module to the Field Service (Dynamics 365) mobile app  |
 |   |  Customize the mobile app |
 |   |  Use Microsoft Power Platform to configure the Field Service (Dynamics 365) mobile app |
-|   |   |
+|   | Edit work hour calendars by using APIs https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-work-hours-calendar-api |
 
 
 
