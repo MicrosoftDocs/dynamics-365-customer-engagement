@@ -167,6 +167,7 @@
       - name: How the app uses cookies
         href: cookies.md
     - name: Terms and fair use
+      items:
       - name: Fair use policy
         href: fair-use-policy.md
     - name: Administration and setup FAQ
