@@ -1,6 +1,6 @@
 ---
-title: Extending Universal Resource Scheduling - Find resources by language - a step-by-step guide | Microsoft Docs
-description: Extending Universal Resource Scheduling - Find resources by language - a step-by-step guide
+title: "Extend Universal Resource Scheduling with custom constraint"
+description: "This page is a step-by-step guide for extending Universal Resource Scheduling with a custom constraint, using the example of filtering resources by language."
 author: FieldServiceDave
 ms.author: daclar
 ms.date: 06/14/2018
@@ -14,7 +14,7 @@ search.app:
   - D365FS
 ---
 
-# Extending Universal Resource Scheduling: Find resources by language - a step-by-step guide
+# Sample: Extend Universal Resource Scheduling with a custom language constraint
 
 > This step by step guide is a companion to [Understanding and customizing resource matching in Universal Resource Scheduling](understanding-and-customizing-resource-matching-in-urs.md)
 

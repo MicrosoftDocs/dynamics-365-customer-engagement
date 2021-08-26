@@ -17,7 +17,13 @@ ms.author: shujoshi
 manager: sakudes
 search.audienceType: 
   - enduser
-
+searchScope: 
+  - D365-App-msdynce_saleshub
+  - D365-Entity-contact
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 # Send bulk email to customers
 

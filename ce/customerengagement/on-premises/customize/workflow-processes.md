@@ -1,6 +1,6 @@
 ---
-title: "Workflow processes with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn about workflows that can be used to automate business processes
+title: "Use workflow processes in Dynamics 365 Customer Engagement (on-premises)"
+description: "Workflows automate business processes that don't need user interaction. Learn more about when to start then, how to run them, and what actions they perform."
 ms.custom: 
 ms.date: 01/14/2019
 ms.reviewer: 
@@ -19,7 +19,7 @@ author: Mattp123
 search.audienceType: 
   - customizer
 ---
-# Use Workflow processes to automate processes that don't require user interaction
+# Overview of using workflow processes
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Classic Dataverse background workflows](/power-automate/workflow-processes)
 

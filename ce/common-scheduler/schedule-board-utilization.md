@@ -1,6 +1,6 @@
 ---
-title: "Resource utilization on the schedule board - Universal Resource Scheduling | MicrosoftDocs"
-description: Learn about resource utilization on the schedule board in Universal Resource Scheduling
+title: "Resource utilization percentage in Universal Resource Scheduling"
+description: "Utilization is the amount of time a resource is scheduled to work. Learn about how it's calculated and displayed on the schedule board."
 ms.date: 08/02/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
