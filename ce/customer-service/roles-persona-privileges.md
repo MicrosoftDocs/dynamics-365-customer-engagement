@@ -151,13 +151,216 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 
 ## Role: Supervisor
 
+|	Table name                    	|	Table unique name	                    |	Privilege name	                                    | Recommended depth|
+|---------------                    |--------------------                       |-----------------                                      | --------          |
+|	Activity	                    |	Activity	                            |	Append, Append To, Delete, Update                	|	Local	|
+|	                            	|	        	                            |	Assign	                                            |	Deep	|
+|	                            	|	                                    	|	Create                                            	|	Basic	|
+|	                            	|	                                    	|	Read, Share	                                        |	Global	|
+|	Agent Status history	        |	msdyn_agentstatushistory	            |	Read                                            	|	Global	|
+|	App Module	                    |	AppModule	                            |	Read	                                            |	Global	|
+|	App Profile	                    |	msdyn_appconfiguration	                |	Read	                                            |	Global	|
+|	App Parameter Definition<br> (Deprecated)</br>	|	msdyn_consoleappparameterdefinition	|	Read	                                |	Global	|
+|	Application Extension	        |	msdyn_applicationextension	            |	Read                                            	|	Global	|
+|	Application Tab Template	    |	msdyn_applicationtabtemplate          	|	Read	                                            |	Global	|
+|	Application Tab Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationtemplate	|	Read                                	|	Global	|
+|	Application Type (Deprecated)	|	msdyn_consoleapplicationtype	        |	Read	                                            |	Global	|
+|	Audio File                    	|	msdyn_soundfile	                        |	Append, Append To, Create, Delete, Read, Update	    |	Global	|
+|	Bookable Resource            	|	BookableResource	                    |	Read	                                            |	Global	|
+|	Bookable Resource <br>Characteristic</br>	|	BookableResourceCharacteristic	|	Read	                                        |	Global	|
+|	channel	                        |	msdyn_channel	                        |	Read                                            	|	Global	|
+|	Channel Provider            	|	msdyn_channelprovider	                |	Read                                            	|	Global	|
+|	Channel Integration Framework <br>v1.0 Provider</br>	    |	msdyn_ciprovider	|	Read                                    	|	Global	|
+|	Characteristic	                |	Characteristic                        	|	Read	                                            |	Global	|
+|	Context item value             	|	msdyn_ocliveworkitemcontextitem         |	Read	                                            |	Global	|
+|	                              	|	                                       	|	Append, Create, Update                            	|	Basic	|
+|	Context variable	            |	msdyn_ocliveworkstreamcontextvariable	|	Read	                                            |	Global	|
+|	Conversation Characteristic	    |	msdyn_ocliveworkitemcharacteristic        	|	Read	            |	Global	|
+|	Conversation Sentiment        	|	msdyn_ocliveworkitemsentiment	                |	Read	|	Global	|
+|	Custom messaging account       	|	msdyn_ocbotchannelregistration            	|	Read	|	Global	|
+|	Deprecated Workstream <br>Entity Configuration</br>	|	msdyn_entityconfig        	|	Read	|	Global	|
+|	Entity	                        |	msdyn_entityroutingconfiguration	|	Read	|	Global	|
+|	Entity Routing Context	        |	msdyn_cdsentityengagementctx	|	Read	|	Global	|
+|	Geo Location Provider        	|	msdyn_oc_geolocationprovider	|	Read	|	Global	|
+|	Language	                    |	msdyn_oclanguage	|	Read	|	Global	|
+|	Live work item event          	|	msdyn_liveworkitemevent	|	Read	|	Global	|
+|	Live Work Item Participant <br>(Deprecated)</br>	|	msdyn_ocliveworkitemparticipant	|	Read	|	Global	|
+|	Localization	                |	msdyn_oclocalizationdata	|	Create, Delete, Read, Update	|	Global	|
+|	Masking Rule	                |	msdyn_maskingrule	|	Read	|	Global	|
+|	Master Entity Routing <br>Configuration</br>	|	msdyn_masterentityroutingconfiguration	|	Read	|	Global	|
+|	Message                        	|	msdyn_ocsystemmessage	|	Create, Delete, Read, Update	|	Global	|
+|	Notification Field            	|	msdyn_notificationfield	|	Read	|	Global	|
+|	Notification Template	        |	msdyn_notificationtemplate	|	Read	|	Global	|
+|	Notification Field (Deprecated)	|	msdyn_consoleapplicationnotificationfield	|	Read	|	Global	|
+|	Notification Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationnotificationtemplate	|	Read	|	Global	|
+|	Omnichannel Queue (deprecated)	|	msdyn_omnichannelqueue	|	Append, Append To, Read	|	Global	|
+|	Omnichannel Configuration	|	msdyn_omnichannelconfiguration	|	Read	|	Global	|
+|	Omnichannel Personalization	|	msdyn_omnichannelpersonalization	|	Create, Delete, Read, Update	|	Basic	|
+|	Ongoing conversation <br>(Deprecated)</br>	|	msdyn_liveconversation	|	Create	|	Basic	|
+|		                                        |	                    	|	Read, Share	|	Global	|
+|	                                        	|	                    	|	Append, Append To, Update	|	Local	|
+|		                                        |	                    	|	Assign	|	Deep	|
+|	Operating Hour	                            |	msdyn_operatinghour    	|	Read	|	Global	|
+|	Parameter (Deprecated)            	|	msdyn_consoleapplicationtemplateparameter	|	Read	|	Global	|
+|	Persona Security Role Mapping	|	msdyn_personasecurityrolemapping	|	Read	|	Global	|
+|	Personal quick reply	|	msdyn_personalmessage	|	Append, Append To, Create, Delete, Read, Update		|	Basic	|
+|	Personal sound setting	|	msdyn_Personalsoundsetting	|	Append, Append To, Create, Delete, Read, Update		|	Basic	|
+|	PluginAssembly	|	PluginAssembly	|	Read	|	Global	|
+|	PluginType	|	PluginType	|	Read	|	Global	|
+|	Power BI Configuration	|	msdyn_analytics	|	Read	|	Global	|
+|	Presence	|	msdyn_presence	|	Append, Append To, Read	|	Global	|
+|	Provisioning State	|	msdyn_ocprovisioningstate	|	Read	|	Global	|
+|	Queue	|	Queue	|	Append, Append To, Read	|	Global	|
+|	Quick reply	|	msdyn_cannedmessage	|	Create, Delete, Read, Update	|	Global	|
+|	Rating Model	|	RatingModel	|	Read	|	Global	|
+|	Rating Value	|	RatingValue	|	Read	|	Global	|
+|	Recording	|	msdyn_ocrecording	|	Read	|	Global	|
+|	Role	|	Role	|	Read	|	Global	|
+|	Rule Item	|	msdyn_ocruleitem	|	Read	|	Global	|
+|	Scenario	|	msdyn_scenario	|	Read	|	Global	|
+|	SdkMessage	|	SdkMessage	|	Read	|	Global	|
+|	SdkMessageProcessingStep	|	SdkMessageProcessingStep	|	Read	|	Global	|
+|	SdkMessageProcessingStepImage	|	SdkMessageProcessingStepImage	|	Read	|	Global	|
+|	Search Configuration	|	msdyn_searchconfiguration	|	Read	|	Global	|
+|	Self service	|	msdyn_visitorjourney	|	Read	|	Global	|
+|	Sentiment Analysis	|	msdyn_sentimentanalysis	|	Read	|	Global	|
+|	Service Endpoint	|	ServiceEndpoint	|	Read	|	Global	|
+|	Session event	|	msdyn_sessionevent	|	Read	|	Global	|
+|	Session Template	|	msdyn_sessiontemplate	|	Read	|	Global	|
+|	Session Characteristic	|	msdyn_ocsessioncharacteristic	|	Read	|	Global	|
+|	Session participant	|	msdyn_sessionparticipant	|	Read	|	Global	|
+|	Session Templates (Deprecated)	|	msdyn_consoleapplicationsessiontemplate	|	Read	|	Global	|
+|	SharePoint Data	|	SharePointData	|	Create, Read, Update	|	Global	|
+|	SharePointDocument	|	SharePointDocument	|	Read	|	Global	|
+|	Solution	|	Solution	|	Read	|	Global	|
+|	Sound notification setting	|	msdyn_soundnotificationsetting	|	Append, Append To, Create, Delete, Read, Update	|		|
+|	System User	|	User	|	Append, Append To, Create, Read, Update	|	Local	|
+|	Tag	|	msdyn_octag	|	Append, Append To, Create, Delete, Read, Update		|	Global	|
+|	Template Parameter	|	msdyn_templateparameter	|	Read	|	Global	|
+|	Template Tag (Deprecated)	|	msdyn_templatetags	|	Read	|	Global	|
+|	Transcript	|	msdyn_transcript	|	Read	|	Global	|
+|	UR notification template	|	msdyn_urnotificationtemplate	|	Read	|	Global	|
+|	UR Notification Template Mapping	|	msdyn_urnotificationtemplatemapping	|	Read	|	Global	|
+|	User Setting	|	msdyusd_usersettings	|	Append, Append To, Read, Update		|	Global	|
+|	User settings	|	msdyn_usersetting	|	Append, Append To, Create, Delete, Read, Update	|	Global	|
+|	Workstream	|	msdyn_liveworkstream	|	Read	|	Global	|
+||||
+
 ## Role: Agent
 
-| Entity name	| Entity or Metadata | Privilege name	| Depth or Level    |
-|---------------|--------------------|------------------| --------          |
-| Solution      | Solution           |   Read           | Global            |
 
-
+|	Table name                    	|	Table unique name	            |	Privilege name	                                    | Recommended depth|
+|---------------                    |--------------------               |-----------------                                      | --------          |
+|	Activity	                    |	Activity	                    |	Append, Append To, Delete, Update	                |	Local	|
+|	                            	|	                            	|	Assign                                            	|	Deep	|
+|	                        	    |	                                |	Create                                             	|	Basic	|
+|	                            	|	                            	|	Read, Share                                        	|	Global	|
+|	Agent Status history    	    |	msdyn_agentstatushistory        |	Read	                                            |	Global	|
+|	App Module                    	|	AppModule	                    |	Read                                            	|	Global	|
+|	App Profile                    	|	msdyn_appconfiguration        	|	Read	                                            |	Global	|
+|	App Parameter Definition <br>(Deprecated)</br>	|	msdyn_consoleappparameterdefinition	|	Read	                        |	Global	|
+|	Application Extension	        |	msdyn_applicationextension    	|	Read                                            	|   Global	|
+|	Application Tab Template	    |	msdyn_applicationtabtemplate	|	Read                                            	|	Global	|
+|	Application Tab Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationtemplate	|	Read                        	|	Global	|
+|	Application Type <br>(Deprecated)</br>	|	msdyn_consoleapplicationtype	|	Read	                                    |	Global	|
+|	Assignment Configuration    	|	msdyn_assignmentconfiguration	|	Read                                            	|	Global	|
+|	Assignment Configuration<br> Step</br>	|	msdyn_assignmentconfigurationstep	|	Read	                                |	Global	|
+|	Audio File                    	|	msdyn_soundfile	                |	Append, Append To, Read	                            |	Global	|
+|	Bookable Resource          	    |	BookableResource	|	Read		                                                    |   Global	|
+|	Bookable Resource Capacity<br> Profile</br>	|	msdyn_bookableresourcecapacityprofile	|	Read	                        |	Local	|
+|	Bookable Resource <br>Characteristic</br>	|	BookableResourceCharacteristic	|	Read	                                |	Global	|
+|	Capacity Profile            	|	msdyn_capacityprofile	|	Read	                                                    |	Basic	|
+|	channel	                        |	msdyn_channel	    |	Read	                                                        |	Global	|
+|	Channel Provider            	|	msdyn_channelprovider	|	Read	                                                    |	Global	|
+|	Channel Integration Framework<br> v1.0 Provider</br>	|	msdyn_ciprovider	|	Read	                                |	Global	|
+|	Characteristic                	|	Characteristic	|	Read	                                                            |	Global	|
+|	Characteristic mapping	        |	msdyn_ocsitdskill	|	Read	                                                        |	Global	|
+|	Context item value	            |	msdyn_ocliveworkitemcontextitem	|	Read	                                            |	Global	|
+|	                            	|	                            	|	Append, Create, Update	                            |	Basic	|
+|	Context variable	            |	msdyn_ocliveworkstreamcontextvariable	|	Read	                                    |	Global	|
+|	Conversation Capacity profile	|	msdyn_ocliveworkitemcapacityprofile    	|	Read	                                    |	Local	|
+|	Conversation Characteristic    	|	msdyn_ocliveworkitemcharacteristic    	|	Read                                       	|	Global	|
+|	Conversation Sentiment        	|	msdyn_ocliveworkitemsentiment	        |	Read	                                    |	Global	|
+|	Custom messaging account    	|	msdyn_ocbotchannelregistration	        |	Read	                                    |	Global	|
+|	Decision contract	            |	msdyn_decisioncontract	                |	Append, Append To, Read	                    |	Global	|
+|	                            	|		                                    |	Assign, Share	                            |	Basic	|
+|	Decision rule set	            |	msdyn_decisionruleset	                |	Append, Append To, Read	                    |	Global	|
+|                            		|		                                    |	Assign, Share	                            |	Basic	|
+|	Deprecated Workstream <<br>Entity Configuration</br>	|	msdyn_entityconfig	|	Read	                                |	Global	|
+|	Entity	                        |	msdyn_entityroutingconfiguration	        |	Read	                                |	Global	|
+|	Entity Routing Context	        |	msdyn_cdsentityengagementctx	            |	Read	                                |	Global	|
+|	KPI Event Definition	        |	msdyn_kpieventdefinition	                |	Read	                                |	Global	|
+|	Language	                    |	msdyn_oclanguage	                        |	Read	                                |	Global	|
+|	Live work item event	        |	msdyn_liveworkitemevent                    	|	Read	                                |	Global	|
+|	Live Work Item Participant <br>(Deprecated)</br>	|	msdyn_ocliveworkitemparticipant	|	Read	                        |	Global	|
+|	Localization	                |	msdyn_oclocalizationdata	                        |	Read	                        |	Global	|
+|	Masking Rule	                |	msdyn_maskingrule	                                |	Read	                        |	Global	|
+|	Master Entity Routing <br>Configuration</br>	|	msdyn_masterentityroutingconfiguration	|	Append, Append To, Read      |	Global	|
+|		                                            |		                                    |	Assign, Share	            |	Basic	|
+|	Message                        	|	msdyn_ocsystemmessage	                                |	Read	                    |	Global	|
+|	Model training details         	|	msdyn_ocsimltraining                                	|	Read	                    |	Global	|
+|	Notification Field	            |	msdyn_notificationfield	                                |	Read	                    |	Global	|
+|	Notification Template	        |	msdyn_notificationtemplate	                            |	Read	                    |	Global	|
+|	Notification Field <br>(Deprecated)</br>	|	msdyn_consoleapplicationnotificationfield	|	Read	                    |	Global	|
+|	Notification Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationnotificationtemplate	|	Read	                |	Global	|
+|	Omnichannel Queue (deprecated)	|	msdyn_omnichannelqueue	                                    |	Read	                |	Global	|
+|	Omnichannel Configuration    	|	msdyn_omnichannelconfiguration	                            |	Read	                |	Global	|
+|	Omnichannel Personalization	    |	msdyn_omnichannelpersonalization	                  |	Create, Delete, Read, Update 	|	Basic	|
+|	Ongoing conversation <br>(Deprecated)</br>	|	msdyn_liveconversation	                    |	Create	                    |	Basic	|
+|		                                        |	                                            |	Read, Share	                |	Global	|
+|	                                        	|	                                        	|	Append, Append To, Update	|	Local	|
+|		                                        |		                                        |	Assign	                    |	Deep	|
+|	Pane tool configuration	                    |	msdyn_panetoolconfiguration	                |	Read	                    |	Global	|
+|	Parameter (Deprecated)	                    |	msdyn_consoleapplicationtemplateparameter	|	Read	                    |	Global	|
+|	Persona Security Role Mapping             	|	msdyn_personasecurityrolemapping	        |	Read                    	|	Global	|
+|	Personal quick reply	                    |	msdyn_personalmessage                  	|	Append, Append To, Create, Delete, Read, Update	|	Basic	|
+|	Personal sound setting	                    |	msdyn_Personalsoundsetting            	|	Append, Append To, Create, Delete, Read, Update	|	Basic	|
+|	PluginAssembly	                            |	PluginAssembly	                        |	Read	                        |	Global	|
+|	PluginType                                	|	PluginType                            	|	Read                        	|	Global	|
+|	Presence                                	|	msdyn_presence	                        |	Read	                        |	Global	|
+|	Productivity pane configuration            	|	msdyn_paneconfiguration	                |	Read	                        |	Global	|
+|	Provisioning State	                        |	msdyn_ocprovisioningstate	            |	Read                        	|	Global	|
+|	Queue	                                    |	Queue	                                |	Append, Read	                |	Global	|
+|	Quick reply	                                |	msdyn_cannedmessage	                    |	Read                        	|	Global	|
+|	Rating Model                            	|	RatingModel                            	|	Read	                        |	Global	|
+|	Rating Value	                            |	RatingValue	                            |	Read	|	Global	|
+|	Recording	                                |	msdyn_ocrecording	                    |	Read	|	Global	|
+|	Role	                                    |	Role	                                |	Read	|	Global	|
+|	Routing configuration                     	|	msdyn_routingconfiguration            	|	Read	|	Global	|
+|	Routing configuration step                	|	msdyn_routingconfigurationstep        	|	Read	|	Global	|
+|	Rule Item	                                |	msdyn_ocruleitem	                    |	Read	|	Global	|
+|	Scenario	                                |	msdyn_scenario                        	|	Read	|	Global	|
+|	SdkMessage                                	|	SdkMessage	                            |	Read	|	Global	|
+|	SdkMessageProcessingStep                	|	SdkMessageProcessingStep               	|	Read	|	Global	|
+|	SdkMessageProcessingStepImage	            |	SdkMessageProcessingStepImage	        |	Read	|	Global	|
+|	Search Configuration	                    |	msdyn_searchconfiguration	            |	Read	|	Global	|
+|	Self service                            	|	msdyn_visitorjourney	                |	Read	|	Global	|
+|	Sentiment Analysis                        	|	msdyn_sentimentanalysis                	|	Read	|	Global	|
+|	Service Endpoint	                        |	ServiceEndpoint	                        |	Read	|	Global	|
+|	Session event	                            |	msdyn_sessionevent                     	|	Read	|	Global	|
+|	Session Template	                        |	msdyn_sessiontemplate                	|	Read	|	Global	|
+|	Session Characteristic                    	|	msdyn_ocsessioncharacteristic	        |	Read	|	Global	|
+|	Session participant	                        |	msdyn_sessionparticipant	            |	Read	|	Global	|
+|	Session Templates (Deprecated)            	|	msdyn_consoleapplicationsessiontemplate	|	Read	|	Global	|
+|	SharePoint Data                            	|	SharePointData                        	|	Create, Read, Update	|	Global	|
+|	SharePointDocument	                        |	SharePointDocument                    	|	Read	|	Global	|
+|	Skill finder model                        	|	msdyn_ocskillidentmlmodel            	|	Read	|	Global	|
+|	Solution	                                |	Solution	                            |	Read	|	Global	|
+|	Sound notification setting                  |	msdyn_soundnotificationsetting	        |	Append, Append To, Read	|	Global	|
+|	System User                        	        |	User	                                |	Read	|	Local	|
+|	Tag	                                        |	msdyn_octag	                            |	Append, Append To, Create, Delete, Read, Update	|	Global	|
+|	Template Parameter	                        |	msdyn_templateparameter                	|	Read	|	Global	|
+|	Template Tag (Deprecated)	                |	msdyn_templatetags                    	|	Read	|	Global	|
+|	Training data import configuration	        |	msdyn_ocsitdimportconfig	            |	Read	|	Global	|
+|	Training record	                            |	msdyn_ocsitrainingdata                	|	Read	|	Global	|
+|	Transcript                                	|	msdyn_transcript	                    |	Read	|	Global	|
+|	UR notification template	                |	msdyn_urnotificationtemplate	        |	Read	|	Global	|
+|	UR Notification Template Mapping	        |	msdyn_urnotificationtemplatemapping	    |	Read	|	Global	|
+|	User settings	                            |	msdyn_usersetting	                    |	Append, Append To, Create, Delete, Read, Update	|	Global	|
+|	Work stream capacity profile	            |	msdyn_liveworkstreamcapacityprofile	    |	Read	                |	Local	|
+|	Workstream                                	|	msdyn_liveworkstream	                |	Append, Append To, Read	|	Global	|
+|	                                        	|		                                    |	Assign, Share	        |	Basic	|
+||||
 
 ### See also
 
