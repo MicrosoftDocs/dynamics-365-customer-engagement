@@ -104,9 +104,10 @@ Configure the following settings, as needed:
 
 - **Send self-scheduling experience to Account Contacts**: When enabled, new contacts who are associated with active Field Service accounts will be sent an email that invites the contact to create a Power Apps portals account for self-scheduling. More information: [Notification types](#notification-types)
 
-    >[!NOTE]
-    >When enabling this option, you can choose to send the invitation only to new contacts going forward, or to all existing contacts. If a contact has already received the invitation, they won't receive a second one. 
-    - Invitations can also be sent to a single Contact manually but opening a Contact record and clicking on 'Invite to Self Scheduling' on the ribbon.
+    > [!NOTE]
+    > When enabling this option, you can choose to send the invitation only to new contacts going forward, or to all existing contacts. If a contact has already received the invitation, they won't receive a second one. 
+    > 
+    > Invitations can also be sent to a single contact manually by opening a contact record and selecting **Invite to Self Scheduling** on the ribbon.
 
 - **Messaging**: Messages are sent at specific points in the Field Service customer lifecycle. These messages can be enabled or disabled independently. More information: [Notification types](#notification-types)
 
@@ -159,8 +160,9 @@ Let's take a look at the self-scheduling settings, and what they do:
 - **Enable Additional Details**: When this option is enabled, the customer can submit text to your organization while scheduling their booking. This text will be saved as a note on the booking timeline.
 - **Default Radius Unit**: Sets the radius unit to miles or kilometers.
 - **Include Resource with maximum travel radius**: The maximum radius from the scheduled location in which a resource can be scheduled. 
-    >[!NOTE]
-    >'Default Radius Unit' and 'Include Resource with maximum travel radius' are shared settings with the Schedule board and changing the value at one place will change the value at the other.
+   
+    > [!NOTE]
+    > **Default Radius Unit** and **Include Resource with maximum travel radius** are shared settings for the schedule board; changing the value on one will change the value for the other.
 
 
 > [!div class="mx-imgBorder"]
@@ -175,11 +177,11 @@ Incident types must be configured with following steps to properly appear in the
 
 1. Check **Enable for C2** and apply a user-friendly name.
 2. Set a **Default Work Order** type, which is associated with a price list for the incident type.
-3. Set an estimated duration for the incident type. This value is the work duration shown to user in the portal.
-4. Incident type should not be associated with a Requirement group
+3. Set an estimated duration for the incident type. This value is the work duration shown in the portal.
+4. Incident type should not be associated with a requirement group.
 
-    >[!NOTE]
-    >If any of these conditions are not met when saving an Incident Type after making it **Enable for C2** then an appropriate error will be shown.
+    > [!NOTE]
+    > If any of these conditions are not met when saving an incident type after making it **Enable for C2**, then an appropriate error will be shown.
 
 
 > [!div class="mx-imgBorder"]
@@ -337,16 +339,15 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 
 ## FAQs for self-scheduling portals
 
-### Is Travel time calculated while creating the Booking?
+### Is travel time calculated while creating the booking?
 
-Travel time is calculated while creating a Booking when [Prerequisites are met](/dynamics365/field-service/schedule-with-travel-time#prerequisites)
-The Booking is created such that the time selected by the Customer on the self-scheduling portal becomes the expected time of arrival for the technician.
-For ex:
-If the Customer chose 02:00 pm as the Appointment time and for the selected resource it takes 20 minutes to reach the customer's location the Start time of the Booking will be 01:40 pm and Expected arrival time would be 02:00 pm.
+Travel time is calculated while creating a booking when [prerequisites are met](/dynamics365/field-service/schedule-with-travel-time#prerequisites).
 
-### Which Resource is booked when the Booking is created?
+The booking is created such that the time selected by the customer on the self-scheduling portal becomes the expected time of arrival for the technician. For example, if the customer chose 02:00 PM as the appointment time, and it takes 20 minutes for the selected resource to reach the customer's location, the start time of the booking will be 01:40 PM and expected arrival time would be 02:00 PM.
 
-Available resources are filtered based on any consraints associated with the Account and the Resource like Territory and any other characteristics. Amongst the filtered resource, the Resource with the minimum travel distance to the Customer's location is booked for the Booking.
+### Which resource is booked when the booking is created?
+
+Available resources are filtered based on any consraints associated with the account and the resource, like territory and any other characteristics. Among the filtered resources, the resource with the minimum travel distance to the customer's location is booked for the booking.
 
 ### How do I manually create a portal user?
 
