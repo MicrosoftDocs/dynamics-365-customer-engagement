@@ -62,9 +62,15 @@ In full text search, the archived and discarded status filters are not supported
 11. Select the values that you want to show the agent, and then select **Done**.
 12.	When you're finished with configuring the values you want, select **Save**.
 
+## Enable custom fields as search filters
+
+To configure custom fields as search filters for knowledge articles:
+1. Enable the standard search filters.
+
+2. Add the custom fields to the Quick Find view columns. To add a field to the Quick Find view column, see [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization#configure-searchable-fields-for-relevance-search).
+
 ## Additional configuration settings
 
-* To configure custom fields as filters, you must add the fields to the Quick Find view columns. To add a field to the Quick Find view column, see [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization#configure-searchable-fields-for-relevance-search).
 
 * If Relevance Search is enabled and if you have selected the **Archived**, **Discarded**, or **Expired** values for the **Status** filter, articles that contain these values will not be displayed.
 
