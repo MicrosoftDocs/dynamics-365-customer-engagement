@@ -45,7 +45,7 @@ For outbound messages, the Markdown text will be received in the [Activity](/azu
 
 ### See also
 
-[Support for live chat and asynchronous channels](asynchronous-channels.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
 [Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
 [Configure custom messaging channel](configure-custom-channel.md)  

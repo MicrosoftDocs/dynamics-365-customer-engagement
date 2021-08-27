@@ -617,7 +617,7 @@
         - name: Markdown formats
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
-      href: asynchronous-channels.md
+      href: card-support-in-channels.md
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
@@ -776,9 +776,9 @@
         href: knowledge-search-analytics-cs.md
       - name: View analytics dashboards created in Power BI
         href: customer-service-analytics.md
-      - name: Intraday supervisor experiences
+      - name: Intraday supervisor experience
         items: 
-        - name: Introduction to intraday supervisor experiences
+        - name: Introduction to intraday supervisor experience
           href: intro-intraday-insights-dashboard.md
         - name: IntradayMonitoring report
           href: intraday-insights-dashboard.md
