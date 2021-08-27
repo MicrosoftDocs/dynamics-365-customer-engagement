@@ -65,7 +65,7 @@ This release is an update to Field Service 2021 Wave 2 early access version [8.8
 (Includes Universal Resource Scheduling version [3.12.61.21](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126121---2021-wave-2-early-access-update-1)).
 
 - Improved the logic that updates the **Instructions** field on the work order when the service account is updated.
-- Field Service Mobile (D365) Calendar will show a text informing when a Booking is scheduled without Work Order assigned.
+- Field Service (Dynamics 365) mobile calendar will show a text informing when a booking is scheduled without work order assigned.
 
 ## 8.8.48.30 
 
@@ -80,7 +80,7 @@ This release is a hotfix on Field Service version [8.8.48.23](/dynamics365/field
 
 - Resolved a permissions inheritance issue that could impact users who have a role which worked when users belonged to a team with the same role.
 - Fixed an issue related to decimal point number formatting with inspections when using a symbol other than the dot to indicate the decimal place.
-- Field Service Mobile (D365) added the ability to configure custom fields on the Mobile Booking Calendar Control.
+- Field Service (Dynamics 365) mobile added the ability to configure custom fields on the mobile booking calendar control.
 
 ## 8.8.51.75 (2021 Wave 2 early access)
 
