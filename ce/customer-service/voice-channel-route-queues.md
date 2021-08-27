@@ -4,7 +4,7 @@ description: "Learn about how to set up workstreams and queues for the voice cha
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/08/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
@@ -68,7 +68,14 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 4. On the **Language** page, select **Next**. In private preview, only English is supported.
 
-5. On the **Summary** page, select **Save and close**.
+5. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
+
+   - Notify position in queue
+   - Notify average wait time 
+
+6. Turn on the **Channel operating hours** toggle, and select an operating hour record.
+
+7. On the **Summary** page, select **Save and close**.
 
     ![Voice setup preview.](media/image22.png "Voice setup preview.")
 
