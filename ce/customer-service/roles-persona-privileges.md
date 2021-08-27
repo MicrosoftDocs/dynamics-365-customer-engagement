@@ -29,144 +29,36 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 |	App Module	                          |	AppModule	                          |	Read, Update	                                          |	Global	|
 |	App Profile	                          |	msdyn_appconfiguration	              |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
 |	App Configuration	                  |	AppConfig	                          |	Read	                                                  |	Global	|
-|	App Parameter Definition<br> (Deprecated)</br> |	msdyn_consoleappparameterdefinition	  |	Append, AppendTo, Create, Delete, Read, Update 	          |	Global	|
+|	App Parameter Definition<br> (Deprecated)</br> | msdyn_consoleappparameterdefinition |	Append, AppendTo, Create, Delete, Read, Update 	  |	Global	|
 |	Application Extension	              |	msdyn_applicationextension	          |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
-|	Application Tab Template	          |	msdyn_applicationtabtemplate	      |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Application Tab Template <br>(Deprecated)</br> |	msdyn_consoleapplicationtemplate      |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|	Application Type (Deprecated)	      |	msdyn_consoleapplicationtype	      |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|	Assignment Configuration	          |	msdyn_assignmentconfiguration	      |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Assignment Configuration Step	      |	msdyn_assignmentconfigurationstep     |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Audio File	                          |	msdyn_soundfile	                      |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Bookable Resource	                  |	BookableResource	                  |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Bookable Resource Capacity <br>Profile</br>	  |	msdyn_bookableresourcecapacityprofile |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Assign	                                  |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Share	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Bookable Resource Characteristic	  |	BookableResourceCharacteristic	      |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Capacity Profile	                  |	msdyn_capacityprofile	              |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Assign	                                  |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Share	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	channel	                              |	msdyn_channel	                      |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|	Channel Provider	                  |	msdyn_channelprovider	              |	Update	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|	Channel Configuration	              |	msdyn_occhannelconfiguration	      |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Channel Integration Framework <br>v1.0 Provider</br>	          |	msdyn_ciprovider      |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|	Channel State Configuration	          |	msdyn_occhannelstateconfiguration	  |	Read	                                  |	Global	|
-|	Characteristic	                      |	Characteristic	                      |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Characteristic mapping	              |	msdyn_ocsitdskill	                  |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Charts	                              |	SavedQueryVisualizations	          |	Read	                                  |	Global	|
-|	Columns	                              |	Attribute	                          |	Update	                                  |	Global	|
-|	Context item value	                  |	msdyn_ocliveworkitemcontextitem	      |	Append	                                  |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Context variable	                  |	msdyn_ocliveworkstreamcontextvariable |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Conversation Capacity profile	      |	msdyn_ocliveworkitemcapacityprofile   |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Assign	                                  |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Share	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Conversation Characteristic	          |	msdyn_ocliveworkitemcharacteristic	  |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Conversation Sentiment	              |	msdyn_ocliveworkitemsentiment	      |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Custom messaging account	          |	msdyn_ocbotchannelregistration	      |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Customization	                      |	Customization	                      |	Publish	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Decision contract	                  |	msdyn_decisioncontract	              |	Append	                                  |	Global	|
+|	Application Tab Template	          |	msdyn_applicationtabtemplate	      |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Application Tab Template <br>(Deprecated)</br> |	msdyn_consoleapplicationtemplate | Append, AppendTo, Create, Delete, Read, Update     |	Global	|
+|	Application Type (Deprecated)	      |	msdyn_consoleapplicationtype	      |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Assignment Configuration	          |	msdyn_assignmentconfiguration	      |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Assignment Configuration Step	      |	msdyn_assignmentconfigurationstep     |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Audio File	                          |	msdyn_soundfile	                      |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Bookable Resource	                  |	BookableResource	                  |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+| Bookable Resource Capacity<br>Profile</br>| msdyn_bookableresourcecapacityprofile | Append, AppendTo, Assign, Create, Delete, Read, Share, Update| Global |
+|	Bookable Resource Characteristic	  |	BookableResourceCharacteristic	      |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Capacity Profile	                  |	msdyn_capacityprofile	              |	Append, AppendTo, Assign, Create, Delete, Read, Share, Update| Global |
+|	channel	                              |	msdyn_channel	                      |	Append, AppendTo, Create, Delete, Read, Update            |	Global	|
+|	Channel Provider	                  |	msdyn_channelprovider	              |	Create, Delete, Read, Update	                          |	Global	|
+|	Channel Configuration	              |	msdyn_occhannelconfiguration	      |	Read, Update	                                          |	Global	|
+|	Channel Integration Framework <br>v1.0 Provider</br> |	msdyn_ciprovider      |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Channel State Configuration	          |	msdyn_occhannelstateconfiguration	  |	Read	                                                  |	Global	|
+|	Characteristic	                      |	Characteristic	                      |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Characteristic mapping	              |	msdyn_ocsitdskill	                  |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Charts	                              |	SavedQueryVisualizations	          |	Read	                                                  |	Global	|
+|	Columns	                              |	Attribute	                          |	Update	                                                  |	Global	|
+|	Context item value	                  |	msdyn_ocliveworkitemcontextitem	      |	Append, Create, Delete, Read, Update	                  |	Global	|
+|	Context variable	                  |	msdyn_ocliveworkstreamcontextvariable |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Conversation Capacity profile	      |	msdyn_ocliveworkitemcapacityprofile  | Append, AppendTo, Assign, Create, Delete, Read, Share, Update |Global|
+|	Conversation Characteristic	          |	msdyn_ocliveworkitemcharacteristic	  |	Append, AppendTo, Create, Delete, Read, Update            |	Global	|
+|	Conversation Sentiment	              |	msdyn_ocliveworkitemsentiment	      |	Create, Delete, Read, Update	                          |	Global	|
+|	Custom messaging account	          |	msdyn_ocbotchannelregistration	      |	Append, AppendTo, Create, Delete, Read, Update  	      |	Global	|
+|	Customization	                      |	Customization	                      |	Publish, Read, Update	                                  |	Global	|
+|	Decision contract	                  |	msdyn_decisioncontract	              |	Append, AppendTo, Assign, Create, Delete, Read, Share, Update |	Global	|
+|	Decision rule set	                  |	msdyn_decisionruleset	              |	Append, AppendTo, Assign, Create, Delete, Read, Share, Update |	Global	|
 |		                                  |		                                  |	AppendTo	                              |	Global	|
 |		                                  |		                                  |	Create	                                  |	Global	|
 |		                                  |		                                  |	Delete	                                  |	Global	|
@@ -174,15 +66,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 |		                                  |		                                  |	Update	                                  |	Global	|
 |		                                  |		                                  |	Share	                                  |	Global	|
 |		                                  |		                                  |	Assign	                                  |	Global	|
-|	Decision rule set	                  |	msdyn_decisionruleset	              |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|		                                  |		                                  |	Share	                                  |	Global	|
-|		                                  |		                                  |	Assign	                                  |	Global	|
-|	Deprecated Workstream Entity<br> Configuration</br>	   |	msdyn_entityconfig	      |	Append	                                  |	Global	|
+|	Deprecated Workstream Entity<br> Configuration</br>	 |	msdyn_entityconfig	  |	Append	                                  |	Global	|
 |		                                  |		                                  |	AppendTo	                              |	Global	|
 |		                                  |		                                  |	Create	                                  |	Global	|
 |		                                  |		                                  |	Delete	                                  |	Global	|
