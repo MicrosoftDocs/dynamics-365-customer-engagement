@@ -15,7 +15,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 
 ## Role: Administrator
 
-|	Table name	|	Table or metadata	|	Privilege name	|	Recommended depth	|
+|	Table name	|	Table unique name	|	Privilege name	|	Recommended depth	|
 |	   -----    |------	                |	------          |	  ---  	|
 |	Activity	                          |	Activity	                          |	Append, Append To, Delete, Update	                      |	Local	|
 |		                                  |		                                  |	Assign	                                                  |	Deep	|
