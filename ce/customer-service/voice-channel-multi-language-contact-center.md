@@ -47,12 +47,12 @@ You can configure a phone number in a workstream that allows the customer to cho
 3. On the **Language page**, select **Add primary language**. A Language page is displayed, where you set the primary language for the channel. You can add additional languages to this voice channel, and each language added will have its own settings.
    The **Primary language** is the first language the bot greets the customer in. This allows your organization to have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
 4. Select the type of wait and hold music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
-5. Select a voice style, pitch, and speaking speed for the bot.
-6. Toggle **Post-call survey** to **On** if you want the bot to survey the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey bot after the agent hangs up.
-7. Select **Next**.
-8. Select the preferred behaviors, and then select **Next**.
-9. Select **Save and close** to save the settings.
- 
+5. In Voice profile, select a voice, voice style, speaking speed, and pitch for the bot.
+6. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey bot after the agent hangs up.
+7. Select **Save and close** to save the settings.
+
+   > ![Language settings for the voice channel.](media/voice-language-settings.png "Language settings for the voice channel.")
+
 ## Create language-specific routing rules
 
 Define the language-based routing rules. More information: [Create and manage routing rules in Omnichannel admin center](configure-work-classification.md).
