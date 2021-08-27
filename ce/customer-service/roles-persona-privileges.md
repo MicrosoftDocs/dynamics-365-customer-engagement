@@ -15,67 +15,29 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 
 ## Role: Administrator
 
-|	Entity name	|	Entity or Metadata	|	Privilege Name	|	Depth	|
+|	Table name	|	Table or metadata	|	Privilege name	|	Recommended depth	|
 |	   -----    |------	                |	------          |	  ---  	|
-|	Activity	                          |	Activity	                          |	Append	                                  |	Local	|
-|		                                  |		                                  |	AppendTo	                              |	Local	|
-|		                                  |		                                  |	Assign	                                  |	Deep	|
-|		                                  |		                                  |	Create	                                  |	Basic	|
-|		                                  |		                                  |	Delete	                                  |	Local	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Share	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Local	|
-|	AdminAppState	                      |	msdyn_adminappstate	                  |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	Agent Status history	              |	msdyn_agentstatushistory	          |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	AI Configuration	                  |	msdyn_aiconfiguration	              |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	AI Model	                          |	msdyn_aimodel	                      |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	AI Template	                          |	msdyn_aitemplate	                  |	Read	                                  |	Global	|
-|	App Module	                          |	AppModule	                          |	Update	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|	App Profile	                          |	msdyn_appconfiguration	              |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|	App Configuration	                  |	AppConfig	                          |	Read	                                  |	Global	|
-|	App Parameter Definition (Deprecated) |	msdyn_consoleappparameterdefinition	  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|	Application Extension	              |	msdyn_applicationextension	          |	Append	                                  |	Global	|
-|		                                  |		                                  |	AppendTo	                              |	Global	|
-|		                                  |		                                  |	Create	                                  |	Global	|
-|		                                  |		                                  |	Delete	                                  |	Global	|
-|		                                  |		                                  |	Read	                                  |	Global	|
-|		                                  |		                                  |	Update	                                  |	Global	|
+|	Activity	                          |	Activity	                          |	Append, AppendTo, Delete, Update	                      |	Local	|
+|		                                  |		                                  |	Assign	                                                  |	Deep	|
+|		                                  |		                                  |	Create	                                                  |	Basic	|
+|		                                  |		                                  |	Read, Share	                                              |	Global	|
+|	AdminAppState	                      |	msdyn_adminappstate	                  |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	Agent Status history	              |	msdyn_agentstatushistory	          |	Create, Delete, Read, Update                              |	Global	|
+|	AI Configuration	                  |	msdyn_aiconfiguration	              |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	AI Model	                          |	msdyn_aimodel	                      |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	AI Template	                          |	msdyn_aitemplate	                  |	Read	                                                  |	Global	|
+|	App Module	                          |	AppModule	                          |	Read, Update	                                          |	Global	|
+|	App Profile	                          |	msdyn_appconfiguration	              |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
+|	App Configuration	                  |	AppConfig	                          |	Read	                                                  |	Global	|
+|	App Parameter Definition<br> (Deprecated)</br> |	msdyn_consoleappparameterdefinition	  |	Append, AppendTo, Create, Delete, Read, Update 	          |	Global	|
+|	Application Extension	              |	msdyn_applicationextension	          |	Append, AppendTo, Create, Delete, Read, Update	          |	Global	|
 |	Application Tab Template	          |	msdyn_applicationtabtemplate	      |	Append	                                  |	Global	|
 |		                                  |		                                  |	AppendTo	                              |	Global	|
 |		                                  |		                                  |	Create	                                  |	Global	|
 |		                                  |		                                  |	Delete	                                  |	Global	|
 |		                                  |		                                  |	Read	                                  |	Global	|
 |		                                  |		                                  |	Update	                                  |	Global	|
-|	Application Tab Template (Deprecated) |	msdyn_consoleapplicationtemplate      |	Read	                                  |	Global	|
+|	Application Tab Template <br>(Deprecated)</br> |	msdyn_consoleapplicationtemplate      |	Read	                                  |	Global	|
 |		                                  |		                                  |	Update	                                  |	Global	|
 |		                                  |		                                  |	Create	                                  |	Global	|
 |		                                  |		                                  |	Delete	                                  |	Global	|
@@ -111,7 +73,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 |		                                  |		                                  |	Delete	                                  |	Global	|
 |		                                  |		                                  |	Read	                                  |	Global	|
 |		                                  |		                                  |	Update	                                  |	Global	|
-|	Bookable Resource Capacity Profile	  |	msdyn_bookableresourcecapacityprofile |	Append	                                  |	Global	|
+|	Bookable Resource Capacity <br>Profile</br>	  |	msdyn_bookableresourcecapacityprofile |	Append	                                  |	Global	|
 |		                                  |		                                  |	AppendTo	                              |	Global	|
 |		                                  |		                                  |	Assign	                                  |	Global	|
 |		                                  |		                                  |	Create	                                  |	Global	|
@@ -145,7 +107,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 |		                                  |		                                  |	Create	                                  |	Global	|
 |	Channel Configuration	              |	msdyn_occhannelconfiguration	      |	Read	                                  |	Global	|
 |		                                  |		                                  |	Update	                                  |	Global	|
-|	Channel Integration Framework v1.0 Provider	          |	msdyn_ciprovider      |	Read	                                  |	Global	|
+|	Channel Integration Framework <br>v1.0 Provider</br>	          |	msdyn_ciprovider      |	Read	                                  |	Global	|
 |		                                  |		                                  |	Update	                                  |	Global	|
 |		                                  |		                                  |	Create	                                  |	Global	|
 |		                                  |		                                  |	Delete	                                  |	Global	|
@@ -220,7 +182,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 |		                                  |		                                  |	Update	                                  |	Global	|
 |		                                  |		                                  |	Share	                                  |	Global	|
 |		                                  |		                                  |	Assign	                                  |	Global	|
-|	Deprecated Workstream Entity Configuration	   |	msdyn_entityconfig	      |	Append	                                  |	Global	|
+|	Deprecated Workstream Entity<br> Configuration</br>	   |	msdyn_entityconfig	      |	Append	                                  |	Global	|
 |		                                  |		                                  |	AppendTo	                              |	Global	|
 |		                                  |		                                  |	Create	                                  |	Global	|
 |		                                  |		                                  |	Delete	                                  |	Global	|
@@ -250,7 +212,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 |		                                  |		                                  |	Delete	                                  |	Global	|
 |		                                  |		                                  |	Read	                                  |	Global	|
 |		                                  |		                                  |	Update	                                  |	Global	|
-|	Live Work Item Participant (Deprecated) |	msdyn_ocliveworkitemparticipant	  |	Create	                                  |	Global	|
+|	Live Work Item Participant <br>(Deprecated)</br> |	msdyn_ocliveworkitemparticipant	  |	Create	                                  |	Global	|
 |		                                  |		                                  |	Delete	                                  |	Global	|
 |		                                  |		                                  |	Read	                                  |	Global	|
 |		                                  |		                                  |	Update	                                  |	Global	|
@@ -264,7 +226,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 |		                                  |		                                  |	Delete	                                  |	Global	|
 |		                                  |		                                  |	Read	                                  |	Global	|
 |		                                  |		                                  |	Update	                                  |	Global	|
-|	Master Entity Routing Configuration	  |	msdyn_masterentityroutingconfiguration	  |	Create	                              |	Local	|
+|	Master Entity Routing <br>Configuration</br>	  |	msdyn_masterentityroutingconfiguration	  |	Create	                              |	Local	|
 |		                                  |		                                  |	Read	                                  |	Global	|
 |		                                  |		                                  |	Update	                                  |	Global	|
 |		                                  |		                                  |	Append	                                  |	Global	|
@@ -310,7 +272,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 |		                                  |		                                  |	Delete	                                  |	Global	|
 |		                                  |		                                  |	Append	                                  |	Global	|
 |		                                  |		                                  |	AppendTo	                              |	Global	|
-|	Notification Template (Deprecated)	  |	msdyn_consoleapplicationnotificationtemplate	     |	Read	                  |	Global	|
+|	Notification Template <br>(Deprecated)</br>	  |	msdyn_consoleapplicationnotificationtemplate	     |	Read	                  |	Global	|
 |		                                  |		                                  |	Update	                                  |	Global	|
 |		                                  |		                                  |	Create	                                  |	Global	|
 |		                                  |		                                  |	Delete	                                  |	Global	|
@@ -569,7 +531,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 |		                                  |		                                  |	Append	                                  |	Global	|
 |		                                  |		                                  |	AppendTo	                              |	Global	|
 |		                                  |		                                  |	Delete	                                  |	Global	|
-|	UR Notification Template Mappin       |	msdyn_urnotificationtemplatemapping	  | Read                                      | Global  |
+|	UR Notification Template <br>Mapping</br>       |	msdyn_urnotificationtemplatemapping	  | Read                                      | Global  |
 |		                                  |		                                  |	Update	                                  |	Global	|
 |		                                  |		                                  |	Create	                                  |	Global	|
 |		                                  |		                                  |	Append	                                  |	Global	|
