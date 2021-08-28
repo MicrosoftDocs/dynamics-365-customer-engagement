@@ -75,7 +75,13 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 6. Turn on the **Channel operating hours** toggle, and select an operating hour record.
 
-7. On the **Summary** page, select **Save and close**.
+7. Configure the settings for transcription and recording of the calls in the **Transcription and recording** area.
+
+8. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
+
+9. Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
+
+10. On the **Summary** page, select **Save and close**.
 
     ![Voice setup preview.](media/image22.png "Voice setup preview.")
 
