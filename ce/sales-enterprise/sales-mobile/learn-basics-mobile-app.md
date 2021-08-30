@@ -38,7 +38,7 @@ The **Recent contacts** section of the home page shows a few contacts you have r
 
 ## Recent records
 
-The Recent records section of the home page shows a few records you recently accessed through the web or mobile app, such as an account or opportunity. You can tap a record to views its details or tap **Recent records** to view an extended list. More information: [Manage records or regarding entities](open-record.md).
+The Recent records section of the home page shows a few records you recently accessed through the web or mobile app, such as an account or opportunity. You can tap a record to views its details or tap **Recent records** to view an extended list. More information: [Manage records](open-record.md).
 
 ![Recent records displayed on the home page.](media/sm-records-home.png "Recent records displayed on home page")
 

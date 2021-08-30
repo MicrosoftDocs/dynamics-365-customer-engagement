@@ -1,7 +1,7 @@
 ---
 title: Manage records in the Dynamics 365 Sales mobile app
 description: Learn to view and edit records in the Dynamics 365 Sales mobile app.
-ms.date: 05/03/2021
+ms.date: 08/27/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -28,14 +28,14 @@ You can view the details of records in the following ways:
 
 **On the home page**    
 
-The home page displays a list of records that you have recently accessed. These records include opportunities, leads, contacts, quotes, accounts, and notes. When you tap the record, the record opens in a lightweight form. This form provides the basic details, including [related notes and reminders](#notes-and-reminders). 
+The home page displays a list of records that you have recently accessed. These records include opportunities, leads, contacts, quotes, accounts, and notes. When you tap a record, the record details are displayed partially at the bottom half of the screen. Scroll up or tap ![Expand quick view icon.](media/expand-quick-view.png "Expand quick view icon") to display complete record details in a lightweight form. This form provides the basic details, including [related notes and reminders](#notes-and-reminders).
 
 **On the Meetings page**     
 
 The Meeting details page displays the regarding entity that is related to the meeting. Also, the notes and insights that are displayed in the meeting are related to the displayed regarding entity. Tap **Open *record type*** to view the details in the lightweight form. The details include basic information about the entity, [related notes, and reminders](#notes-and-reminders). 
 
->[!NOTE]
->To learn more about notes, go to [Manage notes](view-edit-add-note.md).
+> [!NOTE]
+> To learn more about notes, go to [Manage notes](view-edit-add-note.md).
 
 ## Create records and activities
 
@@ -51,7 +51,7 @@ Follow these steps to quickly create records and activities in the Dynamics 365 
 
     ![Select a table from the list.](media/select-table.png "Select a table from the list")
 
-4.	In the **Create New (table)** form, fill in the details, and then tap **Save**.
+4.	In the **Create new (table)** form, fill in the details, and then tap **Save**.
 
 > [!NOTE]
 > To understand which table types are supported for quick creation of records and activities, go to [Configure tables for quick creation](configure-quick-create.md).
@@ -60,10 +60,11 @@ Follow these steps to quickly create records and activities in the Dynamics 365 
 
 Follow these steps to edit records and entities in the Dynamics 365 Sales mobile app.
 
-- To edit records on the home page, open the record. In the upper-right corner of the quick view form, tap **Edit**. Edit the details in the Edit form and tap **Save**. To open the record in the Sales Hub app, tap **Open *record type***.
+- To edit records on the home page, open the record. In the upper-right corner of the quick view form, tap ![Edit icon.](media/edit-icon.png "Edit icon"). **Edit** the details in the Edit form and tap **Save**. 
 
-    >[!div class="mx-imgBorder"]
-    >![Quick view form opened from the home page.](media/sm-homepage-view-details-lead.png "Quick view form opened from the home page")
+    To open the record in the Sales Hub app, tap ![Open record icon.](media/open-record-icon.png "Open record icon").
+
+    ![Quick view form opened from the home page.](media/sm-homepage-view-details-lead.png "Quick view form opened from the home page")
     
 - To quickly edit the basic information about the regarding entity on the Meetings page, tap the three dots, **More options** (![Options button.](media/sm-options-button.png "Options button")), and then tap **Quick edit**. The record's Edit form opens. Enter or update the required information, and then tap **Save**.
 

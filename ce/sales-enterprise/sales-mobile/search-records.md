@@ -1,7 +1,7 @@
 ---
 title: Search records in the Dynamics 365 Sales mobile app
 description: Learn how to search records in the Dynamics 365 Sales mobile app.
-ms.date: 06/22/2021
+ms.date: 08/27/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -17,13 +17,11 @@ You can search for records in the Dynamics 365 Sales mobile app. On the navigati
 
 When you perform a search, the results are categorized according to the type of entity, such as contacts, accounts, leads, notes, and opportunities. For example, if you searched for **contoso**, the results would include records that contain this text, including contacts, accounts, and leads. Tap the record to view more details. You can also tap **See all** to expand the list for a category.    
 
-> [!div class="mx-imgBorder"]
-> ![Search results.](media/sm-search-contoso-results.png "Search results")   
+![Search results.](media/sm-search-contoso-results.png "Search results")   
 
 Below the search box, you can see the number of records found in the search results. Next to the results count is an option to filter the results. You can narrow your results to include only relevant owners or record types, and limit results based on modified and created dates. Tap the filter icon (![Refine search results.](media/refine-search.png "Refine search results")), and then choose a filter option.   
 
-> [!div class="mx-imgBorder"]
-> ![Search filters.](media/sa-search-filters.png "Search filters")    
+![Search filters.](media/sa-search-filters.png "Search filters")    
 
 - **Owner**: Specifies the name of the owners who are associated with the search text. You can tap an owner to further refine the search results.    
 

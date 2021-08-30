@@ -21,14 +21,11 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
 1.  On the navigation bar, tap **Meetings**. The calendar view opens.
     
     ![Meetings section.](media/sm-meetings-nav-bar.png "Meetings section")
-    
-    To see the details of a meeting, tap the meeting record.
-    
-2.  To see meetings for a specific date, tap a date in the calendar.
+       
+2.  Do one of the following:
 
-    ![Select a date to see meetings.](media/sm-select-date.png "Select a date to see meetings")
-    
-    If there are no meetings scheduled for the day, nothing is displayed.   
+    - To see the details of a meeting, tap the meeting record.
+    - To see meetings for a specific date, tap a date in the calendar. If there are no meetings scheduled for the day, nothing is displayed.   
 
 ## View meeting details
 

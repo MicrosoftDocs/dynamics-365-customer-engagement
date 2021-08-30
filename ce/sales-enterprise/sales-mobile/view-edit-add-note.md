@@ -1,7 +1,7 @@
 ---
 title: View, edit, or add a note in the Dynamics 365 Sales mobile app
 description: Instructions to view, edit, or add a note in the Dynamics 365 Sales mobile app
-ms.date: 05/03/2021
+ms.date: 08/27/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -24,7 +24,7 @@ You can perform the following actions in the **Notes** section.
 | Open a list of notes.       | Tap **Notes**. |
 | See an image associated with a note. | Tap the image name.    |
 | Open or edit a note  | Tap the note.       |
-| Take more actions, like edit or delete a note.  | Tap ![Options button.](media/sm-options-button.png "Options button").  |
+| Take more actions, like change the connected record or delete a note.  | Tap ![Options button.](media/sm-options-button.png "Options button").  |
 | Create a note.     | Tap **Add a note**.     |
 
 ## Add a note
@@ -62,17 +62,40 @@ You can perform the following actions in the **Notes** section.
 
 5. Tap **Save**.
 
-## Edit or delete a note
+## Open or edit a note
+
+You can open a note by tapping the note card. When you open a note, you can make changes to the note as you want, and then tap **Save**.
+
+## Delete a note
+
+You can delete a note when it is no longer needed.
 
 1. In the note card, tap ![Options button.](media/sm-options-button.png "Options button").
 
     ![Note options.](media/sm-note-options.png "Note options")
 
-2. To edit a note, select **Edit** from the bottom of the screen, modify the note, then tap **Save**.
+2. To delete a note, select **Delete** from the bottom of the screen;
 
-3. To delete a note, select **Delete** from the bottom of the screen;
+    ![Delete a note.](media/sm-note-edit-delete.png "Delete a note")
 
-    ![Edit or delete a note.](media/sm-note-edit-delete.png "Edit or delete a note")
+## Change connected record
+
+You can change the record to which a note is added when it is no longer relevant to the current record.
+
+1. In the note card, tap ![Options button.](media/sm-options-button.png "Options button"), and then tap **Change connected record**.
+
+    ![Select change connected record option.](media/sm-note-select-change-connected-record.png "Select change connected record option")
+
+2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.
+
+    ![Find a record to connect.](media/sm-note-regarding-record.png "Find for a record to connect")
+
+3. After selecting a record, tap **Done**.
+
+    ![Select and save a record to connect.](media/sm-note-select-regarding-record.png "Select and save a record to connect")
+
+The note will be removed from the current record and attached to the selected record.
+
 
 ### See also
 
