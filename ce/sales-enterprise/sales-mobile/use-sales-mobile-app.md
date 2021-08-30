@@ -1,7 +1,7 @@
 ---
 title: Using the Dynamics 365 Sales mobile app
 description: Instructions for using the Dynamics 365 Sales mobile app
-ms.date: 08/26/2021
+ms.date: 08/30/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -44,9 +44,9 @@ You can sign in to the Dynamics 365 Sales mobile app by using the work email add
 
 ## View non-production apps
 
-By default, the production apps are displayed. If you want to see the apps from your trial or sandbox environment, you must enable the **Show non-production apps** setting.
+By default, only the production apps are displayed for you to choose from. If you want to view non-production apps, that is apps from your trial or sandbox environment, you must enable the **Show non-production apps** setting.
 
-**If you haven't selected the app to use**
+**If no app module is currently in use**
 
 1. Tap your profile picture at the upper left of the screen. 
 
