@@ -18,19 +18,24 @@ To add a chat widget, you need to have configured a workstream that defines how 
 
 ## Configure a chat widget in Omnichannel admin center
 
-Perform the following steps to configure chat in Omnichannel admin center:
+Perform the following steps to configure the chat widget in Omnichannel admin center
 
 1. In the site map of Omnichannel admin center, select **Workstreams**.
+
 2. In the **All workstreams** view, select the workstream for which you want to configure the chat widget.
+
 3. On the workstream page, select **Set up chat** if a chat channel hasn't been created, or select **Add chat channel** to add a chat widget.
+
 4. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** fields, respectively.
+
 5. On the **Chat Widget** page, enter the following details:
-   - **Title**: Display name for the chat widget.
-   - **Subtitle**: Additional title, such as "We're online".
+   - **Title:** Display name for the chat widget.
+   - **Subtitle:** Additional title, such as "We're online".
    - **Theme color:** Choose a color from the list.
    - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
-   - **Agent display name**: Select a value from the list.
-6. Set the toggle to yes if you want to enable the following options:
+   - **Agent display name:** Select a value from the list.
+
+6. Set the toggle to **Yes** to enable the following options:
    - [Proactive chat](proactive-chat.md)
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
@@ -42,9 +47,10 @@ Perform the following steps to configure chat in Omnichannel admin center:
    - [Post-conversation survey](configure-post-conversation-survey.md)
    - [Authentication settings](create-chat-auth-settings.md)
    - Customer wait time
-     - **Show position in queue**: Select if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
-     - **Show average wait time**: Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
-   - **Customer location detection**: Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
+         - **Show position in queue:** Select if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
+         - **Show average wait time:** Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
+   - **Customer location detection:** Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
+
 8. On the **User features** page, configure the following options:
    - [File attachments](enable-file-attachments.md)
    - [Customer notifications](#configure-customer-notifications)
@@ -77,13 +83,13 @@ You can also configure the customer notifications when you're configuring the ch
 
 The information in this section is not applicable if you are using the Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
 
-1. Sign in to Dynamics 365, and select Omnichannel Administration.
+1. Sign in to Dynamics 365 and select Omnichannel Administration.
 
 2. Go to **Channels** > **Chat**.
 
 3. Select **New**. The **New Chat Widget** page is displayed.
 
-4. On the **General settings** tab, specify the information for the following fields. The **Customer waiting** and **Chat Reconnect** options are available only for Live chat. Enter the settings in the fields depending on the type of chat you want to configure.
+4. On the **General settings** tab, specify the information for the following fields, depending on the type of chat you want to configure. The **Customer waiting** and **Chat Reconnect** options are available only for live chat. 
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -101,7 +107,7 @@ The information in this section is not applicable if you are using the Omnichann
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
-    | **Work distribution** | **Work stream** | Select a work stream from the list. Initially, a default a work stream is selected. <br>More information: [Understand and create work streams](create-workstreams.md) <br> **Note:** <br> If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. | Live work stream |
+    | **Work distribution** | **Work stream** | Select a work stream from the list. Initially, a default work stream is selected. <br>More information: [Understand and create work streams](create-workstreams.md) <br> **Note:** <br> If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. | Live work stream |
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|    
@@ -124,19 +130,19 @@ The information in this section is not applicable if you are using the Omnichann
 
 
     | Section | Field | Description | Example value |
-    |---------------|------------------------|-----------------------------------|---------------------|            
+    |---------------|------------------------|-----------------------------------|---------------------|
     |**Customer waiting** | **Show position in queue** | Select whether to show customers their position in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their position in a queue](show-queue.md) | Yes |
     | | **Show average wait time**| Select whether to show customers average wait time in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their average wait time in a queue](average-wait-time.md) | Yes |
     |||
 
-5. Select **Save**. The following sections are displayed:
+3. Select **Save**. The following sections are displayed:
     - **Code snippet:** The code snippet that you need to embed in the HTML source of your website to display the chat widget is displayed in the **Widget snippet** box.
     - **Chat Reconnect:** The toggle to configure options for providing a reconnect link to the chat user is displayed. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 
 
-6. On the **Automated messages** tab, set up automated messages for your chat widget. More information: [Configure automated messages](configure-automated-message.md)
+4. On the **Automated messages** tab, set up automated messages for your chat widget. More information: [Configure automated messages](configure-automated-message.md)
 
-7. On the **Surveys** tab, specify the information for the following fields.
+5. On the **Surveys** tab, specify the information for the following fields.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -147,36 +153,38 @@ The information in this section is not applicable if you are using the Omnichann
     > [!div class=mx-imgBorder]
     > ![Configure a pre-conversation survey in a chat widget.](media/oc-chat-widget-survey-tab.png "Configure a pre-conversation survey in a chat widget")
 
-8. On the **Conversation options** tab, specify the information for the following fields.
+6. On the **Conversation options** tab, specify the information for the following fields.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
-    |Voice and video calls | Call options | Select a call option from the list: <ul>**No calling**: <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling**:<br> Agents can make both voice and video calls. **Note:** Video calling is not available in Unified Service Desk. </ul><br><ul>**Voice only**:<br> Agents can make only voice calls.  </ul>| Video and voice calling |
+    |Voice and video calls | Call options | Select a call option from the list: <ul>**No calling:** <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling:**<br> Agents can make both voice and video calls. **Note:** Video calling is not available in Unified Service Desk. </ul><br><ul>**Voice only:**<br> Agents can make only voice calls.  </ul>| Video and voice calling |
     | Visual engagement | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
     | Visual engagement | Screen sharing provider | Select the provider from the list.| *Screen sharing provider* |
     | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
     | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |
        
-  
-9. On the **Design** tab, specify the information for the following fields. The offline settings are available only when the operating hours are set.
+   > [!NOTE]
+   > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the lists.
+   
+7. On the **Design** tab, specify the information for the following fields. The offline settings are available only when the operating hours are set.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
     | Online | Theme color | Select a color from the list for the chat widget. | Blue |
     | Online | Logo | Enter a link for the image that's hosted on a publicly available site. | https://oc-cdn-ocprod.azureedge.net/livechatwidget/images/chat.svg |
-    | Online | Title | Specify the name for the widget that's displayed for customers in the chat widget. | Let's Chat! |        
+    | Online | Title | Specify the name for the widget that's displayed for customers in the chat widget. | Let's Chat! |
     | Online | Subtitle | Specify the name for the widget that's displayed for customers in the chat widget. | We're Online |
     | Online | Position | Specify the position of the widget. | Bottom right |
     | Online | Operating hours | Select an operating hour window for the chat widget from the list. <br> More information: [Create and manage operating hours](create-operating-hours.md) | Regular shift |
     |Online|Turn on sound notifications|Set to **Yes** if you want your customers to receive a sound notification when the chat widget is minimized or not active||
     |Online|Turn on unread message indicator|Set to **Yes** if you want to display the count of unread messages when the chat widget is minimized or not active for the customer.||
-    | Offline | Show widget during offline hours | Set to **Yes** to display the chat widget during the offline hours.| Yes. The default is No; the chat widget will be hidden .|
+    | Offline | Show widget during offline hours | Set to **Yes** to display the chat widget during the offline hours.| Yes. The default is No; the chat widget will be hidden.|
     | Offline | Theme color | Select a color from the list. | Grey |
     |Offline | Title | Specify a title to be displayed. | We're offline. |
     | Offline | Subtitle | Optionally, specify a subtitle. | No agents are available. |
     |||||
     
-10. On the **Location** tab, do the following:
+8. On the **Location** tab, perform the following steps:
 
     1. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
     2. In the **Visitor location** section, specify whether you need to detect the visitor's location, and then select a **Geo Location Provider**. More information: [Set up location detection](geo-location-provider.md)
@@ -184,9 +192,9 @@ The information in this section is not applicable if you are using the Omnichann
     > [!NOTE]
     > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
 
-11. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. 
+9. On the **Related** tab, view activity associated with your chat widget, such as survey responses, chat widget locations, and system messages. 
 
-12. Select **Save** to save the configurations.
+10. Select **Save** to save the configurations.
 
 After you configure, agents can get the capabilities while they are in a conversation. To learn more, see [Call options and visual engagement in live chat](call-options-visual-engagement.md).
 

@@ -104,7 +104,7 @@
       href: add-users-assign-roles.md
   - name: App profile manager for Customer Service
     items: 
-    - name: App profile manager overview
+    - name: Overview of app profile manager
       href: ../app-profile-manager/overview.md
     - name: Roles and permissions
       href: ../app-profile-manager/security-roles.md
@@ -135,19 +135,73 @@
       - name: Automation dictionary to pass parameters
         href: ../app-profile-manager/automation-dictionary-keys.md
     - name: Developer experience
-      items: 
-      - name: Overview of JavaScript API reference
-        href: ../app-profile-manager/reference/microsoft-apm.md
-      - name: Methods
-        items: 
-        - name: createTab
-          href: ../app-profile-manager/reference/microsoft-apm/createTab.md
-        - name: focusTab
-          href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
-        - name: refreshTab
-          href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
-        - name: closeTab
-          href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
+      items:
+      - name: App profile manager JavaScript API reference
+        items:
+        - name: Overview       
+          href: ../app-profile-manager/reference/microsoft-apm.md
+        - name: Session management
+          items:
+          - name: Methods
+            items:       
+            - name: getFocusedSession
+              href: ../app-profile-manager/reference/microsoft-apm/getFocusedSession.md
+            - name: getAllSessions
+              href: ../app-profile-manager/reference/microsoft-apm/getAllSessions.md
+            - name: getSession
+              href: ../app-profile-manager/reference/microsoft-apm/getSession.md
+            - name: createSession
+              href: ../app-profile-manager/reference/microsoft-apm/createSession.md
+            - name: canCreateSession
+              href: ../app-profile-manager/reference/microsoft-apm/canCreateSession.md
+            - name: close
+              href: ../app-profile-manager/reference/microsoft-apm/close.md
+            - name: focus
+              href: ../app-profile-manager/reference/microsoft-apm/focus.md         
+            - name: requestFocus
+              href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md      
+          - name: Properties
+            items:                           
+            - name: sessionID
+              href: ../app-profile-manager/reference/microsoft-apm/sessionID.md
+            - name: isDefault
+              href: ../app-profile-manager/reference/microsoft-apm/isDefault.md  
+            - name: canClose
+              href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
+            - name: title
+              href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md                      
+        - name: Tab management
+          items:
+          - name: Methods              
+            items: 
+            - name: getFocusedTab
+              href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md        
+            - name: getAllTabs
+              href: ../app-profile-manager/reference/microsoft-apm/getAllTabs.md
+            - name: getTab
+              href: ../app-profile-manager/reference/microsoft-apm/getTab.md
+            - name: createTab
+              href: ../app-profile-manager/reference/microsoft-apm/createTab.md
+            - name: canCreateTab
+              href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md                    
+            - name: closeTab
+              href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
+            - name: focusTab
+              href: ../app-profile-manager/reference/microsoft-apm/focusTab.md  
+            - name: refreshTab             
+              href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
+          - name: Properties                            
+            items:       
+            - name: tabID
+              href: ../app-profile-manager/reference/microsoft-apm/tabID.md
+            - name: canClose
+              href: ../app-profile-manager/reference/microsoft-apm/canCloseTab.md
+            - name: title
+              href: ../app-profile-manager/reference/microsoft-apm/tabtitle.md   
+        - name: Context management    
+          items:                
+          - name: updateContext
+            href: ../app-profile-manager/reference/microsoft-apm/updateContext.md                   
     - name: Readme
       href: https://go.microsoft.com/fwlink/p/?linkid=2141982
   - name: Unified routing and assignment
@@ -156,7 +210,7 @@
       items:
       - name: Overview of unified routing
         href: overview-unified-routing.md
-      - name: How routing and assignment works
+      - name: How to set up unified routing
         href: set-up-routing-process.md
       - name: Routing and assignment rules
         href: routing-workstream-queues.md
@@ -237,7 +291,7 @@
       - name: Similar records suggestions
         href: suggest-similar-cases-for-a-case.md
       - name: Create and manage subjects
-        href: create-manage-subject-tree.md  
+        href: create-manage-subject-tree.md
     - name: Agent experience
       items: 
       - name: Create cases
@@ -262,6 +316,8 @@
         href: modify-case-resolution-dialog.md
       - name: Enable search control for subjects
         href: search-control-for-subjects.md
+      - name: Remove validation on contact and customer for cases
+        href: remove-validation-contact.md
   - name: Automatically create or update records
     items: 
     - name: Automatically create or update records in Customer Service Hub
@@ -561,7 +617,7 @@
         - name: Markdown formats
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
-      href: asynchronous-channels.md
+      href: card-support-in-channels.md
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
@@ -720,9 +776,9 @@
         href: knowledge-search-analytics-cs.md
       - name: View analytics dashboards created in Power BI
         href: customer-service-analytics.md
-      - name: Intraday supervisor experiences
+      - name: Intraday supervisor experience
         items: 
-        - name: Introduction to intraday supervisor experiences
+        - name: Introduction to intraday supervisor experience
           href: intro-intraday-insights-dashboard.md
         - name: IntradayMonitoring report
           href: intraday-insights-dashboard.md

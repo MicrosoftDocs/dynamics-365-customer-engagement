@@ -36,7 +36,7 @@ The primary differences between live chat and persistent chat are as follows:
 |------------------------------------------|-----------------------------------|------------------------------|
 |Agent availability outside of operation hours|Allows customers to reach out to agents outside of working hours. If no agents are available, the conversation will remain open and the agent will receive the customer's messages during the operating hours.|Outside of operating hours, customers mightn't be able to chat with live agents.
 |Ending conversations|Customers can't end conversations from their side. Only agents can do it. |Both customers and agents can end the conversation by closing the chat.|
-|Default system messages|Persistent chat doesn't display default messages about average wait time and queue positions, because a customer doesn't need to wait for an agent. |In live chat, the customer receives system messages about wait time. These messages can be overwritten in the settings tab.
+|Default system messages|Persistent chat doesn't display default messages about average wait time and queue positions, because a customer doesn't need to wait for an agent. |In live chat, the customer receives system messages about wait time. These messages can be overwritten in the **Settings** tab.
 
 ## How persistent chat works
 
@@ -57,7 +57,7 @@ You can enable persistent chat in the chat widget settings for a chat channel.
 
 3. Select **New chat widget**. For more information, see [Add a chat widget](add-chat-widget.md).
 
-4. In the **Conversation Mode** area, for **Select mode**, choose "Persistent Chat".
+4. In the **Conversation Mode** area, for **Select mode**, select  **Persistent Chat**.
 
 5. Select **Save**.
 
@@ -68,7 +68,7 @@ You can enable persistent chat in the chat widget settings for a chat channel.
 8. Set **agent affinity** to true. When a customer returns to the chat, this setting will ensure that the system first tries to connect them to the same agent.
 
 > [!NOTE] 
-> If you need to configure both live and persistent chat widgets, ensure to create two separate work streams and update the settings accordingly.  
+> If you need to configure both live and persistent chat widgets, ensure to create two separate workstreams and update the settings accordingly.  
 
 9. Select **Save and close**.
 
