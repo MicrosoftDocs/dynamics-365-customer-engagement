@@ -73,7 +73,7 @@ If your administrator has enabled the ability to view call recordings and transc
 > [!NOTE] 
 > Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 
-There are a couple of ways to access recordings and transcripts for completed calls.
+You can access the recordings and transcripts for completed calls by accessing the Closed Conversation form through the customer summary.
 
 **From a contact (customer)**:
 
