@@ -692,9 +692,6 @@ Upgrade your browser version as per the system requirements of Dynamics 365 Chan
 
 ## After Omnichannel for Customer Service is provisioned, I get an authentication error on the agent dashboard. <a name="provision"></a>
 
-customers rename the org URL but don’t update the channel URL after OC is provisioned.
-
-
 ### Issue
 
 The following error message is displayed on the agent dashboard after I provision Omnichannel for Customer Service.
@@ -710,17 +707,14 @@ The issue occurs when you rename the org URL but don’t update the channel URL 
 2. On the left pane, select **Apps**, and then from the applications list, select **Omnichannel for Customer Service**. 
 3. Select the ellipsis (...) button, scroll down the list, and select **App profile manager**.
 
-4. Select the administrator app&mdash;Customer Service workspace or Omnichannel Administration&mdash;,and then select **Channel provider**.
+4. Select the administrator app (either Customer Service workspace or Omnichannel Administration), and then select **Channel provider**.
    The Active Channel Providers list is displayed.
 
 5. Do the following:
-  >  1. Make sure that the omnichannel channel provider record is listed and is in the Active state. 
+    - Make sure that the omnichannel channel provider record is listed and is in the Active state. 
      If the omnichannel record is not active, select the record, and then select **Activate** on the menu bar.
-  >  2. In the General tab of the omnichannel record, make sure that **Channel URL** field includes the org info as shown in the following example:
-
- oc-cdn-ocprod.azureedge.net/convcontrol/ChatControl.htm?uci=true&clientName=zfp&cloudType=Public&env=prod&ocBaseUrl=https://orgf14def6a-crm.omnichannelengagementhub.com&ucilib=https://crm874937.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js
-
-> `https://oc-cdn-ocprod.azureedge.net/convcontrol/ChatControl.htm?uci=true&clientName=zfp&cloudType=Public&env=prod&ocBaseUrl=https://org749544d7-crm.omnichannelengagementhub.com&ucilib=https://  <org>.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`
+    - In the **General** tab of the omnichannel record, make sure that **Channel URL** field includes the org info as shown in the following example: <br>
+   `https://oc-cdn-ocprod.azureedge.net/convcontrol/ChatControl.htm?uci=true&clientName=zfp&cloudType=Public&env=prod&ocBaseUrl=https://org749544d7-crm.omnichannelengagementhub.com&ucilib=https://  <org>.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`
 
  
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
