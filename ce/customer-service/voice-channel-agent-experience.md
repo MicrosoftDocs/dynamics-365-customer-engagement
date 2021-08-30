@@ -4,7 +4,7 @@ description: "Use this topic to understand agent experience in Omnichannel for C
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/20/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
@@ -73,18 +73,7 @@ If your administrator has enabled the ability to view call recordings and transc
 > [!NOTE] 
 > Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 
-There are a couple of ways to access recordings and transcripts from completed calls in the Omnichannel admin center app:
-
-**From the Users option on the sitemap**:
-
-1. On the Omnichannel admin center sitemap, select **Users**, and then select the user whose conversations you want to view.
-2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
-3. Select **Closed conversations** from the dashboard dropdown menu.
-4. Select the conversation for which you want to access the recording and transcript.
-  
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of closed conversation list.](./media/voice-channel-conversations-list.png)
-
+There are a couple of ways to access recordings and transcripts for completed calls.
 
 **From a contact (customer)**:
 
@@ -104,7 +93,7 @@ The **Details** tab of the Conversation Form displays call recording details.
 
 **Recording playback**
 
-- **Play**:  Select the button to listen to the conversation audio. 
+- **Play**:  Select the button to listen to the conversation audio.
 - **Rewind** or **Fast-forward**: Select the buttons to either rewind in 10-second increments or fast-forward in 30-second increments.
 - **Volume**: Move the slider to adjust the volume to your desired level.
 - **Download audio**: Download an .mp4 audio file of the complete conversation.
@@ -116,8 +105,11 @@ The **Details** tab of the Conversation Form displays call recording details.
 
 - **Search**: Enter keywords in the search field to locate desired sections of conversation.
 - **Download transcript**: Open an HTML file of the conversation transcript in your browser.
+  
+   > [!NOTE]
+   > Inline images and rendering of videos is not supported in downloaded transcripts.
 
-The **Overview** tab of the Conversation Form displays the following details:
+The **Overview** section of the Conversation Form displays the following details:
 
 - **Primary agent**: The name of the agent who conducted the call.
 - **Customer**: The name of the customer the call was with.
@@ -128,8 +120,8 @@ The **Overview** tab of the Conversation Form displays the following details:
 - **Queue**: The queue the call was conducted in.
 - **Workstream**: The workstream the call was conducted in.
 - **Duration**: The total amount of time of the call, from start to finish.
-- **Skills**: 
-- **Regarding**:
+- **Skills**: The list of agent skills.
+- **Regarding**: The link to the customer record.
 - **Last modified**: The date and time that the call was last edited.
 
 The **Metrics** tab of the Conversation Form displays the following details:
