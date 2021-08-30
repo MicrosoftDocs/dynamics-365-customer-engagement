@@ -29,7 +29,7 @@ Having this information ready can help support agents reduce the hold time that 
 > [!div class='mx-imgBorder']
 > ![View Customer summary.](media/customer-summary.png "View the Customer summary page")
 
-Agents can access the **Customer Summary** form for only active conversations and only in the Customer Service workspace and Omnichannel for Customer Service apps.
+Agents can access the **Customer Summary** form by accepting the task assignment notification or from the agent dashboard for only active conversations and only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
 For a closed conversation, you can view details on the closed conversation form from the **Closed work items** section of the agent dashboard.
 
