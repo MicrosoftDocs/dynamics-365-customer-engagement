@@ -251,8 +251,12 @@ You can preview the content to view its compatibility on multiple devices, like 
 
 ![Preview panel.](media/preview-panel.png "Preview pane in content editor for knowledge article")
 
+This is an indicative preview. Content rendered can be different in the actual device or screen.
+
 > [!NOTE]
-> This is an indicative preview. Content rendered can be different in the actual device or screen.
+>While authoring a knowledge article in the Content editor panel if you add anchor links, you won't be able to test the links in the Designer or the Preview mode. However, once the article is published the anchor links work as expected.
+
+
 
 ## Add a file attachment to a knowledge article
 
