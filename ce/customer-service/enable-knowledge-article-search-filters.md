@@ -153,3 +153,6 @@ You may have scenarios within your organization where agents are working on diff
 3. Customize the filter according to your needs by selecting or deselecting the values displayed and then turn on the **Set as a preselected filter** toggle if you want the filter to be shown to the agent by default.
 4. Select **Save**.
 
+Once you have the enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you have previously set for them.  
+
+
