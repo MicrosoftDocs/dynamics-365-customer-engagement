@@ -371,7 +371,7 @@ A message stating **Sorry, we're not able to serve you at the moment** is shown 
 
 As an administrator, make sure of the following:
 
-- Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichanne admin center](queues-omnichannel.md#create-a-queue-for-unified-routing)
+- Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichannel admin center](queues-omnichannel.md#create-a-queue-for-unified-routing)
 
 - For the associated workstream, check that the **Allowed Presence** option has values in the **Work distribution** area. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
