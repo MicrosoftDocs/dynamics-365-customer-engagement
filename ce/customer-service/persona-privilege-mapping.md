@@ -1,6 +1,6 @@
 ---
 title: "Persona and privileges | MicrosoftDocs"
-description: "Get information about the privileges and recommended depth for the agent, supervisor, and administrator personas in Customer Service."
+description: "Get information about the privileges and recommended access level for the agent, supervisor, and administrator personas in Customer Service and Omnichannel for Customer Service."
 ms.date: 08/31/2021
 ms.topic: article
 author: mh-jaya
@@ -10,13 +10,17 @@ manager: shujoshi
 
 # Persona and privileges
 
-This topic lists the table or entity privileges for the agent, supervisor, and administrator personas. Persona mapping can be found in the Omnichannel admin center or Customer Service Hub in the **User attributes** section
-More information: [Manage personas](role-persona-mapping.md#manage-personas)
+This topic lists the table privileges and recommended access levels for the administrator, supervisor, and agent personas.
+
+To know more about the various access levels, see [Security roles](../power-platform/admin/security-roles-privileges#security-roles).
+For more information about how personas are mapped to roles, see [Manage personas](role-persona-mapping.md#manage-personas).
 
 ## Persona: Administrator
 
-|	Table name	|	Table unique name	|	Privilege name	|	Recommended depth	|
-|	   -----    |------	                |	------          |	  ---  	|
+The following table lists the privileges and recommended access levels for the admin persona.
+
+|	Table name                            |	Table unique name	                  |	Privilege name                                            |	Recommended access level	|
+|	   -----                              |------	                              |	------                                                    |	  ---              	|
 |	Activity	                          |	Activity	                          |	Append, Append To, Delete, Update	                      |	Local	|
 |		                                  |		                                  |	Assign	                                                  |	Deep	|
 |		                                  |		                                  |	Create	                                                  |	Basic	|
@@ -91,7 +95,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 |	Parameter (Deprecated)	              |	msdyn_consoleapplicationtemplateparameter	| Append, Append To, Create, Delete, Read, Update |	Global	|
 |	Persona Security Role Mapping	      |	msdyn_personasecurityrolemapping	  |	Append, Append To, Create, Delete, Read, Update	 |	Global	|
 |	Personal quick reply	              |	msdyn_personalmessage	              |	Append, Append To, Create, Delete, Read, Update	 |	Basic	|
-|	Personal sound setting	              |	msdyn_Personalsoundsetting	          |	Append, Append To, Create, Delete, Read, Update	 |	Basic	|
+|	Personal sound setting	              |	msdyn_personalsoundsetting	          |	Append, Append To, Create, Delete, Read, Update	 |	Basic	|
 |	PluginAssembly	                      |	PluginAssembly	                      |	Read	                                  |	Global	|
 |	PluginType	                          |	PluginType	                          |	Read	                                  | Global	|
 |	Power BI Configuration	              |	msdyn_analytics	                      |	Create, Delete, Read, Update	          |	Global	|
@@ -150,6 +154,8 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 
 
 ## Persona: Supervisor
+
+The following table lists the privileges and recommended access levels for the supervisor persona.
 
 |	Table name                    	|	Table unique name	                                |	Privilege name	                       | Recommended depth |
 |-----------                    |--------------------                                       |-----------------                                | -------- |
@@ -248,6 +254,7 @@ More information: [Manage personas](role-persona-mapping.md#manage-personas)
 
 ## Persona: Agent
 
+The following table lists the privileges and recommended access levels for the agent persona.
 
 |	Table name                    	|	Table unique name	            |	Privilege name	                                    | Recommended depth|
 |---------------                    |--------------------               |-----------------                                      | --------          |
