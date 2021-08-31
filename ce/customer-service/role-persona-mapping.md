@@ -111,6 +111,6 @@ To enable access to a form or dashboard, perform the following steps:
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Manage users for unified routing](users-user-profiles.md)  
-[Persona and privileges in Customer Service](persona-privilege-mapping.md) 
+[Personas and privileges](persona-privilege-mapping.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]  
