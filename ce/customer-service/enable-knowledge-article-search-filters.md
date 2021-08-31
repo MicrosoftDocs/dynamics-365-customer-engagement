@@ -1,7 +1,7 @@
 ---
 title: Enable knowledge article search filters | MicrosoftDocs
 description: Learn how to enable knowledge article search filters in Dynamics 365 Customer Service
-ms.date: 24/08/2021
+ms.date: 08/24/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
