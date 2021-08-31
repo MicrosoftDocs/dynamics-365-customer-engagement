@@ -1,6 +1,6 @@
 ---
 title: "Persona and privileges | MicrosoftDocs"
-description: "Get information about the privileges and recommended access level for the agent, supervisor, and administrator personas in Customer Service and Omnichannel for Customer Service."
+description: "Get information about the privileges and recommended access level for the administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service."
 ms.date: 08/31/2021
 ms.topic: article
 author: mh-jaya
