@@ -198,6 +198,9 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 
 The linked knowledge article subgrid that you added will be visible to the customer service representative on the entity form during runtime.
 
+You can also view the Knowledge Search Tab, available out of the box, in the productivity pane. However, at any point in time, you can view Knowledge Search Control either from forms in the App Tab or from the Knowledge Search Tab in the productivity pane.
+
+This is because opening Knowledge Search Control simultaneously in the productivity pane, or in the App tab (either as a subgrid or in standard view), displays an error message in the productivity pane. You must either disable the Knowledge Search Tab in the productivity pane, or remove the Knowledge Search Control section from your Case form that you opened from the App tab.
 
 ### See also
 
