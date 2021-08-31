@@ -1,6 +1,6 @@
 ---
-title: "Enable viewing profile cards | MicrosoftDocs"
-description: "Find information related to users on their profile card."
+title: "Enable users to view profile cards in Dynamics 365 Customer Engagement apps"
+description: "Profile cards, also known as people cards or contact cards, allow users to find information about others. Follow these steps to enable profile card viewing."
 ms.custom: 
 ms.date: 06/03/2019
 ms.reviewer: 
@@ -17,7 +17,7 @@ caps.latest.revision: 15
 ms.author: jimholtz
 manager: kvivek
 ---
-# Enable viewing profile cards
+# Enable users to view profile cards in Customer Engagement apps
 
 Microsoft’s people experience is centered around profile cards that have been around in Microsoft Outlook and other Office apps and services on the web. When you select someone’s name or picture in Outlook or other Office apps, you can find information related to them on their profile card. The profile card is also sometimes referred to as contact card or people card. Profile cards are available on contacts and users in any Unified Interface app.
 

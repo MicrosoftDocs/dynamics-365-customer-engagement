@@ -1,6 +1,6 @@
 ---
-title: "Permissions required for document management tasks | MicrosoftDocs"
-description: " Perform each document management with SharePoint."
+title: "Permissions required for SharePoint tasks in Dynamics 365 Customer Engagement (on-premises)"
+description: "This page describes the security roles and other permissions that are needed to perform each SharePoint document management task in Customer Engagement."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Permissions required for document management tasks
+# Security roles and permissions required for SharePoint document management tasks
 
 The following table shows the default security roles or other permissions that are needed to perform each document management with [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] task.  
   
