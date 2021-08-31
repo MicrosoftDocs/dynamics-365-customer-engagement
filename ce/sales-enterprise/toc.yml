@@ -18,6 +18,8 @@
     href: ../sales-enterprise/whats-new.md
   - name: Deprecated features
     href: deprecations-sales.md
+  - name: Known issues
+    href: https://go.microsoft.com/fwlink/?linkid=2171768
   - name: Connect and share feedback
     href: ../sales-enterprise/connect-share-feedback.md
   - name: Administrator & Sales Manager Guide
@@ -251,9 +253,7 @@
         - name: Access the deal manager workspace
           href: access-deal-manager.md
         - name: Personalize the deal manager workspace
-          href: personalize-deal-manager.md   
-        - name: Known issues in deal manager
-          href: deal-manager-known-issues.md  
+          href: personalize-deal-manager.md    
       - name: Work with opportunities in the Kanban view
         href: opportunity-kanban-view.md
       - name: Reopen leads
