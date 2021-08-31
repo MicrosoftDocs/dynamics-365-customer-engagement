@@ -1,7 +1,7 @@
 ---
 title: "Delete Microsoft Teams data | MicrosoftDocs"
 ms.custom: 
-description: "Delete Microsoft Teams data."
+description: "You can delete personal data stored with Dynamics 365 app integration with Microsoft Teams. Run the following commands before requesting data deletion."
 ms.date: 8/27/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Delete Microsoft Teams data 
+# Delete personal data from Microsoft Teams
 
 ## Delete user data
 Your privacy is important to us. You can remove the personal data for customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) from Microsoft Teams.
