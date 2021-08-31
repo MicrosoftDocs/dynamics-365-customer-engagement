@@ -12,7 +12,7 @@ manager: shujoshi
 
 This topic lists the table privileges and recommended access levels for the administrator, supervisor, and agent personas.
 
-To know more about the various access levels, see [Security roles](../power-platform/admin/security-roles-privileges#security-roles).
+To know more about the various access levels, see [Security roles](/power-platform/admin/security-roles-privileges#security-roles).
 For more information about how personas are mapped to roles, see [Manage personas](role-persona-mapping.md#manage-personas).
 
 ## Persona: Administrator
