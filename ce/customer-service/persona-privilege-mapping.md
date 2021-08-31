@@ -19,15 +19,15 @@ To know more about the various access levels, see [Security roles](/power-platfo
 For more information about how personas are mapped to roles, see [Manage personas](role-persona-mapping.md#manage-personas).
 
 > [!Note]
-> If there are custom plug-ins and workflows used in the system, then you must ensure the required privileges are granted to the personas, otherwise your plug-ins won't work.
+> If custom plug-ins and workflows are used in the system, then you must ensure that the required privileges are granted to the personas, otherwise your plug-ins won't work.
 
 
 ## Persona: Administrator
 
 The following table lists the privileges and recommended access levels for the admin persona.
 
-|	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
-|	   -----                              |------	                              |	------                          |	  ---              	|
+|	Table name                            |	Table unique name	                  |	Privilege name                |Recommended access level	|
+|	   -----                              |------  |	------                          |	  ---              	|
 |	Activity	                          |	Activity	                          |	Append, Append To, Delete, Update	            |	Local	|
 |		                                  |		                                  |	Assign	                                        |	Deep	|
 |		                                  |		                                  |	Create	                                          |	Basic	|
