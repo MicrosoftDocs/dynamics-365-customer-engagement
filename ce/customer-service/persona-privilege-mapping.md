@@ -68,15 +68,15 @@ The following table lists the privileges and recommended access levels for the a
 |	Conversation Sentiment	              |	msdyn_ocliveworkitemsentiment	  |	Create, Delete, Read, Update	                      |	Global	|
 |	Custom messaging account	          |	msdyn_ocbotchannelregistration | Append, Append To, Create, Delete, Read, Update  	      |	Global	|
 |	Customization	                      |	Customization	              |	Publish, Read, Update	                                  |	Global	|
+||||
+
+|	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
+|-----------                    |--------------------                                       |-----------------        | -------- |
 |	Decision contract	                  |	msdyn_decisioncontract	|Append, Append To, Assign, Create, Delete, Read, Share, Update |	Global	|
 |	Decision rule set	                  |	msdyn_decisionruleset	| Append, Append To, Assign, Create, Delete, Read, Share, Update |	Global	|
 |	Deprecated Workstream<br>Entity Configuration</br>	 |	msdyn_entityconfig	  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Entity	                              |	msdyn_entityroutingconfiguration	  |	Append, Append To, Create, Delete, Read, Update  |	Global	|
 |	Entity Routing Context	              |	msdyn_cdsentityengagementctx	      |	Create, Delete, Read, Update	         |	Global	|
-||||
-
-|	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
-|-----------                    |--------------------                                       |-----------------        | -------- |
 |	Forms	                              |	SystemForm	                          |	Read	                                  |	Global	|
 |	Geo Location Provider	              |	msdyn_oc_geolocationprovider	      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	KPI Event Definition	              |	msdyn_kpieventdefinition	          |	Read	                                  |	Global	|
@@ -115,13 +115,13 @@ The following table lists the privileges and recommended access levels for the a
 |	Provisioning State	                  |	msdyn_ocprovisioningstate	     |	Append, Append To, Create, Delete, Read, Update	     |	Global	|
 |	Publisher	                          |	Publisher	                          |	Read	                                  |	Global	|
 |	Publisher Address	                  |	PublisherAddress	                  |	Read	                                  |	Global	|
-|	Query	                              |	Query	                              |	Read, Update	                          |	Global	|
-|	Queue	                              |	Queue	                      |	Append, Append To, Assign, Create, Delete, Read, Update   |	Global	|
-|	Quick reply	                          |	msdyn_cannedmessage	                  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 ||||
 
 |	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
 |-----------                    |--------------------                                       |-----------------        | -------- |
+|	Query	                              |	Query	                              |	Read, Update	                          |	Global	|
+|	Queue	                              |	Queue	                      |	Append, Append To, Assign, Create, Delete, Read, Update   |	Global	|
+|	Quick reply	                          |	msdyn_cannedmessage	                  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Rating Model	                      |	RatingModel	                          |	Append, Append To, Create, Delete, Read, Update	 |	Global	|
 |	Rating Value	                      |	RatingValue	                          |	Append, Append To, Create, Delete, Read, Update   |	Global	|
 |	Recording	                          |	msdyn_ocrecording	                  |	Append, Append To, Create, Delete, Read, Update   |	Global	|
@@ -172,7 +172,7 @@ The following table lists the privileges and recommended access levels for the a
 
 The following table lists the privileges and recommended access levels for the supervisor persona.
 
-|	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
+|	Table name (A-O)                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
 |-----------                    |--------------------                                       |-----------------        | -------- |
 |	Activity	                    |	Activity	                                        |	Append, Append To, Delete, Update   |	Local	|
 |	                            	|	        	                                        |	Assign	                           |	Deep	|
