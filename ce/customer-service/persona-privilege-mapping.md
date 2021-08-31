@@ -10,6 +10,8 @@ manager: shujoshi
 
 # Personas and privileges
 
+## Introduction
+
 This topic lists the table privileges and recommended access levels for the administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service.
 
 To know more about the various access levels, see [Security roles](/power-platform/admin/security-roles-privileges#security-roles).
@@ -96,6 +98,10 @@ The following table lists the privileges and recommended access levels for the a
 |		                                  |		                                  |	Create	                                  |	Basic	|
 |		                                  |		                                  |	Read, Share	                              |	Global	|
 |	Operating Hour	                      |	msdyn_operatinghour	           |	Append, Append To, Create, Delete, Read, Update	    |	Global	|
+||||
+
+|	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
+|-----------                    |--------------------                                       |-----------------        | -------- |
 |	Pane tool configuration	              |	msdyn_panetoolconfiguration           |	Read	                                  |	Global	|
 |	Parameter (Deprecated)	      | msdyn_consoleapplicationtemplateparameter | Append, Append To, Create, Delete, Read, Update   | Global	|
 |	Persona Security Role Mapping	      |	msdyn_personasecurityrolemapping	  |	Append, Append To, Create, Delete, Read, Update	 |	Global	|
@@ -182,8 +188,8 @@ The following table lists the privileges and recommended access levels for the s
 |	channel	                        |	msdyn_channel	                                    |	Read                                  |	Global	|
 |	Channel Provider            	|	msdyn_channelprovider	                            |	Read                                 |	Global	|
 |	Channel Integration Framework <br>v1.0 Provider</br>	    |	msdyn_ciprovider	    |	Read                                  |	Global	|
-    |	Characteristic	                |	Characteristic                                  |  Read	                                  |	Global	|
-    |	Context item value             	|	msdyn_ocliveworkitemcontextitem            |	Read	                                |	Global	|
+|	Characteristic	                |	Characteristic                                  |  Read	                                  |	Global	|
+|	Context item value             	|	msdyn_ocliveworkitemcontextitem            |	Read	                                |	Global	|
 |	                              	|	                                            	|	Append, Create, Update                    |	Basic	|
 |	Context variable	            |	msdyn_ocliveworkstreamcontextvariable	     |	Read	                                      |	Global	|
 |	Conversation Characteristic	    |	msdyn_ocliveworkitemcharacteristic     	      |	Read	                                      |	Global	|
@@ -204,6 +210,11 @@ The following table lists the privileges and recommended access levels for the s
 |	Notification Template	        |	msdyn_notificationtemplate	                        |	Read	                            |	Global	|
 |	Notification Field (Deprecated)	|	msdyn_consoleapplicationnotificationfield        	|	Read                                  |	Global	|
 |	Notification Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationnotificationtemplate	|	Read                      	  |	Global	|
+||||
+
+
+|	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
+|	   -----                              |------	                              |	------                          |	  ---              	|
 |	Omnichannel Queue (deprecated)	|	msdyn_omnichannelqueue	                            |	Append, Append To, Read	              |	Global	|
 |	Omnichannel Configuration	|	msdyn_omnichannelconfiguration	                        |	Read	                              |	Global	|
 |	Omnichannel Personalization	|	msdyn_omnichannelpersonalization	                    |	Create, Delete, Read, Update	      |	Basic	|
@@ -261,8 +272,8 @@ The following table lists the privileges and recommended access levels for the s
 
 The following table lists the privileges and recommended access levels for the agent persona.
 
-|	Table name                    	|	Table unique name	            |	Privilege name	                            | Recommended access level |
-|---------------                    |--------------------               |-----------------                              | --------          |
+|	Table name                    	|	Table unique name	            |	Privilege name	                          | Recommended access level |
+|---------------                    |--------------------               |-----------------                            | --------          |
 |	Activity	                    |	Activity	                    |	Append, Append To, Delete, Update	                |	Local	|
 |	                            	|	                            	|	Assign                                            	|	Deep	|
 |	                        	    |	                                |	Create                                             	|	Basic	|
@@ -315,6 +326,10 @@ The following table lists the privileges and recommended access levels for the a
 |	Notification Template	        |	msdyn_notificationtemplate	                            |	Read	                    |	Global	|
 |	Notification Field <br>(Deprecated)</br>	|	msdyn_consoleapplicationnotificationfield	|	Read	                    |	Global	|
 |	Notification Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationnotificationtemplate	|	Read	                |	Global	|
+||||
+
+|	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
+|	   -----                              |------	                              |	------                          |	  ---              	|
 |	Omnichannel Queue (deprecated)	|	msdyn_omnichannelqueue	                                    |	Read	                |	Global	|
 |	Omnichannel Configuration    	|	msdyn_omnichannelconfiguration	                            |	Read	                |	Global	|
 |	Omnichannel Personalization	    |	msdyn_omnichannelpersonalization	                  |	Create, Delete, Read, Update 	|	Basic	|
