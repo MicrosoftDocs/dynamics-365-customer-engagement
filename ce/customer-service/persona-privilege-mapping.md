@@ -19,7 +19,7 @@ To know more about the various access levels, see [Security roles](/power-platfo
 For more information about how personas are mapped to roles, see [Manage personas](role-persona-mapping.md#manage-personas).
 
 > [!Note]
-> If you have custom plug-ins and workflows, then you must provide the required privileges, otherwise your plug-ins won't work.
+> If there are custom plug-ins and workflows used in the system, then you must ensure the required privileges are granted to the personas, otherwise your plug-ins won't work.
 
 
 ## Persona: Administrator
@@ -63,16 +63,20 @@ The following table lists the privileges and recommended access levels for the a
 |	Columns	                              |	Attribute	                          |	Update	                                          |	Global	|
 |	Context item value	                  |	msdyn_ocliveworkitemcontextitem	      |	Append, Create, Delete, Read, Update	         |	Global	|
 |	Context variable	                  |	msdyn_ocliveworkstreamcontextvariable |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
-|	Conversation Capacity profile |	msdyn_ocliveworkitemcapacityprofile | Append, Append To, Assign, Create, Delete, Read, Share, Update | Global|
+|	Conversation Capacity<br>profile<br> |	msdyn_ocliveworkitemcapacityprofile | Append, Append To, Assign, Create, Delete, Read, Share, Update | Global|
 |	Conversation Characteristic	          |	msdyn_ocliveworkitemcharacteristic	  |	Append, Append To, Create, Delete, Read, Update   |	Global	|
 |	Conversation Sentiment	              |	msdyn_ocliveworkitemsentiment	  |	Create, Delete, Read, Update	                      |	Global	|
 |	Custom messaging account	          |	msdyn_ocbotchannelregistration | Append, Append To, Create, Delete, Read, Update  	      |	Global	|
 |	Customization	                      |	Customization	              |	Publish, Read, Update	                                  |	Global	|
 |	Decision contract	                  |	msdyn_decisioncontract	|Append, Append To, Assign, Create, Delete, Read, Share, Update |	Global	|
 |	Decision rule set	                  |	msdyn_decisionruleset	| Append, Append To, Assign, Create, Delete, Read, Share, Update |	Global	|
-|	Deprecated Workstream Entity<br> Configuration</br>	 |	msdyn_entityconfig	  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
+|	Deprecated Workstream<br>Entity Configuration</br>	 |	msdyn_entityconfig	  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Entity	                              |	msdyn_entityroutingconfiguration	  |	Append, Append To, Create, Delete, Read, Update  |	Global	|
 |	Entity Routing Context	              |	msdyn_cdsentityengagementctx	      |	Create, Delete, Read, Update	         |	Global	|
+||||
+
+|	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
+|-----------                    |--------------------                                       |-----------------        | -------- |
 |	Forms	                              |	SystemForm	                          |	Read	                                  |	Global	|
 |	Geo Location Provider	              |	msdyn_oc_geolocationprovider	      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	KPI Event Definition	              |	msdyn_kpieventdefinition	          |	Read	                                  |	Global	|
@@ -93,15 +97,11 @@ The following table lists the privileges and recommended access levels for the a
 |	Omnichannel Queue (deprecated)	      |	msdyn_omnichannelqueue	     | Append, Append To, Assign, Create, Delete, Read, Update	  |	Global	|
 |	Omnichannel Configuration	          |	msdyn_omnichannelconfiguration	      |	Append, Append To, Read, Update	          |	Global	|
 |	Omnichannel Personalization	          |	msdyn_omnichannelpersonalization	  |	Create, Delete, Read, Update	          |	Global	|
-|	Ongoing conversation (Deprecated)	  |	msdyn_liveconversation	              |	Append, Append To, Update	              |	Local	|
+|	Ongoing conversation<br>(Deprecated)</br>	  |	msdyn_liveconversation	              |	Append, Append To, Update	              |	Local	|
 |		                                  |		                                  |	Assign	                                  |	Deep	|
 |		                                  |		                                  |	Create	                                  |	Basic	|
 |		                                  |		                                  |	Read, Share	                              |	Global	|
 |	Operating Hour	                      |	msdyn_operatinghour	           |	Append, Append To, Create, Delete, Read, Update	    |	Global	|
-||||
-
-|	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
-|-----------                    |--------------------                                       |-----------------        | -------- |
 |	Pane tool configuration	              |	msdyn_panetoolconfiguration           |	Read	                                  |	Global	|
 |	Parameter (Deprecated)	      | msdyn_consoleapplicationtemplateparameter | Append, Append To, Create, Delete, Read, Update   | Global	|
 |	Persona Security Role Mapping	      |	msdyn_personasecurityrolemapping	  |	Append, Append To, Create, Delete, Read, Update	 |	Global	|
@@ -118,6 +118,10 @@ The following table lists the privileges and recommended access levels for the a
 |	Query	                              |	Query	                              |	Read, Update	                          |	Global	|
 |	Queue	                              |	Queue	                      |	Append, Append To, Assign, Create, Delete, Read, Update   |	Global	|
 |	Quick reply	                          |	msdyn_cannedmessage	                  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
+||||
+
+|	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
+|-----------                    |--------------------                                       |-----------------        | -------- |
 |	Rating Model	                      |	RatingModel	                          |	Append, Append To, Create, Delete, Read, Update	 |	Global	|
 |	Rating Value	                      |	RatingValue	                          |	Append, Append To, Create, Delete, Read, Update   |	Global	|
 |	Recording	                          |	msdyn_ocrecording	                  |	Append, Append To, Create, Delete, Read, Update   |	Global	|
@@ -139,7 +143,7 @@ The following table lists the privileges and recommended access levels for the a
 |	Session Template	                  |	msdyn_sessiontemplate	              |	Append, Append To, Create, Delete, Read, Update   |	Global	|
 |	Session Characteristic	              |	msdyn_ocsessioncharacteristic         |	Append, Append To, Create, Delete, Read, Update  |	Global	|
 |	Session participant	                  |	msdyn_sessionparticipant	          |	Create, Delete, Read, Update 	  |	Global	|
-|	Session Templates (Deprecated)	 |	msdyn_consoleapplicationsessiontemplate	  |	Append, Append To, Create, Delete, Read, Update   |	Global	|
+|	Session Templates<br>(Deprecated)</br>	 |	msdyn_consoleapplicationsessiontemplate	  |	Append, Append To, Create, Delete, Read, Update   |	Global	|
 |	SharePoint Data	                      |	SharePointData	                      |	Create, Read, Update 	                          |	Global	|
 |	SharePointDocument	                  |	SharePointDocument	                  |	Read	                                  |	Global	|
 |	Skill finder model	                  |	msdyn_ocskillidentmlmodel	          |	Append, Append To, Create, Delete, Read, Update   |	Global	|
@@ -150,7 +154,7 @@ The following table lists the privileges and recommended access levels for the a
 |	Tag	                                  |	msdyn_octag	                          |	Append, Append To, Create, Delete, Read, Update   |	Global	|
 |	Template Parameter	                  |	msdyn_templateparameter	              |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Template Tag (Deprecated)	          |	msdyn_templatetags	                  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
-|	Training data import configuration	  |	msdyn_ocsitdimportconfig	          |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
+|	Training data import<br>configuration</br> |	msdyn_ocsitdimportconfig	  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Training record	                      |	msdyn_ocsitrainingdata	              |	Append, Append To, Create, Delete, Read, Update   |	Global	|
 |	Transcript	                          |	msdyn_transcript	                  |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |	Unified routing diagnostic	          |	msdyn_unifiedroutingdiagnostic	      |	Delete, Read, Update	                          |	Global	|
@@ -159,7 +163,7 @@ The following table lists the privileges and recommended access levels for the a
 |	UR Notification Template <br>Mapping</br>|	msdyn_urnotificationtemplatemapping	| Append, Append To, Create, Delete, Read, Update | Global  |
 |	User Setting	                      |	msdyusd_usersettings                  |	Append, Append To, Read, Update	                  |	Global	|
 |	User settings	                      |	msdyn_usersettin                      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
-|  Work stream capacity profile | msdyn_liveworkstreamcapacityprofile | Append, Append To, Assign, Create, Delete, Read, Share, Update | Global	|
+|   Work stream capacity<br>profile</br> | msdyn_liveworkstreamcapacityprofile | Append, Append To, Assign, Create, Delete, Read, Share, Update | Global |
 |	Workstream	                          | msdyn_liveworkstream |	Append, Append To, Assign, Create, Delete, Read, Share, Update  | Global	|
 | | | | 
 
@@ -210,11 +214,6 @@ The following table lists the privileges and recommended access levels for the s
 |	Notification Template	        |	msdyn_notificationtemplate	                        |	Read	                            |	Global	|
 |	Notification Field (Deprecated)	|	msdyn_consoleapplicationnotificationfield        	|	Read                                  |	Global	|
 |	Notification Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationnotificationtemplate	|	Read                      	  |	Global	|
-||||
-
-
-|	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
-|	   -----                              |------	                              |	------                          |	  ---              	|
 |	Omnichannel Queue (deprecated)	|	msdyn_omnichannelqueue	                            |	Append, Append To, Read	              |	Global	|
 |	Omnichannel Configuration	|	msdyn_omnichannelconfiguration	                        |	Read	                              |	Global	|
 |	Omnichannel Personalization	|	msdyn_omnichannelpersonalization	                    |	Create, Delete, Read, Update	      |	Basic	|
@@ -223,6 +222,11 @@ The following table lists the privileges and recommended access levels for the s
 |	                                        	|	                    	                |	Append, Append To, Update          	  |	Local	|
 |		                                        |	                    	                |	Assign	                              |	Deep	|
 |	Operating Hour	                            |	msdyn_operatinghour    	                |	Read	|	Global	|
+||||
+
+
+|	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
+|	   -----                              |------	                              |	------                          |	  ---              	|
 |	Parameter (Deprecated)            	|	msdyn_consoleapplicationtemplateparameter	    |	Read	|	Global	|
 |	Persona Security Role Mapping    	|	msdyn_personasecurityrolemapping	            |	Read	|	Global	|
 |	Personal quick reply            	|	msdyn_personalmessage	              |	Append, Append To, Create, Delete, Read, Update	|	Basic	|
@@ -312,6 +316,10 @@ The following table lists the privileges and recommended access levels for the a
 |	Deprecated Workstream <<br>Entity Configuration</br>	|	msdyn_entityconfig	|	Read	                                |	Global	|
 |	Entity	                        |	msdyn_entityroutingconfiguration	        |	Read	                                |	Global	|
 |	Entity Routing Context	        |	msdyn_cdsentityengagementctx	            |	Read	                                |	Global	|
+||||
+
+|	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
+|	   -----                              |------	                              |	------                          |	  ---              	|
 |	KPI Event Definition	        |	msdyn_kpieventdefinition	                |	Read	                                |	Global	|
 |	Language	                    |	msdyn_oclanguage	                        |	Read	                                |	Global	|
 |	Live work item event	        |	msdyn_liveworkitemevent                    	|	Read	                                |	Global	|
@@ -326,10 +334,6 @@ The following table lists the privileges and recommended access levels for the a
 |	Notification Template	        |	msdyn_notificationtemplate	                            |	Read	                    |	Global	|
 |	Notification Field <br>(Deprecated)</br>	|	msdyn_consoleapplicationnotificationfield	|	Read	                    |	Global	|
 |	Notification Template <br>(Deprecated)</br>	|	msdyn_consoleapplicationnotificationtemplate	|	Read	                |	Global	|
-||||
-
-|	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
-|	   -----                              |------	                              |	------                          |	  ---              	|
 |	Omnichannel Queue (deprecated)	|	msdyn_omnichannelqueue	                                    |	Read	                |	Global	|
 |	Omnichannel Configuration    	|	msdyn_omnichannelconfiguration	                            |	Read	                |	Global	|
 |	Omnichannel Personalization	    |	msdyn_omnichannelpersonalization	                  |	Create, Delete, Read, Update 	|	Basic	|
@@ -347,6 +351,11 @@ The following table lists the privileges and recommended access levels for the a
 |	Presence                                	|	msdyn_presence	                        |	Read	                        |	Global	|
 |	Productivity pane configuration            	|	msdyn_paneconfiguration	                |	Read	                        |	Global	|
 |	Provisioning State	                        |	msdyn_ocprovisioningstate	            |	Read                        	|	Global	|
+||||
+
+
+|	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
+|	   -----                              |------	                              |	------                          |	  ---              	|
 |	Queue	                                    |	Queue	                                |	Append, Read	                |	Global	|
 |	Quick reply	                                |	msdyn_cannedmessage	                    |	Read                        	|	Global	|
 |	Rating Model                            	|	RatingModel                            	|	Read	                        |	Global	|
