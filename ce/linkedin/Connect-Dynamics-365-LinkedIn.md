@@ -1,6 +1,6 @@
 ---
-title: "Connect LinkedIn to the Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
-description: "Learn how to connect the Dynamics 365 Connector for LinkedIn Lead Gen Forms with the LinkedIn service to sync lead gen data."
+title: "Authorize Dynamics 365 apps to use LinkedIn account data"
+description: "Before you can sync leads to your organization, follow these steps to authorize the Dynamics 365 Connector for LinkedIn Lead Gen Forms to use LinkedIn data."
 keywords: LinkedIn Lead Gen Connector, connection
 ms.date: 04/02/2018
 ms.topic: article
@@ -22,7 +22,7 @@ ms.custom:
   - dyn365-LinkedIn
 ---
 
-# Establish a connection between Dynamics 365 Connector for LinkedIn Lead Gen Forms and LinkedIn
+# Authorize Dynamics 365 Connector for LinkedIn Lead Gen Forms to use LinkedIn data
 
 Before we can sync leads from [!include[LinkedIn](../includes/pn-linkedin.md)] campaign accounts to a Dynamics 365 organization, a [!include[LinkedIn](../includes/pn-linkedin.md)] member with access to [!include[LinkedIn](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!include[LinkedIn](../includes/pn-linkedin.md)] accounts in Dynamics 365 apps. This user requires at least a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.  
 
