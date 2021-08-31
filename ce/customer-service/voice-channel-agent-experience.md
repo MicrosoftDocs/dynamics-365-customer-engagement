@@ -73,16 +73,11 @@ If your administrator has enabled the ability to view call recordings and transc
 > [!NOTE] 
 > Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 
-You can access the recordings and transcripts for completed calls by accessing the Closed Conversation form through the customer summary.
+You can access the recordings and transcripts for completed calls by accessing the Conversation Form in one of the following ways:
 
-**From a contact (customer)**:
+- On your session window, select the dropdown button beside Customer summary and select Conversation Form.
 
-1. Select the name of the contact, and then from the Timeline, hover over the closed conversation you want to view. The icon menu is displayed on the top-right of the conversation.
-2. Select the **Open Record** icon.
-
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of the open record icon for a conversation on the timeline of a customer contact page.](./media/voice-channel-customer-record.png)
-
+- Select the name of the contact, and then in the **Timeline** section, hover the mouse over the closed conversation you want to view, and then select the **Open Record** icon.
 
 ### Call recording and transcript controls
 
