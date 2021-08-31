@@ -1,6 +1,6 @@
 ---
-title: "Review leads updated by the Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
-description: "Learn how to see the details of the updated leads and review the aggregated lead performance."
+title: "Analyze LinkedIn leads updated by Dynamics 365 Connector"
+description: "See the details of a lead that's been updated by Dynamics 365 Connector for LinkedIn Lead Gen Forms, and work with charts to review aggregate performance."
 keywords: lead, lead gen form, sponsored content, linkedin, dashboard
 ms.date: 04/02/2018
 ms.topic: article
@@ -21,7 +21,7 @@ ms.custom:
   - dyn365-LinkedIn
 ---
 
-# Analyze leads and lead performance
+# Analyze updated LinkedIn leads and aggregate lead performance
 
 When a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matches a lead record in Dynamics 365 Sales, the lead record is updated with additional information. In addition to the updates of individual lead records, charts on dashboards can represent the performance of a marketing campaign on [!include[LinkedIn](../includes/pn-linkedin.md)].
 
