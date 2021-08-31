@@ -63,6 +63,9 @@ Rollup queries define additional criteria for a goal. Applying the rollup query 
 6. Select **Recalculate** on the command bar and wait for the calculations. Calculation time depends on the complexity of the query and the volume of data.  
     >[!div class="mx-imgBorder"]
     >![Image of the Goal Criteria tab with the rollup query fields, also highlighting the Recalculate option.](media\rollup-query.png "IImage of the Goal Criteria tab with the rollup query fields, also highlighting the Recalculate option")
+
+    > [!NOTE]
+    > The goals are automatically rolled up depending on the rollup frequency set by your administrator. For more information, see [Define system settings from the Goals tab](../customerengagement/on-premises/admin/system-settings-dialog-box-goals-tab.md).
 7. Select the **Actuals** tab of the goal and verify the **Last Rolled Up Date** to ensure that the recalculated data is the latest.  
     The **Percentage Achieved**, **Actual**, and **In-Progress** fields display the values after applying the additional criteria in the rollup query. For example, values for a specific customer.  
 
