@@ -1,7 +1,7 @@
 ---
-title: "Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365| MicrosoftDocs"
+title: "Basic Collaboration for Microsoft Teams with Dynamics 365 app"
 ms.custom: 
-description: "Collaborate with team members using the Dynamics 365 app for Microsoft Teams."
+description: "Collaborate with team members using the Dynamics 365 app for Microsoft Teams. Follow these steps to connect an app record or view to a team channel."
 ms.date: 08/26/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365
+# Basic Collaboration Experience with the Dynamics 365 app for Microsoft Teams
 
 ## Collaboration experience in Microsoft Teams
 
