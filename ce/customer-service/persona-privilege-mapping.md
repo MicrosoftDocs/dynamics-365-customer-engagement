@@ -153,7 +153,7 @@ The following table lists the privileges and recommended access levels for the a
 |	UR Notification Template <br>Mapping</br>|	msdyn_urnotificationtemplatemapping	| Append, Append To, Create, Delete, Read, Update | Global  |
 |	User Setting	                      |	msdyusd_usersettings                  |	Append, Append To, Read, Update	                  |	Global	|
 |	User settings	                      |	msdyn_usersettin                      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
-|   Workstream capacity profile | msdyn_liveworkstreamcapacityprofile | Append, Append To, Assign, Create, Delete, Read, Share, Update | Global	|
+|  Work stream capacity profile | msdyn_liveworkstreamcapacityprofile | Append, Append To, Assign, Create, Delete, Read, Share, Update | Global	|
 |	Workstream	                          | msdyn_liveworkstream |	Append, Append To, Assign, Create, Delete, Read, Share, Update  | Global	|
 | | | | 
 
@@ -162,8 +162,8 @@ The following table lists the privileges and recommended access levels for the a
 
 The following table lists the privileges and recommended access levels for the supervisor persona.
 
-|	Table name                	|	Table unique name	                                |	Privilege name	                 | Recommended depth |
-|-----------                    |--------------------                                       |-----------------                | -------- |
+|	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
+|-----------                    |--------------------                                       |-----------------        | -------- |
 |	Activity	                    |	Activity	                                        |	Append, Append To, Delete, Update   |	Local	|
 |	                            	|	        	                                        |	Assign	                           |	Deep	|
 |	                            	|	                                                	|	Create                            |	Basic	|
@@ -244,9 +244,9 @@ The following table lists the privileges and recommended access levels for the s
 |	SharePoint Data	                    |	SharePointData                                	|	Create, Read, Update            	|	Global	|
 |	SharePointDocument                 	|	SharePointDocument	                            |	Read	                            |	Global	|
 |	Solution	                        |	Solution                                    	|	Read	                            |	Global	|
-|	Sound notification setting        	|	msdyn_soundnotificationsetting       	|	Append, Append To, Create, Delete, Read, Update	| Global|
-|	System User	                        |	User	                                  |	Append, Append To, Create, Read, Update	|	Local	|
-|	Tag	                                |	msdyn_octag	                                    |	Append, Append To, Create, Delete, Read, Update	|	Global	|
+|	Sound notification setting        	|	msdyn_soundnotificationsetting     |	Append, Append To, Create, Delete, Read, Update	| Global|
+|	System User	                        |	User	                           |	Append, Append To, Create, Read, Update	|	Local	|
+|	Tag	                                |	msdyn_octag	                       |	Append, Append To, Create, Delete, Read, Update	|	Global	|
 |	Template Parameter                 	|	msdyn_templateparameter	                        |	Read	                            |	Global	|
 |	Template Tag (Deprecated)        	|	msdyn_templatetags                            	|	Read	                            |	Global	|
 |	Transcript                        	|	msdyn_transcript                            	|	Read	                            |	Global	|
@@ -261,8 +261,8 @@ The following table lists the privileges and recommended access levels for the s
 
 The following table lists the privileges and recommended access levels for the agent persona.
 
-|	Table name                    	|	Table unique name	            |	Privilege name	                                    | Recommended depth|
-|---------------                    |--------------------               |-----------------                                      | --------          |
+|	Table name                    	|	Table unique name	            |	Privilege name	                            | Recommended access level |
+|---------------                    |--------------------               |-----------------                              | --------          |
 |	Activity	                    |	Activity	                    |	Append, Append To, Delete, Update	                |	Local	|
 |	                            	|	                            	|	Assign                                            	|	Deep	|
 |	                        	    |	                                |	Create                                             	|	Basic	|
@@ -369,7 +369,7 @@ The following table lists the privileges and recommended access levels for the a
 |	UR notification template	                |	msdyn_urnotificationtemplate	        |	Read	|	Global	|
 |	UR Notification Template Mapping	        |	msdyn_urnotificationtemplatemapping	    |	Read	|	Global	|
 |	User settings	                            |	msdyn_usersetting	         |	Append, Append To, Create, Delete, Read, Update	|	Global	|
-|	Work stream capacity profile	            |	msdyn_liveworkstreamcapacityprofile	    |	Read	                |	Local	|
+|	Workstream capacity profile	            |	msdyn_liveworkstreamcapacityprofile	    |	Read	                |	Local	|
 |	Workstream                                	|	msdyn_liveworkstream	                |	Append, Append To, Read	|	Global	|
 |	                                        	|		                                    |	Assign, Share	        |	Basic	|
 ||||
