@@ -1,6 +1,6 @@
 ---
 title: "Persona and privileges | MicrosoftDocs"
-description: "Get information about the privileges and recommended access level for the administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service."
+description: "Get information about the privileges and recommended access levels for administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service."
 ms.date: 08/31/2021
 ms.topic: article
 author: mh-jaya
@@ -10,10 +10,15 @@ manager: shujoshi
 
 # Persona and privileges
 
-This topic lists the table privileges and recommended access levels for the administrator, supervisor, and agent personas.
+This topic lists the table privileges and recommended access levels for the administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service.
 
 To know more about the various access levels, see [Security roles](/power-platform/admin/security-roles-privileges#security-roles).
+
 For more information about how personas are mapped to roles, see [Manage personas](role-persona-mapping.md#manage-personas).
+
+> [!Note]
+> If you have custom plug-ins and workflows, then you must provide these privileges, otherwise your plug-ins won't work.
+
 
 ## Persona: Administrator
 

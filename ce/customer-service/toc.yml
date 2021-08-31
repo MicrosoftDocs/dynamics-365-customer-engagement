@@ -258,9 +258,9 @@
           href: users-user-profiles.md
         - name: Manage capacity profiles
           href: capacity-profiles.md
-        - name: Role persona mapping
+        - name: Roles and personas
           href: role-persona-mapping.md
-        - name: Persona privilege mapping
+        - name: Personas and privileges
           href: persona-privilege-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
