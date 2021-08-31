@@ -17,7 +17,7 @@ To know more about the various access levels, see [Security roles](/power-platfo
 For more information about how personas are mapped to roles, see [Manage personas](role-persona-mapping.md#manage-personas).
 
 > [!Note]
-> If you have custom plug-ins and workflows, then you must provide these privileges, otherwise your plug-ins won't work.
+> If you have custom plug-ins and workflows, then you must provide the required privileges, otherwise your plug-ins won't work.
 
 
 ## Persona: Administrator
