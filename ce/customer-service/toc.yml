@@ -420,7 +420,7 @@
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
-      - name: Search for knowledge articles on smart assist
+      - name: Search for and share knowledge articles
         href: oc-search-knowledge-articles.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
