@@ -1,7 +1,7 @@
 ---
-title: "Integrate customer engagement apps in Dynamics 365 with Microsoft Teams| MicrosoftDocs"
+title: "Teams integration with Dynamics 365 customer engagement apps"
 ms.custom: 
-description: "Integrate customer engagement apps in Dynamics 365 with Microsoft Teams."
+description: "Dynamics 365 for Microsoft Teams integration enables users to easily work with customer engagement apps and share files directly from Microsoft Teams."
 ms.date: 08/26/2020
 ms.reviewer: 
 ms.service: crm-online
