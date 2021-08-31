@@ -1,5 +1,5 @@
 ---
-title: "Role persona mapping | MicrosoftDocs"
+title: "Roles and personas | MicrosoftDocs"
 description: "Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service."
 ms.date: 06/03/2021
 ms.topic: article
