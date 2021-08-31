@@ -154,6 +154,5 @@ In the deal manager workspace, select the views dropdown list and search for the
 ### See also
 
 [Access the deal manager workspace](access-deal-manager.md)  
-[Known issues with personalization](deal-manager-known-issues.md#personalization)
 
 
