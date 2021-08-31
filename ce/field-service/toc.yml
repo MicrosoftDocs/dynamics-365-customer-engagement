@@ -6,6 +6,8 @@
   href: user-guide.md
 - name: Get started
   href: field-service-get-started.md
+- name: Videos
+  href: field-service-videos.md
 - name: Installation + upgrade
   items: 
   - name: Field Service installation (web + mobile)

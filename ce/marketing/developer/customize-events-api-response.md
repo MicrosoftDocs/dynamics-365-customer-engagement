@@ -1,7 +1,7 @@
 ---
 title: "Customize the response from the Events API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to customize responses from the Dynamics 365 Marketing Events API."
-ms.date: 06/11/2019
+ms.date: 08/26/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -24,18 +24,19 @@ By default, when adding a new field to an entity (for example: `msevtmgt_pass`),
 
 However, it is possible to expose the new field in the Events API by creating a so-called *website entity configuration*. 
 
-To create a new website entity configuration: 
+To create a new website entity configuration:
 
-1. Open your Dynamics 365 Marketing instance. 
-2. Go to **Dynamics 365** > **Marketing** > **Settings** > **Website Entity Configurations**. 
-3. Enter a name of your choice in the `Name` field. 
-4. Select the entity for which you would like to expose an extra field in the `Selected Entity` field. 
-5. Write a JSON array that contains the new custom field that should be visible through the API in the Selected fields. This exposes the new custom field through the Events API.
+1. Open your Dynamics 365 Marketing instance.
+1. Go to **Settings** > **Event management** > **Website table configurations**.
+1. Select **+ New** in the toolbar at the top of the page.
+1. Enter a name of your choice in the **Name** field.
+1. Select the entity that you want to expose an extra field in the **Selected Entity** field.
+1. Write a JSON array that contains the new custom field that should be visible through the API in the **Selected fields**. This exposes the new custom field through the Events API.
 
 > [!div class="mx-imgBorder"]
-> ![Customize API response.](../media/using-events-api-customize-response.PNG)
+> ![Customize API response.](../media/customize-event-api-new.png "Customize API response")
 
-**Example**
+## Example
 
 ```
 [“statuscode”, “my_custom_field”]
@@ -44,6 +45,5 @@ To create a new website entity configuration:
 ## See also
 [Using Events API](using-events-api.md)<br />
 [User authentication using Events API](user-authentication-events-api.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
