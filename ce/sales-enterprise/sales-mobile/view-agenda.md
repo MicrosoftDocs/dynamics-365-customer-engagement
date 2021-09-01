@@ -121,7 +121,7 @@ You can disconnect the regarding entity when it is no longer relevant to the cur
 
 The record is disconnected from the meeting, and the **Connect a record** button is displayed.
 
-**Notes and reminders**    
+**Notes and reminders** 
 
 Notes and reminders are displayed within the corresponding connected record. [View details](open-record.md#view-details) of the record to see notes and reminders.
 
