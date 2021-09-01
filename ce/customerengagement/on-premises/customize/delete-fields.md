@@ -1,6 +1,6 @@
 ---
-title: "Delete fields with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to delete fields"
+title: "Delete a field from Dynamics 365 Customer Engagement (on-premises)"
+description: "You can delete custom fields that aren't part of a managed solution, so long as you remove any dependencies that exist in other solution components."
 ms.date: 11/03/2018
 ms.prod: d365ce-op
 ms.topic: article
@@ -17,7 +17,7 @@ search.audienceType:
   - customizer
 
 ---
-# Delete fields
+# Delete a custom field
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Delete fields in Power Apps](/powerapps/maker/common-data-service/delete-fields)
 

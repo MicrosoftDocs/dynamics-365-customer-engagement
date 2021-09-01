@@ -14,6 +14,8 @@
       href: trial-faq.md
     - name: Purchase and set up Marketing
       href: purchase-setup.md
+    - name: Install real-time customer journey orchestration
+      href: real-time-marketing-install.md
     - name: Integrate Marketing with a CMS system or Power Apps portals
       href: portal-optional.md
     - name: Open the Power Platform admin center
@@ -46,8 +48,6 @@
       items: 
       - name: Manage user accounts, licenses, and roles
         href: admin-users-licenses-roles.md
-      - name: Fair use policy
-        href: fair-use-policy.md
       - name: Use business units with Marketing
         href: business-units.md
     - name: Administration settings
@@ -109,26 +109,40 @@
       - name: Control access to designer features
         href: designer-feature-protection.md
     - name: Email administration
-      items: 
-      - name: Email bounce categories
-        href: email-bounce-categories.md
-      - name: Create an SPF TXT record
-        href: create-spf-record.md
-      - name: Dedicated vs shared IPs for email delivery
-        href: dedicated-vs-shared-ip.md
-      - name: Warm up an IP or domain
-        href: email-warm-up.md
-      - name: Email policies and suspension standards
-        href: email-policies.md
-      - name: Improve deliverability to China
-        href: improve-deliverability-to-china.md
-      - name: Deliverability recommendations when changing ESPs
-        href: deliverability-change-esp.md
-      - name: Google Postmaster Tools - What it is and how it can help you
-        href: google-postmaster.md
+      items:
       - name: Best practices for email marketing
         href: get-ready-email-marketing.md
-      - name: Email troubleshooting
+      - name: Setup guides
+        items:
+        - name: Dedicated vs shared IPs for email delivery
+          href: dedicated-vs-shared-ip.md
+        - name: Email sending data access and privileges
+          href: email-sending-data.md
+        - name: Troubleshoot domain authentication errors
+          href: troubleshoot-domain-authentication.md
+      - name: Improve email deliverability
+        items:
+        - name: Email bounce categories
+          href: email-bounce-categories.md
+        - name: Fix a high email bounce rate
+          href: fix-high-bounce-rate.md
+        - name: Warm up an IP or domain
+          href: email-warm-up.md
+        - name: Create an SPF TXT record
+          href: create-spf-record.md
+        - name: Deliverability recommendations when changing ESPs
+          href: deliverability-change-esp.md
+        - name: Improve deliverability to China
+          href: improve-deliverability-to-china.md
+        - name: Google Postmaster Tools - What it is and how it can help you
+          href: google-postmaster.md
+      - name: Improve sending reputation
+        items:
+        - name: Email policies and suspension standards
+          href: email-policies.md
+        - name: How Dynamics 365 Marketing uses suppression lists
+          href: suppression-lists.md
+      - name: Troubleshoot email issues
         href: email-troubleshooting.md
     - name: Customization
       items: 
@@ -152,6 +166,10 @@
         href: form-double-opt-in.md
       - name: How the app uses cookies
         href: cookies.md
+    - name: Terms and fair use
+      items:
+      - name: Fair use policy
+        href: fair-use-policy.md
     - name: Administration and setup FAQ
       href: setup-troubleshooting.yml
     - name: Known issues and workarounds
@@ -220,7 +238,7 @@
         href: custom-template-attributes.md
       - name: Design elements reference
         href: content-blocks-reference.md
-    - name: "Preview: Real-time customer journey orchestration"
+    - name: "Real-time customer journey orchestration"
       items: 
       - name: Real-time marketing user guide
         href: real-time-marketing-user-guide.yml
@@ -228,19 +246,17 @@
         items: 
         - name: Real-time marketing overview
           href: real-time-marketing-overview.md
-        - name: Install the real-time marketing preview
-          href: real-time-marketing-install.md
         - name: Use Customer Insights profiles and segments in real-time marketing
           href: real-time-marketing-ci-profile.md
         - name: Known issues in real-time marketing
           href: real-time-marketing-known-issues.md
       - name: Channels
         items: 
-        - name: Create real-time marketing emails
+        - name: Real-time marketing emails
           href: real-time-marketing-email.md
-        - name: Create push notifications
+        - name: Push notifications
           href: real-time-marketing-push-notifications.md
-        - name: Create outbound text messages
+        - name: Outbound text messages
           href: real-time-marketing-outbound-text-messaging.md
         - name: Use AI-driven run-time channel optimization
           href: real-time-marketing-channel-optimization.md
@@ -284,6 +300,8 @@
         items: 
         - name: Push notification setup for application developers
           href: real-time-marketing-developer-push.md
+      - name: Real-time marketing troubleshoot + FAQ
+        href: real-time-marketing-faq.md
     - name: Email campaigns
       items: 
       - name: Email marketing overview

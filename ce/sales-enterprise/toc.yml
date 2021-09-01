@@ -1,4 +1,4 @@
-- name: Help resources for Dynamics 365 Sales Enterprise
+- name: Help resources
   items: 
   - name: Help resources for Dynamics 365 Sales Enterprise
     href: help-hub.md
@@ -18,6 +18,8 @@
     href: ../sales-enterprise/whats-new.md
   - name: Deprecated features
     href: deprecations-sales.md
+  - name: Known issues
+    href: https://go.microsoft.com/fwlink/?linkid=2171768
   - name: Connect and share feedback
     href: ../sales-enterprise/connect-share-feedback.md
   - name: Administrator & Sales Manager Guide
@@ -251,9 +253,7 @@
         - name: Access the deal manager workspace
           href: access-deal-manager.md
         - name: Personalize the deal manager workspace
-          href: personalize-deal-manager.md   
-        - name: Known issues in deal manager
-          href: deal-manager-known-issues.md  
+          href: personalize-deal-manager.md    
       - name: Work with opportunities in the Kanban view
         href: opportunity-kanban-view.md
       - name: Reopen leads
@@ -337,7 +337,12 @@
       - name: Track a marketing campaign response
         href: ../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md
     - name: Use Sales Hub on the mobile app
-      href: ../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md
+      items:
+      - name: Use the Sales Hub app on Dynamics 365 Sales app
+        href: use-sales-hub-on-mobile-app.md
+      - name: Use the Sales Hub app on Dynamics 365 for phones and tablets app
+        href: ../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md
+
   - name: Troubleshooting and FAQs
     items: 
     - name: Dynamics 365 Sales Troubleshooting guide

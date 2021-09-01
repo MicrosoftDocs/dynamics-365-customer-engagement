@@ -1,30 +1,28 @@
 ---
-title: "createTab (JavaScript API Reference) for multi-session apps | MicrosoftDocs"
-description: "Learn about the createTab API for the multi-session apps such as Omnichannel for Customer Service and Customer Service workspace."
-author: kabala123
-ms.author: kabala
+title: "createTab method (app profile manager) JavaScript API Reference | MicrosoftDocs"
+description: "Learn about the createTab API of app profile manager in Customer Service workspace."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# createTab
+# createTab (app profile manager)
 
-Creates an app tab in a focused Session and returns the unique identifier of the created tab.
+Creates an app tab in a focused session and returns the unique identifier of the tab.
 
 ## Syntax
 
-`Microsoft.Apm.createTab(tabInput).then(successCallback, errorCallback);`
+`Microsoft.Apm.createTab(AppTabInput);`
 
 ## Parameters
 
-| **Name**         | **Type** | **Required** | **Description**   |
-|------------------|----------|--------------|-----------------------------------------------------------------------------------------------------------------------|
-| tabInput            | AppTabInput   | Yes     | JSON input |
-| successCallback  | Function | No           | A function to call when the tab is created. Unique identifier(TabId) of the created tab is returned in the response. |
-| errorCallback    | Function | No           | A function to call when the operation fails. An object with the following properties will be passed:<br />**errorCode**: Number. The error code.<br />**message**: String. An error message describing the issue.|
+| **Name**         | **Type**      | **Required** | **Description**   |
+|------------------|----------     |--------------|-------------------|
+| AppTabInput      |   String    | Yes          | JSON input properties of the tab to be created.     |
 
-The structure of the JSON `Input` parameter is shown below.
+The structure of the JSON `AppTabInput` parameter is as follows:
 
 ```json
 {
@@ -32,33 +30,47 @@ The structure of the JSON `Input` parameter is shown below.
     // type = string
     templateName: <unique name of the application tab template>;
     //additional context for tab creation and tab slugs
-    // type string
-    appContext: Map<etn, recordId>;
+    // type  Map<string, string>
+    appContext?:  Map<string, string>;
     //should this tab be focused after creation
     // type=boolean
     isFocused?: <true or false>;
 }
 ```
 
-## Returns
+## Return value
 
-Promise string with the value as created tab ID.
+Tab identifier as String.
 
-## Example
+## Examples
+
+These examples use the `createTab` method to launch a new tab.
+
+### Create a basic tab
+
+Creates a new tab in the focused session, passing the entity name, recordId, and app tab template name as parameters.
 
 ```JavaScript
-var tabInput = {
-    //Unique Name of the Application Tab Template
-    // type = string
-    templateName: "msdyn_test_entity",
-    appContext: new Map().set("etn", "incident").set("recordId", "768a786f-59e0-ea11-a813-000d3a8b1f3b"),
-    isFocused: true
+var tabInput = {templateName: "msdyn_entityrecord",  appContext: new Map().set("entityName", "account").set("entityId", "09e68a6e-b7ef-eb11-bacb-000d3a373d11"),  isFocused: true};
+Microsoft.Apm.createTab(tabInput);
+```
+
+### Create a tab passing values to an entity form
+
+Creates a new tab in the focused session passing the entity name and app tab template name as parameters. It also populates the target entity form with additional values.
+
+```JavaScript
+var formParams = {};
+ formParams["lastname"] = "Cannon";
+ formParams["firstname"] = "Paul";
+
+var tabInput = { 
+templateName: "msdyn_entityrecord", 
+appContext: new Map().set("entityName", "contact") .set("formId", "e06af4d1-2812-45c7-a9c2-9fb73fee7bec") .set("data", JSON.stringify(formParams)), 
+isFocused: true 
 };
-Microsoft.Apm.createTab(tabInput).then((tabId)=>{
-    console.log("created tab with id " + tabId);
-}, (error)=>{
-    console.log(error);
-});
+
+Microsoft.Apm.createTab(tabInput);
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

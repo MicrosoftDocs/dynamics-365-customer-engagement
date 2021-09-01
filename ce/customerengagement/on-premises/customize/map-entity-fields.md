@@ -1,6 +1,6 @@
 ---
-title: "Map entity fields with Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
-description: "Learn how to map entity fields"
+title: "Create entity field mapping in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create field mapping between entities. This lets you set default values for a record that's created in the context of another record."
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ tags:
 search.audienceType: 
   - customizer
 ---
-# Map entity fields
+# Create or edit mapping between entity fields
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Map table columns](/powerapps/maker/data-platform/map-entity-fields)
 
@@ -60,7 +60,7 @@ search.audienceType:
 > [!NOTE]
 >  If you need to map option set fields, we recommend you configure both fields to use the same global option set. Otherwise, it can be difficult to keep two separate sets of options synchronized manually. If the integer values for each option aren’t mapped correctly you can introduce problems in your data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit global option sets](../customize/create-edit-global-option-sets.md)  
   
-#### Create or edit mapping between fields  
+#### Create or edit field mapping
   
 1. Open solution explorer. 
   

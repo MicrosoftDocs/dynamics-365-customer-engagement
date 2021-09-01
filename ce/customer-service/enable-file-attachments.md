@@ -21,7 +21,7 @@ If an agent transfers the conversation to another agent, the agent who receives 
 
 For more information about the agent and customer experience of using file attachments in chat, see [Configure file attachment](configure-file-attachment.md).
 
-For more information about which file types are supported in each channel, see [Asynchronous channel support](asynchronous-channels.md).
+For more information about which file types are supported in each channel, see [Asynchronous channel support](card-support-in-channels.md).
 
 ## File size limit and unsupported extensions (types) for attachments
 
@@ -62,13 +62,13 @@ Now, agents and customers can share file attachments during their conversation.
 
 ### See also
 
-[Asynchronous channel support](asynchronous-channels.md)<br>
-[Configure file attachment](configure-file-attachment.md)<br>
-[Configure a Facebook channel](configure-facebook-channel.md)<br>
-[Configure a Twitter channel](configure-twitter-channel.md)<br>
-[Configure a WhatsApp channel](configure-whatsapp-channel.md)<br>
-[Configure a WeChat channel](configure-wechat-channel.md)<br>
-[Configure a LINE channel](configure-line-channel.md)
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
+[Configure file attachments](configure-file-attachment.md)  
+[Configure a Facebook channel](configure-facebook-channel.md)  
+[Configure a Twitter channel](configure-twitter-channel.md)  
+[Configure a WhatsApp channel](configure-whatsapp-channel.md)  
+[Configure a WeChat channel](configure-wechat-channel.md)  
+[Configure a LINE channel](configure-line-channel.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

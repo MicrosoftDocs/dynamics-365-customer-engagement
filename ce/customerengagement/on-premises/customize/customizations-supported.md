@@ -1,6 +1,6 @@
 ---
-title: "Supported and unsupported customization with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn about what kinds of customizations are supported and what kind are not"
+title: "Unsupported customizations with Dynamics 365 Customer Engagement (on-premises)"
+description: "Microsoft supports only the APIs and methods that are documented in the SDK. This page provides a list of common customization practices that aren’t supported."
 ms.custom: 
 ms.date: 05/20/2019
 ms.reviewer: 
@@ -21,7 +21,7 @@ search.audienceType:
 
 ---
 
-# Supported and unsupported customization
+# Supported and unsupported customization practices
 
 Developers who extend Dynamics 365 Customer Engagement (on-premises) have a responsibility to follow rules and best practices documented in the SDK: [Best practices for developing with Dynamics 365 Customer Engagement (on-premises)](../developer/best-practices-sdk.md). The SDK documents the APIs available to developers and provides guidance about how to best use them. [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] supports only the APIs and practices that are documented in the SDK. You may find something on the Internet that describes how you can solve a problem, but if it doesn’t leverage APIs documented in the SDK, it isn’t supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Before you have a developer apply a change you should verify whether it uses supported methods.  
   

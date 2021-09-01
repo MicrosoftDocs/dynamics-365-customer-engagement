@@ -1,6 +1,6 @@
 ---
-title: "Preview Feature: Use the Azure Cosmos DB for SQL API Data Provider with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to configure the Azure Cosmos DB for SQL API Data Provider to use with virtual entities."
+title: "Configure Azure Cosmos DB in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about configuring the Azure Cosmos DB for SQL API Data Provider to use with virtual entities, as well as best practices and limitations."
 keywords: SQL API
 ms.date: 02/15/2019
 ms.prod: d365ce-op
@@ -23,7 +23,7 @@ search.audienceType:
 
 ---
 
-# Preview feature: Azure Cosmos DB SQL API Data Provider requirements
+# Azure Cosmos DB SQL API Data Provider requirements, configuration, and best practices
 
 
 

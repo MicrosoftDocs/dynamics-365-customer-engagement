@@ -1,6 +1,6 @@
 ---
-title: "About Unified Interface in Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Introducing the new Unified Interface."
+title: "Unified Interface in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how Unified Interface provides an optimal experience for any screen size, device, or orientation, then follow these steps to enable it."
 ms.prod: d365ce-op
 ms.custom: 
 ms.date: 03/29/2021
@@ -11,7 +11,7 @@ ms.topic: article
 author: mduelae
 ms.author: mkaur
 ---
-# About Unified Interface in Dynamics 365 Customer Engagement (on-premises) 
+# Unified Interface overview for Customer Engagement (on-premises)
 
 Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Unified Interface brings all the rich experiences to any client that you are using; whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. Some examples: 
 

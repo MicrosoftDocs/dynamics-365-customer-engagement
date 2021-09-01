@@ -1,6 +1,6 @@
 ---
-title: "Set personal options that affect tracking and synchronization between Customer Engagement (on-premises) and Outlook or Exchange | MicrosoftDocs"
-description: "Set personal options that affect tracking and synchronization between Customer Engagement (on-premises) and Outlook or Exchange."
+title: "Set personal tracking and syncing options in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use the Set Personal Options dialog box in Dynamics 365 Customer Engagement (on-premises) to set many options that affect tracking and synchronization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Set personal options that affect tracking and synchronization between Customer Engagement (on-premises) and Outlook or Exchange
+# Set personal options that affect tracking and synchronization with Outlook or Exchange
 
 You can use the **Set Personal Options** dialog box in Dynamics 365 Customer Engagement (on-premises) to set many options that affect tracking and synchronization.  
   

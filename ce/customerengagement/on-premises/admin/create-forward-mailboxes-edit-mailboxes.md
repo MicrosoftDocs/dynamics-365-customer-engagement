@@ -1,6 +1,6 @@
 ---
-title: "Create forward mailboxes or edit mailboxes  | MicrosoftDocs"
-description: "When you create queues in Dynamics 365 Customer Engagement (on-premises), respective mailbox records also get created."
+title: "Create new forward mailbox in Dynamics 365 Customer Engagement (on-premises)"
+description: "If your organization wants to configure server-side synchronization using a forward mailbox, follow these steps to create a new forward mailbox record."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Create forward mailboxes or edit mailboxes
+# Create a new forward mailbox or editing an existing mailbox record
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

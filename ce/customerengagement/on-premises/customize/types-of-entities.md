@@ -1,6 +1,6 @@
 ---
-title: "Types of entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Understand the different types of entities"
+title: "Types of entities in Dynamics 365 Customer Engagement (on-premises)"
+description: "Before creating or editing entities, get to know the different types. Entities are divided based on ownership and whether they're activity entities."
 ms.custom: 
 ms.date: 01/10/2019
 ms.reviewer: 

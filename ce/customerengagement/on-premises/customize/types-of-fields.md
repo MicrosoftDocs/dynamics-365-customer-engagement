@@ -1,6 +1,6 @@
 ---
-title: "Types of fields and field data types with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Understand the different field and data types available for your app"
+title: "Types of fields and field data in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about the difference between simple, calculated, and rollup fields. Field data can include lines of text, currency, dates and times, images and more."
 keywords: 
 ms.date: 04/29/2019
 ms.prod: d365ce-op
@@ -21,7 +21,7 @@ topic-status: Drafting
 search.audienceType: 
   - customizer
 ---
-# Types of fields and field data types
+# Types of fields and field data
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Types of columns](/powerapps/maker/data-platform/types-of-fields)
 
@@ -142,7 +142,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
 - A decimal field called **Exchange Rate** that provides the exchange rate for a selected currency associated with the entity with respect to the base currency. If this field is added to the form, people can see the value, but they can’t edit it. The exchange rate is stored with the currency.  
 
-  For each currency field you add, another currency field is added with the prefix “_Base” on the name. This field stores the calculation of the value of the currency field you added and the base currency. Again, if this field is added to the form, it can’t be edited.  
+  For each currency field you add, another currency field is added with the suffix “_Base” on the name. This field stores the calculation of the value of the currency field you added and the base currency. Again, if this field is added to the form, it can’t be edited.  
 
   When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.
   > [!NOTE]

@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/bring-your-own-channel-sample-html.md",
+      "redirect_url": "test-custom-channel-sample-html",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md",
       "redirect_url": "modify-case-resolution-dialog",
       "redirect_document_id": "false"
@@ -1928,6 +1933,11 @@
     {
       "source_path": "ce/field-service/create-inventory-adjustment.md",
       "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/install-sample-data-8-x.md",
+      "redirect_url": "user-guide",
       "redirect_document_id": "false"
     },
     {
@@ -8093,11 +8103,6 @@
     {
       "source_path": "ce/customerengagement/on-premises/developer/clientapi/events-forms-grids.md",
       "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/events-forms-grids",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customerengagement/on-premises/developer/clientapi/reference.md",
-      "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/reference",
       "redirect_document_id": "false"
     },
     {
@@ -21457,6 +21462,21 @@
     {
       "source_path": "ce/customer-service/understand-omnichannel-customer-service-hub.md",
       "redirect_url": "set-up-record-routing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/oc-productivity-pane.md",
+      "redirect_url": "productivity-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/asynchronous-channels.md",
+      "redirect_url": "card-support-in-channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/deal-manager-known-issues.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2171768",
       "redirect_document_id": false
     }
   ]

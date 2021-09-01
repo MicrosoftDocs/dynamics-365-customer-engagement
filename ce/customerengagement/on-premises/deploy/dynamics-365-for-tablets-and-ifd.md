@@ -1,5 +1,6 @@
 ---
 title: "Dynamics 365 for tablets and IFD | Microsoft Docs"
+description: Learn about using Dynamics 365 for tablets over the internet with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # Dynamics 365 for tablets and IFD
-
-
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on-premises deployments require Internet Facing Deployment (IFD) for users to access their data on their tablets. If you have your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website available over the internet but it is not using the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] IFD configuration, **it is not supported**.  To verify that your on-premises deployment is configured for IFD, open [!INCLUDE[pn_Deployment_Manager_long](../includes/pn-deployment-manager-long.md)] on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Server.  The Authentication Summary section should show that both Claims-Based Authentication and Internet-Facing Deployment are enabled.  
   

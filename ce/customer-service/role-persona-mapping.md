@@ -1,14 +1,16 @@
 ---
-title: "Role persona mapping | MicrosoftDocs"
-description: "Information about how security roles can be mapped to personas."
+title: "Roles and personas | MicrosoftDocs"
+description: "Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service."
 ms.date: 06/03/2021
 ms.topic: article
-author: meghanalanka
-ms.author: v-mlanka
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 
 # Add custom security roles in Customer Service
+
+## Introduction
 
 As part of unified routing you can enable the persona mapping settings. Persona mapping gives your organization the option to add custom security roles alongside existing Customer Service and Omnichannel for Customer Service roles. The admin, supervisor, and agent personas are user archetypes that security roles can map to. By mapping custom security roles to personas, you can fine-tune data access and security across users and business units.
 
@@ -77,7 +79,7 @@ Users with security roles mapped to personas do not get automatic access to asso
 
 Perform the following steps to ensure that access and privileges are provided to users.
 
-1. Create the required user role. More information: [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
+1. Create the required user role. More information: [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 
 2. Add and edit user permissions and privileges as required.
 
@@ -87,7 +89,7 @@ Perform the following steps to ensure that access and privileges are provided to
 
 5. Select **Manage roles**.
 
-6. In the dialog box that appears, select the custom role that you want to grant permission to and select **Save**.
+6. In the dialog that appears, select the custom role that you want to grant permission to and select **Save**.
 
 ## Enable access to forms and dashboards
 
@@ -105,10 +107,10 @@ To enable access to a form or dashboard, perform the following steps:
 
 6. Select the role that you want to provide access to, and select **OK**.
 
-
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Manage users for unified routing](users-user-profiles.md)  
+[Personas and privileges](persona-privilege-mapping.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]  

@@ -8,16 +8,16 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Deal manager (Preview)
+# Preview: Deal manager
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 > [!NOTE]
-> This feature will be rolled out in a phased manner across different regions, over the next few weeks.
+> This feature is being rolled out in a phased manner across different regions. To verify the feature availability in your region, see the **Next Refresh Scheduled Date** for version 9.0.21072.10001 in the [Latest version availability](/dynamics365/released-versions/dynamics365sales) section. 
 
-Deal manager is a dedicated workspace for sellers that can be personalized and customized depending on what sellers want to see in their workspace. Sellers can,
+The deal manager workspace is the new way to manage opportunities in Dynamics 365 Sales. It can be personalized and customized depending on what sellers want to see in their workspace. Sellers can,
 
 - Organize opportunities in a way that works for them
 - Personalize their views

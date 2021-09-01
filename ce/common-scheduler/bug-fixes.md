@@ -1,6 +1,6 @@
 ---
-title: "Bug fixes for Universal Resource Scheduling | MicrosoftDocs"
-description: See a list of bug fixes for Universal Resource Scheduling
+title: "Bug fixes for Universal Resource Scheduling"
+  description: "See this article to find a list of fixes related to known bugs within Universal Resource Scheduling."
 ms.date: 05/18/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
