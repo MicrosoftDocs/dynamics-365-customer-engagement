@@ -35,10 +35,10 @@ To see details of a specific meeting, tap the meeting record on either the home 
 
 Meeting details include the following:
 
-1. [Meeting information and attendees](#meeting-information-and-attendees)   
-2. [Regarding entity, notes, and reminders](#regarding-entity-notes-and-reminders)
+1. [Meeting information and participants](#meeting-information-and-participants)   
+2. [Related content](#related-content)
 
-### Meeting information and attendees
+### Meeting information and participants
 
 >[!NOTE]
 > The data that is displayed in this section is retrieved from your Microsoft Exchange server.
@@ -47,28 +47,30 @@ Meeting details include the following:
 
 The meeting information section provides information about the meeting subject, location, time, and description. Tap the description section to show more details. Note that the meeting information can be viewed but cannot be edited in the app.
 
-**Attendees**
+**Participants**
 
-Up to five meeting attendees are shown in the Attendees section, such as customers and the meeting organizer. You can see attendee acceptance status, such as accepted, tentative, declined, or no response. When you tap the name of an attendee, the quick view of their contact record opens. You can perform the following actions on the contact: view, edit, and create. More information: [Manage contacts](create-contact.md)            
+Up to five meeting participants are shown in the **Participants** section, such as customers and the meeting organizer. You can see attendee acceptance status, such as accepted, tentative, declined, or no response. When you tap the name of an attendee, the quick view of their contact record opens. You can perform the following actions on the contact: view, edit, and create. More information: [Manage contacts](create-contact.md)            
 
-### Regarding entity, notes, and reminders
+### Related content
 
->[!NOTE]
+This section displays information relevant to the meeting such as regarding entity and appointment.
+
+> [!NOTE]
 > The data that is displayed is related to the selected regarding entity and retrieved from your Dynamics 365 Sales organization.
 
 #### Regarding entity
 
 The Regarding section or entity specifies what the meeting is about, such as an opportunity, lead, contact, or account. When a meeting is attached to an entity, the meeting displays the timeline, insight, participant information, and corresponding related entities. Also, the regarding entity helps you to understand what the meeting is about, so you can come prepared with relevant information.
 
-In the following screenshot, you can see that the meeting is about an opportunity to purchase 10,000 cars.
+In the following screenshot, you can see that the meeting is about an opportunity to purchase hybrid model cars.
 
-> [!div class="mx-imgBorder"]
-> ![View regarding entity.](media/sm-view-regarding-entity.png "View regarding entity")
+![View regarding entity.](media/sm-view-regarding-entity.png "View regarding entity")
 
-You can perform the following action on regarding entities: [view and edit](open-record.md) the records along with [change regarding entity in meetings](#change-regarding-entity) and [add regarding entity in meetings](#add-regarding-entity).    
+You can perform the following action on regarding entities: [view and edit](open-record.md) the records along with [change regarding entity in meetings](#change-regarding-entity) and [add regarding entity in meetings](#add-regarding-entity). You can also [disconnect the regarding entity](#disconnect-regarding-entity) when it is no longer relevant to the current meeting.
 
 > [!NOTE]
-> You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.
+> - You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.
+> - Ensure that the email address is approved. If the email address is not approved, you'll not be able to add a regarding entity to meetings. More information on how to approve email: [Approve mailboxes](https://docs.microsoft.com/en-us/power-platform/admin/connect-exchange-online#approve-mailboxes). If you are not able to add a regarding entity to meetings even after approving the email, uninstall and reinstall the app.
 
 **Change regarding entity in meetings**<a name='change-regarding-entity'></a>
 
@@ -76,18 +78,15 @@ You can update the regarding entity when it is no longer relevant or there are c
 
 1. Tap the three dots, **More options** (![Options button.](media/sm-options-button.png "Options button")), and then tap **Change connected record**.
 
-    >[!div class="mx-imgBorder"]
-    >![Select change connected record option.](media/sm-select-change-connected-record.png "Select change connected record option")
+    ![Select change connected record option.](media/sm-select-change-connected-record.png "Select change connected record option")
     
-2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.
+2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.
 
-    >[!div class="mx-imgBorder"]
-    >![Find a record to connect.](media/sm-regarding-record.png "Find for a record to connect")
+    ![Find a record to connect.](media/sm-change-regarding-record.png "Find for a record to connect")
     
 3. After selecting a record, tap **Save**.
 
-    >[!div class="mx-imgBorder"]
-    >![Select and save a record to connect.](media/sm-select-regarding-record.png "Select and save a record to connect")
+    ![Select and save a record to connect.](media/sm-new-regarding-record.png "Select and save a record to connect")
     
 The connected record details are displayed in the Regarding section.
 
@@ -95,33 +94,38 @@ The connected record details are displayed in the Regarding section.
 
 You can add a regarding entity to a meeting when no regarding entity is attached to it. When you add the regarding entity, its corresponding related entities are also added to the meeting.  
 
->[!NOTE]  
->Once you add a regarding entity, you cannot delete it. However, you can update the entity if you find that the added entity is inappropriate.   
+> [!NOTE]  
+> Once you add a regarding entity, you cannot delete it. However, you can update the entity if you find that the added entity is inappropriate.   
 
-1. On the meeting details page, tap **Set regarding**.
+1. On the meeting details page, tap **Connect a record**.
 
-    >[!div class="mx-imgBorder"]
-    >![Connect a record to a meeting.](media/sm-meeting-details-no-record.png "Connect a record to a meeting")
+    ![Connect a record to a meeting.](media/sm-meeting-details-no-record.png "Connect a record to a meeting")
     
-2. On the Regarding page, either select a recent record or tap **Search** to look for the record you want.
+2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.
 
-    >[!div class="mx-imgBorder"]
-    >![Find a record to connect.](media/sm-regarding-record.png "Find for a record to connect")
+    ![Find a record to connect.](media/sm-regarding-record.png "Find for a record to connect")
     
 3. After selecting a record, tap **Save**.
 
-    >[!div class="mx-imgBorder"]
-    >![Select and save a record to connect.](media/sm-select-regarding-record.png "Select and save a record to connect")
+    ![Select and save a record to connect.](media/sm-select-regarding-record.png "Select and save a record to connect")
     
-The connected record details are displayed in the Regarding section.
+The connected record is displayed in the **Regarding** section.
 
-**Notes**    
+**Disconnect regarding entity**<a name='disconnect-regarding-entity'></a>
 
-The Notes section for a meeting can be used to add notes related to a meeting, such as minutes from the meeting. You can add, edit, and delete notes. More information: [Manage notes](view-edit-add-note.md)
+You can disconnect the regarding entity when it is no longer relevant to the current meeting.
 
-**Reminders** 
+- Tap the three dots, **More options** (![Options button.](media/sm-options-button.png "Options button")), and then tap **Disconnect record**.
 
-Any reminders and insights related to the meeting are displayed in the Reminders section. For each card, you can tap the three dots on the left, **More options** (![Options button](media/sm-options-button.png "Options button")), to dismiss, snooze, and like or dislike the card. More information: [Notes and reminders](open-record.md#notes-and-reminders)
+    ![Disconnect a record from a meeting.](media/sm-disconnect-record.png "Disconnect a record from a meeting")
+
+The record is disconnected from the meeting, and the **Connect a record** button is displayed.
+
+**Notes and reminders**    
+
+Notes and reminders are displayed within the corresponding connected record. [View details](open-record.md#view-details) of the record to see notes and reminders.
+
+To view only the notes attached to the connected record, tap ![View notes on the connected record.](media/view-notes.png "View notes on the connected record") on the connected record card.
 
 ### See also   
 
