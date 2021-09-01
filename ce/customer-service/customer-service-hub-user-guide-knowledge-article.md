@@ -254,7 +254,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 This is an indicative preview. Content rendered can be different in the actual device or screen.
 
 > [!NOTE]
->While authoring a knowledge article in the Content editor panel if you add anchor links, you won't be able to test the links in the Designer or the Preview mode. However, once the article is published the anchor links work as expected.
+>While authoring a knowledge article in the Content field if you add anchor links, you won't be able to test the links in the Designer or the Preview mode. However, once the article is published the anchor links work as expected.
 
 
 
