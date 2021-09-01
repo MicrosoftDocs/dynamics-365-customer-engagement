@@ -10,7 +10,6 @@ ms.topic: article
 
 # Automate tasks with macros 
 
-
 ## Overview of macros
 
 In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greet a customer, verify a customer, send acknowledgment mail, and take notes. These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
@@ -241,7 +240,7 @@ This action is used to get the details of the current tab in Omnichannel for Cus
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
 > [!NOTE]
-> Macro actions for the Omnichannel connector can't be used in Customer Service workspace.
+> Macro actions for the Omnichannel connector is available if Omnichannel for Customer Service is installed.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions for Omnichannel connector.](../customer-service/media/macro-omnichannel-connector.png "Macro actions Omnichannel connector")

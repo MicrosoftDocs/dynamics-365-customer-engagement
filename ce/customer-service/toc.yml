@@ -258,8 +258,10 @@
           href: users-user-profiles.md
         - name: Manage capacity profiles
           href: capacity-profiles.md
-        - name: Role persona mapping
+        - name: Roles and personas
           href: role-persona-mapping.md
+        - name: Personas and privileges
+          href: persona-privilege-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
     - name: Agent experience
@@ -418,7 +420,7 @@
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
-      - name: Search for knowledge articles on smart assist
+      - name: Search for and share knowledge articles
         href: oc-search-knowledge-articles.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
@@ -660,6 +662,8 @@
         href: create-quick-replies.md
       - name: Enable personal quick replies
         href: enable-personal-quick-replies.md
+      - name: Enable transcripts
+        href: enable-transcripts-messaging-channels.md
       - name: Enable consult pane for agents
         href: enable-consult.md  
       - name: Enable sound notifications
