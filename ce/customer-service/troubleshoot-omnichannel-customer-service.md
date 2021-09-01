@@ -1,13 +1,13 @@
 ---
-title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-ms.date: 06/29/2021
+title: "Troubleshoot issues in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Use this topic to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
+ms.date: 09/01/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# Troubleshoot Omnichannel for Customer Service
+# Troubleshoot issues in Omnichannel for Customer Service
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -23,7 +23,7 @@ For security, reliability, and performance reasons, Omnichannel for Customer Ser
 
 ### Resolution
 
-Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Select the region in the upper-right corner and select a new region from the drop-down list.
+Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Select the region in the upper-right corner and select a new region from the dropdown list.
 
    > [!div class=mx-imgBorder]
    > ![Power Platform admin center change region.](media/oc-region-menu.png "Power Platform admin center change region")
@@ -371,7 +371,7 @@ A message stating **Sorry, we're not able to serve you at the moment** is shown 
 
 As an administrator, make sure of the following:
 
-- Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichanne admin center](queues-omnichannel.md#create-a-queue-for-unified-routing)
+- Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichannel admin center](queues-omnichannel.md#create-a-queue-for-unified-routing)
 
 - For the associated workstream, check that the **Allowed Presence** option has values in the **Work distribution** area. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
@@ -592,7 +592,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 - To sync the configurations, remove the channel and roles, add them again and save the record.
 
    1. Sign in to the Dynamics 365 apps.
-   2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
+   2. Select the dropdown button on Dynamics 365 and select **Channel Integration Framework**.
    3. Select the **Omnichannel** record from the list.
    4. Remove **Omnichannel for Customer Service** from the **Select Unified Interface Apps for the Channel** section.
    5. Add **Omnichannel for Customer Service** again in the **Select Unified Interface Apps for the Channel** section.
@@ -690,6 +690,31 @@ Conversation widget becomes blank while swapping between browser tabs in Google 
 
 Upgrade your browser version as per the system requirements of Dynamics 365 Channel Integration Framework version 2.0. To learn more, see [System requirements](channel-integration-framework/v2/system-requirements-channel-integration-framework-v2.md).
 
+## After Omnichannel for Customer Service is provisioned, I get an authentication error on the agent dashboard. <a name="provision"></a>
 
+### Issue
 
+The following error message is displayed on the agent dashboard after I provision Omnichannel for Customer Service.
+
+**Something went wrong while authenticating—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.**
+
+### Resolution
+
+The issue occurs when you rename the org URL but don’t update the channel URL after you've provisioned Omnichannel for Customer Service. 
+
+1. Go to [https://make.powerapps.com](https://make.powerapps.com).
+
+2. On the left pane, select **Apps**, and then from the applications list, select **Omnichannel for Customer Service**. 
+3. Select the ellipsis (...) button, scroll down the list, and select **App profile manager**.
+
+4. Select the administrator app (either Customer Service workspace or Omnichannel Administration), and then select **Channel provider**.
+   The Active Channel Providers list is displayed.
+
+5. Do the following:
+    - Make sure that the omnichannel channel provider record is listed and is in the active state. 
+     If the omnichannel record is not active, select the record, and then select **Activate** on the menu bar.
+    - On the **General** tab of the omnichannel record, make sure that the **Channel URL** field includes the org information as shown in the following example: <br>
+   `https://oc-cdn-ocprod.azureedge.net/convcontrol/ChatControl.htm?uci=true&clientName=zfp&cloudType=Public&env=prod&ocBaseUrl=https://org749544d7-crm.omnichannelengagementhub.com&ucilib=https:// <org>.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`
+
+ 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
