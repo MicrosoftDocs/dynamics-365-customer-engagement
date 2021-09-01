@@ -713,8 +713,8 @@ The issue occurs when you rename the org URL but don’t update the channel URL 
 5. Do the following:
     - Make sure that the omnichannel channel provider record is listed and is in the Active state. 
      If the omnichannel record is not active, select the record, and then select **Activate** on the menu bar.
-    - In the **General** tab of the omnichannel record, make sure that **Channel URL** field includes the org info as shown in the following example: <br>
-   `https://oc-cdn-ocprod.azureedge.net/convcontrol/ChatControl.htm?uci=true&clientName=zfp&cloudType=Public&env=prod&ocBaseUrl=https://org749544d7-crm.omnichannelengagementhub.com&ucilib=https://  <org>.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`
+    - In the **General** tab of the omnichannel record, make sure that **Channel URL** field includes the org information as shown in the following example: <br>
+   `https://oc-cdn-ocprod.azureedge.net/convcontrol/ChatControl.htm?uci=true&clientName=zfp&cloudType=Public&env=prod&ocBaseUrl=https://org749544d7-crm.omnichannelengagementhub.com&ucilib=https:// <org>.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`
 
  
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
