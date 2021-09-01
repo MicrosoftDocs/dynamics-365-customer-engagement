@@ -1,14 +1,15 @@
 ---  
-title: "Trial FAQ - Sales Enterprise"
+title: "Trial FAQ - Dynamics 365 Sales Enterprise | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Sales trial signup and management. Learn how to resolve platform and app-specific issues."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 06/30/2021
-ms.topic: article
+ms.date: 08/31/2021
+ms.topic: get-started
 ms.service: dynamics-365-sales
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
+
 # Dynamics 365 Sales trial FAQ
 
 The Sales trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.

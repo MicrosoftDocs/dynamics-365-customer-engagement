@@ -1,12 +1,12 @@
 ---  
-title: "Sign up for a free trial - Sales Enterprise | MicrosoftDocs"
+title: "Sign up for a free trial - Dynamics 365 Sales Enterprise | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Sales trial. Explore the app with tours and videos, and find more learning resources."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 08/03/2021
+ms.date: 08/31/2021
 ms.topic: get-started
 ms.service: dynamics-365-sales
-ms.custom: template-get-started
+ms.custom: template-trial-setup
 ms.reviewer: shujoshi
 ---
 
