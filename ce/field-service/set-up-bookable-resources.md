@@ -125,7 +125,11 @@ Select **+New** > **Working hours**.
 
 Choosing the beginning and end time of working hours, along with a repeat option such as "every day."
 
-Then **Save**.
+**Capacity** is the number of times the Resource can be booked during that specific work hour. For example, Setting the capacity to 5 means that when booking a Resource with the schedule assistant, the resource will show as available and can be over-booked up to the capacity limit (in this case, 5 times). It is always set to 1 by default. If this setting is set to zero, the resource will never be shown as available in a resource search. 
+
+**Add break** splits each working hours entry and adds a break of 30 mins. **Add split** splits each working hours entry evenly into two working hours entries, so that each split entry can have a different capacity. The **Add split** option can only be seen on UI when the **Capacity** button is enabled. 
+
+Once the working hours are entered as needed, Then hit **Save**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the working hours, with emphasis on the repeat feature.](./media/resource-work-hours-new-hours.png)
