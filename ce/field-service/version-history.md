@@ -58,6 +58,12 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.51.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312511)).
 
+- Corrected an issue where inactive service tasks could still be created as work order service tasks when generating a work order from an agreement booking setup which had an incident type referencing the inactive service task type.
+- Resolved a potential null reference error related to work order service tasks which do not have a value in the inspection lookup which could block the creation of the Work Order Service Task.
+- Fixed an issue with potentially inconsistent values in the **Total Amount** field of a work order service.
+- Improved unclear error messaging on work orders.
+- Resolved an issue where, if a work order product or work order service was reparented between work orders, the impacted work orders' **Estimated Subtotal Amount** was not accurately recalculated.
+
 ## 8.8.51.114 (2021 Wave 2 early access, update 1)
 
 This release is an update to Field Service 2021 Wave 2 early access version [8.8.51.75](/dynamics365/field-service/version-history#885175).
