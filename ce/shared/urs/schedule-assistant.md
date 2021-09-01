@@ -165,7 +165,7 @@ The time zone value is derived from the time zone on the requirement being sched
 The requirement time zone is derived from the following values in the following order:
 
 1. The time zone of the work hours template noted on both the requirement and the related work order, if applicable.
-2. The time zone of the user that created the requirement (the owner). If the owner is changed, the time zone is not changed. The user's time zone is defined in **Personalization Settings**.
+2. The time zone of the user, defined in **Personalization Settings**, that created the requirement.  
 3. The time zone of the default schedule board tab of the system.
 
 ### Resource requirment deletion
