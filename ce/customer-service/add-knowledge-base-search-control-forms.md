@@ -196,11 +196,11 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 
    ![New section in subgrid view.](media\Knowledge-control-subgridview.png "Knowledge control subgrid view")
 
-The linked knowledge article subgrid that you added will be visible to the customer service representative on the entity form during runtime.
+The linked knowledge article subgrid that you add will be visible to the customer service representative on the entity form during runtime.
 
-You can see the Knowledge Search tab, available out of the box, in the app side pane. However, at any point in time, you can use the knowledge search control either on the app side pane or embedded in the form.
+The Knowledge Search tab is available by default on the app side pane.
+You can use the knowledge search control either on the app side pane or embed it in the form through customization but make sure that you don't enable both simultaneously. Otherwise, when you try to access the embedded control, the "Error loading the control" message will appear.
 
-This is because opening knowledge search control  simultaneously in the app side pane and in the form displays an error message, **Error loading the control**. You must either turn off the Knowledge Search tab in the app side pane by going to app profile, or remove the knowledge search control from the form.
 
 
 ### See also
