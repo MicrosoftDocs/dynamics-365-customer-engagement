@@ -1,6 +1,6 @@
 ---
-title: "Create or edit a view in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit a view"
+title: "Create a view in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to create or edit custom public views. You can also create a new view by editing an existing one and saving it with a different name."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 

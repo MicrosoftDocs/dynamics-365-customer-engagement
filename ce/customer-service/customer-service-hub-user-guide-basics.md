@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 10/05/2020
+ms.date: 08/23/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -260,19 +260,19 @@ In Dynamics 365 Customer Service, the following activities are supported:
 - Social Activity
 
 > [!NOTE]
-> You can create and edit emails in the Customer Service Hub app on a desktop browser. However, on a mobile device email is read-only in the Hub app.
+> You can create and edit emails in the Customer Service Hub app on a desktop browser. However, on a mobile device, email is read only on the app.
 
 #### Open Activities view
 
-In the Customer Service Hub site map, select **Service** > **Activities**. The **My Activities** view is displayed. 
+In the Customer Service Hub site map, select **Service** > **Activities**. The **My Activities** view is displayed.
 
 ![activities-email.](media/activities-csh-email.png "Activities view")
 
 - Select ![quick-create-activity.](media/quick-create-button.png) in the nav bar to go to **Activities** to quickly add a new activity.
 
-- Select the **My Activities** drop-down to switch between activity views.
+- Select **My Activities** to switch between activity views.
 
-- Select the  **Due** drop-down to see the list of activities that are due in coming time or are already overdue.
+- Select **Due** to see the list of activities that are due in coming time or are already overdue.
 
 - Explore the command bar options to create a new activity like new **Task**, **Email**, **Appointment**, or **Phone call**.
   
@@ -280,8 +280,7 @@ In the Customer Service Hub site map, select **Service** > **Activities**. The *
   
 - Select **...** in the command bar and go to **Open Dashboards** to directly open activity dashboard.
 
-- To view the status of an activity, click the activity record and see bottom-left in the activity form. 
-
+- To view the status of an activity, select the activity record. The status is displayed in the bottom left corner of the activity form.
 
 ### Insert a knowledge article into an email
 
@@ -300,19 +299,22 @@ You can insert a knowledge article in an email in Dynamics 365 Customer Engageme
 
    A list of available articles will be displayed. You can select an article in the search results to view it in the preview pane.
   
-3. When you have found the article you want to include, do one of the following : 
+3. When you have found the article you want to include, do one of the following :
 
    - To insert an article into the email, select the **Insert content** icon for the article in the search results or in the article preview pane, select **Insert article content** at the top of the pane. This will insert the content into the body of your email and close the **Select knowledge article to insert** page.
    
-   > [!div class="mx-imgBorder"]
-  > ![Insert content into email.](media/email-knowledge-article-insert-content.png "Insert an article into email by selecting either the Insert content icon from the search results or Insert article content from the preview pane") 
-   
-   -OR-
+      > [!div class="mx-imgBorder"]
+      > ![Insert content into email.](media/email-knowledge-article-insert-content.png "Insert an article into email by selecting either the Insert content icon from the search results or Insert article content from the preview pane")
+
+    >[!NOTE]
+    >
+    > - To insert a knowledge article into a field that is enabled for using the rich text editor options, you must first configure the custom rich text editor for the field. For more information on this configuration, see  [Customize the email experience](customer-service-hub-user-guide-email-font-admin.md).
+    > - If you add more than one field, and then select **Insert Knowledge Article**, by default, the knowledge article gets inserted into the first field in the form.
 
   - If your administrator has set up an external portal that supports a URL format, you can include a link. For more information, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md). To insert an article as a link in the email, select the **URL** icon for the article in the search results or in the article preview pane, select **Insert URL** at the top of the pane. This will insert a link to the article into the body of your email and close the **Select knowledge article to insert** page. 
    
-  > [!div class="mx-imgBorder"]
-  > ![Insert a link to the content into email.](media/email-knowledge-article-insert-url.png "Insert a link to an article into an emaill by selecting either the Insert URL icon from the search results or Insert URL at the top of the preview pane") 
+      > [!div class="mx-imgBorder"]
+      > ![Insert a link to the content into email.](media/email-knowledge-article-insert-url.png "Insert a link to an article into an emaill by selecting either the Insert URL icon from the search results or Insert URL at the top of the preview pane") 
 
 
 ## Create and Manage Queues

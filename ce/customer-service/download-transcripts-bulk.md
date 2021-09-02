@@ -1,6 +1,6 @@
 ---
 title: "Download Omnichannel for Customer Service transcripts in bulk | MicrosoftDocs"
-description: "Learn about transcripts and how to download them in bulk"
+description: "Learn about transcripts in Omnichannel for Customer Service and how to download them in bulk using Web API requests."
 ms.date: 02/10/2021
 ms.topic: reference
 author: mh-jaya
@@ -13,11 +13,11 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service transcripts are stored in base64 encoded format in the annotations table in Microsoft Dataverse. Attachments are stored as separate records in the annotations table. If a conversation has two files exchanged between the agent and the customer, a total of three records are created pertaining to this conversation. Any conversation always has n+1 records stored for it in the annotations table, where n is the number of attachments the conversation has. Attachments are also base64 encoded before being saved.
+Omnichannel for Customer Service transcripts are stored in base64 encoded format in the annotations table in Microsoft Dataverse. Attachments are stored as separate records in the annotations table. If a conversation has two files exchanged between the agent and the customer, a total of three records are created related to this conversation. Any conversation always has n+1 records stored for it in the annotations table, where n is the number of attachments in the conversation. Attachments are also base64 encoded before being saved.
 
 The option to download transcripts in bulk is not available out of the box. You can use the following Web API requests to retrieve all the transcripts and attachments exchanged in the past one month.
 
-The following Web API request will retrieve all the textual transcripts.
+The following Web API request retrieves all the textual transcripts:
 
 ```http
 GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_transcript'
@@ -25,7 +25,7 @@ Accept: application/json
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```
-The following Web API request will retrieve all the file attachment annotations.
+The following Web API request retrieves all the file attachment annotations:
 
 ```http
 GET [Organization URI]/api/data/v9.1/annotations?$filter=objecttypecode eq 'msdyn_ocliveworkitem'
@@ -33,6 +33,7 @@ Accept: application/json
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```
+
 The `documentBody` attribute in the response obtained from each of the web API requests contains the base64 encoded transcript or attachment.
 
 > ![Sample documentBody.](media/document-body.png "Sample documentBody")
@@ -41,17 +42,17 @@ You can call the APIs using C# code and then iterate over each of the returned r
 
 ## Structure of the JSON transcript
 
-The transcripts you see in the link can contain different kinds of messages:
-- Control Messages
-- System Messages
-- Text message (for example, Hi, Hello, and How are you)
-- File Attachment metadata
+The transcripts you see in the link can contain different types of messages:
+- Control messages
+- System messages
+- Text messages (for example, Hi, Hello, and How are you)
+- File attachment metadata
 
-On each of these types of messages you can see a `createdDateTime` field that denotes the exact time at which this message was posted or created.
+On each of these types of messages, you can see a `createdDateTime` field that denotes the exact time at which this message was posted or created.
 
-A control message is of no visual value and indicates an event like agent joined or left conversation. It usually has a flag called `isControlMessage` set to `true`.
+A control message is of no visual value and indicates an event like agent joined or left the conversation. It usually has a flag called `isControlMessage` set to `true`.
 
-```
+```http
 {
     "content": "<addmember><eventtime>1589863236124</eventtime><initiator>28:bc81db89-c4d7-4763-91fe-086fcc2e6daf</initiator><rosterVersion>1589863235629</rosterVersion><lastRosterVersion>1589801089959</lastRosterVersion><target>8:orgid:04fd615d-586d-4866-9791-b24c5f7a9e78</target></addmember>",
     "contentType": "text",
@@ -69,9 +70,9 @@ A control message is of no visual value and indicates an event like agent joined
     "from": null
 },
 ```
-A System message is a special kind of message that is shown to the customer regarding events during the conversations. For example, when an agent joins, when an agent disconnects, and when a new agent joins.
+A system message is a special type of message that's shown to the customer regarding events during the conversations. For example, when an agent joins, when an agent disconnects, and when a new agent joins.
 
-```
+```http
 {
 	"content": "Alan Steiner has left the conversation.",
 	"contentType": "text",
@@ -103,9 +104,9 @@ A System message is a special kind of message that is shown to the customer rega
 },
 ```
 
-Text messages exchanged during the chat between agent and customer appear as follows.
+Text messages exchanged during the chat between agent and customer appear as follows:
 
-```
+```http
 {
 	"content": "I am using product A",
 	"contentType": "text",
@@ -138,11 +139,11 @@ Text messages exchanged during the chat between agent and customer appear as fol
 },
 ```
 
-As seen in the preceding code, messages sent by the customer have a display name "Customer" in case of an unidentified customer or their actual name if they are known to Omnichannel for Customer Service.
+As seen in the preceding code, messages sent by the customer have a display name "Customer" in case of an unidentified customer or their actual name if they're known to Omnichannel for Customer Service.
 
-For the message that is sent by an agent to a customer, there are tags denoting that it is a “public” message sent by the agent. If the tags contain “private”, then they are internal messages exchanged between two agents and are not exposed to the customer.
+For the message that's sent by an agent to a customer, there are tags denoting that it's a “public” message sent by the agent. If the tags contain “private”, then they're internal messages exchanged between two agents and are not visible to the customer.
 
-```
+```http
 {
 	"content": "Great! Just give me a moment. \\nWhich product are you using currently?",
 	"contentType": "text",
@@ -174,9 +175,9 @@ For the message that is sent by an agent to a customer, there are tags denoting 
 	"deliveryMode": "unbridged"
 },
 ```
-A `FileAttachment` message looks like the following snippet in the JSON.
+A `FileAttachment` message looks like the following snippet in the JSON:
 
-```
+```http
 {
     "content": "",
     "contentType": "text",
@@ -217,7 +218,7 @@ A `FileAttachment` message looks like the following snippet in the JSON.
     "deliveryMode": "bridged"
   },
 ```
-It usually has metadata related to the attachments exchanged during the chat. The `annotationid` is the key to the base64 encoded record in Annotations table for that file attachment. You can retrieve the record using the following Web API request. The Web API request will give you the base64 encoded Attachment that you can decode and use the way you want.
+It usually has metadata related to the attachments exchanged during the chat. The `annotationid` is the key to the base64 encoded record in Annotations table for that file attachment. You can retrieve the record using the following Web API request. The Web API request gives you the base64 encoded attachment that you can decode and use the way you want.
 
 ```http
 GET [Organization URI]/api/data/v9.1/annotations(<annotationid>)

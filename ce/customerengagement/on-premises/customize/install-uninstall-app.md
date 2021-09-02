@@ -1,6 +1,6 @@
 ---
-title: "Install or uninstall a custom business app | MicrosoftDocs"
-description: "Learn how to install or uninstall a custom business app"
+title: "Import or delete an app with Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to package one or more apps in a solution and import them into other environments. You can also delete an app that you no longer need."
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Install or uninstall an app
+# Import or delete an app
 
 
 

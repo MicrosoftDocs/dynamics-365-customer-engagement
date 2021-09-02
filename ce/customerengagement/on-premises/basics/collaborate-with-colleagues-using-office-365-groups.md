@@ -2,7 +2,7 @@
 title: "Collaborate using Office 365 Groups in Dynamics 365 Customer Engagement (on-premises)"
 description: "Office 365 Groups allow team members to collaborate to get stuff done. Learn how to create or join a group, start a conversation, share files, and more."
 ms.custom:
-ms.date: 05/05/2020
+ms.date: 08/26/2021
 ms.reviewer: 
 ms.prod: d365ce-op
 ms.suite: 
@@ -20,6 +20,11 @@ search.audienceType:
 
 ---
 # Collaborate with your colleagues using Microsoft 365 Groups
+
+> [!NOTE]
+> Effective February 2022, support for Microsoft 365 Groups (previously known as Office Groups) and Yammer in Dynamics 365 will be deprecated. This will impact customers who use Microsoft 365 Groups and/or Yammer for collaboration in Dynamics 365. We recommend that customers transition to Microsoft Teams for more advanced collaboration functionalities. For information about integrating Dynamics 365 with Teams, see [Integrate customer engagement apps in Dynamics 365 with Microsoft Teams](/dynamics365/teams-integration/teams-integration).
+> 
+> If you've questions about the deprecation, contact your Microsoft Customer Service representative or Microsoft Partner.
 
 [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] are a shared workspace for email, conversations, files, and events where group members can collectively get stuff done.  
   

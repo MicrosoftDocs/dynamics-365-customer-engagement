@@ -21468,6 +21468,16 @@
       "source_path": "ce/customer-service/oc-productivity-pane.md",
       "redirect_url": "productivity-pane",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/asynchronous-channels.md",
+      "redirect_url": "card-support-in-channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/deal-manager-known-issues.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2171768",
+      "redirect_document_id": false
     }
   ]
 }

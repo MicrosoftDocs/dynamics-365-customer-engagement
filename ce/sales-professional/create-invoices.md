@@ -7,9 +7,8 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
   - D365-Entity-salesorder
-  - D365-Entity-invoice
   - D365-UI-*
   - Dynamics 365
   - Sales
