@@ -38,7 +38,7 @@ The following table contains the list of variables in Omnichannel for Customer S
 | Case | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation. |Parse the JSON to extract the record ID.| Parse the JSON to extract the record ID.|
 |||||
 
-### Parse JSON for context variable
+### Parse JSON to use custom context variables
 
 Use the schema mentioned in this section to parse the JSON to use custom context variables.
 
