@@ -50,7 +50,7 @@ To view the rich analytics and insights for your organization, you must enable *
 
 3. Under **Summary**, set the **Status** toggle to **Enabled**. This enables data to be synced to Azure from Microsoft Dataverse, and provides rich analytics and insights on the data that are visualized in the Power BI report. It takes 24 hours for the reports to be provisioned for the first time. Subsequently, the reports are refreshed on a 24-hour schedule.
 
-  > ![Enable historical analytics for voice.](media/voice-enable-historical-analytics.png)
+  > ![Enable historical analytics for voice.](media/voice-channel-insights.png)
 
 ## View Omnichannel historical analytics dashboard for voice
 
@@ -63,7 +63,7 @@ To access the report, in the Omnichannel for Customer Service app, on the **Home
 The following report is displayed.
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel historical analytics for voice channel.](./media/voice-historical-agent-drill-down.png.png "Omnichannel historical analytics for voice channel.")
+> ![Omnichannel historical analytics for voice channel.](./media/voice-channel-agent-drill-down.png "Omnichannel historical analytics for voice channel.")
 
 Omnichannel historical analytics reports provide comprehensive information on how overall support is performing across channels. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
 
@@ -84,6 +84,8 @@ Omnichannel historical analytics reports provide comprehensive information on ho
 
 
 This report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
+
+ ![Access Voice channel conversation report.](media/voice-channel-conversation-report.png "Access Voice channel conversation report")
 
 | Metric  | Definition  |
 |----------------|------------|
