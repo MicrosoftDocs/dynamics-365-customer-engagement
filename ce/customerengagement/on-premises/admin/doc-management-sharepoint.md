@@ -1,6 +1,6 @@
 ---
-title: "Document management with SharePoint | Microsoft Docs"
-description: "Dynamics 365 for Customer Engagement apps document management with SharePoint lets users manage common document type."
+title: "Manage documents with SharePoint in Dynamics 365 Customer Engagement apps"
+description: "Configure SharePoint with Customer Engagement apps to create folders and manage common document types such as Word, Excel, OneNote, and PowerPoint."
 ms.custom: ""
 ms.date: "05/29/2019"
 ms.prod: d365ce-op
@@ -17,7 +17,7 @@ author: Mattp123
 manager: kvivek
 ---
 
-# Document management with SharePoint
+# Manage documents in Customer Engagement apps with SharePoint
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
