@@ -54,8 +54,7 @@ The Field Service Settings page allows system administrators to set default sett
 |  Default Crew Strategy  |   Select the strategy that will be applied, by default, to any crews created in the system. Upon install, this field is set to "Crew Leader Management." While this setting does apply a default value, this value can be managed independently for each crew.  |
 |  Schedule assistant  |  Choose default options for the schedule assistant.   |
 |  Auto filter service territory  |  Select whether the schedule assistant should automatically filter search results based on the work order territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)    |
-|  Default radius value    |   Select a default radius the schedule assistant will use when searching for resources for  work orders. For example, if you choose a 20 mile radius, then the schedule assistant will find resources within 20 miles of the work order  booking location.   |
-|  Default radius unit     |    Select miles or kilometers.      |
+
 
   
 ## Schedule board settings  
@@ -151,7 +150,6 @@ The Field Service Settings page allows system administrators to set default sett
   
 |   Options  |      Description     |
 |------------|----------------------|
-|  Bing API key   | The default key allows geocode and mapping functionality. If you need to use your own  key, specify it here.    |
 |  Entity number length  |   Enter the number of digits the entity numbers will be. For example, if you enter 5, the first work order number would be 00001.  |
 | Auto allocate estimate products | When products are added to a work order before the work begins, then the line status of the work order product record defaults to **Estimated**. This setting determines whether the work order product record is set to **Allocated** when the line status is still **Estimated**, as opposed to **Used**. |
 |  Auto geo code addresses |  Specify whether the system should automatically add the appropriate latitude and longitude values based on the account's address. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)   |
@@ -163,19 +161,10 @@ The Field Service Settings page allows system administrators to set default sett
 > ![Screenshot of the administration settings on the other section.](./media/administration-settings-other-section.png) 
 
 
-## GPS data settings
- [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] can be integrated with third-party GPS providers to allow the real-time location of resources or vehicles on schedule maps. These settings allow you to map the integrated GPS data to the [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] system.  
-  
-|  Options  |  Description   |  
-|-------------|-----------------|  
-| Custom GPS data | Select whether the system will use  a custom entity for its source  of geo locations for resources to be displayed on the map view.|  
-| Custom GPS resource field | Shows the logical name of the resource to be used for geo locations.|  
-| Custom GPS latitude field | Shows the logical name of the latitude to be used for geo locations.|  
-| GPS location expires after X minutes | Enter when GPS location expires.|  
-| Custom GPS location entity | Shows the logical name of customer entity to use for geo locations.|  
-| Custom GPS timestamp field | Shows the logical name of the timestamp to use for geo locations.|  
-| Custom GPS longitude field | Show the logical name of the longitude to be used for geo locations.|  
-   
+
+## Resource Scheduling Settings
+
+For settings related to Resource Scheduling see the topic on [Scheduling Paramters in Resource Scheduling (Settings)](scheduling-parameters-settings.md)
   
 ### See also  
  [Overview](../field-service/overview.md)   
