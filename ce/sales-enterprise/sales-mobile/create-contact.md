@@ -70,16 +70,16 @@ If you need to create a contact that doesn't already exist in your Dynamics 365 
 
 ### Meetings page 
 
-1.  In the attendee list for a meeting, tap the name of an attendee. Note that you can create a contact from an attendee only if the attendee isn't already a contact in your Dynamics 365 organization.
+1.  In the participant list for a meeting, tap the name of a participant. Note that you can create a contact from a participant only if the participant isn't already a contact in your Dynamics 365 organization.
 
-    ![Tap an attendee name.](media/sm-tap-attendee.png "Tap an attendee name")
+    ![Tap a participant name.](media/sm-tap-attendee.png "Tap a participant name")
     
-1. Tap **Create contact**. The **Create a contact** form opens.
+1. Tap **Create new contact**.
 
     > [!div class="mx-imgBorder"]
     > ![Create contact.](media/sm-create-contact.png "Create contact")
     
-3.  In the **Create a contact** form, fill in the details, and then tap **Save**.
+3.  In the **Create new contact** form, fill in the details, and then tap **Save**.
 
 ### See also
 

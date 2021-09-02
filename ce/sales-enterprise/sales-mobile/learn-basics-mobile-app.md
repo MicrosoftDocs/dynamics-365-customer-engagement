@@ -27,7 +27,7 @@ When you open the Dynamics 365 Sales mobile app on your mobile device, you’ll 
 The **Up next** section of the home page shows important information about the last meeting you were in and the next one coming up. When you tap a meeting, the Meeting details page opens. More information: [View meeting details](view-agenda.md#view-meeting-details)
 
 > [!NOTE]
-> The **Up next** section only includes meetings that have at least one attendee who's outside of your organization's domain.
+> The **Up next** section only includes meetings that have at least one participant who's outside of your organization's domain.
 
 ## Recent contacts
 

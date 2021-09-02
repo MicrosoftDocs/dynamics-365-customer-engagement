@@ -14,7 +14,7 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
   
 > [!NOTE]
 > - You can't create a meeting from the Dynamics 365 Sales mobile app.
-> - The Meetings section only include meetings that have at least one attendee who's outside of your organization's domain.   
+> - The Meetings section only include meetings that have at least one participant who's outside of your organization's domain.   
  
 **To view meetings**
 
@@ -49,7 +49,7 @@ The meeting information section provides information about the meeting subject, 
 
 **Participants**
 
-Up to five meeting participants are shown in the **Participants** section, such as customers and the meeting organizer. You can see attendee acceptance status, such as accepted, tentative, declined, or no response. When you tap the name of an attendee, the quick view of their contact record opens. You can perform the following actions on the contact: view, edit, and create. More information: [Manage contacts](create-contact.md)            
+Up to five meeting participants are shown in the **Participants** section, such as customers and the meeting organizer. You can see participant's acceptance status, such as accepted, tentative, declined, or no response. When you tap the name of a participant, the quick view of their contact record opens. You can perform the following actions on the contact: view, edit, and create. More information: [Manage contacts](create-contact.md)            
 
 ### Related content
 
