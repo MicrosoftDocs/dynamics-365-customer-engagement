@@ -38,7 +38,7 @@ SMS is an engagement channel that supports asynchronous mode of communication, a
 
 ### Social channels
 
-Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to these popular social channels, you can create your own custom messaging channel. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
+Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to popular social channels, you can create your own custom messaging channel. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
 
 ## Videos
 
