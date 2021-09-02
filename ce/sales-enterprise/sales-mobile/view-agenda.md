@@ -70,7 +70,7 @@ You can perform the following action on regarding entities: [view and edit](open
 
 > [!NOTE]
 > - You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment and email address is approved. Contact your administrator to do the settings.
-- If you are not able to add a regarding entity to meetings even after the appropriate settings are in place, uninstall and reinstall the app.
+> - If you are not able to add a regarding entity to meetings even after the appropriate settings are in place, uninstall and reinstall the app.
 
 **Change regarding entity in meetings**<a name='change-regarding-entity'></a>
 
