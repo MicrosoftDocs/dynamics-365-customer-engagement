@@ -23,57 +23,60 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
 
 3. Go to Dynamics 365 **Settings** > **Solutions**.
 
-4. On the **Solutions** page, select each solution from the list below, one at a time, in sequence, and then select **Delete**.
+4. On the **Solutions** page, select each solution from the following list and then select **Delete** to delete them one at a time.
 
-    1.  `ProductivityToolsAnchor`
-    2.  `msdyn_OmnichannelProductivityToolsSettings`
-    3.  `msdyn_Smartassist_managed`
-    4.  `msdyn_ProductivityPaneControl_managed`
-    5.  `msdyn_AgentGuidance_managed`
-    6.  `msdyn_Agentscript_managed`
-    7.  `msdyn_ProductivityMacros_managed`
-    8.  `OmnichannelPrimeChatAnchor`
-    9.  `OmnichannelPrimeSMSAnchor`
-    10. `OmnichannelPrimeFacebookAnchor` 
-    11. `OmnichannelPrimeTeams` 
-    12. `OmnichannelPrimeSocialChannelsAnchor`
-    13. `OmnichannelPrimeOutboundAnchor`
-    14. `OmnichannelPrimeAnchor`
-    1. `msdyn_CustomerServiceworkspaceChannels`
-    1. `msdyn_OmnichannelEngagementHubPatch`
-    1. `OmnichannelEngagementHubPreview`
-    1. `msdyn_OmnichannelPrimePatch`
-    1. `OmnichannelPrime`
-    1. `msdyn_OmnichannelSMSPatch`
-    1. `msdyn_OmnichannelChatPatch`
-    1. `msdyn_OmnichannelFacebookPatch`
-    1. `OmnichannelOutbound`
-    1. `OmnichannelSMS`
-    1. `OmnichannelTeams`
-    1. `OmnichannelSocialChannels`
-    1. `OmnichannelChat`
-    1. `OmnichannelFacebook`
-    1. `msdyn_OmnichannelBotEnablerPatch`
-    1. `OmnichannelBotEnabler`
-    1. `msdyn_UnifiedRoutingForCS`
-    1. `UnifiedRoutingPrimeAnchor`
-    1. `msdyn_OmnichannelSBRPatch_managed`
-    1. `OmnichannelSBR`
-    1. `OCBaseURBase`
-    1. `msdyn_OmnichannelBasePatch`
-    1. `OmnichannelBase`
-    1. `MLDecisionEngine`
-    1. `UnifiedRouting`
-    1. `msdyn_UnifiedRoutingForEntity`
-    1. `DecisionEngine`
-    1. `msdynce_AnyEntityRoutingRulePatch202001_managed`
-    1. `msdynce_AnyEntityRoutingRule`
-    1. `ScenariosAndChannels`
-    1. `msdyn_CIFrameworkPatch`
-    1. `ChannelAPIIntegrationFramework`
-    1. `OmnichannelIntelligence` 
-    1. `OmnichannelConfiguration`
-    1. `msdyn_MacrosDataOmnichannel`
+| Order |	Solution name	                                    | Note	|
+|-------|---------------------------------------------------    |-------|
+|	1	|	 `ProductivityToolsAnchor`	                        |		|
+|	2	|	  `msdyn_OmnichannelProductivityToolsSettings`	    |		|
+|	3	|	  `msdyn_Smartassist_managed`                    	|		|
+|	4	|	  `msdyn_ProductivityPaneControl_managed`	        |		|
+|	5	|	  `msdyn_AgentGuidance_managed`	                    |		|
+|	6	|	  `msdyn_Agentscript_managed`	                    |		|
+|	7	|	  `msdyn_ProductivityMacros_managed`               	|		|
+|	8	|	  `OmnichannelPrimeChatAnchor`                    	|		|
+|	9	|	  `OmnichannelPrimeSMSAnchor`	                    |		|
+|	10	|	 `OmnichannelPrimeFacebookAnchor` 	                |		|
+|	11	|	 `OmnichannelPrimeTeams` 	                        |		|
+|	12	|	 `OmnichannelPrimeSocialChannelsAnchor`	            |		|
+|	13	|	 `OmnichannelPrimeOutboundAnchor`	                |		|
+|	14	|	 `OmnichannelPrimeAnchor`	                        |		|
+|	15	|	 `msdyn_CustomerServiceworkspaceChannels`	        |		|
+|	16	|	 `msdyn_OmnichannelEngagementHubPatch`	            |		|
+|	17	|	 `OmnichannelEngagementHubPreview`	                |		|
+|	18	|	 `msdyn_OmnichannelPrimePatch`	                    |		|
+|	19	|	 `OmnichannelPrime`	                                |		|
+|	20	|	 `msdyn_OmnichannelSMSPatch`	                    |		|
+|	21	|	 `msdyn_OmnichannelChatPatch`	                    |		|
+|	22	|	 `msdyn_OmnichannelFacebookPatch`	                |		|
+|	23	|	 `OmnichannelOutbound`	                            |		|
+|	24	|	 `OmnichannelSMS`	                                |		|
+|	25	|	 `OmnichannelTeams`                                	|		|
+|	26	|	 `OmnichannelSocialChannels`	                    |		|
+|	27	|	 `OmnichannelChat`	                                |		|
+|	28	|	 `OmnichannelFacebook`	                            |		|
+|	29	|	 `msdyn_OmnichannelBotEnablerPatch`	                |		|
+|	30	|	 `OmnichannelBotEnabler`	                        |		|
+|	31	|	 `msdyn_UnifiedRoutingForCS`	                    |		|
+|	32	|	 `UnifiedRoutingPrimeAnchor`	                    |		|
+|	33	|	 `msdyn_OmnichannelSBRPatch_managed`	            |		|
+|	34	|	 `OmnichannelSBR`                                	|		|
+|	35	|	 `OCBaseURBase`	                                    |		|    
+|	36	|	 `msdyn_OmnichannelBasePatch`	                    |		|
+|	37	|	 `OmnichannelBase`	                                |		|
+|	38	|	 `MLDecisionEngine`	                                |		|
+|	39	|	 `UnifiedRouting`	                                |		|
+|	40	|	 `msdyn_UnifiedRoutingForEntity`	                |		|
+|	41	|	 `DecisionEngine`	                                |		|
+|	42	|	 `msdynce_AnyEntityRoutingRulePatch202001_managed`	|		|
+|	43	|	 `msdynce_AnyEntityRoutingRule`	                    |		|
+|	44	|	 `ScenariosAndChannels`	                            |		|
+|	45	|	 `msdyn_CIFrameworkPatch`	                        |		|
+|	46	|	 `ChannelAPIIntegrationFramework`	                |		|
+|	47	|	 `OmnichannelIntelligence` 	                        |		|
+|	48	|	 `OmnichannelConfiguration`                        	|		|
+|	49	|	 `msdyn_MacrosDataOmnichannel`	                    |		|
+||||
 
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 
