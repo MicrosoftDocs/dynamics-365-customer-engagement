@@ -63,7 +63,7 @@ To access the report, in the Omnichannel for Customer Service app, on the **Home
 The following report is displayed.
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel historical analytics for voice channel.](./media/voice-channel-agent-drill-down.png "Omnichannel historical analytics for voice channel.")
+> ![Omnichannel historical analytics for voice channel](./media/voice-channel-agent-drill-down.png "Omnichannel historical analytics for voice channel.")
 
 Omnichannel historical analytics reports provide comprehensive information on how overall support is performing across channels. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
 
