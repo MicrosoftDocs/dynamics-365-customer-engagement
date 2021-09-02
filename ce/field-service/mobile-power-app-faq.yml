@@ -101,6 +101,10 @@ sections:
         - question: Can external users access the Field Service (Dynamics 365) mobile app?  
           answer: |
            Currently, external users can't access the Field Service (Dynamics 365) mobile app.
+           
+        - question: Can I access Sharepoint documents in Offline mode?
+        answer: |
+          Access to SharePoint documents is currently not supported in Offline mode. 
 
   - name: Entities, forms, views, and fields 
     questions:
@@ -146,4 +150,9 @@ sections:
     questions:       
       - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
         answer: |
-          Not at this time. Support for non-public clouds will be added to the Field Service (Dynamics 365) mobile app in the near future.
+          Not at this time. Support for non-public clouds will be added to the Field Service (Dynamics 365) mobile app in the future.
+          
+  - question: Can Azure AD Guest users access Field Service (Dynamics 365) mobile app?
+        answer: |
+          Currently Guest User access is not supported within the mobile application.  
+
