@@ -129,11 +129,11 @@ This setting decides the default value for the **Search For** field in the sched
 
 ### Unavailable resources 
 
-This setting determines how unavailable resources appear when the schedule assistant is triggered. 
+This setting determines how unavailable resources appear when the schedule assistant is triggered from the **Find availability** function on the schedule board . 
 
 - Set to **Unavailable resources do not appear** to ensure that resources who do not meet schedule assistant filter criteria are temporarily removed from the view of available resources. 
 
-- Set to **Unavailable resources appear dimmed (when searching for resources visible on board)** to ensure that resources who do not meet schedule assistant filter criteria remain on the schedule board, but appear dimmed. For schedule boards with many resources, using the **Unavailable resources do not appear** setting can reduce the need to scroll and make it easier for scheduler to compare available resources.
+- Set to **Unavailable resources appear dimmed (when searching for resources visible on board)** to ensure that resources who do not meet schedule assistant filter criteria remain on the schedule board, but appear dimmed. For schedule boards with many resources, using the **Unavailable resources do not appear** setting can reduce the need to scroll and make it easier for scheduler to compare available resources. When the schedule assistant is opened, the **Search For** filter on the filter panel need to be changed to **Resources visibile on board** to see the unavailable resources, but appear dimmed. 
 
 ### Book based on 
 
