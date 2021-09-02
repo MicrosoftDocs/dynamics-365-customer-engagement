@@ -1,7 +1,7 @@
 ---
 title: View meetings in the Dynamics 365 Sales mobile app
 description: Learn how to view meetings in the Dynamics 365 Sales mobile app.
-ms.date: 08/13/2021
+ms.date: 09/02/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -69,8 +69,8 @@ In the following screenshot, you can see that the meeting is about an opportunit
 You can perform the following action on regarding entities: [view and edit](open-record.md) the records along with [change regarding entity in meetings](#change-regarding-entity) and [add regarding entity in meetings](#add-regarding-entity). You can also [disconnect the regarding entity](#disconnect-regarding-entity) when it is no longer relevant to the current meeting.
 
 > [!NOTE]
-> - You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment. Contact your administrator to enable it.
-> - Ensure that the email address is approved. If the email address is not approved, you'll not be able to add a regarding entity to meetings. More information on how to approve email: [Approve mailboxes](https://docs.microsoft.com/en-us/power-platform/admin/connect-exchange-online#approve-mailboxes). If you are not able to add a regarding entity to meetings even after approving the email, uninstall and reinstall the app.
+> - You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment and email address is approved. Contact your administrator to do the settings.
+- If you are not able to add a regarding entity to meetings even after the appropriate settings are in place, uninstall and reinstall the app.
 
 **Change regarding entity in meetings**<a name='change-regarding-entity'></a>
 
