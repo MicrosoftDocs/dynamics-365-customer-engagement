@@ -1,7 +1,7 @@
 ---
 title: "Create and manage quotes - Sales Professional | MicrosoftDocs"
 description: "Use quotes in Dynamics 365 Sales Professional to make formal offers for products with proposed prices to customers."
-ms.date: 07/21/2020
+ms.date: 09/02/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -85,10 +85,12 @@ When you've added all the details to the quote, you can send it to the customer.
 
 ## Close a quote
 
-When you close a quote, you have three choices: Lost, Canceled, or Revised. If you choose to revise the quote, a new
-quote is created, set to **Draft** status, and you can start over. If you choose not to revise the quote, the quote is closed.
+When you [create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote), the quote is automatically closed as won. However, if the quote was not accepted, you can close it manually as Lost, Canceled, or Revised. 
 
-To close a quote:
+> [!NOTE]
+> You can close a quote only when it's in the **Active** state. If you have quotes in **Draft** state, you can either delete them or activate and then close them.
+
+**To close a quote:**
 
 1. On the command bar, select **Close Quote**. 
 
@@ -102,6 +104,7 @@ Revised.
    
    - **Create a revised quote:** You may be closing the quote because you need to create a new, revised quote. If this is the
 case, select **Yes**. If you don't want to revise the quote, set this field to **No**.
+    - **Close the associated opportunity:** This field appears only when you try to close the last quote associated with an opportunity. 
 
 3. Select **OK**.
 
