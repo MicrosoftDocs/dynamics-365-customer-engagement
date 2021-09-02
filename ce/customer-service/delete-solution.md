@@ -77,12 +77,21 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
 
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 
+> [!Important]
+>  When you plan to remove Omnichannel solutions from your organization, you must remember that the unified routing part of Omnichannel for Customer Service solutions might be used in unified routing for Customer Service. So you must ensure that you don't uninstall or delete the common solutions as it might affect the way unified routing works in Customer Service. You can find the common solutions in the internal TSG above.
+> Add the extra steps to remove Unified Routing for Entity which are required - note is added to TSG.
+> 
+> After deleting the "UnifiedRouting" solution, delete the records in order from Advanced find for below entities else Dependency Details > would appear as shown below while removing next solution i.e. msdyn_UnifiedRoutingForEntity
+
+> Entity = Master Entity Routing Configurations, Record Name = Case routing hub
+> Entity = Decision Rule Sets, Record Name = Case decision ruleset
+> Entity = Decision contracts, Record Name = Case decision contract
 
 ## Delete Omnichannel historical analytics solutions
 
 Do the following to delete the solutions for Omnichannel historical analytics:
 
-1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](./oc-historical-analytics-reports.md)
+1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](/oc-historical-analytics-reports.md)
 
 1. On the **Solutions** page, select and delete the following solutions:
     1. `msdyn_InsightsAnalyticsOCConfiguration`
@@ -90,9 +99,9 @@ Do the following to delete the solutions for Omnichannel historical analytics:
 
 ## Delete OmnichannelCustomerServiceHub solution
 
-When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear on the **Solutions** page of your Microsoft Dataverse. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete it. In addition, if your organization is using **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
+When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear on the **Solutions** page of your Microsoft Dataverse. After the upgrade is complete, you must delete those solutions from the previous release if the upgrade does not delete it. In addition, if your organization is using **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
 
-The following steps describe how to delete the solution from your organization.
+**To delete the OmnichannelCustomerServiceHub solution from your organization**
 
 1. Sign in to your `https://<org>.dynamics.com/apps` environment.
 
