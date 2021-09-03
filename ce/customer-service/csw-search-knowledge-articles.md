@@ -61,7 +61,7 @@ On the Knowledge pane, you can perform the following actions:
 
 ### View the knowledge article in the application tab
 
-Select an article title to view it in an application tab.  You can view up to 10 articles in the application tab.
+Select an article title to view it in an application tab. You can view up to 10 articles in the application tab.
 
 You can perform the following actions for the knowledge article:
 
