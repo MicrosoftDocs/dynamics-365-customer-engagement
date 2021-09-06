@@ -1,7 +1,7 @@
 ---
 title: "Select a hosting method for your controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the various hosting methods you can use to host your webpages in Unified Service Desk."
-ms.date: 03/16/2021
+ms.date: 09/06/2021
 ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
@@ -17,6 +17,12 @@ ms.custom:
 monikerRange: '>= dynamics-usd-3'
 ---
 # Select a hosting method for your controls in Unified Service Desk
+
+>[!Note]
+>
+> From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge. The users of Internet Explorer will see an error message similar to the following: "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."
+> By blocking these older browsers, we'll be able to provide browser enhancements to improve the user experience.
+
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] offers you different browser controls for hosting your webpages. Select a browser control to host your webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the **Hosting Type** list when you define a hosted control instance.
 
  ## Hosting types
