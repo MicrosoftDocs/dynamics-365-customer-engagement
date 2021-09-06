@@ -25,7 +25,7 @@ monikerRange: '>= dynamics-usd-3'
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] offers you different browser controls for hosting your webpages. Select a browser control to host your webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the **Hosting Type** list when you define a hosted control instance.
 
- ## Hosting types
+## Hosting types
  
 - [Edge WebView2 process](edge-webview2-process.md)
 
