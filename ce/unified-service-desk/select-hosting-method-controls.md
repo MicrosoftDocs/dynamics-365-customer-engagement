@@ -40,12 +40,12 @@ monikerRange: '>= dynamics-usd-3'
 - [Edge process (legacy - discontinued)](edge-process.md)
 
 
-## See also  
+### See also  
+
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
 
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
   
- [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
-
+ [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
