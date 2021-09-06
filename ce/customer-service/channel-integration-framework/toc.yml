@@ -299,7 +299,7 @@
         - name: "msdyn_sessionparticipantdata"
           href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
 
-  - name: "Known issues"
+  - name: Known issues
     href: known-issues.md
   - name: "FAQs"
     href: faq-channel-integration-framework.md
