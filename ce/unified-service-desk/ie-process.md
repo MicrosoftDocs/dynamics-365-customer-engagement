@@ -1,7 +1,7 @@
 ---
 title: "Use the IE Process hosting method for hosting web applications | MicrosoftDocs"
 description: "Learn about the IE Process hosting method and its advantages for hosting your controls in Unified Service Desk."
-ms.date: 12/01/2018
+ms.date: 09/06/2021
 ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
@@ -18,6 +18,10 @@ monikerRange: '>= dynamics-usd-3'
 ---
 
 # Use IE Process to host web applications 
+
+> [!Note]
+>
+> Starting 2022 release wave 1, Internet Explorer and classic Microsoft Edge browsers will be blocked from opening Unified Interface. This will let us further improve the experience by adding browser enhancements that aren't possible on these deprecated browsers. Leading up to the blocked experience, an error message will be shown to users of Internet Explorer.
 
 > [!Note]
 >
