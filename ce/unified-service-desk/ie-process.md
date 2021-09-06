@@ -22,6 +22,7 @@ monikerRange: '>= dynamics-usd-3'
 >[!Note]
 >
 > From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge. The users of Internet Explorer will see an error message similar to the following: "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."
+
 > By blocking these older browsers, we'll be able to provide browser enhancements to improve the user experience.
 
 > [!Note]
