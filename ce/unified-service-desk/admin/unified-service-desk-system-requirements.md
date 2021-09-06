@@ -73,12 +73,12 @@ Supported Unified Service Desk versions are:
 
 | Supported Hosting Types | Recommended Hosting Types |
 |-----------------------------|--------------------------------------|
-| <ul><li> Edge WebView2 Process </li><li> Chrome Process </li><li> IE Process (Deprecated) </li><li>Edge Process- legacy (discontinued) </li> <li> Internal WPF (deprecated) </li></ul> | <ul><li> Edge WebView2 Process </li><li> Chrome Process </li></ul> |
+| <ul><li> Edge WebView2 Process </li><li> Chrome Process </li><li> IE Process (discontinued) </li><li>Edge Process (discontinued) </li> <li> Internal WPF (deprecated) </li></ul> | <ul><li> Edge WebView2 Process </li><li> Chrome Process </li></ul> |
 ||
 
 > [!Note]
 >
-> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been deprecated in Unified Service Desk. For information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11).
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. For information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11).
 
 ## Impact of Unified Interface Only availability with Unified Service Desk
 

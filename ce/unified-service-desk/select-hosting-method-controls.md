@@ -21,7 +21,7 @@ monikerRange: '>= dynamics-usd-3'
 >[!Note]
 >
 > From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge browsers. The users of Internet Explorer will see an error message similar to the following: "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."<br>
-> By blocking these older browsers, we'll be able to provide browser enhancements to improve the user experience.
+> By blocking these older browsers, we'll be able to provide browser enhancements to improve user experience.
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] offers you different browser controls for hosting your webpages. Select a browser control to host your webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the **Hosting Type** list when you define a hosted control instance.
 
@@ -33,11 +33,11 @@ monikerRange: '>= dynamics-usd-3'
 
 - [Web hosted application](web-hosted-application.md)
 
-- [IE process (deprecated)](ie-process.md)
+- [IE process (discontinued)](ie-process.md)
 
 - [Internal WPF (deprecated)](internal-wpf.md)
 
-- [Edge process (legacy - discontinued)](edge-process.md)
+- [Edge process (discontinued)](edge-process.md)
 
 
 ### See also  
