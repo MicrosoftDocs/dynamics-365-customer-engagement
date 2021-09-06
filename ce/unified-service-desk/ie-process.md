@@ -36,7 +36,7 @@ The `IE Process` browser control hosts your controls in individual [!INCLUDE[pn_
 > [!NOTE]
 > To use the **IE Process** browser control, you must select the **Enable Protected Mode** check box for the **Local Intranet** security zone in Internet Explorer. More information: [What does Internet Explorer protected mode do?](https://windows.microsoft.com/windows-vista/What-does-Internet-Explorer-protected-mode-do)
 >
->  If enabling protected mode for intranet sites is not feasible, you must instead add the following URLs to the **Restricted Sites** security zone in Internet Explorer:
+> If enabling protected mode for intranet sites is not feasible, you must instead add the following URLs to the **Restricted Sites** security zone in Internet Explorer:
 >
 > - `http://close`
 > - `http://event`
@@ -66,7 +66,7 @@ Use the `ProcessTerminationThreshold` option in [!INCLUDE[pn_unified_service_des
 ### See also
 
 [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
-[Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+[Hosted control types, action, and event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
 [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)  
 
 
