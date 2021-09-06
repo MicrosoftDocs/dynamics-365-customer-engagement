@@ -21,7 +21,8 @@ monikerRange: '>= dynamics-usd-3'
 
 > [!Note]
 >
-> Starting 2022 release wave 1, Internet Explorer and classic Microsoft Edge browsers will be blocked from opening Unified Interface. This will let us further improve the experience by adding browser enhancements that aren't possible on these deprecated browsers. Leading up to the blocked experience, an error message will be shown to users of Internet Explorer.
+> Starting 2022 release wave 1, Internet Explorer and classic Microsoft Edge browsers will be blocked from opening Unified Interface. This will let us further improve the experience by adding browser enhancements that aren't possible on these deprecated browsers. Leading up to the blocked experience, an error message such as the following will be displayed to users of Internet Explorer.
+> "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."
 
 > [!Note]
 >
