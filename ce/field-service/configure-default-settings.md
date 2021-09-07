@@ -162,9 +162,9 @@ The Field Service Settings page allows system administrators to set default sett
 
 
 
-## Resource Scheduling Settings
+## Resource scheduling settings
 
-For settings related to Resource Scheduling see the topic on [Scheduling Paramters in Resource Scheduling (Settings)](scheduling-parameters-settings.md)
+For settings related to resource scheduling, see the article on [Scheduling paramters in resource scheduling (Settings)](scheduling-parameters-settings.md).
   
 ### See also  
  [Overview](../field-service/overview.md)   
