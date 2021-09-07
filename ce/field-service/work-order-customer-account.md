@@ -176,48 +176,47 @@ Though the unit amount price of the travel charge is dictated by the price list,
 > [!Note]
 > In cases of multiple bookings for a single work order, multiple travel charges will be added as work order products.
 
-### 
+## Additional notes
 
-**---Issue:** Latitude/Longitude values are not getting updated or address suggestions don't show up on account or contact form.
+### Known issues
 
-**Possible Cause**: Field Service libraries are missing from the form.
+#### Latitude and longitude values don't update as expected
 
-**Mitigation**: Add the relevant Field Service libraires and event handlers to the form.
+Sometimes, an issue occurs where latitude and longitude values aren't updated, or address suggestions don't show up on account or contact form.
 
-**Mitigation Steps:**
+One reason this issue occurs is because Field Service libraries are missing from the form. To add the relevant Field Service libraries and event handlers to the form, follow these steps.
 
-1.  Select Account form from Customization and open the Form Properties
+1. Select **Account** form from **Customization** and open the **Form Properties**.
 
-2.  Add the form library msdyn\_/Account/Account.Library.js
+2. Add the form library `msdyn\_/Account/Account.Library.js`.
 
-![Graphical user interface  application  Word Description automatically generated](media/fr-image1.png)
+![Form properties in Power Apps.](media/fr-image1.png)
 
-3.  Then on the Event Handlers section, click Add, specify the function as below screenshot.
+1. In the **Event Handlers** section, select **Add**, and specify the function as seen in the following screenshot.
 
-![Graphical user interface  application Description automatically generated](media/fr-image2.png)
+![Handler properties in Power Apps.](media/fr-image2.png)
 
-4.  Save, publish the customization.
+4. Save and publish the customization.
 
-**Issue**: The Bing maps control is manually removed from the OOB work order form and now it is not able to be added back
+#### Bing Maps can't be added to the work order form
 
-**Resolution**:
+If the Bing Maps control is manually removed from the out-of-the-box work order form, it can't be added back.
 
-At the moment, it's by design that "Insert Bing Maps" button is disabled on work order form.
+To enable Bing Maps button in form designer, at least one of the attributes of type address should have the mask *ValidForMap* added in the form. 
 
-To enable Bing Maps button in form designer, at least one of the attributes of type address should have the mask "ValidForMap" added in the form. Which is not the case in Work order form.
+Below is the XML for the account form where we see *ValidForMap* added to its address attribute.
 
-Below is the XML for account form where we see "ValidForMap" added to its address attribute, and hence we can add in Account form.
-
+```
 <DisplayMask>ValidForAdvancedFind\|ValidForForm\|ValidForGrid\|ValidForMap</DisplayMask>
+```
 
-**Below Work Around can be followed:**
+1. Create a solution on customer's sandbox environment that includes the form to which the Bing Maps control needs to be added. Export it as managed solution.
 
-1.  Create a solution on customer's sandbox environmentwhich includes the form to which the Bing Maps control needs to be added. Export it as managed solution.
+2. In the solution's `customizations.xml` file, go the `formxml` part of it.
 
-2.  In the customizations.xml file of the solution go the formxml part of it.
+3. Add the following maps control to the `<controlDescriptions>`.
 
-3.  Add the below maps control to the <controlDescriptions>.
-
+```
         <controlDescription forControl="{8b67ae03-1701-54d2-09be-35295876ca8a}">
 
         <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
@@ -298,17 +297,22 @@ Below is the XML for account form where we see "ValidForMap" added to its addres
 
         </controlDescription>
 
-4.  Search for "Bing Maps" in the same file.
+```
 
-5.  Add the control with the below code to the row and cell where ever it needs to be added.  
+4. Search for "Bing Maps" in the same file.
+
+5. Add the control with the following code to the row and cell wherever it needs to be added.
+
+```  
     <control disabled="false" id="msdyn\_mapcontrol" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{8b67ae03-1701-54d2-09be-35295876ca8a}" datafieldname="msdyn\_mapcontrol"/>
+```
 
-6.  Save the file and create a new managed solution zip file out of it.
+6. Save the file and create a new managed solution zip file out of it.
 
-7.  Import the solution in affected environment.
+7. Import the solution to the affected environment.
 
 > [!Note]
-> Sometimes even after following above steps, map control is not visible on the form because of the active customizations, So try by removing the active customizations of the form.
+> If the map control is still not visible on the form after following these steps, try removing the active form customizations.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
