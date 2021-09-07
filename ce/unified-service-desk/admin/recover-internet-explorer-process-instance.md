@@ -23,6 +23,7 @@ ms.custom:
 >
 > Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11)
 
+
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 By default, Internet Explorer process instance recovery is enabled. To disable the feature, a system administrator must configure the `IEWebPageRecovery` option on the **Active UII Options** page, and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage a Unified Service Desk option](../admin/manage-options-unified-service-desk.md)

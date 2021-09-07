@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk system requirements | MicrosoftDocs"
 description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk."
-ms.date: 01/29/2021
+ms.date: 09/07/2021
 ms.topic: get-started-article
 author: mh-jaya
 ms.author: v-jmh
@@ -59,7 +59,7 @@ The versions of Unified Service Desk that are currently supported are:
 
 > [!IMPORTANT]
 >
-> Unified Service Desk version 3.2 and earlier will not be supported after February 28, 2021; after this date, organizations with these versions will not have access to the Unified Service Desk client. If you are using Unified Service Desk version 3.2 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 Customer Service by February 28, 2021.
+> Unified Service Desk version 3.3 and earlier are supported after June 21, 2021; after this date, organizations with these versions will not have access to the Unified Service Desk client. If you are using Unified Service Desk version 3.3 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 for Customer Service by October 01, 2021.
 
 <a name="packdeploy"></a>   
 ## Software requirements for the Package Deployer tool  
@@ -71,7 +71,7 @@ The versions of Unified Service Desk that are currently supported are:
 
 | Supported Hosting Types | Recommended Hosting Types |
 |-----------------------------|--------------------------------------|
-| <ul><li> Edge WebView2 Process </li><li> Chrome Process </li><li> IE Process (discontinued) </li><li>Edge Process (discontinued) </li> <li> Internal WPF (deprecated) </li></ul> | <ul><li> Edge WebView2 Process </li><li> Chrome Process </li></ul> |
+| <ul><li> Edge WebView2 Process </li><li> Chrome Process </li><li> IE Process (discontinued) </li><li>Edge Process (discontinued) </li> <li> Internal WPF (deprecated) </li></ul> | Edge WebView2 Process  |
 ||
 
 > [!Note]

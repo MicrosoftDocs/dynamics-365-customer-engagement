@@ -17,7 +17,7 @@ ms.custom:
 monikerRange: '>= dynamics-usd-3'
 ---
 
-# Use IE Process to host web applications 
+# Use IE Process to host web applications (discontinued)
 
 >[!Note]
 >
@@ -26,7 +26,7 @@ monikerRange: '>= dynamics-usd-3'
 
 > [!Note]
 >
-> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been deprecated in Unified Service Desk. More information: [Deprecation announcement](../customer-service/deprecations-customer-service.md#internetexplorer11)
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../customer-service/deprecations-customer-service.md#internetexplorer11)
 
 The `IE Process` browser control hosts your controls in individual [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] process instances, and displays them in tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. It facilitates predictable page rendering by making sure that if your web application works in [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], it'll work in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You can select **IE Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, and **Standard Web Application** type of hosted controls.
 
