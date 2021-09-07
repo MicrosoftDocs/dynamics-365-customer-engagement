@@ -288,6 +288,8 @@
         href: lock-unlock-price-order-invoice.md
       - name: Create or edit quotes
         href: ../sales-enterprise/create-edit-quote-sales.md
+      - name: Close a quote
+        href: ../sales-enterprise/close-quote.md
       - name: Create or edit orders
         href: ../sales-enterprise/create-edit-order-sales.md
       - name: Create or edit invoices
