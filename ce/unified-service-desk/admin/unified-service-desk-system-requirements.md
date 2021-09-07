@@ -47,19 +47,13 @@ This topic provides information about the system requirements for installing the
 
 ## Support for Unified Service Desk
 
-Unified Service Desk supports the latest three releases (N-2 format). On the release of the next version of Unified Service Desk, the oldest supported version will be deprecated.
+The latest three versions of Unified Service Desk are supported. On the release of the latest version of Unified Service Desk, the oldest supported version will be deprecated.
 
-The versions of Unified Service Desk that are currently supported are:
-
-- Unified Service Desk 4.2
-
-- Unified Service Desk 4.1
-
-- Unified Service Desk 4.0
+The supported versions of Unified Service Desk are 4.2, 4.1, and 4.0.
 
 > [!IMPORTANT]
 >
-> Unified Service Desk version 3.3 and earlier are supported after June 21, 2021; after this date, organizations with these versions will not have access to the Unified Service Desk client. If you are using Unified Service Desk version 3.3 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 for Customer Service by October 01, 2021.
+> Unified Service Desk version 3.3 and earlier are not supported after June 21, 2021; after this date, organizations with these versions will not have access to the Unified Service Desk client. If you are using Unified Service Desk version 3.3 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 for Customer Service by October 01, 2021.
 
 <a name="packdeploy"></a>   
 ## Software requirements for the Package Deployer tool  
