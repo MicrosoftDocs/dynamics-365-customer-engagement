@@ -85,7 +85,7 @@ When you've added all the details to the quote, you can send it to the customer.
 
 ## Close a quote
 
-When you [create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote), the quote is automatically closed as won. However, if the quote was not accepted, you can close it manually as Lost, Canceled, or Revised. 
+When you [create an order from a quote](create-orders-sp.md#create-an-order-from-a-quote), the quote is automatically closed as won. However, if the quote was not accepted, you can close it manually as Lost, Canceled, or Revised. 
 
 > [!NOTE]
 > You can close a quote only when it's in the **Active** state. If you have quotes in **Draft** state, you can either delete them or activate and then close them.
