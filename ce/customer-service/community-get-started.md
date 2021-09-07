@@ -44,7 +44,7 @@ App Source link to install the app
 PPAC link to install the portal
 
 
-## Configure Community forumsConfigure Community
+## Configure Community forums
 forums
 
 
