@@ -2,7 +2,7 @@
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 description: About support for Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 4/14/2021
+ms.date: 9/7/2021
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -97,6 +97,7 @@ When the application first loads after installation, it will determine the devic
 
  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] support the following languages:  
   
+- Arabic 
 - Basque (Basque) - 1069  
 - Bulgarian (Bulgaria) - 1026  
 - Catalan (Catalan) - 1027  
@@ -139,6 +140,13 @@ When the application first loads after installation, it will determine the devic
 - Thai - 1054  
 - Turkish - 1055  
 - Ukrainian - 1058  
+
+### FAQs about supported languages
+
+1. Are there limitations if Dynamics 365 mobile app is used with one of the supported languages? </br> No, there is no limitations.
+2. Is there additional requirements for customizations? </br> No, there isn't anything additional for customizations.
+3. How does the translations work? </br> The translation takes place in Unified Interface and is natively used in the Dynamics 365 mobile app.
+
 
 
 ## Deprecated and unsupported platforms
