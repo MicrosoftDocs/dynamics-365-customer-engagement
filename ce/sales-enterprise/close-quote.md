@@ -16,7 +16,7 @@ searchScope:
   - Sales
 ---
 
-## Close a quote
+# Close a quote
 
 When you [create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote), the quote is automatically closed as won. However, if the quote was not accepted, you can close it manually as Lost, Canceled, or Revised. 
 
