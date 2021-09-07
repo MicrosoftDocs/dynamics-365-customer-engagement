@@ -36,7 +36,7 @@ After [getting access to Resource Scheduling Optimization](./rso-get-install.md)
 4. Select the organization where the Resource Scheduling Optimization solution will be installed, review the Terms of Service and select the agreement box, and then select **Deploy** to start the Resource Scheduling Optimization deployment.
 
 >[!Note] 
-> It may take several hours betweeen the time the subscription appears in M365 Admin Center and Power Platform Admin Center
+> It may take several hours betweeen the time the subscription appears in Microsoft 365 Admin Center and Power Platform Admin Center.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the "Deploy Resource Scheduling Optimization instance" window](media/rso-instance.png)
