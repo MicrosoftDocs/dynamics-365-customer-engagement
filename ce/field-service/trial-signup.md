@@ -30,6 +30,6 @@ Your trial environment includes many of the same features as the paid version. T
 
 ## Additional resources
 
-- [Explore training on Microsoft Learn](learn/browse/?expanded=dynamics-365&products=dynamics-field-service)
+- [Explore training on Microsoft Learn](/learn/browse/?expanded=dynamics-365&products=dynamics-field-service)
 - [Watch Field Service videos on YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)
 - [Trial FAQ](trial-faq.md)
