@@ -30,7 +30,7 @@ Field Service self-service scheduling aims to improve your customers' scheduling
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4NIiw]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NIiw]
 
 
 ## Prerequisites
