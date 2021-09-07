@@ -145,29 +145,21 @@ sections:
         answer: |
           No, the minimum duration for a booking is one minute. 
       - question: |
-          Why can't I delete a record because of an "association"
+          Why can't I delete a record because of an association?
         answer: |
-          This issue will occur when there are related records with a 'restrict delete' association that block the current record delete.**.** -
+          This issue occurs when there are related records with a restrict-delete association that blocks record deletion.
 
-          Mitigation: Identify the relevant entities with such relationships and then first delete the records of those entities related to the record you are now trying to delete.
-          Mitigation Steps: - How to identify which entities have such relationships and might be blocking the delete
+          To fix this issue, identify the relevant entities with such relationships, and then delete the records of those entities related to the record you are now trying to delete.
 
-          1.  Navigate to Settings -- > Customizations.
-          2.  Click on the 'Customize the system'.
-          3.  Locate the entity which records you want to delete (as an example we'll use Accounts).
-          4.  Navigate to '1: N Relationships' for the entity.
+          1.  Go to **Settings** > **Customizations**.
+          2.  Select **Customize the system**.
+          3.  Locate the entity with records you want to delete (for example, **Accounts**).
+          4.  Go to **1: N Relationships** for the entity.
           ![Graphical user interface  text  application  email Description automatically generated](media/fr-image3.png)
-          5.  In the window locate any relationships who's 'Type of Behavior' is equal to 'Referential, Restrict Delete'.
-          6.  Take a note of the related entity of each of those relationships, these are the type of records which could be restricting your ability to delete the record.
-      - question: |
-          See also
-        answer: |
-          - [Resource scheduling optimization FAQs](rso-faq.yml)
-          - [Field Service Mobile FAQs](activate-fs-mobile-app-license.md)
-          - [Get help for Field Service Mobile](mobile-get-help.md)
-          
+          5.  Find any relationships where the **Type of Behavior** is *Referential, Restrict Delete*.
+          6.  Take note of the related entity for each of those relationships; these are the type of records that may be restricting your ability to delete the record.
 
-          
+                    
           [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
 
