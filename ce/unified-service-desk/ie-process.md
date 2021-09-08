@@ -27,12 +27,6 @@ monikerRange: '>= dynamics-usd-3'
 >
 > To continue to use Unified Interface-based apps in Unified Service Desk, we recommend that you use the latest browser control host such as Edge WebView2. Because Unified Service Desk supports a mix of browser control hosts, you can still use the IE process for hosting apps that are not based on Unified Interface.
 
-From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge browsers. The users of Internet Explorer will see an error message like the following:
-
-"Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."
-
-
-
 > [!Note]
 >
 > Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../customer-service/deprecations-customer-service.md#internetexplorer11)
