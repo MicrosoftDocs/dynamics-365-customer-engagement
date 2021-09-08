@@ -1,7 +1,7 @@
 ---
 title: "Use the IE Process hosting method for hosting web applications | MicrosoftDocs"
 description: "Learn about the IE Process hosting method and its advantages for hosting your controls in Unified Service Desk."
-ms.date: 09/06/2021
+ms.date: 09/08/2021
 ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
@@ -21,8 +21,9 @@ monikerRange: '>= dynamics-usd-3'
 
 >[!Note]
 >
-> From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge browsers. The users of Internet Explorer will see an error message similar to the following: "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser." <br>
-> By blocking these older browsers, we'll be able to provide enhancements for the latest browsers to improve user experience.
+> From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge browsers. The users of Internet Explorer will see an error message similar to the following:<br>
+> "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."<br>
+> If you'd like to continue using Unified Interface in Unified Service Desk, we recommend using a modern browser control host such as Edge WebView2. Since Unified Service Desk supports a mix of browser control hosts, you can still use the IE process for hosting apps that are not based on Unified Interface. 
 
 > [!Note]
 >
