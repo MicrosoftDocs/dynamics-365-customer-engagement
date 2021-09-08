@@ -64,17 +64,17 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 |	30	|	 `OmnichannelBotEnabler`	                    |		|
 |	31	|	 `msdyn_UnifiedRoutingForCS`	                | Required for Unified Routing for Customer Service		|
 |	32	|	 `UnifiedRoutingPrimeAnchor`                    | Required for Unified Routing for Customer Service		|
-|	33	|	 `msdyn_OmnichannelSBRPatch_managed`	        |		|
-|	34	|	 `OmnichannelSBR`                            	|		|
-|	35	|	 `OCBaseURBase`	                                |		|
-|	36	|	 `msdyn_OmnichannelBasePatch`	                |		|
-|	37	|	 `OmnichannelBase`	                            |		|
-|	38	|	 `MLDecisionEngine`	                            |		|
+|	33	|	 `msdyn_OmnichannelSBRPatch_managed`	        | Required for Unified Routing for Customer Service		|
+|	34	|	 `OmnichannelSBR`                            	| Required for Unified Routing for Customer Service		|
+|	35	|	 `OCBaseURBase`	                                | Required for Unified Routing for Customer Service		|
+|	36	|	 `msdyn_OmnichannelBasePatch`	                | Required for Unified Routing for Customer Service		|
+|	37	|	 `OmnichannelBase`	                            | Required for Unified Routing for Customer Service		|
+|	38	|	 `MLDecisionEngine`	                            | Required for Unified Routing for Customer Service		|
 |	39	|	 `UnifiedRouting`	                            | Required for Unified Routing for Customer Service		|
 |	40	|	 `msdyn_UnifiedRoutingForEntity`	            | Required for Unified Routing for Customer Service		|
-|	41	|	 `DecisionEngine`	                            |		|
-|	42	| `msdynce_AnyEntityRoutingRulePatch202001_managed`	|		|
-|	43	|	 `msdynce_AnyEntityRoutingRule`	                |		|
+|	41	|	 `DecisionEngine`	                            | Required for Unified Routing for Customer Service		|
+|	42	| `msdynce_AnyEntityRoutingRulePatch202001_managed`	| Required for Unified Routing for Customer Service		|
+|	43	|	 `msdynce_AnyEntityRoutingRule`	                | Required for Unified Routing for Customer Service		|
 |	44	|	 `ScenariosAndChannels`	                        |		|
 |	45	|	 `msdyn_CIFrameworkPatch`	                    |		|
 |	46	|	 `ChannelAPIIntegrationFramework`	            |		|
@@ -86,20 +86,17 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 
 
-
 ## Delete Omnichannel historical analytics solutions
 
-Do the following to delete the solutions for Omnichannel historical analytics:
+To delete the solutions for Omnichannel historical analytics, you must first disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](/oc-historical-analytics-reports.md)
 
-1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](/oc-historical-analytics-reports.md)
-
-1. On the **Solutions** page, select and delete the following solutions:
-    1. `msdyn_InsightsAnalyticsOCConfiguration`
-    1. `msdyn_DataInsightsAndAnalyticsForOC`
+Then, on the **Solutions** page, select and delete the following solutions, one at a time, in this order:
+1. `msdyn_InsightsAnalyticsOCConfiguration`
+2. `msdyn_DataInsightsAndAnalyticsForOC`
 
 ## Delete OmnichannelCustomerServiceHub solution
 
-When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear on the **Solutions** page of your Microsoft Dataverse. After the upgrade is complete, you must delete those solutions from the previous release if the upgrade does not delete it. In addition, if your organization is using the **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
+When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear on the **Solutions** page of Microsoft Dataverse. After the upgrade is complete, you must delete those solutions from the previous release if the upgrade does not delete it. Also, if your organization is using the **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
 
 **To delete the OmnichannelCustomerServiceHub solution from your organization**
 
@@ -137,6 +134,5 @@ The following steps describe how to remove Customer Service Hub solution from yo
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Omnichannel for Customer Service on Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md)  
 [Deploy Unified Service Desk - Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
