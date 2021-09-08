@@ -1,6 +1,6 @@
 ---
 title: Set up Community users | MicrosoftDocs
-description: Learn how to configure a Community portal in Dynamics 365 Customer Service
+description: Learn how to configure a Community portal in Dynamics 365 Customer Service.
 ms.date: 10/04/2021
 ms.topic: article
 author: lalexms
