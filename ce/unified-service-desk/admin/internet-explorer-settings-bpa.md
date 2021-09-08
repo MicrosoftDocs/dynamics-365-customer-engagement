@@ -10,6 +10,10 @@ manager: shujoshi
 
 # [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings
 
+> [!Note]
+>
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11)
+
 In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, certain parameters of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings are important for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to work seamlessly.
 
 ## Tab Process Growth (TabProcGrowth)
