@@ -62,19 +62,19 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 |	28	|	 `OmnichannelFacebook`	                        |		|
 |	29	|	 `msdyn_OmnichannelBotEnablerPatch`	            |		|
 |	30	|	 `OmnichannelBotEnabler`	                    |		|
-|	31	|	 `msdyn_UnifiedRoutingForCS`	                | Required for Unified Routing for Customer Service		|
-|	32	|	 `UnifiedRoutingPrimeAnchor`                    | Required for Unified Routing for Customer Service		|
-|	33	|	 `msdyn_OmnichannelSBRPatch_managed`	        | Required for Unified Routing for Customer Service		|
-|	34	|	 `OmnichannelSBR`                            	| Required for Unified Routing for Customer Service		|
-|	35	|	 `OCBaseURBase`	                                | Required for Unified Routing for Customer Service		|
-|	36	|	 `msdyn_OmnichannelBasePatch`	                | Required for Unified Routing for Customer Service		|
-|	37	|	 `OmnichannelBase`	                            | Required for Unified Routing for Customer Service		|
-|	38	|	 `MLDecisionEngine`	                            | Required for Unified Routing for Customer Service		|
-|	39	|	 `UnifiedRouting`	                            | Required for Unified Routing for Customer Service		|
-|	40	|	 `msdyn_UnifiedRoutingForEntity`	            | Required for Unified Routing for Customer Service		|
-|	41	|	 `DecisionEngine`	                            | Required for Unified Routing for Customer Service		|
-|	42	| `msdynce_AnyEntityRoutingRulePatch202001_managed`	| Required for Unified Routing for Customer Service		|
-|	43	|	 `msdynce_AnyEntityRoutingRule`	                | Required for Unified Routing for Customer Service		|
+|	31	|	 `msdyn_UnifiedRoutingForCS`	                | Required for unified routing in Customer Service		|
+|	32	|	 `UnifiedRoutingPrimeAnchor`                    | Required for unified routing in Customer Service		|
+|	33	|	 `msdyn_OmnichannelSBRPatch_managed`	        | Required for unified routing in Customer Service		|
+|	34	|	 `OmnichannelSBR`                            	| Required for unified routing in Customer Service		|
+|	35	|	 `OCBaseURBase`	                                | Required for unified routing in Customer Service		|
+|	36	|	 `msdyn_OmnichannelBasePatch`	                | Required for unified routing in Customer Service		|
+|	37	|	 `OmnichannelBase`	                            | Required for unified routing in Customer Service		|
+|	38	|	 `MLDecisionEngine`	                            | Required for unified routing in Customer Service		|
+|	39	|	 `UnifiedRouting`	                            | Required for unified routing in Customer Service		|
+|	40	|	 `msdyn_UnifiedRoutingForEntity`	            | Required for unified routing in Customer Service		|
+|	41	|	 `DecisionEngine`	                            | Required for unified routing in Customer Service		|
+|	42	| `msdynce_AnyEntityRoutingRulePatch202001_managed`	| Required for unified routing in Customer Service		|
+|	43	|	 `msdynce_AnyEntityRoutingRule`	                | Required for unified routing in Customer Service		|
 |	44	|	 `ScenariosAndChannels`	                        |		|
 |	45	|	 `msdyn_CIFrameworkPatch`	                    |		|
 |	46	|	 `ChannelAPIIntegrationFramework`	            |		|
