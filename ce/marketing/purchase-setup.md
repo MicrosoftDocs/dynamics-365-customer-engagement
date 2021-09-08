@@ -50,7 +50,7 @@ Each license also includes quotas that limit the total number of free Litmus inb
 >
 > To learn more about Dynamics 365 Marketing pricing and licensing offers as well as prerequisites, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-#### Non-production instances app
+#### Non-production app
 A non-production license entitles you to set up a test environment for trying out new features or customizations. Non-production licenses include both solutions and services, and are fully functional, but have much stricter quotas and can't be used to run production campaigns.
 
 #### Solution Only app
