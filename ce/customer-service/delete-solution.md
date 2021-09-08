@@ -62,16 +62,16 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 |	28	|	 `OmnichannelFacebook`	                        |		|
 |	29	|	 `msdyn_OmnichannelBotEnablerPatch`	            |		|
 |	30	|	 `OmnichannelBotEnabler`	                    |		|
-|	31	|	 `msdyn_UnifiedRoutingForCS`	                |		|
-|	32	|	 `UnifiedRoutingPrimeAnchor`                    |		|
+|	31	|	 `msdyn_UnifiedRoutingForCS`	                | Required for Unified Routing for Customer Service		|
+|	32	|	 `UnifiedRoutingPrimeAnchor`                    | Required for Unified Routing for Customer Service		|
 |	33	|	 `msdyn_OmnichannelSBRPatch_managed`	        |		|
 |	34	|	 `OmnichannelSBR`                            	|		|
 |	35	|	 `OCBaseURBase`	                                |		|
 |	36	|	 `msdyn_OmnichannelBasePatch`	                |		|
 |	37	|	 `OmnichannelBase`	                            |		|
 |	38	|	 `MLDecisionEngine`	                            |		|
-|	39	|	 `UnifiedRouting`	                            |		|
-|	40	|	 `msdyn_UnifiedRoutingForEntity`	            |		|
+|	39	|	 `UnifiedRouting`	                            | Required for Unified Routing for Customer Service		|
+|	40	|	 `msdyn_UnifiedRoutingForEntity`	            | Required for Unified Routing for Customer Service		|
 |	41	|	 `DecisionEngine`	                            |		|
 |	42	| `msdynce_AnyEntityRoutingRulePatch202001_managed`	|		|
 |	43	|	 `msdynce_AnyEntityRoutingRule`	                |		|
