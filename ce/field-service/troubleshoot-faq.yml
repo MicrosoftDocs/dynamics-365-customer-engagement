@@ -144,14 +144,24 @@ sections:
           Can I create a booking with a duration of 30 seconds? 
         answer: |
           No, the minimum duration for a booking is one minute. 
-
       - question: |
-          See also
+          Why can't I delete a record because of an association?
         answer: |
-          - [Resource scheduling optimization FAQs](rso-faq.yml)
-          - [Field Service Mobile FAQs](activate-fs-mobile-app-license.md)
-          - [Get help for Field Service Mobile](mobile-get-help.md)
-          
-          
+          This issue occurs when there are related records with a restrict-delete association that blocks record deletion.
+
+          To fix this issue, identify the relevant entities with such relationships, and then delete the records of those entities related to the record you are now trying to delete.
+
+          1.  Go to **Settings** > **Customizations**.
+          2.  Select **Customize the system**.
+          3.  Locate the entity with records you want to delete (for example, **Accounts**).
+          4.  Go to **1: N Relationships** for the entity.
+          ![Graphical user interface  text  application  email Description automatically generated](media/fr-image3.png)
+          5.  Find any relationships where the **Type of Behavior** is *Referential, Restrict Delete*.
+          6.  Take note of the related entity for each of those relationships; these are the type of records that may be restricting your ability to delete the record.
+
+                    
           [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+
+
           
