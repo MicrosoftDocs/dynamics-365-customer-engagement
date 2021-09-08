@@ -7,10 +7,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 searchScope: 
-  - D365-App-msdyn_salespro
-  - D365-Entity-quote
-  - D365-Entity-salesorder
-  - D365-Entity-invoice
+  - D365-App-msdynce_salespro
   - D365-Entity-quotedetail
   - D365-Entity-salesorderdetail
   - D365-Entity-invoicedetail

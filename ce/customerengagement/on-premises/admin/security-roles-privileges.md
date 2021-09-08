@@ -1,6 +1,6 @@
 ---
-title: "Security roles and privileges | MicrosoftDocs"
-description: "Set up an organizational structure that both protects sensitive data and enables collaboration."
+title: "Security roles in Dynamics 365 Customer Engagement (on-premises)"
+description: "To control data access, you must set up security roles. Learn about the level of access allowed per role and the privileges that define what a user can do."
 ms.custom: 
 ms.date: 10/07/2019
 ms.reviewer: 

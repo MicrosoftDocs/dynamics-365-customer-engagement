@@ -2,7 +2,7 @@
 title: "Collaborate using Office 365 Groups in Dynamics 365 Customer Engagement (on-premises)"
 description: "Office 365 Groups allow team members to collaborate to get stuff done. Learn how to create or join a group, start a conversation, share files, and more."
 ms.custom:
-ms.date: 05/05/2020
+ms.date: 08/26/2021
 ms.reviewer: 
 ms.prod: d365ce-op
 ms.suite: 
@@ -21,6 +21,11 @@ search.audienceType:
 ---
 # Collaborate with your colleagues using Microsoft 365 Groups
 
+> [!NOTE]
+> Effective February 2022, support for Microsoft 365 Groups (previously known as Office Groups) and Yammer in Dynamics 365 will be deprecated. This will impact customers who use Microsoft 365 Groups and/or Yammer for collaboration in Dynamics 365. We recommend that customers transition to Microsoft Teams for more advanced collaboration functionalities. For information about integrating Dynamics 365 with Teams, see [Integrate customer engagement apps in Dynamics 365 with Microsoft Teams](/dynamics365/teams-integration/teams-integration).
+> 
+> If you've questions about the deprecation, contact your Microsoft Customer Service representative or Microsoft Partner.
+
 [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] are a shared workspace for email, conversations, files, and events where group members can collectively get stuff done.  
   
  You can use groups to collaborate with people across your company, even if they don't have access to Customer Engagement (on-premises). For example, you can create a group for your sales team and invite other [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] users to join the group, and then share documents, conversations, meeting notes, and [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] information related to specific accounts or opportunities.  
@@ -37,7 +42,7 @@ search.audienceType:
 > [!NOTE]
 >  Check out the following for a quick introduction to [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]:  
 > 
-> - [![Video symbol](../basics/media/video-button.png "Video symbol."](https://go.microsoft.com/fwlink/p/?LinkId=404225) Video: [Introducing Groups in Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkID=723955).  
+> - [![Video symbol](../basics/media/video-button.png "Video symbol.")](https://go.microsoft.com/fwlink/p/?LinkId=404225) Video: [Introducing Groups in Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkID=723955).  
 >   -   [Learn more about groups](https://support.office.com/article/Learn-more-about-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2?ct=t\(GS_SPO1_11_2015\)&ui=en-US&rs=en-US&ad=US).  
   
 ## Prerequisites  

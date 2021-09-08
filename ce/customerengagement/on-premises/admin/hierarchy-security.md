@@ -1,6 +1,6 @@
 ---
-title: "Hierarchy security  | MicrosoftDocs"
-description: "Create several business units and then add the hierarchy security."
+title: "Hierarchy security in Dynamics 365 Customer Engagement (on-premises)"
+description: "Hierarchy security is an extension of existing models that allows for more granular access to data. This page explains the two models and how to set them up."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Hierarchy security to control access
+# Set up hierarchy security for granular access to data
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
@@ -135,8 +135,8 @@ The hierarchy security model is an extension to the existing Dynamics 365 Custom
 ### See also  
  [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Query and visualize hierarchical data](../customize/query-visualize-hierarchical-data.md)   
- [Video: Hierarchical Security Modelling in Microsoft Dynamics CRM 2015](https://www.youtube.com/watch?v=kx5So32DrCo&index=10&list=PLC3591A8FE4ADBE07)   
- [Video: Hierarchy Visualization in Microsoft Dynamics CRM 2015](https://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)
+ <!-- [Video: Hierarchical Security Modelling in Microsoft Dynamics CRM 2015](https://www.youtube.com/watch?v=kx5So32DrCo&index=10&list=PLC3591A8FE4ADBE07)   
+ [Video: Hierarchy Visualization in Microsoft Dynamics CRM 2015](https://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)  -->
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

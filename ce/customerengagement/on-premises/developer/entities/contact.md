@@ -183,7 +183,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [MarketingOnly](#BKMK_MarketingOnly)
 - [MiddleName](#BKMK_MiddleName)
 - [MobilePhone](#BKMK_MobilePhone)
-- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [msdyn_orgchangestatus](#BKMK_msdyn_orgchangestatus)
 - [NickName](#BKMK_NickName)
 - [NumberOfChildren](#BKMK_NumberOfChildren)
@@ -2327,31 +2326,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|50|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
-
-**Added by**: SI Common Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Describes whether contact is opted out or not|
-|DisplayName|GDPR Optout|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_gdproptout|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_gdproptout Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
 
 
 ### <a name="BKMK_msdyn_orgchangestatus"></a> msdyn_orgchangestatus

@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 05/26/2021
+ms.date: 07/28/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,13 +22,15 @@ ms.custom:
 > [!NOTE]
 > We recommend that you enable and use unified routing for automatically routing records in Customer Service. More information: [Overview of unified routing](overview-unified-routing.md).
 
-Use routing rules in Customer Service to route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
+Use routing rules in Customer Service to route cases to the right agents at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
+
+Routing rules are solution-aware entities. You can export routing rules from one environment to another by using the solution import export tool. However, rules are mapped to a queue, user, or team that's not solution-aware data. Therefore, after exporting the data, you’ll need to edit mappings of each rule items to correspond to the queue, user, or team in the target environment.
 
 ## Add routing rulesets site map for custom apps
 
-While creating custom apps, you might not have routing rules sets available in your site map. You must add the routing rulesets to the site map for your custom app to access. To add routing rulesets to the site map, follow these steps:
+While creating custom apps, you might not have routing rulesets available in your site map. You must add the routing rulesets to the site map for your custom app to access. To add routing rulesets to the site map, follow these steps:
 
-1. Sign in to https://"<"org">*.dynamics.com/apps, and go to App designer.
+1. Sign in to https://"<"org">*.dynamics.com/apps, and go to App Designer.
 
 2. Select the **More Options** ellipsis (...) on your custom app, and then select **OPEN IN APP DESIGNER**. The **App Designer** page appears.
 
@@ -55,7 +57,7 @@ To Learn more, see [Create a site map for an app using the site map designer](..
 
 ## Create a routing ruleset (Customer Service Hub)
 
-You can create routing rule sets in Customer Service Hub to automatically route cases. This capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#unified-interface-enablement-of-case-routing-rules)
+You can create routing rulesets in Customer Service Hub to automatically route cases. This capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#unified-interface-enablement-of-case-routing-rules)
 
 ### Prerequisites
 
@@ -71,7 +73,7 @@ Review the following prerequisites before creating a routing ruleset:
 
 ### Create routing rulesets to route cases
 
-When creating routing rulesets, you can add multiple rule items and arrange them in the required order. The rule items are evaluated in the order of definition. Rule items are evaluated from top to bottom. If a rule item is evaluated as true, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as false, further rule items are evaluated.
+When creating routing rulesets, you can add multiple rule items and arrange them in the required order. The rule items are evaluated in the order of their definition. Rule items are evaluated from top to bottom. If a rule item is evaluated as true, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as false, further rule items are evaluated.
 
 1. In the Customer Service Hub site map, go to **Service Management**, and select **Case Settings** > **Routing Rule Sets**.
 
@@ -98,6 +100,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
       > [!NOTE]
       > The following limitations are applicable when defining a rule criteria in Customer Service Hub:
+
       > - You can’t select a time value for the Date and Time data type. If you try to edit an existing rule item that was created in the web client, the time will be set to 00:00.
       > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
       > - The related entity inside a group of the and/or clause is not supported.
@@ -118,6 +121,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 7. In the **Routing Rule Set** record, select **Activate**. The ruleset is applied to cases that match the conditions in the rule.
 
     > [!NOTE]
+
     > - Only one routing ruleset can be active at any point in time. If you try to activate a rule when another rule is active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
     > - If you want to edit an active routing ruleset, you must deactivate it. To successfully import a solution that includes an active routing ruleset into an organization where a rule exists with the same ID, deactivate the rule in the organization.
 

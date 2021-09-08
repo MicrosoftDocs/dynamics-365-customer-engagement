@@ -1,7 +1,8 @@
 ---
 title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
+description: Understand the configuration needed after you install Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "12/13/2019"
+ms.date: "07/26/2021"
 ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +17,6 @@ ms.author: matp
 manager: kvivek
 ---
 # Post-installation and configuration guidelines for Microsoft Dynamics 365
-
-
 
 This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] administrator should consider after the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] application is installed. This section isn’t meant to be an exhaustive resource used to configure deployments. Instead, use this section as a guideline to determine what best practices to implement and features to configure, based on your organization's needs.  
   
@@ -44,7 +43,7 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 <a name="BKMK_configure_IFD"></a>   
 ## Configure a Dynamics 365 Internet-facing deployment  
- After all [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] roles are installed, you can configure the deployment so that remote users can connect to the application through the Internet. To do this, start [!INCLUDE[cc_Rule_Deployment_manager_short](../includes/cc-rule-deployment-manager-short.md)] and complete the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] followed by the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)]. Alternatively, you can complete these tasks using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)]. More information: [Overview of Dynamics 365 Customer Engagement (on-premises) PowerShell](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps)  
+ After all [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] roles are installed, you can configure the deployment so that remote users can connect to the application through the Internet. To do this, start [!INCLUDE[cc_Rule_Deployment_manager_short](../includes/cc-rule-deployment-manager-short.md)] and complete the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] followed by the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)]. Alternatively, you can complete these tasks using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)]. More information: [Overview of Dynamics 365 Customer Engagement (on-premises) PowerShell](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps&preserve-view=true)  
   
 > [!IMPORTANT]
 >  For [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] to successfully connect to a new deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must run a Repair of the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] application on the server running [!INCLUDE[pn_iis](../includes/pn-iis.md)] where the [!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] role is installed *after* the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] is successfully completed. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Uninstall, change, or repair Microsoft Dynamics 365 Server](uninstall-change-repair-dynamics-365-server.md)  -->
@@ -154,24 +153,28 @@ If clients experience issues connecting through the IFD after you have registere
 #### Remove site authentication providers
 1. On the Dynamics 365 Server where the web application server role is running, open Internet Information Services (IIS) Manager. 
 2. In the left pane, under the organization name, expand **Sites**, and then select **Microsoft Dynamics CRM**. 
-3. Expand the **XRMServices** folder, and then select **2011**. 
-4. Double-click **Authentication** in the middle pane.
-5. Right-click **Windows Authentication**, and then select **Enable**.
-6. Right-click **Windows Authentication**, and select **Providers**. For each provider in the list, select the provider, and then select **Remove**. 
+3. Double-click **Authentication** in the middle pane.
+4. Right-click **Windows Authentication**, and select **Providers**. For each provider in the list, select the provider, select **Remove**, and then select **OK**. 
 7. After all providers are removed, right-click **Windows Authentication**, and then select **Disable**.
 
    ![Remove site provider.](media/remove-site-provider.png)
 
 Repeat the previous steps to remove all Windows Authentication providers from the **nga** and **AppWebServices** site folders. 
 
-#### Disable integrated windows authentication to prevent client authentication prompts 
+<!-- #### Disable integrated windows authentication to prevent client authentication prompts 
 1. On the AD FS server, open AD FS Management. 
 2. Select **Authentication Policies** on the left pane.
 3. In the middle pane, in **Global Settings**, locate **Authentication Methods** and then select **Edit**. 
 4. Clear **Windows Authentication** if it is checked, and then select **OK**.
 
-   ![Disable integrated windows authentication.](media/disable-windows-auth.png)
-   
+   ![Disable integrated windows authentication.](media/disable-windows-auth.png) -->
+
+#### Add the AD FS address to the client local intranet zone to avoid client authentication prompts
+
+1.	On the client computer, select **Start**, enter *inetcpl.cpl*, and select Enter to open **Internet Properties**.
+2.	Select the **Security** tab, select the **Local intranet** zone, select **Sites**, and then select **Advanced**.
+3. Enter in the AD FS address, select **Add**, select **Close**, select **OK**, and then select **OK** again.
+
 #### Grant application permission when using Windows Server 2016 AD FS 
 On the AD FS server, run the following command in a Windows PowerShell console. This is required if you use Windows Server 2016 AD FS.
 

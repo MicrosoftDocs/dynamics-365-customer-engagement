@@ -1,6 +1,6 @@
 ---
-title: "Download a template for data import  | MicrosoftDocs"
-description: " Import the data into Dynamics 365 Customer Engagement (on-premises) so you can keep track of all your customer information in one place."
+title: "Data import template for Dynamics 365 Customer Engagement (on-premises)"
+description: "Use templates for importing many types of records, such as accounts, leads, or cases. You can find a complete list in the Templates for Data Import wizard."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -24,7 +24,7 @@ search.audienceType:
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
 
-Whether your data is stored in spreadsheets, databases, or other systems, you'll want to import the data into Dynamics 365 Customer Engagement (on-premises) so you can keep track of all your customer information in one place. You use templates for importing many types of records, such as accounts, leads or cases. There is a complete list in the Templates for Data Import wizard.  
+Whether your data is stored in spreadsheets, databases, or other systems, you'll want to import the data into Dynamics 365 Customer Engagement (on-premises) so you can keep track of all your customer information in one place. You use templates for importing many types of records, such as accounts, leads, or cases. There is a complete list in the Templates for Data Import wizard.  
   
 1. Make sure you have the System Administrator security role or equivalent permissions.
   

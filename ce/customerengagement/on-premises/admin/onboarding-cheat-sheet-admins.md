@@ -1,6 +1,6 @@
 ---
-title: "Onboarding Cheat Sheet for admins | MicrosoftDocs"
-description: "Get your organization on board with Dynamics 365 Customer Engagement (on-premises)."
+title: "Steps for onboarding to Dynamics 365 Customer Engagement (on-premises)"
+description: "Get an onboarding cheat sheet for Dynamics 365 Customer Engagement (on-premises), including tips for adding people, downloading apps, importing data, and more."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -23,33 +23,33 @@ search.audienceType:
 
 Here are the seven steps to getting your organization on board with Dynamics 365 Customer Engagement (on-premises), and links to guides to help you complete each step. And if you haven't already seen it, check out the video for an overview of these seven steps to onboarding success.  
   
-<a name="heroArea"></a> [![Thumbnail for admin onboarding video](../admin/media/thumbnail-admin-onboarding-video.png "Thumbnail for admin onboarding video."](https://go.microsoft.com/fwlink/?linkid=835697)  
+<a name="heroArea"></a> [![Thumbnail for admin onboarding video](../admin/media/thumbnail-admin-onboarding-video.png "Thumbnail for admin onboarding video.")](https://go.microsoft.com/fwlink/?linkid=835697)  
   
-## Step one: Add your people 
+## Step 1: Add your people 
   
 -   [Create users and assign security roles](create-users-assign-online-security-roles.md)
   
-## Step two: Set up email  
+## Step 2: Set up email  
   
 -   [Integrate (synchronize) your email system](integrate-synchronize-your-email-system.md)
   
-## Step three: Get mobile apps 
+## Step 3: Get mobile apps 
   
 -   [Dynamics 365 for phones and tablets User's Guide](../basics/dynamics-365-phones-tablets-users-guide-onprem.md)  
   
-## Step four: Customize your system  
+## Step 4: Customize your system  
   
 -   [Customization Guide](../customize/getting-started-customization.md)  
   
-## Step five: Add SharePoint  
+## Step 5: Add SharePoint  
   
 -   [Set up SharePoint integration with Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md)  
   
-## Step six: Skype!  
+## Step 6: Skype!  
   
 -   [Skype for Business and Skype integration](skype-business-integration.md)  
   
-## Step seven: Import your data  
+## Step 7: Import your data  
   
 -   [Import contacts](../basics/import-contacts.md)  
   

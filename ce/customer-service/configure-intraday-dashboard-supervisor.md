@@ -21,7 +21,7 @@ Supervisors have a dual responsibility with respect to agents and customers. T
 You can customize Intraday insights if you use Power BI or Power BI Premium licenses. You can't customize Insights in a pre-configured Power BI workspace that doesn't have a Power BI license.
 
  > [!NOTE]
- > The pre-configured Power BI workspace version of intraday insights is only available for organizations that are provisioned in a public cloud and isn't available in Unified Service Desk.
+ > The pre-configured Power BI workspace version of intraday insights is only available for organizations that are provisioned in a public cloud and isn't available in Government Community Cloud (GCC) and Unified Service Desk.
 
 As an administrator, you must configure intraday insights before supervisors can use it. To configure intraday insights for your organization, follow the scenario that is applicable for your environment.
 

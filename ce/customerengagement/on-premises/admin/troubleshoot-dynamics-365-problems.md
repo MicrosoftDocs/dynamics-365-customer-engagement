@@ -1,6 +1,6 @@
 ---
-title: "Troubleshoot problems | MicrosoftDocs"
-description: "Use the following list of troubleshooting topics to quickly find information to solve your issue."
+title: "Troubleshoot issues in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use the following list of troubleshooting topics to find information on solving issues regarding email integration, billing and licensing, security, and more."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

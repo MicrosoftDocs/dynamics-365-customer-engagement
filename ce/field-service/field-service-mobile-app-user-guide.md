@@ -160,7 +160,7 @@ This helps ensure that when work orders or related records are deleted on the se
 
 **Save**.
 
-Next up, go to **Mobile Projects **and double-click on your mobile project template.
+Next up, go to **Mobile Projects**and double-click on your mobile project template.
 
 Select **Configuration** in the left pane.
 

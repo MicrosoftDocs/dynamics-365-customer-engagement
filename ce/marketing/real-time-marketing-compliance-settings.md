@@ -1,7 +1,7 @@
 ---
 title: "Manage user compliance settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manage real-time marketing compliance settings in Dynamics 365 Marketing."
-ms.date: 04/30/2021
+ms.date: 08/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,16 +20,13 @@ search.app:
 
 # Manage user compliance settings
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference page setup, and outbound consent settings.
 
 ## Compliance terms and definitions
 
 - **Consent center** (**Real-time marketing** > **Audience** > **Consent center**): The area within real-time marketing where you can manage your customers’ consent per contact point, either for email or mobile phone number.
 - **Compliance** (**Settings** > **Customer engagement** > **Compliance**): The area within the Dynamics 365 Marketing settings where an administrator sets up compliance for:
-    - **Real-time marketing**: The administrator can select the consent model, enter the company’s physical address, and define the content of the end user’s preference center page.
+    - **Real-time marketing**: The administrator can select the consent model, select whether to request tracking consent from your customers, enter the company’s physical address, and define the content of the end user’s preference center page.
     -	**Outbound marketing**: The administrator can enable use of the minimum consent level attribute for customer journeys and audit the *Consent given* field (formerly called *GDPR configuration*).
 - **Consent model**: The model that is applied throughout the system. There are two options to select from: Restrictive and Non-Restrictive (see details below).
 - **Preference center page**: A web page where your customers can change their consent settings for receiving emails and text messages, as well as for tracking.
@@ -53,16 +50,24 @@ There are two options to select from. With the **Restrictive** model, your custo
 |--------------|--------------|------------------|
 | FALSE        | FALSE        | FALSE            | 
 
-With the **Non-restrictive** model, your customers’ initial opt-ins will *not* be required to receive marketing emails and allow behavior tracking. In compliance with the [United State Telephone Consumer Protection Act (TCPA)](https://www.fcc.gov/sites/default/files/tcpa-rules.pdf), sending text messages will still require customers to opt in first. Default values for these fields are the following:
+> [!NOTE]
+> Double opt-in is not currently supported in real-time customer journeys.
+ 
+With the **Non-restrictive** model, your customers’ initial opt-ins will *not* be required to receive marketing emails and allow behavior tracking. However, sending text messages will still require customers to opt in first. Default values for these fields are the following:
 
 | Allow Email  | Allow SMS    | Allow Tracking   |
 |--------------|--------------|------------------|
 | TRUE         | FALSE        | TRUE             | 
 
-The administrator will also need to enter a valid physical postal address for your organization. By default, the address that was entered during the Dynamics 365 Marketing setup is displayed. You may change the address at any time. The address will be included in the content of all marketing emails. 
+You can define whether to gather tracking consent from your customers by selecting the **Get tracking consent from customers** toggle. By default, the toggle is set to **Yes**, which adds the consent to the Preference page. If you choose to not gather tracking consent, you'll be requested to enter the default value for the type of consent the system will use.
+
+> [!NOTE]
+> If tracking consent is set to **No**, you will not be able to capture customer interactions such as whether the customer has opened an email.
+
+The administrator will also need to enter a valid physical postal address for your organization. You may change the address at any time, either in the compliance center or directly in the email editor. The address will be included by default in the content of all marketing emails. 
 
 > [!IMPORTANT]
-> If the physical address field is empty, marketing emails will be blocked in customer journeys.
+> If the physical address field is empty, you will see a warning both in the email editor and in the customer journey designer.
 
 ## Preference page
 
@@ -84,6 +89,9 @@ The Preference page includes the following content:
 - **Submit button label**: Text for the *Submit* button.
 - **Thank you page**: Text for the confirmation or thank you page (in case of success).
 - **Error page**: Text for the error page (in case of error in submitting).
+
+> [!NOTE]
+> You can preview your Preference page by selecting the **Preview the page** link on the bottom of the page. It will open a new window and show an example of the Preference page with the changes you've made.
 
 After configuring the **Compliance** and **Preference page** tabs, select **Save**.
 

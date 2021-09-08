@@ -18,7 +18,7 @@ Enables you to delete opportunity, quote, order, and invoice line item without t
 
 |Name|Type|Required|Description|
 |----|----|----|----|
-|entityName|String|Yes|Name of the entity|
+|entityLogicalName|String|Yes|Name of the entity|
 |entityId|GUID|Yes|Unique identifier of the entity record|
 
 ## Example
@@ -30,7 +30,7 @@ This custom action can be used both client-side and server-side. Given below are
 ```html
 POST [Organization URI]/api/data/v9.1/DeleteOQOILineWithSkipPricingCalculation
 {
-    "entityName": "invoicedetail",
+    "entityLogicalName": "invoicedetail",
     "entityId":"91F3EDB0-213B-E911-8190-000D3AFD8945"
 }
 ```

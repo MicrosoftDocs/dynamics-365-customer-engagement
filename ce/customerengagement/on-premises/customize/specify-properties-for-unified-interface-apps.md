@@ -1,6 +1,6 @@
 ---
-title: "Specify properties for Unified Interface apps with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to configure the grid control for your app"
+title: "Set grid properties for Unified Interface apps in Dynamics 365 Customer Engagement (on-premises)"
+description: "As an app maker working with a Unified Interface app, you can configure the Read Only Grid control and its properties for custom grids and lists."
 keywords: 
 ms.date: 01/09/2019
 ms.prod: d365ce-op
@@ -22,7 +22,7 @@ search.audienceType:
   - customizer
 
 ---
-# Specify properties for Unified Interface apps
+# Configure the properties for custom grids and lists in Unified Interface apps
 
 The Unified Interface framework uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With custom business apps that use the Unified Interface framework, the grid (view) control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
 

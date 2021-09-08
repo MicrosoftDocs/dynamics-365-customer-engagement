@@ -52,7 +52,7 @@ Field service capabilities include:
 - **Time tracking** to help you track how resources are spending their time, whether they're traveling, on break, or working.
 - **Analytics for reporting** on key performance indicators for managing work orders, scheduling activities, and interacting with customers.
 
-## Customer Stories
+## Customer stories
 
 - ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sodexo – Facilities Management](https://youtu.be/awSwCtgZvXE)
 

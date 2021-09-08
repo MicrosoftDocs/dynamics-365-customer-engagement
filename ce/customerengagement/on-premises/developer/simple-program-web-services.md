@@ -34,7 +34,7 @@ This topic shows you how to compile and run a  program that creates an account r
 
 1. Extract the downloaded file and open the \C#\QuickStart.csproj
 2. Open the \C#\QuickStart.csproj file in [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short.md)].  
-3. Right click the **QuickStart** project in the solution explorer and select **Manage NuGet Packages...*
+3. Right click the **QuickStart** project in the solution explorer and select **Manage NuGet Packages...**
 4. Select the **Microsoft.CrmSdk.CoreAssemblies** package and update to the latest stable version.
 5. Press **F5** to compile and run the program.  
 6. Enter the following information at the prompts:

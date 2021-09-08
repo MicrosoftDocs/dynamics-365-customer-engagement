@@ -308,8 +308,8 @@ You can add notes, but can't capture and attach photos, videos, or audio. Howeve
 
 You'll see the barcode scanner button ![Barcode scanner.](media/scannerbutton.png "Barcode scanner") on multiple forms; however, it isn't supported in early access.
 
-### Embedded Power BI and report canvas won't render
+###  Power BI reports and Custom Pages are not supported
 
-No embedded Power BI dashboard will be rendered if it requires authentication to access the report.
+Embedded Power BI reports and Custom Pages are not supported in the Dynamics 365 (Preview) app for Windows.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

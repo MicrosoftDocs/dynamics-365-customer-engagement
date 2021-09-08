@@ -20,7 +20,7 @@ Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-o
 
 To provision the Omnichannel for Customer Service application, make sure the following prerequisites are met:
 
-- An active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. For more information on pricing, select [here](https://dynamics.microsoft.com/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required prerequisites, see [Try channels for Dynamics 365 Customer Service](try-channels.md) for more information.
+- An active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. For more information on pricing, select [here](https://dynamics.microsoft.com/customer-service/overview/pricing). You can also get a free 30-day trial if you have the required prerequisites, see [Try channels for Dynamics 365 Customer Service](try-channels.md) for more information.
 - Ensure that the prerequisites mentioned in the system requirements are set up. More information, see [Prerequisites](system-requirements-omnichannel.md#prerequisites).
 - The **Global Tenant Admin** and **Dynamics 365 System Admin** permissions for your organization.
 
@@ -36,7 +36,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
     > [!div class=mx-imgBorder]
     > ![Grant consent.](media/data-consent.png "Grant consent")
 
-> For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions).
+> For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
 
 ## Set up Omnichannel for Customer Service
 

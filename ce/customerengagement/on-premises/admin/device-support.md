@@ -1,6 +1,6 @@
 ---
-title: "Support for devices | MicrosoftDocs"
-description: "Customer Engagement (on-premises) support for mobile devices."
+title: "Device support for Dynamics 365 Customer Engagement (on-premises)"
+description: "Get information on the mobile devices and versions supported by Dynamics 365 Customer Engagement (on-premises)."
 ms.date: 10/01/2019
 ms.reviewer: 
 ms.prod: d365ce-op
@@ -19,9 +19,9 @@ search.audienceType:
   - admin
 
 ---
-# Support for devices
+# Support for mobile devices
 
-For information about Customer Engagement (on-premises) support for mobile devices, see [What's supported](../../../mobile-app/support-phones-tablets.md) in the Phones and Tablets Administrator Guide.
+For information about Customer Engagement (on-premises) support for mobile devices, see [What's supported](../../../mobile-app/support-phones-tablets.md) in the phones and tablets administrator guide.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

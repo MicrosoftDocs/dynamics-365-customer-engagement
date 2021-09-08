@@ -7,7 +7,7 @@ author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 searchScope:
-- D365-App-customerservice
+- D365-App-customerservicehub
 - D365-Entity-queueitem
 - D365-UI-*
 - Customer Engagement

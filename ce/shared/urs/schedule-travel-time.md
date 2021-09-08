@@ -21,8 +21,8 @@ In this article, we will explore how travel time and distance are calculated and
 
 In the following screenshot, a work order has **Work Location** set to **Onsite**; this is passed to the related work order requirement. When that work order requirement is scheduled to a resource, the system will look at the work location field, the location of the requirement, and the location of the resource in order to calculate travel time.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of work order settings tab showing work location of on site.](../../field-service/media/scheduling-work-order-location-onsite.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of work order settings tab showing work location of on site.](../../field-service/media/scheduling-work-order-location-onsite.png)
 
 
 ## Visualize travel time on the schedule board
@@ -209,7 +209,7 @@ For more information, see our article on [predictive travel with resource schedu
 - The out-of-the-box functionality supports travel time and distance calculations only for driving, not walking or flying.
 - If **Auto Geocode Addresses** is turned on, imported records will be geocoded, as will updates to the **Address 1** field.
 
-### Auto Update Booking Travel for Field Service version 8.6 and later**
+### Auto Update Booking Travel for Field Service version 8.6 and later
 
 The Auto Update Booking Travel feature for manual scheduling needs two locations to work. For example, if a resource has a starting location, and the first requirement scheduled to the resource has a location (for instance, the work location is **Onsite**), then the travel time will be calculated and visualized. If the resource does not have a starting location (for instance, if the resource start location is **Location Agnostic**), the first onsite requirement scheduled will not have a travel time. However, if an onsite requirement is scheduled after another onsite requirement, then the feature has two known locations, and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
 

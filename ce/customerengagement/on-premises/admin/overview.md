@@ -1,6 +1,6 @@
 ---
-title: "Administrator Guide for Dynamics 365 Customer Engagement (on-premises), version 9 | MicrosoftDocs"
-description: "Resources and topics provided to help you manage and configure Customer Engagement (on-premises) applications and services."
+title: "Administrator guide to Dynamics 365 Customer Engagement (on-premises)"
+description: "This guide contains resources to help administrators manage and configure Dynamics 365 Customer Engagement (on-premises) applications and services."
 ms.custom: on-premises
 ms.date: 09/12/2020
 ms.reviewer: "kvivek"
@@ -10,7 +10,7 @@ author: "kvivek"
 ms.author: "kvivek"
 manager: "kvivek"
 ---
-# Administrator Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
+# Administrator guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
 Implementers and administrators for Dynamics 365 Customer Engagement (on-premises) will find the resources and topics provided in this guide to help you manage and configure Customer Engagement (on-premises) applications and services.
 

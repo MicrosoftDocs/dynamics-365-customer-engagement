@@ -173,7 +173,7 @@ You can also configure the **Transfer to agent** node in the Power Virtual Agent
 
 The global variables that are created in Power Virtual Agents can be passed to Omnichannel for Customer Service when a conversation is escalated. For the complete list, see [Contextual variables available upon hand off](/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off)
 
-### Known limitations
+### Limitations
 
 | Description     | Limitation     |
 |-----------------|----------------|
@@ -181,13 +181,16 @@ The global variables that are created in Power Virtual Agents can be passed to O
 | **Single sign-on (SSO):** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
 | **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
 | **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
-| **File attachments:** After file attachments are enabled in Omnichannel for Customer Service, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel for Customer Service file attachments. |
-|||
+
+## When is a conversation closed in Customer Service for Omnichannel
+
+When bots receive a conversation that is subsequently not escalated to a human agent, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
+
+This conversation will then appear in the **Closed** state in the Customer Service for Omnichannel dashboard and in **Resolved/abandoned** state in the Power Virtual Agents dashboard. For more information on the state of conversations, see [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
 ## Enable a Power Virtual Agent bot to end conversations
 
-A Power Virtual Agents bot can choose to end conversations if it determines that the customer query has been solved or the when the customer has been inactive for a period of time. The bot can choose to end conversations only after 30 minutes of inactivity.
-
+You can configure the Power Virtual Agents bot to end conversations if the customer query has been solved or the when the customer has been inactive for a period of time. The bot conversations will automatically close after 30 minutes of inactivity.
 
 ## Privacy notice
 

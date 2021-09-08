@@ -107,7 +107,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 1. To add an organization, choose one of the following:
 
-   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 apps ** from the drop-down list.  
+   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 apps** from the drop-down list.  
 
 2. Click **Connect**.
 

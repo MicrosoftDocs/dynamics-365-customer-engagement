@@ -20,7 +20,7 @@ Boost your sales close rates with information that will help you find, understan
 ## Get started
  [InsideView Insights Overview on AppSource](https://go.microsoft.com/fwlink/p/?linkid=2061233)
 
- [![Reader button](../insights-insideview/media/reader-button.png "Reader button."](https://go.microsoft.com/fwlink/p/?LinkId=524621) [Effective B2B selling with Insights](https://go.microsoft.com/fwlink/p/?LinkId=524621)
+ [![Reader button](../insights-insideview/media/reader-button.png "Reader button.")](https://go.microsoft.com/fwlink/p/?LinkId=524621) [Effective B2B selling with Insights](https://go.microsoft.com/fwlink/p/?LinkId=524621)
 
  [InsideView home page](https://go.microsoft.com/fwlink/p/?LinkId=524622)
 

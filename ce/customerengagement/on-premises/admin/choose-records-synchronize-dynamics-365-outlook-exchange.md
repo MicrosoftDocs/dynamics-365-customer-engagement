@@ -1,6 +1,6 @@
 ---
-title: "Choose the records to synchronize between Customer Engagement (on-premises) and Outlook or Exchange | MicrosoftDocs"
-description: "Determine which records to synchronize between Customer Engagement and Outlook or Exchange."
+title: "Use synchronization filters in Dynamics 365 Customer Engagement (on-premises)"
+description: "Create or modify online synchronization filters to determine which records are synced between Customer Engagement (on-premises) and Exchange."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Choose the records to synchronize between Customer Engagement (on-premises) and Exchange 
+# Use filters to synchronize records between Customer Engagement (on-premises) and Exchange
 
 Dynamics 365 Customer Engagement (on-premises) uses online synchronization filters to determine which records to synchronize between Customer Engagement (on-premises) and [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (using [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)]). You can modify the existing online synchronization filters or create new filters to synchronize certain types of records. You can also delete, deactivate, or activate filters.  
   

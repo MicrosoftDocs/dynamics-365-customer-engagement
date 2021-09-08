@@ -1,7 +1,7 @@
 ---
 title: Set up a search provider in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 04/07/2021
+ms.date: 08/12/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -28,11 +28,11 @@ You can use search providers to federate the search of files, documents, or arti
 You can set up the following search providers:
 
 > [!NOTE]
-> Use of the search provider feature is not currently supported in the US Department of Defense cloud.<br></br> The SharePoint and the Microsoft Graph connector integrations are currently in preview and are subject to change.
+> Use of the search provider feature is not currently supported in the US Department of Defense cloud.
 
   -	**Cross-Organizational Search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. 
-  -	**Sharepoint** (Preview): This option requires you to enter the SharePoint URL. 
-  -	**Microsoft Graph connector** (Preview): This option is for organizations that already use Microsoft Search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft Graph connectors, see [Overview of Microsoft Graph connectors](/microsoftsearch/connectors-overview).
+  -	**Sharepoint**: This option requires you to enter the SharePoint URL. 
+  -	**Microsoft Graph connector**: This option is for organizations that already use Microsoft Search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft Graph connectors, see [Overview of Microsoft Graph connectors](/microsoftsearch/connectors-overview).
   
 From an authentication perspective, your agents must have access to external content or they won't be able to view search results. 
 
@@ -69,7 +69,11 @@ To set up a search provider, do the following:
 
 ## Post-configuration agent experience
 
-After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org. Search results display the first three articles for each search provider. Agents can select **Show more** to view additional results.
+After you have configured the search providers, an agent who uses the search functionality can view links in their search results for each search provider included in their current org.
+
+>[!NOTE]
+>
+>If at least one knowledge search provider is enabled and configured, then the configured  value for article search results will not be applicable. For each configured search provider, three article search results will be displayed. Agents can select **Show more** to view additional results. For more information on articles shown in search results, see [Add the Knowledge Base Search control to forms](./add-knowledge-base-search-control-forms.md).
 
    > [!div class=mx-imgBorder]
    > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")

@@ -25,31 +25,36 @@ The workstream can be one of the following types:
 
 > [!IMPORTANT]
 >
-> - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](set-up-record-routing.md#provision-unified-routing).
+> - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md).
 > - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
 ## Create a workstream
 
-While you can create the workstreams for unified routing in the Omnichannel admin center and Customer Service Hub apps, this topic covers the steps for Omnichannel admin center.
+You can create workstreams for unified routing in the Omnichannel admin center and Customer Service Hub apps.
 
 Perform the following steps:
 
-1. In Omnichannel admin center, in the site map, select **Workstreams** under **General settings**, and then select **New**.
+1. In Omnichannel admin center, in the site map, select **Workstreams** under **General settings**. In Customer Service Hub, in the site map, select **Workstreams** under **Unified Routing**.
 
-2. In the **Create a workstream** dialog box, enter the following details:
+2. Select **New**.
+
+3. In the **Create a workstream** dialog box, enter the following details:
 
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
     - **Work distribution mode**: Select **Push** or **Pick**.
+         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up.
+         - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
     - **Type**: Select one of the following types:
-      - **Messaging**: To configure the workstream for chat and other conversation channels.
-      - **Record**: To configure the workstream for entity record, such as case and email activity.
+         - **Messaging**: To configure the workstream for chat and other conversation channels.
+         - **Record**: To configure the workstream for entity record, such as case and email activity.
     - **Channel**: This box appears if you have selected the type as **Messaging**. Select a channel from the list.
     - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md).
 
-3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
+4. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
     > ![Set up a channel.](media/set-up-chat.png "Set up a channel")
-4. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
+
+5. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
    - [Configure a Facebook channel](configure-facebook-channel.md)
    - [Configure a WeChat instance](configure-wechat-channel.md)
@@ -73,7 +78,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 
 In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options:
 
-- **Auto-close after inactivity**: Select a time period after which inactive conversations will be moved to the closed state automatically.
+- **Auto-close after inactivity**: Select a time period after which inactive conversations will be moved to the closed state automatically. More information: [Automatic closure of conversation](oc-conversation-state.md#automatic-closure-of-a-conversation)
 - **Work distribution mode**: The option that you selected in step 3 is displayed and can't be edited.
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your organization has configured unit-based capacity.
@@ -96,7 +101,8 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 To add a bot, the bot must be configured and available for selection. After a bot is added to the workstream, the selected bot will be the first to pick up the incoming work item at runtime. When a work item needs to be assigned, the classification rules are run and the work distribution system checks and routes the work item to the bot if the selected workstream has a bot.
 
-For information about how to configure bots in Power Virtual Agents, see [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md). For information about how to configure Azure bots, see [Integrate an Azure bot](configure-bot.md).
+For information about how to configure bots in Power Virtual Agents, see [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md).
+For information about how to configure Azure bots, see [Integrate an Azure bot](configure-bot.md).
 
 1. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
 2. In **Add a bot**, select the required bot in the **Name** list, and select **Save and close**.
@@ -110,7 +116,7 @@ Context variables enrich conversations with pre-chat data, channel data, and cus
 
 1. Select **Add context variable** in the **Advanced settings** section of a workstream.
 2. In the **Edit** pane, select **Add**, and enter **Name**.
-3. Select the **Type** of variable from the drop-down list. You can choose from **Text** or **Number**.
+3. Select the **Type** of variable from the dropdown list. You can choose from **Text** or **Number**.
 4. Repeat steps 2 and 3 to create the required variables.
 
 ### Manage workstreams in Omnichannel admin center
@@ -118,9 +124,10 @@ Context variables enrich conversations with pre-chat data, channel data, and cus
 You can manage the workstreams on the workstreams page in the Omnichannel admin center app.
 
 Select a workstream to perform any of the following actions:
+
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
-- **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of"*<workstream>*.
-- **Delete**: Lets you delete the workstream if you no longer need it1 in your organization.
+- **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
+- **Delete**: Lets you delete the workstream if you no longer need it in your organization.
 
 ### Agent affinity
 

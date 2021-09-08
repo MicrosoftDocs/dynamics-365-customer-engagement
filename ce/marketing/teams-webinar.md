@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 06/01/2021
+ms.date: 07/22/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -50,6 +50,30 @@ Webinars are useful for conference keynotes or meetings where a few presenters a
 > [!NOTE]
 > You can only create "public" Teams webinars from Dynamics 365 Marketing. These events are open to anyone who registered for the event.
 
+#### Enable Teams webinars in Dynamics 365
+
+To enable Teams webinars, the following policies need to be set by the Teams tenant administrator. These settings ensure that anyone, including anonymous users, can register for webinars. To implement the settings, run the following PowerShell commands:
+
+1. Turn on meeting registration:
+
+```powershell
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+```
+
+2. Turn on private meeting scheduling:
+
+```powershell
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
+```
+
+3. Allow anyone, including anonymous users, to register for webinars:
+
+```powershell
+Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
+```
+
+Read more: [Set up for webinars in Microsoft Teams](/microsoftteams/set-up-webinars)
+
 #### Webinar settings
 
 The default webinar settings are configured to provide the best attendee and presenter experience. However, you can easily tweak these settings from your Dynamics 365 Marketing event. To change the default settings, set the **Change meeting options** switch to **Yes**. This reveals the settings for the webinars, which can be tweaked on a per-event basis.
@@ -57,7 +81,7 @@ The default webinar settings are configured to provide the best attendee and pre
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Webinar settings.](./media/teams-webinar-settings.png)
 
-Read more about [Teams Meeting settings here](/microsoftteams/meeting-settings-in-teams).
+Read more: [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-settings-in-teams)
 
 #### Webinar roles
 

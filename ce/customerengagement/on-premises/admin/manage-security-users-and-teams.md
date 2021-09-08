@@ -1,6 +1,6 @@
 ---
-title: "Manage security, users, and teams | MicrosoftDocs"
-description: "Information about users, teams, and security in Dynamics 365 Customer Engagement (on-premises)."
+title: "Manage security and users in Dynamics 365 Customer Engagement (on-premises)"
+description: "This page guides you to Information about managing security, users, and teams in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

@@ -9,7 +9,7 @@ ms.reviewer: nenellim
 ---
 
 
-# Configure the email experience
+# Customize the email experience
 
 The email configuration experience enables users to be more effective and efficient when using email to communicate with customers. This topic discusses how to configure the email editor, email template builder, and email signature builder, which accepts the full configuration capability of the Rich Text Editor control.
 

@@ -1,6 +1,6 @@
 ---
-title: "lcw error | MicrosoftDocs"
-description: lcw error (Omnichannel for Customer Service JavaScript API reference)
+title: "lcw:error | MicrosoftDocs"
+description: "Includes information about lcw:error event (Omnichannel for Customer Service JavaScript API reference)."
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -23,8 +23,8 @@ window.addEventListener("lcw:error", function (errorEvent) {
     let errorDescription = errorEvent.detail.errorDescription; // Description of the error
 });
 ```
-### See also
 
+### See also
 [lcw:ready](lcw-ready.md)<br />
 [JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Create or edit main forms in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit a main form"
+title: "Create a main form in Dynamics 365 Customer Engagement (on-premises)"
+description: "When you create a new form for an entity, its form type is Main. Learn how to customize the form by adding or editing fields, sections, properties, and more."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 

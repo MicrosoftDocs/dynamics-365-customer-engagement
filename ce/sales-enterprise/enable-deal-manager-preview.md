@@ -8,11 +8,14 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Enable the preview for the deal manager workspace 
+# Preview: Enable the deal manager workspace 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+> [!NOTE]
+> This feature is being rolled out in a phased manner across different regions. To verify the feature availability in your region, see the **Next Refresh Scheduled Date** for version 9.0.21072.10001 in the [Latest version availability](/dynamics365/released-versions/dynamics365sales) section. 
 
 The new deal manger workspace helps sellers be more productive and efficient. As an administrator, you must enable the preview and grant access to specific security roles that will need to access to the deal manager.  
 
@@ -66,5 +69,5 @@ The deal manager workspace is now available to administrators and the roles you 
 
 ### See also
 
-- [Grant access to deal manager (Preview)](grant-access-deal-manager.md)
-- [Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)
+- [Grant access to deal manager](grant-access-deal-manager.md)
+- [Using the deal manager workspace](deal-manager-seller-overview.md)

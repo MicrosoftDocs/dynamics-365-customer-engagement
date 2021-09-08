@@ -28,6 +28,10 @@ In this article, we will walk through:
 1. Creating a custom app module based on the "Field Service Mobile" app module.
 2. Adding the custom app module to the "Field Service Mobile" app module.
 
+> [!Note]
+> At this time, custom app modules will not include booking travel calculations. Travel calculations must be implemented via customization if not using the standard Field Service mobile app module.
+
+
 ## Create a custom app module based on "Field Service Mobile"
 
 In this section, we'll create a custom app module based on the "Field Service Mobile" app module, as seen in the following screenshot. 

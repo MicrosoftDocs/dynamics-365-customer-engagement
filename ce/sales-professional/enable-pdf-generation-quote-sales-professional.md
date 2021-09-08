@@ -6,15 +6,6 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope: 
-  - D365-App-msdyn_salespro
-  - D365-Entity-opportunity
-  - D365-Entity-quote
-  - D365-Entity-salesorder
-  - D365-Entity-invoice
-  - D365-UI-*
-  - Dynamics 365
-  - Sales
 ---
 
 # Enable or disable PDF generation from sales records (Sales Professional)

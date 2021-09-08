@@ -1,5 +1,5 @@
 ---
-title: "Define a goal metric - Sales Enterprise) | MicrosoftDocs"
+title: "Define a goal metric - (Sales Enterprise) | MicrosoftDocs"
 description: "Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals."
 ms.date: 02/10/2021
 ms.topic: article

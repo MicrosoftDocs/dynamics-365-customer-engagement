@@ -1,6 +1,6 @@
 ---
-title: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint Online
-description: "Configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Microsoft SharePoint Online."
+title: "SharePoint Online integration with Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to configure server-based integration between Dynamics 365 Customer Engagement (on-premises) and SharePoint Online."
 ms:assetid: 24245deb-48cb-4c13-adfe-efa2fe94b3cd
 ms.date: 04/16/2020
 ms.prod: d365ce-op

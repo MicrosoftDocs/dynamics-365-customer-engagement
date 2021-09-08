@@ -37,7 +37,7 @@ In Omnichannel for Customer Service, you can:
 - Use productivity tools
     - [Use agent scripts](oc-agent-scripts.md)
     - [View Smart assist](oc-smart-assist.md)
-    - [Use productivity pane](oc-productivity-pane.md)
+    - [Use productivity pane](productivity-pane.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
@@ -79,7 +79,7 @@ To learn more about the Facebook channel setup, see [Configure a Facebook channe
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-## See also
+### See also
 
 [Configure a Facebook channel](configure-facebook-channel.md)
 

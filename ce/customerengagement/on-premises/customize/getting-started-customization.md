@@ -1,6 +1,6 @@
 ---
-title: "Get started with custom business app making in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how you can get started building and customizing custom business apps"
+title: "Begin customization of Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to get started building and customizing business apps to more closely fit your organization’s industry, nomenclature, and unique business processes."
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 

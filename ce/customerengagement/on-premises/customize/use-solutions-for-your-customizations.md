@@ -1,6 +1,6 @@
 ---
-title: "Use solutions for your customizations (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
-description: "Learn how to customize the default solution"
+title: "Use solutions for customizations in Dynamics 365 Customer Engagement (on-premises)"
+description: "Create your own solution to manage your customizations. Learn why you shouldn't create apps and make customizations using the default solution."
 ms.custom: 
 ms.date: 02/28/2020
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Use a solution to customize  
+# Create a solution to manage customizations
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use the Common Data Services Default Solution](/powerapps/maker/common-data-service/use-solutions-for-your-customizations)
 
 We recommend that you create a solution to manage your customizations. With a custom solution, you can easily find just the solution components you’ve customized, consistently apply your solution publisher prefix, and export your solution for distribution to other environments.  

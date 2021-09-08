@@ -43,7 +43,7 @@ Autonumber sequencing is managed by SQL and is ensured to be unique.
 In the legacy web client, when adding a control on a form bound to an auto-number attribute, the control is disabled automatically and behaves as read-only in the form where end users cannot edit the control. In the Unified Interface, controls bound to an auto-number attribute need to explicitly be set as disabled. If you do not set the initial attribute value on the form, the value is set only after you save the entity. Auto-numbering can be applied to attribute field values in views, grids, and so on.
 
 ### Examples
-The following examples show how to create a new auto-number attribute named **new\_SerialNumber** for a custom entity named **new\_Widget, which will have a value that looks like this: **WID-00001-AB7LSFG-20170913070240**.
+The following examples show how to create a new auto-number attribute named **new\_SerialNumber** for a custom entity named **new\_Widget**, which will have a value that looks like this: **WID-00001-AB7LSFG-20170913070240**.
 Using the Organization service with SDK assemblies **CreateAttributeRequest** and **StringAttributeMetadata** classes:
 
 ```csharp

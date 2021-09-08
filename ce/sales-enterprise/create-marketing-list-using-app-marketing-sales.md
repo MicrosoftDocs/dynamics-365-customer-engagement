@@ -12,6 +12,7 @@ searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-list
   - D365-Entity-campaign
+  - D365-Entity-campaignactivity
   - D365-Entity-campaignresponse
   - D365-Entity-bulkoperation
   - D365-UI-*
@@ -78,7 +79,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
     #### Remove using Advanced Find  
   
-    1. In the **Add Members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
+    1. In the **Remove members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
     
     2. In the **Use Saved View** drop-down box, select a view for the selected entity, which will be used for filtering.
     

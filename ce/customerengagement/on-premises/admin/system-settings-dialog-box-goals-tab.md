@@ -1,6 +1,6 @@
 ---
-title: "System Settings dialog box - Goals tab  | MicrosoftDocs"
-description: "Set the duration and frequency of the automatic rollup of goals."
+title: "Goals settings tab in Dynamics 365 Customer Engagement (on-premises)"
+description: "From the System Settings Goals tab in Dynamics 365 Customer Engagement (on-premises), Set the duration and frequency of the automatic rollup of goals."
 keywords: 
 ms.date: 10/01/2019
 ms.prod: d365ce-op
@@ -16,7 +16,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 12
 ---
-# System Settings dialog box - Goals tab
+# Define system settings from the Goals tab
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

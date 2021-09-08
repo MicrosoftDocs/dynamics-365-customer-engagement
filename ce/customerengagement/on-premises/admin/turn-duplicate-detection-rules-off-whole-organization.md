@@ -1,6 +1,6 @@
 ---
-title: "Turn duplicate detection rules on or off for the whole organization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Set up duplicate detection rules to reduce duplicate records in the system."
+title: "Turn on duplicate detection rules in Dynamics 365 Customer Engagement (on-premises)"
+description: "Set up duplicate detection rules to reduce duplicate records in your system. After creating a new rule, follow these steps to ensure you turn it on."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

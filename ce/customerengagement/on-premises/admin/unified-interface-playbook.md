@@ -1,6 +1,6 @@
 ---
-title: "Unified Interface Playbook (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: "Download and read these documents that can help plan and execute your transition from the legacy web client to Unified Interface in Dynamics 365 Customer Engagement (on-premises)."
+title: "Unified Interface Playbook for Dynamics 365"
+description: "When transitioning to Unified Interface, use this playbook to help you understand the process, develop a strategy, ensure a smooth transition, and more."
 ms.custom: ""
 ms.date: 05/20/2020
 ms.reviewer: ""
