@@ -97,7 +97,19 @@ When the application first loads after installation, it will determine the devic
 
  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] support the following languages:  
   
-- Arabic 
+- Arabic (Algeria) - 5121
+- Arabic (Bahrain) - 15361
+- Arabic (Egypt) - 3073
+- Arabic (Iraq) - 2049
+- Arabic (Jordan) - 11265
+- Arabic (Kuwait) - 13313
+- Arabic (Lebanon) - 12289
+- Arabic (Morocco) - 6145
+- Arabic (Qatar) - 16385
+- Arabic (Saudi Arabia) - 1025
+- Arabic (Tunisia) - 7169
+- Arabic (U.A.E.) - 14337
+- Arabic (Yemen) - 9217
 - Basque (Basque) - 1069  
 - Bulgarian (Bulgaria) - 1026  
 - Catalan (Catalan) - 1027  
