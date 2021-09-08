@@ -25,7 +25,7 @@ ms.custom:
 >
 > "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."
 >
-> To continue to use Unified Interface-based apps in Unified Service Desk, we recommend that you use a browser control host such as Edge WebView2. Because Unified Service Desk supports a mix of browser control hosts, you can still use the IE process for hosting apps that are not based on Unified Interface.
+> To continue to use Unified Interface-based apps in Unified Service Desk, we recommend that you use the latest browser control host such as Edge WebView2. Because Unified Service Desk supports a mix of browser control hosts, you can still use the IE process for hosting apps that are not based on Unified Interface.
 
 > [!Note]
 >
