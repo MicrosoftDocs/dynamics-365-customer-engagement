@@ -30,9 +30,9 @@ This article explains how to purchase set up a new Dynamics 365 Marketing enviro
 
 ## How to purchase Dynamics 365 Marketing
 
-To install Dynamics 365 Marketing, you need to first purchase a core license. Which core license you choose depends on whether you already have a qualifying Dynamics 365 application. If you have Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Supply Chain Management, Dynamics 365 Finance, or Dynamics 365 Commerce **with 10 or more users**, you can purchase the reduced price "attach" license. Otherwise, you will need to purchase a standard Dynamics 365 Marketing license.
+To install Dynamics 365 Marketing, you need to first purchase a base license. Which base license you choose depends on whether you already have a qualifying Dynamics 365 application. If you have Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Supply Chain Management, Dynamics 365 Finance, or Dynamics 365 Commerce **with 10 or more users**, you can purchase the reduced price "attach" license. Otherwise, you will need to purchase a standard Dynamics 365 Marketing license.
 
-Once you have a core license, you can add additional production instances or non-production instances, as detailed below. You can also purchase additional contact or interaction packs. More information: [Dynamics 365 Marketing pricing](https://dynamics.microsoft.com/marketing/pricing/).
+Once you have a core license, you can purchase additional production or non-production instances, as detailed below. You can also purchase additional contact or interaction packs. More information: [Dynamics 365 Marketing pricing](https://dynamics.microsoft.com/marketing/pricing/).
 
 ### Dynamics 365 Marketing licensing options:
 
