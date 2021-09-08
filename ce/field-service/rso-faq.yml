@@ -420,7 +420,7 @@ sections:
           
             - question: |
           Why am I seeing the error message that a user does not have read permissions when running Resource Scheduling Optimization?
-        answer: |
+              answer: |
           If you run Resource Scheduling Optimization and get an error like the one below, add the system administrator security role to the user running Resource Scheduling Optimization.
           `[External Exception [Microsoft.Dynamics.FieldService: Microsoft.Dynamics.FieldService.FieldServicePlugin]]Principal user (Id=c4c45efe-866d-eb11-a812-000d3a8eefe9, type=8, roleCount=1, privilegeCount=110, accessMode=4), is missing prvReadmsdyn_workorder privilege (Id=912a06d3-4545-4bea-bbd1-18661ff70424) on OTC=10425 for entity 'msdyn_workorder'. context.Caller=c4c45efe-866d-eb11-a812-000d3a8eefe9. Or identityUser.SystemUserId=dd1c82e4-ddf4-45fd-a1bf-4efd51274d04, identityUser.Privileges.Count=5978, identityUser.Roles.Count=0 is missing prvReadmsdyn_workorder privilege (Id=912a06d3-4545-4bea-bbd1-18661ff70424) on OTC=10425 for entity 'msdyn_workorder'.`
           
