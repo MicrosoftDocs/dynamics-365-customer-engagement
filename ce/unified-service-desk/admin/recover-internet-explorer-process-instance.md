@@ -21,9 +21,11 @@ ms.custom:
 
 >[!Note]
 >
-> From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge browsers. The users of Internet Explorer will see an error message similar to the following:<br>
-> "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."<br>
-> If you'd like to continue using Unified Interface in Unified Service Desk, we recommend using a modern browser control host such as Edge WebView2. Since Unified Service Desk supports a mix of browser control hosts, you can still use the IE process for hosting apps that are not based on Unified Interface. 
+> From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge browsers. The users of Internet Explorer will see an error message similar to the following:
+>
+> "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."
+>
+> To continue to use Unified Interface-based apps in Unified Service Desk, we recommend that you use a browser control host such as Edge WebView2. Because Unified Service Desk supports a mix of browser control hosts, you can still use the IE process for hosting apps that are not based on Unified Interface.
 
 > [!Note]
 >
