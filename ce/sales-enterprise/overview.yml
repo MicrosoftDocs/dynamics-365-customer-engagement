@@ -9,7 +9,13 @@ metadata:
   author: udaykirang
   ms.author: udag
   manager: shujoshi
-Products: 
+name: Dynamics 35 Sales overview
+summary: Helps you understand business relationships, evaluate activities compared to previous successes, and choose the best path forward using AI-driven insights.
+thumbnailUrl:
+
+products: 
   - dynamics-365
 content: |
    [!include[](overview.md)]
+
+ 
