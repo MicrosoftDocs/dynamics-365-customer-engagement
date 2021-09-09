@@ -2,7 +2,7 @@
   href: help-hub.md
   items:
   - name: Overview
-    href: overview.md
+    href: overview.yml
   - name: What's new
     href: whats-new.md
   - name: Sign up for a free sales trial
@@ -392,9 +392,7 @@
         - name: Access the deal manager workspace
           href: access-deal-manager.md
         - name: Personalize the deal manager workspace
-          href: personalize-deal-manager.md   
-        - name: Known issues in deal manager
-          href: deal-manager-known-issues.md    
+          href: personalize-deal-manager.md    
       - name: Work with opportunities in the Kanban view
         href: opportunity-kanban-view.md
       - name: Add products to an opportunity
@@ -422,7 +420,9 @@
       - name: Lock or unlock prices for an order or invoice
         href: lock-unlock-price-order-invoice.md
       - name: Create or edit quotes
-        href: create-edit-quote-sales.md
+        href: ../sales-enterprise/create-edit-quote-sales.md
+      - name: Close a quote
+        href: ../sales-enterprise/close-quote.md
       - name: Create or edit orders
         href: create-edit-order-sales.md
       - name: Create or edit invoices

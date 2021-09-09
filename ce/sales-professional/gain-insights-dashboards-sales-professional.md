@@ -7,7 +7,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
   - D365-Entity-*
   - D365-UI-dashboard
   - Dynamics 365

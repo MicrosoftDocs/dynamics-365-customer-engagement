@@ -2,7 +2,7 @@
 title: "Switch from list component to server-based authentication with Dynamics 365 Customer Engagement (on-premises)"
 description: "If you're using the list component with SharePoint for document management, you can switch to server-based authentication by following these steps."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 08/25/2021
 ms.reviewer: 
 ms.prod: d365ce-op
 ms.suite: 
@@ -25,7 +25,10 @@ search.audienceType:
 ::: moniker-end
 
 This topic provides an overview about how to switch from the list component to server-based authentication. This topic can also help if you change the [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] deployment type, such as moving from [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)].  
-  
+
+> [!IMPORTANT]
+> In 2015, [we announced the deprecation of the list component]( https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/05/15/dynamics-crm-2015-update-1-list-component-deprecation/?source=crm). Notice that, the list component wasn’t released for this version of Dynamics 365 Customer Engagement (on-premises) and previous versions of the list component aren’t supported with this version. If you are using the list component you must move your document management to server-based authentication.
+
 <a name="BKMK_switchlistcomp"></a> 
 ## Switch from list component to server-based authentication  
  If your organization is already using the list component with [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] for document management with Dynamics 365 Customer Engagement (on-premises), you can switch to server-based authentication by following these steps.  

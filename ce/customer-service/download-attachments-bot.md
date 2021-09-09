@@ -40,7 +40,7 @@ HttpResponseMessage response = await client.SendAsync(httpRequest);
 ### See also
 
 [Card support by channel](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)<br />
-[Asynchronous channel support](asynchronous-channels.md)
+[Asynchronous channel support](card-support-in-channels.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

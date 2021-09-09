@@ -6,6 +6,8 @@
   href: user-guide.md
 - name: Get started
   href: field-service-get-started.md
+- name: Videos
+  href: field-service-videos.md
 - name: Installation + upgrade
   items: 
   - name: Field Service installation (web + mobile)
@@ -24,6 +26,8 @@
     href: view-user-accounts-security-roles.md
   - name: Location and map settings
     href: field-service-maps-address-locations.md
+  - name: Customization overview
+    href: field-service-customizations.md
   - name: Priorities
     href: set-priorities.md
   - name: Postal codes

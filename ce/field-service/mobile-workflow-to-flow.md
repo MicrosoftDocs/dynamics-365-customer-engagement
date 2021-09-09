@@ -38,7 +38,7 @@ For more information, see the following video.
 To switch from workflow to Power Automate, go to **Field Service Settings** and toggle **Use Enhanced Background Processing** to **Yes**. This action will move background processing from workflow to Power Automate; any enabled Power Automate flows will execute.
 
 > [!Note]
-> Making this change in **Field Service Settings** means that all Field Service workflows will move to Power Automate.
+> The **Enhanced Background Processing** setting is in preview and it means that all Field Service workflows will move to Power Automate.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service settings showing the enhanced background processing field.](./media/flow-enhanced_background_processing.jpg)
