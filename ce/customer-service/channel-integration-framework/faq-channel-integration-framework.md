@@ -70,16 +70,16 @@ Dynamics 365 Channel Integration Framework does not support Internet Explorer an
 
 ### Can partners package solutions that have a dependency on the Dynamics 365 Channel Integration Framework solution, together with the Dynamics 365 Channel Integration Framework solution?
 
-No, the Dynamics 365 Channel Integration Framework solution should not be bundled with another solution. Partners can create solutions that add a check to their package looking for the Dynamics 365 Channel Integration Framework solution (also mentioning the minimum supported version), which causes installation to fail in case the Dynamics 365 Channel Integration Framework solution is not present.
+No, the Dynamics 365 Channel Integration Framework solution should not be bundled with another solution. Partners can create solutions that add a check to their package looking for the Dynamics 365 Channel Integration Framework solution (also mentioning the minimum supported version), which causes the installation to fail in case the Dynamics 365 Channel Integration Framework solution is not present.
 
-Also, you can add Configuration Experience to the acquire flow that will allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution do any additional setup or license acquisition remotely before installing.
+Also, you can add Configuration Experience to the acquired flow that will allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution perform any additional setup or license acquisition remotely before installation.
 
 ### What happens when you select a role from under Select roles for the Channel?
 
 > [!Note]
 > Applicable only to Channel Integration Framework 1.0.
 
-When you select a particular security role for the channel provider from under the **Select roles for the Channel** dropdown list, the security role provides certain access rights to the channel provider. If no role is selected, the channel provider can only be accessed by system administrators and customizers.
+When you select a particular security role for the channel provider from under the **Select roles for the Channel** dropdown list, the security role provides certain access rights to the channel provider. If no role is selected, the channel provider can only be accessed by System Administrators and Customizers.
 
 > [!IMPORTANT]
 > When you select a role in the **Select roles for the Channel** list, it does not filter out users with just the System Administrator role. The System Administrator and Customizer roles will always have access to the channel provider. When you assign a System Administrator role to a user, the other users who have been assigned the System Administrator role earlier will not lose access unless you explicitly revoke system administrator rights from a user.
@@ -131,21 +131,22 @@ For information on license, see [Dynamics 365 Customer Service pricing overview]
 
 ### How do third party telephony providers start their default session?
 
-You can invoke the `Microsoft.CIFramework.setMode(1)` method from your provider code to make the panel visible. This can be put at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded.
-
-Beyond that point, you can listen to the `onSessionClosed` event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
+You can invoke the `Microsoft.CIFramework.setMode(1)` method from your provider code to make the panel visible. This can be added at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. Beyond that point, you can listen to the `onSessionClosed` event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
 
 For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) event.
+
+> [!Note]
+> The home session isn't associated to provider, so in the home session, the widget will not be visible. The `Microsoft.CIFramework.setMode` API is not supported in the Home page. If there are multiple channel providers, the provider should create a default session to show a dialer experience in the communication.
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
 This is to make sure that updated data is available for the agent at all times.
 
-### Is it possible to integrate custom (in-house) messaging channel providers?
+### Is it possible to integrate custom (inhouse) messaging channel providers?
 
 Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md).
 
-### Is it possible to view the existing channel providers from Channel Integration Framework version 2.0 model-driven app?
+### Is it possible to view the existing channel providers from Channel Integration Framework 2.0 model-driven app?
 
 No, you'll have to navigate to Channel Integration Framework 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md).
 
