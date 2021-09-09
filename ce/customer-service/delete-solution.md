@@ -7,13 +7,13 @@ ms.author: v-jmh
 manager: shujoshi
 ---
 
-# Uninstall solutions in Omnichannel for Customer Service 
+# Introduction
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Uninstall Omnichannel for Customer Service solutions
+## Uninstall solutions in Omnichannel for Customer Service
 
 When you uninstall Omnichannel for Customer Service from your organization, the omnichannel solutions are not removed. If you want to remove omnichannel solutions from your organization, you must use the sequence mentioned in the following table.
 
