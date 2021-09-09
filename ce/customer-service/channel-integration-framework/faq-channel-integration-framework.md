@@ -140,7 +140,7 @@ For more information, see [setMode](reference/microsoft-ciframework/setmode.md) 
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
-This is to make sure that updated data is available for the agent at all times.
+This is to make sure that the updated data is available for the agent at all times.
 
 ### Is it possible to integrate custom (inhouse) messaging channel providers?
 
