@@ -118,7 +118,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | Track contacts                                      |                            |                     |              |                 |                        |               |            |       |
 | Track tasks                                         |                            |                     |              |                 |                        |               |            |       |
 |                                                     |                            |                     |              |                 |                        |               |            |       |
-| **Pin add-in**                                      | X                          | X*                   |             |                | X                      | X             |           |      |
+| **Pin add-in****                                      | X                          | X*                   |             |                | X                      | X             |           |      |
 
  
 
@@ -165,6 +165,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | Track contacts                                      |                            |                     |              |                 |                        |               |            |     |
 | Track tasks                                         |                            |                     |              |                 |                        |               |            |     |
 |                                                     |                            |                     |              |                 |                        |               |            |     |
-| **Pin add-in**                                      | X                          | X*                    |              |                 | X                      | X             |            |     |
+| **Pin add-in**                                      |                           |                     |              |                 |                       |              |            |     |
 
 *Requires Outlook 2016 for Windows build 7668.2000 or later.
+**Only works with Microsoft Exchange Online
