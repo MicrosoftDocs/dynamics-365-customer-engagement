@@ -168,4 +168,4 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | **Pin add-in**                                      |                           |                     |              |                 |                       |              |            |     |
 
 *Requires Outlook 2016 for Windows build 7668.2000 or later.
-**Only works with Microsoft Exchange Online
+**Only works with Microsoft Exchange Online. More details [here](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/pinnable-taskpane)
