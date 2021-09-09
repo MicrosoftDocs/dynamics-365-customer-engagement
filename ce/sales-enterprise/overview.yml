@@ -9,9 +9,9 @@ metadata:
   author: udaykirang
   ms.author: udag
   manager: shujoshi
-name: Dynamics 35 Sales overview
+name: Dynamics 365 Sales overview
 summary: Helps you understand business relationships, evaluate activities compared to previous successes, and choose the best path forward using AI-driven insights.
-thumbnailUrl:
+thumbnailUrl: /media/cc-create-card.png
 
 products: 
   - dynamics-365
