@@ -47,6 +47,8 @@ The primary way a bot can dictate how the conversation will be routed is by usin
 
 An Omnichannel for Customer Service bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can send an `EndConversation` request to Omnichannel for Customer Service.
 
+When the bot ends the conversation with the customer, the bot can link the case number with the conversation, so it
+
 ## Sample code for escalation management and ending conversation
 
 Perform the following steps to configure a bot that is capable of escalating a conversation to a human agent.

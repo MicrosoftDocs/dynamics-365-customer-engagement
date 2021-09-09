@@ -115,7 +115,7 @@ You can set escalation rules to allow a bot to send customer queries to a custom
 
 ### Add code snippet to engage a bot
 
-In order to send messages to Omnichannel Engagement Hub, you need to add the following code statement to the bot code:
+In order to send messages to Omnichannel Engagement Hub, you need to add the following statement to the bot code:
 
 ```csharp
 OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
