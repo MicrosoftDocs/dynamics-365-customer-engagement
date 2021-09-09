@@ -142,7 +142,7 @@ For more information, see [setMode](reference/microsoft-ciframework/setmode.md) 
 
 This is to make sure that the updated data is available for the agent at all times.
 
-### Is it possible to integrate custom (inhouse) messaging channel providers?
+### Is it possible to integrate custom messaging channel providers?
 
 Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md).
 
