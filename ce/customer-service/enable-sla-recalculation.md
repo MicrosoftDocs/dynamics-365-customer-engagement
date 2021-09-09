@@ -22,11 +22,11 @@ ms.custom:
 
 ## Introduction
 
-You can configure the SLAs settings such that when a record status is reactivated and the SLA is in the terminal status after a success or failure, the SLA can be recalculated and run again.
+By default, SLAs in the terminal status are not evaluated. But if you want such SLAs to be recalculated when a record status is reactivated, you can enable the recalculate SLA setting in the service configuration settings. When enabled, the applicable when and success criteria will be evaluated again on the SLA that's in the terminal status when the record status is updated.
 
 ## Enable recalculation of SLAs
 
-To enable the recalculation of SLAs that reach the terminal status do the following:
+Do the following to enable the recalculation of SLAs that reach the terminal status:
 
 1. In Customer Service Hub, go to **Service Management**, and under **Service Terms**, select **Service Configuration Settings**.
 
@@ -35,4 +35,5 @@ To enable the recalculation of SLAs that reach the terminal status do the follow
 ### See also
 
 [Define service-level agreements](define-service-level-agreements.md)  
+[How SLAs are applied](define-service-level-agreements.md#how-is-the-sla-applied)  
 [Enable records for SLA](enable-entities-service-level-agreements.md)  
