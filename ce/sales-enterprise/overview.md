@@ -1,14 +1,3 @@
----
-title: "Dynamics 365 Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Get an overview of the sales offerings from Dynamics 365 Sales."
-ms.date: 07/16/2020
-ms.service: dynamics-365-sales
-ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
----
-
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
