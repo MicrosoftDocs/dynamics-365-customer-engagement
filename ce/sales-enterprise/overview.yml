@@ -9,7 +9,7 @@ metadata:
   author: udaykirang
   ms.author: udag
   manager: shujoshi
-Products 
+Products: 
   - dynamics-365
 content: |
    [!include[](overview.md)]
