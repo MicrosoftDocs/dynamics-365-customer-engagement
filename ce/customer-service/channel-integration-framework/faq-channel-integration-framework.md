@@ -98,9 +98,9 @@ Channel Integration Framework model-driven app is only applicable to configure c
 
 Organizations can configure voice channel providers from the [App profile manager](../../app-profile-manager/overview.md).
 
-### My organization is using Channel Integration Framework version 1.0. Does the change impact my organization?
+### My organization is using Channel Integration Framework 1.0. Does the change impact my organization?
 
-No. There is no impact on Channel Integration Framework version 1.0 users. You can continue to use the Channel Integration Framework app to configure channel providers for single session Dynamics 365 model-driven app.
+No. There is no impact on Channel Integration Framework 1.0 users. You can continue to use the Channel Integration Framework app to configure channel providers for single session Dynamics 365 model-driven app.
 	
 ### My organization is using voice channel configured using Channel Integration Framework 2.0. Does the change impact my organization?
 
@@ -117,7 +117,7 @@ You don't need to choose the Unified Interface apps. The telephony channel provi
 
 Telephony channel providers are associated with app profiles, which in turn are assigned to users in your organization. With the new changes, you need to assign the app profiles to the users who should have access to the telephony channel provider.
 
-### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework version 1.0 APIs, continue to work with the version 2.0 app?
+### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework 1.0 APIs, continue to work with the Dynamics 365 Channel Integration Framework 2.0 app?
 
 Yes. Dynamics 365 Channel Integration Framework 1.0 APIs will continue to be available and supported for the single-session Unified Interface apps like Customer Service Hub and Sales Hub. Even with the Dynamics 365 Channel Integration Framework 2.0 app, they will continue to work.
 
