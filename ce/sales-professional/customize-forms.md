@@ -1,7 +1,7 @@
 ---
 title: "Customize forms - (Sales Professional) | MicrosoftDocs"
 description: "Use the form designer to customize the forms that allow your users to enter or find information quickly."
-ms.date: 06/22/2020
+ms.date: 09/09/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,9 +17,8 @@ ms.custom:
 
 In Dynamics 365 Sales Professional, forms provide the user interface that people use to interact with the data they need to do their work. It is important that the forms people use are designed to allow them to find or enter the information they need quickly. You can use the form designer to customize the forms included with Dynamics 365 Sales Professional to meet the specific needs of your organization.
 
->[!IMPORTANT]
->Only customizations done within the app are supported. You should not try to
->customize your forms outside of the app itself.
+> [!IMPORTANT]
+> Only customizations done within the app are supported. You should not try to customize your forms outside of the app itself.
 
 ## How do forms relate to entities?
 
@@ -57,7 +56,7 @@ To access the forms:
 
     The page displays the date when the form was published, and whether the form is active or not.
 
-4.  To open a form, just choose the form you want in the **Name** column, or select a form, and then choose **Edit** above the search field.
+4.  To open a form, select the form the **Name** column. Alternately, you can select a form, and then select **Edit** above the **Quick find** field.
 
 For more information on creating forms, see [Create and design forms](../customerengagement/on-premises/customize/create-design-forms.md).
 
