@@ -69,7 +69,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | Track contacts                                      |                            |                     |              |                 |                        |               |            |     |
 | Track tasks                                         |                            |                     |              |                 |                        |               |            |     |
 |                                                     |                            |                     |              |                 |                        |               |            |     |
-| **Pin add-in**                                      | X                          | X                   | X            | X               | X                      | X             | X          | X   |
+| **Pin add-in**                                      | X                          | X*                   |             |                | X                      | X             |           |    |
 
  
 
@@ -118,7 +118,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | Track contacts                                      |                            |                     |              |                 |                        |               |            |       |
 | Track tasks                                         |                            |                     |              |                 |                        |               |            |       |
 |                                                     |                            |                     |              |                 |                        |               |            |       |
-| **Pin add-in**                                      | X                          | X                   | X            | X               | X                      | X             | X          | X     |
+| **Pin add-in**                                      | X                          | X*                   |             |                | X                      | X             |           |      |
 
  
 
