@@ -59,10 +59,10 @@ No, Dynamics 365 Channel Integration Framework is agnostic to operating systems 
 
 ### Which web browsers does Dynamics 365 Channel Integration Framework support?
 
-Microsoft Edge and Google Chrome support Dynamics 365 Channel Integration Framework.
+Dynamics 365 Channel Integration Framework supports Microsoft Edge and Google Chrome.
 
 > [!NOTE]
-> The widget domain needs to be accorded permission to use appropriate media like pop-ups and microphone as required. For Microsoft Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
+> The widget domain needs to be granted permission to use appropriate media like pop-ups and microphone as required. For Microsoft Edge to permanently grant the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
 
 ### Are there any browsers that Dynamics 365 Channel Integration Framework does not support?
 
@@ -72,7 +72,7 @@ Dynamics 365 Channel Integration Framework does not support Internet Explorer an
 
 No, the Dynamics 365 Channel Integration Framework solution should not be bundled with another solution. Partners can create solutions that add a check to their package looking for the Dynamics 365 Channel Integration Framework solution (also mentioning the minimum supported version), which causes the installation to fail in case the Dynamics 365 Channel Integration Framework solution is not present.
 
-Also, you can add Configuration Experience to the acquired flow that will allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution perform any additional setup or license acquisition remotely before installation.
+Also, you can add Configuration Experience to the acquired flow that'll allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution perform any additional setup or license acquisition remotely, before installation.
 
 ### What happens when you select a role from under Select roles for the Channel?
 
