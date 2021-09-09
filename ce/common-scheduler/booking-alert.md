@@ -1,6 +1,6 @@
 ---
-title: "Booking alerts in Universal Resource Scheduling | MicrosoftDocs"
-description: Learn about booking alerts in Universal Resource Scheduling
+title: "Manage booking alerts in Universal Resource Scheduling"
+description: "Booking alerts display important notes, updates, and reminders on the schedule board. Create these alerts to ensure accurate and timely job completion."
 ms.date: 07/25/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
@@ -17,7 +17,7 @@ search.app:
   - D365FS
 ---
 
-# Booking alerts in Universal Resource Scheduling
+# Create and view booking alerts in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-booking-alert.md](../shared/urs/booking-alert.md)]
 

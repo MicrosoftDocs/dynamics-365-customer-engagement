@@ -29,11 +29,13 @@ Having this information ready can help support agents reduce the hold time that 
 > [!div class='mx-imgBorder']
 > ![View Customer summary.](media/customer-summary.png "View the Customer summary page")
 
-The **Customer summary** form contains details specific to an active conversation and cannot be viewed for closed conversations. For a closed conversation, you can view details on the closed conversation form that can be accessed from the **Closed work items** section of the agent dashboard.
+Agents can access the **Customer Summary** form by accepting the task assignment notification or from the agent dashboard for only active conversations and only in the Customer Service workspace and Omnichannel for Customer Service apps.
+
+For a closed conversation, you can view details on the closed conversation form from the **Closed work items** section of the agent dashboard.
 
 ## Customer (Contact or Account)
 
-This section provides details like the contact name or account name. For a contact, you can view the location, email, and other details of the contact. In case of an account, you can view location, telephone number, and primary contact person for the account.
+This section provides details such as the contact name or account name. For a contact, you can view the location, email, and other details. In case of an account, you can view location, telephone number, and primary contact person for the account.
 
 Use the customer section to search for an existing contact or account record in Omnichannel for Customer Service, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **Add Contact** or **Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
 

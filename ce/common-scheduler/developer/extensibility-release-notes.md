@@ -1,6 +1,6 @@
 ---
-title: Universal Resource Scheduling extensibility updates | Microsoft Docs
-description: Universal Resource Scheduling extensibility updates
+title: "Extensibility updates for Universal Resource Scheduling"
+description: "Learn about the recent extensibility updates in Universal Resource Scheduling. These include updates to queries, filter layouts, and resource cell templates."
 author: FieldServiceDave
 ms.author: daclar
 ms.date: 11/14/2018
@@ -14,7 +14,7 @@ search.app:
   - D365FS
 ---
 
-# Universal Resource Scheduling extensibility updates
+# Extensibility updates for Universal Resource Scheduling
 
 - [October 2018](#october-2018)
 - [May 2018](#may-2018)

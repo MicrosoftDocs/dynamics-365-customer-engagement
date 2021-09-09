@@ -11,6 +11,10 @@ ms.custom:
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastinstance
+  - D365-Entity-forecastdefinition
+  - D365-Entity-msdyn_forecastconfiguration
+  - D365-Entity-msdyn_forecastdefinition
+  - D365-Entity-forecastconfiguration
   - D365-UI-*
   - Dynamics 365
   - Sales

@@ -1,7 +1,7 @@
 ---
 title: "Retire products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Retire a product in Dynamics 365 Sales so that it is no longer available to your sales agents for selling."
-ms.date: 02/10/2021
+ms.date: 09/02/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -26,6 +26,11 @@ If your organization doesn't sell a product anymore, retire it so that the produ
 4. In the **Confirm Retire** dialog box, select **Confirm**.
  
    ![Confirm retire.](media/confirm-retire.png "Confirm retire")
+
+## Revive/restore a retired product
+
+If you have retired a product inadvertently or want to revive a product that was retired earlier, open the product and select **Activate**.  
+
 
 ## Typical next steps  
  ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)  

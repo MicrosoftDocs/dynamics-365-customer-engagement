@@ -1,6 +1,6 @@
 ---
-title: "Edit schedule board booking template - Universal Resource Scheduling | MicrosoftDocs"
-description: Learn how to edit the schedule board booking template in Universal Resource Scheduling
+title: ""Edit the booking template in Universal Resource Scheduling"
+description: "The record that's created and displayed on the schedule board is built from the booking template. Learn how to edit the template using HTML and CSS."
 ms.date: 07/16/2019
 ms.reviewer: krbjoran 
 ms.service: dynamics-365-field-service
@@ -17,7 +17,7 @@ search.app:
   - D365FS
 ---
 
-# Edit schedule board booking template in Universal Resource Scheduling
+# Edit the schedule board booking template in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-booking-template.md](../shared/urs/booking-template.md)]
 

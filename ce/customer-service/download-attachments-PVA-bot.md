@@ -1,91 +1,94 @@
 ---
 title: "Download attachments from your Power Virtual Agents bot| Microsoft Docs"
-description: "Read about the various cards and attachments supported by various channels."
-ms.date: 04/09/2021
+description: "Read how to download attachments from a Power Virtual Agents bot in Omnichannel for Customer Service."
+ms.date: 08/26/2021
 ms.topic: reference
-author: meghanalanka
-ms.author: v-mlanka
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 
-# Download attachments from Power Virtual Agents bot in Omnichannel
+# Download attachments from Power Virtual Agents bot in Omnichannel for Customer Service
 
-If you've deployed your Power Virtual Agents bot in Omnichannel for Customer Service and need to enable customers to send attachments such as pictures or documents to the bot, you can access those files from your Azure Bot Framework Skill. 
+## Introduction
 
-In the Azure Bot Framework Skill, you can process the uploaded image and perform the desired actions. 
+If you've deployed your Power Virtual Agents bot in Omnichannel for Customer Service and need to allow customers to send attachments such as pictures or documents to the bot, you can enable access to those files from your Azure Bot Framework Skill. For more information, see [Extend your bot using Bot Framework Skills](/power-virtual-agents/configuration-add-skills).
 
-For more information on enabling file attachments in Azure Bot Framework Skill, see [Configure file attachment capability](configure-file-attachment.md)
+In the Azure Bot Framework Skill, you can process the uploaded file and perform the required actions.
 
-## Prerequisites
+For more information on enabling file attachments for your bot, see [Configure file attachment capability](configure-file-attachment.md)
 
-- Provide the Power Virtual Agents bot token to the Azure Bot Framework Skill. You can do so by providing the Microsoft AppId, Client Secret, and using the parent PVA bot's AppId. For more information, see [Connector authentication](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0).
+## Configure the settings to enable access to the attachments
 
-- Fetch the required contentURL from the attachment of the Bot framework activity.
+1. Provide the Power Virtual Agents bot token to the Azure Bot Framework Skill. You can do so by providing the Microsoft AppId, Client Secret, and using the parent Power Virtual Agent bot's AppId.
 
-- Use the `httpRequestMessage` method to call the `GET` request.
 
-``` csharp
-// Parent PVA bot's AppId 
+  ``` csharp
+  // Parent Power Virtual Agent bot's AppId 
 
-            string oAuthScope = JwtTokenValidation.GetAppIdFromClaims(claimsIdentity.Claims); 
+              string oAuthScope = JwtTokenValidation.GetAppIdFromClaims(claimsIdentity.Claims); 
 
- 
 
-            MicrosoftAppCredentials microsoftAppCredentials = new MicrosoftAppCredentials( 
 
-                appId: _microsoftAppCredentials.MicrosoftAppId, 
+              MicrosoftAppCredentials microsoftAppCredentials = new MicrosoftAppCredentials( 
 
-                password: _microsoftAppCredentials.MicrosoftAppPassword, 
+                  appId: _microsoftAppCredentials.MicrosoftAppId, 
 
-                customHttpClient: _httpClient(), 
+                  password: _microsoftAppCredentials.MicrosoftAppPassword, 
 
-                logger: _logger, 
+                  customHttpClient: _httpClient(), 
 
-                oAuthScope: oAuthScope); 
+                  logger: _logger, 
 
- 
-
-           return await microsoftAppCredentials.GetTokenAsync(); 
-
-        } 
-
-```
-
-``` csharp
-
-string requestUri = activity.Attachments[i].ContentUrl; 
+                  oAuthScope: oAuthScope); 
 
  
 
-var httpRequest = new HttpRequestMessage(HttpMethod.Get, requestUri); 
+             return await microsoftAppCredentials.GetTokenAsync(); 
+
+          } 
+
+2. Fetch the required contentURL from the attachment of the Bot framework activity, and then use the `httpRequestMessage` method to call the `GET` request as shown in the following sample code.
+
+  ```
+
+  ``` csharp
+
+  string requestUri = activity.Attachments[i].ContentUrl; 
+
+ 
+
+  var httpRequest = new HttpRequestMessage(HttpMethod.Get, requestUri); 
 
   
 
-var authorization = new AuthenticationHeaderValue("bearer", <add the botToken here>); 
+  var authorization = new AuthenticationHeaderValue("bearer", <add the botToken here>); 
 
-var requestHeaders = new Dictionary<string, string>() 
+  var requestHeaders = new Dictionary<string, string>() 
 
-  { 
+    { 
 
-     { "Authorization", authorization.ToString() } 
+       { "Authorization", authorization.ToString() } 
 
-  }; 
-
- 
-
-foreach (var header in requestHeaders) 
-
-  { 
-
-      httpRequest.Headers.Add(header.Key, header.Value); 
-
-  } 
+    }; 
 
  
 
-HttpResponseMessage response = await client.SendAsync(httpRequest); 
+  foreach (var header in requestHeaders) 
 
-```
+   { 
 
+        httpRequest.Headers.Add(header.Key, header.Value); 
 
+    } 
+
+ 
+
+  HttpResponseMessage response = await client.SendAsync(httpRequest); 
+
+  ```
+
+### See also
+
+[Configure Power Virtual Agents bot in Omnichannel for Customer Service](configure-bot-virtual-agent.md)  
  

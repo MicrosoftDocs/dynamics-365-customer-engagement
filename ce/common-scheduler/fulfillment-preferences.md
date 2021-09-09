@@ -1,6 +1,6 @@
 ---
-title: "Fulfillment preferences in Universal Resource Scheduling in Dynamics 365 | MicrosoftDocs"
-description: Learn how to use fulfillment preferences in Universal Resource Scheduling in Dynamics 365
+title: "Set fulfillment preferences in Universal Resource Scheduling"
+description: "Set your fulfillment preferences to choose how schedule assistant results are displayed. Preferences break down into two features: intervals and time groups."
 ms.date: 11/30/2018
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
@@ -17,7 +17,7 @@ search.app:
   - D365FS
 ---
 
-# Fulfillment preferences in Universal Resource Scheduling
+# Set fulfillment preferences to determine how results are displayed in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-fulfillment-pref.md](../shared/urs/fulfillment-pref.md)]
 

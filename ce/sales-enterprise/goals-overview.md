@@ -8,7 +8,9 @@ ms.author: lavanyakr
 manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
-  - D365-Entity-opportunity
+  - D365-Entity-goal
+  - D365-Entity-metric
+  - D365-Entity-goalrollupquery
   - D365-UI-*
   - Customer Engagement
   - Dynamics 365

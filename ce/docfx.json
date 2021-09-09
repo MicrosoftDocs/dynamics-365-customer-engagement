@@ -147,9 +147,6 @@
 	  "ms.topic": {
         "legal/**/*.md": "article"
       },
-	  "ms.prod": {
-        "**/*.md": "dynamics-365"
-      },
       "learn_banner_products": {
         "**/*.md": [
           "dynamics-customer-engagement"
