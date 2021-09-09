@@ -39,7 +39,7 @@ Once you have a core license, you can purchase additional production or non-prod
 #### Production app
 Production versions of Dynamics 365 Marketing are licensed per tenant. Each tenant is priced according to the number of *Marketing contacts* stored in your database. To identify contacts, Marketing monitors key *interaction* types. Any contact that performs one or more interactions will be flagged as a Marketing contact and count against the allotment.
 
-A Marketing interaction is an outbound message sent to any Marketing contact using Dynamics 365 Marketing.  The message can be sent through out-of-box channels available in Dynamics 365 Marketing (email, push notifications), other Microsoft channels (ACS), or third-party systems integrated with Dynamics 365 Marketing (other SMS providers).
+A Marketing interaction is an outbound message sent to any Marketing contact using Dynamics 365 Marketing.  The message can be sent through out-of-box channels available in Dynamics 365 Marketing (for example, email or push notifications), other Microsoft channels (for example, ACS), or third-party systems integrated with Dynamics 365 Marketing (for example, other SMS providers).
 
 Contacts that are stored, but not marketed to using Dynamics 365 Marketing do not count towards the Marketing contacts quota. After an interaction is logged for a contact, it does not matter how many Marketing interactions that contact performs, the contact is still counted just once.
 
