@@ -39,10 +39,6 @@ After you sign up for the trial, you will arrive on the app's main screen. The m
 
 <!--App specific. Customize this response to fit your app.-->
 
-### How long does the trial last?
-
-The <!--Product--> trial lasts <!--Product trial length--> days. As [mentioned below](<!--Name of this page-->.md#how-do-i-extend-the-trial), you can extend the trial once.
-
 ### How do I remove sample data from the trial?
 
 Go to Get Started page and select Remove sample data.
