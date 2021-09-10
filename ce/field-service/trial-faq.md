@@ -31,6 +31,12 @@ After you sign up for the trial, you will arrive on the app's main screen. The m
 
 ### What features are available in the trial?
 
+- field service work order management
+- scheduling, schedule board
+- mobile app
+- add-ons like rso no included
+
+
 <!--App specific. Customize this response to fit your app.-->
 
 ### How long does the trial last?
@@ -39,8 +45,11 @@ The <!--Product--> trial lasts <!--Product trial length--> days. As [mentioned b
 
 ### How do I remove sample data from the trial?
 
+Go to Get Started page and select Remove sample data.
+
 <!--App specific. Customize this response to fit your app.-->
 
 ### How do I restore sample data?
 
+Once Field Service specific sample data is removed it cannot be resored, however you can add re-add generic sample data like accounts by going to Settings > Data Mangement
 <!--App specific. Customize this response to fit your app.-->
