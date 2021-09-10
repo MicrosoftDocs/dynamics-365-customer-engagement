@@ -1,6 +1,6 @@
 ---
 title: "Unified Service Desk system requirements | MicrosoftDocs"
-description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk."
+description: "Describes the supported dependent and optional components that you need to install and use Unified Service Desk."
 ms.date: 09/07/2021
 ms.topic: get-started-article
 author: mh-jaya
@@ -25,7 +25,7 @@ This topic provides information about the system requirements for installing the
 | Component    | Minimum      | Requirement  |
 |-----------|-----------------|--------------|
 | Processor | x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor |   x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor     |
-|  Memory   |   ^4-GB RAM or more            |  8-GB RAM more    |
+|  Memory   |   ^4 GB RAM or more            |  8 GB RAM more    |
 | Hard disk |  \*1.5 GB of available hard disk space             | 12 GB of available hard disk space: 2 GB of available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files and 10 GB additional available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client log files<br /><br /> 7200 RPM or more |
 
  ^The minimum memory is for running basic scenarios. The actual memory required for Unified Service Desk increases with the complex configurations and custom development (UI experience).
