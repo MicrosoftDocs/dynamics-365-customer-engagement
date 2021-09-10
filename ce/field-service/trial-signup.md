@@ -17,7 +17,8 @@ Dynamics 365 Dynamics 365 Field Service offers a free 30-day trial. After a quic
 **To sign up for the trial**:
 
 1. Go to the [trial overview page](https://dynamics.microsoft.com/get-started/?appname=fieldservice) and select the **Try for free** button.
-2. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and your contact information.
+2. Follow the onscreen guidance to enter an email and use an existing account or create an account.
+
 
 The trial takes a few moments to load, then you can start using the app.
 
