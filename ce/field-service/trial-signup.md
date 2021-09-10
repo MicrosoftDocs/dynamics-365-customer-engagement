@@ -26,7 +26,6 @@ The trial takes a few moments to load, then you can start using the app.
 Your trial environment includes many of the same features as the paid version. The links below guide you through some of the key features.
 
 - [Get started](field-service-get-started.md)
-- [Schedule a work order](quickstart-schedule-work-order.md)
 
 ## Additional resources
 
