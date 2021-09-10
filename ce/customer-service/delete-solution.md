@@ -15,7 +15,7 @@ manager: shujoshi
 
 ## Uninstall solutions in Omnichannel for Customer Service
 
-When you uninstall Omnichannel for Customer Service from your organization, the omnichannel solutions are not removed. If you want to remove omnichannel solutions from your organization, you must use the sequence mentioned in the following table.
+When you uninstall Omnichannel for Customer Service from your organization, the omnichannel solutions are not removed. If you want to remove omnichannel solutions from your organization, you must use the same order as mentioned in the following table.
 
 > [!Important]
 > Some solutions are shared across apps, and should not be removed unless you intend to uninstall those apps too; skip those solutions.
@@ -88,11 +88,13 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 
 ## Uninstall Omnichannel historical analytics solutions
 
-To remove the solutions for Omnichannel historical analytics, you must first disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](/oc-historical-analytics-reports.md)
+**To remove the solutions for Omnichannel historical analytics**
 
-Then, on the **Solutions** page, select and uninstall the following solutions, one at a time, in this order:
-1. `msdyn_InsightsAnalyticsOCConfiguration`
-2. `msdyn_DataInsightsAndAnalyticsForOC`
+1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](/oc-historical-analytics-reports.md)
+
+2. On the **Solutions** page, select and uninstall the following solutions, one at a time, in this order:
+> 1. `msdyn_InsightsAnalyticsOCConfiguration`
+> 2. `msdyn_DataInsightsAndAnalyticsForOC`
 
 ## Uninstall Omnichannel Customer Service Hub solution
 
