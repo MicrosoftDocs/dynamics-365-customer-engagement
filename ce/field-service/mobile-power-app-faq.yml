@@ -152,7 +152,7 @@ sections:
         answer: |
           Not at this time. Support for non-public clouds will be added to the Field Service (Dynamics 365) mobile app in the future.
           
-  - question: Can Azure AD Guest users access Field Service (Dynamics 365) mobile app?
+      - question: Can Azure AD guest users access the Field Service (Dynamics 365) mobile app?
         answer: |
-          Currently Guest User access is not supported within the mobile application.  
+          Currently, guest User access is not supported within the mobile app.  
 
