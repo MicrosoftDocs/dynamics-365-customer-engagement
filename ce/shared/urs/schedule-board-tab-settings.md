@@ -133,7 +133,7 @@ This setting determines how unavailable resources appear when the schedule assis
 
 - Set to **Unavailable resources do not appear** to ensure that resources who do not meet schedule assistant filter criteria are temporarily removed from the view of available resources. 
 
-- Set to **Unavailable resources appear dimmed (when searching for resources visible on board)** to ensure that resources who do not meet schedule assistant filter criteria remain on the schedule board, but appear dimmed. For schedule boards with many resources, using the **Unavailable resources do not appear** setting can reduce the need to scroll and make it easier for scheduler to compare available resources. When the schedule assistant is opened, the **Search For** filter on the filter panel must be changed to **Resources visibile on board** to see the unavailable resources, which appear dimmed. 
+- Set to **Unavailable resources appear dimmed (when searching for resources visible on board)** to ensure that resources who do not meet schedule assistant filter criteria remain on the schedule board, but appear dimmed. For schedule boards with many resources, using the **Unavailable resources do not appear** setting can reduce the need to scroll and make it easier for scheduler to compare available resources. When the schedule assistant is opened, the **Search For** filter on the filter panel must be changed to **Resources visible on board** to see the unavailable resources, which appear dimmed. 
 
 ### Book based on 
 
@@ -244,7 +244,7 @@ For more details on editing filter layouts, resource cell templates, and client 
 
 ## Schedule types
 
-The following settings are dependent on the entity being scheduled. Though requirement records are always scheduled, the requirement can be related to work orders, cases, custom entities, or related to nothing at all. First, select the scheduleable entity on the left to edit the settings for when that entity is scheduled. Select **None** to edit default settings and the settings for when a requirement is scheduled by itself, unrelated to a work item such as work orders or projects. 
+The following settings are dependent on the entity being scheduled. Though requirement records are always scheduled, the requirement can be related to work orders, cases, custom entities, or related to nothing at all. First, select the schedulable entity on the left to edit the settings for when that entity is scheduled. Select **None** to edit default settings and the settings for when a requirement is scheduled by itself, unrelated to a work item such as work orders or projects. 
 
 ### Booking Tooltips View
 
