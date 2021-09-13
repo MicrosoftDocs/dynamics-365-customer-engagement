@@ -1,7 +1,7 @@
 ---
 title: "Customize forms - (Sales Professional) | MicrosoftDocs"
 description: "Use the form designer to customize the forms that allow your users to enter or find information quickly."
-ms.date: 09/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -59,6 +59,8 @@ To access the forms:
 4.  To open a form, select the form the **Name** column. Alternately, you can select a form, and then select **Edit** above the **Quick find** field.
 
 For more information on creating forms, see [Create and design forms](../customerengagement/on-premises/customize/create-design-forms.md).
+
+To set a form as the default form in the app, see [Why isn't my form displayed as the default form in the app?](powerapps/maker/model-driven-apps/create-design-forms#form-display-faq)
 
 
 ### See also
