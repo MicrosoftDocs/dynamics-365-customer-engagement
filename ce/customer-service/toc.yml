@@ -736,6 +736,8 @@
         href: enable-knowledge-search-insights.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
+      - name: Configure AI suggestions for article keywords and descriptions
+        href: enable-ai-suggested-article-keywords-description.md
       - name: Configure Customer Service analytics dashboards in Power BI
         href: configure-customer-service-analytics-dashboard.md
       - name: Configure AI topic clustering for conversation

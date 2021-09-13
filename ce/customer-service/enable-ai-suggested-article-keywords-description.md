@@ -1,6 +1,6 @@
 ---
-title: Enable AI suggestions for article keywords and description | MicrosoftDocs
-description: Enable AI suggestions for article keywords and description in Dynamics 365 Customer Service.
+title: Configure AI suggestions for article keywords and description | MicrosoftDocs
+description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
 ms.date: 09/13/2021
 ms.topic: article
 author: sdas
@@ -17,32 +17,30 @@ ms.custom:
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Enable AI suggestions for article keywords and description
+# Configure AI suggestions for article keywords and description
 
 ## Introduction
 
-With the use of AI-suggested article keywords and description when authoring or updating knowledge articles, knowledge authors can ensure better searchability and surfacing of the right articles. This makes them more productive and supports them in following authoring best practices can add high quality and diverse keywords and description. 
+With the use of AI-suggested article keywords and description when authoring or updating knowledge articles, you can help knowledge authors ensure better searchability and surfacing of the right articles. This makes them more productive and supports them in following authoring best practices by adding high quality and diverse keywords and descriptions.
 
 The key highlights of the feature are as follows:
 
-- Knowledge authors get suggested keywords and description based on the article content stored in the built-in Knowledge Article entity.
-- The suggested keywords and description are only generated and displayed for an active article in it's latest version, including articles which are in Draft, Approved, Scheduled, and Published state. Articles in Expired, Archived and Discarded states don't get suggestions. 
-- Knowledge authors see a list of non-duplicated suggested keywords that AI identifies from an article, which includes:
-- - keywords and phrases that are extracted directly from the article. 
-- - Category/entity level object that the extracted/existing keywords belong to
+- Enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in Knowledge Article entity.
+- Select the source data fields (text fields only) for AI model that should suggest keywords and description, for example, **Title** and **Content**.
+- Select the target data fields (text fields only) for authors to add/append selected suggested keywords and description, for example, **Keywords** and **Description**.
 
 > [!NOTE]
 > The AI suggestions feature is currently available in few geographical locations. More information, see: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 
 
-## How AI suggestions for article keywords and description works
+## How AI suggestions for article keywords and description work
 
 The AI suggestions are displayed in the **View suggested keywords and description** field.
 
  The AI models work as follows:
 
 - Knowledge article keywords and descriptions are suggested based on the knowledge article content.
--- When an article is being created or updated, the model identifies keywords and its related keywords from the knowledge article content.
+- When an article is being created or updated, the model identifies keywords and its related keywords from the knowledge article content.
 - A brief summary is auto-generated for each knowledge article, based on the article content.
 
 
@@ -58,13 +56,12 @@ Language support for an article is now provided in the following languages:
 - Japanese
 - Spanish
 
-A knowledge author can specify the language for an article from the Summary tab of the knowledge form.
+The language used in AI-generated suggestions relies on the article language that knowledge authors select in the article record. A knowledge author can specify the language for an article from the Summary tab of the knowledge form.
 
 ## Prerequisites
 
 Make sure that the following requirements are met:
 
-- Customer Service workspace is installed and accessible. More information: [Customer Service workspace](csw-overview.md)
 - The System Administrator role is granted.
 - The AIB Roles and the AIB SML Roles are granted for the knowledge authors.
 - The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
@@ -72,19 +69,19 @@ Make sure that the following requirements are met:
 
 
 
-## Enable AI suggestions for similar cases
+## Enable AI suggestions for article keywords and description
 
-Perform the following steps to enable the AI suggestions for similar cases:
+Perform the following steps to enable the AI suggestions for article keywords and description:
 
-1. Sign in to  Customer Service Hub. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
+1. Sign in to  Customer Service Hub. In the **Change area**, select **Service Management**, and then under **Insights**, select **Settings**.
 
 or
 
 Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
 
-2. Select **Manage** > **Suggestions**. The **Suggestions** page appears.
-3. In the **Settings** > **Summary** area, turn on the **Enable similar case suggestions** toggle.
-4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you don't want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
+2. In the **Suggestions for knowledge article authors** area, click **Manage**.
+3. In the **Suggestions for knowledge article authors** > **Settings** > **Summary** area, turn on the **Enable keywords and description suggestions** toggle.
+4. In the **Data mapping** > **Knowledge article data fields** area, select values for the **Article title** and **Article content** boxes respectively, if you don't want to use **Title** and **Content** that are set by default. The AI model uses the data corresponding to the selected values to provide suggestions for a summary as well. 
 
    > [!NOTE]
    > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
@@ -93,53 +90,6 @@ Sign in to Omnichannel admin center. Select **Insights** and then select **Setti
 
    > ![Enable AI-suggested similar cases.](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
-## Enable AI suggestions for knowledge articles
-
-Perform the following steps to enable the AI suggestions for related knowledge articles:
-
-1. Sign in to Customer Service Hub.  In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
-
- or
-
- Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
-
-2. Select **Manage** and then **Suggestions**. The **Suggestions** page appears.
-3. In the **Settings** > **Summary** area, turn on the **Enable knowledge article suggestions** toggle.
-4. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in the **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that's displayed to the agent at runtime.
-
-5. Select **Save**.
-
-
-### Workflow processes
-
-The AI model and AI configuration entities use the following workflow processes. Make sure these processes are in the activated status. By default, these processes are activated:
-
-- IsPaiEnabled
-- Predict
-- PredictionSchema
-- Train
-- QuickTest
-- BatchPrediction
-- ScheduleTraining
-- SchedulePrediction
-- ScheduleRetrain
-- UnschedulePrediction
-- UnscheduleTraining
-- CancelTraining
-- PublishAIConfiguration
-- UnpublishAIConfiguration
-
-## Service protection limits for AI suggestions
-
-AI suggestions for Case and Knowledge became available as of October 2020. We're introducing service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there's no penalty if customers exceed predefined limits. Over time, Microsoft might adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios and patterns to purchase additional capacity in a manner minimally disruptive to those customers.
-
-The service protection limits for AI suggestions are defined in the following table. The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
-
-| Area    | Limits     | Notes     |
-|----------|------------|-----------|
-| AI suggestions for active cases | 30 cases/month per user license | Each user license adds 30 active cases, where agents can get AI-suggested knowledge articles and similar cases in real time. |
-| AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real time.|
-||||
 
 ### See also
 
