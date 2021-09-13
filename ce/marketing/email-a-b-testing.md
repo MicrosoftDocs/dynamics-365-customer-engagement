@@ -1,7 +1,7 @@
 ---
 title: "Email A/B testing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to test slightly different email designs on small portions of your audience and then deliver the winner to the rest of the audience in Dynamics 365 Marketing."
-ms.date: 10/04/2019
+ms.date: 09/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -112,6 +112,12 @@ To add an A/B test to a journey:
    - **Winning metric**: Choose whether to decide the winning design based on the click-through rate (how often a recipient clicked on a link in the message) or on the open rate (how often a recipient opened the message). In each case, the winner is the version that produced the most clicks or opens as a proportion of the total number of times that version was sent.
    - **Test duration**: Use these settings to establish how long the test should run. For best results, we recommend running each test for at least 24 hours, or longer if possible—especially if you are targeting a worldwide audience (to compensate for time zones). At the end of this time, the system will analyze the results and send the winning design to the remaining contacts in the segment. Contacts who received the "losing" design won't be re-sent the winning one.
    - **If the results are inconclusive, send**: Choose what to do if the test doesn't produce a clear winner. In this case, you can choose to send version A, version B, or a random 50/50 split of both versions to all remaining contacts.
+   
+    > [!NOTE]
+    > The winner is selected using a [null hypothesis](https://wikipedia.org/wiki/Null_hypothesis). For large sets with at least 1,000 contacts, the confidence level for the winning variant needs to be at least 95%. In smaller sets, the confidence level can be as low as 80%. If the variants differ by a relatively small number of contacts, the test results will likely be deemed inconclusive.
+    >
+    > In other words, the winner of an A/B test is not automatically the variant with more contacts. Instead, the winner is the variant that shows a *statistically significant* outcome.
+
 1. Finish setting up your journey as usual and the go live.
 
 <a name="test-lifecycle"></a>
