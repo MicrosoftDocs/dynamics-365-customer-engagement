@@ -21,14 +21,15 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 ## Introduction
 
-With the use of AI-suggested article keywords and description when authoring or updating knowledge articles, knowledge authors can ensure better searchability and surfacing of the right articles. They can add high quality and diverse keywords and description. 
+With the use of AI-suggested article keywords and description when authoring or updating knowledge articles, knowledge authors can ensure better searchability and surfacing of the right articles. This makes them more productive and supports them in following authoring best practices can add high quality and diverse keywords and description. 
 
 The key highlights of the feature are as follows:
 
-- AI-driven case and knowledge article suggestions that are based on case context and historical success rate.
-- Secondary actions that agents can take, such as collaborating with an expert, after a similar case has been found.
-- Capability of the AI model to process up to one million of the most recent cases for listing them at runtime.
-- Continuous improvement of the recommendation model through a comprehensive feedback mechanism.
+- Knowledge authors get suggested keywords and description based on the article content stored in the built-in Knowledge Article entity.
+- The suggested keywords and description are only generated and displayed for an active article in it's latest version, including articles which are in Draft, Approved, Scheduled, and Published state. Articles in Expired, Archived and Discarded states don't get suggestions. 
+- Knowledge authors see a list of non-duplicated suggested keywords that AI identifies from an article, which includes:
+- - keywords and phrases that are extracted directly from the article. 
+- - Category/entity level object that the extracted/existing keywords belong to
 
 > [!NOTE]
 > The AI suggestions feature is currently available in few geographical locations. More information, see: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
