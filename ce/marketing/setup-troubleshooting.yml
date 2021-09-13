@@ -2,7 +2,7 @@
 metadata:
   title: "Administration and setup frequently asked questions (Dynamics 365 Marketing) | Microsoft Docs"
   description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 Marketing."
-  ms.date: 01/26/2021
+  ms.date: 09/09/2021
   ms.service: dynamics-365-marketing
   ms.custom: 
     - dyn365-admin
@@ -38,7 +38,7 @@ sections:
               A Marketing contact is any entity (such as a contact, lead, account, or Customer Insights profile) engaged in a Marketing interaction.  Contacts that are stored, but not marketed to using Dynamics 365 Marketing do not count towards the Marketing contacts quota. After an interaction (see below) is logged for a contact, it does not matter how many Marketing interactions that contact performs, the contact is still counted just once.
 
           - **What is a Marketing interaction?**  
-              A Marketing interaction is an outbound message sent to any Marketing contact using Dynamics 365 Marketing. The message can be sent through out-of-box channels available in Dynamics 365 Marketing (email, push notifications), other Microsoft channels (ACS), or third-party systems integrated with Dynamics 365 Marketing (other SMS providers).  
+              A Marketing interaction is an outbound message sent to any Marketing contact using Dynamics 365 Marketing. The message can be sent through out-of-box channels available in Dynamics 365 Marketing (for example, email or push notifications), other Microsoft channels (for example, ACS), or third-party systems integrated with Dynamics 365 Marketing (for example, other SMS providers).  
           
           - **Which Marketing contacts count against my quota?**  
               All Marketing contacts on your tenant are counted, regardless of instance type (including both production and non-production instances).
