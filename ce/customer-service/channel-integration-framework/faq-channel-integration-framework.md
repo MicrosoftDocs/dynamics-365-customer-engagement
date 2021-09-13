@@ -127,14 +127,13 @@ To learn more, see [Choose between version 1.0 and version 2.0](choose-between-v
 
 For information on license, see [Dynamics 365 Customer Service pricing overview](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing) and [Dynamics 365 Customer Service pricing plan](https://dynamics.microsoft.com/en-us/pricing/customer-service/#plans).
 
-### How do third party telephony providers start their default session?
+### How can third party telephony providers start their default session?
 
-You can invoke the `Microsoft.CIFramework.setMode(1)` method from your provider code to make the panel visible. This can be added at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. Beyond that point, you can listen to the `onSessionClosed` event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
+You can invoke the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method from your provider code to make the panel visible. This can be added at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. Beyond that point, you can listen to the [onSessionClosed](/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
 
-For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) event.
+### My organization uses multiple channel providers. How can I start a default session? Also, why is the widget not visible in the home session?
 
-If there are multiple channel providers in your organization, the widget will not be visible in the home session, as the home session isn't associated with any provider. Note that the `Microsoft.CIFramework.setMode` API is not supported in the home page. 
-So, in such a scenario, you must create a default session to show a dialer experience in the communication. You can use the [createSession](reference/microsoft-ciframework/createSession.md) API to create a session template with relevant application tabs and load them together with the widget.
+If there are multiple channel providers in your organization, the widget will not be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication. You can use the [createSession](reference/microsoft-ciframework/createSession.md) API to create a session template with relevant application tabs and load them together with the widget.
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
