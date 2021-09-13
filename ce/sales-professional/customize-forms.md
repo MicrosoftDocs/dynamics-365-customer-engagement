@@ -60,7 +60,7 @@ To access the forms:
 
 For more information on creating forms, see [Create and design forms](../customerengagement/on-premises/customize/create-design-forms.md).
 
-To set a form as the default form in the app, see [Why isn't my form displayed as the default form in the app?](powerapps/maker/model-driven-apps/create-design-forms#form-display-faq)
+To set a form as the default form in the app, see [Why isn't my form displayed as the default form in the app?](/powerapps/maker/model-driven-apps/create-design-forms#form-display-faq)
 
 
 ### See also
