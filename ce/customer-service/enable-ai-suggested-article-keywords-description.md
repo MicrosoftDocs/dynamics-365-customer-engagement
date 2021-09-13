@@ -62,8 +62,9 @@ The language used in AI-generated suggestions relies on the article language tha
 
 Make sure that the following requirements are met:
 
-- The System Administrator role is granted.
-- The AIB Roles and the AIB SML Roles are granted for the knowledge authors.
+- You have the System Administrator role.
+- The knowledge authors have the AIB Roles and the AIB SML roles.
+- The keywords and article suggestions are applicable only to the default knowledge article form.
 - The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
 - If administration mode is enabled, make sure that background operations are also enabled. More information: [Administration Mode](/power-platform/admin/admin-mode).
 
@@ -81,14 +82,14 @@ Sign in to Omnichannel admin center. Select **Insights** and then select **Setti
 
 2. In the **Suggestions for knowledge article authors** area, click **Manage**.
 3. In the **Suggestions for knowledge article authors** > **Settings** > **Summary** area, turn on the **Enable keywords and description suggestions** toggle.
-4. In the **Data mapping** > **Knowledge article data fields** area, select values for the **Article title** and **Article content** boxes respectively, if you don't want to use **Title** and **Content** that are set by default. The AI model uses the data corresponding to the selected values to provide suggestions for a summary as well. 
+4. In the **Data mapping** > **Knowledge article data fields** area, select values for the **Article title** and **Article content** boxes, if you don't want to use the **Title** and **Content** values respectively, which are set by default. The AI model uses the data corresponding to the selected values to provide suggestions keywords and descriptions. 
 
    > [!NOTE]
    > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
 
 5. Select **Save**.
 
-   > ![Enable AI-suggested similar cases.](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
+   > ![Configure AI-suggested article keywords and description.](media/configure_suggest-article-keywords-description.png "Enable AI-suggested article keywords and description")
 
 
 ### See also
