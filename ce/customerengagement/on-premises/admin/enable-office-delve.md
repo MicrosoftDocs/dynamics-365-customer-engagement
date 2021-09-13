@@ -1,6 +1,6 @@
 ---
-title: "Enable Office Delve with Dynamics 365 for Customer Engagement| MicrosoftDocs"
-description: "Enable Office Delve with Dynamics 365 for Customer Engagement."
+title: "Office Graph removal from Dynamics 365 Customer Engagement apps"
+description: "Office Graph integration for Dynamics 365 Customer Engagement apps was removed on August 31, 2017, the same time that Office ended GQL query support."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Enable Office Delve with Dynamics 365 for Customer Engagement
+# Office Graph integration removal from Customer Engagement apps
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

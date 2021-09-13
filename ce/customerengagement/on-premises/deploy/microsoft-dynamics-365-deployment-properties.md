@@ -1,5 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) deployment properties | Microsoft Docs"
+description: Learn about deployment properties in Dynamics 365 Customer Engagment (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op

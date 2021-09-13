@@ -1,7 +1,7 @@
 ---
 title: "Customize your Teams webinar participant follow-up (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to customize your follow-up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 07/12/2021
+ms.date: 08/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,7 +20,9 @@ search.app:
 
 # Customize your Teams webinar participant follow-up
 
-In just a few steps, you can use contacts, segments, and a customer journey to follow up with webinar participants, even if you are not an existing Dynamics 365 Marketing user. Before you continue and customize the conversation with webinar participants, it's helpful to familiarize yourself with some Dynamics 365 Marketing terminology.
+In just a few steps, you can use contacts, segments, and a customer journey to follow up with Teams webinar participants, [even if you are not an existing Dynamics 365 Marketing user](teams-journey.md). The tools within Dynamics 365 Marketing allow you to create groups of participants and send tailored messages, create and send surveys, improve outcomes with email analytics, save participant details for future use, attract participants with personalized invitations, and increase attendance with automated confirmations and reminders.
+
+Before you continue and customize the conversation with webinar participants, it's helpful to familiarize yourself with some Dynamics 365 Marketing terminology.
 
 ## Marketing terminology
 
@@ -42,7 +44,7 @@ The automatically created customer journey uses the power of Dynamics 365 Market
 > [!div class="mx-imgBorder"]
 > ![Generated customer journey](media/team-follow-up-journey.png "Generated customer journey")
 
-Each path includes an email template to send notification emails. You can personalize each email template to suit your branding and company needs. To personalize the email, select the **Send an email** tile.
+Each path includes an email template to send notification emails. You can personalize each email template to suit your branding and company needs. To personalize the email, select the **Send an email** tile. This opens the email designer, which allows you to [personalize the design](email-design.md#design-your-content) and [tailor the content](dynamic-email-content.md) to individual contacts.
 
 You can also add tiles to create more complex paths for your journey. For example, you could try adding a **Wait for** tile and another **Send an email** tile to wait a week before sending a reminder email.
 

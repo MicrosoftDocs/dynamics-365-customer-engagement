@@ -1,6 +1,6 @@
 ---
-title: "Support and billing | MicrosoftDocs"
-description: "Support is available in markets where Dynamics 365 Online services are offered."
+title: "Support and billing for Dynamics 365 Customer Engagement (on-premises)"
+description: "Get an overview of Dynamics 365 Support, including information on plans, services, languages, billing, submitting requests, and more."
 ms.custom: 
 ms.date: 09/12/2020
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - admin
 
 ---
-# Support overview
+# Support and billing overview
 
 ## About Dynamics 365 Support
 

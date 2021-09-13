@@ -1,7 +1,7 @@
 ---
 title: "Use natural language in real-time marketing journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use natural language in real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 06/10/2021
+ms.date: 08/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Use natural language in real-time marketing journeys
+# Preview: Use natural language in real-time marketing journeys
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
@@ -45,10 +45,6 @@ The following are examples of simple conditional phrases using natural language:
 -	Customers who are in Ohio (Contacts)
 -	Contacts with vice president as job title (Contacts)
 -	Customers with vice president as job title (Contacts/Profile)
-	 
-**Search based on customer preferences**
-
--	Active contacts (Contacts)
 
 **Search by segment membership within your organization** 
 

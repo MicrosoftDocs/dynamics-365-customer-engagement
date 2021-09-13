@@ -33,7 +33,11 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Integrate a bot with Omnichannel for Customer Service
 
-**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](/azure/bot-service/?view=azure-bot-service).
+**Prerequisites**: You must ensure the following conditions are met to integrate a bot with Omnichannel for Customer Service.
+
+- The bot must be developed using [Microsoft Bot Framework](https://dev.botframework.com).
+- The bot must be registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
+- The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
 > [!NOTE]
 > Bots can escalate conversations to agents only if they are a part of push-based work streams.

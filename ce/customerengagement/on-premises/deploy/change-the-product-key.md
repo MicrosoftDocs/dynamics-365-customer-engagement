@@ -1,5 +1,6 @@
 ---
 title: "Change the product key | Microsoft Docs"
+description: Learn how to change the Dynamics 365 Customer Engagement (on-premises) product key
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: d365ce-op

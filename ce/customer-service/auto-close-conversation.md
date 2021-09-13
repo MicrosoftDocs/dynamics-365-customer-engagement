@@ -1,5 +1,5 @@
 ---
-title: "Automatic closure of a conversation| MicrosoftDocs"
+title: "Automatic closure of a conversation | MicrosoftDocs"
 description: "Use this topic to understand how to configure auto-close duration for conversations using the Web API."
 ms.date: 10/25/2019
 ms.topic: reference
@@ -89,7 +89,7 @@ You can make a `GET` request to `msdyn_occhannelconfiguration` entity to fetch a
 Make a `PATCH` request to the `msdyn_occhannelstateconfiguration` entity record and update the value of the `msdyn_autocloseliveworkitemafter` attribute.
 
 > [!NOTE]
-> The value for the `msdyn_autocloseliveworkitemafter` attribute is in minutes. If you want to provide a value that is in days, you will have to convert it into minutes. For example, 1 day will be 24 x 60 = 1,440 minutes.
+> The value for the `msdyn_autocloseliveworkitemafter` attribute is in minutes. If you want to provide a value that is in days, you'll have to convert it into minutes. For example, 1 day will be 24 x 60 = 1,440 minutes.
 
 ```http
 PATCH [Organization URI]/api/data/v9.1/msdyn_occhannelstateconfigurations(6283ab63-5778-e911-8196-000d3af7d71e)

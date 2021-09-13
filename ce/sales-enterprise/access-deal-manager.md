@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Access the deal manager workspace (Preview)
+# Preview: Access the deal manager workspace
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -26,5 +26,5 @@ To access the deal manager workspace, select **Deal manager (preview)** in the S
 
 ### See also
 
-[Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)  
-[Grant access to deal manager (Preview)](grant-access-deal-manager.md)
+[Using the deal manager workspace](deal-manager-seller-overview.md)  
+[Grant access to deal manager](grant-access-deal-manager.md)

@@ -1,6 +1,6 @@
 ---
-title: "Define status reason transitions with Date and Time data type  | MicrosoftDocs"
-description: "Learn how to define status reason transitions"
+title: "Define status reason transitions in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use status reason transitions as an additional level of filtering to define what the value can be changed to for each status reason."
 ms.custom: 
 ms.date: 11/28/2018
 ms.reviewer: 
@@ -21,7 +21,7 @@ search.audienceType:
 
 ---
 
-# Define status reason transitions for the Case or custom entities
+# Define status reason transitions for a Case entity or custom entity
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Define status reason transitions for the Case or custom entities](/powerapps/maker/common-data-service/define-status-reason-transitions)
 

@@ -7,6 +7,14 @@ ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
+searchScope: 
+  - D365-App-msdynce_saleshub
+  - D365-Entity-list
+  - D365-Entity-campaign
+  - D365-UI-Form
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Get started with in-app marketing (Sales)

@@ -1,12 +1,10 @@
 ---
-title: "Sign up for a free trial (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Sign up for a free trial - Dynamics 365 Marketing | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Marketing trial. Explore the app with tours and videos, and find additional learning resources."
-ms.date: 06/30/2021
+ms.date: 08/31/2021
 ms.service: dynamics-365-marketing
 ms.topic: get-started
-ms.custom: 
-    - template-get-started
-    - intro-internal
+ms.custom: template-trial-setup
 author: alfergus
 ms.author: alfergus
 manager: shellyha
@@ -42,6 +40,7 @@ Your trial environment includes many of the same features as the paid version. T
 
 ## Additional resources
 
+- [Dynamics 365 Marketing free trial sign up page](https://dynamics.microsoft.com/marketing/marketing-tool/free-trial)
 - [Explore training on Microsoft Learn](/learn/browse/?products=dynamics-marketing)
 - [Watch videos on the product playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_cV1n1es1YJt_T2A5u-XpR)
 - [Trial FAQ](trial-faq.md)

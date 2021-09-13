@@ -26,17 +26,17 @@ The following sections discuss the permissions you'll need to modify the case re
 
 ## Check permissions
 
-Make sure that the Customer Service Manager and Customer Service Representative security roles have the following permissions set for **Environment Variable Definition**:
+Make sure that the CSR Manager and Customer Service Representative security roles have the following permissions set for **Environment Variable Definition**:
 
 - **Customer Service Manager**: Create, Read, and Write
 - **Customer Service Representative**: Read
 
 > [!Note]
-> If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
+> If you've created custom security roles, you'll need to update the roles before you can use the modified case resolution dialog.
 
 ## Customize dialogs
 
-By default, the style of the **Resolve case** dialog is set to standard dialog. You can, however, change the style to **Customizable dialog** so that you can add custom fields and values to it.
+By default, the style of the **Resolve case** dialog is set to standard dialog. You can, however, change the style to **Customizable dialog** so that you can add custom fields and values.
 
 **To enable the Customizable dialog option**
 
@@ -73,11 +73,7 @@ When the customer service representatives try to resolve a case, the case resolu
 Let's understand how to add custom status values to the case resolution dialog with an example. Say, for example, you receive many similar business cases and you want to improve agent productivity and reduce case resolution time. You can add a case resolution rule where any case that's similar to a previously resolved case can be resolved by marking it as a "duplicate case".
 
 To do so, you'll need to update the Case entity to add a new **Resolved** status type and assign a **Duplicate** custom value to it. You'll also need to update the resolution type of the Case Resolution entity with the same custom value to ensure that all duplicate cases are assigned the same resolution type.
-<!--
-In our example, we'll add the custom status values in the following two locations:
-- **Case entity** (**statuscode** field in our example)
-- **Case Resolution entity** (**resolutiontypecode** field in our example)
--->
+
 > [!Important]
 > If you change the value in **Case entity**, be sure to update the value in **Case Resolution entity** so they match. If the values don't match, an error might be thrown. If the values don't match in the customizable dialog, the values that you specified won't display.
 

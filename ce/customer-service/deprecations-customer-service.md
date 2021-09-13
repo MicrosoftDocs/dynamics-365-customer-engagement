@@ -1,10 +1,10 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
-description: Visit this page to see what's recently deprecated in Dynamics 365 Customer Service
-ms.date: 05/18/2021
+description: "Use this topic to get information about features that are deprecated in Dynamics 365 Customer Service."
+ms.date: 06/08/2021
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -25,7 +25,11 @@ Administrators and IT professionals can use this information to prepare for futu
 
 > [!Important]
 >
-> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## setContextProvider method deprecated for authenticated chat
+
+The setContextProvider method for authenticated chat has been deprecated and will not be supported after October 01, 2021. Microsoft recommends that you use the JWT token for authenticated chat. More information: [Send authentication tokens](send-auth-token-starting-chat.md).
 
 ## Support for some knowledge management entities is deprecated <a name="deprecatedkmentities"></a>
 
@@ -41,17 +45,17 @@ If you have more questions, contact your Microsoft Customer Service representati
 
 ## Automatic record creation rules in web client are deprecated
 
-Effective from October 01, 2020, the automatic record creation and update rules are deprecated in the web client. You are encouraged to migrate your automatic record creation rules that were created in the web client to the new Unified Interface experience. For information on how to migrate the rules, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). Microsoft will continue to provide support and critical security updates for these features in the web client till the end of life that is applicable from October 01, 2021.
+Effective October 01, 2020, the automatic record creation and update rules are deprecated in the web client. You are encouraged to migrate your automatic record creation rules that were created in the web client to the new Unified Interface experience. For information on how to migrate the rules, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). Microsoft will continue to provide support and critical security updates for these features in the web client until end of life, October 01, 2022.
 
 > [!NOTE]
-> The deprecation and end of life is not applicable to the feature in Dynamics 365 Customer Engagement (on-premises).
+> The deprecation and end of life are not applicable to the feature in Dynamics 365 Customer Engagement (on-premises).
 
 ## SLA items in web client are deprecated
 
-Effective from October 01, 2020, the service-level agreements (SLAs) are deprecated in the web client. You are encouraged to migrate your SLA items that were created in the web client to the new Unified Interface experience. For information on how to migrate the items, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). Microsoft will continue to provide support and critical security updates for these features in the web client till the end of life that is applicable from October 01, 2021.
+Effective October 01, 2020, the service-level agreements (SLAs) are deprecated in the web client. You are encouraged to migrate your SLA items that were created in the web client to the new Unified Interface experience. For information on how to migrate the items, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). Microsoft will continue to provide support and critical security updates for these features in the web client until end of life, October 01, 2022.
 
 > [!NOTE]
-> The deprecation and end of life is not applicable to the feature in Dynamics 365 Customer Engagement (on-premises).
+> The deprecation and end of life are not applicable to the feature in Dynamics 365 Customer Engagement (on-premises).
 
 ## Service scheduling in Dynamics 365 Customer Service is deprecated
 

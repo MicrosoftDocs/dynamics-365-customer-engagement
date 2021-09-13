@@ -1,6 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: "Frequently asked questions about synchronizing records  | MicrosoftDocs"
+  title: "Record synchronization FAQs for Dynamics 365 Customer Engagement (on-premises)"
+  description: "Get answers to the frequently asked questions about synchronizing records between Outlook and Customer Engagement (on-premises)."
   ms.custom: 
   ms.date: 10/01/2019
   ms.reviewer: 
@@ -20,7 +21,7 @@ metadata:
     - admin
   
     
-title: Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Microsoft Outlook
+title: FAQs about record synchronization between Customer Engagement (on-premises) and Outlook
 summary: |
 
 sections:

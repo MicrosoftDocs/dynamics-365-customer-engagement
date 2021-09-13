@@ -1,6 +1,6 @@
 ---
-title: "System Settings dialog box - Calendar tab | MicrosoftDocs"
-description: "Configure calendar settings Dynamics 365 Customer Engagement (on-premises)."
+title: "Calendar settings tab in Dynamics 365 Customer Engagement (on-premises)"
+description: "From the System Settings Calendar tab in Dynamics 365 Customer Engagement (on-premises), configure settings such as scheduling options."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# System Settings dialog box - Calendar tab
+# Configure system settings from the Calendar tab
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

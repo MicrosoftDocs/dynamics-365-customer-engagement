@@ -1,6 +1,6 @@
 ---
-title: "Define rollup fields with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to define rollup fields"
+title: "Create rollup fields in Dynamics 365 Customer Engagement (on-premises)"
+description: "Rollup fields are designed to offer insights into data by aggregating values. Learn about the capabilities of rollup fields and things to consider."
 ms.custom: 
 ms.date: 11/28/2018
 ms.reviewer: 
@@ -21,7 +21,7 @@ search.audienceType:
 
 ---
 
-# Define rollup fields that aggregate values
+# Create a rollup field to aggregate values
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Define rollup fields in Power Apps](/powerapps/maker/common-data-service/define-rollup-fields)
 
@@ -190,8 +190,8 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
  [Define calculated fields](../customize/define-calculated-fields.md)   
  [Behavior and format of the Date and Time field](../customize/behavior-format-date-time-field.md)   
  [Query and visualize hierarchical data](../customize/query-visualize-hierarchical-data.md)   
- [Video: Rollup and Calculated Fields ](https://www.youtube.com/watch?v=RoahCH1p3T8&list=PLC3591A8FE4ADBE07&index=8)   
- [Video: Using Power BI](https://www.youtube.com/watch?v=PkQe4BFlBS8&list=PLC3591A8FE4ADBE07&index=3)
+ <!-- [Video: Rollup and Calculated Fields ](https://www.youtube.com/watch?v=RoahCH1p3T8&list=PLC3591A8FE4ADBE07&index=8)   
+ [Video: Using Power BI](https://www.youtube.com/watch?v=PkQe4BFlBS8&list=PLC3591A8FE4ADBE07&index=3) -->
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

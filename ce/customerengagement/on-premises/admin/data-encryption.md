@@ -1,6 +1,6 @@
 ---
-title: "Data encryption  | MicrosoftDocs"
-description: "Enhance security by encrypting your data."
+title: "Data encryption in Dynamics 365 Customer Engagement (on-premises)"
+description: "All new and upgraded organizations use data encryption by default. System administrators can change the encryption key at any time."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,15 +18,15 @@ ms.author: matp
 search.audienceType: 
   - admin
 ---
-# Enhance security by encrypting your data
+# Enhance security with data encryption
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
 
-Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] cell level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet FIPS 140-2 compliance.  
+Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] cell-level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet FIPS 140-2 compliance.  
   
- For Customer Engagement (on-premises),  all new and upgraded organizations use data encryption by default. Data encryption can’t be turned off.  
+ For Customer Engagement (on-premises), all new and upgraded organizations use data encryption by default. Data encryption can’t be turned off.  
   
  Customer Engagement (on-premises) users who have the system administrator security role can change the encryption key at any time. 
 

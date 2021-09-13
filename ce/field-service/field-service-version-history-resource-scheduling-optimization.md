@@ -46,7 +46,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) | TBD  | 09/17/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |[3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)  | 07/30/2021
+| | <i>North America</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) | TBD  | 09/24/2021
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312) |TBD  |N/A
 | | <i>China</i> |  [3.3.3.12](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33312)|TBD |N/A

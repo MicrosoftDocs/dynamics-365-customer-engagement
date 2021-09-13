@@ -1,5 +1,5 @@
 ---
-title: "Manage your data | MicrosoftDocs"
+title: "Manage data in Dynamics 365 Customer Engagement (on-premises)"
 description: "Import data into Customer Engagement (on-premises), cleaning up duplicate records, deleting data in bulk, and securing sensitive data through data encryption."
 ms.custom: 
 ms.date: 10/01/2019

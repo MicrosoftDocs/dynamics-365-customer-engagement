@@ -1,7 +1,7 @@
 ---
 title: "Preview features in trial - Sales Enterprise | MicrosoftDocs"
 description: "Learn about the preview features in your Sales trial app and how to disable them if needed."
-ms.date: 07/15/2021
+ms.date: 08/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,16 +9,14 @@ manager: shujoshi
 ---
 # Preview features in trial 
 
-This page lists the upcoming preview features that will be enabled by default in your trial app. Review the information in this page to understand what's coming up..
+This page lists the upcoming preview features that will be enabled by default in your trial app. Review the information in this page to understand what's coming up.
 
 > [!IMPORTANT]
 > A preview is a feature that is not complete, but is made available to you before general availability so you can evaluate the preview and provide feedback to Microsoft. Previews may have restricted functionality and may employ reduced or different privacy, security, or compliance commitments than a commercial version. As such, previews are not intended for production use, which means they are not meant for "live" Customer Data, Personal Data, or other data that is subject to heightened compliance requirements. Use of such data is at your sole risk and it's your sole responsibility to notify your end users about not including personal or sensitive information with their use of previews, as appropriate. We don't provide support for previews and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. This preview, and any one-off support Microsoft may elect to provide, is provided "as-is," "with all faults," "as available," and without warranty.  
 
 The following preview features will be automatically enabled in your trial app when they become available:  
 
-- Deal manager – a new workspace to manage your deals or opportunities efficiently with an editable and customizable grid and side panel, charts for visualization, and metrics for tracking. For more information, see [Using deal manager workspace](deal-manager-seller-overview.md).
-
-- A new view for contacts, opportunities, leads, and accounts with editable and customizable grid and side panel, along with the filter, sort, and group by options.  
+- A new view for contacts, opportunities, leads, and accounts with editable and customizable grid and side panel, along with the filter, sort, and group by options. The opportunities view, also known as the deal manager workspace, includes customizable charts and metrics. For more information, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
 
 - An enhanced experience for adding products to opportunities, quotes, orders, and invoices. The enhanced experience lets sellers select multiple products, filter by product families, compare products, and so on. For more information, see [Preview: Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md). 
 

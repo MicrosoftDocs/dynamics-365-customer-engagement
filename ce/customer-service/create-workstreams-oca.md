@@ -61,11 +61,6 @@ Perform the following steps:
    3. In the **Work distribution** section, perform the following steps:
 
       1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation.
-
-         - In **Push** mode, a conversation is dispatched to agents automatically using a message alert. You can configure a push conversation to be explicitly picked up.
-
-         - In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in the agent dashboard.
-
       2. In **Allowed Presences**, select a base presence, such as **Available** and **Busy**, from the list. You can select all options also. Agents will be allocated work items if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select **Away** as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
       3. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can assign work items to themselves irrespective of constraints, such as capacity and presence.
       4. If you want an ongoing conversation to be assigned to the same agent when the conversation status changes from waiting to active, make sure the **Enable Agent Affinity** is set to yes. By default, the toggle is enabled for SMS and social channels.

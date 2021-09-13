@@ -1,6 +1,6 @@
 ---
-title: "Connect to IMAP servers or SMTP servers | MicrosoftDocs"
-description: "Connect Dynamics 365 Customer Engagement (on-premises) with IMAP email servers."
+title: "Connect IMAP/SMTP servers to Dynamics 365 Customer Engagement (on-premises)"
+description: "Creating an IMAP/SMTP email server profile is not available for Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 05/18/2020
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - admin
 
 ---
-# Connect Customer Engagement (on-premises) to IMAP servers or SMTP servers
+# Connect Customer Engagement (on-premises) to IMAP/SMTP servers
 
 > [!IMPORTANT]
 > Creating an IMAP/SMTP email server profile is not available for Customer Engagement (on-premises).

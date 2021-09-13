@@ -31,7 +31,7 @@ The agent can see the following details pertaining to the feature:
 
 - The chat content is displayed in the customer's language and translated language.
 
-The agents can turn on or off the translation for each conversation by using the **More commands** button on the chat window.
+The agents can turn on or turn off the translation for each conversation by using the **More commands** button on the chat window.
 
 The following image shows a sample screenshot of the agent experience.
 

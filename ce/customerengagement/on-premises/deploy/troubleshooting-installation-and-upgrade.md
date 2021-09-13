@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting installation and upgrade | Microsoft Docs"
+description: Learn about the log files available to help you troubleshoot installation and upgrade issues with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op
@@ -17,11 +18,10 @@ manager: kvivek
 ---
 # Troubleshooting installation and upgrade
 
-
-
 This section describes how to troubleshoot installation and known issues.  
   
-## Log files  
+## Log files
+
  Setup creates log files that can be reviewed and used for troubleshooting. The log files are produced in clear unstructured text or xml and can be viewed by a basic text editor, such as [!INCLUDE[pn_Notepad](../includes/pn-notepad.md)]. By default, the location of the log files, where *User* is the account of the user who ran Setup, is as follows:  
   
  SystemDrive:\Users\\*User*\AppData\Roaming\Microsoft\MSCRM\Logs\  
@@ -39,7 +39,8 @@ This section describes how to troubleshoot installation and known issues.
   
 -   SrsDataConnectorSetup.log. The file that contains most of the [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] installation activity.  
   
-## See Also  
+## See Also
+
  [Install Microsoft Dynamics 365](install-or-upgrade-microsoft-dynamics-365-server.md) </br>  
  [Install or upgrade language packs for Microsoft Dynamics 365](install-or-upgrade-language-packs.md)
 

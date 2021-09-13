@@ -1,6 +1,6 @@
 ---
-title: "Run bulk system jobs to detect duplicate records in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Check for duplicates regularly to make sure that users don’t inadvertently create duplicate contacts, accounts, leads, or other types of records."
+title: "Bulk duplicate detection in Dynamics 365 Customer Engagement (on-premises)"
+description: "Run bulk jobs to clean up duplicate records such as contacts, accounts, and leads. You can even schedule the job to run daily and alert you when it's done."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -24,7 +24,7 @@ search.audienceType:
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
 
-To maintain the integrity of system data, you should check for duplicates regularly to make sure that users don’t inadvertently create duplicate contacts, accounts, leads, or other types of records.  
+To maintain the integrity of system data, you should regularly check for duplicates to make sure that users don’t inadvertently create duplicate contacts, accounts, leads, or other types of records.  
   
  The Check for Duplicates wizard helps you set up a bulk “job” that finds and cleans up duplicate records. You can schedule the job to run daily, and you can receive an email confirmation when the job finishes.  
   

@@ -46,14 +46,13 @@ For hardware and other requirements, see [Model-driven app requirements](/power-
 
 The following browsers are supported by the customer-facing live chat widget in Omnichannel for Customer Service:
 
-- **Windows:** Chromium-based Microsoft Edge, Google Chrome, Mozilla Firefox, and Internet Explorer 11 (see the note for Internet Explorer 11)
+- **Windows:** Chromium-based Microsoft Edge, Google Chrome, and Mozilla Firefox
 - **macOS and iOS:** Safari
 - **Android:** Chromium-based Microsoft Edge and Google Chrome
 
 > [!NOTE]
 >
-> - Only Chromium-based Microsoft Edge and Google Chrome are supported for voice and video in live chat.
-> - Support for Internet Explorer 11 is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](deprecations-customer-service.md#internetexplorer11).
+> Only Chromium-based Microsoft Edge and Google Chrome are supported for voice and video in live chat.
 
 ## Provision Omnichannel
 

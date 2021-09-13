@@ -1,6 +1,6 @@
 ---
-title: Quick view control properties for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand the quick view control properties for main forms
+title: "Change quick view control properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "A quick view control displays data from a record on a form. Learn how to manage properties such as name, label, lookup field, related entity, and more."
 Keywords: Quick view control properties; Dynamics 365 for Customer Engagement; Main forms
 author: Mattp123
 applies_to: 
@@ -16,7 +16,7 @@ search.audienceType:
   - customizer
 
 ---
-# Quick view control properties
+# Access and manage the quick view control properties of a form
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure a quick view component](/powerapps/maker/model-driven-apps/sub-grid-properties-legacy)
 

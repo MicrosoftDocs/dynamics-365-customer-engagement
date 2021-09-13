@@ -9,9 +9,11 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
   - D365-Entity-list
   - D365-Entity-campaign
+  - D365-Entity-campaignactivity
+  - D365-Entity-campaignresponse
   - D365-Entity-bulkoperation
   - D365-UI-*
   - Dynamics 365

@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 05/03/2021
+ms.date: 08/11/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -251,9 +251,40 @@ You can preview the content to view its compatibility on multiple devices, like 
 
 ![Preview panel.](media/preview-panel.png "Preview pane in content editor for knowledge article")
 
-> [!NOTE]
-> This is an indicative preview. Content rendered can be different in the actual device or screen.
+This is an indicative preview. Content rendered can be different in the actual device or screen.
 
+> [!NOTE]
+>While authoring a knowledge article in the Content field if you add anchor links, you won't be able to test the links in the Designer or the Preview mode. However, once the article is published the anchor links work as expected.
+
+
+
+## Add a file attachment to a knowledge article
+
+When you're creating a knowledge article, you can attach one or more files to it to help provide comprehensive information for your customers. Keep in mind the following when attaching files:
+
+- There isn't a limit to the number of articles that can be attached to a knowledge article, but the file size of the files you attach cannot exceed 32 MB.
+- Your administrator may limit the file size for knowledge articles.
+
+To attach a file to a knowledge article:
+
+1. Open the knowledge article where you want to add a file attachment, and then on the **Content** tab, on the right-hand side of the screen, select **Attach Files From**.
+ 
+   ![Attach a file.](media/attach-file-knowledge-article.png "Attach files to a knowledge article")
+
+2. Choose from the following file locations:
+    - **My Device** lets you browse and select files from your local device.
+    - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub.
+
+### Work with file attachments
+
+The **Attached files** section displays all of your knowledge article attachments in a tile view horizontally above your message. The default setting for the maximum number of files that can be displayed is five attachments before the page forward functionality is displayed.
+
+For your attached files, use these commands to do the following:
+
+- **Select**: Allows you to select one or more attachments by clicking the box that appears on the attachments, and then you can either **Remove** or **Download** the selected files.
+- **Sort**: Allows you to sort records by a specific filter, such a file name or size.
+
+When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
@@ -286,9 +317,10 @@ For more information about rich text control properties, see [Rich text editor c
 
   
 ## Mark a knowledge article for review  
- To make sure the content you’ve created is accurate, have someone review it.  
+
+To make sure the content you’ve created is accurate, have someone review it.  
   
- You can mark an article for review or directly assign it to a specific person or queue. When you mark an article for review, it starts appearing in the knowledge manager’s dashboard. The knowledge manager can then assign the article to specific team members or a queue for review.  
+You can mark an article for review or directly assign it to a specific person or queue. When you mark an article for review, it starts appearing in the knowledge manager’s dashboard. The knowledge manager can then assign the article to specific team members or a queue for review.  
   
 1.  In the article you want to mark for review, in the **Status Reason** drop-down list, select **Needs Review**.  
   
@@ -304,7 +336,8 @@ For more information about rich text control properties, see [Rich text editor c
   
  
 ## Review and reject or approve a knowledge article  
- It’s important to review articles for accuracy before they’re published or made available to others.  
+
+It’s important to review articles for accuracy before they’re published or made available to others.  
   
 > [!IMPORTANT]
 >  To approve a knowledge article, you must have **Approve** permissions for the knowledge article record type. This permission is added by default to the Knowledge Manager, Customer Service Manager, Customer Service Representative, or System Administrator role or equivalent permissions.  
@@ -317,7 +350,8 @@ For more information about rich text control properties, see [Rich text editor c
   
  
 ## Update knowledge articles to capture feedback  
- Make sure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
+
+Make sure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
   
 1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
@@ -332,7 +366,8 @@ For more information about rich text control properties, see [Rich text editor c
 5.  To assign the article back to the reviewer for approval or publishing, on the command bar, select **Assign**, and then select a user or a team  
   
 ## Update published knowledge articles  
- When a knowledge article is in the Published (or Scheduled) state, only the users who have the Publish privilege can update it.  
+
+When a knowledge article is in the Published (or Scheduled) state, only the users who have the Publish privilege can update it.  
   
 1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
@@ -352,7 +387,8 @@ If the article has information that complements an existing knowledge article, a
   
  
 ## Create and manage article versions  
- Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services.  
+
+Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services.  
   
  This capability helps you to keep accurate records of the features your organization provides and go back to previous versions if you need to.  
   
@@ -372,10 +408,12 @@ If the article has information that complements an existing knowledge article, a
 4.  After you have reviewed the article, make any changes that you want to the new version. You can update the article title, content, keywords, and description to reflect any changes to your products, features, or services.  
   
 ### Review and publish your new version  
- When you are done making changes, you can push the new version of your article through your standard article workflow. When you are finished reviewing and are ready to publish, on the command bar, select **More** > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article) 
+
+When you are done making changes, you can push the new version of your article through your standard article workflow. When you are finished reviewing and are ready to publish, on the command bar, select **More** > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article) 
   
 ### Manage article versions  
- Managing your article versions means publishing and archiving different versions of each article to provide the most accurate information to your customers and internal employees. Keep in mind that only one version of an article can be published at a time; it’s important to keep track of the changes that are made to each version and publish them when it is appropriate.  
+
+Managing your article versions means publishing and archiving different versions of each article to provide the most accurate information to your customers and internal employees. Keep in mind that only one version of an article can be published at a time; it’s important to keep track of the changes that are made to each version and publish them when it is appropriate.  
   
 1.  In the knowledge article, select the **Summary** tab.  
   
@@ -390,7 +428,8 @@ If the article has information that complements an existing knowledge article, a
      Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
   
 ## Translate a knowledge article in multiple languages  
- Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in Dynamics 365 Customer Service helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
+
+Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in Dynamics 365 Customer Service helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
   
 1. Open the article you want to translate, and on the command bar, select **Translate**.  
   
@@ -415,7 +454,8 @@ If the article has information that complements an existing knowledge article, a
 6. When you are finished reviewing and are ready to publish, select **More** > **Publish**. Choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article)
   
 ### Manage article translations  
- After you have published a translation for an article, you can manage it and any other translations by selecting the **Summary** tab of the knowledge article.  
+
+After you have published a translation for an article, you can manage it and any other translations by selecting the **Summary** tab of the knowledge article.  
   
 1.  In the **Related Information** section, select **Related Translations**.  
   
@@ -431,7 +471,8 @@ If the article has information that complements an existing knowledge article, a
   
 
 ## Schedule or publish an article  
- After the content in the article is complete and reviewed, you can publish the article to the portal to make it available to your customers. You can publish the article immediately or schedule it for a later time. 
+
+After the content in the article is complete and reviewed, you can publish the article to the portal to make it available to your customers. You can publish the article immediately or schedule it for a later time. 
   
 > [!IMPORTANT]
 >  If your organization is using a portal for publishing the knowledge articles, your customizer can write a plug-in that can pick the published articles and post on your portal, and also report the article views back.  
@@ -484,7 +525,8 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
   
 ### Track knowledge article analytics  
- Tracking your content helps you and your authoring team assess its value to your organization and your customers. Knowing and understanding when, where, and how many times an article was viewed tells you how much your customers and team members rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
+
+Tracking your content helps you and your authoring team assess its value to your organization and your customers. Knowing and understanding when, where, and how many times an article was viewed tells you how much your customers and team members rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
   
  To view an article’s view counts and other statistics, open the article you want to track, and then select the **Analytics** tab.  
   
@@ -533,13 +575,15 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
  
 ## Monitor knowledge articles with dashboards  
- Knowledge managers and authors can now monitor the status of knowledge articles using the two  default dashboards available in the Customer Service Hub.  
+
+Knowledge managers and authors can now monitor the status of knowledge articles using the two  default dashboards available in the Customer Service Hub.  
   
 > [!NOTE]
 >  If these dashboards don’t offer what you need, you can create new interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive experience dashboards](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622067(v=crm.8))  
   
 ### My knowledge Dashboard  
- This dashboard is designed for authors to give them a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like article expiring in the month and articles in review.  
+
+This dashboard is designed for authors to give them a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like article expiring in the month and articles in review.  
   
  ![My Knowledge Dashboard for authors.](../customer-service/media/v9-my-knowledge-dashboard.PNG "My Knowledge Dashboard for authors")  
   
@@ -550,7 +594,8 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 -   **Tiles** give authors an aggregated view of data in the streams and help them monitor the volume of their knowledge articles.  
   
 ### Knowledge Manager  
- This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
+
+This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
   
  ![Dashboard for knowledge managers.](../customer-service/media/v9-knowledge-manager-dashboard.PNG "Dashboard for knowledge managers")  
   
@@ -560,6 +605,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../customerengagement/on-premises/developer/define-alternate-keys-entity.md).
 
 ## Prevent duplicate workflows with knowledge article operations   
+
 If you use [workflow processes](../customerengagement/on-premises/customize/workflow-processes.md) to perform knowledge article operations, such as:
 - Create a knowledge article
 -	Update a knowledge article
@@ -599,7 +645,7 @@ Follow these steps:
     > [!div class=mx-imgBorder]
     > ![Select Check Condition.](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
   
-6. In the step, select **<condition> (click to configure)**. The **Specify condition** page opens in a new browser window.
+6. In the step, select **&lt;condition&gt; (click to configure)**. The **Specify condition** page opens in a new browser window.
 
     > [!div class=mx-imgBorder]
     > ![Select the condition to configure.](media/workflows-configure-condition.png "Select the condition to configure")
@@ -625,13 +671,10 @@ Now, when you perform a create or update operation, the workflow process will tr
 
 ### See also
 
-[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
-
-[Create knowledge article template](create-templates-knowledge-article.md)
-
-[Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
-
-[Use Workflow processes to automate processes that don't require user interaction](../customerengagement/on-premises/customize/workflow-processes.md)
+[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)  
+[Create knowledge article template](create-templates-knowledge-article.md)  
+[Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)  
+[Use Workflow processes to automate processes that don't require user interaction](../customerengagement/on-premises/customize/workflow-processes.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

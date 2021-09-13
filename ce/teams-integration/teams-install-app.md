@@ -1,8 +1,7 @@
 ---
 title: "Install and set up the Dynamics 365 app for Microsoft Teams | MicrosoftDocs"
-ms.custom: 
 description: "By default, Microsoft Teams integration is disabled for customer engagement apps. Follow these steps to install the Dynamics 365 app for Microsoft Teams."
-ms.date: 07/02/2021
+ms.date: 08/24/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,9 +11,9 @@ applies_to:
   - Dynamics 365 apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 search.audienceType: 
   - enduser
 search.app: 
@@ -46,6 +45,8 @@ Microsoft Teams integration uses SharePoint integration at the backend. Make sur
 - If you're currently configured to use SharePoint on-premises for document management, you need to set up document management for a customer engagement app to use SharePoint Online. For more information, see [Set up apps in Dynamics 365 to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 - If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on a customer engagement app page. For more information, see [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices). 
+
+- Enable SharePoint document management for the Dynamics 365 entities that you want to pin in Teams. For more information, see [Enable SharePoint document management for specific entities](/power-platform/admin/enable-sharepoint-document-management-specific-entities).
 
 If you get an error while configuring Microsoft Teams integration from Dynamics 365, it might be because one or more of the above prerequisites are not met. For more information, see [Troubleshoot Microsoft Teams integration](./teams-troubleshoot.md#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 

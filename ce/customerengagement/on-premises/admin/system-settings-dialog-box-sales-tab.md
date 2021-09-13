@@ -1,6 +1,6 @@
 ---
-title: "System Settings dialog box - Sales tab  | MicrosoftDocs"
-description: "Configure system-level settings for the sales area of Dynamics 365 Customer Engagement (on-premises)."
+title: "Sales settings tab in Dynamics 365 Customer Engagement (on-premises)"
+description: "From the System Settings Sales tab in Dynamics 365 Customer Engagement (on-premises), set preferences related to pricing, product bundles, and more."
 keywords: 
 ms.date: 10/01/2019
 ms.prod: d365ce-op
@@ -16,7 +16,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 14
 ---
-# System Settings dialog box - Sales tab
+# Customize system settings from the Sales tab
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

@@ -1,6 +1,6 @@
 ---
-title: Web resource properties for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand the Web resource properties for ain forms
+title: "Manage web resource properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "You can add web resources to a form to make it more appealing or helpful to users. Manage web resource properties such as name, label, formatting, and more."
 Keywords: Main form; Web resource properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -15,7 +15,7 @@ ms.assetid: 82cd41ea-95b0-4606-9e7d-43eb5ce9ecd6
 search.audienceType: 
   - customizer
 ---
-# Web resource properties
+# Access and manage the web resource properties of a form
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Web resource properties for model-driven app forms](/powerapps/maker/model-driven-apps/web-resource-properties-legacy)
 

@@ -115,6 +115,8 @@ For more information, see [Run business process flows offline](/power-automate/b
 
 - **Web resources**: Web resources are currently not supported in the iOS platform for mobile offline.
 
+- **Calculated and rollup fields**: Calculated and rollup fields that are part of records synced to the client will not be re-evaluated by the client. The re-evaluation will happen on the server when the updated record is synced.
+
 ## Tips
 
 ### Mobile offline synchronization

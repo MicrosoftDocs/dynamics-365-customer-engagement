@@ -1,7 +1,7 @@
 ---
 title: "Create a work order in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn how to create a work order in Dynamics 365 Field Service
-ms.date: 04/01/2021
+ms.date: 08/12/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -45,10 +45,10 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
   ![Work order lifecycle in Dynamics 365 field service.](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 field service")  
   
-||||||||  
+|  | Create | Schedule | Dispatch | Service | Review | Invoice |  
 |-|-|-|-|-|-|-|  
 |**What happens**|New work order is created.<br /><br /> Assigned incident, product, services, skills, territory, etc.|Work order schedule is created.<br /><br /> Resources assigned to the work order.<br /><br /> Date and time specified.|Field agent notified of work order.<br /><br /> Field agent may review and accept/decline the work order.|Work order is carried out.<br /><br /> Information about what is performed in the field is entered through the mobile app.|Supervisor verifies that all the work was done properly, and that all information regarding the work order is correct.|Invoice is created based on products and services used.<br /><br /> Inventory adjustments are made.<br /><br /> Products converted into equipment (if applicable)|  
-|**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Sales order: By sales/scheduling.<br /><br /> Ad hoc: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification sent by system automatically to field agent, customer, and other parties. **Note:**  Notifications need to set up in the system.|Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
+|**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Sales order: By sales/scheduling.<br /><br /> Unplanned: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification sent by system automatically to field agent, customer, and other parties. **Note:**  Notifications need to set up in the system.|Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
 |**Work order status**|Open - unscheduled|Open - scheduled|Open - scheduled|Open - unscheduled, then open-completed|Open - completed then closed-posted|Closed-posted|  
 |**Work order schedule status**|N/A|Scheduled|Scheduled|Scheduled<br /><br /> Accepted/Declined<br /><br /> Custom Status|Completed|Completed|  
   
@@ -57,7 +57,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 
 ### From the get started page
 
-1. As a Field Service administrator or system administator in the **Field Service** app, go to the **Get Started** page.
+1. As a Field Service administrator or system administrator in the **Field Service** app, go to the **Get Started** page.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the getting started page in Field Service.](./media/get-started.png)
@@ -114,7 +114,7 @@ Then choose **Save and close**.
 ## Add service tasks, products, or services to the work order  
  When the work order has been created and saved, you can then add any related tasks, products, or services to the work order.  
   
-- Go to the **Service Tasks** section and click **+Add Work Order Service Task record**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up service task types  ](../field-service/set-up-service-task-types.md)  
+- Go to the **Service Tasks** section and select **+Add Work Order Service Task record**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up service task types  ](../field-service/set-up-service-task-types.md)  
   
 - Go to the **Products** or **Services** section and select the **+**  button. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product or service ](../field-service/create-product-or-service.md)  
   
@@ -123,7 +123,9 @@ Then choose **Save and close**.
 
 Consider using incident types to add more details and instructions to your work orders. For more information, see the article on [configuring incident types](configure-incident-types.md).
 
-### Open work order subgrids as popup dialogue boxes
+## Work order user interface settings
+
+### Open work order subgrids as popup dialog boxes
 
 Configure work order subentities to pop out as dialog boxes and edit them without having to leave the work order form. This configuration helps dispatchers maintain context through navigation.
 
@@ -143,6 +145,41 @@ Popup navigation will now be enabled when the following entities are selected fr
 
 > [!Note]
 > This feature is available in the Unified Interface only.
+
+### Show simplified work order commands
+
+> [!Note]
+> The simplified work order commands are available as an early access feature in the 2021 wave 2.
+
+
+In the Field Service 2021 wave 2 update (8.8.47+), the work order ribbon is simplified upon upgrade because a new Field Service setting called **Show Simplified Work Order Commands** is set to **Yes** by default. 
+
+> [!div class="mx-imgBorder"]
+> ![Field Service settings, showing the "Show Simplified Work Order Commands" option.](./media/work-order-ribbon-setting.png)
+
+When **Show Simplified Work Order Commands** is set to *Yes*, the work order form ribbon command is simplified and certain commands are reduced, as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Work order form, showing the simplified work order ribbon.](./media/work-order-ribbon-form-enabled.png)
+
+The setting also applies to the ribbon commands displayed in the list of active work orders.
+
+> [!div class="mx-imgBorder"]
+> ![List of active work orders in Field Service ](./media/work-order-ribbon-enabled-homepage.png)
+
+This setting also applies when a record is selected from the work order list.
+
+> [!div class="mx-imgBorder"]
+> ![Work order list, with a work order selected.](./media/work-order-ribbon-enabled-homepage-selected.png)
+
+Set **Show Simplified Work Order Commands** to **No** to show the full list of ribbon commands on the work order form, work order list, and when a record is selected on the work order list.
+
+> [!div class="mx-imgBorder"]
+> ![Work order commands with the "Show Simplified Work Order Commands" set to "No."](./media/work-order-ribbon-disabled.png)
+
+
+> [!Note]
+> The **Show Chart** ribbon command is *not* impacted by the **Show Simplified Work Order Commands** setting.
 
 ### See also  
     

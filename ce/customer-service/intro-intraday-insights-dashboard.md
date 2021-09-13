@@ -27,7 +27,7 @@ Omnichannel for Dynamics 365 Customer Service provides dashboards that help supe
 
 - Monitor unassigned workload
 
-- Manage agent and customer escalations 
+- Manage agent and customer escalations
 
 As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service app:
 
@@ -40,7 +40,7 @@ As a supervisor, you see the following tabs when you open the Omnichannel for Cu
 > [!NOTE]
 >
 > - Contact your system administrator for configuration errors or if you are unable to view the dashboards. To learn more, see [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md).
-> - The intraday insights dashboards are available only in the English language, out of the box. You'll need to customize the dashboards to make them available in a language of your choice.
+> - The intraday insights reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice.
 
 ## Prerequisites
 
@@ -51,6 +51,7 @@ Verify the following prerequisites before you use the supervisor dashboards:
 -  **Power BI Pro** or **Power BI Premium** license is assigned to you.
 
 ## Videos
+
 [Overview of supervisor experience in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2099487)
 
 To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).

@@ -1,6 +1,6 @@
 ---
-title: Work with form tabs with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand the tab properties for main forms
+title: "Set form tab properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to manage the properties of tabs on forms, including display, formatting, and events. You can also add a tab to display documents or remove a tab."
 Keywords: Tab properties; Dynamics 365 for Customer Engagement; Main forms
 author: Mattp123
 applies_to: 
@@ -15,7 +15,7 @@ ms.assetid: e0790865-c5a4-4e86-bce2-584af2b8ed93
 search.audienceType: 
   - customizer
 ---
-# Work with form tabs
+# Access and manage the tab properties of a form
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add, configure, move, or delete tabs on a form](/powerapps/maker/model-driven-apps/add-move-or-delete-tabs-on-form)
 

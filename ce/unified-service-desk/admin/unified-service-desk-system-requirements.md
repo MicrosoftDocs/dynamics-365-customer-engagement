@@ -1,7 +1,7 @@
 ---
-title: "Unified Service Desk  system requirements | MicrosoftDocs"
+title: "Unified Service Desk system requirements | MicrosoftDocs"
 description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk."
-ms.date: 01/29/2021
+ms.date: 09/07/2021
 ms.topic: get-started-article
 author: mh-jaya
 ms.author: v-jmh
@@ -47,21 +47,13 @@ This topic provides information about the system requirements for installing the
 
 ## Support for Unified Service Desk
 
-Unified Service Desk supports the latest three releases (N-2 format). On the release of the next version of Unified Service Desk, the oldest supported version will be deprecated.
+The latest three versions of Unified Service Desk are supported. On the release of the latest version of Unified Service Desk, the oldest supported version will be deprecated.
 
-For example, If Unified Service Desk 4.2 is released, then Unified Service Desk 3.3 version will be deprecated.
-
-Supported Unified Service Desk versions are:
-
-- Unified Service Desk 4.1
-
-- Unified Service Desk 4.0
-
-- Unified Service Desk 3.3
+The supported versions of Unified Service Desk are 4.2, 4.1, and 4.0.
 
 > [!IMPORTANT]
 >
-> Unified Service Desk version 3.2 and earlier will not be supported after February 28, 2021; after this date, organizations with these versions will not have access to the Unified Service Desk client. If you are using Unified Service Desk version 3.2 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 Customer Service by February 28, 2021.
+> Unified Service Desk version 3.3 and earlier are not supported after June 21, 2021; after this date, organizations with these versions will not have access to the Unified Service Desk client. If you are using Unified Service Desk version 3.3 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 for Customer Service by October 01, 2021.
 
 <a name="packdeploy"></a>   
 ## Software requirements for the Package Deployer tool  
@@ -73,12 +65,12 @@ Supported Unified Service Desk versions are:
 
 | Supported Hosting Types | Recommended Hosting Types |
 |-----------------------------|--------------------------------------|
-| <ul><li> Chrome Process </li><li> IE Process (Deprecated) </li><li>Edge Process (Preview) </li> <li> Internal WPF </li></ul> | <ul><li> Chrome Process </li></ul> |
+| <ul><li> Edge WebView2 Process </li><li> Chrome Process </li><li> IE Process (discontinued) </li><li>Edge Process (discontinued) </li> <li> Internal WPF (deprecated) </li></ul> | Edge WebView2 Process  |
 ||
 
 > [!Note]
 >
-> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been deprecated in Unified Service Desk. For information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11).
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11)
 
 ## Impact of Unified Interface Only availability with Unified Service Desk
 
@@ -92,13 +84,13 @@ After you enable the web client experience, go to the Window Navigation Rules an
 
  You can also configure a Windows application as a virtual application on Citrix XenApp 7.6 that run as a hosted application in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate with Citrix applications](../integrate-citrix-applications.md)  
 
-## See also
+### See also
 
- [Install Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)
+ [Install Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)  
 
- [Deploy Unified Service Desk packages to Dataverse using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
+ [Deploy Unified Service Desk packages to Dataverse using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
  
- [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)
+ [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

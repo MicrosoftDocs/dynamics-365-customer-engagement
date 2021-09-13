@@ -1,6 +1,6 @@
 ---
-title: "Set up duplicate detection rules to keep your data clean in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Set rules to reduce duplicate records in the system."
+title: "Create duplicate detection rules in Dynamics 365 Customer Engagement (on-premises)"
+description: "The system includes default duplicate detection rules for accounts, contacts, and leads. To detect duplicates for other record types, create a new rule."
 ms.custom: 
 ms.date: 10/30/2017
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Set up duplicate detection rules to keep your data clean
+# Set up duplicate detection rules to keep data clean
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

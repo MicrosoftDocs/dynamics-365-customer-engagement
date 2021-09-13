@@ -1,6 +1,6 @@
 ---
-title: "Getting started with Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Information you need to get your organization started with Customer Engagement (on-premises)." 
+title:  "Get started with Dynamics 365 Customer Engagement (on-premises)"
+description: "Find the information you need to get your organization started with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Getting started
+# Getting started as an administrator
 
 As a Dynamics 365 Customer Engagement (on-premises) administrator, you’ll find the information that you need here to get your organization started with Customer Engagement (on-premises).  
 

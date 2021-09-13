@@ -1,6 +1,6 @@
 ---
-title: "System Settings dialog box - Email tab  | MicrosoftDocs"
-description: "Set up email processing in Dynamics 365 Customer Engagement (on-premises)."
+title: "Email Configuration settings tab in Dynamics 365 Customer Engagement (on-premises)"
+description: "From the System Settings Email Configuration tab, set up email processing, determine tracking options, set file size limits, and more."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# System Settings dialog box - Email tab
+# Edit system settings from the Email Configuration tab
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

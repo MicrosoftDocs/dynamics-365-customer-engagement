@@ -46,9 +46,9 @@ For more information on enabling knowledge search analytics, see Knowledge searc
 
 ### Dashboard overview
 
-The Insights dashboards for Customer Service contain a variety of charts and metrics to help you to understand the factors that have the greatest impact on your customer service. Key performance indicators and graphical breakdowns of your system's support cases are coupled with artificial intelligence generated Insights on cases and topics that contribute to overall trends.
+The Insights dashboards for Customer Service contain a variety of charts and metrics to help you to understand the factors that have the greatest impact on your customer service. Key performance indicators and graphical breakdowns of your system's support cases are coupled with AI-generated Insights on cases and topics that contribute to overall trends.
 
-Customer Service Management dashboards give you a performance Summary in addition to detailed reports on Agents and Topics.  
+Customer Service Management dashboards give you a performance Summary in addition to detailed reports on Agents and Topics.
 
 By right-clicking a chart entry and hovering over **Drill through**, and then selecting Agent Details or Topic details brings up a more detailed report specific to the selected topic or agent.  
 
@@ -58,7 +58,7 @@ By navigating to the **Knowledge Management** tab, you can view the **Search Ter
 
 The Summary dashboard gives you a broad overview of the customer service experience at your organization. It uses AI technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume. 
 
-The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic. 
+The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. For information about each chart, click the link for the chart in the following list or scroll to locate the chart later in this topic.
 
    > [!div class=ms-imgBorder]
    > ![View Summary dashboard.](media/cs-analytics-insights.png "View analytics and insights on the Summary dashboard")

@@ -1,6 +1,6 @@
 ---
-title: "Server-side synchronization  | MicrosoftDocs"
-description: "Synchronize data for each user that can be controlled by using synchronization filters."
+title: "Server-side synchronization in Dynamics 365 Customer Engagement (on-premises)"
+description: "Synchronize data for each user that can be controlled by using filters that are available from the Synchronization tab in the user options dialog."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -19,11 +19,11 @@ search.audienceType:
   - admin
 
 ---
-# Server-side synchronization
+# Server-side synchronization overview
 
 <a name="BKMK_serversidesync"></a> 
 
-Server-side synchronization is the preferred option for organizations with users who run Dynamics 365 Customer Engagement (on-premises) in a web browser or on a mobile device, such as a tablet or smartphone. server-side synchronization provides direct Customer Engagement (on-premises)-to-email server synchronization. When you use [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], this includes bi-directional synchronization of email, contacts, tasks, and appointments. The data synchronized for each user can be controlled by using synchronization filters that are available from the **Synchronization** tab in the Customer Engagement (on-premises) user options dialog.  
+Server-side synchronization is the preferred option for organizations with users who run Dynamics 365 Customer Engagement (on-premises) in a web browser or on a mobile device, such as a tablet or smartphone. Server-side synchronization provides direct Customer Engagement (on-premises)-to-email server synchronization. When you use [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], this includes bi-directional synchronization of email, contacts, tasks, and appointments. The data synchronized for each user can be controlled by using synchronization filters that are available from the **Synchronization** tab in the Customer Engagement (on-premises) user options dialog.  
   
  If you use a POP3 email server, the data that is synchronized includes email only.  
   

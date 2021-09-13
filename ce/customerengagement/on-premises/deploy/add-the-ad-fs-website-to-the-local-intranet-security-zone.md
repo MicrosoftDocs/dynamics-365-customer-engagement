@@ -1,5 +1,6 @@
 ---
-title: "Add the AD FS website to the Local intranet security zone | Microsoft Docs"
+title: "Add the AD FS website to the Local intranet security zone in Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
+description: Learn how to add the AD FS website to the Local intranet security zone in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op

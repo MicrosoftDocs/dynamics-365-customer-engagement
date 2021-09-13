@@ -1,7 +1,7 @@
 ---
 title: "Manage user compliance settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manage real-time marketing compliance settings in Dynamics 365 Marketing."
-ms.date: 07/26/2021
+ms.date: 08/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,10 +20,7 @@ search.app:
 
 # Manage user compliance settings
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference page setup, and outbound consent settings.
 
 ## Compliance terms and definitions
 

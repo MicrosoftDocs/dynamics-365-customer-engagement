@@ -1,5 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) organization database indexes | Microsoft Docs"
+description: Learn about organization database indexes with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) organization database indexes
-
-
 
 The indexes that are created in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database are designed to provide fast retrieval of commonly requested data from tables and views stored on a [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)]. Here are a few characteristics for the indexes that are created in a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database.  
   

@@ -1,6 +1,6 @@
 ---
-title: "Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online | Microsoft Docs"
-description: "Configure server-based authentication between Dynamics 365 (on-premises) and Exchange Online."
+title: "Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online."
 ms.custom: ""
 ms.date: "2/20/2020"
 ms.prod: d365ce-op
@@ -15,7 +15,7 @@ caps.latest.revision: 61
 ms.author: matp
 author: Mattp123
 ---
-# Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online
+# Connect Customer Engagement (on-premises) to Exchange Online
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
@@ -60,7 +60,7 @@ The following software features are required to run the Windows PowerShell cmdle
 1. On the Microsoft Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
 2. Prepare the certificate.
 
-   Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it is C:\Program Files\Microsoft Dynamics CRM\Tool).
+   Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it is C:\Program Files\Microsoft Dynamics CRM\Tools).
 
 ```powershell
 $CertificateScriptWithCommand = “.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName”
