@@ -357,6 +357,8 @@
       items:
       - name: Work with accounts and contacts
         href: ../basics/accounts-contacts.md
+      - name: Install ZoomInfo app
+        href: install-zoominfo-app.md   
       - name: Organize contacts in live org charts for accounts
         href: live-org-chart.md
       - name: Scan business cards

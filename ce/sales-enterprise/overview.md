@@ -96,7 +96,7 @@ Integrate Dynamics 365 Sales with helps to digitally transformation your busines
 
 - [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)    
 - [Microsoft Teams integration](../teams-integration/teams-integration.md)    
-- []
+- [Install ZoomInfo app](install-zoominfo-app.md)   
 - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)   
 
 ### See also
