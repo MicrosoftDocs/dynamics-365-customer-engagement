@@ -21,7 +21,7 @@ Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framew
 
 ### Can I integrate a two-way communication channel?
 
-Yes, you can integrate two-way communication that enables you to set the context of inbound and/or outbound calling according to your business and process workflows.
+Yes, you can integrate two-way communication that enables you to set the context of inbound and outbound calling according to your business and process workflows.
 
 ### Can I synchronize user presence across different providers?
 
@@ -74,20 +74,7 @@ No, the Dynamics 365 Channel Integration Framework solution should not be bundle
 
 Also, you can add Configuration Experience to the acquired flow that'll allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution perform any additional setup or license acquisition remotely, before installation.
 
-## Dynamics 365 Channel Integration Framework 1.0 FAQs
-
-### What happens when you select a role from under Select roles for the Channel?
-
-When you select a particular security role for the channel provider from under the **Select roles for the Channel** dropdown list, the security role provides certain access rights to the channel provider. If no role is selected, the channel provider can only be accessed by System Administrators and Customizers.
-
-> [!IMPORTANT]
-> When you select a role in the **Select roles for the Channel** list, it does not filter out users with just the System Administrator role. The System Administrator and Customizer roles will always have access to the channel provider. When you assign a System Administrator role to a user, the other users who have been assigned the System Administrator role earlier will not lose access unless you explicitly revoke system administrator rights from a user.
-
-### Can I load the Dynamics 365 Channel Integration Framework 1.0 communication widget in Omnichannel for Customer Service?
-
-No, that is not supported.
-
-## Dynamics 365 Channel Integration Framework 2.0 FAQs
+## Dynamics 365 Channel Integration Framework 2.0
 
 ### What are the new changes to the Channel Integration Framework app?
 
@@ -97,7 +84,7 @@ Channel Integration Framework model-driven app is only applicable to configure c
 
 No. There is no impact on Channel Integration Framework 1.0 users. You can continue to use the Channel Integration Framework app to configure channel providers for single session Dynamics 365 model-driven app.
 
-### Where do I configure voice channel provider for multi-session apps?
+### Where do I configure voice channel provider for multisession apps?
 
 Organizations can configure voice channel providers from the [App profile manager](../../app-profile-manager/overview.md).
 
@@ -110,7 +97,7 @@ Yes. From your channel provider record, you'll not be able to see the following 
 	
 ### How do I choose the Unified Interface apps for the voice channel provider record?
 
-You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multi-session apps such as Omnichannel for Customer Service and Customer Service workspace.
+You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multisession apps such as Omnichannel for Customer Service and Customer Service workspace.
 	
 ### How do I select roles for the voice channel provider record?
 
@@ -120,9 +107,9 @@ Telephony channel providers are associated with app profiles, which in turn are 
 
 Yes. Dynamics 365 Channel Integration Framework 1.0 APIs will continue to be available and supported for the single-session Unified Interface apps like Customer Service Hub and Sales Hub. Even with the Dynamics 365 Channel Integration Framework 2.0 app, they will continue to work.
 
-### How do I use the multi-session experiences for my contact center with a third-party provider's communication widget?
+### How do I use the multisession experiences for my contact center with a third-party provider's communication widget?
 
-Dynamics 365 Channel Integration Framework 2.0 works only with multi-session apps such as Omnichannel for Customer Service. You can integrate any third-party telephony provider with Omnichannel for Customer Service using the Channel Integration Framework 2.0 APIs. 
+Dynamics 365 Channel Integration Framework 2.0 works only with multisession apps such as Omnichannel for Customer Service. You can integrate any third-party telephony provider with Omnichannel for Customer Service using the Channel Integration Framework 2.0 APIs. 
 
 For information on selecting versions, see [Choose between version 1.0 and version 2.0](choose-between-versions.md).
 
@@ -149,6 +136,21 @@ Yes, you can integrate custom messaging channels using Direct Line bot. More inf
 ### Is it possible to view the existing channel providers from Channel Integration Framework 2.0 model-driven app?
 
 No, you'll have to navigate to Channel Integration Framework 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md)
+
+
+## Dynamics 365 Channel Integration Framework 1.0
+
+### What happens when you select a role from under Select roles for the Channel?
+
+When you select a particular security role for the channel provider from under the **Select roles for the Channel** dropdown list, the security role provides certain access rights to the channel provider. If no role is selected, the channel provider can only be accessed by System Administrators and Customizers.
+
+> [!IMPORTANT]
+> When you select a role in the **Select roles for the Channel** list, it does not filter out users with just the System Administrator role. The System Administrator and Customizer roles will always have access to the channel provider. When you assign a System Administrator role to a user, the other users who have been assigned the System Administrator role earlier will not lose access unless you explicitly revoke system administrator rights from a user.
+
+### Can I load the Dynamics 365 Channel Integration Framework 1.0 communication widget in Omnichannel for Customer Service?
+
+No, that is not supported.
+
 
 ### See also
 
