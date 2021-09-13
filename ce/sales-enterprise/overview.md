@@ -9,11 +9,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-**Before you start**
-
-
-
-
+# Overview of Dynamics 365 Sales
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
