@@ -10,6 +10,15 @@ manager: annbe
 
 # Set up Dynamics 365 Sales
 
+#### Requirements
+|  | |
+|-----------------------|---------|
+| **Applicable for** | Sales enterprise and sale premium |
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium. <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security role** | System administrator or tenant administrator. <br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
+|||
+
+
 To set up Dynamics 365 Sales, you must complete these general steps.
 
 1. Buy a subscription, or sign up for a free 30-day trial subscription.
@@ -23,9 +32,6 @@ To set up Dynamics 365 Sales, you must complete these general steps.
 ## Install the Sales solution<a name="install"></a>
 
 After getting a Dynamics 365 Sales subscription, follow these steps to install the Dynamics 365 Sales solution.
-
-> [!IMPORTANT]
-> You must have at least one Dynamics 365 Sales Enterprise license to install the Sales app.
 
 1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 

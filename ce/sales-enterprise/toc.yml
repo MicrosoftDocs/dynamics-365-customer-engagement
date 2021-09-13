@@ -2,19 +2,19 @@
   href: help-hub.md
   items:
   - name: Overview
-    href: overview.yml
+    href: overview.md
   - name: What's new
     href: whats-new.md
-  - name: Sign up for a free sales trial
+  - name: Sign up, install, and manage
     items:
     - name: Sign up for a free sales trial
-      href: sign-up-for-sales-trial.md
-    - name: Sales trial FAQ
-      href: sales-trial-faq.md
-    - name: Preview features in trial
-      href: sales-previews-in-trial.md
-  - name: Install and manage
-    items:
+      items:
+      - name: Sign up for a free sales trial
+        href: sign-up-for-sales-trial.md
+      - name: Sales trial FAQ
+        href: sales-trial-faq.md
+      - name: Preview features in trial
+        href: sales-previews-in-trial.md
     - name: Install
       items:
       - name: Set up Dynamics 365 Sales
@@ -125,6 +125,16 @@
           href: enable-enhanced-add-product-experience.md
         - name: Customize the Add Products dialog box
           href: customize-add-products-dialog-box.md
+      - name: Integrate ZoomInfo app
+        items:
+        - name: Install ZoomInfo app  
+          href: install-zoominfo-app.md    
+        - name: Configure export preferences
+          href: configure-export-preferences-zoominfo.md  
+        - name: Match fields between Dynamics 365 and ZoomInfo
+          href: match-fields-between-dynamics365-zoominfo.md
+        - name: Customize the ZoomInfo app
+          href: customize-zoominfo-app.md    
     - name: Productivity
       items:
       - name: Activity management

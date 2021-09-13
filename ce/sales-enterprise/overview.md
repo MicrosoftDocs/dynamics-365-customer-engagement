@@ -1,3 +1,20 @@
+---
+title: "Overview of Dynamics 365 Sales"
+description: "Get an overview of the sales offerings from Dynamics 365 Sales."
+ms.date: 09/10/2021
+ms.service: dynamics-365-sales
+ms.topic: get-started-article
+author: udaykirang
+ms.author: udag
+manager: shujoshi
+---
+
+**Before you start**
+
+
+
+
+
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
@@ -83,6 +100,7 @@ Integrate Dynamics 365 Sales with helps to digitally transformation your busines
 
 - [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)    
 - [Microsoft Teams integration](../teams-integration/teams-integration.md)    
+- []
 - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)   
 
 ### See also
