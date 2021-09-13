@@ -31,7 +31,7 @@ sections:
          
       - question: Can I customize the default booking calendar control, such as by changing the booking cell content?
         answer: |
-          Currently, customizations for the default booking calendar control aren't supported.
+          Yes, you can customize the Calendar to replace the existing primary field and add up to three custom fields. See [Edit the Booking Calendar Control.](https://docs.microsoft.com/en-us/dynamics365/field-service/mobile-power-app-configure#edit-the-bookings-calendar-control)
   - name: Maps and locations
     questions:          
       - question: How do I enable address suggestions?
@@ -147,3 +147,7 @@ sections:
       - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
         answer: |
           Not at this time. Support for non-public clouds will be added to the Field Service (Dynamics 365) mobile app in the near future.
+          
+     - question: How do I change the Time Zone of the application?
+        answer: |
+          While logged into the application, click on the three vertical lines or swipe from the left to access the sitemap. Click on "Settings" icon to find "Time Zone". Change to desired time zone. Fully close and re-open the application for time zone changes to take effect. 
