@@ -86,7 +86,7 @@ No. There is no impact on Channel Integration Framework 1.0 users. You can conti
 
 ### Where do I configure voice channel provider for multisession apps?
 
-Organizations can configure voice channel providers from the [App profile manager](../../app-profile-manager/overview.md).
+Organizations can configure voice channel providers using the [app profile manager](../../app-profile-manager/overview.md).
 
 ### My organization is using voice channel configured using Channel Integration Framework 2.0. Does the change impact my organization?
 
