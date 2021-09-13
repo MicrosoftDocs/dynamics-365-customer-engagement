@@ -135,7 +135,7 @@ You can invoke the `Microsoft.CIFramework.setMode(1)` method from your provider 
 For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) event.
 
 > [!Note]
-> The home session isn't associated to provider, so in the home session, the widget will not be visible. The `Microsoft.CIFramework.setMode` API is not supported in the Home page. If there are multiple channel providers, the provider should create a default session to show a dialer experience in the communication.
+> In case there are multiple channel providers, the widget will not be visible in the home session, as the home session isn't associated with any provider; the `Microsoft.CIFramework.setMode` API is not supported in the Home page. If there are multiple channel providers, the provider must create a default session to show a dialer experience in the communication. The provider can use the CreateSession API to create a session template with relevant application tabs and load them together with the widget.
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
