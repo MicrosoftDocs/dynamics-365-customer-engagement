@@ -80,7 +80,7 @@ Also, you can add Configuration Experience to the acquired flow that'll allow th
 
 Channel Integration Framework model-driven app is only applicable to configure channel providers for single session Dynamics 365 model-driven apps. The templates (Session, Notification, and Application tab) will not be available in the Channel Integration Framework app.
 
-### My organization is using Channel Integration Framework 1.0. Does the change impact my organization?
+### My organization is using Channel Integration Framework 1.0. Does the new version impact my organization?
 
 No. There is no impact on Channel Integration Framework 1.0 users. You can continue to use the Channel Integration Framework app to configure channel providers for single session Dynamics 365 model-driven app.
 
