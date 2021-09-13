@@ -18,6 +18,7 @@ The following insights features are available in all supported geographical regi
 
 The following insights features are not supported in the listed regions:
 - **Smart assist suggestions**: India and Switzerland
+- **AI suggestion for article keywords and description**: India and Switzerland
 - **Omnichannel historical analytics**: France, Switzerland, and United Arab Emirates
 - **Conversation topic clustering**: France, Switzerland, and United Arab Emirates
 
