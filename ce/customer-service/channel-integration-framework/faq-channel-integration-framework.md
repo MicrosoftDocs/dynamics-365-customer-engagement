@@ -134,8 +134,8 @@ You can invoke the `Microsoft.CIFramework.setMode(1)` method from your provider 
 
 For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) event.
 
-> [!Note]
-> In case there are multiple channel providers, the widget will not be visible in the home session, as the home session isn't associated with any provider; the `Microsoft.CIFramework.setMode` API is not supported in the Home page. If there are multiple channel providers, the provider must create a default session to show a dialer experience in the communication. The provider can use the [createSession](reference/microsoft-ciframework/createSession.md) API to create a session template with relevant application tabs and load them together with the widget.
+If there are multiple channel providers in your organization, the widget will not be visible in the home session, as the home session isn't associated with any provider. Note that the `Microsoft.CIFramework.setMode` API is not supported in the home page. 
+So, in such a scenario, you must create a default session to show a dialer experience in the communication. You can use the [createSession](reference/microsoft-ciframework/createSession.md) API to create a session template with relevant application tabs and load them together with the widget.
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
@@ -143,7 +143,7 @@ This is to make sure that the updated data is available for the agent at all tim
 
 ### Is it possible to integrate custom messaging channel providers?
 
-Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md).
+Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md).
 
 ### Is it possible to view the existing channel providers from Channel Integration Framework 2.0 model-driven app?
 
