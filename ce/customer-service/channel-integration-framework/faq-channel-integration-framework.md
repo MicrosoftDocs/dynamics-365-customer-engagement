@@ -75,6 +75,7 @@ No, the Dynamics 365 Channel Integration Framework solution should not be bundle
 Also, you can add Configuration Experience to the acquired flow that'll allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution perform any additional setup or license acquisition remotely, before installation.
 
 ## Dynamics 365 Channel Integration Framework 1.0 FAQs
+
 ### What happens when you select a role from under Select roles for the Channel?
 
 When you select a particular security role for the channel provider from under the **Select roles for the Channel** dropdown list, the security role provides certain access rights to the channel provider. If no role is selected, the channel provider can only be accessed by System Administrators and Customizers.
@@ -109,7 +110,7 @@ Yes. From your channel provider record, you'll not be able to see the following 
 	
 ### How do I choose the Unified Interface apps for the voice channel provider record?
 
-You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multisession apps such as Omnichannel for Customer Service and Customer Service workspace.
+You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multi-session apps such as Omnichannel for Customer Service and Customer Service workspace.
 	
 ### How do I select roles for the voice channel provider record?
 
@@ -123,7 +124,7 @@ Yes. Dynamics 365 Channel Integration Framework 1.0 APIs will continue to be ava
 
 Dynamics 365 Channel Integration Framework 2.0 works only with multi-session apps such as Omnichannel for Customer Service. You can integrate any third-party telephony provider with Omnichannel for Customer Service using the Channel Integration Framework 2.0 APIs. 
 
-To learn more, see [Choose between version 1.0 and version 2.0](choose-between-versions.md).
+For information on selecting versions, see [Choose between version 1.0 and version 2.0](choose-between-versions.md).
 
 For information on license, see [Dynamics 365 Customer Service pricing overview](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing) and [Dynamics 365 Customer Service pricing plan](https://dynamics.microsoft.com/en-us/pricing/customer-service/#plans).
 
@@ -133,19 +134,21 @@ You can invoke the [Microsoft.CIFramework.setMode(1)](reference/microsoft-cifram
 
 ### My organization uses multiple channel providers. How can I start a default session? Also, why is the widget not visible in the home session?
 
-If there are multiple channel providers in your organization, the widget will not be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication. You can use the [createSession](reference/microsoft-ciframework/createSession.md) API to create a session template with relevant application tabs and load them together with the widget.
-
+If there are multiple channel providers in your organization, the widget will not be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication widget, conversation dashboards in the application tab, and so on. 
+To create a default session, do the following:
+1. Use the [createSession](reference/microsoft-ciframework/createSession.md) API to create a session with relevant application tabs and load them together with the widget.
+2. Use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code, at the end of the initialization section. This ensure that the widget is visible right from the time the channel provider is loaded.
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
 This is to make sure that the updated data is available for the agent at all times.
 
 ### Is it possible to integrate custom messaging channel providers?
 
-Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md).
+Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md)
 
 ### Is it possible to view the existing channel providers from Channel Integration Framework 2.0 model-driven app?
 
-No, you'll have to navigate to Channel Integration Framework 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md).
+No, you'll have to navigate to Channel Integration Framework 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md)
 
 ### See also
 
