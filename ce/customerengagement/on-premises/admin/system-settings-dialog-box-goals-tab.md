@@ -2,7 +2,7 @@
 title: "Goals settings tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings Goals tab in Dynamics 365 Customer Engagement (on-premises), Set the duration and frequency of the automatic rollup of goals."
 keywords: 
-ms.date: 10/01/2019
+ms.date: 09/13/2021
 ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
