@@ -60,7 +60,7 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
 - **Communicate with effective call techniques**: Converse with empathy by employing AI-powered conversation intelligence to detect customer emotion, sentiment, and priorities.    
 - **Connect across channels**: Streamline selling with integrated multichannel communications such as, soft phone dialer, Microsoft Teams dialer, and email templates.    
 - **Meet and collaborate virtually**: Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data.   
-- **Gather and act on customer feedback**: See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. More information: [Dynamics 365 Customer Voice documentation](https://docs.microsoft.com/dynamics365/customer-voice/help-hub).
+- **Gather and act on customer feedback**: See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. More information: [Dynamics 365 Customer Voice documentation](/customer-voice/help-hub).
 
 ### [Build relationships](#tab/br)    
 - **Get insights from LinkedIn Sales Navigator**: Within a unified experience from Dynamics 365, view contextual LinkedIn profiles and insights as part of account, contact, lead, and opportunities records.         

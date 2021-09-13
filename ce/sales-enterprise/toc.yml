@@ -5,6 +5,8 @@
     href: overview.md
   - name: What's new
     href: whats-new.md
+  - name: Predefined security roles for Sales
+    href: security-roles-for-sales.md  
   - name: Sign up, install, and manage
     items:
     - name: Sign up for a free sales trial
