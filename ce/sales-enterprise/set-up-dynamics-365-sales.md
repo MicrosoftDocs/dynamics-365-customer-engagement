@@ -10,12 +10,12 @@ manager: annbe
 
 # Set up Dynamics 365 Sales
 
-#### Requirements
+##### Requirements
 |  | |
 |-----------------------|---------|
 | **Applicable for** | Sales enterprise and sale premium |
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium. <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security role** | System administrator or tenant administrator. <br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security role** | System administrator or tenant administrator <br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
 |||
 
 
