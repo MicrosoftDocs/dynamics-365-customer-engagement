@@ -251,7 +251,7 @@ These APIs can be called by using the browser.
 4. After this function is defined, you can call it to create, edit, or delete calendars by using the APIs. Enter the following call:
 
 ```
-       CalendarAction("msdyn_SaveCalendar", {"CalendarEventInfo":"{\"CalendarId\":\"df0857c4-50f5-4576-8e89-f236670ad2d5\",\"TimeZoneCode\":92,\"StartDate\":\"2021-04-25T00:00:00.000Z\",\"IsVaried\":false,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-04-25T08:00:00.000Z\",\"EndTime\":\"2021-04-25T17:00:00.000Z\",\"Duration\":540,\"Effort\":1}]}]}"})
+       CalendarAction("msdyn_SaveCalendar", {"CalendarEventInfo":"{\"CalendarId\":\"df0857c4-50f5-4576-8e89-f236670ad2d5\",\"EntityLogicalName\":\"bookableresource\", \"TimeZoneCode\":92,\"StartDate\":\"2021-04-25T00:00:00.000Z\",\"IsVaried\":false,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-04-25T08:00:00.000Z\",\"EndTime\":\"2021-04-25T17:00:00.000Z\",\"Duration\":540,\"Effort\":1}]}]}"})
 ```
 
 See the following section for examples of how to make different calls based on your needs. Replace the `action` of the function call in step 3 with `msdyn_SaveCalendar` or `msdyn_DeleteCalendar`, and replace `data` with the relevant `CalendarEventInfo`.
