@@ -22,7 +22,7 @@ This topic applies to Sales Enterprise, Sales Premium, and Sales Professional pr
 
 ## Requirements
 
-|  | |
+| | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson or Sales Professional Person <br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
