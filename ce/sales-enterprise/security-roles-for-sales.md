@@ -13,19 +13,24 @@ Security roles control users access to data through a set of access levels and p
 
 The predefined security roles for Sales include permissions and access levels that the default sales personas will need. For example, the Sales Manager and Salesperson security roles can be associated with the respective users in your organization. As a system administrator, you can verify the permissions and access levels granted for each role and modify it to suit your needs. For more information, see [Create or edit a security role](/power-platform/admin/create-edit-security-role).
 
-| **Security roles** | **Who needs it?** | **Access granted** |
-|-------------------------|------------|-------------------------|
-| Sales Manager | Users who manage a team of sellers and are responsible for the team's performance. They are also responsible for creating and managing product SKUs, setting sales targets, and projecting sales forecasts. | Access to product management, sales management, sales forecasting, and goal management. |
-| Salesperson | Sellers who work on opportunities, quotes, orders, and invoices. | Access to everything from lead to order – Lead, Opportunities, Quote, Order, Invoice.</br>Create accounts and contacts, and track goals |
-| Sales team member | Users who don't need the full capabilities of an enterprise application. These users will have a dedicated license, use a dedicated app, and get the Sales Team member security role to support their scenario.  More information: [Sales Team Member app for users with Team Member license](sales-team-member.md). | Access to the Sales Team Member App. Read access to contacts, accounts, leads, and opportunities. Add notes and activities, such as tasks. |
-| Vice President of Sales | Users who typically manage the sales organization for several business units or the entire organization. | Same permissions as the Sales Manager, except that their scope of access is broader. |
-| Forecast Manager | Sales manager or an equivalent role who is responsible for configuring forecasts in the organization.  | Configure, clone, deactivate, adjust, or delete a forecast. |
-| Forecast user | Any user in the organization who needs access to the forecast data for tracking and analysis  | View forecast and drill-down forecast data |
-|Forecast Appuser  | System security role. Do not assign this role to any users. |Internal role used by Dynamics 365 to perform certain forecasting opertions. |
-| Playbook Manager | Sales manager or an equivalent role that creates playbooks for the organization. | Create playbook categories and playbook templates, and add documents to the playbook template. |
-| Playbook User | Sales representatives who use playbooks while working on a record | Launch playbooks in the context of an entity, mark a playbook as completed, and track playbook activities. |
-|  |  |  |
-
+| **Security roles** | **Who needs it?** | **Applies to** | **Access granted** |
+|--------------------|-------------------|----------------|--------------------|
+|Forecast Appuser  | System security role. Do not assign this role to any users. | Sales Enterprise and Sales Premium | Internal role used by Dynamics 365 to perform certain forecasting opertions. |
+| Forecast Manager | Sales manager or an equivalent role who is responsible for configuring forecasts in the organization. | Sales Enterprise and Sales Premium | Configure, clone, deactivate, adjust, or delete a forecast. |
+| Forecast user | Any user in the organization who needs access to the forecast data for tracking and analysis  | Sales Enterprise and Sales Premium | View forecast and drill-down forecast data |
+| Playbook Manager | Sales manager or an equivalent role that creates playbooks for the organization. | Sales Enterprise and Sales Premium | Create playbook categories and playbook templates, and add documents to the playbook template. |
+| Playbook User | Sales representatives who use playbooks while working on a record | Sales Enterprise and Sales Premium | Launch playbooks in the context of an entity, mark a playbook as completed, and track playbook activities. |
+| Salesperson | Sellers who work on opportunities, quotes, orders, and invoices. | Sales Enterprise and Sales Premium | Access to everything from lead to order – Lead, Opportunities, Quote, Order, Invoice.</br>Create accounts and contacts, and track goals |
+| Sales Manager | Users who manage a team of sellers and are responsible for the team's performance. They are also responsible for creating and managing product SKUs, setting sales targets, and projecting sales forecasts. | Sales Enterprise and Sales Premium | Access to product management, sales management, sales forecasting, and goal management. |
+| Sales Professional app access |  | Sales Professional |  |
+| Sales Professional Manager |  | Sales Professional |  |
+| Sales Professional Person |  | Sales Professional |  |
+| Sales team member | Users who don't need the full capabilities of an enterprise application. These users will have a dedicated license, use a dedicated app, and get the Sales Team member security role to support their scenario.  More information: [Sales Team Member app for users with Team Member license](sales-team-member.md). | Sales Enterprise and Sales Premium | Access to the Sales Team Member App. Read access to contacts, accounts, leads, and opportunities. Add notes and activities, such as tasks. |
+| Sequence Manager | Sales manager or an equivalent role that creates and manages sequences, segments, and assignment rules for the organization. | Sales Premium | Create, edit, delete, and deactivate the following features in sales accelerator:<br>- Sequences<br>- Segments<br>- Assignment rules |
+| System Administrator |  | Sales Enterprise, Sales Premium, and Sales Professional |  |
+| System Customizer |  | Sales Enterprise, Sales Premium, and Sales Professional |  |
+| Vice President of Sales | Users who typically manage the sales organization for several business units or the entire organization. | Sales Enterprise and Sales Premium | Same permissions as the Sales Manager, except that their scope of access is broader. |
+|  |  |  |  |
 
 ## Assign security roles to users
 
@@ -46,5 +51,6 @@ responsible for enforcing best practices for Playbooks, assign the Sales Manager
 
 5. Notify the user and have them check their permissions.
 
-### See also
+### See also   
+
 [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
