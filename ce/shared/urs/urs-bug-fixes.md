@@ -1,3 +1,13 @@
+## 3.12.52.4
+
+(Includes Resource Scheduling controls version 1.1.7.211681)
+
+- Fixed an issue where a new booking is created from the booking form directly with a **Booking rule** enabled, the `RequirementId` is not passed via the bookings rule. 
+- Made performance improvement on the schedule board by only querying for the active booking records, which are displayed on the schedule board. 
+- When booking a multiday requirement, some would get stuck in a loop for a long time when using booking method as **Remaining Requirement** with **Double-book if needed** selected. This issue is now fixed. 
+- When the user selects a suggested time slot on the quick book panel, the selection was not highlighted. This bug is now fixed. 
+- Fixed **Object reference not set to an instance of an object** error during the upgrade of the environments from an older (v6, v7) version of Field service app to latest v8 versions. 
+
 ## 3.12.51.1
 
 (Includes Resource Scheduling controls version 1.1.7.211681)
