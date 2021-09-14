@@ -118,7 +118,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | Track contacts                                      |                            |                     |              |                 |                        |               |            |       |
 | Track tasks                                         |                            |                     |              |                 |                        |               |            |       |
 |                                                     |                            |                     |              |                 |                        |               |            |       |
-| **Pin add-in** (Only works with Microsoft Exchange Online. For more information, see [Implement a pinnable task pane in Outlook](/office/dev/add-ins/outlook/pinnable-taskpane).                                    | X                          | X*                   |             |                | X                      | X             |           |      |
+| **Pin add-in** (Only works with Microsoft Exchange Online. If you're using Microsoft Exchange Server is on-premises then pinning won't work. For more information, see [Implement a pinnable task pane in Outlook](/office/dev/add-ins/outlook/pinnable-taskpane).                                    | X                          | X*                   |             |                | X                      | X             |           |      |
 
  
 
