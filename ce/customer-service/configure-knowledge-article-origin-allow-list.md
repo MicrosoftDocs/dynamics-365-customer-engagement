@@ -17,7 +17,7 @@ ms.custom:
 
 # Configure the origins allow list for knowledge articles
 
-Enabling the origins allow list feature, ensures that knowledge authors add only safe links to their articles. The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number. Knowledge authors must use the exact match of links in the articles.
+Enabling the origins allow list feature ensures that knowledge authors add only safe links to their articles. The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number. Knowledge authors must use the exact match of links in the articles.
 
 To enable the origins allow list:
 
