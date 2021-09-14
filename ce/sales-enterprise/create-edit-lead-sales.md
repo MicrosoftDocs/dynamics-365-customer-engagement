@@ -1,5 +1,5 @@
 ---
-title: "Create or edit leads - Sales Enterprise | MicrosoftDocs"
+title: "Create or edit leads - Dynamics 365 Sales | MicrosoftDocs"
 description: "Use leads to keep track of business prospects. A lead can be an existing client or someone you've never done business with before."
 ms.date: 02/10/2021
 ms.topic: article
@@ -14,7 +14,21 @@ searchScope:
   - Sales
 ---
 
-# Create or edit leads (Sales Hub)
+# Create or edit leads
+
+## Applies to
+
+This topic applies to Sales Enterprise, Sales Premium, and Sales Professional products.
+
+## Requirements
+
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson or Sales Professional Person <br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
+|||
+
+## To create or edit a lead
 
 In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads to keep track of business prospects that you haven't yet qualified through your sales process. A lead can be an existing client or someone you've never done business with before. You might get leads from different sources, such as advertising, networking, or email campaigns.  
   
