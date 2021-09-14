@@ -32,7 +32,7 @@ You can download tools used in development from NuGet using the PowerShell scrip
 
 ## Download tools using PowerShell
 
-<!-- This script won't work properly until an official release is shipped. They are all pre-release as of 10/4/2017. To get the pre-release version, add the -PreRelease parameter to the nuget install call.-->
+You can download all SDK tools using the PowerShell script provided below. Note that this script works with the version of Windows PowerShell that ships in Microsoft Windows 10. The script does not presently work with cross-platform versions of PowerShell based on .NET 5 or later (formerly .NET Core).
 
 1. In your Windows Start menu, type `Windows PowerShell` and open it.
 1. Navigate to the folder you want to install the tools to. For example if you want to install them in a `devtools` folder on your D drive, type `cd D:\devtools`.
