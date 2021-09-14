@@ -394,6 +394,8 @@
         href: work-knowledge-articles.md
       - name: Configure the knowledge article authoring language
         href: set-knowledge-article-authoring-language.md
+      - name: Configure the origin allow list for knowledge articles
+        href: configure-knowledge-article-origin-allow-list.md
       - name: Create a knowledge article using a template
         href: create-knowledge-article-using-template.md
       - name: Create knowledge article templates in Customer Service
