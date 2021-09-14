@@ -2,7 +2,7 @@
 title: "Download tools from NuGet (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Download the Plugin Registration, Package Deployment, and other core tools from Nuget."
 ms.custom: 
-ms.date: 03/29/2019
+ms.date: 09/14/2021
 ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
@@ -81,14 +81,6 @@ You can download tools used in development from NuGet using the PowerShell scrip
     $pdFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf.'}
     move .\Tools\$pdFolder\tools\*.* .\Tools\PackageDeployment
     Remove-Item .\Tools\$pdFolder -Force -Recurse
-
-    ##
-    ##Download Package Deployer PowerShell module
-    ##
-    ./nuget install Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell -O .\Tools
-    $pdPoshFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell.'}
-    move .\Tools\$pdPoshFolder\tools\*.* .\Tools\PackageDeployment.PowerShell
-    Remove-Item .\Tools\$pdPoshFolder -Force -Recurse
 
     ##
     ##Remove NuGet.exe
