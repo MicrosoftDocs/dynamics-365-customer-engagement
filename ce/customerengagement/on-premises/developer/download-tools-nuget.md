@@ -97,6 +97,8 @@ You can download all SDK tools using the PowerShell script provided below. Note 
 
 To get the latest version of these tools, repeat these steps.
 
+The [Microsoft.Xrm.Tooling.PackageDeployment.Powershell](https://www.powershellgallery.com/packages/Microsoft.Xrm.Tooling.PackageDeployment.Powershell/) module used to be included in the above script but is now a separate download.
+
 ## See Also
 [Developer tools](developer-tools.md)<br />
 [Visual Studio and the .NET Framework](visual-studio-dot-net-framework.md)<br />
