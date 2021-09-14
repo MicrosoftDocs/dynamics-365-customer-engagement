@@ -670,6 +670,8 @@
         href: enable-sound-notifications.md
       - name: Enable missed notifications
         href: manage-missed-notifications.md
+      - name: Enable enable-agent-reject-notifications
+        href: enable-agent-reject-notifications.md
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
