@@ -111,6 +111,13 @@ When you don't respond to an incoming conversation notification, the conversatio
 
 Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system, but they are not seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversations are then rerouted after eight minutes.
 
+## Agent reject notification alerts
+
+> [!IMPORTANT]
+> The alert is displayed only when the agent reject feature   is enabled by your administrator.
+
+When you reject a work item notification, you'll see an alert at the top of your dashboard and your presence status will be set to Do not disturb. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the work stream. Your supervisor can also reset your presence.
+
 ### See also
 
 [View customer summary and know everything about customers](oc-customer-summary.md)  
