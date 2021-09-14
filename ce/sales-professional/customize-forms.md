@@ -1,7 +1,7 @@
 ---
 title: "Customize forms - (Sales Professional) | MicrosoftDocs"
 description: "Use the form designer to customize the forms that allow your users to enter or find information quickly."
-ms.date: 09/13/2021
+ms.date: 09/14/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
