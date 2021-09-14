@@ -479,9 +479,6 @@ requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Parse("2019-1
 //Setting to date
 requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Parse("2019-12-27T18:29:00.000Z")); 
 
-//Setting up the Site as filter criteria for search.	      
-requirementSpecification.Attributes.Add("msdyn_organizationalunit",Guid.Parse("XXXXXXXXXXXX")); 
-
 req["RequirementSpecification"] = requirementSpecification;
 
 //Requirement group GUID      
