@@ -25,12 +25,13 @@ By default, deal manager is enabled only for administrators. As an administrator
     - Select **Specific security roles**, and then add the security roles that you want to grant access to.
 1. Select **Publish**.
 
+
 > [!IMPORTANT]
 > By default, the settings selected on this page is only applicable to the current BU. If your organization has multiple BUs, set the "Read" access for **Deal manager settings** and **dealmanageraccess** under the **Custom entities** tab to organization-level access.
-
-:::image type="content" source="media/deal-manager-access-global.png" alt-text="Security role settings page with deal manager settings highlighted":::
+> 
+> :::image type="content" source="media/deal-manager-access-global.png" alt-text="Security role settings page with deal manager settings highlighted":::
 
 The deal manager workspace is now available to the selected roles. More information: [Access the deal manager workspace](access-deal-manager.md)
 
 ### See also
-[Edit security privileges for role](/power-platform/admin/create-edit-security-role#edit-a-security-role)
+[Edit security privileges for a role](/power-platform/admin/create-edit-security-role#edit-a-security-role)
