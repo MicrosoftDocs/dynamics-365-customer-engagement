@@ -25,8 +25,8 @@ To enable the origins allow list:
 2. In the **Change** area, select **Service Management**.
 3. Go to **Knowledge Base Management** and select **Settings**. The **Settings** page is displayed.
 > ![Configure origin list](media/configure-origin-allow-list.png)
-4.	Navigate to **Origins allow list** and add your links to the **Add origin links** field.
-5.	Select **Add**![Add](media/add-icon.png).
+4.	Navigate to **Origins allow list** and add your links to the **Add origin links** field. 
+5.	Select **Add**![Add](media/add-icon.png) or **Enter** to add the link to your list.
 6.	Select **Save**.
 
 To remove a domain, select **Close** next to the domain.
