@@ -4,7 +4,7 @@ metadata:
   description: Find answers to common issues with Resource Scheduling Optimization in Dynamics 365 Field Service
   author: FieldServiceDave
   ms.reviewer: krbjoran
-  ms.date: 11/20/2020
+  ms.date: 09/07/2021
   ms.topic: troubleshooting
   ms.service: dynamics-365-field-service
   ms.subservice: resource-scheduling-optimization
@@ -416,6 +416,11 @@ sections:
           
           Add Resource Scheduling Optimization users to the "Resource Scheduling Optimization - Administrator" and "Resource Scheduling Optimization-Dispatcher" field security profiles.
            
-          Ensure field security profiles have consistent permissions when comparing the old and new app users.          
+          Ensure field security profiles have consistent permissions when comparing the old and new app users.    
           
-          [!INCLUDE[footer-include](../includes/footer-banner.md)]
+      - question: |
+          Why am I seeing the error message that a user does not have read permissions when running Resource Scheduling Optimization?
+        answer: |
+          If you run Resource Scheduling Optimization and get an error like the one below, add the system administrator security role to the user running Resource Scheduling Optimization.
+          
+          ```[External Exception [Microsoft.Dynamics.FieldService: Microsoft.Dynamics.FieldService.FieldServicePlugin]]Principal user (Id=c4c45efe-866d-eb11-a812-000d3a8eefe9, type=8, roleCount=1, privilegeCount=110, accessMode=4), is missing prvReadmsdyn_workorder privilege (Id=912a06d3-4545-4bea-bbd1-18661ff70424) on OTC=10425 for entity 'msdyn_workorder'. context.Caller=c4c45efe-866d-eb11-a812-000d3a8eefe9. Or identityUser.SystemUserId=dd1c82e4-ddf4-45fd-a1bf-4efd51274d04, identityUser.Privileges.Count=5978, identityUser.Roles.Count=0 is missing prvReadmsdyn_workorder privilege (Id=912a06d3-4545-4bea-bbd1-18661ff70424) on OTC=10425 for entity 'msdyn_workorder'.```

@@ -21478,6 +21478,11 @@
       "source_path": "ce/sales-enterprise/deal-manager-known-issues.md",
       "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2171768",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/known-issues.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2171869",
+      "redirect_document_id": false
     }
   ]
 }
