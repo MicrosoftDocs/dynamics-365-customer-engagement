@@ -56,7 +56,7 @@ To access the forms:
 
     The page displays the date when the form was published, and whether the form is active or not.
 
-4.  To open a form, select the form the **Name** column. Alternately, you can select a form, and then select **Edit** above the **Quick find** field.
+4.  To open a form, select the form from the **Name** column. Alternately, you can select a form, and then select **Edit** above the **Quick find** field.
 
 For more information on creating forms, see [Create and design forms](../customerengagement/on-premises/customize/create-design-forms.md).
 
