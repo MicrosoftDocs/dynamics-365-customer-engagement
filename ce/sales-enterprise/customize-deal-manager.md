@@ -25,7 +25,7 @@ As an administrator, you can customize the workspace to enhance your sales team'
 The deal manager charts help sellers visualize their pipeline better. As an administrator, you can customize various elements in the bubble chart, such as the data on the x-axis and y-axis, the size and color of the bubble, the sort order for the legend, and tooltips.
 
 > [!NOTE]
-> This release has a few limitations related to chart customization. More information: [Known issues in deal manager](deal-manager-known-issues.md#charts)
+> This release has a few limitations related to chart customization. For more information, see the deal manager section in the [Known issues](https://go.microsoft.com/fwlink/?linkid=2171768) document.
 
 <!--markdownlint-disable MD036-->
 **To customize the bubble chart**
@@ -132,7 +132,7 @@ The following table lists the supported and unsupported customizations for side 
 1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel.
      > [!NOTE]
     > - By default, all the fields in the form are editable. If you want to set a field to read-only, select the field and enable the **Read-only** property.
-    > - If you've added field-level rules for the editable grid using a web resource, they also become applicable for the same fields in the side panel.  
+    > - If you've added field-level customization for the editable grid using a web resource, they also become applicable for the same fields in the side panel.  
 
     :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
    

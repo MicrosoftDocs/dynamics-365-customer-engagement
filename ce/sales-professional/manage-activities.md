@@ -5,12 +5,10 @@ ms.date: 04/03/2020
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
   - D365-Entity-activitypointer
-  - D365-Entity-contact
-  - D365-Entity-account
   - D365-UI-*
   - Dynamics 365
   - Sales

@@ -11,7 +11,7 @@ ms.custom:
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_playbookinstance
-  - D365-Entity-msdyn_playbookactivity
+  - D365-Entity-msdyn_playbookactivity
   - D365-Entity-msdyn_playbookactivityattribute
   - D365-UI-*
   - Dynamics 365

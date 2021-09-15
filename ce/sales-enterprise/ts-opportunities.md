@@ -6,13 +6,6 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope: 
-  - D365-App-msdynce_saleshub
-  - D365-Entity-opportunity
-  - D365-UI-*
-  - Customer Engagement
-  - Dynamics 365
-  - Sales
 ---
 
 # Troubleshooting the Opportunity entity 

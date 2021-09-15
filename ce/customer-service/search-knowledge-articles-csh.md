@@ -85,8 +85,9 @@ When you select the **Knowledge Base Search** option in the **RELATED** section,
   9. Rating
   10. Unlink an article that is currently linked to a case
   11. Number of views the article has received
-  12. Confirmation that the record is linked to a case
-  13. Article date
+  12. Article date
+  13. Confirmation that the record is linked to a case
+  14. Status and visibility tags for the article
 
 > [!NOTE]
 > If the keyword you used matches, the matches are highlighted in yellow, but won't necessarily show up in the first three lines, so you might not see the highlighted text in search results.

@@ -48,8 +48,6 @@
       items: 
       - name: Manage user accounts, licenses, and roles
         href: admin-users-licenses-roles.md
-      - name: Fair use policy
-        href: fair-use-policy.md
       - name: Use business units with Marketing
         href: business-units.md
     - name: Administration settings
@@ -168,6 +166,10 @@
         href: form-double-opt-in.md
       - name: How the app uses cookies
         href: cookies.md
+    - name: Terms and fair use
+      items:
+      - name: Fair use policy
+        href: fair-use-policy.md
     - name: Administration and setup FAQ
       href: setup-troubleshooting.yml
     - name: Known issues and workarounds
@@ -458,6 +460,8 @@
         href: followup-after-event.md
       - name: Record and view financial information for events
         href: event-financials.md
+      - name: Event troubleshoot + FAQ
+        href: event-troubleshoot.md
     - name: Customer engagement via portals and surveys
       items: 
       - name: Create interactive features with or without portals

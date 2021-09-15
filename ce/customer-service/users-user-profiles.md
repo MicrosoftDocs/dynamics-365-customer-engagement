@@ -1,7 +1,7 @@
 ---
 title: "Create and manage users and user profiles | MicrosoftDocs"
 description: "This topic provides steps that you can perform to manage users in Omnichannel for Customer Service."
-ms.date: 05/25/2021
+ms.date: 08/23/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ For more information on how to create users and assign security roles, see [Assi
 
 ## Manage a user in Omnichannel for Customer Service
 
-Perform the steps in this section to manage users for unified routing.
+Users should be configured as a bookable resource so that they can be assigned work items by using unified routing. Perform the steps in this section to manage users for unified routing. 
 
 1. Do one of the following:
    - In the site map of Omnichannel admin center, select **Users** under **General settings**.

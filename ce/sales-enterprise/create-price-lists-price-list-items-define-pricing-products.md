@@ -10,7 +10,6 @@ searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-pricelevel
   - D365-Entity-productpricelevel
-  - D365-Entity-product
   - D365-UI-*
   - Customer Engagement
   - Dynamics 365

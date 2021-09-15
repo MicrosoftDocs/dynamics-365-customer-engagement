@@ -1,7 +1,7 @@
 ---
 title: Enable self-scheduling service appointments in Dynamics 365 Field Service | MicrosoftDocs
 description: Learn how to allow customers to schedule work orders via a customer portal in Dynamics 365 Field Service
-ms.date: 04/21/2021
+ms.date: 09/07/2021
 ms.service: dynamics-365-field-service
 ms.topic: article
 author: lalexms
@@ -26,6 +26,12 @@ Field Service self-service scheduling aims to improve your customers' scheduling
 
 > [!div class="mx-imgBorder"]
 > ![Self-service scheduling functionality on a tablet and mobile device.](./media/SS_Hero-screens.png)
+
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NIiw]
+
 
 ## Prerequisites
 
@@ -104,13 +110,15 @@ Configure the following settings, as needed:
 
 - **Send self-scheduling experience to Account Contacts**: When enabled, new contacts who are associated with active Field Service accounts will be sent an email that invites the contact to create a Power Apps portals account for self-scheduling. More information: [Notification types](#notification-types)
 
-    >[!NOTE]
-    >When enabling this option, you can choose to send the invitation only to new contacts going forward, or to all existing contacts. If a contact has already received the invitation, they won't receive a second one. 
+    > [!NOTE]
+    > When enabling this option, you can choose to send the invitation only to new contacts going forward, or to all existing contacts. If a contact has already received the invitation, they won't receive a second one. 
+    > 
+    > Invitations can also be sent to a single contact manually by opening a contact record and selecting **Invite to Self Scheduling** on the ribbon.
 
 - **Messaging**: Messages are sent at specific points in the Field Service customer lifecycle. These messages can be enabled or disabled independently. More information: [Notification types](#notification-types)
 
 - **Communication Type**: Define whether the customer will receive email, SMS, or both message types. 
-- 
+
 - **Send Messages To**: This feature is only used with [Track My Technician](reminders-arrival-time.md).  
 
 - **Include Survey (Preview)**: This feature is only used with [Track My Technician](reminders-arrival-time.md). 
@@ -156,7 +164,11 @@ Let's take a look at the self-scheduling settings, and what they do:
 - **Maximum lead time for new bookings**: Sets the maximum time, in days from today, during which the customer can schedule their booking.
 - **Enable Asset Selection**: When this option is enabled, the customer has the option to select a specific asset to associate with their account while they schedule their booking.
 - **Enable Additional Details**: When this option is enabled, the customer can submit text to your organization while scheduling their booking. This text will be saved as a note on the booking timeline.
-- **Include Resource with maximum travel radius**: The maximum radius from the scheduled location in which a resource can be scheduled. A value of **0** means there is no maximum radius.
+- **Default Radius Unit**: Sets the radius unit to miles or kilometers.
+- **Include Resource with maximum travel radius**: The maximum radius from the scheduled location in which a resource can be scheduled. 
+   
+    > [!NOTE]
+    > **Default Radius Unit** and **Include Resource with maximum travel radius** are shared settings for the schedule board; changing the value on one will change the value for the other.
 
 
 > [!div class="mx-imgBorder"]
@@ -171,7 +183,12 @@ Incident types must be configured with following steps to properly appear in the
 
 1. Check **Enable for C2** and apply a user-friendly name.
 2. Set a **Default Work Order** type, which is associated with a price list for the incident type.
-3. Set an estimated duration for the incident type. This value is the work duration shown to user in the portal.
+3. Set an estimated duration for the incident type. This value is the work duration shown in the portal.
+4. Incident type should not be associated with a requirement group.
+
+    > [!NOTE]
+    > If any of these conditions are not met when saving an incident type after making it **Enable for C2**, then an appropriate error will be shown.
+
 
 > [!div class="mx-imgBorder"]
 > ![Customer portal settings, showing the field for the user-friendly name for incident types.](./media/SS_Incident_Type-displayname.png)
@@ -328,6 +345,16 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 
 ## FAQs for self-scheduling portals
 
+### Is travel time calculated while creating the booking?
+
+Travel time is calculated while creating a booking when [prerequisites are met](/dynamics365/field-service/schedule-with-travel-time#prerequisites).
+
+The booking is created such that the time selected by the customer on the self-scheduling portal becomes the expected time of arrival for the technician. For example, if the customer chose 02:00 PM as the appointment time, and it takes 20 minutes for the selected resource to reach the customer's location, the start time of the booking will be 01:40 PM and expected arrival time would be 02:00 PM.
+
+### Which resource is booked when the booking is created?
+
+Available resources are filtered based on any consraints associated with the account and the resource, like territory and any other characteristics. Among the filtered resources, the resource with the minimum travel distance to the customer's location is booked for the booking.
+
 ### How do I manually create a portal user?
 
 Within the Field Service contact, you can manually generate a portal invite code by using the **Create Invitation** option within the toolbar. Selecting this option will generate the invite code for the contact. At this time, you must also manually assign the **Web Api Users** role to the user before they can access the Field Service self-scheduling portal.
@@ -435,7 +462,5 @@ We'll publish updates over time to introduce new features and functionality for 
 ### Known issues and limitations in preview
 
  - Scheduling is done for user resources only at this time.
- - You can receive scheduling slots for resources that are location-agnostic or outside of the service territory from which the user is scheduling.
  - Under some circumstances, the address of the account is not populated in a work order when self-scheduling.
- - Frontline worker is currently not booked taking into account travel time.
  - Currently cannot self-schedule incident types, which require crews or requirements with multiple resources. 
