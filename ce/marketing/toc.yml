@@ -460,6 +460,8 @@
         href: followup-after-event.md
       - name: Record and view financial information for events
         href: event-financials.md
+      - name: Event troubleshoot + FAQ
+        href: event-troubleshoot.md
     - name: Customer engagement via portals and surveys
       items: 
       - name: Create interactive features with or without portals
