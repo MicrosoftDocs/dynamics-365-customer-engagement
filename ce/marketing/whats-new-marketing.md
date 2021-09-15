@@ -47,7 +47,7 @@ The Dynamics 365 Marketing September 2021 update includes speedier installation 
 - **First run experience**
     - Added patch collapsing functionality for solution patching during Marketing installation and upgrade. This functionality keeps only the full solution, removing the base and path solutions. The result for users is that Marketing installation and upgrade performance is considerably improved.
 - **Marketing emails**
-    - Added a warning stating that the old outbound email editor will be deprecated in October. To learn about adding customizations to the new email editor, see [Customize the email designer](email-designer-customization.md).
+    - Added a warning stating that the old outbound email editor will be deprecated in October. To learn about adding customizations to the new email editor, see [Customize the email designer](developer/email-designer-customization.md).
 - **Shared UX**
     - Added a warning that displays when test contacts are missing.
 
