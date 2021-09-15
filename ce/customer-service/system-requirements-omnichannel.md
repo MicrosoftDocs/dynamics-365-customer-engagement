@@ -54,9 +54,9 @@ The following browsers are supported by the customer-facing live chat widget in 
 >
 > Only Chromium-based Microsoft Edge and Google Chrome are supported for voice and video in live chat.
 
-## Provision Omnichannel
+## Provision Omnichannel for Customer Service
 
-See [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to know how to enable the Omnichannel for Customer Service app in your org.
+To enable the Omnichannel for Customer Service app in your org, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 
 To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
@@ -147,7 +147,7 @@ The Government community cloud links that should be accessible are as follows.
 [Administrator guide](omnichannel-administrator.md)  
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
-[System customizers guide](omnichannel-customizer.md)  
+[System customizer guide](omnichannel-customizer.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
