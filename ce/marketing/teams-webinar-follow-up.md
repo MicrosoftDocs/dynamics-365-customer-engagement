@@ -24,15 +24,6 @@ In just a few steps, you can use contacts, segments, and a customer journey to f
 
 Before you continue and customize the conversation with webinar participants, it's helpful to familiarize yourself with some Dynamics 365 Marketing terminology.
 
-## Marketing terminology
-
-Marketing uses different terminology than Teams for your participant information. The following bolded terms are tools that the Marketing app uses to organize, personalize, and automate your webinar participant data.
-
-- **Contact**: In Marketing, participant information such as names, email addresses, company names, and mailing addresses are stored as contacts. You can use other tools, such as segments (see below), to group contacts for targeted messaging.
-- **Segment**: A segment is a defined group of contacts, such as contacts who work at Contoso and attended a webinar. Segments allow you to choose the right audience to market to.
-- **Customer journey**: After you've identified the audience you want to target, you can create a journey that automates a series of communications. For example, you can use a journey to send an email requesting a response from all participants who registered but did not attend a webinar. You may find that the webinar was off topic or was at an inconvenient time, helping you improve your future webinar plans.
-- **Customer journey tile**: Each step in a customer journey is represented by a tile. The [tiles represent actions](customer-journey-tiles-reference.md)) that the Marketing app can take. For example, an email tile automatically sends personalized email messages to a segment of your choosing.
-
 ## Using the automatically created customer journey with your webinar data
 
 The automatically created customer journey uses the power of Dynamics 365 Marketing to follow up with webinar participants. The journey creates the three most common follow-ups (paths) for your webinar participants:
@@ -50,6 +41,27 @@ You can also add tiles to create more complex paths for your journey. For exampl
 
 Refer to the links below to learn more about Marketing features and how to customize your journey.
 
+## Required permissions to follow up with participants
+
+Any existing Marketing user who follows up with Teams participants must be the [meeting organizer](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019) and must have the set of required permissions in Dynamics 365 Marketing shown in the table below:
+
+| Entity                          | Access levels                          | Minimum entity privilege |
+|---------------------------------|----------------------------------------|--------------------------|
+| Custom registration field       | Create, read, write, append, append to | User                     |
+| Customer journey                | Create, read, write, append, append to | User                     |
+| Event                           | Create, read, write, append, append to | User                     |
+| Event custom registration field | Create, read, write, append, append to | User                     |
+| File                            | Create, read, write, append, append to | User                     |
+| Marketing email                 | Create, read, write, append, append to | User                     |
+| Segment                         | Create, read, write, append, append to | User                     |
+| Speaker                         | Create, read, write, append, append to | User                     |
+| Speaker engagement              | Create, read, write, append, append to | User                     |
+| User                            | Append to                              | User                     |
+
+> [!NOTE]
+> To learn how to work with user accounts, licenses, and security roles in Marketing, see [Manage user accounts, user licenses, and security roles](admin-users-licenses-roles.md). All Marketing entities can be found in the **Custom Entities** tab in the **Security role** window, while the **User** entity can be found in the **Business Management** tab.
+
+
 ## Customize your journey or create a new one
 
 The links below guide you through the key steps you'll need to follow to create custom groups of participants, create your own customer journeys, and customize your follow-ups.
@@ -58,6 +70,19 @@ The links below guide you through the key steps you'll need to follow to create 
 - [Create a group of participants based on certain criteria](create-segment.md)
 - [Send a survey](customer-voice.md)
 - [Spread the word about the next webinar](create-simple-customer-journey.md)
+
+## Use the automatically created Marketing event
+
+In addition to generating the segments, contacts, emails, and journey discussed above, Marketing also creates a Marketing event. The event contains webinar details including associated event registrations, cancellations, and attendance. This ensures that webinars created in Teams are treated the same as events created in Marketing. The Marketing event ensures your overall reporting and dashboards show the complete data for your business.
+
+## Marketing terminology
+
+Marketing uses different terminology than Teams for your participant information. The following bolded terms are tools that the Marketing app uses to organize, personalize, and automate your webinar participant data.
+
+- **Contact**: In Marketing, participant information such as names, email addresses, company names, and mailing addresses are stored as contacts. You can use other tools, such as segments (see below), to group contacts for targeted messaging.
+- **Segment**: A segment is a defined group of contacts, such as contacts who work at Contoso and attended a webinar. Segments allow you to choose the right audience to market to.
+- **Customer journey**: After you've identified the audience you want to target, you can create a journey that automates a series of communications. For example, you can use a journey to send an email requesting a response from all participants who registered but did not attend a webinar. You may find that the webinar was off topic or was at an inconvenient time, helping you improve your future webinar plans.
+- **Customer journey tile**: Each step in a customer journey is represented by a tile. The [tiles represent actions](customer-journey-tiles-reference.md)) that the Marketing app can take. For example, an email tile automatically sends personalized email messages to a segment of your choosing.
 
 ## Additional resources
 
