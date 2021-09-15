@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing."
-ms.date: 09/08/2021
+ms.date: 10/01/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -43,10 +43,12 @@ A Marketing interaction is an outbound message sent to any Marketing contact usi
 
 Contacts that are stored, but not marketed to using Dynamics 365 Marketing do not count towards the Marketing contacts quota. After an interaction is logged for a contact, it does not matter how many Marketing interactions that contact performs, the contact is still counted just once.
 
-Each license also includes quotas that limit the total number of free Litmus inbox previews you can view and marketing email messages you can send each month. See your license agreement for complete details about the quota limits that apply to you. You can view your quota limits and consumption on the [Quota limits](quota-management.md) page. While you're planning your marketing activities, be sure to purchase enough Marketing contacts to remain within your quota.
+Each license also includes quotas that limit the total number of free Litmus inbox previews you can view and marketing email messages you can send each month. See your license agreement for complete details about the quota limits that apply to you. You can view your quota limits and consumption for Marketing contacts and Marketing interactions on the [Quota limits](quota-management.md) page. While you're planning your marketing activities, be sure to purchase enough Marketing contacts to remain within your quota.
 
 > [!NOTE]
-> When you sign up for Dynamics 365 Marketing, you'll choose a licensing option that defines your contract period and various quotas for that period. Each of the contacts that you engage through interactions during the contract period count against your total contact quota, even if you delete, or otherwise stop marketing to, an existing Marketing contact during the contract period. You can only reduce your purchased contact quota on the anniversary of your contract.
+> When you sign up for Dynamics 365 Marketing, you'll choose a licensing option that defines your contract period and various quotas for that period. Each of the contacts that you engage through interactions during the contract period count against your total contact quota, even if you delete, or otherwise stop marketing to, an existing Marketing contact during the contract period.
+> 
+> Only contacts that have been marketed to in the last 12 months will count towards the total quota consumed. You can only reduce your *purchased* contact quota on the anniversary of your contract. Marketing contact consumption is cumulative throughout the license period and even post-license extension, subject to the 12-month rule mentioned above.
 >
 > To learn more about Dynamics 365 Marketing pricing and licensing offers as well as prerequisites, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
