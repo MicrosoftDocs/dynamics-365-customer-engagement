@@ -1,7 +1,7 @@
 ---
 title: Knowledge base search options in Dynamics 365 Customer Service| MicrosoftDocs
 description: Know how the Knowledge base search methods work in Microsoft Dynamics 365 Customer Service.
-ms.date: 06/29/2020
+ms.date: 09/15/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -61,10 +61,6 @@ You can search the knowledge base from the following areas in the Customer Servi
 
    ![Quick find search.](media/quick-find-search.png)
 
-  
-> [!NOTE]
-> You can also search the knowledge base using Portals. See [Use faceted search to improve portal search](/powerapps/maker/portals/configure/improve-portal-search-faceted-search).
-
 
 With each of the previous search areas, the search results might vary based on the underlying search option used:
 
@@ -75,6 +71,13 @@ With each of the previous search areas, the search results might vary based on t
 |Dynamics 365 Customer Service apps version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
 |  |      |   - Quick find in Grids     |   Full-text search |
 |  |      |   - Global search     |   Relevance search or Categorized search (based on what you configure)    |
+
+## Search the knowledge base using portals
+You can also search the knowledge base using portals. You can use the following search options for knowledge articles on the portal.
+
+- Progressive search: Let's you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
+- Relevance search: Let's you search across multiple tables  sorted by relevance. More information: Will add link to portals documentation once it is ready from the portals team.
+- Faceted search: Let's you search by using filters based on characteristics of the content which helps return faster search results than traditional search. More information:  [Use faceted search to improve portal search](/powerapps/maker/portals/configure/improve-portal-search-faceted-search).
 
 ### See also
 
