@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 08/11/2021
+ms.date: 09/15/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -254,9 +254,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 This is an indicative preview. Content rendered can be different in the actual device or screen.
 
 > [!NOTE]
->While authoring a knowledge article in the Content field if you add anchor links, you won't be able to test the links in the Designer or the Preview mode. However, once the article is published the anchor links work as expected.
-
-
+> While authoring a knowledge article in the Content field if you add anchor links, you won't be able to test the links in the Designer or the Preview mode. However, once the article is published the anchor links work as expected.
 
 ## Add a file attachment to a knowledge article
 
@@ -264,6 +262,15 @@ When you're creating a knowledge article, you can attach one or more files to it
 
 - There isn't a limit to the number of articles that can be attached to a knowledge article, but the file size of the files you attach cannot exceed 32 MB.
 - Your administrator may limit the file size for knowledge articles.
+
+> [!NOTE]
+> This feature introduces a new entity: Knowledge Article attachment. Out of the box, the Customer Service Representative and CSR manager roles have Read access, and the Knowledge Manager role has Read/Create/Append/AppendTo access. For users who have custom security roles, you'll need to grant the respective permissions for them to be able to access knowledge article attachments, as follows:
+
+| Access privilege type | What the user can do |
+| --------------------- | -------------------- |
+| Read | Read attachments in both the authoring surface and in the search/consumption surface. |
+| Create | Upload attachments to an article. |
+| Append, AppendTo | Add attachments to any article. |  
 
 To attach a file to a knowledge article:
 
@@ -275,7 +282,7 @@ To attach a file to a knowledge article:
     - **My Device** lets you browse and select files from your local device.
     - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub.
 
-### Work with file attachments
+**Work with file attachments**
 
 The **Attached files** section displays all of your knowledge article attachments in a tile view horizontally above your message. The default setting for the maximum number of files that can be displayed is five attachments before the page forward functionality is displayed.
 
