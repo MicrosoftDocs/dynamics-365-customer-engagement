@@ -26,6 +26,8 @@
     href: view-user-accounts-security-roles.md
   - name: Location and map settings
     href: field-service-maps-address-locations.md
+  - name: Customization overview
+    href: field-service-customizations.md
   - name: Priorities
     href: set-priorities.md
   - name: Postal codes
