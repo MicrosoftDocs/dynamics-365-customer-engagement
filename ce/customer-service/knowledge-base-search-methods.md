@@ -75,9 +75,9 @@ With each of the previous search areas, the search results might vary based on t
 ## Search the knowledge base using portals
 You can also search the knowledge base using portals. You can use the following search options for knowledge articles on the portal.
 
-- Progressive search: Let's you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
-- Relevance search: Let's you search across multiple tables  sorted by relevance. More information: Will add link to portals documentation once it is ready from the portals team.
-- Faceted search: Let's you search by using filters based on characteristics of the content which helps return faster search results than traditional search. More information:  [Use faceted search to improve portal search](/powerapps/maker/portals/configure/improve-portal-search-faceted-search).
+- **Progressive search**: Let's you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
+- **Relevance search**: Let's you search across multiple tables  sorted by relevance. More information: Will add link to portals documentation once it is ready from the portals team.
+- **Faceted search**: Let's you search by using filters based on characteristics of the content which helps return faster search results than traditional search. More information:  [Use faceted search to improve portal search](/powerapps/maker/portals/configure/improve-portal-search-faceted-search).
 
 ### See also
 
