@@ -1,7 +1,7 @@
 ---
 title: "Customize your Teams webinar participant follow-up (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to customize your follow-up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 08/06/2021
+ms.date: 09/14/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
