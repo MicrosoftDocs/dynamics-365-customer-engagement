@@ -66,4 +66,7 @@ You can edit, reschedule, or cancel any post that hasn't been sent yet. Just fin
 
 Posts that were already sent are read-only, so you can't change or reschedule them, but you can remove them from the calendar or delete if you want. When you delete a post that has already been sent, it will be removed from the calendar and from the social-media sites.
 
+        > [!NOTE]
+        > Posts that were made to Instagram channel, cannot be removed by the Marketing app. The reason is that Instagram does not provide this functionality. In order to remove the post from Instagram go to Instagram and remove it from there. 
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
