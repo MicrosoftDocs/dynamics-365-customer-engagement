@@ -13,7 +13,7 @@ ms.custom:
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](../shared/token-add-cif-solution-dependent-solution.md)]
 
-## See also
+### See also
 
 [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "createTab (JavaScript API Reference) for Dynamics Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
+title: "createTab (JavaScript API Reference) for Dynamics Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the addHandler method in JavaScript API Reference for Channel Integration Framework 2.0."
 ms.date: 11/19/2020
 ms.topic: reference

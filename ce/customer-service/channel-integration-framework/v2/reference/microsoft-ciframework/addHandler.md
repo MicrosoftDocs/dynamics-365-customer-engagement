@@ -30,7 +30,7 @@ ms.custom:
 
 ## Example
 
-The sample code demonstrates setting addHandler method for the `onmodechanged` event.
+The sample code demonstrates setting addHandler method for the `onModeChanged` event.
 
 ```JavaScript
 handlerFunction = function(eventData) {
@@ -41,15 +41,15 @@ return Promise.resolve();
 Microsoft.CIFramework.addHandler("onmodechanged", handlerFunction);
 ```
 
-## Related topics
+### See also
 
-[onclicktoact](../events/onclicktoact.md)  
-[onmodechanged](../events/onmodechanged.md)  
-[onpagenavigate](../events/onpagenavigate.md)  
-[onsendkbarticle](../events/onsendkbarticle.md)  
-[onsizechanged](../events/onsizechanged.md)  
-[onsessionclosed](../events/onsessionclosed.md)  
-[onsessionswitched](../events/onsessionswitched.md)  
+[onClickToAct](../events/onclicktoact.md)  
+[onModeChanged](../events/onmodechanged.md)  
+[onPageNavigate](../events/onpagenavigate.md)  
+[onSendKBArticle](../events/onsendkbarticle.md)  
+[onSizeChanged](../events/onsizechanged.md)  
+[onSessionClosed](../events/onsessionclosed.md)  
+[onSessionSwitched](../events/onsessionswitched.md)  
 
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

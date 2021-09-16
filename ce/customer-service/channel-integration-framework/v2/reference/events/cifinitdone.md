@@ -1,5 +1,5 @@
 ---
-title: "CIFInitDone event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | Microsoft Docs"
+title: "CIFInitDone event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about CIFInitDone event and its syntax for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 02/25/2021
 ms.topic: reference

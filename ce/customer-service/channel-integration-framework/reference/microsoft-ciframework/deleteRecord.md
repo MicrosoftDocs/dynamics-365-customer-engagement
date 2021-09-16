@@ -1,6 +1,6 @@
 ---
-title: "deleteRecord (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 1.0 | MicrosoftDocs"
-description: ""
+title: "deleteRecord (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the deleteRecord method in JavaScript API Reference for Channel Integration Framework 1.0. "
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# deleteRecord (CIF JavaScript API Reference)
+# deleteRecord (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[deleteRecord](includes/deleteRecord-description.md)] 
 

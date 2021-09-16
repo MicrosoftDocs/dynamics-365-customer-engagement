@@ -1,5 +1,5 @@
 ---
-title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
+title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Read about the APIs of Dynamics 365 Channel Integration Framework"
 ms.date: 02/28/2020
 ms.topic: reference
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Microsoft.CIFramework methods (CIF JavaScript API reference)
+# Microsoft.CIFramework methods (JavaScript API reference)
 
 Provides methods to use JavaScript API to manage the communication panel (widget), notification, application tab, sessions, records, and forms in the Dynamics 365 model-driven app.
 
@@ -105,7 +105,7 @@ Session indicator APIs indicate a KPI breach and can be used to update the numbe
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/includes/removeHandler-description.md)] |
 | [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set automation dictionary. |
 
-## See also
+### See also
 
 [What's new in Channel Integration Framework](../../whats-new-channel-integration-framework.md)
 

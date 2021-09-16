@@ -1,6 +1,6 @@
 ---
-title: "removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
-description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0."
+title: "removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -20,17 +20,12 @@ ms.custom:
 [!INCLUDE[token-removeHandler](../../../shared/token-removeHandler.md)]
 
 
-## Related topics
+### See also
 
-[onclicktoact](../events/onclicktoact.md)
-
-[onmodechanged](../events/onmodechanged.md)
-
-[onpagenavigate](../events/onpagenavigate.md)
-
-[onsendkbarticle](../events/onsendkbarticle.md)
-
-[onsizechanged](../events/onsizechanged.md)
-
+[onClickToAct](../events/onclicktoact.md)  
+[onModeChanged](../events/onmodechanged.md)  
+[onPageNavigate](../events/onpagenavigate.md)  
+[onSendKBArticle](../events/onsendkbarticle.md)  
+[onSizeChanged](../events/onsizechanged.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

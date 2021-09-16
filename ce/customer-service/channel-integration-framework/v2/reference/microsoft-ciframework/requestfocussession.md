@@ -1,6 +1,6 @@
 ---
-title: "requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
-description: "Know about requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0."
+title: "requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Know about requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 03/03/2021
 ms.topic: reference
 author: mh-jaya
