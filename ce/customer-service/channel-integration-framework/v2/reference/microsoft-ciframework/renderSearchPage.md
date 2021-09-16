@@ -19,7 +19,7 @@ ms.custom:
 
 ## Syntax
 
-`Microsoft.CIFramework.renderSearchPage(entityLogicalName, correlationId, searchString, searchType).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.renderSearchPage(entityLogicalName, searchString, correlationId, searchType).then(successCallback, errorCallback);`
 
 ## Parameters
 
@@ -27,8 +27,8 @@ ms.custom:
 | Name               | Type       | Required | Description                                       |
 |-----------------   |----------  |----------|---------------------------------------------------|
 | entityLogicalName  | String     | Yes      | The entity logical name of the record you want to be queried, such as "account".  |
-| correlationId      | String     | Yes      | The unique identifier for the RenderSearchPage event that was raised. |
-| searchString       | String     | Yes      | String to search among the attributes of the entity records. |
+| searchString       | String     | No       | String to search among the attributes of the entity records. |
+| correlationId      | String     | No       | The unique identifier for the RenderSearchPage event that was raised. |
 | searchType         | Boolean    | Yes      | Type of search page to open (value 1 for categorized search, 0 for relevance search)|
 | successCallback    | Function   | No       | A function to call when some records are retrieved. |
 | errorCallback      | Function   | No       | A function to call when the operation fails.        |
