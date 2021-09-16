@@ -1,6 +1,6 @@
 ---
 title: "notifyNewActivity (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
+description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0."
 ms.date: 04/03/2020
 ms.topic: reference
 author: mh-jaya
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# notifyNewActivity
+# notifyNewActivity (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 This method is used to indicate the number of new activities in a session that is currently not in focus. The indicator is automatically removed when the user switches to the session. 
 

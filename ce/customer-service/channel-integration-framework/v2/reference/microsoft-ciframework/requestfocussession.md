@@ -13,7 +13,7 @@ ms.custom:
   - dyn365-developer
 ---
 
-# requestFocusSession
+# requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
  
 

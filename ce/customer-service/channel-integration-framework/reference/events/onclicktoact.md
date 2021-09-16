@@ -1,5 +1,5 @@
 ---
-title: "onclicktoact event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
+title: "onclicktoact event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: ""
 ms.date: 12/31/2019
 ms.topic: reference
@@ -11,11 +11,12 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onclicktoact event (CIF JavaScript API reference)
+# onclicktoact event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-onclicktoact](../../shared/token-onclicktoact.md)]
 
-## See also
+### See also
+
 
 [setClickToAct](../microsoft-ciframework/setClickToAct.md)
 

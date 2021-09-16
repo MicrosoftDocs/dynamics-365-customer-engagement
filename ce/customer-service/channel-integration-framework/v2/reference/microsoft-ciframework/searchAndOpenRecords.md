@@ -1,6 +1,6 @@
 ---
 title: "searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
-description: ""
+description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0."
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -14,7 +14,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# searchAndOpenRecords (CIF JavaScript API Reference)
+# searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 [!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]
 

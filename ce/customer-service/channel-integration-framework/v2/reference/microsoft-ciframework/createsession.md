@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# createSession
+# createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 [!include[applies-to-v2](../../includes/applies-to-v2.md)]
 

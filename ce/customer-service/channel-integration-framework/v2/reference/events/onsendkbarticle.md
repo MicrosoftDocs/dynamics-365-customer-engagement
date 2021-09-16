@@ -1,6 +1,6 @@
 ---
-title: "onsendkbarticle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | Microsoft Docs"
-description: "The onsendkbarticle event for Microsoft Dynamics Channel Integration Framework 2.0 is invoked when the user selects the Send button in the Knowledge Base control."
+title: "onSendKBArticle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Learn about onSendKBArticle event and its syntax for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -13,11 +13,11 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onsendkbarticle event (avaScript API reference)
+# onSendKBArticle event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 2.0
 
 [!INCLUDE[token-onsendkbarticle](../../../shared/token-onsendkbarticle.md)]
 
-## Related topics
+### See also
 
 [addHandler](../microsoft-ciframework/addHandler.md)
 

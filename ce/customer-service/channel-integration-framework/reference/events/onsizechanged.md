@@ -1,5 +1,5 @@
 ---
-title: "onsizechanged (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
+title: "onsizechanged (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: ""
 ms.date: 12/31/2019
 ms.topic: reference
@@ -13,11 +13,11 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onsizechanged event (CIF JavaScript API reference)
+# onsizechanged event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-onsizechanged](../../shared/token-onsizechanged.md)]
 
-## Related topics
+### See also
 
 - [setWidth](../microsoft-ciframework/setWidth.md)
 

@@ -1,6 +1,6 @@
 ---
 title: "getSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
+description: "Includes description, syntax, and parameter information for the addHandler method in JavaScript API Reference for Channel Integration Framework 2.0."
 ms.date: 01/23/2020
 ms.topic: reference
 author: mh-jaya
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# getSession
+# getSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 [!include[applies-to-v2](../../includes/applies-to-v2.md)]
 

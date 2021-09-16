@@ -1,6 +1,6 @@
 ---
 title: "notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
+description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0."
 ms.date: 04/01/2020
 ms.topic: reference
 author: mh-jaya
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# notifyKpiBreach
+# notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 This method is used to indicate a KPI breach. When this API is invoked, an exclamation sign appears on the icon of the session whose unique identifier is passed, indicating that a KPI breach has occurred.
 

@@ -1,5 +1,5 @@
 ---
-title: "onsendkbarticle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) in version 1.0| Microsoft Docs"
+title: "onsendkbarticle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0| MicrosoftDocs"
 description: ""
 ms.date: 12/31/2019
 ms.topic: reference
@@ -13,11 +13,11 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onsendkbarticle event (CIF JavaScript API reference)
+# onsendkbarticle event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-onsendkbarticle](../../shared/token-onsendkbarticle.md)]
 
-## Related topics
+### See also
 
 [addHandler](../microsoft-ciframework/addHandler.md)
 

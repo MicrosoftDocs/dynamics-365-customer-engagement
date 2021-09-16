@@ -13,7 +13,7 @@ ms.custom:
   - dyn365-developer
 ---
 
-# renderSearchPage (JavaScript API Reference)
+# renderSearchPage (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[renderSearchPage-description](includes/renderSearchPage-description.md)] 
 

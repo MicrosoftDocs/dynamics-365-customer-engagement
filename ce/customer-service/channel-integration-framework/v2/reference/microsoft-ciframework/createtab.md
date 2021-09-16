@@ -1,6 +1,6 @@
 ---
 title: "createTab (JavaScript API Reference) for Dynamics Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
+description: "Includes description, syntax, and parameter information for the addHandler method in JavaScript API Reference for Channel Integration Framework 2.0."
 ms.date: 11/19/2020
 ms.topic: reference
 author: mh-jaya
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# createTab
+# createTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 Creates a tab in a focused Session and returns the unique identifier of the created tab.
 

@@ -1,6 +1,6 @@
 ---
 title: "updateConversation (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
-description: ""
+description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0."
 ms.date: 02/13/2020
 ms.topic: reference
 author: mh-jaya
@@ -10,7 +10,7 @@ ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
-# updateConversation
+# updateConversation (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 This method allows you to update a Conversation([msdyn_ocliveworkitem](/dynamics365/omnichannel/customer-service/developer/reference/entities/msdyn_ocliveworkitem)) record.
 

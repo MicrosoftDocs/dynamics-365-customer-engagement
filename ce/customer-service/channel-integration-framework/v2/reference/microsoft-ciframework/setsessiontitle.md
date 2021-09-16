@@ -1,6 +1,6 @@
 ---
 title: "setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
-description: ""
+description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0."
 ms.date: 11/02/2020
 ms.topic: reference
 author: mh-jaya
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# setSessionTitle
+# setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
  
 
