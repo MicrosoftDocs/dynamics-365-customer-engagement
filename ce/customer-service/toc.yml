@@ -272,6 +272,8 @@
         href: work-with-queues.md
       - name: Manage case queues and route cases
         href: customer-service-hub-user-guide-case-queues-and-routing.md
+      - name: Manage skills
+        href: manage-skills.md
     - name: Developer experience
       items: 
       - name: How unified routing affects queue items and their APIs
