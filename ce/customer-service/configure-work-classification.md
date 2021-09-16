@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "How to configure work classification rulesets for unified routing in Customer Service and Omnichannel for Customer Service"
-ms.date: 08/23/2021
+ms.date: 09/16/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

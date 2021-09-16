@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-ms.date: 07/01/2021
+ms.date: 09/16/2021
 ms.custom: intro-internal
 searchScope:
 - D365-App-customerservice
