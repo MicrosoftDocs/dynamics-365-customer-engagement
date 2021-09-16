@@ -1,6 +1,6 @@
 ---  
 title: "Trial FAQ - Dynamics 365 Sales Enterprise | Microsoft Docs"
-description: "Solutions to common questions related to Dynamics 365 Sales trial signup and management. Learn how to resolve platform and app-specific issues."
+description: "Solutions to common questions related to Dynamics 365 Sales Enterprise trial sign up and management. Learn how to resolve platform and app-specific issues."
 author: lavanyakr01
 ms.author: lavanyakr
 ms.date: 08/31/2021
@@ -10,9 +10,9 @@ ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
 
-# Dynamics 365 Sales trial FAQ
+# Dynamics 365 Sales Enterprise trial FAQ
 
-The Sales trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.
+The Sales Enterprise trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.
 
 [!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
 
@@ -32,7 +32,7 @@ The following limitations apply for the trial:
 - The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
 - You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends.
 
-## Dynamics 365 Sales-specific questions
+## Dynamics 365 Sales Enterprise-specific questions
 
 ### How do I start using the trial?
 
@@ -52,7 +52,7 @@ If you want to test scenarios beyond the ones covered in the product tour, go ah
 
 ### What features are available in the trial?
 
-Your trial includes a simplified Sales Trial app with a few important capabilities to get you started quickly. However, you can access the fully functional, Dynamics 365 Sales Premium environment with the following licenses and capabilities pre-installed:
+Your trial includes a simplified Sales Enterprise Trial app with a few important capabilities to get you started quickly. However, you can access the fully functional, Dynamics 365 Sales Premium environment with the following licenses and capabilities pre-installed:
 
 **Dynamics 365 Sales Enterprise**
 - Manage sales pipeline from lead to cash
