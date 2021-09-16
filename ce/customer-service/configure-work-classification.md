@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "How to configure work classification rulesets for unified routing in Customer Service and Omnichannel for Customer Service"
-ms.date: 08/23/2021
+ms.date: 09/16/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -103,7 +103,7 @@ Do the following to configure a machine learning-based ruleset:
 
 ## Configure route-to-queues rulesets and rules
 
-At runtime, all rules in the decision list will be evaluated. Before a work item is sent to a queue, the rules and operating hours are matched in priority order. If none of the queues are operational, the work item will be sent to the earliest operating queue.
+At runtime, all rules in the decision list will be evaluated. Before a work item is sent to a queue, the rules and operating hours are matched in priority order. If none of the queues are operational, the work item will be sent to the earliest operating queue. However, if you want the work items to be assigned to a designated queue when the queue is outside the operating hours, configure the rules for the default queue such that the work items are always routed to the designated queue.
 
 1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 2. In the **Create route to queue rule** dialog, enter a name in **Rule Name**.

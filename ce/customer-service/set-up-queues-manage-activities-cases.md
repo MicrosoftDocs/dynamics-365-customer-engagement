@@ -1,7 +1,7 @@
 ---
 title: Create and manage basic queues | MicrosoftDocs
 description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service.
-ms.date: 05/18/2021
+ms.date: 09/16/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,9 +26,9 @@ searchScope:
 
 # Create and manage basic queues
 
-Queues help you to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. 
+Queues help you to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case.
 
- Queues can be useful in:  
+Queues can be useful in:
   
 - Having a centralized list of pending work that needs attention  
   
@@ -44,24 +44,23 @@ Use queues to categorize and prioritize your activities and cases. You can categ
   
 - Different geography  
 
- By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. How you set up queues depends on how your business works. 
+By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. How you set up queues depends on how your business works. 
 
 For example, you could create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
   
- Dynamics 365 Customer Service lets you create two types of queues:
+Dynamics 365 Customer Service lets you create two types of queues:
 
 - **Private queues:** Create private queues with limited set of members to help those members easily view the queue items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other user’s views.
 - **Public queues:** Create public queues to let everyone in the organization view the queue and all the items it contains.
 
 > [!IMPORTANT]
-> Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
+>
+> - Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
+> - If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
 
-> [!NOTE]
-> With the latest release of Dynamics 365 Customer Service app, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
-  
 ## Create a basic queue in Customer Service Hub
-  
-Follow the steps given below to create or edit a queue: 
+
+To create or edit a queue:
   
 1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
   
@@ -102,6 +101,7 @@ Follow the steps given below to create or edit a queue:
 6. Select **Save**.
 
    ![queues in Customer Service hub.](media/queues-csh.png)
+
 
 ## Create a queue in Customer Service app
 
