@@ -27,7 +27,6 @@ The key highlights of the feature are as follows:
 
 - Enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in Knowledge Article entity.
 - Select the source data fields (text fields only) for AI model that should suggest keywords and description, for example, **Title** and **Content**.
-- Select the target data fields (text fields only) for authors to add/append selected suggested keywords and description, for example, **Keywords** and **Description**.
 
 > [!NOTE]
 > The AI suggestions feature is currently available in few geographical locations. More information, see: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
@@ -35,18 +34,17 @@ The key highlights of the feature are as follows:
 
 ## How AI suggestions for article keywords and description work
 
-The AI suggestions are displayed in the **View suggested keywords and description** field.
+When the feature is turned on, the **View suggested keywords and description** link appears in the default knowledge article form for knowledge authors. On selecting the link, a dialog appears that shows the suggested keywords and description.
 
- The AI models work as follows:
+The AI model works as follows:
 
-- Knowledge article keywords and descriptions are suggested based on the knowledge article content.
-- When an article is being created or updated, the model identifies keywords and its related keywords from the knowledge article content.
-- A brief summary is auto-generated for each knowledge article, based on the article content.
+ - The text values from selected source data fields in Settings are sent to the AI model to generate suggestions. By default, the source data fields are **Title** and **Content**.
+ - The model takes the first 2,200 characters to generate suggestions. It’s recommended that you describe the problem to be solved within the first 1,800 characters in your article to get good suggestions.
+ - Knowledge article keywords and descriptions are then suggested based on the knowledge article title and content, and are displayed in the View suggested keywords and description dialog.
 
+## Language support for article keywords and description suggestions
 
-## Language support for article keywords and description
-
-Language support for an article is now provided in the following languages:
+AI suggestions for article keywords and description are now supported in the following languages:
 
 - Dutch
 - English
@@ -64,11 +62,7 @@ Make sure that the following requirements are met:
 
 - You have the System Administrator role.
 - The knowledge authors have the AIB Roles and the AIB SML roles.
-- The keywords and article suggestions are applicable only to the default knowledge article form.
-- The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
-- If administration mode is enabled, make sure that background operations are also enabled. More information: [Administration Mode](/power-platform/admin/admin-mode).
-
-
+- In Public Preview, The keywords and article suggestions are applicable only to the default knowledge article form.
 
 ## Enable AI suggestions for article keywords and description
 
@@ -76,17 +70,9 @@ Perform the following steps to enable the AI suggestions for article keywords an
 
 1. Sign in to  Customer Service Hub. In the **Change area**, select **Service Management**, and then under **Insights**, select **Settings**.
 
-or
-
-Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
-
 2. In the **Suggestions for knowledge article authors** area, click **Manage**.
 3. In the **Suggestions for knowledge article authors** > **Settings** > **Summary** area, turn on the **Enable keywords and description suggestions** toggle.
 4. In the **Data mapping** > **Knowledge article data fields** area, select values for the **Article title** and **Article content** boxes, if you don't want to use the **Title** and **Content** values respectively, which are set by default. The AI model uses the data corresponding to the selected values to provide suggestions keywords and descriptions. 
-
-   > [!NOTE]
-   > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
-
 5. Select **Save**.
 
    > ![Configure AI-suggested article keywords and description.](media/configure_suggest-article-keywords-description.png "Enable AI-suggested article keywords and description")
@@ -94,6 +80,8 @@ Sign in to Omnichannel admin center. Select **Insights** and then select **Setti
 
 ### See also
 
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
+[Work with knowledge articles](work-knowledge-articles.md)  
 [View AI-suggested similar cases and knowledge articles for active cases](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](./oc-view-ai-suggested-cases-articles.md)  
 [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)  
