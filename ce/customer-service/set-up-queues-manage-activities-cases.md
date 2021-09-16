@@ -56,7 +56,7 @@ Dynamics 365 Customer Service lets you create two types of queues:
 > [!IMPORTANT]
 >
 > - Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
-> - If unified routing is enabled, make sure that the default form exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
+> - If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
 
 ## Create a basic queue in Customer Service Hub
 
