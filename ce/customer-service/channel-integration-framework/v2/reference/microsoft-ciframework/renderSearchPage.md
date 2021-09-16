@@ -13,7 +13,7 @@ ms.custom:
   - dyn365-developer
 ---
 
-# renderSearchPage (CIF JavaScript API Reference)
+# renderSearchPage (JavaScript API Reference)
 
 [!INCLUDE[renderSearchPage-description](includes/renderSearchPage-description.md)] 
 
