@@ -64,7 +64,7 @@
         href: export-import-omnichannel-data.md
       - name: Uninstall Omnichannel for Customer Service
         href: remove-omnichannel.md
-      - name: Delete solutions
+      - name: Uninstall solutions
         href: delete-solution.md
     - name: Upgrade Omnichannel for Customer Service
       href: upgrade-omnichannel.md

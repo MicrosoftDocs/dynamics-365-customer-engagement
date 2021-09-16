@@ -2,7 +2,7 @@
 title: "Download tools from NuGet (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Download the Plugin Registration, Package Deployment, and other core tools from Nuget."
 ms.custom: 
-ms.date: 03/29/2019
+ms.date: 09/14/2021
 ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
@@ -32,7 +32,7 @@ You can download tools used in development from NuGet using the PowerShell scrip
 
 ## Download tools using PowerShell
 
-<!-- This script won't work properly until an official release is shipped. They are all pre-release as of 10/4/2017. To get the pre-release version, add the -PreRelease parameter to the nuget install call.-->
+You can download all SDK tools using the PowerShell script provided below. Note that this script works with the version of Windows PowerShell that ships in Microsoft Windows 10. The script does not presently work with cross-platform versions of PowerShell based on .NET 5 or later (formerly .NET Core).
 
 1. In your Windows Start menu, type `Windows PowerShell` and open it.
 1. Navigate to the folder you want to install the tools to. For example if you want to install them in a `devtools` folder on your D drive, type `cd D:\devtools`.
@@ -83,14 +83,6 @@ You can download tools used in development from NuGet using the PowerShell scrip
     Remove-Item .\Tools\$pdFolder -Force -Recurse
 
     ##
-    ##Download Package Deployer PowerShell module
-    ##
-    ./nuget install Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell -O .\Tools
-    $pdPoshFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.PackageDeployment.PowerShell.'}
-    move .\Tools\$pdPoshFolder\tools\*.* .\Tools\PackageDeployment.PowerShell
-    Remove-Item .\Tools\$pdPoshFolder -Force -Recurse
-
-    ##
     ##Remove NuGet.exe
     ##
     Remove-Item nuget.exe    
@@ -104,6 +96,8 @@ You can download tools used in development from NuGet using the PowerShell scrip
 - `[Your folder]\Tools\PluginRegistration`
 
 To get the latest version of these tools, repeat these steps.
+
+The [Microsoft.Xrm.Tooling.PackageDeployment.Powershell](https://www.powershellgallery.com/packages/Microsoft.Xrm.Tooling.PackageDeployment.Powershell/) module used to be included in the above script but is now a separate download.
 
 ## See Also
 [Developer tools](developer-tools.md)<br />
