@@ -124,7 +124,7 @@ Next, go to the bookable resource configuration and enter the following:
 
 - **Latitude / Longitude** Choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
 
-- **Timestamp Field Name** Choose the Location Timestamp. When goefence latitude and longitude is updated, this time stamp is updated.  If geofence time stamps are received out of chronological order, events will be created but geofence status (inside/outside geofence) will not be updated.
+- **Timestamp Field Name** Choose the Location Timestamp. When geofence latitude and longitude is updated, this time stamp is updated.  If geofence time stamps are received out of chronological order, events will be created but geofence status (inside/outside geofence) will not be updated.
 
 - **Enabled As** Select **Geo tracked** because the bookable resource has a variable location that is compared against defined geofences.
 
