@@ -122,9 +122,11 @@ Next, go to the bookable resource configuration and enter the following:
 
 - **Entity:** Select **Bookable Resource** to compare the location of field technicians relative to work orders and service accounts.
 
-- **Latitude / Longitude:** Choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
+- **Latitude / Longitude** Choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
 
-- **Enabled As:** Select **Geo tracked** because the bookable resource has a variable location that is compared against defined geofences.
+- **Timestamp Field Name** Choose the Location Timestamp. When goefence latitude and longitude is updated, this time stamp is updated.  If geofence time stamps are received out of chronological order, events will be created but geofence status (inside/outside geofence) will not be updated.
+
+- **Enabled As** Select **Geo tracked** because the bookable resource has a variable location that is compared against defined geofences.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of bookable resource geofence configurations.](./media/mobile-geofence-bookable-resource.png)
