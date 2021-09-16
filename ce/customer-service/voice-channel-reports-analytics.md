@@ -3,7 +3,7 @@ title: "Voice channel analytics, reports, and call insights | MicrosoftDocs"
 description: Learn about the different analytics, reports, and call insights that are available in the voice channel in Omnichannel for Dynamics 365 Customer Service
 ms.custom:
 - dyn365-customerservice
-ms.date: 08/24/2021
+ms.date: 09/16/2021
 ms.reviewer: lalexms
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -71,9 +71,15 @@ Omnichannel historical analytics reports provide comprehensive information on ho
 | Metric | Definition (historical)  |
 |----------------|---------------------|
 | Engaged conversations  | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. |
+| Engaged sessions  | Number of sessions which are accepted by an agent. |
 | Avg. session handle time | Average time that an agent spent on a conversation.  |
 | Transfer rate | Percentage of times a conversation was transferred from one agent to another agent. |
 | Avg. CSAT | The average of customer satisfaction ratings provided by customers. Only available if customer voice is being configured as a post-conversation survey tool. |
+| Avg. session sentiment | Average sentiment score for all sessions engaged by an agent. |
+| Sentiment Zones | Shows positive, negative, or neutral zones in timeline view.|
+| Avg. talktime (min) | Average time taken by agent talking with the customer. |
+| Avg. hold time (min) | Average time taken by agent to keep the customer on hold on the line to check something or to talk to supervisor. |
+| Outgoing Conversations | Number of outbound conversations initiated by an agent to reach a customer. |
 | Avg. Conversation sentiment | Average sentiment score based on the verbatims provided in customer voice survey. |
 | Incoming conversations  | Number of conversations initiated by the customer and can be presented to a human agent. |
 | Abandon Rate | Percentage of conversations that are not engaged by agents. 
