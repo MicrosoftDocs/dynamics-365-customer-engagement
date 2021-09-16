@@ -1,6 +1,6 @@
 ---
-title: "onpagenavigate (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0| MicrosoftDocs"
-description: ""
+title: "onPageNavigate (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0| MicrosoftDocs"
+description: "Learn about the onPageNavigate event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onpagenavigate event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
+# onPageNavigate event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-onpagenavigate](../../shared/token-onpagenavigate.md)]
 

@@ -1,6 +1,6 @@
 ---
-title: "onclicktoact event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
-description: ""
+title: "onClickToAct event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Learn about the onClickToAct event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onclicktoact event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
+# onClickToAct event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-onclicktoact](../../shared/token-onclicktoact.md)]
 
