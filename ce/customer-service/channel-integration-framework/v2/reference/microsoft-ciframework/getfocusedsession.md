@@ -32,7 +32,7 @@ Returns the unique identifier of the session that is in focus, if it belongs to 
 | successCallback | Function | No           | A function to call when the request for setting the panel state is successful |
 | errorCallback   | Function | No           | A function to call when the request for setting the panel state fails         |
 
-## Return Value
+## Return value
 
 Promise with the value as String
 

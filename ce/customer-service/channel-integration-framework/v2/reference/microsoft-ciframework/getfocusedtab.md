@@ -28,7 +28,7 @@ Returns the focused tab's tabId in focused session, if the session belongs to th
 | successCallback | Function | No           | A function to call when the operation succeeds. |
 | errorCallback   | Function | No           | A function to call when the operation fails.    |
 
-## Returns
+## Return value
 
 Promise with the value as String
 

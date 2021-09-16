@@ -1,6 +1,6 @@
 ---
 title: "updateConversation (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
+description: "Learn about updateConversation (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 02/13/2020
 ms.topic: reference
 author: mh-jaya

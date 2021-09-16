@@ -32,7 +32,7 @@ Returns the array of Session Ids for a given provider.
 | successCallback | Function | No           | Call when the promise is resolved |
 | errorCallback   | Function | No           | Call when the promise is rejected |
 
-## Return Value
+## Return value
 
 Promise with the value as array of strings.
 

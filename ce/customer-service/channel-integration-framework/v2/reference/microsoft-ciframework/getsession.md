@@ -31,7 +31,7 @@ Returns an object containing the unique identifier of the session, unique identi
 | successCallback | Function | No           | Call when the request for the current width value is successful |
 | errorCallback   | Function | No           | Call when the request for the current width value fails         |
 
-## Return Value
+## Return value
 
 Object containing session Id, conversation Id, context and isFocused parameter
 

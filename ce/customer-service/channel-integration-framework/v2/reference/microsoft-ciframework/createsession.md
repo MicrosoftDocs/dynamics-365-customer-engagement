@@ -49,7 +49,7 @@ The structure of the `input` parameter JSON is as follows:
 }
 ```
 
-## Return Value
+## Return value
 
 Promise with a value as String.
 

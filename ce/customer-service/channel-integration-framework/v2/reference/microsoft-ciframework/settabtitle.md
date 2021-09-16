@@ -1,6 +1,6 @@
 ---
 title: "setTabTitle (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
+description: "Learn about setTabTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 03/06/2020
 ms.topic: reference
 author: mh-jaya

@@ -30,7 +30,7 @@ Returns an array of tab Ids associated with template name or template tags for t
 | successCallback | Function | No           | A function to call when the request is successful                     |
 | errorCallback   | Function | No           | A function to call when the request fails                             |
 
-## Return Value
+## Return value
 
 Promise with the value as Array of strings
 

@@ -21,11 +21,11 @@ ms.custom:
 
 Allows you to check if a new session can be created.
 
-### Syntax
+## Syntax
 
 `Microsoft.CIFramework.canCreateSession().then(successCallback, errorCallback);`
 
-**Parameters**
+## Parameters
 
 | **Name**        | **Type** | **Required** | **Description**                                                                      |
 |-----------------|----------|--------------|--------------------------------------------------------------------------------------|
@@ -33,11 +33,11 @@ Allows you to check if a new session can be created.
 | successCallback | Function | No           | A function to call when the request for the current state of the panel is successful |
 | errorCallback   | Function | No           | A function to call when the request for the current state of the panel fails         |
 
-**Return Value**
+## Return value
 
 Promise with the value as Boolean.
 
-**Example**
+## Example
 
 ```javascript
 Microsoft.CIFramework.canCreateSession(correlationId).then(
