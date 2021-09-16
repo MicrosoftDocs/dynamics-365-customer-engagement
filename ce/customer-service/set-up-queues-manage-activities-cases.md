@@ -60,7 +60,7 @@ Dynamics 365 Customer Service lets you create two types of queues:
 
 ## Create a basic queue in Customer Service Hub
 
-Use the following steps to create or edit a queue:
+To create or edit a queue:
   
 1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
   
