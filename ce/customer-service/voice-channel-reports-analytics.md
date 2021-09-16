@@ -76,17 +76,12 @@ Omnichannel historical analytics reports provide comprehensive information on ho
 | Transfer rate | Percentage of times a conversation was transferred from one agent to another agent. |
 | Avg. CSAT | The average of customer satisfaction ratings provided by customers. Only available if customer voice is being configured as a post-conversation survey tool. |
 | Avg. session sentiment | Average sentiment score for all sessions engaged by an agent. |
-| Sentiment Zones | Shows positive, negative, or neutral zones in timeline view.|
+| Sentiment zones | Shows positive, negative, or neutral zones in timeline view.|
 | Avg. talktime (min) | Average time taken by agent talking with the customer. |
 | Avg. hold time (min) | Average time taken by agent to keep the customer on hold on the line to check something or to talk to supervisor. |
 | Outgoing Conversations | Number of outbound conversations initiated by an agent to reach a customer. |
-| Avg. Conversation sentiment | Average sentiment score based on the verbatims provided in customer voice survey. |
 | Incoming conversations  | Number of conversations initiated by the customer and can be presented to a human agent. |
-| Abandon Rate | Percentage of conversations that are not engaged by agents. 
-| Average wait time | Average time customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation. |
-| Average Speed to answer | Average time customers waited in the queue before connecting to an agent (the time for acceptance). |
-| Avg. customer effort | Time customer spent on a conversation to get their issue resolved. |
-| Avg. sessions per conversation | Average sessions created and engaged for each conversation engaged. |
+| Avg. conversation sentiment | Average sentiment score based on the verbatims provided in customer voice survey. |
 
 
 This report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
@@ -95,6 +90,8 @@ This report includes conversation intelligence, which uses analytics and data sc
 
 | Metric  | Definition  |
 |----------------|------------|
+| Abandon rate | Percentage of conversations that are not engaged by agents. 
+| Average speed to answer | Average time customers waited in the queue before connecting to an agent (the time for acceptance). |
 | Talk to listen ratio | Specifies the average listen and talk ratio of agent in conversations with customers.  |
 | Talking speed (WPM) | Displays the average number of words used per minute by agent. |
 | Switches per conversation | Displays the average switches between a agent and customer in a conversation, meaning the number of times the conversation switched from one person to another. This is a sign of engagement during conversations. |
