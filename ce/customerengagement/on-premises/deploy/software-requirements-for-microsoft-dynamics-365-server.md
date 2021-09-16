@@ -92,6 +92,7 @@ This topic lists the software and application requirements for this version of [
   
 > [!IMPORTANT] 
 > -  [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
+> -  Azure Managed SQL instance is not currently supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
 
 <a name="Claims_and_IFD_requirements"></a>   
 ## Accessing Microsoft Dynamics 365 Customer Engagement (on-premises) from the internet - Claims-based authentication and IFD requirements  
