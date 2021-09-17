@@ -1,7 +1,7 @@
 ---
 title: "Personalize content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content in Dynamics 365 Marketing."
-ms.date: 08/15/2021
+ms.date: 09/16/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,9 +20,18 @@ search.app:
 
 # Personalize content
 
+Dynamics 365 Marketing's real-time marketing features offer powerful personalization capabilities. In this article, you'll learn how to set default values for personalized data, preview personalized content, personalize text messages and push notifications, and use advanced personalization features like related tables and conditional content.
+
 ## Default values
 
 Use default values to ensure your message always has appropriate content, even if the data is missing or blank. For example, if you are personalizing your message with a customer’s first name, you can add “customer” as the default value. That way your message will always be complete.
+
+To set a default value:
+
+1. Add a personalized element.
+1. Enter your default content in the **Default value** field.
+
+
 
 ## Preview personalized content
 
@@ -30,7 +39,7 @@ You can preview your personalized content in the **Preview and test** view. By d
 
 You can also add content to preview how it will look in your email:
 
-## Text messages and push notifications
+## Personalize text messages and push notifications
 
 You can add personalized content to your messages by selecting the [image] icon.
 
