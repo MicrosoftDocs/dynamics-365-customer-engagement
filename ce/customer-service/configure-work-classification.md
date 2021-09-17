@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "How to configure work classification rulesets for unified routing in Customer Service and Omnichannel for Customer Service"
-ms.date: 09/16/2021
+ms.date: 09/17/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -101,9 +101,9 @@ Do the following to configure a machine learning-based ruleset:
 
 ## Configure route-to-queues rulesets and rules
 
-After you configure the route-to-queues rulesets and rules, during runtime, to assign a work item to a queue, the system matches the rule conditions and operating hours of the corresponding queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then, the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is sent to the queue that will be operational at the earliest.
+After you configure the route-to-queues rulesets and rules, during runtime, to assign a work item to a queue, the system matches the rule conditions and operating hours of the corresponding queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then, the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is assigned to the queue that will be operational at the earliest.
 
-When no rule condition is matched or no rule is defined, the work item is routed to the default queue.
+When no rule condition is matched or no rule is defined, the work item is assigned to the default queue.
 
 1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 2. In the **Create route to queue rule** dialog, enter a name in **Rule Name**.
