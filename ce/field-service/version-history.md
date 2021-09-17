@@ -58,11 +58,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.52.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#312524)).
 
-- Fixed a bug in Field Service Mobile (D365) where Bookings were not always showing in Agenda or Day view when accessing from Work Order.
-- Fixed a bug where an error was shown while trying to add a "used" Work Order Product in Field Service Mobile (D365) while Offline.
-- Added new entries in Solution Hub to help flag configuration issues with Field Service Mobile (D365).
-- Improved the Field Service Solution Health rules related to Agreements to exclude inactive records from evaluation.
-- 
+- Fixed a bug in Field Service (Dynamics 365) mobile app where bookings were not always showing in agenda or day view when accessing from work order.
+- Fixed a bug where an error was shown while trying to add a "used" work order product in Field Service (Dynamics 365) mobile app while offline.
+- Added new entries in Solution Hub to help flag configuration issues with Field (Dynamics 365) Service mobile app.
+- Improved the Field Service Solution health rules related to agreements to exclude inactive records from evaluation.
+
 ## 8.8.49.21
 
 (Includes Universal Resource Scheduling version [3.12.51.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312511)).
