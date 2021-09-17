@@ -57,7 +57,7 @@ You can add personalized content to your messages by selecting the ![Text and pu
 
 ### Related tables
 
-Related tables are signified with the ![Related table icon.](media/real-time-marketing-personalization-related-table.png "Related table icon") icon. For example: ![Related table example.](media/real-time-marketing-personalization-related-example.png "Related table example")
+Related tables are signified with the ![Related table icon.](media/real-time-marketing-personalization-related-table.png "Related table icon") icon next to the item in the data source selection screen. For example: ![Related table example.](media/real-time-marketing-personalization-related-example.png "Related table example")
 
 Select this field to navigate to the related table:
 
@@ -93,7 +93,13 @@ Conditional (if-then-else) statements display content depending on whether one o
 
 In the code, you only specify the placeholder name. To set up the condition, go to the **Personalize** tab in the **Toolbox**:
 
-Then, select the placeholder name to configure. From this, you select a field and the condition to compare:
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-condition-setup.png)
+
+Then, select the placeholder name to configure. Next, select a field and the condition to compare:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing placeholder configuration.](media/real-time-marketing-personalization-condition-compare.png)
 
 For example, you can add code to personalize a greeting based on country:
 
@@ -107,5 +113,15 @@ For example, you can add code to personalize a greeting based on country:
 
 Next, configure the condition to check the contact’s address for Denmark:
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing contact address configuration for Denmark.](media/real-time-marketing-personalization-condition-denmark.png)
+
 You can preview the different content in **Preview and test** by changing the sample data for the conditions to true:
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing conditions set to true.](media/real-time-marketing-personalization-condition-denmark-true.png)
+
+Or false:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-condition-denmark-false.png)
