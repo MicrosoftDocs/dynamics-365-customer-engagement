@@ -51,7 +51,7 @@ You can also add content in the **Test send sample data** field to preview how i
 You can add personalized content to your messages by selecting the ![Text and push personalization button.](media/real-time-marketing-sms-personalize-button.png "Text and push personalization button") icon:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing use fo the text and push personalization button.](media/real-time-marketing-sms-personalize-example.png)
+> ![Screenshot showing use of the text and push personalization button.](media/real-time-marketing-sms-personalize-example.png)
 
 ## Advanced personalization features
 
@@ -61,9 +61,18 @@ Related tables are signified with the ![Related table icon.](media/real-time-mar
 
 Select this field to navigate to the related table:
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing use an example related table.](media/real-time-marketing-personalization-related-traverse.png)
+
 You can also search for fields in the related table (only the currently selected table will return results).
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing a related table search.](media/real-time-marketing-personalization-related-search.png)
+
 Once you’ve selected a field, the full path to that field is displayed in the data binding.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the full path to the field.](media/real-time-marketing-personalization-related-path.png)
 
 ### Conditional content
 
