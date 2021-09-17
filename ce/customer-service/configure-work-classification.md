@@ -36,8 +36,6 @@ The work classification rulesets will be run in the order they are listed. Withi
 
 After all the work classification rulesets have been run, the system evaluates the route-to-queue ruleset in which all the rule items will be run in the order they are listed, unlike the classification rules where control passes to the next ruleset when one of the rule item in a ruleset condition is matched.
 
-Before a work item is sent to a queue, the rules and operating hours are matched in the priority order. If no queues are operational, the work item will be sent to the queue corresponding to the rule condition that matches first in the priority order.
-
 In work classification rulesets, values set in one of the rule items of a ruleset can be used in the next rulesets' rule items. For example: If in output section of one of the rule item of ruleset 1, priority is set to High; then any subsequent ruleset rule item can use the priority variable and corresponding value "High" to set value for another attribute, such as, "If Priority equals High, set severity to critical".
 
 For a rule item, you can set the output values for up to five attributes.
@@ -103,7 +101,9 @@ Do the following to configure a machine learning-based ruleset:
 
 ## Configure route-to-queues rulesets and rules
 
-At runtime, all rules in the decision list will be evaluated. Before a work item is sent to a queue, the rules and operating hours are matched in priority order. If none of the queues are operational, the work item will be sent to the earliest operating queue. However, if you want the work items to be assigned to a designated queue when the queue is outside the operating hours, configure the rules for the default queue such that the work items are always routed to the designated queue.
+After you configure the route-to-queues rulesets and rules, during runtime, to assign a work item to a queue, the system matches the rule conditions and operating hours of the corresponding queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then, the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is sent to the queue that will be operational at the earliest.
+
+When no rule condition is matched or no rule is defined, the work item is routed to the default queue.
 
 1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 2. In the **Create route to queue rule** dialog, enter a name in **Rule Name**.
