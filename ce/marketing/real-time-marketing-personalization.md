@@ -96,32 +96,34 @@ In the code, you only specify the placeholder name. To set up the condition, go 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-condition-setup.png)
 
-Then, select the placeholder name to configure. Next, select a field and the condition to compare:
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing placeholder configuration.](media/real-time-marketing-personalization-condition-compare.png)
-
 For example, you can add code to personalize a greeting based on country:
 
 ```
-<p>{{#if ckForDenmark}}
-    Hej
+{{#if placeholderName}}
+    Hola
+{{else if ckForDenmark}}
+    Hallo
 {{else}}
     Hi
-{{/if}} {{contact.firstname}}!</p>
+{{/if}} {{contact.firstname}}!
 ```
+
+Then, select the placeholder name to configure. Next, select a field and the condition to compare. In this example, the first placeholder will activate the condition if the contact's address is in Spain:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing placeholder configuration.](media/real-time-marketing-personalization-condition-compare.png)
 
 Next, configure the condition to check the contact’s address for Denmark:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing contact address configuration for Denmark.](media/real-time-marketing-personalization-condition-denmark.png)
 
-You can preview the different content in **Preview and test** by changing the sample data for the conditions to true:
+You can preview the effect of the conditions in **Preview and test** by changing the sample data for the conditions to true. Placeholder 1 true:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to true.](media/real-time-marketing-personalization-condition-denmark-true.png)
 
-Or false:
+Placeholder 2 true:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-condition-denmark-false.png)
