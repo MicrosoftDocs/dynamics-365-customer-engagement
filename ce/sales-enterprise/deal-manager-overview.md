@@ -1,7 +1,7 @@
 ---
 title: "Deal manager workspace (Preview) - Sales Enterprise | MicrosoftDocs"
 description: "Deal manager is a dedicated workspace to manage opportunities better. You can personalize and customize the workspace for your needs."
-ms.date: 07/15/2021
+ms.date: 09/17/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
