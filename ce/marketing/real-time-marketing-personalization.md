@@ -29,25 +29,35 @@ Use default values to ensure your message always has appropriate content, even i
 To set a default value:
 
 1. Add a personalized element.
-1. Enter your default content in the **Default value** field.
+1. Enter the default content in the **Default value** field.
 
-
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Default value field.](media/real-time-marketing-personalization-default.png)
 
 ## Preview personalized content
 
 You can preview your personalized content in the **Preview and test** view. By default, preview will display the default content for that placeholder:
 
-You can also add content to preview how it will look in your email:
+> [!div class="mx-imgBorder"]
+> ![Screenshot of preview and test with a default value.](media/real-time-marketing-personalization-test-default.png)
+
+You can also add content in the **Test send sample data** field to preview how it will look in your email:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of preview and test with a sample data value.](media/real-time-marketing-personalization-test-sample.png)
 
 ## Personalize text messages and push notifications
 
-You can add personalized content to your messages by selecting the [image] icon.
+You can add personalized content to your messages by selecting the ![Text and push personalization button.](media/real-time-marketing-sms-personalize-button.png "Text and push personalization button") icon:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing use fo the text and push personalization button.](media/real-time-marketing-sms-personalize-example.png)
 
 ## Advanced personalization features
 
 ### Related tables
 
-Related tables are signified with [image] icon. For example:  
+Related tables are signified with the ![Related table icon.](media/real-time-marketing-personalization-related-table.png "Related table icon") icon. For example: ![Related table example.](media/real-time-marketing-personalization-related-example.png "Related table example")
 
 Select this field to navigate to the related table:
 
