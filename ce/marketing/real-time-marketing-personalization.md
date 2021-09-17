@@ -53,9 +53,7 @@ You can add personalized content to your messages by selecting the ![Text and pu
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing use of the text and push personalization button.](media/real-time-marketing-sms-personalize-example.png)
 
-## Advanced personalization features
-
-### Related tables
+## Related tables
 
 Related tables are signified with the ![Related table icon.](media/real-time-marketing-personalization-related-table.png "Related table icon") icon next to the item in the data source selection screen. For example: ![Related table example.](media/real-time-marketing-personalization-related-example.png "Related table example")
 
@@ -79,7 +77,7 @@ Once you’ve selected a field, the full path to that field is displayed in the 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the full path to the field.](media/real-time-marketing-personalization-related-path.png)
 
-### Conditional content
+## Conditional content
 
 Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create these statements in the designer or in the HTML view. You can then use the placeholder dialog to specify the condition to be evaluated.
 
