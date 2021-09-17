@@ -62,12 +62,17 @@ Related tables are signified with the ![Related table icon.](media/real-time-mar
 Select this field to navigate to the related table:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing use an example related table.](media/real-time-marketing-personalization-related-traverse.png)
+> ![Screenshot showing use an example related table.](media/real-time-marketing-personalization-related-traverse2.png)
 
 You can also search for fields in the related table (only the currently selected table will return results).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing a related table search.](media/real-time-marketing-personalization-related-search.png)
+
+To navigate between levels, select the breadcrumbs:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing personalization breadcrumbs.](media/real-time-marketing-personalization-breadcrumbs.png)
 
 Once you’ve selected a field, the full path to that field is displayed in the data binding.
 
@@ -76,7 +81,7 @@ Once you’ve selected a field, the full path to that field is displayed in the 
 
 ### Conditional content
 
-Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements between the other design elements. You can then use the placeholder dialog to specify the condition to be evaluated.
+Conditional (if-then-else) statements display content depending on whether one or more conditional expressions resolve to true or false. You can add the code required to create these statements in the designer or in the HTML view. You can then use the placeholder dialog to specify the condition to be evaluated.
 
 ```
 {{#if placeholderName}}
@@ -89,6 +94,16 @@ Conditional (if-then-else) statements display content depending on whether one o
 {{else}}
    Content displayed when all expressions are false
 {{/if}}
+```
+
+If you are adding code to HTML, make sure to put comments around the code:
+
+```
+<!-- {{#if placeholderName }} -->
+
+    <h1> Content displayed when the expression is true</h1>
+
+<!-- {{/if}} -->
 ```
 
 In the code, you only specify the placeholder name. To set up the condition, go to the **Personalize** tab in the **Toolbox**:
