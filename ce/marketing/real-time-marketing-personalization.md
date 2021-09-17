@@ -1,7 +1,7 @@
 ---
 title: "Personalize content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content in Dynamics 365 Marketing."
-ms.date: 09/16/2021
+ms.date: 09/17/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -41,7 +41,7 @@ You can preview your personalized content in the **Preview and test** view. By d
 > [!div class="mx-imgBorder"]
 > ![Screenshot of preview and test with a default value.](media/real-time-marketing-personalization-test-default.png)
 
-You can also add content in the **Test send sample data** field to preview how it will look in your email:
+You can also add content in the **Test send sample data** field to preview how it will look in your email. To add test send sample data, select the **Edit sample data** button:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of preview and test with a sample data value.](media/real-time-marketing-personalization-test-sample.png)
