@@ -766,6 +766,8 @@
           href: agent-dashboard-cs.md
         - name: Case Topics dashboard
           href: case-topics-dashboard-cs.md
+        - name: Historical analytics for unified routing in Customer Service
+          href: cs-historical-analtyics-unified-routing.md  
         - name: Omnichannel conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
@@ -776,6 +778,8 @@
           href: oc-bot-dashboard.md
         - name: Omnichannel Conversation topic dashboard
           href: oc-conversation-topics-dashboard.md
+        - name: Historical analytics for unified routing in Omnichannel for Customer Service
+          href: oc-historical-analytics-unified-routing.md  
       - name: Knowledge search analytics dashboard
         href: knowledge-search-analytics-cs.md
       - name: View analytics dashboards created in Power BI
