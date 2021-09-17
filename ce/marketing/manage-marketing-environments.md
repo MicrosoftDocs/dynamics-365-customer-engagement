@@ -139,7 +139,7 @@ You can create an on-demand backup at any time, but when Marketing is installed 
 
     ![Create an on-demand backup.](media/instances-backup.png "Create an on-demand backup")
 
-As with automatic backups, on-demand backups include the full organizational database, but not the interaction records or image files stored in the marketing services. For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
+As with automatic backups, on-demand backups include the full organizational database, but not the interaction records or image files stored in the marketing services. For more information about how to export marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 ### Restore a backup onto another environment
 
