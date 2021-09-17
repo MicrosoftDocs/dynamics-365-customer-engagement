@@ -1,6 +1,6 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
-description: "How to configure work classification rulesets for unified routing in Customer Service and Omnichannel for Customer Service"
+description: "Learn about how to configure work classification rulesets for unified routing."
 ms.date: 09/17/2021
 ms.topic: article
 author: neeranelli
@@ -18,11 +18,11 @@ searchScope:
 
 ## Introduction
 
-With the CSR Manager or Omnichannel administrator role, perform the tasks listed in this section to configure the work classification rules for the workstream that you created.
+Use the CSR Manager or Omnichannel administrator role to configure the work classification rules for a workstream.
 
-You will perform the tasks listed in this topic in the Omnichannel admin center or Customer Service Hub app.
+You will do the tasks listed in this article in the Omnichannel admin center or Customer Service Hub app.
 
-In unified routing, work classification lets you define classification rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
+In unified routing, work classification lets you define rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
 
 
 > [!IMPORTANT]
@@ -32,11 +32,11 @@ In unified routing, work classification lets you define classification rules to 
 
 A classification ruleset is an ordered list of multiple work classification rulesets and route-to-queue ruleset. During evaluation, the work classification rulesets are run first, followed by route-to-queue ruleset.
 
-The work classification rulesets will be run in the order they are listed. Within a ruleset, rule items will be run in the order they are listed. As soon as one of the rule item condition matches the output section of the rule item is run, and the system evaluates the rules in the next ruleset if it is configured.
+The work classification rulesets will be run in the order they are listed. Within a ruleset, rule items will be run in the order they are listed. As soon as one of the rule item conditions matches the output section of the rule item is run, and the system evaluates the rules in the next ruleset if it is configured.
 
-After all the work classification rulesets have been run, the system evaluates the route-to-queue ruleset in which all the rule items will be run in the order they are listed, unlike the classification rules where control passes to the next ruleset when one of the rule item in a ruleset condition is matched.
+After all the work classification rulesets have been run, the system evaluates the route-to-queue ruleset in which all the rule items will be run in the order they are listed. This is unlike the classification rules, where control passes to the next ruleset when one of the rule item in a ruleset condition matches.
 
-In work classification rulesets, values set in one of the rule items of a ruleset can be used in the next rulesets' rule items. For example: If in output section of one of the rule item of ruleset 1, priority is set to High; then any subsequent ruleset rule item can use the priority variable and corresponding value "High" to set value for another attribute, such as, "If Priority equals High, set severity to critical".
+In work classification rulesets, the values set in one of the rule items of a ruleset can be used in the next rulesets' rule items. For example: If in output section of one of the rule items of ruleset 1, priority is set to High; then any next ruleset rule item can use the priority variable and corresponding value "High" to set value for another attribute, such as, "If Priority equals High, set severity to critical".
 
 For a rule item, you can set the output values for up to five attributes.
 
@@ -44,7 +44,7 @@ For a rule item, you can set the output values for up to five attributes.
 
 Routing rules are written as rulesets that consist of rule items.
 
-To create a manual work classification ruleset, do the following:
+To create a manual work classification ruleset, do the following steps:
 
 1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Rule Type** as **Manual**, and enter a name and description.
@@ -72,7 +72,7 @@ Follow these steps to create a manual skill classification ruleset:
 
 ## Create classification rulesets based on capacity profiles
 
-Create work classification rulesets that are based on capacity profiles so that work items are routed to agents based on capacity.
+Create work classification rulesets that are based on capacity profiles to route work items to agents based on capacity.
 
 1. Perform the steps 1 through 5 in [Create manual skill classification rulesets](#create-manual-skill-classification-rulesets).
 2. In the **Output** area, select **Capacity profile**, and choose a capacity profile whose value should be set if the conditions are met.
@@ -120,7 +120,7 @@ When no rule condition is matched or no rule is defined, the work item is assign
 
 ## Options available for rulesets
 
-After you create the rules, you can change the order in which the rules should be evaluated, search for rules, and view the condition that's been used for each rule by hovering the mouse over the condition. You can also create copies the rules and update only the necessary information. Thereby, you'll avoid writing the conditions from scratch.
+After you create the rules, you can change the order in which the rules should be evaluated, search for rules, and view the condition that's been used for each rule by hovering the mouse over the condition. You can also create copies the rules and update only the necessary information to avoid writing the conditions from scratch.
 
 ### See also
 
