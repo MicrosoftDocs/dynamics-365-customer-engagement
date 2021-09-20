@@ -4,7 +4,7 @@ description: "Learn about the isDefault session property of app profile manager 
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
