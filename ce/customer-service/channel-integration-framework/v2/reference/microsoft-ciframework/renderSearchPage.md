@@ -45,8 +45,10 @@ The following example shows how to query for the term "Contoso" among the record
 ```JavaScript
 var entityname = "account"
 var searchterm = "Contoso"
+var guid = "<use new guid for every api call>"
+var searchtype = 0 // relevance search
 
-Microsoft.CIFramework.renderSearchPage(entityname, searchterm).then(
+Microsoft.CIFramework.renderSearchPage(entityname, searchterm, guid, searchtype).then(
       function (success) {
         console.log(success);
     },
