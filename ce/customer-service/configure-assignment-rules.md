@@ -10,6 +10,8 @@ manager: shujoshi
 
 # Configure assignment methods and rules for queues
 
+## Introduction
+
 After creating queues, if you want to use custom assignment methods, you'll create assignment rulesets comprising rules.
 
 You can create the custom assignment methods in the Omnichannel admin center and Customer Service Hub apps.
@@ -17,7 +19,7 @@ You can create the custom assignment methods in the Omnichannel admin center and
 In unified routing, the process of creating assignment rulesets involves the following steps:
 
 1. **Create assignment rulesets**: For each assignment ruleset, you'll configure the conditions and order by option.
-2. **Create selection criteria**: If you create more than one assignment ruleset, you'll need to define the rules for the selection criteria. The selection criteria determines which ruleset out of the many should be run. More information: [Configure selection criteria](#configure-selection-criteria).
+2. **Create selection criteria**: If you create more than one assignment ruleset, you'll need to define the rules for the selection criteria. The selection criteria determines the ruleset that should be run out of the many that exist. More information: [Configure selection criteria](#configure-selection-criteria).
 
 ## Create an assignment method and configure rules
 
