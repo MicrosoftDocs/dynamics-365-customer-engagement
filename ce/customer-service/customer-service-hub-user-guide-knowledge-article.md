@@ -94,7 +94,7 @@ If your administrator has enabled keywords and description suggestions, you can 
 :::image type="content" source="media/v9-suggested-keywords-description-dialog.png" alt-text="Add suggested keywords and description":::
 *  Select the keywords that you want to add to your keywords list. The keywords get added to the Keywords field.
 * Select **Insert suggested description**. The description gets added to the Description field.
-1. Select **Apply Changes**. The selected keywords and description appear in the Keywords and Description field of the knowledge article form.
+3. Select **Apply Changes**. The selected keywords and description appear in the Keywords and Description field of the knowledge article form.
 
 ## Personalize your language preferences for authoring knowledge articles
 
