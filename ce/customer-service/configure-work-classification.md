@@ -120,7 +120,7 @@ When no rule condition is matched or no rule is defined, the work item is assign
 
 ## Options available for rulesets
 
-After you create the rules, you can change the order in which the rules should be evaluated, search for rules, and view the condition that's been used for each rule by hovering the mouse over the condition. You can also create copies the rules and update only the necessary information to avoid writing the conditions from scratch.
+After you create the rules, you can change the order in which the rules should be evaluated, search for rules, and view the condition that's been used for each rule by hovering the mouse over the condition. You can also create copies of the rules and update only the necessary information to avoid writing the conditions from scratch.
 
 ### See also
 
