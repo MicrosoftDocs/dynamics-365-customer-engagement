@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 08/09/2021
+ms.date: 09/21/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -33,7 +33,9 @@ The following assignment methods are available out of the box:
 
 - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence. The initial order is based on when a user is added to queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
 
-- **Custom configuration**: Lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
+You can also create your own assignment method to suite the business needs.
+
+- **Create new**: Lets you create and use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
 
   - **Prioritization rulesets**: Let you define the order in which the work items will be assigned to agents when they are available to take more work.
   - **Assignment rulesets**: Represent a set of conditions that are used to select agents and use an order by option to sort the matching agents.
@@ -49,7 +51,7 @@ A prioritization ruleset is an ordered list of prioritization rules. Every prior
 
 You can create only one prioritization ruleset per queue.
 
-As an example, consider the prioritization ruleset as seen in the following screenshot with three rules.
+As an example, consider the prioritization ruleset as seen in the following screenshot with four rules.
 
 ![Prioritization scenario.](media/ur-prioritization-scenario.png "Prioritization scenario")
 
@@ -86,19 +88,26 @@ The assignment rules are composed of the following items:
      - **User skills**: Represents the skills associated with the user that can be used for performing skill-based assignment.
      - **Calendar Schedule**: Schedule of the user as represented in the user service scheduling calendars.
      - **Bot attributes**: Can be used only when you have configured bots as users and want to perform some comparisons on them.
-   - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes. Unified routing filters the attribute specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
+   - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes. 
+
+      Unified routing filters the attribute-specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
     
-    |Attribute type|Operator|Definition|
-    |--------------|--------|----------|
-    |Presence Status| Equals, Does not Equal, Contains Data, Does not Contain Data| Use this operator to find agents who have matching presence status as specified in the work item.|
-    |Capacity||Use this operator to compare if the agent has enough capacity to work on the specified items|
-    |User skills|Exact match|Use this operator to find agents who have all the skills which the incoming work item requires|
-    |User skills|Custom match|Use this operator to find agents who have the custom skills that map to a lookup attribute on the work item. Read more (link)|
-    |Calendar Schedule|Is working|Use this operator to find agents who are working as per their service scheduling calendars|
-    ||||
-  - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is same as that of the customer associated with the case.
+      |Attribute type|Operator|Definition|
+      |--------------|--------|----------|
+      |Presence Status| Equals, Does not Equal, Contains Data, Does not Contain Data| Use an operator to find agents who have matching presence status as specified in the work item.|
+      |Capacity|Equals, Does not Equal, Contains Data, Does not Contain Data|Use an operator to compare if the agent has enough capacity to work on the specified items.|
+      |User skills|Exact match|Use an operator to find agents who have all the skills which the incoming work item requires|
+      |User skills|Custom match|Use the operator to find agents whose skills will match at runtime based on the selected lookup attribute on the work item.|
+      |Calendar schedule|Is working|Use this operator to find agents who are working as per their service scheduling calendars.|
+      ||||
   
-  ![Sample dynamic match](media/dynamic-value-match.png "Sample dynamic match")
+   - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is same as that of the customer associated with the case.
+  
+    > ![Sample dynamic match](media/dynamic-value-match.png "Sample dynamic match")
+
+    For some operators, values are not required. They can be conditions, such as “contains data”, “does not contain data”, and “calendar schedule: is working”.
+
+    For user skills, the values are predefined for the operators.
 
 - **Order by**: If multiple agents match the conditions in a rule, you can use the "Order by" clause to find the best suited one. You can specify the following order by clauses:
 
@@ -108,7 +117,7 @@ The assignment rules are composed of the following items:
      - Profile-based available capacity
      - Proficiency
      - Skill count
-  - **User Attributes**: These are attributes on the system user entity.
+  - **User Attributes**: These attributes are defined on the system user entity.
 
 A sample assignment rule is explained in the following scenario with a screenshot.
 
