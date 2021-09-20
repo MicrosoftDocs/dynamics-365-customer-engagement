@@ -60,12 +60,7 @@ To access the report, in the Omnichannel for Customer Service app, on the **Home
 
    > ![Access Omnichannel historical analytics report.](media/voice-access-historical-report.png "Access Omnichannel historical analytics report")
 
-The following report is displayed.
-
-> [!div class="mx-imgBorder"]
-> ![Omnichannel historical analytics for voice channel.](./media/voice-historical-agent-drill-down.png "Omnichannel historical analytics for voice channel.")
-
-Omnichannel historical analytics reports provide comprehensive information on the overall performance of customer support across channels. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
+The Omnichannel historical analytics reports provide comprehensive information on the overall performance of customer support across channels. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
 
 
 | Metric | Definition (historical)  |
@@ -82,7 +77,6 @@ Omnichannel historical analytics reports provide comprehensive information on th
 | Avg. customer effort | The time that a customer spent on a conversation to get their issue resolved. |
 | Avg. sessions per conversation | The average sessions created and engaged for each conversation engaged. |
 
-
 This report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
 
 | Metric  | Definition  |
@@ -90,14 +84,14 @@ This report includes conversation intelligence, which uses analytics and data sc
 | Talk to listen ratio | The average listen and talk ratio of agent in conversations with customers.  |
 | Talking speed (WPM) | The average number of words used per minute by agent. |
 | Switches per conversation | The average exchanges between an agent and a customer in a conversation; the number of times the conversation switched from one person to another. This is a sign of engagement during conversations. |
-| Pause before speaking (sec)  | The milliseconds the agent paused before responding to customer queries; this is a signal of patience by the agent. |
-| Longest customer monologue (sec)  | The longest length of speech without a break by the customer with an agent in seconds; indicates that the agent is asking good questions and understanding customer needs. |
+| Pause before speaking (sec)  | The milliseconds the agent paused before responding to customer queries; indicates agent's patience. |
+| Longest customer monologue (sec)  | The longest monologue by the customer with an agent; indicates that the agent is asking good questions and understanding customer needs. |
 
 ## View call insights
 
-Supervisors can look into each topic and view the CSAT and sentiment to see coaching opportunities. Supervisors can view details of a conversation to see what happened by drilling through the topics and selecting a conversation title.
+Supervisors can look into each topic, and view the CSAT and sentiment to see coaching opportunities. Supervisors can view details of a conversation to see what happened by drilling through the topics and selecting a conversation title.
 
-Supervisors can see entire transcripts to understand the conversation style and get precise verbatim used so they can make informed decisions about training opportunities for the agent.
+Supervisors can see entire transcripts to understand the conversation style and get precise verbatim used so they can make informed decisions about training requirements for the agent.
 
 
 > [!div class="mx-imgBorder"]
