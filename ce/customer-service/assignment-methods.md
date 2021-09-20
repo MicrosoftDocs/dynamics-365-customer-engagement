@@ -107,7 +107,7 @@ The assignment rules are composed of the following items:
 
     For some operators, values are not required. They can be conditions, such as “contains data”, “does not contain data”, and “calendar schedule: is working”.
 
-    For user skills, the values are predefined for the operators.
+    For user skills, the values are predefined for the operators. More information: [Set up skill-based routing](set-up-skill-based-routing.md)
 
 - **Order by**: If multiple agents match the conditions in a rule, you can use the "Order by" clause to find the best suited one. You can specify the following order by clauses:
 
