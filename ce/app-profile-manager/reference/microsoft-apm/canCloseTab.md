@@ -8,9 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: canClose (app profile manager tab)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# canClose (app profile manager tab)
 
 A Boolean value indicating whether a tab can be closed.
 

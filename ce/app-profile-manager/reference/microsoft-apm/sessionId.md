@@ -8,9 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: sessionId (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# sessionId (app profile manager)
 
 The ID of a session.
 

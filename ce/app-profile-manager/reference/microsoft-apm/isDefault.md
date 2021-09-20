@@ -8,9 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: isDefault (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# isDefault (app profile manager)
 
 Boolean value indicating whether a session is the Home session.
 

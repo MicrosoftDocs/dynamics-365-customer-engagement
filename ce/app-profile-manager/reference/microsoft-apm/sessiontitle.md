@@ -8,10 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: title (app profile manager session)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
+# title (app profile manager session)
 
 The text label of a session.
 

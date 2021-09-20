@@ -8,9 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: createSession (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# createSession (app profile manager)
 
 Creates a session based on a session template and returns the unique identifier of the session.
 

@@ -8,9 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: getSession (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# getSession (app profile manager)
 
 Returns the session object for a session ID.
 

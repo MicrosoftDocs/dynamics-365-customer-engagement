@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: focus (app profile manager)
+# focus (app profile manager)
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 

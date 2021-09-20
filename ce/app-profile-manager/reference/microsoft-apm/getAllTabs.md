@@ -8,7 +8,7 @@ ms.date: 08/25/2021
 ms.topic: reference
 ---
 
-# Preview: getAllTabs (app profile manager)
+# getAllTabs (app profile manager)
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
