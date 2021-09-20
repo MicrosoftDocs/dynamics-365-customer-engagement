@@ -24,7 +24,7 @@ You must have App Profile user or Productivity tools user security roles to use 
 The following methods and properties allow you to manage sessions in Customer Service workspace.
 
 | Method | Description |
-|---------|-------------|
+|--------|-------------|
 | [getFocusedSession](microsoft-apm/getFocusedSession.md) | Returns the session object of the session that is in focus. |
 | [getAllSessions](microsoft-apm/getAllSessions.md) | Returns the unique identifier of all sessions. |
 | [getSession](microsoft-apm/getSession.md) | Returns the session object for the specified session ID.  |
@@ -36,7 +36,7 @@ The following methods and properties allow you to manage sessions in Customer Se
 |||
 
 | Property | Description |
-|------------|-------------|
+|----------|-------------|
 | [sessionId](microsoft-apm/sessionId.md) | The ID of a given session. |
 | [isDefault](microsoft-apm/isDefault.md) | Boolean value indicating if a session is the Home session.|
 | [canClose](microsoft-apm/canCloseSession.md) | Boolean value indicating whether a session can be closed. |
@@ -48,7 +48,7 @@ The following methods and properties allow you to manage sessions in Customer Se
 The following methods and properties allow you to manage tabs in Customer Service workspace.
 
 | Method | Description |
-|---------|-------------|
+|--------|-------------|
 | [getFocusedTab](microsoft-apm/getFocusedTab.md) | Returns the tab object of the tab that is in focus. |
 | [getAllTabs](microsoft-apm/getAllTabs.md) | Returns the unique identifier of all tabs for a session. |
 | [getTab](microsoft-apm/getTab.md) | Returns the tab object of the specified tab ID.  |
@@ -60,7 +60,7 @@ The following methods and properties allow you to manage tabs in Customer Servic
 |||
 
 | Property | Description |
-|------------|-------------|
+|----------|-------------|
 | [tabId](microsoft-apm/tabId.md) | The ID of a tab. |
 | [canClose](microsoft-apm/canCloseTab.md) | Boolean value indicating whether a tab can be closed. |
 | [title](microsoft-apm/tabtitle.md) | The text label of a tab. |
@@ -72,7 +72,7 @@ The following methods and properties allow you to manage tabs in Customer Servic
 The following method allows you to manage the session context in Customer Service workspace.
 
 | Method | Description |
-|---------|-------------|
+|--------|-------------|
 | [updateContext](microsoft-apm/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for invoking macros in the future. |
 |||
 ### See also
