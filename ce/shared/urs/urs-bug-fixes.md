@@ -1,3 +1,15 @@
+## 3.12.62.33 - 2021 wave 2 early access update 2
+
+(Includes Resource Scheduling controls version 1.2.2.212604)
+
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 2](/dynamics365-release-plan/2021wave2/service/dynamics365-field-service/planned-features#resource-scheduling) new and updated features. 
+
+This release is an update to the 2021 wave 2 early access of Universal Resource Scheduling version 3.12.61.21. 
+
+- There is an issue where Power automate cloud flow is used to trigger on update of the work order field on the requirement to create a booking for the requirement, but it is creating 2 bookings. This issue is now fixed. 
+- When a User clicks on the suggested timeslot's Resources on the quick book panel, the scroll position is reset and the User has to again click on the available resources of the suggested timeslot to see the available resources. This issue is now fixed. 
+- This release contains an update to the new schedule board; now, new schedule assistant and find availability functionality can also be used with the multi-day requirements, that last for multiple days with associated requirement detail records. We also shipped many experience, performance, and stability improvements. For any schedulable entity to be supported on the new schedule assistant experience, the schedulable entity record needs to have an associated requirement. Support for schedulable entity records without an associated resource requirement record will be added in a future update. 
+
 ## 3.12.52.4
 
 (Includes Resource Scheduling controls version 1.1.7.211681)
