@@ -41,7 +41,7 @@ This section consists of the following conversation KPIs.
 |Abandon Rate | The percentage of conversations that are not engaged by agents.|
 |Average Handle Time (mins) |Average length of time an agent takes to complete a conversation with a customer. This time considers the time spent by one or more agents to help the customer.|
 |Transfer rate |The percentage of conversations that are transferred to another agent/queue.|
-|Average Customer Sentiment Pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions.|
+|Average Customer Sentiment Pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue or agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions.|
 |Average customer effort time |Average length of time a customer takes to contact support and complete a conversation with an agent. Only the conversations engaged by an agent are considered for this metric.|
 |||
 
@@ -90,7 +90,7 @@ The KPIs for conversations and channels are listed in the following table. For c
    | Average consult time | Total consult time divided by the total consult sessions. | Only consult sessions are considered as a denominator. | FactSessionParticipant[AvgConsultTime] |
    | Total monitor time | The time spent on the monitor from when the agent joined to when they left in session participant. | Only monitor sessions are considered as a denominator. | |
    | Average monitor time | The total monitor time divided by the total of monitor sessions. | Only monitor sessions are considered as a denominator. | FactSessionParticipant[AvgMonitorTime] |
-   | Average Customer sentiment pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions. | Conversations engaged are considered. | Average of FactConversationSentiment[msdyn_sentimentpulse] |
+   | Average Customer sentiment pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue or agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions. | Conversations engaged are considered. | Average of FactConversationSentiment[msdyn_sentimentpulse] |
    ||||
 
 ### Queues and agents
@@ -103,7 +103,7 @@ This section provides historical visibility into how each queue is performing an
    > [!div class=mx-imgBorder]
    > ![Agent report.](media/agent.png "Agent report")
 
-The KPIs for queues and agents are listed in the following table. Metrics in this section are computed at the session granularity. Each customer contact is defined as a conversation. Each conversation is defined as a session and can be handled by one or more agents.
+The KPIs for queues and agents are listed in the following table. Metrics in this section are computed based on the session granularity. Each customer contact is defined as a conversation. Each conversation is defined as a session and can be handled by one or more agents.
 
 | KPI | Description | Derivation | Measure |
 |------|----------|------------|---------|
@@ -163,7 +163,7 @@ This illustration of the Omnichannel Sentiment Analysis dashboard provides
 
 ## Omnichannel Insights – Sentiment Analysis report
 
-This illustration of the Omnichannel Sentiment Analysis report provides a **detailed view** of more comprehensive information.
+The following illustration provides a detailed view of the Omnichannel Sentiment Analysis report .
 
    > [!div class=mx-imgBorder]
    > ![Sentiment Analysis detailed report.](media/oc-detailed.png "Sentiment Analysis detailed report")
@@ -172,7 +172,7 @@ This illustration of the Omnichannel Sentiment Analysis report provides 
 
    |KPI             |Description                |
    |-----------------|---------------------------|
-   |Average Sentiment Pulse              |The predicted customer sentiment in a given timeframe for a set queue/agent that indicates the degree of positive sentiment expressed by customers at the end of their interactions. For channel and queue, it provides the overall customer sentiment of the conversation. For agent, it provides the customer sentiment specific to the sessions handled by the agent in the conversation.  |
+   |Average Sentiment Pulse              |The predicted customer sentiment in a given timeframe for a set queue or agent that indicates the degree of positive sentiment expressed by customers at the end of their interactions. For channel and queue, it provides the overall customer sentiment of the conversation. For agent, it provides the customer sentiment specific to the sessions handled by the agent in the conversation.  |
    |% Positive Sentiment                 |Count of positive sentiment zone conversations divided by total sessions.  |
    |% Neutral Sentiment                  |Count of neutral sentiment zone conversations divided by total sessions.  |
    |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total sessions.  |
