@@ -511,7 +511,6 @@ After the content in the article is complete and reviewed, you can publish the a
     :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
     
 
-
 ## Track basic details of an article  
 
 Use the **Summary** tab to track some basic details of the article. In the **Summary** tab, you can:
