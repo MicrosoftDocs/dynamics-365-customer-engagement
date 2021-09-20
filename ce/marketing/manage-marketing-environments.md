@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 07/28/2021
+ms.date: 09/16/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -139,7 +139,7 @@ You can create an on-demand backup at any time, but when Marketing is installed 
 
     ![Create an on-demand backup.](media/instances-backup.png "Create an on-demand backup")
 
-As with automatic backups, on-demand backups include the full organizational database, the interaction records or image files stored in the marketing services. For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
+As with automatic backups, on-demand backups include the full organizational database, but not the interaction records or image files stored in the marketing services. For more information about how to export marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 ### Restore a backup onto another environment
 

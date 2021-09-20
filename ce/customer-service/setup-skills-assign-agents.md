@@ -82,9 +82,9 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 3. Select **Save**. The **Rating Values** section appears.
 
-4. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
+4. Select **New Rating Value**. The **New Rating Value** page appears.
 
-5. Specify the following in the **Rating Value** page.
+5. Specify the following.
 
   | Field | Description | Value  |
   |-----------------|----------------|--------------------------------------------|
