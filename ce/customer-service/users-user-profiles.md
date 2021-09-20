@@ -19,7 +19,7 @@ For more information on how to create users and assign security roles, see [Assi
 
 ## Manage a user in Omnichannel for Customer Service
 
-Users should be configured as a bookable resource so that they can be assigned work items by using unified routing. Perform the steps in this section to manage users for unified routing. 
+Users should be configured as a bookable resource so that they can be assigned work items by using unified routing. Perform the steps in this section to manage users for unified routing.
 
 1. Do one of the following:
    - In the site map of Omnichannel admin center, select **Users** under **General settings**.
