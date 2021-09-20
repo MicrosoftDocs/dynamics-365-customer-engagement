@@ -1,7 +1,7 @@
 ---
 title: "Geofencing for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to use geofences for the Field Service (Dynamics 365) mobile app.
-ms.date: 06/04/2021
+ms.date: 09/20/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.subservice: field-service-mobile
@@ -124,7 +124,7 @@ Next, go to the bookable resource configuration and enter the following:
 
 - **Latitude / Longitude** Choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
 
-- **Timestamp Field Name** Choose the Location Timestamp. This time stamp represents the date and time when the geofence location was updated. Geofence status will be updated only if the status is different than the current status and the timestamp is more recent than the timestamp associated with the current geofence status.
+- **Timestamp Field Name** Choose the location time stamp. This time stamp represents the date and time when the geofence location was updated. Geofence status will be updated only if the status is different than the current status and the time stamp is more recent than the time stamp associated with the current geofence status.
 
 - **Enabled As** Select **Geo tracked** because the bookable resource has a variable location that is compared against defined geofences.
 
