@@ -54,12 +54,11 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
    - **Title**. Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
-   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas.  
+   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. More information: [Use AI suggested article keywords and descriptions](#use-ai-suggested-article-keywords-and-descriptions).
   
-   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization.  
-  
-     ![Add content to the knowledge article.](../customer-service/media/v9-add-content-article.png "Add content to the knowledge article")  
-  
+   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization. [Use AI suggested article keywords and descriptions](#use-ai-suggested-article-keywords-and-descriptions).
+    :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article":::
+       
 5. In the **Content** section, add the content for your knowledge article.  
   
    > [!NOTE]
@@ -85,6 +84,18 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
 
+## Use AI suggested article keywords and descriptions
+If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles.
+
+1. On the knowledge article form, select the **View suggested keywords and description (preview) link**.
+ :::image type="content" source="media/v9-add-content-article.png" alt-text="Add suggested keywords and description":::
+
+1. On the Suggested keywords and description (preview) dialog:
+:::image type="content" source="media/v9-suggested-keywords-description-dialog.png" alt-text="Add suggested keywords and description":::
+*  Select the keywords that you want to add to your keywords list. The keywords get added to the Keywords field.
+* Select **Insert suggested description**. The description gets added to the Description field.
+1. Select **Apply Changes**. The selected keywords and description appear in the Keywords and Description field of the knowledge article form.
+
 ## Personalize your language preferences for authoring knowledge articles
 
 If your administrator has enabled language personalization, you can select your preferred language when authoring knowledge articles.
@@ -106,7 +117,7 @@ The changes you've made will affect the agent experience. When agents go to crea
 
 ## Create knowledge articles using templates
 
-Knowledge Authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
+Knowledge authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
  
 1. Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the Knowledge Manager, Customer Service Manager, or Customer Service Representative role.  
   

@@ -3,8 +3,8 @@ title: Configure AI suggestions for article keywords and description | Microsoft
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
 ms.date: 09/13/2021
 ms.topic: article
-author: sdas
-ms.author: sdas
+author: Soumyasd27
+ms.author: Soumyasd27
 manager: shujoshi
 search.audienceType: 
   - admin
