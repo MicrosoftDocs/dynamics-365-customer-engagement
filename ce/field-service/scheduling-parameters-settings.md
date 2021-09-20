@@ -16,7 +16,7 @@ search.app:
 - D365FS
 ---
 
-# Scheduling Paramters in resource scheduling (Settings)
+# Scheduling Parameters in resource scheduling (Settings)
 
 ## General
 
@@ -38,8 +38,8 @@ search.app:
 | Custom GPS location entity | Shows the logical name of customer entity to use for geo locations.|  
 | Custom GPS timestamp field | Shows the logical name of the timestamp to use for geo locations.|  
 | Custom GPS longitude field | Show the logical name of the longitude to be used for geo locations.|  
-|  Geoloaction refresh interval seconds    |   How often the system checks for updated geolocation of fronltine workers mobile device (Field Service (Dynamics 365 mobile app)) or custom GPS device.   |
-|  Geolocation expires after X minutes   |   The time threshold for how long the geolocation of a previous sync should be considered acceptable. As an example, if set to 60 minutes, the geolocation of a fronltine worker synced 60 minutes ago will be considered acceptable and will show as his or her current location on the schedule board. At 61 minutes the frontline worker location will revert back to the location of the previous work order or the Resource's starting location if no work order has been scheduled.    |
+|  Geolocation refresh interval seconds    |   How often the system checks for updated geolocation of frontline workers mobile device (Field Service (Dynamics 365 mobile app)) or custom GPS device.   |
+|  Geolocation expires after X minutes   |   The time threshold for how long the geolocation of a previous sync should be considered acceptable. As an example, if set to 60 minutes, the geolocation of a frontline worker synced 60 minutes ago will be considered acceptable and will show as their current location on the schedule board. At 61 minutes, the frontline worker location will revert back to the location of the previous work order or the Resource's starting location if no work order has been scheduled.    |
 
 ## Resource Scheduling Optimization
 
