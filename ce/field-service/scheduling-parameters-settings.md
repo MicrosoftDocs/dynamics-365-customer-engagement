@@ -1,13 +1,10 @@
 ---
-title: "Scheduling Paramters in Resource Scheduling (Settings) | MicrosoftDocs"
-description: description
-ms.custom:
-- dyn365-fieldservice
+title: "Scheduling parameters in resource scheduling (Settings) for Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about settings related to resource scheduling in Dynamics 365 Field Service.
 ms.date: 09/02/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -19,17 +16,16 @@ search.app:
 - D365FS
 ---
 
-# Scheduling Paramters in Resource Scheduling (Settings)
+# Scheduling Paramters in resource scheduling (Settings)
 
 ## General
-
 
 | Options | Descriptions |
 | --- | --- |
 |  Default radius value    |   Select a default radius the schedule assistant will use when searching for resources for  work orders. For example, if you choose a 20 mile radius, then the schedule assistant will find resources within 20 miles of the work order  booking location.   |
 |  Default radius unit     |    Select miles or kilometers.      |
 
-## Geo Data
+## Geo data
 
  [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] can be integrated with third-party GPS providers to allow the real-time location of resources or vehicles on schedule maps. These settings allow you to map the integrated GPS data to the [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] system.  
   
@@ -53,5 +49,3 @@ This section is displayed if Resource Scheduling Optimization is installed in yo
 | --- | --- |
 |  Enable Resource Scheduling Optimization    |   Enables or disables automated scheduling in the environment.   |
 |  Default Goal   |   An [Optimization Goal](rso-optimization-goal.md) is what the resource scheduling optimization solution aims to optimize. An example of a goal is to maximize working hours or minimize travel time. A default goal helps speed up interactions with Resource Scheduling Optimization within the schedule board by predefining how the engine optimizes data. The default goal is used for [Single Resource Optimization](single-resource-optimization.md) by default.  |
-
-
