@@ -1,5 +1,5 @@
 ---
-title: "Historical analytics for unified routing in Ommichannel for Customer Service | MicrosoftDocs"
+title: "Historical analytics for unified routing in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the KPIs that are available in the historical analytics report for Omnichannel for Customer Service."
 ms.date: 10/04/2021
 ms.topic: article
@@ -35,12 +35,12 @@ The unified routing report displays the following metrics for the selected filte
 |Metric  |Description  |Derivation  |
 |---------|---------|---------|
 |Incoming conversations     | The number of conversations initiated by the customer that can be presented to a human agent.        | All conversations, except bot conversations, are considered.        |
-|Routed conversations     | Total number of incoming conversations that have been routed.        |         |
-|Incoming sessions     | Total number of sessions that were created.        |         |
+|Routed conversations     | The total number of incoming conversations that have been routed.        |         |
+|Incoming sessions     | The total number of sessions that were created.        |         |
 |Session transfer rate     | The percentage of incoming sessions that were transferred to another agent or queue.         |         |
 |Incoming conversations VS. routed conversations     | The number of conversations initiated by the customer versus the number of conversations that were routed.      |         |
-|Session transfer rate trend     | Day wise trend of session transfer rate.        |         |
-|Top 5 Skills demanded     | Top five skills required by the incoming conversations.        |         |
+|Session transfer rate trend     | The day wise trend of session transfer rate.        |         |
+|Top 5 Skills demanded     | The top five skills required by the incoming conversations.        |         |
 ||||
 
 The **Routing metrics by queue** table displays data on incoming conversations, incoming sessions, and session transfer rate for each queue. You can select a queue, and then select **Details** to view the detailed KPIs for it.
