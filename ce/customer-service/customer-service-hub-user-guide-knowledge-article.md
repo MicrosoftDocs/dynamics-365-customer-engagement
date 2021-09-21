@@ -84,7 +84,11 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
 
-## Use AI suggested article keywords and descriptions (Preview)
+## Preview: Use AI suggested article keywords and descriptions
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
 If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles.
 
 However, it is required that either the **Title** or **Content** field, or any other corresponding mapped fields set by the administrator must have some value in order to generate suggestions. If both the fields that the model uses to generate suggestions are empty, error messages such as, “There was a problem finding suggested keywords” and “There was a problem finding suggested description” will appear. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description)
