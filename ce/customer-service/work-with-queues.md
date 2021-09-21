@@ -169,16 +169,16 @@ The table lists the views with their descriptions.
 | View         | Description |
 | ----------- | ------ |
 |Queues Lookup View, All Queues | Lists all queues. |
-|Business Queues        | Default view. Lists all the queues that aren't  marked as default queues by users or teams.     |
+|Business Queues        | Default view. Lists all the queues that aren't marked as default queues by users or teams.     |
 |Private Queues Lookup View, Local User Queues| Lists all the private and active queues.|
 |Entity Queues|Lists all active queues that are created for records, such as case or email.|
 |My Active Queues|Lists active queues owned by the currently signed-in user.|
 |Omnichannel queues|Lists the active queues pertaining to Omnichannel for Customer Service or unified routing.|
-|Omnichannel queues for Entity|Lists active queues pertaining to Omnichannel for Customer Service or unified routing and are created for records, such as case or email.|
-|Omnichannel queues for messaging|Lists active queues pertaining to Omnichannel for Customer Service or unified routing and are created for messaging (chat).|
-|Active Queues|Lists queues in active state.|
-|Inactive Queues|Lists queues in inactive state.|
-|Queues: Primary Email (Pending Approval)|Lists queues for which the primary email address is in pending approval state.|
+|Omnichannel queues for Entity|Lists the active queues pertaining to Omnichannel for Customer Service or unified routing and are created for records, such as case or email.|
+|Omnichannel queues for messaging|Lists the active queues pertaining to Omnichannel for Customer Service or unified routing and are created for messaging (chat).|
+|Active Queues|Lists the queues that are in the active state.|
+|Inactive Queues|Lists the queues that are in the inactive state.|
+|Queues: Primary Email (Pending Approval)|Lists the queues for which the primary email address is in pending approval state.|
 |||
 
 You can also select a view for your queues by navigating through Queues. You must select an item and then select **Route** to add the required view for your queues.  
