@@ -390,10 +390,10 @@
       items: 
       - name: Set up knowledge search providers
         href: set-up-search-providers.md
-      - name: Create and manage knowledge articles
-        href: customer-service-hub-user-guide-knowledge-article.md
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
+      - name: Create and manage knowledge articles
+        href: customer-service-hub-user-guide-knowledge-article.md
       - name: Configure the knowledge article authoring language
         href: set-knowledge-article-authoring-language.md
       - name: Create a knowledge article using a template
