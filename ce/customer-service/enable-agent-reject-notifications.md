@@ -15,7 +15,9 @@ manager: shujoshi
 With the agent reject feature, you can now enable agents to automatically set agent presence to Do not disturb when they reject an incoming notification for work assignment. In addition to the status change, a message bar indicating that the agent presence was changed to Do not disturb will be displayed on the agent dashboard. Agents can reset their status by using the reset presence option that's displayed with the notification or by manually changing their status.
 
 > [!IMPORTANT]
-> Agent reject won’t apply to workstreams that have "Do not disturb" as an allowed presence for work streams. More information: [Understand and create work streams](work-streams-introduction.md)
+> - Agent reject won’t apply to workstreams that have "Do not disturb" as an allowed presence for work streams. More information: [Understand and create work streams](work-streams-introduction.md)
+> - Agent reject notification alerts are not supported in Omnichannel for Customer Service on Unified Service Desk.
+
 
 ## Enable automatic update of agent presence when a work assignment is rejected by an agent
 
