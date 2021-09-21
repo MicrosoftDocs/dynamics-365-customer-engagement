@@ -54,9 +54,9 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
    - **Title**. Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
-   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. More information: [Use AI suggested article keywords and descriptions](#use-ai-suggested-article-keywords-and-descriptions).
+   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. More information: [Preview: Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#preview-configure-ai-suggestions-for-article-keywords-and-description).
   
-   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization. [Use AI suggested article keywords and descriptions](#use-ai-suggested-article-keywords-and-descriptions).
+   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization. [Preview: Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#preview-configure-ai-suggestions-for-article-keywords-and-description).
     :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article":::
        
 5. In the **Content** section, add the content for your knowledge article.  
@@ -91,7 +91,7 @@ Posts about knowledge article-related activities will begin appearing in the **T
 
 If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles.
 
-However, it is required that either the **Title** or **Content** field, or any other corresponding mapped fields set by the administrator must have some value in order to generate suggestions. If both the fields that the model uses to generate suggestions are empty, error messages such as, “There was a problem finding suggested keywords” and “There was a problem finding suggested description” will appear. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description)
+However, it is required that either the **Title** or **Content** field, or any other corresponding mapped fields set by the administrator must have some value in order to generate suggestions. If both the fields that the model uses to generate suggestions are empty, error messages such as, “There was a problem finding suggested keywords” and “There was a problem finding suggested description” will appear. More information: [Preview: Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#preview-configure-ai-suggestions-for-article-keywords-and-description)
 
 1. On the knowledge article form, select the **View suggested keywords and description (preview) link**.
  :::image type="content" source="media/v9-add-content-article.png" alt-text="Add suggested keywords and description":::
