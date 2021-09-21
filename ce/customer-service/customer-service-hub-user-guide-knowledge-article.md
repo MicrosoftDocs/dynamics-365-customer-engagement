@@ -507,7 +507,7 @@ After the content in the article is complete and reviewed, you can publish the a
   
     -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article**, select **Yes**.  
   
-    -   Select **Publish**.
+    -   Select **Publish**. 
     :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
     
 

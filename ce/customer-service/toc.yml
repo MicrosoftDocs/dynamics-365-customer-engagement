@@ -390,6 +390,8 @@
       items: 
       - name: Set up knowledge search providers
         href: set-up-search-providers.md
+      - name: Create and manage knowledge articles
+        href: customer-service-hub-user-guide-knowledge-article.md
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
       - name: Configure the knowledge article authoring language
@@ -414,8 +416,6 @@
         href: oc-search-knowledge-articles.md
     - name: Agent experience
       items: 
-      - name: Create and manage knowledge articles
-        href: customer-service-hub-user-guide-knowledge-article.md
       - name: Search for knowledge articles
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
