@@ -3,8 +3,8 @@ title: Configure AI suggestions for article keywords and description | Microsoft
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
 ms.date: 09/13/2021
 ms.topic: article
-author: Soumyasd27
-ms.author: Soumyasd27
+author: sdas
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -39,7 +39,7 @@ When the feature is turned on, the **View suggested keywords and description** l
 The AI model works as follows:
 
  - The text values from selected source data fields in Settings are sent to the AI model to generate suggestions. By default, the source data fields are **Title** and **Content**.
- - The model takes the first 2,200 characters to generate suggestions. It’s recommended that you describe the problem to be solved within the first 1,800 characters in your article to get good suggestions.
+ - The model takes the first 2,200 characters to generate suggestions. It’s recommended that you describe the problem to be solved within the first 2,200 characters in your article to get good suggestions.
  - Knowledge article keywords and descriptions are then suggested based on the knowledge article title and content, and are displayed in the View suggested keywords and description dialog.
 
 ## Language support for article keywords and description suggestions
