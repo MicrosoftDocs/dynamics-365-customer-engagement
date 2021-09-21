@@ -34,9 +34,13 @@ Perform the following steps to create a custom assignment method:
 4. Select the ruleset, and select **Edit**. The options to configure prioritization rulesets and assignment rulesets are displayed.
 
 5. Do the following to set up prioritization rulesets:
+   
    a. On the **Create Prioritization Ruleset** dialog box, enter a name and description for the ruleset, and select **Create**.
+   
    b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog box, enter a rule name and define the conditions when the rule should be run.
+   
    c. Select the attribute on which you want to define the order-by to route the work item to agents.
+   
    d. Create as many rules as are needed.
 
 6. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
@@ -48,11 +52,15 @@ Perform the following steps to create a custom assignment method:
 9. In the **Create assignment rule** dialog box, do the following to add conditions and ordering attributes:
    
    a. **Rule Name**: Enter a rule name.
+
    b. **Conditions**: Select **Add** to select an attribute or related entity and define condition.
+
    c. **Order by**: Select an attribute to define the order of work assignment if multiple agents match the condition.
+
    d. Select **Create**.
+
    e. Repeat the steps a through d to configure multiple rules.
-   
+
    > [!NOTE]
    > We recommend that you reduce the granularity of the conditions for the assignment roles in a descending order.
 
@@ -62,13 +70,13 @@ Perform the following steps to create a custom assignment method:
 
 You can create a sample assignment rule with the following conditions.
 
-| Attribute | Operator | Match type | Attribute value|
-|----|----------|-----|-----|
-| User skills | Exact match | |All skills |
-| Presence status | Equals | Dynamic match | Conversation.Workstream.Allowed Presences|
-| Capacity | Is greater than or equal to | Dynamic match | Conversation.Workstream.Capacity |
-| Available capacity | Is greater than | Static value | 50 |
-||||
+| Attribute          | Operator                    | Match type    | Attribute value                           |
+| ------------------ | --------------------------- | ------------- | ----------------------------------------- |
+| User skills        | Exact match                 |               | All skills                                |
+| Presence status    | Equals                      | Dynamic match | Conversation.Workstream.Allowed Presences |
+| Capacity           | Is greater than or equal to | Dynamic match | Conversation.Workstream.Capacity          |
+| Available capacity | Is greater than             | Static value  | 50                                        |
+|                    |                             |               |
 
 ![Sample assignment rule.](media/ur-sample-assign-rule.png "Sample assignment rule")
 
