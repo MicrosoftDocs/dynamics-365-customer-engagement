@@ -14,7 +14,6 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
-ms.reviewer: nenellim
 ---
 
 # Add a skill control for routed records
