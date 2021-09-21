@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
 description: "Learn how to set up record routing in Customer Service."
-ms.date: 08/13/2021
+ms.date: 09/17/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -21,6 +21,7 @@ If you have only Dynamics 365 Customer Service, the options to configure unified
 > - After you enable the unified routing feature in **Service Configuration Settings**, you can't disable it. You'll need to contact Microsoft Support to disable the feature.
 > - Provisioning unified routing might impact runtime operations on account of solution import that can impact SQL load.
 > - If you are upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in Omnichannel admin center.
+> - If you are an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
 
 ## Prerequisites
 
