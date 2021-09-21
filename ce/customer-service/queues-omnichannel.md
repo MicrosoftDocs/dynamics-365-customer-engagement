@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-ms.date: 07/01/2021
+ms.date: 09/16/2021
 ms.custom: intro-internal
 searchScope:
 - D365-App-customerservice
@@ -22,7 +22,7 @@ searchScope:
 
 ## Introduction
 
-In Omnichannel for Customer Service, queues are used for collecting and distributing work load among agents. Work load includes records, such as cases, and conversations, such as chat or SMS. Agents are added as members to the queues and the work load is distributed among these agents based on assignment methods.
+In Omnichannel for Customer Service, queues are used for collecting and distributing workload among agents. Workload includes records, such as cases, and conversations, such as chat or SMS. Agents are added as members to the queues and the workload is distributed among these agents based on assignment methods.
 
 ## How work items are routed to queues
 
@@ -37,7 +37,7 @@ To simplify the routing experience for administrators and supervisors, queues ar
 
 The queue types help ensure issues will be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that will be available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
 
-You can assign priority to queues. A lower value indicates higher priority and a higher value indicates lower priority. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if two chat conversations are waiting in two queues that have priority defined as 1 and 2 respectively, the chat conversation with priority value 1 will be allocated to an agent first.
+Assign a group number that helps you organize your queues in the list view. The group number won't affect the priority of the queue or incoming conversations.
 
 ## Create a queue for unified routing
 
@@ -48,6 +48,7 @@ In this section, we cover information on how to create a queue and set operating
 1. Do one of the following:
    - In the Omnichannel admin center site map, under **General settings**, select **Queues**.
    - In Customer Service Hub, go to the **Service Management** site map, and under **Unified Routing**, select **Advanced queues**.
+
 2. On the **Queues** page, do the following:
 
     1. Select **New**.
@@ -61,17 +62,21 @@ In this section, we cover information on how to create a queue and set operating
        > ![Queue in Omnichannel admin center.](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
 
 3. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, then select **Add**. The users are added to the queue.
+
 4. In **Assignment method**, do one of the following:
-   - **Highest capacity**: Selected by default; assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream.
+   - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream; selected by default.
    - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence.
-   - Create a custom assignment method. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
-5. To set operation hours, in the **Operation hours** area, select **Set operation hours**. You must configure the operating hour record before you can set it for the queue.
+   - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for Prioritization and assignment. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
+
+5. To set operation hours, in the **Operation hours** area, select **Set operation hours**. If you don't set operation hours, the queue is considered to be available round the clock. You must configure the operating hour record before you can set it for the queue. More information: [Configure operating hour record](create-operating-hours.md)
+
 6. On the **Set operation hours** dialog box that appears, select an operating hour record in the **Name** list.
+
 7. Select **Save and close**. The operating hour record that you selected is configured for the queue.
 
 ### Manage queues for unified routing
 
-You can manage the queues on the **Queues** page.
+You can manage the queues on the **Queues** page, and perform operations, such as search, edit, copy, and delete the queues.
 
 - Select a queue to edit the users, assignment methods, or operating hours record.
 

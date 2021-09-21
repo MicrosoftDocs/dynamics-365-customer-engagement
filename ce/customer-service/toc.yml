@@ -224,7 +224,7 @@
         href: configure-work-classification.md
       - name: Assignment methods for queues
         items:  
-        - name: About assignment methods
+        - name: Assignment methods for queues
           href: assignment-methods.md
         - name: Configure assignment methods for queues
           href: configure-assignment-rules.md
