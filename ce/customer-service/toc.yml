@@ -246,6 +246,8 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
+      - name: Use sentiment prediction-based routing
+        href: use-sentiment-prediction-for-routing.md
       - name: Configure basic routing
         items:
         - name: Create and manage basic queues for cases
