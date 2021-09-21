@@ -1,7 +1,7 @@
 ---
 title: "Create and manage users and user profiles | MicrosoftDocs"
 description: "This topic provides steps that you can perform to manage users in Omnichannel for Customer Service."
-ms.date: 08/23/2021
+ms.date: 09/20/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ For more information on how to create users and assign security roles, see [Assi
 
 ## Manage a user in Omnichannel for Customer Service
 
-Users should be configured as a bookable resource so that they can be assigned work items by using unified routing. Perform the steps in this section to manage users for unified routing. 
+Users should be configured as a bookable resource so that they can be assigned work items by using unified routing. Perform the steps in this section to manage users for unified routing.
 
 1. Do one of the following:
    - In the site map of Omnichannel admin center, select **Users** under **General settings**.
@@ -58,8 +58,12 @@ Users should be configured as a bookable resource so that they can be assigned w
 
 7. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
 
-> [!div class=mx-imgBorder]
-> ![Default presence.](media/oc-user-omni-tab.png)
+   > [!div class=mx-imgBorder]
+   > ![Default presence.](media/oc-user-omni-tab.png)
+
+8. To use the user schedule for assignment, set up the bookable resource calendar. More information: [Apply a calendar to a resource](../field-service/calendar-resource.md)
+
+9. Add the user to the required queue that's configured for unified routing. More information: [Configure queues for unified routing](queues-omnichannel.md)
 
 ### Capacity
 
