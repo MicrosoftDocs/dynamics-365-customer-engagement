@@ -1,8 +1,9 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
-description: "This topic provides information about the system requirements of Omnichannel for Customer Service."
-author: neeranelli
-ms.author: nenellim
+description: "This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
+ms.date: 10/01/2021
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ---
 
@@ -68,8 +69,9 @@ To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Custom
 
 ## Allow access to websites
 
-If your organization is using a URL filter to block a category of websites or URLs, allow the following websites as an exception for your users to access the Omnichannel for Customer Service app and live chat widget in the business portal:
+If your organization is using a URL filter to block a category of websites or URLs, allow the following websites as an exception for your users to access the Omnichannel for Customer Service app in the business portal:
 
+- `https://*.communication.azure.com`
 - `https://login.microsoft.net`
 - `https://login.microsoftonline.com`
 - `https://login.windows.net`
@@ -98,6 +100,7 @@ If your customers are using a URL filter to block a category of websites or URLs
 
 Customers must be able to access the following URLs from their browsers to use the live chat widget in the portal:
 
+- `https://*.communication.azure.com`
 - `https://*.teams.microsoft.com`
 - `https://ecs.office.com`
 - `https://*.skype.com`
@@ -112,7 +115,7 @@ Customers must be able to access the following URLs from their browsers to use t
 
 ### Geo-specific links
 
-Geographic specific links that should be accessible are as follows.
+Location specific links that should be accessible are as follows.
 
 | Geographic location | Links |
 |-------------------------------|----------------------------------|
@@ -143,10 +146,10 @@ The Government community cloud links that should be accessible are as follows.
 
 ### See also
 
-[Introduction](introduction-omnichannel.md)  
+[Introduction to Omnichannel for Customer Service](introduction-omnichannel.md)  
 [Administrator guide](omnichannel-administrator.md)  
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
-[Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
+[Agents using Omnichannel for Customer Service](omnichannel-customer-service-app-agent.md)  
 [System customizer guide](omnichannel-customizer.md)  
 
 
