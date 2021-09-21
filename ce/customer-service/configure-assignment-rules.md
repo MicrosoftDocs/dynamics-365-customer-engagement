@@ -1,7 +1,7 @@
 ---
 title: "Configure assignment methods for queues | MicrosoftDocs"
 description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
-ms.date: 07/14/2021
+ms.date: 09/21/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,18 +26,27 @@ In unified routing, the process of creating assignment rulesets involves the fol
 Perform the following steps to create a custom assignment method:
 
 1. In Omnichannel admin center, in the site map, select **Queues**. In Customer Service Hub, in **Service Management**, in the site map, select **Advanced queues** under **Unified Routing**.
+
 2. On the **Assignment method** page of a queue, select **Create New**.
+
 3. In the **Create work assignment** dialog box, enter a name and description for the ruleset, and select **Create**.
+
 4. Select the ruleset, and select **Edit**. The options to configure prioritization rulesets and assignment rulesets are displayed.
+
 5. Do the following to set up prioritization rulesets:
    a. On the **Create Prioritization Ruleset** dialog box, enter a name and description for the ruleset, and select **Create**.
    b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog box, enter a rule name and define the conditions when the rule should be run.
    c. Select the attribute on which you want to define the order-by to route the work item to agents.
    d. Create as many rules as are needed.
-5. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
-6. Enter a name and description for the ruleset, and select **Create**. The ruleset is created.
-7. On the **Assignment ruleset** page that appears, select **Create rule**.
-8. In the **Create assignment rule** dialog box, do the following to add conditions and ordering attributes:
+
+6. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
+
+7. Enter a name and description for the ruleset, and select **Create**. The ruleset is created.
+
+8. On the **Assignment ruleset** page that appears, select **Create rule**.
+
+9. In the **Create assignment rule** dialog box, do the following to add conditions and ordering attributes:
+   
    a. **Rule Name**: Enter a rule name.
    b. **Conditions**: Select **Add** to select an attribute or related entity and define condition.
    c. **Order by**: Select an attribute to define the order of work assignment if multiple agents match the condition.
@@ -47,8 +56,9 @@ Perform the following steps to create a custom assignment method:
    > [!NOTE]
    > We recommend that you reduce the granularity of the conditions for the assignment roles in a descending order.
 
-9. You can sort the order in which the rules should be evaluated during work assignment.
-10. If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
+10. You can sort the order in which the rules should be evaluated during work assignment. For other tasks that you can perform, such as copy, edit, delete, see [Options available for rulesets](configure-work-classification.md#options-available-for-rulesets).
+
+11. If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
 
 You can create a sample assignment rule with the following conditions.
 
@@ -69,8 +79,11 @@ When you configure more than one assignment ruleset in the custom assignment met
 Follow these steps to configure the selection criteria for the assignment rulesets:
 
 1. For the assignment method, in the **Assignment** section, select **Create rule**, and in the **Decision list** area, select **Create rule**.
+
 2. In the **Create selection criteria rule** dialog box, enter a rule name, and define the conditions.
+
 3. In **Execute ruleset**, select the assignment ruleset that must be run when the conditions are met, and then select **Create**. The rule is listed in the **Decision list** area.
+
 4. Define as many rules as the number of assignment rulesets.
 
 ### See also

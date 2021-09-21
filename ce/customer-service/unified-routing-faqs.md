@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about unified routing | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 07/13/2021
+ms.date: 09/21/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -48,7 +48,8 @@ Yes, intelligent skill finder can be enabled for any entity that is enabled for 
 
 ### How do I make sure that the right skills are attached to the work items when machine learning-based model is in use?
 
-Review the skill finder model to make sure that the training data is correct and retrain the model periodically to improve it.
+- Ensure that agents are trained to attach correct skills, review, and correct any incorrectly attached skills.
+- Review the skill finder model to make sure that the training data is correct and retrain the model periodically to improve it.
 
 ### How do I migrate my configurations from the Omnichannel Administration app to the Omnichannel admin center app?
 
