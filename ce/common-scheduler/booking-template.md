@@ -1,5 +1,5 @@
 ---
-title: ""Edit the booking template in Universal Resource Scheduling"
+title: "Edit the booking template in Universal Resource Scheduling"
 description: "The record that's created and displayed on the schedule board is built from the booking template. Learn how to edit the template using HTML and CSS."
 ms.date: 07/16/2019
 ms.reviewer: krbjoran 
