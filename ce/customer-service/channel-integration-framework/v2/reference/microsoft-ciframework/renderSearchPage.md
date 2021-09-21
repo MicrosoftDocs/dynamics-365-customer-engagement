@@ -22,8 +22,6 @@ ms.custom:
 `Microsoft.CIFramework.renderSearchPage(entityLogicalName, searchString, correlationId, searchType).then(successCallback, errorCallback);`
 
 ## Parameters
-
-
 | Name               | Type       | Required | Description                                       |
 |-----------------   |----------  |----------|---------------------------------------------------|
 | entityLogicalName  | String     | Yes      | The entity logical name of the record you want to query such as "account".  |
@@ -35,7 +33,6 @@ ms.custom:
 
 
 ## Return value
-
 On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
 
 ## Example

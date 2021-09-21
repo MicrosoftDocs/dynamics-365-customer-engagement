@@ -18,11 +18,9 @@ ms.custom:
 [!INCLUDE[renderSearchPage-description](includes/renderSearchPage-description.md)] 
 
 ## Syntax
-
 `Microsoft.CIFramework.renderSearchPage(entityLogicalName, searchString, searchType).then(successCallback, errorCallback);`
 
 ## Parameters
-
 | Name               | Type       | Required | Description                                       |
 |-----------------   |----------  |----------|---------------------------------------------------|
 | entityLogicalName  | String     | Yes      | The entity logical name of the record you want to query such as "account".  |
@@ -32,12 +30,9 @@ ms.custom:
 | errorCallback      | Function   | No       | A function to call when the operation fails.        |
 
 ## Return value
-
-
 On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
 
 ## Example
-
 The following example shows how to query for the term "Contoso" among the records of an account entity.
 
 ```JavaScript
