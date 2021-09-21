@@ -1,7 +1,7 @@
 ---
 title: "Customize live chat widgets for mobile apps | MicrosoftDocs"
 description: "Learn to customize live chat widgets on your mobile apps using Omnichannel Chat SDK. Alternatively, use sample code to embed widget code directly in your apps."
-ms.date: 05/24/2021
+ms.date: 10/01/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -24,7 +24,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic explains how you can use the Omnichannel Chat SDK to customize the live chat widget for mobile apps. Alternatively, render the chat widget in your apps using embedded code.
+This topic explains how you can use the Omnichannel Chat SDK to customize the live chat widget for mobile apps. Alternatively, you can render the chat widget in your apps using embedded code.
 
 ## Customize the live chat widget using the Omnichannel Chat SDK
 
