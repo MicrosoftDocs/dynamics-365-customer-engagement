@@ -102,7 +102,7 @@ Use the view list and queue list to filter and find items in queues.
    > [!NOTE]
    > Remove the items from the queue can't be set for work items in an advanced queue.
 
-## Release an item or case that you’re working on so someone else can pick it up  
+## Release an item or case that you’re working on  
   
 1. In the **View** list, select one of the views that show the items or cases you’re working on.  
   
