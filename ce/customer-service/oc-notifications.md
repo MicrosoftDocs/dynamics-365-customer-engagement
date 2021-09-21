@@ -114,9 +114,12 @@ Sometimes, you might see that conversations have been assigned to you without no
 ## Agent reject notification alerts
 
 > [!IMPORTANT]
-> The alert is displayed only when the agent reject feature   is enabled by your administrator.
+> - The alert is displayed only when the agent reject feature   is enabled by your administrator. 
+> - Agent reject notification alerts are not supported in Omnichannel for Customer Service on Unified Service Desk.
 
 When you reject a work item notification, you'll see an alert at the top of your dashboard and your presence status will be set to Do not disturb. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the work stream. Your supervisor can also reset your presence.
+
+:::image type="content" source="media/agent-reject-notification-message.png" alt-text="Agent reject notification alert":::
 
 ### See also
 

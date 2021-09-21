@@ -1,9 +1,9 @@
 ---
 title: "Enable agent reject notifications| MicrosoftDocs"
 description: "Learn about managing agent reject notifications in the Omnichannel Administration app"
-ms.date: 09/14/2021
+ms.date: 09/21/2021
 ms.topic: article
-author: sdas
+author: Soumyasd27
 ms.author: sdas
 manager: shujoshi
 ---
@@ -19,8 +19,13 @@ With the agent reject feature, you can now enable agents to automatically set ag
 
 ## Enable automatic update of agent presence when a work assignment is rejected by an agent
 
-1. In the Omnichannel Administration app, select **Notification templates** under **Agent Experience**.
-2. On the **Omnichannel Configuration** page, select the **Agent Reject** tab.
+1. Sign in to Omnichannel Administration. In the Agent Experience area, select **Notifications**.
+
+or
+
+Sign in to Omnichannel admin center. In the Advanced Settings area, go to **Agent Experience**, and select  **Notification templates**.  
+
+2. On the **Omnichannel Configuration** page, select the **Agent Reject** tab.  
 3. Set the toggle to **Yes** for **Change agent status to "Do not disturb" after a notification is rejected**. The **Status name** and **Status description** settings appear.
 4. Select **Save**.
 
