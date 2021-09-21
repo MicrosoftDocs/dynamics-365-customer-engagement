@@ -93,7 +93,7 @@ Use the view list and queue list to filter and find items in queues.
    > ![Pick a work item.](media/pick-work-item-csh.png "Pick a work item")
 
 7. Optionally, select **No** to change it to **Yes** if you want item from the queue.
-8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected yes in the previous step. Also, the following updates happen if the item is in Advanced queue and is tracked through Unified Routing:
+8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected yes in the previous step. Also, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
    - The **Worked By** attribute of the queue item will be updated with your user ID. The unified routing system takes this as an indicator of work assignment.
    - Your capacity will be updated. If the work item indicated capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, the available units of capacity in that profile for you will be deducted by one.
    - Assignment rules, presence, or capacity constraints are not evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you will still be able to pick the work item and start working on it. This ability to manually override pre-configured capacity is to ensure that agents are able to pick up work beyond their normal capacity during contingencies. More information: [Capacity profiles](capacity-profiles.md)
@@ -120,7 +120,7 @@ Route an activity or case to another queue or assign to a different user or team
 
     To assign the activity or case to another user or team to work on, select **User/Team**, and select the user or team. When you assign the activity or case to someone else to work on, the **Worked By** field is set to that user or team. You also have the option to remove the item from the queue.
 
-As soon as the item is released the following updates will happen if the item is in Advanced queue and is tracked through Unified Routing :
+After the item is released, the following updates will happen if the item is in an advanced queue and is tracked through unified routing:
 
 - Your capacity will be updated based on whether capacity profile or capacity units have been configured.
 
@@ -162,20 +162,20 @@ If you want another person in your organization to work on an activity, you can 
 1. Select the activity you want, and then select  **Add to Queue**.
   
 3. In the **Queue** field, select **Search**, and then select **Advanced lookup**.  
-1. On the **Choose queue** dialog, click the **Business Queues(default)** dropdown menu to view the complete list of queues views available to you.
+1. On the **Choose queue** dialog, select the **Business Queues(default)** dropdown menu to see the complete list of queues views available to you.
 
 The table lists the views with their descriptions.
 
 | View         | Description |
 | ----------- | ------ |
-|Queues Lookup View, All Queues | Lists all queues at one go. |
-|Business Queues        | This is default view. Lists all queues which aren't otherwise marked as default queues by users or teams.     |
-|Private Queues Lookup View, Local User Queues| Lists all  queues which are private in nature and are in active state.|
-|Entity Queues|Lists all active queues which are created for entities, such as case or email.|
-|My Active Queues|Lists active queues owned by you.|
-|Omnichannel queues|Lists active queues pertaining to Omnichannel or Unified Routing.|
-|Omnichannel queues for Entity|Lists active queues pertaining to Omnichannel or Unified Routing and are created for entities, such as case or email.|
-|Omnichannel queues for messaging|Lists active queues pertaining to Omnichannel or Unified Routing and are created for messaging (chat).|
+|Queues Lookup View, All Queues | Lists all queues. |
+|Business Queues        | Default view. Lists all the queues that aren't  marked as default queues by users or teams.     |
+|Private Queues Lookup View, Local User Queues| Lists all the private and active queues.|
+|Entity Queues|Lists all active queues that are created for records, such as case or email.|
+|My Active Queues|Lists active queues owned by the currently signed-in user.|
+|Omnichannel queues|Lists the active queues pertaining to Omnichannel for Customer Service or unified routing.|
+|Omnichannel queues for Entity|Lists active queues pertaining to Omnichannel for Customer Service or unified routing and are created for records, such as case or email.|
+|Omnichannel queues for messaging|Lists active queues pertaining to Omnichannel for Customer Service or unified routing and are created for messaging (chat).|
 |Active Queues|Lists queues in active state.|
 |Inactive Queues|Lists queues in inactive state.|
 |Queues: Primary Email (Pending Approval)|Lists queues for which the primary email address is in pending approval state.|
