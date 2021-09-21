@@ -33,7 +33,7 @@ The following assignment methods are available out of the box:
 
 - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence. The initial order is based on when a user is added to queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
 
-You can also create your own assignment method to suite the business needs.
+You can also create your own assignment method to suit the business needs.
 
 - **Create new**: Lets you create and use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
 
@@ -94,8 +94,8 @@ The assignment rules are composed of the following items:
     
       |Attribute type|Operator|Definition|
       |--------------|--------|----------|
-      |Presence Status| Equals, Does not Equal, Contains Data, Does not Contain Data| Use an operator to find agents who have matching presence status as specified in the work item.|
-      |Capacity|Equals, Does not Equal, Contains Data, Does not Contain Data|Use an operator to compare if the agent has enough capacity to work on the specified items.|
+      |Presence Status| Equals, Does not equal, Contains data, Does not contain data| Use an operator to find agents who have matching presence status as specified in the work item.|
+      |Capacity|Equals, Does not equal, Contains data, Does not contain data|Use an operator to compare if the agent has enough capacity to work on the specified items.|
       |User skills|Exact match|Use an operator to find agents who have all the skills which the incoming work item requires|
       |User skills|Custom match|Use the operator to find agents whose skills will match at runtime based on the selected lookup attribute on the work item.|
       |Calendar schedule|Is working|Use this operator to find agents who are working as per their service scheduling calendars.|
@@ -105,7 +105,7 @@ The assignment rules are composed of the following items:
   
     > ![Sample dynamic match](media/dynamic-value-match.png "Sample dynamic match")
 
-    For some operators, values are not required. They can be conditions, such as “contains data”, “does not contain data”, and “calendar schedule: is working”.
+    For some operators, values are not required. They can be conditions, such as “Contains data”, “Does not contain data”, and “Calendar schedule: is working”.
 
     For user skills, the values are predefined for the operators. More information: [Set up skill-based routing](set-up-skill-based-routing.md)
 
