@@ -1,10 +1,10 @@
 ---
 title: "Context variables for a bot | MicrosoftDocs"
 description: "Get information on the context variables to use when configuring a bot in Omnichannel for Customer Service."
-ms.date: 08/20/2021
+ms.date: 09/30/2021
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ---
 
