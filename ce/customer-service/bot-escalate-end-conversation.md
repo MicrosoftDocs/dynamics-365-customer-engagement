@@ -1,24 +1,24 @@
 ---
-title: "Enable a bot to escalate and end conversations | MicrosoftDocs"
-description: "Use this topic to understand how to program a bot to route a conversation to a human agent in Omnichannel for Customer Service."
+title: "Enable an Azure bot to escalate and end conversations | MicrosoftDocs"
+description: "Use this topic to understand how to program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service."
 ms.date: 09/23/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# Enable a bot to escalate and end conversations
+# Enable an Azure bot to escalate and end conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic describes how to program a bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end a conversation.
+This topic describes how to program an Azure bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end a conversation.
 
 > [!NOTE]
 > Bot agents are not supported in consult mode.
 
 ## Prerequisites
 
-You must ensure the following conditions are met to onboard a bot to Omnichannel for Customer Service as an agent.
+You must ensure the following conditions are met to onboard an Azure bot to Omnichannel for Customer Service as an agent.
 
 - The bot must be developed using [Microsoft Bot Framework](https://dev.botframework.com).
 - The bot must be registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
@@ -26,7 +26,7 @@ You must ensure the following conditions are met to onboard a bot to Omnichannel
 
 <a name="bkmk_EngageBot"></a>
 
-## Engage a bot
+## Engage an Azure bot
 
 To send messages to Omnichannel for Customer Service, add the following code statement to the bot code.
 
@@ -36,7 +36,7 @@ OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
 
 ## Escalate a conversation to a human agent
 
-In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing of the conversation to the new agent depends on the routing rule that is configured for the workstream. During the transfer of the conversation from the bot to the human agent, the bot can set context items that can be used by skill identification rules to identify new skills, and append them to the existing skills list for the conversation.
+In Omnichannel for Customer Service, an Azure bot can escalate the current conversation to a human agent. The routing of the conversation to the new agent depends on the routing rule that is configured for the workstream. During the transfer of the conversation from the bot to the human agent, the bot can set context items that can be used by skill identification rules to identify new skills, and append them to the existing skills list for the conversation.
 
 > [!Note]
 > Skill-based routing should be enabled.
@@ -47,13 +47,16 @@ After the agent accepts the request, the chat transcript of the bot's conversati
 
 ## End a conversation
 
-An Omnichannel for Customer Service bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can send an `EndConversation` request to Omnichannel for Customer Service.
+The Azure bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can send an `EndConversation` request to Omnichannel for Customer Service.
 
-When the bot ends the conversation with the customer, the bot can link the case number with the conversation, so that the next time a conversation is started up with the customer, the agent can view all case history using the case number that's already linked with the conversation. This saves valuable time for the customer and the agent.
+When the bot ends the conversation with the customer, it can link the case number with the conversation, so that the next time a conversation is started up with the customer, the agent can view all case history using the case number that's already linked with the conversation. This saves valuable time for the customer and the agent.
+
+> [!Note]
+> The bot can create the case number or obtain it from the customer. When the conversation ends, the case number is attached to the conversation based on the customer name, email address, and telephone number.
 
 ## Sample code for escalating and ending conversations
 
-Perform the following steps to configure a bot that is capable of escalating a conversation to a human agent.
+Perform the following steps to configure an Azure bot that is capable of escalating a conversation to a human agent.
 
 1. Implement a command class to model escalate and end conversation tasks.
 
@@ -287,9 +290,9 @@ Dictionary<string, Object> keyValues = new Dictionary<string, object>() {
 
 The bot can also send an escalation summary that'll be visible to the agent after they accept the escalated chat request. To send the summary, set the activity text appropriately in the escalation Activity message. Note that this will only be visible to the human agent and not to the customer.
 
-## Best practices for bot configuration
+## Best practices for Azure bot configuration
 
-You should consider the following points when you configure the bot agent in Omnichannel for Customer Service:
+You should consider the following points when you configure the Azure bot agent in Omnichannel for Customer Service:
 
 - In a queue, if both bots and human agents are available, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked up by the bot first.
 
