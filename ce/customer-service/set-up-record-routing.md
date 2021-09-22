@@ -88,8 +88,8 @@ The following screenshot shows a workstream with the required intake rule and ro
 
 Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
 
-[Configure work classification rules](configure-work-classification.md#create-work-classification-rulesets)
-[Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+- [Configure work classification rules](configure-work-classification.md#create-work-classification-rulesets)  
+- [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
 
 ### Configure work distribution and advanced settings
 
