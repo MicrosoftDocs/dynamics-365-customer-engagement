@@ -29,7 +29,7 @@ Use the customer sentiment scores to predict customer sentiment and use the mode
 
 By using the sentiment model, you can write rules to classify work items and assign them to agents who are best equipped to handle them.
 
-The sentiment is scored between 1 and 100 percent. A score lesser than 50 indicates negative sentiment. Scores greater than 50 are considered positive.
+The sentiment is scored on a scale of Zero and 100 percent, where Zero is the most negative and 100 is the most positive score. A score of 50 indicates neutral sentiment.
 
 The model is configured to look for and use the keywords typed by the customer and doesn't consider agent chat strings.
 
@@ -62,17 +62,17 @@ After you enable sentiment prediction, create a classification rule based on mac
 
 1. Create or edit a workstream. More information: [Create workstreams](create-workstreams.md)
 
-2. In **Routing rules**, for **Work classification (optional)** select **Create ruleset** or **See more** and then select **Create new**.
+2. Go to the **Work classification (optional)** section to create a classification rule. More information: [Configure work classification rulesets](configure-work-classification.md)
 
 3. In the **Create work classification ruleset** dialog, select the rule type as **Machine learning model**, and then select type as **Sentiment prediction**.
 
     :::image type="content" source="media/sentiment-prediction-based-ruleset.png" alt-text="Sentiment prediction as machine learning model.":::
 
-4. Select the input attribute that typically can be used to gauge the sentiment. For example, for a case workstream, you can select the related entity **Routed record (Case)**, and the attribute as **Case Title** that might typically contain keywords indicating the sentiment.
+4. Select the input attribute that typically can be used to gauge the sentiment. For example, for a case workstream, you can select the related entity **Routed record (Case)**, and the attribute as **Description** that might typically contain keywords indicating the sentiment.
 
     i:::image type="content" source="media/input-attributes-sentiment.png" alt-text="Input attributes for sentiment model.":::
 
-    For a messaging channel, you'll typically set the related entity as **Context item value (Conversation)**, and then select the attribute. The pre-conversation survey must be set up to be able to use the input attribute.
+    For a messaging channel, you'll typically set the related entity as **Context item value (Conversation)**, and then select the attribute. The bot context variables should be captured or pre-conversation survey must be set up to be able to use the input attribute. Frame the pre-conversation survey questions such that they elicit the customer sentiment. For example, you could use a question "How has been your experience with the product?" or "How can we help you?".
 
     You can define up to 10 attributes, whose values can be used to build the prediction model. At least one attribute, the first one, is mandatory and can't be deleted.
 
@@ -94,7 +94,16 @@ Create the route-to-queue rules to route the work items based on the sentiment p
 
 ## Use diagnostics to analyze the efficacy of sentiment prediction
 
+Routing diagnostics help you see how the work items have been classified and routed after you've configured the rules.
 
+You can view how the sentiment prediction model was used to route a work item.
+
+:::image type="content" source="media/diagnostics-sentiment-prediction.png" alt-text="Diagnostics for sentiment prediction model.":::
+
+### See also
+
+[Overview of unified routing](overview-unified-routing.md)  
+[How to set up unified routing](set-up-routing-process.md)  
 
 
 
