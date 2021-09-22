@@ -1,7 +1,7 @@
 ---
 title: "Use sample data for sales accelerator (Sales Insights) | MicrosoftDocs"
 description: "Use sample data to visualize and explore the end-to-end business scenarios, and get started with the sales accelerator."
-ms.date: 01/11/2021
+ms.date: 09/09/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -20,7 +20,7 @@ Sample data helps you visualize a product and its features, by enabling you to u
 You can add sample data any time you need, during or after the configuration of the sales accelerator.    
 >[!NOTE]
 >- The sample data adds basic Dynamics 365 Sales and Sales Premium record types. More information: [Reference](#reference)     
->- You must have a Sales Insights, Sales Premium, production, or trial license to use the sample data.
+>- You must have a production or trial license of Sales Insights or Sales Premium to use the sample data.
 
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insight settings**.    

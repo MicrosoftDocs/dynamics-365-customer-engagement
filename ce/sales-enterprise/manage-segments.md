@@ -18,6 +18,7 @@ As a sequence manager, you can use the segment builder to:
 - [Connect a segment to a sequence](connect-a-segment-to-sequence.md)
 - [Edit a segment](edit-a-segment.md)
 - [Delete or deactivate a segment](delete-deactivate-a-segment.md)
+- [Connect a segment to an assignment rule](create-and-activate-assignment-rule.md#setSegment)
 
 ## Review prerequisites  
 

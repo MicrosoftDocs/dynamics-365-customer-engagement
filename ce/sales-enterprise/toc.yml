@@ -79,6 +79,8 @@
         href: retain-business-card-image-after-scanning.md
       - name: Customize the business card scanner control
         href: customize-business-card-scan-control.md
+      - name: Integrate LinkedIn Sales Insights
+        href: install-lsi-solution.md        
       - name: Product management
         items:
         - name: Set up a product catalog
@@ -167,6 +169,8 @@
         href: define-lead-qualification-experience.md
       - name: Integrate LinkedIn Sales Navigator solutions
         href: /linkedin/integrate-sales-navigator.md
+      - name: Configure predictive lead scoring
+        href: configure-predictive-lead-scoring.md        
     - name: Opportunity management
       items:
       - name: Deal manager
@@ -183,6 +187,8 @@
         href: enable-opportunity-close-customization.md
       - name: Customize the Opportunity Close form
         href: customize-opportunity-close-experience.md
+      - name: Configure predictive opportunity scoring
+        href: configure-predictive-opportunity-scoring.md       
       - name: Add the Kanban control to Opportunity or Activity entities
         href: add-kanban-control.md
     - name: Forecast management
@@ -201,6 +207,8 @@
         href: add-additional-filters.md
       - name: Configure and manage drill-down entities
         href: configure-manage-drill-downs.md
+      - name: Take snapshots automatically
+        href: manage-snapshots-forecast.md  
       - name: Configure advanced settings
         href: forecast-configure-advanced-settings.md
       - name: Activate and upload simple columns data
@@ -213,6 +221,10 @@
         href: configure-forecast-using-custom-rollup-entity.md
       - name: Capture forecast category for opportunity
         href: capture-forecast-category-opportunity.md
+      - name: Configure premium forecasting
+        href: configure-premium-forecasting.md
+      - name: View prediction model status
+        href: view-prediction-model-status.md  
       - name: Add forecast grid and configuration options in site map
         href: add-forecast-site-map.md
     - name: Goal management
@@ -227,20 +239,61 @@
         href: create-edit-goal-rollup-query-sales.md
     - name: Guided selling
       items:
-      - name: Assistant
+      - name: Sales accelerator
         items:
-        - name: Configure the assistant
-        href: configure-assistant.md
+        - name: Configure sales accelerator
+          href: enable-configure-sales-accelerator.md
+        - name: Manage sequences
+          href: create-manage-sequences.md
+          items:
+          - name: Create and activate a sequence
+            href: create-and-activate-a-sequence.md
+          - name: Adaptive sequences
+            href: adaptive-sequence.md
+          - name: Connect a sequence to records
+            href: connect-a-sequence-to-records.md
+          - name: View details of a sequence and its connected records
+            href: view-sequence-details-connected-records.md
+          - name: Clone a sequence
+            href: clone-a-sequence.md
+          - name: Edit a sequence
+            href: edit-a-sequence.md
+          - name: Delete a sequence
+            href: delete-a-sequence.md
+        - name: Manage segments
+          href: manage-segments.md
+          items:
+          - name: Create and activate a segment
+            href: create-and-activate-a-segment.md
+          - name: Connect a segment to sequence
+            href: connect-a-segment-to-sequence.md
+          - name: Edit a segment
+            href: edit-a-segment.md
+          - name: Delete or deactivate a segment
+            href: delete-deactivate-a-segment.md
+        - name: Manage assignment rules
+          href: create-manage-assignment-rules.md
+          items:
+          - name: Create and activate an assignment rule
+            href: create-and-activate-assignment-rule.md
+          - name: Edit an assignment rule
+            href: edit-assignment-rule.md
+          - name: Delete or deactivate an assignment rule
+            href: delete-deactivate-assignment-rule.md
+          - name: Manage sales teams
+            href: manage-sales-teams.md
+          - name: Manage seller attributes
+            href: manage-seller-attributes.md
+        - name: Add the Up next widget to an entity form
+          href: add-upnext-widget-form.md
+        - name: Integrate a sample softphone dialer with Dynamics 365 Sales
+          href: integrate-sample-softphone.md
       - name: Playbook management
         items:
         - name: Define playbook categories
           href: define-playbook-categories.md
         - name: Manage playbook templates
           href: manage-playbook-templates.md
-        - name: Integrate LinkedIn Sales Insights
-          items:
-          - name: Install or delete LinkedIn Sales Insights solution
-            href: install-lsi-solution.md
     - name: Configure Microsoft Teams dialer
       href: configure-microsoft-teams-dialer.md
     - name: Reporting
@@ -257,7 +310,7 @@
         items:
         - name: Add reporting features to your app
           href: /powerapps/maker/model-driven-apps/add-reporting-to-app
-    - name: Sales premium capabilities
+    - name: Relationship intelligence
       items:
       - name: Overview of premium capabilities
         href: overview-premium-capabilities.md
@@ -283,42 +336,6 @@
           href: configure-talking-points.md
         - name: Configure who knows whom
           href: configure-who-knows-whom.md
-      - name: Configure predictive models
-        items:
-        - name: Predictive lead scoring
-          href: configure-predictive-lead-scoring.md
-        - name: Predictive opportunity scoring
-          href: configure-predictive-opportunity-scoring.md
-      - name: Configure premium forecasting
-        href: configure-premium-forecasting.md
-        items:
-        - name: View prediction model status
-          href: view-prediction-model-status.md
-        - name: Take snapshots automatically
-          href: manage-snapshots-forecast.md
-      - name: Configure sales accelerator
-        items:
-        - name: Configure sales accelerator
-          href: enable-configure-sales-accelerator.md
-        - name: Manage sequences
-          href: create-manage-sequences.md
-          items:
-          - name: Create and activate a sequence
-            href: create-and-activate-a-sequence.md
-          - name: Adaptive sequences
-            href: adaptive-sequence.md
-          - name: Connect a sequence to records
-            href: connect-a-sequence-to-records.md
-          - name: View details of a sequence and its connected records
-            href: view-sequence-details-connected-records.md
-          - name: Clone a sequence
-            href: clone-a-sequence.md
-          - name: Edit a sequence
-            href: edit-a-sequence.md
-          - name: Delete a sequence
-            href: delete-a-sequence.md
-        - name: Integrate a sample softphone dialer with Dynamics 365 Sales
-          href: integrate-sample-softphone.md
       - name: Configure conversation intelligence
         items:
         - name: Prerequisites to use Conversation Intelligence

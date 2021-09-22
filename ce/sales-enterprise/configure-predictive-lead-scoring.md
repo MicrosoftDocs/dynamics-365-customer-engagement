@@ -32,12 +32,12 @@ For example, say you have two leads&mdash;Lead A and Lead B&mdash;in your pipeli
 The following image shows an example of a lead scoring widget.
 
 > [!div class="mx-imgBorder"]
-> ![Predictive lead score widget](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
+> ![Predictive lead score widget.](media/predictive-lead-scoring-widget.png "Predictive lead score widget")
 
 
 >[!IMPORTANT]
 >- If you're using predictive lead scoring that pertains to a version prior to 2020 release wave 2 for Dynamics 365, delete the model. Otherwise, the previous version of the model will be applied on all leads in your organization, and the newly generated models won't have any effect on the leads. More information: [Delete a model](#delete-a-model)
->- From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring related data to **msdyn_predictivescore** table and has stopped writing to the lead table. This table is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md).
+>- From 2020 release wave 2 for Dynamics 365, the application writes the lead scoring related data to **msdyn_predictivescore** table and has stopped writing to the lead table. This table is common for both lead and opportunity scoring. More information: [Entity reference](entity-reference.md)
 
 You can add custom fields to generate an accurate model for predictive lead scoring. The custom fields can be specific to your organization so that you can decide the impact of the outcome.
 
@@ -55,7 +55,7 @@ Verify that you meet the following requirement before adding predictive lead sco
 Before we configure the predictive lead scoring, let's understand the configuration summary page. When a model is generated and published, the configuration summary page is displayed as shown in the following image.
 
 > [!div class="mx-imgBorder"]
-> ![Configuration page](media/si-admin-predictive-lead-scoring-configuration-page.png "Configuration page")
+> ![Configuration page.](media/si-admin-predictive-lead-scoring-configuration-page.png "Configuration page")
 
 The configuration page is organized into the following sections:
 
@@ -69,17 +69,17 @@ The configuration page is organized into the following sections:
 
 ### Select a model
 
-In the upper-left corner of the page, you can use the **Select model** drop-down list to choose the model you want to view, edit, or delete. The list consists of both published and unpublished models.
+In the upper-left corner of the page, you can use the **Select model** dropdown list to choose the model you want to view, edit, or delete. The list consists of both published and unpublished models.
 
 > [!div class="mx-imgBorder"]
-> ![Select model drop-down list](media/si-admin-predictive-lead-scoring-select-model-drop-down.png "Select model drop-down list")
+> ![Select model dropdown list.](media/si-admin-predictive-lead-scoring-select-model-drop-down.png "Select model dropdown list")
 
 ### Actions you can perform on the model
 
 In the upper-right corner of the page, you can choose from actions that you can perform on the model.
 
 > [!div class="mx-imgBorder"]
-> ![Actions for lead scoring](media/si-admin-predictive-lead-scoring-buttons.png "Actions for lead scoring")
+> ![Actions for lead scoring.](media/si-admin-predictive-lead-scoring-buttons.png "Actions for lead scoring")
 
 - **Publish**: When you publish a model in your organization, users in your organization can see the My Open Leads Scored system view and the Lead score widget on lead forms. After you publish, this button appears dimmed and will be available only after you retrain or edit the model.
 - **Edit model**: You can update or add fields that affect the prediction accuracy score. This is useful when you want to modify fields to consider or include a unique business process. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
@@ -91,7 +91,7 @@ In the upper-right corner of the page, you can choose from actions that you can 
 The parameters displayed in this section show information about the status and performance of the model.
 
 > [!div class="mx-imgBorder"]
-> ![Version details for the lead scoring model](media/si-admin-predictive-lead-scoring-version-details.png "Version details for the lead scoring model")
+> ![Version details for the lead scoring model.](media/si-admin-predictive-lead-scoring-version-details.png "Version details for the lead scoring model")
 
 | Parameter | Description |
 |-----------|-------------|
@@ -110,7 +110,7 @@ The parameters displayed in this section show information about the status and p
 When a model is published, the leads that are in your organization's pipeline are graded according to the range defined in this section. Each lead in the pipeline is graded A, B, C, or D, according to the lead score. Leads in the top score range are graded A while leads within the lowest score range are graded D. 
 
 > [!div class="mx-imgBorder"]
-> ![Grading of lead scores](media/si-admin-predictive-lead-scoring-grading.png "Grading of lead scores")
+> ![Grading of lead scores.](media/si-admin-predictive-lead-scoring-grading.png "Grading of lead scores")
 
 You can configure the range for the grading according to your organizational requirements. When you change the lead score range for a grade, the maximum range value for the adjacent grade changes automatically in accordance with the change in the minimum value. For example, when you change the minimum range value score for **Grade A** to 51, the maximum lead score range for **Grade B** changes to 50.
 
@@ -119,7 +119,7 @@ You can configure the range for the grading according to your organizational req
 In the lower-left corner of the page, you can use **Add model** to generate a new model to represent a line of business that might use different leads than your first model. The **Add model** command will be disabled as soon as you reach the maximum limit of 10 models (both published and unpublished). More information: [Add a model](#add-a-model)
 
 > [!div class="mx-imgBorder"]
-> ![Add a model option](media/si-admin-predictive-lead-scoring-add-model.png "Add a model option")
+> ![Add a model option.](media/si-admin-predictive-lead-scoring-add-model.png "Add a model option")
 
 ## First-run setup experience
 
@@ -137,14 +137,14 @@ If you're using custom attributes for lead generation, you can generate the mode
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
+    > ![Select Sales Insights settings option.](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
 3. On the site map under **Predictive models**, select **Lead scoring**.
 
     The **Predictive lead scoring** configuration page is displayed.
 
     > [!div class="mx-imgBorder"]
-    > ![Predictive lead scoring add model page](media/si-admin-predictive-lead-scoring-add-model-page.png "Predictive lead scoring add model page")
+    > ![Predictive lead scoring add model page.](media/si-admin-predictive-lead-scoring-add-model-page.png "Predictive lead scoring add model page")
 
 4. In the **New model name** box, enter a name that contains alphanumeric characters. Underscores are allowed, but not spaces or other special characters.
 
@@ -173,7 +173,7 @@ If you're using custom attributes for lead generation, you can generate the mode
     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
 
     > [!div class="mx-imgBorder"]
-    > ![Model training notification](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
+    > ![Model training notification.](media/si-admin-predictive-lead-scoring-model-training-notification.png "Model training notification")
 
     >[!NOTE]
     >If there aren't enough leads to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
@@ -196,20 +196,20 @@ In organizations that have different lines of business, you might need different
 2. In the lower-left corner of the page, select **Add model**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select add model](media/si-admin-predictive-lead-scoring-model-select-add-model.png "Select add model")
+    > ![Select add model.](media/si-admin-predictive-lead-scoring-model-select-add-model.png "Select add model")
 
     >[!NOTE]
     >If you already have 10 models (both published and unpublished), the **Add model** option is disabled. Delete the models that are no longer required in your organization. More information: [Delete a model](#delete-a-model)
 
     > [!div class="mx-imgBorder"]
-    > ![Add model page for predictive lead scoring](media/si-admin-predictive-lead-scoring-model-add-model-page.png "Add model page for predictive lead scoring") 
+    > ![Add model page for predictive lead scoring.](media/si-admin-predictive-lead-scoring-model-add-model-page.png "Add model page for predictive lead scoring") 
 
 3. Perform steps 4 through 8 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 
 4. After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
     > [!div class="mx-imgBorder"]
-    > ![Model training confirmation notification](media/si-admin-predictive-lead-scoring-model-confirmation-notification.png "Model training confirmation notification")
+    > ![Model training confirmation notification.](media/si-admin-predictive-lead-scoring-model-confirmation-notification.png "Model training confirmation notification")
 
 5. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
@@ -225,7 +225,7 @@ It's time to retrain a model when its prediction accuracy score doesn't meet you
 >[!NOTE]
 >For better prediction accuracy scoring, retrain a model after the data in your organization is refreshed.
 
-You can retrain the model [automatically](#automatic-retraining) or [manually](#manually-retraining). Both methods are described in the following sections.
+You can retrain the model [automatically](#automatic-retraining) or [manually](#manual-retraining). Both methods are described in the following sections.
 
 ### Automatic retraining
 
@@ -236,32 +236,58 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 - When the accuracy of the retrained model is equal to or greater than 95 percent of the accuracy of the active model.
 - When the current model is more than three months old.
 
-    >[!NOTE]
-    >A retrained model might not be published if the accuracy of the model isn't maintained at the application's standard. If this occurs, the existing user-published model will be retained.
+>[!NOTE]
+>A retrained model might not be published if the accuracy of the model isn't maintained to the standards of the application. If this occurs, the existing user-published model will be retained.
 
-### Manually retraining
+### Manual retraining
 
-1. Go to the predictive lead scoring configuration page, and select **Edit model**.
+#### Edit the model
 
-2. On the **Edit fields** page, select attributes from opportunity entity, and its related entities (contact and account) including custom attributes to train the model.
+1. On the predictive lead scoring configuration page, select **Edit model**.
+
+2. On the **Edit model** page, select attributes—including custom attributes—from the lead entity and its related entities (contact and account) to train the model.
+
+    > [!NOTE]
+    > To use intelligent fields, go to the following section, [Select intelligent fields](#select-intelligent-fields).
 
     > [!div class="mx-imgBorder"]
-    > ![Edit model page](media/si-admin-predictive-lead-scoring-edit-model-page.png "Edit model page")
+    > ![Edit model page.](media/si-admin-predictive-lead-scoring-edit-model-page.png "Edit model page")
 
     >[!NOTE]
-    >The scoring model don't support the following types of attributes: 
+    >The scoring model doesn't support the following types of attributes: 
     >- Attributes on custom entities
-    >- Date and time related attributes
-    >- System generated attributes (such as, leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID)
+    >- Date and time&ndash;related attributes
+    >- System-generated attributes such as leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID
 
 3. Select **Retrain model**. 
 
-    The model starts to be generated by using the selected custom attributes, and a notification is displayed on the screen.
+    The model is generated by using the selected custom attributes, and a notification is displayed on the screen.
 
-4. On the configuration summary page, review the model performance and other parameters. If the retrained model satisfies your organizational requirements, publish the model.
+4. On the configuration summary page, review the model performance and other parameters:
+   - If the retrained model satisfies your organizational requirements, publish the model.
+   - If the parameters of the retrained model aren't satisfactory, edit the attributes and retrain the model. 
 
-    >[!NOTE]
-    >If the parameters of the retrained model aren't satisfactory, edit the attributes and retrain the model.  
+#### Select intelligent fields
+
+Intelligent fields help the model to better understand records and distinguish between score improvers and harmers. For example, the model can now distinguish between business email and personal email by identifying and grouping email types through data that's available in the application and intelligence that has been added to the model. Some groups might include business domain email (such as abc@microsoft.com) or personal domain email. Through this identification, the model can generate detailed insights about how the groups of fields affect predictive scores.
+
+Select the link in the **Prediction influence** column to view insights about the field, such as its qualification rate and the most influential reasons—both positive and negative—for that rate. More information: [View attribute insights](#view-attribute-insights)
+
+The following fields are supported: **Email domain validation (Email)**, **First name validation (First name)**, and **Last name validation (Last name)**. The model always gives preference to:
+
+- Emails that are part of a business domain.
+- First and last names that contain alphanumeric characters and not special characters.
+
+By default, intelligent fields are considered while training a model by using out-of-the-box values. If the outcome of the intelligent fields is satisfactory, the model includes the fields to train; otherwise, the fields are ignored. However, even if the outcome is unsatisfactory, you can still choose to include the intelligent fields to train the model if necessary.
+
+> [!NOTE]
+> The fields that are displayed in intelligent fields won't be available in the lead entity or its related entities, contact and account.
+
+[Edit the model](#manual-retraining) as described in the previous section to choose the intelligent fields that you want your model to use. The following image illustrates how you can select intelligent fields.
+
+> [!div class="mx-imgBorder"]
+> ![Edit fields page showing the Model concepts section with a list of intelligent fields that have been selected.](media/si-admin-predictive-lead-scoring-edit-model-intelligent-fields.png "Edit model page with intelligent fields")
+
 
 ## View attribute insights
 
@@ -278,7 +304,7 @@ The insights displayed on the **Attribute Insights** pane are based on your orga
 The following image shows an example of the **Attribute Insights** pane for the **Lead Source** attribute.
 
 > [!div class="mx-imgBorder"]
-> ![Attribute Insights pane](media/si-admin-predictive-lead-scoring-attribute-insights-pane.png "Attribute Insights pane")
+> ![Attribute Insights pane.](media/si-admin-predictive-lead-scoring-attribute-insights-pane.png "Attribute Insights pane")
 
 Typically, the **Attribute Insights** pane is divided into the following sections:
 
@@ -324,7 +350,7 @@ You can delete a model when it's no longer required in your organization. You ca
     >You can't delete a model if the **Retrain automatically** option is enabled. Disable the option first.
 
     > [!div class="mx-imgBorder"]
-    > ![Delete a model](media/si-admin-predictive-lead-scoring-delete-model.png "Delete a model")
+    > ![Delete a model.](media/si-admin-predictive-lead-scoring-delete-model.png "Delete a model")
 
 3. In the confirmation message that appears, select **Delete**.
 
@@ -345,7 +371,7 @@ To display the list of business process flows that are defined for leads in your
     1. `IsEnabledForADLS`: If the value is **True**, the entity is enabled to sync to Data Lake Storage and if **False**, the entity won't sync to Data Lake Storage. By default, the value is **False**.
 
     > [!div class="mx-imgBorder"]
-    > ![Create an entry for Data Lake Storage](media/si-admin-predictive-lead-scoring-create-entry-managed-lake.png "Create an entry for Data Lake Storage")
+    > ![Create an entry for Data Lake Storage.](media/si-admin-predictive-lead-scoring-create-entry-managed-lake.png "Create an entry for Data Lake Storage")
 
 >[!NOTE]
 >Change tracking on the business process flow entity and `IsEnabledForADLS` must be configured as **True** to sync the data to Data Lake Storage using the Export to Data Lake service.
@@ -513,19 +539,19 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.
 
     > [!div class="mx-imgBorder"]  
-    > ![Power Apps home page](media/power-apps-home-page.png "Power Apps home page")
+    > ![Power Apps home page.](media/power-apps-home-page.png "Power Apps home page")
 
 2. Search for and select your organization's environment.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select your organization](media/power-apps-select-org.png "Select your organization")
+    > ![Select your organization.](media/power-apps-select-org.png "Select your organization")
 
 3. Select **Data** > **Tables**.
 
     The **Tables** page opens with the list of tables.
 
     > [!div class="mx-imgBorder"]  
-    > ![Tables page with list of tables](media/power-apps-entities-page.png "Tables page with list of tables")
+    > ![Tables page with list of tables.](media/power-apps-entities-page.png "Tables page with list of tables")
 
 4. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Lead** is selected and the main form **Lead** is selected.
 
@@ -533,12 +559,12 @@ By default, the predictive lead scoring widget is available only in the out-of-t
     >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select the Lead main form on the Forms tab](media/power-apps-lead-main-form.png "Select the Lead main form on the Forms tab")
+    > ![Select the Lead main form on the Forms tab.](media/power-apps-lead-main-form.png "Select the Lead main form on the Forms tab")
 
 5. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.
 
     > [!div class="mx-imgBorder"]  
-    > ![Add a column to the form](media/power-apps-layout-add-column-form.png "Add a column to the form")
+    > ![Add a column to the form.](media/power-apps-layout-add-column-form.png "Add a column to the form")
 
 7. From the site map, select **Display** > **Predictive score**.
 
@@ -546,17 +572,17 @@ By default, the predictive lead scoring widget is available only in the out-of-t
     >Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form. 
 
     > [!div class="mx-imgBorder"]  
-    > ![Select the predictive score widget](media/power-select-predictive-score-widget.png "Select the predictive score widget")
+    > ![Select the predictive score widget.](media/power-select-predictive-score-widget.png "Select the predictive score widget")
 
 8. In the **Edit predictive score** pop-up window, select **Done**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Select Done to add the predictive score widget](media/power-app-predictive-score-widget-options.png "Select Done to add the predictive score widget")
+    > ![Select Done to add the predictive score widget.](media/power-app-predictive-score-widget-options.png "Select Done to add the predictive score widget")
 
     The predictive score widget is added to the form, as shown in the following image.
 
     > [!div class="mx-imgBorder"]  
-    > ![Predictive score widget added to the form](media/power-app-predictive-score-widget-added.png "Predictive score widget added to the form")
+    > ![Predictive score widget added to the form.](media/power-app-predictive-score-widget-added.png "Predictive score widget added to the form")
 
     >[!NOTE]
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
