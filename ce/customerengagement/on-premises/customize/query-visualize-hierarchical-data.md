@@ -1,6 +1,6 @@
 ---
-title: "Query and visualize hierarchical data with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to query and visualize hierarchical related data"
+title: "Visualize hierarchical data in Dynamics 365 Customer Engagement (on-premises)"
+description: "Gain valuable insights by visualizing hierarchical data. This page walks you through examples for querying the hierarchies and creating visualizations."
 ms.custom: 
 ms.date: 01/08/2019
 ms.reviewer: 
@@ -19,7 +19,7 @@ manager: kvivek
 search.audienceType: 
   - customizer
 ---
-# Query and visualize hierarchically related data
+# Query and visualize hierarchical data
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Query and visualize hierarchically related data](/powerapps/maker/data-platform/query-visualize-hierarchical-data)
 

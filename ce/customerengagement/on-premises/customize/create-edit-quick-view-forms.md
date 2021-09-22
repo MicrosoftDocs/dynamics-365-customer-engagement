@@ -1,6 +1,6 @@
 ---
-title: "Create or edit quick view forms in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit a quick view form"
+title: "Use quick view forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps or create or edit a quick view form. This provides a template to view information about a related entity record within a form for another."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
 
 ---
 
-# Create or edit a quick view form to view information about a related entity
+# Create or edit a quick view form to see information about a related entity
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a model-driven app quick view form to view information about a related entity](/powerapps/maker/model-driven-apps/create-edit-quick-view-forms)
 

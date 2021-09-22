@@ -34,7 +34,7 @@ Your agents can send and receive messages formatted using Markdown.
 
 ### See also
 
-[Support for formatted messages](asynchronous-channels.md#support-for-formatted-messages).
+[Support for formatted messages](card-support-in-channels.md#support-for-formatted-messages).
 [Use Markdown to format messages](markdown-formats-agents.md)  
 [Markdown formats](markdown-formats-dev.md)  
 

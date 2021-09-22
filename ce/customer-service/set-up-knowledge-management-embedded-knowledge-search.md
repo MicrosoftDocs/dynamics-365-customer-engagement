@@ -83,6 +83,9 @@ After knowledge management is set up, users will be able to:
   
 8. If you’ve specified the details correctly, the page shows the connection details for Dynamics 365 Customer Service. Select **Finish** to complete the setup.  
 
+> [!NOTE]
+> Duplicate detection rules don't work on the Knowledge Article entity.
+
 
 ## Enable feedback control
 

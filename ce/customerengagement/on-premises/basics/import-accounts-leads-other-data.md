@@ -19,7 +19,7 @@ search.audienceType:
   - enduser
 
 searchScope:
-  - D365-App-msdynce_saleshub
+  - D365-App-*
   - D365-Entity-account
   - D365-UI-*
   - Customer Engagement

@@ -144,6 +144,9 @@
         "customer-service/channel-integration-framework/**/*.md": "channel-integration-framework",
         "unified-service-desk/**/*.md": "unified-service-desk"
       },
+	  "ms.topic": {
+        "legal/**/*.md": "article"
+      },
       "learn_banner_products": {
         "**/*.md": [
           "dynamics-customer-engagement"

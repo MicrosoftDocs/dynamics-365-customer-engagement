@@ -1,6 +1,6 @@
 ---
-title: "Set managed properties for fields with Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
-description: "Learn how to set managed properties for a field"
+title: "Set managed properties for a field in Dynamics 365 Customer Engagement (on-premises)"
+description: "If a field is customizable, you can set options to True or False, including whether a display name, requirement level, or other properties can be changed."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: matp
 manager: kvivek
 tags: 
 ---
-# Set managed properties for fields
+# Set managed properties for a field
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [View and edit field managed properties](/power-platform/alm/managed-properties-alm#view-and-edit-field-managed-properties)
 

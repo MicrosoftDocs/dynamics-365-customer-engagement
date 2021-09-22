@@ -1,11 +1,12 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 08/02/2021
+ms.date: 08/26/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -15,40 +16,43 @@ ms.reviewer: nenellim
 
 ## Support for adaptive cards
 
-| Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card |
-|----------------------|---------------|-----------|--------------|----------------|------------- |------------|
-| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ❌         |
-| Facebook             | ⚠🔶          | ✔        | ✔            | ✔              | ✔           | 🌐         |
-| LINE                 | ⚠🔶          | ✔        | ✔            | ✔              | ✔           | 🌐         |
-| Custom messaging (Telegram)    | ⚠🔶            | ✔           | ✔              | ✔            | ✔         | 🌐         |
-| Custom messaging (Direct Line) | ✔              | ✔            | ✔              | ✔            | ✔         | ✔          |
+The following table lists the rich cards that are supported across different channels when you're using bots. The support categories are intentionally broad because many possible combinations of cards, features, and channels are applicable. We recommend that you use the information in the table as a base reference, and test each of your cards in the required channels.
 
-> [!Note]
->
-> - The Twitter, WeChat, WhatsApp, and SMS channels do not support cards.
-> - The Direct Line channel supports all of the listed cards, but it's up to the client to implement them.
-> - Video card support can be achieved by adding the video URL in the adaptive card. 
+| Channel | Hero card | Thumbnail card | Sign in card |Audio card | CardCarousel |
+|---------------|-----------|----------------|-------------|------------|----|
+| Microsoft Teams  | ✔     |  ✔   | ✔  | ✖  | ✔  |
+| Facebook | ✔  |  ✔  | ✔ | 🌐  |  ✔| 
+| LINE    | ✔ | ✔   | ✔ | 🌐  | ✔|
+| Custom (Telegram)  | ✔ | ✔ | ✔ | 🌐 | ✔ |
+| Custom (Direct Line) | ✔ |  ✔ | ✔ | ✔*  | ✔* |
 
-✔: Supported: Card is supported fully with the exception that some channels support a subset of Card Actions. They might limit the number of actions allowed on each card. Varies by channel.
 
-⚠: Partial support: Card might not be displayed at all if it contains inputs or buttons. Varies by channel.
+✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. The number of actions allowed on each card might be limited that varies by channel.
 
-❌: No support
+⚠: Partial support; varies by channel; card might not be displayed at all if it contains inputs or buttons. 
 
-🔶: Card is converted to image
+✔* : Card elements are supported in the Webchat version of Custom (Direct Line), but not in the Android version.
 
-🌐: Card is converted to unformatted text: Links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
+✖: No support.
 
-The support categories are intentionally broad and do not fully explain how every card feature is supported in each channel due to the many possible combinations of cards, features, and channels. Use the information in the table as a base reference, but test each of your cards in the desired channels.
+🔶: Card is converted to an image.
+
+🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
+
+The markdown element for adaptive cards is partially supported across all chat channels. For example, the markdown element is not supported in live chat, whereas, it is supported in LINE.
+
+Media or audio card and date input elements for adaptive cards are only supported in Live chat channels. Adaptive card elements like text block and images are also supported across channels.
+
+Other social channels, such as Twitter, SMS, WhatsApp, and WeChat don't support any cards listed in the preceding table.
 
 For more information, see the following:
 
   - [Sending and Receiving Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
 
-### Support for suggested actions
+## Support for suggested actions
 
-Suggested actions are supported fully with the exception that some channels might limit the number of actions allowed. The number of actions supported varies by channel.
+Suggested actions are supported fully with the exception that some channels might limit the number of actions allowed. Also, the number of actions supported varies by channel.
 
 | Channel                        | Supported?                      |
 |--------------------            |---------------------------------|
@@ -79,7 +83,8 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Custom messaging (Direct Line) | All types except blocked types in org      | All types except blocked types in org |
 
 > [!Note]
-> - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent receives a PNG image. When an agent sends a GIF image (outbound), the customer will receive a PNG image. 
+>
+> - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent receives a PNG image. When an agent sends a GIF image (outbound), the customer will receive a PNG image.
 > - The Direct Line channel supports the above attachment types, but it's up to the client to implement them.
 > - For LINE inbound and outbound messages, when a GIF image is sent, the recipient will receive a JPG image.
 > - For WhatsApp messages, when a customer sends an attachment in document format (for example, a DOCX, XLSX, or TXT file), the agent will receive the attachment name as message text. We recommend converting documents to PDF format before sending them as attachments.
@@ -94,7 +99,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Twitter            | Yes. Emoji in text like “😀”                                       |
 | WeChat             | Yes. When an emoji is sent, the recipient sees characters like :-) |
 | WhatsApp           | Not supported.                                                      |
-| SMS (Twilio)       | Yes. Emoji in text like “😀”                                       | 
+| SMS (Twilio)       | Yes. Emoji in text like “😀”                                       |
 | Custom messaging (Telegram) | Yes. Emoji in text like “😀”                              |
 | Custom messaging (Direct Line) | Yes. Emoji in text like “😀”                           |
 
@@ -136,7 +141,7 @@ With social profiles, you can do the following:
 | WhatsApp           | Yes                                                                 |
 | Custom messaging (Telegram) | Yes                                                        |
 
-## Support for formatted messages
+## Preview: Support for formatted messages <a name="formatted messages"></a>
 
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
@@ -144,9 +149,9 @@ With social profiles, you can do the following:
 Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, be aware that a few styles are not currently supported across some channels. The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
 
 | Style                | Live chat  | Microsoft Teams | Facebook | WhatsApp | Custom messaging (Telegram)| Custom messaging (Direct Line) |
-|----------------------| ---------- | -------------   | -------- | ---------|------------------          |------------------------------  | 
-| bold                 | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
-| italics              | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
+|----------------------| ---------- | -------------   | -------- | ---------|------------------ |------------------------------  |
+| bold                 | ✔          | ✔              | ✔        | ✔       | ✔                         | ✔                             |
+| italics              | ✔          | ✔              | ✔        | ✔       | ✔                         | ✔                             |
 | strikethrough        | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
 | blockquote           | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
 | monospace            | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |

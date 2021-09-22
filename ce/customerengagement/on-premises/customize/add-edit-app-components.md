@@ -1,6 +1,6 @@
 ---
-title: "Add or edit app components with Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
-description: "Use the Dynamics 365 for Customer Engagement app designer to add or edit components"
+title: "Add app components with Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to use the app designer to easily add components such as entities, dashboards, business process flows, forms, charts, and views."
 keywords: 
 ms.date: 03/04/2019
 ms.prod: d365ce-op
@@ -21,7 +21,7 @@ search.audienceType:
 
 ---
 
-# Add or edit app components in the Dynamics 365 for Customer Engagement app designer
+# Add or edit app components using the app designer
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add or edit model-driven app components in the Power Apps app designer](/powerapps/maker/model-driven-apps/add-edit-app-components)
 

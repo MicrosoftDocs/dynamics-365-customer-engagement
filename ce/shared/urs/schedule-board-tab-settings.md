@@ -51,8 +51,7 @@ When set to **Details Pane**, the map will be placed on the right-hand side. Thi
  
 ### Requirement map filter view
 
-This view defines the resource requirement records displayed on the map. The setting lists public views related to the resource requirement entity for selection. Resource requirements need to have a latitude and longitude to display it on the map. We strongly recommend making a copy of the default view and applying your changes to the copy.
-
+This view defines the resource requirement records displayed on the map. The setting lists public views related to the resource requirement entity for selection. Resource requirements must have a latitude and longitude to display it on the map. When a requirement with a valid latitude and longitude is selected, the corresponding pin will be shown on the map, provided the requirement selected is included in the selected requirement view for this setting **Requirement map filter view**. We strongly recommend making a copy of the default view and applying your changes to the copy.
 
 ### Resource tooltips view
 
@@ -82,7 +81,7 @@ This view defines the fields displayed in a tooltip that appears when a schedule
 This view defines the fields displayed in the details pane when an organizational unit map pin is selected. The details pane is on the right-hand side of the schedule board and may have to be expanded. The setting lists public views related to the organizational unit entity for selection.
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Organizational Unit Details View.](../../field-service/media/organizational-unit-details-view.PNG)
+> ![Organizational unit details view.](../../field-service/media/organizational-unit-details-view.PNG)
  
 
 ## Custom web resource
@@ -94,14 +93,14 @@ Web resources represent files that can be used to extend the Microsoft Dynamics 
 - **Web Resource:** select a web resource from your Dynamics 365 organization.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Organizational Unit Details View.](../../field-service/media/schedule-board-tab-settings-web-resource.png)
+> ![Schedule board tab settings - web resource](../../field-service/media/schedule-board-tab-settings-web-resource.png)
 
 ## Schedule board colors
 
 The colors that represent a resource's utilization on the days, weeks, and months view of the schedule board are configurable here by entering HTML hex color codes. See an example of colors chosen and the effects in the following screenshot.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule board colors.](../../field-service/media/schedule-board-settings-schedule-board-colors.png)
+> ![Example of colors used on the schedule board.](../../field-service/media/schedule-board-settings-schedule-board-colors.png)
 
 To illustrate how these colors affect the schedule board, see the following example. In our example, we have a day view of the schedule board where each resource works 12 hours each day, and the range is 2 days. The colors are configured as follows:
 
@@ -130,11 +129,11 @@ This setting decides the default value for the **Search For** field in the sched
 
 ### Unavailable resources 
 
-This setting determines how unavailable resources appear when the schedule assistant is triggered. 
+This setting determines how unavailable resources appear when the schedule assistant is triggered from the **Find availability** function on the schedule board. 
 
 - Set to **Unavailable resources do not appear** to ensure that resources who do not meet schedule assistant filter criteria are temporarily removed from the view of available resources. 
 
-- Set to **Unavailable resources appear dimmed (when searching for resources visible on board)** to ensure that resources who do not meet schedule assistant filter criteria remain on the schedule board, but appear dimmed. For schedule boards with many resources, using the **Unavailable resources do not appear** setting can reduce the need to scroll and make it easier for scheduler to compare available resources.
+- Set to **Unavailable resources appear dimmed (when searching for resources visible on board)** to ensure that resources who do not meet schedule assistant filter criteria remain on the schedule board, but appear dimmed. For schedule boards with many resources, using the **Unavailable resources do not appear** setting can reduce the need to scroll and make it easier for scheduler to compare available resources. When the schedule assistant is opened, the **Search For** filter on the filter panel must be changed to **Resources visible on board** to see the unavailable resources, which appear dimmed. 
 
 ### Book based on 
 
@@ -152,7 +151,7 @@ The colors selected in the schedule assistant section represent how resource ava
 > ![Screenshot of schedule assistant section.](../../field-service/media/schedule-board-tab-settings-schedule-assistant.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant colors.](../../field-service/media/schedule-board-tab-settings-schedule-assistant-colors.png)
+> ![Schedule assistant, showing the colors.](../../field-service/media/schedule-board-tab-settings-schedule-assistant-colors.png)
 
 ### Available Icon, Partially Available Icon, Unavailable Icon
 
@@ -206,11 +205,12 @@ Given a booking alert shows in the alerts pane, the HTML entered here dictates t
 
 For reference, the default HTML is as follows:
 
+```
     <b class="bold">Subject: </b>{msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert.subject}<br />
     <b class="bold">Due: </b>{msdyn_nexttimetoshow}<br />
     <b class="bold">Description: </b><br />
     {msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert.description}
-
+```
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the alert fields.](../../field-service/media/schedule-board-tab-settings-booking-alerts-template.png)
@@ -240,11 +240,11 @@ One scenario this enables is filtering resources without having to expose the fi
 
 Using the Schedule Board Client Extension framework, you can modify the CSS, add your own JavaScript files, and localize the schedule board. This means that you can change labels and wording on certain supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
 
-For more details on editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [this topic on schedule board extensibility](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).
+For more details on editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [this topic on schedule board extensibility](/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).
 
 ## Schedule types
 
-The following settings are dependent on the entity being scheduled. Though requirement records are always scheduled, the requirement can be related to work orders, cases, custom entities, or related to nothing at all. First, select the scheduleable entity on the left to edit the settings for when that entity is scheduled. Select **None** to edit default settings and the settings for when a requirement is scheduled by itself, unrelated to a work item such as work orders or projects. 
+The following settings are dependent on the entity being scheduled. Though requirement records are always scheduled, the requirement can be related to work orders, cases, custom entities, or related to nothing at all. First, select the schedulable entity on the left to edit the settings for when that entity is scheduled. Select **None** to edit default settings and the settings for when a requirement is scheduled by itself, unrelated to a work item such as work orders or projects. 
 
 ### Booking Tooltips View
 
@@ -288,7 +288,9 @@ HTML and CSS that controls the fields inside a booking time slot on the schedule
 
 Here is the default work order HTML:
 
-    <div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div>
+```
+<div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div>
+```
 
 This HTML results in the following:
 

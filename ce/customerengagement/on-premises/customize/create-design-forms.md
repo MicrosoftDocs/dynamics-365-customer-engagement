@@ -1,6 +1,6 @@
 ---
-title: "Create and design forms (Customer Engagement (on-premises)) | MicrosoftDocs"
-description: Learn how to create and design forms for your apps
+title: "Create and edit forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "Dynamics 365 forms provide the interface people use to interact with the data they need. Learn about the types of forms available and their specific needs."
 ms.custom: 
 ms.date: 03/07/2019
 ms.reviewer: 
@@ -21,7 +21,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create and design forms 
+# Create, design, and edit forms 
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create and design model-driven app forms](/powerapps/maker/model-driven-apps/create-design-forms)
 

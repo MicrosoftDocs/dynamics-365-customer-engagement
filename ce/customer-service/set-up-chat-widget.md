@@ -19,7 +19,7 @@ Dynamics 365 Customer Service offers full featured, first-party chat capabilitie
 
 A chat widget lets your customers connect with your customer service agents and resolve their queries quickly.
 
-In this section, you will learn how to:
+In this section, you'll learn how to:
 
 - [Add a chat widget](add-chat-widget.md)
 - [Configure agent display name](agent-display-name.md)
@@ -34,7 +34,7 @@ In this section, you will learn how to:
 
 Microsoft automatically collects data to improve the reliability and performance of our products and to understand how the products are being used. This information is used to make improvements to the product capabilities over time. The live chat widget in Chat for Dynamics 365 collects telemetry automatically from end users to serve the same purposes. 
 
-Examples of data collected in the live chat widget:
+Here are a few examples of data collected by the live chat widget.
 
 | Data | Example value |
 |---------------|------------------------|
@@ -52,9 +52,9 @@ If your organization is concerned about the data collected by this service, you 
 
 ### Videos
 
-[Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)
+[Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)  
 
-To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
+To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

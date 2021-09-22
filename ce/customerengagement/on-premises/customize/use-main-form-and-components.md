@@ -1,6 +1,6 @@
 ---
-title: Use the main form and its components with Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs
-description: Know how to use the main form and its components in the unified Interface based apps
+title: "Edit the main form in Dynamics 365 Customer Engagement (on-premises)"
+description: "To edit a main form and add or change components in Dynamics 365 Customer Engagement (on-premises), follow these steps to access the form editor."
 keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365 Customer Engagement (on-premises)
 author: Mattp123
 ms.author: matp
@@ -16,7 +16,7 @@ search.audienceType:
   - customizer
 
 ---
-# Use the main form and its components
+# Edit the main form and add or change components
 
 
  

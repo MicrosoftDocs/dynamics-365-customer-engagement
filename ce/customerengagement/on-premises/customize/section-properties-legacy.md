@@ -1,6 +1,6 @@
 ---
-title: Section properties for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand the section properties for a main form
+title: "Manage form section properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to manage the properties of sections on forms, including display and formatting. You can also add a reference panel to insert additional controls."
 Keywords: Main form; Section properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -15,7 +15,7 @@ ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
 search.audienceType: 
   - customizer
 ---
-# Section properties
+# Access and manage the section properties of a form
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add, configure, move, or delete sections on a form](/powerapps/maker/model-driven-apps/add-move-or-delete-sections-on-form)
 

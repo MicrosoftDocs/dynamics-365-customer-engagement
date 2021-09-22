@@ -1,6 +1,6 @@
 ---
-title: "Disable auto-save with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to disable auto-save
+title: "Disable auto-save in Dynamics 365 for Customer Engagement (on-premises)"
+description: "There may be reasons why you don't want data explicitly saved each time you edit a record. Follow these steps to disable auto-save for a form or organization."
 ms.custom: 
 ms.date: 10/23/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ manager: kvivek
 search.audienceType: 
   - customizer
 ---
-# Disable auto-save
+# Disable auto-save for a form or organization
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Disable auto-save in a model-driven app](/powerapps/maker/model-driven-apps/manage-auto-save)
 

@@ -1,6 +1,6 @@
 ---
-title: "Enhance business process flows with branching with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to use branching in a business process flow"
+title: "Business process flow branching in Dynamics 365 Customer Engagement (on-premises)"
+description: "In complex scenarios, you can enhance a business process flow with branching. This page walks you through an example for designing a flow with branches."
 ms.prod: d365ce-op
 ms.custom: 
 ms.date: 11/04/2018
@@ -17,7 +17,7 @@ search.audienceType:
   - customizer
 
 ---
-# Enhance business process flows with branching
+# Enhance a business process flow with branching
 
 
 

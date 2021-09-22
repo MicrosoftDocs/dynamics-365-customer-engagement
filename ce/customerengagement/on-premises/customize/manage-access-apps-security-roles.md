@@ -1,6 +1,6 @@
 ---
-title: "Manage access to Power Apps apps by using security roles with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to control access to your Power Apps apps"
+title: "Manage app access with security roles in Dynamics 365 for Customer Engagement (on-premises)"
+description: "Learn how to choose what users see and access from the My Apps page or the Customer Engagement home page by giving app access to specific security roles."
 keywords: 
 ms.date: 12/04/2018
 ms.prod: d365ce-op
@@ -23,7 +23,7 @@ search.audienceType:
   - customizer
 ---
 
-# Manage access to apps by using security roles
+# Manage access to apps using security roles
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Share a model-driven app using Power Apps](/powerapps/maker/model-driven-apps/share-model-driven-app) 
 

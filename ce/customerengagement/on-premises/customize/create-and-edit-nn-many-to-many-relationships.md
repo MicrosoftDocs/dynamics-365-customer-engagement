@@ -1,6 +1,6 @@
 ---
-title: "Create N:N (many-to-many) relationships in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create many-to-may relationships"
+title: "Create N:N relationships in Dynamics 365 Customer Engagement (on-premises)"
+description: "An N:N relationship is one in which many records of one entity can be related to many of another. Follow these steps to create or edit these relationships."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create N:N (many-to-many) relationships
+# Create N:N (many-to-many) relationships between entities
 
 <a name="BKMK_CreateEditNNRelationships"></a>   
 
