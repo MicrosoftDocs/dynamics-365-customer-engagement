@@ -1,15 +1,18 @@
 ---
-title: "Link customer and case to conversation when bot escalates| MicrosoftDocs"
+title: "Link customer, case to conversation when bot escalates or ends conversations | MicrosoftDocs"
 description: "How to link customer and case to conversation when bot escalates to human agent."
-ms.date: 09/13/2021
+ms.date: 09/23/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# How to link customer and case to conversations when bots escalate to human agents
+# Link customer and case to conversations when bot escalates or ends conversations
 
-When the bot escalates a conversation to a human agent, the customer and case can be linked to the conversation so that the human agents can see the related customer and case information in the customer summary section when they start interacting with the customers. 
+When the bot escalates a conversation to a human agent or ends the conversation with the customer, the customer and case can be linked to the conversation so that the human agents can see the related customer and case information in the customer summary section when they start interacting with the customers. 
+
+> [!Note]
+> The bot can create the case number or obtain it from the customer. When the conversation ends, the case number is attached to the conversation based on the customer name, email address, and telephone number.
 
 To link the customer or case, set the values for the associated attributes, such as the name and phone number. These attributes will be searched for in Dynamics 365 in the corresponding entities, such as customer and case, and the result will be linked to the conversation if a single record is found to be matched. The bot will need to set context parameters for the following that are also set in [automatically identify a customer](record-identification-rule.md).
 

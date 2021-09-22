@@ -49,11 +49,6 @@ After the agent accepts the request, the chat transcript of the bot's conversati
 
 The Azure bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can send an `EndConversation` request to Omnichannel for Customer Service.
 
-When the bot ends the conversation with the customer, it can link the case number with the conversation, so that the next time a conversation is started up with the customer, the agent can view all case history using the case number that's already linked with the conversation. This saves valuable time for the customer and the agent.
-
-> [!Note]
-> The bot can create the case number or obtain it from the customer. When the conversation ends, the case number is attached to the conversation based on the customer name, email address, and telephone number.
-
 ## Sample code for escalating and ending conversations
 
 Perform the following steps to configure an Azure bot that is capable of escalating a conversation to a human agent.
