@@ -39,7 +39,7 @@ Adding links other than the supported origins or the exact match of links will l
 ### See also
 
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-knowledge-articles)  
-[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md#search-for-knowledge-articles-in-the-customer-service-hub)
+[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md#search-for-knowledge-articles-in-the-customer-service-hub)  
 [Understand knowledge base search](knowledge-base-search-methods.md#understand-knowledge-base-search)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
