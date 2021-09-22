@@ -1,6 +1,6 @@
 ---
 title: "Manage skills| MicrosoftDocs"
-description: "Learn how to view existing skills and add new skills using the skill control."
+description: "Learn how to view or remove existing skills, and add new skills using the skill control in Omnichannel for Customer Service."
 ms.date: 08/25/2021
 ms.topic: article
 author: mh-jaya
@@ -17,22 +17,27 @@ ms.custom:
 ms.reviewer: nenellim
 ---
 
-<!--
-add a screenshot of agent skill control explaining what agents can do with it and what information is conveyed from skill control.  Explain what happens after enabling control - runtime . Also, please explain that this skill control is out of box for messaging channels and for entities one needs to customise. Attaching one reference screenshot . we can use screenshot from chat as well which uses conversation summary. 
--->
-# View and add skills
+# View, add, and remove skills
 
-Dynamics 365 comes with an out-of-the box custom control that you can embed on any of your forms to view the skills of any routed record. 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-> [!Note]
-> To be able to add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](../basics/view-your-user-profile.md).
+Dynamics 365 comes with an out-of-the box skill control for messaging channels. Your administrator can enable the setting that allows you to update skills at runtime.
 
+When you receive a work item in your queue, you can view the skills required to do the work in the **Skills** field of your case record. 
 
+You can view skills manually added by your administrator and skills identified by the machine-learning models, as shown in the following illustration.
 
+> [!div class="mx-imgBorder"]
+> ![Add skills.](media/skill-control.png "Add skills.")
+
+If upon assessing the work item, you think that the relevant skills are incorrect or missing, you can choose to remove or add skills as appropriate.
+
+To add skills, select **Add skill**, enter one or more skills, and select the plus (**+**) symbol.
+
+To remove skills, select **X**.
 
 ### See also
 
-[Add skill control](add-skill-control.md)
 [Allow agents to update skills](allow-agents-update-skills.md)
 [Set up record routing](set-up-record-routing.md)  
 [Set up unified routing](set-up-routing-process.md)  
