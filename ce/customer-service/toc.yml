@@ -700,7 +700,7 @@
         href: configure-bot.md
       - name: Configure context variables for bots
         href: context-variables-for-bot.md
-      - name: Link customer and case when bot escalates to human agent
+      - name: Link customer and case when bot escalates or ends conversations
         href: link-customer-case-when-bot-escalates.md
     - name: Developer experience
       items: 
