@@ -1,6 +1,6 @@
 ---
 title: "Context variables for a bot | MicrosoftDocs"
-description: "Get information on the context variables to use when configuring a bot in Omnichannel for Customer Service."
+description: "Get information on the context variables to use for configuring an Azure or PVA bot in Omnichannel for Customer Service."
 ms.date: 09/30/2021
 ms.topic: article
 author: mh-jaya
