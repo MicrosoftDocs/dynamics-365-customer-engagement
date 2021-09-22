@@ -24,7 +24,9 @@
       - name: Set up Dynamics 365 Sales premium features
         href: intro-admin-guide-sales-insights.md
     - name: Manage sample data      
-      href: manage-sample-data.md        
+      href: manage-sample-data.md     
+    - name: Get license      
+      href: 
     - name: Upgrade
       items:
       - name: Upgrade from Dynamics 365 Sales Professional
@@ -318,12 +320,6 @@
           href: /powerapps/maker/model-driven-apps/add-reporting-to-app
     - name: Relationship intelligence
       items:
-      - name: Overview of premium capabilities
-        href: overview-premium-capabilities.md
-      - name: Get started with sales premium
-        href: get-started-sales-premium.md
-      - name: Manage sample data
-        href: manage-sample-data.md
       - name: Configure assistant
         items:
         - name: Configure the assistant
@@ -360,8 +356,6 @@
           href: data-retention-deletion-policy.md
         - name: Enable coming soon features
           href: enable-preview-features-sales-insights-app.md
-        - name: Uninstall sales premium
-          href: uninstall-sales-insights.md
     - name: Sales on mobile
       items:
       - name: Enable Dynamics 365 Sales mobile
