@@ -42,7 +42,7 @@ In the following example, to add a skill control named **Skills** to the case fo
 
 8. Save and publish the solution.
 
-The skill control is now added to the **Case Interactive experience** form. Your agents will now be able to view the newly added custom control on all routed records in Customer Service Hub. 
+The skill control is added to the **Case Interactive experience** form. Your agents will now be able to view the newly added custom control on all routed records in Customer Service Hub. 
 
 > [!NOTE]
 > To customize a form to add the skill control in Customer Service workspace or the Omnichannel admin center, you can add the control to the **Case for Multisession experience** form.
