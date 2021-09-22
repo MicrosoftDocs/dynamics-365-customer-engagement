@@ -1,0 +1,100 @@
+---
+title: "Use effort estimation model in unified routing | MicrosoftDocs"
+description: "Learn how to use the effort estimation model in unified routing in Customer Service."
+ms.date: 10/04/2021
+ms.topic: article
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+---
+
+# Preview: Use effort estimation model in unified routing
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
+## Introduction
+
+Use effort estimation based model to classify and route work items.
+
+You can use the estimation technique to understand how much effort is required and choose the agent who has the bandwidth to manage it.
+
+Effort can be defined as the time period necessary to either resolve a work item or amount of time spent on a work item before it is moved to the next stage as defined by the organization:
+
+Some examples where effort estimate is required are as follows:
+
+- Estimate time for a customer response through email and assign accordingly
+
+- Estimate time for an agent analysis and assign accordingly
+
+- Estimate time for a full resolution and assign accordingly
+
+## Create effort estimation models
+
+You can create the effort estimation models in Omnichannel admin center or Customer Service Hub. The effort estimation can be created for any record that is enabled for unified routing. You can provide the context to the model for training by selecting the attributes. At least two attributes are mandatory and you can specify up to 10 attributes. Attributes that indicate severity and priority are useful.
+
+**To create an effort estimation model**
+
+1. In Customer Service Hub, go to the **Service Management** site map, and select **User attributes** under **Unified Routing**. If you are using Omnichannel admin center, in the site map, select **User attributes** under **Advanced settings**.
+
+2. For **Effort estimation for routing (preview)**, select **Manage**.
+
+3. On the page that appears, select **New**.
+
+4. On the **New effort estimation model** page, do the following:
+   
+   - **Name**: Enter a name for the model.
+   
+   - In **Data summary**, select the record, such as Issue (Case), for which you want to create the model.
+   
+   - In the **Attributes** section, select values for the **Categorical description** and **Detailed description** fields. You can add up to 10 attributes to be used to train the model.
+   
+   - In **Actual effort calculation**, select one of the following options to determine the time to address an incoming work item:
+       
+       - **Single duration field**: Select a work item attribute and the time unit.  
+       - **Calculated duration**: Select values to indicate the start and end times.
+       - **SLA KPI instance**: Use the SLA KPI instance to calculate the effort.
+   
+   - Optionally, define the filter conditions to select only relevant records.
+   
+   - Optionally, select the date range for the records to be fetched.
+  
+5. Review and save the model.
+
+6. Select **Train AI Model**. The **Training** tab displays the status of the training, which could take a couple of hours and depends on the conditions used. After the model is trained, the **Model published successfully** message appears on the page.
+
+    :::image type="content" source="media/effort-model-trained-published.png" alt-text="Trained and published model for effort estimation.":::
+
+7. Optionally, use **Dry run** and select an input value to test the model. The following details are available:
+
+   - **Effort value (minutes)**: The time in minutes that is estimated for the work item to be addressed.
+   - **Confidence score**: Indicates the degree of confidence in percentage value of the effort prediction.
+
+### Performance grade
+
+The performance grade of the model is indicated by A, B, C, D, E, or F. The letters indicate the quality of the model in the descending order. More information: [Prediction models performance](/ai-builder/prediction-performance)
+
+## Create classification rules based on effort estimation model
+
+
+## Create route-to-queue rules
+
+
+## Use diagnostics to analyze the efficacy of effort estimation model
+
+
+### See also
+
+[Overview of unified routing](overview-unified-routing.md)  
+[How to set up unified routing](set-up-routing-process.md) 
+

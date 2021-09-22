@@ -248,6 +248,8 @@
           href: set-up-skill-based-routing.md
       - name: Use sentiment prediction-based routing
         href: use-sentiment-prediction-for-routing.md
+      - name: Use effort estimation model for routing
+        href: use-effort-estimation-for-routing.md
       - name: Configure basic routing
         items:
         - name: Create and manage basic queues for cases

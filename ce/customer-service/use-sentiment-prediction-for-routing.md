@@ -54,7 +54,7 @@ You can optionally test the sentiment model by using the dry run option.
 2. On the **Dry run** panel, enter a word or phrase, such as "I am frustrated", and select **Test**. The model predicts the sentiment score, category, and the keyword that helped determine the score.
 
 
-## Create classification rules
+## Create classification rules based on sentiment prediction model
 
 After you enable sentiment prediction, create a classification rule based on machine learning model, and select type as **Sentiment prediction**. You can use the rule with other rules to help categorize the work items to be routed to the right agents who will help with the issues.
 
