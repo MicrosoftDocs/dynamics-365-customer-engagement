@@ -17,7 +17,10 @@ ms.custom:
 
 # Configure the origins allow list for knowledge articles
 
-Enabling the origins allow list feature ensures that knowledge authors add only safe links to their articles. The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number. Knowledge authors must use the exact match of links in the articles.
+Enabling the origins allow list feature ensures that knowledge authors add only safe links to their articles.
+
+> [!IMPORTANT]
+> The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number. Knowledge authors must use the exact match of links in the articles.
 
 To enable the origins allow list:
 
@@ -30,3 +33,12 @@ To enable the origins allow list:
 6.	Select **Save**.
 
 To remove a domain, select **Close** next to the domain.
+
+Adding links other than the supported origins or the exact match of links will lead to an error while opening an article. An error message "Update your origins allow list if any iframe in the article doesn't work or displays error." will appear.
+
+### See also
+
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-knowledge-articles)  
+[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md#search-for-knowledge-articles-in-the-customer-service-hub)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

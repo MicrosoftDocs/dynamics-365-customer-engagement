@@ -282,7 +282,11 @@ Use the **Email** button to send the knowledge article via mail. When you select
 
 ### View the knowledge article inline in the search control
 
-Select an article title to see its full content rendered in the same control. The article opens inline and you can scroll to read the complete article. In this view mode, you can perform the actions such as linking the knowledge article to a record and emailing the knowledge article to a customer. To learn more about sending the knowledge articles via email, see [Email the knowledge article](#email-the-knowledge-article).
+Select an article title to see its full content rendered in the same control. The article opens inline and you can scroll to read the complete article. 
+
+However, if you see an error while trying to open an article, it could be because the link types used in the article aren't a part of the origin allow list. An error message "Update your origins allow list if any iframe in the article doesn't work or displays error." will also appear. You must contact your administrator to update your origin allow list. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-the-origins-allow-list-for-knowledge-articles).
+
+In this view mode, you can perform the actions such as linking the knowledge article to a record and emailing the knowledge article to a customer. To learn more about sending the knowledge articles via email, see [Email the knowledge article](#email-the-knowledge-article).
 
   > [!div class=mx-imgBorder]
   > ![Knowledge article inline view.](media/km-inline-article-view.png "Knowledge article inline view")
