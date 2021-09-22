@@ -86,7 +86,17 @@
       - name: Customize the business card scanner control
         href: customize-business-card-scan-control.md
       - name: Integrate LinkedIn Sales Insights
-        href: install-lsi-solution.md        
+        href: install-lsi-solution.md    
+      - name: Integrate ZoomInfo app
+        items:
+        - name: Install ZoomInfo app  
+          href: install-zoominfo-app.md    
+        - name: Configure export preferences
+          href: configure-export-preferences-zoominfo.md  
+        - name: Match fields between Dynamics 365 and ZoomInfo
+          href: match-fields-between-dynamics365-zoominfo.md
+        - name: Customize the ZoomInfo app
+          href: customize-zoominfo-app.md              
       - name: Product management
         items:
         - name: Set up a product catalog
@@ -135,16 +145,6 @@
           href: enable-enhanced-add-product-experience.md
         - name: Customize the Add Products dialog box
           href: customize-add-products-dialog-box.md
-      - name: Integrate ZoomInfo app
-        items:
-        - name: Install ZoomInfo app  
-          href: install-zoominfo-app.md    
-        - name: Configure export preferences
-          href: configure-export-preferences-zoominfo.md  
-        - name: Match fields between Dynamics 365 and ZoomInfo
-          href: match-fields-between-dynamics365-zoominfo.md
-        - name: Customize the ZoomInfo app
-          href: customize-zoominfo-app.md    
     - name: Productivity
       items:
       - name: Activity management
