@@ -21,6 +21,10 @@
       items:
       - name: Set up Dynamics 365 Sales
         href: set-up-dynamics-365-sales.md
+      - name: Set up Dynamics 365 Sales premium features
+        href: intro-admin-guide-sales-insights.md
+    - name: Manage sample data      
+      href: manage-sample-data.md        
     - name: Upgrade
       items:
       - name: Upgrade from Dynamics 365 Sales Professional
@@ -47,6 +51,8 @@
           href: /power-platform/admin/manage-transactions-with-multiple-currencies
         - name: Work with fiscal year settings
           href: /power-platform/admin/work-fiscal-year-settings
+    - name: Uninstall Dynamics 365 Sales premium features
+      href: uninstall-sales-insights.md  
   - name: Learn the basics
     items:
     - name: Learn the basics
@@ -374,8 +380,8 @@
       items:
       - name: Work with accounts and contacts
         href: ../basics/accounts-contacts.md
-      - name: Install ZoomInfo app
-        href: install-zoominfo-app.md   
+      - name: Use ZoomInfo app data
+        href: use-zoominfo-app-data.md   
       - name: Organize contacts in live org charts for accounts
         href: live-org-chart.md
       - name: Scan business cards
@@ -393,21 +399,28 @@
         - name: Activities in Kanban view
           items:
           - name: Work with activities in the Kanban view
-            href: activity-kanban-view.md
+            href: activity-kanban-view.md 
+      - name: Auto capture activities
+        href: auto-capture.md
+        items:
+        - name: Use basic auto capture
+          href: free-auto-capture.md
+        - name: Premium auto capture
+          href: premium-auto-capture.md      
       - name: Email insights
         items:
         - name: View message interactions with email engagement
           href: email-engagement.md
-      - name: Auto capture activities
-        items:
-        - name: Use basic auto capture
-          href: free-auto-capture.md
+      - name: How notes analysis assists you with suggestion
+        href: notes-analysis.md          
     - name: Lead management
       items:
       - name: Create or edit leads
         href: create-edit-lead-sales.md
       - name: Qualify or convert leads
         href: qualify-lead-convert-opportunity-sales.md
+      - name: Prioritize leads using predictive scores
+        href: work-predictive-lead-scoring.md
       - name: Reopen leads
         href: re-open-lead-sales.md
       - name: Nurture sales from lead to order
@@ -416,6 +429,8 @@
       items:
       - name: Create or edit opportunities
         href: create-edit-opportunity-sales.md
+      - name: Prioritize opportunities using predictive scores
+        href: work-predictive-opportunity-scoring.md        
       - name: Deal manager
         items:
         - name: Using the deal manager workspace
@@ -476,14 +491,26 @@
         href: adjust-values-in-forecast.md
       - name: Maintain up to date forecast data
         href: keep-forecast-data-up-to-date.md
+      - name: Analyze revenue outcome using predictive forecasting
+        href: analyze-revenue-outcome-using-predictive-forecasting.md
+      - name: Understand forecast projection through trend chart
+        href: understand-forecast-projection-through-trend-chart.md
+      - name: Analyze deals flow between snapshots
+        href: analyze-deals-flow-between-snapshots.md
+      - name: View snapshots
+        href: view-snapshots.md        
     - name: Guided selling
       items:
-      - name: Assistant
+      - name: Sales accelerator
         items:
-        - name: Guide customer communications with assistant
-          href: assistant.md
-        - name: Stay updated with cards in assistant
-          href: action-cards-reference.md
+        - name: What is sales accelerator
+          href: sales-accelerator-intro.md
+        - name: Prioritize sales pipeline through work list
+          href: prioritize-sales-pipeline-through-work-list.md
+        - name: Connect with customers through a record or the up next widget
+          href: connect-with-customers.md
+        - name: Personalize your sales accelerator
+          href: personalize-sales-accelerator.md  
       - name: Playbook management
         items:
         - name: Associate documents with playbook activities
@@ -512,7 +539,7 @@
         href: add-activity-campaign-using-app-marketing-sales.md
       - name: Track a marketing campaign response
         href: track-marketing-campaign-response-using-app-marketing-sales.md
-    - name: Sales premium
+    - name: Relationship intelligence
       items:
       - name: Assistant
         items:
@@ -522,13 +549,6 @@
           href: action-cards-reference.md
         - name: Productivity intelligence
           items:
-          - name: Capture customer related activities with auto capture
-            href: auto-capture.md
-            items:
-            - name: Premium auto capture
-              href: premium-auto-capture.md
-        - name: How notes analysis assists you with suggestion
-          href: notes-analysis.md
       - name: Relationship insights
         items:
         - name: View customer activity history
@@ -537,44 +557,20 @@
           href: talking-points.md
         - name: Get introduced to lead
           href: who-knows-whom.md
-      - name: Predictive models
-        items:
-        - name: Prioritize leads using predictive scores
-          href: work-predictive-lead-scoring.md
-        - name: Prioritize opportunities using predictive scores
-          href: work-predictive-opportunity-scoring.md
-      - name: Premium forecasting
-        items:
-        - name: Analyze revenue outcome using predictive forecasting
-          href: analyze-revenue-outcome-using-predictive-forecasting.md
-        - name: Understand forecast projection through trend chart
-          href: understand-forecast-projection-through-trend-chart.md
-        - name: Analyze deals flow between snapshots
-          href: analyze-deals-flow-between-snapshots.md
-        - name: View snapshots
-          href: view-snapshots.md
-      - name: Sales accelerator
-        items:
-        - name: What is sales accelerator
-          href: sales-accelerator-intro.md
-        - name: Prioritize sales pipeline through work list
-          href: prioritize-sales-pipeline-through-work-list.md
-        - name: Connect with customers through a record or the up next widget
-          href: connect-with-customers.md
       - name: Conversation Intelligence
         items:
-      - name: Overview of Conversation Intelligence
-        href: dynamics365-sales-insights-app.md
-      - name: View home page
-        href: dynamics365-sales-insights-app-home-page.md
-      - name: View team information
-        href: conversation-intelligence-team-overview.md
-      - name: View seller information
-        href: conversation-intelligence-seller-details.md
-      - name: View and understand call summary
-        href: view-and-understand-call-summary.md
-      - name: Monitor call and insight processing
-        href: monitor-call-insight-processing.md
+        - name: Overview of Conversation Intelligence
+          href: dynamics365-sales-insights-app.md
+        - name: View home page
+          href: dynamics365-sales-insights-app-home-page.md
+        - name: View team information
+          href: conversation-intelligence-team-overview.md
+        - name: View seller information
+          href: conversation-intelligence-seller-details.md
+        - name: View and understand call summary
+          href: view-and-understand-call-summary.md
+        - name: Monitor call and insight processing
+          href: monitor-call-insight-processing.md
     - name: Sales on mobile
       items:
       - name: Overview
