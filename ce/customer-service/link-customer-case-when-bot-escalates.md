@@ -22,7 +22,8 @@ To link the customer or case, set the values for the associated attributes, such
 
 To create context variables for Azure bot and set the values to "string", see [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md). 
 
-To create context variables for bots in Power Virtual Agents, and set the values to "User's entire response", see [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot)
+To create context variables for bots in Power Virtual Agents, and set the values to "User's entire response", see [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
+
 The following sample screenshot outlines how the variables need to be set in Power Virtual Agents.
 
 > [!Note]

@@ -1,10 +1,10 @@
 ---
 title: "Enable a bot to escalate and end conversations | MicrosoftDocs"
 description: "Use this topic to understand how to program a bot to route a conversation to a human agent in Omnichannel for Customer Service."
-ms.date: 03/24/2021
+ms.date: 09/23/2021
 ms.topic: reference
-author: neeranelli
-ms.author: nenellim
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ---
 # Enable a bot to escalate and end conversations
@@ -49,7 +49,7 @@ After the agent accepts the request, the chat transcript of the bot's conversati
 
 An Omnichannel for Customer Service bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can send an `EndConversation` request to Omnichannel for Customer Service.
 
-When the bot ends the conversation with the customer, the bot can link the case number with the conversation, so it
+When the bot ends the conversation with the customer, the bot can link the case number with the conversation, so that the next time a conversation is started up with the customer, the agent can view all case history using the case number that's already linked with the conversation. This saves valuable time for the customer and the agent.
 
 ## Sample code for escalating and ending conversations
 
