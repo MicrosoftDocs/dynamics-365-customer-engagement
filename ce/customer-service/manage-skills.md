@@ -41,7 +41,7 @@ To remove skills, select **X**.
 
 ### See also
 
-[Allow agents to update skills](allow-agents-update-skills.md)
+[Allow agents to update skills](allow-agents-update-skills.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Set up unified routing](set-up-routing-process.md)  
 
