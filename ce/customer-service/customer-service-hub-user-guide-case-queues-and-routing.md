@@ -52,15 +52,6 @@ To know more about queues, see [Work with queues](work-with-queues.md).
     > [!IMPORTANT]
     >  The **Save & Route** button is available only on active cases.  
 
-## Manage skills
-
-*When the custom skill control is added on all routed records in Customer Service Hub, you can view and update the skill set to  view and delete existing skills, or even add new skills from the existing skill set. Sometimes agent facing skill control on case form and on conversation form doesnt load and thus skills are not visible. To troubleshoot this, user needs to clear the browser cache.*
-
-> [!Note]
-> To be able to update skills, your administrator must enable the setting in Omnichannel admin center or Customer Service Hub. More information: [Allow agents to update skills](allow-agents-update-skills.md).
-
-
-
 ### See also
 
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)  
