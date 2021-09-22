@@ -36,7 +36,7 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../include
    - Case for interactive experience main form – In the **Related** section 
   
   > [!NOTE]
-  >  The Knowledge Base Search control can be used on Microsoft Dynamics 365 for tablets and phones. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  
+  > The Knowledge Base Search control can be used on Microsoft Dynamics 365 for tablets and phones. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  
 
 Microsoft Dynamics 365 Customer Service supports the native knowledge management, and this option is available for the Dynamics 365 Customer Service app users.
   
@@ -110,8 +110,8 @@ Make sure that you have the System Administrator or System Customizer security r
   
 4. In the solution explorer, choose the entity you want to add the search control to, and under **Communication & Collaboration**, make sure the **Knowledge Management** check box is selected. 
 
-   [!div class="mx-imgBorder"]   
-   ![Setting to enable knowledge management.](media/check-knowledge-management.png "Setting to enable knowledge management")
+    > [!div class="mx-imgBorder"]
+    > ![Setting to enable knowledge management.](media/check-knowledge-management.png "Setting to enable knowledge management")
 
    Select the  **Save** icon to save the setting for the entity.
   
@@ -119,8 +119,8 @@ Make sure that you have the System Administrator or System Customizer security r
   
 6. Choose the entity form of type **Main**.  
 
-   [!div class="mx-imgBorder"]   
-   ![Choose form type.](media/choose-form-type-km.png "Choose form type")
+    > [!div class="mx-imgBorder"]
+    > ![Choose form type.](media/choose-form-type-km.png "Choose form type")
   
 7. Select the area where you want to place the search control, and on the **Insert** tab, select **Knowledge Base Search**.  
   
@@ -128,9 +128,8 @@ Make sure that you have the System Administrator or System Customizer security r
   
 8. In the **Set Properties** dialog box, on the **Display** tab, specify fields as described in the following table, and then select **Set** to apply the settings.
 
-[!div class="mx-imgBorder"] 
-  
-   ![Set properties for Knowledge Base Search control.](media/km-search-control-tab.png "Set properties for Knowledge Base Search control")
+   > [!div class="mx-imgBorder"]  
+   > ![Set properties for Knowledge Base Search control.](media/km-search-control-tab.png "Set properties for Knowledge Base Search control")
 
 
 |Tab  |Property  |Description|
@@ -165,8 +164,8 @@ Open the **Knowledge Base Search** control and edit its properties to configure 
     > [!NOTE]
     > Ensure that Relevance search is enabled for automatic filtering to work. The Knowledge Article attribute must be added to the Knowledge Article Quick Find View. Ensure that the Source Entity Attribute is present on the form.
 
-   [!div class="mx-imgBorder"]
-   ![Configure auto filtering.](media/ka-config-auto-filtering.png "Configure auto filtering")
+      > [!div class="mx-imgBorder"]
+      > ![Configure auto filtering.](media/ka-config-auto-filtering.png "Configure auto filtering")
 
 To learn more about how to use the automatic filtering option, go to [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-auto-filtered-results)
 
@@ -190,17 +189,21 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 
 7. Retain the default values for all the other fields, and then select **OK**.
 
-   [!div class="mx-imgBorder"]
-   ![Set properties for subgrid.](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
+    > [!div class="mx-imgBorder"]
+    > ![Set properties for subgrid.](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
 
 8. Save your knowledge subgrid, and then select **Publish**.
 
    ![New section in subgrid view.](media\Knowledge-control-subgridview.png "Knowledge control subgrid view")
 
-The linked knowledge article subgrid that you added will be visible to the customer service representative on the entity form during runtime.
+The linked knowledge article subgrid that you add will be visible to the customer service representative on the entity form during runtime.
+
+The Knowledge Search tab is available by default on the app side pane.
+You can use the knowledge search control either on the app side pane or embed it in the form through customization but make sure that you don't enable both simultaneously. Otherwise, when you try to access the embedded control, the "Error loading the control" message will appear.
 
 
-### See also  
+
+### See also
 
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](customer-service-hub-user-guide-knowledge-article.md)  
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)  

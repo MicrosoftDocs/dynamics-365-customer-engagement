@@ -1,7 +1,7 @@
 ---
 title: "Close opportunities as won or lost - Sales Enterprise | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost. You can reopen it in future if the customer is interested in pursuing the opportunity."
-ms.date: 02/10/2021
+ms.date: 09/02/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,10 +11,11 @@ manager: annbe
 # Close opportunities as won or lost (Sales Hub)
 
 If your customer has accepted your proposal, congratulations! However, whether your customer accepted or declined your proposal, it's now time to close that opportunity.  
-  
+
 1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
     
 2. Open the opportunity you want to edit.  
+1. Select the **Quotes** tab and ensure that all the quotes are in **Closed** state. For instructions on how to close a quote, see [Close a quote](close-quote.md).
   
 3. At the top of the **Opportunity** form, do one of the following:  
 

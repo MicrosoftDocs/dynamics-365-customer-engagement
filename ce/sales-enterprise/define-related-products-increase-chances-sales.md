@@ -8,13 +8,6 @@ ms.author: lavanyakr
 manager: annbe
 ms.custom: 
   - "dyn365-sales"
-searchScope: 
-  - D365-App-msdynce_saleshub
-  - D365-Entity-product
-  - D365-UI-*
-  - Dynamics 365
-  - Sales
-  - Customer Engagement
 ---
 
 # Define related products to increase sales

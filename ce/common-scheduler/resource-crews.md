@@ -1,6 +1,6 @@
 ---
-title: "Resource crew scheduling for Universal Resource Scheduling | MicrosoftDocs"
-description: Learn about resource crew scheduling for Universal Resource Scheduling
+title: "Schedule work with resource crews in Universal Resource Scheduling"
+description: "Learn how to use resource crews to simplify the scheduling of people, equipment, or facilities that will perform the same work during a period of time."
 ms.date: 1/09/2019
 ms.service: dynamics-365-field-service
 ms.subservice: common-scheduler
@@ -16,7 +16,7 @@ search.app:
   - D365FS
 ---
 
-# Resource crew scheduling for Universal Resource Scheduling
+# Schedule work with resource crews in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-resource-crews.md](../shared/urs/resource-crews.md)]
 

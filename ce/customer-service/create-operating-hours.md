@@ -1,7 +1,7 @@
 ---
 title: "Create and manage operating hours | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to create, manage, and define operating hours in Omnichannel for Customer Service."
-ms.date: 04/09/2021
+ms.date: 08/26/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -87,7 +87,7 @@ You can edit or delete the operating hours schedule in an existing record.
    - This and all following events
    - All events in the series 
 4. If you want to delete an event, select **Delete**.
-    
+
     > ![Edit an event.](media/oc-operating-hour-modify.png "Create a working hour schedule")
 
 ## Add operating hours to a chat widget
@@ -111,6 +111,10 @@ Do the following to specify operating hours for a queue:
 1. Open the queue for which you want to specify the operating hours.
 2. On the **Summary** tab, in the **Operating Hours** box, search and select the operating hour record that you want to specify.
 3. Save the changes.
+
+## Limitation
+
+The Calendar entity can't be migrated.
 
 ### See also
 
