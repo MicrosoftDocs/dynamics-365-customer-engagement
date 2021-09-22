@@ -29,15 +29,15 @@ You can also enable your agents to update skills for the work items assigned to 
 
 - Assign conversations to agents who are best qualified to address the issue.
 
-- Minimize overhead in queue maintenance.
+- Minimize overheads in queue maintenance.
 
-- Effective use of agents skills.
+- Use agent skills effectively.
 
-- Enhanced productivity.
+- Enhance productivity.
 
-- Effective management of skills based on the CSAT and KPIs.
+- Effectively manage skills based on the CSAT and KPIs.
 
-- Faster conversation resolution.
+- Resolve conversations faster.
 
 ## Prerequisites
 
