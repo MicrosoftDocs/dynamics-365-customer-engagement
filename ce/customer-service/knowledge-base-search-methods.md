@@ -79,6 +79,9 @@ You can also search the knowledge base using portals. You can use the following 
 - **Relevance search**: Let's you search across multiple tables  sorted by relevance. More information: Will add link to portals documentation once it is ready from the portals team.
 - **Faceted search**: Let's you search by using filters based on characteristics of the content which helps return faster search results than traditional search. More information:  [Use faceted search to improve portal search](/powerapps/maker/portals/configure/improve-portal-search-faceted-search).
 
+However, if you see an error while trying to open an article, it could be because the link types used in the article aren't a part of the origin allow list. An error message "Update your origins allow list if any iframe in the article doesn't work or displays error." will also appear. You must contact your administrator to update your origins allow list. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md).
+
+
 ### See also
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
