@@ -62,7 +62,7 @@ After knowledge management is set up, users will be able to:
 > [!NOTE]
 > Embedded knowledge search settings is deprecated in the web client. You must use the unified interface knowledge settings page.
 
- To update the Embedded Knowledge Search Control page to the Knowledge Settings page, manually:
+ To manually go to the unified interface knowledge settings page from your custom app:
 
 1.	Select your custom app.
 
