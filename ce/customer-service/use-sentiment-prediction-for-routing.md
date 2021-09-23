@@ -72,7 +72,7 @@ After you enable sentiment prediction, create a classification rule based on mac
 
     i:::image type="content" source="media/input-attributes-sentiment.png" alt-text="Input attributes for sentiment model.":::
 
-    For a messaging channel, you'll typically set the related entity as **Context item value (Conversation)**, and then select the attribute. The bot context variables should be captured or pre-conversation survey must be set up to be able to use the input attribute. Frame the pre-conversation survey questions such that they elicit the customer sentiment. For example, you could use a question "How has been your experience with the product?" or "How can we help you?".
+    For a messaging channel, you'll typically set the related entity as **Context item value (Conversation)**, and then select the attribute. The bot context variables should be set or pre-conversation survey must be set up to be able to use the input attribute. Frame the pre-conversation survey questions such that they elicit the customer sentiment. For example, you could use a question "How has been your experience with the product?" or "How can we help you?".
 
     You can define up to 10 attributes, whose values can be used to build the prediction model. At least one attribute, the first one, is mandatory and can't be deleted.
 

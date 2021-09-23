@@ -100,6 +100,8 @@ After you train the effort estimation models, you can create classification rule
 
 5. On the page that appears, select the input attributes to use for effort estimation. While you can use up to 10 attributes, the **Categorical description** and **Detailed description** fields are mandatory. By default, the output attributes are **Effort value (minutes)** and **Effort confidence score** and can't be edited.
    
+    For the messaging channels, the bot context variables should be set or pre-conversation survey must be set up to be able to use the input attributes.
+   
    :::image type="content" source="media/effort-model-input-attributes.png" alt-text="Choose input attributes for effort estimation.":::
 
 ## Create route-to-queue rules
