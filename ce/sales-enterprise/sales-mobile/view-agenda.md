@@ -1,7 +1,7 @@
 ---
 title: View meetings in the Dynamics 365 Sales mobile app
 description: Learn how to view meetings in the Dynamics 365 Sales mobile app.
-ms.date: 09/02/2021
+ms.date: 09/27/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -53,28 +53,28 @@ Up to five meeting participants are shown in the **Participants** section, such 
 
 ### Related content
 
-This section displays information relevant to the meeting such as regarding entity and appointment.
+This section displays information relevant to the meeting such as regarding record and appointment.
 
 > [!NOTE]
-> The data that is displayed is related to the selected regarding entity and retrieved from your Dynamics 365 Sales organization.
+> The data that is displayed is related to the selected regarding record and retrieved from your Dynamics 365 Sales organization.
 
-#### Regarding entity
+#### Regarding record
 
-The Regarding section or entity specifies what the meeting is about, such as an opportunity, lead, contact, or account. When a meeting is attached to an entity, the meeting displays the timeline, insight, participant information, and corresponding related entities. Also, the regarding entity helps you to understand what the meeting is about, so you can come prepared with relevant information.
+The **Regarding** section specifies what the meeting is about, such as an opportunity, lead, contact, or account. When a meeting is attached to a record, the meeting displays the timeline, insight, participant information, and corresponding related entities. Also, the regarding record helps you to understand what the meeting is about, so you can come prepared with relevant information.
 
 In the following screenshot, you can see that the meeting is about an opportunity to purchase hybrid model cars.
 
-![View regarding entity.](media/sm-view-regarding-entity.png "View regarding entity")
+![View regarding record.](media/sm-view-regarding-record.png "View regarding record")
 
-You can perform the following action on regarding entities: [view and edit](open-record.md) the records along with [change regarding entity in meetings](#change-regarding-entity) and [add regarding entity in meetings](#add-regarding-entity). You can also [disconnect the regarding entity](#disconnect-regarding-entity) when it is no longer relevant to the current meeting.
+You can perform the following action on regarding entities: [view and edit](open-record.md) the records along with [change regarding record in meetings](#change-regarding-record) and [add regarding record in meetings](#add-regarding-record). You can also [disconnect the regarding record](#disconnect-regarding-record) when it is no longer relevant to the current meeting.
 
 > [!NOTE]
 > - You'll be able to set the regarding record only if server-side synchronization has been enabled in your environment and email address is approved. Contact your administrator to do the settings.
-> - If you are not able to add a regarding entity to meetings even after the appropriate settings are in place, uninstall and reinstall the app.
+> - If you are not able to add a regarding record to meetings even after the appropriate settings are in place, uninstall and reinstall the app.
 
-**Change regarding entity in meetings**<a name='change-regarding-entity'></a>
+**Change regarding record in meetings**<a name='change-regarding-record'></a>
 
-You can update the regarding entity when it is no longer relevant or there are changes to the meeting. To change the regarding entity, follow these steps:
+You can update the regarding record when it is no longer relevant or there are changes to the meeting. To change the regarding record, follow these steps:
 
 1. Tap the three dots, **More options** (![Options button.](media/sm-options-button.png "Options button")), and then tap **Change connected record**.
 
@@ -90,12 +90,12 @@ You can update the regarding entity when it is no longer relevant or there are c
     
 The connected record details are displayed in the Regarding section.
 
-**Add regarding entity in meetings**<a name='add-regarding-entity'></a>
+**Add regarding record in meetings**<a name='add-regarding-record'></a>
 
-You can add a regarding entity to a meeting when no regarding entity is attached to it. When you add the regarding entity, its corresponding related entities are also added to the meeting.  
+You can add a regarding record to a meeting when no regarding record is attached to it. When you add the regarding record, its corresponding related entities are also added to the meeting.  
 
 > [!NOTE]  
-> Once you add a regarding entity, you cannot delete it. However, you can update the entity if you find that the added entity is inappropriate.   
+> Once you add a regarding record, you cannot delete it. However, you can update the record if you find that the added record is inappropriate.   
 
 1. On the meeting details page, tap **Connect a record**.
 
@@ -111,9 +111,9 @@ You can add a regarding entity to a meeting when no regarding entity is attached
     
 The connected record is displayed in the **Regarding** section.
 
-**Disconnect regarding entity**<a name='disconnect-regarding-entity'></a>
+**Disconnect regarding record**<a name='disconnect-regarding-record'></a>
 
-You can disconnect the regarding entity when it is no longer relevant to the current meeting.
+You can disconnect the regarding record when it is no longer relevant to the current meeting.
 
 - Tap the three dots, **More options** (![Options button.](media/sm-options-button.png "Options button")), and then tap **Disconnect record**.
 

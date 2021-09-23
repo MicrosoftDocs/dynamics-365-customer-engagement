@@ -58,7 +58,7 @@ You can perform the following actions in the **Notes** section.
     > [!NOTE]
     > If you're adding the note by using the navigation bar at the bottom of the screen, you must connect the note to the record that it's regarding. Tap **Next**, and then select the record you want to associate the note with. More information about annotation: [annotation EntityType](/dynamics365/customer-engagement/web-api/annotation?view=dynamics-ce-odata-9)
 
-    If you're adding the note by using the navigation bar at the bottom of the screen, you must set the entity you would like the note to be connected to. Tap **Next**, and then select the record you want to associate the note with. Learn more about annotation in dynamics entities
+    If you're adding the note by using the navigation bar at the bottom of the screen, you must set the record you would like the note to be connected to. Tap **Next**, and then select the record you want to associate the note with. Learn more about annotation in dynamics entities
 
 5. Tap **Save**.
 

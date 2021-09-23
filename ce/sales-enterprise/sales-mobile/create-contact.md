@@ -21,8 +21,8 @@ In the Dynamics 365 Sales mobile app, you can view, edit, and create contacts.
 ## View details
 
 > [!NOTE]
-> - The fields that you see on the compact form are defined in the quick view form of the entity.
-> - The lightweight view doesn't include all attributes of the entity.
+> - The fields that you see on the compact form are defined in the quick view form of the table.
+> - The lightweight view doesn't include all attributes of the table.
 > - This is a lightweight form that contains any attributes defined in the first form on quick view form set order. More information: [Set the form order](/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
 
 You can view the details of a contact in the following ways: 
@@ -33,7 +33,7 @@ The home page displays a list of contacts that you have recently accessed. When 
 
 **On the Meetings page**     
 
-The Meeting details page displays contacts are invited for the meeting. Also, the notes and insights that are displayed in the meeting are related to the displayed regarding entity. Tap a contact to view the details of the contact in a quick view form. 
+The Meeting details page displays contacts are invited for the meeting. Also, the notes and insights that are displayed in the meeting are related to the displayed regarding record. Tap a contact to view the details of the contact in a quick view form. 
 
 In the following example, the details of a recent contact shown on the home page are displayed in a quick view form:   
 

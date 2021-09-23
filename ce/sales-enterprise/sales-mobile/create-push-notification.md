@@ -17,7 +17,7 @@ Push notifications help to engage app users and help them prioritize key tasks. 
 - **Recipients Item-1**: Enter the user's email or the user's Azure Active Directory object ID.
 - **Message**: Enter the notification message.
 - **Open app**: Select **Yes**.
-- **Entity**:  Select which entity the notification is for.
+- **Entity**:  Select which table the notification is for.
 - **Record ID**: Enter the record ID. If you don't enter a record ID, the mobile app will open at the home screen when you tap the notification. If you enter the record ID, the mobile app will open the specified record when you tap the notification.
 
 ![Send push notification V2 action.](media/sm-push-notif.png "Send push notification V2 action")
