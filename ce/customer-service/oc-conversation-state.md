@@ -1,7 +1,7 @@
 ---
 title: "Understand conversation states in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 06/02/2021
+ms.date: 09/24/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -94,7 +94,7 @@ Omnichannel for Customer Service has a default time set for the conversation to 
 
 ### Understand working of auto-close of conversations
 
-The Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that do not transition for more than the default configured time. These conversations become eligible for automatic-closure, and next time, when the scheduler runs, these conversations are moved from the existing status reason to the **Closed** state.
+The Omnichannel for Customer Service application checks the conversations every 12 hours to identify the conversations that do not transition for more than the default configured time. These conversations become eligible for automatic-closure, and next time, when the scheduler runs, these conversations are moved from the existing status reason to the **Closed** state.
 
 > [!IMPORTANT]
 > To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
@@ -120,12 +120,12 @@ The matrix describes the channel, status reason, and default configured time.
 
 **Example**
 
-The scheduler runs for every 24 hours considering starting at 0000 hours AM.
+The scheduler runs for every 12 hours considering starting at 0000 hours AM.
 
-For the chat channel, a conversation is in open state at 1100 hours of Jan 10, 2020. and remains in this state until midnight 2359 hours. Since the conversation is in open state for more than 20 minutes (default configured time), this conversation is eligible for automatic-closure. At 0000 hours of Jan 11, 2020, the scheduler runs and the conversation in the **Open** state is moved to the **Closed** state.
+For the chat channel, consider a conversation that's in the **Open** state at 1100 hours of Jan 10, 2020, and remains in this state until 2259 hours at night. Since the conversation is open for more than 20 minutes (default configured time), this conversation is eligible for automatic closure. At 2300 hours of Jan 10, 2020, when the scheduler runs, the conversation that's in the **Open** state is moved to the **Closed** state.
 
 > [!Note]
-> A scheduler runs every 24 hours to close all eligible conversations. However, the exact time at which the scheduler runs is dependent on the Omnichannel for Customer Service deployment time in your region. For more information, contact Microsoft support.
+> The scheduler runs every 12 hours to close all eligible conversations. However, the exact time at which the scheduler runs is dependent on the Omnichannel for Customer Service deployment time in your region. For more information, contact Microsoft support.
 
 ### Conversation in waiting
 
@@ -133,7 +133,7 @@ For chat and SMS channel, a conversation in **Waiting** is moved to the **Closed
 
 For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than 5 minutes.
 
-To learn more, see [Create a work stream](work-streams-introduction.md#create-a-work-stream).
+To learn more, see [Create a workstream](work-streams-introduction.md#create-a-work-stream).
 
 ### Set default time using APIs
 
