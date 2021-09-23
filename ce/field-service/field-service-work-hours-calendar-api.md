@@ -551,6 +551,7 @@ The `CalendarId` can be retrieved from resource attributes. Make this call to ge
 The `InnerCalendarId` can be retrieved from calendar attributes. Make this call to get this information: `[org-url]/api/data/v9.1/calendars([calendar-id-from-above-call])?$expand=calendar_calendar_rules`. An example of the above call is `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/calendars(02481736-1b6a-4d49-9ebd-a5bd041c1c99)?$expand=calendar_calendar_rules`.
 
 **What happens if there are overlapping rules?** 
+
 There are a couple different ranks that rules fall under: 
 
 - *Rank 1* - daily occurrence (working/non-working), and time off occurrence. 
