@@ -28,7 +28,7 @@ This topic explains how you can use the Omnichannel Chat SDK to customize the li
 
 ## Download Omnichannel Chat SDK
 
-We recommend that you download the latest version of the Omnichannel Chat SDK package to implement the latest features. For download instructions and information, go to [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
+We recommend that you install and use the latest version of the Omnichannel Chat SDK package to implement the latest features. For download instructions and information, go to [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
 
 ## Customize live chat widget using Omnichannel Chat SDK
 
