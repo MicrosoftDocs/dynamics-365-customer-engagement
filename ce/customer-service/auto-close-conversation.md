@@ -11,7 +11,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic demonstrates how you can configure the automatic closure duration of a conversation using the Web API. 
+This topic demonstrates how you can configure the auto-close duration of a conversation using the Web API. 
 
 Use the following `GET` request to fetch all the configuration records that have been defined out of the box. You can make a `GET` request to `msdyn_occhannelconfiguration` entity to fetch all the existing channel records. For each of these channels, you can see its state when you query the `msdyn_occhannelstateconfiguration` entity.
 
