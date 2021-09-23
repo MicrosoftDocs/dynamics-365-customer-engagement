@@ -24,7 +24,7 @@ This section lists the prerequisites for using Omnichannel for Customer Service.
 
 ### International availability
 
-Make sure that Omnichannel for Customer Service is available in your region. For more information, see [International availability](international-availability.md).
+Make sure that Omnichannel for Customer Service is available in your region. More information: [International availability](international-availability.md)
 
 ### Licensing
 
@@ -32,7 +32,7 @@ Make sure that Omnichannel for Customer Service is available in your region. For
 - You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Chat for Dynamics 365 Customer Service for each Chat user.
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
-## System requirements of Omnichannel for Customer Service
+## System requirements for Omnichannel for Customer Service
 
 The system requirements to use Omnichannel for Customer Service are as follows.
 
