@@ -1,13 +1,13 @@
 ---
-title: "Automatic closure of conversations | MicrosoftDocs"
-description: "Use this topic to understand how to configure auto-close duration for conversations using the Web API."
+title: "Configure automatic closure of conversations | MicrosoftDocs"
+description: "Use this topic to understand how to configure the auto-close duration of conversations using the Web API."
 ms.date: 09/24/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# Automatic closure of conversations
+# Configure automatic closure of conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
