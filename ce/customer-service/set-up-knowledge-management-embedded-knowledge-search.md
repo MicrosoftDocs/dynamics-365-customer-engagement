@@ -57,10 +57,10 @@ After knowledge management is set up, users will be able to:
   
 4. Select **Save**.  
 
-## Set up knowledge management settings page in sitemap manually
+## Set up unified interface knowledge management settings page in sitemap manually
 
 > [!NOTE]
-> Embedded knowledge search settings is deprecated in the web client. You must use the unified interface knowledge settings page.
+> The Embedded Knowledge Search Control entity is deprecated in the web client. You must use the unified interface Knowledge Settings entity.
 
  To manually go to the unified interface knowledge settings page from your custom app:
 
