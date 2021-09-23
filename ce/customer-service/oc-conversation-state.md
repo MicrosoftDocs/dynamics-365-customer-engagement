@@ -135,7 +135,7 @@ To learn more, see [Create a workstream](work-streams-introduction.md#create-a-w
 
 ### Set default time using APIs
 
-Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Automatic closure of a conversation](auto-close-conversation.md).
+Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations](auto-close-conversation.md).
 
 ### See also
 
