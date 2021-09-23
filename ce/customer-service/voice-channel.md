@@ -72,7 +72,8 @@ Take a look at some of the key capabilities that makes the voice channel great f
 [Configure post-call survey](voice-channel-survey.md)  
 [Set up a multi-language contact center](voice-channel-multi-language-contact-center.md)  
 [Handle call overflow for the voice queues](voice-channel-call-overflow.md)  
-[Manage music](voice-channel-music.md)  
+[Manage music](voice-channel-music.md)<br>
+[Configure call recordings and transcripts](voice-channel-configure-transcripts.md)<br>
 [Supported regions and languages](voice-channel-region-availability.md)  
 
 ## Agent experience
@@ -86,6 +87,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 [Monitor voice calls](voice-channel-monitor-calls.md)  
 [Real-time analytics - Intraday conversation insights](intraday-conversation-insights.md)  
 [Real-time analytics - Intraday Agents insights](intraday-agents-insights.md)  
+[Voice channel analytics, reports, and call insights](voice-channel-reports-analytics.md)
 
 ### See also
 

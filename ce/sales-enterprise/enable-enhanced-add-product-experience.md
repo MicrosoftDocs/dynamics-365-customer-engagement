@@ -6,6 +6,15 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
+searchScope: 
+  - D365-App-msdynce_saleshub
+  - D365-Entity-opportunityproduct
+  - D365-Entity-salesorderdetail
+  - D365-Entity-quotedetail
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 # Preview: Enable or disable the enhanced experience for adding products
 

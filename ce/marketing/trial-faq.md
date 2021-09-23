@@ -1,10 +1,10 @@
 ---
-title: "Trial FAQ (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Trial FAQ - Dynamics 365 Marketing | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Marketing trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 08/17/2021
+ms.date: 08/31/2021
 ms.service: dynamics-365-marketing
-ms.topic: article
-ms.custom: template-get-started
+ms.topic: get-started
+ms.custom: template-trial-faq
 author: alfergus
 ms.author: alfergus
 manager: shellyha

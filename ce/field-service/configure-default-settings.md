@@ -54,8 +54,7 @@ The Field Service Settings page allows system administrators to set default sett
 |  Default Crew Strategy  |   Select the strategy that will be applied, by default, to any crews created in the system. Upon install, this field is set to "Crew Leader Management." While this setting does apply a default value, this value can be managed independently for each crew.  |
 |  Schedule assistant  |  Choose default options for the schedule assistant.   |
 |  Auto filter service territory  |  Select whether the schedule assistant should automatically filter search results based on the work order territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)    |
-|  Default radius value    |   Select a default radius the schedule assistant will use when searching for resources for  work orders. For example, if you choose a 20 mile radius, then the schedule assistant will find resources within 20 miles of the work order  booking location.   |
-|  Default radius unit     |    Select miles or kilometers.      |
+
 
   
 ## Schedule board settings  
@@ -71,7 +70,7 @@ The Field Service Settings page allows system administrators to set default sett
 |  Booking alert template   |   This is for the booking alert entity, you can have booking alerts that display information within the alert. You can modify the data shown here. |
 |  Scheduler core details view  |  This applies to bookings that are not linked to a work order. Select the default **Details** view on the schedule board for bookings that are not linked to work orders.  |
 |  Scheduler core tool tips view |  This applies to bookings that are not linked to a work order. Select the default tool tips view for bookings that are not linked to work orders.  |
-| Cancel current slots when moving | Select whether, when moving slots to another time, to leave the old slots and change their status to **Cancel**   |
+| Cancel current slots when moving | Select whether, when moving slots to another time, to leave the old slots and change their status to **Cancel**. Note that this behavior is only supported on the bookings that are moved through **Move bookings** functionality on the schedule board.    |
 |   Map view |     Select default options for the schedule board map view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the schedule board](../field-service/configure-schedule-board.md)  |
 |  Scheduler resource tool tip view   | Select the default view to display information when you hover over the resource pin on the schedule board map view.  |
 |  Scheduler business unit tool tip view   |   Select the default view to display information when you hover over the business unit pin on the schedule board map view.   |
@@ -151,7 +150,6 @@ The Field Service Settings page allows system administrators to set default sett
   
 |   Options  |      Description     |
 |------------|----------------------|
-|  Bing API key   | The default key allows geocode and mapping functionality. If you need to use your own  key, specify it here.    |
 |  Entity number length  |   Enter the number of digits the entity numbers will be. For example, if you enter 5, the first work order number would be 00001.  |
 | Auto allocate estimate products | When products are added to a work order before the work begins, then the line status of the work order product record defaults to **Estimated**. This setting determines whether the work order product record is set to **Allocated** when the line status is still **Estimated**, as opposed to **Used**. |
 |  Auto geo code addresses |  Specify whether the system should automatically add the appropriate latitude and longitude values based on the account's address. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)   |
@@ -159,23 +157,16 @@ The Field Service Settings page allows system administrators to set default sett
 | Work order subgrid records open as popups | Specify if work order sub entities (work order product, work order service, work order service task, work order incident, bookable resource booking, time entry) should open as a popup overlay on top of the work order form, rather than navigating away. The default setting for this field will enable the subgrid records to open in dialog popups.  |
 | Use enhanced background processing | When the Field Service app is installed, so too are many workflows that run in the background. This setting utilizes Power Automate flows in place of some of the background Dynamics 365 Field Service workflows. Power Automate has many benefits, including the ability to connect and run workflows within Dynamics 365 and between other outside applications, the ability to delete records and schedule jobs, and robust approvals, among others. For Field Service specifically, using Power Automate in place of background processes related to agreements improves performance for long-waiting agreements and fixes complications in the event an agreement's owner no longer has access to Dynamics 365 (if they leave the company, for example). For Field Service Mobile, you can use Power Automate for geofence, geofence alerts, and push notification process. For more information, see the article on [using Power Automate flows with Field Service Mobile](mobile-workflow-to-flow.md). This setting is in preview, and more background workflows are expected to be moved to Power Automate flows in subsequent releases.|
 
+> [!Note]
+> The **Enhanced Background Processing** setting is in preview and it means that all Field Service workflows will move to Power Automate.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the administration settings on the other section.](./media/administration-settings-other-section.png) 
 
 
-## GPS data settings
- [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] can be integrated with third-party GPS providers to allow the real-time location of resources or vehicles on schedule maps. These settings allow you to map the integrated GPS data to the [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] system.  
-  
-|  Options  |  Description   |  
-|-------------|-----------------|  
-| Custom GPS data | Select whether the system will use  a custom entity for its source  of geo locations for resources to be displayed on the map view.|  
-| Custom GPS resource field | Shows the logical name of the resource to be used for geo locations.|  
-| Custom GPS latitude field | Shows the logical name of the latitude to be used for geo locations.|  
-| GPS location expires after X minutes | Enter when GPS location expires.|  
-| Custom GPS location entity | Shows the logical name of customer entity to use for geo locations.|  
-| Custom GPS timestamp field | Shows the logical name of the timestamp to use for geo locations.|  
-| Custom GPS longitude field | Show the logical name of the longitude to be used for geo locations.|  
-   
+
+## Resource scheduling settings
+
+For settings related to resource scheduling, see the article on [Scheduling paramters in resource scheduling (Settings)](scheduling-parameters-settings.md).
   
 ### See also  
  [Overview](../field-service/overview.md)   

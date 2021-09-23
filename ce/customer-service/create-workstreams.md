@@ -119,9 +119,9 @@ Context variables enrich conversations with pre-chat data, channel data, and cus
 3. Select the **Type** of variable from the dropdown list. You can choose from **Text** or **Number**.
 4. Repeat steps 2 and 3 to create the required variables.
 
-### Manage workstreams in Omnichannel admin center
+### Manage workstreams
 
-You can manage the workstreams on the workstreams page in the Omnichannel admin center app.
+You can manage the workstreams on the workstreams page in the Omnichannel admin center or Customer Service Hub app.
 
 Select a workstream to perform any of the following actions:
 

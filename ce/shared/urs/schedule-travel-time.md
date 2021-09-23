@@ -21,8 +21,8 @@ In this article, we will explore how travel time and distance are calculated and
 
 In the following screenshot, a work order has **Work Location** set to **Onsite**; this is passed to the related work order requirement. When that work order requirement is scheduled to a resource, the system will look at the work location field, the location of the requirement, and the location of the resource in order to calculate travel time.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of work order settings tab showing work location of on site.](../../field-service/media/scheduling-work-order-location-onsite.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of work order settings tab showing work location of on site.](../../field-service/media/scheduling-work-order-location-onsite.png)
 
 
 ## Visualize travel time on the schedule board

@@ -4,6 +4,7 @@ description: "Perform the steps mentioned in the topic to create skills and assi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.date: 09/16/2021
 ---
 
 # Set up skills, create a rating model, and assign agents
@@ -82,9 +83,9 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 3. Select **Save**. The **Rating Values** section appears.
 
-4. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
+4. Select **New Rating Value**. The **New Rating Value** page appears.
 
-5. Specify the following in the **Rating Value** page.
+5. Specify the following.
 
   | Field | Description | Value  |
   |-----------------|----------------|--------------------------------------------|
