@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 10/05/2020
+ms.date: 09/23/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -57,35 +57,23 @@ After knowledge management is set up, users will be able to:
   
 4. Select **Save**.  
 
-## Set up knowledge management (Customer Service app)
-
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
-  
-2. Go to **Settings** > **Service Management**.
-  
-3. Under **Knowledge Base Management**, select **Embedded Knowledge Search**.  
-  
-4. In the **Knowledge Base Management Settings** wizard, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
-  
-5. Under **Knowledge Source**, in the **Knowledge Solution** field, select the knowledge solution.  
-  
-6. In the **Support Portal Connection** section, enter the following:  
-  
-   - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.
-
-        Set the toggle to **Yes** to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No** to share the article content inserted in the email body.  If you choose **Yes**, provide the **URL format**.
-  
-   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: </br> </br> *https://\<support portal URL>/kb/{kbnum}*  
-  
-        The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
-  
-7. Select **Next**.  
-  
-8. If you’ve specified the details correctly, the page shows the connection details for Dynamics 365 Customer Service. Select **Finish** to complete the setup.  
+## Set up knowledge management settings page in sitemap manually
 
 > [!NOTE]
-> Duplicate detection rules don't work on the Knowledge Article entity.
+> Embedded knowledge search settings is deprecated in the web client. You must use the unified interface knowledge settings page.
 
+ To update the Embedded Knowledge Search Control page to the Knowledge Settings page, manually:
+
+1.	Select your custom app.
+
+2.  Select **Open in app designer**.
+3.  Select **Site Map**.
+4.	Select **Add > Subarea** to create a new sub area for your area.
+5. In the **Properties > SUB AREA** section, provide the following information:
+  * Type: Select **URL**. 
+  * URL: Enter **/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings**
+
+3.	Select **Save** and then **Publish**.
 
 ## Enable feedback control
 
