@@ -99,9 +99,9 @@ The Omnichannel for Customer Service application checks the conversations every 
 
 ### Default time for automatic closure of conversations
 
-All channels have different default configured time after which conversations can be moved to Closed. The administrator can change the default configured time as per the business requirement programmatically. To learn more, see [Set default time using APIs](#set-default-time-using-apis).
+All channels have different default configured time after which conversations can be moved to the **Closed** state. 
 
-The matrix describes the channel, status reason, and default configured time.
+The following table describes the channel, status reason, and default configured time.
 
  | Channel | Existing status reason | Default configured time | Description |
  |--------------------|-------|-------------|--------------------------------------|
