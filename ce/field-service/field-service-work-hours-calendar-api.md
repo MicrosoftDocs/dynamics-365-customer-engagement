@@ -546,9 +546,13 @@ Make sure that the string is parsed correctly. There might be missing brackets, 
 We currently only support this pattern: `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include fewer days; however, `FREQ` and `INTERVAL` can't be changed. Make sure there are no spaces in the pattern.
 
 **How do we get information of the CalendarId and the InnerCalendarId of the resource?**
-The `CalendarId` can be retrieved from resource attributes. Make this call to get this information: `[org-url]/api/data/v9.1/bookableresources([bookableresourceGUID])`. An example of the above call would be `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/bookableresources(7bb0224b-6712-ec11-94f9-000d3a6d888e)`.
+The `CalendarId` can be retrieved from resource attributes. Make this call to get this information: `[org-url]/api/data/v9.1/bookableresources([bookableresourceGUID])`. 
 
-The `InnerCalendarId` can be retrieved from calendar attributes. Make this call to get this information: `[org-url]/api/data/v9.1/calendars([calendar-id-from-above-call])?$expand=calendar_calendar_rules`. An example of the above call is `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/calendars(02481736-1b6a-4d49-9ebd-a5bd041c1c99)?$expand=calendar_calendar_rules`.
+An example of the previous call would be `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/bookableresources(7bb0224b-6712-ec11-94f9-000d3a6d888e)`.
+
+The `InnerCalendarId` can be retrieved from calendar attributes. Make this call to get this information: `[org-url]/api/data/v9.1/calendars([calendar-id-from-above-call])?$expand=calendar_calendar_rules`. 
+
+An example of the previous call is `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/calendars(02481736-1b6a-4d49-9ebd-a5bd041c1c99)?$expand=calendar_calendar_rules`.
 
 **What happens if there are overlapping rules?** 
 
