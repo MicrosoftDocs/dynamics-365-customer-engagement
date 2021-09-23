@@ -19,8 +19,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Preview: Configure AI suggestions for article keywords and description
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
 >
@@ -47,7 +45,7 @@ The key highlights of the feature are as follows:
 
 ## How AI suggestions for article keywords and description work
 
-When the feature is turned on, the **View suggested keywords and description** link appears in the default knowledge article form for knowledge authors. On selecting the link, a dialog appears that shows the suggested keywords and description.
+When the feature is turned on, the **View suggested keywords and description** link appears in the default knowledge article form for knowledge authors, when the article content field is updated and the knowledge article is saved. On selecting the link, a dialog appears that shows the suggested keywords and description.
 
 The AI model works as follows:
 
