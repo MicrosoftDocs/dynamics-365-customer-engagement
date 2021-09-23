@@ -23,7 +23,7 @@ Customer Service Hub provides you with the ability to add a case to a queue, and
 
 ## Add a case to a queue  
 
- If you think another group in your team has expertise on the subject, you can move the case to a queue so that someone else can pick it up.  
+If you think another group in your team has expertise on the subject, you can move the case to a queue so that someone else can pick it up.  
 
 **To add a case to a queue**
 
