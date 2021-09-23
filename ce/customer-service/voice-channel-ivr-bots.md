@@ -30,6 +30,15 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 Conversational IVR bots speak to customers when they call in to route their call to the best department, diagnose issues, collect information, and give recommendations. Using Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
 
+## Private Preview refresh - September '21
+
+We are refreshing our Private Preview on September 2021 with the following updates. In order to get the updates listed below, you will need to be enrolled into the Private Preview program, and to create a new bot after 9/23/2021. Any new bots created after this time will be using the new refresh code. Old bots using Private Preview will continue to work but will stop working by 10/15/2021.
+
+1. Improved latency and performance for voice interactions
+1. Customizable voices in the Omnichannel configuration experience
+1. Questions in Power Virtual Agents using "Boolean" types do not prompt users with "Options are _Yes_ or _No_"
+1. All bot messages are interruptible by the caller (Uninterruptible messages are coming later in GA)
+
 ## Prerequisites
 
 A bot is configured in Power Virtual Agents, published, and with the Transfer to Agent configured. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
@@ -61,6 +70,17 @@ More information:
 - [Author template topics in Power Virtual Agents](/power-virtual-agents/authoring-template-topics)
 
 - [Create topics and test your bot](https://go.microsoft.com/fwlink/?linkid=2062988)
+
+## Known issues
+
+The following is a list of known issues with the Private Preview refresh. If you notive other issues or have questions, please reach out to your Microsoft contact as these are valuable for us to keep improving our servces.
+
+1. Only Skills using ```deliveryMode = expectReplies``` will work in Private Preview.
+1. Any bot turn that takes more than 15 seconds will not work, and the bot will remain silent. Please ensure that you don't have actions (Power Automate flows or Skills) that takes more than 15 seconds.
+1. Import of bots which have been configured with Voice enabled will not have the voice state correctly imported. These will have voice disabled, and it will have to be manually configured after the import.
+1. Skills which has input options (i.e. prompts the users for an input) will not get the input options read out. Only the question is ready out. A skill can use the ```speak``` property to accomplish this instead.
+1. Adding a "Transfer to agent" node in the greeting topic in PVA does not work. Please use the node in another topic and redirect to it instead.
+1. Using numbers as trigger phrases. This will cause clashes with the CSAT rating or other options. If this is needed, please test the topics thoroughly to ensure they are behaving as expected.
 
 ## Additional notes
 
