@@ -88,7 +88,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 
 The conversations that are completed by ending them or by closing the session are classified as **Closed** conversations. When you close a conversation, you can't reactivate or reopen the conversation again.
 
-## Automatic closure of a conversation
+## Automatically close conversations
 
 Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve a closure, and agents can focus on important conversation, which ultimately enhances the productivity.
 
