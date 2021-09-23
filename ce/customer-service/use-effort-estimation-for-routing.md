@@ -86,12 +86,39 @@ The performance grade of the model is indicated by A, B, C, D, E, or F. The lett
 
 ## Create classification rules based on effort estimation model
 
+After you train the effort estimation models, you can create classification rules based on the models and use the rules with other rules to help categorize the work items to be routed to the right agents who will help with the issues.
+
+**To create a rule based on effort estimation**
+
+1. Create or edit a workstream. More information: [Create workstreams](create-workstreams.md)
+
+2. Go to the **Work classification (optional)** section to create a classification rule. More information: [Configure work classification rulesets](configure-work-classification.md)
+
+3. In the **Create work classification ruleset** dialog, select the rule type as **Machine learning model**, and then select type as **Effort estimation**.
+
+4. In **Select effort estimation model**, select the model that you want to use for the prediction, and select **Create**.
+
+5. On the page that appears, select the input attributes to use for effort estimation. While you can use up to 10 attributes, the **Categorical description** and **Detailed description** fields are mandatory. By default, the output attributes are **Effort value (minutes)** and **Effort confidence score** and can't be edited.
+   
+   :::image type="content" source="media/effort-model-input-attributes.png" alt-text="Choose input attributes for effort estimation.":::
 
 ## Create route-to-queue rules
 
+Create the route-to-queue rules based on the effort estimation.
+
+1. For the workstream in which you created the rule based on effort estimation, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+
+2. Create a rule to define conditions and select the queue to which the work items need to be assigned when the conditions are met.
+   
+   :::image type="content" source="media/effort-model-route-queue-rule.png" alt-text="Rules based on effort estimation model.":::
 
 ## Use diagnostics to analyze the efficacy of effort estimation model
 
+Routing diagnostics help you see how the work items have been classified and routed after you've configured the rules.
+
+You can view how the effort estimation model was used to route a work item.
+
+:::image type="content" source="media/diagnostics-effort-estimation.png" alt-text="Diagnostics of effort estimation model.":::
 
 ### See also
 
