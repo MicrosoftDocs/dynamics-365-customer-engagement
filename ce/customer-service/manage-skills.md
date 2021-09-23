@@ -1,7 +1,7 @@
 ---
 title: "Manage skills| MicrosoftDocs"
 description: "Learn how to view or remove existing skills, and add new skills using the skill control in Omnichannel for Customer Service."
-ms.date: 08/25/2021
+ms.date: 09/25/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
