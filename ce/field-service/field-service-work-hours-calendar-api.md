@@ -567,7 +567,7 @@ But if they do exist, this is how it will be handled:
 
 - The Rank 1 rules have a higher priority than Rank 0 rules. So if there were two rules (one of each rank) on the same day, the daily occurrence or time-off occurrence will take the priority over the weekly recurrence. 
 - If there are two rules of the same rank, the rule that was most recently created/ modified will be the one that is considered for the resource's calendar. 
-- Keep in mind that all-day occurrences are of Rank 1, so it might be adviseable to change it to a weekly recurrence, in order to be able to add occurrence work hours and have them be respected. 
+- Keep in mind that all-day occurrences are of Rank 1, so you may want to consider changing it to a weekly recurrence in order to be able to add occurrence work hours and have them be respected. 
 - When a working hour exists and a time off occurrence is created overlapping it, the rules split in a way that ensures the time off is respected, and any remaining time as working hours will stay as is. For example, if there are working hours from 8 AM to 5 PM on September 21, and a time-off occurrence is added from 3 PM to 7 PM on September 21, this would be resolved as working hours as 8 PM to 3 PM and time off from 3 PM to 7 PM. However, if the rules were created in the opposite order (time off created first and then working hours were created) regardless of the timeslots, only the working hour would be reselected. The time off would be overridden. 
 
 ## Time zone codes
