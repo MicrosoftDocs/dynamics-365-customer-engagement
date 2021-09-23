@@ -62,6 +62,8 @@ To access the report, in the Omnichannel for Customer Service app, on the **Home
 
 The Omnichannel historical analytics reports provide comprehensive information on the overall performance of customer support across channels. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
 
+ ![Access Voice channel conversation report.](media/voice-channel-conversation-report.png "Access Voice channel conversation report")
+
 
 | Metric | Definition (historical)  |
 |----------------|---------------------|
@@ -77,9 +79,9 @@ The Omnichannel historical analytics reports provide comprehensive information o
 | Avg. customer effort | The time that a customer spent on a conversation to get their issue resolved. |
 | Avg. sessions per conversation | The average sessions created and engaged for each conversation engaged. |
 
-This report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
 
- ![Access Voice channel conversation report.](media/voice-channel-conversation-report.png "Access Voice channel conversation report")
+The following report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
+:::image type="content" source="media/voice-channel-agent-drill-down.png" alt-text="agent drill down report":::
 
 | Metric  | Definition  |
 |----------------|------------|
@@ -89,7 +91,6 @@ This report includes conversation intelligence, which uses analytics and data sc
 | Pause before speaking (sec)  | The milliseconds the agent paused before responding to customer queries; indicates agent's patience. |
 | Longest customer monologue (sec)  | The longest monologue by the customer with an agent; indicates that the agent is asking good questions and understanding customer needs. |
 
-:::image type="content" source="media/voice-channel-agent-drill-down.png" alt-text="agent drill down report":::
 
 ## View call insights
 
