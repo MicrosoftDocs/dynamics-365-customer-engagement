@@ -1,7 +1,7 @@
 ---
 title: View, edit, or add a note in the Dynamics 365 Sales mobile app
 description: Instructions to view, edit, or add a note in the Dynamics 365 Sales mobile app
-ms.date: 08/27/2021
+ms.date: 09/27/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -39,7 +39,7 @@ You can perform the following actions in the **Notes** section.
 
         ![Add an additional note to a record.](media/sm-add-note-link.png "Add an additional note to a record")
 
-    -   When viewing a list of notes, tap ![Add note icon.](media/sm-add-note-icon.png "Add note icon").
+    -   When viewing a list of notes, tap ![Add note icon.](media/sm-add-note-icon.png "Add note icon") at the upper-right corner of the **Notes** page.
 
         ![Add a note in the notes list.](media/sm-add-note-from-list.png "Add a note in the notes list")
 
@@ -70,11 +70,7 @@ You can open a note by tapping the note card. When you open a note, you can make
 
 You can delete a note when it is no longer needed.
 
-1. In the note card, tap ![Options button.](media/sm-options-button.png "Options button").
-
-    ![Note options.](media/sm-note-options.png "Note options")
-
-2. To delete a note, select **Delete** from the bottom of the screen;
+- In the note card, tap ![Options button.](media/sm-options-button.png "Options button"), and then tap **Delete**.
 
     ![Delete a note.](media/sm-note-edit-delete.png "Delete a note")
 

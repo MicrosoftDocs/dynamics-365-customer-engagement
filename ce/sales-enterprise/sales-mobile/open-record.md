@@ -28,9 +28,9 @@ You can view the details of records in the following ways:
 
 **On the home page**    
 
-The home page displays a list of records that you have recently accessed. These records include opportunities, leads, contacts, quotes, accounts, and notes. When you tap a record, the record details are displayed partially at the bottom half of the screen. Scroll up or tap ![Expand quick view icon.](media/expand-quick-view.png "Expand quick view icon") to display complete record details in a lightweight form. This form provides the basic details, including [related notes and reminders](#notes-and-reminders).
+The home page displays a list of records that you have recently accessed. These records include opportunities, leads, contacts, quotes, accounts, and notes. When you tap a record, the record details are displayed partially at the bottom half of the screen. Scroll up or tap ![Expand quick view icon.](media/expand-quick-view.png "Expand quick view icon") to display complete record details in a lightweight form. This form provides the basic details, including related [notes and reminders](#notes-and-reminders).
 
-**On the Meetings page**     
+**On the Meeting page**     
 
 The Meeting details page displays the regarding record that is related to the meeting. Tap the record, and then scroll up or tap ![Expand quick view icon.](media/expand-quick-view.png "Expand quick view icon") to display complete record details in a lightweight form. The details include basic information about the record, related [notes, and reminders](#notes-and-reminders). 
 
@@ -66,7 +66,7 @@ Follow these steps to edit records in the Dynamics 365 Sales mobile app.
 
     ![Quick view form opened from the home page.](media/sm-homepage-view-details-lead.png "Quick view form opened from the home page")
     
-- To quickly edit the basic information about the regarding record on the **Meetings** page, tap ![Edit icon.](media/edit-icon.png "Edit icon") on the record card. Edit the details in the **Edit** form and tap **Save**. 
+- To quickly edit the basic information about the regarding record on the **Meeting** page, tap ![Edit icon.](media/edit-icon.png "Edit icon") on the record card. Edit the details in the **Edit** form and tap **Save**. 
 
     ![Tap quick edit option.](media/sm-quick-edit-regarding-record.png "Tap quick edit option")    
 
@@ -80,7 +80,7 @@ Notes displayed in the Notes section are related to the regarding record that is
 
 **Reminders**
 
-You can see the reminders through insight cards based on the regarding record that is associated with the meeting. By tapping the three dots, **More options** (![Options button.](media/reminders-more-options.png "Options button")), on the card, you can take actions such as dismiss and snooze the card. The cards are retrieved from your Dynamics 365 Sales organization for the selected regarding record.
+You can see the reminders through insight cards based on the regarding record that is associated with the meeting. By tapping ![Options button.](media/reminders-more-options.png "Options button") on the card, you can take actions such as dismiss and snooze the card. The cards are retrieved from your Dynamics 365 Sales organization for the selected regarding record.
 
 The following reminder insight cards are supported:    
 

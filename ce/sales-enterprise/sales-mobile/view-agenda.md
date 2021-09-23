@@ -76,7 +76,7 @@ You can perform the following action on regarding entities: [view and edit](open
 
 You can update the regarding record when it is no longer relevant or there are changes to the meeting. To change the regarding record, follow these steps:
 
-1. Tap the three dots, **More options** (![Options button.](media/sm-options-button.png "Options button")), and then tap **Change connected record**.
+1. In the record card, tap tap ![Options button.](media/sm-options-button.png "Options button"), and then tap **Change connected record**.
 
     ![Select change connected record option.](media/sm-select-change-connected-record.png "Select change connected record option")
     
@@ -115,7 +115,7 @@ The connected record is displayed in the **Regarding** section.
 
 You can disconnect the regarding record when it is no longer relevant to the current meeting.
 
-- Tap the three dots, **More options** (![Options button.](media/sm-options-button.png "Options button")), and then tap **Disconnect record**.
+- In the record card, tap tap ![Options button.](media/sm-options-button.png "Options button"), and then tap **Disconnect record**.
 
     ![Disconnect a record from a meeting.](media/sm-disconnect-record.png "Disconnect a record from a meeting")
 

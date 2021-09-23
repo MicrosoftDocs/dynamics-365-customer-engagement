@@ -1,7 +1,7 @@
 ---
 title: Learn the basics of the Dynamics 365 Sales mobile app
 description: Learn the basic functions of the Dynamics 365 Sales mobile app.
-ms.date: 08/24/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -52,7 +52,7 @@ Insight cards help keep you up to date with your work in Dynamics 365 Sales, let
 
 When you tap **Reminders** or **Insights**, an extended list appears. Tap a reminder or an insight to see details about it. Tap **Open** in the card to open the reminder or the insight card.
 
-Tap the three dots ![Options button.](media/sm-options-button.png "Options button") to take further action on a reminder, such as to dismiss, snooze, or mark it as helpful or not helpful.
+Tap ![Options button.](media/reminders-more-options.png "Options button") on the card to take further action on a reminder, such as to dismiss and snooze.
 
 ## Navigation bar
 
