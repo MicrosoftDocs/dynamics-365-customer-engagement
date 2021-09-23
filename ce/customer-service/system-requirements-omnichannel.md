@@ -115,7 +115,7 @@ Customers must be able to access the following URLs from their browsers to use t
 
 ### Geo-specific links
 
-Location specific links that should be accessible are as follows.
+Location specific links that should be made accessible are as follows.
 
 | Geographic location | Links |
 |-------------------------------|----------------------------------|
@@ -133,7 +133,7 @@ Location specific links that should be accessible are as follows.
 
 ### Government Community Cloud (GCC)
 
-The Government community cloud links that should be accessible are as follows.
+The Government community cloud links that should be made accessible are as follows.
 
 - `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
 - `https://*.omnichannelengagementhub.us/*`
