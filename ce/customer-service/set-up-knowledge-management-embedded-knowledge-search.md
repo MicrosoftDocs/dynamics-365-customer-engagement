@@ -57,7 +57,7 @@ After knowledge management is set up, users will be able to:
   
 4. Select **Save**.  
 
-## Set up unified interface knowledge management settings page in sitemap manually
+## Set up knowledge management settings page manually (unified interface)
 
 > [!NOTE]
 > The Embedded Knowledge Search Control entity is deprecated in the web client. You must use the unified interface Knowledge Settings entity.
