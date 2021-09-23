@@ -25,7 +25,7 @@ manager: shujoshi
 
 ## Introduction
 
-Use effort estimation based model to classify and route work items.
+Use effort estimation-based model to classify and route work items.
 
 You can use the estimation technique to understand how much effort is required and choose the agent who has the bandwidth to manage it.
 
@@ -125,5 +125,5 @@ You can view how the effort estimation model was used to route a work item.
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
-[How to set up unified routing](set-up-routing-process.md) 
+[How to set up unified routing](set-up-routing-process.md)  
 
