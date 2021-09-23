@@ -1,7 +1,7 @@
 ---
 title: "Enable agent reject notifications| MicrosoftDocs"
 description: "Learn about managing agent reject notifications in the Omnichannel Administration app"
-ms.date: 09/21/2021
+ms.date: 09/23/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -16,7 +16,7 @@ With the agent reject feature, you can now enable agents to automatically set ag
 
 > [!IMPORTANT]
 >
-> - Agent reject won't apply to workstreams that have **Do not disturb** as an allowed presence for workstreams. More information: [Create workstreams for unified routing](create-workstreams.md)<!--note from editor: Edited because it looks like work-stream-introduction.md now resolves to create-workstreams.md.-->
+> - Agent reject won't apply to workstreams that have **Do not disturb** as an allowed presence for workstreams. More information: [Create workstreams for unified routing](create-workstreams.md)
 > - Agent reject notification alerts aren't supported in Omnichannel for Customer Service on Unified Service Desk.
 
 
