@@ -86,15 +86,13 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 
 ## Closed
 
-The conversation that are complete by ending, and closing the session is classified under **Closed**. When you close a conversation, you can't reactivate or reopen the conversation again.
+The conversations that are completed by ending them or by closing the session are classified as **Closed** conversations. When you close a conversation, you can't reactivate or reopen the conversation again.
 
 ## Automatic closure of a conversation
 
 Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve a closure, and agents can focus on important conversation, which ultimately enhances the productivity.
 
-### Understand working of auto-close of conversations
-
-The Omnichannel for Customer Service application checks the conversations every 12 hours to identify the conversations that do not transition for more than the default configured time. These conversations become eligible for automatic-closure, and next time, when the scheduler runs, these conversations are moved from the existing status reason to the **Closed** state.
+The Omnichannel for Customer Service application checks the conversations every 12 hours to identify those that do not transition for more than the default configured time. Such conversations become eligible for automatic closure, and the next time that the scheduler runs, these conversations are moved from the existing state to the **Closed** state.
 
 > [!IMPORTANT]
 > To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
