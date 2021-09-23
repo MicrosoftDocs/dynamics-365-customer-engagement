@@ -60,35 +60,11 @@ To access the report, in the Omnichannel for Customer Service app, on the **Home
 
    > ![Access Omnichannel historical analytics report.](media/voice-access-historical-report.png "Access Omnichannel historical analytics report")
 
-<<<<<<< HEAD
-The following report is displayed.
-
-> [!div class="mx-imgBorder"]
-> ![Omnichannel historical analytics for voice channel](./media/voice-channel-agent-drill-down.png "Omnichannel historical analytics for voice channel.")
-
-Omnichannel historical analytics reports provide comprehensive information on how overall support is performing across channels. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
-=======
 The Omnichannel historical analytics reports provide comprehensive information on the overall performance of customer support across channels. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
->>>>>>> 19a904710b29cfd5086b27eff6bc5f732a506ec8
 
 
 | Metric | Definition (historical)  |
 |----------------|---------------------|
-<<<<<<< HEAD
-| Engaged conversations  | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. |
-| Engaged sessions  | Number of sessions which are accepted by an agent. |
-| Avg. session handle time | Average time that an agent spent on a conversation.  |
-| Transfer rate | Percentage of times a conversation was transferred from one agent to another agent. |
-| Avg. CSAT | The average of customer satisfaction ratings provided by customers. Only available if customer voice is being configured as a post-conversation survey tool. |
-| Avg. session sentiment | Average sentiment score for all sessions engaged by an agent. |
-| Sentiment zones | Shows positive, negative, or neutral zones in timeline view.|
-| Avg. talktime (min) | Average time taken by agent talking with the customer. |
-| Avg. hold time (min) | Average time taken by agent to keep the customer on hold on the line to check something or to talk to supervisor. |
-| Outgoing Conversations | Number of outbound conversations initiated by an agent to reach a customer. |
-| Incoming conversations  | Number of conversations initiated by the customer and can be presented to a human agent. |
-| Avg. conversation sentiment | Average sentiment score based on the verbatims provided in customer voice survey. |
-
-=======
 | Incoming conversation  | The number of conversations initiated by the customer and can be presented to a human agent. |
 | Engaged conversations  | The conversations that the agent was engaged in. Customer-to-agent communication can begin at this point. |
 | Abandon Rate | Percentage of conversations that are not engaged by agents.
@@ -100,7 +76,6 @@ The Omnichannel historical analytics reports provide comprehensive information o
 | Transfer rate | The percentage of times a conversation was transferred from one agent to another agent. |
 | Avg. customer effort | The time that a customer spent on a conversation to get their issue resolved. |
 | Avg. sessions per conversation | The average sessions created and engaged for each conversation engaged. |
->>>>>>> 19a904710b29cfd5086b27eff6bc5f732a506ec8
 
 This report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
 
@@ -108,21 +83,11 @@ This report includes conversation intelligence, which uses analytics and data sc
 
 | Metric  | Definition  |
 |----------------|------------|
-<<<<<<< HEAD
-| Abandon rate | Percentage of conversations that are not engaged by agents. 
-| Average speed to answer | Average time customers waited in the queue before connecting to an agent (the time for acceptance). |
-| Talk to listen ratio | Specifies the average listen and talk ratio of agent in conversations with customers.  |
-| Talking speed (WPM) | Displays the average number of words used per minute by agent. |
-| Switches per conversation | Displays the average switches between a agent and customer in a conversation, meaning the number of times the conversation switched from one person to another. This is a sign of engagement during conversations. |
-| Pause before speaking (sec)  | Displays how many milliseconds an agent paused before responding to customer queries; this is a signal of patience by the agent. |
-| Longest customer monologue (sec)  | Displays the longest length of speech without a break by the customer with an agent in seconds; this is a signal that agent are asking good questions and showing understanding of customer needs. |
-=======
 | Talk to listen ratio | The average listen and talk ratio of agent in conversations with customers.  |
 | Talking speed (WPM) | The average number of words used per minute by agent. |
 | Switches per conversation | The average exchanges between an agent and a customer in a conversation; the number of times the conversation switched from one person to another. This is a sign of engagement during conversations. |
 | Pause before speaking (sec)  | The milliseconds the agent paused before responding to customer queries; indicates agent's patience. |
 | Longest customer monologue (sec)  | The longest monologue by the customer with an agent; indicates that the agent is asking good questions and understanding customer needs. |
->>>>>>> 19a904710b29cfd5086b27eff6bc5f732a506ec8
 
 ## View call insights
 
