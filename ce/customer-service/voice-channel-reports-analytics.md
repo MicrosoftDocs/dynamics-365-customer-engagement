@@ -3,7 +3,7 @@ title: "Voice channel analytics, reports, and call insights | MicrosoftDocs"
 description: Learn about the different analytics, reports, and call insights that are available in the voice channel in Omnichannel for Dynamics 365 Customer Service
 ms.custom:
 - dyn365-customerservice
-ms.date: 09/16/2021
+ms.date: 09/23/2021
 ms.reviewer: lalexms
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -88,6 +88,8 @@ This report includes conversation intelligence, which uses analytics and data sc
 | Switches per conversation | The average exchanges between an agent and a customer in a conversation; the number of times the conversation switched from one person to another. This is a sign of engagement during conversations. |
 | Pause before speaking (sec)  | The milliseconds the agent paused before responding to customer queries; indicates agent's patience. |
 | Longest customer monologue (sec)  | The longest monologue by the customer with an agent; indicates that the agent is asking good questions and understanding customer needs. |
+
+:::image type="content" source="media/voice-channel-agent-drill-down.png" alt-text="agent drill down report":::
 
 ## View call insights
 
