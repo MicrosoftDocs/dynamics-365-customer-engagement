@@ -93,7 +93,8 @@ If your administrator has enabled keywords and description suggestions, you can 
 
 However, it is required that either the **Title** or **Content** field, or any other corresponding mapped fields set by the administrator must have some value in order to generate suggestions. If both the fields that the model uses to generate suggestions are empty, error messages such as, “There was a problem finding suggested keywords” and “There was a problem finding suggested description” will appear. More information: [Preview: Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#preview-configure-ai-suggestions-for-article-keywords-and-description)
 
-1. On the knowledge article form, select the **View suggested keywords and description (preview) link**.
+1. In the article **Content** section, add the content for your knowledge article and select **Save**. The **View suggested keywords and description (preview) link** appears.
+1. Select the **View suggested keywords and description (preview) link**.
  :::image type="content" source="media/v9-add-content-article.png" alt-text="Add suggested keywords and description":::
 
 1. On the Suggested keywords and description (preview) dialog:
