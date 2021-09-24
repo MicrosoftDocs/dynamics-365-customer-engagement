@@ -22,7 +22,7 @@ ms.custom:
 You can configure the origins allow list feature to ensure that knowledge authors add only safe links to their knowledge articles.
 
 > [!IMPORTANT]
-> Knowledge authors must use the supported origins only, which are HTTP or HTTPS protocol, IP address or domain name, and TCP port number.  Additionally, only an exact match of links must be used in the articles.
+> The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number.  Knowledge authors must use only an exact match of links in the articles.
 
 After you have enabled this feature, if knowledge authors add links other than the supported origins or the exact match of links while creating their articles, an error message stating, "Update your origins allow list if any iframe in the article doesn't work or displays error" will appear.
 
