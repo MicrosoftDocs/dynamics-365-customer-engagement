@@ -26,7 +26,7 @@ You can configure the origins allow list feature to ensure that knowledge author
 
 After you have enabled this feature, if knowledge authors add links other than the supported origins or the exact match of links while creating their articles, an error message stating, "Update your origins allow list if any iframe in the article doesn't work or displays error" will appear.
 
-For published articles, agents and portal users will see an error within the article for the links that are hosted within an iframe along with the specified error message. You must update the origins list, so that the articles continue to work fine.
+For published articles, agents and portal users will see an error within the article for the links that are hosted within an iframe. You must update the origins list, so that all the existing iframe links continue to work fine.
 
 ## Configure the origins allow list
 
