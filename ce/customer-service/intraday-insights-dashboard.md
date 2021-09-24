@@ -1,7 +1,7 @@
 ---
 title: "Intraday insights dashboard for supervisors in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the intraday insights dashboard for supervisors"
-ms.date: 08/13/2021
+ms.date: 10/04/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -94,7 +94,10 @@ You can filter information by selecting the queues that have been defined for yo
 
 The average handle time for a conversation is defined as the cumulative handle times of its individual sessions. The session handle times take into account only the active time of agents. The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. When an agent concurrently handles multiple customers and switches sessions, the active time for the previous session is paused and the active time for the current session resumes.
 
+The conversations handled by bots and closed by bots are not considered in the calculation of the average handle time.
+
 If the agent spends time providing consultation, it's included in the agent's average handle time. Similarly, for supervisors, the monitor time is included in the supervisor's average handle time.
+
 When a conversation is transferred, the active time spent by all agents who are involved is summed up to calculate the handle time for the conversation.
 
 Average handle time will be accurately calculated if you ensure the following:
