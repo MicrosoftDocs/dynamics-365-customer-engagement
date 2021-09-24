@@ -1,7 +1,7 @@
 ---
 title: "Add an account with customer, location, and related details to a work order in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
-ms.date: 06/25/2021
+ms.date: 09/14/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -188,7 +188,7 @@ One reason this issue occurs is because Field Service libraries are missing from
 
 1. Select **Account** form from **Customization** and open the **Form Properties**.
 
-2. Add the form library `msdyn\_/Account/Account.Library.js`.
+2. Add the form library `msdyn_/Account/Account.Library.js`.
 
 ![Form properties in Power Apps.](media/fr-image1.png)
 

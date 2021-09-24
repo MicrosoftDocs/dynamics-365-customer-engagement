@@ -1,7 +1,7 @@
 ---
 title: "Try channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time."
-ms.date: 02/18/2021
+ms.date: 09/20/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,6 +24,8 @@ You can perform the following steps to try channels in Omnichannel for Customer 
 ## Channels trial through trials.dynamics.com
 
 With this option, you can get a free 30-day trial of Omnichannel for Customer Service including Chat, SMS, Microsoft Teams, and social channels through [https://trials.dynamics.com](https://trials.dynamics.com).
+
+Use this option if you've obtained the subscription for Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant through volume licensing, cloud solution provider, or reseller or partner programs.
 
 ### Prerequisites
 
