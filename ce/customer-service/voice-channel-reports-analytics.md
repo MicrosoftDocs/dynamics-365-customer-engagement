@@ -3,7 +3,7 @@ title: "Voice channel analytics, reports, and call insights | MicrosoftDocs"
 description: Learn about the different analytics, reports, and call insights that are available in the voice channel in Omnichannel for Dynamics 365 Customer Service
 ms.custom:
 - dyn365-customerservice
-ms.date: 08/24/2021
+ms.date: 09/23/2021
 ms.reviewer: lalexms
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -50,7 +50,7 @@ To view the rich analytics and insights for your organization, you must enable *
 
 3. Under **Summary**, set the **Status** toggle to **Enabled**. This enables data to be synced to Azure from Microsoft Dataverse, and provides rich analytics and insights on the data that are visualized in the Power BI report. It takes 24 hours for the reports to be provisioned for the first time. Then, the reports are refreshed on a 24-hour schedule.
 
-  > ![Enable historical analytics for voice.](media/voice-enable-historical-analytics.png)
+  > ![Enable historical analytics for voice.](media/voice-channel-insights.png)
 
 ## View Omnichannel historical analytics dashboard for voice
 
@@ -61,6 +61,8 @@ To access the report, in the Omnichannel for Customer Service app, on the **Home
    > ![Access Omnichannel historical analytics report.](media/voice-access-historical-report.png "Access Omnichannel historical analytics report")
 
 The Omnichannel historical analytics reports provide comprehensive information on the overall performance of customer support across channels. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
+
+ ![Access Voice channel conversation report.](media/voice-channel-conversation-report.png "Access Voice channel conversation report")
 
 
 | Metric | Definition (historical)  |
@@ -77,7 +79,10 @@ The Omnichannel historical analytics reports provide comprehensive information o
 | Avg. customer effort | The time that a customer spent on a conversation to get their issue resolved. |
 | Avg. sessions per conversation | The average sessions created and engaged for each conversation engaged. |
 
-This report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
+
+The following report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
+
+ ![Agent drill-down report](media/voice-channel-agent-drill-down.png "Agent drill-down report")
 
 | Metric  | Definition  |
 |----------------|------------|
@@ -86,6 +91,7 @@ This report includes conversation intelligence, which uses analytics and data sc
 | Switches per conversation | The average exchanges between an agent and a customer in a conversation; the number of times the conversation switched from one person to another. This is a sign of engagement during conversations. |
 | Pause before speaking (sec)  | The milliseconds the agent paused before responding to customer queries; indicates agent's patience. |
 | Longest customer monologue (sec)  | The longest monologue by the customer with an agent; indicates that the agent is asking good questions and understanding customer needs. |
+
 
 ## View call insights
 
