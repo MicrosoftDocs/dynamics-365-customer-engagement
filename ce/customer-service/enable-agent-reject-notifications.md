@@ -20,7 +20,7 @@ You can enable the agent presence to be updated to **Do not disturb** when agent
 > - The status will not change for agents when the the work is routed through a workstream that has **Do not disturb** as an allowed presence. More information: [Create workstreams for unified routing](create-workstreams.md)
 > - Automatic change of agent status when agent rejects a notification is not supported in Omnichannel for Customer Service on Unified Service Desk.
 
-## Enable notifications
+## Enable automatic update of agent presence
 
 1. Sign in to the Omnichannel admin center. In the **Advanced Settings** area, go to **Agent Experience**, and then select  **Notification templates**.  
 
