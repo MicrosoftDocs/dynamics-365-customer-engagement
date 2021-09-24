@@ -13,7 +13,7 @@ manager: shujoshi
 
 This topic demonstrates how you can configure the auto-close duration of a conversation using the Web API. 
 
-Use the following `GET` request to fetch all the configuration records that have been defined out of the box. You can make a `GET` request to `msdyn_occhannelconfiguration` entity to fetch all the existing channel records. For each of these channels, you can see its state when you query the `msdyn_occhannelstateconfiguration` entity.
+Use the following `GET` request to fetch all the configuration records that have been defined out of the box. 
 
 **Request**
 
@@ -82,6 +82,8 @@ If-None-Match: null
 ```
 
 The `msdyn_name` attribute in the `msdyn_occhannelstateconfiguration` entity mentions the channel and state of the conversation. For more information about conversation states, see [Understand conversation states in Omnichannel for Customer Service](oc-conversation-state.md).
+
+You can make a `GET` request to `msdyn_occhannelconfiguration` entity to fetch all the existing channel records. For each of these channels, you can see its state when you query the `msdyn_occhannelstateconfiguration` entity.
 
 Make a `PATCH` request to the `msdyn_occhannelstateconfiguration` entity record and update the value of the `msdyn_autocloseliveworkitemafter` attribute.
 
