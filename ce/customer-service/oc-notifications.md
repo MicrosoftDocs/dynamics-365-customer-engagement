@@ -111,7 +111,7 @@ When you don't respond to an incoming conversation notification, the conversatio
 
 Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system, but they are not seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversations are then rerouted after eight minutes.
 
-## Agent reject notification alerts
+## Agent reject notifications
 
 > [!IMPORTANT]
 >
