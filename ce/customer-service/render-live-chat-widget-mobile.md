@@ -1,7 +1,7 @@
 ---
 title: "Customize live chat widgets for mobile apps | MicrosoftDocs"
 description: "Learn to customize live chat widgets on your mobile apps using Omnichannel Chat SDK. Alternatively, use sample code to embed widget code directly in your apps."
-ms.date: 10/01/2021
+ms.date: 05/24/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -24,15 +24,13 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic explains how you can use the Omnichannel Chat SDK to customize the live chat widget for mobile apps. Alternatively, you can render the chat widget in your apps using embedded code.
+This topic explains how you can use the Omnichannel Chat SDK to customize the live chat widget for mobile apps. Alternatively, render the chat widget in your apps using embedded code.
 
-## Download Omnichannel Chat SDK
-
-We recommend that you install and use the latest version of the Omnichannel Chat SDK package to implement the latest features. For download instructions and information, go to [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
-
-## Customize live chat widget using Omnichannel Chat SDK
+## Customize the live chat widget using the Omnichannel Chat SDK
 
 Use the Omnichannel Chat SDK to create Omnichannel for Customer Service chat widgets in mobile apps. The open-source Omnichannel Chat SDK comes with a fully customizable user interface with Omnichannel chat methods and features. The SDK is supported on React Native, and therefore works for iOS and Android apps, and also on web browsers.
+
+For download instructions and information, go to [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
 
 Examples of sample apps in the Omnichannel Chat SDK include:
 
@@ -42,12 +40,15 @@ Examples of sample apps in the Omnichannel Chat SDK include:
 
 To view all sample apps, go to [Chat SDK Sample Apps](https://github.com/microsoft/omnichannel-chat-sdk/tree/main/samples).
 
-## Render live chat widget using embedded code
+> [!NOTE]
+> We recommend that you download the latest version of the Omnichannel Chat SDK package to implement the latest features.
+
+## Render the live chat widget using embedded code
 
 If the SDK does not meet your requirements, you can embed a live chat widget code in your mobile app. However, embedding a chat widget code has many more limitations and restrictions compared to using the Omnichannel Chat SDK, such as reduced performance, limited mobile usability, and unavailable features.
 
 > [!NOTE]
-> Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on the mobile apps.
+> - Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on the mobile apps.
 
 Use the `WebView` component of your mobile operation system language to enable rendering of the web version of the chat widget on mobile devices. A `WebView` is an embedded browser that enables a native application to display web content. The WebView capability is offered on both Android and iOS.
 
