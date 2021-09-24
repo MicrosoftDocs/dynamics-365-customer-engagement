@@ -94,7 +94,7 @@ A customer is identified based on the **Mobile Phone** field information stored 
 
 The details you see for an SMS channel are as configured by your administrator.
 
-## Missed notification alerts
+## Missed notification
 
 > [!IMPORTANT]
 > - The alert is displayed only when the missed notifications feature is enabled by your administrator.
