@@ -81,7 +81,8 @@ The Omnichannel historical analytics reports provide comprehensive information o
 
 
 The following report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
-:::image type="content" source="media/voice-channel-agent-drill-down.png" alt-text="agent drill down report":::
+
+ ![Agent drill-down report](media/voice-channel-agent-drill-down.png "Agent drill-down report")
 
 | Metric  | Definition  |
 |----------------|------------|
