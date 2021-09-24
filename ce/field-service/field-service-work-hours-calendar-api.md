@@ -530,21 +530,45 @@ Tim has a 72-hour shift starting May 20, 2021. Debbie uses the `msdyn_SaveCalend
 }`
 ``` 
 
-## Troubleshooting and errors
+## FAQs
 
-**StartTime cannot be greater or equal to EndTime.**
+**I'm getting the error, "StartTime cannot be greater or equal to EndTime."**
 
 Make sure there are no overlaps in the time slots of the different calendar rules. Check the dates to make sure **StartTime** isn't later than **EndTime**. Also, verify that the times follow the 24-hour format. 
 
-**There was an error deserializing the object of type Microsoft.Dynamics.UCICalendar.Plugins.SaveCalendarContract+CalendarEventInfo. The input source is not correctly formatted.**<br>
-or<br>**Expecting state 'Element'.. Encountered 'Text' with name '', namespace ''.**
+**I'm getting the error, "There was an error deserializing the object of type Microsoft.Dynamics.UCICalendar.Plugins.SaveCalendarContract+CalendarEventInfo. The input source is not correctly formatted.**<br>
+or<br>**Expecting state 'Element'.. Encountered 'Text' with name '', namespace ''."**
 
 Make sure that the string is parsed correctly. There might be missing brackets, commas, or semicolons.
 
-**Invalid recurrence pattern. Please refer to the documentation for supported patterns.**
+**I'm getting the error, "Invalid recurrence pattern. Please refer to the documentation for supported patterns."**
 
 We currently only support this pattern: `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include fewer days; however, `FREQ` and `INTERVAL` can't be changed. Make sure there are no spaces in the pattern.
 
+**How do we get information of the CalendarId and the InnerCalendarId of the resource?**
+The `CalendarId` can be retrieved from resource attributes. Make this call to get this information: `[org-url]/api/data/v9.1/bookableresources([bookableresourceGUID])`. 
+
+An example of the previous call would be `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/bookableresources(7bb0224b-6712-ec11-94f9-000d3a6d888e)`.
+
+The `InnerCalendarId` can be retrieved from calendar attributes. Make this call to get this information: `[org-url]/api/data/v9.1/calendars([calendar-id-from-above-call])?$expand=calendar_calendar_rules`. 
+
+An example of the previous call is `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/calendars(02481736-1b6a-4d49-9ebd-a5bd041c1c99)?$expand=calendar_calendar_rules`.
+
+**What happens if there are overlapping rules?** 
+
+There are a couple different ranks that rules fall under: 
+
+- *Rank 1* - daily occurrence (working/non-working), and time off occurrence. 
+- *Rank 0* - weekly recurrence (working/non-working). 
+ 
+**_It's best to avoid overlapping rules or multiple rules of the same type on the same calendar day, and instead edit existing rules to make changes._** 
+
+But if they do exist, this is how it will be handled: 
+
+- The Rank 1 rules have a higher priority than Rank 0 rules. So if there were two rules (one of each rank) on the same day, the daily occurrence or time-off occurrence will take the priority over the weekly recurrence. 
+- If there are two rules of the same rank, the rule that was most recently created/ modified will be the one that is considered for the resource's calendar. 
+- Keep in mind that all-day occurrences are of Rank 1, so you may want to consider changing it to a weekly recurrence in order to be able to add occurrence work hours and have them be respected. 
+- When a working hour exists and a time off occurrence is created overlapping it, the rules split in a way that ensures the time off is respected, and any remaining time as working hours will stay as is. For example, if there are working hours from 8 AM to 5 PM on September 21, and a time-off occurrence is added from 3 PM to 7 PM on September 21, this would be resolved as working hours as 8 PM to 3 PM and time off from 3 PM to 7 PM. However, if the rules were created in the opposite order (time off created first and then working hours were created) regardless of the timeslots, only the working hour would be reselected. The time off would be overridden. 
 
 ## Time zone codes
 
