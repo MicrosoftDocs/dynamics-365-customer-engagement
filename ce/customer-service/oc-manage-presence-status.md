@@ -56,8 +56,8 @@ Presence status is updated in two ways:
   - When your capacity is fully utilized, the presence is set to **Do not disturb**.
   - When your capacity is partially utilized, the presence is set to **Busy**.
   - When your capacity is not utilized, the presence is set to **Available**.
-  - When you miss a notification and the missed notifications alert is enabled, the presence is set to **Inactive**.
-  - When you reject a work notification and the agent reject notification alert is enabled, the presence is set to **Do not disturb**.
+  - When you miss a notification and the missed notifications setting is enabled, the presence is set to **Inactive**.
+  - When you reject a work notification and the agent reject notification setting is enabled, the presence is set to **Do not disturb**.
 
 ### Troubleshoot display of presence
 
