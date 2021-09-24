@@ -1,6 +1,6 @@
 ---
 title: "Enable automatic status update on rejection of work assignment| MicrosoftDocs"
-description: "Learn about managing agent reject notifications in the Omnichannel Administration app"
+description: "Learn about managing agent reject notifications in Customer Service"
 ms.date: 09/23/2021
 ms.topic: article
 author: Soumyasd27
