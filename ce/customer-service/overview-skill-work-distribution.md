@@ -23,7 +23,7 @@ For example, for an incoming conversation related to **Xbox** from Spain, the sk
 
 Skill-based routing allows you to easily match the conversation with the agent that's most proficient in dealing with it while maintaining the workload of the agent. You can associate distinct skills with each agent on your team and create rules to make sure that conversations matching those skills are always assigned to them.
 
-You can also [enable your agents to update skills](allow-agents-update-skills.md) for the work items assigned to them. Agents can assess, add, remove, and update skills required for a particular work item, based on their abilities and experience. Now, if your organization uses machine learning model for skill prediction, you can use the updated skill information to retrain your model, so that the system is later able to efficiently and effectively route the work items (conversations) to the agent best suited for the work. 
+You can also [enable your agents to update skills](allow-agents-update-skills.md) for the work items assigned to them. Agents can assess, add, remove, and update skills required for a particular work item, based on their abilities and experience. Now, if your organization uses machine learning model for skill prediction, you can use the updated skill information to retrain your skill finder model, so that the system is later able to efficiently and effectively route the work items (conversations) to the agent best suited for the work. More information: [Retrain skill finder model](set-up-skill-based-routing.md#retrain-the-model-iteratively)
 
 ## Value proposition of skill-based routing
 
