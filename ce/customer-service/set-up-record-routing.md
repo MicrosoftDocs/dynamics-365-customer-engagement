@@ -84,13 +84,20 @@ The following screenshot shows a workstream with the required intake rule and ro
 
 ![Workstream for a case record.](media/ur-record-routing-workstream.png "Workstream for a case record")
 
+### Configure routing rules
+
+Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
+
+- [Configure work classification rules](configure-work-classification.md#create-work-classification-rulesets)  
+- [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+
 ### Configure work distribution and advanced settings
 
 1. In the **Work distribution** area, you can either accept the default settings or select **See more**, and update the following options:
    - **Capacity**: Select one of the following options:
      - **Unit based**: Enter value if your organization has configured unit-based capacity.
-     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity.
-   - **Allowed presences**: Select the presences in which agents will be assigned.
+     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity. More information: [Create and manage capacity profiles](capacity-profiles.md) 
+   - **Allowed presences**: Select the presences in which agents will be assigned. If you want to route records in Customer Service Hub, make sure that you add all the required presences to be able to route work items as required.
    - **Default skill matching algorithm**: Select **Exact Match** or **Closest Match**.
 2. Expand **Advanced settings** to configure the following options:
    - [Sessions](../app-profile-manager/session-templates.md)
