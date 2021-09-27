@@ -33,12 +33,12 @@ Benefits:
 - This mobile app is built on Microsoft Power Platform as a model-driven app. 
 
 
-
+mobile-2020-windows-agenda-view
 
 
 The app supports offline by default and will allow technicians/front line workers using a Windows laptop or tablet to be able to use Field Service app in low or no connectivity areas too.
 
-In addition to other capabiltiies, the Field Service (Dynamics 365) Windows app  
+In addition to other capabiltiies, the Field Service (Dynamics 365) Windows app supports the following: 
 •	Access to device camera to be able to capture images and videos
 •	Barcode scanning of assets and global search
 •	Deep-linking into the FSM mobile app
@@ -88,14 +88,6 @@ Access Barcode scanning: You can use the device camera to scan barcodes either f
 Download offline data: The app automatically downloads offline data after login, you can also force an update of the offline data by clicking on ‘Update date’.
  
 
-
-
-Future enhancements:
-The Field Service app supports all the major features for covering basic scenarios for the front-line worker. There are some features which are in the backlog and are not present in the public preview version:
-1.	Push notifications
-2.	Geo tracking of technicians
-3.	Quick Notes control will not be available
-4.	Large file and image support will not be available
 
 
 
