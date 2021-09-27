@@ -24,16 +24,36 @@ search.app:
 > [!Note]
 > This feature is in public preview.
 
+The Field Service (Dynamics 365) app is now available for Windows. This native windows app lets frontline workers view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. 
+
 // Video: https://msit.microsoftstream.com/video/2bdb0840-98dc-ae76-2e3e-f1ec1afa1e06
 
 Benefits:
-- native app on windows 10 and 11 devices
-- great for frontline workers using surface laptops, surface duos, and other devices running windows 10 or 11
-- full offline support 
+- native app on windows 10 and 11 devices, great for frontline workers using surface laptops, surface duos, and other devices running windows 10 or 11
+- This mobile app is built on Microsoft Power Platform as a model-driven app. 
+
+
+
+
+
+The app supports offline by default and will allow technicians/front line workers using a Windows laptop or tablet to be able to use Field Service app in low or no connectivity areas too.
+
+In addition to other capabiltiies, the Field Service (Dynamics 365) Windows app  
+•	Access to device camera to be able to capture images and videos
+•	Barcode scanning of assets and global search
+•	Deep-linking into the FSM mobile app
 
 ## Prerequisites
 
-Download from the Windows app store
+
+
+Device requirements:
+1.	OS requirements: Windows 10 and 11
+2.	Device requirements: Minimum RAM and ROM
+
+Review system requirements: https://docs.microsoft.com/en-us/dynamics365/field-service/mobile-power-app-system-requirements
+
+Review installation and set up of the Field Service (Dynamics 365) mobile app: https://docs.microsoft.com/en-us/dynamics365/field-service/mobile-power-app-get-started
 
 > [!Note]
 >
@@ -41,28 +61,11 @@ Download from the Windows app store
 >[!TIP] 
 > 
 
+## Download the mobile app
 
-
-The Field Service (Dynamics 365) mobile app lets technicians view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. This mobile app is built on Microsoft Power Platform as a model-driven app. 
-The Field Service (Dynamics 365) (Preview) app is now also available for Windows.
-The app supports offline by default and will allow technicians/front line workers using a Windows laptop or tablet to be able to use Field Service app in low or no connectivity areas too.
-The app supports:
-•	Access to device camera to be able to capture images and videos
-•	Barcode scanning of assets and global search
-•	Deep-linking into the FSM mobile app
-
-System requirements:
-Device requirements:
-1.	OS requirements: Windows 10 and 11
-2.	Device requirements: Minimum RAM and ROM
-
-Install and Setup:
-The FSM app is built on the same Power platform as a model-drive app so will run your existing Field Service Mobile app modules (if you have them configured already).
-Steps to install Field Service: Install the Field Service (Dynamics 365) mobile app | Microsoft Docs
-Assign users appropriate security roles: Install the Field Service (Dynamics 365) mobile app | Microsoft Docs
-Assign security roles to the Field Service mobile app: Install the Field Service (Dynamics 365) mobile app | Microsoft Docs
-Download the app and sign-in:
+Download from the Windows app store
 Go to the Microsoft Store and search for ‘Field Service (Dynamics 365) (Preview)’.
+
 Download the app named Field Service (Dynamics 365) (Preview) app (as shown in the screenshot below).
  
 Open the app and sign in with your username and password, which should be the user credentials of the technician user who has the Field Service - Resource security role.
