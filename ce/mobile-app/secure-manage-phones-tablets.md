@@ -1,12 +1,10 @@
 ---
-title: "Secure and manage Dynamics 365 for phones and tablets | MicrosoftDocs"
+title: "Manage Dynamics 365 apps on mobile devices with Microsoft Intune | MicrosoftDocs"
 ms.custom:
-description: Secure and manage Dynamics 365 for phones and tablets.
-ms.date: 01/03/2020
+description: Secure and manage Dynamics 365 for phones and tablets usingh Microsoft Intune.
+ms.date: 09/27/2021
 ms.reviewer:
 ms.service: crm-online
-ms.suite:
-ms.tgt_pltfrm:
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 59af6fe5-f6e0-43d0-addc-044009bc0a23
@@ -22,12 +20,16 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Manage Dynamics 365 apps on mobile devices with [!INCLUDE[pn_microsoft_intune](../includes/pn-microsoft-intune.md)]  
+# Manage Dynamics 365 apps on mobile devices with Microsoft Intune  
+
 If your organization is set up with Intune, you can use it to manage the Dynamics 365 for phones and tablets apps on Apple, Android, and Windows 10 tablets. Intune manages encryption at the device level, as well as app-to-app communications. With Intune, you can selectively wipe managed apps and related data on devices that are unenrolled, no longer compliant, lost, stolen, or retired from use.
 
 With CRM Online 2016 Update 1 and later, you can use Intune mobile application management (MAM) without enrolling the device. This protects company data in Dynamics 365 apps without requiring you to enroll and deeply manage the end user's entire device. This is particularly useful for bring-your-own-device (BYOD) scenarios where end users don’t want to or can’t enroll their devices for IT management. This capability is also useful if a device is already enrolled in another mobile application management solution.
 
-For more information about getting and using Intune, see [Microsoft Intune](/intune/fundamentals/what-is-intune)  
+For more information about getting and using Intune, see [Microsoft Intune](/intune/fundamentals/what-is-intune) 
+
+> [!NOTE]
+> Admins can't configure apps to start or run with specific settings enabled and update existing apps already on the device. 
   
   
 ## Set up conditional access to Dynamics 365 apps  
