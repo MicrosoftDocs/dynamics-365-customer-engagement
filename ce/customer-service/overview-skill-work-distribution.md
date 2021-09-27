@@ -8,8 +8,6 @@ ms.author: v-jmh
 manager: shujoshi
 ms.custom: intro-internal
 ---
- this is general intro to skill based routing, the newly added section applies only when user decides to use ml model to predict skil. we need a line or 2 in the beginning to make it clear. + this should also go in sections of retraining and agent update skill experience on skill control 
-
 # Overview of skill-based routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
