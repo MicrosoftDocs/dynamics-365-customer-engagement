@@ -60,7 +60,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 
 ## Wrap-up
 
-This is an intermediate state after you end the conversation, when you can do post-conversation activities, such as, taking notes and update the customer information before moving the conversation to **Closed**. In **Wrap-up**, your (agent) capacity is consumed.
+This is an intermediate state after you end the conversation, when you can do post-conversation activities such as taking notes and update the customer information, before moving the conversation to the **Closed** state. In the **Wrap-up** state, your (agent) capacity is consumed.
 
 The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario.
 
@@ -86,7 +86,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 
 ## Closed
 
-The conversations that are completed by ending them or by closing the session are classified as **Closed** conversations. When you close a conversation, you can't reactivate or reopen the conversation again.
+The conversations that are completed by ending them or closing the session are classified as **Closed** conversations. You can't reactivate or reopen closed conversations.
 
 ## Automatically close conversations
 
@@ -99,31 +99,27 @@ The Omnichannel for Customer Service application checks the conversations every 
 
 ### Default time for automatic closure of conversations
 
-All channels have different default configured time after which conversations can be moved to the **Closed** state. 
+All channels have different default configured time after which conversations can be moved to the **Closed** state. However, the exact time at which the scheduler runs is dependent on the Omnichannel for Customer Service deployment time in your region. For more information, contact Microsoft support.
 
 The following table describes the channel, status reason, and default configured time.
 
  | Channel | Existing status reason | Default configured time | Description |
  |--------------------|-------|-------------|--------------------------------------|
- | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for automatic-closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
+ | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | Chat | Active | None | For a chat channel, a conversation in the Active won’t be automatically closed. |
- | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic-closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
+ | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
  |  |  |  |  |
- | Records (Case) | Open | None | For an entity channel, a conversation in the **Open** won’t be automatically closed. |
- | Records (Case) | Active | None | For an entity channel, a conversation that is  **Active** won’t be automatically closed. |
+ | Records (Case) | Open | None | For a records (case) channel, a conversation in the **Open** won’t be automatically closed. |
+ | Records (Case) | Active | None | For a records (case) channel, a conversation that is  **Active** won’t be automatically closed. |
  |  |  |  |  |
  | SMS, Teams, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
  | SMS, Teams, and social | Wrap-up | 1 day | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Wrap-up** state for more than 1 day is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
 
-**Example**
+For example, let's say the scheduler runs every 12 hours starting at 0000 hours.
 
-The scheduler runs for every 12 hours considering starting at 0000 hours AM.
+For the chat channel, consider a conversation that's in the **Open** state at 1100 hours of Jan 10, 2020, and remains in this state until 2259 hours at night. Because the conversation is open for more than 20 minutes (default configured time), this conversation is eligible for automatic closure. At 2300 hours of Jan 10, 2020, when the scheduler runs, the conversation that's in the **Open** state is moved to the **Closed** state.
 
-For the chat channel, consider a conversation that's in the **Open** state at 1100 hours of Jan 10, 2020, and remains in this state until 2259 hours at night. Since the conversation is open for more than 20 minutes (default configured time), this conversation is eligible for automatic closure. At 2300 hours of Jan 10, 2020, when the scheduler runs, the conversation that's in the **Open** state is moved to the **Closed** state.
-
-> [!Note]
-> The scheduler runs every 12 hours to close all eligible conversations. However, the exact time at which the scheduler runs is dependent on the Omnichannel for Customer Service deployment time in your region. For more information, contact Microsoft support.
 
 ### Conversation in waiting
 
