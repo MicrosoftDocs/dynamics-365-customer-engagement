@@ -67,7 +67,7 @@ AI suggestions for article keywords and description are supported in the followi
 - Japanese
 - Spanish
 
-The language used in AI-generated suggestions is based on the language that the knowledge author selected in the article record. A knowledge author can specify the language for an article on the **Summary** tab of the knowledge article form.
+The language used in AI-generated suggestions is based on the language that the knowledge author has selected in the article record. A knowledge author can specify the language for an article on the **Summary** tab of the knowledge article form.
 
 ## Prerequisites
 

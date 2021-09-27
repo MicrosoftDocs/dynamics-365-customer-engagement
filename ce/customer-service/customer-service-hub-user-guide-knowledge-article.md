@@ -54,9 +54,9 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
    - **Title**. Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
-   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)
+   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md)
   
-   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)
+   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md)
     :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article.":::
        
 5. In the **Content** section, add the content for your knowledge article.  
@@ -91,14 +91,14 @@ Posts about knowledge article-related activities will begin appearing in the **T
 
 If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles.
 
-However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value in order for suggestions to be generated. If any of the fields<!--note from editor: Edits okay? I was confused by the use of "both" here. The error messages you quote seem like they'll occur in the specific case when one field or the other is empty, they don't necessarily have to both be empty at once.--> that the model uses to generate suggestions are empty, you'll see error messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description"<!--note from editor: If this is a direct quote, can you ask the UI designer to change this to "There was a problem finding a suggested description"? Also please note, we should use straight (rather than "curly") quotation marks and apostrophes in our content (I realize that this style rule isn't followed in the rest of this topic though).-->. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md)<!--note from editor: For a link to a topic, it's okay just to use the markdown file name. To go to a specific subheading in the topic, that's when you'd use the "markdown-file-name.md#heading-name" syntax.-->
+However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value in order for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you'll see error messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description". More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md)
 
 1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description (preview)** link appears.
 
-1. Select the **View suggested keywords and description (preview)** link.<!--note from editor: In the image, can you highlight the link with a red box? I think it would be helpful.-->
-    :::image type="content" source="media/v9-add-content-article.png" alt-text="Add suggested keywords and description.":::
+1. Select the **View suggested keywords and description (preview)** link.
+    :::image type="content" source="media/v9-add-content-article.PNG" alt-text="View suggested keywords and description link":::
 
-1. In the **Suggested keywords and description (preview)** dialog, do the following:<!--note from editor: As above, I think it would be helpful to use a red box to highlight the "book" and "travel" keywords and the "Insert suggested description" command image. Also, note that you don't want to have an image intervene within a step in a procedure. Please verify that my suggested alt text does cover what a reader with low vision needs to know about the image.-->
+1. In the **Suggested keywords and description (preview)** dialog, do the following:
 
    - Select the keywords that you want to add to your keywords list. The keywords will be added to the **Keywords** field.
    - Select **Insert suggested description**. The description gets added to the **Description** field.
