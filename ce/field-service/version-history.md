@@ -60,6 +60,11 @@ This release is an update to Field Service 2021 Wave 2 early access version [8.8
 
 (Includes Universal Resource Scheduling version [3.12.62.63](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126263)).
 
+- When there is only 1 price list per currency on the billing account, we apply that price list to new agreements, work orders, and return merchandise authorizations (RMA). 
+- Added a Tax Code Quick Create form.
+- Fixed issue where estimate duration field on Work Order Incident form isn’t updated correctly when deleting or deactivating child service tasks.
+- Added field "Field Service Product Type" to the Product quick create form used in the Field Service Mobile (D365) app.
+
 ## 8.8.50.13
 
 (Includes Universal Resource Scheduling version [3.12.52.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#312524)).
