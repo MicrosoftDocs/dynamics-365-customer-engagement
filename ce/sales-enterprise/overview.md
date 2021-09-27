@@ -27,33 +27,36 @@ Here are the multiple sales solutions that fit every type and size of business:
 Sales premium continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
 
 When you subscribe to Dynamics 365 Sales Premium, the following capabilities are available in the Sales Hub app:    
-- **Guided selling**: Guide sellers on their next course of action with timely and actionable insights. The following feature is available:    
-    - **Sales accelerator**   
-        - Administrator: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
-        - Seller: [What is the Sales accelerator?](sales-accelerator-intro.md)
-- **Relationship intelligence**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
-    - **Assistant**
-        - Administrator: [Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)
-        - Seller: [Use the assistant to guide customer communications](assistant.md)
-    - **Relationship analytics and health**
-        - Administrator: [Configure relationship analytics and health](configure-relationship-analytics.md)
-        - Seller: [Use relationship analytics to gather KPIs](relationship-analytics.md)
-    - **Talking points** 
-        - Administrator: [Configure talking points](configure-talking-points)
-        - Seller: [Know conversation starters for your customers](talking-points.md)
-    - **Who knows whom**
-        - Administrator: [Configure Who knows whom](configure-who-knows-whom.md)
-        - Seller: [Get introduced to a lead](who-knows-whom.md) 
-    - **Conversation intelligence**
-        - Administrator: [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app)
-        - Seller: [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md) 
-- **Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
-    - **Predictive lead scoring**    
-        - Administrator: [Configure predictive lead scoring](configure-predictive-lead-scoring.md)
-        - Seller: [Prioritize leads through scores](work-predictive-lead-scoring.md)   
-    - **Predictive opportunity scoring**   
-        - Administrator: [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
-        - Seller: [Prioritize opportunity through scores](work-predictive-opportunity-scoring.md)   
+#### Guided selling   
+Guide sellers on their next course of action with timely and actionable insights. The following feature is available:    
+- **Sales accelerator**   
+    - Administrator: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
+    - Seller: [What is the Sales accelerator?](sales-accelerator-intro.md)
+#### Relationship intelligence   
+Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
+- **Assistant**
+    - Administrator: [Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)
+    - Seller: [Use the assistant to guide customer communications](assistant.md)
+- **Relationship analytics and health**
+    - Administrator: [Configure relationship analytics and health](configure-relationship-analytics.md)
+    - Seller: [Use relationship analytics to gather KPIs](relationship-analytics.md)
+- **Talking points** 
+    - Administrator: [Configure talking points](configure-talking-points)
+    - Seller: [Know conversation starters for your customers](talking-points.md)
+- **Who knows whom**
+    - Administrator: [Configure Who knows whom](configure-who-knows-whom.md)
+    - Seller: [Get introduced to a lead](who-knows-whom.md) 
+ - **Conversation intelligence**
+    - Administrator: [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app)
+    - Seller: [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md) 
+#### Predictive models    
+Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
+- **Predictive lead scoring**    
+    - Administrator: [Configure predictive lead scoring](configure-predictive-lead-scoring.md)
+    - Seller: [Prioritize leads through scores](work-predictive-lead-scoring.md)   
+- **Predictive opportunity scoring**   
+    - Administrator: [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
+    - Seller: [Prioritize opportunity through scores](work-predictive-opportunity-scoring.md)   
 
 ### Sales Enterprise
 
