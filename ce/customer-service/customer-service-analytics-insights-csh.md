@@ -104,7 +104,7 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard.](media/agent-report-cs.png "Agent report").
 
-For more details about the Agent report, see [Agent dashboard](agent-dashboard-cs.md)
+For more details about the Agent report, see [Agent dashboard](agent-dashboard.md#agent-dashboard)
 
 ### Bot
 

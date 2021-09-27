@@ -40,7 +40,7 @@ This configuration will also enable AI-discovered topics from conversations with
 
 ### View Omnichannel historical analytics reports
 
-The service managers must have either the system administrator or the CSR manager role to view the reports.
+The service managers must have either the Omnichannel administrator, Omnichannel supervisor, or the CSR Manager role to view the reports.
 
 ### Provide report access to additional security roles
 
