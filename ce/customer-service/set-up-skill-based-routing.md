@@ -141,7 +141,7 @@ Perform the steps in this section to set up the intelligent skill finder model. 
 
 You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which agents have updated the skills for records or conversations. When you retrain the model to include the skills added by agents, review the training data records after loading it to make sure it meets the required skill criteria. 
 
-For information about how your agents can update skills, see [Manage skills](manage-skills.md). To enable your agents to update skills at runtime, see [Allow agents to update skills](allow-agents-update-skills.md).
+For information about how your agents can update skills, see [Manage skills](manage-skills.md). To enable your agents to update skills at runtime, see [Enable agents to update skills](allow-agents-update-skills.md).
 
 You can define the conditions as seen in the following screenshot.
 
