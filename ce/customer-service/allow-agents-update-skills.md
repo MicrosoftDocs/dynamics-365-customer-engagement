@@ -13,15 +13,20 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can enable agents to add or remove skills for a work item at runtime. By default, the skill control is available only for the messaging channels. For the records channel, you'll need to customize the form to add the skill control. More information: [Add a skill control for routed records](add-skill-control.md)
+By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can also enable your agents to add or remove skills for their assigned work items (conversations) at runtime.
 
-Perform the following steps to enable the setting that allows agents to update skills for a work item.
+> [!Note]
+> The skill control is available only for the messaging channels. For the records channel, you'll need to customize the form to add the skill control. More information: [Add a skill control for routed records](add-skill-control.md)
+
+**To enable your agents to update skills for their work items**
 
 1. Sign in to Dynamics 365.
 
 2. In Omnichannel admin center or in Customer Service Hub, in the site map, select **User attributes**, and then select **Manage** next to **Skill-based routing** on the **User attributes** page.
 
 3. On the **Skill based routing** tab, set the **Enable update skill control** toggle to **Yes**.
+
+By enabling your agents to assess and update skills required for their work items, your agents can help with better work
 
 ### See also
 

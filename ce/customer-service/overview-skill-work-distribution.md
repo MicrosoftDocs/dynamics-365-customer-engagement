@@ -8,6 +8,8 @@ ms.author: v-jmh
 manager: shujoshi
 ms.custom: intro-internal
 ---
+ this is general intro to skill based routing, the newly added section applies only when user decides to use ml model to predict skil. we need a line or 2 in the beginning to make it clear. + this should also go in sections of retraining and agent update skill experience on skill control 
+
 # Overview of skill-based routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
@@ -15,15 +17,15 @@ ms.custom: intro-internal
 > [!Note]
 > The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel for Customer Service is shared with other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel for Customer Service.
 
-In the customer service center, your agents have different skill sets and abilities. The customers who reach out to the contact center might have different needs. Skill-based routing lets your customer service center distribute the work item (conversation) to the agent who is most qualified to solve the issue. Skill-based routing improves the quality of customer service by automatically distributing the work items to the agent who has the skills necessary to do the work.
+In the customer service center, your agents have different skill sets and abilities. The customers who reach out to the contact center might have different needs. Skill-based routing lets your customer service center distribute work items (conversations) to the agent who is most qualified to solve the issue. Skill-based routing improves the quality of customer service by automatically distributing work items to the agent who has the skills necessary to do the work.
 
-You can associate skills to bots also and route work items using skill-based routing.
+You can also associate skills with bots and route work items using skill-based routing.
 
 For example, for an incoming conversation related to **Xbox** from Spain, the skill required is knowledge of the **Xbox** product and **Spanish** language. Now, with skill-based routing, the system identifies the agents with those specific skills and distributes the conversation to one of them.
 
 Skill-based routing allows you to easily match the conversation with the agent that's most proficient in dealing with it while maintaining the workload of the agent. You can associate distinct skills with each agent on your team and create rules to make sure that conversations matching those skills are always assigned to them.
 
-You can also enable your agents to update skills for the work items assigned to them. Based on their abilities and experience, agents can assess the skills required for a particular work item. The agents can add, remove, or update skills as appropriate, so that the system is later able to effectively route the work items (conversations) to the agent best suited for the work. This helps you with model retraining efforts, enables better model prediction in the future, and increases model accuracy.
+You can also [enable your agents to update skills](allow-agents-update-skills.md) for the work items assigned to them. Agents can assess, add, remove, and update skills required for a particular work item, based on their abilities and experience. Now, if your organization uses machine learning model for skill prediction, you can use the updated skill information to retrain your model, so that the system is later able to efficiently and effectively route the work items (conversations) to the agent best suited for the work. 
 
 ## Value proposition of skill-based routing
 

@@ -21,13 +21,16 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Dynamics 365 comes with an out-of-the box skill control for messaging channels. The skill control when added to the case or conversation forms enables you to view and update skills. Your administrator can enable the setting that allows you to update skills at runtime.
+Dynamics 365 comes with an out-of-the box skill control for messaging channels. The skill control when added to the case or conversation forms enables you to view and update skills. Your administrator can enable the setting that allows you to update skills at runtime. 
+
+> [!Note]
+> For the record type entity, you'll need to customize the case form to add the skill control. More information: [Add a skill control for routed records](add-skill-control.md)
 
 ## Introduction
 
-When you receive a work item in your queue, you can view the skills required to do the work in the **Skills** field of your case or conversation record. For each work item, you can view skills that have been manually added by your administrator and those that were identified by the machine-learning models.
+When you receive a work item in your queue, you can view the skills required to do the work in the **Skills** field of your case or conversation record. For each work item, you can view skills that have attached by manual skill classification rules and those that were identified by the machine-learning models.
 
-In the following illustration, **Refund** is a skill added by your administrator, and skills with the percentage rating such as **99% Heating** and **99% Electrical** are skills that have been identified by the machine-learning model.
+In the following illustration, **Refund** is a skill attached by the manual skill classification rules, and skills with the percentage rating such as **99% Heating** and **99% Electrical** are skills that have been identified by the machine-learning model.
 
 > [!div class="mx-imgBorder"]
 > ![Add skills.](media/skill-control.png "Add skills.")
@@ -41,6 +44,8 @@ If upon assessing the work item, you think that the relevant skills are missing 
 To add skills, select **Add skill**, enter a skill name, and select the plus (**+**) symbol. To add multiple skills at a time, simply add the skills names separated by commas, and then select the plus (**+**) symbol.
 
 To remove skills, select **X** next to each skill that you want to delete.
+
+The skill updates you make for your assigned work items can then be used to retrain the machine learning models and help with accurate work assignments.
 
 ### See also
 
