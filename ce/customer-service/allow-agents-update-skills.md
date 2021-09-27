@@ -26,8 +26,8 @@ By default, skill-based routing is enabled. You can create skills to attach to a
 
 3. On the **Skill based routing** tab, set the **Enable update skill control** toggle to **Yes**.
 
-    > [!div class=mx-imgBorder] 
-    > ![Enable update skill control toggle.](media/enable-update-skill-control.png "Enable update skill control toggle")
+    > [!div class=mx-imgBorder]
+    > ![Enable update skill control toggle.](enable-update-skill-control.png "Enable update skill control toggle")
 
 By enabling your agents to evaluate and update skills required for their work items, you make use of your agents' experience to identify the exact or closest skills required for the work items. This, in turn, helps with retraining the skill finder model, and improves model accuracy and prediction. More information: [Retrain skill finder model](set-up-skill-based-routing.md#retrain-the-model-iteratively)
 
