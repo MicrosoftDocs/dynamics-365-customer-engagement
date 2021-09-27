@@ -28,7 +28,16 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 ## Introduction
 
-Conversational IVR bots speak to customers when they call in to route their call to the best department, diagnose issues, collect information, and give recommendations. Using Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
+Conversational IVR bots speak to customers when they call in to route their call to the best department, diagnose issues, collect information, and give recommendations. Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
+
+## Private Preview refresh - September '21
+
+We are refreshing our Private Preview in September 2021 with the following updates. To get the following updates, you will need to be enrolled into the private preview program, and create a new bot after September 23, 2021. Any new bots created after this time will be using the new refresh code. Old bots using orivatepPreview will continue to work but will stop working by October 15, 2021. 
+
+1. Improved latency and performance for voice interactions.
+1. Customizable voices in the Omnichannel for Customer Service configuration experience.
+1. Questions in Power Virtual Agents using "Boolean" types do not prompt users with "Options are _Yes_ or _No_".
+1. All bot messages can be interrupted by the caller.
 
 ## Prerequisites
 
@@ -92,7 +101,7 @@ To configure the handoff between Power Virtual Agents bot to Omnichannel for Cus
 
     ![Copy the application ID.](media/image68.png)
 
-1.  Return to the Power Virtual Agents, paste the application ID into the field, and then select **Next**.
+1.  Return to Power Virtual Agents, paste the application ID into the field, and then select **Next**.
 
     ![Transfer to agent settings.](media/image69.png)
 
