@@ -24,7 +24,9 @@ You can configure the origins allow list feature to ensure that knowledge author
 > [!IMPORTANT]
 > The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number.  Knowledge authors must use only an exact match of links in the articles.
 
-After you have enabled this feature, if knowledge authors add links other than the supported origins or the exact match of links while creating their articles, an error message stating, "Update your origins allow list if any iframe in the article doesn't work or displays error" will appear.
+After you have enabled this feature, if knowledge authors add links other than the supported origins or the exact match of links while creating the articles, an error message will be displayed if the links are hosted within an iframe.
+
+In the knowledge article form, Content field, knowledge authors will see the following message, "Update your origins allow list if any iframe in the article doesn't work or displays error".
 
 For published articles, agents and portal users will see an error within the article for the links that are hosted within an iframe. You must update the origins list, so that all the existing iframe links continue to work fine.
 
