@@ -33,7 +33,24 @@ Benefits:
 - This mobile app is built on Microsoft Power Platform as a model-driven app. 
 
 
-mobile-2020-windows-agenda-view
+// @kristina - i purposely left the windows taskbar in the image below
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-agenda-view.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-timeline-control-to-add-images-and-videos.jpg)
+
+
+
+
+
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-account-form-with-barcode-field.jpg)
+
 
 
 The app supports offline by default and will allow technicians/front line workers using a Windows laptop or tablet to be able to use Field Service app in low or no connectivity areas too.
@@ -45,11 +62,9 @@ In addition to other capabiltiies, the Field Service (Dynamics 365) Windows app 
 
 ## Prerequisites
 
-
-
 Device requirements:
 1.	OS requirements: Windows 10 and 11
-2.	Device requirements: Minimum RAM and ROM
+2.	Device requirements: Minimum 3 GB RAM and 64 GB sotrage
 
 Review system requirements: https://docs.microsoft.com/en-us/dynamics365/field-service/mobile-power-app-system-requirements
 
@@ -69,6 +84,9 @@ Go to the Microsoft Store and search for ‘Field Service (Dynamics 365) (Previe
 Download the app named Field Service (Dynamics 365) (Preview) app (as shown in the screenshot below).
  
 Open the app and sign in with your username and password, which should be the user credentials of the technician user who has the Field Service - Resource security role.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-login-screen.jpg)
  
 Note: To access non-product environments, please enable non-production apps from settings.
  
@@ -76,19 +94,35 @@ Note: To access non-product environments, please enable non-production apps from
 Use the app
 Access your Bookings: You can access your Bookings from the Home screen or Bookings screen. Clicking on a Booking will open the Booking entity record which will allow you to change status, complete Service tasks (including Inspections) and attach notes to the Timeline.
  
- 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-agenda-view.jpg)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-booking-form-with-status-dropdown.jpg)
+
 Add a picture to your notes: While adding a note to the timeline, you can also attach a picture by clicking on the camera icon which opens the native camera app.
  
- 
- 
- 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-launch-device-camera-to-capture-image.jpg)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-note-added-to-timeline.jpg)
+
+
 Access Barcode scanning: You can use the device camera to scan barcodes either for global search or for filling any field of the barcode type.
- 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-barcode-reader-launched.jpg) 
  
 Download offline data: The app automatically downloads offline data after login, you can also force an update of the offline data by clicking on ‘Update date’.
  
 
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-offline.jpg)
 
 
 
