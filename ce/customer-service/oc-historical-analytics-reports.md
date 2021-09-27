@@ -4,7 +4,7 @@ description: "Configure historical analytics reports for Omnichannel"
 ms.date: 09/27/2021
 ms.topic: article
 author: lalexms
-ms.author: v-mlanka
+ms.author: lalexms
 manager: shujoshi
 ---
 
