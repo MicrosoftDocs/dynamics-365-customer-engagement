@@ -41,3 +41,10 @@ case, select **Yes**. If you don't want to revise the quote, set this field to *
     - **Close the associated opportunity:** This field appears only when you try to close the last quote associated with an opportunity. 
 
 3. Select **OK**.
+
+### See also
+
+[Create or edit quotes](create-edit-quote-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)] 
