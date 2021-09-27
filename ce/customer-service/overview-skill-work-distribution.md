@@ -53,6 +53,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 [Attach skills to conversation](attach-skills.md)  
-
+[Set up skill-based routing](set-up-skill-based-routing.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
