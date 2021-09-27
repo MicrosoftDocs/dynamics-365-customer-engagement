@@ -138,6 +138,8 @@ When no rule condition is matched or no rule is defined, the work item is assign
 
 After you create the rules, you can change the order in which the rules should be evaluated, search for rules, and view the condition that's been used for each rule by hovering the mouse over the condition. You can also create copies of the rules and update only the necessary information to avoid writing the conditions from scratch.
 
+:::image type="content" source="media/route-to-queue-ruleset.png" alt-text="Route-to-queues rulesets list":::
+
 ### See also
 
 [Create a workstream for unified routing](create-workstreams.md)  
