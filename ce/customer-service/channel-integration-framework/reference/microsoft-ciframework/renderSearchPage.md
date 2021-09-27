@@ -1,7 +1,7 @@
 ---
 title: "renderSearchPage (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the renderSearchPage method in JavaScript API Reference for Channel Integration Framework 1.0."
-ms.date: 09/17/2021
+ms.date: 09/27/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -33,7 +33,7 @@ ms.custom:
 On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
 
 ## Example
-The following example shows how to query for the term "Contoso" among the records of an account entity.
+The following example shows how to query for the term "Contoso" among the records of an account entity, specifying the relevance search type.
 
 ```JavaScript
 var entityname = "account"
@@ -50,5 +50,20 @@ Microsoft.CIFramework.renderSearchPage(entityname, searchterm, searchtype).then(
   );
 ```
 
+The following example shows how to query for the term "Contoso" among the records of an account entity, without specifying the search type.
+
+```JavaScript
+var entityname = "account"
+var searchterm = "Contoso"
+
+Microsoft.CIFramework.renderSearchPage(entityname, searchterm).then( // if search type is not passed, it defaults to categorized search
+function (success) {​​
+console.log(success);
+}​​,
+function (error) {​​
+console.log(error);
+}​​
+);
+```
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
