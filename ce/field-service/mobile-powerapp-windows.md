@@ -38,8 +38,6 @@ Benefits:
 > ![Screenshot of ](./media/mobile-2020-windows-agenda-view.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-timeline-control-to-add-images-and-videos.jpg)
 
 
 
@@ -48,8 +46,8 @@ Benefits:
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-account-form-with-barcode-field.jpg)
+
+
 
 
 
@@ -70,29 +68,23 @@ Review system requirements: https://docs.microsoft.com/en-us/dynamics365/field-s
 
 Review installation and set up of the Field Service (Dynamics 365) mobile app: https://docs.microsoft.com/en-us/dynamics365/field-service/mobile-power-app-get-started
 
-> [!Note]
->
 
->[!TIP] 
-> 
 
 ## Download the mobile app
 
-Download from the Windows app store
-Go to the Microsoft Store and search for ‘Field Service (Dynamics 365) (Preview)’.
+Go to the Microsoft Store and search for **Field Service (Dynamics 365) (Preview)**.
 
-Download the app named Field Service (Dynamics 365) (Preview) app (as shown in the screenshot below).
+Download the app named Field Service (Dynamics 365) (Preview) app.
  
-Open the app and sign in with your username and password, which should be the user credentials of the technician user who has the Field Service - Resource security role.
+Open the app and sign in with your username and password, which should be the user credentials of the frontline worker user who has the _Field Service - Resource_ security role.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-windows-login-screen.jpg)
  
 Note: To access non-product environments, please enable non-production apps from settings.
  
-
-Use the app
-Access your Bookings: You can access your Bookings from the Home screen or Bookings screen. Clicking on a Booking will open the Booking entity record which will allow you to change status, complete Service tasks (including Inspections) and attach notes to the Timeline.
+## View Bookings
+You can access your Bookings from the Home screen or Bookings screen. Clicking on a Booking will open the Booking entity record which will allow you to change status, complete Service tasks (including Inspections) and attach notes to the Timeline.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-windows-agenda-view.jpg)
@@ -100,7 +92,12 @@ Access your Bookings: You can access your Bookings from the Home screen or Booki
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-windows-booking-form-with-status-dropdown.jpg)
 
-Add a picture to your notes: While adding a note to the timeline, you can also attach a picture by clicking on the camera icon which opens the native camera app.
+## Capture pictures
+
+While adding a note to the timeline, you can also attach a picture by clicking on the camera icon which opens the native camera app.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-windows-timeline-control-to-add-images-and-videos.jpg)
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-windows-launch-device-camera-to-capture-image.jpg)
@@ -110,13 +107,16 @@ Add a picture to your notes: While adding a note to the timeline, you can also a
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-windows-note-added-to-timeline.jpg)
 
+## Scan barcodes
 
-Access Barcode scanning: You can use the device camera to scan barcodes either for global search or for filling any field of the barcode type.
+You can use the device camera to scan barcodes either for global search or for filling any field of the barcode type.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-windows-barcode-reader-launched.jpg) 
- 
-Download offline data: The app automatically downloads offline data after login, you can also force an update of the offline data by clicking on ‘Update date’.
+
+## Download data for offline use
+
+The app automatically downloads offline data after login, you can also force an update of the offline data by clicking on ‘Update date’.
  
 
 
