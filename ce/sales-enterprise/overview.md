@@ -116,45 +116,6 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
 - **Adapt AI for your unique needs**: Use a powerful, flexible, no-code tool to quickly design and implement next best action recommendations for your sales team.     
 - **Quickly create custom applications**: Extend and adapt the solution with Microsoft Power Platform, including Power Apps and Power Automate, to create custom applications and orchestrate workflows to optimize revenue generation.     
 
-## Process of sales
-
-A sales process includes a set of repeatable steps that sellers follow to engage with a prospective customer from the early stage of awareness to close a sale. A sales process vary from organization to organization. Typically, the process breaks down into stages that target specific steps, such as qualifying a customer or presenting the solution to the customer.
-
-Also, the specific process stages and terminology used by organizations vary based on factors such as, industry, sales strategies, product offerings, or the types of customers they target. Though the actual processes are different, a typical sales process resembles as shown in the following flow:
-
-> [!div class="mx-imgBorder"]
-> ![A typical process of sales](media/sales-process.png "A typical process of sales]")
-
-Each stage typically maps to a specific sales record type. For example, during the qualifying stage, sellers are generally working with a lead. A lead represents someone with an interest in what you are selling. The goal of a lead is to qualify and advance it to the next stage in the sales process, such as the develop stage.
-
-Let's look at an example on how this sales processes is used to implement a sales lifecycle solution in an organization. The following image shows what a sales lifecycle might look like from start to end: 
-
-
-
-
-In the image above, we can see a potential customer has contacted our organization expressing an interest in our products and services. They are captured and entered as a lead.
-
-Qualify: An account executive reaches out to the lead to gather more information about them and determine if a relationship would be mutually beneficial.
-
-If it is determined that it is not a good fit, the lead is disqualified and the sales cycle ends.
-If it is determined that everyone is a good fit, the lead is qualified and converted to an opportunity.
-Develop: The opportunity record is used to develop the details of the deal. Details such as the products and services they are interested in, estimated revenue, and time-lines are added to the opportunity.
-
-Propose: Once the deal is ready, a quote is added to the opportunity that represents the formal proposal to the customer.
-
-Close: When the customer agrees to the quote, an order is generated. The quote and opportunity associated with the order are closed.
-
-Fulfill: After the order is fulfilled, an invoice is generated to bill the customer.
-
-To help manage the sales lifecycle, organizations often use salesforce automation software. Modern sales automation software not only helps guide and automate the selling process, but they provide tools to enhance the digital selling experience and build long lasting relationships with customers.
-
-
-
-
-
-
-
-
 ## Integrations
 
 Integrate Dynamics 365 Sales with helps to digitally transformation your business across every industry vertical, companies are rethinking their business processes and entire segments are reorganizing. You can integrate Dynamics 365 Sales with the following solutions: 

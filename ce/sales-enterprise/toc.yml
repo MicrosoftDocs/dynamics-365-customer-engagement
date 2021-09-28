@@ -3,6 +3,8 @@
   items:
   - name: Overview
     href: overview.md
+  - name: Process of sales
+    href: nurture-sales-from-lead-order-sales.md  
   - name: What's new
     href: whats-new.md
   - name: Removed or deprecated features
@@ -101,7 +103,7 @@
           href: match-fields-between-dynamics365-zoominfo.md
         - name: Customize the ZoomInfo app
           href: customize-zoominfo-app.md              
-    - name: Product management
+    - name: Product and price list management
       items:
       - name: Set up a product catalog
         href: set-up-product-catalog-walkthrough.md
@@ -439,7 +441,7 @@
         href: create-edit-competitor-record-sales.md
       - name: Manage sales literature
         href: create-sales-literature.md
-    - name: Quote and order management
+    - name: Quote, order, and invoice management
       items:
       - name: Sales transactions in Dynamics 365 Sales
         href: sales-transactions.md
