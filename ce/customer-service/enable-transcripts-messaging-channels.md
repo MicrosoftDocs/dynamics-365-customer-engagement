@@ -54,7 +54,7 @@ Do the following to enable transcripts:
 4. Select **Save**.
 
 > [!NOTE]
-> The current transcript viewer experience will be deprecating and will be replaced with this new transcript experience.
+> The current transcript viewer experience will be deprecating at the end of the year, and will be replaced with this new transcript experience.
 
 ## View the transcripts
 
