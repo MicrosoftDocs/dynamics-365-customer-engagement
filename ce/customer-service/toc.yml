@@ -210,9 +210,7 @@
       href: community-overview.md
     - name: Get started with Community
       href: community-get-started.md
-    - name: User setup
-      href: community-user-setup.md
-    - name: Forum setup
+    - name: Create a Community forum
       href: community-forum-setup.md
     - name: Portal setup
       href: community-portal-setup.md
