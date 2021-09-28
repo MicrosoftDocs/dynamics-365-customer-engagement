@@ -73,10 +73,10 @@ To view transcripts in Omnichannel admin center, do the following:
 To view transcripts in Omnichannel for Customer Service, do the following:
 
 1. Open the Omnichannel for Customer Service app, and then switch to the **Omnichannel Agent Dashboard** view.
-2. Completed chat conversations are displayed in the closed work items column.
-3. Do one of the following: 
-    a. Select closed work item for which you want to view the transcript.
-    OR
+   Completed chat conversations are displayed in the **Closed work items** column.
+2. Do one of the following:<br>
+    a. Select the closed work item for which you want to view the transcript.<br>
+    OR<br>
     b. Right-click the three dots to view the transcript.
     
    > [!div class="mx-imgBorder"]
