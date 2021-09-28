@@ -282,21 +282,21 @@ Use the **Email** button to send the knowledge article via mail. When you select
 
 ### View the knowledge article inline in the search control
 
-Select an article title to see its full content rendered in the same control. The article opens inline and you can scroll to read the complete article. 
+Select an article title to see its full content rendered in the same control. The article opens inline, and you can scroll to read the complete article.
 
-However, if you see an error while trying to open an article, it could be because the link types used in the article aren't a part of the origin allow list. An error message "Update your origins allow list if any iframe in the article doesn't work or displays error." will also appear. You must contact your administrator to update your origin allow list. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-the-origins-allow-list-for-knowledge-articles).
+However, if you see an error while trying to open an article, it might be because the link types used in the article aren't a part of the origin allow list. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" will also appear. You must contact your administrator to update your origin allow list. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md)
 
-In this view mode, you can perform the actions such as linking the knowledge article to a record and emailing the knowledge article to a customer. To learn more about sending the knowledge articles via email, see [Email the knowledge article](#email-the-knowledge-article).
+In this view mode, you can perform actions such as linking the knowledge article to a record or emailing the knowledge article to a customer. To learn more about sending the knowledge articles via email, go to [Email the knowledge article](#email-the-knowledge-article).<!--note from editor: Does this image show the current UI? It doesn't include the **Copy Link** or **Email Link** commands I expect to see.-->
 
   > [!div class=mx-imgBorder]
   > ![Knowledge article inline view.](media/km-inline-article-view.png "Knowledge article inline view")
 
-> [!Note]
-> - Select the **Copy Link** button ![Copy knowledge article link button Dynamics 365 Customer Service](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article so you can share it with your customers over channels like chat or email. If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available. 
+> [!NOTE]
+> - Select the **Copy Link** button ![Copy knowledge article link button Dynamics 365 Customer Service](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article so you can share it with your customers over channels like chat or email. If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn't available. 
 >
-> - Copy Link and Email Link options are available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md).
+> - The **Copy Link** and **Email Link** options are available only if your organization is using an external portal to publish the knowledge articles and your administrator selected the **Use an external portal** checkbox during embedded knowledge search setup.<!--note from editor: Suggested. If you don't like it, should it be something like "...and your administrator selected the **Use an external portal** checkbox on the **Embedded Knowledge Search" dialog during setup."? I want to make it clear that "Embedded Knowledge Search" isn't a UI string that appears while the reader is performing these steps (that is, viewing an article inline in the search control).--> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
 >
-> - Copy Link, Email Link, and Email options can be used only for published and expired articles.
+> - The **Copy Link**, **Email Link**, and **Email** options can be used only for published or expired articles.<!--note from editor: Edit okay?-->
 
 ## View auto-filtered results
 
