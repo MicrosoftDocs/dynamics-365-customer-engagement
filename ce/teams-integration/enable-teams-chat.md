@@ -80,7 +80,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 - Policies that apply both to Teams and Dynamics 365 are honored by the integration. For example, confidential files shared in a linked chat can only be accessed by permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permissions to view it.  
 
-- The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, go to [What are the privileges and type of permissions required by the integration?](teams-in-dynamics-faq.md#what-are-the-privileges-and-type-of-permissions-required-by-the-integration).  
+- The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, go to [What are the privileges and type of permissions required by the integration?](teams-in-dynamics-faq.md#what-are-the-privileges-and-types-of-permissions-required-by-the-integration).  
 
 <!--note from editor: I made only minor edits to the previous section, but below I include the original text, just in case that text came straight from CELA and I shouldn't have touched it:
 
