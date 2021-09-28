@@ -1,7 +1,7 @@
 ---
 title: Configure the origins allow list | MicrosoftDocs
 description: Learn how to configure safe links while authoring knowledge articles in Dynamics 365 Customer Service
-ms.date: 09/24/2021
+ms.date: 09/28/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -22,9 +22,9 @@ ms.custom:
 You can configure the origins allow list feature to ensure that knowledge authors add only safe links to their knowledge articles.
 
 > [!IMPORTANT]
-> The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number. Knowledge authors must use only an exact match of these links in their articles.
+> The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number, for example, https://www.contoso.com, https://www.contoso.com:443. Knowledge authors must use only an exact match of these links in their articles.
 
-After you've enabled this feature and knowledge authors add links other than the supported origins or the exact match of links while creating articles, an error message will be displayed for links that are hosted within an iframe.
+After you've enabled this feature and knowledge authors add links other than the supported origins or the exact match of links while creating articles, an error message will be displayed for links that are hosted within an iframe. For example, if you add https://www.contoso.com and knowledge authors use https://contoso.com in the articles, the links will be broken and an error will be seen.
 
 In the **Content** field on the knowledge article form, knowledge authors will see the following message: "Update your origins allow list if any iframe in the article doesn't work or displays error."
 
@@ -37,7 +37,7 @@ For published articles, agents and portal users will see an error in the article
 2. Select **Change area** > **Service Management**.
 
 3. Under **Knowledge Base Management**, select **Settings**. The **Settings** page is displayed.
-   > ![Configure origin list](media/configure-origin-allow-list.png)
+:::image type="content" source="media/enable-origin-allow-list.png" alt-text="Configure origins allow list":::
 
 4.	Go to **Origins allow list**, and add your links to the **Add origin links** field. 
 
