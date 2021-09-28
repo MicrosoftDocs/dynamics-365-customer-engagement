@@ -48,19 +48,52 @@ The first time a user signs-in to the Field Service customer portal, they'll see
  
 Click on the ‘Home’ icon to navigate to the Homepage.
  
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-empty-homepage-with-book-a-new-appo.jpg) 
 
 Click on the ‘Book a new appointment’ button to go to the self-scheduling page.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-self-scheduling-page.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-self-scheduling-with-selected.jpg)
+
+
+
+
+
+
+
+
  
 Select an Asset (optional) and Service type to see available time slots
  
 Click on Book to create the Appointment
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-booking-confirmation-page.jpg)
  
 Click on ‘Home’ icon to navigate to the Homepage (the screenshot shows multiple Appointments booked via Self scheduling)
+
+
  
 Click on ‘Modify’ button to navigate to the Modify Appointment page
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-modify-booking-page.jpg)
+
+
+
  
 On the Modify Appointment page, end-customers can either:
 Re-schedule the Appointment by choosing a new date and time-slot
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-reschedule-booking-page-with-new-date-and-time-selected.jpg)
  
 Cancel the Appointment by clicking on Cancel appointment. Users will also need to provide a reason for cancellation.
  
@@ -71,9 +104,19 @@ Cancel the Appointment by clicking on Cancel appointment. Users will also need t
 If an appointment is in the Travelling state and Track my technician is enabled, then users will have the option to click on ‘View Live Map’.
 The appointment in Travelling state will be shown under the Active appointment tab. If there are more than one appointment in Travelling state, then only one will be shown in the Active appointment tab and others will be shown in the Upcoming appointment tab with ‘View Live Map’ button.
  
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-homepage-with-2-bookings-in-travelling-state.jpg)
+
  
 #### Appointments in ‘In Progress’ state:
 Appointments in the ‘In Progress’ state will show under the Upcoming appointments and will have the Modify button disabled so the end-customer will not have the option to re-schedule or cancel the appointment.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-one-booking-in-travelling-and-1-in-progress.jpg)
  
 #### Appointments in the ‘Scheduled’ state:
 Scheduled appointments will show under the Upcoming appointments tab have a Modify button which users can use to re-schedule or cancel the appointment.
@@ -81,10 +124,13 @@ Scheduled appointments will show under the Upcoming appointments tab have a Modi
 #### Appointments in the ‘Canceled’ or ‘Completed’ states:
 Canceled and Completed appointments will show up under the Past appointments tab. If Customer survey is enabled, then Completed appointments will have the option of ‘Send Feedback’.
  
-
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/homepage-booking-confirmation-page.jpg)
+> ![Screenshot of ](./media/homepage-past-bookings-with-send-feedback-option-for-completed-bookings.jpg)
+
+
+
+
+
 
 
 > [!div class="mx-imgBorder"]
@@ -96,45 +142,18 @@ Canceled and Completed appointments will show up under the Past appointments tab
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/homepage-empty-homepage-with-book-a-new-appo.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt.jpg)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/homepage-homepage-with-2-bookings-in-travelling-state.jpg)
 
-
+no
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/homepage-homepage-with-upcoming-bookings.jpg)
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/homepage-modify-booking-page.jpg)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/homepage-one-booking-in-travelling-and-1-in-progress.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/homepage-past-bookings-with-send-feedback-option-for-completed-bookings.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/homepage-reschedule-booking-page-with-new-date-and-time-selected.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/homepage-self-scheduling-page.jpg)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/homepage-self-scheduling-with-selected.jpg)
 
 
 > [!div class="mx-imgBorder"]
