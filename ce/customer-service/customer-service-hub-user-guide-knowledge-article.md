@@ -278,7 +278,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 This is an indicative preview. Content rendered can be different in the actual device or screen.
 
 > [!NOTE]
-> While authoring a knowledge article in the Content field, if you add anchor links, you won't be able to test the links in the Designer or the Preview mode. However, once the article is published, the anchor links work as expected.
+> If you add anchor links to a knowledge article in the **Content** field, you can’t test them because they don’t work in the **Designer** or **Preview** mode. The anchor links work only when you open the article in knowledge search and on portals.
 
 ## Add a file attachment to a knowledge article
 
