@@ -57,12 +57,12 @@ var entityname = "account"
 var searchterm = "Contoso"
 
 Microsoft.CIFramework.renderSearchPage(entityname, searchterm).then( // if search type is not passed, it defaults to categorized search
-function (success) {​​
-console.log(success);
-}​​,
-function (error) {​​
-console.log(error);
-}​​
+        function (success) {​​
+            console.log(success);
+    }​​,
+    function (error) {​​
+        console.log(error);
+    }​​
 );
 ```
 
