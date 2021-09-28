@@ -24,11 +24,19 @@ search.app:
 
 Customer engagement Homepage provides a one-stop destination for end customers to book new appointments, manage existing appointments, track their technician and provide feedback.
 
-Prerequisites:
+## Prerequisites
+> [!Note]
+>
+
+>[!TIP] 
+> 
+
+
 For end-customers to be able to use Homepage, it is mandatory to Enable self scheduling for customers.
+
 Track my technician is optional to be enabled.
 
-Setup the Homepage
+## Set up the Homepage
 If you are provisioning the Field Service customer experiences portal(Preview) for the first time then there are no additional steps to enable Homepage.
 If you have the Field Service customer experiences portal (Preview) already provisioned, then you will need to upgrade your solution package.
 Note: You will have to complete setup of Self-scheduling for customers to be able to use the Homepage.
@@ -57,69 +65,80 @@ Re-schedule the Appointment by choosing a new date and time-slot
 Cancel the Appointment by clicking on Cancel appointment. Users will also need to provide a reason for cancellation.
  
 
-Different Appointment states:
-Appointments in Travelling state: 
+### Different Appointment states:
+
+#### Appointments in Travelling state: 
 If an appointment is in the Travelling state and Track my technician is enabled, then users will have the option to click on ‘View Live Map’.
 The appointment in Travelling state will be shown under the Active appointment tab. If there are more than one appointment in Travelling state, then only one will be shown in the Active appointment tab and others will be shown in the Upcoming appointment tab with ‘View Live Map’ button.
  
  
-Appointments in ‘In Progress’ state:
+#### Appointments in ‘In Progress’ state:
 Appointments in the ‘In Progress’ state will show under the Upcoming appointments and will have the Modify button disabled so the end-customer will not have the option to re-schedule or cancel the appointment.
  
-Appointments in the ‘Scheduled’ state:
+#### Appointments in the ‘Scheduled’ state:
 Scheduled appointments will show under the Upcoming appointments tab have a Modify button which users can use to re-schedule or cancel the appointment.
  
-Appointments in the ‘Canceled’ or ‘Completed’ states:
+#### Appointments in the ‘Canceled’ or ‘Completed’ states:
 Canceled and Completed appointments will show up under the Past appointments tab. If Customer survey is enabled, then Completed appointments will have the option of ‘Send Feedback’.
  
 
-homepage-booking-confirmation-page
 
-homepage-booking-reschedule-page
-
-homepage-cancel-appointment-with-cancellations-reason
-
-
-homepage-empty-homepage-with-book-a-new-appo
-
-homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt
-
-homepage-homepage-with-2-bookings-in-travelling-state
-
-homepage-homepage-with-upcoming-bookings
-
-
-homepage-modify-booking-page
-
-homepage-one-booking-in-travelling-and-1-in-progress
-
-homepage-past-bookings-with-send-feedback-option-for-completed-bookings
-
-homepage-reschedule-booking-page-with-new-date-and-time-selected
-
-homepage-self-scheduling-page
-
-homepage-self-scheduling-with-selected
-
-homepage-send-feedback-page
-
-## Prerequisites
-> [!Note]
->
-
->[!TIP] 
-> 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-booking-confirmation-page.jpg)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyHY4]
-
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
+> ![Screenshot of ](./media/homepage-booking-reschedule-page.jpg)
 
 
-## Configuration considerations
-## Additional Notes
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-cancel-appointment-with-cancellations-reason.jpg)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-empty-homepage-with-book-a-new-appo.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-homepage-with-2-bookings-in-travelling-state.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-homepage-with-upcoming-bookings.jpg)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-modify-booking-page.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-one-booking-in-travelling-and-1-in-progress.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-past-bookings-with-send-feedback-option-for-completed-bookings.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-reschedule-booking-page-with-new-date-and-time-selected.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-self-scheduling-page.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-self-scheduling-with-selected.jpg)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/homepage-send-feedback-page.jpg)
+
+
+
