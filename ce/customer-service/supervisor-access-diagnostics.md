@@ -32,7 +32,7 @@ As a supervisor, you can access and view diagnostic reports of work items that h
 
 2. On the page that appears, select **Related**, and then select **Routing diagnostics**. The diagnostics information for the case is displayed on the **Routing diagnostics** tab.
 
-:::image type="content" source="media/supervisor-view-diagnostics.png" alt-text="Access diagnostics for a case record.":::
+    :::image type="content" source="media/supervisor-view-diagnostics.png" alt-text="Access diagnostics for a case record.":::
 
 3. For conversations, in the Omnichannel for Customer Service app, select the plus (+) icon, and then select **Routing diagnostics**.
 
