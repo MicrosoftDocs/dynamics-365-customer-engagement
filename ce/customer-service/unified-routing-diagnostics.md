@@ -91,8 +91,7 @@ Queue routing rules are formulated to send the work item to the correct queue. M
 
 The queue name to which the work item is routed is displayed on the route to queue page.
 
-:::image type="content" source="media/routing-diagnostics-selected-queue.png" alt-text="Queue to which work item is 
-assigned.":::
+:::image type="content" source="media/routing-diagnostics-selected-queue.png" alt-text="Queue to which work item is assigned.":::
 
 If no queue matches the requirement, the work item is assigned to the default queue.
 

@@ -771,7 +771,7 @@
         - name: Case Topics dashboard
           href: case-topics-dashboard-cs.md
         - name: Historical analytics for unified routing in Customer Service
-          href: cs-historical-analtyics-unified-routing.md  
+          href: cs-historical-analytics-unified-routing.md
         - name: Omnichannel conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
