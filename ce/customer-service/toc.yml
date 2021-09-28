@@ -264,6 +264,10 @@
           href: persona-privilege-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
+    - name: Supervisor experience
+      items:
+      - name: Access diagnostics for unified routing
+        href: supervisor-access-diagnostics.md
     - name: Agent experience
       items:
       - name: Route records manually using unified routing
