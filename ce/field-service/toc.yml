@@ -298,6 +298,14 @@
     href: process-return.md
   - name: Manual inventory journals
     href: manual-inventory-journals.md
+- name: Field Service for end customers
+  items: 
+  - name: Homepage
+    href: field-service-portal-homepage
+  - name: Self-scheduling for customers
+    href: scheduling-self-customers.md
+  - name: Send technician arrival time and current map location
+    href: reminders-arrival-time.md
 - name: Resource Scheduling Optimization Add-in
   items: 
   - name: Overview
