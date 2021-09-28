@@ -22,22 +22,27 @@ ms.custom:
 You can configure the origins allow list feature to ensure that knowledge authors add only safe links to their knowledge articles.
 
 > [!IMPORTANT]
-> The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number.  Knowledge authors must use only an exact match of links in the articles.
+> The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number. Knowledge authors must use only an exact match of these links in their articles.
 
-After you have enabled this feature, if knowledge authors add links other than the supported origins or the exact match of links while creating the articles, an error message will be displayed if the links are hosted within an iframe.
+After you've enabled this feature and knowledge authors add links other than the supported origins or the exact match of links while creating articles, an error message will be displayed for links that are hosted within an iframe.
 
-In the knowledge article form, Content field, knowledge authors will see the following message, "Update your origins allow list if any iframe in the article doesn't work or displays error".
+In the **Content** field on the knowledge article form, knowledge authors will see the following message: "Update your origins allow list if any iframe in the article doesn't work or displays error."
 
-For published articles, agents and portal users will see an error within the article for the links that are hosted within an iframe. You must update the origins list, so that all the existing iframe links continue to work fine.
+For published articles, agents and portal users will see an error in the article for the links that are hosted within an iframe. You must update the origins list so that all the existing iframe links will continue to work.
 
 ## Configure the origins allow list
 
-1. Sign in to Customer Service Hub.	
-2. In the **Change** area, select **Service Management**.
-3. Go to **Knowledge Base Management** and select **Settings**. The **Settings** page is displayed.
-> ![Configure origin list](media/configure-origin-allow-list.png)
-4.	Navigate to **Origins allow list** and add your links to the **Add origin links** field. 
+1. Sign in to Customer Service Hub.
+
+2. Select **Change area** > **Service Management**.
+
+3. Under **Knowledge Base Management**, select **Settings**. The **Settings** page is displayed.
+   > ![Configure origin list](media/configure-origin-allow-list.png)
+
+4.	Go to **Origins allow list**, and add your links to the **Add origin links** field. 
+
 5.	Select **Add**![Add](media/add-icon.png) or **Enter** to add the link to your list.
+
 6.	Select **Save**.
 
 To remove a domain, select **Close** next to the domain.
