@@ -28,7 +28,7 @@ Dynamics 365 comes with an out-of-the box skill control for messaging channels. 
 
 ## Introduction
 
-When you receive a work item in your queue, you can view the skills required to do the work in the **Skills** field of your case or conversation record. For each work item, you can view skills that have attached by manual skill classification rules and those that were identified by the machine-learning skill finder models.
+When you receive a work item in your queue, you can view the skills required to do the work in the **Skills** field of your case or conversation record. For each work item, you can view skills that have been attached by the manual skill classification rules and those that were identified by the machine-learning skill finder models.
 
 In the following illustration, **Refund** is a skill attached by the manual skill classification rules, whereas skills with percentage rating such as **99% Heating** and **99% Electrical** are those that have been identified by the machine-learning model.
 
@@ -40,7 +40,7 @@ In the following illustration, **Refund** is a skill attached by the manual skil
 
 ## Add and remove skills
 
-If upon assessing the work item, you think that the relevant skills are missing or incorrect, you can choose to add or remove skills as appropriate.
+If upon assessing the work item, you think that the relevant skills are missing or incorrect, you can choose to add or remove skills.
 
 To add skills, select the **Add skill** field and enter a skill name. As you enter one or more letters, a list of skill names are suggested in the dropdown list; select the relevant skill from the dropdown list. Add as many skills as you think are appropriate for the work item.
 
