@@ -22,7 +22,7 @@ Push notifications help to engage app users and help them prioritize key tasks. 
 
 ![Send push notification V2 action.](media/sm-push-notif.png "Send push notification V2 action")
 
-For information about creating push notifications, go to [Create push notifications for Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/power-apps-mobile-notification).
+For information about creating push notifications, go to [Create push notifications for Power Apps mobile](/powerapps/mobile/power-apps-mobile-notification).
 
 ## Validate your flow
 

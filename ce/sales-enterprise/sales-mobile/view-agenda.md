@@ -82,11 +82,11 @@ You can update the regarding record when it is no longer relevant or there are c
     
 2. On the **Regarding** page, either select a recent record or tap **Search** to look for the record you want.
 
-    ![Find a record to connect.](media/sm-change-regarding-record.png "Find for a record to connect")
+    ![Find a different record to connect.](media/sm-change-regarding-record.png "Find a different record to connect")
     
 3. After selecting a record, tap **Save**.
 
-    ![Select and save a record to connect.](media/sm-new-regarding-record.png "Select and save a record to connect")
+    ![Select and save the record change.](media/sm-new-regarding-record.png "Select and save the record change")
     
 The connected record details are displayed in the Regarding section.
 

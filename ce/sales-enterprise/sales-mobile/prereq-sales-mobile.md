@@ -21,10 +21,10 @@ Before field sellers can use the Dynamics 365 Sales mobile app, you must ensure 
     - It is recommended to have Exchange Online.
 - To set a regarding record for a meeting, you must:
     - Enable server-side synchronization in your environment. More information: [Server-side synchronization](/power-platform/admin/server-side-synchronization).
-    - Approve the email address. More information: [Approve mailboxes](https://docs.microsoft.com/en-us/power-platform/admin/connect-exchange-online#approve-mailboxes)
+    - Approve the email address. More information: [Approve mailboxes](/power-platform/admin/connect-exchange-online#approve-mailboxes)
 -	The mobile app users must have the following permissions:   
     -	Read permission for [Organization table](../../customerengagement/on-premises/developer/entities/organization.md).
-    -	Read permission for [Mailbox table](/dynamics365/customer-engagement/web-api/mailbox?view=dynamics-ce-odata-9).
+    -	Read permission for [Mailbox table](/dynamics365/customer-engagement/web-api/mailbox?view=dynamics-ce-odata-9&preserve-view=true).
     -	[**Dynamics 365 for mobile**](../../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#required-privileges) privilege.
 
 > [!NOTE]
