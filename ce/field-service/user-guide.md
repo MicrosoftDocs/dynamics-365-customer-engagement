@@ -122,11 +122,11 @@ The purpose of this section is to help you explore all the features of Field Ser
 
 </tr>
 
-<td><h2>Automated scheduling (RSO)</h2>
+<td><h2>Automated scheduling (Resource Scheduling Optimization)</h2>
 
 <ul>
 
- <li><a href="https://www.youtube.com/watch?v=cDN-gv0Yylg" data-raw-source="[What is RSO?](https://youtu.be/3W7hI-6dZhg)">What is RSO?</a></li>
+ <li><a href="https://youtu.be/3W7hI-6dZhg" data-raw-source="[What is Resource Scheduling Optimization?](https://youtu.be/3W7hI-6dZhg )">What is Resource Scheduling Optimization?</a></li>
  <li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Quickstart: Auto schedule a list of work orders](https://youtu.be/oJ-3HTJWRMo)">Quickstart: Auto schedule a list of work orders</a></li>
  <li><a href="rso-overview.md" data-raw-source="[Deploy, configure, and run RSO](rso-overview.md)">Deploy, configure, and run RSO</a></li>
 </ul>
