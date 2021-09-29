@@ -3,8 +3,6 @@
   items:
   - name: Overview
     href: overview.md
-  - name: Process of sales
-    href: nurture-sales-from-lead-order-sales.md  
   - name: What's new
     href: whats-new.md
   - name: Removed or deprecated features
@@ -63,6 +61,8 @@
     items:
     - name: Learn the basics
       href: user-guide-learn-basics.md
+    - name: Process of sales
+      href: nurture-sales-from-lead-order-sales.md        
     - name: Import data
       href: /powerapps/user/import-data
     - name: Export data to Excel
@@ -105,6 +105,8 @@
       items:
       - name: Set up a product catalog
         href: set-up-product-catalog-walkthrough.md
+      - name: Configure product catalog settings
+        href: configure-product-catalog-settings.md  
       - name: Set up products
         href: create-product-sales.md
       - name: Set up product families
@@ -172,7 +174,7 @@
       - name: Define lead qualification experience
         href: define-lead-qualification-experience.md
       - name: Integrate LinkedIn Sales Navigator solutions
-        href: /linkedin/integrate-sales-navigator.md
+        href: /dynamics365/linkedin/integrate-sales-navigator
       - name: Configure predictive lead scoring
         href: configure-predictive-lead-scoring.md        
     - name: Opportunity management
@@ -219,6 +221,8 @@
         href: activate-upload-simple-columns-data-forecast.md
       - name: Deactivate and delete forecast
         href: deactivate-delete-forecast.md
+      - name: Clone a forecast
+        href: clone-forecast.md  
       - name: Forecast with different data type
         href: forecast-different-data-types.md
       - name: Configure forecast using custom rollup entity
@@ -233,6 +237,8 @@
         href: add-forecast-site-map.md
     - name: Goal management
       items:
+      - name: Process for setting goals
+        href: goals-overview.md
       - name: Goal settings
         href: /admin/system-settings-dialog-box-goals-tab
       - name: Create or edit goals
@@ -262,6 +268,8 @@
             href: clone-a-sequence.md
           - name: Edit a sequence
             href: edit-a-sequence.md
+          - name: Edit an active sequence
+            href: edit-active-sequence.md  
           - name: Delete a sequence
             href: delete-a-sequence.md
         - name: Manage segments
@@ -322,6 +330,8 @@
           href: prereq-sales-insights-app.md
         - name: First-run set up experience
           href: fre-setup-sales-insight-app.md
+        - name: Configure sales team level settings
+          href: configure-sales-team-level-settings.md  
         - name: Configure conversation intelligence to connect call data
           href: configure-conversation-intelligence-call-data.md
         - name: Configure and view your team page
@@ -697,6 +707,10 @@
         href: developer/reference/custom-actions/msdyn_ForecastApi.md
       - name: Events and context objects for underlying records grid
         href: developer/reference/custom-actions/events-context.md
+    - name: In-app marketing
+      items:
+      - name: Customize quick campaign and campaign activity distribution forms
+        href: developer/marketingformdisplayattributessetApi.md    
     - name: Custom actions
       items:
       - name: Overview
@@ -835,7 +849,7 @@
       items:
       - name: Custom plugin handling through shared variable
         href: developer/custom-plugin-handling-shared-variable.md
-  - name: General Data Protection Regulation (GDPR)
+  - name: General Data Protection Regulation (GDPR) and privacy
     items:
     - name: Dynamics 365 Sales & GDPR
       href: dynamics-365-sales-gdpr.md
@@ -848,6 +862,8 @@
         href: view-export-KPI-data-gdpr.md
       - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
         href: retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md
+    - name: Privacy notice
+      href: privacy-notice.md   
   - name: Troubleshooting and FAQs
     items:
     - name: Dynamics 365 Sales Troubleshooting guide
@@ -868,12 +884,16 @@
       href: ts-views.md
     - name: Troubleshooting forecasts
       href: ts-forecasts.md
+    - name: Troubleshooting in-app marketing
+      href: ts-inapp-marketing.md  
     - name: Troubleshooting the Unified Interface
       href: ts-unified-interface.md
     - name: Troubleshooting the sales pipeline chart
       href: ts-sales-pipeline.md
     - name: Troubleshooting email
       href: ts-email.md
+    - name: Troubleshooting Sales Insights
+      href: troubleshooting-sp.md  
     - name: Sales FAQs
       href: faqs-sales.md
     - name: Sales premium FAQs

@@ -218,7 +218,7 @@ The following image is an example of how the "switch rate" insight is displayed:
 
 In this example, you can see that top sellers (33 per hour) are switching less during the conversation with customers than the team average (34 per hour). Through this, you can identify coaching opportunities for the other sellers to improve on switch rates during customer conversations.
 
-Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens with details on each seller's switch rates with customers compared to the team's average.
+Select **Show details** and the [Teams overview](conversation-intelligence-team-overview.md) page opens with details on each seller's switch rates with customers compared to the team's average.
 
 ### Engagement with customers
 
