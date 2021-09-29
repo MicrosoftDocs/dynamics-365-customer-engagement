@@ -33,7 +33,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Prerequisites
 
-You must ensure the following conditions are met to integrate your bot with Omnichannel for Customer Service.
+You must ensure the following conditions are met before you integrate your bot with Omnichannel for Customer Service.
 
 - You must have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0).
 
