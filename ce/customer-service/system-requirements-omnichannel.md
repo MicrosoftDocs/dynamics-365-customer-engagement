@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
 description: "This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
-ms.date: 10/01/2021
+ms.date: 09/30/2021
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -135,6 +135,7 @@ Location specific links that should be made accessible are as follows.
 
 The Government community cloud links that should be made accessible are as follows.
 
+- `https://*.communication.azure.us`
 - `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
 - `https://*.omnichannelengagementhub.us/*`
 - `https://oc-auth.azurewebsites.us`
