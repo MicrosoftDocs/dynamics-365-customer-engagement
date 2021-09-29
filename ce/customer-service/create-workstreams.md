@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 07/12/2021
+ms.date: 10/04/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -127,7 +127,7 @@ Select a workstream to perform any of the following actions:
 
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
 - **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
-- **Delete**: Lets you delete the workstream if you no longer need it in your organization.
+- **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You'll be prompted to remove the dependencies and then try to delete the workstream.
 
 ### Agent affinity
 
