@@ -53,10 +53,10 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 15.	(Skip this step if your forum is public.) If your forum is private, only accessible to "by-invitation" members, you'll need to add those individuals as contacts. In **Role**, select **Member** or create a contact. Repeat this step to add all by-invitation members.
 16.	To publish your forum to the web, go to the **Web** tab, and then select **Yes** from the **Publish to web** dropdown menu.
 17.	Under the **User Access Level**, select the access level for your users in public forums. The default values are **None** for all three configurations.
-   > [!IMPORTANT] For private forums, leave the default settings set to **None**.
-   - **Internal Authenticated Users**: Select the access level for users who are authenticated with email domains specified by your admin.
-   - **External Authenticated Users**: Select the access level for non-internal authenticated users.
-   - **Anonymous Users**: Select the access level for non-authenticated users.
+    **Important**: For private forums, leave the default settings set to **None**.
+    - **Internal Authenticated Users**: Select the access level for users who are authenticated with email domains specified by your admin.
+    - **External Authenticated Users**: Select the access level for non-internal authenticated users.
+    - **Anonymous Users**: Select the access level for non-authenticated users.
 18.	Go to the **Quick Links** tab to define links that show to end-users in the forum. You can choose whether to include quick links that the admin added to the portal home page.
 19.	To add a forum **Quick Link**, select **+ New Quick Link**, and then enter the following values:
     **Display Label**: Refers to how the link will be displayed in the portal.
