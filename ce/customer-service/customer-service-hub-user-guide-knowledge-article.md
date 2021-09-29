@@ -54,9 +54,9 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
    - **Title**. Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
-   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md)
+   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
   
-   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md)
+   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
     :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article.":::
        
 5. In the **Content** section, add the content for your knowledge article.  

@@ -29,7 +29,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
 ## Introduction
 
