@@ -38,7 +38,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 
 1.	Sign in to Dynamics 365 Customer Service Community.
 2.	On the left-side navigation panel, select **Forum**, and then select **New**.
-3.	Enter a **Name** (this is required), and select **Forum Settings** and **Website Settings**. Settings are configured by your administrator.
+3.	Enter a **Name** (required), and then select **Forum Settings** and **Website Settings**. Settings are configured by your administrator.
 4.	Select the **Categories** tab, and then select **+ New Category**. the categories you define will be available for end-users to select when they create a new idea in this forum.
 5.	Enter a **Name** for the category, and then select **Save**.
 6.	To add more categories, repeat steps 4 and 5 above..
