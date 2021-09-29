@@ -29,15 +29,15 @@ Perform the following steps to create a custom assignment method:
 
 2. On the **Assignment method** page of a queue, select **Create New**.
 
-3. In the **Create work assignment** dialog box, enter a name and description for the ruleset, and select **Create**.
+3. In the **Create work assignment** dialog, enter a name and description for the ruleset, and select **Create**.
 
 4. Select the ruleset, and select **Edit**. The options to configure prioritization rulesets and assignment rulesets are displayed.
 
 5. Do the following to set up prioritization rulesets:
    
-   a. On the **Create Prioritization Ruleset** dialog box, enter a name and description for the ruleset, and select **Create**.
+   a. On the **Create Prioritization Ruleset** dialog, enter a name and description for the ruleset, and select **Create**.
    
-   b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog box, enter a rule name and define the conditions when the rule should be run.
+   b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule.
    
    c. Select the attribute on which you want to define the order-by to route the work item to agents.
    
@@ -49,9 +49,11 @@ Perform the following steps to create a custom assignment method:
 
 8. On the **Assignment ruleset** page that appears, select **Create rule**.
 
-9. In the **Create assignment rule** dialog box, do the following to add conditions and ordering attributes:
+9. In the **Create assignment rule** dialog, do the following to add conditions and order by attributes:
    
    a. **Rule Name**: Enter a rule name.
+
+      By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility.
 
    b. **Conditions**: Select **Add** to select an attribute or related entity and define condition.
 
@@ -88,7 +90,7 @@ Follow these steps to configure the selection criteria for the assignment rulese
 
 1. For the assignment method, in the **Assignment** section, select **Create rule**, and in the **Decision list** area, select **Create rule**.
 
-2. In the **Create selection criteria rule** dialog box, enter a rule name, and define the conditions.
+2. In the **Create selection criteria rule** dialog, enter a rule name, and define the conditions.
 
 3. In **Execute ruleset**, select the assignment ruleset that must be run when the conditions are met, and then select **Create**. The rule is listed in the **Decision list** area.
 
