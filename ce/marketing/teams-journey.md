@@ -20,7 +20,7 @@ search.app:
 
 # How to sign up for a free 6-month Dynamics 365 Marketing trial
 
-The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in touch with your webinar participants before and after hosting a webinar. You can send personalized registration materials, send surveys, and more to drive awareness and engagement.
+The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in touch with your webinar participants after hosting a webinar. You can send personalized registration materials, send surveys, and more to drive awareness and engagement.
 
 To sign up for a 6-month Dynamics 365 Marketing trial:
 
