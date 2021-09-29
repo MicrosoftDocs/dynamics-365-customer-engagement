@@ -79,8 +79,6 @@
       href: enable-pdf-generation-quote.md
     - name: Create PDF files from sales records
       href: create-quote-pdf.md
-    - name: Create PDF documents
-      href: create-quote-pdf.md
   - name: Administration guide
     items:
     - name: Help resources for admins and sales managers
