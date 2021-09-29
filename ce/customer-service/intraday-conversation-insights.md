@@ -39,17 +39,17 @@ The **Conversation insights** report displays the following metrics about conver
 
 | Metric | Description | Availability|
 |-------|-------|------|
-| Inbound chats/Inbound conversations/Inbound calls | The number of chat, conversations, or calls that were started, closed, within the last 24 hours. | Live chat, Digital messaging, Voice (preview) |
+| Inbound chats/Inbound conversations/Inbound calls | The number of chat, conversations, or calls that were started, closed, within the last 24 hours by either a bot or agent. Includes all chat, conversations, or calls handled and closed by bots and agents. | Live chat, Digital messaging, Voice (preview) |
 | Ongoing chats/Ongoing conversations/Ongoing calls|The number of chat, conversations, or calls in active, waiting, and wrap-up statuses. | Live chat, Digital messaging, Voice (preview)|
-|Service level | The percentage of chats that were answered within 30 seconds. The 30 seconds threshold can be modified to suit your business needs. Only the conversations engaged by an agent are considered. | Live chat|
-| Chats waiting in queue/Conversations waiting in queue/Calls waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |Live chat, Digital messaging, Voice (preview)|
-| Closed chats/Closed conversations/Closed calls | The number of conversations closed in the last 24 hours. |Live chat, Digital messaging, Voice (preview)|
-| Longest wait time | The longest time that a conversation is in queue waiting to be picked up by an agent. | Live chat, Digital messaging, Voice (preview)|
+|Service level | The percentage of chats that were accepted by an agent within 30 seconds. The 30 seconds threshold can be modified to suit your business needs. Only the conversations directly engaged by an agent or escalated by a bot to an agent are considered for calculating this metric. | Live chat|
+| Chats waiting in queue/Conversations waiting in queue/Calls waiting in queue | The number of conversations that are waiting in the queue and are ready to be accepted by a bot or an agent. |Live chat, Digital messaging, Voice (preview)|
+| Closed chats/Closed conversations/Closed calls | The number of conversations closed in the last 24 hours by a bot or an agent. |Live chat, Digital messaging, Voice (preview)|
+| Longest wait time | The longest time that a conversation is in queue waiting to be accepted by an agent. | Live chat, Digital messaging, Voice (preview)|
 | Average handle time | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). Only the conversations engaged by an agent are considered. | Live chat, Digital messaging, Voice (preview)|
-| Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned. Only the conversations engaged by an agent are considered. | Live chat, Digital messaging|
-| Average wrap time (min) | The average time taken to wrap up conversations. Only the conversations engaged by an agent are considered.| Live chat, Digital messaging|
+| Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent accepts it. The average wait time is computed for only closed conversations. Only the conversations directly engaged by an agent or escalated by a bot to an agent are considered for calculating this metric. | Live chat, Digital messaging|
+| Average wrap time (min) | The average time taken to wrap up conversations. Only the conversations directly engaged by an agent or escalated by a bot to an agent are considered for calculating this metric.| Live chat, Digital messaging|
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |Live chat, Digital messaging, Voice (preview)|
-| Chat abandon rate/Call abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. Only the conversations engaged by an agent are considered.|Live chat, Voice (preview)|
+| Chat abandon rate/Call abandon rate | The percentage of conversations in which customers left before an agent accepted it. A conversation is considered abandoned in which a customer leaves the conversation after a bot .|Live chat, Voice (preview)|
 | Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. | Live chat, Digital messaging|
 |SLA - First response time | The percentage of conversations wherein the customer received the very first response from the agent within 1 minute. The 1 minute threshold can be modified to suit your business needs. Only the conversations engaged by an agent are considered. |Available for only digital messaging channels; not available in Government Community Cloud (GCC).|
 |SLA - Response time | The percentage of messages wherein the customer received a response within 1 min from the agent. The 1 minute threshold can be modified to suit your business needs. |Available for only digital messaging channels; not available in GCC. |
@@ -105,15 +105,16 @@ You can also assign a conversation to an agent or route it to another queue. Mor
 
 ### How first response time is calculated?
 
-The first response time is calculated by keeping different factors into account. If business hours are defined, the wait period of the out-of-business hours is not considered in the response time. For example, an organization's business hours are from 9:00 AM to 5:00 PM. when a chat is initiated by a customer at 8:55 AM, and agent responds at 9:05 AM. The response time will be considered as five minutes and not take into account the five minutes that were outside of the business hours.
+<include> the definitions
+The first response time and response time is calculated by keeping different factors into account. If operating hours are defined on the queue, the wait period of the out-of-operating hours is not considered in the response time. For example, an organization's operating hours are from 9:00 AM to 5:00 PM. When a chat is initiated by a customer at 8:55 AM, and agent responds at 9:05 AM. The response time will be considered as five minutes and not consider the five minutes that were outside of the operating hours.
 
 If a conversation is transferred from one queue to another, the messages exchanged in the currently assigned queue and its operating hours are taken into account for calculating the response time.
 
-If the operating hours of the queue are updated to a new schedule, the latest operating hours are considered in calculating the response time.
+If the operating hours of the queue are updated to a new schedule, the latest operating hours are considered in calculating the response time for messages exchanged post the change.
 
-### Modify SLA threshold
+### Modify thresholds
 
-You can update the SLA threshold value in Microsoft Power BI to suit your business needs.
+You can update the out-of-box threshold value in Microsoft Power BI to suit your business needs.
 
 1. Open the report in Power BI.
 2. On the report page, select the metric, and on the command menu, select **Edit**. The Fields pane appears on the right.

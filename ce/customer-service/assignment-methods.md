@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 09/21/2021
+ms.date: 10/04/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -72,7 +72,11 @@ Some important points about prioritization rules are as follows:
 
 ## How assignment rulesets work
 
-The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the agents to select and an order by field to sort the matching agents. At runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agents exist, they are sorted by the ordered-by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated. This can be thought of as gradual relaxation of constraints in the assignment such that first the strictest criteria is applied, and then the conditions are slowly reduced so that the best agent is found.
+The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the agents to select and an order by field to sort the matching agents. At runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agents exist, they are sorted by the order by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated. This can be thought of as gradual relaxation of constraints in the assignment such that first the strictest criteria is applied, and then the conditions are slowly reduced so that the best agent is found.
+
+If you have only one rule, and don't specify any condition, then at runtime, the agent is selected based on the last assignment, if everything else, such as capacity and skills, are a complete match.
+
+In cases when more than one agent matches the requirement of the work item, the system resolves the assignment in a round robin manner, based on the earliest last assignment time. For example, if three agents Lesa, Alicia, and Alan are available to be assigned work with same skills and capacity, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively, the agent whose last assignment time is earliest will be assigned with the work item. In this case, the system will assign the work item to Lesa. Meanwhile, if another coffee refund work item comes, the system will assign it to Alicia and not to Lesa or Alan.
 
 ### Components of an assignment rule
 
