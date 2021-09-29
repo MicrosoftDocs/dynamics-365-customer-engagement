@@ -42,7 +42,7 @@ To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-serv
 - The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
 > [!NOTE]
-> Bots can escalate conversations to agents only if they are a part of push-based work streams.
+> Bots can escalate conversations to agents only if they are a part of push-based workstreams.
 
 To integrate your bot with Omnichannel for Customer Service, perform the following steps:
 1. Connect your bot resource to Omnichannel for Customer Service.
@@ -69,11 +69,11 @@ A bot user is created as an application user and assigned with the **Omnichannel
 
 To create a bot user:
 
-1. Open Omnichannel admin center and go to Advanced Settings > Security > Users.
+1. Open Omnichannel admin center and go to **Advanced Settings** > **Security** > **Users**.
 
-2. In the Users dropdown list, select Application Users, and then select New.
+2. In the **Users** dropdown list, select **Application Users**, and then select **New**.
 
-3. In the New User dropdown list, select Application User.
+3. In the **New User** dropdown list, select **Application User**.
 
 4. On the **New User** page, enter or select the following information:
     - **User Name**: User name of the bot. Note that this name will not be displayed in the chat widget.
@@ -126,7 +126,7 @@ If the bot escalates the customer query, it is routed to the appropriate queue a
 
 #### Create a context variable
 
-You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Understand and create work streams](create-workstreams.md).
+You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Understand and create workstreams](create-workstreams.md).
 
 #### Create routing rules
 
@@ -138,7 +138,7 @@ Be sure to map the routing rules to the correct queues so that the queries are r
 
 ## Sample configuration to integrate a bot
 
-This sample provides exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules will be created. A bot user is added to one queue, and agents are added to two other queues. Routing rules are defined in such a way that whenever a customer initiates a chat, it will be sent to the bot first and then escalated to a human agent as per the conditions defined in the routing rules. The work stream used in this sample is **ChatWorkStream**.
+This sample provides exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules will be created. A bot user is added to one queue, and agents are added to two other queues. Routing rules are defined in such a way that whenever a customer initiates a chat, it will be sent to the bot first and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
 
 1.	Follow the instructions in [Configure bot user as Omnichannel agent](#configure-bot-user-as-omnichannel-agent) to create a bot user.
 
@@ -149,16 +149,16 @@ This sample provides exact steps and configuration values to integrate a bot and
 
 3. Follow the instructions in [Add code snippet to engage a bot](#add-code-snippet-to-engage-a-bot) to add a code snippet for engaging a bot.
 
-4.	Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** work stream.
+4.	Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
-5.	Create three routing rules in the **ChatWorkStream** work stream in the following order:
-    - **BotRule**: Specify the work stream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
+5.	Create three routing rules in the **ChatWorkStream** workstream in the following order:
+    - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query to bot.](media/bot-rule.png "Create a rule to send customer query to bot")
-    - **CreditCardRule**: Specify the work stream and queue as **ChatWorkStream** and **CreditCardQueue**, respectively. Add the condition as follows:
+    - **CreditCardRule**: Specify the workstream and queue as **ChatWorkStream** and **CreditCardQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Send customer queries from a bot to an agent, by creating a rule.](media/credit-card-rule.png "Send customer queries from a bot to an agent, by creating a rule.")
-    - **HomeLoanRule**: Specify the work stream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
+    - **HomeLoanRule**: Specify the workstream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent.](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
 
@@ -169,14 +169,14 @@ When a chat is initiated by a customer, the query is routed to the bot through t
 Each Chat and Digital Messaging license receives an entitlement of 50 chatbot sessions for use with Microsoft Bot Framework bots. These sessions are pooled at the tenant level and expire at the end of each month. Additional chatbot sessions will require purchase of Chatbot Sessions Add-on.
 
 > [!NOTE]
-> For more information on Chatbot licenses and pricing, see the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+> For more information on Chatbot licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### What is a bot session?
 
-A bot session can be defined as a conversation in which a bot is invoked. The bot can be invoked in the beginning, during, or at the end of a conversation.
+A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the beginning, during, or end of a conversation.
 
-- If two different bots are invoked in the same conversation, it is counted as one.
-- A conversation with a bot that's escalated to a human agent is counted as a bot conversation.
+- If two different bots are invoked in the same conversation, it is considered a single conversation.
+- A conversation with a bot that's escalated to a human agent is considered a bot conversation.
 
 > [!NOTE]
 > If smart assist is enabled, the bot conversations do not include smart-assist conversations.
@@ -195,9 +195,9 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 
 4.	Select the number of add-ons required and complete the purchase.
 
-## Known limitation
-
-Authentication cards are not supported in bots integrated with Omnichannel for Customer Service.
+> [!Note]
+>
+> Authentication cards are not supported in bots integrated with Omnichannel for Customer Service.
 
 ## Privacy notice
 
@@ -205,10 +205,10 @@ You understand that your data may be transmitted and shared with external system
 
 ### See also
 
-[Understand and create work streams](create-workstreams.md)<br>
-[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)<br>
-[Create and manage routing rules](routing-rules.md)<br>
-[Add a chat widget](add-chat-widget.md)<br>
+[Understand and create workstreams](create-workstreams.md)  
+[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Add a chat widget](add-chat-widget.md)  
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 [Enable bot context NuGet package](enable-bot-context.md)  
