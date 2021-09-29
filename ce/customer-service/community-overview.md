@@ -33,19 +33,19 @@ ms.custom:
 
 Welcome to Dynamics 365 Customer Service Community (preview), a new app that offers a suite of capabilities designed to help your organization invite customer suggestions and crowd source portfolios of outside-in ideas. Community can help fuel your business transformation, build customer trust with process transparency, and drive timely follow-up for suggestions. 
 
-In addition to providing feedback to organizations, customers can use Community to collaborate on a social scale, as well as rally behind other customers' suggestions to help shape the future of the products they use.
+In addition to providing feedback to organizations, end-users can use Community to collaborate on a social scale, as well as rally behind suggestions from others to help shape the future of the products they use.
 
-The following two separate installations are needed to use Customer Service Community: 
+The following two separate installations are required to use Customer Service Community: 
 1. **Dynamics 365 Customer Service Community**: The installation requires at least one Customer Service Enterprise license in your organization tenant. Dynamics 365 Customer Service Community provides community managers and moderators with the necessary capabilities to capture and evaluate ideas and demonstrate care with closed loop, leveraging their brand and applying their community governance. 
 This installation allows you to do the following:
    -	Configure of the modern Community portal to fit your organization brand, including colors, custom header and footer, and quick links
-   -	Enforce acceptance of your terms of use and policy statement by customers
+   -	Enforce acceptance of your terms of use and policy statement by end-users
    -	Create and manageme of idea forums
    -	Manage content, including content moderation and merge of duplicate ideas
    -	Update the status and respond to community posts
    -	Manage users and assign security roles on a forum level 
-2. **“Modern Community” portal template**: This template offers delightful customer experiences that are available out of the box. Customers can share new ideas with organizations and collaborate on a social scale. 
-This installation lets customers do the following:
+2. **“Modern Community” portal template**: This template offers delightful end-user experiences that are available out of the box. End-users can share new ideas with organizations and collaborate on a social scale. 
+This installation lets end-users do the following:
    -	Browse, search, filter, and sort idea lists
    -	Post new ideas
    -	Auto-suggest existing ideas to prevent duplicates
