@@ -1,9 +1,9 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to integrate an Azure bot in Omnichannel for Customer Service."
-ms.date: 07/08/2021
-author: lalexms
-ms.author: laalexan
+description: "Use this topic to understand how to integrate an Azure bot with Omnichannel for Customer Service."
+ms.date: 09/30/2021
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ---
 
@@ -31,67 +31,64 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 - Repurpose bots to be smart-assist bots and provide recommendations to agents.
 
 
-## Integrate a bot with Omnichannel for Customer Service
+## Prerequisites
 
-**Prerequisites**: You must ensure the following conditions are met to integrate a bot with Omnichannel for Customer Service.
+You must ensure the following conditions are met to integrate a bot with Omnichannel for Customer Service.
 
-- The bot must be developed using [Microsoft Bot Framework](https://dev.botframework.com).
-- The bot must be registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
+- You must have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0).
+
+To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
+
 - The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
 > [!NOTE]
 > Bots can escalate conversations to agents only if they are a part of push-based work streams.
 
 To integrate a bot with Omnichannel for Customer Service, you must:
+1. Connect your bot resource to Omnichannel for Customer Service.
+2. Create the bot user as application user and assign it as an omnichannel agent](#configure-bot-user-as-omnichannel-agent).
+3. Add bot user to the queues.
+4. Add code snippet to engage the bot.
+5. Set escalation rules.
 
-1. Create a bot user.
-2. Add a bot user to the queues.
-3. Add code snippet to engage a bot.
-4. Set escalation rules.
+### Connect bot resource to Omnichannel for Customer Service
 
+Perform the following steps to connect and register your bot with Omnichannel for Customer Service.
 
-### Create a bot user
+1. Open [https://portal.azure.com](https://portal.azure.com) and select your bot resource.
 
-A bot user is created as an application user and assigned with the **Omnichannel agent** role. Creating an application user is supported in the Web Client only. To create a bot user, you must:
+2. On the left pane, select **Channels (Preview)** under **Settings** pane, and then select **Omnichannel** from the list of channels.
 
-1. Get the Microsoft App ID of the bot.
-2. Create an application user and add bot-specific information to the application user.
+3. On the **Configure Omnichannel** page, select **Apply**.
 
-To get Microsoft App ID of the bot:
+1. Once you see the success message, close the Configure Omnichannel pane.
 
-1. Open [https://portal.azure.com](https://portal.azure.com) and select **Bot Services** in the **All services** section.
+Your bot is now registered with Omnichannel for Customer Service. 
 
-2. Search for the appropriate **Bot Channels Registration** in the list and select it.
+### Configure bot user as Omnichannel agent
 
-    > [!div class=mx-imgBorder]
-    > ![Bot Channels Registration.](media/bot-channels-reg.png "Bot Channels Registration")
-
-3. Select **Settings** and then copy the value in the **Microsoft App ID** field. This value is your bot's application ID to be used while creating a bot user.
-
-    > [!div class=mx-imgBorder]
-    > ![Copy Microsoft App ID.](media/bot-id.png "Copy Microsoft App ID")
+A bot user is created as an application user and assigned with the **Omnichannel agent** role. 
 
 To create a bot user:
 
-1. Open the Web Client and go to **Settings** > **Security** > **Users**.
+1. Open Omnichannel admin center and go to Advanced Settings > Security > Users.
 
-2. In the view drop-down, select **Application Users**.
+2. In the Users dropdown list, select Application Users, and then select New.
 
-3. Select **New**.
-
-4. In the view drop-down, select **Application User**.
+3. In the New User dropdown list, select Application User.
 
 4. On the **New User** page, enter or select the following information:
-    - **User Name**: User name of the bot. It is not displayed in the chat widget.
-    - **Application ID**: An application ID for any valid (non-expired) application created in Azure Active Directory (Azure AD) for the same tenant. It is not used by the bot in Omnichannel for Customer Service.
+    - **User Name**: User name of the bot. Note that this name will not be displayed in the chat widget.
+    - **Application ID**: An application ID for any valid (non-expired) application created in Azure Active Directory (Azure AD) for the same tenant. This ID is not used by the bot in Omnichannel for Customer Service.
     - **Full Name**: Name of the bot to be displayed in the chat widget.
-    - **Primary Email**: Enter a dummy email address. It is not used by the bot in Omnichannel for Customer Service.
-    - **Agent type**: Select **Bot application user**.
+    - **Primary Email**: Enter a dummy email address. This email address is not used by the bot in Omnichannel for Customer Service.
+    - **User type**: Select **Bot application user**.
     - **Bot application ID**: Bot's application ID from Azure AD that you copied in the previous step.
+    - **Bot handle**: Enter the bot handle from the Bot profile settings.
 
     For more information on creating an application user, see [Create an application user](/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
 
-5. Save the record.
+5. Select **Save and close**.
 
 6. Select **Manage Roles** on the command bar.
 
@@ -100,7 +97,7 @@ To create a bot user:
     > [!NOTE]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user isn't reduced when a query is handled by it.
 
-### Add a bot user to the queues
+### Add the bot user to queues
 
 Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in the queue. This ensures that the bot user receives the customer query first.
 
