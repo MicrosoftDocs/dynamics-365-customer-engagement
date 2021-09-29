@@ -57,12 +57,9 @@ Forum owners and moderators can create a collection to combine duplicate or rela
 Follow these steps to create a collection:
 1. On the left-side navigation panel, select **Collections**, and then select **+ New**.
 2. Select the forum you want to select children ideas from, and then select **Next**.
-3. Select **+** to add ideas from the active ideas list to the collection. Added ideas will show in the collection ideas list. 
+3. Select plus sign (+) to add ideas from the active ideas list to the collection. Added ideas will show in the collection ideas list. 
 4. When you're done adding ideas, select **Next**.
 5. Add a title and description for the new collection. You can also copy the title and description from one of the children ideas.
 6. You can optionally select the **Stage**, **Category**, and **Group**, and then select **Next**.
 7. Confirm the details are correct, and then select **Next**.
 8. Wait for the status to change from **In-progress** to **Success**. You can refresh the page to get the latest status.
-9. 
-
-
