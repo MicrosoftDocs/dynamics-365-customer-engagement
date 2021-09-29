@@ -115,7 +115,7 @@ Customers must be able to access the following URLs from their browsers to use t
 
 ### Geo-specific links
 
-Location specific links that should be made accessible are as follows.
+Location-specific links that should be made accessible are as follows.
 
 | Geographic location | Links |
 |-------------------------------|----------------------------------|
