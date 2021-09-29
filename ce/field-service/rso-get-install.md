@@ -25,7 +25,7 @@ There are two ways to get Resource Scheduling Optimization:
 - Request a trial from your local Microsoft representative
 
 
-## Option 1: Buy a Resource Scheduling Optimization license
+# Buy a Resource Scheduling Optimization license
 
 In order to get access to Resource Scheduling Optimization, you must first have access to Field Service. If you already have Field Service installed, skip to step 4.   
 
@@ -47,10 +47,6 @@ In order to get access to Resource Scheduling Optimization, you must first have 
 
 > [!NOTE]
 > You are required to purchase as many licenses as the number of bookable resources that are to be optimized. One license provides Resource Scheduling Optimization capability for one bookable resource. The add-on purchase allows unlimited usage of Resource Scheduling Optimization for resources equal to the number of user licenses purchased, be it on a regular cadence or adhoc.
-
-## Option 2: Request trial
-
-Microsoft employees can request Resource Scheduling Optimization trial environments for themselves or for customers and partners by [filling out this form](https://aka.ms/rsotrial). If you are a customer or partner, contact your local Microsoft representative.
 
 ## Next steps
 
