@@ -94,13 +94,18 @@ To create or edit a queue:
         >  The email address that you enter in the **Incoming Email** field receives all messages sent to the queue.  
       - Write a description in the **Description** field.
   
-   - In the **Email Settings** section, in the **Convert to email activities** drop-down list, choose which messages to track as activities.  
+   - In the **EMAIL SETTINGS** section, in the **Convert to email activities** dropdown list, select a value depending on the type of messages that you want to track as activities.
   
-      - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
+6. Save the changes. The following changes will happen:
 
-6. Select **Save**.
+      - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
 
-   ![queues in Customer Service hub.](media/queues-csh.png)
+      - If you have selected the queue type as private, the **MEMBERS** section appears.
+          - Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New members of the team need to be added manually to the queue to be able to access it.
+
+      - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
+
+
 
 
 ## Create a queue in Customer Service app
@@ -149,9 +154,7 @@ Follow the steps given below to create or edit a queue:
    >  The **Record creation and update rules** section displays rules using the **Email Activity Conversation Setting**  or **Social Activity Conversation Setting** and that have the same queue ID as the queue.   
    >  Multiple rules with the same source type and same queue can exist. Therefore, when you select **Email Activity Conversion Settings** or **Social Activity Conversion Settings**, the rule with the latest **Last Modified On** date is applied.  
   
-6. Save the changes. If you have selected the queue type as private, the **MEMBERS** area appears.
-
-7. Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New members of the team need to be added manually to the queue to be able to access it.
+6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]
 
 ## View queue items for a queue
 
