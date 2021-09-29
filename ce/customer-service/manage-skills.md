@@ -42,7 +42,7 @@ In the following illustration, **Refund** is a skill attached by the manual skil
 
 If upon assessing the work item, you think that the relevant skills are missing or incorrect, you can choose to add or remove skills as appropriate.
 
-To add skills, select the **Add skill** field, enter a skill name, and select the plus (**+**) symbol. As you enter one or more letters, a list of skill names are suggested in the dropdown list, so you can choose to select the relevant skill from the list, and then select the plus (**+**) symbol. Add as many skills as you think are appropriate for the work item.
+To add skills, select the **Add skill** field and enter a skill name. As you enter one or more letters, a list of skill names are suggested in the dropdown list; select the relevant skill from the dropdown list. Add as many skills as you think are appropriate for the work item.
 
 To remove skills, select **X** next to each skill that you want to delete.
 
