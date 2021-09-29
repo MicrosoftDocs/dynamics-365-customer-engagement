@@ -32,7 +32,7 @@ You can uninstall the Sales Insights Add-in for Dynamics 365 Sales if you don't 
     - msdyn_PredictiveScoringCommon
     - RelationshipAnalytics
  
-Although you've deleted the solutions, your organization data might still be written to Azure Data Lake Storage. To completely remove data and reclaim the data storage, contact Dynamics 365 support.  
+Although you've deleted the solutions, your organization data might still be stored in Azure Data Lake Storage. To completely remove data and reclaim the data storage, contact Dynamics 365 support.  
 
 ## What happens to data
 

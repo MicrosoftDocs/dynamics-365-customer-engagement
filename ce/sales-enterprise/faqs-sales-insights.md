@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Sales Insights | MicrosoftDocs"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 09/10/2020
+ms.date: 09/10/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -33,7 +33,7 @@ Sales insights is available in the following regions:
 -  Switzerland (CHE)
 
 >[!NOTE]
->Currently, Sales Insights is not available in the following datacenters&mdash;Brazil, France, Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
+>Currently, Sales Insights is not available in the following datacenters&mdash;Brazil, Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
 
 **In which region are the features available?**<br>
 Sales insights features are available in the following regions:
@@ -62,7 +62,7 @@ Sales insights features are available in the following regions:
 <td>Relationship analytics</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 <tr>
-<td>Who knows whom</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td>
+<td>Who knows whom</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2714;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td>
 </tr>
 <tr>
 <td>Talking points</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
@@ -109,7 +109,7 @@ The Sales Insights features support the following versions of Exchange:
 >   - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
 >   - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
 >   - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
->   To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
+> To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
 **What languages are supported now?**<br>
 Sales insights supports the following languages:
@@ -146,14 +146,6 @@ More information: [Azure Regional Pairs](/azure/best-practices-availability-pair
 Yes. After the install of sales insights, the last two years of key sales data required to deliver the advanced analytics and AI results including contacts, opportunities, leads, accounts, and activities are copied into your Sales Insights managed data lake and will be counted against your total file storage quota.
 
 ## Assistant
-
-**How do I disable teasers?**    
-To disable, follow these steps:    
-1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.    
-2. On the site map, select **Overview**.    
-3. Go to **Teasers** section and toggle the option to disable the teasers.     
-    > [!div class="mx-imgBorder"]
-    > ![Disable teasers](media/disable-teasers.png "Disable teasers")
 
 **Why am I getting insufficient permissions alert while using an Insight card?**   
 If you see an alert about having insufficient permissions to use an Insight card, take these steps:    
@@ -402,7 +394,7 @@ No. The call recordings are deleted as soon as the audio file is processed​.
 ### See also
 
 [Overview](overview.md)  
-[Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
+[Introduction to administer Sales Insights](intro-admin-guide-sales-insights.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Nurture sales from lead to order (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the out-of-the-box sales process to close more deals and improve customer satisfaction."
-ms.date: 02/10/2021
+ms.date: 10/02/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,25 +18,45 @@ searchScope:
   - Sales
 ---
 
-# Nurture sales from lead to order (Sales Hub)
+# Process of sales
 
-The sales process in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] can help you close more sales and achieve higher customer satisfaction. You can achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the sale. You also end up with a more complete history, which you can refer to later on if you plan to work with your customer again in the future, or if your customer needs support.  
+A sales process includes a set of repeatable steps that sellers follow to engage with a prospective customer from the early stage of awareness to close a sale. A sales process vary from organization to organization. Typically, the process breaks down into stages that target specific steps, such as qualifying a customer or presenting the solution to the customer.
 
- Your sales process begins with a lead—someone who is interested in the products or services you provide. Your leads might be automatically generated, or they might come from other sources, such as website opt-in pages, email queries, or business cards you gather at trade shows.  
+Also, the specific process stages and terminology used by organizations vary based on factors such as, industry, sales strategies, product offerings, or the types of customers they target. Though the actual processes are different, a typical sales process resembles as shown in the following flow:
 
+> [!div class="mx-imgBorder"]
+> ![A typical process of sales](media/sales-process.png "A typical process of sales")
 
-|           |               |               |
-|-----------|---------------|---------------|
-|  ![Qualify arrow in Dynamics 365 Sales](../sales-enterprise/media/qualify-button.png "Qualify arrow in Dynamics 365 Sales")    | Great job! You've got your lead…now what? If your lead isn't already in Dynamics 365 Sales, start by creating your lead in the system.<br /><br /> After you've determined that your lead is interested in your solution and has the appropriate purchasing power, qualify your lead. Qualifying a lead in  Dynamics 365 Sales converts it to an opportunity. |   [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md)<br /><br /> [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md) |
-| ![Develop arrow in Dynamics 365 Sales](../sales-enterprise/media/develop-arrow-button.png "Develop arrow in Dynamics 365 Sales") | In this stage, you identify stakeholders, competitors, and sales team members and come up with a proposed solution.  | [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  |
-|   ![Propose arrow for Dynamics 365 Sales](../sales-enterprise/media/propose-button.png "Propose arrow for Dynamics 365 Sales")   | Now it's time to present your proposal to your potential customer.  |  [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)<br /><br /> [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  |
-|    ![Close arrow in Dynamics 365 Sales](../sales-enterprise/media/close-arrow-button.png "Close arrow in Dynamics 365 Sales")    |  Did your opportunity accept or reject your proposal? Hopefully, congratulations are in order! Either way, at this stage you need to close your opportunity. This can include filling orders, preparing invoices, and sending follow-up messages, depending on how your organization handles the end game.  |  [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)<br /><br /> [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)<br /><br /> [Close an opportunity as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md) |
+Each stage typically maps to a specific sales record type. For example, during the qualifying stage, sellers are generally working with a lead. A lead represents someone with an interest in what you are selling. The goal of a lead is to qualify and advance it to the next stage in the sales process, such as the develop stage.
 
+Let's look at an example on how this sales processes is used to implement a sales lifecycle solution in an organization. The following image shows what a sales lifecycle might look like from start to end: 
+
+> [!div class="mx-imgBorder"]
+> ![A typical process of sales from start to end](media/sales-process-start-end.png "A typical process of sales from start to end")
+
+Your sales process begins with a lead—someone who is interested in the products or services you provide. Your leads might be automatically generated, or they might come from other sources, such as website opt-in pages, email queries, or business cards you gather at trade shows.
+
+1. **Qualify**: Great job! You've got your lead…now what? If your lead isn't already in Dynamics 365 Sales, start by creating your lead in the system.  
+    After you've determined that your lead is interested in your solution and has the appropriate purchasing power, qualify your lead. Qualifying a lead in  Dynamics 365 Sales converts it to an opportunity.  
+    More information:   
+    - [Create or edit a lead](create-edit-lead-sales.md)   
+    - [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)
+2. **Develop**: The opportunity record is used to develop the details of the deal. Details such as the products and services they are interested in, estimated revenue, and time-lines are added to the opportunity.   
+    More information: [Create or edit an opportunity](create-edit-opportunity-sales.md)   
+3. **Propose**: Now it's time to present your proposal to your potential customer.   
+    More information: [Create or edit a quote](create-edit-quote-sales.md)   
+4. **Close**: When the customer agrees to the quote, an order is generated. The quote and opportunity associated with the order are closed.  
+    More information:
+    - [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)    
+    - [Close an opportunity as won or lost](../sales-enterprise/close-opportunity-won-lost-sales.md)   
+5. **Fulfill**: After the order is fulfilled, an invoice is generated to bill the customer.   
+    More information: [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
+    
 > [!NOTE]
->  Your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] system might look different because it was customized. This walkthrough guides you through the basic sales process, but your organization might offer further training for your system.
+> Your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] system might look different because it was customized. This walkthrough guides you through the basic sales process, but your organization might offer further training for your system.
 
-### See Also
- [Overview of Sales](../sales-enterprise/user-guide.md)
+### See Also   
+[Overview of Sales](../sales-enterprise/user-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -168,7 +168,7 @@ By default, the who knows whom widget is available only in the out-of-the-box **
 
 ### See also
 
-[Get introduced to a lead](../sales/who-knows-whom.md)  
+[Get introduced to a lead](who-knows-whom.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
 

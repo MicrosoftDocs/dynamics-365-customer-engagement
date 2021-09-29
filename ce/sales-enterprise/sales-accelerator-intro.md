@@ -21,6 +21,9 @@ By using the Sales accelerator:
 
 - Sales managers can use the sequence designer to configure sequences of activities that define steps to help sellers prioritize their activities for the day, be productive in their jobs, and focus on selling. More information: [Create and manage sequences](create-manage-sequences.md)
 
+>[!NOTE]
+>Sales accelerator is not supported on mobile devices.
+
 ### See also
 
 [Enable and configure Sales accelerator](enable-configure-sales-accelerator.md)

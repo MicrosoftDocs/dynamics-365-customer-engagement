@@ -35,7 +35,8 @@ Provides an AI-powered forecast that helps sellers and managers understand how m
 To verify that the predictive forecasting feature is enabled in your organization, go to **Change area** > **App settings** > **Forecast configuration**. The **Prediction** column appears in a forecast grid when you select it as a column. To learn more, see [Choose layout and columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast).
 
 >[!NOTE]
-> **Predictive** column is now available for all hierarchies with rollup entity as **Opportunity**.
+> - **Predictive** column is now available for all hierarchies with rollup entity as **Opportunity**.
+> -  All underlying opportunities must have system users as owners for predictive forecasting to consider while generating the values. 
 
 After you activate the forecast for the first time, predictive forecasting will take about two hours to display data in the column.
 

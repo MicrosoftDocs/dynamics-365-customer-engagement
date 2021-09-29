@@ -63,7 +63,7 @@ Configure tracked keywords and competitors that are relevant to you and your org
 
 ### See also
 
-[Administer conversation intelligence](./intro-admin-guide-sales-insights.md)   
+[Administer conversation intelligence](intro-admin-guide-sales-insights.md)   
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
 
 

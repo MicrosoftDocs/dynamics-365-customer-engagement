@@ -3,8 +3,12 @@
   items:
   - name: Overview
     href: overview.md
+  - name: Process of sales
+    href: nurture-sales-from-lead-order-sales.md  
   - name: What's new
     href: whats-new.md
+  - name: Removed or deprecated features
+    href: deprecations-sales.md    
   - name: Predefined security roles for Sales
     href: security-roles-for-sales.md  
   - name: Sign up, install, and manage
@@ -17,17 +21,25 @@
         href: sales-trial-faq.md
       - name: Preview features in trial
         href: sales-previews-in-trial.md
-    - name: Install
+    - name: Install or uninstall
       items:
       - name: Set up Dynamics 365 Sales
         href: set-up-dynamics-365-sales.md
+      - name: Set up Dynamics 365 Sales premium features
+        href: intro-admin-guide-sales-insights.md
+      - name: Uninstall Dynamics 365 Sales premium features
+        href: uninstall-sales-insights.md         
+    - name: Add or remove sample data
+      href: /power-platform/admin/add-remove-sample-data
+    - name: Manage sample data for sales accelerator      
+      href: manage-sample-data.md     
     - name: Upgrade
       items:
       - name: Upgrade from Dynamics 365 Sales Professional
         href: upgrade-sales-professional-sales-enterprise.md
       - name: Move from Dynamics 365 Sales Enterprise to Professional
         href: move-sales-enterprise-sales-professional.md
-    - name: Set up your sales organization
+    - name: Configure your sales organization
       items:
       - name: System Settings - Sales
         href: system-settings-sales-tab.md
@@ -79,54 +91,8 @@
         href: retain-business-card-image-after-scanning.md
       - name: Customize the business card scanner control
         href: customize-business-card-scan-control.md
-      - name: Product management
-        items:
-        - name: Set up a product catalog
-          href: set-up-product-catalog-walkthrough.md
-        - name: Set up products
-          href: create-product-sales.md
-        - name: Set up product families
-          href: create-product-family.md
-        - name: Set up product bundles to sell multiple items together
-          href: create-product-bundles-sell-multiple-items-together.md
-        - name: How are prices calculated for product bundles?
-          href: pricing-product-bundles.md
-        - name: Change parent of a product (reparenting)
-          href: change-product-parent.md
-        - name: Publish a product, bundle, or family
-          href: publish-product-bundle-make-available-selling.md
-        - name: Define product pricing with price lists
-          href: create-price-lists-price-list-items-define-pricing-products.md
-        - name: Decimal precision in currency and pricing
-          href: decimal-precision-currency-pricing.md
-        - name: Allow adding products without associated price list
-          href: make-price-list-optional.md
-        - name: Create a unit group and add units
-          href: create-unit-group-add-units-that-group.md
-        - name: Set up discount lists
-          href: set-up-discount-list.md
-        - name: Define related products to increase sales
-          href: define-related-products-increase-chances-sales.md
-        - name: Translate product names into multiple languages
-          href: translate-product-names-properties-into-multiple-languages.md
-        - name: Use properties to describe a product
-          href: use-properties-describe-product.md
-        - name: Revise products
-          href: revise-product.md
-        - name: Clone products
-          href: clone-product.md
-        - name: Retire products
-          href: retire-product.md
-        - name: Delete a family, product, or bundle
-          href: delete-family-product-bundle.md
-        - name: See relationships in a hierarchical view
-          href: /powerapps/maker/data-platform/visualize-hierarchical-data
-        - name: Add editable products grid on forms
-          href: editable-product-grid-forms.md
-        - name: Enable the enhanced experience of adding products
-          href: enable-enhanced-add-product-experience.md
-        - name: Customize the Add Products dialog box
-          href: customize-add-products-dialog-box.md
+      - name: Integrate LinkedIn Sales Insights
+        href: install-lsi-solution.md    
       - name: Integrate ZoomInfo app
         items:
         - name: Install ZoomInfo app  
@@ -136,37 +102,81 @@
         - name: Match fields between Dynamics 365 and ZoomInfo
           href: match-fields-between-dynamics365-zoominfo.md
         - name: Customize the ZoomInfo app
-          href: customize-zoominfo-app.md    
+          href: customize-zoominfo-app.md              
+    - name: Product and price list management
+      items:
+      - name: Set up a product catalog
+        href: set-up-product-catalog-walkthrough.md
+      - name: Set up products
+        href: create-product-sales.md
+      - name: Set up product families
+        href: create-product-family.md
+      - name: Set up product bundles to sell multiple items together
+        href: create-product-bundles-sell-multiple-items-together.md
+      - name: How are prices calculated for product bundles?
+        href: pricing-product-bundles.md
+      - name: Change parent of a product (reparenting)
+        href: change-product-parent.md
+      - name: Publish a product, bundle, or family
+        href: publish-product-bundle-make-available-selling.md
+      - name: Define product pricing with price lists
+        href: create-price-lists-price-list-items-define-pricing-products.md
+      - name: Decimal precision in currency and pricing
+        href: decimal-precision-currency-pricing.md
+      - name: Allow adding products without associated price list
+        href: make-price-list-optional.md
+      - name: Create a unit group and add units
+        href: create-unit-group-add-units-that-group.md
+      - name: Set up discount lists
+        href: set-up-discount-list.md
+      - name: Define related products to increase sales
+        href: define-related-products-increase-chances-sales.md
+      - name: Translate product names into multiple languages
+        href: translate-product-names-properties-into-multiple-languages.md
+      - name: Use properties to describe a product
+        href: use-properties-describe-product.md
+      - name: Revise products
+        href: revise-product.md
+      - name: Clone products
+        href: clone-product.md
+      - name: Retire products
+        href: retire-product.md
+      - name: Delete a family, product, or bundle
+        href: delete-family-product-bundle.md
+      - name: See relationships in a hierarchical view
+        href: /powerapps/maker/data-platform/visualize-hierarchical-data
+      - name: Add editable products grid on forms
+        href: editable-product-grid-forms.md
+      - name: Enable the enhanced experience of adding products
+        href: enable-enhanced-add-product-experience.md
+      - name: Customize the Add Products dialog box
+        href: customize-add-products-dialog-box.md
     - name: Productivity
       items:
-      - name: Activity management
-        items:
-        - name: Set up enhanced email
-          href: set-up-enhanced-email.md
-        - name: Activities in Kanban view
-          items:
-          - name: Add the Kanban control to Opportunity or Activity entities
-            href: add-kanban-control.md
-        - name: Configure email insights
-          items:
-          - name: Configure email engagement
-            href: configure-email-engagement.md
-        - name: Auto capture activities
-          items:
-          - name: Enable basic auto capture
-            href: configure-auto-capture.md#how-to-enable-basic-auto-capture
-        - name: Collaborate using Microsoft Teams
-          items:
-          - name: Microsoft Teams integration
-            href: /teams-integration/teams-integration
-        - name: Integrate a sample softphone
-          href: sample-softphone-integration.md
+      - name: Set up enhanced email
+        href: set-up-enhanced-email.md
+      - name: Add the Kanban control to Opportunity or Activity entities
+        href: add-kanban-control.md
+      - name: Configure email engagement
+        href: configure-email-engagement.md
+      - name: Enable auto capture
+        href: configure-auto-capture.md
+      - name: Configure notes analysis
+        href: configure-notes-analysis.md   
+      - name: Configure Microsoft Teams dialer
+        href: configure-microsoft-teams-dialer.md
+      - name: Install and set up Microsoft Teams integration
+        href: /dynamics365/teams-integration/teams-install-app
+      - name: Integrate a sample softphone
+        href: sample-softphone-integration.md
     - name: Lead management
       items:
       - name: Define lead qualification experience
         href: define-lead-qualification-experience.md
       - name: Integrate LinkedIn Sales Navigator solutions
         href: /linkedin/integrate-sales-navigator.md
+      - name: Configure predictive lead scoring
+        href: configure-predictive-lead-scoring.md        
     - name: Opportunity management
       items:
       - name: Deal manager
@@ -183,6 +193,8 @@
         href: enable-opportunity-close-customization.md
       - name: Customize the Opportunity Close form
         href: customize-opportunity-close-experience.md
+      - name: Configure predictive opportunity scoring
+        href: configure-predictive-opportunity-scoring.md       
       - name: Add the Kanban control to Opportunity or Activity entities
         href: add-kanban-control.md
     - name: Forecast management
@@ -201,6 +213,8 @@
         href: add-additional-filters.md
       - name: Configure and manage drill-down entities
         href: configure-manage-drill-downs.md
+      - name: Take snapshots automatically
+        href: manage-snapshots-forecast.md  
       - name: Configure advanced settings
         href: forecast-configure-advanced-settings.md
       - name: Activate and upload simple columns data
@@ -213,6 +227,10 @@
         href: configure-forecast-using-custom-rollup-entity.md
       - name: Capture forecast category for opportunity
         href: capture-forecast-category-opportunity.md
+      - name: Configure premium forecasting
+        href: configure-premium-forecasting.md
+      - name: View prediction model status
+        href: view-prediction-model-status.md  
       - name: Add forecast grid and configuration options in site map
         href: add-forecast-site-map.md
     - name: Goal management
@@ -227,76 +245,7 @@
         href: create-edit-goal-rollup-query-sales.md
     - name: Guided selling
       items:
-      - name: Assistant
-        items:
-        - name: Configure the assistant
-        href: configure-assistant.md
-      - name: Playbook management
-        items:
-        - name: Define playbook categories
-          href: define-playbook-categories.md
-        - name: Manage playbook templates
-          href: manage-playbook-templates.md
-        - name: Integrate LinkedIn Sales Insights
-          items:
-          - name: Install or delete LinkedIn Sales Insights solution
-            href: install-lsi-solution.md
-    - name: Configure Microsoft Teams dialer
-      href: configure-microsoft-teams-dialer.md
-    - name: Reporting
-      items:
-      - name: PowerBI Templates
-        items:
-        - name: Analyze your sales data using Power BI template apps
-          href: introduction-sales-template-apps.md
-        - name: Configure Power BI template apps to work with Dynamics 365 Sales
-          href: configure-sales-template-apps.md
-        - name: Customize Power BI template apps for Dynamics 365 Sales
-          href: customize-template-apps.md
-      - name: Enable default reporting
-        items:
-        - name: Add reporting features to your app
-          href: /powerapps/maker/model-driven-apps/add-reporting-to-app
-    - name: Sales premium capabilities
-      items:
-      - name: Overview of premium capabilities
-        href: overview-premium-capabilities.md
-      - name: Get started with sales premium
-        href: get-started-sales-premium.md
-      - name: Manage sample data
-        href: manage-sample-data.md
-      - name: Configure assistant
-        items:
-        - name: Configure the assistant
-          href: configure-assistant.md
-        - name: Create insight cards
-          href: create-insight-cards-flow.md
-        - name: Edit insight cards
-          href: edit-insight-cards.md
-        - name: Optimize ranking of insight cards
-          href: optimize-ranking-insight-cards.md
-      - name: Configure relationship insights
-        items:
-        - name: Configure relationship analytics and health
-          href: configure-relationship-analytics.md
-        - name: Configure talking points
-          href: configure-talking-points.md
-        - name: Configure who knows whom
-          href: configure-who-knows-whom.md
-      - name: Configure predictive models
-        items:
-        - name: Predictive lead scoring
-          href: configure-predictive-lead-scoring.md
-        - name: Predictive opportunity scoring
-          href: configure-predictive-opportunity-scoring.md
-      - name: Configure premium forecasting
-        href: configure-premium-forecasting.md
-        items:
-        - name: View prediction model status
-          href: view-prediction-model-status.md
-        - name: Take snapshots automatically
-          href: manage-snapshots-forecast.md
-      - name: Configure sales accelerator
+      - name: Sales accelerator
         items:
         - name: Configure sales accelerator
           href: enable-configure-sales-accelerator.md
@@ -317,8 +266,58 @@
             href: edit-a-sequence.md
           - name: Delete a sequence
             href: delete-a-sequence.md
-        - name: Integrate a sample softphone dialer with Dynamics 365 Sales
-          href: integrate-sample-softphone.md
+        - name: Manage segments
+          href: manage-segments.md
+          items:
+          - name: Create and activate a segment
+            href: create-and-activate-a-segment.md
+          - name: Connect a segment to sequence
+            href: connect-a-segment-to-sequence.md
+          - name: Edit a segment
+            href: edit-a-segment.md
+          - name: Delete or deactivate a segment
+            href: delete-deactivate-a-segment.md
+        - name: Manage assignment rules
+          href: create-manage-assignment-rules.md
+          items:
+          - name: Create and activate an assignment rule
+            href: create-and-activate-assignment-rule.md
+          - name: Edit an assignment rule
+            href: edit-assignment-rule.md
+          - name: Delete or deactivate an assignment rule
+            href: delete-deactivate-assignment-rule.md
+          - name: Manage sales teams
+            href: manage-sales-teams.md
+          - name: Manage seller attributes
+            href: manage-seller-attributes.md
+        - name: Add the Up next widget to an entity form
+          href: add-upnext-widget-form.md
+      - name: Playbook management
+        items:
+        - name: Define playbook categories
+          href: define-playbook-categories.md
+        - name: Manage playbook templates
+          href: manage-playbook-templates.md
+    - name: Relationship intelligence
+      items:
+      - name: Configure assistant
+        items:
+        - name: Configure the assistant
+          href: configure-assistant.md
+        - name: Create insight cards
+          href: create-insight-cards-flow.md
+        - name: Edit insight cards
+          href: edit-insight-cards.md
+        - name: Optimize ranking of insight cards
+          href: optimize-ranking-insight-cards.md
+      - name: Configure relationship insights
+        items:
+        - name: Configure relationship analytics and health
+          href: configure-relationship-analytics.md
+        - name: Configure talking points
+          href: configure-talking-points.md
+        - name: Configure who knows whom
+          href: configure-who-knows-whom.md
       - name: Configure conversation intelligence
         items:
         - name: Prerequisites to use Conversation Intelligence
@@ -337,17 +336,25 @@
           href: data-retention-deletion-policy.md
         - name: Enable coming soon features
           href: enable-preview-features-sales-insights-app.md
-        - name: Uninstall sales premium
-          href: uninstall-sales-insights.md
-    - name: Sales on mobile
+    - name: Reporting
       items:
-      - name: Enable Dynamics 365 Sales mobile
-        href: sales-mobile/enable-sales-mobile.md
+      - name: Add reporting features to your app
+        href: /powerapps/maker/model-driven-apps/add-reporting-to-app
+      - name: PowerBI Templates
+        items:
+        - name: Analyze your sales data using Power BI template apps
+          href: introduction-sales-template-apps.md
+        - name: Configure Power BI template apps to work with Dynamics 365 Sales
+          href: configure-sales-template-apps.md
+        - name: Customize Power BI template apps for Dynamics 365 Sales
+          href: customize-template-apps.md
+    - name: Enable Dynamics 365 Sales mobile
+      href: sales-mobile/enable-sales-mobile.md
   - name: Seller guide
     items:
     - name: Help resources for sellers
       href: user-guide.md
-    - name: Use dashboard
+    - name: Dashboards
       items:
       - name: Gain insights with dashboards
         href: dashboards.md
@@ -357,10 +364,12 @@
       items:
       - name: Work with accounts and contacts
         href: ../basics/accounts-contacts.md
-      - name: Install ZoomInfo app
-        href: install-zoominfo-app.md   
+      - name: Use ZoomInfo app data
+        href: use-zoominfo-app-data.md   
       - name: Organize contacts in live org charts for accounts
         href: live-org-chart.md
+      - name: Use the LinkedIn Sales Insights tab 
+        href: understand-lsi-accounts-form.md 
       - name: Scan business cards
         href: scan-business-cards.md
     - name: Productivity
@@ -371,24 +380,27 @@
           href: /powerapps/user/add-activities
         - name: Track and manage activities
           href: manage-activities.md
+        - name: Work with activities in the Kanban view
+          href: activity-kanban-view.md 
         - name: Send email using the enhanced email experience
           href: enhanced-email.md
-        - name: Activities in Kanban view
-          items:
-          - name: Work with activities in the Kanban view
-            href: activity-kanban-view.md
-      - name: Email insights
-        items:
-        - name: View message interactions with email engagement
-          href: email-engagement.md
       - name: Auto capture activities
+        href: auto-capture.md
         items:
         - name: Use basic auto capture
           href: free-auto-capture.md
+        - name: Premium auto capture
+          href: premium-auto-capture.md      
+      - name: View message interactions with email engagement
+        href: email-engagement.md
+      - name: How notes analysis assists you with suggestion
+        href: notes-analysis.md          
     - name: Lead management
       items:
       - name: Create or edit leads
         href: create-edit-lead-sales.md
+      - name: Prioritize leads using predictive scores
+        href: work-predictive-lead-scoring.md
       - name: Qualify or convert leads
         href: qualify-lead-convert-opportunity-sales.md
       - name: Reopen leads
@@ -399,6 +411,8 @@
       items:
       - name: Create or edit opportunities
         href: create-edit-opportunity-sales.md
+      - name: Prioritize opportunities using predictive scores
+        href: work-predictive-opportunity-scoring.md        
       - name: Deal manager
         items:
         - name: Using the deal manager workspace
@@ -427,7 +441,7 @@
         href: create-edit-competitor-record-sales.md
       - name: Manage sales literature
         href: create-sales-literature.md
-    - name: Quote and order management
+    - name: Quote, order, and invoice management
       items:
       - name: Sales transactions in Dynamics 365 Sales
         href: sales-transactions.md
@@ -459,14 +473,26 @@
         href: adjust-values-in-forecast.md
       - name: Maintain up to date forecast data
         href: keep-forecast-data-up-to-date.md
+      - name: Analyze revenue outcome using predictive forecasting
+        href: analyze-revenue-outcome-using-predictive-forecasting.md
+      - name: Understand forecast projection through trend chart
+        href: understand-forecast-projection-through-trend-chart.md
+      - name: Analyze deals flow between snapshots
+        href: analyze-deals-flow-between-snapshots.md
+      - name: View snapshots
+        href: view-snapshots.md        
     - name: Guided selling
       items:
-      - name: Assistant
+      - name: Sales accelerator
         items:
-        - name: Guide customer communications with assistant
-          href: assistant.md
-        - name: Stay updated with cards in assistant
-          href: action-cards-reference.md
+        - name: What is sales accelerator
+          href: sales-accelerator-intro.md
+        - name: Prioritize sales pipeline through work list
+          href: prioritize-sales-pipeline-through-work-list.md
+        - name: Connect with customers through a record or the up next widget
+          href: connect-with-customers.md
+        - name: Personalize your sales accelerator
+          href: personalize-sales-accelerator.md  
       - name: Playbook management
         items:
         - name: Associate documents with playbook activities
@@ -495,7 +521,7 @@
         href: add-activity-campaign-using-app-marketing-sales.md
       - name: Track a marketing campaign response
         href: track-marketing-campaign-response-using-app-marketing-sales.md
-    - name: Sales premium
+    - name: Relationship intelligence
       items:
       - name: Assistant
         items:
@@ -503,15 +529,6 @@
           href: assistant.md
         - name: Stay updated with cards in assistant
           href: action-cards-reference.md
-        - name: Productivity intelligence
-          items:
-          - name: Capture customer related activities with auto capture
-            href: auto-capture.md
-            items:
-            - name: Premium auto capture
-              href: premium-auto-capture.md
-        - name: How notes analysis assists you with suggestion
-          href: notes-analysis.md
       - name: Relationship insights
         items:
         - name: View customer activity history
@@ -520,49 +537,24 @@
           href: talking-points.md
         - name: Get introduced to lead
           href: who-knows-whom.md
-      - name: Predictive models
-        items:
-        - name: Prioritize leads using predictive scores
-          href: work-predictive-lead-scoring.md
-        - name: Prioritize opportunities using predictive scores
-          href: work-predictive-opportunity-scoring.md
-      - name: Premium forecasting
-        items:
-        - name: Analyze revenue outcome using predictive forecasting
-          href: analyze-revenue-outcome-using-predictive-forecasting.md
-        - name: Understand forecast projection through trend chart
-          href: understand-forecast-projection-through-trend-chart.md
-        - name: Analyze deals flow between snapshots
-          href: analyze-deals-flow-between-snapshots.md
-        - name: View snapshots
-          href: view-snapshots.md
-      - name: Sales accelerator
-        items:
-        - name: What is sales accelerator
-          href: sales-accelerator-intro.md
-        - name: Prioritize sales pipeline through work list
-          href: prioritize-sales-pipeline-through-work-list.md
-        - name: Connect with customers through a record or the up next widget
-          href: connect-with-customers.md
       - name: Conversation Intelligence
         items:
-      - name: Overview of Conversation Intelligence
-        href: dynamics365-sales-insights-app.md
-      - name: View home page
-        href: dynamics365-sales-insights-app-home-page.md
-      - name: View team information
-        href: conversation-intelligence-team-overview.md
-      - name: View seller information
-        href: conversation-intelligence-seller-details.md
-      - name: View and understand call summary
-        href: view-and-understand-call-summary.md
-      - name: Monitor call and insight processing
-        href: monitor-call-insight-processing.md
+        - name: Overview of Conversation Intelligence
+          href: dynamics365-sales-insights-app.md
+        - name: View home page
+          href: dynamics365-sales-insights-app-home-page.md
+        - name: View team information
+          href: conversation-intelligence-team-overview.md
+        - name: View seller information
+          href: conversation-intelligence-seller-details.md
+        - name: View and understand call summary
+          href: view-and-understand-call-summary.md
+        - name: Monitor call and insight processing
+          href: monitor-call-insight-processing.md
     - name: Sales on mobile
       items:
       - name: Overview
         href: sales-mobile/dynamics-365-sales-mobile-app.md
-        items:
       - name: Install the app
         items:
         - name: Install the app on iOS
@@ -846,38 +838,36 @@
         href: view-export-KPI-data-gdpr.md
       - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
         href: retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md
-    - name: Troubleshooting and FAQs
-      items:
-      - name: Dynamics 365 Sales Troubleshooting guide
-        href: troubleshooting.md
-      - name: Troubleshooting leads
-        href: ts-leads.md
-      - name: Troubleshooting opportunities
-        href: ts-opportunities.md
-      - name: Troubleshooting orders
-        href: ts-orders.md
-      - name: Troubleshooting products
-        href: ts-products.md
-      - name: Troubleshooting common entities
-        href: ts-oqoi.md
-      - name: Troubleshooting currency and price list
-        href: ts-currency-pricelist.md
-      - name: Troubleshooting views
-        href: ts-views.md
-      - name: Troubleshooting forecasts
-        href: ts-forecasts.md
-      - name: Troubleshooting the Unified Interface
-        href: ts-unified-interface.md
-      - name: Troubleshooting the sales pipeline chart
-        href: ts-sales-pipeline.md
-      - name: Troubleshooting email
-        href: ts-email.md
-      - name: Sales FAQs
-        href: faqs-sales.md
-      - name: Sales premium FAQs
-        href: faqs-sales-insights.md
-  - name: Removed or deprecated features
-    href: deprecations-sales.md
+  - name: Troubleshooting and FAQs
+    items:
+    - name: Dynamics 365 Sales Troubleshooting guide
+      href: troubleshooting.md
+    - name: Troubleshooting leads
+      href: ts-leads.md
+    - name: Troubleshooting opportunities
+      href: ts-opportunities.md
+    - name: Troubleshooting orders
+      href: ts-orders.md
+    - name: Troubleshooting products
+      href: ts-products.md
+    - name: Troubleshooting common entities
+      href: ts-oqoi.md
+    - name: Troubleshooting currency and price list
+      href: ts-currency-pricelist.md
+    - name: Troubleshooting views
+      href: ts-views.md
+    - name: Troubleshooting forecasts
+      href: ts-forecasts.md
+    - name: Troubleshooting the Unified Interface
+      href: ts-unified-interface.md
+    - name: Troubleshooting the sales pipeline chart
+      href: ts-sales-pipeline.md
+    - name: Troubleshooting email
+      href: ts-email.md
+    - name: Sales FAQs
+      href: faqs-sales.md
+    - name: Sales premium FAQs
+      href: faqs-sales-insights.md
   - name: Connect and share feedback
     href: connect-share-feedback.md
 - name: Resources for other Sales apps

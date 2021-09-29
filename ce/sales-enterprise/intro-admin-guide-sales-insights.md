@@ -12,7 +12,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Introduction to administering Sales Insights features
+# Set up premium sales features
 
 Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to build stronger relationships with their customers, save time, and stay on top of their deals with real-time AI-based insights. In Sales Insights, some features are available for free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization. More information: [Overview](overview.md)
 

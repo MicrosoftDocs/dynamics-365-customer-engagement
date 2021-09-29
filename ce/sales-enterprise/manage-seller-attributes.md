@@ -1,7 +1,7 @@
 ---
-title: "Manage seller attributes in assignment rules for lead routing | MicrosoftDocs"
-description: "Manage seller attributes in assignment rules for lead routing by creating, editing, and deleting in sales accelerator (Dynamics 365 Sales)."
-ms.date: 05/14/2021
+title: "Manage seller attributes in assignment rules for lead and opportunity routing"
+description: "Manage seller attributes in assignment rules for lead and opportunity routing by creating, editing, and deleting in sales accelerator (Dynamics 365 Sales)."
+ms.date: 09/10/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -23,17 +23,14 @@ You can use the attribute designer to:
 ## Create an attribute
 
 1. Sign in to your Dynamics 365 Sales Hub app.   
-
-2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3. Under **Sales accelerator**, select **Assignment rules (preview)**.
-
-4. On the **Assignment rules** page in the **Seller attributes** section, select **Manage**.
+2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.     
+3. Under **Sales accelerator**, select **Team settings (preview)**.    
+4. On the **Team settings** page, select **Manage attributes**.    
 
    >[!div class="mx-imgBorder"]
    >![Select Manage in the Seller attributes section](media/sa-ar-seller-attributes-section-select-manage.png "Select Manage in the Seller attributes section")
 
-5. On the **Seller attributes** page, select **+ New seller attribute**.
+5. On the **Manage attributes** page, select **+ New seller attribute**.
 
     >[!div class="mx-imgBorder"]
     >![Select New seller attribute](media/sa-ar-seller-attributes-select-new-seller-attribute.png "Select New seller attribute")
@@ -43,16 +40,14 @@ You can use the attribute designer to:
    >[!div class="mx-imgBorder"]
    >![Create new seller attribute](media/sa-ar-create-new-seller-attribute.png "Create new seller attribute")   
 
-    - **Seller attribute name**: Enter a name for the attribute. For example, **Language**.
-
-    - **Data field linked to attribute**: Select a data field, and add values in the **Attribute values** field.
- 
-       - If you select a field that's related to the Lead form, the values that are related to the field are automatically added to the attribute values. For example, when you select the field as Budget, the values that are defined for the field in the lead form are added to the attribute values. You can remove the values and also add values.
+    - **Seller attribute name**: Enter a name for the attribute. For example, **Language**.   
+    - **Set attribute values**: Select how you want to enter the values for the attribute.      
+        - **Pull from a data field**: The attribute values are fetched from a data field with an option set that is selected from the **Search data field** dropdown list. The list displays fields of type option set that is available lead, opportunity, and mutual. For example, when you select the field as **Budget** from **Mutual fields (same option set)**, the values that are defined for the field in both lead and opportunity form are added to the attribute values. You can remove the values and also add values.
 
         >[!div class="mx-imgBorder"]
-        >![Select an attribute from the Lead form](media/sa-ar-new-attribute-lead-related.png "Select an attribute from the Lead form")      
+        >![Select the budget field to add values to the attribute](media/sa-ar-new-attribute-lead-related.png "Select the budget field to add values to the attribute")      
 
-       - If you select **Do not link with fields**, you must enter the attribute values manually.
+       - **Do not link with fields**: Enter the attribute values manually.
 
         >[!div class="mx-imgBorder"]
         >![Enter attribute value manually](media/sa-ar-new-attribute-manual-value.png "Enter attribute value manually")
@@ -63,15 +58,11 @@ The attribute is created and added to the list.
 
 ## Edit an attribute
 
-1. Sign in to your Dynamics 365 Sales Hub app.   
-
-2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3. Under **Sales accelerator**, select **Assignment rules (preview)**.
-
-4. On the **Assignment rules** page in the **Seller attributes** section, select **Manage**.
-
-5. On the **Seller attributes** page, select the pencil icon corresponding to the attribute that you want to edit.
+1. Sign in to your Dynamics 365 Sales Hub app.    
+2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.   
+3. Under **Sales accelerator**, select **Team settings (preview)**.   
+4. On the **Team settings** page, select **Manage attributes**.   
+5. On the **Manage attributes** page, select the pencil icon corresponding to the attribute that you want to edit.   
 
    >[!div class="mx-imgBorder"]
    >![Select the pencil icon to edit an attribute](media/sa-ar-attribute-select-edit.png "Select the pencil icon to edit an attribute")
@@ -79,21 +70,17 @@ The attribute is created and added to the list.
 6. In the edit dialog, edit the values you want, and then select **Update seller attribute**.
 
    >[!div class="mx-imgBorder"]
-   >![Edit attribute dialog](media/sa-ar-attribute-edit-attribute.png "Edit attribute dialog")
+   >![Edit attribute dialog](media/sa-ar-attribute-edit-attribute.png "Edit attribute dialog")   
  
 The attribute is updated.
 
 ## Delete an attribute
 
-1.	Sign in to your Dynamics 365 Sales Hub app.
-
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3.	Under **Sales accelerator**, select **Assignment rules (preview)**.
-
-4.	On the **Assignment rules** page in the **Seller attributes** section, select **Manage**.
-
-5.	On the **Seller attributes** page, select the delete icon corresponding to the attribute.
+1.	Sign in to your Dynamics 365 Sales Hub app.   
+2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.    
+3. Under **Sales accelerator**, select **Team settings (preview)**.   
+4. On the **Team settings** page, select **Manage attributes**.   
+5.	On the **Manage attributes** page, select the delete icon corresponding to the attribute.
 
     >[!div class="mx-imgBorder"]
     >![Delete an attribute](media/sa-ar-delete-seller-attribute.png "Delete an attribute")  
@@ -107,7 +94,7 @@ The attribute is deleted from the application.
 
 ### See also
 
-[Manage assignment rules for lead routing](create-manage-assignment-rules-lead-routing.md)    
+[Manage assignment rules](create-manage-assignment-rules.md)    
 [Create and activate an assignment rule](create-and-activate-assignment-rule.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
