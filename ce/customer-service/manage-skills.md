@@ -28,9 +28,9 @@ Dynamics 365 comes with an out-of-the box skill control for messaging channels. 
 
 ## Introduction
 
-When you receive a work item in your queue, you can view the skills required to do the work in the **Skills** field of your case or conversation record. For each work item, you can view skills that have attached by manual skill classification rules and those that were identified by the machine-learning models.
+When you receive a work item in your queue, you can view the skills required to do the work in the **Skills** field of your case or conversation record. For each work item, you can view skills that have attached by manual skill classification rules and those that were identified by the machine-learning skill finder models.
 
-In the following illustration, **Refund** is a skill attached by the manual skill classification rules, and skills with the percentage rating such as **99% Heating** and **99% Electrical** are skills that have been identified by the machine-learning model.
+In the following illustration, **Refund** is a skill attached by the manual skill classification rules, whereas skills with percentage rating such as **99% Heating** and **99% Electrical** are those that have been identified by the machine-learning model.
 
 > [!div class="mx-imgBorder"]
 > ![Add skills.](media/skill-control.png "Add skills.")
@@ -41,7 +41,8 @@ In the following illustration, **Refund** is a skill attached by the manual skil
 ## Add and remove skills
 
 If upon assessing the work item, you think that the relevant skills are missing or incorrect, you can choose to add or remove skills as appropriate.
-To add skills, select **Add skill**, enter a skill name, and select the plus (**+**) symbol. To add multiple skills at a time, simply add the skills names separated by commas, and then select the plus (**+**) symbol.
+
+To add skills, select the **Add skill** field, enter a skill name, and select the plus (**+**) symbol. As you enter one or more letters, a list of skill names are suggested in the dropdown list, so you can choose to select the relevant skill from the list, and then select the plus (**+**) symbol. Add as many skills as you think are appropriate for the work item.
 
 To remove skills, select **X** next to each skill that you want to delete.
 
