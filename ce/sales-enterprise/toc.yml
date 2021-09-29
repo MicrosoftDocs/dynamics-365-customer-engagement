@@ -48,7 +48,7 @@
       - name: Set up sales territories
         href: /admin/set-up-sales-territories-organize-business-markets-geographical-area
       - name: Add or remove sales territory members
-        href: /power-platform/admin/add-remove-territory-members
+        href: /power-platform/admin/add-remove-territory-members?context=/dynamics365/context/sales-context.json
       - name: Hierarchy security to control access
         href: /power-platform/admin/hierarchy-security
       - name: Define fiscal and currency settings
