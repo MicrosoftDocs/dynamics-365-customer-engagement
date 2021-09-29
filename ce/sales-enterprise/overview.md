@@ -1,7 +1,7 @@
 ---
 title: "Overview of Dynamics 365 Sales"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
-ms.date: 09/10/2021
+ms.date: 10/02/2021
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: udaykirang
@@ -41,13 +41,13 @@ Build stronger relationships with customers and move relationships forward with 
     - Administrator: [Configure relationship analytics and health](configure-relationship-analytics.md)
     - Seller: [Use relationship analytics to gather KPIs](relationship-analytics.md)
 - **Talking points** 
-    - Administrator: [Configure talking points](configure-talking-points)
+    - Administrator: [Configure talking points](configure-talking-points.md)
     - Seller: [Know conversation starters for your customers](talking-points.md)
 - **Who knows whom**
     - Administrator: [Configure Who knows whom](configure-who-knows-whom.md)
     - Seller: [Get introduced to a lead](who-knows-whom.md) 
  - **Conversation intelligence**
-    - Administrator: [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app)
+    - Administrator: [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md)
     - Seller: [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md) 
 #### Predictive models    
 Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
