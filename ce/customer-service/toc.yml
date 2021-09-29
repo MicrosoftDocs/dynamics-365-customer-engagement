@@ -212,14 +212,8 @@
       href: community-get-started.md
     - name: Create a Community forum
       href: community-forum-setup.md
-    - name: Portal setup
-      href: community-portal-setup.md
     - name: Moderator experience
       href: community-moderator-experience.md
-    - name: User experience
-      href: community-user-experience.md
-    - name: Entity definitions
-      href: community-entity-definitions.md
     - name: Community FAQs
       href: community-faqs.md
   - name: Unified routing and assignment
