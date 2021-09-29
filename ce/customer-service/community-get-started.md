@@ -53,4 +53,4 @@ To install Dynamics 365 Customer Service Community (Preview):
 
 When your Modern Community Portal has been created, you can view the Community home page, by going to https://&lt;name&gt;.powerappsportals.com/d365community. 
 
-For information on how to change your portal DNS, see [Add a custom domain name](https://docs.microsoft.com/en-us/powerapps/maker/portals/admin/add-custom-domain).
+For information on how to change your portal DNS, see [Add a custom domain name](/powerapps/maker/portals/admin/add-custom-domain).
