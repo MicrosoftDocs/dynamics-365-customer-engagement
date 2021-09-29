@@ -33,12 +33,12 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 ## Introduction
 
-By configuring the use of AI-suggested article keywords and descriptions when knowledge articles are authored or updated, you can help knowledge authors ensure better searchability and surfacing of the right articles. This makes them more productive and supports them in following authoring best practices by adding high-quality and diverse keywords and descriptions.
+Correct metadata helps in surfacing the articles that users search for. When knowledge authors create or update knowledge articles, AI-suggestions for article keywords and descriptions can help them select the right metadata, thereby improving their productivity.
 
 The key highlights of the feature are as follows:
 
-- Enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity.
-- Enable admins to select the source data (text only) fields for the AI model to use to suggest keywords and descriptions; the default fields are **Title** and **Content**.
+- Enable knowledge authors by suggesting keywords and description based on the article content stored in the built-in knowledge article entity.
+- Enable admins to select the source data (text only) fields that the AI model will use; the default fields are **Title** and **Content**.
 
 > [!NOTE]
 > The AI suggestions feature is currently available only in specific geographical locations. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
@@ -46,7 +46,7 @@ The key highlights of the feature are as follows:
 
 ## How AI suggestions for article keywords and descriptions work
 
-When the feature is turned on, the **View suggested keywords and description** link appears in the default knowledge article form for knowledge authors when the article content field is updated and the knowledge article is saved. On selecting the link, authors see a dialog that shows suggested keywords and a suggested description.
+The **View suggested keywords and description** link appears in the default knowledge article form for knowledge authors when the article content field is updated and the knowledge article is saved. When authors select the link, a dialog with suggested keywords and a description is displayed.
 
 
 The AI model works as follows:
@@ -76,21 +76,22 @@ Make sure that the following requirements are met:
 - You have the System Administrator role.
 - Knowledge authors have the AIB roles and the AIB SML roles.
 
-Note that in public preview, the AI-suggested keywords and description are available only in the default knowledge article form.
+> [!NOTE]
+> In public preview, the AI-suggested keywords and description are available only in the default knowledge article form.
 
 ## Enable AI suggestions for article keywords and description
 
-1. Sign in to Customer Service Hub. In the **change area**, select **Service Management**, and then on the left pane under **Insights**, select **Settings**.
+1. In Customer Service Hub, go to the **Service Management** site map, and select **Settings** under **Insights**.
 
 2. In the **Suggestions for knowledge article authors** area, select **Manage**.
 
-3. On the **Settings** tab in the **Summary** area, turn on the **Enable keywords and description suggestions** toggle.
+3. On the **Settings** tab in the **Summary** area, turn on the **Enable keywords and description suggestions** toggle. By default, the model is based on the **Title** and **Content** values specified in the **Data mapping** area under **Knowledge article data fields**.
 
-4. Optional: If you don't want the model to use the default **Title** and **Content** values, in the **Data mapping** area under **Knowledge article data fields**, select values for **Article title** and **Article content**. The AI model will use the data that corresponds to the values you select.
+4. Optional: Change the values for **Article title** and **Article content** if you don't want the model to use the default values. The AI model will use the data that corresponds to the values you select.
 
 5. Select **Save**.
 
-![Configure AI-suggested article keywords and description.](media/configure_suggest-article-keywords-description.png "Enable AI-suggested article keywords and description")
+:::image type="content" source="media/configure_suggest-article-keywords-description.png" alt-text="Configure AI suggested article keywords and description":::
 
 
 ### See also

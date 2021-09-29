@@ -89,9 +89,9 @@ Posts about knowledge article-related activities will begin appearing in the **T
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
-If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles.
+If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md)
 
-However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value in order for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you'll see error messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description". More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md)
+However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you'll see messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description".
 
 1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description (preview)** link appears.
 
@@ -100,7 +100,7 @@ However, either the **Title** or **Content** fields&mdash;or any other correspon
 
 1. In the **Suggested keywords and description (preview)** dialog, do the following:
 
-   - Select the keywords that you want to add to your keywords list. The keywords will be added to the **Keywords** field.
+   - Select the keywords that you want to add to your keywords list. The keywords get added to the **Keywords** field.
    - Select **Insert suggested description**. The description gets added to the **Description** field.
 
     :::image type="content" source="media/v9-suggested-keywords-description-dialog.png" alt-text="Screenshot showing a Keyword field containing keywords that were selected from the list of suggested keywords below it.":::
