@@ -31,24 +31,25 @@ ms.custom:
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
-## License Community
+## Install Customer Service Community
 
-Need a Customer Service Enterprise license
+> [!NOTE]
+> To install Customer Service Community, you must have a Dynamics 365 organization and ensure that the organization tenant has at least one Customer Service Enterprise license.
 
+To install Dynamics 365 Customer Service Community (Preview):
 
-## Install the Community app
-App Source link to install the app
+1.	Go to the [Microsoft AppSource Dynamics 365 Customer Service Community (Preview)** download page](https://appsource.microsoft.com/product/dynamics-365/mscrm.dynamics365_community-preview?flightCodes=secretideas).
+2.	Select **Get it now**, and then sign in with your Dynamics System Admin account. 
+3.	Select the environment where you want to install Customer Service Community (Preview), accept the terms, and select **Install**.
 
+## Provision Modern Community portal
+1.	Confirm that Customer Service Community successfully installed in the previous procedure.
+2.	Go to [Power Apps](https://make.preview.powerapps.com/), and then select the environment where you installed Customer Service Community.
+3.	Go to the home page, and then select **All templates**.
+4.	Select **Modern Community (Preview)**.
+5.	Enter a **Name** and **Address**. The address is your Community portal URL.
+6.	Select **Create**. Portal provisioning typically takes a few minutes, and then when it completes, it's displayed in the **Installed apps** list. 
+7.	Select **Convert** to convert to a production portal. Converting the portal to production avoids its suspension in 30 days. The conversion typically takes a a few minutes to complete. 
+When your Modern Community Portal has been created, you can view the Community home page, by going to https://<name>.powerappsportals.com/d365community. 
 
-## Install the Community portal
-PPAC link to install the portal
-
-
-## Configure Community forums
-forums
-
-
-## Familiarize with Community concepts
-Forums
-Ideas
-User profile
+For information on how to change your portal DNS, see [Add a custom domain name](https://docs.microsoft.com/en-us/powerapps/maker/portals/admin/add-custom-domain).
