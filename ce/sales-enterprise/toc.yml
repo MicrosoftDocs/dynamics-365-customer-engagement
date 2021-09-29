@@ -42,7 +42,7 @@
       - name: System Settings - Sales
         href: system-settings-sales-tab.md
       - name: Create business units
-        href: /power-platform/admin/create-edit-business-units
+        href: /power-platform/admin/create-edit-business-units?toc=/dynamics365/sales-enterprise/toc.json&bc=/dynamics365/cebc/toc.json
       - name: Create users and assign security roles
         href: /power-platform/admin/create-users-assign-online-security-roles
       - name: Set up sales territories
