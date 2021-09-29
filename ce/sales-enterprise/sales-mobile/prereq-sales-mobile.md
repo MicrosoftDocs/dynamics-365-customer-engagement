@@ -1,7 +1,7 @@
 ---
 title: Prerequisites for the Dynamics 365 Sales mobile app
 description: Learn about the prerequisites for the Dynamics 365 Sales mobile app
-ms.date: 09/02/2021
+ms.date: 09/29/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais

@@ -1,7 +1,7 @@
 ---
 title: Manage contacts in the Dynamics 365 Sales mobile app
 description: Learn how to create and manage contacts in the Dynamics 365 Sales mobile app
-ms.date: 08/27/2021
+ms.date: 09/29/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
