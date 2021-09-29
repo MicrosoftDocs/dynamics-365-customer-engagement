@@ -1,3 +1,25 @@
+## 3.12.62.49 - 2021 wave 2 early access update 2
+
+(Includes Resource Scheduling controls version 1.2.2.2126411)
+
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 2](/dynamics365-release-plan/2021wave2/service/dynamics365-field-service/planned-features#resource-scheduling) new and updated features. 
+
+This release is an update to the 2021 wave 2 early access of Universal Resource Scheduling version 3.12.61.21. 
+
+- There was an issue where Power Automate cloud flow was used to trigger on update of the work order field on the requirement to create a booking for the requirement, but it would create two bookings. This issue is now fixed. 
+- When a user clicks on the suggested time slot's resources on the quick book panel, the scroll position is reset and the user has to again click on the available resources of the suggested time slot to see the available resources. This issue is now fixed. 
+- This release contains an update to the new schedule board; now, new schedule assistant and find availability functionality can also be used with the multiday requirements that last for multiple days with associated requirement detail records. We also shipped many experience, performance, and stability improvements. For any schedulable entity to be supported on the new schedule assistant experience, the schedulable entity record needs to have an associated requirement. Support for schedulable entity records without an associated resource requirement record will be added in a future update. 
+
+## 3.12.52.4
+
+(Includes Resource Scheduling controls version 1.1.7.211681)
+
+- Fixed an issue where a new booking is created from the booking form directly with a **Booking rule** enabled, the `RequirementId` is not passed via the bookings rule. 
+- Made performance improvement on the schedule board by only querying for the active booking records, which are displayed on the schedule board. 
+- When booking a multiday requirement, some would get stuck in a loop for a long time when using booking method as **Remaining Requirement** with **Double-book if needed** selected. This issue is now fixed. 
+- When the user selects a suggested time slot on the quick book panel, the selection was not highlighted. This bug is now fixed. 
+- Fixed **Object reference not set to an instance of an object** error during the upgrade of the environments from an older (v6, v7) version of Field service app to latest v8 versions. 
+
 ## 3.12.51.1
 
 (Includes Resource Scheduling controls version 1.1.7.211681)
