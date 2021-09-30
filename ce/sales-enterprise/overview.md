@@ -207,15 +207,11 @@ The Sales (enterprise) is built on the Unified Interface framework. The Unified 
 
 The Sales app is designed for the legacy web client and is the full-featured, desktop-optimized web client app for sales scenarios. 
 
-> [!IMPORTANT]
-> With the April 2019 release, any new subscription to Dynamics 365 Sales will not have the Sales app (web client). The existing organizations where the Sales app was available will show a notification prompting users to update their legacy web client apps to Unified Interface. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Update your apps to Unified Interface](../admin/update-apps-to-unified-interface.md), [Enable Unified Interface Only mode](../admin/enable-unified-interface-only.md).
-
-
 ### Dynamics 365 Sales Premium
 
 The Dynamics 365 Sales Premium solution combines the Dynamics 365 Sales Enterprise with Sales Insights add-in for Dynamics 365 Sales AI-driven features. 
 
-The features continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
+The features continuously analyze the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
 
 When you subscribe to Dynamics 365 Sales Premium, you get the following capabilities along with Dynamics 365 Sales Enterprise capabilities:    
 - **Guided selling**: Guide sellers on their next course of action with timely and actionable insights. You can achieve this through the Sales accelerator feature.
@@ -232,7 +228,7 @@ When you subscribe to Dynamics 365 Sales Premium, you get the following capabili
 
 ### Microsoft Relationship Sales
 
-The Microsoft Relationship Sales solution combines LinkedIn Sales Navigator with Dynamics 365 Sales Enterprise or Sales Premium, to empower sellers to have more personalized and valuable interaction with buyers by:
+The Microsoft Relationship Sales solution combines LinkedIn Sales Navigator with Dynamics 365 Sales Enterprise or Sales Premium, to empower sellers to have more personalized and valuable interaction with customers by:
 - Embedding Sales Navigator in Dynamics 365 Sales
 - Syncing activities from Sales Navigator
 - Saving accounts, leads, and contacts to Sales Navigator
