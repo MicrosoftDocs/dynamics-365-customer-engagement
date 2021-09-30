@@ -14,11 +14,11 @@ To ensure that you have a smooth transition, here are the set of changes you'll 
 > [!Note]
 > These changes can be applied anytime and will not impact your existing omnichannel experience. Microsoft will work with you to help you navigate and test the changes so you have a smooth transition by January 2022.
 
-1. If you have network policies in your organization, be sure to update your system requirements to include a new set of domains that'll be used by the new Omnichannel application. More information: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
+- If you have network policies in your organization, be sure to update your system requirements to include a new set of domains that'll be used by the new omnichannel application. More information: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
-2. If you're using the Omnichannel Chat SDK to customize the live chat widget for mobile apps, then be sure to download the latest version of the SDK package. More information: [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
+- If you're using the Omnichannel Chat SDK to customize the live chat widget for mobile apps, then be sure to download the latest version of the SDK package. More information: [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
 
-3. If you're integrating an Azure bot, then you must connect and register your bot with the new Omnichannel for Customer Service channel. More information: [Integrate Azure bot](configure-bot.md)
+- If you're integrating an Azure bot, then you must connect and register your bot with the new Omnichannel for Customer Service channel. More information: [Integrate Azure bot](configure-bot.md)
 
 > [!Note]
 > If you're using a Power Virtual Agents bot or Azure Health Bot, then these changes will be automatically applied, and you don't need to take any action.
