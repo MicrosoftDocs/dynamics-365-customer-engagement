@@ -23,15 +23,13 @@ The trial takes a few moments to load, then you can start using the app.
 
 ## What to try
 
-Your trial environment includes many of the same features as the paid version. The links below guide you through some of the key features.
-
-- [Get started](field-service-get-started.md)
+Your trial environment includes many of the same features as the paid version. For more information on getting started with Field Service, see: [Get started with Field Service](field-service-get-started.md).
 
 ### Features included in the trial
 
 The trial comes with guided tours and videos that highlight key product features for you to try. When the trial is ready, you can:
 
-- Follow the guided tours on the Get started page to learn how Field Service can help your business schedule work intelligently and deliver proactive service using smart device alerts. 
+- Follow the guided tours on the [get started page](field-service-get-started.md) to learn how Field Service can help your business schedule work intelligently and deliver proactive service using smart device alerts. 
 
 - Download the mobile app and follow the guided tour to learn how your frontline workers can use the app to manage their day and increase their first-time fix rate.  
 
