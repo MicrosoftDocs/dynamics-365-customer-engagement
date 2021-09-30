@@ -216,6 +216,10 @@
       href: community-moderator-experience.md
     - name: Community FAQs
       href: community-faqs.md
+    - name: Advanced settings   
+      items:                
+      - name: Create new websites
+        href: community-create-websites.md 
   - name: Unified routing and assignment
     items:
     - name: Overview of unified routing
