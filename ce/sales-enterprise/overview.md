@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Overview of Dynamics 365 Sales
 
-Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
+Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Here's a short video to help you understand the power of leveraging Dynamics 365 Sales in your organization:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
@@ -199,13 +199,28 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 
 ## Different sales solutions for different size of businesses
 
-Here are the multiple sales solutions that fit every type and size of business: 
+Here are the sales solutions that fit every type and size of business: 
+
+- **Sales Premium** - Ideal for large enterprises that need a sales automation solution, along with AI-driven insights powered by conversation intelligence, relationship intelligence and more. See, [Sales Premium](#tab/sp)](#sales-premiumtabsp)
+- **Sales Enterprise** - Ideal for small-mid sized enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. See, [[Sales Enterprise](#tab/se)](#sales-enterprisetabse)
+- **Sales Professional** - Ideal for small enterprises that need a sales automation solution. [[Sales Professional](#tab/spro)](#sales-professionaltabspro)
+
+> [!TIP]
+> To know the capabilities available in each solution, see the [Sales comparison chart](sales-comparison-chart.md).
+
 
 ### Dynamics 365 Sales Enterprise
 
-The Sales (enterprise) is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is optimized to work on mobile devices as well as desktops.  
+With the Sales Enterprise solution, your sales organization can automate the sales process from lead to cash, run marketing campaigns, enforce best practices, collaborate with customers, and much more. The following capabilities are available in Sales Enterprise:
 
-The Sales app is designed for the legacy web client and is the full-featured, desktop-optimized web client app for sales scenarios. 
+- **Nurture sales from lead and cash**: Achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the sale. More information: [Nurture sales from lead to order (Sales Hub)](nurture-sales-from-lead-order-sales.md).
+
+- **Forecast sales**: Predict how much revenue your sales team will generate in a given timeframe. Track individual sales performance against quotas, to proactively identify pipeline risks and provide coaching. More information: [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md).
+
+- **Enforce best practices with playbooks**: Automate repeatable processes and define your organization's best response to events that impact sales. For example, the best response when a decision maker leaves an organization while the team is working on a deal with that decision maker. More information:[Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
+
+- **Run and track marketing campaigns**: Promote your business and improve sales with targeted marketing campaigns. Track customer response and costs for each campaign. More information: [Get started with in-app marketing (Sales)](get-started-app-marketing-sales.md).
+
 
 ### Dynamics 365 Sales Premium
 
@@ -244,7 +259,7 @@ The Sales Professional app is similar to the Sales Hub app, but the entities inc
 
 ## Integrations
 
-Integrate Dynamics 365 Sales helps to digitally transformation your business across every industry vertical, companies are rethinking their business processes and entire segments are reorganizing. You can integrate Dynamics 365 Sales with the following solutions: 
+Integrate Dynamics 365 Sales with other applications that your Sales team is leveraging so that you can improve seller efficiency and customer collaboration: 
 
 - [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)    
 - [Microsoft Teams integration](../teams-integration/teams-integration.md)    
