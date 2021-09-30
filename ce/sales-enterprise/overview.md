@@ -24,25 +24,29 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
 
 ### Meet buyers where they are
 
-- **Know the exact customer to engage**: Shorten the sales cycle with a single workspace that has everything that sellers need to engage the right customer, stay focused, maximize productivity. More information:    
+- **Know the exact customer to engage**: Shorten the sales cycle with a single workspace that has everything that sellers need to engage the right customer, stay focused, maximize productivity. More information:   
+ 
     | For | Reference links|
     |-----------|----------|
     | Administrator | [Configure the sales accelerator](enable-configure-sales-accelerator.md) |
     | Seller | [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) |
     |||
 - **Complete the next best activity**: Help sellers focus by giving them clear and achievable sales activities, prioritized through artificial intelligence (AI) and predictive scoring. More information: 
+
     | For | Reference links|
     |-----------|----------|
     | Administrator | - [Configure predictive lead scoring](configure-predictive-lead-scoring.md)<br>- [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md) |
     | Seller | - [Prioritize leads through scores](work-predictive-lead-scoring.md) <br>- [Prioritize opportunity through scores](work-predictive-opportunity-scoring.md) |
     |||    
 - **Communicate with effective call techniques**: Converse with empathy by employing AI-powered conversation intelligence to detect customer emotion, sentiment, and priorities. More information:    
+
     | For | Reference links|
     |-----------|----------|
     | Administrator | [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md) |
     | Seller | [View and understand call summary page](view-and-understand-call-summary.md) |
     |||
 - **Connect across channels**: Streamline selling with integrated multichannel communications such as, soft phone dialer, Microsoft Teams dialer, and email templates. More information: 
+
     | For | Reference links|
     |-----------|----------|
     | Administrator | - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)<br>- [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)<br>- [Set up enhanced email](set-up-enhanced-email) |
@@ -50,6 +54,7 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
     |||
         
 - **Meet and collaborate virtually**: Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data. More information:
+
     | For | Reference links|
     |-----------|----------|
     | Administrator | [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)  |
