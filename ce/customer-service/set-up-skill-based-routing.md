@@ -10,6 +10,8 @@ manager: shujoshi
 
 # Set up skill-based routing for unified routing
 
+## Introduction
+
 The steps to configure skill-based routing are as follows:
 
 1. [Create a rating model](setup-skills-assign-agents.md#create-a-rating-model).
@@ -110,7 +112,7 @@ You can achieve closest skill match in one of the following ways:
 
 ## Set up intelligent skill finder model
 
-To configure ML-based skill classification rulesets, you can configure intelligent skill finder models that will be used for predicting skills.
+To configure machine learning-based skill classification rulesets, you can configure intelligent skill finder models that will be used for predicting skills.
 
 You can create and train machine-learning models that use AI to determine the necessary skills for new work items. You can create and train the model by using the data in Microsoft Dataverse. However, if you're trying to set up the model in a new organization or if skill-based routing wasn't in use, you might not have the needed skill data. In such conditions, you can use data from another application by using the **Import from Excel** option in the skill finder model.
 
@@ -130,14 +132,18 @@ Perform the steps in this section to set up the intelligent skill finder model. 
     ![Configure skill finder model.](media/ur-skill-model.png "Configure skill finder model")
 
 4. Select **Save**, and then select **Load training data**. The **Training data** tab appears and displays the data load status.
-5. After the load is complete, review the load, and edit the records if you want to modify the tags.
+5. After the load is complete, review the data, and edit the records if you want to modify the tags.
 6. In the **Training data** section, select the checkbox beside **Input data** to select all the records, and select **Approve**. You must approve a minimum of 50 records for the model to be trained.
 7. Select **Train model**, and select **Train model** on the confirmation dialog box.
 8. After the status changes to training completed, select the rows that you want to publish, and select **Publish model**. The skills model is ready for use.
 
 ### Retrain the model iteratively
 
-You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which agents have updated the skills for records or conversations. Define the conditions as seen in the following screenshot.
+You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which agents have updated the skills for records or conversations.
+
+When you retrain the model to include the skills added by agents, review the training data records after loading it to make sure it meets the required skill criteria
+
+You can define the conditions as seen in the following screenshot.
 
   ![Conditions to fetch data for retraining the model.](media/retrain-conditions.png "Conditions to fetch data for retraining the model")
 
@@ -158,10 +164,10 @@ A sample of each file is as follows.
 |Skill finder model|Training record name|Input data|
 |------------------|--------------------|----------|
 |CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10001|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. No.|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10002|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. No., can you please connect me to an agent|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10003|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. Not really, can you pls help|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10004|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. Not at all, can I speak to a human|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10005|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. No. Need urgent attention|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10002|Hi, I recently bought Café A-100  coffee machine and its top plate is getting heated after 15 minutes of usage. Please resolve this at the earliest.|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10003|Hi, I am unable to start my recently bought espresso machine, looks like the electrical plug provided with it is not functioning.|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10004|Hi, I work at Trey Research. I am looking for replacement of coffee machine purchased 3 months ago. Even after raising complaints earlier about overheating the issue still persists. Please help! |
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10005|Hi, my recently bought Café A-100 machine is not in the color I ordered. Please replace the same. |
 ||||
 
 **msdyn_ocsitdskill.csv**
@@ -191,5 +197,6 @@ Perform the following steps to upload the data for training your model:
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Overview of unified routing](overview-unified-routing.md)  
+[FAQ on unified routing](unified-routing-faqs.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]  

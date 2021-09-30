@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about unified routing | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 07/13/2021
+ms.date: 09/21/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -46,7 +46,12 @@ Intelligent skill finder requires AI Builder to create and train the machine lea
 
 Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, an additional step is required because email body (description) includes HTML tags that can impact the ML model. You'll extract the text from HTML, copy it into another text field, then configure the ML model against the new field.
 
-### How to migrate my configurations from the Omnichannel Administration app into the Omnichannel admin center app?
+### How do I make sure that the right skills are attached to the work items when machine learning-based model is in use?
+
+- Ensure that agents are trained to attach correct skills, review, and correct any incorrectly attached skills.
+- Review the skill finder model to make sure that the training data is correct and retrain the model periodically to improve it.
+
+### How do I migrate my configurations from the Omnichannel Administration app to the Omnichannel admin center app?
 
 To migrate the messaging workstreams, you can use the Unified Routing Migration Application. For information on the migration tool and instructions, see [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
