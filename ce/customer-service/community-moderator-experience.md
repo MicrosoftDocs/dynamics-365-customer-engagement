@@ -66,9 +66,9 @@ Follow these steps to create a collection:
 
 ### See also
 
-[Community overview](community-overview.md)
-[Get started with Community](community-get-started.md)
-[Create a Community forum](community-forum-setup.md)  
+[Community overview](community-overview.md)<br>
+[Get started with Community](community-get-started.md)<br>
+[Create a Community forum](community-forum-setup.md)<br>
 [Community FAQs](community-faqs)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
