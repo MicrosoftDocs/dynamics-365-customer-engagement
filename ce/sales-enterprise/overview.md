@@ -143,8 +143,8 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
 
 | For | Reference links|
 |-----------|----------|
-| Administrator | [Prerequisites for the Dynamics 365 Sales mobile app](../sales-mobile/prereq-sales-mobile.md) |
-| Seller | - [Install the app on iOS and Android](../sales-mobile/install-mobile-app.md)<br>- [Use the Dynamics 365 Sales mobile app](../sales-mobile/use-sales-mobile-app.md)<br>- [Use the Sales Hub app on Dynamics 365 for phones and tablets app](use-sales-hub-on-dynamics-365-mobile.md) |
+| Administrator | [Prerequisites for the Dynamics 365 Sales mobile app](sales-mobile/prereq-sales-mobile.md) |
+| Seller | - [Install the app on iOS and Android](sales-mobile/install-mobile-app.md)<br>- [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)<br>- [Use the Sales Hub app on Dynamics 365 for phones and tablets app](use-sales-hub-on-dynamics-365-mobile.md) |
 |||   
 
 ### Adapt to rapid changes    
@@ -213,7 +213,9 @@ The Sales app is designed for the legacy web client and is the full-featured, de
 
 ### Dynamics 365 Sales Premium
 
-Sales premium continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
+The Dynamics 365 Sales Premium solution combines the Dynamics 365 Sales Enterprise with Sales Insights add-in for Dynamics 365 Sales AI-driven features. 
+
+The features continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
 
 When you subscribe to Dynamics 365 Sales Premium, you get the following capabilities along with Dynamics 365 Sales Enterprise capabilities:    
 - **Guided selling**: Guide sellers on their next course of action with timely and actionable insights. You can achieve this through the Sales accelerator feature.
@@ -230,7 +232,11 @@ When you subscribe to Dynamics 365 Sales Premium, you get the following capabili
 
 ### Microsoft Relationship Sales
 
-
+The Microsoft Relationship Sales solution combines LinkedIn Sales Navigator with Dynamics 365 Sales Enterprise or Sales Premium, to empower sellers to have more personalized and valuable interaction with buyers by:
+- Embedding Sales Navigator in Dynamics 365 Sales
+- Syncing activities from Sales Navigator
+- Saving accounts, leads, and contacts to Sales Navigator
+- Smart Links
 
 ### Dynamics 365 Sales Professional
 

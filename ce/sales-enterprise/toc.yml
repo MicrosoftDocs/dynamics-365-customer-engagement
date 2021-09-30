@@ -356,8 +356,18 @@
           href: configure-sales-template-apps.md
         - name: Customize Power BI template apps for Dynamics 365 Sales
           href: customize-template-apps.md
-    - name: Enable Dynamics 365 Sales mobile
-      href: sales-mobile/enable-sales-mobile.md
+    - name: Dynamics 365 Sales mobile
+      items:
+      - name: Prerequisites for Dynamics 365 Sales mobile
+        href: sales-mobile/prereq-sales-mobile.md
+      - name: Modify quick view forms
+        href: sales-mobile/modify-quick-view-form.md
+      - name: Create custom push notifications
+        href: sales-mobile/create-push-notification.md
+      - name: Configure tables for quick creation of records and activities
+        href: sales-mobile/configure-quick-create.md
+      - name: Configure mobile apps with Microsoft Intune
+        href: sales-mobile/configure-app-intune.md
   - name: Seller guide
     items:
     - name: Help resources for sellers
@@ -559,42 +569,28 @@
           href: view-and-understand-call-summary.md
         - name: Monitor call and insight processing
           href: monitor-call-insight-processing.md
-    - name: Sales on mobile
+    - name: Dynamics 365 Sales mobile
       items:
       - name: Overview
         href: sales-mobile/dynamics-365-sales-mobile-app.md
-      - name: Administrator guide
-        items: 
-        - name: Prerequisites for Dynamics 365 Sales mobile
-          href: sales-mobile/prereq-sales-mobile.md
-        - name: Modify quick view forms
-          href: sales-mobile/modify-quick-view-form.md
-        - name: Create custom push notifications
-          href: sales-mobile/create-push-notification.md
-        - name: Configure tables for quick creation of records and activities
-          href: sales-mobile/configure-quick-create.md
-        - name: Configure mobile apps with Microsoft Intune
-          href: sales-mobile/configure-app-intune.md
-      - name: User guide
-        items: 
-        - name: Install the mobile app
-          href: sales-mobile/install-mobile-app.md
-        - name: Use the mobile app
-          href: sales-mobile/use-sales-mobile-app.md
-        - name: Learn the basics
-          href: sales-mobile/learn-basics-mobile-app.md
-        - name: View meetings
-          href: sales-mobile/view-agenda.md
-        - name: Search records
-          href: sales-mobile/search-records.md
-        - name: Manage records
-          href: sales-mobile/open-record.md
-        - name: Manage contacts
-          href: sales-mobile/create-contact.md
-        - name: Manage notes
-          href: sales-mobile/view-edit-add-note.md
-        - name: App settings
-          href: sales-mobile/app-settings.md
+      - name: Install the mobile app
+        href: sales-mobile/install-mobile-app.md
+      - name: Use the mobile app
+        href: sales-mobile/use-sales-mobile-app.md
+      - name: Learn the basics
+        href: sales-mobile/learn-basics-mobile-app.md
+      - name: View meetings
+        href: sales-mobile/view-agenda.md
+      - name: Search records
+        href: sales-mobile/search-records.md
+      - name: Manage records
+        href: sales-mobile/open-record.md
+      - name: Manage contacts
+        href: sales-mobile/create-contact.md
+      - name: Manage notes
+        href: sales-mobile/view-edit-add-note.md
+      - name: App settings
+        href: sales-mobile/app-settings.md
       - name: Use the Sales Hub app on Dynamics 365 for phones and tablets app
         href: use-sales-hub-on-dynamics-365-mobile.md
   - name: Developer guide
