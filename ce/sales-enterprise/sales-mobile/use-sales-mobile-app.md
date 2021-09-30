@@ -1,7 +1,7 @@
 ---
 title: Using the Dynamics 365 Sales mobile app
 description: Instructions for using the Dynamics 365 Sales mobile app
-ms.date: 08/30/2021
+ms.date: 09/29/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -58,7 +58,7 @@ By default, only the production apps are displayed for you to choose from. If yo
 
 4. Go to the **Apps** screen, pull down the screen to refresh and wait for at least a few minutes.
 
-**If you've selected the app to use**
+**If you've selected the app module to use**
 
 1. Sign out from the app.
 
