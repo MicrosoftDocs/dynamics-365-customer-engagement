@@ -58,6 +58,6 @@ Next, [learn how to create your first Community forum](community-forum-setup.md)
 [Community overview](community-overview.md)<br>
 [Create a Community forum](community-forum-setup.md)<br>
 [Content moderation and management](community-moderator-experience.md)<br>
-[Community FAQs](community-faqs)
+[Community FAQs](community-faq.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
