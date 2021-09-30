@@ -42,13 +42,13 @@
       - name: System Settings - Sales
         href: system-settings-sales-tab.md
       - name: Create business units
-        href: /power-platform/admin/create-edit-business-units
+        href: /power-platform/admin/create-edit-business-units?context=/dynamics365/context/sales-context
       - name: Create users and assign security roles
         href: /power-platform/admin/create-users-assign-online-security-roles
       - name: Set up sales territories
         href: /admin/set-up-sales-territories-organize-business-markets-geographical-area
       - name: Add or remove sales territory members
-        href: /power-platform/admin/add-remove-territory-members
+        href: /power-platform/admin/add-remove-territory-members?context=/dynamics365/context/sales-context
       - name: Hierarchy security to control access
         href: /power-platform/admin/hierarchy-security
       - name: Define fiscal and currency settings
