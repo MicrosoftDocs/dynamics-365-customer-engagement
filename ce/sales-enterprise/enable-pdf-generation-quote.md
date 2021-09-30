@@ -33,7 +33,9 @@ The PDF generation capability allows users to generate PDF files directly from D
     2. To filter the list of entities and find a specific entity on which you want to enable PDF generation, use the **Filter by entity name** field. For example, to enable PDF generation on the Opportunity entity, enter **opp** and you'll see the entity name list filtered to show the entity names starting with *opp*.  
 
 5. Select **Save**.
-1. Review the out-of-the-box templates and create new templates as per your requirement. To learn more about creating Word templates, see [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365). 
+    PDF generation is enabled for the selected entities.
+
+1. Review the out-of-the-box templates and create new templates as per your requirement. For more information, see [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365). 
     > [!NOTE]
     > You can't create a PDF file for an entity record if there's no template available for that entity.
 
