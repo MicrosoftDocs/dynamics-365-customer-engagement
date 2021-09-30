@@ -32,11 +32,20 @@ ms.custom:
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
 ### I'm unable to install Community. What should I do?
-To install Community, ensure that you have at least one Dynamics Customer Service Enterprise license in your tenant.
+To install Community, make sure that you have at least one Dynamics Customer Service Enterprise license in your tenant.
 
 ### Is the Community preview release available in all clouds?
 No. The Community preview release is currently only available in the public cloud.
 
 ### How do I contact Dynamics Customer Service for support on Community Preview?
-To post questions for our team, use the Dynamics Customer Service Community forum. 
-To share feedback and ideas for how we can improve Community, use Dynamics Customer Service Ideas forum. Make sure to select “Community” in the category when posting your questions and ideas.
+To post questions for our team, use the [Dynamics Customer Service Community forum](https://go.microsoft.com/fwlink/?linkid=2173735). 
+To share feedback and ideas for how we can improve Community, use the [Dynamics Customer Service Ideas forum](https://go.microsoft.com/fwlink/?linkid=2173736). Make sure to select “Community” in the category when posting your questions and ideas.
+
+### See also
+
+[Community overview](community-overview.md)
+[Get started with Community](community-get-started.md)
+[Create a Community forum](community-forum-setup.md)  
+[Content moderation and management](community-moderator-experience.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
