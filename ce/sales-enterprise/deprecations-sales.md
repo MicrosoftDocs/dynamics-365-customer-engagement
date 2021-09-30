@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-ms.date: 12/18/2020
+ms.date: 09/30/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,7 +33,7 @@ Effective December 2020, Microsoft Internet Explorer 11 support for Microsoft Dy
 
 This will impact customers who use Dynamics 365 and Microsoft Power Platform products that are designed to be used through an Internet Explorer 11 interface. After August 2021, Internet Explorer 11 won't be supported for such Dynamics 365 and Microsoft Power Platform products. We recommend that customers transition to Microsoft Edge. 
 
-For the complete list of products impacted by this change or for information on transitioning from Internet Explorer 11 to a supported browser, see [FAQ: Internet Explorer 11 deprecation for Dynamics 365 and Microsoft Power Platform Products](https://aka.ms/IEsupportDeprecationBAG). If you've questions, contact your Microsoft Customer Service representative or Microsoft Partner.
+If you've questions, contact your Microsoft Customer Service representative or Microsoft Partner.
 
 ## Dynamic 365 Sales bot is deprecated
 
@@ -41,6 +41,7 @@ Effective June 2, 2020, the Dynamics 365 Sales bot, a feature that enables users
 
 It is our goal to deliver a powerful bot experience that allows users to retrieve and manage information. Based on usage data and feedback from our customers, we'll be working on a powerful, extensible set of capabilities and features that will allow you to intuitively access and interact with sales information—among other entities—through a bot interface. We'll keep you updated on timing for when this will be available.
 
+For more information on other deprecations that impact Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](power-platform/important-changes-coming) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
