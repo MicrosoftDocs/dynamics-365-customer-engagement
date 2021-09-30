@@ -50,3 +50,5 @@ To install Dynamics 365 Customer Service Community (Preview):
 5.	Enter a **Name** and **Address**. The address is your Community portal URL.
 6.	Select **Create**. Portal provisioning typically takes a few minutes, and then when it completes, it's displayed in the **Installed apps** list. 
 When your Modern Community Portal has been created, you can view the Community home page, by going to https://&lt;Name&gt;.powerappsportals.com/d365community. 
+
+Next learn how to create your first Community forum.
