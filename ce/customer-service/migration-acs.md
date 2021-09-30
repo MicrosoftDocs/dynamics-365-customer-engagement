@@ -10,7 +10,7 @@ manager: shujoshi
 
 The Dynamics 365 Omnichannel for Customer Service team will be rolling out a new messaging platform enhancement in phases over the next few months. A new Azure Bot Service channel will be released that'll help extend the existing bot integration capabilities for the messaging channels. While the platform changes will be released in November 2021, the updates will get automatically applied between January and March, 2022.
 
-To ensure that you have a smooth transition, here are the set of changes you'll need to make to your Omnichannel implementations before January 2022.
+To ensure that you have a smooth transition, here are the set of changes you'll need to make to your omnichannel implementations before January 2022.
 > [!Note]
 > These changes can be applied anytime and will not impact your existing omnichannel experience. Microsoft will work with you to help you navigate and test the changes so you have a smooth transition by January 2022.
 
