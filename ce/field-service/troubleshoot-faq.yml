@@ -159,12 +159,12 @@ sections:
           5.  Find any relationships where the **Type of Behavior** is *Referential, Restrict Delete*.
           6.  Take note of the related entity for each of those relationships; these are the type of records that may be restricting your ability to delete the record.
 
+      - question: |
+          Where are the **Date Windows Start** and **Date Window End** fields? 
+        answer: |
+          As of the 2021 Wave 2 October update, the **Date Window Start** and **Date Window End** fields have been removed to simplify the expereince. Use the **Time From Promised** and **Time To Promised** fields to manage time expecations for when service should be performed. To revert this change, see the **Pre/Post Booking Flexibility Date Field Population** setting in the [Agreements section of Field Service settings](/dynamics365/field-service/configure-default-settings#agreement).  
+
+
                     
           [!INCLUDE[footer-include](../includes/footer-banner.md)]
-      - question: |
-          Where are the Date Windows Start and Date Window End fields? 
-        answer: |
-          As of the Wave 2 October 2021 Field Service update, the "Date Window Start" and "Date Window End" fields have been removed to simplify the expereince.  Instead users are encouraged to use the "Time From Promised" and "Time To Promised" fields to manage time expecations for when service should be performed. To revert this change, see the "Pre/Post Booking Flexibility Date Field Population" setting in the [Agreements section of Field Service Settings](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#agreement).  
-
-
           
