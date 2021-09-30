@@ -77,7 +77,7 @@ If your organization is using a URL filter to block a category of websites or UR
 - `https://login.windows.net`
 - `https://*.teams.microsoft.com`
 - `https://ecs.office.com`
-- `https://*.skype.com`
+- `https://*.skype.com/*`
 - `https://browser.pipe.aria.microsoft.com`
 - `https://plat.teams.microsoft.com`
 - `https://aad.skypetoken.skype.com`
@@ -103,7 +103,7 @@ Customers must be able to access the following URLs from their browsers to use t
 - `https://*.communication.azure.com`
 - `https://*.teams.microsoft.com`
 - `https://ecs.office.com`
-- `https://*.skype.com`
+- `https://*.skype.com/*`
 - `https://browser.pipe.aria.microsoft.com`
 - `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
 - `https://cdn.botframework.com/botframework-webchat`
