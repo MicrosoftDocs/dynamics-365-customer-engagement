@@ -38,7 +38,7 @@ ms.custom:
 
 To install Dynamics 365 Customer Service Community (Preview):
 
-1.	Go to the [Microsoft AppSource Dynamics 365 Customer Service Community (Preview)** download page](https://appsource.microsoft.com/product/dynamics-365/mscrm.dynamics365_community-preview?flightCodes=secretideas).
+1.	Go to the [Microsoft AppSource Dynamics 365 Customer Service Community (Preview)** download page](https://go.microsoft.com/fwlink/?linkid=2172691).
 2.	Select **Get it now**, and then sign in with your Dynamics System Admin account. 
 3.	Select the environment where you want to install Customer Service Community (Preview), accept the terms, and select **Install**.
 
@@ -51,4 +51,12 @@ To install Dynamics 365 Customer Service Community (Preview):
 6.	Select **Create**. Portal provisioning typically takes a few minutes, and then when it completes, it's displayed in the **Installed apps** list. 
 When your Modern Community Portal has been created, you can view the Community home page, by going to https://&lt;Name&gt;.powerappsportals.com/d365community. 
 
-Next learn how to create your first Community forum.
+Next, [learn how to create your first Community forum](community-forum-setup.md).
+
+### See also
+
+[Community overview](community-overview.md)  
+[Create a Community forum](community-forum-setup.md)  
+[Content moderation and management](community-moderator-experience.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
