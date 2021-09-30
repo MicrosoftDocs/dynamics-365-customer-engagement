@@ -39,4 +39,4 @@ No. The Community preview release is currently only available in the public clou
 
 ### How do I contact Dynamics Customer Service for support on Community Preview?
 To post questions for our team, use the Dynamics Customer Service Community forum. 
-To share feedback and ideas for how we can improve Community, use Dynamics Customer Service Ideas forum. Make sure to select “Community” in the category before posting your questions and ideas.
+To share feedback and ideas for how we can improve Community, use Dynamics Customer Service Ideas forum. Make sure to select “Community” in the category when posting your questions and ideas.
