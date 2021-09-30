@@ -65,7 +65,7 @@ Your bot is now registered with Omnichannel for Customer Service.
 
 A bot user is created as an application user and assigned with the **Omnichannel agent** role. 
 
-To create a bot user:
+**To create a bot user**
 
 1. Open Omnichannel admin center and go to **Advanced Settings** > **Security** > **Users**.
 
