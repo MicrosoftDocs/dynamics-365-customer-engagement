@@ -1,14 +1,14 @@
 ---
-title: "Macros in the Customer Service workspace and Omnichannel Administration app | MicrosoftDocs"
+title: "Macros in the Customer Service workspace app | MicrosoftDocs"
 description: "This topic provides information about the different macros that can be made available to agents and how to configure them in app profile manager."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/13/2021
+ms.date: 10/01/2021
 ms.topic: article
 ---
 
-# Automate tasks with macros 
+# Automate tasks with macros
 
 ## Overview of macros
 
@@ -30,7 +30,7 @@ The value propositions of the macros are as follows:
 
 - Create contextual and reusable macros.
 
-The macros in Omnichannel for Customer Service have the following:
+The macros in Customer Service workspace have the following:
 
 - [Predefined automation actions](#predefined-automation-actions)
 - [Built-in](#built-in)
@@ -193,13 +193,15 @@ This action is used for cloning an existing record. The action only copies the f
 
 ### Session connector
 
-As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to a session in Omnichannel for Customer Service.
+As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to a session in Customer Service workspace.
 
-> [!NOTE]
-> Macro actions for the session connector can't be used in Customer Service workspace.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions for session connector.](../customer-service/media/macro-session-connector.png "Macro actions for session connector")
+
+#### Get the current tab
+
+This action is used to get the details of the current tab in Omnichannel for Customer Service. The get current tab action retrieves the Tab ID that could be used in the **Refresh tab** and **Focus tab** actions.
 
 #### Open application tab
 
@@ -213,9 +215,13 @@ This action is used to open the specified application in a new tab with the attr
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
    |||
 
+#### Refresh the session context (preview)
+
+This action is used to refresh the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables will be defined when the session starts. However, if you update the case title, the session context will not be updated. Therefore, macros will use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
+
 #### Refresh the tab
 
-This action is used to refresh a tab in the Omnichannel for Customer Service session. This action contains the following field.
+This action is used to refresh a tab in the Customer Service workspace session. This action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -224,23 +230,21 @@ This action is used to refresh a tab in the Omnichannel for Customer Service ses
 
 #### Focus on the tab
 
-This action is used to focus on a tab in the Omnichannel for Customer Service session. This action contains the following field.
+This action is used to focus on a tab in the Customer Service workspace session. This action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
    | Tab ID | Specify the ID of the tab that you want to give focus to. <br> This is a mandatory field.|
    |||
 
-#### Get the current tab
 
-This action is used to get the details of the current tab in Omnichannel for Customer Service. The get current tab action retrieves the Tab ID that could be used in the **Refresh tab** and **Focus tab** actions.
 
 ### Omnichannel connector
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
 > [!NOTE]
-> Macro actions for the Omnichannel connector is available if Omnichannel for Customer Service is installed.
+> Macro actions for the Omnichannel connector is available if Customer Service workspace if Omnichannel for Customer Service is installed.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions for Omnichannel connector.](../customer-service/media/macro-omnichannel-connector.png "Macro actions Omnichannel connector")
