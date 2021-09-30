@@ -25,35 +25,35 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
 ### Meet buyers where they are
 
 - **Know the exact customer to engage**: Shorten the sales cycle with a single workspace that has everything that sellers need to engage the right customer, stay focused, maximize productivity. More information:    
-    | | |
+    | For | Reference links|
     |-----------|----------|
-    | For administrator | [Configure the sales accelerator](enable-configure-sales-accelerator.md) |
-    | For seller | [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) |
+    | Administrator | [Configure the sales accelerator](enable-configure-sales-accelerator.md) |
+    | Seller | [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) |
     |||
 - **Complete the next best activity**: Help sellers focus by giving them clear and achievable sales activities, prioritized through artificial intelligence (AI) and predictive scoring. More information: 
-    | | |
+    | For | Reference links|
     |-----------|----------|
-    | For administrator | - [Configure predictive lead scoring](configure-predictive-lead-scoring.md)<br>- [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md) |
-    | For seller | - [Prioritize leads through scores](work-predictive-lead-scoring.md) <br>- [Prioritize opportunity through scores](work-predictive-opportunity-scoring.md) |
+    | Administrator | - [Configure predictive lead scoring](configure-predictive-lead-scoring.md)<br>- [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md) |
+    | Seller | - [Prioritize leads through scores](work-predictive-lead-scoring.md) <br>- [Prioritize opportunity through scores](work-predictive-opportunity-scoring.md) |
     |||    
 - **Communicate with effective call techniques**: Converse with empathy by employing AI-powered conversation intelligence to detect customer emotion, sentiment, and priorities. More information:    
-    | | |
+    | For | Reference links|
     |-----------|----------|
-    | For administrator | [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md) |
-    | For seller | [View and understand call summary page](view-and-understand-call-summary.md) |
+    | Administrator | [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md) |
+    | Seller | [View and understand call summary page](view-and-understand-call-summary.md) |
     |||
 - **Connect across channels**: Streamline selling with integrated multichannel communications such as, soft phone dialer, Microsoft Teams dialer, and email templates. More information: 
-    | | |
+    | For | Reference links|
     |-----------|----------|
-    | For administrator | - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)<br>- [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)<br>- [Set up enhanced email](set-up-enhanced-email) |
-    | For seller | - [Call a customer](connect-with-customers.md#call-a-customer)<br>- [Send email using the enhanced email experience](enhanced-email.md) |
+    | Administrator | - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)<br>- [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)<br>- [Set up enhanced email](set-up-enhanced-email) |
+    | Seller | - [Call a customer](connect-with-customers.md#call-a-customer)<br>- [Send email using the enhanced email experience](enhanced-email.md) |
     |||
         
 - **Meet and collaborate virtually**: Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data. More information:
-    | | |
+    | For | Reference links|
     |-----------|----------|
-    | For administrator | [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)  |
-    | For seller | [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
+    | Administrator | [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)  |
+    | Seller | [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
     |||    
 - **Gather and act on customer feedback**: See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. More information: [Dynamics 365 Customer Voice documentation](/customer-voice/help-hub).
 
@@ -88,6 +88,28 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
 - **Quickly create custom applications**: Extend and adapt the solution with Microsoft Power Platform, including Power Apps and Power Automate, to create custom applications and orchestrate workflows to optimize revenue generation.    
 
 
+
+Assistant
+- Administrator: [Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)
+- Seller: [Use the assistant to guide customer communications](assistant.md)
+
+Relationship analytics and health
+- Administrator: [Configure relationship analytics and health](configure-relationship-analytics.md)
+- Seller: [Use relationship analytics to gather KPIs](relationship-analytics.md)
+
+Talking points 
+- Administrator: [Configure talking points](configure-talking-points.md)
+- Seller: [Know conversation starters for your customers](talking-points.md)
+
+Who knows whom
+- Administrator: [Configure Who knows whom](configure-who-knows-whom.md)
+- Seller: [Get introduced to a lead](who-knows-whom.md) 
+
+Conversation intelligence
+- Administrator: [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md)
+- Seller: [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md) 
+
+
 ## Different sales solutions for different size of businesses
 
 Here are the multiple sales solutions that fit every type and size of business: 
@@ -104,7 +126,20 @@ The Sales app is designed for the legacy web client and is the full-featured, de
 
 ### Dynamics 365 Sales Premium
 
+Sales premium continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
 
+When you subscribe to Dynamics 365 Sales Premium, you get the following capabilities along with Dynamics 365 Sales Enterprise capabilities:    
+- **Guided selling**: Guide sellers on their next course of action with timely and actionable insights. You can achieve this through the Sales accelerator feature.
+- **Relationship intelligence**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
+    - Assistant
+    - Relationship analytics and health
+    - Talking points 
+    - Who knows whom
+    - Conversation intelligence
+- **Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
+    - Predictive lead scoring    
+    - Predictive opportunity scoring   
+    - Predictive forecasting  
 
 ### Microsoft Relationship Sales
 
@@ -117,55 +152,6 @@ The Sales Professional app is similar to the Sales Hub app, but the entities inc
   > [!NOTE]
   > For mobile devices, you'll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
-
-
-
-
-
-
-
-
-Sales premium continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
-
-When you subscribe to Dynamics 365 Sales Premium, the following capabilities are available in the Sales Hub app:    
-#### Guided selling   
-Guide sellers on their next course of action with timely and actionable insights. The following feature is available:    
-
-#### Relationship intelligence   
-Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
-- **Assistant**
-    - Administrator: [Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)
-    - Seller: [Use the assistant to guide customer communications](assistant.md)
-- **Relationship analytics and health**
-    - Administrator: [Configure relationship analytics and health](configure-relationship-analytics.md)
-    - Seller: [Use relationship analytics to gather KPIs](relationship-analytics.md)
-- **Talking points** 
-    - Administrator: [Configure talking points](configure-talking-points.md)
-    - Seller: [Know conversation starters for your customers](talking-points.md)
-- **Who knows whom**
-    - Administrator: [Configure Who knows whom](configure-who-knows-whom.md)
-    - Seller: [Get introduced to a lead](who-knows-whom.md) 
- - **Conversation intelligence**
-    - Administrator: [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md)
-    - Seller: [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md) 
-#### Predictive models    
-Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
-- **Predictive lead scoring**    
-    - Administrator: [Configure predictive lead scoring](configure-predictive-lead-scoring.md)
-    - Seller:   
-- **Predictive opportunity scoring**   
-    - Administrator: [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
-    - Seller:  
-
-### Sales Enterprise
-
-
-
-### Sales Professional
-
-
-
- 
 
 ## Integrations
 
