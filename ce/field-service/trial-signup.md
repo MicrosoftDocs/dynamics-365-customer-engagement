@@ -1,6 +1,6 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Field Service | Microsoft Docs"
-description: "Learn how to quickly sign up for and start a free Dynamics 365 Field Service trial. Explore the app with tours and videos, and find additional learning resources."
+description: "Learn how to quickly sign up for and start a free Dynamics 365 Field Service trial. Explore the app with tours and videos, and find other learning resources."
 author: FieldServiceDave
 ms.author: daclar
 ms.date: 10/01/2021
@@ -19,7 +19,6 @@ Dynamics 365 Dynamics 365 Field Service offers a free 30-day trial. After a quic
 1. Go to the [trial overview page](https://dynamics.microsoft.com/get-started/?appname=fieldservice) and select the **Try for free** button.
 2. Follow the onscreen guidance to enter an email and use an existing account or create an account.
 
-
 The trial takes a few moments to load, then you can start using the app.
 
 ## What to try
@@ -27,6 +26,22 @@ The trial takes a few moments to load, then you can start using the app.
 Your trial environment includes many of the same features as the paid version. The links below guide you through some of the key features.
 
 - [Get started](field-service-get-started.md)
+
+### Features included in the trial
+
+The trial comes with guided tours and videos that highlight key product features for you to try. When the trial is ready, you can:
+
+- Follow the guided tours on the Get started page to learn how Field Service can help your business schedule work intelligently and deliver proactive service using smart device alerts. 
+
+- Download the mobile app and follow the guided tour to learn how your frontline workers can use the app to manage their day and increase their first-time fix rate.  
+
+- Watch tutorials on how to easily set up your frontline workers and customer accounts, create and schedule work orders, and analyze your field service operations, so you can see how Field Service works with your own business data. 
+
+### Configuration considerations to get the most out of the trial
+
+- We provide a glimpse of how Connected Field Service can help you deliver proactive service using smart device alerts. We have included sample IoT device data in the trial; however, to fully experience Connected Field Service for your business, you must configure Azure IOT Hub or Azure IoT Central.
+
+- You must configure the Field Service customer portal in order to experience the self-scheduling and technician tracking features that Field Service can provide your customers.  
 
 ## Additional resources
 
