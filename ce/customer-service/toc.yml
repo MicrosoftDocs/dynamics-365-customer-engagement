@@ -936,7 +936,7 @@
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
-    - name: Migrate Azure Communication Services
+    - name: Migration changes for new Azure Bot Service channel
       href: migrate-acs.md
     - name: Migrate service scheduling
       items: 
