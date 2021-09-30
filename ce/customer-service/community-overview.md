@@ -60,8 +60,3 @@ This installation lets your end users do the following tasks:
 [Community FAQs](community-faqs)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-
