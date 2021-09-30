@@ -67,7 +67,7 @@ The table in the **Agent insights** report displays the following information.
 Wrap-up | The total number of conversations in the wrap-up stage. |
 | Closed | The number of conversations that are closed. |
 | Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
-| Email ID | The email address of the agent who is handling the conversation; the email address should be unique so that the agent filter works as expected. |
+| Email ID | The email address of the agent handling the conversation; the email address should be unique so that the agent filter works as expected. |
 
 
 > [!div class="mx-imgBorder"]
