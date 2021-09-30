@@ -19,7 +19,7 @@ To ensure that you have a smooth transition, here are the set of changes you'll 
 - If you're using the Omnichannel Chat SDK to customize the live chat widget for mobile apps, then be sure to download the latest version of the SDK package. More information: [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
 
 - If you're integrating an Azure bot, then you must connect and register your bot with the new Omnichannel for Customer Service channel. More information: [Integrate Azure bot](configure-bot.md)
-
-> [!Note]
-> If you're using a Power Virtual Agents bot or Azure Health Bot, then these changes will be automatically applied, and you don't need to take any action.
+    
+    > [!Note]
+    > If you're using a Power Virtual Agents bot or Azure Health Bot, then these changes will be automatically applied, and you don't need to take any action.
 
