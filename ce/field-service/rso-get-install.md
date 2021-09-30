@@ -19,15 +19,7 @@ search.app:
 
 # Get Resource Scheduling Optimization
 
-There are two ways to get Resource Scheduling Optimization:
-
-- Buy a Resource Scheduling Optimization license
-- Request a trial from your local Microsoft representative
-
-
-# Buy a Resource Scheduling Optimization license
-
-In order to get access to Resource Scheduling Optimization, you must first have access to Field Service. If you already have Field Service installed, skip to step 4.   
+In order to purchase access to Resource Scheduling Optimization, you must first have access to Field Service. If you already have Field Service installed, skip to step 4.   
 
 1. Purchase Field Service. Go to the **Microsoft 365 Admin Center** > **Billing > Purchase Services**.
    
@@ -38,7 +30,6 @@ In order to get access to Resource Scheduling Optimization, you must first have 
    - Go to **Admin Centers** > **Dynamics 365** > **Instances**.
    - Select your instance and choose **Solutions**.
    - Select Field Service and choose install.
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 admin center on the Instances tab.](./media/admin-install-fs-instances.png)
