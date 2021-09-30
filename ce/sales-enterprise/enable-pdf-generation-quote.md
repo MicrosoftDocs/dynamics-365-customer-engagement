@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable PDF generation from records-Sales Enterprise | MicrosoftDocs"
 description: "Enable your users to create and share professional-looking PDF files for entity records with customers."
-ms.date: 10/28/2020
+ms.date: 09/30/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,6 +33,11 @@ The PDF generation capability allows users to generate PDF files directly from D
     2. To filter the list of entities and find a specific entity on which you want to enable PDF generation, use the **Filter by entity name** field. For example, to enable PDF generation on the Opportunity entity, enter **opp** and you'll see the entity name list filtered to show the entity names starting with *opp*.  
 
 5. Select **Save**.
+    PDF generation is enabled for the selected entities.
+
+1. Review the out-of-the-box templates and create new templates as per your requirement. For more information, see [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365). 
+    > [!NOTE]
+    > You can't create a PDF file for an entity record if there's no template available for that entity.
 
 After you enable PDF generation, sellers will be able to generate a PDF, download it to their local computer, save it to Dynamics 365 as Notes or save it to SharePoint. 
 
@@ -53,7 +58,7 @@ If you're using Dynamics 365 for phones on a mobile device, you can enable the c
 4. On the **Convert to PDF** page, set the entity toggle to **Enabled** or **Disabled**. For example, if you want to enable PDF generation on Opportunity records, set the **Opportunity** toggle to **Enabled**.  
 
     > [!div class="mx-imgBorder"]    
-    > ![Convert to PDF settings.](media/convert-to-pdf-setting.png "Convert to PDF settings")
+    > ![Convert to PDF settings on mobile.](media/convert-to-pdf-setting.png "Convert to PDF settings on mobile")
 
 5. Select **Save**.
 
