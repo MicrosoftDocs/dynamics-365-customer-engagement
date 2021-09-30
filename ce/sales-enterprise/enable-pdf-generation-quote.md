@@ -29,7 +29,7 @@ The PDF generation capability allows users to generate PDF files directly from D
     > [!div class="mx-imgBorder"]
     > ![Convert to PDF settings.](media/convert-to-pdf-setting-enhanced.png "Convert to PDF settings")
 
-    1. To see only the entities on which PDF generation is currently enabled, set the **Show only enabled entities** option to **Yes**.  
+    1. To see only the entities on which PDF generation is currently enabled, turn the **Show only enabled entities** toggle to **Yes**.  
     2. To filter the list of entities and find a specific entity on which you want to enable PDF generation, use the **Filter by entity name** field. For example, to enable PDF generation on the Opportunity entity, enter **opp** and you'll see the entity name list filtered to show the entity names starting with *opp*.  
 
 5. Select **Save**.
