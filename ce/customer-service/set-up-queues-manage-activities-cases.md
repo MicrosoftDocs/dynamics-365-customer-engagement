@@ -92,7 +92,7 @@ To create or edit a queue:
   
         > [!NOTE]
         >  The email address that you enter in the **Incoming Email** field receives all messages sent to the queue.  
-      - Write a description in the **Description** field.
+      - Enter a description in the **Description** field.
   
    - In the **EMAIL SETTINGS** section, in the **Convert to email activities** dropdown list, select a value depending on the type of messages that you want to track as activities.
   
