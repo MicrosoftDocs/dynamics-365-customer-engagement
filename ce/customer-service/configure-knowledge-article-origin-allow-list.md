@@ -1,5 +1,5 @@
 ---
-title: Configure the origins allow list | MicrosoftDocs
+title: Configure origins allow list | MicrosoftDocs
 description: Learn how to configure safe links while authoring knowledge articles in Dynamics 365 Customer Service
 ms.date: 09/28/2021
 ms.topic: article
@@ -15,22 +15,20 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure the origins allow list for knowledge articles
+# Configure origins allow list for knowledge articles
 
 ## Introduction
 
-You can configure the origins allow list feature to ensure that knowledge authors add only safe links to their knowledge articles.
+You can configure origins allow list to ensure that knowledge authors add only safe links to their knowledge articles.
 
 > [!IMPORTANT]
-> The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number, for example, https://www.contoso.com, https://www.contoso.com:443. Knowledge authors must use only an exact match of these links in their articles.
+> The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number. For example, https://www.contoso.com, https://www.contoso.com:443 are supported origins. Knowledge authors must use only links with origin links as specified in the supported origins list.
 
-After you've enabled this feature and knowledge authors add links other than the supported origins or the exact match of links while creating articles, an error message will be displayed for links that are hosted within an iframe. For example, if you add https://www.contoso.com and knowledge authors use https://contoso.com in the articles, the links will be broken and an error will be seen.
+After you've enabled this feature, while creating knowledge articles, if knowledge authors add links whose origin links do not match any of the links specified in the origins list, an error message will be displayed for links that are hosted within an iframe. For example, if you add https://www.contoso.com in the origins list, knowledge authors can use https://www.contoso.com/about or https://www.contoso.com/overview. But if they use https://contoso.com/about or https://contoso.com/overview in the articles, the links will be broken, and an error message will be displayed. Also, in the **Content** field on the knowledge article form, knowledge authors will see the following message: "Update your origins allow list if any iframe in the article doesn't work or displays error."
 
-In the **Content** field on the knowledge article form, knowledge authors will see the following message: "Update your origins allow list if any iframe in the article doesn't work or displays error."
+After the feature is enabled, for published articles, agents and portal users will see an error message in the article for the links that are hosted within an iframe. In such cases, you must update the origins list so that all the existing iframe links will continue to work.
 
-For published articles, agents and portal users will see an error in the article for the links that are hosted within an iframe. You must update the origins list so that all the existing iframe links will continue to work.
-
-## Configure the origins allow list
+## Configure origins allow list
 
 1. Sign in to Customer Service Hub.
 
