@@ -13,11 +13,13 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 ## Introduction
 
-With the introduction of Unified Routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Business administrators and supervisors need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
+With the introduction of Unified Routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
-## Unified routing in Omnichannel for Customer Service
+## Unified routing in Omnichannel historical analytics
 
-The Unified routing report appears as a tab in the Customer Service historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Omnichannel admin center. You can access the report in the Customer Service workspace or Omnichannel for Customer Service app, by selecting the plus (+) icon, and then selecting Customer Service historical analytics.
+The Unified routing report provides routing-specific KPIs and metrics that can be used by supervisors and administrators to track the success of their routing strategy. They can also track the incorrectly routed work items and configurations and correct them to improve the routing effectiveness and thereby customer satisfaction.
+
+The report appears as a tab in the Omnichannel historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Omnichannel admin center. You can access the report in the Customer Service workspace or Omnichannel for Customer Service app, by selecting the plus (+) icon, and then selecting Customer Service historical analytics.
 
 :::image type="content" source="media/oc-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Omnichannel for Customer Service.":::
 
@@ -35,10 +37,10 @@ The unified routing report displays the following metrics for the selected filte
 |Metric  |Description  |Derivation  |
 |---------|---------|---------|
 |Incoming conversations     | The number of conversations initiated by the customer that can be presented to a human agent.        | All conversations, except bot conversations, are considered.        |
-|Routed conversations     | The total number of incoming conversations that have been routed.        |         |
+|Routed conversations     | The total number of incoming conversations that have been routed successfully.        |         |
 |Incoming sessions     | The total number of sessions that were created.        |         |
 |Session transfer rate     | The percentage of incoming sessions that were transferred to another agent or queue.         |         |
-|Incoming conversations VS. routed conversations     | The number of conversations initiated by the customer versus the number of conversations that were routed.      |         |
+|Incoming conversations VS. routed conversations     | The number of conversations initiated by the customer versus the number of conversations that were routed successfully.      |         |
 |Session transfer rate trend     | The day wise trend of session transfer rate.        |         |
 |Top 5 Skills demanded     | The top five skills required by the incoming conversations.        |         |
 ||||

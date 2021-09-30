@@ -13,13 +13,15 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 ## Introduction
 
-With the introduction of Unified Routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Business administrators and supervisors need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
+With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
 In Customer Service, the report displays metrics pertaining to only those records that are routed using unified routing.
 
-## Unified routing in Customer Service
+## Unified routing in Customer Service historical analytics
 
-The Unified routing report appears as a tab in the Customer Service historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Customer Service Hub. You can access the report in Service. In the site map, select **Customer Service historical analytics**, and then select **Unified routing**.
+The Unified routing report provides routing-specific KPIs and metrics that can be used by supervisors and administrators to track the success of their routing strategy. They can also track the incorrectly routed work items and configurations and correct them to improve the routing effectiveness and thereby customer satisfaction.
+
+The report appears as a tab in the Customer Service historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Customer Service Hub. You can access the report in Service. In the site map, select **Customer Service historical analytics**, and then select **Unified routing**.
 
 :::image type="content" source="media/cs-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Customer Service.":::
 
@@ -34,13 +36,13 @@ The unified routing report displays the following metrics.
 
 |Metric  |Description  |Derivation  |
 |---------|---------|---------|
-|Records routed     | Number of records that were successfully routed.        |         |
-|Routing attempts     | Number of records that were attempted to be routed.        |         |
+|Records routed     | Number of records that were routed.        |         |
+|Routing attempts     | Number of routing attempts across records routed.        |         |
 |First route success     | Number of records that were successfully routed in the first attempt.       |         |
 |Records transfer rate|The percentage of records that were transferred to another agent or queue.||
 |Records routed    | Day wise view of records that have been routed.        |         |
-|Transfer rate trend     | Day wise view of transfer rate of records.        |         |
-|Top 5 skills demanded     |  Top five skills required by the routed records.        |         |
+|Transfer rate trend     | Percentage of sessions transferred out of the total sessions for the records routed.        |         |
+|Top 5 skills needed     |  Top five skills required by the routed records.        |         |
 | | | |
 
 The **Routing metrics by queue** table displays data on the routed records and transfer rate for each queue. You can select a queue, and then select **Details** to view the detailed KPIs for it.

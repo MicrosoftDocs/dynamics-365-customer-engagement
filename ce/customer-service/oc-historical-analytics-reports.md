@@ -39,7 +39,7 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 
 5. Select **Save** or **Save & Close**.
 
-This configuration will also enable AI-discovered topics from conversations with default settings.
+This configuration will also enable AI-discovered topics from conversations with default settings and historical analytics for unified routing.
 
 ## Enable Historical analytics for unified routing in Omnichannel for Customer Service
 
@@ -52,6 +52,8 @@ You can enable historical analytics for unified routing on the **Insights** page
 1. On the **Insights** page, select **Manage** for **Historical analytics for unified routing**.
 2. On the **Historical analytics for unified routing** page, set the **Status** toggle to enabled.
 3. Save and close.
+
+The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
 
 ### View Omnichannel historical analytics reports
 
