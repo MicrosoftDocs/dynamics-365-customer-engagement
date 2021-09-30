@@ -31,6 +31,7 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
     | Administrator | [Configure the sales accelerator](enable-configure-sales-accelerator.md) |
     | Seller | [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) |
     |||
+
 - **Complete the next best activity**: Help sellers focus by giving them clear and achievable sales activities, prioritized through artificial intelligence (AI) and predictive scoring. More information: 
 
     | For | Reference links|
@@ -38,6 +39,7 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
     | Administrator | - [Configure predictive lead scoring](configure-predictive-lead-scoring.md)<br>- [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md) |
     | Seller | - [Prioritize leads through scores](work-predictive-lead-scoring.md) <br>- [Prioritize opportunity through scores](work-predictive-opportunity-scoring.md) |
     |||    
+
 - **Communicate with effective call techniques**: Converse with empathy by employing AI-powered conversation intelligence to detect customer emotion, sentiment, and priorities. More information:    
 
     | For | Reference links|
@@ -45,6 +47,7 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
     | Administrator | [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md) |
     | Seller | [View and understand call summary page](view-and-understand-call-summary.md) |
     |||
+
 - **Connect across channels**: Streamline selling with integrated multichannel communications such as, soft phone dialer, Microsoft Teams dialer, and email templates. More information: 
 
     | For | Reference links|
@@ -60,6 +63,7 @@ Shift to digital selling with prebuilt intelligence and equip sales teams with a
     | Administrator | [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)  |
     | Seller | [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
     |||    
+
 - **Gather and act on customer feedback**: See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. More information: [Dynamics 365 Customer Voice documentation](/customer-voice/help-hub).
 
 
