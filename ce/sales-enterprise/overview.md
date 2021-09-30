@@ -206,7 +206,7 @@ Here are the sales solutions that fit every type and size of business:
 - **Sales Professional** - Ideal for small enterprises that need a sales automation solution. [[Sales Professional](#tab/spro)](#sales-professionaltabspro)
 
 > [!TIP]
-> To know the capabilities available in each solution, see the [Sales comparison chart](sales-comparison-chart.md).
+> To know the capabilities available in each solution, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
 
 ### Dynamics 365 Sales Enterprise
