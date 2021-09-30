@@ -56,7 +56,7 @@ If you're using Dynamics 365 for phones on a mobile device, you can enable the c
 4. On the **Convert to PDF** page, set the entity toggle to **Enabled** or **Disabled**. For example, if you want to enable PDF generation on Opportunity records, set the **Opportunity** toggle to **Enabled**.  
 
     > [!div class="mx-imgBorder"]    
-    > ![Convert to PDF settings.](media/convert-to-pdf-setting.png "Convert to PDF settings")
+    > ![Convert to PDF settings on mobile.](media/convert-to-pdf-setting.png "Convert to PDF settings on mobile")
 
 5. Select **Save**.
 
