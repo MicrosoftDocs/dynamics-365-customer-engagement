@@ -34,12 +34,12 @@ ms.custom:
 
 Forum owners and moderators will use Customer Service Community to manage and moderate content. 
 They can do the following tasks:
-•	Edit a forum's name and description.
-•	Edit the idea name and description, and update fields including category, group, and stage.
-•	Add a new moderator response to idea.
-•	Manage comments, including adding a moderator response to comment and manage comment flags.
-•	Manage idea votes.
-•	Manage idea flags.
+-	Edit a forum's name and description.
+-	Edit the idea name and description, and update fields including category, group, and stage.
+-	Add a new moderator response to idea.
+- Manage comments, including adding a moderator response to comment and manage comment flags.
+- Manage idea votes.
+- Manage idea flags.
 
 To update idea fields:
 1. Navigate to the forum, select the **Ideas** tab, and then select the idea you want to edit.
@@ -63,3 +63,13 @@ Follow these steps to create a collection:
 6. You can optionally select the **Stage**, **Category**, and **Group**, and then select **Next**.
 7. Confirm the details are correct, and then select **Next**.
 8. Wait for the status to change from **In-progress** to **Success**. You can refresh the page to get the latest status.
+
+### See also
+
+[Community overview](community-overview.md)
+[Get started with Community](community-get-started.md)
+[Create a Community forum](community-forum-setup.md)  
+[Community FAQs](community-faqs)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
