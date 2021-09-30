@@ -49,8 +49,4 @@ To install Dynamics 365 Customer Service Community (Preview):
 4.	Select **Modern Community (Preview)**.
 5.	Enter a **Name** and **Address**. The address is your Community portal URL.
 6.	Select **Create**. Portal provisioning typically takes a few minutes, and then when it completes, it's displayed in the **Installed apps** list. 
-7.	Select **Convert** to convert to a production portal. Converting the portal to production avoids its suspension in 30 days. The conversion typically takes a a few minutes to complete.
-
 When your Modern Community Portal has been created, you can view the Community home page, by going to https://&lt;name&gt;.powerappsportals.com/d365community. 
-
-For information on how to change your portal DNS, see [Add a custom domain name](https://docs.microsoft.com/powerapps/maker/portals/admin/add-custom-domain).
