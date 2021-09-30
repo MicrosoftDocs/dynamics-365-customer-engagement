@@ -18,6 +18,76 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. It also lets you create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities.     
 [!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
+## Dynamics 365 Sales capabilities
+
+Shift to digital selling with prebuilt intelligence and equip sales teams with adaptive guidance to better serve customers. Let's look at the capabilities in detail:
+
+### Meet buyers where they are
+
+- **Know the exact customer to engage**: Shorten the sales cycle with a single workspace that has everything that sellers need to engage the right customer, stay focused, maximize productivity. More information:    
+    | | |
+    |-----------|----------|
+    | For administrator | [Configure the sales accelerator](enable-configure-sales-accelerator.md) |
+    | For seller | [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) |
+    |||
+- **Complete the next best activity**: Help sellers focus by giving them clear and achievable sales activities, prioritized through artificial intelligence (AI) and predictive scoring. More information: 
+    | | |
+    |-----------|----------|
+    | For administrator | - [Configure predictive lead scoring](configure-predictive-lead-scoring.md)<br>- [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md) |
+    | For seller | - [Prioritize leads through scores](work-predictive-lead-scoring.md) <br>- [Prioritize opportunity through scores](work-predictive-opportunity-scoring.md) |
+    |||    
+- **Communicate with effective call techniques**: Converse with empathy by employing AI-powered conversation intelligence to detect customer emotion, sentiment, and priorities. More information:    
+    | | |
+    |-----------|----------|
+    | For administrator | [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md) |
+    | For seller | [View and understand call summary page](view-and-understand-call-summary.md) |
+    |||
+- **Connect across channels**: Streamline selling with integrated multichannel communications such as, soft phone dialer, Microsoft Teams dialer, and email templates. More information: 
+    | | |
+    |-----------|----------|
+    | For administrator | - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)<br>- [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)<br>- [Set up enhanced email](set-up-enhanced-email) |
+    | For seller | - [Call a customer](connect-with-customers.md#call-a-customer)<br>- [Send email using the enhanced email experience](enhanced-email.md) |
+    |||
+        
+- **Meet and collaborate virtually**: Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data. More information:
+    | | |
+    |-----------|----------|
+    | For administrator | [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)  |
+    | For seller | [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
+    |||    
+- **Gather and act on customer feedback**: See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. More information: [Dynamics 365 Customer Voice documentation](/customer-voice/help-hub).
+
+
+### Build relationships   
+
+- **Get insights from LinkedIn Sales Navigator**: Within a unified experience from Dynamics 365, view contextual LinkedIn profiles and insights as part of account, contact, lead, and opportunities records.         
+- **Find new buyers**: See recommended leads and discover mutual connections who can provide a warm introduction.    
+- **Keep track of buyers**: Within a unified experience from Dynamics 365 Sales, find out when contacts change jobs and visualize relationships between contacts with interactive org charts.    
+- **Get a unified view of interactions**: Use a comprehensive timeline across Dynamics 365, Microsoft 365, and LinkedIn Sales Navigator to deliver consistent experiences.  
+- **Identify customers who need attention**: Track relationships with a single score based on signals from Dynamics 365 and Microsoft 365 that reveal relationship health and risks. 
+- **Know how to engage customers**: Get proactive guidance on topics such as personalized talking points, internal relationships, icebreakers, and next best actions to move relationships forward.   
+
+>[!NOTE]
+>To learn more about LinkedIn Sales Navigator and Dynamics 365 Sales integration, see [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md).
+
+### Boost seller productivity    
+
+- **Minimize routine tasks**: Get suggestions to automatically create new records such as contacts, meetings, and tasks.   
+- **Cut time spent on data entry**: Use a smartphone to dictate notes and its camera to scan and convert business cards into new records. 
+- **Prioritize daily activities**: Remain productive anywhere, anytime with native mobile experiences optimized for the seller’s daily tasks. 
+- **Automate sales and marketing processes**: Connect your processes with a common platform to optimize efficiencies and marketing ROI and lead handoff.  
+- **Work seamlessly using everyday apps**: Minimize app switching with contextual sales data surfaced in productivity apps like Outlook. 
+
+### Adapt to rapid changes    
+
+- **Streamline forecasting**: Gain visibility and control over revenue with a flexible forecasting solution that reveals risks and opportunities.     
+- **Increase forecast accuracy**: Leverage built-in AI to augment seller-submitted forecasts and view deal flows and trends.    
+- **Gain real-time visibility into sales performance**: Use interactive dashboards and reports to track performance, make data-driven decisions, and deliver more effective coaching.  
+- **Tailor processes based on best practices**: Design a sequence of activities and connect the sequence to leads and opportunities that appear in a seller’s work queue.    
+- **Adapt AI for your unique needs**: Use a powerful, flexible, no-code tool to quickly design and implement next best action recommendations for your sales team.     
+- **Quickly create custom applications**: Extend and adapt the solution with Microsoft Power Platform, including Power Apps and Power Automate, to create custom applications and orchestrate workflows to optimize revenue generation.    
+
+
 ## Different sales solutions for different size of businesses
 
 Here are the multiple sales solutions that fit every type and size of business: 
@@ -60,9 +130,7 @@ Sales premium continuously analyzes the vast collection of customer-interaction 
 When you subscribe to Dynamics 365 Sales Premium, the following capabilities are available in the Sales Hub app:    
 #### Guided selling   
 Guide sellers on their next course of action with timely and actionable insights. The following feature is available:    
-- **Sales accelerator**   
-    - Administrator: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
-    - Seller: [What is the Sales accelerator?](sales-accelerator-intro.md)
+
 #### Relationship intelligence   
 Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
 - **Assistant**
@@ -84,10 +152,10 @@ Build stronger relationships with customers and move relationships forward with 
 Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy. The following features are available:   
 - **Predictive lead scoring**    
     - Administrator: [Configure predictive lead scoring](configure-predictive-lead-scoring.md)
-    - Seller: [Prioritize leads through scores](work-predictive-lead-scoring.md)   
+    - Seller:   
 - **Predictive opportunity scoring**   
     - Administrator: [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
-    - Seller: [Prioritize opportunity through scores](work-predictive-opportunity-scoring.md)   
+    - Seller:  
 
 ### Sales Enterprise
 
@@ -97,47 +165,7 @@ Increase conversion and win rates by using AI to prioritize leads and opportunit
 
 
 
-## Dynamics 365 Sales capabilities
-
-Shift to digital selling with prebuilt intelligence and equip sales teams with adaptive guidance to better serve customers. Let's look at the capabilities in detail:
-
-### Shift to digital experiences
-
-- **Know the exact customer to engage**: Shorten the sales cycle with a single workspace that has everything sellers need to engage the right customer, stay focused, maximize productivity.    
-- **Complete the next best activity**: Help sellers focus by giving them clear and achievable sales activities, prioritized through artificial intelligence (AI) and predictive scoring.    
-- **Communicate with effective call techniques**: Converse with empathy by employing AI-powered conversation intelligence to detect customer emotion, sentiment, and priorities.    
-- **Connect across channels**: Streamline selling with integrated multichannel communications such as, soft phone dialer, Microsoft Teams dialer, and email templates.    
-- **Meet and collaborate virtually**: Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data.   
-- **Gather and act on customer feedback**: See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. More information: [Dynamics 365 Customer Voice documentation](/customer-voice/help-hub).
-
-### Build relationships   
-
-- **Get insights from LinkedIn Sales Navigator**: Within a unified experience from Dynamics 365, view contextual LinkedIn profiles and insights as part of account, contact, lead, and opportunities records.         
-- **Find new buyers**: See recommended leads and discover mutual connections who can provide a warm introduction.    
-- **Keep track of buyers**: Within a unified experience from Dynamics 365 Sales, find out when contacts change jobs and visualize relationships between contacts with interactive org charts.    
-- **Get a unified view of interactions**: Use a comprehensive timeline across Dynamics 365, Microsoft 365, and LinkedIn Sales Navigator to deliver consistent experiences.  
-- **Identify customers who need attention**: Track relationships with a single score based on signals from Dynamics 365 and Microsoft 365 that reveal relationship health and risks. 
-- **Know how to engage customers**: Get proactive guidance on topics such as personalized talking points, internal relationships, icebreakers, and next best actions to move relationships forward.   
-
->[!NOTE]
->To learn more about LinkedIn Sales Navigator and Dynamics 365 Sales integration, see [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md).
-
-### Boost seller productivity    
-
-- **Minimize routine tasks**: Get suggestions to automatically create new records such as contacts, meetings, and tasks.   
-- **Cut time spent on data entry**: Use a smartphone to dictate notes and its camera to scan and convert business cards into new records. 
-- **Prioritize daily activities**: Remain productive anywhere, anytime with native mobile experiences optimized for the seller’s daily tasks. 
-- **Automate sales and marketing processes**: Connect your processes with a common platform to optimize efficiencies and marketing ROI and lead handoff.  
-- **Work seamlessly using everyday apps**: Minimize app switching with contextual sales data surfaced in productivity apps like Outlook. 
-
-### Adapt to rapid changes    
-
-- **Streamline forecasting**: Gain visibility and control over revenue with a flexible forecasting solution that reveals risks and opportunities.     
-- **Increase forecast accuracy**: Leverage built-in AI to augment seller-submitted forecasts and view deal flows and trends.    
-- **Gain real-time visibility into sales performance**: Use interactive dashboards and reports to track performance, make data-driven decisions, and deliver more effective coaching.  
-- **Tailor processes based on best practices**: Design a sequence of activities and connect the sequence to leads and opportunities that appear in a seller’s work queue.    
-- **Adapt AI for your unique needs**: Use a powerful, flexible, no-code tool to quickly design and implement next best action recommendations for your sales team.     
-- **Quickly create custom applications**: Extend and adapt the solution with Microsoft Power Platform, including Power Apps and Power Automate, to create custom applications and orchestrate workflows to optimize revenue generation.     
+ 
 
 ## Integrations
 
