@@ -1,7 +1,7 @@
 ---
 title: "Send email using the enhanced email experience - Sales Enterprise | MicrosoftDocs"
 description: "Use the enhanced email experience to compose and send an email without leaving the context of what you are working on."
-ms.date: 12/02/2020
+ms.date: 09/30/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -26,7 +26,7 @@ The enhanced email experience in customer engagement apps allows users to compos
 > - If you are working with the Sales app version 9.0.2006.5005 or later, you'll notice that the name of the existing Enhanced Email form is changed to Enhanced Email (deprecated). This form will be deactivated with the release of November 2020 updates. A new form named Enhanced Email has been introduced with the new capabilities like quick preview or multiple email attachments.
 > - If you try to navigate to a record (by selecting a record in the lookup field) while working in the Enhanced Email form, an error message is displayed. You cannot navigate to another record from within the Enhanced Email form.
 
-For more information about the email functionality, see [Use email](../customer-service/customer-service-hub-user-guide-email-overview.md).
+For more information about the email functionality, see [Understand the email experience](../customer-service/customer-service-hub-user-guide-email-overview.md).
 
 ### See also
 
