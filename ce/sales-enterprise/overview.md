@@ -244,7 +244,7 @@ The Sales Professional app is similar to the Sales Hub app, but the entities inc
 
 ## Integrations
 
-Integrate Dynamics 365 Sales with helps to digitally transformation your business across every industry vertical, companies are rethinking their business processes and entire segments are reorganizing. You can integrate Dynamics 365 Sales with the following solutions: 
+Integrate Dynamics 365 Sales helps to digitally transformation your business across every industry vertical, companies are rethinking their business processes and entire segments are reorganizing. You can integrate Dynamics 365 Sales with the following solutions: 
 
 - [Integrate LinkedIn Sales Navigator solutions](../linkedin/integrate-sales-navigator.md)    
 - [Microsoft Teams integration](../teams-integration/teams-integration.md)    
