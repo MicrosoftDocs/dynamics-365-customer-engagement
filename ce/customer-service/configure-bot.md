@@ -84,7 +84,7 @@ To create a bot user:
 
     For more information on creating an application user, see [Create an application user](/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
 
-5. Select **Save and close**.
+5. Select **Save and Close**.
 
 6. Select **Manage Roles** on the command bar.
 
