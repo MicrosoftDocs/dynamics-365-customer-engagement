@@ -43,9 +43,9 @@ To share feedback and ideas for how we can improve Community, use the [Dynamics 
 
 ### See also
 
-[Community overview](community-overview.md)
-[Get started with Community](community-get-started.md)
-[Create a Community forum](community-forum-setup.md)  
+[Community overview](community-overview.md)<br>
+[Get started with Community](community-get-started.md)<br>
+[Create a Community forum](community-forum-setup.md)<br>
 [Content moderation and management](community-moderator-experience.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
