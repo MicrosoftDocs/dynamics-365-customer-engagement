@@ -1,7 +1,7 @@
 ---
 title: "Enable transcript for messaging channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Enable transcript for messaging channels in Omnichannel for Customer Service"
-ms.date: 08/31/2021
+ms.date: 09/27/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ search.app:
   - D365CS
 ---
 
-# Preview: Enable transcription of conversations for messaging channels
+# Preview: Enable new transcription experience for messaging channels
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -53,9 +53,14 @@ Do the following to enable transcripts:
 
 4. Select **Save**.
 
+> [!NOTE]
+> The current transcript viewer experience will be deprecating at the end of the year, and will be replaced with this new transcript experience.
+
 ## View the transcripts
 
-You can view the conversation transcriptions in Omnichannel admin center.
+You can view the conversation transcriptions in the Omnichannel admin center and Omnichannel for Customer Service apps.
+
+To view transcripts in Omnichannel admin center, do the following:
 
 1. On the Omnichannel admin center site map, select **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
@@ -63,7 +68,19 @@ You can view the conversation transcriptions in Omnichannel admin center.
 4. Select the conversation for which you want to access the transcript.
   
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of closed conversation list.](./media/voice-channel-conversations-list.png)
+   > ![Screenshot of closed conversation list in Omnichannel admin center.](./media/voice-channel-conversations-list.png)
+
+To view transcripts in Omnichannel for Customer Service, do the following:
+
+1. Open the Omnichannel for Customer Service app, and then switch to the **Omnichannel Agent Dashboard** view.
+   Completed chat conversations are displayed in the **Closed work items** column.
+2. Do one of the following:<br>
+    a. Select the closed work item for which you want to view the transcript.<br>
+    OR<br>
+    b. Right-click the three dots to view the transcript.
+    
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of closed conversation list in Omnichannel for Customer Service.](./media/agent-dashboard-closed-chat.png)
 
 ### See also
 
