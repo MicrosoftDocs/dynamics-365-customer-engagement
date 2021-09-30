@@ -51,3 +51,17 @@ This installation lets your end users do the following tasks:
    -	Collaborate and engage in a community that includes upvoting, commenting, sharing, and following ideas.
    -	Flag inappropriate content.
    -	Track the status of ideas users engaged with in own personalized space.
+
+### See also
+
+[Get started with Community](community-get-started.md)<br>
+[Create a Community forum](community-forum-setup.md)<br>
+[Content moderation and management](community-moderator-experience.md)<br>
+[Community FAQs](community-faqs)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
