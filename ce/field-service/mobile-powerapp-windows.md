@@ -1,13 +1,11 @@
 ---
-title: "Field Service (Dynamics 365) mobile app for Windows 10+ devices (preview) | MicrosoftDocs"
-description: description
-ms.custom:
-- dyn365-fieldservice
-ms.date: 01/05/2021
+title: "Field Service (Dynamics 365) app for Windows 10+ devices (preview) | MicrosoftDocs"
+description: Learn about the Field Service (Dynamics 365) app for Windows 10+ devices.
+ms.date: 10/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
@@ -19,122 +17,94 @@ search.app:
 - D365FS
 ---
 
-# Field Service (Dynamics 365) mobile app for Windows 10+ devices (preview)
+# Field Service (Dynamics 365) app for Windows 10+ devices (preview)
 
 > [!Note]
 > This feature is in public preview.
 
-The Field Service (Dynamics 365) app is now available for Windows. This native windows app lets frontline workers view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. 
+The Field Service (Dynamics 365) app is now available for Windows. This native Windows app lets frontline workers view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts.
 
-// Video: https://msit.microsoftstream.com/video/2bdb0840-98dc-ae76-2e3e-f1ec1afa1e06
+Built on Microsoft Power Platform as a model-driven app, the Field Service (Dynamics 365) Windows app is built for frontline workers using Microsoft Surface laptops, Surface duos, and other devices running Windows 10 or Windows 11.
 
-Benefits:
-- native app on windows 10 and 11 devices, great for frontline workers using surface laptops, surface duos, and other devices running windows 10 or 11
-- This mobile app is built on Microsoft Power Platform as a model-driven app. 
-
-
-// @kristina - i purposely left the windows taskbar in the image below
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-agenda-view.jpg)
+> ![Field Service native app on a Windows device.](./media/mobile-2020-windows-agenda-view.jpg)
 
+The app supports offline by default and allows frontline workers using a Windows laptop or tablet to be able to use Field Service in low or no connectivity areas.
 
+The Field Service (Dynamics 365) Windows app supports:
 
-
-
-
-
-
-
-
-
-
-
-
-
-The app supports offline by default and will allow technicians/front line workers using a Windows laptop or tablet to be able to use Field Service app in low or no connectivity areas too.
-
-In addition to other capabiltiies, the Field Service (Dynamics 365) Windows app supports the following: 
-•	Access to device camera to be able to capture images and videos
-•	Barcode scanning of assets and global search
-•	Deep-linking into the FSM mobile app
+- Access to the device's camera, which means you can capture images and videos.
+- Barcode scanning for assets and global search.
+- Deep-linking into the Field Service mobile app.
 
 ## Prerequisites
 
 Device requirements:
-1.	OS requirements: Windows 10 and 11
-2.	Device requirements: Minimum 3 GB RAM and 64 GB sotrage
 
-Review system requirements: https://docs.microsoft.com/en-us/dynamics365/field-service/mobile-power-app-system-requirements
+- Windows 10 or 11
+- A device with minimum 3-GB RAM and 64-GB storage.
 
-Review installation and set up of the Field Service (Dynamics 365) mobile app: https://docs.microsoft.com/en-us/dynamics365/field-service/mobile-power-app-get-started
+For additional system requirements, see: [System requirements for the Field Service (Dynamics 365) mobile app](mobile-power-app-system-requirements.md)
+
+Also, be sure to [review installation and set up of the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md) 
 
 
-
-## Download the mobile app
+## Download the app
 
 Go to the Microsoft Store and search for **Field Service (Dynamics 365) (Preview)**.
 
-Download the app named Field Service (Dynamics 365) (Preview) app.
+Download the app named **Field Service (Dynamics 365) (Preview) app**.
  
-Open the app and sign in with your username and password, which should be the user credentials of the frontline worker user who has the _Field Service - Resource_ security role.
+Open the app and sign in with your username and password, which should be the credentials of a frontline worker user who has the _Field Service - Resource_ security role.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-login-screen.jpg)
+> ![Launch screen for the Field Service Windows app.](./media/mobile-2020-windows-login-screen.jpg)
+
+>[!Note]
+> To access non-product environments, enable non-production apps from settings.
  
-Note: To access non-product environments, please enable non-production apps from settings.
- 
-## View Bookings
-You can access your Bookings from the Home screen or Bookings screen. Clicking on a Booking will open the Booking entity record which will allow you to change status, complete Service tasks (including Inspections) and attach notes to the Timeline.
+## View bookings
+
+You can access your bookings from the **Home** screen or **Bookings** screen. Selecting a booking will open the record, where you can then change status, complete service tasks (including inspections), and attach notes to the timeline.
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-agenda-view.jpg)
+> ![Bookings in the Field Service Windows app.](./media/mobile-2020-windows-agenda-view.jpg)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-booking-form-with-status-dropdown.jpg)
+> ![An open booking record in the Field Service Windows app.](./media/mobile-2020-windows-booking-form-with-status-dropdown.jpg)
 
 ## Capture pictures
 
-While adding a note to the timeline, you can also attach a picture by clicking on the camera icon which opens the native camera app.
+When adding a note to the timeline, you can also attach a picture by selecting the camera icon, which opens the device's camera app.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-timeline-control-to-add-images-and-videos.jpg)
+> ![The timeline tab on a booking in the Field Service Windows app.](./media/mobile-2020-windows-timeline-control-to-add-images-and-videos.jpg)
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-launch-device-camera-to-capture-image.jpg)
-
-
+> ![The camera popup after selecting the camera icon on the timeline in Field Service Windows app.](./media/mobile-2020-windows-launch-device-camera-to-capture-image.jpg)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-note-added-to-timeline.jpg)
+> ![The booking timeline, listing a capture taken from the device's camera.](./media/mobile-2020-windows-note-added-to-timeline.jpg)
 
 ## Scan barcodes
 
 You can use the device camera to scan barcodes either for global search or for filling any field of the barcode type.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-barcode-reader-launched.jpg) 
+> ![Launched barcode reader in the Field Service Windows app.](./media/mobile-2020-windows-barcode-reader-launched.jpg) 
 
 ## Download data for offline use
 
-The app automatically downloads offline data after login, you can also force an update of the offline data by clicking on ‘Update date’.
+The app automatically downloads offline data after you sign in, though you can also force an update of the offline data by selecting **Update date**.
  
-
-
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-windows-offline.jpg)
-
-
-
-
+> ![Offline status panel in the Field Service Windows app.](./media/mobile-2020-windows-offline.jpg)
 
 ## Configuration considerations
 
-The following capabilities are not available in the public preview and are planned for future releases. These capabilities are available in the iOS and Android app versions. 
+The following capabilities *are not* available in this public preview. but are planned for future releases. These capabilities *are* available in the iOS and Android apps.
 
-1.	Push notifications
-2.	Geo tracking of users
-3.	Quick Notes 
-4.	Large file and image support
-
-
+- Push notifications
+- Geo tracking of users
+- Quick notes
+- Large file and image support
