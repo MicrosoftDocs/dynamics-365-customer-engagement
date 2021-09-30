@@ -42,7 +42,7 @@ You can use the view selector to select the dashboard of your choice. Select the
 
 ## Set a dashboard as the default
 
-To see a specific dashboard every time you sign in to Dynamics 365 Sales, set it as the default. To do this, open the dashboard, and then select **Set As Default** in the command bar.
+To see a specific dashboard every time you sign in to Dynamics 365 Sales, set it as the default. To do this, open the dashboard, and then select **Set As Default** on the command bar.
 
 
 ### See also
