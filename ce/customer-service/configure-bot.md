@@ -98,7 +98,7 @@ To create a bot user:
 Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in the queue. This ensures that the bot user receives the customer query first.
 
 > [!NOTE]
-> The bot works with the chat widget, work stream, and queues created in Omnichannel for Customer Service.
+> The bot works with the chat widget, workstream, and queues created in Omnichannel for Customer Service.
 
 You can add a bot user to specific queues where you want the bot to handle the customer queries first. Alternatively, you can also create a queue with the bot user only. If you create a queue with the bot user only, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This ensures that the bot acts as a first line of defense for all queries.
 
