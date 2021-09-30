@@ -64,3 +64,9 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
     **Description**: An optional field where you can provide additional information to describe this link
     **Group label**: The name of the group under which the link will be listed in the portal.
     
+### See also
+
+[Community overview](community-overview.md)
+[Get started with Community](community-get-started.md)
+[Content moderation and management](community-moderator-experience.md)
+[Community FAQs](community-faqs)
