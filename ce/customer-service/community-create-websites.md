@@ -38,6 +38,6 @@ ms.custom:
 [Get started with Community](community-get-started.md)<br>
 [Create a Community forum](community-forum-setup.md)<br>
 [Content moderation and management](community-moderator-experience.md)<br>
-[Community FAQs](community-faqs)
+[Community FAQs](community-faqs.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
