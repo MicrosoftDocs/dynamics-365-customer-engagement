@@ -1,7 +1,7 @@
 ---
 title: "Data access consent | MicrosoftDocs"
 description: "Learn about consent requirements that is required for provisioning Omnichannel for Customer Service."
-ms.date: 08/12/2021
+ms.date: 09/23/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -19,6 +19,12 @@ This topic provides information about the consent that is required to access the
 ## Provide consent to access data
 
 Omnichannel for Customer Service app requires the following permissions to read and write data on behalf of users:
+
+- **Allow the application to read flows**: The app can view the flows.
+
+- **Allow the application to manage flows**: The app can manage flows that you have access to.
+
+- **Access Microsoft Flow as signed in user**: Allows you to access Microsoft Flow as a signed-in user.
 
 - **Create content**: The app can automatically create content and datasets for you.
 

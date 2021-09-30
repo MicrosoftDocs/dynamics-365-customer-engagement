@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
 description: "Learn how to set up record routing in Customer Service."
-ms.date: 08/13/2021
+ms.date: 09/27/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,6 +12,8 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+## Introduction
+
 You can configure routing for records in Customer Service Hub, Omnichannel admin center, or Omnichannel Administration. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
 
 If you have only Dynamics 365 Customer Service, the options to configure unified routing is available only after you enable unified routing in service configuration settings.
@@ -21,6 +23,7 @@ If you have only Dynamics 365 Customer Service, the options to configure unified
 > - After you enable the unified routing feature in **Service Configuration Settings**, you can't disable it. You'll need to contact Microsoft Support to disable the feature.
 > - Provisioning unified routing might impact runtime operations on account of solution import that can impact SQL load.
 > - If you are upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in Omnichannel admin center.
+> - If you are an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
 
 ## Prerequisites
 
@@ -72,7 +75,9 @@ You can create intake rules independently and map them to basic routing rulesets
 Perform the following steps to configure the intake rules:
 
 1. Select the workstream that you configured for routing records, such as the case.
+
 2. In the **Intake rules** area, select **Create rule**.
+
 3. In the **Create intake rule** dialog box, enter a name and define the conditions for the rule.
 
    ![Intake rule.](media/ur-intake-rule.png "Intake rule")
@@ -83,17 +88,34 @@ The following screenshot shows a workstream with the required intake rule and ro
 
 ![Workstream for a case record.](media/ur-record-routing-workstream.png "Workstream for a case record")
 
+You can reorder the rules and create copies to meet your business requirements.
+
+:::image type="content" source="media/manage-intake-rules.png" alt-text="Manage your intake rules.":::
+
+
+### Configure routing rules
+
+Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
+
+- [Configure work classification rules](configure-work-classification.md#create-work-classification-rulesets)  
+- [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
+
 ### Configure work distribution and advanced settings
 
 1. In the **Work distribution** area, you can either accept the default settings or select **See more**, and update the following options:
+
    - **Capacity**: Select one of the following options:
      - **Unit based**: Enter value if your organization has configured unit-based capacity.
-     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity.
-   - **Allowed presences**: Select the presences in which agents will be assigned.
+     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity. More information: [Create and manage capacity profiles](capacity-profiles.md) 
+
+   - **Allowed presences**: Select the presences in which agents will be assigned. If you want to route records in Customer Service Hub, make sure that you add all the required presences to be able to route work items as required.
+
    - **Default skill matching algorithm**: Select **Exact Match** or **Closest Match**.
+
 2. Expand **Advanced settings** to configure the following options:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
+
    > [!NOTE]
    > The agent notifications that you configure for routing of records based on unified routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
