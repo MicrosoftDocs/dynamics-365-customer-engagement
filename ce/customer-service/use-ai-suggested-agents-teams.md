@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Preview: Collaborate with AI suggested agents in Microsoft Teams
+# Collaborate with AI suggested agents in Microsoft Teams (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
