@@ -21,11 +21,13 @@ manager: shujoshi
 
 ## Introduction
 
-You can chat with experts who have worked on cases similar to yours to quickly resolve customer issues. To chat with experts, your administrator must enable the option to collaborate with other agents in Microsoft Teams.
+If your administrator has enabled AI suggestions for similar cases and knowledge articles and configured linking of chats to Dynamics 365 records, you can chat with experts who have worked on cases similar to yours and quickly resolve customer issues. To chat with experts, your administrator must enable the option to collaborate with other agents in Microsoft Teams.
+
+More information: [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
 
 ## Collaborate with AI-suggested agents in Microsoft Teams
 
-In Customer Service workspace, when you open a case, **Teams chat (Preview)** appears in the app side pane on the right. The conversations pertaining to the most recent cases that are similar to the case you're viewing are loaded.
+In Customer Service workspace, when you open a case, **Teams chat (Preview)** appears in the app side pane on the right. The conversations pertaining to the most recent cases that are similar to the case you're viewing are displayed.
 
 :::image type="content" source="media/teams-new-linked-chat.png" alt-text="New linked chat option in Teams.":::
 
@@ -34,15 +36,19 @@ If no similar cases exist, a message is displayed that no suggested contacts can
 You can do the following:
 
 1. Select **New linked chat**. The following options appear:
-   - A box to type agent names to create linked chats.
-   - Suggested contacts who worked on similar cases.
+   - Option to enter participant agent names to create linked chats.
+   - A dropdown list of suggested contacts who worked on similar cases. AI and ruled-based suggested contacts are listed if admins have enabled both the options.
+   - If AI suggested contacts is enabled, Resolved similar cases dropdown list is displayed.
+       - 
    - The option to send an introductory message that summarizes the case and includes details, such as the following:
-     - Status
-     - Case title
-     - Case number
-     - Customer
-     - Description
-     - Priority
+       - Status
+       - Case title
+       - Case number
+       - Customer
+       - Description
+       - Priority
+    
+      :::image type="content" source="media/ai-suggested-contacts-suggestions-dropdown.png" alt-text="AI suggested contacts dropdown list.":::
 
 2. Type an agent name or select from the suggested contacts. You can select more than one agent and then select **Start chat**.
 
