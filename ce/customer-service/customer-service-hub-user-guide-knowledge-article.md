@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 10/04/2021
+ms.date: 10/01/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -263,17 +263,6 @@ When you're creating a knowledge article, you can attach one or more files to it
 - There isn't a limit to the number of articles that can be attached to a knowledge article, but the file size of the files you attach cannot exceed 32 MB.
 - Your administrator may limit the file size for knowledge articles.
 
-With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature by doing the following:
-
-1. Go to **Customer Service Hub**, and then select **Service management** > **Knowledge Management** > **Settings**.
-2. Under **Sync knowledge article attachments to portal**, toggle **Sync attachments to portal** to **Yes**.
-3. Select **Save**.
-
-By using knowledge article attachments for the portal, keep in mind the following:
-
-- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](https://docs.microsoft.com/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type)
-- We'll do a one-time migration from the notes attachments with the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles.   
-
 To attach a file to a knowledge article:
 
 1. Open the knowledge article where you want to add a file attachment, and then on the **Content** tab, on the right-hand side of the screen, select **Attach Files From**.
@@ -294,6 +283,21 @@ For your attached files, use these commands to do the following:
 - **Sort**: Allows you to sort records by a specific filter, such a file name or size.
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
+
+**Update Knowledge article attachments for portal**
+
+With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature by doing the following:
+
+1. Go to **Customer Service Hub**, and then select **Service management** > **Knowledge Management** > **Settings**.
+2. Under **Sync knowledge article attachments to portal**, toggle **Sync attachments to portal** to **Yes**.
+3. Select **Save**.
+
+By using knowledge article attachments for the portal, keep in mind the following:
+
+- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](https://docs.microsoft.com/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type)
+- We'll do a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, we'll only migrate the notes attachments that are used in the portal to new attachments before the middle of October 2022 for all users.  
+
+For more information, see [Display file attachments with knowledge articles](https://docs.microsoft.com/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
