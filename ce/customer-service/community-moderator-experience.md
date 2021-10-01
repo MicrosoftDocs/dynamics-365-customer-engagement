@@ -63,7 +63,7 @@ Follow these steps to create a collection:
 5. Add a **Title** and **Description** for the new collection. You can also copy these fields from one of the children ideas.
 6. You can optionally select the **Stage**, **Category**, and **Group**, and then select **Next**.
 7. Confirm the details are correct, and then select **Next**.
-8. Wait for the status of the new collection to change from **In-progress** to **Success**. You can refresh the page to get the latest status.
+8. Wait for the status of the new collection to change from **In-progress** to **Success**. You need to refresh the page to get the latest status.
 
 ### See also
 
