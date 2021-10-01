@@ -14,7 +14,7 @@ searchScope:
   - D365-Entity-msdyn_playbooktemplate
   - D365-Entity-msdyn_playbookactivityattribute
   - D365-Entity-msdyn_playbookcategory
-  - D365-Entity-msdyn_playbookinstance
+  - D365-Entity-msdyn_playbookinstance
   - D365-UI-*
   - Dynamics 365
   - Sales

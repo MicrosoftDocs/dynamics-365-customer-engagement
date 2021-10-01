@@ -88,6 +88,8 @@ Posts about knowledge article-related activities will begin appearing in the **T
 ## Personalize your language preferences for authoring knowledge articles
 
 If your administrator has enabled language personalization, you can select your preferred language when authoring knowledge articles.
+> [!NOTE]
+> Language settings apply only to knowledge articles that aren't created by converting a case. Converted knowledge articles are created in default language setting of your organization.
 
 1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
 2. Select the **Authoring** tab.
@@ -95,14 +97,12 @@ If your administrator has enabled language personalization, you can select your 
    - Set **Use organization’s language value** to **Yes**.
    - Select your preferred language from the drop-down list.
    > [!NOTE]
-   > At any point, agents can only either set the org language or select a language from the list.
-   
+   > At any point, you can only either set the org language or select a language from the list.  
 4. Select **Save**.
    When you create a new knowledge article, the default language you selected is used.
 5. If you need to change the language for a specific article only, select the **Summary** tab, and then select your preferred language in the **Language** field.
 6. Select **Save**.
 
-The changes you've made will affect the agent experience. When agents go to create new articles, the settings they made will be reflected. 
 
 ## Create knowledge articles using templates
 
@@ -254,7 +254,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 This is an indicative preview. Content rendered can be different in the actual device or screen.
 
 > [!NOTE]
-> While authoring a knowledge article in the Content field, if you add anchor links, you won't be able to test the links in the Designer or the Preview mode. However, once the article is published, the anchor links work as expected.
+> If you add anchor links to a knowledge article in the **Content** field, you can’t test them because they don’t work in the **Designer** or **Preview** mode. The anchor links work only when you open the article in knowledge search and on portals.
 
 ## Add a file attachment to a knowledge article
 
