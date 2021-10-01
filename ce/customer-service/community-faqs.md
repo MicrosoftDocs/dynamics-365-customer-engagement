@@ -37,6 +37,9 @@ To install Community, make sure that you have at least one Dynamics Customer Ser
 ### Is the Community preview release available in all clouds?
 No. The Community preview release is currently only available in the public cloud.
 
+### How long does it take for Community manager and moderator updates in Dynamics Customer Service Community to reflect in portal?
+It takes up to 15 minutes for these updates to reflect in portal.
+
 ### How do I contact Dynamics Customer Service for support on Community Preview?
 To post questions for our team, use the [Dynamics Customer Service Community forum](https://go.microsoft.com/fwlink/?linkid=2173735). 
 To share feedback and ideas for how we can improve Community, use the [Dynamics Customer Service Ideas forum](https://go.microsoft.com/fwlink/?linkid=2173736). Make sure to select “Community” in the category when posting your questions and ideas.
