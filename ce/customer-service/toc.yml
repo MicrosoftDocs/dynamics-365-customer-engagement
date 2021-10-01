@@ -396,6 +396,8 @@
         href: work-knowledge-articles.md
       - name: Configure the knowledge article authoring language
         href: set-knowledge-article-authoring-language.md
+      - name: Configure the origin allow list for knowledge articles
+        href: configure-knowledge-article-origin-allow-list.md
       - name: Create a knowledge article using a template
         href: create-knowledge-article-using-template.md
       - name: Create knowledge article templates in Customer Service
@@ -738,6 +740,8 @@
         href: enable-knowledge-search-insights.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
+      - name: Configure AI suggestions for article keywords and descriptions
+        href: configure-ai-suggested-article-keywords-description.md
       - name: Configure Customer Service analytics dashboards in Power BI
         href: configure-customer-service-analytics-dashboard.md
       - name: Configure AI topic clustering for conversation
