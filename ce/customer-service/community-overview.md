@@ -33,7 +33,7 @@ ms.custom:
 
 Welcome to Dynamics 365 Customer Service Community (preview), a new app that offers a suite of capabilities that are designed to help your organization invite customer suggestions and crowd source portfolios of outside-in ideas. Community can help fuel your business transformation, build customer trust with process transparency, and drive timely follow-up for suggestions. 
 
-In addition to providing feedback to organizations, end users can use Community to collaborate on a social scale, and rally behind suggestions from others to help shape the future of the products they use.
+In addition to providing feedback to organizations, end users use Community to collaborate on a social scale, and rally behind suggestions from others to help shape the future of the products they use.
 
 The following two separate installations are required to use Customer Service Community: 
 1. **Dynamics 365 Customer Service Community**: The installation requires at least one Customer Service Enterprise license in your organization tenant. Dynamics 365 Customer Service Community provides community managers and moderators with the necessary capabilities to capture and evaluate ideas and demonstrate care with closed loop, applying their organization brand across user interaction points. 
