@@ -24,6 +24,8 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 
 ### Meet buyers where they are
 
+
+
 | Capability | Description | Reference links |
 |------------|-------------|-----------------|
 | Know the exact customer to engage | Shorten the sales cycle with a single workspace that has everything that sellers need to engage the right customer, stay focused, maximize productivity. | Administrator: [Configure the sales accelerator](enable-configure-sales-accelerator.md)<br> Seller: [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)|
@@ -49,26 +51,26 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
-| Gain visibility into the right data | Access customer data and insights in Microsoft Teams to collaborate productively within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller | [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
+| Gain visibility into the right data | Access customer data and insights in Microsoft Teams to collaborate productively within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
 | Communicate in context | Use embedded Microsoft Teams chats in Dynamics 365 for real-time collaboration within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
 | Manage the pipeline in a single workspace | Use an intuitive, personalized workspace to view deals, get context, and act swiftly. Get one-click actions and built-in productivity and collaboration from Microsoft 365 and Teams (preview) | Administrator: [Enable the deal manager workspace](enable-deal-manager-preview.md)<br>Seller: [Using the deal manager workspace](deal-manager-seller-overview.md) |
 
-### Boost seller productivity    
+### Boost seller productivity
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
 | Minimize routine tasks | Get suggestions to automatically create new records such as contacts, meetings, and tasks. | Administrator:<br>- [Configure notes analysis](configure-notes-analysis.md)<br>- [Enable and configure auto capture](configure-auto-capture.md)<br>Seller:<br>- [How notes analysis assists you with suggestion](notes-analysis.md)<br>- [Capture customer-related activities with auto capture](auto-capture.md) |
-| Automate sales and marketing processes | Connect your processes with a common platform to optimize efficiencies and marketing ROI and lead handoff. | Administrator/Seller | [Overview (Marketing)](/dynamics365/marketing/overview) |
-| Work seamlessly using everyday apps | Minimize app switching with contextual sales data surfaced in productivity apps like Outlook. | Administrator: [Deploy and install Dynamics 365 App for Outlook](/dynamics365/outlook-app/deploy-dynamics-365-app-for-outlook)<br>Seller | [Basic navigation in App for Outlook](/dynamics365/outlook-app/user/basic-navigation) |
+| Automate sales and marketing processes | Connect your processes with a common platform to optimize efficiencies and marketing ROI and lead handoff. | Administrator/Seller: [Overview (Marketing)](/dynamics365/marketing/overview) |
+| Work seamlessly using everyday apps | Minimize app switching with contextual sales data surfaced in productivity apps like Outlook. | Administrator: [Deploy and install Dynamics 365 App for Outlook](/dynamics365/outlook-app/deploy-dynamics-365-app-for-outlook)<br>Seller: [Basic navigation in App for Outlook](/dynamics365/outlook-app/user/basic-navigation) |
 
 ### Keep selling on the go
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
 | Juggle tasks with ease | Stay on top of tasks from anywhere with a mobile-first interface that includes push notifications and robust search, and quickly create or update records in mobile-optimized forms. | Seller: [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)|
-| See daily priorities at a glance | Quickly scan upcoming meetings, recent contacts, and real-time notifications to accelerate customer engagement.| Seller: [Learn the basics](learn-basics-mobile-app.md) |
-| Prepare for meetings | Using the mobile app for iOS and Android, view critical meeting details, attendee information, and AI-generated reminders, and join Teams meetings—all from a single meeting card. | Seller: [View meetings](view-agenda.md) |
-| Skip manual data entry | Easily capture notes using voice-to-text or the camera on your smartphone for automatic association with related records. | Seller: [Manage notes](view-edit-add-note.md) |
+| See daily priorities at a glance | Quickly scan upcoming meetings, recent contacts, and real-time notifications to accelerate customer engagement.| Seller: [Learn the basics](sales-mobile/learn-basics-mobile-app.md) |
+| Prepare for meetings | Using the mobile app for iOS and Android, view critical meeting details, attendee information, and AI-generated reminders, and join Teams meetings—all from a single meeting card. | Seller: [View meetings](sales-mobile/view-agenda.md) |
+| Skip manual data entry | Easily capture notes using voice-to-text or the camera on your smartphone for automatic association with related records. | Seller: [Manage notes](sales-mobile/view-edit-add-note.md) |
 
 ### Adapt to rapid changes   
 
@@ -79,7 +81,7 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 | Gain real-time visibility into sales performance | Use interactive dashboards and reports to track performance, make data-driven decisions, and deliver more effective coaching. | Administrator:<br>- [Create or edit a Power BI embedded system dashboard](/powerapps/maker/model-driven-apps/create-edit-powerbi-embedded-page)<br>- [Use Power BI with Microsoft Dataverse data](/powerapps/maker/data-platform/use-powerbi-dataverse)<br>- [Use Power BI](/powerapps/maker/model-driven-apps/use-power-bi)<br>Seller:<br>- [Add or edit Power BI visualizations on your dashboard](/powerapps/user/add-powerbi-dashboards) | 
 | Tailor processes based on best practices | Design a sequence of activities and connect the sequence to leads and opportunities that appear in a seller’s work queue. | Administrator: [Create and activate a sequence](create-and-activate-a-sequence.md)<br>Seller: [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) | 
 | Adapt AI for your unique needs | Use a powerful, flexible, no-code tool to quickly design and implement next best action recommendations for your sales team. | Administrator: [Configure the assistant](configure-assistant.md)<br>Seller: [Use the assistant to guide customer communications](assistant.md) | 
-| Quickly create custom applications | Extend and adapt the solution with Microsoft Power Platform, including Power Apps and Power Automate, to create custom applications and orchestrate workflows to optimize revenue generation. | Administrator | [Overview of creating apps in Power Apps](/powerapps/maker/index) | 
+| Quickly create custom applications | Extend and adapt the solution with Microsoft Power Platform, including Power Apps and Power Automate, to create custom applications and orchestrate workflows to optimize revenue generation. | Administrator: [Overview of creating apps in Power Apps](/powerapps/maker/index) | 
 
 ## Different sales offerings for different size of businesses
 
