@@ -40,16 +40,16 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 2.	Enter a **Name**, then select **Forum Settings** and **Website Settings**. Settings are managed by your administrator.
 3.	Select the **Categories** tab, and then select **+ New Category**. Categories you define here will be available for end-users to select when they create a new idea in this forum.
 4.	Enter a **Name** for the category, and then select **Save**.
-5.	To add more categories, repeat steps 4 and 5 above..
+5.	To add more categories, repeat steps 3 and 4 above..
 6.	Go to the **Groups** tab and select **+ New Group**. The groups you define here will be available for end-users to select when they create a new idea in this forum.
 7.	Enter a group name, and then select **Save**.
-8.	To add more groups, repeat steps 7 and 8 above.
-9.	Go to the **Membership** tab to add members to your forums. You'll see that you are already added as owner. The **Membership** tab is where you add individual forum owners and moderators.
+8.	To add more groups, repeat steps 6 and 7 above.
+9.	Go to the **Membership** tab to add members to your forums. You'll see that you are already added as owner. The **Membership** tab is where you add forum owners and moderators.
 10.	Select **+ New Forum Member**.
 11.	In the **Role** dropdown menu, select **Owner** or **Moderator**, then in **System User**, search and select the user you want.
 12.	Select **Save**.
-13.	To add other owners or moderators, repeat steps 11-13.
-14.	(Skip this step if your forum is public.) If your forum is private, only accessible to "by-invitation" members, you'll need to add those individuals as contacts. In **Role**, select **Member** or create a contact. Repeat this step to add all by-invitation members.
+13.	To add other owners or moderators, repeat steps 10-12.
+14.	(Skip this step if your forum is public.) If your forum is private, i.e. accessible to "by-invitation" members only, you'll need to add those individuals as contacts. Select **+ New Forum Member**, select **Member** in **Role**, then search for contact in **Contact** or add a new contact information in **Contact Email**, **Contact First Name**, and **Contact Last Name**. Repeat this step to add all by-invitation members.
 15.	To publish your forum to the web, go to the **Web** tab, and then select **Yes** from the **Publish to web** dropdown menu.
 16.	Under the **User Access Level**, select the access level for your users in public forums. The default values are **None** for all three configurations.
     **Important**: For private forums, leave the default settings set to **None**.
@@ -60,8 +60,8 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 18.	To add a forum **Quick Link**, select **+ New Quick Link**, and then enter the following values:
     **Display Label**: Refers to how the link will be displayed in the portal.
     **URL**: The webpage URL.
-    **Description**: An optional field where you can provide additional information to describe this link
-    **Group label**: The name of the group under which the link will be listed in the portal.
+    **Description**: An optional field where you can provide additional information to describe this link.
+    **Group label**: An optional field where you can specify the name of the group under which the link will be listed.
     
 ### See also
 
