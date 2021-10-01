@@ -444,7 +444,7 @@ When a record is created, the SLA is applied (either by default or through entit
 
 When the SLA is applied again, all of the SLA items are evaluated based on the updated record fields, and failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.
 
-In Unified Interface, after the SLA moves to a terminal status, which is non-compliant or succeeded, the applicable when and success criteria will not be evaluated again on the SLA by default. If you want the SLA to be reevaluated, you can enable the reevaluation setting in the service configuration settings. More information: [Enable SLA recalculation](enable-sla-recalculation.md)
+In Unified Interface, by default, when the SLA moves to a terminal status (non-compliant or succeeded), the "applicable when" and "success criteria" will not be evaluated again on the SLA. If you want the SLA to be reevaluated, you can enable the reevaluation setting in the service configuration settings. More information: [Enable SLA recalculation](enable-sla-recalculation.md)
 
 > [!NOTE]
 >

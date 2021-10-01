@@ -14,7 +14,7 @@ ms.topic: article
 
 In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greet a customer, verify a customer, send acknowledgment mail, and take notes. These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
 
-Macros help address these challenges by helping users perform daily operations in a faster, more efficient, and process-compliant manner. Macros are a set of sequential actions that are performed by a user. You can reuse macros with different sessions based on the context parameters that are specific to the session.
+Macros are a set of sequential actions that are performed by a user. They enable users to perform daily operations efficiently in a fast and process-compliant manner. You can reuse macros with different sessions based on the context parameters that are specific to the session.
 
 The value propositions of the macros are as follows:
 
@@ -33,7 +33,7 @@ The value propositions of the macros are as follows:
 The macros in Customer Service workspace have the following:
 
 - [Predefined automation actions](#predefined-automation-actions)
-- [Built-in](#built-in)
+- [Built-in control](#built-in)
 
 ## Prerequisites
 
@@ -178,11 +178,11 @@ This action is used to open the knowledge base article. The action contains the 
 
 #### Save the record
 
-This action is used for saving the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or are left blank.
+This action saves the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or are left blank.
 
 #### Clone input record
 
-This action is used for cloning an existing record. The action only copies the fields and does not save the record. The action contains the following fields.
+This action clones an existing record. The action only copies the fields and does not save the record. The action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -201,11 +201,11 @@ As an administrator, you can use the actions any number of times across differen
 
 #### Get the current tab
 
-This action is used to get the details of the current tab in Omnichannel for Customer Service. The get current tab action retrieves the Tab ID that could be used in the **Refresh tab** and **Focus tab** actions.
+This action gets the details of the current tab in Omnichannel for Customer Service. The action retrieves the Tab ID that could be used in the **Refresh tab** and **Focus tab** actions.
 
 #### Open application tab
 
-This action is used to open the specified application in a new tab with the attributes that you define. The action contains the following fields.
+This action opens the specified application in a new tab with the attributes that you define. The action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -215,7 +215,7 @@ This action is used to open the specified application in a new tab with the attr
    | Attribute Value | Specify the attribute value that will be updated for the above-mentioned attribute. | |
    |||
 
-#### Refresh the session context (preview)
+#### Refresh the session context
 
 This action is used to refresh the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables will be defined when the session starts. However, if you update the case title, the session context will not be updated. Therefore, macros will use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
 
@@ -234,7 +234,7 @@ This action is used to focus on a tab in the Customer Service workspace session.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
-   | Tab ID | Specify the ID of the tab that you want to give focus to. <br> This is a mandatory field.|
+   | Tab ID | Specify the identifier of the tab that you want to give focus to. <br> This is a mandatory field.|
    |||
 
 
@@ -244,7 +244,7 @@ This action is used to focus on a tab in the Customer Service workspace session.
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
 
 > [!NOTE]
-> Macro actions for the Omnichannel connector is available if Customer Service workspace if Omnichannel for Customer Service is installed.
+> Macro actions for the Omnichannel connector is available if Customer Service workspace in Omnichannel for Customer Service is installed.
 
    > [!div class=mx-imgBorder] 
    > ![Macro actions for Omnichannel connector.](../customer-service/media/macro-omnichannel-connector.png "Macro actions Omnichannel connector")
