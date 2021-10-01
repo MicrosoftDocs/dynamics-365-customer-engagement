@@ -2,7 +2,7 @@
 title: "Software requirements for Dynamics 365 Server | Microsoft Docs"
 description: "This article lists the required software requirements for Dynamics 365 Server"
 ms.custom: ""
-ms.date: "05/15/2019"
+ms.date: "09/28/2021"
 ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
@@ -92,6 +92,7 @@ This topic lists the software and application requirements for this version of [
   
 > [!IMPORTANT] 
 > -  [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
+> -  An [Azure SQL Managed instance](/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview) is not supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
 
 <a name="Claims_and_IFD_requirements"></a>   
 ## Accessing Microsoft Dynamics 365 Customer Engagement (on-premises) from the internet - Claims-based authentication and IFD requirements  
