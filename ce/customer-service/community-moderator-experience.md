@@ -41,28 +41,29 @@ They can do the following tasks:
 - Manage idea votes.
 - Manage idea flags.
 
-To update idea fields:
-1. Navigate to the forum, select the **Ideas** tab, and then select the idea you want to edit.
-2. Update the fields as desired. You can also add a **Moderator Response** and select **Response Generic Author**. 
-   **Response Generic Author** enables you to associate a generic role with your response, rather than use your username when displayed to end users in the portal.
-3. Go to the **Comments** tab to manage end user comments. Under **Active comments on idea**, sSelect the comment you want to edit, and then select **Edit**.
-4. Under **Moderator Response**, in the **Comments** field, type the desired response, and manage comment flags.
-5. To manage votes, select the **Votes** tab. A vote value can be either 0 (no vote) or 1 (a single upvote).
-6. From the portal, end users can flag ideas as inappropriate. Forum owners and moderators can go to **Flags** tab to view and manage these flags.
+To achieve above:
+1. Navigate to the forum, select the **Forum** tab to update forum Name and Description.
+2. Select the **Ideas** tab, and then select the idea you want to edit.
+3. Update the fields as desired. You can also add a **Moderator Response** and select **Response Generic Author**. 
+   **Response Generic Author** enables you to associate a generic role to your response in portal, rather than show your name. The list of  generic roles is managed by your admin.
+4. To manage idea votes, select the **Votes** tab. A vote value can be either 0 (no vote) or 1 (a single upvote).
+5. From the portal, end users can flag ideas as inappropriate. Forum owners and moderators can go to **Flags** tab to view and manage idea flags.
+6. Go to the **Comments** tab to manage end user comments. Under **Active comments on idea**, select the comment you want to edit, and then select **Edit**. Under **Moderator Response**, in the **Comments** field, type the desired response. Go to **Flags** tab to manage flags on the selected comment.
+
 
 ## Collections
 
-Forum owners and moderators can create a collection to combine duplicate or related ideas. Successfully-created collections will show in the portal, and all the associated ideas (also called "children ideas") will be removed. Note that users who contributed to the children ideas can still view them (read only) in My Content page. 
+Forum owners and moderators can create a collection to combine duplicate or related ideas. Successfully-created collections will show in the portal, and all the associated ideas (also called "children ideas") will be removed. Note that users who contributed to the children ideas can still view them (read only) in **My Content** page. 
 
 Follow these steps to create a collection:
 1. On the left-side navigation panel, select **Collections**, and then select **+ New**.
-2. Select the forum you want to select children ideas from, and then select **Next**.
-3. Select plus sign (+) to add ideas from the active ideas list to the collection. Added ideas will show in the collection ideas list. 
+2. Select the forum you want to combine ideas from, and then select **Next**.
+3. Select plus sign (+) to add ideas from **Active ideas in this forum** list to the collection. Utilize seach in long lists. Added ideas will show in the **Collection ideas** list. 
 4. When you're done adding ideas, select **Next**.
-5. Add a title and description for the new collection. You can also copy the title and description from one of the children ideas.
+5. Add a **Title** and **Description** for the new collection. You can also copy these fields from one of the children ideas.
 6. You can optionally select the **Stage**, **Category**, and **Group**, and then select **Next**.
 7. Confirm the details are correct, and then select **Next**.
-8. Wait for the status to change from **In-progress** to **Success**. You can refresh the page to get the latest status.
+8. Wait for the status of the new collection to change from **In-progress** to **Success**. You can refresh the page to get the latest status.
 
 ### See also
 
