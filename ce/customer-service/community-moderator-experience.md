@@ -42,7 +42,7 @@ They can do the following tasks:
 - Manage idea flags.
 
 To achieve above:
-1. Navigate to the forum, select the **Forum** tab to update forum Name and Description.
+1. Navigate to the forum, select the **Forum** tab to update forum **Name** and **Description**.
 2. Select the **Ideas** tab, and then select the idea you want to edit.
 3. Update the fields as desired. You can also add a **Moderator Response** and select **Response Generic Author**. 
    **Response Generic Author** enables you to associate a generic role to your response in portal, rather than show your name. The list of  generic roles is managed by your admin.
