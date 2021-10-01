@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Preview: Use effort estimation model in unified routing
+# Use effort estimation model in unified routing (preview)
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -20,24 +20,23 @@ manager: shujoshi
 > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
 
 ## Introduction
 
-Use effort estimation-based model to classify and route work items.
+You can use the effort estimation model to classify and route work items.
 
-You can use the estimation technique to understand how much effort is required and choose the agent who has the bandwidth to manage it.
+You can use the estimation technique to understand how much time it will take to address a work item and based on that route to the agent who has the bandwidth to manage it.
 
-Effort can be defined as the time period necessary to either resolve a work item or amount of time spent on a work item before it is moved to the next stage as defined by the organization:
+Effort can be defined as the lenth of time that's necessary to either resolve a work item or amount of time spent on a work item before it is moved to the next stage as defined by the organization:
 
-Some examples where effort estimate is required are as follows:
+Some examples of how effort can be defined are as follows:
 
-- Estimate time for a customer response through email and assign accordingly
+- Estimate time for an agent to respond to a customer response through email and assign accordingly
 
 - Estimate time for an agent analysis and assign accordingly
 
-- Estimate time for a full resolution and assign accordingly
+- Estimate time for a full case resolution and assign accordingly
 
 ## Create effort estimation models
 
@@ -61,9 +60,9 @@ You can create the effort estimation models in Omnichannel admin center or Custo
    
    - In **Actual effort calculation**, select one of the following options to determine the time to address an incoming work item:
        
-       - **Single duration field**: Select a work item attribute and the time unit.  
-       - **Calculated duration**: Select values to indicate the start and end times.
-       - **SLA KPI instance**: Use the SLA KPI instance to calculate the effort.
+       - **Single duration field**: Select a single work item attribute where time is captured and the time unit.  
+       - **Calculated duration**: Select values to indicate the start and end times that define effort.
+       - **SLA KPI instance**: Use the SLA KPI instance to calculate the effort. This option enables users to use SLAs as the effort definition where the timestamps that are captured when a work item that meets its SLA success criteria serves as the effort definition.
    
    - Optionally, define the filter conditions to select only relevant records.
    
@@ -104,6 +103,9 @@ After you train the effort estimation models, you can create classification rule
    
    :::image type="content" source="media/effort-model-input-attributes.png" alt-text="Choose input attributes for effort estimation.":::
 
+   > [!NOTE]
+   > You can have only one effort estimation rule per workstream.
+
 ## Create route-to-queue rules
 
 Create the route-to-queue rules based on the effort estimation.
@@ -114,7 +116,7 @@ Create the route-to-queue rules based on the effort estimation.
    
    :::image type="content" source="media/effort-model-route-queue-rule.png" alt-text="Rules based on effort estimation model.":::
 
-## Use diagnostics to analyze the efficacy of effort estimation model
+## Use diagnostics to analyze the efficacy of effort estimation models
 
 Routing diagnostics help you see how the work items have been classified and routed after you've configured the rules.
 

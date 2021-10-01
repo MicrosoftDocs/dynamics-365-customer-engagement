@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Preview: Use sentiment prediction-based model in work classification
+# Use sentiment prediction-based model in work classification (preview)
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -20,18 +20,25 @@ manager: shujoshi
 > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
 
 ## Introduction
 
-Use the customer sentiment scores to predict customer sentiment and use the models in classifying work items to route to agents.
+Sentiment prediction for routing enables organizations to use the end customer sentiment scores as a factor in classifying work items to route to agents.
 
-By using the sentiment model, you can write rules to classify work items and assign them to agents who are best equipped to handle them.
+By using sentiment prediction for routing, you can write rules to classify work items and assign them to agents who are best equipped to handle them.
 
-The sentiment is scored on a scale of Zero and 100 percent, where Zero is the most negative and 100 is the most positive score. A score of 50 indicates neutral sentiment.
+The sentiment prediction uses the following seven-point scale that allows organizations flexibility to build nuanced rules while maintaining simplicity.
 
-The model is configured to look for and use the keywords typed by the customer and doesn't consider agent chat strings.
+- Very positive
+- Positive
+- Slightly positive
+- Neutral
+- Slightly negative
+- Negative
+- Very negative
+
+The sentiment model is configured to look for and use the messages provided by the customer and doesn't consider agent chat strings.
 
 ## Enable sentiment prediction
 
@@ -43,9 +50,9 @@ You can enable sentiment prediction in Customer Service Hub or Omnichannel admin
 2. For **Sentiment prediction for routing (preview)**, select **Manage**.
 3. On the **Sentiment Prediction for routing (preview)** page, set the **Enable sentiment prediction for routing** toggle to **Yes**.
 
-### Trial run of sentiment prediction
+### Dry run of sentiment prediction
 
-You can optionally test the sentiment model by using the dry run option.
+You can optionally test the sentiment model by using the dry run option. You can test using real phrases that you expect to see when customers contact support. It helps you understand what the sentiment prediction on those might look like. You can see key information such as the sentiment category on the seven-point scale, the sentiment score that is scaled from zero to 100 and keywords from the phrase that influenced the sentiment score.
 
 **To test the sentiment model**
 
@@ -56,7 +63,7 @@ You can optionally test the sentiment model by using the dry run option.
 
 ## Create classification rules based on sentiment prediction model
 
-After you enable sentiment prediction, create a classification rule based on machine learning model, and select type as **Sentiment prediction**. You can use the rule with other rules to help categorize the work items to be routed to the right agents who will help with the issues.
+After you enable sentiment prediction, you can create a classification rule based on machine learning model, and select type as **Sentiment prediction**. You can use the rule with other rules to help categorize the work items to be routed to the right agents who will help with the customer issue.
 
 **To create a rule based on sentiment prediction**
 
@@ -68,7 +75,7 @@ After you enable sentiment prediction, create a classification rule based on mac
 
     :::image type="content" source="media/sentiment-prediction-based-ruleset.png" alt-text="Sentiment prediction as machine learning model.":::
 
-4. Select the input attribute that typically can be used to gauge the sentiment. For example, for a case workstream, you can select the related entity **Routed record (Case)**, and the attribute as **Description** that might typically contain keywords indicating the sentiment.
+4. Select the input attribute in which the customer sentiment is most likely to be found. For example, for a case workstream, you can select the related entity **Routed record (Case)**, and the attribute as **Description** that might typically contain keywords indicating the sentiment.
 
     i:::image type="content" source="media/input-attributes-sentiment.png" alt-text="Input attributes for sentiment model.":::
 
@@ -80,15 +87,17 @@ After you enable sentiment prediction, create a classification rule based on mac
 
 While the application doesn't prevent you from creating more than one rule that's based on the sentiment prediction model, a warning message is displayed when you try to create another rule based on the same model.
 
+Additional work classification rules can then be created using the output from the sentiment prediction rule. The output is stored in the **Sentiment Category** attribute. You can use any of the values on the seven-point sentiment output to build the rule.
+
 ## Create route-to-queue rules
 
-Create the route-to-queue rules to route the work items based on the sentiment prediction.
+Create route-to-queue rules to route the work items based on the sentiment prediction.
 
 **To create route-to-queue rules**
 
 1. For the workstream in which you created the rule based on sentiment prediction, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
 
-2. Create a rule to define conditions and select the queue to which the work items need to be assigned when the conditions are met.
+2. Create a rule to define conditions. The **Sentiment Category** output attribute contains the sentiment prediction for the work item, and should be used in the rule builder to define the rule.Then and select the queue to which the work items need to be assigned when the conditions are met.
 
     :::image type="content" source="media/route-to-queue-sentiment.png" alt-text="Rules to categorize on sentiment and route to queue.":::
 
