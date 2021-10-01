@@ -284,7 +284,7 @@ For your attached files, use these commands to do the following:
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
 
-**Update Knowledge article attachments for portal**
+**Update knowledge article attachments for portal**
 
 With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature by doing the following:
 
