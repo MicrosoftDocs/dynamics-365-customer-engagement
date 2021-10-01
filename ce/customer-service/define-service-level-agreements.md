@@ -448,7 +448,7 @@ In Unified Interface, by default, when the SLA moves to a terminal status (non-c
 
 > [!NOTE]
 >
-> You can only have one SLA running on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
+> Only one SLA can be run on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
 
 ## Apply SLAs on demand<a name="apply-sla-on-demand"></a>
 
