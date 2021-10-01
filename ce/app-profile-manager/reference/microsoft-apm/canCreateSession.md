@@ -4,13 +4,11 @@ description: "Learn about the canCreateSession API of app profile manager in Cus
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: canCreateSession (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# canCreateSession (app profile manager)
 
 Allows you to check whether a new session can be created.
 
