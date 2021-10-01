@@ -34,187 +34,61 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 | Gather and act on customer feedback | See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. | [Dynamics 365 Customer Voice documentation](/customer-voice/help-hub) |
 
 
-
-- **Know the exact customer to engage**: Shorten the sales cycle with a single workspace that has everything that sellers need to engage the right customer, stay focused, maximize productivity. More information:   
- 
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [Configure the sales accelerator](enable-configure-sales-accelerator.md) |
-    | Seller | [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) |
-    |||
-
-- **Complete the next best activity**: Help sellers focus by giving them clear and achievable sales activities, prioritized through artificial intelligence (AI) and predictive scoring. More information: 
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | - [Configure predictive lead scoring](configure-predictive-lead-scoring.md)<br>- [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md) |
-    | Seller | - [Prioritize leads through scores](work-predictive-lead-scoring.md) <br>- [Prioritize opportunity through scores](work-predictive-opportunity-scoring.md) |
-    |||    
-
-- **Communicate with effective call techniques**: Converse with empathy by employing AI-powered conversation intelligence to detect customer emotion, sentiment, and priorities. More information:    
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [First-run setup experience for conversation intelligence](fre-setup-sales-insight-app.md) |
-    | Seller | [View and understand call summary page](view-and-understand-call-summary.md) |
-    |||
-
-- **Connect across channels**: Streamline selling with integrated multichannel communications such as, soft phone dialer, Microsoft Teams dialer, and email templates. More information: 
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)<br>- [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)<br>- [Set up enhanced email](set-up-enhanced-email.md) |
-    | Seller | - [Call a customer](connect-with-customers.md#call-a-customer)<br>- [Send email using the enhanced email experience](enhanced-email.md) |
-    |||
-        
-- **Meet and collaborate virtually**: Provide coordinated virtual engagement with an enterprise collaboration hub that brings together colleagues, customers, and contextual customer data. More information:
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)  |
-    | Seller | [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
-    |||    
-
-- **Gather and act on customer feedback**: See the customer’s point of view and improve sales engagement by incorporating survey insights from Dynamics 365 Customer Voice—included with Dynamics 365 Sales. More information: [Dynamics 365 Customer Voice documentation](/customer-voice/help-hub).
-
-
 ### Build relationships   
 
-- **Get insights from LinkedIn Sales Navigator**: Within a unified experience from Dynamics 365, view contextual LinkedIn profiles and insights as part of account, contact, lead, and opportunities records.         
-- **Find new buyers**: See recommended leads and discover mutual connections who can provide a warm introduction.    
-- **Keep track of buyers**: Within a unified experience from Dynamics 365 Sales, find out when contacts change jobs and visualize relationships between contacts with interactive org charts.    
-- **Get a unified view of interactions**: Use a comprehensive timeline across Dynamics 365, Microsoft 365, and LinkedIn Sales Navigator to deliver consistent experiences.  
-- **Identify customers who need attention**: Track relationships with a single score based on signals from Dynamics 365 and Microsoft 365 that reveal relationship health and risks. 
-- **Know how to engage customers**: Get proactive guidance on topics such as personalized talking points, internal relationships, icebreakers, and next best actions to move relationships forward.   
-
-| For | Reference links|
-|-----------|----------|
-| Administrator | [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](/dynamics365/linkedin/integrate-sales-navigator) |
-| Sales manager/Seller | [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](/dynamics365/linkedin/sync-linkedin-leads)  |
-|||  
+| Capability | Description | Reference link |
+|------------|-------------|----------------|
+| Get insights from LinkedIn Sales Navigator | Within a unified experience from Dynamics 365, view contextual LinkedIn profiles and insights as part of account, contact, lead, and opportunities records. | Administrator: [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](/dynamics365/linkedin/integrate-sales-navigator)<br>Sales manager/Seller: [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](/dynamics365/linkedin/sync-linkedin-leads)|
+| Find new buyers | See recommended leads and discover mutual connections who can provide a warm introduction. | Administrator:<br> - [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](/dynamics365/linkedin/integrate-sales-navigator)<br> - [Configure who knows whom](configure-who-knows-whom.md)<br>Seller:<br> -[How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](/dynamics365/linkedin/sync-linkedin-leads)<br> - [How to get introduced to a lead](who-knows-whom.md) |
+| Keep track of buyers | Within a unified experience from Dynamics 365 Sales, find out when contacts change jobs and visualize relationships between contacts with interactive org charts. | Administrator: [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](/dynamics365/linkedin/integrate-sales-navigator)<br>Sales manager/Seller: [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](/dynamics365/linkedin/sync-linkedin-leads) |
+| Get a unified view of interactions | Use a comprehensive timeline across Dynamics 365, Microsoft 365, and LinkedIn Sales Navigator to deliver consistent experiences. | Administrator: [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](/dynamics365/linkedin/integrate-sales-navigator)<br>Sales manager/Seller: [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](/dynamics365/linkedin/sync-linkedin-leads) |
+| Identify customers who need attention | Track relationships with a single score based on signals from Dynamics 365 and Microsoft 365 that reveal relationship health and risks. | Administrator: [Configure relationship analytics and health](configure-relationship-analytics.md)<br>Seller: [Use relationship analytics to gather KPIs](relationship-analytics.md) |
+| Know how to engage customers | Get proactive guidance on topics such as personalized talking points, internal relationships, icebreakers, and next best actions to move relationships forward. | Administrator: [Configure talking points](configure-talking-points.md)<br>Seller: [Know conversation starters for your customers](talking-points.md)|
 
 ### Collaborate seamlessly
 
-- **Gain visibility into the right data**: Access customer data and insights in Microsoft Teams to collaborate productively within the sales team.
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app) |
-    | Seller | [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
-    |||  
-
-- **Communicate in context**: Use embedded Microsoft Teams chats in Dynamics 365 for real-time collaboration within the sales team.
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app) |
-    | Seller | [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
-    |||   
-
-- **Manage the pipeline in a single workspace**: Use an intuitive, personalized workspace to view deals, get context, and act swiftly. Get one-click actions and built-in productivity and collaboration from Microsoft 365 and Teams (preview).
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [Enable the deal manager workspace](enable-deal-manager-preview.md) |
-    | Seller | [Using the deal manager workspace](deal-manager-seller-overview.md) |
-    |||   
+| Capability | Description | Reference link |
+|------------|-------------|----------------|
+| Gain visibility into the right data | Access customer data and insights in Microsoft Teams to collaborate productively within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller | [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
+| Communicate in context | Use embedded Microsoft Teams chats in Dynamics 365 for real-time collaboration within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
+| Manage the pipeline in a single workspace | Use an intuitive, personalized workspace to view deals, get context, and act swiftly. Get one-click actions and built-in productivity and collaboration from Microsoft 365 and Teams (preview) | Administrator: [Enable the deal manager workspace](enable-deal-manager-preview.md)<br>Seller: [Using the deal manager workspace](deal-manager-seller-overview.md) |
 
 ### Boost seller productivity    
 
-- **Minimize routine tasks**: Get suggestions to automatically create new records such as contacts, meetings, and tasks.   
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | - [Configure notes analysis](configure-notes-analysis.md)<br>- [Enable and configure auto capture](configure-auto-capture.md) |
-    | Seller | - [How notes analysis assists you with suggestion](notes-analysis.md)<br>- [Capture customer-related activities with auto capture](auto-capture.md) |
-    |||   
-
-- **Automate sales and marketing processes**: Connect your processes with a common platform to optimize efficiencies and marketing ROI and lead handoff.  
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator/Seller | [Overview (Marketing)](/dynamics365/marketing/overview)  |
-    |||   
-
-- **Work seamlessly using everyday apps**: Minimize app switching with contextual sales data surfaced in productivity apps like Outlook. 
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [Deploy and install Dynamics 365 App for Outlook](/dynamics365/outlook-app/deploy-dynamics-365-app-for-outlook)  |
-    | Seller | [Basic navigation in App for Outlook](/dynamics365/outlook-app/user/basic-navigation) |
-    |||   
-
+| Capability | Description | Reference link |
+|------------|-------------|----------------|
+| Minimize routine tasks | Get suggestions to automatically create new records such as contacts, meetings, and tasks. | Administrator:<br>- [Configure notes analysis](configure-notes-analysis.md)<br>- [Enable and configure auto capture](configure-auto-capture.md)<br>Seller:<br>- [How notes analysis assists you with suggestion](notes-analysis.md)<br>- [Capture customer-related activities with auto capture](auto-capture.md) |
+| Automate sales and marketing processes | Connect your processes with a common platform to optimize efficiencies and marketing ROI and lead handoff. | Administrator/Seller | [Overview (Marketing)](/dynamics365/marketing/overview) |
+| Work seamlessly using everyday apps | Minimize app switching with contextual sales data surfaced in productivity apps like Outlook. | Administrator: [Deploy and install Dynamics 365 App for Outlook](/dynamics365/outlook-app/deploy-dynamics-365-app-for-outlook)<br>Seller | [Basic navigation in App for Outlook](/dynamics365/outlook-app/user/basic-navigation) |
 
 ### Keep selling on the go
 
-- **Juggle tasks with ease**: Stay on top of tasks from anywhere with a mobile-first interface that includes push notifications and robust search, and quickly create or update records in mobile-optimized forms.   
-- **See daily priorities at a glance**: Quickly scan upcoming meetings, recent contacts, and real-time notifications to accelerate customer engagement.   
-- **Prepare for meetings**: Using the mobile app for iOS and Android, view critical meeting details, attendee information, and AI-generated reminders, and join Teams meetings—all from a single meeting card.
-- **Skip manual data entry**: Easily capture notes using voice-to-text or the camera on your smartphone for automatic association with related records.
+| Capability | Description | Reference link |
+|------------|-------------|----------------|
+| Juggle tasks with ease | Stay on top of tasks from anywhere with a mobile-first interface that includes push notifications and robust search, and quickly create or update records in mobile-optimized forms. | Seller: [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)|
+| See daily priorities at a glance | Quickly scan upcoming meetings, recent contacts, and real-time notifications to accelerate customer engagement.| Seller: [Learn the basics](learn-basics-mobile-app.md) |
+| Prepare for meetings | Using the mobile app for iOS and Android, view critical meeting details, attendee information, and AI-generated reminders, and join Teams meetings—all from a single meeting card. | Seller: [View meetings](view-agenda.md) |
+| Skip manual data entry | Easily capture notes using voice-to-text or the camera on your smartphone for automatic association with related records. | Seller: [Manage notes](view-edit-add-note.md) |
 
-| For | Reference links|
-|-----------|----------|
-| Administrator | [Prerequisites for the Dynamics 365 Sales mobile app](sales-mobile/prereq-sales-mobile.md) |
-| Seller | - [Install the app on iOS and Android](sales-mobile/install-mobile-app.md)<br>- [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)<br>- [Use the Sales Hub app on Dynamics 365 for phones and tablets app](use-sales-hub-on-dynamics-365-mobile.md) |
-|||   
+### Adapt to rapid changes   
 
-### Adapt to rapid changes    
+| Capability | Description | Reference link |
+|------------|-------------|----------------|
+| Streamline forecasting | Gain visibility and control over revenue with a flexible forecasting solution that reveals risks and opportunities. | Administrator:<br>- [Configure forecasts in your organization](configure-forecast.md)<br>Seller:<br>- [View a forecast](view-forecasts.md)<br>- [View and understand data through drill-down entities](view-understand-data-through-drill-down.md)<br>- [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md) | 
+| Increase forecast accuracy | Leverage built-in AI to augment seller-submitted forecasts and view deal flows and trends. | Administrator:<br>- [Configure premium forecasting](configure-premium-forecasting.md)<br>- [Take snapshots automatically](manage-snapshots-forecast.md)<br>Seller:<br>- [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)<br> - [Understand forecast projections by using trend charts](understand-forecast-projection-through-trend-chart.md)<br> - [Analyze deals flows between snapshots](analyze-deals-flow-between-snapshots.md)| 
+| Gain real-time visibility into sales performance | Use interactive dashboards and reports to track performance, make data-driven decisions, and deliver more effective coaching. | Administrator:<br>- [Create or edit a Power BI embedded system dashboard](/powerapps/maker/model-driven-apps/create-edit-powerbi-embedded-page)<br>- [Use Power BI with Microsoft Dataverse data](/powerapps/maker/data-platform/use-powerbi-dataverse)<br>- [Use Power BI](/powerapps/maker/model-driven-apps/use-power-bi)<br>Seller:<br>- [Add or edit Power BI visualizations on your dashboard](/powerapps/user/add-powerbi-dashboards) | 
+| Tailor processes based on best practices | Design a sequence of activities and connect the sequence to leads and opportunities that appear in a seller’s work queue. | Administrator: [Create and activate a sequence](create-and-activate-a-sequence.md)<br>Seller: [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) | 
+| Adapt AI for your unique needs | Use a powerful, flexible, no-code tool to quickly design and implement next best action recommendations for your sales team. | Administrator: [Configure the assistant](configure-assistant.md)<br>Seller: [Use the assistant to guide customer communications](assistant.md) | 
+| Quickly create custom applications | Extend and adapt the solution with Microsoft Power Platform, including Power Apps and Power Automate, to create custom applications and orchestrate workflows to optimize revenue generation. | Administrator | [Overview of creating apps in Power Apps](/powerapps/maker/index) | 
 
-- **Streamline forecasting**: Gain visibility and control over revenue with a flexible forecasting solution that reveals risks and opportunities.  
- 
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [Configure forecasts in your organization](configure-forecast.md) |
-    | Seller | - [View a forecast](view-forecasts.md)<br> - [View and understand data through drill-down entities](view-understand-data-through-drill-down.md)<br> - [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md) |
-    |||       
+## Different sales offerings for different size of businesses
 
-- **Increase forecast accuracy**: Leverage built-in AI to augment seller-submitted forecasts and view deal flows and trends.    
+Here are the different sales offerings to fit every type and size of business: 
 
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | - [Configure premium forecasting](configure-premium-forecasting.md)<br>- [Take snapshots automatically](manage-snapshots-forecast.md) |
-    | Seller | - [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)<br> - [Understand forecast projections by using trend charts](understand-forecast-projection-through-trend-chart.md)<br> - [Analyze deals flows between snapshots](analyze-deals-flow-between-snapshots.md) |
-    |||   
-
-- **Gain real-time visibility into sales performance**: Use interactive dashboards and reports to track performance, make data-driven decisions, and deliver more effective coaching.  
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | - [Create or edit a Power BI embedded system dashboard](/powerapps/maker/model-driven-apps/create-edit-powerbi-embedded-page)<br>- [Use Power BI with Microsoft Dataverse data](/powerapps/maker/data-platform/use-powerbi-dataverse)<br>- [Use Power BI](/powerapps/maker/model-driven-apps/use-power-bi) |
-    | Seller | [Add or edit Power BI visualizations on your dashboard](/powerapps/user/add-powerbi-dashboards) |
-    |||   
-
-- **Tailor processes based on best practices**: Design a sequence of activities and connect the sequence to leads and opportunities that appear in a seller’s work queue.    
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [Create and activate a sequence](create-and-activate-a-sequence.md) |
-    | Seller | [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) |
-    |||   
-
-- **Adapt AI for your unique needs**: Use a powerful, flexible, no-code tool to quickly design and implement next best action recommendations for your sales team.    
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [Configure the assistant](configure-assistant.md) |
-    | Seller | [Use the assistant to guide customer communications](assistant.md) |
-    |||   
-  
-- **Quickly create custom applications**: Extend and adapt the solution with Microsoft Power Platform, including Power Apps and Power Automate, to create custom applications and orchestrate workflows to optimize revenue generation.    
-
-    | For | Reference links|
-    |-----------|----------|
-    | Administrator | [Overview of creating apps in Power Apps](/powerapps/maker/index)  |
-    |||   
-
-
-## Different sales solutions for different size of businesses
-
-Here are the sales solutions that fit every type and size of business: 
-
-- **Sales Premium** - Ideal for large enterprises that need a sales automation solution, along with AI-driven insights powered by conversation intelligence, relationship intelligence and more. See, [Sales Premium](#tab/sp)](#sales-premiumtabsp)
-- **Sales Enterprise** - Ideal for small-mid sized enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. See, [[Sales Enterprise](#tab/se)](#sales-enterprisetabse)
-- **Sales Professional** - Ideal for small enterprises that need a sales automation solution. [[Sales Professional](#tab/spro)](#sales-professionaltabspro)
+- **Sales Enterprise**: Ideal for small-mid sized enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. More information: [[Dynamics 365 Sales Enterprise](#dynamics-365-sales-enterprise)
+- **Sales Premium**: Ideal for large enterprises that need a sales automation solution, along with AI-driven insights powered by conversation intelligence, relationship intelligence and more. More information: [Dynamics 365 Sales Premium](#dynamics-365-sales-premium)  
+- **Relationship sales**: Ideal for enterprises that need to connect the system of record with the LinkedIn data graph and insights to enhancing business processes with data about people, organizations, and relationships. More information: [Microsoft Relationship Sales](#microsoft-relationship-sales)  
+- **Sales Professional**: Ideal for small enterprises that need a sales automation solution. More information: [Dynamics 365 Sales Professional](#dynamics-365-sales-professional)
 
 > [!TIP]
 > To know the capabilities available in each solution, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
@@ -225,20 +99,14 @@ Here are the sales solutions that fit every type and size of business:
 With the Sales Enterprise solution, your sales organization can automate the sales process from lead to cash, run marketing campaigns, enforce best practices, collaborate with customers, and much more. The following capabilities are available in Sales Enterprise:
 
 - **Nurture sales from lead and cash**: Achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the sale. More information: [Nurture sales from lead to order (Sales Hub)](nurture-sales-from-lead-order-sales.md).
-
 - **Forecast sales**: Predict how much revenue your sales team will generate in a given timeframe. Track individual sales performance against quotas, to proactively identify pipeline risks and provide coaching. More information: [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md).
-
 - **Enforce best practices with playbooks**: Automate repeatable processes and define your organization's best response to events that impact sales. For example, the best response when a decision maker leaves an organization while the team is working on a deal with that decision maker. More information:[Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
-
 - **Run and track marketing campaigns**: Promote your business and improve sales with targeted marketing campaigns. Track customer response and costs for each campaign. More information: [Get started with in-app marketing (Sales)](get-started-app-marketing-sales.md).
-
 
 ### Dynamics 365 Sales Premium
 
-The Dynamics 365 Sales Premium solution combines the Dynamics 365 Sales Enterprise with Sales Insights add-in for Dynamics 365 Sales AI-driven features. 
-
-The features continuously analyze the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
-
+The Dynamics 365 Sales Premium solution combines the Dynamics 365 Sales Enterprise with Sales Insights add-in for Dynamics 365 Sales AI-driven features.     
+The features continuously analyze the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.   
 When you subscribe to Dynamics 365 Sales Premium, you get the following capabilities along with Dynamics 365 Sales Enterprise capabilities:    
 - **Guided selling**: Guide sellers on their next course of action with timely and actionable insights. You can achieve this through the Sales accelerator feature.
 - **Relationship intelligence**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date. Take preemptive steps to mitigate risks with a relationship health score.  The following features are available:   
