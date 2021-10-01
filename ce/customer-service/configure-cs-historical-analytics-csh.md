@@ -88,6 +88,7 @@ You can see the following reports by navigating to the **Service** > **Analytics
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Knowledge search analytics](knowledge-search-analytics-cs.md)  
+[Historical analytics for Unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
 
 
 
