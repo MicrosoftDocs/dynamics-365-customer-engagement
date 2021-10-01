@@ -48,7 +48,7 @@ To achieve above:
    **Response Generic Author** enables you to associate a generic role to your response in portal, rather than show your name. The list of  generic roles is managed by your admin.
 4. To manage idea votes, select the **Votes** tab. A vote value can be either 0 (no vote) or 1 (a single upvote).
 5. From the portal, end users can flag ideas as inappropriate. Forum owners and moderators can go to **Flags** tab to view and manage idea flags.
-6. Go to the **Comments** tab to manage end-user comments. Under **Active comments on idea**, select the comment you want to edit, and then select **Edit**. Under **Moderator Response**, in the **Comments** field, type the desired response. Go to **Flags** tab to manage flags on the selected comment.
+6. Go to the **Comments** tab to manage end-user comments. Under **Active comments on idea**, select the comment you want to edit, and then select **Edit**. Under **Moderator Response**, in the **Comments** field, type the desired response. Go to **Flags** tab to manage flags on this comment.
 
 
 ## Collections
