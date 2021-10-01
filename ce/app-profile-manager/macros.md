@@ -217,11 +217,11 @@ This action opens the specified application in a new tab with the attributes tha
 
 #### Refresh the session context
 
-This action is used to refresh the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables will be defined when the session starts. However, if you update the case title, the session context will not be updated. Therefore, macros will use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
+This action refreshes the session context in Customer Service workspace for entity sessions. For example, if you launch an entity session for a case record, the session context variables will be defined when the session starts. However, if you update the case title, the session context will not be updated. Therefore, macros will use the cached information. You can add the **Refresh the session context** step after starting the macro run to use the latest information.
 
 #### Refresh the tab
 
-This action is used to refresh a tab in the Customer Service workspace session. This action contains the following field.
+This action refreshes a tab in the Customer Service workspace session. This action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -230,7 +230,7 @@ This action is used to refresh a tab in the Customer Service workspace session. 
 
 #### Focus on the tab
 
-This action is used to focus on a tab in the Customer Service workspace session. This action contains the following field.
+This action focuses on a tab in the Customer Service workspace session. This action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -251,7 +251,7 @@ As an administrator, you can use the actions any number of times across differen
 
 #### Send KB article in chat
 
-This action is used to paste a knowledge base article in the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. The action contains the following field.
+This action pastes a knowledge base article in the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. The action contains the following field.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -260,7 +260,7 @@ This action is used to paste a knowledge base article in the conversation chat w
 
 #### Link record to the conversation
 
-This action is used to link a record to the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
+This action links a record to the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -271,7 +271,7 @@ This action is used to link a record to the conversation when the customer is co
 
 #### Unlink record from the conversation
 
-This action is used to unlink a record from the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
+This action unlinks a record from the conversation when the customer is communicating with the agent in the Omnichannel for Customer Service session. This action contains the following fields.
 
    | Field | Description | Parameter |
    |-----------------|-----------------------------|--------------------------|
@@ -290,7 +290,7 @@ As an administrator, you can use the actions any number of times across differen
 
 #### Run Flow
 
-This action is used to trigger Power Automate flows using macros in agent scripts. This action contains the following fields.
+This action triggers Power Automate flows using macros in agent scripts. This action contains the following fields.
 
 | Field                | Description                             | Parameter  |
 |----------------------|-----------------------------------------|------------|
