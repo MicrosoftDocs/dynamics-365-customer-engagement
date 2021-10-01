@@ -24,7 +24,7 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 
 ### Meet buyers where they are
 
-
+Using the following capabilities, sellers can better engage and interact with their customers: 
 
 | Capability | Description | Reference links |
 |------------|-------------|-----------------|
@@ -38,6 +38,8 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 
 ### Build relationships   
 
+Using the following capabilities, sellers can build relationships with customers through information from LinkedIn and their colleagues:
+
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
 | Get insights from LinkedIn Sales Navigator | Within a unified experience from Dynamics 365, view contextual LinkedIn profiles and insights as part of account, contact, lead, and opportunities records. | Administrator: [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](/dynamics365/linkedin/integrate-sales-navigator)<br>Sales manager/Seller: [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](/dynamics365/linkedin/sync-linkedin-leads)|
@@ -49,6 +51,8 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 
 ### Collaborate seamlessly
 
+Using the following capabilities, sellers can collaborate with customers by getting proper data and communicate through Microsoft Teams:
+
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
 | Gain visibility into the right data | Access customer data and insights in Microsoft Teams to collaborate productively within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
@@ -56,6 +60,8 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 | Manage the pipeline in a single workspace | Use an intuitive, personalized workspace to view deals, get context, and act swiftly. Get one-click actions and built-in productivity and collaboration from Microsoft 365 and Teams (preview) | Administrator: [Enable the deal manager workspace](enable-deal-manager-preview.md)<br>Seller: [Using the deal manager workspace](deal-manager-seller-overview.md) |
 
 ### Boost seller productivity
+
+Using the following capabilities, sellers can boost their productivity by automatically capturing tasks and integrating sales processes with marketing:
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
@@ -65,6 +71,8 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 
 ### Keep selling on the go
 
+Using the following capabilities, sellers can get information on their day-to-day tasks on the move through the mobile application: 
+
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
 | Juggle tasks with ease | Stay on top of tasks from anywhere with a mobile-first interface that includes push notifications and robust search, and quickly create or update records in mobile-optimized forms. | Seller: [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)|
@@ -73,6 +81,8 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 | Skip manual data entry | Easily capture notes using voice-to-text or the camera on your smartphone for automatic association with related records. | Seller: [Manage notes](sales-mobile/view-edit-add-note.md) |
 
 ### Adapt to rapid changes   
+
+Using the following capabilities, sellers can get more advanced information on their revenue projections, performance, and daily actions:
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
