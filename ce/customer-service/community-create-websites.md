@@ -30,9 +30,10 @@ ms.custom:
 >
 > [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
-1. Go to Website Settings on left navigation panel.
-2. Press **+New** to create a new website
-3. Go to Power Apps to provision a portal for the new website.
+Complete the following steps to create a new website in Community:
+1. Go to **Website Settings** on the left-side navigation panel.
+2. Select **+New** to create a new website.
+3. Go to [Power Apps](https://make.preview.powerapps.com/) to provision a portal for the new website.
 
 
 ### See also
