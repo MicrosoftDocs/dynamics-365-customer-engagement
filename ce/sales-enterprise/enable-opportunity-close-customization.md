@@ -1,7 +1,7 @@
 ---
 title: "Enable customization of Opportunity Close form - Sales Enterprise | MicrosoftDocs"
 description: "Enable system customizers to customize the opportunity close experience so that sales reps can capture details about why an opportunity was closed."
-ms.date: 04/03/2020
+ms.date: 09/30/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -25,7 +25,7 @@ To enable customization:
 
 2.  Select **System Settings**.
 
-3.  In the **System Settings** dialog box, on the **Sales** tab, set the **Customize close opportunity form** field to **Yes**.
+3.  In the **System Settings** dialog box, on the **Sales** tab, set **Customize close opportunity form** to **Yes**.
 
     > [!div class="mx-imgBorder"]
     > ![Customize opportunity close option in System Settings.](media/system-setting-customize-close-opportunity-form.png "Customize opportunity close option in System Settings")
@@ -39,7 +39,9 @@ If you're using a custom app, in addition to enabling the customization of oppor
 > [!IMPORTANT]
 > With the April 2020 release, this setting is also available in the **App Settings** area of the Sales Hub app itself. To go to this setting:
 > 1. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
-> 2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Collect additional details about closed opportunities using custom form fields on the closing form**.
+> 2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Custom fields on closing form**.
+> 3. On the **Opportunity Closing** page, turn the **Custom fields on closing form** toggle to **Yes**.
+> 4. Select **Save**.
 
 
 ### See also
