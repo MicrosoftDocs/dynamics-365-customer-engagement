@@ -49,7 +49,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 11.	In the **Role** dropdown menu, select **Owner** or **Moderator**, then in **System User**, search and select the user you want.
 12.	Select **Save**.
 13.	To add other owners or moderators, repeat steps 10-12.
-14.	(Skip this step if your forum is public.) If your forum is private, i.e. accessible to "by-invitation" members only, you'll need to add those individuals as contacts. Select **+ New Forum Member**, select **Member** in **Role**, then search for existing contact in **Contact** or add information of the new contact in **Contact Email**, **Contact First Name**, and **Contact Last Name**. Repeat this step to add all by-invitation members.
+14.	(Skip this step if your forum is public.) If your forum is private, i.e. accessible to "by-invitation" members only, you'll need to add those individuals as contacts. Select **+ New Forum Member**, select **Member** in **Role**, then search for existing contact in **Contact** or add information of a new contact in **Contact Email**, **Contact First Name**, and **Contact Last Name**. Repeat this step to add all by-invitation members.
 15.	To publish your forum to the web, go to the **Web** tab, and then select **Yes** from the **Publish to web** dropdown menu.
 16.	Under the **User Access Level**, select the access level for your users in public forums. The default values are **None** for all three configurations.
     **Important**: For private forums, leave the default settings set to **None**.
