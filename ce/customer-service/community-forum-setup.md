@@ -40,7 +40,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 2.	Enter a **Name**, then select **Forum Settings** and **Website Settings**. Settings are managed by your administrator.
 3.	Select the **Categories** tab, and then select **+ New Category**. Categories you define here will be available for end-users to select when they create a new idea in this forum.
 4.	Enter a **Name** for the category, and then select **Save**.
-5.	To add more categories, repeat steps 3 and 4 above..
+5.	To add more categories, repeat steps 3 and 4 above.
 6.	Go to the **Groups** tab and select **+ New Group**. The groups you define here will be available for end-users to select when they create a new idea in this forum.
 7.	Enter a group name, and then select **Save**.
 8.	To add more groups, repeat steps 6 and 7 above.
@@ -49,7 +49,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 11.	In the **Role** dropdown menu, select **Owner** or **Moderator**, then in **System User**, search and select the user you want.
 12.	Select **Save**.
 13.	To add other owners or moderators, repeat steps 10-12.
-14.	(Skip this step if your forum is public.) If your forum is private, i.e. accessible to "by-invitation" members only, you'll need to add those individuals as contacts. Select **+ New Forum Member**, select **Member** in **Role**, then search for existing contact in **Contact** or add information of a new contact in **Contact Email**, **Contact First Name**, and **Contact Last Name**. Repeat this step to add all by-invitation members.
+14.	(Skip this step if your forum is public.) If your forum is private (for example, accessible to "by-invitation" members only), you'll need to add those individuals as contacts. Select **+ New Forum Member**, select **Member** in **Role**, and then search for existing contact in **Contact** or add information of a new contact in **Contact Email**, **Contact First Name**, and **Contact Last Name**. Repeat this step to add all by-invitation members.
 15.	To publish your forum to the web, go to the **Web** tab, and then select **Yes** in the **Publish to web** dropdown menu.
 16.	Under the **User Access Level**, select the access level for your users in public forums. The default values are **None** for all three configurations.
     **Important**: For private forums, leave the default settings set to **None**.
