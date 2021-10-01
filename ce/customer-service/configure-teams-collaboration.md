@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Preview: Configure AI suggestions for agents in Microsoft Teams
+# Configure AI suggestions for agents in Microsoft Teams (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -30,7 +30,7 @@ This feature uses the AI capability to automatically suggest agents in real time
 
 ## How AI suggestions works
 
-Uses AI to suggest contacts who might help agents to resolve an active case based on similar cases the contacts have worked on. Some of the factors related to the experience and proficiency to resolve the similar cases include the following:
+The suggestions capability uses AI to suggest contacts who might help agents to resolve an active case based on similar cases the contacts have worked on. Some of the factors related to the experience and proficiency to resolve the similar cases include the following:
 
 - Number of similar cases the suggested contacts have resolved. More similar cases are resolved might indicate that the contacts have more experience in resolving the cases.
 
@@ -40,7 +40,7 @@ Uses AI to suggest contacts who might help agents to resolve an active case base
 
 - The average time the suggested contacts use to resolve similar cases. Less time spent in resolving similar cases compared to others might indicate that the contact is more familiar about the resolution than the others.
 
-Works with a set of out-of-the-box AI models, so that admins can turn on the feature by setting the toggle, without the need for extra model training.
+It works with a set of out-of-the-box AI models, so that admins can enable the feature by setting the toggle, without the need for extra model training.
 
 For more information about the other factors that impact the AI suggestions, see [How AI suggestions for similar cases and knowledge articles works](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-works)
 
@@ -52,19 +52,20 @@ The AI suggestions are supported in the following languages:
 
 - Dutch
 - English
-- Spanish
 - French
 - German
 - Italian
 - Japanese
+- Spanish
 
 ## Prerequisites
 
 - AI suggestions for similar cases and knowledge articles must be enabled. More information: [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
+- Tenant permissions to enable the enhanced integration with Microsoft Teams feature.
+
 ## Enable collaboration with Microsoft Teams
 
-You'll need tenant permissions to enable the enhanced integration with Microsoft Teams feature.
 
 **To enable collaboration with Microsoft Teams and chat**
 
