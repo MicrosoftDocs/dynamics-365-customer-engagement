@@ -24,7 +24,7 @@ Dynamics 365 Sales comes with digital selling capabilities with prebuilt intelli
 
 ### Meet buyers where they are
 
-The following capabilities help sellers to better engage and interact with customers: 
+Engage and interact with your customers at the right time and place, using methods that they prefer: 
 
 | Capability | Description | Reference links |
 |------------|-------------|-----------------|
@@ -38,7 +38,7 @@ The following capabilities help sellers to better engage and interact with custo
 
 ### Build relationships   
 
-Sellers can build relationships with customers by using information from LinkedIn and their colleagues:
+Build relationships with customers through information from LinkedIn and relationship analytics:
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
@@ -51,27 +51,28 @@ Sellers can build relationships with customers by using information from LinkedI
 
 ### Collaborate seamlessly
 
-The following capabilities help sellers get more accurate data and collaborate with customers using Microsoft Teams.
+Collaborate with customers by getting visibility into the right data data and communicate seamlessly using Microsoft Teams:
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
 | Gain visibility into the right data | Access customer data and insights in Microsoft Teams to collaborate productively within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
 | Communicate in context | Use embedded Microsoft Teams chats in Dynamics 365 for real-time collaboration within the sales team. | Administrator: [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)<br>Seller: [Basic Collaboration experience for Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-collaboration) |
-| Manage the pipeline in a single workspace | Use an intuitive, personalized workspace to view deals, get context, and act swiftly. Get one-click actions and built-in productivity and collaboration from Microsoft 365 and Teams (preview) | Administrator: [Enable the deal manager workspace](enable-deal-manager-preview.md)<br>Seller: [Using the deal manager workspace](deal-manager-seller-overview.md) |
+
 
 ### Boost seller productivity
 
-Sellers can boost their productivity by automatically capturing tasks and integrating sales processes with marketing.
+Boost seller productivity by automatically capturing tasks and integrating sales processes with marketing:
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
 | Minimize routine tasks | Get suggestions to automatically create new records such as contacts, meetings, and tasks. | Administrator:<br>- [Configure notes analysis](configure-notes-analysis.md)<br>- [Enable and configure auto capture](configure-auto-capture.md)<br>Seller:<br>- [How notes analysis assists you with suggestion](notes-analysis.md)<br>- [Capture customer-related activities with auto capture](auto-capture.md) |
 | Automate sales and marketing processes | Connect your processes with a common platform to optimize efficiencies and marketing ROI and lead handoff. | Administrator/Seller: [Overview (Marketing)](/dynamics365/marketing/overview) |
 | Work seamlessly using everyday apps | Minimize app switching with contextual sales data surfaced in productivity apps like Outlook. | Administrator: [Deploy and install Dynamics 365 App for Outlook](/dynamics365/outlook-app/deploy-dynamics-365-app-for-outlook)<br>Seller: [Basic navigation in App for Outlook](/dynamics365/outlook-app/user/basic-navigation) |
+| Manage the pipeline in a single workspace | Use an intuitive, personalized workspace to view deals, get context, and act swiftly. Get one-click actions and built-in productivity and collaboration from Microsoft 365 and Teams (preview) | Administrator: [Enable the deal manager workspace](enable-deal-manager-preview.md)<br>Seller: [Using the deal manager workspace](deal-manager-seller-overview.md) |
 
 ### Keep selling on the go
 
-The Dynamics 365 Sales mobile app lets sellers get information on their day-to-day tasks while on the move. 
+Get information on day-to-day tasks and keep your deals current even while you're on the move using the mobile application: 
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
@@ -82,7 +83,7 @@ The Dynamics 365 Sales mobile app lets sellers get information on their day-to-d
 
 ### Adapt to rapid changes   
 
-Sellers can get more advanced information on their revenue projections, performance, and daily actions, which helps them in planning better.
+Get advanced information about revenue projections, performance, and daily actions, and plan better.
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
@@ -99,7 +100,7 @@ Here are the different sales offerings to fit every type and size of business:
 
 - **Sales Enterprise**: Ideal for small-mid sized enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. More information: [Dynamics 365 Sales Enterprise](#dynamics-365-sales-enterprise)
 - **Sales Premium**: Ideal for large enterprises that need a sales automation solution, along with AI-driven insights powered by conversation intelligence, relationship intelligence and more. More information: [Dynamics 365 Sales Premium](#dynamics-365-sales-premium)  
-- **Relationship sales**: Ideal for enterprises that need to connect sales records with the LinkedIn to enhance business processes with data about people, organizations, and relationships. More information: [Microsoft Relationship Sales](#microsoft-relationship-sales)  
+- **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. More information: [Microsoft Relationship Sales](#microsoft-relationship-sales)  
 - **Sales Professional**: Ideal for the sales automation needs of small or medium-sized businesses. More information: [Dynamics 365 Sales Professional](#dynamics-365-sales-professional)
 
 > [!TIP]
