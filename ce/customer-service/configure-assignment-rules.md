@@ -1,7 +1,7 @@
 ---
 title: "Configure assignment methods for queues | MicrosoftDocs"
 description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
-ms.date: 09/21/2021
+ms.date: 10/04/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -55,7 +55,7 @@ Perform the following steps to create a custom assignment method:
 
       By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility.
 
-   b. **Conditions**: Select **Add** to select an attribute or related entity and define condition.
+   b. **Conditions**: Select **Add** to select an attribute or related entity and define condition. You can define conditions up to two levels of the related records and attributes.
 
    c. **Order by**: Select an attribute to define the order of work assignment if multiple agents match the condition.
 
