@@ -37,7 +37,7 @@ On success, returns a promise object containing the attributes specified earlier
 
 ## Examples
 
-The following example shows how to query for the term "Contoso" among the records of an account entity, specifying the relevance search type.
+The following example shows how to query for the term "Contoso" among the records of an account entity by specifying the relevance search type.
 
 ```JavaScript
 var entityname = "account"
