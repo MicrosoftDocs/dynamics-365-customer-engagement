@@ -23,7 +23,11 @@ manager: shujoshi
 
 Agents can collaborate with other agents directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can help agents find the right experts by enabling the collaboration with Microsoft Teams feature.
 
-This feature enables the capability to automatically suggest agents in real time, based on the current case or conversation when agents explore contacts in the embedded chat experience.
+This feature enables the capability to automatically suggest agents in real time, based on the currently open active case when agents explore contacts in the embedded chat experience.
+
+> [!NOTE]
+> In public preview, AI-suggested contacts is available only when users open a case record.
+
 
 ## Regional availability and supported languages
 
