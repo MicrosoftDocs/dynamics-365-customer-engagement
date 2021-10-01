@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Preview: Collaborate with AI-suggested agents in Microsoft Teams
+# Preview: Collaborate with AI suggested agents in Microsoft Teams
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -21,7 +21,7 @@ manager: shujoshi
 
 ## Introduction
 
-If your administrator has enabled AI suggestions for similar cases and knowledge articles and configured linking of chats to Dynamics 365 records, you can chat with experts who have worked on cases similar to yours and quickly resolve customer issues. To chat with experts, your administrator must enable the option to collaborate with other agents in Microsoft Teams.
+If your administrator has enabled AI suggestions for similar cases and knowledge articles and configured linking of chats to Dynamics 365 records, you can chat with experts who have worked on cases similar to yours and quickly resolve customer issues. To chat with experts, your administrator must also enable the option to collaborate with other agents in Microsoft Teams.
 
 More information: [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
 
@@ -39,7 +39,27 @@ You can do the following:
    - Option to enter participant agent names to create linked chats.
    - A dropdown list of suggested contacts who worked on similar cases. AI and ruled-based suggested contacts are listed if admins have enabled both the options.
    - If AI suggested contacts is enabled, Resolved similar cases dropdown list is displayed.
-       - 
+   
+        :::image type="content" source="media/ai-suggested-contacts-suggestions-dropdown.png" alt-text="AI suggested contacts dropdown list.":::
+   
+   - Each AI suggested contact is displayed with the following details: 
+       - Full name
+       - Display picture if available
+       - Link to the top similar case, which is displayed under the contact’s full name. “Worked on similar case `<similar case title>`. Agents can select the link to view the similar case.
+       - Confidence score that indicates how confident the AI model thinks the suggested contact can help on the active case.
+   
+   - The confidence score is based on multiple factors:
+       - Number of similar cases that the suggested contact resolved.
+       - The similarity of the similar cases to the active case.
+       - How recent the suggested contact resolved the similar cases.
+       - The average time that the suggested contacts use to resolve similar cases.
+   
+   - Agents can hover over the confidence score to view the details.
+   
+        :::image type="content" source="media/confidence-score-with-explanation.png" alt-text="Explanation of the confidence score of similar cases.":::
+   
+   - The default AI suggested contacts list show the top three suggestions. If more contacts are suggested, agents can select **View more** in the dropdown list.
+   
    - The option to send an introductory message that summarizes the case and includes details, such as the following:
        - Status
        - Case title
@@ -47,8 +67,7 @@ You can do the following:
        - Customer
        - Description
        - Priority
-    
-      :::image type="content" source="media/ai-suggested-contacts-suggestions-dropdown.png" alt-text="AI suggested contacts dropdown list.":::
+
 
 2. Type an agent name or select from the suggested contacts. You can select more than one agent and then select **Start chat**.
 
