@@ -37,7 +37,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 ## Create a forum
 
 1.	On the left-side navigation panel, select **Forum**, and then select **New**.
-2.	Enter a **Name**, then select **Forum Settings** and **Website Settings**. Settings are managed by your administrator.
+2.	Enter a **Name**, then select **Forum Settings** and **Website Settings** you want to apply to the forum. Settings are managed by your administrator.
 3.	Select the **Categories** tab, and then select **+ New Category**. Categories you define here will be available for end-users to select when they create a new idea in this forum.
 4.	Enter a **Name** for the category, and then select **Save**.
 5.	To add more categories, repeat steps 3 and 4 above.
