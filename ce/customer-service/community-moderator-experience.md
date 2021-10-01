@@ -1,6 +1,6 @@
 ---
 title: Community moderator experience | MicrosoftDocs
-description: Learn about moderating in the Community for Dynamics 365 Customer Service
+description: Learn about moderating in the Community for Dynamics 365 Customer Service.
 ms.date: 10/04/2021
 ms.topic: article
 author: lalexms
@@ -48,12 +48,12 @@ To achieve above:
    **Response Generic Author** enables you to associate a generic role to your response in portal, rather than show your name. The list of  generic roles is managed by your admin.
 4. To manage idea votes, select the **Votes** tab. A vote value can be either 0 (no vote) or 1 (a single upvote).
 5. From the portal, end users can flag ideas as inappropriate. Forum owners and moderators can go to **Flags** tab to view and manage idea flags.
-6. Go to the **Comments** tab to manage end user comments. Under **Active comments on idea**, select the comment you want to edit, and then select **Edit**. Under **Moderator Response**, in the **Comments** field, type the desired response. Go to **Flags** tab to manage flags on the selected comment.
+6. Go to the **Comments** tab to manage end-user comments. Under **Active comments on idea**, select the comment you want to edit, and then select **Edit**. Under **Moderator Response**, in the **Comments** field, type the desired response. Go to **Flags** tab to manage flags on the selected comment.
 
 
 ## Collections
 
-Forum owners and moderators can create a collection to combine duplicate or related ideas. Successfully-created collections will show in the portal, and all the associated ideas (also called "children ideas") will be removed. Note that users who contributed to the children ideas can still view them (read only) in **My Content** page. 
+Forum owners and moderators can create a collection to combine duplicate or related ideas. Successfully created collections will show in the portal, and all the associated ideas (also called "children ideas") will be removed. Users who contributed to the children ideas can still view them (read only) in **My Content** page. 
 
 Follow these steps to create a collection:
 1. On the left-side navigation panel, select **Collections**, and then select **+ New**.
@@ -63,7 +63,7 @@ Follow these steps to create a collection:
 5. Add a **Title** and **Description** for the new collection. You can also copy these fields from one of the children ideas.
 6. You can optionally select the **Stage**, **Category**, and **Group**, and then select **Next**.
 7. Confirm the details are correct, and then select **Next**.
-8. Wait for the status of the new collection to change from **In-progress** to **Success**. You need to refresh the page to get the latest status.
+8. Wait for the status of the new collection to change from **In-progress** to **Success**. Refresh the page to get the latest status.
 
 ### See also
 
