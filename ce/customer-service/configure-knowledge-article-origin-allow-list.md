@@ -26,7 +26,7 @@ You can configure origins allow list to ensure that knowledge authors add only s
 
 After you've enabled this feature, while creating knowledge articles, if knowledge authors add links whose origin links do not match any of the links specified in the origins list, an error message will be displayed for links that are hosted within an iframe. For example, if you add https://www.contoso.com in the origins list, knowledge authors can use https://www.contoso.com/about or https://www.contoso.com/overview. But if they use https://contoso.com/about or https://contoso.com/overview in the articles, the links will be broken, and an error message will be displayed. Also, in the **Content** field on the knowledge article form, knowledge authors will see the following message: "Update your origins allow list if any iframe in the article doesn't work or displays error."
 
-After the feature is enabled, for published articles, agents and portal users will see an error message in the article for the links that are hosted within an iframe. In such cases, you must update the origins list so that all the existing iframe links will continue to work.
+For published articles, agents and portal users will see an error message in the article for the links that are hosted within an iframe. In such cases, you must update the origins list so that all the existing iframe links will continue to work.
 
 ## Configure origins allow list
 
@@ -43,7 +43,7 @@ After the feature is enabled, for published articles, agents and portal users wi
 
 6.	Select **Save**.
 
-To remove a domain, select **Close** next to the domain.
+To remove a domain, select **Close** next to the domain name.
 
 ### See also
 
