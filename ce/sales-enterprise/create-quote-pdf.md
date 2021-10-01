@@ -1,7 +1,7 @@
 ---
 title: "Create PDF files from sales records - Sales Enterprise | MicrosoftDocs"
 description: "Create PDF files of sales records that look professional and read-only using your standard word templates and share it with your customers."
-ms.date: 10/28/2020
+ms.date: 09/30/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -27,6 +27,9 @@ Your system administrator can choose the entities for which PDF generation is en
 
 1. Open the entity record for which you want to create a PDF file—in this example, a record for the Opportunity entity.
 2. On the command bar, select **Export to PDF**.
+    
+    > [!NOTE]
+    > If you don't see the **Export to PDF** option, contact your administrator to [Enable PDF file generation from sales record](enable-pdf-generation-quote.md).
 
     The **Export to PDF** dialog box appears.
 
