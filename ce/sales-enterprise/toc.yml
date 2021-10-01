@@ -61,7 +61,7 @@
     items:
     - name: Learn the basics
       href: user-guide-learn-basics.md
-    - name: Process of sales
+    - name: Understand the sales process
       href: nurture-sales-from-lead-order-sales.md        
     - name: Import data
       href: /powerapps/user/import-data

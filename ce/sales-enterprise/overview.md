@@ -97,7 +97,7 @@ Using the following capabilities, sellers can get more advanced information on t
 
 Here are the different sales offerings to fit every type and size of business: 
 
-- **Sales Enterprise**: Ideal for small-mid sized enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. More information: [[Dynamics 365 Sales Enterprise](#dynamics-365-sales-enterprise)
+- **Sales Enterprise**: Ideal for small-mid sized enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. More information: [Dynamics 365 Sales Enterprise](#dynamics-365-sales-enterprise)
 - **Sales Premium**: Ideal for large enterprises that need a sales automation solution, along with AI-driven insights powered by conversation intelligence, relationship intelligence and more. More information: [Dynamics 365 Sales Premium](#dynamics-365-sales-premium)  
 - **Relationship sales**: Ideal for enterprises that need to connect the system of record with the LinkedIn data graph and insights to enhancing business processes with data about people, organizations, and relationships. More information: [Microsoft Relationship Sales](#microsoft-relationship-sales)  
 - **Sales Professional**: Ideal for small enterprises that need a sales automation solution. More information: [Dynamics 365 Sales Professional](#dynamics-365-sales-professional)
@@ -110,7 +110,7 @@ Here are the different sales offerings to fit every type and size of business:
 
 With the Sales Enterprise solution, your sales organization can automate the sales process from lead to cash, run marketing campaigns, enforce best practices, collaborate with customers, and much more. The following capabilities are available in Sales Enterprise:
 
-- **Nurture sales from lead and cash**: Achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the sale. More information: [Nurture sales from lead to order (Sales Hub)](nurture-sales-from-lead-order-sales.md).
+- **Nurture sales from lead and cash**: Achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the sale. More information: [Understand the sales process](nurture-sales-from-lead-order-sales.md).
 - **Forecast sales**: Predict how much revenue your sales team will generate in a given timeframe. Track individual sales performance against quotas, to proactively identify pipeline risks and provide coaching. More information: [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md).
 - **Enforce best practices with playbooks**: Automate repeatable processes and define your organization's best response to events that impact sales. For example, the best response when a decision maker leaves an organization while the team is working on a deal with that decision maker. More information:[Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
 - **Run and track marketing campaigns**: Promote your business and improve sales with targeted marketing campaigns. Track customer response and costs for each campaign. More information: [Get started with in-app marketing (Sales)](get-started-app-marketing-sales.md).

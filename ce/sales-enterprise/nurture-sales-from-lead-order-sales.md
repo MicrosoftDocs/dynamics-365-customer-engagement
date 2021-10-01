@@ -18,7 +18,7 @@ searchScope:
   - Sales
 ---
 
-# Process of sales
+# Understand the sales process
 
 A sales process includes a set of repeatable steps that sellers follow to engage with a prospective customer from the early stage of awareness to close a sale. A sales process vary from organization to organization. Typically, the process breaks down into stages that target specific steps, such as qualifying a customer or presenting the solution to the customer.
 
