@@ -35,6 +35,9 @@ The search control for the subject entity is available out of the box in the fol
 
 Perform the following steps to enable the search control for subjects on custom forms:
 
+> [!Important]
+> The search control provides optimal performance for subject hierarchies with less than 2,000 subjects.
+
 1. In Dynamics 365, go to **Customizations** in **Advanced Settings**.
 
 2. Select **Customize the System** to open the default solution.
@@ -50,14 +53,11 @@ Perform the following steps to enable the search control for subjects on custom 
 7. Add **Selection TreeView Control**, and then enable the option for **Web**.
 
    > [!Note]
-   > The search control for Subject field is not supported on Phone and Tablet.
+   > The search control for the Subject field is not supported on phones and tablets.
 
 8. Save and publish your changes.
 
-At runtime, your agents can search for values in the **Subject** field for a case.
-
-> [!Important]
-> The search control provides optimal performance for subject hierarchies with less than 2,000 subjects.
+At runtime, your agents can search for values for a case in the **Subject** field.
 
 ### See also
 
