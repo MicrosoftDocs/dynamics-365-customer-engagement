@@ -54,7 +54,7 @@ For SLAs that are in the expired or terminal status, your administrator can conf
 
 :::image type="content" source="media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
 
-More information: [Enable elapsed timer for SLA items in terminal or expired status](add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-timer-for-SLA-items-in-terminal-or-expired-status)
+More information: [Enable elapsed timer for SLA items in terminal or expired status](add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-SLA-items-in-terminal-or-expired-status)
 
 ### Case form with SLA applied  
 
