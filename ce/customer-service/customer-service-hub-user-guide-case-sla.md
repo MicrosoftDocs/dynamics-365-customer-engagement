@@ -1,7 +1,7 @@
 ---
 title: "Track and manage SLAs in Customer Service Hub | Microsoft Docs"
 description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 10/04/2021
+ms.date: 10/02/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -53,6 +53,8 @@ A sample runtime view of the SLA Timer is as follows.
 For SLAs that are in the expired or terminal status, your administrator can configure the SLA timer to display the elapsed time. The timer will display the countdown using a negative value in the red color. Only those SLA timers that have been configured with the setting to show the negative countdown time will display the negative countdown.
 
 :::image type="content" source="media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
+
+More information: [Enable elapsed timer for SLA items in terminal or expired status](add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-timer-for-SLA-items-in-terminal-or-expired-status)
 
 ### Case form with SLA applied  
 
