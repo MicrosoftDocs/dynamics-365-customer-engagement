@@ -50,5 +50,6 @@ To share feedback and ideas for how we can improve Community, use the [Dynamics 
 [Get started with Community](community-get-started.md)<br>
 [Create a Community forum](community-forum-setup.md)<br>
 [Content moderation and management](community-moderator-experience.md)
+[Create new websites in Community](community-create-websites.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
