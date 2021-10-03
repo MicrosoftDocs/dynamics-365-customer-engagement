@@ -57,7 +57,7 @@ This installation lets your end users do the following tasks:
 [Get started with Community](community-get-started.md)<br>
 [Create a Community forum](community-forum-setup.md)<br>
 [Content moderation and management](community-moderator-experience.md)<br>
-[Create new websites in Community](community-create-websites.md)
+[Create new websites in Community](community-create-websites.md)<br>
 [Community FAQs](community-faqs.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
