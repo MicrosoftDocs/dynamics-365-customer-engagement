@@ -57,24 +57,24 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 11.	Select **+ New Forum Member**.
      > [!div class="mx-imgBorder"] 
      > ![Select New Forum Member.](media/community-new-forum-member.png)
-13.	In the **Role** dropdown menu, select **Owner** or **Moderator**, then in **System User**, search and select the user you want.
-14.	Select **Save**.
+12.	In the **Role** dropdown menu, select **Owner** or **Moderator**, then in **System User**, search and select the user you want.
+13.	Select **Save**.
      > [!div class="mx-imgBorder"] 
      > ![Save your settings for the new member.](media/community-quick-create-forum-member.png)
-15.	To add other owners or moderators, repeat steps 10-12.
-16.	(Skip this step if your forum is public.) If your forum is private (for example, accessible to "by-invitation" members only), you'll need to add those individuals as contacts. Select **+ New Forum Member**, select **Member** in **Role**, and then either search for the existing contact in **Contact** or add information for a new contact in **Contact Email**, **Contact First Name**, and **Contact Last Name**. Repeat this step to add all by-invitation members.
+14.	To add other owners or moderators, repeat steps 10-12.
+15.	(Skip this step if your forum is public.) If your forum is private (for example, accessible to "by-invitation" members only), you'll need to add those individuals as contacts. Select **+ New Forum Member**, select **Member** in **Role**, and then either search for the existing contact in **Contact** or add information for a new contact in **Contact Email**, **Contact First Name**, and **Contact Last Name**. Repeat this step to add all by-invitation members.
      > [!div class="mx-imgBorder"] 
      > ![Search for and select an existing contact or create a new one.](media/community-select-create-contact.png)
-17.	To publish your forum to the web, go to the **Web** tab, and then select **Yes** in the **Publish to web** dropdown menu.
+16.	To publish your forum to the web, go to the **Web** tab, and then select **Yes** in the **Publish to web** dropdown menu.
      > [!div class="mx-imgBorder"] 
      > ![Select Yes to publish to the web.](media/community-publish-settings.png)
-18.	Under the **User Access Level**, select the access level for your users in public forums. The default values are **None** for all three configurations.
+17.	Under the **User Access Level**, select the access level for your users in public forums. The default values are **None** for all three configurations.
     **Important**: For private forums, leave the default settings set to **None**.
     - **Internal Authenticated Users**: Select the access level for users who are authenticated with email domains specified by your admin.
     - **External Authenticated Users**: Select the access level for non-internal authenticated users.
     - **Anonymous Users**: Select the access level for non-authenticated users.
-19.	Go to the **Quick Links** tab to define links that show to end-users in the forum. You can choose whether to include quick links that the admin added to the portal home page.
-20.	To add a forum **Quick Link**, select **+ New Quick Link**, and then enter the following values:<br>
+18.	Go to the **Quick Links** tab to define links that show to end-users in the forum. You can choose whether to include quick links that the admin added to the portal home page.
+19.	To add a forum **Quick Link**, select **+ New Quick Link**, and then enter the following values:<br>
     - **Display Label**: Refers to how the link will be displayed in the portal.<br>
     - **URL**: The webpage URL.<br>
     - **Description**: An optional field where you can provide additional information to describe this link to users.<br>
