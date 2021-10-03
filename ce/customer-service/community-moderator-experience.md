@@ -49,7 +49,7 @@ Follow these steps to moderate community content:
 4. Update the fields as desired. You can also add a **Moderator Response** and select **Response Generic Author**. 
    **Response Generic Author** enables you to associate a generic role to your response in portal, rather than show your name. The list of  generic roles is managed by your admin.
     > [!div class="mx-imgBorder"] 
-    > ![Select the Ideas tab in Customer Service Community.](media/community-moderator-response-generic-author.png)
+    > ![Select the Ideas tab in Customer Service Community.](media/community-moderator-response-generic.png)
 5. To manage idea votes, select the **Votes** tab. A vote value can be either 0 (no vote) or 1 (a single upvote).
     > [!div class="mx-imgBorder"] 
     > ![Select the Votes tab in Customer Service Community.](media/community-select-votes-tab.png)
