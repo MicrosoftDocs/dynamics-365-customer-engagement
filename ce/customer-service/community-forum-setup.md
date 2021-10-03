@@ -61,7 +61,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 13.	Select **Save**.
      > [!div class="mx-imgBorder"] 
      > ![Save your settings for the new member.](media/community-quick-create-forum-member.png)
-14.	To add other owners or moderators, repeat steps 10-12.
+14.	To add other owners or moderators, repeat steps 11-13.
 15.	(Skip this step if your forum is public.) If your forum is private (for example, accessible to "by-invitation" members only), you'll need to add those individuals as contacts. Select **+ New Forum Member**, select **Member** in **Role**, and then either search for the existing contact in **Contact** or add information for a new contact in **Contact Email**, **Contact First Name**, and **Contact Last Name**. Repeat this step to add all by-invitation members.
      > [!div class="mx-imgBorder"] 
      > ![Search for and select an existing contact or create a new one.](media/community-select-create-contact.png)
