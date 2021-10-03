@@ -87,6 +87,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 [Community overview](community-overview.md)<br>
 [Get started with Community](community-get-started.md)<br>
 [Content moderation and management](community-moderator-experience.md)<br>
+[Create new websites in Community](community-create-websites.md)<br>
 [Community FAQs](community-faqs.md)
 
 
