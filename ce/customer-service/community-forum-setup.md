@@ -75,10 +75,10 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
     - **Anonymous Users**: Select the access level for non-authenticated users.
 19.	Go to the **Quick Links** tab to define links that show to end-users in the forum. You can choose whether to include quick links that the admin added to the portal home page.
 20.	To add a forum **Quick Link**, select **+ New Quick Link**, and then enter the following values:<br>
-    **Display Label**: Refers to how the link will be displayed in the portal.<br>
-    **URL**: The webpage URL.<br>
-    **Description**: An optional field where you can provide additional information to describe this link to users.<br>
-    **Group label**: An optional field where you can specify the name of the group under which the link will be listed.
+    - **Display Label**: Refers to how the link will be displayed in the portal.<br>
+    - **URL**: The webpage URL.<br>
+    - **Description**: An optional field where you can provide additional information to describe this link to users.<br>
+    - **Group label**: An optional field where you can specify the name of the group under which the link will be listed.
      > [!div class="mx-imgBorder"] 
      > ![Add a forum quick link.](media/community-forum-quick-link.png)
     
