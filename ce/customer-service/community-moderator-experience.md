@@ -69,13 +69,28 @@ to combine duplicate or related ideas, forum owners and moderators can create a 
 
 Follow these steps to create a collection:
 1. On the left-side navigation pane, select **Collections**, and then select **+ New**.
+    > [!div class="mx-imgBorder"] 
+    > ![Select the Collections tab.](media/community-view-collections.png)
 2. Select the forum you want to combine ideas from, and then select **Next**.
-3. Select the plus sign (+) to add ideas from **Active ideas in this forum** list to the collection. Utilize search in long lists. Added ideas will show in the **Collection ideas** list. 
+    > [!div class="mx-imgBorder"] 
+    > ![Select forum you want to combine ideas from.](media/community-select-forum-ideas.png)
+3. Select the plus sign (+) to add ideas from **Active ideas in this forum** list to the collection. Utilize search in long lists. Added ideas will show in the **Collection ideas** list.
+    > [!div class="mx-imgBorder"] 
+    > ![Select the ideas for the collection.](media/community-select-ideas.png)
 4. When you're done adding ideas, select **Next**.
 5. Add a **Title** and **Description** for the new collection. You can also copy these fields from one of the child ideas.
 6. Optional: You can select the **Stage**, **Category**, and **Group**, and then select **Next**.
+    > [!div class="mx-imgBorder"] 
+    > ![Add details for the collection.](media/community-set-collection-details.png)
 7. Confirm that the details are correct, and then select **Finish**.
+    > [!div class="mx-imgBorder"] 
+    > ![Confirm accuracy of details for collection.](media/community-review-finish.png)
 8. Wait for the status of the new collection to change from **In-progress** to **Success**. Refresh the page to get the latest status.
+    > [!div class="mx-imgBorder"] 
+    > ![Collection creation is in progress.](media/community-collection-in-progress.png)
+ 
+    > [!div class="mx-imgBorder"] 
+    > ![Collection creation is successful.](media/community-collection-success.png)
 
 ### See also
 
