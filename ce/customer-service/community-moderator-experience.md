@@ -79,7 +79,7 @@ Follow these steps to create a collection:
     > ![Select the ideas for the collection.](media/community-select-ideas.png)
 4. When you're done adding ideas, select **Next**.
 5. Add a **Title** and **Description** for the new collection. You can also copy these fields from one of the child ideas.
-6. Optional: You can select the **Stage**, **Category**, and **Group**, and then select **Next**.
+6. Optional: You can select the **Stage**, **Group**, and **Category**, and then select **Next**.
     > [!div class="mx-imgBorder"] 
     > ![Add details for the collection.](media/community-set-collection-details.png)
 7. Confirm that the details are correct, and then select **Finish**.
