@@ -1,7 +1,7 @@
 ---
 title: Overview of Community | MicrosoftDocs
 description: Learn about the Community feature in Community in Dynamics 365 Customer Service
-ms.date: 10/04/2021
+ms.date: 10/03/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
