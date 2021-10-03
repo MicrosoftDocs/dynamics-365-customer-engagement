@@ -52,7 +52,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 6.	When you are finished, select **Save and Close**.
 7.	Go to the **Groups** tab and select **+ New Group**. The groups you define here will be available for end-users to select when they create a new idea in this forum.
 8.	Enter a group name, and then select **Save**.
-9.	To add more groups, repeat steps 6 and 7 above.
+9.	To add more groups, repeat steps 7 and 8 above.
 10.	Go to the **Membership** tab to add members to your forums. You'll see that you are already added as owner. The **Membership** tab is where you add forum owners and moderators.
 11.	Select **+ New Forum Member**.
      > [!div class="mx-imgBorder"] 
