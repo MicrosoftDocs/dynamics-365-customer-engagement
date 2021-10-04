@@ -42,8 +42,13 @@ This step is performed in the **Event triggers** section of real-time marketing.
 
   Attributes have a **Name** and a **Data type**. Choosing the correct data type (Text, Number, True or false, or Date/time) is important to ensure that customer journeys can provide appropriate comparators in conditions. For example, if an attribute is of data type **Number**, the journey will provide a comparator such as *less than* or *equal to*. If an attribute is of type **Date/time**, the journey will provide comparators such as *before*, *on*, and *after*.
 
-> [!IMPORTANT]
-> A special type of attribute called **Customer data** is present by default in every custom event. This attribute will contain customer-specific data such as names, addresses, or phone numbers to be used in customer journeys. It is important to choose the correct data type for this attribute, which can either be a Dynamics 365 Contact or Lead, or a [Customer Insights profile](/customer-insights/audience-insights/overview). Consult with your developer team to ensure the correct data type is used.  
+- **Special Attributes**
+  
+    **Customer data** is a special attribute present by default in every custom event. This attribute contains information about the customer that performs the event trigger action. The data type can either be a Dynamics 365 Contact or Lead, or a [Customer Insights profile](/customer-insights/audience-insights/overview). In code this attribute is referred to as *authID*.
+
+    **contactpoint_email** is a special attribute that is present in custom events that are tied to a Customer Insights profile. This attribute will be used as a fall back in case the full Customer Insights profile isn't available. Developer's should include the customer's email in this attribute to ensure the customer can be reached via email even if their full profile information isn't available.
+
+    **contactpoint_phone** is a special attribute that is present in custom events that are tied to a Customer Insights profile. This attribute will be used as a fall back in case the full Customer Insights profile isn't available. Developer's should include the customer's phone number in this attribute to ensure the customer can be reached via text messages even if their full profile information isn't available.
 
 ## 2. Event integration
 
