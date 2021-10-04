@@ -1,7 +1,7 @@
 ---
 title: "Overview of Dynamics 365 Field Service integrations | MicrosoftDocs"
 description: Learn about the various ways to integrate Dynamics 365 Field Service with other business apps.
-ms.date: 01/05/2021
+ms.date: 10/04/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.custom: intro-internal
@@ -37,6 +37,10 @@ If your organization is using Dynamics 365 Remote Assist, frontline workers can 
 ## Integrate with Dynamics 365 Guides 
 
 Integration with Dynamics 365 Guides lets Field Service customers attach mixed reality guides to Field Service tasks, allowing frontline workers to launch the Dynamics 365 Guides HoloLens app to view the assigned guide and get their work done. For more information, see the article: [Integrate Field Service with Dynamics 365 Guides](mixed-reality-guides-integration.md).
+
+## Integrate with Microsoft Teams
+
+Integrate with Microsoft Teams to chat with team members in the context of work orders. This makes it easy to find answers and fix issues the first time. It also makes it easy to understand which team members may have previously worked with on a work order. After enabling the integration (currently in public preview); open a Teams panel from the work order form in Dynamics 365 and initiate chats with other team members. 
 
 
 ## Integrate with SAP 
