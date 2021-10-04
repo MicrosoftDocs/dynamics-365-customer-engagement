@@ -4,13 +4,11 @@ description: "Learn about the getTab API of app profile manager in Customer Serv
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: getTab (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# getTab (app profile manager)
 
 Returns the tab object for a tab identifier.
 
