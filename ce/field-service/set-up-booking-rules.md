@@ -318,7 +318,23 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
 
 ## Additional notes
 
-- The bookable resource booking is enabled to leverage booking rules, in order to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. As a result, business process flows can't be used on the bookable resource booking entity.
+- The bookable resource booking is enabled to leverage booking rules, in order to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. As a result, business process flows can't be used on the bookable resource booking entity with Booking rules enabled. 
+- However, the processing of booking rules can be disabled on the save of the Booking form by enabling the below setting, which would let the users use the business process flows. The client side APIs can be used to enable this setting at an environment level. 
+
+Read current value of the setting **msdyn_DisableProcessBookingRulesOnSaveBookingForm**
+```
+Xrm.Utility.getGlobalContext().getCurrentAppSettings()["msdyn_DisableProcessBookingRulesOnSaveBookingForm"]
+```
+
+Enable the setting **msdyn_DisableProcessBookingRulesOnSaveBookingForm**
+```
+Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_DisableProcessBookingRulesOnSaveBookingForm",true,).then(() => {a = "success"}, (error) => {a = error})
+```
+
+Disable the setting **msdyn_DisableProcessBookingRulesOnSaveBookingForm**
+```
+Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_DisableProcessBookingRulesOnSaveBookingForm",false,).then(() => {a = "success"}, (error) => {a = error})
+```
 
 ### See also    
  [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
