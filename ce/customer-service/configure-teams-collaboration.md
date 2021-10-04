@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Configure AI suggestions for agents in Microsoft Teams (preview)
+# Configure AI suggestions for contacts in Microsoft Teams (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -28,9 +28,9 @@ This feature uses the AI capability to automatically suggest agents in real time
 > [!NOTE]
 > In public preview, AI suggestions for contacts is available only when users open an active case record.
 
-## How AI suggestions works
+## How AI suggested contacts works
 
-The suggestions capability uses AI to suggest contacts who might help agents to resolve an active case based on similar cases the contacts have worked on. Some of the factors related to the experience and proficiency to resolve the similar cases include the following:
+The suggestions capability uses AI to suggest contacts who might help agents to resolve an active case based on similar cases the contacts have worked on. It uses similar case suggestions to find similar cases, then identifies best contacts based on a few factors related to the experience and proficiency to resolve the similar cases, including the following:
 
 - Number of similar cases the suggested contacts have resolved. More similar cases are resolved might indicate that the contacts have more experience in resolving the cases.
 
@@ -42,11 +42,11 @@ The suggestions capability uses AI to suggest contacts who might help agents to 
 
 It works with a set of out-of-the-box AI models, so that admins can enable the feature by setting the toggle, without the need for extra model training.
 
-For more information about the other factors that impact the AI suggestions, see [How AI suggestions for similar cases and knowledge articles works](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-works)
+For more information about similar case suggestions that impact the AI suggested contacts, see [How AI suggestions for similar cases and knowledge articles works](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-works)
 
 ## Regional availability and supported languages
 
-The AI suggestions are supported in geographical locations that AI suggestions for similar cases and knowledge articles supports. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
+The AI suggestions are supported in geographical locations that AI suggestions for similar cases supports. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
 
 The AI suggestions are supported in the following languages:
 
@@ -60,7 +60,7 @@ The AI suggestions are supported in the following languages:
 
 ## Prerequisites
 
-- AI suggestions for similar cases and knowledge articles must be enabled. More information: [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
+- AI suggestions for similar cases must be enabled. More information: [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
 - Tenant permissions to enable the enhanced integration with Microsoft Teams feature.
 
@@ -83,6 +83,8 @@ The AI suggestions are supported in the following languages:
 
     It takes 24 hours for the data to be preprocessed for the first time use.
 
+    :::image type="content" source="media/enable-ai-suggested-contacts.png" alt-text="Enable the settings for AI suggested contacts.":::
+
 5. Optionally, set the toggle for **Turn on Enhanced Microsoft Teams Integration** to **Yes**. This setting lets agents pin records and views to a Teams channel directly from Dynamics 365 and also suggests agents who worked on similar cases.
 
 6. Optionally, set the toggle for **Enable Confidential Labels** to **Yes** to create private Teams messages and add sensitivity or confidentiality labels in enhanced Microsoft Teams integration.
@@ -90,6 +92,6 @@ The AI suggestions are supported in the following languages:
 
 ### See also
 
-[Collaborate with AI-suggested agents in Microsoft Teams chat](use-ai-suggested-agents-teams.md)  
+[Collaborate with AI-suggested contacts in Microsoft Teams chat](use-ai-suggested-contacts-teams.md)  
 [Overview of Customer Service workspace](csw-overview.md)  
 
