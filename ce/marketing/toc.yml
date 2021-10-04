@@ -163,6 +163,7 @@
       - name: Manage user compliance settings
         href: real-time-marketing-compliance-settings.md
       - name: Use GDPR features
+        href: gdpr-use-features.md
       - name: Set up global double opt-in
         href: double-opt-in.md
       - name: Set up form double opt-in
