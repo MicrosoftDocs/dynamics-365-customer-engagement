@@ -22,6 +22,10 @@ search.app:
 
 [Install and set up](https://docs.microsoft.com/dynamics365/teams-integration/teams-install-app)
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-teams-messages.png)
+
 ## Prerequisites
 > [!Note]
 >
@@ -29,15 +33,57 @@ search.app:
 >[!TIP] 
 > 
 
+Enable Teams integration with Work Order or other tables
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-teams-enable-administration.png)
 
-For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyHY4]
+## Create a new chat from a work order
 
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-teams-create.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-teams-compose.png)
+
+
+
+
+## Link and unlink existing chats 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-teams-link-to-work-order.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-teams-unlink.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-teams-search.png)
+
+
+
+
+
+
+
+
+
+## Customize welcome message
+
+Select the work order table form the Teams collaboration admin page then choose a view from the system. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-teams-welcome-view.png)
+
+The first 5 coulmns in the view you choose will be displayed in the welcome message when you invite someone to collaborate on a work order.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-teams-welcome-message.png)
 
 
 ## Configuration considerations
