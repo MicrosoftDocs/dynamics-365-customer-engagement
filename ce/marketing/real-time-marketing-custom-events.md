@@ -1,7 +1,7 @@
 ---
 title: "Custom event triggers in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing custom event triggers in Dynamics 365 Marketing."
-ms.date: 08/02/2021
+ms.date: 10/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -44,11 +44,11 @@ This step is performed in the **Event triggers** section of real-time marketing.
 
 - **Special Attributes**
   
-    **Customer data** is a special attribute present by default in every custom event. This attribute contains information about the customer that performs the event trigger action. The data type can either be a Dynamics 365 Contact or Lead, or a [Customer Insights profile](/customer-insights/audience-insights/overview). In code this attribute is referred to as *authID*.
+    **Customer data** is a special attribute present by default in every custom event. This attribute contains information about the customer that performs the event trigger action. The data type can either be a Dynamics 365 contact or lead, or a [Customer Insights profile](/customer-insights/audience-insights/overview). In code, this attribute is referred to as *authID*.
 
-    **contactpoint_email** is a special attribute that is present in custom events that are tied to a Customer Insights profile. This attribute will be used as a fall back in case the full Customer Insights profile isn't available. Developer's should include the customer's email in this attribute to ensure the customer can be reached via email even if their full profile information isn't available.
+    **contactpoint_email** is a special attribute that is present in custom events that are tied to a Customer Insights profile. This attribute will be used as a fall back in case the full Customer Insights profile isn't available. Developers should include the customer's email in this attribute to ensure the customer can be reached by email even if their full profile information isn't available.
 
-    **contactpoint_phone** is a special attribute that is present in custom events that are tied to a Customer Insights profile. This attribute will be used as a fall back in case the full Customer Insights profile isn't available. Developer's should include the customer's phone number in this attribute to ensure the customer can be reached via text messages even if their full profile information isn't available.
+    **contactpoint_phone** is a special attribute that is present in custom events that are tied to a Customer Insights profile. This attribute will be used as a fall back in case the full Customer Insights profile isn't available. Developers should include the customer's phone number in this attribute to ensure the customer can be reached by text messages even if their full profile information isn't available.
 
 ## 2. Event integration
 
