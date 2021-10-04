@@ -1,7 +1,7 @@
 ---
 title: "Using deal manager - Sales Enterprise | MicrosoftDocs"
 description: "Deal manager is a dedicated workspace for sellers to efficiently manage their sales pipeline. Sellers can personalize the workspace for their needs."
-ms.date: 09/17/2021
+ms.date: 10/01/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,9 +15,6 @@ manager: shujoshi
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 The deal manager workspace offers a new way to manage opportunities in Dynamics 365 Sales. As a seller, you can personalize the workspace depending on what you want to see. You can organize opportunities in a way that makes sense to you, personalize your view, update information on the fly, add notes and tasks, and much more. You can also ask your administrator to customize the experience further to improve your productivity. 
-
-> [!NOTE]
-> A similar experience is also available for contacts, opportunities, leads, and accounts - an editable grid that you can personalize and a side panel that you can customize. For information on switching to the new experience, see [Switch to the new view for contacts, opportunities, leads, and accounts](sales-previews-in-trial.md#switch-to-the-new-view-for-contacts-opportunities-leads-and-accounts)
 
 :::image type="content" source="media/deal-manager-overview-v1-small.png" alt-text="Screenshot showing the four main areas of the deal manager workspace as described in the following table." lightbox="media/deal-manager-overview-v1.png":::
 
