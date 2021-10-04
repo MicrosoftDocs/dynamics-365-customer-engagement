@@ -11,18 +11,22 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Regional availability of insights in Customer Service
 
-The following insights features are available in all supported geographical regions:
+Customer Service features are available in the following regions.
 
-- Customer Service historical analytics
-- Case topic clustering
-- Sentiment analysis
+| Feature | North America| Europe | Asia Pacific | South America | OCE |Japan | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany
+| ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
+| Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ ||  |
+| Case Topic Clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ ||  |
+| Smart Assist Suggestions | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ || |
+| Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ || |
+| Conversation Topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ || |
+| Sentiment analysis | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ ||  |
+| AI suggestions for cases and knowledge articles | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |✖ |
+| AI suggestions for article keywords and description | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |✖ |
 
-The following insights features are not supported in the listed regions:
 
-- **AI suggestions for cases and knowledge articles**: Germany
-- **AI suggestion for article keywords and description**: Germany
-- **Omnichannel historical analytics**: France, Switzerland, and United Arab Emirates
-- **Conversation topic clustering**: France, Switzerland, and United Arab Emirates
+✔ : Available  
+✖ : Not available
 
 ## Service limits in Dynamics 365 Customer Service Insights
 
