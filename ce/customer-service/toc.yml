@@ -204,6 +204,22 @@
             href: ../app-profile-manager/reference/microsoft-apm/updateContext.md                   
     - name: Readme
       href: https://go.microsoft.com/fwlink/p/?linkid=2141982
+  - name: Community
+    items: 
+    - name: Overview of Community
+      href: community-overview.md
+    - name: Get started with Community
+      href: community-get-started.md
+    - name: Create a Community forum
+      href: community-forum-setup.md
+    - name: Moderator experience
+      href: community-moderator-experience.md
+    - name: Community FAQs
+      href: community-faqs.md
+    - name: Advanced settings   
+      items:                
+      - name: Create new websites
+        href: community-create-websites.md 
   - name: Unified routing and assignment
     items:
     - name: Overview of unified routing
@@ -272,6 +288,8 @@
         href: work-with-queues.md
       - name: Manage case queues and route cases
         href: customer-service-hub-user-guide-case-queues-and-routing.md
+      - name: Manage skills
+        href: manage-skills.md
     - name: Developer experience
       items: 
       - name: How unified routing affects queue items and their APIs
@@ -336,6 +354,8 @@
         href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
+      - name: Recalculate SLAs on terminal status
+        href: enable-sla-recalculation.md
       - name: Create entitlements to define support terms
         href: create-entitlement-define-support-terms-customer.md
       - name: Manage service configuration settings
@@ -396,6 +416,8 @@
         href: customer-service-hub-user-guide-knowledge-article.md
       - name: Configure the knowledge article authoring language
         href: set-knowledge-article-authoring-language.md
+      - name: Configure the origin allow list for knowledge articles
+        href: configure-knowledge-article-origin-allow-list.md
       - name: Create a knowledge article using a template
         href: create-knowledge-article-using-template.md
       - name: Create knowledge article templates in Customer Service
@@ -736,6 +758,8 @@
         href: enable-knowledge-search-insights.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
+      - name: Configure AI suggestions for article keywords and descriptions
+        href: configure-ai-suggested-article-keywords-description.md
       - name: Configure Customer Service analytics dashboards in Power BI
         href: configure-customer-service-analytics-dashboard.md
       - name: Configure AI topic clustering for conversation
