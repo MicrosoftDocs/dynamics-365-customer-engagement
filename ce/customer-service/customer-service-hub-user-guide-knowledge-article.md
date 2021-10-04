@@ -550,7 +550,7 @@ After the content in the article is complete and reviewed, you can publish the a
     :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
     
 > [!NOTE]
-> If there is an active layer over msdynce_KnowledgeManagementFeatures for the knowledge article interactive experience form, you may not be able to view the quick form publish dialog. You must delete the active layer for package updates to take effect. More information: [Remove an unmanaged layer](/powerapps/maker/data-platform/solution-layers).
+> If there is an active layer over msdynce_KnowledgeManagementFeatures for the knowledge article interactive experience form, you may not be able to view the quick form publish dialog. You must delete the active layer for package updates to take effect. More information: [Solution layers](/powerapps/maker/data-platform/solution-layers).
 
 ## Track basic details of an article  
 
