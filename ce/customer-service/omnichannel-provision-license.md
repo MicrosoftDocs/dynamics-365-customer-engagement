@@ -1,7 +1,7 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps in this topic to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 09/28/2021
+ms.date: 10/04/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -20,11 +20,14 @@ Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-o
 
 ## Prerequisites
 
-To provision the Omnichannel for Customer Service application, make sure you've met the following prerequisites:
+To provision the Omnichannel for Customer Service application, make sure you've completed the following prerequisites:
 
 - Obtained an active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).
 - Set up the prerequisites mentioned in the system requirements. More information: [Prerequisites](system-requirements-omnichannel.md#prerequisites).
-- Ensured that you have **Global Tenant Admin** and **Dynamics 365 System Admin** permissions on the root business unit for your organization.
+- Ensured that the provisioning user has the following permissions:
+    - Microsoft 365 Global Admin role. More information: [Assign Admin roles to user in Microsoft Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide)
+    - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles.md) and [Create or edit business units](/power-platform/admin/create-edit-business-units.md)
+    - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users.md#create-a-read-write-user-account)
 
 ## Provide data access consent
 
