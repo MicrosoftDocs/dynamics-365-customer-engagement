@@ -20,15 +20,15 @@ The steps to configure skill-based routing are as follows:
 4. [Set exact or closest match as the default skill-matching algorithm for a workstream](create-workstreams.md#configure-work-distribution).
 5. Choose one of the following skill-classification methods:
    - [Author manual classification rules to attach skills for a workstream](configure-work-classification.md#create-manual-skill-classification-rulesets).
-   - [Setup intelligent skill finder model](#set-up-intelligent-skill-finder-model) and [Author machine learning-based classification rules to attach skills](configure-work-classification.md#create-machine-learning-based-skill-classification-rulesets).
-6. [Choose out of box assignment method or author a custom assignment method for a queue](assignment-methods.md).
-7. [Enable skill control for the agent](add-skill-control.md).
+   - [Set up intelligent skill finder model](#set-up-intelligent-skill-finder-model) and [author machine learning-based classification rules to attach skills](configure-work-classification.md#create-machine-learning-based-skill-classification-rulesets).
+6. [Choose out-of-box assignment method or author a custom assignment method for a queue](assignment-methods.md).
+7. [Enable skill control for the agent](allow-agents-update-skills.md).
 
 ## How skills are matched
 
 How the default skill match algorithm works when you set the value as exact match or closest match for a workstream is explained in this section. When the work classification skill rules attach skills and proficiency level, the assignment method matches the required skill with the skills of the agent. The system assigns the conversation to an agent based on the skill criteria chosen.
 
-The default skill-matching algorithm will work only with the out-of-the-box assignment method. If you choose to use the custom assignment method, then you'll need to write the conditions to achieve skill-based routing. The rules written for custom assignment override the algorithm in the work distribution settings of the workstream.
+The default skill-matching algorithm will work only with the out-of-the-box assignment method. If you choose to use the cocustom assignment method, then you'll need to write the conditions to achieve skill-based routing. The rules written for custom assignment override the algorithm in the work distribution settings of the workstream.
 
 You can achieve the following skill matching based on the business requirements:
 
