@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 09/23/2021
+ms.date: 09/28/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -73,7 +73,13 @@ After knowledge management is set up, users will be able to:
   * Type: Select **URL**. 
   * URL: Enter **/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings**
 
-3.	Select **Save** and then **Publish**.
+## Set up AI suggestions for article keywords and description (preview)
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description-preview)
+
 
 ## Enable feedback control
 
