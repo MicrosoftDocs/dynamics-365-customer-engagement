@@ -583,9 +583,12 @@ Checks whether frontline workers who have access to the Field Service (Dynamics 
 
 When a frontline worker has access to the Field Service (Dynamics 365) mobile app without Field Service resource role and/or the Field Service resource field security profile
 
+Note: The Business Unit which the user belongs is shown as part of failure message. This is so... 
+
 ### How to fix
 
 Add Field Service resource security role and field security profile to the user. For more information see, [see this article on setting up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
+
 
 ### See also
 
