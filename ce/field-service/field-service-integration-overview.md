@@ -40,7 +40,7 @@ Integration with Dynamics 365 Guides lets Field Service customers attach mixed r
 
 ## Integrate with Microsoft Teams
 
-Integrate with Microsoft Teams to chat with team members in the context of work orders. This makes it easy to find answers and fix issues the first time. It also makes it easy to understand which team members may have previously worked with on a work order. After enabling the integration (currently in public preview); open a Teams panel from the work order form in Dynamics 365 and initiate chats with other team members. 
+Integrate with Microsoft Teams to chat with team members in the context of work orders. This makes it easy to find answers and fix issues the first time. It also makes it easy to understand which team members may have previously worked with on a work order. After enabling the integration (currently in public preview); open a Teams panel from the work order form in Dynamics 365 and initiate chats with other team members. Learn more about the [Microsoft Teams integration with customer engagement apps in Dynamics 365](https://docs.microsoft.com/dynamics365/teams-integration/teams-integration). 
 
 
 ## Integrate with SAP 
