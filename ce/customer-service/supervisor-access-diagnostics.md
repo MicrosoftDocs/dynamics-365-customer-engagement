@@ -22,6 +22,10 @@ ms.custom:
 
 Supervisors can access the diagnostics for records and conversations that are handled through unified routing.
 
+## Prerequisites
+
+To access the diagnostics for records, such as cases, you must have the CSR Manager role. To access the diagnostics for conversations, you must have the Omnichannel supervisor role.
+
 ## Access diagnostics for work items handled through unified routing
 
 As a supervisor, you can access and view diagnostic reports of work items that have been routed through unified routing.
