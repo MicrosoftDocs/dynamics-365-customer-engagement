@@ -30,9 +30,9 @@ In the following example, to add a skill control named **Skills** to the case fo
 
 4. On the **Insert** tab, select **Section**, and then select **One Column**. Drag the section to the form.
  
-5. From the **Field Explorer**, select a field that supports a single line of text (such as **Case Title**) to add to the section you just created. Save the form.
+5. From the **Field Explorer**, select a field that supports a single line of text (such as **Case Title**). Drag and drop the field on to the section you just created.
 
-6. Select the field you just added, and then select **Change Properties**. 
+6. Select the field you just added, and then select **Change Properties** on the **Home** tab. 
 
    In the **Field Properties** dialog that appears, select the **Display** tab and enter a label name for the field, such as **Skills**.
 
