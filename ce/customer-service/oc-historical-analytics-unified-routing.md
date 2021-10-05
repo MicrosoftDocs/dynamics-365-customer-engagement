@@ -51,6 +51,14 @@ In the **Routing metrics by queue** table, select a queue, and then select **Det
 
 :::image type="content" source="media/ur-oc-hist-drill-down-view.png" alt-text="Routing metrics by queue in unified routing for Omnichannel for Customer Service.":::
 
+The queue drill-down view displays the following KPIs.
+
+|Metric  |Description  |
+|---------|---------|
+|Incoming sessions in queue vs incoming sessions transferred  |The day-wise view of incoming sessions in the selected queue that are still in the queue versus sessions that have been transferred to other queues|
+|Incoming session transferred by queue| The queues to which sessions from the selected queue have been transferred|
+|||
+
 ### Hourly drill-down view
 
 The **Routing metrics by date** table displays the day wise data for the KPIs for the selected period in the **Duration** filter.

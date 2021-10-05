@@ -48,7 +48,9 @@ The unified routing report displays the following metrics.
 
 ### Queue drill-down view
 
-In **Routing metrics by queue**, select a queue, and then select **Details** to view the queue drill-down view. This view displays information about the records that were routed, transfer rate for the items that were transferred to other queues, and the sessions that were transferred.
+In **Routing metrics by queue**, select a queue, and then select **Details** to view the queue drill-down view. This view displays information about the records that were routed and the transfer rate for the items that were transferred to other queues.
+
+The **Incoming sessions transferred by queue** metric displays the incoming sessions that were transferred from the selected queue to other queues.
 
 :::image type="content" source="media/ur-cs-hist-queue-drill-down-view.png" alt-text="Queue drill-down view for unified routing historical analytics.":::
 
