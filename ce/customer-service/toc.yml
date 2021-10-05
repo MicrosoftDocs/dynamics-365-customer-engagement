@@ -204,6 +204,22 @@
             href: ../app-profile-manager/reference/microsoft-apm/updateContext.md                   
     - name: Readme
       href: https://go.microsoft.com/fwlink/p/?linkid=2141982
+  - name: Community
+    items: 
+    - name: Overview of Community
+      href: community-overview.md
+    - name: Get started with Community
+      href: community-get-started.md
+    - name: Create a Community forum
+      href: community-forum-setup.md
+    - name: Moderator experience
+      href: community-moderator-experience.md
+    - name: Community FAQs
+      href: community-faqs.md
+    - name: Advanced settings   
+      items:                
+      - name: Create new websites
+        href: community-create-websites.md 
   - name: Unified routing and assignment
     items:
     - name: Overview of unified routing
