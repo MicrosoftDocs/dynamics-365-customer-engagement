@@ -29,15 +29,17 @@ During the import process, if any privacy terms are displayed, you'll need to ac
 
 ## Import configuration data using the Configuration Migration tool
 
-1. Run the Configuration Migration tool, and select **Import data** on the main screen. For information about downloading the tool, see step 1 in the previous section.
+1. [Download the Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget) and install it.
 
-2. On the **Login** screen, provide authentication details to connect to your Dataverse server from where you want to import data. If you have multiple organizations on the Dynamics 365 instance, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
+2. Run the Configuration Migration tool, and select **Import data** on the main screen. 
 
-3. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you choose the organization that you want to connect to. Select the organization to connect to.
+3. On the **Login** screen, provide authentication details to connect to your Dataverse server from where you want to import data. If you have multiple organizations on the Dynamics 365 instance, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
 
-4. The next screen prompts you to provide the data file (.zip) to be imported. Browse to the data file, select it, and then select **Import Data**.
+4. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you select the organization that you want to connect to. Select the organization.
 
-5. The next screen displays the import status of your records. The data import is done in multiple passes. Foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
+5. Select the data file (.zip) that you want to import, and then select **Import Data**.
+
+   The import status of your records is displayed. The data import is done in multiple passes. Foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
 
 6. Select **Exit** to close the tool.
 
@@ -45,11 +47,11 @@ During the import process, if any privacy terms are displayed, you'll need to ac
 
 You can export the configuration data from your source system by using the app configuration data schema file, in Omnichannel Administration or Omnichannel admin center.
 
-1. [Download the Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget) to download the latest version of the tool.  
+1. [Download the Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget).  
 
-2. Create a schema file per Omnichannel Solution. More information: [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)
+2. Create a schema file per omnichannel solution. More information: [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)
 
-3. Select the entities and fields that you want to import and export. The entities that you choose to import and export depend on the resources that you want to reuse across the source and target organizations. For example, if you use the same API keys and provider for your geolocation provider, then you can include that entity too.
+3. Select the entities and fields that you want to import and export. The entities that you select to import and export depend on the resources that you want to reuse across the source and target organizations. For example, if you use the same API keys and provider for your geolocation provider, then you can include that entity too.
 
     Some of the core entities that you can use are as follows:
 
@@ -62,8 +64,8 @@ You can export the configuration data from your source system by using the app c
     -  Operating hours
     -  Sentiment analysis
 
-4. To filter the Omnichannel for Customer Service queues only, you can use the following commands:  
-    **Tools** > **Configure Import Settings** > **Use Fetch XML to filter records** > **Edit FetchXML**
+4. To filter the Omnichannel for Customer Service queues only, go to **Tools** > **Configure Import Settings** > **Use Fetch XML to filter records** > **Edit FetchXML**. 
+   Enter the following commands:
 
     ```html
     <fetch> 
@@ -75,15 +77,15 @@ You can export the configuration data from your source system by using the app c
     </fetch> 
     ```
 
-5. Double-click **DataMigrationUtility.exe** to run the Configuration Migration tool, and choose **Export data** in the main screen.
+5. Double-click **DataMigrationUtility.exe** to run the Configuration Migration tool, and select **Export data**.
 
 6. On the **Login** screen, provide authentication details to connect to your Dynamics 365 Server instance from where you want to export data. If you have multiple organizations on the Dynamics 365 server, and want to select the organization from where to export the data, select the **Always display list of available orgs** check box. Select **Login**.
 
-7. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you choose the organization that you want to connect to. Select the organization that you want to connect to.
+7. If you have multiple organizations, and you selected the **Always display list of available orgs** check box, the next screen lets you select the organization that you want to connect to. Select the organization that you want to connect to.
 
 8. Specify the name and location of the data file to be exported.
 
-9. Choose **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the page after the export is complete.
+9. Select **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the page after the export is complete.
 
 10. Select **Exit** to close the tool.
 
