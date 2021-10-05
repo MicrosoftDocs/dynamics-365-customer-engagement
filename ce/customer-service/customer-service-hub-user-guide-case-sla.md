@@ -19,7 +19,7 @@ ms.custom:
 
 # Case SLAs
 
-The Customer Service Hub provides the ability to track and manage case SLAs.
+You can track and manage case SLAs in Customer Service Hub.
 
 ## Track SLA details with Timer control
 
@@ -58,7 +58,7 @@ More information: [Enable elapsed timer for SLA items in terminal or expired sta
 
 ### Case form with SLA applied  
 
-Only the failure time is tracked and saved on the case record. You can ask your system administrator or customizer to add a timer to the case form. The timer shows the time remaining to meet the SLA or the time elapsed since the SLA failed and takes into consideration the business hours. For example, if failure time is set to 5 days and business hours are 9:00 a.m. to 5:00 p.m., then you will see 5 days on the timer. If failure time is set to 10 hours, then you will see 1 day and 2 hours on the timer.
+Only the failure time is tracked and saved on the case record. You can ask your system administrator or customizer to add a timer to the case form. Based on the business hours, the timer displays the time remaining to meet the SLA or the elapsed time since the SLA failed. For example, if failure time is set to 5 days and business hours are 9:00 a.m. to 5:00 p.m., then you will see 5 days on the timer. If failure time is set to 10 hours, then you will see 1 day and 2 hours on the timer.
 
 > [!NOTE]
 > It is recommended to use only Enhanced SLA because Standard SLA is deprecated. For more information, see [Important changes coming in Dynamics 365 Customer Service](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
