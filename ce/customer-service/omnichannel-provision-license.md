@@ -22,7 +22,7 @@ Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-o
 
 To provision the Omnichannel for Customer Service application, first, complete the following prerequisites:
 
-- Obtain an active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/) and [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).
+- Obtain an active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/), [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544), and [How to purchase through Volume Licensing](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).
 - Set up the prerequisites mentioned in the system requirements. More information: [Prerequisites](system-requirements-omnichannel.md#prerequisites).
 - Ensure that the provisioning user has the following permissions:
     - Microsoft 365 Global Admin role. More information: [Assign Admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles.md)
