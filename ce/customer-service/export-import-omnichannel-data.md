@@ -27,22 +27,6 @@ To import and export your app configuration data in Omnichannel Administration a
 
 During the import process, if any privacy terms are displayed, you'll need to accept them to be able to successfully create records for social channels.
 
-## Import app configuration data
-
-1. [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget).
-
-2. Run the Configuration Migration tool, and select **Import data** on the main screen.
-
-3. On the **Login** screen, provide authentication details to connect to your Dataverse server from where you want to import data. If you have multiple organizations on the Dynamics 365 instance, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
-
-4. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you select the organization that you want to connect to. Select the organization.
-
-5. Select the data file (.zip) that you want to import, and then select **Import Data**.
-
-   The import status of your records is displayed. The data import is done in multiple passes. Foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
-
-6. Select **Exit** to close the tool.
-
 ## Export app configuration data
 
 You can export the configuration data from your source system by using the app configuration data schema file, in Omnichannel Administration or Omnichannel admin center.
@@ -86,6 +70,22 @@ You can export the configuration data from your source system by using the app c
 9. Select **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the page after the export is complete.
 
 10. Select **Exit** to close the tool.
+
+## Import app configuration data
+
+1. [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget).
+
+2. Run the Configuration Migration tool, and select **Import data** on the main screen.
+
+3. On the **Login** screen, provide authentication details to connect to your Dataverse server from where you want to import data. If you have multiple organizations on the Dynamics 365 instance, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
+
+4. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you select the organization that you want to connect to. Select the organization.
+
+5. Select the data file (.zip) that you want to import, and then select **Import Data**.
+
+   The import status of your records is displayed. The data import is done in multiple passes. Foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
+
+6. Select **Exit** to close the tool.
 
 ## Test the import and export of data
 
