@@ -1,7 +1,7 @@
 ---
-title: "Import and export app data | MicrosoftDocs"
-description: "Learn to import and export app data from from a source to target environment in Omnichannel Administration and Omnichannel admin center apps."
-ms.date: 10/05/2021
+title: "Import and export app configuration data | MicrosoftDocs"
+description: "Learn to import and export app configuration data from source to target environments in Omnichannel Administration and Omnichannel admin center apps."
+ms.date: 10/08/2021
 ms.topic: article
 author: mh-jaya    
 ms.author: v-jmh
@@ -9,7 +9,7 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Import and export app data
+# Import and export app configuration data
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -27,11 +27,11 @@ To import and export your app configuration data in Omnichannel Administration a
 
 During the import process, if any privacy terms are displayed, you'll need to accept them to be able to successfully create records for social channels.
 
-## Import configuration data using the Configuration Migration tool
+## Import app configuration data
 
-1. [Download the Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget) and install it.
+1. [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget).
 
-2. Run the Configuration Migration tool, and select **Import data** on the main screen. 
+2. Run the Configuration Migration tool, and select **Import data** on the main screen.
 
 3. On the **Login** screen, provide authentication details to connect to your Dataverse server from where you want to import data. If you have multiple organizations on the Dynamics 365 instance, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
 
@@ -43,18 +43,17 @@ During the import process, if any privacy terms are displayed, you'll need to ac
 
 6. Select **Exit** to close the tool.
 
-## Export configuration data using the Configuration Migration tool
+## Export app configuration data
 
 You can export the configuration data from your source system by using the app configuration data schema file, in Omnichannel Administration or Omnichannel admin center.
 
-1. [Download the Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget).  
+1. [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget).
 
 2. Create a schema file per omnichannel solution. More information: [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)
 
 3. Select the entities and fields that you want to import and export. The entities that you select to import and export depend on the resources that you want to reuse across the source and target organizations. For example, if you use the same API keys and provider for your geolocation provider, then you can include that entity too.
 
     Some of the core entities that you can use are as follows:
-
     -  Workstream
     -  Context variable
     -  Rule item
@@ -64,8 +63,7 @@ You can export the configuration data from your source system by using the app c
     <!---  Operating hours -->
     -  Sentiment analysis
 
-4. To filter the Omnichannel for Customer Service queues only, go to **Tools** > **Configure Import Settings** > **Use Fetch XML to filter records** > **Edit FetchXML**. 
-   Enter the following commands:
+4. To filter the Omnichannel for Customer Service queues only, go to **Tools** > **Configure Import Settings** > **Use Fetch XML to filter records** > **Edit FetchXML**, and update the XML file as follows:
 
     ```html
     <fetch> 
