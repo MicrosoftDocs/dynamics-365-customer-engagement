@@ -97,7 +97,7 @@ You can export the configuration data from your source system by using the app c
 
 1. Using [advanced find](../customerengagement/on-premises/basics/save-advanced-find-search.md), select all of the fields of the entities that you imported or exported.
 
-2. Perform a random check of data across multiple records to verify that the data is successfully imported or exported from the source to the target environment.
+2. Perform a random check of the data across multiple records to confirm that all data is successfully imported and exported between the source and target environments.
 
 **To check the functionality in your target environment**
 
