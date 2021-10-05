@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams collaboration | MicrosoftDocs"
 description: "Learn how to configure collaboration with Microsoft Teams in Customer Service."
-ms.date: 10/01/2021
+ms.date: 10/05/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -21,9 +21,9 @@ manager: shujoshi
 
 ## Introduction
 
-Agents can collaborate with other agents directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can help agents find the right experts by enabling the collaboration with Microsoft Teams feature.
+Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can help agents find the right contacts by enabling the collaboration with Microsoft Teams feature.
 
-This feature uses the AI capability to automatically suggest agents in real time, based on the currently open active case when agents explore contacts in the embedded chat experience.
+This feature uses the AI capability to automatically suggest contacts in real time, based on the currently open active case when agents explore contacts in the embedded chat experience.
 
 > [!NOTE]
 > In public preview, AI suggestions for contacts is available only when users open an active case record.
