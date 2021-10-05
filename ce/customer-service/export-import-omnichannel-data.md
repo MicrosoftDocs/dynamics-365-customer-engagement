@@ -19,13 +19,13 @@ To import and export your app configuration data in Omnichannel Administration a
 
 - Omnichannel for Customer Service Administration app
 - Any third-party solutions that you plan to integrate
+
   
 > [!NOTE]
 >
-> - We recommend that you don't export the msdyn_analytics entity. The entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service; export of the entity might lead to an incorrect configuration of your intraday insights data.
+> - We recommend that you don't export the msdyn_analytics entity. The entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service; exporting the entity might lead to an incorrect configuration of your intraday insights data.
 > - The processes outlined in this topic pertain to import and export of data, and not users. To import and export users, you must add them to the target environment after you've imported the configuration data.
 
-During the import process, if any privacy terms are displayed, you'll need to accept them to be able to successfully create records for social channels.
 
 ## Export app configuration data
 
@@ -87,6 +87,9 @@ You can export the configuration data from your source system by using the app c
    The import status of your records is displayed. The data import is done in multiple passes. Foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
 
 6. Select **Exit** to close the tool.
+
+> [!Note]
+> During the import process, if any privacy terms are displayed, you'll need to accept them to be able to successfully create records for social channels.
 
 ## Test the import and export of data
 
