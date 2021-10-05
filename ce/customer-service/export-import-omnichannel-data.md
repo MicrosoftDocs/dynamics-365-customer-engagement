@@ -61,7 +61,7 @@ You can export the configuration data from your source system by using the app c
     -  Queue
     -  Quick reply
     -  Presence
-    -  Operating hours
+    <!---  Operating hours -->
     -  Sentiment analysis
 
 4. To filter the Omnichannel for Customer Service queues only, go to **Tools** > **Configure Import Settings** > **Use Fetch XML to filter records** > **Edit FetchXML**. 
@@ -93,9 +93,9 @@ You can export the configuration data from your source system by using the app c
 
 **To check and compare records between the source and target environments**
 
-1. Using [advanced find](../customerengagement/on-premises/basics/save-advanced-find-search.md), select all fields of the entities you previously exported and imported.
+1. Using [advanced find](../customerengagement/on-premises/basics/save-advanced-find-search.md), select all of the fields of the entities that you imported or exported.
 
-2. Spot-check the data in several of the records.
+2. Perform a random check of data across multiple records to verify that the data is successfully imported or exported from the source to the target environment.
 
 **To check the functionality in your target environment**
 
@@ -109,7 +109,7 @@ You can export the configuration data from your source system by using the app c
 
 ## Artifacts related to export and import
 
-For entity routing, follow the instructions to [Export and import your flows across environments with packaging](https://go.microsoft.com/fwlink/p/?linkid=2132475).
+For entity routing, follow the instructions to [export and import your flows across environments with packaging](https://go.microsoft.com/fwlink/p/?linkid=2132475).
 
 ### See also
 
