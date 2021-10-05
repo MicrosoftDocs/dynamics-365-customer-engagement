@@ -1179,8 +1179,8 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 - **Compliance made easier**
     - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/compliance-made-easier)
     - [Double opt-in for forms docs](form-double-opt-in.md)
-    - [Historical view of consent-level changes docs](gdpr.md#view-and-set-the-consent-level-for-each-contact)
-    - [Set consent for each contact docs](gdpr.md#view-and-set-the-consent-level-for-each-contact)
+    - [Historical view of consent-level changes docs](gdpr-use-features.md#view-and-set-the-consent-level-for-each-contact)
+    - [Set consent for each contact docs](gdpr-use-features.md#view-and-set-the-consent-level-for-each-contact)
 - **Improved segment design and management**
     - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
     - [Docs](segmentation-lists-subscriptions.md)
