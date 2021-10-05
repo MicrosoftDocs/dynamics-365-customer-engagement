@@ -40,14 +40,18 @@ The unified routing report displays the following metrics for the selected filte
 |Routed conversations     | The total number of incoming conversations that have been routed successfully.        |         |
 |Incoming sessions     | The total number of sessions that were created.        |         |
 |Session transfer rate     | The percentage of incoming sessions that were transferred to another agent or queue.         |         |
-|Incoming conversations VS. routed conversations     | The number of conversations initiated by the customer versus the number of conversations that were routed successfully.      |         |
+|Incoming conversations v/s routed conversations     | The number of conversations initiated by the customer versus the number of conversations that were routed successfully.      |         |
 |Session transfer rate trend     | The day wise trend of session transfer rate.        |         |
 |Top 5 Skills demanded     | The top five skills required by the incoming conversations.        |         |
 ||||
 
-The **Routing metrics by queue** table displays data on incoming conversations, incoming sessions, and session transfer rate for each queue. You can select a queue, and then select **Details** to view the detailed KPIs for it.
+### Queue drill-down view
 
-:::image type="content" source="media/oc-routing-metrics-queue.png" alt-text="Routing metrics by queue in unified routing for Omnichannel for Customer Service.":::
+In the **Routing metrics by queue** table, select a queue, and then select **Details** to view the detailed KPIs for it. You can view data on incoming conversations, incoming sessions, and session transfer rate for the queue.
+
+:::image type="content" source="media/ur-oc-hist-drill-down-view.png" alt-text="Routing metrics by queue in unified routing for Omnichannel for Customer Service.":::
+
+### Hourly drill-down view
 
 The **Routing metrics by date** table displays the day wise data for the KPIs for the selected period in the **Duration** filter.
 

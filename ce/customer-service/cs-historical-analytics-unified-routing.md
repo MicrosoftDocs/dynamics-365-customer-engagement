@@ -36,22 +36,19 @@ The unified routing report displays the following metrics.
 
 |Metric  |Description  |Derivation  |
 |---------|---------|---------|
-|Records routed     | Number of records that were routed.        |         |
-|Routing attempts     | Number of routing attempts across records routed.        |         |
-|First route success     | Number of records that were successfully routed in the first attempt.       |         |
+|Records routed     | Number of records that were routed. | Only records routed using unified routing are considered. |
+|Routing attempts     | Number of routing attempts across records that were routed.        | Records that were attempted for routing using the "Save and Route" action will be considered as an attempt.        |
+|First route success     | Number of records that were successfully routed in the first attempt.       | Success for a push workstream is when the record is assigned to an agent. Success for a pick workstream is when the record is routed to a queue.  |
 |Records transfer rate|The percentage of records that were transferred to another agent or queue.||
 |Records routed    | Day wise view of records that have been routed.        |         |
 |Transfer rate trend     | Percentage of sessions transferred out of the total sessions for the records routed.        |         |
 |Top 5 skills needed     |  Top five skills required by the routed records.        |         |
 | | | |
 
-The **Routing metrics by queue** table displays data on the routed records and transfer rate for each queue. You can select a queue, and then select **Details** to view the detailed KPIs for it.
-
-:::image type="content" source="media/cs-routing-metrics-queue.png" alt-text="Routing metrics by queue in unified routing for Customer Service.":::
 
 ### Queue drill-down view
 
-In **Routing metrics by queue**, select a queue, and then select **Details** to view the queue drill-down view. This view displays information about the records that were routed, transfer rate for the items that were transferred to other queues, and the sessions that were transferred. The **Routing metrics by date** table displays the day wise information of the records routed and transfer rate.
+In **Routing metrics by queue**, select a queue, and then select **Details** to view the queue drill-down view. This view displays information about the records that were routed, transfer rate for the items that were transferred to other queues, and the sessions that were transferred.
 
 :::image type="content" source="media/ur-cs-hist-queue-drill-down-view.png" alt-text="Queue drill-down view for unified routing historical analytics.":::
 
@@ -66,3 +63,4 @@ You can select a date, and then select **Details** to view the routing metrics b
 ### See also
 
 [Enable Historical analytics for unified routing](configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-unified-routing)  
+[Unified routing report in Omnichannel historical analytics](oc-historical-analytics-unified-routing.md)  
