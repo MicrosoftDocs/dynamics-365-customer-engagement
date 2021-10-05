@@ -1,7 +1,7 @@
 ---
 title: "Continue the conversation with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to continue the conversation with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 09/02/2021
+ms.date: 09/30/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,7 +20,7 @@ search.app:
 
 # How to sign up for a free 6-month Dynamics 365 Marketing trial
 
-The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in touch with your webinar participants before and after hosting a webinar. You can send personalized registration materials, send surveys, and more to drive awareness and engagement.
+The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in touch with your webinar participants after hosting a webinar. You can send personalized registration materials, send surveys, and more to drive awareness and engagement.
 
 To sign up for a 6-month Dynamics 365 Marketing trial:
 
@@ -32,7 +32,9 @@ To sign up for a 6-month Dynamics 365 Marketing trial:
     > ![Screenshot of the Follow up with participants button](media/teams-follow-up2.png "Screenshot of the Follow up with participants button")
 
     > [!IMPORTANT]
-    > The **Follow up with participants** button only appears in the attendance tab *after* the webinar has ended. The button is not shown if you do not meet eligibility criteria or if your organization has disabled trials.
+    > The **Follow up with participants** button only appears in the attendance tab *after* the webinar has ended. The button is not shown if you do not meet eligibility criteria or if your organization has disabled trials. 
+    >
+    > You must also be logged into Teams with an account that has sufficient privileges in Dynamics 365 Marketing. Learn more about the required Marketing privileges: [Required permissions to follow up with participants](teams-webinar-follow-up.md#required-permissions-to-follow-up-with-participants).
 
 1. Select **Get started**.
 

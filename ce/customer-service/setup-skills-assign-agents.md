@@ -53,7 +53,7 @@ After you create a skill type, you can create skills in the Omnichannel admin ce
     | Field | Description  | Example value |
     |-----------|---------------------|------------------------------|
     | Name | Specify the name of the skill. | Spanish <br> **Note:** <br> The name must be unique. |
-    | Type | Select a skill type from the drop-down list. | Language |
+    | Type | Select a skill type from the dropdown list. | Language |
     | Description | Provide a description of the skill. | This record is used to define the skill level of the Spanish language. |
 
 5. Select **Save**.
@@ -155,7 +155,7 @@ Add the agents as a bookable resource so that you can assign skills to them.
 
 Alternatively, you can also add a skill to the user (agent). To learn more, see [Manage users](users-user-profiles.md).
 
-## See also
+### See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  
