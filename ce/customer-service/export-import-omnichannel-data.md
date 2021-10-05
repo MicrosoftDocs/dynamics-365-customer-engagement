@@ -37,15 +37,16 @@ You can export the configuration data from your source system by using the app c
 
 3. Select the entities and fields that you want to import and export. The entities that you select to import and export depend on the resources that you want to reuse across the source and target organizations. For example, if you use the same API keys and provider for your geolocation provider, then you can include that entity too.
 
-    Some of the core entities that you can use are as follows:
+    Some of the core entities that you can import and export are as follows:
     -  Workstream
     -  Context variable
     -  Rule item
     -  Queue
     -  Quick reply
     -  Presence
-    <!---  Operating hours -->
     -  Sentiment analysis
+    > [!Note]
+    > You cannot export the Calendar entity.
 
 4. To filter the Omnichannel for Customer Service queues only, go to **Tools** > **Configure Import Settings** > **Use Fetch XML to filter records** > **Edit FetchXML**, and update the XML file as follows:
 
