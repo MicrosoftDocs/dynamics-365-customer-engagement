@@ -1,7 +1,7 @@
 ---
 title: "Manage user compliance settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manage real-time marketing compliance settings in Dynamics 365 Marketing."
-ms.date: 08/02/2021
+ms.date: 10/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -100,7 +100,7 @@ After configuring the **Compliance** and **Preference page** tabs, select **Save
 
 ## Outbound consent
 
-Outbound marketing has a different consent model than real-time marketing. Real-time marketing's consent model, however, does not affect outbound marketing functionality. In other words, if you install real-time marketing, all of outbound marketing's features and requirements are left intact. 
+Outbound marketing has a different consent model than real-time marketing. Real-time marketing's consent model, however, does not affect outbound marketing functionality. In other words, if you install real-time marketing, all of outbound marketing's features and requirements are left intact.
 
 Learn more about outbound marketing's consent model: [Data protection and the GDPR](gdpr.md)
 
@@ -115,6 +115,8 @@ In outbound marketing, you can configure each customer journey (and lead scoring
 
 The second switch, **Log consent changes for this field**, enables logging of contact attribute *Consent given* changes.
 
+After making changes to the **Outbound consent** settings, select **Save** in the top-left corner of the window.
+
 ### Use outbound consent in customer journeys
 
 To use this feature in customer journeys:
@@ -123,3 +125,8 @@ To use this feature in customer journeys:
 2) Set a minimum consent level for the customer journey.
 
 You can find the audit data for the *Consent given* field in a user's contact record.
+
+### See also
+
+[Work with data protection and GDPR](gdpr.md)  
+[Use GDPR features](gdpr-use-features.md)  
