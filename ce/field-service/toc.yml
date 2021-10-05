@@ -6,6 +6,8 @@
   href: user-guide.md
 - name: Get started
   href: field-service-get-started.md
+- name: Videos
+  href: field-service-videos.md
 - name: Installation + upgrade
   items: 
   - name: Field Service installation (web + mobile)
@@ -24,6 +26,8 @@
     href: view-user-accounts-security-roles.md
   - name: Location and map settings
     href: field-service-maps-address-locations.md
+  - name: Customization overview
+    href: field-service-customizations.md
   - name: Priorities
     href: set-priorities.md
   - name: Postal codes
@@ -134,6 +138,8 @@
       href: field-service-work-hours-calendar-api.md
     - name: Analytics dashboard
       href: scheduling-analytics-reports.md
+    - name: Scheduling parameters (Settings)
+      href: scheduling-parameters-settings.md
   - name: Scheduling
     items: 
     - name: Schedule assistant overview
@@ -216,6 +222,8 @@
     href: mobile-powerapp-deeplink.md
   - name: Add a custom app module to the mobile app
     href: mobile-powerapp-copy-app-module.md
+  - name: Mobile app for Windows 10+ (Preview)
+    href: mobile-powerapp-windows.md
   - name: Use Microsoft Power Platform
     href: mobile-power-utilize-platform.md
   - name: FAQs
@@ -430,6 +438,8 @@
     href: appsource-addins.md
   - name: Dynamics 365 US Government cloud (GCC) availability
     href: field-service-dynamics365-government.md
+  - name: Deprecations
+    href: deprecations-field-service.md 
 - name: Troubleshoot with Solution Health Hub
   href: troubleshoot-field-service-solution-health.md
 - name: General FAQs

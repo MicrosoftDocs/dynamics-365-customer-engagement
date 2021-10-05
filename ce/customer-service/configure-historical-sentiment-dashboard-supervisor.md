@@ -244,24 +244,33 @@ Before customizing the template app, read the following information and perform 
 
    Several pages of reports are loaded and displayed in Power BI Desktop.
 
-3. On the Power BI Desktop ribbon, select **Edit Queries**.
+3. On the Power BI Desktop ribbon, select **Home > Transform Data**.
 
-4. In the left navigation pane of the Edit Queries window, under **Queries**, select the **Dynamics 365 Service Root URL** query.
+4. In the left dropwdown menu under Transformation Data, select **Edit Paramaters**.
 
-5. In the ribbon, select **Advanced Editor**.
-
-6. In the source definition, replace **contosuites.crm10.dynamics.com** with your apps instance URL.
+5. In the source definition, replace **https://kucustomerservice.crm.dynamics.com/api/data/v9.1** with your apps instance URL.
 
     Example: if the organization name is Contoso, the URL looks like this:
     Source = https://contoso.crm.dynamics.com/api/data/v9.1/
-
+    
+    For GCC users the format is: **https://yourserver.crm9.dynamics.com/api/data/v9.1**
+    
 7. Select **Done**.
 
-8. Select **Close & Apply** in Query Editor.
+8. Select **Close & Apply** in the yellow warning ribbon that appears under the Power BI Desktop Ribbon.
 
-9. When the "Access an OData feed" appears, select **Organizational account**.
+    Queries are updated. This might take several minutes.
+
+9. If the "Access an OData feed" appears, select **Organizational account**.
 
 10. Select **Sign in**.
+
+11. If needed, you can also access this from Power BI desktop by going to **File > Options and Settings > Data Source Settings.**
+
+    a. Select **Edit Permissions > Edit**
+    b.	Select **Organizational account.**
+    c.	Select **Sign in.**
+
 
      > [!div class=mx-imgBorder]
      > ![Supervisor configuration for user.](media/oc-config17.PNG "Add user to supervisor configuration")

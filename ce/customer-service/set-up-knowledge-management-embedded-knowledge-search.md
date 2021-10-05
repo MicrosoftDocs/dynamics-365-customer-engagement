@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 10/05/2020
+ms.date: 09/28/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -82,6 +82,16 @@ After knowledge management is set up, users will be able to:
 7. Select **Next**.  
   
 8. If you’ve specified the details correctly, the page shows the connection details for Dynamics 365 Customer Service. Select **Finish** to complete the setup.  
+
+> [!NOTE]
+> Duplicate detection rules don't work on the Knowledge Article entity.
+
+## Set up AI suggestions for article keywords and description (preview)
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description-preview)
 
 
 ## Enable feedback control

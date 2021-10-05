@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service workspace.
-ms.date: 10/05/2020
+ms.date: 08/30/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -39,13 +39,15 @@ By default, the full text search displays 10 results and relevance search displa
 
   |Label|Description|
   |-----|-----------|
-  |1.| Knowledge tab|
-  |2.| Lets you link or unlink the article to the entity, such as the case.|
-  |3.| Text appears when the article is linked to the entity.|
-  |4.| Number of times the article has been viewed.|
+  |1.| The Knowledge tab.|
+  |2.| The number of times the article has been viewed.|
+  |3.| Lets you link or unlink the article to the entity, such as the case.|
+  |4.| Text that appears when the article is linked to the entity.|
+  |5.| Status and visibility tags for the article.|
   |||
 
 On the Knowledge pane, you can perform the following actions:
+
 - Select the article title to open it in an application tab.
 - Use the search box to enter keywords and search for articles if those displayed by default are not relevant.
 - Select the filter icon to display the options based on which the articles can be filtered.
@@ -59,7 +61,7 @@ On the Knowledge pane, you can perform the following actions:
 
 ### View the knowledge article in the application tab
 
-Select an article title to view it in an application tab.  You can view up to 10 articles in the application tab.
+Select an article title to view it in an application tab. You can view up to 10 articles in the application tab.
 
 You can perform the following actions for the knowledge article:
 

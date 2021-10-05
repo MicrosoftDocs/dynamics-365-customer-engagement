@@ -1,6 +1,6 @@
 ---
-title: "Create or edit document location records  | MicrosoftDocs"
-description: "Store documents for Dynamics 365 Customer Engagement (on-premises) records."
+title: "Create SharePoint document locations in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to create document location records in Customer Engagement (on-premises) to point to document libraries and folders in SharePoint."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Create or edit document location records
+# Create or edit SharePoint document location records
 
 [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document locations are records in Dynamics 365 Customer Engagement (on-premises) that point to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document library or folder.  
   

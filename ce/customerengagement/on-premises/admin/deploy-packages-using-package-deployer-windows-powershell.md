@@ -1,6 +1,6 @@
 ---
-title: "Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell."
+title: "Deploy with Package Deployer or PowerShell in Dynamics 365 Customer Engagement"
+description: "Deploy packages on Dynamics 365 Customer Engagement using the Dynamics CRM Package Deployer tool or Windows PowerShell."
 ms.custom: 
 ms.date: 06/10/2019
 ms.reviewer: 

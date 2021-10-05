@@ -22,8 +22,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
 
 ## Introduction
 
@@ -51,7 +50,7 @@ In Omnichannel admin center, go to the voice queue for which you want to configu
 
 3. If an operating hour record is configured for the queue, the toggle for **Out of operation hours**, is set to **On** by default and can't be edited. The call overflow is triggered when a call reaches the queue during the after hours of the call center operations. If no operating hour record is configured, the toggle will be set to **Off** and in the disabled mode. In such a case, the call center is considered to be available round the clock.
 
-To remove the overflow setting, you'll need to set the work item limit to zero.
+To remove the overflow setting, you'll need to set the work item limit to zero and remove the operating hour record on the queue if configured.
 
 ## Define operation hours
 

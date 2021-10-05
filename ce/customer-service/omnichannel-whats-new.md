@@ -55,7 +55,7 @@ This section contains information about new features and enhancements in Omnicha
     - Capacity of the agent is unblocked.
     - Conversations achieve a closure and agents can focus on important conversations thus enhancing productivity.
 
-    More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](oc-conversation-state.md#automatic-closure-of-a-conversation) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](../unified-service-desk/oc-usd/conversation-state.md#automatic-closure-of-a-conversation)
+    More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](oc-conversation-state.md#automatically-close-conversations) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](../unified-service-desk/oc-usd/conversation-state.md#automatic-closure-of-a-conversation)
 
 ### Administrator experience
 
@@ -151,7 +151,7 @@ More information: [Agents using Omnichannel for Customer Service app](omnichanne
 
     - **Search agents or queues for the transfer of a conversation request**: In the communication panel, you can use the keyboard command to launch the transfer fly-out. Once the fly-out is displayed, continue to type the agent or queue name in the communication panel to quickly find and initiate the transfer of the conversation request.
 
-    More information: [View communication panel](oc-conversation-control.md#search-agents-or-queues-for-the-transfer-of-a-conversation-request)
+    More information: [View communication panel](oc-conversation-control.md#search-agents-or-queues-for-transfer-of-conversation-requests)
 
 ### Supervisor Experience 
 

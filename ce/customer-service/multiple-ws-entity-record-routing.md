@@ -168,10 +168,6 @@ Now, you've defined **Entity Record Distribution Flow** such that any case whose
 > Whenever you want to update the entity record work stream ensure that **Entity Records Distribution Flow** is closed. 
 > Assume, you've made certain updates to the Flow. Now, while the Flow is still in the open in the browser, you go to Omnichannel Administration app and update the work stream. In this case, after you save the work stream, the Flow will be reset to its earlier state and you will loose the changes you did to the Flow.
 
-## Troubleshoot
-
-- [Entity routing configuration fails](troubleshoot-omnichannel-customer-service.md#entity-routing-configuration-fails)
-
 ## See also
 
 [Entity records routing](entity-channel.md)  

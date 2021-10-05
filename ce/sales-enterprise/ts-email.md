@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting issues with email (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with email in Dynamics 365 Sales."
-ms.date: 01/13/2021
+ms.date: 09/30/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -14,7 +14,7 @@ This article helps you troubleshoot and resolve issues related to emails in Dyna
 
 ## Email editor shows incorrect title in contextual email popup window
 
-After upgrading to Wave 2 - 2020, the email editor shows incorrect title in contextual email popup window.
+After upgrading to Dynamics 365 2020 release wave 2, the email editor shows incorrect title in contextual email popup window.
 
 **Reason**
 

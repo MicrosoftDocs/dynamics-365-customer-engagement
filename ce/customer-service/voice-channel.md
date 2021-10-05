@@ -23,8 +23,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
+
 
 Enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. With the voice channel, Omnichannel for Customer Service provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365, with real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions to boost agent productivity. Omnichannel for Customer Service also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
 
@@ -72,7 +72,8 @@ Take a look at some of the key capabilities that makes the voice channel great f
 [Configure post-call survey](voice-channel-survey.md)  
 [Set up a multi-language contact center](voice-channel-multi-language-contact-center.md)  
 [Handle call overflow for the voice queues](voice-channel-call-overflow.md)  
-[Manage music](voice-channel-music.md)  
+[Manage music](voice-channel-music.md)<br>
+[Configure call recordings and transcripts](voice-channel-configure-transcripts.md)<br>
 [Supported regions and languages](voice-channel-region-availability.md)  
 
 ## Agent experience
@@ -86,6 +87,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 [Monitor voice calls](voice-channel-monitor-calls.md)  
 [Real-time analytics - Intraday conversation insights](intraday-conversation-insights.md)  
 [Real-time analytics - Intraday Agents insights](intraday-agents-insights.md)  
+[Voice channel analytics, reports, and call insights](voice-channel-reports-analytics.md)
 
 ### See also
 

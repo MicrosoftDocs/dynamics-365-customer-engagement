@@ -1,8 +1,6 @@
 ---
 title: "View customer summary for an incoming conversation request | MicrosoftDocs"
-description: "Learn about the Customer Summary and its behavior when the agent gets and incoming conversation request."
-ms.date: 07/01/2019
-ms.topic: article
+description: "Learn how to view customer summary of incoming conversation requests for customer records in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -20,7 +18,7 @@ When you receive an incoming conversation request, you see a notification and ac
 
 When you get an incoming conversation request, you see a notification and accept the request. However, if there are no records present in Omnichannel for Customer Service based on the incoming conversation request, you can create a record. To learn more see, [Create a record](oc-create-record.md) and [Link a record](oc-search-link-unlink-record.md).
 
-## See also
+### See also
 
 - [View customer summary](oc-customer-summary.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)

@@ -1,6 +1,6 @@
 ---
-title: "Integrate external data with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
-description: The articles in this section show you how to integrate with data sources
+title: "Integrate external data into Dynamics 365 Customer Engagement (on-premises)"
+description: "Use this section to learn how to integrate data into Dynamics 365 from external sources. You can create and edit virtual entities or define alternate keys."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
