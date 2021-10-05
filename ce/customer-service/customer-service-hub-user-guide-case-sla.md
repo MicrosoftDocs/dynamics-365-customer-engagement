@@ -1,7 +1,7 @@
 ---
 title: "Track and manage SLAs in Customer Service Hub | Microsoft Docs"
 description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 10/02/2021
+ms.date: 10/05/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
