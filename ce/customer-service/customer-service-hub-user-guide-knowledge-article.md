@@ -297,7 +297,7 @@ To attach a file to a knowledge article:
     - **My Device** lets you browse and select files from your local device.
     - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub.
 
-**Work with file attachments**
+### Work with file attachments
 
 The **Attached files** section displays all of your knowledge article attachments in a tile view horizontally above your message. The default setting for the maximum number of files that can be displayed is five attachments before the page forward functionality is displayed.
 
@@ -308,7 +308,7 @@ For your attached files, use these commands to do the following:
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
 
-**Update knowledge article attachments for portal**
+### Update knowledge article attachments for portal
 
 With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature by doing the following:
 
@@ -318,10 +318,10 @@ With this new attachment capability, you'll need to stop using notes attachments
 
 By using knowledge article attachments for the portal, keep in mind the following:
 
-- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type.md)
+- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type)
 - We'll do a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, we'll only migrate the notes attachments that are used in the portal to new attachments before the middle of October 2022 for all users.  
 
-For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article.md).
+For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
