@@ -1,7 +1,7 @@
 ---
 title: "Using Teams chat in Dynamics 365 | MicrosoftDocs"
 description: "Start Teams chat conversations from within Dynamics 365 customer engagement apps and link them to records"
-ms.date: 09/21/2021
+ms.date: 10/05/2021
 ms.topic: article
 author: lavanyakr01
 ms.service: crm-online
@@ -79,7 +79,7 @@ You can start a new linked chat or convert an existing Teams chat into a linked 
 
     -  To convert an existing chat into a linked chat, select the chat from the **All recent** section, and then select **More (…)** > **Start a linked chat**.
 
-    The chat name uses the record name or the participants' names<!--note from editor: Edit okay? By definition there will be more than one participant.-->, depending on the configuration that your administrator chose. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for linked chats** setting. You can modify the chat name. It's a good idea to provide a meaningful name so that you can identify the chat even when you're in Teams.<!--note from editor: Suggested.-->
+    The chat name uses the record name or the participant's names, depending on the configuration that your administrator chose. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for linked chats** setting. You can modify the chat name. It's a good idea to provide a meaningful name so that you can identify the chat even when you're in Teams.
 
 3.  Add more participants to the chat, if you want to.
 
@@ -89,13 +89,13 @@ All the participants in the linked chat will see the chat when they open the rec
 
 Link relevant Teams channels to a record so that all the members can easily access the linked channels from the record and follow the conversations.
 
-1.  Open any Dynamics 365 customer engagement record, and select :::image type="icon" source="media/teams-icon.png" border="false":::.<!--note from editor: Via Writing Style Guide, we just use the icon in instructions.-->
+1.  Open any Dynamics 365 customer engagement record, and select :::image type="icon" source="media/teams-icon.png" border="false":::.
 
     The **Teams chats (preview)** panel opens.
 
     Alternatively, select **Collaborate** on the command bar to link a channel to the record. For more information, go to [Enhanced Collaboration Experience with Microsoft Teams](teams-collaboration-enhanced-experience.md).
 
-2.  Select the **Channel** tab. The tab lists the channels that are already linked to the record<!--note from editor: Edit okay?-->.
+2.  Select the **Channel** tab. The tab lists the channels that are already linked to the record.
 
 3.  Select the **Link** icon<!--note from editor: It would be good to use an image here.--> in the upper-right corner.
 

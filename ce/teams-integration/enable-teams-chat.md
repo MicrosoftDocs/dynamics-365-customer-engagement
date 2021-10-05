@@ -1,14 +1,14 @@
 ---
 title: "Enable or disable Teams chat in Dynamics 365 | MicrosoftDocs"
 description: "Enable Teams chat to help users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application."
-ms.date: 09/21/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.service: crm-online
 search.app: 
   - D365CE
   - Powerplatform
-author: lavanyakr01
-ms.author: lavanyakr
+author: sbmjais
+ms.author: shjais
 manager: shujoshi
 ---
 # Admin: Enable or disable Microsoft Teams chat in Dynamics 365 (preview)
@@ -29,7 +29,7 @@ To enable Teams chat in Dynamics 365, you need to access the **Chat and collabor
 - If you're not using the Sales Hub app, add the settings page to the site map of your app.
 
 > [!NOTE]
-> Teams settings are in effect<!--note from editor: Suggested.--> across all customer engagement apps. So, whether you enable the preview from the Sales Hub app or a custom app, it will be enabled for all the supported customer engagement apps.
+> Teams settings are in effect across all customer engagement apps. So, whether you enable the preview from the Sales Hub app or a custom app, it will be enabled for all the supported customer engagement apps.
 
 ### Access settings in Sales Hub
 
@@ -82,20 +82,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 - The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, go to [What are the privileges and type of permissions required by the integration?](teams-in-dynamics-faq.md#what-are-the-privileges-and-types-of-permissions-required-by-the-integration).  
 
-<!--note from editor: I made only minor edits to the previous section, but below I include the original text, just in case that text came straight from CELA and I shouldn't have touched it:
 
-## Data security and privacy
-
-The following data security and privacy considerations apply for the Teams chat functionality in Dynamics 365:
-
-- Dynamics 365 doesn't store any of the Teams data, except for the mapping between the record ID and linked chat ID. No data from Teams is duplicated in Dynamics 365, unless the user manually adds them to the record notes or tasks.
-
-- The communication between the applications is secured through TLS.
-
-- Policies applicable in Teams and Dynamics 365 are honored by the integration. For example, confidential files shared on a linked chat can only be accessed by permitted users. Similarly, a record shared on Teams chat in Dynamics 365 can only be accessed if the user has permissions to view it.  
-
-- The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, see [What are the privileges and type of permissions required by the integration?](teams-in-dynamics-faq.md#what-are-the-privileges-and-type-of-permissions-required-by-the-integration).
--->
 ### See also
 
 [Engage in Microsoft Teams chats from within Dynamics 365 (preview)](teams-collaboration-in-dynamics.md)  

@@ -1,14 +1,14 @@
 ---
 title: "FAQ on Teams integration  | MicrosoftDocs"
 description: "Collaborate efficiently in Dynamics 365 without switching to Teams. This page include FAQs about the integration."
-ms.date: 09/21/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.service: crm-online
 search.app: 
   - D365CE
   - Powerplatform
-author: lavanyakr01
-ms.author: lavanyakr
+author: sbmjais
+ms.author: shjais
 manager: shujoshi
 ---
 # FAQ on Dynamics 365 integration with Microsoft Teams 
@@ -27,7 +27,7 @@ Consent is given at the tenant level. It applies to all Dynamics 365 instances u
 
 ## What happens when consent is provided?
 
-When the tenant admin provides consent, an enterprise application called **Dynamics 365 Microsoft Teams Collaboration Integration** is created in Azure Active Directory<!--note from editor: We don't have to provide the abbreviation here, since the name isn't used again.--> and permissions are given to the enterprise application. Also, a flag is set internally in Dynamics 365 to indicate that the feature is enabled. This flag controls the UI behavior, such as displaying the **Collaborate** menu in the command bar.
+When the tenant admin provides consent, an enterprise application called **Dynamics 365 Microsoft Teams Collaboration Integration** is created in Azure Active Directory and permissions are given to the enterprise application. Also, a flag is set internally in Dynamics 365 to indicate that the feature is enabled. This flag controls the UI behavior, such as displaying the **Collaborate** menu in the command bar.
 
 ## After consent is provided, is Teams integration enabled for all instances?
 
@@ -37,15 +37,15 @@ No. After the tenant admin provides consent, a Dynamics 365 system administrator
   
 | **Permission**      | **Type**    | **What the app does with the permission**       |
 |---------------------|-------------|-------------------------------------------------|
-| Chat.ReadWrite.All  | Delegated   | Reads users'<!--note from editor: Here and in the next row, is it correct to say "Reads users'" or should it be "Reads a user's..."?--> chats and recent messages to display in the chat list.         |
-| Directory.Read.All  | Delegated   | Reads the display names for users' teams and channels.     |
+| Chat.ReadWrite.All  | Delegated   | Reads a user's chats and recent messages to display in the chat list.         |
+| Directory.Read.All  | Delegated   | Reads the display names for user's teams and channels.     |
 | Presence.Read.All   | Delegated   | Reads presence information for all users to be displayed on the user avatars in the chat list.    |
 | User.Read.All       | Application | Reads the display name and licenses of users to validate whether the suggested participants have a Teams license assigned. This permission is used by the **Suggested chats & contacts** section in the chat list. The permission is set at the application level, because it's used by a background service for better performance. |
 | User.ReadBasic.All  | Delegated   | Reads users' photos.  |
 
 ## Does the consent apply to other Microsoft services as well?
 
-No. Other Office services, such as Sharepoint and Exchange, don't require explicit consent because they're managed internally by Teams. 
+No. Other Office services, such as SharePoint and Exchange, don't require explicit consent because they're managed internally by Teams. 
 
 
 ## Will the integration in any way affect security constraints or configuration in Dynamics 365 and Teams?  
