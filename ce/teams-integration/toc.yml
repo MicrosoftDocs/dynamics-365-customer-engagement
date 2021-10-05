@@ -21,7 +21,7 @@
     - name: Engage in Teams chats from within Dynamics 365
       items:
       - name: Engage in Teams chats from within Dynamics 365
-        href: teams-collaboration-in-dymanics.md
+        href: teams-collaboration-in-dynamics.md
       - name: Using Teams chat in Dynamics 365
         href: using-teams-chat-in-dynamics.md
     - name: Use document management
