@@ -42,7 +42,7 @@ The suggestions capability uses AI to suggest contacts who might help agents to 
 
 It works with a set of out-of-the-box AI models, so that admins can enable the feature by setting the toggle, without the need for extra model training.
 
-For more information about similar case suggestions that impact the AI suggested contacts, see [How AI suggestions for similar cases and knowledge articles works](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-works)
+For more information about similar case suggestions that impact the AI suggested contacts, see [How AI suggestions for similar cases works](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-works)
 
 ## Regional availability and supported languages
 
@@ -60,7 +60,7 @@ The AI suggestions are supported in the following languages:
 
 ## Prerequisites
 
-- AI suggestions for similar cases must be enabled. More information: [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
+- AI suggestions for similar cases must be enabled. More information: [Enable AI suggestions for similar cases](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
 - Tenant permissions to enable the enhanced integration with Microsoft Teams feature.
 
