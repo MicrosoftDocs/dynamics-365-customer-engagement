@@ -534,7 +534,7 @@ After the content in the article is complete and reviewed, you can publish the a
   
 7.  If you want to schedule the article to publish on a later date, on the **Summary** tab, in the **Publish On** field, select a date and time to publish the article.  
   
-8. Click **Finish**. The Publish dialog appears.
+8.  Select **Finish**. The Publish dialog is displayed.
   
     -   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
   
@@ -550,7 +550,7 @@ After the content in the article is complete and reviewed, you can publish the a
     :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
     
 > [!NOTE]
-> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you will not be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog . More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer).
+> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you will not be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer).
 
 ## Track basic details of an article  
 
