@@ -1,6 +1,6 @@
 ---
-title: "Import and export Omnichannel Administration app data | MicrosoftDocs"
-description: "Learn to import and export Omnichannel Administration app data from a source organization to another organization."
+title: "Import and export app data | MicrosoftDocs"
+description: "Learn to import and export app data from from a source to target environment in Omnichannel Administration and Omnichannel admin center apps."
 ms.date: 10/05/2021
 ms.topic: article
 author: mh-jaya    
@@ -9,13 +9,13 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Import and export Omnichannel Administration app data
+# Import and export app data
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment or any target environment; you don't have to start over. You can follow this process to export your Omnichannel Administration app configuration data from your test environment and import the data into your new target environment. That way, you can keep all of the queues, routing rules, workstreams, and other custom settings that you set up the first time.
 
-To import and export your Omnichannel Administration app configuration data, install the following apps of the same version in both the source and target environments:
+To import and export your app configuration data in Omnichannel Administration and Omnichannel admin center, install the following apps of the same version in both the source and target environments:
 
 - Omnichannel for Customer Service Administration app
 - Any third-party solutions that you plan to integrate
@@ -39,10 +39,11 @@ During the import process, if any privacy terms are displayed, you'll need to ac
 
 5. The next screen displays the import status of your records. The data import is done in multiple passes. Foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
 
+6. Select **Exit** to close the tool.
 
 ## Export configuration data using the Configuration Migration tool
 
-You can export the configuration data from your source system by using the Omnichannel Administration app configuration data schema file.
+You can export the configuration data from your source system by using the app configuration data schema file, in Omnichannel Administration or Omnichannel admin center.
 
 1. [Download the Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget) to download the latest version of the tool.  
 
@@ -85,10 +86,6 @@ You can export the configuration data from your source system by using the Omnic
 9. Choose **Export Data**. The screen displays the export progress status and the location of the exported file at the bottom of the page after the export is complete.
 
 10. Select **Exit** to close the tool.
-
-
-
-6. Select **Exit** to close the tool.
 
 ## Test the import and export of data
 
