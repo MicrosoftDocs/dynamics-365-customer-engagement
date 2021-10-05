@@ -56,9 +56,9 @@ Do the following steps to add the SLA timer control for the case entity.
 
 7. Save and publish the solution.
 
-### Enable elapsed time for SLA items in terminal or expired status
+### Enable elapsed time for SLA Timers in expired status
 
-You can configure the negative countdown property for the SLA timer so that the timer continues to display the elapsed time after the SLA expires or reaches the terminal status instead of showing the status. The setting needs to be configured for each SLA Timer instance.
+You can configure the negative countdown property for the SLA timer so that the timer continues to display the elapsed time after the SLA expires instead of showing the status. The setting needs to be configured for each SLA Timer instance.
 
 1. After you add the SLA Timer control, set the **Turn on negative countdown** property as **Yes**.
 
