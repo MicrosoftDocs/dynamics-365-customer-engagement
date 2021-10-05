@@ -1,7 +1,7 @@
 ---
 title: "Preview features in trial - Sales Enterprise | MicrosoftDocs"
 description: "Learn about the preview features in your Sales trial app and how to disable them if needed."
-ms.date: 08/10/2021
+ms.date: 10/01/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,13 +16,13 @@ This page lists the upcoming preview features that will be enabled by default in
 
 The following preview features will be automatically enabled in your trial app when they become available:  
 
-- A new view for contacts, opportunities, leads, and accounts with editable and customizable grid and side panel, along with the filter, sort, and group by options. The opportunities view, also known as the deal manager workspace, includes customizable charts and metrics. For more information, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
+- A new view for opportunities with editable and customizable grid and side panel, along with the filter, sort, and group by options. The opportunities view, also known as the deal manager workspace, includes customizable charts and metrics. For more information, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
 
 - An enhanced experience for adding products to opportunities, quotes, orders, and invoices. The enhanced experience lets sellers select multiple products, filter by product families, compare products, and so on. For more information, see [Preview: Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md). 
 
-## Switch to classic view for contacts, opportunities, leads, and accounts
+## Switch to classic view for opportunities
 
-As your trial app is enabled for preview features, you will see the new interface for contacts, opportunities, leads, and accounts by default. 
+As your trial app is automatically enabled for preview features, you will see the new interface for opportunities by default. 
 
 If, for some reason, you want to switch to the classic list view, follow these steps:
 
@@ -34,7 +34,7 @@ If, for some reason, you want to switch to the classic list view, follow these s
 
 3.  In the App Designer, edit the **Site Map** object.
 
-4.  Go to **Sales** > **Sales records** and select the page for which you want to switch the view. For example, to switch over accounts to classic view, select **Accounts**.
+4.  Go to **Sales** > **Sales records** and select **Opportunities**.
 
     > [!TIP]
     > Alternatively, you can create a new group and area for the classic view and leave the new interface as-is.
@@ -43,7 +43,7 @@ If, for some reason, you want to switch to the classic list view, follow these s
 
     **Type**: Select **Entity**.
 
-    **Entity**: Select the entity name that you want to associate such as Contact, Opportunity, Lead, or Account.
+    **Entity**: Select **Opportunities**.
 
     :::image type="content" source="media/sitemap-designer.png" alt-text="Screenshot of the sitemap designer page":::
 
@@ -54,7 +54,7 @@ If, for some reason, you want to switch to the classic list view, follow these s
     
     :::image type="content" source="media/listview.png" alt-text="Screenshot of the classic list view":::
 
-## Switch to the new view for contacts, opportunities, leads, and accounts
+## Switch to the new view for opportunities
 
 If you've switched over to the classic view and now want to revert to the new interface, follow these steps:
 
@@ -64,27 +64,23 @@ If you've switched over to the classic view and now want to revert to the new in
 
 3.  In the App Designer, edit the **Site Map** object.
 
-4.  Go to **Sales** > **Sales records** and select the page for which you want to switch the view. For example, to switch over Contacts to the new view, select **Contacts**.
+4.  Go to **Sales** > **Sales records** and select **Opportunities**.
 
 5.  Modify the following fields in the side panel:
 
     **Type**: Select **URL**.
 
-    **URL**: Specify one of the following URLs depending on the page:
-
-    | **Page**    | **URL**                                                                 |
-    |-------------|-------------------------------------------------------------------------|
-    | Opportunity | /main.aspx?pagetype=control&controlName=MscrmSales.WorkspaceOpportunity |
-    | Contacts    | /main.aspx?pagetype=control&controlName=MscrmSales.WorkspaceContact     |
-    | Leads       | /main.aspx?pagetype=control&controlName=MscrmSales.WorkspaceLead        |
-    | Accounts    | /main.aspx?pagetype=control&controlName=MscrmSales.WorkspaceAccount     |
+    **URL**: Specify `/main.aspx?pagetype=control&controlName=MscrmSales.WorkspaceOpportunity`
 
 6.  Save and publish the changes.
 
-7.  Access the Sales Trial app and go to the corresponding page.
+7.  Access the Sales Trial app and go to the **Opportunities** page.
 
     The page should display the new interface as shown in the following screenshot:
-    :::image type="content" source="media/new-view-in-cola.png" alt-text="Screenshot of the new view":::
+    :::image type="content" source="media/opportunity-new-view.png" alt-text="Screenshot of the new view":::
+     
+    The new opportunities view is also known as the deal manager workspace. For more information on how to use it or personalize it, see [Using the deal manager workspace (preview)](deal-manager-seller-overview.md). 
+
   
 ### See also
 

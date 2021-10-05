@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 09/15/2021
+ms.date: 10/01/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -54,12 +54,11 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
    - **Title**. Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
-   - **Keywords**. Type keywords for the article. These keywords are used for searching the knowledge base for articles. Separate keywords with commas.  
+   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
   
-   - **Description**. Type a short overview of the article. This appears in the search results and is used for search engine optimization.  
-  
-     ![Add content to the knowledge article.](../customer-service/media/v9-add-content-article.png "Add content to the knowledge article")  
-  
+   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
+    :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article.":::
+       
 5. In the **Content** section, add the content for your knowledge article.  
   
    > [!NOTE]
@@ -85,9 +84,36 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
 
+## Use AI suggested article keywords and descriptions (preview)
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md)
+
+However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you'll see messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description".
+
+1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description (preview)** link appears.
+
+1. Select the **View suggested keywords and description (preview)** link.
+    :::image type="content" source="media/v9-add-content-article.PNG" alt-text="View suggested keywords and description link":::
+
+1. In the **Suggested keywords and description (preview)** dialog, do the following:
+
+   - Select the keywords that you want to add to your keywords list. The keywords get added to the **Keywords** field.
+   - Select **Insert suggested description**. The description gets added to the **Description** field.
+
+    :::image type="content" source="media/v9-suggested-keywords-description-dialog.png" alt-text="Screenshot showing a Keyword field containing keywords that were selected from the list of suggested keywords below it.":::
+
+1. Select **Apply Changes**.
+
+The selected keywords and description appear in the **Keywords** and **Description** fields of the knowledge article form.
+
 ## Personalize your language preferences for authoring knowledge articles
 
 If your administrator has enabled language personalization, you can select your preferred language when authoring knowledge articles.
+> [!NOTE]
+> Language settings apply only to knowledge articles that aren't created by converting a case. Converted knowledge articles are created in default language setting of your organization.
 
 1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
 2. Select the **Authoring** tab.
@@ -95,18 +121,16 @@ If your administrator has enabled language personalization, you can select your 
    - Set **Use organization’s language value** to **Yes**.
    - Select your preferred language from the drop-down list.
    > [!NOTE]
-   > At any point, agents can only either set the org language or select a language from the list.
-   
+   > At any point, you can only either set the org language or select a language from the list.  
 4. Select **Save**.
    When you create a new knowledge article, the default language you selected is used.
 5. If you need to change the language for a specific article only, select the **Summary** tab, and then select your preferred language in the **Language** field.
 6. Select **Save**.
 
-The changes you've made will affect the agent experience. When agents go to create new articles, the settings they made will be reflected. 
 
 ## Create knowledge articles using templates
 
-Knowledge Authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
+Knowledge authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
  
 1. Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the Knowledge Manager, Customer Service Manager, or Customer Service Representative role.  
   
@@ -174,7 +198,7 @@ You can choose a specific format or style for the content you’re writing. The 
 |![Align Left.](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
 |![Align Center.](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
 |![Align Right.](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link.](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href="http://myexample.com">http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
+|![Link.](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to webpages and files.<br /><br />URL text that you paste or enter is converted into a link.<br>For example, **ht&#8203;tp://myexample.com** will become <a href="http://myexample.com">http://myexample.com</a>.<br /><br /> In the **Link** dialog, choose the type of link you'd like to insert. <br /><br />Use the **Link Info** tab to choose the link type and set the link protocol and URL. <br /><br />The type of links that you can add are defined by your administrator. If you add links whose origin link doesn't match any of the links specified in the origins list, an error will be displayed when users open an article. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" will appear. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md) <br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
 |![Remove Link.](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
 |![Superscript.](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
 |![Subscript.](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
@@ -254,7 +278,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 This is an indicative preview. Content rendered can be different in the actual device or screen.
 
 > [!NOTE]
-> While authoring a knowledge article in the Content field, if you add anchor links, you won't be able to test the links in the Designer or the Preview mode. However, once the article is published, the anchor links work as expected.
+> If you add anchor links to a knowledge article in the **Content** field, you can’t test them because they don’t work in the **Designer** or **Preview** mode. The anchor links work only when you open the article in knowledge search and on portals.
 
 ## Add a file attachment to a knowledge article
 
@@ -283,6 +307,21 @@ For your attached files, use these commands to do the following:
 - **Sort**: Allows you to sort records by a specific filter, such a file name or size.
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
+
+**Update knowledge article attachments for portal**
+
+With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature by doing the following:
+
+1. Go to **Customer Service Hub**, and then select **Service management** > **Knowledge Management** > **Settings**.
+2. Under **Sync knowledge article attachments to portal**, toggle **Sync attachments to portal** to **Yes**.
+3. Select **Save**.
+
+By using knowledge article attachments for the portal, keep in mind the following:
+
+- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type.md)
+- We'll do a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, we'll only migrate the notes attachments that are used in the portal to new attachments before the middle of October 2022 for all users.  
+
+For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article.md).
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:

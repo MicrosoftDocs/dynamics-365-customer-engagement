@@ -1,7 +1,7 @@
 ---
 title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 02/12/2021
+ms.date: 10/01/2021
 ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
@@ -93,7 +93,7 @@ The Field Service Settings page allows system administrators to set default sett
 | RTV prefix | Select a default prefix for a return to vendor (RTV). The prefix will  be added to the beginning of the RTV number. This  helps you easily identify  an RTV from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md). |
 | RTV starting number |  Select a starting number for RTVs. For example, if you choose 2000, then your first RTV will be 2000, and second one will be 2001, and so on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md).    |
   
-### Agreement  
+## Agreement  
   
 |  Options   |    Description    |
 |------------|-------------------|
@@ -105,7 +105,7 @@ The Field Service Settings page allows system administrators to set default sett
 | Generate agreement work order X days in advance |  When auto generate work orders is set to **Yes**, the system will generate work order records based on the recurrence schedule and the existing booking dates. This setting determines how many days in advance of the booking date to generate the work order record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md)                                                         |
 |  Generate agreement invoices X days in advance  |  The system will generate invoice records based on the invoice recurrence schedule and the existing invoice dates. This setting determines how many days in advance of the invoice date to generate the invoice record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md)     |
 |  Record Generation Timing  | This field defines the default time which daily processes will run against agreement booking setups to generate work orders and agreement invoice setups to generate invoices. This value can also be managed independently for each agreement. |
-|  Pre/Post Booking Flexibility Date Field Population  | When defining an agreement, pre and post booking flexibility fields can be defined which will define the dynamic window in which each work order should plan to be booked. This Setting defines whether work orders generated from agreements will populate this window in the the "Date Window Start" and "Date Window End" fields or the "Time From Promised" and "Time To Promised" fields. Going forward, all new environments will automatically be set to **Populate Time From Promised/Time To Promised**. When configured this way, the "Date Window Start" and "Date Window End" fields will be hidden from the work order form.|
+|  Pre/Post Booking Flexibility Date Field Population  | When defining an agreement, pre and post booking flexibility fields can be defined which will define the dynamic window in which each work order should plan to be booked. This setting defines whether work orders generated from agreements will populate this window in the **Date Window Start** and **Date Window End** fields or the **Time From Promised** and **Time To Promised** fields. If set to **Populate Time From Promised/Time To Promised** then the _Pre and Post Booking Flexibility_ fields on the agreement will populate the **Time From Promised**/**Time To Promised** fields on the work order. When configured this way, the **Date Window Start** and **Date Window End** fields will be hidden from the work order form. Similary if set to **Populate Date Window Start/Date Window End** then the **Pre and Post Booking Flexibility** fields on the agreement will populate the **Date Window Start** and **Date Window End** fields on the work order. Going forward, all new environments will automatically be set to **Populate Time From Promised/Time To Promised**. |
   
 ## Purchase order settings 
   
