@@ -128,15 +128,15 @@ You can view how the effort estimation model was used to route a work item.
 
 Effort estimate-based routing is supported only in the following languages:
 
-- English
-- German
-- French
-- Spanish
-- Dutch
+- Arabic
 - Danish
+- Dutch
+- English
+- French
+- German
 - Italian
 - Japanese
-- Arabic
+- Spanish
 
 ### See also
 
