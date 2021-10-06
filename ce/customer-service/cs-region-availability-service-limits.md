@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Regional availability of insights in Customer Service
 
-The following table lists the regional availability of Customer Service features.
+The following table lists the regional availability of Customer Service Insights features.
 
 | Feature | North America| Europe | Asia Pacific | South America | OCE |Japan | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | South Africa |Korea | Norway
 | ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
