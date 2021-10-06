@@ -18,7 +18,7 @@ To ensure that you have a smooth transition, here are the set of changes you'll 
 
 - If you have network policies in your organization, be sure to update your system requirements to include a new set of domains that'll be used by the new omnichannel application. More information: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
-- If you're using the Omnichannel Chat SDK to customize the live chat widget for mobile apps, then be sure to download the latest version of the SDK package. More information: [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
+- If you're using the Omnichannel Chat SDK to customize the live chat widget for mobile apps, then be sure to download the latest version of the SDK package. More information: [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation)
 
 - If you're integrating an Azure bot, then you must connect and register your bot with the new Omnichannel channel. More information: [Integrate Azure bot](configure-bot.md)
     
