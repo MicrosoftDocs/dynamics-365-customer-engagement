@@ -1,6 +1,31 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/community-advanced-features.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-entity-definitions.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-portal-setup.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-user-experience.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-user-setup.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/bring-your-own-channel-sample-html.md",
       "redirect_url": "test-custom-channel-sample-html",
       "redirect_document_id": "false"
