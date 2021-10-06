@@ -1,7 +1,7 @@
 ---
 title: "Customize your Teams webinar participant follow-up (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to customize your follow-up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 09/14/2021
+ms.date: 10/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -61,6 +61,26 @@ Any existing Marketing user who follows up with Teams participants must be the [
 > [!NOTE]
 > To learn how to work with user accounts, licenses, and security roles in Marketing, see [Manage user accounts, user licenses, and security roles](admin-users-licenses-roles.md). All Marketing entities can be found in the **Custom Entities** tab in the **Security role** window, while the **User** entity can be found in the **Business Management** tab.
 
+## Troubleshoot synchronization errors
+
+Synchronization failures between Teams and Dynamics 365 Marketing are often related to customizations to the following entities:
+
+- Custom registration field
+- Customer journey
+- Event
+- Event custom registration field
+- File
+- Marketing email
+- Segment
+- Speaker
+- Speaker engagement
+ 
+To address synchronization failures, verify the following:
+
+-	Check for customizations on the above-listed entities that might trigger the error on creation or update. Customizations might include SDK message processing steps or workflows.
+-	The Marketing service user might lack required privileges related to operations that are triggered as a dependency on an entity that is created or updated during the synchronization flow. For instance, a custom SDK message processing step might trigger the creation of a dependent entity after a new event is created. Permissions required for these dependent operations need to be added to the pre-configured user called **MarketingServices ApplicationUser**. For details, see [Manage user accounts, user licenses, and security roles](admin-users-licenses-roles.md#dont-modify-or-remove-marketing-service-users).
+
+To get more details about the error and to retrigger the synchronization flow for the affected event, [contact support](troubleshoot-faq.md#how-can-i-create-a-support-ticket-from-the-power-platform-admin-center).
 
 ## Customize your journey or create a new one
 
