@@ -50,7 +50,7 @@ Perform the following steps to create a custom assignment method:
 8. On the **Assignment ruleset** page that appears, select **Create rule**.
 
 9. In the **Create assignment rule** dialog, do the following to add conditions and order by attributes:
-   
+
    a. **Rule Name**: Enter a rule name.
 
       By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility.
