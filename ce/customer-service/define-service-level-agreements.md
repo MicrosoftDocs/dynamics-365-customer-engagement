@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 08/19/2021
+ms.date: 10/02/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,6 +15,7 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 ---
 
 # Define service-level agreements
@@ -443,11 +444,11 @@ When a record is created, the SLA is applied (either by default or through entit
 
 When the SLA is applied again, all of the SLA items are evaluated based on the updated record fields, and failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.
 
+In Unified Interface, by default, when the SLA moves to a terminal status (non-compliant or succeeded), the "applicable when" and "success criteria" will not be evaluated again on the SLA. If you want the SLA to be reevaluated, you can enable the reevaluation setting in the service configuration settings. More information: [Enable SLA recalculation](enable-sla-recalculation.md)
 
 > [!NOTE]
 >
-> - In Unified Interface, after the SLA moves to a terminal status, which is non-compliant or succeeded, the applicable when and success criteria will not be evaluated again on the SLA.
-> - You can only have one SLA running on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
+> Only one SLA can be run on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
 
 ## Apply SLAs on demand<a name="apply-sla-on-demand"></a>
 
