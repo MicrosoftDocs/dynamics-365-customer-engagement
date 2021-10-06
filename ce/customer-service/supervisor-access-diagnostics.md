@@ -16,7 +16,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Access diagnostics for unified routing
+# Supervisor access to diagnostics for unified routing
 
 ## Introduction
 
