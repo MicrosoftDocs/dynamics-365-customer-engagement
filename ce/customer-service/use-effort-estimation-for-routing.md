@@ -1,7 +1,7 @@
 ---
 title: "Use effort estimation model in unified routing | MicrosoftDocs"
 description: "Learn how to use the effort estimation model in unified routing in Customer Service."
-ms.date: 10/04/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -28,7 +28,7 @@ You can use the effort estimation model to classify and route work items.
 
 You can use the estimation technique to understand how much time it will take to address a work item and based on that route to the agent who has the bandwidth to manage it.
 
-Effort can be defined as the lenth of time that's necessary to either resolve a work item or amount of time spent on a work item before it is moved to the next stage as defined by the organization:
+Effort can be defined as the length of time that's necessary to either resolve a work item or amount of time spent on a work item before it is moved to the next stage as defined by the organization.
 
 Some examples of how effort can be defined are as follows:
 
@@ -123,6 +123,20 @@ Routing diagnostics help you see how the work items have been classified and rou
 You can view how the effort estimation model was used to route a work item.
 
 :::image type="content" source="media/diagnostics-effort-estimation.png" alt-text="Diagnostics of effort estimation model.":::
+
+### Language support for effort estimation models
+
+Effort estimate-based routing is supported only in the following languages:
+
+- English
+- German
+- French
+- Spanish
+- Dutch
+- Danish
+- Italian
+- Japanese
+- Arabic
 
 ### See also
 

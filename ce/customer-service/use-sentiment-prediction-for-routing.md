@@ -1,7 +1,7 @@
 ---
 title: "Use sentiment prediction in unified routing | MicrosoftDocs"
 description: "Learn how to enable and use sentiment prediction in unified routing in Customer Service."
-ms.date: 10/04/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -108,6 +108,10 @@ Routing diagnostics help you see how the work items have been classified and rou
 You can view how the sentiment prediction model was used to route a work item.
 
 :::image type="content" source="media/diagnostics-sentiment-prediction.png" alt-text="Diagnostics for sentiment prediction model.":::
+
+### Language support for sentiment prediction models
+
+All Azure Cognitive Services supported languages are supported in sentiment prediction-based routing. More information: [Language support - Translator - Azure Cognitive Services](/azure/cognitive-services/translator/language-support)
 
 ### See also
 
