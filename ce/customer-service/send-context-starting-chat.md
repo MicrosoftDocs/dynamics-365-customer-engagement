@@ -1,6 +1,6 @@
 ---
 title: "Manage custom context | MicrosoftDocs"
-description: "Learn how you can send custom context to a chat session that can help decide the queue to route the chat to."
+description: "Learn how you can send custom context to a chat session that can help decide the queue to which you must route the the chat."
 ms.date: 02/11/2021
 ms.topic: reference
 author: mh-jaya
@@ -11,17 +11,15 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-When a customer initiates a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used for displaying information on the user interface and creating routing rules that eventually determine the queue to route the chat to.
+When a customer starts a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used to display information on the user interface and to create routing rules that eventually determine the queue to which you must route the chats.
 
-The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service. If no context variables have been created under live workstream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by live chat widget when a new chat is started. Because the values are case sensitive, use exact match to pass them to the context variables.
+The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated workstream in Omnichannel for Customer Service. If no context variables have been created under live workstream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by the live chat widget when a new chat is started. Because the values are case sensitive, use exact match to pass them to the context variables. More information: [Context variables](context-variables-for-bot.md)
 
-For information on context variables that can be configured, see [Context variables](context-variables-for-bot.md).
-
-Use the following steps to send custom context when starting a chat:
+Follow these steps to send custom context when you start a chat:
 
 1. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 2. Once the **lcw:ready** event is raised, register a custom context provider with live chat using the [setContextProvider](developer/reference/methods/setContextProvider.md) method.
-3. Use [startChat](developer/reference/methods/startChat.md) SDK to initiate a chat.
+3. Use [startChat](developer/reference/methods/startChat.md) SDK to start a chat.
 
 ## Sample code
 
@@ -51,11 +49,38 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-To display the context variables in the Conversation Summary Control for a conversation, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method and set its value to `true`. More information: [Display custom context](display-custom-context.md).
+To display the context variables in the Conversation Summary Control for a conversation, see [Display custom context](display-custom-context.md).
 
 > [!div class="nextstepaction"]
 > [Next topic: Send authentication token](send-auth-token-starting-chat.md)
 
+### Parse JSON to use custom context variables
+
+Use the schema mentioned in this section to parse the JSON to use custom context variables.
+
+```JavaScript
+Schema
+{
+            "type": "object",
+             "properties": {
+                    "isDisplayable": {
+                        " description": " Context variable should display in agent UI or not",
+                        "type": "boolean"
+                    },
+                    "Value": {
+                         " description": " Context variable value pass through bot , this can be string Boolean or number",
+                        "type": "string or Boolean or Number"
+                    }
+                },
+                "required": [ "isDisplayable", "Value" ]            
+        }
+
+```
+
+An example for the `isDisplayable` variable is as follows:
+`{\"isDisplayable\":\"true\"," +"\"Value\":\"context variable value as string\"}`
+
+The `Value` mentioned in the example can be String, Number, or Boolean.
 ### See also
 
 [setContextProvider](developer/reference/methods/setContextProvider.md)  
