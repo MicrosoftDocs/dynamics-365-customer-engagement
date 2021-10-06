@@ -140,3 +140,75 @@ Placeholder 2 true:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-condition-denmark-false.png)
+
+## Lists of Content
+
+Lists (each) statements allow you to format and display repeated content for a given table. You can add the code required to create these statements in the designer or in the HTML view. You can then use the placeholder dialog to specify the list to be evaluated including the number of rows to display and the order to display them in.
+
+```
+{{#each placeholderName}}
+   Repeated content to display
+{{/each}}
+```
+
+If you are adding code to HTML, make sure to put comments around the code:
+
+```
+<!-- {{#each placeholderName }} -->
+
+    <h1> Repeated content to display</h1>
+
+<!-- {{/each}} -->
+```
+
+In the code, you only specify the placeholder name. To set up the list, go to the **Personalize** tab in the **Toolbox**:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-list-setup.png)
+
+For example, you want to create an email with a list of products the customer has.
+
+First, create a List placeholder and select the table you what to use for the list:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing placeholder configuration.](media/real-time-marketing-personalization-lists-examplestep1.png)
+
+Next, add any attributes you want to display as the repeated content in the list:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing contact address configuration for Denmark.](media/real-time-marketing-personalization-lists-examplestep2.png)
+
+You can also specify which attribute to order the list by and how many items you want displayed:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing conditions set to true.](media/real-time-marketing-personalization-lists-examplestep3.png)
+
+Finally, you can save and use the Code Generator to easily copy the list code to the designer:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-lists-examplestep4.png)
+
+
+## Code Generator 
+
+You can use the Code Generator tool to quickly create code for your condition and list placeholders to easily copy.
+
+To access the Code Generator, go to the **Personalize** tab in the **Toolbox**:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-codegenerator1.png)
+
+You can select either a Condition or List placeholder to build your code for:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-codegenerator2.png)
+
+For Conditions, you can add additional else cases or a default case:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-codegenerator3.png)
+
+For Lists, you can add or delete additional attributes (these changes will be saved to your List placeholder):
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-codegenerator4.png)
