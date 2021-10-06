@@ -44,7 +44,7 @@ You must ensure the following conditions are met before you integrate your bot w
 
 To integrate your bot with Omnichannel for Customer Service, perform the following steps:
 1. [Connect your bot resource to Omnichannel for Customer Service](#connect-your-bot-resource-to-omnichannel-channel).
-2. [Create the bot user as application user and assign it as an omnichannel agent](#configure-bot-user-as-omnichannel-agent).
+2. [Create the bot user as application user and assign it as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
 3. [Add the bot user to queues](#add-the-bot-user-to-queues).
 4. [Add a code snippet to engage the bot](#add-a-code-snippet-to-engage-the-bot).
 5. [Set escalation rules](#set-escalation-rules).
@@ -138,14 +138,14 @@ Be sure to map the routing rules to the correct queues so that the queries are r
 
 The following sample provides the exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules are created. The bot user is added to one queue, and the agents are added to the two other queues. Routing rules are defined in such a way that whenever a customer starts a chat, it will be first sent to the bot, and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
 
-1.	Follow the instructions in [Configure bot user as Omnichannel agent](#configure-bot-user-as-omnichannel-agent) to create a bot user.
+1.	Follow the instructions in [Configure bot user as Omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent) to create a bot user.
 
 2.	Follow the instructions in [Add the bot user to queues](#add-the-bot-user-to-queues) to create three queues and add users as follows:
     - **BotQueue**: Add the bot user to this queue.
-    - **CreditCardQueue**: Add agents who will handle queries relatd to credit card.
+    - **CreditCardQueue**: Add agents who will handle queries related to credit card.
     - **HomeLoanQueue**: Add agents who will handle queries related to home loan.
 
-3. Follow the instructions in [Add code snippet to engage a bot](#add-code-snippet-to-engage-a-bot) to add a code snippet for engaging a bot.
+3. Follow the instructions in [Add code snippet to engage a bot](#add-a-code-snippet-to-engage-the-bot) to add a code snippet for engaging a bot.
 
 4.	Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
