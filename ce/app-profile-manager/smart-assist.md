@@ -1,6 +1,6 @@
 ---
 title: "Smart assist for agent efficiency | MicrosoftDocs"
-description: "Learn about how to smartly assist agents with the next-best steps in the Customer Service workspace and Omnichannel Administration apps."
+description: "Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel Administration apps."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -57,7 +57,7 @@ You can create an application user only in the web client. Use the bot applicati
 
 ### Add a smart assist bot to a workstream<a name="step-2-add-smart-assist-bot-to-a-workstream"></a>
 
-After you create a bot user, you need to add the bot to the work stream so that agents who use the channel of this workstream can see the suggestions.
+After you create a bot user, you need to add the bot to the workstream so that agents who use the channel of this workstream can see the suggestions.
 
 1. In Omnichannel admin center, go to **Workstreams** under **General settings**, and select the workstream to which you want to add the smart assist bot.
 
@@ -65,7 +65,7 @@ After you create a bot user, you need to add the bot to the work stream so that 
 
 3. In the **Add from existing** panel, select a bot user from the list, and select **Add**.
 
-You can add multiple bots to a work stream based on your business requirements.
+You can add multiple bots to a workstream based on your business requirements.
 
 
 ### See also
