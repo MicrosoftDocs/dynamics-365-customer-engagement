@@ -45,7 +45,6 @@ The unified routing report displays the following metrics.
 |Top 5 skills needed     |  Top five skills required by the routed records.        |         |
 | | | |
 
-
 ### Queue drill-down view
 
 In **Routing metrics by queue**, select a queue, and then select **Details** to view the queue drill-down view. This view displays information about the records that were routed and the transfer rate for the items that were transferred to other queues.
