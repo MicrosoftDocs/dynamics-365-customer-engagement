@@ -1,7 +1,7 @@
 ---
 title: "Manage seller attributes in assignment rules for lead and opportunity routing"
 description: "Manage seller attributes in assignment rules for lead and opportunity routing by creating, editing, and deleting in sales accelerator (Dynamics 365 Sales)."
-ms.date: 09/10/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag

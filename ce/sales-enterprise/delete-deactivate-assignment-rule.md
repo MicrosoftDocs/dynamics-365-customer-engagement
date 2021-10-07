@@ -1,7 +1,7 @@
 ---
-title: "Delete or deactivate an assignment rule (Sales Insights)"
+title: "Delete or deactivate an assignment rule"
 description: "Permanently delete an assignment rule that is no longer required in your organization, or deactivate to retain the rule in the application in inactive mode."
-ms.date: 09/10/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag

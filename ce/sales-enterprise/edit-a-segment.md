@@ -1,7 +1,7 @@
 ---
-title: "Edit a segment in the sales accelerator (Sales Insights) | MicrosoftDocs"
+title: "Edit a segment in the sales accelerator"
 description: "Update the conditions in the segment to modify your process for choosing the records you want as members of a segment."
-ms.date: 04/09/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag

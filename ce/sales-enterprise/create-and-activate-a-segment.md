@@ -1,7 +1,7 @@
 ---
 title: "Segment creation and activation in sales accelerator | MicrosoftDocs"
 description: "Create and activate segments by defining conditions to automatically add records that satisfy the conditions in Dynamics 365 Sales."
-ms.date: 04/09/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -88,15 +88,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
  
 9.	Select **Activate**.    
 
-The segment is activated. Now you can connect the segment to a sequence or a record. 
-
-<table>
-<tr><td>
-
-> [!div class="nextstepaction"] 
-> [Next step: Connect a segment to a sequence](connect-a-segment-to-sequence.md)
-</td></tr>
-</table> 
+The segment is activated. Now you can connect the segment a record. 
 
 ### See also
 

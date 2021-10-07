@@ -1,7 +1,7 @@
 ---
-title: "Delete or deactivate a segment (Sales Insights) | MicrosoftDocs"
+title: "Delete or deactivate a segment | MicrosoftDocs"
 description: "Permanently delete a segment that is no longer required in your organization, or deactivate to retain the segment in the application in inactive mode."
-ms.date: 04/09/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag

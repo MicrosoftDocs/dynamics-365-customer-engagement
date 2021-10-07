@@ -1,7 +1,7 @@
 ---
-title: "Edit an assignment rule in Sales Insights"
+title: "Edit an assignment rule in sales accelerator"
 description: "Update the conditions that you've defined in the rule to modify your process for automatically assigning leads to sellers."
-ms.date: 09/10/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
