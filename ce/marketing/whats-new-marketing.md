@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 09/14/2021
+ms.date: 10/05/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -28,6 +28,11 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
 ## 2021 updates
+
+### October 2021 update
+
+> [!Important]
+> In the October update, we're launching a new email editor to improve the ease and efficiency of creating emails. If you're currently using consultant/developer (UI) customizations, you'll need to recreate them in the new editor.
 
 ### September 2021 update
 

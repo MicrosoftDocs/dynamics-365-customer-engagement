@@ -412,6 +412,8 @@
         href: set-up-search-providers.md
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
+      - name: Create and manage knowledge articles 
+        href: customer-service-hub-user-guide-knowledge-article.md
       - name: Configure the knowledge article authoring language
         href: set-knowledge-article-authoring-language.md
       - name: Configure the origin allow list for knowledge articles
@@ -436,8 +438,6 @@
         href: oc-search-knowledge-articles.md
     - name: Agent experience
       items: 
-      - name: Create and manage knowledge articles
-        href: customer-service-hub-user-guide-knowledge-article.md
       - name: Search for knowledge articles
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
@@ -692,6 +692,8 @@
         href: enable-sound-notifications.md
       - name: Enable missed notifications
         href: manage-missed-notifications.md
+      - name: Enable automatic update of presence on rejection of work assignment
+        href: enable-agent-reject-notifications.md
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
