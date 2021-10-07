@@ -36,6 +36,11 @@ This is to be expected if you use multiple business process flow definitions for
 
 The legacy web client displays the chart by using the value of the associated category option, whereas in the Unified Interface the stages are displayed alphabetically. Because the pipeline phases are prefixed with the order defined in the **Stage category** option set, they're displayed according to the category option sequence (1, 2, and so on).
 
+## Issue: I see that the stages are not sorted numerically when the number of stages are beyond 9.
+
+Charts in the Unified Interface are sorted alphabetically. When you've sales stages beyond 9, (example: 10-OnHold, 11-Pipeline), those stages appear in the chart before any stage which starts with 2. In other words, the chart renders all the phases with first character as 1 and then displays the phases starting with 2 and so on. In such cases, set up a custom attribute/column and populate it based on the chart requirements. More information: [How to create and edit columns](/powerapps/maker/data-platform/create-edit-fields).
+
+
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)
