@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 10/04/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -60,18 +60,18 @@ After knowledge management is set up, users will be able to:
 ## Set up knowledge management settings page manually (unified interface)
 
 > [!NOTE]
-> The Embedded Knowledge Search Control entity is deprecated in the web client. You must use the unified interface Knowledge Settings entity.
+> The embedded knowledge search control is deprecated in the web client. You must use the Knowledge Settings page in unified interface.
 
- To manually go to the unified interface knowledge settings page from your custom app:
+ If you are using the custom model-driven app, you need to manually update your sitemap with the Knowledge Settings page. To update the sitemap:
 
-1.	Select your custom app.
+1. Select your custom app.
 
 2.  Select **Open in app designer**.
 3.  Select **Site Map**.
 4.	Select **Add > Subarea** to create a new sub area for your area.
 5. In the **Properties > SUB AREA** section, provide the following information:
-  * Type: Select **URL**. 
-  * URL: Enter **/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings**
+   * Type: Select **URL**. 
+   * URL: Enter **/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings**
 
 ## Set up AI suggestions for article keywords and description (preview)
 
