@@ -13,10 +13,11 @@ search.app:
   - D365CE
   - D365FS
 ---
-> [!IMPORTANT]
-> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new Field Service (Dynamics 365) mobile app. For more information, view [the documentation](mobile-power-app-get-started.md). 
 
 # Install and set up Field Service Mobile
+
+> [!IMPORTANT]
+> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new Field Service (Dynamics 365) mobile app. For more information, view [the documentation](mobile-power-app-get-started.md). 
 
 The [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] app gives field technicians the information they need to get to a customer location and complete work orders quickly. Dynamics 365 Field Service provides the cross-platform, multi-device Field Service Mobile application that is crafted to the field service worker's needs. The mobile application is customizable and extensible, allowing any organization to brand the application as its own, define what types of data field service workers can access, and much more.
 
