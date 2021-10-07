@@ -74,7 +74,7 @@ After knowledge management is set up, users will be able to:
  
  5. In the **Properties > SUB AREA** section, provide the following information:
     * Type: Select **URL**. 
-    * URL: Enter <div id="sample">/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings</div>
+    * URL: Enter  ```/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings```
 
 ## Set up AI suggestions for article keywords and description (preview)
 
