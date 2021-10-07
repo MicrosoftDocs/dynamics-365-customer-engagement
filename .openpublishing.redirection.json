@@ -1936,6 +1936,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/fs-mobile-extend-woodford-trial.md",
+      "redirect_url": "activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/install-sample-data-8-x.md",
       "redirect_url": "user-guide",
       "redirect_document_id": "false"
