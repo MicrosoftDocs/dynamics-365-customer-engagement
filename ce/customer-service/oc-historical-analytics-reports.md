@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
 description: "Configure historical analytics reports for Omnichannel"
-ms.date: 10/04/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -71,10 +71,11 @@ If your organization needs to enable users with different privileges to access t
 
 4. Select the **Custom Entities** tab, and then select an entity, for example "Omnichannel historical analytics".
 
-5. Select **Save and Close**. The Omnichannel supervisor will now be able to see the historical anaytics report.
+5. Select **Save and Close**. The Omnichannel supervisor will now be able to see the historical analytics report.
 
 You can see the following reports by navigating to **Omnichannel for Customer Service**, creating a new session tab, and selecting **Omnichannel historical analytics**. The **Conversation** page is displayed.
 
 ### See Also
 
 [Dashboard Overview](customer-service-analytics-insights-csh.md)  
+[Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  

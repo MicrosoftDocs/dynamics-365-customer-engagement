@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 10/04/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -52,7 +52,7 @@ To create a manual work classification ruleset, do the following steps:
 
 3. In the **Decision list** area, select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
-4. In the **Conditions** area, define the conditions according to your business needs. If you are creating classification rules for records, then the top-level condition is automatically populated. You can define conditions up to two levels of the related records and attributes. 
+4. In the **Conditions** area, define the conditions according to your business needs. If you are creating classification rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes. 
 
 5. In the **Output** area, select the attribute for which value needs to be set if the conditions are met.
 
@@ -122,7 +122,7 @@ When no rule condition is matched or no rule is defined, the work item is assign
 
 2. In the **Create route to queue rule** dialog, enter a name in **Rule Name**. By default, the root record is selected and displayed at the top of the condition builder.
 
-3. In **Conditions**, define the set of conditions. If you are creating rules for records, then the top-level condition is automatically populated. You can define conditions up to two levels of the related records and attributes.
+3. In **Conditions**, define the set of conditions. If you are creating rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes.
 
 4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
    > [!NOTE]

@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 10/04/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -73,6 +73,11 @@ Some important points about prioritization rules are as follows:
 ## How assignment rulesets work
 
 The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the agents to select and an order by field to sort the matching agents. At runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agents exist, they are sorted by the order by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated. This can be thought of as gradual relaxation of constraints in the assignment such that first the strictest criteria is applied, and then the conditions are slowly reduced so that the best agent is found.
+
+In the assignment rule, the system user attributes are matched with the requirement of the work item. When you select static match, the condition is formed on the System User entity attribute and static values. When you select dynamic match, the conditions on the left are based on the system user root entity and the conditions on the right are based on the conversation root entity. You can drill down to two levels on the conversation root entity to form the rule conditions. An assignment rule with the dynamic match and static match is as follows.
+
+:::image type="content" source="media/assignment-rule-root-entity.png" alt-text="Assignment rule with dynamic match and static match conditions.":::
+
 
 In scenarios when more than one agent matches the requirement of the work item, the system resolves the assignment in a round robin manner, based on the earliest last assignment time. For example, three agents Lesa, Alicia, and Alan are available with the coffee refund skill and 100 units capacity, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively. A work item on coffee refund arrives in the queue. The system assigns the work item to Lesa because her last assignment was the earliest at 10:30 AM. Meanwhile, if another coffee refund work item comes, the system will assign it to Alicia and not to Lesa or Alan.
 

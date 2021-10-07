@@ -1,7 +1,7 @@
 ---
 title: Diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 10/04/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -57,7 +57,7 @@ You can select any work item to see a **Summary** page that shows detailed infor
 
 ## Routing diagnostics flow
 
-Each work item needs to pass through a set of stages before its routing stage can be assigned as completed. You can create multiple work streams and assign work items based on their severity and priority. The standard flow of a work item is mentioned here.
+Each work item needs to pass through a set of stages before its routing stage can be assigned as completed. You can create multiple workstreams and assign work items based on their severity and priority. The standard flow of a work item is mentioned here.
 
 Intake ➡ Classification ➡ Route to queue ➡ Prioritization ➡ Assignment selection ➡ Assignment
 
@@ -66,7 +66,10 @@ Intake ➡ Classification ➡ Route to queue ➡ Prioritization ➡ Assignment s
 
 ### Intake
 
-When a work item comes in, it goes to the first work stream in the **Intake** table and is checked for whether it meets the conditions of the rule set. The work item moves to the second work stream and checks for a match with that rule set, and so on. When a work item matches the rule set, the work item is run. You can create multiple work streams based on priority of the work items. This is called the **Intake** stage of the workflow. 
+> [!NOTE]
+> Intake stage is applicable only for record routing.
+
+When a work item comes in, it goes to the first workstream in the **Intake** table and is checked for whether it meets the conditions of the rule set. The work item moves to the second workstream and checks for a match with that rule set, and so on. When a work item matches the rule set, the work item is run. You can create multiple workstreams based on priority of the work items. This is called the **Intake** stage of the workflow.
 
 After a work item passes the **Intake** stage, it's then classified through several rule sets and rule items.
 

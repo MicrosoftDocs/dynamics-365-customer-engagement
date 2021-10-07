@@ -1,7 +1,7 @@
 ---
 title: "Historical analytics for unified routing in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the KPIs that are available in the historical analytics report for Omnichannel for Customer Service."
-ms.date: 10/04/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -47,7 +47,7 @@ The unified routing report displays the following metrics for the selected filte
 
 ### Queue drill-down view
 
-In the **Routing metrics by queue** table, select a queue, and then select **Details** to view the detailed KPIs for it. You can view data on incoming conversations, incoming sessions, and session transfer rate for the queue.
+On the **Unified routing** report page, in the **Routing metrics by queue** table, select a queue, and then select **Details** to view the detailed KPIs for it. You can view data on incoming conversations, incoming sessions, and session transfer rate for the queue.
 
 :::image type="content" source="media/ur-oc-hist-drill-down-view.png" alt-text="Routing metrics by queue in unified routing for Omnichannel for Customer Service.":::
 
@@ -61,7 +61,7 @@ The queue drill-down view displays the following KPIs.
 
 ### Hourly drill-down view
 
-The **Routing metrics by date** table displays the day wise data for the KPIs for the selected period in the **Duration** filter.
+On the **Unified routing** report page, the **Routing metrics by date** table displays the day wise data for the KPIs for the selected period in the **Duration** filter.
 
 :::image type="content" source="media/oc-routing-metrics-date.png" alt-text="Routing metrics by date in unified routing for Omnichannel for Customer Service.":::
 
@@ -70,4 +70,4 @@ You can select a date, and then select **Details** to view the routing metrics b
 ### See also
 
 [Enable Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-reports.md#enable-historical-analytics-for-unified-routing-in-omnichannel-for-customer-service)  
-
+[Overview of unified routing](overview-unified-routing.md)  

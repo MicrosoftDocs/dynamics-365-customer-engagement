@@ -47,7 +47,7 @@ The unified routing report displays the following metrics.
 
 ### Queue drill-down view
 
-In **Routing metrics by queue**, select a queue, and then select **Details** to view the queue drill-down view. This view displays information about the records that were routed and the transfer rate for the items that were transferred to other queues.
+On the **Unified routing** report page, in **Routing metrics by queue**, select a queue, and then select **Details** to view the queue drill-down view. This view displays information about the records that were routed and the transfer rate for the items that were transferred to other queues.
 
 The **Incoming sessions transferred by queue** metric displays the incoming sessions that were transferred from the selected queue to other queues.
 
@@ -55,7 +55,7 @@ The **Incoming sessions transferred by queue** metric displays the incoming sess
 
 ### Hourly drill-down view
 
-The **Routing metrics by date** table displays the day wise data for the KPIs for the selected period in the **Duration** filter.
+On the **Unified routing** report page, the **Routing metrics by date** table displays the day wise data for the KPIs and the selected period in the **Duration** filter.
 
 :::image type="content" source="media/cs-routing-metrics-date.png" alt-text="Routing metrics by date in unified routing for Customer Service.":::
 

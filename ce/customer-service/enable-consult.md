@@ -1,7 +1,7 @@
 ---
 title: "Enable consult in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Enable consult in agent experience for agent productivity in Omnichannel for Customer Service"
-ms.date: 08/09/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -29,8 +29,11 @@ When agents use the consult option during their interaction with a customer, the
 Do the following to enable the consult pane for agents:
 
 1. In Omnichannel admin center, under **Advanced settings**, select **Agent experience**.
-2. On the **Agent experience** page, under **Agent productivity**, select the **Manage** option for **Consult (preview)**.
+
+2. On the **Agent experience** page, under **Agent productivity**, select the **Manage** option for **Consult**.
+
 3. On the **Omnichannel configuration** page, on the **Consult** tab, set the toggle to **Yes** for **Enable new consult experience**.
+
 4. Save and close the page.
 
 ### See also

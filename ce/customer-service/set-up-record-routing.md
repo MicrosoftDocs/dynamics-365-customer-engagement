@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
 description: "Learn how to set up record routing in Customer Service."
-ms.date: 10/04/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -78,7 +78,7 @@ Perform the following steps to configure the intake rules:
 
 2. In the **Intake rules** area, select **Create rule**.
 
-3. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule. You can define conditions up to two levels of the related records and attributes.
+3. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule. You can define conditions for up to two levels of the related records and attributes.
 
   :::image type="content" source="media/ur-intake-rule.png" alt-text="Define conditions for an intake rule.":::
 
