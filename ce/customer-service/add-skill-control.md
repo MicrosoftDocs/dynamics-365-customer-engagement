@@ -24,23 +24,29 @@ In the following example, to add a skill control named **Skills** to the case fo
 
 1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**. 
 
-2. On the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Forms**. 
+2. On the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Forms**.
 
 3. In the **Active Forms** list that appears on the grid, select the form where you want to add the skill control. In this example, we selected the **Case for Interactive experience** form.
 
 4. On the **Insert** tab, select **Section**, and then select **One Column**. Drag the section to the form.
- 
+
 5. From the **Field Explorer**, select a field that supports a single line of text (such as **Case Title**). Drag and drop the field on to the section you just created.
 
 6. Select the field you just added, and then select **Change Properties** on the **Home** tab. 
 
    In the **Field Properties** dialog that appears, select the **Display** tab and enter a label name for the field, such as **Skills**.
 
-7. On the **Controls** tab, select **Add Control**. 
+7. On the **Controls** tab, select **Add Control**.
   
    In the **Add Control** dialog that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the dropdown list, and then select **OK**.
 
-8. Save and publish the solution.
+8. Set the property values as follows:
+ - 
+ - 
+ - 
+ - 
+
+10. Save and publish the solution.
 
 The skill control is added to the **Case Interactive experience** form. Your agents will now be able to view the newly added custom control on all routed records in Customer Service Hub. 
 
