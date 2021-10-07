@@ -49,7 +49,7 @@ You can also perform the following actions on your knowledge article from the **
 
 ### View the knowledge article on the application tab
 
-Select an article title to view the article on an application tab. You can view up to 10 articles in the application tab.
+Select an article title to view the article on an application tab. You can view up to 10 articles on the application tab.
 
 :::image type="content" source="media/csw-article-app-tab.png" alt-text="View article on application tab":::
 
