@@ -25,11 +25,12 @@ Configure your working days, hours, and days off to adjust scheduled tasks and l
     The calendar opens for the current month with your work availability.
 
     > [!div class="mx-imgBorder"]
-    > ![Status of the configuration message.](media/sales-accelerator-configuration-status-message.png "Status of the configuration message")
+    > ![Work availability calendar page.](media/sales-accelerator-work-availability-calendar.png "Work availability calendar page")
 
+    > [!NOTE]
+    > At the bottom of the calendar, you can see the default local time of your organization.
 
-
-4.	Select **+ New**, and choose an option to configure your calendar according to your requirements.    
+3.	Select **+ New**, and choose an option to configure your calendar according to your requirements.    
     -	**Working hours**: Configure your regular working hours between dates you define. This helps sales accelerator to consider the assignment of activities to your work list.    
         >[!div class="mx-imgBorder"]
         >![Working hours settings](media/sa-personal-settings-work-hours-settings.png "Working hours settings")    
@@ -61,7 +62,11 @@ Configure your working days, hours, and days off to adjust scheduled tasks and l
         >[!div class="mx-imgBorder"]
         >![Time off set for a family vacation](media/sa-personal-settings-time-off-settings.png "Time off set for a family vacation")    
 
+### See also
 
+[Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md)
+
+[Manage assignment rules for routing](create-manage-assignment-rules.md)
 
 
 
