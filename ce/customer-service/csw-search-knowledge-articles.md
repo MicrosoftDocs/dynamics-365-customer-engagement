@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service workspace.
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
