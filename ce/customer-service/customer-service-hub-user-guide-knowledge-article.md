@@ -310,7 +310,7 @@ When you publish your knowledge article, if you've attached files to it, the att
 
 #### User permissions to view and download file attachments
 
-For users to be able to view and download file attachments, you'll need to grant the following permissions:
+For users to be able to view and download file attachments, you'll need to grant the following permissions to the Knowledge Article table:
 
 |To|Access needed |  
 |--------|-------------|  
