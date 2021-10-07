@@ -14,18 +14,18 @@ ms.custom:
 
 Use assignment rules in sales accelerator to automatically assign new leads and opportunities to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance the assignments among sellers.    
 
-As an administrator or sequence manager, you can create rules that match lead or opportunity attributes (such as, location and language) with seller or team attributes (such as, location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
+As an administrator, you can create rules that match lead or opportunity attributes (such as, location and language) with the corresponding seller or team attributes (such as, location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
 
 ## Prerequisites
 
 Before you start, be sure you've met the following prerequisites:
 
 -	You have the system administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
--	You have the Sales Enterprise or an equivalent license. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/).
+-	You have the Sales Enterprise license. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/).
 
 ## Configure sales accelerator
 
-1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.   
+1.	In the Sales Hub app, select the Change area icon in the lower-left corner of the page and then select **Sales Insights settings**.   
 
 2.	On the site map, under **Sales accelerator**, select **Setup**.    
     The sales accelerator configuration page opens.   
@@ -37,8 +37,8 @@ Before you start, be sure you've met the following prerequisites:
     
     | Security roles | Description |
     |----------------|-------------|
-    | All security roles | Select this option to give access to view the Sales Hub app to all the security roles in your organization. |
-    | Specific security roles | Select this option to specify security roles to give access to view the Sales Hub app to just a few users. Use the lookup box to add the security roles. |
+    | All security roles | Select this option to give access to assignment rules in the Sales Hub app to all the security roles in your organization. |
+    | Specific security roles | Select this option to specify security roles to give access to assignment rules in the Sales Hub app to just a few users. Use the lookup box to add the security roles. |
 
     > [!div class="mx-imgBorder"]
     > ![Configuration security roles to access sales accelerator feature.](media/sales-accelerator-configuration-define-team-access.png "Configuration security roles to access sales accelerator feature")
@@ -50,7 +50,7 @@ Before you start, be sure you've met the following prerequisites:
  
     More information: [Configure your work availability](configure-your-work-availability.md).
 
-5.	(Optional) In the **Automate lead and opportunity assignment (preview)** section, select the toggle to enable preview for the assignment rules feature.   
+5.	In the **Automate lead and opportunity assignment (preview)** section, select the toggle to enable preview for the assignment rules feature.   
 
     More information: [Manage assignment rules for routing](create-manage-assignment-rules.md).   
 
