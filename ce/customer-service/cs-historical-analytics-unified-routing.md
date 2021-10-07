@@ -29,7 +29,7 @@ The report can be filtered on the following:
 
 - **Duration**: Filters the data by the selected value of day, week, or month.
 - **Record type**: Filters the data for the selected record, such as a case, lead, or custom record. By default, the report is filtered on incident (case).
-- **Queue**: Filters the data for the selected queue that is enabled for unified routing.
+- **Queue**: Filters the data for the selected queue that's enabled for unified routing.
 - **Time zone**: Filters the data for the selected time zone.
 
 The unified routing report displays the following metrics.
