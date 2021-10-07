@@ -112,14 +112,14 @@ Do the following to configure a machine learning-based ruleset:
 
     ![Machine learning rule type.](media/ur-ml-rule-type.png "Machine learning rule type")
 
-## Preview: Create rulesets based on sentiment prediction model
+## Create rulesets based on sentiment prediction model (preview)
 
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
 You can create rules that are based on the sentiment prediction model to classify work items. More information: [Use sentiment prediction](use-sentiment-prediction-for-routing.md).
 
-## Preview: Create rulesets based on effort estimation model
+## Create rulesets based on effort estimation model (preview)
 
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
