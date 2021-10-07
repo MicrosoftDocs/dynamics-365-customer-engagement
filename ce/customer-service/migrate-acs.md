@@ -22,3 +22,13 @@ You must make the following changes to your omnichannel implementations by Janua
 
 > [!Note]
 > These changes won't impact your existing omnichannel experience. Microsoft will work with you to help you navigate and test the changes to ensure a smooth transition by January 2022.
+
+
+### See also
+
+[Introduction to Omnichannel for Customer Service](introduction-omnichannel.md)  
+[Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)  
+[Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  
+[Integrate an Azure bot](configure-bot.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
