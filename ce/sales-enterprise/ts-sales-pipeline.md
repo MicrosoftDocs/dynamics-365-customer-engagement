@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting the Sales Pipeline chart and its phases (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Follow the instructions in this article to troubleshoot issues you might face while working with the sales pipeline chart or its phases in Dynamics 365 Sales."
-ms.date: 03/24/2020
+ms.date: 10/07/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -35,6 +35,11 @@ This is to be expected if you use multiple business process flow definitions for
 ## Issue: The sales pipeline chart ordering is displayed differently in the Unified Interface vs. the legacy web client.
 
 The legacy web client displays the chart by using the value of the associated category option, whereas in the Unified Interface the stages are displayed alphabetically. Because the pipeline phases are prefixed with the order defined in the **Stage category** option set, they're displayed according to the category option sequence (1, 2, and so on).
+
+## Issue: I see that the stages are not sorted numerically when the number of stages are beyond 9.
+
+Charts in the Unified Interface are sorted alphabetically. When you've sales stages beyond 9, (example: 10-OnHold, 11-Pipeline), those stages appear in the chart before any stage which starts with 2. In other words, the chart renders all the phases with first character as 1 and then displays the phases starting with 2 and so on. In such cases, set up a custom attribute/column and populate it based on the chart requirements. More information: [How to create and edit columns](/powerapps/maker/data-platform/create-edit-fields).
+
 
 ### See also
 

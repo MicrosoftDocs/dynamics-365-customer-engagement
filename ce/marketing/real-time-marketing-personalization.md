@@ -1,7 +1,7 @@
 ---
 title: "Personalize content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content in Dynamics 365 Marketing."
-ms.date: 09/17/2021
+ms.date: 10/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -98,9 +98,7 @@ If you are adding code to HTML, make sure to put comments around the code:
 
 ```
 <!-- {{#if placeholderName }} -->
-
-    <h1> Content displayed when the expression is true</h1>
-
+    <h1>Content displayed when the expression is true</h1>
 <!-- {{/if}} -->
 ```
 
@@ -140,3 +138,72 @@ Placeholder 2 true:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-condition-denmark-false.png)
+
+## Lists of Content
+
+Lists (each) statements allow you to format and display repeated content for a given table. You can add the code required to create these statements in the designer or in the HTML view. You can then use the placeholder dialog to specify the list to be evaluated including the number of rows to display and the order to display them in.
+
+```
+{{#each placeholderName}}
+   Repeated content to display
+{{/each}}
+```
+
+If you are adding code to HTML, make sure to put comments around the code:
+
+```
+<!-- {{#each placeholderName }} -->
+    <h1>Repeated content to display</h1>
+<!-- {{/each}} -->
+```
+
+In the code, you only specify the placeholder name. To set up the list, go to the **Personalize** tab in the **Toolbox**:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the Personalize with list setup.](media/real-time-marketing-personalization-list-setup.png)
+
+For example, you want to create an email with a list of products the customer has.
+
+First, create a list placeholder and select the table you what to use for the list:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing selecting a table to use for the list.](media/real-time-marketing-personalization-lists-examplestep1.png)
+
+Next, add any attributes you want to display as the repeated content in the list:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing attributes to display.](media/real-time-marketing-personalization-lists-examplestep2.png)
+
+You can also specify which attribute to order the list by and how many items you want displayed:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing attribute order and number of items.](media/real-time-marketing-personalization-lists-examplestep3.png)
+
+Finally, save and use the Code generator to copy the list code to the designer:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the list code in the Code generator.](media/real-time-marketing-personalization-lists-examplestep4.png)
+
+## Code generator
+
+You can use the Code generator tool to create code for your condition and list placeholders to copy.
+
+To access the Code generator, go to the **Personalize** tab in the **Toolbox**:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing access to the Code generator.](media/real-time-marketing-personalization-codegenerator1.png)
+
+You can select either a condition or list placeholder to build your code for:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing condition or list selection.](media/real-time-marketing-personalization-codegenerator2.png)
+
+For conditions, you can add additional else cases or a default case:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing else or default.](media/real-time-marketing-personalization-codegenerator3.png)
+
+For lists, you can add or delete additional attributes (these changes will be saved to your list placeholder):
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing added attributes.](media/real-time-marketing-personalization-codegenerator4.png)
