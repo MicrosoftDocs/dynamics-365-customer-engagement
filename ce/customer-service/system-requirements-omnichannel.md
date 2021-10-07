@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
 description: "This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
-ms.date: 10/08/2021
+ms.date: 10/07/2021
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

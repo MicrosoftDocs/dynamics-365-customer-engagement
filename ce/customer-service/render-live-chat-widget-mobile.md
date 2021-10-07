@@ -1,7 +1,7 @@
 ---
 title: "Customize live chat widgets for mobile apps | MicrosoftDocs"
 description: "Learn to customize live chat widgets on your mobile apps using Omnichannel Chat SDK. Alternatively, use sample code to embed widget code directly in your apps."
-ms.date: 10/08/2021
+ms.date: 10/07/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -29,6 +29,9 @@ This topic explains how you can use the Omnichannel Chat SDK to customize the li
 ## Download Omnichannel Chat SDK
 
 We recommend that you download the latest version of the Omnichannel Chat SDK package to implement the latest features. For download instructions and information, go to [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
+
+> [!Note]
+> To implement the Azure Bot Service channel, you'll need Omnichannel Chat SDK 1.0.0.
 
 ## Customize the live chat widget using the Omnichannel Chat SDK
 
