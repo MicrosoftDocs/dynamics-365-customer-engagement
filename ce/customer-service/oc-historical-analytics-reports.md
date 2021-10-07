@@ -3,17 +3,15 @@ title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
 description: "Configure historical analytics reports for Omnichannel"
 ms.date: 10/07/2021
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Configure Omnichannel historical analytics reports
 
-## Introduction
-
-You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and group related support conversations into topics. 
+You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and group related support conversations into topics.
 
 The following historical analytics reports are available:
 
@@ -57,7 +55,7 @@ The Unified routing historical analytics report will be available as a tab in th
 
 ### View Omnichannel historical analytics reports
 
-The service managers must have the admin or service manager role to view the reports. Users with the OC supervisor role will be able to view the reports only after the reports are shared with them.
+The service managers must have either the Omnichannel administrator, Omnichannel supervisor, or the CSR Manager role to view the reports.
 
 ### Provide report access to additional security roles
 

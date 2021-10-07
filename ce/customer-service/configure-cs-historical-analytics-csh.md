@@ -11,9 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Customer Service historical analytics reports
 
-## Introduction
-
-You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
+You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics. 
 
 The following historical reports are available:
 
@@ -63,7 +61,7 @@ After you enable the setting, you can access the report in one of the following 
 
 ### View Customer Service analytics reports
 
-The service managers must have the admin or service manager role to view the reports. Users with the CSR Manager role will be able to view the reports only after the reports are shared with them.
+The service managers must have the System Administrator or CSR Manager role to view the reports. 
 
 ### Provide report access to additional security roles
 
@@ -73,13 +71,13 @@ Perform the following steps to enable users with different privileges to access 
 
 2. Select **Security** and then **Security roles**.
 
-3. Select the security role that you want to enable access for. For example, CSR Manager.
+3. Select the security role that you want to enable access for. For example, agent manager.
 
 4. Select the **Custom Entities** tab.
 
 5. Select an entity. For example, select Customer Service historical analytics.
 
-6. Select **Save and close**. The CSR Manager can now see the Customer Service historical analytics report.
+6. Select **Save and close**. The agent manager can now see the Customer Service historical analytics report.
 
 You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics** page. By default, the **Summary** page is displayed.
 
