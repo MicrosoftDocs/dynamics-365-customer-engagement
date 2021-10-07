@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 09/17/2021
+ms.date: 10/04/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -111,6 +111,20 @@ Do the following to configure a machine learning-based ruleset:
     > Skill is the default selection for output attributes and can't be edited or deleted.
 
     ![Machine learning rule type.](media/ur-ml-rule-type.png "Machine learning rule type")
+
+## Create rulesets based on sentiment prediction model (preview)
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+You can create rules that are based on the sentiment prediction model to classify work items. More information: [Use sentiment prediction](use-sentiment-prediction-for-routing.md).
+
+## Create rulesets based on effort estimation model (preview)
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+You can create rules that are based on the effort estimation model to classify work items. More information: [Use effort estimation](use-effort-estimation-for-routing.md).
 
 ## Configure route-to-queues rulesets and rules
 

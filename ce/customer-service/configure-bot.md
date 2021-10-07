@@ -40,7 +40,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 - The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
 > [!NOTE]
-> Bots can escalate conversations to agents only if they are a part of push-based work streams.
+> Bots can escalate conversations to agents only if they are a part of push-based workstreams.
 
 To integrate a bot with Omnichannel for Customer Service, you must:
 
@@ -105,7 +105,7 @@ To create a bot user:
 Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in the queue. This ensures that the bot user receives the customer query first.
 
 > [!NOTE]
-> The bot works with the chat widget, work stream, and queues created in Omnichannel for Customer Service.
+> The bot works with the chat widget, workstream, and queues created in Omnichannel for Customer Service.
 
 You can add a bot user to specific queues where you want the bot to handle the customer queries first. Alternatively, you can also create a queue with the bot user only. If you create a queue with the bot user only, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This ensures that the bot acts as a first line of defense for all queries.
 
@@ -131,7 +131,7 @@ If the bot escalates the customer query, it is routed to the appropriate queue a
 
 #### Create a context variable
 
-You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Understand and create work streams](create-workstreams.md).
+You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Understand and create workstreams](create-workstreams.md).
 
 #### Create routing rules
 
@@ -143,7 +143,7 @@ Be sure to map the routing rules to the correct queues so that the queries are r
 
 ## Sample configuration to integrate a bot
 
-This sample provides exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules will be created. A bot user is added to one queue, and agents are added to two other queues. Routing rules are defined in such a way that whenever a customer initiates a chat, it will be sent to the bot first and then escalated to a human agent as per the conditions defined in the routing rules. The work stream used in this sample is **ChatWorkStream**.
+This sample provides exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules will be created. A bot user is added to one queue, and agents are added to two other queues. Routing rules are defined in such a way that whenever a customer initiates a chat, it will be sent to the bot first and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
 
 1.	Follow the instructions in [Create a bot user](#create-a-bot-user) to create a bot user.
 
@@ -154,16 +154,16 @@ This sample provides exact steps and configuration values to integrate a bot and
 
 3. Follow the instructions in [Add code snippet to engage a bot](#add-code-snippet-to-engage-a-bot) to add a code snippet for engaging a bot.
 
-4.	Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** work stream.
+4.	Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
 5.	Create three routing rules in the **ChatWorkStream** work stream in the following order:
-    - **BotRule**: Specify the work stream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
+    - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query to bot.](media/bot-rule.png "Create a rule to send customer query to bot")
-    - **CreditCardRule**: Specify the work stream and queue as **ChatWorkStream** and **CreditCardQueue**, respectively. Add the condition as follows:
+    - **CreditCardRule**: Specify the workstream and queue as **ChatWorkStream** and **CreditCardQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Send customer queries from a bot to an agent, by creating a rule.](media/credit-card-rule.png "Send customer queries from a bot to an agent, by creating a rule.")
-    - **HomeLoanRule**: Specify the work stream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
+    - **HomeLoanRule**: Specify the workstream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent.](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
 
@@ -210,7 +210,7 @@ You understand that your data may be transmitted and shared with external system
 
 ### See also
 
-[Understand and create work streams](create-workstreams.md)<br>
+[Understand and create workstreams](create-workstreams.md)<br>
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)<br>
