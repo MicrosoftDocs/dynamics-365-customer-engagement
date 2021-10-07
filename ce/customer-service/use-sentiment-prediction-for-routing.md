@@ -52,7 +52,7 @@ You can enable sentiment prediction in Customer Service Hub or Omnichannel admin
 
 ### Dry run of sentiment prediction
 
-You can optionally test the sentiment model by using the dry run option. You can test using real phrases that you expect to see when customers contact support. It helps you understand what the sentiment prediction on those might look like. You can see key information such as the sentiment category on the seven-point scale, the sentiment score that is scaled from zero to 100 and keywords from the phrase that influenced the sentiment score.
+You can optionally test the sentiment model by using the dry run option. You can test using real phrases that you expect to see when customers contact support. It helps you understand what the sentiment prediction on those might look like. You can see key information, such as the sentiment category on the seven-point scale, the sentiment score that is scaled from zero to 100, and keywords from the phrase that influenced the sentiment score.
 
 **To test the sentiment model**
 
@@ -63,7 +63,7 @@ You can optionally test the sentiment model by using the dry run option. You can
 
 ## Create classification rules based on sentiment prediction model
 
-After you enable sentiment prediction, you can create a classification rule based on machine learning model, and select type as **Sentiment prediction**. You can use the rule with other rules to help categorize the work items to be routed to the right agents who will help with the customer issue.
+After you enable sentiment prediction, you can create a classification rule based on the machine learning model, and select the type as **Sentiment prediction**. You can use the rule with other rules to help categorize the work items to be routed to the right agents who will help with the customer issue.
 
 **To create a rule based on sentiment prediction**
 
@@ -79,7 +79,7 @@ After you enable sentiment prediction, you can create a classification rule base
 
     i:::image type="content" source="media/input-attributes-sentiment.png" alt-text="Input attributes for sentiment model.":::
 
-    For a messaging channel, you'll typically set the related entity as **Context item value (Conversation)**, and then select the attribute. The bot context variables should be set or pre-conversation survey must be set up to be able to use the input attribute. Frame the pre-conversation survey questions such that they elicit the customer sentiment. For example, you could use a question "How has been your experience with the product?" or "How can we help you?".
+    For a messaging channel, you'll typically set the related entity as **Context item value (Conversation)**, and then select the attribute. The bot context variables should be set or pre-conversation survey must be set up to be able to use the input attribute. Frame the pre-conversation survey questions such that they elicit the customer sentiment. For example, you could use a question such as "How has been your experience with the product?" or "How can we help you?".
 
     You can define up to 10 attributes, whose values can be used to build the prediction model. At least one attribute, the first one, is mandatory and can't be deleted.
 
