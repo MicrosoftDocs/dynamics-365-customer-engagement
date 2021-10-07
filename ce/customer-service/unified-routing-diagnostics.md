@@ -81,7 +81,7 @@ A work item passes through three stages.
 
 If a work item doesn't run through a particular rule set in the **Classification rulesets** list, the **Run status** check mark is displayed in red. When the work item runs a particular ruleset, the **Run status** check mark is displayed in green. A work item runs all rule sets, but it doesn't run all rule items within the rule set.
 
-If machine learning-based skills identification, effort estimation (preview), or sentiment prediction (preview) model is used, the details of the model that's used is displayed under the Classification section.
+If machine learning-based skills identification, effort estimation (preview), or a sentiment prediction (preview) model is used, the details of the model that's used are displayed under the Classification section.
 
 :::image type="content" source="media/routing-diagnostics-classification.png" alt-text="View of classification ruleset and machine learning model.":::
 
