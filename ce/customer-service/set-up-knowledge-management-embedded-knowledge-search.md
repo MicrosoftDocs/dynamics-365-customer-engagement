@@ -57,21 +57,24 @@ After knowledge management is set up, users will be able to:
   
 4. Select **Save**.  
 
-## Set up knowledge management settings page manually (unified interface)
+## Set up knowledge management settings page manually (Unified Interface)
 
 > [!NOTE]
-> The embedded knowledge search control is deprecated in the web client. You must use the Knowledge Settings page in unified interface.
+> The embedded knowledge search control is deprecated in the web client. You must use the Knowledge Settings page in Unified Interface.
 
  If you are using the custom model-driven app, you need to manually update your sitemap with the Knowledge Settings page. To update the sitemap:
-
-1. Select your custom app.
-
-2.  Select **Open in app designer**.
-3.  Select **Site Map**.
-4.	Select **Add > Subarea** to create a new sub area for your area.
-5. In the **Properties > SUB AREA** section, provide the following information:
-   * Type: Select **URL**. 
-   * URL: Enter **/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings**
+ 
+ 1. Select your custom app.
+ 
+ 2. Select **Open in app designer**.
+ 
+ 3. Select **Site Map**.
+  
+ 4.	Select **Add > Subarea** to create a new sub area for your area.
+ 
+ 5. In the **Properties > SUB AREA** section, provide the following information:
+    * Type: Select **URL**. 
+    * URL: Enter  ```/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings```
 
 ## Set up AI suggestions for article keywords and description (preview)
 
@@ -89,7 +92,7 @@ This option allows users to provide feedback on knowledge articles opened from k
 
 2. In the **Knowledge Articles Feedback** section, set **Enable users to provide feedback on knowledge articles from search control** to **Yes**.
 
-To know more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
+To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
 
   
 ### See also  
