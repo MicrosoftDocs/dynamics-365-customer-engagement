@@ -13,7 +13,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The following table lists the regional availability of Customer Service Insights features.
 
-| Feature | North America| Europe | Asia Pacific | South America | OCE |Japan | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | South Africa |Korea | Norway
+| Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | South Africa |Korea | Norway
 | ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
 | Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
 | Case Topic Clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
