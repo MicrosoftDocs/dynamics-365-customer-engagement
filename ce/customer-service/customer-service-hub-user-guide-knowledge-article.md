@@ -312,11 +312,11 @@ When you publish your knowledge article, if you've attached files to it, the att
 
 For users to be able to view and download file attachments, you'll need to grant the following permissions to the Knowledge Article table:
 
-|To|Access needed |  
+|Task|Access needed |  
 |--------|-------------|  
 | Download and search attachments | Read |
 | Add attachments | Create, append, append-to |
-| Remove and add existing attachments | Append, append-to |
+| Remove and add existing attachments | Append or append-to |
 
 ### Update knowledge article attachments for portal
 
