@@ -1,7 +1,7 @@
 ---
 title: "Gain insights with dashboards - Sales Enterprise | MicrosoftDocs"
 description: "Get a quick glance of important and actionable business data using pre-built dashboards. Get insights into how your sales team is doing."
-ms.date: 03/24/2019
+ms.date: 09/30/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -42,7 +42,7 @@ You can use the view selector to select the dashboard of your choice. Select the
 
 ## Set a dashboard as the default
 
-To see a specific dashboard every time you sign in to Sales Professional, set it as the default. To do this, open the dashboard, and then select **Set as Default** in the site map.
+To see a specific dashboard every time you sign in to Dynamics 365 Sales, set it as the default. To do this, open the dashboard, and then select **Set As Default** on the command bar.
 
 
 ### See also

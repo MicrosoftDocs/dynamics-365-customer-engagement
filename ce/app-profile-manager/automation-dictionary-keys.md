@@ -4,7 +4,7 @@ description: "Learn about the supported formats to pass parameter values in the 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/20/2020
+ms.date: 10/07/2021
 ms.topic: article
 ---
 
@@ -122,7 +122,7 @@ Macros and agent scripts support the following slugs:
 | `${entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../customer-service/entity-channel.md). |
 | `${customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
-| `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
+| `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
 > [!NOTE]
 > Only the `${anchor.<attribute_name>}` slug is supported in the macros and scripts for Customer Service workspace.
@@ -202,7 +202,7 @@ A *slug* is a replacement parameter that the system populates at runtime based o
 | `{entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../customer-service/entity-channel.md). |
 | `{customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `{customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
-| `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
+| `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
 #### Format for slugs for templates
 
@@ -255,7 +255,7 @@ Session title = `Chat conversation`
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
 [Manage notification templates](notification-templates.md)  
-[Associate templates with work streams](associate-templates.md)  
+[Associate templates with workstreams](associate-templates.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

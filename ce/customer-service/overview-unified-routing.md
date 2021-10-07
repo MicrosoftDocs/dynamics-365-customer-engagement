@@ -1,7 +1,7 @@
 ---
 title: "Overview of unified routing | MicrosoftDocs"
 description: "Overview of unified routing in Customer Service"
-ms.date: 05/18/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -70,6 +70,8 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 [Routing and assignment rules](routing-workstream-queues.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Configure work classification rulesets](configure-work-classification.md)  
+[Historical analytics for Unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
+[Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  
 [FAQs on unified routing](unified-routing-faqs.md)  
 [Migrate workstreams created in Omnichannel Administration app](migrate-workstreams.md)  
 
