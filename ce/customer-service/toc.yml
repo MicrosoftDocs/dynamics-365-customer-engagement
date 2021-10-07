@@ -284,6 +284,10 @@
           href: persona-privilege-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
+    - name: Supervisor experience
+      items:
+      - name: Access diagnostics for unified routing
+        href: supervisor-access-diagnostics.md
     - name: Agent experience
       items:
       - name: Route records manually using unified routing
@@ -796,6 +800,8 @@
           href: agent-dashboard-cs.md
         - name: Case Topics dashboard
           href: case-topics-dashboard-cs.md
+        - name: Historical analytics for unified routing in Customer Service
+          href: cs-historical-analytics-unified-routing.md
         - name: Omnichannel conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
@@ -806,6 +812,8 @@
           href: oc-bot-dashboard.md
         - name: Omnichannel Conversation topic dashboard
           href: oc-conversation-topics-dashboard.md
+        - name: Historical analytics for unified routing in Omnichannel for Customer Service
+          href: oc-historical-analytics-unified-routing.md  
       - name: Knowledge search analytics dashboard
         href: knowledge-search-analytics-cs.md
       - name: View analytics dashboards created in Power BI
