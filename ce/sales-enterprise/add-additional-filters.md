@@ -41,11 +41,11 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Apply additional filter](add-additional-filters.md)
+> [Previous step: Choose layout and columns](choose-layout-and-columns-forecast.md)
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Configure and manage drill-down entities](configure-manage-drill-downs.md)
+> [Next step: Filter users from forecast hierarchy](filter-users-from-forecast.md)
 </td></tr>
 </table>
 

@@ -1,6 +1,6 @@
 ---
-title: "Enable or disable forecast sharing - Sales Enterprise | MicrosoftDocs"
-description: "Forecast sharing enables users to share forecasts with other users in the hierarchy or outside the hierarchy with specific access level."
+title: "Share forecasts - Sales Enterprise | MicrosoftDocs"
+description: "Share forecasts with other users in the hierarchy or outside the hierarchy with specific access level."
 ms.date: 10/07/2021
 ms.topic: article
 author: lavanyakr01

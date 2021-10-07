@@ -152,6 +152,8 @@
         href: deactivate-delete-forecast.md
       - name: Clone a forecast
         href: clone-forecast.md
+      - name: Enable or disable a forecast
+        href: enable-forecast-sharing.md
       - name: Forecast with different data type
         href: forecast-different-data-types.md
       - name: Configure forecast using custom rollup entity
@@ -306,6 +308,8 @@
         href: project-accurate-revenue-sales-forecasting.md
       - name: View a forecast
         href: view-forecasts.md
+      - name: Share a forecast
+        href: share-forecasts.md  
       - name: View and understand data through drill-down entities
         href: view-understand-data-through-drill-down.md
       - name: View and manage underlying opportunities
