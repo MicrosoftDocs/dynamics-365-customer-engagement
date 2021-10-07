@@ -262,6 +262,10 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
+      - name: Use sentiment prediction-based routing
+        href: use-sentiment-prediction-for-routing.md
+      - name: Use effort estimation model for routing
+        href: use-effort-estimation-for-routing.md
       - name: Configure basic routing
         items:
         - name: Create and manage basic queues for cases
@@ -696,6 +700,8 @@
         href: enable-sound-notifications.md
       - name: Enable missed notifications
         href: manage-missed-notifications.md
+      - name: Enable automatic update of presence on rejection of work assignment
+        href: enable-agent-reject-notifications.md
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles

@@ -1,7 +1,7 @@
 ---
 title: "Integrate a bot | MicrosoftDocs"
 description: "Instructions to integrate a bot in Omnichannel for Customer Service."
-ms.date: 03/24/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -38,10 +38,10 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 ## Configure your Power Virtual Agents bot
 
-After the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel Administration app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Work Streams** section of Omnichannel.
+After the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel admin center app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Workstreams** section of Omnichannel admin center.
 
 > [!NOTE]
-> A bot can escalate conversations to agents only if they are a part of push-based work stream.
+> A bot can escalate conversations to agents only if they are a part of push-based workstream.
 
 ### Set up your Power Virtual Agents bot
 
@@ -65,29 +65,29 @@ After the Power Virtual Agents bot is created and configured to work with Omnich
 
     - **Add the bot to an existing human agent queue:**	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents. When a handoff is triggered, customers will be transferred from the Power Virtual Agents to the human agent according to the escalation routing rules.
 
-    - **Create a bot queue and a human agent queue:** If you create two queues, you must create work streams that contain context variables and appropriate routing rules to route the customer queries.
+    - **Create a bot queue and a human agent queue:** If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries.
 
 For information about working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
 
 ### Create a bot queue and a human agent queue
 
-1. Select or create a work stream. For more information about work streams, see [Understand and create work streams](create-workstreams.md).
+1. Select or create a workstream. For more information about workstreams, see [Understand and create workstreams](create-workstreams.md).
 
-![Virtual Agent work streams.](media/virtual-agent-work-streams.png)
+![Virtual Agent workstreams.](media/virtual-agent-work-streams.png)
 
 2. Create context variables.
 
 You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](/dynamics365/ai/customer-service-virtual-agent/how-to-handoff#contextual-variables-available-upon-hand-off).
 
    > [!div class=mx-imgBorder]
-   > ![Virtual Agent work stream context variable.](media/virtual-agent-work-stream-context-variables.png "Virtual Agent work stream context variable")
+   > ![Virtual Agent workstream context variable.](media/virtual-agent-work-stream-context-variables.png "Virtual Agent workstream context variable")
 
-3. Create a routing rule for the human agent and add it to the work stream.
+3. Create a routing rule for the human agent and add it to the workstream.
 
     > [!div class=mx-imgBorder]
-    > ![Virtual Agent work stream routing rules.](media/virtual-agent-work-stream-routing-rule.png "Virtual Agent work stream routing rules")
+    > ![Virtual Agent workstream routing rules.](media/virtual-agent-work-stream-routing-rule.png "Virtual Agent workstream routing rules")
 
-4. Create a routing rule for the virtual agent and add it to the work stream.
+4. Create a routing rule for the virtual agent and add it to the workstream.
 
     > [!div class=mx-imgBorder]
     > ![Virtual Agent work stream bot routing rules.](media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent work stream bot routing rules")
@@ -208,7 +208,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
-[Understand and create work streams](create-workstreams.md)  
+[Understand and create workstreams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Add a chat widget](add-chat-widget.md)  

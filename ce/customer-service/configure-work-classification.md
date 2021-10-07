@@ -112,6 +112,20 @@ Do the following to configure a machine learning-based ruleset:
 
     ![Machine learning rule type.](media/ur-ml-rule-type.png "Machine learning rule type")
 
+## Create rulesets based on sentiment prediction model (preview)
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+You can create rules that are based on the sentiment prediction model to classify work items. More information: [Use sentiment prediction](use-sentiment-prediction-for-routing.md).
+
+## Create rulesets based on effort estimation model (preview)
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+You can create rules that are based on the effort estimation model to classify work items. More information: [Use effort estimation](use-effort-estimation-for-routing.md).
+
 ## Configure route-to-queues rulesets and rules
 
 After you configure the route-to-queues rulesets and rules, during runtime, to assign a work item to a queue, the system matches the rule conditions and operating hours of the corresponding queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then, the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is assigned to the queue that will be operational at the earliest.
