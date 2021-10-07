@@ -314,10 +314,9 @@ For users to be able to view and download file attachments, you'll need to grant
 
 |To|Access needed |  
 |--------|-------------|  
-| Download and search attachments | Read access |
+| Download and search attachments | Read |
 | Add attachments | Create, append, append-to |
 | Remove and add existing attachments | Append/append-to |
-
 
 ### Update knowledge article attachments for portal
 
