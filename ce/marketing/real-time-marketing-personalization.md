@@ -160,29 +160,29 @@ If you are adding code to HTML, make sure to put comments around the code:
 In the code, you only specify the placeholder name. To set up the list, go to the **Personalize** tab in the **Toolbox**:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-list-setup.png)
+> ![Screenshot showing the Personalize with list setup.](media/real-time-marketing-personalization-list-setup.png)
 
 For example, you want to create an email with a list of products the customer has.
 
 First, create a list placeholder and select the table you what to use for the list:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing placeholder configuration.](media/real-time-marketing-personalization-lists-examplestep1.png)
+> ![Screenshot showing selecting a table to use for the list.](media/real-time-marketing-personalization-lists-examplestep1.png)
 
 Next, add any attributes you want to display as the repeated content in the list:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing contact address configuration for Denmark.](media/real-time-marketing-personalization-lists-examplestep2.png)
+> ![Screenshot showing attributes to display.](media/real-time-marketing-personalization-lists-examplestep2.png)
 
 You can also specify which attribute to order the list by and how many items you want displayed:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing conditions set to true.](media/real-time-marketing-personalization-lists-examplestep3.png)
+> ![Screenshot showing attribute order and number of items.](media/real-time-marketing-personalization-lists-examplestep3.png)
 
 Finally, save and use the Code generator to copy the list code to the designer:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-lists-examplestep4.png)
+> ![Screenshot showing the list code in the Code generator.](media/real-time-marketing-personalization-lists-examplestep4.png)
 
 ## Code generator
 
