@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting the Sales Pipeline chart and its phases (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Follow the instructions in this article to troubleshoot issues you might face while working with the sales pipeline chart or its phases in Dynamics 365 Sales."
-ms.date: 03/24/2020
+ms.date: 10/07/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
