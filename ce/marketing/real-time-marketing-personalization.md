@@ -1,7 +1,7 @@
 ---
 title: "Personalize content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content in Dynamics 365 Marketing."
-ms.date: 09/17/2021
+ms.date: 10/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -98,9 +98,7 @@ If you are adding code to HTML, make sure to put comments around the code:
 
 ```
 <!-- {{#if placeholderName }} -->
-
-    <h1> Content displayed when the expression is true</h1>
-
+    <h1>Content displayed when the expression is true</h1>
 <!-- {{/if}} -->
 ```
 
@@ -155,9 +153,7 @@ If you are adding code to HTML, make sure to put comments around the code:
 
 ```
 <!-- {{#each placeholderName }} -->
-
-    <h1> Repeated content to display</h1>
-
+    <h1>Repeated content to display</h1>
 <!-- {{/each}} -->
 ```
 
@@ -168,7 +164,7 @@ In the code, you only specify the placeholder name. To set up the list, go to th
 
 For example, you want to create an email with a list of products the customer has.
 
-First, create a List placeholder and select the table you what to use for the list:
+First, create a list placeholder and select the table you what to use for the list:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing placeholder configuration.](media/real-time-marketing-personalization-lists-examplestep1.png)
@@ -183,32 +179,31 @@ You can also specify which attribute to order the list by and how many items you
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to true.](media/real-time-marketing-personalization-lists-examplestep3.png)
 
-Finally, you can save and use the Code Generator to easily copy the list code to the designer:
+Finally, save and use the Code generator to copy the list code to the designer:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-lists-examplestep4.png)
 
+## Code generator
 
-## Code Generator 
+You can use the Code generator tool to create code for your condition and list placeholders to copy.
 
-You can use the Code Generator tool to quickly create code for your condition and list placeholders to easily copy.
-
-To access the Code Generator, go to the **Personalize** tab in the **Toolbox**:
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-codegenerator1.png)
-
-You can select either a Condition or List placeholder to build your code for:
+To access the Code generator, go to the **Personalize** tab in the **Toolbox**:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-codegenerator2.png)
+> ![Screenshot showing access to the Code generator.](media/real-time-marketing-personalization-codegenerator1.png)
 
-For Conditions, you can add additional else cases or a default case:
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-codegenerator3.png)
-
-For Lists, you can add or delete additional attributes (these changes will be saved to your List placeholder):
+You can select either a condition or list placeholder to build your code for:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the personalize tab with placeholders.](media/real-time-marketing-personalization-codegenerator4.png)
+> ![Screenshot showing condition or list selection.](media/real-time-marketing-personalization-codegenerator2.png)
+
+For conditions, you can add additional else cases or a default case:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing else or default.](media/real-time-marketing-personalization-codegenerator3.png)
+
+For lists, you can add or delete additional attributes (these changes will be saved to your list placeholder):
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing added attributes.](media/real-time-marketing-personalization-codegenerator4.png)
