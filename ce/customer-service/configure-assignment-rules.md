@@ -37,7 +37,7 @@ Perform the following steps to create a custom assignment method:
    
    a. On the **Create Prioritization Ruleset** dialog, enter a name and description for the ruleset, and select **Create**.
    
-   b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule.
+   b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you're creating the rule.
    
    c. Select the attribute on which you want to define the order-by to route the work item to agents.
    
@@ -55,7 +55,7 @@ Perform the following steps to create a custom assignment method:
 
       By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility.
 
-   b. **Conditions**: Select **Add** to select an attribute or related entity and define condition. You can define conditions up to two levels of the related records and attributes.
+   b. **Conditions**: Select **Add** to select an attribute or related entity and define conditions. You can define conditions up to two levels of the related records and attributes.
 
    c. **Order by**: Select an attribute to define the order of work assignment if multiple agents match the condition.
 
