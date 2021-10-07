@@ -4,6 +4,7 @@ description: "Perform the steps to assign roles to users and enable them in Omni
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.date: 10/07/2021
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
@@ -53,14 +54,14 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 
 | Privileges | Omnichannel administrator | Omnichannel supervisor| Omnichannel agent|Productivity tools user| Productivity tools administrator|
 |---------|---------|-----------|---------|---------|---------|
-| Can view user list/presence list/work stream list/queue list/PBI config list | Yes | Yes ||||
+| Can view user list/presence list/workstream list/queue list/PBI config list | Yes | Yes ||||
 | Can edit roles of a user | Yes |||||
 | Can edit default presence and default capacity of a user | Yes | Yes ||||
 | Can edit queue assignment of a user | Yes | Yes ||||
 | Can add/edit/delete presence | Yes |||||
 | Can add/remove users from presence | Yes | Yes ||||
 | Can add/edit/delete presence associations | Yes |||||
-| Can add/edit/delete work streams | Yes |||||
+| Can add/edit/delete workstreams | Yes |||||
 | Can add/edit/delete channel settings, context settings, routing rules | Yes |||||
 | Can add/edit/delete queues | Yes |||||
 | Can add/remove agents from queue | Yes | Yes ||||
@@ -71,7 +72,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can view/add/edit/delete auth settings | Yes |||||
 | Can view operating hours || Yes ||||
 | Can monitor, assign, and transfer conversations || Yes ||||
-| Can view user list/presence list/work stream list/queue list ||| Yes |||
+| Can view user list/presence list/workstream list/queue list ||| Yes |||
 | Can view quick replies ||| Yes |||
 | Can read agent script |||| Yes ||
 | Can read agent script step |||| Yes ||

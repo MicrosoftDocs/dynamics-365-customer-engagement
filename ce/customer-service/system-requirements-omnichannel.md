@@ -1,8 +1,9 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
-description: "This topic provides information about the system requirements of Omnichannel for Customer Service."
-author: neeranelli
-ms.author: nenellim
+description: "This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
+ms.date: 10/07/2021
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ---
 
@@ -23,7 +24,7 @@ This section lists the prerequisites for using Omnichannel for Customer Service.
 
 ### International availability
 
-Make sure that Omnichannel for Customer Service is available in your region. For more information, see [International availability](international-availability.md).
+Make sure that Omnichannel for Customer Service is available in your region. More information: [International availability](international-availability.md)
 
 ### Licensing
 
@@ -31,7 +32,7 @@ Make sure that Omnichannel for Customer Service is available in your region. For
 - You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Chat for Dynamics 365 Customer Service for each Chat user.
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
-## System requirements of Omnichannel for Customer Service
+## System requirements for Omnichannel for Customer Service
 
 The system requirements to use Omnichannel for Customer Service are as follows.
 
@@ -54,9 +55,9 @@ The following browsers are supported by the customer-facing live chat widget in 
 >
 > Only Chromium-based Microsoft Edge and Google Chrome are supported for voice and video in live chat.
 
-## Provision Omnichannel
+## Provision Omnichannel for Customer Service
 
-See [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to know how to enable the Omnichannel for Customer Service app in your org.
+To enable the Omnichannel for Customer Service app in your org, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 
 To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
@@ -68,14 +69,15 @@ To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Custom
 
 ## Allow access to websites
 
-If your organization is using a URL filter to block a category of websites or URLs, allow the following websites as an exception for your users to access the Omnichannel for Customer Service app and live chat widget in the business portal:
+If your organization is using a URL filter to block a category of websites or URLs, allow the following websites as an exception for your users to access the Omnichannel for Customer Service app in the business portal:
 
+- `https://*.communication.azure.com`
 - `https://login.microsoft.net`
 - `https://login.microsoftonline.com`
 - `https://login.windows.net`
 - `https://*.teams.microsoft.com`
 - `https://ecs.office.com`
-- `https://*.skype.com`
+- `https://*.skype.com/*`
 - `https://browser.pipe.aria.microsoft.com`
 - `https://plat.teams.microsoft.com`
 - `https://aad.skypetoken.skype.com`
@@ -98,9 +100,10 @@ If your customers are using a URL filter to block a category of websites or URLs
 
 Customers must be able to access the following URLs from their browsers to use the live chat widget in the portal:
 
+- `https://*.communication.azure.com`
 - `https://*.teams.microsoft.com`
 - `https://ecs.office.com`
-- `https://*.skype.com`
+- `https://*.skype.com/*`
 - `https://browser.pipe.aria.microsoft.com`
 - `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
 - `https://cdn.botframework.com/botframework-webchat`
@@ -112,7 +115,7 @@ Customers must be able to access the following URLs from their browsers to use t
 
 ### Geo-specific links
 
-Geographic specific links that should be accessible are as follows.
+Location-specific links that should be made accessible are as follows.
 
 | Geographic location | Links |
 |-------------------------------|----------------------------------|
@@ -130,8 +133,9 @@ Geographic specific links that should be accessible are as follows.
 
 ### Government Community Cloud (GCC)
 
-The Government community cloud links that should be accessible are as follows.
+The Government community cloud links that should be made accessible are as follows.
 
+- `https://*.communication.azure.us`
 - `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
 - `https://*.omnichannelengagementhub.us/*`
 - `https://oc-auth.azurewebsites.us`
@@ -143,11 +147,11 @@ The Government community cloud links that should be accessible are as follows.
 
 ### See also
 
-[Introduction](introduction-omnichannel.md)  
+[Introduction to Omnichannel for Customer Service](introduction-omnichannel.md)  
 [Administrator guide](omnichannel-administrator.md)  
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
-[Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
-[System customizers guide](omnichannel-customizer.md)  
+[Agents using Omnichannel for Customer Service](omnichannel-customer-service-app-agent.md)  
+[System customizer guide](omnichannel-customizer.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
