@@ -1,7 +1,7 @@
 ---
 title: "Regional availability and service limits for Customer Service | MicrosoftDocs"
 description: "Learn about regional availability and service limits for Customer Service applications."
-ms.date: 10/06/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
