@@ -4,7 +4,7 @@ description: "Learn how to smartly assist agents with the next-best steps in Cus
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/11/2021
+ms.date: 10/07/2021
 ms.topic: article
 ---
 

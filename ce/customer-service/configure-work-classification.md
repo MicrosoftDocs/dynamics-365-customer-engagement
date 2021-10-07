@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 09/17/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -48,15 +48,15 @@ To create a manual work classification ruleset, do the following steps:
 
 1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 
-2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Rule Type** as **Manual**, and enter a name and description.
+2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Rule Type** as **Manual**, and enter a name and description. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule.
 
-3. In the **Decision list** area, select **Create Rule**, and on the **Create demand rule** dialog, enter a name.
+3. In the **Decision list** area, select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
-4. In the **Conditions** area, define the conditions according to your business needs.
+4. In the **Conditions** area, define the conditions according to your business needs. If you are creating classification rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes. 
 
 5. In the **Output** area, select the attribute for which value needs to be set if the conditions are met.
 
-   ![Define rule conditions for demand rule.](media/ur-demand-rule.png "Define rule conditions for demand rule")
+   :::image type="content" source="media/create-work-classification-rule.png" alt-text="Create work classification rule with conditions.":::
 
 6. Repeat steps 3 through 5 to create the demand rules.
 
@@ -72,7 +72,7 @@ Follow these steps to create a manual skill classification ruleset:
 
 3. In the **Create work classification ruleset** dialog, select  **Rule Type** as **Manual**, and enter a name and description.
 
-4. Select **Create Rule**, and on the **Create demand rule** dialog, enter a name.
+4. Select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
 5. In the **Conditions** area, define the conditions according to your business needs.
 
@@ -112,6 +112,20 @@ Do the following to configure a machine learning-based ruleset:
 
     ![Machine learning rule type.](media/ur-ml-rule-type.png "Machine learning rule type")
 
+## Create rulesets based on sentiment prediction model (preview)
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+You can create rules that are based on the sentiment prediction model to classify work items. More information: [Use sentiment prediction](use-sentiment-prediction-for-routing.md).
+
+## Create rulesets based on effort estimation model (preview)
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+You can create rules that are based on the effort estimation model to classify work items. More information: [Use effort estimation](use-effort-estimation-for-routing.md).
+
 ## Configure route-to-queues rulesets and rules
 
 After you configure the route-to-queues rulesets and rules, during runtime, to assign a work item to a queue, the system matches the rule conditions and operating hours of the corresponding queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then, the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is assigned to the queue that will be operational at the earliest.
@@ -120,15 +134,15 @@ When no rule condition is matched or no rule is defined, the work item is assign
 
 1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 
-2. In the **Create route to queue rule** dialog, enter a name in **Rule Name**.
+2. In the **Create route to queue rule** dialog, enter a name in **Rule Name**. By default, the root record is selected and displayed at the top of the condition builder.
 
-3. In **Conditions**, define the set of conditions.
+3. In **Conditions**, define the set of conditions. If you are creating rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes.
 
 4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
    > [!NOTE]
    > Make sure that you don't select the **Default messaging queue** or **Default entity queue** in the list. More information: [Default queues in Omnichannel for Customer Service](queues-omnichannel.md#default-queues)
 
-   ![Configure route to queue decision rules.](media/ur-route-to-queue-decision.png "Configure route to queue decision rules")
+   :::image type="content" source="media/ur-route-to-queue-decision.png" alt-text="Configure route to queue decision rules.":::
 
 5. Repeat steps 2 through 4 to define the rules to cater to your business needs.
 
