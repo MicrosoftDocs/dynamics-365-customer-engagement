@@ -26,7 +26,7 @@ manager: shujoshi
 
 You can use the effort estimation model to classify and route work items.
 
-You can use the estimation technique to understand how much time it will take to address a work item and based on that route to the agent who has the bandwidth to manage it.
+You can use the estimation technique to understand how much time it will take to address a work item, and based on that estimation, route it to the agent who has the bandwidth to manage it.
 
 Effort can be defined as the length of time that's necessary to either resolve a work item or amount of time spent on a work item before it is moved to the next stage as defined by the organization.
 
@@ -40,7 +40,7 @@ Some examples of how effort can be defined are as follows:
 
 ## Create effort estimation models
 
-You can create the effort estimation models in Omnichannel admin center or Customer Service Hub. The effort estimation can be created for any record that is enabled for unified routing. You can provide the context to the model for training by selecting the attributes. At least two attributes are mandatory and you can specify up to 10 attributes. Attributes that indicate severity and priority are useful.
+You can create the effort estimation models in Omnichannel admin center or Customer Service Hub. The effort estimation can be created for any record that is enabled for unified routing. You can provide the context to the model for training by selecting the attributes. At least two attributes are mandatory, and you can specify up to 10 attributes. Attributes that indicate severity and priority are useful.
 
 **To create an effort estimation model**
 
@@ -77,7 +77,7 @@ You can create the effort estimation models in Omnichannel admin center or Custo
 7. Optionally, use **Dry run** and select an input value to test the model. The following details are available:
 
    - **Effort value (minutes)**: The time in minutes that is estimated for the work item to be addressed.
-   - **Confidence score**: Indicates the degree of confidence in percentage value of the effort prediction.
+   - **Confidence score**: The degree of confidence in a percentage value of the effort prediction.
 
 ### Performance grade
 
@@ -99,7 +99,7 @@ After you train the effort estimation models, you can create classification rule
 
 5. On the page that appears, select the input attributes to use for effort estimation. While you can use up to 10 attributes, the **Categorical description** and **Detailed description** fields are mandatory. By default, the output attributes are **Effort value (minutes)** and **Effort confidence score** and can't be edited.
    
-    For the messaging channels, the bot context variables should be set or pre-conversation survey must be set up to be able to use the input attributes.
+    For the messaging channels, the bot context variables should be set or a pre-conversation survey must be set up to be able to use the input attributes.
    
    :::image type="content" source="media/effort-model-input-attributes.png" alt-text="Choose input attributes for effort estimation.":::
 
