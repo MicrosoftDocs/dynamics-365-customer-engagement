@@ -58,8 +58,8 @@ You can enable historical analytics for unified routing on the **Insights** page
 
 After you enable the setting, you can access the report in one of the following ways:
 
-- In Customer Service workspace, select the plus (+) icon, and then select Customer Service historical analytics.
-- In Customer Service Hub, in Service, in the site map, select Customer Service historical analytics.
+- In Customer Service workspace, select the plus (+) icon, and then select **Customer Service historical analytics**.
+- In Customer Service Hub, in **Service**, in the site map, select **Customer Service historical analytics**.
 
 ### View Customer Service analytics reports
 

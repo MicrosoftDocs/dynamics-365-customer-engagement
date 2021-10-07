@@ -55,8 +55,8 @@ The queue drill-down view displays the following KPIs.
 
 |Metric  |Description  |
 |---------|---------|
-|Incoming sessions in queue vs incoming sessions transferred  |The day-wise view of incoming sessions in the selected queue that are still in the queue versus sessions that have been transferred to other queues|
-|Incoming session transferred by queue| The queues to which sessions from the selected queue have been transferred|
+|Incoming sessions in queue vs incoming sessions transferred  |The day-wise view of incoming sessions in the selected queue that are still in the queue versus sessions that have been transferred to other queues.|
+|Incoming session transferred by queue| The queues to which sessions from the selected queue have been transferred.|
 |||
 
 ### Hourly drill-down view
