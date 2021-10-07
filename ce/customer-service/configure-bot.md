@@ -67,14 +67,14 @@ A bot user is created as an application user and assigned with the **Omnichannel
 
 **To create a bot user**
 
-1. Open Omnichannel admin center and go to **Advanced Settings** > **Security** > **Users**.
+1. Open Omnichannel admin center, and go to **Advanced Settings** > **Security** > **Users**.
 
 2. In the **Users** dropdown list, select **Application Users**, and then select **New**.
 
 3. In the **New User** dropdown list, select **Application User**.
 
 4. On the **New User** page, enter or select the following information:
-    - **User Name**: User name of the bot. Note that this name won't be displayed in the chat widget.
+    - **User Name**: User name of the bot. This name won't be displayed in the chat widget.
     - **Application ID**: An application ID for any valid (non-expired) application created in Azure Active Directory (Azure AD) for the same tenant. This ID is not used by the bot in Omnichannel for Customer Service.
     - **Full Name**: Name of the bot to be displayed in the chat widget.
     - **Primary Email**: Enter a dummy email address. This email address is not used by the bot in Omnichannel for Customer Service.
@@ -102,7 +102,10 @@ Queues distribute the incoming customer queries among bots and agents. You must 
 
 You can add a bot user to specific queues where you want the bot to handle the customer queries first. Alternatively, you can also create a queue with the bot user only. If you create a queue with the bot user only, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This ensures that the bot acts as a first recipient for all queries.
 
-An agent can transfer a chat to a bot by adding the bot to a queue, and then transferring the chat to the queue. Note that the chat cannot be transferred to the same bot.
+An agent can transfer a chat to a bot by adding the bot to a queue, and then transferring the chat to the queue.
+
+> [!Note]
+> The chat cannot be transferred to the same bot.
 
 You can set escalation rules to allow a bot to send customer queries to a customer service agent. More information: [Set escalation rules](#set-escalation-rules)
 
