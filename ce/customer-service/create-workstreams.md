@@ -112,7 +112,7 @@ For information about how to configure Azure bots, see [Integrate an Azure bot](
 Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues.
 
 > [!Note]
-> If you create custom context variables, we recommend that you don't update or delete them. If you need to update or delete them, make sure that they are not used in any of the unified routing classification or assignment rules.
+> If you create custom context variables, we recommend that you don't update or delete them. If you need to update or delete them, make sure that they aren't used in any of the unified routing classification or assignment rules.
 
 1. Select **Add context variable** in the **Advanced settings** section of a workstream.
 2. In the **Edit** pane, select **Add**, and enter **Name**.
