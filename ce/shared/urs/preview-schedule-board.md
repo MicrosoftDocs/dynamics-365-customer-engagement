@@ -275,3 +275,28 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 3. Save and publish the changes.
 4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the toggle in the top right of the screen.
 5. Once the solution is uninstalled, the new schedule board will not be available for the environment until you upgrade your Field Service app to the latest available version.
+
+
+schedule-board-new-opt-in-organization
+
+
+RS-2021-wave-2-ga-New-SB-Improvements-01-overview
+
+RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings
+
+RS-2021-wave-2-ga-New-SB-Improvements-02-Tab-contextual-actions
+
+RS-2021-wave-2-ga-New-SB-Improvements-03-Tab-settings
+
+RS-2021-wave-2-ga-New-SB-Improvements-04-dafault-Tab-settings
+
+RS-2021-wave-2-ga-New-SB-Improvements-05-better-settings-experience
+
+RS-2021-wave-2-ga-New-SB-Improvements-06-Detail-panel-Booking-selection
+
+RS-2021-wave-2-ga-New-SB-Improvements-07-Booking-alerts-panel-Create-or-view-booking-alerts
+
+RS-2021-wave-2-ga-New-SB-Improvements-08-Booking-alert-dismiss-or-snooze
+
+
+
