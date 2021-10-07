@@ -1,5 +1,5 @@
 ---
-title: "Migration changes for new Azure Bot Service channel | MicrosoftDocs"
+title: "Migration changes for new Omnichannel channel | MicrosoftDocs"
 description: "Understand the changes you'll need to make to your omnichannel implementations before January 2022 to migrate to the new Azure Bot Service channel."
 ms.date: 10/07/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: v-jmh
 manager: shujoshi
 ---
 
-# Migration changes for new omnichannel messaging platform
+# Migration changes for new Omnichannel channel
 
 We'll be rolling out a new messaging platform enhancement in phases over the next few months. We'll be releasing a new Azure Bot Service channel to help extend the existing bot integration capabilities for the messaging channels. Though the platform changes will be released in November 2021, the updates will be automatically applied between January and March, 2022.
 
