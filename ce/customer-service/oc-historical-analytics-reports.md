@@ -1,16 +1,16 @@
 ---
 title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
 description: "Configure historical analytics reports for Omnichannel"
-ms.date: 10/22/2020
+ms.date: 10/07/2021
 ms.topic: article
-author: meghanalanka
-ms.author: v-mlanka
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ---
 
 # Configure Omnichannel historical analytics reports
 
-You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and group related support conversations into topics. 
+You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and group related support conversations into topics.
 
 The following historical analytics reports are available:
 
@@ -40,7 +40,7 @@ This configuration will also enable AI-discovered topics from conversations with
 
 ### View Omnichannel historical analytics reports
 
-The service managers must have the admin or service manager role to view the reports. Users with the OC supervisor role will be able to view the reports only after the reports are shared with them.
+The service managers must have either the Omnichannel administrator, Omnichannel supervisor, or the CSR Manager role to view the reports.
 
 ### Provide report access to additional security roles
 
@@ -54,7 +54,7 @@ If your organization needs to enable users with different privileges to access t
 
 4. Select the **Custom Entities** tab, and then select an entity, for example "Omnichannel historical analytics".
 
-5. Select **Save and Close**. The Omnichannel supervisor will now be able to see the historical anaytics report.
+5. Select **Save and Close**. The Omnichannel supervisor will now be able to see the historical analytics report.
 
 You can see the following reports by navigating to **Omnichannel for Customer Service**, creating a new session tab, and selecting **Omnichannel historical analytics**. The **Conversation** page is displayed.
 
