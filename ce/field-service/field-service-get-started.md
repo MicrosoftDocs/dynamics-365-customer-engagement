@@ -54,7 +54,7 @@ From the **Getting Started** page, select the **Set Up** option.
 
 ![Field Service getting started page, showing the set up option.](media/get-started-setup-fieldservice.png)
 
-In the form, enter required information. Recommended values are prepopulated; don't change these unless necessary.
+In the form, enter required information. Recommended values are prepopulated; don't change these values unless necessary.
 
 ![Field Service Getting Started page, showing the quick set up form for frontline work orders.](media/get-started-fieldservice-quickcreate.png)
 
@@ -99,7 +99,7 @@ Find your work order in the lower pane, then select-and-drag it to your frontlin
 
 ## Analyze your operations
 
-Finally, you can analyze your operation by enabling and looking at work order summary and resource utilization PowerBI reports. 
+Finally, you can analyze your operation by enabling and looking at work order summary and resource utilization Power BI reports. 
 
 On the **Getting Started** page, select **Configure** in the **Analyze your operations** section to go to the insights setting page.
 
