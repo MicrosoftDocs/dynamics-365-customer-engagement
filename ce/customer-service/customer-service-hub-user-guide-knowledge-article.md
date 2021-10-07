@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -286,6 +286,7 @@ When you're creating a knowledge article, you can attach one or more files to it
 
 - There isn't a limit to the number of articles that can be attached to a knowledge article, but the file size of the files you attach cannot exceed 32 MB.
 - Your administrator may limit the file size for knowledge articles.
+- You must save your knowledge article before attaching files to it.
 
 To attach a file to a knowledge article:
 
