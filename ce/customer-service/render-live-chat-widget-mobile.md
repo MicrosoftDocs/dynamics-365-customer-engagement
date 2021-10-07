@@ -33,7 +33,7 @@ We recommend that you download the latest version of the Omnichannel Chat SDK pa
 > [!Note]
 > To implement the Azure Bot Service channel, you'll need Omnichannel Chat SDK 1.0.0.
 
-## Customize the live chat widget using the Omnichannel Chat SDK
+## Customize live chat widget using Omnichannel Chat SDK
 
 Use the Omnichannel Chat SDK to create Omnichannel for Customer Service chat widgets in mobile apps. The open-source Omnichannel Chat SDK comes with a fully customizable user interface with Omnichannel chat methods and features. The SDK is supported on React Native, and therefore works for iOS and Android apps, and also on web browsers.
 
