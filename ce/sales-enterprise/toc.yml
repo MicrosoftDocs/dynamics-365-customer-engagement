@@ -140,6 +140,8 @@
         href: choose-layout-and-columns-forecast.md
       - name: Apply additional filter
         href: add-additional-filters.md
+      - name: Filter users from forecast hierarchy
+        href: filter-users-from-forecast.md  
       - name: Configure and manage drill-down entities
         href: configure-manage-drill-downs.md
       - name: Configure advanced settings

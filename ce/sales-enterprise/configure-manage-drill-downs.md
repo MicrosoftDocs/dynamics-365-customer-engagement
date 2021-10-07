@@ -211,7 +211,7 @@ To learn more about entity relationships, go to [Entity relationships](/powerapp
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Apply additional filters](add-additional-filters.md)
+> [Previous step: Filter users from forecast hierarchy](filter-users-from-forecast.md)
 </td><td>
 
 > [!div class="nextstepaction"] 

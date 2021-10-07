@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable forecast sharing - Sales Enterprise | MicrosoftDocs"
-description: "Deal manager is a dedicated workspace for sellers to efficiently manage their sales pipeline. Sellers can personalize the workspace for their needs."
-ms.date: 10/01/2021
+description: "Forecast sharing enables users to share forecasts with other users in the hierarchy or outside the hierarchy with specific access level."
+ms.date: 10/07/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,7 +10,7 @@ manager: shujoshi
 
 ## Enable or disable forecast sharing
 
-Forecast sharing is disabled by default. As an administrator or forecast manager, enable the forecast sharing option for the forecasts that needs to be shared. Users can only share forecast records that they have access to.
+Forecast sharing is disabled by default. As an administrator or forecast manager, enable the forecast sharing option for the forecasts that needs to be shared. Users can only share forecast records that they have access to.  
 
 **To enable forecast sharing**
 
@@ -22,11 +22,11 @@ Forecast sharing is disabled by default. As an administrator or forecast manager
 
 4.  Select the **Permissions** step and specify the share permissions. Select one of the following options:
 
-- **No share**: Indicates that forecast sharing is disabled and hence cannot be shared with anyone. If you select this option when there are active shares, the shared forecasts will no longer be available to the users.
+- **None**: Indicates that forecast sharing is disabled and hence can't be shared with anyone. If you select this option when there are active shares, the shared forecasts will no longer be available to the shared users.
 
-- **Share as read-only**: Indicates that the users in the forecast hierarchy can share the forecast with view permission.
+- **Read only**: Indicates that the users in the forecast hierarchy can share the forecast with view permission.
 
-- **Share as read and adjust rollups**: Indicates that the forecast can be shared with either the view only permission, or read and adjust permission. If you want to be able to share the forecast with different levels of access to different users, then select this setting.
+- **Read and adjust**: Indicates that the forecast can be shared with either the view only permission, or read and adjust permission. If you want to be able to share the forecast with different levels of access to different users, then select this setting.
 
 ## Share a forecast
 

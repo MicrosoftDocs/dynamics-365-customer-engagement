@@ -41,7 +41,7 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Choose layout and columns](choose-layout-and-columns-forecast.md)
+> [Previous step: Apply additional filter](add-additional-filters.md)
 </td><td>
 
 > [!div class="nextstepaction"] 

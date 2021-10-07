@@ -97,6 +97,8 @@ To configure a forecast in your organization, follow these steps:
 
 6.	[Apply additional filter](add-additional-filters.md)
 
+7.  [Filter users from forecast hierarchy](filter-users-from-forecast.md)
+
 7.	[Configure and manage drill-down entities](configure-manage-drill-downs.md) 
 
 8.	[Configure advanced settings](forecast-configure-advanced-settings.md)
