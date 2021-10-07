@@ -18,7 +18,7 @@ You must make the following changes to your omnichannel implementations by Janua
 
 - If you're using the Omnichannel Chat SDK to customize the live chat widget for mobile apps, download the latest version of the chat SDK package. You'll need Omnichannel Chat SDK 1.0.0 to implement the new Azure Bot Service channel. More information: [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation)
 
-- If you're integrating an Azure bot, you must connect and register your bot with the new omnichannel channel. More information: [Integrate Azure bot](configure-bot.md). If you're using a Power Virtual Agents bot or Azure Health Bot, then these changes will be automatically applied, and you don't need to take any action.
+- If you're integrating an Azure bot, then you must connect and register your bot with the new omnichannel channel. More information: [Integrate Azure bot](configure-bot.md). If you're using a Power Virtual Agents bot or Azure Health Bot, then these changes will be automatically applied, and you don't need to take any action.
 
 > [!Note]
 > These changes won't impact your existing omnichannel experience. Microsoft will work with you to help you navigate and test the changes to ensure a smooth transition by January 2022.
