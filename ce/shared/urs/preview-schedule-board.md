@@ -276,7 +276,14 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the toggle in the top right of the screen.
 5. Once the solution is uninstalled, the new schedule board will not be available for the environment until you upgrade your Field Service app to the latest available version.
 
+
+
+
+
+
 ## Enable new schedule board for your organization
+
+// @Kristina - please absorb the following screenshots into the doc, use VInay's demo video for details: https://msit.microsoftstream.com/video/3e890840-98dc-ae72-5205-f1ec158a69b8
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/schedule-board-new-opt-in-organization.png)
@@ -286,26 +293,7 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-01-overview.png)
 
-## Schedule Board settings
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Tab-contextual-actions.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media//RS-2021-wave-2-ga-New-SB-Improvements-03-Tab-settings.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-04-dafault-Tab-settings.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-05-better-settings-experience.png)
 
 ## Booking details panel
 
@@ -321,10 +309,7 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-08-Booking-alert-dismiss-or-snooze.png)
 
-## Custom web resource panel
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-09-support-for-custom-web-resource.png)
 
 ## Full screen mode
 
@@ -376,5 +361,28 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-19-Schedule-board-new-tab-creation.png)
 
+## Custom web resource panel
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-09-support-for-custom-web-resource.png)
+
+## Schedule Board settings
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Tab-contextual-actions.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../../field-service/media//RS-2021-wave-2-ga-New-SB-Improvements-03-Tab-settings.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-04-dafault-Tab-settings.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-05-better-settings-experience.png)
