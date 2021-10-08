@@ -1,7 +1,7 @@
 ---
 title: "Help resources for salespeople (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales"
-ms.date: 04/22/2020
+ms.date: 10/08/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -105,12 +105,26 @@ Use links in this article to familiarize with Dynamics 365 Sales Enterprise.
 </tr>
 
 <tr><td>
-<h2>Go mobile</h2>
-
-<li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
-<li><a href="/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem" data-raw-source="[Dynamics 365 for Phones and Tablets User Guide](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)">Dynamics 365 for Phones and Tablets User Guide</a></li>
+<h2>Dynamics 365 Sales mobile app</h2>
+<li><a href="sales-mobile/prereq-sales-mobile.md" data-raw-source="[Overview of the mobile app](sales-mobile/prereq-sales-mobile.md)">Overview of the mobile app</a></li>
+<li><a href="sales-mobile/install-mobile-app.md" data-raw-source="[Install the app on iOS and Android](sales-mobile/install-mobile-app.md)">Install the app on iOS and Android</a></li>
+<li><a href="sales-mobile/use-sales-mobile-app.md" data-raw-source="[Use the mobile app](sales-mobile/use-sales-mobile-app.md)">Use the mobile app</a></li>
+<li><a href="sales-mobile/learn-basics-mobile-app.md" data-raw-source="[Learn the basics](sales-mobile/learn-basics-mobile-app.md)">Learn the basics</a></li>
 
 </td>
+<td>
+<h2>Sales Premium</h2>
+<li><a href="sales-accelerator-intro.md" data-raw-source="[What is the Sales accelerator?](sales-accelerator-intro.md)">What is the Sales accelerator?</a></li>
+<li><a href="assistant.md" data-raw-source="[Use the assistant to guide customer communications](assistant.md)">Use the assistant to guide customer communications</a></li>
+<li><a href="work-predictive-lead-scoring.md" data-raw-source="[Prioritize leads through scores](work-predictive-lead-scoring.md)">Prioritize leads through scores</a></li>
+<li><a href="work-predictive-opportunity-scoring.md" data-raw-source="[Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)">Prioritize opportunities through scores</a></li>
+<li><a href="project-accurate-revenue-sales-forecasting.md" data-raw-source="[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)">Project accurate revenue with sales forecasting</a></li>
+<li><a href="relationship-analytics.md" data-raw-source="[View customer activity history](relationship-analytics.md)">View customer activity history</a></li>
+<li><a href="dynamics365-sales-insights-app.md" data-raw-source="[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)">Overview of Conversation Intelligence</a></li>
+</td>
+
+</tr>
+<tr>
 <td>
 <h2>Work with Outlook</h2>
 <li><a href="../outlook-app/dynamics-365-app-outlook-user-s-guide.md" data-raw-source="[Dynamics 365 App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)">Dynamics 365 App for Outlook User Guide</a></li>
