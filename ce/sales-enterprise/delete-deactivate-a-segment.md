@@ -7,8 +7,15 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+# Delete or deactivate a segment 
 
-# Delete or deactivate a segment
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 You can deactivate or delete a segment that's no longer required in your organization. Deactivation retains the segment in the application, but records won't be connected to it in the future. When a segment is deleted, segment records that are already connected to a sequence won't be affected.
 

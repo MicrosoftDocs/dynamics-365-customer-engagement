@@ -7,9 +7,16 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
+# Print quote, invoice, or other records 
+
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 
-# Print quote, invoice, or other records
 
 If you need a hard copy of a record such as a contact, lead, quote, or invoice, you can print records individually. 
 

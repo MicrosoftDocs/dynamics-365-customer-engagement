@@ -9,8 +9,15 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 ---
+# Use properties to describe a product (Sales Hub) 
 
-# Use properties to describe a product (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 Simplify product management and classification by adding properties that help distinguish products from one another. Adding well-defined properties to products cuts down on the time spent by your agents trying to find products with the right specifications or properties for your customers when they're building orders.  
 

@@ -7,8 +7,15 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+# Customize the ZoomInfo app     
 
-# Customize the ZoomInfo app    
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 After you install the ZoomInfo app, it's available as a standalone app, so every time sellers must come back to the app selection area and choose ZoomInfo to view the required information. 
 
 As an administrator, you can customize the ZoomInfo app in the following ways:   

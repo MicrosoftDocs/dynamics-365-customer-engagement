@@ -9,8 +9,15 @@ manager: shujoshi
 products: 
     - Sales premium
 ---
+# Manage sales teams in assignment rules 
 
-# Manage sales teams in assignment rules
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 Using sales team management in assignment rules, you can assign attributes to sellers and configure the maximum number of leads and opportunities that a seller can handle at once. When the rule is applied to a record, the attributes and capacity you've defined here will determine how the record is assigned.
 

@@ -7,8 +7,15 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+# Manage assignment rules for routing 
 
-# Manage assignment rules for routing
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 > [!IMPORTANT]
 > - The enhanced experience for assignment rules for lead routing in sales accelerator is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]

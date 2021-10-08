@@ -17,8 +17,16 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+# Nurture sales from lead to order (Sales Hub) 
 
-# Nurture sales from lead to order (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 The sales process in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] can help you close more sales and achieve higher customer satisfaction. You can achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the sale. You also end up with a more complete history, which you can refer to later on if you plan to work with your customer again in the future, or if your customer needs support.  
 

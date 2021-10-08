@@ -7,8 +7,15 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+# Prerequisites for the Dynamics 365 Sales mobile app 
 
-# Prerequisites for the Dynamics 365 Sales mobile app
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 The Dynamics 365 Sales mobile app is an intuitive mobile experience that offers quick access to customer information and makes it easy to keep this information current. This simplifies customer relationship management and helps sellers focus on selling. 
 

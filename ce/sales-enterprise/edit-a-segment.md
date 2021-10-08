@@ -7,8 +7,15 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+# Edit a segment 
 
-# Edit a segment
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 To modify your process for choosing the records you want as members of a segment, you can update the conditions that you've defined in the segment.
 

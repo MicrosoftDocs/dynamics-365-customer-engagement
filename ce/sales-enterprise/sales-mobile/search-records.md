@@ -7,8 +7,16 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+# Search records 
 
-# Search records
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 You can search for records in the Dynamics 365 Sales mobile app. On the navigation bar at the bottom of the scree, tap **Search** and enter text in the search box to find related information quickly. When you start typing, suggested records are displayed that include the text. Enter the complete words for better results.
 

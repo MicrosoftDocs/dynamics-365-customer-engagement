@@ -7,8 +7,15 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+# Configure tables for quick creation of records and activities 
 
-# Configure tables for quick creation of records and activities
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 The Dynamics 365 Sales mobile app supports quick creation of records and activities. As an administrator, you can control which records and activities are available for quick creation and which fields are available in the quick creation form.
 

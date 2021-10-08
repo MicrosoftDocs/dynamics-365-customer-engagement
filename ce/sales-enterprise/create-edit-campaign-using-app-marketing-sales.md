@@ -18,8 +18,16 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+# Create or edit a campaign using in-app marketing (Sales Hub) 
 
-# Create or edit a campaign using in-app marketing (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 Promote your business, expand your reach to new customers, and improve sales by using campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Use campaigns to store all your marketing information and activities, and to measure the success of your efforts. Campaigns contain planning tasks and campaign activities you need to manage for the marketing campaigns.  
   

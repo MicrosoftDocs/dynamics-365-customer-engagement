@@ -9,8 +9,15 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 ---
+# Publish a product, family, or bundle to make it available for selling (Sales Hub) 
 
-# Publish a product, family, or bundle to make it available for selling (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 When you're ready to sell a product or bundle, publish it to make it available to the sales agents so they can build orders or create opportunities for customers. By default, product records are created in a draft state, and are available to your sales agents only after you publish it. For products that don't have a parent product family, you can create them directly in an active state using a system setting, so that you don't have to publish them after creation. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)  
 

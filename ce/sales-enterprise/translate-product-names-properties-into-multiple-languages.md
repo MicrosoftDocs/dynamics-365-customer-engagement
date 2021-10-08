@@ -9,8 +9,15 @@ manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
+# Translate product names and properties into multiple languages (Sales Hub) 
 
-# Translate product names and properties into multiple languages (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 When you sell your products in different regions, it is important that you translate significant product details into multiple languages. Help sales agents find things they need easily by making all the relevant details like cross-sell or upsell suggestions, or properties, available to them in their preferred language.   
   

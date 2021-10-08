@@ -8,7 +8,15 @@ ms.author: udag
 manager: shujoshi
 ---
   
-# Install ZoomInfo app     
+# Install ZoomInfo app   
+
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+  
 The ZoomInfo app for Dynamics 365 helps the sales teams accelerate business growth with accurate contact and account information in their preferred Dynamics 365 Sales workflows.
 
 As a Dynamics 365 administrator, you install the ZoomInfo app for administrators to configure export and mapping settings, and for sellers to search for and export ZoomInfo data to Dynamics 365 Sales workflows.   

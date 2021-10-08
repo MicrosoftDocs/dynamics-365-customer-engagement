@@ -15,8 +15,16 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
+# Manage sales literature (Sales Hub) 
 
-# Manage sales literature (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 Sales literature in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] stores sales-related information such as brochures or detailed specifications of products. Think of sales literature as a central repository for your organization’s sales information (in the form of sales attachments) that lets you share information with other users.
 

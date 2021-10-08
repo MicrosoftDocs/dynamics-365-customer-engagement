@@ -7,8 +7,15 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
+# How are prices calculated for product bundles? 
 
-# How are prices calculated for product bundles?
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 Typically, the pricing of products in bundles is different than for individual products. You can set a total, potentially discounted, price for the bundle. Or&mdash;if the bundle includes optional products&mdash;you can add those products to the price list as price list items. 
 

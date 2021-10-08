@@ -7,8 +7,16 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+# Manage notes 
 
-# Manage notes
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 You can see the notes associated with a record in the **Notes** section of the record details.
 

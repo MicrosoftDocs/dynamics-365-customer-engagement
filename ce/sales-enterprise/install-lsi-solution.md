@@ -9,8 +9,15 @@ manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
+# Install or delete the LinkedIn Sales Insights solution 
 
-# Install or delete the LinkedIn Sales Insights solution
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 LinkedIn Sales Insights integration imports the latest company profile data&mdash;such as personas, number of employees, and company URL&mdash;from LinkedIn Sales Insights into a matched account in Dynamics 365 automatically, to help keep your data up to date. Importing this data reduces the manual effort required to match company profiles between the two products, enter the details in Dynamics 365 Sales and frequently update data as LSI updates them.
 

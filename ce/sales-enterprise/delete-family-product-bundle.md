@@ -9,8 +9,15 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 ---
+# Delete a family, product, or bundle (Sales Hub) 
 
-# Delete a family, product, or bundle (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted.  
   

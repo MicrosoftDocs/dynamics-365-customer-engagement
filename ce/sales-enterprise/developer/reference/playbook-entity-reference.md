@@ -13,7 +13,15 @@ search.app:
 ms.custom: 
   - dyn365-sales
 ---
-# Entity reference for playbooks
+# Entity reference for playbooks 
+
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System customizer <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.
 

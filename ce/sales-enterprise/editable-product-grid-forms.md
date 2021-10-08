@@ -9,8 +9,15 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 ---
+# Add editable Products grid to Opportunity, Quote, Order, and Invoice forms 
 
-# Add editable Products grid to Opportunity, Quote, Order, and Invoice forms
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 Products grid on the Opportunity, Quote, Order, or Invoice forms is now editable, so you don’t have to open individual product records to make changes to the product. 
 

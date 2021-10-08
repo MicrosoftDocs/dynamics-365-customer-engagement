@@ -16,8 +16,15 @@ search.app:
 ms.custom: 
   - dyn365-sales
 ---
+# Deprecations in Dynamics 365 Sales 
 
-# Deprecations in Dynamics 365 Sales
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | All <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 The features that have been deprecated in Sales are listed in this article.
 

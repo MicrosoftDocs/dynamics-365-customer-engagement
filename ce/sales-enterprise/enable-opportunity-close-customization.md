@@ -7,8 +7,15 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
+# Enable customization of the Opportunity Close form 
 
-# Enable customization of the Opportunity Close form
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 To allow users in your organization to capture more relevant details about an opportunity closing, a system administrator can enable the customization of the Opportunity Close form.
 

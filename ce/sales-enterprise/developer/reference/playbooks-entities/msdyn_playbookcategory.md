@@ -7,7 +7,15 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# msdyn_playbookcategory EntityType
+# msdyn_playbookcategory EntityType 
+
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System customizer <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 [!INCLUDE[msdyn_playbookcategory-description](../includes/msdyn_playbookcategory-description.md)]
 

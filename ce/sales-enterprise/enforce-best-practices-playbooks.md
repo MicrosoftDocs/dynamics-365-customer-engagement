@@ -20,9 +20,16 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
+# Enforce best practices with playbooks 
+
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 
-# Enforce best practices with playbooks
 
 Use playbooks in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to guide team members on how to respond to events--when a decision maker leaves an organization while the team is working on a deal with that decision maker, for example. The playbook defines an organization's best-practices response to such an event. Playbooks can also streamline and automate recurring tasks such as renewing contracts. 
 

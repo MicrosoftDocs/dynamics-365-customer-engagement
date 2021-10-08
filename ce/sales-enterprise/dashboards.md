@@ -14,8 +14,16 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
+# Gain insights with dashboards in Dynamics 365 Sales 
 
-# Gain insights with dashboards in Dynamics 365 Sales
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 Dashboards in Dynamics 365 Sales provide an overview of actionable business data that's viewable across the organization. Use dashboards to see important data at a glance.
 

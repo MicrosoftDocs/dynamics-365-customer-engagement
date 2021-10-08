@@ -14,8 +14,16 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+# Create or edit opportunities (Sales Hub) 
 
-# Create or edit opportunities (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 An opportunity is a lead who is now almost ready to buy&mdash;in other words, a deal that you're ready to win. 
 

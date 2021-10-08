@@ -7,8 +7,15 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
+# What's new in Dynamics 365 Sales (Enterprise) 
 
-# What's new in Dynamics 365 Sales (Enterprise)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | All <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 This topic provides resources where you can learn about the new features that have recently released or that will be releasing over the next few months.
 

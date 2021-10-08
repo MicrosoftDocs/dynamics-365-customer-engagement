@@ -17,8 +17,16 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+# Sales transactions in Dynamics 365 Sales 
 
-# Sales transactions in Dynamics 365 Sales
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 In Dynamics 365 Sales, a sale typically starts with a draft quote. A quote undergoes several revisions between the salesperson and customer before it is accepted.
 After the quote is accepted, an order is generated from the quote. The order is used to fulfill the agreement of goods or

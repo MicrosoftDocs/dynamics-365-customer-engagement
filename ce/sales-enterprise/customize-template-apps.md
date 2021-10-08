@@ -7,8 +7,15 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
+# Customize Power BI template apps for Dynamics 365 Sales 
 
-# Customize Power BI template apps for Dynamics 365 Sales
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 > [!IMPORTANT]
 > Microsoft doesn't support customizations made to the Power BI template app and doesn't provide updates after modifications are made.
