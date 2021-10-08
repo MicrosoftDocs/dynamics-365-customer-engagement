@@ -11,15 +11,8 @@ manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# View and understand home page 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
+# View and understand home page
 
 When you sign in to conversation intelligence as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
 
@@ -183,7 +176,7 @@ The following image is an example of how the "talk-to-listen ratio" insight is d
 
 In this example, you can observe that the top sellers talk (59%) more than listen (41%) to customers compared to the team’s average of talk (61%) to listen (39%). Through this insight, you can learn that talking more is helping the top seller generate revenue, and you can make it as a best practice for other sellers to follow.
 
-Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens with details on each seller's talk-to-listen ratio with customers.
+Select **Show details** and the [Teams overview](conversation-intelligence-team-overview.md) page opens with details on each seller's talk-to-listen ratio with customers.
 
 ### Best practice keywords
 
@@ -212,7 +205,7 @@ The following image is an example of how the "customer sentiment" insight is dis
 
 In this example, you can see that top sellers (28%) are driving more negative customer sentiment compared to that of your team (26%). This indicates that top sellers may be asking more questions to identify the customer's pain points in order to resolve them to key out selling opportunities.
 
-Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens with details on customer sentiment.
+Select **Show details** and the [Teams overview](conversation-intelligence-team-overview.md) page opens with details on customer sentiment.
 
 ### Switch rate
 
@@ -225,7 +218,7 @@ The following image is an example of how the "switch rate" insight is displayed:
 
 In this example, you can see that top sellers (33 per hour) are switching less during the conversation with customers than the team average (34 per hour). Through this, you can identify coaching opportunities for the other sellers to improve on switch rates during customer conversations.
 
-Select **Show details** and the [Teams overview](../sales/conversation-intelligence-team-overview.md) page opens with details on each seller's switch rates with customers compared to the team's average.
+Select **Show details** and the [Teams overview](conversation-intelligence-team-overview.md) page opens with details on each seller's switch rates with customers compared to the team's average.
 
 ### Engagement with customers
 

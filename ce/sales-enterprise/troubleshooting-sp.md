@@ -1,29 +1,22 @@
 ---
 title: "Troubleshooting the Sales Insights features | MicrosoftDocs"
 description: "Know about the issues that are related to the Sales Insights features, and how to troubleshoot them."
-ms.date: 03/22/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Troubleshooting Sales Insights  
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+# Troubleshooting Sales Premium 
 
-
-This article helps you troubleshoot and resolve issues related to the Sales Insights features.
+This article helps you troubleshoot and resolve issues related to the Sales Premium features.
 
 <a name="unable-install-features-not-working-sales-premium"> </a>
 ## I'm unable to install or Sales Insights features aren't working as defined 
 
 **Reason**   
-This could happen when some of the processes that are related Sales Insights are disabled in your organization and a warning is displayed in the Sales Insights settings page as shown below:    
+This could happen when some of the processes that are related Sales Insights are disabled in your organization and a warning is displayed in the **Sales Insights settings** page as shown below:    
 > [!div class="mx-imgBorder"]  
 > ![Sales insights processes are disabled warning message](media/ts-sp-process-disabled-warning-message.png "Sales insights processes are disabled warning message")
 

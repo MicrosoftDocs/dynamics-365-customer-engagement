@@ -1,7 +1,7 @@
 ---
-title: "Edit an assignment rule in Sales Insights"
+title: "Edit an assignment rule in sales accelerator"
 description: "Update the conditions that you've defined in the rule to modify your process for automatically assigning leads to sellers."
-ms.date: 09/10/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -13,8 +13,9 @@ manager: shujoshi
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
 
 To modify your process for automatically assigning leads or opportunities to sellers, you can update the conditions that you've defined in the rule.  
 

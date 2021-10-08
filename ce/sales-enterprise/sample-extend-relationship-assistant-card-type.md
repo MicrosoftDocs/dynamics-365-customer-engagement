@@ -12,14 +12,8 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ---
-# Sample: Extend assistant card type (custom card) 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+# Sample: Extend assistant card type (custom card)
 
 ## Create custom action card
 The following process explains how to create a custom card:

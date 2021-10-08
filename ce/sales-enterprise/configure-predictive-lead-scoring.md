@@ -14,14 +14,8 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# Configure predictive lead scoring 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+# Configure predictive lead scoring
 
 Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead.
 
@@ -188,7 +182,7 @@ If you're using custom attributes for lead generation, you can generate the mode
 
 10. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
-    The model is applied to the selected set of leads in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
+    The model is applied to the selected set of leads in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](work-predictive-lead-scoring.md)
 
     >[!NOTE]
     >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
@@ -219,7 +213,7 @@ In organizations that have different lines of business, you might need different
 
 5. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
-    The model is applied to the selected set of opportunities in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)
+    The model is applied to the selected set of opportunities in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Prioritize leads through scores](work-predictive-lead-scoring.md)
 
     >[!NOTE]
     >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
@@ -598,7 +592,7 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
 ### See also
 
-[Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)  
+[Prioritize leads through scores](work-predictive-lead-scoring.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

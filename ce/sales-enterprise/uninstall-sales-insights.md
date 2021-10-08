@@ -8,15 +8,8 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Uninstall Sales Insights 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
+# Uninstall Sales Insights
 
 You can uninstall the Sales Insights Add-in for Dynamics 365 Sales if you don't want to use it in your organization.
   
@@ -47,7 +40,7 @@ After you uninstall Sales Insights, Dynamics 365 won't keep any Sales Insights d
 
 ### See also
 
-[Introduction](../sales/intro-admin-guide-sales-insights.md)
+[Introduction](intro-admin-guide-sales-insights.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

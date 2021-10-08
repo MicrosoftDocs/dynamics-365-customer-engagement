@@ -8,15 +8,8 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# What is the Sales accelerator?  
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
+# What is the Sales accelerator? 
 
 Sales teams in organizations must focus on high-velocity selling. The sellers who are part of these sales teams spend valuable time identifying the best customer in their customer list, navigating across multiple sources to identify who they need to engage with, when, and how. 
 

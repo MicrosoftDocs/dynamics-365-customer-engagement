@@ -14,14 +14,8 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# Configure talking points 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+# Configure talking points
 
 The talking points feature helps users in your organization to quickly establish communications with customers. To configure talking points, follow these steps:
 
@@ -53,7 +47,7 @@ The talking points feature helps users in your organization to quickly establish
 
 ### See also
 
-[Know conversation starters for your customers](../sales/talking-points.md)
+[Know conversation starters for your customers](talking-points.md)
 
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 

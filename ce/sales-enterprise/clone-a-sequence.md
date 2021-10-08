@@ -7,14 +7,8 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Clone a sequence 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+# Clone a sequence
 
 You can clone a sequence to make it easier to add or remove steps, and save the changes to create new sequence. Cloning a sequence pulls down a full copy of the sequence data that you are cloning at that point in time, including all steps and configurations. After you make the changes you can save and activate the cloned sequence and apply it records.   
 **To clone a sequence**   

@@ -1,22 +1,15 @@
 ---
 title: "View forecast projection through trend charts (Sales Insights) | MicrosoftDocs"
 description: "Use the trend charts to understand how each forecast amount is trending over time, comparing it against the period end prediction and quota."
-ms.date: 10/07/2021
+ms.date: 02/03/2020
 ms.custom: 
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Understand forecast projections by using trend charts 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
+# Understand forecast projections by using trend charts
 
 The **Trend** chart shows how each forecast amount is trending over time, comparing it against the period end prediction and quota. A separate predicted realization line is automatically created to project future revenue over time.  
 
@@ -46,12 +39,6 @@ The following screenshot shows an example of a trend chart.
 
 > [!div class="mx-imgBorder"]
 > ![Trend chart](media/predictive-forecasting-trend-chart.png "Trend chart")
-
-The categories displayed on the trend chart depend on the forecast grid columns that your administrator has configured and the prediction columns. For more information on configuring forecast grid columns, see [Configure columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
- 
-> [!NOTE]
-> The Predicted Realization line indicates the combined value of **Predicted from open** and **Predicted from new**. For more information on prediction columns, see [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).
-
 
 When you hover over a forecast category in the legend, the trend line of the forecast category gets highlighted.
 
