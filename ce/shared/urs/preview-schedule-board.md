@@ -279,12 +279,12 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-new-opt-in-organization.png)
+> ![Screenshot of ](../../fieldservice/media/schedule-board-new-opt-in-organization.png)
 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-01-overview.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-01-overview.png)
 
 
 
@@ -340,8 +340,7 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 > ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-13-driving-directions-to-a-booking-bia-bing-maps.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/
-RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route.png)
+> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route.png)
 
 
 > [!div class="mx-imgBorder"]
