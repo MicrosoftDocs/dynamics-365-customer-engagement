@@ -8,8 +8,15 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+# View snapshots 
 
-# View snapshots
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 You can view a snapshot to see and understand the data of the forecast at the moment in time when the snapshot was taken, including underlying opportunities. Also, you can compare the data between your current forecast and the snapshot to understand how the forecast is doing.
 

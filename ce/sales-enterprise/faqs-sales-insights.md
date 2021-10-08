@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Sales Insights | MicrosoftDocs"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 10/08/2021
+ms.date: 09/10/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -14,13 +14,20 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ---
+# Frequently asked questions for Sales Insights 
 
-# Frequently asked questions for Sales Premium
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 ## General
 
-**In which region is Sales Premium available?**<br>
-Sales Premium is available in the following regions:
+**In which region is Sales Insights available?**<br>
+Sales insights is available in the following regions:
 
 -    Asia Pacific (APJ)
 -    Canada (CAN)
@@ -32,11 +39,11 @@ Sales Premium is available in the following regions:
 -    Oceania (OCE)
 -  Switzerland (CHE)
 
-> [!NOTE]
-> Currently, Sales Premium is not available in the following datacenters&mdash;Brazil, Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
+>[!NOTE]
+>Currently, Sales Insights is not available in the following datacenters&mdash;Brazil, Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
 
 **In which region are the features available?**<br>
-Sales Premium features are available in the following regions:
+Sales insights features are available in the following regions:
 
 <table>
 
@@ -78,8 +85,8 @@ Sales Premium features are available in the following regions:
 </tr>
 </table>
 
-**Which version of Exchange is supported for features in Sales Premium?** <br>
-The Sales Premium features support the following versions of Exchange:
+**Which version of Exchange is supported for features in Sales Insight?** <br>
+The Sales Insights features support the following versions of Exchange:
 
 <table>
 <tr>
@@ -112,7 +119,7 @@ The Sales Premium features support the following versions of Exchange:
 > To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
 **What languages are supported now?**<br>
-Sales Premium supports the following languages:
+Sales insights supports the following languages:
 
 | Feature | Language supported |
 |---------|--------------------|
@@ -143,7 +150,7 @@ Depending on the region where your organization is hosted, data is stored in the
 More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
 
 **Will Sales Insights affect my storage quota?**    
-Yes. After the install of Sales Insights, the last two years of key sales data required to deliver the advanced analytics and AI results including contacts, opportunities, leads, accounts, and activities are copied into your Sales Insights managed data lake and will be counted against your total file storage quota.
+Yes. After the install of sales insights, the last two years of key sales data required to deliver the advanced analytics and AI results including contacts, opportunities, leads, accounts, and activities are copied into your Sales Insights managed data lake and will be counted against your total file storage quota.
 
 ## Assistant
 
@@ -394,7 +401,7 @@ No. The call recordings are deleted as soon as the audio file is processed​.
 ### See also
 
 [Overview](overview.md)  
-[Introduction to administer Sales Premium](intro-admin-guide-sales-insights.md)
+[Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

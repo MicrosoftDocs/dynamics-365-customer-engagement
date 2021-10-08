@@ -7,8 +7,14 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+# Explore the sales accelerator with sample data 
 
-# Explore the sales accelerator with sample data
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 Sample data helps you visualize a product and its features, by enabling you to understand end-to-end business scenarios and get started with Sales Insights. You can add the sample data during or after the configuration of the sales accelerator. Also, you can remove the sample data from your organization when you don't need it. 
 

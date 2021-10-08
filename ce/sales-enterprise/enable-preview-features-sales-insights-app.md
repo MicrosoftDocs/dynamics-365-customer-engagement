@@ -14,8 +14,14 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+# Enable coming soon features 
 
-# Enable coming soon features
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 Sometimes "coming soon" features that change the look, feel, or functionality of the application are added to conversation intelligence before the formal release.
 

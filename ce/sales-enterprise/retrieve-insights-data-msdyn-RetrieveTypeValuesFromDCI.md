@@ -10,8 +10,14 @@ ms.author: kvivek
 manager: kvivek
 topic-status: Drafting
 ---
+# Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action 
 
-# Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an contact, lead, opportunity, or systemuser. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Dynamics 365 Sales Insights.
 
