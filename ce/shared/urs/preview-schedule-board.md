@@ -279,7 +279,7 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../fieldservice/media/schedule-board-new-opt-in-organization.png)
+> ![Screenshot of ](../../field-service/media/schedule-board-new-opt-in-organization.png)
 
 
 
@@ -289,7 +289,7 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
+> ![Screenshot of ](../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
 
 
 > [!div class="mx-imgBorder"]
