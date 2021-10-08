@@ -213,7 +213,7 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 > [!NOTE]
 > Your Dynamics 365 Marketing license is automatically released when you delete or reset its environment, so you'll be free to install it on another environment.
 
-> [!IMPORTANT]
+> [!WARNING]
 > When you reset a Marketing environment, you *must* choose an app template that enables Dynamics apps. Dynamics apps require a special template that contains prerequisite solutions. If the app template you select does not enable Dynamics apps, you will need to delete the environment and provision the Marketing app into a different environment.
 
 ## Do not change the URL for an environment with Marketing installed
