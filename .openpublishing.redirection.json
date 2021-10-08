@@ -2126,16 +2126,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/sales-enterprise/extend-relationship-assistant-card.md",
-      "redirect_url": "/dynamics365/ai/sales/extend-relationship-assistant-card",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/sample-extend-relationship-assistant-card-type.md",
-      "redirect_url": "/dynamics365/ai/sales/sample-extend-relationship-assistant-card-type",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/sales-enterprise/privacy-notice-ee.md",
       "redirect_url": "/dynamics365/ai/sales/privacy-notice",
       "redirect_document_id": "false"
