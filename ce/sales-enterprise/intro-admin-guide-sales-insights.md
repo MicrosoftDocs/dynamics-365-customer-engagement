@@ -11,8 +11,14 @@ manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+# Introduction to administering Sales Insights features 
 
-# Introduction to administering Sales Insights features
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to build stronger relationships with their customers, save time, and stay on top of their deals with real-time AI-based insights. In Sales Insights, some features are available for free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization. More information: [Overview](overview.md)
 
@@ -220,7 +226,7 @@ For specific privacy information about Dynamics 365 Sales Insights capabilities,
 ### See also
 
 [Overview of Dynamics 365 Sales Insights](overview.md)  
-[Improve seller coaching and sales potential with Dynamics 365 Conversation Intelligence](dynamics365-sales-insights-app.md)  
+[Improve seller coaching and sales potential with Dynamics 365 Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)  
 [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)  
 [Sales Insights privacy notice](privacy-notice.md) 
 

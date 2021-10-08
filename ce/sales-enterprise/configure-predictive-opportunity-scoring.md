@@ -14,8 +14,14 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+# Configure predictive opportunity scoring 
 
-# Configure predictive opportunity scoring
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity.   
 
@@ -181,7 +187,7 @@ If you're using your custom attributes for opportunity generation, you can gener
 
 10. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
-    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Convert leads into opportunities](work-predictive-opportunity-scoring.md)
+    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Convert leads into opportunities](../sales/work-predictive-opportunity-scoring.md)
 
     >[!NOTE]
     >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
@@ -212,7 +218,7 @@ In organizations that have different lines of business, you might need different
 
 5. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
-    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
+    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)
 
     >[!NOTE]
     >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
@@ -569,7 +575,7 @@ By default, the predictive opportunity scoring widget is available only in the o
 
 ### See also
 
-[Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)  
+[Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

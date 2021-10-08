@@ -1,7 +1,7 @@
 ---
 title: "Segment creation and activation in sales accelerator | MicrosoftDocs"
 description: "Create and activate segments by defining conditions to automatically add records that satisfy the conditions in Dynamics 365 Sales."
-ms.date: 10/08/2021
+ms.date: 04/09/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -12,10 +12,9 @@ manager: shujoshi
 ## Requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
 
 As a sequence manager, you create segments&mdash;groups of records&mdash;by defining different conditions for each segment. After a segment is activated and a record satisfies the conditions that are defined in the segment, the record becomes a member of the segment. A sequence that's connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
 
@@ -95,7 +94,15 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
  
 9.	Select **Activate**.    
 
-The segment is activated. Now you can connect the segment a record. 
+The segment is activated. Now you can connect the segment to a sequence or a record. 
+
+<table>
+<tr><td>
+
+> [!div class="nextstepaction"] 
+> [Next step: Connect a segment to a sequence](connect-a-segment-to-sequence.md)
+</td></tr>
+</table> 
 
 ### See also
 

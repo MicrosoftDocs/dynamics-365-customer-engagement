@@ -14,8 +14,14 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+# Configure conversation content    
 
-# Configure conversation content   
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 Using the conversation content, you can [add keywords and competitors](#add-keywords-and-competitors).
 
 ## Open conversation content settings page    

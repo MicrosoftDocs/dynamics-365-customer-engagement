@@ -14,8 +14,14 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+# Configure email engagement 
 
-# Configure email engagement
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 Email engagement helps users in your organization receive alerts and reminders that help build customer relationships.
 
@@ -69,7 +75,7 @@ Email engagement is enabled and ready to use in your organization.
 
 ### See also
 
-[Introduction to administer Sales Insights](intro-admin-guide-sales-insights.md)  
+[Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)  
 [View message interactions with email engagement](email-engagement.md)
 
 
