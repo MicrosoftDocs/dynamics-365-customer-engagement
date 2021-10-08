@@ -220,7 +220,7 @@ For specific privacy information about Dynamics 365 Sales Insights capabilities,
 ### See also
 
 [Overview of Dynamics 365 Sales Insights](overview.md)  
-[Improve seller coaching and sales potential with Dynamics 365 Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)  
+[Improve seller coaching and sales potential with Dynamics 365 Conversation Intelligence](dynamics365-sales-insights-app.md)  
 [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)  
 [Sales Insights privacy notice](privacy-notice.md) 
 
