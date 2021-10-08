@@ -96,7 +96,7 @@ manager: shujoshi
 <li><a href="sales-mobile/prereq-sales-mobile.md" data-raw-source="[Prerequisites for the mobile app](sales-mobile/prereq-sales-mobile.md)">Prerequisites for the mobile app</a></li>
 <li><a href="sales-mobile/install-mobile-app.md" data-raw-source="[Install the app on iOS and Android](sales-mobile/install-mobile-app.md)">Install the app on iOS and Android</a></li>
 <li><a href="sales-mobile/use-sales-mobile-app.md" data-raw-source="[Use the mobile app](sales-mobile/use-sales-mobile-app.md)">Use the mobile app</a></li>
-<li><a href="sales-mobile/learn-basics-mobile-app.md" data-raw-source="[Learn the basics](sales-mobile/install-mobile-app.md)">Learn the basics</a></li>
+<li><a href="sales-mobile/learn-basics-mobile-app.md" data-raw-source="[Learn the basics](sales-mobile/learn-basics-mobile-app.md)">Learn the basics</a></li>
 </td>
 <td>
 <h2>Resources for other Sales apps</h2>

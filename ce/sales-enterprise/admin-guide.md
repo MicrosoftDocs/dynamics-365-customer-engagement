@@ -1,11 +1,11 @@
 ---
 title: "Help resources for administrator and sales manager - Sales Enterprise | MicrosoftDocs"
 description: "Index page showing administration, system, user, and application configurations for Dynamics 365 Sales."
-ms.date: 04/22/2020
+ms.date: 10/08/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 
 # Help resources for admins and sales managers
@@ -66,13 +66,26 @@ manager: annbe
 
 
 </td><td>
-<h2>GDPR Requirements</h2>
+<h2>Sales Premium</h2>
 <ul>
-<li><a href="dynamics-365-sales-GDPR.md" data-raw-source="[Dynamics 365 Sales and GDPR](dynamics-365-sales-GDPR.md)">Dynamics 365 Sales and GDPR</a></li>
+<li><a href="enable-configure-sales-accelerator.md" data-raw-source="[Configure the sales accelerator](enable-configure-sales-accelerator.md)">Configure the sales accelerator</a></li>
+<li><a href="configure-assistant.md" data-raw-source="[Configure the assistant](configure-assistant.md)">Configure the assistant</a></li>
+<li><a href="configure-predictive-lead-scoring.md" data-raw-source="[Configure predictive lead scoring](configure-predictive-lead-scoring.md)">Configure predictive lead scoring</a></li>
+<li><a href="configure-predictive-opportunity-scoring.md" data-raw-source="[Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)">Configure predictive opportunity scoring</a></li>
+<li><a href="configure-premium-forecasting.md" data-raw-source="[About premium forecasting](configure-premium-forecasting.md)">About premium forecasting</a></li>
 </ul>
 
 
 </td></tr>
+
+<tr>
+<td>
+<h2>Dynamics 365 Sales mobile app</h2>
+<li><a href="sales-mobile/prereq-sales-mobile.md" data-raw-source="[Prerequisites for the mobile app](sales-mobile/prereq-sales-mobile.md)">Prerequisites for the mobile app</a></li>
+<li><a href="sales-mobile/modify-quick-view-form.md" data-raw-source="[Modify quick view forms](sales-mobile/modify-quick-view-form.md)">Modify quick view forms</a></li>
+<li><a href="sales-mobile/create-push-notification.md" data-raw-source="[Create custom push notifications](sales-mobile/create-push-notification.md)">Create custom push notifications</a></li>
+</td>
+</tr>
 
 </table>
 

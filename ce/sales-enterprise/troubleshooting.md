@@ -134,7 +134,12 @@ manager: annbe
 <li><a href="../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates" data-raw-source="[Error in enabling LinkedIn updates](../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates)">Error in enabling LinkedIn updates</a></li>
 <li><a href="../linkedin/ts-linkedin-integration.md#unable-to-upgrade-the-linkedinsalesnavigatorforunifiedclient-solution" data-raw-source="[Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution](../linkedin/ts-linkedin-integration.md#unable-to-upgrade-the-linkedinsalesnavigatorforunifiedclient-solution)">Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution</a></li>
 
-</td></tr>
+</td>
+<td>
+<h2>Sales Premium</h2>
+<li><a href="troubleshooting-sp.md#im-unable-to-install-or-sales-insights-features-arent-working-as-defined" data-raw-source="[I'm unable to install or Sales Insights features aren't working as defined](troubleshooting-sp.md#im-unable-to-install-or-sales-insights-features-arent-working-as-defined)">I'm unable to install or Sales Insights features aren't working as defined</a></li>
+</td>
+</tr>
 
 </table>
 

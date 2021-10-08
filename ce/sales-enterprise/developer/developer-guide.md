@@ -1,7 +1,7 @@
 ---
 title: "Developer Guide - Sales Enterprise | MicrosoftDocs"
 description: "This guide contains entity reference and action reference information that developers need to know while developing for Dynamics 365 Sales"
-ms.date: 04/08/2019
+ms.date: 10/08/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -46,10 +46,17 @@ Welcome to the Dynamics 365 Sales Developer Guide.
 </tr>
 <tr>
 <td>
-<h2>Action Reference</h2>
+<h2>Sales Action Reference</h2>
   <li><a href="reference/custom-actions/msdyn_ForecastApi.md" data-raw-source="[msdyn_ForecastApi](reference/custom-actions/msdyn_ForecastApi.md)">msdyn_ForecastApi</a></li>
   <li><a href="reference/recalculateprice-action.md" data-raw-source="[RecalculatePrice Action](reference/recalculateprice-action.md)">RecalculatePrice Action</a></li>
-</td></tr>
+</td>
+<td>
+<h2>Sales Premium</h2>
+<li><a href="../developer-sp/msdyn-connectsequence-action.md" data-raw-source="[msdyn_ConnectSequence Action](../developer-sp/msdyn-connectsequence-action.md)">msdyn_ConnectSequence Action</a></li>
+<li><a href="../entity-reference.md" data-raw-source="[Entity reference](../entity-reference.md)">Entity reference</a></li>
+
+</td>
+</tr>
 </table>
 
 ### Related resources
