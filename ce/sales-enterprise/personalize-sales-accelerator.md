@@ -40,7 +40,7 @@ Before you start using this feature, contact your Dynamics 365 administrator or 
 ### Configure your availability
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.
-2.	In the work list section, select the settings icon.   
+2.	In the work list section, select More options > settings.   
     >[!div class="mx-imgBorder"]
     >![Select settings in the work list to configure your availability](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure your availability")     
 3.	On the **Personal settings** page, select **Availability**.

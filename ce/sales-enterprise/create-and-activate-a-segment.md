@@ -11,6 +11,10 @@ manager: shujoshi
 # Create and activate a segment
 
 As a sequence manager, you create segments&mdash;groups of records&mdash;by defining different conditions for each segment. After a segment is activated and a record satisfies the conditions that are defined in the segment, the record becomes a member of the segment. A sequence that's connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
+
+> [!NOTE]
+> You can create segments only for leads and opportunities. 
+
 <!--markdownlint-disable MD036-->
 **To create and activate a segment**
 <!--markdownlint-enable MD036-->

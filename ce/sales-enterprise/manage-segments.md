@@ -12,6 +12,9 @@ manager: shujoshi
 
 A *segment* is a collection of records that are grouped together based on certain conditions, such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences.
 
+> [!NOTE]
+> The segments feature is available only for lead and opportunity records. 
+
 As a sequence manager, you can use the segment builder to:
 
 - [Create and activate a segment](create-and-activate-a-segment.md)  
