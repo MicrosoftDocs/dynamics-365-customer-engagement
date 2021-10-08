@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 08/13/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -34,7 +34,7 @@ You can view specific insights about the performance of individual agents or gro
 
 The agents insights report consists of the following metrics.
 
-| Metrics | Description |Availability|
+| Metric | Description |Availability|
 |-------|-------|--------|
 | Agents logged in | The number of agents who are signed in.| Live chat, Digital messaging, Voice (preview)|
 | Agents with available capacity | The number of signed-in agents who can accept incoming conversation requests as well as their available capacity across all capacity profiles. Unit-based capacity is accounted against the unit capacity profile. |Live chat, Digital messaging, Voice (preview)|
@@ -67,7 +67,7 @@ The table in the **Agent insights** report displays the following information.
 Wrap-up | The total number of conversations in the wrap-up stage. |
 | Closed | The number of conversations that are closed. |
 | Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
-| Email ID | The email address of the agent handling the conversation. |
+| Email ID | The email address of the agent handling the conversation; the email address should be unique so that the agent filter works as expected. |
 
 
 > [!div class="mx-imgBorder"]

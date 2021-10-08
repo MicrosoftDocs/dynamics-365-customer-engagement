@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-ms.date: 12/18/2020
+ms.date: 10/08/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -41,6 +41,11 @@ Effective June 2, 2020, the Dynamics 365 Sales bot, a feature that enables users
 
 It is our goal to deliver a powerful bot experience that allows users to retrieve and manage information. Based on usage data and feedback from our customers, we'll be working on a powerful, extensible set of capabilities and features that will allow you to intuitively access and interact with sales information—among other entities—through a bot interface. We'll keep you updated on timing for when this will be available.
 
+## Dynamics 365 - Gamification is deprecated
+
+Effective April 1, 2021, Dynamics 365 – Gamification is deprecated. Until September 30, 2021, Microsoft provided limited support for this solution. From October 1, 2021, the Dynamics 365 – Gamification solution won’t be functional. To uninstall Gamification, delete the **GamificationUpdater** and **Gamification** solutions from the Dynamics 365 organization. Note that you must first delete the **GamificationUpdater** solution followed by the **Gamification** solution. More information: [Delete a preferred solution](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn878909(v=crm.8)#Delete%20a%20preferred%20solution).
+
+For more information on other deprecations that impact Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Admin settings overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Admin settings provides an organized and unified experience for administrators to easily configure the sales app from a single place."
-ms.date: 04/03/2020
+ms.date: 09/30/2021
 ms.custom: intro-internal
 ms.topic: article
 author: lavanyakr01
@@ -18,7 +18,7 @@ To go to this new area of app settings, at the bottom of the site map, select th
 
 ![Select the Change area icon to go to App Settings.](media/change-area-app-settings.png "Select the Change area icon to go to App Settings")
 
-The Overview page opens. The Overview page is a landing page that consolidates all the sales settings in one place. You can go to individual feature settings right from here. The site map is also logically arranged so it is easier to find the settings in the site map.  
+The **Overview** page opens. The **Overview** page is a landing page that consolidates all the sales settings in one place. You can go to individual feature settings right from here. The site map is also logically arranged so it is easier to find the settings in the site map.  
 
 ![Admin settings overview page.](media/overview-page-admin-settings.png "Admin settings overview page")
 

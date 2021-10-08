@@ -1,7 +1,7 @@
 ---
 title: "Enable a bot to escalate and end conversation| Microsoft Docs"
 description: "How a bot in Omnichannel for Customer Service can be used to escalate a conversation to a human agent."
-ms.date: 03/24/2021
+ms.date: 10/07/2021
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -36,7 +36,7 @@ OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
 
 ## Escalate a conversation to a human agent
 
-In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing to the new agent depends on the routing rule that is configured for the work stream. During the transfer of the conversation from the bot to human agent, the bot can set context items that can be used by skill identification rules to identify new skills and append them to the existing skills list for the conversation.
+In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing to the new agent depends on the routing rule that is configured for the workstream. During the transfer of the conversation from the bot to human agent, the bot can set context items that can be used by skill identification rules to identify new skills and append them to the existing skills list for the conversation.
 
 > [!Note]
 > Skill-based routing should be enabled.
