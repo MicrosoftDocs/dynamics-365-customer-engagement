@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 10/07/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -308,6 +308,16 @@ For your attached files, use these commands to do the following:
 - **Sort**: Allows you to sort records by a specific filter, such a file name or size.
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
+
+#### User permissions to view and download file attachments
+
+For users to be able to view and download file attachments, you'll need to grant the following permissions to the Knowledge Article table:
+
+|Task|Access needed |  
+|--------|-------------|  
+| Download and search attachments | Read |
+| Add attachments | Create, append, append-to |
+| Remove and add existing attachments | Append or append-to |
 
 ### Update knowledge article attachments for portal
 
