@@ -49,20 +49,27 @@ For the best experience of the sales accelerator, enable and configure [predicti
     >[!div class="mx-imgBorder"]
     >![Sample data installation](media/sa-sample-data-popup-message.png "Sample data installation")        
 
-    The configuration page opens.    
-    >[!div class="mx-imgBorder"]
-    >![Sales accelerator setup page](media/sa-setup-page.png "Sales accelerator setup page")     
+    The configuration page opens.        
  
-4. <a name="define-team-access"></a>In the **Define team access** section, select one of the following options to provide permissions to users to use the sales accelerator feature, and then select **Next**.     
-    >[!div class="mx-imgBorder"]
-    >![Select security roles to access the sales accelerator feature](media/sa-select-security-role.png "Select security roles to access the sales accelerator feature")   
-    
+4. <a name="define-team-access"></a>In the **Define team access** section, select roles to grant permissions to use assignment rules and sales accelerator features.     
+    For each section, choose one of the following options to grant permissions:     
+       
     | Security roles | Description |
     |----------------|-------------|
     | All security roles | Select this option to give access to view the Sales Hub app to all the security roles in your organization. |
     | Specific security roles | Select this option to specify security roles to give access to view the Sales Hub app to just a few users. Use the lookup box to add the security roles. |    
-    
-5. <a name="choose-content-and-layout"></a>In the **Choose content and layout** section, select the record types and their corresponding related forms that are used in your organization, as required.      
+
+    >[!div class="mx-imgBorder"]
+    >![Select security roles to access the sales accelerator and assignment rules features](media/sa-select-security-role.png "Select security roles to access the sales accelerator and assignment rules features")   
+
+5. In the **Seller availability** section, select the **Seller availability** toggle to enable the option that allows sellers to configure the working hours and vacation days so that leads and opportunities are assigned based on their availability.
+
+    >[!div class="mx-imgBorder"]
+    >![Enable the option to allow sellers to set working hours and vacation days](media/sa-enable-seller-availability.png "Enable the option to allow sellers to set working hours and vacation days")   
+
+6. (Optional) In the **Automate lead and opportunity assignment (preview)** section, select the toggle to enable preview for the assignment rules feature. More information: [Manage assignment rules](create-manage-assignment-rules.md).
+
+7. <a name="choose-content-and-layout"></a>In the **Choose content and layout** section, select the record types and their corresponding related forms that are used in your organization, as required.      
 
    >[!div class="mx-imgBorder"]
    >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
@@ -82,12 +89,12 @@ For the best experience of the sales accelerator, enable and configure [predicti
      
     3. Select **Next**
 
-6. In the **Automate activity creation** section, choose an option based on your requirements:    
+8. In the **Automate activity creation** section, choose an option based on your requirements:    
     - Select **Go to sequences** to create sequences and apply them to records. More information: [Create and manage sequences](create-manage-sequences.md)
     - Select **Skip this step** to come back later and create the sequences.
     >[!div class="mx-imgBorder"]
     >![Choose an option to automatically create activities](media/sa-automatic-activity-creation.png "Choose an option to automatically create activities")           
-7. In the **Set up integrated calls** section, the status of the phone system that's integrated through Dynamics 365 Channel Integration Framework is displayed under **Channel Provider**. The phone system allows sellers to make calls directly through the sales accelerator feature. The priority of the phone system that's selected for the sales accelerator depends on the ranking that's defined in the Dynamics 365 Channel Integration Framework configuration. More information: [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)     
+9. In the **Set up integrated calls** section, the status of the phone system that's integrated through Dynamics 365 Channel Integration Framework is displayed under **Channel Provider**. The phone system allows sellers to make calls directly through the sales accelerator feature. The priority of the phone system that's selected for the sales accelerator depends on the ranking that's defined in the Dynamics 365 Channel Integration Framework configuration. More information: [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)     
     >[!div class="mx-imgBorder"]
     >![Status of the phone system](media/sa-channel-provider-status.png "Status of the phone system")        
     After the phone system is successfully verified, configure the following advanced call settings:    
@@ -99,7 +106,7 @@ For the best experience of the sales accelerator, enable and configure [predicti
     - Under **Call settings**, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate a call from a sequence step or from the work list.   
         >[!div class="mx-imgBorder"]
         >![Advanced call settings](media/sa-advance-call-settings.png "Advanced call settings")       
-8. Save and publish the configuration.
+10. Save and publish the configuration.
     A status message is displayed at the top of the page with details including the time and user who published the configurations.
     >[!div class="mx-imgBorder"]
     >![Sales accelerator setup status message](media/sa-setup-status-message.png "Sales accelerator setup status message")

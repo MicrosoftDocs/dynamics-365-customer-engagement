@@ -2,7 +2,7 @@
 title: "Introduction on how to administer Sales Insights | MicrosoftDocs"
 description: "Index page showing administration, system, user, and application configurations for Sales Insights Add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 08/10/2020
+ms.date: 08/10/2021
 ms.custom: intro-internal
 ms.topic: article
 author: udaykirang
@@ -12,7 +12,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Set up premium sales features
+# Introduction to administering Sales Insights features
 
 Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to build stronger relationships with their customers, save time, and stay on top of their deals with real-time AI-based insights. In Sales Insights, some features are available for free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization. More information: [Overview](overview.md)
 
@@ -49,7 +49,7 @@ Review the following requirements and prerequisites to enable standard Sales Ins
     | Product version | Available standard Sales Insights features |
     |-----------------|--------------------------------------------|    
     | Dynamics 365 with Microsoft Exchange Online | <ul><li>Assistant (standard cards)</li> <li>Email engagement</li> <li>Auto capture</li></ul>|
-    | Dynamics 365 with Microsoft Exchange (on-premises) | <ul><li>o	Assistant (all cards except cards based on Exchange information)</li> <li>Email engagement</li></ul>|
+    | Dynamics 365 with Microsoft Exchange (on-premises) | <ul><li>Assistant (all cards except cards based on Exchange information)</li> <li>Email engagement</li></ul>|
     | Dynamics 365 (on-premises) | <ul><li>Assistant (standard cards) |
 
 - The assistant, email engagement, and auto capture features are available for Dynamics 365 Sales with an Enterprise or Sales Premium license.
@@ -124,7 +124,7 @@ Review the following requirements before you install and configure the premium S
 
 - You must have a Sales Premium or a Sales Insights license.    
     >[!NOTE]
-    >You can also start a free trial to use the sales premium features.
+    >You can also start a free trial to use the sales premium features. More information: [Sign up for a free Dynamics 365 Sales trial](/dynamics365/sales-enterprise/sign-up-for-sales-trial)
 
 - Assign licenses to each individual user to utilize the features. This is executed within the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?#/homepage). More information: [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).    
 
@@ -141,17 +141,12 @@ The premium Sales Insights features aren't available by default. You must instal
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
  
-3.	In the **Get advanced AI capabilities with Sales Insights** section, select **Try Sales Insights**.
+3.	In the **Supercharge your sales with Premium** section, select the terms and conditions and then select **Get started**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Try Sales Insights](media/si-admin-select-try-sales-insights.png "Select Try Sales Insights")
  
-4.	On the Sales Insights setup page, carefully read and select the terms and conditions, and then select **Continue**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select accept terms and conditions](media/si-admin-accept-terms-and-conditions.png "Select accept terms and conditions")
-     
-    The installation takes a few minutes to complete, and then the status appears in the status bar. After the installation is complete, you're ready to configure the premium Sales Insights features.
+    The installation may takes a few minutes to complete, and the progress is displayed in a dialog. After the installation is complete, you're ready to configure the premium Sales Insights features.
 
     > [!div class="mx-imgBorder"]
     > ![Premium Sales Insights settings page](media/si-admin-advanced-installation-complete.png "Premium Sales Insights settings page")

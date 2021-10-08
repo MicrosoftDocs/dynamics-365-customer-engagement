@@ -1,7 +1,7 @@
 ---
 title: "Configure who knows whom (Sales Insights) | MicrosoftDocs"
 description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
-ms.date: 08/10/2020
+ms.date: 09/10/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: c5e131e2-c4ba-4442-9580-dfc9badbc9ad
@@ -20,8 +20,12 @@ topic-status: Drafting
 The who knows whom feature helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts.
 
 >[!NOTE]
-><ul><li>Who knows whom is currently available in Europe, Middle East, and Africa (EMEA) and North American (NAM) regions.</li><li>For Office 365 data, you organization's data location must be in one of the following locations and not in your region-specific datacenter location:
-> <ul><li>Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)</li><li>Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).</li><li>Global Geography 3 – Americas (Brazil, Chile, United States).</li></ul>More information: [Datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)</ul>
+>- Who knows whom is currently available in Europe, Middle East, and Africa (EMEA) and North American (NAM) regions.
+>- For Office 365 data, you organization's data location must be in one of the following locations and not in your region-specific datacenter location:
+>    - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)
+>    - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
+>    - Global Geography 3 – Americas (Brazil, Chile, United States).    
+> To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
 To configure who knows whom, follow these steps:
 
@@ -168,7 +172,7 @@ By default, the who knows whom widget is available only in the out-of-the-box **
 
 ### See also
 
-[Get introduced to a lead](who-knows-whom.md)  
+[Get introduced to a lead](../sales/who-knows-whom.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
 

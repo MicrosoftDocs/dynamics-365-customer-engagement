@@ -181,7 +181,7 @@ If you're using your custom attributes for opportunity generation, you can gener
 
 10. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
-    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Convert leads into opportunities](work-predictive-opportunity-scoring.md)
+    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Convert leads into opportunities](../sales/work-predictive-opportunity-scoring.md)
 
     >[!NOTE]
     >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
@@ -212,7 +212,7 @@ In organizations that have different lines of business, you might need different
 
 5. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
-    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
+    The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)
 
     >[!NOTE]
     >If the accuracy of the score isn't acceptable, select **View details**. You can review the details of the model and edit the fields to improve the score's accuracy. More information: [Edit and retrain a model](#edit-and-retrain-a-model)
@@ -569,7 +569,7 @@ By default, the predictive opportunity scoring widget is available only in the o
 
 ### See also
 
-[Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)  
+[Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

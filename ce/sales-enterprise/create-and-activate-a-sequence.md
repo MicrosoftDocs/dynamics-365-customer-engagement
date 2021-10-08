@@ -19,7 +19,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
 3. Under **Sales accelerator**, select **Sequence**.  
 4. On the **Sequences** page, select **+ New sequence**.   
     > [!div class="mx-imgBorder"]
-    > ![Create a sequence dialog.](media/sequence-create-sequence.png "Create a sequence dialog")   
+    > ![Select new to create a sequence.](media/sequence-select-new-sequence.png "Select new to create a sequence")   
 5. In the **Create a sequence** dialog, enter the following information:   
 
     | Parameter | Description |
@@ -27,6 +27,10 @@ Every organization has its own selling processes for sellers to follow. A sequen
     | Sequence name | The name of the sequence. |
     | Description | A description of the sequence. (Optional) |
     | Entity | The entity type for which you want to apply this sequence. By default, the Lead entity type is selected. |   
+
+    > [!div class="mx-imgBorder"]
+    > ![Create a sequence dialog.](media/sequence-create-sequence.png "Create a sequence dialog")   
+
 6. Select **Next**.   
 7. Choose and configure one of the following steps:      
     - [Email activity](#email-activity)
@@ -49,7 +53,14 @@ Every organization has its own selling processes for sellers to follow. A sequen
     > [!NOTE]
     > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.       
 
-    The sequence is activated and listed in the sequence designer home page.   
+    The sequence is activated and listed in the sequence designer home page. 
+
+    > [!NOTE]
+    > On the sequence home page, you can do the following tasks:
+    > - Sort and filter the records based on the column options. Select the down arrow icon corresponding to column header, and then select the sort and filter options that are available.
+    > - Reorder the columns by dragging-and-dropping at the location you want in the grid.
+    > - Search is available only on the name and description of the sequence.
+   
     > [!div class="mx-imgBorder"]
     > ![Sequence designer home page.](media/sequence-home-page.png "Sequence designer home page")    
 

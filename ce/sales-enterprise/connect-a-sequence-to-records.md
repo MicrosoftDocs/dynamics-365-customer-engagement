@@ -31,31 +31,41 @@ You can connect a sequence to records in the following ways:
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
 3. Under **Sales accelerator**, select **Sequence**.   
-4. On the **Sequences** page, select the **Active** tab.    
+4. On the **Sequences** page, select a sequence that is active state.    
     >[!NOTE]
     > You can assign records only to sequences that are in an **Active** state.
 
-    > [!div class="mx-imgBorder"]
-    > ![Active sequences list view](media/sequence-home-page-active-sequence.png "Active sequences list view")       
 5. Select and open the sequence for which you want to assign records.<br>or<br>Hover over a sequence, and then select **More options** > **View sequence**.    
     The sequence opens. On the **Manage sequence** tab, you can view the activities that are defined for the sequence.     
     > [!div class="mx-imgBorder"]
     > ![Manage sequence tab of a sequence](media/sequence-manage-sequence-tab.png "Manage sequence tab of a sequence")     
-6. Select the **Connected Lead** tab.    
-    You can see the list of records that are connected to the sequence.    
-7.	To add a record, select **+ Connect Leads**.     
+6. Select the **Connected leads** tab.    
+    You can see the list of records that are connected to the sequence. If no records are connected, an empty section is displayed.   
+7.	In the **Connect leads** section, select **+ Connect leads**.     
+
     > [!div class="mx-imgBorder"]
     > ![Connected leads tab of a sequence](media/sequence-connected-leads-tab.png "Connected leads tab of a sequence")   
+
     The list that appears shows available lead records that aren't connected to any sequence.
+
     > [!div class="mx-imgBorder"]
-    > ![List of available lead records](media/sequence-list-of-available-leads.png "List of available lead records")   
+    > ![List of available lead records](media/sequence-list-of-available-leads.png "List of available lead records") 
+
+    > [!NOTE]
+    > On the record selection page, you can do the following tasks on the grid:
+    > - Sort and filter the records based on the column options. Select the down arrow icon corresponding to column header, and then select the sort and filter options that are available.
+    > - Reorder the columns by dragging-and-dropping at the location you want in the grid.
+    > - Search is available only on the name and description of the sequence.
+
 8.	Choose the records that you want to connect to the sequence, and then select **Connect**.     
     Verify that the **Open leads without sequences** view is selected. Selecting this view helps to list only the records that aren't associated with other sequences. You can select other views to choose records to connect, but the records in that view must not be associated with other sequences.     
     > [!div class="mx-imgBorder"]
-    > ![Select lead records to connect](media/sequence-select-leads-to-connect.png "Select lead records to connect")
+    > ![Select lead records to connect](media/sequence-select-leads-to-connect.png "Select lead records to connect")   
 
-The lead records are connected to the sequence and are added to the list of connected records.
-
+    The lead records are connected to the sequence and are added to the list of connected records.   
+    > [!div class="mx-imgBorder"]
+    > ![Lead records connected to sequence](media/sequence-leads-connected.png "Lead records connected to sequence")       
+    
 <a name="ContactThroughGridView"></a>
 ## Through the lead or opportunity grid view   
 

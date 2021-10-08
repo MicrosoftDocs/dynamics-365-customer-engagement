@@ -47,7 +47,7 @@ The talking points feature helps users in your organization to quickly establish
 
 ### See also
 
-[Know conversation starters for your customers](talking-points.md)
+[Know conversation starters for your customers](../sales/talking-points.md)
 
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
