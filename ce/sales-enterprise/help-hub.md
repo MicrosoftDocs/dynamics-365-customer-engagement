@@ -1,5 +1,5 @@
 ---
-title: "Help resources for Dynamics 365 Sales Enterprise | Microsoft Docs"
+title: "Help resources for Dynamics 365 Sales | Microsoft Docs"
 description: "Browse help content and explore documentation depending on your role in the organization and what you need to accomplish in Dynamics 365 Sales."
 ms.date: 10/08/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Help resources for Dynamics 365 Sales Enterprise
+# Help resources for Dynamics 365 Sales
 
 <table>
 
@@ -19,8 +19,9 @@ manager: shujoshi
 <li><a href="overview.md" data-raw-source="[Dynamics 365 Sales Overview](overview.md)">Dynamics 365 Sales Overview</a></li>
 <li><a href="sign-up-for-sales-trial.md" data-raw-source="[Sign up for a free trial](sign-up-for-sales-trial.md)">Sign up for a free trial</a></li>
 <li><a href="set-up-dynamics-365-sales.md" data-raw-source="[Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)">Set up Dynamics 365 Sales</a></li>
-<li><a href="intro-admin-guide-sales-insights.md" data-raw-source="[Set up premium sales features](intro-admin-guide-sales-insights.md)">Set up premium sales features</a></li>
+<li><a href="intro-admin-guide-sales-insights.md" data-raw-source="[Set up Sales premium features](intro-admin-guide-sales-insights.md)">Set up Sales premium features</a></li>
 <li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
+<li><a href="nurture-sales-from-lead-order-sales.md" data-raw-source="[Understand the sales process](nurture-sales-from-lead-order-sales.md)">Understand the sales process</a></li>
 
 </td><td>
 

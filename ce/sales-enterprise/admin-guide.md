@@ -73,6 +73,8 @@ manager: shujoshi
 <li><a href="configure-predictive-lead-scoring.md" data-raw-source="[Configure predictive lead scoring](configure-predictive-lead-scoring.md)">Configure predictive lead scoring</a></li>
 <li><a href="configure-predictive-opportunity-scoring.md" data-raw-source="[Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)">Configure predictive opportunity scoring</a></li>
 <li><a href="configure-premium-forecasting.md" data-raw-source="[About premium forecasting](configure-premium-forecasting.md)">About premium forecasting</a></li>
+<li><a href="configure-relationship-analytics.md" data-raw-source="[Configure relationship analytics and health](configure-relationship-analytics.md)">Configure relationship analytics and health</a></li>
+<li><a href="fre-setup-sales-insight-app.md" data-raw-source="[First-run setup experience for conversation intelligence](fre-setup-sales-insight-apps.md)">First-run setup experience for conversation intelligence</a></li>
 </ul>
 
 

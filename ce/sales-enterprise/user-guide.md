@@ -113,20 +113,23 @@ Use links in this article to familiarize with Dynamics 365 Sales Enterprise.
 
 </td>
 <td>
-<h2>Work with Outlook</h2>
-<li><a href="../outlook-app/dynamics-365-app-outlook-user-s-guide.md" data-raw-source="[Dynamics 365 App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)">Dynamics 365 App for Outlook User Guide</a></li>
-
-
-</td>
-</tr>
-<tr>
-<td>
 <h2>Sales Premium</h2>
 <li><a href="sales-accelerator-intro.md" data-raw-source="[What is the Sales accelerator?](sales-accelerator-intro.md)">What is the Sales accelerator?</a></li>
 <li><a href="assistant.md" data-raw-source="[Use the assistant to guide customer communications](assistant.md)">Use the assistant to guide customer communications</a></li>
 <li><a href="work-predictive-lead-scoring.md" data-raw-source="[Prioritize leads through scores](work-predictive-lead-scoring.md)">Prioritize leads through scores</a></li>
 <li><a href="work-predictive-opportunity-scoring.md" data-raw-source="[Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)">Prioritize opportunities through scores</a></li>
 <li><a href="project-accurate-revenue-sales-forecasting.md" data-raw-source="[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)">Project accurate revenue with sales forecasting</a></li>
+<li><a href="relationship-analytics.md" data-raw-source="[View customer activity history](relationship-analytics.md)">View customer activity history</a></li>
+<li><a href="dynamics365-sales-insights-app.md" data-raw-source="[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)">Overview of Conversation Intelligence</a></li>
+</td>
+
+</tr>
+<tr>
+<td>
+<h2>Work with Outlook</h2>
+<li><a href="../outlook-app/dynamics-365-app-outlook-user-s-guide.md" data-raw-source="[Dynamics 365 App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)">Dynamics 365 App for Outlook User Guide</a></li>
+
+
 </td>
 </tr>
 
