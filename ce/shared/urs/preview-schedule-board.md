@@ -278,25 +278,95 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 schedule-board-new-opt-in-organization
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 
 RS-2021-wave-2-ga-New-SB-Improvements-01-overview
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
 
 RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 RS-2021-wave-2-ga-New-SB-Improvements-02-Tab-contextual-actions
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 RS-2021-wave-2-ga-New-SB-Improvements-03-Tab-settings
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 RS-2021-wave-2-ga-New-SB-Improvements-04-dafault-Tab-settings
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 RS-2021-wave-2-ga-New-SB-Improvements-05-better-settings-experience
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 RS-2021-wave-2-ga-New-SB-Improvements-06-Detail-panel-Booking-selection
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 RS-2021-wave-2-ga-New-SB-Improvements-07-Booking-alerts-panel-Create-or-view-booking-alerts
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 RS-2021-wave-2-ga-New-SB-Improvements-08-Booking-alert-dismiss-or-snooze
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-09-support-for-custom-web-resource
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-10-support-for-full-screen-mode
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-11-support-for-move-bookings-and-print-schedule-board
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-12-support-for-get-driving-directions-to-a-booking
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-13-driving-directions-to-a-booking-bia-bing-maps
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route-on-a-day
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-15-support-for-get-driving-directions-for-resource-route-on-a-day-via-bing-maps
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-16-support-Find-Availability
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-17-Schedule-assistant
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
+RS-2021-wave-2-ga-New-SB-Improvements-18-Schedule-board-new-tab-creation-support
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+RS-2021-wave-2-ga-New-SB-Improvements-19-Schedule-board-new-tab-creation
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 
 
