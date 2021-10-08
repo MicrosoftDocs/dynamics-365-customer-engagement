@@ -79,7 +79,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
 ### Sort knowledge articles
 
-The knowledge base search control also enables you to sort the  knowledge articles. 
+The knowledge base search control also enables you to sort the knowledge articles. 
 
 :::image type="content" source="media/csw-sort-km.png" alt-text="Sort knowledge article":::
 
@@ -96,11 +96,11 @@ When configured, you can link an article to case. You can associate and dissocia
 
 :::image type="content" source="media/csw-link-unlink-km.png" alt-text="Link or unlink an article to a case":::
 
-By default the articles are not linked to the case. When you select to link the article to the case, the link icon changes, and **Linked to Case** is displayed for the article.
+By default, the articles aren't linked to the case. When you select to link the article to the case, the link icon changes, and **Linked to Case** is displayed for the article.
 
 ### Email options
 
-You can also share the knowledge article link or knowledge article content through mail by clicking on the ellipsis besides an article.
+You can also share the knowledge article link or knowledge article content through mail by selecting the ellipsis next to an article.
 
 :::image type="content" source="media/csw-email-url.png" alt-text="Email options for knowledge artcile":::
 
