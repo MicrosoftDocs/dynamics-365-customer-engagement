@@ -276,17 +276,17 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the toggle in the top right of the screen.
 5. Once the solution is uninstalled, the new schedule board will not be available for the environment until you upgrade your Field Service app to the latest available version.
 
-
+## Enable new schedule board for your organization
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/schedule-board-new-opt-in-organization.png)
 
-
+## View map
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-01-overview.png)
 
-
+## Schedule Board settings
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
@@ -297,11 +297,11 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-03-Tab-settings.png)
+> ![Screenshot of ](../../field-service/media//RS-2021-wave-2-ga-New-SB-Improvements-03-Tab-settings.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-04-dafault-Tab-settings.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-04-dafault-Tab-settings.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -313,7 +313,7 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-07-Booking-alerts-panel-Create-or-view-booking-alerts.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-07-Booking-alerts-panel-Create-or-view-booking-alerts.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -321,7 +321,7 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-09-support-for-custom-web-resource.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-09-support-for-custom-web-resource.png)
 
 
 > [!div class="mx-imgBorder"]
