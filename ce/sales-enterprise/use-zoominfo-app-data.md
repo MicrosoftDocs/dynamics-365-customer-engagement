@@ -7,8 +7,16 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+# Use ZoomInfo app data 
 
-# Use ZoomInfo app data
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 The ZoomInfo app for Dynamics 365 helps sales teams accelerate business growth with accurate contact and account information in their preferred Dynamics 365 Sales workflows. 
 

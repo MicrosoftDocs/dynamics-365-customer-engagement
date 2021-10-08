@@ -15,8 +15,16 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+# Preview: Add products to an opportunity by using the enhanced experience 
 
-# Preview: Add products to an opportunity by using the enhanced experience
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

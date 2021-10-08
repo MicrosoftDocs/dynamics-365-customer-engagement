@@ -16,8 +16,15 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
+# Create or edit goals (Sales Hub) 
 
-# Create or edit goals (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 Use goals to keep track of your progress on achieving target revenue.  
   

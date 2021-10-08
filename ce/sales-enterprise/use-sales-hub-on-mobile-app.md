@@ -9,8 +9,16 @@ manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
+# Use the Sales Hub app on Dynamics 365 Sales app 
 
-# Use the Sales Hub app on Dynamics 365 Sales app
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 Access your Sales Hub data while you're on the go by using the Dynamics 365 Sales app on your mobile device. The app is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. It helps sellers with the right data anywhere, anytime, and lets them log and share information quickly.
 

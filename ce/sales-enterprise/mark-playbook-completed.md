@@ -18,9 +18,16 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
+# Mark a playbook as completed 
+
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 
-# Mark a playbook as completed
 
 When you complete all the activities created for a playbook, you must mark the playbook as completed. This helps you to know if the playbook was successful or not.
 

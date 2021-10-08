@@ -13,7 +13,15 @@ search.app:
 ms.custom: 
   - dyn365-sales
 ---
-# msdyn_ForecastApi action
+# msdyn_ForecastApi action 
+
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System customizer <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 The `msdyn_ForecastApi` custom action enables you to perform various actions to retrieve and update forecasting data.
 

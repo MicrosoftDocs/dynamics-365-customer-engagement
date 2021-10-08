@@ -1,14 +1,21 @@
 ---
-title: "Manage assignment rules for lead and opportunity routing (Sales Insights)"
+title: "Manage assignment rules for lead and opportunity routing"
 description: "Create, activate, edit, delete assignment rules, manage sales teams, and seller attributes for lead and opportunity routing."
-ms.date: 09/10/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+# Manage assignment rules for routing 
 
-# Manage assignment rules for routing
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 > [!IMPORTANT]
 > - The enhanced experience for assignment rules for lead routing in sales accelerator is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -32,7 +39,7 @@ You can use the assignment rules designer to:
 Before you start, be sure you've met the following prerequisites:
 
 -	You have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
--	The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
+-	The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](sales-accelerator-assignment-rules.md)
 -	You've enabled the **Assignment rules (preview)** feature preview:
 
     1.	Sign in to your Dynamics 365 Sales Hub app.  
@@ -51,8 +58,6 @@ Before you start, be sure you've met the following prerequisites:
 
 ### See also
 
-[Configure the sales accelerator](enable-configure-sales-accelerator.md)  
-[Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
-
+[Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,8 +9,15 @@ ms.service: dynamics-365-sales
 ms.custom: template-trial-setup
 ms.reviewer: shujoshi
 ---
+# Sign up for a free Dynamics 365 Sales Enterprise trial 
 
-# Sign up for a free Dynamics 365 Sales Enterprise trial
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | All <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 Sales Enterprise offers a 30-day free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales Enterprise features](overview.md).
 

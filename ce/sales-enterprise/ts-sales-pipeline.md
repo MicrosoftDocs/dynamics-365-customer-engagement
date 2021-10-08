@@ -14,8 +14,16 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
+# Troubleshooting the Sales Pipeline chart and its phases in Dynamics 365 Sales 
 
-# Troubleshooting the Sales Pipeline chart and its phases in Dynamics 365 Sales
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 This article helps you troubleshoot and resolve issues related to the Sales Pipeline chart and its phases.
 

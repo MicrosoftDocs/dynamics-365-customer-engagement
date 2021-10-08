@@ -7,8 +7,15 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
+# Sales Team Member app for users with Team Member license 
 
-# Sales Team Member app for users with Team Member license
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | All <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 The new Sales Team Member app is designed for the lightweight sales scenarios where users don't need the full capabilities of an enterprise application. This app is included with the Team Member license. 
 

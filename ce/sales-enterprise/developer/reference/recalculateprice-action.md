@@ -9,8 +9,15 @@ manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
+# RecalculatePrice Action 
 
-# RecalculatePrice Action
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System customizer <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 This action is used to trigger out of the box price calculation for Opportunity, Quote, Sales Order or Invoice entities. This action is applicable for both server and client invocations.
 

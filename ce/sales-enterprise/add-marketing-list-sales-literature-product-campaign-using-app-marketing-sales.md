@@ -17,8 +17,16 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
+# Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales) 
 
-# Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 Add all items to the campaign that your organization needs in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.  
 

@@ -1,14 +1,21 @@
 ---
-title: "Delete or deactivate an assignment rule (Sales Insights)"
+title: "Delete or deactivate an assignment rule"
 description: "Permanently delete an assignment rule that is no longer required in your organization, or deactivate to retain the rule in the application in inactive mode."
-ms.date: 09/10/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
+# Delete or deactivate an assignment rule 
 
-# Delete or deactivate an assignment rule
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 You can deactivate or delete an assignment rule that's no longer required in your organization. Deactivation keeps the rule, but it won't be used to assign leads to any sellers in the future. Deleting the rule removes it from the application, but leads that were already assigned to sellers through the rule won't be affected.   
 

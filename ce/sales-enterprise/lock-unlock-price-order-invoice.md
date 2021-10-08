@@ -15,8 +15,16 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
+# Lock or unlock the price for an order or invoice (Sales Hub) 
 
-# Lock or unlock the price for an order or invoice (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 To determine whether your order or invoice is using Prices Locked, see the Prices Locked field on Order or Invoice form. If the Prices Locked field is set to **No**, **Use Current Pricing**
 is enabled.

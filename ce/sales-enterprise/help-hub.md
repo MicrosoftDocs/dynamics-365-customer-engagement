@@ -7,8 +7,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-
-# Help resources for Dynamics 365 Sales
+# Help resources for Dynamics 365 Sales 
 
 <table>
 

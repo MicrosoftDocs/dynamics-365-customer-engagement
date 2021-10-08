@@ -1,7 +1,7 @@
 ---
 title: "Manage sales teams in assignment rules for lead and opportunity routing"
 description: "Manage sales teams in assignment rules by assigning attributes and configuring the maximum number of leads and opportunities that a seller can handle at once."
-ms.date: 09/10/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,8 +9,15 @@ manager: shujoshi
 products: 
     - Sales premium
 ---
+# Manage sales teams in assignment rules 
 
-# Manage sales teams in assignment rules
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 Using sales team management in assignment rules, you can assign attributes to sellers and configure the maximum number of leads and opportunities that a seller can handle at once. When the rule is applied to a record, the attributes and capacity you've defined here will determine how the record is assigned.
 
@@ -20,7 +27,7 @@ You can use the **Team settings** page to:
 -	[Set capacity for sellers](#set-capacity-for-sellers).
 -	[Turn off record assignment to sellers](#turn-off-record-assignment-to-sellers).
 
-Before you start using the sales teams designer, verify that the security roles that are assigned to your sellers were selected when the sales accelerator was configured. More information: step 4 in [Set up the sales accelerator](enable-configure-sales-accelerator.md)
+Before you start using the sales teams designer, verify that the security roles that are assigned to your sellers were selected when the sales accelerator was configured. More information: step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md)
 
 ## Add attributes to sellers
 

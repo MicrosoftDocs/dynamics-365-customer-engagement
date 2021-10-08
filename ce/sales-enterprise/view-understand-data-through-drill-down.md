@@ -13,8 +13,16 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+# View and understand data through drill-down entities 
 
-# View and understand data through drill-down entities
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 Through a forecast, you'll have visibility into the pipeline amounts that your sellers are projecting for the period. Now you might want to know which accounts contribute to a specific seller's Committed value or maybe you want to know which products are contributing to a different seller's Won value. You can use the drill-down feature to break down your seller's forecast projections as a function of the contributing factors that you care about, such as Account and Product. The drill-down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the selected drill-down option.
 

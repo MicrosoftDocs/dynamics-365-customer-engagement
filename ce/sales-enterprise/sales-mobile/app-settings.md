@@ -8,8 +8,16 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+# Dynamics 365 Sales mobile app settings 
 
-# Dynamics 365 Sales mobile app settings
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 The **Settings** panel provides a consolidated view for relevant information about the app, helpful links to submit ideas, report issues, and share feedback, and a sign-out option.
 

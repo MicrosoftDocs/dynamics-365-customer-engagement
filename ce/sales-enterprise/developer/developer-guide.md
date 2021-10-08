@@ -7,8 +7,15 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
+# Developer Guide for Dynamics 365 Sales 
 
-# Developer Guide for Dynamics 365 Sales
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System customizer <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 Welcome to the Dynamics 365 Sales Developer Guide. 
 

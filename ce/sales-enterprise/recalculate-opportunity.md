@@ -7,8 +7,16 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
+# Recalculate an opportunity (Sales Hub) 
 
-# Recalculate an opportunity (Sales Hub)
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 To change the estimated revenue or total amount of an opportunity based on any changes you've made to the associated products or product quantities, recalculate the opportunity.
 

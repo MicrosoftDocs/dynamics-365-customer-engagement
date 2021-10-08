@@ -16,10 +16,6 @@ searchScope:
 
 # Create or edit leads
 
-## Applies to
-
-This topic applies to Sales Enterprise, Sales Premium, and Sales Professional products.
-
 ## Requirements
 
 | | |

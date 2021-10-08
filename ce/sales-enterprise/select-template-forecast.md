@@ -9,8 +9,15 @@ manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
+# Select a template 
 
-# Select a template
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 You can select a template to create a forecast. The selected templates populate the **Hierarchy route** field that defines the entity type in your hierarchy. However, to create a forecast based on your custom rollup and hierarchy entities, select **Create from scratch**.   
 

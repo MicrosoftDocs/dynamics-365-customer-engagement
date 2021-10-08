@@ -9,8 +9,15 @@ ms.service: dynamics-365-sales
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
+# Dynamics 365 Sales Enterprise trial FAQ 
 
-# Dynamics 365 Sales Enterprise trial FAQ
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | All <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 The Sales Enterprise trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.
 

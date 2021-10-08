@@ -7,8 +7,16 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+# Install the app on iOS and Android 
 
-# Install the app on iOS and Android
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 
 The Dynamics 365 Sales mobile app is supported on both iOS and Android. If you are reading this document on a computer, use the camera on your mobile device to scan the relevant QR code to install the mobile app on your device.
 

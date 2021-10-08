@@ -10,7 +10,15 @@ ms.custom:
   - dyn365-sales
 ms.reviewer: susikka
 ---
-# Custom plug-in handling by using a shared variable
+# Custom plug-in handling by using a shared variable 
+
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System customizer <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 ## Issue
 

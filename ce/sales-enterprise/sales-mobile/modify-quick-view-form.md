@@ -7,8 +7,15 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+# Modify quick view forms 
 
-# Modify quick view forms
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 The Dynamics 365 Sales mobile app uses the quick view form to display table details. This is a lightweight form that doesn't include all attributes of the table. More information: [Create a quick view form](/powerapps/maker/model-driven-apps/create-edit-quick-view-forms)
 

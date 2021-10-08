@@ -7,8 +7,15 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
+# Configure mobile apps with Microsoft Intune 
 
-# Configure mobile apps with Microsoft Intune
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 Microsoft Intune enables organizations to manage devices and applications. The Dynamics 365 Sales mobile applications for iOS and Android integrate with Intune. This integration enables you to manage the application on your devices, and to control security. Through configuration policies, you can control items like requiring an access pin, how data is handled by the application, and even encrypting application data when the app is not in use.
 
