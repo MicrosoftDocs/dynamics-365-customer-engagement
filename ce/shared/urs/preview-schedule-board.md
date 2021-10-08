@@ -289,11 +289,11 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-02-Tab-contextual-actions.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Tab-contextual-actions.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -309,7 +309,7 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-06-Detail-panel-Booking-selection.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-06-Detail-panel-Booking-selection.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -317,7 +317,7 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-08-Booking-alert-dismiss-or-snooze.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-08-Booking-alert-dismiss-or-snooze.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -325,47 +325,47 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-10-support-for-full-screen-mode.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-10-support-for-full-screen-mode.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-11-support-for-move-bookings-and-print-schedule-board.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-11-support-for-move-bookings-and-print-schedule-board.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-12-support-for-get-driving-directions-to-a-booking.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-12-support-for-get-driving-directions-to-a-booking.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-13-driving-directions-to-a-booking-bia-bing-maps.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-13-driving-directions-to-a-booking-bia-bing-maps.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route-on-a-day.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-15-support-for-get-driving-directions-for-resource-route-on-a-day-via-bing-maps.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route-on-a-day.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-16-support-Find-Availability.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-15-support-for-get-driving-directions-for-resource-route-on-a-day-via-bing-maps.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-17-Schedule-assistant.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-16-support-Find-Availability.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-17-Schedule-assistant.png)
 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-18-Schedule-board-new-tab-creation-support.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-18-Schedule-board-new-tab-creation-support.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/RS-2021-wave-2-ga-New-SB-Improvements-19-Schedule-board-new-tab-creation.png)
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-19-Schedule-board-new-tab-creation.png)
 
 
 
