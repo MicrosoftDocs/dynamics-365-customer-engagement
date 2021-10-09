@@ -40,7 +40,8 @@ To set up A and B designs for a message:
     - If you haven't yet defined any test for this email, then select the **Add test** button in the A/B test panel.
     - If you already have defined a test, you can modify versions A and B by switching between the versions.
 
-    ![Open the A/B test panel.](media/email-abtest-open-panel.png "Open the A/B test panel")
+    > [!div class="mx-imgBorder"]
+    > ![Open the A/B test panel.](media/email-abtest-button.png "Open the A/B test panel")
 
 1. The parameters of the new test are displayed. Do the following:
     - Set the **Test type** to one of the following:
@@ -49,7 +50,8 @@ To set up A and B designs for a message:
            - **Full content**: Lets you select different subject, "From" name, and one or more design elements in the email body and then change those elements' settings, content, or appearance in the B version of the design.
     - Enter a **Test title** to identify the test. This title is displayed in the **A/B test** panel and in the customer journey email tile when you are choosing which test to run for that journey.
 
-    ![Add a new test.](media/email-abtest-add-test.png "Add a new test")
+    > [!div class="mx-imgBorder"]
+    > ![Add a new test.](media/email-abtest-panel.png "Add a new test")
 
     > [!IMPORTANT]
     > You can define only one new A/B test for the message at a time. It is possible to add a new test only after the previous test has executed.
@@ -65,13 +67,15 @@ To set up A and B designs for a message:
    - For header tests, the parameters being controlled by your selected test (subject and "From" name) show either an **A** icon ![Icon for version A](media/email-abtest-a-icon.png "Icon for version A") or a **B** icon ![Icon for version B.](media/email-abtest-b-icon.png "Icon for version B") to indicate what you are testing and which version is being shown (and editable). The icon changes to match the version button you have selected ( **Version A** or **Version B** ).
    - For body tests, each element being tested shows a colored frame around it (when selected) that matches the color of the version button you have selected (blue for **Version A** or pink for **Version B** ). See the next step for details about how to set this up.
 
-    ![Version buttons, tests, and indicators for a subject test.](media/email-abtest-version-indicators.png "Version buttons, tests, and indicators for a subject test")
+    > [!div class="mx-imgBorder"]
+    > ![Version buttons, tests, and indicators for a header test.](media/email-abtest-header-version.png "Version buttons, tests, and indicators for a header test")
 
 1. Select a test from the **A/B test** panel and then select the **Version B** button. Do one of the following, depending on which type of test you are making:
     - For header tests, the **Subject** and **From name** fields should now show a **B** icon ![Icon for version B.](media/email-abtest-b-icon.png "Icon for version B"). Enter a new subject here or "From" name here.
     - For body tests, add an element to the test by selecting it on the canvas to highlight it and then select the **A/B** button ![Icon for untested body element](media/email-abtest-body-off.png "Icon for untested body element") in the tab at the top of the highlighted frame. This is a toggle button, so you can select it  again to remove an element from the test&mdash;it shows a white background ![Icon for tested body element](media/email-abtest-body-on.png "Icon for untested body element") for elements being tested, and shows a dark-blue background ![Icon for untested body element](media/email-abtest-body-off.png "Icon for untested body element") for elements that are the same for each version. For tested elements, the frame color indicates the version: light-blue for version A and dark-pink for version B. You can add as many elements as you want to the test, but usually it's best just to test just a few elements (or one element) at a time.
 
-    ![Version buttons, tests, and indicators for a body test.](media/email-abtest-body-test.png "Version buttons, tests, and indicators for a body test")
+    > [!div class="mx-imgBorder"]
+    > ![Version buttons, tests, and indicators for a body test.](media/email-abtest-body.png "Version buttons, tests, and indicators for a body test")
 
 1. Now change the design of the item(s) you have enabled for testing. For header tests, edit the appropriate fields' text; for body tests, you can edit text content for text elements or **Property** tab settings for other types of design elements. You can toggle back and forth between versions using the **Version A** and **Version B** buttons and continue to edit each version while it's being displayed.
 
