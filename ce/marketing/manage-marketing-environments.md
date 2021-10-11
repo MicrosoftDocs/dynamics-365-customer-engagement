@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 09/16/2021
+ms.date: 10/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -83,7 +83,6 @@ Because Marketing is more complex than most Dynamics 365 apps and interacts with
 ### Step 1: Prepare your source environment
 
 The _source environment_ is the Marketing environment you are copying _from_. To prepare your source environment for copying, [Open the Power Platform admin center](power-platform-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source environment, as described in [Keep Marketing up to date](apply-updates.md).
-
 
 ### Step 2: Prepare your target environment
 
@@ -208,11 +207,14 @@ To copy a production environment to a support environment:
 
 For standard Dynamics 365 environments (without Marketing installed), you can use the Power Platform admin center to delete or reset an environment. However, if you do have Marketing installed, you should also do the following:
 
-1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](/powerapps/maker/portals/admin/reset-portal). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "Configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
-1. Delete or reset the environment as usual. More information: [Delete environment](/power-platform/admin/delete-environment)
+1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](/powerapps/maker/portals/admin/reset-portal). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as **Configured** in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
+1. Delete or reset the environment as usual. More information: [Delete environment](/power-platform/admin/delete-environment).
 
 > [!NOTE]
 > Your Dynamics 365 Marketing license is automatically released when you delete or reset its environment, so you'll be free to install it on another environment.
+
+> [!WARNING]
+> When you reset a Marketing environment, you *must* choose an app template that enables Dynamics apps. Dynamics apps require a special template that contains prerequisite solutions. If the app template you select does not enable Dynamics apps, you will need to delete the environment and provision the Marketing app into a different environment.
 
 ## Do not change the URL for an environment with Marketing installed
 
