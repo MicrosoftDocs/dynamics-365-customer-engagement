@@ -51,7 +51,7 @@ The skill control is added to the **Case Interactive experience** form. Your age
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
-[Routing and assignment rules](routing-workstream-queues.md)  
+[Configure work classification rule](configure-work-classification.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Set up unified routing](set-up-routing-process.md)  
 
