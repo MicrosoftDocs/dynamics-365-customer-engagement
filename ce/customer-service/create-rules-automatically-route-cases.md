@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 07/28/2021
+ms.date: 10/11/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -122,8 +122,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
     > [!NOTE]
 
-    > - Only one routing ruleset can be active at any point in time. If you try to activate a rule when another rule is active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
-    > - If you want to edit an active routing ruleset, you must deactivate it. To successfully import a solution that includes an active routing ruleset into an organization where a rule exists with the same ID, deactivate the rule in the organization.
+    > If you want to edit an active routing ruleset, you must deactivate it. To successfully import a solution that includes an active routing ruleset into an organization where a rule exists with the same ID, deactivate the rule in the organization.
 
 ## Create a routing ruleset (Customer Service app)
 
