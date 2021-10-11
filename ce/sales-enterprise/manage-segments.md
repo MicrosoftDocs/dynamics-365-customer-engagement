@@ -13,7 +13,7 @@ manager: shujoshi
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security Role** | System Administrator, Sequence Manager, Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 A *segment* is a collection of records that are grouped together based on certain conditions, such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences.
@@ -31,9 +31,7 @@ As a sequence manager, you can use the segment builder to:
 
 ## Review prerequisites  
 
-Before you start, be sure you've met the following prerequisites:
-
--	You have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
+Before you start, be sure you've met the following prerequisite:
 -	The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
 
 <table>

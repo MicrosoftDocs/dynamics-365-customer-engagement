@@ -11,7 +11,15 @@ ms.custom:
 ---
 
 # View product hierarchy (Sales)
-<!--note from editor: I don't think you really want this topic edited? If that 's wrong, please let me know.-->
+
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 A product hierarchy gives you a visual snapshot of the products your organization sells. It makes it easy to see what products are available to sell and how they are connected. With this information at your fingertips, you can take whatever actions you need to on any product from a single place and improve your chances of a sale.  
   
 1. [!INCLUDE[proc_sales_products](../includes/proc-sales-products.md)]  

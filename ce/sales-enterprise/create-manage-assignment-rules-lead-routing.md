@@ -10,6 +10,13 @@ manager: shujoshi
 
 # Manage assignment rules for lead routing
 
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 > [!IMPORTANT]
 > - The enhanced experience for assignment rules for lead routing in sales accelerator is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
@@ -29,14 +36,9 @@ You can use the assignment rules designer to:
 
 ## Review the prerequisites
 
-Before you start, be sure you've met the following prerequisites:
-
--	You have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
-
--	The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
-
--	You've enabled the **Assignment rules for lead routing** feature preview:
-
+Before you start, be sure you've met the following prerequisites:   
+-	The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)   
+-	You've enabled the **Assignment rules for lead routing** feature preview:    
     1.	Sign in to your Dynamics 365 Sales Hub app.  
     2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.   
     3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   

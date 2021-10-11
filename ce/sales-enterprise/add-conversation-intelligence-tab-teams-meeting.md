@@ -10,6 +10,13 @@ manager: shujoshi
 
 # Add a conversation intelligence tab to a Microsoft Teams meeting 
 
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 > [!IMPORTANT]
 > - The enhanced experience of adding a conversation intelligence tab to Microsoft Teams is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
@@ -24,7 +31,6 @@ As a seller, you don't want to move between apps to take notes and identify acti
 Before you start using the Dynamics 365 Sales app, be sure you've met the following prerequisites:
 
 - Conversation intelligence is enabled in your organization. More information: [Microsoft Teams for conversation intelligence](fre-setup-sales-insight-app.md#microsoft-teams-for-conversation-intelligence)
-- You've purchased a Sales Insights license or Dynamics 365 Sales Premium license.
 
 **To add the conversation intelligence tab**
 

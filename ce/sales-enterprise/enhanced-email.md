@@ -16,8 +16,6 @@ manager: annbe
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
 The enhanced email experience in customer engagement apps allows users to compose an email without leaving the record they're working on. With the enhanced email experience, you can:
 
 - Navigate to different pages without losing the email content.

@@ -17,6 +17,14 @@ applies_to:
 
 # Frequently asked questions for Sales Premium
 
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
 ## General
 
 **In which region is Sales Premium available?**<br>

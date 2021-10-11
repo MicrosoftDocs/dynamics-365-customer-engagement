@@ -1,7 +1,7 @@
 ---
 title: "Predefined security roles for Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system."
-ms.date: 04/23/2021
+ms.date: 10/11/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -31,8 +31,8 @@ The predefined security roles for Sales include permissions and access levels th
 | Sales Manager | Users who manage a team of sellers and are responsible for the team's performance. They are also responsible for creating and managing product SKUs, setting sales targets, and projecting sales forecasts. | Sales Enterprise and Sales Premium | Access to product management, sales management, sales forecasting, and goal management. |
 | Sales team member | Users who don't need the full capabilities of an enterprise application. These users will have a dedicated license, use a dedicated app, and get the Sales Team member security role to support their scenario.  More information: [Sales Team Member app for users with Team Member license](sales-team-member.md). | Sales Enterprise and Sales Premium | Access to the Sales Team Member App. Read access to contacts, accounts, leads, and opportunities. Add notes and activities, such as tasks. |
 | Sequence Manager | Sales manager or an equivalent role that creates and manages sequences, segments, and assignment rules for the organization. | Sales Premium | Create, edit, delete, and deactivate the following features in sales accelerator:<br>- Sequences<br>- Segments<br>- Assignment rules |
-| System Administrator |  | Sales Enterprise and Sales Premium |  |
-| System Customizer |  | Sales Enterprise and Sales Premium |  |
+| System Administrator | Users who has full permission to install, configure, upgrade, customize, or administer the environment, including creating, modifying, and assigning security roles. Can view all data in the environment. | Sales Enterprise and Sales Premium | Install, configure, customize, add roles, and much more on features in the application. |
+| System Customizer | Users who has full permission to customize the environment. However, users with this role can only view records for environment entities that they create. | Sales Enterprise and Sales Premium | Create (self), Read (self), Write (self), Delete (self), and Customizations across all features in the application. |
 | Vice President of Sales | Users who typically manage the sales organization for several business units or the entire organization. | Sales Enterprise and Sales Premium | Same permissions as the Sales Manager, except that their scope of access is broader. |
 |  |  |  |  |
 

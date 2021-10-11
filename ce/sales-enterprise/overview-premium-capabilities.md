@@ -11,12 +11,18 @@ manager: shujoshi
 
 # Overview of sales premium
 
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 Sales premium empowers sellers to achieve more to align with today's dynamic and unpredictable environments that organizations operate in. Sales premium helps sellers to:    
 - Become more productive and spend time on valuable activities
 - Build stronger relationships with their customers
 - Stay on top of their pipeline    
-- 
-Sales premium collects data from Dynamics 365 and the entire Microsoft 365 eco-system, and with the power of AI provides insights and recommendations handed in a delightful experience to your sellers.
+- Sales premium collects data from Dynamics 365 and the entire Microsoft 365 eco-system, and with the power of AI provides insights and recommendations handed in a delightful experience to your sellers.
 
 <!-- [Overview premium video] -->	
 

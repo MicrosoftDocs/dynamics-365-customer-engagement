@@ -13,7 +13,7 @@ manager: shujoshi
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 A softphone dialer provides a simple and integrated way to call customers from within Dynamics 365 Sales. When a phone call is made, a Phone Call activity is created in Dynamics 365 Sales. The Phone Call activity captures details such as subject, phone number, and the name of the contacts who made and received the call.
