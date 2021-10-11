@@ -11,7 +11,7 @@ manager: shujoshi
 
 This action generates a PDF document.
 
-> [!IMPORTANT]
+> [!CAUTION]
 > The **ExportPdfDocument** message is [private](/powerapps/developer/data-platform/org-service/use-messages#private-messages). It is therefore unsupported and not intended for 3rd party use.
 
 ## Parameters
