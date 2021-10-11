@@ -23,6 +23,8 @@ The Unified routing report provides routing-specific KPIs and metrics that can b
 
 The report appears as a tab in the Customer Service historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Customer Service Hub. You can access the report in Service. In the site map, select **Customer Service historical analytics**, and then select **Unified routing**.
 
+In Customer Service workspace, select the (+) icon, and then select **Customer Service historical analytics**.
+
 :::image type="content" source="media/cs-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Customer Service.":::
 
 The report can be filtered on the following:
