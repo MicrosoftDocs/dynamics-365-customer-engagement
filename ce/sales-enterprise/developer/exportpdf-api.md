@@ -1,7 +1,7 @@
 ---
 title: "exportPdf Action | MicrosoftDocs"
 description: "Use this topic to understand the parameters, and request and response samples for generating a PDF using the exportPDF action."
-ms.date: 09/08/2020
+ms.date: 10/12/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,6 +10,9 @@ manager: shujoshi
 # exportPdf Action
 
 This action generates a PDF document.
+
+> [!IMPORTANT]
+> The **ExportPdfDocument** message is [private](/powerapps/developer/data-platform/org-service/use-messages#private-messages). It is therefore unsupported and not intended for 3rd party use.
 
 ## Parameters
 
