@@ -2,7 +2,7 @@
 title: "Deactivate accounts or contacts in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to deactivate an account or contact in Dynamics 365 Customer Engagement (on-premises). You can also reactivate it should the need arise."
 ms.custom: 
-ms.date: 05/05/2020
+ms.date: 10/11/2020
 ms.reviewer: 
 ms.prod: d365ce-op
 ms.suite: 
@@ -14,7 +14,6 @@ ms.assetid: 71b20ebb-7ecd-44e9-8de2-1db070cf30cf
 caps.latest.revision: 30
 author: mduelae
 ms.author: anbichse
-manager: brycho
 search.audienceType: 
   - enduser
 ---
@@ -26,7 +25,7 @@ search.audienceType:
 
 In Customer Engagement (on-premises), you deactivate an account or contact rather than deleting it. This ensures the integrity of the audit trail associated with that record.  
   
- When a deactivated account or contact becomes inactive, it cannot be edited. However, it can still be used to establish new relationships with other records. All relationships created with the deactivated item are still available.  
+When a deactivated account or contact becomes inactive, it can still be used to establish new relationships with other records. All relationships created with the deactivated item are still available.
   
  Deactivated accounts can subsequently be reactivated should the need arise.  
   
