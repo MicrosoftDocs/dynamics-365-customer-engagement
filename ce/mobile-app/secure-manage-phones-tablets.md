@@ -29,7 +29,7 @@ With CRM Online 2016 Update 1 and later, you can use Intune mobile application m
 For more information about getting and using Intune, see [Microsoft Intune](/intune/fundamentals/what-is-intune) 
 
 > [!NOTE]
-> Admins can't configure apps to start or run with specific settings enabled and update existing apps already on the device. 
+> Managed app configuration solutions are not supported hence admins can't configure apps to start or run with specific settings enabled.  
   
   
 ## Set up conditional access to Dynamics 365 apps  
