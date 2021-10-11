@@ -498,7 +498,23 @@
       - name: Analyze deals flow between snapshots
         href: analyze-deals-flow-between-snapshots.md
       - name: View snapshots
-        href: view-snapshots.md        
+        href: view-snapshots.md     
+    - name: Campaign management
+      items:
+      - name: Get started with in-app marketing
+        href: get-started-app-marketing-sales.md
+      - name: Create a marketing list
+        href: create-marketing-list-using-app-marketing-sales.md
+      - name: Create a quick campaign
+        href: create-quick-campaign-using-app-marketing-sales.md
+      - name: Add assets to a campaign
+        href: add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md
+      - name: Create or edit a campaign
+        href: create-edit-campaign-using-app-marketing-sales.md
+      - name: Add an activity to a campaign
+        href: add-activity-campaign-using-app-marketing-sales.md
+      - name: Track a marketing campaign response
+        href: track-marketing-campaign-response-using-app-marketing-sales.md             
     - name: Guided selling
       items:
       - name: Sales accelerator
@@ -523,22 +539,6 @@
           href: mark-playbook-completed.md
         - name: Track playbook activities
           href: track-playbook-activities.md
-    - name: Campaign management
-      items:
-      - name: Get started with in-app marketing
-        href: get-started-app-marketing-sales.md
-      - name: Create a marketing list
-        href: create-marketing-list-using-app-marketing-sales.md
-      - name: Create a quick campaign
-        href: create-quick-campaign-using-app-marketing-sales.md
-      - name: Add assets to a campaign
-        href: add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md
-      - name: Create or edit a campaign
-        href: create-edit-campaign-using-app-marketing-sales.md
-      - name: Add an activity to a campaign
-        href: add-activity-campaign-using-app-marketing-sales.md
-      - name: Track a marketing campaign response
-        href: track-marketing-campaign-response-using-app-marketing-sales.md
     - name: Relationship intelligence
       items:
       - name: Assistant
