@@ -98,16 +98,16 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
       - **Add related entity:** Select to add a condition for a specific entity.
 
-      > [!NOTE]
-      > The following limitations are applicable when defining a rule criteria in Customer Service Hub:
-
-      > - You can’t select a time value for the Date and Time data type. If you try to edit an existing rule item that was created in the web client, the time will be set to 00:00.
-      > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
-      > - The related entity inside a group of the and/or clause is not supported.
-      > - By design, the attribute with "Multi Select Option Set" data type is not supported.
-      > - The "in" and "not in" operators for the Single Line of Text and Multiple Lines of Text data types and the "not-on" operator for the Date data type are not supported.
-      > - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported.
-      > - In the Add related entity list, the "One to Many" and "Many to Many" options are not supported even though the application lets you select them.
+        > [!NOTE]
+        > The following limitations are applicable when defining a rule criteria in Customer Service Hub:
+        >
+        > - You can’t select a time value for the Date and Time data type. If you try to edit an existing rule item that was created in the web client, the time will be set to 00:00.
+        > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
+        > - The related entity inside a group of the and/or clause is not supported.
+        > - By design, the attribute with "Multi Select Option Set" data type is not supported.
+        > - The "in" and "not in" operators for the Single Line of Text and Multiple Lines of Text data types and the "not-on" operator for the Date data type are not supported.
+        > - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported.
+        > - In the Add related entity list, the "One to Many" and "Many to Many" options are not supported even though the application lets you select them.
 
     c. In **Action** > **Route to**, select queue or user/team.
 
@@ -121,7 +121,6 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 7. In the **Routing Rule Set** record, select **Activate**. The ruleset is applied to cases that match the conditions in the rule.
 
     > [!NOTE]
-
     > If you want to edit an active routing ruleset, you must deactivate it. To successfully import a solution that includes an active routing ruleset into an organization where a rule exists with the same ID, deactivate the rule in the organization.
 
 ## Create a routing ruleset (Customer Service app)
