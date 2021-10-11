@@ -34,4 +34,4 @@ In these reports, you can view the performance of the routed items, queues, and 
 
 [Historical analytics for unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  
-[Routing diagnostics for unified routing](unified-routing-diagnostics.md)  
+[Diagnostics for unified routing](unified-routing-diagnostics.md)  
