@@ -121,7 +121,10 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 7. In the **Routing Rule Set** record, select **Activate**. The ruleset is applied to cases that match the conditions in the rule.
 
     > [!NOTE]
-    > If you want to edit an active routing ruleset, you must deactivate it. To successfully import a solution that includes an active routing ruleset into an organization where a rule exists with the same ID, deactivate the rule in the organization.
+    >
+    > - When unified routing is not enabled, only one routing ruleset can be active at a time. If you try to activate a rule when another rule is active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
+    > - If you want to edit an active routing ruleset, you must deactivate it. To successfully import a solution that includes an active routing ruleset into an organization where a rule exists with the same ID, deactivate the rule in the organization.
+
 
 ## Create a routing ruleset (Customer Service app)
 
