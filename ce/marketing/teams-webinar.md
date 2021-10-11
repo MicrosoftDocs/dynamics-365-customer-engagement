@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 10/06/2021
+ms.date: 10/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -91,10 +91,6 @@ Read more: [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-
 | Teams meeting owner          | The user who created the webinar in Marketing. The Teams meeting owner is designated as the owner of the event in Teams. Changing the owner of the event record in Marketing does not change the owner of the webinar in Teams. Any change to the event record in Marketing will only reflect in Teams when done by the owner or when they select **Sync to Teams**. | Sign in as this user in Dynamics 365 Marketing and create a new event with a webinar or meeting stream. |
 | Presenter                    | In a Teams webinar, a presenter is a person who presents audio, video, or a screen to the live event, or moderates the Q&A. Presenters can only share audio, video, or a screen (desktop or window) in webinars produced in Teams.| If you want to invite another person to present to the webinar, add them to the event or the session as a speaker. To add the person as a speaker, create a speaker engagement at the event (or session) level. The speaker is added as the “presenter” for the webinar. Ensure that the speaker email ID is filled in.
 
-> [!Important]
->
-> **Join in Teams** buttons generated in the Dynamics 365 Marketing email editor *cannot* be used for sending webinar links to Presenters or Producers. Buttons generated in the email editor only work for attendees. Presenters or Producers can access the webinar by following the custom link in their calendar or in the Marketing app by going to **Events** > **Streaming URL**.
-
 **Invite a guest to present in a webinar**
 
 - Ensure that the guest user is added to your Teams instance. You only have to do this once. Learn more about adding guest users: [Guest to present](/microsoftteams/teams-live-events/plan-for-teams-live-events#guest-to-present)
@@ -141,7 +137,7 @@ More information on details and settings for Teams live events: [Schedule a Team
 
 > [!Important]
 >
-> **Join in Teams** buttons generated in the Dynamics 365 Marketing email editor *cannot* be used for sending webinar links to Presenters or Producers. Buttons generated in the email editor only work for attendees. Presenters or Producers can access the webinar by following the custom link in their calendar or in the Marketing app by going to **Events** > **Streaming URL**.
+> **Join in Teams** buttons generated for in the Dynamics 365 Marketing email editor *cannot* be used for sending live event links to Presenters or Producers. Buttons generated in the email editor only work for attendees. Presenters or Producers can access the live event by following the custom link in their calendar or in the Marketing app by going to **Events** > **Streaming URL**.
 
 **Notes**:
 
