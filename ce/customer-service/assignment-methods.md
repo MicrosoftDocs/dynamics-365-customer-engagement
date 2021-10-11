@@ -47,10 +47,9 @@ Assignment cycle is prioritization of work items, their selection, and their ass
 The assignment cycle starts with one of the following triggers:
 
 - Arrival of a new work item in the queue.
-- Changes in the availability of the agent workforce.
 - Change to agent presence.
 - Updates to agent capacity.
-- Addition of agent to the queue.
+- Addition of an agent to the queue.
 - Periodic trigger every five minutes for record type of work item.
 
 
