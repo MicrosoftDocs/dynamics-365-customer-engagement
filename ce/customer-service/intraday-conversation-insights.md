@@ -108,7 +108,7 @@ First response time is calculated as the difference between the first message fr
 
 Response time is the difference between the earliest message from the customer and the earliest response from the agent, excluding the first message and response from the customer and agent respectively.
 
-For example, a customer sends a message "Hello" at 2:20 PM and another message "I have a problem" at 2:21 PM. The agent responds to the first message as "Hello, how may I help you?" at 2:21 PM and responds to second message with "What is the issue you are facing?" at 2:23 PM. The first response time will be the difference between 2:20 PM and 2:21 PM, which is one minute. Response time will be the difference between 2:21 PM and 2:23 PM, which is two minutes.
+For example, a customer sends a message "Hello" at 2:20 PM and another message "I have a problem" at 2:21 PM. The agent responds to the first message as "Hello, how may I help you?" at 2:21 PM and responds to second message with "What is the issue you are facing?" at 2:23 PM. The first response time will be the difference between 2:20 PM and 2:21 PM, which is one minute.
 
 The first response time and response time is calculated by keeping different factors into account. If operating hours are defined on the queue, the wait period of the out-of-operating hours is not considered in the response time. For example, an organization's operating hours are from 9:00 AM to 5:00 PM. When a chat is initiated by a customer at 8:55 AM, and agent responds at 9:05 AM. The response time will be considered as five minutes and not consider the five minutes that were outside of the operating hours.
 
