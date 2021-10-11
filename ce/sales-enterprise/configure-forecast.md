@@ -64,15 +64,14 @@ Also, you can observe the following changes in the **Sales Hub** app:
 
 ## Configure a forecast     
 To configure a forecast in your organization, follow these steps:    
-1.	[Review the prerequisite tasks](#prerequisite-tasks)    
-2.	[Select a template](select-template-forecast.md)     
-3.	[Define general properties and scheduling](define-general-properties-scheduling-forecast.md)   
-4.	[Provide viewing permissions](provide-permissions-forecast.md)    
-5.	[Choose layout and columns](choose-layout-and-columns-forecast.md)    
-6.	[Apply additional filter](add-additional-filters.md)     
-7.	[Configure and manage drill-down entities](configure-manage-drill-downs.md)    
-8.	[Configure advanced settings](forecast-configure-advanced-settings.md)    
-9.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
+1.	[Select a template](select-template-forecast.md)     
+2.	[Define general properties and scheduling](define-general-properties-scheduling-forecast.md)   
+3.	[Provide viewing permissions](provide-permissions-forecast.md)    
+4.	[Choose layout and columns](choose-layout-and-columns-forecast.md)    
+5.	[Apply additional filter](add-additional-filters.md)     
+6.	[Configure and manage drill-down entities](configure-manage-drill-downs.md)    
+7.	[Configure advanced settings](forecast-configure-advanced-settings.md)    
+8.	[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 
 >[!IMPORTANT]
 >This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
