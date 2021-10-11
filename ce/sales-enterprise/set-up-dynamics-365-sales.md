@@ -16,16 +16,6 @@ manager: shujoshi
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-## Requirements
-
-|  | |
-|-----------------------|---------|
-| **Applies to** | This topic applies to Sales Enterprise, Sales Premium, and Sales Professional products.|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System administrator or tenant administrator <br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
-|||
-
 ## Steps to set up sales environment
 To set up Dynamics 365 Sales, you must complete these general steps.
 
