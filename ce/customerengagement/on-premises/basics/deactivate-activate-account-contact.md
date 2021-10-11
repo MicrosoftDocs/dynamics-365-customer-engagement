@@ -57,7 +57,7 @@ When a deactivated account or contact becomes inactive, it can still be used to 
 
 In Customer Engagement (on-premises), you deactivate an account or contact rather than deleting it. This ensures the integrity of the audit trail associated with that record.  
   
- When a deactivated account or contact becomes inactive, it cannot be edited. However, it can still be used to establish new relationships with other records. All relationships created with the deactivated item are still available.  
+When a deactivated account or contact becomes inactive, it can still be used to establish new relationships with other records. All relationships created with the deactivated item are still available.
   
  Deactivated accounts can subsequently be reactivated should the need arise.  
   
