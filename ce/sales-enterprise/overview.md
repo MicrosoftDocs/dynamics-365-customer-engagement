@@ -10,14 +10,6 @@ manager: shujoshi
 ---
 # Overview of Dynamics 365 Sales 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | All <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Here's a short video to help you understand the power of leveraging Dynamics 365 Sales in your organization:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
@@ -150,10 +142,6 @@ The Microsoft Relationship Sales solution combines LinkedIn Sales Navigator with
 ### Dynamics 365 Sales Professional
 
 The Sales Professional app is similar to the Sales Hub app, but the entities included in the Sales Professional app are a subset of the entities included in the Sales Enterprise. More information: [Overview of Dynamics 365 Sales Professional](../sales-professional/sales-professional-overview.md)
-
-  > [!NOTE]
-  > For mobile devices, you'll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
-
 
 ## Integrations
 

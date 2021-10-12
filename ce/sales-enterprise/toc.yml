@@ -7,8 +7,6 @@
     href: whats-new.md
   - name: Removed or deprecated features
     href: deprecations-sales.md    
-  - name: Predefined security roles for Sales
-    href: security-roles-for-sales.md  
   - name: Sign up, install, and manage
     items:
     - name: Sign up for a free sales trial
@@ -43,6 +41,8 @@
         href: system-settings-sales-tab.md
       - name: Create business units
         href: /power-platform/admin/create-edit-business-units?context=/dynamics365/context/sales-context
+      - name: Predefined security roles for Sales
+        href: security-roles-for-sales.md    
       - name: Create users and assign security roles
         href: /power-platform/admin/create-users-assign-online-security-roles
       - name: Set up sales territories
@@ -860,6 +860,24 @@
         href: retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md
     - name: Privacy notice
       href: privacy-notice.md   
+  - name: Learning Catalog
+    items: 
+    - name: Learning Catalog
+      href: learning-catalog.md
+    - name: Business Decision Maker
+      href: learning-bdm.md
+    - name: Business User
+      href: learning-bus-user.md
+    - name: Implementation Project Manager
+      href: learning-project-manager.md
+    - name: Administrator
+      href: learning-administrator.md
+    - name: Developer
+      href: learning-developer.md
+    - name: Functional Consultant
+      href: learning-functional-consultant.md
+    - name: Partner Sales and Marketing
+      href: learning-sales.md        
   - name: Troubleshooting and FAQs
     items:
     - name: Dynamics 365 Sales Troubleshooting guide
