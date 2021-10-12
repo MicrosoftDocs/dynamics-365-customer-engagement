@@ -1,5 +1,5 @@
 ---
-title: "Preview: Natural language use in segments (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Use natural language to create segments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Example marketing segments to show various capabilities of Natural Language Query in Dynamics 365 Marketing."
 ms.date: 06/10/2021
 ms.service: dynamics-365-marketing
@@ -18,14 +18,9 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Natural language use in segments
+# Use natural language to create segments
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4IQy2" frameborder="0" allowfullscreen=""></iframe></div>
-
-> [!IMPORTANT]
-> [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 > [!NOTE]
 > You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the **Natural Language queries for Segmentation** functionality under **Segmentation** before you are able to access it.

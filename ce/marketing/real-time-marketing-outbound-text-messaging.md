@@ -1,7 +1,7 @@
 ---
 title: "Create outbound text messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create outbound text messages for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 08/03/2021
+ms.date: 10/11/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,23 +18,18 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Create outbound text messages
+# Create outbound text messages
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
-Text messages (SMS) allow you to reach customers directly on their mobile devices. You can send text messages from real-time marketing by generating a phone number to use within the app.
-
-It's important to remember that real-time marketing sends *outbound* text messages, meaning the Dynamics 365 Marketing app doesn't track responses except for compliance-related keywords such as "STOP." Marketing also does not currently manage replies. As [discussed below](real-time-marketing-outbound-text-messaging.md#track-your-text-message-metrics-from-channel-insights), however, the app does track text messaging metrics for channel insights purposes.
+Text messages (SMS) allow you to reach customers directly on their mobile devices. You can send text messages from real-time marketing by generating a phone number to use within the app. This article explains how to add a phone number generated in the Azure Communication Services preview, in Twilio, or in TeleSign and how to create text messages in real-time marketing.
 
 > [!NOTE]
-> For the duration of the preview, following the roll-out of Azure Communication Services, text messaging is only supported in the countries listed below.
+> Text messaging using a toll free number generated in the Azure Communication Services preview is only supported in the countries listed below.
 >
 >| Supported countries | Supported type | Legal designation | Range    |
 >|---------------------|----------------|-------------------|----------|
 >| United States                 | Toll-free      | Transactional     | Domestic |
+
+It's important to remember that real-time marketing sends *outbound* text messages, meaning the Dynamics 365 Marketing app doesn't track responses except for compliance-related keywords such as "STOP." Marketing also does not currently manage replies. As [discussed below](real-time-marketing-outbound-text-messaging.md#track-your-text-message-metrics-from-channel-insights), however, the app does track text messaging metrics for channel insights purposes.
 
 ## Generate a sender phone number
 
