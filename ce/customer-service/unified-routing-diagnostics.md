@@ -100,7 +100,7 @@ If no queue matches the requirement, the work item is assigned to the default qu
 
 ### Prioritization
 
-The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. For more information, see : [Routing and assignment rules](routing-workstream-queues.md)
+The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. For more information, see : [Configure assignment methods and rules for queues](configure-assignment-rules.md)
 
 ### Assignment selection
 
@@ -118,4 +118,5 @@ Each work item is assigned to an agent or is sent to a queue based on the **Assi
 [Routing and assignment rules](routing-workstream-queues.md)  
 [Historical analytics for unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  
+[Configure work classification rules](configure-work-classification.md)  
 

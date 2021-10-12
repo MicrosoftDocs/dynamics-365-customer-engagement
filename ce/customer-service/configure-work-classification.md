@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 10/07/2021
+ms.date: 10/11/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,6 +24,9 @@ You will do the tasks listed in this article in the Omnichannel admin center or 
 
 In unified routing, work classification lets you define rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
 
+Typically, rules are written in the format of "if defined condition satisfies, then set the output attributes to certain values," but can also be surfaced through machine learning models. They are optional and can be used to add additional information to the incoming work items that are then used for more precise routing and assignment.
+
+Work classification rules can be written by using the manual declarative decision list or by using machine learning models.
 
 > [!IMPORTANT]
 > You can create 10 rulesets per workstream, and for each ruleset, you can create up to 100 rule items.
@@ -42,7 +45,7 @@ For a rule item, you can set the output values for up to five attributes.
 
 ## Create work classification rulesets
 
-Routing rules are written as rulesets that consist of rule items.
+Manual classification rules are run to update work item attributes. They are written in the format of "if defined condition satisfies, then set the output attributes to certain values." You can create conditions to define rules based on multiple entity attributes. Routing rules are written as rulesets that consist of rule items.
 
 To create a manual work classification ruleset, do the following steps:
 
@@ -63,6 +66,8 @@ To create a manual work classification ruleset, do the following steps:
    ![Decision list for manual ruleset.](media/ur-decision-list-manual.png "Decision list for manual ruleset")
 
 ## Create manual skill classification rulesets
+
+Skill attachment rules are a sub-type of manual work classification rules and are defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
 
 Follow these steps to create a manual skill classification ruleset:
 
@@ -90,6 +95,8 @@ Create work classification rulesets that are based on capacity profiles to route
    > ![Capacity profile-based work classification rule.](media/capacity-profile-based-rule.png "Capacity profile-based work classification rule.")
 
 ## Create machine learning-based skill classification rulesets
+
+Machine learning model-based rules are a sub-type of work classification rules, and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of the intelligent skill finder bootstrapping experience. They are written in the format of "send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item."
 
 To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)
 
@@ -127,6 +134,8 @@ You can create rules that are based on the sentiment prediction model to classif
 You can create rules that are based on the effort estimation model to classify work items. More information: [Use effort estimation](use-effort-estimation-for-routing.md).
 
 ## Configure route-to-queues rulesets and rules
+
+Queue routing rules send the work item to the right queue. They are written in the format of, "If defined condition satisfies, then route the work item to the defined queue." They are optional, and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a workstream, the route-to-queue ruleset is run after all of the work classification rulesets are run. A workstream can have only one route-to-queues ruleset.
 
 After you configure the route-to-queues rulesets and rules, during runtime, to assign a work item to a queue, the system matches the rule conditions and operating hours of the corresponding queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then, the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is assigned to the queue that will be operational at the earliest.
 

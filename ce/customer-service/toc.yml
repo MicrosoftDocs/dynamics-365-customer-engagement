@@ -228,8 +228,6 @@
         href: overview-unified-routing.md
       - name: How to set up unified routing
         href: set-up-routing-process.md
-      - name: Routing and assignment rules
-        href: routing-workstream-queues.md
     - name: Administrator experience
       items:
       - name: Create and manage workstreams
