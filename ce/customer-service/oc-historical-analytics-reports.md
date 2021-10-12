@@ -59,13 +59,13 @@ The service managers must have either the Omnichannel administrator, Omnichannel
 
 ### Provide report access to additional security roles
 
-If your organization needs to enable users with different privileges to access the reports beyond the default ones, the following steps outline how to share the reports to additional roles.
+If your organization needs to enable users with different privileges to access the reports beyond the default ones, you can perform the following steps to share the reports to the additional roles.
 
 1. In Dynamics 365, select **Settings**, and then select **Advanced Settings**.
 
 2. On the page that appears, select **Security**, and then select **Security roles**.
 
-3. Select the security role that you want to provide access for. For example, Omnichannel supervisor.
+3. Select the security role that you want to provide access to. For example, Omnichannel supervisor.
 
 4. Select the **Custom Entities** tab, and then select an entity, for example "Omnichannel historical analytics".
 

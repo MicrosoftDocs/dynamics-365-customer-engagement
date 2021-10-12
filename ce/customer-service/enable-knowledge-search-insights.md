@@ -49,7 +49,7 @@ If your organization needs to enable users with different privileges to access t
 
 2. On the page that appears, select **Security**, and then select **Security roles**.
 
-3. Select the security role that you want to provide access for. For example, Omnichannel supervisor.
+3. Select the security role that you want to provide access to. For example, Omnichannel supervisor.
 
 4. Select the Custom Entities tab, and then select an entity, for example "Knowledge search analytics".
 
