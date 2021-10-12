@@ -139,7 +139,7 @@ Placeholder 2 true:
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-condition-denmark-false.png)
 
-## Lists of Content
+## Lists of content
 
 Lists (each) statements allow you to format and display repeated content for a given table. You can add the code required to create these statements in the designer or in the HTML view. You can then use the placeholder dialog to specify the list to be evaluated including the number of rows to display and the order to display them in.
 

@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 10/05/2021
+ms.date: 10/12/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -31,8 +31,61 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### October 2021 update
 
+The Dynamics 365 Marketing October 2021 update includes a new Content ideas feature that uses AI to kickstart email creation, unlocking of the SMS channel for users outside of the United States, revamped A/B testing for the outbound marketing email editor, the ability to include lists of related data in personalized emails, general performance upgrades, bug fixes, and more.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10077.2005 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
 > [!Important]
-> In the October update, we're launching a new email editor to improve the ease and efficiency of creating emails. If you're currently using consultant/developer (UI) customizations, you'll need to recreate them in the new editor.
+> The October update shifts all users to the new outbound marketing email editor to improve the ease and efficiency of creating emails. If you're currently using consultant/developer (UI) customizations, you'll need to recreate them in the new editor.
+
+#### Preview feature
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+- **Use AI-powered suggestions to automatically generate content for emails** *(limited to outbound marketing users in North American regions)*
+    - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/create-email-content-easily-efficiently-ai-based-content-ideas)
+    - [Docs](content-ideas.md)
+
+#### General availability enhancements
+
+- **Use natural language to create targeted segments in outbound marketing**
+    - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/use-natural-language-create-targeted-segments)
+    - [Docs](real-time-marketing-natural-language.md)
+- **Optimize the performance of emails in the new outbound marketing email editor with A/B testing**
+    - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/new-email-editor-ab-testing)
+    - [Docs](email-a-b-testing.md)
+- **Send SMS messages using Twilio and TeleSign integration**
+    - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/send-sms-messages-using-twillio-telesign-integration)
+    - [Docs](real-time-marketing-outbound-text-messaging.md)
+- **Personalize emails to include lists of related data**
+    - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/personalize-emails-include-lists-related-data)
+    - [Docs](real-time-marketing-personalization.md#lists-of-content)
+
+#### Monthly enhancements
+
+- **Event management**
+    - Microsoft Teams now includes an **Allow external presenters** switch, allowing anonymous presenters. This means that event planners no longer need to add presenters as guest users in Marketing-created live events.
+- **First run experience**
+    - Power Apps portal installation failures no longer prevent Dynamics 365 Marketing app provisioning. Now, Marketing users can install a Power Apps portal when they choose.
+    - Real-time marketing is now installed with solutions-only installations.
+- **Marketing emails**
+    - All users will now experience the new outbound marketing email editor, which provides enhanced performance and a bigger canvas.
+    - The outbound marketing and real-time marketing email editors now include a **Don't wrap in mobile option** for email sections for more accurate rendering.
+    - Content blocks are available in the new outbound marketing email editor.
+- **Real-time marketing**
+    - Live customer journeys can now be updated by creating a new version.
+    - The journey designer and the content designer UI is more consistent, improving navigation and workflow.
+    - Event-based journeys that target Customer Insights profile can be started even if the customer’s full profile is not available. Customers without a full profile will start the journey immediately using defaults for any missing profile data.
 
 ### September 2021 update
 
