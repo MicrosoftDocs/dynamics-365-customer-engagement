@@ -1,7 +1,7 @@
 ---
 title: Diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 10/07/2021
+ms.date: 10/12/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -100,7 +100,7 @@ If no queue matches the requirement, the work item is assigned to the default qu
 
 ### Prioritization
 
-The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. For more information, see : [Routing and assignment rules](routing-workstream-queues.md)
+The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. For more information, see : [Configure assignment methods and rules for queues](configure-assignment-rules.md)
 
 ### Assignment selection
 
@@ -110,11 +110,13 @@ Assignment rule sets contain conditions that determine which work items are assi
 
 Each work item is assigned to an agent or is sent to a queue based on the **Assignment** rule set. Assignment rule sets contain conditions for which work items need to be assigned to agents.
 
-
 ### See also
 
 [Overview of skill based routing](overview-skill-work-distribution.md)  
 [Assignment methods for Queues](assignment-methods.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Routing and assignment rules](routing-workstream-queues.md)  
+[Historical analytics for unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
+[Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  
+[Configure work classification rules](configure-work-classification.md)  
 

@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service | Microsoft Docs
 description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
-ms.date: 07/01/2021
+ms.date: 10/12/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -51,28 +51,17 @@ The following table displays the elements of the Customer Service workspace.
 | 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 |||
 
-## Navigate and view records
 
-By default, you can use the following navigation options to open and view cases, accounts, and other details on the Customer Service Agent Dashboard:
+### Navigate Customer Service workspace
 
-- Select Shift while clicking to open a new session tab for the record you want to open. 
-- Select the record to replace your view with the form for the record you opened. 
-- Select the back arrow in the upper-left corner of the form to get back to your previous view. 
-- Select Ctrl while clicking to open items on a new tab. 
+From the **Home** session, you can select a record in the following ways and open it as a new session:
 
-However, an administrator can configure settings that allow for simpler navigation options that don't require you to use complex keyboard selections. The administrator can perform the steps in the following section to enable these settings. 
-
-### Use simplified navigation
-
-When an administrator enables simplified navigation, the navigation options will have the following characteristics.
-
-- From the **Home** session, you can select a record in the following ways and open it as a new session (you'll see the records you opened on the left pane):
-
-  - Select a record in a view to open the record in a new session.
-  - Select a record in a dashboard to open the record in a new session.
-  - Select a record from a queue to open the record in a new session.
-  - Create a new record in a view&mdash;select **New** to open the entity form in a new session.
-
+- Select a record in a view to open the record in a new session.
+- Select a record in a dashboard to open the record in a new session.
+- Select a record from a queue to open the record in a new session.
+- Create a new record in a view&mdash;select **New** to open the entity form in a new session.
+- Select a case. The case record opens on a session tab.
+- Select the customer in the case. The customer record opens on an application tab
 - When you use global search, you can:
 
   - Search records and open a list of all the retrieved records on a new tab. 
@@ -91,138 +80,12 @@ When an administrator enables simplified navigation, the navigation options will
 
 - Selecting Shift while clicking overrides the new, simplified navigation  and opens the record in a new session. Selecting Ctrl while clicking overrides the simplified navigation and opens the record on a new tab.
 
-**To explore simplified navigation after it's configured**
+### Disable the close session dialog
 
-1. Open Customer Service workspace.
-
-2. On the Customer Service Agent Dashboard, perform the following actions:
-
-   - Select a case. The case record opens on a session tab.
-   - Select the customer in the case. The customer record opens on an application tab.
-  
-
-
-### Admin: Configure the simplified navigation experience
-
-> [!IMPORTANT]
-> You must have the System Administrator role to run this utility.
-
-**To copy the code for the utility**
-
-1. Sign in to Dynamics 365.
-
-1. Select **F12** to open the developer tools.
-
-1. Copy the following code, and paste it on the **Console** tab of the developer tools.
-
-```
-/**
-* Utility to manage app settings
-*/
-class AppSettingUtility {
-    static origin = Xrm.Utility.getGlobalContext().getClientUrl();
-    static webApiUrl = `${this.origin}/api/data/v9.0/`;
-
-    /**
-     * Updates an app setting to the specified value
-     * @param {*} setting the setting to update
-     * @param {*} value value to set for the setting
-     * @param {*} app (optional) if specified will update for individual app, if omitted then will update for all apps
-     */
-    static updateAppSetting(setting, value, app) {
-        const data = {
-            SettingName: setting,
-            Value: value.toString(),
-        };
-
-        if (app !== undefined) {
-            data.AppUniqueName = app;
-        }
-
-        // makes a call to SaveSettingValue to update an app setting
-        console.log("Attempting update...");
-        $.ajax({
-            url: this.webApiUrl + "SaveSettingValue()",
-            type: 'POST',
-            contentType: 'application/json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json; charset=utf-8',
-                'OData-MaxVersion': '4.0',
-                'OData-Version': '4.0',
-            },
-            data: JSON.stringify(data),
-            success: function () {
-                // update was successful
-                console.log(`The app setting '${setting}' was successfully updated to '${value}' for '${app !== undefined ? app : 'all app modules'}'`);
-            },
-            error: function (error) {
-                // update failed
-                console.log("An error occurred while trying to update the app setting. Please try again.");
-                console.log(error);
-            }
-        });
-    }
-}
-
-/**
-* App module utility class
-*/
-class AppModuleUtility {
-    static app;
-
-    /**
-     * Updates an app setting for the individual app module
-     * @param {string} setting the setting to update
-     * @param {*} value value to set for the setting
-     */
-    static updateAppSetting(setting, value) {
-        AppSettingUtility.updateAppSetting(setting, value, this.app);
-    }
-
-    /**
-     * Updates the multisession navigation improvements setting
-     * @param {boolean} value value to set for the setting
-     */
-    static setMultisessionNavigationImprovementsSetting(value = true) {
-        const setting = "msdyn_MultisessionNavigationImprovements";
-        this.updateAppSetting(setting, value);
-    }
-}
-
-/**
-* App module utility for Customer Service workspace app
-*/
-class CSWAppUtility extends AppModuleUtility {
-    static app = "msdyn_customerserviceworkspace";
-}
-
-/**
-* App module utility for Omnichannel for Customer Service app
-*/
-class OCAppUtility extends AppModuleUtility {
-    static app = "OmniChannelEngagementHub"; 
-}
-   ```
-
-**To turn on the simplified navigation settings**
-
-- Run one of the following commands at the console window:
-
-  - For Customer Service workspace:
-
-   `CSWAppUtility.setMultisessionNavigationImprovementsSetting();` 
-
-  - For Omnichannel for Customer Service:
-
-   `OCAppUtility.setMultisessionNavigationImprovementsSetting();`
-
-  - For both the multisession apps:
-
-   `AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);`
-
-> [!NOTE]
-> To turn off the navigation settings, run the command by using the `false` option.
+1.	Sign in to Dynamics 365.
+2.	Select F12 to open the developer tools.
+3.	Run the following command at the console window:
+    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)
 
 
 ### Work with cases
@@ -277,11 +140,11 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace bulk edit activities" border="false":::
 
 | Label | Description|
------------- | -------------
-| 1 | Select multiple activities to work with. Select the top check mark to choose all, or select individual check boxes next to each activity to select a specific group of activities.
-| 2 | Edit selected activities. 
-| 3 | Delete selected cases. 
-| 4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. 
+|------------ | -------------|
+| 1 | Select multiple activities to work with. Select the top check mark to choose all, or select individual check boxes next to each activity to select a specific group of activities.|
+| 2 | Edit selected activities. |
+| 3 | Delete selected cases. |
+| 4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. |
 |||
 
 ### Create and search knowledge articles

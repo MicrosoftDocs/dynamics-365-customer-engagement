@@ -228,8 +228,6 @@
         href: overview-unified-routing.md
       - name: How to set up unified routing
         href: set-up-routing-process.md
-      - name: Routing and assignment rules
-        href: routing-workstream-queues.md
     - name: Administrator experience
       items:
       - name: Create and manage workstreams
@@ -286,6 +284,8 @@
         href: unified-routing-diagnostics.md
     - name: Supervisor experience
       items:
+      - name: View historical analytics reports
+        href: supervisor-historical-analytics.md
       - name: Access diagnostics for unified routing
         href: supervisor-access-diagnostics.md
     - name: Agent experience

@@ -42,7 +42,15 @@ You can also create your own assignment method to suit the business needs.
 
 ### Assignment cycle
 
-Assignment cycle is prioritization of work items, their selection, and their assignment to the best-suited agent based on the assignment rules. An assignment cycle starts with one of the many triggers, including the arrival of a new work item in the queue or changes in the availability of the agent workforce associated with that queue. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
+Assignment cycle is prioritization of work items, their selection, and their assignment to the best-suited agent based on the assignment rules. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
+
+The assignment cycle starts with one of the following triggers:
+
+- Arrival of a new work item in the queue.
+- Change to agent presence.
+- Updates to agent capacity.
+- Addition of an agent to the queue.
+- Periodic trigger every five minutes for record type of work item.
 
 
 ## How prioritization rulesets work
