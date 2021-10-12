@@ -262,6 +262,10 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
+      - name: Use sentiment prediction-based routing
+        href: use-sentiment-prediction-for-routing.md
+      - name: Use effort estimation model for routing
+        href: use-effort-estimation-for-routing.md
       - name: Configure basic routing
         items:
         - name: Create and manage basic queues for cases
@@ -280,6 +284,10 @@
           href: persona-privilege-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
+    - name: Supervisor experience
+      items:
+      - name: Access diagnostics for unified routing
+        href: supervisor-access-diagnostics.md
     - name: Agent experience
       items:
       - name: Route records manually using unified routing
@@ -412,6 +420,8 @@
         href: set-up-search-providers.md
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
+      - name: Create and manage knowledge articles 
+        href: customer-service-hub-user-guide-knowledge-article.md
       - name: Configure the knowledge article authoring language
         href: set-knowledge-article-authoring-language.md
       - name: Configure the origin allow list for knowledge articles
@@ -436,8 +446,6 @@
         href: oc-search-knowledge-articles.md
     - name: Agent experience
       items: 
-      - name: Create and manage knowledge articles
-        href: customer-service-hub-user-guide-knowledge-article.md
       - name: Search for knowledge articles
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
@@ -692,6 +700,8 @@
         href: enable-sound-notifications.md
       - name: Enable missed notifications
         href: manage-missed-notifications.md
+      - name: Enable automatic update of presence on rejection of work assignment
+        href: enable-agent-reject-notifications.md
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
@@ -790,6 +800,8 @@
           href: agent-dashboard-cs.md
         - name: Case Topics dashboard
           href: case-topics-dashboard-cs.md
+        - name: Historical analytics for unified routing in Customer Service
+          href: cs-historical-analytics-unified-routing.md
         - name: Omnichannel conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
@@ -800,6 +812,8 @@
           href: oc-bot-dashboard.md
         - name: Omnichannel Conversation topic dashboard
           href: oc-conversation-topics-dashboard.md
+        - name: Historical analytics for unified routing in Omnichannel for Customer Service
+          href: oc-historical-analytics-unified-routing.md  
       - name: Knowledge search analytics dashboard
         href: knowledge-search-analytics-cs.md
       - name: View analytics dashboards created in Power BI
@@ -960,6 +974,8 @@
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
+    - name: Migration changes for new Omnichannel messaging platform
+      href: migrate-acs.md
     - name: Migrate service scheduling
       items: 
       - name: Introduction to service scheduling migration
