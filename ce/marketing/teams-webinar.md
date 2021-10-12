@@ -106,7 +106,7 @@ To view the engagement data, prior to the webinar, send an email invite to webin
 Ten minutes after the end of the webinar (based on the end date configured in the Marketing app), the system will automatically populate the engagement data for attendees.
 
 > [!IMPORTANT]
-> Organizations that manage their Teams user policies need to make sure that the admin enables the **allowTrackingInReport** and **allowEngagementReport** policies before synchronizing the engagement data. For more information, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+> Organizations that manage their Teams user policies need to make sure that the admin enables the **allowTrackingInReport** and **allowEngagementReport** policies before synchronizing the engagement data. For more information, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ### Teams meetings
 
