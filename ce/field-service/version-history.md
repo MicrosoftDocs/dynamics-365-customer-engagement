@@ -59,9 +59,16 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 This release is a hotfix on Field Service version [8.8.52.121](/dynamics365/field-service/version-history#8852121).
 
+- Fixed bug causing issue loading preview of an inspection template in certain scenarios.
+
 ## 8.8.52.121 (2021 Wave 2 release)
 
 (Includes Universal Resource Scheduling version [3.12.64.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126446)).
+
+- Added a product deletion validation with dialog when the product is associated with purchase orders that must be deleted before the product can be deleted.
+- Better save experience on booking dialog to address save being blocked by pending booking status validations.
+- Fix bug where the **Export Selected Records** command was not available when multiple items were selected in the work order list view.
+- Knowledge articles ("Linked Articles") sub-grid has been moved below **Resolutions** sub-grid on the bookable resource booking services tab in the Field Service (Dynamics 365) mobile app.
 
 ## 8.8.51.168 (2021 Wave 2 early access, update 2)
 
