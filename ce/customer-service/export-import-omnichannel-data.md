@@ -1,6 +1,6 @@
 ---
-title: "Import and export app configuration data | MicrosoftDocs"
-description: "Learn to import and export app configuration data from source to target environments in Omnichannel Administration and Omnichannel admin center apps."
+title: "Export and import app configuration data | MicrosoftDocs"
+description: "Learn to export and import app configuration data from source to target environments in Omnichannel Administration and Omnichannel admin center apps."
 ms.date: 10/08/2021
 ms.topic: article
 author: mh-jaya    
@@ -9,22 +9,22 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Import and export app configuration data
+# Export and import app configuration data
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment or any target environment; you don't have to start over. You can follow this process to export your Omnichannel Administration app configuration data from your test environment and import the data into your new target environment. That way, you can keep all of the queues, routing rules, workstreams, and other custom settings that you set up the first time.
+Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment or any target environment; you don't have to start over. You can follow this process to export your Omnichannel Administration or Omnichannel admin center app configuration data from your test environment, and then import the data into your new target environment. That way, you can keep all of the queues, routing rules, workstreams, and other custom settings that you set up earlier.
 
-To import and export your app configuration data in Omnichannel Administration and Omnichannel admin center, install the following apps of the same version in both the source and target environments:
+To export and import your app configuration data in Omnichannel Administration or Omnichannel admin center, install the following apps of the same version in both the source and target environments:
 
-- Omnichannel for Customer Service Administration app
+- Omnichannel Administration or Omnichannel admin center apps
 - Any third-party solutions that you plan to integrate
 
   
 > [!NOTE]
 >
 > - We recommend that you don't export the msdyn_analytics entity. The entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service; exporting the entity might lead to an incorrect configuration of your intraday insights data.
-> - The processes outlined in this topic pertain to import and export of data, and not users. To import and export users, you must add them to the target environment after you've imported the configuration data.
+> - The processes outlined in this topic pertain to export and import of data, and not users. To export and import **users**, you must add them to the target environment after you've imported the configuration data.
 
 
 ## Export app configuration data
@@ -35,9 +35,9 @@ You can export the configuration data from your source system by using the app c
 
 2. Create a schema file per omnichannel solution. More information: [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)
 
-3. Select the entities and fields that you want to import and export. The entities that you select to import and export depend on the resources that you want to reuse across the source and target organizations. For example, if you use the same API keys and provider for your geolocation provider, then you can include that entity too.
+3. Select the entities and fields that you want to export and import. The entities that you select to import and export depend on the resources that you want to reuse across the source and target organizations. For example, if you use the same API keys and provider for your geolocation provider, then you can include that entity too.
 
-    Some of the core entities that you can import and export are as follows:
+    Some of the core entities that you can export and import are as follows:
     -  Workstream
     -  Context variable
     -  Rule item
@@ -91,13 +91,13 @@ You can export the configuration data from your source system by using the app c
 > [!Note]
 > During the import process, if any privacy terms are displayed, you'll need to accept them to be able to successfully create records for social channels.
 
-## Test the import and export of data
+## Test the export and import of data
 
 **To check and compare records between the source and target environments**
 
-1. Using [advanced find](../customerengagement/on-premises/basics/save-advanced-find-search.md), select all of the fields of the entities that you imported or exported.
+1. Using [advanced find](../customerengagement/on-premises/basics/save-advanced-find-search.md), select all of the fields of the entities that you exported or imported.
 
-2. Perform a random check of the data across multiple records to confirm that all data is successfully imported and exported between the source and target environments.
+2. Perform a random check of the data across multiple records to confirm that all data is successfully exported and imported between the source and target environments.
 
 **To check the functionality in your target environment**
 

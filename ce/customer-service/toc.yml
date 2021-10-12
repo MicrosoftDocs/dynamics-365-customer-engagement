@@ -60,7 +60,7 @@
       items: 
       - name: Provision Omnichannel for Customer Service
         href: omnichannel-provision-license.md
-      - name: Import and export app configuration data
+      - name: Export and import app configuration data
         href: export-import-omnichannel-data.md
       - name: Uninstall Omnichannel for Customer Service
         href: remove-omnichannel.md
