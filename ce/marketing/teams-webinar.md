@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 10/08/2021
+ms.date: 10/11/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -112,6 +112,18 @@ Live events are useful for conference keynotes or meetings where a few presenter
 
 > [!NOTE]
 > You can only create "public" Teams live events from Dynamics 365 Marketing. These events are open to anyone. Attendees are not required to sign in to attend the event.
+
+#### Enable Teams live events in Dynamics 365
+
+To enable Teams live events, the following policy needs to be set by the Teams tenant administrator. Dynamics 365 only supports creating public live events. This setting ensures that anyone can watch the event, including anonymous users.
+
+To allow anyone to watch the live event, run the following PowerShell command:
+
+```powershell
+Set-CsTeamsMeetingBroadcastPolicy -BroadcastAttendeeVisibilityMode Everyone
+```
+
+Read more: [Set up for live events in Microsoft Teams](/microsoftteams/teams-live-events/set-up-for-teams-live-events)
 
 #### Live event settings
 
