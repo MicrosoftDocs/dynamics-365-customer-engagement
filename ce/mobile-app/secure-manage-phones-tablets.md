@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 apps on mobile devices with Microsoft Intune | MicrosoftDocs"
 ms.custom:
-description: Secure and manage Dynamics 365 for phones and tablets usingh Microsoft Intune.
+description: Secure and manage Dynamics 365 for phones and tablets using Microsoft Intune.
 ms.date: 09/27/2021
 ms.reviewer:
 ms.service: crm-online
