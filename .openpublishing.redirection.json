@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/routing-workstream-queues.md",
+      "redirect_url": "configure-work-classification",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/community-advanced-features.md",
       "redirect_url": "community-overview",
       "redirect_document_id": "false"
@@ -1958,6 +1963,11 @@
     {
       "source_path": "ce/field-service/create-inventory-adjustment.md",
       "redirect_url": "inventory-purchasing-returns-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/fs-mobile-extend-woodford-trial.md",
+      "redirect_url": "activate-fs-mobile-app-license",
       "redirect_document_id": "false"
     },
     {
