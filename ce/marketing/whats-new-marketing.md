@@ -87,6 +87,23 @@ The Dynamics 365 Marketing October 2021 update includes a new Content ideas feat
     - The journey designer and the content designer UI is more consistent, improving navigation and workflow.
     - Event-based journeys that target Customer Insights profile can be started even if the customer’s full profile is not available. Customers without a full profile will start the journey immediately using defaults for any missing profile data.
 
+#### Bug fixes
+
+- **Event management**
+    - The **Check-in** entity name is now localized.
+    - Resolved an error that allowed anonymous speakers to join Microsoft Teams live events as attendees when the **Allow external presenter** button was disabled.
+    - Fixed an issue that prevented anonymous speakers in Teams live events from waiting in the lobby when they selected the **Join live event** link generated in Marketing.
+- **Marketing emails**
+    - Added a warning to the new outbound email editor that customizations from the old editor need to be recreated.
+- **Marketing pages**
+    - Resolved an error that sometimes prevented marketing lists from being deleted.
+    - Matched Lead IDs are now stored in form submissions, replicating the functionality of matched Contact fields.
+    - Fixed an issue where a non-ASCII character in a tracked link could cause an error.
+- **Real-time marketing**
+    - Resolved an issue that prevented customer journeys published during outage windows from being triggered.
+- **Social posting**
+    - Fixed a confusing error message that appeared when deleting an Instagram post.
+
 ### September 2021 update
 
 The Dynamics 365 Marketing September 2021 update includes speedier installation and upgrade performance, a warning that the old outbound marketing email editor will be deprecated, general performance upgrades, and bug fixes.
