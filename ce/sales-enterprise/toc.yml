@@ -253,6 +253,8 @@
         items:
         - name: Configure sales accelerator
           href: enable-configure-sales-accelerator.md
+        - name: Configure sales accelerator for assignment rules
+          href: sales-accelerator-assignment-rules.md  
         - name: Manage sequences
           href: create-manage-sequences.md
           items:
@@ -296,6 +298,8 @@
             href: manage-sales-teams.md
           - name: Manage seller attributes
             href: manage-seller-attributes.md
+        - name: Configure settings to customize sales accelerator    
+          href: customize-sales-accelerator-sellers.md
         - name: Add the Up next widget to an entity form
           href: add-upnext-widget-form.md
       - name: Playbook management

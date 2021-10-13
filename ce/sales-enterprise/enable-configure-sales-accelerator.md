@@ -1,5 +1,5 @@
 ---
-title: "Enable and configure sales accelerator (Sales Insights) | MicrosoftDocs"
+title: "Enable and configure sales accelerator (Sales Premium)"
 description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
 ms.date: 01/11/2021
 ms.topic: article
@@ -7,7 +7,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Configure the sales accelerator 
+# Configure the sales accelerator for Sales Premium
 
 ## Requirements
 |  | |
@@ -16,7 +16,10 @@ manager: shujoshi
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-The Dynamics 365 Sales Insights sales accelerator helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in your sales app. An administrator or a sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. Sequences are connected to relevant records, so sellers can follow the best practices that have been defined in the sequence for the record types that are assigned to them. The sequence is then applied to record types and assigned to a seller automatically, according to your organization's sales strategies.  
+The sales accelerator feature helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in your sales app. An administrator or a sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. Sequences are connected to relevant records, so sellers can follow the best practices that have been defined in the sequence for the record types that are assigned to them. The sequence is then applied to record types and assigned to a seller automatically, according to your organization's sales strategies.  
+
+>[!NOTE]
+> To configure sales accelerator for assignment rule with your enterprise license, see [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md).
 
 As an administrator, you must enable and configure the sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
 

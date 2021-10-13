@@ -14,8 +14,8 @@ ms.custom:
 ## Requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 
@@ -23,12 +23,8 @@ Use assignment rules in sales accelerator to automatically assign new leads and 
 
 As an administrator, you can create rules that match lead or opportunity attributes (such as, location and language) with the corresponding seller or team attributes (such as, location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
 
-## Prerequisites
-
-Before you start, be sure you've met the following prerequisites:
-
--	You have the system administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
--	You have the Sales Enterprise license. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/).
+>[!NOTE]
+>Use this procedure to configure the sales accelerator, if you are using Sales Enterprise license fro your organization.
 
 ## Configure sales accelerator
 

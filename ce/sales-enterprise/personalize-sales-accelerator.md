@@ -27,24 +27,18 @@ As a seller, you can personalize sales accelerator by determining how activities
 
 Configure your working days, hours, and days off to adjust scheduled tasks and lead assignment according to your availability. For example, you're taking a day off on April 1, 2021, and you have a few activities to complete that day. When you configure the calendar with your day off, any activities that were scheduled for that day will be moved to your next available date or time.
 
+Depending on the license you have in the organization, you use one of the following ways to configure your work availability:
+- [Through work list settings](#through-work-list-settings)
+- [Through personal settings](#through-personal-settings)
+
+
 >[!NOTE]
->Ensure that you've read and write privileges to **Calendar** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+>- Ensure that you've read and write privileges to **Calendar** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+>- Verify that the administrator as enabled the option to configure your availability. 
+>    - Through sequence settings, see [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#enable-the-availability-option-in-sequence-settings).
+>    - Through sales accelerator configuration, see step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md). 
 
-### Enable the availability option in sequence settings
-
-Before you start using this feature, contact your Dynamics 365 administrator or sequence manager to enable the **Timing and availability** settings. 
-
-1.	Sign in to the Dynamics 365 Sales Hub app.   
-2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.    
-3.	Under **Sales accelerator**, select **Sequence**, and then select **Settings**.    
-    >[!div class="mx-imgBorder"]
-    >![Select personal settings to enable the availability option](media/sa-personal-settings-select-settings.png "Select personal settings to enable the availability option")     
-4.	On the **Sequence settings** page, in the **Timing and availability** section, turn on **Seller availability settings**.   
-    >[!div class="mx-imgBorder"]
-    >![Enable seller availability settings](media/sa-personal-settings-enable-seller-availability-settings.png "Enable seller availability settings")      
-5.	Save and close the settings page.    
-
-### Configure your availability
+### Through work list settings
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.
 2.	In the work list section, select More options > settings.   
@@ -85,6 +79,25 @@ Before you start using this feature, contact your Dynamics 365 administrator or 
         >[!div class="mx-imgBorder"]
         >![Time off set for a family vacation](media/sa-personal-settings-time-off-settings.png "Time off set for a family vacation")    
 
+### Through personal settings
+
+>[!NOTE]
+>Use this procedure to customize the calendar, if you are using Sales Enterprise license fro your organization.
+
+1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.
+
+2.	Select **Calendar**.
+
+    The calendar opens for the current month with your work availability.
+
+    > [!div class="mx-imgBorder"]
+    > ![Work availability calendar page.](media/sales-accelerator-work-availability-calendar.png "Work availability calendar page")
+
+    > [!NOTE]
+    > At the bottom of the calendar, you can see the default local time of your organization.
+
+3.	Configure your calendar according to your requirements as described in step 4 from the [Through work list settings](#through-work-list-settings) section.     
+
 ## Configure the auto advance steps
 
 The **Auto advance** settings specify the next course of action to take when you complete or skip a step.
@@ -109,26 +122,8 @@ The **Auto advance** settings specify the next course of action to take when you
 
 When a step is displayed in the **Up next** widget, a corresponding activity is automatically created on the timeline and linked to the step. When you complete the action, such as sending an email or making a call through the timeline, the step is updated. By configuring the activities and steps, you can choose how the actions you perform on steps will affect the linked activities and sequence steps.     
 
-### Enable linking sequence steps and activities
-
-Before you start using this feature, contact your Dynamics 365 administrator or sequence manager to enable the **Steps and activities** settings.
-
-1.	Sign in to the Dynamics 365 Sales Hub app.   
-2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.    
-3.	Under **Sales accelerator**, select **Sequence**, and then select **Settings**.    
-    >[!div class="mx-imgBorder"]
-    >![Select personal settings to enable linking steps and activities](media/sa-personal-settings-select-settings.png "Select personal settings to enable linking steps and activities")     
-4.	On the **Sequence settings** page, in the **Linked activities** section, turn on **Pre-create linked activities (recommended)**.    
-
-    >[!NOTE]
-    > Select the **Exclude phone call activities** check box to avoid creating a duplicate phone call activity when you're using Dynamics 365 Channel Integration Framework as your phone system. If you don't select this option, a duplicate phone call activity will be created on the timeline and a duplicate activity will be created when the step is waiting to be completed on the record.    
-
-    >[!div class="mx-imgBorder"]
-    >![Enable pre-create linked activities](media/sa-personal-settings-enable-precreate-linked-activities.png "Enable pre-create linked activities")     
- 
-5.	Save and close the settings page.
-
-### Configure steps and activities
+>[!NOTE]
+>Verify that the administrator as enabled the option to configure steps and activities. More information, see [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#enable-linking-sequence-steps-and-activities).
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.
 2.	In the work list, select the settings icon.   
@@ -149,6 +144,9 @@ Before you start using this feature, contact your Dynamics 365 administrator or 
 
 ### See also
 
-[Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)      
+[Configure sales accelerator settings for sellers to personalize](customize-sales-accelerator-sellers.md)
+
+[Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)   
+   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
