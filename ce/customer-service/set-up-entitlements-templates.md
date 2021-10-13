@@ -43,8 +43,6 @@ Quickly create other entitlements prefilled with the basic information like the 
   
 5. Add or edit information in the text boxes.  
   
-    Hovertips provide hints about what to enter.  
-  
    - **Entitlement Template Name**: Enter a name for the entitlement template.
   
    - **Start Date**: Select the date from when the entitlement will be valid.  

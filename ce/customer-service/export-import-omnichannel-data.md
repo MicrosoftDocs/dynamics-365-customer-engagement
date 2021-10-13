@@ -35,9 +35,9 @@ You can export the configuration data from your source system by using the app c
 
 2. Create a schema file per omnichannel solution. More information: [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)
 
-3. Select the entities and fields that you want to export and import. The entities that you select to import and export depend on the resources that you want to reuse across the source and target organizations. For example, if you use the same API keys and provider for your geolocation provider, then you can include that entity too.
+3. Select the entities and fields that you want to export. The entities that you select to export depend on the resources that you want to reuse across the source and target organizations. For example, if you use the same API keys and provider for your geolocation provider, then you can include that entity too.
 
-    Some of the core entities that you can export and import are as follows:
+    Some of the core entities that you can export are as follows:
     -  Workstream
     -  Context variable
     -  Rule item
@@ -78,15 +78,17 @@ You can export the configuration data from your source system by using the app c
 
 2. Run the Configuration Migration tool, and select **Import data** on the main screen.
 
-3. On the **Login** screen, provide authentication details to connect to your Dataverse server from where you want to import data. If you have multiple organizations on the Dynamics 365 instance, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** check box. Select **Login**. 
+3. On the **Login** screen, provide authentication details to connect to your Dataverse server from where you want to import data. 
 
-4. If you have multiple organizations, and you selected **Always display list of available orgs**, the next screen lets you select the organization that you want to connect to. Select the organization.
+4. If you have multiple organizations in the Dynamics 365 instance, and want to select the organization from where you want to import the data, select the **Always display list of available orgs** checkbox and then select **Login**.
 
-5. Select the data file (.zip) that you want to import, and then select **Import Data**.
+5. Select the organization that you want to connect to.
 
-   The import status of your records is displayed. The data import is done in multiple passes. Foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages. This ensures clean and consistent data import.
+6. Select the data file (.zip), and then select **Import Data**.
 
-6. Select **Exit** to close the tool.
+   The import status of your records is displayed. To ensure clean and consistent import of data, the import process runs in multiple passes. The foundation data is imported first, while the dependent data is queuing up, and then the dependent data is imported in the subsequent passes to handle any data dependencies or linkages.
+
+7. Select **Exit** to close the tool.
 
 > [!Note]
 > During the import process, if any privacy terms are displayed, you'll need to accept them to be able to successfully create records for social channels.
