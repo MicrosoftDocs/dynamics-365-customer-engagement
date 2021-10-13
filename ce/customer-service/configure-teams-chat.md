@@ -102,9 +102,13 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
 For any view is selected, keep in mind the following details:
  - The first five fields of any view are used as the context card details (in addition to a link to the record).
  - If a field isn't supported, it's skipped and the display will include the first four fields that are supported. You'll be able to see from the configuration experience that the specific field isn't supported.
+ 
     > [!div class="mx-imgBorder"] 
     > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png)
+    
  - Because the data fields are static, field-level permissions aren't checked for collaborators. This means if the agent has the field-level permissions to show data fields, collaborators will also be able to see those fields.
 - If you don't select a view, agents will only see the default, out-of-box **Case introduction message** view.
+
     > [!div class="mx-imgBorder"] 
     > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png)
+
