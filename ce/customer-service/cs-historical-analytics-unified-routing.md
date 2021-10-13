@@ -1,7 +1,7 @@
 ---
 title: "Historical analytics for unified routing in Customer Service | MicrosoftDocs"
 description: "Learn about the KPIs that are available in the historical analytics report for Customer Service."
-ms.date: 10/04/2021
+ms.date: 10/12/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,6 +22,8 @@ In Customer Service, the report displays metrics pertaining to only those record
 The Unified routing report provides routing-specific KPIs and metrics that can be used by supervisors and administrators to track the success of their routing strategy. They can also track the incorrectly routed work items and configurations and correct them to improve the routing effectiveness and thereby customer satisfaction.
 
 The report appears as a tab in the Customer Service historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Customer Service Hub. You can access the report in Service. In the site map, select **Customer Service historical analytics**, and then select **Unified routing**.
+
+In Customer Service workspace, select the (+) icon, and then select **Customer Service historical analytics**.
 
 :::image type="content" source="media/cs-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Customer Service.":::
 
@@ -65,3 +67,4 @@ You can select a date, and then select **Details** to view the routing metrics b
 
 [Enable Historical analytics for unified routing](configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-unified-routing)  
 [Unified routing report in Omnichannel historical analytics](oc-historical-analytics-unified-routing.md)  
+[Diagnostics for unified routing](unified-routing-diagnostics.md)  
