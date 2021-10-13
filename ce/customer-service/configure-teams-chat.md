@@ -58,7 +58,7 @@ If you want Teams chat to work for specific users, you can enable the feature fo
 To enable Teams chat settings for specific multisession users, complete the following steps:
 1. Go to [Power Apps](https://make.powerapps.com/), and then under **Environments**, select your environment.
 
-2. In the left-side pane, select **Apps**, and then next to the custom app, select the **More Commands** elipsis.
+2. In the left-side pane, select **Apps**, and then next to the custom app, select the **More Commands** ellipsis.
 
     > [!div class="mx-imgBorder"] 
     > ![Configure Teams chat settings for specific multisession users.](media/teams-chat-more-commands.png)
