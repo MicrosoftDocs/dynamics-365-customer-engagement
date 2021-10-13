@@ -13,11 +13,11 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment or any target environment; you don't have to start over. You can follow this process to export your Omnichannel Administration or Omnichannel admin center app configuration data from your test environment, and then import the data into your new target environment. That way, you can keep all of the queues, routing rules, workstreams, and other custom settings that you set up earlier.
+Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment or any target environment; you don't have to start over. You can follow this process to export your Omnichannel admin center or Omnichannel Administration app configuration data from your test environment, and then import the data into your new target environment. That way, you can keep all of the queues, routing rules, workstreams, and other custom settings that you set up earlier.
 
-To export and import your app configuration data in Omnichannel Administration or Omnichannel admin center, install the following apps of the same version in both the source and target environments:
+To export and import your app configuration data in Omnichannel admin center or Omnichannel Administration, install the following apps of the same version in both the source and target environments:
 
-- Omnichannel Administration or Omnichannel admin center apps
+- Omnichannel admin center or Omnichannel Administration apps
 - Any third-party solutions that you plan to integrate
 
   
@@ -29,7 +29,7 @@ To export and import your app configuration data in Omnichannel Administration o
 
 ## Export app configuration data
 
-You can export the configuration data from your source system by using the app configuration data schema file, in Omnichannel Administration or Omnichannel admin center.
+You can export the configuration data from your source system by using the app configuration data schema file, in Omnichannel admin center or Omnichannel Administration.
 
 1. [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget).
 
