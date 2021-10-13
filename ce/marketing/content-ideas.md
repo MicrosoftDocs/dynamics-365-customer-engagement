@@ -1,7 +1,7 @@
 ---
 title: "Preview: Use AI to kickstart email creation with Content ideas (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use AI-powered Content ideas to generate content in Dynamics 365 Marketing."
-ms.date: 10/12/2021
+ms.date: 10/13/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -92,6 +92,6 @@ If you are not satisfied with the generated ideas, try one or more of the follow
 Content ideas generates original content, but it isn’t always factual. In addition, because the underlying technology behind content ideas uses AI that has been trained on a wide range of internet sources, some text suggestions may include questionable or inappropriate content. It's your responsibility to edit generated suggestions so that your final copy is accurate and appropriate.
 
 > [!IMPORTANT]
-> If you encounter inappropriate content being generated, report it to Microsoft using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse). It will help improve the functionality moving forward.
+> If you encounter inappropriate content being generated, report it to Microsoft using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse?ThreatType=URL&IncidentType=Responsible%20AI&SourceUrl=https://dynamics.microsoft.com/en-us/marketing/overview/). It will help improve the functionality moving forward.
 >
 > Microsoft may disable the Content ideas feature for selected customers if abuse of the functionality is detected.
