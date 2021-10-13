@@ -99,7 +99,7 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
     
 5.	Select **Save**.
 
-For any view is selected, keep in mind the following details:
+For any view that's selected, keep in mind the following details:
  - The first five fields of any view are used as the context card details (in addition to a link to the record).
  - If a field isn't supported, it's skipped and the display will include the first four fields that are supported. You'll be able to see from the configuration experience that the specific field isn't supported.
  
