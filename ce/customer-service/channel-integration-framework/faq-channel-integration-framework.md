@@ -124,7 +124,7 @@ You can invoke the [Microsoft.CIFramework.setMode(1)](reference/microsoft-cifram
 If there are multiple channel providers in your organization, the widget will not be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication widget, conversation dashboards in the application tab, and so on. 
 To create a default session, do the following:
 1. Use the [createSession](reference/microsoft-ciframework/createSession.md) API to create a session with relevant application tabs and load them together with the widget.
-2. Use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code, at the end of the initialization section. This ensure that the widget is visible right from the time the channel provider is loaded.
+2. Use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code, at the end of the initialization section. This ensures that the widget is visible right from the time the channel provider is loaded.
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
 This is to make sure that the updated data is available for the agent at all times.
