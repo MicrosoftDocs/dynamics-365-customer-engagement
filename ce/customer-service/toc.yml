@@ -60,7 +60,7 @@
       items: 
       - name: Provision Omnichannel for Customer Service
         href: omnichannel-provision-license.md
-      - name: Export and import Omnichannel for Customer Service
+      - name: Export and import app configuration data
         href: export-import-omnichannel-data.md
       - name: Uninstall Omnichannel for Customer Service
         href: remove-omnichannel.md
@@ -366,6 +366,8 @@
         href: enable-sla-recalculation.md
       - name: Create entitlements to define support terms
         href: create-entitlement-define-support-terms-customer.md
+      - name: Use entitlement templates to set up entitlements  
+        href: set-up-entitlements-templates.md
       - name: Manage service configuration settings
         href: ../admin/system-settings-dialog-box-service-tab.md
       - name: Manage service schedules
