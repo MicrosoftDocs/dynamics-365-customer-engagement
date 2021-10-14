@@ -45,8 +45,8 @@ As a tenant administrator, when you enable the Teams chat feature, the app has t
 
 3. Toggle **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** and **Use record title as the default chat name for linked chats** to **Yes**.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
+   > [!div class="mx-imgBorder"] 
+   > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
     
 4. Save the changes.<br>
    The preview is now enabled for the Dynamics 365 Customer Service Hub and Customer Service workspace (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record. See Open Teams chats and channels related to a record.
@@ -60,8 +60,8 @@ To enable Teams chat settings for specific multisession users, complete the foll
 
 2. In the left-side pane, select **Apps**, and then next to the custom app, select the **More Commands** ellipsis.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Configure Teams chat settings for specific multisession users.](media/teams-chat-more-commands.png "Configure Teams chat settings for custom profiles")
+   > [!div class="mx-imgBorder"] 
+   > ![Configure Teams chat settings for specific multisession users.](media/teams-chat-more-commands.png "Configure Teams chat settings for custom profiles")
 
 3. From the dropdown menu, select **App profile manager**, select your custom profile, and then select **Edit**.
 
@@ -69,8 +69,8 @@ To enable Teams chat settings for specific multisession users, complete the foll
 
 5. Under **Productivity tools**, toggle **Microsoft Teams collaboration** to **On**.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Set Teams collaboration to On.](media/teams-chat-custom-profile.png "Turn on Teams collaboration")
+   > [!div class="mx-imgBorder"] 
+   > ![Set Teams collaboration to On.](media/teams-chat-custom-profile.png "Turn on Teams collaboration")
 
 6. Select the **General** tab to assign users. More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
 
@@ -106,12 +106,12 @@ For any view that's selected, keep in mind the following details:
  - The first five fields of any view are used as the context card details (in addition to a link to the record).
  - If a field isn't supported, it's skipped and the display will include the first four fields that are supported. You'll be able to see from the configuration experience that the specific field isn't supported.
  
-    > [!div class="mx-imgBorder"] 
-    > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png "View for supported fields and message for unsupported field")
+   > [!div class="mx-imgBorder"] 
+   > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png "View for supported fields and message for unsupported field")
     
  - Because the data fields are static, field-level permissions aren't checked for collaborators. This means if the agent has the field-level permissions to show data fields, collaborators will also be able to see those fields.
 - If you don't select a view, agents will only see the default, out-of-box **Case introduction message** view.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png "Default case introduction message view")
+   > [!div class="mx-imgBorder"] 
+   > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png "Default case introduction message view")
 
