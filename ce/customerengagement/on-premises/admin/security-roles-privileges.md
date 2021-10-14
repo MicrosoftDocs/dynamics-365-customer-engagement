@@ -2,7 +2,7 @@
 title: "Security roles in Dynamics 365 Customer Engagement (on-premises)"
 description: "To control data access, you must set up security roles. Learn about the level of access allowed per role and the privileges that define what a user can do."
 ms.custom: 
-ms.date: 10/07/2019
+ms.date: 10/14/2021
 ms.reviewer: 
 ms.prod: d365ce-op
 ms.suite: 
@@ -77,37 +77,6 @@ The colored circles on the security role settings page define the access level f
  Teams are used primarily for sharing records that team members ordinarily couldn't access. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security, users and teams](../admin/manage-teams.md).  
   
  It’s not possible to remove access for a particular record. Any change to a security role privilege applies to all records of that record type.  
-
-## Team member’s privilege inheritance
-
-### User and Team privileges
-
-- **User privileges**: User is granted these privileges directly when a security role is assigned to the user.  User can create and has access to records created/owned by the user when Basic access level for Create and Read were given.
-- **Team privileges**: User is granted these privileges as member of the team.  For team members who do not have user privileges of their own, they can only create records with the team as the owner and they have access to records owned by the Team when Basic access level for Create and Read were given.
-
-A security role can be set to provide a team member with direct Basic-level access user privileges. A team member can create records that they own and records that have the team as owner when the Basic access level for Create is given. When the Basic access level for Read is given, team member can access records that are owned by both that team member and by the team.  
-
-### Create a security role with team member’s privilege inheritance
-
-#### Prerequisites
-Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
-
-Check your security role:
-- Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
-- Don’t have the correct permissions? Contact your system administrator.
-
-1. Go to **Settings** > **Security**.
-2. Select **Security Roles**.
-3. On the Actions toolbar, select **New**.
-4. Enter a role name.
-5. Select the **Member’s privilege inheritance** drop-down list.
-6. Select **Direct User/Basic access level and Team privileges**.
-7. Go to each tab and set the appropriate privileges on each entity.
-
-   To change the access level for a privilege, select the access-level symbol until you see the symbol you want. The access levels available depend on whether the record type is organization-owned or user-owned.
-
-> [!NOTE]
-> You can also set this privilege inheritance property for all out-of-the-box security roles except the System Administrator role.  When a privilege inheritance security role is assigned to a user, the user gets all the privileges directly, just like a security role without privilege inheritance.
 
 ### See also  
  [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
