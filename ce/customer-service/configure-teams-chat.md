@@ -39,17 +39,17 @@ As a tenant administrator, when you enable the Teams chat feature, the app has t
 
 
 ### Add the Teams chat settings page to the sitemap of your app
-1.	In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
+1. In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
 
-2.	Under **Microsoft Teams Integration**, select **Collaboration**.
+2. Under **Microsoft Teams Integration**, select **Collaboration**.
 
-3.	Toggle **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** and **Use record title as the default chat name for linked chats** to **Yes**.
+3. Toggle **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** and **Use record title as the default chat name for linked chats** to **Yes**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png)
+    > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
     
-4.	Save the changes.<br>
-    The preview is now enabled for the Dynamics 365 Customer Service Hub and Customer Service workspace (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record. See Open Teams chats and channels related to a record.
+4. Save the changes.<br>
+   The preview is now enabled for the Dynamics 365 Customer Service Hub and Customer Service workspace (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record. See Open Teams chats and channels related to a record.
     
     
 ### Add the Teams chat settings page for specific multisession users
@@ -61,13 +61,16 @@ To enable Teams chat settings for specific multisession users, complete the foll
 2. In the left-side pane, select **Apps**, and then next to the custom app, select the **More Commands** ellipsis.
 
     > [!div class="mx-imgBorder"] 
-    > ![Configure Teams chat settings for specific multisession users.](media/teams-chat-more-commands.png)
+    > ![Configure Teams chat settings for specific multisession users.](media/teams-chat-more-commands.png "Configure Teams chat settings for custom profiles")
 
 3. From the dropdown menu, select **App profile manager**, select your custom profile, and then select **Edit**.
 
 4. Select the **Productivity pane** tab, and then toggle **Turn on productivity pane** to **On**.
 
 5. Under **Productivity tools**, toggle **Microsoft Teams collaboration** to **On**.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Set Teams collaboration to On.](media/teams-chat-custom-profile.png "Turn on Teams collaboration")
 
 6. Select the **General** tab to assign users. More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
 
@@ -92,10 +95,10 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
 	
 3.	In the **Link chat to record type** pane, in **Choose record type**, type the name of the record type you want to use.
 	
-4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then type the message you want to use. If you turn on this context card, a **Message view** dropdown menu is displayed, where you can do the following:
-    a.	Select a message view you want to use, and then enter the relative details.
-    Or
-    b.	Create a custom view in Power Apps.
+4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then type the message you want to use. If you turn on this context card, a **Message view** dropdown menu is displayed, where you can do the following:<br>
+         a.	Select a message view you want to use, and then enter the relative details.<br>
+    or<br>
+         b.	Create a custom view in Power Apps.
     
 5.	Select **Save**.
 
@@ -104,11 +107,11 @@ For any view that's selected, keep in mind the following details:
  - If a field isn't supported, it's skipped and the display will include the first four fields that are supported. You'll be able to see from the configuration experience that the specific field isn't supported.
  
     > [!div class="mx-imgBorder"] 
-    > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png)
+    > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png "View for supported fields and message for unsupported field")
     
  - Because the data fields are static, field-level permissions aren't checked for collaborators. This means if the agent has the field-level permissions to show data fields, collaborators will also be able to see those fields.
 - If you don't select a view, agents will only see the default, out-of-box **Case introduction message** view.
 
     > [!div class="mx-imgBorder"] 
-    > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png)
+    > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png "Default case introduction message view")
 
