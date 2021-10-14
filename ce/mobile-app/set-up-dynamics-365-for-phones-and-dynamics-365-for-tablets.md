@@ -184,8 +184,6 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
 
  You can enable a limited set of entities for the mobile app. To see if an entity is enabled or to enable an entity.
  
-> [!NOTE]
-> The **Enable for Phone Express** option refers to a deprecated mobile app and doesn't apply anymore.
  
 1. Go to **Settings** > **Customizations** > **Customize the System**. 
 2. Expand **Entities** in the left pane.  
@@ -193,8 +191,12 @@ You can assign security roles to a dashboard, so the dashboard appears only to u
   
 4. Under **Outlook & Mobile**, select **Enable for Unified Client**. 
  
+   > [!NOTE]
+   > The **Enable for Phone Express** option refers to a deprecated mobile app and doesn't apply anymore.
+ 
    > [!div class="mx-imgBorder"] 
    > ![Enable mobile entities.](media/enable_mobile_entity.png "Enable mobile entities").
+   
 
 Things to note:  
   
