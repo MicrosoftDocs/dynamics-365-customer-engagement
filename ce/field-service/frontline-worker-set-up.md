@@ -17,6 +17,9 @@ search.app:
 
 Frontline workers in Dynamics 365 Field Service are people in your organization who are primarily scheduled for onsite jobs and who use the Dynamics 365 Field Service mobile app for their work. Quickly getting frontline workers set up in Field Service is critical in order to ensure they can immediately start fixing problems at customer locations and completing service calls. 
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWN1Bb]
+
+
 Admins can now use a single form to set up frontline workers in their organizations with all the required permissions frontline workers need to quickly get up and running with the Field Service mobile app and be scheduled for work orders. 
 
 With a single form, admins can: 
