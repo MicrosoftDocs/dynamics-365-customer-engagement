@@ -124,7 +124,7 @@ Add all tables to your mobile offline profile where the column type is a file. F
 
    >![Note] Don't select **Image Descriptor, Field name: Regarding**.
 
-10. For each table with a file columns to be downloaded, select **Field name: Regarding**. 
+10. For each table with a file column to be downloaded, select **Field name: Regarding**. 
 
     > [!div class="mx-imgBorder"]
     >![Add FileAttachment table.](media/offline-file-images-3.png "Add FileAttachment table.")
