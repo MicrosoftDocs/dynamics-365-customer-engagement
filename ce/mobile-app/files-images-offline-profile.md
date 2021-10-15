@@ -117,7 +117,7 @@ Add all tables to your mobile offline profile where the column type is a file. F
 7. Select **FileAttachment**  and then select **Next**.
 
    > [!div class="mx-imgBorder"]
-    >![Select image descriptor.](media/offline-file-images.png "Select image descriptor")
+    >![Select FileAttachment.](media/offline-file-images-4.png "Select FileAttachment")
 
 8. Under **Choose the records that you want to make available offline**, select **Related records only**.
 9. Expand **Relationships** and select **Image Descriptor, Field name**.
