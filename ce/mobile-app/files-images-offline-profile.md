@@ -50,7 +50,7 @@ Follow the steps in this topic, for a mobile offline profile that has a table wi
 
 ## Add image columns to mobile offline 
 
-Add all tables to your mobile offline profile where the column type is a file or image. For any tables that have an image column, add the **Image Descriptor** table to make images available in offline mode.
+Add all tables to your mobile offline profile where the column type is a image. For any tables that have an image column, add the **Image Descriptor** table to make images available in offline mode.
 
 1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
 
