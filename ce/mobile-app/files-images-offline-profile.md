@@ -91,7 +91,7 @@ Add all tables to your mobile offline profile where the column type is a file or
 
 ## Add file columns to mobile offline 
 
-Add all tables to your mobile offline profile where the column type is a file. For any tables that have an file column, add the **FileAttachment** table to make file available in offline mode.
+Add all tables to your mobile offline profile where the column type is a file. For any tables that have a file column, add the **FileAttachment** table to make file available in offline mode.
 
 1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
 
