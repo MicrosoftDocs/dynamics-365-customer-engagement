@@ -40,7 +40,7 @@ Follow the steps in this topic, for a mobile offline profile that has a table wi
    >![Go to tables.](media/maker-data-tables.png "Go to tables")
   
   
-3. Select the **Display name** of a column where **Date type** is set to an file or image.
+3. Select the **Display name** of a column where **Date type** is set to a file or image.
 
 4. The column properties show the **Date type** and then expand **Advanced options** to view the maximum size for a file or image.
 
@@ -50,7 +50,7 @@ Follow the steps in this topic, for a mobile offline profile that has a table wi
 
 ## Add image columns to mobile offline 
 
-Add all tables to your mobile offline profile where the column type is a file or image. For any tables that has an image column, add the **Image Descriptor** table to make images available in offline mode.
+Add all tables to your mobile offline profile where the column type is a file or image. For any tables that have an image column, add the **Image Descriptor** table to make images available in offline mode.
 
 1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
 
@@ -84,14 +84,14 @@ Add all tables to your mobile offline profile where the column type is a file or
    > [!div class="mx-imgBorder"]
     >![Add image descriptor.](media/offline-file-images-2.png "Add image descriptor")
    
-10. For each table with a image columns to be downloaded, select **Field name: Regarding**.
+10. For each table with a image column to be downloaded, select **Field name: Regarding**.
     
 11. Select **Save**.
 
 
 ## Add file columns to mobile offline 
 
-Add all tables to your mobile offline profile where the column type is a file. For any tables that has an file column, add the **FileAttachment** table to make file available in offline mode.
+Add all tables to your mobile offline profile where the column type is a file. For any tables that have an file column, add the **FileAttachment** table to make file available in offline mode.
 
 1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
 
