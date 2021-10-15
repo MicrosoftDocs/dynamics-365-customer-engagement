@@ -50,7 +50,7 @@ Follow the steps in this topic, for a mobile offline profile that has a table wi
 
 ## Add image columns to mobile offline 
 
-Add all tables to your mobile offline profile where the column type is a file or image. For any tables that has an image column, add the **Image Descriptor** table to make images available offline.
+Add all tables to your mobile offline profile where the column type is a file or image. For any tables that has an image column, add the **Image Descriptor** table to make images available in offline mode.
 
 1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
 
@@ -73,27 +73,62 @@ Add all tables to your mobile offline profile where the column type is a file or
 
 6. In the **Data available offline** select **Add table**.
 
-7. To make images available in offline mode, select **Image Descriptor**  and select **Next**.
+7. Select **Image Descriptor** and then select **Next**.
+
+   > [!div class="mx-imgBorder"]
+    >![Select image descriptor.](media/offline-file-images.png "Select image descriptor")
 
 8. Under **Choose the records that you want to make available offline**, select **Related records only**.
-9. Expand **Relationships** and select **Field name**. 
+9. Expand **Relationships** and select **Field name**
 
    > [!div class="mx-imgBorder"]
     >![Add image descriptor.](media/offline-file-images-2.png "Add image descriptor")
+   
+10. For each table with a image columns to be downloaded, select **Field name: Regarding**.
+    
+11. Select **Save**.
 
-3.	Select Related records only.
-4.	Under Relationships:
-a.	For each table with image columns, select Field name: under Relationships.
-5.	Add the **FileAttachment table**. This is required to make images and files available offline:
+
+## Add file columns to mobile offline 
+
+Add all tables to your mobile offline profile where the column type is a file. For any tables that has an file column, add the **FileAttachment** table to make file available in offline mode.
+
+1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
+
+2. On the right, select **Environments**.
+
+   > [!div class="mx-imgBorder"]
+   >![Select a Environment.](media/offline_admincenter_enviroments.png "Select a Environment")
+ 
+3. Choose an environment and then select **Settings**.
+
+   > [!div class="mx-imgBorder"]
+   >![Environment settings.](media/offline_open_an_enviroment.png "Environment settings")
+ 
+4. Expand **Users + permissions**,  and then select **Mobile configuration**.
+
+   > [!div class="mx-imgBorder"]
+   >![Mobile configuration setting.](media/offline_mobile_config_settings.png "Mobile configuration settings")
+
+5. Select a mobile offline profile to edit it.
+
+6. In the **Data available offline** select **Add table**.
+
+7. Select **FileAttachment**  and then select **Next**.
+
+   > [!div class="mx-imgBorder"]
+    >![Select image descriptor.](media/offline-file-images.png "Select image descriptor")
+
+8. Under **Choose the records that you want to make available offline**, select **Related records only**.
+9. Expand **Relationships** and select **Image Descriptor, Field name**.
+
+   >![Note] Don't select **Image Descriptor, Field name: Regarding**.
+
+10. For each table with a file columns to be downloaded, select **Field name: Regarding**. 
 
     > [!div class="mx-imgBorder"]
     >![Add FileAttachment table.](media/offline-file-images-3.png "Add FileAttachment table.")
-    
-6.	Select Related records only.
-7.	Follow these steps, Under Relationships
-  .	Select Image Descriptor, Field name:.
-Do not select Image Descriptor, Field name: Regarding.
-  b.	For each table with image and/or file columns to be downloaded, select Field name: Regarding. 
-  
-  
+   
+
+ 11. Select **Save**. 
   
