@@ -24,14 +24,12 @@ search.app:
 
 # Configure mobile offline profiles for files and images
 
+To work with files and images in  offline mode, you must add additional tables and relationships. This should be considered when the profile contains tables where columns type is a file or image.
 
-You need to add additional tables and relationships to work with files and images while being offline. This should be considered when the profile contains tables with columns of type file or image.
-> [!Note] The maximum size for files and images is defined in column settings under **Advanced options** in Power Apps for columns where **Data type** is **Image**.
+To find the maximum size for files and images, go to column settings in **Advanced options** in Power Apps for columns where **Data type** is an **Image**.
 
-   > [!div class="mx-imgBorder"]
-   >![Maximum size for files and images.](media/offline-file-images-1.png "Maximum file and image size")
-
-
+> [!div class="mx-imgBorder"]
+>![Maximum size for files and images.](media/offline-file-images-1.png "Maximum file and image size")
 
    
 ## Expand a mobile offline profile to include files and images
