@@ -42,7 +42,7 @@ Follow the steps in this topic, for a mobile offline profile that has a table wi
   
 3. Select the **Display name** of a column where **Date type** is set to a file or image.
 
-4. The column properties show the **Date type** and then expand **Advanced options** to view the maximum size for a file or image.
+4. The column properties show the **Date type**. Expand **Advanced options** to view the maximum size for a file or image.
 
    > [!div class="mx-imgBorder"]
    >![Maximum size for files and images.](media/offline-file-images-1.png "Maximum file and image size")
