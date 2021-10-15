@@ -26,18 +26,32 @@ search.app:
 
 
 You need to add additional tables and relationships to work with files and images while being offline. This should be considered when the profile contains tables with columns of type file or image.
-Note! The maximum size for files and images is defined in column settings under Advanced options in Power Apps for columns where Data type = Image.
-
-
-> [!IMPORTANT]
-> To use this feature an administrator must to set up mobile offline for their organization. The set up and configuration process for mobile offline is the same for [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this article.
-
-
-1. Sign in to [Power Apps](https://make.powerapps.com).
-
-  
-2. On the left nav select **Data** to expand it and then select **Tables**.  
+> [!Note] The maximum size for files and images is defined in column settings under **Advanced options** in Power Apps for columns where **Data type** is **Image**.
 
    > [!div class="mx-imgBorder"]
-   >![Go to tables.](media/maker-data-tables.png "Go to tables")
+   >![](media/.png "")
+
+
+
    
+## Expand a mobile offline profile to include files and images
+
+1.	Make sure to first add all applicable tables with file and/or image type columns.
+2.	If at least one table has an image column, add the Image Descriptor table to make images available offline:
+    > [!div class="mx-imgBorder"]
+    >![](media/.png "")
+ 
+
+3.	Select Related records only.
+4.	Under Relationships:
+a.	For each table with image columns, select Field name: under Relationships.
+5.	Add the FileAttachment table. This is required to make images and files available offline:
+
+    > [!div class="mx-imgBorder"]
+    >![](media/.png "")
+    
+6.	Select Related records only.
+7.	Follow these steps, Under Relationships
+  .	Select Image Descriptor, Field name:.
+Do not select Image Descriptor, Field name: Regarding.
+  b.	For each table with image and/or file columns to be downloaded, select Field name: Regarding. 
