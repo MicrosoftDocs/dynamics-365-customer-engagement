@@ -22,7 +22,7 @@ search.app:
   - D365Sales
 ---
 
-# Configure mobile offline profiles for files and images
+# Configure mobile offline profiles for images and files 
 
 To work with file and images tables in offline mode, you need to add additional tables and relationships.
 
