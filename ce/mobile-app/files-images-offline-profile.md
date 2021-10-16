@@ -122,7 +122,7 @@ Add all tables to your mobile offline profile where the column type is a file. F
 8. Under **Choose the records that you want to make available offline**, select **Related records only**.
 9. Expand **Relationships** and select **Image Descriptor, Field name**.
 
-   >![Note] Don't select **Image Descriptor, Field name: Regarding**.
+   > ![Note] Don't select **Image Descriptor, Field name: Regarding**.
 
 10. For each table with a file column to be downloaded, select **Field name: Regarding**. 
 
