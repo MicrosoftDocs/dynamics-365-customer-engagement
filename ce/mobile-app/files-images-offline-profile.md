@@ -24,7 +24,7 @@ search.app:
 
 # Configure mobile offline profiles for images and files 
 
-To work with file and images tables in offline mode, you need to add additional tables and relationships.
+To work with file and images columns in offline mode, you need to add additional tables and relationships.
 
 Follow the steps in this topic, for a mobile offline profile that has a table with a column where **Date type** is set to a file or image.
 
