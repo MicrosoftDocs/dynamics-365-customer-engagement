@@ -41,14 +41,33 @@ In the following example, to add a skill control named **Skills** to the case fo
    In the **Add Control** dialog that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the dropdown list, and then select **OK**.
 
 8. Set the property values as follows:
- - 
- - 
- - 
- - 
+ - **CC_OCDDSRelatedDataRecordControl_value**: Is the label of the custom control in text format.
+ - **CC_OCRoutedEntityName_value**: Is the logical collection name of the record. Get the logical collection name by running the following OData query and enter the same in the **Value** field.
+ ```HTTP
+ GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='{EntityLogicalName}')?$select=LogicalCollectionName,LogicalName
+```
 
+ - **CC_OCRoutedEntityRelationshipName_value**: Is the relationship name of the record. Get the relationship name by running the following OData query:
+ 
+```HTTP
+ GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/OneToManyRelationships
+```
+
+```HTTP
+ GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/ManyToOneRelationships
+```
+
+```HTTP
+GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName=%27incident%27)/ManyToManyRelationships
+```
+
+For information about how to query table definitions, see [Query table definitions using the Web API](powerapps/developer/data-platform/webapi/query-metadata-web-api)
+
+ - **CC_FetchXML** 
+ 
 10. Save and publish the solution.
 
-The skill control is added to the **Case Interactive experience** form. Your agents will now be able to view the newly added custom control on all routed records in Customer Service Hub. 
+The skill control is added to the **Case Interactive experience** form. Your agents will now be able to view the newly added custom control on all routed records in Customer Service Hub.
 
 > [!NOTE]
 > To customize a form to add the skill control in Customer Service workspace or the Omnichannel admin center, you can add the control to the **Case for Multisession experience** form.
