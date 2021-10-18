@@ -58,7 +58,7 @@ To add new phone numbers to your business, you must do the following:
       > The resource group name should be unique within a given subscription.
    - Resource name: 
    
-   b. If you wish to use an existing resource, see [Use existing resource](#use-existing-resource) to connect to Azure Communication Services.
+   b. If you'd like to use an existing resource, see [Use existing resource](#use-existing-resource) to connect to Azure Communication Services.
 
 3. Select **Deploy** to deploy the resource through Dynamics 365 and then select **Add number**.
  
