@@ -316,6 +316,8 @@
         href: dynamic-email-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
+      - name: "Preview: Use AI to kickstart email creation with Content ideas"
+        href: content-ideas.md
       - name: Generate iCalendar files for events and sessions
         href: add-to-calendar.md
       - name: Check your work using previews and test sends
@@ -376,7 +378,7 @@
         href: segments-interaction.md
       - name: Generate behavioral segments from journey results
         href: generate-segment-from-journey.md
-      - name: "Preview: Natural language use in segments"
+      - name: "Use natural language to create segments"
         href: nl-segment-build.md
       - name: Export dynamic-segment members to Excel
         href: segments-export-members.md

@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Conversation insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Conversation insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 08/13/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,6 @@ ms.custom: intro-internal
 ## Introduction
 
 The Omnichannel intraday insights dashboard contains the Conversation insights report that helps provide an overview of the conversations across the different channels.
-
 
 ## The Conversation insights report
 
@@ -39,27 +38,27 @@ The **Conversation insights** report displays the following metrics about conver
 
 | Metric | Description | Availability|
 |-------|-------|------|
-| Inbound chats/Inbound conversations/Inbound calls | The number of chat, conversations, or calls that were started, closed, within the last 24 hours. | Live chat, Digital messaging, Voice (preview) |
-| Ongoing chats/Ongoing conversations/Ongoing calls|The number of chat, conversations, or calls in active, waiting, and wrap-up statuses. | Live chat, Digital messaging, Voice (preview)|
-|Service level | The percentage of chats that were answered within 30 seconds. The 30 seconds threshold can be modified to suit your business needs. | Live chat|
-| Chats waiting in queue/Conversations waiting in queue/Calls waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |Live chat, Digital messaging, Voice (preview)|
-| Closed chats/Closed conversations/Closed calls | The number of conversations closed in the last 24 hours. |Live chat, Digital messaging, Voice (preview)|
-| Longest wait time | The longest time that a conversation is in queue waiting to be picked up by an agent. | Live chat, Digital messaging, Voice (preview)|
-| Average handle time | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). | Live chat, Digital messaging, Voice (preview)|
-| Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned. | Live chat, Digital messaging|
-| Average wrap time (min) | The average time taken to wrap up conversations. | Live chat, Digital messaging|
+| Inbound chats/Inbound conversations/Inbound calls | The number of chat, conversations, or calls that were started, closed, within the last 24 hours by a bot or an agent. | Live chat, Digital messaging, Voice (preview) |
+| Ongoing chats/Ongoing conversations/Ongoing calls|The number of chat, conversations, or calls  by a bot or an agent in active, waiting, and wrap-up statuses. | Live chat, Digital messaging, Voice (preview)|
+|Service level | The percentage of chats that were accepted by an agent within 30 seconds. The threshold of 30 seconds can be modified to suit your business needs. More information: [Modify thresholds](#modify-thresholds). Only the conversations that are directly handled by the agent or escalated by the bot to the agent are considered; conversations handled and closed by the bot are excluded.| Live chat|
+| Chats waiting in queue/Conversations waiting in queue/Calls waiting in queue | The number of conversations that are waiting in the queue to be accepted by the bot or agent. |Live chat, Digital messaging, Voice (preview)|
+| Closed chats/Closed conversations/Closed calls | The number of conversations closed in the last 24 hours by the bot or agent. |Live chat, Digital messaging, Voice (preview)|
+| Longest wait time | The longest time that a conversation is in queue waiting to be accepted by an agent. | Live chat, Digital messaging, Voice (preview)|
+| Average handle time | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). Is derived as cumulative handle time by total number of conversations, calls, and chats, excluding the abandoned ones. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded. | Live chat, Digital messaging, Voice (preview)|
+| Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent accepts it. The average wait time is computed for only closed conversations. Is derived as the total wait time by total number of conversations, excluding the abandoned ones. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded. | Live chat, Digital messaging|
+| Average wrap time (min) | The average time taken to wrap up conversations. Is derived as the total wait time by total number of conversations, excluding abandoned ones. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded.| Live chat, Digital messaging|
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |Live chat, Digital messaging, Voice (preview)|
-| Chat abandon rate/Call abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. |Live chat, Voice (preview)|
-| Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. | Live chat, Digital messaging|
-|SLA - First response time | The percentage of conversations wherein the customer received the very first response from the agent within 1 minute. The 1 minute threshold can be modified to suit your business needs. |Available for only digital messaging channels; not available in Government Community Cloud (GCC).|
-|SLA - Response time | The percentage of messages wherein the customer received a response within 1 min from the agent. The 1 minute threshold can be modified to suit your business needs. |Available for only digital messaging channels; not available in GCC. |
-| Avg - First response time (min) | The average time that a customer waited to receive the first response from  agents. | Live chat, Digital messaging; not available in GCC. |
-|Avg - Response time (min)| The average time that a customer waited to receive responses from agents.| Live chat, Digital messaging; not available in GCC. |
-| Service level - Speed to answer |The percentage of voice calls that were answered within 30 seconds. The 30 seconds threshold can be modified to suit your business needs.|Voice (preview)|
-| Avg. talk time (min)| The average time an agent spent talking with a customer over a voice call. | Voice (preview)|
-| Avg. hold time (min) |  The average time an agent put a customer on hold over a voice call. | Voice (preview)|
-|Avg. after call work time| The average time an agent took to wrap up a voice call.| Voice (preview)|
-|Avg. speed to answer|The average time it took for a customer call to be answered.| Voice (preview)|
+| Chat abandon rate/Call abandon rate | The percentage of conversations in which customers left before an agent accepted it. After escalation by a bot, when customer leaves before an agent accepts it is also considered as abandoned. Is derived as the number of abandoned conversations or calls by number of chats or calls.|Live chat, Voice (preview)|
+| Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. Is derived as the number of sessions transferred by total sessions. This includes any sessions created by a bot and escalated to an agent. | Live chat, Digital messaging|
+|SLA - First response time | The percentage of conversations wherein the customer received the first response from the agent within 1 minute. The threshold of one minute can be modified to suit your business needs. See Modify thresholds. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded. |Available for only digital messaging channels; not available in Government Community Cloud (GCC).|
+|SLA - Response time | The percentage of messages wherein the customer received a response within 1 min from the agent. The threshold of one minute can be modified to suit your business needs. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded.|Available for only digital messaging channels; not available in GCC. |
+| Avg - First response time (min) | The average time that a customer waited to receive the first response from  agents. First response time is the difference between the first message from the customer and first response from the agent in a conversation, when there are multiple messages and responses exchanged between the customer and agent in quick succession. Is derived as the total first response time by the total number of conversations, excluding the abandoned ones. For a conversation escalated by the bot, the first response time is the difference between the agent’s first response and escalation time.| Live chat, Digital messaging; not available in GCC. |
+|Avg - Response time (min)| The average time that a customer waited to receive responses from agents. Is derived as the total response time by the total number of such responses. Response time is the difference between the earliest message from the customer and the earliest response from the agent when there are multiple messages and responses exchanged between the customer and agent in quick succession. This excludes any responses from the bot to customer, and considers only the responses from the agent, excluding the first response, after escalation by the bot| Live chat, Digital messaging; not available in GCC. |
+| Service level - Speed to answer |The percentage of voice calls that were answered within 30 seconds by the agent. The threshold of 30 seconds can be modified to suit your business needs. See Modify thresholds. Only the calls that are directly handled by an agent or escalated by the bot to agent are considered; calls handled and closed by the bot are excluded.|Voice (preview)|
+| Avg. talk time (min)| The average time the agent spent talking with a customer over a voice call. Only the calls that are directly handled by the agent or escalated by the bot to agent are considered; calls handled and closed by the bot are excluded.| Voice (preview)|
+| Avg. hold time (min) |  The average time the agent put a customer on hold over a voice call. Is derived as the total hold time by total calls put on hold by the agent. | Voice (preview)|
+|Avg. after call work time| The average time an agent took to wrap up a voice call. Is derived as the total after call work time by number of calls, excluding the abandoned ones. Only the calls that are directly handled by the agent or escalated by the bot to agent are considered; calls handled and closed by the bot are excluded.| Voice (preview)|
+|Avg. speed to answer|The average time it took for a customer call to be answered. Is derived as the total time to accept by the number of calls accepted, excluding the abandoned ones. Only the calls that are directly handled by the agent or escalated by the bot to agent are considered; calls handled and closed by the bot are excluded.| Voice (preview)|
 |Customer Sentiment|An automatic and unbiased measurement of satisfaction levels of the customer in real time. More information: [Understand real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md#understand-real-time-customer-sentiment) |Voice (preview)|
 ||||
 
@@ -86,7 +85,7 @@ The **Ongoing conversations** table displays the following metrics based on the 
 | Avg. response time (min)|The average time the customer waited for the agent to respond to their messages. Not available in GCC.|
 | Total response time (min)|The total time the customer waited for the agent to respond to their messages. Not available in GCC.|
 | Transfers|The total number of transfers made if the conversation is routed to another agent.|
-|Escalations |The total number of escalations made. It does not include escalation from a bot to a human agent.|
+|Escalations |The total number of escalations made. It does not include escalation from the bot to agent.|
 | Speed to answer (sec) | **For voice channel (Preview)**: The time it took for a customer call to be answered. |
 | Talk time (min)| **For voice channel (Preview)**: The total time spent by the customer and agent talking on the voice call. It’s the difference between the handle time and cumulative time in hold and after call work time. |
 | Hold time (min)|**For voice channel (Preview)**: The total time an agent has put a customer on hold.|
@@ -103,6 +102,37 @@ The **Closed conversations** table provides information related to all the conve
 
 You can also assign a conversation to an agent or route it to another queue. More information: [Monitor and assign conversations](monitor-conversations.md#assign-conversations).
 
+### Factors that affect response time
+
+First response time is calculated as the difference between the first message from the customer and the first response from the agent in a conversation that might contain more than one message or response. The successive exchange of messages will not be counted towards the calculation of the first response time.
+
+Response time is the difference between the earliest message from the customer and the earliest response from the agent, excluding the first message and response from the customer and agent respectively.
+
+For example, a customer sends a message "Hello" at 2:20 PM and another message "I have a problem" at 2:21 PM. The agent responds to the first message as "Hello, how may I help you?" at 2:21 PM and responds to second message with "What is the issue you are facing?" at 2:23 PM. The first response time will be the difference between 2:20 PM and 2:21 PM, which is one minute.
+
+The first response time and response time is calculated by keeping different factors into account. If operating hours are defined on the queue, the wait period of the out-of-operating hours is not considered in the response time. For example, an organization's operating hours are from 9:00 AM to 5:00 PM. When a chat is initiated by a customer at 8:55 AM, and agent responds at 9:05 AM. The response time will be considered as five minutes and not consider the five minutes that were outside of the operating hours.
+
+If a conversation is transferred from one queue to another, the messages exchanged in the currently assigned queue and its operating hours are taken into account for calculating the response time.
+
+If the operating hours of the queue are updated to a new schedule, the latest operating hours are considered in calculating the response time for messages exchanged post the change.
+
+### Modify thresholds
+
+You can update the out-of-box threshold value in Microsoft Power BI to suit your business needs.
+
+1. Open the report in Power BI.
+
+2. On the report page, on the command menu, select **Edit**, and then select the KPI for which you want to change the threshold. The **Fields** pane appears on the right.
+
+3. Expand the field on which the KPI is based, and scroll down to the fields that denote the time.
+
+4. Clear the current selection, and then select the time field whose value meets your requirement.
+
+    A sample change of threshold is as follows.
+
+    :::image type="content" source="media/modify-thresholds.png" alt-text="Modify threshold value.":::
+
+5. Save the changes.
 
 ### See also
 

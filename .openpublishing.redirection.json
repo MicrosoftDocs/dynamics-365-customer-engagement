@@ -1,6 +1,36 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/routing-workstream-queues.md",
+      "redirect_url": "configure-work-classification",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-advanced-features.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-entity-definitions.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-portal-setup.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-user-experience.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-user-setup.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/bring-your-own-channel-sample-html.md",
       "redirect_url": "test-custom-channel-sample-html",
       "redirect_document_id": "false"
@@ -1936,6 +1966,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/fs-mobile-extend-woodford-trial.md",
+      "redirect_url": "activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/install-sample-data-8-x.md",
       "redirect_url": "user-guide",
       "redirect_document_id": "false"
@@ -3272,7 +3307,7 @@
     },
     {
       "source_path": "ce/gamification/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/gamification/help-hub",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
       "redirect_document_id": "false"
     },
     {
@@ -21483,6 +21518,166 @@
       "source_path": "ce/customer-service/channel-integration-framework/known-issues.md",
       "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2171869",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/gamification/best-practices-kpis.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/browser-system-requirements.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/configure-kpis.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/configure-view-tvs.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/contact-commissioner.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/contents.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/define-weekly-awards.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/dynamics-365-gamification-gdpr.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/for-commissioners-game-managers.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/for-players-fans.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/frequently-asked-questions.yml",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/get-started.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/glossary.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/help-hub.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/increase-employee-productivity.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/legal-information.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/log-time-off.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/manage-fantasy-team.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/manage-gamification-in-dynamics-365-online.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/manage-players-fans.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/personalize-game-experience.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/player-stats.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/release-notes.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/run-games.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/schedule-weekly-one-time-emails.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/set-up-profile.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/sign-in.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/smack-talk-post.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/troubleshooting-guide.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/understand-security-roles.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/update-scores-using-excel-point-scoring.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/view-leaderboard.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
     }
   ]
 }

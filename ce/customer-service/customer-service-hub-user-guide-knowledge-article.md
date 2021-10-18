@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 10/01/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -284,8 +284,9 @@ This is an indicative preview. Content rendered can be different in the actual d
 
 When you're creating a knowledge article, you can attach one or more files to it to help provide comprehensive information for your customers. Keep in mind the following when attaching files:
 
-- There isn't a limit to the number of articles that can be attached to a knowledge article, but the file size of the files you attach cannot exceed 32 MB.
+- There is no limit to the number of articles that can be attached to a knowledge article, but the file size mustn't exceed 32 MB.
 - Your administrator may limit the file size for knowledge articles.
+- You must save your knowledge article before attaching files to it.
 
 To attach a file to a knowledge article:
 
@@ -297,7 +298,7 @@ To attach a file to a knowledge article:
     - **My Device** lets you browse and select files from your local device.
     - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub.
 
-**Work with file attachments**
+### Work with file attachments
 
 The **Attached files** section displays all of your knowledge article attachments in a tile view horizontally above your message. The default setting for the maximum number of files that can be displayed is five attachments before the page forward functionality is displayed.
 
@@ -308,7 +309,17 @@ For your attached files, use these commands to do the following:
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
 
-**Update knowledge article attachments for portal**
+#### User permissions to view and download file attachments
+
+For users to be able to view and download file attachments, you'll need to grant the following permissions to the Knowledge Article table:
+
+|Task|Access needed |  
+|--------|-------------|  
+| Download and search attachments | Read |
+| Add attachments | Create, append, append-to |
+| Remove and add existing attachments | Append or append-to |
+
+### Update knowledge article attachments for portal
 
 With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature by doing the following:
 
@@ -318,10 +329,10 @@ With this new attachment capability, you'll need to stop using notes attachments
 
 By using knowledge article attachments for the portal, keep in mind the following:
 
-- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type.md)
+- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type)
 - We'll do a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, we'll only migrate the notes attachments that are used in the portal to new attachments before the middle of October 2022 for all users.  
 
-For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article.md).
+For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
@@ -534,9 +545,9 @@ After the content in the article is complete and reviewed, you can publish the a
   
 7.  If you want to schedule the article to publish on a later date, on the **Summary** tab, in the **Publish On** field, select a date and time to publish the article.  
   
-8.  On the command bar, select **More** > **Publish**.  
+8.  Select **Finish**. The Publish dialog is displayed.
   
-    -   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publishing Date Time** field, select a date and time.  
+    -   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
   
     -   In the **Published Status** field, select what status the article should be in after it is published. By default, **Published** is selected.  
   
@@ -547,9 +558,10 @@ After the content in the article is complete and reviewed, you can publish the a
     -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article**, select **Yes**.  
   
     -   Select **Publish**. 
-
-        ![Knowledge article publish.](media/ka-publish.png)
-
+    :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
+    
+> [!NOTE]
+> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer).
 
 ## Track basic details of an article  
 

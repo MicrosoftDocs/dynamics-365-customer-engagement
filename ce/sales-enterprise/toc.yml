@@ -158,6 +158,32 @@
         href: capture-forecast-category-opportunity.md
       - name: Add forecast grid and configuration options in site map
         href: add-forecast-site-map.md
+    - name: Sales accelerator
+      items: 
+      - name: Configure sales accelerator for assignment rules
+        href: sales-accelerator-assignment-rules.md
+      - name: Manage segments
+        href: manage-segments.md
+        items:
+        - name: Create and activate a segment
+          href: create-and-activate-a-segment.md
+        - name: Edit a segment
+          href: edit-a-segment.md
+        - name: Delete or deactivate a segment
+          href: delete-deactivate-a-segment.md    
+      - name: Manage assignment rules
+        href: create-manage-assignment-rules.md
+        items:
+        - name: Create and activate an assignment rule
+          href: create-and-activate-assignment-rule.md
+        - name: Edit an assignment rule
+          href: edit-assignment-rule.md
+        - name: Delete or deactivate an assignment rule
+          href: delete-deactivate-assignment-rule.md
+        - name: Manage sales teams
+          href: manage-sales-teams.md
+        - name: Manage seller attributes
+          href: manage-seller-attributes.md 
     - name: Playbook management
       items: 
       - name: Define playbook categories
@@ -322,6 +348,10 @@
         href: mark-playbook-completed.md
       - name: Track playbook activities
         href: track-playbook-activities.md
+    - name: Sales accelerator
+      items:
+      - name: Configure your work availability
+        href: configure-your-work-availability.md    
     - name: Get started with in-app marketing
       items: 
       - name: Overview
