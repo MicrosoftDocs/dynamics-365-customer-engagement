@@ -24,7 +24,7 @@ Admins can now use a single form to set up frontline workers in their organizati
 
 With a single form, admins can: 
 
-1. Set up one or more frontline workers in their organization with the appropriate [characteristics (skills and certifications)](set-up-characteristics.md), [territories](set-up-territories.md), time zone, [security roles](https://docs.microsoft.com/dynamics365/field-service/view-user-accounts-security-roles), [field security profiles](view-user-accounts-security-roles.md), and [mobile offline profile](mobile-power-app-system-offline.md). 
+1. Set up one or more frontline workers in their organization with the appropriate [characteristics (skills and certifications)](set-up-characteristics.md), [territories](set-up-territories.md), time zone, [security roles](view-user-accounts-security-roles.md), [field security profiles](view-user-accounts-security-roles.md), and [mobile offline profile](mobile-power-app-system-offline.md). 
 2. View and update the defaulted security role, field security profile, and mobile offline profile set for their frontline workers, which controls the data their frontline workers can see and access. Admins can  update these permissions or add any custom security roles, field security profiles, or mobile offline profile.
 3. Automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile app. 
 
