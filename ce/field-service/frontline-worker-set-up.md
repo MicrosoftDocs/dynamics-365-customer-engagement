@@ -37,7 +37,7 @@ After setting up one or more frontline workers, admins can then:
 > Bing Maps has been enabled for new organizations. One-click directions has been enabled for all frontline workers. For more information, learn more [here](field-service-maps-address-locations.md). For privacy information, see: [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
 
 ## Prerequisites 
-- Your organization's global admin or system admin must have a Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permissions](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+- Your organization's global admin or system admin must have a Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permissions](/microsoft-365/admin/add-users/about-admin-roles).
 - Each frontline worker must have a Dynamics 365 Field Service license assigned through the [Microsoft Admin Center](https://admin.microsoft.com). 
 
 ## Definitions 
