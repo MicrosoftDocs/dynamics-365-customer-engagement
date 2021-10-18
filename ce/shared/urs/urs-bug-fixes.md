@@ -1,3 +1,17 @@
+## 3.12.64.46 - 2021 wave 2 early access general availability 
+
+(Includes Resource Scheduling controls version 1.2.2.212724)
+
+The following Universal Resource Scheduling 2021 Wave 2 features in general availability are included in this release.
+
+- Resource work hours extensibility. 
+- Improved user experience with new schedule board enhancements.
+
+This release also includes all the fixes included in the [2021 wave 2 early access](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126043---2021-wave-2-early-access), [2021 wave 2 early access update 1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126121---2021-wave-2-early-access-update-1) and [2021 wave 2 early access update 2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126249---2021-wave-2-early-access-update-2).
+
+- Fixed a bug on the legacy schedule board where expanding a pool resource threw an exception. 
+- This release contains an update to the new schedule board; now, new schedule assistant and find availability functionality can also be used with the multiday requirements that last for multiple days with associated requirement detail records. We also shipped many experience, performance, and stability improvements. For any schedulable entity to be supported on the new schedule assistant experience, the schedulable entity record needs to have an associated requirement. Support for schedulable entity records without an associated resource requirement record will be added in a future update. A few performance improvements will also be made available on the Schedule assistant and schedule board in future updates. 
+
 ## 3.12.62.49 - 2021 wave 2 early access update 2
 
 (Includes Resource Scheduling controls version 1.2.2.2126411)

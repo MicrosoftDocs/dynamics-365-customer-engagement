@@ -60,7 +60,7 @@
       items: 
       - name: Provision Omnichannel for Customer Service
         href: omnichannel-provision-license.md
-      - name: Export and import Omnichannel for Customer Service
+      - name: Export and import app configuration data
         href: export-import-omnichannel-data.md
       - name: Uninstall Omnichannel for Customer Service
         href: remove-omnichannel.md
@@ -204,6 +204,22 @@
             href: ../app-profile-manager/reference/microsoft-apm/updateContext.md                   
     - name: Readme
       href: https://go.microsoft.com/fwlink/p/?linkid=2141982
+  - name: Community
+    items: 
+    - name: Overview of Community
+      href: community-overview.md
+    - name: Get started with Community
+      href: community-get-started.md
+    - name: Create a Community forum
+      href: community-forum-setup.md
+    - name: Moderator experience
+      href: community-moderator-experience.md
+    - name: Community FAQs
+      href: community-faqs.md
+    - name: Advanced settings   
+      items:                
+      - name: Create new websites
+        href: community-create-websites.md 
   - name: Unified routing and assignment
     items:
     - name: Overview of unified routing
@@ -212,8 +228,6 @@
         href: overview-unified-routing.md
       - name: How to set up unified routing
         href: set-up-routing-process.md
-      - name: Routing and assignment rules
-        href: routing-workstream-queues.md
     - name: Administrator experience
       items:
       - name: Create and manage workstreams
@@ -246,6 +260,10 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
+      - name: Use sentiment prediction-based routing
+        href: use-sentiment-prediction-for-routing.md
+      - name: Use effort estimation model for routing
+        href: use-effort-estimation-for-routing.md
       - name: Configure basic routing
         items:
         - name: Create and manage basic queues for cases
@@ -264,6 +282,12 @@
           href: persona-privilege-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
+    - name: Supervisor experience
+      items:
+      - name: View historical analytics reports
+        href: supervisor-historical-analytics.md
+      - name: Access diagnostics for unified routing
+        href: supervisor-access-diagnostics.md
     - name: Agent experience
       items:
       - name: Route records manually using unified routing
@@ -272,6 +296,8 @@
         href: work-with-queues.md
       - name: Manage case queues and route cases
         href: customer-service-hub-user-guide-case-queues-and-routing.md
+      - name: Manage skills
+        href: manage-skills.md
     - name: Developer experience
       items: 
       - name: How unified routing affects queue items and their APIs
@@ -336,8 +362,12 @@
         href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
+      - name: Recalculate SLAs on terminal status
+        href: enable-sla-recalculation.md
       - name: Create entitlements to define support terms
         href: create-entitlement-define-support-terms-customer.md
+      - name: Use entitlement templates to set up entitlements  
+        href: set-up-entitlements-templates.md
       - name: Manage service configuration settings
         href: ../admin/system-settings-dialog-box-service-tab.md
       - name: Manage service schedules
@@ -392,8 +422,12 @@
         href: set-up-search-providers.md
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
+      - name: Create and manage knowledge articles 
+        href: customer-service-hub-user-guide-knowledge-article.md
       - name: Configure the knowledge article authoring language
         href: set-knowledge-article-authoring-language.md
+      - name: Configure the origin allow list for knowledge articles
+        href: configure-knowledge-article-origin-allow-list.md
       - name: Create a knowledge article using a template
         href: create-knowledge-article-using-template.md
       - name: Create knowledge article templates in Customer Service
@@ -414,8 +448,6 @@
         href: oc-search-knowledge-articles.md
     - name: Agent experience
       items: 
-      - name: Create and manage knowledge articles
-        href: customer-service-hub-user-guide-knowledge-article.md
       - name: Search for knowledge articles
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
@@ -670,6 +702,8 @@
         href: enable-sound-notifications.md
       - name: Enable missed notifications
         href: manage-missed-notifications.md
+      - name: Enable automatic update of presence on rejection of work assignment
+        href: enable-agent-reject-notifications.md
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
@@ -736,6 +770,8 @@
         href: enable-knowledge-search-insights.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
+      - name: Configure AI suggestions for article keywords and descriptions
+        href: configure-ai-suggested-article-keywords-description.md
       - name: Configure Customer Service analytics dashboards in Power BI
         href: configure-customer-service-analytics-dashboard.md
       - name: Configure AI topic clustering for conversation
@@ -766,6 +802,8 @@
           href: agent-dashboard-cs.md
         - name: Case Topics dashboard
           href: case-topics-dashboard-cs.md
+        - name: Historical analytics for unified routing in Customer Service
+          href: cs-historical-analytics-unified-routing.md
         - name: Omnichannel conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
@@ -776,6 +814,8 @@
           href: oc-bot-dashboard.md
         - name: Omnichannel Conversation topic dashboard
           href: oc-conversation-topics-dashboard.md
+        - name: Historical analytics for unified routing in Omnichannel for Customer Service
+          href: oc-historical-analytics-unified-routing.md  
       - name: Knowledge search analytics dashboard
         href: knowledge-search-analytics-cs.md
       - name: View analytics dashboards created in Power BI
@@ -936,6 +976,8 @@
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
+    - name: Migration changes for new Omnichannel messaging platform
+      href: migrate-acs.md
     - name: Migrate service scheduling
       items: 
       - name: Introduction to service scheduling migration

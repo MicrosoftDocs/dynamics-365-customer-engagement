@@ -72,7 +72,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 
 ## Waiting
 
-A conversation in waiting doesn't block your capacity. The conversation gets transitioned to waiting when you (agent) close the session without ending the conversation (without selecting **End** button on communication panel) or the customer closes the browser window without closing the chat widget. For example, you're waiting for some information from customer and don't want to end the conversation or the customer's browser closes unexpectedly.
+A conversation in waiting doesn't block your capacity. The conversation gets transitioned to waiting when you (agent) close the session without ending the conversation (that is, without selecting the **End** button on the communication panel) or when the customer closes the browser window without closing the chat widget. For example, you're waiting for some information from customer and don't want to end the conversation or the customer's browser closes unexpectedly.
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** under the following scenarios.
 
@@ -118,7 +118,7 @@ The following table describes the channel, status reason, and default configured
 
 For example, let's say the scheduler runs every 12 hours starting at 0000 hours.
 
-For the chat channel, consider a conversation that's in the **Open** state at 1100 hours of Jan 10, 2020, and remains in this state until 2259 hours at night. Because the conversation is open for more than 20 minutes (default configured time), this conversation is eligible for automatic closure. At 2300 hours of Jan 10, 2020, when the scheduler runs, the conversation that's in the **Open** state is moved to the **Closed** state.
+For the chat channel, consider a conversation that's in the **Open** state at 1800 hours of Jan 10, 2020, and remains in this state until 2359 hours at night. Because the conversation is open for more than 20 minutes (default configured time), this conversation is eligible for automatic closure. At 0000 hours of Jan 11, 2020, when the scheduler runs, the conversation that's in the **Open** state is moved to the **Closed** state.
 
 
 ### Conversation in waiting
