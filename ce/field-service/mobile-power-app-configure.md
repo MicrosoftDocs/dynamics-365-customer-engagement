@@ -133,7 +133,7 @@ Select **Views**, then select the view for mobile. By default, this is typically
 From the view, you can then add any column from tables (Entities) that have a relationship to the bookable resource booking. For example, if you wanted to show **Work Order Priority**, select **Work Order**, then add the **Priority** column to the view. Note the name of the column, as the name will be used later when customizing the field. In our example, the name is *msdyn_priority*.
 
 > [!Note]
-> If using fields from a different entity you must create a relationship between the Bookable Resource Booking and that entity. When referencing the relationship in the control, be sure to referene the full Lookup Field name as fieldName.Attribute. 
+> If using fields from a different entity, you must create a relationship between the bookable resource booking and that entity. When referencing the relationship in the control, be sure to reference the full lookup field name as `fieldName.Attribute`. 
 
 > [!div class="mx-imgBorder"]
 > ![Editing a view to add new attribute in Power Apps](./media/mobile-2020-calendar-control-1.png)
@@ -169,8 +169,7 @@ Custom fields are also shown on the calendar's day view when the booking duratio
 
 
 > [!Note]
-> If you have configured multiple views for the mobile application, it is recommended you the new fields into each view which can be accessed from the mobile app.
-
+> If you have configured multiple views for the mobile app, it is recommended you include the new fields into each view that can be accessed from the mobile app.
 
 
 ## Edit views
