@@ -60,7 +60,7 @@
       items: 
       - name: Provision Omnichannel for Customer Service
         href: omnichannel-provision-license.md
-      - name: Export and import Omnichannel for Customer Service
+      - name: Export and import app configuration data
         href: export-import-omnichannel-data.md
       - name: Uninstall Omnichannel for Customer Service
         href: remove-omnichannel.md
@@ -228,8 +228,6 @@
         href: overview-unified-routing.md
       - name: How to set up unified routing
         href: set-up-routing-process.md
-      - name: Routing and assignment rules
-        href: routing-workstream-queues.md
     - name: Administrator experience
       items:
       - name: Create and manage workstreams
@@ -262,6 +260,10 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
+      - name: Use sentiment prediction-based routing
+        href: use-sentiment-prediction-for-routing.md
+      - name: Use effort estimation model for routing
+        href: use-effort-estimation-for-routing.md
       - name: Configure basic routing
         items:
         - name: Create and manage basic queues for cases
@@ -280,6 +282,12 @@
           href: persona-privilege-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
+    - name: Supervisor experience
+      items:
+      - name: View historical analytics reports
+        href: supervisor-historical-analytics.md
+      - name: Access diagnostics for unified routing
+        href: supervisor-access-diagnostics.md
     - name: Agent experience
       items:
       - name: Route records manually using unified routing
@@ -358,6 +366,8 @@
         href: enable-sla-recalculation.md
       - name: Create entitlements to define support terms
         href: create-entitlement-define-support-terms-customer.md
+      - name: Use entitlement templates to set up entitlements  
+        href: set-up-entitlements-templates.md
       - name: Manage service configuration settings
         href: ../admin/system-settings-dialog-box-service-tab.md
       - name: Manage service schedules
@@ -792,6 +802,8 @@
           href: agent-dashboard-cs.md
         - name: Case Topics dashboard
           href: case-topics-dashboard-cs.md
+        - name: Historical analytics for unified routing in Customer Service
+          href: cs-historical-analytics-unified-routing.md
         - name: Omnichannel conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
@@ -802,6 +814,8 @@
           href: oc-bot-dashboard.md
         - name: Omnichannel Conversation topic dashboard
           href: oc-conversation-topics-dashboard.md
+        - name: Historical analytics for unified routing in Omnichannel for Customer Service
+          href: oc-historical-analytics-unified-routing.md  
       - name: Knowledge search analytics dashboard
         href: knowledge-search-analytics-cs.md
       - name: View analytics dashboards created in Power BI
@@ -962,6 +976,8 @@
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
+    - name: Migration changes for new Omnichannel messaging platform
+      href: migrate-acs.md
     - name: Migrate service scheduling
       items: 
       - name: Introduction to service scheduling migration

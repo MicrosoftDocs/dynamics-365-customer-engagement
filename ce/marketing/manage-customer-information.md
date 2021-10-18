@@ -1,7 +1,7 @@
 ---
 title: "Work with contact, account, and lead records (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find, create and use contact, account, and lead records in Dynamics 365 Marketing."
-ms.date: 10/04/2019
+ms.date: 10/11/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,7 +20,7 @@ search.app:
 
 # Manage information about your current and prospective customers
 
-Three of the most important and common types of database records are contacts, accounts, and leads. These fundamental business entities are shared by most model-driven apps in Dynamics 365, including Dynamics 365 Marketing. Read this topic to learn how these basic entities are used an affected by the Marketing app.
+Three of the most important and common types of database records are contacts, accounts, and leads. These fundamental business entities are shared by most model-driven apps in Dynamics 365, including Dynamics 365 Marketing. Read this topic to learn how these basic entities are used and affected by the Marketing app.
 
 <a name="contacts"></a>
 
