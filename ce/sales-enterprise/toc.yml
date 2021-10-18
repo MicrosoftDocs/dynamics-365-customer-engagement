@@ -39,14 +39,14 @@
       items:
       - name: System Settings - Sales
         href: system-settings-sales-tab.md
-      - name: Create business units
+      - name: Create business units 
         href: /power-platform/admin/create-edit-business-units?context=/dynamics365/context/sales-context
       - name: Predefined security roles for Sales
         href: security-roles-for-sales.md    
       - name: Create users and assign security roles
         href: /power-platform/admin/create-users-assign-online-security-roles
       - name: Set up sales territories
-        href: /admin/set-up-sales-territories-organize-business-markets-geographical-area
+        href: /power-platform//admin/set-up-sales-territories-organize-business-markets-geographical-area
       - name: Add or remove sales territory members
         href: /power-platform/admin/add-remove-territory-members?context=/dynamics365/context/sales-context
       - name: Hierarchy security to control access
@@ -247,7 +247,7 @@
         href: create-edit-goal-metric.md
       - name: Define a goal rollup query
         href: create-edit-goal-rollup-query-sales.md
-    - name: Guided selling
+    - name: Sales engagement
       items:
       - name: Sales accelerator
         items:
@@ -519,7 +519,7 @@
         href: add-activity-campaign-using-app-marketing-sales.md
       - name: Track a marketing campaign response
         href: track-marketing-campaign-response-using-app-marketing-sales.md             
-    - name: Guided selling
+    - name: Sales engagement
       items:
       - name: Sales accelerator
         items:
