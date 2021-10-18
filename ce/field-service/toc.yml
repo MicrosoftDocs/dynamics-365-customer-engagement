@@ -300,7 +300,7 @@
     href: manual-inventory-journals.md
 - name: Field Service for end customers
   items: 
-  - name: Homepage
+  - name: Customer experience homepages
     href: field-service-portal-homepage
   - name: Self-scheduling for customers
     href: scheduling-self-customers.md
