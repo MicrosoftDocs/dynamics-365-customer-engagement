@@ -170,6 +170,13 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 1. Select the plus sign (+) to expand the tab menu.
 2. Select Email Templates or Email Signatures.
 
+### Use the inbox
+
+As an agent, when you open Customer Service workspace, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need additional time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp and Teams.
+
+Placeholder for updated screen shot
+:::image type="content" source="media/inbox-csw.png" alt-text="Customer Service workspace inbox" border="false":::
+
 ### Productivity pane with Smart Assist
 
 While you are working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros.
