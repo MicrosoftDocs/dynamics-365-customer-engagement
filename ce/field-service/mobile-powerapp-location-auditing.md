@@ -42,7 +42,7 @@ For a guided walkthrough, check out the following video.
 First, we need to make sure location tracking is enabled in Field Service. These settings allow a technician's location data to be sent to Dynamics 365 Field Service, which surfaces a technician’s location on the schedule board. The technician’s location data is stored in the geolocation tracking entity.
 
 > [!Note]
-> As of the Wave 2 October 2021 Field Service update, location tracking is enabled by default for all new Field Service environments.
+> As of the 2021 wave 2 October Field Service update, location tracking is enabled by default for all new Field Service environments.
 
 
 In Field Service, go to **Geolocation Settings**.
