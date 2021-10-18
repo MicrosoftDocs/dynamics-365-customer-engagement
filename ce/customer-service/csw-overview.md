@@ -172,7 +172,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 ### Use the inbox
 
-As an agent, when you open Customer Service workspace, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need additional time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp and Teams.
+As an agent, when you open Customer Service workspace, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need more time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp and Teams.
 
 Placeholder for updated screen shot
 :::image type="content" source="media/inbox-csw.png" alt-text="Customer Service workspace inbox" border="false":::
