@@ -1,7 +1,7 @@
 ---
 title: Search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Customer Service Hub.
-ms.date: 06/21/2021
+ms.date: 10/18/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
