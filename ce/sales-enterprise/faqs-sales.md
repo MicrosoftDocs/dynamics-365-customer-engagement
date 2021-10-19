@@ -1,5 +1,5 @@
 ---
-title: "Frequently asked questions for Dynamics 365 Sales Enterprise | MicrosoftDocs"
+title: "Frequently asked questions - Dynamics 365 Sales | MicrosoftDocs"
 description: "Find a list of frequently asked questions that are related to different features in Dynamics 365 Sales Enterprise."
 ms.date: 09/29/2020
 ms.topic: article
@@ -200,6 +200,19 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 -	On the [Advanced](forecast-configure-advanced-settings.md) page, you can enable or disable auto-hide parent row, multi-currency selection, and customize access to edit fields in the underlying records grid.    
 When you save and publish the configuration, the changes will be applied immediately to the forecast. If you update data (simple columns and adjust fields), these changes may take up to two hours to reflect in the forecast. 
 
+## Licenses
 
+**Question**:<br>What's the difference between Sales Premium and Sales Insights?     
+**Answer**:<br>Sales Premium refers to the license that includes both Sales Enterprise and Sales Insights capabilities. Throughout this document, the term Sales Insights refers to the capabilities that offer insights into sales transactions, relationships, and conversations.
+
+The basic sales insights capabilities are also available with the Sales Enterprise license but Sales Premium offers advanced insights. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.     
+
+**Question**:<br>Where can I find the comparison chart for Dynamics 365 Sales licenses? 
+**Answer**:<br>The following license options are available for Dynamics 365 Sales:
+- Sales Premium
+- Sales Enterprise
+- Sales Professional
+
+For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
