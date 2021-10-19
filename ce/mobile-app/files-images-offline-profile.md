@@ -2,7 +2,7 @@
 title: "Configure mobile offline profiles for files and images| MicrosoftDocs"
 ms.custom: 
 description: Configure mobile offline profiles for files and images for Dynamics 365 phones and tablets app and Power Apps mobile.
-ms.date: 10/15/2021
+ms.date: 10/18/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -145,5 +145,5 @@ You can use the **[Offline Status](work-in-offline-mode.md#see-whether-offline-m
 - The number of images is listed for the **Image Descriptor** table.
 - The number of files are listed for each table with file attachments as shown for **DemoTable2** table.
 
-> [!div class="mx-imgBorder"]
->![Offline status of files and images.](media/offline-status.png "Offline status of files and images.")
+  > [!div class="mx-imgBorder"]
+  >![Offline status of files and images.](media/offline-status.png "Offline status of files and images.")
