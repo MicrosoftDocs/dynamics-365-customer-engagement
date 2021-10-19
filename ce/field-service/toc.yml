@@ -301,7 +301,7 @@
 - name: Field Service for end customers
   items: 
   - name: Customer experience homepages
-    href: field-service-portal-homepage
+    href: field-service-portal-homepage.md
   - name: Self-scheduling for customers
     href: scheduling-self-customers.md
   - name: Send technician arrival time and current map location
