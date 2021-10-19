@@ -856,9 +856,7 @@
         href: configure-interactive-dashboards-customer-service-hub.md
   - name: Service scheduling
     items: 
-    - name: Upcoming changes
-      href: scheduling-overview.md
-    - name: Customer Service Scheduling
+    - name: Core Service Scheduling
       items: 
       - name: Overview of Service scheduling
         href: basics-service-service-scheduling.md
