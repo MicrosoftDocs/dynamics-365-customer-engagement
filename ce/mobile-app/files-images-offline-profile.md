@@ -79,7 +79,7 @@ It is required to add both the **Image Descriptor** and **FileAttachment** table
     >![Select image descriptor.](media/offline-file-images.png "Select image descriptor")
 
 8. Under **Choose the records that you want to make available offline**, select **Related records only**.
-9. Expand **Relationships** and for each table with a column to be downloaded select **Column name**.
+9. Expand **Relationships**, for each table with a column to be downloaded, select **Column name**.
 
    > [!div class="mx-imgBorder"]
     >![Add image descriptor.](media/offline-file-images-2.png "Add image descriptor")
@@ -87,6 +87,8 @@ It is required to add both the **Image Descriptor** and **FileAttachment** table
 10. Select **Save**.
 11. In **Data available offline** select **Add table** > **FileAttachment** > **Next**. 
 12. Expand **Relationships** and select **Image Descriptor, Column name: FileId**.
+    
+    > ![Note] Don't select **Image Descriptor, Column name: Regarding**.
 
     > [!div class="mx-imgBorder"]
     > ![Add FileAttachment table.](media/mobile-offline-edit-image.png "Add FileAttachment table")
@@ -134,3 +136,12 @@ Add all tables to your mobile offline profile where the column type is a file. F
 
  11. Select **Save**. 
   
+  
+  
+## Files and images in Offline Status
+
+You can use the Offline Status page on your device to see the number of files and images to be downloaded and the current progress.
+The number of images is listed for the Image Descriptor table. The number of files are listed for each table with file attachments, in the below case the DemoTable2 table: 
+
+> [!div class="mx-imgBorder"]
+>![Offline status of files and images.](media/offline-status.png "Offline status of files and images.")
