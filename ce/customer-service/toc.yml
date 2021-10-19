@@ -157,9 +157,9 @@
             - name: close
               href: ../app-profile-manager/reference/microsoft-apm/close.md
             - name: focus
-              href: ../app-profile-manager/reference/microsoft-apm/focus.md         
+              href: ../app-profile-manager/reference/microsoft-apm/focus.md
             - name: requestFocus
-              href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md      
+              href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md
           - name: Properties
             items:                           
             - name: sessionID
@@ -169,13 +169,13 @@
             - name: canClose
               href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
             - name: title
-              href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md                      
+              href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md
         - name: Tab management
           items:
           - name: Methods              
             items: 
             - name: getFocusedTab
-              href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md        
+              href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md
             - name: getAllTabs
               href: ../app-profile-manager/reference/microsoft-apm/getAllTabs.md
             - name: getTab
@@ -183,14 +183,14 @@
             - name: createTab
               href: ../app-profile-manager/reference/microsoft-apm/createTab.md
             - name: canCreateTab
-              href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md                    
+              href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md
             - name: closeTab
               href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
             - name: focusTab
-              href: ../app-profile-manager/reference/microsoft-apm/focusTab.md  
+              href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
             - name: refreshTab             
               href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
-          - name: Properties                            
+          - name: Properties
             items:       
             - name: tabID
               href: ../app-profile-manager/reference/microsoft-apm/tabID.md
@@ -238,7 +238,7 @@
         href: configure-work-classification.md
       - name: Assignment methods for queues
         items:  
-        - name: Assignment methods for queues
+        - name: Configure assignment methods for queues
           href: assignment-methods.md
         - name: Configure assignment methods for queues
           href: configure-assignment-rules.md
@@ -248,6 +248,8 @@
           href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
+        - name: Enable entities for queues in unified routing
+          href: enable-entities-for-queues.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md
       - name: Set up skill-based routing
@@ -656,6 +658,8 @@
     items: 
     - name: Configure operating hours
       href: create-operating-hours.md
+    - name: Configure and manage custom presence
+      href: presence-custom-presence.md
     - name: Enable file attachments
       href: enable-file-attachments.md
     - name: Enable formatted messages
