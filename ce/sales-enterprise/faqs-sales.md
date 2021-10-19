@@ -11,21 +11,13 @@ manager: shubhadaj
 
 ## Licenses
 
-**Question**:
+**Question**:<br>What's the difference between Sales Premium and Sales Insights?  
 
-What's the difference between Sales Premium and Sales Insights?  
+**Answer**:<br>Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.     
 
-**Answer**:
+**Question**:<br>Where can I find the comparison chart for Dynamics 365 Sales licenses? 
 
-Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.     
-
-**Question**:
-
-Where can I find the comparison chart for Dynamics 365 Sales licenses? 
-
-**Answer**:
-
-The following license options are available for Dynamics 365 Sales:
+**Answer**:<br>The following license options are available for Dynamics 365 Sales:
 - Sales Premium
 - Sales Enterprise
 - Sales Professional
