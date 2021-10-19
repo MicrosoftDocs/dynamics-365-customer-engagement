@@ -49,10 +49,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-To display the context variables in the Conversation Summary Control for a conversation, see [Display custom context](display-custom-context.md).
-
-> [!div class="nextstepaction"]
-> [Next topic: Send authentication token](send-auth-token-starting-chat.md)
+To display the context variables in the Conversation Summary Control of conversations, see [Display custom context](display-custom-context.md).
 
 ### Parse JSON to use custom context variables
 

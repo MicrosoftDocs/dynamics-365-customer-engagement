@@ -11,7 +11,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To display the context variables in the Conversation Summary Control of conversations, make sure that you include the `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method, and then set its value to `true`. 
+To display the context variables in the Conversation Summary Control of conversations, make sure that you include the `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method, and then set its value to `true`.
 
 If the value of `isDisplayable` attribute is set to `true`, then the context variables will appear as follows:
 

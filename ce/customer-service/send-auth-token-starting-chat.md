@@ -11,7 +11,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To authenticate a customer when they initiate a chat, pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Power Apps portals.
+To authenticate a customer when they start a chat, pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Power Apps portals.
 
 > [!IMPORTANT]
 > In the payload of the JSON Web Token (JWT) token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
@@ -21,17 +21,15 @@ To authenticate a customer when they initiate a chat, pass an authentication tok
 
 The SDKs related to authentication token provider are applicable only if authentication is enabled for the widget. To enable authentication for your widget, see [Create chat authentication settings](create-chat-auth-settings.md).
 
-Follow these steps to send authentication token when starting a chat:
+Follow these steps to send authentication token when you start a chat:
 
-1. Generate a valid JWT token from the JSON payload. More information: [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md).
-2. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
-3. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method.
-
-> [!NOTE]
-> 
-> To avoid timeout, the [authTokenProvider](developer/reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method must respond within 10 seconds.
-
-1. Use [startChat](developer/reference/methods/startChat.md) SDK to initiate a chat.
+1. Generate a valid JWT token from the JSON payload. More information: [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md)
+2. Listen to the **lcw:ready** event raised by the live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+3. After the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method.
+    > [!NOTE]
+    > 
+    > To avoid timeout, the [authTokenProvider](developer/reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method must respond within 10 seconds.
+4. Use [startChat](developer/reference/methods/startChat.md) SDK to start the chat.
 
 ## Sample code
 
@@ -74,7 +72,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 ```
 
 > [!div class="nextstepaction"]
-> [Next topic: Initiate a chat](initiate-chat-wait-time.md)
+> [Next topic: Start a chat](initiate-chat-wait-time.md)
 
 ### See also
 
