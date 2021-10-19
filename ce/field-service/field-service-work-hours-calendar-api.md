@@ -1,7 +1,7 @@
 ---
 title: "Edit work hour calendars by using APIs in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to edit work order calendars in Field Service by using APIs. 
-ms.date: 05/27/2021
+ms.date: 10/11/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -535,6 +535,10 @@ Tim has a 72-hour shift starting May 20, 2021. Debbie uses the `msdyn_SaveCalend
 **I'm getting the error, "StartTime cannot be greater or equal to EndTime."**
 
 Make sure there are no overlaps in the time slots of the different calendar rules. Check the dates to make sure **StartTime** isn't later than **EndTime**. Also, verify that the times follow the 24-hour format. 
+
+**Can the APIs be used to update the "Work Hour Templates" entity?**
+
+Yes, you can use this API to create and update work hour templates in addition to resource work hours.
 
 **I'm getting the error, "There was an error deserializing the object of type Microsoft.Dynamics.UCICalendar.Plugins.SaveCalendarContract+CalendarEventInfo. The input source is not correctly formatted.**<br>
 or<br>**Expecting state 'Element'.. Encountered 'Text' with name '', namespace ''."**

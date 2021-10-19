@@ -18,7 +18,7 @@ ms.custom:
   - intro-internal
 ---
 
-# Customer Service workspace
+# Get started with Customer Service workspace
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -32,7 +32,7 @@ Before we begin, a quick note about administration of Customer Service workspace
 
 You can access Customer Service workspace through the app selector (where you find all of your other Dynamics 365 apps) by choosing the Customer Service workspace app tile. You can also access the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
 
-As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities. 
+As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities.
 
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
@@ -51,8 +51,7 @@ The following table displays the elements of the Customer Service workspace.
 | 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 |||
 
-
-### Navigate Customer Service workspace
+## Navigate Customer Service workspace
 
 From the **Home** session, you can select a record in the following ways and open it as a new session:
 
@@ -87,8 +86,20 @@ From the **Home** session, you can select a record in the following ways and ope
 3.	Run the following command at the console window:
     Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)
 
+### Enable legacy navigation (deprecated)
 
-### Work with cases
+> [!Note]
+> The legacy navigation is deprecated and will be removed in a future release.
+
+**To enable the legacy navigation experience**
+
+1.	Sign in to Dynamics 365.
+2.	Select F12 to open the developer tools.
+3.	Run the following command at the console window.
+    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)
+4. Refresh the app.
+
+## Work with cases
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can perform the following actions.
 
@@ -106,7 +117,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 |||
 
 
-#### Edit case data
+### Edit case data
 
 Let's explore the fields you can edit on the **Case Summary** tab.
 
@@ -133,7 +144,7 @@ Let's explore the fields you can edit on the **Case Additional Details** tab.
 | 6 | View and export the list of merged cases.|
 |||
 
-### Work with activities
+## Work with activities
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can.
 
@@ -147,7 +158,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 | 4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. |
 |||
 
-### Create and search knowledge articles
+## Create and search knowledge articles
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can access knowledge search and knowledge articles.
 
@@ -161,7 +172,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 Intelligent knowledge suggestions are displayed in the productivity pane while you are working on a case.
 
-### Use email templates and signatures
+## Use email templates and signatures
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures as follows.
 
@@ -185,7 +196,7 @@ For information on how to configure the inbox view, see [Configure the inbox vie
 
 ### Productivity pane with Smart Assist
 
-While you are working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros.
+While you're working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros.
 
 :::image type="content" source="media/productivity-pane-overview.png" alt-text="Productivity pane with Smart Assist" border="false":::
 
