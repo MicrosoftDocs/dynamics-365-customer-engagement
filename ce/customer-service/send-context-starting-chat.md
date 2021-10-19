@@ -81,6 +81,7 @@ An example for the `isDisplayable` variable is as follows:
 `{\"isDisplayable\":\"true\"," +"\"Value\":\"context variable value as string\"}`
 
 The `Value` mentioned in the example can be String, Number, or Boolean.
+
 ### See also
 
 [setContextProvider](developer/reference/methods/setContextProvider.md)  
