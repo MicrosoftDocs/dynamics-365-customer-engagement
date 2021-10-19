@@ -13,8 +13,8 @@ manager: shujoshi
 
 Follow these steps to start a chat:
 
-1. Listen to the **lcw:ready** event raised by a live chat to start using the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
-2. Once the **lcw:ready** event is raised, call the [startChat](developer/reference/methods/startChat.md) method to start a chat.
+1. Listen to the **lcw:ready** event raised by a live chat to start using the [live chat SDK methods](developer/omnichannel-reference.md). The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+2. After the **lcw:ready** event is raised, call the [startChat](developer/reference/methods/startChat.md) method to start a chat.
 
    To authenticate a customer when you start a chat, see [Send authentication token](send-auth-token-starting-chat.md).
 
@@ -60,7 +60,7 @@ To use a custom chat button instead of the out-of-the-box chat button, add the a
 ### See also
 
 [startChat](developer/reference/methods/startChat.md)<br />
-[JavaScript API reference for Live chat SDK](developer/omnichannel-reference.md)<br />
+[JavaScript API reference for Live Chat SDK](developer/omnichannel-reference.md)<br />
 [Customize chat widget](customize-chat-widget.md)
 
 

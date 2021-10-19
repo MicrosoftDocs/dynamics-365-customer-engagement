@@ -13,13 +13,13 @@ manager: shujoshi
 
 When a customer starts a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used to display information on the user interface and to create routing rules that eventually determine the queue to which you must route the chats.
 
-The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated workstream in Omnichannel for Customer Service. If no context variables have been created under live workstream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by the live chat widget when a new chat is started. Because the values are case sensitive, use exact match to pass them to the context variables. More information: [Context variables](context-variables-for-bot.md)
+The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated workstream in Omnichannel for Customer Service. If no context variables have been created under live workstream with a matching logical name, variables are created at run time assuming the type as String. The custom context provider would be invoked by the live chat widget when a new chat is started. Because the values are case sensitive, use exact match to pass them to the context variables. More information: [Context variables](context-variables-for-bot.md)
 
 Follow these steps to send custom context when you start a chat:
 
 1. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
-2. Once the **lcw:ready** event is raised, register a custom context provider with live chat using the [setContextProvider](developer/reference/methods/setContextProvider.md) method.
-3. Use [startChat](developer/reference/methods/startChat.md) SDK to start a chat.
+2. After the **lcw:ready** event is raised, register a custom context provider with live chat using the [setContextProvider](developer/reference/methods/setContextProvider.md) method.
+3. [Start the chat](initiate-chat-wait-time.md) using the [startChat](developer/reference/methods/startChat.md) SDK method.
 
 ## Sample code
 
@@ -53,7 +53,7 @@ To display the context variables in the Conversation Summary Control of conversa
 
 ### Parse JSON to use custom context variables
 
-Use the schema mentioned in this section to parse the JSON to use custom context variables.
+Use the following schema to parse the JSON to use custom context variables.
 
 ```JavaScript
 Schema

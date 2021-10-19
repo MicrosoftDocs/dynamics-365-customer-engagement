@@ -24,11 +24,14 @@ The SDKs related to authentication token provider are applicable only if authent
 Follow these steps to send authentication token when you start a chat:
 
 1. Generate a valid JWT token from the JSON payload. More information: [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md)
+
 2. Listen to the **lcw:ready** event raised by the live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+
 3. After the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method.
     > [!NOTE]
     > 
     > To avoid timeout, the [authTokenProvider](developer/reference/methods/setAuthTokenProvider.md#parameters) function in the [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md) method must respond within 10 seconds.
+
 4. Use [startChat](developer/reference/methods/startChat.md) SDK to start the chat.
 
 ## Sample code
