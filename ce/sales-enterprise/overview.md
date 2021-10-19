@@ -96,8 +96,9 @@ Get advanced information about revenue projections, performance, and daily actio
 
 Here are the different sales offerings to fit every type and size of business: 
 
-- **Sales Enterprise**: Ideal for small-mid sized enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. More information: [Dynamics 365 Sales Enterprise](#dynamics-365-sales-enterprise)
 - **Sales Premium**: Ideal for large enterprises that need a sales automation solution, along with AI-driven insights powered by conversation intelligence, relationship intelligence and more. More information: [Dynamics 365 Sales Premium](#dynamics-365-sales-premium)  
+
+- **Sales Enterprise**: Ideal for small-mid sized enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. More information: [Dynamics 365 Sales Enterprise](#dynamics-365-sales-enterprise)
 - **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. More information: [Microsoft Relationship Sales](#microsoft-relationship-sales)  
 - **Sales Professional**: Ideal for the sales automation needs of small or medium-sized businesses. More information: [Dynamics 365 Sales Professional](#dynamics-365-sales-professional)
 
