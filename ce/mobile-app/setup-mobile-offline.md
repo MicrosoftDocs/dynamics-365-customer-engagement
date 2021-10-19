@@ -209,7 +209,7 @@ A user or team can only be added to one offline profile at a time. If a user or 
 4.  When you’re done adding people, select **Save**.
   
   > [!NOTE]
-  > If you made any changes to a team, you must remove and add the team back to the mobile office profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
+  > If you made any changes to a team, you must remove and add the team back to the mobile offline profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
 
 > [!NOTE]
 > If you made any changes to a team, you must remove and add the team back to the mobile office profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
