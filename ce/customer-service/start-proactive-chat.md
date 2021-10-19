@@ -1,19 +1,19 @@
 ---
-title: "Start chat proactively | MicrosoftDocs"
-description: "Read how you can start chat proactively to see if customers need help and thereby improve customer experience."
+title: "Start a chat proactively | MicrosoftDocs"
+description: "Read how you can start a chat proactively to see if customers need help and thereby improve customer experience."
 ms.date: 04/06/2020
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# Start chat proactively
+# Start a chat proactively
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Anticipating areas where customers need help and then engaging them through chat when they have been browsing your website for some time can help improve customer satisfaction.
+You can help improve customer satisfaction by anticipating areas where customers need help, and then engaging them through chat when they've been browsing your website for some time.
 
-Consider the scenarios given below for initiating chat proactively.
+Consider the following scenarios for proactively starting a chat.
 
 ## Scenario 1: Customer wait time
 
@@ -56,9 +56,9 @@ Amy can accept the chat offer and start the conversation to sort out her issue.
 
 ## Scenario 2: Customer visits a webpage multiple times
 
-Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers of his questions on Microsoft Surface device. He has visited a webpage mutliple times but he is not able to find the answers he is looking for.
+Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers to his questions on Microsoft Surface device. He has visited a webpage multiple times but he's not able to find the answers he's looking for.
 
-Realizing this scenario, the organization offers a chat request to the customer after he has been waiting for some time on the current webpage, with the message given below.
+Realizing this scenario, the organization offers a chat request to the customer after he's been waiting for some time on the current webpage, with the following message.
 
 ```
 Hi! Do you have a question on Surface device ? I am here to help.
@@ -169,7 +169,7 @@ VisitCounter();
 
 Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding his open support case.
 
-On realizing that Jacob has visited the support page seeking more information regarding his open case and that he has been on the page for 10 seconds, he is offered a proactive chat with the message given below.
+On realizing that Jacob has visited the support page seeking more information regarding his open case and that he has been on the page for 10 seconds, he is offered a proactive chat with the following message.
 
 ```
 Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
@@ -204,7 +204,7 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
 
 Amy has been browsing a webpage for 15 seconds and is not satisfied with the information provided on it. She is about to switch tabs on her web browser when she gets a chat request that asks her if she needs any help with her questions.
 
-The proactive chat message is given below.
+The proactive chat message is as follows:
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -250,7 +250,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 Amy has browsed the FAQs document of the product and is currently on the Knowledge Base page for more than 15 seconds.
 
-She is proactively offered chat with the message given below.
+She is proactively offered a chat session with the following message.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -288,9 +288,9 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ## Scenario 6: Customer logs in from a specific geographic region
 
-Klarissa logs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively initiates chat.
+Klarissa logs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively starts a chat session..
 
-Klarissa is prompted to chat with the message given below.
+Klarissa is prompted to chat with the following message.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -364,13 +364,13 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 </script>
 ```
 
-## Scenario 7: Proactively offer chat to customers between a certain time frame
+## Scenario 7: Proactively offer chat to customers within a certain timeframe
 
-Suppose your organization is running a festive season sale between certain dates, and you wish to proactively offer chat requests to customers to see if they have any questions.
+Suppose your organization is running a festive season sale between certain dates, and you want to proactively offer chat requests to customers to see if they have any questions.
 
 ### Sample code
 
-The following sample code shows how you can proactively offer chat invite to a customer if he/she visits your website between a given time period.
+The following sample code shows how you can proactively offer chat invites to customers when they visit your website in a given time period.
 
 ```javascript
 <!-- Code to show proactive chat invite if visitor visits webpage between given time period -->
@@ -410,7 +410,7 @@ The following sample code shows how you can proactively offer chat invite to a c
 [Manage custom context](send-context-starting-chat.md)<br />
 [Initiate a chat](initiate-chat-wait-time.md)<br />
 [Display custom context](display-custom-context.md)<br />
-[Live chat JavaScript API reference](developer/omnichannel-reference.md)
+[Live chat JavaScript API reference](developer/omnichannel-reference.md) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

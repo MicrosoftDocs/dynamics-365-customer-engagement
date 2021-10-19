@@ -1,5 +1,5 @@
 ---
-title: "Initiate a chat | MicrosoftDocs"
+title: "Start a chat | MicrosoftDocs"
 description: "Understand how to start a chat using the startChat API. Also included are code snippets to start a chat and hide the chat button."
 ms.date: 07/15/2019
 ms.topic: reference
@@ -7,7 +7,7 @@ author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# Initiate a chat
+# Start a chat
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
