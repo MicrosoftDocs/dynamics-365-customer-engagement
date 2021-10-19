@@ -78,6 +78,8 @@
       href: /learn/modules/get-started-with-dynamics-365-for-customer-service/
     - name: Configure Customer Service
       href: configure-cs.md
+    - name: Customer Service admin center
+      href: cs-admin-center.md
     - name: Omnichannel admin center
       href: oc-admin-center.md
     - name: Customer Service Hub
