@@ -16,6 +16,10 @@ Follow these steps to start a chat:
 1. Listen to the **lcw:ready** event raised by a live chat to start using the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 2. Once the **lcw:ready** event is raised, call the [startChat](developer/reference/methods/startChat.md) method to start a chat.
 
+   To authenticate a customer when you start a chat, see [Send authentication token](send-auth-token-starting-chat.md).
+
+   To start a chat proactively depending on various customer scenarios in your organization, see [Start a chat proactively](start-proactive-chat.md).
+
 > [!NOTE]
 > To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the widget snippet and set its value to `true`. Invoke the [startChat](developer/reference/methods/startChat.md) method on click of the custom UI component to start the chat.
 >
