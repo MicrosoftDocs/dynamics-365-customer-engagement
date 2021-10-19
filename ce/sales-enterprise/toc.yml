@@ -27,7 +27,7 @@
       - name: Uninstall Dynamics 365 Sales premium features
         href: uninstall-sales-insights.md         
     - name: Add or remove sample data
-      href: /power-platform/admin/add-remove-sample-data
+      href: /power-platform/admin/add-remove-sample-data?context=/dynamics365/context/sales-context
     - name: Manage sample data for sales accelerator      
       href: manage-sample-data.md     
     - name: Upgrade
@@ -45,33 +45,33 @@
       - name: Predefined security roles for Sales
         href: security-roles-for-sales.md    
       - name: Create users and assign security roles
-        href: /power-platform/admin/create-users-assign-online-security-roles
+        href: /power-platform/admin/create-users-assign-online-security-roles?context=/dynamics365/context/sales-context
       - name: Set up sales territories
-        href: /power-platform//admin/set-up-sales-territories-organize-business-markets-geographical-area
+        href: /power-platform//admin/set-up-sales-territories-organize-business-markets-geographical-area?context=/dynamics365/context/sales-context
       - name: Add or remove sales territory members
         href: /power-platform/admin/add-remove-territory-members?context=/dynamics365/context/sales-context
       - name: Hierarchy security to control access
-        href: /power-platform/admin/hierarchy-security
+        href: /power-platform/admin/hierarchy-security?context=/dynamics365/context/sales-context
       - name: Define fiscal and currency settings
         items:
         - name: Manage transactions with multiple currencies
-          href: /power-platform/admin/manage-transactions-with-multiple-currencies
+          href: /power-platform/admin/manage-transactions-with-multiple-currencies?context=/dynamics365/context/sales-context
         - name: Work with fiscal year settings
-          href: /power-platform/admin/work-fiscal-year-settings
+          href: /power-platform/admin/work-fiscal-year-settings?context=/dynamics365/context/sales-context
     - name: Customize your sales app
       items:
       - name: Create and customize a form
-        href: /powerapps/maker/model-driven-apps/create-and-edit-a-model-driven-form
+        href: /powerapps/maker/model-driven-apps/create-and-edit-a-model-driven-form?context=/dynamics365/context/sales-context
       - name: Create and customize a view
-        href: /powerapps/maker/model-driven-apps/create-edit-views-app-designer
+        href: /powerapps/maker/model-driven-apps/create-edit-views-app-designer?context=/dynamics365/context/sales-context
       - name: Work with templates
         items:
         - name: Use Word templates to create standardized documents   
-          href: /power-platform/admin/using-word-templates-dynamics-365
+          href: /power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context
         - name: Analyze and share your data with Excel templates
-          href: /power-platform/admin/analyze-your-data-with-excel-templates
+          href: /power-platform/admin/analyze-your-data-with-excel-templates?context=/dynamics365/context/sales-context
         - name: Create email templates
-          href: /powerapps/user/email-template-create    
+          href: /powerapps/user/email-template-create    ?context=/dynamics365/context/sales-context
   - name: Learn the basics
     items:
     - name: Learn the basics
@@ -79,15 +79,15 @@
     - name: Understand the sales process
       href: nurture-sales-from-lead-order-sales.md        
     - name: Import data 
-      href: /powerapps/user/import-data
+      href: /powerapps/user/import-data?context=/dynamics365/context/sales-context
     - name: Export data to Excel
-      href: /powerapps/user/export-data-excel
+      href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
     - name: Search for your data
-      href: /powerapps/user/search
+      href: /powerapps/user/search?context=/dynamics365/context/sales-context
     - name: Assign or share rows
-      href: /powerapps/user/assign-or-share-records
+      href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
     - name: Assign or share records
-      href: /powerapps/user/assign-or-share-records
+      href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
     - name: Print quote, invoice, or other records
       href: print-records.md
     - name: Export sales records to PDF
@@ -119,13 +119,13 @@
       - name: Activity management
         items:
         - name: Set up the timeline control
-          href: /powerapps/maker/model-driven-apps/set-up-timeline-control
+          href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/sales-context
         - name: Set up enhanced email
           href: set-up-enhanced-email.md
         - name: Create email templates
-          href: /powerapps/user/email-template-create                      
+          href: /powerapps/user/email-template-create                      ?context=/dynamics365/context/sales-context
         - name: Set up and customize Dynamics 365 App for Outlook
-          href: /powerapps/maker/model-driven-apps/app-for-outlook-customize  
+          href: /powerapps/maker/model-driven-apps/app-for-outlook-customize  ?context=/dynamics365/context/sales-context
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
       - name: Enable auto capture
@@ -139,15 +139,15 @@
       - name: Configure Microsoft Teams dialer
         href: configure-microsoft-teams-dialer.md
       - name: Install and set up Microsoft Teams integration
-        href: /dynamics365/teams-integration/teams-install-app
+        href: /dynamics365/teams-integration/teams-install-app?context=/dynamics365/context/sales-context
       - name: Integrate with Exchange Online  
-        href: /power-platform/admin/connect-exchange-online
+        href: /power-platform/admin/connect-exchange-online?context=/dynamics365/context/sales-context
       - name: Integrate with OneDrive for Business
-        href: /power-platform/admin/enable-onedrive-for-business
+        href: /power-platform/admin/enable-onedrive-for-business?context=/dynamics365/context/sales-context
       - name: Integrate with OneNote
-        href: /power-platform/admin/set-up-onenote-integration-in-dynamics-365        
+        href: /power-platform/admin/set-up-onenote-integration-in-dynamics-365        ?context=/dynamics365/context/sales-context
       - name: Integrate with SharePoint
-        href: /power-platform/admin/manage-documents-using-sharepoint        
+        href: /power-platform/admin/manage-documents-using-sharepoint        ?context=/dynamics365/context/sales-context
       - name: Integrate a sample softphone
         href: sample-softphone-integration.md
     - name: Lead management
@@ -155,7 +155,7 @@
       - name: Define lead qualification experience
         href: define-lead-qualification-experience.md
       - name: Integrate LinkedIn Sales Navigator solutions
-        href: /dynamics365/linkedin/integrate-sales-navigator
+        href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
       - name: Configure predictive lead scoring
         href: configure-predictive-lead-scoring.md        
     - name: Opportunity management
@@ -221,7 +221,7 @@
       - name: Delete a family, product, or bundle
         href: delete-family-product-bundle.md
       - name: See relationships in a hierarchical view
-        href: /powerapps/maker/data-platform/visualize-hierarchical-data
+        href: /powerapps/maker/data-platform/visualize-hierarchical-data?context=/dynamics365/context/sales-context
       - name: Add editable products grid on forms
         href: editable-product-grid-forms.md
       - name: Enable the enhanced experience of adding products
@@ -271,7 +271,7 @@
       - name: Process for setting goals
         href: goals-overview.md
       - name: Goal settings
-        href: /admin/system-settings-dialog-box-goals-tab
+        href: /admin/system-settings-dialog-box-goals-tab?context=/dynamics365/context/sales-context
       - name: Create or edit goals
         href: create-edit-goal-sales.md
       - name: Define a goal metric
@@ -354,9 +354,9 @@
       - name: Business process flows    
         items:
         - name: Business process flows overview
-          href: /power-automate/business-process-flows-overview
+          href: /power-automate/business-process-flows-overview?context=/dynamics365/context/sales-context
         - name: Create a business process flow
-          href: /power-automate/create-business-process-flow
+          href: /power-automate/create-business-process-flow?context=/dynamics365/context/sales-context
     - name: Relationship intelligence
       items:
       - name: Configure relationship analytics and health
@@ -388,7 +388,7 @@
     - name: Reporting
       items:
       - name: Add reporting features to your app
-        href: /powerapps/maker/model-driven-apps/add-reporting-to-app
+        href: /powerapps/maker/model-driven-apps/add-reporting-to-app?context=/dynamics365/context/sales-context
       - name: PowerBI Templates
         items:
         - name: Analyze your sales data using Power BI template apps
@@ -416,7 +416,7 @@
     - name: Dashboards
       items:
       - name: Track your progress with dashboards and charts
-        href: /powerapps/user/track-your-progress-with-dashboard-and-charts
+        href: /powerapps/user/track-your-progress-with-dashboard-and-charts?context=/dynamics365/context/sales-context
       - name: Gain insights with dashboards
         href: dashboards.md
       - name: Understand the sales pipeline chart and its phases
@@ -438,11 +438,11 @@
       - name: Activity management
         items:
         - name: Add activities to the timeline
-          href: /powerapps/user/add-activities
+          href: /powerapps/user/add-activities?context=/dynamics365/context/sales-context
         - name: Track and manage activities
           href: manage-activities.md
         - name: Access Dynamics 365 app from Outlook
-          href: /dynamics365/outlook-app/user/basic-navigation
+          href: /dynamics365/outlook-app/user/basic-navigation?context=/dynamics365/context/sales-context
         - name: Work with activities in the Kanban view
           href: activity-kanban-view.md 
         - name: Send email using the enhanced email experience
@@ -461,13 +461,13 @@
       - name: Manage sales literature
         href: create-sales-literature.md        
       - name: Collaborate using Microsoft Teams
-        href: /dynamics365/teams-integration/teams-collaboration 
+        href: /dynamics365/teams-integration/teams-collaboration ?context=/dynamics365/context/sales-context
       - name: Use OneDrive for Business
-        href: /powerapps/user/one-drive  
+        href: /powerapps/user/one-drive  ?context=/dynamics365/context/sales-context
       - name: Take notes by using OneNote
-        href: /powerapps/user/onenote  
+        href: /powerapps/user/onenote  ?context=/dynamics365/context/sales-context
       - name: Collaborate using SharePoint
-        href: /powerapps/user/collaborate-using-sharepoint               
+        href: /powerapps/user/collaborate-using-sharepoint               ?context=/dynamics365/context/sales-context
     - name: Lead management
       items:
       - name: Create or edit leads
