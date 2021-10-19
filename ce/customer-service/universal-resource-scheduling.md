@@ -289,64 +289,90 @@ See the [Additional resources](#bkmk_seealso) section for links to additional he
 
 The sample code given below shows how to implement `msdyn_SearchResourceAvailabilityForRequirementGroup` message.
 
-```csharp
-void Main()  
-{   
-// Authentication   
-String machineName = "aurorav?????";   
-String orgName = "CITTest";   
-String domain = $"{machineName}dom.extest.microsoft.com";   
-String uri = $"http://{machineName}.{domain}/{orgName}/XRMServices/2011/Organization.svc";   
-String username = "administrator";   
-String password = "";
+```static void Main(string[] args) 
+        { 
+            // Authentication  
+            String machineName = "aurorav?????"; 
+            String orgName = "?????"; 
+            String domain = $"{machineName}dom.extest.microsoft.com"; 
+            String uri = $"http://{machineName}.{domain}/{orgName}/XRMServices/2011/Organization.svc"; 
+            String username = "?????"; 
+            String password = "?????"; 
 
-// Connect to organization
-Microsoft.Pfe.Xrm.OrganizationServiceManager osm = new
-Microsoft.Pfe.Xrm.OrganizationServiceManager(new Uri(@uri), username, password, domain);
+            OrganizationServiceManager osm = new 
+            OrganizationServiceManager(new Uri(@uri), username, password, domain); 
+            _serviceProxy = osm.GetProxy(); 
+            _service = (IOrganizationService)_serviceProxy; 
+            searchResourceAvailabilityForRequirementGroup(); 
+            createRequirementGroupBookings(); 
+        } 
 
-searchResourceAvailabilityForRequirementGroup(osm);  
-createRequirementGroupBookings(osm);  
-}   
+        static void searchResourceAvailabilityForRequirementGroup() 
+        { 
+            var req = new OrganizationRequest() 
+            { 
+                RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup" 
+            }; 
 
-void searchResourceAvailabilityForRequirementGroup(OrganizationServiceManager osm) 
-{
-var req = new OrganizationRequest()
-{
-RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
-};  
+            //Version  
+            req["Version"] = "1.0.0"; 
+            req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse("e5e4f033-150d-eb11-a822-000d3aaf102a")); 
 
-//Version  
-req["Version"] = "1.0.0";
-req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse(""));
+            Entity requirementSpecification = new Entity(); 
+            requirementSpecification.Attributes.Add("msdyn_fromdate", DateTime.Today.AddDays(1)); 
+            requirementSpecification.Attributes.Add("msdyn_todate", DateTime.Today.AddDays(3)); 
+            req["RequirementSpecification"] = requirementSpecification; 
 
-var response = osm.GetProxy().Execute(req);
-}   
+            try 
+            { 
+                var response = _service.Execute(req); 
+                Console.WriteLine("Response from search: {0}", JsonConvert.SerializeObject(response)); 
+            } 
+            catch (Exception e) 
+            { 
 
-void createRequirementGroupBookings(OrganizationServiceManager osm)
-{
-var req = new OrganizationRequest()
-{   
-RequestName = "msdyn_createRequirementGroupBookings"
-};   
- 
-//Version
-req["Version"] = "1.0.0";
-req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", 
-Guid.Parse("d723dd8f-f4f4-e911-a81d-000d3af9eba2"));
-req["Start"] = DateTime.Today.AddDays(1);
-req["Duration"] = 60;
-EntityCollection resourceAssignment = new EntityCollection();
-var entity = new Entity();
-entity["RequirementId"] = "";
-entity["ResourceId"] = "";
-entity["BookingStatusId"] = "";
-resourceAssignment.Add(entity); 
-req["ResourceAssignments"] = resourceAssignment;   
+                Console.WriteLine("msdyn_SearchResourceAvailabilityForRequirementGroup failed with the following error: {0}", e.Message); 
+            } 
+        } 
 
-var response = osm.GetProxy().Execute(req); 
-}  
+        static void createRequirementGroupBookings() 
+        { 
+            var req = new OrganizationRequest() 
+            { 
+                RequestName = "msdyn_createRequirementGroupBookings" 
+            }; 
+
+            req["Version"] = "1.0.0"; 
+            req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", 
+            Guid.Parse("d74260ee-180d-eb11-a822-000d3aaf102a")); 
+            req["Start"] = DateTime.Today.AddDays(1); 
+            req["Duration"] = 60; 
+            EntityCollection resourceAssignment = new EntityCollection(); 
+            var entity = new Entity(); 
+            entity["RequirementId"] = Guid.Parse("df4260ee-180d-eb11-a822-000d3aaf102a"); 
+            entity["ResourceId"] = Guid.Parse("268e3d0d-5e0c-eb11-a822-000d3aaf102a"); 
+            entity["BookingStatusId"] = Guid.Parse("10de5842-cf5e-4092-9006-d0aa9f9c1f74"); 
+            resourceAssignment.Entities.Add(entity); 
+            req["ResourceAssignments"] = resourceAssignment; 
+
+            try 
+            { 
+                var response = _service.Execute(req); 
+                Console.WriteLine("Response JSON : " + JsonConvert.SerializeObject(response)); 
+            } 
+            catch (Exception e) 
+            { 
+                Console.WriteLine("msdyn_createRequirementGroupBookings request failed with the following exception: {0}", e.Message); 
+            } 
+            Console.ReadKey(); 
+        }  
 ```
 
+  
+  
+  
+  
+  
 ## How to migrate from the legacy API to Universal Resource Scheduling 
 
 To migrate from the legacy Search API and Book API to the Universal Resource Scheduling API, use the following required input and output fields to map the APIs. 
