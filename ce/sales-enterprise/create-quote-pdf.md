@@ -1,5 +1,5 @@
 ---
-title: "Create PDF files from sales records - Sales Enterprise | MicrosoftDocs"
+title: "Export sales records to PDF in sales"
 description: "Create PDF files of sales records that look professional and read-only using your standard word templates and share it with your customers."
 ms.date: 09/30/2021
 ms.topic: article
@@ -15,7 +15,7 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Create PDF file from sales record  
+# Export sales records to PDF  
 
 ## Requirements
 |  | |

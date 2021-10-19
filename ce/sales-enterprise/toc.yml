@@ -57,13 +57,27 @@
           href: /power-platform/admin/manage-transactions-with-multiple-currencies
         - name: Work with fiscal year settings
           href: /power-platform/admin/work-fiscal-year-settings
+    - name: Customize your sales app
+      items:
+      - name: Create and customize a form
+        href: /powerapps/maker/model-driven-apps/create-and-edit-a-model-driven-form
+      - name: Create and customize a view
+        href: /powerapps/maker/model-driven-apps/create-edit-views-app-designer
+      - name: Work with templates
+        items:
+        - name: Use Word templates to create standardized documents   
+          href: /power-platform/admin/using-word-templates-dynamics-365
+        - name: Analyze and share your data with Excel templates
+          href: /power-platform/admin/analyze-your-data-with-excel-templates
+        - name: Create email templates
+          href: /powerapps/user/email-template-create    
   - name: Learn the basics
     items:
     - name: Learn the basics
       href: user-guide-learn-basics.md
     - name: Understand the sales process
       href: nurture-sales-from-lead-order-sales.md        
-    - name: Import data
+    - name: Import data 
       href: /powerapps/user/import-data
     - name: Export data to Excel
       href: /powerapps/user/export-data-excel
@@ -77,7 +91,7 @@
       href: print-records.md
     - name: Enable or disable PDF generation from sales records
       href: enable-pdf-generation-quote.md
-    - name: Create PDF files from sales records
+    - name: Export sales records to PDF
       href: create-quote-pdf.md
   - name: Administration guide
     items:
@@ -109,6 +123,8 @@
           href: /powerapps/maker/model-driven-apps/set-up-timeline-control
         - name: Set up enhanced email
           href: set-up-enhanced-email.md
+        - name: Create email templates
+          href: /powerapps/user/email-template-create                      
         - name: Set up and customize Dynamics 365 App for Outlook
           href: /powerapps/maker/model-driven-apps/app-for-outlook-customize  
         - name: Add the Kanban control to Opportunity or Activity entities
@@ -123,6 +139,12 @@
         href: configure-microsoft-teams-dialer.md
       - name: Install and set up Microsoft Teams integration
         href: /dynamics365/teams-integration/teams-install-app
+      - name: Integrate with Exchange Online  
+        href: /power-platform/admin/connect-exchange-online
+      - name: Integrate with OneDrive for Business
+        href: /power-platform/admin/enable-onedrive-for-business
+      - name: Integrate with OneNote
+        href: /power-platform/admin/set-up-onenote-integration-in-dynamics-365        
       - name: Integrate with SharePoint
         href: /power-platform/admin/manage-documents-using-sharepoint        
       - name: Integrate a sample softphone
@@ -263,53 +285,53 @@
           href: enable-configure-sales-accelerator.md
         - name: Configure sales accelerator for assignment rules
           href: sales-accelerator-assignment-rules.md  
-        - name: Manage sequences
-          href: create-manage-sequences.md
-          items:
-          - name: Create and activate a sequence
-            href: create-and-activate-a-sequence.md
-          - name: Adaptive sequences
-            href: adaptive-sequence.md
-          - name: Connect a sequence to records
-            href: connect-a-sequence-to-records.md
-          - name: View details of a sequence and its connected records
-            href: view-sequence-details-connected-records.md
-          - name: Clone a sequence
-            href: clone-a-sequence.md
-          - name: Edit a sequence
-            href: edit-a-sequence.md
-          - name: Edit an active sequence
-            href: edit-active-sequence.md  
-          - name: Delete a sequence
-            href: delete-a-sequence.md
-        - name: Manage segments
-          href: manage-segments.md
-          items:
-          - name: Create and activate a segment
-            href: create-and-activate-a-segment.md
-          - name: Connect a segment to sequence
-            href: connect-a-segment-to-sequence.md
-          - name: Edit a segment
-            href: edit-a-segment.md
-          - name: Delete or deactivate a segment
-            href: delete-deactivate-a-segment.md
-        - name: Manage assignment rules
-          href: create-manage-assignment-rules.md
-          items:
-          - name: Create and activate an assignment rule
-            href: create-and-activate-assignment-rule.md
-          - name: Edit an assignment rule
-            href: edit-assignment-rule.md
-          - name: Delete or deactivate an assignment rule
-            href: delete-deactivate-assignment-rule.md
-          - name: Manage sales teams
-            href: manage-sales-teams.md
-          - name: Manage seller attributes
-            href: manage-seller-attributes.md
         - name: Configure settings to customize sales accelerator    
           href: customize-sales-accelerator-sellers.md
         - name: Add the Up next widget to an entity form
-          href: add-upnext-widget-form.md
+          href: add-upnext-widget-form.md          
+      - name: Manage sequences
+        href: create-manage-sequences.md
+        items:
+        - name: Create and activate a sequence
+          href: create-and-activate-a-sequence.md
+        - name: Adaptive sequences
+          href: adaptive-sequence.md
+        - name: Connect a sequence to records
+          href: connect-a-sequence-to-records.md
+        - name: View details of a sequence and its connected records
+          href: view-sequence-details-connected-records.md
+        - name: Clone a sequence
+          href: clone-a-sequence.md
+        - name: Edit a sequence
+          href: edit-a-sequence.md
+        - name: Edit an active sequence
+          href: edit-active-sequence.md  
+        - name: Delete a sequence
+          href: delete-a-sequence.md
+      - name: Manage segments
+        href: manage-segments.md
+        items:
+        - name: Create and activate a segment
+          href: create-and-activate-a-segment.md
+        - name: Connect a segment to sequence
+          href: connect-a-segment-to-sequence.md
+        - name: Edit a segment
+          href: edit-a-segment.md
+        - name: Delete or deactivate a segment
+          href: delete-deactivate-a-segment.md
+      - name: Manage assignment rules
+        href: create-manage-assignment-rules.md
+        items:
+        - name: Create and activate an assignment rule
+          href: create-and-activate-assignment-rule.md
+        - name: Edit an assignment rule
+          href: edit-assignment-rule.md
+        - name: Delete or deactivate an assignment rule
+          href: delete-deactivate-assignment-rule.md
+        - name: Manage sales teams
+          href: manage-sales-teams.md
+        - name: Manage seller attributes
+          href: manage-seller-attributes.md
       - name: Playbook management
         items:
         - name: Define playbook categories
@@ -384,6 +406,8 @@
       href: user-guide.md
     - name: Dashboards
       items:
+      - name: Track your progress with dashboards and charts
+        href: /powerapps/user/track-your-progress-with-dashboard-and-charts
       - name: Gain insights with dashboards
         href: dashboards.md
       - name: Understand the sales pipeline chart and its phases
@@ -425,8 +449,14 @@
         href: email-engagement.md
       - name: How notes analysis assists you with suggestion
         href: notes-analysis.md   
+      - name: Manage sales literature
+        href: create-sales-literature.md        
       - name: Collaboration using Microsoft Teams
-        href: /dynamics365/teams-integration/teams-collaboration  
+        href: /dynamics365/teams-integration/teams-collaboration 
+      - name: Use OneDrive for Business
+        href: /powerapps/user/one-drive  
+      - name: Take notes by using OneNote
+        href: /powerapps/user/onenote  
       - name: Collaborate using SharePoint
         href: /powerapps/user/collaborate-using-sharepoint               
     - name: Lead management
@@ -469,12 +499,8 @@
         href: recalculate-opportunity.md
       - name: Close opportunities as won or lost
         href: close-opportunity-won-lost-sales.md
-      - name: Collaborate using SharePoint
-        href: collaborate-using-sharepoint-sales.md
       - name: Create or edit competitor records
         href: create-edit-competitor-record-sales.md
-      - name: Manage sales literature
-        href: create-sales-literature.md
     - name: Quote, order, and invoice management
       items:
       - name: Sales transactions in Dynamics 365 Sales
@@ -543,6 +569,14 @@
           href: connect-with-customers.md
         - name: Personalize your sales accelerator
           href: personalize-sales-accelerator.md  
+    - name: Guided selling
+      items:
+      - name: Assistant
+        items:
+        - name: Guide customer communications with assistant
+          href: assistant.md
+        - name: Stay updated with cards in assistant
+          href: action-cards-reference.md
       - name: Playbook management
         items:
         - name: Associate documents with playbook activities
@@ -554,37 +588,29 @@
         - name: Mark playbook as completed
           href: mark-playbook-completed.md
         - name: Track playbook activities
-          href: track-playbook-activities.md
+          href: track-playbook-activities.md  
     - name: Relationship intelligence
+      items: 
+      - name: View customer activity history
+        href: relationship-analytics.md
+      - name: Know conversation starters for your customers
+        href: talking-points.md
+      - name: Get introduced to lead
+        href: who-knows-whom.md
+    - name: Conversation Intelligence
       items:
-      - name: Assistant
-        items:
-        - name: Guide customer communications with assistant
-          href: assistant.md
-        - name: Stay updated with cards in assistant
-          href: action-cards-reference.md
-      - name: Relationship insights
-        items:
-        - name: View customer activity history
-          href: relationship-analytics.md
-        - name: Know conversation starters for your customers
-          href: talking-points.md
-        - name: Get introduced to lead
-          href: who-knows-whom.md
-      - name: Conversation Intelligence
-        items:
-        - name: Overview of Conversation Intelligence
-          href: dynamics365-sales-insights-app.md
-        - name: View home page
-          href: dynamics365-sales-insights-app-home-page.md
-        - name: View team information
-          href: conversation-intelligence-team-overview.md
-        - name: View seller information
-          href: conversation-intelligence-seller-details.md
-        - name: View and understand call summary
-          href: view-and-understand-call-summary.md
-        - name: Monitor call and insight processing
-          href: monitor-call-insight-processing.md
+      - name: Overview of Conversation Intelligence
+        href: dynamics365-sales-insights-app.md
+      - name: View home page
+        href: dynamics365-sales-insights-app-home-page.md
+      - name: View team information
+        href: conversation-intelligence-team-overview.md
+      - name: View seller information
+        href: conversation-intelligence-seller-details.md
+      - name: View and understand call summary
+        href: view-and-understand-call-summary.md
+      - name: Monitor call and insight processing
+        href: monitor-call-insight-processing.md
     - name: Dynamics 365 Sales mobile
       items:
       - name: Overview
