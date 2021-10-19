@@ -84,7 +84,7 @@ To enable a table for mobile offline synchronization, follow the steps below.
    >![Select settings.](media/select_settings.png "Select setting")
  
   
-5. On the **Edit table** pane, expand **More settings** > **Offline** and then make sure **Enable for mobile offline** check box is selected and then select **Done**.
+5. On the **Edit table** pane, expand **More settings** > **Offline** and then make sure **Can be taken offline** check box is selected and then select **Done**.
 
    > [!div class="mx-imgBorder"]
    >![Select enable mobile offline check box.](media/enable_mobileoffline_checkbox.png "Select enable mobile offline check box")
@@ -207,6 +207,9 @@ A user or team can only be added to one offline profile at a time. If a user or 
 3.  Choose the user or team that you want to add to the mobile offline profile. The actual users added based on teams are displayed under each team. User's that are added individually are displayed under individual users. 
   
 4.  When you’re done adding people, select **Save**.
+  
+  > [!NOTE]
+  > If you made any changes to a team, you must remove and add the team back to the mobile office profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
 
 > [!NOTE]
 > If you made any changes to a team, you must remove and add the team back to the mobile office profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
