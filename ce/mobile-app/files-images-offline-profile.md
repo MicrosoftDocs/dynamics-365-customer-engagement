@@ -71,7 +71,7 @@ It is required to add both the **Image Descriptor** and **FileAttachment** table
 
 5. Select a mobile offline profile to edit it.
 
-6. In the **Data available offline** select **Add table**.
+6. In **Data available offline** select **Add table**.
 
 7. Select **Image Descriptor** and then select **Next**.
 
@@ -85,11 +85,11 @@ It is required to add both the **Image Descriptor** and **FileAttachment** table
     >![Add image descriptor.](media/offline-file-images-2.png "Add image descriptor")
   
 10. Select **Save**.
-11. In the **Data available offline** select **Add table** > **FileAttachment** table and then select **Next**. 
+11. In **Data available offline** select **Add table** > **FileAttachment** > **Next**. 
 12. Expand **Relationships** and select **Image Descriptor, Column name: FileId**.
 
     > [!div class="mx-imgBorder"]
-    > ![Add FileAttachment table.](media/offline-file-images-11.png "Add iFileAttachment table")
+    > ![Add FileAttachment table.](media/mobile-offline-edit-image.png "Add FileAttachment table")
 
 10. Select **Save**.
 
@@ -124,14 +124,12 @@ Add all tables to your mobile offline profile where the column type is a file. F
     >![Select FileAttachment.](media/offline-file-images-4.png "Select FileAttachment")
 
 8. Under **Choose the records that you want to make available offline**, select **Related records only**.
-9. Expand **Relationships** and select **Image Descriptor, Field name**.
+9. Expand **Relationships** and select applicable **Columns names** i.e., columns for each table where **Data type** is **Image**.
 
-   > ![Note] Don't select **Image Descriptor, Field name: Regarding**.
-
-10. For each table with a file column to be downloaded, select **Field name: Regarding**. 
+   > ![Note] Don't select **Column name: Regarding.**.
 
     > [!div class="mx-imgBorder"]
-    >![Add FileAttachment table.](media/offline-file-images-3.png "Add FileAttachment table.")
+    >![Edit FileAttachment table.](media/offline-file-images-9.png "Edit FileAttachment table.")
    
 
  11. Select **Save**. 
