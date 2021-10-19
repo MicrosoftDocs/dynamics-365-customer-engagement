@@ -368,11 +368,6 @@ The sample code given below shows how to implement `msdyn_SearchResourceAvailabi
         }  
 ```
 
-  
-  
-  
-  
-  
 ## How to migrate from the legacy API to Universal Resource Scheduling 
 
 To migrate from the legacy Search API and Book API to the Universal Resource Scheduling API, use the following required input and output fields to map the APIs. 
