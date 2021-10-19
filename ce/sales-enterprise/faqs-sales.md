@@ -7,16 +7,30 @@ author: udaykirang
 ms.author: udag
 manager: shubhadaj
 ---
-# Frequently asked questions for Sales Enterprise 
+# Frequently asked questions for Dynamics 365 Sales 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+## Licenses
 
+**Question**:
 
+What's the difference between Sales Premium and Sales Insights?  
+
+**Answer**:
+
+Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.     
+
+**Question**:
+
+Where can I find the comparison chart for Dynamics 365 Sales licenses? 
+
+**Answer**:
+
+The following license options are available for Dynamics 365 Sales:
+- Sales Premium
+- Sales Enterprise
+- Sales Professional
+
+For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
 ## Entity: Activity
 
@@ -199,18 +213,5 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 -	On the [Snapshots](/dynamics365/ai/sales/manage-snapshots-forecast) page, you can enable or disable daily snapshots for the forecast.
 -	On the [Advanced](forecast-configure-advanced-settings.md) page, you can enable or disable auto-hide parent row, multi-currency selection, and customize access to edit fields in the underlying records grid.    
 When you save and publish the configuration, the changes will be applied immediately to the forecast. If you update data (simple columns and adjust fields), these changes may take up to two hours to reflect in the forecast. 
-
-## Licenses
-
-**Question**:<br>What's the difference between Sales Premium and Sales Insights?     
-**Answer**:<br>Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.     
-
-**Question**:<br>Where can I find the comparison chart for Dynamics 365 Sales licenses? 
-**Answer**:<br>The following license options are available for Dynamics 365 Sales:
-- Sales Premium
-- Sales Enterprise
-- Sales Professional
-
-For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
