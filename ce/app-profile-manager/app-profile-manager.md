@@ -4,7 +4,7 @@ description: "Using app profile manager to create and manage app profiles."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/27/2021
+ms.date: 10/19/2021
 ms.topic: article
 ---
 
@@ -78,6 +78,15 @@ The settings that you enable for the app profile will be available for agents an
    > - Only telephony or voice channels are supported.
    > - A number of voice channel providers can be configured at a time.
   
+### Configure the inbox view
+
+For an app profile, you can enable the inbox view in the Customer Service workspace or Omnichannel for Customer Service apps. From the inbox, users can view their conversations and cases.
+
+1. On the **App profiles** page, select the profile for which you want to enable the inbox. 
+   > [!div class=mx-imgBorder]
+   > ![Select the profile for which to enable the inbox.](media/assign-users.png "Select the profile for which to enable the inbox.")
+2. Select the **Inbox** tab, and then toggle **Turn on inbox view** to **On**.
+
 ### Assign profiles to users
 
 1. On the **App profiles** page, select the profile that you want to assign to a user.
