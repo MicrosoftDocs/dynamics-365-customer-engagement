@@ -332,14 +332,8 @@
           href: manage-sales-teams.md
         - name: Manage seller attributes
           href: manage-seller-attributes.md
-      - name: Playbook management
-        items:
-        - name: Define playbook categories
-          href: define-playbook-categories.md
-        - name: Manage playbook templates
-          href: manage-playbook-templates.md
-    - name: Relationship intelligence
-      items:
+    - name: Guided selling
+      items:      
       - name: Configure assistant
         items:
         - name: Configure the assistant
@@ -350,6 +344,20 @@
           href: edit-insight-cards.md
         - name: Optimize ranking of insight cards
           href: optimize-ranking-insight-cards.md
+      - name: Playbook management
+        items:
+        - name: Define playbook categories
+          href: define-playbook-categories.md
+        - name: Manage playbook templates
+          href: manage-playbook-templates.md
+      - name: Business process flows    
+        items:
+        - name: Business process flows overview
+          href: /power-automate/business-process-flows-overview
+        - name: Create a business process flow
+          href: /power-automate/create-business-process-flow
+    - name: Relationship intelligence
+      items:
       - name: Configure relationship analytics and health
         href: configure-relationship-analytics.md
       - name: Configure talking points
@@ -541,22 +549,6 @@
         href: analyze-deals-flow-between-snapshots.md
       - name: View snapshots
         href: view-snapshots.md     
-    - name: Campaign management
-      items:
-      - name: Get started with in-app marketing
-        href: get-started-app-marketing-sales.md
-      - name: Create a marketing list
-        href: create-marketing-list-using-app-marketing-sales.md
-      - name: Create a quick campaign
-        href: create-quick-campaign-using-app-marketing-sales.md
-      - name: Add assets to a campaign
-        href: add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md
-      - name: Create or edit a campaign
-        href: create-edit-campaign-using-app-marketing-sales.md
-      - name: Add an activity to a campaign
-        href: add-activity-campaign-using-app-marketing-sales.md
-      - name: Track a marketing campaign response
-        href: track-marketing-campaign-response-using-app-marketing-sales.md             
     - name: Sales engagement
       items:
       - name: Sales accelerator
@@ -569,6 +561,22 @@
           href: connect-with-customers.md
         - name: Personalize your sales accelerator
           href: personalize-sales-accelerator.md  
+      - name: Campaign management
+        items:
+        - name: Get started with in-app marketing
+          href: get-started-app-marketing-sales.md
+        - name: Create a marketing list
+          href: create-marketing-list-using-app-marketing-sales.md
+        - name: Create a quick campaign
+          href: create-quick-campaign-using-app-marketing-sales.md
+        - name: Add assets to a campaign
+          href: add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md
+        - name: Create or edit a campaign
+          href: create-edit-campaign-using-app-marketing-sales.md
+        - name: Add an activity to a campaign
+          href: add-activity-campaign-using-app-marketing-sales.md
+        - name: Track a marketing campaign response
+          href: track-marketing-campaign-response-using-app-marketing-sales.md                       
     - name: Guided selling
       items:
       - name: Assistant
