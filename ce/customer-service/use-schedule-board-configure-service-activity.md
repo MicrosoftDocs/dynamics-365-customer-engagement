@@ -20,13 +20,13 @@ ms.custom:
 In this article, we'll take a look at what's new, and how to switch to the new schedule board in your environment. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new schedule board in Dynamics 365, showing the resources and requirements.](../field-service/media/Schedule-Board-New-Overview-01.png)
+> ![Screenshot of the new schedule board in Dynamics 365, showing the resources and requirements.](/field-service/media/Schedule-Board-New-Overview-01.png)
 
 
 The new schedule board is faster, with better usability, and it lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new schedule board in Dynamics 365, showing the resources.](../../field-service/media/schedule-board-new.png)
+> ![Screenshot of the new schedule board in Dynamics 365, showing the resources.](/field-service/media/schedule-board-new.png)
 
 
 ### Performance
@@ -40,7 +40,7 @@ The new schedule board is faster and more responsive when you do the following t
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new schedule board.](../../field-service/media/schedule-board-new-accessability.png)
+> ![Screenshot of the new schedule board.](/field-service/media/schedule-board-new-accessability.png)
 
 ### Usability and accessibility
 
@@ -49,7 +49,7 @@ The new schedule board is a Power Apps Component Framework (PCF) control built o
 New color schemes and ways of depicting travel time make it easier for schedulers to see statuses and details.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an outlined "ghost booking" to preview a schedule on the schedule board.](../../field-service/media/schedule-board-new-drag.png)
+> ![Screenshot of an outlined "ghost booking" to preview a schedule on the schedule board.](/field-service/media/schedule-board-new-drag.png)
 
 For instance, the previous screenshot shows a new "ghost booking" feature that helps schedulers know if a booking will fit into a schedule before the booking is even scheduled.
 
@@ -68,7 +68,7 @@ The new schedule board provides the foundation for future releases that will pro
 Go to the schedule board and use the toggle button in the top right of the schedule board to switch between the current and new schedule boards. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing the preview toggle in the top right set to "On.".](../../field-service/media/schedule-board-new-enable-preview.png)
+> ![Screenshot of the schedule board showing the preview toggle in the top right set to "On.".](/field-service/media/schedule-board-new-enable-preview.png)
 
 ## Select and filter resources
 
@@ -77,71 +77,71 @@ Choose which resources should display on each schedule board tab.
 Expand the filter pane and choose **Select Resources**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board, showing resources.](../../field-service/media/schedule-board-new-select-resources1.png)
+> ![Screenshot of the schedule board, showing resources.](/field-service/media/schedule-board-new-select-resources1.png)
 
 From the list of available resources on the left, move the ones you want to display on the schedule board to the right. Then **Apply**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the resources dialog on the schedule board in Customer Service.](../../field-service/media/schedule-board-new-select-resources2.png)
+> ![Screenshot of the resources dialog on the schedule board in Customer Service.](/field-service/media/schedule-board-new-select-resources2.png)
 
 ## Resource cards
 
 Right-click a resource's name and then choose **View Resource Card** to see more, like the resource's skill set (characteristics) and roles. From here, you can also initiate a message, email, or phone call.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource card on the Customer Service schedule board.](../../field-service/media/schedule-board-new-resource-card.png)
+> ![Screenshot of a resource card on the Customer Service schedule board.](/field-service/media/schedule-board-new-resource-card.png)
 
 ## Map view of requirements and resources
 
 Select the map icon in the upper right of the schedule board to display the resources and requirements on a map.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board with map view.](../../field-service/media/Schedule-Board-New-Map-02.png)
+> ![Screenshot of the schedule board with map view.](/field-service/media/Schedule-Board-New-Map-02.png)
 
 After expanding the map view, select a resource's name to see their route. The numbers indicate the order the resource is scheduled to arrive at each job (requirement) location.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing the technician route.](../../field-service/media/Schedule-Board-New-Map-Technician-route-03.png)
+> ![Screenshot of the schedule board showing the technician route.](/field-service/media/Schedule-Board-New-Map-Technician-route-03.png)
  
 At a zoomed-out view of the map, the requirements and resources are grouped together, and you can see a count of requirements and resources. This count helps you quickly identify a geographical area with more unscheduled jobs, and then start scheduling the jobs to nearest resources. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board with the grouping of the requirement pins.](../../field-service/media/Schedule-Board-New-Map-requirement-pin-cluster-04.png)
+> ![Screenshot of the schedule board with the grouping of the requirement pins.](/field-service/media/Schedule-Board-New-Map-requirement-pin-cluster-04.png)
 
 You can drag an unscheduled requirement pin from the map to the resource timeline and schedule it to that resource. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board, showing how to drag the requirement pin.](../../field-service/media/Schedule-Board-New-Map-requirement-pin-drag-05.png)
+> ![Screenshot of the schedule board, showing how to drag the requirement pin.](/field-service/media/Schedule-Board-New-Map-requirement-pin-drag-05.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board, showing the dropping of the requirement pin.](../../field-service/media/Schedule-Board-New-Map-requirement-pin-drop-06.png)
+> ![Screenshot of the schedule board, showing the dropping of the requirement pin.](/field-service/media/Schedule-Board-New-Map-requirement-pin-drop-06.png)
 
 You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing dragging of the resource route.](../../field-service/media/Schedule-Board-New-Map-tech-route-drag-07.png)
+> ![Screenshot of the schedule board showing dragging of the resource route.](/field-service/media/Schedule-Board-New-Map-tech-route-drag-07.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing dropping of the resource route.](../../field-service/media/Schedule-Board-New-Map-tech-route-drop-08.png)
+> ![Screenshot of the schedule board showing dropping of the resource route.](/field-service/media/Schedule-Board-New-Map-tech-route-drop-08.png)
 
 ## Daily view
 
 The new schedule board supports a daily view of scheduled jobs and supports dragging-and-dropping to the schedule.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the daily schedule view on the new schedule board.](../../field-service/media/scheduling-new-daily-view-schedule1.png)
+> ![Screenshot of the daily schedule view on the new schedule board.](/field-service/media/scheduling-new-daily-view-schedule1.png)
 
 Scheduled requirements with a short duration will display across the entire day to make it easier to view details. Hover over the requirement or double-click to see the actual duration. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new schedule board showing another daily view detail.](../../field-service/media/scheduling-new-daily-view.png)
+> ![Screenshot of the new schedule board showing another daily view detail.](/field-service/media/scheduling-new-daily-view.png)
 
 ## Weekly and monthly views
 
 Switch to the weekly or monthly views to see scheduled jobs at a higher level. Select a resource's time slot and a requirement below to trigger the booking panel.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the weekly of the new Customer Service schedule board.](../../field-service/media/schedule-board-new-weekly.png)
+> ![Screenshot of the weekly of the new Customer Service schedule board.](/field-service/media/schedule-board-new-weekly.png)
 
 The booking panel will help you schedule a service activity across multiple days and choose how the work should be divided each day.
 
@@ -151,31 +151,31 @@ Beyond manual drag and drop scheduling, organizations using resource scheduling 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the suggest resources option.](../../field-service/media/scheduling-new-suggest-resources.png)
+> ![Screenshot of the suggest resources option.](/field-service/media/scheduling-new-suggest-resources.png)
 
 Selecting **Suggest resources** will display recommended resources in the right panel for the scheduler to book.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling assistance preview.](../../field-service/media/schedule-board-new-rso-1920-final-EDITTED.png)
+> ![Screenshot of the scheduling assistance preview.](/field-service/media/schedule-board-new-rso-1920-final-EDITTED.png)
 
 Selecting **Book resources** will find the most optimal resources and book them without further actions from the scheduler.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling assistant preview showing suggestions.](../../field-service/media/schedule-board-new-rso-suggest.png)
+> ![Screenshot of the scheduling assistant preview showing suggestions.](/field-service/media/schedule-board-new-rso-suggest.png)
 
 **Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
 
 Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day. This functionality is available on the new schedule board. You can right-click a resource from any schedule board view and select **Optimize Schedule**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the optimize schedule for a resource.](../../field-service/media/Schedule-Board-optimizer-Sro-09.png)
+> ![Screenshot of the optimize schedule for a resource.](/field-service/media/Schedule-Board-optimizer-Sro-09.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the optimize schedule for a resource in progress.](../../field-service/media/Schedule-Board-optimizer-Sro-10.png)
+> ![Screenshot of the optimize schedule for a resource in progress.](/field-service/media/Schedule-Board-optimizer-Sro-10.png)
 > 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the optimize schedule results.](../../field-service/media/Schedule-Board-optimizer-Sro-11.png)
+> ![Screenshot of the optimize schedule results.](/field-service/media/Schedule-Board-optimizer-Sro-11.png)
 
 ## Move bookings to a new resource, a new start date and time, or both
 
@@ -188,7 +188,7 @@ With Customer Service, the new schedule board provides an easy way to reassign a
 3. Select **Update** to apply the changes.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the move to option.](../../field-service/media/moveto-popup.png)
+> ![Screenshot of the move to option.](/field-service/media/moveto-popup.png)
 
 ### Move a booking to a resource on a different schedule board tab, or change the start date or time, or both
 
@@ -198,14 +198,14 @@ With Customer Service, the new schedule board provides an easy way to reassign a
 3. Select **Update** to apply the changes.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the move to with resource filter expanded option.](../../field-service/media/moveto-popup-filterexpanded.png)
+> ![Screenshot of the move to with resource filter expanded option.](/field-service/media/moveto-popup-filterexpanded.png)
 
 ## Automatic scheduling with optimization goals
 
 The schedule board supports optimization goals. After selecting suggested resources, schedulers can edit the optimization goal, which dictates how resources are recommended. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule assistant showing optimization goals on the schedule board.](../../field-service/media/schedule-board-new-optimization-goals-edit.png)
+> ![Screenshot of the schedule assistant showing optimization goals on the schedule board.](/field-service/media/schedule-board-new-optimization-goals-edit.png)
 
 There is a default optimization goal that applies to the entire system and serves as the default for optimization requests. Schedulers can also edit the default optimization goal for each schedule board. Finally, schedulers can edit the optimization goal for a single optimization request by selecting **Suggest Resources**. 
 
@@ -214,7 +214,7 @@ There is a default optimization goal that applies to the entire system and serve
 After a multi-day booking is created across multiple days, weeks, or months, schedulers can right-click a booking, select edit, and change how many hours are assigned for each day, week, or month via the booking panel on the right. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a multi-day booking on the schedule board.](../../field-service/media/schedule-board-new-edit-multiday-bookings.png)
+> ![Screenshot of a multi-day booking on the schedule board.](/field-service/media/schedule-board-new-edit-multiday-bookings.png)
 
 ## Configuration considerations
 
@@ -261,7 +261,7 @@ The following snippet is what it looks like before:
 ```<SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="$webresource:msdyn_/fps/ScheduleBoard/ScheduleBoard.html" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">```
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the sitemap before.](../../field-service/media/schedule-board-new-sitemap-before.png)
+> ![Screenshot of the sitemap before.](/field-service/media/schedule-board-new-sitemap-before.png)
 
 The following snippet is what it looks like after:
 
@@ -269,7 +269,7 @@ The following snippet is what it looks like after:
 ​
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the sitemap after.](../../field-service/media/schedule-board-new-sitemap-after.png)
+> ![Screenshot of the sitemap after.](/field-service/media/schedule-board-new-sitemap-after.png)
 
 **URL:**
 
