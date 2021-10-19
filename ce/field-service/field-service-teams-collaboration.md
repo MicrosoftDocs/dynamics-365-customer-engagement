@@ -22,7 +22,7 @@ Integrate with Microsoft Teams to chat with team members in the context of work 
 
 ## Prerequisites
 
-- Set up overall integration between Microsoft Teams and Dynamics 365 customer engagement apps. See this article: [Install and set up](/dynamics365/teams-integration/teams-install-app)
+- Set up overall integration between Microsoft Teams and Dynamics 365 customer engagement apps. Go to Settings > Administration > System Settings and 1) Enable **Basic** Microsoft Teams Integration (requires system admin permissions) and 2) Enable **Enhanced** Microsoft Teams integration (requires tenant admin permissions). See this article: [Install and set up](/dynamics365/teams-integration/teams-install-app) for more details.
 
 ### Configure collaboration settings
 
@@ -31,7 +31,7 @@ When signed into Dynamics 365, go to **Microsoft Teams Integration** > **Collabo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-teams-enable-administration.png)
 
-In the **Link chats to Dynamics 365 records** section, add the record types you'd like to collaborate on, such as work orders.
+In the **Link chats to Dynamics 365 records** section, add Work Orders and any other tables you'd like to collaborate on.
 
 ## Create a new chat from a work order
 
