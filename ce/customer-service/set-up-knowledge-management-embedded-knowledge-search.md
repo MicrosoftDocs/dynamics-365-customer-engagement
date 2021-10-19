@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 10/07/2021
+ms.date: 10/19/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -83,10 +83,23 @@ After knowledge management is set up, users will be able to:
 
 You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description-preview)
 
+## Set up knowledge search logic
+
+If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the OR logic, which brings up articles that match the individual keywords used for your search. For example, if you search for "Azure compute", the search results will show articles that match both "Azure" and "compute". This might show up a long list of search results, making it difficult for the agent to get to the required article.
+
+However, you can now enable the knowledge search to work by the AND logic, which considers the exact match of the keywords used for your search. For example, if you search for "Azure compute", the search results will show articles that match the complete set of keywords, that is, "Azure compute".
+
+To set up the knowledge search logic:
+
+1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Settings**. 
+
+2. In the **Knowledge search logic** section, set **Set search mode as all** toggle to **Yes**.
+
+3. Select **Save**.
 
 ## Enable feedback control
 
-This option allows users to provide feedback on knowledge articles opened from knowledge search control. 
+You can enable users to provide feedback on knowledge articles opened from knowledge search control.
 
 1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Settings**. 
 
