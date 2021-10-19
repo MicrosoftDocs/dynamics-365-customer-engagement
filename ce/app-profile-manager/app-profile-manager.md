@@ -84,8 +84,10 @@ For an app profile, you can enable the inbox view in the Customer Service worksp
 
 1. On the **App profiles** page, select the profile for which you want to enable the inbox. 
    > [!div class=mx-imgBorder]
-   > ![Select the profile for which to enable the inbox.](media/assign-users.png "Select the profile for which to enable the inbox.")
+   > ![Select the profile for which to enable the inbox.](media/app-profile-manager-inbox-profile.png "Select the profile for which to enable the inbox.")
 2. Select the **Inbox** tab, and then toggle **Turn on inbox view** to **On**.
+   > [!div class=mx-imgBorder]
+   > ![Select the Inbox tab to enable the inbox.](media/app-profile-manager-inbox-tab.png "Select the inbox tab to enable the inbox view.")
 
 ### Assign profiles to users
 
