@@ -1,6 +1,7 @@
 - name: Dynamics 365 Sales
-  href: help-hub.md
   items:
+  - name: Help resources for Dynamics 365 Sales
+    href: help-hub.md
   - name: Overview
     href: overview.md
   - name: What's new
@@ -89,8 +90,6 @@
       href: /powerapps/user/assign-or-share-records
     - name: Print quote, invoice, or other records
       href: print-records.md
-    - name: Enable or disable PDF generation from sales records
-      href: enable-pdf-generation-quote.md
     - name: Export sales records to PDF
       href: create-quote-pdf.md
   - name: Administration guide
@@ -134,7 +133,9 @@
       - name: Configure email engagement
         href: configure-email-engagement.md
       - name: Configure notes analysis
-        href: configure-notes-analysis.md   
+        href: configure-notes-analysis.md
+      - name: Enable or disable PDF generation from sales records
+        href: enable-pdf-generation-quote.md   
       - name: Configure Microsoft Teams dialer
         href: configure-microsoft-teams-dialer.md
       - name: Install and set up Microsoft Teams integration
@@ -459,7 +460,7 @@
         href: notes-analysis.md   
       - name: Manage sales literature
         href: create-sales-literature.md        
-      - name: Collaboration using Microsoft Teams
+      - name: Collaborate using Microsoft Teams
         href: /dynamics365/teams-integration/teams-collaboration 
       - name: Use OneDrive for Business
         href: /powerapps/user/one-drive  
