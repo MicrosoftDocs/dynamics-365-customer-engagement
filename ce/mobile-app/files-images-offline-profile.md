@@ -79,7 +79,7 @@ It is required to add both the **Image Descriptor** and **FileAttachment** table
     >![Select image descriptor.](media/offline-file-images.png "Select image descriptor")
 
 8. Under **Choose the records that you want to make available offline**, select **Related records only**.
-9. Expand **Relationships** and select **Column name:** for each applicable column where **Data type** is set to **Image** as shown for the **DemoTable1** and **DemoTable3** tables.
+9. Expand **Relationships** and select **Column name:** for each applicable column where **Data type** is set to **Image** (i.e., as shown in the screenshot below for the **DemoTable1** and **DemoTable3** tables).
 
    > [!div class="mx-imgBorder"]
     >![Add image descriptor.](media/offline-file-images-2.png "Add image descriptor")
@@ -127,7 +127,7 @@ It is required to add the **FileAttachment** tables to your mobile offline profi
     >![Select FileAttachment.](media/offline-file-images-4.png "Select FileAttachment")
 
 8. Under **Choose the records that you want to make available offline**, select **Related records only**.
-9. Expand **Relationships** and select **Column name: Display name** for each applicable column where **Data type** is set to **File** as shown for the **DemoTable3** table.
+9. Expand **Relationships** and select **Column name: Display name** for each applicable column where **Data type** is set to **File** (i.e., as shown in the screenshot below for the **DemoTable3** table).
 
    > ![Note] Don't select **Column name: Regarding.**.
 
