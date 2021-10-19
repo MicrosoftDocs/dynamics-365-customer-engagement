@@ -51,7 +51,7 @@ Also, be sure to [review installation and set up of the Field Service (Dynamics 
 
 ## Download the app
 
-Go to the Microsoft Store and search for **Field Service (Dynamics 365) (Preview)**.
+[Download from Windows store](https://aka.ms/fsmobile-windows10) or simply search for **Field Service (Dynamics 365) (Preview)**.
 
 Download the app named **Field Service (Dynamics 365) (Preview) app**.
  

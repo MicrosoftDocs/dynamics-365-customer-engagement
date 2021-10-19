@@ -60,7 +60,7 @@ The Dynamics 365 Marketing October 2021 update includes a new Content ideas feat
 
 - **Use natural language to create targeted segments in outbound marketing**
     - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/use-natural-language-create-targeted-segments)
-    - [Docs](real-time-marketing-natural-language.md)
+    - [Docs](nl-segment-build.md)
 - **Optimize the performance of emails in the new outbound marketing email editor with A/B testing**
     - [Release plan](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/new-email-editor-ab-testing)
     - [Docs](email-a-b-testing.md)
