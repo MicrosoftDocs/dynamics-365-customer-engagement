@@ -30,7 +30,7 @@ Follow the steps in this topic, for a mobile offline profile that has a table wi
 
 
 
-## View column properties for file or image 
+## View column properties for a file or image 
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
