@@ -17,13 +17,18 @@ applies_to:
 
 # Frequently asked questions for Sales Premium
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+## Licenses
 
+**Question**:<br>What's the difference between Sales Premium and Sales Insights?     
+**Answer**:<br>Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.     
+
+**Question**:<br>Where can I find the comparison chart for Dynamics 365 Sales licenses?    
+**Answer**:<br>The following license options are available for Dynamics 365 Sales:
+- Sales Premium
+- Sales Enterprise
+- Sales Professional
+
+For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
 ## General
 
