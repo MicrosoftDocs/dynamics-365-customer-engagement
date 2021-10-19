@@ -20,13 +20,6 @@ Follow these steps to start a chat:
 
    To start a chat proactively depending on various customer scenarios in your organization, see [Start a chat proactively](start-proactive-chat.md).
 
-> [!NOTE]
-> To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the widget snippet and set its value to `true`. Invoke the [startChat](developer/reference/methods/startChat.md) method on click of the custom UI component to start the chat.
->
-> **Sample widget code snippet to hide chat button**
->
-> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
-
 ## Sample code
 
 ```JavaScript
@@ -55,6 +48,14 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
     }, 300000);
 });
 ```
+
+## Use custom chat button
+
+To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the widget snippet and set its value to `true`. Invoke the [startChat](developer/reference/methods/startChat.md) method on click of the custom UI component to start the chat.
+
+### Sample code snippet to hide the standard chat button
+
+`<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
 
 ### See also
 
