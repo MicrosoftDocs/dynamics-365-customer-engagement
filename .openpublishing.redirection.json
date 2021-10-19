@@ -2082,62 +2082,27 @@
     },
     {
       "source_path": "ce/sales-enterprise/embedded-intelligence.md",
-      "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_url": "/dynamics365/sales/overview",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/sales-enterprise/configure-enable-embedded-intelligence.md",
-      "redirect_url": "/dynamics365/ai/sales/intro-admin-guide-sales-insights",
+      "redirect_url": "/dynamics365/sales/intro-admin-guide-sales-insights",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/sales-enterprise/relationship-assistant.md",
-      "redirect_url": "/dynamics365/ai/sales/assistant",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/action-cards-reference.md",
-      "redirect_url": "/dynamics365/ai/sales/action-cards-reference",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/email-engagement.md",
-      "redirect_url": "/dynamics365/ai/sales/email-engagement",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/auto-capture.md",
-      "redirect_url": "/dynamics365/ai/sales/auto-capture",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/manage-custom-cards-flow.md",
-      "redirect_url": "/dynamics365/ai/sales/configure-assistant#configure-assistant-full-capabilities-to-manage-insight-cards",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/create-insight-cards-flow.md",
-      "redirect_url": "/dynamics365/ai/sales/create-insight-cards-flow",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/edit-insight-cards.md",
-      "redirect_url": "/dynamics365/ai/sales/edit-insight-cards",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/optimize-ranking-insight-cards.md",
-      "redirect_url": "/dynamics365/ai/sales/optimize-ranking-insight-cards",
+      "redirect_url": "/dynamics365/sales/assistant",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/sales-enterprise/privacy-notice-ee.md",
-      "redirect_url": "/dynamics365/ai/sales/privacy-notice",
+      "redirect_url": "/dynamics365/sales/privacy-notice",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/sales-enterprise/dynamics365-ai-sales.md",
-      "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_url": "/dynamics365/sales/overview",
       "redirect_document_id": "false"
     },
     {
@@ -21456,7 +21421,7 @@
     },
     {
       "source_path": "ce/sales-enterprise/embedded-intelligence-overview.md",
-      "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_url": "/dynamics365/sales/overview",
       "redirect_document_id": false
     },
     {
@@ -22772,11 +22737,6 @@
     {
       "source_path": "ce/sales-enterprise/talking-points.md",
       "redirect_url": "/dynamics365/sales/talking-points",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/toc.yml",
-      "redirect_url": "/dynamics365/sales/toc.yml",
       "redirect_document_id": "false"
     },
     {
