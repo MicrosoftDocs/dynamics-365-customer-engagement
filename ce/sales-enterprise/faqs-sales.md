@@ -214,4 +214,6 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 -	On the [Advanced](forecast-configure-advanced-settings.md) page, you can enable or disable auto-hide parent row, multi-currency selection, and customize access to edit fields in the underlying records grid.    
 When you save and publish the configuration, the changes will be applied immediately to the forecast. If you update data (simple columns and adjust fields), these changes may take up to two hours to reflect in the forecast. 
 
+
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
