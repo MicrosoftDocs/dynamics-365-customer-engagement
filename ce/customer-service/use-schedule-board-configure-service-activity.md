@@ -17,6 +17,8 @@ ms.custom:
   - dyn365-customerservice
 ---
 
+# Use the schedule board to configure service activies
+
 In this article, we'll take a look at what's new, and how to switch to the new schedule board in your environment. 
 
 > [!div class="mx-imgBorder"]
@@ -37,7 +39,6 @@ The new schedule board is faster and more responsive when you do the following t
 - Select schedule board tabs
 - Drag and drop service activities
 - Reschedule bookings
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the new schedule board.](/field-service/media/schedule-board-new-accessability.png)
