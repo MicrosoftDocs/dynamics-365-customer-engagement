@@ -43,7 +43,7 @@ Use the following input and output parameters for the Search Resource Availabili
 |Version | String | Yes |The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request does not have to contain the complete version number.|
 |RequirementGroup | | Yes | An entity reference to the requirement group entity.|
 |RequirementSpecification |Integer| No | If left null, respects the targeting requirement group duration by default.|
-|Settings |Entity<InputSettings> |No | Sets the settings for the request.|
+|Settings |`Entity<InputSettings>` |No | Sets the settings for the request.|
 
 ### Inputsettings
 
@@ -72,7 +72,7 @@ Use the following input and output parameters for the Search Resource Availabili
 |         |Resource(OutputResource)<br><br>OutputResource<br><ul><li>Resource (BookableResource)<br><li>TotalAvailableTime (Double)<br></ul> |The Resource entity as explained below. |
 |         |Location(OutputTimeSlotLocation)<br><br>OutputTimeSlotLocation:<br><ul><li>WorkLocation (Enum):<br><ul><li>Onsite (0)<br><li>Facility (1)<br><li>Location agnostic (2)</ul><br><li>LocationSourceSlot (Enum):<br><ul><li>Common (1)<br><li>Custom GPS entity (2)<br><li>Mobile audit (3)</ul> |The entity contains details about the location of a time slot. For more details, see TimeSlotLocation below. |
 |         |TimeGroup(TimeSlotTimeGroup)<br><br>OutputTimeSlotTimeGroup:<br><ul><li>TimeGroupId (Guid)<br><li>TimeGroupDetail (EntityReference)<br><li>TimeGroupDetailStartTime (DateTime)<br><li>TimeGroupDetailEndTime (DateTime)</ul>  |The entity contains details about a time group. For more details, see TimeSlotTimeGroup below. |
-|         |AvailableIntervals (List<<Guide>OutputTimeSlot>)|A collection of available intervals.|
+|         |AvailableIntervals (`List<<Guide>OutputTimeSlot>`)|A collection of available intervals.|
 |Resources (List&#60;OutputResource&#62;)  |Resource (EntityReference)|An entity reference to the bookable resource.|
 |         |BusinessUnit (EntityReference) |An entity reference to the bookable resource group.|
 |         |OrganizationalUnit (EntityReference) |An entity reference to the organizational unit.|
@@ -84,7 +84,7 @@ Use the following input and output parameters for the Search Resource Availabili
 |         |ImagePath (String)                 |The path to the resource’s image.|
 |Requirements (List&#60;OutputRequirements&#62;) |Requirement (EntityReference)   |An entity reference to the Resource Requirement record.|
 |            |ConstraintBag (String)           |Requirement constraint in ufx bag(internal)|
-|            |Resources (List<<EntityReference>EntityReference>)   |Entity reference list of resource that is available to the requirements.|
+|            |Resources (`List<<EntityReference>EntityReference>`)   |Entity reference list of resource that is available to the requirements.|
 |ProposalResourceAssignmentSets (List&#60;OutputProposalResourceAssignmentSet&#62;) |IntervalStart (DateTime)|Start time for each proposal resource assignment set.|
 |   |ProposalResourceAssignments (List&#60;OutputProposalResourceAssignments&#62;<br><br>OutputProposalResourceAssignments:<br><ul><li>RequirementId (Guid)<br><li>ResourceId (Guid)</ul> |List of Resources assigned to Requirement.|
 |PagingInfos (OutputPagingInfo)  |MoreResults (Boolean)|If there are more results or not.|
@@ -207,7 +207,7 @@ The following image is an example configuration of the Resource Requirement Grou
 > To access the **Requirement Group** page from the Customer Service Hub app, you need to navigate there via a URL. 
 
 > [!IMPORTANT]
-> Use the following URL to reach the **Resource Requirements Group** page: <<YourOrgURL>YourOrgURL>?appid=guid&pagetype=entitylist&etn=msdyn_requirementgroupr.
+> Use the following URL to reach the **Resource Requirements Group** page: `<<YourOrgURL>YourOrgURL>?appid=guid&pagetype=entitylist&etn=msdyn_requirementgroupr`.
 
 
 ![Test Requirements Group.](media/ur-scheduling-4-new.png "Test Requirements Group")
@@ -244,7 +244,7 @@ To execute this search against your organization, you need to download the [samp
 
 ![Modify the hard-coded input parameters for the sample folder.](media/ur-scheduling-7-new.PNG)
 
-3. Navigate to the newly added new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm page. Example: <<YourOrgURL>>//WebResources/new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm   
+3. Navigate to the newly added new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm page. Example: `<<YourOrgURL>>//WebResources/new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm`   
 
 ![Navigate to the newly added page.](media/ur-scheduling-8.PNG)
 
@@ -265,7 +265,7 @@ To execute this search against your organization, you need to download the [samp
 
 ![Find the sample code.](media/ur-scheduling-11-new.png)
 
-6. Navigate to the newly added new_ msdyn_CreateRequirementGroupBookingsSample.htm page. (Example: <<YourOrgURL>>//WebResources/new_msdyn_CreateRequirementGroupBookingsSample.htm) to invoke a call to the Booking API and create the booking.
+6. Navigate to the newly added new_ msdyn_CreateRequirementGroupBookingsSample.htm page. (Example: `<<YourOrgURL>>//WebResources/new_msdyn_CreateRequirementGroupBookingsSample.htm`) to invoke a call to the Booking API and create the booking.
 
 ![Invoke a call to the Booking API.](media/ur-scheduling-12.png)
 
@@ -287,12 +287,12 @@ See the [Additional resources](#bkmk_seealso) section for links to additional he
 
 ### Sample code
 
-The sample code given below shows how to implement `msdyn_SearchResourceAvailabilityForRequirementGroup` message.
+The following sample code shows how to implement `msdyn_SearchResourceAvailabilityForRequirementGroup` message.
 
 ```static void Main(string[] args) 
         { 
             // Authentication  
-            String machineName = "aurorav?????"; 
+            String machineName = "contoso?????"; 
             String orgName = "?????"; 
             String domain = $"{machineName}dom.extest.microsoft.com"; 
             String uri = $"http://{machineName}.{domain}/{orgName}/XRMServices/2011/Organization.svc"; 
