@@ -571,13 +571,13 @@
       - name: Configure relevance search for transcripts
         href: relevance-search-chat-transcript.md
       - name: Configure link to conversation button
-        href: configure-link-to-conversation-model-driven-app-form.md
-      - name: Send authentication token
-        href: send-auth-token-starting-chat.md        
+        href: configure-link-to-conversation-model-driven-app-form.md 
       - name: Start a chat
         href: initiate-chat-wait-time.md
-      - name: Start chat proactively
-        href: start-proactive-chat.md
+           - name: Start chat proactively
+             href: start-proactive-chat.md
+           - name: Send authentication token
+             href: send-auth-token-starting-chat.md       
       - name: Configure automatic closure of conversations
         href: auto-close-conversation.md
       - name: Manage custom context
