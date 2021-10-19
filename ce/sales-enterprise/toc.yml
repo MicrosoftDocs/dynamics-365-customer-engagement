@@ -101,6 +101,60 @@
           href: match-fields-between-dynamics365-zoominfo.md
         - name: Customize the ZoomInfo app
           href: customize-zoominfo-app.md              
+    - name: Collaboration and communication
+      items:
+      - name: Activity management
+        items:
+        - name: Set up the timeline control
+          href: /powerapps/maker/model-driven-apps/set-up-timeline-control
+        - name: Set up enhanced email
+          href: set-up-enhanced-email.md
+        - name: Set up and customize Dynamics 365 App for Outlook
+          href: /powerapps/maker/model-driven-apps/app-for-outlook-customize  
+        - name: Add the Kanban control to Opportunity or Activity entities
+          href: add-kanban-control.md
+      - name: Enable auto capture
+        href: configure-auto-capture.md
+      - name: Configure email engagement
+        href: configure-email-engagement.md
+      - name: Configure notes analysis
+        href: configure-notes-analysis.md   
+      - name: Configure Microsoft Teams dialer
+        href: configure-microsoft-teams-dialer.md
+      - name: Install and set up Microsoft Teams integration
+        href: /dynamics365/teams-integration/teams-install-app
+      - name: Integrate with SharePoint
+        href: /power-platform/admin/manage-documents-using-sharepoint        
+      - name: Integrate a sample softphone
+        href: sample-softphone-integration.md
+    - name: Lead management
+      items:
+      - name: Define lead qualification experience
+        href: define-lead-qualification-experience.md
+      - name: Integrate LinkedIn Sales Navigator solutions
+        href: /dynamics365/linkedin/integrate-sales-navigator
+      - name: Configure predictive lead scoring
+        href: configure-predictive-lead-scoring.md        
+    - name: Opportunity management
+      items:
+      - name: Deal manager
+        items:
+        - name: Using the deal manager workspace
+          href: deal-manager-seller-overview.md
+        - name: Access the deal manager workspace
+          href: access-deal-manager.md
+        - name: Personalize the deal manager workspace
+          href: personalize-deal-manager.md   
+        - name: Known issues in deal manager
+          href: deal-manager-known-issues.md  
+      - name: Enable customization of the Opportunity Close form
+        href: enable-opportunity-close-customization.md
+      - name: Customize the Opportunity Close form
+        href: customize-opportunity-close-experience.md
+      - name: Configure predictive opportunity scoring
+        href: configure-predictive-opportunity-scoring.md       
+      - name: Add the Kanban control to Opportunity or Activity entities
+        href: add-kanban-control.md
     - name: Product and price list management
       items:
       - name: Set up a product catalog
@@ -151,52 +205,6 @@
         href: enable-enhanced-add-product-experience.md
       - name: Customize the Add Products dialog box
         href: customize-add-products-dialog-box.md
-    - name: Productivity
-      items:
-      - name: Set up enhanced email
-        href: set-up-enhanced-email.md
-      - name: Add the Kanban control to Opportunity or Activity entities
-        href: add-kanban-control.md
-      - name: Configure email engagement
-        href: configure-email-engagement.md
-      - name: Enable auto capture
-        href: configure-auto-capture.md
-      - name: Configure notes analysis
-        href: configure-notes-analysis.md   
-      - name: Configure Microsoft Teams dialer
-        href: configure-microsoft-teams-dialer.md
-      - name: Install and set up Microsoft Teams integration
-        href: /dynamics365/teams-integration/teams-install-app
-      - name: Integrate a sample softphone
-        href: sample-softphone-integration.md
-    - name: Lead management
-      items:
-      - name: Define lead qualification experience
-        href: define-lead-qualification-experience.md
-      - name: Integrate LinkedIn Sales Navigator solutions
-        href: /dynamics365/linkedin/integrate-sales-navigator
-      - name: Configure predictive lead scoring
-        href: configure-predictive-lead-scoring.md        
-    - name: Opportunity management
-      items:
-      - name: Deal manager
-        items:
-        - name: Using the deal manager workspace
-          href: deal-manager-seller-overview.md
-        - name: Access the deal manager workspace
-          href: access-deal-manager.md
-        - name: Personalize the deal manager workspace
-          href: personalize-deal-manager.md   
-        - name: Known issues in deal manager
-          href: deal-manager-known-issues.md  
-      - name: Enable customization of the Opportunity Close form
-        href: enable-opportunity-close-customization.md
-      - name: Customize the Opportunity Close form
-        href: customize-opportunity-close-experience.md
-      - name: Configure predictive opportunity scoring
-        href: configure-predictive-opportunity-scoring.md       
-      - name: Add the Kanban control to Opportunity or Activity entities
-        href: add-kanban-control.md
     - name: Forecast management
       items:
       - name: Configure forecasts in your organization
@@ -205,10 +213,16 @@
         href: select-template-forecast.md
       - name: Define general properties and scheduling
         href: define-general-properties-scheduling-forecast.md
+      - name: Capture forecast category for opportunity
+        href: capture-forecast-category-opportunity.md        
+      - name: Configure forecast using custom rollup entity
+        href: configure-forecast-using-custom-rollup-entity.md        
       - name: Provide viewing and adjustment privileges
         href: provide-permissions-forecast.md
       - name: Choose layout and columns
         href: choose-layout-and-columns-forecast.md
+      - name: Forecast with different data type
+        href: forecast-different-data-types.md        
       - name: Apply additional filter
         href: add-additional-filters.md
       - name: Configure and manage drill-down entities
@@ -223,12 +237,6 @@
         href: deactivate-delete-forecast.md
       - name: Clone a forecast
         href: clone-forecast.md  
-      - name: Forecast with different data type
-        href: forecast-different-data-types.md
-      - name: Configure forecast using custom rollup entity
-        href: configure-forecast-using-custom-rollup-entity.md
-      - name: Capture forecast category for opportunity
-        href: capture-forecast-category-opportunity.md
       - name: Configure premium forecasting
         href: configure-premium-forecasting.md
       - name: View prediction model status
@@ -392,7 +400,7 @@
         href: understand-lsi-accounts-form.md 
       - name: Scan business cards
         href: scan-business-cards.md
-    - name: Productivity
+    - name: Collaboration and communication
       items:
       - name: Activity management
         items:
@@ -400,6 +408,8 @@
           href: /powerapps/user/add-activities
         - name: Track and manage activities
           href: manage-activities.md
+        - name: Access Dynamics 365 app from Outlook
+          href: /dynamics365/outlook-app/user/basic-navigation
         - name: Work with activities in the Kanban view
           href: activity-kanban-view.md 
         - name: Send email using the enhanced email experience
@@ -414,7 +424,11 @@
       - name: View message interactions with email engagement
         href: email-engagement.md
       - name: How notes analysis assists you with suggestion
-        href: notes-analysis.md          
+        href: notes-analysis.md   
+      - name: Collaboration using Microsoft Teams
+        href: /dynamics365/teams-integration/teams-collaboration  
+      - name: Collaborate using SharePoint
+        href: /powerapps/user/collaborate-using-sharepoint               
     - name: Lead management
       items:
       - name: Create or edit leads
