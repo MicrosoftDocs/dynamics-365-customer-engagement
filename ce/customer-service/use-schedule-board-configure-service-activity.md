@@ -60,7 +60,7 @@ The new schedule board provides the foundation for future releases that will pro
 ## Prerequisites
 
 - The next generation schedule board is generally available. 
-- Dynamics 365 Customer Service version 8.8.30.103+
+- Dynamics 365 Customer Service
  
 
 ## Enable new schedule board
@@ -166,7 +166,7 @@ Selecting **Book resources** will find the most optimal resources and book them 
 
 **Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
 
-Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day - this functionality is now available on the new schedule board. You can right-click a resource from any schedule board view and select Optimize Schedule.
+Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day. This functionality is available on the new schedule board. You can right-click a resource from any schedule board view and select **Optimize Schedule**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the optimize schedule for a resource.](../../field-service/media/Schedule-Board-optimizer-Sro-09.png)
@@ -179,24 +179,23 @@ Sometimes you might need to optimize only a single resource's schedule, rather t
 
 ## Move bookings to a new resource, a new start date and time, or both
 
-With Customer Service, the new schedule board provides an easy way to reassign and reschedule bookings in the same action. Bookings can be moved to resources on the current schedule board tab or to resources on other schedule board tabs.
+With Customer Service, the new schedule board provides an easy way to reassign and reschedule bookings in the same action. Bookings can be moved to resources on the current schedule board tab, or to resources on other schedule board tabs.
 
 ### Move a booking to a resource on the current schedule board tab, or change the start date/time, or both
 
-Right-click on a booking and select **Move to**.
-
-Then reassign this booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. 
-
-Select **Update** to apply the changes.
+1. Right-click a booking, and then select **Move to**. 
+2. Reassign the booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. 
+3. Select **Update** to apply the changes.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the move to option.](../../field-service/media/moveto-popup.png)
 
 ### Move a booking to a resource on a different schedule board tab, or change the start date or time, or both
 
-Right-click on a booking and select **Move to**. Select the filter icon in the resource field and change the filter from *Resources on this tab* to *All resources*.
-
-Now you can reassign this booking to any resource on any tab, and change the start date and start time of the booking. Select **Update** to apply the changes.
+1. Right-click the booking, and then select **Move to**.
+2. Select the filter icon in the resource field, and change the filter from **Resources on this tab** to **All resources**.
+   Now, you can reassign this booking to any resource on any tab, and change the start date and start time of the booking.
+3. Select **Update** to apply the changes.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the move to with resource filter expanded option.](../../field-service/media/moveto-popup-filterexpanded.png)
@@ -212,7 +211,7 @@ There is a default optimization goal that applies to the entire system and serve
 
 ## Edit multi-day bookings
 
-After a multi-day booking is created across multiple days, weeks, or months, schedulers can right-click a booking, select edit, and change how many hours are assigned for each day, week, or month via a booking panel on the right. 
+After a multi-day booking is created across multiple days, weeks, or months, schedulers can right-click a booking, select edit, and change how many hours are assigned for each day, week, or month via the booking panel on the right. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a multi-day booking on the schedule board.](../../field-service/media/schedule-board-new-edit-multiday-bookings.png)
@@ -234,7 +233,7 @@ Use the following feature comparison table to understand which version of the sc
 | Manual scheduling     | Scheduler | Yes   | Yes   | Scheduler can manually select a resource and create a booking for an unscheduled requirement by interactions like dragging and dropping the requirements, selecting an open timeslot, and using booking panel.    |
 | Assisted scheduling           | Scheduler | 2021 release wave 2 | Yes         | Scheduler can select an unscheduled requirement on the requirement panel and select "Find Availability," which opens up the schedule assistant view, and shows the available timeslots for the available resources. Scheduler can choose a timeslot and create a booking.       |
 | Automated scheduling          | Scheduler | For existing resource scheduling optimization customers, public preview is available.  | No                 | The default capabilities of resource scheduling optimizer functionality are made available in the schedule board, enabling schedulers to manage schedules from a requirement's or resources point of view with the organization's business goals applied automatically by the optimizer.                    |
-| Auto update travel time    | Scheduler | Yes                  | Yes                |  When a booking is manually scheduled or rescheduled via drag-and-drop, the travel time from the resource's previous location is automatically calculated and displayed in the front of the booking. [See more details](https://docs.microsoft.com/dynamics365/field-service/schedule-with-travel-time#add-travel-time-with-manual-scheduling).         |
+| Auto update travel time    | Scheduler | Yes                  | Yes                |  When a booking is manually scheduled or rescheduled via drag-and-drop, the travel time from the resource's previous location is automatically calculated and displayed in the front of the booking.
 | View modes - Hourly, daily    | Scheduler | Yes                               | Yes                | Show the resources and their bookings on the hourly and daily views of the schedule board.          |
 | View modes - Weekly, monthly  | Scheduler | Yes    | Yes        | Show the resources and their bookings on the weekly and monthly views of the schedule board.      |
 | View types - List view        | Scheduler | Yes        | Yes                | List view is a simple view, in which bookings of the resources are shown as a simple list. This list view provides accessible view to the Users to browse and create Bookings                                               |
@@ -264,7 +263,7 @@ The following snippet is what it looks like before:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the sitemap before.](../../field-service/media/schedule-board-new-sitemap-before.png)
 
-The next snippet is what it looks like after:
+The following snippet is what it looks like after:
 
 ```<SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="/main.aspx?pagetype=entitylist&amp;etn=msdyn_scheduleboardsetting" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">```
 ​
@@ -282,7 +281,7 @@ The next snippet is what it looks like after:
 
 ## Additional notes
 
-- The schedule board is only supported in Unified Interface web, and not in tablets or phones.
+- The schedule board is only supported in Unified Interface web, and not on tablets or phones.
 - The booking status colors that appear on the schedule board have lower opacity than the defined booking status colors. This behavior is similar to the Outlook calendar. When a booking is selected on the schedule board, the booking color will appear with normal opacity.
 
 ### Uninstall the schedule board
