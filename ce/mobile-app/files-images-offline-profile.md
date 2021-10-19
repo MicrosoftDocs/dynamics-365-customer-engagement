@@ -138,12 +138,12 @@ Add all tables to your mobile offline profile where the column type is a file. F
   
   
   
-## Files and images in Offline Status
+## Offline status of files and images
 
-You can use the **[Offline Status](work-in-offline-mode.md#see-whether-offline-mode-is-available)** page on your device to see the number of files and images to be downloaded and the current progress.
+You can use the **[Offline Status](work-in-offline-mode.md#see-whether-offline-mode-is-available)** page to see the number of files and images to be downloaded and the current progress.
 
 - The number of images is listed for the **Image Descriptor** table.
-- The number of files are listed for each table with file attachments as shows for the **DemoTable2** table.
+- The number of files are listed for each table with file attachments as shown for **DemoTable2** table.
 
 > [!div class="mx-imgBorder"]
 >![Offline status of files and images.](media/offline-status.png "Offline status of files and images.")
