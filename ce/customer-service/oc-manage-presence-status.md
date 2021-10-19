@@ -1,7 +1,7 @@
 ---
 title: "Manage presence status in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this topic to learn how to view and update your presence status in Omnichannel for Customer Service."
-ms.date: 07/16/2020
+ms.date: 10/19/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -38,6 +38,7 @@ If you can't see your presence status, make sure that cookies are not blocked in
 ## Update your presence status
 
 Presence status is updated in two ways:
+
 - **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the presence icon from the nav bar and then select the status from the list. The list shows five standard presence statuses:
 
   - Offline
@@ -45,7 +46,9 @@ Presence status is updated in two ways:
   - Do not disturb
   - Busy
   - Available
-  
+
+When you manually change your status to any other except **Available**, your presence will not be updated automatically by the system and you'll not be assigned any work items.
+
    You might also see other additional presence statuses that your administrator configured for you.
 
   > [!div class=mx-imgBorder]
