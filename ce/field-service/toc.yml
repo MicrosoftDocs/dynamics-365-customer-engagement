@@ -64,6 +64,8 @@
     href: set-up-service-task-types.md
   - name: Knowledge articles
     href: field-service-knowledge-management.md
+  - name: Collaborate on work orders with Microsoft Teams
+    href: field-service-teams-collaboration.md
   - name: Work order summary reports
     href: reports.md
   - name: Inspections
