@@ -47,7 +47,7 @@ Presence status is updated in two ways:
   - Busy
   - Available
 
-When you manually change your status to any other except **Available**, your presence will not be updated automatically by the system and you'll not be assigned any work items.
+When you manually change your status to any other except **Available**, your presence will not be updated automatically by the system, and you'll not be assigned any work items.
 
    You might also see other additional presence statuses that your administrator configured for you.
 
