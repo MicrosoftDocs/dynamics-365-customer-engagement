@@ -248,6 +248,8 @@
           href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
+        - name: Enable entities for queues in unified routing
+          href: enable-entities-for-queues.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md
       - name: Set up skill-based routing
@@ -656,6 +658,8 @@
     items: 
     - name: Configure operating hours
       href: create-operating-hours.md
+    - name: Configure and manage custom presence
+      href: presence-custom-presence.md
     - name: Enable file attachments
       href: enable-file-attachments.md
     - name: Enable formatted messages

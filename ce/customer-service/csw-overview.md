@@ -87,6 +87,18 @@ From the **Home** session, you can select a record in the following ways and ope
 3.	Run the following command at the console window:
     Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)
 
+### Enable legacy navigation (deprecated)
+
+> [!Note]
+> The legacy navigation is deprecated and will be removed in a future release.
+
+**To enable the legacy navigation experience**
+
+1.	Sign in to Dynamics 365.
+2.	Select F12 to open the developer tools.
+3.	Run the following command at the console window.
+    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)
+
 
 ### Work with cases
 
