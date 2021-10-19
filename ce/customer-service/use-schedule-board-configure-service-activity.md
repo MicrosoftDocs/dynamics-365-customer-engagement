@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Use the schedule board to configure service activies
+# Use the schedule board to configure service activities
 
 In this article, we'll take a look at what's new, and how to switch to the new schedule board in your environment. 
 
