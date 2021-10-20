@@ -1,7 +1,7 @@
 ---
 title: Schedule a service activity in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to schedule a service activity in service scheduling in Dynamics 365 Customer Service
-ms.date: 11/20/2018
+ms.date: 10/19/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -66,7 +66,7 @@ Make sure that you have the required security role or equivalent permissions.
     - Select the **Booking Status** from the drop-down menu.
     - Select **Book** to schedule a service activity. Select **Book and Exit** to schedule and exit the tab.
 
-      [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service activity](use-schedule-board-configure-service-activity.md#schedule-a-booking-for-a-service-activity)
+      [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a booking for a service activity](use-schedule-board-configure-service-activity.md)
 
       ![book-service-activity.](media/book-service-activity.png)
 
