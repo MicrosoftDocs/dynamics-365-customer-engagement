@@ -21,9 +21,9 @@ manager: shujoshi
 
 ## Introduction
 
-Welcome to Dynamics 365 Customer Service admin center (preview), a new app that unifies and simplifies administration experience across the Customer Service suite including Service management in Customer service Hub, Omnichannel admin center, and app profile manager.
+Welcome to Dynamics 365 Customer service admin center (preview), a new app that unifies and simplifies administration experience across the Customer Service suite including Service management in Customer service Hub, Omnichannel admin center, and App profile manager.
 
-Use the Customer Service admin center app to set up everything related to customer service, such as defining parent-child case hierarchy, creating queues, rules for automatic case creation, service-level agreements (SLAs), entitlements, and customer service schedules.
+Use the Customer Service admin center app to set up everything related to customer service, such as defining parent-child case hierarchy, creating queues/channels/routing, rules for automatic case creation, service-level agreements (SLAs), entitlements, customer service schedules and etc
 
 Some of the highlighted improvements include:  
 
@@ -35,7 +35,7 @@ Some of the highlighted improvements include:
 
 - Feature landing page to provide an overview of all capabilities for that feature 
 
-Adapts to the capabilities that are provisioned. Based in core Customer service, if omnichannel is provisioned, additional features are lighted up.
+- Adapts to the capabilities that are provisioned. Based in core Customer service, if omnichannel is provisioned, additional features are lighted up.
 
 ## Prerequisites
 
