@@ -41,15 +41,15 @@ Adapts to the capabilities that are provisioned. Based in core Customer service,
 
 You will need one of the below security roles to access this new app (acronym as CSAC). The last three are for back compatibility with current admin access to CSH, Omnichannel admin center and App profile managers.  
 
-System Administrator – can access and edit all the sitemap entries  
+- System Administrator – can access and edit all the sitemap entries  
 
-System Customizer – can access and edit all the sitemap entries 
+- System Customizer – can access and edit all the sitemap entries 
 
-Customer service manager – can access the entities which are original service management  
+- Customer service manager – can access the entities which are original service management   
 
-App profile administrator – can access the app and edit App profile related entities.  
+- App profile administrator – can access the app and edit App profile related entities.  
 
-Omnichannel administrator – back compatibility with omnichannel admin center, this role can access to CSac and all the Omnichannel related entities as Omnichannel admin center does today.
+- Omnichannel administrator – can access to the app and edit all the Omnichannel related entities as Omnichannel admin center does today.
 
 ## Access the app
 
