@@ -181,9 +181,22 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 1. Select the plus sign (+) to expand the tab menu.
 2. Select Email Templates or Email Signatures.
 
-## Productivity pane with Smart Assist
+### Use the inbox
 
-While you are working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros.
+As an agent, when you open Customer Service workspace or Omnichannel for Customer Service, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need more time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
+
+The following image shows the inbox conversation view:
+:::image type="content" source="media/inbox-csw.png" alt-text="Customer Service workspace inbox conversations view" border="false":::
+
+The following image shows the inbox case view:
+
+:::image type="content" source="media/inbox-case.png" alt-text="Customer Service workspace inbox case view" border="false":::
+
+For information on how to configure the inbox view, see [Configure the inbox view in App profile manager](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view).
+
+### Productivity pane with Smart Assist
+
+While you're working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros.
 
 :::image type="content" source="media/productivity-pane-overview.png" alt-text="Productivity pane with Smart Assist" border="false":::
 
