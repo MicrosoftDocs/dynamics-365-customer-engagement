@@ -65,7 +65,7 @@ A: Customer service admin center unify all the administration settings from Omni
 
 Q: When do you plan to deprecate existing admin experience?  
 
-A: Once Customer service admin center becomes general availability, we will leave some time for customers to get used it and provide feedback, so there is a period this new app will co-exist with existing admin experience. Then we will announce the old experience. You should be able to find the benefits to use this new app.  
+A: Once Customer service admin center becomes general availability, we will leave some time for customers to get used it and provide feedback, so there is a period this new app will co-exist with existing admin experience. Then we will announce the deprecation of old experience. We highly recommend you to start use this app as early as possible, you should be able to find the benefits to use this new app.  
 
 Q: You integrate existing App profiles manager experience into this new app, why and did you change any functionality?  
 
@@ -73,6 +73,6 @@ A: We get lots of feedbacks from customer that they need to go to App profiles m
 
 Q: Can I customize this new application?
 
-A: Same as the other App module, you can use App designer to  add additional entries to sitemap. Hence if you have custom entities that admins use to manage aspects of your business, then you add them to CSAC sitemap, so your admins don’t have to use a separate app. To reduce conflicts with sitemap that ships by default with CSAC, we recommend you create a new sub-area and add your sitemap entries there.
+A: Same as the other App modules, you can use App designer to  add additional entries to sitemap. Hence if you have custom entities that admins use to manage aspects of your business, then you add them to CSAC sitemap, so your admins don’t have to use a separate app. To reduce conflicts with sitemap that ships by default with CSAC, we recommend you create a new sub-area and add your sitemap entries there.
 
 ### See also
