@@ -1,7 +1,7 @@
 ---
 title: Search records in the Dynamics 365 Sales mobile app
 description: Learn how to search records in the Dynamics 365 Sales mobile app.
-ms.date: 09/29/2021
+ms.date: 10/20/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -12,7 +12,7 @@ manager: shujoshi
 ## Requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** |Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
 
