@@ -1018,6 +1018,8 @@
         href: developer/reference/entities/msdyn_agentscript.md
       - name: msdyn_agentscriptstep
         href: developer/reference/entities/msdyn_agentscriptstep.md
+      - name: msdyn_agentstatushistory
+        href: developer/reference/entities/msdyn_agentstatushistory.md        
       - name: msdyn_analytics
         href: developer/reference/entities/msdyn_analytics.md
       - name: msdyn_assignmentconfiguration
