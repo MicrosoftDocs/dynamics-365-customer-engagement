@@ -47,12 +47,13 @@ Presence status is updated in two ways:
   - Busy
   - Available
 
-When you manually change your status to any other except **Available**, your presence will not be updated automatically by the system, and you'll not be assigned any work items.
 
-   You might also see other additional presence statuses that your administrator configured for you.
+    When you manually change your status to any other except **Available**, your presence will not be updated automatically by the system, and you'll not be assigned any work items.
 
-  > [!div class=mx-imgBorder]
-  > ![Set your status.](media/oceh-presence.png "Set your status")
+    You might also see other additional presence statuses that your administrator configured for you.
+
+    > [!div class=mx-imgBorder]
+    > ![Set your status.](media/oceh-presence.png "Set your status")
 
 - **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity as follows:
 
@@ -62,7 +63,7 @@ When you manually change your status to any other except **Available**, your pre
   - If you already have 10 sessions open, which is the maximum multi-session limit, and a new work item comes in, your status automatically changes to **Do not disturb**.
   - When you miss a notification and the missed notifications setting is enabled, the presence is set to **Inactive**.
   - When you reject a work notification and the agent reject notification setting is enabled, the presence is set to **Do not disturb**.
-
+  - When the system doesn't receive agent's presence information for two and a half minutes, it marks the agent as offline.
 
 ### Troubleshoot display of presence
 
