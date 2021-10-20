@@ -64,14 +64,6 @@
         href: /powerapps/maker/model-driven-apps/create-and-edit-a-model-driven-form?context=/dynamics365/context/sales-context
       - name: Create and customize a view
         href: /powerapps/maker/model-driven-apps/create-edit-views-app-designer?context=/dynamics365/context/sales-context
-      - name: Work with templates
-        items:
-        - name: Use Word templates to create standardized documents   
-          href: /power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context
-        - name: Analyze and share your data with Excel templates
-          href: /power-platform/admin/analyze-your-data-with-excel-templates?context=/dynamics365/context/sales-context
-        - name: Create email templates
-          href: /powerapps/user/email-template-create    ?context=/dynamics365/context/sales-context
   - name: Learn the basics
     items:
     - name: Learn the basics
@@ -114,7 +106,7 @@
           href: match-fields-between-dynamics365-zoominfo.md
         - name: Customize the ZoomInfo app
           href: customize-zoominfo-app.md              
-    - name: Collaboration and communication
+    - name: Collaboration and productivity
       items:
       - name: Activity management
         items:
@@ -123,11 +115,19 @@
         - name: Set up enhanced email
           href: set-up-enhanced-email.md
         - name: Create email templates
-          href: /powerapps/user/email-template-create                      ?context=/dynamics365/context/sales-context
+          href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context
         - name: Set up and customize Dynamics 365 App for Outlook
-          href: /powerapps/maker/model-driven-apps/app-for-outlook-customize  ?context=/dynamics365/context/sales-context
+          href: /powerapps/maker/model-driven-apps/app-for-outlook-customize?context=/dynamics365/context/sales-context
         - name: Add the Kanban control to Opportunity or Activity entities
           href: add-kanban-control.md
+      - name: Work with templates
+        items:
+        - name: Use Word templates to create standardized documents   
+          href: /power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context
+        - name: Analyze and share your data with Excel templates
+          href: /power-platform/admin/analyze-your-data-with-excel-templates?context=/dynamics365/context/sales-context
+        - name: Create email templates
+          href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context          
       - name: Enable auto capture
         href: configure-auto-capture.md
       - name: Configure email engagement
@@ -140,14 +140,14 @@
         href: configure-microsoft-teams-dialer.md
       - name: Install and set up Microsoft Teams integration
         href: /dynamics365/teams-integration/teams-install-app?context=/dynamics365/context/sales-context
-      - name: Integrate with Exchange Online  
-        href: /power-platform/admin/connect-exchange-online?context=/dynamics365/context/sales-context
+      - name: Set up server-side synchronization for Exchange  
+        href: /power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context
       - name: Integrate with OneDrive for Business
         href: /power-platform/admin/enable-onedrive-for-business?context=/dynamics365/context/sales-context
       - name: Integrate with OneNote
-        href: /power-platform/admin/set-up-onenote-integration-in-dynamics-365        ?context=/dynamics365/context/sales-context
+        href: /power-platform/admin/set-up-onenote-integration-in-dynamics-365?context=/dynamics365/context/sales-context
       - name: Integrate with SharePoint
-        href: /power-platform/admin/manage-documents-using-sharepoint        ?context=/dynamics365/context/sales-context
+        href: /power-platform/admin/manage-documents-using-sharepoint?context=/dynamics365/context/sales-context
       - name: Integrate a sample softphone
         href: sample-softphone-integration.md
     - name: Lead management
@@ -335,6 +335,12 @@
           href: manage-seller-attributes.md
     - name: Guided selling
       items:      
+      - name: Business process flows    
+        items:
+        - name: Business process flows overview
+          href: /power-automate/business-process-flows-overview?context=/dynamics365/context/sales-context
+        - name: Create a business process flow
+          href: /power-automate/create-business-process-flow?context=/dynamics365/context/sales-context
       - name: Configure assistant
         items:
         - name: Configure the assistant
@@ -351,12 +357,6 @@
           href: define-playbook-categories.md
         - name: Manage playbook templates
           href: manage-playbook-templates.md
-      - name: Business process flows    
-        items:
-        - name: Business process flows overview
-          href: /power-automate/business-process-flows-overview?context=/dynamics365/context/sales-context
-        - name: Create a business process flow
-          href: /power-automate/create-business-process-flow?context=/dynamics365/context/sales-context
     - name: Relationship intelligence
       items:
       - name: Configure relationship analytics and health
@@ -385,8 +385,16 @@
         href: data-retention-deletion-policy.md
       - name: Enable coming soon features
         href: enable-preview-features-sales-insights-app.md
-    - name: Reporting
+    - name: Dashboards and reports
       items:
+      - name: Dashboards
+        items:
+        - name: Create and configure interactive dashboards
+          href: /powerapps/maker/model-driven-apps/configure-interactive-experience-dashboards?context=/dynamics365/context/sales-context
+        - name: Create or edit a system chart
+          href: /powerapps/maker/model-driven-apps/create-edit-system-chart?context=/dynamics365/context/sales-context
+        - name: Track your progress with dashboards and charts
+          href: /powerapps/user/track-your-progress-with-dashboard-and-charts?context=/dynamics365/context/sales-context
       - name: Add reporting features to your app
         href: /powerapps/maker/model-driven-apps/add-reporting-to-app?context=/dynamics365/context/sales-context
       - name: PowerBI Templates
@@ -425,15 +433,15 @@
       items:
       - name: Work with accounts and contacts
         href: ../basics/accounts-contacts.md
-      - name: Use ZoomInfo app data
-        href: use-zoominfo-app-data.md   
       - name: Organize contacts in live org charts for accounts
         href: live-org-chart.md
       - name: Use the LinkedIn Sales Insights tab 
         href: understand-lsi-accounts-form.md 
+      - name: Use ZoomInfo app data
+        href: use-zoominfo-app-data.md   
       - name: Scan business cards
         href: scan-business-cards.md
-    - name: Collaboration and communication
+    - name: Collaboration and productivity
       items:
       - name: Activity management
         items:
@@ -461,13 +469,13 @@
       - name: Manage sales literature
         href: create-sales-literature.md        
       - name: Collaborate using Microsoft Teams
-        href: /dynamics365/teams-integration/teams-collaboration ?context=/dynamics365/context/sales-context
+        href: /dynamics365/teams-integration/teams-collaboration?context=/dynamics365/context/sales-context
       - name: Use OneDrive for Business
-        href: /powerapps/user/one-drive  ?context=/dynamics365/context/sales-context
+        href: /powerapps/user/one-drive?context=/dynamics365/context/sales-context
       - name: Take notes by using OneNote
-        href: /powerapps/user/onenote  ?context=/dynamics365/context/sales-context
+        href: /powerapps/user/onenote?context=/dynamics365/context/sales-context
       - name: Collaborate using SharePoint
-        href: /powerapps/user/collaborate-using-sharepoint               ?context=/dynamics365/context/sales-context
+        href: /powerapps/user/collaborate-using-sharepoint?context=/dynamics365/context/sales-context
     - name: Lead management
       items:
       - name: Create or edit leads
