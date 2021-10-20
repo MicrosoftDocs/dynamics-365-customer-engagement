@@ -1,7 +1,7 @@
 ---
 title: "View smart assist suggestions for knowledge articles and similar cases using AI | MicrosoftDocs"
 description: "View smart assist suggestions for knowledge articles and similar cases using AI."
-ms.date: 10/12/2020
+ms.date: 10/20/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -66,10 +66,17 @@ The following table lists the explanation of the smart assist card for AI-sugges
 
 If no cases match, then the card displays an appropriate message, such as "No suggestions found for similar cases."
 
+## Understand knowledge article components in smart assist on the voice channel
+
+When you are on a call with the customer and are looking for related knowledge articles, the **Smart assist** pane provides you with the **Copy URL** option, which lets you copy the article link to the clipboard when selected. You can then email the URL to your customers to help them with their issues.
+
+:::image type="content" source="media/sa-option-voice call.png" alt-text="Smart assist options for voice call":::
+
 ### See also
 
 [Enable AI-suggested cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
-[Smart assist suggestions using bot user](oc-smart-assist.md)  
+[Smart assist suggestions using bot user](oc-smart-assist.md)
+[Preview: Use the voice channel in the agent dashboard](voice-channel-agent-experience.md#preview-use-the-voice-channel-in-the-agent-dashboard)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
