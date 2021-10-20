@@ -51,33 +51,6 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 
 To display the context variables in the Conversation Summary Control of conversations, see [Display custom context](display-custom-context.md).
 
-### Parse JSON to use custom context variables
-
-Use the following schema to parse the JSON to use custom context variables.
-
-```JavaScript
-Schema
-{
-            "type": "object",
-             "properties": {
-                    "isDisplayable": {
-                        " description": " Context variable should display in agent UI or not",
-                        "type": "boolean"
-                    },
-                    "Value": {
-                         " description": " Context variable value pass through bot , this can be string Boolean or number",
-                        "type": "string or Boolean or Number"
-                    }
-                },
-                "required": [ "isDisplayable", "Value" ]            
-        }
-
-```
-
-An example for the `isDisplayable` variable is as follows:
-`{\"isDisplayable\":\"true\"," +"\"Value\":\"context variable value as string\"}`
-
-The `Value` mentioned in the example can be String, Number, or Boolean.
 
 ### See also
 
