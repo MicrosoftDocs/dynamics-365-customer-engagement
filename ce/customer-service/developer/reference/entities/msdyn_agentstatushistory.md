@@ -1,20 +1,20 @@
 ---
-title: "msdyn_agentstatushistory table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_agentstatushistory table/entity."
+title: "msdyn_agentstatushistory entity reference (Microsoft Dataverse)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_agentstatushistory entity."
 ms.date: 10/20/2021
 ms.service: "powerapps"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
+author: "mh-jaya"
+ms.author: "v-jmh"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
   - PowerApps
   - D365CE
 ---
-# msdyn_agentstatushistory table/entity reference
+# msdyn_agentstatushistory entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
