@@ -1,5 +1,5 @@
 ---
-title: Business and technical decision makers learning catalog 
+title: Business and technical decision makers learning catalog for sales 
 description: Find all the training options for business and technical decision makers. 
 author: loreleishannonmsft
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: v-lshann
 
 ---
 
-# Business and Technical Decision Makers Learning Catalog
+# Business and Technical Decision Makers Learning Catalog for sales
 Do you decide whether to invest in new technologies?
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.

@@ -47,7 +47,7 @@ When the seller skips an email activity that includes a condition, the flow foll
 
 >[!IMPORTANT]
 >- You need to [configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions that customers have with emails are displayed in the condition list.
->- [Enable linking sequence steps and activities](personalize-sales-accelerator.md#enable-linking-sequence-steps-and-activities) to create conditions for email activities.
+>- [Enable linking sequence steps and activities](customize-sales-accelerator-sellers.md#enable-linking-sequence-steps-and-activities) to create conditions for email activities.
 
 The following table lists the interactions that are available in email conditions.
 

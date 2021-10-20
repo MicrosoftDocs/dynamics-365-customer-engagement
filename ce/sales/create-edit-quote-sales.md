@@ -92,9 +92,9 @@ One way that can help you increase your sales is to add all products that your c
 10. When your quote is ready to send to your customer, on the command bar, select **Activate Quote**.
 
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)  
+ ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit an order](create-edit-order-sales.md)  
   
- ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+ ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
   
 ### See also  
  [Sales transactions in Dynamics 365 Sales](sales-transactions.md)  

@@ -34,7 +34,7 @@ Products are the backbone of your business. They can be physical products or ser
 
 2. Select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.  
   
-3. To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
+3. To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](create-product-family.md)  
   
    -OR-  
   
@@ -57,7 +57,7 @@ Products are the backbone of your business. They can be physical products or ser
   
    - **Default Unit**: Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes, or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit. 
 
-     [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](../sales-enterprise/create-unit-group-add-units-that-group.md)  
+     [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](create-unit-group-add-units-that-group.md)  
 
    - **Default Price List**: If this is a new product, this field is read-only. Before you can select a default price list, you must complete all the required fields and then save the record. Although the default price list is not required, after you save the product record, it is a good idea to set a default price list for each product. If a customer record does not contain a price list, [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] can use the default price list for generating quotes, orders, and invoices.
 
@@ -67,10 +67,10 @@ Products are the backbone of your business. They can be physical products or ser
   
 5. Select **Save**.
 
-6. If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property, in the **Product Properties** section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+6. If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property, in the **Product Properties** section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](use-properties-describe-product.md)  
   
 
-7. To add product relationships, select the **Related** tab, and then select **Relationships**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
+7. To add product relationships, select the **Related** tab, and then select **Relationships**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](define-related-products-increase-chances-sales.md)  
 
 8. To see all the products that are associated with this product in a bundle, select the **Related** tab, and select **Product Bundles**. 
   
@@ -81,12 +81,12 @@ Products are the backbone of your business. They can be physical products or ser
 
   
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Define product pricing with price lists and price list items](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
+ ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
   
- ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
+ ![Home button](media/walkthrough-home.png "Home button") [Classify products and bundles into product families](create-product-bundles-sell-multiple-items-together.md)  
   
 ### See also  
- [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)  
+ [Set up a product catalog](set-up-product-catalog-walkthrough.md)  
  [Manage sales literature](create-sales-literature.md)<br>
  [Change the parent of a product (reparenting)](change-product-parent.md)  
 

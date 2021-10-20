@@ -60,12 +60,12 @@ Improve your opportunities to increase sales by adding related products as sugge
 
   
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](../sales-enterprise/publish-product-bundle-make-available-selling.md)  
+ ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](publish-product-bundle-make-available-selling.md)  
   
- ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)  
+ ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  
   
 ### See also  
- [Create a product family](../sales-enterprise/create-product-family.md)
+ [Create a product family](create-product-family.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

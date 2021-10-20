@@ -58,7 +58,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 
 
 > [!IMPORTANT]
-> Once your order is final, you can create an invoice from the order by selecting the **Create Invoice** button on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
+> Once your order is final, you can create an invoice from the order by selecting the **Create Invoice** button on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Create or edit an invoice](create-edit-invoice-sales.md)  
 > If Dynamics 365 Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 Sales to be submitted, upon which the order is synced to the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 Sales except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](developer/enable-sales-order-processing-integration.md)
 
 
@@ -108,9 +108,9 @@ meaningful and unique. By default, these records are sorted by Name in the recor
   
 <a name="bkmk3"></a>   
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
+ ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit an invoice](create-edit-invoice-sales.md)  
   
- ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
+ ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md) 
   
 ### See also  
 [Print quote, invoice, or other records](print-records.md)  

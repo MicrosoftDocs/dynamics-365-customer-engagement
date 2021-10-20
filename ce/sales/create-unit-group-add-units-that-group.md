@@ -83,13 +83,13 @@ Units are the quantities or measurements that you sell your products or services
 
   
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Create a product](../sales-enterprise/create-product-sales.md)  
+ ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Create a product](create-product-sales.md)  
   
  \- OR -  
   
- ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Create product bundles to sell multiple items together](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
+ ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Create product bundles to sell multiple items together](create-product-bundles-sell-multiple-items-together.md)  
   
- ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)
+ ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

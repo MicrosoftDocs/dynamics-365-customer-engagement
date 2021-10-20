@@ -101,12 +101,12 @@ Typically, you convert an order into an invoice; however, you can also create an
 > It isn't possible to edit multiple invoice records at once. 
   
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Close an opportunity as won or lost (Sales)](../sales-enterprise/close-opportunity-won-lost-sales.md)  
+ ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Close an opportunity as won or lost (Sales)](opportunity-won-lost-sales.md)  
   
- ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+ ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
   
 ### See also  
-[Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+[Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)  
 [Print quote, invoice, or other records](print-records.md)
 
 

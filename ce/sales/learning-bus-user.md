@@ -1,5 +1,5 @@
 ---
-title: Business users learning catalog 
+title: Business users learning catalog for sales
 description: Find all the training options for business users. 
 author: loreleishannonmsft
 ms.topic: article
@@ -7,7 +7,7 @@ ms.date: 01/08/2020
 ms.author: v-lshann
 ---
 
-# Business Users Learning Catalog
+# Business Users Learning Catalog or sales
 Did you just get a new application to use?
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.

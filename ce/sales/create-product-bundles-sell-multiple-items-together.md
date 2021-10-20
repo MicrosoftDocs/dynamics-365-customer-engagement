@@ -67,7 +67,7 @@ Here are some things to know about bundles:
   
    - **Default Unit**: Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes, or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit. 
 
-     [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](../sales-enterprise/create-unit-group-add-units-that-group.md)  
+     [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](create-unit-group-add-units-that-group.md)  
 
    - **Default Price List**: If this is a new product, this field is read-only. Before you can select a default price list, you must complete all the required fields and then save the record. Although the default price list is not required, after you save the product record, it is a good idea to set a default price list for each product. If a customer record does not contain a price list, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] can use the default price list for generating quotes, orders, and invoices.
 
@@ -99,9 +99,9 @@ Here are some things to know about bundles:
  
 If you've added this bundle to a family, the bundle will inherit the properties from its parent family. To change the bundle's property:
 
-10. Open the property, and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+10. Open the property, and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](use-properties-describe-product.md)  
   
-11. To add product relationships, select the **Related** tab, and then select **Relationships**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
+11. To add product relationships, select the **Related** tab, and then select **Relationships**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](define-related-products-increase-chances-sales.md)  
 
 
 > [!TIP]
@@ -109,13 +109,13 @@ If you've added this bundle to a family, the bundle will inherit the properties 
 
   
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
+ ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Create price lists and price list items to define pricing of products](create-price-lists-price-list-items-define-pricing-products.md)  
   
- ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
+ ![Home button](media/walkthrough-home.png "Home button") [Classify products and bundles into product families](create-product-bundles-sell-multiple-items-together.md)  
   
 ### See also  
 [How prices are calculated for product bundles?](pricing-product-bundles.md)
-[Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
+[Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
 [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)
 
 

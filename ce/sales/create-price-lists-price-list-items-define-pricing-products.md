@@ -138,13 +138,13 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
 
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](publish-product-bundle-make-available-selling.md)  
+ ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](publish-product-bundle-make-available-selling.md)  
   
- ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)  
+ ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  
   
 ### See also  
  [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)   
- [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
+ [Classify products and bundles into product families](create-product-bundles-sell-multiple-items-together.md)  
 [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
 
 

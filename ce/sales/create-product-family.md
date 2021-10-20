@@ -36,7 +36,7 @@ Make it easier for sales agents to find products and services in a product catal
   
 - Create as many levels of product families as you want by creating a family within a family.  
   
-  ![Hierarchy of families and products in Dynamics 365 Sales.](../sales-enterprise/media/v7-product-hierarchy.png "Hierarchy of families and products in Dynamics 365 Sales")  
+  ![Hierarchy of families and products in Dynamics 365 Sales.](media/v7-product-hierarchy.png "Hierarchy of families and products in Dynamics 365 Sales")  
   
 > [!NOTE]
 > The product family that you use for creating a product, bundle, or another product family becomes the parent family.   
@@ -65,19 +65,19 @@ Make it easier for sales agents to find products and services in a product catal
   
 6. In the list of products, families, and bundles, open the family that you just created.  
   
-7. On the **Product Properties** tab, select the **Add New Property** button, and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+7. On the **Product Properties** tab, select the **Add New Property** button, and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](use-properties-describe-product.md)  
 
  
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+ ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Use properties to describe a product](use-properties-describe-product.md)  
   
- ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Create a product](../sales-enterprise/create-product-sales.md)  
+ ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Create a product](create-product-sales.md)  
   
- ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
+ ![Home button](media/walkthrough-home.png "Home button") [Classify products and bundles into product families](create-product-bundles-sell-multiple-items-together.md)  
   
 ### See also  
- [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
- [Clone a product](../sales-enterprise/clone-product.md)<br>
+ [Set up a product catalog](set-up-product-catalog-walkthrough.md)   
+ [Clone a product](clone-product.md)<br>
  [Change the parent of a product (reparenting)](change-product-parent.md)  
 
 

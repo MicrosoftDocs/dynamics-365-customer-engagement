@@ -43,14 +43,14 @@ When you're ready to sell a product or bundle, publish it to make it available t
   
  
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Revise a product](revise-product.md)  
+ ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Revise a product](revise-product.md)  
   
- ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Retire a product](retire-product.md)  
+ ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Retire a product](retire-product.md)  
   
- ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md) 
+ ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md) 
   
 ### See also  
- [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)
+ [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

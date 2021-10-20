@@ -40,10 +40,10 @@ If you have retired a product inadvertently or want to revive a product that was
 
 
 ## Typical next steps  
- ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)  
+ ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  
   
 ### See also  
- [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)
+ [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

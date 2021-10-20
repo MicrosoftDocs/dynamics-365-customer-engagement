@@ -1,5 +1,5 @@
 ---
-title: Developers learning catalog 
+title: Developers learning catalog for sales
 description: Find all the training options for developers. 
 author: loreleishannonmsft
 ms.topic: article
@@ -7,7 +7,7 @@ ms.date: 01/08/2020
 ms.author: v-lshann
 ---
 
-# Developers Learning Catalog
+# Developers Learning Catalog for sales
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 

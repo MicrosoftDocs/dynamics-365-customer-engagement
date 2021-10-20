@@ -31,9 +31,9 @@ searchScope:
 
 Send an e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product by using a quick campaign in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. A quick campaign is a single campaign activity geared toward a targeted audience. Track the success of your quick campaign through campaign responses, and convert the positive responses into new leads, quotes, orders, or opportunities.  
   
- ![Quick campaign wizard.](../sales-enterprise/media/quick-campaign-wizard.png "Quick campaign wizard")  
+ ![Quick campaign wizard.](media/quick-campaign-wizard.png "Quick campaign wizard")  
   
- If you need to perform more than one activity for your campaign, such as an email blast and a mailing, create a new campaign instead. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)  
+ If you need to perform more than one activity for your campaign, such as an email blast and a mailing, create a new campaign instead. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)  
   
 1. [!INCLUDE[proc_marketing_marketing_lists](../includes/proc-marketing-marketing-lists.md)]  
   
@@ -56,13 +56,13 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
  
   
 ### See also  
- [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
- [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
- [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
- [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
- [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
- [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
- [Customize quick campaign and campaign activity distribution forms](../sales-enterprise/developer/marketingformdisplayattributessetApi.md)
+ [Get started with in-app marketing](get-started-app-marketing-sales.md)   
+ [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
+ [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   
+ [Add an activity to a campaign using in-app marketing](add-activity-campaign-using-app-marketing-sales.md)   
+ [Add a marketing list, sales literature, or product to a campaign using in-app marketing](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
+ [Track a marketing campaign response using in-app marketing](track-marketing-campaign-response-using-app-marketing-sales.md)   
+ [Customize quick campaign and campaign activity distribution forms](developer/marketingformdisplayattributessetApi.md)
  
 
 

@@ -48,7 +48,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
 3. On the **Summary** tab, add or change the information. This screenshot provides an example.  
   
    > [!div class="mx-imgBorder"]  
-   > ![Example of marketing list summary area.](../sales-enterprise/media/marketing-list-summary-example.png "Example of marketing list summary area")  
+   > ![Example of marketing list summary area.](media/marketing-list-summary-example.png "Example of marketing list summary area")  
   
    > [!NOTE]
    >  To look up records in the **Owner** field, first select **Save**, or you'll lose your changes.  
@@ -154,12 +154,12 @@ If you're using a custom form for a marketing list that doesn't include certain 
 The elements listed in the message are required to populate the members list that is included in the default form. If your custom form doesn't display the members list, you can ignore the message.
 
 ### See also  
- [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
- [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
- [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
- [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
- [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
- [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
+ [Get started with in-app marketing](get-started-app-marketing-sales.md)   
+ [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   
+ [Create a quick campaign using in-app marketing](create-quick-campaign-using-app-marketing-sales.md)   
+ [Add an activity to a campaign using in-app marketing](add-activity-campaign-using-app-marketing-sales.md)   
+ [Add a marketing list, sales literature, or product to a campaign using in-app marketing](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
+ [Track a marketing campaign response using in-app marketing](track-marketing-campaign-response-using-app-marketing-sales.md)   
  
 
 

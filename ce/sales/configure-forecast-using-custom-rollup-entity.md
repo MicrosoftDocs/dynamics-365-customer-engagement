@@ -73,7 +73,7 @@ Let's configure this forecast.
     A direct relationship exists between the rollup and hierarchy entities, so you select the relationship as **Opportunity Product > Existing Product (Product) > Product**. Here, **Existing Product** is an attribute in the **Opportunity Product** rollup entity that has a relationship to the **Product** hierarchy entity.
 
     > [!div class="mx-imgBorder"]
-    > ![Configure general properties.](media/forecast-ce-general-properties.png "Configure general properties")
+    > ![Configure general properties for forecast.](media/forecast-ce-general-properties.png "Configure general properties for forecast")
 
     If there's no direct entity relationship between the rollup entity and the hierarchy entity, you can choose a related attribute to define the relationship. Select the **Related** tab, and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only. If no relationships exist, the entity and related tab will be empty, and you can't configure the forecast.    
 
@@ -93,7 +93,7 @@ Let's configure this forecast.
     c. In the **Amount field**, the **Extended Amount** attribute is selected from **Opportunity Product** (rollup entity). However, **Date field entity** isn't available in the **Opportunity Product** entity. You can select the related **Opportunity** entity, and then select the **Est.Close Date** attribute.
 
     > [!div class="mx-imgBorder"]
-    > ![Configure column.](media/forecast-ce-configure-column.png "Configure column")
+    > ![Configure column for forecast.](media/forecast-ce-configure-column.png "Configure column for forecast")
 
     d. Enter other necessary information in the form, and then save it.
 
@@ -101,7 +101,7 @@ Let's configure this forecast.
 
 5.	Perform the steps in [Apply additional filters](add-additional-filters.md).
 
-6.	If you have enabled premium forecasting and want to take snapshots automatically, see [take snapshots automatically](https://docs.microsoft.com/dynamics365/ai/sales/take-snapshots-daily). 
+6.	If you have enabled premium forecasting and want to take snapshots automatically, see [Take snapshots automatically](manage-snapshots-forecast.md). 
 
 7.	Perform the steps in [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
 
@@ -141,7 +141,7 @@ Let's configure this forecast.
     If there's no direct entity relationship between the rollup entity and the hierarchy entity, you can choose a related attribute to define the relationship. Select the **Related** tab, and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only. If no relationships exist, the entity and related tab will be empty, and you can't configure the forecast.
 
     > [!div class="mx-imgBorder"]
-    > ![Configure general properties.](media/forecast-ce-os-general-properties.png "Configure general properties")
+    > ![Configure general properties for forecast.](media/forecast-ce-os-general-properties.png "Configure general properties for forecast")
 
     Enter other necessary information in the form, and then select **Next**. More information: [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
 
@@ -174,7 +174,7 @@ Let's configure this forecast.
 
 5.	Perform the steps in [Apply additional filter](add-additional-filters.md).
 
-6.	If you have enabled premium forecasting and want to take snapshots automatically, see [take snapshots automatically](https://docs.microsoft.com/dynamics365/ai/sales/take-snapshots-daily).  
+6.	If you have enabled premium forecasting and want to take snapshots automatically, see [Take snapshots automatically](manage-snapshots-forecast.md).  
 
 7.	Perform the steps in [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
 

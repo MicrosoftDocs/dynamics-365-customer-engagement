@@ -76,9 +76,9 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
  Need a faster way to enter leads? Try [Import accounts, leads, or other data](/powerapps/user/import-data)  
   
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)  
+ ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)  
   
- ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+ ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
   
 ### See also  
 [Print quote, invoice, or other records](print-records.md)

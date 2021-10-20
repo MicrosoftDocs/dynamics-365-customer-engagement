@@ -147,9 +147,9 @@ The next step is to create a quote and send it to your customer. [!INCLUDE[proc-
   
 ## Typical next steps  
 
- ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
+ ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit a quote](create-edit-quote-sales.md)  
   
- ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+ ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
   
 ### See also 
 

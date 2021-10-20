@@ -28,7 +28,7 @@ You can make a phone call to your customer from a record in the **My work** list
 When you make a phone call, a **Phone Call** activity is created and linked to the lead or opportunity. The **Phone Call** activity captures the following information:
 
 >[!NOTE]
->Administrator must configure the option to automatically create the phone call activity. To learn more, see **step 7** from [Configure the Sales accelerator](enable-configure-sales-accelerator.md#configure-the-sales-accelerator).
+>Administrator must configure the option to automatically create the phone call activity. To learn more, see **step 9** from [Set up the sales accelerator](enable-configure-sales-accelerator.md#set-up-the-sales-accelerator).
 
 - **Subject**: Name of the activity in the **Up next** widget.
 - **Call From**: Name of the contact who made the call.
