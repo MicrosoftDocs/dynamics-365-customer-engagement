@@ -168,8 +168,6 @@
           href: access-deal-manager.md
         - name: Personalize the deal manager workspace
           href: personalize-deal-manager.md   
-        - name: Known issues in deal manager
-          href: deal-manager-known-issues.md  
       - name: Enable customization of the Opportunity Close form
         href: enable-opportunity-close-customization.md
       - name: Customize the Opportunity Close form
