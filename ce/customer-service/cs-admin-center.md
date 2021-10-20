@@ -10,8 +10,6 @@ manager: shujoshi
 
 # Get started with Customer Service admin center
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
 >
@@ -29,15 +27,15 @@ Use the Customer Service admin center app to set up everything related to custom
 
 Some of the highlighted improvements include:  
 
-Consolidation of administration experiences across Customer Service Hub, Omnichannel for Customer Service and app profile manager
+- Consolidation of administration experiences across Customer Service Hub, Omnichannel for Customer Service and app profile manager
 
-Re-organized sitemap to be task oriented 
+- Re-organized sitemap to be task oriented 
 
-Overview pages for each area which list at-a-glance information with deep links to manage features 
+- Overview pages for each area which list at-a-glance information with deep links to manage features 
 
-Feature landing page to provide an overview of all capabilities for that feature 
+- Feature landing page to provide an overview of all capabilities for that feature 
 
-Adapts to what capabilities are provisioned. Based in core Customer service, if omnichannel is provisioned, additional features are lighted up.
+Adapts to the capabilities that are provisioned. Based in core Customer service, if omnichannel is provisioned, additional features are lighted up.
 
 ## Prerequisites
 
