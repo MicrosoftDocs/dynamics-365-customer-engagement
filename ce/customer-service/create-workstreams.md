@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 10/07/2021
+ms.date: 10/19/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -131,7 +131,7 @@ Select a workstream to perform any of the following actions:
 
 ### Agent affinity
 
-When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can use the agent affinity option to reassign the conversation to the agent who had worked on it earlier. This helps save the effort to reorient the agent or set the context about the problem again. The agent affinity works as follows:
+When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can use the **Keep same agent for entire conversation** option in the work distribution settings of the workstream to reassign the conversation to the agent who had worked on it earlier. This helps save the effort to reorient the agent or set the context about the problem again. The agent affinity works as follows:
 
 - Is enabled by default for SMS, social channels, and Microsoft Teams.
 - Is available only for push type of work distribution.
