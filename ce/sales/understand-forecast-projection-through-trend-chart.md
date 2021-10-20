@@ -1,0 +1,69 @@
+---
+title: "View forecast projection through trend charts (Sales Insights) | MicrosoftDocs"
+description: "Use the trend charts to understand how each forecast amount is trending over time, comparing it against the period end prediction and quota."
+ms.date: 10/07/2021
+ms.custom: 
+ms.topic: article
+author: udaykirang
+ms.author: udag
+manager: shujoshi
+---
+# Understand forecast projections by using trend charts 
+
+## Requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+
+The **Trend** chart shows how each forecast amount is trending over time, comparing it against the period end prediction and quota. A separate predicted realization line is automatically created to project future revenue over time.  
+
+> [!NOTE]
+> The **Trend** chart is available as part of the predictive forecasting feature. Verify that predictive forecasting is enabled for your organization. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
+
+## View trend charts
+
+1.	Sign in to the Sales Hub app.
+
+2.	At the bottom of the site map, select the **Change area** icon, and then select **Sales**.  
+
+3.	Under **Performance**, select **Forecasts**.
+
+4.	Select a forecast, and choose a forecast period for the forecast.
+
+5.	Select the **Trend** tab.
+
+    A line chart is displayed with the comparison between the forecast categories until the present day.
+
+## Understand trend charts
+
+> [!NOTE]
+> Columns available for trending can be configured in the forecast configuration. To learn more, see [configure columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
+
+The following screenshot shows an example of a trend chart.
+
+> [!div class="mx-imgBorder"]
+> ![Trend chart](media/predictive-forecasting-trend-chart.png "Trend chart")
+
+The categories displayed on the trend chart depend on the forecast grid columns that your administrator has configured and the prediction columns. For more information on configuring forecast grid columns, see [Configure columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
+ 
+> [!NOTE]
+> The Predicted Realization line indicates the combined value of **Predicted from open** and **Predicted from new**. For more information on prediction columns, see [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).
+
+
+When you hover over a forecast category in the legend, the trend line of the forecast category gets highlighted.
+
+You can also view the summary of a forecast category at a given time by hovering over the trend line. The summary displays the date, forecast category, and aggregated opportunity amount.
+
+If you don't want to view any forecast category on the chart, select the forecast category on the legend and the forecast category will be grayed out. To view it again on the chart, select the forecast category.
+
+
+### See also
+
+[Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)<br>
+[About premium forecasting](configure-premium-forecasting.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
