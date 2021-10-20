@@ -85,9 +85,9 @@ You can enable knowledge authors to get suggested keywords and description based
 
 ## Set up knowledge search logic
 
-If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the OR logic, which brings up articles that match the individual keywords used for your search. For example, if you search for "Contoso coffee", the search results will show articles that match both "Contoso" and "coffee". This might show up a long list of search results, making it difficult for the agent to get to the required article.
+If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the OR logic, which brings up articles that match the individual keywords used for your search. For example, if you search for "Contoso Coffee", the search results will show articles that match both "Contoso" and "Coffee". This might show up a long list of search results, making it difficult for the agent to get to the required article.
 
-However, you can now enable the knowledge search to work by the AND logic, which considers the exact match of the keywords used for your search. For example, if you search for "Contoso coffee", the search results will show articles that match the complete set of keywords, that is, "Contoso coffee".
+However, you can now enable the knowledge search to work by the AND logic, which considers the exact match of the keywords used for your search. For example, if you search for "Contoso Coffee", the search results will show articles that match the complete set of keywords, that is, "Contoso Coffee".
 
 To set up the knowledge search logic:
 
