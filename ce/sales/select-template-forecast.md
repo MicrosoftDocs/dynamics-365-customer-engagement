@@ -35,11 +35,6 @@ To select a template, go to the **Forecast configurations** page and select one 
 
 <table>
 <tr><td>
-
-> [!div class="nextstepaction"] 
-> [Previous step: Review prerequisite tasks](configure-forecast.md#prerequisite-tasks)
-</td><td>
-
 > [!div class="nextstepaction"] 
 > [Next step: Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
 </td></tr>

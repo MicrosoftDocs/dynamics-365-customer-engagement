@@ -126,7 +126,7 @@ Use the Dynamics 365 for phones and tablets app to compose an email within the a
     1. **Home page grid**: On the home page, select the site map button in the the top-left corner > **Activities**, and then select the **More** button > **Email**.
     
        > [!div class="mx-imgBorder"]
-       > ![Compose new email.](media/create-email-1.png "Compose new email")
+       > ![New email.](media/create-email-1.png "New email")
 
     1. **Quick create**: On the command bar, select **+** > **Activities** > **Email**. 
 
@@ -136,7 +136,7 @@ Use the Dynamics 365 for phones and tablets app to compose an email within the a
 2. Fill in the subject of the email and use the space provided to write the email. You can select the more option (**...**) in the body area of the email to expand the full formatting capabilities for your email. Select **Save** to save your changes.
 
    > [!div class="mx-imgBorder"]
-   > ![Compose new email.](media/compose-email-mobile-1.png "Compose new email")
+   > ![Save email changes.](media/compose-email-mobile-1.png "Save email changes")
    
 3. To add an attachment to the email, select the **More** button > **Attach File**, and then select the file that you want to attach to the email.
 

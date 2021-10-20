@@ -40,7 +40,7 @@ Start here to onboard quickly and learn about the different offerings of Sales a
 
 The following image shows the site map or menu of the Sales Hub that helps you navigate to the different areas of the app.
 
-![Menu of the Sales Hub app.](../sales-enterprise/media/menu-sales-hub-app.png "Menu of the Sales Hub app")
+![Menu of the Sales Hub app.](media/menu-sales-hub-app.png "Menu of the Sales Hub app")
 
 ![Menu item 1.](media/number-1.png "Menu item 1")  **Open or collapse the site map**.  
 ![Menu item 2.](media/number-2.png "Menu item 2")   Access the recent items you've worked on or the customers you've pinned.  

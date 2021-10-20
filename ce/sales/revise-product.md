@@ -37,7 +37,7 @@ Keep the product inventory updated by quickly revising properties for the produc
 
     This will change the product status to **Under Revision**.  
   
-5. Change the product properties, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+5. Change the product properties, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](use-properties-describe-product.md)  
   
 6. After you're done making the changes, on the command bar, select **Publish** or **Publish Hierarchy**.  
   
@@ -49,11 +49,11 @@ Keep the product inventory updated by quickly revising properties for the produc
 
  
 ## Typical next steps  
- ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Retire a product](../sales-enterprise/retire-product.md)  
-  ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)  
+ ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Retire a product](retire-product.md)  
+  ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  
  
 ### See also  
- [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)
+ [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,7 +14,7 @@ manager: shujoshi
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
 
 
@@ -37,7 +37,7 @@ With the Dynamics 365 Sales mobile app, you can do the following (and much more)
 
 - Find required information and act accordingly: Find a contact you want to reach out to with ease, or find the recent records you worked on.
 
-The Dynamics 365 Sales mobile app can be installed on [iOS](install-ios-app.md) and [Android](install-android-app.md). 
+The Dynamics 365 Sales mobile app can be installed on [iOS](install-mobile-app.md#install-the-app-on-ios) and [Android](install-mobile-app.md#install-the-app-on-android). 
 
 ## Difference between Dynamics 365 Sales app and Dynamics 365 for phones and tablets app
 

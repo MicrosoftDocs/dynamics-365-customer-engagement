@@ -48,7 +48,7 @@ Record the replies you get from potential customers in response to a specific ma
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-2. In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](../sales-enterprise/media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
+2. In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
 3. On the navigation bar, select **Settings**, and then select **Administration**.
 
@@ -63,13 +63,13 @@ Record the replies you get from potential customers in response to a specific ma
   
 ### See also  
  [System Settings dialog box - Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab)   
- [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
- [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
- [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
- [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
- [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
- [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
- [Create or edit a campaign template using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
+ [Get started with in-app marketing](get-started-app-marketing-sales.md)   
+ [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
+ [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   
+ [Create a quick campaign using in-app marketing](create-quick-campaign-using-app-marketing-sales.md)   
+ [Add an activity to a campaign using in-app marketing](add-activity-campaign-using-app-marketing-sales.md)   
+ [Add a marketing list, sales literature, or product to a campaign using in-app marketing](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
+ [Create or edit a campaign template using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

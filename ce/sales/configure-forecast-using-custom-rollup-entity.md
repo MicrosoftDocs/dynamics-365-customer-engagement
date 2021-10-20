@@ -141,7 +141,7 @@ Let's configure this forecast.
     If there's no direct entity relationship between the rollup entity and the hierarchy entity, you can choose a related attribute to define the relationship. Select the **Related** tab, and then choose a related attribute from the list. The list displays attributes of the hierarchy-defined entities only. If no relationships exist, the entity and related tab will be empty, and you can't configure the forecast.
 
     > [!div class="mx-imgBorder"]
-    > ![Configure general properties for forecast.](media/forecast-ce-os-general-properties.png "Configure general properties for forecast")
+    > ![Configure general properties.](media/forecast-ce-os-general-properties.png "Configure general properties")
 
     Enter other necessary information in the form, and then select **Next**. More information: [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
 
