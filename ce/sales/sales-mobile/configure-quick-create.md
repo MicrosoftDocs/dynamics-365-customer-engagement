@@ -1,7 +1,7 @@
 ---
 title: Configure tables for quick creation of records and activities in the Dynamics 365 Sales mobile app
 description: Learn to configure tables for quick creation of records and activities in the Dynamics 365 Sales mobile app.
-ms.date: 05/04/2021
+ms.date: 10/20/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -12,7 +12,7 @@ manager: shujoshi
 ## Requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System administrator <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
 
