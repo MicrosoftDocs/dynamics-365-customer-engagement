@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service | Microsoft Docs
 description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
-ms.date: 07/01/2021
+ms.date: 10/19/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -18,7 +18,7 @@ ms.custom:
   - intro-internal
 ---
 
-# Customer Service workspace
+# Get started with Customer Service workspace
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -32,7 +32,7 @@ Before we begin, a quick note about administration of Customer Service workspace
 
 You can access Customer Service workspace through the app selector (where you find all of your other Dynamics 365 apps) by choosing the Customer Service workspace app tile. You can also access the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
 
-As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities. 
+As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities.
 
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
@@ -51,28 +51,16 @@ The following table displays the elements of the Customer Service workspace.
 | 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 |||
 
-## Navigate and view records
+## Navigate Customer Service workspace
 
-By default, you can use the following navigation options to open and view cases, accounts, and other details on the Customer Service Agent Dashboard:
+From the **Home** session, you can select a record in the following ways and open it as a new session:
 
-- Select Shift while clicking to open a new session tab for the record you want to open. 
-- Select the record to replace your view with the form for the record you opened. 
-- Select the back arrow in the upper-left corner of the form to get back to your previous view. 
-- Select Ctrl while clicking to open items on a new tab. 
-
-However, an administrator can configure settings that allow for simpler navigation options that don't require you to use complex keyboard selections. The administrator can perform the steps in the following section to enable these settings. 
-
-### Use simplified navigation
-
-When an administrator enables simplified navigation, the navigation options will have the following characteristics.
-
-- From the **Home** session, you can select a record in the following ways and open it as a new session (you'll see the records you opened on the left pane):
-
-  - Select a record in a view to open the record in a new session.
-  - Select a record in a dashboard to open the record in a new session.
-  - Select a record from a queue to open the record in a new session.
-  - Create a new record in a view&mdash;select **New** to open the entity form in a new session.
-
+- Select a record in a view to open the record in a new session.
+- Select a record in a dashboard to open the record in a new session.
+- Select a record from a queue to open the record in a new session.
+- Create a new record in a view&mdash;select **New** to open the entity form in a new session.
+- Select a case. The case record opens on a session tab.
+- Select the customer in the case. The customer record opens on an application tab
 - When you use global search, you can:
 
   - Search records and open a list of all the retrieved records on a new tab. 
@@ -91,141 +79,27 @@ When an administrator enables simplified navigation, the navigation options will
 
 - Selecting Shift while clicking overrides the new, simplified navigation  and opens the record in a new session. Selecting Ctrl while clicking overrides the simplified navigation and opens the record on a new tab.
 
-**To explore simplified navigation after it's configured**
+### Disable the close session dialog
 
-1. Open Customer Service workspace.
+1.	Sign in to Dynamics 365.
+2.	Select F12 to open the developer tools.
+3.	Run the following command at the console window:
+    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)
 
-2. On the Customer Service Agent Dashboard, perform the following actions:
+### Enable legacy navigation (deprecated)
 
-   - Select a case. The case record opens on a session tab.
-   - Select the customer in the case. The customer record opens on an application tab.
-  
+> [!Note]
+> The legacy navigation is deprecated and will be removed in a future release.
 
+**To enable the legacy navigation experience**
 
-### Admin: Configure the simplified navigation experience
+1.	Sign in to Dynamics 365.
+2.	Select F12 to open the developer tools.
+3.	Run the following command at the console window.
+    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)
+4. Refresh the app.
 
-> [!IMPORTANT]
-> You must have the System Administrator role to run this utility.
-
-**To copy the code for the utility**
-
-1. Sign in to Dynamics 365.
-
-1. Select **F12** to open the developer tools.
-
-1. Copy the following code, and paste it on the **Console** tab of the developer tools.
-
-```
-/**
-* Utility to manage app settings
-*/
-class AppSettingUtility {
-    static origin = Xrm.Utility.getGlobalContext().getClientUrl();
-    static webApiUrl = `${this.origin}/api/data/v9.0/`;
-
-    /**
-     * Updates an app setting to the specified value
-     * @param {*} setting the setting to update
-     * @param {*} value value to set for the setting
-     * @param {*} app (optional) if specified will update for individual app, if omitted then will update for all apps
-     */
-    static updateAppSetting(setting, value, app) {
-        const data = {
-            SettingName: setting,
-            Value: value.toString(),
-        };
-
-        if (app !== undefined) {
-            data.AppUniqueName = app;
-        }
-
-        // makes a call to SaveSettingValue to update an app setting
-        console.log("Attempting update...");
-        $.ajax({
-            url: this.webApiUrl + "SaveSettingValue()",
-            type: 'POST',
-            contentType: 'application/json',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json; charset=utf-8',
-                'OData-MaxVersion': '4.0',
-                'OData-Version': '4.0',
-            },
-            data: JSON.stringify(data),
-            success: function () {
-                // update was successful
-                console.log(`The app setting '${setting}' was successfully updated to '${value}' for '${app !== undefined ? app : 'all app modules'}'`);
-            },
-            error: function (error) {
-                // update failed
-                console.log("An error occurred while trying to update the app setting. Please try again.");
-                console.log(error);
-            }
-        });
-    }
-}
-
-/**
-* App module utility class
-*/
-class AppModuleUtility {
-    static app;
-
-    /**
-     * Updates an app setting for the individual app module
-     * @param {string} setting the setting to update
-     * @param {*} value value to set for the setting
-     */
-    static updateAppSetting(setting, value) {
-        AppSettingUtility.updateAppSetting(setting, value, this.app);
-    }
-
-    /**
-     * Updates the multisession navigation improvements setting
-     * @param {boolean} value value to set for the setting
-     */
-    static setMultisessionNavigationImprovementsSetting(value = true) {
-        const setting = "msdyn_MultisessionNavigationImprovements";
-        this.updateAppSetting(setting, value);
-    }
-}
-
-/**
-* App module utility for Customer Service workspace app
-*/
-class CSWAppUtility extends AppModuleUtility {
-    static app = "msdyn_customerserviceworkspace";
-}
-
-/**
-* App module utility for Omnichannel for Customer Service app
-*/
-class OCAppUtility extends AppModuleUtility {
-    static app = "OmniChannelEngagementHub"; 
-}
-   ```
-
-**To turn on the simplified navigation settings**
-
-- Run one of the following commands at the console window:
-
-  - For Customer Service workspace:
-
-   `CSWAppUtility.setMultisessionNavigationImprovementsSetting();` 
-
-  - For Omnichannel for Customer Service:
-
-   `OCAppUtility.setMultisessionNavigationImprovementsSetting();`
-
-  - For both the multisession apps:
-
-   `AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);`
-
-> [!NOTE]
-> To turn off the navigation settings, run the command by using the `false` option.
-
-
-### Work with cases
+## Work with cases
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can perform the following actions.
 
@@ -243,7 +117,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 |||
 
 
-#### Edit case data
+### Edit case data
 
 Let's explore the fields you can edit on the **Case Summary** tab.
 
@@ -270,21 +144,21 @@ Let's explore the fields you can edit on the **Case Additional Details** tab.
 | 6 | View and export the list of merged cases.|
 |||
 
-### Work with activities
+## Work with activities
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can.
 
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace bulk edit activities" border="false":::
 
 | Label | Description|
------------- | -------------
-| 1 | Select multiple activities to work with. Select the top check mark to choose all, or select individual check boxes next to each activity to select a specific group of activities.
-| 2 | Edit selected activities. 
-| 3 | Delete selected cases. 
-| 4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. 
+|------------ | -------------|
+| 1 | Select multiple activities to work with. Select the top check mark to choose all, or select individual check boxes next to each activity to select a specific group of activities.|
+| 2 | Edit selected activities. |
+| 3 | Delete selected cases. |
+| 4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. |
 |||
 
-### Create and search knowledge articles
+## Create and search knowledge articles
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can access knowledge search and knowledge articles.
 
@@ -298,7 +172,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 Intelligent knowledge suggestions are displayed in the productivity pane while you are working on a case.
 
-### Use email templates and signatures
+## Use email templates and signatures
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures as follows.
 
@@ -307,9 +181,22 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 1. Select the plus sign (+) to expand the tab menu.
 2. Select Email Templates or Email Signatures.
 
+### Use the inbox
+
+As an agent, when you open Customer Service workspace or Omnichannel for Customer Service, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need more time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
+
+The following image shows the inbox conversation view:
+:::image type="content" source="media/inbox-csw.png" alt-text="Customer Service workspace inbox conversations view" border="false":::
+
+The following image shows the inbox case view:
+
+:::image type="content" source="media/inbox-case.png" alt-text="Customer Service workspace inbox case view" border="false":::
+
+For information on how to configure the inbox view, see [Configure the inbox view in App profile manager](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view).
+
 ### Productivity pane with Smart Assist
 
-While you are working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros.
+While you're working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros.
 
 :::image type="content" source="media/productivity-pane-overview.png" alt-text="Productivity pane with Smart Assist" border="false":::
 

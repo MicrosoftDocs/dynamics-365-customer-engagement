@@ -4,13 +4,11 @@ description: "Learn about the canCreateTab API of app profile manager in Custome
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: canCreateTab (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# canCreateTab (app profile manager)
 
 Allows you to check whether a new tab can be created in a session.
 

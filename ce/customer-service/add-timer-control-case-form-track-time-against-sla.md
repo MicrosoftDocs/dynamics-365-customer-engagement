@@ -1,7 +1,7 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
-ms.date: 04/05/2021
+ms.date: 10/05/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -55,6 +55,16 @@ Do the following steps to add the SLA timer control for the case entity.
    > ![Set refresh frequency for timer.](media/sla-timer-update-frequency.png)
 
 7. Save and publish the solution.
+
+### Enable elapsed time for SLA Timers in expired status
+
+You can configure the negative countdown property for the SLA timer so that the timer continues to display the elapsed time after the SLA expires instead of showing the status. The setting needs to be configured for each SLA Timer instance.
+
+1. After you add the SLA Timer control, set the **Turn on negative countdown** property as **Yes**.
+
+   :::image type="content" source="media/sla-negative-countdown.png" alt-text="Configure negative countdown in SLA timer.":::
+
+2. Save and publish the solution.
 
 ## Add an out-of-the-box timer control to the Case form
 

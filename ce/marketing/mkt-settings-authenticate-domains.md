@@ -1,7 +1,7 @@
 ---
 title: "Domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing."
-ms.date: 04/16/2021
+ms.date: 10/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -154,7 +154,7 @@ After your domain’s **Envelope-from status** is confirmed, your Envelope-from 
 This example is valid if you are adding DNS records into the root domain contoso.com.
 
 **TXT record**  
-`TXT name: promo`  
+`TXT name: @`  
 `TXT value: d365mktkey=abc123abc123abc123abc123`  
 
 **CNAME record 1**  
@@ -172,7 +172,7 @@ This example is valid if you are adding DNS records into the root domain contoso
 ### Example DNS records for subdomain promo.contoso.com
 
 **TXT record**  
-`TXT name: @`  
+`TXT name: promo`  
 `TXT value: d365mktkey=abc234abc234abc234abc234`  
 
 **CNAME record 1**  

@@ -64,6 +64,8 @@
     href: set-up-service-task-types.md
   - name: Knowledge articles
     href: field-service-knowledge-management.md
+  - name: Collaborate on work orders with Microsoft Teams
+    href: field-service-teams-collaboration.md
   - name: Work order summary reports
     href: reports.md
   - name: Inspections
@@ -222,6 +224,8 @@
     href: mobile-powerapp-deeplink.md
   - name: Add a custom app module to the mobile app
     href: mobile-powerapp-copy-app-module.md
+  - name: Mobile app for Windows 10+ (Preview)
+    href: mobile-powerapp-windows.md
   - name: Use Microsoft Power Platform
     href: mobile-power-utilize-platform.md
   - name: FAQs
@@ -298,6 +302,14 @@
     href: process-return.md
   - name: Manual inventory journals
     href: manual-inventory-journals.md
+- name: Field Service for end customers
+  items: 
+  - name: Customer experience homepages
+    href: field-service-portal-homepage.md
+  - name: Self-scheduling for customers
+    href: scheduling-self-customers.md
+  - name: Send technician arrival time and current map location
+    href: reminders-arrival-time.md
 - name: Resource Scheduling Optimization Add-in
   items: 
   - name: Overview
