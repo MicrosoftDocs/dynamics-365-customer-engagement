@@ -4,25 +4,14 @@ description: "Learn how to configure call overflow for the voice channel in Omni
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Handle call overflow for the voice queues
+# Handle call overflow for the voice queues
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 
 ## Introduction
 
