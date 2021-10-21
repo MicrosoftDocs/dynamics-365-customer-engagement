@@ -27,7 +27,7 @@ The following custom actions are used for forecasting:
 
 - **msdyn_ForecastInstanceActions**: Retrieve forecast and snapshot data. **For internal use only.**<br />
 - **msdyn_ForecastConfigurations**: Returns the list of all for forecast configurations having the name provided as part of request payload. **For internal use only.**<br />
-- **msdyn_ForecastApi**: Enables you to perform various actions to retrieve and update forecasting data.<br />
+- **msdyn_ForecastApi**: Enables you to perform various actions to retrieve and update forecasting data. More information: [msdyn_ForecastApi action](custom-actions\msdyn_ForecastApi.md)
 
 ### See also
 
