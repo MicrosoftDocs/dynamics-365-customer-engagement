@@ -1,6 +1,6 @@
 ---
 title: "Create a new version of a customer journey (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to create outbound text messages for real-time marketing journeys in Dynamics 365 Marketing."
+description: "Learn how to create a new version of a real-time marketing journey in Dynamics 365 Marketing."
 ms.date: 10/20/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
