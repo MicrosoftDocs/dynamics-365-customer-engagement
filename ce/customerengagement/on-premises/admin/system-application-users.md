@@ -2,7 +2,7 @@
 title: "System users in Dynamics 365 Customer Engagement (on-premises)"
 description: "System users are created when the system is provisioned. Find info on the purpose of these users and details on security and permissions."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 10/21/2021
 ms.reviewer: 
 ms.prod: d365ce-op
 ms.suite: 
@@ -23,8 +23,8 @@ search.audienceType:
 
 There is a list of special system users that is created when the system is provisioned. Special system users are created for integration and support scenarios.
 
-Note:
-Application users are not supported in on-premises
+> [!NOTE]
+> Application users are not supported in Dynamics 365 Customer Engagement (on-premises).
 
 For more information, see the content located in the [Administer Power Platform documentation](/power-platform/admin/system-application-users).
 
