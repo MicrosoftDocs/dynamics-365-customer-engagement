@@ -606,15 +606,6 @@ A subgrid control is...
 
 A lookup control is...
 
-1.	Identifies the # of subgrid controls and lookup controls in the default tab of a work order entity, for all the available forms (formIds)  in the org instance
-2.	We have set a limit of # of subgrids to be 3 and # lookups to be 15  in the default tab , to have better performance.
-3.	If we identify any form which has either of these limits crossed, we would show a notification that we recommend to optimize the work order forms for better performance.
-4.	Within the rule execution, we point out to each form Id that exceeds either of these limits.
-5.	For example - formId1 has 4 subgrids  and formId2 has 17 lookups , formId 3 has 45 subgrids and 21 lookups – In this case , perf rule executes as a warning pointing to three records in the rule.
-6.	There would be one single notification with expiry of a week.
-7.	At any given point of time, we have only 1 notification of this kind , as through code , we remove any duplicates.
-8.	This notification is shown to system admins.
-
 
 ### Why it fails
 
