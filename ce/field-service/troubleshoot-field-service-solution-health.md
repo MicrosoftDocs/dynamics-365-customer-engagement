@@ -623,9 +623,7 @@ This rule fails if the default tab of any work order form has more than either *
 
 ### How to fix
 
-To have the # subgrids and # lookups within the specified limit in the default tab.
-
-And move extra ones -  to other tabs 
+Do not have more than 3 subgrids controls or 15 lookup controls on the default tab by either 1) removing controls or 2) moving controls to a different form tab.
 
 
 ### See also
