@@ -32,7 +32,7 @@ In this article, we'll walk through the customer experience homepages, and how t
 
 If you are provisioning the Field Service customer experiences portal (preview) for the first time, then there are no additional steps to enable homepages.
 
-If you have the Field Service customer experiences portal (Preview) already provisioned, then you will need to [upgrade your solution package](https://docs.microsoft.com/powerapps/maker/portals/admin/update-portal-solution).
+If you have the Field Service customer experiences portal (Preview) already provisioned, then you will need to [upgrade your solution package](/powerapps/maker/portals/admin/update-portal-solution).
 
 ## Access and view the home page
 
