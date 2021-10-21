@@ -13,7 +13,7 @@ manager: shujoshi
 
 To display the context variables in the [Conversation Summary Control of conversations](oc-customer-summary.md#conversation-summary) for Power Virtual Agents and Azure bots, use the `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method.
 
-The data type of the context variables is a JSON object with the following schema.
+The data type of the context variables is a JSON object with two different variables&mdash;`isDisplayable` and `Value`. The input value for `isDisplayable` is **Boolean** (true or false). The input value for `Value` can be **Boolean**, **String**, or **Number**. The JSON object has the following schema.
 
 ```JavaScript
 {
@@ -36,11 +36,9 @@ The data type of the context variables is a JSON object with the following schem
 Here's an example of the `isDisplayable` attribute:
 `{\"isDisplayable\":\"true\"," +"\"Value\":\"context variable value as string\"}`
 
-The `isDisplayable` attribute, if set to `true`, will display the context variables in the third tab on the Conversation Summary Control for a given conversation. This is an optional parameter and its default value is `false`.
+The `isDisplayable` attribute, if set to `true`, will display the context variables in the third tab on the Conversation Summary Control for a given conversation.
 
 ![Display context keys.](media/context-variable-display.png "Display context keys")
-
-The `Value` mentioned in the example can be String, Number, or Boolean.
 
 
 ### See also
