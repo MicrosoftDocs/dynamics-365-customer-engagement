@@ -1,7 +1,7 @@
 ---
 title: "View smart assist suggestions for knowledge articles and similar cases using AI | MicrosoftDocs"
 description: "View smart assist suggestions for knowledge articles and similar cases using AI."
-ms.date: 10/21/2020
+ms.date: 10/21/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
