@@ -1,7 +1,7 @@
 ---
 title: "Enable an Azure bot to escalate and end conversations | MicrosoftDocs"
-description: "Use this topic to understand how to program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service."
-ms.date: 09/23/2021
+description: "Use this topic to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
+ms.date: 10/21/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -11,7 +11,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic describes how to program an Azure bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end a conversation.
+This topic explains how you can program an Azure bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end a conversation.
 
 > [!NOTE]
 > Bot agents are not supported in consult mode.
@@ -36,7 +36,7 @@ OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
 
 ## Escalate a conversation to a human agent
 
-In Omnichannel for Customer Service, an Azure bot can escalate the current conversation to a human agent. The routing of the conversation to the new agent depends on the routing rule that is configured for the workstream. During the transfer of the conversation from the bot to the human agent, the bot can set context items that can be used by skill identification rules to identify new skills, and append them to the existing skills list for the conversation.
+In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing to the new agent depends on the routing rule that's configured for the workstream. During the transfer of the conversation from the bot to human agent, the bot can set context items that can be used by skill identification rules to identify new skills and append them to the existing skills list for the conversation.
 
 > [!Note]
 > Skill-based routing should be enabled.

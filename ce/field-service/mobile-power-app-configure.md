@@ -120,6 +120,9 @@ For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWJJdl]
 
+> [!Note]
+> If you're using the mobile app offline, be sure the record types from which attributes are included on the calendar are also included in your mobile offline profile.
+
 
 To customize the control, edit your view associated with the mobile application with data you want to expose on the booking calendar control.
 
@@ -127,7 +130,10 @@ To setup your view, go to **Field Service** > **Settings** > **Customization** >
 
 Select **Views**, then select the view for mobile. By default, this is typically the **Bookings** view, but it can be customized by the administrator. 
 
-From the view, you can then add any column from tables that have a relationship to the bookable resource booking. For example, if you wanted to show **Work Order Priority**, select **Work Order**, then add the **Priority** column to the view. Note the name of the column, as the name will be used later when customizing the field. In our example, the name is *msdyn_priority*.
+From the view, you can then add any column from tables (Entities) that have a relationship to the bookable resource booking. For example, if you wanted to show **Work Order Priority**, select **Work Order**, then add the **Priority** column to the view. Note the name of the column, as the name will be used later when customizing the field. In our example, the name is *msdyn_priority*.
+
+> [!Note]
+> If using fields from a different entity, you must create a relationship between the bookable resource booking and that entity. When referencing the relationship in the control, be sure to reference the full lookup field name as `fieldName.Attribute`. 
 
 > [!div class="mx-imgBorder"]
 > ![Editing a view to add new attribute in Power Apps](./media/mobile-2020-calendar-control-1.png)
@@ -161,8 +167,10 @@ Custom fields are also shown on the calendar's day view when the booking duratio
 > [!div class="mx-imgBorder"]
 > ![Field Service mobile app with customized calendar map view.](./media/mobile-2020-calendar-control-5.png)
 
+
 > [!Note]
-> If you're using the mobile app offline, be sure the record types from which attributes are included on the calendar are also included in your mobile offline profile.
+> If you have configured multiple views for the mobile app, it is recommended you include the new fields into each view that can be accessed from the mobile app.
+
 
 ## Edit views
 
