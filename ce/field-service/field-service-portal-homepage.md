@@ -1,7 +1,7 @@
 ---
 title: "Customer experience homepage in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how customers can manage their upcoming service visits with customer experience portals in Field Service.
-ms.date: 10/18/2021
+ms.date: 10/21/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -32,7 +32,7 @@ In this article, we'll walk through the customer experience homepages, and how t
 
 If you are provisioning the Field Service customer experiences portal (preview) for the first time, then there are no additional steps to enable homepages.
 
-If you have the Field Service customer experiences portal (Preview) already provisioned, then you will need to upgrade your solution package.
+If you have the Field Service customer experiences portal (Preview) already provisioned, then you will need to [upgrade your solution package](https://docs.microsoft.com/powerapps/maker/portals/admin/update-portal-solution).
 
 ## Access and view the home page
 
