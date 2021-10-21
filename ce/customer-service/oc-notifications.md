@@ -94,13 +94,13 @@ A customer is identified based on the **Mobile Phone** field information stored 
 
 The details you see for an SMS channel are as configured by your administrator.
 
-## Missed notification alerts
+## Missed notifications
 
 > [!IMPORTANT]
 > - The alert is displayed only when the missed notifications feature is enabled by your administrator.
 > - Missed notification alerts are not supported in Omnichannel for Customer Service on Unified Service Desk.
 
-When you don't respond to an incoming conversation notification, you'll see an alert at the top of your dashboard and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the work stream. Your supervisor can also reset your presence.
+When you don't respond to an incoming conversation notification, you'll see an alert at the top of your dashboard and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
 
  > [!div class=mx-imgBorder]
  > ![Missed notification alert.](media/agent-missed-notification.png "Missed notification alert")
@@ -110,6 +110,23 @@ When you don't respond to an incoming conversation notification, you'll see an a
 When you don't respond to an incoming conversation notification, the conversation will time out based on the time-out settings configured by your administrator and be rerouted.
 
 Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system, but they are not seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversations are then rerouted after eight minutes.
+
+## Maximum session limit notifications
+When you already have 10 sessions open, which is the maximum multi-session limit, and a new work item comes in, you'll see an alert at the top of your dashboard and your presence status will be automatically set to **Do not disturb**. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
+
+:::image type="content" source="media/maximum-session-limit-notification.png" alt-text="Maximum session limit reached notification":::
+
+
+## Agent reject notifications
+
+> [!IMPORTANT]
+>
+> - This alert is displayed only when the agent reject feature is enabled by your administrator. 
+> - Agent reject notification alerts aren't supported in Omnichannel for Customer Service on Unified Service Desk.
+
+When you reject a work item notification, you'll see an alert at the top of your dashboard and your presence status will be set to **Do not disturb**. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
+
+:::image type="content" source="media/agent-reject-notification-message.png" alt-text="Agent reject notification":::
 
 ### See also
 

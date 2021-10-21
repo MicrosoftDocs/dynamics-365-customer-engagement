@@ -20,9 +20,9 @@ The steps to configure skill-based routing are as follows:
 4. [Set exact or closest match as the default skill-matching algorithm for a workstream](create-workstreams.md#configure-work-distribution).
 5. Choose one of the following skill-classification methods:
    - [Author manual classification rules to attach skills for a workstream](configure-work-classification.md#create-manual-skill-classification-rulesets).
-   - [Setup intelligent skill finder model](#set-up-intelligent-skill-finder-model) and [Author machine learning-based classification rules to attach skills](configure-work-classification.md#create-machine-learning-based-skill-classification-rulesets).
-6. [Choose out of box assignment method or author a custom assignment method for a queue](assignment-methods.md).
-7. [Enable skill control for the agent](add-skill-control.md).
+   - [Set up intelligent skill finder model](#set-up-intelligent-skill-finder-model) and [author machine learning-based classification rules to attach skills](configure-work-classification.md#create-machine-learning-based-skill-classification-rulesets).
+6. [Choose out-of-the-box assignment method or author a custom assignment method for a queue](assignment-methods.md).
+7. [Enable skill control for the agent](allow-agents-update-skills.md).
 
 ## How skills are matched
 
@@ -134,14 +134,14 @@ Perform the steps in this section to set up the intelligent skill finder model. 
 4. Select **Save**, and then select **Load training data**. The **Training data** tab appears and displays the data load status.
 5. After the load is complete, review the data, and edit the records if you want to modify the tags.
 6. In the **Training data** section, select the checkbox beside **Input data** to select all the records, and select **Approve**. You must approve a minimum of 50 records for the model to be trained.
-7. Select **Train model**, and select **Train model** on the confirmation dialog box.
+7. Select **Train model**, and select **Train model** on the confirmation dialog.
 8. After the status changes to training completed, select the rows that you want to publish, and select **Publish model**. The skills model is ready for use.
 
 ### Retrain the model iteratively
 
-You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which agents have updated the skills for records or conversations.
+You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which agents have updated the skills for records or conversations. When you retrain the model to include the skills added by agents, review the training data records after loading it to make sure it meets the required skill criteria. 
 
-When you retrain the model to include the skills added by agents, review the training data records after loading it to make sure it meets the required skill criteria
+For information about how your agents can update skills, see [Manage skills](manage-skills.md). To enable your agents to update skills at runtime, see [Enable agents to update skills](allow-agents-update-skills.md).
 
 You can define the conditions as seen in the following screenshot.
 
@@ -191,12 +191,12 @@ Perform the following steps to upload the data for training your model:
 
 4. Review the upload settings, and select **Finish** after you go through the stages. The data upload starts. The time taken for the data upload depends on the number of records.
 5. Optionally, you can select **Refresh** to see the updated status of the data upload.
-6. Perform the steps 5 through 8 in [Create skill finder models](#create-skill-finder-models) to approve, train, and publish your model.
+6. Perform steps 5 through 8 in [Create skill finder models](#create-skill-finder-models) to approve, train, and publish your model.
 
 ### See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Overview of unified routing](overview-unified-routing.md)  
-[FAQ on unified routing](unified-routing-faqs.md)  
+[FAQs on unified routing](unified-routing-faqs.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]  
