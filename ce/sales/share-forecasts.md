@@ -15,7 +15,7 @@ You can share a forecast with anyone in your hierarchy or outside of your hierar
 
 1.  Go to **Performance &gt; Forecasts** in the Sales Hub sitemap.
 
-    You will now see the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecasts that are enabled for sharing. If you don't see the **Share** icon, contact your administrator to enable forecast sharing.
+    You will see the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecasts that are enabled for sharing. If you don't see the **Share** icon, contact your administrator to enable forecast sharing.
 
 2.  Select the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to a specific forecast record or hierarchy. 
 
