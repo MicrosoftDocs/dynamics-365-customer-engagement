@@ -85,7 +85,7 @@ You can enable knowledge authors to get suggested keywords and description based
 
 ## Set up knowledge search logic
 
-If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used for your search. For example, if you search for Contoso Coffee, the search results will show articles that has either "Contoso" or "Coffee". This might show up a long list of search results, making it difficult for the agent to get to the required article, such as the following:
+If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. For example, if you search for Contoso Coffee, the search results will show articles that has either "Contoso" or "Coffee", such as the following:
 
 - Article 1: Contoso machine repair
 - Article 2: Coffee powder quality
@@ -93,7 +93,7 @@ If you have Relevance search enabled, you can apply knowledge search logic for y
 - Article 4: Coffee machine order for Contoso
 - Article 5: Espresso coffee machine troubleshooting
 
-However, you can now enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords used for your search. For example, if you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee" and the search result will show only the following:
+You can also enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords that you used in the search. For example, if you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee" as seen in the following example:
 
 - Article 1: Contoso coffee order price
 - Article 2: Coffee machine order for Contoso
