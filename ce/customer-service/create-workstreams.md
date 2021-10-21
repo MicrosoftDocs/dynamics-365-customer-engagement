@@ -41,14 +41,19 @@ Perform the following steps:
 3. In the **Create a workstream** dialog box, enter the following details:
 
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
-    - **Work distribution mode**: Select **Push** or **Pick**.
-         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up.
-         - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
+    
     - **Type**: Select one of the following types:
          - **Messaging**: To configure the workstream for chat and other conversation channels.
          - **Record**: To configure the workstream for entity record, such as case and email activity.
+    
     - **Channel**: This box appears if you have selected the type as **Messaging**. Select a channel from the list.
-    - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md).
+         - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md).
+    
+    - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list.  More information: [Set up record routing](set-up-record-routing.md).
+    
+    - **Work distribution mode**: Select **Push** or **Pick**.
+         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up.
+         - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
 
 4. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
