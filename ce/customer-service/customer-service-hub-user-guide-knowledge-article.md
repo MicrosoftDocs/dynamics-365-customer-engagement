@@ -477,6 +477,9 @@ Managing your article versions means publishing and archiving different versions
   
 ## Translate a knowledge article in multiple languages  
 
+> [!NOTE]
+> Knowledge articles aren't getting translated into the target language even on using the defined steps for translating an article.
+
 Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in Dynamics 365 Customer Service helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
   
 1. Open the article you want to translate, and on the command bar, select **Translate**.  
