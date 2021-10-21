@@ -1,8 +1,9 @@
 ---
 title: "Share forecasts - Sales Enterprise | MicrosoftDocs"
-description: "Share forecasts with other users in the hierarchy or outside the hierarchy with specific access level."
-ms.date: 10/07/2021
+description: "Share forecasts with other users in the hierarchy or outside the hierarchy with a specific access permission."
+ms.date: 10/20/2021
 ms.topic: article
+ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
@@ -14,7 +15,7 @@ You can share a forecast with anyone in your hierarchy or outside of your hierar
 
 1.  Go to **Performance &gt; Forecasts** in the Sales Hub sitemap.
 
-You will now see the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecasts that are enabled for sharing. If you don't see the **Share** icon, contact your administrator to enable forecast sharing.
+    You will now see the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecasts that are enabled for sharing. If you don't see the **Share** icon, contact your administrator to enable forecast sharing.
 
 2.  Select the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to a specific forecast record or hierarchy. 
 
@@ -30,4 +31,4 @@ You will now see the **Share** icon :::image type="icon" source="media/share-ico
 
 To stop sharing a forecast with a user, select the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecast record. In the **Sharing** dialog, find the user you want to stop sharing with, and then select the **Delete** icon next to the username. 
 
-To stop sharing the entire forecast hierarchy from all the users, your administrator needs to disable the sharing option for the forecast. For more information, see [Enable or disable forecast sharing](#enable-or-disable-forecast-sharing).
+To stop sharing the entire forecast hierarchy from all the users, your administrator needs to disable the sharing option for the forecast. For more information, see [Enable or disable forecast sharing](enable-forecast-sharing.md).

@@ -1,8 +1,9 @@
 ---
 title: "Enable or disable forecast sharing - Sales Enterprise | MicrosoftDocs"
-description: "Forecast sharing enables users to share forecasts with other users in the hierarchy or outside the hierarchy with specific access level."
-ms.date: 10/07/2021
+description: "Enable forecast sharing to allow users to share forecast records that they have access to"
+ms.date: 10/20/2021
 ms.topic: article
+ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
@@ -22,30 +23,14 @@ Forecast sharing is disabled by default. As an administrator or forecast manager
 
 4.  Select the **Permissions** step and specify the share permissions. Select one of the following options:
 
-- **None**: Indicates that forecast sharing is disabled and hence can't be shared with anyone. If you select this option when there are active shares, the shared forecasts will no longer be available to the shared users.
+    - **None**: Indicates that forecast sharing is disabled and hence can't be shared with anyone. If you select this option while there are active sharing, the shared forecasts will no longer be available to the shared users.
+    
+    - **Read-only**: Indicates that the users in the forecast hierarchy can share the forecast with view permission.
+    
+    - **Read and adjust**: Indicates that the forecast can be shared with either the view only permission, or read and adjust permission. If you want to be able to share the forecast with different levels of access to different users, then select this setting.
+    
+5. Save the changes. 
+   If you have selected **Read-only** or **Read and adjust**, all the forecast records in the forecast configuration are enabled for sharing. Sellers and managers can now share the records. See, [Share a forecast](share-forecasts.md). 
 
-- **Read only**: Indicates that the users in the forecast hierarchy can share the forecast with view permission.
-
-- **Read and adjust**: Indicates that the forecast can be shared with either the view only permission, or read and adjust permission. If you want to be able to share the forecast with different levels of access to different users, then select this setting.
-
-## Share a forecast
-
-You can share a forecast with anyone in your hierarchy or outside of your hierarchy and specify the access level (such as read or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager wants one of his direct reports, Serena Davis, to manage the forecasts while he's on vacation. He can share his forecast hierarchy with Serena and assign the appropriate permissions.
-
-1.  Go to **Performance &gt; Forecasts** in the Sales Hub sitemap.
-
-You will now see the **Share** icon ![](media/image5.png) next to the forecasts that are enabled for sharing. If you do not see the Share icon, contact your administrator to enable forecast sharing.
-
-2.  Select the **Share** icon ![](media/image5.png) next to a specific forecast record or hierarchy.
-
-3.  In the **Sharing** dialog, specify the users with whom you want to share the forecast and select the pencil icon to specify the access level.
-
-**Note:** You can specify different level of access for each user if your administrator has set the **Share as read and adjust rollups** option.
-
-![Graphical user interface  text  application Description automatically generated](media/image6.png)
-
-The selected forecast record or hierarchy is shared with the specified users.
-
-## Stop sharing a forecast
-
-To stop sharing a forecast from a user, select the **Share** icon listed next to the forecast record. In the **Sharing** dialog, find the user you want to stop sharing with and select the **Delete** icon next to the username. To stop sharing the entire forecast hierarchy from all the users, your administrator needs to disable the sharing option for the forecast. For more information, see [Enable or disable forecast sharing](#enable-or-disable-forecast-sharing).
+### See also
+[Adjust values in a forecast](adjust-values-in-forecast.md)

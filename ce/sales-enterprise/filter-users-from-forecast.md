@@ -16,7 +16,7 @@ The following screenshot illustrates a sample forecast hierarchy:
 
 :::image type="content" source="media/forecast-hierarchy.PNG" alt-text="A sample forecast hierarchy with a manager and her team":::
 
-**To filter users from forecast hierarchy**
+**To filter users from the forecast hierarchy**
 
 1.  Select the **Filter Hierarchy** step of the forecast.
     > [!NOTE]
