@@ -1,13 +1,13 @@
 ---
-title: "Manage custom context | MicrosoftDocs"
-description: "Learn how you can send custom context to a chat session that can help decide the queue to which you must route the the chat."
+title: "Send custom context | MicrosoftDocs"
+description: "Learn how you can send custom context to a chat session that can help decide the queue to which you must route the chat."
 ms.date: 10/20/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# Manage custom context
+# Send custom context
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

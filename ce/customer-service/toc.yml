@@ -580,7 +580,7 @@
         href: send-auth-token-starting-chat.md       
       - name: Configure automatic closure of conversations
         href: auto-close-conversation.md
-      - name: Manage custom context
+      - name: Send custom context
         href: send-context-starting-chat.md
       - name: Display custom context
         href: display-custom-context.md
