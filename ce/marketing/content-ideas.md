@@ -34,7 +34,7 @@ Content ideas helps you discover new ways to express your thoughts, helping you 
 
 The Content ideas feature is like a brainstorming partner that can help inspire you while you’re writing an email. You provide a short list of initial thoughts (key points), and content ideas generates a range of longer content suggestions that you can build on. You can add these suggestions to your draft, use them as inspiration to write a new draft, or go in a different direction altogether.
 
-## How to enable Content ideas
+## Enable Content ideas
 
 > [!NOTE]
 > The Content ideas button is visible in the email editor (in English environments only) even if it hasn’t been enabled by and administrator.
