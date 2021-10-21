@@ -11,9 +11,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To display the context variables in the [Conversation Summary Control of conversations](oc-customer-summary.md#conversation-summary) for Power Virtual Agents and Azure bots, use the `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method.
-
-The data type of the context variables is a JSON object with two different variables&mdash;`isDisplayable` and `Value`. The input value for `isDisplayable` is **Boolean** (true or false). The input value for `Value` can be **Boolean**, **String**, or **Number**. The JSON object has the following schema.
+The data type of the context variables is a JSON object with two properties&mdash;`isDisplayable` and `Value`. The input value for `isDisplayable` is **Boolean** (true or false). The input value for `Value` can be **Boolean**, **String**, or **Number**. The JSON object has the following schema.
 
 ```JavaScript
 {
@@ -36,7 +34,9 @@ The data type of the context variables is a JSON object with two different varia
 Here's an example of the `isDisplayable` attribute:
 `{\"isDisplayable\":\"true\"," +"\"Value\":\"context variable value as string\"}`
 
-The `isDisplayable` attribute, if set to `true`, will display the context variables in the third tab on the Conversation Summary Control for a given conversation.
+To display the context variables in the [Conversation Summary Control of conversations](oc-customer-summary.md#conversation-summary) for Power Virtual Agents and Azure bots, use the `isDisplayable` property in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method.
+
+The `isDisplayable` property, when set to `true`, will display the context variables in the third tab on the Conversation Summary Control for a given conversation. The `Value` property includes the user response or any other information in string, Boolean, or number format.
 
 ![Display context keys.](media/context-variable-display.png "Display context keys")
 
