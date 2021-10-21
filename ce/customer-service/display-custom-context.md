@@ -1,7 +1,7 @@
 ---
 title: "Display custom context | MicrosoftDocs"
 description: "Use this topic to understand how to display custom context in the Conversation summary section of conversations."
-ms.date: 08/29/2019
+ms.date: 10/21/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -11,20 +11,11 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To display the context variables in the Conversation Summary Control of conversations, make sure that you include the `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method, and then set its value to `true`.
+To display the context variables in the [Conversation Summary Control of conversations](oc-customer-summary.md#conversation-summary) for Power Virtual Agents and Azure bots, use the `isDisplayable` attribute in the body of [setContextProvider](developer/reference/methods/setContextProvider.md) method.
 
-If the value of `isDisplayable` attribute is set to `true`, then the context variables will appear as follows:
-
-![Display context keys.](media/context-variable-display.png "Display context keys")
-
-More information: [Conversation summary](oc-customer-summary.md#conversation-summary)
-
-### Parse JSON to use custom context variables
-
-Use the following schema to parse the JSON to use custom context variables.
+The data type of the context variables is a JSON object with the following schema.
 
 ```JavaScript
-Schema
 {
             "type": "object",
              "properties": {
@@ -42,10 +33,15 @@ Schema
 
 ```
 
-An example for the `isDisplayable` variable is as follows:
+Here's an example of the `isDisplayable` attribute:
 `{\"isDisplayable\":\"true\"," +"\"Value\":\"context variable value as string\"}`
 
+The `isDisplayable` attribute, if set to `true`, will display the context variables in the third tab on the Conversation Summary Control for a given conversation. This is an optional parameter and its default value is `false`.
+
+![Display context keys.](media/context-variable-display.png "Display context keys")
+
 The `Value` mentioned in the example can be String, Number, or Boolean.
+
 
 ### See also
 
