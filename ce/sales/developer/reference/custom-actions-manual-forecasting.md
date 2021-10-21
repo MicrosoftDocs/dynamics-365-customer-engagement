@@ -1,7 +1,7 @@
 ---
 title: "Custom actions for forecasting - Sales Enterprise | MicrosoftDocs"
 description: "As a developer, use this reference documentation for defining custom actions for manual forecasting."
-ms.date: 06/22/2020
+ms.date: 10/21/2021
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,7 +23,7 @@ ms.custom:
 |||
 
 
-The following actions are used for forecasting:
+The following custom actions are used for forecasting:
 
 - **msdyn_ForecastInstanceActions**: Retrieve forecast and snapshot data. **For internal use only.**<br />
 - **msdyn_ForecastConfigurations**: Returns the list of all for forecast configurations having the name provided as part of request payload. **For internal use only.**<br />

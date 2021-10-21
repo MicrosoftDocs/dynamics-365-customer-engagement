@@ -758,6 +758,8 @@
       href: ../customerengagement/on-premises/developer/sales-literature-entities.md
     - name: Forecasting
       items:
+      - name: Custom actions for forecasting 
+        href: developer/reference/custom-actions-manual-forecasting.md
       - name: msdyn_ForecastApi
         href: developer/reference/custom-actions/msdyn_ForecastApi.md
       - name: Events and context objects for underlying records grid
@@ -768,8 +770,6 @@
         href: developer/marketingformdisplayattributessetApi.md    
     - name: Custom actions
       items:
-      - name: Overview
-        href: developer/reference/custom-actions-manual-forecasting.md
       - name: DeleteOQOILineWithSkipPricingCalculation
         href: developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md
       - name: exportPdf action
