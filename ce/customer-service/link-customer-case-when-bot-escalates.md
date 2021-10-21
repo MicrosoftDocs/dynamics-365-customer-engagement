@@ -1,7 +1,7 @@
 ---
 title: "Link customer, case to conversation when bot escalates or ends conversations | MicrosoftDocs"
-description: "How to link customer and case to conversation when bot escalates to human agent."
-ms.date: 09/23/2021
+description: "Use this topic to understand how to link customer and case to conversation when bot escalates to human agent."
+ms.date: 10/23/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
