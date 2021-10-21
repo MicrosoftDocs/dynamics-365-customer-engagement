@@ -26,9 +26,9 @@ A comprehensive knowledge base is a key to increased customer satisfaction and i
   
 After knowledge management is set up, users will be able to:  
   
-- Search for relevant KB articles right from Dynamics 365 Customer Service as they're working on a record.  
+- Search for relevant knowledge base articles right from Dynamics 365 Customer Service as they're working on a record.  
   
-- See the content of the KB article inline, including images and videos.  
+- See the content of the knowledge base article inline, including images and videos.  
   
 - Give timely and consistent information to customers when working on their cases by using actions like opening the article and sharing the information or emailing the article link to customers.   
 
@@ -39,7 +39,7 @@ After knowledge management is set up, users will be able to:
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
   
-1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Settings**.
+1. In the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
   
 2. In the **Knowledge Base Management Settings** wizard, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
 
@@ -85,7 +85,7 @@ You can enable knowledge authors to get suggested keywords and description based
 
 ## Set up knowledge search logic
 
-If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. For example, if you search for Contoso Coffee, the search results will show articles that has either "Contoso" or "Coffee", as seen in the following example:
+If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. If you search for Contoso Coffee, the search results will show articles that has either "Contoso" or "Coffee", as seen in the following example:
 
 - Article 1: Contoso machine repair
 - Article 2: Coffee powder quality
@@ -93,14 +93,14 @@ If you have Relevance search enabled, you can apply knowledge search logic for y
 - Article 4: Coffee machine order for Contoso
 - Article 5: Espresso coffee machine troubleshooting
 
-You can enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords that you used in the search. For example, if you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee" as seen in the following example:
+You can enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords that you used in the search. If you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee" as seen in the following example:
 
 - Article 1: Contoso coffee order price
 - Article 2: Coffee machine order for Contoso
 
 To set up the knowledge search logic:
 
-1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Settings**. 
+1. In the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
 
 2. In the **Knowledge search logic** section, set **Set search mode as all** toggle to **Yes**.
 
@@ -113,7 +113,7 @@ More information: [Search across table data using Dataverse search](/powerapps/d
 
 You can enable users to provide feedback on knowledge articles opened from knowledge search control.
 
-1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Settings**. 
+1. In the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management** 
 
 2. In the **Knowledge Articles Feedback** section, set **Enable users to provide feedback on knowledge articles from search control** to **Yes**.
 
