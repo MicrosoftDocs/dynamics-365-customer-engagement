@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable forecast sharing - Sales Enterprise | MicrosoftDocs"
 description: "Enable forecast sharing to allow users to share forecast records that they have access to"
-ms.date: 10/20/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: lavanyakr01
