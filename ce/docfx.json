@@ -141,12 +141,17 @@
         "sales-professional/**/*.md": "dynamics-365-sales",
         "unified-service-desk/**/*.md": "dynamics-365-customerservice"
       },
+      "ms.prod": {
+        "legal/**/*.md": "dynamics-365",
+	"customerengagement/**/*.md": "d365ce-op"
+	    }
       "ms.subservice": {
         "customer-service/channel-integration-framework/**/*.md": "channel-integration-framework",
         "unified-service-desk/**/*.md": "unified-service-desk"
       },
-	  "ms.topic": {
-        "legal/**/*.md": "article"
+      "ms.topic": {
+        "legal/**/*.md": "article",
+	"customerengagement/**/*.md": "article"
       },
       "learn_banner_products": {
         "**/*.md": [
