@@ -486,10 +486,10 @@ We recommend that you perform the following steps to upgrade a solution:
 
 ## Limitations
 
-The following limitations apply in the Unified Interface apps:
+The following limitations apply to the Unified Interface apps:
 
-- The "applicable when" and "success conditions" aren't supported and will not work as expected if they are configured on related entities.
-- Multiple SLA items can't be defined with the same "applicable when" condition and different success criteria for an SLA.
+- The "applicable when" and "success conditions" aren't supported and won't work as expected if they are configured for related entities.
+- Multiple SLA items can't be defined with the same "applicable when" criteria and different "success conditions" for an SLA.
 
 ### See also
 
