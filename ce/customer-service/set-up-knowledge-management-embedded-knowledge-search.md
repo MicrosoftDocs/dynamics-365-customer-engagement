@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 10/20/2021
+ms.date: 10/21/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -85,9 +85,18 @@ You can enable knowledge authors to get suggested keywords and description based
 
 ## Set up knowledge search logic
 
-If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the OR logic, which brings up articles that match the individual keywords used for your search. For example, if you search for "Contoso Coffee", the search results will show articles that match both "Contoso" and "Coffee". This might show up a long list of search results, making it difficult for the agent to get to the required article.
+If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used for your search. For example, if you search for Contoso Coffee, the search results will show articles that has either "Contoso" or "Coffee". This might show up a long list of search results, making it difficult for the agent to get to the required article, such as the following:
 
-However, you can now enable the knowledge search to work by the AND logic, which considers the exact match of the keywords used for your search. For example, if you search for "Contoso Coffee", the search results will show articles that match the complete set of keywords, that is, "Contoso Coffee".
+- Article 1: Contoso machine repair
+- Article 2: Coffee powder quality
+- Article 3: Contoso coffee order price
+- Article 4: Coffee machine order for Contoso
+- Article 5: Espresso coffee machine troubleshooting
+
+However, you can now enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords used for your search. For example, if you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee" and the search result will show only the following:
+
+- Article 1: Contoso coffee order price
+- Article 2: Coffee machine order for Contoso
 
 To set up the knowledge search logic:
 
@@ -96,6 +105,9 @@ To set up the knowledge search logic:
 2. In the **Knowledge search logic** section, set **Set search mode as all** toggle to **Yes**.
 
 3. Select **Save**.
+
+More information: [Search across table data using Dataverse search](/powerapps/developer/data-platform/webapi/relevance-search#searchmode-any--all-optional)
+
 
 ## Enable feedback control
 
