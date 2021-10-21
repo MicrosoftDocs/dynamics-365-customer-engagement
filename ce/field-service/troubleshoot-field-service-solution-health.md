@@ -600,7 +600,7 @@ Severity: High
 
 ### What it checks
 
-For all work order forms, this rule checks if the number of subgrid controls and lookup controls exceeds the limit, which may impact performance. This rule triggers a notification stating which forms have too many subgrid controls or lookup controls.
+For all work order forms, this rule checks if the number of subgrid controls and lookup controls exceeds the limit (3 subgrids or 15 lookups), which may impact performance. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
 
 A subgrid control is...
 
@@ -618,7 +618,7 @@ A lookup control is...
 
 ### Why it fails
 
-This rule fails if the default tab of any work order form has more than either 3 subgrids or 15 lookup controls.
+This rule fails if the default tab of any work order form has more than either **3 subgrids controls** or **15 lookup controls**. A default tab is...
 
 
 ### How to fix
