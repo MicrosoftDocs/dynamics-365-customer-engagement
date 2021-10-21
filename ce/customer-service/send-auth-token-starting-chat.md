@@ -16,7 +16,7 @@ To authenticate a customer when they start a chat, pass an authentication token 
 > [!IMPORTANT]
 > In the payload of the JSON Web Token (JWT) token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
 > The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.<br />
-> The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.<br />
+> The keys of custom context must correspond to context variables that are created for the associated workstream in Omnichannel for Customer Service.<br />
 > The authentication token provider would be invoked by live chat widget when starting a new chat.
 
 The SDKs related to authentication token provider are applicable only if authentication is enabled for the widget. To enable authentication for your widget, see [Create chat authentication settings](create-chat-auth-settings.md).

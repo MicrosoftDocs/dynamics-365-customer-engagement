@@ -20,7 +20,7 @@ This topic lists the context variables that you can configure for an Azure or Po
 
 Before you configure context variables for an Azure or Power Virtual Agents bot, check for the following conditions:
 
- - The context variable names are used as is and not changed when you author flows in Power Virtual Agents or Azure bots.
+ - The context variable names are used as is and not changed when you author flows in Azure or Power Virtual Agents bots.
  - The length of the context variable names is 200 characters or less.
  - Use exact match to pass the value to the context variable because it is case-sensitive. Also, the value must be 4,000 characters or less so that the conversation can be successfully escalated to agents.
 
