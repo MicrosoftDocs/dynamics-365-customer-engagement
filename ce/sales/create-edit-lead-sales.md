@@ -26,7 +26,7 @@ Use leads to keep track of business prospects. A lead can be an existing client 
 | **Security roles** | Salesperson and above <br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
 |||
 
-## Create or edit a lead
+## How to create or edit a lead
 
 In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads to keep track of business prospects that you haven't yet qualified through your sales process. A lead can be an existing client or someone you've never done business with before. You might get leads from different sources, such as advertising, networking, or email campaigns.  
   
