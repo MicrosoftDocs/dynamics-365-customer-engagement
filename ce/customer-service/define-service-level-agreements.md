@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 10/02/2021
+ms.date: 10/21/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -486,7 +486,10 @@ We recommend that you perform the following steps to upgrade a solution:
 
 ## Limitations
 
-In Unified Interface apps, the "applicable when" and "success conditions" aren't supported and will not work as expected if they are configured on related entities.
+The following limitations apply to the Unified Interface apps:
+
+- The "applicable when" and "success conditions" aren't supported and won't work as expected if they are configured for related entities.
+- Multiple SLA items can't be defined with the same "applicable when" criteria and different "success conditions" for an SLA.
 
 ### See also
 
