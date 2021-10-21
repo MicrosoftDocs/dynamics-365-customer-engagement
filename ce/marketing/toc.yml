@@ -272,6 +272,8 @@
           href: real-time-marketing-segments.md
         - name: Create a segment-based journey
           href: real-time-marketing-segment-based-journey.md
+        - name: Create a new version of a customer journey
+          href: real-time-marketing-new-journey-version.md
         - name: Real-time marketing event triggers
           href: real-time-marketing-event-triggers.md
         - name: Custom event triggers in real-time marketing
