@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
-ms.date: 10/22/2019
+ms.date: 10/22/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -387,7 +387,11 @@ Fails if autonumbering is not opted-in for the org.
 
 ### How to fix
 
-Opt into autonumbering.
+Opt into autonumbering in Field Service app > Settings > Field Service settings > # Opt-In to AUto-Numbering (in the top command ribbon)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/administration-settings--optin-autonumbering.png)
 
 ## Verify Field Service and Project Service Automation solutions are compatible
 
@@ -436,7 +440,7 @@ If the required level of the system field (that is, Application Required field/ 
 Go to customization -> Entities -> Work Order /Agreement -> Fields -> Double-click on field for which required level need to reset -> Select field requirement -> Business Required.
 
 > [!Note] 
-> This rule is implemented for the OOB required field on the Work Order and Agreement only.
+> This rule is implemented for the out-of-the-box required field on the Work Order and Agreement only.
 
 ## Checks For Active Agreements Having Past End Dates
 
@@ -590,6 +594,19 @@ When a frontline worker has access to the Field Service (Dynamics 365) mobile ap
 
 Add Field Service resource security role and field security profile to the user. For more information see, [see this article on setting up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
 
+## Check if forms have too many custom controls
+
+Severity: High
+
+### What it checks
+
+
+
+### Why it fails
+
+
+
+### How to fix
 
 ### See also
 
