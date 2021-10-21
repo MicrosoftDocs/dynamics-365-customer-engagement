@@ -10,6 +10,11 @@ manager: shujoshi
 ---
 # About premium forecasting 
 
+Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, premium forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes. 
+
+>[!IMPORTANT]
+>Premium forecasting is not available on Government Community Cloud (GCC), France, and India. 
+
 ## Requirements
 |  | |
 |-----------------------|---------|
@@ -17,22 +22,10 @@ manager: shujoshi
 | **Security Role** | System Administrator or Forecast Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, premium forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes. 
-
->[!IMPORTANT]
->Premium forecasting is not available on Government Community Cloud (GCC), France, and India. 
-
-## Prerequisites 
-
-Review the following requirements before you use the predictive forecast feature: 
-
-- Purchase a Sales Insights, a Sales Premium license, or start a trial to use advanced Sales Insights features. 
-
-- Enable forecasting. To learn more, see [Configure forecasts in your organization](/dynamics365/sales-enterprise/configure-forecast). 
 
 ## Features available in premium forecasting
 
-The following premium forecasting features are available with Sales Insights.
+The following premium forecasting features are available with Sales Insights. Before you begin, ensure that forecasting is enabled. More information: [Configure forecasts in your organization](configure-forecast.md).
 
 ### Forecast predictions
 
@@ -77,6 +70,14 @@ To understand how to use trend charts, see [Understand forecast projection throu
 ### Flow chart
 
 The flow chart provides a visual representation of how the forecast changes between two moments in time. To learn more, see [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md).
+
+## Why don't I see this in my app?
+
+There are two possibilities:
+
+- You do not have the necessary license or role to perform the steps.
+
+- Your organization maybe using a custom app and hence the sitemap and UI will be different. The steps described in this documentation are specific to the out-of-the-box Sales Hub app. Check with your administrator for the exact steps.
 
 ### See also
 
