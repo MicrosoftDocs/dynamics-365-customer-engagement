@@ -45,7 +45,7 @@ Perform the steps outlined in this section to parse the JSON to extract the reco
 
 Make sure that you have the following details:
 
-- The Omnichannel context variable, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
+- The Omnichannel for Customer Service context variable, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
 - The schema details.
 
 A copy of the sample schema details is as follows:
