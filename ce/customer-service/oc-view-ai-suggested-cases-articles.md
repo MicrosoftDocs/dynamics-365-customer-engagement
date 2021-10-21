@@ -1,7 +1,7 @@
 ---
 title: "View smart assist suggestions for knowledge articles and similar cases using AI | MicrosoftDocs"
 description: "View smart assist suggestions for knowledge articles and similar cases using AI."
-ms.date: 10/20/2020
+ms.date: 10/21/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -44,6 +44,12 @@ The following table lists the explanation of the smart assist card for AI-sugges
 | 9 |Displays information on the keywords that were used by the AI model to match the article.|
 |  |  |
 
+### Understand knowledge article components in smart assist on the voice channel
+
+When you are on a call with the customer and are looking for related knowledge articles, the **Smart assist** pane provides you with the **Copy URL** option, which lets you copy the article link to the clipboard when selected. You can then email the URL to your customers to help them with their issues.
+
+:::image type="content" source="media/sa-option-voice call.png" alt-text="Smart assist suggestions for voice channel":::
+
 ## Understand the similar cases components in smart assist
 
 When you are interacting with a customer in an ongoing conversation, up to three top similar cases that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
@@ -65,12 +71,6 @@ The following table lists the explanation of the smart assist card for AI-sugges
 | | |
 
 If no cases match, then the card displays an appropriate message, such as "No suggestions found for similar cases."
-
-## Understand knowledge article components in smart assist on the voice channel
-
-When you are on a call with the customer and are looking for related knowledge articles, the **Smart assist** pane provides you with the **Copy URL** option, which lets you copy the article link to the clipboard when selected. You can then email the URL to your customers to help them with their issues.
-
-:::image type="content" source="media/sa-option-voice call.png" alt-text="Smart assist options for voice call":::
 
 ### See also
 
