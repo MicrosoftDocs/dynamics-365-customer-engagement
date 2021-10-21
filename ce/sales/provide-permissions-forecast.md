@@ -1,7 +1,7 @@
 ---
-title: "Provide permissions to access and share a forecast (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Provide permissions to access and share a forecast - Dynamics 365 Sales | MicrosoftDocs"
 description: "Provide viewing permissions to access a forecast in Dynamics 365 Sales."
-ms.date: 02/03/2020
+ms.date: 10/21/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
