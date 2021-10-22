@@ -20,6 +20,10 @@ Integrate with Microsoft Teams to chat with team members in the context of work 
 > [!div class="mx-imgBorder"]
 > ![Field Service work order, with a Teams chat panel showing related chats.](./media/work-order-teams-messages.png)
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWOc1n]
+
 ## Prerequisites
 
 - Set up overall integration between Microsoft Teams and Dynamics 365 customer engagement apps. Go to Settings > Administration > System Settings and 1) Enable **Basic** Microsoft Teams Integration (requires system admin permissions) and 2) Enable **Enhanced** Microsoft Teams integration (requires tenant admin permissions). See this article: [Install and set up](/dynamics365/teams-integration/teams-install-app) for more details.
