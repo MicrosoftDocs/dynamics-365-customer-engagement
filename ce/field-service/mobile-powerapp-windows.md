@@ -39,9 +39,7 @@ The Field Service (Dynamics 365) Windows app supports:
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWNWjN]
-
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWNWjN]
 
 ## Prerequisites
 
