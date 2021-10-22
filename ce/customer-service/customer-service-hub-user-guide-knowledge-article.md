@@ -475,18 +475,15 @@ Managing your article versions means publishing and archiving different versions
   
      Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
   
-## Translate a knowledge article in multiple languages  
+## Select a language for your knowledge article translation
 
-> [!NOTE]
-> Knowledge articles aren't getting translated into the target language even on using the defined steps for translating an article.
-
-Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in Dynamics 365 Customer Service helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
+Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Dynamics 365 Customer Service helps you set the translation language for your articles, enabling you to provide the same self-help content in multiple languages, without having to manage multiple copies of the same article.  
   
-1. Open the article you want to translate, and on the command bar, select **Translate**.  
+1. Open the article you want to translate, and from the command bar, select **Translate**.  
   
-2. In the **Create new translation** dialog box, in the **Pick a language** drop-down list, choose the language you want.  
-  
-3. In the **Create new version** field, choose whether to create a new major or minor version for your translation.  
+2. On the **Create new translation** dialog, do the following:
+   * From the **Pick a language** dropdown, search and select the language you want.  
+   * In the **Create new version** field, select either **Major** or **Minor** version for your translation.  
   
     You can translate articles into any language that’s supported by the Customer Service Hub.  
   
