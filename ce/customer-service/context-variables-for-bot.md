@@ -14,11 +14,11 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic lists the context variables that you can configure for an Azure or Power Virtual Agents bot for use in Omnichannel for Customer Service.
+This topic lists the context variables that you can configure for an Azure or a Power Virtual Agents bot for use in Omnichannel for Customer Service.
 
 ## Considerations
 
-Before you configure context variables for an Azure or Power Virtual Agents bot, check for the following conditions:
+Before you configure context variables for an Azure or a Power Virtual Agents bot, check for the following conditions:
 
  - The context variable names are used as is and not changed when you author flows in Azure or Power Virtual Agents bots.
  - The length of the context variable names is 200 characters or less.

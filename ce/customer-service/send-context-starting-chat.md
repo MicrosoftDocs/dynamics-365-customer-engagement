@@ -13,7 +13,7 @@ manager: shujoshi
 
 When a customer starts a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used to [display information on the user interface](display-custom-context.md) and to create routing rules that eventually determine the queue to which you must route the chats.
 
-The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated workstream in Omnichannel for Customer Service. If no context variables have been created under live workstream with a matching logical name, variables are created at run time assuming the type as String. The custom context provider would be invoked by the live chat widget when a new chat is started. Because the values are case sensitive, use exact match to pass them to the context variables. More information: [Context variables](context-variables-for-bot.md)
+The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated workstream in Omnichannel for Customer Service. If no context variables have been created under live workstream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by the live chat widget when a new chat is started. Because the values are case sensitive, use exact match to pass them to the context variables. More information: [Context variables](context-variables-for-bot.md)
 
 Follow these steps to send custom context when you start a chat:
 

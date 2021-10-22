@@ -40,19 +40,19 @@ Learn how you can display the context variables in the Conversation Summary Cont
 
 [Display custom context](../display-custom-context.md)
 
-## Send authentication token 
+## Send authentication token
 
 Learn how you can pass an authentication token to Omnichannel for Customer Service to authenticate a customer when they start a chat.
 
 [Send authentication token](../send-auth-token-starting-chat.md)
 
-##  Enable a bot to escalate and end conversation
+## Enable a bot to escalate and end conversation
 
 Omnichannel for Customer Service allows you to route a conversation to a human agent when you think human intervention is required to successfully help the customer.
 
 [Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)<br />
 
-## Automatically close conversations
+## Close conversations automatically
 
 Learn how you can automatically close a conversation using Web API.
 
@@ -60,7 +60,7 @@ Learn how you can automatically close a conversation using Web API.
 
 ## runMacro API
 
-`runMacro` API allows you to execute a macro whose name was passed as a parameter in the API call.
+The `runMacro` API allows you to execute a macro whose name was passed as a parameter in the API call.
 
 [runMacro method](reference/methods/runMacro.md)
 

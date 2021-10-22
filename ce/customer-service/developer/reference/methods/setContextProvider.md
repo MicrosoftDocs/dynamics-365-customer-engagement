@@ -56,7 +56,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 ```
 In the preceding sample code, the `value` attribute contains the value of the context variables.
 
-The `isDisplayable` attribute, if set to `true`, will display the passed items in the third tab on the Conversation Summary Control for a given conversation.
+The `isDisplayable` attribute, if set to `true`, will display the passed items in the third tab on the Conversation Summary Control for a conversation.
 
 > [!NOTE]
 > If no context variables have been created under live workstream with a matching logical name, then the variables are created at runtime with the type String. More information: [Context variables](../../../context-variables-for-bot.md#context-variables)

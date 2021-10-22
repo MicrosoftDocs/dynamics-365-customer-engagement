@@ -36,7 +36,7 @@ Amy can accept the chat offer and start the conversation to sort out her issue.
 <script id="Proactivechattrigger">
 	// Wait for Chat widget to load completely
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-		var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 20000;//time to wait before Offering proactive chat to web page visitor
+		var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 20000;//time to wait before Offering proactive chat to webpage visitor
 		// Setting context variables
         Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
             return {
@@ -151,7 +151,7 @@ VisitCounter();
         });
 
         setTimeout(function(){
-			var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 5000;//Time to wait before offering proactive chat to web page visitor
+			var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 5000;//Time to wait before offering proactive chat to webpage visitor
             var visits = GetCookie("timesPageVisited");
 			//Check if webpage has been visited 2 or more times by the user.
             if (visits > 2) {		
@@ -165,7 +165,7 @@ VisitCounter();
 
 ```
 
-## Scenario 3: Customer checking status for support case
+## Scenario 3: Customer checks status of open support case
 
 Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding his open support case.
 
@@ -178,11 +178,11 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
 ### Sample code
 
 ```html
-<!-- Code to show proactive chat invite after visitor has spend given time on the webpage, with relavant details about user. -->
+<!-- Code to show proactive chat invite after visitor has spend given time on the webpage, with relevant details about user. -->
 <script id="Proactivechattrigger">
 	// Wait for Chat widget to load completely
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-		var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 10000;//Time to wait before offering proactive chat to web page visitor
+		var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 10000;//Time to wait before offering proactive chat to webpage visitor
 		var caseId = '< your case id relevant to the user.>';//Set case id relevant to the user.
 		// setting Context variables
         Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
@@ -219,7 +219,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 	var hasProactiveChatBeenOffered = false;	
 	//Wait for Chat widget to load completely
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-		var timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving = 15000; //Time to wait before Offering proactive chat to web page visitor
+		var timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving = 15000; //Time to wait before Offering proactive chat to webpage visitor
 		
 		//Enable showing proactive chat invite on leaving page after browsing page for 'timeToWaitBeforeEnablingOfferingProactiveChatInMillisecondsOnLeaving' milliseconds
         setTimeout(function(){
@@ -246,7 +246,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 </script>
 ```
 
-## Scenario 5: Customer coming from a specific webpage spends some time on the current webpage
+## Scenario 5: Customer browsed another webpage and then spends time on the current webpage
 
 Amy has browsed the FAQs document of the product and is currently on the Knowledge Base page for more than 15 seconds.
 
@@ -264,7 +264,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 	var lastVisitedPage = "www.contoso.com/FAQ";// last visited page. A visitor coming form this page will be shown proactive chat invite after given time on current page
 	// Wait for Chat widget to load completely
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-		var timeToWaitBeforeOfferingProactiveChat = 15000;//Time to wait before Offering proactive chat to web page visitor
+		var timeToWaitBeforeOfferingProactiveChat = 15000;//Time to wait before Offering proactive chat to webpage visitor
 		//Check if referrer page( read: https://www.w3schools.com/jsref/prop_doc_referrer.asp ) is same as last Visited page 
 		if( window.document.referrer == lastVisitedPage) )
 		{
@@ -286,9 +286,9 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 </script>
 ```
 
-## Scenario 6: Customer logs in from a specific geographic region
+## Scenario 6: Customer signs in from a specific geographic region
 
-Klarissa logs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively starts a chat session..
+Klarissa logs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively starts a chat session.
 
 Klarissa is prompted to chat with the following message.
 
@@ -351,7 +351,7 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 		
 		//fetching latitude and longitude has failed
 		function errorGetlatLong() {
-			console.log('It seems browser was not allowed to access location. Please allow browser to access loaction.');
+			console.log('It seems browser was not allowed to access location. Please allow browser to access location.');
 		}
 		
 		//fetch latitude and longitude via browser
@@ -364,21 +364,21 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 </script>
 ```
 
-## Scenario 7: Proactively offer chat to customers within a certain timeframe
+## Scenario 7: Proactively offer chat to customers within a certain time period
 
 Suppose your organization is running a festive season sale between certain dates, and you want to proactively offer chat requests to customers to see if they have any questions.
 
 ### Sample code
 
-The following sample code shows how you can proactively offer chat invites to customers when they visit your website in a given time period.
+The following sample code shows how you can proactively offer chat invites to customers when they visit your website in a time period.
 
 ```javascript
 <!-- Code to show proactive chat invite if visitor visits webpage between given time period -->
 <script id="Proactivechattrigger">
 	// Wait for Chat widget to load completely
     window.addEventListener("load", function handleLivechatReadyEvent(){//lcw:ready
-		var startTimeOfTimePeriod = new Date('01 Jan 2019 00:00:00 GMT');//start time of time period in which proactive chat will be shown to web page visitor
-		var endTimeOfTimePeriod = new Date('01 Jan 2100 00:00:00 GMT');//end time of time period in which proactive chat will be shown to web page visitor
+		var startTimeOfTimePeriod = new Date('01 Jan 2019 00:00:00 GMT');//start time of time period in which proactive chat will be shown to webpage visitor
+		var endTimeOfTimePeriod = new Date('01 Jan 2100 00:00:00 GMT');//end time of time period in which proactive chat will be shown to webpage visitor
 		var currentDateTime = new Date();//current date and time
 		
 		//Make sure that endTimeOfTimePeriod is always greater and equal to startTimeOfTimePeriod
