@@ -163,9 +163,7 @@ VisitCounter();
 
 ## Scenario 3: Customer checks status of open support case
 
-Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding his open support case.
-
-On realizing that Jacob has visited the support page seeking more information regarding his open case and that he has been on the page for 10 seconds, he is offered a proactive chat with the following message.
+Jacob is browsing through the support page for Microsoft Surface devices to find more information regarding his open support case. Jacob has been on the page for 10 seconds, and is then offered a proactive chat with the following message.
 
 ```
 Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
@@ -198,7 +196,7 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
 
 ## Scenario 4: Customer tries to leave a webpage after spending some time on it
 
-Amy has been browsing a webpage for 15 seconds and is not satisfied with the information provided on it. When Amy is about to switch tabs on the web browser, a proactive chat request with the following message is sent to Amy.
+Amy has been browsing a webpage for 15 seconds and is not satisfied with the available information. When Amy is about to switch tabs on the web browser, a proactive chat request with the following message is sent to Amy.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -242,7 +240,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ## Scenario 5: Customer browsed another webpage and then spends time on the current webpage
 
-Amy has browsed the FAQs document of the product and is currently on the Knowledge Base page for more than 15 seconds. Amy is proactively offered a chat session with the following message.
+Amy has browsed the FAQ's document of the product and is currently on the Knowledge Base page for more than 15 seconds. Amy is proactively offered a chat session with the following message.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
