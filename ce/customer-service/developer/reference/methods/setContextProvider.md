@@ -1,6 +1,6 @@
 ---
 title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: 
+description: "Describes the setContextProvider"
 ms.date: 08/09/2021
 ms.topic: article
 author: mh-jaya
