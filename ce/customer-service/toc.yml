@@ -201,7 +201,7 @@
         - name: Context management    
           items:                
           - name: updateContext
-            href: ../app-profile-manager/reference/microsoft-apm/updateContext.md                   
+            href: ../app-profile-manager/reference/microsoft-apm/updateContext.md
     - name: Readme
       href: https://go.microsoft.com/fwlink/p/?linkid=2141982
   - name: Community
@@ -482,6 +482,58 @@
       href: entity-channel.md
     - name: Set up skill-based routing in Omnichannel Administration
       href: attach-skills.md
+  - name: Voice
+    items:
+    - name: Administrator experience
+      items:
+      - name: Introduction to the voice channel
+        href: voice-channel.md
+      - name: Provision and set up the voice channel
+        href: voice-channel-install.md
+      - name: Manage phone numbers
+        href: voice-channel-manage-phone-numbers.md
+      - name: Block a spam number
+        href: voice-channel-block-number.md
+      - name:Outbound calling
+        href: voice-channel-outbound-calling.md
+      - name: Route incoming calls to agents
+        href: voice-channel-route-queues.md
+      - name: Add Power Virtual Agents for conversational IVR
+        href: voice-channel-ivr-bots.md
+      - name: Add Azure Bot Service for conversational IVR
+        href: voice-channel-azure-bot-service.md
+      - name: View voice calls usage
+        href: voice-channel-usage.md
+      - name: Configure post-call survey
+        href: voice-channel-survey.md
+      - name: Set up a multi-language contact center
+        href: voice-channel-multi-language-contact-center.md
+      - name: Handle call overflow for the voice queues
+        href: voice-channel-call-overflow.md
+      - name: Manage music
+        href: voice-channel-music.md
+      - name: Configure call recordings and transcripts
+        href: voice-channel-configure-transcripts.md
+      - name: Supported regions and languages
+        href: voice-channel-region-availability.md
+    - name: Agent experience
+      items:
+      - name: Make and receive your first phone call
+        href: voice-channel-first-call.md
+      - name: Call a customer
+        href: voice-channel-call-customer.md
+      - name: Use call controls and the agent desktop for voice
+        href: voice-channel-agent-experience.md
+    - name: Supervisor exoerience
+      items:
+      - name: Monitor voice calls
+        href: voice-channel-monitor-calls.md
+      - name: Real-time analytics - Intraday conversation insights
+        href: intraday-conversation-insights.md
+      - name: Real-time analytics - Intraday Agents insights
+        href: intraday-agents-insights.md
+      - name: Voice channel analytics, reports, and call insights
+        href: voice-channel-reports-analytics.md
   - name: Chat
     items: 
     - name: Administrator experience
