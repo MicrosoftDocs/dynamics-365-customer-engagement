@@ -31,13 +31,15 @@ For call overflow to work correctly, the following prerequisites must be met:
 
 ## Configure call overflow
 
-In Omnichannel admin center, go to the voice queue for which you want to configure call overflow and do the following:
+**To configure call overflow**
 
-1. In **Overflow conditions (preview)**, select **Set overflow conditions**.
+1. In the Omnichannel admin center site map, select **Queues**, and go to the voice queue for which you want to configure call overflow.
 
-2. On the **Overflow conditions** panel, in the **Work item limit**, enter a number to denote the maximum number of calls that can be in waiting before overflow is reached. For example, if you enter 5 as the value, then five calls should be waiting in the queue for the sixth call to trigger call overflow.
+2. In **Overflow conditions**, select **Set overflow conditions**.
 
-3. If an operating hour record is configured for the queue, the toggle for **Out of operation hours**, is set to **On** by default and can't be edited. The call overflow is triggered when a call reaches the queue during the after hours of the call center operations. If no operating hour record is configured, the toggle will be set to **Off** and in the disabled mode. In such a case, the call center is considered to be available round the clock.
+3. On the **Overflow conditions** panel, in the **Work item limit**, enter a number to denote the maximum number of calls that can be in waiting before overflow is reached. For example, if you enter 5 as the value, then five calls should be waiting in the queue for the sixth call to trigger call overflow.
+
+4. If an operating hour record is configured for the queue, the toggle for **Out of operation hours**, is set to **On** by default and can't be edited. The call overflow is triggered when a call reaches the queue during the after hours of the call center operations. If no operating hour record is configured, the toggle will be set to **Off** and in the disabled mode. In such a case, the call center is considered to be available round the clock.
 
 To remove the overflow setting, you'll need to set the work item limit to zero and remove the operating hour record on the queue if configured.
 
@@ -57,11 +59,13 @@ Some configuration considerations are discussed in this section.
 
 ### Edit automated messages for end call overflow action
 
-If you have set to end the call as an overflow action, an automated message will be delivered to the customer to notify them that the conversation will end.
+If you have set **End the call** as an overflow action, an automated message will be delivered to the customer to notify them that the conversation will end.
 
-To edit the automated message, go to **Customer settings > Automated messages** and find the automated message for the **Voice** channel where the message trigger is "Voice call ended".
+**To edit the automated message**
 
-Then edit the value in the **Localized text** column as needed.
+1. Go to **Customer settings**, and select **Automated messages**. 
+2. Find the automated message for the **Voice** channel where the message trigger is "Voice call ended".
+3. Edit the value in the **Localized text** column as needed.
 
 > [!div class="mx-imgBorder"]
 > ![Out-of-the-box automated messages.](./media/voice-channel-overflow-end-call-message.png "Out-of-the-box automated messages.")
