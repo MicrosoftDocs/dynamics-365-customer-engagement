@@ -9,7 +9,7 @@ manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 ---
-# Configure sales accelerator for assignment rules 
+# Configure assignment rules in Sales Enterprise
 
 ## Requirements
 |  | |
