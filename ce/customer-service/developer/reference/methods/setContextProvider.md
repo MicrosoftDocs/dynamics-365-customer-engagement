@@ -54,7 +54,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
         });
 });
 ```
-In the sample code given above, the `value` attribute contains the value of the context variables.
+In the preceding sample code, the `value` attribute contains the value of the context variables.
 
 The `isDisplayable` attribute, if set to `true`, will display the passed items in the third tab on the Conversation Summary Control for a given conversation.
 
