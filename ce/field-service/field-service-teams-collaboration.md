@@ -22,7 +22,7 @@ Integrate with Microsoft Teams to chat with team members in the context of work 
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWOc1n]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOc1n]
 
 ## Prerequisites
 
