@@ -23,8 +23,8 @@ Use assignment rules in sales accelerator to automatically assign new leads and 
 
 As an administrator, you can create rules that match lead or opportunity attributes (such as, location and language) with the corresponding seller or team attributes (such as, location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
 
->[!NOTE]
->Use this procedure to configure the sales accelerator, if you are using Sales Enterprise license fro your organization.
+>[!IMPORTANT]
+>Use this procedure to configure assignment rules in sales accelerator with the Sales Enterprise license. If you have the Sales Premium license, use [Configure the sales accelerator for Sales Premium](enable-configure-sales-accelerator.md). 
 
 ## Configure sales accelerator
 
@@ -51,7 +51,7 @@ As an administrator, you can create rules that match lead or opportunity attribu
     > [!div class="mx-imgBorder"]
     > ![Configuration seller availability.](media/sales-accelerator-configuration-seller-availability.png "Configuration seller availability")
  
-    More information: [Configure your work availability](configure-your-work-availability.md).
+    More information: [Configure your work availability through personal settings](personalize-sales-accelerator.md#through-personal-settings).
 
 5.	In the **Automate lead and opportunity assignment (preview)** section, select the toggle to enable preview for the assignment rules feature.   
 
@@ -70,7 +70,7 @@ As an administrator, you can create rules that match lead or opportunity attribu
 
 [Manage assignment rules for routing](create-manage-assignment-rules.md)
 
-[Configure your work availability](configure-your-work-availability.md)
+[Configure your work availability through personal settings](personalize-sales-accelerator.md#through-personal-settings)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

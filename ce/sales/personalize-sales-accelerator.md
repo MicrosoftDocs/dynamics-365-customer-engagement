@@ -40,7 +40,8 @@ Depending on the license you have in the organization, you use one of the follow
 
 ### Through work list settings
 
-1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.
+1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**. 
+    
 2.	In the work list section, select More options > settings.   
     >[!div class="mx-imgBorder"]
     >![Select settings in the work list to configure your availability](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure your availability")     
@@ -82,9 +83,9 @@ Depending on the license you have in the organization, you use one of the follow
 ### Through personal settings
 
 >[!NOTE]
->Use this procedure to customize the calendar, if you are using Sales Enterprise license fro your organization.
+>Use this procedure to customize the calendar if you have the Sales Enterprise license.  
 
-1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.
+1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**. 
 
 2.	Select **Calendar**.
 
