@@ -24,7 +24,6 @@ You must ensure the following conditions are met to configure an Azure bot as an
 - The bot must be registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
 - The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
-<a name="bkmk_EngageBot"></a>
 
 ## Engage an Azure bot
 

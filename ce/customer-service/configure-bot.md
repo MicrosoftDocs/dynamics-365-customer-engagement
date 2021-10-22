@@ -117,7 +117,7 @@ In order to send messages to Omnichannel Engagement Hub, you need to add the fol
 OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
 ```
 
-More information: [Engage a bot](bot-escalate-end-conversation.md#engage-a-bot)
+More information: [Engage an Azure bot](bot-escalate-end-conversation.md#engage-an-azure-bot)
 
 ### Set escalation rules
 
