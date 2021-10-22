@@ -178,7 +178,7 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
 ### Sample code
 
 ```html
-<!-- Code to show proactive chat invite after visitor has spend given time on the webpage, with relevant details about user. -->
+<!--Code to show proactive chat invite after visitor has spend given time on the webpage, with relevant details about user.-->
 <script id="Proactivechattrigger">
 	// Wait for Chat widget to load completely
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
@@ -211,7 +211,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 ### Sample code
 
 ```javascript
-<!-- Code to show proactive chat invite when visitor tries to leave page after spending given time(15 seconds in this case) on the webpage. This invite is offered once and only for the first time. All subsequent tries to leave page are ignored and proactive chat is not offered in them. -->
+//Code to show proactive chat invite when visitor tries to leave page after spending given time (15 seconds in this case) on the webpage. This invite is offered once and only for the first time. All subsequent tries to leave page are ignored and proactive chat is not offered in them. 
 <script id="Proactivechattrigger">
 	//Track if proactive chat has been already offered to the visitor
 	var hasProactiveChatBeenOffered = false;	
@@ -255,7 +255,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 ### Sample code
 
 ```javascript
-<!-- Code to show proactive chat invite when visitor spends given time on current page, after coming from given last visited page -->
+//Code to show proactive chat invite when visitor spends given time on current page, after coming from given last visited page
 <script id="Proactivechattrigger">
 	var lastVisitedPage = "www.contoso.com/FAQ";// last visited page. A visitor coming form this page will be shown proactive chat invite after given time on current page
 	// Wait for Chat widget to load completely
@@ -295,7 +295,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](/bingmaps/rest-services/locations/).
 
 ```javascript
-<!-- Code to show proactive chat invite if visitor is visiting the page in a particular country or region -->
+//Code to show proactive chat invite if visitor is visiting the page in a particular country or region
 <script id="Proactivechattrigger">
 	// Wait for Chat widget to load completely
     window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
@@ -367,7 +367,7 @@ Suppose your organization is running a festive season sale between certain dates
 The following sample code shows how you can proactively offer chat invites to customers when they visit your website in a time period.
 
 ```javascript
-<!-- Code to show proactive chat invite if visitor visits webpage between given time period -->
+//Code to show proactive chat invite if visitor visits webpage between given time period
 <script id="Proactivechattrigger">
 	// Wait for Chat widget to load completely
     window.addEventListener("load", function handleLivechatReadyEvent(){//lcw:ready
