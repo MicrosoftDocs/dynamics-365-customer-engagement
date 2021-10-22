@@ -17,11 +17,7 @@ Consider the following scenarios for proactively starting a chat.
 
 ## Scenario 1: Customer wait time
 
-Amy has accidentally damaged her Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. She is then offered a proactive chat.
-
-A proactive chat request is triggered based on the product page that Amy is browsing and the time spent on the page.
-
-Here is the chat invitation message that is sent.
+Amy has accidentally damaged her Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. A proactive chat request is triggered based on the product page that Amy was browsing and the time spent on the page.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have. 
@@ -56,9 +52,9 @@ Amy can accept the chat offer and start the conversation to sort out her issue.
 
 ## Scenario 2: Customer visits a webpage multiple times
 
-Thomas is browsing through the Microsoft Surface community webpage. He is looking for answers to his questions on Microsoft Surface device. He has visited a webpage multiple times but he's not able to find the answers he's looking for.
+Thomas is browsing through the Microsoft Surface community webpage and is looking for information on Microsoft Surface device. Thomas has visited a webpage multiple times but is not able to find the answers.
 
-Realizing this scenario, the organization offers a chat request to the customer after he's been waiting for some time on the current webpage, with the following message.
+Realizing this scenario, the organization offers a chat request to the customer with the following message.
 
 ```
 Hi! Do you have a question on Surface device ? I am here to help.
