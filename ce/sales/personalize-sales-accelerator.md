@@ -28,8 +28,8 @@ As a seller, you can personalize sales accelerator by determining how activities
 Configure your working days, hours, and days off to adjust scheduled tasks and lead assignment according to your availability. For example, you're taking a day off on April 1, 2021, and you have a few activities to complete that day. When you configure the calendar with your day off, any activities that were scheduled for that day will be moved to your next available date or time.
 
 Depending on the license you have in the organization, you use one of the following ways to configure your work availability:
-- [Through work list settings](#through-work-list-settings)
-- [Through personal settings](#through-personal-settings)
+- Sales Premium: [Through work list settings](#through-work-list-settings)
+- Sales Enterprise: [Through personal settings](#through-personal-settings)
 
 
 >[!NOTE]
@@ -38,9 +38,10 @@ Depending on the license you have in the organization, you use one of the follow
 >    - Through sequence settings, see [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#enable-the-availability-option-in-sequence-settings).
 >    - Through sales accelerator configuration, see step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md). 
 
-### Through work list settings
+### Through work list settings (Sales Premium)<a name="through-work-list-settings"></a>
 
-1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.
+1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**. 
+    
 2.	In the work list section, select More options > settings.   
     >[!div class="mx-imgBorder"]
     >![Select settings in the work list to configure your availability](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure your availability")     
@@ -79,12 +80,9 @@ Depending on the license you have in the organization, you use one of the follow
         >[!div class="mx-imgBorder"]
         >![Time off set for a family vacation](media/sa-personal-settings-time-off-settings.png "Time off set for a family vacation")    
 
-### Through personal settings
+### Through personal settings (Sales Enterprise)<a name="through-personal-settings"></a>
 
->[!NOTE]
->Use this procedure to customize the calendar, if you are using Sales Enterprise license fro your organization.
-
-1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.
+1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**. 
 
 2.	Select **Calendar**.
 
