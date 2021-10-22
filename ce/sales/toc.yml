@@ -540,6 +540,8 @@
         href: project-accurate-revenue-sales-forecasting.md
       - name: View a forecast
         href: view-forecasts.md
+      - name: Share a forecast
+        href: share-forecasts.md
       - name: View and understand data through drill-down entities
         href: view-understand-data-through-drill-down.md
       - name: View and manage underlying opportunities
