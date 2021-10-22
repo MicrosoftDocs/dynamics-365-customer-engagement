@@ -285,7 +285,7 @@ Dictionary<string, Object> keyValues = new Dictionary<string, object>() {
 }
 ```
 
-The bot can also send an escalation summary that'll only be visible to the agent (and not to the customer) after they accept the escalated chat request. To send the summary, set the activity text appropriately in the escalation Activity message.
+The bot can also send an escalation summary that'll only be visible to the agent (and not to the customer) after the agent accepts the escalated chat request. To send the summary, set the activity text appropriately in the escalation Activity message.
 
 ## Best practices for Azure bot configuration
 
