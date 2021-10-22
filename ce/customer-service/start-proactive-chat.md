@@ -202,9 +202,7 @@ Hi! How are you doing today? The status of the case:<caseid> is in progress. Wou
 
 ## Scenario 4: Customer tries to leave a webpage after spending some time on it
 
-Amy has been browsing a webpage for 15 seconds and is not satisfied with the information provided on it. She is about to switch tabs on her web browser when she gets a chat request that asks her if she needs any help with her questions.
-
-The proactive chat message is as follows:
+Amy has been browsing a webpage for 15 seconds and is not satisfied with the information provided on it. When Amy is about to switch tabs on the web browser, a proactive chat request with the following message is sent to Amy.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -248,9 +246,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ## Scenario 5: Customer browsed another webpage and then spends time on the current webpage
 
-Amy has browsed the FAQs document of the product and is currently on the Knowledge Base page for more than 15 seconds.
-
-She is proactively offered a chat session with the following message.
+Amy has browsed the FAQs document of the product and is currently on the Knowledge Base page for more than 15 seconds. Amy is proactively offered a chat session with the following message.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
@@ -288,9 +284,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ## Scenario 6: Customer signs in from a specific geographic region
 
-Klarissa logs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively starts a chat session.
-
-Klarissa is prompted to chat with the following message.
+Klarissa logs in to your website from Ruritania where your company is running a special discount on products. You can set up a trigger for customers coming from a particular location that proactively starts a chat session. Klarissa is prompted to chat with the following message.
 
 ```
 Hi! Just checking in to see if I can help answer any questions you may have.
