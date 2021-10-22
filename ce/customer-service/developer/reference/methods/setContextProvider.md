@@ -1,13 +1,13 @@
 ---
 title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: "Describes the setContextProvider"
+description: "Includes syntax and parameter information for the setContextProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
 ms.date: 08/09/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# setContextProvider
+# setContextProvider method - Omnichannel for Customer Service JavaScript API reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
