@@ -273,7 +273,7 @@ namespace Microsoft.Bot.Builder.EchoBot
 > [!NOTE]
 > The method `OmnichannelBotClient.BridgeBotMessage` in the preceding sample code must be called for every Activity message that's sent to the customer.
 
-The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and the **CreditCard** is the context variable value. If there is an agent queue with the rule **BotHandoffTopic** equals to **CreditCar**, then this escalated chat will be routed to that queue.
+The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and the **CreditCard** is the context variable value. If there's an agent queue with the rule **BotHandoffTopic** equals to **CreditCar**, then this escalated chat will be routed to that queue.
 
 The context variable name is of type String. The context variable value must be of type Integer or String, and should be passed as Dictionary<string, object> during escalation. The sample code is as follows.
 
