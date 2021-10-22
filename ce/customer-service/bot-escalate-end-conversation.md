@@ -198,7 +198,7 @@ namespace EchoBot.OmniChannel
    
    Change the `Escalate` and `EndConversation` command criteria based on your requirements. 
    
-   Add the code statement `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omnichannel for Customer Service. More information: [Engage a bot](#bkmk_EngageBot)
+   Add the code statement `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omnichannel for Customer Service.
 
 The sample code is as follows.
 
