@@ -13,6 +13,8 @@ topic-status: Drafting
 ---
 # Introduction to administering Sales Insights features 
 
+In this article, you will learn how to enable and configure Sales Insights features 
+
 ## Requirements
 |  | |
 |-----------------------|---------|
@@ -222,6 +224,8 @@ You can also update each setting later as required. The following configurations
 ## Privacy notice
 
 For specific privacy information about Dynamics 365 Sales Insights capabilities, see [Privacy notice](privacy-notice.md).
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
