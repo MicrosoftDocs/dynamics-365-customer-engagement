@@ -1,7 +1,7 @@
 ---
 title: Modify settings for the Dynamics 365 Sales mobile app
 description: Learn to modify settings for the Dynamics 365 Sales mobile app.
-ms.date: 10/20/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -10,15 +10,6 @@ manager: shujoshi
 ---
 # Dynamics 365 Sales mobile app settings 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
-|||
-
-
-
 The **Settings** panel provides a consolidated view for relevant information about the app, helpful links to submit ideas, report issues, and share feedback, and a sign-out option.
 
 The settings are divided into the following categories:
@@ -26,7 +17,15 @@ The settings are divided into the following categories:
 - [About](#about)
 - [Account](#account)
 
-**To open the Settings panel**
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
+|||
+
+
+## How to open the Settings panel
 
 1. Tap your profile picture at the upper left of the screen.
 

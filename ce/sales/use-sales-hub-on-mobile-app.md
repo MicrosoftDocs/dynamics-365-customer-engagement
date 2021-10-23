@@ -11,6 +11,8 @@ ms.custom:
 ---
 # Use the Sales Hub app on Dynamics 365 Sales app 
 
+Access your Sales Hub data while you're on the go by using the Dynamics 365 Sales app on your mobile device. The app is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. It helps sellers with the right data anywhere, anytime, and lets them log and share information quickly.
+
 ## Requirements
 |  | |
 |-----------------------|---------|
@@ -19,8 +21,7 @@ ms.custom:
 |||
 
 
-
-Access your Sales Hub data while you're on the go by using the Dynamics 365 Sales app on your mobile device. The app is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. It helps sellers with the right data anywhere, anytime, and lets them log and share information quickly.
+## About the mobile app
 
 Before you can start using the app, you need to install the mobile app on your device. More information: [Install the Dynamics 365 Sales app](sales-mobile/install-mobile-app.md)
 

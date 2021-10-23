@@ -1,7 +1,7 @@
 ---
 title: "Use Sales Hub on Dynamics 365 for phones and tablets (Dynamics 365 Sales) | Microsoft Docs"
 description: "Use Sales Hub on Dynamics 365 phones and tablets"
-ms.date: 07/26/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,6 +19,8 @@ searchScope:
 ---
 # Use the Sales Hub app on Dynamics 365 for phones and tablets app 
 
+Access your Sales Hub data while you're on the go by using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device. The Sales Hub app works the same whether you're using it on your mobile device or on a web browser on your computer.
+
 ## Requirements
 |  | |
 |-----------------------|---------|
@@ -26,9 +28,7 @@ searchScope:
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-Access your Sales Hub data while you're on the go by using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device. The Sales Hub app works the same whether you're using it on your mobile device or on a web browser on your computer.
+## About the mobile app
 
 Before you can start using the app, you need to install the Dynamics 365 for mobile app on your device. 
 
