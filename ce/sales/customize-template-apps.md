@@ -1,7 +1,7 @@
 ---
 title: "Customize Power BI template apps for Sales - Sales Enterprise | MicrosoftDocs"
 description: "Use Power BI template apps to visualize and analyze the sales data. Extend Power BI reports to include custom fields."
-ms.date: 03/30/2020
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,16 +9,19 @@ manager: shujoshi
 ---
 # Customize Power BI template apps for Dynamics 365 Sales 
 
-## Requirements
+In this article, you'll learn how to use Power BI template apps to visualize and analyze the sales data.
+
+> [!IMPORTANT]
+> Microsoft doesn't support customizations made to the Power BI template app and doesn't provide updates after modifications are made
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-> [!IMPORTANT]
-> Microsoft doesn't support customizations made to the Power BI template app and doesn't provide updates after modifications are made.
+## Introduction
 
 Power BI is a comprehensive collection of services and tools that you use to visualize your business data. Power BI Template apps make it easy to visualize and analyze the sales data with Power BI based on a standard data model. The Sales Analytics for Dynamics 365 Sales and Process Analytics for Dynamics 365 Power BI template apps are built with a set of entities and fields that are useful for most reporting scenarios.
 
