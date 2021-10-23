@@ -25,17 +25,17 @@ search.app:
 
 Dynamics 365 Marketing is a marketing automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with Dynamics 365 Sales, and has built-in business intelligence. Use Dynamics 365 Marketing to:
 
-- **Respond to customer actions in real time**
+- **Respond to customer actions in real time**  
   Respond in the moments that matter with real-time, event-based journeys.
-- **Hyper-personalize your messaging**
+- **Hyper-personalize your messaging**  
   Personalize messages with dynamic text and images from a flexible set of data sources.
-- **Connect with customers on the channels they use the most**
+- **Connect with customers on the channels they use the most**  
   Leverage mobile channels to create text messages and push notifications to reach your customers where they are.
 - **Create graphical email messages and design interactive customer journeys to support marketing initiatives**  
   Create engaging emails, target the right audience, and automate dynamic customer journeys that are triggered by a specific date or segment membership.
 - **Tap into LinkedIn's business prospects**  
   Capture leads from LinkedIn, qualify your hottest leads with automated lead scoring, and manage your leads through a custom lead business process.
-- **Engage through social media**
+- **Engage through social media**  
   Leverage the power of social media by scheduling and posting messages to Facebook, Instagram, LinkedIn, and Twitter.
 
 ## Included with Dynamics 365 Marketing
