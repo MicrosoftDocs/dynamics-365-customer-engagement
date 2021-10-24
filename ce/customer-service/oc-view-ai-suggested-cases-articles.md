@@ -16,20 +16,20 @@ manager: shujoshi
 
 The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to you, helping you take actions during your interactions with customers.
 
-The AI-suggestions for similar cases and knowledge articles are powered by a set of pre-trained natural language understanding models that help you find relevant knowledge articles or similar cases quickly, based on the context of ongoing conversations that you are handling. Your administrator can enable AI-suggested similar cases and knowledge articles through a single click. These suggestions are displayed in real time based on the conversation context.
+The AI-suggestions for similar cases and knowledge articles are powered by a set of pre-trained natural language understanding models that help you find relevant knowledge articles or similar cases quickly, based on the context of ongoing conversations that you're handling. Your administrator can enable AI-suggested similar cases and knowledge articles through a single click. These suggestions are displayed in real time based on the conversation context.
 > [!div class=mx-imgBorder]
 > ![AI-based suggestions.](media/ai-based-suggestions-oc.png "AI-based suggestions")
 
-If the productivity pane has been enabled for you, then the smart assist cards appear on the productivity pane when you are interacting with a customer in an ongoing conversation. By default, the productivity pane is enabled out of the box.
+If the productivity pane has been enabled for you, then the smart assist cards appear on the productivity pane when you're interacting with a customer in an ongoing conversation. By default, the productivity pane is enabled out of the box.
 
 ## Understand the knowledge article components in smart assist
 
-When you are interacting with a customer in an ongoing conversation, up to three top knowledge articles that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
+When you're interacting with a customer in an ongoing conversation, up to three top knowledge articles that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
 
 > [!div class=mx-imgBorder]
 > ![AI-suggested knowledge articles.](media/ai-suggested-knowledge-articles.png "AI-suggested knowledge articles")
 
-The following table lists the explanation of the smart assist card for AI-suggested knowledge articles.
+The following table lists the components of the smart assist card for AI-suggested knowledge articles.
 
 | Label | Description |
 |--------|-------------|
@@ -42,33 +42,31 @@ The following table lists the explanation of the smart assist card for AI-sugges
 | 7 | Displays the confidence score based on which the knowledge article was selected by the AI model. Usually, the suggested knowledge articles are highly relevant to the context of conversations when the confidence score is above 80%; suggestions with lower confidence score may still be relevant based on the semantic meaning of some key words in the conversation. The minimum confidence score is 65%. |
 | 8 | The feedback from agents is used by the AI model to retrain and improve the suggestions over time. When agent selects **Yes**, the label is highlighted and the card remains on the pane. If agent selects **No**, the card is replaced with a new suggestion, if it exists. |
 | 9 |Displays information on the keywords that were used by the AI model to match the article.|
-|  |  |
 
 ### Understand knowledge article components in smart assist on the voice channel
 
-When you are on a call with the customer and want to share knowledge articles for the customer issue, you can select the **Copy URL** option on the **Smart assist** pane, whereby the article link gets copied to the clipboard. You can then email the URL to your customers.
+When you're on a call with a customer and want to share knowledge articles for the customer issue, you can select the **Copy URL** option on the **Smart assist** pane, whereby the article link gets copied to the clipboard. You can then email the URL to your customer.
 
 :::image type="content" source="media/sa-option-voice call.png" alt-text="Smart assist suggestions for voice channel":::
 
 ## Understand the similar cases components in smart assist
 
-When you are interacting with a customer in an ongoing conversation, up to three top similar cases that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
+When you're interacting with a customer in an ongoing conversation, up to three top similar cases that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
 
 > [!div class=mx-imgBorder]
 > ![AI-suggested similar cases.](media/ai-suggested-similar-cases.png "AI-suggested similar cases")
 
-The following table lists the explanation of the smart assist card for AI-suggested similar cases.
+The following table lists the components of the smart assist card for AI-suggested similar cases.
 
 | Label | Description |
 |--------|-------------|
 | 1 | Displays the title of the similar case. When selected, opens the customer summary form in an application tab.|
 | 2 | Summary of the case resolution that is generated by the AI model. |
 | 3 | The confidence score based on which the similar case was selected by the AI model. Usually, the suggested similar cases are highly relevant to the context of conversations when the confidence score is above 80%; suggestions with lower confidence score may still be relevant based on the semantic meaning of some key words in the conversation. The minimum confidence score is 65%. |
-| 4 |  Blue bar indicates that the user hasn't interacted with the card yet. |
+| 4 | A blue bar indicates that the user hasn't interacted with the card yet. |
 | 5 | When selected, links to the current active case or removes the link to the similar case. |
 | 6 | When selected, displays information on the keywords that were used by the AI model to match the article. |
 | 7 | Status of the similar case. |
-| | |
 
 If no cases match, then the card displays an appropriate message, such as "No suggestions found for similar cases."
 
