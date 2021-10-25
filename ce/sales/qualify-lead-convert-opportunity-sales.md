@@ -1,11 +1,11 @@
 ---
 title: "Qualify or convert leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
-ms.date: 02/10/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-lead
@@ -100,17 +100,12 @@ When salespeople work on a lead, they use notes to store key information on the 
 
  
 ## Typical next steps  
+
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit an opportunity](create-edit-opportunity-sales.md)  
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md) 
 
-## Why don't I see this in my app?
-
-There are two possibilities:
-
-- You do not have the necessary license or role to perform the steps.
-
-- Your organization maybe using a custom app and hence the sitemap and UI will be different. The steps described in this documentation are specific to the out-of-the-box Sales Hub app. Check with your administrator for the exact steps.
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also  
 [Define lead qualification experience](define-lead-qualification-experience.md)  

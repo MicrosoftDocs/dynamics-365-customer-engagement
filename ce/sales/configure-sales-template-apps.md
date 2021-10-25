@@ -21,7 +21,7 @@ In this article, you'll learn how to configure Power BI template apps to work wi
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-## How to configure Power BI template apps for Sales
+## Configure Power BI template apps for Sales
 
 You must perform the following steps to configure Sales Analytics for Dynamics 365 Sales or Process Analytics for Dynamics 365:
 

@@ -29,7 +29,7 @@ You can create categories to classify playbooks. For example, categories could b
 |||
 
 
-## How to create playbook categories
+## Create playbook categories
 
 1.  In the site map, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**. 
 
@@ -38,6 +38,8 @@ You can create categories to classify playbooks. For example, categories could b
 4.  On the command bar, select **New**.
 
 5.  Enter the name, and select **Save**.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  

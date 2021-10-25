@@ -19,7 +19,7 @@ The Dynamics 365 Sales mobile app uses the quick view form to display table deta
 |||
 
 
-## How does quick view form work for the mobile app
+## How does quick view form work for the mobile app?
 
 If you've created multiple quick view forms, the mobile app uses the first form in the quick view form order. In the following example, three quick view forms were created for the **Contacts** table with the form order as shown.
 

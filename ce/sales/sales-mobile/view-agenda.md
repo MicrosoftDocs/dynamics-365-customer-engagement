@@ -7,7 +7,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-# View meetings 
+# View meetings in the mobile app
 
 The information on the home page of the Dynamics 365 Sales mobile app can help you better plan your day. For example, the Meetings section displays your most recent meeting and the next upcoming meeting. To see more meetings for the day, tap **Meetings** either on the home page or on the navigation bar. Meetings that have been scheduled in Microsoft Outlook are displayed.  
   
@@ -22,7 +22,7 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
  
-## How to view meetings
+## View meetings
 
 1.  On the navigation bar, tap **Meetings**. The calendar view opens.
     
