@@ -82,13 +82,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
 
-## Can't find the options in your app?
-
-There are two possibilities:
-
-- You do not have the necessary [license or role](#license-and-role-requirements) to perform the steps.
-
-- Your organization maybe using a custom app and hence the sitemap and UI will be different. The steps described in this documentation are specific to the out-of-the-box Sales Hub app. Ask your administrator for the exact steps, if you're using a custom app.
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
   
 ### See also  

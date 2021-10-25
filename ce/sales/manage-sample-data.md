@@ -16,14 +16,15 @@ manager: shujoshi
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-Sample data helps you visualize a product and its features, by enabling you to understand end-to-end business scenarios and get started with Sales Insights. You can add the sample data during or after the configuration of the sales accelerator. Also, you can remove the sample data from your organization when you don't need it. 
+Sample data helps you visualize a product and its features, by enabling you to understand end-to-end business scenarios and get started with Sales Insights. You can add the sample data during or after the configuration of the sales accelerator. Also, you can remove the sample data from your organization when you don't need it.  
 
 >[!NOTE]
->To prevent unwanted results, sample data is available only for non-production environments. 
+>To prevent unwanted results, sample data is available only for non-production environments.  
 
 ## Add sample data
 
-You can add sample data any time you need, during or after the configuration of the sales accelerator.    
+You can add sample data any time you need, during or after the configuration of the sales accelerator.  
+
 >[!NOTE]
 >- The sample data adds basic Dynamics 365 Sales and Sales Premium record types. More information: [Reference](#reference)     
 >- You must have a production or trial license of Sales Insights or Sales Premium to use the sample data.
