@@ -4,7 +4,7 @@ description: "Use this topic to understand how you can configure hold and wait m
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -26,7 +26,7 @@ You can update existing music files and replace them with your own music files.
 1. In Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
 
 2. In the **Customer experience** area, select **Phone music (preview)**, and then select **Manage**.
-   You'll see a list of out-of-the box music files.
+   You'll see a list of out-of-the-box music files.
 
 3. Select any music file from the list and select **Edit**.
 

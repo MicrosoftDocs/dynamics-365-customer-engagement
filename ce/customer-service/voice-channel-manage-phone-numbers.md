@@ -4,11 +4,17 @@ description: "Use this topic to understand how you can manage phone numbers in O
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
+<!--  
+i.	Number management[Neeraja]  i) Connecting to ACS ii) acquire, release, update numbers, Kos wants more screenshots iii) Bring your own number; see the notes for point 3 a
+ii.	Connect to existing ACS resource (existing today, but needs a lot more details)[Neeraja] Jaya received a demo from Debashish. Video effort post GA; Kos and Jaya to have a follow up about it. 
+i.	Number management[Neeraja]  i) Connecting to ACS ii) acquire, release, update numbers, Kos wants more screenshots iii) Bring your own number; see the notes for point 3 a
+ii.	Connect to existing ACS resource (existing today, but needs a lot more details)[Neeraja] Jaya received a demo from Debashish. Video effort post GA; Kos and Jaya to have a follow up about it. 
 
+-->
 # Manage phone numbers
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
@@ -101,28 +107,6 @@ After you've acquired a phone number, you must add it to a workstream to be able
    The workstream is added to the phone number and you can view the **Connected** status for phone number on the **Phone numbers** page.
 
 <a name="use-existing-resource"></a>
-
-### Use existing resource
-
-If you already have an Azure Communication Services resource that you'd like to use to connect with voice or SMS channels, you can use the **Use existing resource** option to connect to Azure Communication Services. Also, if you had previously unlinked a resource and wish to use it now, you can do so using this option. You can use an existing resource from any of your Azure subscriptions, available under *any* tenant.
-
-Before you proceed with adding an existing resource to Azure Communication Services, do the following:
-
-1. Open your existing resource from the Azure portal in a new window or tab.
-2. Select **Settings** > **Properties**, and get ready to copy the resource values (using the Copy to clipboard button) from this resource to Omnichannel admin center.
-
-**To use an existing resource**
-
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**.
-
-   The **Connect to Azure Communication Services** dialog opens.
-
-2. Select **Use existing resource** and enter the following details:
-   - ACS Resource Name: Copy the name from your existing resource here.
-   - ACS Resource ID
-   - Connection String
-   - Event grip app ID
-   - Event grip app tenant ID
 
 
 ## Edit phone number
