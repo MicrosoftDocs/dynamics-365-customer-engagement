@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 10/08/2021
+ms.date: 10/22/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -95,6 +95,9 @@ To prepare your target environment, do the following _before_ starting the copy:
 
 1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](/powerapps/maker/portals/admin/reset-portal). This is important because it will free your portal license to be used elsewhere.
 1. After the reset, the portal will still be shown as "configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
+1. **[Optional]** To free up your DNS zones, remove all DNS records that were created during [domain authentication](mkt-settings-authenticate-domains.md). If you do not remove DNS records during this step, there will be no way to determine which records were used after the environment is copied.
+> [!WARNING]
+> Do not remove DNS records for domains that are used in other orgs.
 
 ### Step 3: Copy the environment
 

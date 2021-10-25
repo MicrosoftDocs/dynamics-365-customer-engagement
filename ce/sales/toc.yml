@@ -282,7 +282,7 @@
         items:
         - name: Configure sales accelerator
           href: enable-configure-sales-accelerator.md
-        - name: Configure sales accelerator for assignment rules
+        - name: Configure assignment rules in Sales Enterprise
           href: sales-accelerator-assignment-rules.md  
         - name: Configure settings to customize sales accelerator    
           href: customize-sales-accelerator-sellers.md
