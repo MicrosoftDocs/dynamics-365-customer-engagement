@@ -20,7 +20,8 @@ The Voice minutes report lets Omnichannel administrators view a Power BI report 
 
 ## Prerequisites
 
-The voice channel should be configured and in use for the report to display data.
+- The voice channel should be configured and in use for the report to display data.
+- The Omnichannel administrator role for accessing the report.
 
 ## View the Voice minutes report
 
