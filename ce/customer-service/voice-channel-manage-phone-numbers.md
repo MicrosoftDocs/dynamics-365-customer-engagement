@@ -1,6 +1,6 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
-description: "Use this topic to understand how you can manage phone numbers in Omnichannel for Customer Service."
+description: "Use this topic to understand how you can acquire new phone numbers, and also edit and release existing phone numbers in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -30,7 +30,7 @@ The voice channel includes a trial phone number that comes with 60 minutes of fr
 - A valid Azure subscription that's in the same tenant as your Dynamics 365 account.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal.
 
-## Create a new phone number
+## Acquire a new phone number
 
 To add new phone numbers to your business, you must do the following:
 
@@ -148,8 +148,7 @@ If you no longer need a phone number, you can release it from your number list. 
 
 *You cannot remove feature once granted to a phone number, but you can upgrade phone number features.*
 
-## Additional notes
-
+[!Note]
 You can use only one ACS resource for number management.
 
 ### See also
