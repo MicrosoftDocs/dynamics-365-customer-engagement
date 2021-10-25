@@ -1,10 +1,10 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 10/08/2021
+ms.date: 10/25/2021
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -475,17 +475,17 @@ Managing your article versions means publishing and archiving different versions
   
      Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
   
-## Translate a knowledge article in multiple languages  
+## Select a language for your knowledge article translation
 
-Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in Dynamics 365 Customer Service helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
+Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Dynamics 365 Customer Service helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages, without having to manage multiple copies of the same article.  
   
-1. Open the article you want to translate, and on the command bar, select **Translate**.  
+1. Open the article you want to translate, and from the command bar, select **Translate**.  
   
-2. In the **Create new translation** dialog box, in the **Pick a language** drop-down list, choose the language you want.  
+2. On the **Create new translation** dialog, do the following:
+   * From the **Pick a language** dropdown, search and select the language you want.  
+   * In the **Create new version** field, select either **Major** or **Minor** version for your translation.  
   
-3. In the **Create new version** field, choose whether to create a new major or minor version for your translation.  
-  
-    You can translate articles into any language that’s supported by the Customer Service Hub.  
+     You can set languages that are supported by your Dynamics 365 instance.
   
 4. Select **Create**.  
   
@@ -499,7 +499,7 @@ Your knowledge content needs to reach all of your customers, no matter what mark
   
    -   Content  
   
-6. When you are finished reviewing and are ready to publish, select **More** > **Publish**. Choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article)
+6. When you are done reviewing and your article is ready for publish, select **More** > **Publish**. Select how and when you want to publish your new version. You can publish your new version immediately, schedule the publish for a future date, or leave it as a draft to publish it manually at a later point in time. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article)
   
 ### Manage article translations  
 
