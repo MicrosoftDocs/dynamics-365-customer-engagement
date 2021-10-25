@@ -1,11 +1,11 @@
 ---
 title: "Create a quick campaign using in-app marketing - Sales Enterprise | MicrosoftDocs"
 description: "A quick campaign is a single campaign activity meant for a specific audience. For example, sending an e-mail blast to customers in a specific region."
-ms.date: 10/01/2019
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -18,22 +18,24 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+
 # Create a quick campaign using in-app marketing (Sales) 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 
 Send an e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product by using a quick campaign in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. A quick campaign is a single campaign activity geared toward a targeted audience. Track the success of your quick campaign through campaign responses, and convert the positive responses into new leads, quotes, orders, or opportunities.  
   
  ![Quick campaign wizard.](media/quick-campaign-wizard.png "Quick campaign wizard")  
   
- If you need to perform more than one activity for your campaign, such as an email blast and a mailing, create a new campaign instead. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)  
+ If you need to perform more than one activity for your campaign, such as an email blast and a mailing, create a new campaign instead. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)
+
+ ## License and role requirements
+
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||  
+
+## Create a quick campaign
   
 1. [!INCLUDE[proc_marketing_marketing_lists](../includes/proc-marketing-marketing-lists.md)]  
   
@@ -54,7 +56,8 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
    > [!NOTE]
    >  You can't add records to a quick campaign after you create it.  
  
-  
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
  [Get started with in-app marketing](get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
