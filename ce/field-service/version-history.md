@@ -28,13 +28,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |<strong>Station 1</strong> | | |  | |
 | | <i>First Release</i> | [8.8.53.27](/dynamics365/field-service/version-history#885327) | TBD | 10/29/2021
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> |[8.8.52.121](/dynamics365/field-service/version-history#8852121) | [8.8.53.27](/dynamics365/field-service/version-history#885327) | 10/22/2021
-| | <i>Canada</i> | [8.8.52.121](/dynamics365/field-service/version-history#8852121) | [8.8.53.27](/dynamics365/field-service/version-history#885327) | 10/22/2021
-| | <i>India</i> |[8.8.52.121](/dynamics365/field-service/version-history#8852121) | [8.8.53.27](/dynamics365/field-service/version-history#885327) | 10/22/2021
-| | <i>France</i> |[8.8.52.121](/dynamics365/field-service/version-history#8852121) | [8.8.53.27](/dynamics365/field-service/version-history#885327) | 10/22/2021
-| | <i>South Africa</i> | [8.8.52.121](/dynamics365/field-service/version-history#8852121) | [8.8.53.27](/dynamics365/field-service/version-history#885327) | 10/22/2021
-| | <i>Germany</i> | [8.8.52.121](/dynamics365/field-service/version-history#8852121) | [8.8.53.27](/dynamics365/field-service/version-history#885327) | 10/22/2021
-| | <i>Switzerland</i> | [8.8.52.121](/dynamics365/field-service/version-history#8852121) | [8.8.53.27](/dynamics365/field-service/version-history#885327) | 10/22/2021
+| | <i>South America</i> | [8.8.53.27](/dynamics365/field-service/version-history#885327) | TBD | 11/05/2021
+| | <i>Canada</i> | [8.8.53.27](/dynamics365/field-service/version-history#885327) | TBD | 11/05/2021
+| | <i>India</i> | [8.8.53.27](/dynamics365/field-service/version-history#885327) | TBD | 11/05/2021
+| | <i>France</i> | [8.8.53.27](/dynamics365/field-service/version-history#885327) | TBD | 11/05/2021
+| | <i>South Africa</i> | [8.8.53.27](/dynamics365/field-service/version-history#885327) | TBD | 11/05/2021
+| | <i>Germany</i> | [8.8.53.27](/dynamics365/field-service/version-history#885327) | TBD | 11/05/2021
+| | <i>Switzerland</i> | [8.8.53.27](/dynamics365/field-service/version-history#885327) | TBD | 11/05/2021
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> |  [8.8.52.123](/dynamics365/field-service/version-history#8852123) | [8.8.53.27](/dynamics365/field-service/version-history#885327) | 10/29/2021
 | | <i>Asia Pacific</i> |   [8.8.52.123](/dynamics365/field-service/version-history#8852123) | [8.8.53.27](/dynamics365/field-service/version-history#885327) | 10/29/2021
@@ -44,17 +44,23 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> |[8.8.52.125](/dynamics365/field-service/version-history#8852125)|  [8.8.53.27](/dynamics365/field-service/version-history#885327) | 11/05/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> |  [8.8.50.13](/dynamics365/field-service/version-history#885013)  | [8.8.52.125](/dynamics365/field-service/version-history#8852125) | 10/22/2021
+| | <i>North America</i> |  [8.8.52.127](/dynamics365/field-service/version-history#8852127)  | [8.8.53.27](/dynamics365/field-service/version-history#885327) | 11/12/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |   [8.8.50.13](/dynamics365/field-service/version-history#885013)  | [8.8.52.125](/dynamics365/field-service/version-history#8852125)  | 10/29/2021
-| | <i>China</i> |  [8.8.50.13](/dynamics365/field-service/version-history#885013)  | [8.8.52.125](/dynamics365/field-service/version-history#8852125) | 10/29/2021
-| | <i>Dedicated Scale Groups</i> |  [8.8.49.21](/dynamics365/field-service/version-history#884921)  |[8.8.50.13](/dynamics365/field-service/version-history#885013) |  10/22/2021
+| | <i>Government Community Cloud</i> |   [8.8.50.13](/dynamics365/field-service/version-history#885013)  | [8.8.52.127](/dynamics365/field-service/version-history#8852127)  | 10/29/2021
+| | <i>China</i> |  [8.8.50.13](/dynamics365/field-service/version-history#885013)  | [8.8.52.127](/dynamics365/field-service/version-history#8852127) | 10/29/2021
+| | <i>Dedicated Scale Groups</i> |   [8.8.50.13](/dynamics365/field-service/version-history#885013)  | [8.8.52.127](/dynamics365/field-service/version-history#8852127) | 10/29/2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 ## 8.8.53.27
+
+## 8.8.52.127
+
+This release is a hotfix on Field Service version [8.8.52.125](/dynamics365/field-service/version-history#8852125).
+
+(Includes Universal Resource Scheduling version [3.12.64.78](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126478)).
 
 ## 8.8.52.125
 
