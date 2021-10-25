@@ -64,7 +64,7 @@ Marketing automation tools on the market are typically classified into two categ
 ### Outbound marketing
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the outbound marketing email editor.](media/overview-email-editor.png "Screenshot of the outbound marketing email editor")
+> ![Screenshot of the outbound marketing email editor.](media/overview-email-editor2.png "Screenshot of the outbound marketing email editor")
 
 Outbound marketing thrives in the B2B marketing automation. You can send emails and newsletters, create forms and landing pages to capture leads which you can score and grade, then hand off to sales. It also has a great feature for managing in-person events and webinars that includes seamless integration with Microsoft Teams. Out of the box, outbound marketing provides email and social channel capabilities, but you can also build you own custom channels. [Learn more about outbound marketing](user-guide.md).
 
