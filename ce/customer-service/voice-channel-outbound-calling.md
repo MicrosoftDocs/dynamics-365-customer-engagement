@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 
 This section describes how you as an IT administrator can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers via the Omnichannel Agent Dashboard in Omnichannel for Customer Service.
 
-If you do not have any phone numbers provisioned for your business, then see [Create a new phone number](voice-channel-manage-phone-numbers.md#create-a-new-phone-number) to learn how you can acquire new phone numbers.
+If you do not have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-a-new-phone-number) to learn how you can acquire new phone numbers.
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ To check for phone numbers configured for outbound calling, go to **General sett
 The phone number will now be displayed to your customers when your agents call them.
 
 >[!NOTE]
-> Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and report outbound-specific traffic and sentiment.
+> Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and gauge traffic and customer sentiment, specific to outbound calls.
 
 ## Manage capacity profiles and assign users
 
@@ -77,19 +77,19 @@ In private preview, only *one* outbound profile can be created. While you can ed
 
 2. Select **Manage**, next to **Outbound profiles**.
 
-3. If there are no available profiles, select **Create a profile**, else select **Add profile**.
+3. If there are no available profiles, select **Create a profile** to create a new one, else select **Add profile**.
 
 4. In the **Create outbound profile** dialog, enter the following details:
    a. In the **Basic info** section, add the following details:
      - **Profile name**: Enter a profile name.
      - **Phone number**: Select a phone number from the dropdown list. Note that the list only shows those numbers enabled for outbound calling. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-a-phone-number-for-outbound-calling).
-     - **Queue**: Select a queue from the dropdown list. Note that the list shows only voice type queues. If you don't see any queues in the list, you'll need to [create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels).
+     - **Queue**: Select a queue from the dropdown list. The list shows only voice type queues, so if you don't see any queues in the list, you'll need to [create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels).
      - **Capacity**: Select one or more capacity profiles from the dropdown list.
      - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
      - **Wait music**: Select a music file that you want played when the customer is waiting to get into a call.
      - **Transcription and recording**: Select **None**, **Transcription only**, or **Transcription and recording**, based on your business scenarios and requirements. As an administrator, you may want to set the value to **None** for business transactions like customer billing where you don't want to record financial data.
      - **Start setting**: Indicates whether you want to start transcription and/or recording when the call begins. The default value is **Automatic**, which means transcription and recording will automatically begin at the start of the conversation.
-     - **Allow agents to pause and resume**: Indicates whether you want to allow your agents to pause and resume call transcription and recording. The default value is **Yes** which means your agents can choose when to pause and resume call transcription and recording in the conversation panel.
+     - **Allow agents to pause and resume**: Indicates whether you want to allow your agents to pause and resume call transcription and recording. The default value is **Yes** which means that your agents can choose when to pause or resume call transcription and recording in the conversation panel.
 
 5. Select **Save and close**.
 
@@ -99,31 +99,29 @@ In private preview, only *one* outbound profile can be created. While you can ed
 
 2. Select **Manage**, next to **Outbound profiles**. The list of outbound profiles is displayed.
 
-3. Select a profile from the list and select **Edit**. In the **Edit outbound profile** dialog, update details in the **Basic info**, **Behaviors**, and **Advanced settings** sections. 
+3. Select a profile from the list and select **Edit**. In the **Edit outbound profile** dialog, update details in the **Basic info**, **Behaviors**, and **Advanced settings** sections.
    
    For information on session and notification templates, see [Manage session templates](../app-profile-manager/session-templates.md) and [Manage notification settings and templates](../app-profile-manager/notification-templates.md).
 
 4. Select **Save and close**.
 
-
 ## Assign personal phone numbers to agents
 
-You can assign personal phone numbers to agents to make outbound calls to customers. 
+You can assign personal phone numbers to agents to make outbound calls to customers.
 
 **To assign a phone number to an agent for outbound calling**
 
 1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
-  
-   The list of all available phone numbers for your business is displayed.
 
-2. Select a phone number and select **Edit number**.
+2. Select **Setup** under **Ready for setup**, and in the dialog that appears, select **Assign to user**.
 
-3. In the **Edit number** dialog, in the **Calling plans** area, select the **Make calls** option, and then select **Upgrade**.
-   Your phone number is now upgraded for outbound calling.
+3. Select an agent and then select **Enable**.
 
 
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[Bring your own number: Azure Direct Routing](voice-channel-bring-your-own-channel.md)  
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

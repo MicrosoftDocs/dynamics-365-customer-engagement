@@ -11,8 +11,8 @@ ms.service: dynamics-365-customerservice
 <!--  
 i.	Number management[Neeraja]  i) Connecting to ACS ii) acquire, release, update numbers, Kos wants more screenshots iii) Bring your own number; see the notes for point 3 a
 ii.	Connect to existing ACS resource (existing today, but needs a lot more details)[Neeraja] Jaya received a demo from Debashish. Video effort post GA; Kos and Jaya to have a follow up about it. 
-i.	Number management[Neeraja]  i) Connecting to ACS ii) acquire, release, update numbers, Kos wants more screenshots iii) Bring your own number; see the notes for point 3 a
-ii.	Connect to existing ACS resource (existing today, but needs a lot more details)[Neeraja] Jaya received a demo from Debashish. Video effort post GA; Kos and Jaya to have a follow up about it. 
+
+a.	Bring your own number via Azure direct routing[Neeraja]  Delta from private preview refresh; link to ACS docs and add a couple of steps with screenshots. This is part of number management. 
 
 -->
 # Manage phone numbers
@@ -155,5 +155,8 @@ When you release a phone number, you actually delete it from Dynamics 365, so re
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[Use existing resource](voice-channel-use-existing-resource.md)  
+[Outbound calling](voice-channel-outbound-calling.md)  
+[Bring your own number: Azure Direct Routing](voice-channel-bring-your-own-channel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
