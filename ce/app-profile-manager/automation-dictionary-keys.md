@@ -141,7 +141,7 @@ The `${Slug}` parameter format that retrieves the context from the channel provi
 
 **Productivity automation context**
 
-When you want to execute a slug in the productivity automation context, which is used to perform operations related to model-driven apps in Dynamics 365, use the ${<slug>} format.
+When you want to execute a slug in the productivity automation context, which is used to perform operations related to model-driven apps in Dynamics 365, use the ${</slug/>} format.
 
    For example: `${customerName}`
 
