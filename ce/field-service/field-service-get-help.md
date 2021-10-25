@@ -48,8 +48,13 @@ Select **+New support request** in the top left.
 > ![Screenshot of ](./media/get-help-new-ticket.png)
 
 
-### Enter details and submit support request
+### Enter details and submit
 
+Enter relevant details about your support request.
+
+For _What product were you using when the issue occurred?_ select **Dynamics 365 Customer Engagement**
+
+For _Problem type_ select **Field Service app**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/get-help-submit-ticket.png)
