@@ -1,6 +1,6 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
-description: "Use this topic to understand how you can acquire new phone numbers, and also edit and release existing phone numbers in Omnichannel for Customer Service."
+description: "Use this topic to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -21,41 +21,18 @@ a.	Bring your own number via Azure direct routing[Neeraja]  Delta from private p
 
 Omnichannel for Customer Service helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics 365. As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
 
-## Use phone number included with the voice channel
+## Use trial phone number 
 
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. However, when the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
 
-## Prerequisites
-
-- A valid Azure subscription that's in the same tenant as your Dynamics 365 account.
-- At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal.
-
 ## Acquire a new phone number
 
-To add new phone numbers to your business, you must do the following:
-
-- Create a resource or use an existing one to connect to Azure Communication Services. You can also use a resource that you previously disconnected or unlinked from Azure Communication Services, and reuse it now.
-- Deploy the resource through Dynamics 365.
-- Add a new phone number.
+To be able to acquire new phone numbers for your business, you must first [connect to Azure Communication Services using a new or existing Azure resource](voice-channel-create-new-use-existing-resource), and then deploy the resource through Dynamics 365.
 
 **To add a new phone number**
 
 1. In Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**.
-   
-   The **Connect to Azure Communication Services** dialog opens.
-
-2. Select **Create new resource** or **Use existing resource**.
-
-   a. If you selected the option to create a new resource, enter the following details:
-   - Azure subscription: 
-   - Azure resource group:
-      > [!NOTE]
-      > The resource group name should be unique within a given subscription.
-   - Resource name: 
-   
-   b. If you'd like to use an existing resource, see [Use existing resource](#use-existing-resource) to connect to Azure Communication Services.
-
-3. Select **Deploy** to deploy the resource through Dynamics 365 and then select **Add number**.
+**Add number**.
  
    The **Add phone number** dialog opens.
 
