@@ -110,9 +110,7 @@ To upload the Excel template into Dynamics 365:
     > [!div class="mx-imgBorder"]
     > ![Upload Template dialog.](media/excel-upload-template2.png "Upload Template dialog")
 
-1. Select **Upload**.
-
-1. You'll see the summary of the file you're uploading.
+1. Select **Upload**. You'll see the summary of the file you're uploading.
 
 1. Select the **X** icon in the upper right of the top ribbon to close the information screen.
 
