@@ -1,7 +1,7 @@
 ---
 title: "Configure Knowledge search insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
 description: "Learn how to configure Knowledge search insights in Customer Service Hub and Customer Service workspace"
-ms.date: 10/12/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -43,7 +43,7 @@ You can see the reports by navigating to the **Service** > **Insights** > **Know
 
 ### Provide report access to additional security roles
 
-If your organization needs to enable users with different privileges to access the reports beyond the default ones, you can perform the following steps to share the reports to the additional roles.
+If your organization needs to enable users with different privileges to access reports in addition to the default ones, perform the following steps.
 
 1. In Dynamics 365, select **Settings**, and then select **Advanced Settings**.
 
