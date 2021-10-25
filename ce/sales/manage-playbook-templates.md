@@ -120,6 +120,8 @@ To publish a playbook:
 > [!IMPORTANT]
 > If you want to make changes to a published playbook template, on the command bar, select **Revise**.
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also
 [Associate documents with playbook activities](associate-documents-playbook-activities.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  

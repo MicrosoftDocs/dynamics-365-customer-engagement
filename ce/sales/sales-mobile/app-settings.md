@@ -25,7 +25,7 @@ The settings are divided into the following categories:
 |||
 
 
-## How to open the Settings panel
+## Open the Settings panel
 
 1. Tap your profile picture at the upper left of the screen.
 

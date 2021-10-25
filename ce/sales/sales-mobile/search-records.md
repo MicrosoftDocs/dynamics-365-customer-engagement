@@ -7,9 +7,9 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-# Search records 
+# Search records in the mobile app
 
-You can search for records in the Dynamics 365 Sales mobile app. 
+You can search for records such as contacts, accounts, leads, notes, and opportunities in the Dynamics 365 Sales mobile app.
 
 ## License and role requirements
 |  | |
@@ -18,7 +18,7 @@ You can search for records in the Dynamics 365 Sales mobile app.
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
 
-## How to search records
+## Search records
 
 On the navigation bar at the bottom of the screen, tap **Search** and enter text in the search box to find related information quickly. When you start typing, suggested records are displayed that include the text. Enter the complete words for better results.
 

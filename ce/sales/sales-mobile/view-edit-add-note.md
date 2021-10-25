@@ -23,7 +23,7 @@ You can see the notes associated with a record in the **Notes** section of the r
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
 
-## What actions can performed
+## What actions can performed?
 
 You can perform the following actions in the **Notes** section.
 
