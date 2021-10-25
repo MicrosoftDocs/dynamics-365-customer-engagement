@@ -144,7 +144,7 @@
       "ms.prod": {
         "legal/**/*.md": "dynamics-365",
 	"customerengagement/**/*.md": "d365ce-op"
-	    }
+	    },
       "ms.subservice": {
         "customer-service/channel-integration-framework/**/*.md": "channel-integration-framework",
         "unified-service-desk/**/*.md": "unified-service-desk"
