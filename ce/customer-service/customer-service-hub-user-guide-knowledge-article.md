@@ -3,8 +3,8 @@ title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 C
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
 ms.date: 10/25/2021
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -477,7 +477,7 @@ Managing your article versions means publishing and archiving different versions
   
 ## Select a language for your knowledge article translation
 
-Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Dynamics 365 Customer Service helps you set the translation language for your articles, enabling you to provide the same self-help content in multiple languages, without having to manage multiple copies of the same article.  
+Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Dynamics 365 Customer Service helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages, without having to manage multiple copies of the same article.  
   
 1. Open the article you want to translate, and from the command bar, select **Translate**.  
   
