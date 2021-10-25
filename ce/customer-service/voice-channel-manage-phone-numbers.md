@@ -19,7 +19,7 @@ ii.	Connect to existing ACS resource (existing today, but needs a lot more detai
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics 365. As an administrator, you can purchase phone numbers and call plans, decide whether you want to avail call and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
+Omnichannel for Customer Service helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics 365. As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
 
 ## Use phone number included with the voice channel
 
@@ -40,7 +40,7 @@ To add new phone numbers to your business, you must do the following:
 
 **To add a new phone number**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers (preview)**, and then select **Get started**.
+1. In Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**.
    
    The **Connect to Azure Communication Services** dialog opens.
 
@@ -86,6 +86,10 @@ To add new phone numbers to your business, you must do the following:
 
 6. Select **Setup Workstream** to [add the phone number to a workstream](#add-a-phone-number-to-a-workstream) or select **Done** to go back to the **Phone numbers** page where you can view details of the phone number you just purchased.
 
+After you've acquired a phone number, you can do the following:
+- [Connect it to a voice workstream](#add-a-phone-number-to-a-workstream)
+- [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling) - [Assign it as a personal number to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+
 ## Add a phone number to a workstream
 
 After you've acquired a phone number, you must add it to a workstream to be able to use it. You can associate a phone number with only one workstream.
@@ -106,15 +110,12 @@ After you've acquired a phone number, you must add it to a workstream to be able
 
    The workstream is added to the phone number and you can view the **Connected** status for phone number on the **Phone numbers** page.
 
-<a name="use-existing-resource"></a>
-
-
 ## Edit phone number
 
-If you want to change the calling plan or upgrade the call or SMS plans on a particular number, you can do so by editing the phone number.
+If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number.
 
 > [!Important]
-> You cannot upgrade a phone number or change your calling or SMS plans after it is connected to a workstream. 
+> You cannot upgrade a phone number or change your call or SMS plans, after it is connected to a workstream.
 
 **To edit a phone number**
 
@@ -124,13 +125,16 @@ If you want to change the calling plan or upgrade the call or SMS plans on a par
 2. Select a phone number and select **Edit number**.
    The **Edit number** dialog with the current plan type, calling plan, and SMS plan is displayed.
 
-3. Make the changes to your calling or SMS plans, and select **Upgrade**.
+3. Make the changes to your call or SMS plans, and select **Upgrade**.
 
 *You cannot remove feature once granted to a phone number, but you can upgrade phone number features.*
 
 ## Release phone number
 
-If you no longer need a phone number, you can release it from your number list. When you release a number, you actually delete it from Dynamics 365, so release a number only if you're sure you don't need it at all.
+If you no longer need a phone number, you can release it from your organization's phone number list. 
+
+[!Important]
+When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure you don't need it at all.
 
 **To release a phone number**
 
@@ -146,10 +150,7 @@ If you no longer need a phone number, you can release it from your number list. 
 
    The **Phone numbers (preview)** page displays the phone number status as **Pending release**.
 
-*You cannot remove feature once granted to a phone number, but you can upgrade phone number features.*
 
-[!Note]
-You can use only one ACS resource for number management.
 
 ### See also
 

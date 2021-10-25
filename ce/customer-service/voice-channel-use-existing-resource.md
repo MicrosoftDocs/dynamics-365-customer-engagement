@@ -1,6 +1,6 @@
 ---
-title: "Manage phone numbers | MicrosoftDocs"
-description: "Use this topic to understand how you can acquire new phone numbers, and also edit and release existing phone numbers in Omnichannel for Customer Service."
+title: "Use existing Azure Communication Service resources | MicrosoftDocs"
+description: "Use this topic to understand how you can use existing Azure Communication Services resources  new phone numbers, and also edit and release existing phone numbers in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -39,7 +39,7 @@ To add new phone numbers to your business, you must do the following:
 - Add a new phone number.
 
 [!Note]
-You can use only one ACS resource for number management.
+You can use only one Azure Communications resource to add, edit, or release phone numbers.
 
 ### Use existing resource
 
