@@ -1,11 +1,11 @@
 ---
 title: "Define playbook categories - Sales Enterprise | MicrosoftDocs"
 description: "Create playbook categories to classify playbooks based on the audience, objective, or any other criteria."
-ms.date: 10/01/2019
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -19,7 +19,9 @@ searchScope:
 ---
 # Define playbook categories 
 
-## Requirements
+You can create categories to classify playbooks. For example, categories could be contract renewals or decision maker departures.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -27,7 +29,7 @@ searchScope:
 |||
 
 
-You can create categories to classify playbooks. For example, categories could be contract renewals or decision maker departures.
+## How to create playbook categories
 
 1.  In the site map, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**. 
 
