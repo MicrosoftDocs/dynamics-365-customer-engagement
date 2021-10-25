@@ -1,7 +1,7 @@
 ---
 title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
-ms.date: 10/22/2021
+ms.date: 10/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -42,12 +42,12 @@ Dynamics 365 Marketing is a marketing automation application that helps turn pro
 
 Dynamics 365 Marketing includes a bundle of apps and solutions carefully selected to support marketing departments and coordinate with sales. Some of these apps and solutions are also available as bundles or add-ons with other Dynamics 365 products, while others are only available as part of the Marketing package. The following are included:
 
-- **Real-time marketing**
-  Also known as customer journey orchestration, real-time marketing
+- **Real-time marketing**  
+  Also known as customer journey orchestration, real-time marketing includes [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom event triggers](real-time-marketing-custom-events.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md), allowing users to trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
 - **Outbound marketing**  
-  Provides email marketing, customer journeys, behavior tracking, lead scoring, marketing pages, and more. These features form the core of the Marketing app and are unique to Dynamics 365 Marketing.
+  Provides [email marketing](prepare-marketing-emails.md), [customer journeys](customer-journeys-create-automated-campaigns.md), [lead scoring](set-up-lead-scoring.md), [marketing pages](create-deploy-marketing-pages.md), and more. These features form the core of the Marketing app and are unique to Dynamics 365 Marketing.
 - **Event planning**  
-  Organize and promote in-person or webinar events, which include an online portal that attendees can use to review the event schedule and speakers, and to register for the event. This feature is currently available only with Dynamics 365 Marketing.
+  Organize and promote in-person or webinar events (hosted on Microsoft Teams or other webinar providers), which include an online portal that attendees can use to review the event schedule and speakers, and to register for the event. This feature is currently available only with Dynamics 365 Marketing.
 - **Dynamics 365 Customer Voice**  
   Create online surveys and analyze the results. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
     > [!NOTE]
