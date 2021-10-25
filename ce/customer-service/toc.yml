@@ -60,7 +60,7 @@
       items: 
       - name: Provision Omnichannel for Customer Service
         href: omnichannel-provision-license.md
-      - name: Export and import Omnichannel for Customer Service
+      - name: Export and import app configuration data
         href: export-import-omnichannel-data.md
       - name: Uninstall Omnichannel for Customer Service
         href: remove-omnichannel.md
@@ -157,9 +157,9 @@
             - name: close
               href: ../app-profile-manager/reference/microsoft-apm/close.md
             - name: focus
-              href: ../app-profile-manager/reference/microsoft-apm/focus.md         
+              href: ../app-profile-manager/reference/microsoft-apm/focus.md
             - name: requestFocus
-              href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md      
+              href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md
           - name: Properties
             items:                           
             - name: sessionID
@@ -169,13 +169,13 @@
             - name: canClose
               href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
             - name: title
-              href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md                      
+              href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md
         - name: Tab management
           items:
           - name: Methods              
             items: 
             - name: getFocusedTab
-              href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md        
+              href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md
             - name: getAllTabs
               href: ../app-profile-manager/reference/microsoft-apm/getAllTabs.md
             - name: getTab
@@ -183,14 +183,14 @@
             - name: createTab
               href: ../app-profile-manager/reference/microsoft-apm/createTab.md
             - name: canCreateTab
-              href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md                    
+              href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md
             - name: closeTab
               href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
             - name: focusTab
-              href: ../app-profile-manager/reference/microsoft-apm/focusTab.md  
+              href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
             - name: refreshTab             
               href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
-          - name: Properties                            
+          - name: Properties
             items:       
             - name: tabID
               href: ../app-profile-manager/reference/microsoft-apm/tabID.md
@@ -228,8 +228,6 @@
         href: overview-unified-routing.md
       - name: How to set up unified routing
         href: set-up-routing-process.md
-      - name: Routing and assignment rules
-        href: routing-workstream-queues.md
     - name: Administrator experience
       items:
       - name: Create and manage workstreams
@@ -240,7 +238,7 @@
         href: configure-work-classification.md
       - name: Assignment methods for queues
         items:  
-        - name: Assignment methods for queues
+        - name: Configure assignment methods for queues
           href: assignment-methods.md
         - name: Configure assignment methods for queues
           href: configure-assignment-rules.md
@@ -250,6 +248,8 @@
           href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
+        - name: Enable entities for queues in unified routing
+          href: enable-entities-for-queues.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md
       - name: Set up skill-based routing
@@ -286,6 +286,8 @@
         href: unified-routing-diagnostics.md
     - name: Supervisor experience
       items:
+      - name: View historical analytics reports
+        href: supervisor-historical-analytics.md
       - name: Access diagnostics for unified routing
         href: supervisor-access-diagnostics.md
     - name: Agent experience
@@ -366,6 +368,8 @@
         href: enable-sla-recalculation.md
       - name: Create entitlements to define support terms
         href: create-entitlement-define-support-terms-customer.md
+      - name: Use entitlement templates to set up entitlements  
+        href: set-up-entitlements-templates.md
       - name: Manage service configuration settings
         href: ../admin/system-settings-dialog-box-service-tab.md
       - name: Manage service schedules
@@ -567,19 +571,19 @@
       - name: Configure relevance search for transcripts
         href: relevance-search-chat-transcript.md
       - name: Configure link to conversation button
-        href: configure-link-to-conversation-model-driven-app-form.md
-      - name: Initiate a chat
+        href: configure-link-to-conversation-model-driven-app-form.md 
+      - name: Start a chat
         href: initiate-chat-wait-time.md
       - name: Start chat proactively
         href: start-proactive-chat.md
+      - name: Send authentication token
+        href: send-auth-token-starting-chat.md       
       - name: Configure automatic closure of conversations
         href: auto-close-conversation.md
-      - name: Manage custom context
+      - name: Send custom context
         href: send-context-starting-chat.md
       - name: Display custom context
         href: display-custom-context.md
-      - name: Send authentication token
-        href: send-auth-token-starting-chat.md
     - name: Customizer experience
       items: 
       - name: Overview
@@ -654,6 +658,8 @@
     items: 
     - name: Configure operating hours
       href: create-operating-hours.md
+    - name: Configure and manage custom presence
+      href: presence-custom-presence.md
     - name: Enable file attachments
       href: enable-file-attachments.md
     - name: Enable formatted messages
@@ -850,9 +856,7 @@
         href: configure-interactive-dashboards-customer-service-hub.md
   - name: Service scheduling
     items: 
-    - name: Upcoming changes
-      href: scheduling-overview.md
-    - name: Customer Service Scheduling
+    - name: Core Service Scheduling
       items: 
       - name: Overview of Service scheduling
         href: basics-service-service-scheduling.md
@@ -1014,6 +1018,8 @@
         href: developer/reference/entities/msdyn_agentscript.md
       - name: msdyn_agentscriptstep
         href: developer/reference/entities/msdyn_agentscriptstep.md
+      - name: msdyn_agentstatushistory
+        href: developer/reference/entities/msdyn_agentstatushistory.md        
       - name: msdyn_analytics
         href: developer/reference/entities/msdyn_analytics.md
       - name: msdyn_assignmentconfiguration

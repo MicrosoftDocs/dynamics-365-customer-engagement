@@ -36,7 +36,7 @@ Set the duration and frequency of the automatic rollup of goals. These settings 
 
    OR
 
-   If you are using the Sales Hub App, select the Site map icon ![Site map icon](../../../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipsis to open more options](../../../sales-enterprise/media/ellipsis-more-options.png "Ellipsis to open more options") , then select **App Settings**, and then select **Goals Settings**.
+   If you are using the Sales Hub App, select the Site map icon ![Site map icon](../../../sales/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipsis to open more options](../../../sales/media/ellipsis-more-options.png "Ellipsis to open more options") , then select **App Settings**, and then select **Goals Settings**.
   
   
 |                            Settings                            |                                                                                  Description                                                                                   |
@@ -46,7 +46,7 @@ Set the duration and frequency of the automatic rollup of goals. These settings 
 |                  Roll-up recurrence frequency                  |                                                     Set the number of hours between each goal rollup.<br>**Default**: 24 <br>**Limits**: Must be greater than or equal to 24 hours                                                      |
   
 ### See also  
- [Administrator and Sales Manager Guide](../../../sales-enterprise/admin-guide.md)  
+ [Administrator and Sales Manager Guide](../../../sales/admin-guide.md)  
  [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)
 
 
