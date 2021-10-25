@@ -21,7 +21,7 @@ a.	Bring your own number via Azure direct routing[Neeraja]  Delta from private p
 
 Omnichannel for Customer Service helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics 365. As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
 
-## Use trial phone number 
+## Use trial phone number
 
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. However, when the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
 
@@ -31,9 +31,8 @@ To be able to acquire new phone numbers for your business, you must first [conne
 
 **To add a new phone number**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**.
-**Add number**.
- 
+1. In Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **New number**.
+
    The **Add phone number** dialog opens.
 
 4. On the **Features** page, do the following:
