@@ -9,9 +9,9 @@ manager: shujoshi
 ---
 # Link customer and case to conversations when bot escalates or ends conversations
 
-When a bot ends a conversation with a customer, the bot can link the case number to the conversation. The bot can create a new case number or obtain an existing one from the customer based on the customer name, email address, or telephone number. 
+When a bot ends a conversation with a customer, the bot can link the case number to the conversation. The bot can create a new case number or obtain an existing one from the customer based on the customer name, email address, or telephone number.
 
-If a bot conversation needs to be escalated to a human agent, the bot can link the customer and case number to the conversation so that when the human agent accepts the escalation request, all relevant customer and case information is available to the agent in the customer summary section. The escalation summary gives the human agent the necessary background information about the escalation and enables quicker resolution of the customer issue.
+If a bot conversation needs to be escalated to a human agent, the bot can link the customer and case number to the conversation so that when the human agent accepts the escalation request, all relevant information is available to the agent in the customer summary section. The escalation summary gives the human agent the background information about the escalation and enables quicker resolution of the customer issue.
 
 To link the customer or case, set the values for the associated attributes, such as customer name and phone number. These attributes will be searched in the corresponding entities such as customer and case, and the result will be linked to the conversation if a single matching record is found. The bot will need to set context parameters for the following that are also set [when the customer is automatically identified](record-identification-rule.md).
 
@@ -22,9 +22,7 @@ To link the customer or case, set the values for the associated attributes, such
 |Case|CaseNumber|ticketnumber|
 ||||
 
-To create context variables for Azure and Power Virtual Agents bots, see [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
-
-
+For information about creating context variables for Azure and Power Virtual Agents bots, see [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
 
 ### See also
 
