@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 10/22/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -485,7 +485,7 @@ Your knowledge article must reach your customers irrespective of their market or
    * From the **Pick a language** dropdown, search and select the language you want.  
    * In the **Create new version** field, select either **Major** or **Minor** version for your translation.  
   
-    You can translate articles into any language that’s supported by the Customer Service Hub.  
+     You can set languages that are supported by your Dynamics 365 instance.
   
 4. Select **Create**.  
   
