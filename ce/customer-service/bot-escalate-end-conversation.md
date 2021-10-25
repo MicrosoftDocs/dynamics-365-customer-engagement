@@ -37,9 +37,6 @@ OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
 
 In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing depends on the routing rule that's configured for the workstream. When the conversation is transferred from the bot to human agent, the bot can set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation.
 
-> [!Note]
-> Skill-based routing should be enabled.
-
 The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the chat. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated chat is routed to the right queue.
 
 After the agent accepts the escalation request, the chat transcript of the bot's conversation with the customer is visible on the agent’s conversation widget. The agent can then continue the chat with the customer.

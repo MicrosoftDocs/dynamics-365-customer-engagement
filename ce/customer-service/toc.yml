@@ -668,7 +668,7 @@
       href: configure-pre-chat-survey.md
     - name: Configure post-conversation surveys
       href: configure-post-conversation-survey.md
-    - name: Automatically identify customers
+    - name: Identify customers automatically
       href: record-identification-rule.md
     - name: Configure chat authentication settings
       href: create-chat-auth-settings.md

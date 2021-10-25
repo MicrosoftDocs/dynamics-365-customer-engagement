@@ -31,3 +31,4 @@ To create context variables for Azure and Power Virtual Agents bots, see [Config
 [Configure a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Configure Azure bot](configure-bot.md)  
 [Context variables for bots](context-variables-for-bot.md)  
+[Identify customers automatically](record-identification-rule.md)

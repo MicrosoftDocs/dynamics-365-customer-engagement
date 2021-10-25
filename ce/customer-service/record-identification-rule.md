@@ -1,5 +1,5 @@
 ---
-title: "Automatically identify customers | MicrosoftDocs"
+title: "Identify customers automatically | MicrosoftDocs"
 description: "Learn how to automatically identify customers by using pre-chat responses in Omnichannel for Customer Service"
 ms.date: 10/19/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Automatically identify customers
+# Identify customers automatically
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
