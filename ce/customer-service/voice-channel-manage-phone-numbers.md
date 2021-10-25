@@ -75,7 +75,7 @@ To add new phone numbers to your business, you must do the following:
    
    A **Summary** with the newly allotted phone number and its details is displayed.
 
-5. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers (preview)** page.
+5. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers** page.
   
    The new phone number is displayed in the numbers list with the status **Ready for setup**.
 
@@ -138,7 +138,7 @@ When you release a phone number, you actually delete it from Dynamics 365, so re
 
 **To release a phone number**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers (preview)**.
+1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
   
    The list of all available phone numbers for your business is displayed.
 
@@ -148,7 +148,7 @@ When you release a phone number, you actually delete it from Dynamics 365, so re
 
 3. Select **OK** if you are sure you don't need the number.
 
-   The **Phone numbers (preview)** page displays the phone number status as **Pending release**.
+   The **Phone numbers** page displays the phone number status as **Pending release**.
 
 
 
