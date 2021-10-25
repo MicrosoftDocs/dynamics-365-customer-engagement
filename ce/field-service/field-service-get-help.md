@@ -61,4 +61,5 @@ For _Problem type_ select **Field Service app**
 
 ### Still need help? Contact us.
 
-https://dynamics.microsoft.com/en-us/contact-us/
+[Contact us](https://dynamics.microsoft.com/contact-us/) to chat or call Microsoft Dynamics 365 support.
+
