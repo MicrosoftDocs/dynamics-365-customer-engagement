@@ -63,9 +63,13 @@ Organize and promote [in-person](set-up-event.md) or [webinar](teams-webinar.md)
 - **Meet your audience where they are**: Host webinars on Microsoft Teams or on other webinar providers.
 - **Continue the conversation with webinar participants**: Stay in touch with your webinar participants after hosting a webinar. You can send personalized registration materials, send surveys, and more to drive awareness and engagement.
 
-## When to use real-time marketing versus outbound marketing
+## When to use real-time marketing and when to use outbound marketing
 
-Marketing automation tools on the market are typically classified into two categories: business to business (B2B) and business to consumer (B2C).
+Real-time marketing and outbound marketing have a lot of in common. Both can be used for marketing automation to send personalized emails, can help with compliance, and can provide analytics.
+
+So, what’s the difference?
+
+Marketing automation tools on the market are typically classified into two categories:  business to consumer (B2C) and business to business (B2B).
 
 ### Real-time marketing
 
@@ -75,9 +79,20 @@ Real-time marketing works great as a B2C platform that can perform at scale. It 
 
 Outbound marketing thrives in the B2B marketing automation. You can send emails and newsletters, create forms and landing pages to capture leads which you can score and grade, then hand off to sales. It also has a great feature for managing in-person events and webinars that includes seamless integration with Microsoft Teams. Out of the box, outbound marketing provides email and social channel capabilities, but you can also build you own custom channels. [Learn more about outbound marketing](user-guide.md).
 
-
-
 > [!div class="mx-imgBorder"]
 > ![Outbound and real-time comparison.](media/overview-venn2.png "Outbound and real-time comparison")
+
+But the lines between B2C and B2B are blurring; customers expect the same level of personalized experience and marketers want to pick the best from both sides. As Dynamics 365 Marketing continues to evolve, the Venn diagram above will eventually become one circle. But until then, the following guidelines can help you decide which features to use and when.
+
+### Which is right for your business?
+
+The approach will be different based on your current situation and what’s best for your business:
+
+- If you are new to Dynamics 365 Marketing, explore the real-time capabilities and determine if they fit your needs. This will work well if you already have a rich set of customer data and need a way to engage with them.
+- If you are looking to collect new prospects, you can combine the real-time capabilities with the forms and pages in outbound marketing without the hassle of integration.
+- For lead capture, scoring, grading and seamless hand off to Dynamics 365 Sales, start with outbound marketing. Then use real-time marketing to continue that digital interaction with your customer in combination with the human interactions provided by your sales organization.
+- If you are using Dynamics 365 Marketing today, you may discover that real-time customer journeys may unlock experiences that were difficult to realize using the outbound marketing customer journey. Don’t worry, existing customer journeys will continue to work! And as these two areas gradually merge into one, you will find capabilities that will make it easy for you to move and reuse the assets that you have already built.
+
+Check out our [latest release plans](/dynamics365/release-plans/) and the [What’s new page](whats-new-marketing.md) to learn about our monthly releases.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
