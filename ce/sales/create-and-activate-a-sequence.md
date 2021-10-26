@@ -1,7 +1,7 @@
 ---
 title: "Sequence creation and activation in the sales accelerator | MicrosoftDocs"
 description: "Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales."
-ms.date: 09/03/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,16 +9,16 @@ manager: shujoshi
 ---
 # Create and activate a sequence 
 
-## Requirements
+Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle records. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle records. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
-
-**To create and activate a sequence**
+## To create and activate a sequence
 
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
@@ -200,6 +200,8 @@ Review the following requirements before you enable the **Exit the sequence** op
     > ![Enable exiting a sequence on the Sequence Options pane.](media/sequence-sequence-options-pane.png "Enable exiting a sequence on the Sequence Options pane")
 
 3.	Select **Save**.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

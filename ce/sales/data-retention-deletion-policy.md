@@ -1,7 +1,7 @@
 ---
-title: "Data retention and deletion policy (Sales Insights) | MicrosoftDocs"
+title: "Data retention and deletion policy in conversation intelligence"
 description: "Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in conversation intelligence."
-ms.date: 11/06/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: c85b26ab-0150-454f-8767-6aed448529bc
@@ -16,22 +16,19 @@ topic-status: Drafting
 ---
 # Data retention and access through Privacy settings 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
->[!IMPORTANT]
->This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
-
 When you configure conversation intelligence, sales call recordings of sellers are processed and analyzed to provide necessary insights such as overall customer sentiments, sentiment trends, and identify keywords that customers have used during calls. You can configure the privacy and retention settings depending on the application that you are on:  
 -	[Conversation intelligence app](#in-conversation-intelligence-app)
 -	[Sales Hub app](#in-sales-hub-app)  
 
 > [!NOTE]
 > Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## In conversation intelligence app
 
@@ -85,6 +82,11 @@ Choose the storage option as described in the following table:
     > ![Conversation intelligence configuration page](media/ci-admin-data-consent-privacy.png "Conversation intelligence configuration page")
 
 To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index).
+
+>[!IMPORTANT]
+>This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

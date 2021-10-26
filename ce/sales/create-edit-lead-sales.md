@@ -1,7 +1,7 @@
 ---
-title: "Create or edit leads - Dynamics 365 Sales | MicrosoftDocs"
+title: "Create or edit leads in Dynamics 365 Sales"
 description: "Use leads to keep track of business prospects. A lead can be an existing client or someone you've never done business with before."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -92,6 +92,7 @@ There are two possibilities:
 
   
 ### See also  
+
 [Print quote, invoice, or other records](print-records.md)
 
 

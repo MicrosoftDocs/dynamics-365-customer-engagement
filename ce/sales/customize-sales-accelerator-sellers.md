@@ -1,7 +1,7 @@
 ---
 title: "Configure sales accelerator settings for sellers to personalize"
 description: "Use personal settings to determine how activities are scheduled based on work availability and deciding what happens when an activity is complete."
-ms.date: 10/15/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -15,6 +15,12 @@ The personalize sales accelerator settings allows sellers determine how activiti
 -	[Enable the availability option in sequence settings](#enable-the-availability-option-in-sequence-settings)
 -	[Enable linking sequence steps and activities](#enable-linking-sequence-steps-and-activities)
 
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## Enable the availability option in sequence settings
 
@@ -48,4 +54,12 @@ Before you start using this feature, contact your Dynamics 365 administrator or 
     >![Enable pre-create linked activities](media/sa-personal-settings-enable-precreate-linked-activities.png "Enable pre-create linked activities")     
  
 5.	Save and close the settings page.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+
+### See also
+
+[Personalize sales accelerator](personalize-sales-accelerator.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
 

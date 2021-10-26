@@ -1,7 +1,7 @@
 ---
-title: "Configure call data for conversation intelligence (Sales Insights) | MicrosoftDocs"
+title: "Configure call data for conversation intelligence"
 description: "Configure call data to assist sales managers to get an overview of the call center and drill down to get call statistics for individual sellers."
-ms.date: 11/18/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 5fbbe749-6b23-49a6-91a1-0499f9a4fb92
@@ -16,19 +16,22 @@ topic-status: Drafting
 ---
 # Configure conversation intelligence to connect call data 
 
-## Requirements
+Configure call data to assist sales managers to get an overview of the call center and drill down to get call statistics for individual sellers.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Create repository and upload call data 
+
 Conversation intelligence in [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] assists the sales managers in your organization to get an overview of the call center and drill down to get call statistics for individual sellers. This helps the sales managers change the shape of the business by giving smarter coaching and enhancing sales to generate revenue.
 
-You must have administrative privileges to configure **Call intelligence** for your organization. To configure **Call intelligence**, perform the following steps:   
-1. [Review the prerequisites](prereq-sales-insights-app.md)  
-2. [Create a call recording repository](#create-call-recording-repository).  
-3. [Upload call recordings or transcripts](#upload-call-recordings).
+You must have administrative privileges to configure **Call intelligence** for your organization. To configure **Call intelligence**, perform the following steps:    
+1. [Create a call recording repository](#create-call-recording-repository).  
+2. [Upload call recordings or transcripts](#upload-call-recordings).
 
 > [!NOTE] 
 > If you want to update the storage container and connection string, see [Update configuration of call data](#update-configuration-of-call-data). 
@@ -473,6 +476,7 @@ Configuring the call data helps us to fetch the call recording from your reposit
 
 The call data storage container is updated, and you can start uploading the call data into the new container.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
-title: "Configuration of premium forecasting (Sales Insights) | MicrosoftDocs"
+title: "Configuration of premium forecasting"
 description: "Configure premium forecasting to help sellers and managers improve their forecast accuracy by providing forecast projections based on data."
-ms.date: 06/01/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -21,7 +21,6 @@ Premium forecasting helps sellers and managers improve their forecast accuracy b
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Forecast Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
 
 ## Features available in premium forecasting
 
@@ -71,13 +70,7 @@ To understand how to use trend charts, see [Understand forecast projection throu
 
 The flow chart provides a visual representation of how the forecast changes between two moments in time. To learn more, see [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md).
 
-## Why don't I see this in my app?
-
-There are two possibilities:
-
-- You do not have the necessary license or role to perform the steps.
-
-- Your organization maybe using a custom app and hence the sitemap and UI will be different. The steps described in this documentation are specific to the out-of-the-box Sales Hub app. Check with your administrator for the exact steps.
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
