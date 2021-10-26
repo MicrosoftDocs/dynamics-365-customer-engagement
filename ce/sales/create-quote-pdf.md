@@ -17,7 +17,9 @@ searchScope:
 ---
 # Export sales records to PDF  
 
-## Requirements
+Create PDF files of sales records that look professional and read-only using your standard word templates and share it with your customers.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
