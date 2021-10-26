@@ -62,8 +62,8 @@ You can start a new linked chat or convert an existing Teams chat into a linked 
 You can use the chat to do the following:
 - Send an introduction message to start a collaboration
 - Use suggested contacts to help ensure collaboration with the right contact, including the use of:
-  - AI suggestions
-  - Rules-based contacts
+  - AI suggestions: Uses an AI-based model of similarly solved cases by other agents.
+  - Rules-based contacts: Suggests other users who are related to the case based on pre-defined logic.
 
 1.	Open any Dynamics 365 Customer engagement record, and then select the **Teams chats and channels** integration icon.
     The Teams chats (preview) panel opens.
