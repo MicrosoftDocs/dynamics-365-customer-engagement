@@ -36,7 +36,7 @@ Before you connect to a new Azure resource, check whether you have the following
 
 2. Select **Create new resource** and enter the following details:
    - **Azure subscription**: Select a subscription from the dropdown list.
-   - **Azure resource group**: Select a resource group from the list. You can choose to create a new resource group. More information: [Create a new resource group](/../../azure/bot-service/powershell/bot-builder-powershell-quickstart?view=azure-bot-service-4.0#create-a-resource-group) 
+   - **Azure resource group**: Select an existing resource group or select **Create new**, and enter a name for a new resource group.
       > [!NOTE]
       > The resource group name should be unique within a given subscription.
    - **Resource name**: Enter a name for the resource.
@@ -48,7 +48,17 @@ You can also use an Azure Communication Services resource to connect with voice 
 
 If you had previously unlinked a resource and want to use it now, you can do so using this option.
 
-Before you proceed with adding an existing resource to Azure Communication Services, open your existing resource from the Azure portal in a new window or tab. You'll copy the resource values and connection string(using the Copy to clipboard button) from the Azure resource to Omnichannel admin center. 
+Before you proceed with adding an existing resource to Azure Communication Services, you must have the following information available.
+- Open your existing resource from the Azure portal in a new window or tab. You'll need the resource values and connection string from the Azure resource for use in Omnichannel admin center.
+- Open the **App registrations** page on the Azure portal in another window or tab. You'll need the application ID and tenant ID of your app for use in Omnichannel admin center.
+
+If you're registering your app on the Azure portal for the first time, then do the following:
+1. Open the Azure portal and go to **App registrations**.
+2. On the **Register an application** page, enter the following details:
+    - **Name**: Enter a name for your application.
+    - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**
+3. Select **Register**.
+4. Copy the Application (client) ID and the Directory (tenant) ID
 
 High level steps involved:
 1. Create ACS resource. Note down ACS resource name, resource ID, and connection string
@@ -57,23 +67,20 @@ High level steps involved:
 4. Create system topic in Azure for the ACS resource.
 5. Enable eventgrid resource provider in the subscription
 6. Create event grid events in the ACS resource for recording and SMS. Copy recording callback URL from step.
-**Settings** > **Properties**.
-3. You'll then copy the connection string from **Tools** > **Keys**.
 
 **To connect to an existing Azure resource**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**.
+1. Open Omnichannel admin center and under **General settings**, select **Phone numbers**, and then select **Get started**.
 
    The **Connect to Azure Communication Services** dialog opens.
 
 2. Select **Use existing resource** and enter the following details:
-   - ACS Resource Name: Copy the name from your existing resource here.
-   - ACS Resource ID
-   - Connection String
-   - Event grip app ID
-   - Event grip app tenant ID
-
-
+   - **ACS Resource Name**: Indicates the name of the Azure resource. Open your existing resource on the Azure portal, and go to **Settings** > **Properties**. Select the value of the **Name** field, select the **Copy to clipboard** button, and then paste the value in this field.
+   - **ACS Resource ID**: Indicates the ID of the Azure resource. Open your existing resource on the Azure portal, and go to **Settings** > **Properties**. Select the value of the **Resource ID** field, select the **Copy to clipboard** button, and then paste the value in this field.
+   - **Connection String**: Indicates the connection string of the Azure resource. Open your existing resource on the Azure portal, and go to **Tools** > **Keys** > **Primary key**. Select the value of the **Connection string** field, select the **Copy to clipboard** button, and then paste the value in this field.
+   - **Event grip app ID**: Indicates the application ID of your Azure app registration. Open
+   - **Event grip app tenant ID**: 
+3. 
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
