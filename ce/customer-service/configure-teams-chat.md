@@ -76,7 +76,7 @@ To enable Teams chat settings for specific multisession users, complete the foll
 
 ## Configure the ability to link chats to Dynamics 365 records
 
-Once you’ve enabled Teams chats, you can link the chats to different record types. Standard record types, including case, conversation, account, contacts, knowledge article, and email, are available out of the box, or you can add your desired record type.
+Once you’ve enabled Teams chats, you can link the chats to different record types. Standard record types, including case, account, contacts, knowledge article, and email, are available out of the box, or you can add your desired record type.
 
 **To configure the ability to link a chat to a record type:**
 
