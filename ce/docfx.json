@@ -137,6 +137,7 @@
         "customer-service/**/*.md": "dynamics-365-customerservice",
         "linkedin/**/*.md": "dynamics-365-linkedinconnector",
         "sales-enterprise/**/*.md": "dynamics-365-sales",
+        "sales/**/*.md": "dynamics-365-sales",
         "sales-professional/**/*.md": "dynamics-365-sales",
         "unified-service-desk/**/*.md": "dynamics-365-customerservice"
       },
@@ -146,9 +147,6 @@
       },
 	  "ms.topic": {
         "legal/**/*.md": "article"
-      },
-	  "ms.prod": {
-        "**/*.md": "dynamics-365"
       },
       "learn_banner_products": {
         "**/*.md": [

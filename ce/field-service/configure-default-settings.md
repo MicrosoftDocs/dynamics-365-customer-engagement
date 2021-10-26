@@ -1,7 +1,7 @@
 ---
 title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 02/12/2021
+ms.date: 10/01/2021
 ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
@@ -54,8 +54,7 @@ The Field Service Settings page allows system administrators to set default sett
 |  Default Crew Strategy  |   Select the strategy that will be applied, by default, to any crews created in the system. Upon install, this field is set to "Crew Leader Management." While this setting does apply a default value, this value can be managed independently for each crew.  |
 |  Schedule assistant  |  Choose default options for the schedule assistant.   |
 |  Auto filter service territory  |  Select whether the schedule assistant should automatically filter search results based on the work order territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)    |
-|  Default radius value    |   Select a default radius the schedule assistant will use when searching for resources for  work orders. For example, if you choose a 20 mile radius, then the schedule assistant will find resources within 20 miles of the work order  booking location.   |
-|  Default radius unit     |    Select miles or kilometers.      |
+
 
   
 ## Schedule board settings  
@@ -94,7 +93,7 @@ The Field Service Settings page allows system administrators to set default sett
 | RTV prefix | Select a default prefix for a return to vendor (RTV). The prefix will  be added to the beginning of the RTV number. This  helps you easily identify  an RTV from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md). |
 | RTV starting number |  Select a starting number for RTVs. For example, if you choose 2000, then your first RTV will be 2000, and second one will be 2001, and so on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md).    |
   
-### Agreement  
+## Agreement  
   
 |  Options   |    Description    |
 |------------|-------------------|
@@ -106,7 +105,7 @@ The Field Service Settings page allows system administrators to set default sett
 | Generate agreement work order X days in advance |  When auto generate work orders is set to **Yes**, the system will generate work order records based on the recurrence schedule and the existing booking dates. This setting determines how many days in advance of the booking date to generate the work order record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md)                                                         |
 |  Generate agreement invoices X days in advance  |  The system will generate invoice records based on the invoice recurrence schedule and the existing invoice dates. This setting determines how many days in advance of the invoice date to generate the invoice record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md)     |
 |  Record Generation Timing  | This field defines the default time which daily processes will run against agreement booking setups to generate work orders and agreement invoice setups to generate invoices. This value can also be managed independently for each agreement. |
-|  Pre/Post Booking Flexibility Date Field Population  | When defining an agreement, pre and post booking flexibility fields can be defined which will define the dynamic window in which each work order should plan to be booked. This Setting defines whether work orders generated from agreements will populate this window in the the "Date Window Start" and "Date Window End" fields or the "Time From Promised" and "Time To Promised" fields. Going forward, all new environments will automatically be set to **Populate Time From Promised/Time To Promised**. When configured this way, the "Date Window Start" and "Date Window End" fields will be hidden from the work order form.|
+|  Pre/Post Booking Flexibility Date Field Population  | When defining an agreement, pre and post booking flexibility fields can be defined which will define the dynamic window in which each work order should plan to be booked. This setting defines whether work orders generated from agreements will populate this window in the **Date Window Start** and **Date Window End** fields or the **Time From Promised** and **Time To Promised** fields. If set to **Populate Time From Promised/Time To Promised** then the _Pre and Post Booking Flexibility_ fields on the agreement will populate the **Time From Promised**/**Time To Promised** fields on the work order. When configured this way, the **Date Window Start** and **Date Window End** fields will be hidden from the work order form. Similary if set to **Populate Date Window Start/Date Window End** then the **Pre and Post Booking Flexibility** fields on the agreement will populate the **Date Window Start** and **Date Window End** fields on the work order. Going forward, all new environments will automatically be set to **Populate Time From Promised/Time To Promised**. |
   
 ## Purchase order settings 
   
@@ -151,7 +150,6 @@ The Field Service Settings page allows system administrators to set default sett
   
 |   Options  |      Description     |
 |------------|----------------------|
-|  Bing API key   | The default key allows geocode and mapping functionality. If you need to use your own  key, specify it here.    |
 |  Entity number length  |   Enter the number of digits the entity numbers will be. For example, if you enter 5, the first work order number would be 00001.  |
 | Auto allocate estimate products | When products are added to a work order before the work begins, then the line status of the work order product record defaults to **Estimated**. This setting determines whether the work order product record is set to **Allocated** when the line status is still **Estimated**, as opposed to **Used**. |
 |  Auto geo code addresses |  Specify whether the system should automatically add the appropriate latitude and longitude values based on the account's address. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)   |
@@ -165,19 +163,10 @@ The Field Service Settings page allows system administrators to set default sett
 > ![Screenshot of the administration settings on the other section.](./media/administration-settings-other-section.png) 
 
 
-## GPS data settings
- [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] can be integrated with third-party GPS providers to allow the real-time location of resources or vehicles on schedule maps. These settings allow you to map the integrated GPS data to the [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] system.  
-  
-|  Options  |  Description   |  
-|-------------|-----------------|  
-| Custom GPS data | Select whether the system will use  a custom entity for its source  of geo locations for resources to be displayed on the map view.|  
-| Custom GPS resource field | Shows the logical name of the resource to be used for geo locations.|  
-| Custom GPS latitude field | Shows the logical name of the latitude to be used for geo locations.|  
-| GPS location expires after X minutes | Enter when GPS location expires.|  
-| Custom GPS location entity | Shows the logical name of customer entity to use for geo locations.|  
-| Custom GPS timestamp field | Shows the logical name of the timestamp to use for geo locations.|  
-| Custom GPS longitude field | Show the logical name of the longitude to be used for geo locations.|  
-   
+
+## Resource scheduling settings
+
+For settings related to resource scheduling, see the article on [Scheduling paramters in resource scheduling (Settings)](scheduling-parameters-settings.md).
   
 ### See also  
  [Overview](../field-service/overview.md)   

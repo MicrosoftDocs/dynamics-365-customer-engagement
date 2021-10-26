@@ -1,7 +1,7 @@
 ---
 title: "Select a hosting method for your controls in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the various hosting methods you can use to host your webpages in Unified Service Desk."
-ms.date: 09/07/2021
+description: "Learn about the various hosting methods that you can use to host your webpages in Unified Service Desk."
+ms.date: 09/08/2021
 ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
@@ -18,10 +18,12 @@ monikerRange: '>= dynamics-usd-3'
 ---
 # Select a hosting method for your controls in Unified Service Desk
 
->[!Note]
+>[!Important]
 >
-> From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge browsers. The users of Internet Explorer will see an error message similar to the following: "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."<br>
-> By blocking these older browsers, we'll be able to provide enhancements for the latest browsers to improve user experience..
+> - From 2022 release wave 1, Unified Interface-based apps will not be accessible in Internet Explorer and classic Microsoft Edge browsers. The users of Internet Explorer will see an error message similar to the following:
+> "Model-driven apps require Microsoft Edge or a supported browser. Please switch to a modern browser."
+>
+> - To continue to use Unified Interface-based apps in Unified Service Desk, we recommend that you use the latest browser control host such as Edge WebView2. Because Unified Service Desk supports a mix of browser control hosts, you can still use the IE process for hosting apps that are not based on Unified Interface.
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] offers you different browser controls for hosting your webpages. Select a browser control to host your webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the **Hosting Type** list when you define a hosted control instance.
 

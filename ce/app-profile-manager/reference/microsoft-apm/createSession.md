@@ -4,13 +4,11 @@ description: "Learn about the createSession API of app profile manager in Custom
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: createSession (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# createSession (app profile manager)
 
 Creates a session based on a session template and returns the unique identifier of the session.
 

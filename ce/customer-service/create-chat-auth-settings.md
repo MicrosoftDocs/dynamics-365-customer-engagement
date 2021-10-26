@@ -22,7 +22,7 @@ An agent will get a notification in the **Conversation summary** section whether
 
 ## Prerequisites
 
-Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web Tokens (JWTs). 
+Make sure your organization has a working knowledge of OAuth 2.0 and JSON Web Tokens (JWTs). 
 
 ## Create a chat authentication setting record
 
@@ -53,7 +53,7 @@ Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web To
    - In Omnichannel Administration, go to the **Basic details** tab.
 2.	In the **Authentication settings** box, browse and select the chat authentication record.
 
-When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in the work stream that is associated with the chat widget.
+When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in the workstream that is associated with the chat widget.
 
 ## Setup for Power Apps portals
 

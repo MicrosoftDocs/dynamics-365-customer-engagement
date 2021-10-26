@@ -4,13 +4,11 @@ description: "Learn about the tab title property of app profile manager in Custo
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: title (app profile manager tab) 
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# title (app profile manager tab) 
 
 The text label of a tab.
 

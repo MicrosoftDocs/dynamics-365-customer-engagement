@@ -4,6 +4,7 @@ description: "Perform the steps mentioned in the topic to create skills and assi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.date: 09/16/2021
 ---
 
 # Set up skills, create a rating model, and assign agents
@@ -52,7 +53,7 @@ After you create a skill type, you can create skills in the Omnichannel admin ce
     | Field | Description  | Example value |
     |-----------|---------------------|------------------------------|
     | Name | Specify the name of the skill. | Spanish <br> **Note:** <br> The name must be unique. |
-    | Type | Select a skill type from the drop-down list. | Language |
+    | Type | Select a skill type from the dropdown list. | Language |
     | Description | Provide a description of the skill. | This record is used to define the skill level of the Spanish language. |
 
 5. Select **Save**.
@@ -82,9 +83,9 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 3. Select **Save**. The **Rating Values** section appears.
 
-4. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
+4. Select **New Rating Value**. The **New Rating Value** page appears.
 
-5. Specify the following in the **Rating Value** page.
+5. Specify the following.
 
   | Field | Description | Value  |
   |-----------------|----------------|--------------------------------------------|
@@ -154,7 +155,7 @@ Add the agents as a bookable resource so that you can assign skills to them.
 
 Alternatively, you can also add a skill to the user (agent). To learn more, see [Manage users](users-user-profiles.md).
 
-## See also
+### See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  

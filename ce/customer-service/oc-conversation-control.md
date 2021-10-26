@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 08/09/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -46,7 +46,7 @@ The following table lists the options and the keyboard shortcuts that you can us
 ## Send messages using the Public and Internal modes
 
 > [!IMPORTANT]
-> The public and internal modes are not available if the consult pane setting is enabled. More information: [Preview: Consult pane setting](enable-consult.md)
+> The public and internal modes are not available if the consult pane setting is enabled. More information: [Consult pane setting](enable-consult.md)
 
 The communication panel allows you to send messages in two modes: **Internal** and **Public**.
 
@@ -97,10 +97,13 @@ If the reconnection link is configured by your administrator, you can share the 
 
 ## Consult with agent or supervisor
 
-The communication panel allows you to consult with other agents or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents. The consulted agent should be a part of the same queue as yours for you to consult. If your administrator has enabled the consult pane setting, a separate pane will open beside the communication panel when you start the consultation.
+You can consult with other agents or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents.
 
- > [!div class=mx-imgBorder]
- > ![Use the consult option to launch the consulting list.](media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")
+If your administrator has enabled the consult pane setting, the following events occur when you select an agent to consult with.
+
+- The consultee agent will receive a notification for the consult request.
+- A separate pane will open beside the communication panel when the consultee joins the chat.
+- The consultee will see a consultation window on the page with an option to exit and also see the messages exchanged between the agent and customers.
 
 You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
