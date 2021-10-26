@@ -78,7 +78,9 @@ If you're using Teams for the first time within Customer Service Hub or Customer
     All of the participants in the linked chat will see the chat when they open the record in Dynamics 365.
 
 ## Link an existing chat to a record
+
 You can link relevant Teams chats to a record so that all the members can easily access the linked chat from the record and follow the conversation. 
+
 1.	Open any Dynamics 365 Customer Service record, and then select the **Teams chats and channels integration** icon. .  
     The Teams chats (preview) panel opens.
 2.	Select the **Channel** tab. 
@@ -92,10 +94,10 @@ You can link relevant Teams chats to a record so that all the members can easily
 
 You can open any Dynamics 365 Customer Service record and select the **Teams chats and channels integration** icon. The **Teams chats (preview)** panel opens with the following sections in the **Chat** tab:  
 - Chats linked to the record: Lists Teams chats that either you’ve linked to the selected record or someone else has linked a chat with you as a participant. 
-- Suggested contacts: Lists suggested contacts depending on the users who are working on the record. For more information, see How does contacts suggestions work?  
+- Suggested contacts: Lists suggested contacts depending on the users who are working on the record. For more information, see [How suggested contacts work](#how-suggested-contacts-work).  
 - Other chats: Lists your top 50 chat conversations on Teams. You can select any existing conversation and link it to a record. 
 
-The **Channels** tab lists the channels that either you’ve linked to the selected record or someone else has linked a channel where you’re a participant.  If you had linked a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab. 
+The **Channels** tab lists the channels that either you’ve linked to the selected record or someone else has linked a channel where you’re a participant. If you've linked a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab. 
 
 ### How suggested contacts work
 The suggested contacts list displays users who are connected or have interacted with the record. So, a suggested contact could be one or more of the following users, in the given order:
