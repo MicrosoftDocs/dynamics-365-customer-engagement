@@ -42,6 +42,7 @@ The following image displays the key features of the agent Teams chat experience
  > ![Agent view of the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-agent-overview.png "Agent view of the the Microsoft Teams chat experience")
 
 The following legend describes the numbered callouts in the above image.
+
 |Number |Feature | Description |
 |-------|-----------|-----------|
 | 1 | New chat | Create chats that aren't associated with any Dynamics 365 records.  |
@@ -49,9 +50,9 @@ The following legend describes the numbered callouts in the above image.
 | 3 | Linked chats | Chats that are associated with a Dynamics 365 record. These chats can only be viewed in Dynamics 365 by the chat participants. |
 | 4 | Chats linked to other records | Chats that are associated with other Dynamics 365 records that the current user is a part of. Users can prioritize responses to these chats over other chats. |
 | 5 | Other chats | Chats that aren't linked to any records or started from Microsoft Teams. |
-| 6 | Chat control | Allows users to multi-task across chats.
+| 6 | Chat control | Allows users to multi-task across chats. |
 | 7 | Basic Teams functions | Format, use emojis, use gifs, set delivery options, attach files. |
-| 8 | Add/Remove participants | Select who participates in the chat and who doesn't.
+| 8 | Add/Remove participants | Select who participates in the chat and who doesn't. |
 
 
 ## Start a new linked chat
