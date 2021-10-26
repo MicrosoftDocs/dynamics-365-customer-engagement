@@ -12,6 +12,7 @@ manager: annbe
 Customize the opportunity close form so that sellers can capture details about why an opportunity was closed.
 
 ## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
