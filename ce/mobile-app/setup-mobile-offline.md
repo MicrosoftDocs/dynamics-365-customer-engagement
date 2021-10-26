@@ -194,7 +194,6 @@ A user or team can only be added to one offline profile at a time. If a user or 
 > [!NOTE]
 > A user must have a security role that has Read permissions on the mobile offline profile table to be able to use their mobile device in offline mode. 
 
-  
 1.  If it’s not already open, select the profile name to open the mobile offline profile you want to add users to.
 
     > [!div class="mx-imgBorder"]
@@ -212,7 +211,9 @@ A user or team can only be added to one offline profile at a time. If a user or 
   > [!NOTE]
   > If you made any changes to a team, you must remove and add the team back to the mobile offline profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
 
-
+> [!NOTE]
+> If you made any changes to a team, you must remove and add the team back to the mobile office profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
+  
 ### Step 2.2: Publish a mobile offline profile
 
 The profile that was set up in the previous step is still in draft mode, until you publish it. In order to deploy your changes to a user's device, the draft profile needs to be published.
