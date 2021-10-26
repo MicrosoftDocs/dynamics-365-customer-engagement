@@ -3,12 +3,16 @@ title: "Personalize deal manager - Sales Enterprise | MicrosoftDocs"
 description: "As a seller, personalize the grid and apply filters to suit your needs."
 ms.date: 10/26/2021
 ms.topic: article
+ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 # Preview: Personalize the deal manager workspace
- 
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+As a seller, personalize the grid and apply filters to suit your needs.
 
 ## License and role requirements
 
@@ -18,13 +22,9 @@ manager: shujoshi
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## Overview
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
-
-## Overview
 
 As a seller, you can personalize the deal manager workspace to suit your needs. You can,
 

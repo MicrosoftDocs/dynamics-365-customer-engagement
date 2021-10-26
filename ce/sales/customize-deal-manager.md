@@ -1,23 +1,28 @@
 ---
 title: "Customize deal manager - Sales Enterprise | MicrosoftDocs"
 description: "Customize the grid, side panel, and charts displayed in deal manager according to your sales team's requirement."
-ms.date: 08/10/2021
+ms.date: 10/26/2021
 ms.topic: article
+ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Preview: Customize the deal manager workspace 
+# Preview: Customize the deal manager workspace
 
-## Requirements
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Customize the grid, side panel, and charts displayed in deal manager according to your sales team's requirement.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## Overview
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
@@ -143,7 +148,7 @@ The following table lists the supported and unsupported customizations for side 
 
     :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
    
-
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also
 
