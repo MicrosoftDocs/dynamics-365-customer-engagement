@@ -38,14 +38,14 @@ To display the context variables in the [Conversation Summary Control of convers
 Here's an example:
 `{\"isDisplayable\":\"true\"," +"\"Value\":\"context variable value as string\"}`
 
-The `isDisplayable` property, when set to `true`, will display the context variables in the third tab on the Conversation Summary Control for a conversation. The `Value` property of the JSON object includes the user response or any other information in string, Boolean, or number format.
+The `isDisplayable` property, when set to `true`, will display the context variables on the third tab of the Conversation Summary Control for a conversation. The `Value` property of the JSON object includes the user response or any other information in string, Boolean, or number format.
 
 ![Display context keys.](media/context-variable-display.png "Display context keys")
 
 
 ### See also
 
-[Manage custom context](send-context-starting-chat.md)<br />
+[Send custom context](send-context-starting-chat.md)<br />
 [setContextProvider](developer/reference/methods/setContextProvider.md)
 
 
