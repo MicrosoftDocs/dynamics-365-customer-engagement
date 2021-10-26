@@ -90,6 +90,4 @@ You can link relevant Teams chats to a record so that all the members can easily
 
 ## Start a linked chat with a contact from an existing unlinked chat
 
-   > [!div class="mx-imgBorder"] 
-   > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
-    
+  
