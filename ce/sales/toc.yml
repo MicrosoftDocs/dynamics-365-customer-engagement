@@ -168,6 +168,8 @@
           href: deal-manager-overview.md
         - name: Enable/disable the deal manager workspace
           href: enable-deal-manager-preview.md
+        - name: Grant or restrict access to deal manager
+          href: grant-access-deal-manager.md
         - name: Customize the deal manager workspace
           href: customize-deal-manager.md  
       - name: Enable customization of the Opportunity Close form
