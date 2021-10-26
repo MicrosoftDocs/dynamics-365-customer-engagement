@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service."
-ms.date: 09/28/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
