@@ -61,12 +61,8 @@ All these features are fully integrated and work together to create a comprehens
 
 Marketing automation tools on the market are typically classified into two categories: business to business (B2B) and business to consumer (B2C).
 
-### Outbound marketing
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the outbound marketing email editor.](media/overview-email-editor2.png "Screenshot of the outbound marketing email editor")
-
-Outbound marketing thrives in the B2B marketing automation. You can send emails and newsletters, create forms and landing pages to capture leads which you can score and grade, then hand off to sales. It also has a great feature for managing in-person events and webinars that includes seamless integration with Microsoft Teams. Out of the box, outbound marketing provides email and social channel capabilities, but you can also build you own custom channels. [Learn more about outbound marketing](user-guide.md).
+> ![Outbound and real-time comparison.](media/overview-venn2.png "Outbound and real-time comparison")
 
 ### Real-time marketing
 
@@ -75,7 +71,11 @@ Outbound marketing thrives in the B2B marketing automation. You can send emails 
 
 Real-time marketing works great as a B2C platform that can perform at scale. It allows you to engage with customers at specific moments through email and mobile channels as they interact with different parts of your organization. Because each customer's interaction is unique, real-time marketing has powerful capabilities to design personalized experiences throughout the customer’s life cycle. [Learn more about real-time marketing](real-time-marketing-user-guide.yml).
 
+### Outbound marketing
+
 > [!div class="mx-imgBorder"]
-> ![Outbound and real-time comparison.](media/overview-venn.png "Outbound and real-time comparison")
+> ![Screenshot of the outbound marketing email editor.](media/overview-email-editor2.png "Screenshot of the outbound marketing email editor")
+
+Outbound marketing thrives in the B2B marketing automation. You can send emails and newsletters, create forms and landing pages to capture leads which you can score and grade, then hand off to sales. It also has a great feature for managing in-person events and webinars that includes seamless integration with Microsoft Teams. Out of the box, outbound marketing provides email and social channel capabilities, but you can also build you own custom channels. [Learn more about outbound marketing](user-guide.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
