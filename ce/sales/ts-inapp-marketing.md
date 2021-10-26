@@ -1,22 +1,13 @@
 ---
 title: "Troubleshoot in-app marketing issues (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues for in-app marketing in Dynamics 365 Sales."
-ms.date: 07/29/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
 # Troubleshooting in-app marketing 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 
 This article helps you troubleshoot and resolve issues related to in-app marketing.
 <a name="when-i-open-marketing-list-form-the-members-view-is-not-available"></a>

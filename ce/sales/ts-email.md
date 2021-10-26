@@ -1,22 +1,13 @@
 ---
 title: "Troubleshooting issues with email (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with email in Dynamics 365 Sales."
-ms.date: 09/30/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
 # Troubleshooting issues with email 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 
 This article helps you troubleshoot and resolve issues related to emails in Dynamics 365 Sales.
 
