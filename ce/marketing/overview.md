@@ -41,7 +41,7 @@ Also known as customer journey orchestration, real-time marketing includes [even
 ## Outbound marketing
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an event page.](media/overview-marketing-page.png "Screenshot of an event page")
+> ![Screenshot of an outbound marketing marketing page.](media/overview-marketing-page.png "Screenshot of an outbound marketing marketing page")
 
 Provides [email marketing](prepare-marketing-emails.md), [customer journeys](customer-journeys-create-automated-campaigns.md), [lead scoring](set-up-lead-scoring.md), [marketing pages](create-deploy-marketing-pages.md), and more. These features form the core of the Marketing app and are unique to Dynamics 365 Marketing.
 
@@ -55,7 +55,7 @@ Provides [email marketing](prepare-marketing-emails.md), [customer journeys](cus
 ## Event planning
 
 > [!div class="mx-imgBorder"]
-> ![Outbound and real-time comparison.](media/overview-event.png "Outbound and real-time comparison")
+> ![Screenshot of an event page.](media/overview-event.png "Screenshot of an event page")
 
 Organize and promote [in-person](set-up-event.md) or [webinar](teams-webinar.md) events, which include an online portal that attendees can use to review the event schedule and speakers, and to register for the event.
 
