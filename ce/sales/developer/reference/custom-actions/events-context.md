@@ -11,7 +11,9 @@ ms.custom:
 ---
 # Events and context object 
 
-## Requirements
+As a developer, use this reference documentation to learn about the forecasting events and context object.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -26,7 +28,7 @@ ms.custom:
 
 ## Events for the underlying records grid
 
-Events occur in forecasting for the underlying records grid whenever a grid is loaded, data is changed, or data is saved. The application executes JavaScript code by associating it with a handler when the event occurs. The following events are supported in forecasting:
+The following events are supported in forecasting:
 - [OnRowLoad](#onrowload-event)
 - [OnSave](#onsave-event)
 - [OnChange](#onchange-event)
