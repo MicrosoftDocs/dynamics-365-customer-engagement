@@ -65,17 +65,13 @@ To be able to acquire new phone numbers for your business, you must first [conne
    >  - After you're allotted a new phone number, you'll have purchase it within the next 15 minutes. If the time elapses, you'll have to try purchasing again.
    >  - After you select **Purchase phone number**, you can close the page by selecting **Close** and return to the **Phone numbers** page. The purchase happens in the background and the new phone number appears in the phone numbers list with **Pending** status.
 
-4. Select **Setup Workstream** to [add the phone number to a workstream](#add-a-phone-number-to-a-workstream) or select **Done** to go back to the **Phone numbers** page where you can view details of the phone number you just acquired.
+4. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream)
 
-- [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling) - [Assign it as a personal number to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+5. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number you just acquired.
 
 ### Add a phone number to a voice workstream
 
 After you've acquired a phone number, you must add it to a voice workstream to be able to use it. You can associate a phone number with only one voice workstream.
-
-### Configure phone number for outbound calling
-
-After you've purchased phone numbers and associated them with voice workstreams, you can configure them for outbound and inbound calls. 
 
 **To add a voice workstream to a phone number**
 
@@ -93,6 +89,18 @@ After you've purchased phone numbers and associated them with voice workstreams,
 
    The workstream is added to the phone number and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
+### Configure phone number for outbound calling
+
+After you've purchased phone numbers and associated them with voice workstreams, you can configure them for outbound calls so your agents can actually make calls to customers. More information: [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling).
+
+### Configure voice channel for inbound calling
+
+You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-route-queues)
+
+### Assign phone numbers to agents
+
+You can also assign personal phone numbers to agents, so they're able to make and/or receive calls exclusively on that number. More information: [Assign personal phone numbers to agents](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents)
+
 ## Edit phone numbers
 
 If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number.
@@ -109,7 +117,7 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 2. Select a phone number and select **Edit**.
    The **Edit phone number** dialog with the current plan type, calling plan, and SMS plan is displayed.
 
-3. Make the changes to your call or SMS plans, and select **Upgrade**.
+3. Make the changes to your call or SMS plans, and select **Save and Close**.
 
 ## Release phone number
 
@@ -137,6 +145,7 @@ When you release a phone number, you actually delete it from Dynamics 365, so re
 [Overview of the voice channel](voice-channel.md)  
 [Use existing resource](voice-channel-use-existing-resource.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
+[Inbound calling](voice-channel-route-queues.md)  
 [Bring your own number: Azure Direct Routing](voice-channel-bring-your-own-channel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
