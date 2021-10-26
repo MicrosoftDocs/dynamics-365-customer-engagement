@@ -23,7 +23,9 @@ search.app:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RWNgjy" frameborder="0" allowfullscreen=""></iframe></div>
 
-Dynamics 365 Marketing elevates customer experiences, allowing you to orchestrate personalized journeys across all touchpoints to strengthen relationships and earn loyalty. The Marketing app works seamlessly with Dynamics 365 Sales, Dynamics 365 Customer Insights, Microsoft Teams, and other products and allows you to make faster and better decisions, leveraging the power of analytics and AI. Dynamics 365 Marketing features include:
+Dynamics 365 Marketing elevates customer experiences, allowing you to orchestrate personalized journeys across all touchpoints to strengthen relationships and earn loyalty. The Marketing app works seamlessly with Dynamics 365 Sales, Dynamics 365 Customer Insights, Microsoft Teams, and other products and allows you to make faster and better decisions, leveraging the power of analytics and AI.
+
+Dynamics 365 Marketing features include:
 
 ## Real-time marketing
 
