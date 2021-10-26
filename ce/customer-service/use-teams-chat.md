@@ -82,7 +82,7 @@ You can link relevant Teams chats to a record so that all the members can easily
 1.	Open any Dynamics 365 Customer Service record, and then select the **Teams chats and channels integration** icon. .  
     The Teams chats (preview) panel opens.
 2.	Select the **Channel** tab. 
-    The tab lists the channels that are already linked to the opportunity. 
+    The tab lists the channels that are already linked to the record. 
 3.	Select the **Link** icon at the top-right corner.
     The **Collaborate with Microsoft Teams** dialog opens.
 4.	To start a new linked channel, select **Create a new connection**.
@@ -99,13 +99,10 @@ The **Channels** tab lists the channels that either you’ve linked to the selec
 
 ### How suggested contacts work
 The suggested contacts list displays users who are connected or have interacted with the record. So, a suggested contact could be one or more of the following users, in the given order:
-- If the record is assigned to a user, owner of the record.
-- If the record is assigned to a team, 
-   - Team admin
-   - Team members who've logged an activity in the record timeline.
-- Users who have linked chats with the record.
--	Other users who have logged an activity in the record timeline.
-
+- If the record is assigned to a user, the owner of the record.
+- If the record is assigned to a team, the team admin or team members who've logged an activity in the record timeline.
+- Users who've linked chats with the record.
+-	Other users who've logged an activity in the record timeline.
 
 
 ## Unlink a chat from a record
