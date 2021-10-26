@@ -79,7 +79,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
 
 ## Link an existing chat to a record
 You can link relevant Teams chats to a record so that all the members can easily access the linked chat from the record and follow the conversation. 
-1.	Open any Dynamics 365 Customer engagement record, and then select the **Teams chats and channels integration** icon. .  
+1.	Open any Dynamics 365 Customer Service record, and then select the **Teams chats and channels integration** icon. .  
     The Teams chats (preview) panel opens.
 2.	Select the **Channel** tab. 
     The tab lists the channels that are already linked to the opportunity. 
@@ -87,6 +87,26 @@ You can link relevant Teams chats to a record so that all the members can easily
     The **Collaborate with Microsoft Teams** dialog opens.
 4.	To start a new linked channel, select **Create a new connection**.
 5.	To link an existing channel, select the channel from the list, and then select **Start collaboration**.
+
+## Open Teams chats that are related to a record
+
+You can open any Dynamics 365 Customer Service record and select the **Teams chats and channels integration** icon. The **Teams chats (preview)** panel opens with the following sections in the **Chat** tab:  
+- Chats linked to the record: Lists Teams chats that either you’ve linked to the selected record or someone else has linked a chat with you as a participant. 
+- Suggested contacts: Lists suggested contacts depending on the users who are working on the record. For more information, see How does contacts suggestions work?  
+- Other chats: Lists your top 50 chat conversations on Teams. You can select any existing conversation and link it to a record. 
+
+The **Channels** tab lists the channels that either you’ve linked to the selected record or someone else has linked a channel where you’re a participant.  If you had linked a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab. 
+
+### How suggested contacts work
+The suggested contacts list displays users who are connected or have interacted with the record. So, a suggested contact could be one or more of the following users, in the given order:
+- If the record is assigned to a user, owner of the record.
+- If the record is assigned to a team, 
+   - Team admin
+   - Team members who've logged an activity in the record timeline.
+- Users who have linked chats with the record.
+-	Other users who have logged an activity in the record timeline.
+
+
 
 ## Unlink a chat from a record
 
