@@ -1,15 +1,17 @@
 ---
 title: "Personalize deal manager - Sales Enterprise | MicrosoftDocs"
 description: "As a seller, personalize the grid and apply filters to suit your needs."
-ms.date: 07/15/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Preview: Personalize the deal manager workspace 
+# Preview: Personalize the deal manager workspace
+ 
 
-## Requirements
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -21,6 +23,8 @@ manager: shujoshi
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+## Overview
 
 As a seller, you can personalize the deal manager workspace to suit your needs. You can,
 
@@ -158,6 +162,7 @@ In the deal manager workspace, select the views dropdown list and search for the
 
 :::image type="content" source="media/views-dropdown.PNG" alt-text="Screenshot highlighting the views dropdown list in deal manager.":::
  
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Enable customization of Opportunity Close form - Sales Enterprise | MicrosoftDocs"
 description: "Enable system customizers to customize the opportunity close experience so that sales reps can capture details about why an opportunity was closed."
-ms.date: 09/30/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,7 +9,10 @@ manager: annbe
 ---
 # Enable customization of the Opportunity Close form 
 
-## Requirements
+Enable system customizers to customize the opportunity close experience so that sellers can capture details about why an opportunity was closed.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -50,6 +53,7 @@ If you're using a custom app, in addition to enabling the customization of oppor
 > 3. On the **Opportunity Closing** page, turn the **Custom fields on closing form** toggle to **Yes**.
 > 4. Select **Save**.
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
