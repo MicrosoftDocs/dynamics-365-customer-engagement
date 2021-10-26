@@ -19,6 +19,7 @@ Enable system customizers to customize the opportunity close experience so that 
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Enable customization
 
 To allow users in your organization to capture more relevant details about an opportunity closing, a system administrator can enable the customization of the Opportunity Close form.
 
