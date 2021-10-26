@@ -8,6 +8,8 @@
     href: whats-new.md
   - name: Removed or deprecated features
     href: deprecations-sales.md    
+  - name: Known issues
+    href: https://go.microsoft.com/fwlink/?linkid=2171768
   - name: Sign up, install, and manage
     items:
     - name: Sign up for a free sales trial
@@ -162,12 +164,14 @@
       items:
       - name: Deal manager
         items:
-        - name: Using the deal manager workspace
-          href: deal-manager-seller-overview.md
-        - name: Access the deal manager workspace
-          href: access-deal-manager.md
-        - name: Personalize the deal manager workspace
-          href: personalize-deal-manager.md   
+        - name: Deal manager workspace
+          href: deal-manager-overview.md
+        - name: Enable/disable the deal manager workspace
+          href: enable-deal-manager-preview.md
+        - name: Grant or restrict access to deal manager
+          href: grant-access-deal-manager.md
+        - name: Customize the deal manager workspace
+          href: customize-deal-manager.md  
       - name: Enable customization of the Opportunity Close form
         href: enable-opportunity-close-customization.md
       - name: Customize the Opportunity Close form
