@@ -9,18 +9,17 @@ manager: shujoshi
 ---
 # Customize quick campaign and campaign activity distribution forms 
 
-## Requirements
+As a developer, use this reference documentation for customizing the quick campaign and distribute campaign activity forms. 
+
+> [!IMPORTANT]
+> Customization of quick campaign and campaign activity distribution forms is not available in the application by default. Contact Microsoft Support to enable this feature for your organization. 
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../sales/security-roles-for-sales.md)|
 |||
-
-
-You can use the **marketingformdisplayattributesset** Web API to customize the quick campaign and distribute campaign activity forms to meet the specific needs of your organization. Customization allows users to enter the information they need quickly. 
-
->[!NOTE]
->Customization of quick campaign and campaign activity distribution forms is not available in the application by default. Contact Microsoft Support to enable this feature for your organization. 
 
 ## Action parameters  
 

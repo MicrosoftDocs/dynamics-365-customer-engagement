@@ -10,6 +10,8 @@ manager: shujoshi
 ---
 # Uninstall Sales Insights 
 
+You can uninstall the Sales Insights Add-in for Dynamics 365 Sales if you don't want to use it in your organization.
+
 ## Requirements
 |  | |
 |-----------------------|---------|
@@ -18,7 +20,7 @@ manager: shujoshi
 |||
 
 
-You can uninstall the Sales Insights Add-in for Dynamics 365 Sales if you don't want to use it in your organization.
+## How to uninstall Sales Insights
   
 1.	As an administrator, sign in to your Dynamics 365 organization.
 2.	Go to **Advanced settings**, and then select **Settings** > **Customization** > **Solutions**.  
@@ -44,6 +46,8 @@ Although you've deleted the solutions, your organization data might still be sto
 ## What happens to data
 
 After you uninstall Sales Insights, Dynamics 365 won't keep any Sales Insights data for your organization in the storage locations where it's hosted.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

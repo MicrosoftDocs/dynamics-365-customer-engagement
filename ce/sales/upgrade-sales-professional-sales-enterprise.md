@@ -9,13 +9,17 @@ manager: annbe
 ---
 # Move from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise 
 
-## Requirements
+Learn the steps to upgrade from Sales Professional to Sales Enterprise.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Enterprise and Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Move from Sales Professional to Sales Enterprise 
 
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional is targeted at businesses that have simpler sales needs and do not require the full sales capabilities. However, if at any point you find your requirements growing, you can easily upgrade to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise. 
 
@@ -106,6 +110,7 @@ After you complete these steps, your organization will be effectively upgraded t
 > [!IMPORTANT]
 > As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
