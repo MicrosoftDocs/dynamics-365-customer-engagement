@@ -22,7 +22,7 @@ You can opt out of relationship analytics to ensure that no relationship analyti
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Introduction
+## Overview
 
 A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optout**) is added to the Contact, Lead, and SystemUser entities when you [enable](intro-admin-guide-sales-insights.md) the Dynamics 365 Sales Insights features in your Dynamics 365 Sales instance. The field lets you specify whether relationship analytics will be performed on the entity record's data.
 
