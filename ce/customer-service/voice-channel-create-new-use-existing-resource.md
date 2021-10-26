@@ -27,6 +27,7 @@ Before you can provision phone numbers for your business in Omnichannel Customer
 Before you connect to a new Azure resource, check whether you have the following:
 - A valid Azure subscription that's in the same tenant as your Dynamics 365 account.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal.
+
 **To create a new Azure resource**
 
 1. In Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**.

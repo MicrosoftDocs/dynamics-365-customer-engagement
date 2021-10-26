@@ -4,26 +4,14 @@ description: "Use this topic to understand how you can make customer calls in Om
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Call a customer
+# Call a customer
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
 To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. For more information, see [Outbound calling](voice-channel-outbound-calling.md).
 
@@ -48,5 +36,6 @@ In Omnichannel for Customer Service, you can select the **Launch dialer** phone 
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -25,7 +25,13 @@ Omnichannel for Customer Service helps you enable and use voice and SMS services
 
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. However, when the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
 
-## Acquire a new phone number
+## View phone numbers
+
+To view all available phone numbers in your organization, open Omnichannel admin center. Under **General settings**, select **Phone numbers**, and you'll see the list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
+
+If you don't have any phone numbers set up for your business, see [Acquire new phone numbers](#acquire-new-phone-numbers) to learn how you can purchase new numbers.
+
+## Acquire new phone numbers
 
 To be able to acquire new phone numbers for your business, you must first [connect to Azure Communication Services using a new or existing Azure resource](voice-channel-create-new-use-existing-resource), and then deploy the resource through Dynamics 365.
 
@@ -35,11 +41,11 @@ To be able to acquire new phone numbers for your business, you must first [conne
 
    The **Add phone number** dialog opens.
 
-4. On the **Features** page, do the following:
+2. On the **Features** page, do the following:
 
    a. Select your **Country/Region** from the dropdown list. The list of available plans for that specific country or region appears.
 
-   b. *(If you selected United States as the country)* Select the **Number type**, whether **Toll-free** or **Geographic**.
+   b. Select the **Number type**, whether **Toll-free** or **Geographic**.
 
    c. Select the **Calling plans**&mdash;**Receive calls**, **Make calls**, or both.
 
@@ -51,26 +57,27 @@ To be able to acquire new phone numbers for your business, you must first [conne
    
    A **Summary** with the newly allotted phone number and its details is displayed.
 
-5. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers** page.
+3. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers** page.
   
    The new phone number is displayed in the numbers list with the status **Ready for setup**.
 
    > [!Note]
-   >  - After you are allotted a new number, you'll have just 15 minutes to purchase the number. If the time lapses, you'll have to try purchasing again.
-   >  - After you select **Purchase phone number**, you can close the page by selecting **Close** and return to the **Phone numbers** page.
-   >  - The purchase happens in the background and the new phone number appears in the numbers list with **Pending** status. 
+   >  - After you're allotted a new phone number, you'll have purchase it within the next 15 minutes. If the time elapses, you'll have to try purchasing again.
+   >  - After you select **Purchase phone number**, you can close the page by selecting **Close** and return to the **Phone numbers** page. The purchase happens in the background and the new phone number appears in the phone numbers list with **Pending** status.
 
-6. Select **Setup Workstream** to [add the phone number to a workstream](#add-a-phone-number-to-a-workstream) or select **Done** to go back to the **Phone numbers** page where you can view details of the phone number you just purchased.
+4. Select **Setup Workstream** to [add the phone number to a workstream](#add-a-phone-number-to-a-workstream) or select **Done** to go back to the **Phone numbers** page where you can view details of the phone number you just acquired.
 
-After you've acquired a phone number, you can do the following:
-- [Connect it to a voice workstream](#add-a-phone-number-to-a-workstream)
 - [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling) - [Assign it as a personal number to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
 
-## Add a phone number to a workstream
+### Add a phone number to a voice workstream
 
-After you've acquired a phone number, you must add it to a workstream to be able to use it. You can associate a phone number with only one workstream.
+After you've acquired a phone number, you must add it to a voice workstream to be able to use it. You can associate a phone number with only one voice workstream.
 
-**To add a workstream to a phone number**
+### Configure phone number for outbound calling
+
+After you've purchased phone numbers and associated them with voice workstreams, you can configure them for outbound and inbound calls. 
+
+**To add a voice workstream to a phone number**
 
 1. In Omnichannel admin center, under **General settings**, select the phone number that's marked **Ready for setup** in the **Status** column.
 
@@ -84,9 +91,9 @@ After you've acquired a phone number, you must add it to a workstream to be able
 
 5. [Configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
 
-   The workstream is added to the phone number and you can view the **Connected** status for phone number on the **Phone numbers** page.
+   The workstream is added to the phone number and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
-## Edit phone number
+## Edit phone numbers
 
 If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number.
 
@@ -107,10 +114,10 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 
 ## Release phone number
 
-If you no longer need a phone number, you can release it from your organization's phone number list. 
+If you no longer need a phone number, you can release it from your organization's phone number list.
 
 [!Important]
-When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure you don't need it at all.
+When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
 
 **To release a phone number**
 
@@ -122,11 +129,9 @@ When you release a phone number, you actually delete it from Dynamics 365, so re
 
    The **Release number** dialog requesting you to confirm the number deletion is displayed.
 
-3. Select **OK** if you are sure you don't need the number.
+3. Select **OK** if you're sure you don't need the number.
 
    The **Phone numbers** page displays the phone number status as **Pending release**.
-
-
 
 ### See also
 

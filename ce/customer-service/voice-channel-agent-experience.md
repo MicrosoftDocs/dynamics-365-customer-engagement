@@ -1,30 +1,17 @@
 ---
 title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
-description: "Use this topic to understand agent experience in Omnichannel for Customer Service."
+description: "Use this topic to understand how the agent use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/31/2021
+ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Use agent dashboard and call controls in the voice channel
+# Use agent dashboard and call controls in the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]>
 
 ## Introduction
 
@@ -38,7 +25,7 @@ When a customer calls your business, the incoming call is received by an intelli
 
 ## Call controls
 
-The conversation panel in the agent dashboard includes the following call controls that you can use when you call or answer a phone call from a customer.
+The conversation panel in the agent dashboard includes the following call controls that you can use when you call or answer phone calls from customers.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of call controls](./media/voice-channel-call-controls.png)
@@ -88,7 +75,7 @@ The **Details** tab of the Conversation Form displays call recording details.
 
 **Recording playback**
 
-- **Play**:  Select the button to listen to the conversation audio.
+- **Play**: Select the button to listen to the conversation audio.
 - **Rewind** or **Fast-forward**: Select the buttons to either rewind in 10-second increments or fast-forward in 30-second increments.
 - **Volume**: Move the slider to adjust the volume to your desired level.
 - **Download audio**: Download an .mp4 audio file of the complete conversation.
@@ -129,9 +116,9 @@ The **Metrics** tab of the Conversation Form displays the following details:
 
 The **Sessions** tab displays details about the number of voice calls between the agent and the customer, as well as the length of time of the conversation and the date and time each conversation took place.
 
-
 ### See also
 
-[Overview of the voice channel](voice-channel.md)
+[Overview of the voice channel](voice-channel.md)  
+[Call a customer in the voice channel](voice-channel-outbound-call-customer.md)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
