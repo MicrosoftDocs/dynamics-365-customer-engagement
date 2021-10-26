@@ -89,7 +89,7 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
    The workstream is added to the phone number and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
-### Configure phone number for outbound calling
+### Configure phone numbers for outbound calling
 
 After you've purchased phone numbers and associated them with voice workstreams, you can configure them for outbound calls so your agents can actually make calls to customers. More information: [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling).
 
