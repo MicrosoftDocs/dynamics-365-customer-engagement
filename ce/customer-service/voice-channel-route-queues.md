@@ -60,7 +60,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 5. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
 
    - Notify position in queue
-   - Notify average wait time 
+   - Notify average wait time
 
 6. Turn on the **Channel operating hours** toggle, and select an operating hour record.
 
