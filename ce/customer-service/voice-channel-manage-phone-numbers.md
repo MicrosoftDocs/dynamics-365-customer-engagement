@@ -98,7 +98,7 @@ After you've purchased phone numbers and associated them with voice workstreams,
 If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number.
 
 > [!Important]
-> You cannot upgrade a phone number or change your call or SMS plans, after it is connected to a workstream.
+> You cannot upgrade a phone number or change your call or SMS plans, after it's connected to a workstream.
 
 **To edit a phone number**
 
@@ -114,7 +114,7 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 
 ## Release phone number
 
-If you no longer need a phone number, you can release it from your organization's phone number list.
+If you no longer need a phone number, you can release it from your organization's phone number list. However, before you plan to remove a phone number from your business, you must remove the number from any associated workstream or outbound profiles. Also, if the number is assigned as a personal number to any agent, you must disable the number, and then try releasing it again.
 
 [!Important]
 When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
