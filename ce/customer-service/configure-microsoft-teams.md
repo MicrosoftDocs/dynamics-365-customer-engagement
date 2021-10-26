@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service."
-ms.date: 10/12/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,7 +24,7 @@ Make sure that the following prerequisites are met:
   > [!NOTE]
   > To enable the Teams channel in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
-- An app is created and configured in **Teams** > **App Studio**.
+- An app is created and configured in **Teams** > **App Studio**. More information: [Build your first Teams app using C#](/microsoftteams/platform/get-started/get-started-dotnet-app-studio?tabs=AS).
 
 ## Configure a Microsoft Teams channel in Omnichannel admin center<a name="configureinoac"></a>
 
