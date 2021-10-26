@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 # Customize Power BI template apps for Dynamics 365 Sales 
 
-In this article, you'll learn how to use Power BI template apps to visualize and analyze the sales data.
+You can use Power BI template apps to visualize and analyze the sales data.
 
 > [!IMPORTANT]
 > Microsoft doesn't support customizations made to the Power BI template app and doesn't provide updates after modifications are made
