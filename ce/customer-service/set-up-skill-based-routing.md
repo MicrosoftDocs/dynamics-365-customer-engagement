@@ -1,7 +1,7 @@
 ---
 title: "Set up skill-based routing | MicrosoftDocs"
 description: "Use the information to set up skill-based routing for unified routing in Customer Service."
-ms.date: 06/07/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
