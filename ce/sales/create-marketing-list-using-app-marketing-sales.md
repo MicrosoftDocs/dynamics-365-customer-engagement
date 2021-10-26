@@ -1,11 +1,11 @@
 ---
 title: "Create a marketing list using in-app marketing - Sales Enterprise | MicrosoftDocs"
 description: "A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.."
-ms.date: 10/01/2019
+ms.date: 10/25/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -22,15 +22,6 @@ searchScope:
 ---
 # Create a marketing list using in-app marketing (Sales) 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
-
 Your marketing list is the core of running a successful marketing campaign. It can include any one type of customer record, such as leads, accounts, or contacts.  
   
  You can create two types of marketing lists:  
@@ -38,6 +29,14 @@ Your marketing list is the core of running a successful marketing campaign. It c
 - **Static** Use a static list if you prefer to add and update members manually.  
   
 - **Dynamic** Use a dynamic marketing list if you want the list to return a list of members dynamically when needed, based on search criteria you set. For example, if you want to run a campaign to members of a specific city, use a dynamic list. A dynamic marketing list retrieves the updated list of members each time you open the list, create a quick campaign from the list, or distribute a campaign activity for a campaign associated with the list.  
+
+## License and role requirements
+
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
   
 ## Create a marketing list  
   
@@ -152,6 +151,8 @@ Your marketing list is the core of running a successful marketing campaign. It c
 If you're using a custom form for a marketing list that doesn't include certain fields, you'll see the following message: 'The form is missing the following elements: 'query', 'membertype', 'accountsUCI', 'contactsUCI', 'leadsUCI', 'dynamic_accounts', 'dynamic_contacts', 'dynamic_leads'. Functionalities will be affected.
 
 The elements listed in the message are required to populate the members list that is included in the default form. If your custom form doesn't display the members list, you can ignore the message.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
  [Get started with in-app marketing](get-started-app-marketing-sales.md)   

@@ -1,11 +1,11 @@
 ---
 title: "Create or edit quotes - Sales Enterprise | MicrosoftDocs"
 description: "Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it."
-ms.date: 02/10/2021
+ms.date: 10/25/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-quote
@@ -17,15 +17,6 @@ searchScope:
 ---
 # Create or edit quotes (Sales Hub) 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
-
 One way that can help you increase your sales is to add all products that your customer might need to your quote. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
   
  Most sales begin with a price quote, which eventually becomes an order.  
@@ -33,6 +24,13 @@ One way that can help you increase your sales is to add all products that your c
  You'll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it's ready to go to a customer.  
   
  When the customer accepts the quote, you create an order. Otherwise, you close the quote as revised, canceled, or lost.  
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
   
 ## Create a quote from an opportunity (Sales Hub)
 
@@ -95,7 +93,9 @@ One way that can help you increase your sales is to add all products that your c
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit an order](create-edit-order-sales.md)  
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
-  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
  [Sales transactions in Dynamics 365 Sales](sales-transactions.md)  
  [Create a PDF file](create-quote-pdf.md)  
