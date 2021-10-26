@@ -118,6 +118,9 @@ You can create and train machine-learning models that use AI to determine the ne
 
 Intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. More information: [Availability of AI Builder](/ai-builder/availability-region).
 
+ > [!IMPORTANT]
+ > If you want to import skill finder models from one environment to another, make sure that you import and export between environments of the same type. A model trained in test environment will work only in another test environment and not in a production environment.
+
 ### Create skill finder models
 
 Perform the steps in this section to set up the intelligent skill finder model. You can create as many models as your business requires.
