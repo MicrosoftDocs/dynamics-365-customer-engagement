@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 10/19/2021
+ms.date: 11/01/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -13,7 +13,7 @@ ms.custom: intro-internal
 
 ## Overview
 
-A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and case.
+A workstream is a container to enrich, route, and assign work items. The workstream is associated with a channel, such as live chat, voice, or case.
 
 The workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work assignment settings of the workstream they belong to.
 
@@ -21,6 +21,7 @@ The workstream can be one of the following types:
 
 - **Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
 - **Record**: To route records, such as case, email, and activity.
+- **Voice**: To route calls made to the support numbers listed on the customer portal.
 
 
 > [!IMPORTANT]
@@ -45,6 +46,7 @@ Perform the following steps:
     - **Type**: Select one of the following types:
          - **Messaging**: To configure the workstream for chat and other conversation channels.
          - **Record**: To configure the workstream for entity record, such as case and email activity.
+         - **Voice**: To configure the workstream for the voice channel. More information: [Overview of voice channel](voice-channel.md)
     
     - **Channel**: This box appears if you have selected the type as **Messaging**. Select a channel from the list.
          - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md).
@@ -52,7 +54,7 @@ Perform the following steps:
     - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list.  More information: [Set up record routing](set-up-record-routing.md).
     
     - **Work distribution mode**: Select **Push** or **Pick**.
-         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up.
+         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, only push mode is available.
          - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
 
 4. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
