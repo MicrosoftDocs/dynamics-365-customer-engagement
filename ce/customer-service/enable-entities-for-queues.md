@@ -8,11 +8,11 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Enable entities for queues for unified routing
+# Enable entities for queues in unified routing
 
 ## Enable an entity for queues<a name="enable-entities"> </a>
 
-Any record you want to enable for routing needs to be enabled for queues.
+Any record that you want to enable for routing needs to be enabled for queues.
 
 1. Sign in to the Dynamics 365 instance.
 

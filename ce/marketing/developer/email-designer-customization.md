@@ -1,7 +1,7 @@
 ---
 title: "Customize the email designer (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to customize the email designer in Dynamics 365 Marketing."
-ms.date: 04/07/2021
+ms.date: 10/21/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -33,8 +33,8 @@ To customize the email designer:
     > ![Screenshot showing the Email properties form.](../media/email-customize-properties.png)
 1. Select **Save**.
 1. Because the **Email properties** form is working in the context of the main form (**New editing experience**), you must add **new** attributes to the **New editing experience** form in order for the customizations to take effect. To add new attributes to the main form, open the **New editing experience** form and add any new attributes at the end. The attributes won't be visible to users.
-    > [!IMPORTANT]
-    > If you add a subgrid to the **Email properties** form, you *should not* add it to the main form. If you do add a subgrid targeting the same entity on both forms, the subgrids must have different names.
+    > [!WARNING]
+    > If you add a subgrid to the **Email properties** form, you *should not* add it to the main form. If you add a subgrid targeting the same entity on both forms, the subgrids *must* have different names.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot showing the New editing experience form.](../media/email-customize-attributes.png)

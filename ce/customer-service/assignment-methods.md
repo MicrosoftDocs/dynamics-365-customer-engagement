@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 10/07/2021
+ms.date: 10/19/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -77,6 +77,7 @@ Some important points about prioritization rules are as follows:
 - Prioritization rules are run during every assignment cycle. If you change any attributes of the work item, such as the priority of the case, that change will be considered during the next assignment cycle.
 - By default, the queue is sorted in the "first in first out" basis. If you don't create a prioritization rule, then the oldest work item will be assigned first.
 - The work items that don't match the criteria of any of the prioritization rule sets are kept in the last priority bucket, and are ordered by "First in first out".
+- Prioritization rules are skipped for affinity work items and such work items will be assigned before other work items in the queue. For information about affinity, see [Agent affinity](create-workstreams.md#agent-affinity).
 
 ## How assignment rulesets work
 

@@ -1,7 +1,7 @@
 ---
 title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
-ms.date: 05/27/2021
+ms.date: 10/20/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -21,7 +21,7 @@ search.app:
 
 # Overview (Marketing)
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4FRAO" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RWNgjy" frameborder="0" allowfullscreen=""></iframe></div>
 
 Dynamics 365 Marketing is a marketing automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with Dynamics 365 Sales, and has built-in business intelligence. Use Dynamics 365 Marketing to:
 

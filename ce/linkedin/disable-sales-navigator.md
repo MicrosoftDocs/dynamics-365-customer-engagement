@@ -14,10 +14,10 @@ ms.custom:
 
 Disabling the integration will stop showing the Sales Navigator controls.
 
-1. In your app, select **Settings** ![Settings.](../sales-enterprise/media/settings-icon.png), and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings.](../sales/media/settings-icon.png), and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map.](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+    > ![Advanced Settings link in the site map.](../sales/media/advanced-settings-option.png "Advanced Settings link in the site map")
 
     The **Business Management settings** page opens in a new browser tab.
 
