@@ -80,7 +80,19 @@ High level steps involved:
    - **Connection String**: Indicates the connection string of the Azure resource. Open your existing resource on the Azure portal, and go to **Tools** > **Keys** > **Primary key**. Select the value of the **Connection string** field, select the **Copy to clipboard** button, and then paste the value in this field.
    - **Event grip app ID**: Indicates the application ID of your Azure app registration. Open
    - **Event grip app tenant ID**: 
-3. 
+3. Select **Connect**. After the Azure resource is connected, you'll be able to provision or acquire new phone numbers for your organization.
+4. Select **Add number**. The **Add phone number** page is displayed.
+5. Follow the procedure to [add new phone numbers](#acquire-new-phone-numbers).
+6. On the Azure portal, open Event Grid System Topics. Select Create and in the Create Event Grid System Topic page, select the subscription and resource group from the dropdown lists.
+1. For Topic Types, select Azure Communication Services.
+1. For Subscription, select 
+1. For Resource group, select the resource group you created earlier
+1. 
+1. 
+1. 
+1. 
+
+
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
