@@ -1,8 +1,8 @@
 ---
-title: "Work with Predictive opportunity scoring (Sales Insights) | MicrosoftDocs"
+title: "Work with Predictive opportunity scoring"
 description: "Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates."
 keywords: ""
-ms.date: 11/16/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -12,14 +12,6 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 # Prioritize opportunities through scores 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 
 In a highly competitive market, it is important for you to spend time on quality opportunities to reach your sales targets. You must identify and prioritize opportunities to convert them into wins. The predictive opportunity scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for opportunities in your pipeline. The out-of-the-box model chooses top factors that influence the score. An administrator can view and modify the top factors that influence the scores by customizing the model. To learn more, see [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
 

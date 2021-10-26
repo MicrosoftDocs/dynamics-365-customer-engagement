@@ -1,8 +1,8 @@
 ---
-title: "Optimize insight cards ranking in assistant (Sales Insights) | MicrosoftDocs"
+title: "Optimize insight cards ranking in assistant"
 description: "Use optimize ranking in assistant to modify the ranking of cards that are important and promotes those cards to display at the top."
 keywords: ""
-ms.date: 10/01/2019
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 73b590f5-883a-46c5-9d2e-a9b9157a9614
@@ -16,13 +16,6 @@ caps.latest.revision: 1
 ---
 # Optimize ranking of insight cards 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
@@ -34,7 +27,14 @@ Several cards are defined for your organization and all will be displayed to the
 
 You can define up to four rules in the ranking section, based on entities such as Account, Leads, and Opportunity. Also, the cards are given a priority in the order you define. For example, you created two rules—the first is to prioritize cards for which annual revenue is above $100,000 and the second is to prioritize cards for which estimated revenue is above $10,000. The assistant analyzes the cards and displays those with annual revenue of more than $100,000, followed by those with estimated revenue of more than $10,000, and then followed by the cards that are not prioritized. 
 
-Follow these steps to rank the cards:
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## To rank the cards
 
 1.	Sign in to **Dynamics 365 Sales** and go to **Sales Hub** app.
 
@@ -72,12 +72,12 @@ Follow these steps to rank the cards:
 
     The ranking rule is created, processed, and applied to the cards in your organization.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+
 ### See also
 
-[Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)
-
-[Create insight cards](create-insight-cards-flow.md)
-
+[Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)   
+[Create insight cards](create-insight-cards-flow.md)    
 [Edit insight cards](edit-insight-cards.md)
 
 

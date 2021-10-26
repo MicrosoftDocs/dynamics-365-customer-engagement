@@ -1,7 +1,7 @@
 ---
-title: "Work with Predictive lead scoring (Sales Insights) | MicrosoftDocs"
+title: "Work with Predictive lead scoring"
 description: "Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates."
-ms.date: 11/16/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -11,14 +11,6 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 # Prioritize leads through scores 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 
 In a highly competitive market, it is important for you to spend time on quality leads to reach your sales targets. You must identify and prioritize leads to convert them onto opportunities. The predictive lead scoring of Dynamics 365 Sales Insights provides a scoring model to generate scores for leads that are available for you in your pipeline. The out-of-the-box model chooses top factors that influence the score. An administrator can view and modify the top factors that influence the scores by customizing the model. To learn more, see [Configure predictive lead scoring](configure-predictive-lead-scoring.md).
 

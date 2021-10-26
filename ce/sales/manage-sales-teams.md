@@ -1,7 +1,7 @@
 ---
 title: "Manage sales teams in assignment rules for lead and opportunity routing"
 description: "Manage sales teams in assignment rules by assigning attributes and configuring the maximum number of leads and opportunities that a seller can handle at once."
-ms.date: 09/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -10,13 +10,6 @@ products:
     - Sales premium
 ---
 # Manage sales teams in assignment rules 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
 
 Using sales team management in assignment rules, you can assign attributes to sellers and configure the maximum number of leads and opportunities that a seller can handle at once. When the rule is applied to a record, the attributes and capacity you've defined here will determine how the record is assigned.
 
@@ -27,6 +20,13 @@ You can use the **Team settings** page to:
 -	[Turn off record assignment to sellers](#turn-off-record-assignment-to-sellers).
 
 Before you start using the sales teams designer, verify that the security roles that are assigned to your sellers were selected when the sales accelerator was configured. More information: step 4 in [Set up the sales accelerator](enable-configure-sales-accelerator.md)
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## Add attributes to sellers
 
@@ -120,6 +120,8 @@ When a seller is on vacation or otherwise unavailable, you can disable record as
 
     >[!div class="mx-imgBorder"]
     >![Confirm turning record assignment off](media/sa-ar-sales-team-turnoff-availability-confirmation-message.png "Confirm turning record assignment off")
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

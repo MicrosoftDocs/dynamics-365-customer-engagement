@@ -1,8 +1,8 @@
 ---
-title: "View overall insights of your sales and sellers (Sales Insights) | MicrosoftDocs"
+title: "View overall insights of your sales and sellers"
 description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence."
 keywords: ""
-ms.date: 06/18/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -13,6 +13,8 @@ topic-status: Drafting
 ---
 # View and understand home page 
 
+When you sign in to conversation intelligence as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
+
 ## Requirements
 |  | |
 |-----------------------|---------|
@@ -20,8 +22,7 @@ topic-status: Drafting
 | **Security Role** | Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-When you sign in to conversation intelligence as a sales manager, you’ll see the home page. This page provides high-level information on the status of your current sales period and insights on what your customers are talking about, behaviors of your top sellers, and the team’s sales pipeline for the selected time period.
+## Sections of the home page
 
 Typically, the home page is divided into the following sections:
 
@@ -254,6 +255,8 @@ The following image is an example of how the call recording KPIs are displayed.
 
 > [!div class="mx-imgBorder"]
 > ![Call recording KPIs](media/si-app-call-recording-kpis.png "Call recording KPIs")
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 
