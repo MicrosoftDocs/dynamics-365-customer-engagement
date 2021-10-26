@@ -29,7 +29,7 @@ ms.custom:
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 
-As an agent, you can chat in Teams from within Dynamics 365 Customer Service Hub and Customer Service workspace. While working on customer records, you can start a new chat or link an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
+As an agent, you can chat in Microsoft Teams from within Dynamics 365 Customer Service Hub and Customer Service workspace. While working on customer records, you can start a new chat or link an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
 
 > ![NOTE]
 > This feature must first be enabled by an administrator, and you must have certain permissions to access Teams data. More information: [Configure Teams chat in Customer Service](/configure-teams-chat)
@@ -49,7 +49,7 @@ The following legend describes the numbered callouts in the above image.
 | 2 | Filter |  Filter chats by name. |
 | 3 | Linked chats | Chats that are associated with a Dynamics 365 record. These chats can only be viewed in Dynamics 365 by the chat participants. |
 | 4 | Chats linked to other records | Chats that are associated with other Dynamics 365 records that the current user is a part of. Users can prioritize responses to these chats over other chats. |
-| 5 | Other chats | Chats that aren't linked to any records or started from Microsoft Teams. |
+| 5 | Other chats | Chats that aren't linked to any records or started from Teams. |
 | 6 | Chat control | Allows users to multi-task across chats. |
 | 7 | Basic Teams functions | Format, use emojis, use gifs, set delivery options, attach files. |
 | 8 | Add/Remove participants | Select who participates in the chat and who doesn't. |
