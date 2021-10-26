@@ -1,7 +1,7 @@
 ---
 title: "Understand conversation states in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 10/18/2021
+ms.date: 10/19/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -27,7 +27,7 @@ The conversation can be in an open or closed state and can have the following st
 
  ![Omnichannel conversation states.](media/oc-conversation-state.png "Conversation states")
 
- *Channel* refers to the chat, SMS, social, and Teams channels supported in Omnichannel for Customer Service.
+ *Channel* refers to SMS, social, and Teams channels supported in Omnichannel for Customer Service.
 
 ## Open
 
@@ -37,7 +37,7 @@ The conversation (work item) transitions from **Open** to **Active** or **Closed
 
 | From status reason | To status reason | Scenario  | Type |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Open          | Active           | When you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. | Channel and Record |
+| Open          | Active           | When you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. | Channel |
 | Open          | Closed           | When the customer disconnects or ends the chat before the conversation is assigned to you.| Chat |
 
 ![Transition from open to active or closed.](media/oc-conversation-open1.png "Transition from open to active or closed")
@@ -51,8 +51,8 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | From status reason | To status reason | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). | Channel |
-| Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Channel  |
-| Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation.  |  Channel  |
+| Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> When you close the session while the conversation is active (applicable only to Live chat channel). (applicable only to Live chat channel).  | Channel  |
+| Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation.  |  Channel <br><br> The status change isn't applicable to Live chat. | 
 | Active | Closed | When you resolve the case (or get a record to non-active state) and close the session. | Record |
 
 
@@ -60,7 +60,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 
 ## Wrap-up
 
-This is an intermediate state after you end the conversation, when you can do post-conversation activities such as taking notes and update the customer information, before moving the conversation to the **Closed** state. In the **Wrap-up** state, your (agent) capacity is consumed.
+This is an intermediate state after you end the conversation, when you can do post-conversation activities such as taking notes and update the customer information, before moving the conversation to the **Closed** state. In the **Wrap-up** state, your (agent) capacity is blocked according to the duration that your administrator has selected in the **Block agent's capacity during wrap-up** field in the workstream. If your administrator has selected **Always block**, your capacity is blocked as long as the conversation is in the Wrap-up state. In **Don't block**, your capacity is released as soon as conversation moves from Active to Wrap-up state. Additionally, your administrator may also select a duration ranging from 1 minute to 15 minutes as well.
 
 The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario.
 
@@ -71,6 +71,8 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 ![Transition from wrap-up to closed state.](media/oc-conversation-wrap-up1.png "Wrap-up state")
 
 ## Waiting
+> [!NOTE]
+> Waiting state is not applicable to Live chat channel.
 
 A conversation in waiting doesn't block your capacity. The conversation gets transitioned to waiting when you (agent) close the session without ending the conversation (that is, without selecting the **End** button on the communication panel) or when the customer closes the browser window without closing the chat widget. For example, you're waiting for some information from customer and don't want to end the conversation or the customer's browser closes unexpectedly.
 
@@ -78,7 +80,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 
 | From status reason | To status reason | Scenario  | Type |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Waiting       | Closed           | When there's no activity on this conversation from either customer or agent, within inactivity timeout period. <br><br> When the customer selects the **End** button to end the conversation and close the session (only for a chat channel).| Channel  |
+| Waiting       | Closed           | When there's no activity on this conversation from either customer or agent, within inactivity timeout period. | Channel  |
 | Waiting       | Active           | When you revive the session from your **My work items** stream on **Omnichannel Agent Dashboard**. | Channel |
 | Waiting       | Open             | When the customer revives the conversation within a specified timeout period while the session is still active in the browser. | Channel |
 
@@ -123,7 +125,7 @@ For the chat channel, consider a conversation that's in the **Open** state at 18
 
 ### Conversation in waiting
 
-For chat and SMS channel, a conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the work stream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
+For SMS channel, a conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the work stream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
 
 For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than 5 minutes.
 
