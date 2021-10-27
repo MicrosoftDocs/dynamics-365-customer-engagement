@@ -39,7 +39,7 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
    > ![Settings menu screenshot, session details is under the general category.](media/sessionid-uci-step-2.png)
    > ![Session details screenshot, session id is in the middle of the page.](media/sessionid-uci-step-3.png)
 
-## Get the session ID from the sign in screen
+### Get the session ID from the sign in screen
 
 On the sign in screen, select the clipboard icon and then select **Copy session ID**.
 
@@ -49,9 +49,15 @@ On the sign in screen, select the clipboard icon and then select **Copy session 
 
 ## Share logs
 
+Send your logs directly to Microsoft, you we can help troublehoot your issue.
+
 1. On the sign in screen, select the clipboard icon and then select **Share logs**.
 2. Select a sharing option such as Outlook.
-3. Once the logs added to the email, send the email to {dynmobisup@microsoft.com}(dynmobisup@microsoft.com).
+3. Once the logs added to the email, send the email to [dynmobisup@microsoft.com](dynmobisup@microsoft.com).
 
+Alternatively, You can also share logs from home screen.
+
+1. Select the site map ![Site map.](media/d365_mobile_sitemap_icon.png "Site map"), and then select your picture or the profile button.
+2. Under **Help** select **Share logs** and send the logs from your email to [dynmobisup@microsoft.com](dynmobisup@microsoft.com).
 
    
