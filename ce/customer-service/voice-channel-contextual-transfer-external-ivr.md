@@ -1,6 +1,6 @@
 ---
-title: "Integrate third-party IVR with the voice channel: Azure Direct Routing | MicrosoftDocs"
-description: "Use this topic to understand how you can integrate third-party IVRs with the Omnichannel for Customer Service voice channel and set up contextual communication via Azure Direct Routing."
+title: "Integrate third-party IVR with the voice channel: Azure direct routing | MicrosoftDocs"
+description: "Use this topic to understand how you can integrate third-party IVRs with the Omnichannel for Customer Service voice channel and set up contextual communication via Azure direct routing."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Azure Direct Routing lets you integrate third-party IVRs with Omnichannel for Customer Service voice channel, and perform a contextual communication between them.
+Azure direct routing lets you integrate third-party IVRs with Omnichannel for Customer Service voice channel, and perform a contextual communication between them.
 
 Before you proceed with this section, you must be familiar with the following:
 - [Azure direct routing infrastructure requirements](../../azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
@@ -21,9 +21,9 @@ Before you proceed with this section, you must be familiar with the following:
 
 Follow these steps to set up contextual communication between the voice channel and third-party IVRs.
 
-1. Set up Azure Direct Routing to connect Session Border Controllers (SBCs) linked to the third-party IVR to Dynamics 365. 
+1. Set up Azure direct routing to connect Session Border Controllers (SBCs) linked to the third-party IVR to Dynamics 365.
 
-2. Register the phone number that’s assigned to the third-party IVR into Dynamics 365 by [bringing your own number](voice-channel-bring-your-own-number.md).  
+2. Register the phone number that’s assigned to the third-party IVR into Dynamics 365 by bringing in your own number. More information: [Bring your own number: Azure direct routing](voice-channel-bring-your-own-number.md).  
 
 3. At the point of transfer in the IVR, issue a SIP (Session Initiation Protocol) REFER request to the Azure Communication Services resource. This will transfer the call to the Azure resource that's connected to Dynamics 365. 
 
