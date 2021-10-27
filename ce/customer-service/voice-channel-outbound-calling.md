@@ -82,7 +82,7 @@ In private preview, only *one* outbound profile can be created. While you can ed
 4. In the **Create outbound profile** dialog, enter the following details:
    a. In the **Basic info** section, add the following details:
      - **Profile name**: Enter a profile name.
-     - **Phone number**: Select a phone number from the dropdown list. Note that the list only shows those numbers enabled for outbound calling. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-a-phone-number-for-outbound-calling).
+     - **Phone number**: Select a phone number from the dropdown list. Note that the list only shows those numbers enabled for outbound calling. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-phone-numbers-for-outbound-calling).
      - **Queue**: Select a queue from the dropdown list. The list shows only voice type queues, so if you don't see any queues in the list, you'll need to [create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels).
      - **Capacity**: Select one or more capacity profiles from the dropdown list.
      - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
@@ -121,7 +121,7 @@ You can assign personal phone numbers to agents to make outbound calls to custom
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Bring your own number: Azure Direct Routing](voice-channel-bring-your-own-channel.md)  
+[Bring your own number: Azure Direct Routing](voice-channel-bring-your-own-number.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

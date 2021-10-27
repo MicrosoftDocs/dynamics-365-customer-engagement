@@ -58,7 +58,7 @@ Before you bring in your own number, do the following:
 
 4. Select **Add Number**.
 
-The new phone number will be displayed in the Phone numbers list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-route-queues), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents). 
+The new phone number will be displayed in the Phone numbers list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-route-queues.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents). 
   
 ### See also
 

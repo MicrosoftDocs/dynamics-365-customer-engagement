@@ -119,6 +119,6 @@ The **Sessions** tab displays details about the number of voice calls between th
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Call a customer in the voice channel](voice-channel-outbound-call-customer.md)   
+[Call a customer in the voice channel](voice-channel-call-customer.md)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
