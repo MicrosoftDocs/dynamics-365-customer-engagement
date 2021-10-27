@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
 description: "Configure historical analytics reports for Omnichannel"
-ms.date: 10/12/2021
+ms.date: 10/27/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -55,21 +55,11 @@ The Unified routing historical analytics report will be available as a tab in th
 
 ### View Omnichannel historical analytics reports
 
-The service managers must have either the Omnichannel administrator, Omnichannel supervisor, or the CSR manager role to view the reports.
+The service managers must have either the Omnichannel Administrator, Omnichannel Supervisor, or the CSR Manager role to view the reports.
 
 ### Provide report access to additional security roles
 
-If your organization needs to enable users with different privileges to access the reports beyond the default ones, you can perform the following steps to share the reports to the additional roles.
-
-1. In Dynamics 365, select **Settings**, and then select **Advanced Settings**.
-
-2. On the page that appears, select **Security**, and then select **Security roles**.
-
-3. Select the security role that you want to provide access to. For example, Omnichannel supervisor.
-
-4. Select the **Custom Entities** tab, and then select an entity, for example "Omnichannel historical analytics".
-
-5. Select **Save and Close**.
+If your organization needs to enable users with different privileges to access reports in addition to the default ones, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
 ### See Also
 
