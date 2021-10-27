@@ -36,7 +36,7 @@ If you don't have any phone numbers set up for your business, see [Acquire new p
 
 ## Acquire new phone numbers
 
-To be able to acquire new phone numbers for your business, you must first [connect to Azure Communication Services using a new or existing Azure resource](voice-channel-create-new-use-existing-resource), and then deploy the resource through Dynamics 365.
+To be able to acquire new phone numbers for your business, you must first [connect to Azure Communication Services using a new or existing Azure resource](voice-channel-create-new-use-existing-resource.md), and then deploy the resource through Dynamics 365.
 
 **To add a new phone number**
 
@@ -66,7 +66,7 @@ To be able to acquire new phone numbers for your business, you must first [conne
 3. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers** page.
 
     > [!div class="mx-imgBorder"]
-    > ![Add phone number.](./media/voice-channel-number-mgmt-add-summary.png "Add phone number.")
+    > ![Summary page.](./media/voice-channel-number-mgmt-add-summary.png "Summary page.")
   
    The new phone number is displayed in the numbers list with the status **Ready for setup**.
 
