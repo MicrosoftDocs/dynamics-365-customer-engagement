@@ -28,7 +28,7 @@ Before you bring in your own number, do the following:
 
 - [Understand Azure direct routing](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
 
-- [Get a certified SBC](/azure/communication-services/concepts/telephony-sms/certified-session-border-controllers)
+- [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony-sms/certified-session-border-controllers)
 
 - [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony-sms/direct-routing-provisioning)
 
