@@ -11,13 +11,13 @@ ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 
-# Add conversational IVR with Power Virtual Agents
+# Add conversational interactive voice response with Power Virtual Agents
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
-Conversational IVR bots speak to customers when they call in to route their call to the best department, diagnose issues, collect information, and give recommendations. Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
+To route customers call to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call in. Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
 
 Some of the features of the Power Virtual Agents bots for voice are as follows:
 
