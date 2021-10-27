@@ -1,24 +1,26 @@
 ---
 title: Search records in the Dynamics 365 Sales mobile app
 description: Learn how to search records in the Dynamics 365 Sales mobile app.
-ms.date: 10/20/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-# Search records 
+# Search records in the mobile app
 
-## Requirements
+You can search for records such as contacts, accounts, leads, notes, and opportunities in the Dynamics 365 Sales mobile app.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** |Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
 
+## Search records
 
-
-You can search for records in the Dynamics 365 Sales mobile app. On the navigation bar at the bottom of the scree, tap **Search** and enter text in the search box to find related information quickly. When you start typing, suggested records are displayed that include the text. Enter the complete words for better results.
+On the navigation bar at the bottom of the screen, tap **Search** and enter text in the search box to find related information quickly. When you start typing, suggested records are displayed that include the text. Enter the complete words for better results.
 
 > [!NOTE]
 > You must enable relevance search for the environment in which you enable the mobile app. More information: [Configure relevance search to improve search results and performance](/power-platform/admin/configure-relevance-search-organization)

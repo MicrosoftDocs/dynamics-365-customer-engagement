@@ -1,7 +1,7 @@
 ---
-title: "Handle Custom plug-in by using shared variable – Sales Enterprise | MicrosoftDocs"
+title: "Handle Custom plug-in by using shared variable"
 description: "Use a shared variable in your custom plug-in to prevent it from triggering operations on parent entities."
-ms.date: 07/09/2020
+ms.date: 10/26/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,14 +11,6 @@ ms.custom:
 ms.reviewer: susikka
 ---
 # Custom plug-in handling by using a shared variable 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../sales/security-roles-for-sales.md)|
-|||
-
 
 ## Issue
 

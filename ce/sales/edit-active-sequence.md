@@ -1,7 +1,7 @@
 ---
-title: "Edit an active sequence (Sales Insights) | MicrosoftDocs"
+title: "Edit an active sequence (Sales Insights)"
 description: "Edit an active sequence by creating new versions of the sequence without deactivating it in sales accelerator."
-ms.date: 04/09/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,17 +9,17 @@ manager: shujoshi
 ---
 # Edit an active sequence and view version history 
 
-## Requirements
+When you've changed the process of an active sequence, you can create a new version of the sequence without deactivating it. You can update a sequence multiple times, and when you connect a record to the sequence, the record will be connected to the latest version.
+
+>[!IMPORTANT]
+>The records that were connected to a previous version of the sequence remain connected to that previous version.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
-When you've changed the process of an active sequence, you can create a new version of the sequence without deactivating it. You can update a sequence multiple times, and when you connect a record to the sequence, the record will be connected to the latest version.
-
->[!IMPORTANT]
->The records that were connected to a previous version of the sequence remain connected to that previous version.
 
 ## Edit an active sequence
 
@@ -67,13 +67,15 @@ Viewing the version history helps you to understand the number of versions that 
  
 3.	Select **Version history**.   
 
-    A list of versions that exist<!--note from editor: Edit okay? You've said that a new lead gets connected to the most recent version by default, so it doesn't seem quite right to say the older versions are available.--> for the sequence is displayed on the right pane.
+    A list of versions that exist for the sequence is displayed on the right pane.
 
     > [!div class="mx-imgBorder"]
     > ![Select version history option](media/sequence-version-select-version-history.png "Select version history option")
 
     >[!NOTE]
     >If there are no leads connected to the sequence, and you created a new version, only the latest version is displayed in the list.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

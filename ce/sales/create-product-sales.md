@@ -1,7 +1,7 @@
 ---
 title: "Create a product (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use products in Dynamics 365 Sales to define the products or services that your organization offers."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,19 +16,21 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Set up products (Sales Hub) 
+# Set up products 
 
-## Requirements
+Use products in Dynamics 365 Sales to define the products or services that your organization offers
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Create a product (Sales Hub)
 
 Products are the backbone of your business. They can be physical products or services—whatever your organization sells. Your sales reps use the products you create in [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] to generate sales quotes, marketing campaigns, orders, and invoices. Your customer service reps might also use them when they create customer service cases.  
-
-## Create a product (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]
 
@@ -84,6 +86,8 @@ Products are the backbone of your business. They can be physical products or ser
  ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
   
  ![Home button](media/walkthrough-home.png "Home button") [Classify products and bundles into product families](create-product-bundles-sell-multiple-items-together.md)  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also  
  [Set up a product catalog](set-up-product-catalog-walkthrough.md)  

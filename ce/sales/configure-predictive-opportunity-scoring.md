@@ -1,7 +1,7 @@
 ---
-title: "Configure predictive opportunity scoring (Sales Insights) | MicrosoftDocs"
+title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 10/01/2019
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: a1d02708-0e40-4967-ae1a-40e9c67186c8
@@ -16,12 +16,16 @@ topic-status: Drafting
 ---
 # Configure predictive opportunity scoring 
 
-## Requirements
+Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## What is predictive opportunity scoring
 
 Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity.   
 
@@ -572,6 +576,8 @@ By default, the predictive opportunity scoring widget is available only in the o
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
 
 9. Save and publish the form.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

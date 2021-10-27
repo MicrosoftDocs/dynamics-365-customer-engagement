@@ -1,7 +1,7 @@
 ---
 title: "Delete or deactivate an assignment rule (Sales Insights)"
 description: "Permanently delete an assignment rule that is no longer required in your organization, or deactivate to retain the rule in the application in inactive mode."
-ms.date: 09/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,14 +9,16 @@ manager: shujoshi
 ---
 # Delete or deactivate an assignment rule 
 
-## Requirements
+You can deactivate or delete an assignment rule that's no longer required in your organization. Deactivation keeps the rule, but it won't be used to assign leads to any sellers in the future. Deleting the rule removes it from the application, but leads that were already assigned to sellers through the rule won't be affected. 
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-You can deactivate or delete an assignment rule that's no longer required in your organization. Deactivation keeps the rule, but it won't be used to assign leads to any sellers in the future. Deleting the rule removes it from the application, but leads that were already assigned to sellers through the rule won't be affected.   
+## To delete or deactivate an assignment rule   
 
 >[!NOTE]
 >In this procedure, we are using lead as an example to delete or deactivate an assignment rule. Similarly, you can use this procedure to delete or deactivate opportunity assignment rule. 
@@ -39,6 +41,8 @@ You can deactivate or delete an assignment rule that's no longer required in you
 
         >[!div class="mx-imgBorder"]
         >![Confirmation message for deleting a rule](media/sa-ar-delete-rule-confirmation-message.png "Confirmation message for deleting a rule")
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

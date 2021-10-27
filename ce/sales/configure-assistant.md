@@ -1,8 +1,8 @@
 ---
-title: "Configure the Assistant (Sales Insights) | MicrosoftDocs"
+title: "Configure the Assistant"
 description: "Configure Assistant to help sellers track their daily actions and communications through a collection of actionable insight cards."
 keywords: ""
-ms.date: 08/10/2020
+ms.date: 10/10/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 7170bd24-0252-4158-9e31-42004847ecbb
@@ -17,12 +17,16 @@ topic-status: Drafting
 ---
 # Configure the assistant 
 
-## Requirements
+Configure the assistant to help sellers track their daily actions and communications through a collection of actionable insight cards.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## Configure the standard and premium assistant 
 
 The assistant in Dynamics 365 Sales (formerly known as relationship assistant) helps sellers track their daily actions and communications through a collection of actionable insight cards. 
 
@@ -143,6 +147,8 @@ The updates in Sales Insights are displayed to sellers as teasers in the assista
     > ![Disable teasers](media/disable-teasers.png "Disable teasers")
 
 Teasers will be disabled in your organization.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

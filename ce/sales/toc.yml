@@ -299,6 +299,8 @@
           href: create-and-activate-a-sequence.md
         - name: Adaptive sequences
           href: adaptive-sequence.md
+        - name: Add LinkedIn activities to sequence
+          href: linkedin-activities-sequence.md
         - name: Connect a sequence to records
           href: connect-a-sequence-to-records.md
         - name: View details of a sequence and its connected records
@@ -740,6 +742,8 @@
         href: ../customerengagement/on-premises/developer/product-catalog-entities.md
       - name: Manage products, families, bundles, and properties
         href: ../customerengagement/on-premises/developer/create-manage-product-families-products-bundles-product-properties.md
+      - name: View product hierarchy
+        href: view-product-hierarchy.md
       - name: Publish, revise, revert, retire, and activate products
         href: ../customerengagement/on-premises/developer/publish-revise-revert-retire-activate-products.md
       - name: Product pricing methods

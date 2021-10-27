@@ -20,14 +20,7 @@ search.app:
 
 # Sales Insights privacy notice 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | ALL <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](https://go.microsoft.com/fwlink/p/?LinkID=389041).
+This article covers privacy notices for Sales Insights capabilities. Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](https://go.microsoft.com/fwlink/p/?LinkID=389041).
 
 ## Sales Insights standard features
 

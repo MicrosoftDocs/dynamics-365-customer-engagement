@@ -1,11 +1,11 @@
 ---
 title: "Nurture sales from lead to order (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the out-of-the-box sales process to close more deals and improve customer satisfaction."
-ms.date: 10/02/2021
+ms.date: 10/25/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -18,13 +18,6 @@ searchScope:
   - Sales
 ---
 # Understand the sales process 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
 
 A sales process includes a set of repeatable steps that sellers follow to engage with a prospective customer from the early stage of awareness to close a sale. A sales process vary from organization to organization. Typically, the process breaks down into stages that target specific steps, such as qualifying a customer or presenting the solution to the customer.
 

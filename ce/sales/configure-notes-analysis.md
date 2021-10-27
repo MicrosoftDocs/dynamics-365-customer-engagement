@@ -1,7 +1,7 @@
 ---
-title: "Configure notes analysis (Sales Insights) | MicrosoftDocs"
+title: "Configure notes analysis"
 description: "Configure and enable notes analysis to display intelligent suggestions when your users enter an activity on the timeline."
-ms.date: 08/10/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 08662c5d-1809-44fd-81d9-dc12774eb5e8
@@ -16,14 +16,16 @@ topic-status: Drafting
 ---
 # Configure notes analysis 
 
-## Requirements
+To help users with intelligent suggestions when they enter an activity in the timeline&mdash;such as an appointment, email, phone call, task, note, post, or any custom activities&mdash;enable notes analysis.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-To help users with intelligent suggestions when they enter an activity in the timeline&mdash;such as an appointment, email, phone call, task, note, post, or any custom activities&mdash;enable notes analysis.
+## To configure notes analysis 
 
 1. Verify that premium Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
@@ -41,6 +43,8 @@ To help users with intelligent suggestions when they enter an activity in the ti
 
     > [!div class="mx-imgBorder"]
     > ![Enable notes analysis](media/si-admin-notes-analysis-enable.png "Enable notes analysis")
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

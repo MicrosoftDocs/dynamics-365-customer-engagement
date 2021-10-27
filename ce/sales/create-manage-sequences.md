@@ -1,7 +1,7 @@
 ---
-title: "Manage sequences in sales accelerator (Sales Insights) | MicrosoftDocs"
+title: "Manage sequences in sales accelerator"
 description: "Manage sequences in sales accelerator by creating, activating, connecting, viewing details, cloning, editing, and deleting."
-ms.date: 01/11/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,16 +9,18 @@ manager: shujoshi
 ---
 # Manage sequences 
 
-## Requirements
+Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator, Sequence manager, or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
+## Use sequence designer designer
 
-As a sequence manager, you can use the sequence designer to:  
+As a sequence manager, you can use the sequence designer to do the following tasks:  
 - [Create and activate a sequence](create-and-activate-a-sequence.md).
 - [Connect a sequence to records](connect-a-sequence-to-records.md).
 - [View details of a sequence and its connected records](view-sequence-details-connected-records.md).
@@ -26,10 +28,11 @@ As a sequence manager, you can use the sequence designer to:
 - [Edit a sequence](edit-a-sequence.md).
 - [Delete a sequence](delete-a-sequence.md).
 
-## Review prerequisites
+## Review prerequisite
 
-Before you start, be sure you have met the following prerequisites:   
-- The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md).
+Before you start, be sure you that the sales accelerator feature is configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md).
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]    
 
 <table>
 <tr><td>

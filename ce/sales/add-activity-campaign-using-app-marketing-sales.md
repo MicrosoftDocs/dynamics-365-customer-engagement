@@ -1,11 +1,11 @@
 ---
 title: "Add activity to campaign in in-app marketing - Sales Enterprise | MicrosoftDocs"
 description: "Create, distribute, and assign planning and campaign activities to a marketing campaign in Dynamics 365 Sales to make it successful."
-ms.date: 10/01/2019
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -19,15 +19,6 @@ searchScope:
 ---
 # Add activity to campaign using in-app marketing 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
-
 Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Planning activities are those you want to perform before you launch the campaign, and campaign activities are those you want to manage as part of the campaign. Examples of planning and campaign activities you can add include:  
   
 - Identify advertising channels and supporting materials  
@@ -38,9 +29,18 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
 - Contact a design agency to request creation of collateral pieces and advertising materials  
   
-  By default, a campaign targets an activity to the group of marketing lists that you select for the campaign. If you want to run a campaign activity on a subset of your marketing lists, you can distribute the activity to certain members instead.  
+  By default, a campaign targets an activity to the group of marketing lists that you select for the campaign. If you want to run a campaign activity on a subset of your marketing lists, you can distribute the activity to certain members instead. 
+
+## License and role requirements
+
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
   
-<a name="Collapsed1"></a>   
+<a name="Collapsed1"></a> 
+
 ## Add a planning activity to a campaign  
   
 1. In the site map, select **Marketing Lists**.
@@ -103,7 +103,8 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
 11. When the activity is completed, update the campaign activity record with the actual costs. Open the campaign activity and update the **Actual Cost** field. This can help guide you in planning future campaign activities.  
   
-  
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See Also  
  [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   

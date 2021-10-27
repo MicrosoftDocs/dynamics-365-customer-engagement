@@ -1,7 +1,7 @@
 ---
-title: "Configure keywords and competitors in conversation intelligence | MicrosoftDocs"
+title: "Configure keywords and competitors in conversation intelligence"
 description: "Configure conversation content such as, keywords and competitors to track in conversation intelligence in Dynamics 365 Sales organization."
-ms.date: 11/06/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 2d1fb7e4-f059-4e9b-b52e-f6023bc57ab2
@@ -14,16 +14,17 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+
 # Configure conversation content    
 
-## Requirements
+Configure conversation content such as, keywords and competitors to track in conversation intelligence in Dynamics 365 Sales organization.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
-Using the conversation content, you can [add keywords and competitors](#add-keywords-and-competitors).
 
 ## Open conversation content settings page    
 > [!NOTE]
@@ -67,6 +68,8 @@ Configure tracked keywords and competitors that are relevant to you and your org
     > ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")    
 5.	Repeat **step 4** to add other competitors' names.  
 6.	Select **Save**.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
-title: "Connect or disconnect to your Dynamics 365 Sales environment | MicrosoftDocs"
+title: "Connect or disconnect to your Dynamics 365 Sales environment"
 description: "Use data source to connect or disconnect multiple Dynamics 365 Sales environment with your conversation intelligence."
-ms.date: 08/01/2018
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -12,18 +12,20 @@ topic-status: Drafting
 ---
 # Connect to Dynamics 365 Sales environment 
 
-## Requirements
+The **Data sources** section helps you to disconnect or connect a Dynamics 365 Sales environment with your conversation intelligence. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
+
+At a time, you can have only one active Dynamics 365 Sales environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
+
+As an administrator, you must configure the Dynamics 365 Sales environment to connect to conversation intelligence.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-The **Data sources** section helps you to disconnect or connect a Dynamics 365 Sales environment with your conversation intelligence. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
-
-At a time, you can have only one active Dynamics 365 Sales environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
-
-As an administrator, you must configure the Dynamics 365 Sales environment to connect to conversation intelligence.
+## To connect to a Dynamics 365 Sales environment 
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
@@ -88,6 +90,8 @@ As an administrator, you must configure the Dynamics 365 Sales environment to co
     > ![Set up progress message](media/si-app-admin-status-message-set-up.png "Set up progress message")
   
 Now, your conversation intelligence is ready with the data of the added environment.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

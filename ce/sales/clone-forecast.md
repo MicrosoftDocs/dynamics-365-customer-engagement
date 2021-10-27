@@ -1,7 +1,7 @@
 ---
-title: "Clone a forecast (Dynamics 365 Sales) | MicrosoftDocs"
-description: "How to clone a forecast in Dynamics 365 Sales."
-ms.date: 04/09/2021
+title: "Clone a forecast in Dynamics 365 Sales"
+description: "Learn how to clone a forecast in Dynamics 365 Sales."
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,17 +9,16 @@ manager: shujoshi
 ---
 # Clone a forecast 
 
-## Requirements
+When you clone a forecast, you duplicate any configurations you made previously. You can work on this cloned forecast as a draft for a new forecast that better meets your needs. You retain the configurations you want, make edits to others, and create a new forecast that matches your requirements. After you make the changes, you can save and activate the cloned forecast.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-When you clone a forecast, you duplicate any configurations you made previously. You can work on this cloned forecast as a draft for a new forecast that better meets your needs. You retain the configurations you want, make edits to others, and create a new forecast that matches your requirements. After you make the changes, you can save and activate the cloned forecast.
-
-**To clone a forecast**
+## To clone a forecast
 
 1. Sign in to the Sales Hub app.
 
@@ -40,6 +39,8 @@ When you clone a forecast, you duplicate any configurations you made previously.
     The clone of the selected forecast is opened in edit mode.
 
 6. Edit the forecast to meet your needs, and then activate it.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

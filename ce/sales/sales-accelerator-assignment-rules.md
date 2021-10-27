@@ -1,7 +1,7 @@
 ---
 title: "Configure sales accelerator for assignment rules"
 description: "Configure sales accelerator for assignment rules to automatically assign leads and opportunities to sellers."
-ms.date: 10/08/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -11,13 +11,17 @@ ms.custom:
 ---
 # Configure assignment rules in Sales Enterprise
 
-## Requirements
+Configure sales accelerator for assignment rules to automatically assign leads and opportunities to sellers.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## What are assignment rules
 
 Use assignment rules in sales accelerator to automatically assign new leads and opportunities to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance the assignments among sellers.    
 
@@ -65,6 +69,8 @@ As an administrator, you can create rules that match lead or opportunity attribu
     > ![Status of the configuration message.](media/sales-accelerator-configuration-status-message.png "Status of the configuration message")
  
     The sales accelerator is configured to manage assignment rules in your organization for the selected security roles.  
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

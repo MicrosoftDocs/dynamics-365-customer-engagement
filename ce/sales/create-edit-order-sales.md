@@ -1,11 +1,11 @@
 ---
 title: "Create or edit sales orders - Sales Enterprise | MicrosoftDocs"
 description: "Use orders to track details of the products or services that your customers want to place an order for."
-ms.date: 02/10/2021
+ms.date: 10/25/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-quote
@@ -18,7 +18,11 @@ searchScope:
 ---
 # Create or edit sales orders 
 
-## Requirements
+Congratulations! Your hard work nurturing your customer has paid off and they're ready to place an order for your products or services. In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
+  
+ One way that can help you increase your sales is to add all products that your customer might need to your order. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell. If you've already prepared a quote for your customer, you can create an order from that quote.  
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -26,13 +30,10 @@ searchScope:
 |||
 
 
-
-Congratulations! Your hard work nurturing your customer has paid off and they're ready to place an order for your products or services. In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
-  
- One way that can help you increase your sales is to add all products that your customer might need to your order. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell. If you've already prepared a quote for your customer, you can create an order from that quote.  
-  
 <a name="bkmk1"></a>   
-## Create an order from a quote  
+
+## Create an order from a quote 
+
  Typically, you convert a quote that you have won into an order. Start with an active quote. Note that after a quote is accepted, you won't be able to revise it.  
   
 1. In the Sales Hub app, select the Site map icon ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Quotes**. 
@@ -111,8 +112,11 @@ meaningful and unique. By default, these records are sorted by Name in the recor
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit an invoice](create-edit-invoice-sales.md)  
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md) 
-  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
+
 [Print quote, invoice, or other records](print-records.md)  
 [Sales transactions in Dynamics 365 Sales](sales-transactions.md)
 

@@ -1,7 +1,7 @@
 ---
-title: "Add additional filters to a forecast (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Add additional filters to a forecast (Dynamics 365 Sales)"
 description: "Add additional filters to a forecast in Dynamics 365 Sales."
-ms.date: 08/01/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,13 +9,16 @@ manager: shujoshi
 ---
 # Apply additional filters 
 
-## Requirements
+Add additional filters to refine the opportunities that participate in calculating the forecast values.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager<br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Add additional filters on opportunities to calculate forecast values 
 
 Using additional filters, you can filter the opportunities that participate in calculating the forecast values. To filter the opportunities, you create filters based on conditions by using the attributes that belong to the Opportunity entity, including related entity attributes.
 
@@ -43,6 +46,8 @@ For example, you know that opportunities related to **Adatum Corporation** and r
     > ![Enter the second condition.](media/forecast-add-filter-configure-condition-2.png "Enter the second condition")
  
     Now the conditions are created for the query. When the forecast is activated, the query will be executed to filter the forecast for the added conditions.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 <table>
 <tr><td>

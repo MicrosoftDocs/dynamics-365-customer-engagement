@@ -1,7 +1,7 @@
 ---
-title: "Add the up next widget to a custom form | MicrosoftDocs"
+title: "Add the up next widget to a custom form"
 description: "Display the up next widget on your customized forms through sales accelerator configuration in Sales Insights."
-ms.date: 11/16/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,14 +9,18 @@ manager: shujoshi
 ---
 # Add the Up next widget to a custom form 
 
-## Requirements
+Display the Up next widget on your customized forms through sales accelerator configuration in Dynamics 365 Sales.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-By default, the Up next widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms by following these steps.
+## Add th Up next widget
+
+By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms by following these steps.
 >[!NOTE]
 >- You can add the **Up next** widget only to managed forms.
 >- Adding the **Up next** widget is supported only in Unified Interface apps.
@@ -46,7 +50,12 @@ By default, the Up next widget is available only in the out-of-the-box Sales Ins
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.    
 9. Save and publish the form.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+
 ### See also
 
 [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)   
 [Connect with customers through a record or the Up next widget](connect-with-customers.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
