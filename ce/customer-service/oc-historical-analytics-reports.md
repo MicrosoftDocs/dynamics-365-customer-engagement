@@ -55,7 +55,7 @@ The Unified routing historical analytics report will be available as a tab in th
 
 ### View Omnichannel historical analytics reports
 
-The service managers must have either the Omnichannel Administrator, Omnichannel Supervisor, or the CSR Manager role to view the reports.
+The service managers must have either the Omnichannel Administrator, Omnichannel Supervisor, or CSR Manager role to view the reports.
 
 ### Provide report access to additional security roles
 

@@ -37,7 +37,7 @@ To enable the Knowledge search analytics dashboard:
 
 ### View Customer Service knowledge search analytics reports
 
-The service managers must have the System Administrator, Knowledge Manager, or the CSR Manager role to view the reports.
+The service managers must have the System Administrator, Knowledge Manager, or CSR Manager role to view the reports.
 
 You can see the reports by navigating to the **Service** > **Insights** > **Knowledge search analytics** page. Search term insights are displayed.
 
