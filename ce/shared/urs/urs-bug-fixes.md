@@ -1,3 +1,17 @@
+## 3.12.65.6
+
+(Includes Resource Scheduling controls version 1.2.5.212813)
+
+- Enabled Group By capability on new schedule board list view. 
+- On new schedule board, start showing dotted line when user drag and drop requirement to the board. 
+- Fixed the bug: when update contact record with integration job,  Field Service: Update (Pre-operation) for contact plug in throws Error: **System.ServiceModel.QuotaExceededException: 'The size necessary to buffer the XML content exceeded the buffer quota.'** 		
+- Added retry mechanism and logged more information for troubleshooting when Geocode API fails with HTTP 403.
+
+## 3.12.64.78
+This release is a hotfix on Universal Resource Scheduling version [3.12.64.46](/dynamics365/common-scheduler/bug-fixes#3126478)
+
+- Added retry mechanism and logged more information for troubleshooting when Geocode API fails with HTTP 403
+
 ## 3.12.64.46 - 2021 wave 2 early access general availability 
 
 (Includes Resource Scheduling controls version 1.2.2.212724)
