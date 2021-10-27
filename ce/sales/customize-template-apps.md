@@ -21,7 +21,7 @@ You can use Power BI template apps to visualize and analyze the sales data.
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Overview
+## Customize the template apps
 
 Power BI is a comprehensive collection of services and tools that you use to visualize your business data. Power BI Template apps make it easy to visualize and analyze the sales data with Power BI based on a standard data model. The Sales Analytics for Dynamics 365 Sales and Process Analytics for Dynamics 365 Power BI template apps are built with a set of entities and fields that are useful for most reporting scenarios.
 
