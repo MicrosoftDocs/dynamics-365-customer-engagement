@@ -1,15 +1,16 @@
 ---
-title: "Get session ID and logs to help troubleshoot your issue | MicrosoftDocs"
+title: "Get logs and session ID to help troubleshoot your issue | MicrosoftDocs"
 ms.custom:
-description: Get session ID and logs to help troubleshoot your issue in Dynamics 365 for phones and tablets.
-ms.date: 10/28/2021
+description: Get logs and session ID to help troubleshoot your issue.
+ms.date: 10/27/2021
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: error-reference
-applies_to: Dynamics 365 appscaps.latest.revision: 1
-ms.assetid: 55e7ba52-2f17-4eaf-8281-70cd739887f8
+applies_to: Dynamics 365 apps
+ms.assetid: 55e7ba56-2f18-4eaf-8282-70cd639887f8
+caps.latest.revision: 1
 ms.author: mkaur
 author: mduelae
 manager: kvivek
@@ -21,7 +22,6 @@ search.app:
   - D365CE
   - D365Sales
 ---
-
 # Get logs and session ID to help troubleshoot your issue
 
 If you encounter a problem with the mobile app, you can help Microsoft troubleshoot the problem much more effectively if you provide them with a session ID and logs for that problem.
