@@ -1,8 +1,8 @@
 ---
-title: "Auto capture customer-related activities (Sales Insights) | MicrosoftDocs"
+title: "Auto capture customer-related activities"
 description: "Use auto capture to collect customer-related activities from your Outlook data and display suggestions on emails and meetings." 
 keywords: 
-ms.date: 10/31/2018
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
@@ -12,14 +12,6 @@ manager: shujoshi
 caps.latest.revision: 13
 ---
 # Capture customer-related activities with auto capture 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 
 Auto capture helps salespeople by simplifying the logging of customer-related activities into Dynamics 365 Sales. Auto capture provides activity suggestions for emails and meetings related to your work based on data captured from your Outlook account. This helps you see relevant emails and meetings on your timeline, together with all the other activities related to a given record.
 

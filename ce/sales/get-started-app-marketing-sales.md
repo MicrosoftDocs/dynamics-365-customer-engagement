@@ -1,7 +1,7 @@
 ---
-title: "Get started with in-app marketing - Sales Enterprise | MicrosoftDocs"
+title: "Get started with in-app marketing"
 description: "Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 10/26/2021
 ms.custom: intro-internal
 ms.topic: get-started-article
 author: lavanyakr01
@@ -18,17 +18,15 @@ searchScope:
 ---
 # Get started with in-app marketing (Sales) 
 
-## Requirements
+Promote your business and improve sales with targeted marketing campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Create activities for each campaign and assign them to different team members. Track customer response and costs for each campaign. Follow this step-by-step guide to get started with your marketing campaigns.  
+  
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-Promote your business and improve sales with targeted marketing campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Create activities for each campaign and assign them to different team members. Track customer response and costs for each campaign. Follow this step-by-step guide to get started with your marketing campaigns.  
-  
 ## Import contacts, accounts, and leads  
  Get your customer records into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and add these to marketing lists so you can target your campaigns. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import accounts, leads, or other data](../customerengagement/on-premises/basics/import-accounts-leads-other-data.md)  
   
@@ -63,6 +61,8 @@ Promote your business and improve sales with targeted marketing campaigns in [!I
  More information: [System Settings dialog box - Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab)  
   
  Note that you cannot add unsubscribe functionality to direct email or email templates.  
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
   
 ### See also  
  [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   

@@ -1,7 +1,7 @@
 ---
 title: "Delete a family, product, or bundle - Sales Enterprise | MicrosoftDocs"
 description: "To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,18 +11,20 @@ ms.custom:
 ---
 # Delete a family, product, or bundle (Sales Hub) 
 
-## Requirements
+To stop selling a product, bundle, or family, delete it. If you delete a parent family, its child products, families, and bundles are also deleted.
+
+> [!IMPORTANT]
+>  You can't recover a deleted record. If you don't want to delete a product record but want to temporarily unpublish it, then [retire the product record](retire-product.md).
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted.  
-  
-> [!IMPORTANT]
->  You can't recover a deleted record.  
+## Delete a product record
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -39,7 +41,9 @@ To stop selling a product, delete it. If you delete a parent family, its child p
    
 >[!NOTE]
 >Products or bundles can't be deleted if they are associated with an existing quote, order, or invoice.  
-  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
  [Create a product family](../sales-enterprise/create-product-family.md)

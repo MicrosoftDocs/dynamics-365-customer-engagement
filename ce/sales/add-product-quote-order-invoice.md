@@ -1,7 +1,7 @@
 ---
 title: "Add products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales."
-ms.date: 09/02/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,7 +20,10 @@ searchScope:
 ---
 # Add products to quotes, orders, or invoices (Sales Hub) 
 
-## Requirements
+You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. 
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -28,10 +31,9 @@ searchScope:
 |||
 
 
+## Add a product
 
-You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. 
-
-If you’ve created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones. You can also add products from a different opportunity by selecting **Get products** from the command bar.
+If you've created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones. You can also add products from a different opportunity by selecting **Get products** from the command bar.
 
 The process for adding a product to a quote record is the same as adding a product to an order or an invoice. This topic explains how to add products to a quote record.
 
@@ -86,6 +88,7 @@ Here are the actions you can take on the products in the Products grid:
 |See and add related products for cross-selling or upselling or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The **Suggestions** pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
  [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  

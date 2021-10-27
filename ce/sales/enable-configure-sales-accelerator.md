@@ -1,7 +1,7 @@
 ---
 title: "Enable and configure sales accelerator (Sales Premium)"
 description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 01/11/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,12 +9,17 @@ manager: shujoshi
 ---
 # Configure the sales accelerator for Sales Premium
 
-## Requirements
+Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## Configuration steps
 
 The sales accelerator feature helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in your sales app. An administrator or a sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. Sequences are connected to relevant records, so sellers can follow the best practices that have been defined in the sequence for the record types that are assigned to them. The sequence is then applied to record types and assigned to a seller automatically, according to your organization's sales strategies.  
 
@@ -123,6 +128,8 @@ The sales accelerator is ready to use in your organization for the selected secu
 ## Customizations
 
 By default, the **Up next** widget is displayed on the **Default Main** and **Sales Insight** forms. To add the **Up next** widget to other forms, follow the process specified in [How do I add the Up next widget to an entity form?](faqs-sales-insights.md#sales-accelerator)
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

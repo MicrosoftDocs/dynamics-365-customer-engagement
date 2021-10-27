@@ -22,15 +22,6 @@ searchScope:
 ---
 # Price calculation for opportunity, quote, order, and invoice records 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
-
 System price calculation is used to calculate values for the price-related fields of the opportunity, quote, order, and invoice records such as price per unit, volume discount, manual discount, or extended amount. An administrator or system customizer can set the preference for using system pricing calculations in **System Settings**. More information: [System Settings Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)
 
 > [!TIP]

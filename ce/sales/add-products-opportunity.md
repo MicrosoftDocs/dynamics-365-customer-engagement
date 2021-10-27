@@ -1,24 +1,30 @@
 ---
 title: "Add products to an opportunity - Sales Enterprise | MicrosoftDocs"
 description: "Develop your opportunity by defining product bundles or families that makes easier for you to choose products for upsell and cross-sell."
-ms.date: 06/15/2020
+ms.date: 10/26/2021
 ms.topic: article
+ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
-# Add products to an opportunity (Sales Hub) 
 
-## Requirements
+# Add products to an opportunity
+
+Develop your opportunity by adding products, bundles or families that you want to sell,upsell, and cross-sell.
+
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Find and add products to an opportunity 
 
-
-A way that might help you increase your sales is to add all products that your customer might need. You can add product bundles or product families to make it easier for you to choose products for upsell and cross-sell. The product might already exist in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or it can be a product that you write in. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
+You can add a product that already exists in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or add a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
 
 
 1. From the list of opportunities, open the opportunity to which you want to add products.
@@ -73,6 +79,8 @@ You can take the following actions on the products added to the **Product Line I
 
 > [!IMPORTANT]
 > If your system administrator has enabled the enhanced "add product" experience for adding products to an opportunity, you'll see a different experience. To learn more, see [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md).
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
 

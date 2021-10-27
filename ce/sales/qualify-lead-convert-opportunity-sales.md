@@ -1,11 +1,11 @@
 ---
 title: "Qualify or convert leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
-ms.date: 02/10/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-lead
@@ -17,14 +17,16 @@ searchScope:
 ---
 # Qualify or convert leads (Sales Hub) 
 
-## Requirements
+Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
+## Qualify or convert a lead
 
 Does your lead have what you're looking for and vice versa? After you've identified the timeframe, budget, purchase process, and decision makers for the sale, it's time to qualify your lead. 
 
@@ -33,7 +35,7 @@ Your system administrator defines what happens to a lead when it is qualified:
 -  If they've set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to Yes, an account, contact, and opportunity record is created when the lead is qualified.
 
 
-## Qualify a lead (Sales Hub)
+**To qualify a lead**
 
 1. Select the site map ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Leads**.
 
@@ -95,11 +97,15 @@ The lead is qualified.
 ## What happens to notes and attachments when leads are qualified?
 
 When salespeople work on a lead, they use notes to store key information on the things they have researched about the lead. This could be information like new contacts at the site, current value of the contract, vendor information and so on. When a lead is qualified, these notes are displayed in the Opportunity record so that the information is not lost.
+
  
 ## Typical next steps  
+
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit an opportunity](create-edit-opportunity-sales.md)  
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md) 
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also  
 [Define lead qualification experience](define-lead-qualification-experience.md)  

@@ -1,22 +1,13 @@
 ---
 title: "Troubleshooting the Lead entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Lead entity in Dynamics 365 Sales."
-ms.date: 05/26/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
 # Troubleshooting the Lead entity  
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 
 This article helps you troubleshoot and resolve issues related to the Lead entity.
 

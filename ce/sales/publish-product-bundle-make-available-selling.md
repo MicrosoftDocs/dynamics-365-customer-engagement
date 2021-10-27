@@ -1,7 +1,7 @@
 ---
 title: "Publish a product or bundle to make it available for selling (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Publish a product or bundle in Dynamics 365 Sales to make it available to the sales agents so they can build orders or create opportunities for customers."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,22 +9,24 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 ---
-# Publish a product, family, or bundle to make it available for selling (Sales Hub) 
+# Publish a product, family, or bundle to make it available for selling 
 
-## Requirements
+Publishing a product or bundle makes the product available for selling in Dynamics 365 Sales. Sellers can choose only published products and bundles when creating opportunities, quotes, and so on.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Publish a product, family, or bundle
 
-When you're ready to sell a product or bundle, publish it to make it available to the sales agents so they can build orders or create opportunities for customers. By default, product records are created in a draft state, and are available to your sales agents only after you publish it. For products that don't have a parent product family, you can create them directly in an active state using a system setting, so that you don't have to publish them after creation. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)  
+By default, product records are created in a draft state, and are available to your sales agents only after you publish it. For products that don't have a parent product family, you can create them directly in an active state using a system setting, so that you don't have to publish them after creation. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)  
 
 > [!NOTE]
 >  You can only publish a product or bundle with a parent family if the parent product family is active.  
-     
-## Publish a product, family, or bundle (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -49,6 +51,8 @@ When you're ready to sell a product or bundle, publish it to make it available t
   
  ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md) 
   
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 

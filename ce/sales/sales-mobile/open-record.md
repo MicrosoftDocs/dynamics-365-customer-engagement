@@ -1,7 +1,7 @@
 ---
 title: Manage records in the Dynamics 365 Sales mobile app
 description: Learn to view and edit records in the Dynamics 365 Sales mobile app.
-ms.date: 10/20/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -9,21 +9,20 @@ manager: shujoshi
 ---
 # Manage records 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
-|||
-
-
-
 Records can be accessed from the home page or the Meetings page.
 
 - On the home page, go to the **Recent records** section.   
 - On the Meetings page, go to the **Regarding** section.   
 
 You can [view details](#view-details), [create new records](#create-records-and-activities), and [edit records](#edit-records) on the home and Meetings pages. Additionally, you can [change a regarding record](view-agenda.md#change-regarding-record) and [add a regarding record](view-agenda.md#add-regarding-record) on the Meetings page.
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
+|||
+
 
 ## View details
 

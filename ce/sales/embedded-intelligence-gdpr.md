@@ -2,7 +2,7 @@
 title: "Sales Insights and GDPR | Microsoft Docs"
 description: "Protect customer privacy and remain compliant with GDPR regulations when using Sales Insights add-in for Dynamics 365."
 keywords: "GDPR; data protection; privacy;"
-ms.date: 10/31/2018
+ms.date: 10/26/2021
 ms.topic: article
 author: KumarVivek
 ms.author: kvivek
@@ -10,13 +10,6 @@ manager: kvivek
 topic-status: Drafting
 ---
 # Sales Insights add-in for Dynamics 365 and GDPR 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
 
 The **General Data Protection Regulation (GDPR)** is a European Union (EU) directive that is fundamentally about protecting and enabling the privacy rights of individuals. The GDPR establishes strict privacy requirements governing how you manage and protect personal data while respecting individual choice—no matter where data is sent, processed, or stored.
 

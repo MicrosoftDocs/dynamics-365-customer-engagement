@@ -11,7 +11,10 @@ ms.custom:
 ---
 # Configure Microsoft Teams dialer 
 
-## Requirements
+Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly from within Dynamics 365 Sales app.  
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -24,7 +27,7 @@ ms.custom:
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly from within Dynamics 365 Sales app.     
+
 As an administrator, you must configure Microsoft Teams dialer for sellers to use. Perform the following steps:
 
 1.	[Review the prerequisites](#review-the-prerequisites).
@@ -79,6 +82,8 @@ Review the following requirements before you configure Microsoft Teams dialer in
     A confirmation message is displayed, and the Microsoft Teams dialer is enabled in your organization for selected security roles in the selected app. 
     >[!NOTE]
     >You must refresh the configuration page to make the changes available in the application. 
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
