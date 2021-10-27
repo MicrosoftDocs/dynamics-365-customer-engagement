@@ -85,13 +85,13 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
 2. Select **Setup workstream**.
 
-   The **Workstreams*** page with a list of all workstreams is displayed.
+   The **Workstreams** page with a list of all workstreams is displayed.
 
 3. Select a workstream from the list or select **New** to create a new workstream.
 
-4. [Set up a voice workstream](voice-channel-route-queues.md#set-up-a-voice-workstream).
+4. Follow the steps to [set up a voice workstream](voice-channel-route-queues.md#set-up-a-voice-workstream).
 
-5. [Configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
+5. Follow the steps to [configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
 
    The phone number is added to the workstream and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
