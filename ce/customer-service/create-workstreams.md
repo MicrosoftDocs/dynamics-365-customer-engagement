@@ -84,7 +84,8 @@ Routing rules for a workstream consists of work classification rules and route-t
 In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options:
 
 - **Auto-close after inactivity**: Select a time period after which inactive conversations will be moved to the closed state automatically. 
-- > [!NOTE]If you have selected Live chat in the **Channel** field, the **Auto-close after inactivity** field will not be visible to you as **Waiting** state is not applicable to Live chat. More information: [Automatic closure of conversation](oc-conversation-state.md#automatically-close-conversations)
+ > [!NOTE]
+ > If you have selected Live chat in the **Channel** field, the **Auto-close after inactivity** field will not be visible to you as **Waiting** state is not applicable to Live chat. More information: [Automatic closure of conversation](oc-conversation-state.md#automatically-close-conversations)
 - **Work distribution mode**: The option that you selected in step 3 is displayed and can't be edited.
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your organization has configured unit-based capacity.
