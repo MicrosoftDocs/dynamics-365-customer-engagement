@@ -1,7 +1,7 @@
 ---
-title: "Use email engagement to view message interactions (Sales Insights) | MicrosoftDocs"
+title: "Use email engagement to view message interactions"
 description: "Use email engagement to view the message interactions such as, alerts, clicked a link, opened an attachment, or sent a reply on your emails." 
-ms.date: 10/31/2018
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -11,15 +11,7 @@ caps.latest.revision: 25
 ---
 # Use email engagement to view message interactions 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
- Email engagement helps you to:  
+Email engagement helps you to:  
   
 -   See when recipients opened your message, clicked a link, opened an attachment, or sent a reply.      
 -   Receive an alert right away, the first time a recipient opens your message.      

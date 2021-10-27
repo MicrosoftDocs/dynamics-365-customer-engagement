@@ -1,7 +1,7 @@
 ---
-title: "Configure Relationship analytics and health (Sales Insights) | MicrosoftDocs"
+title: "Configure Relationship analytics and health"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 10/28/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 03bfdad0-2575-4c4b-a845-d7ac1ff0b0c3
@@ -11,7 +11,9 @@ manager: shujoshi
 ---
 # Configure relationship analytics and health 
 
-## Requirements
+Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -21,9 +23,8 @@ manager: shujoshi
 >[!IMPORTANT]
 >This feature is intended to help sellers or sales managers enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
 
-Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
+## To configure relationship analytics and health 
 
-To configure relationship analytics, follow these steps:   
 1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).    
 2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**. 
 
@@ -156,6 +157,8 @@ By default, the health score widget is available only in the out-of-the-box **Sa
     >[!NOTE]
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane that is displayed on the right side of the page, and then select **Hide label**.     
 9. Save and publish the form.   
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

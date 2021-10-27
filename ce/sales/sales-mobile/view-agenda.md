@@ -1,30 +1,28 @@
 ---
 title: View meetings in the Dynamics 365 Sales mobile app
 description: Learn how to view meetings in the Dynamics 365 Sales mobile app.
-ms.date: 10/20/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-# View meetings 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
-|||
-
-
+# View meetings in the mobile app
 
 The information on the home page of the Dynamics 365 Sales mobile app can help you better plan your day. For example, the Meetings section displays your most recent meeting and the next upcoming meeting. To see more meetings for the day, tap **Meetings** either on the home page or on the navigation bar. Meetings that have been scheduled in Microsoft Outlook are displayed.  
   
 > [!NOTE]
 > - You can't create a meeting from the Dynamics 365 Sales mobile app.
 > - The Meetings section only include meetings that have at least one participant who's outside of your organization's domain.   
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
+|||
  
-**To view meetings**
+## View meetings
 
 1.  On the navigation bar, tap **Meetings**. The calendar view opens.
     
@@ -48,7 +46,7 @@ Meeting details include the following:
 
 ### Meeting information and participants
 
->[!NOTE]
+> [!NOTE]
 > The data that is displayed in this section is retrieved from your Microsoft Exchange server.
 
 **Meeting information**

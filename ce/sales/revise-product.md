@@ -9,9 +9,12 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 ---
-# Revise products (Sales Hub) 
+# Revise products 
 
-## Requirements
+Keep the product inventory updated by quickly revising properties for the products as required, and republishing the information so that your sales agents can see the latest changes to the inventory.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -19,8 +22,7 @@ ms.custom:
 |||
 
 
-Keep the product inventory updated by quickly revising properties for the products as required, and republishing the information so that your sales agents can see the latest changes to the inventory.  
-
+## Revise a product
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -51,7 +53,9 @@ Keep the product inventory updated by quickly revising properties for the produc
 ## Typical next steps  
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Retire a product](retire-product.md)  
   ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  
- 
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 

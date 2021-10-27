@@ -9,13 +9,17 @@ manager: shujoshi
 ---
 # msdyn_playbookactivityattribute EntityType 
 
-## Requirements
+As developer, use this reference information to understand the msdyn_playbookactivityattribute EntityType and its properties.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
 |||
 
+## Entity details
 
 [!INCLUDE[msdyn_playbookactivityattribute-description](../includes/msdyn_playbookactivityattribute-description.md)]
 

@@ -2,7 +2,7 @@
 title: "Opt out of relationship analytics (GDPR) | Microsoft Docs"
 description: "Opt out to ensure that no relationship analytics is performed on your data when using Sales Insights."
 keywords: "GDPR; data protection; privacy; Sales Insights"
-ms.date: 04/08/2020
+ms.date: 10/26/2021
 ms.topic: article
 ms.assetid: 6f86a039-15cc-46aa-b6fb-8dd8260de0ba
 author: KumarVivek
@@ -13,13 +13,16 @@ topic-status: Drafting
 
 # Opt out of relationship analytics (GDPR)
 
-## Requirements
+You can opt out of relationship analytics to ensure that no relationship analytics is performed on your data when using Sales Insights.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Opt out
 
 A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optout**) is added to the Contact, Lead, and SystemUser entities when you [enable](intro-admin-guide-sales-insights.md) the Dynamics 365 Sales Insights features in your Dynamics 365 Sales instance. The field lets you specify whether relationship analytics will be performed on the entity record's data.
 
@@ -74,6 +77,7 @@ You can also programmatically set or update the value of the **msdyn_gdproptout*
 
 For more examples of using the early or late bound programming style, see [Use the early-bound entity classes for create, update, and delete](/dynamics365/customer-engagement/developer/org-service/use-early-bound-entity-classes-create-update-delete) and [Use the Entity class for create, update and delete](/dynamics365/customer-engagement/developer/org-service/use-entity-class-create-update-delete).
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

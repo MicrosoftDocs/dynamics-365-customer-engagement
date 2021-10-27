@@ -9,17 +9,19 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 ---
-# Retire products (Sales Hub) 
+# Retire products 
 
-## Requirements
+If your organization doesn't sell a product, bundle, or family anymore, retire it so that the product record is no longer available to your sales agents. 
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-If your organization doesn't sell a product anymore, retire it so that the product is no longer available to your sales agents.  
+## Retire a product
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
@@ -41,7 +43,9 @@ If you have retired a product inadvertently or want to revive a product that was
 
 ## Typical next steps  
  ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  
-  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 

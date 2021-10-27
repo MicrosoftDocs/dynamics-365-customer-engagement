@@ -1,27 +1,29 @@
 ---
 title: "Grant or restrict access to deal manager - Sales Enterprise | MicrosoftDocs"
 description: "As an administrator, grant deal manager access to specific security roles or to all security roles."
-ms.date: 09/14/2021
+ms.date: 10/26/2021
 ms.topic: article
+ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 # Preview: Grant access to deal manager 
 
-## Requirements
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+By default, deal manager is enabled only for administrators. As an administrator, you can grant access to specific security roles or to all security roles in your organization.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## Grant access to deal manager
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
-
-By default, deal manager is enabled only for administrators. As an administrator, you can grant access to specific security roles or to all security roles in your organization.  
 
 **To grant access**
 
@@ -39,6 +41,8 @@ By default, deal manager is enabled only for administrators. As an administrator
 > :::image type="content" source="media/deal-manager-access-global.png" alt-text="Security role settings page with deal manager settings highlighted":::
 
 The deal manager workspace is now available to the selected roles. More information: [Access the deal manager workspace](access-deal-manager.md)
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 [Edit security privileges for a role](/power-platform/admin/create-edit-security-role#edit-a-security-role)

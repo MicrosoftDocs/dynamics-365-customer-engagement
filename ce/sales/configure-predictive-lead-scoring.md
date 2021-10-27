@@ -1,5 +1,5 @@
 ---
-title: "Configure predictive lead scoring (Sales Insights) | MicrosoftDocs"
+title: "Configure predictive lead scoring"
 description: "Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates."
 ms.date: 09/27/2020
 ms.custom: 
@@ -16,12 +16,16 @@ topic-status: Drafting
 ---
 # Configure predictive lead scoring 
 
-## Requirements
+Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## What is predictive lead scoring 
 
 Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead.
 
@@ -595,6 +599,7 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
 9. Save and publish the form.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

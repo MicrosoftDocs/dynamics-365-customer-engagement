@@ -9,13 +9,16 @@ manager: shujoshi
 ---
 # msdyn_playbookinstance EntityType 
 
-## Requirements
+As developer, use this reference information to understand the msdyn_playbookinstance EntityType and its properties.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
 |||
 
+## Entity details
 
 [!INCLUDE[msdyn_playbookinstance-description](../includes/msdyn_playbookinstance-description.md)]
 
@@ -28,7 +31,6 @@ Operations supported: Create, retrieve, update, and delete<br />
 
 Properties represent fields of data stored in the entity. Some properties are read-only.
 
-<!--note from editor:  Please confirm that the change "createdy" to "createdby" in first row in table below is correct  -->
 
 |Name|Display name|Type|Description|
 |-----|-----|-----|-----|

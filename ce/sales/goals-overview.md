@@ -1,7 +1,7 @@
 ---
 title: "Process for setting goals (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define, track, and measure performance-based Sales and Customer Service goals in Dynamics 365."
-ms.date: 04/23/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,13 +17,6 @@ searchScope:
   - Sales
 ---
 # Process for setting goals
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
 
 With Dynamics 365, you can define, measure, and track goals for your organization and team. For example, your sales organization can define goals based on sales revenue for a specific territory, number of leads created, number of units sold, and so on. Similarly, your customer service organization can define goals based on the number of cases closed.
 

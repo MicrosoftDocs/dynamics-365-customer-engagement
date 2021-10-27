@@ -1,7 +1,7 @@
 ---
 title: "Decimal precision in currency and pricing (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how decimal precision is used in currency and pricing in Dynamics 365 Sales."
-ms.date: 06/17/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,14 +15,6 @@ searchScope:
   - Customer Engagement
 ---
 # Decimal precision in currency and pricing 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 

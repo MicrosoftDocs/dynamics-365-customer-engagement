@@ -1,8 +1,8 @@
 ---
-title: "Create insight cards using Microsoft Power Automate | MicrosoftDocs"
+title: "Create insight cards using Microsoft Power Automate"
 description: "Create your own suggested actions through custom insight cards using Microsoft Power Automate in Assistant in Dynamics 365 Sales."
 keywords: ""
-ms.date: 10/07/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -12,19 +12,21 @@ caps.latest.revision: 1
 ---
 # Create custom insight cards 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 As a system administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:
 
 > [!div class="mx-imgBorder"]
 > ![Open assistant tab](media/cc-create-card.png "Open assistant tab")
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## Create a custom insight card 
 
 In this procedure, we will show as an example how to create an insight to act when a property is updated. Let’s create the **When property is updated, create an insight to act** card.
 
@@ -302,7 +304,8 @@ Use the **REST** option to invoke REST API.
 
     > [!div class="mx-imgBorder"]
     > ![Create a card for playbook](media/insight-card-rest-api.png "Create a card for playbook")
-    
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]    
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
-title: "Configure export preferences for ZoomInfo app (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Configure export preferences for ZoomInfo app"
 description: "Use the export preference to choose which record types you want to export and limit the number of records to export in each record type."
-ms.date: 07/05/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,19 +9,26 @@ manager: shujoshi
 ---
 # Configure export preferences 
 
-## Requirements
+Use the export preference to choose which record types you want to export and limit the number of records to export in each record type.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## To configure export preferences
 
 As an administrator, you configure the export preference to choose which record types (accounts, contacts, and leads) to export and limit the number of records that you export in each record type. You can also enable the creation of new records, allow record duplicate creation, and update existing records for each record type.   
 
+To configure export preferences. do the following steps:
+
+1. [Review the prerequisites](#prerequisites)
+2. [Enable email engagement](#configure-the-preferences)
+
 ## Prerequisites
 Before you start, be sure you've met the following prerequisites:
--	The system administrator role is assigned to you. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).   
 -	The ZoomInfo app is installed on your Dynamics 365 Sales organization. More information: [Install ZoomInfo app](install-zoominfo-app.md).   
 -	You have a license to use the ZoomInfo app.
 
@@ -53,6 +60,8 @@ Before you start, be sure you've met the following prerequisites:
 6.	Select **Save**.   
 
     The changes are saved and applied to the ZoomInfo app for your Dynamics 365 Sales organization.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

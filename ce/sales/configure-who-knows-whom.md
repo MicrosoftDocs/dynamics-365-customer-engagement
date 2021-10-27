@@ -1,7 +1,7 @@
 ---
-title: "Configure who knows whom (Sales Insights) | MicrosoftDocs"
+title: "Configure who knows whom"
 description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
-ms.date: 09/10/2021
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: c5e131e2-c4ba-4442-9580-dfc9badbc9ad
@@ -16,13 +16,6 @@ topic-status: Drafting
 ---
 # Configure who knows whom 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 The who knows whom feature helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts.
 
 >[!NOTE]
@@ -33,7 +26,14 @@ The who knows whom feature helps users to quickly identify colleagues within the
 >    - Global Geography 3 – Americas (Brazil, Chile, United States).    
 > To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
-To configure who knows whom, follow these steps:
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## To configure who knows whom
 
 1. Verify that advanced Sales Insights Add-in for Dynamics 365 features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
@@ -175,6 +175,8 @@ By default, the who knows whom widget is available only in the out-of-the-box **
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
 
 9. Save and publish the form.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
