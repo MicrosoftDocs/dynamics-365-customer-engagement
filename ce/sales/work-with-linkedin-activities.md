@@ -1,21 +1,13 @@
 ---
 title: "Work on LinkedIn-related activities defined in sequences"
 description: "Work on LinkedIn-related activities defined for sequences in sales accelerator to display steps in work list and Up next widget."
-ms.date: 10/08/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
 # Work with LinkedIn activities 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 
 As a seller, you can use the LinkedIn network, which contains millions of users and offers a unique depth and quality of information you can use to research and connect with your customers. This functionality allows you to use LinkedIn Sales Navigator in your sequence to recommend the next best action.
 
@@ -112,7 +104,6 @@ The following image is an example of the InMail side pane:
 >![LinkedIn send InMail side pane](media/sa-linkedin-send-inmail-side-pane.png "LinkedIn send InMail side pane") 
  
 For more information on sending InMail, see [Send an InMail Message](https://www.linkedin.com/help/linkedin/answer/437).
-
 
 ### See also
 

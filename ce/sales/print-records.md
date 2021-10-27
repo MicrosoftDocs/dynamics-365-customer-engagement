@@ -1,7 +1,7 @@
 ---
 title: "Print quote, invoice, or other records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Take a printed copy of a quote, invoice, or other records in Dynamics 365 Sales."
-ms.date: 09/30/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,16 +9,17 @@ manager: annbe
 ---
 # Print quote, invoice, or other records 
 
-## Requirements
+Take a printed copy of a quote, invoice, or other records in Dynamics 365 Sales by exporting the records to PDF.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-If you need a hard copy of a record such as a contact, lead, quote, or invoice, you can print records individually. 
+## Print a sales record
 
 1. Go to the record you want to print. For example, to print an invoice, go to Sales > Invoices and select a record.
 
@@ -31,6 +32,7 @@ If you need a hard copy of a record such as a contact, lead, quote, or invoice, 
 
 4. Open the downloaded PDF file, and print it.  
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

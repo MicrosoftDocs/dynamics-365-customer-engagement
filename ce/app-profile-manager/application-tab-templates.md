@@ -4,7 +4,7 @@ description: "Learn how to create application tab templates in Customer Service.
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/09/2021
+ms.date: 10/26/2021
 ms.topic: article
 ---
 
@@ -134,7 +134,7 @@ These examples are based on a scenario where the case was opened as the Anchor T
 **Expected URL**: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 
 > [!NOTE]
-> The url parameter requires the correct URL format using 'http://' or 'https://'.
+> The url parameter requires the correct URL format using 'https://'.
 
 For more information, go to [Third-party application tab refreshes when focus is changed](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 

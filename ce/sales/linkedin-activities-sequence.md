@@ -9,12 +9,16 @@ manager: shujoshi
 ---
 # Add LinkedIn activities to sequence 
 
-## Requirements
+Use LinkedIn features to define activities for sequences in sales accelerator to display steps in work list and Up next widget.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## How LinkedIn activities help?
 
 In sequences, activities that are based on LinkedIn Sales Navigator allow sellers to diversify their day-to-day activities by including the social selling functions that are available in LinkedIn. You can use LinkedIn's vast network with recommended actions that your sellers can take to build deeper connections.
 
@@ -123,6 +127,8 @@ When this activity is displayed to the seller, the Send InMail step is displayed
  
     >[!div class="mx-imgBorder"]
     >![Send InMail activity added to sequence](media/sa-linkedin-activity-send-inmail-activity-added.png "Send InMail activity added to sequence")        
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

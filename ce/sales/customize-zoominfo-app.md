@@ -1,7 +1,7 @@
 ---
-title: "Customize the ZoomInfo app for Dynamics 365 Sales | MicrosoftDocs"
+title: "Customize the ZoomInfo app for Dynamics 365 Sales"
 description: "Learn how to customize the ZoomInfo app to display in table entities and add a site map to your Dynamics 365 Sales app."
-ms.date: 07/05/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,18 +9,18 @@ manager: shujoshi
 ---
 # Customize the ZoomInfo app     
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 After you install the ZoomInfo app, it's available as a standalone app, so every time sellers must come back to the app selection area and choose ZoomInfo to view the required information. 
 
 As an administrator, you can customize the ZoomInfo app in the following ways:   
 -	**Add ZoomInfo entry to the site map**: You can add the ZoomInfo entry to your Dynamics 365 Sales environment on the left navigation site map and provide easy access to ZoomInfo, including the Admin Portal and ZoomInfo Knowledge Center. More information: [Add ZoomInfo entry to site map](#add-zoominfo-entry-to-site-map).
 -	**Add ZoomInfo form to table entities**: You can add the ZoomInfo form to standard or custom Account, Contacts, and Leads table entities to provide sellers with inline access to ZoomInfo data. More information: [Add ZoomInfo form to entities](#add-zoominfo-form-to-table-entities).
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## Prerequisites
 Before you start, be sure you've met the following prerequisites:
@@ -215,6 +215,8 @@ Now that you've added the forms to the table entities, you can customize how the
     > ![ZoomInfo home page for an account record](media/zoominfo-solution-account-home-screen.png "ZoomInfo home page for an account record")   
  
 10.	Repeat **steps 1 through 9** for the **Contact** and **Leads** forms.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

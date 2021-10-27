@@ -1,23 +1,28 @@
 ---
 title: "Deal manager workspace (Preview) - Sales Enterprise | MicrosoftDocs"
 description: "Deal manager is a dedicated workspace to manage opportunities better. You can personalize and customize the workspace for your needs."
-ms.date: 09/17/2021
+ms.date: 10/26/2021
 ms.topic: article
+ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 # Preview: Deal manager 
 
-## Requirements
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Deal manager is a dedicated workspace to manage opportunities better. You can personalize and customize the workspace for your needs.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## What is a deal manager?
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
@@ -36,6 +41,8 @@ As an administrator, you can customize the experience for sellers to further imp
 :::image type="content" source="media/deal-manager-overview-v1.png" alt-text="Screenshot showing the four main areas of the deal manager workspace - metrics, charts, an editable grid, and a customizable side panel." lightbox="media/deal-manager-overview-v1.png":::
 
 More information: [Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

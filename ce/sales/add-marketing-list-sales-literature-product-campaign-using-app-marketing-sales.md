@@ -1,7 +1,7 @@
 ---
 title: "Add assets to campaigns using in-app marketing - Sales Enterprise | MicrosoftDocs"
 description: "Depending on the marketing context of a campaign, add assets such as a marketing list, sales literature, or product to a campaign using in-app marketing. "
-ms.date: 10/01/2019
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,16 +19,17 @@ searchScope:
 ---
 # Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales) 
 
-## Requirements
+Add all items to the campaign that your organization needs in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-Add all items to the campaign that your organization needs in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.  
+## Add product list, product, or sales literature to a campaign
 
 1. In the site map, select **Marketing Lists**.
 
@@ -53,6 +54,8 @@ Add all items to the campaign that your organization needs in this marketing con
 
    > [!NOTE]
    >  To verify that the item you selected was added to the campaign, reopen the campaign. Under **Marketing**, select **Target Marketing Lists**, or under **Sales** select either **Target Products** or **Sales Literature**. The information you added appears in the list.  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See Also  
  [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   

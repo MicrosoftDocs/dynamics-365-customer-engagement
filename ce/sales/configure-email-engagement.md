@@ -1,7 +1,7 @@
 ---
-title: "Configure email engagement (Sales Insights) | MicrosoftDocs"
+title: "Configure email engagement"
 description: "Configure email engagement to show alerts and reminders for sellers and sales managers to help build customer relationships."
-ms.date: 08/10/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 04db6801-020a-4a99-9ad3-907422524b6f
@@ -16,14 +16,21 @@ topic-status: Drafting
 ---
 # Configure email engagement 
 
-## Requirements
+Configure email engagement to show alerts and reminders for sellers and sales managers to help build customer relationships.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-Email engagement helps users in your organization receive alerts and reminders that help build customer relationships.
+## To enable email engagement
+
+To enable email engagement, do the following steps:
+
+1. [Review the prerequisites](#prerequisites)
+2. [Enable email engagement](#enable-email-engagement)
 
 > [!NOTE]
 > To benefit from the complete experience of email engagement, turn on the email engagement insight cards **[Email opened](action-cards-reference.md#EmailOpened)** and **[Email reminder](action-cards-reference.md#EmailReminder)**.
@@ -72,6 +79,8 @@ Verify the following prerequisites before enabling email engagement for your org
     > ![Enable email engagement](media/si-admin-email-engagement-enable.png "Enable email engagement") 
 
 Email engagement is enabled and ready to use in your organization. 
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

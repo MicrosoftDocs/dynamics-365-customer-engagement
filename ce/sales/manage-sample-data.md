@@ -1,6 +1,6 @@
 ---
 title: "Use sample data for sales accelerator (Sales Insights) | MicrosoftDocs"
-description: "Use sample data to visualize and explore the end-to-end business scenarios, and get started with the sales accelerator."
+description: "Sample data helps you visualize a product and its features. Learn how to add or remove sample data to explore sales accelerator."
 ms.date: 09/09/2021
 ms.topic: article
 author: udaykirang
@@ -9,24 +9,24 @@ manager: shujoshi
 ---
 # Explore the sales accelerator with sample data 
 
-## Requirements
+Sample data helps you visualize a product and its features. Learn how to add or remove sample data to explore sales accelerator.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
-Sample data helps you visualize a product and its features, by enabling you to understand end-to-end business scenarios and get started with Sales Insights. You can add the sample data during or after the configuration of the sales accelerator. Also, you can remove the sample data from your organization when you don't need it. 
-
->[!NOTE]
->To prevent unwanted results, sample data is available only for non-production environments. 
+  
 
 ## Add sample data
 
-You can add sample data any time you need, during or after the configuration of the sales accelerator.    
+You can add sample data any time you need, during or after the configuration of the sales accelerator.  
+
 >[!NOTE]
 >- The sample data adds basic Dynamics 365 Sales and Sales Premium record types. More information: [Reference](#reference)     
->- You must have a production or trial license of Sales Insights or Sales Premium to use the sample data.
+>- To prevent unwanted results, sample data is available only in non-production environments.  
 
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insight settings**.    
@@ -92,6 +92,8 @@ When sample data is added to your organization, the following record types are u
 - Product
 - Sequence
 - User
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

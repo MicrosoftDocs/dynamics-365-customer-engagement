@@ -1,7 +1,7 @@
 ---
 title: "Define goal rollup queries (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 Sales."
-ms.date: 09/13/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,15 +18,17 @@ searchScope:
 ---
 # Define goal rollup queries (Sales Hub) 
 
-## Requirements
+Use rollup queries to specify additional criteria that you want to apply on existing goal metrics. For example, you could create a goal metric that measures all invoices closed within a specific period. A rollup query could then show you invoices owned by one person, or for customers in one territory.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-Use rollup queries to specify additional criteria that you want to apply on existing goal metrics. For example, you could create a goal metric that measures all invoices closed within a specific period. A rollup query could then show you invoices owned by one person, or for customers in one territory.
+## Create a rollup query
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
@@ -81,7 +83,8 @@ Rollup queries define additional criteria for a goal. Applying the rollup query 
 > [!NOTE]
 > The maximum number of records that can be counted  in a goal rollup query is 5000.  
   
- 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
 
 [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)   

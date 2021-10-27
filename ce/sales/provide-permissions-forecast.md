@@ -1,7 +1,7 @@
 ---
-title: "Provide permissions to access and share a forecast - Dynamics 365 Sales | MicrosoftDocs"
+title: "Provide permissions to access and share a forecast"
 description: "Provide permissions to view, access, and share a forecast in Dynamics 365 Sales."
-ms.date: 10/21/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -11,21 +11,24 @@ ms.custom:
 ---
 # Provide permissions to access and share a forecast  
 
-## Requirements
+Provide permissions to view, access, and share a forecast in your organization.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Permissions step
+
 In the **Permissions** step of the forecast configuration, you can:
 
-- Define team members who can view and adjust the forecast data at each level of the hierarchy.  
-
+- Define team members who can view and adjust the forecast data at each level of the hierarchy.   
 - Provide access to users who have specific security roles to view the forecast.  
 - Enable forecast sharing to allow users to share their forecast records with other users. See [Enable or disable forecast sharing](#enable-or-disable-forecast-sharing).
 
-## To set view and access permissions**
+## Set view and access permissions
 
 1.	In the **User security field** section, choose **User lookup field**. Choosing this field determines the owner of the forecast row. The following default system user value is selected based on the template:        
     -	For **Org chart forecast**, the value is selected as **User**.      
@@ -67,6 +70,8 @@ Forecast sharing is disabled by default. As an administrator, enable the forecas
     
 5. Save the changes. 
    If you have selected **Read-only** or **Read and adjust**, all the forecast records in the forecast configuration are enabled for sharing. Sellers and managers can now share the records. See, [Share a forecast](share-forecasts.md). 
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 <table>
 <tr><td>

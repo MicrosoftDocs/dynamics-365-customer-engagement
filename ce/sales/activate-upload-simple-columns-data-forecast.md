@@ -1,7 +1,7 @@
 ---
 title: "Activate and upload data for a forecast - Sales Enterprise | MicrosoftDocs"
 description: "Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast."
-ms.date: 10/26/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -16,13 +16,16 @@ searchScope:
 ---
 # Activate and upload simple columns data 
 
-## Requirements
+Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Activate a forecast and upload simple data
 
 Now that you've completed the required configurations for the forecast, use the **Activate & add quotas** step to activate it and make it available for users. After the forecast is active, you can download a template (Excel workbook) and upload it with data, such as quotas and simple column types, for all users who are defined in the forecast hierarchy.
 
@@ -92,6 +95,8 @@ You're directed to the **Forecast configuration** home page, where your organiza
 
 >[!NOTE]
 >You can also upload data to simple columns using the **msdyn_ForecastApi** action. More information: [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 <table>
 <tr><td>

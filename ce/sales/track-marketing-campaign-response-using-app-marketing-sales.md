@@ -1,11 +1,11 @@
 ---
 title: "Track a marketing campaign response using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Track the replies to your campaigns by using campaign responses in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 10/26/2019
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -21,16 +21,16 @@ searchScope:
 ---
 # Track a marketing campaign response using in-app marketing (Sales Hub) 
 
-## Requirements
+Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses. Measure the success of specific campaign activities based on their response rates. You can manually create campaign responses or have [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] generate them automatically.  
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses. Measure the success of specific campaign activities based on their response rates. You can manually create campaign responses or have [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] generate them automatically.  
   
 ## Create campaign responses manually  
   
@@ -57,9 +57,9 @@ Record the replies you get from potential customers in response to a specific ma
 5. Set the **Create campaign responses for incoming email** option to **Yes**.  
 
 > [!NOTE]
-
 > If there are multiple email replies from a customer to an email sent out from a campaign activity, only the first reply is tracked as a campaign response in the campaign.
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also  
  [System Settings dialog box - Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab)   
