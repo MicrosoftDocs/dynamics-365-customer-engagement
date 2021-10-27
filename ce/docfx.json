@@ -135,6 +135,7 @@
       "ms.service": {
         "app-profile-manager/**/*.md": "dynamics-365-customerservice",
         "customer-service/**/*.md": "dynamics-365-customerservice",
+        "legal/**/*.md": "dynamics-365-customerservice",
         "linkedin/**/*.md": "dynamics-365-linkedinconnector",
         "sales-enterprise/**/*.md": "dynamics-365-sales",
         "sales/**/*.md": "dynamics-365-sales",
@@ -142,7 +143,6 @@
         "unified-service-desk/**/*.md": "dynamics-365-customerservice"
       },
       "ms.prod": {
-        "legal/**/*.md": "dynamics-365",
 	"customerengagement/**/*.md": "d365ce-op"
 	    },
       "ms.subservice": {
