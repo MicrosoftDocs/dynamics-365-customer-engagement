@@ -84,7 +84,7 @@ High level steps involved:
    - **Event grip app tenant ID**: 
 3. Select **Connect**. After the Azure resource is connected, you'll be able to provision or acquire new phone numbers for your organization.
 4. Select **Add number**. The **Add phone number** page is displayed.
-5. Follow the procedure to [add new phone numbers](voice-channel-manage-phone-numbers#acquire-new-phone-numbers).
+5. Follow the procedure to [add new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
 6. On the Azure portal, open Event Grid System Topics. Select Create and in the Create Event Grid System Topic page, select the subscription and resource group from the dropdown lists.
 1. For Topic Types, select Azure Communication Services.
 1. For Subscription, select 
