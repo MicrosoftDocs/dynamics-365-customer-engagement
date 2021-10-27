@@ -22,7 +22,7 @@ Customize the grid, side panel, and charts displayed in deal manager according t
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Overview
+## What can you customize
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 

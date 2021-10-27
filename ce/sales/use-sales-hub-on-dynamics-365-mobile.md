@@ -21,7 +21,7 @@ searchScope:
 
 Access your Sales Hub data while you're on the go by using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device. The Sales Hub app works the same whether you're using it on your mobile device or on a web browser on your computer.
 
-## Requirements
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -343,6 +343,8 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 -	Product suggestions (when you're adding product lines to opportunities, quotes, orders, or invoices) aren't supported in offline mode.
 
 -   Product property&ndash;related entities (DynamicProperty, DynamicPropertyInstance, DynamicPropertyOptionSetItem, and ProductSubstitute) aren't enabled for offline out of the box. These entities must be enabled for offline and added to an offline profile if you want to use product properties in offline mode.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

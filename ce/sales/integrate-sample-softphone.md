@@ -1,7 +1,7 @@
 ---
 title: "Integrate sample softphone dialer with Dynamics 365 Sales | MicrosoftDocs"
 description: "Integrate a sample softphone dialer with Dynamics 365 Sales to call customers from within your organization."
-ms.date: 04/01/2020
+ms.date: 10/27/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -9,14 +9,19 @@ manager: shujoshi
 ---
 # Integrate a sample softphone dialer with Dynamics 365 Sales 
 
-## Requirements
+A softphone dialer provides a simple and integrated way to call customers from within Dynamics 365 Sales. Use the sample to learn how to integrate the dialer with Dynamics 365 Sales.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | 	Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-A softphone dialer provides a simple and integrated way to call customers from within Dynamics 365 Sales. When a phone call is made, a Phone Call activity is created in Dynamics 365 Sales. The Phone Call activity captures details such as subject, phone number, and the name of the contacts who made and received the call.
+## How the integration works
+
+When a phone call is made, a Phone Call activity is created in Dynamics 365 Sales. The Phone Call activity captures details such as subject, phone number, and the name of the contacts who made and received the call.
 
 Organizations can integrate a softphone dialer from their telephony provider in Dynamics 365 Sales by using Dynamics 365 Channel Integration Framework. After the softphone dialer is integrated, sales reps can quickly call their contacts with a single click or a tap from within a Sales Hub app that has had the Sales accelerator features enabled.  
 
@@ -24,7 +29,7 @@ Organizations can integrate a softphone dialer from their telephony provider in 
 > - The sample code for softphone integration with Dynamics 365 by using Dynamics 365 Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code isn't meant for production use, and might have limited or restricted functionality.
 > - Microsoft doesn't provide support for this sample code. Dynamics 365 Technical Support won't be able to help you with issues or questions. This is subject to [separate supplemental terms of use](/dynamics365/legal/supp-dynamics365-preview).
 
-**To integrate and configure the sample softphone dialer**
+## Integrate and configure the sample softphone dialer
 
 1. Get Dynamics 365 Channel Integration Framework from Microsoft AppSource. More information: [How to get Dynamics 365 Channel Integration Framework](/dynamics365/customer-service/channel-integration-framework/get-channel-integration-framework)
 
@@ -37,6 +42,8 @@ Organizations can integrate a softphone dialer from their telephony provider in 
 
 > [!IMPORTANT]
 > A Phone Call activity is created before a phone call is initiated from the softphone dialer. As an existing customer of Dynamics 365 Channel Integration Framework, if you've configured or implemented your system to create a Phone Call activity within the softphone dialer, you must remove the configuration or implementation to avoid creating duplicate Phone Call activities.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

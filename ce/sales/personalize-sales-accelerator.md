@@ -18,7 +18,7 @@ Use personal settings to determine how activities are scheduled based on work av
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Overview
+## What can you personalize
 
 As a seller, you can personalize sales accelerator by determining how activities are scheduled based on your work availability and deciding what happens when you complete an activity. The following personal settings are available for you to configure:
 

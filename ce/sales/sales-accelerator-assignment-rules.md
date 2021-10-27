@@ -21,7 +21,7 @@ Configure sales accelerator for assignment rules to automatically assign leads a
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Overview
+## What are assignment rules
 
 Use assignment rules in sales accelerator to automatically assign new leads and opportunities to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance the assignments among sellers.    
 

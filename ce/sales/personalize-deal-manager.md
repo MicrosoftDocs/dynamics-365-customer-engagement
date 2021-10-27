@@ -22,7 +22,7 @@ As a seller, personalize the grid and apply filters to suit your needs.
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Overview
+## What can you personalize
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 

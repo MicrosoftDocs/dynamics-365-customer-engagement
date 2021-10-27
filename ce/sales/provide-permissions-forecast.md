@@ -20,7 +20,7 @@ Provide permissions to view, access, and share a forecast in your organization.
 | **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Overview
+## Permissions step
 
 In the **Permissions** step of the forecast configuration, you can:
 
@@ -28,7 +28,7 @@ In the **Permissions** step of the forecast configuration, you can:
 - Provide access to users who have specific security roles to view the forecast.  
 - Enable forecast sharing to allow users to share their forecast records with other users. See [Enable or disable forecast sharing](#enable-or-disable-forecast-sharing).
 
-## To set view and access permissions
+## Set view and access permissions
 
 1.	In the **User security field** section, choose **User lookup field**. Choosing this field determines the owner of the forecast row. The following default system user value is selected based on the template:        
     -	For **Org chart forecast**, the value is selected as **User**.      

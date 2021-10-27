@@ -18,9 +18,9 @@ searchScope:
 ---
 # Define a goal metric
 
-Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals
+Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals.
 
-## Requirements
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

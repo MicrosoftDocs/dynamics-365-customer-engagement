@@ -12,7 +12,7 @@ manager: shujoshi
 
 You can uninstall the Sales Insights Add-in for Dynamics 365 Sales if you don't want to use it in your organization.
 
-## Requirements
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
