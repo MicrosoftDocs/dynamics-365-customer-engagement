@@ -41,5 +41,6 @@ Follow these steps to set up contextual communication between the voice channel 
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Connect to Azure Communication Services](voice-channel-create-new-use-existing-resource.md)  
+[Bring your own number: Azure direct routing](voice-channel-bring-your-own-number.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
