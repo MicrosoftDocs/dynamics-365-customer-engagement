@@ -1,7 +1,7 @@
 ---
 title: "Understand conversation states in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 10/19/2021
+ms.date: 10/27/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -51,7 +51,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | From status reason | To status reason | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). | Channel |
-| Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> When you close the session while the conversation is active (applicable only to Live chat channel). (applicable only to Live chat channel).  | Channel  |
+| Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> When you close the session while the conversation is active (applicable only to Live chat channel). | Channel  |
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation.  |  Channel <br><br> The status change isn't applicable to Live chat. | 
 | Active | Closed | When you resolve the case (or get a record to non-active state) and close the session. | Record |
 
@@ -60,7 +60,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 
 ## Wrap-up
 
-This is an intermediate state after you end the conversation, when you can do post-conversation activities such as taking notes and update the customer information, before moving the conversation to the **Closed** state. In the **Wrap-up** state, your (agent) capacity is blocked according to the duration that your administrator has selected in the **Block agent's capacity during wrap-up** field in the workstream. If your administrator has selected **Always block**, your capacity is blocked as long as the conversation is in the Wrap-up state. In **Don't block**, your capacity is released as soon as conversation moves from Active to Wrap-up state. Additionally, your administrator may also select a duration ranging from 1 minute to 15 minutes as well.
+This is an intermediate state after you end the conversation, when you can do post-conversation activities such as taking notes and update the customer information, before moving the conversation to the **Closed** state. In the **Wrap-up** state, your (agent) capacity is blocked according to the duration that your administrator has selected in the **Block capacity for wrap up** field in the workstream. If your administrator has selected **Always block**, your capacity is blocked as long as the conversation is in the **Wrap-up** state. If the **Don't block** setting is selected, your capacity is released as soon as conversation moves from **Active** to **Wrap-up** state. Additionally, your administrator may also select a duration ranging from 1 minute to 15 minutes.
 
 The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario.
 

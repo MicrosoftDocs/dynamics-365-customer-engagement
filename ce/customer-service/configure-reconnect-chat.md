@@ -1,7 +1,7 @@
 ---
 title: "Configure reconnection to a chat session | MicrosoftDocs"
 description: "Learn about configuring reconnections to previous chat sessions in Omnichannel for Customer Service."
-ms.date: 10/20/2021
+ms.date: 10/27/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -43,12 +43,12 @@ You can optionally configure a redirection link for the customer to navigate to 
 
 You can enable the reconnection options in the chat widget either while setting up the chat widget for the first time, or later, based on your needs.
 
-1. On Omnichannel admin center, go to **General settings** > **Workstreams**.
+1. In the site map of Omnichannel admin center, select **Workstreams**.
 
 2. On the page that appears, do one of the following:
 
-   - Select **New workstream** on the toolbar to create a chat widget.
-   - In the **Chat workstreams** list, select the chat widget for which you want to enable reconnection option.
+   - Select **New workstream** on the toolbar to create a chat widget. For information on how to configure a chat widget, see [Add a chat widget](add-chat-widget.md).
+   - From the workstreams list, select the chat widget for which you want to enable the reconnection option.
 
 3. On the ***<widget_name>* Chat Widget** page, in the **Chat widget** area, select **Edit**.
 4. On Chat channel settings dialog, go to the **Chat widget** tab and set the **Reconnect to previous chat** toggle to **Yes**. The following options are displayed:

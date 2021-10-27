@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn how to create workstreams in the Omnichannel Administration app"
-ms.date: 10/25/2021
+ms.date: 10/27/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -55,18 +55,12 @@ Perform the following steps:
       - **Capacity**: Specify the units of capacity that are required to process a single conversation for the workstream in the text box. For information on how to determine capacity units, see [Capacity](users-user-profiles.md#capacity).
 
       - **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from **Waiting** to **Closed** state because of inactivity.
-      > [!NOTE]
-      > If you have selected Live chat in the **Channel** field, the **Auto-close after inactivity** field will not be visible to you as Waiting state is not applicable to Live chat.
-
+      
    2. Select **Save**. The workstream is saved.
 
    3. In the **Work distribution settings** section, perform the following steps:
 
-      1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation.
-      1. From the **Block agent's capacity during wrap-up** dropdown, select a duration to block capacity when the agent is in Wrap-up state, such as **1 minute** or **15 minutes**. After the specified duration, agent capacity is released  and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state.
-      > [!IMPORTANT]
-      > If you have selected **End of Day mode** in capacity profile, agent capacity won't be reset after the duration selected in the **Block agent's capacity during wrap-up** field.
-
+      1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation.      
       1. In **Allowed Presences**, select a base presence, such as **Available** and **Busy**, from the dropdown. You can select all options also. Agents will be allocated work items if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select **Away** as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
       1. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can assign work items to themselves irrespective of constraints, such as capacity and presence.
       1. If you want an ongoing conversation to be assigned to the same agent when the conversation status changes from waiting to active, make sure the **Enable Agent Affinity** is set to yes. By default, the toggle is enabled for SMS and social channels.
