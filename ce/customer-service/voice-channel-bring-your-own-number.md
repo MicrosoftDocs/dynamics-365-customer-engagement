@@ -19,14 +19,13 @@ a.	Bring your own number via Azure direct routing[Neeraja]  Delta from private p
 
 To use the voice channel in Omnichannel for Customer Services, customers must acquire new phone numbers from [Azure Communication Services](/azure/communication-services/overview). Azure Communication Services, however, provides numbers only in the United States with Microsoft as the carrier for the voice data.
 
-[Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) enables you to connect your existing telephony infrastructure to Azure.
-So, if you have non-US based phone numbers, or want to retain your existing numbers (for example, 1800-WALMART) and carriers (such as AT&T, Verizon, TATA, British Telecom), you can do so using Azure direct routing.
+[Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) enables you to connect your existing telephony infrastructure to Azure. So, if you have non-US based phone numbers, or want to retain your existing numbers (for example, 1800-WALMART) and carriers (such as AT&T, Verizon, TATA, British Telecom), you can do so using Azure direct routing.
 
 ## Prerequisites
 
 To bring in your own number via Azure direct routing, you must first connect to an Azure Communications Service resource. You must then set up Azure direct routing for the connected Azure resource.
 
-[!Note]
+> [!Note]
 > This feature is not available in trial mode.
 
 Before you bring in your own number, do the following:
@@ -45,15 +44,15 @@ Before you bring in your own number, do the following:
 
 3. In the **Add phone number** dialog, enter the following details:
 
-- **Phone number**: Number that you own that you’ve configured in your SBC.
+- **Phone number**: Number that you own and have configured in your SBC.
 
-- **Carrier**: Denote which carrier the phone number belongs to. If the carrier doesn’t exist yet, you can create a new record.
+- **Carrier**: Denotes which carrier the phone number belongs to. If the carrier doesn’t exist yet, you can create a new record.
 
-- **Country/Region**: Select the Country/Region this phone numbers belongs to.
+- **Country/Region**: Select the country or region the phone numbers belongs to.
 
-- **Number type**: Select if it’s toll free or a local phone number.
+- **Number type**: Select whether toll-free or a local phone number.
 
-- **Calling plans**: Select if the phone number can make or receive calls.
+- **Calling plans**: Select whether the phone number can make or receive calls.
     > [!Note]
     > SMS is not supported with Azure direct routing.
 

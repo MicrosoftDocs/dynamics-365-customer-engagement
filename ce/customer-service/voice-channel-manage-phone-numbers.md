@@ -104,7 +104,7 @@ After you've purchased phone numbers and associated them with voice workstreams,
 
 ## Configure voice channel for inbound calling
 
-You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-route-queues)
+You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-route-queues.md)
 
 ## Assign phone numbers to agents
 

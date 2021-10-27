@@ -15,16 +15,16 @@ ms.service: dynamics-365-customerservice
 
 This section describes how you as an IT administrator can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers via the Omnichannel Agent Dashboard in Omnichannel for Customer Service.
 
-If you do not have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-a-new-phone-number) to learn how you can acquire new phone numbers.
+If you do not have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) to learn how you can acquire new phone numbers.
 
 ## Prerequisites
 
 Before you set up outbound voice calls for your business, you'll need the following:
 
-- [Configure one or more phone numbers for outbound calling](#configure-a-phone-number-for-outbound-calling).
+- [Configure one or more phone numbers for outbound calling](#configure-phone-numbers-for-outbound-calling).
 - [Create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
 - [Configure capacity profile and add users](capacity-profiles.md).
-- [Create an outbound profile](#create-an-outbound-profile)
+- [Create an outbound profile](#create-outbound-profiles)
 
 ## Configure phone numbers for outbound calling
 
