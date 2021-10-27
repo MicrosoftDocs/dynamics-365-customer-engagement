@@ -96,5 +96,8 @@ High level steps involved:
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)  
+[Outbound calling](voice-channel-outbound-calling.md)  
+[Bring your own number: Azure Direct Routing](voice-channel-bring-your-own-channel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
