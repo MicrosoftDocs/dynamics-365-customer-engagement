@@ -2,7 +2,7 @@
 title: "Troubleshooting and things to know about Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
 description: Troubleshoot and issues to know about Dynamics 365 for phones and tablets.
-ms.date: 10/13/2021
+ms.date: 10/28/2021
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -23,30 +23,6 @@ search.app:
   - D365Sales
 ---
 # Potential issues and resolutions
-
-## Get a session ID
-
-If you encounter a problem with the mobile app, you can help Microsoft troubleshoot the problem much more effectively if you provide them with a session ID for that problem.
-
-### Get the session ID from the Setting menu
-
-1. From the navigation bar, select ![Sitemap toggle button.](media/sitemap-button.png "Sitemap toggle button") and then the gear icon (**Settings**).
-
-   > [!div class="mx-imgBorder"]
-   > ![Sitemap expanded screenshot, gear icon is at the bottom left.](media/sessionid-uci-step-1.png)
-
-2. Select **Session details** (at the bottom of the menu) and then you will see the **Session ID**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Settings menu screenshot, session details is under the general category.](media/sessionid-uci-step-2.png)
-   > ![Session details screenshot, session id is in the middle of the page.](media/sessionid-uci-step-3.png)
-
-### Get the session ID from the sign in screen
-
-- On the sign in screen, select the clipboard icon and then select **Copy session ID**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Login screen screenshot, the clipboard menu is expected, copy session id is the second item.](media/sessionid-login-step.jpg)
    
    
 ## Error: On iOS 14, canvas embedding, Power BI dashboards or iframes relying on cookies do not work.
