@@ -65,7 +65,7 @@ High level steps involved:
 2. Create application Id. Not down app Id and tenant Id
 3. Onboard ACS resource to Omnichannel. Input the 5 fields from step 1 and step 2.
 4. Create system topic in Azure for the ACS resource.
-5. Enable eventgrid resource provider in the subscription
+5. Check if eventgrid is registered as a resource provider in the subscription
 6. Create event grid events in the ACS resource for recording and SMS. Copy recording callback URL from step.
 
 **To connect to an existing Azure resource**

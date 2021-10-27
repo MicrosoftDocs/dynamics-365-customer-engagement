@@ -75,7 +75,7 @@ To be able to acquire new phone numbers for your business, you must first [conne
 
 5. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number you just acquired.
 
-### Add a phone number to a voice workstream
+## Add a phone number to a voice workstream
 
 After you've acquired a phone number, you must add it to a voice workstream to be able to use it. You can associate a phone number with only one voice workstream.
 
@@ -93,17 +93,17 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
 5. [Configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
 
-   The workstream is added to the phone number and you can view the **Connected** status for the phone number on the **Phone numbers** page.
+   The phone number is added to the workstream and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
-### Configure phone numbers for outbound calling
+## Configure phone numbers for outbound calling
 
 After you've purchased phone numbers and associated them with voice workstreams, you can configure them for outbound calls so your agents can actually make calls to customers. More information: [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling)
 
-### Configure voice channel for inbound calling
+## Configure voice channel for inbound calling
 
 You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-route-queues)
 
-### Assign phone numbers to agents
+## Assign phone numbers to agents
 
 You can also assign personal phone numbers to agents, so they're able to make and/or receive calls exclusively on that number. More information: [Assign personal phone numbers to agents](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents)
 
@@ -125,7 +125,7 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 
 3. Make the changes to your call or SMS plans, and select **Save and Close**.
 
-## Release phone number
+## Release phone numbers
 
 If you no longer need a phone number, you can release it from your organization's phone number list. However, before you plan to remove the phone number from your business, you must remove the number from any associated workstream or outbound profiles. Also, if the number is assigned as a personal number to any agent, you must disable the number, and then try releasing it again.
 
