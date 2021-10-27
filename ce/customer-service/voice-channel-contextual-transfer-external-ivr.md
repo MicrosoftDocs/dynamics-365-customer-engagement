@@ -23,7 +23,7 @@ Follow these steps to set up contextual communication between the voice channel 
 
 1. Set up Azure direct routing to connect Session Border Controllers (SBCs) linked to the third-party IVR to Dynamics 365.
 
-2. Register the phone number that’s assigned to the third-party IVR with Dynamics 365 by bringing in your own number. More information: [Bring your own number: Azure direct routing](voice-channel-bring-your-own-number.md)
+2. Register the phone number, that’s assigned to the third-party IVR, with Dynamics 365 by bringing in your own number. More information: [Bring your own number: Azure direct routing](voice-channel-bring-your-own-number.md)
 
 3. At the point of transfer in the IVR, issue a SIP (Session Initiation Protocol) REFER request to the Azure Communication Services resource. This will transfer the call to the Azure resource that's connected to Dynamics 365.
 
