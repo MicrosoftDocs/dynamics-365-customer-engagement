@@ -173,11 +173,17 @@ If you're using your custom attributes for opportunity generation, you can gener
 
     The out-of-the-box **Status** state option set contains the won and lost values as **Won** and **Lost**, respectively. You can also select your custom option set that's relevant to your business.
 
-7. Select **Filter column** and **Filter values** to define the opportunities for which the model must score. 
+7. Select **Filter column** and **Filter values** to define the opportunities for which the model must score.  
 
-    With multiple models, each model can be directed to score a specific set of opportunities based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which opportunities the model should score. These selections determine which column and which values within that column correspond to the opportunities that this model will score.
+    With multiple models, each model can be directed to score a specific set of opportunities based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which opportunities the model should score. These selections determine which column and which values within that column correspond to the opportunities that this model will score.  
 
-8. Select **Get started**. 
+8. Choose time period from the **Train with opportunities from the past** list. The default duration is 2 years.   
+
+   For example, if you want to consider the closed opportunities from past 6 months to train the model, choose 6 months from the list. The model considers the closed opportunities from the past 6 months and trains the model to score the open opportunities from past 2 years.  
+
+   If you don't have enough closed opportunities in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed opportunities to train the model.  
+
+9. Select **Get started**. 
 
     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
 
@@ -187,9 +193,9 @@ If you're using your custom attributes for opportunity generation, you can gener
     >[!NOTE]
     >If there aren't enough opportunities to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-9. After the model is generated, the opportunity scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
+10. After the model is generated, the opportunity scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
-10. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
+11. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
     The model is applied to the selected set of opportunities in your organization. Users can see the opportunity scoring in their views under the **Opportunity score** column and a widget in the opportunity form. More information: [Convert leads into opportunities](../sales/work-predictive-opportunity-scoring.md)
 
@@ -213,7 +219,7 @@ In organizations that have different lines of business, you might need different
     > [!div class="mx-imgBorder"]
     > ![Add model page for predictive opportunity scoring](media/si-admin-predictive-opportunity-scoring-model-add-model-page.png "Add model page for predictive opportunity scoring")
 
-3. Perform steps 4 through 8 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
+3. Perform steps 4 through 9 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 
 4. After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
@@ -261,7 +267,7 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >The scoring model don't support the following types of attributes:
     >- Attributes on custom entities
     >- Date and time related attributes
-    >- System generated attributes (such as, leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID)
+    >- System generated attributes (such as, opportunityscore, opportunitygrade, version number, entity image, exchange rate, and predictive score ID)
 
 
 3. Select **Retrain model**.
@@ -339,6 +345,34 @@ You can delete a model when it's no longer required in your organization. You ca
 3. In the confirmation message that appears, select **Delete**.
 
 The model is deleted from your organization.
+
+## Manage duplicate models
+
+When you create multiple models, it’s important to configure them so that they are not scoring the same opportunities. In the case of duplicate models, it’s difficult to identify which model scored the opportunity. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.    
+To remove the duplicate models, use one of the following methods depending on the action you’re performing:
+- [Create model](#create-model)
+- [Published model](#published-model)
+
+### Create model
+
+When you select **Get started**, a conflict message is displayed stating that the model you’re creating has conflicts with other models in the list. The following image shows an example of the message:
+
+> [!div class="mx-imgBorder"]
+> ![A conflict message while creating the model.](media/si-admin-predictive-opportunity-scoring-duplicate-model-create-model-message.png "A conflict message while creating the model")
+ 
+-	Select **No, Go back** and change the filter column and values to ensure that the model is scoring unique opportunities. For more information, see step 7 in [First-run setup experience](#first-run-setup-experience).
+-Or-
+-	Proceed to create a duplicate model, which might cause conflicts in identifying the opportunities that are being scored by this model.
+
+### Published model
+
+When you open a published model, a note displays above the version details section with the list of models that the current model is a duplicate of. The following image shows an example of the message:
+
+> [!div class="mx-imgBorder"]
+> ![A conflict message while publishing the model.](media/si-admin-predictive-opportunity-scoring-duplicate-model-published-model-message.png "A conflict message while publishing the model")
+ 
+1.	Select **Delete model** to delete the current model from the application.
+2.	[Create the model](#add-a-model) with different filter column and filter values to score a opportunity.
 
 ## Define entities for analytics
 
