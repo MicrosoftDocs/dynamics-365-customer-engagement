@@ -13,6 +13,17 @@ manager: shujoshi
 ---
 # msdyn_predictivescore Entity Reference
 
+This article includes schema information and supported messages for the msdyn_predictivescore entity.
+
+## License and role requirements
+
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
+|||
+
+## Entity details
 
 **Added by**: Predictive Scoring Common Solution  
 **Entity set path**: ```[organizationURI]/api/data/v9.1/msdyn_predictivescores```  

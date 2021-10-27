@@ -1,20 +1,13 @@
 ---
-title: "Send email using the enhanced email experience - Sales Enterprise | MicrosoftDocs"
+title: "Send email using the enhanced email experience in Dynamics 365 Sales"
 description: "Use the enhanced email experience to compose and send an email without leaving the context of what you are working on."
-ms.date: 09/30/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
 # Send email using the enhanced email experience 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
 
 The enhanced email experience in customer engagement apps allows users to compose an email without leaving the record they're working on. With the enhanced email experience, you can:
 

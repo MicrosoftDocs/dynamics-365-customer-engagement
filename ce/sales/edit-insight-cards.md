@@ -1,8 +1,8 @@
 ---
-title: "Edit insight cards (Sales Insights) | MicrosoftDocs"
+title: "Edit insight cards in Dynamics 365 Sales"
 description: "Edit insight cards in assistant by turning off or on, assigning or removing roles, setting priority, editing flow, and viewing usage metrics."
 keywords: ""
-ms.date: 06/01/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: f1565380-2c5b-4140-a657-156fee688cc9
@@ -18,15 +18,6 @@ applies_to:
 ---
 # Edit insight cards 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
-
 Editing the cards allows you to do the following tasks based on the card:
 
 - [Turn cards on or off](#turn-cards-on-or-off)
@@ -34,6 +25,15 @@ Editing the cards allows you to do the following tasks based on the card:
 - [Set priority of a card](#set-priority-for-a-card)
 - [Edit flow of a card](#edit-flow-of-a-card)
 - [View card usage metrics](#view-card-usage-metrics) 
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## Turn cards on or off
 
@@ -177,7 +177,7 @@ The following metrics are available on the card.
  > [!div class="mx-imgBorder"]
  > ![Insight card metrics](media/insight-card-metrics.png "Insight card metrics")
 
-
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

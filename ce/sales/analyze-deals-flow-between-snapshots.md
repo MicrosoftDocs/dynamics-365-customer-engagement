@@ -1,7 +1,7 @@
 ---
 title: "Analyze deals flow between two snapshots (Sales Insights) | MicrosoftDocs"
 description: "Use snapshots to visualize and analyze how deals are trending between two moments in time in a deal flow chart."
-ms.date: 10/06/2021
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -10,15 +10,20 @@ manager: shujoshi
 ---
 # Analyze deals flow between snapshots 
 
-## Requirements
+Use snapshots to visualize and analyze how deals are trending between two moments in time in a deal flow chart.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Deals flow
 
-The **Flow** chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill in to the specific deals that have contributed to the increase or decrease in forecast commitment, thus enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.	
+The **Flow** chart provides a visual representation of how the forecast changes between two moments in time, known as snapshots. Managers can use flow charts to drill in to the specific deals that have contributed to the increase or decrease in forecast commitment, thus enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.	
+
+## View deals flow between snapshots
 
 Review the following prerequisite before you start using deals flow analysis:	
 
@@ -77,9 +82,11 @@ You can identify whether the selected flow is for a team or an individual by loo
 
 Seeing the deals flow of other users depends on the sales hierarchy defined for you. To learn more, see [Forecasts and sales hierarchy](/dynamics365/sales-enterprise/view-forecasts#forecasts-and-sales-hierarchy).	
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also	
 
+[View snapshots](view-snapshots.md)
 [Take snapshots automatically](manage-snapshots-forecast.md)   
 [About premium forecasting](configure-premium-forecasting.md)
 

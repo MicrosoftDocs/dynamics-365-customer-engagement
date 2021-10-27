@@ -1,11 +1,11 @@
 ---
 title: "Create or edit invoices - Sales Enterprise | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer. You can either convert an order into an invoice or create an invoice separately."
-ms.date: 02/10/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-salesorder
@@ -17,20 +17,19 @@ searchScope:
 ---
 # Create or edit invoices (Sales Hub) 
 
-## Requirements
+When a customer places an order, you can create an invoice to bill them for the upcoming sale.  
+  
+Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.  
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-When a customer places an order, you can create an invoice to bill them for the upcoming sale.  
-  
-Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.  
-    
 <a name="bkmk1"></a>   
+
 ## Create an invoice from an order  
 
 1. In the Sales Hub app, select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
@@ -101,11 +100,15 @@ Typically, you convert an order into an invoice; however, you can also create an
 > It isn't possible to edit multiple invoice records at once. 
   
 ## Typical next steps  
+
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Close an opportunity as won or lost (Sales)](close-opportunity-won-lost-sales.md)  
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
   
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
+
 [Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)  
 [Print quote, invoice, or other records](print-records.md)
 

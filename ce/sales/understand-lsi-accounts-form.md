@@ -1,7 +1,7 @@
 ---
 title: "Understand the LinkedIn Sales Insights tab in account forms (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Understand the LinkedIn Sales Insights tab in account forms in Dynamics 365 Sales."
-ms.date: 02/11/2020
+ms.date: 10/25/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -10,15 +10,6 @@ ms.custom:
   - dyn365-sales
 ---
 # Understand the LinkedIn Sales Insights tab 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 
 The **LinkedIn Sales Insights** tab in **Account** records provides information about the company and personas that are defined for the company within LinkedIn Sales Insights. When the solution is installed, two new entities are created in Dynamics 365 Sales:
 

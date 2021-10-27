@@ -1,7 +1,7 @@
 ---
 title: "Project accurate revenue with sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Accurately project sales for your team and estimate the revenue by using sales forecasting in Dynamics 365 Sales."
-ms.date: 02/03/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -21,15 +21,6 @@ searchScope:
   - Customer Engagement
 ---
 # Project accurate revenue with sales forecasting 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 
 A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. By using a forecast:
 
