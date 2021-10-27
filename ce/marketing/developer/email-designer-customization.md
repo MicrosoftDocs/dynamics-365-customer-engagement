@@ -1,7 +1,7 @@
 ---
 title: "Customize the email designer (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to customize the email designer in Dynamics 365 Marketing."
-ms.date: 10/22/2021
+ms.date: 10/27/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -43,5 +43,5 @@ To customize the email designer:
     > The first field in the **New editing experience** form is reserved for the email editor. Adding any field before the first field will break the user experience.
 
     > [!NOTE]
-    > If you enable the timeline functionality for any entity and would like to add a timeline to the **Email properties** form, you must also add it to the **New editing experience** form. In other words, even though the timeline is not a field, it has the same requirements as field customizations.
+    > If you enable the timeline functionality for a Marketing email entity and would like to add a timeline visual to the **Email properties** form, you must also add it to the **New editing experience** form. In other words, the timeline functionality has the same requirements as field customizations.
 1. Select **Save**, then **Publish** your changes.
