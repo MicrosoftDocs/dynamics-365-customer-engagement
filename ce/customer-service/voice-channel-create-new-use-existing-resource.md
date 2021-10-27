@@ -70,7 +70,7 @@ High level steps involved:
 5. Check if eventgrid is registered as a resource provider in the subscription
 6. Create event grid events in the ACS resource for recording and SMS. Copy recording callback URL from step.
 
-**To connect to an existing Azure resource**
+**To connect to an existing Azure resource**    
 
 1. Open Omnichannel admin center and under **General settings**, select **Phone numbers**, and then select **Get started**.
 
