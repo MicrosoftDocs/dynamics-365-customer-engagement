@@ -50,8 +50,8 @@ On the sign in screen, select the clipboard icon and then select **Copy session 
 ## Share logs
 
 1. On the sign in screen, select the clipboard icon and then select **Share logs**.
-2. Share logs which trigger a share action (next step)
-
+2. Select a sharing option such as Outlook.
+3. Once the logs added to the email, send the email to {dynmobisup@microsoft.com}(dynmobisup@microsoft.com).
 
 
    
