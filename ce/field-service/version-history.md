@@ -58,8 +58,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.65.6](/dynamics365/field-service/field-service-version-history-resource-scheduling#312656)).
 
-- Bug fix to address 'Please wait' message not closing for 'Convert to WO' on Case form.
-- Fixed a bug in Field Service Mobile (D365) to reset travel calculation variables after successful save.
+- Bug fix to address "Please wait" message not closing for **Convert to WO** on case form.
+- Fixed a bug in Field Service (Dynamics 365) mobile to reset travel calculation variables after successful save.
 
 ## 8.8.52.127
 
