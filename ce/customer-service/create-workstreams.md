@@ -106,7 +106,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 ### Add a bot
 
-To add a bot, the bot must be configured and available for selection. After a bot is added to the workstream, the selected bot will be the first to pick up the incoming work item at runtime. When a work item needs to be assigned, the classification rules are run and the work distribution system checks and routes the work item to the bot if the selected workstream has a bot.
+To add a bot, the bot must be configured and available for selection. After a bot is added to the workstream, the selected bot will be the first to which the incoming work item will be routed to at runtime. When a work item needs to be assigned, the classification rules are run and the work distribution system checks and routes the work item to the bot if the selected workstream has a bot. The bot is supported only in push type of workstreams.
 
 For information about how to configure bots in Power Virtual Agents, see [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md).
 For information about how to configure Azure bots, see [Integrate an Azure bot](configure-bot.md).
