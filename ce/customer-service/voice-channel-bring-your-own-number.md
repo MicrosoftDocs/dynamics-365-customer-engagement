@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To use the voice channel in Omnichannel for Customer Services, customers must acquire new phone numbers from [Azure Communication Services](/azure/communication-services/overview). Azure Communication Services, however, provides numbers only in the United States with Microsoft as the carrier for the voice data.
+To use the voice channel in Omnichannel for Customer Service, customers must acquire new phone numbers from [Azure Communication Services](/azure/communication-services/overview). Azure Communication Services, however, provides numbers only in the United States with Microsoft as the carrier for the voice data.
 
 [Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) enables you to connect your existing telephony infrastructure to Azure. So, if you have non-US based phone numbers, or want to retain your existing numbers (for example, 1800-WALMART) and carriers (such as AT&T, Verizon, TATA, British Telecom), you can do so using Azure direct routing.
 
