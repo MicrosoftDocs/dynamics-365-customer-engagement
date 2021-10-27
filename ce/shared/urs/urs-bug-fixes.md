@@ -2,9 +2,9 @@
 
 (Includes Resource Scheduling controls version 1.2.5.212813)
 
-- Enabled Group By capability on new schedule board list view. 
-- On new schedule board, start showing dotted line when user drag and drop requirement to the board. 
-- Fixed the bug: when update contact record with integration job,  Field Service: Update (Pre-operation) for contact plug in throws Error: **System.ServiceModel.QuotaExceededException: 'The size necessary to buffer the XML content exceeded the buffer quota.'** 		
+- Enabled **Group By** capability on new schedule board list view. 
+- On new schedule board, started showing dotted line when user drags-and-drops requirement to the board. 
+- Fixed: when update contact record with integration job: Update (Pre-operation) for contact plug in throws Error: **System.ServiceModel.QuotaExceededException: 'The size necessary to buffer the XML content exceeded the buffer quota.'** 		
 - Added retry mechanism and logged more information for troubleshooting when Geocode API fails with HTTP 403.
 
 ## 3.12.64.78
