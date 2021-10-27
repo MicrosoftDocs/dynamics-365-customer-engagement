@@ -1,5 +1,5 @@
 ---
-title: "Get logs and session ID to help troubleshoot your issue | MicrosoftDocs"
+title: "Get session ID and logs to help troubleshoot your issue | MicrosoftDocs"
 ms.custom:
 description: Get logs and session ID to help troubleshoot your issue.
 ms.date: 10/27/2021
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Get logs and session ID to help troubleshoot your issue
+# Get session ID and logs to help troubleshoot your issue
 
 If you encounter a problem with the mobile app, you can help Microsoft troubleshoot the problem much more effectively if you provide them with a session ID and logs for that problem.
 
@@ -49,7 +49,7 @@ On the sign in screen, select the clipboard icon and then select **Copy session 
 
 ## Share logs
 
-Send  logs directly to Microsoft, so we can help troublehoot your issue.
+Send logs directly to Microsoft, so we can help troublehoot your issue.
 
 1. On the sign in screen, select the clipboard icon and then select **Share logs**.
 2. Select a sharing option such as Outlook.
