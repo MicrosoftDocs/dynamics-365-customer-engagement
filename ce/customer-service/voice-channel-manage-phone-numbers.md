@@ -113,7 +113,7 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 
 > [!Important]
 > - You cannot upgrade a phone number or change your call or SMS plans, after it's connected to a workstream.
-> - You cannot remove feature once granted to a phone number, but you can upgrade phone number features. For example, if you chose both **Make calls** and **Receive calls** options in your calling plans, you cannot change it. However, if you selected **None** for SMS plans, you can upgrade to either **Send SMS** or **Send and receive SMS** plan.
+> - You cannot remove features once granted to a phone number, but you can upgrade phone number features. For example, if you chose both **Make calls** and **Receive calls** options in your calling plans, you cannot change it. However, if you selected **None** for SMS plans, you can upgrade to either **Send SMS** or **Send and receive SMS** plan.
 
 **To edit a phone number**
 
@@ -123,11 +123,11 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 2. Select a phone number and select **Edit**.
    The **Edit phone number** dialog with the current plan type, calling plan, and SMS plan is displayed.
 
-3. Make the changes to your call or SMS plans, and select **Save and Close**.
+3. Make any changes to your call or SMS plans, and select **Save and Close**.
 
 ## Release phone numbers
 
-If you no longer need a phone number, you can release it from your organization's phone number list. However, before you plan to remove the phone number from your business, you must remove the number from any associated workstream or outbound profiles. Also, if the number is assigned as a personal number to any agent, you must disable the number, and then try releasing it again.
+If you no longer need a phone number, you can release it from your organization's phone number list. However, before you plan to remove the phone number from your business, you must remove the number from any associated workstreams or outbound profiles. Also, if the number is assigned as a personal number to any agent, you must disable the number, and then try releasing it again.
 
 [!Important]
 When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
