@@ -46,7 +46,7 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 ## Email editor
 
-- The real-time marketing email editor *does not* contain the following capabilities from the outbound marketing email editor: video, custom code, content blocks, QR codes, Teams check-in links, marketing page links, or the Send now function.
+- The real-time marketing email editor *does not* contain the following capabilities from the outbound marketing email editor: video, content blocks, QR codes, Teams check-in links, marketing page links, or the Send now function.
 - Emails created in outbound marketing need to be recreated in the real-time marketing email designer to be used in real-time marketing.
 
 ## Event triggers
