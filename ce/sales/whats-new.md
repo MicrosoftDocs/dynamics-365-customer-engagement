@@ -15,13 +15,6 @@ topic-status: Drafting
 ---
 # What's new in Dynamics 365 Sales 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | All <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 This topic provides resources where you can learn about the new features that have recently released or new features that will be releasing over the next few months.
 
 For information about new features releasing over the next few months that you can use for planning, see:

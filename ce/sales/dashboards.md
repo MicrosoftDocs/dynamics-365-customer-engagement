@@ -1,7 +1,7 @@
 ---
 title: "Gain insights with dashboards - Sales Enterprise | MicrosoftDocs"
 description: "Get a quick glance of important and actionable business data using pre-built dashboards. Get insights into how your sales team is doing."
-ms.date: 09/30/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,14 +15,6 @@ searchScope:
   - Customer Engagement
 ---
 # Gain insights with dashboards in Dynamics 365 Sales 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 
 
 Dashboards in Dynamics 365 Sales provide an overview of actionable business data that's viewable across the organization. Use dashboards to see important data at a glance.

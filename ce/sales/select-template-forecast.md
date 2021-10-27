@@ -1,7 +1,7 @@
 ---
-title: "Select a template to configure forecasting (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Select a template to configure forecasting"
 description: "Select a template to define the hierarchy to be used in a forecast in Dynamics 365 Sales."
-ms.date: 08/01/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -11,13 +11,16 @@ ms.custom:
 ---
 # Select a template 
 
-## Requirements
+Select a template to define the hierarchy to be used in a forecast in your organization.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Select template  
 
 You can select a template to create a forecast. The selected templates populate the **Hierarchy route** field that defines the entity type in your hierarchy. However, to create a forecast based on your custom rollup and hierarchy entities, select **Create from scratch**.   
 
@@ -32,6 +35,7 @@ To select a template, go to the **Forecast configurations** page and select one 
 > [!div class="mx-imgBorder"]
 > ![Select template.](media/forecast-ce-template-selection.png "Select template")
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 <table>
 <tr><td>

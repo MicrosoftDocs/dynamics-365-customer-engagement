@@ -1,7 +1,7 @@
 ---
-title: "Segment creation and activation in sales accelerator | MicrosoftDocs"
+title: "Segment creation and activation in sales accelerator"
 description: "Create and activate segments by defining conditions to automatically add records that satisfy the conditions in Dynamics 365 Sales."
-ms.date: 04/09/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,20 +9,21 @@ manager: shujoshi
 ---
 # Create and activate a segment 
 
-## Requirements
+As a sequence manager, you create segments&mdash;groups of records&mdash;by defining different conditions for each segment. After a segment is activated and a record satisfies the conditions that are defined in the segment, the record becomes a member of the segment. A sequence that's connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
+
+> [!NOTE]
+> You can create segments only for leads and opportunities. 
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-As a sequence manager, you create segments&mdash;groups of records&mdash;by defining different conditions for each segment. After a segment is activated and a record satisfies the conditions that are defined in the segment, the record becomes a member of the segment. A sequence that's connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
-
-> [!NOTE]
-> You can create segments only for leads and opportunities. 
 
 <!--markdownlint-disable MD036-->
-**To create and activate a segment**
+## To create and activate a segment
 <!--markdownlint-enable MD036-->
 1.	Sign in to your Dynamics 365 Sales Hub app.    
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
@@ -95,6 +96,8 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 9.	Select **Activate**.    
 
 The segment is activated. Now you can connect the segment to a sequence or a record. 
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 <table>
 <tr><td>

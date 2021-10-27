@@ -1,7 +1,7 @@
 ---
 title: "Configure a forecast using custom rollup entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure a forecast using custom rollup entity in Dynamics 365 Sales."
-ms.date: 10/26/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -19,15 +19,14 @@ searchScope:
 ---
 # Configure forecasts by using a custom rollup entity 
 
-## Requirements
+Forecasting supports custom and other out-of-the-box rollup entities (now known as tables) so you can configure a forecast that's specific to your organizational requirements.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
-
-Forecasting supports custom and other out-of-the-box rollup entities (now known as tables) so you can configure a forecast that's specific to your organizational requirements.
 
 ## How it works
 
@@ -177,6 +176,8 @@ Let's configure this forecast.
 6.	If you have enabled premium forecasting and want to take snapshots automatically, see [Take snapshots automatically](manage-snapshots-forecast.md).  
 
 7.	Perform the steps in [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

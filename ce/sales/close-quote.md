@@ -1,11 +1,11 @@
 ---
 title: "Close a quote - Sales Enterprise | MicrosoftDocs"
 description: "A quote can be closed when it's lost, canceled, or revised."
-ms.date: 09/02/2021
+ms.date: 10/25/2021
 ms.topic: topic
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-quote
@@ -15,9 +15,13 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Close a quote 
 
-## Requirements
+# Close a quote in Dynamics 365 Sales
+
+When you [create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote), the quote is automatically closed as won. However, if the quote was not accepted, you can close it manually as Lost, Canceled, or Revised. 
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -25,10 +29,7 @@ searchScope:
 |||
 
 
-
-When you [create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote), the quote is automatically closed as won. However, if the quote was not accepted, you can close it manually as Lost, Canceled, or Revised. 
-
-**To close a quote:**
+## Close a quote
 
 1. In the Sales Hub sitemap, select **Quotes** to view all the quotes. Alternatively, you can open an opportunity and select the **Quotes** tab to view the quotes associated with the opportunity.
     > [!NOTE]
@@ -49,6 +50,8 @@ case, select **Yes**. If you don't want to revise the quote, set this field to *
     - **Close the associated opportunity:** This field appears only when you try to close the last quote associated with an opportunity. 
 
 3. Select **OK**.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

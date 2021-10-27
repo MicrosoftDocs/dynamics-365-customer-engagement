@@ -1,7 +1,7 @@
 ---
 title: "Work with opportunities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
-ms.date: 10/14/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,16 +16,17 @@ searchScope:
 ---
 # Work with opportunities in the Kanban view 
 
-## Requirements
+Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-Use the Kanban view to effectively keep tabs on the sales pipeline. 
+## What is a Kanban view? 
 
 The Kanban view shows opportunities as cards. The lanes in the Kanban view represent the default statuses or business process flow stages of opportunities. The opportunity cards within the swim lanes show where in the process the opportunities are. 
 
@@ -133,7 +134,7 @@ Here are some important things to know about your Kanban view:
     
     - For all closed opportunities a lock icon is shown. The lock icon means that you can't change the information on the card inline, but you can still move the cards from one lane to another.
 
-
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

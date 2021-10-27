@@ -1,7 +1,7 @@
 ---
 title: "System Settings dialog box - Sales tab  | MicrosoftDocs"
 description: "Learn about the system-level settings for Dynamics 365 Sales."
-ms.date: 04/17/2020
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,13 +9,16 @@ manager: annbe
 ---
 # System Settings dialog box - Sales tab 
 
-## Requirements
+Define global sales settings for products, pricing, and discounts.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator or System Customizer <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## System settings for Sales
 
 Learn about the system-level settings for Dynamics 365 Sales.  
   
@@ -55,10 +58,7 @@ Learn about the system-level settings for Dynamics 365 Sales.
     |Line item|Product 1|100|11|10|(100*11)-10=1090|  
     |Per unit|Product 2|100|11|10|(100-10)*11=990|  
   
-  
-          
-
-
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also  
  [Create price lists and price list items to define pricing of products](create-price-lists-price-list-items-define-pricing-products.md)   

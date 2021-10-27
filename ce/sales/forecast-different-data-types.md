@@ -1,21 +1,13 @@
 ---
-title: "Forecast with multiple data type columns (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Forecast with multiple data type columns in Dynamics 365 Sales"
 description: "Forecast with multiple data type columns"
-ms.date: 10/26/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
 # Forecast with multiple data type columns 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 
 In a forecast grid, you can have multiple columns with different data types&mdash;such as currency and quantity&mdash;displayed in a single view. For example, in a product-based forecast, you can display the **Best case** column values as a quantity (the integer value of the volume of products sold) and as currency simultaneously.
 
@@ -30,6 +22,15 @@ Similarly, the Kanban view, deal flow, and trend chart can't show two columns wi
 
 >[!NOTE]
 >To use deal flows and trend charts, you must enable premium forecasting.
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## Examples of different data types
 
 Let's look at a few examples of how you can configure and activate these forecasts:
 
@@ -132,6 +133,8 @@ You can view the details of the primary data type and selected column (among dup
     > ![Select view settings and view layout warnings pane.](media/forecast-view-settings-layout-warnings-pane.png "Select view settings and view layout warnings pane") 
 
     You can view the selected primary data type and column to display in the Kanban view, deal flows, and trend charts.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

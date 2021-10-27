@@ -1,7 +1,7 @@
 ---
 title: "Create a unit group and add units to that group (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 Sales."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -22,13 +22,17 @@ searchScope:
 ---
 # Create a unit group and add units to that group (Sales Hub) 
 
-## Requirements
+Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 Sales.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## What are unit groups and units?
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.  
   
@@ -91,5 +95,6 @@ Units are the quantities or measurements that you sell your products or services
   
  ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

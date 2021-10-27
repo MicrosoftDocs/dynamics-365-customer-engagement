@@ -1,7 +1,7 @@
 ---
 title: "Set up product bundles to sell multiple items - Sales Enterprise| MicrosoftDocs"
 description: "Encourage customers to buy more products instead of a single product by combining products in a bundle."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,15 +16,17 @@ searchScope:
 ---
 # Set up product bundles to sell multiple items together (Sales Hub) 
 
-## Requirements
+Encourage customers to buy more products instead of a single product by combining products in a bundle.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-Encourage customers to buy more products instead of a single product by combining products in a bundle.  
+## What is a product bundle?  
 
 A bundle is a collection of products that is sold as single unit. Product bundling is useful in cases like:  
   
@@ -113,6 +115,8 @@ If you've added this bundle to a family, the bundle will inherit the properties 
   
  ![Home button](media/walkthrough-home.png "Home button") [Classify products and bundles into product families](create-product-bundles-sell-multiple-items-together.md)  
   
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
 [How prices are calculated for product bundles?](pricing-product-bundles.md)
 [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   

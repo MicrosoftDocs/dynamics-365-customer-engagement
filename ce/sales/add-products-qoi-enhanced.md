@@ -1,7 +1,7 @@
 ---
 title: "Enhanced experience for Adding products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise."
-ms.date: 09/02/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,15 +19,6 @@ searchScope:
   - Sales
 ---
 # Preview: Add products to quotes, orders, or invoices by using the enhanced experience 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -58,6 +49,15 @@ As a salesperson, you want to be able to easily identify and add products from t
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 If you've created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones.
+
+## License and role requirements
+
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 ## Add products to a quote, order, or invoice
 
@@ -126,8 +126,7 @@ If you've created a quote from an opportunity, the products added to the opportu
 > [!NOTE] 
 > The process for removing a product from a quote is the same as removing a product from an order or an invoice. This procedure explains how to remove products from a quote.
 
-Remove products if you've selected them inadvertently or they're
-no longer relevant for the quote. You can remove products in two circumstances:
+Remove products if you've selected them inadvertently or they're no longer relevant for the quote. You can remove products in two circumstances:
 
 - While adding products to the quote, by using the **Add products** dialog box.
 - After you've added products to the quote, in the **Products** section of the quote.
@@ -144,6 +143,8 @@ no longer relevant for the quote. You can remove products in two circumstances:
 
 2. Select the products that you want to remove, and then select **Delete quote product**.
     The selected products will be removed from the quote after you confirm the deletion.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

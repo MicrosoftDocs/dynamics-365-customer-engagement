@@ -1,7 +1,7 @@
 ---
 title: "Add editable Products grid to forms (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,7 +11,10 @@ ms.custom:
 ---
 # Add editable Products grid to Opportunity, Quote, Order, and Invoice forms 
 
-## Requirements
+Editable products grid on the Opportunity, Quote, Order, or Invoice forms lets sellers to edit product details inline, without having to open individual product records to update. 
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -19,7 +22,7 @@ ms.custom:
 |||
 
 
-Products grid on the Opportunity, Quote, Order, or Invoice forms is now editable, so you don’t have to open individual product records to make changes to the product. 
+## Enable editable Products grid
 
 Currently, the preconfigured Products grid is available only on apps built on the Unified Interface framework and is optimized to work on the web.
 
@@ -55,6 +58,7 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
  
 7.	Select **OK**.
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
 

@@ -1,19 +1,20 @@
 ---
 title: "Help resources for salespeople (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales"
-ms.date: 10/08/2021
+ms.date: 10/25/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
-# Help resources for salespeople 
+# Help resources for salespeople  
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)] helps you zero in on the right leads, contacts, and opportunities as you build out your team's sales pipeline. Built-in processes guide you from one stage of the sales process to the next, and  easy-to-use dashboards help you set goals and provide actionable insights to help you close more deals.  
 
-Use links in this article to familiarize with Dynamics 365 Sales Enterprise and Sales Premium capabilities.
+Use links in this articles to learn how to leverage the Sales Enterprise and Sales Premium capabilities as a seller.  
+
   
 <table>
 
