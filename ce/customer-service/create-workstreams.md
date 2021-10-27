@@ -83,16 +83,15 @@ Routing rules for a workstream consists of work classification rules and route-t
 
 In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options:
 
-- **Auto-close after inactivity**: Select a time period after which inactive conversations will be moved to the closed state automatically. 
- > [!NOTE]
- > If you have selected Live chat in the **Channel** field, the **Auto-close after inactivity** field will not be visible to you as **Waiting** state is not applicable to Live chat. More information: [Automatic closure of conversation](oc-conversation-state.md#automatically-close-conversations)
+- **Auto-close after inactivity**: Select a time period after which inactive conversations will be moved to the closed state automatically. This option is available for only SMS, social, and Microsoft Teams channels.
+ 
 - **Work distribution mode**: The option that you selected in step 3 is displayed and can't be edited.
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your organization has configured unit-based capacity.
   - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity.
 -  **Block capacity for wrap up**: Select a duration to block capacity when the agent is in **Wrap-up** state, such as **1 minute** or **15 minutes**. After the specified duration, agent capacity is released  and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state.
-      > [!IMPORTANT]
-      > If you have selected **End of Day mode** in capacity profile, agent capacity won't be reset after the duration selected in the **Block capacity for wrap up** field.
+> [!NOTE]
+> If you have selected **End of Day mode** in capacity profile, agent capacity won't be reset after the duration selected in the **Block capacity for wrap up** field is over.
 - **Allowed presences**: Select the presences in which agents will be assigned.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
 - **Keep same agent for entire conversation**: Set the toggle to yes if you want the conversation to remain assigned to the originally assigned agent. More information: [Agent affinity](#agent-affinity)
