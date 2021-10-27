@@ -51,7 +51,7 @@ The following table lists the components of the smart assist card for AI-suggest
 
 When you're on a call with a customer and want to share knowledge articles for the customer issue, you can select the **Copy URL** option on the **Smart assist** pane, whereby the article link gets copied to the clipboard. You can then email the URL to your customer.
 
-:::image type="content" source="media/sa-option-voice call.png" alt-text="Smart assist suggestions for voice channel.":::
+:::image type="content" source="media/sa-option-voice-call.png" alt-text="Smart assist suggestions for voice call":::
 
 ## Understand the similar cases components in smart assist
 
