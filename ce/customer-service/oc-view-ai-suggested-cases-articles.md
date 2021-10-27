@@ -1,7 +1,7 @@
 ---
 title: "View smart assist suggestions for knowledge articles and similar cases using AI | MicrosoftDocs"
 description: "View smart assist suggestions for knowledge articles and similar cases using AI."
-ms.date: 10/21/2021
+ms.date: 10/27/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -67,6 +67,7 @@ The following table lists the components of the smart assist card for AI-suggest
 | 5 | When selected, links to the current active case or removes the link to the similar case. |
 | 6 | When selected, displays information on the keywords that were used by the AI model to match the article. |
 | 7 | Status of the similar case. |
+| 8 | Displays the actions that can be performed when you select more commands. 
 
 If no cases match, then the card displays an appropriate message, such as "No suggestions found for similar cases."
 
