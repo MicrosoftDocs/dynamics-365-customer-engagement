@@ -9,19 +9,17 @@ manager: shujoshi
 ---
 # Match fields between Dynamics 365 and ZoomInfo 
 
-## Requirements
+When you try to export data from the ZoomInfo app to your Dynamics 365 Sales organization, certain corresponding fields may not match and won't display updated values. To avoid these mismatches, you can map the corresponding fields between Dynamics 365 and ZoomInfo for accounts, contacts, and leads.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-When you try to export data from the ZoomInfo app to your Dynamics 365 Sales organization, certain corresponding fields may not match and won't display updated values. To avoid these mismatches, you can map the corresponding fields between Dynamics 365 and ZoomInfo for accounts, contacts, and leads.
-
 ## Prerequisites
 Before you start, be sure you've met the following prerequisites:
--	The system administrator role is assigned to you. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).   
 -	The ZoomInfo app is installed on your Dynamics 365 Sales organization. More information: [Install ZoomInfo app](install-zoominfo-app.md).   
 -	You have a license to use the ZoomInfo app.
 
@@ -67,6 +65,7 @@ Before you start, be sure you've met the following prerequisites:
 
     The ZoomInfo app validates the corresponding mapped values and saves the mappings. If there are any mismatches in the mapping, an error is displayed to resolve the issue.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

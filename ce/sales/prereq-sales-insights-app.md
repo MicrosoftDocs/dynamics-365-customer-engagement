@@ -1,7 +1,7 @@
 ---
-title: "Prerequisites to administer conversation intelligence | MicrosoftDocs"
+title: "Prerequisites to administer conversation intelligence"
 description: "Verify the prerequisites that are necessary to administer conversation intelligence in your Dynamics 365 Sales organization."
-ms.date: 06/01/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 6ee1a5cf-bb4a-46d5-b835-c0ac6644dec5
@@ -15,13 +15,6 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 # Prerequisites to configure conversation intelligence 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
 
 >[!IMPORTANT]
 >This feature is intended to help sales managers or supervisors enhance their team's performance. This feature isn't intended for use in making&mdash;and shouldn't be used to make&mdash;decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.

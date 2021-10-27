@@ -1,11 +1,11 @@
 ---
 title: "Sales transactions in Dynamics 365 Sales | MicrosoftDocs"
 description: "Understand how quotes and invoices are used in a sales transaction."
-ms.date: 08/03/2020
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-quote
@@ -18,15 +18,6 @@ searchScope:
   - Sales
 ---
 # Sales transactions in Dynamics 365 Sales 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 
 In Dynamics 365 Sales, a sale typically starts with a draft quote. A quote undergoes several revisions between the salesperson and customer before it is accepted.
 After the quote is accepted, an order is generated from the quote. The order is used to fulfill the agreement of goods or

@@ -1,7 +1,7 @@
 ---
-title: "View forecast projection through trend charts (Sales Insights) | MicrosoftDocs"
+title: "View forecast projection through trend charts"
 description: "Use the trend charts to understand how each forecast amount is trending over time, comparing it against the period end prediction and quota."
-ms.date: 10/07/2021
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -10,18 +10,17 @@ manager: shujoshi
 ---
 # Understand forecast projections by using trend charts 
 
-## Requirements
+The **Trend** chart shows how each forecast amount is trending over time, comparing it against the period end prediction and quota. A separate predicted realization line is automatically created to project future revenue over time.  
+
+> [!NOTE]
+> The **Trend** chart is available as part of the predictive forecasting feature. Verify that predictive forecasting is enabled for your organization. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
-
-The **Trend** chart shows how each forecast amount is trending over time, comparing it against the period end prediction and quota. A separate predicted realization line is automatically created to project future revenue over time.  
-
-> [!NOTE]
-> The **Trend** chart is available as part of the predictive forecasting feature. Verify that predictive forecasting is enabled for your organization. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
 
 ## View trend charts
 
@@ -59,6 +58,7 @@ You can also view the summary of a forecast category at a given time by hovering
 
 If you don't want to view any forecast category on the chart, select the forecast category on the legend and the forecast category will be grayed out. To view it again on the chart, select the forecast category.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

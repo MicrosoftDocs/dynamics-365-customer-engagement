@@ -1,7 +1,7 @@
 ---
 title: "Create or edit goals - Sales Enterprise | MicrosoftDocs"
 description: "Use goals to track your progress on achieving target revenue or other targets set by your organization. Propagate goals using parent and child goals."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,15 +16,19 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Create or edit goals (Sales Hub) 
+# Create or edit goals
 
-## Requirements
+Use goals to track your progress on achieving target revenue or other targets set by your organization. Propagate goals using parent and child goals.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Create a goal
 
 Use goals to keep track of your progress on achieving target revenue.  
   
@@ -103,7 +107,7 @@ Use goals to keep track of your progress on achieving target revenue.
 
 13.	Select **Save** or **Save & Close**.
 
-
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also  
  [Create or edit a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Talking points in Sales Insights | MicrosoftDocs"
+title: "Know conversation starters through talking points"
 description: "Use talking points to automatically identify conversation starters of your customers before you interact with them."
 ms.date: 10/31/2018
 ms.custom: 
@@ -10,14 +10,6 @@ manager: shujoshi
 topic-status: Drafting
 ---
 # Know conversation starters for your customers  
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 
 As a sales representative, you interact with many customers and it can be difficult to remember details about each, such as:
 -  Latest entertainment event they attended.

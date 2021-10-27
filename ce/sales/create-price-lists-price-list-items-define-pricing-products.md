@@ -1,7 +1,7 @@
 ---
 title: "Define product pricing - Sales Enterprise | MicrosoftDocs"
 description: "Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,13 +17,16 @@ searchScope:
 ---
 # Define product pricing with price lists and price list items (Sales Hub) 
 
-## Requirements
+Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## What is a price list?
 
 Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions you sell your products in or for different sales channels.  
   
@@ -141,7 +144,9 @@ Price lists tie the unit, product, and pricing details together, so before you c
  ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](publish-product-bundle-make-available-selling.md)  
   
  ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  
-  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
  [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)   
  [Classify products and bundles into product families](create-product-bundles-sell-multiple-items-together.md)  

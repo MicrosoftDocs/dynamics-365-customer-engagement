@@ -1,7 +1,7 @@
 ---
-title: "First-run setup experience for conversation intelligence | MicrosoftDocs"
+title: "First-run setup experience for conversation intelligence"
 description: "First-run configuration of conversation intelligence for Microsoft Teams and conversation intelligence application for your Dynamics 365 Sales environment."
-ms.date: 10/18/2021
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
@@ -17,13 +17,6 @@ topic-status: Drafting
 
 # First-run setup experience for conversation intelligence
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 You can configure conversation intelligence with Microsoft Teams by completing the following section:
 
 - [Microsoft Teams for conversation intelligence](#microsoft-teams-for-conversation-intelligence)
@@ -33,6 +26,13 @@ After you sign in to conversation intelligence or your sales app, you can set up
  
 - As an administrator, you can set up the complete application&mdash;enable Microsoft Teams call recording for conversation intelligence preview, select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.
 - As a sales manager or a seller, you'll need an administrator to configure the application so you can view the data and settings that are relevant to you. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## Microsoft Teams for conversation intelligence
 
@@ -47,8 +47,6 @@ Using Teams together with conversation intelligence in Dynamics 365 Sales helps 
 
 Review the following requirements before you configure Teams call recording for conversation intelligence:
 
-- You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/signup/logout?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99&ali=1) or Sales Premium license. 
-- You must have a Dynamics 365 system administrator or equivalent security role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
 - Your organization has a Teams phone system installed with a valid license to use it. More information: [Set up Phone System in your organization](/microsoftteams/setting-up-your-phone-system)
 - You have a license to use Teams. More information: [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
  
@@ -233,6 +231,7 @@ Teams call recording with conversation intelligence is now configured and ready 
 
 Now your conversation intelligence application is ready, and managers and sellers can use it to view this data.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

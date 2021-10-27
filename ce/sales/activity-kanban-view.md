@@ -1,11 +1,11 @@
 ---
 title: "Work with activities in the Kanban view - Sales Enterprise | MicrosoftDocs"
 description: "Use the opportunity Kanban view to visualize your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
-ms.date: 10/14/2020
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-activitypointer
@@ -15,19 +15,17 @@ searchScope:
 ---
 # Work with activities in the Kanban view 
 
-## Requirements
+The Kanban view for activities helps salespeople to manage multiple activities quickly. Looking at the Kanban view, salespeople can quickly see the activities and the status they're in. In the Activity Kanban view, activities are represented visually with cards. The lanes represent the default statuses of activities. You can drag the activities to different lanes to move them from one status to another.
+
+> [!NOTE]
+> The Kanban view is not supported in the **Dynamics 365 for Phones** mobile app.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
-
-
-The Kanban view for activities helps salespeople to manage multiple activities quickly. Looking at the Kanban view, salespeople can quickly see the activities and the status they're in. In the Activity Kanban view, activities are represented visually with cards. The lanes represent the default statuses of activities. You can drag the activities to different lanes to move them from one status to another.
-
-> [!NOTE]
-> The Kanban view is not supported in the **Dynamics 365 for Phones** mobile app.
 
 ## Open a Kanban view
 
@@ -78,6 +76,8 @@ Here are some important things to know about your Kanban view:
     - There's no restrictions on the movement of custom activity cards—they can be moved from any lane to any lane.
  
     - When you're dragging a card to move to another lane, the lanes where the card can't be dropped appear dimmed.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

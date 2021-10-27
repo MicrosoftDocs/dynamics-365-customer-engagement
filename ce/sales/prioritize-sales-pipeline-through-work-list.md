@@ -13,14 +13,6 @@ products:
 ---
 # Prioritize your sales pipeline by using the work list  
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 During their workday, sellers need to juggle multiple tasks as they work on multiple records. As a result, it can be hard for them to plan and prioritize their customer-facing activities. The work list in the Sales accelerator for Dynamics 365 Sales Insights helps sellers prioritize their time and effort to ensure that important records aren't left behind.    
 The Sales accelerator work list gives sellers the following capabilities:  
 - Manage and view records that include the activities that are due in the last 30 days to be performed, sorted by priority, and remove records after an activity has been completed. More information: [View my records through the work list](#view-my-records-through-work-list)   

@@ -1,23 +1,15 @@
 ---
 title: "Dynamics 365 Sales and GDPR - Sales Enterprise | MicrosoftDocs"
 description: "To comply with GDPR guidelines, we’ve made it possible to update read-only records through an export and import, and through SDKs."
-ms.date: 10/01/2019
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 # Dynamics 365 Sales and GDPR 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
-To comply with GDPR, we’ve made it possible to edit read-only records in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
+To comply with GDPR, we've made it possible to edit read-only records in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
 
 The following table shows the states in which the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] records become read-only. 
 

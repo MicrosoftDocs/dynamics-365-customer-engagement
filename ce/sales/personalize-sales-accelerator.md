@@ -1,7 +1,7 @@
 ---
-title: "Personalize sales accelerator settings (Sales Insights) | MicrosoftDocs"
+title: "Personalize sales accelerator settings"
 description: "Use personal settings to determine how activities are scheduled based on work availability and deciding what happens when an activity is complete."
-ms.date: 03/08/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,13 +9,16 @@ manager: shujoshi
 ---
 # Personalize sales accelerator 
 
-## Requirements
+Use personal settings to determine how activities are scheduled based on work availability and deciding what happens when an activity is complete.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## What can you personalize
 
 As a seller, you can personalize sales accelerator by determining how activities are scheduled based on your work availability and deciding what happens when you complete an activity. The following personal settings are available for you to configure:
 
@@ -139,6 +142,7 @@ When a step is displayed in the **Up next** widget, a corresponding activity is 
  
 5.	Save and close the settings page.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 
