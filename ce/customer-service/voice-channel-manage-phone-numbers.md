@@ -64,6 +64,9 @@ To be able to acquire new phone numbers for your business, you must first [conne
    A **Summary** with the newly allotted phone number and its details is displayed.
 
 3. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers** page.
+
+    > [!div class="mx-imgBorder"]
+    > ![Add phone number.](./media/voice-channel-number-mgmt-add-summary.png "Add phone number.")
   
    The new phone number is displayed in the numbers list with the status **Ready for setup**.
 

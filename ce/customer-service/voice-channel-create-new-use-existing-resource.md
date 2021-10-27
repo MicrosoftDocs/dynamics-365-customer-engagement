@@ -41,6 +41,8 @@ Before you connect to a new Azure resource, check whether you have the following
       > The resource group name should be unique within a given subscription.
    - **Resource name**: Enter a name for the resource.
 3. Select **Deploy** to create and deploy the resource. You're now connected to Azure Communication Services.
+    > [!div class="mx-imgBorder"]
+    > ![Create new resource.](./media/voice-channel-number-mgmt-azure-create-new-resource.png "Create new resource.")
 
 ## Connect to an existing Azure resource
 
