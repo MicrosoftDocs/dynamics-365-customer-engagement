@@ -16,8 +16,8 @@ ms.service: dynamics-365-customerservice
 Azure direct routing lets you integrate third-party IVRs with Omnichannel for Customer Service voice channel, and perform a contextual communication between them.
 
 Before you proceed with this section, you must be familiar with the following:
-- [Azure direct routing infrastructure requirements](../../azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
-- [Session Border Controllers and voice routing](../../azure/communication-services/concepts/telephony-sms/direct-routing-provisioning)
+- [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
+- [Session Border Controllers and voice routing](/azure/communication-services/concepts/telephony-sms/direct-routing-provisioning)
 
 Follow these steps to set up contextual communication between the voice channel and third-party IVRs.
 
