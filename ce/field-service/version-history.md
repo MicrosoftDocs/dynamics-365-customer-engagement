@@ -71,7 +71,7 @@ This release is a hotfix on Field Service version [8.8.52.125](/dynamics365/fiel
 
 This release is a hotfix on Field Service version [8.8.52.123](/dynamics365/field-service/version-history#8852123).
 
-- Bug fix where instructions field gets empty on work order save.
+- Bug fix where instructions field clears on work order save.
 
 ## 8.8.52.123
 
