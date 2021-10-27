@@ -8,11 +8,7 @@ ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-<!--  
 
-a.	Bring your own number via Azure direct routing[Neeraja]  Delta from private preview refresh; link to ACS docs and add a couple of steps with screenshots. This is part of number management. 
-
--->
 # Bring your own number: Azure direct routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
