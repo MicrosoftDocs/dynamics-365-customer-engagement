@@ -52,12 +52,11 @@ On the sign in screen, select the clipboard icon and then select **Copy session 
 Send logs directly to Microsoft, so we can help troublehoot your issue.
 
 1. On the sign in screen, select the clipboard icon and then select **Share logs**.
-2. Select a sharing option such as Outlook.
-3. When the logs are added to the email then send email the logs to: [dynmobisup@microsoft.com](dynmobisup@microsoft.com)
+2. Select a sharing option such as Outlook and then email the logs to: [dynmobisup@microsoft.com](dynmobisup@microsoft.com)
 
 Alternatively, You can also share logs from Home screen.
 
 1. Select the site map ![Site map.](media/d365_mobile_sitemap_icon.png "Site map"), and then select your picture or the profile button.
-2. Under **Help** select **Share logs** and email the logs to: [dynmobisup@microsoft.com](dynmobisup@microsoft.com)
+2. Under **Help** select, **Share logs** and then email the logs to: [dynmobisup@microsoft.com](dynmobisup@microsoft.com)
 
    
