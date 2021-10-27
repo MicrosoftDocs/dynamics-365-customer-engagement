@@ -19,7 +19,7 @@ a.	Bring your own number via Azure direct routing[Neeraja]  Delta from private p
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service helps you enable and use voice and SMS services in a seamless, integrated way within Dynamics 365. As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
+Omnichannel for Customer Service helps you enable and use voice and SMS services seamlessly within Dynamics 365. As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
 
 ## Use trial phone number
 
@@ -27,7 +27,10 @@ The voice channel includes a trial phone number that comes with 60 minutes of fr
 
 ## View phone numbers
 
-To view all available phone numbers in your organization, open Omnichannel admin center. Under **General settings**, select **Phone numbers**, and you'll see the list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
+To view all available phone numbers in your organization, open Omnichannel admin center and go to **General settings** >  **Phone numbers**. You'll see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
+
+> [!div class="mx-imgBorder"]
+> ![View list of phone numbers.](./media/voice-channel-number-mgmt-view-phone-numbers.png "View list of phone numbers.")
 
 If you don't have any phone numbers set up for your business, see [Acquire new phone numbers](#acquire-new-phone-numbers) to learn how you can purchase new numbers.
 
@@ -55,6 +58,9 @@ To be able to acquire new phone numbers for your business, you must first [conne
 
    f. Then, select **Find numbers** to search for available numbers in your area.
    
+    > [!div class="mx-imgBorder"]
+    > ![Add phone number.](./media/voice-channel-number-mgmt-add-features.png "Add phone number.")
+
    A **Summary** with the newly allotted phone number and its details is displayed.
 
 3. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers** page.
@@ -91,7 +97,7 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
 ### Configure phone numbers for outbound calling
 
-After you've purchased phone numbers and associated them with voice workstreams, you can configure them for outbound calls so your agents can actually make calls to customers. More information: [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling).
+After you've purchased phone numbers and associated them with voice workstreams, you can configure them for outbound calls so your agents can actually make calls to customers. More information: [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling)
 
 ### Configure voice channel for inbound calling
 
