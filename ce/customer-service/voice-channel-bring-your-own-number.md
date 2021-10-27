@@ -40,17 +40,17 @@ Before you bring in your own number, do the following:
 
 3. In the **Add phone number** dialog, enter the following details:
 
-- **Phone number**: Number that you own and have configured in your SBC.
+    - **Phone number**: Number that you own and have configured in your SBC.
 
-- **Carrier**: Denotes which carrier the phone number belongs to. If the carrier doesn’t exist yet, you can create a new record.
+    - **Carrier**: Denotes which carrier the phone number belongs to. If the carrier doesn’t exist yet, you can create a new record.
 
-- **Country/Region**: Select the country or region the phone numbers belongs to.
+    - **Country/Region**: Select the country or region the phone numbers belongs to.
 
-- **Number type**: Select whether toll-free or a local phone number.
+    - **Number type**: Select whether toll-free or a local phone number.
 
-- **Calling plans**: Select whether the phone number can make or receive calls.
-    > [!Note]
-    > SMS is not supported with Azure direct routing.
+    - **Calling plans**: Select whether the phone number can make or receive calls.
+        > [!Note]
+        > SMS is not supported with Azure direct routing.
 
 4. Select **Add Number**.
 
