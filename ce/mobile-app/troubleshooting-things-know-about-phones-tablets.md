@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting and things to know about Dynamics 365 for phones and tablets | MicrosoftDocs"
+title: "Common issues and resolutions for Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
 description: Troubleshoot and issues to know about Dynamics 365 for phones and tablets.
 ms.date: 10/28/2021
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Potential issues and resolutions
+# Common issues and resolutions for Dynamics 365 for phones and tablets
    
    
 ## Error: On iOS 14, canvas embedding, Power BI dashboards or iframes relying on cookies do not work.
