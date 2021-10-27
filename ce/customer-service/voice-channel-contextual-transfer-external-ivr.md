@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Integrate third-party IVRs with voice channel: Azure Direct Routing
+# Integrate third-party IVRs with voice channel: Azure direct routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

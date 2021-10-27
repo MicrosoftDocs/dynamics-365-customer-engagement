@@ -146,6 +146,6 @@ When you release a phone number, you actually delete it from Dynamics 365, so re
 [Connect to Azure Communication Services](voice-channel-create-new-use-existing-resource.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Inbound calling](voice-channel-route-queues.md)  
-[Bring your own number: Azure Direct Routing](voice-channel-bring-your-own-channel.md)  
+[Bring your own number: Azure direct routing](voice-channel-bring-your-own-channel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
