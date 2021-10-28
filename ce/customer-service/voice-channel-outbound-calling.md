@@ -67,10 +67,6 @@ For outbound calls, set the capacity profile fields as follows:
 
 You can define the way outbound calls are made and also who can make them. To create an outbound profile, you'll need a phone number that's enabled for outbound calling. This means that in your calling plan for that number, the **Make calls** checkbox must be selected.
 
-<!--
-In private preview, only *one* outbound profile can be created. While you can edit the profile, you cannot delete it. *The first run experience creates an outbound profile by default.*
--->
-
 **To create outbound profiles**
 
 1. In the site map of Omnichannel admin center, select **Agent experience** under the **Advanced settings** menu.
@@ -117,11 +113,10 @@ You can assign personal phone numbers to agents to make outbound calls to custom
 
 3. Select an agent and then select **Enable**.
 
-
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Bring your own number: Azure Direct Routing](voice-channel-bring-your-own-number.md)  
+[Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

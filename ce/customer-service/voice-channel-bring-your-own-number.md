@@ -1,5 +1,5 @@
 ---
-title: "Bring your own phone number: Azure direct routing | MicrosoftDocs"
+title: "Bring your own phone numbers | MicrosoftDocs"
 description: "Use this topic to understand how you can bring your own phone numbers in Omnichannel for Customer Service via Azure direct routing."
 author: mh-jaya
 ms.author: v-jmh
@@ -9,20 +9,15 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Bring your own number: Azure direct routing
+# Bring your own phone numbers
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-To use the voice channel in Omnichannel for Customer Service, customers must acquire new phone numbers from [Azure Communication Services](/azure/communication-services/overview). Azure Communication Services, however, provides numbers only in the United States with Microsoft as the carrier for the voice data.
 
 [Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) enables you to connect your existing telephony infrastructure to Azure. So, if you have non-US based phone numbers, or want to retain your existing numbers (for example, 1800-WALMART) and carriers (such as AT&T, Verizon, TATA, British Telecom), you can do so using Azure direct routing.
 
 ## Prerequisites
 
-To bring in your own number via Azure direct routing, you must first connect to an Azure Communications Service resource. You must then set up Azure direct routing for the connected Azure resource.
-
-> [!Note]
-> This feature is not available in trial mode.
+To bring in your own numbers via Azure direct routing, you must first connect to an Azure Communications Service resource. You must then set up Azure direct routing for the connected Azure resource.
 
 Before you bring in your own number, do the following:
 
@@ -62,6 +57,6 @@ The new phone number will be displayed in the Phone numbers list and is ready fo
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Connect to Azure Communication Services](voice-channel-create-new-use-existing-resource.md)  
-[Integrate third-party IVRs with voice channel via Azure direct routing](voice-channel-contextual-transfer-external-ivr.md)  
+[Integrate third-party IVRs with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

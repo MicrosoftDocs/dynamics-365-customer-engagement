@@ -1,5 +1,5 @@
 ---
-title: "Integrate third-party IVRs with the voice channel via Azure direct routing | MicrosoftDocs"
+title: "Integrate third-party IVRs with the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can integrate third-party IVRs with the Omnichannel for Customer Service voice channel and set up contextual communication via Azure direct routing."
 author: mh-jaya
 ms.author: v-jmh
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Integrate third-party IVRs with voice channel via Azure direct routing
+# Integrate third-party IVRs with voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -25,7 +25,7 @@ Follow these steps to set up contextual call transfer between the voice channel 
 
 1. Set up Azure direct routing to connect Session Border Controllers (SBCs) linked to the third-party IVR with Dynamics 365.
 
-2. Register the phone number, that’s assigned to the third-party IVR, with Dynamics 365 by bringing in your own number. More information: [Bring your own number: Azure direct routing](voice-channel-bring-your-own-number.md)
+2. Register the phone number, that’s assigned to the third-party IVR, with Dynamics 365 by bringing in your own number. More information: [Bring your own phone numbers](voice-channel-bring-your-own-number.md)
 
 3. At the point of transfer in the IVR, issue an SIP (Session Initiation Protocol) REFER request to the Azure Communication Services resource. This will transfer the call to the Azure resource that's connected to Dynamics 365.
 
@@ -45,6 +45,6 @@ You can now call the phone number assigned to the third-party IVR and achieve a 
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Connect to Azure Communication Services](voice-channel-create-new-use-existing-resource.md)  
-[Bring your own number: Azure direct routing](voice-channel-bring-your-own-number.md)  
+[Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
