@@ -58,10 +58,10 @@ For outbound calls, set the capacity profile fields as follows:
 - **Assignment blocking**: Indicates whether you want to block any incoming calls when the agent is already on a call. Set this value to **Yes**, if you want to ensure the agent does not receive any incoming calls when an outbound call is in progress.
 
 > [!Note]
-> - When you name your capacity profiles, we recommend that you clearly indicate whether it is outbound or inbound, or both in the capacity **Profile name** field, so it's easy for you to assign users or agents to the appropriate profile.
-- While you can use the same capacity profile for both inbound and outbound calling, we recommend that you create separate profiles because not all considerations or settings applicable for outbound calling apply to inbound calling, and vice-versa.
-> - If your agents only use non-voice channels such as chat or SMS channels to connect with customers, you don't need to add them to outbound capacity profiles.
-> - If your agent is only assigned to receive calls from customers, then again, you don't need to assign them to outbound capacity profiles.
+> - When you name your capacity profiles, we recommend that you clearly indicate whether they're outbound, inbound, or both, in the capacity **Profile name** field, so it's easy for you to assign users or agents to the appropriate profile.
+- Though you can use the same capacity profile for both inbound and outbound calling, we recommend that you create separate profiles because the considerations and settings for outbound calling and inbound calling can differ.
+> - If your agents use only non-voice channels such as chat or SMS to connect with customers, then you don't need to add them to outbound capacity profiles.
+> - If your agents are only assigned to receive customer calls, then you don't need to assign them to outbound capacity profiles.
 
 ## Create outbound profiles
 
@@ -73,12 +73,14 @@ You can define the way outbound calls are made and also who can make them. To cr
 
 2. Select **Manage**, next to **Outbound profiles**.
 
-3. If there are no available profiles, select **Create a profile** to create a new one, else select **Add profile**.
+3. Select **Add profile**. If there are no available profiles, then select **Create a profile** to create a new one.
 
 4. In the **Create outbound profile** dialog, enter the following details:
    a. In the **Basic info** section, add the following details:
      - **Profile name**: Enter a profile name.
-     - **Phone number**: Select a phone number from the dropdown list. Note that the list only shows those numbers enabled for outbound calling. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-phone-numbers-for-outbound-calling).
+     - **Phone number**: Select a phone number from the dropdown list. 
+     - > [!Note]
+     - > The phone numbers list shows only those numbers that are enabled for outbound calling. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-phone-numbers-for-outbound-calling).
      - **Queue**: Select a queue from the dropdown list. The list shows only voice type queues, so if you don't see any queues in the list, you'll need to [create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels).
      - **Capacity**: Select one or more capacity profiles from the dropdown list.
      - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.

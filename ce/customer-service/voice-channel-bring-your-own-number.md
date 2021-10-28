@@ -17,7 +17,7 @@ ms.service: dynamics-365-customerservice
 
 ## Prerequisites
 
-To bring in your own phone numbers from any carrier via Azure direct routing, you must first connect to an Azure Communications Service resource. You must then set up Azure direct routing for the connected Azure resource.
+To bring in your own phone numbers from any carrier via Azure direct routing, you must first connect to an Azure Communications Services resource. You must then set up Azure direct routing for the connected Azure resource.
 
 Before you bring in your own number, do the following:
 
@@ -49,7 +49,7 @@ Before you bring in your own number, do the following:
 
 4. Select **Add number**.
 
-The new phone number will be displayed in the Phone numbers list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-route-queues.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents). 
+The new phone number will be displayed in the Phone numbers list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-route-queues.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
   
 ### See also
 
