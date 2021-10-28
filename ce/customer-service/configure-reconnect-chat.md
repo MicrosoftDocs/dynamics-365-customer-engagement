@@ -1,7 +1,7 @@
 ---
 title: "Configure reconnection to a chat session | MicrosoftDocs"
 description: "Learn about configuring reconnections to previous chat sessions in Omnichannel for Customer Service."
-ms.date: 10/27/2021
+ms.date: 10/30/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -57,7 +57,8 @@ You can enable the reconnection options in the chat widget either while setting 
    - **Redirect URL:** Optionally, specify the link that the customer will be redirected to when the reconnect timeout occurs. If this is left blank, the customer will see the option to start a new chat conversation.
 
    4. Select **Save and Close**.
-     :::image type="content" source="media/reconnect-previous-chat.png" alt-text="Reconnect to previous chat":::
+     
+        :::image type="content" source="media/reconnect-previous-chat.png" alt-text="Reconnect to previous chat":::
     
 
 ### See also
