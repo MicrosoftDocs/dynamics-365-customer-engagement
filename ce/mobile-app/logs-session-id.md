@@ -49,7 +49,7 @@ On the sign in screen, select the clipboard icon and then select **Copy session 
 
 ## Share logs
 
-Send logs directly to Microsoft, so we can help troublehoot your issue.
+Send logs directly to Microsoft, so we can help troubleshoot your issue.
 
 1. On the sign in screen, select the clipboard icon and then select **Share logs**.
 2. Select a sharing option such as Outlook and then email the logs to: [dynmobisup@microsoft.com](dynmobisup@microsoft.com)
