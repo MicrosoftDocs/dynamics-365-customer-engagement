@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. For more information, see [Outbound calling](voice-channel-outbound-calling.md).
+To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](voice-channel-outbound-calling.md)
 
 **To make a call to a customer**
 
@@ -25,7 +25,7 @@ To be able to call customers, your administrator must configure outbound calling
 3. Select **Call** on the phone dialer.
 
 > [!Note]
-> In the **Call** dropdown list, you'll see the phone number that you're making the call from. This is the outbound calling number that'll be displayed on the customer's phone when your agent makes the call.
+> In the **Call** dropdown list, you'll see the phone number that you're making the call from. This is the outbound calling number that'll be displayed on the customer's phone when you make the call.
 
 When the call connects, you'll see the customer details on the conversation page. Based on your outbound calling profile, the transcription and recording starts. If your capacity profile has a limit of one outbound call at a time, you won't be able to make another call when a call is in progress.
 
