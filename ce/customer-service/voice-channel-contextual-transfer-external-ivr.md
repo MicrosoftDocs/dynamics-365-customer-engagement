@@ -48,7 +48,7 @@ This section lists the high level steps you must  perform to enable contextual c
     
         The SIP UUI payload is automatically converted into context data that can be used in the voice channel for routing and to show relevant information to the agent.
 
-You can now call the phone number assigned to the third-party IVR and achieve a contextual call transfer to the voice channel in Dynamics 365.
+You can now call the phone number assigned to the third-party IVR and achieve a contextual call transfer with the Omnichannel for Customer Service voice channel.
 
 ### See also
 
