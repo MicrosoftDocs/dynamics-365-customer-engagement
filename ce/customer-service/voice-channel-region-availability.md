@@ -7,7 +7,6 @@ manager: shujoshi
 ms.date: 10/28/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 # Preview: Regional availability and supported languages for the voice channel
@@ -33,9 +32,9 @@ The following table lists the upcoming regions and clouds where the voice channe
 |Europe	|December 2021 |
 |Asia Pacific |December 2021 |
 |Australia	|December 2021 |
-|South America	|TBD |
-|Country clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom	|TBD |
-|Government Community Cloud (GCC) |TBD |
+|South America	|To be announced |
+|Country clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom	|To be announced |
+|Government Community Cloud (GCC) |To be announced |
  
 ## Supported languages and locale codes
 
