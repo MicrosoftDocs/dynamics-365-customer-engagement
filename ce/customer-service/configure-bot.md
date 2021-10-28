@@ -88,7 +88,8 @@ A bot user is created as an application user and assigned with the **Omnichannel
     - **User type**: Select **Bot application user**.
     - **Bot application ID**: The bot's application ID from Azure AD that you copied in the previous step.
     - **Bot handle**: Enter the bot handle from the Bot profile settings.
-    If you've enabled the voice channel, then update the following fields:
+
+    If you've added the Azure bot service to conversational IVR, then update the following fields:
     - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the [cognitive speech service resource](voice-channel-azure-bot-service.md) that you created earlier.
     - **Cognitive Services Region**: Enter the Location/Region value from the cognitive speech service resource that you created earlier.
 
