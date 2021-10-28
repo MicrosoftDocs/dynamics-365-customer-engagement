@@ -28,15 +28,15 @@ This section lists the high level steps you must  perform to enable contextual c
 
 **To set up contextual call transfer**
 
-1. Set up Azure direct routing to connect SBCs (Session Border Controllers) linked to the third-party IVR with Dynamics 365.
+1. Set up Azure direct routing and connect a Session Border Controller (SBC), that’s linked to the third-party IVR, with Azure Communication Services resource, that’s in turn connected to the Omnichannel for Customer Service.
 
-2. Register the phone number, that’s assigned to the third-party IVR, with Dynamics 365 by following the steps mentioned in [bringing in your own number](voice-channel-bring-your-own-number.md).
+2. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the third-party IVR with Omnichannel for Customer Service.
 
-3. At the point of transfer in the IVR, issue an SIP (Session Initiation Protocol) REFER request to the Azure Communication Services resource. This will transfer the call to the Azure resource that's connected to Dynamics 365.
+3. To initiate a call transfer from the IVR, issue an SIP (Session Initiation Protocol) REFER request to the Azure Communication Services resource. This will transfer the call to the Azure resource that's connected to Omnichannel for Customer Service.
 
 4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data, as follows: "userToUserInformation": "param1=value1;param2=value2".  
 
-5. Create context variables following the same names as the SIP UUI header as follows:
+5. Create context variables with the same names as the SIP UUI header as follows:
 
     1. In the site map of Omnichannel admin center, under **General settings**, select **Workstreams**.
        A list of workstreams including voice workstreams is displayed.
