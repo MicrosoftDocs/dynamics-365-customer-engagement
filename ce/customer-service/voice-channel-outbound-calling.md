@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 
 This section describes how you as an IT administrator can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers via the Omnichannel Agent Dashboard in Omnichannel for Customer Service.
 
-If you do not have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) to learn how you can acquire new phone numbers.
+If you don't have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) to learn how you can acquire new phone numbers.
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ Before you set up outbound voice calls for your business, you'll need the follow
 
 - [Configure one or more phone numbers for outbound calling](#configure-phone-numbers-for-outbound-calling).
 - [Create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
-- [Configure capacity profile and add users](capacity-profiles.md).
+- [Configure capacity profiles and add users](capacity-profiles.md).
 - [Create outbound profiles](#create-outbound-profiles)
 
 ## Configure phone numbers for outbound calling
@@ -46,7 +46,7 @@ The phone number will now be displayed to your customers when your agents call t
 >[!NOTE]
 > Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and gauge traffic and customer sentiment, specific to outbound calls.
 
-## Manage capacity profiles and assign users
+## Configure capacity profiles and assign users
 
 You must create or use existing capacity profiles to define and set the workload of your agents. For your agents to be able to make calls to customers, they must be assigned or added to an outbound capacity profile. So, after you create or update the capacity profile, you must add users to the profile.
 
