@@ -45,7 +45,7 @@ You must ensure the following conditions are met before you integrate your bot w
 - The bot must be configured to have [Omnichannel channel](#connect-your-bot-resource-to-omnichannel-channel) and [Microsoft Teams](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0) as supported channels.
 
 > [!NOTE]
-> Bots can escalate conversations to agents only if they are a part of push-based workstreams.
+> Bots can escalate conversations to agents only if they're part of push-based workstreams.
 
 ## Integrate a bot with Omnichannel for Customer Service
 
