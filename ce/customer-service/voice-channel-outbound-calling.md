@@ -105,7 +105,7 @@ You can define the way outbound calls are made and also who can make them. To cr
 
 ## Assign personal phone numbers to agents
 
-You can assign and activate personal phone numbers to agents to make outbound calls to customers. You can also choose to disable or deactivate the personal phone number you earlier assigned to an agent.
+You can assign personal phone numbers to agents to make outbound calls to customers.
 
 **To assign a personal phone number to an agent**
 
