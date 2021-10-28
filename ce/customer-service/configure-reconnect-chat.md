@@ -56,7 +56,7 @@ You can enable the reconnection options in the chat widget either while setting 
    - **Portal URL:** Specify the link that will be shared by the agent with the customer to reconnect to the chat session. This must be the portal link on which the chat widget is displayed.
    - **Redirect URL:** Optionally, specify the link that the customer will be redirected to when the reconnect timeout occurs. If this is left blank, the customer will see the option to start a new chat conversation.
 
-   4. Select **Save and Close**.
+5. Select **Save and Close**.
      
         :::image type="content" source="media/reconnect-previous-chat.png" alt-text="Reconnect to previous chat":::
     
