@@ -67,7 +67,7 @@ For **Vivo** device, do the following:
 1. Go to **Settings** > **More Settings** > **Applications** > **Autostart**.
 2. Set the toggle switch to **ON** for the authenticator app.
 
-For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model, session ID ([learn how to find this information above](#get-the-session-id-from-the-sign-in-screen) and quote the error message above.
+For other device manufacturers, please email Dynamics 365 Mobile Support at dynmobisup@microsoft.com and include your device make and model, session ID ([learn how to find the session ID and logs](logs-session-id.md) and quote the error message above.
 
 
 ## Error message: This record is unavailable
