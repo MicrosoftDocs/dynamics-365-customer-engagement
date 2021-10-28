@@ -113,7 +113,7 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
    The list of all available phone numbers for your business is displayed.
 
-2. Select a phone number and select **Edit**.
+2. Select a phone number and then select **Edit**.
    The **Edit phone number** dialog with the current plan type, calling plan, and SMS plan is displayed.
 
 3. Make any changes to your call or SMS plans, and select **Save and Close**.
