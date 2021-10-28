@@ -18,6 +18,7 @@ ms.service: dynamics-365-customerservice
 ## Prerequisites
 
 Before you proceed with this section, you must be familiar with the following:
+- [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
 - [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
 - [Session Border Controllers and voice routing](/azure/communication-services/concepts/telephony-sms/direct-routing-provisioning)
 

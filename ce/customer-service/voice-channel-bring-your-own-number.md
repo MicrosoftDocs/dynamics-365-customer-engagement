@@ -19,15 +19,16 @@ ms.service: dynamics-365-customerservice
 
 To bring in your own phone numbers from any carrier via Azure direct routing, you must first connect to an Azure Communications Services resource. You must then set up Azure direct routing for the connected Azure resource.
 
-Before you bring in your own number, do the following:
+Before you bring in your own number, you must be familiar with the following:
+- [Understand Azure Communication Services](/azure/communication-services/overview)
+- [Understand Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
 
-- [Understand Azure direct routing](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
-
+Also, ensure you have set up the following:
+- [Azure direct routing infrastructure](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
 - [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony-sms/certified-session-border-controllers)
-
 - [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony-sms/direct-routing-provisioning)
 
-## Bring your own number via Azure direct routing
+## Bring your own phone number via Azure direct routing
 
 1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Advanced**.
 
