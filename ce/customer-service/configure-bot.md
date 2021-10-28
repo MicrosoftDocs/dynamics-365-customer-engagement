@@ -38,11 +38,11 @@ You must ensure the following requirements are met before you integrate your bot
 - You must have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0). 
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 - If you want to add the Azure bot service to conversational IVR, then you must create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel. To do so, perform the following steps:
-    1. [Create a Cognitive Services resource using the Azure portal](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
+    1. [Create a Cognitive Services resource using the Azure portal](/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
 
-    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
+    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0).
 
-- The bot must be configured to have [Omnichannel channel](#connect-your-bot-resource-to-omnichannel-channel) and [Microsoft Teams](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0) as supported channels.
+- The bot must be configured to have [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0) as supported channels.
 
 > [!NOTE]
 > Bots can escalate conversations to agents only if they're part of push-based workstreams.
