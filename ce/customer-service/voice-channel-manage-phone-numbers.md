@@ -126,8 +126,8 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 
 If you no longer need a phone number, you can release it from your organization's phone number list. However, before you plan to remove the phone number from your business, you must remove the number from any associated workstreams or outbound profiles. Also, if the number is assigned as a personal number to any agent, you must disable the number, and then try releasing it again.
 
-[!Important]
-When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
+> [!Important]
+> When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
 
 **To release a phone number**
 
