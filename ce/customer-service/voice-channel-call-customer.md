@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 
 To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](voice-channel-outbound-calling.md)
 
-**To make a call to a customer**
+**To call a customer**
 
 1. In Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
 

@@ -23,7 +23,7 @@ Before you proceed with this section, you must be familiar with the following:
 
 ## Set up contextual call transfer using Azure direct routing
 
-This section lists the high level steps to perform contextual call transfer between the third-party IVRs and the voice channel.
+This section lists the high level steps you must  perform to enable contextual call transfer between third-party IVRs and the voice channel.
 
 **To set up contextual call transfer**
 
