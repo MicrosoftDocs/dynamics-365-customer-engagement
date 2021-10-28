@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable Teams chat in Dynamics 365 | MicrosoftDocs"
 description: "Enable Teams chat to help users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application."
-ms.date: 10/05/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.service: crm-online
 search.app: 
@@ -58,7 +58,7 @@ To enable Teams chat in Dynamics 365, you need to access the **Chat and collabor
 
 1. Access the **Chat and collaborate** settings page.
 
-2. Turn on the **Microsoft Teams chats inside Dynamics 365 (preview)** toggle.
+2. Turn on the **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** toggle.
     > [!IMPORTANT]
     > You must be a global administrator (tenant administrator) to provide the initial consent. After that, application administrators can enable the preview for other instances.
 
