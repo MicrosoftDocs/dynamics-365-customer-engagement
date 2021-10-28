@@ -4,27 +4,14 @@ description: "Use this topic to understand agent experience in Omnichannel for C
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/31/2021
+ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Use the voice channel in the agent dashboard 
+# Use the voice channel in the agent dashboard 
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]>
 
 ## Introduction
 
@@ -129,6 +116,15 @@ The **Metrics** tab of the Conversation Form displays the following details:
 
 The **Sessions** tab displays details about the number of voice calls between the agent and the customer, as well as the length of time of the conversation and the date and time each conversation took place.
 
+## Consult with Microsoft Teams users
+
+If your administrator has enabled the option for you to consult with subject matter experts (SMEs) through Microsoft Teams, you can contact them by navigating to the Teams tab in the Consult section of the communication panel.
+
+Do the following steps to consult while you are on a call:
+
+1. Use the Consult button, and go to the **Teams** tab.
+
+2. 
 
 ### See also
 
