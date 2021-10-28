@@ -68,7 +68,7 @@ To be able to acquire new phone numbers for your business, you must first [conne
    >  - After you're allotted a new phone number, you'll have purchase it within the next 15 minutes. If the time elapses, you'll have to try purchasing again.
    >  - After you select **Purchase phone number**, you can close the page by selecting **Close** and return to the **Phone numbers** page. The purchase happens in the background and the new phone number appears in the phone numbers list with **Pending** status.
 
-4. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream)
+4. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream).
 
 5. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number you just acquired.
 
@@ -108,10 +108,6 @@ You can also assign personal phone numbers to agents, so they're able to make an
 
 If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number.
 
-> [!Important]
-> - You cannot upgrade a phone number or change your call or SMS plans, after it's connected to a workstream.
-> - You cannot remove features once granted to a phone number, but you can upgrade phone number features. For example, if you chose both **Make calls** and **Receive calls** options in your calling plans, you cannot change it. However, if you selected **None** for SMS plans, you can upgrade to either **Send SMS** or **Send and receive SMS** plan.
-
 **To edit a phone number**
 
 1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
@@ -121,6 +117,10 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
    The **Edit phone number** dialog with the current plan type, calling plan, and SMS plan is displayed.
 
 3. Make any changes to your call or SMS plans, and select **Save and Close**.
+
+> [!Important]
+> - You cannot upgrade a phone number or change your call or SMS plans, after it's connected to a workstream.
+> - You cannot remove features once granted to a phone number, but you can upgrade phone number features. For example, if you chose both **Make calls** and **Receive calls** options in your calling plans, you cannot change it. However, if you selected **None** for SMS plans, you can upgrade to either **Send SMS** or **Send and receive SMS** plan.
 
 ## Release phone numbers
 
