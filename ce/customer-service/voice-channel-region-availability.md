@@ -4,7 +4,7 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ROBOTS: NOINDEX,NOFOLLOW
@@ -21,10 +21,22 @@ ROBOTS: NOINDEX,NOFOLLOW
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 
-## Supported Regions
+## Supported regions
 
 The voice channel in Omnichannel for Customer Service is currently available only in the United States.
 
+The following table lists the upcoming regions and clouds where the voice channel will soon be available:
+
+|Geographic location | Availability date |
+|----------|---------|
+|North America	|November 2021 |
+|Europe	|December 2021 |
+|Asia Pacific |December 2021 |
+|Australia	|December 2021 |
+|South America	|TBD |
+|Country clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom	|TBD |
+|Government Community Cloud (GCC) |TBD |
+ 
 ## Supported languages and locale codes
 
 | Language Name |	Locale Code |
