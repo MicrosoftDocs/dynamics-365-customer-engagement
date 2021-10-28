@@ -24,7 +24,7 @@ Before you set up outbound voice calls for your business, you'll need the follow
 - [Configure one or more phone numbers for outbound calling](#configure-phone-numbers-for-outbound-calling).
 - [Create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
 - [Configure capacity profile and add users](capacity-profiles.md).
-- [Create an outbound profile](#create-outbound-profiles)
+- [Create outbound profiles](#create-outbound-profiles)
 
 ## Configure phone numbers for outbound calling
 
@@ -50,11 +50,11 @@ The phone number will now be displayed to your customers when your agents call t
 
 You must create or use existing capacity profiles to define and set the workload of your agents. For your agents to be able to make calls to customers, they must be assigned or added to an outbound capacity profile. So, after you create or update the capacity profile, you must add users to the profile.
 
-For detailed information on how to manage capacity profiles and add users, see [Create and manage capacity profiles ](capacity-profiles.md).
+For detailed information on how to manage capacity profiles and add users, see [Create and manage capacity profiles](capacity-profiles.md).
 
 For outbound calls, set the capacity profile fields as follows:
 - **Work item limit**: Indicates the number of outbound calls an agent can make at a time. If the value is set to 1, it means that the agent can make only one call at a time, and cannot make a second call until the first call is ended. If the value is set to 3, it means that the agent can make 3 outbound calls at a time. 
-- **Reset frequency**: Indicates whether the agent can *immediately* make another call when the current ends or has to wait until end of day. For voice calls, set this field to **Immediate** so that the agent will be able to make another call as soon as the current one has ended.
+- **Reset frequency**: Indicates whether the agent can immediately make another call when the current ends or has to wait until end of day. For voice calls, set this field to **Immediate** so that the agent will be able to make another call as soon as the current one has ended.
 - **Assignment blocking**: Indicates whether you want to block any incoming calls when the agent is already on a call. Set this value to **Yes**, if you want to ensure the agent does not receive any incoming calls when an outbound call is in progress.
 
 > [!Note]
@@ -126,11 +126,10 @@ You can assign and activate personal phone numbers to agents to make outbound ca
 4. In the **Confirm Deactivation** dialog that appears, select **Deactivate**.
    The phone number will no longer be available exclusively to the agent to make outbound calls.
 
-
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
+[Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
