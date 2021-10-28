@@ -103,15 +103,29 @@ You can define the way outbound calls are made and also who can make them. To cr
 
 ## Assign personal phone numbers to agents
 
-You can assign personal phone numbers to agents to make outbound calls to customers.
+You can assign and activate personal phone numbers to agents to make outbound calls to customers. You can also choose to disable or deactivate the personal phone number you earlier assigned to an agent.
 
-**To assign a phone number to an agent for outbound calling**
+**To assign a personal phone number to an agent**
 
 1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
 
 2. Select **Setup** under **Ready for setup**, and in the dialog that appears, select **Assign to user**.
+   The Omnichannel Users page opens showing a list of all agents.
 
 3. Select an agent and then select **Enable**.
+4. In the **Confirm User Activation** dialog that appears, select **Activate**.
+   The phone number is now assigned exclusively to the agent to call customers.
+
+**To disable the personal phone number of an agent**
+1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
+
+2. Select **Setup** under **Ready for setup**, and in the dialog that appears, select **Assign to user**.
+   The Omnichannel Users page opens showing a list of all agents.
+
+3. Select an agent and then select **Disable**.
+4. In the **Confirm Deactivation** dialog that appears, select **Deactivate**.
+   The phone number will no longer be available exclusively to the agent to make outbound calls.
+
 
 ### See also
 

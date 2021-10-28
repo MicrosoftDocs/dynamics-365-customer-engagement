@@ -1,5 +1,5 @@
 ---
-title: "Integrate third-party IVRs with the voice channel | MicrosoftDocs"
+title: "Integrate third-party IVRs with voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can integrate third-party IVRs with the Omnichannel for Customer Service voice channel and set up contextual communication via Azure direct routing."
 author: mh-jaya
 ms.author: v-jmh

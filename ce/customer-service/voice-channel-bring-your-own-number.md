@@ -1,6 +1,6 @@
 ---
 title: "Bring your own phone numbers | MicrosoftDocs"
-description: "Use this topic to understand how you can bring your own phone numbers in Omnichannel for Customer Service via Azure direct routing."
+description: "Use this topic to understand how you can bring your own phone numbers from any carrier to Dynamics 365 via Azure direct routing."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -13,11 +13,11 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) enables you to connect your existing telephony infrastructure to Azure. So, if you have non-US based phone numbers, or want to retain your existing numbers (for example, 1800-WALMART) and carriers (such as AT&T, Verizon, TATA, British Telecom), you can do so using Azure direct routing.
+[Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) enables you to connect your existing telephony infrastructure to Azure to allow you to retain your existing carrier and phone numbers, and streamline inter-office call transfers.
 
 ## Prerequisites
 
-To bring in your own numbers via Azure direct routing, you must first connect to an Azure Communications Service resource. You must then set up Azure direct routing for the connected Azure resource.
+To bring in your own phone numbers from any carrier via Azure direct routing, you must first connect to an Azure Communications Service resource. You must then set up Azure direct routing for the connected Azure resource.
 
 Before you bring in your own number, do the following:
 
@@ -33,11 +33,11 @@ Before you bring in your own number, do the following:
 
 2. Select **Add Number** next to **Bring your own number via Azure Direct Routing (preview)**.
 
-3. In the **Add phone number** dialog, enter the following details:
+3. In the **Add your own phone number** dialog, enter the following details:
 
-    - **Phone number**: Number that you own and have configured in your SBC.
+    - **Phone number**: Indicates the phone number that you own and have configured in your SBC.
 
-    - **Carrier**: Denotes which carrier the phone number belongs to. If the carrier doesn’t exist yet, you can create a new record.
+    - **Carrier**: Indicates the carrier to which the phone number belongs. If the carrier doesn’t exist yet, you can create a new record.
 
     - **Country/Region**: Select the country or region the phone numbers belongs to.
 
@@ -47,7 +47,7 @@ Before you bring in your own number, do the following:
         > [!Note]
         > SMS is not supported with Azure direct routing.
 
-4. Select **Add Number**.
+4. Select **Add number**.
 
 The new phone number will be displayed in the Phone numbers list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-route-queues.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents). 
   
