@@ -51,7 +51,7 @@ When you receive a phone call and want to report the number as spam *while on th
 
 To report a phone number as spam, select the ellipsis to open more actions, and then select **Mark number as spam**.
 
-You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers (preview)** page.
+You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers** page.
 
 ## View call recordings and transcripts
 
