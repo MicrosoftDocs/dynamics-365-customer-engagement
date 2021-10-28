@@ -1,6 +1,6 @@
 ---
 title: "Integrate third-party IVRs with voice channel | MicrosoftDocs"
-description: "Use this topic to understand how you can integrate third-party IVRs with the Omnichannel for Customer Service voice channel and set up contextual communication via Azure direct routing."
+description: "Use this topic to understand how you can integrate third-party IVRs with the Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -21,7 +21,11 @@ Before you proceed with this section, you must be familiar with the following:
 - [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
 - [Session Border Controllers and voice routing](/azure/communication-services/concepts/telephony-sms/direct-routing-provisioning)
 
-Follow these steps to set up contextual call transfer between the voice channel and third-party IVRs.
+## Set up contextual call transfer using Azure direct routing
+
+This section lists the high level steps to perform contextual call transfer between the third-party IVRs and the voice channel.
+
+**To set up contextual call transfer**
 
 1. Set up Azure direct routing to connect Session Border Controllers (SBCs) linked to the third-party IVR with Dynamics 365.
 

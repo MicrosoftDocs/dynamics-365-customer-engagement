@@ -141,7 +141,7 @@ When you release a phone number, you actually delete it from Dynamics 365, so re
 
 3. Select **OK** if you're sure you don't need the number.
 
-   The **Phone numbers** page displays the phone number status as **Pending release**.
+   The phone number is removed from your organization and is no longer displayed in the Phone numbers list.
 
 ### See also
 
