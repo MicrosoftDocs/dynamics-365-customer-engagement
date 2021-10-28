@@ -25,7 +25,7 @@ You can update existing music files and replace them with your own music files.
 
 1. In Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
 
-2. In the **Customer experience** area, select **Phone music (preview)**, and then select **Manage**.
+2. In the **Customer experience** area, select **Phone music**, and then select **Manage**.
    You'll see a list of out-of-the-box music files.
 
 3. Select any music file from the list and select **Edit**.
@@ -45,7 +45,7 @@ You can also add new music files to use them in calls as hold and wait music.
 
 1. In Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
 
-2. In the **Customer experience** area, select **Phone music (preview)**, and then select **Manage**.
+2. In the **Customer experience** area, select **Phone music**, and then select **Manage**.
    You'll see a list of out-of-the box music files.
 
 3. Select **Add new**.
