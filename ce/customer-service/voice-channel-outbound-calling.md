@@ -32,7 +32,7 @@ To check for phone numbers configured for outbound calling, go to **General sett
 
 **To configure a number for outbound calling**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
+1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
   
    The list of all available phone numbers for your business is displayed.
 
@@ -117,6 +117,7 @@ You can assign and activate personal phone numbers to agents to make outbound ca
    The phone number is now assigned exclusively to the agent to call customers.
 
 **To disable the personal phone number of an agent**
+
 1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
 
 2. Select **Setup** under **Ready for setup**, and in the dialog that appears, select **Assign to user**.

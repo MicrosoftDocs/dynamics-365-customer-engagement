@@ -29,7 +29,7 @@ Before you bring in your own number, do the following:
 
 ## Bring your own number via Azure direct routing
 
-1. Open Omnichannel admin center and under **General settings**, select **Phone numbers**, and then select **Advanced**.
+1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Advanced**.
 
 2. Select **Add Number** next to **Bring your own number via Azure Direct Routing (preview)**.
 

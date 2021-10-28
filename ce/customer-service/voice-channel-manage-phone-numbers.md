@@ -34,7 +34,7 @@ To be able to acquire new phone numbers for your business, you must first [conne
 
 **To add a new phone number**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **New number**.
+1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **New number**.
 
    The **Add phone number** dialog opens.
 
@@ -78,7 +78,7 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
 **To add a voice workstream to a phone number**
 
-1. In Omnichannel admin center, under **General settings**, select the phone number that's marked **Ready for setup** in the **Status** column.
+1. In the site map of Omnichannel admin center, under **General settings**, select the phone number that's marked **Ready for setup** in the **Status** column.
 
 2. Select **Setup workstream**.
 
@@ -114,7 +114,7 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 
 **To edit a phone number**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
+1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
    The list of all available phone numbers for your business is displayed.
 
 2. Select a phone number and select **Edit**.
@@ -131,7 +131,7 @@ When you release a phone number, you actually delete it from Dynamics 365, so re
 
 **To release a phone number**
 
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
+1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
   
    The list of all available phone numbers for your business is displayed.
 
