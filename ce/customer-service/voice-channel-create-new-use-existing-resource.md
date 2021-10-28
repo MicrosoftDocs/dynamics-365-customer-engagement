@@ -100,7 +100,7 @@ High level steps involved:
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
-[Bring your own number: Azure direct routing](voice-channel-bring-your-own-number.md)  
-[Integrate third-party IVRs with voice channel via Azure direct routing](voice-channel-contextual-transfer-external-ivr.md)  
+[Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
+[Integrate third-party IVRs with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
