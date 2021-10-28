@@ -62,6 +62,6 @@ The new phone number will be displayed in the Phone numbers list and is ready fo
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Connect to Azure Communication Services](voice-channel-create-new-use-existing-resource.md)  
-[Integrate third-party IVRs with voice channel: Azure direct routing](voice-channel-contextual-transfer-external-ivr.md)  
+[Integrate third-party IVRs with voice channel via Azure direct routing](voice-channel-contextual-transfer-external-ivr.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

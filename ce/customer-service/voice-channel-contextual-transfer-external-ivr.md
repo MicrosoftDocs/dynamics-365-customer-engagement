@@ -1,5 +1,5 @@
 ---
-title: "Integrate third-party IVRs with the voice channel: Azure direct routing | MicrosoftDocs"
+title: "Integrate third-party IVRs with the voice channel via Azure direct routing | MicrosoftDocs"
 description: "Use this topic to understand how you can integrate third-party IVRs with the Omnichannel for Customer Service voice channel and set up contextual communication via Azure direct routing."
 author: mh-jaya
 ms.author: v-jmh
@@ -9,17 +9,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Integrate third-party IVRs with voice channel: Azure direct routing
+# Integrate third-party IVRs with voice channel via Azure direct routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) lets you integrate third-party IVRs with Omnichannel for Customer Service voice channel, and perform a contextual communication between them.
+[Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) lets you integrate third-party IVRs with Omnichannel for Customer Service voice channel, and perform a contextual call transfer between them.
+
+## Prerequisites
 
 Before you proceed with this section, you must be familiar with the following:
 - [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
 - [Session Border Controllers and voice routing](/azure/communication-services/concepts/telephony-sms/direct-routing-provisioning)
 
-Follow these steps to set up contextual communication between the voice channel and third-party IVRs.
+Follow these steps to set up contextual call transfer between the voice channel and third-party IVRs.
 
 1. Set up Azure direct routing to connect Session Border Controllers (SBCs) linked to the third-party IVR with Dynamics 365.
 
@@ -34,7 +36,9 @@ Follow these steps to set up contextual communication between the voice channel 
     a. Go to the voice workstream > **Context variables** > **Add context variables**.
     
     b. Ensure the names of the context variables match exactly with the param names in the SIP UUI header.
-  
+
+You can now call the phone number assigned to the third-party IVR and achieve a contextual call transfer to the voice channel in Dynamics 365.
+
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
