@@ -4,25 +4,14 @@ description: "Learn how to provision the voice channel in Omnichannel for Custom
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Provision the voice channel
+# Provision the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 
 ## Prerequisites
 
@@ -35,14 +24,9 @@ Make sure that the following prerequisites are met:
 
 To set up the voice channel, you will perform the steps for provisioning Omnichannel for Customer Service. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
-1. On the **Omnichannel set up** page, from the **Select an environment** dropdown list, select the environment you identified when you opted in to the private preview program.
+1. On the **Omnichannel set up** page, from the **Select an environment** dropdown list, select the environment.
 
-    > [!Note]
-    > If you choose an environment other than the one you identified for the private preview, the provisioning flow will be different and you won't be able to see the voice channel features.
-
-2. Make sure that **Add voice** is toggled to **Yes**, and select the checkbox to accept the terms.
-
-    ![Provision voice channel.](media/provision-voice.png "Provision voice channel")
+2. Make sure that the **Add voice** toggle is set to **Yes**, and select the checkbox to accept the terms.
 
 3. Confirm your selections, and then select **Finish**. The installation begins.
 

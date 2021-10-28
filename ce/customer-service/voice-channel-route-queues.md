@@ -51,28 +51,24 @@ To configure the voice channel, you'll need to associate the workstream with a p
     > [!NOTE]
     > Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.
 
-    ![](media/image20.png)
+3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi=language-contact-center.md).
 
-3. On the **Music** page, select **Next** again. In private preview, the option to select the audio for ring tone is not available.
-
-4. On the **Language** page, select **Next**. In private preview, only English is supported.
-
-5. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
+4. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
 
    - Notify position in queue
    - Notify average wait time
 
-6. Turn on the **Channel operating hours** toggle, and select an operating hour record.
+5. Turn on the **Channel operating hours** toggle, and select an operating hour record. More information: [Configure operating hours for your business](create-operating-hours.md)
 
-7. Configure the settings for transcription and recording of the calls in the **Transcription and recording** area.
+6. Configure the settings for transcription and recording of the calls in the **Transcription and recording** area. More information: [Configure call recordings and transcripts](voice-channel-configure-transcripts.md)
 
-8. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
+7. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
 
-9. Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
+8. Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
 
-10. On the **Summary** page, select **Save and close**.
+9. On the **Summary** page, select **Save and close**.
 
-    ![Voice setup preview.](media/image22.png "Voice setup preview.")
+
 
 The phone number is associated with the workstream.
 
