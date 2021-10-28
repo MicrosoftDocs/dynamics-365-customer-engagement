@@ -27,3 +27,10 @@
     - name: Use document management
       href: teams-doc-management.md
     - name: Use the personal dashboard
+      href: teams-personal-use.md
+  - name: Troubleshoot
+    href: teams-troubleshoot.md
+  - name: Dynamics 365 assistant for Microsoft Teams
+    href: /dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams
+  - name: Delete personal data
+    href: teams-delete-data.md
