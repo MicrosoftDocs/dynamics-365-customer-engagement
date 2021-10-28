@@ -1,9 +1,12 @@
 ---
-title: "Voice channel analytics, reports, and call insights | MicrosoftDocs"
-description: Learn about the different analytics, reports, and call insights that are available in the voice channel in Omnichannel for Dynamics 365 Customer Service
+title: "Voice channel historical analytics and call insights | MicrosoftDocs"
+description: Learn about the different analytics, reports, and call insights that are available in the voice channel in Omnichannel for Customer Service
 ms.custom:
 - dyn365-customerservice
-ms.date: 09/23/2021
+ms.date: 11/01/2021
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 ms.reviewer: lalexms
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -11,15 +14,12 @@ ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: neeranelli
-ms.author: nenellim
-manager: shujoshi
 search.app:
 - D365CE
 - D365FS
 ---
 
-# Voice channel analytics, reports, and call insights
+# Voice channel historical analytics, reports, and call insights
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

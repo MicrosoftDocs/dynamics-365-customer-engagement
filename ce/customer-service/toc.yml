@@ -488,8 +488,6 @@
       items:
       - name: Introduction to the voice channel
         href: voice-channel.md
-      - name: Provision and set up the voice channel
-        href: voice-channel-install.md
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Block a spam number
