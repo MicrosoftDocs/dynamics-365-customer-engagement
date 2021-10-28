@@ -2,7 +2,7 @@
 title: "Client scripting reference for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to use Client API in Dynamics 365 Customer Engagement (on-premises) to apply custom business process logic for displaying data on a form."
 ms.date: 06/24/2021
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 ms.assetid: 16271bd8-cfa8-4a7f-802a-60fbff7c3722
 author: Nkrb
