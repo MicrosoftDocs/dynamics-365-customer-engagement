@@ -114,20 +114,12 @@ You can assign and activate personal phone numbers to agents to make outbound ca
 2. Select **Setup** under **Ready for setup**, and in the dialog that appears, select **Assign to user**.
    The Omnichannel Users page opens showing a list of all agents.
 
-3. Select an agent and then select **Enable**.
-4. In the **Confirm User Activation** dialog that appears, select **Activate**.
+3. Select an agent to open the agent details page.
+4. Select the **Omnichannel** tab and select a phone number from the **Omnichannel Phone** field.
    The phone number is now assigned exclusively to the agent to call customers.
 
-**To disable the personal phone number of an agent**
-
-1. In Omnichannel admin center, under **General settings**, select **Phone numbers**.
-
-2. Select **Setup** under **Ready for setup**, and in the dialog that appears, select **Assign to user**.
-   The Omnichannel Users page opens showing a list of all agents.
-
-3. Select an agent and then select **Disable**.
-4. In the **Confirm Deactivation** dialog that appears, select **Deactivate**.
-   The phone number will no longer be available exclusively to the agent to make outbound calls.
+> [!Note]
+> Only local phone numbers can be assigned to agents as personal phone numbers; toll-free numbers can’t be assigned.
 
 ### See also
 
