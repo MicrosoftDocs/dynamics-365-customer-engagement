@@ -9,22 +9,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Preview: Regional availability and supported languages for the voice channel
+# Regional availability and supported languages for the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-
 ## Supported regions
 
-The voice channel in Omnichannel for Customer Service is currently available only in the United States.
-
-The following table lists the upcoming regions and clouds where the voice channel will soon be available:
+The following table lists the upcoming regions and clouds where the voice channel for Omnichannel for Customer Service will soon be available:
 
 |Geographic location | Availability date |
 |----------|---------|
