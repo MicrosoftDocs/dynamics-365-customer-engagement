@@ -23128,6 +23128,11 @@
       "source_path": "ce/sales-enterprise/sales-mobile/view-edit-add-note.md",
       "redirect_url": "/dynamics365/sales/sales-mobile/view-edit-add-note",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-requirements.md",
+      "redirect_url": "system-requirements-omnichannel",
+      "redirect_document_id": "false"
     }
   ]
 }
