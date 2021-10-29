@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Set up workstreams and queues for the voice channel using unified routing
+# Set up workstreams and routing for voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

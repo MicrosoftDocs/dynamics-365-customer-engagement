@@ -494,7 +494,7 @@
         href: voice-channel-block-number.md
       - name: Outbound calling
         href: voice-channel-outbound-calling.md
-      - name: Route incoming calls to agents
+      - name: Set up workstreams and routing for voice channel
         href: voice-channel-route-queues.md
       - name: Add Power Virtual Agents bot for voice
         href: voice-channel-ivr-bots.md
