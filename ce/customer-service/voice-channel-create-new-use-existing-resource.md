@@ -117,7 +117,7 @@ The following sections include short procedures that explain how you can get ret
 
 ### Get application and tenant IDs
 
-You'll retrieve values for the application and tenant IDs from the Azure portal and paste them in the corresponding fields of the **Use existing resource** dialog.
+**To get the application and tenant IDs from the Azure portal**
 
 1. Open the **App registrations** page on the Azure portal in a separate window or tab.
 
@@ -139,7 +139,7 @@ You'll retrieve values for the application and tenant IDs from the Azure portal 
 
 ### Create, deploy, and register event grid system topics
 
-You'll create, deploy, and register event grid system topics.
+**To create, deploy, and register event grid system topics**
 
 1. Open the Azure portal in a separate window or tab, and open the **Event Grid System Topics** service. 
 2. Select **Create** and in the **Create Event Grid System Topic** page, enter the following details.
@@ -163,6 +163,8 @@ You'll create, deploy, and register event grid system topics.
     > ![Event grid is listed as a registered provider.](./media/voice-channel-eventgrid-registered.png "Event grid is listed as a registered provider.")
 
 ### Create event subscription endpoint for recording
+
+**To create event subscription endpoint for recording**
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
@@ -197,6 +199,8 @@ You'll create, deploy, and register event grid system topics.
     > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
 
 ### Create event subscription endpoint for SMS
+
+**To create event subscription endpoint for SMS**
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
