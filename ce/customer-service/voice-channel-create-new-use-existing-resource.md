@@ -72,8 +72,9 @@ High level steps involved:
    - **ACS Resource Name**: [Copy-paste the resource name from the Azure portal](#get-resource-name-and-resource-id).
    - **ACS Resource ID**: [Copy-paste the resource ID from the Azure portal](##get-resource-name-and-resource-id).
    - **Connection string**: [Copy-paste the connection string from the Azure portal](#get-connection-string).
-   - **Event grip app ID**: Indicates the application ID of your Azure app registration. Open
-   - **Event grip app tenant ID**: 
+   - **Event grip app ID**: [Copy-paste the application ID from the Azure portal](##get-application-and-tenant-IDs).
+   - **Event grip app tenant ID**: [Copy-paste the tenant ID from the Azure portal](##get-application-and-tenant-IDs).
+
 3. Select **Connect**. After the Azure resource is connected, you'll be able to provision or acquire new phone numbers for your organization.
 4. Select **Add number**. The **Add phone number** page is displayed.
 5. Follow the procedure to [add new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
@@ -92,10 +93,12 @@ You'll retrieve values for the Azure resource name and resource ID from the Azur
 
 1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Settings** > **Properties**. 
 2. Select the value of the **Name** field, select the **Copy to clipboard** button, and then paste the value in the **ACS Resource Name** field of the **Use existing resource** dialog.
+   > [!div class="mx-imgBorder"]
+   > ![Copy resource name.](./media/voice-channel-resource-name.png "Copy resource name.")
 3. Select the value of the **Resource ID** field, then select the **Copy to clipboard** button, and paste the value in the **ACS Resource ID** field of the **Use existing resource** dialog.
 
    > [!div class="mx-imgBorder"]
-   > ![Copy resource name and resource ID.](./media/voice-channel-resource-name-ID.png "Copy resource name and resource ID.")
+   > ![Copy resource ID.](./media/voice-channel-resource-ID.png "Copy resource ID.")
 
 ## Get connection string
 You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
