@@ -96,10 +96,15 @@ Use the search bar to search for functional locations and associated assets. Whe
 
 The number of search matches are shown beneath the search bar.
 
-For larger or more complex trees, you can also expand or collapse all the results by using the **Plus** and **Minus** icons at the top of the tree, as seen in the following screenshot.
-
 > [!div class="mx-imgBorder"]
 > ![Functional location tree in Field Service, showing the search bar and the collapse and expand all options.](./media/assets-functional-location-search.png)
+
+For larger or more complex trees, you can also expand or collapse all the results by using the **Plus** and **Minus** icons at the top of the tree, as seen in the screenshot above.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWOjSM]
+
 
 ## Use functional location for work orders
 
