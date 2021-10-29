@@ -616,6 +616,7 @@ This rule fails if the default tab (the first tab on the form) of any work order
 
 Do not have more than 3 subgrids controls or 15 lookup controls on the default tab by either 1) removing controls or 2) moving controls to a different form tab.
 
+Check out more ways to [Improve form load time](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1).
 
 ### See also
 
