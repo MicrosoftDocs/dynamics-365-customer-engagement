@@ -57,46 +57,6 @@ High level steps involved:
 5. Check if eventgrid is registered as a resource provider in the subscription
 6. Create event grid events in the ACS resource for recording and SMS. Copy recording callback URL from step.
 
-## Get resource name and resource ID
-
-You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
-
-1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Settings** > **Properties**. 
-2. Select the value of the **Name** field, select the **Copy to clipboard** button, and then paste the value in the **ACS Resource Name** field of the **Use existing resource** dialog.
-3. Select the value of the **Resource ID** field, then select the **Copy to clipboard** button, and paste the value in the **ACS Resource ID** field of the **Use existing resource** dialog.
-
-   > [!div class="mx-imgBorder"]
-   > ![Copy resource name and resource ID.](./media/voice-channel-resource-name-ID.png "Copy resource name and resource ID.")
-
-## Get connection string
-You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
-1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Tools** > **Keys** > **Primary key**. 
-2. Select the value of the **Connection string** field, then select the **Copy to clipboard** button, and paste the value in the **Connection string** field of the **Use existing resource** dialog.
-
-   > [!div class="mx-imgBorder"]
-   > ![Copy connection string.](./media/voice-channel-connection-string.png "Copy connection string.")
-
-## Get application and tenant IDs
-
-You'll retrieve values for the application and tenant IDs from the Azure portal and paste them in the corresponding fields of the **Use existing resource** dialog.
-1. Open the **App registrations** page on the Azure portal in a separate window or tab. 
-   
-    If you're registering your app on the Azure portal for the first time, then do the following:
-    1. On the **Register an application** page, enter the following details:
-    - **Name**: Enter a name for your application.
-    - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**
-    2. Select **Register**.
-       > [!div class="mx-imgBorder"]
-       > ![Register an application.](./media/voice-channel-register-app.png "Register an application.")
-
-2. Select the value of the **Application (client) ID** field, select the **Copy to clipboard** button, and then paste the value in the **Application ID** field of the **Use existing resource** dialog.
-   > [!div class="mx-imgBorder"]
-   > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
-
-3. Select the value of the **Directory (tenant) ID** field, then select the **Copy to clipboard** button, and paste the value in the **Tenant ID** field of the **Use existing resource** dialog.
-   > [!div class="mx-imgBorder"]
-   > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
-
 **To connect to an existing Azure resource**    
 
 1. In the site map of Omnichannel admin center and under **General settings**, select **Phone numbers**, and then select **Get started**.
@@ -125,6 +85,46 @@ You'll retrieve values for the application and tenant IDs from the Azure portal 
 1. 
 1. 
 1. 
+
+## Get resource name and resource ID
+
+You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
+
+1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Settings** > **Properties**. 
+2. Select the value of the **Name** field, select the **Copy to clipboard** button, and then paste the value in the **ACS Resource Name** field of the **Use existing resource** dialog.
+3. Select the value of the **Resource ID** field, then select the **Copy to clipboard** button, and paste the value in the **ACS Resource ID** field of the **Use existing resource** dialog.
+
+   > [!div class="mx-imgBorder"]
+   > ![Copy resource name and resource ID.](./media/voice-channel-resource-name-ID.png "Copy resource name and resource ID.")
+
+## Get connection string
+You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
+1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Tools** > **Keys** > **Primary key**. 
+2. Select the value of the **Connection string** field, then select the **Copy to clipboard** button, and paste the value in the **Connection string** field of the **Use existing resource** dialog.
+
+   > [!div class="mx-imgBorder"]
+   > ![Copy connection string.](./media/voice-channel-connection-string.png "Copy connection string.")
+
+## Get application and tenant IDs
+
+You'll retrieve values for the application and tenant IDs from the Azure portal and paste them in the corresponding fields of the **Use existing resource** dialog.
+1. Open the **App registrations** page on the Azure portal in a separate window or tab. 
+   
+    If you're registering your app on the Azure portal for the first time, then do the following:
+    1. On the **Register an application** page, enter the following details:
+        - **Name**: Enter a name for your application.
+        - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**
+    2. Select **Register**.
+       > [!div class="mx-imgBorder"]
+       > ![Register an application.](./media/voice-channel-register-app.png "Register an application.")
+
+2. Select the value of the **Application (client) ID** field, select the **Copy to clipboard** button, and then paste the value in the **Application ID** field of the **Use existing resource** dialog.
+   > [!div class="mx-imgBorder"]
+   > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
+
+3. Select the value of the **Directory (tenant) ID** field, then select the **Copy to clipboard** button, and paste the value in the **Tenant ID** field of the **Use existing resource** dialog.
+   > [!div class="mx-imgBorder"]
+   > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
 
 
 ### See also
