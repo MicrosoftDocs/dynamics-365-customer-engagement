@@ -75,7 +75,7 @@ Before you proceed with adding an existing resource to Azure Communication Servi
 
 5. Select **Add number**. The **Add phone number** page is displayed.
 
-6. Follow the procedure to [add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
+6. [Add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
 
 7. [Create, deploy, and register event grid system topics](#create-deploy-and-register-event-grid-system-topics).
 
