@@ -48,13 +48,6 @@ Before you proceed with adding an existing resource to Azure Communication Servi
 - [Get the connection string from the Azure portal](#get-connection-string).
 - [Get the application ID and tenant ID from the App registrations page on the Azure portal](#get-application-and-tenant-IDs).
 
-If you're registering your app on the Azure portal for the first time, then do the following:
-1. Open the Azure portal and go to **App registrations**.
-2. On the **Register an application** page, enter the following details:
-    - **Name**: Enter a name for your application.
-    - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**
-3. Select **Register**.
-4. Copy the Application (client) ID and the Directory (tenant) ID
 
 High level steps involved:
 1. Create ACS resource. Note down ACS resource name, resource ID, and connection string
@@ -68,7 +61,7 @@ High level steps involved:
 
 You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
 
-1. Open your existing resource on the Azure portal, and go to **Settings** > **Properties**. 
+1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Settings** > **Properties**. 
 2. Select the value of the **Name** field, select the **Copy to clipboard** button, and then paste the value in the **ACS Resource Name** field of the **Use existing resource** dialog.
 3. Select the value of the **Resource ID** field, then select the **Copy to clipboard** button, and paste the value in the **ACS Resource ID** field of the **Use existing resource** dialog.
 
@@ -77,16 +70,27 @@ You'll retrieve values for the Azure resource name and resource ID from the Azur
 
 ## Get connection string
 You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
-1. Open your existing resource on the Azure portal, and go to **Tools** > **Keys** > **Primary key**. 
+1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Tools** > **Keys** > **Primary key**. 
 2. Select the value of the **Connection string** field, then select the **Copy to clipboard** button, and paste the value in the **Connection string** field of the **Use existing resource** dialog.
+
        > [!div class="mx-imgBorder"]
        > ![Copy connection string.](./media/voice-channel-connection-string.png "Copy connection string.")
 
 ## Get application and tenant IDs
 
 You'll retrieve values for the application and tenant IDs from the Azure portal and paste them in the corresponding fields of the **Use existing resource** dialog.
-1. Open the **App registrations** page on the Azure portal in another window or tab. You'll need the application ID and tenant ID of your app for use in Omnichannel admin center.
+1. Open the **App registrations** page on the Azure portal in a separate window or tab. 
+   
+    If you're registering your app on the Azure portal for the first time, then do the following:
+    1. On the **Register an application** page, enter the following details:
+    - **Name**: Enter a name for your application.
+    - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**
+    2. Select **Register**.
+       > [!div class="mx-imgBorder"]
+       > ![Register an application.](./media/voice-channel-register-app.png "Register an application.")
 
+2. Select the value of the **Application ID** field, select the **Copy to clipboard** button, and then paste the value in the **Application ID** field of the **Use existing resource** dialog.
+3. Select the value of the **Tenant ID** field, then select the **Copy to clipboard** button, and paste the value in the **Tenant ID** field of the **Use existing resource** dialog.
 
 **To connect to an existing Azure resource**    
 
