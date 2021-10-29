@@ -106,7 +106,7 @@ You can also assign personal phone numbers to agents, so they're able to make an
 
 ## Edit phone numbers
 
-If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number.
+If you want to change the calling plan, or upgrade the calling or SMS plans on a particular number, you can do so by editing the phone number. For example, if you hadn't selected any SMS plans, you can upgrade to the **Send SMS** or **Send and receive SMS** plans; if you had selected only the **Send SMS** option, you can now upgrade to the **Send and receive SMS** plans.
 
 **To edit a phone number**
 

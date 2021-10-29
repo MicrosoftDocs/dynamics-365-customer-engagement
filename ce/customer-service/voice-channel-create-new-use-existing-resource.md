@@ -8,13 +8,6 @@ ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-<!--  
-i.	Number management[Neeraja]  i) Connecting to ACS ii) acquire, release, update numbers, Kos wants more screenshots iii) Bring your own number; see the notes for point 3 a
-ii.	Connect to existing ACS resource (existing today, but needs a lot more details)[Neeraja] Jaya received a demo from Debashish. Video effort post GA; Kos and Jaya to have a follow up about it. 
-i.	Number management[Neeraja]  i) Connecting to ACS ii) acquire, release, update numbers, Kos wants more screenshots iii) Bring your own number; see the notes for point 3 a
-ii.	Connect to existing ACS resource (existing today, but needs a lot more details)[Neeraja] Jaya received a demo from Debashish. Video effort post GA; Kos and Jaya to have a follow up about it. 
-
--->
 
 # Connect to Azure Communication Services
 
@@ -48,7 +41,7 @@ Before you connect to a new Azure resource, check whether you have the following
 
 You can also use an Azure Communication Services resource to connect with voice or SMS channels. You can use an existing resource from any of your Azure subscriptions, available under any tenant.
 
-If you had previously unlinked a resource and want to use it now, you can do so using this option.
+*If you had previously unlinked a resource and want to use it now, you can do so using this option.*
 
 Before you proceed with adding an existing resource to Azure Communication Services, you must have the following information available.
 - Open your existing resource from the Azure portal in a new window or tab. You'll need the resource values and connection string from the Azure resource for use in Omnichannel admin center.
@@ -64,7 +57,7 @@ If you're registering your app on the Azure portal for the first time, then do t
 
 High level steps involved:
 1. Create ACS resource. Note down ACS resource name, resource ID, and connection string
-2. Create application Id. Not down app Id and tenant Id
+2. Create application Id. Note down app Id and tenant Id
 3. Onboard ACS resource to Omnichannel. Input the 5 fields from step 1 and step 2.
 4. Create system topic in Azure for the ACS resource.
 5. Check if eventgrid is registered as a resource provider in the subscription
