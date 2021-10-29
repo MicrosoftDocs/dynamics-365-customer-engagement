@@ -600,16 +600,16 @@ Severity: High
 
 ### What it checks
 
-For all work order forms, this rule checks if the number of subgrid controls and lookup controls exceeds the limit (3 subgrids or 15 lookups), which may impact performance. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
+For all work order forms, this rule checks if the number of subgrid controls or lookup controls exceed the limit (3 subgrids or 15 lookups), which may impact performance. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
 
-A subgrid control is...
+A [subgrid control](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. An example of a subgrid control is the Work Order Product subgrid control on the Work Order form that is included out-of-the-box with Field Service.
 
-A lookup control is...
+A lookup control is a field where you can select one or more records to populate the field.
 
 
 ### Why it fails
 
-This rule fails if the default tab of any work order form has more than either **3 subgrids controls** or **15 lookup controls**. A default tab is...
+This rule fails if the default tab (the first tab on the form) of any work order form has more than either **3 subgrids controls** or **15 lookup controls**. 
 
 
 ### How to fix
