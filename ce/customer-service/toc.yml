@@ -496,7 +496,7 @@
         href: voice-channel-outbound-calling.md
       - name: Route incoming calls to agents
         href: voice-channel-route-queues.md
-      - name: Add Power Virtual Agents for conversational IVR
+      - name: Add Power Virtual Agents bot for voice
         href: voice-channel-ivr-bots.md
       - name: Add Azure Bot Service for conversational IVR
         href: voice-channel-azure-bot-service.md

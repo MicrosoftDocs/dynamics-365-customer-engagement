@@ -1,6 +1,6 @@
 ---
-title: "Add conversational IVR to the voice channel with Power Virtual Agents | MicrosoftDocs"
-description: "Learn about how to add conversational IVR for using in voice channel in Omnichannel for Customer Service."
+title: "Integrate Power Virtual Agents bot for voice | MicrosoftDocs"
+description: "Learn about how to add a Power Virtual Agents bot for using in voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -11,7 +11,7 @@ ms.custom: intro-internal
 ---
 
 
-# Add conversational interactive voice response with Power Virtual Agents
+# Integrate a Power Virtual Agents bot for voice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -93,5 +93,6 @@ To configure the handoff between Power Virtual Agents bot to Omnichannel for Cus
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[Configure context variables](context-variables-for-bot.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
