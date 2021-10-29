@@ -50,17 +50,7 @@ You can also use an existing Azure Communication Services resource to connect wi
 Before you proceed with adding an existing resource to Azure Communication Services, you must have the following information available for use in Omnichannel admin center.
 - [Get the resource name and ID from the Azure portal](#get-resource-name-and-id).
 - [Get the connection string from the Azure portal](#get-connection-string).
-- [Get the application ID and tenant ID from the App registrations page on the Azure portal](#get-application-and-tenant-IDs).
-
-<!--
-High level steps involved:
-1. Create ACS resource. Note down ACS resource name, resource ID, and connection string
-2. Create application Id. Note down app Id and tenant Id
-3. Onboard ACS resource to Omnichannel. Input the 5 fields from step 1 and step 2.
-4. Create system topic in Azure for the ACS resource.
-5. Check if eventgrid is registered as a resource provider in the subscription
-6. Create event grid events in the ACS resource for recording and SMS. Copy recording callback URL from step.
--->
+- [Get the application ID and tenant ID from the App registrations page on the Azure portal](#get-application-and-tenant-ids).
 
 **To connect to an existing Azure resource**
 
@@ -89,10 +79,11 @@ High level steps involved:
 
 7. [Create, deploy, and register event grid system topics](#create-deploy-and-register-event-grid-system-topics).
 
-8. [Create event subscription endpoint for recording](#create-event-subscription-endpoint-for-recording)
+8. [Create event subscription endpoint for recording](#create-event-subscription-endpoint-for-recording).
 
-9. [Create event subscription endpoint for SMS](#create-event-subscription-endpoint-for-sms)
+9. [Create event subscription endpoint for SMS](#create-event-subscription-endpoint-for-sms).
 
+You can now configure the voice workstream settings for the phone number, configure outbound and inbound calling to make and/or receive customer calls.
 
 ## Get resource name and ID
 
@@ -120,8 +111,8 @@ You'll retrieve values for the Azure resource name and resource ID from the Azur
 
 You'll retrieve values for the application and tenant IDs from the Azure portal and paste them in the corresponding fields of the **Use existing resource** dialog.
 
-1. Open the **App registrations** page on the Azure portal in a separate window or tab. 
-   
+1. Open the **App registrations** page on the Azure portal in a separate window or tab.
+
     If you're registering your app on the Azure portal for the first time, then do the following:
     1. On the **Register an application** page, enter the following details:
         - **Name**: Enter a name for your application.
