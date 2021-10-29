@@ -85,9 +85,11 @@ Before you proceed with adding an existing resource to Azure Communication Servi
 
 You can now configure the voice workstream settings for the phone number, configure outbound and inbound calling to make and/or receive customer calls.
 
-## Get resource name and ID
+The following section include short procedures that explain how you can get retrieve resource name, resource ID, connection string, application ID, tenant ID, and other details from the Azure portal. 
 
-You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
+### Get resource name and ID
+
+**To get the resource name and ID from the Azure portal**
 
 1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Settings** > **Properties**. 
 2. Select the value of the **Name** field, select the **Copy to clipboard** button, and then paste the value in the **ACS Resource Name** field of the **Use existing resource** dialog.
@@ -98,16 +100,17 @@ You'll retrieve values for the Azure resource name and resource ID from the Azur
    > [!div class="mx-imgBorder"]
    > ![Copy resource ID.](./media/voice-channel-resource-ID.png "Copy resource ID.")
 
-## Get connection string
+### Get connection string
 
-You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
+**To get the connection string from the Azure portal**
+
 1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Tools** > **Keys** > **Primary key**. 
 2. Select the value of the **Connection string** field, then select the **Copy to clipboard** button, and paste the value in the **Connection string** field of the **Use existing resource** dialog.
 
    > [!div class="mx-imgBorder"]
    > ![Copy connection string.](./media/voice-channel-connection-string.png "Copy connection string.")
 
-## Get application and tenant IDs
+### Get application and tenant IDs
 
 You'll retrieve values for the application and tenant IDs from the Azure portal and paste them in the corresponding fields of the **Use existing resource** dialog.
 
@@ -129,7 +132,7 @@ You'll retrieve values for the application and tenant IDs from the Azure portal 
    > [!div class="mx-imgBorder"]
    > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
 
-## Create, deploy, and register event grid system topics
+### Create, deploy, and register event grid system topics
 
 You'll create, deploy, and register event grid system topics.
 
@@ -154,7 +157,7 @@ You'll create, deploy, and register event grid system topics.
     > [!div class="mx-imgBorder"]
     > ![Event grid is listed as a registered provider.](./media/voice-channel-eventgrid-registered.png "Event grid is listed as a registered provider.")
 
-## Create event subscription endpoint for recording
+### Create event subscription endpoint for recording
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
@@ -188,7 +191,7 @@ You'll create, deploy, and register event grid system topics.
     > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
 
-## Create event subscription endpoint for SMS
+### Create event subscription endpoint for SMS
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
