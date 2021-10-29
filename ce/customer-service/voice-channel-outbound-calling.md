@@ -48,7 +48,7 @@ The phone number will now be displayed to your customers when your agents call t
 
 ## Configure capacity profiles and assign users
 
-You must create or use existing capacity profiles to define and set the workload of your agents. For your agents to be able to make calls to customers, they must be assigned or added to a capacity profile assigned with an outbound profile. So, after you create or update the capacity profile, you must add users to the profile.
+You must create or use existing capacity profiles to define and set the workload of your agents. For your agents to be able to make calls to customers, they must be assigned or added to an outbound capacity profile. If an agent is not assigned to a capacity profile associated with an outbound profile, then outbound calling features will not be available for the agent. So, ensure that after you create or update the capacity profile, you add users to the profile.
 
 For detailed information on how to manage capacity profiles and add users, see [Create and manage capacity profiles](capacity-profiles.md).
 
@@ -60,8 +60,9 @@ For outbound calls, set the capacity profile fields as follows:
 > [!Note]
 > - When you name your capacity profiles, we recommend that you clearly indicate whether they're outbound, inbound, or both, in the capacity **Profile name** field, so it's easy for you to assign users or agents to the appropriate profile.
 > - Though you can use the same capacity profile for both inbound and outbound calling, we recommend that you create separate profiles because the considerations and settings for outbound calling and inbound calling can differ.
-> - If your agents use only non-voice channels such as chat or SMS to connect with customers, then you don't need to add them to outbound capacity profiles.
-> - If your agents are only assigned to receive customer calls, then you don't need to assign them to outbound capacity profiles.
+> - If your agents are only assigned to receive customer calls and not assigned to any capacity profile used for outbound calling, calling features will not display to the agent.
+
+
 
 ## Create outbound profiles
 
