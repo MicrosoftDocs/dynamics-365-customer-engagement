@@ -1,7 +1,7 @@
 ---
 title: "Make price list optional - Sales Enterprise | MicrosoftDocs"
 description: "Allow your salespeople to add products without associating a price list first."
-ms.date: 08/01/2019
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,15 +18,16 @@ searchScope:
 ---
 # Allow adding products without associated price list 
 
-## Requirements
+When adding products to opportunities, quotes, orders, or invoices, at times, salespeople need to specify the product prices ad hoc. You can allow salespeople to add products without associating a price list first.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-When adding products to opportunities, quotes, orders, or invoices, at times, salespeople need to specify the product prices ad hoc. You can allow salespeople to add products without associating a price list first.
 
 ## Make price list optional (Sales Hub)
 
@@ -54,6 +55,8 @@ When adding products to opportunities, quotes, orders, or invoices, at times, sa
     price lists optional** field to **Yes**.
 
     ![Option to make selection of price list optional in System Settings.](media/make-price-list-optional.png "Option to make selection of price list optional in System Settings")
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 [Add products to an opportunity](add-products-opportunity.md)  

@@ -1,8 +1,8 @@
 ---
-title: "Premium auto capture for Sales Insights | MicrosoftDocs"
+title: "Premium auto capture for Sales Insights"
 description: "Use the premium auto capture to provide suggestions on creating new contacts along with capturing activities related to your emails and meetings."
 keywords: 
-ms.date: 01/31/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -14,14 +14,6 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 # Premium auto capture 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

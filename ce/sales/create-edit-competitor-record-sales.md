@@ -1,11 +1,11 @@
 ---
 title: "Create or edit competitor records - (Sales Enterprise) | MicrosoftDocs"
 description: "Track information about your competitor’s strengths and weaknesses and share it with your colleagues to help everyone stay current."
-ms.date: 02/10/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -18,7 +18,10 @@ searchScope:
 ---
 # Create or edit competitor records (Sales Hub) 
 
-## Requirements
+Tracking your competitors and their strengths and weaknesses can help you win sales. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to store details about competitors that you and your colleagues can share, and stay current with the latest details.  
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -26,8 +29,7 @@ searchScope:
 |||
 
 
-
-Tracking your competitors and their strengths and weaknesses can help you win sales. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to store details about competitors that you and your colleagues can share, and stay current with the latest details.  
+## Create a competitor
 
 1.	In the site map, under **Sales**, select **Competitors**.
 
@@ -40,6 +42,8 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 5. To associate a competitor with an opportunity, select the **Opportunities** tab, and select **Add Existing Opportunity**. In the **Search** box, select the Lookup icon, and then select an opportunity from the results. 
 
 6. To associate a competitor with a product, select the **Related** tab, and then select **Products**. Select **Add Existing Product** and use the Lookup icon to select a product.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
 

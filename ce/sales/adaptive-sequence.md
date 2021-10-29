@@ -1,7 +1,7 @@
 ---
-title: "Use adaptive sequences to define conditions (Sales Insights) | MicrosoftDocs"
+title: "Use adaptive sequences to define conditions (Sales Premium)"
 description: "Use adaptive sequences in sales accelerator to define conditions steps that determines the path of a sequence."
-ms.date: 05/28/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,12 +9,16 @@ manager: shujoshi
 ---
 # Adaptive sequences 
 
-## Requirements
+Use adaptive sequences in sales accelerator to define conditions steps that determines the path of a sequence.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## Configure adaptive sequence steps
 
 Use *adaptive sequences* to define conditions for the steps in a sequence. These conditions determine the course of action the sequence will take after the condition is either met or not. After the result of a condition is determined&mdash;for example, whether a user opened an email (**Yes**) or didn't (**No**)&mdash;the sequence proceeds as you designed it. Conditions are available for the following activities:
 
@@ -204,6 +208,8 @@ In the following example, let's set the sequence to the **Yes** path when the **
     >![Business process stage step condition added](media/sa-condition-business-process-stage-step-added.png "Business process stage step condition added") 
 
 The business process flow condition step is created.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

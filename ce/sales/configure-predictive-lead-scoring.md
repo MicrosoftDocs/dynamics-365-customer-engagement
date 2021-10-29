@@ -1,5 +1,5 @@
 ---
-title: "Configure predictive lead scoring (Sales Insights) | MicrosoftDocs"
+title: "Configure predictive lead scoring"
 description: "Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates."
 ms.date: 09/27/2020
 ms.custom: 
@@ -16,12 +16,16 @@ topic-status: Drafting
 ---
 # Configure predictive lead scoring 
 
-## Requirements
+Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## What is predictive lead scoring 
 
 Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead.
 
@@ -170,11 +174,17 @@ If you're using custom attributes for lead generation, you can generate the mode
 
     The out-of-the-box **Status** state option set contains the qualified and disqualified values as **Qualified** and **Disqualified**, respectively. You can also select your custom option set that's relevant to your business.
 
-7. Select **Filter column** and **Filter values** to define the leads for which the model must score. 
+7. Select **Filter column** and **Filter values** to define the leads for which the model must score.   
 
     With multiple models, each model can be directed to score a specific set of leads based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which leads the model should score. These selections determine which column and which values within that column correspond to the leads that this model will score.
 
-8. Select **Get started**.
+8. Choose time period from the **Train with leads from the past** list. The default duration is 2 years.   
+
+   For example, if you want to consider the closed leads from past 6 months to train the model, choose 6 months from the list. The model considers the closed leads from the past 6 months and trains the model to score the open leads from past 2 years.  
+
+   If you don't have enough closed leads in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed leads to train the model.  
+
+9. Select **Get started**.
 
     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
 
@@ -184,9 +194,9 @@ If you're using custom attributes for lead generation, you can generate the mode
     >[!NOTE]
     >If there aren't enough leads to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-9. After the model is generated, the lead scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
+10. After the model is generated, the lead scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
-10. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
+11. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
     The model is applied to the selected set of leads in your organization. Users can see the lead scoring in their views under the **Lead score** column and a widget in the lead form. More information: [Convert leads into opportunities](../sales/work-predictive-lead-scoring.md)
 
@@ -210,7 +220,7 @@ In organizations that have different lines of business, you might need different
     > [!div class="mx-imgBorder"]
     > ![Add model page for predictive lead scoring.](media/si-admin-predictive-lead-scoring-model-add-model-page.png "Add model page for predictive lead scoring") 
 
-3. Perform steps 4 through 8 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
+3. Perform steps 4 through 9 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 
 4. After the model is generated, a confirmation message appears with a summary of model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
@@ -361,6 +371,34 @@ You can delete a model when it's no longer required in your organization. You ca
 3. In the confirmation message that appears, select **Delete**.
 
 The model is deleted from your organization.
+
+## Manage duplicate models
+
+When you create multiple models, it’s important to configure them so that they are not scoring the same leads. In the case of duplicate models, it’s difficult to identify which model scored the lead. Duplicate models are automatically identified when you create or edit models. A conflict message is displayed when the configuration is a duplicate of existing models.    
+To remove the duplicate models, use one of the following methods depending on the action you’re performing:
+- [Create model](#create-model)
+- [Published model](#published-model)
+
+### Create model
+
+When you select **Get started**, a conflict message is displayed stating that the model you’re creating has conflicts with other models in the list. The following image shows an example of the message:
+
+> [!div class="mx-imgBorder"]
+> ![A conflict message while creating the model.](media/si-admin-predictive-lead-scoring-duplicate-model-create-model-message.png "A conflict message while creating the model")
+ 
+-	Select **No, Go back** and change the filter column and values to ensure that the model is scoring unique leads. For more information, see step 7 in [First-run setup experience](#first-run-setup-experience).
+-Or-
+-	Proceed to create a duplicate model, which might cause conflicts in identifying the leads that are being scored by this model.
+
+### Published model
+
+When you open a published model, a note displays above the version details section with the list of models that the current model is a duplicate of. The following image shows an example of the message:
+
+> [!div class="mx-imgBorder"]
+> ![A conflict message while publishing the model.](media/si-admin-predictive-lead-scoring-duplicate-model-published-model-message.png "A conflict message while publishing the model")
+ 
+1.	Select **Delete model** to delete the current model from the application.
+2.	[Create the model](#add-a-model) with different filter column and filter values to score a lead.
 
 ## Define entities for analytics
 
@@ -595,6 +633,7 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
 9. Save and publish the form.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

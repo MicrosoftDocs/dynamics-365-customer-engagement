@@ -1,11 +1,11 @@
 ---
 title: "Track and manage activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use activities in Dynamics 365 to track of all your customer communications."
-ms.date: 04/03/2020
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-activitypointer
@@ -15,18 +15,18 @@ searchScope:
 ---
 # Track and manage activities 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 In Dynamics 365 Sales, you use activities to plan, track, and organize all your customer communications. For example, you can take notes, send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale or resolve a service case. These actions are all considered types of activities.
 
 The system automatically timestamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.
 
 To get the most out of Dynamics 365 Sales, it's important for everyone in the organization to track all their customer interactions by adding an activity for every email, phone call, task, or appointment. That way, a customer's history is complete. 
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## Find your activities
 
@@ -176,6 +176,7 @@ Here are some suggestions about how to use activities to your organization's bes
   
      That way, your task will "roll up" under the account automatically, and you and other people on your team will see the task when they're looking at the contact and when they're looking at the account for ​Wingtip Toys. (And they'll know you've got it handled.) 
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

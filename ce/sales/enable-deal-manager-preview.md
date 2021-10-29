@@ -1,32 +1,30 @@
 ---
 title: "Enable the deal manager workspace preview - Sales Enterprise | MicrosoftDocs"
 description: "As an administrator, enable the preview so that your sales teams can access the deal manager workspace and manage their pipelines efficiently."
-ms.date: 09/30/2021
+ms.date: 10/26/2021
 ms.topic: article
+ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 # Preview: Enable the deal manager workspace  
 
-## Requirements
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+As an administrator, enable the preview so that your sales teams can access the deal manager workspace and manage their pipelines efficiently.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## Access deal manager settings
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
-
-> [!NOTE]
-> This feature is being rolled out in a phased manner across different regions. To verify the feature availability in your region, see the **Next Refresh Scheduled Date** for version 9.0.21072.10001 in the [Latest version availability](/dynamics365/released-versions/dynamics365sales) section. 
-
-The new deal manger workspace helps sellers be more productive and efficient. As an administrator, you must enable the preview and grant access to specific security roles that will need to access to the deal manager.  
-
-## Access deal manager settings
 
 Access the deal manager settings page to enable the deal manager preview, grant access to users, and customize the grid and charts. 
 
@@ -73,6 +71,8 @@ Access the deal manager settings page to enable the deal manager preview, grant 
 1. Select the roles that you want to give access to, and then select **Publish**.
 
 The deal manager workspace is now available to administrators and the roles you selected. 
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

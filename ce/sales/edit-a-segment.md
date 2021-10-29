@@ -1,7 +1,7 @@
 ---
-title: "Edit a segment in the sales accelerator (Sales Insights) | MicrosoftDocs"
+title: "Edit a segment in the sales accelerator"
 description: "Update the conditions in the segment to modify your process for choosing the records you want as members of a segment."
-ms.date: 04/09/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,14 +9,16 @@ manager: shujoshi
 ---
 # Edit a segment 
 
-## Requirements
+To modify your process for choosing the records you want as members of a segment, you can update the conditions that you've defined in the segment.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-To modify your process for choosing the records you want as members of a segment, you can update the conditions that you've defined in the segment.
+## To edit a segment 
 
 1.	Sign in to your Dynamics 365 Sales Hub app.   
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
@@ -44,6 +46,8 @@ To modify your process for choosing the records you want as members of a segment
     >![Save your edits](media/sa-segment-edit-lead-edit-save-confirmation.png "Save your edits")  
 
 The changes will be applied to records that are created in the future in the application. The records that the segment has already been applied to won't change.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

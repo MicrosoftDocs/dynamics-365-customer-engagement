@@ -1,7 +1,7 @@
 ---
-title: "Set up the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Set up the enhanced email experience in Dynamics 365 Sales"
 description: "Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on."
-ms.date: 04/16/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,18 +9,17 @@ manager: annbe
 ---
 # Set up enhanced email 
 
-## Requirements
+Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on.
+
+> [!IMPORTANT]
+> The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
-
-Before sales reps can use enhanced email, you must enable it.
-
-> [!IMPORTANT]
-> The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 
 ## Enable enhanced email through App Settings
 
@@ -59,6 +58,8 @@ Before sales reps can use enhanced email, you must enable it.
     > ![Enable enhanced email.](media/email-tab.png "Enable enhanced email")
 
 5. Select **Ok**.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

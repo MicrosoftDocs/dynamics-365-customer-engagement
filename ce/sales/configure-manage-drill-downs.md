@@ -1,7 +1,7 @@
 ---
-title: "Configure and manage drill-down entities for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Configure and manage drill-down entities for a forecast"
 description: "Configure and manage drill-down entities for a forecast in Dynamics 365 Sales."
-ms.date: 10/26/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -17,20 +17,21 @@ searchScope:
 ---
 # Configure and manage drill-down entities 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 Once you’ve configured the forecast page, you'll have a view into the pipeline amounts that your sellers are projecting for the period. Now you might want to know which accounts contribute to a specific seller’s Committed value or maybe you want to know which products are contributing to a different seller’s Won value. The drill-down feature allows you to break down your seller’s forecast projections as a function of the contributing factors that you care about such as Account and Product. The drill-down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the drill-down selection. 
 
 Let’s look at an example. **Amber Rodriguez** is a seller who's associated with four accounts. Her projected revenue for the current period is $400,000. **Kevin Smith**, her sales manager, wants to understand how her revenue of $400,000 is broken down by each account. On the forecast page, Kevin chooses to drill down into Account from the drop-down menu. Then he selects the drill-down icon beside Amber’s record to view a list of accounts that make each of Amber’s forecast pipeline values.
 
 > [!div class="mx-imgBorder"]
 > ![Forecast drill-down view.](media/forecast-drill-down-view.png "Forecast drill-down view")
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## Configure drill-down entities 
 
 As an administrator or forecast manager, you can enable and configure the drill-down option using the **Drill down** step in the forecast configuration. By configuring the drill-down choices that match your organizational requirements, you can break down your forecast values into any of the configured drill-down options. This allows users to understand what values are constituting their forecast projections.
 
@@ -99,7 +100,6 @@ Using these templates, you can break down your forecast values by accounts, prod
 
 -	You can [add](#add-a-drill-down-entity) or [edit](#edit-a-drill-down-entity) drill-down choices and make them available for users even after the forecast has been activated. 
 -	You can [delete](#delete-a-drill-down-entity) the drill-down choice if it is no longer required in a forecast. 
-
 
 ## Add a drill-down entity
 
@@ -213,6 +213,7 @@ Understand the relationships many-to-1 and 1-to-many in detail:
 
 To learn more about entity relationships, go to [Entity relationships](/powerapps/maker/common-data-service/create-edit-entity-relationships).
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 <table>
 <tr><td>

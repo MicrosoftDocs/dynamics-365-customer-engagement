@@ -1,7 +1,7 @@
 ---
 title: "Preview  Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize the Add Products dialog box so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
-ms.date: 04/02/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,7 +18,9 @@ searchScope:
 ---
 # Customize the Add Products dialog box
 
-## Requirements
+Customize the Add Products dialog box so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales.
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -29,10 +31,17 @@ searchScope:
 
 > [!IMPORTANT]
 > Customizations described in this topic must be done within a custom solution. For more information see, [Why you shouldn't use the default solutions to manage customizations](/power-platform/alm/use-solutions-for-your-customizations#why-you-shouldnt-use-the-default-solutions-to-manage-customizations)
-  
-As a system administrator, you can customize the **Add products** dialog box by adding information that will help your salespeople to identify and select products quickly. 
 
-You can either add more columns to the grid or add more attributes to the **Product** column. Attributes in the **Product** column help sellers get more information *before* choosing a product. So, if you want to add a category or product ID to help distinguish products from each other, add it to the **Product** column. On the other hand, if sellers need to perform an action *after* selecting a product&mdash;for example, choosing delivery priority (a custom attribute)&mdash;add that attribute to the grid.
+## What can you customize?
+
+You can customize the following components of the **Add product** dialog to help sellers identify and add products quickly:
+
+- Add more columns to the products grid. More information: [Add or remove columns in the grid](#add-or-remove-columns-in-the-grid)
+
+- Add more attributes to the **Product** column. More information: [Add or edit attributes in the Product column](#add-or-edit-attributes-in-the-product-column)
+- > [!NOTE]
+    > Attributes in the **Product** column help sellers get more information *before* choosing a product. So, if you want to add a category or product ID to help distinguish products from each other, add it to the **Product** column. On the other hand, if sellers need to perform an action *after* selecting a product&mdash;for example, choosing delivery priority (a custom attribute)&mdash;add that attribute to the grid.
+- Customize the fields to search. More information: [Customize the fields to search](#customize-the-fields-to-search)
 
 >[!IMPORTANT]
 >- The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -139,6 +148,8 @@ By default, the search field in the Add products dialog searches the product nam
 6. To verify the changes, open an opportunity and select **Add products**.
 
 7. Search for a keyword and verify whether the search is returning matches from the newly added fields.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

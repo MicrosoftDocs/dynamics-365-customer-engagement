@@ -1,5 +1,5 @@
 ---
-title: "Configure advanced settings for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Configure advanced settings for a forecast"
 description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
 ms.date: 11/06/2020
 ms.topic: article
@@ -9,14 +9,6 @@ manager: shujoshi
 ---
 # Configure advanced settings 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 In the **Advanced** step of forecast configuration, you can configure the following:
@@ -25,6 +17,13 @@ In the **Advanced** step of forecast configuration, you can configure the follow
 - [Enable multi-currency selection](#enable-multi-currency-selection)
 - [Enable prediction factors](#enable-prediction-factors)
 - [Customize underlying records](#customize-underlying-records)
+
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or Forecast Manager<br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## Automatically hide parent rows
 
@@ -118,6 +117,8 @@ You can customize underlying records by adding a JavaScript library. These custo
         > [!div class="mx-imgBorder"]
         > ![Select a JavaScript library.](media/forecast-javascript-choose-file.png "Select a JavaScript library")          
 The file is added to the forecast.  
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
  
 <table>
 <tr><td>

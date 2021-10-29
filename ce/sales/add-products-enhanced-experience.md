@@ -17,16 +17,19 @@ searchScope:
 ---
 # Preview: Add products to an opportunity by using the enhanced experience 
 
-## Requirements
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Use the enhanced experience to quickly identify and add multiple products from the catalog to opportunities.
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## What's in the enhanced experience?
 
 As a salesperson, you want to be able to easily identify and add products from the catalog that best fit the opportunity at hand. With the enhanced experience of adding products, you can:
 
@@ -132,6 +135,8 @@ no longer relevant for the opportunity. You can remove products in two circumsta
 
 2. Select the products that you want to remove, and then select **Delete opportunity product**.
     The selected products will be removed from the opportunity after you confirm the deletion.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
-title: "Connect segment to sequence in the sales accelerator | MicrosoftDocs"
+title: "Connect segment to sequence in the sales accelerator"
 description: "Connect a segment to a sequence based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales."
-ms.date: 10/08/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,20 +9,20 @@ manager: shujoshi
 ---
 # Connect a segment to a sequence 
 
-## Requirements
+After you create and activate a segment, you connect the segment to a sequence depending on the entity that you've created the sequence for. You can add segments to existing sequences. Open the sequences to view their details, and then add segments to them. More information: [View details of a sequence and its connected records](view-sequence-details-connected-records.md).  
+
+> [!NOTE]
+> You can connect segments only to leads and opportunities. 
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-After you create and activate a segment, you connect the segment to a sequence depending on the entity that you've created the sequence for. You can add segments to existing sequences. Open the sequences to view their details, and then add segments to them. More information: [View details of a sequence and its connected records](view-sequence-details-connected-records.md).  
-
-> [!NOTE]
-> You can connect segments only to leads and opportunities. 
-
 <!--markdownlint-disable MD036-->
-**To connect a segment to a sequence**
+## To connect a segment to a sequence
 <!--markdownlint-enable MD036-->
 >[!NOTE]
 >In this procedure, we are using leads as example.
@@ -57,6 +57,8 @@ After you create and activate a segment, you connect the segment to a sequence d
     >To disassociate a segment from this sequence, select the segment, and then select **Disconnect**. In the confirmation message, select **Disconnect**.
 
 8. Close the sequence.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

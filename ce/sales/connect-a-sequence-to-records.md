@@ -1,7 +1,7 @@
 ---
-title: "Connect sequence to records in the sales accelerator | MicrosoftDocs"
+title: "Connect sequence to records in the sales accelerator"
 description: "Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales."
-ms.date: 01/11/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,18 +9,21 @@ manager: shujoshi
 ---
 # Connect a sequence to records 
 
-## Requirements
+After you create and activate a sequence for the selling process, you connect the sequence to records depending on the entity that you've created the sequence for. When a sequence is connected to an entity, the activities defined in the sequence will be shown in order on the record's **Summary** under **Up next** in **My work**.   
+> [!NOTE]
+> You can connect a sequence to the following types of records only:
+> - Leads that are in a **New** state.
+> - Opportunities that are in an **Open** state.    
+
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-After you create and activate a sequence for the selling process, you connect the sequence to records depending on the entity that you've created the sequence for. When a sequence is connected to an entity, the activities defined in the sequence will be shown in order on the record's **Summary** under **Up next** in **My work**.   
-> [!NOTE]
-> You can connect a sequence to the following types of records only:
-> - Leads that are in a **New** state.
-> - Opportunities that are in an **Open** state.    
+
+## Ways to connect sequence to records
 
 You can connect a sequence to records in the following ways:    
 - [Through a sequence](#ContactThroughASequence)
@@ -156,6 +159,8 @@ You can create a flow based on a sequence. The flow connects the records automat
     > [!div class="mx-imgBorder"]   
     > ![Select Test flow type](media/si-admin-create-flow-select-test-flow.png "Select Test flow type")           
 10. Save and publish the flow.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

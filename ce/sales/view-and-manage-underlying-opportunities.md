@@ -1,7 +1,7 @@
 ---
 title: "View and manage the opportunities pipeline through sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and manage the opportunities pipeline through sales forecasting in Dynamics 365 Sales."
-ms.date: 02/03/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -18,14 +18,18 @@ searchScope:
 ---
 # View and manage underlying opportunities  
 
-## Requirements
+Getting visibility into the underlying opportunities that are contributing to the forecast values helps the sales team to focus on specific opportunities and take actions.  
+
+
+## License and role requirements
+
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
+## View underlying opportunities
 
 To understand which opportunities are affecting forecast values, select one of the following options: 
 
@@ -46,7 +50,7 @@ You can view and edit underlying opportunities in two ways:
 
 - [View and edit in a kanban view](#view-and-edit-in-a-kanban-view)
 
-## View and edit in a table view
+### View and edit in a table view
 
 With the enhanced grid, you can view and edit related entity records also. The following screen is an example of the enhanced grid view of underlying records:   
 
@@ -74,7 +78,7 @@ With the enhanced grid, you can view and edit related entity records also. The f
     > ![Opportunity split group by example.](media/forecast-opportunity-split-groupby-example.png "Opportunity split group by example")
 
 
-## View and edit in a kanban view
+### View and edit in a kanban view
 
 1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.
 
@@ -115,6 +119,8 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
     > [!NOTE]
     > To edit more attributes for the opportunity, select the name of the opportunity. The opportunity will open in a new page, where you can edit it as required, and then save and close it.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

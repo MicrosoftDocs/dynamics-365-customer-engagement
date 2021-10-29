@@ -56,6 +56,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 8.8.53.27
 
+(Includes Universal Resource Scheduling version [3.12.65.6](/dynamics365/field-service/field-service-version-history-resource-scheduling#312656)).
+
+- Bug fix to address "Please wait" message not closing for **Convert to WO** on case form.
+- Fixed a bug in Field Service (Dynamics 365) mobile to reset travel calculation variables after successful save.
+
 ## 8.8.52.127
 
 This release is a hotfix on Field Service version [8.8.52.125](/dynamics365/field-service/version-history#8852125).
@@ -65,6 +70,8 @@ This release is a hotfix on Field Service version [8.8.52.125](/dynamics365/fiel
 ## 8.8.52.125
 
 This release is a hotfix on Field Service version [8.8.52.123](/dynamics365/field-service/version-history#8852123).
+
+- Bug fix where instructions field clears on work order save.
 
 ## 8.8.52.123
 

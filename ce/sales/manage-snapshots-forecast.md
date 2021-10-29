@@ -1,7 +1,7 @@
 ---
-title: "Manage snapshots for a forecast (Sales Insights) | MicrosoftDocs"
+title: "Manage snapshots for a forecast"
 description: "Use snapshots to automatically take a snippet of forecast data at a moment in time and compare how data is changed over time."
-ms.date: 10/26/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -9,13 +9,6 @@ ms.author: udag
 manager: shujoshi
 ---
 # Take snapshots automatically  
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Forecast Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
 
 A snapshot freezes the forecast data at a moment in time. The frozen data includes aggregate column values, manual adjustments, and underlying record fields that directly affect the forecast. You can use these snapshots to see how the forecast and its underlying data have changed over time. 
 
@@ -25,7 +18,14 @@ Snapshots are taken automatically each day and while configuring the forecasts y
 >- Premium forecasting must be enabled for the snapshot feature.
 >- You can enable or disable snapshots any time while a forecast active. When disabled, the previously taken snapshots are still available.  
 
-To enable the snapshots, follow these steps:
+## License and role requirements
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Forecast Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## To enable the snapshots
 
 1.	While configuring a forecast, the **Snapshots** step is displayed. 
 
@@ -47,6 +47,8 @@ To enable the snapshots, follow these steps:
 
 >[!IMPORTANT]
 >While configuring columns for a forecast, ensure that each column is unique and the **Selector** option doesn't have duplicates. If duplicates exist, when you activate the forecast an error will be displayed that states that snapshots can't be enabled for the forecast.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 
