@@ -29,7 +29,7 @@ The following prerequisites must be set for the Microsoft Teams users:
 
 ## Enable consult with Microsoft Teams users
 
-To allow the agents to consult with Microsoft Teams users, you'll need to enable the **Consult with Microsoft Teams user** setting in the voice channel section of the workstream for voice. More information: [Configure the voice channel](voice-channel-route-queues.md#configure-the-voice-channel).
+To allow the agents to consult with Microsoft Teams users, you'll need to enable the **Consult with Microsoft Teams user** setting in the voice channel section of the workstream for voice. More information: [Configure the voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
 
 ### See also
 
