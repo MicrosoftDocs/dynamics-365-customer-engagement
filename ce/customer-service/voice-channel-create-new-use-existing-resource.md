@@ -167,6 +167,7 @@ The following sections include short procedures that explain how you can get ret
 **To create event subscription endpoint for recording**
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
+
 2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
     > [!div class="mx-imgBorder"]
     > ![Add event subscription details for recording.](./media/voice-channel-create-event-subscription-recording.png "Add event subscription details for recording.")
@@ -176,13 +177,18 @@ The following sections include short procedures that explain how you can get ret
     - **Filter to Event Types**: Select **Recording File Status Updated (Preview)** from the dropdown list.
     - **Endpoint Type**: Select **Web Hook** from the dropdown list.
     - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, you need to enter the **Subscriber Endpoint**.
-          To get the subscriber endpoint:
-           i. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
-           ii. Select a phone number, and then select **Advanced**.
-           iii. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint**.
-            > [!div class="mx-imgBorder"]
-            > ![Copy recording web hook endpoint.](./media/voice-channel-recording-webhook-endpoint.png "Copy recording web hook endpoint.")
-          iv. Paste the web hook endpoint value in the **Subscriber Endpoint** field and select **Confirm Selection**.
+      To get the subscriber endpoint:
+
+         a. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
+
+         b. Select a phone number, and then select **Advanced**.
+
+         c. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint**.
+         > [!div class="mx-imgBorder"]
+         > ![Copy recording web hook endpoint.](./media/voice-channel-recording-webhook-endpoint.png "Copy recording web hook endpoint.")
+          
+         d. Paste the web hook endpoint value in the **Subscriber Endpoint** field and select **Confirm Selection**.
+
 3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
     > [!div class="mx-imgBorder"]
     > ![Add AAD authentication details.](./media/voice-channel-create-event-subscription-AAD-authentication.png "Add AAD authentication details.")
@@ -203,6 +209,7 @@ The following sections include short procedures that explain how you can get ret
 **To create event subscription endpoint for SMS**
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
+
 2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
     - **Name**: Enter a name for the recording event subscription.
     - **Event Schema**: Select **Event Grid Schema** from the dropdown list.
@@ -212,13 +219,19 @@ The following sections include short procedures that explain how you can get ret
     > ![Add event subscription details for SMS.](./media/voice-channel-create-event-subscription-sms-event-types.png "Add event subscription details for SMS.")
     - **Endpoint Type**: Select **Web Hook** from the dropdown list.
     - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, you need to enter the **Subscriber Endpoint**.
-         To get the subscriber endpoint:
-         i. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
-        ii. Select a phone number, and then select **Advanced**.
-        iii. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint**.
-       > [!div class="mx-imgBorder"]
-       > ![Copy sms web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy sms web hook endpoint.")
-          iv. Paste the web hook endpoint value in the **Subscriber Endpoint** field and select **Confirm Selection**.
+
+      To get the subscriber endpoint:
+
+      a. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
+         
+      b. Select a phone number, and then select **Advanced**.
+        
+      c. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint**.
+         > [!div class="mx-imgBorder"]
+         > ![Copy sms web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy sms web hook endpoint.")
+
+      d. Paste the web hook endpoint value in the **Subscriber Endpoint** field and select **Confirm Selection**.
+
 3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
     > [!div class="mx-imgBorder"]
     > ![Add AAD authentication details.](./media/voice-channel-create-event-subscription-AAD-authentication.png "Add AAD authentication details.")
@@ -228,6 +241,7 @@ The following sections include short procedures that explain how you can get ret
    - **AAD Application ID or URI**: Copy-paste the **Application (client) ID** field value from your Azure resource here.
    > [!div class="mx-imgBorder"]
    > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
+
 4. Select **Create** to create the event subscription endpoints for SMS. *This might take some time, so if you get an sync error, try refreshing after some time.*
     > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoint for SMS.](./media/voice-channel-event-subscription-sms-success.png "Create event grid callbacks for SMS.")
