@@ -512,6 +512,8 @@
         href: voice-channel-music.md
       - name: Configure call recordings and transcripts
         href: voice-channel-configure-transcripts.md
+      - name: Enable consult with Microsoft Teams users
+        href: voice-consult-microsoft-teams-user.md
       - name: Supported regions and languages
         href: voice-channel-region-availability.md
     - name: Agent experience
