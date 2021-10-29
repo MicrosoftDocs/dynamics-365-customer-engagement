@@ -118,13 +118,17 @@ The **Sessions** tab displays details about the number of voice calls between th
 
 ## Consult with Microsoft Teams users
 
-If your administrator has enabled the option for you to consult with subject matter experts (SMEs) through Microsoft Teams, you can contact them by navigating to the Teams tab in the Consult section of the communication panel.
+If your administrator has enabled the option for you to consult with subject matter experts (SMEs) through Microsoft Teams, you can contact them by navigating to the Teams tab in the **Consult** section of the communication panel. Your supervisor can monitor the calls and after the call ends, the call recording and transcript of the conversation with the Microsoft Teams user is saved in Dynamics 365 for reporting and compliance.
 
 Do the following steps to consult while you are on a call:
 
-1. Use the Consult button, and go to the **Teams** tab.
+1. Select the **Consult** option, and go to the **Teams** tab in the **Consult** section that appears.
 
-2. 
+2. Use the search option to search for an SME. The results are filtered by the name and live presence in Microsoft Teams.
+
+3. Select **Add** for the SME you want to consult. The SME will receive a call in Microsoft Teams.
+
+4. Optionally, you can transfer the call to the SME.
 
 ### See also
 
