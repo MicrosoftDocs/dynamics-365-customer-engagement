@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 
 This section describes how you as an IT administrator can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers via the Omnichannel Agent Dashboard in Omnichannel for Customer Service.
 
-If you don't have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) to learn how you can acquire new phone numbers.
+If you don't have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) to learn how you can acquire new phone numbers. Phone number calling plans must be provisioned to support making calls to be used for outbound voice.
 
 ## Prerequisites
 
@@ -23,12 +23,12 @@ Before you set up outbound voice calls for your business, you'll need the follow
 
 - [Configure one or more phone numbers for outbound calling](#configure-phone-numbers-for-outbound-calling).
 - [Create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels) or use an existing voice queue to associate with the outbound profile.
-- [Configure capacity profiles and add users](capacity-profiles.md).
+- [Configure capacity profiles and add users](#configure-capacity-profiles-and-assign-users).
 - [Create outbound profiles](#create-outbound-profiles)
 
 ## Configure phone numbers for outbound calling
 
-To check for phone numbers configured for outbound calling, go to **General settings** > **Phone numbers**, and check if you have numbers with **Make calls** mentioned in the **Calling** column.
+To check whether a phone number is enabled for outbound calling, go to **General settings** > **Phone numbers**, and check whether the number has **Make calls** mentioned in the **Calling** column. You can configure the calling plan for a phone number if it is not enabled for outbound calling.
 
 **To configure a phone number for outbound calling**
 
@@ -48,7 +48,7 @@ The phone number will now be displayed to your customers when your agents call t
 
 ## Configure capacity profiles and assign users
 
-You must create or use existing capacity profiles to define and set the workload of your agents. For your agents to be able to make calls to customers, they must be assigned or added to an outbound capacity profile. So, after you create or update the capacity profile, you must add users to the profile.
+You must create or use existing capacity profiles to define and set the workload of your agents. For your agents to be able to make calls to customers, they must be assigned or added to a capacity profile assigned with an outbound profile. So, after you create or update the capacity profile, you must add users to the profile.
 
 For detailed information on how to manage capacity profiles and add users, see [Create and manage capacity profiles](capacity-profiles.md).
 
@@ -80,7 +80,8 @@ You can define the way outbound calls are made and also who can make them. To cr
      - **Profile name**: Enter a profile name.
      - **Phone number**: Select a phone number from the dropdown list. 
          > [!Note]
-         > The phone numbers list shows only those numbers that are enabled for outbound calling. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-phone-numbers-for-outbound-calling).
+         > The phone numbers list shows only those numbers that are enabled for outbound calling, and are not used as a personal user phone number. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-phone-numbers-for-outbound-calling).
+     - **Number label**:  Indicates the label displayed with the phone number at the customer's end when you call a customer, indicating a business context such as Billing. This value is automatically populated with the phone name string but can be edited.
      - **Queue**: Select a queue from the dropdown list. The list shows only voice type queues, so if you don't see any queues in the list, you'll need to [create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels).
      - **Capacity**: Select one or more capacity profiles from the dropdown list.
      - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
