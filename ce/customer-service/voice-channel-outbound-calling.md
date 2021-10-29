@@ -48,7 +48,7 @@ The phone number will now be displayed to your customers when your agents call t
 
 ## Configure capacity profiles and assign users
 
-You must create or use existing capacity profiles to define and set the workload of your agents. For your agents to be able to make calls to customers, they must be assigned or added to an outbound capacity profile. If an agent is not assigned to a capacity profile associated with an outbound profile, then outbound calling features will not be available for the agent. So, ensure that after you create or update the capacity profile, you add users to the profile.
+You must create or use existing capacity profiles to define and set the workload of your agents. For your agents to be able to make calls to customers, they must be assigned or added to an outbound capacity profile. If an agent is not assigned to a capacity profile associated with an outbound profile, then outbound calling features will not be available to the agent. So, ensure that after you create or update the capacity profile, you add users to the profile.
 
 For detailed information on how to manage capacity profiles and add users, see [Create and manage capacity profiles](capacity-profiles.md).
 
