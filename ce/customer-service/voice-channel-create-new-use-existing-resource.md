@@ -89,11 +89,9 @@ High level steps involved:
 
 7. [Create, deploy, and register event grid system topics](#create-deploy-and-register-event-grid-system-topics).
 
-8. [Create event subscription callbacks for recording](#get-event-subscription-for-recording)
+8. [Create event subscription endpoints for recording](#get-event-subscription-for-recording)
 
-9. [Create event subscription callbacks for SMS](#get-event-subscription-for-sms)
-
-
+9. [Create event subscription endpoints for SMS](#get-event-subscription-for-sms)
 
 
 ## Get resource name and ID
@@ -227,13 +225,9 @@ You'll create, deploy, and register event grid system topics.
    - **AAD Application ID or URI**: Copy-paste the **Application (client) ID** field value from your Azure resource here.
    > [!div class="mx-imgBorder"]
    > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
-4. Select **Create** to create the event subscription endpoints for recording. *This might take some time, so if you get an sync error, try refreshing after some time.*
-
+4. Select **Create** to create the event subscription endpoints for SMS. *This might take some time, so if you get an sync error, try refreshing after some time.*
 > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoint for SMS.](./media/voice-channel-event-subscription-sms-success.png "Create event grid callbacks for SMS.")
-
-
-
 
 ### See also
 
