@@ -22,6 +22,11 @@ Customer experience homepages provide a one-stop destination for your service en
 
 In this article, we'll walk through the customer experience homepages, and how they work for end customers.
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO5EO]
+
+
 ## Prerequisites
 
 - To make sure end customers can use a homepage, enable self-scheduling in Field Service. For more information, see: [Enable self-scheduling for customers](scheduling-self-customers.md).
