@@ -79,36 +79,51 @@ High level steps involved:
    - **Event grip app ID**: [Enter the application ID](##get-application-and-tenant-IDs).
    - **Event grip app tenant ID**: [Enter the tenant ID](##get-application-and-tenant-IDs).
 
-3. Select **Connect**. After the Azure resource is connected, you'll be able to provision or acquire new phone numbers for your organization.
+4. Select **Connect**. After the Azure resource is connected, you'll be able to provision or acquire new phone numbers for your organization.
     > [!div class="mx-imgBorder"]
     > ![Azure resource is connected to Azure Communication Services.](./media/voice-channel-acs-connection.png "Azure resource is connected to Azure Communication Services.")
 
-4. Select **Add number**. The **Add phone number** page is displayed.
+5. Select **Add number**. The **Add phone number** page is displayed.
 
-5. Follow the procedure to [add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
+6. Follow the procedure to [add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
 
-6. [Create event grid system topics](#get-event-grid-system-topic-details).
+7. [Create event grid system topics](#get-event-grid-system-topic-details).
 
-1. [Create event subscription for recording](#get-event-subscription-for-recording)
+8. [Create event subscription for recording](#get-event-subscription-for-recording)
 
-8. [Create event subscription for SMS](#get-event-subscription-for-sms)
+9. [Create event subscription for SMS](#get-event-subscription-for-sms)
 
 ## Get event grid system topic details
 
-You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
+*You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.*
 
-1. Open the Azure portal in a separate window or tab, and go to **Settings** > **Properties**. 
-2. Select **Create** and in the **Create Event Grid System Topic** page, select the subscription and resource group from the dropdown lists
-3. 
-   > [!div class="mx-imgBorder"]
-   > ![Copy resource name.](./media/voice-channel-resource-name.png "Copy resource name.")
-3. Select the value of the **Resource ID** field, then select the **Copy to clipboard** button, and paste the value in the **ACS Resource ID** field of the **Use existing resource** dialog.
-4. For **Topic Types**, select **Azure Communication Services**.
-5. For **Subscription**, select 
-6. For Resource group, select the resource group you created earlier
-
+1. Open the Azure portal in a separate window or tab, and open the **Event Grid System Topics** service. 
+2. Select **Create** and in the **Create Event Grid System Topic** page, enter the following details.
+    - **Topic Types**: Select **Azure Communication Services** from the dropdown list.
+    - **Subscription**: Select the subscription from the dropdown list.
+    - **Resource group**: Select the resource group where you created the Azure resource.    
+    - **Resource**: Select the Azure resource.
+    - **Name**: Enter a name for the system topic.
     > [!div class="mx-imgBorder"]
     > ![Create event grid system topic.](./media/voice-channel-create-event-grid-system-topic.png "Create event grid system topic.")
+3. Select **Review + create**. The system topic is validated and deployed.  
+    > [!div class="mx-imgBorder"]
+    > ![Event grid system topic is deployed.](./media/voice-channel-system-topic-deployment.png "Event grid system topic is deployed.")
+4. Select **Go to resource**. 
+5. In the resource details page that opens, select the subscription.
+    > [!div class="mx-imgBorder"]
+    > ![Select the resource subscription.](./media/voice-channel-resource-subscription.png "Select the resource subscription.")
+6. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**.
+   If the event grid is not registered, you can select the record and then select **Re-register** to register it.
+    > [!div class="mx-imgBorder"]
+    > ![Event grid is listed as a registered provider.](./media/voice-channel-eventgrid-registered.png "Event grid is listed as a registered provider.")
+
+9.
+    > [!div class="mx-imgBorder"]
+    > ![Select the resource subscription.](./media/voice-channel-resource-subscription.png "Select the resource subscription.")
+
+
+
 
 ## Get resource name and ID
 
@@ -153,6 +168,17 @@ You'll retrieve values for the application and tenant IDs from the Azure portal 
    > [!div class="mx-imgBorder"]
    > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
 
+## Create event grid callbacks for recording
+
+7. [Create event grid callbacks for recording]()
+    > [!div class="mx-imgBorder"]
+    > ![Create event grid callbacks for recording.](./media/voice-channel-resource-subscription.png "Create event grid callbacks for recording.")
+
+## Create event grid callbacks for SMS
+
+8.[Create event grid callbacks for SMS]()
+    > [!div class="mx-imgBorder"]
+    > ![Create event grid callbacks for SMS.](./media/voice-channel-resource-subscription.png "Create event grid callbacks for SMS.")
 
 ### See also
 
