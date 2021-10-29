@@ -124,7 +124,7 @@ The following sections include short procedures that explain how you can get ret
     If you're registering your app on the Azure portal for the first time, then do the following:
     1. On the **Register an application** page, enter the following details:
         - **Name**: Enter a name for your application.
-        - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**
+        - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
     2. Select **Register**.
        > [!div class="mx-imgBorder"]
        > ![Register an application.](./media/voice-channel-register-app.png "Register an application.")
@@ -145,8 +145,8 @@ The following sections include short procedures that explain how you can get ret
 2. Select **Create** and in the **Create Event Grid System Topic** page, enter the following details.
     - **Topic Types**: Select **Azure Communication Services** from the dropdown list.
     - **Subscription**: Select the subscription from the dropdown list.
-    - **Resource group**: Select the resource group where you created the Azure resource.    
-    - **Resource**: Select the Azure resource.
+    - **Resource Group**: Select the resource group from the dropdown list.
+    - **Resource**: Select the Azure resource from the dropdown list.
     - **Name**: Enter a name for the system topic.
     > [!div class="mx-imgBorder"]
     > ![Create event grid system topic.](./media/voice-channel-create-event-grid-system-topic.png "Create event grid system topic.")
@@ -154,7 +154,7 @@ The following sections include short procedures that explain how you can get ret
     > [!div class="mx-imgBorder"]
     > ![Event grid system topic is deployed.](./media/voice-channel-system-topic-deployment.png "Event grid system topic is deployed.")
 4. Select **Go to resource**.
-5. In the resource details page that opens, select the subscription.
+5. In the resource details page that opens, select the **Subscription** link.
     > [!div class="mx-imgBorder"]
     > ![Select the resource subscription.](./media/voice-channel-resource-subscription.png "Select the resource subscription.")
 6. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**.
