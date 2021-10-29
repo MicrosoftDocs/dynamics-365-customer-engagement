@@ -37,9 +37,10 @@ After you've verified your Azure subscription and checked your permissions on th
       > [!NOTE]
       > The resource group name should be unique within a given subscription.
    - **Resource name**: Enter a name for the resource.
-3. Select **Deploy** to create and deploy the resource. You're now connected to Azure Communication Services.
+3. Select **Deploy** to create and deploy the resource. 
     > [!div class="mx-imgBorder"]
     > ![Create new resource.](./media/voice-channel-number-mgmt-azure-create-new-resource.png "Create new resource.")
+You're now connected to Azure Communication Services.
 
 ## Connect to an existing Azure resource
 
@@ -69,9 +70,11 @@ Before you proceed with adding an existing resource to Azure Communication Servi
    - **Event grip app ID**: [Enter the application ID](#get-application-and-tenant-ids).
    - **Event grip app tenant ID**: [Enter the tenant ID](#get-application-and-tenant-ids).
 
-4. Select **Connect**. After the Azure resource is connected, you'll be able to provision or acquire new phone numbers for your organization.
+4. Select **Connect**. 
     > [!div class="mx-imgBorder"]
     > ![Azure resource is connected to Azure Communication Services.](./media/voice-channel-acs-connection.png "Azure resource is connected to Azure Communication Services.")
+
+Your existing Azure resource is now connected to Azure Communication Services. You'll now be able to provision or acquire new phone numbers for your organization.
 
 5. Select **Add number**. The **Add phone number** page is displayed.
 
