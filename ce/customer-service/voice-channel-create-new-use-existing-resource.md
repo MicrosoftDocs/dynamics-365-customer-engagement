@@ -87,40 +87,11 @@ High level steps involved:
 
 6. Follow the procedure to [add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
 
-7. [Create event grid system topics](#get-event-grid-system-topic-details).
+7. [Create, deploy, and register event grid system topics](#create-deploy-and-register-event-grid-system-topics).
 
-8. [Create event subscription for recording](#get-event-subscription-for-recording)
+8. [Create event subscription callbacks for recording](#get-event-subscription-for-recording)
 
-9. [Create event subscription for SMS](#get-event-subscription-for-sms)
-
-## Get event grid system topic details
-
-*You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.*
-
-1. Open the Azure portal in a separate window or tab, and open the **Event Grid System Topics** service. 
-2. Select **Create** and in the **Create Event Grid System Topic** page, enter the following details.
-    - **Topic Types**: Select **Azure Communication Services** from the dropdown list.
-    - **Subscription**: Select the subscription from the dropdown list.
-    - **Resource group**: Select the resource group where you created the Azure resource.    
-    - **Resource**: Select the Azure resource.
-    - **Name**: Enter a name for the system topic.
-    > [!div class="mx-imgBorder"]
-    > ![Create event grid system topic.](./media/voice-channel-create-event-grid-system-topic.png "Create event grid system topic.")
-3. Select **Review + create**. The system topic is validated and deployed.  
-    > [!div class="mx-imgBorder"]
-    > ![Event grid system topic is deployed.](./media/voice-channel-system-topic-deployment.png "Event grid system topic is deployed.")
-4. Select **Go to resource**. 
-5. In the resource details page that opens, select the subscription.
-    > [!div class="mx-imgBorder"]
-    > ![Select the resource subscription.](./media/voice-channel-resource-subscription.png "Select the resource subscription.")
-6. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**.
-   If the event grid is not registered, you can select the record and then select **Re-register** to register it.
-    > [!div class="mx-imgBorder"]
-    > ![Event grid is listed as a registered provider.](./media/voice-channel-eventgrid-registered.png "Event grid is listed as a registered provider.")
-
-9.
-    > [!div class="mx-imgBorder"]
-    > ![Select the resource subscription.](./media/voice-channel-resource-subscription.png "Select the resource subscription.")
+9. [Create event subscription callbacks for SMS](#get-event-subscription-for-sms)
 
 
 
@@ -150,6 +121,7 @@ You'll retrieve values for the Azure resource name and resource ID from the Azur
 ## Get application and tenant IDs
 
 You'll retrieve values for the application and tenant IDs from the Azure portal and paste them in the corresponding fields of the **Use existing resource** dialog.
+
 1. Open the **App registrations** page on the Azure portal in a separate window or tab. 
    
     If you're registering your app on the Azure portal for the first time, then do the following:
@@ -168,17 +140,100 @@ You'll retrieve values for the application and tenant IDs from the Azure portal 
    > [!div class="mx-imgBorder"]
    > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
 
-## Create event grid callbacks for recording
+## Create, deploy, and register event grid system topics
 
-7. [Create event grid callbacks for recording]()
+You'll create, deploy, and register event grid system topics.
+
+1. Open the Azure portal in a separate window or tab, and open the **Event Grid System Topics** service. 
+2. Select **Create** and in the **Create Event Grid System Topic** page, enter the following details.
+    - **Topic Types**: Select **Azure Communication Services** from the dropdown list.
+    - **Subscription**: Select the subscription from the dropdown list.
+    - **Resource group**: Select the resource group where you created the Azure resource.    
+    - **Resource**: Select the Azure resource.
+    - **Name**: Enter a name for the system topic.
     > [!div class="mx-imgBorder"]
-    > ![Create event grid callbacks for recording.](./media/voice-channel-resource-subscription.png "Create event grid callbacks for recording.")
-
-## Create event grid callbacks for SMS
-
-8.[Create event grid callbacks for SMS]()
+    > ![Create event grid system topic.](./media/voice-channel-create-event-grid-system-topic.png "Create event grid system topic.")
+3. Select **Review + create**. The system topic is validated and deployed.  
     > [!div class="mx-imgBorder"]
-    > ![Create event grid callbacks for SMS.](./media/voice-channel-resource-subscription.png "Create event grid callbacks for SMS.")
+    > ![Event grid system topic is deployed.](./media/voice-channel-system-topic-deployment.png "Event grid system topic is deployed.")
+4. Select **Go to resource**.
+5. In the resource details page that opens, select the subscription.
+    > [!div class="mx-imgBorder"]
+    > ![Select the resource subscription.](./media/voice-channel-resource-subscription.png "Select the resource subscription.")
+6. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**.
+   If the event grid is not registered, you can select the record and then select **Re-register** to register it.
+    > [!div class="mx-imgBorder"]
+    > ![Event grid is listed as a registered provider.](./media/voice-channel-eventgrid-registered.png "Event grid is listed as a registered provider.")
+
+## Create event subscription endpoints for recording
+
+1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
+2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
+    > [!div class="mx-imgBorder"]
+    > ![Add event subscription details for recording.](./media/voice-channel-create-event-subscription-recording.png "Add event subscription details for recording.")
+    - **Name**: Enter a name for the recording event subscription.
+    - **Event Schema**: Select **Event Grid Schema** from the dropdown list.
+    - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown.
+    - **Filter to Event Types**: Select **Recording File Status Updated (Preview)** from the dropdown list.
+    - **Endpoint Type**: Select **Web Hook** from the dropdown list.
+    - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, you need to enter the **Subscriber Endpoint**.
+          To get the subscriber endpoint:
+           i. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
+           ii. Select a phone number, and then select **Advanced**.
+           iii. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint**.
+            > [!div class="mx-imgBorder"]
+            > ![Copy recording web hook endpoint.](./media/voice-channel-recording-webhook-endpoint.png "Copy recording web hook endpoint.")
+          iv. Paste the web hook endpoint value in the **Subscriber Endpoint** field and select **Confirm Selection**.
+3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
+    > [!div class="mx-imgBorder"]
+    > ![Add AAD authentication details.](./media/voice-channel-create-event-subscription-AAD-authentication.png "Add AAD authentication details.")
+   - **AAD Tenant ID**: Copy-paste the **Directory (tenant) ID** field value from your Azure resource here.
+   > [!div class="mx-imgBorder"]
+   > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
+   - **AAD Application ID or URI**: Copy-paste the **Application (client) ID** field value from your Azure resource here.
+   > [!div class="mx-imgBorder"]
+   > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
+
+4. Select **Create** to create the event subscription endpoints for recording. *This might take some time, so if you get an sync error, try refreshing after some time.*
+
+    > [!div class="mx-imgBorder"]
+    > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
+
+## Create event subscription endpoints for SMS
+
+1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
+2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
+    - **Name**: Enter a name for the recording event subscription.
+    - **Event Schema**: Select **Event Grid Schema** from the dropdown list.
+    - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown.
+    - **Filter to Event Types**: Select both **SMS Received** and **SMS Delivery Report Received** from the dropdown list.
+       > [!div class="mx-imgBorder"]
+    > ![Add event subscription details for SMS.](./media/voice-channel-create-event-subscription-sms-event-types.png "Add event subscription details for SMS.")
+    - **Endpoint Type**: Select **Web Hook** from the dropdown list.
+    - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, you need to enter the **Subscriber Endpoint**.
+         To get the subscriber endpoint:
+         i. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
+        ii. Select a phone number, and then select **Advanced**.
+        iii. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint**.
+       > [!div class="mx-imgBorder"]
+       > ![Copy sms web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy sms web hook endpoint.")
+          iv. Paste the web hook endpoint value in the **Subscriber Endpoint** field and select **Confirm Selection**.
+3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
+    > [!div class="mx-imgBorder"]
+    > ![Add AAD authentication details.](./media/voice-channel-create-event-subscription-AAD-authentication.png "Add AAD authentication details.")
+   - **AAD Tenant ID**: Copy-paste the **Directory (tenant) ID** field value from your Azure resource here.
+   > [!div class="mx-imgBorder"]
+   > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.") 
+   - **AAD Application ID or URI**: Copy-paste the **Application (client) ID** field value from your Azure resource here.
+   > [!div class="mx-imgBorder"]
+   > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
+4. Select **Create** to create the event subscription endpoints for recording. *This might take some time, so if you get an sync error, try refreshing after some time.*
+
+> [!div class="mx-imgBorder"]
+    > ![Successfully created event subscription endpoint for SMS.](./media/voice-channel-event-subscription-sms-success.png "Create event grid callbacks for SMS.")
+
+
+
 
 ### See also
 
