@@ -132,6 +132,7 @@ Do the following steps to consult while you are on a call:
 
 ### See also
 
-[Overview of the voice channel](voice-channel.md)
+[Overview of the voice channel](voice-channel.md)  
+[Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

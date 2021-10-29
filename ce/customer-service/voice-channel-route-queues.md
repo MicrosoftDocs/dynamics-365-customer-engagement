@@ -13,7 +13,6 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-
 ## Introduction
 
 A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and voice.
@@ -68,7 +67,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
     :::image type="content" source="media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
 
-9. Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
+9. Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
 
 10. On the **Summary** page, select **Save and close**.
 

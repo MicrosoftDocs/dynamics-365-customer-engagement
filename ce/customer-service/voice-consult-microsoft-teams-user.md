@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Consult with Microsoft Teams users
+# Voice consult with Microsoft Teams users
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -27,11 +27,11 @@ The following prerequisites must be set for the Microsoft Teams users:
 
 - **Update the Azure profile for SMEs with phone number**: Must set the phone number that's associated in Microsoft Teams as **Office phone** in the **Contact info** section for the user in the Azure portal. Dynamics 365 uses Graph API to retrieve the Office phone to add the Teams user to the phone call.
 
-## Enable consult with Microsoft Teams users
+## Enable voice consult with Microsoft Teams users
 
 To allow the agents to consult with Microsoft Teams users, you'll need to enable the **Consult with Microsoft Teams user** setting in the voice channel section of the workstream for voice. More information: [Configure the voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
 
 ### See also
 
 [Introduction to the voice channel](voice-channel.md)  
-[Agent consult with Microsoft Teams users](voice-channel-agent-experience.md#consult-with-microsoft-teams-users)
+[Agent consult with Microsoft Teams users](voice-channel-agent-experience.md#consult-with-microsoft-teams-users)  
