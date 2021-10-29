@@ -15,11 +15,15 @@ ms.service: dynamics-365-customerservice
 
 Before you can provision phone numbers for your business in Omnichannel Customer Service, you must first establish connection with the Azure Communication Services. You can [connect to a new Azure resource](#connect-to-a-new-azure-resource) or [use an existing one](#connect-to-an-existing-azure-resource), and then deploy the resource through Dynamics 365.
 
-## Connect to a new Azure resource
+## Prerequisites
 
 Before you connect to a new Azure resource, check whether you have the following:
-- A valid Azure subscription that's in the same tenant as your Dynamics 365 account.
+- A valid Azure subscription that's in the same tenant as your Dynamics 365 account. If you don't have an Azure subscription, [create a free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure resource only if you have at least contributor-level permissions.
+
+## Connect to a new Azure resource
+
+After you've verified your Azure subscription and checked your permissions on the subscription, you can create a new Azure resource and connect to it.
 
 **To create a new Azure resource**
 
@@ -44,11 +48,11 @@ You can also use an existing Azure Communication Services resource to connect wi
 *If you had previously unlinked a resource and want to use it now, you can do so using this option.*
 
 Before you proceed with adding an existing resource to Azure Communication Services, you must have the following information available for use in Omnichannel admin center.
-- [Get the resource name and ID from the Azure portal](#get-resource-name-and-resource-id).
+- [Get the resource name and ID from the Azure portal](#get-resource-name-and-id).
 - [Get the connection string from the Azure portal](#get-connection-string).
 - [Get the application ID and tenant ID from the App registrations page on the Azure portal](#get-application-and-tenant-IDs).
 
-
+<!--
 High level steps involved:
 1. Create ACS resource. Note down ACS resource name, resource ID, and connection string
 2. Create application Id. Note down app Id and tenant Id
@@ -56,6 +60,7 @@ High level steps involved:
 4. Create system topic in Azure for the ACS resource.
 5. Check if eventgrid is registered as a resource provider in the subscription
 6. Create event grid events in the ACS resource for recording and SMS. Copy recording callback URL from step.
+-->
 
 **To connect to an existing Azure resource**
 
@@ -68,28 +73,44 @@ High level steps involved:
     > ![Select the use existing resource option.](./media/voice-channel-select-use-existing-resource.png "Select the use existing resource option.")
 
 3. Enter the following details, based on the values available on the Azure portal.
-   - **ACS Resource Name**: [Copy-paste the resource name from the Azure portal](#get-resource-name-and-resource-id).
-   - **ACS Resource ID**: [Copy-paste the resource ID from the Azure portal](##get-resource-name-and-resource-id).
-   - **Connection string**: [Copy-paste the connection string from the Azure portal](#get-connection-string).
-   - **Event grip app ID**: [Copy-paste the application ID from the Azure portal](##get-application-and-tenant-IDs).
-   - **Event grip app tenant ID**: [Copy-paste the tenant ID from the Azure portal](##get-application-and-tenant-IDs).
+   - **ACS Resource Name**: [Enter the resource name](#get-resource-name-and-id).
+   - **ACS Resource ID**: [Enter the resource ID](##get-resource-name-and-id).
+   - **Connection string**: [Enter the connection string](#get-connection-string).
+   - **Event grip app ID**: [Enter the application ID](##get-application-and-tenant-IDs).
+   - **Event grip app tenant ID**: [Enter the tenant ID](##get-application-and-tenant-IDs).
 
 3. Select **Connect**. After the Azure resource is connected, you'll be able to provision or acquire new phone numbers for your organization.
+    > [!div class="mx-imgBorder"]
+    > ![Azure resource is connected to Azure Communication Services.](./media/voice-channel-acs-connection.png "Azure resource is connected to Azure Communication Services.")
 
 4. Select **Add number**. The **Add phone number** page is displayed.
 
-5. Follow the procedure to [add new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
+5. Follow the procedure to [add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
 
-6. On the Azure portal, open **Event Grid System Topics**. Select **Create** and in the **Create Event Grid System Topic** page, select the subscription and resource group from the dropdown lists.
+6. [Create event grid system topics](#get-event-grid-system-topic-details).
 
-7. For **Topic Types**, select **Azure Communication Services**.
+1. [Create event subscription for recording](#get-event-subscription-for-recording)
 
-8. For **Subscription**, select 
+8. [Create event subscription for SMS](#get-event-subscription-for-sms)
 
-9. For Resource group, select the resource group you created earlier
- 
+## Get event grid system topic details
 
-## Get resource name and resource ID
+You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
+
+1. Open the Azure portal in a separate window or tab, and go to **Settings** > **Properties**. 
+2. Select **Create** and in the **Create Event Grid System Topic** page, select the subscription and resource group from the dropdown lists
+3. 
+   > [!div class="mx-imgBorder"]
+   > ![Copy resource name.](./media/voice-channel-resource-name.png "Copy resource name.")
+3. Select the value of the **Resource ID** field, then select the **Copy to clipboard** button, and paste the value in the **ACS Resource ID** field of the **Use existing resource** dialog.
+4. For **Topic Types**, select **Azure Communication Services**.
+5. For **Subscription**, select 
+6. For Resource group, select the resource group you created earlier
+
+    > [!div class="mx-imgBorder"]
+    > ![Create event grid system topic.](./media/voice-channel-create-event-grid-system-topic.png "Create event grid system topic.")
+
+## Get resource name and ID
 
 You'll retrieve values for the Azure resource name and resource ID from the Azure portal, and paste them in the corresponding fields of the **Use existing resource** dialog.
 
