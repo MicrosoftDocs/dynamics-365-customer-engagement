@@ -4,26 +4,15 @@ description: "Learn about how to configure a post-call survey for the voice chan
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 
-# Preview: Configure a post-call survey
+# Configure a post-call survey
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 
 ## Introduction
 
@@ -72,7 +61,7 @@ The following screenshots are examples of the survey types in Power Virtual Agen
 
 ## Step 2: Connect your bot to Omnichannel for Customer Service
 
-- Configure your Power Virtual Agents bot. More information: [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel.md) and [Configure a bot](configure-bot-virtual-agent.md).
+- Configure your Power Virtual Agents bot. More information: [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](configure-bot.md)
 
 ## Step 3: Enable post-call survey in phone number settings of the workstream
@@ -80,7 +69,7 @@ The following screenshots are examples of the survey types in Power Virtual Agen
 > [!Note]
 > Enabling the post-call survey feature isn't required for the agent-initiated scenario.
 
-1. In **Omnichannel admin center**, select your voice workstream, and then select **Edit** to modify the settings.
+1. In **Omnichannel admin center**, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
 2. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
 3. From the dropdown menu, select the required bot.
 4. Select **Confirm**.
