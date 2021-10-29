@@ -89,9 +89,9 @@ High level steps involved:
 
 7. [Create, deploy, and register event grid system topics](#create-deploy-and-register-event-grid-system-topics).
 
-8. [Create event subscription endpoints for recording](#create-event-subscription-endpoints-for-recording)
+8. [Create event subscription endpoint for recording](#create-event-subscription-endpoint-for-recording)
 
-9. [Create event subscription endpoints for SMS](#create-event-subscription-endpoints-for-sms)
+9. [Create event subscription endpoint for SMS](#create-event-subscription-endpoint-for-sms)
 
 
 ## Get resource name and ID
@@ -163,7 +163,7 @@ You'll create, deploy, and register event grid system topics.
     > [!div class="mx-imgBorder"]
     > ![Event grid is listed as a registered provider.](./media/voice-channel-eventgrid-registered.png "Event grid is listed as a registered provider.")
 
-## Create event subscription endpoints for recording
+## Create event subscription endpoint for recording
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
@@ -197,7 +197,7 @@ You'll create, deploy, and register event grid system topics.
     > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
 
-## Create event subscription endpoints for SMS
+## Create event subscription endpoint for SMS
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
