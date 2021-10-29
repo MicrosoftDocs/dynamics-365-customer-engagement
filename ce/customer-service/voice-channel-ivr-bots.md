@@ -43,11 +43,11 @@ Perform the following steps to add and configure a bot in Omnichannel for Custom
 
 1. On the **Add Bot** pane, select a bot from the **Name** box.
 
-   > ![Select a bot.](media/image35.png)
+   > ![Select a bot.](media/add-bot.png)
 
 1. Select **Save and close**. The bot is added to the workstream.
 
-   > ![Sample bot details.](media/image36.png)
+   > ![Sample bot details.](media/bot-in-workstream.png)
 
 More information:
 
