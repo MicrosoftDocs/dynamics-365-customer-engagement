@@ -85,7 +85,7 @@ Before you proceed with adding an existing resource to Azure Communication Servi
 
 You can now configure the voice workstream settings for the phone number, configure outbound and inbound calling to make and/or receive customer calls.
 
-The following section include short procedures that explain how you can get retrieve resource name, resource ID, connection string, application ID, tenant ID, and other details from the Azure portal. 
+The following section include short procedures that explain how you can get retrieve resource name, resource ID, connection string, application ID, tenant ID, and other details from the Azure portal.
 
 ### Get resource name and ID
 
