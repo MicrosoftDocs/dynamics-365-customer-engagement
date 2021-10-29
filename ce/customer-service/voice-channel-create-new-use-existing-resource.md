@@ -74,10 +74,10 @@ High level steps involved:
 
 3. Enter the following details, based on the values available on the Azure portal.
    - **ACS Resource Name**: [Enter the resource name](#get-resource-name-and-id).
-   - **ACS Resource ID**: [Enter the resource ID](##get-resource-name-and-id).
+   - **ACS Resource ID**: [Enter the resource ID](#get-resource-name-and-id).
    - **Connection string**: [Enter the connection string](#get-connection-string).
-   - **Event grip app ID**: [Enter the application ID](##get-application-and-tenant-IDs).
-   - **Event grip app tenant ID**: [Enter the tenant ID](##get-application-and-tenant-IDs).
+   - **Event grip app ID**: [Enter the application ID](#get-application-and-tenant-ids).
+   - **Event grip app tenant ID**: [Enter the tenant ID](#get-application-and-tenant-ids).
 
 4. Select **Connect**. After the Azure resource is connected, you'll be able to provision or acquire new phone numbers for your organization.
     > [!div class="mx-imgBorder"]
@@ -89,9 +89,9 @@ High level steps involved:
 
 7. [Create, deploy, and register event grid system topics](#create-deploy-and-register-event-grid-system-topics).
 
-8. [Create event subscription endpoints for recording](#get-event-subscription-for-recording)
+8. [Create event subscription endpoints for recording](#create-event-subscription-endpoints-for-recording)
 
-9. [Create event subscription endpoints for SMS](#get-event-subscription-for-sms)
+9. [Create event subscription endpoints for SMS](#create-event-subscription-endpoints-for-sms)
 
 
 ## Get resource name and ID
@@ -226,7 +226,7 @@ You'll create, deploy, and register event grid system topics.
    > [!div class="mx-imgBorder"]
    > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
 4. Select **Create** to create the event subscription endpoints for SMS. *This might take some time, so if you get an sync error, try refreshing after some time.*
-> [!div class="mx-imgBorder"]
+    > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoint for SMS.](./media/voice-channel-event-subscription-sms-success.png "Create event grid callbacks for SMS.")
 
 ### See also
