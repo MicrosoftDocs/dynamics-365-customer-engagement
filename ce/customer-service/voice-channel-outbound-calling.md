@@ -121,7 +121,7 @@ You can assign personal phone numbers to agents to make outbound calls to custom
    The phone number is now assigned exclusively to the agent to call customers.
 
 > [!Note]
-> Only local phone numbers can be assigned to agents as personal phone numbers; toll-free numbers can’t be assigned.
+> Only local phone numbers can be assigned to agents as personal phone numbers; toll-free numbers can’t be assigned. Personal agent phone number calls always apply the default scoped outbound profile.
 
 ### See also
 
