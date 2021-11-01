@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 10/07/2021
+ms.date: 10/19/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -41,14 +41,19 @@ Perform the following steps:
 3. In the **Create a workstream** dialog box, enter the following details:
 
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
-    - **Work distribution mode**: Select **Push** or **Pick**.
-         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up.
-         - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
+    
     - **Type**: Select one of the following types:
          - **Messaging**: To configure the workstream for chat and other conversation channels.
          - **Record**: To configure the workstream for entity record, such as case and email activity.
+    
     - **Channel**: This box appears if you have selected the type as **Messaging**. Select a channel from the list.
-    - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md).
+         - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md).
+    
+    - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list.  More information: [Set up record routing](set-up-record-routing.md).
+    
+    - **Work distribution mode**: Select **Push** or **Pick**.
+         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up.
+         - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
 
 4. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
@@ -99,7 +104,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 ### Add a bot
 
-To add a bot, the bot must be configured and available for selection. After a bot is added to the workstream, the selected bot will be the first to pick up the incoming work item at runtime. When a work item needs to be assigned, the classification rules are run and the work distribution system checks and routes the work item to the bot if the selected workstream has a bot.
+To add a bot, the bot must be configured and available for selection. After a bot is added to the workstream, the selected bot will be the first to which the incoming work item will be routed to at runtime. When a work item needs to be assigned, the classification rules are run and the work distribution system checks and routes the work item to the bot if the selected workstream has a bot. The bot is supported only in push type of workstreams.
 
 For information about how to configure bots in Power Virtual Agents, see [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md).
 For information about how to configure Azure bots, see [Integrate an Azure bot](configure-bot.md).
@@ -131,7 +136,7 @@ Select a workstream to perform any of the following actions:
 
 ### Agent affinity
 
-When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can use the agent affinity option to reassign the conversation to the agent who had worked on it earlier. This helps save the effort to reorient the agent or set the context about the problem again. The agent affinity works as follows:
+When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can use the **Keep same agent for entire conversation** option in the work distribution settings of the workstream to reassign the conversation to the agent who had worked on it earlier. This helps save the effort to reorient the agent or set the context about the problem again. The agent affinity works as follows:
 
 - Is enabled by default for SMS, social channels, and Microsoft Teams.
 - Is available only for push type of work distribution.

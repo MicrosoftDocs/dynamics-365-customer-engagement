@@ -31,7 +31,7 @@ Conversational IVR bots speak to customers when they call in to route their call
 
 ## Private Preview refresh - September '21
 
-We are refreshing our Private Preview in September 2021 with the following updates. To get the following updates, you will need to be enrolled into the private preview program, and create a new bot after September 23, 2021. Any new bots created after this time will be using the new refresh code. Old bots using orivatepPreview will continue to work but will stop working by October 15, 2021. 
+We are refreshing our Private Preview in September 2021 with the following updates. To get the following updates, you will need to be enrolled into the private preview program, and create a new bot after September 23, 2021. Any new bots created after this time will be using the new refresh code. Old bots using Private Preview will continue to work but will stop working by October 15, 2021.
 
 1. Improved latency and performance for voice interactions.
 1. Customizable voices in the Omnichannel for Customer Service configuration experience.

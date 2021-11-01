@@ -53,7 +53,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
    - To install from the web (version 9.0), go to [Dynamics 365 apps  for Outlook, version 9.0 (Outlook client)](https://www.microsoft.com/en-us/download/details.aspx?id=56972), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture. 
 
      > [!NOTE]
-     >  If you have updated your Dynamics 365 apps  organziation to version 9.0 and the Dynamics 365 for Outlook client does not connect then you may need to install TLS 1.2. For more information, [Install TLS](https://support.microsoft.com/help/4054414/dynamics-365-for-outlook-update-for-version-9-0).
+     >  If you have updated your Dynamics 365 apps  organzation to version 9.0 and the Dynamics 365 for Outlook client does not connect then you may need to install TLS 1.2. For more information, [Install TLS](https://support.microsoft.com/help/4054414/dynamics-365-for-outlook-update-for-version-9-0).
 
 
 ~~~

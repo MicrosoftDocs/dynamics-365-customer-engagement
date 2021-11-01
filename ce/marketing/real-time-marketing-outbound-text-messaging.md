@@ -76,7 +76,7 @@ To add a Twilio or TeleSign sender number to Marketing:
 1. Go to **Settings** in the area switcher menu. Then go to **Customer engagement** > **SMS providers** and select **+Text number setup** in the top ribbon.
 1. Add a name to associate with the number. This is for your identification purposes, so adding the provider name makes sense. Then, select the **Next** button.
 1. Select the provider (TeleSign or Twilio).
-1. If you selected TeleSign, enter the **CUSTOMER ID** and **API KEY** noted in the steps above. If you selected Twilio, enter the ****ACCOUNT SID** and **AUTH TOKEN**. Then, select the **Next** button.
+1. If you selected TeleSign, enter the **CUSTOMER ID** and **API KEY** noted in the steps above. If you selected Twilio, enter the **ACCOUNT SID** and **AUTH TOKEN**. Then, select the **Next** button.
 1. On the next screen, select **+Add** to add the TeleSign or Twilio number that will be used for the integration.
 1. On the **Add SMS number** pane, add the number, its type, and a short description to distinguish it.
     > [!div class="mx-imgBorder"]
