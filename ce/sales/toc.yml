@@ -273,7 +273,7 @@
       - name: Process for setting goals
         href: goals-overview.md
       - name: Goal settings
-        href: /admin/system-settings-dialog-box-goals-tab?context=/dynamics365/context/sales-context
+        href: /power-platform/admin/system-settings-dialog-box-goals-tab?context=/dynamics365/context/sales-context
       - name: Create or edit goals
         href: create-edit-goal-sales.md
       - name: Define a goal metric
