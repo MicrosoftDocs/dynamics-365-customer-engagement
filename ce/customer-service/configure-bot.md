@@ -81,16 +81,13 @@ A bot user is created as an application user and assigned with the **Omnichannel
 3. In the **New User** dropdown list, select **Application User**.
 
 4. On the **New User** page, enter or select the following information:
-    - **User Name**: User name of the bot. This name won't be displayed in the chat widget.
     - **Application ID**: An application ID for any valid (non-expired) application created in Azure Active Directory (Azure AD) for the same tenant. This ID is not used by the bot in Omnichannel for Customer Service.
-    - **Full Name**: Name of the bot to be displayed in the chat widget or conversation.
-    - **Primary Email**: Enter a dummy email address. This email address is not used by the bot in Omnichannel for Customer Service.
     - **User type**: Select **Bot application user**.
     - **Bot application ID**: The bot's application ID from Azure AD that you copied in the previous step.
     - **Bot handle**: Enter the bot handle from the Bot profile settings.
 
     If you've added the Azure bot service to conversational IVR, then update the following fields:
-    - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the [cognitive speech service resource](voice-channel-azure-bot-service.md) that you created earlier.
+    - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the [cognitive speech service resource](/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows) that you created earlier.
     - **Cognitive Services Region**: Enter the Location/Region value from the cognitive speech service resource that you created earlier.
 
     For more information on creating an application user, see [Create an application user](/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
@@ -126,9 +123,9 @@ To enable the bot to answer incoming calls, you must add the bot to a correspond
 
 1. In Omnichannel admin center, under **General Settings**, select **Workstreams**.
 
-2. Open the workstream related to your voice channel, and under **Advanced Settings** > **Smart assist bots**, select **Add bot**. The **Add a bot** dialog opens.
+2. Open the workstream related to your voice channel, and go to **Show Advanced Settings**, and in the **Smart assist bots** area, select **Add bot**. The **Add from existing** dialog opens.
 
-3. Select an existing bot from the dropdown list and select **Save and close**.
+3. Select an existing bot from the dropdown list and select **Add**.
 
 Now, if there's a valid phone number associated with that workstream, the bot will automatically receive and respond to the phone call.
 
