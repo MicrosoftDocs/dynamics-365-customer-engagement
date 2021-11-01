@@ -1,6 +1,6 @@
 ---
-title: "Use the voice channel in the agent dashboard | MicrosoftDocs"
-description: "Use this topic to understand agent experience in Omnichannel for Customer Service."
+title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
+description: "Use this topic to understand how the agent use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Use the voice channel in the agent dashboard 
+# Use agent dashboard and call controls in the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -25,7 +25,7 @@ When a customer calls your business, the incoming call is received by an intelli
 
 ## Call controls
 
-The conversation panel in the agent dashboard includes the following call controls that you can use when you call or answer a phone call from a customer.
+The conversation panel in the agent dashboard includes the following call controls that you can use when you call or answer phone calls from customers.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of call controls](./media/voice-channel-call-controls.png)
@@ -39,7 +39,7 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Mark number as spam**: Select to [report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
 - **Device settings**: Configure your microphone and speaker settings.
 - **Take notes**: You can take any important or specific notes regarding your conversation with the customer. Note that this is in addition to the call recording and transcription that happen during the conversation.
-- **Pause transcription**: If you don't want to capture some details of the conversation, such as bank details, billing, or payment information, you can temporarily pause the transcription and later resume it.
+- **Pause recording and transcription**: If you don't want to capture some details of the conversation, such as bank details, billing, or payment information, you can temporarily pause the transcription and later resume it.
 - **Knowledge Articles**: Select this option to get a list of knowledge base articles pertaining to the conversation that you can use to resolve the customer issue.
 - **Link to conversation**: You can link another conversation, case, or knowledge article to the conversation.
 - **Transcription**: When transcription and recording service is enabled by your administrator, all of the conversation between you and the customer is automatically transcribed in real time, which means that the you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in case of a call transfer) to see the call history.
@@ -47,11 +47,11 @@ The conversation panel in the agent dashboard includes the following call contro
 
 ## Report a phone number as spam
 
-When you receive a phone call and want to report the number as spam *while on the call*, you can do so immediately via the call controls on your conversation panel. A notification is then sent to your administrator for review and further action.
+When you receive a phone call and want to report the number as spam while on the call, you can do so immediately via the call controls on your conversation panel. A notification is then sent to your administrator for review and further action.
 
 To report a phone number as spam, select the ellipsis to open more actions, and then select **Mark number as spam**.
 
-You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers (preview)** page.
+You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers** page.
 
 ## View call recordings and transcripts
 
@@ -75,7 +75,7 @@ The **Details** tab of the Conversation Form displays call recording details.
 
 **Recording playback**
 
-- **Play**:  Select the button to listen to the conversation audio.
+- **Play**: Select the button to listen to the conversation audio.
 - **Rewind** or **Fast-forward**: Select the buttons to either rewind in 10-second increments or fast-forward in 30-second increments.
 - **Volume**: Move the slider to adjust the volume to your desired level.
 - **Download audio**: Download an .mp4 audio file of the complete conversation.
