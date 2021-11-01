@@ -1,7 +1,7 @@
 ---
-title: "Document management in Microsoft Teams integration| MicrosoftDocs"
+title: "Document management with Microsoft Teams integration"
 ms.custom: 
-description: "How file and document works with Microsoft Teams integration and SharePoint "
+description: "Use Microsoft Teams integration to co-author and sync documents to customer engagement apps using SharePoint. Get answers to FAQs about document management."
 ms.date: 04/01/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Document management in Microsoft Teams integration
+# Document management with Microsoft Teams integration
 
 Document management with SharePoint lets you manage common document types, such as Word, Excel, PowerPoint, and OneNote. You can also create folders to save and manage those documents in customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), that are stored in SharePoint.
 
