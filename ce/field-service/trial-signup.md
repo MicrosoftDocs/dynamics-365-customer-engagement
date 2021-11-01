@@ -37,7 +37,7 @@ The trial comes with guided tours and videos that highlight key product features
 
 ### Configuration considerations to get the most out of the trial
 
-- We provide a glimpse of how Connected Field Service can help you deliver proactive service using smart device alerts. We have included sample IoT device data in the trial; however, to fully experience Connected Field Service for your business, you must configure Azure IOT Hub or Azure IoT Central.
+- We provide a glimpse of how Connected Field Service can help you deliver proactive service using smart device alerts. We have included sample IoT device data in the trial; however, to fully experience Connected Field Service for your business, you must configure [Azure IOT Hub or Azure IoT Central](installation-setup-iothub.md).
 
 - You must configure the Field Service customer portal in order to experience the self-scheduling and technician tracking features that Field Service can provide your customers.  
 
