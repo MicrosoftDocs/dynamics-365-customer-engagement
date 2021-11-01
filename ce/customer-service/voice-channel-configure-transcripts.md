@@ -6,6 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 11/01/2021
 ms.topic: article
+ms.custom: intro-internal
 ms.service: dynamics-365-customerservice
 ---
 
