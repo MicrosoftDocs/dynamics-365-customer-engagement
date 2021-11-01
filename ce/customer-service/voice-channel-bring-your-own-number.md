@@ -40,17 +40,17 @@ Also, ensure you have set up the following:
 
     - **Carrier**: Indicates the carrier to which the phone number belongs. If the carrier doesn’t exist yet, you can create a new record.
 
-    - **Country/Region**: Select the country or region the phone numbers belongs to.
+    - **Country/Region**: Select the country or region the phone number belongs to.
 
     - **Number type**: Select whether toll-free or a local phone number.
 
-    - **Calling plans**: Select whether the phone number can make or receive calls.
+    - **Calling plans**: Select whether you can make or receive calls on the phone number.
         > [!Note]
-        > SMS is not supported with Azure direct routing.
+        > SMS is not supported with Azure direct routing (preview).
 
 4. Select **Add number**.
 
-The new phone number will be displayed in the Phone numbers list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-route-queues.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+The new phone number will be displayed in the Phone numbers list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-route-queues.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling, or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
   
 ### See also
 

@@ -24,15 +24,15 @@ Before you proceed with this section, you must be familiar with the following:
 
 ## Set up contextual call transfer using Azure direct routing
 
-This section lists the high level steps you must  perform to enable contextual call transfer between third-party IVRs and the voice channel.
+This section lists the high-level steps you must perform to enable contextual call transfer between third-party IVR systems and the voice channel.
 
 **To set up contextual call transfer**
 
-1. Set up Azure direct routing and connect a Session Border Controller (SBC), that’s linked to the third-party IVR, with Azure Communication Services resource, that’s in turn connected to the Omnichannel for Customer Service.
+1. Set up Azure direct routing and connect a Session Border Controller (SBC), that’s linked to the third-party IVR system, with Azure Communication Services resource, that’s in turn connected to the Omnichannel for Customer Service.
 
-2. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the third-party IVR with Omnichannel for Customer Service.
+2. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the third-party IVR system with Omnichannel for Customer Service.
 
-3. To initiate a call transfer from the IVR, issue an SIP (Session Initiation Protocol) REFER request to the Azure Communication Services resource. This will transfer the call to the Azure resource that's connected to Omnichannel for Customer Service.
+3. To initiate a call transfer from the IVR system, issue an SIP (Session Initiation Protocol) REFER request to the Azure Communication Services resource. This will transfer the call to the Azure resource that's connected to Omnichannel for Customer Service.
 
 4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data, as follows: "userToUserInformation": "param1=value1;param2=value2".  
 
@@ -40,7 +40,7 @@ This section lists the high level steps you must  perform to enable contextual c
 
     1. In the site map of Omnichannel admin center, under **General settings**, select **Workstreams**.
        A list of workstreams including voice workstreams is displayed.
-    2. Select a voice workstream and then select **Edit** to configure the workstream
+    2. Select a voice workstream and then select **Edit** to configure the workstream.
     3. In the **Advanced settings** area, select **Add context variable**.
     4. In the **Edit** dialog that opens, select **Add**, and then select **Add context variable**.
     5. Enter the values for **Name** and **Type**. Ensure that the names of the context variables match exactly with the param names in the SIP UUI header.
@@ -48,7 +48,7 @@ This section lists the high level steps you must  perform to enable contextual c
     
         The SIP UUI payload is automatically converted into context data that can be used in the voice channel for routing and to show relevant information to the agent.
 
-You can now call the phone number assigned to the third-party IVR and achieve a contextual call transfer with the Omnichannel for Customer Service voice channel.
+You can now call the phone number assigned to the third-party IVR system and achieve a contextual call transfer with the Omnichannel for Customer Service voice channel.
 
 ### See also
 

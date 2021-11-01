@@ -126,15 +126,7 @@ You can set escalation rules to allow a bot to send customer queries to a custom
 
 ### Add bot user to a voice or phone call workstream
 
-To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls.
-
-1. In Omnichannel admin center, under **General Settings**, select **Workstreams**.
-
-2. Open the workstream related to your voice channel, and go to **Show Advanced Settings**, and in the **Smart assist bots** area, select **Add bot**. The **Add from existing** dialog opens.
-
-3. Select an existing bot from the dropdown list and select **Add**.
-
-Now, if there's a valid phone number associated with that workstream, the bot will automatically receive and respond to the phone call.
+To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls. More information: [Add a bot](create-workstreams.md#add-a-bot)
 
 ### Enable a bot to escalate and end conversations
 
@@ -229,7 +221,7 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 
 > [!Note]
 >
-> Authentication cards are not supported in bots that are integrated with Omnichannel for Customer Service.
+> Authentication cards are not supported in bots that are integrated with Omnichapcnnel for Customer Service.
 
 ## Privacy notice
 

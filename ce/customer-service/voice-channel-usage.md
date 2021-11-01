@@ -36,7 +36,7 @@ The following table contains the metrics.
 |--------|------|
 |Call intelligence minutes| Number of minutes of calls for which call transcription is generated. Number is rounded to a whole number.  |
 |Intelligent voicebot minutes|Number of minutes used by voicebot. Number is rounded to a whole number.|
-|Total Calls|Number of calls that consumed the minutes|
+|Total Calls|Number of calls that consumed the minutes.|
 |Minutes over time|Overtime trending of call intelligence minutes and intelligent voicebot minutes. |
 |||
 
