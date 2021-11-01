@@ -223,7 +223,7 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 
 > [!Note]
 >
-> Authentication cards are not supported in bots that are integrated with Omnichannel for Customer Service.
+> Authentication cards are not supported in bots that are integrated with Omnichapcnnel for Customer Service.
 
 ## Privacy notice
 
