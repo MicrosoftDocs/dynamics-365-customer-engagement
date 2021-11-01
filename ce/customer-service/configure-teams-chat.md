@@ -58,7 +58,7 @@ As a tenant administrator, when you enable the Teams chat feature, the app has t
    > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
     
 4. Save the changes.<br>
-   The preview is now enabled for the Dynamics 365 Customer Service Hub and Customer Service workspace (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record. See Open Teams chats and channels related to a record.
+   The preview is now enabled for the Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
     
     
 ### Add the Teams chat settings page for specific multisession users
