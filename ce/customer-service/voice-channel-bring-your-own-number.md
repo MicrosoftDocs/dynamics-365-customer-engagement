@@ -40,7 +40,7 @@ Also, ensure you have set up the following:
 
     - **Carrier**: Indicates the carrier to which the phone number belongs. If the carrier doesn’t exist yet, you can create a new record.
 
-    - **Country/Region**: Select the country or region the phone numbers belongs to.
+    - **Country/Region**: Select the country or region the phone number belongs to.
 
     - **Number type**: Select whether toll-free or a local phone number.
 
