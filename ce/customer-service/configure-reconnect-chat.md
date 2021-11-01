@@ -1,7 +1,7 @@
 ---
 title: "Configure reconnection to a chat session | MicrosoftDocs"
 description: "Learn about configuring reconnections to previous chat sessions in Omnichannel for Customer Service."
-ms.date: 10/30/2021
+ms.date: 11/01/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 
-When customers are disconnected in the middle of a conversation&mdash;for reasons that can range from restarting their system while troubleshooting to network disruption&mdash;they can reconnect to the same agent, if you've enabled the settings for reconnection. The options to reconnect to the same agent helps save time and effort, and improves customer satisfaction. 
+When customers are disconnected in the middle of a conversation&mdash;for reasons that can range from restarting their system while troubleshooting to network disruption&mdash;they can reconnect to the same agent, if you've enabled the settings for reconnection. The options to reconnect to the same agent help save time and effort, and improve customer satisfaction.
 
 ## How reconnection to a previous chat works
 
@@ -51,10 +51,10 @@ You can enable the reconnection options in the chat widget either while setting 
    - From the workstreams list, select the chat widget for which you want to enable the reconnection option.
 
 3. On the ***<widget_name>* Chat Widget** page, in the **Chat widget** area, select **Edit**.
-4. On Chat channel settings dialog, go to the **Chat widget** tab and set the **Reconnect to previous chat** toggle to **Yes**. The following options are displayed:
-   - **Time limit:** Select a value to indicate the time within which the customer can connect back to the same agent. The agent's capacity is blocked for the specified duration unless the agent closes the session. If the customer fails to reconnect within the duration the conversation moves to the **Wrap-up** state.
-   - **Portal URL:** Specify the link that will be shared by the agent with the customer to reconnect to the chat session. This must be the portal link on which the chat widget is displayed.
-   - **Redirect URL:** Optionally, specify the link that the customer will be redirected to when the reconnect timeout occurs. If this is left blank, the customer will see the option to start a new chat conversation.
+4. On the Chat channel settings dialog, go to the **Chat widget** tab and set the **Reconnect to previous chat** toggle to **Yes**. The following options are displayed:
+   - **Time limit**: Select a value to indicate the time within which the customer can connect back to the same agent. The agent's capacity is blocked for the specified duration unless the agent closes the session. If the customer fails to reconnect within the duration the conversation moves to the **Wrap-up** state.
+   - **Portal URL**: Specify the link that will be shared by the agent with the customer to reconnect to the chat session. This must be the portal link on which the chat widget is displayed.
+   - **Redirect URL**: Optionally, specify the link that the customer will be redirected to when the reconnect timeout occurs. If this is left blank, the customer will see the option to start a new chat conversation.
 
 5. Select **Save and Close**.
      

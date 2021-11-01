@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 10/30/2021
+ms.date: 11/01/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -47,7 +47,7 @@ Perform the following steps:
          - **Record**: To configure the workstream for entity record, such as case and email activity.
     
     - **Channel**: This box appears if you have selected the type as **Messaging**. Select a channel from the list.
-         - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md).
+         - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md).
     
     - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list.  More information: [Set up record routing](set-up-record-routing.md).
     
@@ -74,7 +74,7 @@ Perform the following steps:
 
 ### Configure routing rules
 
-Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
+Routing rules for a workstream consist of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
 
 - [Configure work classification rules](configure-work-classification.md)
 - [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules).

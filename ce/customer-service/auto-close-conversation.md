@@ -1,7 +1,7 @@
 ---
 title: "Configure automatic closure of conversations | MicrosoftDocs"
 description: "Use this topic to understand how to configure the auto-close duration of conversations using the Web API."
-ms.date: 10/30/2021
+ms.date: 11/01/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -83,7 +83,7 @@ If-None-Match: null
 
 The `msdyn_name` attribute in the `msdyn_occhannelstateconfiguration` entity mentions the channel and state of the conversation. For more information about conversation states, see [Understand conversation states in Omnichannel for Customer Service](oc-conversation-state.md).
 
-You can make a `GET` request to `msdyn_occhannelconfiguration` entity to fetch all the existing channel records. For each of these channels, you can see its state when you query the `msdyn_occhannelstateconfiguration` entity.
+You can make a `GET` request to the `msdyn_occhannelconfiguration` entity to fetch all the existing channel records. For each of these channels, you can see its state when you query the `msdyn_occhannelstateconfiguration` entity.
 
 Make a `PATCH` request to the `msdyn_occhannelstateconfiguration` entity record and update the value of the `msdyn_autocloseliveworkitemafter` attribute.
 
@@ -107,7 +107,7 @@ The conversation closes automatically if the value of the `msdyn_autocloselivewo
 If the conversation is in the wrap-up state&mdash;that is, the agent has resolved the issue and can now perform some post-conversation steps to close the conversation&mdash;then the conversation is closed if the value of the `msdyn_autocloseliveworkitemafter` attribute is greater than the value of the `wrapupinitiatedon` attribute.
 
 > [!IMPORTANT]
-> The decision to close a conversation based on the values of the `msdyn_autocloseliveworkitemafter` and `createdon` attributes, is made when a scheduled job runs, and not when the `PATCH` Web API request is run. This means that if the value of `msdyn_autocloseliveworkitemafter` is mentioned as 5 minutes but the scheduled job runs after 12 hours, then the conversation will close only when the scheduled job runs after 12 hours.
+> The decision to close a conversation based on the values of the `msdyn_autocloseliveworkitemafter` and `createdon` attributes is made when a scheduled job runs, and not when the `PATCH` Web API request is run. This means that if the value of `msdyn_autocloseliveworkitemafter` is mentioned as 5 minutes but the scheduled job runs after 12 hours, then the conversation will close only when the scheduled job runs after 12 hours.
 
 ## Configure automatic closure of Wrap-up state for live chat
 
