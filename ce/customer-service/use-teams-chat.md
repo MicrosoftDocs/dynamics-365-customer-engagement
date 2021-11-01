@@ -105,3 +105,9 @@ The suggested contacts list displays users who are connected or have interacted 
 You can start a regular conversation in Dynamics 365 if you don't want to switch to Teams.
 
 While you're in any of the records or in the list panel, select :::image type="icon" source="media/teams-icon.png" border="false":::, , and then select the **New** icon in the upper-right corner. This option starts an individual or group chat but doesn't link it to the record.
+
+### See also
+
+[Configure Teams chat in Customer Service](/configure-teams-chat)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
