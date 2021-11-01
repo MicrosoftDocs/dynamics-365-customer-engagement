@@ -30,7 +30,11 @@
     href: windows-mobile-app.md
   - name: Work offline on your mobile device
     href: work-in-offline-mode.md
-- name: Troubleshooting
-  href: troubleshooting-things-know-about-phones-tablets.md
+- name: Troubleshoot
+  items:
+  - name: Get session ID and logs to help troubleshoot your issue
+    href: logs-session-id.md
+  - name: Common issues and resolutions
+    href: troubleshooting-things-know-about-phones-tablets.md
 - name: Older version (8.x)
   href: /previous-versions/dynamicscrm-2016/mobile-app/v8/about-this-content

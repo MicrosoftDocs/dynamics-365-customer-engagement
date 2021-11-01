@@ -29,16 +29,16 @@ Use *adaptive sequences* to define conditions for the steps in a sequence. These
 
 ## Prerequisite
 
-Conditions in the adaptive sequences work as defined only when **Adaptive Sequence Timeout Flow** process is enabled. To enable the process, follow these steps:     
+Conditions in the adaptive sequences work as defined only when **Sales Insights Adaptive sequence timeout flow** process is enabled. To enable the process, follow these steps:     
 1. Go to [Power Automate](https://flow.microsoft.com) and change the environment to your organization.   
 2. Select **Solutions** and then select the view as **All** and search for **Sequence**.   
     >[!div class="mx-imgBorder"]
     >![Search and select Sequence solution](media/sa-condition-enable-process-select-sequence-solution.png "Search and select Sequence solution")    
 
-3. Open the **Sequence** solution page and select **Adaptive Sequence Timeout Flow** process.   
-4. On the **Adaptive Sequence Timeout Flow** page, select **Turn on**.   
+3. Open the **Sequence** solution page and select **Sales Insights Adaptive sequence timeout flow** process.   
+4. On the **Sales Insights Adaptive sequence timeout flow** page, select **Turn on**.   
     >[!div class="mx-imgBorder"]
-    >![Enable the adaptive sequence timeout flow](media/sa-condition-enable-process-turn-on-adaptive-sequence-timeout-flow.png "Enable the adaptive sequence timeout flow")    
+    >![Enable the Sales Insights Adaptive sequence timeout flow](media/sa-condition-enable-process-turn-on-adaptive-sequence-timeout-flow.png "Enable the Sales Insights Adaptive sequence timeout flow")    
 
     The process is enabled.
 
