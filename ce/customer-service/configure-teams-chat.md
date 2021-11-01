@@ -1,7 +1,7 @@
 ---
 title: "Configure Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 10/18/2021
+ms.date: 11/01/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -17,13 +17,22 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure Teams chat in Customer Service
+# (Preview) Configure Teams chat in Customer Service
 
-You can configure the ability for agents to chat in Teams from within Dynamics 365 Customer Service Hub and Customer Service workspace. When the feature is enabled, while working on customer records, agents can start a new chat or link an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help agents maintain all the conversations related to the record in one place. 
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+You can configure the ability for agents to chat in Teams from within Dynamics 365 Customer Service Hub, Dynamics 365 Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales. When the feature is enabled, while working on customer records, agents can start a new chat or link an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help agents maintain all the chats related to the record in one place. 
 
 ## Enable or disable Teams chat
 
-This feature requires certain permissions to access Teams data. Review the following permissions required section to learn more.
+In Customer Service workspace, Teams chat is enabled by default. For other customer engagement and custom apps, you must enable it. Teams chat requires certain permissions to access Teams data. Review the following permissions required section to learn more.
 
 ### Permissions required
 
@@ -95,11 +104,8 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
 	
 3.	In the **Link chat to record type** pane, in **Choose record type**, type the name of the record type you want to use.
 	
-4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then type the message you want to use. If you turn on this context card, a **Message view** dropdown menu is displayed, where you can do the following:<br>
-         a.	Select a message view you want to use, and then enter the relative details.<br>
-    or<br>
-         b.	Create a custom view in Power Apps.
-    
+4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then use the existing views functionality to define the fields that will represent context card or create a custom view with up to five fields that you want to include as a context card. 
+            
 5.	Select **Save**.
 
 For any view that's selected, keep in mind the following details:
@@ -109,9 +115,14 @@ For any view that's selected, keep in mind the following details:
    > [!div class="mx-imgBorder"] 
    > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png "View for supported fields and message for unsupported field")
     
- - Because the data fields are static, field-level permissions aren't checked for collaborators. This means if the agent has the field-level permissions to show data fields, collaborators will also be able to see those fields.
+ - Because the data fields are static, field-level permissions aren't checked for collaborators. This means if the agent has the field-level permissions to view data fields, collaborators will also be able to see those fields.
 - If you don't select a view, agents will only see the default, out-of-box **Case introduction message** view.
 
    > [!div class="mx-imgBorder"] 
    > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png "Default case introduction message view")
 
+### See also
+
+[Use Teams chat](/use-teams-chat)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
