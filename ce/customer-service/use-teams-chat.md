@@ -47,12 +47,12 @@ The following legend describes the numbered callouts in the above image.
 |-------|-----------|-----------|
 | 1 | New chat | Create chats that aren't associated with any Dynamics 365 records.  |
 | 2 | Filter |  Filter chats by name. |
-| 3 | Linked chats | Chats that are associated with a Dynamics 365 record. These chats can only be viewed in Dynamics 365 by the chat participants. |
+| 3 | New inked chats | Chats that are associated with a Dynamics 365 record. These chats can only be viewed in Dynamics 365 by the chat participants. |
 | 4 | Chats linked to other records | Chats that are associated with other Dynamics 365 records that the current user is a part of. Users can prioritize responses to these chats over other chats. |
 | 5 | Other chats | Chats that aren't linked to any records or started from Teams. |
 | 6 | Chat control | Allows users to multi-task across chats. |
 | 7 | Basic Teams functions | Format, use emojis, use gifs, set delivery options, attach files. |
-| 8 | Add/Remove participants | Select who participates in the chat and who doesn't. |
+| 8 | Add/remove participants | Select who participates in the chat and who doesn't. |
 
 
 ## Start a new linked chat
@@ -67,7 +67,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
     The Teams chats (preview) panel opens.
 2.	Use one of the following methods:<br>
     a.	To start a new linked chat with a participant, select **New linked chat** in the **Linked to this record section**.<br>
-    b.	To start a linked chat with a **Suggested contacts**, and then select **Start a linked chat**.<br> (Selecting the **Suggested** link allows you to load more suggested contacts.)
+    b.	To start a linked chat with a **Suggested contacts**, and then select **Start a linked chat**.<br> (Selecting the **Suggested** link allows you to load more suggested contacts.)<br>
     c.	To convert an existing chat into a linked chat, select a chat from the **All recents** section. Select the **More Commands** ellipsis (…), and then select **Start a linked chat**. <br>
     The chat name uses the record name or the participants’ name, depending on the configuration that your administrator has set up. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for linked chats** setting. You can modify the chat name. Provide a meaningful name to the chat so that you can identify the chat even on Teams, and so that your collaborators on Teams can also easily identify chats that are associated with Dynamics 365 records.
 3.	Add more participants to the chat if you want to.
@@ -104,7 +104,7 @@ The suggested contacts list displays users who are connected or have interacted 
 
 You can start a regular conversation in Dynamics 365 if you don't want to switch to Teams.
 
-While you're in any of the records or in the list panel, select :::image type="icon" source="media/teams-icon.png" border="false":::, , and then select the **New** icon in the upper-right corner. This option starts an individual or group chat but doesn't link it to the record.
+While you're in any of the records or in the list panel, select :::image type="icon" source="media/teams-icon.png" border="false"::: , and then select the **New** icon in the upper-right corner. This option starts an individual or group chat but doesn't link it to the record.
 
 ### See also
 
