@@ -84,8 +84,8 @@ You can define the way outbound calls are made and also who can make them. To cr
      - **Profile name**: Enter a profile name.
      - **Phone number**: Select a phone number from the dropdown list. 
          > [!Note]
-         > The phone numbers list shows only those numbers that are enabled for outbound calling, and are not used as a personal user phone number. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-phone-numbers-for-outbound-calling).
-     - **Number label**:  Indicates the label displayed with the phone number at the customer's end when you call a customer, indicating a business context such as Billing. This value is automatically populated with the phone name string but can be edited.
+         > The phone numbers list shows only those numbers that are enabled for outbound calling and aren't used as a personal user phone number. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-phone-numbers-for-outbound-calling).
+     - **Number label**: Indicates the label displayed with the phone number at the customer's end when you call a customer, indicating a business context such as Billing. This value is automatically populated with the phone name string but can be edited.
      - **Queue**: Select a queue from the dropdown list. The list shows only voice type queues, so if you don't see any queues in the list, you'll need to [create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels).
      - **Capacity**: Select one or more capacity profiles from the dropdown list.
      - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
