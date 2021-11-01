@@ -62,8 +62,6 @@ For outbound calls, set the capacity profile fields as follows:
 > - Though you can use the same capacity profile for both inbound and outbound calling, we recommend that you create separate profiles because the considerations and settings for outbound calling and inbound calling can differ.
 > - If your agents are only assigned to receive customer calls and not assigned to any capacity profile used for outbound calling, calling features will not display to the agent.
 
-
-
 ## Create outbound profiles
 
 You can define the way outbound calls are made and also who can make them. To create an outbound profile, you'll need a phone number that's enabled for outbound calling. This means that in your calling plan for that number, the **Make calls** checkbox must be selected.

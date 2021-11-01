@@ -13,12 +13,12 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Before you can provision phone numbers for your business in Omnichannel Customer Service, you must first establish connection with the Azure Communication Services. You can [connect to a new Azure resource](#connect-to-a-new-azure-resource) or [use an existing one](#connect-to-an-existing-azure-resource), and then deploy the resource through Dynamics 365.
+To provision phone numbers for your business in Omnichannel Customer Service, you must first establish connection with Azure Communication Services. You can [connect to a new Azure resource](#connect-to-a-new-azure-resource) or [use an existing one](#connect-to-an-existing-azure-resource), and then deploy the resource through Dynamics 365.
 
 ## Prerequisites
 
-Before you connect to a new Azure resource, check whether you have the following:
-- A valid Azure subscription that's in the same tenant as your Dynamics 365 account. If you don't have an Azure subscription, [create a free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin.
+Before you connect to an Azure resource, check whether you have the following:
+- An Azure subscription that's in the same tenant as your Dynamics 365 account. If you don't have an Azure subscription, [create a free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure resource only if you have at least contributor-level permissions.
 
 ## Connect to a new Azure resource
@@ -44,9 +44,7 @@ You're now connected to Azure Communication Services.
 
 ## Connect to an existing Azure resource
 
-You can also use an existing Azure Communication Services resource to connect with voice or SMS channels. You can use a resource from any of your Azure subscriptions, available under any tenant.
-
-*If you had previously unlinked a resource and want to use it now, you can do so using this option.*
+You can also use an existing Azure Communication Services resource to connect with voice or SMS channels. You can use a resource from any of your Azure subscriptions, available under any tenant. If you had previously unlinked a resource and want to use it now, you can do so using this option.
 
 Before you proceed with adding an existing resource to Azure Communication Services, you must have the following information available for use in Omnichannel admin center.
 - [Get the resource name and ID from the Azure portal](#get-resource-name-and-id).
@@ -60,8 +58,6 @@ Before you proceed with adding an existing resource to Azure Communication Servi
    The **Connect to Azure Communication Services** dialog opens.
 
 2. Select **Use existing resource**.
-    > [!div class="mx-imgBorder"]
-    > ![Select the use existing resource option.](./media/voice-channel-select-use-existing-resource.png "Select the use existing resource option.")
 
 3. Enter the following details, based on the values available on the Azure portal.
    - **ACS Resource Name**: [Enter the resource name](#get-resource-name-and-id).
@@ -199,7 +195,7 @@ The following sections include short procedures that explain how you can get ret
    > [!div class="mx-imgBorder"]
    > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
 
-4. Select **Create** to create the event subscription endpoints for recording. *This might take some time, so if you get an sync error, try refreshing after some time.*
+4. Select **Create** to create the event subscription endpoints for recording. This might take some time, so if you get an sync error, try refreshing after some time.
 
     > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
@@ -242,7 +238,7 @@ The following sections include short procedures that explain how you can get ret
    > [!div class="mx-imgBorder"]
    > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
 
-4. Select **Create** to create the event subscription endpoints for SMS. *This might take some time, so if you get an sync error, try refreshing after some time.*
+4. Select **Create** to create the event subscription endpoints for SMS. This might take some time, so if you get an sync error, try refreshing after some time.
     > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoint for SMS.](./media/voice-channel-event-subscription-sms-success.png "Create event grid callbacks for SMS.")
 
@@ -252,6 +248,6 @@ The following sections include short procedures that explain how you can get ret
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
-[Integrate third-party IVRs with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
+[Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
