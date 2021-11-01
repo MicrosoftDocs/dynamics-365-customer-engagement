@@ -31,11 +31,9 @@ When you want to try the voice channel for the first time in your org, the syste
     > [!Note]
     > If someone in your org has already tried the first run experience, you'll see **Try voice** instead of **Set up voice demo**.
 
-    ![Setting up the voice demo.](media/image10.png)
 
 1.  After the demo is set up, the **Try out voice** page displays the option to **Open voice demo** and the settings that have been configured.
 
-    ![Try out voice.](media/image11.png)
 
 ## Try out voice
 
