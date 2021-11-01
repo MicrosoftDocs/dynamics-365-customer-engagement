@@ -53,8 +53,9 @@ To integrate your bot with Omnichannel for Customer Service, perform the followi
 1. [Connect your bot resource to Omnichannel for Customer Service](#connect-your-bot-resource-to-omnichannel-channel).
 2. [Create the bot user as application user and assign it as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
 3. [Add the bot user to queues](#add-the-bot-user-to-queues).
-4. [Add a code snippet to engage the bot](#add-a-code-snippet-to-engage-the-bot).
-5. [Set escalation rules](#set-escalation-rules).
+4. [Add bot user to a voice or phone call workstream](#add-bot-user-to-a-voice-or-phone-call-workstream).
+5. [Add a code snippet to engage the bot](#add-a-code-snippet-to-engage-the-bot).
+6. [Set escalation rules](#set-escalation-rules).
 
 ### Connect your bot resource to Omnichannel channel
 

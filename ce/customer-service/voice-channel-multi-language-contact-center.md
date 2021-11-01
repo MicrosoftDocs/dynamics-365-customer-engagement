@@ -30,7 +30,7 @@ You can configure a phone number in a workstream that allows the customer to cho
 1. In Omnichannel admin center, under **General settings** on the sitemap, select **Workstreams**, and then select the name of the workstream you want to add the phone number to. 
 2. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
 3. On the **Language** tab, select **Add primary language**. A language page is displayed, where you set the primary language for the channel. You can add additional languages to this voice channel, and each language added will have its own settings.
-   The **Primary language** is the first language the bot greets the customer in. This allows your organization to have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
+   The **Primary language** is the first language the bot uses to greet the customer. This allows your organization to have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
 4. Select the type of hold and wait music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
 5. In **Voice profile**, select a voice, voice style, speaking speed, and pitch for the bot.
 6. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey bot after the agent hangs up.
@@ -40,7 +40,7 @@ You can configure a phone number in a workstream that allows the customer to cho
 
 ## Create language-specific routing rules
 
-Define the language-based routing rules. More information: [Configure work classification rulesets for unified routing](configure-work-classification.md).
+Define the language-based routing rules. More information: [Configure work classification rulesets for unified routing](configure-work-classification.md)
 
 ## Create a multi-language IVR bot with Azure Bot Framework
 
@@ -51,7 +51,7 @@ Create the bot. More information [Azure Bot Service](https://azure.microsoft.com
 > [!Note]
 > The bot author must set the va_CustomerLocale context variable field during the IVR handoff with the locale code for the language they want to support. For more information, see supported locations and locale codes below. 
 
-```
+```csharp
         // Copyright (c) Microsoft Corporation. All rights reserved.
         // Licensed under the MIT License.
         using System.Collections.Generic;
@@ -121,7 +121,7 @@ Create the bot. More information [Azure Bot Service](https://azure.microsoft.com
 
 ## Add your bot to the workstream
 
-Add the bot as an IVR bot to the workstream. More information: [Integrate an Azure bot](voice-channel-azure-bot-service.md#add-bot-user-to-a-voice-or-phone-call-workstream)
+Add the bot as an IVR bot to the workstream. More information: [Integrate an Azure bot](configure-bot.md#add-bot-user-to-a-voice-or-phone-call-workstream)
 
 
 ## Supported languages and locale codes

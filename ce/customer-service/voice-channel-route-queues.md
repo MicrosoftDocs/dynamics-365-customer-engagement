@@ -39,7 +39,7 @@ Do the following to configure a workstream for voice:
 
 ## Configure a voice channel
 
-To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. To get a new number, you can select **Add number** on the **Phone numbers** page. More information: [Acquire a phone number](#acquire-a-phone-number).
+To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. To get a new number, you can select **Add number** on the **Phone numbers** page. More information: [Acquire a phone number](#acquire-a-phone-number)
 
 **To configure the voice channel**
 
@@ -50,7 +50,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
     > [!NOTE]
     > Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.
 
-3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi-language-contact-center.md).
+3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi-language-contact-center.md)
 
 4. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
 
@@ -89,7 +89,7 @@ In this section, we'll cover information on how to create a queue for the voice 
 
 In the left pane, select **Queues**, and then complete the following steps to create a queue for the voice channel:
 
-1. On the **Queues** page, select **New**, and on **Create a queue** dialog, enter the following details:
+1. On the **Queues** page, select **New**, and on **Create a queue** dialog, enter the following details.
 
     - **Name**: Specify a name.
     - **Type**: Select **Voice**.
@@ -109,7 +109,7 @@ With call overflow, you can reduce long wait times for customer calls by setting
 
 ### Assignment rules for a queue
 
-By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. More information: [Assignment methods](assignment-methods.md).
+By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. More information: [Assignment methods](assignment-methods.md)
 
 For a simple and quick voice call routing, you'll not need to set up any rules for unified routing. By default, all the incoming voice calls will get routed to the "default voice queue" and will get assigned to the agents with the round robin assignment methodology.
 

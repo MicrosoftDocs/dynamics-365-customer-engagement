@@ -97,6 +97,6 @@ The following screenshots are examples of the survey types in Power Virtual Agen
 [Introduction to the voice channel](voice-channel.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  
 [Route incoming calls to agents](voice-channel-route-queues.md)  
-[Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
+[Integrate an Azure bot](configure-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
