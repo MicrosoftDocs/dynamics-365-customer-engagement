@@ -1,22 +1,22 @@
 ---
-title: "lcw:closeChat | MicrosoftDocs"
-description: lcw closeChat event (Omnichannel for Customer Service JavaScript API reference)
+title: "lcw:chatRetrieved | MicrosoftDocs"
+description: lcw chatRetrieved event (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# lcw:closeChat event (Omnichannel for Customer Service JavaScript API reference)
+# lcw:chatRetrieved event (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is triggered when a chat is closed.
+This event is raised when an ongoing chat conversation is retrieved from cache after a page reload or is opened on another tab.
 
 ## Example
 
 ```javascript
-window.addEventListener("lcw:closeChat", function handleLivechatClosedEvent(){
-// Handle the live chat closed event
+window.addEventListener("lcw:chatRetrieved", function handleLivechatRetrievedEvent(){
+    // Handle livechat retrieved event 
 });
 ```
 
@@ -24,16 +24,15 @@ window.addEventListener("lcw:closeChat", function handleLivechatClosedEvent(){
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  
-[lcw:startChat](lcw-startchat.md)
-[lcw:chatRetrieved](lcw-chatRetrieved.md)  
 [lcw:chatQueued](lcw-chatQueued.md)  
 [lcw:onClose](lcw-onClose.md)  
+[lcw:ready](lcw-ready.md)  
+[lcw:closeChat](lcw-closeChat.md)  
 [lcw:onMinimize](lcw-onMinimize.md)  
 [lcw:onMaximize](lcw-onMaximize.md)  
 [lcw:onMessageReceived](lcw-onMessageReceived.md)  
 [lcw:onMessageSent](lcw-onMessageSent.md)  
 [lcw:threadUpdate](lcw-threadUpdate.md)   
-
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
 
 
