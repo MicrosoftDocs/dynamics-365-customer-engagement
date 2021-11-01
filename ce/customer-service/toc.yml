@@ -520,7 +520,7 @@
         href: voice-channel-music.md
       - name: Set up a multi-language contact center
         href: voice-channel-multi-language-contact-center.md
-        - name: Supported regions and languages
+      - name: Supported regions and languages
         href: voice-channel-region-availability.md
     - name: Agent experience
       items:
