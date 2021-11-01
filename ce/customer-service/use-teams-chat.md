@@ -47,7 +47,7 @@ The following legend describes the numbered callouts in the above image.
 |-------|-----------|-----------|
 | 1 | New chat | Create chats that aren't associated with any Dynamics 365 records.  |
 | 2 | Filter |  Filter chats by name. |
-| 3 | New inked chats | Chats that are associated with a Dynamics 365 record. These chats can only be viewed in Dynamics 365 by the chat participants. |
+| 3 | New linked chat | Start a new chat that is linked with the record. These chats can only be viewed in Dynamics 365 by the chat participants. |
 | 4 | Chats linked to other records | Chats that are associated with other Dynamics 365 records that the current user is a part of. Users can prioritize responses to these chats over other chats. |
 | 5 | Other chats | Chats that aren't linked to any records or started from Teams. |
 | 6 | Chat control | Allows users to multi-task across chats. |
