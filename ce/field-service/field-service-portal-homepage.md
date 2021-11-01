@@ -24,7 +24,7 @@ In this article, we'll walk through the customer experience homepages, and how t
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWO5EO]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWO5EO]
 
 
 ## Prerequisites
