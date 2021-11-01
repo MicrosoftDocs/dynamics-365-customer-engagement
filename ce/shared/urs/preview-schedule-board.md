@@ -287,8 +287,6 @@ The new schedule board is not turned on by default, so you'll have to enable it 
 
 To enable the new schedule board, go to Scheduling > Administration > Scheduling Parameters and switch on the **Enable new Schedule Board** toggle.
 
-// @Kristina - please absorb the following screenshots into the doc, use VInay's demo video for details: https://msit.microsoftstream.com/video/3e890840-98dc-ae72-5205-f1ec158a69b8
-
 > [!div class="mx-imgBorder"]
 > ![Scheduling parameters in Field Service, showing the toggle to enable the new schedule board.](../../field-service/media/schedule-board-new-opt-in-organization.png)
 
