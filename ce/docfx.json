@@ -135,20 +135,23 @@
       "ms.service": {
         "app-profile-manager/**/*.md": "dynamics-365-customerservice",
         "customer-service/**/*.md": "dynamics-365-customerservice",
+        "legal/**/*.md": "dynamics-365-customerservice",
         "linkedin/**/*.md": "dynamics-365-linkedinconnector",
         "sales-enterprise/**/*.md": "dynamics-365-sales",
+        "sales/**/*.md": "dynamics-365-sales",
         "sales-professional/**/*.md": "dynamics-365-sales",
         "unified-service-desk/**/*.md": "dynamics-365-customerservice"
       },
+      "ms.prod": {
+	"customerengagement/**/*.md": "d365ce-op"
+	    },
       "ms.subservice": {
         "customer-service/channel-integration-framework/**/*.md": "channel-integration-framework",
         "unified-service-desk/**/*.md": "unified-service-desk"
       },
-	  "ms.topic": {
-        "legal/**/*.md": "article"
-      },
-	  "ms.prod": {
-        "**/*.md": "dynamics-365"
+      "ms.topic": {
+        "legal/**/*.md": "article",
+	"customerengagement/**/*.md": "article"
       },
       "learn_banner_products": {
         "**/*.md": [

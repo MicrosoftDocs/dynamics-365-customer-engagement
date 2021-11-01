@@ -4,27 +4,29 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Regional availability and supported languages for the voice channel
+# Regional availability and supported languages for the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]>
+## Supported regions
 
-## Supported Regions
+The following table lists the upcoming regions and clouds where the voice channel for Omnichannel for Customer Service will soon be available:
 
-The voice channel in Omnichannel for Customer Service is currently available only in the United States.
-
+|Geographic location | Availability date |
+|----------|---------|
+|North America	|November 2021 |
+|Europe	|December 2021 |
+|Asia Pacific |December 2021 |
+|Australia	|December 2021 |
+|South America	|To be announced |
+|Country clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom	|To be announced |
+|Government Community Cloud (GCC) |To be announced |
+ 
 ## Supported languages and locale codes
 
 | Language Name |	Locale Code |

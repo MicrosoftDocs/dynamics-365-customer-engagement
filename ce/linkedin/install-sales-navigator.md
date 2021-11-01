@@ -54,10 +54,10 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
 ## Install through Advanced Settings
 
-1. In your app, select **Settings** ![Settings.](../sales-enterprise/media/settings-icon.png), and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings.](../sales/media/settings-icon.png), and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map.](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+    > ![Advanced Settings link in the site map.](../sales/media/advanced-settings-option.png "Advanced Settings link in the site map")
 
     The **Business Management settings** page opens in a new browser tab.
 
@@ -124,10 +124,10 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
 ## Validate the installation
 
-1. In your app, select **Settings** ![Settings.](../sales-enterprise/media/settings-icon.png), and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings.](../sales/media/settings-icon.png), and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map.](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+    > ![Advanced Settings link in the site map.](../sales/media/advanced-settings-option.png "Advanced Settings link in the site map")
 
 2. Go to **Settings** > **Customizations** > **Solutions**.
 
@@ -154,10 +154,10 @@ When enabled, the Sales Navigator controls will appear on Account, Contact, Lead
 
 ### Advanced Settings
 
-1. In your app, select **Settings** ![Settings.](../sales-enterprise/media/settings-icon.png), and then select **Advanced Settings**.
+1. In your app, select **Settings** ![Settings.](../sales/media/settings-icon.png), and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map.](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings link in the site map")
+    > ![Advanced Settings link in the site map.](../sales/media/advanced-settings-option.png "Advanced Settings link in the site map")
 
 2. On the **Business Management settings** page, select **LinkedIn Sales Navigator**.
 

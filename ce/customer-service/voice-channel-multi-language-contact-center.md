@@ -22,8 +22,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+
 
 Agents are increasingly serving global and diverse customers who speak multiple languages, so it's important that the communication tools they use be able to work across languages.
 
@@ -196,7 +195,7 @@ The Azure bot should respect the primary language of the workstream. For example
 
 ### See also
 
-[Introduction to the voice channel](voice-channel.md)
-[Azure cognitive services - speech to text](https://azure.microsoft.com/services/cognitive-services/text-to-speech/#features)
+[Introduction to the voice channel](voice-channel.md)  
+[Azure cognitive services - speech to text](https://azure.microsoft.com/services/cognitive-services/text-to-speech/#features)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

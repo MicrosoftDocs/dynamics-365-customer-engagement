@@ -1,7 +1,7 @@
 ---
 title: Create and manage basic queues | MicrosoftDocs
 description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service.
-ms.date: 05/18/2021
+ms.date: 09/30/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,9 +26,9 @@ searchScope:
 
 # Create and manage basic queues
 
-Queues help you to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. 
+Queues help you to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case.
 
- Queues can be useful in:  
+Queues can be useful in:
   
 - Having a centralized list of pending work that needs attention  
   
@@ -44,24 +44,23 @@ Use queues to categorize and prioritize your activities and cases. You can categ
   
 - Different geography  
 
- By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. How you set up queues depends on how your business works. 
+By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both.
 
-For example, you could create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
+For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
   
- Dynamics 365 Customer Service lets you create two types of queues:
+In Customer Service, in case settings, you can create two types of queues:
 
-- **Private queues:** Create private queues with limited set of members to help those members easily view the queue items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other user’s views.
-- **Public queues:** Create public queues to let everyone in the organization view the queue and all the items it contains.
+- **Private queues:** Create with limited set of members to help those members easily view the queue items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other user’s views.
+- **Public queues:** Create to let everyone in the organization view the queue and all the items it contains.
 
 > [!IMPORTANT]
-> Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
+>
+> - Private queues are a great way to organize cases, but they don't restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
+> - If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
 
-> [!NOTE]
-> With the latest release of Dynamics 365 Customer Service app, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
-  
 ## Create a basic queue in Customer Service Hub
-  
-Follow the steps given below to create or edit a queue: 
+
+To create or edit a queue:
   
 1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
   
@@ -93,15 +92,21 @@ Follow the steps given below to create or edit a queue:
   
         > [!NOTE]
         >  The email address that you enter in the **Incoming Email** field receives all messages sent to the queue.  
-      - Write a description in the **Description** field.
+      - Enter a description in the **Description** field.
   
-   - In the **Email Settings** section, in the **Convert to email activities** drop-down list, choose which messages to track as activities.  
+   - In the **EMAIL SETTINGS** section, in the **Convert to email activities** dropdown list, select a value depending on the type of messages that you want to track as activities.
   
-      - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
+6. Save the changes. The following changes will happen:
 
-6. Select **Save**.
+      - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
 
-   ![queues in Customer Service hub.](media/queues-csh.png)
+      - If you have selected the queue type as private, the **MEMBERS** section appears.
+          - Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New members of the team need to be added manually to the queue to be able to access it.
+
+      - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
+
+
+
 
 ## Create a queue in Customer Service app
 
@@ -134,13 +139,11 @@ Follow the steps given below to create or edit a queue:
    - In the **Name** field, type the name of the queue.  
   
    - In the **Type** field, choose if the queue is a private or public queue. You can use a private queue to allow only a specific set of people to work on activities in this queue.  
-  
-      If you’re creating a private queue, you’ll need to add members to this queue manually. In the **Members** section, select the **Add** button **+** to add members to the queue. Only these members will be able to work on the items in this queue.  
-  
+       
      > [!NOTE]
      >  The email address you enter in the **Incoming Email** field receives all messages sent to the queue.  
   
-   - In the **Email Settings** section, in the **Convert to email activities** drop-down list, choose which messages to track as activities.  
+   - In the **Email Settings** section, in the **Convert to email activities** dropdown list, select a value depending on the type of messages that you want to track as activities.  
   
    - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
   
@@ -151,7 +154,7 @@ Follow the steps given below to create or edit a queue:
    >  The **Record creation and update rules** section displays rules using the **Email Activity Conversation Setting**  or **Social Activity Conversation Setting** and that have the same queue ID as the queue.   
    >  Multiple rules with the same source type and same queue can exist. Therefore, when you select **Email Activity Conversion Settings** or **Social Activity Conversion Settings**, the rule with the latest **Last Modified On** date is applied.  
   
-6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
+6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]
 
 ## View queue items for a queue
 

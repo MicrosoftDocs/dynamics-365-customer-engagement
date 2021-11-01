@@ -4,13 +4,11 @@ description: "Learn about the getSession API of app profile manager in Customer 
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: getSession (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# getSession (app profile manager)
 
 Returns the session object for a session ID.
 

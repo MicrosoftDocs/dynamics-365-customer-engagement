@@ -4,13 +4,11 @@ description: "Learn about the getAllSessions API of app profile manager in Custo
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/25/2021
+ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# Preview: getAllSessions (app profile manager)
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+# getAllSessions (app profile manager)
 
 Returns the unique identifier of all sessions.
 
