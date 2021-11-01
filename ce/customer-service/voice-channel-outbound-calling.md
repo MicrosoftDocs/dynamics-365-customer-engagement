@@ -6,6 +6,7 @@ ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/01/2021
 ms.topic: article
+ms.custom: intro-internal
 ms.service: dynamics-365-customerservice
 ---
 
@@ -13,7 +14,9 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This section describes how you as an IT administrator can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers via the Omnichannel Agent Dashboard in Omnichannel for Customer Service.
+## Introduction
+
+This section describes how you, as an IT administrator, can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers via the Omnichannel Agent Dashboard in Omnichannel for Customer Service.
 
 If you don't have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) to learn how you can acquire new phone numbers. Phone number calling plans must be provisioned to support making calls to be used for outbound voice.
 
@@ -43,7 +46,7 @@ To check whether a phone number is enabled for outbound calling, go to **General
 
 The phone number will now be displayed to your customers when your agents call them.
 
->[!NOTE]
+> [!NOTE]
 > Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and gauge traffic and customer sentiment, specific to outbound calls.
 
 ## Configure capacity profiles and assign users
@@ -53,11 +56,13 @@ You must create or use existing capacity profiles to define and set the workload
 For detailed information on how to manage capacity profiles and add users, see [Create and manage capacity profiles](capacity-profiles.md).
 
 For outbound calls, set the capacity profile fields as follows:
+
 - **Work item limit**: Indicates the number of outbound calls an agent can make at a time. If the value is set to 1, it means that the agent can make only one call at a time, and cannot make a second call until the first call is ended. If the value is set to 3, it means that the agent can make 3 outbound calls at a time. 
 - **Reset frequency**: Indicates whether the agent can immediately make another call when the current ends or has to wait until end of day. For voice calls, set this field to **Immediate** so that the agent will be able to make another call as soon as the current one has ended.
 - **Assignment blocking**: Indicates whether you want to block any incoming calls when the agent is already on a call. Set this value to **Yes**, if you want to ensure the agent does not receive any incoming calls when an outbound call is in progress.
 
 > [!Note]
+>
 > - When you name your capacity profiles, we recommend that you clearly indicate whether they're outbound, inbound, or both, in the capacity **Profile name** field, so it's easy for you to assign users or agents to the appropriate profile.
 > - Though you can use the same capacity profile for both inbound and outbound calling, we recommend that you create separate profiles because the considerations and settings for outbound calling and inbound calling can differ.
 > - If your agents are only assigned to receive customer calls and not assigned to any capacity profile used for outbound calling, calling features will not display to the agent.
@@ -79,8 +84,8 @@ You can define the way outbound calls are made and also who can make them. To cr
      - **Profile name**: Enter a profile name.
      - **Phone number**: Select a phone number from the dropdown list. 
          > [!Note]
-         > The phone numbers list shows only those numbers that are enabled for outbound calling, and are not used as a personal user phone number. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-phone-numbers-for-outbound-calling).
-     - **Number label**:  Indicates the label displayed with the phone number at the customer's end when you call a customer, indicating a business context such as Billing. This value is automatically populated with the phone name string but can be edited.
+         > The phone numbers list shows only those numbers that are enabled for outbound calling and aren't used as a personal user phone number. If you don't see any numbers in the list, you'll need to [configure a number for outbound calling](#configure-phone-numbers-for-outbound-calling).
+     - **Number label**: Indicates the label displayed with the phone number at the customer's end when you call a customer, indicating a business context such as Billing. This value is automatically populated with the phone name string but can be edited.
      - **Queue**: Select a queue from the dropdown list. The list shows only voice type queues, so if you don't see any queues in the list, you'll need to [create a voice type queue](voice-channel-route-queues.md#create-queues-for-voice-channels).
      - **Capacity**: Select one or more capacity profiles from the dropdown list.
      - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
@@ -90,6 +95,8 @@ You can define the way outbound calls are made and also who can make them. To cr
      - **Allow agents to pause and resume**: Indicates whether you want to allow your agents to pause and resume call transcription and recording. The default value is **Yes** which means that your agents can choose when to pause or resume call transcription and recording in the conversation panel.
 
 5. Select **Save and close**.
+
+### Edit outbound profiles
 
 **To edit outbound profiles**
 

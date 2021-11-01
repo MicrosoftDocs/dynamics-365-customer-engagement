@@ -20,7 +20,6 @@ In Omnichannel for Customer Service, you can block spam phone numbers that your 
 ## Review phone numbers marked as spam
 
 
-
 **To review phone numbers marked as spam**
 
 1. In the site map of Omnichannel admin center, under **Advanced settings**, select **Customer settings**.

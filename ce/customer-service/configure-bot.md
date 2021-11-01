@@ -5,6 +5,7 @@ ms.date: 11/01/2021
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.custom: intro-internal
 ---
 
 # Integrate an Azure bot
@@ -12,6 +13,8 @@ manager: shujoshi
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+## Introduction
 
 A bot is a program that provides automated responses in a conversational manner to a customer. It can also help resolve customer queries by using case deflection. A bot can also collect basic information from a customer and then provide it to a customer service agent to work further on the issue raised by the customer.  
 
@@ -35,9 +38,11 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 You must ensure the following requirements are met before you integrate your bot with Omnichannel for Customer Service.
 
-- You must have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0). 
+- Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0).  
+
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
-- If you want to add the Azure bot service to conversational IVR, then you must create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel. To do so, perform the following steps:
+
+- To add the Azure bot service to conversational IVR, you must create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel. To do so, perform the following steps:
     1. [Create a Cognitive Services resource using the Azure portal](/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
 
     2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0).
@@ -50,6 +55,7 @@ You must ensure the following requirements are met before you integrate your bot
 ## Integrate a bot with Omnichannel for Customer Service
 
 To integrate your bot with Omnichannel for Customer Service, perform the following steps:
+
 1. [Connect your bot resource to Omnichannel for Customer Service](#connect-your-bot-resource-to-omnichannel-channel).
 2. [Create the bot user as application user and assign it as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
 3. [Add the bot user to queues](#add-the-bot-user-to-queues).
@@ -166,18 +172,18 @@ Be sure to map the routing rules to the correct queues so that the queries are r
 
 The following sample provides the exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules are created. The bot user is added to one queue, and the agents are added to the two other queues. Routing rules are defined in such a way that whenever a customer starts a chat, it will be first sent to the bot, and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
 
-1.	Follow the instructions in [Configure bot user as Omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent) to create a bot user.
+1. Follow the instructions in [Configure bot user as Omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent) to create a bot user.
 
-2.	Follow the instructions in [Add the bot user to queues](#add-the-bot-user-to-queues) to create three queues and add users as follows:
+2. Follow the instructions in [Add the bot user to queues](#add-the-bot-user-to-queues) to create three queues and add users as follows:
     - **BotQueue**: Add the bot user to this queue.
     - **CreditCardQueue**: Add agents who will handle queries related to credit card.
     - **HomeLoanQueue**: Add agents who will handle queries related to home loan.
 
 3. Follow the instructions in [Add code snippet to engage a bot](#add-a-code-snippet-to-engage-the-bot) to add a code snippet for engaging a bot.
 
-4.	Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
+4. Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
-5.	Create three routing rules in the **ChatWorkStream** workstream in the following order:
+5. Create three routing rules in the **ChatWorkStream** workstream in the following order:
     - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query to bot.](media/bot-rule.png "Create a rule to send customer query to bot")
@@ -197,7 +203,7 @@ Each Chat and Digital Messaging license receives an entitlement of 50 chatbot se
 > [!NOTE]
 > For more information on Chatbot licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
-### What is a bot session?
+### What is a bot session
 
 A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the beginning, during, or end of a conversation.
 
@@ -209,17 +215,17 @@ A bot session is defined as a conversation in which a bot is invoked. The bot ca
 
 ### Purchase additional chatbot sessions
 
-Chatbot Session add-ons entitle customers with Chat or Digital Messaging to an additional 100 chatbot sessions for use with Microsoft Bot Framework bots, pooled at the tenant level. Additional chatbot sessions expire at the end of each month.
+Chatbot session add-ons entitle customers with Chat or Digital Messaging to an additional 100 chatbot sessions for use with Microsoft Bot Framework bots, pooled at the tenant level. Additional chatbot sessions expire at the end of each month.
 
 You can purchase additional bot conversations from Microsoft 365 admin center.
 
-1.	Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials.
+1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials.
 
-2.	Go to **Billing** > **Purchase Services**, and then select **Add-ons**.
+2. Go to **Billing** > **Purchase Services**, and then select **Add-ons**.
 
-3.	Under **Add-ons**, select **Dynamics 365 for Customer Service Chatbot session add-on**.
+3. Under **Add-ons**, select **Dynamics 365 for Customer Service Chatbot session add-on**.
 
-4.	Select the number of add-ons required and complete the purchase.
+4. Select the number of add-ons required and complete the purchase.
 
 > [!Note]
 >

@@ -17,10 +17,10 @@ As a supervisor, it's useful to be able to monitor the calls between your agents
 
 ## Prerequisites
 
-To monitor calls in the voice channel, you must have the **Omnichannel Supervisor** role. This role allows you to join and consult in ongoing conversations. 
+To monitor calls in the voice channel, you must have the **Omnichannel Supervisor** role. This role allows you to join and consult in ongoing conversations.
 
 
-## Monitor ongoing conversations 
+## Monitor ongoing conversations
 
 On the **Omnichannel Ongoing Conversations** dashboard, you, as a supervisor, can view a list of active conversations, including customer sentiment analysis for each call.
 
@@ -28,7 +28,8 @@ On the **Omnichannel Ongoing Conversations** dashboard, you, as a supervisor, ca
 > ![Screenshot of ongoing conversations dashboard.](media/voice-channel-monitor-ongoing-conversations.png)
 
 To find out details about an individual conversation:
-1. On the **Omnichannel Ongoing Conversations dashboard**, select it in the list of active conversations, and then select **Monitor**.
+
+- On the **Omnichannel Ongoing Conversations dashboard**, select it in the list of active conversations, and then select **Monitor**.
 
 
 ## Consult with an agent during a conversation
