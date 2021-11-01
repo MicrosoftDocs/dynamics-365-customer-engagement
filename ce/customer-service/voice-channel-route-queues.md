@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Set up workstreams and queues for the voice channel using unified routing
+# Set up workstreams and routing for voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -50,7 +50,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
     > [!NOTE]
     > Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.
 
-3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi=language-contact-center.md).
+3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi-language-contact-center.md).
 
 4. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
 
@@ -73,7 +73,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 The phone number is associated with the workstream.
 
-    :::image type="content" source="media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
+:::image type="content" source="media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
 
 ## Acquire a phone number
 

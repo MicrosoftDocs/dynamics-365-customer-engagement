@@ -23133,6 +23133,11 @@
       "source_path": "ce/customer-service/voice-channel-requirements.md",
       "redirect_url": "system-requirements-omnichannel",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-install.md",
+      "redirect_url": "omnichannel-provision-license",
+      "redirect_document_id": "false"
     }
   ]
 }

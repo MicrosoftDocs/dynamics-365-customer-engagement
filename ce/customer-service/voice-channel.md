@@ -48,8 +48,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 
 ## Administrator experience
 
-[System requirements for the voice channel](voice-channel-requirements.md)  
-[Provision and set up the voice channel](voice-channel-install.md)  
+
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Block a spam number](voice-channel-block-number.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  

@@ -1,16 +1,17 @@
 ---
-title: "Add conversational IVR to the voice channel with Power Virtual Agents | MicrosoftDocs"
-description: "Learn about how to add conversational IVR for using in voice channel in Omnichannel for Customer Service."
+title: "Integrate Power Virtual Agents bot for voice | MicrosoftDocs"
+description: "Learn about how to add a Power Virtual Agents bot for using in voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 11/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ms.custom: intro-internal
 ---
 
 
-# Add conversational interactive voice response with Power Virtual Agents
+# Integrate a Power Virtual Agents bot for voice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -29,8 +30,8 @@ Some of the features of the Power Virtual Agents bots for voice are as follows:
 The following prerequisites must be met for the Power Virtual Agents bot:
 
 - For the bot to have speech capabilities, it must be configured in Power Virtual Agents in the same Dynamics 365 environment in which you have configured the voice channel. More information: [Create a bot in an existing environment](/power-virtual-agents/environments-first-run-experience#create-a-bot-in-an-existing-environment).
-- The bot is published, and the **Transfer to Agent** setting is configured by selecting Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel).
-- The **Enable voice** option is selected in the **Omnichannel** section of the **Transfer to Agent** setting.
+- The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel).
+- The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
 
 
 ## Configure a bot for voice
@@ -42,11 +43,11 @@ Perform the following steps to add and configure a bot in Omnichannel for Custom
 
 1. On the **Add Bot** pane, select a bot from the **Name** box.
 
-   > ![Select a bot.](media/image35.png)
+   > ![Select a bot.](media/add-bot.png)
 
 1. Select **Save and close**. The bot is added to the workstream.
 
-   > ![Sample bot details.](media/image36.png)
+   > ![Sample bot details.](media/bot-in-workstream.png)
 
 More information:
 
@@ -58,31 +59,40 @@ More information:
 
 To configure the handoff between Power Virtual Agents bot to Omnichannel for Customer Service:
 
-1. In Power Virtual Agents, go to **Settings** and select **Transfer to agent**.
+1. In Power Virtual Agents, open the bot that you've configured to integrate with Omnichannel for Customer Service.
 
-1. Connect to **Dynamics 365 Omnichannel for Customer Service**.
+2. Go to **Manage** and select **Agent transfers**.
 
-1. Select **Azure App Registration**.
+3. In the **Agent transfers** section, select **Omnichannel**, and on the Omnichannel panel that appears, do the following:
+   
+   1. Select **Enable**. A message that Omnichannel is enabled is displayed on the top.
+   
+   2. Turn on the **Enable voice** toggle.
+   
+   3. Select **See how to register a new Application ID**, and follow the instructions to register an application identifier.
 
+      1. Select **App Registration**.
+      
+      2. Select **New registration**.
 
-1. Select **New registration**.
+      3. Enter the name of your bot, and then select **Register**.
 
-    ![App registration page.](media/image66.png)
+        ![Register the bot in Azure.](media/register-application-azure.png)
 
-1. Enter the name of your bot, and then select **Register**.
+      4. Copy the **Application ID** to the clipboard.
 
-    ![Register the bot in Azure.](media/image67.png)
+        ![Copy the application ID.](media/copy-app-id.png)
 
-1. Copy the **Application ID** to the clipboard.
+   4. Return to Power Virtual Agents, paste the copied ID in the **Application ID** field, and then select **Add your bot**. After the bot is added, a message is displayed and the bot is listed.
 
-    ![Copy the application ID.](media/image68.png)
+    :::image type="content" source="media/pva-omnichannel-bot-configuration.png" alt-text="Power Virtual Agents bot for Omnichannel for Customer Service":::
 
-1. Return to Power Virtual Agents, paste the application ID into the field, and then select **Next**.
-
+   5. Optionally, you can view the bot details in Omnichannel for Customer Service.
 
 
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[Configure context variables](context-variables-for-bot.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
