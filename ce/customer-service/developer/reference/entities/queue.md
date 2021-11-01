@@ -1,7 +1,7 @@
 ---
 title: "Queue entity reference (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Queue entity."
-ms.date: 07/26/2021
+ms.date: 11/01/2021
 ms.topic: "reference"
 author: "mh-jaya"
 ms.author: v-jmh

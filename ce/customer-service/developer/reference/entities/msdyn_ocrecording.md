@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ocrecording Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocrecording entity."
-ms.date: 08/02/2021
+ms.date: 11/01/2021
 ms.service: "powerapps"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c

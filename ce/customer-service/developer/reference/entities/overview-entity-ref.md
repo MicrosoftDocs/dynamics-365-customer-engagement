@@ -1,7 +1,7 @@
 ---
 title: "Overview for Omnichannel for Customer Service entity reference documentation | MicrosoftDocs"
 description: "Information on entities introduced as part of Omnichannel for Customer Service"
-ms.date: 10/20/2021
+ms.date: 11/01/2021
 ms.topic: "reference"
 author: "mh-jaya"
 ms.author: v-jmh
