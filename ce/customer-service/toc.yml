@@ -462,10 +462,10 @@
         href: add-knowledge-base-search-control-forms.md
    - name: Teams chat
     items: 
-    - name: Configure Teams chat
-      href: configure-teams-chat.md
-    - name: Use Teams chat
-      href: use-teams-chat.md
+      - name: Configure Teams chat
+        href: configure-teams-chat.md
+      - name: Use Teams chat
+        href: use-teams-chat.md
   - name: Routing in Omnichannel Administration
     items:
     - name: Routing and assignment in Omnichannel Administration
