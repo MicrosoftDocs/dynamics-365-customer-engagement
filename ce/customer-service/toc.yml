@@ -1196,6 +1196,8 @@
         href: developer/reference/entities/msdyn_ocphonenumber.md
       - name: msdyn_ocprovisioningstate
         href: developer/reference/entities/msdyn_ocprovisioningstate.md
+      - name: msdyn_ocrecording
+        href: developer/reference/entities/msdyn_ocrecording.md
       - name: msdyn_ocrequest
         href: developer/reference/entities/msdyn_ocrequest.md
       - name: msdyn_ocruleitem
@@ -1246,6 +1248,8 @@
         href: developer/reference/entities/msdyn_omnichannelsyncconfig.md
       - name: msdyn_operatinghour
         href: developer/reference/entities/msdyn_operatinghour.md
+      - name: msdyn_overflowactionconfig
+        href: developer/reference/entities/msdyn_overflowactionconfig.md
       - name: msdyn_paneconfiguration
         href: developer/reference/entities/msdyn_paneconfiguration.md
       - name: msdyn_panetabconfiguration
