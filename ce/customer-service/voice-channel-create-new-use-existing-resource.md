@@ -86,7 +86,7 @@ Your existing Azure resource is now connected to Azure Communication Services. Y
 
 9. [Create event subscription endpoint for SMS](#create-event-subscription-endpoint-for-sms).
 
-You can now configure the voice workstream settings for the phone number and configure outbound and inbound calling to make and/or receive customer calls.
+You can now configure the voice workstream settings for the phone number, and also configure outbound and inbound calling to make and/or receive customer calls.
 
 ## Additional information
 
