@@ -28,7 +28,7 @@ As an administrator, you can enable live transcription and recording of conversa
 ## Enable the transcript experience
 
 > [!NOTE]
-> This feature is generally available; however, in some environments, you might see a preview tag or banner in the interface. Any preview annotations for this feature can safely be ignored.
+> The transcript feature is generally available; however, in some environments, you might see a preview tag or banner in the interface. Any preview annotations for this feature can safely be ignored.
 
 Do the following to enable transcripts:
 
