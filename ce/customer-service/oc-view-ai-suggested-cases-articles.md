@@ -1,15 +1,12 @@
 ---
 title: "View smart assist suggestions for knowledge articles and similar cases using AI | MicrosoftDocs"
 description: "View smart assist suggestions for knowledge articles and similar cases using AI."
-ms.date: 10/27/2021
+ms.date: 11/02/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
-
-<!-- Editor comment: I don't find the image that is tagged in line 54. Could it be because there's a hyphen missing in its file name? (sa-option-voice call.png) Also, the image in line 61 has 8 labels, but the table gives no description for number 8. That seems like an oversight. -->
-
 
 
 # View smart assist suggestions for knowledge articles and similar cases using AI
