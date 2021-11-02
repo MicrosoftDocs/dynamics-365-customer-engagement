@@ -56,7 +56,7 @@ More information:
 
 ### Configure handoff from Power Virtual Agents to Omnichannel for Customer Service
 
-To configure the handoff between Power Virtual Agents bot to Omnichannel for Customer Service:
+**To configure the handoff between Power Virtual Agents bot to Omnichannel for Customer Service**
 
 1. In Power Virtual Agents, open the bot that you've configured to integrate with Omnichannel for Customer Service.
 
