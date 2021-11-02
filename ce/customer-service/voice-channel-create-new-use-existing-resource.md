@@ -4,7 +4,7 @@ description: "Use this topic to understand how to connect to Azure Communication
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To provision phone numbers for your business in Omnichannel Customer Service, you must first establish connection with Azure Communication Services. You can [connect to a new Azure resource](#quickstart: connect-to-a-new-azure-resource) or [use an existing one](#advanced: connect-to-an-existing-azure-resource), and then deploy the resource through Dynamics 365.
+To provision phone numbers for your business in Omnichannel Customer Service, you must first establish connection with Azure Communication Services. You can connect to a new Azure resource or use an existing one, and then deploy the resource through Dynamics 365.
 
 ## Quickstart: Connect to a new Azure resource
 
@@ -246,7 +246,7 @@ The following sections include short procedures that explain how you can get ret
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
-[Outbound calling](voice-channel-outbound-calling.md)  
+[Set up outbound calling](voice-channel-outbound-calling.md)  
 [Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 

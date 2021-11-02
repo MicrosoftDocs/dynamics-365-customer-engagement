@@ -4,7 +4,7 @@ description: "Use this topic to understand how you can acquire new phone numbers
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -147,7 +147,7 @@ If you no longer need a phone number, you can release it from your organization'
 
 [Overview of the voice channel](voice-channel.md)  
 [Connect to Azure Communication Services](voice-channel-create-new-use-existing-resource.md)  
-[Outbound calling](voice-channel-outbound-calling.md)  
+[Set up outbound calling](voice-channel-outbound-calling.md)  
 [Inbound calling](voice-channel-route-queues.md)  
 [Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  

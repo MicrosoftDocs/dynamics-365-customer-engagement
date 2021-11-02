@@ -4,7 +4,7 @@ description: "Learn how to set up a multi-language contact center in the voice c
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---

@@ -4,7 +4,7 @@ description: "Use this topic to understand how you can make customer calls in Om
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -37,5 +37,6 @@ In Omnichannel for Customer Service, you can select the **Launch dialer** phone 
 
 [Overview of the voice channel](voice-channel.md)  
 [Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md)  
+[Make and receive your first call](voice-channel-first-call.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

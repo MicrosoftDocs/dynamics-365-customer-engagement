@@ -4,7 +4,7 @@ description: "Use this topic to understand how the agent can use the agent dashb
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -134,5 +134,7 @@ Do the following steps to consult while you are on a call:
 
 [Overview of the voice channel](voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
+[Make and receive your first call](voice-channel-first-call.md)  
+[Call a customer](voice-channel-call-customer.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

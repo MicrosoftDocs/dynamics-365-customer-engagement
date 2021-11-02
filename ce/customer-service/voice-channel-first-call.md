@@ -4,7 +4,7 @@ description: "Learn how to use the first-run experience of the voice channel in 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -74,4 +74,10 @@ Perform the following steps to see the settings that have been automatically con
 
 ### See also
 
+[Call a customer](voice-channel-call-customer.md)  
 [Overview of the voice channel](voice-channel.md)  
+[Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
