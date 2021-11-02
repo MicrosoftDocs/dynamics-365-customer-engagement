@@ -4,7 +4,7 @@ description: "Learn how to monitor calls in the voice channel for Omnichannel fo
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -52,7 +52,7 @@ By joining a conversation, you have access to call controls that allow you to ca
 
 [Introduction to the voice channel](voice-channel.md)  
 [Provision and set up the voice channel](voice-channel-install.md)  
-[Outbound calling](voice-channel-outbound-calling.md)  
+[Set up outbound calling](voice-channel-outbound-calling.md)  
 [Route incoming calls to agents](voice-channel-route-queues.md)  
 [Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
 [View voice calls usage](voice-channel-usage.md)  

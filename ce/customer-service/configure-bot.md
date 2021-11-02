@@ -233,7 +233,7 @@ You understand that your data may be transmitted and shared with external system
 [Understand and create workstreams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Create and manage routing rules](routing-rules.md)  
-[Add a chat widget](add-chat-widget.md)  
+[View bot insights](omnichannel-insights-dashboard.md#botinsights)  
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 [Enable bot context NuGet package](enable-bot-context.md)  

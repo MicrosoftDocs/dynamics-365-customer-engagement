@@ -4,7 +4,7 @@ description: "Learn about how to configure a post-call survey for the voice chan
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.custom: intro-internal
 ms.service: dynamics-365-customerservice

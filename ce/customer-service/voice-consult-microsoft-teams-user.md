@@ -4,7 +4,7 @@ description: "Learn how to set up the consult experience between a voice channel
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---

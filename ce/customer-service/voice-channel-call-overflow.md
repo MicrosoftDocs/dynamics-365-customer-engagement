@@ -77,3 +77,6 @@ More information: [Customize automated messages](configure-automated-message.md#
 [Overview of voice channel](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure routing for the voice channel](voice-channel-route-queues.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

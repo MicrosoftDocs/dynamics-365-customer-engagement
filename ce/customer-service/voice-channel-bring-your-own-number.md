@@ -4,7 +4,7 @@ description: "Use this topic to understand how you can bring your own phone numb
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -56,8 +56,9 @@ The new phone number will be displayed in the Phone numbers list and is ready fo
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
-[Outbound calling](voice-channel-outbound-calling.md)  
-[Connect to Azure Communication Services](voice-channel-create-new-use-existing-resource.md)  
+[Set up outbound calling](voice-channel-outbound-calling.md)  
+[Set up inbound calling](voice-channel-route-queues.md)  
+[Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

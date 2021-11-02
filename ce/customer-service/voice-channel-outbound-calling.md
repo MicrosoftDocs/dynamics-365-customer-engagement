@@ -1,16 +1,16 @@
 ---
-title: "Outbound calling in the voice channel | MicrosoftDocs"
+title: "Set up outbound calling in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can set up outbound calling for phone numbers in your organization."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.custom: intro-internal
 ms.service: dynamics-365-customerservice
 ---
 
-# Outbound calling
+# Set up outbound calling
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -133,5 +133,6 @@ You can assign personal phone numbers to agents to make outbound calls to custom
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
+[Set up inbound calling](voice-channel-route-queues.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

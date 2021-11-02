@@ -1,10 +1,10 @@
 ---
 title: "Azure Bot service in the voice channel | MicrosoftDocs"
-description: "Use this topic to learn how to add Azure Bot services for conversational IVR in Omnichannel for Customer Service."
+description: "Use this topic to learn how to add Azure Bot services for conversational IVR system in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -202,6 +202,7 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ### See also
+
 [Overview of the voice channel](voice-channel.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  

@@ -1,15 +1,15 @@
 ---
-title: "Set up workstreams and queues for the voice channel | MicrosoftDocs"
-description: "Learn about how to set up workstreams and queues for the voice channel in Omnichannel for Customer Service."
+title: "Set up inbound calling for the voice channel | MicrosoftDocs"
+description: "Learn about how to set up workstreams and queues for inbound calling in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Set up workstreams and routing for voice channel
+# Set up inbound calling
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -150,3 +150,8 @@ You can configure work classification rules for the voice workstream to add deta
 [Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Assignment methods](assignment-methods.md)  
+[Set up outbound calling](voice-channel-outbound-calling.md)  
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)   
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+

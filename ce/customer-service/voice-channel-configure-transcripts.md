@@ -4,7 +4,7 @@ description: "Learn how to configure call recordings and transcripts in the voic
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.custom: intro-internal
 ms.service: dynamics-365-customerservice
@@ -23,7 +23,7 @@ As an administrator, you can enable live transcription and recording of calls, w
 
 ## Enable call recordings and transcripts for voice
 
-1. In the Omnichannel admin center, under **General settings** on the sitemap, select **Workstreams**.
+1. In the Omnichannel admin center, under **General settings** on the site map, select **Workstreams**.
 2. Select the workstream for which you want to enable recordings and transcripts.
 3. In the **Phone number** section, next to the pencil icon, select **Edit**.
 4. On the **Voice settings** page, select the **Behaviors** tab.
@@ -38,7 +38,7 @@ As an administrator, you can enable live transcription and recording of calls, w
 
 You can view the call transcriptions in Omnichannel admin center.
 
-1. In the Omnichannel admin center, under **General settings** on the sitemap, select **Users**, and then select the user whose conversations you want to view.
+1. In the Omnichannel admin center, under **General settings** on the site map, select **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. Select **Closed conversations** from the dashboard dropdown menu.
 
