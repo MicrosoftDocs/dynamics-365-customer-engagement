@@ -15,7 +15,7 @@ searchScope:
 - Customer Service
 ---
 
-# Assignment methods for queues
+# Assignment methods in unified routing
 
 Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the Customer Service Hub or Omnichannel admin center app.
 
@@ -77,6 +77,7 @@ Some important points about prioritization rules are as follows:
 - Prioritization rules are run during every assignment cycle. If you change any attributes of the work item, such as the priority of the case, that change will be considered during the next assignment cycle.
 - By default, the queue is sorted in the "first in first out" basis. If you don't create a prioritization rule, then the oldest work item will be assigned first.
 - The work items that don't match the criteria of any of the prioritization rule sets are kept in the last priority bucket, and are ordered by "First in first out".
+- Prioritization rules are skipped for affinity work items and such work items will be assigned before other work items in the queue. For information about affinity, see [Agent affinity](create-workstreams.md#agent-affinity).
 
 ## How assignment rulesets work
 

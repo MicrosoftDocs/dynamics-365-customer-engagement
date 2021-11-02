@@ -1,7 +1,7 @@
 ---
 title: "Create and deploy Word templates (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Create Word templates that you can use to export, format, and share detailed data from single records in Dynamics 365 Marketing."
-ms.date: 04/01/2018
+ms.date: 10/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -29,36 +29,31 @@ When the templates are ready, users can generate standardized documents that are
 
 1. Sign in to Dynamics 365 as a user with the System Administrator role.
 
-2. Go to **Settings** > **Advanced Settings** > **Organization** > **Excel & Word Templates** and choose **New Template**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-3. Select **Word Template**, and then select **Next**.
+1. The advanced settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **Business** > **Templates**.
 
-    ![Choose which type of template to create.](media/create-template-type.png "Choose which type of template to create")
+1. On the next screen, select **Document Templates**, then choose **+ New** in the top ribbon.
 
-4. Select an entity to which the template applies. The template will use data from this entity.
+1. Select **Word Template**, and then select an entity to which the template applies. The template will use data from this entity.
 
-    ![Choose an entity for the template.](media/create-template-word-entity.png "Choose an entity for the template")
+    > [!div class="mx-imgBorder"]
+    > ![Choose a Word template.](media/create-template-type3.png "Choose a Word template")
 
-5. To select the fields that you want to be included in the Word template, select **Choose Related Entities**.
+1. To select the fields that you want to be included in the Word template, select **Select Entity**.
 
-6. The **Choose Related Entity** dialog box opens. The relationships you select on this screen determine what entities and fields are available later when you define the Word template. Only select the relationships you need to add Dynamics 365 data to the Word template. Here are some example relationships for the account entity:
+1. The **Select Entity** dialog box opens. The relationships you select on this screen determine what entities and fields are available later when you define the Word template. Only select the relationships you need to add Dynamics 365 data to the Word template. Here are some example relationships for the account entity:
 
    - 1:N Relationship. An account can have multiple contacts.
    - N:1 Relationship. A lead, account, or contact can have multiple accounts.
    - N:N Relationship. An account can have multiple marketing lists. A marketing list can have multiple accounts.
 
-     When you're done choosing relationships, select **Done**.
+    When you're done choosing relationships, select **Download Template**. This will create a Word file on your local computer with the exported entity included as XML data.
 
      > [!NOTE]
      > To ensure that documents are downloaded in a timely matter, there is an upper limit of 100 for the number of related records returned for each relationship. For example, if you're exporting a template for an account and you want to include a list of its contacts, the document will return at most 100 of the account's contacts.
 
-7. In the **Select Entity** dialog box, select **Next**.
-
-8. Select **Download** to create a Word file on your local computer with the exported entity included as XML data.
-
-9. To upload the template later, select **Upload the template later** check box, and then select **Next**.
-
-10. To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**. More information: [Step 4: Upload the Word template back into Dynamics 365](#step-4-upload-the-word-template-back-into-dynamics-365)
+1. To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**. More information: [Step 4: Upload the Word template back into Dynamics 365](#step-4-upload-the-word-template-back-into-dynamics-365)
 
 ## Step 2: Enable the Developer tab
 
@@ -136,17 +131,20 @@ An administrator can use the **Settings** page to upload the Word template into 
 > [!NOTE]
 > Users in your organization can see the templates available to them by selecting **Word Templates** on the command bar in the list of records.
 
-1. In Dynamics 365 Marketing, go to **Settings** > **Advanced Settings** > **Organization** > **Excel & Word Templates**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-2. Select **Upload Template**.
+1. Navigate to **Settings** > **Business** > **Templates**.
 
-3. Find and upload the file.
+1. On the next screen, select **Document Templates**, then choose **Upload Template** in the top ribbon.
 
-    ![Upload Template dialog.](media/excel-upload-template.png "Upload Template dialog box")
+1. Find and upload the file.
 
-4. Select **Upload**. You'll see the summary of the file you're uploading.
+    > [!div class="mx-imgBorder"]
+    > ![Upload Template dialog.](media/excel-upload-template2.png "Upload Template dialog")
 
-5. Select **Finish**.
+1. Select **Upload**. You'll see the summary of the file you're uploading.
+
+1. Select the **X** icon in the upper right of the top ribbon to close the information screen.
 
 ### See also
 
