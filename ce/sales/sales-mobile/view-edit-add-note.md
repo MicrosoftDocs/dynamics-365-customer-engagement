@@ -1,7 +1,7 @@
 ---
 title: View, edit, or add a note in the Dynamics 365 Sales mobile app
 description: Instructions to view, edit, or add a note in the Dynamics 365 Sales mobile app
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -62,6 +62,8 @@ You can perform the following actions in the **Notes** section.
 3.  To attach a file or an image stored on your mobile device, tap ![Paper clip icon.](media/sm-attach-file-note.png "Paper clip icon").
 
 4.  To take a photo from your mobile camera and attach it to the note, tap ![Camera icon.](media/sm-take-photo-note.png "Camera icon").
+
+5. To add content by dictation, tap ![Microphone icon to add a note.](media/mic-icon-note.png "Microphone icon to add a note"). More information: [Use speech-to-text in the mobile app](speech-to-text.md)
 
     > [!NOTE]
     > If you're adding the note by using the navigation bar at the bottom of the screen, you must connect the note to the record that it's regarding. Tap **Next**, and then select the record you want to associate the note with. More information about annotation: [annotation EntityType](/dynamics365/customer-engagement/web-api/annotation?view=dynamics-ce-odata-9&preserve-view=true)

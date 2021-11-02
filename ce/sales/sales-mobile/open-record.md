@@ -1,13 +1,13 @@
 ---
 title: Manage records in the Dynamics 365 Sales mobile app
 description: Learn to view and edit records in the Dynamics 365 Sales mobile app.
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-# Manage records 
+# Manage records
 
 Records can be accessed from the home page or the Meetings page.
 
@@ -61,7 +61,8 @@ Follow these steps to quickly create records and activities in the Dynamics 365 
 4.	In the **Create new (table)** form, fill in the details, and then tap **Save**.
 
 > [!NOTE]
-> To understand which table types are supported for quick creation of records and activities, go to [Configure tables for quick creation](configure-quick-create.md).
+> - To understand which table types are supported for quick creation of records and activities, go to [Configure tables for quick creation](configure-quick-create.md).
+> - You can enter details in a field of type **Multiple Lines of Text**, for example **Description**, by dictation. More information: [Use speech-to-text in the mobile app](speech-to-text.md)
 
 ## Edit records
 
