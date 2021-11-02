@@ -123,6 +123,6 @@ For any view that's selected, keep in mind the following details:
 
 ### See also
 
-[Use Teams chat](/use-teams-chat)<br>
+[Use Teams chat](/use-teams-chat.md)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
