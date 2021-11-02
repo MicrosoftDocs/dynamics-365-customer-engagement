@@ -20,7 +20,7 @@ To provision phone numbers for your business in Omnichannel Customer Service, yo
 ### Prerequisites
 
 Before you connect to an Azure resource, check whether you have the following:
-- An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Azure Subscriptions eligibility](azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) requirements.
+- An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Azure Subscriptions eligibility](/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) requirements.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure resource only if you have at least contributor-level permissions.
 
 After you've verified your Azure subscription and checked your permissions on the subscription, you can create a new Azure resource and connect to it.
