@@ -21,9 +21,9 @@ manager: shujoshi
 
 ## Introduction
 
-Welcome to Dynamics 365 Customer Service admin center (preview), a new app that unifies and simplifies administration experience across the Customer Service suite including Service management in Customer service Hub, Omnichannel admin center, and app profile manager.
+Welcome to Dynamics 365 Customer service admin center (preview), a new app that unifies and simplifies administration experience across the Customer Service suite including Service management in Customer service Hub, Omnichannel admin center, and App profile manager.
 
-Use the Customer Service admin center app to set up everything related to customer service, such as defining parent-child case hierarchy, creating queues, rules for automatic case creation, service-level agreements (SLAs), entitlements, and customer service schedules.
+Use the Customer Service admin center app to set up everything related to customer service, such as defining parent-child case hierarchy, creating queues/channels/routing, rules for automatic case creation, service-level agreements (SLAs), entitlements, customer service schedules and etc
 
 Some of the highlighted improvements include:  
 
@@ -35,21 +35,21 @@ Some of the highlighted improvements include:
 
 - Feature landing page to provide an overview of all capabilities for that feature 
 
-Adapts to the capabilities that are provisioned. Based in core Customer service, if omnichannel is provisioned, additional features are lighted up.
+- Adapts to the capabilities that are provisioned. Based in core Customer service, if omnichannel is provisioned, additional features are lighted up.
 
 ## Prerequisites
 
 You will need one of the below security roles to access this new app (acronym as CSAC). The last three are for back compatibility with current admin access to CSH, Omnichannel admin center and App profile managers.  
 
-System Administrator – can access and edit all the sitemap entries  
+- System Administrator – can access and edit all the sitemap entries  
 
-System Customizer – can access and edit all the sitemap entries 
+- System Customizer – can access and edit all the sitemap entries 
 
-Customer service manager – can access the entities which are original service management  
+- Customer service manager – can access the entities which are original service management   
 
-App profile administrator – can access the app and edit App profile related entities.  
+- App profile administrator – can access the app and edit App profile related entities.  
 
-Omnichannel administrator – back compatibility with omnichannel admin center, this role can access to CSac and all the Omnichannel related entities as Omnichannel admin center does today.
+- Omnichannel administrator – can access to the app and edit all the Omnichannel related entities as Omnichannel admin center does today.
 
 ## Access the app
 
@@ -65,7 +65,7 @@ A: Customer service admin center unify all the administration settings from Omni
 
 Q: When do you plan to deprecate existing admin experience?  
 
-A: Once Customer service admin center becomes general availability, we will leave some time for customers to get used it and provide feedback, so there is a period this new app will co-exist with existing admin experience. Then we will announce the old experience. You should be able to find the benefits to use this new app.  
+A: Once Customer service admin center becomes general availability, we will leave some time for customers to get used it and provide feedback, so there is a period this new app will co-exist with existing admin experience. Then we will announce the deprecation of old experience. We highly recommend you to start use this app as early as possible, you should be able to find the benefits to use this new app.  
 
 Q: You integrate existing App profiles manager experience into this new app, why and did you change any functionality?  
 
@@ -73,6 +73,6 @@ A: We get lots of feedbacks from customer that they need to go to App profiles m
 
 Q: Can I customize this new application?
 
-A: Same as the other App module, you can use App designer to  add additional entries to sitemap. Hence if you have custom entities that admins use to manage aspects of your business, then you add them to CSAC sitemap, so your admins don’t have to use a separate app. To reduce conflicts with sitemap that ships by default with CSAC, we recommend you create a new sub-area and add your sitemap entries there.
+A: Same as the other App modules, you can use App designer to  add additional entries to sitemap. Hence if you have custom entities that admins use to manage aspects of your business, then you add them to CSAC sitemap, so your admins don’t have to use a separate app. To reduce conflicts with sitemap that ships by default with CSAC, we recommend you create a new sub-area and add your sitemap entries there.
 
 ### See also
