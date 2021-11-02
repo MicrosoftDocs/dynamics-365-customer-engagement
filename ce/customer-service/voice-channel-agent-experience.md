@@ -1,30 +1,17 @@
 ---
-title: "Use the voice channel in the agent dashboard | MicrosoftDocs"
-description: "Use this topic to understand agent experience in Omnichannel for Customer Service."
+title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
+description: "Use this topic to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/31/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Use the voice channel in the agent dashboard 
+# Use agent dashboard and call controls in the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]>
 
 ## Introduction
 
@@ -38,7 +25,7 @@ When a customer calls your business, the incoming call is received by an intelli
 
 ## Call controls
 
-The conversation panel in the agent dashboard includes the following call controls that you can use when you call or answer a phone call from a customer.
+The conversation panel in the agent dashboard includes the following call controls that you can use when you call or answer phone calls from customers.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of call controls](./media/voice-channel-call-controls.png)
@@ -52,7 +39,7 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Mark number as spam**: Select to [report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
 - **Device settings**: Configure your microphone and speaker settings.
 - **Take notes**: You can take any important or specific notes regarding your conversation with the customer. Note that this is in addition to the call recording and transcription that happen during the conversation.
-- **Pause transcription**: If you don't want to capture some details of the conversation, such as bank details, billing, or payment information, you can temporarily pause the transcription and later resume it.
+- **Pause recording and transcription**: If you don't want to capture some details of the conversation, such as bank details, billing, or payment information, you can temporarily pause the transcription and later resume it.
 - **Knowledge Articles**: Select this option to get a list of knowledge base articles pertaining to the conversation that you can use to resolve the customer issue.
 - **Link to conversation**: You can link another conversation, case, or knowledge article to the conversation.
 - **Transcription**: When transcription and recording service is enabled by your administrator, all of the conversation between you and the customer is automatically transcribed in real time, which means that the you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in case of a call transfer) to see the call history.
@@ -60,11 +47,11 @@ The conversation panel in the agent dashboard includes the following call contro
 
 ## Report a phone number as spam
 
-When you receive a phone call and want to report the number as spam *while on the call*, you can do so immediately via the call controls on your conversation panel. A notification is then sent to your administrator for review and further action.
+When you receive a phone call and want to report the number as spam while on the call, you can do so immediately via the call controls on your conversation panel. A notification is then sent to your administrator for review and further action.
 
 To report a phone number as spam, select the ellipsis to open more actions, and then select **Mark number as spam**.
 
-You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers (preview)** page.
+You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers** page.
 
 ## View call recordings and transcripts
 
@@ -88,13 +75,13 @@ The **Details** tab of the Conversation Form displays call recording details.
 
 **Recording playback**
 
-- **Play**:  Select the button to listen to the conversation audio.
+- **Play**: Select the button to listen to the conversation audio.
 - **Rewind** or **Fast-forward**: Select the buttons to either rewind in 10-second increments or fast-forward in 30-second increments.
 - **Volume**: Move the slider to adjust the volume to your desired level.
 - **Download audio**: Download an .mp4 audio file of the complete conversation.
 - **Speed**: From the dropdown menu, select the playback speed of the conversation, whether slower or faster. **Normal** is the default, and is the speed in which the conversation was recorded.
 - **Conversation scroll bar**: Move the scroll bar to any point of the conversation, or listen to it from beginning to end. When you select a location in the recording visualization, the transcript also moves to same place in the conversation.
-- **Sentiment**: Colors and emojis help you quickly analyze the sentiment of the conversation. Green equals positive sentiment, red equals negative sentiment, and grey equals neutral sentiment.
+- **Sentiment**: Colors and emojis help you quickly analyze the sentiment of the conversation. Green indicates positive sentiment, red indicates negative sentiment, and grey indicates neutral sentiment.
 
 **Transcript**
 
@@ -127,11 +114,27 @@ The **Metrics** tab of the Conversation Form displays the following details:
 - **Longest customer monologue**: The longest amount of time that the customer spoke during the conversation.
 - **Switches per conversation**: The number of times the conversation switched from agent to customer, and vice versa.
 
-The **Sessions** tab displays details about the number of voice calls between the agent and the customer, as well as the length of time of the conversation and the date and time each conversation took place.
+The **Sessions** tab displays details about the number of voice calls between the agent and the customer, and the duration, date, and time of the conversation.
 
+## Consult with Microsoft Teams users
+
+If your administrator has enabled the option for you to consult with subject matter experts (SMEs) through Microsoft Teams, you can contact them by navigating to the Teams tab in the **Consult** section of the communication panel. Your supervisor can monitor the calls and after the call ends, the call recording and transcript of the conversation with the Microsoft Teams user is saved in Dynamics 365 for reporting and compliance.
+
+Do the following steps to consult while you're on a call:
+
+1. Select the **Consult** option, and go to the **Teams** tab in the **Consult** section that appears.
+
+2. Use the search option to search for an SME. The results are filtered by the name and live presence in Microsoft Teams.
+
+3. Select **Add** for the SME you want to consult. The SME will receive a call in Microsoft Teams.
+
+4. Optionally, you can transfer the call to the SME.
 
 ### See also
 
-[Overview of the voice channel](voice-channel.md)
+[Overview of the voice channel](voice-channel.md)  
+[Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
+[Make and receive your first call](voice-channel-first-call.md)  
+[Call a customer](voice-channel-call-customer.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
