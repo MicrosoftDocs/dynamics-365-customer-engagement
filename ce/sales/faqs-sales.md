@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions - Dynamics 365 Sales | MicrosoftDocs"
 description: "Find a list of frequently asked questions that are related to different features in Dynamics 365 Sales Enterprise."
-ms.date: 09/29/2020
+ms.date: 11/02/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -206,6 +206,7 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 -	On the [Advanced](forecast-configure-advanced-settings.md) page, you can enable or disable auto-hide parent row, multi-currency selection, and customize access to edit fields in the underlying records grid.    
 When you save and publish the configuration, the changes will be applied immediately to the forecast. If you update data (simple columns and adjust fields), these changes may take up to two hours to reflect in the forecast. 
 
-
+**Question**:<br>Can I manually set the forecast category of an opportunity as **Won** or **Lost**?     
+**Answer**:<br> Technically, you can. However, this will interfere with your forecast and rollup values, and is not an ideal practice. For example, if you manually set the value to **Won**  without closing the opportunity, the **Revenue** for the opportunity is shown as 0 in the forecast. This happens because the **Revenue** field picks up the actual revenue that you provide when you close an opportunity as won. The best practice is to close the opportunity as Won or Lost and have the forecast category  automatically updated. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

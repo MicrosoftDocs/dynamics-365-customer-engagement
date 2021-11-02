@@ -1,15 +1,15 @@
 ---
 title: "Close opportunities as won or lost - Sales Enterprise | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost. You can reopen it in future if the customer is interested in pursuing the opportunity."
-ms.date: 10/25/2021
+ms.date: 11/02/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Close opportunities as won or lost (Sales Hub) 
+# Close opportunities as won or lost 
 
-If your customer has accepted your proposal, congratulations! However, whether your customer accepted or declined your proposal, it's now time to close that opportunity.
+If your customer has accepted your proposal, congratulations! Whether your customer had accepted or declined your proposal, it's now time to close that opportunity.
 
 ## License and role requirements
 
@@ -22,9 +22,9 @@ If your customer has accepted your proposal, congratulations! However, whether y
 
 ## Close an opportunity  
 
-1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
+1. Select **Opportunities** in the Sales Hub sitemap. 
     
-2. Open the opportunity you want to edit.  
+2. Open the opportunity you want to close.  
 1. Select the **Quotes** tab and ensure that all the quotes are in **Closed** state. For instructions on how to close a quote, see [Close a quote](close-quote.md).
   
 3. At the top of the **Opportunity** form, do one of the following:  
@@ -59,13 +59,16 @@ If your customer has accepted your proposal, congratulations! However, whether y
 
 When you close an opportunity record, all the information that you enter is available in the associated Opportunity Close record. To see the associated Opportunity Close records, on the **Related** tab, select **Activities**. Then, on the **Activities** tab, open the **Closed Activity Associated View**. 
 
+> [!NOTE]
+> After you close an opportunity record, the forecast category of the opportunity is automatically updated to **Won** or **Lost** depending on your selection for the opportunity closure.
+
 For information on how to resolve the common errors that you may see while closing an opportunity, see the [troubleshooting guide](troubleshooting.md).
 
 ## Reopen a closed opportunity
 
 If you've closed an opportunity as lost, but would like to start discussions about a potential sale, you may want to reopen a closed opportunity.
 
-1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
+1. Select **Opportunities** in the Sales Hub sitemap. 
    
 2. To see all the closed opportunities, in the view selector, select the **Closed Opportunities** view.  
 
