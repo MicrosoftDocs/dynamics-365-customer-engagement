@@ -2,11 +2,11 @@
 
 (Includes Resource Scheduling controls version 1.2.6.212992)
 
-- Allow user to schedule those entities without an associated requirement record with scheduling assistant on new schedule board. 
-- Enabled sorting functionality for new schedule board list view when user uses ‘Find Availability’ to book requirement on hourly view, users can sort rows using each of the       columns.
-- Improved the performance when user uses ‘Find Availability’ to book requirement on new schedule board.
-- Fixed the bug: Travel time is included in booking duration when book facility type of requirement on new schedule board. 
-- Fixed the bug: New schedule board sometimes crashes when schedule a multiday requirement using Book and Exit button with ‘Find Availably’ on new schedule board. 
+- Allow users to schedule entities without an associated requirement record with scheduling assistant on the new schedule board. 
+- Enabled sorting functionality for new schedule board list view when user uses **Find Availability** to book requirement on hourly view. Users can sort rows using each of the       columns.
+- Improved the performance when user uses **Find Availability** to book requirement on new schedule board.
+- Fixed bug: Travel time is included in booking duration when booking facility type of requirement on new schedule board. 
+- Fixed bug: New schedule board sometimes crashes when scheduling a multiday requirement using **Book and Exit** button with **Find Availably** on the new schedule board. 
 
 ## 3.12.65.6
 
