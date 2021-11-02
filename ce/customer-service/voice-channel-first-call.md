@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 
 
-# Get your first phone call
+# Make and receive your first phone call
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

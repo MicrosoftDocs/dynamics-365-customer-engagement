@@ -55,7 +55,7 @@ You can now call the phone number assigned to the third-party IVR system and ach
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
-[Connect to Azure Communication Services](voice-channel-create-new-use-existing-resource.md)  
+[Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
