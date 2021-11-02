@@ -1,6 +1,6 @@
 ---
-title: Use the speech-to-text capability in the Dynamics 365 Sales mobile app
-description: Learn how to use the speech-to-text capability for entering note's content and record's description in the Dynamics 365 Sales mobile app.
+title: Dictate text in the Dynamics 365 Sales mobile app
+description: Learn how to enter a note's content or a record's description by using dictation in the Dynamics 365 Sales mobile app.
 ms.date: 12/01/2021
 ms.topic: article
 ms.service: dynamics-365-sales
@@ -9,24 +9,24 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Use speech-to-text in the mobile app
+# Use dictation in the mobile app
 
-Speech-to-text, also known as speech recognition, enables real-time transcription of audio streams into text. The Dynamics 365 Sales mobile app allows you to use the speech-to-text capability to enter the following information in a compliant and secure way.
+The Dynamics 365 Sales mobile app allows you to dictate text in a compliant and secure way. You can use dictation for the following:
 
-- Text content of a note
-- Details in a field of type **Multiple Lines of Text**. For information about the field data types, see [Types of fields and field data](/dynamics365/customerengagement/on-premises/customize/types-of-fields?view=op-9-1)
+- Entering text content of a note
+- Entering details in a field of type **Multiple Lines of Text**. For information about the field data types, see [Types of fields and field data](/dynamics365/customerengagement/on-premises/customize/types-of-fields?view=op-9-1)
 
 > [!NOTE]
 > This feature leverages the Microsoft Speech service. More information: [Speech service](/azure/cognitive-services/speech-service/)
 
-## Use speech-to-text to add text content to a note
+## Use dictation to add text content of a note
 
 1. In the **Note** form, tap ![Microphone icon to add a note.](media/mic-icon-note.png "Microphone icon to add a note") at the bottom command bar.
 
     ![Tap the microphone button on the Notes form.](media/note-mic.png "Tap the microphone button on the Notes form")
 
     > [!NOTE]
-    > If you are using the speech-to-text capability for the first time in Dynamics 365 mobile app, you are prompted to allow the app to access your phone's microphone. Go to **Settings**, and give the app the access to your phone's microphone.
+    > If you are using the dictation capability for the first time in Dynamics 365 mobile app, you are prompted to allow the app to access your phone's microphone. Go to **Settings**, and give the app the access to your phone's microphone.
 
 2. Tap the microphone button to start listening.
 
@@ -40,7 +40,7 @@ Speech-to-text, also known as speech recognition, enables real-time transcriptio
 
     ![Note text is written.](media/note-text-speech.png "Note text is written")
 
-## Use speech-to-text in a Multiple Lines of Text field
+## Use dictation in a Multiple Lines of Text field
 
 1. Open the quick view form of a record that has a Multiple Lines of Text field. For example, opportunity has a **Description** field.
 
