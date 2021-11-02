@@ -609,7 +609,7 @@ A lookup control is a field on the form that searches the records of another tab
 
 ### Why it fails
 
-This rule fails if the default tab (the first tab on the form) of any work order form has more than either **5 subgrids controls** or **20 lookup controls**. Form load performance is impacted by number of controls on the default tab of the form, hence it is strongly suggested to minimize the number of controls there. 
+This rule fails if the default tab (the first tab on the form) of any work order form has more than either **4 subgrids controls** or **20 lookup controls**. Form load performance is impacted by number of controls on the default tab of the form, hence it is strongly suggested to minimize the number of controls there. 
 
 
 ### How to fix
