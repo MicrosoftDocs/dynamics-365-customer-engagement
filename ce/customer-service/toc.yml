@@ -159,9 +159,9 @@
             - name: close
               href: ../app-profile-manager/reference/microsoft-apm/close.md
             - name: focus
-              href: ../app-profile-manager/reference/microsoft-apm/focus.md         
+              href: ../app-profile-manager/reference/microsoft-apm/focus.md
             - name: requestFocus
-              href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md      
+              href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md
           - name: Properties
             items:                           
             - name: sessionID
@@ -171,13 +171,13 @@
             - name: canClose
               href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
             - name: title
-              href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md                      
+              href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md
         - name: Tab management
           items:
           - name: Methods              
             items: 
             - name: getFocusedTab
-              href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md        
+              href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md
             - name: getAllTabs
               href: ../app-profile-manager/reference/microsoft-apm/getAllTabs.md
             - name: getTab
@@ -185,14 +185,14 @@
             - name: createTab
               href: ../app-profile-manager/reference/microsoft-apm/createTab.md
             - name: canCreateTab
-              href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md                    
+              href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md
             - name: closeTab
               href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
             - name: focusTab
-              href: ../app-profile-manager/reference/microsoft-apm/focusTab.md  
+              href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
             - name: refreshTab             
               href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
-          - name: Properties                            
+          - name: Properties
             items:       
             - name: tabID
               href: ../app-profile-manager/reference/microsoft-apm/tabID.md
@@ -240,7 +240,7 @@
         href: configure-work-classification.md
       - name: Assignment methods for queues
         items:  
-        - name: Assignment methods for queues
+        - name: Assignment methods in unified routing
           href: assignment-methods.md
         - name: Configure assignment methods for queues
           href: configure-assignment-rules.md
@@ -250,6 +250,8 @@
           href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
+        - name: Enable entities for queues in unified routing
+          href: enable-entities-for-queues.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md
       - name: Set up skill-based routing
@@ -571,19 +573,19 @@
       - name: Configure relevance search for transcripts
         href: relevance-search-chat-transcript.md
       - name: Configure link to conversation button
-        href: configure-link-to-conversation-model-driven-app-form.md
-      - name: Initiate a chat
+        href: configure-link-to-conversation-model-driven-app-form.md 
+      - name: Start a chat
         href: initiate-chat-wait-time.md
       - name: Start chat proactively
         href: start-proactive-chat.md
+      - name: Send authentication token
+        href: send-auth-token-starting-chat.md       
       - name: Configure automatic closure of conversations
         href: auto-close-conversation.md
-      - name: Manage custom context
+      - name: Send custom context
         href: send-context-starting-chat.md
       - name: Display custom context
         href: display-custom-context.md
-      - name: Send authentication token
-        href: send-auth-token-starting-chat.md
     - name: Customizer experience
       items: 
       - name: Overview
@@ -658,6 +660,8 @@
     items: 
     - name: Configure operating hours
       href: create-operating-hours.md
+    - name: Configure and manage custom presence
+      href: presence-custom-presence.md
     - name: Enable file attachments
       href: enable-file-attachments.md
     - name: Enable formatted messages
@@ -666,7 +670,7 @@
       href: configure-pre-chat-survey.md
     - name: Configure post-conversation surveys
       href: configure-post-conversation-survey.md
-    - name: Automatically identify customers
+    - name: Identify customers automatically
       href: record-identification-rule.md
     - name: Configure chat authentication settings
       href: create-chat-auth-settings.md
@@ -736,7 +740,7 @@
         href: configure-bot.md
       - name: Configure context variables for bots
         href: context-variables-for-bot.md
-      - name: Link customer and case when bot escalates to human agent
+      - name: Link customer and case when bot escalates or ends conversations
         href: link-customer-case-when-bot-escalates.md
     - name: Developer experience
       items: 
@@ -854,9 +858,7 @@
         href: configure-interactive-dashboards-customer-service-hub.md
   - name: Service scheduling
     items: 
-    - name: Upcoming changes
-      href: scheduling-overview.md
-    - name: Customer Service Scheduling
+    - name: Core Service Scheduling
       items: 
       - name: Overview of Service scheduling
         href: basics-service-service-scheduling.md
@@ -1018,6 +1020,8 @@
         href: developer/reference/entities/msdyn_agentscript.md
       - name: msdyn_agentscriptstep
         href: developer/reference/entities/msdyn_agentscriptstep.md
+      - name: msdyn_agentstatushistory
+        href: developer/reference/entities/msdyn_agentstatushistory.md        
       - name: msdyn_analytics
         href: developer/reference/entities/msdyn_analytics.md
       - name: msdyn_assignmentconfiguration

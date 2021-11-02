@@ -49,7 +49,12 @@ The trial comes with guided tours and videos that highlight key product features
 
 ### How do I remove sample data from the trial?
 
-Sign into your trial environment. On the **Get Started** page, there is a **Remove sample data** section at the bottom of the screen. Select the **Remove** button to remove all sample data from the trial.  
+Sign into your trial environment. On the **Get Started** page, there is a **Remove sample data** section at the bottom of the screen. Select the **Remove** button to remove all sample data from the trial. 
+
+> [!Note]
+> If you created new records that referred to the sample data, sample data deletion will fail. For instance, you created a work order with the sample **Incident Type** *Installation*. In this case, the *Installation* incident type will not be deleted.
+> 
+> To see additional bulk delete job details, go to **Advanced Settings** > **Settings** > **Sample Records Delete**.
 
 ### How do I restore sample data?
 
