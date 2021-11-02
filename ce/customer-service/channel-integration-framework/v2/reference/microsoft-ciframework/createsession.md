@@ -37,7 +37,6 @@ The structure of the `input` parameter JSON is as follows:
 ```json
 { 
    "templateName":"<unique name of session template>",
-   "templateTag":"<template tag>",
    "templateParameters":{ 
       "globalparam":"number value OR boolean value OR json string value OR parameterized string value",
       "app template 1":{ 
