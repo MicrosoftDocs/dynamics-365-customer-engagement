@@ -114,7 +114,7 @@ The **Metrics** tab of the Conversation Form displays the following details:
 - **Longest customer monologue**: The longest amount of time that the customer spoke during the conversation.
 - **Switches per conversation**: The number of times the conversation switched from agent to customer, and vice versa.
 
-The **Sessions** tab displays details about the number of voice calls between the agent and the customer, as well as the duration, date, and time of the conversation.
+The **Sessions** tab displays details about the number of voice calls between the agent and the customer, and the duration, date, and time of the conversation.
 
 ## Consult with Microsoft Teams users
 
