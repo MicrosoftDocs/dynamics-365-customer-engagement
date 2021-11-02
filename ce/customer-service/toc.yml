@@ -437,7 +437,7 @@
       - name: Configure the origin allow list for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
     - name: Knowledge author experience
-       items:
+      items:
       - name: Configure the knowledge article authoring language
         href: set-knowledge-article-authoring-language.md
       - name: Create and manage knowledge articles 
