@@ -52,6 +52,8 @@ The Dynamics 365 Sales mobile app allows you to dictate text in a compliant and 
 
 4. Tap the microphone button to start listening.
 
+    ![Tap the microphone button to start listening in a record.](media/mic-to-listen-record.png "Tap the microphone button to start listening in a record")
+
 5. When the microphone button turns blue and the **Listening...** caption appear, start speaking.
 
 6. Once you finish speaking and the text is written on the screen, tap the microphone button to stop listening. 
