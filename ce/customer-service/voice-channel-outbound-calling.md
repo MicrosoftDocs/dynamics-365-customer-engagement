@@ -133,5 +133,6 @@ You can assign personal phone numbers to agents to make outbound calls to custom
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
+[Set up inbound calling](voice-channel-route-queues.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
