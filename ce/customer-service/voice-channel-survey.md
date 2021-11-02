@@ -23,7 +23,7 @@ There are three ways to start post-call surveys:
 
 - **Automatic - implicit**: The IVR bot informs the customer about a post-call survey at the end of the call. 
     After the agent disconnects, the call is automatically transferred to a post-call survey bot.
-- **Automatic - explicit**: The IVR bot asks the customer if they want to participate in a post-call survey. The consent is saved in a va_surveyconsent Boolean variable.
+- **Automatic - explicit**: The IVR bot asks the customer if they want to participate in a post-call survey. The consent is saved in a `va_SurveyConsent` Boolean variable.
 
     If the customer consents, the call is automatically transferred to the post-call survey bot at the end of the agent call. If the customer says no, the call ends when the bot hangs up.
 

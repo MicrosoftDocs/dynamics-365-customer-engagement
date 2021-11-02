@@ -32,7 +32,7 @@ This section lists the high-level steps you must perform to enable contextual ca
 
 2. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the third-party IVR system with Omnichannel for Customer Service.
 
-3. To initiate a call transfer from the IVR system, issue an SIP (Session Initiation Protocol) REFER request to the Azure Communication Services resource. This will transfer the call to the Azure resource that's connected to Omnichannel for Customer Service.
+3. To initiate a call transfer from the IVR system, issue an SIP (Session Initiation Protocol) INVITE request to the Azure Communication Services resource. This will transfer the call to the Azure resource that's connected to Omnichannel for Customer Service.
 
 4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data, as follows: "userToUserInformation": "param1=value1;param2=value2".  
 

@@ -14,15 +14,12 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-
 When you want to try the voice channel for the first time in your org, the system sets it up for you to have the first-run experience. The tasks in this section take you through the automatic setup steps.
 
-> [!NOTE]
-> If you want to run the first phone call with a bot experience, the bot must be configured in Power Virtual Agents, published, and registered in Azure. The bot must be enabled for the environment in which you try the phone call. You might need to sign into [Power Virtual Agents](https://powerva.microsoft.com/environments) and select the right environment. More information: [Working with environments in Power Virtual Agents](/power-virtual-agents/environments-first-run-experience).
 
 ## Set up voice demo
 
-1. In the **Omnichannel admin center (preview)** app, go to the Home page.
+1. In the **Omnichannel admin center** app, go to the Home page.
 
     ![Omnichannel admin center home page.](media/image9.png "Omnichannel admin center home page.")
 

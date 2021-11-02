@@ -13,15 +13,15 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To provision phone numbers for your business in Omnichannel Customer Service, you must first establish connection with Azure Communication Services. You can [connect to a new Azure resource](#connect-to-a-new-azure-resource) or [use an existing one](#connect-to-an-existing-azure-resource), and then deploy the resource through Dynamics 365.
+To provision phone numbers for your business in Omnichannel Customer Service, you must first establish connection with Azure Communication Services. You can [connect to a new Azure resource](#quickstart: connect-to-a-new-azure-resource) or [use an existing one](#advanced: connect-to-an-existing-azure-resource), and then deploy the resource through Dynamics 365.
 
-## Prerequisites
+## Quickstart: Connect to a new Azure resource
+
+### Prerequisites
 
 Before you connect to an Azure resource, check whether you have the following:
-- An Azure subscription that's in the same tenant as your Dynamics 365 account. If you don't have an Azure subscription, [create a free account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) before you begin.
+- An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Azure Subscriptions eligibility](/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) requirements.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure resource only if you have at least contributor-level permissions.
-
-## Connect to a new Azure resource
 
 After you've verified your Azure subscription and checked your permissions on the subscription, you can create a new Azure resource and connect to it.
 
@@ -37,12 +37,12 @@ After you've verified your Azure subscription and checked your permissions on th
       > [!NOTE]
       > The resource group name should be unique within a given subscription.
    - **Resource name**: Enter a name for the resource.
-3. Select **Deploy** to create and deploy the resource. 
+3. Select **Deploy** to create and deploy the resource.
     > [!div class="mx-imgBorder"]
     > ![Create new resource.](./media/voice-channel-number-mgmt-azure-create-new-resource.png "Create new resource.")
 You're now connected to Azure Communication Services.
 
-## Connect to an existing Azure resource
+## Advanced: Connect to an existing Azure resource
 
 You can also use an existing Azure Communication Services resource to connect with voice or SMS channels. You can use a resource from any of your Azure subscriptions, available under any tenant. If you had previously unlinked a resource and want to use it now, you can do so using this option.
 

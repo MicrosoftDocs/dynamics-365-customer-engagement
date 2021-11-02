@@ -29,8 +29,7 @@ Some of the features of the Power Virtual Agents bots for voice are as follows:
 
 The following prerequisites must be met for the Power Virtual Agents bot:
 
-- For the bot to have speech capabilities, it must be configured in Power Virtual Agents in the same Dynamics 365 environment in which you have configured the voice channel. More information: [Create a bot in an existing environment](/power-virtual-agents/environments-first-run-experience#create-a-bot-in-an-existing-environment).
-- The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel).
+- The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 - The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
 
 
