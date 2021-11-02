@@ -146,7 +146,7 @@ If you no longer need a phone number, you can release it from your organization'
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Connect to Azure Communication Services](voice-channel-create-new-use-existing-resource.md)  
+[Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](voice-channel-route-queues.md)  
 [Bring your own phone numbers](voice-channel-bring-your-own-number.md)  

@@ -69,14 +69,15 @@ The following table lists the components of the smart assist card for AI-suggest
 | 6 | When selected, displays information on the keywords that were used by the AI model to match the article. |
 | 7 | Status of the similar case. |
 | 8 | The actions that can be performed when you select more commands. 
+||||
 
 If no cases match, then the card displays an appropriate message, such as "No suggestions found for similar cases."
 
 ### See also
 
 [Enable AI-suggested cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
-[Smart assist suggestions using bot user](oc-smart-assist.md)
-[Preview: Use the voice channel in the agent dashboard](voice-channel-agent-experience.md#preview-use-the-voice-channel-in-the-agent-dashboard)
+[Smart assist suggestions using bot user](oc-smart-assist.md)  
+[Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -489,7 +489,7 @@
       - name: Introduction to the voice channel
         href: voice-channel.md
       - name: Connect to Azure Communication Services
-        href: voice-channel-create-new-use-existing-resource.md  
+        href: voice-channel-acs-resource.md  
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling

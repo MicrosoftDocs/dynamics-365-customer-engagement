@@ -81,7 +81,7 @@ The **Details** tab of the Conversation Form displays call recording details.
 - **Download audio**: Download an .mp4 audio file of the complete conversation.
 - **Speed**: From the dropdown menu, select the playback speed of the conversation, whether slower or faster. **Normal** is the default, and is the speed in which the conversation was recorded.
 - **Conversation scroll bar**: Move the scroll bar to any point of the conversation, or listen to it from beginning to end. When you select a location in the recording visualization, the transcript also moves to same place in the conversation.
-- **Sentiment**: Colors and emojis help you quickly analyze the sentiment of the conversation. Green equals positive sentiment, red equals negative sentiment, and grey equals neutral sentiment.
+- **Sentiment**: Colors and emojis help you quickly analyze the sentiment of the conversation. Green indicates positive sentiment, red indicates negative sentiment, and grey indicates neutral sentiment.
 
 **Transcript**
 
@@ -114,13 +114,13 @@ The **Metrics** tab of the Conversation Form displays the following details:
 - **Longest customer monologue**: The longest amount of time that the customer spoke during the conversation.
 - **Switches per conversation**: The number of times the conversation switched from agent to customer, and vice versa.
 
-The **Sessions** tab displays details about the number of voice calls between the agent and the customer, as well as the length of time of the conversation and the date and time each conversation took place.
+The **Sessions** tab displays details about the number of voice calls between the agent and the customer, as well as the duration, date, and time of the conversation.
 
 ## Consult with Microsoft Teams users
 
 If your administrator has enabled the option for you to consult with subject matter experts (SMEs) through Microsoft Teams, you can contact them by navigating to the Teams tab in the **Consult** section of the communication panel. Your supervisor can monitor the calls and after the call ends, the call recording and transcript of the conversation with the Microsoft Teams user is saved in Dynamics 365 for reporting and compliance.
 
-Do the following steps to consult while you are on a call:
+Do the following steps to consult while you're on a call:
 
 1. Select the **Consult** option, and go to the **Teams** tab in the **Consult** section that appears.
 
