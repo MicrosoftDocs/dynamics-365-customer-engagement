@@ -1,5 +1,5 @@
 ---
-title: "Manage music in the voice channel | MicrosoftDocs"
+title: "Manage phone music in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can configure hold and wait music in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
@@ -17,6 +17,10 @@ Omnichannel for Customer Services comes with out-of-the-box music files that you
 
 You can also configure hold and wait music for each language in each workstream.
 
+> [!Note]
+> - Files can be up to 20 MB. For best experience, upload MP3 files. 
+> - The music file will automatically be played on loop.
+
 ## Edit music files
 
 You can update existing music files and replace them with your own music files.
@@ -32,7 +36,7 @@ You can update existing music files and replace them with your own music files.
 
 4. In the **Edit phone music** dialog, you can do the following:
    - **Name**: Edit the name of the music file.
-   - **Replace**: Select **Replace** to update the music file to any other music file (with maximum file size of 20 MB) from your computer.
+   - **Replace**: Select **Replace** to update the music file to any other music file from your computer.
    - You can play the music file to test it, if you'd like.
 
 5. Select **Save and close**.
