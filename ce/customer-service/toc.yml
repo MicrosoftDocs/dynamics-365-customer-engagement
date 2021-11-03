@@ -201,7 +201,7 @@
         - name: Context management    
           items:                
           - name: updateContext
-            href: ../app-profile-manager/reference/microsoft-apm/updateContext.md                   
+            href: ../app-profile-manager/reference/microsoft-apm/updateContext.md
     - name: Readme
       href: https://go.microsoft.com/fwlink/p/?linkid=2141982
   - name: Community
@@ -368,7 +368,7 @@
         href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
-      - name: Recalculate SLAs on terminal status
+      - name: Recalculate SLAs in terminal status
         href: enable-sla-recalculation.md
       - name: Create entitlements to define support terms
         href: create-entitlement-define-support-terms-customer.md
@@ -486,6 +486,64 @@
       href: entity-channel.md
     - name: Set up skill-based routing in Omnichannel Administration
       href: attach-skills.md
+  - name: Voice
+    items:
+    - name: Administrator experience
+      items:
+      - name: Introduction to the voice channel
+        href: voice-channel.md
+      - name: Connect to Azure Communication Services
+        href: voice-channel-acs-resource.md  
+      - name: Manage phone numbers
+        href: voice-channel-manage-phone-numbers.md
+      - name: Set up inbound calling
+        href: voice-channel-route-queues.md      
+      - name: Set up outbound calling
+        href: voice-channel-outbound-calling.md
+      - name: Add Power Virtual Agents bot for voice
+        href: voice-channel-ivr-bots.md
+      - name: Integrate Azure bots for voice
+        href: configure-bot.md
+      - name: View voice calls usage
+        href: voice-channel-usage.md
+      - name: Configure post-call survey
+        href: voice-channel-survey.md
+      - name: Block a spam number
+        href: voice-channel-block-number.md        
+      - name: Handle call overflow for the voice queues
+        href: voice-channel-call-overflow.md
+      - name: Configure call recordings and transcripts
+        href: voice-channel-configure-transcripts.md
+      - name: Enable consult with Microsoft Teams users
+        href: voice-consult-microsoft-teams-user.md
+      - name: Manage phone music
+        href: voice-channel-music.md
+      - name: Set up a multi-language contact center
+        href: voice-channel-multi-language-contact-center.md
+      - name: Bring your own phone numbers
+        href: voice-channel-bring-your-own-number.md
+      - name: Integrate third-party IVR systems with voice channel
+        href: voice-channel-contextual-transfer-external-ivr.md 
+      - name: Supported regions and languages
+        href: voice-channel-region-availability.md
+    - name: Agent experience
+      items:
+      - name: Make and receive your first phone call
+        href: voice-channel-first-call.md
+      - name: Call a customer
+        href: voice-channel-call-customer.md
+      - name: Use call controls and the agent desktop for voice
+        href: voice-channel-agent-experience.md
+    - name: Supervisor experience
+      items:
+      - name: Monitor voice calls
+        href: voice-channel-monitor-calls.md
+      - name: Real-time analytics - Intraday conversation insights
+        href: intraday-conversation-insights.md
+      - name: Real-time analytics - Intraday Agents insights
+        href: intraday-agents-insights.md
+      - name: Voice channel analytics, reports, and call insights
+        href: voice-channel-reports-analytics.md
   - name: Chat
     items: 
     - name: Administrator experience
@@ -1142,6 +1200,8 @@
         href: developer/reference/entities/msdyn_ocphonenumber.md
       - name: msdyn_ocprovisioningstate
         href: developer/reference/entities/msdyn_ocprovisioningstate.md
+      - name: msdyn_ocrecording
+        href: developer/reference/entities/msdyn_ocrecording.md
       - name: msdyn_ocrequest
         href: developer/reference/entities/msdyn_ocrequest.md
       - name: msdyn_ocruleitem
@@ -1192,6 +1252,8 @@
         href: developer/reference/entities/msdyn_omnichannelsyncconfig.md
       - name: msdyn_operatinghour
         href: developer/reference/entities/msdyn_operatinghour.md
+      - name: msdyn_overflowactionconfig
+        href: developer/reference/entities/msdyn_overflowactionconfig.md
       - name: msdyn_paneconfiguration
         href: developer/reference/entities/msdyn_paneconfiguration.md
       - name: msdyn_panetabconfiguration
