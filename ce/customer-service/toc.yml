@@ -318,7 +318,7 @@
       items: 
       - name: Define parent and child cases
         href: define-settings-parent-child-cases.md
-      - name: Similar records suggestions
+      - name: View similar case suggestions
         href: suggest-similar-cases-for-a-case.md
       - name: Create and manage subjects
         href: create-manage-subject-tree.md
