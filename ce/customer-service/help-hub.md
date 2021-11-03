@@ -84,8 +84,10 @@ ms.custom:
    <li><a href="voice-channel-acs-resource.md" data-raw-source="[Connect to Azure Communication Services](voice-channel-acs-resource.md)">Connect to Azure Communication Services</a></li>
    <li><a href="voice-channel-manage-phone-numbers.md" data-raw-source="[Manage phone numbers](voice-channel-manage-phone-numbers.md)">Manage phone numbers</a></li>
    <li><a href="voice-channel-route-queues.md" data-raw-source="[Set up inbound calling](voice-channel-route-queues.md)">Set up inbound calling</a></li>
-       </ul>
-  </td>
+   <li><a href="voice-channel-outbound-calling.md" data-raw-source="[Set up outbound calling](voice-channel-outbound-calling.md)">Set up outbound calling</a></li>
+   <li><a href="voice-channel-reports-analytics.md" data-raw-source="[Voice channel historical analytics, reports, and call insights](voice-channel-reports-analytics.md)">Voice channel historical analytics, reports, and call insights</a></li>
+   </ul>
+ </td>
 
 <tr>
 
