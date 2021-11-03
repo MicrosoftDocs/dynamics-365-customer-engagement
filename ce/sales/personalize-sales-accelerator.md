@@ -1,7 +1,7 @@
 ---
 title: "Personalize sales accelerator settings"
 description: "Use personal settings to determine how activities are scheduled based on work availability and deciding what happens when an activity is complete."
-ms.date: 10/26/2021
+ms.date: 11/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag

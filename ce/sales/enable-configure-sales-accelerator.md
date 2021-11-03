@@ -1,7 +1,7 @@
 ---
 title: "Enable and configure sales accelerator (Sales Premium)"
 description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 10/26/2021
+ms.date: 11/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -78,7 +78,7 @@ For the best experience of the sales accelerator, enable and configure [predicti
     - Select the **Seller availability settings**  toggle to enable the option that allows sellers to configure the working hours.
     - From the **Select a calendar** option, choose a calendar type from which the sellers can configure the work hours vacation days so that leads and opportunities are assigned based on their availability. 
         - **CRM calendar**: To allow sellers configure the work hours and vacation days through the Dynamics 365 calendar in personal settings. By default, this option is selected. More information [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability). 
-        - **Outlook**: To allow sellers configure the work hours and vacation days through the Outlook calendar. Before you select this option, verify that the [server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context) is configured for your organization.
+        - **Outlook**: To allow sellers configure the work hours and vacation days through the Outlook calendar. Seller should have an Exchange license to use this option.
 
     >[!div class="mx-imgBorder"]
     >![Enable the option to allow sellers to set working hours and vacation days](media/sa-enable-seller-availability.png "Enable the option to allow sellers to set working hours and vacation days")   
