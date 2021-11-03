@@ -62,26 +62,29 @@ As a tenant administrator, when you enable the Teams chat feature, the app has t
     
     
 ### Add the Teams chat settings page for specific multisession users
-If you want Teams chat to work for specific users, you can enable the feature for your custom profile. For more information about creating custom profiles in App profile manager, see [Overview of App profile manager](/dynamics365/app-profile-manager/overview).
+
+If you want Teams chat to work for specific users, you can enable the feature for a custom profile. For more information about creating custom profiles in App profile manager, see [Overview of App profile manager](/dynamics365/app-profile-manager/overview).
 
 To enable Teams chat settings for specific multisession users, complete the following steps:
-1. Go to [Power Apps](https://make.powerapps.com/), and then under **Environments**, select your environment.
+1. Create a custom profile from the default profile in App profile manager. More info: [Create an app profile](/dynamics365/app-profile-manager/app-profile-manager#create-an-app-profile)
 
-2. In the left-side pane, select **Apps**, and then next to the custom app, select the **More Commands** ellipsis.
+2. Go to [Power Apps](https://make.powerapps.com/), and then under **Environments**, select your environment.
+
+3. In the left-side pane, select **Apps**, and then next to the custom app, select the **More Commands** ellipsis.
 
    > [!div class="mx-imgBorder"] 
    > ![Configure Teams chat settings for specific multisession users.](media/teams-chat-more-commands.png "Configure Teams chat settings for custom profiles")
 
-3. From the dropdown menu, select **App profile manager**, select your custom profile, and then select **Edit**.
+4. From the dropdown menu, select **App profile manager**, select the custom profile, and then select **Edit**.
 
-4. Select the **Productivity pane** tab, and then toggle **Turn on productivity pane** to **On**.
+5. Select the **Productivity pane** tab, and then toggle **Turn on productivity pane** to **On**.
 
-5. Under **Productivity tools**, toggle **Microsoft Teams collaboration** to **On**.
+6. Under **Productivity tools**, toggle **Microsoft Teams collaboration** to **On**.
 
    > [!div class="mx-imgBorder"] 
    > ![Set Teams collaboration to On.](media/teams-chat-custom-profile.png "Turn on Teams collaboration")
 
-6. Select the **General** tab to assign users. More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
+7. Select the **General** tab to assign users. More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
 
 ## Configure the ability to link chats to Dynamics 365 records
 
