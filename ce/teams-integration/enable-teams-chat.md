@@ -48,7 +48,7 @@ To enable Teams chat in Dynamics 365, you need to access the **Chat and collabor
 4. In the **App Designer**, edit the **Site Map**.
 
 5. To add the Teams **Chat and collaborate** settings page, add a subarea component, select the **Type** as **URL**, and copy the following value to the **URL** field:  
-    ```/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings&data={"id":"overview","ismanage":"cnc"}```
+    ```/main.aspx?pagetype=control&controlName=MscrmControls.TeamsCollaborationAdmin.TeamsCollaborationAdmin```
 
 6. Save and publish the changes.
 
