@@ -83,6 +83,6 @@ The following data security and privacy considerations apply for Teams chat func
 
 ### See also
 
-[Engage in Microsoft Teams chats from within Dynamics 365 (preview)](teams-collaboration-in-dynamics.md)  
+[Engage in Microsoft Teams chats from within Dynamics 365](teams-collaboration-in-dynamics.md)  
 [Using Microsoft Teams chat in Dynamics 365](using-teams-chat-in-dynamics.md)  
  

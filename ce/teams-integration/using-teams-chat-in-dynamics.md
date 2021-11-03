@@ -113,4 +113,4 @@ While you're in any of the records or in the list pane, select :::image type="ic
 
 ### See also
 
-[Enable or disable Microsoft Teams chat in Dynamics 365 (preview)](enable-teams-chat.md)
+[Enable or disable Microsoft Teams chat in Dynamics 365](enable-teams-chat.md)

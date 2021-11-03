@@ -38,5 +38,5 @@ You can do the following Teams collaboration activities from Dynamics 365:
 
 ### See also
 
-[Enable or disable Microsoft Teams chat in Dynamics 365 (preview)](enable-teams-chat.md)  
+[Enable or disable Microsoft Teams chat in Dynamics 365](enable-teams-chat.md)  
 [Using Microsoft Teams chat in Dynamics 365](using-teams-chat-in-dynamics.md)
