@@ -206,7 +206,11 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 -	On the [Advanced](forecast-configure-advanced-settings.md) page, you can enable or disable auto-hide parent row, multi-currency selection, and customize access to edit fields in the underlying records grid.    
 When you save and publish the configuration, the changes will be applied immediately to the forecast. If you update data (simple columns and adjust fields), these changes may take up to two hours to reflect in the forecast. 
 
-**Question**:<br>Can I manually set the forecast category of an opportunity as **Won** or **Lost**?     
-**Answer**:<br> Technically, you can. However, this will interfere with your forecast and rollup values, and is not an ideal practice. For example, if you manually set the value of an opportunity to **Won** without closing the opportunity, the opportunity might not even show up in the forecast. By default, forecasts are configured to show an opportunity as Won only when the actual revenue and actual close date are available. The best practice is to close the opportunity as Won or Lost and have the forecast category  automatically updated. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
+**Question**:<br>Can I manually set the forecast category of an opportunity as **Won** or **Lost**?   
+  
+**Answer**:<br> Technically, you can. The opportunity form and editable grids, other than the grid in the forecast, allow the selection of **Won** or **Lost** as forecast categories. However, this will interfere with your forecast and rollup values, and is not an ideal practice. For example, if you manually set the value of an opportunity to **Won** without closing the opportunity, the opportunity might not even show up in the forecast. By default, forecasts are configured to show an opportunity as **Won** only when the actual revenue and actual close date are available. The best practice is to close the opportunity as **Won** or **Lost** and have the forecast category  automatically updated. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
+
+> [!NOTE]
+> 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
