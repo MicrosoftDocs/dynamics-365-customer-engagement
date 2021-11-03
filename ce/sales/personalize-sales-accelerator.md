@@ -37,7 +37,7 @@ Depending on the license you have in the organization, you use one of the follow
 >[!NOTE]
 >- Ensure that you've read and write privileges to **Calendar** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 >- Verify that the administrator as enabled the option to configure your availability. 
->    - Through sequence settings, see [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#enable-the-availability-option-in-sequence-settings).
+>    - Through sequence settings, see step 5 in [Set up the sales accelerator](enable-configure-sales-accelerator.md#set-up-the-sales-accelerator).
 >    - Through sales accelerator configuration, see step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md). 
 
 ### Through work list settings (Sales Premium)<a name="through-work-list-settings"></a>
