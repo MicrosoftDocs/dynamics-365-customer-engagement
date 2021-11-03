@@ -40,9 +40,9 @@ You can also manually configure your columns for a fully customized forecast. Fo
 
     -  **Omitted**. To exclude an opportunity’s numbers from the forecast. 
     
-    - **Won**. Do not select this option manually. When you close an opportunity as **Won**, its forecast category is automatically set  to **Won**.  
+    - **Won**. Don't select this option manually. When you close an opportunity as **Won**, its forecast category is automatically set to **Won**.  
     
-    - **Lost**. Do not select this option manually. When you close an opportunity as **Lost**, its forecast category is automatically set  to **Lost**.
+    - **Lost**. Don't select this option manually. When you close an opportunity as **Lost**, its forecast category is automatically set to **Lost**.
 
        > [!div class="mx-imgBorder"]
        > ![Capture forecast category on an opportunity.](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
