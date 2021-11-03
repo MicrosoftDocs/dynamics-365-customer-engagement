@@ -318,7 +318,7 @@
       items: 
       - name: Define parent and child cases
         href: define-settings-parent-child-cases.md
-      - name: Similar records suggestions
+      - name: View similar case suggestions
         href: suggest-similar-cases-for-a-case.md
       - name: Create and manage subjects
         href: create-manage-subject-tree.md
@@ -534,9 +534,9 @@
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-      - name: Real-time analytics - Intraday conversation insights
+      - name: Intraday conversation insights
         href: intraday-conversation-insights.md
-      - name: Real-time analytics - Intraday Agents insights
+      - name: Intraday Agents insights
         href: intraday-agents-insights.md
       - name: Voice channel analytics, reports, and call insights
         href: voice-channel-reports-analytics.md

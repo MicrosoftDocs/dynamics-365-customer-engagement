@@ -65,12 +65,13 @@ To be able to acquire new phone numbers for your business, you must first [conne
    The new phone number is displayed in the numbers list with the status **Ready for setup**.
 
    > [!Note]
-   >  - After you're allotted a new phone number, you'll have purchase it within the next 15 minutes. If the time elapses, you'll have to try purchasing again.
-   >  - After you select **Purchase phone number**, you can close the page by selecting **Close** and return to the **Phone numbers** page. The purchase happens in the background and the new phone number appears in the phone numbers list with **Ready for setup** status.
+   >
+   >  - After you're allotted a new phone number, you must purchase it within the next 15 minutes. If the time elapses, you'll have to try purchasing again.
+   >  - After you select **Purchase phone number**, you can select **Close** and return to the **Phone numbers** page. The purchase happens in the background and the new phone number appears in the phone numbers list with the **Ready for setup** status.
 
 4. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream).
 
-5. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number you just acquired.
+5. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number that you just acquired.
 
 ## Add a phone number to a voice workstream
 
@@ -80,17 +81,15 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
 1. In the site map of Omnichannel admin center, under **General settings**, select the phone number that's marked **Ready for setup** in the **Status** column.
 
-2. Select **Setup workstream**.
-
-   The **Workstreams** page with a list of all workstreams is displayed.
+2. Select **Setup workstream**. The **Workstreams** page with a list of all workstreams is displayed.
 
 3. If you want to create a new workstream, select **New workstream** and then follow the steps to [set up a voice workstream](voice-channel-route-queues.md#set-up-a-voice-workstream).
 
-   Else, simply select an existing workstream from the list.
+3. Select an existing workstream from the list.
 
 4. Follow the steps to [configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
 
-   The phone number is added to the workstream and you can view the **Connected** status for the phone number on the **Phone numbers** page.
+   The phone number is added to the workstream, and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
 ## Configure phone numbers for outbound calling
 
