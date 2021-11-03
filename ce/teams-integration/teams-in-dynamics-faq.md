@@ -1,7 +1,7 @@
 ---
 title: "FAQ on Teams integration  | MicrosoftDocs"
 description: "Collaborate efficiently in Dynamics 365 without switching to Teams. This page include FAQs about the integration."
-ms.date: 10/05/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.service: crm-online
 search.app: 

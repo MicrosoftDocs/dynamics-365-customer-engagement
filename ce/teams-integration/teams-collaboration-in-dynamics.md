@@ -1,7 +1,7 @@
 ---
 title: "Engage in Teams chats from within Dynamics 365 | MicrosoftDocs"
 description: "Collaborate efficiently in Dynamics 365 without switching context. Start new chats, link existing chats, view all your Dynamics 365 chats and more."
-ms.date: 10/05/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.service: crm-online
 search.app: 
@@ -11,7 +11,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-# Engage in Microsoft Teams chats from within Dynamics 365 (preview)
+# Preview: Engage in Microsoft Teams chats from within Dynamics 365
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -32,7 +32,7 @@ You can do the following Teams collaboration activities from Dynamics 365:
 
 - **Access all your recent Dynamics 365 chats**: The list pages, such as the opportunities list page, display all of your recent chats that are linked to Dynamics 365 records.
 
-- **Access all your recent chats**: Your top 50 Teams chat conversations are listed on the list and record pages.
+- **Access all your recent chats**: Your top 200 Teams chat conversations are listed on the list and record pages.
 
 - **Link an existing channel to a record**: Although the channel is linked to the record, the channel conversations can only be accessed from within Teams.
 
