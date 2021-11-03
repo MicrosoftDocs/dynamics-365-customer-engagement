@@ -1,7 +1,7 @@
 ---
 title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
-ms.date: 10/28/2021
+ms.date: 11/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -66,11 +66,11 @@ So, what’s the difference?
 
 ### Real-time marketing
 
-Real-time marketing works great as a scalable platform that allows you to engage with customers at specific moments through email and mobile channels based on signals and rich profile data you collect.
+Real-time marketing is a scalable platform that allows you to engage with customers at specific moments. Engagement takes place through email and mobile channels and is based on customer signals and rich profile data. In other words, journeys are customer-led. Communication starts when a customer takes a specific action. For example, a customer scanning a concert ticket or connecting to in-store Wi-Fi can trigger delivery of personalized messages.
 
-For example, you can send personalized messages to customers as they scan their tickets to enter a concert venue or connect to in-store Wi-Fi. You can start journeys with a set of predefined event triggers, or create your own custom event triggers providing you the flexibility to bring in the data you need from any system with a few lines of code.
+You can start journeys with predefined event triggers, or you can create custom events. Custom events give you the flexibility to bring in data from other systems with just a few lines of code. With this flexibility, you can design personalized experiences as customers interact with marketing, sales, service, and other departments across your organization.
 
-With this flexibility, you can design personalized experiences throughout a customer’s life cycle as they interact with the many digital and human channels across your organization. You can also use real-time marketing to design a segment-based journey, for example orchestrating a seasonal campaign to a segment of loyal customers. [Learn more about real-time marketing](real-time-marketing-user-guide.yml).
+Real-time marketing also supports segment-based journeys, allowing you to orchestrate traditional marketing activities such as seasonal campaigns targeting loyal customers. [Learn more about real-time marketing](real-time-marketing-user-guide.yml).
 
 ### Outbound marketing
 

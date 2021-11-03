@@ -1,7 +1,7 @@
 ---
 title: "View and manage the opportunities pipeline through sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and manage the opportunities pipeline through sales forecasting in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 11/02/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -58,6 +58,9 @@ With the enhanced grid, you can view and edit related entity records also. The f
 > ![View underlying opportunity grid.](media/forecast-view-grid-group-option.png "View underlying opportunity grid")
 
 1. **General information**: You can identify whom the underlying records belongs to, and by their team or individual. Also, you can see the category of underlying records, such as won, committed, and pipeline along with its total value.
+
+    > [!NOTE]
+    > Though you can update the forecast category of an opportunity in the grid, the options **Won** and **Lost** are disabled and cannot be selected. These options are automatically updated when an opportunity is closed as won or lost and hence shouldn't be updated manually. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md). 
 
 2. **View selector**: You can change the view of these records. By default, the view that was selected when the forecast was configured is displayed.
 
