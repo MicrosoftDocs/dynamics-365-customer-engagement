@@ -122,7 +122,7 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
 	
 3.	In the **Link chat to record type** pane, in **Choose record type**, type the name of the record type you want to use.
 	
-4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then use the existing views functionality to define the fields that will represent context card or create a custom view with up to five fields that you want to include as a context card. 
+4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then use the existing views functionality to define the fields that will represent context card or create a customer view in Power Apps. You can choose up to five fields you want to include as a context card. 
             
 5.	Select **Save**.
 
@@ -142,8 +142,6 @@ For any view that's selected, keep in mind the following details:
 ### See also
 
 [Use Teams chat](/use-teams-chat.md)<br>
-[Basic Collaboration Experience with the Dynamics 365 app for Microsoft Teams](/teams-integration/teams-collaboration)<br>
-[Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](/teams-integration/teams-collaboration-enhanced-experience)<br>
 [Microsoft Teams integration FAQ](/teams-integration/teams-in-dynamics-faq)<br>
 [Configure AI suggestions for contacts in Microsoft Teams](/configure-teams-collaboration.md)
 [Collaborate with AI-suggested agents in Microsoft Teams](/use-ai-suggested-contacts-teams.md)
