@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 10/11/2021
+ms.date: 11/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -193,28 +193,35 @@ Once a live event or meeting is created or updated, and the producers and presen
 
 ## Inviting registrants to attend the live event through email
 
-After creating the event, going live with it, and gathering registrations, you should [send the registrants an email](email-design.md) to provide the attendee URL. In the Marketing email designer, you will find a new **Teams check-in** element in the new **Events communication** area.
+After creating the event, going live with it, and gathering registrations, you should [send the registrants an email](email-design.md) to provide the attendee URL. In the Marketing email designer, you will find a **Join in Teams** option in the **Link to** menu for the button element.
 
-The **Teams check-in** button generates a unique attendee URL for each registrant. When the registrant selects the button, Marketing will create a relevant check-in record for them, giving insights about the attendance of the live event in Marketing.
+The **Join in Teams** button generates a unique attendee URL for each registrant. When the registrant selects the button, Marketing will create a relevant check-in record for them, giving insights about the attendance of the live event in Marketing.
 
 > [!IMPORTANT]
-> Because the **Teams check-in** button generates a unique URL for each registrant, anyone who selects the **Teams check-in** button from a forwarded email will not be able to check in to the event.
+> Because the **Join in Teams** button generates a unique URL for each registrant, anyone who selects the **Join in Teams** button from a forwarded email will not be able to check in to the event.
 
 > [!TIP]
-> If an attendee selects the **Teams check-in** button *more than 30 minutes* before the event starts, the check-in **will not** be created. This is a hard-coded feature to prevent accidental check-ins when a recipient tests the link after they receive the email.
+> If an attendee selects the **Join in Teams** button *more than 30 minutes* before the event starts, the check-in **will not** be created. This is a hard-coded feature to prevent accidental check-ins when a recipient tests the link after they receive the email.
 
-**To create a Teams check-in button**:
+**To create a Join in Teams button**:
 
 1. Create [a new email](email-design.md) in the email editor.
-1. In the **Toolbox** pane, go to **Events communication** and drag and drop the **Teams check-in** element into the email. This will create a check-in button.
+1. In the **Toolbox** pane, go to **Elements** and drag and drop a **Button** element into the email.
+1. The **Edit button** options will appear in the right pane. For the **Link to** option, select **Join in Teams**.
 
-    ![Teams check-in element.](media/teams-webinar-check-in-element.png "Teams check-in element")
+    > [!div class="mx-imgBorder"]
+    > ![Join in Teams button](media/teams-webinar-join-in-teams.png "Join in Teams button")
 
-3. In the **Properties** pane, select the Event or Session you want the customer to join. (Note: the Event or Session needs to be set to a Teams live event or meeting and must be in “Live” state before you can select it). Design the button according to the design of the email.
+1. In the **Edit button** pane, open the **Type** dropdown and select whether you want the button to link to an **Event** or a **Session**.
+1. Select the specific event or session you want the customer to join. Next, enter the text label for the button and adjust the design to correspond with the email.
 
-    ![Teams check-in button options.](media/teams-webinar-check-in-options.png "Teams check-in button options")
+    > [!NOTE]
+    > The event or session needs to be set to a Teams live event or meeting and must be in a "Live” state before you can select it.
 
-4. To preview the button in the **Preview** panel, select a contact that has a registration for the selected Event or Session.
+    > [!div class="mx-imgBorder"]
+    > ![Join in Teams button options.](media/teams-webinar-event-or-session.png "Join in Teams button options")
+
+1. To preview the button in the **Preview and test** panel, select a contact that has a registration for the selected event or session.
 
 ## Keeping Dynamics 365 Marketing and Teams in sync
 
