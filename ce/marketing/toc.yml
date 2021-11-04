@@ -474,46 +474,58 @@
     items: 
     - name: Event management overview
       href: event-management.md
-    - name: Open the event management work area
-      href: open-events.md
-    - name: Set up an event
-      href: set-up-event.md
-    - name: Set up session-level registration and waitlisting
-      href: session-level-registration.md
-    - name: Set up and manage an event waitlist
-      href: event-waitlist.md
-    - name: Create and manage recurring events
-      href: event-recurring.md
-    - name: Create and use event templates
-      href: event-templates.md
-    - name: Event management dashboard
-      href: event-management-dashboard.md
-    - name: Set up a Microsoft Teams webinar
-      href: teams-webinar.md
-    - name: Follow up with Teams webinar participants
-      href: teams-how-to-follow-up.md
-    - name: Customize your Teams webinar participant follow-up
-      href: teams-webinar-follow-up.md
-    - name: Set up a non-Teams webinar
-      href: set-up-webinar.md
-    - name: Manage event sponsorships
-      href: manage-event-sponsorships.md
-    - name: Manage attendee logistics and accommodation
-      href: manage-event-logistic.md
-    - name: Set up the event website
-      href: set-up-event-portal.md
-    - name: Set up online payment for events
-      href: event-payment-gateway.md
-    - name: Change the URL for events hosted on Portals
-      href: events-change-url.md
-    - name: Add custom fields to your event registration form
-      href: custom-registration-fields.md
-    - name: Invite, register, and house event attendees
-      href: invite-register-house-event-attendees.md
-    - name: Follow up after the event
-      href: followup-after-event.md
-    - name: Record and view financial information for events
-      href: event-financials.md
+    - name: Create an event
+      items:
+      - name: Open the event management work area
+        href: open-events.md
+      - name: Set up an event
+        href: set-up-event.md
+      - name: Set up session-level registration and waitlisting
+        href: session-level-registration.md
+      - name: Set up and manage an event waitlist
+        href: event-waitlist.md
+      - name: Create and manage recurring events
+        href: event-recurring.md
+      - name: Create and use event templates
+        href: event-templates.md
+    - name: Host a Microsoft Teams webinar
+      items:
+      - name: Set up a Teams webinar
+        href: teams-webinar.md
+      - name: Customize your Teams webinar participant follow-up
+        href: teams-webinar-follow-up.md
+      - name: Set up a non-Teams webinar
+        href: set-up-webinar.md
+    - name: Register event attendees
+      items:
+      - name: Invite, register, and house event attendees
+        href: invite-register-house-event-attendees.md      
+      - name: Add custom fields to your event registration form
+        href: custom-registration-fields.md
+    - name: Create an event website
+      items:
+      - name: Set up the event website
+        href: set-up-event-portal.md
+      - name: Change the URL for events hosted on Portals
+        href: events-change-url.md    
+    - name: Manage events
+      items:
+      - name: Event management dashboard
+        href: event-management-dashboard.md
+      - name: Manage event sponsorships
+        href: manage-event-sponsorships.md
+      - name: Manage attendee logistics and accommodation
+        href: manage-event-logistic.md
+      - name: Set up online payment for events
+        href: event-payment-gateway.md
+      - name: Record and view financial information for events
+        href: event-financials.md
+    - name: Follow up with attendees
+      items:
+      - name: Follow up with Teams webinar participants
+        href: teams-how-to-follow-up.md 
+      - name: Follow up after the event
+        href: followup-after-event.md
     - name: Event troubleshoot + FAQ
       href: event-troubleshoot.md
   - name: Developer guide
