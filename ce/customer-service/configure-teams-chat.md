@@ -48,6 +48,7 @@ As a tenant administrator, when you enable the Teams chat feature, the app has t
 
 
 ### Add the Teams chat settings page to the sitemap of your app
+
 1. In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
 
 2. Under **Microsoft Teams Integration**, select **Collaboration**.
@@ -60,13 +61,15 @@ As a tenant administrator, when you enable the Teams chat feature, the app has t
 4. Save the changes.<br>
    The preview is now enabled for the Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
     
-    
+
 ### Add the Teams chat settings page for specific multisession users
 
-If you want Teams chat to work for specific users, you can enable the feature for a custom profile. For more information about creating custom profiles in App profile manager, see [Overview of App profile manager](/dynamics365/app-profile-manager/overview).
+If you're using the default profile, once you complete the steps in [Add the Teams chat settings page to the sitemap of your app](#add-the-teams-chat-settings-page-to-the-sitemap-of-your-app), Teams chat is enabled.
 
-To enable Teams chat settings for specific multisession users, complete the following steps:
-1. Create a custom profile from the default profile in App profile manager. More info: [Create an app profile](/dynamics365/app-profile-manager/app-profile-manager#create-an-app-profile)
+If you want Teams chat to work for specific users, you must enable the feature for your custom profile. For more information about creating custom profiles in App profile manager, see [Overview of App profile manager](/dynamics365/app-profile-manager/overview).
+
+To enable Teams chat settings for a custom multisession user, complete the following steps:
+1. Create the custom profile from the default profile in App profile manager. More info: [Create an app profile](/dynamics365/app-profile-manager/app-profile-manager#create-an-app-profile)
 
 2. Go to [Power Apps](https://make.powerapps.com/), and then under **Environments**, select your environment.
 
