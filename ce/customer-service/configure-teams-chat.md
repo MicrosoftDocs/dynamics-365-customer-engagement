@@ -1,6 +1,6 @@
 ---
-title: "Configure Teams chats in Customer Service | Microsoft Docs"
-description: "Learn how to configure Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
+title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
+description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
 ms.date: 11/01/2021
 ms.topic: article
 author: lalexms
@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# (Preview) Configure Teams chat in Customer Service
+# (Preview) Configure Microsoft Teams chat in Customer Service
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -28,7 +28,7 @@ ms.custom:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-You can configure the ability for agents to chat in Teams from within Dynamics 365 Customer Service Hub, Dynamics 365 Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales. When the feature is enabled, while working on customer records, agents can start a new chat or link an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction message that agents can use to provide further context when collaborating on Teams.
+You can configure the ability for agents to chat in Microsoft Teams from within Dynamics 365 Customer Service Hub, Dynamics 365 Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales. When the feature is enabled, while working on customer records, agents can start a new chat or link an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction message that agents can use to provide further context when collaborating on Teams.
 
 ## Enable or disable Teams chat
 
@@ -46,6 +46,18 @@ As a tenant administrator, when you enable the Teams chat feature, the app has t
 |User.Read.All	|Reads users’ display name and licenses to validate if the suggested participants have a Teams license assigned. This is used by the suggested section in the chat list.|
 |User.ReadBasic.All	|Reads users’ photos. |
 
+### Data security and privacy
+
+The following data security and privacy considerations apply for Teams chat functionality in Dynamics 365:
+
+- Dynamics 365 doesn't store any Teams data except for the mapping between the record ID and the linked chat ID. No data from Teams is duplicated in Dynamics 365 unless the user manually adds it to the record notes or tasks.
+
+- The communication between the applications is secured through TLS.
+
+- Policies that apply both to Teams and Dynamics 365 are honored by the integration. For example, confidential files shared in a linked chat can only be accessed by permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permission to view it.
+
+- The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, review [Permissions required](#permissions-required).
+
 
 ### Add the Teams chat settings page to the sitemap of your app
 
@@ -62,7 +74,7 @@ As a tenant administrator, when you enable the Teams chat feature, the app has t
    The preview is now enabled for the Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
     
 
-### Add the Teams chat settings page for specific multisession users
+### Add the Teams chat settings page for multisession users
 
 If you're using the default profile, once you complete the steps in [Add the Teams chat settings page to the sitemap of your app](#add-the-teams-chat-settings-page-to-the-sitemap-of-your-app), Teams chat is enabled.
 
@@ -130,5 +142,8 @@ For any view that's selected, keep in mind the following details:
 ### See also
 
 [Use Teams chat](/use-teams-chat.md)<br>
+[Basic Collaboration Experience with the Dynamics 365 app for Microsoft Teams](/teams-integration/teams-collaboration)<br>
+[Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](/teams-integration/teams-collaboration-enhanced-experience)<br>
+[Microsoft Teams integration FAQ](/teams-integration/teams-in-dynamics-faq)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
