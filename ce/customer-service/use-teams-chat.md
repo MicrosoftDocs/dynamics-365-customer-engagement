@@ -82,15 +82,20 @@ You can open any Dynamics 365 Customer Service record and select the **Teams cha
 
 The **Channels** tab lists the channels that either you’ve linked to the selected record or someone else has linked a channel where you’re a participant. If you've linked a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab. 
 
-## Link an existing chat to a record
+## Link a Teams channel to a record
 
-You can link relevant Teams chats to a record so that all the members can easily access the linked chat from the record and follow the conversation. 
+You can link relevant Teams channels to a record so that all the members can easily access the linked channels from the record and follow the conversation. 
 
 > [!NOTE]
 > You can only link group chats to records. Direct, one-to-one chats can't be linked, and will instead display an option to start a new linked chat with that contact.
 
-1.	Open any Dynamics 365 Customer Service record, and then go to the **All recents** chat list and find the chat you want to link to the record.
-2.	Select the ellipsis (...), and then select **Link chat to record**.
+1.	Open any Dynamics 365 Customer Service record, and select :::image type="icon" source="media/teams-icon.png" border="false":::.<br>
+   The **Teams chats (preview)** pane opens.
+2. Select the **Channel** tab. The tab lists the channels that are already linked to a record.
+3. Select the **Link channel** icon in the upper-right corner of the Teams chats (preview) pane.<br>
+   The **Collaborate with Microsoft Teams** dialog opens.
+4. To start a new linked channel, select **Create a new connection**.
+5. To link an existing channel, select the channel from the list, and then select **Start collaboration**.
 
 ### How suggested contacts work
 The suggested contacts list displays users who are connected or have interacted with the record. So, a suggested contact could be one or more of the following users, in the given order:
