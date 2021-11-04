@@ -32,7 +32,7 @@ You can configure the ability for agents to chat in Microsoft Teams from within 
 
 ## Enable or disable Teams chat
 
-In Customer Service workspace, Teams chat is enabled by default. For other customer engagement and custom apps, you must enable it. Teams chat requires certain permissions to access Teams data. Review the following permissions required section to learn more.
+The Teams chat feature must be enabled in customer engagement apps, and requires certain permissions to access Teams data. Review the following permissions required section to learn more.
 
 ### Permissions required
 
@@ -134,7 +134,7 @@ For any view that's selected, keep in mind the following details:
    > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png "View for supported fields and message for unsupported field")
     
  - Because the data fields are static, field-level permissions aren't checked for collaborators. This means if the agent has the field-level permissions to view data fields, collaborators will also be able to see those fields.
-- If you don't select a view, agents will only see the default, out-of-box **Case introduction message** view.
+- if you don't select a view for the Case record type, agents will see the default, out-of-box **Case introduction message** view.
 
    > [!div class="mx-imgBorder"] 
    > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png "Default case introduction message view")
@@ -144,6 +144,8 @@ For any view that's selected, keep in mind the following details:
 [Use Teams chat](/use-teams-chat.md)<br>
 [Basic Collaboration Experience with the Dynamics 365 app for Microsoft Teams](/teams-integration/teams-collaboration)<br>
 [Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](/teams-integration/teams-collaboration-enhanced-experience)<br>
-[Microsoft Teams integration FAQ](/teams-integration/teams-in-dynamics-faq)
+[Microsoft Teams integration FAQ](/teams-integration/teams-in-dynamics-faq)<br>
+[Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
+[Collaborate with AI-suggested agents in Microsoft Teams](/use-ai-suggested-contacts-teams.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
