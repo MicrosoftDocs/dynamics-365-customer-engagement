@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Collaborate with AI suggested contacts in Microsoft Teams (preview)
+# Collaborate with AI-suggested contacts in Microsoft Teams (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
