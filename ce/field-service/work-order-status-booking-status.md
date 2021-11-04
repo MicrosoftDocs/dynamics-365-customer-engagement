@@ -29,7 +29,7 @@ Work order system statuses, work order substatuses, and booking statuses all wor
 - Posted
 - Canceled
 
-**The Work Order System Status labels were changed in the Wave 2 2021 update. As an example, the status label "Open - Unscheduled" was updated to "Unscheduled".**
+As of the 2021 Wave 2 release, the **Work Order System Status** labels were updated. For example, the former status label "Open - Unscheduled" was updated to "Unscheduled".
 
 > [!Note]
 > Administrators should never edit the option set _values_ for Work Order System Status, doing so can cause errors and is not supported. Instead, administrators can edit the option set _labels_ like "Unscheduled".
