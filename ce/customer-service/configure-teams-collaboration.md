@@ -28,7 +28,7 @@ This feature uses the AI capability to automatically suggest contacts in real ti
 > [!NOTE]
 > In public preview, AI suggestions for contacts is available only when users open an active case record.
 
-## How AI suggested contacts works
+## How AI-suggested contacts works
 
 The suggestions capability uses AI to suggest contacts who might help agents to resolve an active case based on similar cases the contacts have worked on. It uses similar case suggestions to find similar cases, then identifies best contacts based on a few factors related to the experience and proficiency to resolve the similar cases, including the following:
 
