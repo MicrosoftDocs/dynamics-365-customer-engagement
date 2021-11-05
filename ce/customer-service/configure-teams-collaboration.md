@@ -21,34 +21,34 @@ manager: shujoshi
 
 ## Introduction
 
-Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can help agents find the right contacts by enabling the collaboration with Microsoft Teams feature.
+Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable the Microsoft Teams collaboration feature to help them find the right contacts.
 
-This feature uses the AI capability to automatically suggest contacts in real time, based on the currently open active case when agents explore contacts in the embedded chat experience.
+This feature uses the AI capability to automatically suggest contacts in real-time, based on the currently open active case when agents explore contacts in the embedded chat experience.
 
 > [!NOTE]
 > In public preview, AI suggestions for contacts is available only when users open an active case record.
 
 ## How AI-suggested contacts works
 
-The suggestions capability uses AI to suggest contacts who might help agents to resolve an active case based on similar cases the contacts have worked on. It uses similar case suggestions to find similar cases, then identifies best contacts based on a few factors related to the experience and proficiency to resolve the similar cases, including the following:
+The suggestions capability uses AI to recommend contacts who might be able to help agents resolve an active case based on similar cases those contacts have worked on. It uses similar case suggestions to find similar cases, and then identifies the most logical contacts based on a few factors related to the experience and proficiency of the contacts in resolving those similar cases, including the following:
 
-- Number of similar cases the suggested contacts have resolved. More similar cases are resolved might indicate that the contacts have more experience in resolving the cases.
+- The number of similar cases that the suggested contacts have resolved. A higher number of similar cases that the suggested contacts have resolved might indicate that they have more experience in resolving the cases.
 
-- The similarity level of the similar cases to the active case. Higher similarity of the similar cases means that the similar cases the contacts resolve are more related to the active case that agents are currently working on.
+- The similarity level of the similar cases to the active case. A higher similarity of the cases means that the similar cases the contacts have resolved are more related to the active case that agents are currently working on.
 
-- How recently the suggested contacts have resolved the similar cases. More recent experience might indicate the contact has more recent knowledge about resolving the cases.
+- How recently the suggested contacts have resolved the similar cases. More recent experience might indicate the contact has more current knowledge about resolving the cases.
 
-- The average time the suggested contacts use to resolve similar cases. Less time spent in resolving similar cases compared to others might indicate that the contact is more familiar about the resolution than the others.
+- The average time that the suggested contacts use to resolve similar cases. Less time spent in resolving similar cases compared to others might indicate that the contact is more familiar than others about how to resolve the case type.
 
-It works with a set of out-of-the-box AI models, so that admins can enable the feature by setting the toggle, without the need for extra model training.
+AI-suggested contacts works with a set of out-of-the-box AI models, so that admins can enable the feature by setting the toggle without the need for extra model training.
 
-For more information about similar case suggestions that impact the AI suggested contacts, see [How AI suggestions for similar cases works](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-works)
+For more information about similar case suggestions that impact the AI-suggested contacts, see [How AI suggestions for similar cases works](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-works)
 
 ## Regional availability and supported languages
 
 The AI suggestions are supported in geographical locations that AI suggestions for similar cases supports. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
 
-The AI suggestions are supported in the following languages:
+The AI suggestions feature is supported in the following languages:
 
 - Dutch
 - English
@@ -83,7 +83,7 @@ The AI suggestions are supported in the following languages:
 
     It takes 24 hours for the data to be preprocessed for the first time use.
 
-    :::image type="content" source="media/enable-ai-suggested-contacts.png" alt-text="Enable the settings for AI suggested contacts.":::
+    :::image type="content" source="media/enable-ai-suggested-contacts.png" alt-text="Enable the settings for AI-suggested contacts.":::
 
 5. Optionally, set the toggle for **Turn on Enhanced Microsoft Teams Integration** to **Yes**. This setting lets agents pin records and views to a Teams channel directly from Dynamics 365 and also suggests agents who worked on similar cases.
 
