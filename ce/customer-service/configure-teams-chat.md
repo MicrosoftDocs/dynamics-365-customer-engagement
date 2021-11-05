@@ -167,7 +167,7 @@ For any view that's selected, keep in mind the following details:
 
 [Use Teams chat](/use-teams-chat.md)<br>
 [Microsoft Teams integration FAQ](/teams-integration/teams-in-dynamics-faq)<br>
-[Configure AI suggestions for contacts in Microsoft Teams](/configure-teams-collaboration.md)
+[Configure AI suggestions for contacts in Microsoft Teams](/configure-teams-collaboration.md)<br>
 [Collaborate with AI-suggested agents in Microsoft Teams](/use-ai-suggested-contacts-teams.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
