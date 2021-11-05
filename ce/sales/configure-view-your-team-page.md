@@ -130,6 +130,8 @@ For example, **Robert Klien** is a fourth level sales manager and reports to **J
     > [!NOTE]
     > The users return to their regular view when the time limit expires or you can manually remove them from the list.
 
+To know how users use this feature, see [View conversation intelligence as a different user](dynamics365-sales-insights-app.md#view-conversation-intelligence-as-a-different-user).
+
 ## Choose top performers    
 The top performers who are selected here are compared against other sellers in your team to project how the other sellers are performing based on best practices conversational style KPIs. Those are displayed with relevant data on the home page in [What characterizes top sellers?](../sales/dynamics365-sales-insights-app-home-page.md#what-characterizes-top-sellers).  
 1. Under **Team members and top performers**, you can choose the top performers manually or let the application choose automatically. Select an option as necessary.  
