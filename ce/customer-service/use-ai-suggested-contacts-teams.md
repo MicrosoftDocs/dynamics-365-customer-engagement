@@ -1,7 +1,7 @@
 ---
 title: "Collaborate with AI-suggested agents in Microsoft Teams | MicrosoftDocs"
 description: "Learn how to use the AI-suggested experts and collaborate with them through Microsoft Teams to resolve cases in Customer Service."
-ms.date: 10/04/2021
+ms.date: 11/05/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -21,7 +21,7 @@ manager: shujoshi
 
 ## Introduction
 
-If your administrator has enabled AI suggestions for similar cases and configured linking of chats to Dynamics 365 records, you can get suggested contacts who have resolved cases similar to yours to help you quickly resolve customer issues. To chat with AI suggested contacts, your administrator must also enable the option to collaborate with other contacts in Microsoft Teams.
+If your administrator has enabled AI suggestions for similar cases and configured the ability to link chats to Dynamics 365 records, you can view suggested contacts who have resolved cases similar to yours to help you more quickly resolve customer issues. To chat with AI-suggested contacts, your administrator must also enable the option to collaborate with other contacts in Microsoft Teams.
 
 More information: [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
 
@@ -36,13 +36,13 @@ If no similar cases exist, a message is displayed that no suggested contacts can
 You can do the following:
 
 1. Select **New linked chat**. The following options appear:
-   - Option to enter participant agent names to create linked chats.
-   - A dropdown list of suggested contacts who worked on similar and related cases. AI and ruled-based suggested contacts are listed if admins have enabled both the options.
-   - If AI suggested contacts is enabled, Resolved similar cases section is displayed in the dropdown list.
+   - An option to enter participant agent names to create linked chats.
+   - A dropdown list of suggested contacts who have worked on similar and related cases. AI and ruled-based suggested contacts are listed if admins have enabled both of these options.
+   - If AI-suggested contacts is enabled, a **Resolved similar cases** section is displayed in the dropdown list.
    
         :::image type="content" source="media/ai-suggested-contacts-suggestions-dropdown.png" alt-text="AI suggested contacts dropdown list.":::
    
-   - Each AI suggested contact is displayed with the following details: 
+   - Each AI-suggested contact is displayed with the following details: 
        - Full name
        - Display picture if available
        - Link to the top similar case, which is displayed under the contact’s full name. “Worked on similar case `<similar case title>`. Agents can select the link to view the similar case.
@@ -58,7 +58,7 @@ You can do the following:
    
         :::image type="content" source="media/confidence-score-with-explanation.png" alt-text="Explanation of the confidence score of similar cases.":::
    
-   - The default AI suggested contacts list show the top three suggestions. If more contacts are suggested, agents can select **View more** in the dropdown list.
+   - The default AI-suggested contacts list shows the top three suggestions. If more contacts are suggested, agents can select **View more** in the dropdown list.
    
 
 2. Type a participant name or select from the suggested contacts. You can select more than one contact and then select **Start chat**.
