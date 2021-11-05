@@ -102,8 +102,8 @@ You can link a chat to a single record or multiple records. For example, if you 
 - To unlink the chat from the case, select the chat, and then select **Unlink from this case**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Unlink an existing chat from a record, such as a case.](media/teams-unlink-chat.png "Unlink existing chat from a record)
-
+    > ![Unlink an existing chat from a record, such as a case.](media/teams-unlink-chat.png "Unink existing chat from a record")
+    
 
 ## How suggested contacts work
 The suggested contacts list displays users who are connected or have interacted with the record. So, a suggested contact could be one or more of the following users, in the given order:
