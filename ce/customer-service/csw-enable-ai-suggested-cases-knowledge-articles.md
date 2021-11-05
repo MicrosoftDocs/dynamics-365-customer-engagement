@@ -87,7 +87,6 @@ Make sure that the following requirements are met:
 - If administration mode is enabled, make sure that background operations are also enabled. More information: [Administration Mode](/power-platform/admin/admin-mode).
 
 
-
 ## Enable AI suggestions for similar cases
 
 Perform the following steps to enable the AI suggestions for similar cases:
