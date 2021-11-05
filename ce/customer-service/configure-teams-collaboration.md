@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams collaboration | MicrosoftDocs"
 description: "Learn how to configure collaboration with Microsoft Teams in Customer Service."
-ms.date: 10/05/2021
+ms.date: 11/05/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
