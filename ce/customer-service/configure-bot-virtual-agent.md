@@ -90,7 +90,7 @@ You must use the context variables that were created during setup for the bot to
 4. Create a routing rule for the virtual agent and add it to the workstream.
 
     > [!div class=mx-imgBorder]
-    > ![Virtual Agent work stream bot routing rules.](media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent work stream bot routing rules")
+    > ![Virtual Agent workstream bot routing rules.](media/virtual-agent-work-stream-routing-rule-bot.png "Virtual Agent workstream bot routing rules")
 
 Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable.
 
@@ -188,7 +188,7 @@ When bots receive a conversation that is subsequently not escalated to a human a
 
 This conversation will then appear in the **Closed** state in the Customer Service for Omnichannel dashboard and in **Resolved/abandoned** state in the Power Virtual Agents dashboard. For more information on the state of conversations, see [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
-## Enable a Power Virtual Agent bot to end conversations
+## Enable a Power Virtual Agents bot to end conversations
 
 You can configure the Power Virtual Agents bot to end conversations if the customer query has been solved or the when the customer has been inactive for a period of time. The bot conversations will automatically close after 30 minutes of inactivity.
 
