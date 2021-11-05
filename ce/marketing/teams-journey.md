@@ -23,7 +23,7 @@ search.app:
 The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in touch with your webinar participants after hosting a webinar. You can send personalized registration materials, send surveys, and more to drive awareness and engagement.
 
 > [!NOTE]
-> The Dynamics 365 Marketing 6-month trial does not connect to existing instances of other Dynamics 365 apps. It is standalone and is separate from any paid instances of Sales, Customer Service, Field Service, or any other Dynamics 365 apps.
+> The Dynamics 365 Marketing 6-month trial does not connect to existing instances of other Dynamics 365 apps. It is standalone and separate from any paid instances of Sales, Customer Service, Field Service, or any other Dynamics 365 apps.
 > 
 > If you would like to create a Marketing trial in conjunction with an existing Dynamics 365 instance, contact your Microsoft sales representative or channel partner.
 
