@@ -1,10 +1,10 @@
 ---
-title: "Integrate a bot | MicrosoftDocs"
-description: "Instructions to integrate a bot in Omnichannel for Customer Service."
-ms.date: 10/07/2021
+title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
+description: "Instructions to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
+ms.date: 11/11/2021
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
@@ -17,7 +17,7 @@ ms.reviewer: nenellim
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of bot conversations and have complete context while engaging with customers.
 
-After you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel Administration app in order to add your bot to queues and configure context variables to route chat sessions to queues.
+After you have created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel admin center or Omnichannel Administration app in order to add your bot to queues and configure context variables to route chat sessions to queues.
 
 When you integrate a Power Virtual Agents bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
@@ -30,22 +30,22 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 ## Prerequisites
 
-- Product licenses - Omnichannel for Customer Service includes the license for Power Virtual Agents. For more information, see [Dynamics 365 Licensing Guide (PDF)](https://go.microsoft.com/fwlink/p/?LinkId=866544). To get Omnichannel for Customer Service trial, see [Try channels in Omnichannel for Customer Service](try-channels.md).
-- Role - To successfully complete these steps, the signed-in user must be an Omnichannel Administrator. [Learn more about managing and assigning user roles in Omnichannel](add-users-assign-roles.md).
-- Azure Application ID - You will need an application registered in Azure prior to connecting to Omnichannel for Customer Service. [Learn more](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
-- Bot - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
-- Chat widget - You must have a preconfigured chat widget to enable the bot to communicate with end users. For more information, see [Add a chat widget](add-chat-widget.md).
+- **Product licenses** - Omnichannel for Customer Service includes the license for Power Virtual Agents. For more information, see [Dynamics 365 Licensing Guide (PDF)](https://go.microsoft.com/fwlink/p/?LinkId=866544). To get Omnichannel for Customer Service trial, see [Try channels in Omnichannel for Customer Service](try-channels.md).
+- **Role** - To successfully complete these steps, the signed-in user must be an Omnichannel Administrator. [Learn more about managing and assigning user roles in Omnichannel](add-users-assign-roles.md).
+- **Azure Application ID** - You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. [Learn more](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
+- **Bot** - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
+- **Chat widget **- You must have a preconfigured chat widget to enable the bot to communicate with customers. For more information, see [Add a chat widget](add-chat-widget.md).
 
 ## Configure your Power Virtual Agents bot
 
 After the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel admin center app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Workstreams** section of Omnichannel admin center.
 
 > [!NOTE]
-> A bot can escalate conversations to agents only if they are a part of push-based workstream.
+> Bots can escalate conversations to agents only if they're a part of push-based workstream.
 
 ### Set up your Power Virtual Agents bot
 
-1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
+1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel admin center or Omnichannel Administration app. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
 
     ![Power Virtual Agents bot settings.](media/virtual-agent-bot-settings.png "Power Virtual Agents bot settings")
 
@@ -55,7 +55,7 @@ After the Power Virtual Agents bot is created and configured to work with Omnich
 
     ![Virtual Agent bot select queue.](media/virtual-agent-bot-select-queues.png)
 
-3. Click **Done**. Now you're on the bot profile page and you can see that your bot is connected.
+3. Select **Done**. Now you're on the bot profile page and you can see that your bot is connected.
 
     ![Virtual Agent bot profile page.](media/virtual-agent-bot-profile.png)
 
@@ -96,16 +96,16 @@ Routing rules route the incoming customer queries to their respective queues. Ea
 
 Bots are developed to receive customer queries first, gain information of the query, and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user.
 
-Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
+Be sure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
 
 > [!NOTE]
-> When you run a report on Power Virtual Agent activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
+> When you run a report on Power Virtual Agents activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
 
 ## Enable a human agent to transfer a conversation back to a bot
 
 The previous section explained how to configure a single conversation transfer from a Power Virtual Agents bot to a human agent. Some support scenarios may require a human agent to transfer a conversation back to a Power Virtual Agents bot after delivering personalized support. This second transfer from human agent to bot may be used to provide further assistance with basic, repetitive tasks or to collect additional data, for example, in a customer survey.
 
-You can facilitate a human agent transfer of a conversation back to a bot in one of the following ways:
+You can facilitate the transfer of a conversation from a human agent back to a bot in the following ways:
 
 - Create two bots that reside in two queues
 - Create two bots that reside in the same queue
@@ -114,34 +114,34 @@ You can facilitate a human agent transfer of a conversation back to a bot in one
 
 In this scenario, a bot has transferred a conversation to a human agent. The human agent will transfer the conversation again to another bot in another queue.
 
-1. A customer initiates a conversation.
+1. A customer starts a conversation.
 2. The conversation is routed to Queue 1.
 3. The first bot (Bot A) accepts the conversation.
 4. The customer requests to chat with a human agent.
 5. The conversation is transferred to a human agent within Queue 1.
 6. The customer converses with the human agent.
-7. The human is finished delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in Queue 2.
+7. The human agent has completed delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in Queue 2.
 8. The human agent is disconnected from the conversation.
 9. The conversation routed to Bot B in Queue 2.
 10.	The system triggers Bot B to send a greeting message.
-11. The customer now converses with Bot B.
+11. The customer now chats with Bot B.
 
 ### Two bots in one queue
 
-In this scenario, after a bot has transferred a conversation to a human agent, the agent will transfer the conversation to another bot in the same queue when the agent's task is over. For the conversation to flow correctly, you must set the first bot (Bot A) with the highest capacity, the human agent with second-highest capacity, and the second bot (Bot B) with the lowest capacity.
+In this scenario, after a bot has transferred a conversation to a human agent, the agent will transfer the conversation to another bot in the same queue when the agent's task is over. For the conversation to flow correctly, you must set the first bot (Bot A) with the highest capacity, the human agent with the next highest capacity, and the second bot (Bot B) with the lowest capacity.
 
-1. A customer initiates a conversation that is routed to a queue.
+1. A customer starts a conversation that is routed to a queue.
 2. The first bot (Bot A) that has the highest capacity accepts the conversation.
 3. The customer requests to chat with a human agent.
-4. The conversation is transferred to a human agent, as the agent has second-highest capacity.
-5. The customer converses with the human agent.
+4. The conversation is transferred to a human agent as the agent has second-highest capacity.
+5. The customer chats with the human agent.
 6. The human agent has finished delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in the same queue.
 7. The human agent is disconnected from the conversation, and the conversation is routed to Bot B.
 8. Bot B receives the messages in the following order:
     - A conversation update that the “Bot added”
     - The Omnichannel Set context event
 9. The system triggers Bot B to send a greeting message.
-10. The customer now converses with Bot B.
+10. The customer now chats with Bot B.
 
 ## Configure context variables for the bot
 
@@ -180,9 +180,9 @@ The global variables that are created in Power Virtual Agents can be passed to O
 | **Adaptive cards:** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li>	Power Virtual Agents supports adaptive cards for CSAT surveys and they will display text only. For more information, see the [Channel experience reference table](/power-virtual-agents/publication-fundamentals-publish-channels#channel-experience-reference-table). </li><li> You can build an adaptive card by adding a skill through Power Virtual Agents. For more information, see [Use Microsoft Bot Framework Skills in Power Virtual Agents](/power-virtual-agents/advanced-use-skills). </li><li> Adaptive card styling is not supported.</li></ul> |
 | **Single sign-on (SSO):** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
 | **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
-| **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
+| **Format bot messages:** You can set the optional `TextFormat` property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
 
-## When is a conversation closed in Customer Service for Omnichannel
+## When is a conversation closed in Omnichannel for Customer Service
 
 When bots receive a conversation that is subsequently not escalated to a human agent, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
 
@@ -214,7 +214,8 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Add a chat widget](add-chat-widget.md)  
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Create and edit topics in Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)  
-[Suggested actions](suggested-actions.md) 
+[Suggested actions](suggested-actions.md)  
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
