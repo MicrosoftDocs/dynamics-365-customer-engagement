@@ -92,6 +92,8 @@ The following procedure explains how to access conversation intelligence for the
 
 ## View conversation intelligence as a different user
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]    
+
 You can view the conversation intelligence information by impersonating another user in your organization. An administrator must configure who you can impersonate and view the information. More information: [Configure users to view as another user](configure-view-your-team-page.md#configure-users-to-view-as-another-user).    
 After the view as permission is provided, you [sign in to the conversation intelligence app](#how-to-get-conversation-intelligence) with your credentials and view the information in the configured user's point of view. 
 
