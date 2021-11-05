@@ -4,35 +4,23 @@ description: "Learn how to monitor calls in the voice channel for Omnichannel fo
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Monitor calls
+# Monitor calls
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
 As a supervisor, it's useful to be able to monitor the calls between your agents and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the agent or customer, as well as step into conversations when additional support is needed.
 
 ## Prerequisites
 
-To monitor calls in the voice channel, you must have the **Omnichannel Supervisor** role. This role allows you to join and consult in ongoing conversations. 
+To monitor calls in the voice channel, you must have the **Omnichannel Supervisor** role. This role allows you to join and consult in ongoing conversations.
 
 
-## Monitor ongoing conversations 
+## Monitor ongoing conversations
 
 On the **Omnichannel Ongoing Conversations** dashboard, you, as a supervisor, can view a list of active conversations, including customer sentiment analysis for each call.
 
@@ -40,7 +28,8 @@ On the **Omnichannel Ongoing Conversations** dashboard, you, as a supervisor, ca
 > ![Screenshot of ongoing conversations dashboard.](media/voice-channel-monitor-ongoing-conversations.png)
 
 To find out details about an individual conversation:
-1. On the **Omnichannel Ongoing Conversations dashboard**, select it in the list of active conversations, and then select **Monitor**.
+
+- On the **Omnichannel Ongoing Conversations dashboard**, select it in the list of active conversations, and then select **Monitor**.
 
 
 ## Consult with an agent during a conversation
@@ -59,13 +48,11 @@ If needed, you can select **Join call** to enter the conversation and speak with
 
 By joining a conversation, you have access to call controls that allow you to capture details about the conversation, pause the conversation if needed, and engage with the agent and customer as needed.
 
-
-
 ### See also
 
 [Introduction to the voice channel](voice-channel.md)  
 [Provision and set up the voice channel](voice-channel-install.md)  
-[Outbound calling](voice-channel-outbound-calling.md)  
+[Set up outbound calling](voice-channel-outbound-calling.md)  
 [Route incoming calls to agents](voice-channel-route-queues.md)  
 [Add Azure Bot Service for conversational IVR](voice-channel-azure-bot-service.md)  
 [View voice calls usage](voice-channel-usage.md)  

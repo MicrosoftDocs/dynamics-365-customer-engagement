@@ -4,7 +4,7 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/28/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -80,13 +80,13 @@ The following table lists the upcoming regions and clouds where the voice channe
 
 ## Language limitations by feature
 
-### What languages are supported in the voice channel at general availability (GA)?
+### What languages are supported in the voice channel at general availability (GA)
 
 For our GA release of voice channel, language support is feature-specific. 
 
 We use Azure Cognitive Service Speech’s Speech-to-Text for transcription, so we plan on supporting all of the languages that Speech-To-Text supports today. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports. We also support a bring-your-own-bot through Azure Bot Service for IVR that will be constrained by the languages that speech-to-text supports. For AI suggestions, we have added more languages as of April 2021.  
 
-### Are there any real-time limitations?
+### Are there any real-time limitations
 
 We're planning to support additional languages for the GA release in 2021. See the list of supported languages.
 

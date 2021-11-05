@@ -4,7 +4,7 @@ description: "Learn about managing notification templates in Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/07/2021
+ms.date: 11/01/2021
 ms.topic: article
 ---
 
@@ -113,6 +113,7 @@ The out-of-the-box templates are as follows.
 | CDS entity |||||CDS entity - Default assigned |
 | Customized ||||| Customized notification template |
 | Sentiment ||||| Sentiment threshold alert - supervisor |
+|Voice|Voice call - consult - default|Voice call - incoming authenticated - default|Voice call - incoming unauthenticated - default|Voice call - transfer - default|Voice call - supervisor assign - default|
 |||||||
 
   > [!Note]
