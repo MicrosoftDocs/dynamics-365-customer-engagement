@@ -40,6 +40,43 @@ The following table contains the list of variables in Omnichannel for Customer S
 | Case | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation. |[Parse the JSON to extract the record ID](#parse-json-to-extract-record-id).| Parse the JSON to extract the record ID.|
 |||||
 
+## Context variables for extension solutions
+
+The following table contains the list of variables supported via extension solutions.
+
+https://dev.azure.com/dynamicscrm/OneCRM/_wiki/wikis/Omnichannel%20Development/22705/OC-PVA-Extension-Solution-(PVA-as-a-Platform)
+
+| Context variable type   | Context variable name | Description | 
+|                    -----|               -----   | -------                         |
+|  **Messaging**              | msdyn_CustomerType    | account                         |
+|                         | msdyn_CustomerName	  | Account.Name                    |
+|                         | msdyn_CustomerId      | Account.Id	                    |
+|                         | msdyn_CustomerType    |  contact                       |
+|                         | msdyn_CustomerName	  |   Contact.FullName             |
+|                         | msdyn_CustomerId	  | 	   Contact.Id	          |
+|                         | msdyn_CaseId	      |   Case.Id                     |
+|                         | msdyn_CaseTitle	      | Case.Title                    |
+|                         |                       |                               |
+| **Voice**                   | msdyn_CustomerType    |   contact                     |
+|                         | msdyn_CustomerName	  |   Account.Name                |
+|                         | msdyn_CustomerId      |   Account.Id                  |
+|                         | msdyn_CustomerType	  |   account                     |
+|                         | msdyn_CustomerName    |   Contact.FullName            |
+|                         | msdyn_CustomerId	  |   Contact.Id                  |
+|                         | msdyn_CaseId	      |   Case.Id	                  |
+|                         | msdyn_CaseTitle	      |   Case.Title                  |
+|                         | CustomerPhoneNumber   |     provided in Telephony activity             |
+|                         | OrganizationPhoneNumber	  |      provided in Telephony activity        |
+|                         |                       |                               |
+|**Extension method name**   |                       |                               |
+|  Set survey consent                |                       |                               |
+|  Set customer locale and handoff to Omnichannel                    |                       |                               |
+|                         |                       |                               |
+|                         |                       |                               |
+
+> [!Note]
+> If there's a mismatch of any of the attributes (Phone, Email, CaseNumber) for one record, then it won't get automatically identified.
+
 
 ### Parse JSON to extract record ID
 
