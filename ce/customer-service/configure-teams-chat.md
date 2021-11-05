@@ -98,7 +98,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 ### Add the Teams chat settings page for specific multisession users
 
-If you're using the default profile, once you complete the steps in [Add the Teams chat settings page to the sitemap of your app](#add-the-teams-chat-settings-page-to-the-sitemap-of-your-app), Teams chat is enabled.
+If you're using the default profile, once you complete the steps in [Add the Teams chat settings page to the sitemap of your app](#add-the-teams-collaboration-and-chat-settings-page-to-the-sitemap-of-your-app), Teams chat is enabled.
 
 If you want Teams chat to work for specific users, you must enable the feature for your custom profile. For more information about creating custom profiles in App profile manager, see [Overview of App profile manager](/dynamics365/app-profile-manager/overview).
 
@@ -144,7 +144,7 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
 	
 3.	In the **Link chat to record type** pane, in **Choose record type**, type the name of the record type you want to use.
 	
-4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then use the existing views functionality to define the fields that will represent context card or [create a custom view in Power Apps](powerapps/maker/model-driven-apps/create-edit-views). You can choose up to five fields you want to include as a context card. 
+4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then use the existing views functionality to define the fields that will represent context card or [create a custom view in Power Apps](/powerapps/maker/model-driven-apps/create-edit-views). You can choose up to five fields you want to include as a context card. 
             
 5.	Select **Save**.
 
