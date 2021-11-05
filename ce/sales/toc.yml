@@ -371,7 +371,7 @@
         href: configure-talking-points.md
       - name: Configure who knows whom
         href: configure-who-knows-whom.md
-    - name: Configure conversation intelligence
+    - name: Conversation intelligence
       items:
       - name: Prerequisites to use Conversation Intelligence
         href: prereq-sales-insights-app.md
