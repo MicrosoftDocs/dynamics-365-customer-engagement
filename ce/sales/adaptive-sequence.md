@@ -103,13 +103,13 @@ Let's define a flow so that if a customer opens your email, the next step is to 
 
 ### Advanced email conditions<a name="advanced-email-conditions"></a>
 
-Advanced email conditions lets you define next course of action when a set of actions or any of the selected action is performed by the customer on the on the email step. 
+The **Advanced email conditions** step lets you define next course of action when a set of actions or any of the selected actions is performed by the customer on the email step. 
 
 >[!IMPORTANT]
 >- You need to [configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions that customers have with emails are displayed in the condition list.
 >- [Enable linking sequence steps and activities](customize-sales-accelerator-sellers.md#enable-linking-sequence-steps-and-activities) to create conditions for email activities.
 
-Let's define a flow where you want to trigger the next step when customer opens the email and downloads the attachment. If not, send a reminder email.
+Let's define a flow where you want to trigger the next step when customer opens the email and downloads the attachment. 
 
 1. After adding the **Email** activity, select **+** (**Add**) and go to the **Condition** tab.      
 2. Select **Advanced email conditions**.   
@@ -147,7 +147,7 @@ Let's define a flow where you want to trigger the next step when customer opens 
     >[!div class="mx-imgBorder"]
     >![The advanced email conditions step is created.](media/sa-condition-email-adv-condition-step-created.png "The advanced email conditions step is created")
 
-    You can proceed to create the steps in **Yes** and **No** paths according your requirements.
+    You can proceed to create the steps in **Yes** and **No** paths according to your requirements.
     
 <a name="define-conditions-for-phone-call-activity"></a>
 ## Define conditions for a phone call activity
