@@ -66,7 +66,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 ### Add the Teams collaboration and chat settings page to the sitemap of your app
 
-1. Sign in to Power Apps.
+1. Sign in to [Power Apps](https://make.powerapps.com/).
 
 2. Select the environment, and then select **Apps**.
 
@@ -96,7 +96,7 @@ The following data security and privacy considerations apply for Teams chat func
    The preview is now enabled for the Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
     
 
-### Add the Teams chat settings page for multisession users
+### Add the Teams chat settings page for specific multisession users
 
 If you're using the default profile, once you complete the steps in [Add the Teams chat settings page to the sitemap of your app](#add-the-teams-chat-settings-page-to-the-sitemap-of-your-app), Teams chat is enabled.
 
@@ -144,7 +144,7 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
 	
 3.	In the **Link chat to record type** pane, in **Choose record type**, type the name of the record type you want to use.
 	
-4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then use the existing views functionality to define the fields that will represent context card or create a customer view in Power Apps. You can choose up to five fields you want to include as a context card. 
+4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then use the existing views functionality to define the fields that will represent context card or [create a custom view in Power Apps](powerapps/maker/model-driven-apps/create-edit-views). You can choose up to five fields you want to include as a context card. 
             
 5.	Select **Save**.
 
