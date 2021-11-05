@@ -28,11 +28,16 @@ ms.custom:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-You can configure the ability for agents to chat in Microsoft Teams from within Dynamics 365 Customer Service Hub, Dynamics 365 Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales. When the feature is enabled, while working on customer records, agents can start a new chat or link an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction message that agents can use to provide further context when collaborating on Teams.
+You can configure the ability for agents to chat in Microsoft Teams from within Dynamics 365 Customer Service Hub, Dynamics 365 Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
+
+> [!NOTE]
+> Teams settings apply across all supported customer engagement apps. Whether you enable the feature from Customer Service Hub or a custom app, it'll be enabled for all supported customer engagement apps.
+
+When the feature is enabled, while working on customer records, agents can start a new chat or link an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction message that agents can use to provide further context when collaborating on Teams.
 
 ## Enable or disable Teams chat
 
-The Teams chat feature must be enabled in customer engagement apps, and requires certain permissions to access Teams data. Review the following permissions required section to learn more.
+The Teams chat feature must be enabled in customer engagement apps and custom apps. It requires certain permissions to access Teams data. Review the following permissions required section to learn more.
 
 ### Permissions required
 
@@ -59,7 +64,24 @@ The following data security and privacy considerations apply for Teams chat func
 - The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, review [Permissions required](#permissions-required).
 
 
-### Add the Teams chat settings page to the sitemap of your app
+### Add the Teams collaboration and chat settings page to the sitemap of your app
+
+1. Sign in to Power Apps.
+
+2. Select the environment, and then select **Apps**.
+
+3. Select your custom app, and then select **Edit**.
+
+4. In the **App Designer**, edit the **Sitemap**.
+
+5. To add the Teams **Chat and collaborate** settings page, add a subarea component, and then for the **Type**, select **URL**.
+
+6. Copy the following value and paste it into URL field: <br>
+    ```/main.aspx?pagetype=control&controlName=MscrmControls.TeamsCollaborationAdmin.TeamsCollaborationAdmin```
+
+7. Save and publish the changes.
+
+### Access the Teams settings in Customer Service Hub
 
 1. In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
 
