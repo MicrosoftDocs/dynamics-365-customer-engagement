@@ -100,6 +100,7 @@ You can link a chat to a single record or multiple records. For example, if you 
     > ![Link an existing chat to a record, such as a case.](media/teams-link-chat.png "Link existing chat to a record")
 
 - To unlink the chat from the case, select the chat, and then select **Unlink from this case**.
+
     > [!div class="mx-imgBorder"] 
     > ![Unlink an existing chat from a record, such as a case.](media/teams-unlink-chat.png "Unlink existing chat from a record)
 
