@@ -1,6 +1,6 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
-description: "Instructions to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
+description: "Use this topic to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
 ms.date: 11/11/2021
 ms.topic: article
 author: mh-jaya
@@ -34,7 +34,7 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 - **Role** - To successfully complete these steps, the signed-in user must be an Omnichannel Administrator. [Learn more about managing and assigning user roles in Omnichannel](add-users-assign-roles.md).
 - **Azure Application ID** - You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. [Learn more](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
 - **Bot** - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
-- **Chat widget **- You must have a preconfigured chat widget to enable the bot to communicate with customers. For more information, see [Add a chat widget](add-chat-widget.md).
+- **Chat widget**- You must have a preconfigured chat widget to enable the bot to communicate with customers. For more information, see [Add a chat widget](add-chat-widget.md).
 
 ## Configure your Power Virtual Agents bot
 
@@ -45,7 +45,7 @@ After the Power Virtual Agents bot is created and configured to work with Omnich
 
 ### Set up your Power Virtual Agents bot
 
-1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel admin center or Omnichannel Administration app. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
+1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel admin center or Omnichannel Administration app. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel)
 
     ![Power Virtual Agents bot settings.](media/virtual-agent-bot-settings.png "Power Virtual Agents bot settings")
 
@@ -67,17 +67,17 @@ After the Power Virtual Agents bot is created and configured to work with Omnich
 
     - **Create a bot queue and a human agent queue:** If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries.
 
-For information about working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
+More information: [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
 
 ### Create a bot queue and a human agent queue
 
-1. Select or create a workstream. For more information about workstreams, see [Understand and create workstreams](create-workstreams.md).
+1. Select or create a workstream. More information: [Understand and create workstreams](create-workstreams.md)
 
 ![Virtual Agent workstreams.](media/virtual-agent-work-streams.png)
 
 2. Create context variables.
 
-You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information about context variables, see [Contextual variables available upon hand-off](/dynamics365/ai/customer-service-virtual-agent/how-to-handoff#contextual-variables-available-upon-hand-off).
+You must use the context variables that were created during setup for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. More information: [Contextual variables available upon hand-off](/dynamics365/ai/customer-service-virtual-agent/how-to-handoff#contextual-variables-available-upon-hand-off)
 
    > [!div class=mx-imgBorder]
    > ![Virtual Agent workstream context variable.](media/virtual-agent-work-stream-context-variables.png "Virtual Agent workstream context variable")
@@ -96,7 +96,7 @@ Routing rules route the incoming customer queries to their respective queues. Ea
 
 Bots are developed to receive customer queries first, gain information of the query, and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user.
 
-Be sure to map the routing rules to the correct queues so that the queries are routed appropriately. For information about routing rules, see [Create and manage routing rules](routing-rules.md).
+Be sure to map the routing rules to the correct queues so that the queries are routed appropriately. More information: [Create and manage routing rules](routing-rules.md)
 
 > [!NOTE]
 > When you run a report on Power Virtual Agents activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
@@ -138,22 +138,22 @@ In this scenario, after a bot has transferred a conversation to a human agent, t
 6. The human agent has finished delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in the same queue.
 7. The human agent is disconnected from the conversation, and the conversation is routed to Bot B.
 8. Bot B receives the messages in the following order:
-    - A conversation update that the “Bot added”
+    - A conversation update that the “Bot is added”
     - The Omnichannel Set context event
 9. The system triggers Bot B to send a greeting message.
 10. The customer now chats with Bot B.
 
 ## Configure context variables for the bot
 
-When customers initiate a conversation, the relevant context that is related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents.  Context variables set by the bot can also be passed to Omnichannel for Customer Service when the bot escalates to the human agent. For example, you can pass the ticketnumber for the case created by the bot to Omnichannel for Customer Service to link the case and load the customer summary for the agent to view.
+When customers initiate a conversation, the relevant context that is related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the bot in Power Virtual Agents. Context variables set by the bot can also be passed to Omnichannel for Customer Service when the bot escalates to the human agent. For example, you can pass the ticketnumber for the case created by the bot to Omnichannel for Customer Service to link the case and load the customer summary for the agent to view.
 
 For information on the context variables that can be configured, see [Context variables for bots](context-variables-for-bot.md).
 
 > [!IMPORTANT]
 > Ensure the following:
 >
-> - Names are not changed and used as is when you author flows.
-> - The value that will be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the agent.
+> - Names are not changed and used "as is" when you author flows.
+> - The value that'll be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the agent.
 
 In Power Virtual Agents, do the following:
 
@@ -167,7 +167,7 @@ In Power Virtual Agents, do the following:
 
 8. Save and publish the changes.
 
-At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. The bot can set the information for the context variables to link the conversation and case when the bot escalates the conversation to an agent. More information: [Link customer and case to a conversation](link-customer-case-when-bot-escalates.md).
+At run time, the required information is captured in the context variable that can then be used for further actions based on the workflow you configure. The bot can set the information for the context variables to link the conversation and case when the bot escalates the conversation to an agent. More information: [Link customer and case to a conversation](link-customer-case-when-bot-escalates.md)
 
 You can also configure the **Transfer to agent** node in the Power Virtual Agents topic to send a private message with relevant context variables to the live agent during the escalation.
 
