@@ -111,7 +111,7 @@ The **Advanced email conditions** step lets you define next course of action whe
 
 Let's define a flow where you want to trigger the next step when customer opens the email and downloads the attachment. 
 
-1. After adding the **Email** activity, select **+** (**Add**) and go to the **Condition** tab.      
+1. After adding the **Email** activity, select **+** (**Add**) and go to the **Conditions** tab.      
 2. Select **Advanced email conditions**.   
 
     >[!div class="mx-imgBorder"]
@@ -147,7 +147,7 @@ Let's define a flow where you want to trigger the next step when customer opens 
     >[!div class="mx-imgBorder"]
     >![The advanced email conditions step is created.](media/sa-condition-email-adv-condition-step-created.png "The advanced email conditions step is created")
 
-    You can proceed to create the steps in **Yes** and **No** paths according to your requirements.
+    You can continue to create the steps in **Yes** and **No** paths according to your requirements.
     
 <a name="define-conditions-for-phone-call-activity"></a>
 ## Define conditions for a phone call activity
@@ -155,6 +155,8 @@ Let's define a flow where you want to trigger the next step when customer opens 
 When you add phone call activity to the sequence and select **Add** (**+**), the activity selection box displays the **Conditions** tab, where you define the next course of action in the sequence. The actions that can be performed on a phone call activity are displayed in the condition list. However, these actions vary from organization to organization depending on their requirements, and are added by the administrator.
 
 When the seller skips a phone call activity that includes a condition, the flow follows the **No** path.
+
+The **Advanced call conditions** step lets you select multiple results, when only one result must occur to advance to the **Yes** path. More information: [Advanced call conditions](#advanced-call-conditions)
 
 >[!NOTE]
 >To learn about adding custom status for your organization, see [Define status reason transitions for the Case or custom tables](/powerapps/maker/data-platform/define-status-reason-transitions).
@@ -187,6 +189,31 @@ Let's define a flow so that when a seller makes a call to discuss product detail
         >[!div class="mx-imgBorder"]
         >![Save the email activity in the No path](media/sa-condition-phone-no-save-email-activity.png "Save the email activity in the No path")     
 
+### Advanced call conditions<a name="advanced-call-conditions"></a>
+
+The **Advanced call conditions** step lets you select multiple results, when only one result must occur to advance to the **Yes** path.     
+Let's define a flow where you want to initiate the **Yes** path when customer makes or receives a call. 
+
+1. After adding the **Phone call** activity, select **+** (**Add**) and go to the **Conditions** tab.       
+2. Select **Advanced call conditions**.   
+
+    >[!div class="mx-imgBorder"]
+    >![Select advanced call conditions option from the conditions tab.](media/sa-condition-phone-call-select-advanced-call-conditions.png "Select advanced call conditions option from the conditions tab")    
+
+3. On the **Advanced call conditions** box, from the **Select results** dropdown list, select the **Made** and **Received** options. 
+    When any of the selected activities is completed, the **Yes** path is initiated. 
+
+    >[!div class="mx-imgBorder"]
+    >![Select the Made and Received options.](media/sa-condition-phone-call-select-made-received-option.png "Select the made and received options")
+
+4. Select **Save**.   
+    The advanced email conditions step is created.   
+
+    >[!div class="mx-imgBorder"]
+    >![The advanced call conditions step is created.](media/sa-condition-call-adv-condition-step-created.png "The advanced call conditions step is created")
+
+    You can continue to create the steps in **Yes** and **No** paths according to your requirements.
+    
 <a name="define-conditions-for-field-values"></a>
 ## Define conditions based on a field value
 
