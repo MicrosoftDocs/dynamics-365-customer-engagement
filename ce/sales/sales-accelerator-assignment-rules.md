@@ -56,7 +56,7 @@ As an administrator, you can create rules that match lead or opportunity attribu
     > [!div class="mx-imgBorder"]
     > ![Configure seller availability.](media/sales-accelerator-configuration-seller-availability.png "Configure seller availability")
  
-    More information: [Configure your work availability through personal settings](personalize-sales-accelerator.md#through-personal-settings-sales-enterprise).
+    More information: [Configure your work availability through personal settings](personalize-sales-accelerator.md#through-personal-settings).
 
 5.	In the **Automate lead and opportunity assignment (preview)** section, select the toggle to enable preview for the assignment rules feature.   
 
