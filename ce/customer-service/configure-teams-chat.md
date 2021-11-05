@@ -160,6 +160,8 @@ For any view that's selected, keep in mind the following details:
 
    > [!div class="mx-imgBorder"] 
    > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png "Default case introduction message view")
+ 
+- For other out-of-box standard record types, including account, contacts, knowledge article, and email, the default view is the **Quick find** view.
 
 ### See also
 
