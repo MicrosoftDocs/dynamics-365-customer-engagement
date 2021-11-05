@@ -35,7 +35,7 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
     To get Omnichannel for Customer Service trial, see [Try channels in Omnichannel for Customer Service](try-channels.md).
 - **Role** - To successfully complete these steps, the signed-in user must be an Omnichannel Administrator. More information: [Manage user roles](add-users-assign-roles.md)
 - **Azure Application ID** - You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. More information: [Learn more](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
-- **Bot** - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel)
+- **Bot** - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 - **Chat widget** - You must have a preconfigured chat widget to enable the bot to communicate with customers. More information: [Add a chat widget](add-chat-widget.md)
 
 ## Configure your Power Virtual Agents bot
@@ -65,9 +65,9 @@ After the Power Virtual Agents bot is created and configured to work with Omnich
 
  4. Set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
 
-    - **Add the bot to an existing human agent queue:**	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents. When a handoff is triggered, customers will be transferred from the Power Virtual Agents to the human agent according to the escalation routing rules.
+    - **Add the bot to an existing human agent queue**:	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents. When a handoff is triggered, customers will be transferred from the Power Virtual Agents to the human agent according to the escalation routing rules.
 
-    - **Create a bot queue and a human agent queue:** If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries.
+    - **Create a bot queue and a human agent queue**: If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries.
 
 More information: [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
 
@@ -155,7 +155,7 @@ For information on the context variables that can be configured, see [Context va
 > Ensure the following:
 >
 > - Names are not changed and used "as is" when you author flows.
-> - The value that'll be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the agent.
+> - The value that'll be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the human agent.
 
 In Power Virtual Agents, do the following:
 
@@ -164,7 +164,7 @@ In Power Virtual Agents, do the following:
 3. Select **Go to authoring canvas**.
 4. Select **Add node**, choose the **Ask a question** action.
 5. Edit the **Identify** field, and in the **Choose information to identify** dialog box, select an option that will match the context variable data type. For information on the data type mapping, see the information in the table in [context variables](context-variables-for-bot.md).
-6. Edit **Save response as**, and in the **Variable Properties** dialog box, update the value for **Name** with the required Omnichannel for Customer Service context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected. The **External sources can set values** option is applicable only for getting the context variable. 
+6. Edit **Save response as**, and in the **Variable Properties** dialog, update the value for **Name** with the required Omnichannel for Customer Service context variable. Make sure **Bot (any topic can access)** and **External sources can set values** are selected. The **External sources can set values** option is applicable only for getting the context variable. 
     > ![Configure context variable in a topic.](media/Configure-bot-context-variable.png "Configure context variable in a topic")
 
 8. Save and publish the changes.
@@ -212,7 +212,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 [Understand and create workstreams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
-[Create and manage routing rules](routing-rules.md)  
+[Identify customers automatically](record-identification-rule.md)  
 [Add a chat widget](add-chat-widget.md)  
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Create and edit topics in Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)  

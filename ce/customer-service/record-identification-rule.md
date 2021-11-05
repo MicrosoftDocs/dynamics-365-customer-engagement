@@ -20,7 +20,7 @@ For every incoming conversation request that an agent receives, a notification w
 
 If the identified contact or account has one active case linked to it, the case will be automatically linked to the conversation. If the customer has reached out for a different case, the agent can manually change the linked case.
 
-If more than one account, contact, or case is identified, the record will not be linked to conversation.
+If more than one account, contact, or case is identified, the record won't be linked to the conversation.
 
 For more information, see [View Customer summary for an incoming engagement request](oc-view-customer-summary-incoming-conversation-request.md).
 
@@ -42,7 +42,7 @@ You can automatically identify records using custom context set using setContext
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)  
+[Understand and create workstreams](work-streams-introduction.md)  
 [setContextProvider](developer/reference/methods/setcontextprovider.md)  
 
 
