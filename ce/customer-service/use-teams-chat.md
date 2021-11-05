@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to use the Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 11/01/2021
+ms.date: 11/05/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -39,7 +39,7 @@ As an agent, you can chat in Microsoft Teams from within Dynamics 365 Customer S
 The following image displays the key features of the agent Teams chat experience.
 
  > [!div class="mx-imgBorder"] 
- > ![Agent view of the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-agent-overview.png "Agent view of the the Microsoft Teams chat experience")
+ > ![Agent view of the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-agent-overview.png "Agent view of the Microsoft Teams chat experience")
 
 The following legend describes the numbered callouts in the above image.
 
@@ -64,31 +64,45 @@ You can open any Dynamics 365 Customer Service record and select the **Teams cha
 
 ## Start a new linked chat
 
-You can start a new linked chat or convert an existing Teams chat into a linked chat to associate the chat with a Dynamics 365 record. Standard record types, including case, conversation, account, contacts, knowledge article, and email, are available out of the box, or your administrator can add your desired record type.
+You can start a new linked chat or convert an existing Teams chat into a linked chat to associate the chat with a Dynamics 365 record. Standard record types, including case, conversation, account, contacts, knowledge article, and email, are available out-of-the-box, or your administrator can add your desired record type.
 
-Your administrator can configure an optional message that you can send using the chat to start a collaboration. this helps you to share succinct, read-only context to your collaborators on Teams.
+Your administrator can configure an optional message that you can send when using the chat to start a collaboration. This helps you to share succinct, read-only context with your collaborators on Teams.
  
 If you're using Teams for the first time within Customer Service Hub or Customer Service workspace, you can select the blue bubble, and then follow the interface guidance.
 
 1.	Open any Dynamics 365 Customer engagement record, and then select the **Teams chats and channels** integration icon.
-    The Teams chats (preview) panel opens.
-    - You can access the embedded chat from in Customer Service Hub and custom apps. When you select the :::image type="icon" source="media/teams-embedded-chat.png" border="false"::: icon, the chat pane opens as an app in the right side pane.
+    The **Teams chats (preview)** panel opens.
+    - You can access the embedded chat from in Customer Service Hub and custom apps. When you select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon, the chat pane opens as an app in the right-side pane.
+    - If you're in a multisession app, such as Customer Service workspace, you can access the chat pane directly from the productivity pane.
+       > [!NOTE]
+       > You can also access the chat pane from the home session in Customer Service workspace. When using the chat pane from the home session, you'll see two sections: Chats linked to other records and Other chats (if enabled by your administrator).
     
 2.	Use one of the following methods:<br>
-    a.	To start a new linked chat with a participant, select **New linked chat** in the **Linked to this record section**.<br><br>
+    a.	To start a new linked chat with a participant, select **New linked chat** in the **Linked to this record section** Type the name(s) of the participant(s) you want to chat with. YOu can start with just one collaborator and then progressively add more as needed (see step 6). Every new linked chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats apppropriately to match the context of the record and conversation. For more information, see step 3. <br><br>
     b.	To start a linked chat with a suggested contact directly on the chat list, select the contact with whom you want to chat, and then select **Start a linked chat**.<br> (Selecting the **Suggested** link allows you to load more suggested contacts.)<br>
     
      > [!div class="mx-imgBorder"] 
      > ![Start a linked chat.](media/teams-start-linked-chat.png "Start a linked chat")
+     
+     > [!NOTE]
+     > You can only link group chats to records. Direct, one-to-one chats can't be linked, and will instead display an option to start a new linked chat with that contact.
+       
+3. The chat name uses the record name or the participants’ name, depending on the configuration that your administrator has set up. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for linked chats** setting. You can modify the chat name. Provide a meaningful name to the chat so that you can identify the chat even on Teams, and so that your collaborators on Teams can also easily identify chats that are associated with Dynamics 365 records.<br><br>
+4. Your administrator can configure an optional message that you can send when using the chat to start a collaboration. The introduction message uses selected data fields from the associated record. This helps you to share succinct, read-only context with your collaborators on Teams. The message also includes a link to view the associated record in Dynamics 365. If your collaborators have a Dynamics 365 license and access to the record, they can view the full record details in a browser tab.
     
-    > [!NOTE]
-    > You can only link group chats to records. Direct, one-to-one chats can't be linked, and will instead display an option to start a new linked chat with that contact.
+     > [!div class="mx-imgBorder"] 
+     > ![Send an introduction message when using the chat.](media/teams-send-intro-message.png "Start a chat with an introductory message")
+     
+5. To convert an existing group chat into a linked chat, select a chat from the **All recents** section. Select the **More Commands** ellipsis (…), and then select **Link chats to record**. <br> 
     
-    The chat name uses the record name or the participants’ name, depending on the configuration that your administrator has set up. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for linked chats** setting. You can modify the chat name. Provide a meaningful name to the chat so that you can identify the chat even on Teams, and so that your collaborators on Teams can also easily identify chats that are associated with Dynamics 365 records.<br><br>
-    c.	To convert an existing group chat into a linked chat, select a chat from the **All recents** section. Select the **More Commands** ellipsis (…), and then select **Link chats to record**. <br> 
-    
-3.	Add more participants to the chat if you want to.
+6. (optional) You can add more participants to the chat directly from the chat control by selecting the **View and add participants**.	
     If they have a Dynamics 365 license and access to the record, the participants in the linked chat will see the chat when they open the record in Dynamics 365.
+    
+     > [!div class="mx-imgBorder"] 
+     > ![Collaborate with others.](media/teams-introduction-message.png "Collaborate with others")
+
+     > [!div class="mx-imgBorder"] 
+     > ![Add more participants to a chat.](media/teams-send-intro-message.png "Add participants to the chat")
     
 ## Link or unlink an existing chat from a record
 
@@ -119,7 +133,7 @@ The **Channels** tab lists the channels that either you’ve linked to the selec
 
 You can link relevant Teams channels to a record so that all the members can easily access the linked channels from the record and follow the conversation. 
 
-1.	Open any Dynamics 365 Customer Service record, and select :::image type="icon" source="media/teams-icon.png" border="false":::.<br>
+1.	Open any Dynamics 365 Customer Service record, and select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon.<br>
    The **Teams chats (preview)** pane opens.
 2. Select the **Channel** tab. The tab lists the channels that are already linked to a record.
 3. Select the **Link channel** icon in the upper-right corner of the Teams chats (preview) pane.<br>
