@@ -95,8 +95,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
      
 5. To convert an existing group chat into a linked chat, select a chat from the **All recents** section. Select the **More Commands** ellipsis (…), and then select **Link chats to record**. <br> 
     
-6. (optional) You can add more participants to the chat directly from the chat control by selecting the **View and add participants**.	
-    If they have a Dynamics 365 license and access to the record, the participants in the linked chat will see the chat when they open the record in Dynamics 365.
+6. (Optional) You can add more participants to the chat directly from the chat control by selecting the **View and add participants**.
     
      > [!div class="mx-imgBorder"] 
      > ![Collaborate with others.](media/teams-introduction-message.png "Collaborate with others")
