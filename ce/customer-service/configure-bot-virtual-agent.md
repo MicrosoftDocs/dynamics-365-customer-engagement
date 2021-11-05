@@ -33,10 +33,10 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 - **Product licenses** - Omnichannel for Customer Service includes the license for Power Virtual Agents. More information: [Dynamics 365 Licensing Guide (PDF)](https://go.microsoft.com/fwlink/p/?LinkId=866544)
      
     To get Omnichannel for Customer Service trial, see [Try channels in Omnichannel for Customer Service](try-channels.md).
-- **Role** - To successfully complete these steps, the signed-in user must be an Omnichannel Administrator. More information: [Manage user roles](add-users-assign-roles.md)
+- **Role** - To successfully complete these steps, the signed-in user must have the Omnichannel administrator role. More information: [Manage user roles](add-users-assign-roles.md)
 - **Azure Application ID** - You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. More information: [Learn more](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
-- **Bot** - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
-- **Chat widget** - You must have a preconfigured chat widget to enable the bot to communicate with customers. More information: [Add a chat widget](add-chat-widget.md)
+- **Bot** - You must have a pre-configured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
+- **Chat widget** - You must have a pre-configured chat widget to enable the bot to communicate with customers. More information: [Add a chat widget](add-chat-widget.md)
 
 ## Configure your Power Virtual Agents bot
 
@@ -105,7 +105,7 @@ Be sure to map the routing rules to the correct queues so that the queries are r
 
 ## Enable a human agent to transfer a conversation back to a bot
 
-The previous section explained how to configure a single conversation transfer from a Power Virtual Agents bot to a human agent. Some support scenarios may require a human agent to transfer a conversation back to a Power Virtual Agents bot after delivering personalized support. This second transfer from human agent to bot may be used to provide further assistance with basic, repetitive tasks or to collect additional data, for example, in a customer survey.
+The previous section explained how to configure a single conversation transfer from a Power Virtual Agents bot to a human agent. Some support scenarios may require a human agent to transfer a conversation back to a Power Virtual Agents bot after delivering personalized support. This second transfer from human agent to bot may be used to provide further assistance with basic, repetitive tasks, or to collect additional data, as in a customer survey.
 
 You can facilitate the transfer of a conversation from a human agent back to a bot in the following ways:
 
