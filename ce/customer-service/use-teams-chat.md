@@ -62,8 +62,6 @@ You can open any Dynamics 365 Customer Service record and select the **Teams cha
 - Suggested contacts: Lists suggested contacts depending on the users who are working on the record. For more information, see [How suggested contacts work](#how-suggested-contacts-work).  
 - Other chats/All recents: Lists your top 50 chat conversations on Teams. You can select any existing conversation and link it to a record. 
 
-
-
 ## Start a new linked chat
 
 You can start a new linked chat or convert an existing Teams chat into a linked chat to associate the chat with a Dynamics 365 record. Standard record types, including case, conversation, account, contacts, knowledge article, and email, are available out of the box, or your administrator can add your desired record type.
@@ -74,10 +72,15 @@ If you're using Teams for the first time within Customer Service Hub or Customer
 
 1.	Open any Dynamics 365 Customer engagement record, and then select the **Teams chats and channels** integration icon.
     The Teams chats (preview) panel opens.
+    - You can access the embedded chat from in Customer Service Hub and custom apps. When you select the :::image type="icon" source="media/teams-embedded-chat.png" border="false"::: icon, the chat pane opens as an app in the right side pane.
     
 2.	Use one of the following methods:<br>
     a.	To start a new linked chat with a participant, select **New linked chat** in the **Linked to this record section**.<br><br>
-    b.	To start a linked chat with a **Suggested contacts**, and then select **Start a linked chat**.<br> (Selecting the **Suggested** link allows you to load more suggested contacts.)<br>
+    b.	To start a linked chat with a suggested contact directly on the chat list, select the contact with whom you want to chat, and then select **Start a linked chat**.<br> (Selecting the **Suggested** link allows you to load more suggested contacts.)<br>
+    
+     > [!div class="mx-imgBorder"] 
+     > ![Start a linked chat.](media/teams-start-linked-chat.png "Start a linked chat")
+    
     > [!NOTE]
     > You can only link group chats to records. Direct, one-to-one chats can't be linked, and will instead display an option to start a new linked chat with that contact.
     
@@ -86,6 +89,20 @@ If you're using Teams for the first time within Customer Service Hub or Customer
     
 3.	Add more participants to the chat if you want to.
     If they have a Dynamics 365 license and access to the record, the participants in the linked chat will see the chat when they open the record in Dynamics 365.
+    
+## Link or unlink an existing chat from a record
+
+You can link a chat to a single record or multiple records. For example, if you had a chat about a case that turned into a work order, you could also link the chat to the work order. If you decided later that you didn't want the chat linked to the case, you could unlink it. For this example, you'd follow these steps:
+
+- To link the chat to the case, select the chat, and then select **Link to this case**.
+     
+    > [!div class="mx-imgBorder"] 
+    > ![Link an existing chat to a record, such as a case.](media/teams-link-chat.png "Link existing chat to a record")
+
+- To unlink the chat from the case, select the chat, and then select **Unlink from this case**.
+    > [!div class="mx-imgBorder"] 
+    > ![Unlink an existing chat from a record, such as a case.](media/teams-unlink-chat.png "Unlink existing chat from record)
+
 
 ## How suggested contacts work
 The suggested contacts list displays users who are connected or have interacted with the record. So, a suggested contact could be one or more of the following users, in the given order:
@@ -93,7 +110,6 @@ The suggested contacts list displays users who are connected or have interacted 
 - If the record is assigned to a team, the team admin or team members who've logged an activity in the record timeline.
 - Users who've linked chats with the record.
 -	Other users who've logged an activity in the record timeline.
-
 
 
 ## Link a Teams channel to a record
