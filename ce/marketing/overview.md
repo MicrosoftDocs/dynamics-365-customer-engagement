@@ -1,7 +1,7 @@
 ---
 title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
-ms.date: 11/02/2021
+ms.date: 11/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -47,7 +47,7 @@ Provides [email marketing](prepare-marketing-emails.md), [customer journeys](cus
 
 - **Turn prospects into leads**: Capture leads, qualify the hottest leads with automated lead scoring, and manage your leads through a custom business process.
 - **Leverage the power of social media**: Post messages to Facebook, Instagram, and Twitter. Capture leads from LinkedIn.
-- **Get customer feedback with Customer Voice surveys**: Create online surveys and analyze the results. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
+- **Get customer feedback with Customer Voice surveys**: Create online surveys and build customer journeys based on responses. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
 
 > [!NOTE]
 > Dynamics 365 Customer Voice is included in the Marketing standalone application, but not included in Marketing attach.
