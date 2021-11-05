@@ -142,6 +142,10 @@
         href: configure-microsoft-teams-dialer.md
       - name: Install and set up Microsoft Teams integration
         href: /dynamics365/teams-integration/teams-install-app?context=/dynamics365/context/sales-context
+      - name: Enable or disable Microsoft Teams chat in Dynamics 365
+        href: /dynamics365/teams-integration/enable-teams-chat?context=/dynamics365/context/sales-context
+      - name: FAQ on Teams chat integration
+        href: /dynamics365/teams-integration/teams-in-dynamics-faq?context=/dynamics365/context/sales-context
       - name: Set up server-side synchronization for Exchange  
         href: /power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context
       - name: Integrate with OneDrive for Business
@@ -474,6 +478,8 @@
         href: create-sales-literature.md        
       - name: Collaborate using Microsoft Teams
         href: /dynamics365/teams-integration/teams-collaboration?context=/dynamics365/context/sales-context
+      - name: Using Microsoft Teams chat in Dynamics 365
+        href: /dynamics365/teams-integration/using-teams-chat-in-dynamics?context=/dynamics365/context/sales-context
       - name: Use OneDrive for Business
         href: /powerapps/user/one-drive?context=/dynamics365/context/sales-context
       - name: Take notes by using OneNote
