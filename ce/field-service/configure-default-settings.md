@@ -112,7 +112,7 @@ The Field Service Settings page allows system administrators to set default sett
 |  Options  |  Description  |
 |-----------|---------------|
 | Purchase order prefix  |  Select a default prefix for purchase orders. The prefix will  be added to the beginning of the purchase order number. This  helps you easily identify  purchase orders from other data in the system.  |
-| Purchase order approval required |  Select if a purchase order needs an approval before the status can be  changed to **Submitted**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a purchase order](../field-service/create-purchase-order.md)   |
+| Purchase order approval required |  Select if a purchase order needs an approval before the status can be changed to **Submitted** based on the **Purchase Order Approval Required** field on the purchase order. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a purchase order](../field-service/create-purchase-order.md)   |
 | Purchase order starting number  |   Select a starting number for purchase orders. For example, if you choose 4000, then your first purchase order will be 4000, and second one will be 4001, and so on.   |
 |   Use of product out of stock   | Select how the system reacts when a work order product is used for a product that is not currently in stock. **Confirm** will prompt the user to decide whether to continue or not, and **Restrict** will keep the work order product from being used. |
   
