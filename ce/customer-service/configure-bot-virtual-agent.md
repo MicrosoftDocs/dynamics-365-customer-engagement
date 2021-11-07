@@ -39,7 +39,7 @@ Before you integrate Power Virtual Agents bots in Omnichannel for Customer Servi
 
 ## Install Power Virtual Agents extensions
 
-Power Virtual Agents lets you seamlessly hand off voice-based and text-based conversations to human agents using the Chat Add-in for Dynamics 365 Customer Service. 
+Power Virtual Agents lets you seamlessly hand off voice and text-based conversations to human agents using the Chat Add-in for Dynamics 365 Customer Service.
 [Install Power Virtual Agents extensions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions). For your bot to hand off conversations to the omnichannel interface, you must install the Power Virtual Agents extension solutions for Dynamics 365 Customer Service. 
 
 To do so, perform the following steps:
