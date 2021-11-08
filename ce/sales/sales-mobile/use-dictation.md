@@ -21,7 +21,7 @@ The Dynamics 365 Sales mobile app allows you to dictate text in a compliant and 
 
 ## Use dictation to add text content of a note
 
-1. In the **Note** form, tap ![Microphone icon to add a note.](media/mic-icon-note.png "Microphone icon to add a note") at the bottom command bar.
+1. In the **Note** form, tap ![Microphone icon to add a note.](media/mic-icon-note.png "Microphone icon to add a note") on the bottom command bar.
 
     ![Tap the microphone button on the Notes form.](media/note-mic.png "Tap the microphone button on the Notes form")
 
