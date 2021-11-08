@@ -44,12 +44,21 @@ The new schedule board provides the foundation for future releases that will pro
 - Dynamics 365 Field Service version 8.8.30.103+
  
 
-## Enable new schedule board
+## Enable new schedule board for yourself
 
 Go to the schedule board and use the toggle button in the top right of the schedule board to switch between the current and new schedule boards. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board showing the preview toggle in the top right set to "On.".](../../field-service/media/schedule-board-new-enable-preview.png)
+
+## Enable new schedule board for your organization
+
+The new schedule board is not turned on by default, so you'll have to enable it in order to use it in your organization.
+
+To enable the new schedule board, go to Scheduling > Administration > Scheduling Parameters and switch on the **Enable new Schedule Board** toggle.
+
+> [!div class="mx-imgBorder"]
+> ![Scheduling parameters in Field Service, showing the toggle to enable the new schedule board.](../../field-service/media/schedule-board-new-opt-in-organization.png)
 
 ## Select and filter resources
 
@@ -126,37 +135,19 @@ Switch to the weekly or monthly views to see scheduled jobs at a higher level. S
 
 The booking panel will help you schedule a work order across multiple days and choose how the work should be divided each day.
 
-## Schedule resources
+## Find availability (schedule assistant)
 
-Beyond manual drag and drop scheduling, organizations using resource scheduling optimization can select one or more requirements from the new schedule board and either have the system **Suggest resources** or **Book resources**. This feature is currently in Preview for the organizations using Resource Scheduling Optimization.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the suggest resources option.](../../field-service/media/scheduling-new-suggest-resources.png)
-
-Selecting **Suggest resources** will display recommended resources in the right panel for the dispatcher to book.
-
+The schedule assistant is also available in the new schedule board experience. By selecting a booking requirement from the bottom panel, and then **Find availability**, you'll trigger the schedule assistant. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling assistance preview.](../../field-service/media/schedule-board-new-rso-1920-final-EDITTED.png)
+> !["Find availability" option on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-16-support-Find-Availability.png)
 
-Selecting **Book resources** will find the most optimal resources and book them without further actions from the dispatcher.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling assistant preview showing suggestions.](../../field-service/media/schedule-board-new-rso-suggest.png)
-
-**Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
-
-Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day - this functionality is now available on the new schedule board. You can right-click a resource from any schedule board view and select Optimize Schedule.
+From the schedule assistant, you'll see available resources and can plan accordingly for the work.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the optimize schedule for a resource.](../../field-service/media/Schedule-Board-optimizer-Sro-09.png)
+> ![The schedule assistant, triggered from the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-17-Schedule-assistant.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the optimize schedule for a resource in progress.](../../field-service/media/Schedule-Board-optimizer-Sro-10.png)
-> 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the optimize schedule results.](../../field-service/media/Schedule-Board-optimizer-Sro-11.png)
+
 
 ## Move bookings to a new resource, a new start date and time, or both
 
@@ -182,7 +173,71 @@ Now you can reassign this booking to any resource on any tab, and change the sta
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the move to with resource filter expanded option.](../../field-service/media/moveto-popup-filterexpanded.png)
 
-## Automatic scheduling with optimization goals
+
+
+## Edit multi-day bookings
+
+After a multi-day booking is created across multiple days, weeks, or months, dispatchers can right-click a booking, select edit, and change how many hours are assigned for each day, week, or month via a booking panel on the right. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a multi-day booking on the schedule board.](../../field-service/media/schedule-board-new-edit-multiday-bookings.png)
+
+
+
+## Automated Scheduling (RSO)
+
+> [!Note]
+> The following features like **suggest resources, book resources, single resource optimization, and optimization goals** are only available for organizations using [Resource Scheduling Optimization](../../field-service/rso-overview).
+
+Organizations using [Resource Scheduling Optimization](../../field-service/rso-overview) will find additional capabilities in the schedule board. 
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the suggest resources option.](../../field-service/media/scheduling-new-suggest-resources.png)
+
+### Suggest resources
+
+Selecting **Suggest resources** will display recommended resources in the right panel for the dispatcher to book.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the scheduling assistance preview.](../../field-service/media/schedule-board-new-rso-1920-final-EDITTED.png)
+
+### Book resources
+
+
+
+
+
+
+
+
+
+
+Selecting **Book resources** will find the most optimal resources and book them without further actions from the dispatcher.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the scheduling assistant preview showing suggestions.](../../field-service/media/schedule-board-new-rso-suggest.png)
+
+
+
+
+
+### Single Resource Optimization 
+
+Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day - this functionality is now available on the new schedule board. You can right-click a resource from any schedule board view and select Optimize Schedule.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the optimize schedule for a resource.](../../field-service/media/Schedule-Board-optimizer-Sro-09.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the optimize schedule for a resource in progress.](../../field-service/media/Schedule-Board-optimizer-Sro-10.png)
+> 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the optimize schedule results.](../../field-service/media/Schedule-Board-optimizer-Sro-11.png)
+
+### Optimization goals
 
 The schedule board supports optimization goals. After selecting suggested resources, dispatchers can edit the optimization goal, which dictates how resources are recommended. 
 
@@ -191,12 +246,6 @@ The schedule board supports optimization goals. After selecting suggested resour
 
 There is a default optimization goal that applies to the entire system and serves as the default for optimization requests. Dispatchers can also edit the default optimization goal for each schedule board. Finally, dispatchers can edit the optimization goal for a single optimization request by selecting **Suggest Resources**. 
 
-## Edit multi-day bookings
-
-After a multi-day booking is created across multiple days, weeks, or months, dispatchers can right-click a booking, select edit, and change how many hours are assigned for each day, week, or month via a booking panel on the right. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a multi-day booking on the schedule board.](../../field-service/media/schedule-board-new-edit-multiday-bookings.png)
 
 ## Configuration considerations
 
@@ -228,10 +277,7 @@ Use the following feature comparison table to understand which version of the sc
 | Configuration                 | Admin      | 2021 release wave 2       | Yes                | Admin can create new tabs on the schedule board and configure changes on the board, tab settings, and scheduler settings      |
 | Extensibility       | Admin      | 2021 release wave 2            | Yes                | Admin can extend the schedule board and use extensibility on some of features like<br>Custom Booking template (Hours) - HTML<br>Custom Booking alerts - HTML<br>Custom Resource Cell Template - HTML<br>Custom Filter Layout - Universal FetchXML<br>SB/SA Retrieve Resources Query - Universal FetchXML<br>SB/SA Retrieve Constraints query - Universal FetchXML<br>Custom Web resource support<br>Client Extensions (support for JavaScript, style sheets, and Localizations files)<br>Booking Rules (Support for custom business logic via JavaScript on the booking creation) |
  
-Continue to use the current schedule board for common functions like:
-- Creating and deleting schedule board tabs. 
-- Schedule board tab settings.
-- Schedule board configurations like number of days in a view or applying filter territories.
+
 
 
 ### Add new schedule board to custom sitemap area
@@ -281,21 +327,9 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 
-## Enable new schedule board for your organization
 
-The new schedule board is not turned on by default, so you'll have to enable it in order to use it in your organization.
 
-To enable the new schedule board, go to Scheduling > Administration > Scheduling Parameters and switch on the **Enable new Schedule Board** toggle.
 
-> [!div class="mx-imgBorder"]
-> ![Scheduling parameters in Field Service, showing the toggle to enable the new schedule board.](../../field-service/media/schedule-board-new-opt-in-organization.png)
-
-## View map
-
-/////// DAVE: how do we open the map view? //////////////
-
-> [!div class="mx-imgBorder"]
-> ![Map view open on the new schedule board in Field Service.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-01-overview.png)
 
 ## Booking details panel
 
@@ -361,17 +395,7 @@ A map view will open showing the day's worth of bookings for the selected resour
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-15-support-for-get-driving-directions-for-resource-route-on-a-day-via-bing-maps.png)
 
-## Find availability (schedule assistant)
 
-The schedule assistant is also available in the new schedule board experience. By selecting a booking requirement from the bottom panel, and then **Find availability**, you'll trigger the schedule assistant. 
-
-> [!div class="mx-imgBorder"]
-> !["Find availability" option on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-16-support-Find-Availability.png)
-
-From the schedule assistant, you'll see available resources and can plan accordingly for the work.
-
-> [!div class="mx-imgBorder"]
-> ![The schedule assistant, triggered from the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-17-Schedule-assistant.png)
 
 ## Create a new schedule board tab
 
