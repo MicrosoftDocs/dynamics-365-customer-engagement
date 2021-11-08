@@ -1,7 +1,7 @@
 ---
 title: "Personalize sales accelerator settings"
 description: "Use personal settings to determine how activities are scheduled based on work availability and deciding what happens when an activity is complete."
-ms.date: 10/26/2021
+ms.date: 11/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -34,11 +34,10 @@ Depending on the license you have in the organization, you use one of the follow
 - Sales Premium: [Through work list settings](#through-work-list-settings)
 - Sales Enterprise: [Through personal settings](#through-personal-settings)
 
-
 >[!NOTE]
 >- Ensure that you've read and write privileges to **Calendar** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 >- Verify that the administrator as enabled the option to configure your availability. 
->    - Through sequence settings, see [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#enable-the-availability-option-in-sequence-settings).
+>    - Through sequence settings, see step 5 in [Set up the sales accelerator](enable-configure-sales-accelerator.md#set-up-the-sales-accelerator).
 >    - Through sales accelerator configuration, see step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md). 
 
 ### Through work list settings (Sales Premium)<a name="through-work-list-settings"></a>
@@ -51,6 +50,13 @@ Depending on the license you have in the organization, you use one of the follow
 3.	On the **Personal settings** page, select **Availability**.
     >[!div class="mx-imgBorder"]
     >![Select Availability under Personal settings](media/sa-personal-settings-select-availability-settings.png "Select Availability under Personal settings")      
+
+    >[!NOTE]
+    >If your administrator had chosen the Outlook calendar option, a message is displayed to configure your work availability through Outlook.
+    >![Configure your work availability through outlook message.](media/sa-personal-settings-select-availability-settings-outlook.png "Configure your work availability through outlook message.")    
+    >Go to Outlook calendar, set your work hours and vacation, and then save the calendar events.
+    >Your availability is automatically updated in the Dynamics 365 application calendar.
+
 4.	Select **+ New**, and choose an option to configure your calendar according to your requirements.    
     -	**Working hours**: Configure your regular working hours between dates you define. This helps sales accelerator to consider the assignment of activities to your work list.    
         >[!div class="mx-imgBorder"]
@@ -89,13 +95,16 @@ Depending on the license you have in the organization, you use one of the follow
 
 2.	Select **Calendar**.
 
-    The calendar opens for the current month with your work availability.
+    The calendar opens for the current month with your work availability. Also, at the bottom of the calendar, you can see the default local time of your organization.
 
     > [!div class="mx-imgBorder"]
     > ![Work availability calendar page.](media/sales-accelerator-work-availability-calendar.png "Work availability calendar page")
 
-    > [!NOTE]
-    > At the bottom of the calendar, you can see the default local time of your organization.
+    >[!NOTE]
+    >If your administrator chosen the **Outlook** option, a message is displayed to configure your work availability through your Outlook calendar.     
+    >![Configure your work availability through outlook message.](media/sa-personal-settings-select-availability-settings-outlook.png "Configure your work availability through outlook message.")    
+    >Go to Outlook calendar, set your work hours and vacation, and then save the calender events.    
+    >Your availability is automatically updated in the Dynamics 365 application calendar.      
 
 3.	Configure your calendar according to your requirements as described in step 4 from the [Through work list settings](#through-work-list-settings) section.     
 
