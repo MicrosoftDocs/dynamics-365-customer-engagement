@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 10/12/2021
+ms.date: 11/08/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -28,6 +28,58 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
 ## 2021 updates
+
+### November 2021 update
+
+With the Dynamics 365 Marketing November 2021 update you can export images from the outbound marketing file library to real-time marketing, use Content ideas in the real-time marketing email editor, send Customer Voice surveys in real-time marketing SMS messages and push notifications, track interaction and contact quota usage, create attribute conditions over all attribute types in CDS, and export customer interaction records from Azure Blob Storage to Power BI more quickly. The update also includes general performance upgrades and bug fixes.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10078.1049 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Monthly enhancements
+
+##### Real-time marketing
+
+- **Asset library**
+    - Copy images from the outbound marketing file library to the real-time marketing asset library. Learn more: []
+- **Customer journeys**
+    - You can now create attribute conditions over all attribute types in CDS (optionsets, entityreferences, lookups, and bigint).
+- **Marketing emails**
+    - The Content ideas feature is now available in real-time marketing, allowing you to use AI-powered suggestions to automatically generate content for emails. Learn more: [Use AI to kickstart email creation with Content ideas](content-ideas.md).
+- **Text messaging**
+    - Send Customer Voice surveys in SMS messages and push notifications. Learn more: []
+
+##### Outbound marketing
+
+- **Marketing insights**
+    - Faster data loading speed when exporting a large range of customer interaction records from Azure Blob Storage into Power BI.
+
+##### Shared UX
+
+- **Quota**
+    - A new quota limits page displays the monthly interaction quota, monthly interaction usage, Marketing contacts used, and annual total contact usage. Learn more: [Quota limits](quota-management.md).
+
+#### Bug fixes
+
+- **Customer journeys**
+    - 
+- **Event management**
+    - 
+    - 
+- **Marketing emails**
+    - 
+- **Marketing pages**
+    - 
+- **Shared UX**
+    - 
+- **Social posting**
+    - 
 
 ### October 2021 update
 
