@@ -68,18 +68,18 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 #### Bug fixes
 
 - **Customer journeys**
-    - 
+    - Fixed an error that resulted in a customer journey generating two identical segments when a customer journey with two swimlanes (1) contained segments with at least one contact in common, (2) contained an audience tile in each swimlane, (3) had the audience tile in swimlane one set to "segment1 **AND** exclude segment2," and (4) had the audience tile in swimlane two set to "segment1 **OR** exclude segment2."
 - **Event management**
-    - 
-    - 
+    - Resolved an error where iPhone users could not down an .ics file from an **Add to calendar** button when the event name was in Chinese.
+    - Resolved an error caused when a waitlist item was already registered before it was processed.
 - **Marketing emails**
-    - 
+    - Updated [email bounce categories](email-bounce-categories.md) to include the suppression list category and description.
 - **Marketing pages**
-    - 
+    - Fixed an error that caused changes to the partial URL in live, editable/stopped state to not update in the full page URL.
 - **Shared UX**
-    - 
+    - Resolved an issue that sometimes caused cloned elements (such as buttons in the email designer) to move when the original element was moved.
 - **Social posting**
-    - 
+    - Reactions data is now updated on the social post grid when it loads.
 
 ### October 2021 update
 
