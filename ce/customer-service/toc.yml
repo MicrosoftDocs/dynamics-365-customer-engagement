@@ -424,7 +424,7 @@
     items: 
     - name: Administrator experience
       items:
-      - name: Configure knowledge management
+      - name: Configure knowledge management 
         href: set-up-knowledge-management-embedded-knowledge-search.md 
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
