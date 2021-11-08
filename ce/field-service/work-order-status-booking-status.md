@@ -1,7 +1,7 @@
 ---
 title: "Work order and booking statuses in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about work order and booking statuses in Dynamics 365 Field Service
-ms.date: 06/25/2021
+ms.date: 11/04/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -20,14 +20,20 @@ search.app:
 
 Work order system statuses, work order substatuses, and booking statuses all work together to help stakeholders stay up to date with work orders from creation to closing. Updating one of these statuses can update the others automatically.
 
-**Work Order System Statuses** are noted on the work order entity, marking the current point of a work order in its life cycle. They are part of the product by default and **should not** be edited. Work order system statuses are:
+**Work Order System Statuses** are noted on the work order entity, marking the current point of a work order in its life cycle. Work order system statuses are:
 
-- Open - Unscheduled
-- Open - Scheduled
-- Open - In Progress
-- Open - Completed
-- Closed - Posted
-- Closed - Canceled
+- Unscheduled
+- Scheduled
+- In Progress
+- Completed
+- Posted
+- Canceled
+
+As of the 2021 Wave 2 release, the **Work Order System Status** labels were updated. For example, the former status label "Open - Unscheduled" was updated to "Unscheduled".
+
+> [!Note]
+> Do not edit the option set _values_ for **Work Order System Status**; changing the option set _values_ can cause errors and is not supported. Instead, administrators can edit the option set _labels_ like "Unscheduled".
+
 
 **Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are created custom for each organization.
 

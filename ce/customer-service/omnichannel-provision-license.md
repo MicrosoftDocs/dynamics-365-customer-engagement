@@ -1,7 +1,7 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps in this topic to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 10/04/2021
+ms.date: 11/01/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -66,40 +66,32 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
     > [!IMPORTANT]
     > As an admin, you can configure Omnichannel in multiple environments. You can view the status of all organization environments where the Omnichannel app has been configured in the **Manage environments** view.
 
-6. Select the environment in the drop-down list.
+6. Select the environment in the dropdown list, then perform the following steps.
 
     > [!div class=mx-imgBorder]
     > ![Select org.](media/select-org.png "Select org")
 
-7. Select the **Chat** tab and set the toggle to **Yes** to enable the Chat channel for your organization.
+   1. Select **Next**, and in the **Chat** section, set the **Add chat** toggle to **Yes** to enable the Chat channel.
 
-    > [!div class=mx-imgBorder]
-    > ![Enable chat.](media/enable-chat.png "Enable chat")
+   2. In the **Voice** section, set the **Add voice** toggle to **Yes** to enable the voice channel. Ensure that you select the **Voice and SMS Terms** checkbox.
 
-8. Select the **SMS** tab and set the toggle to **Yes** to enable SMS. Select the check box to confirm that you agree to the SMS terms.
+   3. In the **SMS** section, set the **Add SMS** toggle to **Yes** to enable SMS. Select the checkbox to confirm that you agree to the SMS terms.
 
-    > [!div class=mx-imgBorder]
-    > ![Enable SMS.](media/enable-sms-with-omnichannel.png "Enable SMS")
+        > [!IMPORTANT]
+        > You must select the checkbox for **SMS Terms** to enable SMS and proceed with the setup.
 
-    > [!IMPORTANT]
-    > You must select the check box for **SMS Terms** to enable SMS and proceed with the setup.
+   4. In the **Social channels** section, set the **Add social** toggle to **Yes** to enable social channels.
 
-9.  Select the **Social** tab and set the toggle to **Yes** to enable social channels.
 
-    > [!div class=mx-imgBorder]
-    > ![Enable social channels.](media/enable-social.png "Enable social channels")
+   5. In the **Microsoft Teams** section, set the **Add Microsoft Teams** toggle to **Yes** to enable Microsoft Teams.
 
-10. Select the **Microsoft Teams** tab and set the toggle to **Yes** to enable Microsoft Teams. 
 
-    > [!div class=mx-imgBorder]
-    > ![Enable Microsoft Teams.](media/enable-teams.png "Enable Microsoft Teams")
-
-11. On the **Confirmation** page, verify your selections, and then select **Finish** to provision Omnichannel for Customer Service in your organization.
+7. On the **Confirmation** page, verify your selections, and then select **Finish** to provision Omnichannel for Customer Service in your organization.
 
     > [!div class=mx-imgBorder]
     > ![Summary tab on Manage Omnichannel instances page.](media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
 
-    The setup can take several minutes. You may close the window and check after some time, or refresh to check if it's complete. After the setup is complete, the selected channels are enabled in your environment.
+    The setup can take several minutes. You can close the window and check after some time, or refresh to check if it's complete. After the setup is complete, the selected channels are enabled in your environment.
 
     > [!div class=mx-imgBorder]
     > ![Set up complete.](media/install-complete.png "Set up complete")
