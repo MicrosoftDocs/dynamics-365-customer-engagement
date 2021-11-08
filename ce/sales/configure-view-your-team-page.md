@@ -100,7 +100,7 @@ As an administrator, you can configure sales managers or sellers to impersonate 
 - Provide access to non-managerial executives to dashboards for conversation intelligence enablement or compliance workflows. 
 - Provide visibility to non-direct managers into the sales teams dashboards.
 
-For example, Robert Klien is a level 4 sales manager and reports to Jacob Hancock who is a level 2 manager. Since you can configure only up to three levels of hierarchy and Robert doesn't have access to Jacob's sales team conversation intelligence dashboard and other information. By adding Robert to view as Jacob, Robert can access the required information in conversation intelligence application by impersonating Jacob.
+For example, Robert Klien is a level 4 sales manager and reports to Jacob Hancock who is a level 3 manager. Since, the conversation intelligence allows you to configure to view information only up to three levels ([understand the hierarchy levels](#understand-hierarchy-levels)), so, Robert doesn't have access to any conversation intelligence dashboard of Jacob's team. By adding Robert to view as Jacob, Robert can access the required information in conversation intelligence application by impersonating Jacob.
 
 1. In the **View as different user (preview)** section, select **+ Add user**.
 

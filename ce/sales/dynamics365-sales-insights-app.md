@@ -91,15 +91,6 @@ The following procedure explains how to access conversation intelligence for the
     > [!div class="mx-imgBorder"]
     > ![Application status message when manager signs in](media/si-app-admin-message-bar-manager.png  "Application status message when manager signs in")
 
-## View conversation intelligence as a different user
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]    
-
-You can view the conversation intelligence information by impersonating another user in your organization. An administrator must configure who you can impersonate and view the information. More information: [Configure users to view as another user](configure-view-your-team-page.md#configure-users-to-view-as-another-user).    
-After the view as permission is provided, you can [sign in to the conversation intelligence app](#how-to-get-conversation-intelligence) with your credentials and view the information in the configured user's point of view. 
-
-For example, you're a level 4 sales manager and reports to Jacob Hancock who is a level 2 manager. Since you can configure only up to three levels of hierarchy and you don't have access to Jacob's sales team conversation intelligence dashboard and other information. When administrator adds you to view as Jacob, you can view the information in conversation intelligence application from Jacob's point of view.
-
 ## Use global search
 
 Each conversation contains lots of information, such as keywords, competitors, brands, and tags. Going through each call to find information can be difficult and time-consuming. Using global search, you can get to the information you want, quickly. Global search is available on the navigation bar, as shown in the following image.
