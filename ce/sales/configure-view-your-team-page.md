@@ -85,7 +85,7 @@ The matrix explains which data you’ll view as a sales manager, for different h
 |-------------------|---------------------|
 | Level 1 | Choose this option to get insights on your direct team members. |
 | Level 2 | Choose this option to get insights on both your direct team members and their direct team members. |
-| Level 3 | Choose this option to get insights on level 1, level 2, and level 2’s team members. |
+| Level 3 | Choose this option to get insights on level 1, level 2, and level 3’s team members. |
 
 > [!NOTE]
 > Conversation intelligence supports up to three levels of hierarchy. To learn more about hierarchy, see [Set up Manager and Position hierarchies](/power-platform/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
@@ -100,7 +100,7 @@ As an administrator, you can configure sales managers or sellers to impersonate 
 - Provide access to non-managerial executives to dashboards for conversation intelligence enablement or compliance workflows. 
 - Provide visibility to non-direct managers into the sales teams dashboards.
 
-For example, Robert Klien is a level 4 sales manager and reports to Jacob Hancock who is a level 3 manager. Since, the conversation intelligence allows you to configure to view information only up to three levels ([understand the hierarchy levels](#understand-hierarchy-levels)), so, Robert doesn't have access to any conversation intelligence dashboard of Jacob's team. By adding Robert to view as Jacob, Robert can access the required information in conversation intelligence application by impersonating Jacob.
+For example, Robert Klien is a sales enablement manager that needs access to Jacob Hancock's sales team dashboards. Since, Robert doesn't have access to conversation intelligence dashboard of Jacob's team. By adding Robert to view as Jacob, Robert can access the required information in conversation intelligence application by impersonating as Jacob.
 
 1. In the **View as different user (preview)** section, select **+ Add user**.
 
