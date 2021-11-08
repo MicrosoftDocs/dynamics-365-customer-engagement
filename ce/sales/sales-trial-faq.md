@@ -65,7 +65,7 @@ To get started with the Sales Enterprise functionalities, see [Learn the basics 
 
 - Sell smartly using Sales accelerator that builds a strong and prioritized pipeline, offers context, and surfaces automated recommendations
 - Improve seller coaching and sales potential with conversation intelligence
-- Get the AI-powered assistant to stay on top of your activities – do we need ‘your’ in other bullets we are not using it
+- Get the AI-powered assistant to stay on top of your activities
 - Prioritize leads and opportunities using predictive scoring
 - Analyze revenue outcome by using predictive forecasting
 

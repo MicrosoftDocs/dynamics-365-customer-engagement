@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-ms.date: 09/16/2021
+ms.date: 11/01/2021
 ms.custom: intro-internal
 searchScope:
 - D365-App-customerservice
@@ -34,6 +34,7 @@ To simplify the routing experience for administrators and supervisors, queues ar
 
 - **Messaging**: To route all messaging conversations pertaining to the live chat, SMS, and social channels.
 - **Records**: To route work items pertaining to records, such as cases and emails.
+- **Voice**: To route calls made to the support numbers listed on the customer portal.
 
 The queue types help ensure issues will be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that will be available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
 
@@ -54,7 +55,7 @@ In this section, we cover information on how to create a queue and set operating
     1. Select **New**.
     2. In the **Create a queue** dialog box, enter the following:
        - **Name**: A name for the queue.
-       - **Type**: Select **Messaging** or **Record**.
+       - **Type**: Select **Messaging**, **Record**, or **Voice**.
        - **Group number**: A number to organize the queue.
     3. Select **Create**. The queue that you created is displayed.
 
@@ -84,10 +85,11 @@ You can manage the queues on the **Queues** page, and perform operations, such a
 
 ### Default queues in Omnichannel for Customer Service<a name="default-queues"></a>
 
-Out of the box, the following default queues are available in Omnichannel for Customer Service:
+The following default queues are available in Omnichannel for Customer Service:
 
-- **Default entity queue**: The queue that is available for routing entity records.
-- **Default messaging queue**: The queue that is available for routing all messaging conversations pertaining to the live chat, SMS, Microsoft Teams, and social channels.
+- **Default entity queue**: For routing entity records.
+- **Default messaging queue**: For routing all messaging conversations pertaining to the live chat, SMS, Microsoft Teams, and social channels.
+- **Default voice queue**: For routing all voice calls.
 
 Work is routed to the default queues that act as a safety net in the following scenarios:
 
@@ -104,7 +106,8 @@ The default queues can't be edited or deleted. All Omnichannel for Customer Serv
 
 [Create workstreams for unified routing](create-workstreams.md)  
 [Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  
-[Create and manage operating hours](create-operating-hours.md)  
+[Create and manage operating hours](create-operating-hours.md) 
+[Configure the voice queues](voice-channel-route-queues.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
