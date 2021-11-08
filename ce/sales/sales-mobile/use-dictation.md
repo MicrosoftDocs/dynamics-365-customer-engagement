@@ -18,7 +18,7 @@ The Dynamics 365 Sales mobile app allows you to dictate text in a [compliant and
 
 > [!IMPORTANT]
 > - The dictation capability in the mobile app uses the Microsoft Speech service. More information: [Speech service](/azure/cognitive-services/speech-service/)
-> - If you use the microphone icon on your phone's keyboard, it uses the built-in dictation capabilities of the phone's operating system.
+> - If you use the microphone icon on your phone's keyboard for dictation, it uses the built-in dictation capabilities of the phone's operating system.
 
 ## Use dictation to take notes
 
@@ -50,6 +50,9 @@ The Dynamics 365 Sales mobile app allows you to dictate text in a [compliant and
 3. Tap ![Microphone icon to add text.](media/mic-icon-note.png "Microphone icon to add text") at the bottom of the form.
 
     ![Tap the microphone button on the record form.](media/record-form-mic.png "Tap the microphone button on the record form")
+
+    > [!NOTE]
+    > If you are using the dictation capability for the first time in Dynamics 365 mobile app, you are prompted to allow the app to access your phone's microphone. Go to **Settings**, and give the app the access to your phone's microphone.
 
 4. Tap the microphone button to start listening.
 
