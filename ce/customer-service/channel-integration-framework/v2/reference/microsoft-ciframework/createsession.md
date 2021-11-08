@@ -56,8 +56,9 @@ Promise with a value as String.
 
 ```javascript
 var input = {
+   // unique name of the configured template   
     templateName: "msdyn_chat_session",
-    // unique name of the configured template
+ 
     templateParameters: {
         customer: "Contoso",
     }
