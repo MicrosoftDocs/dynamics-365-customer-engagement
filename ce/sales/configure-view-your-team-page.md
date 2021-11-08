@@ -1,7 +1,7 @@
 ---
 title: "Configure and view your team page (Sales Insights) | MicrosoftDocs"
 description: "Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data."
-ms.date: 11/17/2020
+ms.date: 11/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,9 +9,10 @@ manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+
 # Configure and view team page 
 
-"Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data.
+Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data.
 
 ## License and role requirements
 |  | |
@@ -99,7 +100,7 @@ As an administrator, you can configure sales managers or sellers to impersonate 
 - Provide access to non-managerial executives to dashboards for conversation intelligence enablement or compliance workflows. 
 - Provide visibility to non-direct managers into the sales teams dashboards.
 
-For example, **Robert Klien** is a fourth level sales manager and reports to **Jacob Hancock** who is a level 2 manager. Since you can configure only up to three levels of hierarchy and **Robert** doesn't have access to **Jacob**'s sales team conversation intelligence dashboard and other information. By adding **Robert** to view as **Jacob**, **Robert** can access the required information in conversation intelligence application by impersonating **Jacob**.
+For example, Robert Klien is a level 4 sales manager and reports to Jacob Hancock who is a level 2 manager. Since you can configure only up to three levels of hierarchy and Robert doesn't have access to Jacob's sales team conversation intelligence dashboard and other information. By adding Robert to view as Jacob, Robert can access the required information in conversation intelligence application by impersonating Jacob.
 
 1. In the **View as different user (preview)** section, select **+ Add user**.
 

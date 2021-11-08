@@ -1,7 +1,7 @@
 ---
 title: "Improve seller coaching and sales potential"
 description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence."
-ms.date: 10/26/2021
+ms.date: 11/08/2021
 ms.custom: intro-internal
 ms.topic: article
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
@@ -14,6 +14,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+
 # Improve seller coaching and sales potential with conversation intelligence 
 
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. To achieve this, conversation intelligence displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, seller, and call.
@@ -95,9 +96,9 @@ The following procedure explains how to access conversation intelligence for the
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]    
 
 You can view the conversation intelligence information by impersonating another user in your organization. An administrator must configure who you can impersonate and view the information. More information: [Configure users to view as another user](configure-view-your-team-page.md#configure-users-to-view-as-another-user).    
-After the view as permission is provided, you [sign in to the conversation intelligence app](#how-to-get-conversation-intelligence) with your credentials and view the information in the configured user's point of view. 
+After the view as permission is provided, you can [sign in to the conversation intelligence app](#how-to-get-conversation-intelligence) with your credentials and view the information in the configured user's point of view. 
 
-For example, you're a fourth-level sales manager and reports to **Jacob Hancock** who is a level 2 manager. Since you can configure only up to three levels of hierarchy and you don't have access to **Jacob**'s sales team conversation intelligence dashboard and other information. When administrator adds you to view as **Jacob**, you can view the information in conversation intelligence application in **Jacob**'s point of view.
+For example, you're a level 4 sales manager and reports to Jacob Hancock who is a level 2 manager. Since you can configure only up to three levels of hierarchy and you don't have access to Jacob's sales team conversation intelligence dashboard and other information. When administrator adds you to view as Jacob, you can view the information in conversation intelligence application from Jacob's point of view.
 
 ## Use global search
 

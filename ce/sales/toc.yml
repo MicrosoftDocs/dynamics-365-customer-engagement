@@ -305,7 +305,7 @@
           href: connect-a-sequence-to-records.md
         - name: View details of a sequence and its connected records
           href: view-sequence-details-connected-records.md
-        - name: Create query to view sequence in entity record grid
+        - name: View sequence in a grid
           href: view-disconnected-sequences.md  
         - name: Clone a sequence
           href: clone-a-sequence.md

@@ -75,10 +75,10 @@ For the best experience of the sales accelerator, enable and configure [predicti
     >![Select security roles to access the sales accelerator and assignment rules features](media/sa-select-security-role.png "Select security roles to access the sales accelerator and assignment rules features")   
 
 5. In the **Seller availability** section, configure the following options: 
-    - Select the **Seller availability settings**  toggle to enable the option that allows sellers to configure the working hours.
-    - From the **Select a calendar** option, choose a calendar type from which the sellers can configure the work hours vacation days so that leads and opportunities are assigned based on their availability. 
-        - **CRM calendar**: To allow sellers configure the work hours and vacation days through the Dynamics 365 calendar in personal settings. By default, this option is selected. More information [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability). 
-        - **Outlook**: To allow sellers configure the work hours and vacation days through the Outlook calendar. Seller should have an Exchange license to use this option.
+    - Turn on **Seller availability settings** to enable sellers to configure work hours.
+    - From the Select a calendar option, choose one of the following calendar types that sellers can use to configure work hours and vacation days. Once configured, leads and opportunities are assigned based on seller availability. 
+        - **CRM calendar**: : Allows sellers to configure work hours and vacation days using the Dynamics 365 calendar in personal settings. By default, this option is selected. More information [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability). 
+        - **Outlook**: Allows sellers to configure work hours and vacation days through the Outlook calendar. Sellers should have an Exchange license to use this option.
 
     >[!div class="mx-imgBorder"]
     >![Enable the option to allow sellers to set working hours and vacation days](media/sa-enable-seller-availability.png "Enable the option to allow sellers to set working hours and vacation days")   
