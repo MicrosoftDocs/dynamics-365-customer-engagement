@@ -31,7 +31,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### November 2021 update
 
-With the Dynamics 365 Marketing November 2021 update you can export images from outbound marketing library to real-time marketing, use Content ideas in the real-time marketing email editor, send Customer Voice surveys in real-time marketing SMS messages and push notifications, track interaction and contact quota usage, create attribute conditions over all attribute types in CDS, and export customer interaction records from Azure Blob Storage to Power BI more quickly. The update also includes general performance upgrades and bug fixes.
+With the Dynamics 365 Marketing November 2021 update you can export images from outbound marketing to real-time marketing, use Content ideas in the real-time marketing email editor, send Customer Voice surveys in real-time marketing SMS messages and push notifications, track interaction and contact quota usage, create attribute conditions over all attribute types in CDS, and export customer interaction records from Azure Blob Storage to Power BI more quickly. The update also includes general performance upgrades and bug fixes.
 
 #### Version number
 
