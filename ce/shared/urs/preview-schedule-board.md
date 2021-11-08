@@ -147,7 +147,11 @@ From the schedule assistant, you'll see available resources and can plan accordi
 > [!div class="mx-imgBorder"]
 > ![The schedule assistant, triggered from the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-17-Schedule-assistant.png)
 
+## Move a Booking
+Alternatively, move a booking to the next day by selecting the booking, then select the **Ellipses [...] icon** next to the **Book** button, as seen in the following screenshot. Select **Move bookings**.
 
+> [!div class="mx-imgBorder"]
+> ![Move bookings option in the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-11-support-for-move-bookings-and-print-schedule-board.png)
 
 ## Move bookings to a new resource, a new start date and time, or both
 
@@ -174,10 +178,66 @@ Now you can reassign this booking to any resource on any tab, and change the sta
 > ![Screenshot of the move to with resource filter expanded option.](../../field-service/media/moveto-popup-filterexpanded.png)
 
 
-Alternatively, move a booking to the next day by selecting the booking, then select the **Ellipses [...] icon** next to the **Book** button, as seen in the following screenshot. Select **Move bookings**.
+
+
+## Booking details panel
+
+To see more details about a booking on the schedule board, open the details panel by selecting the details icon, as seen in the following screenshot. 
 
 > [!div class="mx-imgBorder"]
-> ![Move bookings option in the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-11-support-for-move-bookings-and-print-schedule-board.png)
+> ![Details panel for a booking in the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-06-Detail-panel-Booking-selection.png)
+
+## Booking alerts panel
+
+To see a list of active booking alerts, select the **Bell** icon, as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Booking alerts panel on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-07-Booking-alerts-panel-Create-or-view-booking-alerts.png)
+
+From the booking alerts panel, you can also create a new booking alert, close an existing booking alert, or dismiss all booking alerts. See the following screenshot for reference. 
+
+> [!div class="mx-imgBorder"]
+> ![Booking alerts panel on the new schedule board, showing options to dismiss all, close, and create new.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-08-Booking-alert-dismiss-or-snooze.png)
+
+## Full screen mode
+
+Full screen mode on the new schedule board makes it easier for dispatchers and schedulers to focus on the details and make the most of their screen space.
+
+Select the **Expand** icon in the top-right of the new schedule board to enter into full screen mode. 
+
+> [!div class="mx-imgBorder"]
+> ![New schedule board in Field Service, showing the expand icon in the top-right.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-10-support-for-full-screen-mode.png)
+
+
+
+## Get driving directions
+
+From the new schedule board, you can get driving directions for a frontline worker between their last job site to their next job site.
+
+To get driving directions, right-click on the booking, and select **Get driving directions**.
+
+> [!div class="mx-imgBorder"]
+> ![New schedule board showing the "Get driving directions" option on a booking.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-12-support-for-get-driving-directions-to-a-booking.png)
+
+A map view will open, showing directions between the frontline worker's last job site to the next.
+
+> [!div class="mx-imgBorder"]
+> ![Map view of driving directions between one job and another.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-13-driving-directions-to-a-booking-bia-bing-maps.png)
+
+You can also get driving directions for a frontline worker's entire day of bookings. Right-click on the resource in the resource list, and select **Get driving directions**.
+
+> [!div class="mx-imgBorder"]
+> !["Get driving directions" option after right-clicking on a resource.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route.png)
+
+Select the day for which you'd like to generate driving directions for the selected resource.
+
+> [!div class="mx-imgBorder"]
+> ![Map view of driving directions for a day's worth of bookings for a resource.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route-on-a-day.png)
+
+A map view will open showing the day's worth of bookings for the selected resource.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-15-support-for-get-driving-directions-for-resource-route-on-a-day-via-bing-maps.png)
 
 
 
@@ -188,7 +248,49 @@ After a multi-day booking is created across multiple days, weeks, or months, dis
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a multi-day booking on the schedule board.](../../field-service/media/schedule-board-new-edit-multiday-bookings.png)
 
+## Create a new schedule board tab
 
+To create a new schedule board tab, select the **[+] icon** in the tab list on the schedule board, as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> !["Add new" button for schedule board tabs on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-18-Schedule-board-new-tab-creation-support.png)
+
+Fill in the relevant details about your new schedule board tab, and then **Add** when done.
+
+> [!div class="mx-imgBorder"]
+> ![New schedule board tab dialog in Field Service.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-19-Schedule-board-new-tab-creation.png)
+
+## Custom web resource panel
+
+Use the Schedule Board **Client Extension Framework** to add custom web resources to the schedule board, which could be HTML, JavaScript, a custom app built on Power Apps, and so on. 
+
+To see a custom web resource, select the web resource icon in the menu, as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Custom web resources panel on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-09-support-for-custom-web-resource.png)
+
+## Schedule board settings
+
+Use the **Gear icon** to open the schedule board settings panel on the the new schedule board. 
+
+> [!div class="mx-imgBorder"]
+> ![Schedule board settings icon on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Schedule board settings from the schedule board tab.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Tab-contextual-actions.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Schedule board settings dialog showing the "Edit defaults" option.](../../field-service/media//RS-2021-wave-2-ga-New-SB-Improvements-03-Tab-settings.png)
+
+
+> [!div class="mx-imgBorder"]
+> !["Edit defaults" dialog for the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-04-dafault-Tab-settings.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Schedule board settings dialog, showing the settings for booking tooltips, booking details, and more.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-05-better-settings-experience.png)
 
 ## Automated Scheduling (RSO)
 
@@ -327,109 +429,4 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 
 
 
-## Booking details panel
 
-To see more details about a booking on the schedule board, open the details panel by selecting the details icon, as seen in the following screenshot. 
-
-> [!div class="mx-imgBorder"]
-> ![Details panel for a booking in the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-06-Detail-panel-Booking-selection.png)
-
-## Booking alerts panel
-
-To see a list of active booking alerts, select the **Bell** icon, as seen in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Booking alerts panel on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-07-Booking-alerts-panel-Create-or-view-booking-alerts.png)
-
-From the booking alerts panel, you can also create a new booking alert, close an existing booking alert, or dismiss all booking alerts. See the following screenshot for reference. 
-
-> [!div class="mx-imgBorder"]
-> ![Booking alerts panel on the new schedule board, showing options to dismiss all, close, and create new.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-08-Booking-alert-dismiss-or-snooze.png)
-
-## Full screen mode
-
-Full screen mode on the new schedule board makes it easier for dispatchers and schedulers to focus on the details and make the most of their screen space.
-
-Select the **Expand** icon in the top-right of the new schedule board to enter into full screen mode. 
-
-> [!div class="mx-imgBorder"]
-> ![New schedule board in Field Service, showing the expand icon in the top-right.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-10-support-for-full-screen-mode.png)
-
-
-
-## Get driving directions
-
-From the new schedule board, you can get driving directions for a frontline worker between their last job site to their next job site.
-
-To get driving directions, right-click on the booking, and select **Get driving directions**.
-
-> [!div class="mx-imgBorder"]
-> ![New schedule board showing the "Get driving directions" option on a booking.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-12-support-for-get-driving-directions-to-a-booking.png)
-
-A map view will open, showing directions between the frontline worker's last job site to the next.
-
-> [!div class="mx-imgBorder"]
-> ![Map view of driving directions between one job and another.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-13-driving-directions-to-a-booking-bia-bing-maps.png)
-
-You can also get driving directions for a frontline worker's entire day of bookings. Right-click on the resource in the resource list, and select **Get driving directions**.
-
-> [!div class="mx-imgBorder"]
-> !["Get driving directions" option after right-clicking on a resource.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route.png)
-
-Select the day for which you'd like to generate driving directions for the selected resource.
-
-> [!div class="mx-imgBorder"]
-> ![Map view of driving directions for a day's worth of bookings for a resource.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-14-support-for-get-driving-directions-for-resource-route-on-a-day.png)
-
-A map view will open showing the day's worth of bookings for the selected resource.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-15-support-for-get-driving-directions-for-resource-route-on-a-day-via-bing-maps.png)
-
-
-
-## Create a new schedule board tab
-
-To create a new schedule board tab, select the **[+] icon** in the tab list on the schedule board, as seen in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> !["Add new" button for schedule board tabs on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-18-Schedule-board-new-tab-creation-support.png)
-
-Fill in the relevant details about your new schedule board tab, and then **Add** when done.
-
-> [!div class="mx-imgBorder"]
-> ![New schedule board tab dialog in Field Service.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-19-Schedule-board-new-tab-creation.png)
-
-## Custom web resource panel
-
-/////////////DAVE IS THIS RIGHT??? HOW ARE THESE CREATED??///////////
-
-You can also add custom web resources to the schedule board, which could be HTML, JavaScript, a custom app built on Power Apps, and so on. 
-
-To see a custom web resource, select the web resource icon in the menu, as seen in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Custom web resources panel on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-09-support-for-custom-web-resource.png)
-
-## Schedule board settings
-
-Use the **Gear icon** to open the schedule board settings panel on the the new schedule board. 
-
-> [!div class="mx-imgBorder"]
-> ![Schedule board settings icon on the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Board-view-settings.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Schedule board settings from the schedule board tab.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-02-Tab-contextual-actions.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Schedule board settings dialog showing the "Edit defaults" option.](../../field-service/media//RS-2021-wave-2-ga-New-SB-Improvements-03-Tab-settings.png)
-
-
-> [!div class="mx-imgBorder"]
-> !["Edit defaults" dialog for the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-04-dafault-Tab-settings.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Schedule board settings dialog, showing the settings for booking tooltips, booking details, and more.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-05-better-settings-experience.png)
