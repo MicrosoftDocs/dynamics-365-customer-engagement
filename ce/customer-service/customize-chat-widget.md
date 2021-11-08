@@ -26,8 +26,8 @@ Chat widgets can be customized by using data tags on the chat widget script.
 
 ### See also
 
-[Start chat proactively](start-proactive-chat.md)<br />
-[Live chat SDK JavaScript API reference](developer/omnichannel-reference.md)
+[Start chat proactively](start-proactive-chat.md)  
+[Live chat SDK JavaScript API reference](developer/omnichannel-reference.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
