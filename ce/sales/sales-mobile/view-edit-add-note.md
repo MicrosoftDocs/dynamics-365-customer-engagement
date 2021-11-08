@@ -66,6 +66,7 @@ You can perform the following actions in the **Notes** section.
     |![Paper clip icon.](media/sm-attach-file-note.png "Paper clip icon")|Attach a file or an image stored on your mobile device.|
     |![Camera icon.](media/sm-take-photo-note.png "Camera icon")|Take a photo from your mobile camera and attach it to the note.|
     |![Microphone icon to add a note.](media/mic-icon-note.png "Microphone icon to add a note")|Add content by dictation. More information: [Use dictation in the mobile app](use-dictation.md)|
+    |![Copy icon to copy the note.](media/copy-icon-note.png "Copy icon to copy the note")|Copy the note's content.|
     |||
 
     > [!NOTE]

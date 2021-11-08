@@ -11,15 +11,16 @@ manager: shujoshi
 
 # Use dictation in the mobile app
 
-The Dynamics 365 Sales mobile app allows you to dictate text in a compliant and secure way. You can use dictation for the following:
+The Dynamics 365 Sales mobile app allows you to dictate text in a [compliant and secure way](/legal/cognitive-services/speech-service/speech-to-text/data-privacy-security) by using the microphone icon in the app. You can use dictation for the following:
 
-- Entering text content of a note
-- Entering details in a field of type **Multiple Lines of Text**. For information about the field data types, see [Types of fields and field data](/dynamics365/customerengagement/on-premises/customize/types-of-fields?view=op-9-1)
+- Taking notes
+- Entering details in a field that supports multiple lines of text, for example **Description**.
 
-> [!NOTE]
-> This feature leverages the Microsoft Speech service. More information: [Speech service](/azure/cognitive-services/speech-service/)
+> [!IMPORTANT]
+> - The dictation capability in the mobile app uses the Microsoft Speech service. More information: [Speech service](/azure/cognitive-services/speech-service/)
+> - If you use the microphone icon on your phone's keyboard, it uses the built-in dictation capabilities of the phone's operating system.
 
-## Use dictation to add text content of a note
+## Use dictation to take notes
 
 1. In the **Note** form, tap ![Microphone icon to add a note.](media/mic-icon-note.png "Microphone icon to add a note") on the bottom command bar.
 
@@ -40,11 +41,11 @@ The Dynamics 365 Sales mobile app allows you to dictate text in a compliant and 
 
     ![Note text is written.](media/note-text-speech.png "Note text is written")
 
-## Use dictation in a Multiple Lines of Text field
+## Use dictation in a field supporting multiple lines of text
 
-1. Open the quick view form of a record that has a Multiple Lines of Text field. For example, opportunity has a **Description** field.
+1. Open a record that has a field supporting multiple lines of text. For example, opportunity has a **Description** field in which you can enter multiple lines of text.
 
-2. Edit the record and tap the field of type Multiple Lines of Text. For example, **Description**.
+2. Edit the record and tap the field supporting multiple lines of text. For example, **Description**.
 
 3. Tap ![Microphone icon to add text.](media/mic-icon-note.png "Microphone icon to add text") at the bottom of the form.
 
