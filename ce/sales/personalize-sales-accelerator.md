@@ -20,7 +20,7 @@ Use personal settings to determine how activities are scheduled based on work av
 
 ## What can you personalize
 
-As a seller, you can personalize sales accelerator by determining how activities are scheduled based on your work availability and deciding what happens when you complete an activity. The following personal settings are available for you to configure:
+As a seller, you can personalize a sales accelerator by determining how activities are scheduled based on your work availability and deciding what happens when you complete an activity. The following personal settings are available for you to configure:
 
 -	[Configure your work availability](#configure-your-work-availability)
 -	[Configure the auto advance steps](#configure-the-auto-advance-steps)
@@ -36,10 +36,14 @@ Depending on the license you have in the organization, you use one of the follow
 
 
 >[!NOTE]
->- Ensure that you've read and write privileges to **Calendar** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
->- Verify that the administrator as enabled the option to configure your availability. 
+>- Ensure that you have read and write privileges to the **Calendar** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+>- Verify that the administrator has enabled the option to configure your availability. 
 >    - Through sequence settings, see [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#enable-the-availability-option-in-sequence-settings).
 >    - Through sales accelerator configuration, see step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md). 
+
+
+
+
 
 ### Through work list settings (Sales Premium)<a name="through-work-list-settings"></a>
 
