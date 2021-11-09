@@ -78,7 +78,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
        > You can also access the chat pane from the home session in Customer Service workspace. When using the chat pane from the home session, you'll see two sections: Chats linked to other records and Other chats (if enabled by your administrator).
     
 2.	Use one of the following methods:<br>
-    a.	To start a new linked chat with a participant, select **New linked chat** in the **Linked to this record section** Type the name(s) of the participant(s) you want to chat with. You can start with just one collaborator and then progressively add more as needed (see step 6). Every new linked chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats apppropriately to match the context of the record and conversation. For more information, see step 3. <br><br>
+    a.	To start a new linked chat with a participant, select **New linked chat** in the **Linked to this record section** Type the name(s) of the participant(s) you want to chat with. You can start with just one collaborator and then progressively add more as needed (see step 6). Every new linked chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats appropriately to match the context of the record and conversation. For more information, see step 3. <br><br>
     b.	To start a linked chat with a suggested contact directly on the chat list, select the contact with whom you want to chat, and then select **Start a linked chat**.<br> 
     
      > [!div class="mx-imgBorder"] 
