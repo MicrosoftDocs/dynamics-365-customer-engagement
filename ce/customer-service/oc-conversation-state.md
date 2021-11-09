@@ -1,7 +1,7 @@
 ---
 title: "Understand conversation states in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 11/05/2021
+ms.date: 11/09/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -50,9 +50,9 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 
 | From status reason | To status reason | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). | Channel |
+| Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). <br><br> When the customer is disconnected from the conversation.| Channel |
 | Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> When you close the session while the conversation is active (applicable only to Live chat channel). | Channel  |
-| Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation.  |  Channel <br><br> The status change isn't applicable to Live chat. | 
+| Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.|  Channel <br><br> The status change isn't applicable to Live chat. | 
 | Active | Closed | When you resolve the case (or get a record to non-active state) and close the session. | Record |
 
 
