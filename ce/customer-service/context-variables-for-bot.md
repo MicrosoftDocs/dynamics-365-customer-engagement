@@ -7,7 +7,13 @@ author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
+<!-- 
+You can remove “Parse the JSON to extract the record ID.” references in the PVA column as we want to discourage using this method going forward. Add extension solution variable reference instead.
 
+[chrg] You could integrate them into the table above.
+
+
+-->
 # Configure context variables for a bot
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
@@ -46,38 +52,38 @@ The following table contains the list of variables supported via extension solut
 
 https://dev.azure.com/dynamicscrm/OneCRM/_wiki/wikis/Omnichannel%20Development/22705/OC-PVA-Extension-Solution-(PVA-as-a-Platform)
 
-| Context variable type   | Context variable name | Description | 
-|                    -----|               -----   | -------                         |
-|  **Messaging**              | msdyn_CustomerType    | account                         |
-|                         | msdyn_CustomerName	  | Account.Name                    |
-|                         | msdyn_CustomerId      | Account.Id	                    |
-|                         | msdyn_CustomerType    |  contact                       |
-|                         | msdyn_CustomerName	  |   Contact.FullName             |
-|                         | msdyn_CustomerId	  | 	   Contact.Id	          |
-|                         | msdyn_CaseId	      |   Case.Id                     |
-|                         | msdyn_CaseTitle	      | Case.Title                    |
-|                         |                       |                               |
-| **Voice**                   | msdyn_CustomerType    |   contact                     |
-|                         | msdyn_CustomerName	  |   Account.Name                |
-|                         | msdyn_CustomerId      |   Account.Id                  |
-|                         | msdyn_CustomerType	  |   account                     |
-|                         | msdyn_CustomerName    |   Contact.FullName            |
-|                         | msdyn_CustomerId	  |   Contact.Id                  |
-|                         | msdyn_CaseId	      |   Case.Id	                  |
-|                         | msdyn_CaseTitle	      |   Case.Title                  |
-|                         | CustomerPhoneNumber   |     provided in Telephony activity             |
-|                         | OrganizationPhoneNumber	  |      provided in Telephony activity        |
-|                         |                       |                               |
-|**Extension method name**   |                       |                               |
-|  Set survey consent                |                       |                               |
-|  Set customer locale and handoff to Omnichannel                    |                       |                               |
+| Context variable type   | Context variable name     | Description                     | 
+|                    -----|               -----       | -------                         |
+|  **Messaging**          | msdyn_CustomerType        | account                         |
+|                         | msdyn_CustomerName	      | Account.Name                    |
+|                         | msdyn_CustomerId          | Account.Id	                    |
+|                         | msdyn_CustomerType        | contact                         |
+|                         | msdyn_CustomerName	      | Contact.FullName                |
+|                         | msdyn_CustomerId    	  | Contact.Id	                    |
+|                         | msdyn_CaseId	          | Case.Id                         |
+|                         | msdyn_CaseTitle	          | Case.Title                      |
+|                         |                           |                                 |
+| **Voice**               | msdyn_CustomerType        | contact                         |
+|                         | msdyn_CustomerName	      | Account.Name                    |
+|                         | msdyn_CustomerId          | Account.Id                      |
+|                         | msdyn_CustomerType   	  | account                         |
+|                         | msdyn_CustomerName        | Contact.FullName                |
+|                         | msdyn_CustomerId	      | Contact.Id                      |
+|                         | msdyn_CaseId	          | Case.Id	                        |
+|                         | msdyn_CaseTitle	          | Case.Title                      |
+|                         | CustomerPhoneNumber       | provided in Telephony activity  |
+|                         | OrganizationPhoneNumber	  | provided in Telephony activity  |
+|                         |                           |                                 |
+|**Extension method name**   |                        |                                 |
+|  Set survey consent        |                        |                                 |
+|  Set customer locale</br> and handoff to Omnichannel     |                                 |                               |
 |                         |                       |                               |
 |                         |                       |                               |
 
 > [!Note]
 > If there's a mismatch of any of the attributes (Phone, Email, CaseNumber) for one record, then it won't get automatically identified.
 
-
+<!--
 ### Parse JSON to extract record ID
 
 Perform the steps outlined in this section to parse the JSON to extract the record ID.
@@ -117,6 +123,7 @@ A copy of the sample schema details is as follows:
 - **Contacts:** Full name
 - **Accounts:** Name
 
+
 The following steps explain how to configure a Power Automate flow to parse the JSON and extract the record ID and use in a Power Virtual Agents bot:
 
 1. Go to the topic of the bot in which you want to configure the context variable, and select the add node.
@@ -135,9 +142,7 @@ The following steps explain how to configure a Power Automate flow to parse the 
       3. Select **RecordId** in **Item ID**.
 4.  Save the changes, and exit from Power Automate.
 5.  In Power Virtual Agents, go back to the topic you were editing, select the flow that you configured, and then save and publish.
-
-> [!div class="nextstepaction"]
-> [Next topic: Send authentication token](send-auth-token-starting-chat.md)
+-->
 
 ### See also
 
