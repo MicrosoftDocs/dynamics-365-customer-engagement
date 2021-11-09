@@ -118,13 +118,9 @@ You can link a chat to a single record or multiple records. For example, if you 
     > ![Unlink an existing chat from a record, such as a case.](media/teams-unlink-chat.png "Unink existing chat from a record")
     
 
-## How suggested contacts work
-The suggested contacts list displays users who are connected or have interacted with the record. So, a suggested contact could be one or more of the following users, in the given order:
-- If the record is assigned to a user, the owner of the record.
-- If the record is assigned to a team, the team admin or team members who've logged an activity in the record timeline.
-- Users who've linked chats with the record.
--	Other users who've logged an activity in the record timeline.
+## Use suggested contacts
 
+The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team admin or members who've logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. For more information, see [Use suggested contacts to collaborate with the right coworkers](/teams-use-suggested-contacts.md).
 
 ## Link a Teams channel to a record
 
