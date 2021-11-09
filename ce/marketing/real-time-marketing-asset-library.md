@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing asset library (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use the real-time marketing asset library in Dynamics 365 Marketing."
-ms.date: 08/02/2021
+ms.date: 11/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -33,6 +33,10 @@ The centralized real-time marketing asset library lets you upload files that are
 ### Quickly upload assets
 
 You can upload a single media file, bulk upload a few media files, or even upload an entire folder.
+
+### Export assets from outbound marketing to the asset library
+
+
 
 ### Organize and find assets with ease
 

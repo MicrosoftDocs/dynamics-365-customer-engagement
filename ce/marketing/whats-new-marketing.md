@@ -47,12 +47,12 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 ##### Real-time marketing
 
 - **Asset library**
-    - Copy images from the outbound marketing file library to the real-time marketing asset library. Learn more: []
+    - Copy images from the outbound marketing file library to the real-time marketing asset library. Learn more: [Export assets from outbound marketing to the asset library](real-time-marketing-asset-library.md#export-assets-from-outbound-marketing-to-the-asset-library)
 - **Customer journeys**
     - You can now create attribute conditions over all attribute types in CDS (optionsets, entityreferences, lookups, and bigint).
 - **Marketing emails**
     - The Content ideas feature is now available in real-time marketing, allowing you to use AI-powered suggestions to automatically generate content for emails. Learn more: [Use AI to kickstart email creation with Content ideas](content-ideas.md).
-- **Text messaging**
+- **Mobile channel**
     - Send Customer Voice surveys in SMS messages and push notifications. Learn more: []
 
 ##### Outbound marketing
@@ -60,7 +60,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 - **Marketing insights**
     - Faster data loading speed when exporting a large range of customer interaction records from Azure Blob Storage into Power BI.
 
-##### Shared UX
+##### Global updates
 
 - **Quota**
     - A new quota limits page displays the monthly interaction quota, monthly interaction usage, Marketing contacts used, and annual total contact usage. Learn more: [Quota limits](quota-management.md).
@@ -74,10 +74,9 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
     - Resolved an error caused when a waitlist item was already registered before it was processed.
 - **Marketing emails**
     - Updated [email bounce categories](email-bounce-categories.md) to include the suppression list category and description.
+    - Resolved an issue that sometimes caused cloned elements (such as buttons in the email designer) to move when the original element was moved.
 - **Marketing pages**
     - Fixed an error that caused changes to the partial URL in live, editable/stopped state to not update in the full page URL.
-- **Shared UX**
-    - Resolved an issue that sometimes caused cloned elements (such as buttons in the email designer) to move when the original element was moved.
 - **Social posting**
     - Reactions data is now updated on the social post grid when it loads.
 
