@@ -101,7 +101,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 - [Sessions](../app-profile-manager/session-templates.md)
 - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-- [Context variables](#configure-context-variables)
+- [Context variables](configure-context-variables.md)
 - [Smart assist bots](smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
 
@@ -119,17 +119,6 @@ When a work item needs to be assigned, the classification rules are run and the 
 > [!Note]
 > The bot is supported only in push type of workstreams.
 
-### Configure context variables
-
-Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues.
-
-> [!Note]
-> If you create custom context variables, we recommend that you don't update or delete them. If you need to update or delete them, make sure that they aren't used in any of the unified routing classification or assignment rules.
-
-1. Select **Add context variable** in the **Advanced settings** section of a workstream.
-2. In the **Edit** pane, select **Add**, and enter **Name**.
-3. Select the **Type** of variable from the dropdown list. You can choose from **Text** or **Number**.
-4. Repeat steps 2 and 3 to create the required variables.
 
 ### Manage workstreams
 
