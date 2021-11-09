@@ -37,7 +37,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10078.1049 |
+| Marketing        | 1.35.10078.2008 |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
