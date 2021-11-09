@@ -32,7 +32,7 @@ Work order system statuses, work order substatuses, and booking statuses all wor
 As of the 2021 Wave 2 release, the **Work Order System Status** labels were updated. For example, the former status label "Open - Unscheduled" was updated to "Unscheduled".
 
 > [!Note]
-> Do not edit the option set _values_ for **Work Order System Status**; changing the option set _values_ can cause errors and is not supported. Instead, administrators can edit the option set _labels_ like "Unscheduled".
+> Do not edit, add or remove the option set _values_ for **Work Order System Status**; changing the option set _values_ can cause errors and is not supported. Instead, administrators can edit the option set _labels_ like "Unscheduled".
 
 
 **Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are created custom for each organization.
