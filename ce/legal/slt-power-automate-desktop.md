@@ -4,7 +4,7 @@ author: ReneeW-CPub
 robots: noindex,nofollow
 ---
 
-# MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT POWER AUTOMATE DESKTOP
+# MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT POWER AUTOMATE FOR DESKTOP
 
 These license terms are an agreement between you and Microsoft Corporation (or
 one of its affiliates). They apply to the software named above and any Microsoft
