@@ -309,6 +309,8 @@
           href: connect-a-sequence-to-records.md
         - name: View details of a sequence and its connected records
           href: view-sequence-details-connected-records.md
+        - name: View sequence in a grid
+          href: view-disconnected-sequences.md  
         - name: Clone a sequence
           href: clone-a-sequence.md
         - name: Edit a sequence
@@ -373,7 +375,7 @@
         href: configure-talking-points.md
       - name: Configure who knows whom
         href: configure-who-knows-whom.md
-    - name: Configure conversation intelligence
+    - name: Conversation intelligence
       items:
       - name: Prerequisites to use Conversation Intelligence
         href: prereq-sales-insights-app.md
