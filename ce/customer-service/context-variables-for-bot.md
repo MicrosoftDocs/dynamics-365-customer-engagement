@@ -11,8 +11,6 @@ manager: shujoshi
 You can remove “Parse the JSON to extract the record ID.” references in the PVA column as we want to discourage using this method going forward. Add extension solution variable reference instead.
 
 [chrg] You could integrate them into the table above.
-
-
 -->
 # Configure context variables for a bot
 
@@ -42,7 +40,7 @@ The following table contains the list of variables in Omnichannel for Customer S
 | [Custom context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setContextProvider API. | These are custom context variables that can be created and passed through the live chat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li> **String**: User's entire response </li> **Boolean**: Boolean <li> **Number**, **Floating Number**: Number |[Map the user's response as a JSON](display-custom-context.md) to use custom context variable in Omnichannel for Customer Service. |
 | Conversation | msdyn_liveworkitemid | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. | **String**: User's entire response. |**String**: String|
 |[Contact](record-identification-rule.md) |msdyn_contact_msdyn_ocliveworkitem_Customer| Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation. | [Parse the JSON to extract the record ID](#parse-json-to-extract-record-id). |Parse the JSON to extract the record ID.|
-| Account | msdyn_account_msdyn_ocliveworkitem_Customer |Use this context variable that contains the record ID for the account record linked to the conversation.|Parse the JSON to extract the record ID.|Parse the JSON to extract the record ID.|
+| Account | msdyn_account_msdyn_ocliveworkitem_Customer | Use this context variable that contains the record ID for the account record linked to the conversation.|Parse the JSON to extract the record ID.|Parse the JSON to extract the record ID.|
 | Case | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation. |[Parse the JSON to extract the record ID](#parse-json-to-extract-record-id).| Parse the JSON to extract the record ID.|
 |||||
 
@@ -50,7 +48,6 @@ The following table contains the list of variables in Omnichannel for Customer S
 
 The following table contains the list of variables supported via extension solutions.
 
-https://dev.azure.com/dynamicscrm/OneCRM/_wiki/wikis/Omnichannel%20Development/22705/OC-PVA-Extension-Solution-(PVA-as-a-Platform)
 
 | Context variable type   | Context variable name     | Description                     | 
 |                    -----|               -----       | -------                         |
