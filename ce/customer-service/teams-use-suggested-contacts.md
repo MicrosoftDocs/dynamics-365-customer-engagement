@@ -46,4 +46,13 @@ To use suggested contacts, your administrator must enable the feature. For the c
   - A maximum of three suggestions per section are displayed. If you want to see more, select **View more**.
 
    :::image type="content" source="media/teams-suggested-contacts.png" alt-text="Suggested contacts view in Teams.":::
+   
+
+### See also
+
+[Configure Teams chat in Customer Service](/configure-teams-chat)<br>
+[Use Teams chat in Customer Service](Use Teams chats in Customer Service)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]  
+ 
 
