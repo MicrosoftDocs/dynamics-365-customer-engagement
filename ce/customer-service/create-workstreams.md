@@ -39,7 +39,7 @@ Perform the following steps:
 
 2. Select **New**.
 
-3. In the **Create a workstream** dialog box, enter the following details:
+3. In the **Create a workstream** dialog, enter the following details:
 
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
     
@@ -77,10 +77,10 @@ Perform the following steps:
 
 ### Configure routing rules
 
-Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
+Routing rules for a workstream consist of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
 
 - [Configure work classification rules](configure-work-classification.md)
-- [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules).
+- [Configure route-to-queue rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
 
 ### Configure work distribution
 
@@ -105,11 +105,12 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 - [Smart assist bots](smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
 
-### Add a bot
+### Add a bot to a workstream
 
 To add a bot, the bot must be configured and available for selection. For information about configuring Power Virtual Agents bots, see [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md). For information about configuring Azure bots, see [Integrate an Azure bot](configure-bot.md).
 
 **To add the bot to the workstream**
+
 1. In Omnichannel admin center, go to **Settings** > **Workstreams**, and select a workstream.
 2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
 3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
@@ -118,7 +119,6 @@ When a work item needs to be assigned, the classification rules are run and the 
 
 > [!Note]
 > The bot is supported only in push type of workstreams.
-
 
 ### Manage workstreams
 
