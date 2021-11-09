@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to use the Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 11/05/2021
+ms.date: 11/08/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -59,7 +59,7 @@ The following legend describes the numbered callouts in the above image.
 
 You can open any Dynamics 365 Customer Service record and select the **Teams chats and channels integration** icon. The **Teams chats (preview)** panel opens with the following sections in the **Chat** tab:  
 - Chats linked to the record: Lists Teams chats that either you’ve linked to the selected record or someone else has linked a chat with you as a participant. 
-- Suggested contacts: Lists suggested contacts depending on the users who are working on the record. For more information, see [How suggested contacts work](#how-suggested-contacts-work).  
+- Suggested contacts: Lists suggested contacts depending on the users who are working on the record. For more information, see [Use suggested contacts to collaborate with the right coworkers](/teams-use-suggested-contacts.md).  
 - Other chats/All recents: Lists your top 50 chat conversations on Teams. You can select any existing conversation and link it to a record. 
 
 ## Start a new linked chat
