@@ -469,7 +469,7 @@
       - name: Add the knowledge base search control to forms
         href: add-knowledge-base-search-control-forms.md
   - name: Microsoft Teams chat for enterprise collaboration
-     items:
+    items:
     - name: Administrator experience
       items: 
       - name: Configure Teams chat
