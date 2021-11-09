@@ -32,7 +32,7 @@ ms.custom:
 The Teams chat embedded in Dynamics 365 Customer Service Hub, Customer Service workspace, or custom apps can help you more quickly find the right coworkers to collaborate with. This collaboration can help you more quickly resolve customer issues.
 
 To use suggested contacts, your administrator must enable the feature. For the case record type, there are two types of suggestions: AI and rules-based. Other record types enabled for linked chats may only have rules-based suggestions.
--  AI: Suggestions based on cases that were resolved by other agents. More information: [Collaborate with AI-suggested contacts in Microsoft Teams](/use-ai-suggested-contacts-teams.md)
+-  AI: Suggestions based on cases that were resolved by other agents. More information: [Collaborate with AI-suggested contacts in Microsoft Teams](/use-ai-suggested-contacts-teams)
 -  Rules-based: Suggestions of coworkers who are associated with the linked record or other related records. For example, an agent can see suggestions to collaborate with their supervisor, the account manager for the customer, or a colleague who updated the case timeline with a note or task. More information:
 
 ## View suggested contacts
