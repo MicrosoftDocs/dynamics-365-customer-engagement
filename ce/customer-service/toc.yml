@@ -480,6 +480,8 @@
       items:
       - name: Use Teams chat
         href: use-teams-chat.md
+      - name: Use suggested contacts to collaborate with coworkers
+        href: teams-use-suggested-contacts.md
       - name: Collaborate with AI suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
   - name: Routing in Omnichannel Administration
