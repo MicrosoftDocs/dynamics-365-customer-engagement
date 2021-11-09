@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Sales Insights"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 10/08/2021
+ms.date: 11/09/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -17,18 +17,25 @@ applies_to:
 
 # Frequently asked questions for Sales Premium
 
-## Licenses
+## Licenses and storage
 
-**Question**:<br>What's the difference between Sales Premium and Sales Insights?     
-**Answer**:<br>Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.     
+**What's the difference between Sales Premium and Sales Insights?**
 
-**Question**:<br>Where can I find the comparison chart for Dynamics 365 Sales licenses?    
-**Answer**:<br>The following license options are available for Dynamics 365 Sales:
+Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.  
+
+**Where can I find the comparison chart for Dynamics 365 Sales licenses?**  
+
+The following license options are available for Dynamics 365 Sales:
 - Sales Premium
 - Sales Enterprise
 - Sales Professional
 
 For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
+
+**After I installed Sales Insights, I see a spike in the data usage. How much storage data does Sales Insights need?**
+
+When you install Sales Insights, corresponding analytics tables are created for contacts, opportunities, leads, accounts, and activityparty tables. The storage requirement for these analytics tables is directly proportional to the amount of data in Dataverse. The tables are stored as files in the managed data lake. For more information on storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
+
 
 ## General
 
