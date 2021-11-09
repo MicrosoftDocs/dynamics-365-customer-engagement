@@ -41,7 +41,7 @@ In the right pane, the **Relationship Explorer** lets you filter by 1:N (one-to-
 To add a relationship from the **Relationship Explorer** just double-click it and it will be added below the currently selected relationship in the navigation area. Double-click a relationship in the navigation area and you can change the label on the **Display** tab. On the **Name** tab you can see information about the relationship. Use the **Edit** button to open the definition of the entity.  
   
 <a name="BKMK_NavigationLinkProperties"></a>   
-### Navigation link properties
+### Add a navigation link to a form
 
 Use the **Navigation Link** button in the **Control** group of the **Insert** tab to add a link to a web resource or external URL.
 
@@ -53,7 +53,7 @@ Navigation links have the following properties:
 |--------------|-----------------|  
 |Name|**Required**: Text to display as a label.|  
 |Icon|Use a 32x32 pixel web resource. Use a PNG image with a transparent background is recommended.|  
-|Web Resource|Specify a web resource to display in the main pane of the form.|  
+|Web Resource|Specify a web resource to display in the main pane of the form. More information: [Create or edit web resources to extend an app](create-edit-web-resources.md) |  
 |External URL|Specify the URL of a page to display in the main pane of the form.|  
 
 <a name="BKMK_PrivacyNotices"></a>   
