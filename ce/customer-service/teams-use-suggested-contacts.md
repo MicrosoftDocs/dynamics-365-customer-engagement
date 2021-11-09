@@ -45,5 +45,5 @@ To use suggested contacts, your administrator must enable the feature. For the c
   - The rules-based suggestions will show only contacts that have been enabled by your administrator. Additionally, the list is displayed in the order defined by your administrator.
   - A maximum of three suggestions per section are displayed. If you want to see more, select **View more**.
 
-
+   :::image type="content" source="media/teams-suggested-contacts.png" alt-text="Suggested contacts view in Teams.":::
 
