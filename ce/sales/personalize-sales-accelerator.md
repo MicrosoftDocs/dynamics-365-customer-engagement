@@ -8,7 +8,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-<!-- editor comment: It seems that "sales" in sales accelerator should be lowercase rather than capitalized as in Dynamics 365 Sales, although I don't know for certain. Also, I've added "the" before sales accelerator to make it sound more natural (other than headings or UI). -->
+<!-- editor comment: The lowercase "sales" in sales accelerator seems correct, although I see it capitalized in some other topics. I can't find any specific guidance on that. Also, I've added "the" before sales accelerator to make it sound more natural (other than in headings or UI). -->
 
 
 # Personalize sales accelerator 
