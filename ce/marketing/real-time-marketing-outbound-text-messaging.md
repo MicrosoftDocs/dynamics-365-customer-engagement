@@ -128,7 +128,7 @@ To add a Customer Voice survey to a text message:
 1. Choose a Customer Voice survey in the lookup field.
 1. Select whether you want the survey to be anonymous and whether you want to track the survey link after customers click on it. If you select the **Survey is anonymous** option, no user data will be saved with the answers.
     > [!div class="mx-imgBorder"]
-    > ![Text editor screenshot.](media/real-time-marketing-survey-options.png "Text editor screenshot")
+    > ![Customer Voice survey options screenshot.](media/real-time-marketing-survey-options.png "Customer Voice survey options screenshot")
 1. Select **Save**.
 
 When you send the text message from a journey, it will automatically populate the token with the survey and options you selected.
