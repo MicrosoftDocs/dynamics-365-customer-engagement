@@ -1,7 +1,7 @@
 ---
 title: "Create outbound text messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create outbound text messages for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 10/13/2021
+ms.date: 11/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -117,6 +117,14 @@ To personalize a text message:
 1. Add a **Label** to quickly identify your token in the message content.
 
 When you send the text message from a journey, it will automatically populate the token according to the attribute you selected.
+
+## Add a Customer Voice survey to a text message
+
+Adding a Customer Voice survey link to your text message allows you to seek feedback from customers on the channels they use the most.
+
+To add a Customer Voice survey to a text message:
+
+1. 
 
 ## Track your text message metrics from channel insights
 
