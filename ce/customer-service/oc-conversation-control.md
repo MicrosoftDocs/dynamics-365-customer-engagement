@@ -76,7 +76,7 @@ The quick replies can be created either by the administrator or by you. You can 
 
 1. Select the quick responses icon ![quick responses icon.](media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
 2. Select the **Personal** tab, and type any of the following options in the compose box to search for the personal quick replies that are available for your use:
-   * Type **/q**, followed by the number sign (**#**), to list all tags.
+   * Type **/q**, followed by the number sign (**#**), to list all tags. 
    * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
    * Type **/q**, followed by <**keyword**>, to list messages that match the keyword.
    * Type **/q**, followed by <**tagname**> <**keyword**>, to list quick replies that match the tag and keyword.
