@@ -41,20 +41,23 @@ Depending on the license you have in the organization, you use one of the follow
 >    - Through sequence settings, see [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#enable-the-availability-option-in-sequence-settings).
 >    - Through sales accelerator configuration, see step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md). 
 
-
-
-
-
 ### Through work list settings (Sales Premium)<a name="through-work-list-settings"></a>
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**. 
     
-2.	In the work list section, select More options > settings.   
+2.	In the work list section, select **More options** > **Settings**.   
     >[!div class="mx-imgBorder"]
-    >![Select settings in the work list to configure your availability](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure your availability")     
+    >![Select settings in the work list to configure your availability.](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure your availability.")     
 3.	On the **Personal settings** page, select **Availability**.
     >[!div class="mx-imgBorder"]
-    >![Select Availability under Personal settings](media/sa-personal-settings-select-availability-settings.png "Select Availability under Personal settings")      
+    >![Select Availability under Personal settings.](media/sa-personal-settings-select-availability-settings.png "Select Availability under Personal settings.")      
+
+
+
+
+
+
+
 4.	Select **+ New**, and choose an option to configure your calendar according to your requirements.    
     -	**Working hours**: Configure your regular working hours between dates you define. This helps sales accelerator to consider the assignment of activities to your work list.    
         >[!div class="mx-imgBorder"]
