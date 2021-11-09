@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 11/08/2021
+ms.date: 11/09/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -76,10 +76,10 @@ The quick replies can be created either by the administrator or by you. You can 
 
 1. Select the quick responses icon ![quick responses icon.](media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
 2. Select the **Personal** tab, and type any of the following options in the compose box to search for the personal quick replies that are available for your use:
-   * Type **/q**, followed by the number sign (**#**), to list the tags.
-   * Type **/q**, followed by <**tagname**> <**tagname**>, to list all tags that match the search terms.
+   * Type **/q**, followed by the number sign (**#**), to list all tags.
+   * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
    * Type **/q**, followed by <**keyword**>, to list messages that match the keyword.
-   * Type **/q**, followed by <**tagname**> <**keyword**>, to list messages that match the keyword within the tags.
+   * Type **/q**, followed by <**tagname**> <**keyword**>, to list quick replies that match the tag and keyword.
 1. Use the **more** option to view the complete text of the quick reply.
 
     > ![Use personal quick reply.](media/use-personal-quick-replies.png "Use personal quick reply")
@@ -91,10 +91,10 @@ After you type **/q** in the communication panel messaging area, you can continu
 
 You can type any of the following options in the compose box to search for the messages that are available for your use:
 
-   * Type **/q**, followed by the number sign (**#**), to list the tags.
-   * Type **/q**, followed by <**tagname**> <**tagname**>, to list all tags that match the search terms.
+   * Type **/q**, followed by the number sign (**#**), to list all tags.
+   * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
    * Type **/q**, followed by <**keyword**>, to list messages that match the keyword.
-   * Type **/q**, followed by <**tagname**> <**keyword**>, to list messages that match the keyword within the tags.
+   * Type **/q**, followed by <**tagname**> <**keyword**>, to list quick replies that match the tag and keyword.
 
  > [!div class=mx-imgBorder]
  > ![Type /q and the keyword to filter the replies.](media/oceh-send-quick-replies-filter.png "Filter replies")  
