@@ -51,7 +51,9 @@ You can now configure your Power Virtual Agents bot to connect your omnichannel 
 
 ## Configure your Power Virtual Agents bot
 
-After the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel admin center app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Workstreams** section of Omnichannel admin center.
+To configure your bot 
+
+After the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues in the Omnichannel Administration app. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can change them in the **Workstreams** section of Omnichannel admin center.
 
 > [!NOTE]
 > Bots can escalate conversations to agents only if they're a part of push-based workstream.
