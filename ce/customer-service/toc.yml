@@ -318,6 +318,8 @@
       items: 
       - name: Define parent and child cases
         href: define-settings-parent-child-cases.md
+      - name: Configure AI suggestions for contacts in Microsoft Teams
+        href: configure-teams-collaboration.md
       - name: View similar case suggestions
         href: suggest-similar-cases-for-a-case.md
       - name: Create and manage subjects
@@ -334,6 +336,8 @@
         href: view-block-deactivate-social-profile.md
       - name: Convert a case to a knowledge article
         href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
+      - name: Collaborate with AI suggested contacts in Microsoft Teams
+        href: use-ai-suggested-contacts-teams.md
       - name: View AI suggested similar cases and knowledge articles
         href: csw-view-ai-suggested-cases-knowledge-articles.md
       - name: Manage cases using interactive dashboards
