@@ -54,7 +54,7 @@ You can even create entirely new groups with more subareas to display different 
 
 
 
-## Edit views
+## Edit mobile views
 
 - [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer) 
 
