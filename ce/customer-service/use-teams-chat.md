@@ -98,11 +98,9 @@ If you're using Teams for the first time within Customer Service Hub or Customer
 6. (Optional) You can add more participants to the chat directly from the chat control by selecting the **View and add participants**.
     
      > [!div class="mx-imgBorder"] 
-     > ![Collaborate with others.](media/teams-introduction-message.png "Collaborate with others")
+     > ![Add more participants to a chat.](media/teams-view-add-participants.png "View and add participants.")
 
-     > [!div class="mx-imgBorder"] 
-     > ![Add more participants to a chat.](media/teams-send-intro-message.png "Add participants to the chat")
-    
+        
 ## Link or unlink an existing chat from a record
 
 You can link a chat to a single record or multiple records. For example, if you had a chat about a case that turned into a work order, you could also link the chat to the work order. If you decided later that you didn't want the chat linked to the case, you could unlink it. For this example, you'd follow these steps:
