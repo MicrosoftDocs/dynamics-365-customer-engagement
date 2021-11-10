@@ -2,6 +2,7 @@
 title: "lcw:onMaximize | MicrosoftDocs"
 description: lcw onMaximize event (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
+ms.date: 11/10/2021
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

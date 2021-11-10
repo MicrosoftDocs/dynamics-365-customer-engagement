@@ -2,6 +2,7 @@
 title: "lcw:onClose | MicrosoftDocs"
 description: lcw onClose event (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
+ms.date: 11/10/2021
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
