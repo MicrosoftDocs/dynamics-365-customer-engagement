@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk system requirements | MicrosoftDocs"
-description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk."
-ms.date: 09/07/2021
+description: "Describes the software and hardware requirements you need to install and use Unified Service Desk."
+ms.date: 11/10/2021
 ms.topic: get-started-article
 author: mh-jaya
 ms.author: v-jmh
@@ -19,6 +19,7 @@ This topic provides information about the system requirements for installing the
 
 <a name="hardware"></a>
 ## Hardware requirements for the Unified Service Desk client  
+
  The following table lists the minimum and recommended hardware requirements when you run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
 
 
@@ -27,24 +28,25 @@ This topic provides information about the system requirements for installing the
 | Processor | x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor |                                                                                                                                    x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor                                                                                                                                    |
 |  Memory   |                                      ^4-GB RAM or more                                       |                                                                                                                                                                         8-GB RAM or more                                                                                                                                                                          |
 | Hard disk |                            \*1.5 GB of available hard disk space                            | 12 GB of available hard disk space: 2 GB of available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files and 10 GB additional available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client log files<br /><br /> 7200 RPM or more |
+|||
 
  ^The minimum memory is for running basic scenarios. The actual memory required for Unified Service Desk increases with the complex configurations and custom development (UI experience).
  
  *Requires disabling [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client logging. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure client diagnostic logging in Unified Service Desk](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md)  
 
-<a name="client"></a>   
+<a name="client"></a>
 ## Software requirements for the Unified Service Desk client
 
  To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, the following is required:  
 
-| Requirement | Recommended Version | Supported Version|
+| Requirement | Recommended version | Supported version|
 |---------------------------|---------------------------|-------------------------------------|
-| Operating system | <ul><li>[!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li></ul> |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
-| Microsoft .NET Framework | <ul><li>[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)</li></ul> |  |
-| Windows Identity Foundation  | <ul><li> Windows Identity Foundation 3.5 (installed during Unified Service Desk Setup if missing) </li></ul> |  |
-| Screen resolution | <ul><li> 1920 x 1080 (Pixels) </li></ul> |  |
-| Magnifier | <ul><li> 100 % </li></ul> |
-
+| Operating system | [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)]  |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
+| Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing) |  |
+| Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk Setup if missing) |  |
+| Screen resolution |  1920 x 1080 (Pixels)  |  |
+| Magnifier |  100 %  |
+|||
 ## Support for Unified Service Desk
 
 The latest three versions of Unified Service Desk are supported. On the release of the latest version of Unified Service Desk, the oldest supported version will be deprecated.
