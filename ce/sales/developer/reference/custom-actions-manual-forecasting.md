@@ -1,7 +1,7 @@
 ---
 title: "Custom actions for forecasting - Sales Enterprise | MicrosoftDocs"
 description: "As a developer, use this reference documentation for defining custom actions for manual forecasting."
-ms.date: 10/21/2021
+ms.date: 11/10/2021
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
