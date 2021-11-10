@@ -21,7 +21,7 @@ ms.custom:
 
 ## Introduction
 
-A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in Dynamics 365 Customer Service. 
+A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in Dynamics 365 Customer Service.
 
 > [!IMPORTANT]
 > Usage of [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledgebase as a knowledge management solution has been deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
@@ -30,23 +30,25 @@ After knowledge management is set up, users will be able to:
   
 - Search for relevant knowledge base articles right from Dynamics 365 Customer Service as they're working on a record.  
   
-- See the content of the knowledge base article inline, including images and videos.  
-  
 - Set up a search logic and search filters to get only the required knowledge articles and provide timely and consistent information to customers when working on their cases.
+
+- Get smart assist suggested keywords and description based on the article content stored in the built-in knowledge article entity. See the content of the knowledge base article inline, including images and videos.
 
 > [!NOTE]
 > With the latest release of Dynamics 365 Customer Service app, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience.
 
 ## Setup overview
 
-You can set up knowledge management either on the Customer Service Hub or manually on the Unified Interface.
+You can set up knowledge management either on the Customer Service Hub or manually for a model-driven app.
 
 - [Set up knowledge management (Customer Service Hub)](#set-up-knowledge-management-customer-service-hub)
-- [Set up knowledge management settings page manually (Unified Interface)](#set-up-knowledge-management-settings-page-manually-unified-interface)
+- [Set up knowledge management settings page manually for a model-driven app](#set-up-knowledge-management-settings-page-manually-for-a-model-driven-app)
 
 After you have configured knowledge management on your app, you must also set up the various other aspects of knowledge management, based on your organizational requirements.
 
 To enable users to work seamlessly with your knowledge articles:
+
+- 
 
 - [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization)
 - [Set up AI suggestions for article keywords and description (preview)](#set-up-ai-suggestions-for-article-keywords-and-description-preview)
@@ -82,7 +84,7 @@ You can also enable the feedback control, so that users can provide feedback on 
   
 4. Select **Save**.  
 
-## Set up knowledge management settings page manually (Unified Interface)
+## Set up knowledge management settings page manually for a model-driven app
 
 > [!NOTE]
 > The embedded knowledge search control is deprecated in the web client. You must use the Knowledge Settings page in Unified Interface.
