@@ -42,13 +42,13 @@ The following tables show the current usage limits for Marketing features.
 
 | Feature                     | Attribute                                                   | Maximum                                                    |
 |-----------------------------|-------------------------------------------------------------|------------------------------------------------------------|
-| Interaction sending         | Interactions sent.                                           | 10,000,000 per month (333,000 daily max)                   |
+| Interaction sending         | Interactions sent.                                           | 100,000,000 per month (3,333,000 daily max)                   |
 | Interaction personalization | Number of distinct dynamic attributes used in a single message.                                | 100                                                   |
 | Interaction personalization | Number of [entity relationships connected](../customerengagement/on-premises/customize/create-edit-entity-relationships.md) in personalization. | 1:1 = up to 6 levels<br>(1:N & N:M = not currently supported) |
 | Data sync  | Number of rows in a single [synchronized table](./mkt-settings-sync.md) (for example, number of Marketing contacts). | 20,000,000 rows                                        |
 | Data sync  | Total rows across all [synchronized tables](./mkt-settings-sync.md).| 100,000,000 rows                                        |
 | Segment-based journeys          | Number of contacts in a segment used in a real-time marketing journey.          | 3,300,000 members                |
-| Latency of event-based journeys          | Time from when an event trigger is activated to completing first step in the journey.          | <2 minutes (P 99.9) with up to 700 event triggers activated per minute.<br>If the total number of event triggers being activated across your environment exceeds 700 per minute, then the time to complete the first step will increase linearly.                |
+| Latency of event-based journeys          | Time from when an event trigger is activated to completing first step in the journey.          | < 2 minutes with up to 700 event triggers activated per minute.<br>If the total number of event triggers activated across your environment exceeds 700 per minute, the time to complete the first step will increase linearly.                |
 
 ## Event management
 
