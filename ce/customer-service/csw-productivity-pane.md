@@ -47,7 +47,7 @@ Two things to keep in mind about the productivity pane modes:
 
 The productivity pane stays collapsed for entities that don't have productivity controls configured to use it. For example, if you open an account record, which typically doesn't have smart assist or knowledge enabled for it, or if agent scripts or macros aren't enabled by your administrator, the pane remains collapsed. 
 
-The productivity pane places focus on the first control that has data for any entity. Typically, the order is smart assist, agent scripts and macros, and then knowledge controls. For example, if you open an account record that has only scripts configured, when the record opens, the productivity pane expands and the focus is on the agent scripts and macros. 
+The productivity pane places focus on the first control that has data for any table. Typically, the order is smart assist, agent scripts and macros, and then knowledge controls. For example, if you open an account record that has only scripts configured, when the record opens, the productivity pane expands and the focus is on the agent scripts and macros. 
 
 ## Smart assist
 
