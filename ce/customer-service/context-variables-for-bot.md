@@ -40,7 +40,7 @@ Before you configure context variables for Azure or Power Virtual Agents bots, c
 
 ## Context variables for Power Virtual Agents bots
 
-The following table contains the list of context variables in Omnichannel for Customer Service that you can use for configuring [Power Virtual Agents](configure-bot-virtual-agent.md#install-power-virtual-agents-extensions) bots.
+The following table contains the list of context variables in Omnichannel for Customer Service that you can use for [configuring Power Virtual Agents bot](configure-bot-virtual-agent.md#install-power-virtual-agents-extensions).
 
 | Context variable type | Context variable name | Description | How to map in Power Virtual Agents |
 |-----|  -----       | ------- | -----------------------|
@@ -63,7 +63,7 @@ The following table contains the list of context variables in Omnichannel for Cu
 
 ## Context variables for Azure bots
 
-The following table contains the list of context variables in Omnichannel for Customer Service that you can use for configuring [Azure](configure-bot.md) bots.
+The following table contains the list of context variables in Omnichannel for Customer Service that you can use for [configuring Azure bots](configure-bot.md).
 
 | Context variable type | Context variable name | Description  | How to map in Azure |
 |-----|-----|-------|-------|
