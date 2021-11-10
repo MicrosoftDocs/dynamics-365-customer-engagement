@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 11/08/2021
+ms.date: 11/10/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -32,7 +32,9 @@ After knowledge management is set up, users will be able to:
   
 - Set up a search logic and search filters to get only the required knowledge articles and provide timely and consistent information to customers when working on their cases.
 
-- Get smart assist suggested keywords and description based on the article content stored in the built-in knowledge article entity. See the content of the knowledge base article inline, including images and videos.
+- Use smart assist to receive AI-triggered knowledge suggestions on related knowledge article and similar cases.
+
+- See the content of the knowledge base article inline, including images and videos.
 
 > [!NOTE]
 > With the latest release of Dynamics 365 Customer Service app, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience.
@@ -48,9 +50,8 @@ After you have configured knowledge management on your app, you must also set up
 
 To enable users to work seamlessly with your knowledge articles:
 
-- 
-
 - [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization)
+- [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles)
 - [Set up AI suggestions for article keywords and description (preview)](#set-up-ai-suggestions-for-article-keywords-and-description-preview)
 
 To enable users to utilize the search capability:
@@ -103,12 +104,26 @@ You can also enable the feedback control, so that users can provide feedback on 
     * Type: Select **URL**. 
     * URL: Enter  ```/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings```
 
+## Set a default knowledge article authoring language for your organization
+
+To understand how you can set language preferences at the organization level, see [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization)
+
+## Configure origins allow list for knowledge articles
+
+To understand how you can configure an origins allow list to ensure that knowledge authors add only safe links to their knowledge articles, see [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles).
+
 ## Set up AI suggestions for article keywords and description (preview)
 
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
-You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description-preview)
+You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description-preview).
+
+## Set up a search provider in Customer Service Hub
+To understand how you can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub).
+
+## Enable knowledge article search filters
+To understand how you can configure standard and custom fields as filters to help your agents find the content and improve their productivity, see [Enable knowledge article search filters](enable-knowledge-article-search-filters.md#enable-knowledge-article-search-filters).
 
 ## Set up knowledge search logic
 
