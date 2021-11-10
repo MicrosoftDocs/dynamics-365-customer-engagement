@@ -7,7 +7,7 @@ author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# Customize a chat widget using data tags
+# Customize chat widgets using data tags
 
 Chat widgets can be customized by using data tags on the chat widget script.
 
@@ -27,7 +27,7 @@ Chat widgets can be customized by using data tags on the chat widget script.
 ### See also
 
 [Start chat proactively](start-proactive-chat.md)  
-[Live chat SDK JavaScript API reference](developer/omnichannel-reference.md)  
+[Live chat SDK JavaScript API reference](developer/omnichannel-reference.md)  p
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
