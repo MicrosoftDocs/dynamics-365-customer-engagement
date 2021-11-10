@@ -1,7 +1,7 @@
 ---
 title: "Set up booking rules in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to set up booking rules in Dynamics 365 Field Service.
-ms.date: 09/04/2020
+ms.date: 11/08/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -121,14 +121,12 @@ The possible values for *ResourceScheduleSource* are from the resource schedule 
 ```
     var sbContext = {
     oldValues: {
-        WorkOrderId: "00000000-0000-0000-0000-00000000",
         StartTime: "01/01/2016 08:00AM",
         EndTime: "01/01/2016 05:00PM",
         ResourceId: "00000000-0000-0000-0000-00000000",
         ResourceScheduleSource: 690970001
     },
     newValues: {
-        WorkOrderId: "00000000-0000-0000-0000-00000000",
         StartTime: "01/01/2016 08:00AM",
         EndTime: "01/01/2016 05:00PM",
         ResourceId: "00000000-0000-0000-0000-00000000",
@@ -266,7 +264,7 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
         function ScheduleBoardHelper() {
         }
         ScheduleBoardHelper.callActionWebApi = function (sb) {
-            var oDataEndpoint = sb.url + "msdyn_workorders(" + sb.ctx.newValues.WorkOrderId + ")/Microsoft.Dynamics.CRM." + sb.actionName;
+            var oDataEndpoint = sb.url + sb.actionName;
             var req = new XMLHttpRequest();
             req.open("POST", oDataEndpoint, false);
             req.setRequestHeader("Accept", "application/json");
