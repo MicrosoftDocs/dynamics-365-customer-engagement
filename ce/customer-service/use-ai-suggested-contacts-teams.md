@@ -37,7 +37,7 @@ You can do the following:
 
 1. Select **New linked chat**. The following options appear:
    - An option to enter participant agent names to create linked chats.
-   - A dropdown list of suggested contacts who have worked on similar and related cases. AI and ruled-based suggested contacts are listed if admins have enabled both of these options.
+   - A dropdown list of suggested contacts who have worked on similar and related cases. AI and rules-based suggested contacts are listed if admins have enabled both of these options.
    - If AI-suggested contacts is enabled, a **Resolved similar cases** section is displayed in the dropdown list.
    
         :::image type="content" source="media/ai-suggested-contacts-suggestions-dropdown.png" alt-text="AI suggested contacts dropdown list.":::
