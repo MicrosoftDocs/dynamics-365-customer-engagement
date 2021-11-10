@@ -48,34 +48,34 @@ The following table contains the list of context variables in Omnichannel for Cu
 | Conversation | msdyn_liveworkitemid | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. | **String**: User's entire response.  |
 |  **Messaging and Voice** | | |
 |         | msdyn_CustomerType        | account                         | |
-|                         | msdyn_CustomerName	      | Account.Name                    | |
-|                         | msdyn_CustomerId          | Account.Id	                    | |
-|                         | msdyn_CustomerType        | contact                         | |
-|                         | msdyn_CustomerName	      | Contact.FullName                | |
+|                         | msdyn_CustomerName	      | Use this context variable that contains the record name for the account record linked to the conversation.                   | |
+|                         | msdyn_CustomerId          | Use this context variable that contains the record ID for the account record linked to the conversation.	                    | |
+|                         | msdyn_CustomerType        | Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation.                         | |
+|                         | msdyn_CustomerName	      | Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation.               | |
 |                         | msdyn_CustomerId    	  | Contact.Id	                    | |
-|                         | msdyn_CaseId	          | Case.Id                         | |
-|                         | msdyn_CaseTitle	          | Case.Title                      | |
+|                         | msdyn_CaseId	          | Use this context variable that contains the record ID for the case record linked to the conversation.                         | |
+|                         | msdyn_CaseTitle	          | Use this context variable that contains the record title for the case record linked to the conversation.                      | |
 | **Voice only**               |                           |                          | |
 |                         | CustomerPhoneNumber       | provided in Telephony activity  | |
 |                         | OrganizationPhoneNumber	  | provided in Telephony activity  | |
 |**Extension method name**   |                        |                                 | |
-|  Set survey consent        |                        |                                 | |
-|  Set customer locale</br> and handoff to Omnichannel     |                              |   |                               |
-|                         |                       |                               | |
+|  |Set survey consent        |   Use this action to set the survey consent flag to the conversation that can later be managed by a secondary bot.       |       | |
+|  | Set customer locale</br> and handoff to Omnichannel     |  Use this action to transfer the user talking to the bot to another bot that which might speak in a different language.       |            Set the code by selecting the input variable and using the correct locale code. For an example on how to set up this scenario, see [Configure the routing rule in Dynamics 365 for Customer Service](routing-rules.md).   |
+|     |    |    |
 
 ## Context variables for Azure bots
 
 The following table contains the list of context variables in Omnichannel for Customer Service that you can use for configuring [Azure](configure-bot.md) bots.
 
-| Context variable type | Context variable name | Description | How to map in Power Virtual Agents | How to map in Azure |
-|-----|-----|-------|-------|-----|
-| [Pre-conversation survey](configure-pre-chat-survey.md) | Use the question type that you create in Omnichannel for Customer Service. | The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. | Use the following information to map the question type variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents:<br><ul><li> **Single line**: User’s entire response</li>**Multiple lines**: User's entire response<li>**Option set**: User's entire response</li><li>**User Consent**: Boolean</li></ul> | Use the following information to map the question type variable in Omnichannel for Customer Service with the variable type in Azure:<br><ul><li> **Single line**: String</li>**Multiple lines**: String<li>**Option set**: String</li><li>**User Consent**: Boolean</li></ul>|
-| [Custom context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setContextProvider API. | These are custom context variables that can be created and passed through the live chat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li> **String**: User's entire response </li> **Boolean**: Boolean <li> **Number**, **Floating Number**: Number |[Map the user's response as a JSON](display-custom-context.md) to use custom context variable in Omnichannel for Customer Service. |
-| Conversation | msdyn_liveworkitemid | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. | **String**: User's entire response. |**String**: String|
-|[Contact](record-identification-rule.md) |msdyn_contact_msdyn_ocliveworkitem_Customer| Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation. |   |   |
-| Account | msdyn_account_msdyn_ocliveworkitem_Customer | Use this context variable that contains the record ID for the account record linked to the conversation.| ||
-| Case | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation. | |  |
-|||||
+| Context variable type | Context variable name | Description  | How to map in Azure |
+|-----|-----|-------|-------|
+| [Pre-conversation survey](configure-pre-chat-survey.md) | Use the question type that you create in Omnichannel for Customer Service. | The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. | Use the following information to map the question type variable in Omnichannel for Customer Service with the variable type in Azure:<br><ul><li> **Single line**: String</li>**Multiple lines**: String<li>**Option set**: String</li><li>**User Consent**: Boolean</li></ul>|
+| [Custom context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setContextProvider API. | These are custom context variables that can be created and passed through the live chat SDK. | [Map the user's response as a JSON](display-custom-context.md) to use custom context variable in Omnichannel for Customer Service. |
+| Conversation | msdyn_liveworkitemid | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. |**String**: String|
+|[Contact](record-identification-rule.md) |msdyn_contact_msdyn_ocliveworkitem_Customer| Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation.    |   |
+| Account | msdyn_account_msdyn_ocliveworkitem_Customer | Use this context variable that contains the record ID for the account record linked to the conversation. ||
+| Case | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation.  |  |
+||||
 
 
 > [!Note]
