@@ -1,7 +1,7 @@
 ---
 title: "Fair use policy (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about usage limits and quotas in Dynamics 365 Marketing."
-ms.date: 08/02/2021
+ms.date: 11/09/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -35,8 +35,8 @@ The following tables show the current usage limits for Marketing features.
 | Email personalization | Number of dynamic attributes                           | 1,000                                                       |
 | Email personalization | Number of [entity relationships connected](../customerengagement/on-premises/customize/create-edit-entity-relationships.md) in personalization                                         | 1 entity relationship (for example, contact.account, contact.events)               |
 | Custom channel        | Interactions per second                                | 50 interactions per second                                  |
-| Sync entities and track insights  | Overall total volume of rows [synchronized to Marketing](./mkt-settings-sync.md)| 100,000,000 rows                                        |
-| Sync entities and track insights  | Volume of one record type [synchronized to Marketing](./mkt-settings-sync.md)| 20,000,000 rows                                        |
+| Data sync  | Number of rows in a single [synchronized table](./mkt-settings-sync.md) (for example, number of Marketing contacts) | 20,000,000 rows                                        |
+| Data sync  | Total rows across all [synchronized tables](./mkt-settings-sync.md)| 100,000,000 rows                                        |
 
 ## Real-time customer journey orchestration
 
@@ -45,6 +45,10 @@ The following tables show the current usage limits for Marketing features.
 | Interaction sending         | Interactions sent                                           | 10,000,000 per month (333,000 daily max)                   |
 | Interaction personalization | Number of distinct dynamic attributes used in a single message                                | 100                                                   |
 | Interaction personalization | Number of [entity relationships connected](../customerengagement/on-premises/customize/create-edit-entity-relationships.md) in personalization | 1:1 = up to 6 levels<br>(1:N & N:M = not currently supported) |
+| Data sync  | Number of rows in a single [synchronized table](./mkt-settings-sync.md) (for example, number of Marketing contacts) | 20,000,000 rows                                        |
+| Data sync  | Total rows across all [synchronized tables](./mkt-settings-sync.md)| 100,000,000 rows                                        |
+| Segment-based journeys          | Number of contacts in a segment used in a real-time marketing journey          | 3,300,000 members                |
+| Latency of event-based journeys          | Time from when an event trigger is activated to completing first step in the journey.          | <2 minutes (P 99.9) with up to 700 event triggers being activated                |
 
 ## Event management
 
