@@ -81,6 +81,44 @@ The following table contains the list of context variables in Omnichannel for Cu
 > [!Note]
 > If there's a mismatch of any of the attributes  such as phone number, email address, or case number for a record, then it won't get automatically identified.
 
+### Parse JSON to extract record ID
+
+Perform the steps outlined in this section to parse the JSON to extract the record ID.
+
+Make sure that you have the following details:
+
+- The Omnichannel for Customer Service context variable, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
+- The schema details.
+
+A copy of the sample schema details is as follows:
+
+```JavaScript
+        Schema: 
+        {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "RecordId": {
+                        "type": "string"
+                    },
+                    "PrimaryDisplayValue": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "RecordId",
+                    "PrimaryDisplayValue"
+                ]
+            }
+        }
+```
+
+`PrimaryDisplayValue` will contain the value from the attribute in the Dataverse entities. The mapping for the entity attributes is as follows:
+
+- **Cases:** Case title
+- **Contacts:** Full name
+- **Accounts:** Name
 
 ### See also
 
