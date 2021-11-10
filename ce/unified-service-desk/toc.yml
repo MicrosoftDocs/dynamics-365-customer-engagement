@@ -84,7 +84,7 @@
       href: uii-computer-telephony-integration-cti-framework.md
 - name: Administer and manage Unified Service Desk
   items: 
-  - name: Administer and manage overview
+  - name: Overview
     href: admin/administer-manage-unified-service-desk.md
   - name: Support for Unified Interface Apps
     href: admin/Support-unified-interfaces-apps-usd.md
