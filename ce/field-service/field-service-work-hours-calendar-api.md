@@ -177,7 +177,7 @@ The request contains only one attribute&mdash;**CalendarEventInfo**, which is a 
 |Name | Type | Required | Description |
 | :-------- | :--------- | :--------- | :----- |
 |Rules| Rules |	Yes |	This key is an array, and each element contains multiple attributes as listed in the table in the following section. The size of the array should be at least one. |
-|RecurrencePattern|	String|	No|	This key is specific to recurrences. We currently only support this pattern: `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include fewer days; however, `FREQ` and `INTERVAL` can't be changed.| 
+|RecurrencePattern|	String|	No|	This key is specific to recurrences. We currently only support this pattern: `FREQ=WEEKLY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include fewer days; however, `FREQ` and `INTERVAL` can't be changed.| 
 |InnerCalendarId|	GUID|	No|	This key is specific to editing. If a rule is being edited, the **InnerCalendarId** needs to be passed here. If an **InnerCalendarId** isn't passed, the API creates a new rule, even if the **IsEdit** key is set to true. |
 |Action	|Integer|	No|	This key is specific to custom recurrences. If a custom recurrence is being created or edited, one of the following numbers should be entered:<ul><li>(1) Adding a day to the recurrence</li><li>(2)	Deleting a day from the recurrence</li><li>(3) Editing only the start or end dates or times, or editing capacity</li><li>(4) Editing anything other than the keys mentioned in (3)</li></ul>|
 
