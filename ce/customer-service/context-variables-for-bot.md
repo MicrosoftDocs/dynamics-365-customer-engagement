@@ -47,20 +47,20 @@ The following table contains the list of context variables in Omnichannel for Cu
 | [Custom context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setContextProvider API. | These are custom context variables that can be created and passed through the live chat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li> **String**: User's entire response </li> **Boolean**: Boolean <li> **Number**, **Floating Number**: Number |
 | Conversation | msdyn_liveworkitemid | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. | **String**: User's entire response.  |
 |  **Messaging and Voice** | | |
-|         | msdyn_CustomerType        | account                         | |
-|                         | msdyn_CustomerName	      | Use this context variable that contains the record name for the account record linked to the conversation.                   | |
-|                         | msdyn_CustomerId          | Use this context variable that contains the record ID for the account record linked to the conversation.	                    | |
-|                         | msdyn_CustomerType        | Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation.                         | |
-|                         | msdyn_CustomerName	      | Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation.               | |
+|                         | msdyn_CustomerType        | account                         | |
+|                         | msdyn_CustomerName	      | Use this context variable that contains the customer name for the account record linked to the conversation.    | |
+|                         | msdyn_CustomerId          | Use this context variable that contains the customer ID for the account record linked to the conversation.	    | |
+|                         | msdyn_CustomerType        | Use this context variable that contains the type of customer (contact) record that is linked to the conversation. | |
+|                         | msdyn_CustomerName	      | Use this context variable that contains the name of the customer (contact) record that is linked to the conversation. | |
 |                         | msdyn_CustomerId    	  | Contact.Id	                    | |
-|                         | msdyn_CaseId	          | Use this context variable that contains the record ID for the case record linked to the conversation.                         | |
-|                         | msdyn_CaseTitle	          | Use this context variable that contains the record title for the case record linked to the conversation.                      | |
-| **Voice only**               |                           |                          | |
+|                         | msdyn_CaseId	          | Use this context variable that contains the record ID for the case record linked to the conversation.         | |
+|                         | msdyn_CaseTitle	          | Use this context variable that contains the record title for the case record linked to the conversation.      | |
+| **Voice only**          |                           |                          | |
 |                         | CustomerPhoneNumber       | provided in Telephony activity  | |
 |                         | OrganizationPhoneNumber	  | provided in Telephony activity  | |
 |**Extension method name**   |                        |                                 | |
-| Set survey consent  | va_SurveyConsent       |   Use this action to set the survey consent flag to the conversation that can later be managed by a secondary bot.       |       | |
-|  Set customer locale</br> and hand off to Omnichannel  |   va_CustomerLocale |  Use this action to transfer the user talking to the bot to another bot that might speak in a different language.       |            Set the code by selecting the input variable and using the correct locale code. For an example on how to set up this scenario, see [Configure the routing rule in Dynamics 365 for Customer Service](routing-rules Set customer locale</br> and hand off to Omnichannel .md).   |
+| Set survey consent  | va_SurveyConsent |   Use this action to set the survey consent flag to the conversation that can later be managed by a secondary bot. |       | |
+|  Set customer locale</br> and hand off to Omnichannel  |  va_CustomerLocale |  Use this action to transfer the user talking to the bot to another bot that might speak in a different language.  | Set the code by selecting the input variable and using the correct locale code. For an example on how to set up this scenario, see [Configure the routing rule in Dynamics 365 for Customer Service](routing-rules.md) </br>.   |
 |     |    |    |
 
 ## Context variables for Azure bots
@@ -72,18 +72,18 @@ The following table contains the list of context variables in Omnichannel for Cu
 | [Pre-conversation survey](configure-pre-chat-survey.md) | Use the question type that you create in Omnichannel for Customer Service. | The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. | Use the following information to map the question type variable in Omnichannel for Customer Service with the variable type in Azure:<br><ul><li> **Single line**: String</li>**Multiple lines**: String<li>**Option set**: String</li><li>**User Consent**: Boolean</li></ul>|
 | [Custom context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setContextProvider API. | These are custom context variables that can be created and passed through the live chat SDK. | [Map the user's response as a JSON](display-custom-context.md) to use custom context variable in Omnichannel for Customer Service. |
 | Conversation | msdyn_liveworkitemid | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. |**String**: String|
-|[Contact](record-identification-rule.md) |msdyn_contact_msdyn_ocliveworkitem_Customer| Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation.    |   |
-| [Account](record-identification-rule.md) | msdyn_account_msdyn_ocliveworkitem_Customer | Use this context variable that contains the record ID for the account record linked to the conversation. ||
-| [Case](record-identification-rule.md) | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation.  |  |
+|[Contact](record-identification-rule.md) |msdyn_contact_msdyn_ocliveworkitem_Customer| Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation.    | [Parse JSON to extract record ID](#parse-json-object-to-extract-record-id)  |
+| [Account](record-identification-rule.md) | msdyn_account_msdyn_ocliveworkitem_Customer | Use this context variable that contains the record ID for the account record linked to the conversation. | [Parse JSON to extract record ID](#parse-json-object-to-extract-record-id)|
+| [Case](record-identification-rule.md) | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation.  | [Parse JSON to extract record ID](#parse-json-object-to-extract-record-id) |
 ||||
 
 
 > [!Note]
-> If there's a mismatch of any of the attributes  such as phone number, email address, or case number for a record, then it won't get automatically identified.
+> If there's a mismatch of any of the attributes such as phone number, email address, or case number for a record, then the record won't get automatically identified.
 
-### Parse JSON to extract record ID
+### Parse JSON object to extract record ID
 
-Perform the steps outlined in this section to parse the JSON to extract the record ID.
+Perform the steps outlined in this section to parse the JSON object to extract the record ID.
 
 Make sure that you have the following details:
 
