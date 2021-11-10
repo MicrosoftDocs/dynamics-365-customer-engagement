@@ -39,9 +39,9 @@ Before you configure context variables for Azure or Power Virtual Agents bots, c
 
 ## Context variables for Power Virtual Agents bots
 
-The following table contains the list of context variables in Omnichannel for Customer Service that you can for configuring [Power Virtual Agents](configure-bot-virtual-agent.md) bots.
+The following table contains the list of context variables in Omnichannel for Customer Service that you can use for configuring [Power Virtual Agents](configure-bot-virtual-agent.md) bots.
 
-| Context variable type   | Context variable name     | Description                     | How to map in Power Virtual Agents |
+| Context variable type   | Context variable name     | Description                  | How to map in Power Virtual Agents |
 |                 -----|               -----       | -------                         | -----------------------            |
 | [Pre-conversation survey](configure-pre-chat-survey.md) | Use the question type that you create in Omnichannel for Customer Service. | The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. | Use the following information to map the question type variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents:<br><ul><li> **Single line**: User’s entire response</li>**Multiple lines**: User's entire response<li>**Option set**: User's entire response</li><li>**User Consent**: Boolean</li></ul> |
 | [Custom context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setContextProvider API. | These are custom context variables that can be created and passed through the live chat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li> **String**: User's entire response </li> **Boolean**: Boolean <li> **Number**, **Floating Number**: Number |
@@ -59,8 +59,8 @@ The following table contains the list of context variables in Omnichannel for Cu
 |                         | CustomerPhoneNumber       | provided in Telephony activity  | |
 |                         | OrganizationPhoneNumber	  | provided in Telephony activity  | |
 |**Extension method name**   |                        |                                 | |
-|  |Set survey consent        |   Use this action to set the survey consent flag to the conversation that can later be managed by a secondary bot.       |       | |
-|  | Set customer locale</br> and handoff to Omnichannel     |  Use this action to transfer the user talking to the bot to another bot that which might speak in a different language.       |            Set the code by selecting the input variable and using the correct locale code. For an example on how to set up this scenario, see [Configure the routing rule in Dynamics 365 for Customer Service](routing-rules.md).   |
+| Set survey consent  | va_SurveyConsent       |   Use this action to set the survey consent flag to the conversation that can later be managed by a secondary bot.       |       | |
+|  Set customer locale</br> and hand off to Omnichannel  |   va_CustomerLocale |  Use this action to transfer the user talking to the bot to another bot that might speak in a different language.       |            Set the code by selecting the input variable and using the correct locale code. For an example on how to set up this scenario, see [Configure the routing rule in Dynamics 365 for Customer Service](routing-rules Set customer locale</br> and hand off to Omnichannel .md).   |
 |     |    |    |
 
 ## Context variables for Azure bots
