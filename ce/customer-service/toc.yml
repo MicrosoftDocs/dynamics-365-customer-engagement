@@ -336,7 +336,7 @@
         href: view-block-deactivate-social-profile.md
       - name: Convert a case to a knowledge article
         href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
-      - name: Collaborate with AI suggested contacts in Microsoft Teams
+      - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
       - name: View AI suggested similar cases and knowledge articles
         href: csw-view-ai-suggested-cases-knowledge-articles.md
@@ -471,11 +471,21 @@
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
   - name: Microsoft Teams chat for enterprise collaboration
-    items: 
-    - name: Configure Teams chat
-      href: configure-teams-chat.md
-    - name: Use Teams chat
-      href: use-teams-chat.md
+    items:
+    - name: Administrator experience
+      items: 
+      - name: Configure Teams chat
+        href: configure-teams-chat.md
+      - name: Configure AI suggestions for contacts in Microsoft Teams
+        href: configure-teams-collaboration.md
+    - name: Agent experience
+      items:
+      - name: Use Teams chat
+        href: use-teams-chat.md
+      - name: Use suggested contacts to collaborate with coworkers
+        href: teams-use-suggested-contacts.md
+      - name: Collaborate with AI-suggested contacts in Microsoft Teams
+        href: use-ai-suggested-contacts-teams.md
   - name: Routing in Omnichannel Administration
     items:
     - name: Routing and assignment in Omnichannel Administration
