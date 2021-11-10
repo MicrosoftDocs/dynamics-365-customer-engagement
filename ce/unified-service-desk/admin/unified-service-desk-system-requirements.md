@@ -1,6 +1,6 @@
 ---
 title: "Unified Service Desk system requirements | MicrosoftDocs"
-description: "Describes the software and hardware requirements you need to install and use Unified Service Desk."
+description: "This topic lists the software and hardware requirements you need to install and use Unified Service Desk."
 ms.date: 11/10/2021
 ms.topic: get-started-article
 author: mh-jaya
@@ -11,17 +11,17 @@ ms.custom:
   - dyn365-admin
 ---
 
-# Requirements
+# System requirements
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications on the Microsoft Dataverse instance.  
 
 <a name="hardware"></a>
+
 ## Hardware requirements for the Unified Service Desk client  
 
- The following table lists the minimum and recommended hardware requirements when you run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
-
+The following table lists the minimum and recommended hardware requirements to run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
 
 | Component |                                           Minimum                                           |                                                                                                                                                                            Recommended                                                                                                                                                                            |
 |-----------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -35,9 +35,10 @@ This topic provides information about the system requirements for installing the
  *Requires disabling [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client logging. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure client diagnostic logging in Unified Service Desk](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md)  
 
 <a name="client"></a>
+
 ## Software requirements for the Unified Service Desk client
 
- To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, the following is required:  
+To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, you need the following:  
 
 | Requirement | Recommended version | Supported version|
 |---------------------------|---------------------------|-------------------------------------|
@@ -57,7 +58,8 @@ The supported versions of Unified Service Desk are 4.2, 4.1, and 4.0.
 >
 > Unified Service Desk version 3.3 and earlier are not supported after June 21, 2021; after this date, organizations with these versions will not have access to the Unified Service Desk client. If you are using Unified Service Desk version 3.3 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 for Customer Service by October 01, 2021.
 
-<a name="packdeploy"></a>   
+<a name="packdeploy"></a>
+
 ## Software requirements for the Package Deployer tool  
  The [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] is used for deploying [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications. For more information on the requirements, see [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell).
 
@@ -80,8 +82,10 @@ You have deployed Unified Service Desk in a sandbox environment and when you res
 
 After you enable the web client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
 
-<a name="appvirtual"></a>   
-## Software requirements for Citrix XenApp application virtualization  
+<a name="appvirtual"></a>
+
+## Software requirements for Citrix XenApp application virtualization
+
  You can install and run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client as a published app on Citrix XenApp 7.6. This allows agents to access the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client from a central location.  
 
  You can also configure a Windows application as a virtual application on Citrix XenApp 7.6 that run as a hosted application in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate with Citrix applications](../integrate-citrix-applications.md)  
@@ -89,10 +93,7 @@ After you enable the web client experience, go to the Window Navigation Rules an
 ### See also
 
  [Install Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)  
-
  [Deploy Unified Service Desk packages to Dataverse using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
- 
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

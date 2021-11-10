@@ -34,7 +34,7 @@
   items:
   - name: Overview 
     href: admin/install-upgrade-deploy-unified-service-desk.md
-  - name: Unified Service Desk system requirements
+  - name: System requirements
     href: admin/unified-service-desk-system-requirements.md
   - name: Install the Unified Service Desk client
     href: admin/install-upgrade-unified-service-desk-client.md
