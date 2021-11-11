@@ -19,8 +19,6 @@ Technically, Dynamics 365 Channel Integration Framework is a set of APIs (method
 
 With the Dynamics 365 Channel Integration Framework app, you can configure the channel in the model-driven app so that your agents can access and serve your customers.
 
-Channel Integration Framework
-
 ## Challenges of channel provider integration systems
 
 Organizations expect their call centers to do more while using fewer resources. There's a constant drive to increase productivity by having call center agents handle more phone calls. Reducing the average time to handle customer calls can save companies millions of dollars. A telephony channel in a call center is one of the key indicators for success and customer satisfaction. Some of the challenges the call center industry faces with telephony channels include:
