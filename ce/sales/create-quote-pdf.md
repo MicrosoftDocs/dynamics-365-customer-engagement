@@ -1,7 +1,7 @@
 ---
 title: "Export sales records to PDF"
 description: "Create PDF files of sales records that look professional and read-only using your standard word templates and share it with your customers."
-ms.date: 10/26/2021
+ms.date: 11/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
