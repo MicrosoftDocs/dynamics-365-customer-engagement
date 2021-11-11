@@ -1,7 +1,7 @@
 ---
 title: "Monitor your monthly quotas (Dynamics 365 Marketing) | Microsoft Docs"
 description: "View your remaining monthly credits for sending marketing email messages and other metered services in Dynamics 365 Marketing."
-ms.date: 10/01/2021
+ms.date: 11/10/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -28,10 +28,15 @@ Dynamics 365 Marketing is a subscription service that is billed monthly and sets
 
 To see how much of each quota you've used, go to **Settings** > **Overview** > **Quota limits**.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the quota limits area.](media/quota-limits.png)
+
 The following quotas are tracked here:
 
-- **Marketing interactions**: Shows the total number of outbound interactions (email messages, SMS, push) that you can still send this month and the total number you have sent. Your interaction quota is equal to ten times your marketing contacts quota.
-- **Marketing contacts**: Shows the total number of *marketing contacts* that you can have in your database according to your current Dynamics 365 Marketing subscription. Marketing contacts only include those that you engage with through interactions such as emails, SMS, push notifications. Contacts that you never engage in marketing activities won't be counted as part of this quota. For more information about marketing contacts and how they are counted, see [How Marketing is licensed](purchase-setup.md#how-licensed) and the [Administration and setup FAQ](setup-troubleshooting.yml#licensing)
+- **Monthly interaction quota**: Shows the total number of outbound interactions (email messages, SMS, push) that you have sent in the current month. The interaction quota is reset on the first day of each month. Your interaction quota is equal to ten times your marketing contacts quota.
+- **Marketing contacts**: Shows the total number of *Marketing contacts* that you can have in your database according to your current Dynamics 365 Marketing subscription. Marketing contacts only include those that you engage with through interactions such as emails, SMS, push notifications. Contacts that you never engage in marketing activities won't be counted as part of this quota. For more information about marketing contacts and how they are counted, see [How Marketing is licensed](purchase-setup.md#how-licensed) and the [Administration and setup FAQ](setup-troubleshooting.yml#licensing)
+
+The quota limits page also includes charts showing the monthly interaction usage and the annual total contact usage.
 
 > [!Note]
 > Quotas and other limits are different based on whether you are running a trial, preview, or subscribed version of the product. 
