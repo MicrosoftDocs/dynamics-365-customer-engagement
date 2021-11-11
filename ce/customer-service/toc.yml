@@ -1402,6 +1402,10 @@
         href: developer/reference/events/lcw-error.md
       - name: "lcw:threadUpdate"
         href: developer/reference/events/lcw-threadUpdate.md
+      - name: "lcw:chatQueued"
+        href: developer/reference/events/lcw-chatQueued.md
+      - name: "lcw:chatRetrieved"
+        href: developer/reference/events/lcw-chatRetrieved.md
       - name: "lcw:closeChat"
         href: developer/reference/events/lcw-closeChat.md
       - name: "lcw:onMessageReceived"
