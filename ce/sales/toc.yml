@@ -82,7 +82,7 @@
     href: create-quote-pdf.md
 - name: Administration guide
   items:
-  - name: Help resources for admins and sales managers
+  - name: Administration overview
     href: admin-guide.md
   - name: Account and contact management
     items:
@@ -160,7 +160,7 @@
       href: configure-predictive-lead-scoring.md        
   - name: Opportunity management
     items:
-    - name: Deal manager
+    - name: Set up deal manager
       items:
       - name: Deal manager workspace
         href: deal-manager-overview.md
@@ -500,7 +500,7 @@
       href: create-edit-opportunity-sales.md
     - name: Prioritize opportunities using predictive scores
       href: work-predictive-opportunity-scoring.md        
-    - name: Deal manager
+    - name: Manage opportunities using deal manager
       items:
       - name: Using the deal manager workspace
         href: deal-manager-seller-overview.md
@@ -531,9 +531,9 @@
     - name: Lock or unlock prices for an order or invoice
       href: lock-unlock-price-order-invoice.md
     - name: Create or edit quotes
-      href: ../sales-enterprise/create-edit-quote-sales.md
+      href: create-edit-quote-sales.md
     - name: Close a quote
-      href: ../sales-enterprise/close-quote.md
+      href: close-quote.md
     - name: Create or edit orders
       href: create-edit-order-sales.md
     - name: Create or edit invoices
