@@ -1,7 +1,7 @@
 ---
 title: "Configure incident types in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about configuring incident types in Dynamics 365 Field Service
-ms.date: 04/01/2021
+ms.date: 11/10/2021
 ms.service: dynamics-365-field-service
 ms.reviewer: krbjoran
 ms.topic: article
@@ -277,6 +277,12 @@ For the primary incident type, populate the **Primary Incident Customer Asset** 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order, showing the Primary Incident Customer Asset field.](./media/work-order-incident-type-customer-seet-work-order.png)
+
+>[!TIP] 
+> **Implementation tip:** By default, the Customer Assets in the **Primary Incident Customer Asset** lookup view show assets related to the work order account. This lookup view references the “Customer Asset Lookup View”. **This view cannot be edited**. If you wish to edit this view, you must create a new view and reference the view in the form. As an example, you can create a view called "Customer Asset Lookup" as shown in the image below.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customer-asset-lookup-view.png) 
 
 For other work order incident types, go to the **Incident Relates To** section and associate a customer asset.
 
