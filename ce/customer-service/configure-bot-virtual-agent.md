@@ -17,7 +17,7 @@ ms.reviewer: nenellim
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of bot conversations and have complete context while engaging with customers.
 
-After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel admin center or Omnichannel Administration app to add your bot to queues and configure context variables to route conversations.
+After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel admin center or Omnichannel Administration app to add your bot to queues and configure context variables to route work items.
 
 When you integrate a Power Virtual Agents bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
@@ -75,13 +75,13 @@ In Omnichannel Administration, after the Power Virtual Agents bot is created and
 
     Your bot is ready to accept and respond to customer-initiated conversations.
 
- 4. Set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
+## Set escalation rules
 
-    - **Add the bot to an existing human agent queue**:	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents bot. When a handoff is triggered, customers will be transferred from the Power Virtual Agents bot to the human agent according to the escalation routing rules.
+You can set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
 
-    - **Create a bot queue and a human agent queue**: If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries.
+- **Add the bot to an existing human agent queue**:	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents bot. When a handoff is triggered, customers will be transferred from the Power Virtual Agents bot to the human agent according to the escalation routing rules.
 
-More information: [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
+- **Create a bot queue and a human agent queue**: If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries. More information: [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
 
 ### Create a bot queue and a human agent queue
 
