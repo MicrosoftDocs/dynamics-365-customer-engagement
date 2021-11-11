@@ -304,7 +304,7 @@ You understand that your data may be transmitted and shared with external system
 ### See also
 
 [Integrate an Azure bot](configure-bot.md)  
-[Add context variables](context-variables-for-bot#add-context-variables)  
+[Add context variables](context-variables-for-bot.md#add-context-variables)  
 [Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0)  
 [Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)  
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
