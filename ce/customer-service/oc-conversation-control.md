@@ -99,11 +99,15 @@ If the reconnection link is configured by your administrator, you can share the 
 
 You can consult with other agents or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents.
 
-If your administrator has enabled the consult pane setting, the following events occur when you select an agent to consult with.
+If your administrator has enabled the consult pane setting, the following events occur when you select the **Consult** button:
 
+- The agent can search for consultee agents in the same queue or other queues, select and invite an agent, and then start a consultation.
 - The consultee agent will receive a notification for the consult request.
-- A separate pane will open beside the communication panel when the consultee joins the chat.
-- The consultee will see a consultation window on the page with an option to exit and also see the messages exchanged between the agent and customers.
+- A separate pane will open beside the communication panel when the consultee accepts the consult request.
+- The consultee will see a consultation window on the page with an option to exit, and in a separate pane, see the messages exchanged between the primary agent and customer.
+- The consultee can join the conversation only after the agent who initiated the consult adds the consultee.
+- The agent who initiated the consult has the option to end it. After the consult is ended, the consultee will not be able to view the interaction between the primary agent and customer.
+- A transfer to agent can be performed only after consult with an agent has been established. Without bringing agents in to consult, only transfer to queues will be available.
 
 You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
