@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 11/10/2021
+ms.date: 11/11/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -46,19 +46,13 @@ You can set up knowledge management either on the Customer Service Hub or manual
 - [Set up knowledge management (Customer Service Hub)](#set-up-knowledge-management-customer-service-hub)
 - [Set up knowledge management settings page manually for a model-driven app](#set-up-knowledge-management-settings-page-manually-for-a-model-driven-app)
 
-After you have configured knowledge management on your app, you must also set up the various other aspects of knowledge management, based on your organizational requirements.
+After you have configured knowledge management on your app, you must also set up the various other aspects of knowledge management, based on your organizational requirements, such as:
 
-To enable users to work seamlessly with your knowledge articles:
-
-- [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization)
-- [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles)
+- [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
+- [Knowledge article templates](create-templates-knowledge-article.md#knowledge-article-templates)
 - [Set up AI suggestions for article keywords and description (preview)](#set-up-ai-suggestions-for-article-keywords-and-description-preview)
-
-To enable users to utilize the search capability:
-
 - [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub)
-- [Enable knowledge article search filters](enable-knowledge-article-search-filters.md#enable-knowledge-article-search-filters)
-- [Set up knowledge search logic](#set-up-knowledge-search-logic)
+
 
 You can also enable the feedback control, so that users can provide feedback on knowledge articles opened from knowledge search control. More information: [Enable feedback control](#enable-feedback-control)
 
@@ -76,14 +70,26 @@ You can also enable the feedback control, so that users can provide feedback on 
   
    - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.  
 
-        Set the toggle to **Yes** to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No** to share the article content inserted in the email body. If you choose **Yes**, provide the **URL format**.
+        Set the toggle to **Yes** to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No** to share the article content inserted in the email body. If you select **Yes**, provide the **URL format**.
   
    - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: 
         </br> </br> *https://\<support portal URL>/knowledgebase/article/{kbnum}* 
   
         The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   
-4. Select **Save**.  
+4. In the **Knowledge articles feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
+
+5. In the **Knowledge articles search filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to personalize the search filters, then set the **Allow agents to personalize the knowledge articles search filters** toggle to **Yes**.
+
+6. In the **Knowledge articles authoring language** section, set the **Set default knowledge authoring language for your users** to **Yes**. If you wish to set the default knowledge authoring language for your organization, then search and select a language in the **Select a language** field and then set the **Use organization’s UI language** toggle to **Yes**. Additionally, if you also want to allow users to set their default knowledge authoring language in the personalization option, then set the **​Allow users to set default knowledge authoring language** toggle to **Yes**​. More information: [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization).
+
+6. In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to portal** toggle to **Yes**.
+
+7. In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles).
+
+8.  In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**.
+
+9. Select **Save**.  
 
 ## Set up knowledge management settings page manually for a model-driven app
 
@@ -104,26 +110,12 @@ You can also enable the feedback control, so that users can provide feedback on 
     * Type: Select **URL**. 
     * URL: Enter  ```/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings```
 
-## Set a default knowledge article authoring language for your organization
-
-To understand how you can set language preferences at the organization level, see [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization)
-
-## Configure origins allow list for knowledge articles
-
-To understand how you can configure an origins allow list to ensure that knowledge authors add only safe links to their knowledge articles, see [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles).
-
 ## Set up AI suggestions for article keywords and description (preview)
 
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
 You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description-preview).
-
-## Set up a search provider in Customer Service Hub
-To understand how you can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub).
-
-## Enable knowledge article search filters
-To understand how you can configure standard and custom fields as filters to help your agents find the content and improve their productivity, see [Enable knowledge article search filters](enable-knowledge-article-search-filters.md#enable-knowledge-article-search-filters).
 
 ## Set up knowledge search logic
 
@@ -149,17 +141,6 @@ To set up the knowledge search logic:
 3. Select **Save**.
 
 More information: [Search across table data using Dataverse search](/powerapps/developer/data-platform/webapi/relevance-search#searchmode-any--all-optional)
-
-
-## Enable feedback control
-
-You can enable users to provide feedback on knowledge articles opened from knowledge search control.
-
-1. In the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management** 
-
-2. In the **Knowledge Articles Feedback** section, set **Enable users to provide feedback on knowledge articles from search control** to **Yes**.
-
-To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
 
   
 ### See also  
