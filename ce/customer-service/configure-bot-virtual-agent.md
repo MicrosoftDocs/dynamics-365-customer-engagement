@@ -77,7 +77,7 @@ In Omnichannel Administration, after the Power Virtual Agents bot is created and
 
  4. Set escalation rules so the bot can route the queries to the appropriate agent. You can set up escalation rules in one of the following ways:
 
-    - **Add the bot to an existing human agent queue**:	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents. When a handoff is triggered, customers will be transferred from the Power Virtual Agents to the human agent according to the escalation routing rules.
+    - **Add the bot to an existing human agent queue**:	If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents bot. When a handoff is triggered, customers will be transferred from the Power Virtual Agents bot to the human agent according to the escalation routing rules.
 
     - **Create a bot queue and a human agent queue**: If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries.
 
