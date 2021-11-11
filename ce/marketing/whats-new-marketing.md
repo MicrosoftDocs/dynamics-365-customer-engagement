@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/09/2021
+ms.date: 11/10/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -49,7 +49,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 - **Asset library**
     - Copy images from the outbound marketing file library to the real-time marketing asset library. Learn more: [Export assets from outbound marketing to the asset library](real-time-marketing-asset-library.md#export-assets-from-outbound-marketing-to-the-asset-library).
 - **Customer journeys**
-    - You can now create attribute conditions over all attribute types in Dataverse (optionsets, entityreferences, lookups, and bigint).
+    - You can now gain more control over journey branching conditions through increased attribute support by having access to all attributes associated with a contact entity, a lead entity or an event trigger. You also have the ability to do relative and partial date time checks such as checking if a customer's birthday is this month or if their membership is up for renewal in the next 90 days.
 - **Marketing emails**
     - The Content ideas feature is now available in real-time marketing, allowing you to use AI-powered suggestions to automatically generate content for emails. Learn more: [Use AI to kickstart email creation with Content ideas](content-ideas.md).
 - **Mobile channel**
