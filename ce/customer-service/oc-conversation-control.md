@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 10/07/2021
+ms.date: 11/11/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -67,7 +67,7 @@ You can use the keyboard commands to send internal and public messages:
 
 The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and or internal participants.
 
- > [!div class=mx-imgBorder] 
+ > [!div class=mx-imgBorder]
  > ![Use quick replies option to optimize your replies to customers.](media/oceh-send-quick-replies-chat.png "Use quick replies option to optimize your replies to customers")  
 
 You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
@@ -101,13 +101,18 @@ You can consult with other agents or supervisors using the consult option. You c
 
 If your administrator has enabled the consult pane setting, the following events occur when you select the **Consult** button:
 
-- The agent can search for consultee agents in the same queue or other queues, select and invite an agent, and then start a consultation.
-- The consultee agent will receive a notification for the consult request.
-- A separate pane will open beside the communication panel when the consultee accepts the consult request.
-- The consultee will see a consultation window on the page with an option to exit, and in a separate pane, see the messages exchanged between the primary agent and customer.
-- The consultee can join the conversation only after the agent who initiated the consult adds the consultee.
-- The agent who initiated the consult has the option to end it. After the consult is ended, the consultee will not be able to view the interaction between the primary agent and customer.
-- A transfer to agent can be performed only after consult with an agent has been established. Without bringing agents in to consult, only transfer to queues will be available.
+1. The agent can search for consultee agents in the same queue or other queues, select and invite an agent, and then start a consultation.
+2. The consultee agent will receive a notification for the consult request.
+3. When the consultee accepts the consult request, a separate pane with an option to end will open beside the communication panel for the agent.
+4. The consultee will see a consultation window on the page with an option to leave. The consultee will also have a read-only view of the messages exchanged between the primary agent and customer.
+5. The primary agent can add the consultee to the customer conversation by selecting the people icon.The consultee can join the conversation only after the primary agent adds the consultee.
+
+   :::image type="content" source="media/add-consultee.png" alt-text="Select the people icon to add the consultee to the conversation.":::
+
+Additionally, the following considerations apply:
+
+- When the primary agent selects the option to take notes, the consult pane will be in collapse mode.
+- Both the primary agent and consultee can end the consult. After the consult is ended, the consultee will not be able to view the interaction between the primary agent and customer.
 
 You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
@@ -120,10 +125,12 @@ After you type **/c** in the communication panel messaging area, you can continu
 
 ## Transfer conversations
 
-In the communication panel, you can transfer the conversation (work item) either to an agent or a queue. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
+In the communication panel, you can transfer the work item either to an agent or a queue. The transfer to the agent can be performed only after consult with the agent has been established. Without bringing agents in to consult, only transfer to queues will be available. The agent can select a queue and drill down to specific agents. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
 
  > [!div class=mx-imgBorder]
  > ![Use the transfer option to launch the transfer list.](media/oceh-cc-options-ellipsis-tansfer.png "Use the transfer option to launch the transfer list")
+
+After the transfer is complete, the agent who initiated the transfer will no longer be able to participate in the conversation.
 
 You can transfer the request only to agents who are configured in the same queue. If the request belongs to another queue and you transfer the request, the work distribution system assigns the conversation to the appropriate agent in the queue.
 
