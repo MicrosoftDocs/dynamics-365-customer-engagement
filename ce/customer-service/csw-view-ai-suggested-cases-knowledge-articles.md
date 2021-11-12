@@ -29,7 +29,7 @@ This article describes how to view similarly resolved cases and knowledge articl
 
 ## Introduction
 
-If your administrator has enabled the AI-suggested similar cases and knowledge articles, you can view the similarly resolved cases and knowledge articles when you open an active case. To understand how the AI-suggestions for similar cases and knowledge articles works, see [How AI suggestions for similar cases and knowledge articles works](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-works).
+If your administrator has enabled the AI-suggested similar cases and knowledge articles, you can view the similarly resolved cases and knowledge articles when you open an active case. To understand how the AI-suggestions works, see [How AI suggestions for similar cases and knowledge articles works](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-works).
 
 The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to you, helping you take actions on active cases or during your interactions with customers in ongoing conversations.
 
