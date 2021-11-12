@@ -37,8 +37,10 @@ To select a template, go to the **Forecast configurations** page and select one 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
+
 <table>
 <tr><td>
+
 > [!div class="nextstepaction"] 
 > [Next step: Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
 </td></tr>
