@@ -93,7 +93,7 @@ When a contact is removed, the direct reports (if available) of that contact wil
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
-[Work with accounts and contacts in model-driven apps](../customerengagement/on-premises/basics/accounts-contacts.md)    
+[Work with accounts and contacts](accounts-contacts.md)    
 [User Guide (Sales and Sales Hub)](user-guide.md)    
 [Administrator and Sales Manager Guide](admin-guide.md)    
 [How to enable hierarchy for contacts](/archive/blogs/lystavlen/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015)
