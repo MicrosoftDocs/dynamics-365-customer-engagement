@@ -2,8 +2,8 @@
 
 (Includes Resource Scheduling controls version 1.2.7.213012)
 
-- Fixed the bug ‘Travel time is included in booking duration when book facility requirement’.
-- Performance improvement on new schedule board when user use ‘Find Availability’ to book requirement. 
+- Fixed bug: Travel time is included in booking duration when book facility requirement.
+- Performance improvement on new schedule board when user uses **Find Availability** to book requirement. 
 
 
 
