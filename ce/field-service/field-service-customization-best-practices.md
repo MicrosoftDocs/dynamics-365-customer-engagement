@@ -30,10 +30,10 @@ System customizers write scripts, typically JavaScript web resources, to execute
 **Category:** 
 Customization
 
-**Issue: **
+**Issue:**
 Oftentimes the custom scripts cause performance issues, errors, and complications when upgrading. 
 
-**Best practices: **
+**Best practices:**
 
 - Minimize scripts running on load
 - Do not write scripts that call a lot of data or write multiple scripts that call the same data
@@ -41,7 +41,7 @@ Oftentimes the custom scripts cause performance issues, errors, and complication
 
 
 Resources: 
--	[Best practices (Developer Guide for Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1)
+-	[Best practices (Developer Guide for Dynamics 365 Customer Engagement)](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1)
 -	[Optimize model-driven app form performance in Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/optimize-form-performance)
 -	[Unsupported customizations for Microsoft Dataverse (Dataverse)](https://docs.microsoft.com/powerapps/developer/data-platform/supported-customizations#unsupported-customizations)
 
@@ -76,7 +76,7 @@ Make sure all Field Service and Resource Scheduling processes are in an active s
 
 
 
-## Minimize creating custom fields
+## Minimize custom fields
 
 **Description:** 
 System customizers add custom fields to entity forms to capture information specific to their industry and business, to run business processes, and to collect information to report on. 
@@ -98,7 +98,7 @@ Too many custom fields, especially on the first tab of the form, cause performan
 **Description:** 
 Customers edit out-of-the-box fields to accommodate their business needs. 
 
-**Category: **
+**Category:**
 Configuration
 
 **Issue:**
