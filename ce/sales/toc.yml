@@ -436,7 +436,7 @@
   - name: Account and contact management
     items:
     - name: Work with accounts and contacts
-      href: ../basics/accounts-contacts.md
+      href: accounts-contacts.md
     - name: Organize contacts in live org charts for accounts
       href: live-org-chart.md
     - name: Use the LinkedIn Sales Insights tab 
