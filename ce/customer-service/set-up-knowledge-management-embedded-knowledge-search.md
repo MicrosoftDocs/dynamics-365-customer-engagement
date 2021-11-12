@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 11/11/2021
+ms.date: 11/12/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -28,11 +28,11 @@ A comprehensive knowledge base is a key to increased customer satisfaction and i
   
 After knowledge management is set up, users will be able to:  
   
-- Search for relevant knowledge base articles right from Dynamics 365 Customer Service as they're working on a record.  
+- Search for relevant knowledge base articles from Dynamics 365 Customer Service as they're working on a record.  
   
-- Set up a search logic and search filters to get only the required knowledge articles and provide timely and consistent information to customers when working on their cases.
+- Set up a search logic and search filters to get only the required knowledge articles, thereby providing timely and consistent information to customers while working on their cases.
 
-- Use smart assist to receive AI-triggered knowledge suggestions on related knowledge article and similar cases.
+- Use smart assist to receive AI-triggered suggestions on related knowledge articles and similar cases.
 
 - See the content of the knowledge base article inline, including images and videos.
 
@@ -53,10 +53,6 @@ After you have configured knowledge management on your app, you must also set up
 - [Set up AI suggestions for article keywords and description (preview)](#set-up-ai-suggestions-for-article-keywords-and-description-preview)
 - [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub)
 
-
-You can also enable the feedback control, so that users can provide feedback on knowledge articles opened from knowledge search control. More information: [Enable feedback control](#enable-feedback-control)
-
-  
 ## Set up knowledge management (Customer Service Hub)
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
@@ -68,11 +64,11 @@ You can also enable the feedback control, so that users can provide feedback on 
   
 3. In the **Support Portal Connection** section, enter the following:  
   
-   - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.  
+   - **Use an external portal**. You can integrate an external portal to publish knowledge articles. If your organization uses one, select this check box.  
 
-        Set the toggle to **Yes** to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No** to share the article content inserted in the email body. If you select **Yes**, provide the **URL format**.
+        Set the toggle to **Yes**, to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No**, to share the article content inserted in the email body. If you select **Yes**, provide the **URL format**.
   
-   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: 
+   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format:
         </br> </br> *https://\<support portal URL>/knowledgebase/article/{kbnum}* 
   
         The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
@@ -83,13 +79,13 @@ You can also enable the feedback control, so that users can provide feedback on 
 
 6. In the **Knowledge articles authoring language** section, set the **Set default knowledge authoring language for your users** to **Yes**. If you wish to set the default knowledge authoring language for your organization, then search and select a language in the **Select a language** field and then set the **Use organization’s UI language** toggle to **Yes**. Additionally, if you also want to allow users to set their default knowledge authoring language in the personalization option, then set the **​Allow users to set default knowledge authoring language** toggle to **Yes**​. More information: [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization).
 
-6. In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to portal** toggle to **Yes**.
+7. In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal).
 
-7. In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles).
+8. In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles).
 
-8.  In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**.
+9.  In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic).
 
-9. Select **Save**.  
+10. Select **Save**.  
 
 ## Set up knowledge management settings page manually for a model-driven app
 
