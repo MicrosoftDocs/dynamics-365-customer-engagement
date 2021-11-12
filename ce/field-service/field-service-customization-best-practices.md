@@ -24,20 +24,20 @@ search.app:
 
 ## Custom scripts - use less, and write them better
 
-Description: 
+**Description:** 
 System customizers write scripts, typically JavaScript web resources, to execute business logic. 
 
-Category: 
+**Category:** 
 Customization
 
-Issue: 
+**Issue: **
 Oftentimes the custom scripts cause performance issues, errors, and complications when upgrading. 
 
-Best practices: 
+**Best practices: **
 
 - Minimize scripts running on load
 - Do not write scripts that call a lot of data or write multiple scripts that call the same data
-- Follow more script best practices. 
+- Follow more [script best practices](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1). 
 
 
 Resources: 
@@ -47,46 +47,47 @@ Resources:
 
 ## Use asynchronous workflows instead of synchronous
 
-Description: 
-Customers write synchronous workflows to perform business logic that execute when changes are made in real time. 
+**Description:** 
+System customizers write synchronous workflows to perform business logic in "real time" that execute when data is changed in Field Service. 
 
-Category: 
+**Category:** 
 Configuration
 
-Issue: 
+**Issue:** 
 Running workflows synchronously will hurt performance. 
 
-Best practices: 
+**Best practices:** 
 Run workflows asynchronously. 
-Deactivate Field Service and Resource Scheduling out-of-the-box processes
 
-Description: 
+## Activate Field Service and Resource Scheduling out-of-the-box processes
+
+**Description:**
 Field Service and Resource Scheduling ship with many processes that perform necessary business logic.
 
-Category: 
+**Category:**
 Configuration & customization
 
-Issue: 
+**Issue:** 
 Deactivated processes can lead to errors.
 
 
-Best practices: 
+**Best practices:** 
 Make sure all Field Service and Resource Scheduling processes are in an active state.
 
 
 
 ## Minimize creating custom fields
 
-Description: 
+**Description:** 
 Customers add custom fields to entity forms to capture information specific to their industry and business, to run business processes, and to collect information to report on. 
 
-Category: 
+**Category:** 
 Configuration
 
-Issue: 
+**Issue:** 
 Too many custom fields, especially on the first form tab, cause performance issues. 
 
-Best practices: 
+**Best practices:** 
 -	Reduce the number of custom fields.
 -	Move custom fields to other form tabs. 
 
