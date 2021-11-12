@@ -70,7 +70,6 @@ The following table contains the list of context variables in Omnichannel for Cu
 | [Case](record-identification-rule.md) | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation.  | [Parse JSON to extract record ID](#parse-json-object-to-extract-record-id) |
 ||||
 
-
 > [!Note]
 > If there's a mismatch of any of the attributes such as phone number, email address, or case number for a record, then the record won't get automatically identified.
 
