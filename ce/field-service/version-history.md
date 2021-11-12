@@ -62,8 +62,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.66.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#312663)).
  
- - Fixed issue where updating work order product failed for users with limited privileges to the parent work order record
- - Updated the Field Service Dispatcher and Resource security roles to have the read privileges of BookingSetupMetadata set to organization.
+ - Fixed issue where updating work order product failed for users with limited privileges to the parent work order record.
+ - Updated the Field Service dispatcher and resource security roles to have the read privileges of ```BookingSetupMetadata``` set to organization.
 
 
 ## 8.8.53.36
