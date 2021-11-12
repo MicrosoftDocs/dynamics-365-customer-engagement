@@ -22,7 +22,7 @@ search.app:
 # Best Practices for customizing Dynamics 365 Field Service
 
 
-## Custom scripts - use less, and write them better
+## Custom scripts - use less, and follow best practices
 
 **Description:** 
 System customizers write scripts, typically JavaScript web resources, to execute business logic. 
@@ -79,51 +79,53 @@ Make sure all Field Service and Resource Scheduling processes are in an active s
 ## Minimize creating custom fields
 
 **Description:** 
-Customers add custom fields to entity forms to capture information specific to their industry and business, to run business processes, and to collect information to report on. 
+System customizers add custom fields to entity forms to capture information specific to their industry and business, to run business processes, and to collect information to report on. 
 
 **Category:** 
 Configuration
 
 **Issue:** 
-Too many custom fields, especially on the first form tab, cause performance issues. 
+Too many custom fields, especially on the first tab of the form, cause performance issues. 
 
 **Best practices:** 
--	Reduce the number of custom fields.
+-	Minimize the number of custom fields.
 -	Move custom fields to other form tabs. 
 
 
 
 ## Do not edit or remove out-of-box fields
-Description: 
+
+**Description:** 
 Customers edit out-of-the-box fields to accommodate their business needs. 
 
-Category: 
+**Category: **
 Configuration
 
-Issue: 
+**Issue:**
 Editing out-of-the-box calculated fields or editing the option sets of out-of-the-box fields can cause errors, especially when processes depend on those field values.
 
-Best practices: 
-Do not add, edit, remove option set values for the following fields:
+**Best practices:**
+
+Do not add, edit, remove _option set values_ for the following fields:
 -	Work Order
-o	System Status
-o	Work Location
--	Work Order Product
-o	Line status
+    - System Status
+    - Work Location
+- Work Order Product
+    -	Line status
 -	Work Order Service
-o	Line status
+    - Line status
 
 Do not edit, override, or remove the following calculated fields
 -	Bookable Resource Booking
-o	Start time
-o	Estimated arrival time
-o	Actual Arrival time
-o	Duration
-o	End time
+    - Start time
+    - Estimated arrival time
+    - Actual Arrival time
+    - Duration
+    - End time
 -	Work Order
-o	Total amount
-o	Subtotal amount
-o	Total Estimated Duration
+    - Total amount
+    - Subtotal amount
+    - Total Estimated Duration
 
 
 Resources: 
