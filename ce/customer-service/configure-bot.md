@@ -126,7 +126,7 @@ You can set escalation rules to allow a bot to send customer queries to a custom
 
 ### Add bot user to a voice or phone call workstream
 
-To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls. More information: [Add a bot](create-workstreams.md#add-a-bot)
+To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls. More information: [Add a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 
 ### Enable a bot to escalate and end conversations
 
