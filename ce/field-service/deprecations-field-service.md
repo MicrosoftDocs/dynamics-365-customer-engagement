@@ -30,6 +30,11 @@ Administrators and IT professionals can use this information to prepare for futu
 
 For more information about this deprecation, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2021/06/30/dynamics-365-field-service-on-premises-use-rights-to-retire-on-june-30-2022/). 
 
+
+## Field Service Moblie - Xamarin - June 30, 2022
+For more information about this deprecation, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2020/05/01/next-generation-field-service-mobile-app-available/) or [Frequently Asked Questions](https://docs.microsoft.com/dynamics365/field-service/activate-fs-mobile-app-license#faqs). 
+
+
 ## See also
 
 - [Deprecations for Universal Resource Scheduling](/dynamics365/common-scheduler/deprecations)
