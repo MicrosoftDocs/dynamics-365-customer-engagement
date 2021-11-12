@@ -25,7 +25,7 @@ searchScope:
 
 # View AI-suggested similar cases and knowledge articles
 
-This article describes how to view similarly resolved cases and knowledge articles in your active cases.
+This article describes how to view similarly resolved cases and knowledge articles in your active cases. 
 
 ## Introduction
 
