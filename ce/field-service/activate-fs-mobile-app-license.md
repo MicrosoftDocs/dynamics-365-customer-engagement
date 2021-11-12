@@ -1,6 +1,6 @@
 ---
-title: "Request licenses for Field Service Mobile (Xamarin app) configurator licenses | MicrosoftDocs"
-description: Learn about how to request licenses for the Field Service Mobile (Xamarin app) configurator tool.
+title: "Field Service Mobile - Xamarin application End of Life | MicrosoftDocs"
+description: Information about the end of support for Field Service Mobile Xamarin application
 ms.service: dynamics-365-field-service
 ms.subservice: field-service-mobile
 ms.date: 03/02/2020
@@ -14,7 +14,7 @@ search.app:
   - D365FS
 ---
 
-# Requesting Field Service Mobile (Xamarin app) mobile configurator licenses
+# Field Service Mobile Xamarin End of Life
 
 > [!IMPORTANT]
 > Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](https://docs.microsoft.com/dynamics365/field-service/mobile-2020-power-platform) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
