@@ -28,7 +28,8 @@ Deal manager is a dedicated workspace to manage opportunities better. You can pe
 
 The deal manager workspace is the new way to manage opportunities in Dynamics 365 Sales. 
 
-**Watch a video:**
+The following video provides a quick overview of the feature:
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
 
 Deal manager can be personalized and customized depending on what sellers want to see in their workspace. Sellers can,
