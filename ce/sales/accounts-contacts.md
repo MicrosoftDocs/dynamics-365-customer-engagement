@@ -53,7 +53,7 @@ To be able to import from Exchange:
 
 -    Your mailbox must be tested and enabled. Talk to your administrator if you receive an error.
 
-1.   If you’re a user with a Sales Professional or Sales Professional Manager role, go to the list of contacts. On the command bar, select **Import
+1.   Select **Contacts** from the site map. On the command bar, select **Import
     from Excel** \> **Import from Exchange**.
 
     ![Import from Exchange option.](media/import-from-exchange-option.png "Import from Exchange option") 
