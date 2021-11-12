@@ -31,8 +31,7 @@ Before you configure context variables for Azure or Power Virtual Agents bots, c
 4. Repeat steps 2 and 3 to create the required variables.
 
 > [!Note]
-> If you create custom context variables, we recommend that you don't update or delete them. If you need to update or delete them, make sure that they aren't used in any of the unified routing classification or assignment rules.
-
+> If you create custom context variables, we recommend that you don't update or delete them. If you need to update or delete the variables, make sure that they aren't used in any of the unified routing classification or assignment rules.
 
 ## Context variables for Power Virtual Agents bots
 
@@ -71,7 +70,7 @@ The following table contains the list of context variables in Omnichannel for Cu
 ||||
 
 > [!Note]
-> If there's a mismatch of any of the attributes such as phone number, email address, or case number for a record, then the record won't get automatically identified.
+> If there's a mismatch of any of the attributes such as phone number, email address, or case number for a record, then the record won't get automatically identified. More information: [Identify records automatically](record-identification-rule.md)
 
 ### Parse JSON object to extract record ID
 
