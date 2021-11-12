@@ -4,36 +4,22 @@ description: "Learn how to use the first-run experience of the voice channel in 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 
-# Preview: Get your first phone call
+# Make and receive your first phone call
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
-
 When you want to try the voice channel for the first time in your org, the system sets it up for you to have the first-run experience. The tasks in this section take you through the automatic setup steps.
 
-> [!NOTE]
-> If you want to run the first phone call with a bot experience, the bot must be configured in Power Virtual Agents, published, and registered in Azure. The bot must be enabled for the environment in which you try the phone call. You might need to sign into [Power Virtual Agents](https://powerva.microsoft.com/environments) and select the right environment. More information: [Working with environments in Power Virtual Agents](/power-virtual-agents/environments-first-run-experience).
 
 ## Set up voice demo
 
-1. In the **Omnichannel admin center (preview)** app, go to the Home page.
+1. In the **Omnichannel admin center** app, go to the Home page.
 
     ![Omnichannel admin center home page.](media/image9.png "Omnichannel admin center home page.")
 
@@ -42,11 +28,9 @@ When you want to try the voice channel for the first time in your org, the syste
     > [!Note]
     > If someone in your org has already tried the first run experience, you'll see **Try voice** instead of **Set up voice demo**.
 
-    ![Setting up the voice demo.](media/image10.png)
 
 1.  After the demo is set up, the **Try out voice** page displays the option to **Open voice demo** and the settings that have been configured.
 
-    ![Try out voice.](media/image11.png)
 
 ## Try out voice
 
@@ -90,4 +74,10 @@ Perform the following steps to see the settings that have been automatically con
 
 ### See also
 
+[Call a customer](voice-channel-call-customer.md)  
 [Overview of the voice channel](voice-channel.md)  
+[Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+

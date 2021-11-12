@@ -4,7 +4,7 @@ description: "Learn about managing session templates in Customer Service workspa
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/07/2021
+ms.date: 11/01/2021
 ms.topic: article
 ---
 
@@ -33,6 +33,7 @@ The following out-of-the-box session templates are of the generic type and are f
 
 - Case entity session - default template
 - Chat session - default
+- Voice call session - default
 - Custom messaging session - default
 - Entity records session - default
 - Facebook session - default

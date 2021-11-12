@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
-ms.date: 10/19/2021
+ms.date: 11/01/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -13,7 +13,7 @@ ms.custom: intro-internal
 
 ## Overview
 
-A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and case.
+A workstream is a container to enrich, route, and assign work items. The workstream is associated with a channel, such as live chat, voice, or case.
 
 The workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work assignment settings of the workstream they belong to.
 
@@ -21,12 +21,13 @@ The workstream can be one of the following types:
 
 - **Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
 - **Record**: To route records, such as case, email, and activity.
+- **Voice**: To route calls made to the support numbers listed on the customer portal.
 
 
 > [!IMPORTANT]
 >
-> - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md).
-> - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
+> - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
+> - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
 
 ## Create a workstream
 
@@ -38,21 +39,22 @@ Perform the following steps:
 
 2. Select **New**.
 
-3. In the **Create a workstream** dialog box, enter the following details:
+3. In the **Create a workstream** dialog, enter the following details:
 
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
     
     - **Type**: Select one of the following types:
          - **Messaging**: To configure the workstream for chat and other conversation channels.
          - **Record**: To configure the workstream for entity record, such as case and email activity.
+         - **Voice**: To configure the workstream for the voice channel. More information: [Overview of voice channel](voice-channel.md)
     
     - **Channel**: This box appears if you have selected the type as **Messaging**. Select a channel from the list.
-         - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md).
+         - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md)
     
-    - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list.  More information: [Set up record routing](set-up-record-routing.md).
+    - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list.  More information: [Set up record routing](set-up-record-routing.md)
     
     - **Work distribution mode**: Select **Push** or **Pick**.
-         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up.
+         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, only push mode is available.
          - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
 
 4. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
@@ -61,6 +63,7 @@ Perform the following steps:
 
 5. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
+   - [Configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel)
    - [Configure a Facebook channel](configure-facebook-channel.md)
    - [Configure a WeChat instance](configure-wechat-channel.md)
    - [Configure a LINE channel](configure-line-channel.md)
@@ -74,10 +77,10 @@ Perform the following steps:
 
 ### Configure routing rules
 
-Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
+Routing rules for a workstream consist of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
 
 - [Configure work classification rules](configure-work-classification.md)
-- [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules).
+- [Configure route-to-queue rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
 
 ### Configure work distribution
 
@@ -98,35 +101,28 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 - [Sessions](../app-profile-manager/session-templates.md)
 - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-- [Context variables](#configure-context-variables)
+- [Context variables](context-variables-for-bot.md)
 - [Smart assist bots](smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
 
-### Add a bot
+### Add a bot to a workstream
 
-To add a bot, the bot must be configured and available for selection. After a bot is added to the workstream, the selected bot will be the first to which the incoming work item will be routed to at runtime. When a work item needs to be assigned, the classification rules are run and the work distribution system checks and routes the work item to the bot if the selected workstream has a bot. The bot is supported only in push type of workstreams.
+To add a bot, the bot must be configured and available for selection. For information about configuring Power Virtual Agents bots, see [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md). For information about configuring Azure bots, see [Integrate an Azure bot](configure-bot.md).
 
-For information about how to configure bots in Power Virtual Agents, see [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md).
-For information about how to configure Azure bots, see [Integrate an Azure bot](configure-bot.md).
+**To add the bot to the workstream**
 
-1. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
-2. In **Add a bot**, select the required bot in the **Name** list, and select **Save and close**.
+1. In Omnichannel admin center, go to **Settings** > **Workstreams**, and select a workstream.
+2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
+3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
 
-### Configure context variables
-
-Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues.
+When a work item needs to be assigned, the classification rules are run and the work distribution system checks and routes the work item to the bot, if the selected workstream has a bot. After a bot is added to the workstream, the incoming work item is first routed to the selected bot at runtime.
 
 > [!Note]
-> If you create custom context variables, we recommend that you don't update or delete them. If you need to update or delete them, make sure that they aren't used in any of the unified routing classification or assignment rules.
-
-1. Select **Add context variable** in the **Advanced settings** section of a workstream.
-2. In the **Edit** pane, select **Add**, and enter **Name**.
-3. Select the **Type** of variable from the dropdown list. You can choose from **Text** or **Number**.
-4. Repeat steps 2 and 3 to create the required variables.
+> The bot is supported only in push type of workstreams.
 
 ### Manage workstreams
 
-You can manage the workstreams on the workstreams page in the Omnichannel admin center or Customer Service Hub app.
+You can manage workstreams on the workstreams page in the Omnichannel admin center or Customer Service Hub app.
 
 Select a workstream to perform any of the following actions:
 
@@ -136,7 +132,7 @@ Select a workstream to perform any of the following actions:
 
 ### Agent affinity
 
-When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can use the **Keep same agent for entire conversation** option in the work distribution settings of the workstream to reassign the conversation to the agent who had worked on it earlier. This helps save the effort to reorient the agent or set the context about the problem again. The agent affinity works as follows:
+When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can use the **Keep same agent for entire conversation** option in the work distribution settings of the workstream to reassign the conversation to the agent who had worked on it earlier. This helps save the effort to reorient the agent or set the context about the customer issue again. Agent affinity works as follows:
 
 - Is enabled by default for SMS, social channels, and Microsoft Teams.
 - Is available only for push type of work distribution.
