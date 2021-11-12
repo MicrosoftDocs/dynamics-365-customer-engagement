@@ -17,7 +17,7 @@ search.app:
 # Requesting Field Service Mobile (Xamarin app) mobile configurator licenses
 
 > [!IMPORTANT]
-> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new Field Service (Dynamics 365) mobile app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
+> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](https://docs.microsoft.com/dynamics365/field-service/mobile-2020-power-platform) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
 
 Eligible organizations may request to activate mobile configurator licenses by completing the [request form for the mobile configurator (Woodford)](https://aka.ms/fsmlicense). You need the Dynamics 365 organization ID to complete the request form.
 
@@ -27,6 +27,12 @@ Eligible organizations may request to activate mobile configurator licenses by c
 
 Field Service Mobile (Xamarin app) will reach end of life on June 30, 2022. Existing customers will be required to migrate to the new Field Service (Dynamics 365) mobile app by that date. For more information, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2020/05/01/next-generation-field-service-mobile-app-available/).
 
+### What will happen to the application after June 30th, 2022
+After the June 30th, 2022 deadline, mobile application licenses will be removed. Woodford will no longer be able to publish and end users will not be able to access the mobile application.
+
+### Will I have access to my Woodford Project after June 30th, 2022?
+The Woodford Project will still be available in your org, but you will no longer be able to publish updates without a valid license. 
+
 ### Can I use Resco MobileCRM application with Field Service Mobile licenses?
 
 No. Resco MobileCRM is a 3rd party ISV application, which is not eligible for use with licenses acquired through the Field Service Mobile (Xamarin app) licensing form. 
@@ -34,15 +40,6 @@ No. Resco MobileCRM is a 3rd party ISV application, which is not eligible for us
 ### Why can I no longer request individual licenses for Field Service Mobile (Xamarin app)?
 
 With the latest versions of Field Service Mobile (Xamarin app), you only need a project license; individual user licenses are granted by enabling the users as "mobile enabled bookable resources" in Dynamics 365. 
-
-### How do I find my mobile configuration trial End Date?
-
-To find your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
-
-  > ![Woodford trial expiration date.](media/woodford-expiration.png)  
-
-> [!Note]
-> If you make any updates or do any work that changes the organization ID, you need to submit a new request to activate the mobile configurator for the organization.
 
 ### How do I find my organization ID?
 
