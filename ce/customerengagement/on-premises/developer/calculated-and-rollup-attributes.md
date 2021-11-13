@@ -18,7 +18,7 @@ search.audienceType:
   - developer
 
 ---
-# Calculated and rollup attributes
+# Rollup and calculated attributes
 
 *Calculated* and *rollup* attributes free the user from having to manually perform calculations and focus on their work. System administrators can now easily define a field to contain the value of many common calculations without having to work with a developer. Developers can also leverage the platform capabilities to perform these calculations rather than within their own code.  
   
