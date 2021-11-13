@@ -1,11 +1,12 @@
 ---
 title: "Rollup and calculated attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Learn how calculated and rollup attributes free the user from having to manually perform calculations and focus on their work."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
-ms.tgt_pltfrm: 
+ms.tgt_pltfrm: s
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
