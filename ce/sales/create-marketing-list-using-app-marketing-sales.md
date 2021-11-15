@@ -1,5 +1,5 @@
 ---
-title: "Create a marketing list using in-app marketing - Sales Enterprise | MicrosoftDocs"
+title: "Create a marketing list using in-app marketing | MicrosoftDocs"
 description: "A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.."
 ms.date: 11/12/2021
 ms.topic: get-started-article
@@ -20,7 +20,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Create a marketing list using in-app marketing (Sales) 
+# Create a marketing list using in-app marketing
 
 Your marketing list is the core of running a successful marketing campaign. It can include any one type of customer record, such as leads, accounts, or contacts.  
   
@@ -92,9 +92,8 @@ This option allows you to add members to a marketing list in bulk based on a sea
 5. Select **Find**.  
 
 6. Select the members that you want to add, and then select one of the following options:  
-
-  - Add only selected
-  - Add all
+    - Add only selected
+    - Add all
   
 
 ### Remove using Advanced Find
@@ -113,8 +112,8 @@ This option allows you to remove members from a marketing list in bulk based on 
 
 6. Select the members that you want to remove, select one of the following options:  
 
-  - Remove only selected  
-  - Remove all  
+    - Remove only selected  
+    - Remove all  
 
 > [!NOTE]
 > For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10000 at a time. For example, if there are 20000 members in a marketing list and you want to remove the members. Remove 10000 members first and then remove the other 10000. 
@@ -136,8 +135,8 @@ This option allows you to evaluate which members to keep in the marketing list b
   
 6.  Select the members that you want to keep, select one of the following options:  
 
-  - Keep only selected  
-  - Keep all  
+    - Keep only selected  
+    - Keep all  
 
 > [!NOTE]
 > You can add up to 120,000 members to a static marketing list in one Add operation. If you need to add more than 120,000 members to a static marketing list, split those members into multiple add operations. One way to do this is by using the [Advanced Find](#add-using-advanced-find) dialog to create queries that return less than 120,000 members. Alternatively, depending on your scenario, you can also consider using a dynamic marketing list instead of static list. More information: [Create a dynamic marketing list](#define-the-member-selection-criteria-for-a-dynamic-marketing-list)

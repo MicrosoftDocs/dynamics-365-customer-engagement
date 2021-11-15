@@ -1,5 +1,5 @@
 ---
-title: "Add assets to campaigns using in-app marketing - Sales Enterprise | MicrosoftDocs"
+title: "Add assets to campaigns using in-app marketing | MicrosoftDocs"
 description: "Depending on the marketing context of a campaign, add assets such as a marketing list, sales literature, or product to a campaign using in-app marketing. "
 ms.date: 11/12/2021
 ms.topic: article

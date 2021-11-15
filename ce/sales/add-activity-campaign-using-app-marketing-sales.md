@@ -1,7 +1,7 @@
 ---
-title: "Add activity to campaign in in-app marketing - Sales Enterprise | MicrosoftDocs"
+title: "Add activity to campaign in in-app marketing | MicrosoftDocs"
 description: "Create, distribute, and assign planning and campaign activities to a marketing campaign in Dynamics 365 Sales to make it successful."
-ms.date: 10/26/2021
+ms.date: 11/15/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -35,7 +35,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
 
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
   
@@ -51,15 +51,15 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
     -OR-  
   
-    To add an existing activity, select **Add Existing Activity**. In the inline lookup field, search for and select the activity.  
+    To add an existing activity, select **Add Existing Activity**. In the **Lookup Records** panel, search for and select the required activities, and then select **Add**.
   
-4. In the new activity form, add or change information in the text boxes.  
+4. In the **Quick Create (record)** form, add the required information.
   
 5. When you're ready to save your data, select **Save**.  
   
 ## Add a campaign activity to a campaign  
   
-1. In the site map, select **Marketing Lists** and, from the **Campaigns** area, open the campaign to which you want to add a campaign activity.
+1. In the site map, select **Marketing Lists**, and from the **Campaigns** area, open the campaign to which you want to add a campaign activity.
 
 2. On the **Related** tab, select **Campaign Activities**, and then select **New Campaign Activity**.
   
@@ -85,21 +85,21 @@ Make your marketing campaigns successful by creating, distributing, and assignin
     | Accepted *table type* | Activity is created for these records to be acted on based on the activity type mentioned in the channel for the campaign activity. |
     | Excluded *table type* | The users in this section have opted out of any **Marketing Materials** or opted out of certain types of marketing materials such as email or phone calls. This information for the respective record can be seen on the **Details** tab of the record (account, contact, or lead). The other reason to be excluded could be lack of information. For example, for **Channel Type as Email** of a campaign activity, the records with no associated email ID will be excluded. |  
     
-5. On the Campaign Activity form, select **Save**.
+5. On the **Campaign Activity** form, select **Save**.
 
 6. The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing lists, select the **More Commands** icon ![More Commands icon.](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
   
 7. To distribute the new campaign activity, on the command bar, select **Distribute Campaign Activity**.  
   
-8. In the activity form, type or modify information in the text boxes, and then select **Distribute**.  
+8. In the activity form, enter or update the information, and then select **Distribute**.  
   
 9. Choose who will own the activities, and then select **Distribute**.  
   
    > [!NOTE]
-   > 1.  You can only distribute campaign activities of type "mail merge" to marketing lists that contain the same type of record. For example, if one marketing list contains accounts and a second marketing list contains leads, the mail merge campaign activity will fail. Create a separate mail merge campaign activity for each group of marketing lists with the same record type. 
-   > 2.  When you distribute a campaign activity or run a quick campaign, and if a contact, account, or lead in the target audience (typically specified in a marketing list) doesn't have data in the Email, Fax, Address, or Primary Phone fields, respective activities like Email, Phone, Letter, and Fax won't be created for that contact, account, or lead. 
+   > - You can only distribute campaign activities of type "mail merge" to marketing lists that contain the same type of record. For example, if one marketing list contains accounts and a second marketing list contains leads, the mail merge campaign activity will fail. Create a separate mail merge campaign activity for each group of marketing lists with the same record type. 
+   > - When you distribute a campaign activity or run a quick campaign, and if a contact, account, or lead in the target audience (typically specified in a marketing list) doesn't have data in the Email, Fax, Address, or Primary Phone fields, respective activities like Email, Phone, Letter, and Fax won't be created for that contact, account, or lead. 
   
-10. After all the distributed activities are closed, you can close the campaign activity. To close the campaign activity, open the campaign activity record and, on the command bar, select **Close Campaign Activity**. Set an appropriate status for the activity, and then select **OK**.  
+10. After all the distributed activities are closed, you can close the campaign activity. To close the campaign activity, open the campaign activity record and, on the command bar, select **Close Campaign Activity**. Set an appropriate status for the activity, and then select **Close Campaign Activity**.  
   
 11. When the activity is completed, update the campaign activity record with the actual costs. Open the campaign activity and update the **Actual Cost** field. This can help guide you in planning future campaign activities.  
   

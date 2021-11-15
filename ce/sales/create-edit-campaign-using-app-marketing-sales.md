@@ -1,5 +1,5 @@
 ---
-title: "Create or edit campaign using in-app marketing - Sales Enterprise | MicrosoftDocs"
+title: "Create or edit campaign using in-app marketing | MicrosoftDocs"
 description: "Use campaigns to store your marketing information and activities, and to measure the success of your efforts through in-app marketing."
 ms.date: 11/12/2021
 ms.topic: article

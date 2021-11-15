@@ -1,7 +1,7 @@
 ---
-title: "Track a marketing campaign response using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Track a marketing campaign response using in-app marketing | MicrosoftDocs"
 description: "Track the replies to your campaigns by using campaign responses in Dynamics 365 Sales."
-ms.date: 10/26/2019
+ms.date: 11/15/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,7 +19,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Track a marketing campaign response using in-app marketing (Sales Hub) 
+# Track a marketing campaign response using in-app marketing
 
 Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses. Measure the success of specific campaign activities based on their response rates. You can manually create campaign responses or have [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] generate them automatically.  
 
@@ -27,7 +27,7 @@ Record the replies you get from potential customers in response to a specific ma
 
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -40,21 +40,21 @@ Record the replies you get from potential customers in response to a specific ma
 
 3. Select **New Campaign Response**.
   
-4. Add information in the **Campaign Response** form.  
+4. In the **New Campaign Response** form, add the required information.
   
 5. Select **Save**.  
   
-## Create campaign responses automatically  
-  
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
-  
-2. In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
+## Create campaign responses automatically
 
-3. On the navigation bar, select **Settings**, and then select **Administration**.
+**Prerequisite**: [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
 
-4. Select **System Settings**, and then select the **Marketing** tab.  
+1. On the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
-5. Set the **Create campaign responses for incoming email** option to **Yes**.  
+2. On the navigation bar, select **Settings**, and then select **Administration**.
+
+3. Select **System Settings**, and then select the **Marketing** tab.  
+
+4. Set the **Create campaign responses for incoming email** option to **Yes**.  
 
 > [!NOTE]
 > If there are multiple email replies from a customer to an email sent out from a campaign activity, only the first reply is tracked as a campaign response in the campaign.
