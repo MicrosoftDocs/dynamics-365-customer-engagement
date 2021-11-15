@@ -34,7 +34,7 @@ For more information, see these resources:
 
 ## Use asynchronous workflows instead of synchronous
 
-System customizers often write synchronous workflows to perform business logic in realtime that execute when data is changed in Field Service. However, running workflows synchronously will hurt performance.
+System customizers often write synchronous workflows to perform business logic in real time that executes when data is changed in Field Service. However, running workflows synchronously will hurt performance.
 
 To avoid performance issues, run workflows asynchronously.
 
