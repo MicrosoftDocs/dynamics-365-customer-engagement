@@ -28,7 +28,7 @@ A comprehensive knowledge base is a key to increased customer satisfaction and i
   
 After knowledge management is set up, users will be able to:  
   
-- Search for relevant knowledge base articles from Dynamics 365 Customer Service while they're working on a record.  
+- Search for relevant knowledge base articles from Customer Service while they're working on a record.  
   
 - Set up a search logic and search filters to get only the required knowledge articles, thereby providing timely and consistent information to customers while working on their cases.
 
