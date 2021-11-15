@@ -24,11 +24,11 @@ To avoid these issues:
 
 - Minimize scripts running on load.
 - Don't write scripts that call a lot of data or write multiple scripts that call the same data.
-- Follow more [script best practices](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1).
+- Follow more [script best practices](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk).
 
 For more information, see these resources:
 
-- [Best practices (Developer Guide for Dynamics 365 Customer Engagement)](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1)
+- [Best practices (Developer Guide for Dynamics 365 Customer Engagement)](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk)
 - [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
 - [Unsupported customizations for Microsoft Dataverse (Dataverse)](/powerapps/developer/data-platform/supported-customizations#unsupported-customizations)
 
