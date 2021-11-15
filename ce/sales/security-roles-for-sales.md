@@ -11,14 +11,6 @@ manager: shujoshi
 
 Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system.
 
-## License and role requirements
-
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 ## Predefined security roles
 
 Security roles control users access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role defines  users access to data and their interactions with that data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
@@ -59,8 +51,6 @@ responsible for enforcing best practices for Playbooks, assign the Sales Manager
 4. Select **Manage Roles**, and choose the roles that you want to assign to the user.
 
 5. Notify the user and have them check their permissions.
-
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also   
 
