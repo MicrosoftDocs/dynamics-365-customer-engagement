@@ -1,7 +1,7 @@
 ---
 title: "Preview: Use AI to kickstart email creation with Content ideas (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use AI-powered Content ideas to generate content in Dynamics 365 Marketing."
-ms.date: 10/13/2021
+ms.date: 11/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -26,7 +26,7 @@ search.app:
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
 > [!NOTE]
-> The Content ideas preview is currently only available in the North American marketing and is limited to the outbound marketing email editor.
+> The Content ideas preview is currently only available in North America.
 
 Content ideas helps you discover new ways to express your thoughts, helping you move from email concept to completion faster. This article explains how Content ideas works and how you can start using it to kickstart your emails.
 
@@ -34,7 +34,7 @@ Content ideas helps you discover new ways to express your thoughts, helping you 
 
 The Content ideas feature is like a brainstorming partner that can help inspire you while you’re writing an email. You provide a short list of initial thoughts (key points), and content ideas generates a range of longer content suggestions that you can build on. You can add these suggestions to your draft, use them as inspiration to write a new draft, or go in a different direction altogether.
 
-## How to enable Content ideas
+## Enable Content ideas
 
 > [!NOTE]
 > The Content ideas button is visible in the email editor (in English environments only) even if it hasn’t been enabled by and administrator.
@@ -51,7 +51,7 @@ Content ideas analyzes the last ready-to-send marketing emails in your organizat
 
 To begin the Content ideas analysis:
 
-1. Go to the outbound marketing email editor. Select the **Content ideas** button is the top-right corner to display the Content ideas pane.
+1. Go to the outbound marketing or real-time marketing email editor. Select the **Content ideas** button is the top-right corner to display the Content ideas pane.
 1. If there are enough emails in your organization to start the analysis process (minimum 20) and you have read permission to access all the emails, you will see a message in the Content ideas pane stating that it is ready to analyze your emails. Select **Continue** to proceed.
     > [!NOTE]
     > You will only be able to start the analysis process if you have read permission access to all the emails in your organization.
@@ -59,7 +59,7 @@ To begin the Content ideas analysis:
 
 ## How to use Content ideas
 
-1. Select the **Content ideas** button in the outbound marketing email editor to open the Content ideas pane.
+1. Select the **Content ideas** button in the email editor to open the Content ideas pane.
 1. Add up to five key points (two minimum) that you want to get across in your email.
 1. Select **Get ideas**.
 1. Content ideas generates a set of text suggestions. It might take a short while to generate content (up to 15 seconds, depending on the usage).

@@ -1,3 +1,36 @@
+## 3.12.67.1
+
+(Includes Resource Scheduling controls version 1.2.7.213012)
+
+- Fixed bug: Travel time is included in booking duration when book facility requirement.
+- Performance improvement on new schedule board when user uses **Find Availability** to book requirement. 
+
+
+
+## 3.12.66.3
+
+(Includes Resource Scheduling controls version 1.2.6.212992)
+
+- Allow users to schedule entities without an associated requirement record with scheduling assistant on the new schedule board. 
+- Enabled sorting functionality for new schedule board list view when user uses **Find Availability** to book requirement on hourly view. Users can sort rows using each of the       columns.
+- Improved the performance when user uses **Find Availability** to book requirement on new schedule board.
+- Fixed bug: Travel time is included in booking duration when booking facility type of requirement on new schedule board. 
+- Fixed bug: New schedule board sometimes crashes when scheduling a multiday requirement using **Book and Exit** button with **Find Availability** on the new schedule board. 
+
+## 3.12.65.6
+
+(Includes Resource Scheduling controls version 1.2.5.212813)
+
+- Enabled **Group By** capability on new schedule board list view. 
+- On new schedule board, started showing dotted line when user drags-and-drops requirement to the board. 
+- Fixed: when update contact record with integration job: Update (Pre-operation) for contact plug in throws Error: **System.ServiceModel.QuotaExceededException: 'The size necessary to buffer the XML content exceeded the buffer quota.'** 		
+- Added retry mechanism and logged more information for troubleshooting when Geocode API fails with HTTP 403.
+
+## 3.12.64.78
+This release is a hotfix on Universal Resource Scheduling version [3.12.64.46](/dynamics365/common-scheduler/bug-fixes#3126478)
+
+- Added retry mechanism and logged more information for troubleshooting when Geocode API fails with HTTP 403
+
 ## 3.12.64.46 - 2021 wave 2 early access general availability 
 
 (Includes Resource Scheduling controls version 1.2.2.212724)

@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
 description: "This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
-ms.date: 10/07/2021
+ms.date: 11/01/2021
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -38,10 +38,13 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 
 | Area | Requirements |
 |----------|----------|
-| Model-driven app | Dynamics 365 Customer Service app 9.2.21034.00160 or later  |
-| Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)] |
+| Model-driven app | Dynamics 365 Customer Service app 9.2.21034.00160 or later.  |
+| Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)); version 79.0.309.65 or later is required for the desktop notifications feature. </li> <li> Google Chrome </li> **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)] |
+|Azure Communication Services|Required for 1st party voice and SMS in the voice channel in production environments. |
+| Hardware | Microphone and speakers for the voice experience. |
+|||
 
-For hardware and other requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
+For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
 
 ### Supported browsers for live chat widget<a name="browsers-for-chat"></a>
 

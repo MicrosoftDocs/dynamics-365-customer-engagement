@@ -37,6 +37,10 @@ The Field Service (Dynamics 365) Windows app supports:
 - Barcode scanning for assets and global search.
 - Deep-linking into the Field Service mobile app.
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWNWjN]
+
 ## Prerequisites
 
 Device requirements:
@@ -51,7 +55,7 @@ Also, be sure to [review installation and set up of the Field Service (Dynamics 
 
 ## Download the app
 
-Go to the Microsoft Store and search for **Field Service (Dynamics 365) (Preview)**.
+[Download from Windows store](https://aka.ms/fsmobile-windows10) or simply search for **Field Service (Dynamics 365) (Preview)**.
 
 Download the app named **Field Service (Dynamics 365) (Preview) app**.
  

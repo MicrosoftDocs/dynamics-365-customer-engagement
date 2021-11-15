@@ -1,68 +1,52 @@
 ---
-title: "Add conversational IVR to the voice channel with Power Virtual Agents | MicrosoftDocs"
-description: "Learn about how to add conversational IVR for using in voice channel in Omnichannel for Customer Service."
+title: "Integrate Power Virtual Agents bot for voice | MicrosoftDocs"
+description: "Learn about how to add a Power Virtual Agents bot for using in voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
+ms.custom: intro-internal
 ---
 
 
-# Preview: Add conversational IVR with Power Virtual Agents
+# Integrate a Power Virtual Agents bot for voice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-
 ## Introduction
 
-Conversational IVR bots speak to customers when they call in to route their call to the best department, diagnose issues, collect information, and give recommendations. Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
+To route customers call to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call in. Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
 
-## Private Preview refresh - September '21
+Some of the features of the Power Virtual Agents bots for voice are as follows:
 
-We are refreshing our Private Preview in September 2021 with the following updates. To get the following updates, you will need to be enrolled into the private preview program, and create a new bot after September 23, 2021. Any new bots created after this time will be using the new refresh code. Old bots using orivatepPreview will continue to work but will stop working by October 15, 2021. 
-
-1. Improved latency and performance for voice interactions.
-1. Customizable voices in the Omnichannel for Customer Service configuration experience.
-1. Questions in Power Virtual Agents using "Boolean" types do not prompt users with "Options are _Yes_ or _No_".
-1. All bot messages can be interrupted by the caller.
+- Customizable voices in the Omnichannel for Customer Service configuration experience.
+- Questions in Power Virtual Agents using "Boolean" types do not prompt users with "Options are _Yes_ or _No_".
+- All bot messages can be interrupted by the caller.
 
 ## Prerequisites
 
-A bot is configured in Power Virtual Agents, published, and with the Transfer to Agent configured. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
+The following prerequisites must be met for the Power Virtual Agents bot:
 
-You might need to sign into [Power Virtual Agents](https://powerva.microsoft.com/environments) and select the right environment. More information: [Create a bot in an existing environment](/power-virtual-agents/environments-first-run-experience#create-a-bot-in-an-existing-environment).
+- The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
+- The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
 
-> [!IMPORTANT]
-> The bot must be created in the same Dynamics 365 environment in which you are configuring the voice channel for the bot to have speech capabilities.
-
-> ![Create a bot.](media/image33.png)
 
 ## Configure a bot for voice
 
 Perform the following steps to add and configure a bot in Omnichannel for Customer Service.
 
-1. In the **Omnichannel admin center (preview)** app, go to the workstream you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
+1. In the **Omnichannel admin center** app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
 
 
 1. On the **Add Bot** pane, select a bot from the **Name** box.
 
-   > ![Select a bot.](media/image35.png)
+   > ![Select a bot.](media/add-bot.png)
 
 1. Select **Save and close**. The bot is added to the workstream.
 
-   > ![Sample bot details.](media/image36.png)
+   > ![Sample bot details.](media/bot-in-workstream.png)
 
 More information:
 
@@ -70,42 +54,44 @@ More information:
 
 - [Create topics and test your bot](https://go.microsoft.com/fwlink/?linkid=2062988)
 
-## Additional notes
-
 ### Configure handoff from Power Virtual Agents to Omnichannel for Customer Service
 
-To configure the handoff between Power Virtual Agents bot to Omnichannel for Customer Service:
+**To configure the handoff between Power Virtual Agents bot to Omnichannel for Customer Service**
 
-1. In Power Virtual Agents, go to **Settings** and select **Transfer to agent**.
+1. In Power Virtual Agents, open the bot that you've configured to integrate with Omnichannel for Customer Service.
 
-    ![Configure conditions for the bot.](media/image63.png)
+2. Go to **Manage** and select **Agent transfers**.
 
-1. Connect to **Dynamics 365 Omnichannel for Customer Service**.
+3. In the **Agent transfers** section, select **Omnichannel**, and on the Omnichannel panel that appears, do the following:
+   
+   1. Select **Enable**. A message that Omnichannel is enabled is displayed on the top.
+   
+   2. Turn on the **Enable voice** toggle.
+   
+   3. Select **See how to register a new Application ID**, and follow the instructions to register an application identifier.
 
-    ![Select Dynamics 365 Omnichannel for Customer Service.](media/image64.png)
+      1. Select **App Registration**.
+      
+      2. Select **New registration**.
 
-1. Select **Azure App Registration**.
+      3. Enter the name of your bot, and then select **Register**.
 
-    ![Register for Azure app.](media/image65.png)
+        ![Register the bot in Azure.](media/register-application-azure.png)
 
-1. Select **New registration**.
+      4. Copy the **Application ID** to the clipboard.
 
-    ![App registration page.](media/image66.png)
+        ![Copy the application ID.](media/copy-app-id.png)
 
-1. Enter the name of your bot, and then select **Register**.
+   4. Return to Power Virtual Agents, paste the copied ID in the **Application ID** field, and then select **Add your bot**. After the bot is added, a message is displayed and the bot is listed.
 
-    ![Register the bot in Azure.](media/image67.png)
+    :::image type="content" source="media/pva-omnichannel-bot-configuration.png" alt-text="Power Virtual Agents bot for Omnichannel for Customer Service":::
 
-1.  Copy the **Application ID** to the clipboard.
+   5. Optionally, you can view the bot details in Omnichannel for Customer Service.
 
-    ![Copy the application ID.](media/image68.png)
-
-1.  Return to Power Virtual Agents, paste the application ID into the field, and then select **Next**.
-
-    ![Transfer to agent settings.](media/image69.png)
 
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[Configure context variables](context-variables-for-bot.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

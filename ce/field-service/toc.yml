@@ -8,6 +8,12 @@
   href: field-service-get-started.md
 - name: Videos
   href: field-service-videos.md
+- name: Try Field Service
+  items:
+  - name: Sign up for free trial
+    href: trial-signup.md
+  - name: Trial FAQs
+    href: trial-faq.md
 - name: Installation + upgrade
   items: 
   - name: Field Service installation (web + mobile)
@@ -64,6 +70,8 @@
     href: set-up-service-task-types.md
   - name: Knowledge articles
     href: field-service-knowledge-management.md
+  - name: Collaborate on work orders with Microsoft Teams
+    href: field-service-teams-collaboration.md
   - name: Work order summary reports
     href: reports.md
   - name: Inspections
@@ -300,6 +308,14 @@
     href: process-return.md
   - name: Manual inventory journals
     href: manual-inventory-journals.md
+- name: Field Service for end customers
+  items: 
+  - name: Customer experience homepages
+    href: field-service-portal-homepage.md
+  - name: Self-scheduling for customers
+    href: scheduling-self-customers.md
+  - name: Send technician arrival time and current map location
+    href: reminders-arrival-time.md
 - name: Resource Scheduling Optimization Add-in
   items: 
   - name: Overview
@@ -444,3 +460,6 @@
   href: troubleshoot-field-service-solution-health.md
 - name: General FAQs
   href: troubleshoot-faq.yml
+- name: Get help
+  href: field-service-get-help.md
+  

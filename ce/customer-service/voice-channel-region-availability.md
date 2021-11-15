@@ -4,27 +4,29 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Regional availability and supported languages for the voice channel
+# Regional availability and supported languages for the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+## Supported regions
 
+The following table lists the upcoming regions and clouds where the voice channel for Omnichannel for Customer Service will soon be available:
 
-## Supported Regions
-
-The voice channel in Omnichannel for Customer Service is currently available only in the United States.
-
+|Geographic location | Availability date |
+|----------|---------|
+|North America	|November 2021 |
+|Europe	|December 2021 |
+|Asia Pacific |December 2021 |
+|Australia	|December 2021 |
+|South America	|To be announced |
+|Country clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom	|To be announced |
+|Government Community Cloud (GCC) |To be announced |
+ 
 ## Supported languages and locale codes
 
 | Language Name |	Locale Code |
@@ -78,13 +80,13 @@ The voice channel in Omnichannel for Customer Service is currently available onl
 
 ## Language limitations by feature
 
-### What languages are supported in the voice channel at general availability (GA)?
+### What languages are supported in the voice channel at general availability (GA)
 
 For our GA release of voice channel, language support is feature-specific. 
 
 We use Azure Cognitive Service Speech’s Speech-to-Text for transcription, so we plan on supporting all of the languages that Speech-To-Text supports today. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports. We also support a bring-your-own-bot through Azure Bot Service for IVR that will be constrained by the languages that speech-to-text supports. For AI suggestions, we have added more languages as of April 2021.  
 
-### Are there any real-time limitations?
+### Are there any real-time limitations
 
 We're planning to support additional languages for the GA release in 2021. See the list of supported languages.
 
