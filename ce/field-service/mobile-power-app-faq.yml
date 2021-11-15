@@ -156,7 +156,4 @@ sections:
         answer: |
           While signed into the app, select the three vertical lines or swipe from the left to access the sitemap. Select the settings icon to find **Time Zone**. Change to desired time zone. Fully close and reopen the application for time zone changes to take effect. 
       
-      - question: Can Azure AD guest users access the Field Service (Dynamics 365) mobile app?
-        answer: |
-          Currently, guest user access is not supported within the mobile app.  
 
