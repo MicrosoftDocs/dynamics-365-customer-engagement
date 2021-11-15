@@ -1,7 +1,7 @@
 ---
 title: "Create a work order in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn how to create a work order in Dynamics 365 Field Service
-ms.date: 08/12/2021
+ms.date: 11/15/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -157,6 +157,12 @@ In the Field Service 2021 wave 2 update (8.8.47+), the work order ribbon is simp
 > [!div class="mx-imgBorder"]
 > ![Field Service settings, showing the "Show Simplified Work Order Commands" option.](./media/work-order-ribbon-setting.png)
 
+For a guided walkthrough, check out the following video on Simplified Work Order commands, ability to turn price calculations on and off, and more Wave 2 2021 updates to the Work Order.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP4vU]
+
+
+
 When **Show Simplified Work Order Commands** is set to *Yes*, the work order form ribbon command is simplified and certain commands are reduced, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
@@ -180,6 +186,7 @@ Set **Show Simplified Work Order Commands** to **No** to show the full list of r
 
 > [!Note]
 > The **Show Chart** ribbon command is *not* impacted by the **Show Simplified Work Order Commands** setting.
+
 
 ### See also  
     
