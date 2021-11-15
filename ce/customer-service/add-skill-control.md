@@ -72,7 +72,7 @@ To get the relationship name for a one-to-many relationship, run the following O
  GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName=%27incident%27)/ManyToManyRelationships
  ```
 
-For information about how to query table definitions, see [Query table definitions using the Web API](powerapps/developer/data-platform/webapi/query-metadata-web-api).
+For information about how to query table definitions, see [Query table definitions using the Web API](/powerapps/developer/data-platform/webapi/query-metadata-web-api).
 
 10. Save and publish the solution.
 
