@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
 description: "Use this topic to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 11/11/2021
+ms.date: 11/15/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -43,7 +43,7 @@ Power Virtual Agents lets you seamlessly hand off voice and text-based conversat
 
 To do so, perform the following steps:
 1. [Ensure the prerequisites are met](/power-virtual-agents/configuration-hand-off-omnichannel#prerequisites).
-2. [Install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions)
+2. [Install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
 3. Verify if the extension solutions are successfully installed by checking whether the extension solution variables are available in Power Virtual Agents.
 
 You can now configure your Power Virtual Agents bot to connect your omnichannel instance.
