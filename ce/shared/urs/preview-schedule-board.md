@@ -7,7 +7,7 @@ In this article, we'll take a look at what's new, and how to switch to the new s
 
 For a guided walkthrough, check out the following video outlining Wave 2 2021 updates to the new schedule board.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP7dS]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP7dS]
 
 
 
