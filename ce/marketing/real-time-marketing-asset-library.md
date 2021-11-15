@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing asset library (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use the real-time marketing asset library in Dynamics 365 Marketing."
-ms.date: 11/08/2021
+ms.date: 11/10/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -44,7 +44,7 @@ You can transfer assets from outbound marketing to the real-time marketing asset
     > ![Select asset.](media/real-time-marketing-asset-library-select.png "Select asset")
 1. To copy the assets to the real-time marketing asset library, select the **Copy to Real-time marketing** button in the top ribbon.
     > [!div class="mx-imgBorder"]
-    > ![Copy selected assets.](media/real-time-marketing-asset-library-copy-image.png "Copy selected assets")
+    > ![Copy selected assets.](media/real-time-marketing-asset-library-copy-image2.png "Copy selected assets")
 1. A modal window will appear and ask if you'd like to copy the selected assets to real-time marketing. Select **Copy files**. A status bar at the top of the window will show the copying progress.
 1. Alternatively, if you'd like to copy *all* assets from outbound marketing to the asset library, do not select any individual assets. The button in the top ribbon will say **Copy all files to Real-time marketing**. To copy all assets, select the button and choose **Copy files** on the modal window.
 

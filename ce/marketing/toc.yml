@@ -74,6 +74,8 @@
       items: 
       - name: Marketing settings overview
         href: marketing-settings.md
+      - name: Real-time marketing administrator settings
+        href: real-time-marketing-admin-settings.md
       - name: Configure lead scoring options
         href: mkt-settings-lead-score-options.md
       - name: Authenticate your domains
