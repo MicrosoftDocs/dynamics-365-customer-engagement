@@ -19,7 +19,7 @@ The predefined security roles for Sales include permissions and access levels th
 
 | **Security roles** | **Who needs it?** | **Applies to** | **Access granted** |
 |--------------------|-------------------|----------------|--------------------|
-|Forecast Appuser  | System security role. Do not assign this role to any users. | Sales Enterprise and Sales Premium | Internal role used by Dynamics 365 to perform certain forecasting opertions. |
+|Forecast Appuser  | System security role. Do not assign this role to any users. | Sales Enterprise and Sales Premium | Internal role used by Dynamics 365 to perform certain forecasting operations. |
 | Forecast Manager | Sales manager or an equivalent role who is responsible for configuring forecasts in the organization. | Sales Enterprise and Sales Premium | Configure, clone, deactivate, adjust, or delete a forecast. |
 | Forecast user | Any user in the organization who needs access to the forecast data for tracking and analysis  | Sales Enterprise and Sales Premium | View forecast and drill-down forecast data |
 | Playbook Manager | Sales manager or an equivalent role that creates playbooks for the organization. | Sales Enterprise and Sales Premium | Create playbook categories and playbook templates, and add documents to the playbook template. |
