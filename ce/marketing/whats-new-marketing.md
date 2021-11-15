@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/08/2021
+ms.date: 11/10/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -37,7 +37,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10078.1049 |
+| Marketing        | 1.35.10078.2008 |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
@@ -49,11 +49,13 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 - **Asset library**
     - Copy images from the outbound marketing file library to the real-time marketing asset library. Learn more: [Export assets from outbound marketing to the asset library](real-time-marketing-asset-library.md#export-assets-from-outbound-marketing-to-the-asset-library).
 - **Customer journeys**
-    - You can now create attribute conditions over all attribute types in CDS (optionsets, entityreferences, lookups, and bigint).
+    - You can now gain more control over journey branching conditions through increased attribute support by having access to all attributes associated with a contact entity, a lead entity or an event trigger. You also have the ability to do relative and partial date time checks such as checking if a customer's birthday is this month or if their membership is up for renewal in the next 90 days.
 - **Marketing emails**
     - The Content ideas feature is now available in real-time marketing, allowing you to use AI-powered suggestions to automatically generate content for emails. Learn more: [Use AI to kickstart email creation with Content ideas](content-ideas.md).
 - **Mobile channel**
     - Send Customer Voice surveys in SMS messages and push notifications. Learn more: [Add a Customer Voice survey to a text message](real-time-marketing-outbound-text-messaging.md#add-a-customer-voice-survey-to-a-text-message) and [Add a Customer Voice survey to a push notification](real-time-marketing-push-notifications.md#add-a-customer-voice-survey-to-a-push-notification).
+- **Scale**
+    - Send up to 100 million outbound interactions (email, SMS, or push notifications) per month to a maximum of 20 million contacts using real-time marketing journeys. Learn more: [Reach more customers with a 10X increase in the scale of interactions in real-time marketing journeys](/2021wave2/marketing/dynamics365-marketing/increase-reach-improved-scalability-real-time-marketing).
 
 ##### Outbound marketing
 
@@ -63,7 +65,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 ##### Global updates
 
 - **Quota**
-    - A new quota limits page displays the monthly interaction quota, monthly interaction usage, Marketing contacts used, and annual total contact usage. Learn more: [Quota limits](quota-management.md).
+    - A new quota limits page displays the monthly interaction quota, monthly interaction usage, Marketing contacts used, and annual total contact usage. Learn more: [Monitor how your consumption is tracking against your quota](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/monitor-how-consumption-tracking-against-quota) and [Quota limits](quota-management.md).
 
 #### Bug fixes
 
