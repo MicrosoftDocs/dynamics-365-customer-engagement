@@ -15,6 +15,7 @@ search.app:
 
 # Best practices for customizing Dynamics 365 Field Service
 
+Oftentimes system administrators choose to customize the Field Service app to meet their business needs. Follow these best practices to avoid performance, usability, and supportability issues.
 
 ## Custom scripts: use fewer, and follow best practices
 
@@ -53,7 +54,7 @@ System customizers add custom fields to entity forms to capture information spec
 To avoid performance issues:
 
 - Minimize the number of custom fields.
-- Move custom fields to other form tabs.
+- Move custom fields from the first form tab to other form tabs.
 
 ## Don't edit or remove out-of-box fields
 
