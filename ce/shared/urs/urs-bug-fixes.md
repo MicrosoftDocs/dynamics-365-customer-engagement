@@ -1,3 +1,12 @@
+## 3.12.67.1
+
+(Includes Resource Scheduling controls version 1.2.7.213012)
+
+- Fixed bug: Travel time is included in booking duration when book facility requirement.
+- Performance improvement on new schedule board when user uses **Find Availability** to book requirement. 
+
+
+
 ## 3.12.66.3
 
 (Includes Resource Scheduling controls version 1.2.6.212992)
