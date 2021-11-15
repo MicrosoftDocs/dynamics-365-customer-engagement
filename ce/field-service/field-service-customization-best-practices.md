@@ -1,16 +1,10 @@
 ---
-title: "Best Practices for customizing Dynamics 365 Field Service | MicrosoftDocs"
-description: description
-ms.custom:
-- dyn365-fieldservice
-ms.date: 11/12/2021
+title: "Best Practices for customizing Dynamics 365 Field Service  | MicrosoftDocs"
+description: Learn about how to get the most out of your Dynamics 365 Field Service customizations.
+ms.date: 11/15/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
-ms.suite: ""
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
@@ -19,116 +13,71 @@ search.app:
 - D365FS
 ---
 
-# Best Practices for customizing Dynamics 365 Field Service
+# Best practices for customizing Dynamics 365 Field Service
 
 
-## Custom scripts - use less, and follow best practices
+## Custom scripts: use fewer, and follow best practices
 
-**Description:** 
-System customizers write scripts, typically JavaScript web resources, to execute business logic. 
+System customizers write scripts, typically JavaScript web resources, to execute business logic. However, custom scripts can cause performance issues, errors, and complications when upgrading.
 
-**Category:** 
-Customization
+To avoid these issues: 
 
-**Issue:**
-Oftentimes the custom scripts cause performance issues, errors, and complications when upgrading. 
+- Minimize scripts running on load.
+- Don't write scripts that call a lot of data or write multiple scripts that call the same data.
+- Follow more [script best practices](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1).
 
-**Best practices:**
+For more information, see these resources:
 
-- Minimize scripts running on load
-- Do not write scripts that call a lot of data or write multiple scripts that call the same data
-- Follow more [script best practices](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1). 
-
-
-Resources: 
--	[Best practices (Developer Guide for Dynamics 365 Customer Engagement)](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1)
--	[Optimize model-driven app form performance in Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/optimize-form-performance)
--	[Unsupported customizations for Microsoft Dataverse (Dataverse)](https://docs.microsoft.com/powerapps/developer/data-platform/supported-customizations#unsupported-customizations)
+- [Best practices (Developer Guide for Dynamics 365 Customer Engagement)](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1)
+- [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
+- [Unsupported customizations for Microsoft Dataverse (Dataverse)](/powerapps/developer/data-platform/supported-customizations#unsupported-customizations)
 
 ## Use asynchronous workflows instead of synchronous
 
-**Description:** 
-System customizers write synchronous workflows to perform business logic in "real time" that execute when data is changed in Field Service. 
+System customizers often write synchronous workflows to perform business logic in realtime that execute when data is changed in Field Service. However, running workflows synchronously will hurt performance.
 
-**Category:** 
-Configuration
-
-**Issue:** 
-Running workflows synchronously will hurt performance. 
-
-**Best practices:** 
-Run workflows asynchronously. 
+To avoid performance issues, run workflows asynchronously.
 
 ## Activate Field Service and Resource Scheduling out-of-the-box processes
 
-**Description:**
 Field Service and Resource Scheduling ship with many processes that perform necessary business logic.
 
-**Category:**
-Configuration & customization
-
-**Issue:** 
 Deactivated processes can lead to errors.
 
-
-**Best practices:** 
-Make sure all Field Service and Resource Scheduling processes are in an active state.
-
-
+To avoid issues, make sure all Field Service and Resource Scheduling processes are in an active state.
 
 ## Minimize custom fields
 
-**Description:** 
-System customizers add custom fields to entity forms to capture information specific to their industry and business, to run business processes, and to collect information to report on. 
+System customizers add custom fields to entity forms to capture information specific to their industry and business, to run business processes, and to collect information to report on. However, too many custom fields, especially on the first tab of the form, cause performance issues.
 
-**Category:** 
-Configuration
+To avoid performance issues:
 
-**Issue:** 
-Too many custom fields, especially on the first tab of the form, cause performance issues. 
+- Minimize the number of custom fields.
+- Move custom fields to other form tabs.
 
-**Best practices:** 
--	Minimize the number of custom fields.
--	Move custom fields to other form tabs. 
+## Don't edit or remove out-of-box fields
 
+Customers edit out-of-the-box fields to accommodate their business needs. However, editing out-of-the-box calculated fields or editing the option sets of out-of-the-box fields can cause errors, especially when processes depend on those field values.
 
-
-## Do not edit or remove out-of-box fields
-
-**Description:** 
-Customers edit out-of-the-box fields to accommodate their business needs. 
-
-**Category:**
-Configuration
-
-**Issue:**
-Editing out-of-the-box calculated fields or editing the option sets of out-of-the-box fields can cause errors, especially when processes depend on those field values.
-
-**Best practices:**
-
-Do not add, edit, remove _option set values_ for the following fields:
--	Work Order
-    - System Status
-    - Work Location
+To avoid errors, don't add, edit, or remove _option set values_ for the following fields:
+- Work Order
+ - System Status
+ - Work Location
 - Work Order Product
-    -	Line status
--	Work Order Service
-    - Line status
+  - Line status
+- Work Order Service
+  - Line status
 
-Do not edit, override, or remove the following calculated fields
--	Bookable Resource Booking
-    - Start time
-    - Estimated arrival time
-    - Actual Arrival time
-    - Duration
-    - End time
--	Work Order
-    - Total amount
-    - Subtotal amount
-    - Total Estimated Duration
+Don't edit, override, or remove the following calculated fields:
+- Bookable Resource Booking
+  - Start time
+  - Estimated arrival time
+  - Actual Arrival time
+  - Duration
+  - End time
+- Work Order
+  - Total amount
+  - Subtotal amount
+  - Total Estimated Duration
 
-
-Resources: 
--	[Optimize model-driven app form performance in Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/optimize-form-performance)
-
-
+For more information, see this article: [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
