@@ -46,7 +46,8 @@ JavaScript web resources can be added to mobile forms and downloaded with Offlin
 
 JavaScript will run Online, Offline First with internet connection, and Offline First without internet connection (basically all the time).
 
-Note: Reference [this document](/dynamics365/mobile-app/mobile-offline-capabilities#limitations) for any potential limitations by platform for webresources in Offline mode.
+> [!Note]
+> Refer to [this doc](/dynamics365/mobile-app/mobile-offline-capabilities#limitations) for any potential limitations by platform for WebResources in offline mode.
 
 ## Offline JavaScript example
 

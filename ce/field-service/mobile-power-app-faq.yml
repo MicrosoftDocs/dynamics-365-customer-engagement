@@ -62,10 +62,10 @@ sections:
       - question: While running the Field Service (Dynamics 365) mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
         answer: |
           Search from the offline application will always search the local device database for data, which is defined within the mobile offline profile.
-    - question: Do WebResources work in Offline mode?
+      - question: Do WebResources work in offline mode?
         answer: |
-          There are currently limitations in support of WebReources while using the mobile app in offline and online modes. These limitations vary by device operating system. For more information see table in [Platform Documentation](/dynamics365/mobile-app/mobile-offline-capabilities#limitations)
-          For this reason we recommend you develop using the [Power Apps component framework](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/overview) which will have broad cross platform support on mobile and browser.
+          There are currently limitations in support of WebReources while using the mobile app in offline and online modes. These limitations vary by device operating system. For more information, see the table in [Platform Documentation](/dynamics365/mobile-app/mobile-offline-capabilities#limitations)
+          For this reason, we recommend you develop using the [Power Apps component framework](/powerapps/developer/component-framework/overview), which will have broad cross-platform support on mobile and browser.
   - name: Sign in
     questions:     
         - question: What do the "Reconfigure" and "Sign out" options do?

@@ -200,8 +200,9 @@ It is recommended to use the mobile offline profile included with Field Service 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
 
-### Are WebResources supported in Offline Mode?
-Due to some current [limitations](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities#limitations) of Offline Web Resources, it is recommended to use the [Power Apps component framework (PCF)](https://docs.microsoft.com/powerapps/developer/component-framework/overview) to implement custom capabilities which will work in both the Field Service (Dynamics 365) mobile application and browser.
+### Are WebResources supported in offline mode?
+
+Due to some current [limitations](/dynamics365/mobile-app/mobile-offline-capabilities#limitations) of offline WebResources, we recommend using the [Power Apps component framework (PCF)](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the Field Service (Dynamics 365) mobile app and in the browser.
 
 ### Known limitations
 
