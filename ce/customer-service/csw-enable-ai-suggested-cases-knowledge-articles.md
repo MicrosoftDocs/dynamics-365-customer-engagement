@@ -1,7 +1,7 @@
 ---
 title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/12/2021
+ms.date: 11/15/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -43,10 +43,10 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 - Knowledge articles and similar cases can be suggested based on the semantic meaning in case context and knowledge article content.
 - The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time pre-processing, up to 1,500 published articles and 10,000 recently resolved cases will be processed. Subsequently, newly published articles and resolved cases will be processed. Up to 1 million of the latest resolved cases will be processed to serve suggestions.
 - After a case is created or updated, or during an ongoing conversation, the model finds out matching knowledge articles and similar cases from suggestion candidates.
-- A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before they click through it. 
+- A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before they click through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlight the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
 - During an ongoing conversation, for the first three messages sent by the customer, the AI suggestions are triggered for each message. After these first three customer messages, AI suggestions are triggered for every third customer message. The AI suggestions are based on the context described in the last 18 messages.
-- The AI model uses the feedback from the agent interactions to retrain and improve the suggestions over time. This includes agent feedback about the relevance of the similar cases and knowledge articles suggestions, as well as other interactions that the agent has with the suggested similar case and knowledge articles.
+- The AI model uses the feedback from the agent interactions to retrain and improve the suggestions over time. This includes agent feedback about the relevance of the similar cases and knowledge articles suggestions, as well as other interactions that the agent has with the suggested similar case and knowledge articles, such as, Linked to case, Send URL, Copy URL, Email URL, Email content, Copy resolution, and so on.
 
 > [!NOTE]
 >
