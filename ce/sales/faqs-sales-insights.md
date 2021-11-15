@@ -245,7 +245,7 @@ To add the **Up next** widget to a managed entity form, follow these steps:
 17.	Publish all customizations.    
 18.	Verify that the **Up next** Widget successfully shows up on the form.
 
-### How to add work list site map to your custom app**    
+### How to add work list site map to your custom app    
 
 >[!NOTE]
 >Enable sales insights in your organization before you add the site map to your custom app.     
