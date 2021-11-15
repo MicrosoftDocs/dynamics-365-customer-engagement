@@ -142,7 +142,7 @@ Sales Premium supports the following languages:
 | Notes analysis | Supports English, French, German, Italian, and Dutch for machine learning models. |
 | Talking points and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For contact suggestions, the body of emails and meetings are analyzed in English and French.<br>- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
-| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, and Arabic. |
+| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, and Arabic. |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
 
@@ -245,7 +245,7 @@ To add the **Up next** widget to a managed entity form, follow these steps:
 17.	Publish all customizations.    
 18.	Verify that the **Up next** Widget successfully shows up on the form.
 
-### How to add work list site map to your custom app**    
+### How to add work list site map to your custom app    
 
 >[!NOTE]
 >Enable sales insights in your organization before you add the site map to your custom app.     
