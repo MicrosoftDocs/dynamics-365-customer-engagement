@@ -1,5 +1,5 @@
 ---
-title: "Best Practices for customizing Dynamics 365 Field Service  | MicrosoftDocs"
+title: "Best practices for customizing Dynamics 365 Field Service  | MicrosoftDocs"
 description: Learn about how to get the most out of your Dynamics 365 Field Service customizations.
 ms.date: 11/15/2021
 ms.reviewer: krbjoran
