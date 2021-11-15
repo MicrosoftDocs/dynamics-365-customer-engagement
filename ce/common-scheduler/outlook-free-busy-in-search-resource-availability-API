@@ -17,7 +17,26 @@ search.app:
 ---
 
 
-# Outlook Free/Busy Schedules included in search resource availability API included in resource scheduling
+# Outlook Free/Busy Schedules included in search resource availability API 
+
+Universal Resource Scheduling's search resource availability API can now consider Outlook appointments in Exchange, in addition to availability defined in Dynamics (through Bookings and Dataverse Appointments). Resources do not have to manually sync their Outlook appointments to Dataverse. Including a complete view of availability from both Exchange and Dynamics increases scheduler productivity and reduces avoidable scheduling errors. 
+
+Some key points:
+
+- Developers are provided this extensibility feature to use when directly calling the search resource availability API. It is not available from availability searches triggered from the Schedule Board or from the Book button on any schedulable entity.  
+- The feature is available for the search resouce availability APIs for both requirements and requirement groups
+- The API retrieves only free/busy schedules and not the name of the appointments
+
+feature is only available when directly calling the search resource availability API, and is not available from availability searches from the Schedule Board
+- 
+- Outlook appointments are considered as location agnostic
+- Outlook free/busy schedules are t
+- The legend shows the colors for various appointment statuses.
+
+
+
+Developers are provided this extensibility feature to use when calling the search resource availability API for both requirements and requirement groups. They can make this API call from custom web apps, a Dynamics 365 portal or Power Apps canvas apps to support scheduling scenarios.  
+
 
 Organizations often use appointments in Dynamics 365. Typical examples are a salesperson using appointments to meet with potential customers or a customer service rep creating a service appointment to help a customer with an issue. Other examples may include organizations creating appointments because of integrations with other systems.
 
@@ -38,19 +57,19 @@ For a guided walkthrough, check out the following video.
 - Field Service 8.8.40.x+ (April Wave 1 2021)
 - Resource Scheduling Optimization 3.3.0.108+, only if there is a requirement for appointments to be supported in optimization-related scheduling operations.
 
-## Step 1: Enable setting to include appointments in resource scheduling 
+## Step 1: Enable setting to include Outlook free/busy in search resource availability API  
 
 ### At the organization level 
 
 1. Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** and set **Include Appointments** to *Yes*.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of organization level setting.](./media/Appointment01-OrgLevelConfiguration.png)
+> ![Screenshot of organization level setting.](../media/OutlookFreeBusyInSAAPI-SchedulingParameters)
 
 2. An informational dialog will appear. Select **Got it. Let’s enable.** Then **Save and close**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of dialog.](./media/Appointment02-Dialog.png)
+> ![Screenshot of dialog.](../media/OutlookFreeBusyInSAAPI-Dialog)
 
 All resources are automatically opted-in the first time you enable the feature. You may opt out resources using the resource level setting, which is visible only if the organization level setting is set to *Yes*.  
 
@@ -61,10 +80,10 @@ The resource level setting will only show if the organization level setting is e
 To control individual resources, go to the **Scheduling** tab on the resource form and change the **Include Appointments** field. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource level setting.](./media/Appointment04-ResourceLevelConfiguration.png)
+> ![Screenshot of resource level setting.](../media/OutlookFreeBusyInSAAPI-ResourceFlag)
 
 
-## Step 2: Create an appointment
+## Step 2: Call the API 
 
 You can create Dataverse appointments in Dynamics 365 apps like in
 - [Customer Service Hub using Activities](/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-activities). 
@@ -88,9 +107,6 @@ Some more key points:
 - Hovering on an appointment shows more details in a card. 
 - The legend shows the colors for various appointment statuses.
 
-### Customize appointment colors on the schedule board
-
-The new schedule board uses the colors defined in [Dataverse appointment](/dynamics365/customer-engagement/web-api/appointment) metadata. Customizing the **Color** metadata of each of the **StatusCode** option set values will change the appointment colors that show on the new schedule board.  
 
 ### Hide canceled appointments on the schedule board
 
@@ -100,14 +116,6 @@ Go to the old schedule board using the toggle in the top-right. Open the tab and
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of hide canceled tab setting in old schedule board.](./media/Appointment06-HideCanceledAppointment.png)
-
-
-### Appointments marked private in Outlook will not show their subject on the schedule board
-
-As of Field Service 8.8.41.28+, appointments that are marked _Private_ in Outlook and synced to Dynamics 365 using server-side synchronization will not show their subject on the schedule board. If the subject is synced to the Dataverse appointment record, it will be visible there, but the schedule board will show **Private** instead of the subject on the appointment and on the card that shows when hovering on an appointment. 
-
-> [!div class="mx-imgBorder"]
-> ![The schedule board with an appointment that was marked "Private" in Outlook](./media/Appointment07-PrivateAppointments.png)
 
 
 ## Step 4: Respect appointments when scheduling 
@@ -132,25 +140,5 @@ Some more key points:
 - Scheduling operations will consider appointments as location-agnostic.
 - If an appointment had related bookings, those bookings will not be shown and will not be considered in scheduling operations.
 
-## Architecture diagram
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of appointments added as a data source.](./media/Appointment00-BlockDiagramResized.png)
-
-## Deprecation note
-
-Including appointments turns off the deprecated configuration to automatically create bookings when an appointment is created.
-
-If your organization was configured to automatically create bookings when an appointment is created, the informational dialog will let you know that the system will be turning off this setting, as appointments will be included directly in resource scheduling, without needing related bookings. Only enable the feature if you do not have custom actions or workflows on the related bookings. 
-
-You may further verify that the deprecated configuration has been turned off, by going to **Settings** > **Administration** > **System Settings** > **Calendar** and checking that **Scheduling Engine** is set to **(Default) Scheduling Engine**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot to verify deprecated configuration has been turned off.](./media/Appointment03-DeprecatedFeatureIsOff.png)
-
-
- Previously, the schedule board and scheduling operations used only [bookings](/dynamics365/customer-engagement/web-api/bookableresourcebooking) as a data source. If you wanted to show appointments on the schedule board or respect them in resource availability, you would first need to create corresponding bookings. This functionality created issues when changes in bookings did not reflect in appointments and vice versa. This April 2021 Wave 1 feature adds [Microsoft Dataverse appointments](/dynamics365/customer-engagement/web-api/appointment) as another data source for resource scheduling.
-
-Now Microsoft Dataverse appointments are included directly in resource scheduling, so there is no longer any need to have bookings automatically created for appointments and to face the issue of changes in one not reflecting in the other. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
