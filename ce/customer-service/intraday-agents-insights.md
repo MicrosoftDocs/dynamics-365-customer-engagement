@@ -38,7 +38,7 @@ The agents insights report consists of the following metrics.
 |-------|-------|--------|
 | Agents logged in | The number of agents who are signed in.| Live chat, Digital messaging, Voice |
 | Agents with available capacity | The number of signed-in agents who can accept incoming conversation requests as well as their available capacity across all capacity profiles. Unit-based capacity is accounted against the unit capacity profile. |Live chat, Digital messaging, Voice|
-| Average handle time per session | The average time taken by an agent to accept an incoming session after it is assigned. |Live chat, Digital messaging, Voice |
+| Average handle time per session | The average handle time is derived as the total session handle times by the number of sessions handled by the agents. The session handle time is the total duration an agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. |Live chat, Digital messaging, Voice |
 | Session reject rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |Live chat, Digital messaging, Voice |
 | Session time out rate | The percentage of sessions that were timed out, out of the total sessions assigned. |Live chat, Digital messaging, Voice |
 | Session transfer rate | The percentage of sessions that were transferred to another agent or queue. |Live chat, Digital messaging, Voice |
