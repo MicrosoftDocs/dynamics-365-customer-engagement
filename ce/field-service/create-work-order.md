@@ -159,7 +159,7 @@ In the Field Service 2021 wave 2 update (8.8.47+), the work order ribbon is simp
 
 For a guided walkthrough, check out the following video on Simplified Work Order commands, ability to turn price calculations on and off, and more Wave 2 2021 updates to the Work Order.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWP4vU]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP4vU]
 
 
 
