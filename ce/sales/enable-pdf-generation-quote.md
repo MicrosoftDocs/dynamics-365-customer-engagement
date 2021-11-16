@@ -82,9 +82,9 @@ After you enable PDF generation, sellers will be able to generate a PDF, downloa
 > - The **Save to SharePoint** button is available to users when SharePoint integration is enabled for your organization and the **Document management** check box is selected on the entity page. If they don't see the button, make sure that SharePoint integration and document management are enabled. For more information about the **Document Management** check box, see [Enable or disable entity options](/powerapps/maker/common-data-service/edit-entities#enable-or-disable-entity-options).
 > - The **Save to Dynamics** button is available to users when **Notes** is enabled for the primary entity. If they don't see the button, make sure the **Notes (includes Attachment)** check box is selected on the entity page in the **Customization** area. By default, notes are enabled on all out-of-the-box entities. For more information about the **Notes** check box, see [Entity options that can only be enabled](/powerapps/maker/common-data-service/edit-entities#entity-options-that-can-only-be-enabled). 
 
-## Enable or disable PDF generation if you're using Dynamics 365 for phones on a mobile device
+## Enable or disable PDF generation if you're using the Dynamics 365 for phones mobile app
 
-If you're using Dynamics 365 for phones on a mobile device, you can enable the capability to create PDF files only on the following entities: Accounts, Contacts, Leads, Opportunities, Quotes, Orders, and Invoices.
+If you're using the **Dynamics 365 for phones** mobile app, you can enable the capability to create PDF files only on the following entities: Accounts, Contacts, Leads, Opportunities, Quotes, Orders, and Invoices.
 
 1. In the site map, under **Setup**, select **Sales settings**.
 
@@ -95,6 +95,8 @@ If you're using Dynamics 365 for phones on a mobile device, you can enable the c
     ![PDF generation settings page to enable PDF generation.](media/enable-pdf-generation-sp.png "PDF generation settings page to enable PDF generation")
 
 4. Select **Save**. 
+
+---
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
