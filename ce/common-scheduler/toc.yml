@@ -56,6 +56,8 @@
       href: developer/register-deploy-custom-plugin-preferred-geospatial-data-provider.md
     - name: "Sample: Custom plug-in to use Google Maps API as geospatial data provider"
       href: developer/sample-custom-plugin-google-geospatial-data-provider.md
+  - name: Consider Outlook Free Busy in Search Resource Availability API
+    href: developer/outlook-free-busy-in-search-resource-availability-API.md
   - name: Customizing resource matching
     items: 
     - name: Understanding and customizing resource matching
