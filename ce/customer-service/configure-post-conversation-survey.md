@@ -62,7 +62,7 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
 
        - In the **Message** box that appears, select the default message text or type a custom message. The personalized survey link will be appended to the message and displayed to the customer.
    - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
-5. Select the **Bot conversation survey (preview)** checkbox to share surveys for conversations that are handled by bot agents.
+5. Select the **Bot conversation survey (preview)** checkbox to share surveys for conversations that are handled by bots.
    
    > [!NOTE]
    > In preview, the bot conversation survey option is available for only the live chat channel.
