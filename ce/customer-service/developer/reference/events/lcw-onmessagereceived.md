@@ -1,14 +1,14 @@
 ---
-title: "lcw onMessageReceived | MicrosoftDocs"
-description: lcw onMessageReceived (Omnichannel for Customer Service JavaScript API reference)
-ms.date: 04/16/2021
+title: "lcw:onMessageReceived | MicrosoftDocs"
+description: lcw onMessageReceived event (Omnichannel for Customer Service JavaScript API reference)
+ms.date: 11/10/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
-# lcw:onMessageReceived (Omnichannel for Customer Service JavaScript API reference)
+# lcw:onMessageReceived event (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
@@ -154,10 +154,17 @@ window.addEventListener("lcw:onMessageReceived", function handleWidgetMessageRec
 ```
 
 ### See also
-
-[`lcw:onMessageSent`](lcw-onmessagesent.md)<br />
-[`lcw:ready`](lcw-ready.md)<br />
-[`lcw:error`](lcw-error.md)<br />
+[lcw:ready](lcw-ready.md)  
+[lcw:error](lcw-error.md)  
+[lcw:chatRetrieved](lcw-chatRetrieved.md)  
+[lcw:chatQueued](lcw-chatQueued.md)  
+[lcw:onClose](lcw-onClose.md)  
+[lcw:closeChat](lcw-closeChat.md)  
+[lcw:startChat](lcw-startChat.md)   
+[lcw:onMinimize](lcw-onMinimize.md)  
+[lcw:onMaximize](lcw-onMaximize.md)  
+[lcw:onMessageSent](lcw-onMessageSent.md)  
+[lcw:threadUpdate](lcw-threadUpdate.md)   
 [`Live chat SDK JavaScript API reference`](../../omnichannel-reference.md)
 
 

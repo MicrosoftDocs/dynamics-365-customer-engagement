@@ -1,7 +1,7 @@
 ---
-title: "Enhanced Collaboration Experience with Microsoft Teams| MicrosoftDocs"
+title: "Enhanced Collaboration for Microsoft Teams with Dynamics 365 app"
 ms.custom: 
-description: "Connect with Microsoft Teams and collaborate with team members using the Dynamics 365 app for Microsoft Teams."
+description: "Learn how to use Enhanced Collaboration with Microsoft Teams, and connect a record or view to a team channel from Dynamics 365 customer engagement apps."
 ms.date: 5/30/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Enhanced Collaboration Experience with Microsoft Teams
+# Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams
 
 Easily connect customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, or Dynamics 365 Project Service Automation) records or views to a Microsoft Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel.
 

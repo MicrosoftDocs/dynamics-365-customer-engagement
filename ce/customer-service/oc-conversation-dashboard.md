@@ -1,10 +1,10 @@
 ---
 title: Conversation dashboard in Omnichannel for Customer Service | Microsoft Docs
 description: Learn about the Conversation dashboard insights to better understand agent performance in your organization.
-ms.date: 04/09/2021
+ms.date: 10/07/2021
 ms.topic: article
-author: Meghanalanka
-ms.author: v-mlanka
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 
@@ -48,7 +48,7 @@ Conversation charts are displayed as shown in the image and described in the tab
 
 | Title | Description |
 | -------------------- | ----------------- |
-| Incoming conversations vs. engaged conversations | The number of conversations initiated by the customer versus the number that are accepted and engaged in by agents. |
+| Incoming conversations vs. engaged conversations | The number of conversations initiated by the customer versus the number of conversations that are accepted and engaged in by agents. |
 | Incoming conversations by channel | The number of conversations initiated by the customer and presented to an agent, sorted by channel. |
 | Avg. CSAT | The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice has been configured as a post-conversation survey tool.  |
 | Abandon rate | The trend in percentage of conversations that aren't engaged by agents, by day. |

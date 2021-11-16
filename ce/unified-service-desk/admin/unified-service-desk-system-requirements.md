@@ -79,7 +79,8 @@ You have deployed Unified Service Desk in a sandbox environment and when you res
 After you enable the web client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
 
 <a name="appvirtual"></a>   
-## Software requirements for Citrix XenApp application virtualization  
+## Software requirements for Citrix XenApp application virtualization
+
  You can install and run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client as a published app on Citrix XenApp 7.6. This allows agents to access the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client from a central location.  
 
  You can also configure a Windows application as a virtual application on Citrix XenApp 7.6 that run as a hosted application in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate with Citrix applications](../integrate-citrix-applications.md)  

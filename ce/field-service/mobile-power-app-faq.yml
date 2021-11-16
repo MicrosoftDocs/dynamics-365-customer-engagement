@@ -31,7 +31,7 @@ sections:
          
       - question: Can I customize the default booking calendar control, such as by changing the booking cell content?
         answer: |
-          Currently, customizations for the default booking calendar control aren't supported.
+          Yes, you can customize the calendar to replace the existing primary field and add up to three custom fields. For more information, see [edit the booking calendar control](/dynamics365/field-service/mobile-power-app-configure#edit-the-bookings-calendar-control).
   - name: Maps and locations
     questions:          
       - question: How do I enable address suggestions?
@@ -62,6 +62,10 @@ sections:
       - question: While running the Field Service (Dynamics 365) mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
         answer: |
           Search from the offline application will always search the local device database for data, which is defined within the mobile offline profile.
+      - question: Do WebResources work in offline mode?
+        answer: |
+          There are currently limitations in support of WebReources while using the mobile app in offline and online modes. These limitations vary by device operating system. For more information, see the table in [Platform Documentation](/dynamics365/mobile-app/mobile-offline-capabilities#limitations)
+          For this reason, we recommend you develop using the [Power Apps component framework](/powerapps/developer/component-framework/overview), which will have broad cross-platform support on mobile and browser.
   - name: Sign in
     questions:     
         - question: What do the "Reconfigure" and "Sign out" options do?
@@ -101,6 +105,10 @@ sections:
         - question: Can external users access the Field Service (Dynamics 365) mobile app?  
           answer: |
            Currently, external users can't access the Field Service (Dynamics 365) mobile app.
+           
+        - question: Can I access SharePoint documents in offline mode?
+          answer: |
+           Access to SharePoint documents is not currently supported in offline mode. 
 
   - name: Entities, forms, views, and fields 
     questions:
@@ -147,3 +155,9 @@ sections:
       - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
         answer: |
           Not at this time. Support for non-public clouds will be added to the Field Service (Dynamics 365) mobile app in the near future.
+          
+      - question: How do I change the time zone for the app?
+        answer: |
+          While signed into the app, select the three vertical lines or swipe from the left to access the sitemap. Select the settings icon to find **Time Zone**. Change to desired time zone. Fully close and reopen the application for time zone changes to take effect. 
+      
+

@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 08/09/2021
+ms.date: 10/19/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,7 @@ searchScope:
 - Customer Service
 ---
 
-# Assignment methods for queues
+# Assignment methods in unified routing
 
 Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the Customer Service Hub or Omnichannel admin center app.
 
@@ -33,14 +33,24 @@ The following assignment methods are available out of the box:
 
 - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence. The initial order is based on when a user is added to queue. Subsequently, the order gets updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment too, the work items are prioritized in the first in first out manner, that is, the work item that was created first is assigned first.
 
-- **Custom configuration**: Lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
+You can also create your own assignment method to suit the business needs.
+
+- **Create new**: Lets you create and use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
 
   - **Prioritization rulesets**: Let you define the order in which the work items will be assigned to agents when they are available to take more work.
   - **Assignment rulesets**: Represent a set of conditions that are used to select agents and use an order by option to sort the matching agents.
 
 ### Assignment cycle
 
-Assignment cycle is prioritization of work items, their selection, and their assignment to the best-suited agent based on the assignment rules. An assignment cycle starts with one of the many triggers, including the arrival of a new work item in the queue or changes in the availability of the agent workforce associated with that queue. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
+Assignment cycle is prioritization of work items, their selection, and their assignment to the best-suited agent based on the assignment rules. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
+
+The assignment cycle starts with one of the following triggers:
+
+- Arrival of a new work item in the queue.
+- Change to agent presence.
+- Updates to agent capacity.
+- Addition of an agent to the queue.
+- Periodic trigger every five minutes for record type of work item.
 
 
 ## How prioritization rulesets work
@@ -49,7 +59,7 @@ A prioritization ruleset is an ordered list of prioritization rules. Every prior
 
 You can create only one prioritization ruleset per queue.
 
-As an example, consider the prioritization ruleset as seen in the following screenshot with three rules.
+As an example, consider the prioritization ruleset as seen in the following screenshot with four rules.
 
 ![Prioritization scenario.](media/ur-prioritization-scenario.png "Prioritization scenario")
 
@@ -67,10 +77,18 @@ Some important points about prioritization rules are as follows:
 - Prioritization rules are run during every assignment cycle. If you change any attributes of the work item, such as the priority of the case, that change will be considered during the next assignment cycle.
 - By default, the queue is sorted in the "first in first out" basis. If you don't create a prioritization rule, then the oldest work item will be assigned first.
 - The work items that don't match the criteria of any of the prioritization rule sets are kept in the last priority bucket, and are ordered by "First in first out".
+- Prioritization rules are skipped for affinity work items and such work items will be assigned before other work items in the queue. For information about affinity, see [Agent affinity](create-workstreams.md#agent-affinity).
 
 ## How assignment rulesets work
 
-The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the agents to select and an order by field to sort the matching agents. At runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agents exist, they are sorted by the ordered-by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated. This can be thought of as gradual relaxation of constraints in the assignment such that first the strictest criteria is applied, and then the conditions are slowly reduced so that the best agent is found.
+The assignment ruleset is an ordered list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the agents to select and an order by field to sort the matching agents. At runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agent exists, they're sorted by the order by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated. This can be thought of as a gradual relaxation of constraints in the assignment, such that first, the strictest criteria is applied, and then the conditions are slowly reduced so that the best agent is found. If no matching agents are found, then work item remains in the queue.
+
+In the assignment rule, the system user attributes are matched with the requirement of the work item. When you select static match, the condition is formed on the System User entity attribute and static values. When you select dynamic match, the conditions on the left are based on the system user root entity and the conditions on the right are based on the conversation root entity. You can drill down to two levels on the conversation root entity to form the rule conditions. An assignment rule with the dynamic match and static match is as follows.
+
+:::image type="content" source="media/assignment-rule-root-entity.png" alt-text="Assignment rule with dynamic match and static match conditions.":::
+
+In scenarios when more than one agent matches the requirement of the work item, the system resolves the assignment in a round robin manner, based on the earliest last assignment time. For example, three agents Lesa, Alicia, and Alan are available with the coffee refund skill and 100 units capacity, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively. A work item on coffee refund arrives in the queue. The system assigns the work item to Lesa because her last assignment was the earliest at 10:30 AM. Meanwhile, if another coffee refund work item comes, the system will assign it to Alicia and not to Lesa or Alan.
+
 
 ### Components of an assignment rule
 
@@ -86,19 +104,26 @@ The assignment rules are composed of the following items:
      - **User skills**: Represents the skills associated with the user that can be used for performing skill-based assignment.
      - **Calendar Schedule**: Schedule of the user as represented in the user service scheduling calendars.
      - **Bot attributes**: Can be used only when you have configured bots as users and want to perform some comparisons on them.
-   - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes. Unified routing filters the attribute specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
+   - **Operators**: Define the comparison relationship between the User attribute and incoming work item attributes. 
+
+      Unified routing filters the attribute-specific operators for you to choose from. Some special operators that are available for the attribute types are as follows.
     
-    |Attribute type|Operator|Definition|
-    |--------------|--------|----------|
-    |Presence Status| Equals, Does not Equal, Contains Data, Does not Contain Data| Use this operator to find agents who have matching presence status as specified in the work item.|
-    |Capacity||Use this operator to compare if the agent has enough capacity to work on the specified items|
-    |User skills|Exact match|Use this operator to find agents who have all the skills which the incoming work item requires|
-    |User skills|Custom match|Use this operator to find agents who have the custom skills that map to a lookup attribute on the work item. Read more (link)|
-    |Calendar Schedule|Is working|Use this operator to find agents who are working as per their service scheduling calendars|
-    ||||
-  - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is same as that of the customer associated with the case.
+      |Attribute type|Operator|Definition|
+      |--------------|--------|----------|
+      |Presence Status| Equals, Does not equal, Contains data, Does not contain data| Use an operator to find agents who have matching presence status as specified in the work item.|
+      |Capacity|Equals, Does not equal, Contains data, Does not contain data|Use an operator to compare if the agent has enough capacity to work on the specified items.|
+      |User skills|Exact match|Use an operator to find agents who have all the skills which the incoming work item requires|
+      |User skills|Custom match|Use the operator to find agents whose skills will match at runtime based on the selected lookup attribute on the work item.|
+      |Calendar schedule|Is working|Use this operator to find agents who are working as per their service scheduling calendars.|
+      ||||
   
-  ![Sample dynamic match](media/dynamic-value-match.png "Sample dynamic match")
+   - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is same as that of the customer associated with the case.
+  
+    > ![Sample dynamic match](media/dynamic-value-match.png "Sample dynamic match")
+
+    For some operators, values are not required. They can be conditions, such as “Contains data”, “Does not contain data”, and “Calendar schedule: is working”.
+
+    For user skills, the values are predefined for the operators. More information: [Set up skill-based routing](set-up-skill-based-routing.md)
 
 - **Order by**: If multiple agents match the conditions in a rule, you can use the "Order by" clause to find the best suited one. You can specify the following order by clauses:
 
@@ -108,7 +133,7 @@ The assignment rules are composed of the following items:
      - Profile-based available capacity
      - Proficiency
      - Skill count
-  - **User Attributes**: These are attributes on the system user entity.
+  - **User Attributes**: These attributes are defined on the system user entity.
 
 A sample assignment rule is explained in the following scenario with a screenshot.
 

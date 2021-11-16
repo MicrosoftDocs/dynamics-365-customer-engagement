@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 07/22/2021
+ms.date: 11/09/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -97,6 +97,17 @@ Read more: [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-
 - As a best practice, Teams recommends that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the calendar in Teams. To make it easy for guests to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and select the link to join the event.
 - Add a guest as a presenter in your webinar by adding them as a speaker in your event or session in Dynamics 365 Marketing using the steps detailed in the table above.
 
+#### View webinar engagement data
+
+After you run a Teams webinar through Dynamics 365 Marketing, you can view attendee engagement data (check-in and check-out times) in the Marketing app.
+
+To view the engagement data, prior to the webinar, send an email invite to webinar registrants that contains the webinar **Join in Teams** link. See [Inviting registrants to attend the live event through email](teams-webinar.md#inviting-registrants-to-attend-the-live-event-through-email) for details about creating an invite email in the Marketing email designer.
+
+Ten minutes after the end of the webinar (based on the end date configured in the Marketing app), the system will automatically populate the engagement data for attendees.
+
+> [!IMPORTANT]
+> Organizations that manage their Teams user policies need to make sure that the admin enables the **allowTrackingInReport** and **allowEngagementReport** policies before synchronizing the engagement data. For more information, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+
 ### Teams meetings
 
 The Teams meetings option allows you to create an interactive online meeting experience where all attendees can share audio, video, or content. More information about Teams meetings: [Meetings in Microsoft Teams](/microsoftteams/tutorial-meetings-in-teams)
@@ -112,6 +123,35 @@ Live events are useful for conference keynotes or meetings where a few presenter
 
 > [!NOTE]
 > You can only create "public" Teams live events from Dynamics 365 Marketing. These events are open to anyone. Attendees are not required to sign in to attend the event.
+
+#### Enable Teams live events in Dynamics 365
+
+To enable Teams live events, the following policy needs to be set by the Teams tenant administrator. Dynamics 365 only supports creating public live events. This setting ensures that anyone can watch the event, including anonymous users.
+
+To allow anyone to watch the live event, run the following PowerShell command:
+
+```powershell
+Set-CsTeamsMeetingBroadcastPolicy -BroadcastAttendeeVisibilityMode Everyone
+```
+
+To enable live event scheduling, run the following command:
+
+```powershell
+Set-CsTeamsMeetingBroadcastPolicy -AllowBroadcastScheduling $true
+```
+
+To allow the option to disable meeting recordings, run the following command:
+
+```powershell
+Set-CsTeamsMeetingBroadcastPolicy -BroadcastRecordingMode UserOverride
+```
+
+You can also apply these settings in the Teams admin center:
+
+> [!div class="mx-imgBorder"]
+> ![Teams admin center.](./media/teams-webinar-admin-center.png)
+
+Read more: [Set up for live events in Microsoft Teams](/microsoftteams/teams-live-events/set-up-for-teams-live-events)
 
 #### Live event settings
 
@@ -135,6 +175,10 @@ More information on details and settings for Teams live events: [Schedule a Team
 | Presenter                    | In a Teams live event, a presenter is a person who presents audio, video, or a screen to the live event, or moderates Q&A. Presenters can only share audio, video, or a screen (desktop or window) in live events produced in Teams.| If you want to invite another person to present to the live event, add them as a speaker to the event or the session. To add the person as a speaker, create a speaker engagement at the event (or session) level. The speaker is added as the “presenter” for the live event. Ensure that the speaker email ID is filled in.
 | Producer                     | A producer is a host that makes sure attendees have a great viewing experience by controlling the live event stream. If you want another user to have the ability to produce the live event, you can add the producer user as an **Event Team Member**. This will only work when the Event Team Member is a Dynamics 365 Marketing and Microsoft Teams user. On an event, navigate to the **Additional Information** tab and add the team members. Team members can have any role in Dynamics 365 Marketing, but they will always be producers in the Teams live event. |
 
+> [!Important]
+>
+> **Join in Teams** buttons generated for in the Dynamics 365 Marketing email editor *cannot* be used for sending live event links to Presenters or Producers. Buttons generated in the email editor only work for attendees. Presenters or Producers can access the live event by following the custom link in their calendar or in the Marketing app by going to **Events** > **Streaming URL**.
+
 **Notes**:
 
 - Captions configuration options (Teams preview feature) are not available when creating live events from Dynamics 365 Marketing.
@@ -146,11 +190,11 @@ More information on details and settings for Teams live events: [Schedule a Team
 - As a best practice, Teams recommends that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and select the link to join the event.
 - Add a guest as a presenter in your live event by adding them as a speaker in your event or session in Dynamics 365 Marketing using the steps detailed above.
 
-### Others
+### Using other webinar providers
 
 If your organization has already set up a webinar provider (using ON24), you can find the existing webinar configurations after setting the streaming provider to **Other**. Doing so reveals the classic "Webinar Configuration" settings. More information on the classic webinar settings: [Set up a webinar](set-up-webinar.md)
 
-## The Teams live event or meeting attendee link
+## Teams live event or meeting attendee link
 
 The Teams attendee URL is created when you save a Marketing event that is being streamed with Teams. You can navigate to the Teams live event or meeting using the attendee URL.
 
@@ -166,28 +210,35 @@ Once a live event or meeting is created or updated, and the producers and presen
 
 ## Inviting registrants to attend the live event through email
 
-After creating the event, going live with it, and gathering registrations, you should [send the registrants an email](email-design.md) to provide the attendee URL. In the Marketing email designer, you will find a new **Teams check-in** element in the new **Events communication** area.
+After creating the event, going live with it, and gathering registrations, you should [send the registrants an email](email-design.md) to provide the attendee URL. In the Marketing email designer, you will find a **Join in Teams** option in the **Link to** menu for the button element.
 
-The **Teams check-in** button generates a unique attendee URL for each registrant. When the registrant selects the button, Marketing will create a relevant check-in record for them, giving insights about the attendance of the live event in Marketing.
+The **Join in Teams** button generates a unique attendee URL for each registrant. When the registrant selects the button, Marketing will create a relevant check-in record for them, giving insights about the attendance of the live event in Marketing.
 
 > [!IMPORTANT]
-> Because the **Teams check-in** button generates a unique URL for each registrant, anyone who selects the **Teams check-in** button from a forwarded email will not be able to check in to the event.
+> Because the **Join in Teams** button generates a unique URL for each registrant, anyone who selects the **Join in Teams** button from a forwarded email will not be able to check in to the event.
 
 > [!TIP]
-> If an attendee selects the **Teams check-in** button *more than 30 minutes* before the event starts, the check-in **will not** be created. This is a hard-coded feature to prevent accidental check-ins when a recipient tests the link after they receive the email.
+> If an attendee selects the **Join in Teams** button *more than 30 minutes* before the event starts, the check-in **will not** be created. This is a hard-coded feature to prevent accidental check-ins when a recipient tests the link after they receive the email.
 
-**To create a Teams check-in button**:
+**To create a Join in Teams button**:
 
 1. Create [a new email](email-design.md) in the email editor.
-1. In the **Toolbox** pane, go to **Events communication** and drag and drop the **Teams check-in** element into the email. This will create a check-in button.
+1. In the **Toolbox** pane, go to **Elements** and drag and drop a **Button** element into the email.
+1. The **Edit button** options will appear in the right pane. For the **Link to** option, select **Join in Teams**.
 
-    ![Teams check-in element.](media/teams-webinar-check-in-element.png "Teams check-in element")
+    > [!div class="mx-imgBorder"]
+    > ![Join in Teams button](media/teams-webinar-join-in-teams.png "Join in Teams button")
 
-3. In the **Properties** pane, select the Event or Session you want the customer to join. (Note: the Event or Session needs to be set to a Teams live event or meeting and must be in “Live” state before you can select it). Design the button according to the design of the email.
+1. In the **Edit button** pane, open the **Type** dropdown and select whether you want the button to link to an **Event** or a **Session**.
+1. Select the specific event or session you want the customer to join. Next, enter the text label for the button and adjust the design to correspond with the email.
 
-    ![Teams check-in button options.](media/teams-webinar-check-in-options.png "Teams check-in button options")
+    > [!NOTE]
+    > The event or session needs to be set to a Teams live event or meeting and must be in a "Live” state before you can select it.
 
-4. To preview the button in the **Preview** panel, select a contact that has a registration for the selected Event or Session.
+    > [!div class="mx-imgBorder"]
+    > ![Join in Teams button options.](media/teams-webinar-event-or-session.png "Join in Teams button options")
+
+1. To preview the button in the **Preview and test** panel, select a contact that has a registration for the selected event or session.
 
 ## Keeping Dynamics 365 Marketing and Teams in sync
 
