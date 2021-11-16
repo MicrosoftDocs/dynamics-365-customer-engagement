@@ -11,14 +11,6 @@ manager: shujoshi
 
 Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system.
 
-## License and role requirements
-
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 ## Predefined security roles
 
 Security roles control users access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role defines  users access to data and their interactions with that data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
@@ -27,7 +19,7 @@ The predefined security roles for Sales include permissions and access levels th
 
 | **Security roles** | **Who needs it?** | **Applies to** | **Access granted** |
 |--------------------|-------------------|----------------|--------------------|
-|Forecast Appuser  | System security role. Do not assign this role to any users. | Sales Enterprise and Sales Premium | Internal role used by Dynamics 365 to perform certain forecasting opertions. |
+|Forecast Appuser  | System security role. Do not assign this role to any users. | Sales Enterprise and Sales Premium | Internal role used by Dynamics 365 to perform certain forecasting operations. |
 | Forecast Manager | Sales manager or an equivalent role who is responsible for configuring forecasts in the organization. | Sales Enterprise and Sales Premium | Configure, clone, deactivate, adjust, or delete a forecast. |
 | Forecast user | Any user in the organization who needs access to the forecast data for tracking and analysis  | Sales Enterprise and Sales Premium | View forecast and drill-down forecast data |
 | Playbook Manager | Sales manager or an equivalent role that creates playbooks for the organization. | Sales Enterprise and Sales Premium | Create playbook categories and playbook templates, and add documents to the playbook template. |
@@ -59,8 +51,6 @@ responsible for enforcing best practices for Playbooks, assign the Sales Manager
 4. Select **Manage Roles**, and choose the roles that you want to assign to the user.
 
 5. Notify the user and have them check their permissions.
-
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also   
 
