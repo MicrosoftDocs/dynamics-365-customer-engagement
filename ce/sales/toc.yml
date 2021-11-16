@@ -118,8 +118,10 @@
         href: add-kanban-control.md
     - name: Work with templates
       items:
-      - name: Use Word templates to create standardized documents   
+      - name: Create Word templates in Sales Enterprise and Premium  
         href: /power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context
+    - name: Create Word templates in Sales Professional  
+        href: /sales-professional/manage-word-templates?context=/dynamics365/context/sales-context    
       - name: Analyze and share your data with Excel templates
         href: /power-platform/admin/analyze-your-data-with-excel-templates?context=/dynamics365/context/sales-context
       - name: Create email templates
