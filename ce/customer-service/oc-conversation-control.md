@@ -123,7 +123,7 @@ After you type **/c** in the communication panel messaging area, you can continu
 
 ## Transfer conversations
 
-In the communication panel, you can transfer the work item either to an agent or a queue. The transfer to the agent can be performed only after consult with the agent has been established. Without bringing agents in to consult, only transfer to queues will be available. The agent can select a queue and drill down to specific agents. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
+In the communication panel, you can transfer the work item either to an agent or a queue. The transfer to the agent can be performed only after consult with the agent has been established. Without bringing agents in to consult, only transfer to queues will be available. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
 
  > [!div class=mx-imgBorder]
  > ![Use the transfer option to launch the transfer list.](media/oceh-cc-options-ellipsis-tansfer.png "Use the transfer option to launch the transfer list")
