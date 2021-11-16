@@ -34,7 +34,7 @@ For a detailed comparison of capabilities available with each license, go to the
 
 ### After I installed Sales Insights, I see a spike in the data usage. How much storage data does Sales Insights need?  
 
-When you install Sales Insights, corresponding analytics tables are created for contacts, opportunities, leads, accounts, and activityparty tables. The storage requirement for these analytics tables is directly proportional to the amount of data in Dataverse. The tables are stored as files in the managed data lake. For more information on storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
+When you install Sales Insights, corresponding analytics tables are created for contacts, opportunities, leads, accounts, and activityparty tables. The storage requirement for these analytics tables is directly proportional to the amount of data in Dataverse. The tables are stored as files in the managed data lake and will be counted against your total file storage quota. For more information on storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
 
 ## General
@@ -142,7 +142,7 @@ Sales Premium supports the following languages:
 | Notes analysis | Supports English, French, German, Italian, and Dutch for machine learning models. |
 | Talking points and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For contact suggestions, the body of emails and meetings are analyzed in English and French.<br>- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
-| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, and Arabic. |
+| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, and Arabic. |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
 
@@ -164,10 +164,6 @@ Depending on the region where your organization is hosted, data is stored in the
 | Switzerland (CHE) | Switzerland North | Switzerland West |
 
 More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
-
-### Will Sales Insights affect my storage quota?  
-
-Yes. After the install of Sales Insights, the last two years of key sales data required to deliver the advanced analytics and AI results including contacts, opportunities, leads, accounts, and activities are copied into your Sales Insights managed data lake and will be counted against your total file storage quota.
 
 ## Assistant
 
@@ -249,7 +245,7 @@ To add the **Up next** widget to a managed entity form, follow these steps:
 17.	Publish all customizations.    
 18.	Verify that the **Up next** Widget successfully shows up on the form.
 
-### How to add work list site map to your custom app**    
+### How to add work list site map to your custom app    
 
 >[!NOTE]
 >Enable sales insights in your organization before you add the site map to your custom app.     
