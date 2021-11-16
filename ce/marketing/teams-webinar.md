@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 11/04/2021
+ms.date: 11/09/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -133,6 +133,23 @@ To allow anyone to watch the live event, run the following PowerShell command:
 ```powershell
 Set-CsTeamsMeetingBroadcastPolicy -BroadcastAttendeeVisibilityMode Everyone
 ```
+
+To enable live event scheduling, run the following command:
+
+```powershell
+Set-CsTeamsMeetingBroadcastPolicy -AllowBroadcastScheduling $true
+```
+
+To allow the option to disable meeting recordings, run the following command:
+
+```powershell
+Set-CsTeamsMeetingBroadcastPolicy -BroadcastRecordingMode UserOverride
+```
+
+You can also apply these settings in the Teams admin center:
+
+> [!div class="mx-imgBorder"]
+> ![Teams admin center.](./media/teams-webinar-admin-center.png)
 
 Read more: [Set up for live events in Microsoft Teams](/microsoftteams/teams-live-events/set-up-for-teams-live-events)
 
