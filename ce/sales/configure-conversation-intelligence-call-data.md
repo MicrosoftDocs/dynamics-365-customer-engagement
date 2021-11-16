@@ -175,7 +175,7 @@ Upload the call recording or transcript to the created call recording repository
     <tr>
      <td valign="top"><code>locale</code></td>
      <td valign="top">&mdash;</td>
-     <td valign="top">Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH.</td>
+     <td valign="top">Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, he-IL, and ar-BH.</td>
     </tr>
     <tr>
      <td valign="top"><code>version</code></td>
