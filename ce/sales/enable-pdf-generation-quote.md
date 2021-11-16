@@ -29,7 +29,7 @@ Based on your license, select the appropriate tab to know how to enable or disab
 
 # [Sales Enterprise or Sales Premium](#tab/sales)
 
-1. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
+1. In lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
 2. In the site map, select **Overview**.
 
