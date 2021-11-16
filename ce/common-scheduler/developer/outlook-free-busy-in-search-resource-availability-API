@@ -39,20 +39,19 @@ Some key points:
 This one-time step grants permission to the Resource Scheduling Graph App to call relevant Graph APIs for reading users' organization and calendar information. It **must be performed by an Azure AD tenant administrator**.  
 
 To grant permissions to the Resource Scheduling Graph App, you'll need:
-INSERTBULLET HERE  {tenant-id} is your organization's tenant ID 
+* _{tenantId}_ is your organization's tenant ID 
 
-https://login.microsoftonline.com/{tenantId}/v2.0/adminconsent
-?client_id=e3337770-d284-47c9-b67f-b987033bd594
-&scope=https://graph.microsoft.com/Calendars.Read https://graph.microsoft.com/Organization.Read.All
-&state=/.default
 
 To grant the permissions:
 
-In a text editor, create the following URL string:
+In a text editor, create the following URL string, in the place of _{tenantID}_ insert the organization's tenant ID:
 
-https://login.microsoftonline.com/common/adminconsent?client_id=<Application Id>&state=12345&redirect_uri=<Redirect URL>
+  https://login.microsoftonline.com/{tenantId}/v2.0/adminconsent
+  ?client_id=e3337770-d284-47c9-b67f-b987033bd594
+  &scope=https://graph.microsoft.com/Calendars.Read https://graph.microsoft.com/Organization.Read.All
+  &state=/.default
 
-In a web browser, go to this URL, and sign in as a tenant administrator. The dialog box shows the list of permission the application requires, as specified in the application registration portal. Choose OK to grant the application these permissions.
+In a web browser, go to this URL, and sign in as a tenant administrator. The dialog box shows the list of permissions the application requires. Choose **Accept** to grant the application these permissions.
 
 
 ## Step 2: Enable setting to include Outlook free/busy in search resource availability API  
