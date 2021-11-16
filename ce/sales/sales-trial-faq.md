@@ -39,9 +39,7 @@ When the trial is ready, you can get started with the following resources:
 
 **Explore product tours and videos for key capabilities**
 
-The trial comes with product walkthroughs and videos, highlighting the important scenarios that you could try in the app and get the maximum value in minimal time. Select **Get started** at the lower-right corner to follow a guided  walkthrough that gets you started quickly on the salient features. 
-
-:::image type="content" source="media/trial-get-started.png" alt-text="Get started popup in trial":::
+The trial comes with product walkthroughs and videos, highlighting the important scenarios that you could try in the app and get the maximum value in minimal time. Select **Take a tour** at the lower-right corner to follow a guided  tour that gets you started quickly on the salient features.  
 
 Once you understand how different entities are connected to offer value, try the scenarios with sample data or with your own data. 
 
@@ -58,8 +56,9 @@ If you want to test scenarios beyond the ones covered in the product tour, go ah
 Your trial includes a simplified Trial app with a few important capabilities to get you started quickly. However, you can access the fully functional, Dynamics 365 Sales Premium environment with the following licenses and capabilities pre-installed:
 
 **Dynamics 365 Sales Enterprise**
-- Manage sales pipeline from lead to cash
-- Manage sales forecasting
+
+- Manage sales pipeline using leads and opportunities
+- Forecast sales
 - Manage products, goals, playbooks
 - Enable seamless collaboration by integrating Dynamics 365 with Microsoft Teams
 

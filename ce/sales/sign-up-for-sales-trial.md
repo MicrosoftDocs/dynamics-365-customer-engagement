@@ -11,14 +11,16 @@ ms.reviewer: shujoshi
 ---
 # Sign up for a free Dynamics 365 Sales Enterprise trial 
 
-Sales Enterprise offers a 30-day free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales Enterprise features](overview.md).
+Sales Enterprise offers a 30-day free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
 
 **To sign up for the trial**:
 
-1. Go to the [Sales Enterprise overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
+1. Go to the [Sales overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
 1. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and contact information.
 
-The trial takes a few moments to load, then you can start using the app.  
+The trial takes a few moments to load, then you can start using the app. When the trial app opens, you'll see the **Dashboards** page with helpful Sales insights based on  sample data.
+
+:::image type="content" source="media/trial-dashboard-page.png" alt-text="Screenshot of the Dashboards page in Trial app":::
 
 ## What to try
 
