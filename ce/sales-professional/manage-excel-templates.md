@@ -133,7 +133,7 @@ template into Dynamics 365 Sales Professional.
 
 ## Best practices and considerations for using Excel templates
 
-Here are some things you need to be aware of to create and make the best use of Excel templates in Dynamics 365 Sales Professional.
+Here are some things you need to be aware of to create and make the best use of Excel templates in Dynamics 365 Sales.
 
 -   **Test your Excel templates.**
 
@@ -145,11 +145,11 @@ Here are some things you need to be aware of to create and make the best use of 
 
     Consider the following scenario:
 
-    -   A Dynamics 365 Sales Professional administrator creates a template where the view contains sensitive data in a pivot chart which is uploaded into Dynamics 365 Sales Professional.
+    -   A Dynamics 365 Sales administrator creates a template where the view contains sensitive data in a pivot chart which is uploaded into Dynamics 365 Sales.
 
     -   A salesperson who should not have access to the sensitive data in the pivot charts uses the template to create an Excel file to do data analysis.
 
-    The outcome of this scenario is that the salesperson might be able to see the pivot chart data as it is uploaded by the Dynamics 365 Sales Professional administrator, including access to views for which the salesperson does not have permissions.
+    The outcome of this scenario is that the salesperson might be able to see the pivot chart data as it is uploaded by the Dynamics 365 Sales administrator, including access to views for which the salesperson does not have permissions.
 
     In addition, iOS does not support updating pivot data and pivot charts when using the Microsoft Excel app on iOS devices.
 
@@ -170,7 +170,7 @@ Here are some things you need to be aware of to create and make the best use of 
 
 -   **Excel templates with images can cause an error**
 
-    If you attempt to view Dynamics 365 Sales Professional data with an Excel template that has an image saved in it, you might see the following error: “An error occurred while attempting to save your workbook. As a result, the workbook was not saved.” Try removing the image from the template and reloading it into Dynamics 365 Sales Professional.
+    If you attempt to view Dynamics 365 Sales data with an Excel template that has an image saved in it, you might see the following error: “An error occurred while attempting to save your workbook. As a result, the workbook was not saved.” Try removing the image from the template and reloading it into Dynamics 365 Sales.
 
 -   **Excel templates and Office Mobile app in Windows 8.1**
 
