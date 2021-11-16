@@ -1,7 +1,7 @@
 ---
 title: "Configure context variables for a bot | MicrosoftDocs"
 description: "Use this topic to understand how you can add context variables and then configure them for Azure or Power Virtual Agents bots in Omnichannel for Customer Service."
-ms.date: 11/11/2021
+ms.date: 11/16/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
