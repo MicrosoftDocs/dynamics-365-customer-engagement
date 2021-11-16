@@ -99,27 +99,25 @@ If the reconnection link is configured by your administrator, you can share the 
 
 You can consult with other agents or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents.
 
-If your administrator has enabled the consult pane setting, the following events occur when you select the **Consult** button:
+The following events occur when you select the **Consult** button:
 
 1. The agent can search for consultee agents in the same queue or other queues, select and invite an agent, and then start a consultation.
 2. The consultee agent will receive a notification for the consult request.
 3. When the consultee accepts the consult request, a separate pane with an option to end will open beside the communication panel for the agent.
 4. The consultee will see a consultation window on the page with an option to leave. The consultee will also have a read-only view of the messages exchanged between the primary agent and customer.
-5. The primary agent can add the consultee to the customer conversation by selecting the people icon.The consultee can join the conversation only after the primary agent adds the consultee.
+5. The primary agent can add the consultee to the customer conversation by selecting the people icon.The consultee can join the customer conversation only after the primary agent adds the consultee.
 
    :::image type="content" source="media/add-consultee.png" alt-text="Select the people icon to add the consultee to the conversation.":::
 
 Additionally, the following considerations apply:
 
 - When the primary agent selects the option to take notes, the consult pane will be in collapse mode.
-- Both the primary agent and consultee can end the consult. After the consult is ended, the consultee will not be able to view the interaction between the primary agent and customer.
+- The primary agent can end the consult or the consultee can leave. After the consult is ended or consultee leaves, the consultee will not be able to view the interaction between the primary agent and customer.
 
 You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
 > [!Note]
 > We recommend that you invite no more than five consulting agents when conversing with the customer.
-
-### Search for consulting participants
 
 After you type **/c** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the names are filtered and displayed to you.
 
@@ -132,9 +130,7 @@ In the communication panel, you can transfer the work item either to an agent or
 
 After the transfer is complete, the agent who initiated the transfer will no longer be able to participate in the conversation.
 
-You can transfer the request only to agents who are configured in the same queue. If the request belongs to another queue and you transfer the request, the work distribution system assigns the conversation to the appropriate agent in the queue.
-
-Agents whose presence is set to Busy-DND, Away, or Offline do not appear in the agent list of the transfer pane. Also, agents 
+Agents whose presence is set to Busy-DND, Away, or Offline do not appear in the agent list of the transfer pane.
 
 Use the keyboard command to see the list of agents and/or the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
 
