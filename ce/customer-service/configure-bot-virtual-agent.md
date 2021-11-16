@@ -42,8 +42,8 @@ Before you integrate Power Virtual Agents bots in Omnichannel for Customer Servi
 Power Virtual Agents lets you seamlessly hand off voice and text-based conversations to human agents using the Chat Add-in for Dynamics 365 Customer Service. For your bot to hand off conversations to the omnichannel interface, you must install the Power Virtual Agents extension solutions for Dynamics 365 Customer Service.
 
 To do so, perform the following steps:
-1. [Ensure the prerequisites are met](/power-virtual-agents/configuration-hand-off-omnichannel#prerequisites).
-2. [Install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel.md#install-extension-solutions).
+1. [Ensure the prerequisites are met](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel#prerequisites).
+2. [Install the extension solutions](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
 3. Verify if the extension solutions are successfully installed by checking whether the extension solution variables are available in Power Virtual Agents.
 
 You can now configure your Power Virtual Agents bot to connect your omnichannel instance.
