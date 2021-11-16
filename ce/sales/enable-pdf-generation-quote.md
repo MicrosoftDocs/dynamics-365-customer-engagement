@@ -27,7 +27,7 @@ Based on your license, select the appropriate tab to know how to enable or disab
 > [!IMPORTANT]
 > With the 2020 release wave 2, the PDF generation capability is enhanced to support all custom entities. The PDF enhancements are limited to the web experience and aren't available in the mobile app. If you haven't opted in, or you're using Sales Hub on the mobile app, you'll see the old experience.
 
-# [Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium](#tab/sales)
+# [Sales Enterprise or Sales Premium](#tab/sales)
 
 1. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
@@ -57,7 +57,7 @@ After you enable PDF generation, sellers will be able to generate a PDF, downloa
 > - The **Save to SharePoint** button is available to users when SharePoint integration is enabled for your organization and the **Document management** check box is selected on the entity page. If they don't see the button, make sure that SharePoint integration and document management are enabled. For more information about the **Document Management** check box, see [Enable or disable entity options](/powerapps/maker/common-data-service/edit-entities#enable-or-disable-entity-options).
 > - The **Save to Dynamics** button is available to users when **Notes** is enabled for the primary entity. If they don't see the button, make sure the **Notes (includes Attachment)** check box is selected on the entity page in the **Customization** area. By default, notes are enabled on all out-of-the-box entities. For more information about the **Notes** check box, see [Entity options that can only be enabled](/powerapps/maker/common-data-service/edit-entities#entity-options-that-can-only-be-enabled). 
 
-# [Dynamics 365 Sales Professional](#tab/salespro)
+# [Sales Professional](#tab/salespro)
 
 1. In the site map, under **Setup**, select **Sales settings**.
 
