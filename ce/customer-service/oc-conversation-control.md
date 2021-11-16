@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 11/16/2021
+ms.date: 11/17/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
