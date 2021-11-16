@@ -111,10 +111,10 @@ The following events occur when you select the **Consult** button:
 
 Additionally, the following considerations apply:
 
-- When the primary agent selects the option to take notes, the consult pane will be in collapse mode.
+- The consult pane can be collapsed and expanded using the UI buttons. When the primary agent selects the option to take notes, the consult pane will be in collapse mode.
 - The primary agent can end the consult or the consultee can leave. After the consult is ended or consultee leaves, the consultee will not be able to view the interaction between the primary agent and customer.
 
-You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
+You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**). Type forward slash and the letters cq (**/cq**) to view the list of queues.
 
 > [!Note]
 > We recommend that you invite no more than five consulting agents when conversing with the customer.
