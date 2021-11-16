@@ -42,6 +42,8 @@
     href: set-up-tax-codes.md
   - name: Territories
     href: set-up-territories.md
+  - name: Customization best practices
+    href: field-service-customization-best-practices.md
   - name: Field Service settings
     href: configure-default-settings.md
 - name: Quickstarts
