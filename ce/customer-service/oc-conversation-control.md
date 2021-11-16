@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 11/15/2021
+ms.date: 11/16/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -86,10 +86,10 @@ After you type **/q** in the communication panel messaging area, you can continu
 
 You can type any of the following options in the compose box to search for the messages that are available for your use:
 
-   * Type **/q**, followed by the number sign (**#**), to list all tags.
-   * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
    * Type **/q**, followed by <**keyword**>, to list messages that match the keyword.
+   * Type **/q**, followed by the number sign (**#**), to list all tags.
    * Type **/q**, followed by <**tagname**> <**keyword**>, to list quick replies that match the tag and keyword.
+   * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
 
  > [!div class=mx-imgBorder]
  > ![Type /q and the keyword to filter the replies.](media/oceh-send-quick-replies-filter.png "Filter replies")  
