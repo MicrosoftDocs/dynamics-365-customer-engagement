@@ -1,6 +1,6 @@
 ---
 title: "Outlook free/busy schedules considered by Universal Resource Scheduling's search resource availability API | MicrosoftDocs"
-description: "Learn how to include Outlook free/busy schedules when calling Universal Resource Scheduling's search resource availability API."
+description: "Learn how to consider Outlook free/busy schedules when calling Universal Resource Scheduling's search resource availability API."
 ms.date: 11/15/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
@@ -17,7 +17,7 @@ search.app:
 ---
 
 
-# Outlook Free/Busy Schedules included in search resource availability API 
+# Consider Outlook free/busy schedules in search resource availability API 
 
 Universal Resource Scheduling's search resource availability API can now consider Outlook appointments in Exchange, in addition to availability defined in Dynamics (through Bookings and Dataverse Appointments). Resources do not have to manually sync their Outlook appointments to Dataverse. Including a complete view of availability from both Exchange and Dynamics increases scheduler productivity and reduces avoidable scheduling errors. 
 
@@ -34,7 +34,26 @@ Some key points:
 
 - Universal Resource Scheduling 3.12.64.x+, available in Field Service 8.8.52.x+ (October Wave 2 2021)
 
-## Step 1: Get consent 
+## Step 1: Construct URL for granting permissions to application
+
+This one-time step grants permission to the Resource Scheduling Graph App to call relevant Graph APIs for reading users' organization and calendar information. It **must be performed by an Azure AD tenant administrator**.  
+
+To grant permissions to the Resource Scheduling Graph App, you'll need:
+INSERTBULLET HERE  {tenant-id} is your organization's tenant ID 
+
+https://login.microsoftonline.com/{tenantId}/v2.0/adminconsent
+?client_id=e3337770-d284-47c9-b67f-b987033bd594
+&scope=https://graph.microsoft.com/Calendars.Read https://graph.microsoft.com/Organization.Read.All
+&state=/.default
+
+To grant the permissions:
+
+In a text editor, create the following URL string:
+
+https://login.microsoftonline.com/common/adminconsent?client_id=<Application Id>&state=12345&redirect_uri=<Redirect URL>
+
+In a web browser, go to this URL, and sign in as a tenant administrator. The dialog box shows the list of permission the application requires, as specified in the application registration portal. Choose OK to grant the application these permissions.
+
 
 ## Step 2: Enable setting to include Outlook free/busy in search resource availability API  
 
