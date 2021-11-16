@@ -43,7 +43,7 @@ Power Virtual Agents lets you seamlessly hand off voice and text-based conversat
 
 To do so, perform the following steps:
 1. [Ensure the prerequisites are met](/power-virtual-agents/configuration-hand-off-omnichannel#prerequisites).
-2. [Install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
+2. [Install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel.md#install-extension-solutions).
 3. Verify if the extension solutions are successfully installed by checking whether the extension solution variables are available in Power Virtual Agents.
 
 You can now configure your Power Virtual Agents bot to connect your omnichannel instance.

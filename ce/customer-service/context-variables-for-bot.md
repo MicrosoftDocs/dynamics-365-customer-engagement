@@ -35,10 +35,10 @@ Before you configure context variables for Azure or Power Virtual Agents bots, c
 
 ## Context variables for Power Virtual Agents bots
 
-The following table contains the list of context variables in Omnichannel for Customer Service that you can use for [configuring Power Virtual Agents bot](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
+The following table contains the list of context variables in Omnichannel for Customer Service that you can use for [configuring Power Virtual Agents bot](configure-bot-virtual-agent.md).
 
 > [!Important]
-> To be able to use the messaging and voice variables, ensure that you first [install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
+> To be able to use the messaging and voice variables, ensure that you first [install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel.md#install-extension-solutions).
 
 | Context variable type | Context variable name | Description | How to map in Power Virtual Agents |
 |-----------------------|  ---------------------| ----------- | -----------------------------------|
