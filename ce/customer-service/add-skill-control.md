@@ -25,44 +25,41 @@ Dynamics 365 provides an out-of-the box custom control that you can embed on any
 
 In the following example, to add a skill control named **Skills** to the case form:
 
-1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**. 
+1. In Dynamics 365, go to **Advanced Settings** and select the **Case for Interactive experience** form for the **Case** entity.
+   The form designer opens.
 
-2. On the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Forms**.
+2. Drag and drop a **One Column** section on to the form. Then, from the **Field Explorer** pane, drag and drop a field that supports a single line of text (such as **Case Title**).
 
-3. In the **Active Forms** list that appears on the grid, select the form where you want to add the skill control. In this example, we selected the **Case for Interactive experience** form.
-
-4. On the **Insert** tab, select **Section**, and then select **One Column**. Drag the section to the form.
-
-5. From the **Field Explorer**, select a field that supports a single line of text (such as **Case Title**). Drag and drop the field on to the section you just created.
-
-6. Select the field you just added, and then select **Change Properties** on the **Home** tab. 
+3. Select the field you just added, and then select **Change Properties** on the **Home** tab.
 
    In the **Field Properties** dialog that appears, select the **Display** tab and enter a label name for the field, such as **Skills**.
 
-7. On the **Controls** tab, select **Add Control**.
+4. On the **Controls** tab, select **Add Control**.
   
    In the **Add Control** dialog that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the dropdown list, and then select **OK**.
 
-9. Save and publish the solution.
+5. Save and publish the solution.
 
-The skill control is added to the **Case Interactive experience** form. Your agents will now be able to view the newly added custom control on all routed records in Customer Service Hub.
+The skill control is added to the **Case Interactive experience** form. Your agents will now be able to view the newly added custom control on all routed case records in Customer Service Hub.
 
-> [!Note]
-> Though we do not recommend setting up any parameters for the skill control, in case you need to populate the logical collection name or the relationship name of the record, you can use the following OData queries. <br>
-> - To get the logical collection name, run the following OData query and enter the same in the **Value** field of **CC_OCRoutedEntityName_value**.<br>
-> ```HTTP
-> GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='{EntityLogicalName}')?$select=LogicalCollectionName,LogicalName
-> ```
-> - To get the relationship name for one-to-many, many-to-one, or many-to-many relationships, run any of the following OData query and enter the same in the **Value** field of **CC_OCRoutedEntityRelationshipName_value**.
-> ```HTTP
-> GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/OneToManyRelationships
-> ```
-> ```HTTP
-> GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/ManyToOneRelationships
-> ```
-> ```HTTP
-> GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName=%27incident%27)/ManyToManyRelationships
-> ```
+Though we don't recommend setting up any parameters for the skill control, in case you need to populate the logical collection name or the relationship name of the record, you can use the following OData queries.
+
+- To get the logical collection name, run the following OData query and enter the same in the **Value** field of the **CC_OCRoutedEntityName_value** property.
+
+```HTTP
+GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='{EntityLogicalName}')?$select=LogicalCollectionName,LogicalName
+```
+
+- To get the relationship name for one-to-many, many-to-one, or many-to-many relationships, run any of the following OData queries, and enter the same in the **Value** field of the **CC_OCRoutedEntityRelationshipName_value** property.
+```HTTP
+GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/OneToManyRelationships
+```
+```HTTP
+GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/ManyToOneRelationships
+```
+```HTTP
+GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName=%27incident%27)/ManyToManyRelationships
+```
 
 ### See also
 
@@ -71,5 +68,7 @@ The skill control is added to the **Case Interactive experience** form. Your age
 [Set up record routing](set-up-record-routing.md)  
 [Set up unified routing](set-up-routing-process.md)  
 [Query table definitions using the Web API](/powerapps/developer/data-platform/webapi/query-metadata-web-api)  
+[Overview of the model-driven form designer](/powerapps/maker/model-driven-apps/form-designer-overview)  
+[Add, configure, move, or delete components on a form](/powerapps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
