@@ -107,7 +107,10 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 ### Add a bot to a workstream
 
-To add a bot, the bot must be configured and available for selection. For information about configuring Power Virtual Agents bots, see [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md). For information about configuring Azure bots, see [Integrate an Azure bot](configure-bot.md).
+To add a bot to a workstream, the bot must be configured and available for selection.
+
+For Power Virtual Agents bots, see [Connect omnichannel to your Power Virtual Agents bot](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
+For Azure bots, see [Integrate a bot with Omnichannel for Customer Service](https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot#integrate-a-bot-with-omnichannel-for-customer-service).
 
 **To add the bot to the workstream**
 
