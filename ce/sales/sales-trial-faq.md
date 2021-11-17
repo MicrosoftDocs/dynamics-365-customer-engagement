@@ -9,9 +9,9 @@ ms.service: dynamics-365-sales
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
-# Dynamics 365 Sales Enterprise trial FAQ 
+# Dynamics 365 Sales trial FAQ 
 
-The Sales Enterprise trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.
+The Sales trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.
 
 [!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
 
@@ -49,18 +49,18 @@ Install the Sales mobile app and explore the functionalities that you can access
 
 **Deep dive into more scenarios**
 
-If you want to test scenarios beyond the ones covered in the product tour, go ahead and take a plunge. Browse through other capabilities from the sitemap (left pane). Visit the [Help hub](help-hub.md) for assistance.
+If you want to test scenarios beyond the ones covered in the product tour, go ahead and take a plunge. To browse through other capabilities, select the **Sales trial** link at the top of your trial app and select **Sales Hub** from the list of apps. Visit the [Help hub](help-hub.md) for more information on all the capabilities.
 
 ### What features are available in the trial?
 
-Your trial includes a simplified Trial app with a few important capabilities to get you started quickly. However, you can access the fully functional, Dynamics 365 Sales Premium environment with the following licenses and capabilities pre-installed:
+Your trial includes a simplified Trial app with a few important capabilities to get you started quickly. However, you can access the fully functional, Dynamics 365 Sales Premium environment. Select the **Sales trial** link at the top of your trial app and select **Sales Hub** from the list of apps.
+
+The following licenses and capabilities pre-installed in the trial app:
 
 **Dynamics 365 Sales Enterprise**
 
 - Manage sales pipeline using leads and opportunities
 - Forecast sales
-- Manage products, goals, playbooks
-- Enable seamless collaboration by integrating Dynamics 365 with Microsoft Teams
 
 To get started with the Sales Enterprise functionalities, see [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 
@@ -82,7 +82,7 @@ To get started with the Sales Insights functionalities, see [Sales Insights Add-
 
 ### Why can't I find the features and options mentioned in the documentation?
 
-The trial is designed to give you the optimum experience. Though the Trial includes a premium license, the Sales trial app includes only a few important features. If you would like to explore other features, select the **Sales trial** link at the top and select **Sales Hub** from the list of apps. Also, the Trial app sitemap is organized differently than the production apps. Hence, the navigation mentioned in the documentation will not match for the Trial app.  
+The trial is designed to give you the optimum experience. Though the Trial includes a premium license, the Sales trial app includes only a few important features. If you would like to explore other features, select the **Sales trial** link at the top of your trial app and select **Sales Hub** from the list of apps. Also, the Trial app sitemap is organized differently than the production apps. Hence, the navigation mentioned in the documentation will not match for the Trial app.  
 
 ### What should I do if I don't see any apps in the mobile app
 
