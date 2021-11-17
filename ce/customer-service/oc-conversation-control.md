@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 11/17/2021
+ms.date: 11/19/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -20,7 +20,6 @@ You can do the following tasks in the communication panel:
 - Search for and share knowledge articles with the customer with whom you are interacting.
 - Transfer the conversation (work item) to another agent or queue.
 - Use the consult option if you need help to resolve the work item.
-- Switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
 
  > [!div class=mx-imgBorder]
  > ![Omnichannel communication panel chat interface.](media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
@@ -33,42 +32,16 @@ The following table lists the options and the keyboard shortcuts that you can us
  
 | Annotation | Option     | Description                                   | command |
 |------|------------------|-----------------------------------------------|----------|
-|  1   | Public           | Send messages to public | `/p` |
-|  2   | Internal         | Send messages to internal users | `/i` |
-|  3   | Quick replies    | Send templatized messages created by you as personal quick replies or quick replies created by your administrator | `/q` |
-|  4   | Consult          | View list to consult with other users | `/c` |
-|  5   | Transfer         | View list to transfer the request | `/t` and `/tq` |
-|  6   | Notes            | Take notes specific to conversation | |
-|  7   | Knowledge articles | Search for knowledge articles and share | `/kb` |
-|  8   | Link to conversation | Link the record to this conversation | |
-|  9   | Customer sentiment | View real-time customer satisfaction levels |  |
-
-## Send messages using the Public and Internal modes
-
-> [!IMPORTANT]
-> The public and internal modes are not available if the consult pane setting is enabled. More information: [Consult pane setting](enable-consult.md)
-
-The communication panel allows you to send messages in two modes: **Internal** and **Public**.
-
-When you want to send messages only to the internal participants like other agents and/or supervisors and not customers, then use the **Internal** option.
-
-When you want to send messages to all the participants in the conversation including the customer, then use the **Public** option.
-
- > [!div class=mx-imgBorder]
- > ![Reply messages by selecting internal or public mode.](media/oceh-cc-public-internal-modes.png "Reply messages by selecting internal or public mode")
-
-You can use the keyboard commands to send internal and public messages:
-
-- **/i:** Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
-
-- **/p:** Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
+|  1   | Quick replies    | Send templatized messages created by you as personal quick replies or quick replies created by your administrator | `/q` |
+|  2   | Consult          | View list to consult with other users | `/c` |
+|  3   | Transfer         | View list to transfer the request | `/t` and `/tq` |
+|  4   | Add to chat      | Is enabled when a consultee accepts a consult request||
+|  5   | - Take notes <br>- Link to conversation <br>- Translation | - Take notes specific to conversation <br>- Link the record to this conversation<br> - If translation of messages is enabled, you can turn on or off the translation  ||
+|  6   | Customer sentiment | View real-time customer satisfaction levels |  |
 
 ## Send quick replies
 
-The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and or internal participants.
-
- > [!div class=mx-imgBorder]
- > ![Use quick replies option to optimize your replies to customers.](media/oceh-send-quick-replies-chat.png "Use quick replies option to optimize your replies to customers")  
+The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and or consultee agents.
 
 You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
 
@@ -154,14 +127,11 @@ When a conversation needs to be transferred from one queue to another, the match
 
 After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
 
-![Filter transfer queue list.](media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
 
 ## Take notes specific to conversations
 
-Use the notes option to capture information specific to the conversation when you interact with customers. Use the option in the communication panel to launch the notes.
+Use the notes option to capture information specific to the conversation when you interact with customers. Use the More commands option in the communication panel to launch the notes.
 
- > [!div class=mx-imgBorder]
- > ![Launch notes panel for taking notes.](media/oceh-cc-option-notes.png "Launch notes panel for taking notes")
 
 To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
@@ -169,8 +139,6 @@ To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
 From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the command to launch knowledge articles search.
 
- > [!div class=mx-imgBorder]
- > ![Use the knowledge articles option in the communication panel to launch the knowledge search page.](media/oceh-cc-options-knowledge-articles.png "Use the knowledge articles option in the communication panel to launch the knowledge search page")  
 
 **/kb** (forward slash, letter K, and letter B) is the keyboard command to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
 
@@ -179,9 +147,6 @@ To learn more, see [Search for and share knowledge articles](oc-search-knowledge
 ## Link to conversations
 
 When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
-
-> [!div class=mx-imgBorder]
-> ![Use the link to conversation option to launch the link the conversation to a record.](media/oceh-cc-options-ellipsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
 
 To learn more, see [Search, link, and unlink a record to the conversation](oc-search-link-unlink-record.md).
 
