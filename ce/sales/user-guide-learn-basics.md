@@ -15,7 +15,7 @@ Learn how to access the Sales app, navigate the UI, and understand the data in t
 
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -31,22 +31,24 @@ Learn how to access the Sales app, navigate the UI, and understand the data in t
    > 
    > The apps available to you in the app launcher depend on your subscription.
 
-2. To open Sales hub, select the tile for **Sales Hub** (Unified Interface).
-
-   > [!div class="mx-imgBorder"]
-   > ![Tile for Sales Hub.](media/saleshub_tile_unified_interface.png "Tile for Sales Hub")
+2. Select one of the following tiles depending on your license: 
+    1. For Sales Enterprise, select **Sales Hub**.
+    1. For Sales Professional, select **Sales Professional**.  
 
 ## Navigate using the site map
 
 The following image shows the site map or menu of the Sales Hub that helps you navigate to the different areas of the app.
 
-![Menu of the Sales Hub app.](media/menu-sales-hub-app.png "Menu of the Sales Hub app")
+![Menu of the Sales Hub app.](media/sales-sitemap-ui.png "Menu of the Sales app")
 
-![Menu item 1.](media/number-1.png "Menu item 1")  **Open or collapse the site map**.  
-![Menu item 2.](media/number-2.png "Menu item 2")   Access the recent items you've worked on or the customers you've pinned.  
-![Menu item 3.](media/number-3.png "Menu item 3")  Access everything that you need to communicate with customers, manage your sales-related records, and so on.  
-![Menu item 4.](media/number-4.png "Menu item 4") Switch between **Sales**, **Settings**, and **Training** area. 
 
+|Number  |Description  |
+|---------|---------|
+|1     | Open or collapse the site map.        |
+|2     | Access the recent items you've worked on or the customers you've pinned.        |
+|3     | Access everything that you need to communicate with customers, manage your pipeline, and other sales-related records.     |
+|4     | Use the change area to switch between **Sales** and other settings.        |
+|5     | Access the command bar for quick actions.        |
 
    
 ## Understand the data in the app
@@ -69,6 +71,20 @@ With Quick Create, you need to complete only a few fields. Later, when you have 
    > On a mobile device, from the nav bar, tap ![Ellipsis icon.](media/ellipsis.png "Ellipsis icon") and then tap **Quick Create Menu**.
 
 2. Fill in the fields, and then select **Save**.
+
+## Business processes in Dynamics 365 Sales
+
+Business processes help everyone follow best practices, even when handling situations that don’t occur very often. You complete a step by entering data or
+marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.
+
+The following ready-to-use business processes are available that you can use as you move your leads through a sales process:
+
+  -   Lead to invoice. This business process flow is available for:
+      -   All leads.
+      -   Opportunities created from leads
+  -   Opportunity sales process. This business process flow is available for:
+      -   All directly created opportunities (not originating from lead) forms
+
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

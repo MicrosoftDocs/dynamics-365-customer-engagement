@@ -6,14 +6,18 @@
   href: whats-new.md
 - name: Sign up, install, and manage
   items:
-  - name: Sign up for a free sales trial
+  - name: Sign up for a Sales trial
     items:
-    - name: Sign up for a free sales trial
+    - name: Sign up for a free Sales Premium trial
+      items:
+      name: Sign up for the trial
       href: sign-up-for-sales-trial.md
-    - name: Sales trial FAQ
-      href: sales-trial-faq.md
-    - name: Preview features in trial
-      href: sales-previews-in-trial.md
+      - name: Trial FAQs
+        href: sales-trial-faq.md
+      - name: Preview features in trial
+        href: sales-previews-in-trial.md
+    - name: Sign up for a free Sales Professional trial
+      href: try-dynamics365-sales-professional.md
   - name: Install or uninstall
     items:
     - name: Set up Dynamics 365 Sales
@@ -80,6 +84,8 @@
     href: print-records.md
   - name: Export sales records to PDF
     href: create-quote-pdf.md
+  - name: Work with views
+    href: work-with-views.md
 - name: Administration guide
   items:
   - name: Administration overview
