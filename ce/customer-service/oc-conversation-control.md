@@ -132,17 +132,7 @@ After you type **/t** or **/tq** in the communication panel messaging area, you 
 
 Use the notes option to capture information specific to the conversation when you interact with customers. Use the More commands option in the communication panel to launch the notes.
 
-
 To learn more, see [Take notes specific to conversation](oc-take-notes.md).
-
-## Search for and share knowledge articles
-
-From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the command to launch knowledge articles search.
-
-
-**/kb** (forward slash, letter K, and letter B) is the keyboard command to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
-
-To learn more, see [Search for and share knowledge articles](oc-search-knowledge-articles.md).
 
 ## Link to conversations
 
