@@ -46,7 +46,9 @@ To do so, perform the following steps:
 2. [Install the extension solutions](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
 3. Verify if the extension solutions are successfully installed by checking whether the extension solution variables are available in Power Virtual Agents.
 
-You can now configure your Power Virtual Agents bot to connect your omnichannel instance.
+## Connect your Power Virtual Agents bot to omnichannel instance
+
+Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot) to connect your Power Virtual Agents bot to the omnichannel instance.
 
 ## Configure your Power Virtual Agents bot in Omnichannel admin center app
 
@@ -57,7 +59,7 @@ In Omnichannel admin center, select the Power Virtual Agents bot from the list o
 
 ## Configure your Power Virtual Agents bot in Omnichannel Administration app
 
-In Omnichannel Administration, after the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. You can, however, change them in the **Workstreams** section of Omnichannel admin center.
+In Omnichannel Administration, after the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup. 
 
 1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel)
 
