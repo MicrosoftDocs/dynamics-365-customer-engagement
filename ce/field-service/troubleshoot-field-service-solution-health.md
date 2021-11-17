@@ -83,11 +83,11 @@ There are agreement recurrences that haven't been processed correctly, and work 
 
 ### How to fix
 
-First identify the reason the work order was not generated and the cause of failure and address that. Then regenerate the record generation by changing the Agreement status back to "estimate" and then to "active" again.
+Identify the reason the work order was not generated, along with the cause of failure, and address that. Then regenerate the record generation by changing the agreement status back to "estimate," then to "active" again.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/solution-health-agreement-generation.png)
+> ![Solution health agreement generation in Solution Health Hub.](./media/solution-health-agreement-generation.png)
 
 ## Check failing workflow related to agreement
 
