@@ -42,20 +42,15 @@ Though we don't recommend setting up any parameters for the skill control, in ca
 
 - To get the logical collection name, run the following OData query and enter the same in the **Value** field of the **CC_OCRoutedEntityName_value** property.
 
-```HTTP
-GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='{EntityLogicalName}')?$select=LogicalCollectionName,LogicalName
-```
+    `GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='{EntityLogicalName}')?$select=LogicalCollectionName,LogicalName`
 
 - To get the relationship name for one-to-many, many-to-one, or many-to-many relationships, run any of the following OData queries, and enter the same in the **Value** field of the **CC_OCRoutedEntityRelationshipName_value** property.
-```HTTP
-GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/OneToManyRelationships
-```
-```HTTP
-GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/ManyToOneRelationships
-```
-```HTTP
-GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName=%27incident%27)/ManyToManyRelationships
-```
+
+    `GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/OneToManyRelationships`
+
+    `GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/ManyToOneRelationships`
+
+    `GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName=%27incident%27)/ManyToManyRelationships`
 
 ### See also
 
