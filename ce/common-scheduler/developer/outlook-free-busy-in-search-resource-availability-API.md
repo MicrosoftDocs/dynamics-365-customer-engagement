@@ -36,7 +36,7 @@ Some key points:
 
 ## Step 1: Construct URL for granting permissions to application
 
-This one-time step grants permission to the Resource Scheduling Graph App to call relevant Graph APIs for reading users' organization and calendar information. It **must be performed by an Azure AD tenant administrator**.  
+This one-time step grants permission to the Resource Scheduling Graph App to call relevant Graph APIs for reading users' organization and calendar information. It must be performed by an Azure AD tenant administrator.  
 
 To grant permissions to the Resource Scheduling Graph App, you'll need:
 * _{tenantId}_ is your organization's tenant ID 
@@ -61,12 +61,12 @@ In a web browser, go to this URL, and sign in as a tenant administrator. The dia
 1. Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** and set **Include Outlook Free/Busy in Search Resource Availability API** to *Yes*.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of organization level setting.](../media/OutlookFreeBusyInSAAPI-SchedulingParameters)
+> ![Screenshot of organization level setting.](../media/OutlookFreeBusyInSAAPI-SchedulingParameters.png)
 
 2. An informational dialog will appear. Select **Got it. Let’s enable.** Then **Save and close**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of dialog.](../media/OutlookFreeBusyInSAAPI-Dialog)
+> ![Screenshot of dialog.](../media/OutlookFreeBusyInSAAPI-Dialog.png)
 
 All resources are automatically opted-in the first time you enable the feature. You may opt out resources using the resource level setting, which is visible only if the organization level setting is set to *Yes*. 
 
@@ -79,7 +79,7 @@ The resource level setting will only show if the organization level setting is e
 To control individual resources, go to the **Scheduling** tab on the resource form and change the **Include Outlook Free/Busy in Search Resource Availability API** field. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource level setting.](../media/OutlookFreeBusyInSAAPI-ResourceFlag)
+> ![Screenshot of resource level setting.](../media/OutlookFreeBusyInSAAPI-ResourceFlag.png)
 
 
 ## Step 3: Call the search resource availability API with **ConsiderOutlookSchedules** as _true_
