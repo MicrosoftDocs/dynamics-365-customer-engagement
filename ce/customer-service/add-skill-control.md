@@ -48,7 +48,7 @@ In the following example, to add a skill control named **Skills** to the case fo
 The skill control is added to the **Case Interactive experience** form. Your agents will now be able to view the newly added custom control on all routed records in Customer Service Hub.
 
 > [!Note]
-> Though we do not recommend setting up any parameters for the control, in case you need to populate the logical collection name or the relationship name of the record, you can use the following OData queries. <br>
+> Though we do not recommend setting up any parameters for the skill control, in case you need to populate the logical collection name or the relationship name of the record, you can use the following OData queries. <br>
 > - To get the logical collection name, run the following OData query and enter the same in the **Value** field of **CC_OCRoutedEntityName_value**.<br>
 > ```HTTP
 > GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='{EntityLogicalName}')?$select=LogicalCollectionName,LogicalName
