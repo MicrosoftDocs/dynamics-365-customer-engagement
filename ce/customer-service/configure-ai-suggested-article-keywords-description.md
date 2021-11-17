@@ -1,7 +1,7 @@
 ---
 title: Configure AI suggestions for article keywords and description | MicrosoftDocs
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
-ms.date: 09/13/2021
+ms.date: 11/17/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -47,6 +47,8 @@ The key highlights of the feature are as follows:
 
 The **View suggested keywords and description** link appears in the default knowledge article form for knowledge authors when the article content field is updated and the knowledge article is saved. When authors select the link, a dialog with suggested keywords and a description is displayed.
 
+If you have a custom form, you can add the **View suggested keywords and description** link only to the knowledge article entity.
+You won't be able to add the **View suggested keywords and description** link to any other entity.
 
 The AI model works as follows:
 
