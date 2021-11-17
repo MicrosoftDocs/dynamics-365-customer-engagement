@@ -62,7 +62,7 @@ For more information on other deprecations that impact Dynamics 365 customer eng
 
 ## Dynamics 365 Product Visualize is deprecated
 
-Effective October 04, 2021, Dynamics 365 Product Visualize is be deprecated. After October 04, 2021 the product will cease to function and will no longer be supported.
+Effective October 04, 2021, Dynamics 365 Product Visualize is deprecated. After October 04, 2021 the product will cease to function and will no longer be supported.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
