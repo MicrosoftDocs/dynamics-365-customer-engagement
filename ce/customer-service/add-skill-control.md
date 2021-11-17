@@ -48,20 +48,18 @@ In the following example, to add a skill control named **Skills** to the case fo
 The skill control is added to the **Case Interactive experience** form. Your agents will now be able to view the newly added custom control on all routed records in Customer Service Hub.
 
 > [!Note]
-> Though we do not recommend set up any parameters for the control, in case you need to populate the logical collection name or the relationship name of the record, you can run the following OData queries. <br>
-> - To get the logical collection name, run the following OData query and enter   the same in the **Value** field of **CC_OCRoutedEntityName_value**.<br>
+> Though we do not recommend setting up any parameters for the control, in case you need to populate the logical collection name or the relationship name of the record, you can use the following OData queries. <br>
+> - To get the logical collection name, run the following OData query and enter the same in the **Value** field of **CC_OCRoutedEntityName_value**.<br>
 > ```HTTP
 > GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='{EntityLogicalName}')?$select=LogicalCollectionName,LogicalName
 > ```
-> - To get the relationship name for a one-to-many relationship, run the following OData query and enter the same in the **Value** field of **CC_OCRoutedEntityRelationshipName_value**.
+> - To get the relationship name for one-to-many, many-to-one, or many-to-many relationships, run any of the following OData query and enter the same in the **Value** field of **CC_OCRoutedEntityRelationshipName_value**.
 > ```HTTP
 > GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/OneToManyRelationships
 > ```
-> - To get the relationship name for a many-to-one relationship, run the following OData query:
 > ```HTTP
 > GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/ManyToOneRelationships
 > ```
-> - To get the relationship name for a many-to-many relationship, run the following OData query:
 > ```HTTP
 > GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName=%27incident%27)/ManyToManyRelationships
 > ```
