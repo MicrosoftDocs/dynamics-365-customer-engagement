@@ -23,9 +23,9 @@ Universal Resource Scheduling's search resource availability API can now conside
 
 Some key points:
 
-- This extensibility feature only works when directly calling the search resource availability APIs with **ConsiderOutlookSchedules** as _true_. Out of the box availability searches triggered from the Schedule Board or from the Book button on any schedulable entity do not consider Outlook schedules
-- Reading schedules from Exchange will increase the time the Search Resource Availability API takes to retrieve results, depending on the number of resources and period of time being considered. We recommend this functionality be used judiciously from custom interfaces that work around the retrieval time
-- The feature is available for search resource availability APIs for both requirements (**msdyn_SearchResourceAvailability**) and requirement groups (**msdyn_SearchResourceAvailabilityForRequirementGroup**)
+- This extensibility feature only works when directly calling the search resource availability API with **ConsiderOutlookSchedules** as _true_. Out of the box availability searches triggered from the Schedule Board or from the Book button on any schedulable entity do not consider Outlook schedules
+- Reading schedules from Exchange will increase the time the search resource availability API takes to retrieve results, depending on the number of resources and period of time being considered. We recommend this functionality be used judiciously from custom interfaces designed to work around the retrieval time
+- The feature is available for search resource availability APIs for both requirements ([msdyn_SearchResourceAvailability](https://docs.microsoft.com/en-us/dynamics365/field-service/search-resource-availability-api)) and requirement groups ([msdyn_SearchResourceAvailabilityForRequirementGroup](https://docs.microsoft.com/en-us/dynamics365/field-service/search-resource-availability-api)).
 - To protect privacy, only the start and end times of resources' schedule items are read, along with their free/busy status
 - Outlook 'Busy' status is considered as unavailable for scheduling 
 - Outlook appointments are considered as location agnostic
@@ -40,7 +40,7 @@ Some key points:
 This one-time step grants permission to the Resource Scheduling Graph App to call relevant Graph APIs for reading users' organization and calendar information. It must be performed by an Azure AD tenant administrator.  
 
 To grant permissions to the Resource Scheduling Graph App, you'll need:
-* _{tenantId}_ is your organization's tenant ID 
+* _{tenantId}_ - your organization's tenant ID 
 
 
 To grant the permissions:
@@ -85,8 +85,7 @@ To control individual resources, go to the **Scheduling** tab on the resource fo
 
 ## Step 3: Call the search resource availability API with **ConsiderOutlookSchedules** as _true_
 
-Call the search resource availability API with **ConsiderOutlookSchedules** as _true_. The feature is available for search resource availability APIs for both requirements (**msdyn_SearchResourceAvailability**) and requirement groups (**msdyn_SearchResourceAvailabilityForRequirementGroup**). 
-
+Call the search resource availability API with **ConsiderOutlookSchedules** as _true_. The feature is available for search resource availability APIs for both requirements ([msdyn_SearchResourceAvailability](https://docs.microsoft.com/en-us/dynamics365/field-service/search-resource-availability-api)) and requirement groups ([msdyn_SearchResourceAvailabilityForRequirementGroup](https://docs.microsoft.com/en-us/dynamics365/field-service/search-resource-availability-api)).
 
 
 
