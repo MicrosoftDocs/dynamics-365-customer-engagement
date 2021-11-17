@@ -17,18 +17,7 @@ ms.custom:
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Configure AI suggestions for article keywords and description (preview)
-
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+# Configure AI suggestions for article keywords and description
 
 ## Introduction
 
@@ -77,9 +66,6 @@ Make sure that the following requirements are met:
 - You have the System Administrator role.
 - Knowledge authors have the AIB roles and the AIB SML roles.
 
-> [!NOTE]
-> In public preview, the AI-suggested keywords and description are available only in the default knowledge article form.
-
 ## Enable AI suggestions for article keywords and description
 
 1. In Customer Service Hub, go to the **Service Management** site map, and select **Settings** under **Insights**.
@@ -92,7 +78,7 @@ Make sure that the following requirements are met:
 
 5. Select **Save**.
 
-:::image type="content" source="media/configure_suggest-article-keywords-description.png" alt-text="Configure AI suggested article keywords and description":::
+   :::image type="content" source="media/configure_suggest-article-keywords-description.png" alt-text="Configure AI suggested article keywords and description":::
 
 
 ### See also
