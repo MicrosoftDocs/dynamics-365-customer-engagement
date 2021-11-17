@@ -19,7 +19,7 @@ search.app:
 
 # Consider Outlook free/busy schedules in search resource availability API 
 
-Universal Resource Scheduling's search resource availability API can now consider Outlook appointments in Exchange, in addition to availability defined in Dynamics (through Bookings and Dataverse Appointments). Resources do not have to manually sync their Outlook appointments to Dataverse. Including a complete view of availability from both Exchange and Dynamics increases scheduler productivity and reduces avoidable scheduling errors. 
+Universal Resource Scheduling's search resource availability API can now consider Outlook appointments in Exchange, in addition to availability defined in Dynamics (through Bookings and Dataverse Appointments). Now resources do not have to manually sync their Outlook appointments to Dataverse. Including a complete view of availability from both Exchange and Dynamics increases scheduler productivity and reduces avoidable scheduling errors. 
 
 Some key points:
 
@@ -27,6 +27,7 @@ Some key points:
 - Reading schedules from Exchange will increase the time the Search Resource Availability API takes to retrieve results, depending on the number of resources and period of time being considered. We recommend this functionality be used judiciously from custom interfaces that work around the retrieval time
 - The feature is available for search resource availability APIs for both requirements (**msdyn_SearchResourceAvailability**) and requirement groups (**msdyn_SearchResourceAvailabilityForRequirementGroup**)
 - To protect privacy, only the start and end times of resources' schedule items are read, along with their free/busy status
+- Outlook 'Busy' status is considered as unavailable for scheduling 
 - Outlook appointments are considered as location agnostic
 
 
@@ -44,9 +45,9 @@ To grant permissions to the Resource Scheduling Graph App, you'll need:
 
 To grant the permissions:
 
-In a text editor, create the following URL string, in the place of _{tenantID}_ insert the organization's tenant ID:
+In a text editor, create the following URL string. In the place of _{tenantID}_ insert the organization's tenant ID.
 
-  https://login.microsoftonline.com/{tenantId}/v2.0/adminconsent
+  >https://login.microsoftonline.com/{tenantId}/v2.0/adminconsent
   ?client_id=e3337770-d284-47c9-b67f-b987033bd594
   &scope=https://graph.microsoft.com/Calendars.Read https://graph.microsoft.com/Organization.Read.All
   &state=/.default
