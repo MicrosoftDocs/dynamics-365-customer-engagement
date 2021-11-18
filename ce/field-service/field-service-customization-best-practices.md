@@ -15,7 +15,17 @@ search.app:
 
 # Best practices for customizing Dynamics 365 Field Service
 
-Oftentimes system administrators choose to customize the Field Service app to meet their business needs. Follow these best practices to avoid performance, usability, and supportability issues.
+Are you preparing to go live with Field Service?
+
+Are you concerned about performance issues?
+
+Are your forms loading slowly?
+
+Are you encountering errors?
+
+If so, this article is for you.
+
+Follow these best practices to avoid performance, usability, and supportability issues with Dynamics 365 Field Service.
 
 ## Minimize custom fields
 
