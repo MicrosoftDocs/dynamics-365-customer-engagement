@@ -1,7 +1,7 @@
 ---
 title: "Take notes related to conversations | MicrosoftDocs"
 description: "As an agent, learn how to take notes specific to conversations when interacting with customers in the Omnichannel for Customer Service app."
-ms.date: 11/19/2021
+ms.date: 11/18/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
