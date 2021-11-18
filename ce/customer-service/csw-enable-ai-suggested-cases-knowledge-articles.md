@@ -1,7 +1,7 @@
 ---
 title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/15/2021
+ms.date: 11/18/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -92,15 +92,15 @@ Make sure that the following requirements are met:
 
 Perform the following steps to enable the AI suggestions for similar cases:
 
-1. Sign in to  Customer Service Hub. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
+1. Sign in to Customer Service Hub. In the Change area, select **Service Management**, and then under **Insights**, select **Settings**.
 
 or
 
 Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
 
-2. Select **Manage** > **Suggestions**. The **Suggestions** page appears.
+2. In the **Suggestions for agents** section, select **Manage**. The **Suggestions** page appears.
 3. In the **Settings** > **Summary** area, turn on the **Enable similar case suggestions** toggle.
-4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you don't want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
+4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively, if you don't want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
 
    > [!NOTE]
    > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
@@ -113,17 +113,20 @@ Sign in to Omnichannel admin center. Select **Insights** and then select **Setti
 
 Perform the following steps to enable the AI suggestions for related knowledge articles:
 
-1. Sign in to Customer Service Hub.  In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
+1. Sign in to Customer Service Hub.  In the **Change area**, select **Service Management**, and then under **Insights**, select **Settings**.
 
  or
 
  Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
 
-2. Select **Manage** and then **Suggestions**. The **Suggestions** page appears.
+2. In the **Suggestions for agents** section, select **Manage**. The **Suggestions** page appears.
 3. In the **Settings** > **Summary** area, turn on the **Enable knowledge article suggestions** toggle.
-4. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in the **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that's displayed to the agent at runtime.
+4. In the **Data mapping** > **Knowledge article data fields** area, ensure that **Title** and **Content** are selected in the **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that's displayed to the agent at runtime.
 
 5. Select **Save**.
+
+   >:::image type="content" source="media/csh-enable-ai-suggested-articles.png" alt-text="Enable knowledge article suggestions":::
+
 
 ## Model pre-processing status
 
