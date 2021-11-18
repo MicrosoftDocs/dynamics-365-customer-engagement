@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn how to create workstreams in the Omnichannel Administration app"
-ms.date: 05/07/2021
+ms.date: 10/27/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ manager: shujoshi
 
 A workstream is a collection of routing rules. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in the Omnichannel admin center, Customer Service Hub, and Omnichannel Administration apps.
 
-A workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the workstream they belong to.
+A workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the workstream they belong to. 
 
 If you want to create workstreams to configure unified routing, see [Create workstreams in Omnichannel admin center](create-workstreams.md).
 
@@ -41,7 +41,7 @@ Perform the following steps:
       - **Channel**: Channel is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat.
 
         Select a channel from the drop-down list:
-        - Live Chat
+        - Live chat
         - SMS
         - Facebook
         - Entity Records
@@ -54,16 +54,17 @@ Perform the following steps:
 
       - **Capacity**: Specify the units of capacity that are required to process a single conversation for the workstream in the text box. For information on how to determine capacity units, see [Capacity](users-user-profiles.md#capacity).
 
-      - **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.
-
+      - **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from **Waiting** to **Closed** state because of inactivity.
+      
    2. Select **Save**. The workstream is saved.
 
-   3. In the **Work distribution** section, perform the following steps:
+   3. In the **Work distribution settings** section, perform the following steps:
 
-      1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation.
-      2. In **Allowed Presences**, select a base presence, such as **Available** and **Busy**, from the list. You can select all options also. Agents will be allocated work items if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select **Away** as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
-      3. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can assign work items to themselves irrespective of constraints, such as capacity and presence.
-      4. If you want an ongoing conversation to be assigned to the same agent when the conversation status changes from waiting to active, make sure the **Enable Agent Affinity** is set to yes. By default, the toggle is enabled for SMS and social channels.
+      1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation.      
+      1. In **Allowed Presences**, select a base presence, such as **Available** and **Busy**, from the dropdown. You can select all options also. Agents will be allocated work items if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select **Away** as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
+      1. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can assign work items to themselves irrespective of constraints, such as capacity and presence.
+      1. If you want an ongoing conversation to be assigned to the same agent when the conversation status changes from waiting to active, make sure the **Enable Agent Affinity** is set to yes. By default, the toggle is enabled for SMS and social channels.
+      
     
     > [!NOTE]
     > The **Enable Agent Affinity** option is available only when the work distribution mode is push. More information: [Agent affinity](create-workstreams.md#agent-affinity)
