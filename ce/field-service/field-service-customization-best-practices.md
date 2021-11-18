@@ -17,7 +17,7 @@ search.app:
 
 Oftentimes system administrators choose to customize the Field Service app to meet their business needs. Follow these best practices to avoid performance, usability, and supportability issues.
 
-## Custom scripts: use fewer, and follow best practices
+## Use fewer custom scripts and follow best practices
 
 System customizers write scripts, typically JavaScript web resources, to execute business logic. However, custom scripts can cause performance issues, errors, and complications when upgrading.
 
@@ -53,11 +53,25 @@ When web resources or IFRAMES are included in sections inside a collapsed tab th
 Avoid using form scripts in the OnLoad event that hide form elements. Instead set the default visibility options for form elements that might be hidden to not be visible by default when the form loads. Then, use scripts in the OnLoad event to show those form elements you want to display.
 
 
+
 For more information, see these resources:
 
 - [Best practices (Developer Guide for Dynamics 365 Customer Engagement)](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk)
 - [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
 - [Unsupported customizations for Microsoft Dataverse (Dataverse)](/powerapps/developer/data-platform/supported-customizations#unsupported-customizations)
+
+## Run Solution Checker on your Scripts
+
+The Power Apps Solution checker is a useful tool from Microsoft that checks Power Apps solutions for issues and recommends best practices. These issues include problems with JavaScript, HTML, Plugins, and custom workflow activities.
+
+For more information, see these resources:
+
+- [Use solution checker to validate your apps in Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/use-powerapps-checker#best-practice-rules-used-by-solution-checker)
+- [How to Run and Use the Power Apps Solution Checker](https://carldesouza.com/how-to-run-and-use-the-power-apps-solution-checker/)
+- [Dataverse Solution Checker](https://dynamics-chronicles.com/article/dataverse-solution-checker)
+
+
+
 
 ## Use asynchronous workflows instead of synchronous
 
@@ -71,7 +85,7 @@ Field Service and Resource Scheduling ship with many processes that perform nece
 
 Deactivated processes can lead to errors.
 
-To avoid issues, make sure all Field Service and Resource Scheduling processes are in an active state.
+To avoid issues, make sure all Field Service and Resource Scheduling processes are in an active state. Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md) to identify if processes are in a deactivated state. 
 
 ## Minimize custom fields
 
@@ -108,3 +122,12 @@ Don't edit, override, or remove the following calculated fields:
   - Total Estimated Duration
 
 For more information, see this article: [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
+
+## Run Solution Health Hub to detect issues
+
+Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Dynamics 365 Field Service and you can run the rules on demand when you encounter an issue. Some rules automatically trigger when Field Service is installed or updated. 
+
+Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md) ruleset to monitor the health of your environment.
+
+
+
