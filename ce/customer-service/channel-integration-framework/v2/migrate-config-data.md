@@ -23,7 +23,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 2. Create a new channel provider in PowerApps, and copy the channel URL and other attribute values from the Channel Integration Framework 1.0 provider.
 
-3. Open App profile in PowerApps, create a new app profile and attach the channel provider. Reference Link: https://docs.microsoft.com/en-us/dynamics365/app-profile-manager/app-profile-manager 
+3. Open App profile in PowerApps, [create a new app profile and attach the channel provider](/app-profile-manager/app-profile-manager).
 
 4. Assign user to this profile.
 
@@ -51,10 +51,3 @@ Note: If step A or B is not as expected it would mean that the App profile confi
 
 
 ## See also
-
-[Introduction to migration of entity records](introduction-migration-entity-records.md)
-
-[Plan your migration](plan-migration.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
