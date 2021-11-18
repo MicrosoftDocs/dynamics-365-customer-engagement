@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/enable-consult.md",
+      "redirect_url": "oc-conversation-control",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/omnichannel-whats-new.md",
       "redirect_url": "whats-new-customer-service",
       "redirect_document_id": "false"
