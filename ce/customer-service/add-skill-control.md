@@ -1,6 +1,6 @@
 ---
 title: "Skill control for routed records| MicrosoftDocs"
-description: "Learn how to add a skill control on forms to view skills of any routed record."
+description: "Learn how to add a skill control on forms to view skills of any routed record in Customer Service Hub."
 ms.date: 11/18/2021
 ms.topic: article
 author: mh-jaya
@@ -18,25 +18,29 @@ ms.custom:
 
 # Add a skill control for routed records
 
-Dynamics 365 provides an out-of-the box custom control that you can embed on any of your forms to view the skills of any routed record. To be able to add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](../basics/view-your-user-profile.md).
+Dynamics 365 provides a custom control that you can embed on your forms to view the skills of any routed record. To display the skill control for the routed record in the Customer Service workspace or Omnichannel for Customer Service app, add the control to the multisession form.
+
+## Prerequisite
+
+To add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](../basics/view-your-user-profile.md).
 
 > [!NOTE]
-> To customize a form to add the skill control in Customer Service workspace or the Omnichannel admin center, you can add the control to the **Case for Multisession experience** form.
+> To customize a form to add the skill control in Customer Service workspace or the Omnichannel for Customer Service, you can add the control to the **Case for Multisession experience** form.
 
 In the following example, to add a skill control named **Skills** to the case form:
 
 1. In Dynamics 365, go to **Advanced Settings** and select the **Case for Interactive experience** form for the **Case** entity.
 
-2. Drag and drop a **One Column** section on to the form. Then, from the **Field Explorer** pane, drag and drop a field that supports a single line of text (such as **Case Title**).
+2. Drag and drop a **One Column** section on to the form. Then, from the **Field Explorer** pane, drag and drop a field that supports a single line of text such as **Case Title**.
 
-3. For the field you just added, select **Change Properties** on the **Home** tab. In the **Field Properties** dialog that opens, do the following:
+3. Select **Change Properties** on the **Home** tab, and in the **Field Properties** dialog that opens, do the following:
       - On the **Display** tab, enter a label name for the field, such as **Skills**.
       - On the **Controls** tab, select **Add Control**. The **Add Control** dialog opens.
       - Select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the dropdown list, and then select **OK**.
 
 4. Save and publish the solution.
 
-The skill control is added to the **Case Interactive experience** form. Your agents will now be able to view the newly added custom control on all routed case records in Customer Service Hub.
+At runtime, your agents will now be able to view the skill control on all routed case records in Customer Service Hub.
 
 Though we don't recommend setting up any parameters for the skill control, in case you want to manually enter the logical collection name or the relationship name of the record, you can use the following OData queries to get the information.
 
