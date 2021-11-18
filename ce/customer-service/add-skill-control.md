@@ -16,7 +16,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Skill control for routed records
+# Add a skill control for routed records
 
 Dynamics 365 provides a custom control that you can embed in your forms to view the skills of any routed record. To display the skill control for the routed record in the Customer Service workspace or Omnichannel for Customer Service app, add the control to the multisession form.
 
@@ -24,7 +24,7 @@ Dynamics 365 provides a custom control that you can embed in your forms to view 
 
 To add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](../basics/view-your-user-profile.md).
 
-## Add skill control on forms
+## Add skill control
 
 In the following example, to add a skill control named **Skills** to the case form:
 
