@@ -64,7 +64,7 @@ You can search the knowledge base from the following areas in the Customer Servi
 
 With each of the previous search areas, the search results might vary based on the underlying search option used:
 
-|Version  |  |Search areas| Search mechanism  |
+|Version  |  Search areas| Search mechanism  |
 |---------|---------|---------|---------|
 | December 2016 Update for Dynamics 365 Customer Service </br> & </br> December 2016 Service Pack for Customer Engagement (on-premises) platform  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
 |   |     |      - Global search  |   Categorized search     |
@@ -83,9 +83,9 @@ You can also search the knowledge base using portals. You can use the following 
 - **Dataverse search**: Let's you search across multiple tables sorted by relevance.
 
 > [!NOTE]
- Product facets isn't supported with Relevance Search yet.
+> Product facets isn't supported with Relevance Search yet.
 
-    For CAL to work with Relevance Search, you must perform the following steps on Portal Management.
+For CAL to work with Relevance Search, you must perform the following steps on Portal Management.
   1. On the Portal Management sitemap, **Website** area, select **Site Settings**.
   2. On the **Knowledge Management/ContentAccessLevel/Enabled** page, do the following:
   * In the Name field, enter **Knowledge Management/ContentAccessLevel/Enabled**.
