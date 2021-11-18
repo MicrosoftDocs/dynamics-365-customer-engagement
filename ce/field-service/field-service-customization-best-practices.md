@@ -17,6 +17,42 @@ search.app:
 
 Oftentimes system administrators choose to customize the Field Service app to meet their business needs. Follow these best practices to avoid performance, usability, and supportability issues.
 
+## Minimize custom fields
+
+System customizers add custom fields to entity forms to capture information specific to their industry and business, to run business processes, and to collect information to report on. However, too many custom fields, especially on the first tab of the form, cause performance issues.
+
+To avoid performance issues:
+
+- Minimize the number of custom fields.
+- Move custom fields from the first form tab to other form tabs.
+
+## Don't edit or remove out-of-box fields
+
+Customers edit out-of-the-box fields to accommodate their business needs. However, editing out-of-the-box calculated fields or editing the option sets of out-of-the-box fields can cause errors, especially when processes depend on those field values.
+
+To avoid errors, don't add, edit, or remove _option set values_ for the following fields:
+- Work Order
+ - System Status
+ - Work Location
+- Work Order Product
+  - Line status
+- Work Order Service
+  - Line status
+
+Don't edit, override, or remove the following calculated fields:
+- Bookable Resource Booking
+  - Start time
+  - Estimated arrival time
+  - Actual Arrival time
+  - Duration
+  - End time
+- Work Order
+  - Total amount
+  - Subtotal amount
+  - Total Estimated Duration
+
+For more information, see this article: [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
+
 ## Use fewer custom scripts and follow best practices
 
 System customizers write scripts, typically JavaScript web resources, to execute business logic. However, custom scripts can cause performance issues, errors, and complications when upgrading.
@@ -87,41 +123,7 @@ Deactivated processes can lead to errors.
 
 To avoid issues, make sure all Field Service and Resource Scheduling processes are in an active state. Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md) to identify if processes are in a deactivated state. 
 
-## Minimize custom fields
 
-System customizers add custom fields to entity forms to capture information specific to their industry and business, to run business processes, and to collect information to report on. However, too many custom fields, especially on the first tab of the form, cause performance issues.
-
-To avoid performance issues:
-
-- Minimize the number of custom fields.
-- Move custom fields from the first form tab to other form tabs.
-
-## Don't edit or remove out-of-box fields
-
-Customers edit out-of-the-box fields to accommodate their business needs. However, editing out-of-the-box calculated fields or editing the option sets of out-of-the-box fields can cause errors, especially when processes depend on those field values.
-
-To avoid errors, don't add, edit, or remove _option set values_ for the following fields:
-- Work Order
- - System Status
- - Work Location
-- Work Order Product
-  - Line status
-- Work Order Service
-  - Line status
-
-Don't edit, override, or remove the following calculated fields:
-- Bookable Resource Booking
-  - Start time
-  - Estimated arrival time
-  - Actual Arrival time
-  - Duration
-  - End time
-- Work Order
-  - Total amount
-  - Subtotal amount
-  - Total Estimated Duration
-
-For more information, see this article: [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
 
 ## Run Solution Health Hub to detect issues
 
