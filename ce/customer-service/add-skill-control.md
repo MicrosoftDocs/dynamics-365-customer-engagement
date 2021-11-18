@@ -40,15 +40,15 @@ In the following example, to add a skill control named **Skills** to the case fo
 
 4. Save and publish the solution.
 
-At runtime, your agents will now be able to view the skill control on all routed case records in Customer Service Hub.
+At runtime, your agents will be able to view the skill control on all routed case records in Customer Service Hub.
 
-Though we don't recommend setting up any parameters for the skill control, in case you want to manually enter the logical collection name or the relationship name of the record, you can use the following OData queries to get the information.
+Though we don't recommend setting up parameters for the skill control, if you want to manually enter the logical collection name or the relationship name of the record, you can use the following OData queries to get the information.
 
-- To get the logical collection name, run the following OData query and enter the same in the **Value** field of the **CC_OCRoutedEntityName_value** property.
+- **Logical collection name**: Run the following OData query and enter the same in the **Value** field of the **CC_OCRoutedEntityName_value** property.
 
     `GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='{EntityLogicalName}')?$select=LogicalCollectionName,LogicalName`
 
-- To get the relationship name for one-to-many, many-to-one, or many-to-many relationships, run any of the following OData queries, and enter the same in the **Value** field of the **CC_OCRoutedEntityRelationshipName_value** property.
+- **Relationship name**: Run any of the following OData queries for one-to-many, many-to-one, or many-to-many relationships, and enter the same in the **Value** field of the **CC_OCRoutedEntityRelationshipName_value** property.
 
     `GET [Organization_URI]/api/data/v9.1/EntityDefinitions(LogicalName='incident')/OneToManyRelationships`
 
