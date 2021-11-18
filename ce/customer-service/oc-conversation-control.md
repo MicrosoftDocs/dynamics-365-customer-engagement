@@ -35,13 +35,13 @@ The following table lists the options and the keyboard shortcuts that you can us
 |  1   | Quick replies    | Send templatized messages created by you as personal quick replies or quick replies created by your administrator | `/q` |
 |  2   | Consult          | View list to consult with other users | `/c` |
 |  3   | Transfer         | View list to transfer the request | `/t` and `/tq` |
-|  4   | Add to chat      | Is enabled when a consultee accepts a consult request||
+|  4   | Add to chat      | Is enabled when the second agent accepts a consult request||
 |  5   | - Take notes <br>- Link to conversation <br>- Translation | - Take notes specific to conversation <br>- Link the record to this conversation<br> - If translation of messages is enabled, you can turn on or off the translation  ||
 |  6   | Customer sentiment | View real-time customer satisfaction levels |  |
 
 ## Send quick replies
 
-The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and or consultee agents.
+The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and or agents with whom you consult.
 
 You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q**, the **Quick replies** panel is displayed.
 
@@ -80,20 +80,20 @@ You can consult with other agents or supervisors using the consult option. You c
 
 The following events occur when you select the **Consult** button:
 
-1. The agent can search for consultee agents in the same queue or other queues, select and invite an agent, and then start a consultation.
-2. The consultee agent will receive a notification for the consult request.
-3. When the consultee accepts the consult request, a separate pane with an option to end will open beside the communication panel for the agent.
-4. The consultee will see a consultation window on the page with an option to leave. The consultee will also have a read-only view of the messages exchanged between the primary agent and customer.
-5. The primary agent can add the consultee to the customer conversation by selecting the people icon.The consultee can join the customer conversation only after the primary agent adds the consultee.
+1. The agent can search for agents to consult with in the same queue or other queues, select and invite an agent, and then start a consultation.
+2. The secondary agent will receive a notification for the consult request.
+3. When the secondary agent accepts the consult request, a separate pane with an option to end will open beside the communication panel for the primary agent.
+4. The secondary agent will see a consultation window on the page with an option to leave. They will also have a read-only view of the messages exchanged between the primary agent and customer.
+5. The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 
-   :::image type="content" source="media/add-consultee.png" alt-text="Select the people icon to add the consultee to the conversation.":::
+   :::image type="content" source="media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
 
 Additionally, the following considerations apply:
 
 - The consult pane can be collapsed and expanded using the UI buttons. When the primary agent selects the option to take notes, the consult pane will be in collapse mode.
-- The primary agent can end the consult or the consultee can leave. After the consult is ended or consultee leaves, the consultee will not be able to view the interaction between the primary agent and customer.
+- The primary agent can end the consult or the secondary agent can leave, after which, the secondary agent won't be able to view the interaction between the primary agent and customer.
 
-You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**). Type forward slash and the letters cq (**/cq**) to view the list of queues.
+You can also use a keyboard command to see the list of agents and or supervisors who are available for consultation. Type the forward slash (/) key and the letter c (**/c**). Type forward slash and the letters cq (**/cq**) to view the list of queues.
 
 > [!Note]
 > We recommend that you invite no more than five consulting agents when conversing with the customer.
