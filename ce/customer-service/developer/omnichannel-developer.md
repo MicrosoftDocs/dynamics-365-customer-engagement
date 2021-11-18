@@ -16,10 +16,10 @@ manager: shujoshi
 
 Omnichannel for Customer Service live chat widget SDK provides methods that allow you to:
 - Set, retrieve, and remove custom context provider for a live chat session.
-- Open an existing chat or initiate a new one.
+- Open an existing chat or start a new one.
 - Set, retrieve, and remove authentication-token providers for a live chat session.
 
-[Initiate a chat](../initiate-chat-wait-time.md)<br />
+[Start a chat](../initiate-chat-wait-time.md)<br />
 [JavaScript API reference for live chat SDK](omnichannel-reference.md)
 
 ## Start proactive chat 
@@ -28,31 +28,31 @@ Anticipating areas where customers need help and then engaging them through chat
 
 [Start chat proactively](../start-proactive-chat.md)
 
-## Manage custom context
+## Send custom context
 
-When a customer initiates a chat, you can pass custom context to Omnichannel for Customer Service.
+When a customer starts a chat, you can pass custom context to Omnichannel for Customer Service.
 
 [Manage custom context](../send-context-starting-chat.md)
 
 ## Display custom context 
 
-Learn how you can display the context variables in the Conversation Summary Control for a conversation on the UI.
+Learn how you can display the context variables in the Conversation Summary Control for a conversation on the agent user interface.
 
 [Display custom context](../display-custom-context.md)
 
-## Send authentication token 
+## Send authentication token
 
-Learn how you can pass an authentication token to Omnichannel for Customer Service to authenticate a customer when they initiate a chat.
+Learn how you can pass an authentication token to Omnichannel for Customer Service to authenticate a customer when they start a chat.
 
 [Send authentication token](../send-auth-token-starting-chat.md)
 
-##  Enable a bot to escalate and end conversation
+## Enable a bot to escalate and end conversation
 
 Omnichannel for Customer Service allows you to route a conversation to a human agent when you think human intervention is required to successfully help the customer.
 
 [Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)<br />
 
-## Auto-close a conversation 
+## Close conversations automatically
 
 Learn how you can automatically close a conversation using Web API.
 
@@ -60,7 +60,7 @@ Learn how you can automatically close a conversation using Web API.
 
 ## runMacro API
 
-`runMacro` API allows you to execute a macro whose name was passed as a parameter in the API call.
+The `runMacro` API allows you to execute a macro whose name was passed as a parameter in the API call.
 
 [runMacro method](reference/methods/runMacro.md)
 

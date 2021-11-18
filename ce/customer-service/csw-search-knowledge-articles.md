@@ -1,10 +1,10 @@
 ---
 title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service workspace.
-ms.date: 08/30/2021
+ms.date: 10/07/2021
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -17,25 +17,22 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Search for knowledge articles
+# Search for knowledge articles in Customer Service workspace
 
 In Customer Service workspace, knowledge base search lets you search for relevant knowledge articles to resolve a case. The knowledge area is available on the productivity pane.
 
 ## Prerequisites
 
 - The productivity pane and knowledge search must be enabled in app profile manager.
-- The anchor tab should be a case or conversation for the knowledge pane to be displayed.
+- The anchor tab should be a case or conversation for the knowledge search pane to be displayed.
 
-## Use the knowledge pane to search articles
+## Use the knowledge search pane to search articles
 
-In Customer Service workspace, for a case, when you select the knowledge tab, knowledge articles that match the case title are displayed on the **Knowledge** pane. These articles are displayed based on relevance and full-text search mechanisms.
+In Customer Service workspace, for a case, when you select the Knowledge Search tab, knowledge articles that match the case title are displayed on the **Knowledge Search** pane. These articles are displayed based on relevance and full-text search mechanisms.
 
-The knowledge articles are applicable for all knowledge-enabled entities.
+The knowledge articles are applicable for all knowledge-enabled entities. By default, the full text search displays 10 results and relevance search displays 50 results. You can also use the search box to enter keywords and search for articles if those displayed by default are not relevant.
 
-By default, the full text search displays 10 results and relevance search displays 50 results.
-
-  > [!div class=mx-imgBorder]
-  > ![Knowledge-article-search.](media/csw-knowledge-tab.png "View the features in knowledge base search")
+:::image type="content" source="media/csw-knowledge-tab.png" alt-text="View features in knowledge base search":::
 
   |Label|Description|
   |-----|-----------|
@@ -46,22 +43,15 @@ By default, the full text search displays 10 results and relevance search displa
   |5.| Status and visibility tags for the article.|
   |||
 
-On the Knowledge pane, you can perform the following actions:
+## Use the knowledge search pane to work on your articles
 
-- Select the article title to open it in an application tab.
-- Use the search box to enter keywords and search for articles if those displayed by default are not relevant.
-- Select the filter icon to display the options based on which the articles can be filtered.
-- Select sort icon to display the options based on which results can be displayed.
-- Select the ellipses to display the following actions that can be performed:
-  - Copy URL
-  - Email URL
-  - Email Content
+You can also perform the following actions on your knowledge article from the **Knowledge Search** pane.
 
-    These actions can be performed for only published or expired articles.
+### View the knowledge article on the application tab
 
-### View the knowledge article in the application tab
+Select an article title to view the article on an application tab. You can view up to 10 articles on the application tab.
 
-Select an article title to view it in an application tab. You can view up to 10 articles in the application tab.
+:::image type="content" source="media/csw-article-app-tab.png" alt-text="View article on application tab":::
 
 You can perform the following actions for the knowledge article:
 
@@ -73,48 +63,53 @@ You can perform the following actions for the knowledge article:
 
 ### Filter knowledge articles
 
-With the help of text and visual filters, you can filter the knowledge articles. To see knowledge articles in specific states, use the **Status** filter. You can filter search results to see all draft, published, or approved articles. See articles that are categorized as internal and external. You can also filter the articles based on date and language.
+With the help of text and visual filters, you can filter the knowledge articles.
+
+:::image type="content" source="media/csw-article-filter.png" alt-text="Filter knowledge articles":::
 
 When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
 
   | Category | Sub-category |
   |-----------------------|-----------------------|
-  | Status | <ul> <li> Draft </li> <li> Approved </li> <li> Published </li> </ul> |
-  | Visibility | <ul> <li> Internal </li> <li> External </li> <li> All </li> </ul> |
-  | Modified Date | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
+  | Status | <ul> <li> Approved </li> <li> Published </li> <li> Scheduled </li> </ul> |
+  | Visibility | <ul> <li> Internal </li> <li> External </li> </ul> |
+  | Modified On | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
   | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in the those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
   |||
 
 ### Sort knowledge articles
 
-The knowledge base search control provides sort the knowledge articles interactions. Select the up-arrow icon to view the sorting options and select one of the options from the following: 
+The knowledge base search control also enables you to sort the knowledge articles. 
+
+:::image type="content" source="media/csw-sort-km.png" alt-text="Sort knowledge article":::
+
+Select the up-arrow icon to view the sorting options and select an option from the following: 
 
 - Relevance
 - Number of views
 - Last modified date (newest first) 
 - Last modified date (oldest first)
 
-  > [!div class=mx-imgBorder]
-  > ![Knowledge article sort.](media/csw-sort-km.png "Knowledge article sort")
-
 ### Link and unlink the knowledge article to a record
 
 When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
 
-  > [!div class=mx-imgBorder]
-  > ![Link to case.](media/csw-link-unlink-km.png "Link or unlink a knowledge article with a record")
-  
-- By default the articles are not linked to the case.
-- When you select to link the article to the case, the link icon changes, and **Linked to Case** is displayed for the article.
+:::image type="content" source="media/csw-link-unlink-km.png" alt-text="Link or unlink an article to a case":::
+
+By default, the articles aren't linked to the case. When you select to link the article to the case, the link icon changes, and **Linked to Case** is displayed for the article.
 
 ### Email options
 
-Use the following options to share the knowledge article link or knowledge article content through mail:
+You can also share the knowledge article link or knowledge article content through mail by selecting the ellipsis next to an article.
 
+:::image type="content" source="media/csw-email-url.png" alt-text="Email options for knowledge artcile":::
+
+- **Copy URL**: You can copy the URL to share the knowledge article link.
 - **Email URL:** The new email form opens with the link to the article in the mail box.
 - **Email Content:** The article content is populated in the mail body. The fields are automatically populated based on the case and customer details.
 
-Add other information as needed, and then on the command bar, select **Send**.
+Add other information as needed, and then on the command bar, select **Send**. Also, you can perform these actions for only published or expired articles.
+
 
 ## How knowledge base search powered by relevance search works
 

@@ -1,3 +1,62 @@
+## 3.12.67.1
+
+(Includes Resource Scheduling controls version 1.2.7.213012)
+
+- Fixed bug: Travel time is included in booking duration when book facility requirement.
+- Performance improvement on new schedule board when user uses **Find Availability** to book requirement. 
+
+
+
+## 3.12.66.3
+
+(Includes Resource Scheduling controls version 1.2.6.212992)
+
+- Allow users to schedule entities without an associated requirement record with scheduling assistant on the new schedule board. 
+- Enabled sorting functionality for new schedule board list view when user uses **Find Availability** to book requirement on hourly view. Users can sort rows using each of the       columns.
+- Improved the performance when user uses **Find Availability** to book requirement on new schedule board.
+- Fixed bug: Travel time is included in booking duration when booking facility type of requirement on new schedule board. 
+- Fixed bug: New schedule board sometimes crashes when scheduling a multiday requirement using **Book and Exit** button with **Find Availability** on the new schedule board. 
+
+## 3.12.65.6
+
+(Includes Resource Scheduling controls version 1.2.5.212813)
+
+- Enabled **Group By** capability on new schedule board list view. 
+- On new schedule board, started showing dotted line when user drags-and-drops requirement to the board. 
+- Fixed: when update contact record with integration job: Update (Pre-operation) for contact plug in throws Error: **System.ServiceModel.QuotaExceededException: 'The size necessary to buffer the XML content exceeded the buffer quota.'** 		
+- Added retry mechanism and logged more information for troubleshooting when Geocode API fails with HTTP 403.
+
+## 3.12.64.78
+This release is a hotfix on Universal Resource Scheduling version [3.12.64.46](/dynamics365/common-scheduler/bug-fixes#3126478)
+
+- Added retry mechanism and logged more information for troubleshooting when Geocode API fails with HTTP 403
+
+## 3.12.64.46 - 2021 wave 2 early access general availability 
+
+(Includes Resource Scheduling controls version 1.2.2.212724)
+
+The following Universal Resource Scheduling 2021 Wave 2 features in general availability are included in this release.
+
+- Resource work hours extensibility. 
+- Improved user experience with new schedule board enhancements.
+
+This release also includes all the fixes included in the [2021 wave 2 early access](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126043---2021-wave-2-early-access), [2021 wave 2 early access update 1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126121---2021-wave-2-early-access-update-1) and [2021 wave 2 early access update 2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126249---2021-wave-2-early-access-update-2).
+
+- Fixed a bug on the legacy schedule board where expanding a pool resource threw an exception. 
+- This release contains an update to the new schedule board; now, new schedule assistant and find availability functionality can also be used with the multiday requirements that last for multiple days with associated requirement detail records. We also shipped many experience, performance, and stability improvements. For any schedulable entity to be supported on the new schedule assistant experience, the schedulable entity record needs to have an associated requirement. Support for schedulable entity records without an associated resource requirement record will be added in a future update. A few performance improvements will also be made available on the Schedule assistant and schedule board in future updates. 
+
+## 3.12.62.49 - 2021 wave 2 early access update 2
+
+(Includes Resource Scheduling controls version 1.2.2.2126411)
+
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 2](/dynamics365-release-plan/2021wave2/service/dynamics365-field-service/planned-features#resource-scheduling) new and updated features. 
+
+This release is an update to the 2021 wave 2 early access of Universal Resource Scheduling version 3.12.61.21. 
+
+- There was an issue where Power Automate cloud flow was used to trigger on update of the work order field on the requirement to create a booking for the requirement, but it would create two bookings. This issue is now fixed. 
+- When a user clicks on the suggested time slot's resources on the quick book panel, the scroll position is reset and the user has to again click on the available resources of the suggested time slot to see the available resources. This issue is now fixed. 
+- This release contains an update to the new schedule board; now, new schedule assistant and find availability functionality can also be used with the multiday requirements that last for multiple days with associated requirement detail records. We also shipped many experience, performance, and stability improvements. For any schedulable entity to be supported on the new schedule assistant experience, the schedulable entity record needs to have an associated requirement. Support for schedulable entity records without an associated resource requirement record will be added in a future update. 
+
 ## 3.12.52.4
 
 (Includes Resource Scheduling controls version 1.1.7.211681)

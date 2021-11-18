@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 08/13/2021
+ms.date: 11/01/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -20,7 +20,7 @@ The Omnichannel intraday insights dashboard contains the Agents insights report 
 
 ## The Agents insights report
 
-The **Agents insights** report consists of metrics from an agent’s standpoint. The report shows all-up agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** tab to view agent performance across all channels, or select the **Live chat**, **Digital messaging**, or **Voice (preview)** tabs to view the agent performance for the corresponding channel.
+The **Agents insights** report consists of metrics from an agent’s standpoint. The report shows all-up agent metrics across all channels or channel-wise agent performance. Supervisors can select the **All** tab to view agent performance across all channels, or select the **Live chat**, **Digital messaging**, or **Voice** tabs to view the agent performance for the corresponding channel.
 
 The Digital messaging report includes metrics from the social channels, SMS, Microsoft Teams, entity records, and custom messaging channels.
 
@@ -34,24 +34,24 @@ You can view specific insights about the performance of individual agents or gro
 
 The agents insights report consists of the following metrics.
 
-| Metrics | Description |Availability|
+| Metric | Description |Availability|
 |-------|-------|--------|
-| Agents logged in | The number of agents who are signed in.| Live chat, Digital messaging, Voice (preview)|
-| Agents with available capacity | The number of signed-in agents who can accept incoming conversation requests as well as their available capacity across all capacity profiles. Unit-based capacity is accounted against the unit capacity profile. |Live chat, Digital messaging, Voice (preview)|
-| Average handle time per session | The average time taken by an agent to accept an incoming session after it is assigned. |Live chat, Digital messaging, Voice (preview)|
-| Session reject rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |Live chat, Digital messaging, Voice (preview)|
-| Session time out rate | The percentage of sessions that were timed out, out of the total sessions assigned. |Live chat, Digital messaging, Voice (preview)|
-| Session transfer rate | The percentage of sessions that were transferred to another agent or queue. |Live chat, Digital messaging, Voice (preview)|
-| Agent status | The presence status of an agent. |Live chat, Digital messaging, Voice (preview)|
+| Agents logged in | The number of agents who are signed in.| Live chat, Digital messaging, Voice |
+| Agents with available capacity | The number of signed-in agents who can accept incoming conversation requests as well as their available capacity across all capacity profiles. Unit-based capacity is accounted against the unit capacity profile. |Live chat, Digital messaging, Voice|
+| Average handle time per session | The average time taken by an agent to accept an incoming session after it is assigned. |Live chat, Digital messaging, Voice |
+| Session reject rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |Live chat, Digital messaging, Voice |
+| Session time out rate | The percentage of sessions that were timed out, out of the total sessions assigned. |Live chat, Digital messaging, Voice |
+| Session transfer rate | The percentage of sessions that were transferred to another agent or queue. |Live chat, Digital messaging, Voice |
+| Agent status | The presence status of an agent. |Live chat, Digital messaging, Voice |
 | Chat status | Displays the number of chat conversations that are in the different statuses.| Live chat|
 | Conversation status by channel | The distribution of the different conversations statuses across different channels. | Digital messaging|
-|Call status| Displays the number of calls that are in the different statuses. | Voice (preview)|
-| Participation mode | The distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session. |Live chat, Digital messaging, Voice (preview)|
-| Transfer rate by agent | The percentage of sessions transferred by the agent to another agent or queue. |Live chat, Digital messaging, Voice (preview)|
-| Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. |Live chat, Digital messaging, Voice (preview)|
+|Call status| Displays the number of calls that are in the different statuses. | Voice |
+| Participation mode | The distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisor's monitor session. |Live chat, Digital messaging, Voice |
+| Transfer rate by agent | The percentage of sessions transferred by the agent to another agent or queue. |Live chat, Digital messaging, Voice |
+| Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. |Live chat, Digital messaging, Voice |
 | Consult acceptance rate | The percentage of consult requests accepted by an agent out of the total requests received. |Live chat, Digital messaging|
-| Avg. talk time (min)| The average time an agent spent talking with a customer over a voice call. | Voice (preview)|
-| Avg. hold time (min) | The average time an agent put a customer on hold over a voice call. |Voice (preview)|
+| Avg. talk time (min)| The average time an agent spent talking with a customer over a voice call. | Voice |
+| Avg. hold time (min) | The average time an agent put a customer on hold over a voice call. |Voice |
 |||
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations, as well as an agent's available capacity across different capacity profiles. Unit-based capacity is accounted against Unit capacity profile.
@@ -67,7 +67,7 @@ The table in the **Agent insights** report displays the following information.
 Wrap-up | The total number of conversations in the wrap-up stage. |
 | Closed | The number of conversations that are closed. |
 | Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). |
-| Email ID | The email address of the agent handling the conversation. |
+| Email ID | The email address of the agent handling the conversation; the email address should be unique so that the agent filter works as expected. |
 
 
 > [!div class="mx-imgBorder"]
@@ -129,8 +129,6 @@ This section displays the following details.
 ### Change agent status
 
 You can select the **Status** field to modify the presence indicator for an agent. The agent has to be signed in for you to change the agent status.
-
-
 
 ### See also
 

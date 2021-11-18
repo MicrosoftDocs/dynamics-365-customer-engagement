@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 08/09/2021
+ms.date: 11/17/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -46,7 +46,7 @@ The following table lists the options and the keyboard shortcuts that you can us
 ## Send messages using the Public and Internal modes
 
 > [!IMPORTANT]
-> The public and internal modes are not available if the consult pane setting is enabled. More information: [Preview: Consult pane setting](enable-consult.md)
+> The public and internal modes are not available if the consult pane setting is enabled. More information: [Consult pane setting](enable-consult.md)
 
 The communication panel allows you to send messages in two modes: **Internal** and **Public**.
 
@@ -63,7 +63,7 @@ You can use the keyboard commands to send internal and public messages:
 
 - **/p:** Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
 
-## Send predefined messages in chats
+## Send quick replies
 
 The communication panel allows you to send predefined messages to a customer with whom you're interacting. These predefined  messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and or internal participants.
 
@@ -75,15 +75,21 @@ You can use a keyboard command to see the list of quick replies. Type the forwar
 The quick replies can be created either by the administrator or by you. You can create personal quick replies if the administrator has enabled the option. The quick replies you created are available on the **Personal** tab of the **Quick replies** panel, and those created by the administrator are available on the **All** tab. Use the personal quick replies when you're in a conversation with a customer by doing the following:
 
 1. Select the quick responses icon ![quick responses icon.](media/personal-quick-reply-icon.png) at the bottom of your conversation window. The **Quick replies** panel displays the available predefined messages on the **All** and **Personal** tabs.
-2. Select the **Personal** tab, and type the number sign (**#**) in the compose box to list the tags and search for the personal quick replies that are available for your use.
+2. Select the **Personal** tab, and type the number sign (#) in the compose box to list the tags and search for the personal quick replies that are available for your use.
 3. Use the **more** option to view the complete text of the quick reply.
 
     > ![Use personal quick reply.](media/use-personal-quick-replies.png "Use personal quick reply")
 
-
-### Search for messages
+### Search for quick replies and tags
 
 After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you. You can also use the number (#) sign to search for the predefined messages.
+
+You can type any of the following options in the compose box to search for the messages that are available for your use:
+
+   * Type **/q**, followed by <**keyword**>, to list messages that match the keyword.
+   * Type **/q**, followed by the number sign (**#**), to list all tags.
+   * Type **/q**, followed by <**tagname**> <**keyword**>, to list quick replies that match the tag and keyword.
+   * Type **/q**, followed by <**tagname**>, to list all quick replies that match the tag. Additionally, you can also add another tag after the <**tagname**> for example, type **/q**, followed by <**tagname**> <**tagname**>, to further refine the quick replies matching both the tags.
 
  > [!div class=mx-imgBorder]
  > ![Type /q and the keyword to filter the replies.](media/oceh-send-quick-replies-filter.png "Filter replies")  
@@ -97,10 +103,13 @@ If the reconnection link is configured by your administrator, you can share the 
 
 ## Consult with agent or supervisor
 
-The communication panel allows you to consult with other agents or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents. The consulted agent should be a part of the same queue as yours for you to consult. If your administrator has enabled the consult pane setting, a separate pane will open beside the communication panel when you start the consultation.
+You can consult with other agents or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents.
 
- > [!div class=mx-imgBorder]
- > ![Use the consult option to launch the consulting list.](media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")
+If your administrator has enabled the consult pane setting, the following events occur when you select an agent to consult with.
+
+- The consultee agent will receive a notification for the consult request.
+- A separate pane will open beside the communication panel when the consultee joins the chat.
+- The consultee will see a consultation window on the page with an option to exit and also see the messages exchanged between the agent and customers.
 
 You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
