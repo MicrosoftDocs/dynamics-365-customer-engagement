@@ -24,7 +24,8 @@ Monitoring of unassigned records allows you to view the lead or opportunity reco
 
 ## View unassigned records
 
-You can view the list of records that aren't assigned to sellers and assign them to sellers either manually or by [creating an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule). The records aren't assigned automatically because of one of the following reasons: 
+You can view the list of records that aren't assigned to sellers and assign them to sellers either manually or by creating an assignment rule. More information: [Create and activate an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule).  
+The records aren't assigned automatically because of one of the following reasons: 
 
 | Reason | Description |
 |--------|-------------|
@@ -56,7 +57,7 @@ You can view the list of records that aren't assigned to sellers and assign them
     >[!div class="mx-imgBorder"]
     >![View the list of unassigned lead records.](media/sa-ar-view-unassigned-records-view-records.png "View the list of unassigned lead records") 
 
-    The **Status Reason** column displays why the record isn't assigned to a seller. By analyzing the reason, you can take appropriate action by assigning these leads to sellers, creating an assignment rule, or by adding conditions to existing [assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule). 
+    The **Status Reason** column displays why the record isn't assigned to a seller. By analyzing the reason, you can take appropriate action by assigning these leads to sellers, creating an assignment rule, or by adding conditions to existing assignment rule. More information: [Create and activate an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule). 
 
 ## Assign records manually
 
