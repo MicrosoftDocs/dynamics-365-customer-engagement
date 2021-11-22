@@ -46,9 +46,8 @@ In Applications tab under Session storage , check for channel providers and Appl
 <<image.png>>
 
 > [!Note]
-> If step A or B is not as expected it would mean that the App profile configuration was not set properly. To fix the above , remove the provider attached in Step 4 and add the provider again.(Step 4)
+> If step A or B is not as expected it would mean that the App profile configuration was not set properly. To fix the above, remove the provider attached in Step 4 and add the provider again.(Step 4)
 
 ## Migrate channel configuration data in Omnichannel for Customer Service
-
 
 ## See also
