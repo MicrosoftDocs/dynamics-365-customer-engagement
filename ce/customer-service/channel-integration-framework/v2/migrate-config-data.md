@@ -41,13 +41,12 @@ Hit Ctrl+P and search for msdyn_channelintegrationframework.js
 
 **To check whether the AppProfile is loaded correctly**
 
-In Applications tab under Session storage , check for channel providers and Application extensions. Channel provider should not be empty and Application extension should contain reference of "msdyn_channelintegrationframework.js" with name msdyn_CIFV2Loader.
+In Applications tab under Session storage , check for channel providers and Application extensions. The channel provider should not be empty and the application extension should contain reference to **msdyn_channelintegrationframework.js** with the name msdyn_CIFV2Loader.
 
-image.png
+<<image.png>>
 
-> [!Note] 
+> [!Note]
 > If step A or B is not as expected it would mean that the App profile configuration was not set properly. To fix the above , remove the provider attached in Step 4 and add the provider again.(Step 4)
-
 
 ## Migrate channel configuration data in Omnichannel for Customer Service
 
