@@ -1,7 +1,7 @@
 ---
 title: "View and manage unassigned records in assignment rules"
 description: "You can view and manage unassigned lead and opportunity records through assignment rules in sales accelerator."
-ms.date: 11/18/2021
+ms.date: 11/22/2021
 ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
