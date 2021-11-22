@@ -34,7 +34,7 @@ The key highlights of the feature are as follows:
 > The AI suggestions feature is currently available in few geographical locations. More information, see: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 
 
-## How AI suggestions for similar cases and knowledge articles works
+## How AI suggestions for similar cases and knowledge articles work
 
 The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to agents, helping agents take action during their interactions with customers. After the productivity pane is enabled in Customer Service workspace or the Omnichannel for Customer Service app, the smart assist cards with suggestions appear on the productivity pane.
 
@@ -46,7 +46,7 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 - A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before they click through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlight the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
 - During an ongoing conversation, for the first three messages sent by the customer, the AI suggestions are triggered for each message. After these first three customer messages, AI suggestions are triggered for every third customer message. The AI suggestions are based on the context described in the last 18 messages.
-- The AI model uses the feedback from agent interactions to retrain and improve the suggestions over time. This includes agent feedback about the relevance of the similar cases and knowledge articles suggestions, as well as other interactions that the agent has with the suggested similar case and knowledge articles, such as, Linked to case, Send URL, Copy URL, Email URL, Email content, Copy resolution, and so on.
+- The AI model uses the feedback from agent interactions to retrain and improve the suggestions over time. This includes agent feedback about the relevance of the similar cases and knowledge articles suggestions and agent interactions with the suggestions, such as, **Linked to case**, **Send URL**, **Copy URL**, **Email URL**, **Email content**, **Copy resolution**, and so on.
 
 > [!NOTE]
 >
