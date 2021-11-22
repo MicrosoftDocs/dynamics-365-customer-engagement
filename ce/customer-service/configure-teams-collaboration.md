@@ -42,7 +42,7 @@ The suggestions capability uses AI to recommend contacts who might be able to he
 
 AI-suggested contacts works with a set of out-of-the-box AI models, so that admins can enable the feature by setting the toggle without the need for extra model training.
 
-For more information about similar case suggestions that impact the AI-suggested contacts, see [How AI suggestions for similar cases works](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-works)
+For more information about similar case suggestions that impact the AI-suggested contacts, see [How AI suggestions for similar cases and knowledge articles work](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-work).
 
 ## Regional availability and supported languages
 
