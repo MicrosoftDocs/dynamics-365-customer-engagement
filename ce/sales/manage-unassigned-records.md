@@ -11,6 +11,8 @@ manager: shujoshi
 
 # View and manage unassigned records
 
+[!INCLUDE[cc-preview-features-no-ms-support](../includes/preview-disclaimer.md)] 
+
 The **Monitoring** feature in assignment rules allows you to view the lead or opportunity records that aren't assigned to any seller. As an administrator, sales manager, or sequence manager, you can view these unassigned records and assign to sellers. 
 
 ## License and role requirements
