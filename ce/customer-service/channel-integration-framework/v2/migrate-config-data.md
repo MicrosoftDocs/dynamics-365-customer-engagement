@@ -1,7 +1,7 @@
 ---
 title: "Migrate third-party channel configuration data | MicrosoftDocs"
 description: "This topic provides information on how to migrate third-party channel configuration data from Channel Integration Framework 1.0 to Channel Integration Framework 2.0 in Customer Service workspace and Omnichannel for Customer Service."
-ms.date: 11/22/2021
+ms.date: 11/24/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -31,20 +31,22 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 6. Open Customer Service workspace and check if the chat widget is visible.
 
-### Validate Configuration
+### Check your migration
 
-A. Validate CIFv2 Library is loaded correctly:
+**To check whether the Channel Integration Framework 2.0 library is loaded correctly**
 
 Open Browser Developer Tools.
 Navigate to Sources tab.
 Hit Ctrl+P and search for msdyn_channelintegrationframework.js
-B. Validate that AppProfile is loaded correctly:
+
+**To check whether the AppProfile is loaded correctly**
 
 In Applications tab under Session storage , check for channel providers and Application extensions. Channel provider should not be empty and Application extension should contain reference of "msdyn_channelintegrationframework.js" with name msdyn_CIFV2Loader.
 
 image.png
 
-Note: If step A or B is not as expected it would mean that the App profile configuration was not set properly. To fix the above , remove the provider attached in Step 4 and add the provider again.(Step 4)
+> [!Note] 
+> If step A or B is not as expected it would mean that the App profile configuration was not set properly. To fix the above , remove the provider attached in Step 4 and add the provider again.(Step 4)
 
 
 ## Migrate channel configuration data in Omnichannel for Customer Service
