@@ -24,7 +24,7 @@ This article describes administrator settings required for real-time marketing f
 
 ## Customer journeys
 
-Real-time marketing customer journeys utilize a Power Automate connector to publish customer journeys. To ensure real-time marketing customer journey functionality, the connector is required to be categorized in the **Business** data group within your data loss prevention (DLP) policy. [DLP policies](/power-platform/admin/wp-data-loss-prevention) are an administrator-level feature from Power Platform that prevent misuse or abuse of company data by restricting usage of Power Platform connectors or combinations of connectors.
+Real-time marketing customer journeys utilize a Power Automate connector to publish customer journeys. To ensure real-time marketing customer journey functionality, the shared_dynamics365marketing connector is required to be categorized in the **Business** data group within your data loss prevention (DLP) policy. [DLP policies](/power-platform/admin/wp-data-loss-prevention) are an administrator-level feature from Power Platform that prevent misuse or abuse of company data by restricting usage of Power Platform connectors or combinations of connectors.
 
 The **Business** categorization allows business data to be shared with Power Automate. The connector does not allow sharing or storage of any personal data. The DLP setting for the connector can only be set by an administrator.
 
