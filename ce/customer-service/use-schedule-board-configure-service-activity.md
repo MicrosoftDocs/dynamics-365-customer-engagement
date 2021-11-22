@@ -219,7 +219,7 @@ After a multi-day booking is created across multiple days, weeks, or months, sch
 
 ## Use the appointments feature in resource scheduling
 
-Organizations often use appointments in Dynamics 365. For example, an agent might create a service appointment to help a customer with an issue. Other examples may include organizations creating appointments because of integrations with other systems.
+Organizations often use appointments in Dynamics 365. For example, an agent might create a service appointment to help a customer with an issue. Other examples include organizations creating appointments because of integrations with other systems.
 
 Dynamics 365 Appointments (Microsoft Dataverse appointments) can be displayed on the Customer Service schedule board alongside bookings, and can be considered during scheduling to understand whether an agent or bookable resource is available.
 
