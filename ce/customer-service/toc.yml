@@ -940,7 +940,7 @@
       items: 
       - name: Overview of Service scheduling
         href: basics-service-service-scheduling.md
-      - name: Install Service Scheduling From Power Platform
+      - name: Install Service Scheduling from Power Platform admin center
         href: install-service-scheduling-from-power-platform.md
       - name: Manage security roles
         href: manage-security-roles.md
