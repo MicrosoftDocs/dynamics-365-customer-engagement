@@ -1,7 +1,7 @@
 ---
 title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/18/2021
+ms.date: 11/22/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -46,7 +46,7 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 - A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before they click through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlight the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
 - During an ongoing conversation, for the first three messages sent by the customer, the AI suggestions are triggered for each message. After these first three customer messages, AI suggestions are triggered for every third customer message. The AI suggestions are based on the context described in the last 18 messages.
-- The AI model uses the feedback from the agent interactions to retrain and improve the suggestions over time. This includes agent feedback about the relevance of the similar cases and knowledge articles suggestions, as well as other interactions that the agent has with the suggested similar case and knowledge articles, such as, Linked to case, Send URL, Copy URL, Email URL, Email content, Copy resolution, and so on.
+- The AI model uses the feedback from agent interactions to retrain and improve the suggestions over time. This includes agent feedback about the relevance of the similar cases and knowledge articles suggestions, as well as other interactions that the agent has with the suggested similar case and knowledge articles, such as, Linked to case, Send URL, Copy URL, Email URL, Email content, Copy resolution, and so on.
 
 > [!NOTE]
 >
@@ -94,12 +94,12 @@ Perform the following steps to enable the AI suggestions for similar cases:
 
 1. Sign in to Customer Service Hub. In the Change area, select **Service Management**, and then under **Insights**, select **Settings**.
 
-or
+   or
 
-Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
+   Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
 
 2. In the **Suggestions for agents** section, select **Manage**. The **Suggestions** page appears.
-3. In the **Settings** > **Summary** area, turn on the **Enable similar case suggestions** toggle.
+3. In the **Settings** > **Summary** area, set the **Enable similar case suggestions** toggle to **Yes**.
 4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively, if you don't want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
 
    > [!NOTE]
@@ -115,12 +115,12 @@ Perform the following steps to enable the AI suggestions for related knowledge a
 
 1. Sign in to Customer Service Hub.  In the **Change area**, select **Service Management**, and then under **Insights**, select **Settings**.
 
- or
+   or
 
- Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
+   Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
 
 2. In the **Suggestions for agents** section, select **Manage**. The **Suggestions** page appears.
-3. In the **Settings** > **Summary** area, turn on the **Enable knowledge article suggestions** toggle.
+3. In the **Settings** > **Summary** area, set the **Enable knowledge article suggestions** toggle to **Yes**.
 4. In the **Data mapping** > **Knowledge article data fields** area, ensure that **Title** and **Content** are selected in the **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that's displayed to the agent at runtime.
 
 5. Select **Save**.
