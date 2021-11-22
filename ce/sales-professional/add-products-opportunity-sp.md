@@ -20,7 +20,7 @@ A way that might help you increase your sales is to add all products that your c
 3. Select a **Price List**. The price list determines the cost of the product. 
   
     > [!NOTE]
-    > By default, selecting a price list is required to be able to add products to an opportunity; however, your administrator can change your organization settings to make the Price List field optional.
+    > By default, selecting a price list is required to be able to add products to an opportunity; however, your administrator can change your organization settings to make the **Price List** field optional.
 
 4. If you want the estimated revenue of the opportunity to be calculated based on the total amount of products, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
 

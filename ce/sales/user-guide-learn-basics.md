@@ -15,7 +15,7 @@ Learn how to access the Sales app, navigate the UI, and understand the data in t
 
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -37,9 +37,9 @@ Learn how to access the Sales app, navigate the UI, and understand the data in t
 
 ## Navigate using the site map
 
-The following image shows the site map or menu of the Sales Hub that helps you navigate to the different areas of the app.
+The following image shows the site map or menu of the Sales app that helps you navigate to the different areas of the app.
 
-![Menu of the Sales Hub app.](media/sales-sitemap-ui.png "Menu of the Sales app")
+![Menu of the Sales app.](media/sales-sitemap-ui.png "Menu of the Sales app")
 
 
 |Number  |Description  |
