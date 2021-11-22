@@ -13,7 +13,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-preview-features-no-ms-support](../includes/preview-disclaimer.md)] 
 
-The **Monitoring** feature in assignment rules allows you to view the lead or opportunity records that aren't assigned to any seller. As an administrator, sales manager, or sequence manager, you can view these unassigned records and assign to sellers. 
+Monitoring of unassigned records allows you to view the lead or opportunity records that aren't assigned to any seller. As an administrator, sales manager, or sequence manager, you can view these unassigned records and assign to sellers. 
 
 ## License and role requirements
 |  | |
@@ -24,14 +24,14 @@ The **Monitoring** feature in assignment rules allows you to view the lead or op
 
 ## View unassigned records
 
-You can view the list of records that aren't assigned to sellers and assign them to sellers according to your requirements. The records aren't assigned because of one of the following reasons:
+You can view the list of records that aren't assigned to sellers and assign them to sellers either manually or by [creating an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule). The records aren't assigned automatically because of one of the following reasons: 
 
 | Reason | Description |
 |--------|-------------|
-| Eligible sellers don't have availability | Record isn't assigned to sellers who are eligible aren't available. |
-| Eligible sellers don't have capacity | Record isn't assigned to sellers who are eligible don't have the capacity. |
+| Eligible sellers don't have availability | Record couldn’t be assigned as eligible sellers aren't available. |
+| Eligible sellers don't have capacity | Record couldn’t be assigned as eligible sellers don't have the capacity. |
 | No assignment rule for this record's segment | Record doesn't match any assignment rule that is currently active and available in the organization.|
-| No sellers meet the conditions | Record isn't assigned to sellers as they don't meet the conditions that are defined in the matched assignment rule. | 
+| No sellers meet the conditions | Record isn't assigned as none of the sellers meet the conditions that are defined in the matched assignment rule. | 
 | Owner assigned manually | Owner is manually assigned to the record. |
 | Owner assigned successfully | Owner is assigned to the record. |
 | Record doesn't meet any conditions | Record isn't assigned as it doesn't match any conditions that are defined for the assignment rule. |
@@ -51,21 +51,21 @@ You can view the list of records that aren't assigned to sellers and assign them
     >[!div class="mx-imgBorder"]
     >![Select the lead monitoring option from monitoring.](media/sa-ar-view-unassigned-records-select-lead.png "Select the lead monitoring option from monitoring") 
 
-    In the **Lead monitoring** page, under the **Unassigned leads** tab, a list of unassigned lead records are displayed. 
+    In the **Lead monitoring** page, under the **Unassigned leads** tab, a list of unassigned lead records is displayed. 
 
     >[!div class="mx-imgBorder"]
     >![View the list of unassigned lead records.](media/sa-ar-view-unassigned-records-view-records.png "View the list of unassigned lead records") 
 
-    Under the Status reason column, you can view the reason why the record isn't assigned to a seller. By analyzing the reason, you can take appropriate action by assigning these leads to sellers, creating an assignment rule, and add conditions to existing assignment rule.
+    The **Status Reason** column displays why the record isn't assigned to a seller. By analyzing the reason, you can take appropriate action by assigning these leads to sellers, creating an assignment rule, or by adding conditions to existing [assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule). 
 
-## Assign unassigned records
+## Assign records manually
 
 You can assign the unassigned records to sellers or a team. 
 
 1. Select the record that you want to assign to a seller and then select **Assign**. In this example, we're selecting a lead record. 
     
     >[!NOTE]
-    >You can select multiple records at once tp assign to a seller.  
+    >You can select multiple records at once to assign to a seller.  
 
     >[!div class="mx-imgBorder"]
     >![Select a record to assign to a seller.](media/sa-ar-assign-unassigned-records-select-records.png "Select a record to assign to a seller") 
