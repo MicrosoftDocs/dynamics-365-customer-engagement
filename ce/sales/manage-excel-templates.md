@@ -41,7 +41,9 @@ Templates display information from the view defined for a record type (entity). 
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
-Create excel templates for different Sales entities from Power Platform. For step-by-step instructions, see [Analyze and share your data with Excel templates](/power-platform/admin/analyze-your-data-with-excel-templates?context=/dynamics365/context/sales-context).  
+1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
+
+2. Follow the instructions in [Analyze and share your data with Excel templates](/power-platform/admin/analyze-your-data-with-excel-templates?context=/dynamics365/context/sales-context) to create an excel template.  
 
 
 # [Sales Professional](#tab/SP)

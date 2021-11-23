@@ -29,7 +29,9 @@ Depending on the Dynamics 365 Sales license that you have, select one of the tab
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
-Configure the integration with Sharepoint in Power Platform. For step-by-step instructions, see [Manage your documents using SharePoint](/power-platform/admin/manage-documents-using-sharepoint?context=/dynamics365/context/sales-context)".  
+1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
+
+2. Follow the instructions in [Manage your documents using SharePoint](/power-platform/admin/manage-documents-using-sharepoint?context=/dynamics365/context/sales-context) to configure the integration.  
 
 
 # [Sales Professional](#tab/SP)

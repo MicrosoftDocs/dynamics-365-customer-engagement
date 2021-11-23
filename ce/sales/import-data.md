@@ -45,7 +45,9 @@ Depending on the Dynamics 365 Sales license that you have, select one of the tab
 
 # [Sales Premium and Sales Enterprise](#tab/SESP)
 
-You can import accounts and contacts from excel, CSV, or XML files. For detailed steps, see [How to import data](/powerapps/user/import-data?context=/dynamics365/context/sales-context).
+1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
+
+2. Follow the instructions in [How to import data](/powerapps/user/import-data?context=/dynamics365/context/sales-context) to import data into Dynamics 365.
 
 # [Sales Professional](#tab/Salespro)
 

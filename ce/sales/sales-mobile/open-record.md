@@ -17,7 +17,8 @@ Records can be accessed from the home page or the Meetings page.
 You can [view details](#view-details), [create new records](#create-records-and-activities), and [edit records](#edit-records) on the home and Meetings pages. Additionally, you can [change a regarding record](view-agenda.md#change-regarding-record) and [add a regarding record](view-agenda.md#add-regarding-record) on the Meetings page.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
