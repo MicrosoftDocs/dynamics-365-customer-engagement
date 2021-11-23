@@ -40,7 +40,7 @@ Campaigns can include planning activities that you want to perform before you la
 
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -64,7 +64,7 @@ Campaigns can include planning activities that you want to perform before you la
  
 7. In the **Timeline** section, add activities to track conversations in the planning phase of the campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use timeline](/powerapps/user/add-activities)    
 
-8. To add a marketing list to the campaign, go to the **Marketing Lists** section, select vertical ellipses, and then select **Add Existing Marketing List**. In the **Lookup Records** pane, find and select a marketing list.
+8. To add a marketing list to the campaign, go to the **Marketing Lists** section, select vertical ellipses, and then select **Add Existing Marketing List**. In the **Lookup Records** panel, find and select a marketing list.
   
 6. To create planning and campaign activities for your campaign, for example, identifying advertising channels or prepare campaign communications to send to the members on the marketing lists, see [Add an activity to a campaign using in-app marketing](add-activity-campaign-using-app-marketing-sales.md).  
 

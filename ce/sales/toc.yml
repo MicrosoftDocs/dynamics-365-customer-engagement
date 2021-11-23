@@ -46,6 +46,8 @@
       href: security-roles-for-sales.md    
     - name: Create users and assign security roles
       href: /power-platform/admin/create-users?context=/dynamics365/context/sales-context
+    - name: Add or manage teams
+      href: manage-teams.md
     - name: Set up sales territories
       href: /power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area?context=/dynamics365/context/sales-context
     - name: Add or remove sales territory members
@@ -64,6 +66,10 @@
       href: /powerapps/maker/model-driven-apps/create-and-edit-a-model-driven-form?context=/dynamics365/context/sales-context
     - name: Create and customize a view
       href: /powerapps/maker/model-driven-apps/create-edit-views-app-designer?context=/dynamics365/context/sales-context
+    - name: Set up branding and theming
+      href: change-color-scheme-logo.md
+    - name: Customize the app
+      href: manage-app.md
 - name: Learn the basics
   items:
   - name: Learn the basics

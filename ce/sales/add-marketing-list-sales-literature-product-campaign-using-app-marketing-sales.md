@@ -25,7 +25,7 @@ Add all items to the campaign that your organization needs in this marketing con
 
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -46,7 +46,7 @@ Add all items to the campaign that your organization needs in this marketing con
    | A related campaign | On the **Related** tab, select **Related Campaigns**, and then select **Add Existing Campaign**.     |
 
 
-3. Select the type of record you want in the **Lookup Records** pane. In the **Look for records** field, type the first few letters of the name of the record to narrow your search, and then select the **Search** icon ![Search icon.](media/search-icon.png "Search icon").  
+3. Select the type of record you want in the **Lookup Records** panel. In the **Look for records** field, type the first few letters of the name of the record to narrow your search, and then select the **Search** icon ![Search icon.](media/search-icon.png "Search icon").  
 
 4. Select the records that you want to add in the list of records that appears, and then select **Add**.  
 

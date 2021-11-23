@@ -14,7 +14,7 @@ Enable your users to create and share professional-looking PDF files of the sale
 ## License and role requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -22,12 +22,14 @@ Enable your users to create and share professional-looking PDF files of the sale
 
 The PDF generation capability allows users to generate PDF files directly from Dynamics 365 records. The capability to create PDF files is supported for the following entities: Accounts, Contacts, Leads, Opportunities, Quotes, Orders, and Invoices, on both web and mobile apps. You can select the entities on which you want to enable PDF generation. 
 
-Based on your license, select the appropriate tab to know how to enable or disable PDF generation in Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Premium.
+Based on your license, select the appropriate tab to know how to enable or disable PDF generation in Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional.
 
 > [!IMPORTANT]
 > With the 2020 release wave 2, the PDF generation capability is enhanced to support all custom entities. The PDF enhancements are limited to the web experience and aren't available in the mobile app. If you haven't opted in, or you're using Sales Hub on the mobile app, you'll see the old experience.
 
-# [Sales Enterprise or Sales Premium](#tab/sales)
+# [Sales Premium or Sales Enterprise](#tab/sales)
+
+**To enable or disable PDF generation**:
 
 1. In lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
@@ -58,6 +60,8 @@ After you enable PDF generation, sellers will be able to generate a PDF, downloa
 > - The **Save to Dynamics** button is available to users when **Notes** is enabled for the primary entity. If they don't see the button, make sure the **Notes (includes Attachment)** check box is selected on the entity page in the **Customization** area. By default, notes are enabled on all out-of-the-box entities. For more information about the **Notes** check box, see [Entity options that can only be enabled](/powerapps/maker/common-data-service/edit-entities#entity-options-that-can-only-be-enabled). 
 
 # [Sales Professional](#tab/salespro)
+
+**To enable or disable PDF generation**:
 
 1. In the site map, under **Setup**, select **Sales settings**.
 

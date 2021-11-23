@@ -1,11 +1,11 @@
 ---
-title: "Use Sales Hub on Dynamics 365 for phones and tablets (Dynamics 365 Sales) | Microsoft Docs"
+title: "Use Sales Hub and Sales Professional on Dynamics 365 for phones and tablets (Dynamics 365 Sales) | Microsoft Docs"
 description: "Use Sales Hub on Dynamics 365 phones and tablets"
-ms.date: 10/25/2021
+ms.date: 11/23/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -17,14 +17,14 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Use the Sales Hub app on Dynamics 365 for phones and tablets app 
+# Use the Sales Hub or Sales Professional app on Dynamics 365 for phones and tablets app 
 
-Access your Sales Hub data while you're on the go by using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device. The Sales Hub app works the same whether you're using it on your mobile device or on a web browser on your computer.
+Access your Sales Hub and Sales Professional data while you're on the go by using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device. The Sales Hub app and Sales Professional works the same whether you're using it on your mobile device or on a web browser on your computer.
 
 ## License and role requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -40,7 +40,7 @@ Before you can start using the app, you need to install the Dynamics 365 for mob
 ## Basic navigation
 
 1.	When you sign in, you'll see the MyApps page with all your apps listed. 
-2.	Select **Sales Hub**.
+2.	Select **Sales Hub** or **Sales Professional** based on your license.
 
     > [!div class="mx-imgBorder"]
     > ![Choose an app.](media/ChooseAnApp_1.png "Choose an app")
@@ -63,11 +63,11 @@ The **Favorites** and **Recently Used** sections provide quick access to your re
     > [!div class="mx-imgBorder"]
     > ![Favorites and Recent items.](media/Favs_3.png "Favorites and Recent items")
   
-## How to use the Sales Hub app on the go  
+## How to use the Sales Hub or Sales Professional app on the go  
 
-The Sales Hub app on the Dynamics 365 for phones mobile app is designed to be your work assistant. The app helps you to engage with customers, close more deals, and acts as your office assistant.
+The Sales Hub or Sales Professional app on the Dynamics 365 for phones mobile app is designed to be your work assistant. The app helps you to engage with customers, close more deals, and acts as your office assistant.
 
-Here are a few tasks that you can perform during your day-to-day activities by using the Sales Hub app on the Dynamics 365 for phones mobile app:
+Here are a few tasks that you can perform during your day-to-day activities by using the Sales Hub or Sales Professional app on the Dynamics 365 for phones mobile app:
 
 - [Plan for your day](#plan-for-your-day)
 
