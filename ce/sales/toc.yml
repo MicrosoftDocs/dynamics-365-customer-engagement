@@ -10,7 +10,7 @@
     items:
     - name: Sign up for a free Sales Premium trial
       items:
-      name: Sign up for the trial
+    - name: Sign up for the trial
       href: sign-up-for-sales-trial.md 
       - name: Trial FAQs
         href: sales-trial-faq.md
