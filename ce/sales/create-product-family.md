@@ -20,6 +20,9 @@ searchScope:
 
 Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products.
 
+> [!NOTE]
+> Product families are only supported for Sales Enterprise and Sales Premium.
+
 ## License and role requirements
 
 |  | |

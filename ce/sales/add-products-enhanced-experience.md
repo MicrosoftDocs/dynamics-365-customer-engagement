@@ -21,11 +21,14 @@ searchScope:
 
 Use the enhanced experience to quickly identify and add multiple products from the catalog to opportunities.
 
+> [!NOTE]
+> Product families are only supported for Sales Enterprise and Sales Premium.  
+
 ## License and role requirements
 
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -37,7 +40,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 - See matching products as you enter text in the search field.
 
-- Pick products from the categorized list of product families.
+- (Applicable for Sales Premium and Sales Enterprise) Pick products from the categorized list of product families.
 
 - See the most recently used list of products while you add multiple products.
 
@@ -60,7 +63,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 1. Open the opportunity to which you want to add products.
 
-2. Go to the **Products** tab.
+2. Go to the **Product Line Items** tab.
 
 3. Select a **Price list**. 
    The price list determines the cost of the product and the products you can select.
@@ -88,7 +91,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 6. Use one of the following options to identify and add products:
 
    - If you know the product names, simply search for them and add.
-   - If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
+   - (Applicable for Sales Premium and Sales Enterprise) If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
 
      > [!NOTE]
      > The products and product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.
