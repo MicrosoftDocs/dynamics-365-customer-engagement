@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/22/2021
+ms.date: 11/23/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -133,7 +133,7 @@ The Dynamics 365 Marketing October 2021 update includes a new Content ideas feat
     - Real-time marketing is now installed with solutions-only installations.
 - **Marketing emails**
     - All users will now experience the new outbound marketing email editor, which provides enhanced performance and a bigger canvas.
-    - The outbound marketing and real-time marketing email editors now include a **Don't wrap in mobile option** for email sections for more accurate rendering.
+    - The outbound marketing and real-time marketing email editors now include a **Wrap columns on mobile** option for email sections for more accurate rendering.
     - Content blocks are available in the new outbound marketing email editor.
 - **Real-time marketing**
     - Live customer journeys can now be updated by creating a new version.
