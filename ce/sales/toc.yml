@@ -12,6 +12,7 @@
       items:
     - name: Sign up for the trial
       href: sign-up-for-sales-trial.md 
+      items:
       - name: Trial FAQs
         href: sales-trial-faq.md
       - name: Preview features in trial
