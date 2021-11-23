@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/22/2021
+ms.date: 12/01/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -28,6 +28,58 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
 ## 2021 updates
+
+### December 2021 update
+
+With the Dynamics 365 Marketing December 2021 update you can export images from outbound marketing to real-time marketing, use Content ideas in the real-time marketing email editor, send Customer Voice surveys in real-time marketing SMS messages and push notifications, track interaction and contact quota usage, create attribute conditions over all attribute types in CDS, and export customer interaction records from Azure Blob Storage to Power BI more quickly. The update also includes general performance upgrades and bug fixes.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10078.2008 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Monthly enhancements
+
+##### Real-time marketing
+
+- **Asset library**
+    - 
+- **Customer journeys**
+    - 
+- **Marketing emails**
+    - 
+- **Marketing insights**
+    - Added an **Unsubscribe** interaction type to real-time marketing to track the number of users that remove themselves from a mailing list. Learn more: [Insights glossary](insights-glossary.md#unsubscribes).
+- **Mobile channel**
+    - 
+- **Scale**
+    - 
+
+##### Outbound marketing
+
+- **Marketing insights**
+    - 
+
+##### Global updates
+
+- 
+
+#### Bug fixes
+
+- **Customer journeys**
+    - 
+- **Event management**
+    - 
+- **Marketing emails**
+    - 
+- **Marketing pages**
+    - 
+- **Social posting**
+    - 
 
 ### November 2021 update
 
