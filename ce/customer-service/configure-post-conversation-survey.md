@@ -1,7 +1,7 @@
 ---
 title: "Configure post-conversation survey | MicrosoftDocs"
 description: "Instructions to configure a post-conversation survey in Omnichannel for Customer Service."
-ms.date: 12/04/2021
+ms.date: 11/23/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ manager: shujoshi
 You can configure your chat widget to show users a survey that they can respond to after they finish a conversation.
 
 > [!NOTE]
-> Post-conversation surveys are not supported for conversations handled by bots and in Government Community Cloud.
+> Post-conversation surveys are not supported in Government Community Cloud.
 
 ## How post-conversation surveys work
 
@@ -63,7 +63,7 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
        - In the **Message** box that appears, select the default message text or type a custom message. The personalized survey link will be appended to the message and displayed to the customer.
    - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
 5. Select the **Bot conversation survey (preview)** checkbox to share surveys for conversations that are handled by bots.
-   
+
    > [!NOTE]
    > In preview, the bot conversation survey option is available for only the live chat channel.
 
@@ -108,7 +108,7 @@ If the post-conversation survey is enabled for a conversation, after the convers
 For Live chat conversations, customers can receive survey questions within the same conversation or through a link that takes them to an external site. For SMS and social channels, a survey link is shared.
 
 > [!NOTE]
-> The surveys that you create and survey data that is processed are not hosted or stored in Omnichannel for Customer Service.
+> The surveys that you create and survey data that's processed are not hosted or stored in Omnichannel for Customer Service.
 
 ### See also
 
