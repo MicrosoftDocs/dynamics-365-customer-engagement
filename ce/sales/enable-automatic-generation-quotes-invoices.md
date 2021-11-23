@@ -1,7 +1,7 @@
 ---
 title: "Enable generation of quotes and invoices| MicrosoftDocs"
 description: "Help your sales team to generate quotes and invoices with consistent format and branding by using templates."
-ms.date: 07/21/2020
+ms.date: 11/23/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,6 +11,9 @@ manager: annbe
 # Enable automatic generation of quote and invoice documents
 
 Help your sales team to automatically generate quotes and invoice documents with consistent format and branding by using templates.
+
+> [!IMPORTANT]
+> This feature requires integration with SharePoint as the generated documents are stored in the SharePoint site. 
 
 ## License and role requirements
 
@@ -32,7 +35,8 @@ Help your sales team to automatically generate quotes and invoice documents with
 
 6.  Select **Save**.
     
-    The settings are saved. When you activate a quote or invoice, a word document for the quote or invoice is automatically generated and stored in the SharePoint site that you've integrated with Dynamics 365. 
+    The settings are saved. When you activate a quote or invoice, a word document for the quote or invoice is automatically generated and stored in the SharePoint site that you've integrated with Dynamics 365. If you haven't integrated with SharePoint, the **Activate Quote** option will activate the quote but won't show any error message about document generation.
+
 
 ### See also
 
