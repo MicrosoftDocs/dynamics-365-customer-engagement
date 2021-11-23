@@ -1,7 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 06/22/2021
+ms.date: 11/22/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -46,6 +46,7 @@ This document provides important, late-breaking information about known issues a
 ## Event management
 
 - If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](/powerapps/maker/portals/configure/invite-contacts) and then send the invitation code to the contact by email.
+- There are a few mismatches between the look of a Microsoft Teams webinar created from Dynamics 365 Marketing and a webinar created from the Teams calendar. The discrepancies will be minimized in future versions. Until then, note that they do not cause any functional limitations as to how you, as the organizer, can manage the webinar through Dynamics 365 Marketing. Refer to this section for more information: [Known issues with Teams webinars](teams-webinar.md#known-issues-with-teams-webinars).
 
 ## General
 
