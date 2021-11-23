@@ -49,7 +49,7 @@
     - name: Predefined security roles for Sales
       href: security-roles-for-sales.md    
     - name: Create users and assign security roles
-      href: /power-platform/admin/create-users?context=/dynamics365/context/sales-context
+      href: manage-users.md
     - name: Add or manage teams
       href: manage-teams.md
     - name: Set up sales territories
@@ -83,7 +83,7 @@
   - name: Understand the sales process
     href: nurture-sales-from-lead-order-sales.md        
   - name: Import data 
-    href: /powerapps/user/import-data?context=/dynamics365/context/sales-context
+    href: import-data.md
   - name: Export data to Excel
     href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
   - name: Search for your data
@@ -167,7 +167,7 @@
     - name: Integrate with OneNote
       href: /power-platform/admin/set-up-onenote-integration-in-dynamics-365?context=/dynamics365/context/sales-context
     - name: Integrate with SharePoint
-      href: /power-platform/admin/manage-documents-using-sharepoint?context=/dynamics365/context/sales-context
+      href: connect-with-sharepoint.md
     - name: Integrate a sample softphone
       href: sample-softphone-integration.md
   - name: Lead management
