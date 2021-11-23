@@ -47,15 +47,15 @@ The KPIs for conversations in the IntradayMonitoring report are as follows.
 
 | Metric | Description |Availability|
 |-------|-------|----------|
-| Average wait time per conversation | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session until the time an agent accepts it. This metric is also displayed on a per-queue basis. ||
-| Exceeding 5 mins wait time | The number of conversations that are open and have exceeded the threshold wait time of five minutes. This metric is also displayed on a per-queue basis. ||
-| Exceeding 5 mins wrap time | The number of conversations that are open and have exceeded the threshold wrap time of five minutes. ||
-| Abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. This metric is also displayed on a per-queue basis. |Live chat |
+| Avg. wait time per conversation | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session until the time an agent accepts it. This metric is also displayed on a per-queue basis. | Live chat|
+| Exceeding 5 mins wait time | The number of conversations that are open and have exceeded the threshold wait time of five minutes. This metric is also displayed on a per-queue basis. | Live chat|
+| Exceeding 5 mins wrap time | The number of conversations that are open and have exceeded the threshold wrap time of five minutes. |Live chat|
+| Abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. This metric is also displayed on a per-queue basis. |Live chat, Voice |
 | Average handle time per conversation | The average handle time is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration the agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. Average handle time is also displayed on a per-queue basis. More information: [Average handle time](#average-handle-time). |Live chat, Digital messaging|
-| Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. This metric is also displayed on a per-queue basis. ||
-| Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. ||
-| Conversation status by queue | The distribution of the status of conversations across different queues. ||
-| Transfer/Escalation rate by queue | The transfer rate is the percentage of conversations in a queue that was transferred atleast once. Escalation rate is the percentage of the conversations within a queue escalated to a supervisor. ||
+| Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. This metric is also displayed on a per-queue basis. | Live chat|
+| Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |Live chat, Digital messaging, Voice|
+| Conversation status by queue | The distribution of the status of conversations across different queues. |Live chat, Digital messaging, Voice|
+| Transfer/Escalation rate by queue | The transfer rate is the percentage of conversations in a queue that was transferred at least once. Escalation rate is the percentage of the conversations within a queue escalated to a supervisor. |Live chat, Digital messaging, Voice|
 ||||
 
 
@@ -69,20 +69,20 @@ The **Agent insights** section provides information about the health of the queu
 
 This section consists of the following performance indicators.
 
-| Metric | Description |
-| ------------ | --------------- |
-| Agents logged in | The number of agents who are signed in.|
-| Average handle time per session | The average handle time is derived as the total session handle times by the number of sessions handled by the agents. The session handle time is the total duration an agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. |
-| Average session acceptance time | The average time an agent takes to accept an incoming conversation. |
+| Metric | Description |Availability|
+| ------------ | --------------- |--------|
+| Agents logged in | The number of agents who are signed in.|Live chat, Digital messaging, Voice|
+| Average handle time per session | The average handle time is derived as the total session handle times by the number of sessions handled by the agents. The session handle time is the total duration an agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. |Live chat, Digital messaging, Voice|
+| Average session acceptance time | The average time an agent takes to accept an incoming conversation. |Live chat, Digital messaging, Voice|
 | Session reject rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
-| Session time out rate | The rate of sessions that were timed out |
-| Sessions rejected by agents | The percentage of sessions rejected out of the total sessions assigned per agent. |
-| Sessions timed out | The rate of sessions that were timed out per agent. |
-| Conversations per online agent | The number of conversations that are handled by each agent. |
-| Agent availability | The distribution of agents presence. |
-| Agents with longest handle time | The number of agents with the longest time to accept a conversation and resolve it. |
-| Total sessions transferred | The number of sessions that were transferred to other agents or supervisors. |
-| Average consult time | The average time spent by agents consulting with other agents or supervisors. |
+| Session time out rate | The rate of sessions that were timed out |Live chat, Digital messaging, Voice|
+| Sessions rejected by agents | The percentage of sessions rejected out of the total sessions assigned per agent. |Live chat, Digital messaging, Voice|
+| Sessions timed out | The rate of sessions that were timed out per agent. |Live chat, Digital messaging, Voice|
+| Conversations per online agent | The number of conversations that are handled by each agent. |Live chat, Digital messaging, Voice|
+| Agent availability | The distribution of agents presence. |Live chat, Digital messaging, Voice|
+| Agents with longest handle time | The number of agents with the longest time to accept a conversation and resolve it. |Live chat, Digital messaging, Voice|
+| Total sessions transferred | The number of sessions that were transferred to other agents or supervisors. |Live chat, Digital messaging, Voice|
+| Average consult time | The average time spent by agents consulting with other agents or supervisors. |Live chat, Digital messaging, Voice|
 |||
 
 ## View and filter reports
