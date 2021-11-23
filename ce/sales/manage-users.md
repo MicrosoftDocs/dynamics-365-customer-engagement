@@ -30,7 +30,10 @@ Depending on the Dynamics 365 Sales license that you have, select one of the tab
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
-Create users and assign appropriate security roles to them in  Power Platform. For step-by-step instructions, see [Create users](/power-platform/admin/create-users?context=/dynamics365/context/sales-context)".  
+
+1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
+
+2. Follow the instructions in [Create users](/power-platform/admin/create-users?context=/dynamics365/context/sales-context) to create users and assign security roles to them".  
 
 
 # [Sales Professional](#tab/SP)

@@ -22,16 +22,17 @@ A team is a group of users who share and collaborate on business records. A user
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Manage teams
+
 Based on your license, select the appropriate tab to know how to enable or disable PDF generation in Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional.
 
 # [Sales Premium or Sales Enterprise](#tab/sales)
 
-For information on how to add and manage teams, go to [Microsoft Dataverse teams management](/power-platform/admin/manage-teams).
+1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
+
+2. Follow the instructions in [Microsoft Dataverse teams management](/power-platform/admin/manage-teams) to create and manage teams.
 
 # [Sales Professional](#tab/salespro)
-
-> [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
 **To create a team**:
 
