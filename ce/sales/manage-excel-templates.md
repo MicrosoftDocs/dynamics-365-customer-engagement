@@ -39,9 +39,9 @@ You can use Excel templates for:
 
 Templates display information from the view defined for a record type (entity). Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information.
 
-# [Sales Enterprise and Sales Premium](#tab/SE)
+# [Sales Premium and Sales Enterprise](#tab/SE)
 
-Create excel templates for different Sales entities from Power Platform. For step-by-step instructions, see [Analyze and share your data with Excel templates](/power-platform/admin/analyze-your-data-with-excel-templates?context=/dynamics365/context/sales-context)".  
+Create excel templates for different Sales entities from Power Platform. For step-by-step instructions, see [Analyze and share your data with Excel templates](/power-platform/admin/analyze-your-data-with-excel-templates?context=/dynamics365/context/sales-context).  
 
 
 # [Sales Professional](#tab/SP)
@@ -186,8 +186,7 @@ Here are some things you need to be aware of to create and make the best use of 
 
 ### See also
 
-[Use document templates in Dynamics 365 Sales Professional](use-document-templates-sales-professional.md)  
-[Admin settings overview](admin-settings-overview.md)
+- [Create and manage Word templates in Dynamics 365 Sales](manage-word-templates.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

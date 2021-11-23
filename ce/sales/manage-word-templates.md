@@ -28,7 +28,7 @@ Once templates are created, users can generate standardized documents automatica
 
 Depending on the license you have, select one of the following tabs for more information:
 
-# [Sales Enterprise and Sales Premium](#tab/SE)
+# [Sales Premium and Sales Enterprise](#tab/SE)
 
 Create word templates from Power Platform. For step-by-step instructions, see [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context)".  
 

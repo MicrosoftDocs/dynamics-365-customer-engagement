@@ -27,7 +27,7 @@ the Sales app by integrating with SharePoint Online.
 
 Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information.
 
-# [Sales Enterprise and Sales Premium](#tab/SE)
+# [Sales Premium and Sales Enterprise](#tab/SE)
 
 Configure the integration with Sharepoint in Power Platform. For step-by-step instructions, see [Manage your documents using SharePoint](/power-platform/admin/manage-documents-using-sharepoint?context=/dynamics365/context/sales-context)".  
 

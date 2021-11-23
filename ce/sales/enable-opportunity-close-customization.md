@@ -28,7 +28,7 @@ To allow users in your organization to capture more relevant details about an op
 
 Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information.
 
-# [Sales Enterprise and Sales Premium](#tab/SE)
+# [Sales Premium and Sales Enterprise](#tab/SE)
 
 If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
