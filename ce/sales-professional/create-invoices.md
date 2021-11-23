@@ -54,15 +54,11 @@ You can also create an invoice that doesn’t generate from a quote.
 
 5.  Select **Save** at the top left to create the invoice record.
 
-6.  To add products from your opportunity to your order, choose **Get Products** at the top of the screen, select your opportunity, and select **OK**.
+6.  To add products from your opportunity to your order, select the **More options** icon and then choose **Get Products**, select your opportunity, and select **OK**.
 
     \-OR-
 
-    In the **Products** section, select the **More Commands** icon, and then select **Add New Invoice Products**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Add New Invoice Products menu option.](media/add-new-invoice-products-menu-option.png "Add New Invoice Products menu option")
-
+    In the **Products** section, select the **+ Add Product**.
 
 7.  In the **Quick Create: Invoice Product** form, enter the details:
 

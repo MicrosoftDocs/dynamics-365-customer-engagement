@@ -11,7 +11,7 @@
     - name: Sign up for a free Sales Premium trial
       items:
       name: Sign up for the trial
-      href: sign-up-for-sales-trial.md
+      href: sign-up-for-sales-trial.md 
       - name: Trial FAQs
         href: sales-trial-faq.md
       - name: Preview features in trial
@@ -24,6 +24,8 @@
       href: set-up-dynamics-365-sales.md
     - name: Set up Dynamics 365 Sales premium features
       href: intro-admin-guide-sales-insights.md
+    - name: Provision your Dynamics 365 Sales Professional environment
+      href: provision-sales-professional-instance.md
     - name: Uninstall Dynamics 365 Sales premium features
       href: uninstall-sales-insights.md         
   - name: Add or remove sample data
@@ -76,8 +78,6 @@
     href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
   - name: Search for your data
     href: /powerapps/user/search?context=/dynamics365/context/sales-context
-  - name: Assign or share rows
-    href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
   - name: Assign or share records
     href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
   - name: Print quote, invoice, or other records
@@ -534,7 +534,7 @@
       href: create-edit-competitor-record-sales.md
   - name: Quote, order, and invoice management
     items:
-    - name: Sales transactions in Dynamics 365 Sales
+    - name: Understand sales transactions
       href: sales-transactions.md
     - name: Lock or unlock prices for an order or invoice
       href: lock-unlock-price-order-invoice.md
@@ -544,7 +544,7 @@
       href: close-quote.md
     - name: Create or edit orders
       href: create-edit-order-sales.md
-    - name: Create or edit invoices
+    - name: Create or manage invoices
       href: create-edit-invoice-sales.md
     - name: Add products to quotes, orders, or invoices
       href: add-product-quote-order-invoice.md
@@ -987,6 +987,8 @@
     href: ts-email.md
   - name: Troubleshooting Sales Premium
     href: troubleshooting-sp.md  
+  - name: Troubleshooting Sales Professional
+    href: troubleshooting-spro.md  
   - name: Sales FAQs
     href: faqs-sales.md
   - name: Sales premium FAQs

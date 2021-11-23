@@ -1,5 +1,5 @@
 ---
-title: "Work with activities in the Kanban view - Sales Enterprise | MicrosoftDocs"
+title: "Work with activities in the Kanban view in Dynamics 365 Sales"
 description: "Use the opportunity Kanban view to visualize your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
 ms.date: 10/25/2021
 ms.topic: article
@@ -23,7 +23,7 @@ The Kanban view for activities helps salespeople to manage multiple activities q
 ## License and role requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
