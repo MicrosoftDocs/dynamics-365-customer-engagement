@@ -14,6 +14,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Here's
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
+
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close deals faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. You can also create marketing lists and campaigns, and follow service cases associated with specific accounts or opportunities.     
 [!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
@@ -64,6 +65,10 @@ The Microsoft Relationship Sales solution combines LinkedIn Sales Navigator with
 ### Dynamics 365 Sales Professional
 
 The Sales Professional app is similar to the Sales Hub app, but the entities included in the Sales Professional app are a subset of the entities included in the Sales Enterprise. More information: [Overview of Dynamics 365 Sales Professional](../sales-professional/sales-professional-overview.md)
+
+Here's a short video to help you understand how Dynamics 365 Sales Professional can transform your sales organization:
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE2OJXb" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## View the Comparison chart
 
