@@ -1,7 +1,7 @@
 ---
 title: "Manage playbook templates (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create and manage playbook templates to help your team consistently perform recurrent business processes such as a sales process."
-ms.date: 11/17/2021
+ms.date: 11/22/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -91,7 +91,8 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
     * **Priority**. Select the priority of the activity.
 
         >[!NOTE]
-        > The **Relative due date (days)** and **Relative due time (hours)** fields are not available for appointments.
+        >- Only the **Relative start date (days)**, **Relative start time**, **Relative end date (days)**, and **Relative end time** fields are available for appointments.
+        >- The **Relative due date (days)** and **Relative due time (hours)** fields are not available for appointments.
 
         > [!div class="mx-imgBorder"]
         > ![quick create form for phone call activity.](media/quick-create-phone-call-form.png "Quick create form for phone call activity")  
