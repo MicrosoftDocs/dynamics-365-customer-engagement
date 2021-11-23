@@ -57,7 +57,7 @@ The **Standard settings** page provides an intuitive experience of setting up wh
 > ![Standard settings page.](media/standard-settings-page.png "Standard settings page")
 
 > [!TIP]
-> To learn how to use the site map to go to different areas of the app, see [Site map on the side](user-guide-learn-basics.md#site-map).
+> To learn how to use the site map to go to different areas of the app, see [Site map on the side](user-guide-learn-basics.md).
 
 ### Advanced settings
 
