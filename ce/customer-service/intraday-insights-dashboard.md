@@ -74,7 +74,7 @@ This section consists of the following performance indicators.
 | Agents logged in | The number of agents who are signed in.|Live chat, Digital messaging, Voice|
 | Average handle time per session | The average handle time is derived as the total session handle times by the number of sessions handled by the agents. The session handle time is the total duration an agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. |Live chat, Digital messaging, Voice|
 | Average session acceptance time | The average time an agent takes to accept an incoming conversation. |Live chat, Digital messaging, Voice|
-| Session reject rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |
+| Session reject rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them. |Live chat, Digital messaging, Voice|
 | Session time out rate | The rate of sessions that were timed out |Live chat, Digital messaging, Voice|
 | Sessions rejected by agents | The percentage of sessions rejected out of the total sessions assigned per agent. |Live chat, Digital messaging, Voice|
 | Sessions timed out | The rate of sessions that were timed out per agent. |Live chat, Digital messaging, Voice|
