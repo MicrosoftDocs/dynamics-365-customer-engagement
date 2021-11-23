@@ -98,13 +98,9 @@ You're directed to the **Forecast configuration** home page, where your organiza
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-<table>
-<tr><td>
-
+---
 > [!div class="nextstepaction"] 
 > [Previous step: Configure advanced settings](forecast-configure-advanced-settings.md)
-</td></tr>
-</table>
 
 ### See also
 

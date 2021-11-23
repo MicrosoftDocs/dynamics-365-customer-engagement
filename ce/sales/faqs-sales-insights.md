@@ -57,71 +57,32 @@ Sales Premium is available in the following regions:
 > Currently, Sales Premium is not available in the following datacenters&mdash;Brazil, Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
 
 ### In which region are the features available? 
-Sales Premium features are available in the following regions:
+Sales Premium features are available in the following regions:   
 
-<table>
-
-<tr>
-<th>Feature</th><th>NAM</th><th>EMEA</th><th>GBR</th><th>APJ</th><th>CAN</th><th>IND</th><th>JPN</th><th>OCE</th><th>CHE</th><th>FRA</th>
-</tr>
-<tr>
-<td>Assistant</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td>
-</tr>
-<tr>
-<td>Sales accelerator</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td>
-</tr>
-<tr>
-<td>Conversation intelligence</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td>
-</tr>
-<tr>
-<td>Auto capture</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td>
-</tr>
-<tr>
-<td>Notes analysis</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td>
-</tr>
-<tr>
-<td>Relationship analytics</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td>
-</tr>
-<tr>
-<td>Who knows whom</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2714;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2714;</b></td>
-</tr>
-<tr>
-<td>Talking points</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td>
-</tr>
-<tr>
-<td>Predictive lead scoring</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td>
-</tr>
-<tr>
-<td>Predictive opportunity scoring</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td>
-</tr>
-<tr>
-<td>Premium forecasting</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></span</td>
-</tr>
-</table>
+| Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA |
+|---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|
+| Assistant | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Auto capture | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Conversation intelligence | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Notes analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Premium forecasting | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | No |
+| Predictive lead scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Talking points | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Who knows whom | Yes | Yes | No | No | Yes | No | No | No | No | Yes |
 
 ### Which version of Exchange is supported for features in Sales Premium?   
 The Sales Premium features support the following versions of Exchange:
 
-<table>
-<tr>
-<th>Feature</th><th>Exchange Online</th><th>Exchange Server 2013 and above</th><th>Is Exchange required?</th>
-</tr>
-<tr>
-<td>Relationship analytics and health</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
-</tr>
-<tr>
-<td>Assistant</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">No</td>
-</tr>
-<tr>
-<td>Email engagement</td><td style="text-align:center">Yes</td><td style="text-align:center">Yes</td><td style="text-align:center">Yes</td>
-</tr>
-<tr>
-<td>Who knows whom</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
-</tr>
-<tr>
-<td>Talking points</td><td style="text-align:center">Yes</td><td style="text-align:center">No</td><td style="text-align:center">Yes</td>
-</tr>
-</table>
+| Feature | Exchange Online | Exchange Server 2013 and above | Is Exchange required? |
+|---------|-----------------|--------------------------------|-----------------------|
+| Relationship analytics and health | Yes | No | No |
+| Assistant | Yes | No | No |
+| Email engagement | Yes | Yes | Yes |
+| Who knows whom | Yes | No | Yes |
+| Talking points | Yes | No | Yes |
 
 >[!NOTE]
 >- The assistant and relationship analytics can work without Exchange. However, the information displayed in relationship analytics will not contain Exchange data and the assistant will not display cards that are based on Exchange data. 
