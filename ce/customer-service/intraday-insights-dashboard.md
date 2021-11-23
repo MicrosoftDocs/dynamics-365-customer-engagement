@@ -1,7 +1,7 @@
 ---
 title: "Intraday insights dashboard for supervisors in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the intraday insights dashboard for supervisors"
-ms.date: 10/07/2021
+ms.date: 11/23/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -47,9 +47,9 @@ The KPIs for conversations in the IntradayMonitoring report are as follows.
 
 | Metric | Description |Availability|
 |-------|-------|----------|
-| Avg. wait time per conversation | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session until the time an agent accepts it. This metric is also displayed on a per-queue basis. | Live chat|
-| Exceeding 5 mins wait time | The number of conversations that are open and have exceeded the threshold wait time of five minutes. This metric is also displayed on a per-queue basis. | Live chat|
-| Exceeding 5 mins wrap time | The number of conversations that are open and have exceeded the threshold wrap time of five minutes. |Live chat|
+| Avg. wait time per conversation | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session until the time an agent accepts it. This metric is also displayed on a per-queue basis. | Live chat, Digital messaging, Voice|
+| Exceeding 5 mins wait time | The number of conversations that are open and have exceeded the threshold wait time of five minutes. This metric is also displayed on a per-queue basis. | Live chat, Digital messaging, Voice|
+| Exceeding 5 mins wrap time | The number of conversations that are open and have exceeded the threshold wrap time of five minutes. |Live chat, Digital messaging, Voice|
 | Abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. This metric is also displayed on a per-queue basis. |Live chat, Voice |
 | Average handle time per conversation | The average handle time is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration the agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. Average handle time is also displayed on a per-queue basis. More information: [Average handle time](#average-handle-time). |Live chat, Digital messaging|
 | Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. This metric is also displayed on a per-queue basis. | Live chat|
