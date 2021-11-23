@@ -29,13 +29,19 @@ Bring customer and sales data quickly into your app by importing it. Dynamics 36
 | **Security roles** | System Administrator, Sales Manager, or Sales Professional Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Supported file types
+## Supported file types and sources
 
-You can import data from the following file types:
+You can import data from the following file types and sources:
 
--   Comma-separated value (CSV) files.
+- Comma-separated value (CSV) files.
 
--   Microsoft Excel templates available in Dynamics 365 Sales. 
+- Microsoft Excel templates available in Dynamics 365 Sales. 
+- XML (Supported only for Sales Premium and Sales Enterprise)  
+- Exchange
+
+## Import data
+
+Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information.
 
 # [Sales Premium and Sales Enterprise](#tab/SESP)
 

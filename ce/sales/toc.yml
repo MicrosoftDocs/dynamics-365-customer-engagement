@@ -26,9 +26,11 @@
       href: intro-admin-guide-sales-insights.md
     - name: Uninstall Dynamics 365 Sales premium features
       href: uninstall-sales-insights.md         
-  - name: Add or remove sample data
+  - name: Add or remove sample data in Sales Hub
     href: /power-platform/admin/add-remove-sample-data?context=/dynamics365/context/sales-context
-  - name: Manage sample data for sales accelerator      
+  - name: Add or remove sample data in Sales Professional
+    href: install-sample-data.md
+  - name: Add or remove sample data in Sales accelerator      
     href: manage-sample-data.md     
   - name: Upgrade
     items:
@@ -58,6 +60,8 @@
         href: /power-platform/admin/manage-transactions-with-multiple-currencies?context=/dynamics365/context/sales-context
       - name: Work with fiscal year settings
         href: /power-platform/admin/work-fiscal-year-settings?context=/dynamics365/context/sales-context
+      - name: Import data
+        href: import-data.md
   - name: Customize your sales app
     items:
     - name: Create and customize a form
@@ -124,12 +128,10 @@
         href: add-kanban-control.md
     - name: Work with templates
       items:
-      - name: Create Word templates in Sales Enterprise and Premium  
-        href: /power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context
-    - name: Create Word templates in Sales Professional  
-        href: /sales-professional/manage-word-templates?context=/dynamics365/context/sales-context    
-      - name: Analyze and share your data with Excel templates
-        href: /power-platform/admin/analyze-your-data-with-excel-templates?context=/dynamics365/context/sales-context
+      - name: Create and manage Word templates  
+        href: manage-word-templates.md
+      - name: Create and manage Excel templates
+        href: manage-excel-templates.md
       - name: Create email templates
         href: /powerapps/user/email-template-create?context=/dynamics365/context/sales-context          
     - name: Enable auto capture
@@ -140,6 +142,10 @@
       href: configure-notes-analysis.md
     - name: Enable or disable PDF generation from sales records
       href: enable-pdf-generation-quote.md   
+    - name: Enable auto-generation of quote and invoice documents
+      href: enable-automatic-generation-quotes-invoices.md
+    - name: Enable creation of orders from quotes
+      href: enable-creation-of-orders-from-quotes.md
     - name: Configure Microsoft Teams dialer
       href: configure-microsoft-teams-dialer.md
     - name: Install and set up Microsoft Teams integration

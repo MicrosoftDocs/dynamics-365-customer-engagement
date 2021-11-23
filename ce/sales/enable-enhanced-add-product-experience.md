@@ -49,9 +49,11 @@ Enable your salespeople to quickly find and add multiple products to an opportun
 
 ## Enable or disable the enhanced experience
 
-You can enable or disable the enhanced experience through the **App Settings** page or through **System Settings**.
+Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information. 
 
-**To enable or disable the enhanced experience from the App settings page in Sales Hub**
+# [Sales Premium and Sales Enterprise](#tab/SE)
+
+If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
 1. In the Sales Hub app, select the **Change area** icon
     ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area")
@@ -68,9 +70,9 @@ You can enable or disable the enhanced experience through the **App Settings** p
     
     If you disable the preview, the **Add products** option in the opportunity, quote, order, and invoice will switch back to **Quick create** form.
 
-**To enable or disable the enhanced experience from System Settings**
+# [Sales Professional](#tab/SP)
 
-If you're using a custom app, you can enable or disable the enhanced experience from **System Settings** in the legacy web client.
+If you're using a custom app or Sales Professional app, you can enable or disable the enhanced experience from **System Settings** in Power Platform.
 
 1. In your app, select **Settings** ![Settings.](media/settings-icon.png "Settings"), and then select **Advanced Settings**.
 
@@ -85,6 +87,8 @@ If you're using a custom app, you can enable or disable the enhanced experience 
 4. In the **System Settings** dialog box, go to the **Sales** tab and set **Enhanced add product experience** to **Yes** to enable the enhanced experience. Set it to **No** to disable. 
 
 5. Select **OK**.
+
+---
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

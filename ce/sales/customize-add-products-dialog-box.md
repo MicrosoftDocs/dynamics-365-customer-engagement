@@ -1,5 +1,5 @@
 ---
-title: "Preview  Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Preview  Customize the Add Products dialog box | MicrosoftDocs"
 description: "Customize the Add Products dialog box so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
 ms.date: 10/26/2021
 ms.topic: article
@@ -23,7 +23,7 @@ Customize the Add Products dialog box so that salespeople can see important prod
 ## License and role requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
