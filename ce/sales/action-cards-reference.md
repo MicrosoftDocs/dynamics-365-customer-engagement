@@ -31,7 +31,7 @@ The assistant displays cards in the following categories:
 
 The following cards are available under **Upcoming meetings**.
 
-| <!-- --> | <!-- --> | <!-- --> |
+| &nbsp; | &nbsp; | &nbsp; |
 |----------|----------|----------|
 | [Meeting today/Meeting today (Exchange)](#MeetingToday) | [Upcoming meeting/Upcoming meeting (Exchange)](#UpcomingMeeting)| [Related news](#RelatedNEWS) |
 | [Nearby customers](#NearbyCustomers) |||
@@ -50,9 +50,9 @@ The following cards are available under **Upcoming meetings**.
 
 The following cards are available under **Reminders**.
 
-| <!-- --> | <!-- --> | <!-- --> |
+| &nbsp; | &nbsp; | &nbsp; |
 |----------|----------|----------|
-| [{<i>activity</i>} due today](#ActivityDueDate) | [Close date coming soon](#CloseDateComingSoon>) | [Missed (opportunity) closed date](#MissedCloseDate)|
+| [{<i>activity</i>} due today](#ActivityDueDate) | [Close date coming soon](#CloseDateComingSoon) | [Missed (opportunity) closed date](#MissedCloseDate)|
 | [Email opened](#EmailOpened) | [Email reminder](#EmailReminder) | [No activity with {<i>record type</i>}](#NoActivityWithType) |
 | [Recent meeting/Recent meeting (Exchange)](#RecentMeetingExchange) | [Missed email](#MissedEmail) ||
 
@@ -76,7 +76,7 @@ The following cards are available under **Reminders**.
 
 The following cards are available under **Insights**.
 
-| <!-- --> | <!-- --> | <!-- --> |
+| &nbsp; | &nbsp; | &nbsp; |
 |----------|----------|----------|
 | [Opportunity at risk (sentiment detection)](#OpportunityRiskSentiment) | [Opportunity at risk (phrase detection)](#OpportunityRiskPhrase) | [Competitor mentioned](#CompetitorMentioned) |
 | [Issue detected](#IssueDetected) | [Customer question](#CustomerQuestion) | [Meeting requested](#MeetingRequested) |
