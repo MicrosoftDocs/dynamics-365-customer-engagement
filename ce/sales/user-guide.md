@@ -45,7 +45,7 @@ Use links in this articles to learn how to leverage the Sales Enterprise and Sal
 <tr><td>
 <h2>Increase sales</h2>
 
-<li><a href="nurture-sales-from-lead-order-sales.md" data-raw-source="[Nurture sales from lead to cash](nurture-sales-from-lead-order-sales.md)">Nurture sales from lead to cash</a></li>
+<li><a href="nurture-sales-from-lead-order-sales.md" data-raw-source="[Understand the sales process](nurture-sales-from-lead-order-sales.md)">Understand the sales process</a></li>
 <li><a href="create-edit-lead-sales.md" data-raw-source="[Create or edit leads](create-edit-lead-sales.md)">Create or edit leads</a></li>
 <li><a href="qualify-lead-convert-opportunity-sales.md" data-raw-source="[Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)">Qualify or convert leads</a></li>
 <li><a href="../sales-enterprise/re-open-lead-sales.md" data-raw-source="[Reopen leads](../sales-enterprise/re-open-lead-sales.md)">Reopen leads</a></li>

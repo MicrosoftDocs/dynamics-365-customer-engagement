@@ -20,7 +20,7 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Create a unit group and add units to that group (Sales Hub) 
+# Create a unit group and add units to that group 
 
 Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 Sales.
 
@@ -28,8 +28,8 @@ Define the quantities or measurements that you sell your products or services in
 
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator, Sales Manager, or Sales Professional Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## What are unit groups and units?
@@ -38,22 +38,21 @@ Units are the quantities or measurements that you sell your products or services
   
  In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
  
-## Create a unit group and add units (Sales Hub)
+## Create a unit group and add units
 
-1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
+1. Depending on the sales app that you're using, do one of the following:
+ 
+    -  If you're using the Sales Hub app, 
   
-2. Select the site map icon ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **App Settings**. 
+        1. Select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the lower-left corner of the site map, and then select **App Settings**. 
+    
+        1. In the **Product Catalog** area, select **Unit Groups**. 
   
-3. In the **Product Catalog** area, select **Unit Groups**. 
+   - If you're using the Sales Professional app, 
 
-    > [!div class="mx-imgBorder"]
-    > ![Unit groups in site map.](media/site-map-unit-group.png "Unit groups in site map")
+       - Select **Unit Groups** from the site map.
 
 4. To create a new unit group, on the command bar, select **New**.
-
-    -OR-
-
-    To edit a unit group, open a unit group from the list.
 
 5.	Fill in your information, and select **OK**:
 

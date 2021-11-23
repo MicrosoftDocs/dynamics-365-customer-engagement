@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-ms.date: 10/08/2021
+ms.date: 11/17/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -58,5 +58,11 @@ For more information on other deprecations that impact Dynamics 365 customer eng
 | Product areas affected | Application |
 | Deployment option | All |
 | Status | Removed: By October 15, 2020 |
+|||
+
+## Dynamics 365 Product Visualize is deprecated
+
+Effective October 04, 2021, Dynamics 365 Product Visualize is deprecated. After October 04, 2021 the product will cease to function and will no longer be supported.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,13 +9,15 @@ manager: shujoshi
 ---
 # Recalculate an opportunity in Dynamics 365 Sales
 
-To change the estimated revenue or total amount of an opportunity based on any changes you've made to the associated products or product quantities, recalculate the opportunity.
+When you add a product to an opportunity, the opportunity's estimated revenue value is calculated based on the price, discounts, taxes, and other pricing modifications for the product.
+
+To change the estimated revenue value of an opportunity based on any changes to the associated products or product quantities, recalculate the opportunity.
 
 ## License and role requirements
 
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
