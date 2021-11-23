@@ -1,5 +1,5 @@
 ---
-title: "Enable generation of quotes and invoices| MicrosoftDocs"
+title: "Enable generation of quote and invoice documents| MicrosoftDocs"
 description: "Help your sales team to generate quotes and invoices with consistent format and branding by using templates."
 ms.date: 11/23/2021
 ms.topic: article
@@ -13,7 +13,7 @@ manager: annbe
 Help your sales team to automatically generate quotes and invoice documents with consistent format and branding by using templates.
 
 > [!IMPORTANT]
-> This feature requires integration with SharePoint as the generated documents are stored in the SharePoint site. 
+> This feature requires integration with SharePoint as the generated documents are stored in the SharePoint site. If you haven't integrated with SharePoint, you can manually export the documents. For more information, see [Export sales records to PDF](create-quote-pdf.md).
 
 ## License and role requirements
 
