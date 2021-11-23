@@ -114,7 +114,7 @@ Do the following to specify operating hours for a queue:
 
 ## Limitation
 
-The Calendar entity can't be migrated.
+You can't migrate the Calendar entity by using the export and import options and need to set up the work hours manually.
 
 ### See also
 

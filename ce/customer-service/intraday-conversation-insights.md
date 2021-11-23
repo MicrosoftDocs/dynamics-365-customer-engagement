@@ -90,7 +90,7 @@ The **Ongoing conversations** table displays the following metrics based on the 
 | Talk time (min)| **For voice channel**: The total time spent by the customer and agent talking on the voice call. It’s the difference between the handle time and cumulative time in hold and after call work time. |
 | Hold time (min)|**For voice channel**: The total time an agent has put a customer on hold.|
 | After call work time (min)| **For voice channel**: The time spent by an agent in wrapping up a voice call. |
-| Wait time (min) | Total wait time of the conversation. |
+| Wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent accepts it. |
 | Handle time (min) | Total time taken to accept and close the conversation. |
 | Wrap time (min) | Total time in which the conversation was in the wrap stage. |
 | Sentiment | An automatic and unbiased measurement of satisfaction levels of the customer in real time. |
@@ -108,7 +108,7 @@ First response time is calculated as the difference between the first message fr
 
 Response time is the difference between the earliest message from the customer and the earliest response from the agent, excluding the first message and response from the customer and agent respectively.
 
-For example, a customer sends a message "Hello" at 2:20 PM and another message "I have a problem" at 2:21 PM. The agent responds to the first message as "Hello, how may I help you?" at 2:21 PM and responds to second message with "What is the issue you are facing?" at 2:23 PM. The first response time will be the difference between 2:20 PM and 2:21 PM, which is one minute.
+For example, a customer sends a message "Hello" at 2:20 PM and another message "I have a problem" at 2:21 PM. The agent responds to the first message as "Hello, how may I help you?" at 2:22 PM and responds to second message with "What is the issue you are facing?" at 2:23 PM. The first response time will be the difference between 2:20 PM and 2:22 PM, which is two minutes.
 
 The first response time and response time is calculated by keeping different factors into account. If operating hours are defined on the queue, the wait period of the out-of-operating hours is not considered in the response time. For example, an organization's operating hours are from 9:00 AM to 5:00 PM. When a chat is initiated by a customer at 8:55 AM, and agent responds at 9:05 AM. The response time will be considered as five minutes and not consider the five minutes that were outside of the operating hours.
 
