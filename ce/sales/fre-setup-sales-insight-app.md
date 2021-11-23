@@ -28,7 +28,8 @@ After you sign in to conversation intelligence or your sales app, you can set up
 - As a sales manager or a seller, you'll need an administrator to configure the application so you can view the data and settings that are relevant to you. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
