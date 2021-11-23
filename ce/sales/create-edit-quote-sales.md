@@ -91,7 +91,7 @@ One way that can help you increase your sales is to add all products that your c
 
 ## Email a quote
 
-When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf.md#email-pdf)
+When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf.md#export-to-pdf)
 
 ## Typical next steps  
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit an order](create-edit-order-sales.md)  
