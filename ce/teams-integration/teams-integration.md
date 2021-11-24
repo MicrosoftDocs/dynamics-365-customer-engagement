@@ -50,7 +50,7 @@ Connect and collaborate in the flow of work with anyone, anywhere with Dynamics 
 
   - **Display a record or view in tab**: You can add a Dynamics 365 record or a view as tabs into a Teams channel. For example, you can add a tab for an account named Fourth Coffee. When you select the tab, the record’s detail is displayed in its form. Similarly, you can add the view My Open Opportunities as a tab. When you select the tab, you see all your open opportunities. More information: [Basic Collaboration Experience with the Dynamics 365 app for Microsoft Teams](teams-collaboration.md)
 
-  - **File integration**: You can co-author documents using Microsoft 365 and automatically sync with Dynamics 365 records that are linked to a Teams channel. Files uploaded to a Teams channel are associated with the Dynamis 365 record. Similarly, files uploaded to the linked Dynamics record are visible in the Teams channel. More information: [Document management with Microsoft Teams integration](teams-doc-management.md)
+  - **File integration**: You can co-author documents using Microsoft 365 and automatically sync with Dynamics 365 records that are linked to a Teams channel. Files uploaded to a Teams channel are associated with the Dynamics 365 record. Similarly, files uploaded to the linked Dynamics 365 record are visible in the Teams channel. More information: [Document management with Microsoft Teams integration](teams-doc-management.md)
 
   - **Personal dashboard**: You can view your personal dashboard from the Dynamics 365 app into Teams by using the Dynamics 365 app. More information: [View your personal dashboard with the Dynamics 365 app for Microsoft Teams](teams-personal-use.md)
 
