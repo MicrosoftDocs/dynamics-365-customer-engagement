@@ -15,6 +15,13 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-category
+ - D365-UI-*
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement
 ---
 
 # Create and manage categories
