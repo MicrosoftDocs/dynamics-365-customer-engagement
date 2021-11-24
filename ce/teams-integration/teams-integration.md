@@ -14,7 +14,7 @@ manager: shujoshi
 
 # Overview of Microsoft Teams integration
 
-In today’s business scenario, the business groups often collaborate across departments while working on a marketing campaign, a sales opportunity, or solving a customer issue. Dynamics 365 and Microsoft Teams integration allows speeding up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. 
+In today’s business scenario, business groups often collaborate across departments while working on a marketing campaign, pursuing a sales opportunity, or solving a customer issue. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. 
 
 Using Teams integration, you can invite anyone in the organization to view and collaborate on customer records right within a Teams chat or channel. As a seller, you can share details on the sales opportunity, customer history, and more. As a customer service representative, you can share the customer case record, troubleshooting steps, and track the follow-up tasks.
 
@@ -22,6 +22,7 @@ Teams can be integrated with Dynamics 365 Sales, Dynamics 365 Customer Service, 
 
 > [!NOTE]
 > Microsoft Teams integration is not supported on the following: 
+> 
 >  - Dynamics 365 Customer Engagement (on-premises)
 >  - Microsoft Dataverse environment
 >  - Legacy web client or legacy apps
