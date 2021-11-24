@@ -1,7 +1,7 @@
 ---
 title: Configure AI suggestions for article keywords and description | MicrosoftDocs
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
-ms.date: 11/22/2021
+ms.date: 11/24/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -81,7 +81,7 @@ Make sure that the following requirements are met:
 
 ### Enable AI suggestions for article keywords and description in a custom form
 
-1. In Customer Service Hub, go to **Settings** > **Advanced Settings**.
+1. In your Dynamics 365 environment site map, go to **Settings** > **Advanced Settings**.
 1. From the **Settings** dropdown, select **Customizations**.
 1. On the **Customizations** page, select **Customize the System**.
 1. From the **Solution: Default Solution** navigation pane, select **Components** > **Entities** > **Knowledge Article** > **Forms**.
