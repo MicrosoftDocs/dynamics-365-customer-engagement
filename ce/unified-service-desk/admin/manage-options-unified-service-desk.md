@@ -14,9 +14,10 @@ search.app:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-monikerRange: '>= dynamics-usd-4'
 ---
-
+<!--
+monikerRange: ">= dynamics-usd-4"
+-->
 # Change global settings or options in Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
