@@ -74,20 +74,21 @@ Connect and collaborate in the flow of work with anyone, anywhere with Dynamics 
 ## Privacy notice
 
 
-<!-- I made some revisions to the following based on this style guide entry: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=48260. If this is text you obtained from CELA, you should ask if the changes are OK. -->
+<!-- I made some revisions to the following based on this style guide entry: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=48260. Also, I think it should be "Azure Bot Service" rather than bot framework, based on the link and on this style guide entry: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=42286. If this is text you obtained from CELA, you should ask if the changes are OK. -->
 
-While using customer engagement apps in a Dynamics 365 bot in Microsoft Teams, the user’s text inputs are analyzed for understanding the underlying query/intent. The user’s input such as “Search account Contoso” is routed to a service within Azure Cognitive Services called Language Understanding (LUIS). [Read more about LUIS.](https://www.luis.ai/) The LUIS service disambiguates or understands the intent of user input (in this case, the intent is to find information) and the target entity (in this case, the intended entity is an account named Contoso). This information is then passed on to Microsoft’s [Azure bot framework](https://azure.microsoft.com/services/bot-service/) which interacts with Dynamics 365 data and retrieves the desired information for the user query.
 
-By installing and allowing access to use of the bot, you agree to allow the LUIS service and Azure bot framework to process the intent behind the input – which results in an enhanced conversational user experience. The LUIS service and Azure bot framework may have varying levels of compliance compared to Dynamics 365 Sales apps. While the LUIS service has access to only the user queries and is not designed to be connected to the user’s Dynamics data or account, a user of the Dynamics 365 Sales bot could voluntarily enter a query containing Customer Data, Personal Data or other data and such query content could get sent to the LUIS service and the Azure bot framework. 
+While using customer engagement apps in a Dynamics 365 bot in Microsoft Teams, the user’s text inputs are analyzed for understanding the underlying query/intent. The user’s input such as “Search account Contoso” is routed to a service within Azure Cognitive Services called Language Understanding (LUIS). [Read more about LUIS.](https://www.luis.ai/) The LUIS service disambiguates or understands the intent of user input (in this case, the intent is to find information) and the target entity (in this case, the intended entity is an account named Contoso). This information is then passed on to Microsoft’s [Azure Bot Service](https://azure.microsoft.com/services/bot-service/), which interacts with Dynamics 365 data and retrieves the desired information for the user query.
 
-The content of user’s queries and messages is retained in LUIS system for a maximum of 30 days, encrypted at rest and is not used for training or service improvement. Read more about Cognitive Services [here](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
+By installing and allowing access to use of the bot, you agree to allow the LUIS service and Azure Bot Service to process the intent behind the input – which results in an enhanced conversational user experience. The LUIS service and Azure Bot Service may have varying levels of compliance compared to Dynamics 365 Sales apps. While the LUIS service has access to only the user queries and is not designed to be connected to the user’s Dynamics 365 data or account, a user of the Dynamics 365 Sales bot could voluntarily enter a query containing Customer Data, Personal Data or other data and such query content could get sent to the LUIS service and Azure Bot Service. 
 
-To manage admin settings for apps in Microsoft Teams, go to the Microsoft 365 admin center and open **Settings** > **Services & add-ins**, then choose Microsoft Teams. If you're signed in as a Microsoft 365 admin, you can access these controls [here](https://admin.microsoft.com/adminportal/home#/Settings/ServicesAndAddIns), including the ability to uninstall.
+The content of user’s queries and messages is retained in the LUIS system for a maximum of 30 days, encrypted at rest and is not used for training or service improvement. Read more about [Cognitive Services](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
+
+To manage admin settings for apps in Microsoft Teams, go to the Microsoft 365 admin center and open **Settings** > **Services & add-ins**, then choose Microsoft Teams. If you're signed in as a Microsoft 365 admin, you can [access these controls here](https://admin.microsoft.com/adminportal/home#/Settings/ServicesAndAddIns), including the ability to uninstall.
 
 
 ### See also
- [Download and install Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)<br/>
- [Microsoft Teams help center](https://support.office.com/teams)
+- [Download and install Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)
+- [Microsoft Teams help center](https://support.office.com/teams)
 
 
 
