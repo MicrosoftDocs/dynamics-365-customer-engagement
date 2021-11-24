@@ -1,17 +1,17 @@
 ---
-title: "Bring your own custom messaging channel: Direct Line Bot | MicrosoftDocs"
+title: "Bring your custom messaging channel: Direct Line Bot | MicrosoftDocs"
 description: "This topic provides information on how you can integrate custom messaging channels using Direct Line API 3.0."
-ms.date: 10/12/2020
+ms.date: 11/24/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# Bring your own custom messaging channel&mdash;Direct Line
+# Bring your custom messaging channel&mdash;Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0).
+With Omnichannel for Customer Service, you can implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0).
 
 The following section includes code snippets that use Direct Line API 3.0 to create a Direct Line client and the `IChannelAdapter` interface to build a sample connector.
 
