@@ -32,7 +32,7 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
   
 ### Check the Unified Service Desk solution version
 
- In your Dataverse instance, navigate to Dataverse, then select **Settings** > **Solutions**. If the version numbers of the **UiiForMicrosoftDynamicsCRM2011** and **DynamicsUnifiedServiceDesk** solutions match those mentioned in the table, then you have the latest version of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
+ In your Dataverse instance, navigate to Dataverse, then select **Settings** > **Solutions**. If the version numbers of the **UiiForMicrosoftDynamicsCRM2011** and **DynamicsUnifiedServiceDesk** solutions match those that are mentioned in the table, then you have the latest version of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
 
 |Unified Service Desk version|Solution version number |  
 |----------------------------|-----------------------|  
