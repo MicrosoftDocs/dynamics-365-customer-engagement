@@ -21,8 +21,8 @@ landingContent:
 # Card 
 - title: Get started
   linkLists:
-      - linkListType: overview
-        links:
+    - linkListType: overview
+      links:
         - text: Dynamics 365 Sales Overview 
           url: overview.md
 
