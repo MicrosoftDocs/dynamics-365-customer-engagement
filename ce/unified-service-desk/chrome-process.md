@@ -345,7 +345,7 @@ By default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Zoom out |`Ctrl` + `OemMinus`| **Ctrl**+**Hyphen (-)**|
 | Zoom reset |`Ctrl` + `0`| **Ctrl**+**0**|
 
-To add keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, go to [Keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+To add keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, go to [Keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields&preserve-view=true).
 
 ### List of zoom control UII options
 
@@ -372,7 +372,7 @@ To add keyboard shortcuts, you must add the UII options and provide the characte
 
 4. For the **Global Option** field, select **Others**.
 
-5. For the **Name** field, enter the name of the UII option. For the **Value** field, enter value you want.<br> Go to the preceding [list of zoom control UII options](#list-of-zoom-control-uii-options).<br>Go to the list of [value keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+5. For the **Name** field, enter the name of the UII option. For the **Value** field, enter value you want.<br> Go to the preceding [list of zoom control UII options](#list-of-zoom-control-uii-options).<br>Go to the list of [value keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields&preserve-view=true).
 
 6. Select **Save**.
 
