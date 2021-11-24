@@ -8,6 +8,14 @@ ms.author: lalexms
 manager: shujoshi
 search.audienceType: 
   - admin
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-knowledgearticle
+ - D365-Entity-msdyn_knowledgearticletemplate 
+ - D365-UI-*
+ - Dynamics 365
+ - Customer Service 
+ - Customer Engagement
 ---
 
 # Knowledge article templates
