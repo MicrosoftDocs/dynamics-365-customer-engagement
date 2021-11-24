@@ -52,7 +52,7 @@ Connect and collaborate in the flow of work with anyone, anywhere with Dynamics 
 
   - **File integration**: You can co-author documents using Microsoft 365 and automatically sync with Dynamics 365 records that are linked to a Teams channel. Files uploaded to a Teams channel are associated with the Dynamics 365 record. Similarly, files uploaded to the linked Dynamics 365 record are visible in the Teams channel. More information: [Document management with Microsoft Teams integration](teams-doc-management.md)
 
-  - **Personal dashboard**: You can view your personal dashboard from the Dynamics 365 app into Teams by using the Dynamics 365 app. More information: [View your personal dashboard with the Dynamics 365 app for Microsoft Teams](teams-personal-use.md)
+  - **Personal dashboard**: You can view your personal dashboard from the Dynamics 365 app in Teams by using the Dynamics 365 app. More information: [View your personal dashboard with the Dynamics 365 app for Microsoft Teams](teams-personal-use.md)
 
 - **In Dynamics 365**
 
