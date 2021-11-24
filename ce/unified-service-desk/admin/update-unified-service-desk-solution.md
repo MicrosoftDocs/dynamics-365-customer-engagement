@@ -32,12 +32,14 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
   
 ### Check the Unified Service Desk solution version
 
- In your Dataverse instance, navigate to Dataverse, then select **Settings** > **Solutions**. If the version numbers of the solutions match those in the table, you have the latest version of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], and don’t need to update.  
-  
-|Solution name                  |Version      |  
-|-------------------------------|-------------|  
-|UiiForMicrosoftDynamicsCRM2011 |4.x.0.xxx    |  
-|DynamicsUnifiedServiceDesk     |4.x.0.xxx    |
+ In your Dataverse instance, navigate to Dataverse, then select **Settings** > **Solutions**. If the version numbers of the **UiiForMicrosoftDynamicsCRM2011** and **DynamicsUnifiedServiceDesk** solutions match those mentioned in the table, then you have the latest version of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], and you don’t need to update.  
+
+|Unified Service Desk version|Solution version number |  
+|----------------------------|-----------------------|  
+|Unified Service Desk 4.2    |  4.2.0.29    |  
+|Unified Service Desk 4.1    |  4.1.1.1433    |
+|Unified Service Desk 4.0    |  4.0.0.993    |
+|||
   
 <a name="UpdateSolutions"></a>
 
@@ -46,7 +48,7 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
  Before you update your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solutions, ensure that the version of your Customer Engagement (on-premises) organization is [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)], [!INCLUDE[pn_crm_2015_shortest](../../includes/pn-crm-2015-shortest.md)], or [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)].  
   
 1. [Download the Unified Service Desk package file](https://go.microsoft.com/fwlink/p/?LinkID=2159819) (Dynamics365-USD-4.2.0.29-PackageDeployer.exe) and extract the contents to a folder on your computer.
-2. Run the **PackageDeployer** executable file. For more information about how to deploy the package, see [Deploy a Unified Service Desk package using Package Deployer](/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4.2#deploy-a-sample-unified-service-desk-package-using-package-deployer&preserve-view=true.)
+2. Run the **PackageDeployer** executable file. For more information about how to deploy the package, see [Deploy a Unified Service Desk package using Package Deployer](/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4.2#deploy-a-sample-unified-service-desk-package-using-package-deployer&preserve-view=true.).
 
 3. When prompted, select the **Unified Service Desk - Upgrade** package. Then the latest solutions will get imported.
 
