@@ -87,7 +87,7 @@ Make sure that the following requirements are met:
 1. From the **Solution: Default Solution** navigation pane, select **Components** > **Entities** > **Knowledge Article** > **Forms**.
 1. Select the form that you want to customize.
 1. From **Field Explorer**, select **Keywords and Description Suggestion control** and add it to the form.
-1. Select the **Keywords and Description Suggestion control** in the form and then select **Change Properties**.
+1. Select **Keywords and Description Suggestion control** in the form and then select **Change Properties** on the ribbon.
 1. On the **Field Properties** dialog, go to the **Controls** tab and select **Add Control**.
 1. On the **Add Control** dialog, select **Knowledge Suggestion Section Control** > **Add**.
 1. On the **Field Properties** dialog, **Controls** tab, select **Web**, **Phone**, and **Tablet** for **Knowledge Suggestion Section Control**.
