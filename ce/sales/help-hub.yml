@@ -12,125 +12,158 @@ metadata:
   ms.collection: collection
   author: lavanyakr01
   ms.author: lavanyakr
-  ms.date: 11/24/2021
   manager: shujoshi
+  ms.date: 11/24/2021
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
 landingContent:
 
-  # Card 
-  - title: Get started
-    linkLists:
-       - linkListType: overview
-         links:
-          - text: Dynamics 365 Sales Overview
-            url: overview.md
-          - text: Planning a Power Apps project
-            url: ../../guidance/planning/introduction.md
-       - linkListType: learn
-         links:
-          - text: Get started with model-driven apps
-            url: /learn/modules/get-started-with-model-driven-apps-in-powerapps/
-
-  # Card
-  - title: Create
-    linkLists:
-       - linkListType: quickstart
-         links:
-          - text: Explore sample apps
-            url: overview-model-driven-samples.md
-          - text: Create your first app
-            url: build-first-model-driven-app.md
-       - linkListType: concept
-         links:  
-          - text: Define data for your model-driven app
-            url: define-data-model-driven-app.md
-          - text: Use app designer to build an app
-            url: design-custom-business-apps-using-app-designer.md
-          
-  # Card
-  - title: Customize
-    linkLists:
-       - linkListType: how-to-guide
-         links:
-          - text: Create and design app forms
-            url: create-design-forms.md
-          - text: Apply business logic
-            url: guide-staff-through-common-tasks-processes.md
-          - text: Create and manage app views
-            url: create-edit-views.md
-          - text: Embed a canvas app on a model-driven form
-            url: embed-canvas-app-in-form.md
-
-  # Card
-  - title: Work with controls
-    linkLists:
-      - linkListType: concept
+# Card 
+- title: Get started
+  linkLists:
+      - linkListType: overview
         links:
-          - text: Custom controls overview
-            url: use-custom-controls-data-visualizations.md
-          - text: Set up the timeline control
-            url: set-up-timeline-control.md
-          - text: Add the rich text editor control
-            url: rich-text-editor-control.md
+        - text: Dynamics 365 Sales Overview 
+          url: overview.md
+        - text: Sign up for a free trial 
+          url: sign-up-for-sales-trial.md
+        - text: Set up Dynamics 365 Sales 
+          url: set-up-dynamics-365-sales.md
+        - text: Set up Sales premium features 
+          url: intro-admin-guide-sales-insights.md
+        - text: Learn the basics 
+          url: user-guide-learn-basics.md
+        - text: Understand the sales process 
+          url: nurture-sales-from-lead-order-sales.md
 
-  # Card
-  - title: Apply data visualizations
-    linkLists:
+# Card 
+- title: Administer the system
+  linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Create a system chart
-            url: create-edit-system-chart.md
-          - text: Create or edit dashboards
-            url: create-edit-dashboards.md
-          - text: Set chart or list properties
-            url: set-properties-chart-list-included-dashboard.md
+        - text: Create users and assign security roles 
+          url: /power-platform/admin/create-users-assign-online-security-roles
+        - text: Set up a product catalog 
+          url: set-up-product-catalog-walkthrough.md
+        - text: Define sales settings 
+          url: /power-platform/admin/system-settings-dialog-box-sales-tab
+        - text: Define Goals settings 
+          url: /power-platform/admin/system-settings-dialog-box-goals-tab
+        - text: Create or edit goals 
+          url: create-edit-goal-sales.md
+        - text: Configure forecasts in your organization 
+          url: configure-forecast.md
+        - text: Set up sales territories to organize business markets by geographical area 
+          url: /power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area
+        - text: More help resources for admins... 
+          url: ../sales-enterprise/admin-guide.md
 
-  # Card
-  - title: Distribute and share
-    linkLists:
-      - linkListType: concept
-        links:
-          - text: Share an app
-            url: share-model-driven-app.md
-          - text: Distribute an app
-            url: distribute-model-driven-app.md
-          - text: Use solutions for ALM
-            url: ../data-platform/solutions-overview.md
-
-  # Card
-  - title: Transition to Unified Interface
-    linkLists:
-      - linkListType: concept
-        links:
-          - text: Transition quick start
-            url: ../../user/unified-interface.md
-          - text: Approaching a Unified Interface transition
-            url: ../../user/unified-interface.md
-          - text: Transition FAQs
-            url: ../../user/unified-interface.md
-
-  # Card
-  - title: Advanced app making and customization
-    linkLists:
+# Card 
+- title: Increase sales
+  linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Create web resources
-            url: create-edit-web-resources.md
-          - text: Change custom table icons
-            url: change-custom-entity-icons.md
-          - text: Create customizable help
-            url: use-customizable-help.md
+        - text: Nurture sales from lead to cash 
+          url: nurture-sales-from-lead-order-sales.md
+        - text: Create or edit leads 
+          url: create-edit-lead-sales.md
+        - text: Qualify or convert leads 
+          url: qualify-lead-convert-opportunity-sales.md
+        - text: Create or edit opportunities 
+          url: create-edit-opportunity-sales.md
+        - text: More help resources for salespeople... 
+          url: user-guide.md
 
-  # Card
-  - title: For developers
-    linkLists:
+# Card 
+- title: In-app marketing
+  linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Customize table forms using code
-            url: ../../developer/model-driven-apps/customize-entity-forms.md
-          - text: Apply data visualizations using code
-            url: ../../developer/model-driven-apps/customize-visualizations-dashboards.md      
-          - text: More >
-            url: ../../developer/model-driven-apps/index.yml
+        - text: Create a marketing list 
+          url: create-marketing-list-using-app-marketing-sales.md
+        - text: Create a quick campaign 
+          url: create-quick-campaign-using-app-marketing-sales.md
+        - text: Add assets to a campaign 
+          url: add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md
+        - text: Create or edit a campaign 
+          url: create-edit-campaign-using-app-marketing-sales.md
+        - text: Add an activity to a campaign 
+          url: add-activity-campaign-using-app-marketing-sales.md
+        - text: Track a marketing campaign response 
+          url: track-marketing-campaign-response-using-app-marketing-sales.md
+
+# Card 
+- title: Troubleshooting and FAQ
+  linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Troubleshooting guide for Dynamics 365 Sales
+          url: troubleshooting.md
+        - text: FAQ for Sales Enterprise
+          url: faqs-sales.md
+        - text: FAQ for Sales Premium
+          url: faqs-sales-insights.md
+# Card 
+- title: Develop
+  linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Sales entities (lead, opportunity, competitor, quote, order, invoice) 
+          url: ../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md
+        - text: Enable sales order processing integration 
+          url: ../sales-enterprise/developer/enable-sales-order-processing-integration.md
+        - text: Marketing entities (campaign, list) 
+          url: ../customerengagement/on-premises/developer/marketing-entities-campaign-list.md
+        - text: Goal management entities 
+          url: ../customerengagement/on-premises/developer/goal-management-entities.md
+        - text: Product catalog entities 
+          url: ../customerengagement/on-premises/developer/product-catalog-entities.md
+        - text: More help resources for developers... 
+          url: developer/developer-guide.md
+
+# Card 
+- title: GDPR
+  linkLists:
+      - linkListType: overview
+        links:
+        - text: Dynamics 365 Sales and GDPR 
+          url: ../sales-enterprise/dynamics-365-sales-gdpr.md
+        - text: Sales Insights add-in for Dynamics 365 and GDPR 
+          url: ../sales-enterprise/embedded-intelligence-gdpr.md
+
+# Card 
+- title: Microsoft Learn resources
+  linkLists:
+      - linkListType: overview
+        links:
+        - text: Working with Dynamics 365 Sales 
+          url: /learn/paths/working-with-dynamics-365-sales/
+        - text: Introduction to configuration in Dynamics 365 model-driven apps 
+          url: /learn/paths/introduction-configuration-dynamics-365-model-driven-apps/
+        - text: Implement goal management in Dynamics 365 Sales and Customer Service 
+          url: /learn/paths/apply-goal-management-dynamics-365/
+
+# Card 
+- title: Dynamics 365 Sales mobile app
+  linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Overview of the mobile app 
+          url: sales-mobile/prereq-sales-mobile.md
+        - text: Prerequisites for the mobile app 
+          url: sales-mobile/prereq-sales-mobile.md
+        - text: Install the app on iOS and Android 
+          url: sales-mobile/install-mobile-app.md
+        - text: Use the mobile app 
+          url: sales-mobile/use-sales-mobile-app.md
+        - text: Learn the basics 
+          url: sales-mobile/learn-basics-mobile-app.md
+
+# Card 
+- title: Resources for other Sales apps
+  linkLists:
+      - linkListType: overview
+        links:
+        - text: Sales Team Member app for users with Team Member license 
+          url: sales-team-member.md
