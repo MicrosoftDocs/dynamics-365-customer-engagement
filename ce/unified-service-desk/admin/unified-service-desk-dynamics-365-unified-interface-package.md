@@ -43,9 +43,7 @@ search.app:
   
   -   Customer Information System  
   
-> [!IMPORTANT]
-> - EdgeWebView2 is the default hosting type for the hosted controls.
->  
+> [!IMPORTANT]  
 > -  The sample applications aren't supported for production use.
 >  
 > - The sample application installs random sample records for entities like Account, Contact, Cases, and so on.
