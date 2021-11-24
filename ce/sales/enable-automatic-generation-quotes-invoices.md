@@ -13,7 +13,7 @@ manager: annbe
 Help your sales team to automatically generate quotes and invoice documents with consistent format and branding by using templates.
 
 > [!IMPORTANT]
-> This feature requires integration with SharePoint as the generated documents are stored in the SharePoint site. If you haven't integrated with SharePoint, you can manually export the documents. For more information, see [Export sales records to PDF](create-quote-pdf.md).
+> This feature requires integration with SharePoint as the generated documents are stored in the SharePoint site. For more information, see [Configure Dynamics 365 Sales to integrate with SharePoint](connect-with-sharepoint.md). If you can't integrate with SharePoint, you can manually export the documents to PDF. For more information, see [Export sales records to PDF](create-quote-pdf.md).
 
 ## License and role requirements
 
@@ -23,7 +23,7 @@ Help your sales team to automatically generate quotes and invoice documents with
 | **Security roles** | System Administrator or Sales Professional Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Enable automatic generation
+## Enable automatic document generation
 
 2.  In the site map, select **Sales Settings**.
 
@@ -35,12 +35,25 @@ Help your sales team to automatically generate quotes and invoice documents with
 
 6.  Select **Save**.
     
-    The settings are saved. When you activate a quote or invoice, a word document for the quote or invoice is automatically generated and stored in the SharePoint site that you've integrated with Dynamics 365. If you haven't integrated with SharePoint, the **Activate Quote** option will activate the quote but won't show any error message about document generation.
+    The settings are saved. 
 
+## Verify automatic document generation
 
-### See also
+When you activate a quote or invoice, a word document for the quote or invoice is automatically generated and stored in the SharePoint site that you've integrated with Dynamics 365. 
 
-[Configure Dynamics 365 Sales to integrate with SharePoint](connect-with-sharepoint.md)
+> [!NOTE]
+> If you haven't integrated with SharePoint, the **Activate Quote** option will activate the quote but will not generate the document.
 
+**To verify automatic document generation:**
+
+1. In the site map, select **Quotes**. 
+1. Open a quote in the **Draft** state and select **Activate Quote**.
+1. Log into the SharePoint site that is integrated with Dynamics 365 Sales Professional.
+1. Go to **Site Contents** and select **Account**.
+
+    :::image type="content" source="media/sharepoint-site-small.png" alt-text="Screenshot showing the SharePoint site navigation to access the Account folder":::
+    
+1. Select the account for which you've activated the quote.
+    You'll find the quote folder with the auto-generated quote document.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

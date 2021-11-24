@@ -16,7 +16,7 @@ searchScope:
 
 # Enable creation of orders from quotes
 
-Quotes have important data about the customers and the products they're interested in. When you enable the **Quote to order** setting, it allows sellers to quickly create an order from a quote so that most of the details in the order are prefilled from the quote.  
+Quotes have important data about the customers and the products they're interested in. When you enable the creation of orders from quotes, it allows sellers to quickly create an order from a quote so that most of the details in the order are prefilled from the quote.  
 
 ## License and role requirements
 
@@ -36,7 +36,7 @@ Quotes have important data about the customers and the products they're interest
 4.  To enable creation of orders from quotes, set **Enable automatic quote to order generation** to **Enabled**.
 
 6.  Select **Save**. 
-7.  Open a quote, activate it, and verify if the **Create Order** option is available on the command bar.
+7.  Open a quote, activate it, and verify if the **Create Order** option is available on the command bar. You can now select **Create Order** to create an order based on the quote. 
 
 ### See also
 
