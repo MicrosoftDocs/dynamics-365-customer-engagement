@@ -12,19 +12,19 @@ metadata:
   ms.collection: collection
   author: lavanyakr01
   ms.author: lavanyakr
-  manager: shujoshi
+  ms.date: 11/24/2021
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
 landingContent:
 
-# Card 
-- title: Get started
-  linkLists:
-    - linkListType: overview
-      links:
-        - text: Dynamics 365 Sales Overview 
-          url: overview.md
+  # Card 
+  - title: Get started
+    linkLists:
+      - linkListType: overview
+        links:
+         - text: Dynamics 365 Sales Overview 
+           url: overview.md
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
