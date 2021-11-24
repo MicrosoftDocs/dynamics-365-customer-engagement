@@ -1,7 +1,7 @@
 ---
 title: "Use Sales Hub and Sales Professional on Dynamics 365 for phones and tablets (Dynamics 365 Sales) | Microsoft Docs"
 description: "Use Sales Hub on Dynamics 365 phones and tablets"
-ms.date: 11/23/2021
+ms.date: 11/24/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -57,7 +57,7 @@ Use the site map to get to your work area, create a new record, search, or do ot
 
 The **Pinned** and **Recent** sections provide quick access to your records, views, and dashboards. 
 
-- To access these sections, select **Menu** ![Site map button](media/MenuButton.png "Site map button") at the top-left of the screen, and then select either **Pinned** ![Pinned icon](media/pinned-icon.png "Pinned icon") or **Recent** ![Recent icon](media/recent-icon.png "Recent icon").
+- To access these sections, tap **Menu** ![Site map button](media/MenuButton.png "Site map button") at the top-left of the screen, and then tap either **Recent** ![Recent icon](media/recent-icon.png "Recent icon") or **Pinned** ![Pinned icon](media/pinned-icon.png "Pinned icon").
 
 - To pin an item, go to **Recent** list, and then tap the pin.
 
@@ -93,7 +93,7 @@ As you start your day, go to **My Appointments** to find out how busy you're goi
 
 **To view your appointments**
 
-*   On the site map, select **Activities**, and then select **My Appointments**.
+*   On the site map, tap **Activities**, and then select the **My Appointments** view.
 
 ### Attend meetings with information at your fingertips
 
@@ -131,7 +131,7 @@ Use the Dynamics 365 for phones and tablets app to compose an email within the a
        > [!div class="mx-imgBorder"]
        > ![Compose new email.](media/create-email-1-1.png "Compose new email")
 
-2. Fill in the subject of the email and use the space provided to write the email. You can tap the more option (**...**) in the body area of the email to see the full formatting capabilities for your email. 
+2. Fill in the subject of the email and use the space provided to write the email. You can tap the more option (**...**) on the formatting toolbar in the body area of the email to see the full formatting capabilities for your email. 
 
    > [!div class="mx-imgBorder"]
    > ![Save email changes.](media/compose-email-mobile-1.png "Save email changes")
@@ -144,7 +144,7 @@ Use the Dynamics 365 for phones and tablets app to compose an email within the a
 
     ![Email options.](media/more_command_email_mobile.png "Email options")
    
-5. To use a template for the email body, tap **More** at the bottom command bar, and then tap **Insert Template**. Select or search a template from the available templates, and tap **Select**.
+5. To use a template for the email body, tap **More** at the bottom command bar, and then tap **Insert Template**. Select or search for a template from the available templates, and tap **Select**.
    
 6. When you're ready to send the email, tap **Send** at the bottom command bar.
 
@@ -171,7 +171,7 @@ It's no longer necessary for you to open a laptop to add notes to an opportunity
     > [!div class="mx-imgBorder"]
     > ![Add product to an opportunity.](media/mobile-app-add-product.png "Add a product to an opportunity")
 
-4. (Optional) If you've met a new stakeholder at the customer's office, on the **Summary** tab, go to the **Stakeholders** section, select **More options** > **+ New Connection**, and then add the stakeholder. You can also add the contact from an account record.
+4. (Optional) If you've met a new stakeholder at the customer's office, on the **Summary** tab, go to the **Stakeholders** section, tap **More options** (...), and then tap **+ New Connection**. Then add the stakeholder. You can also add the contact from an account record.
 
 ### Update deals and customer information after a meeting
 
@@ -183,14 +183,14 @@ After you step out of a meeting, you can quickly update information about the de
 
     Or
     
-    On the site map, select **Opportunities** > **My Opportunities**.
+    On the site map, tap **Opportunities**, and then select the **My Open Opportunities** view.
     
 2. On the opportunity, you can update the forecasted revenue or move to the next stage. 
 
     > [!div class="mx-imgBorder"]
     > ![Update an opportunity.](media/mobile-app-update-opportunity.png "Update an opportunity")
 
-3. To create a follow-up appointment for the opportunity, go to the **Timeline** section, and then select **Create a timeline record** ![New timeline record icon.](media/new-timeline-record-icon.png "New timeline record icon") > **Appointment**.
+3. To create a follow-up appointment for the opportunity, go to the **Timeline** section, tap **Create a timeline record** (![New timeline record icon.](media/new-timeline-record-icon.png "New timeline record icon")), and then tap **Appointment**.
 
     > [!div class="mx-imgBorder"]
     > ![New appointment.](media/mobile-app-new-appointment.png "New appointment")
@@ -244,7 +244,7 @@ After a successful meeting, you can quickly generate a PDF of the quote from an 
 
 **To generate and share a quote or order**
 
-1. On the site map, tap > **Opportunities** >  **My Opportunities**.
+1. On the site map, tap **Opportunities**, and then select the **My Open Opportunities** view.
 
 2. Open the opportunity for which you want to generate a PDF of the quote, and then go to the **Quotes** tab. 
 
@@ -281,7 +281,7 @@ Quickly review pending tasks and close the ones you got to during the day.
 
 ### Work offline when you have intermittent connectivity
 
-You can use the Sales Hub app on Dynamics 365 for mobile in offline mode when you're experiencing intermittent connectivity. Select the **Enable Mobile Offline** option in the app module properties to access the Sales Hub app offline. 
+You can use the Sales Hub app on Dynamics 365 for mobile in offline mode when you're experiencing intermittent connectivity. Select the **Enable Mobile Offline** option in the app module properties to access the Sales Hub or Sales Professional app offline. 
 
 An administrator must have associated a mobile offline profile to your user record before you can work offline. The administrator can use the **Sample Sales Scenario** mobile offline profile that's shipped out of the box, or create your own profile. For more information, see [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../mobile-app/setup-mobile-offline-for-admin.md).
 
@@ -332,9 +332,7 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 
 ### See also
 
-[Mobile Basics Guide](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
-
-[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)
+[User Guide (Sales and Sales Hub)](user-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
