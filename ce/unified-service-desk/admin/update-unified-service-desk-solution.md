@@ -36,8 +36,8 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
   
 |Solution name                  |Version      |  
 |-------------------------------|-------------|  
-|UiiForMicrosoftDynamicsCRM2011 |4.0.0.xxx    |  
-|DynamicsUnifiedServiceDesk     |4.0.0.xxx    |
+|UiiForMicrosoftDynamicsCRM2011 |4.x.0.xxx    |  
+|DynamicsUnifiedServiceDesk     |4.x.0.xxx    |
   
 <a name="UpdateSolutions"></a>
 

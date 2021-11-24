@@ -35,7 +35,7 @@ The advantages of using the Chrome process hosting method are as follows:
 - You can switch easily from one browser to another for your entire organization.
 - The Chrome Process pooling feature that reuses the Chrome processes and mimics inline navigation provides enhanced performance and memory optimization.
 
-You can select **Chrome Process** as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page** , **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
+You can select **Chrome Process** as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page**, **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
 
 ## Chrome Process settings
 
