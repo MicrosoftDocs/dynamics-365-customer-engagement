@@ -24,8 +24,8 @@ monikerRange: '>= dynamics-usd-4.1'
 The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. Chrome Process is based on *CefSharp*, an open source framework that uses the Chromium core that powers many modern browsers.  More information: [CefSharp](https://cefsharp.github.io/)
 
 > [!IMPORTANT]
-> - Unified Service Desk version 4.1.1.1429 supports Chromium version 84.
-> - Unified Service Desk version 4.1.1.1397 supports Chromium version 71.
+> - Unified Service Desk version 4.1.1.1433 supports CefSharp version 84.4.10.
+> - Unified Service Desk version 4.2.0.29 supports CefSharp version 94.4.50.
 
 The advantages of using the Chrome process hosting method are as follows:
 

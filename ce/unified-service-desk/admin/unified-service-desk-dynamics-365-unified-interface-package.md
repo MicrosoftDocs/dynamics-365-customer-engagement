@@ -37,7 +37,7 @@ search.app:
 
 - Data required for Dataverse and customizations
   
-- The following sample hosted controls  
+- The following sample hosted controls: By default the hosting type for the hosted controls will be EdgeWebView2.  
   
   -   KPI Custom Control  
   
