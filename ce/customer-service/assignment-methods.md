@@ -15,7 +15,7 @@ searchScope:
 - Customer Service
 ---
 
-# Assignment methods for queues
+# Assignment methods in unified routing
 
 Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the Customer Service Hub or Omnichannel admin center app.
 

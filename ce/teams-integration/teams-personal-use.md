@@ -1,7 +1,7 @@
 ---
-title: "Use the personal dashboard| MicrosoftDocs"
+title: "View personal dashboard in Microsoft Teams with Dynamics 365 app"
 ms.custom: ""
-description: "Use the personal dashboard."
+description: "Learn how you can use the Dynamics 365 app to view your personal dashboard in Microsoft Teams. To work with other team members, consider the team app."
 ms.date: 8/26/2020
 ms.reviewer: ""
 ms.service: crm-online
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Use the personal dashboard 
+# View your personal dashboard with the Dynamics 365 app for Microsoft Teams
 
 
 You can use the Dynamics 365 app for Microsoft Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).

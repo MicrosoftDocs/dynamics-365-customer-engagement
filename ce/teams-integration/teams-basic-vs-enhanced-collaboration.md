@@ -1,7 +1,7 @@
 ---
-title: "Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams| MicrosoftDocs"
+title: "Basic vs Enhanced Collaboration in Microsoft Teams"
 ms.custom: 
-description: "Capability of the Basic and Enhanced Collaboration Experience with Microsoft Teams."
+description: "Learn about the differences between Basic and Enhanced Collaboration in Microsoft Teams, including the permissions, connection setups, and more."
 ms.date: 8/26/2020
 ms.reviewer: 
 ms.service: crm-online

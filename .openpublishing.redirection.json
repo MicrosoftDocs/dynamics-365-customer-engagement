@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/enable-consult.md",
+      "redirect_url": "oc-conversation-control",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/omnichannel-whats-new.md",
+      "redirect_url": "whats-new-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/scheduling-overview.md",
       "redirect_url": "basics-service-service-scheduling",
       "redirect_document_id": "false"
@@ -2083,7 +2093,7 @@
     {
       "source_path": "ce/sales/configure-your-work-availability.md",
       "redirect_url": "personalize-sales-accelerator#through-personal-settings",
-      "redirect_document_id": "false"      
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/sales-enterprise/configure-forecast-definition.md",
@@ -23127,6 +23137,16 @@
     {
       "source_path": "ce/sales-enterprise/sales-mobile/view-edit-add-note.md",
       "redirect_url": "/dynamics365/sales/sales-mobile/view-edit-add-note",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-requirements.md",
+      "redirect_url": "system-requirements-omnichannel",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-install.md",
+      "redirect_url": "omnichannel-provision-license",
       "redirect_document_id": "false"
     }
   ]
