@@ -1,7 +1,7 @@
 ---
 title: "Intraday insights dashboard for supervisors in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the intraday insights dashboard for supervisors"
-ms.date: 11/23/2021
+ms.date: 11/24/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
