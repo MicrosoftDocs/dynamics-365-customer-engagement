@@ -1,7 +1,7 @@
 ---
 title: "Prepare for analytic reporting with Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 Marketing to make them available to Power BI, and how to download and connect a Power BI template to them."
-ms.date: 11/12/2021
+ms.date: 11/22/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -45,6 +45,19 @@ for a quick overview of all the data that is available for your marketing analyt
 <a name="connect-blob"></a>
 
 ## Set up Azure Blob storage and connect it to Marketing
+
+> [!IMPORTANT]
+> As of November 2021, blob naming and data update logic has changed. Previously, exporting Marketing insights created a new blob file each time a batch of new interactions arrived. Each batch typically contained a single or a few interactions. The file name was a randomly generated GUID, which prevented collision and any interpretation. Once the blob was created, it was never changed. The blob export process created a large number of small blobs in the storage, which significantly slowed Power BI refresh.
+>
+> The updated Marketing insights export process appends interaction batches to recent blobs. When a blob grows to the configurable size (10MB by default), the export creates a new blob. After, the blob name changes to allow the system to find the most recent blob to append, but the naming should be assumed random and not be interpreted as before. The internal format remains the same: a comma-separated list of interactions with header. All Power BI reports (out-of-the-box and custom) should keep working.
+>
+> If your organization implemented custom processing (on top of the Marketing export) which relies on the blobs' immutability or names, the process may need to be updated. Contact customer support for more details or for switching the export feature to the previous non-optimized mode.
+>
+> If your storage is overwhelmed by blobs from previous exports, resync the insights data from scratch. To resync the data:
+>
+> 1. Stop ongoing export using the configuration in the Marketing app.
+> 1. Delete the container with existing interactions data.
+> 1. Create a new container and start a new export as usual.
 
 1. Sign into [portal.azure.com](https://portal.azure.com) using the same account where you are running Dynamics 365 Marketing.
 
