@@ -444,7 +444,7 @@
 - name: Seller guide
   items:
   - name: Help resources for sellers
-    href: user-guide.md
+    href: user-guide.yml
   - name: Dashboards
     items:
     - name: Track your progress with dashboards and charts

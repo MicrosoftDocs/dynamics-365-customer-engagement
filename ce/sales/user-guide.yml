@@ -1,0 +1,205 @@
+### YamlMime:Landing
+
+title: Help resources for seller in Dynamics 365 Sales
+
+summary: Contains topics that describe how to do common sales tasks in Dynamics 365 Sales.
+
+
+metadata:
+
+  title: Help resources for seller in Dynamics 365 Sales
+
+  description: Contains topics that describe how to do common sales tasks in Dynamics 365 Sales.
+
+  services: service
+
+  ms.service: dynamics-365-sales
+
+  ms.topic: landing-page
+
+  ms.collection: collection
+
+  author: udaykirang
+
+  ms.author: udag
+
+  ms.date: 11/24/2021
+
+
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+
+# Card 
+  - title: Basics
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Overview of Sales and Sales Hub 
+            url: overview.md
+          - text: Learn the basics 
+            url: user-guide-learn-basics.md
+          - text: Gain insights with dashboards 
+            url: dashboards.md
+          - text: Assign or share records 
+            url: /powerapps/user/assign-or-share-records
+          - text: Track and manage activities 
+            url: manage-activities.md
+          - text: Work with business processes 
+            url: /powerapps/user/work-with-business-processes
+          - text: Set personal options? 
+            url: /powerapps/user/set-personal-options
+
+# Card 
+  - title: Keep track of your customers
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Work with accounts and contacts 
+            url: /dynamics365/customerengagement/on-premises/basics/accounts-contacts
+          - text: Deactivate or activate an account or contact 
+            url: /powerapps/user/deactivate-activate-account-contact
+          - text: Add an appointment, email, phone call, note, or task activity to the timeline 
+            url: /powerapps/user/add-activities
+          - text: Send email using the enhanced email experience 
+            url: /powerapps/user/enhanced-email
+          - text: Organize contacts in live org charts for accounts 
+            url: live-org-chart.md
+
+# Card 
+  - title: Increase sales
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Understand the sales process 
+            url: nurture-sales-from-lead-order-sales.md
+          - text: Create or edit leads 
+            url: create-edit-lead-sales.md
+          - text: Qualify or convert leads 
+            url: qualify-lead-convert-opportunity-sales.md
+          - text: Reopen leads 
+            url: ../sales-enterprise/re-open-lead-sales.md
+          - text: Create or edit opportunities 
+            url: create-edit-opportunity-sales.md
+          - text: Close opportunities as won or lost 
+            url: ../sales-enterprise/close-opportunity-won-lost-sales.md
+
+
+# Card 
+  - title: Create and work with collateral
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Create or edit quotes 
+            url: create-edit-quote-sales.md
+          - text: Create or edit orders  
+            url: create-edit-order-sales.md
+          - text: Create or edit invoices 
+            url: create-edit-invoice-sales.md
+
+# Card 
+  - title: Create a marketing campaign 
+    linkLists:
+       - linkListType: overview
+         links:
+
+   
+          - text: Create a marketing list using in-app marketing 
+            url: ../sales-enterprise/create-marketing-list-using-app-marketing-sales.md
+          - text: Create a quick campaign 
+            url: create-quick-campaign-using-app-marketing-sales.md
+          - text: Add assets to a campaign 
+            url: add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md
+          - text: Create or edit a campaign 
+            url: create-edit-campaign-using-app-marketing-sales.md
+          - text: Add an activity to a campaign 
+            url: add-activity-campaign-using-app-marketing-sales.md
+          - text: Track a marketing campaign response 
+            url: track-marketing-campaign-response-using-app-marketing-sales.md
+
+# Card 
+  - title: Manage data
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Import data 
+            url: /powerapps/user/import-data
+          - text: Export data to Excel 
+            url: /powerapps/user/export-data-excel
+          - text: Merge duplicate records 
+            url: /powerapps/user/merge-duplicate-records
+          - text: Search options in Common Data Service 
+            url: /powerapps/user/search
+
+# Card 
+  - title: Reports, calendar, and printing
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Work with reports 
+            url: /powerapps/user/work-with-reports
+          - text: Use the workplace calendar 
+            url: /dynamics365/customerengagement/on-premises/basics/workplace-calendar
+          - text: Print quote, invoice, or other records 
+            url: print-records.md
+
+# Card 
+  - title: Get better sales intelligence
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Boost sales with Versium Predict 
+            url: ../versium-predict/versium-predict.md
+          - text: Get sales Insights, powered by InsideView 
+            url: ../insights-insideview/insights-powered-by-insideview.md
+
+# Card 
+  - title: Dynamics 365 Sales mobile app
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Overview of the mobile app 
+            url: sales-mobile/prereq-sales-mobile.md
+          - text: Install the app on iOS and Android 
+            url: sales-mobile/install-mobile-app.md
+          - text: Use the mobile app 
+            url: sales-mobile/use-sales-mobile-app.md
+          - text: Learn the basics 
+            url: sales-mobile/learn-basics-mobile-app.md
+
+
+# Card 
+  - title: Sales Premium
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: What is the Sales accelerator? 
+            url: sales-accelerator-intro.md
+          - text: Use the assistant to guide customer communications 
+            url: assistant.md
+          - text: Prioritize leads through scores 
+            url: work-predictive-lead-scoring.md
+          - text: Prioritize opportunities through scores 
+            url: work-predictive-opportunity-scoring.md
+          - text: Project accurate revenue with sales forecasting 
+            url: project-accurate-revenue-sales-forecasting.md
+          - text: View customer activity history 
+            url: relationship-analytics.md
+          - text: Overview of Conversation Intelligence 
+            url: dynamics365-sales-insights-app.md
+
+# Card 
+  - title: Work with Outlook
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Dynamics 365 App for Outlook User Guide 
+            url: ../outlook-app/dynamics-365-app-outlook-user-s-guide.md
