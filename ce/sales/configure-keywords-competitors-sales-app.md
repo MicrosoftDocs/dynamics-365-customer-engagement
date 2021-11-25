@@ -15,7 +15,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Configure conversation content    
+# Configure conversation content in Sales Hub app    
 
 Configure conversation content such as, keywords and competitors to track in conversation intelligence in Dynamics 365 Sales organization.
 
@@ -26,7 +26,7 @@ Configure conversation content such as, keywords and competitors to track in con
 | **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Add keywords and competitors in Sales Hub app     
+## Add keywords and competitors      
 Configure tracked keywords and competitors that are relevant to you and your organization so you can track them in calls. Whenever the defined keywords or competitors are mentioned in a call, conversation intelligence will gather the data and display it appropriately on the dashboard.  
 
 >[!NOTE]
