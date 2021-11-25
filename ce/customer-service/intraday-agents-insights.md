@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 11/24/2021
+ms.date: 11/25/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

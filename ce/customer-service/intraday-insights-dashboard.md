@@ -1,7 +1,7 @@
 ---
 title: "Intraday insights dashboard for supervisors in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the intraday insights dashboard for supervisors"
-ms.date: 11/24/2021
+ms.date: 11/25/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -52,7 +52,7 @@ The KPIs for conversations in the IntradayMonitoring report are as follows.
 | Exceeding 5 mins wrap time | The number of conversations that are open and have exceeded the threshold wrap time of five minutes. |Live chat, Digital messaging, Voice|
 | Abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. This metric is also displayed on a per-queue basis. |Live chat, Voice |
 | Average handle time per conversation | The average handle time is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration the agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. Average handle time is also displayed on a per-queue basis. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded. More information: [Average handle time](#average-handle-time). |Live chat, Digital messaging|
-| Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. This metric is also displayed on a per-queue basis. | Live chat|
+| Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. This metric is also displayed on a per-queue basis. | Live chat, Digital messaging, Voice|
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |Live chat, Digital messaging, Voice|
 | Conversation status by queue | The distribution of the status of conversations across different queues. |Live chat, Digital messaging, Voice|
 | Transfer/Escalation rate by queue | The transfer rate is the percentage of conversations in a queue that was transferred at least once. Escalation rate is the percentage of the conversations within a queue escalated to a supervisor. |Live chat, Digital messaging, Voice|

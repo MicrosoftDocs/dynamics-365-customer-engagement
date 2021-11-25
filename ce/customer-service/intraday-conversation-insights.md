@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Conversation insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Conversation insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 11/24/2021
+ms.date: 11/25/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -104,13 +104,15 @@ You can also assign a conversation to an agent or route it to another queue. Mor
 
 ### Factors that affect response time
 
-First response time is calculated as the difference between the first message from the customer and the first response from the agent in a conversation that might contain more than one message or response. The successive exchange of messages will not be counted towards the calculation of the first response time.
+First response time is calculated as the difference between the first message from the customer and the first response from the agent in a conversation that might contain more than one message or response. 
 
 Response time is the difference between the earliest message from the customer and the earliest response from the agent, excluding the first message and response from the customer and agent respectively.
 
-For example, a customer sends a message "Hello" at 2:20 PM and another message "I have a problem" at 2:21 PM. The agent responds to the first message as "Hello, how may I help you?" at 2:22 PM and responds to second message with "What is the issue you are facing?" at 2:23 PM. The first response time will be the difference between 2:20 PM and 2:22 PM, which is two minutes.
+The successive exchange of messages will not be counted towards the calculation of the first response time and response time.
 
-The first response time and response time is calculated by keeping different factors into account. If operating hours are defined on the queue, the wait period of the out-of-operating hours is not considered in the response time. For example, an organization's operating hours are from 9:00 AM to 5:00 PM. When a chat is initiated by a customer at 8:55 AM, and agent responds at 9:05 AM. The response time will be considered as five minutes and not consider the five minutes that were outside of the operating hours.
+For example, a customer sends a message "Hello" at 2:20 PM and another message "I have a problem" at 2:21 PM. The agent responds as "Hello, sorry for the inconvenience." at 2:22 PM and "What is the issue you are facing?" at 2:23 PM. The first response time will be the difference between 2:20 PM and 2:22 PM, which is two minutes. Then the customer sends a message "My coffee machine has stopped working" at 2:24 PM and another message "I checked everything" at 2:25 PM. The agent responds "Let me help you with that" at 2:27 PM and "Are you near the coffee machine now?" at 2:28 PM. The response time will be the difference between 2:24 PM and 2:27 PM, which is three minutes.
+
+The first response time and response time is calculated by keeping different factors into account. If operating hours are defined on the queue, the wait period of the out-of-operating hours is not considered in the response time. For example, an organization's operating hours are from 9:00 AM to 5:00 PM. When a chat is initiated by a customer at 8:55 AM, and agent responds at 9:03 AM. The response time will be the difference between 9:00 AM and 9:03 AM, which is three minutes. The metric doesn't consider the five minutes that are outside of the operating hours.
 
 If a conversation is transferred from one queue to another, the messages exchanged in the currently assigned queue and its operating hours are taken into account for calculating the response time.
 
