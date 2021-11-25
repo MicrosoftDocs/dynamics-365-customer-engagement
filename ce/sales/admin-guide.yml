@@ -1,0 +1,142 @@
+### YamlMime:Landing
+
+
+
+title: Help resources for administrator and sales manager
+
+summary: Index page showing administration, system, user, and application configurations for Dynamics 365 Sales.
+
+
+
+metadata:
+
+  title: Help resources for administrator and sales manager
+
+  description: Index page showing administration, system, user, and application configurations for Dynamics 365 Sales.
+
+  services: service
+
+  ms.service: dynamics-365-sales
+
+  ms.topic: landing-page
+
+  ms.collection: collection
+
+  author: udaykirang
+
+  ms.author: udag
+
+  ms.date: 11/24/2021
+
+
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+
+
+landingContent:
+
+
+# Card 
+  - title: User and team management 
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Create users and assign security roles 
+            url: /power-platform/admin/create-users-assign-online-security-roles
+          - text: Create a team template to control access rights for automatically created teams 
+            url: /power-platform/admin/create-team-template-add-entity-form
+          - text: Security roles and privileges 
+            url: /power-platform/admin/security-roles-privileges
+          - text: Create or edit business units 
+            url: /power-platform/admin/create-edit-business-units
+
+# Card 
+  - title: Sales & product catalog setup 
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Set up sales territories to organize business markets by geographical area 
+            url: /power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area
+          - text: Set up a product catalog 
+            url: set-up-product-catalog-walkthrough.md
+          - text: Set up discount lists 
+            url: set-up-discount-list.md
+          - text: Create a unit group and add units 
+            url: create-unit-group-add-units-that-group.md
+          - text: Set up a product families 
+            url: create-product-family.md
+          - text: Define product pricing with price lists 
+            url: create-price-lists-price-list-items-define-pricing-products.md
+          - text: Sales settings 
+            url: /power-platform/admin/system-settings-dialog-box-sales-tab
+
+# Card 
+  - title: Goal management
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Goals settings 
+            url: /power-platform/admin/system-settings-dialog-box-goals-tab
+          - text: Create or edit goals 
+            url: create-edit-goal-sales.md
+          - text: Define goal rollup queries 
+            url: create-edit-goal-rollup-query-sales.md
+          - text: Define a goal metric 
+            url: create-edit-goal-metric.md
+
+# Card 
+  - title: Troubleshooting
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Dynamics 365 Sales troubleshooting guide 
+            url: troubleshooting.md
+
+# Card 
+  - title: Upgrade/downgrade
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise 
+            url: upgrade-sales-professional-sales-enterprise.md
+          - text: Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional 
+            url: move-sales-enterprise-sales-professional.md
+
+# Card 
+  - title: Sales Premium
+    linkLists:
+       - linkListType: overview
+         links:
+
+          - text: Configure the sales accelerator 
+            url: enable-configure-sales-accelerator.md
+          - text: Configure the assistant 
+            url: configure-assistant.md
+          - text: Configure predictive lead scoring 
+            url: configure-predictive-lead-scoring.md
+          - text: Configure predictive opportunity scoring 
+            url: configure-predictive-opportunity-scoring.md
+          - text: About premium forecasting 
+            url: configure-premium-forecasting.md
+          - text: Configure relationship analytics and health 
+            url: configure-relationship-analytics.md
+          - text: First-run setup experience for conversation intelligence 
+            url: fre-setup-sales-insight-app.md
+
+# Card 
+  - title: Dynamics 365 Sales mobile app
+    linkLists:
+       - linkListType: overview
+         links:
+          - text: Prerequisites for the mobile app 
+            url: sales-mobile/prereq-sales-mobile.md
+          - text: Modify quick view forms 
+            url: sales-mobile/modify-quick-view-form.md
+          - text: Create custom push notifications 
+            url: sales-mobile/create-push-notification.md

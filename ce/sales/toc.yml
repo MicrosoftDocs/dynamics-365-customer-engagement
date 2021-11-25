@@ -99,7 +99,7 @@
 - name: Administration guide
   items:
   - name: Administration overview
-    href: admin-guide.md
+    href: admin-guide.yml
   - name: Account and contact management
     items:
     - name: Enable or disable saving of business card image
