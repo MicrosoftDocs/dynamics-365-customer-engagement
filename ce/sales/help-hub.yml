@@ -29,10 +29,10 @@ landingContent:
           url: sign-up-for-sales-trial.md
         - text: Set up Dynamics 365 Sales 
           url: set-up-dynamics-365-sales.md
-        - text: Set up Sales premium features 
-          url: intro-admin-guide-sales-insights.md
         - text: Learn the basics 
           url: user-guide-learn-basics.md
+        - text: Set up Sales premium features 
+          url: intro-admin-guide-sales-insights.md
         - text: Understand the sales process 
           url: nurture-sales-from-lead-order-sales.md
 
