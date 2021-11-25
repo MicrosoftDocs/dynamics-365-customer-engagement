@@ -17,11 +17,9 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Introduction
+# Configure faceted search results web template off your portal
 
 You can view and search for knowledge article attachments on the portal. To do so, you must configure faceted search results web template off your portal.
-
-## Configure faceted search results web template
 
   1. On the Portal Management sitemap, **Content** area, select **Web Templates**.
   1. From the Active Web Templates dropdown, select your knowledge article web template.

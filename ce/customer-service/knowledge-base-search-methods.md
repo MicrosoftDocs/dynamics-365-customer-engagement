@@ -84,8 +84,8 @@ You can use the following search options to search the knowledge base on the por
 - **Dataverse search**: Let's you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro). 
 
 You can further refine your search through Progressive search, which let's you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
-- 
-## Enable content access levels for knowledge articles from a portal
+
+### Enable content access levels for knowledge articles from a portal
 
 You can set the content access levels for users to control access to knowledge articles on a portal. More information: [Manage knowledge articles by using content access levels](/powerapps/maker/portals/customer-engagement-apps/manage-knowledge-articles-content-levels). For content access level to work with relevance search, you must perform the following steps on the Dynamics 365 Portals app:
   1. On the Portal Management sitemap, **Website** area, select **Site Settings**.
