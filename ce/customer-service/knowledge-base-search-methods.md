@@ -1,7 +1,7 @@
 ---
 title: Knowledge base search options in Dynamics 365 Customer Service| MicrosoftDocs
 description: Know how the Knowledge base search methods work in Microsoft Dynamics 365 Customer Service.
-ms.date: 11/18/2021
+ms.date: 11/25/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -72,36 +72,36 @@ With each of the previous search areas, the search results might vary based on t
 |  |      |   - Quick find in Grids     |   Full-text search |
 |  |      |   - Global search     |   Relevance search or Categorized search (based on what you configure)    |
 
-## Search the knowledge base using portals (preview)
+## Search the knowledge base on portals (preview)
 
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
-You can also search the knowledge base using portals. You can use the following search options for knowledge articles on the portal.
+You can use the following search options to search the knowledge base on the portal.
 
-- **Progressive search**: Let's you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
-- **Dataverse search**: Let's you search across multiple tables sorted by relevance.
+- **Global search**: Global search uses an external search index that is based on Lucene.Net and is used to search within multiple tables and fields at once. More information: [Global Search](/powerapps/maker/portals/configure/search#global-search)
+- **Dataverse search**: Let's you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro). 
 
-> [!NOTE]
-> Product facets isn't supported with Relevance Search yet.
+You can further refine your search through Progressive search, which let's you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
+- 
+## Enable content access levels for knowledge articles from a portal
 
-For CAL to work with Relevance Search, you must perform the following steps on Portal Management.
+You can set the content access levels for users to control access to knowledge articles on a portal. More information: [Manage knowledge articles by using content access levels](/powerapps/maker/portals/customer-engagement-apps/manage-knowledge-articles-content-levels). For content access level to work with relevance search, you must perform the following steps on the Dynamics 365 Portals app:
   1. On the Portal Management sitemap, **Website** area, select **Site Settings**.
-  2. On the **Knowledge Management/ContentAccessLevel/Enabled** page, do the following:
-  * In the Name field, enter **Knowledge Management/ContentAccessLevel/Enabled**.
-  * Set the Value to **True**.
-  * Click **Save**.
-
-- **Faceted search**: Let's you search by using filters based on characteristics of the content which helps return faster search results than traditional search. More information:  [Use faceted search to improve portal search](/powerapps/maker/portals/configure/improve-portal-search-faceted-search).
-
-However, if you see an error while trying to open an article, it could be because the link types used in the article aren't a part of the origin allow list. An error message "Update your origins allow list if any iframe in the article doesn't work or displays error." will also appear. You must contact your administrator to update your origins allow list. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md).
+  1. Select **New**.
+  1. Enter Name as **Knowledge Management/ContentAccessLevel/Enabled**.
+  1. Select your website record.
+  1. Set the Value to **true**. By default, the value of the site setting is set to **false**.
+  6. Select **Save**.
+ 
+While performing a search on the portal, you might sometimes encounter an error while opening an article and also see the error message, "Update your origins allow list if any iframe in the article doesn't work or displays error." This could be because the link types used in the article aren't a part of the origins allow list. You must contact your administrator to update your origins allow list. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md).
 
 
 ### See also
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
-
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+[Manage knowledge articles by using content access levels](/powerapps/maker/portals/customer-engagement-apps/manage-knowledge-articles-content-levels)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
