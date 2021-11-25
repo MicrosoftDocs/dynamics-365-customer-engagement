@@ -65,12 +65,13 @@ You can search the knowledge base from the following areas in the Customer Servi
 With each of the previous search areas, the search results might vary based on the underlying search option used:
 
 |Version  |  Search areas| Search mechanism  |
-|---------|---------|---------|---------|
-| December 2016 Update for Dynamics 365 Customer Service </br> & </br> December 2016 Service Pack for Customer Engagement (on-premises) platform  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
-|   |     |      - Global search  |   Categorized search     |
-|Dynamics 365 Customer Service apps version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
-|  |      |   - Quick find in Grids     |   Full-text search |
-|  |      |   - Global search     |   Relevance search or Categorized search (based on what you configure)    |
+|---------|---------|---------|
+| December 2016 Update for Dynamics 365 Customer Service </br> & </br> December 2016 Service Pack for Customer Engagement (on-premises) platform  |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
+|   |    -Global search  |   Categorized search     |
+|Dynamics 365 Customer Service apps version 9.0   |      - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
+|  |    - Quick find in Grids     |   Full-text search |
+|  |   -Global search     |   Relevance search or Categorized search (based on what you configure)    |
+
 
 ## Search the knowledge base on portals (preview)
 

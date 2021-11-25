@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-## Introduction
+# Introduction
 
 You can view and search for knowledge article attachments on the portal. To do so, you must configure faceted search results web template off your portal.
 
