@@ -163,6 +163,7 @@ The following ready-to-use business processes are available that you can use as 
   -   Opportunity sales process. This business process flow is available for:
       -   All directly created opportunities (not originating from lead) forms
 
+For information on how to create or customize business process flows, see the Tutorial: [Create a business process flow](/power-automate/create-business-process-flow?context=/dynamics365/context/sales-context) 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
