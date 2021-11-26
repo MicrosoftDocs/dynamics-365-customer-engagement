@@ -26,7 +26,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Dynamics 365 Sales Professional <br> More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br> More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -44,6 +44,8 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 3. On the command bar, select **Activate Quote**.
   
 4. At the top of the **Quote** form, select **Create Order**.  
+    > [!NOTE]
+    > In the Sales Professional app, the **Create Order** option is available only if your administrator has [enabled creation of orders from quotes](enable-creation-of-orders-from-quotes.md)
   
 5. In the **Create Order** dialog box, the **Date Won** field is set to the current date. Select a different date if required.
 
