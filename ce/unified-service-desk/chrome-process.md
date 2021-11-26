@@ -1,7 +1,7 @@
 ---
 title: "Chrome Process hosting method for controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Chrome Process hosting method in Unified Service Desk. Also, learn how to enable the process and recover unresponsive process instances."
-ms.date: 02/15/2021
+ms.date: 11/24/2021
 ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
@@ -21,11 +21,11 @@ monikerRange: '>= dynamics-usd-4.1'
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. Chrome Process is based on *CefSharp*, an open source framework that uses the Chromium core that powers many modern browsers.  More information: [CefSharp](https://cefsharp.github.io/)
+The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. Chrome Process is based on **CefSharp**, an open source framework that uses the Chromium core that powers many modern browsers. More information: [CefSharp](https://cefsharp.github.io/)
 
 > [!IMPORTANT]
-> - Unified Service Desk version 4.1.1.1429 supports Chromium version 84.
-> - Unified Service Desk version 4.1.1.1397 supports Chromium version 71.
+> - Unified Service Desk 4.1.1.1433 supports CefSharp 84.4.10.
+> - Unified Service Desk 4.2.0.29 supports CefSharp 94.4.50.
 
 The advantages of using the Chrome process hosting method are as follows:
 
@@ -35,7 +35,7 @@ The advantages of using the Chrome process hosting method are as follows:
 - You can switch easily from one browser to another for your entire organization.
 - The Chrome Process pooling feature that reuses the Chrome processes and mimics inline navigation provides enhanced performance and memory optimization.
 
-You can select **Chrome Process** as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page** , **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
+You can select **Chrome Process** as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page**, **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
 
 ## Chrome Process settings
 
@@ -345,7 +345,7 @@ By default, the keyboard shortcuts for zoom in, zoom out, and zoom reset are as 
 | Zoom out |`Ctrl` + `OemMinus`| **Ctrl**+**Hyphen (-)**|
 | Zoom reset |`Ctrl` + `0`| **Ctrl**+**0**|
 
-To add keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, go to [Keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+To add keyboard shortcuts, you must add the UII options and provide the character as the value. To learn about the allowed set of character values, go to [Keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields&preserve-view=true).
 
 ### List of zoom control UII options
 
@@ -372,7 +372,7 @@ To add keyboard shortcuts, you must add the UII options and provide the characte
 
 4. For the **Global Option** field, select **Others**.
 
-5. For the **Name** field, enter the name of the UII option. For the **Value** field, enter value you want.<br> Go to the preceding [list of zoom control UII options](#list-of-zoom-control-uii-options).<br>Go to the list of [value keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+5. For the **Name** field, enter the name of the UII option. For the **Value** field, enter value you want.<br> Go to the preceding [list of zoom control UII options](#list-of-zoom-control-uii-options).<br>Go to the list of [value keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields&preserve-view=true).
 
 6. Select **Save**.
 
