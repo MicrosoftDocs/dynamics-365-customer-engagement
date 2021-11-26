@@ -329,6 +329,8 @@
       items:
       - name: Create and activate an assignment rule
         href: create-and-activate-assignment-rule.md
+      - name: Understand lead distributions
+        href: understand-lead-distributions-assignment-rules.md   
       - name: Edit an assignment rule
         href: edit-assignment-rule.md
       - name: Delete or deactivate an assignment rule
