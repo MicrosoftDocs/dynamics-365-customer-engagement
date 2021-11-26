@@ -153,9 +153,8 @@ remaining lines are imported as data.
         By default, the **Primary Fields** section of the wizard shows all the required fields for the entity that must be mapped for the data to
         import successfully on the left side.
 
-         >[!NOTE]
-
-         >If you’ve selected an alternate key, all the fields of the alternate key also become required fields and must be mapped.
+         > [!NOTE]
+         > If you've selected an alternate key, all the fields of the alternate key also become required fields and must be mapped.
 
         If the column headings of your source file match the field display names, these fields will be automatically mapped. All the mapped fields
         will be shown with a green check mark.
@@ -213,7 +212,6 @@ remaining lines are imported as data.
         Based on these mappings, the Import Data wizard creates "High" as a Dynamics 365 target value. It does not create "Low" as a Dynamics 365 target value because you did not map any source value to the added Dynamics 365 target value of "Low".
 
         > [!NOTE] 
-
         > You can also map a column in your source file to a field of type **Two Options** and **Multiselect Option Set** (where a field can have multiple values). You must map each **Source Option Values** to the items in the **Dynamics 365 Option Values** list. When mapping to a field of type **Multiselect Option Set**, if your source file includes values that aren’t available in Dynamics 365 Sales Professional, new values won’t be created.
 
     5.  If some data in your source file references other existing records in Dynamics 365 Sales Professional, you must map the column in the source file to a lookup field of Dynamics 365 Sales Professional.

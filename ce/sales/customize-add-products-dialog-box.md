@@ -40,7 +40,7 @@ You can customize the following components of the **Add product** dialog to help
 - Add more columns to the products grid. More information: [Add or remove columns in the grid](#add-or-remove-columns-in-the-grid)
 
 - Add more attributes to the **Product** column. More information: [Add or edit attributes in the Product column](#add-or-edit-attributes-in-the-product-column)
-- > [!NOTE]
+    > [!NOTE]
     > Attributes in the **Product** column help sellers get more information *before* choosing a product. So, if you want to add a category or product ID to help distinguish products from each other, add it to the **Product** column. On the other hand, if sellers need to perform an action *after* selecting a product&mdash;for example, choosing delivery priority (a custom attribute)&mdash;add that attribute to the grid.
 - Customize the fields to search. More information: [Customize the fields to search](#customize-the-fields-to-search)
 

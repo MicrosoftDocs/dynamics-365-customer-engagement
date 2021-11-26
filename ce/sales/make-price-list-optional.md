@@ -37,7 +37,7 @@ Depending on the Dynamics 365 Sales license that you have, select one of the tab
 
 If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
-1.	In your app, at the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and select **App Settings**.
+1.	In the lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and select **App Settings**.
 
 2.	Under **Product Catalog**, select **Product Catalog Settings**.
 

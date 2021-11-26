@@ -32,7 +32,7 @@ Depending on the license you have, select one of the following tabs for more inf
 
 1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
 
-2. Follow the instructions in [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context)" to create a word template.  
+2. Follow the instructions in [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context) to create a word template.  
 
 # [Sales Professional](#tab/SP)
 

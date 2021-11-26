@@ -32,7 +32,7 @@ Depending on the Dynamics 365 Sales license that you have, select one of the tab
 
 If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
-1. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
+1. In lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
 
 1. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Custom fields on closing form**.
 1. On the **Opportunity Closing** page, turn the **Custom fields on closing form** toggle to **Yes**.
@@ -58,7 +58,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 If you're using a custom app, in addition to enabling the customization of opportunity close form, you must also add the Opportunity Close entity to the custom app in the app designer. For more information, see [Add Opportunity Close entity to the custom app module](customize-opportunity-close-experience.md#add-entity-to-app) to learn how to add to entity to the app.
 
----
+
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

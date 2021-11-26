@@ -188,7 +188,7 @@ Here are some things you need to be aware of to create and make the best use of 
 
 ### See also
 
-- [Create and manage Word templates in Dynamics 365 Sales](manage-word-templates.md)
+[Create and manage Word templates in Dynamics 365 Sales](manage-word-templates.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
