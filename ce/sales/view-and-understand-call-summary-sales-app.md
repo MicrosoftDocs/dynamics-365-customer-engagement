@@ -7,7 +7,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# View and understand call summary page 
+# View and understand call summary page in Sales Hub app
 
 Sellers and their managers need an easy way to review the conversations they've had with their customers and quickly find relevant talking points, keywords, and insights.  
 The call summary page provides a high-level view of how the conversation with a customer went, and includes action items and relevant keywords, a timeline, a transcript of the call, and more.  
