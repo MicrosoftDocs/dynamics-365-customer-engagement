@@ -22,56 +22,19 @@ Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve p
 
 The **msdyn_RetrieveKPIValuesForGDPR** action expects the following input parameters:
 
-<table>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-<tr>
-<td valign="top"><code>CRMRecord</code></td>
-<td valign="top"><a href="/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true" data-raw-source="[mscrm.crmbaseentity](dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true)">mscrm.crmbaseentity</a></td>
-<td valign="top">Entity type for which you want to retrieve the data. Required.
-<p>You can specify one of the following values:</p>
-<ul>
-<!--<li><code>Microsoft.Dynamics.CRM.account</code></li>-->
-<li><code>Microsoft.Dynamics.CRM.contact</code></li>
-<li><code>Microsoft.Dynamics.CRM.lead</code></li>
-<li><code>Microsoft.Dynamics.CRM.opportunity</code></li>
-<li><code>Microsoft.Dynamics.CRM.systemuser</code></li>
-</ul>
-
-<p>Depending on the specified entity type, you must specify <!--<code>accountid</code>,--> 
-<code>contactid</code>, <code>leadid</code>, <code>opportunityid</code>, or <code>systemuserid</code> as the second key to identify the entity record you want to retrieve data for. See <a href="#example" data-raw-source="[Example](#example)">Example</a> later in this topic.</p></td>
-</tr>
-</table>
+| Name | Type | Description |
+|------|------|-------------|
+| `CRMRecord` | <a href="/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true" data-raw-source="[mscrm.crmbaseentity](dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true)">mscrm.crmbaseentity</a> | Entity type for which you want to retrieve the data. Required.<br><p>You can specify one of the following values:</p><ul><li><code>Microsoft.Dynamics.CRM.contact</code></li><li><code>Microsoft.Dynamics.CRM.lead</code></li><li><code>Microsoft.Dynamics.CRM.opportunity</code></li><li><code>Microsoft.Dynamics.CRM.systemuser</code></li></ul><p>Depending on the specified entity type, you must specify <code>contactid</code>, <code>leadid</code>, <code>opportunityid</code>, or <code>systemuserid</code> as the second key to identify the entity record you want to retrieve data for. See <a href="#example" data-raw-source="[Example](#example)">Example</a> later in this topic.</p>|
+||||
 
 ## Action return type
 
 The **msdyn_RetrieveKPIValuesForGDPR** action returns the following value:
 
-<table>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><code>msdyn_RetrieveKPIValuesForGDPRResponse</code></td>
-<td><a href="/dynamics365/customer-engagement/developer/webapi/web-api-types-operations#complex-types">ComplexType</a> </td>
-<td>Contains the response from the <b>msdyn_RetrieveKPIValuesForGDPR</b> action. It contains the following property that contain the structured data of the type:
-<table>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
-<tr>
-<td><code>Response</code></td>
-<td>Edm.String</td>
-<td>List of data as an escaped JSON array.</td>
-</tr>
-</table>
-</table>
+| Name | Type | Description |
+|------|------|-------------|
+| `msdyn_RetrieveKPIValuesForGDPRResponse` | <a href="/dynamics365/customer-engagement/developer/webapi/web-api-types-operations#complex-types">ComplexType</a> | Contains the response from the <b>msdyn_RetrieveKPIValuesForGDPR</b> action. It contains the following property that contain the structured data of the type:<ul><li><b>Name:</b> `Response`</li><li><b>Type:</b> Edm.String </li><li><b>Description:</b> List of data as an escaped JSON array. |
+
 
 ## Example
 
