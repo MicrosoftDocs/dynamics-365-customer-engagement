@@ -59,7 +59,8 @@ test test
 
 ### [Single-service resource](#tab/singleservice)
 test test
-  
+
+---
 3. On the command bar, select **New**.  
   
     You’ll be on the **Content** tab of the knowledge article.
