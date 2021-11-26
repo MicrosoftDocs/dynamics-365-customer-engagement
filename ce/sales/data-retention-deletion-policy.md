@@ -25,7 +25,7 @@ When you configure conversation intelligence, sales call recordings of sellers a
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## In conversation intelligence app
+## Configure data retention and access
 
 1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 2. Open the **Conversation intelligence** application.  

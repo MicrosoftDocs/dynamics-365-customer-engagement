@@ -19,7 +19,7 @@ topic-status: Drafting
 Configure call data to assist sales managers to get an overview of the call center and drill down to get call statistics for individual sellers.
 
 ## License and role requirements
-|  | |
+| &nbsp; | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -74,7 +74,8 @@ Upload the call recording or transcript to the created call recording repository
 - The call recording should be a stereo type recording only.
 - The names of the uploaded files must be unique for your organization and must not be repeated.
 - The file names for the audio or transcript file, and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. Similarly, name of the transcript file is **call-recording-10-dec-2018.transcript.json**, the corresponding JSON file is named **call-recording-10-dec-2018.json**.  
-- The JSON file parameters must be properly configured. The JSON file contains the following parameters:    
+- The JSON file parameters must be properly configured. The JSON file contains the following parameters:   
+ 
     | Name | Type | Description |
     |------|------|-------------|
     | `fileName` | &mdash; | Specifies the name of the conversation file. |
@@ -323,7 +324,7 @@ Upload the call recording or transcript to the created call recording repository
     ```   
 
 > [!div class="nextstepaction"] 
-> [Continue with First-run set up experience](fre-setup-sales-insight-app.md#the-conversation-intelligence-application)
+> [Continue with First-run set up experience](fre-setup-sales-insight-app.md)
 
 ## Update configuration of call data
 
