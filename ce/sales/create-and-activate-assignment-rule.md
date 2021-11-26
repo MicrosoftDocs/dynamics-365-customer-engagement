@@ -95,7 +95,7 @@ When a lead or opportunity record is created in an organization, assignment rule
     | Specific sellers | Assign leads to specific sellers. Select the sellers from the **Choose sellers** lookup.<br>**Note**: The security roles for sellers displayed in the list were added when the sales accelerator was configured. More information: step 4 in [Configure the sales accelerator](enable-configure-sales-accelerator.md)<br>![Select specific sellers.](media/sa-ar-select-specific-sellers.png "Select specific sellers") |
     | Specific teams | Assign leads to a specific team. The lead will be available for all members of the team you select. The teams must be defined in your organization. More information: [Manage teams](/power-platform/admin/manage-teams#ownergroup-team-or-access-team) |
 
-8. Under **Distribute leads by**, choose one of the following options. This setting is available only when you select a seller option in the **Assign these leads to** section.
+8. Under **Distribute leads by**, choose one of the following options. This setting is available only when you select a seller option in the **Assign these leads to** section. More information: [Understand lead distributions in assignment rules](understand-lead-distributions-assignment-rules.md)
 
    >[!NOTE]
    >The **Distribute leads by** setting isn't available for teams.
@@ -122,6 +122,7 @@ The rule is created and activated. It will be listed in the **Rules** section, w
 
 ### See also
 
-[Manage assignment rules](create-manage-assignment-rules.md)
+[Manage assignment rules](create-manage-assignment-rules.md)     
+[Understand lead distributions in assignment rules](understand-lead-distributions-assignment-rules.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
