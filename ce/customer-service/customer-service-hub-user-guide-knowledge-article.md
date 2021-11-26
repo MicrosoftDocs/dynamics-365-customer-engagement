@@ -52,7 +52,13 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 1. Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the Knowledge Manager, Customer Service Manager, or Customer Service Representative role.  
   
-2. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
+2. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**. 
+ 
+### [Multi-service resource](#tab/multiservice)
+test test
+
+### [Single-service resource](#tab/singleservice)
+test test
   
 3. On the command bar, select **New**.  
   
