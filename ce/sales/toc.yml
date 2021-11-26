@@ -391,7 +391,7 @@
         href: data-retention-deletion-policy.md
       - name: Enable coming soon features
         href: enable-preview-features-sales-insights-app.md
-    - name: Configure in Dynamics 365 Sales
+    - name: Configure in Dynamics 365 Sales Hub
       items:
       - name: First-run set up in sales app
         href: fre-setup-ci-sales-app.md
@@ -644,16 +644,22 @@
     items:
     - name: Overview of Conversation Intelligence
       href: dynamics365-sales-insights-app.md
-    - name: View home page
-      href: dynamics365-sales-insights-app-home-page.md
-    - name: View team information
-      href: conversation-intelligence-team-overview.md
-    - name: View seller information
-      href: conversation-intelligence-seller-details.md
-    - name: View and understand call summary
-      href: view-and-understand-call-summary.md
-    - name: Monitor call and insight processing
-      href: monitor-call-insight-processing.md
+    - name: Conversation intelligence app 
+      items:
+      - name: View home page
+        href: dynamics365-sales-insights-app-home-page.md
+      - name: View team information
+        href: conversation-intelligence-team-overview.md
+      - name: View seller information
+        href: conversation-intelligence-seller-details.md
+      - name: View and understand call summary
+        href: view-and-understand-call-summary.md
+      - name: Monitor call and insight processing
+        href: monitor-call-insight-processing.md 
+    - name: Dynamics 365 Sales Hub app 
+      items:
+      - name: View and understand call summary
+        href: view-and-understand-call-summary-sales-app.md
   - name: Dynamics 365 Sales mobile
     items:
     - name: Overview
