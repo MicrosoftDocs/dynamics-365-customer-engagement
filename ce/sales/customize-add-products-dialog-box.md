@@ -59,13 +59,12 @@ By default, the **Add products** dialog box displays the following columns in th
 - Quantity
 
 > [!NOTE]
-> The procedure below refers to the customization option available in the Sales Hub app. If you are using a custom app, access the following views from Power Apps:
+> The procedure below refers to the customization option available in the Sales Hub app. If you are using a custom app or the Sales Professional app, access the following views from Power Apps:
 > - Opportunity products Add products
 > - Quote products Add products
 > - Order products Add products
-> - Invoice products Add products
-
-For information about editing views, go to [Choose and configure columns in model-driven app
+> - Invoice products Add products <br>
+> For information about editing views, see [Choose and configure columns in model-driven app
 views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or remove columns in the grid**
@@ -100,7 +99,7 @@ By default, the **Product** column in the Add product dialog includes the produc
 **Note**: The **Product** column can display up to three attributes, apart from the product name.  
 
 > [!NOTE]
-> The procedure below refers to the customization option available in **Product Catalog Settings**. If you are using a custom app, access the **Product Lookup View** from Power Apps. For information on editing views in Power Apps, see [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).
+> The procedure below refers to the customization option available in **Product Catalog Settings**. If you are using a custom app or the Sales Professional app, access the **Product Lookup View** from Power Apps. For information on editing views in Power Apps, see [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or edit product attributes:**
 
