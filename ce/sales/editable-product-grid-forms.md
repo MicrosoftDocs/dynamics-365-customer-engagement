@@ -17,7 +17,7 @@ Editable products grid on the Opportunity, Quote, Order, or Invoice forms lets s
 
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -32,7 +32,14 @@ If you’re upgrading to the latest version and you’ve made customizations to 
 
 To enable the editable products grid on the Opportunity, Quote, Order, or Invoice form:
 
-1. Go to **Settings** > **Customization**. 
+1. In your app, select the **Settings** icon, and then select **Advanced Settings**. 
+
+    > [!div class="mx-imgBorder"]  
+    > ![Advanced Settings link in the site map.](media/advanced-settings-option.png "Advanced Settings link in the site map")
+
+    The **Business Management settings** page opens in a new browser tab.
+
+2. On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**.
 
 2. Select **Customize the System** to open the default solution. 
 
