@@ -55,7 +55,8 @@ Access the deal manager settings page to enable the deal manager preview, grant 
     :::image type="content" source="media/appdesigner-subarea.PNG" alt-text="Screenshot of the subarea component in the App designer."::: 
 1. Update the following fields:
     - **Type:** URL
-    - **URL:** ```/main.aspx?appid=860f4439-9cf8-ea11-a813-000d3a54419d&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings```
+    - **URL:** 
+        ```/main.aspx?appid=860f4439-9cf8-ea11-a813-000d3a54419d&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings```
     - **Title:** Deal manager settings
     - **Advanced** > **Privileges** > **Entity**: Deal manager settings
 
@@ -68,7 +69,8 @@ Access the deal manager settings page to enable the deal manager preview, grant 
     > If you don't update the privilege, the deal manager related pages will be visible to all the users irrespective of their security role.
 1. Repeat steps 5 through 8 to add the deal manager workspace page to your sitemap with the following values:
     - **Type:** URL
-    - **URL:** ```/main.aspx?pagetype=control&controlName=MscrmControls.Sales.DealManager.DealManager&data={"entityType":"opportunity"}```
+    - **URL:** 
+        ```/main.aspx?pagetype=control&controlName=MscrmControls.Sales.DealManager.DealManager&data={"entityType":"opportunity"}```
     - **Title:** Deal manager
     - **Advanced** > **Privileges** > **Entity**: dealmanageraccess   
 
