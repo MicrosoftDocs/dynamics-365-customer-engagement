@@ -14,6 +14,14 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-knowledgearticle
+ - D365-Entity-msdyn_knowledgearticletemplate
+ - D365-UI-form
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement 
 ---
 
 # Set a default knowledge article authoring language for your organization

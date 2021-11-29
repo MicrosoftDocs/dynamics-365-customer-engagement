@@ -7,6 +7,13 @@ manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
+searchScope: 
+ - D365-App-msdyn_channelintegrationframeworkapp 
+ - D365-Entity-msdyn_ciprovider
+ - D365-UI-view
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement
 ---
 
 # How to configure a channel provider for your Dynamics 365 organization

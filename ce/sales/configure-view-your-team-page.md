@@ -1,5 +1,5 @@
 ---
-title: "Configure and view your team page (Sales Insights) | MicrosoftDocs"
+title: "Configure and view your team page in conversation intelligence app"
 description: "Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data."
 ms.date: 11/08/2021
 ms.topic: article
@@ -24,17 +24,14 @@ Configure and view your team page with information on levels of hierarchy, top p
 
 ## What can I configure
 
-As an administrator, you can:
-
--	Configure the levels of hierarchy that you can view. 
--	Configure a user to impersonate another to view information.
--	Select the top performers in your hierarchy.  
+As an administrator, you can:   
+-	Configure the levels of hierarchy that you can view.  
+-	Configure a user to impersonate another to view information.   
+-	Select the top performers in your hierarchy.   
 -	Delete seller data.
 
-
-As a sales manger, you can: 
-
--	View the list of employees who are part of your hierarchy.
+As a sales manger, you can:   
+-	View the list of employees who are part of your hierarchy.  
 -	Select the top performers in your hierarchy.
 
 ## Open your team settings page
@@ -42,7 +39,6 @@ As a sales manger, you can:
 > [!NOTE]
 > Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
-**In conversation intelligence app**   
 1.	Open the **Conversation intelligence** application.  
 2.	Select the **Settings** icon on the top-right of the page and then select **Settings**.  
     > [!div class="mx-imgBorder"]
@@ -51,19 +47,6 @@ As a sales manger, you can:
     Your team page opens and you can perform the following tasks:  
         - [Configure hierarchy levels](#configure-hierarchy-levels)  
         - [Configure users to view as another user](#configure-users-to-view-as-another-user)
-        - [Choose top performers](#choose-top-performers)  
-        - [Delete seller data](#delete-seller-data)  
-
-**In Sales Hub app**  
-1.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.  
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
-2.	In the configuration page, under **Productivity**, select **Conversation intelligence**.  
-    > [!div class="mx-imgBorder"]
-    > ![Conversation intelligence configuration page](media/ci-admin-config-page.png "Conversation intelligence configuration page")
-3.	Select **Your team**.  
-    Your team page opens and you can perform the following tasks:  
-        - [Configure hierarchy levels](#configure-hierarchy-levels)  
         - [Choose top performers](#choose-top-performers)  
         - [Delete seller data](#delete-seller-data)  
 

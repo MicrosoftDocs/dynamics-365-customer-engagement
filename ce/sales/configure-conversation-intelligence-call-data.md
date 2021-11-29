@@ -75,158 +75,43 @@ Upload the call recording or transcript to the created call recording repository
 - The call recording should be a stereo type recording only.
 - The names of the uploaded files must be unique for your organization and must not be repeated.
 - The file names for the audio or transcript file, and its corresponding JSON files must be the same. For example, if you name the audio file **call-recording-10-dec-2018.wav**, the corresponding JSON file should be named **call-recording-10-dec-2018.json**. Similarly, name of the transcript file is **call-recording-10-dec-2018.transcript.json**, the corresponding JSON file is named **call-recording-10-dec-2018.json**.  
-- The JSON file parameters must be properly configured. The JSON file contains the following parameters:    
-    <table style="width:100%">
-     <tr>
-     <th>Name</th>
-     <th>Type</th>
-     <th>Description</th>
-     </tr>
-     <tr>
-      <td valign="top"><code>fileName</code></td>
-      <td valign="top">&mdash;</td>
-      <td valign="top">Specifies the name of the conversation file.</td>
-     </tr>
-     <tr>
-      <td valign="top"><code>conversationType</code></td>
-      <td valign="top">&mdash;</td>
-      <td valign="top">Specifies the type of conversation. The following types of conversation are supported: audio and transcript.</td>     
-     </tr>
-     <tr>
-      <td valign="top"><code>startTime</code></td>
-      <td valign="top">&mdash;</td>
-      <td valign="top">Specifies the start time of the conversation and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z.</td>     
-     </tr>
-     <tr>
-      <td valign="top" colspan="2"><code>participants</code></td>
-      <td valign="top">Specifies the details of the participants.</td>  
-      <tr>
-       <td></td>	
-       <td valign="top"><code>id</code></td>
-       <td valign="top">Enter the unique identification number of each participant. The numbers must be positive numbers. For example, 1, 2, and 3.</td>
-      </tr>   
-      <tr>
-       <td></td>	
-       <td valign="top"><code>role</code></td>
-       <td valign="top">Specifies the role of the participant. The value must be agent, customer, or other. </td>
-     </tr>   
-     <tr>
-     <td></td>	
-      <td valign="top"><code>email</code></td>
-      <td valign="top">Specifies the email ID of the participant.</td>
-     </tr>   
-     <tr>
-     <td></td>	
-      <td valign="top"><code>crmId</code></td>
-      <td valign="top">Specifies the CRM ID of the participant. </td>
-     </tr>   
-     <tr>
-     <td></td>	
-      <td valign="top"><code>aadId</code></td>
-      <td valign="top">Specifies the Azure Directory ID of the participant. </td>
-     </tr>   
-     <tr>
-     <td></td>
-     <td colspan="2"><b>Note:</b>&nbsp;To uniquely identify the participant, one of the following objects is required in the file: <code>email</code>, <code>crmId</code>, or <code>aadId</code>.
-     <tr>
-     <td></td>	
-      <td valign="top"><code>displayName</code></td>
-      <td valign="top">(Optional) Specifies the display name of the participant.</td>
-     </tr>   
-     <tr>
-     <td></td>	
-      <td valign="top"><code>phoneNumber</code></td>
-      <td valign="top">(Optional) Specifies the phone number of the participant.</td>
-     </tr> 
-    </tr>
-    <tr>
-     <td valign="top" colspan="2"><code>crm</code></td>
-     <td valign="top">Specifies the details of CRM.</td>  
-     <tr>
-     <td></td>	
-      <td valign="top"><code>accounts</code></td>
-      <td valign="top">(Optional) Specifies an array of the CRM accounts that are related to the conversation. Each account is an object that contains <code>id</code>.</td>
-     </tr>   
-     <tr>
-     <td></td>	
-      <td valign="top"><code>contacts</code></td>
-      <td valign="top">(Optional) Specifies an array of the CRM contacts that are related to the conversation. Each contact is an object that contains <code>id</code>.</td>
-     </tr>   
-     <tr>
-     <td></td>	
-      <td valign="top"><code>lead</code></td>
-      <td valign="top">(Optional) Specifics the CRM lead details that are related to the conversation. The lead is an object that contains <code>id</code>.</td>
-     </tr>   
-     <tr>
-     <td></td>	
-      <td valign="top"><code>opportunity</code></td>
-      <td valign="top">(Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains <code>id</code>.</td>
-     </tr>   
-     <tr>
-     <td></td>	
-      <td valign="top"><code>activity</code></td>
-      <td valign="top">(Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains <code>id</code>.</td>
-     </tr>  
-     <tr>
-     <td></td>	
-      <td valign="top"><code>mediaReferenceId</code></td>
-      <td valign="top">(Optional) Specifics the CRM media reference ID (Guid).</td>
-     </tr>   
-    </tr>
-    <tr>
-     <td valign="top"><code>locale</code></td>
-     <td valign="top">&mdash;</td>
-     <td valign="top">Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, he-IL, and ar-BH.</td>
-    </tr>
-    <tr>
-     <td valign="top"><code>version</code></td>
-     <td valign="top">&mdash;</td>
-     <td valign="top">Specifies the version of metadata file. The value is 3.0.0.</td>     
-    </tr>
-    <tr>
-     <td valign="top"><code>title</code></td>
-     <td valign="top">&mdash;</td>
-     <td valign="top">(Optional) Specifies the title of the conversation.</td>
-    </tr>
-    <tr>
-     <td valign="top"><code>scope</code></td>
-     <td valign="top">&mdash;</td>
-     <td valign="top">(Optional) Specifies whether the conversation is internal or external. The value is External or Internal.</td>     
-    </tr>
-    <tr>
-     <td valign="top"><code>agentChannel</code></td>
-     <td valign="top">&mdash;</td>
-     <td valign="top">(Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected.</td>
-    </tr>
-    <tr>
-     <td valign="top"><code>country</code></td>
-     <td valign="top">&mdash;</td>
-     <td valign="top">(Optional) Specifies from which country the conversation originated.</td>     
-    </tr>
-    <tr>
-     <td valign="top"><code>provider</code></td>
-     <td valign="top">&mdash;</td>
-     <td valign="top">(Optional) Specifies the service provider of the conversation such as Skype.</td>
-    </tr>
-    <tr>
-     <td valign="top"><code>payload</code></td>
-     <td valign="top">&mdash;</td>
-     <td valign="top">(Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://api-nam.sales.ai.dynamics.com/infra/v1.0-preview/docs/#/).</td>     
-    </tr>
-    <tr>
-     <td valign="top"><code>trackedKeywords</code></td>
-     <td valign="top">&mdash;</td>
-     <td valign="top">(Optional) Specifies the keywords that must be tracked in the conversation along with the organization and manager level keywords.</td>
-    </tr>
-    <tr>
-     <td valign="top"><code>trackedCompetitors</code></td>
-     <td valign="top">&mdash;</td>
-     <td valign="top">(Optional) Specifies the competitors that must be tracked in the conversation and along with the organization and manager level competitors.</td>     
-    </tr>
-    </table>
+- The JSON file parameters must be properly configured. The JSON file contains the following parameters:  
+    
+    |Name|Type|Description|
+    |------|------|-------------|
+    | `fileName` | &mdash; | Specifies the name of the conversation file. |
+    | `conversationType`| &mdash; | Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
+    | `startTime` | &mdash; | Specifies the start time of the conversation and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. |
+    | `participants` || Specifies the details of the participants. |
+    |&nbsp;| `id` | Enter the unique identification number of each participant. The numbers must be positive numbers. For example, 1, 2, and 3.|
+    |&nbsp;| `role` | Specifies the role of the participant. The value must be agent, customer, or other. |
+    |&nbsp;| `email` | Specifies the email ID of the participant. |
+    |&nbsp;| `crmId` | Specifies the CRM ID of the participant. |
+    |&nbsp;| `aadId` | Specifies the Azure Directory ID of the participant. |
+    |&nbsp;|&nbsp;| **Note:** To uniquely identify the participant, one of the following objects is required in the file: `email`, `crmId`, or `aadId`. |
+    |&nbsp;| `displayName` | (Optional) Specifies the display name of the participant. |
+    |&nbsp;| `phoneNumber`| (Optional) Specifies the phone number of the participant. |
+    | `crm` |&nbsp;| Specifies the details of CRM. |
+    |&nbsp;| `accounts` | (Optional) Specifies an array of the CRM accounts that are related to the conversation. Each account is an object that contains `id`. |
+    |&nbsp;| `contacts` | (Optional) Specifies an array of the CRM contacts that are related to the conversation. Each contact is an object that contains `id`. |
+    |&nbsp;| `lead` | (Optional) Specifics the CRM lead details that are related to the conversation. The lead is an object that contains `id`. |
+    |&nbsp;| `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`. |
+    |&nbsp;| `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`. |
+    |&nbsp;| `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid). |
+    | `locale` | &mdash; | Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, he-IL, and ar-BH. |
+    | `version` | &mdash; | Specifies the version of metadata file. The value is 3.0.0. |
+    | `title` | &mdash; | (Optional) Specifies the title of the conversation. |
+    | `scope` | &mdash; | (Optional) Specifies whether the conversation is internal or external. The value is External or Internal. |
+    | `agentChannel` | &mdash; | (Optional) Specifies the channel that the agent is recorded on. The value is **Left** or **Right**. By default, the value **Left** is selected. |
+    | `country` | &mdash; | (Optional) Specifies from which country the conversation originated. |
+    | `provider` | &mdash; | (Optional) Specifies the service provider of the conversation such as Skype. |
+    | `payload` | &mdash; | (Optional) Specifies the customer custom payload. The payload will be returned only when calling the infra api. More information: [Conversation Intelligence Infra API](https://api-nam.sales.ai.dynamics.com/infra/v1.0-preview/docs/#/). |
+    | `trackedKeywords` | &mdash; | (Optional) Specifies the keywords that must be tracked in the conversation along with the organization and manager level keywords. |
+    | `trackedCompetitors` | &mdash; | (Optional) Specifies the competitors that must be tracked in the conversation and along with the organization and manager level competitors. |
 
     The following sample is an example of JSON file format:    
-    ``` JSON
+
+    ```json
     {
         "id": "c5538c88-2f87-436e-bdd8-ac4cdb77ba66",
         "fileName": "c5538c88-2f87-436e-bdd8-ac4cdb77ba66.mp3",
@@ -285,17 +170,17 @@ Upload the call recording or transcript to the created call recording repository
 
     | Parameter | Objects | Description|
     |-----------|---------|------------|
-    | `id` |--| The unique ID of the transcript fragment (GUID). |
-    | `text` |--| The content of the fragment. |
-    | `offset` |--| The relative start time of the fragment from the start of the conversation in milliseconds. |
-    | `duration` |--| The duration of the fragment from the offset in milliseconds. |
-    | `participantId` |--| The participant ID in the conversation. For example, 1, 2, and 3. |
-    | `words` |--| (Optional) An array of words in the fragment. |
+    | `id` | &mdash; | The unique ID of the transcript fragment (GUID). |
+    | `text` | &mdash; | The content of the fragment. |
+    | `offset` | &mdash; | The relative start time of the fragment from the start of the conversation in milliseconds. |
+    | `duration` | &mdash; | The duration of the fragment from the offset in milliseconds. |
+    | `participantId` | &mdash; | The participant ID in the conversation. For example, 1, 2, and 3. |
+    | `words` | &mdash; | (Optional) An array of words in the fragment. |
     || `word` | A word in a phrase. |
     ||`offset`| The time of the word from the start of the conversation in milliseconds. |
     ||`duration`| The audio duration of this word in milliseconds. |
-    |`confidence`|--|(Optional) The confidence value of the fragment. The value must be between 0 to 1.|
-    |`locale`|--| The locale of the fragment. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH. |
+    |`confidence`| &mdash; |(Optional) The confidence value of the fragment. The value must be between 0 to 1.|
+    |`locale`| &mdash; | The locale of the fragment. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, he-IL, and ar-BH. |
 
     The following sample is an example of transcript JSON file:  
     ```JSON
@@ -441,7 +326,7 @@ Upload the call recording or transcript to the created call recording repository
     ```   
 
 > [!div class="nextstepaction"] 
-> [Continue with First-run set up experience](fre-setup-sales-insight-app.md#the-conversation-intelligence-application)
+> [Continue with First-run set up experience](fre-setup-sales-insight-app.md)
 
 ## Update configuration of call data
 

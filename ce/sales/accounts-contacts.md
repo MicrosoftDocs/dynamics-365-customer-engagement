@@ -2,7 +2,7 @@
 title: "Manage your customers using accounts and contacts"
 description: "Use accounts to store information about companies that you do business with and contacts to store information about people that you work with."
 keywords: ""
-ms.date: 11/17/2021
+ms.date: 11/25/2021
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
