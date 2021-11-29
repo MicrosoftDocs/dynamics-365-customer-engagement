@@ -1,6 +1,6 @@
 ---
 title: "Configure channel providers using app profile manager | MicrosoftDocs"
-description: "Learn how to configure a channel provider using the app profile manager in Dynamics 365 Channel Integration Framework 2.0."
+description: "Learn how to configure channel providers using the app profile manager in Dynamics 365 Channel Integration Framework 2.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -11,17 +11,17 @@ ms.custom:
 
 # Configure channel provider using app profile manager in Dynamics 365 Channel Integration Framework 2.0
 
-The app profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../app-profile-manager/overview.md).
+The app profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../app-profile-manager/overview.md)
 
 Channel Integration Framework version 2.0 is for multisession applications such as Omnichannel for Customer Service and Customer Service workspace. Use the app profile manager as follows to configure a third-party voice channel provider with a multisession application:
 
 1. Sign in to your [Power Apps](https://make.powerapps.com) portal.
 
-2. Under the available apps, select the ellipses to the right of **Omnichannel for Customer Service** or **Customer Service workspace**.
+2. Under the available apps, select the ellipses next to **Omnichannel for Customer Service** or **Customer Service workspace**.
 
 3. On the menu that appears, select **App profile manager**.
 
-4. Select **App profiles** from the site map, and then, select your app profile.
+4. Select **App profiles** from the site map, and then select your app profile.
 
 5. Select the **Channels** tab.
 
@@ -51,9 +51,9 @@ Channel Integration Framework version 2.0 is for multisession applications such 
   > [!NOTE]
   > The `Api Version` field is set to `2` when you navigate from the app profile manager.
 
-8. After you have configured the channel provider, go back to the app profile manager and add the channel provider to the app profile.
+8. After you've configured the channel provider, go back to the app profile manager and add the channel provider to the app profile.
   
-## See also
+### See also
 
 [App profile manager](../../../app-profile-manager/overview.md)<br />
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
