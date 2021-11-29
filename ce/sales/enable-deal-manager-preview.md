@@ -60,10 +60,10 @@ Access the deal manager settings page to enable the deal manager preview, grant 
     - **Title:** Deal manager settings
     - **Advanced** > **Privileges** > **Entity**: Deal manager settings
 
-1. After selecting the entity, select the **+** icon to update the privilege for the entity. 
+1. After selecting the entity, select the **+** icon to update the privilege for the entity.  
     By default, all the privileges are selected. 
 
-1. Clear all the checkboxes and select only the **Read** privilege.
+1. Clear all the checkboxes and select only the **Read** privilege.  
     This step ensures that only the security roles that you've granted access to can see and access the deal manager settings from the site map. 
       > [!IMPORTANT]
     > If you don't update the privilege, the deal manager related pages will be visible to all the users irrespective of their security role.
