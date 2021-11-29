@@ -1,7 +1,7 @@
 ---
 title: "Continue the conversation with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to continue the conversation with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 11/04/2021
+ms.date: 11/24/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -38,8 +38,6 @@ To sign up for a 6-month Dynamics 365 Marketing trial:
 
     > [!IMPORTANT]
     > The **Follow up with participants** button only appears in the attendance tab *after* the webinar has ended. The meeting type must be a webinar to use the **Follow up with participants** functionality. The button is not shown if the meeting type is not a webinar, if you do not meet eligibility criteria, or if your organization has disabled trials.
-    >
-    > You must also be logged into Teams with an account that has sufficient privileges in Dynamics 365 Marketing. Learn more about the required Marketing privileges: [Required permissions to follow up with participants](teams-webinar-follow-up.md#required-permissions-to-follow-up-with-participants).
 
 1. Select **Get started**.
 

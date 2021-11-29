@@ -1,6 +1,6 @@
 ---
-title: "Data retention and deletion policy in conversation intelligence"
-description: "Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in conversation intelligence."
+title: "Data retention and deletion policy in conversation intelligence application"
+description: "Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in conversation intelligence application."
 ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
@@ -16,12 +16,7 @@ topic-status: Drafting
 ---
 # Data retention and access through Privacy settings 
 
-When you configure conversation intelligence, sales call recordings of sellers are processed and analyzed to provide necessary insights such as overall customer sentiments, sentiment trends, and identify keywords that customers have used during calls. You can configure the privacy and retention settings depending on the application that you are on:  
--	[Conversation intelligence app](#in-conversation-intelligence-app)
--	[Sales Hub app](#in-sales-hub-app)  
-
-> [!NOTE]
-> Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
+When you configure conversation intelligence, sales call recordings of sellers are processed and analyzed to provide necessary insights such as overall customer sentiments, sentiment trends, and identify keywords that customers have used during calls.
 
 ## License and role requirements
 |  | |
@@ -30,14 +25,15 @@ When you configure conversation intelligence, sales call recordings of sellers a
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## In conversation intelligence app
+## Configure data retention and access
 
-1.	Open the **Conversation intelligence** application.  
-2.	Select the **Settings** icon on the top-right of the page and then select **Settings**.  
+1.	Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
+2. Open the **Conversation intelligence** application.  
+3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")  
-3.	On the **Settings** page, select **Privacy**.  
-4.	In the Privacy page, configure the following options as required:  
+4.	On the **Settings** page, select **Privacy**.  
+5.	In the Privacy page, configure the following options as required:  
     - **Read-only access to data**: Select this option to allow Microsoft to improve the quality of insights through manual (human) read-only access to your organization’s data in conversation intelligence.
     - **Delete contact's data**: Use this option to delete a contact's data by using the contact ID provided in Dynamics 365. Enter the contact ID in the text box and then select **Delete data**. 
     - **Retention policy**: Choose a retention time limit. The application keeps call recording data for the specified time limit, and deletes it when the time limit is reached. The retention period is available from 30 days until 10 years.
@@ -46,40 +42,6 @@ When you configure conversation intelligence, sales call recordings of sellers a
     > ![Privacy settings page in conversation intelligence app](media/si-admin-privacy-settings-ciapp.png "Privacy settings page in conversation intelligence app")  
 
 5. Select **Save**.
-
-## In Sales Hub app  
-
-1.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.  
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
-2.	In the configuration page, under **Productivity**, select **Conversation intelligence**.  
-    > [!div class="mx-imgBorder"]
-    > ![Conversation intelligence configuration home page](media/ci-admin-config-page.png "Conversation intelligence configuration home page")
-3.	On the **Settings** page, select the sections as required:    
-    - Select the **Call recording storage** section to configure [data retention policy](#call-recording-storage) for your organization.
-    - Select the **Data consent and privacy** section to configure [data consent and privacy](#data-consent-and-privacy) for your organization.  
-    
-### Call recording storage
-
-The **Call recording storage** section allows you to configure the data retention policy to determine how long you want to keep the analyzed call recording data in conversation intelligence by specifying a time limit. When you specify a retention time limit, the application keeps the call recording data for the specified time limit. The application deletes the data when the time limit is reached.   
-For example, retention time limit is set 30 days. At any given time, application keeps the call data from the time it's analyzed to 30 days. On the 31st day, the application deletes the analyzed call data.   
-Choose the storage option as described in the following table:     
-
-| Option | Description |
-|--------|-------------|
-| Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option if you want to use the storage provided by Microsoft. By default, this option is selected, and we recommend that you use this storage.</li><li>**Your own Azure storage**: Select this option if you want to use your custom Azure storage. After you select this option, enter the **Storage connection string** and **Container name**.</li></ul>More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md). |
-| Retention policy | Choose a retention time limit. The application keeps call recording data for the specified time limit, and deletes it when the time limit is reached. <li> For **Microsoft provided storage**, the available retention periods are 30 days and 90 days. </li> <li> For **Your own Azure storage**, the retention period is available from 30 days until 10 years. Use this storage type if your organization requires longer retention periods. | 
-
-> [!div class="mx-imgBorder"]
-> ![Select a storage option and its corresponding retention policy](media/ci-admin-teams-choose-storage-retention-policy.png "Select a storage option and its corresponding retention policy")
-
-### Data consent and privacy
-
-- **Waive individual user consent**: Select this option to automatically provide your organization’s users with access to conversation intelligence. You provide consent on behalf of your organization’s users of Microsoft Dynamics 365 online services to activate, configure, and enable functionality that transmits your data to external systems.    
-- **Allow read-only access to data**: Select this option to allow Microsoft to improve the quality of insights through manual (human) read-only access to your organization’s data in conversation intelligence. More information: [Terms and Conditions](https://go.microsoft.com/fwlink/?linkid=521839). 
-
-    > [!div class="mx-imgBorder"]
-    > ![Conversation intelligence configuration page](media/ci-admin-data-consent-privacy.png "Conversation intelligence configuration page")
 
 To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index).
 
