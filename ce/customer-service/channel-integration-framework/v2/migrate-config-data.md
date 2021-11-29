@@ -1,5 +1,5 @@
 ---
-title: "Migrate third-party channel configuration data | MicrosoftDocs 
+title: "Migrate third-party channel configuration data | MicrosoftDocs "
 description: "This topic provides information on how to migrate third-party channel configuration data from Channel Integration Framework 1.0 to Channel Integration Framework 2.0 in Customer Service workspace and Omnichannel for Customer Service."
 ms.date: 11/30/2021
 ms.topic: article
@@ -33,9 +33,8 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 **To check whether the Channel Integration Framework 2.0 library is loaded correctly**
 
-Open Browser Developer Tools.
-Navigate to Sources tab.
-Hit Ctrl+P and search for msdyn_channelintegrationframework.js
+1. Open **Browser Developer Tools** and open the **Sources** tab.
+2. Search for **msdyn_channelintegrationframework.js**
 
 **To check whether the AppProfile is loaded correctly**
 
