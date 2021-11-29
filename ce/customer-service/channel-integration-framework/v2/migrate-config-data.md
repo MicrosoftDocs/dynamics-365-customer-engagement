@@ -11,7 +11,7 @@ search.audienceType:
   - customizer
 ---
 
-# Migrate configuration data to Channel Integration Framework 2.0
+# Migrate third-party channel configuration data
 
 This topic provides information about how you can migrate third-party channel configuration data from Channel Integration Framework 1.0 to Channel Integration Framework 2.0 in both the Customer Service workspace and Omnichannel for Customer Service apps.
 
