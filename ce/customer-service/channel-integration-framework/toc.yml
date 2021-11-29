@@ -145,6 +145,8 @@
         href: v2/support-multiple-providers.md
       - name: "Modes for communication widget"
         href: v2/modes-communication-widget.md
+      - name: "Migrate third-party configuration data"
+        href: v2/migrate-config-data.md        
       - name: Templates
         items:
         - name: "Overview of templates"

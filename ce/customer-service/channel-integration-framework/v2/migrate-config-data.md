@@ -29,7 +29,6 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 5. Open Customer Service workspace and check if the chat widget is visible.
 
-
 <!--
 ## Migrate channel configuration data in Omnichannel for Customer Service
 
