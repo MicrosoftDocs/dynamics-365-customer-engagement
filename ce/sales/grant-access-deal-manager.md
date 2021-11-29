@@ -16,7 +16,15 @@ manager: shujoshi
 
 By default, deal manager is enabled only for administrators. As an administrator, you can grant access to specific security roles or to all security roles in your organization.  
 
-**To grant access**
+## License and role requirements
+
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## Grant access to security roles
 
 1. Access the [deal manager settings page](enable-deal-manager-preview.md#access-deal-manager-settings).
 
@@ -32,6 +40,8 @@ By default, deal manager is enabled only for administrators. As an administrator
     > :::image type="content" source="media/deal-manager-access-global.png" alt-text="Security role settings page with deal manager settings highlighted":::
 
 The deal manager workspace is now available to the selected roles. More information: [Access the deal manager workspace](access-deal-manager.md)
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 [Edit security privileges for a role](/power-platform/admin/create-edit-security-role#edit-a-security-role)

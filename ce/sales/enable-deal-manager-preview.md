@@ -14,10 +14,16 @@ manager: shujoshi
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-> [!NOTE]
-> This feature is being rolled out in a phased manner across different regions. To verify the feature availability in your region, see the **Next Refresh Scheduled Date** for version 9.0.21072.10001 in the [Latest version availability](/dynamics365/released-versions/dynamics365sales) section. 
-
 The new deal manger workspace helps sellers be more productive and efficient. As an administrator, you must enable the preview and grant access to specific security roles that will need to access to the deal manager.  
+
+
+## License and role requirements
+
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## Access deal manager settings
 
@@ -44,17 +50,14 @@ Access the deal manager settings page to enable the deal manager preview, grant 
      :::image type="content" source="media/powerapps-ui.PNG" alt-text="Screenshot of the Power Apps UI with Environment and Apps highlighted.":::
 1. Select your custom app, and then select **Edit**.
 1. In the **App Designer**, edit the **Site Map**.
-1. Add a subarea each for the deal manager settings page and the deal manager workspace.
+1. Add a subarea for the deal manager settings page.
 
     :::image type="content" source="media/appdesigner-subarea.PNG" alt-text="Screenshot of the subarea component in the App designer."::: 
 1. Update the following fields:
-
-   |**Field**  |**Deal manager Settings**  |**Deal manager workspace** |
-    |---------|---------|---------|
-    |**Type**     | URL        | URL        |
-    |**URL**     |/main.aspx?appid=860f4439-9cf8-ea11-a813-000d3a54419d<br>&pagetype=control<br>&controlName=MscrmControls.<br>Sales.DealManagerSettings.<br>DealManagerSettings|/main.aspx?pagetype=control<br>&controlName=MscrmControls.Sales.DealManager.DealManager<br>&data={"entityType":"opportunity"}|
-    |**Title**     |Deal manager settings         |Deal manager         |
-    |**Advanced** > **Privileges** > **Entity**     |Deal manager settings         |dealmanageraccess         |
+    - **Type:** URL
+    - **URL:** ```/main.aspx?appid=860f4439-9cf8-ea11-a813-000d3a54419d&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings```
+    - **Title:** Deal manager settings
+    - **Advanced** > **Privileges** > **Entity**: Deal manager settings
 
 1. After selecting the entity, select the **+** icon to update the privilege for the entity. 
     By default, all the privileges are selected. 
@@ -62,7 +65,12 @@ Access the deal manager settings page to enable the deal manager preview, grant 
 1. Clear all the checkboxes and select only the **Read** privilege.
     This step ensures that only the security roles that you've granted access to can see and access the deal manager settings from the site map. 
       > [!IMPORTANT]
-    > If you don't update the privilege, the deal manager related pages will be visible to all the users irrespective of their security role.   
+    > If you don't update the privilege, the deal manager related pages will be visible to all the users irrespective of their security role.
+1. Repeat steps 5 through 8 to add the deal manager workspace page to your sitemap with the following values:
+    - **Type:** URL
+    - **URL:** ```/main.aspx?pagetype=control&controlName=MscrmControls.Sales.DealManager.DealManager&data={"entityType":"opportunity"}```
+    - **Title:** Deal manager
+    - **Advanced** > **Privileges** > **Entity**: dealmanageraccess   
 
 1. Save and publish the changes. 
 
@@ -78,6 +86,8 @@ Access the deal manager settings page to enable the deal manager preview, grant 
 1. Select the roles that you want to give access to, and then select **Publish**.
 
 The deal manager workspace is now available to administrators and the roles you selected. 
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
