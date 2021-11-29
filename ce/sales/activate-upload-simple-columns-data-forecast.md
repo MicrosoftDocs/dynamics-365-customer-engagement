@@ -19,7 +19,7 @@ searchScope:
 Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast.
 
 ## License and role requirements
-|  | |
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -98,13 +98,9 @@ You're directed to the **Forecast configuration** home page, where your organiza
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-<table>
-<tr><td>
-
+---
 > [!div class="nextstepaction"] 
 > [Previous step: Configure advanced settings](forecast-configure-advanced-settings.md)
-</td></tr>
-</table>
 
 ### See also
 
