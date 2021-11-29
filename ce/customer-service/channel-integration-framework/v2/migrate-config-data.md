@@ -43,12 +43,8 @@ You can check whether the migration is successful and validate your configuratio
 
 If either of the preceding validation steps fail, then it would mean that the App profile configuration was not set properly. To resolve the issue, remove the channel provider and it again, and then check your migration again.
 
-
-
-
-> [!Note]
-> If step A or B is not as expected it would mean that the App profile configuration was not set properly. To fix the above, remove the provider attached in Step 4 and add the provider again.(Step 4)
-
+<!--
 ## Migrate channel configuration data in Omnichannel for Customer Service
 
 ## See also
+-->
