@@ -25,22 +25,26 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 3. [Assign user to this profile](/app-profile-manager/app-profile-manager#assign-profiles-to-users).
 
-4. In the channel provider code, make sure the widget mode is visible, else use the [Microsoft.CIFramework.setMode(1) API](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) to make the widget visible.
+4. In the channel provider code, make sure the widget mode is visible. You can use the [Microsoft.CIFramework.setMode(1) API](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) to make the widget visible.
 
 5. Open Customer Service workspace and check if the chat widget is visible.
 
 ### Check your migration
 
-**To check whether the Channel Integration Framework 2.0 library is loaded correctly**
+You can check whether the migration is successful and validate your configuration data by performing the following steps:
 
-1. Open **Browser Developer Tools** and open the **Sources** tab.
-2. Search for **msdyn_channelintegrationframework.js**
+1. Check whether Channel Integration Framework 2.0 library is loaded correctly.
+    To do so, open your web browser and in **Developer Tools** > **Sources** tab, search for **msdyn_channelintegrationframework.js**. If the file is found, it means that the Channel Integration Framework 2.0 library is loaded correctly.
 
-**To check whether the AppProfile is loaded correctly**
-
-In Applications tab under Session storage , check for channel providers and Application extensions. The channel provider should not be empty and the application extension should contain reference to **msdyn_channelintegrationframework.js** with the name msdyn_CIFV2Loader.
+2. Check whether AppProfile is loaded correctly. 
+    To do so, in the **Applications** tab under **Session storage**, check for channel providers and Application extensions. The `channelProviders` key should not be empty and the `applicationExtensions` key should contain a reference to **msdyn_channelintegrationframework.js** with the name **msdyn_CIFV2Loader**.
 
 <<image.png>>
+
+If either of the preceding validation steps fail, then it would mean that the App profile configuration was not set properly. To resolve the issue, remove the channel provider and it again, and then check your migration again.
+
+
+
 
 > [!Note]
 > If step A or B is not as expected it would mean that the App profile configuration was not set properly. To fix the above, remove the provider attached in Step 4 and add the provider again.(Step 4)
