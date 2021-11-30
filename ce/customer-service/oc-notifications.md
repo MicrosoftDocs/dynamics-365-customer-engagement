@@ -1,7 +1,7 @@
 ---
 title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
-ms.date: 07/01/2021
+ms.date: 11/30/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -137,7 +137,7 @@ When you reject a work item notification, you'll see an alert at the top of your
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to conversation](oc-take-notes.md)  
 [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
-[Manage notification templates and settings](/dynamics365/customer-servi/app-profile-manager/notification-templates)  
+[Manage notification templates and settings](../app-profile-manager/notification-templates.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
