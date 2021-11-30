@@ -66,13 +66,18 @@ After you have configured knowledge management on your app, you must also set up
   
 1. Go to the **Settings** page.
 
-### [Customer Service Admin Center](#tab/customerserviceadmincenter )
+### [Customer Service Admin Center (preview)](#tab/customerserviceadmincenter)
 
-In Customer Service Admin Center site map, select **Knowledge** in **Experiences**. On the **Knowledge** page, **Other Settings** section, select **Manage**.
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+* On the Customer Service Admin Center (preview) site map, select **Experiences > Knowledge**.
+* On the **Knowledge** page, in the **Other Settings** section, select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-In Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
+* On the Customer Service Hub site map, go to **Service Management**.
+* In **Knowledge Base Management**, select **Settings**.
 
 ---
   
@@ -149,7 +154,20 @@ You can enable the knowledge search to work by the `searchmode=all` logic, which
 
 To set up the knowledge search logic:
 
-1. In the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
+1. Go to the **Settings** page.
+
+### [Customer Service Admin Center (preview)](#tab/customerserviceadmincenter)
+
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+* On the Customer Service Admin Center (preview) site map, select **Experiences > Knowledge**.
+* On the **Knowledge** page, in the **Other Settings** section, select **Manage**.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+* On the Customer Service Hub site map, go to **Service Management**.
+* In **Knowledge Base Management**, select **Settings**.
 
 2. In the **Knowledge search logic** section, set **Set search mode as all** toggle to **Yes**.
 
