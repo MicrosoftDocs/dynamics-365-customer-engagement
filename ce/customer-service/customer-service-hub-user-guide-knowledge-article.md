@@ -1,6 +1,6 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
-description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
+description: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service
 ms.date: 11/22/2021
 ms.topic: article
 author: Soumyasd27
@@ -31,32 +31,32 @@ Reduce call handling times with knowledge articles in the Customer Service Hub a
   
 With the knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
 
-Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of Knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more. Use the rich text editor to create knowledge articles, format your content or embed videos and images.  
+Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more. Use the rich text editor to create knowledge articles, format your content, or embed videos and images.  
   
 > [!IMPORTANT]
-> Knowledge management is available out-of-the-box through the Customer Service Hub app module, and it can work with other customer apps as well. The articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
+> Knowledge management is available out of the box through the Customer Service Hub app module, and it works with other customer apps as well. Articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
 
 > [!NOTE]
-> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with Knowledge articles](work-knowledge-articles.md).
+> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means we don't expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with Knowledge articles](work-knowledge-articles.md)
 
 ## Knowledge management process
 
- The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can also be translated.
+The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can be translated.
   
- ![Knowledge management process in Dynamics 365 Customer Service.](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service")  
+![Knowledge management process in Dynamics 365 Customer Service.](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service.")  
   
 
 ## Create a knowledge article
 
 Turn your customer questions, issues, and feedback into knowledge articles, so other service reps can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging.  You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub. 
   
-1. Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the Knowledge Manager, Customer Service Manager, or Customer Service Representative role.  
+1. Make sure you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.  
   
 2. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
   
 3. On the command bar, select **New**.  
   
-    You’ll be on the **Content** tab of the knowledge article.
+   You’ll be on the **Content** tab of the knowledge article.
   
 4. In the **Article Content** section, fill in the following details:  
   
@@ -65,18 +65,24 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
    - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
   
    - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
-    :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article.":::
+    
+     :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article.":::
        
 5. In the **Content** section, add the content for your knowledge article.  
   
    > [!NOTE]
-   >  As soon as you select inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. If you cannot use the features, your editing space is too small. If this is the case, you will need to resize to a larger space. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
+   > As soon as you select inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. If you can't use the features, your editing space is too small. If this is the case, you'll need to resize to a larger space. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
   
 6. Select **Save**. 
    
-   As the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article towards completeness. You can customize the stages in the Business Process flow to suit your  requirements.
+   As the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article toward completeness. You can customize the stages in the Business Process flow to suit your  requirements.
+
+
+
+
 
 7. On the Business process bar, select **Author**.  
+
 8. In the **Set Keywords** text box, add keywords for your article.
   
 9. In the **Article Subject** drop-down list, choose the subject of the article to help with article searches.  
@@ -456,7 +462,7 @@ Article versioning helps you manage updates to your knowledge articles without d
      The new version of your article will contain all of the same content, information, and permissions as the current version. The **Version Major** or **Version Minor** field will automatically update to reflect the new version number.  
   
     > [!NOTE]
-    >  You won’t able to make any changes to the **Major Version Number**, **Minor Version Number**, **Language**, or **Article Public Number** fields when creating a new major or minor version of an article.  
+    >  You won’t be able to make any changes to the **Major Version Number**, **Minor Version Number**, **Language**, or **Article Public Number** fields when creating a new major or minor version of an article.  
   
 4.  After you have reviewed the article, make any changes that you want to the new version. You can update the article title, content, keywords, and description to reflect any changes to your products, features, or services.  
   
