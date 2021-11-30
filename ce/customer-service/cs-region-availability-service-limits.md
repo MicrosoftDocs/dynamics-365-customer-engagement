@@ -1,7 +1,7 @@
 ---
 title: "Regional availability and service limits for Customer Service | MicrosoftDocs"
 description: "Learn about regional availability and service limits for Customer Service applications."
-ms.date: 04/09/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,15 +11,21 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Regional availability of insights in Customer Service
 
-The following insights features are available in all supported geographical regions:
-- Customer Service historical analytics
-- Case topic clustering
-- Sentiment analysis
+The following table lists the regional availability of Customer Service Insights features.
 
-The following insights features are not supported in the listed regions:
-- **Smart assist suggestions**: India and Switzerland
-- **Omnichannel historical analytics**: France, Switzerland, and United Arab Emirates
-- **Conversation topic clustering**: France, Switzerland, and United Arab Emirates
+| Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | South Africa |Korea | Norway
+| ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
+| Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Case Topic Clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Smart Assist Suggestions | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |✖ | ✖ | ✖ | ✖ |
+| Conversation Topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Sentiment analysis | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| AI suggestions for cases and knowledge articles | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| AI suggestions for article keywords and description | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+
+✔ : Available  
+✖ : Not available
 
 ## Service limits in Dynamics 365 Customer Service Insights
 

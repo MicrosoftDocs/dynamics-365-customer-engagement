@@ -277,7 +277,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Domain to be whitelisted|
+|Description|Domain to be allowlisted|
 |DisplayName|Trusted Domain|
 |FormatName|Text|
 |IsLocalizable|False|

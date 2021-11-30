@@ -1,7 +1,7 @@
 ---
 title: "Location auditing for the Dynamics 365 Field Service mobile app | MicrosoftDocs"
 description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app
-ms.date: 01/07/2021
+ms.date: 10/18/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-field-service
@@ -40,6 +40,10 @@ For a guided walkthrough, check out the following video.
 ## Step 1. Enable location tracking
 
 First, we need to make sure location tracking is enabled in Field Service. These settings allow a technician's location data to be sent to Dynamics 365 Field Service, which surfaces a technician’s location on the schedule board. The technician’s location data is stored in the geolocation tracking entity.
+
+> [!Note]
+> As of the 2021 wave 2 October Field Service update, location tracking is enabled by default for all new Field Service environments.
+
 
 In Field Service, go to **Geolocation Settings**.
 

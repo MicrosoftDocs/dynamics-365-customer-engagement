@@ -1,6 +1,6 @@
 ---
-title: "Data validation capabilities for the LinkedIn Sales Navigator integration | Microsoft Docs"
-description: "Data validation for LinkedIn Sales Navigator integration in Dynamics 365 Sales"
+title: "Data validation capabilities of LinkedIn Sales Navigator"
+description: "Learn how to access and use the data validation capabilities of LinkedIn Sales Navigator. The solution uses LinkedIn information to validate contact records."
 keywords: "installation, setup, sales navigator"
 ms.date: 07/09/2019
 ms.topic: article
@@ -18,7 +18,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ---
 
-# Data validation
+# Data validation capabilities of LinkedIn Sales Navigator
 
 This article describes the data validation capabilities of the LinkedIn Sales Navigator solution for Dynamics 365 Sales that helps you keep the organizational structure of your matched contacts up to date. It uses the LinkedIn information to validate the contact records in Dynamics 365 Sales and enables you to check back on pending opportunities or have a useful icebreaker when getting in touch with a contact.
 

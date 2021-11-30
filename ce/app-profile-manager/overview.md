@@ -59,7 +59,7 @@ The options to access and manage the following entities are available on the lef
   - Agent scripts
 - Macros
 
-All these options are available in the Unified Interface and open on a new tab when you select any to access it.
+All these options are available in Unified Interface and open on a new tab when you select any to access it.
 
 > ![Navigation menu.](media/app-profile-navigation-items.png "App profiles home page")
 

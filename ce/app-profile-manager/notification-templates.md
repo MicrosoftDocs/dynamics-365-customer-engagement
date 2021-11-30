@@ -4,21 +4,17 @@ description: "Learn about managing notification templates in Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 11/25/2021
 ms.topic: article
 ---
 
 # Manage notification settings and templates
-
 
 ## Introduction
 
 When a notification is sent to an agent, it displays certain information, such as the customer from who the conversation request is coming, the timeout period after which the notification will disappear, and accept and reject buttons. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 
 As an administrator, system integrator, or partner, you can use the out-of-the-box templates for notifications or create your own. A notification template is a combination of notification-related, reusable information. The template is used to configure what information needs to be displayed to the agents and supervisors for an incoming conversation, escalation, transfer, or consult.
-
-> [!Note]
-> You must associate the notification templates with a session template.
 
 ## Desktop notifications
 
@@ -113,6 +109,7 @@ The out-of-the-box templates are as follows.
 | CDS entity |||||CDS entity - Default assigned |
 | Customized ||||| Customized notification template |
 | Sentiment ||||| Sentiment threshold alert - supervisor |
+|Voice|Voice call - consult - default|Voice call - incoming authenticated - default|Voice call - incoming unauthenticated - default|Voice call - transfer - default|Voice call - supervisor assign - default|
 |||||||
 
   > [!Note]
@@ -236,7 +233,7 @@ As an administrator, you need to customize the notification template to show the
 
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
-[Associate templates with work streams](associate-templates.md)  
+[Associate templates with workstreams](associate-templates.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

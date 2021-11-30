@@ -1,10 +1,10 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 10/05/2020
+ms.date: 11/15/2021
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -15,9 +15,18 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-knowledgearticle
+ - D365-UI-form
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement 
 ---
 
 # Configure knowledge management
+
+## Introduction
 
 A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in Dynamics 365 Customer Service.
 
@@ -26,76 +35,117 @@ A comprehensive knowledge base is a key to increased customer satisfaction and i
   
 After knowledge management is set up, users will be able to:  
   
-- Search for relevant KB articles right from Dynamics 365 Customer Service as they're working on a record.  
+- Search for relevant knowledge base articles from Customer Service while they're working on a record.  
   
-- See the content of the KB article inline, including images and videos.  
-  
-- Give timely and consistent information to customers when working on their cases by using actions like opening the article and sharing the information or emailing the article link to customers.   
+- Set up a search logic and search filters to get only the required knowledge articles, thereby providing timely and consistent information to customers while working on their cases.
+
+- Use smart assist to receive AI suggestions on related knowledge articles and similar cases.
+
+- See the content of the knowledge base article inline, including images and videos.
 
 > [!NOTE]
 > With the latest release of Dynamics 365 Customer Service app, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience.
-  
+
+## Setup overview
+
+You can set up knowledge management either on the Customer Service Hub or manually for a model-driven app.
+
+- [Set up knowledge management (Customer Service Hub)](#set-up-knowledge-management-customer-service-hub)
+- [Set up knowledge management settings page manually for a model-driven app](#set-up-knowledge-management-settings-page-manually-for-a-model-driven-app)
+
+After you have configured knowledge management on your app, you must also set up the various other aspects of knowledge management, based on your organizational requirements, such as:
+
+- [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
+- [Knowledge article templates](create-templates-knowledge-article.md#knowledge-article-templates)
+- [Set up AI suggestions for article keywords and description (preview)](#set-up-ai-suggestions-for-article-keywords-and-description-preview)
+- [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub)
+
 ## Set up knowledge management (Customer Service Hub)
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
   
-1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Settings**.
+1. In the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
   
 2. In the **Knowledge Base Management Settings** wizard, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
 
   
 3. In the **Support Portal Connection** section, enter the following:  
   
-   - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.  
+   - **Use an external portal**. You can integrate an external portal to publish knowledge articles. If your organization uses one, select this check box.  
 
-        Set the toggle to **Yes** to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No** to share the article content inserted in the email body. If you choose **Yes**, provide the **URL format**.
+        Set the toggle to **Yes** to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No** to share the article content inserted in the email body. If you select **Yes**, provide the **URL format**.
   
-   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: 
+   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format:
         </br> </br> *https://\<support portal URL>/knowledgebase/article/{kbnum}* 
   
         The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   
-4. Select **Save**.  
+4. In the **Knowledge articles feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
 
-## Set up knowledge management (Customer Service app)
+5. In the **Knowledge articles search filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to personalize the search filters, then set the **Allow agents to personalize the knowledge articles search filters** toggle to **Yes**.
 
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
-  
-2. Go to **Settings** > **Service Management**.
-  
-3. Under **Knowledge Base Management**, select **Embedded Knowledge Search**.  
-  
-4. In the **Knowledge Base Management Settings** wizard, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
-  
-5. Under **Knowledge Source**, in the **Knowledge Solution** field, select the knowledge solution.  
-  
-6. In the **Support Portal Connection** section, enter the following:  
-  
-   - **Use an external portal**. You can integrate an external portal for publishing knowledge articles. If your organization uses one, select this check box.
+6. In the **Knowledge articles authoring language** section, set the **Set default knowledge authoring language for your users** to **Yes**.
+   * If you want to set the default knowledge authoring language for your organization, then search and select a language in the **Select a language** field and then set the **Use organization’s UI language** toggle to **Yes**.
+   * If you also want to allow users to set their default knowledge authoring language in the personalization option, then set the **​Allow users to set default knowledge authoring language** toggle to **Yes**​. More information: [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization).
 
-        Set the toggle to **Yes** to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No** to share the article content inserted in the email body.  If you choose **Yes**, provide the **URL format**.
-  
-   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: </br> </br> *https://\<support portal URL>/kb/{kbnum}*  
-  
-        The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
-  
-7. Select **Next**.  
-  
-8. If you’ve specified the details correctly, the page shows the connection details for Dynamics 365 Customer Service. Select **Finish** to complete the setup.  
+7. In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal).
+
+8. In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles).
+
+9.  In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic).
+
+10. Select **Save**.  
+
+## Set up knowledge management settings page manually for a model-driven app
 
 > [!NOTE]
-> Duplicate detection rules don't work on the Knowledge Article entity.
+> The embedded knowledge search control is deprecated in the web client. You must use the Knowledge Settings page in Unified Interface.
 
+ If you are using the custom model-driven app, you need to manually update your sitemap with the Knowledge Settings page. To update the sitemap:
+ 
+ 1. Select your custom app.
+ 
+ 2. Select **Open in app designer**.
+ 
+ 3. Select **Site Map**.
+  
+ 4.	Select **Add > Subarea** to create a new sub area for your area.
+ 
+ 5. In the **Properties > SUB AREA** section, provide the following information:
+    * Type: Select **URL**. 
+    * URL: Enter  ```/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings```
 
-## Enable feedback control
+## Set up AI suggestions for article keywords and description (preview)
 
-This option allows users to provide feedback on knowledge articles opened from knowledge search control. 
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
 
-1. In the Customer Service Hub site map, go to **Service Management** and select **Knowledge Base Management** > **Settings**. 
+You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description-preview).
 
-2. In the **Knowledge Articles Feedback** section, set **Enable users to provide feedback on knowledge articles from search control** to **Yes**.
+## Set up knowledge search logic
 
-To know more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
+If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. If you search for Contoso Coffee, the search results will show articles that have either "Contoso" or "Coffee", as seen in the following example:
+
+- Article 1: Contoso machine repair
+- Article 2: Coffee powder quality
+- Article 3: Contoso coffee order price
+- Article 4: Coffee machine order for Contoso
+- Article 5: Espresso coffee machine troubleshooting
+
+You can enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords that you used in the search. If you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee" as seen in the following example:
+
+- Article 1: Contoso coffee order price
+- Article 2: Coffee machine order for Contoso
+
+To set up the knowledge search logic:
+
+1. In the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
+
+2. In the **Knowledge search logic** section, set **Set search mode as all** toggle to **Yes**.
+
+3. Select **Save**.
+
+More information: [Search across table data using Dataverse search](/powerapps/developer/data-platform/webapi/relevance-search#searchmode-any--all-optional)
 
   
 ### See also  
