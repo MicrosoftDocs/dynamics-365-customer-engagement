@@ -1,6 +1,6 @@
 ---
 title: "Unified Service Desk system requirements | MicrosoftDocs"
-description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk."
+description: "Describes the supported dependent and optional components that you need to install and use Unified Service Desk."
 ms.date: 09/07/2021
 ms.topic: get-started-article
 author: mh-jaya
@@ -22,11 +22,11 @@ This topic provides information about the system requirements for installing the
  The following table lists the minimum and recommended hardware requirements when you run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
 
 
-| Component |                                           Minimum                                           |                                                                                                                                                                            Recommended                                                                                                                                                                            |
-|-----------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Processor | x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor |                                                                                                                                    x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor                                                                                                                                    |
-|  Memory   |                                      ^4-GB RAM or more                                       |                                                                                                                                                                         8-GB RAM or more                                                                                                                                                                          |
-| Hard disk |                            \*1.5 GB of available hard disk space                            | 12 GB of available hard disk space: 2 GB of available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files and 10 GB additional available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client log files<br /><br /> 7200 RPM or more |
+| Component    | Minimum      | Requirement  |
+|-----------|-----------------|--------------|
+| Processor | x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor |   x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor     |
+|  Memory   |   ^4 GB RAM or more            |  8 GB RAM more    |
+| Hard disk |  \*1.5 GB of available hard disk space             | 12 GB of available hard disk space: 2 GB of available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files and 10 GB additional available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client log files<br /><br /> 7200 RPM or more |
 
  ^The minimum memory is for running basic scenarios. The actual memory required for Unified Service Desk increases with the complex configurations and custom development (UI experience).
  
@@ -37,8 +37,8 @@ This topic provides information about the system requirements for installing the
 
  To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, the following is required:  
 
-| Requirement | Recommended Version | Supported Version|
-|---------------------------|---------------------------|-------------------------------------|
+| Requirement | Recommended Version | Supported Version |
+|-------------|---------------------|------------------ |
 | Operating system | <ul><li>[!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li></ul> |<ul><li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
 | Microsoft .NET Framework | <ul><li>[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)</li></ul> |  |
 | Windows Identity Foundation  | <ul><li> Windows Identity Foundation 3.5 (installed during Unified Service Desk Setup if missing) </li></ul> |  |
