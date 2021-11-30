@@ -121,31 +121,42 @@ However, either the **Title** or **Content** fields&mdash;or any other correspon
 
 The selected keywords and description appear in the **Keywords** and **Description** fields of the knowledge article form.
 
-
-
-
 ## Personalize your language preferences for authoring knowledge articles
 
 If your administrator has enabled language personalization, you can select your preferred language when authoring knowledge articles.
+
 > [!NOTE]
-> Language settings apply only to knowledge articles that aren't created by converting a case. Converted knowledge articles are created in default language setting of your organization.
+> Language settings apply only to knowledge articles that aren't created by converting a case. Converted knowledge articles are created in the default language setting of your organization.
 
 1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
+
 2. Select the **Authoring** tab.
+
 3. Do one of the following:
+ 
    - Set **Use organization’s language value** to **Yes**.
-   - Select your preferred language from the drop-down list.
+   - Select your preferred language from the dropdown list.
+   
    > [!NOTE]
    > At any point, you can only either set the org language or select a language from the list.  
+
 4. Select **Save**.
+
    When you create a new knowledge article, the default language you selected is used.
+
 5. If you need to change the language for a specific article only, select the **Summary** tab, and then select your preferred language in the **Language** field.
+
 6. Select **Save**.
+
+
+
+
+
 
 
 ## Create knowledge articles using templates
 
-Knowledge authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
+Authors can use the templates to create knowledge articles quickly because the fields for the knowledge article are prepopulated according to the selected template. To create knowledge articles using templates:
  
 1. Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the Knowledge Manager, Customer Service Manager, or Customer Service Representative role.  
   
