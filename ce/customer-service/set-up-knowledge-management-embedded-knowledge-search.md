@@ -161,13 +161,15 @@ To set up the knowledge search logic:
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
-* On the Customer Service Admin Center (preview) site map, select **Experiences > Knowledge**.
-* On the **Knowledge** page, in the **Other Settings** section, select **Manage**.
+  * On the Customer Service Admin Center (preview) site map, select **Experiences > Knowledge**.
+  * On the **Knowledge** page, in the **Other Settings** section, select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-* On the Customer Service Hub site map, go to **Service Management**.
-* In **Knowledge Base Management**, select **Settings**.
+  * On the Customer Service Hub site map, go to **Service Management**.
+  * In **Knowledge Base Management**, select **Settings**.
+
+---
 
 2. In the **Knowledge search logic** section, set **Set search mode as all** toggle to **Yes**.
 
