@@ -50,7 +50,7 @@ After knowledge management is set up, users will be able to:
 
 You can set up knowledge management on the Customer Service Admin Center, Customer Service Hub, or manually for a model-driven app.
 
-- [Set up knowledge management (Customer Service Hub)](#set-up-knowledge-management-customer-service-hub)
+- [Set up knowledge management](#set-up-knowledge-management)
 - [Set up knowledge management settings page manually for a model-driven app](#set-up-knowledge-management-settings-page-manually-for-a-model-driven-app)
 
 After you have configured knowledge management on your app, you must also set up the various other aspects of knowledge management, based on your organizational requirements, such as:
@@ -71,13 +71,13 @@ After you have configured knowledge management on your app, you must also set up
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
-* On the Customer Service Admin Center (preview) site map, select **Experiences > Knowledge**.
-* On the **Knowledge** page, in the **Other Settings** section, select **Manage**.
+  * On the Customer Service Admin Center (preview) site map, select **Experiences > Knowledge**.
+  * On the **Knowledge** page, in the **Other Settings** section, select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-* On the Customer Service Hub site map, go to **Service Management**.
-* In **Knowledge Base Management**, select **Settings**.
+  * On the Customer Service Hub site map, go to **Service Management**.
+  * In **Knowledge Base Management**, select **Settings**.
 
 ---
   
