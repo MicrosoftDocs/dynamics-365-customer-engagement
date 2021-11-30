@@ -203,10 +203,10 @@ In legacy workflows, a lookup field can be mapped with multiple expressions wher
 **a. Unified Interface view:** In Flow, the Customer field will only have: **Regarding(Email)** regardless of whether it is null.
 
 
-**b. Web client view:** In the workflow, the Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}** 
+**b. Web client view:** In the workflow, the Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}**
 
 
-![Web view.](media/faq-arc-sla-web-client-18.png "Web view")
+![Web view for Regarding field.](media/faq-arc-sla-web-client-18.png "Web view for Regarding field")
 
 > [!Important] 
 > 

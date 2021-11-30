@@ -21,11 +21,11 @@ ms.custom:
 
 ## Overview
   
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports Unified Interface apps. This lets you to upgrade to the latest version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to deliver intelligent and personalized experience to the rising expectations of your customers.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports Unified Interface apps. It lets you upgrade to the latest version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to deliver intelligent and personalized experience to the rising expectations of your customers.
 
-If you are using the legacy web client with all the configurations needed for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you will want to know how to use all the configurations in the Unified Interface App. To tackle the issue of configuring in the Unified Interface App, we have introduced a tool, **[!INCLUDE[pn-web-client-unified-interface-configuration-migration-assistant](../../includes/pn-web-client-unified-interface-configuration-migration-assistant.md)]**, for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+If you are using the legacy web client with all the configurations needed for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you'll want to know how to use all the configurations in the Unified Interface App. To tackle the issue of configuring in the Unified Interface App, we have introduced a tool, **[!INCLUDE[pn-web-client-unified-interface-configuration-migration-assistant](../../includes/pn-web-client-unified-interface-configuration-migration-assistant.md)]**, for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-**[!INCLUDE[pn-web-client-unified-interface-configuration-migration-assistant](../../includes/pn-web-client-unified-interface-configuration-migration-assistant.md)]** for Unified Service Desk, a tool that helps you to seamlessly migrate your existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from the legacy web client to Unified Interface App.
+**[!INCLUDE[pn-web-client-unified-interface-configuration-migration-assistant](../../includes/pn-web-client-unified-interface-configuration-migration-assistant.md)]** for Unified Service Desk, a tool that helps you to seamlessly migrate your existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from the legacy web client to the Unified Interface app.
 
 ## How Web Client - Unified Interface Migration Assistant helps
 
