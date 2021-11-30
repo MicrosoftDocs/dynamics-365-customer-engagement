@@ -1,6 +1,6 @@
 ---
 title: "Migrate configurations from Web Client to Unified Interface | MicrosoftDocs"
-description: "Learn about the three-step process for migrating your Unified Service Desk configurations from Web Client to Unified Interface."
+description: "Learn about the three-step process for migrating your Unified Service Desk configurations from the legacy web client to Unified Interface."
 ms.date: 08/17/2018
 ms.topic: article
 author: mh-jaya
@@ -16,39 +16,39 @@ ms.custom:
   - dyn365-admin
 ---
 
-# How to migrate Unified Service Desk configurations from Web Client to Unified Interface
+# How to migrate Unified Service Desk configurations from the legacy web client to Unified Interface
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from Web Client to Unified Interface is a three-step process.
+The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from the legacy web client to Unified Interface is a three-step process.
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
 - **Step 2:** Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in Microsoft Dataverse.
 
-- **Step 3:** Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
+- **Step 3:** Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface app using the Configuration Migration Tool (DataMigrationUtility.exe).
 
 This diagram illustrates the flow of the migration:
 > [!div class="mx-imgBorder"]
 > ![Migration Steps.](../media/migration-steps-web-client-unified-interface-migration-assistant.PNG "Migration Steps") 
 
-1. **Web Client** </br></br> The Web Client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations. 
+1. **Web Client** </br></br> The legacy web client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations. 
 
-2. **Web Client - Unified Interface Migration Assistant** </br></br> The tool to fetch and migrate the Web Client configurations to **USD_UI_Configurations** folder, which contains the **Data** and **WebResources** zip folders. If you have **RunXrmCommand** actions in Web Client configurations, the migration assistant migrates the **RunXRMCommand** actions as a web resource and you can find them in the **USDWebResources** folder under the **USD_UI_Configurations** folder.
+2. **Web Client - Unified Interface Migration Assistant** </br></br> The tool to fetch and migrate the legacy web client configurations to **USD_UI_Configurations** folder, which contains the **Data** and **WebResources** zip folders. If you have **RunXrmCommand** actions in Web Client configurations, the migration assistant migrates the **RunXRMCommand** actions as a web resource and you can find them in the **USDWebResources** folder under the **USD_UI_Configurations** folder.
 
 3. **USD_UI_Configurations** </br></br> The configurations are migrated to the **USD_UI_Configurations** zip folder that contains the **Data** and/or **WebResources** zip folder.
 
-4. **Configuration Migration Tool** </br></br> The Configuration Migration Tool lets you to import the **Data** zip folder and deploy it to the target Unified Interface App.
+4. **Configuration Migration Tool** </br></br> The Configuration Migration Tool lets you to import the **Data** zip folder and deploy it to the target Unified Interface app.
 
 5. **Unified Interface apps** The target instance to which you want to deploy the configurations.
 
-## Step 1: Use migration assistant to fetch and migrate the Web Client configurations
+## Step 1: Use migration assistant to fetch and migrate the legacy web client configurations
 
 1. Run **UCMigrationTool.exe**.
 
 2. In the introduction screen, select **Continue**.
 
-3. In the **Login** screen, provide authentication details to connect to the instance from where you want to fetch and migrate the configurations. If you have multiple organizations, and want to select the organization where you want to fetch and migrate the configurations, select the **Display list of available organizations** check box, and select **Login**.</br>
+3. In the **Login** screen, provide authentication details to connect to the instance from where you want to fetch and migrate the configurations. If you have multiple organizations, and want to select the organization where you want to fetch and migrate the configurations, select the **Display list of available organizations** checkbox, and select **Login**.</br>
 ![Migration Assistant Login screen.](../media/usd-migration-assistant-login.PNG "Migration Assistant Login Screen")
 
 4. In the **Export Configurations** screen, select **Export**.</br>
@@ -73,7 +73,7 @@ The migration assistant displays the **Download Completed**.</br>
 
 ## Step 2: Import the USDWebResources folder
 
-The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Interface App, import the web resources as a solution in Dataverse.
+The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Interface app, import the web resources as a solution in Dataverse.
 
 To import the **USDWebResources** zip folder, follow these steps:
 
@@ -96,7 +96,7 @@ You can see the **USDWebResources** in the solutions list.</br>
 
 For more information, see [Import, update, and export solutions](/dynamics365/customer-engagement/customize/import-update-export-solutions)
 
-## Step 3: Use Configuration Migration Tool to import and deploy the configurations on Unified Interface App
+## Step 3: Use Configuration Migration Tool to import and deploy the configurations on Unified Interface app
 
 **Prerequisites:** Download the Configuration Migration tool (DataMigrationUtility.exe). To download the tool, see [Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget).
 
@@ -121,7 +121,7 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 
 ## See also
 
-[Migration of Unified Service Desk configurations from Web Client to Unified Interface apps](overview-migration-assistant.md)  
+[Migration of Unified Service Desk configurations from legacy web client to Unified Interface apps](overview-migration-assistant.md)  
 
 [Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)  
 

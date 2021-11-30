@@ -1,7 +1,7 @@
 ---
 title: "Email bounce categories (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A comprehensive list of email bounce categories and definitions for Dynamics 365 Marketing."
-ms.date: 06/29/2021
+ms.date: 10/22/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -36,6 +36,7 @@ To identify the cause of bounced campaign emails, Dynamics 365 Marketing include
 - connection-error  
 - policy-related  
 - message-expired  
+- suppression-list  
 - other
 
 ## Bounce category definitions
@@ -73,6 +74,8 @@ Such errors don't often occur. We monitor cases related to not trusted domains a
 Policy-related errors may also indicate that the recipient’s server can't identify the validity of the sending email address. This could occur when the “from” email address doesn't exist or doesn't accept incoming emails. Such incidents are rare and can be fixed by using an existing sending email address.
 
 **message-expired** – This category results when, within the lifecycle of the email message, it was not able to be delivered to the recipient because of sending limitations or transient errors. If this error occurs frequently, you should open a support ticket to resolve it.
+
+**suppression-list** - This category signifies errors resulting from the operation of internal suppression lists. The Marketing app uses suppression lists to protect users' sending reputations. Learn more: [How Dynamics 365 Marketing uses suppression lists](suppression-lists.md).
 
 **other** – This category stands for uncategorized or atypical errors. We review and categorize such errors regularly.
 

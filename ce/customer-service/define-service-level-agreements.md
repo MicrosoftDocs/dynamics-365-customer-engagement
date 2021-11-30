@@ -1,7 +1,7 @@
 ---
-title: "Define service-level agreements (Dynamics 365 Customer Service) | MicrosoftDocs"
+title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 04/05/2021
+ms.date: 10/21/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,9 +15,12 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 ---
 
 # Define service-level agreements
+
+## Introduction
 
 Service-level agreements (SLAs) enable businesses to track support policies and ensure customers are being supported per the support policy to which they are entitled. Businesses use SLAs to govern support products that customers either receive as part of their purchase or add on to their purchase. SLAs include policy details such as how quickly a customer is entitled to receive support, how many support requests a customer can make, and how long after purchases a customer can be supported as part of the agreement.  
 
@@ -26,9 +29,6 @@ Define the level of service or support that your organization agrees to offer to
 You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
 
 Alternatively, you can set up a default SLA for the organization.  
-
-> [!NOTE]
-> With the latest release of Customer Service, you can access and manage all service management tasks from the Customer Service Hub site map except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three settings, use **Service Management** under **Settings** in the Customer Service app.
 
 ## Configure SLAs in Customer Service Hub
 
@@ -444,11 +444,11 @@ When a record is created, the SLA is applied (either by default or through entit
 
 When the SLA is applied again, all of the SLA items are evaluated based on the updated record fields, and failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.
 
+In Unified Interface, by default, when the SLA moves to a terminal status (non-compliant or succeeded), the "applicable when" and "success criteria" will not be evaluated again on the SLA. If you want the SLA to be reevaluated, you can enable the reevaluation setting in the service configuration settings. More information: [Enable SLA recalculation](enable-sla-recalculation.md)
 
 > [!NOTE]
 >
-> - In Unified Interface, after the SLA moves to a terminal status, which is non-compliant or succeeded, the applicable when and success criteria will not be evaluated again on the SLA.
-> - You can only have one SLA running on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
+> Only one SLA can be run on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
 
 ## Apply SLAs on demand<a name="apply-sla-on-demand"></a>
 
@@ -484,7 +484,14 @@ We recommend that you perform the following steps to upgrade a solution:
 2. Upgrade your solution.
 3. After the solution has been successfully upgraded, activate the SLAs as required.
 
-### See also  
+## Limitations
+
+The following limitations apply to the Unified Interface apps:
+
+- The "applicable when" and "success conditions" aren't supported and won't work as expected if they are configured for related entities.
+- Multiple SLA items can't be defined with the same "applicable when" criteria and different "success conditions" for an SLA.
+
+### See also
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](troubleshoot-sla-issues.md)  

@@ -1,6 +1,6 @@
 ---
-title: Special field properties for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand the special field properties for main forms
+title: "Special field properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "All form fields in Customer Engagement (on-premises) share common properties, but some fields have additional properties such as related records filtering."
 Keywords: Main forms; Special field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 ms.author: matp
@@ -14,7 +14,7 @@ applies_to:
   - "powerapps"
 ms.assetid: 6ad7e43c-b6a1-48c4-9dfb-ed830142a841
 ---
-# Overview of special field properties
+# Overview of the special field properties of a form
 
 All fields have the properties listed in [Common field properties](../customize/common-field-properties-legacy.md), but certain fields have additional properties, such as this entitlement field that can be opened from the main case form.  
 

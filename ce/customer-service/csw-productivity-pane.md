@@ -1,7 +1,7 @@
 ---
 title: Overview of productivity pane | MicrosoftDocs
 description: Overview of productivity pane in Dynamics 365 Customer Service workspace.
-ms.date: 10/20/2020
+ms.date: 11/09/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -37,17 +37,17 @@ The productivity pane has two modes: expanded and collapsed. Depending on which 
 
 **Expanded mode**:
 
-![Productivity pane expanded view.](media/csw-productivity-pane-expanded-mode.png "View of the productivity pane in expanded mode")
+![Productivity pane expanded view.](media/csw-productivity-pane-expanded-mode.png "View of the productivity pane in expanded mode.")
 
 **Collapsed mode**:
 
-![Productivity pane collapsed view.](media/csw-productivity-pane-collapsed-mode.png "View of the productivity pane mode in collapsed mode")
+![Productivity pane collapsed view.](media/csw-productivity-pane-collapsed-mode.png "View of the productivity pane mode in collapsed mode.")
 
 Two things to keep in mind about the productivity pane modes:
 
 The productivity pane stays collapsed for entities that don't have productivity controls configured to use it. For example, if you open an account record, which typically doesn't have smart assist or knowledge enabled for it, or if agent scripts or macros aren't enabled by your administrator, the pane remains collapsed. 
 
-The productivity pane places focus on the first control that has data for any entity. Typically, the order is smart assist, agent scripts and macros, and then knowledge controls. For example, if you open an account record that has only scripts configured, when the record opens, the productivity pane expands and the focus is on the agent scripts and macros. 
+The productivity pane places focus on the first control that has data for any table. Typically, the order is smart assist, agent scripts and macros, and then knowledge controls. For example, if you open an account record that has only scripts configured, when the record opens, the productivity pane expands and the focus is on the agent scripts and macros. 
 
 ## Smart assist
 

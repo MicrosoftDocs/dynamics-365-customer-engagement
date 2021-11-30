@@ -1,7 +1,7 @@
 ---
 title: Configure default knowledge article authoring language | MicrosoftDocs
 description: Learn how to configure a default language for authoring knowledge articles in Dynamics 365 Customer Service
-ms.date: 04/05/2021
+ms.date: 08/17/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -14,11 +14,24 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-knowledgearticle
+ - D365-Entity-msdyn_knowledgearticletemplate
+ - D365-UI-form
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement 
 ---
 
 # Set a default knowledge article authoring language for your organization
 
 There may be times when your agents prefer to author knowledge articles in a language other than the language that is set for your organization. You can set a language for your organization, but then also give agents the ability to personalize it to their own choice. Agents can also change the language for different articles. Review the hierarchy as described in the table below.
+
+  > [!NOTE]
+  > The settings you configure for knowledge article authoring on the settings page won't apply when you create a knowledge article by converting a case. In such cases, the knowledge articles are created in your organization's default language.
+
+Admin settings for KA authoring language (Knowledge settings page)
 
 |Hierarchy |Personalization preference |Configurations allowed |
 |-------------------|-------------------|--------------|

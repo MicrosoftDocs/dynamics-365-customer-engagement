@@ -6,15 +6,6 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope: 
-  - D365-App-msdyn_salespro
-  - D365-Entity-opportunity
-  - D365-Entity-quote
-  - D365-Entity-salesorder
-  - D365-Entity-invoice
-  - D365-UI-*
-  - Dynamics 365
-  - Sales
 ---
 
 # Enable or disable PDF generation from sales records (Sales Professional)
@@ -31,7 +22,7 @@ The PDF generation capability allows your users to generate PDF files directly f
 3. On the **Convert to PDF** page, select the entities for which you want to enable the PDF generation capability.
 
     > [!div class="mx-imgBorder"]
-    > ![Convert to PDF settings.](../sales-enterprise/media/convert-to-pdf-setting-enhanced.png "Convert to PDF settings")
+    > ![Convert to PDF settings.](../sales/media/convert-to-pdf-setting-enhanced.png "Convert to PDF settings")
 
     1. To see only the entities on which PDF generation is currently enabled, set the **Show only enabled entities** option to **Yes**.  
     2. To filter the list of entities and find a specific entity on which you want to enable PDF generation, use the **Filter by entity name** field. For example, to enable PDF generation on the Opportunity entity, enter **opp** and you'll see the entity name list filtered to show the entity names starting with *opp*.  

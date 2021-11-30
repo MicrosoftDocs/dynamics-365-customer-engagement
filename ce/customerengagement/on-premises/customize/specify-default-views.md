@@ -1,6 +1,6 @@
 ---
-title: "Specify a default view with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to specify a default view"
+title: "Set a default view in Dynamics 365 Customer Engagement (on-premises)"
+description: "Set any public view as the default view for an entity. Unless someone has pinned a different view as their personal default, they will see the view you set."
 ms.custom: 
 ms.date: 01/09/2019
 ms.reviewer: 
@@ -20,13 +20,13 @@ search.audienceType:
   - customizer
 
 ---
-# Specify a default view
+# Set a default view for an entity
 
 <a name="BKMK_SetDefaultView"></a>   
 
 Unless someone has ‘pinned’ a different view in your app as their personal default, they will see the default view that you specify as the app maker. You can set any of the public views as the default view for an entity.  
   
-## Set the default view for an entity  
+## Set the default view
   
 1.  Navigate to **Views** as described in [Access view definitions](../customize/accessing-view-definitions.md).  
   

@@ -1,6 +1,6 @@
 ---
-title: "Change navigation within a form with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to change navigation within a form with Dynamics 365 Customer Engagement (on-premises)
+title: "Create custom apps in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about creating custom apps in Customer Engagement (on-premises) and the components you can include such as forms, views, charts, and dashboards."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
 
 ---
 
-# Customize or create apps
+# Create and customize apps
 
 
 

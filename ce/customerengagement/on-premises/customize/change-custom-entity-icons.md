@@ -1,6 +1,6 @@
 ---
-title: "Change custom entity icons in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to change the icon for a custom entity
+title: "Change custom entity icons in Dynamics 365 Customer Engagement (on-premises)"
+description: "Custom entities are automatically assigned the same default icon. To help users differentiate between entities, follow these steps to change the icons."
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -21,7 +21,7 @@ search.audienceType:
   - customizer
 
 ---
-# Change icons for custom entities
+# Change the icon for a custom entity
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Change model-driven app custom entity icons](/powerapps/maker/model-driven-apps/change-custom-entity-icons)
 

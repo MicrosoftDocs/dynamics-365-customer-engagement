@@ -1,6 +1,6 @@
 ---
-title: "Business process flows overview Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to create and add business process flows to your apps
+title: "Use business process flows in Dynamics 365 Customer Engagement (on-premises)"
+description: "Make sure people follow the same steps and enter data consistently by creating business process flows. Learn more about what they do and how you can use them."
 ms.custom: 
 ms.date: 02/21/2020
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Business process flows overview
+# Overview of working with business process flows
 
 *This topic applies to Dynamics 365 Customer Engagement (on-premises). If you are an online user, see [Business process flows overview](/power-automate/business-process-flows-overview) in the Power Automate docs.*
 

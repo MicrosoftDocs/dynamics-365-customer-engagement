@@ -9,7 +9,7 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
   - D365-Entity-list
   - D365-UI-*
   - Dynamics 365
@@ -37,7 +37,7 @@ Add all items to your campaign that your need in this marketing context. Usually
 
 3. Select the type of record you want in the **Look Up Records** dialog box, in the **Look for** list.  
 
-4. Type the first few letters of the name of the record to narrow your search in the **Search** box, and then select the Search icon ![Search icon.](../sales-enterprise/media/search-icon.png "Search icon").  
+4. Type the first few letters of the name of the record to narrow your search in the **Search** box, and then select the Search icon ![Search icon.](../sales/media/search-icon.png "Search icon").  
 
 5. Select the check boxes for the records that you want to add in the list of records that appears, select **Add**, and then select **OK**.  
 

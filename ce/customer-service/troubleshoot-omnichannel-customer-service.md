@@ -1,13 +1,13 @@
 ---
-title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-ms.date: 06/29/2021
+title: "Troubleshoot issues in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Use this topic to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
+ms.date: 09/01/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# Troubleshoot Omnichannel for Customer Service
+# Troubleshoot issues in Omnichannel for Customer Service
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -23,7 +23,7 @@ For security, reliability, and performance reasons, Omnichannel for Customer Ser
 
 ### Resolution
 
-Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Select the region in the upper-right corner and select a new region from the drop-down list.
+Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Select the region in the upper-right corner and select a new region from the dropdown list.
 
    > [!div class=mx-imgBorder]
    > ![Power Platform admin center change region.](media/oc-region-menu.png "Power Platform admin center change region")
@@ -174,90 +174,6 @@ Omnichannel solutions are installed in your environment when you receive a new t
 
 These errors occur because though the solutions are already installed in your environment, they need to be activated before you can start using them. To provision the solutions, perform the steps outlined in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 
-## Entity routing configuration fails
-
-### Issue 1
-
-One of issues is that **Entity Records Distribution Flow** connection is not authorized. Due to this issue, you can see a business process error.
-
-**Unable to complete the operation due to an error. Try again later. If the issue persists, contact Microsoft support.**
-
-   > [!div class=mx-imgBorder]
-   > ![Business process error due to unauthorized connection.](media/business-process-error1.PNG "Business process error due to unauthorized connection")
-
-### Resolution
-
-Go to Entity Records Distribution Flow and authenticate the connection.
-
-To resolve the issue, perform steps 1 through 9 in the [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow) topic.
-
-### Issue 2
-
-**Entity Records Distribution Flow** is not updated automatically. Due to this issue, you can't create an entity records channel and the system shows a business process error.
-
-**The operation failed due to an incorrect configuration in Entity Records Distribution Flow. Ensure the Entity Records Distribution Flow isn't deleted or renamed.**
-
-   > [!div class=mx-imgBorder]
-   > ![Business process error due to incorrect configuration for Entity Records Distribution Flow.](media/business-process-error2.PNG "Entity Records Distribution Flow business process error")
-
-In Power Automate, you might see either **Cases Work Distribution Flow** or **Entity Records Distribution Flow**.
-
-### Resolution
-
-To work around the issue, you must reset the Flow. To reset the Flow, follow these steps.
-
-1. Sign in to the Omnichannel Administration app.
-
-2. Select **Entity Records** under **Channels**.
-
-3. Select the **New** to create a new entity record channel.
-
-4. Select **Flow** menu in the command bar, and then select **See your flows**. Power Automate opens in a new browser window.
-
-5. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
-
-6. Select **New**. and then select **Flow**. A new **Flow** is displayed.
-
-7. Type **Manually trigger a flow** in the search box, and then select the option. The flow component is added.
-
-8. Select **New step**. The **Choose an action** flow component is added.
-
-9. Type **Common Data Service (current environment)** in the search box, and then select the option. The flow component is added.
-
-10. Select **Perform an unbound action** from the **Actions** tab. The action is added in the component.
-
-11. Type **msdyn_ResetWorkDistributionFlow** in the **Action Name** field.
-
-    > [!Note]
-    > Don't change the **ShouldMaintainCustomizations** value from **No**.
-
-12. Select **Save**.
-
-13. Select back arrow button in the Flow page.
-
-    > [!Note]
-    > Do not select browser window back button.
-
-14. Select **Run** from the command bar. The **Run flow** pane is displayed.
-
-15. Select **Run Flow** and then select **Done**. You can see the flow will run and succeeds.
-
-After you reset the flow, go to Omnichannel Administration, where you saw the error message. Select **OK**, and then save the record. The entity record channel is saved.
-
-Even though the Flow is reset, it doesn't update the name if it is **Case Work Distribution Flow**.
-
-To rename the Flow, select **Edit**, type the name of the flow as **Entity Record Distribution Flow** in the **Flow name** field, and select **Save**.
-
-### Issue 3
-
-There may be an issue with customizations in the **Entity Records Distribution Flow**.
-
-### Resolution
-
-Go to **Entity Records Distribution Flow** and review your customization made to the flow. 
-
-Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
-
 ## Unable to deploy custom solution containing Agentscript solution
 
 ### Issue
@@ -305,46 +221,6 @@ To configure ending a bot conversation, perform the following steps:
 
 Additionally, you can configure automated messages in Omnichannel for Customer Service that will be displayed to the customer after the conversation ends.
 
-## Entity Records are not routed and distributed to agents
-
-Entity Records routing and distribution may not work due to certain reasons. Validate the following issues and resolutions in the order given below.
-
-### Issue 1
-
-The routing rule is configured incorrectly or not activated.
-
-### Resolution
-
-Verify the routing rule set is configured correctly and ensure to activate it. To learn more, see [Create routing rules](entity-channel.md#create-routing-rules).
-
-### Issue 2
-
-The Entity Records Distribution Flow is not updated with latest workstream information.
-
-### Resolution
-
-If you create or edit (update the name of the workstream) an entity record workstream, you must update Entity records Distribution Flow. To learn more, see [Update entity records distribution flow](multiple-ws-entity-record-routing.md#step-2-update-entity-records-distribution-flow).
-
-### Issue 3
-
-There is an error and due to which Entity Records Distribution Flow was not triggered.
-
-### Resolution
-
-Check if the flow has triggered or if there was any error in the trigger of the Flow. You can get this information from the Power Automate home page or Entity Records Distribution Flow's run history.
-
-To work around the issue, reset the flow. To learn more, see [Reset the flow](#resolution-1).
-
-If resetting the flow doesn't resolve the issue, contact Microsoft support.
-
-### Issue 4
-
-The flow triggered successfully but the action was not executed successfully.
-
-### Resolution
-
-Reach out to Microsoft support for further investigation.
-
 ## Chat widget icon does not load on the portal
 
 ### Issue
@@ -371,7 +247,7 @@ A message stating **Sorry, we're not able to serve you at the moment** is shown 
 
 As an administrator, make sure of the following:
 
-- Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichanne admin center](queues-omnichannel.md#create-a-queue-for-unified-routing)
+- Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichannel admin center](queues-omnichannel.md#create-a-queue-for-unified-routing)
 
 - For the associated workstream, check that the **Allowed Presence** option has values in the **Work distribution** area. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
@@ -592,7 +468,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 - To sync the configurations, remove the channel and roles, add them again and save the record.
 
    1. Sign in to the Dynamics 365 apps.
-   2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
+   2. Select the dropdown button on Dynamics 365 and select **Channel Integration Framework**.
    3. Select the **Omnichannel** record from the list.
    4. Remove **Omnichannel for Customer Service** from the **Select Unified Interface Apps for the Channel** section.
    5. Add **Omnichannel for Customer Service** again in the **Select Unified Interface Apps for the Channel** section.
@@ -690,6 +566,31 @@ Conversation widget becomes blank while swapping between browser tabs in Google 
 
 Upgrade your browser version as per the system requirements of Dynamics 365 Channel Integration Framework version 2.0. To learn more, see [System requirements](channel-integration-framework/v2/system-requirements-channel-integration-framework-v2.md).
 
+## After Omnichannel for Customer Service is provisioned, I get an authentication error on the agent dashboard. <a name="provision"></a>
 
+### Issue
 
+The following error message is displayed on the agent dashboard after I provision Omnichannel for Customer Service.
+
+**Something went wrong while authenticating—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.**
+
+### Resolution
+
+The issue occurs when you rename the org URL but don’t update the channel URL after you've provisioned Omnichannel for Customer Service. 
+
+1. Go to [https://make.powerapps.com](https://make.powerapps.com).
+
+2. On the left pane, select **Apps**, and then from the applications list, select **Omnichannel for Customer Service**. 
+3. Select the ellipsis (...) button, scroll down the list, and select **App profile manager**.
+
+4. Select the administrator app (either Customer Service workspace or Omnichannel Administration), and then select **Channel provider**.
+   The Active Channel Providers list is displayed.
+
+5. Do the following:
+    - Make sure that the omnichannel channel provider record is listed and is in the active state. 
+     If the omnichannel record is not active, select the record, and then select **Activate** on the menu bar.
+    - On the **General** tab of the omnichannel record, make sure that the **Channel URL** field includes the org information as shown in the following example: <br>
+   `https://oc-cdn-ocprod.azureedge.net/convcontrol/ChatControl.htm?uci=true&clientName=zfp&cloudType=Public&env=prod&ocBaseUrl=https://org749544d7-crm.omnichannelengagementhub.com&ucilib=https:// <org>.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`
+
+ 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

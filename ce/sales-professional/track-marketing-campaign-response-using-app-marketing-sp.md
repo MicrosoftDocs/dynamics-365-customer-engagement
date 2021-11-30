@@ -9,10 +9,10 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
-  - D365-App-msdyn_salespro
-  - D365-Entity-list
+  - D365-App-msdynce_salespro
   - D365-Entity-campaign
   - D365-Entity-campaignresponse
+  - D365-Entity-campaignactivity
   - D365-Entity-bulkoperation
   - D365-UI-*
   - Dynamics 365
@@ -39,7 +39,7 @@ Record the replies you get from potential customers in response to a specific ma
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-2. In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](../sales-enterprise/media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
+2. In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](../sales/media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
 3. On the navigation bar, select **Settings**, and then select **Administration**.
 

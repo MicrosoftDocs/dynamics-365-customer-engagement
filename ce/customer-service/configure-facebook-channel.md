@@ -1,7 +1,7 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
 description: "This topic provides steps to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service."
-ms.date: 04/09/2021
+ms.date: 10/12/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -12,15 +12,20 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+## Introduction
+
 Many customers use social messaging channels like Facebook Messenger for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved when they find time, unlike real-time channels like Chat for Dynamics 365 where the session ends when the chat window is closed.
 
 The Facebook channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
-**Prerequisites**: Following are the prerequisites before configuring the Facebook channel in Omnichannel for Customer Service:
+## Prerequisites
 
-1. Create a Facebook page and enable Messenger. More information: [Create and Manage a Page and Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
-2. Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
-3. Add Messenger and Webhooks to the Facebook application. More information: [Setting Up Your Facebook App](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/)
+Ensure the following prerequisites to configure the Facebook channel in Omnichannel for Customer Service:
+
+- Create a Facebook page and enable Messenger. More information: [Create and Manage a Page and Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
+- Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
+- Add Messenger and Webhooks to the Facebook application. More information: [Setting Up Your Facebook App](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/)
+- If you'll use a test environment, set up test accounts in Facebook so that agents can receive and send messages in Omnichannel for Customer Service.
 
 ## Configure a Facebook channel in Omnichannel admin center
 
@@ -47,17 +52,17 @@ To add the Facebook channel instance, you must configure the channel account by 
       - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. More information: [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates)
       - **Facebook message tag:** Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message.
 
-      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
+      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
 
       To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).  
    5. Review the **Summary** page, and select **Create**. The channel instance is configured.
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Optionally, you can add a bot; skip this step if your conversations are handled by human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot)
+7. Optionally, you can add a bot; skip this step if your conversations are handled by human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](create-workstreams.md#configure-context-variables)
+   - [Context variables](context-variables-for-bot.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
@@ -197,7 +202,7 @@ If a customer starts a conversation from the Facebook page and then later switch
 
 The agent receives the notification of the incoming conversation request. More information: [Use Facebook channel](facebook.md)
 
-Once the Facebook social profile is linked to a customer/contact record by the agent, subsequent Facebook conversations are linked to the customer records and the customer summary is populated.
+After the Facebook social profile is linked to a customer or contact record by the agent, subsequent Facebook conversations are linked to the customer records and the customer summary is populated.
 
 If the customer is not identified based on name, a new contact record can be created.
 

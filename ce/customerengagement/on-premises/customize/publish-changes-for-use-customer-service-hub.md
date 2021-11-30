@@ -1,6 +1,6 @@
 ---
-title: "Publish changes with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to publish changes made to an app"
+title: "Publish customizations to Dynamics 365 Customer Engagement (on-premises)"
+description: "Certain customizations need to be published before people can use them in the app. To do so, select Publish All Customizations in the solution explorer."
 ms.custom: 
 ms.date: 01/08/2019
 ms.reviewer: 
@@ -21,13 +21,11 @@ search.audienceType:
   - customizer
 
 ---
-# Publish changes 
+# Publish your customizations
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Publish changes](/powerapps/maker/data-platform/create-solution)
  
  Certain customizations that make changes to the user interface require that they be published before people can use them in the application. 
- 
-## Publish your customizations
 
 - In the solution explorer, select **Publish All Customizations**.  
   

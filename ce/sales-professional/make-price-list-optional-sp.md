@@ -1,6 +1,6 @@
 ---
-title: "Make price list optional (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Allow your salespeople to add products without associating a price list first."
+title: "Make price list optional - Sales Professional | MicrosoftDocs"
+description: "Allow your sellers to add products without associating a price list first."
 ms.date: 08/01/2019
 ms.topic: article
 author: lavanyakr01
@@ -9,7 +9,7 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
   - D365-Entity-pricelevel
   - D365-UI-*
   - Dynamics 365
@@ -33,7 +33,7 @@ When adding products to opportunities, quotes, orders, or invoices, at times, sa
 4.  In the **System Settings dialog** box, on the **Sales** tab, set the **Make price lists optional** field to **Yes**.
 
     > [!div class="mx-imgBorder"]
-    > ![Option to make selection of price list optional.](../sales-enterprise/media/make-price-list-optional.png "Option to make selection of price list optional")
+    > ![Option to make selection of price list optional.](../sales/media/make-price-list-optional.png "Option to make selection of price list optional")
 
 ### See also
 [Add products to an opportunity](add-products-opportunity-sp.md)  

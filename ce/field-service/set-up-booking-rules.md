@@ -1,7 +1,7 @@
 ---
 title: "Set up booking rules in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to set up booking rules in Dynamics 365 Field Service.
-ms.date: 09/04/2020
+ms.date: 11/08/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -121,14 +121,12 @@ The possible values for *ResourceScheduleSource* are from the resource schedule 
 ```
     var sbContext = {
     oldValues: {
-        WorkOrderId: "00000000-0000-0000-0000-00000000",
         StartTime: "01/01/2016 08:00AM",
         EndTime: "01/01/2016 05:00PM",
         ResourceId: "00000000-0000-0000-0000-00000000",
         ResourceScheduleSource: 690970001
     },
     newValues: {
-        WorkOrderId: "00000000-0000-0000-0000-00000000",
         StartTime: "01/01/2016 08:00AM",
         EndTime: "01/01/2016 05:00PM",
         ResourceId: "00000000-0000-0000-0000-00000000",
@@ -266,7 +264,7 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
         function ScheduleBoardHelper() {
         }
         ScheduleBoardHelper.callActionWebApi = function (sb) {
-            var oDataEndpoint = sb.url + "msdyn_workorders(" + sb.ctx.newValues.WorkOrderId + ")/Microsoft.Dynamics.CRM." + sb.actionName;
+            var oDataEndpoint = sb.url + sb.actionName;
             var req = new XMLHttpRequest();
             req.open("POST", oDataEndpoint, false);
             req.setRequestHeader("Accept", "application/json");
@@ -318,12 +316,33 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
 
 ## Additional notes
 
-- The bookable resource booking is enabled to leverage booking rules, in order to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. As a result, business process flows can't be used on the bookable resource booking entity.
+The bookable resource booking is enabled to leverage booking rules, in order to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. As a result, business process flows can't be used on the bookable resource booking entity with Booking rules enabled. 
 
-### See also    
- [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
- [Set up booking statuses](../field-service/set-up-booking-statuses.md)   
- [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
+However, the processing of booking rules can be disabled on the save of the Booking form by enabling the below setting, which would let the users use the business process flows. The client side APIs can be used to enable this setting at an environment level. 
+
+Read current value of the setting `msdyn_DisableProcessBookingRulesOnSaveBookingForm`.
+
+```
+Xrm.Utility.getGlobalContext().getCurrentAppSettings()["msdyn_DisableProcessBookingRulesOnSaveBookingForm"]
+```
+
+Enable the setting `msdyn_DisableProcessBookingRulesOnSaveBookingForm`.
+
+```
+Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_DisableProcessBookingRulesOnSaveBookingForm",true,).then(() => {a = "success"}, (error) => {a = error})
+```
+
+Disable the setting `**msdyn_DisableProcessBookingRulesOnSaveBookingForm**`.
+
+```
+Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_DisableProcessBookingRulesOnSaveBookingForm",false,).then(() => {a = "success"}, (error) => {a = error})
+```
+
+### See also   
+
+- [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
+- [Set up booking statuses](../field-service/set-up-booking-statuses.md)   
+- [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

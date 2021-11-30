@@ -1,6 +1,51 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/enable-consult.md",
+      "redirect_url": "oc-conversation-control",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/omnichannel-whats-new.md",
+      "redirect_url": "whats-new-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/scheduling-overview.md",
+      "redirect_url": "basics-service-service-scheduling",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/routing-workstream-queues.md",
+      "redirect_url": "configure-work-classification",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-advanced-features.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-entity-definitions.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-portal-setup.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-user-experience.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/community-user-setup.md",
+      "redirect_url": "community-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/bring-your-own-channel-sample-html.md",
       "redirect_url": "test-custom-channel-sample-html",
       "redirect_document_id": "false"
@@ -1936,6 +1981,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/fs-mobile-extend-woodford-trial.md",
+      "redirect_url": "activate-fs-mobile-app-license",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/install-sample-data-8-x.md",
       "redirect_url": "user-guide",
       "redirect_document_id": "false"
@@ -2041,78 +2091,38 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/configure-your-work-availability.md",
+      "redirect_url": "personalize-sales-accelerator#through-personal-settings",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-enterprise/configure-forecast-definition.md",
       "redirect_url": "configure-forcast",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/sales-enterprise/embedded-intelligence.md",
-      "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_url": "/dynamics365/sales/overview",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/sales-enterprise/configure-enable-embedded-intelligence.md",
-      "redirect_url": "/dynamics365/ai/sales/intro-admin-guide-sales-insights",
+      "redirect_url": "/dynamics365/sales/intro-admin-guide-sales-insights",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/sales-enterprise/relationship-assistant.md",
-      "redirect_url": "/dynamics365/ai/sales/assistant",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/action-cards-reference.md",
-      "redirect_url": "/dynamics365/ai/sales/action-cards-reference",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/email-engagement.md",
-      "redirect_url": "/dynamics365/ai/sales/email-engagement",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/auto-capture.md",
-      "redirect_url": "/dynamics365/ai/sales/auto-capture",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/manage-custom-cards-flow.md",
-      "redirect_url": "/dynamics365/ai/sales/configure-assistant#configure-assistant-full-capabilities-to-manage-insight-cards",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/create-insight-cards-flow.md",
-      "redirect_url": "/dynamics365/ai/sales/create-insight-cards-flow",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/edit-insight-cards.md",
-      "redirect_url": "/dynamics365/ai/sales/edit-insight-cards",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/optimize-ranking-insight-cards.md",
-      "redirect_url": "/dynamics365/ai/sales/optimize-ranking-insight-cards",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/extend-relationship-assistant-card.md",
-      "redirect_url": "/dynamics365/ai/sales/extend-relationship-assistant-card",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/sales-enterprise/sample-extend-relationship-assistant-card-type.md",
-      "redirect_url": "/dynamics365/ai/sales/sample-extend-relationship-assistant-card-type",
+      "redirect_url": "/dynamics365/sales/assistant",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/sales-enterprise/privacy-notice-ee.md",
-      "redirect_url": "/dynamics365/ai/sales/privacy-notice",
+      "redirect_url": "/dynamics365/sales/privacy-notice",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/sales-enterprise/dynamics365-ai-sales.md",
-      "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_url": "/dynamics365/sales/overview",
       "redirect_document_id": "false"
     },
     {
@@ -3272,7 +3282,7 @@
     },
     {
       "source_path": "ce/gamification/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/gamification/help-hub",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
       "redirect_document_id": "false"
     },
     {
@@ -21431,7 +21441,7 @@
     },
     {
       "source_path": "ce/sales-enterprise/embedded-intelligence-overview.md",
-      "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_url": "/dynamics365/sales/overview",
       "redirect_document_id": false
     },
     {
@@ -21468,6 +21478,1676 @@
       "source_path": "ce/customer-service/oc-productivity-pane.md",
       "redirect_url": "productivity-pane",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/asynchronous-channels.md",
+      "redirect_url": "card-support-in-channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/deal-manager-known-issues.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2171768",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/known-issues.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/?linkid=2171869",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/gamification/best-practices-kpis.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/browser-system-requirements.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/configure-kpis.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/configure-view-tvs.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/contact-commissioner.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/contents.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/define-weekly-awards.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/dynamics-365-gamification-gdpr.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/for-commissioners-game-managers.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/for-players-fans.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/frequently-asked-questions.yml",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/get-started.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/glossary.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/help-hub.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/increase-employee-productivity.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/legal-information.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/log-time-off.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/manage-fantasy-team.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/manage-gamification-in-dynamics-365-online.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/manage-players-fans.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/personalize-game-experience.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/player-stats.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/release-notes.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/run-games.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/schedule-weekly-one-time-emails.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/set-up-profile.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/sign-in.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/smack-talk-post.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/troubleshooting-guide.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/understand-security-roles.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/update-scores-using-excel-point-scoring.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/gamification/view-leaderboard.md",
+      "redirect_url": "/power-platform/important-changes-coming#dynamics-365---gamification-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/access-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/access-deal-manager",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/action-cards-reference.md",
+      "redirect_url": "/dynamics365/sales/action-cards-reference",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/activate-upload-simple-columns-data-forecast.md",
+      "redirect_url": "/dynamics365/sales/activate-upload-simple-columns-data-forecast",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/activity-kanban-view.md",
+      "redirect_url": "/dynamics365/sales/activity-kanban-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/adaptive-sequence.md",
+      "redirect_url": "/dynamics365/sales/adaptive-sequence",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-activity-campaign-using-app-marketing-sales.md",
+      "redirect_url": "/dynamics365/sales/add-activity-campaign-using-app-marketing-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-additional-filters.md",
+      "redirect_url": "/dynamics365/sales/add-additional-filters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-conversation-intelligence-tab-teams-meeting.md",
+      "redirect_url": "/dynamics365/sales/add-conversation-intelligence-tab-teams-meeting",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-forecast-site-map.md",
+      "redirect_url": "/dynamics365/sales/add-forecast-site-map",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-kanban-control.md",
+      "redirect_url": "/dynamics365/sales/add-kanban-control",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md",
+      "redirect_url": "/dynamics365/sales/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-product-quote-order-invoice.md",
+      "redirect_url": "/dynamics365/sales/add-product-quote-order-invoice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-products-enhanced-experience.md",
+      "redirect_url": "/dynamics365/sales/add-products-enhanced-experience",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-products-opportunity.md",
+      "redirect_url": "/dynamics365/sales/add-products-opportunity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-products-qoi-enhanced.md",
+      "redirect_url": "/dynamics365/sales/add-products-qoi-enhanced",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/add-upnext-widget-form.md",
+      "redirect_url": "/dynamics365/sales/add-upnext-widget-form",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/adjust-values-in-forecast.md",
+      "redirect_url": "/dynamics365/sales/adjust-values-in-forecast",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/admin-guide.md",
+      "redirect_url": "/dynamics365/sales/admin-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/admin-settings-overview.md",
+      "redirect_url": "/dynamics365/sales/admin-settings-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/analyze-deals-flow-between-snapshots.md",
+      "redirect_url": "/dynamics365/sales/analyze-deals-flow-between-snapshots",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/analyze-revenue-outcome-using-predictive-forecasting.md",
+      "redirect_url": "/dynamics365/sales/analyze-revenue-outcome-using-predictive-forecasting",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/assistant.md",
+      "redirect_url": "/dynamics365/sales/assistant",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/associate-documents-playbook-activities.md",
+      "redirect_url": "/dynamics365/sales/associate-documents-playbook-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/auto-capture.md",
+      "redirect_url": "/dynamics365/sales/auto-capture",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/capture-forecast-category-opportunity.md",
+      "redirect_url": "/dynamics365/sales/capture-forecast-category-opportunity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/change-product-parent.md",
+      "redirect_url": "/dynamics365/sales/change-product-parent",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/choose-layout-and-columns-forecast.md",
+      "redirect_url": "/dynamics365/sales/choose-layout-and-columns-forecast",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/clone-a-sequence.md",
+      "redirect_url": "/dynamics365/sales/clone-a-sequence",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/clone-forecast.md",
+      "redirect_url": "/dynamics365/sales/clone-forecast",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/clone-product.md",
+      "redirect_url": "/dynamics365/sales/clone-product",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/close-opportunity-won-lost-sales.md",
+      "redirect_url": "/dynamics365/sales/close-opportunity-won-lost-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/close-quote.md",
+      "redirect_url": "/dynamics365/sales/close-quote",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/collaborate-using-sharepoint-sales.md",
+      "redirect_url": "/dynamics365/sales/collaborate-using-sharepoint-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-assistant.md",
+      "redirect_url": "/dynamics365/sales/configure-assistant",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-auto-capture.md",
+      "redirect_url": "/dynamics365/sales/configure-auto-capture",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-conversation-intelligence-call-data.md",
+      "redirect_url": "/dynamics365/sales/configure-conversation-intelligence-call-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-email-engagement.md",
+      "redirect_url": "/dynamics365/sales/configure-email-engagement",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-export-preferences-zoominfo.md",
+      "redirect_url": "/dynamics365/sales/configure-export-preferences-zoominfo",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-forecast-using-custom-rollup-entity.md",
+      "redirect_url": "/dynamics365/sales/configure-forecast-using-custom-rollup-entity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-forecast.md",
+      "redirect_url": "/dynamics365/sales/configure-forecast",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-keywords-competitors.md",
+      "redirect_url": "/dynamics365/sales/configure-keywords-competitors",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-manage-drill-downs.md",
+      "redirect_url": "/dynamics365/sales/configure-manage-drill-downs",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-microsoft-teams-dialer.md",
+      "redirect_url": "/dynamics365/sales/configure-microsoft-teams-dialer",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-notes-analysis.md",
+      "redirect_url": "/dynamics365/sales/configure-notes-analysis",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-predictive-lead-scoring.md",
+      "redirect_url": "/dynamics365/sales/configure-predictive-lead-scoring",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-predictive-opportunity-scoring.md",
+      "redirect_url": "/dynamics365/sales/configure-predictive-opportunity-scoring",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-premium-forecasting.md",
+      "redirect_url": "/dynamics365/sales/configure-premium-forecasting",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-product-catalog-settings.md",
+      "redirect_url": "/dynamics365/sales/configure-product-catalog-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-relationship-analytics.md",
+      "redirect_url": "/dynamics365/sales/configure-relationship-analytics",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-sales-team-level-settings.md",
+      "redirect_url": "/dynamics365/sales/configure-sales-team-level-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-sales-template-apps.md",
+      "redirect_url": "/dynamics365/sales/configure-sales-template-apps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-talking-points.md",
+      "redirect_url": "/dynamics365/sales/configure-talking-points",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-view-your-team-page.md",
+      "redirect_url": "/dynamics365/sales/configure-view-your-team-page",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-who-knows-whom.md",
+      "redirect_url": "/dynamics365/sales/configure-who-knows-whom",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/configure-your-work-availability.md",
+      "redirect_url": "/dynamics365/sales/configure-your-work-availability",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/connect-a-segment-to-sequence.md",
+      "redirect_url": "/dynamics365/sales/connect-a-segment-to-sequence",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/connect-a-sequence-to-records.md",
+      "redirect_url": "/dynamics365/sales/connect-a-sequence-to-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/connect-dynamics365-sales-environment.md",
+      "redirect_url": "/dynamics365/sales/connect-dynamics365-sales-environment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/connect-share-feedback.md",
+      "redirect_url": "/dynamics365/sales/connect-share-feedback",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/connect-with-customers.md",
+      "redirect_url": "/dynamics365/sales/connect-with-customers",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/conversation-intelligence-seller-details.md",
+      "redirect_url": "/dynamics365/sales/conversation-intelligence-seller-details",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/conversation-intelligence-team-overview.md",
+      "redirect_url": "/dynamics365/sales/conversation-intelligence-team-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-and-activate-a-segment.md",
+      "redirect_url": "/dynamics365/sales/create-and-activate-a-segment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-and-activate-a-sequence.md",
+      "redirect_url": "/dynamics365/sales/create-and-activate-a-sequence",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-and-activate-assignment-rule.md",
+      "redirect_url": "/dynamics365/sales/create-and-activate-assignment-rule",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-edit-campaign-using-app-marketing-sales.md",
+      "redirect_url": "/dynamics365/sales/create-edit-campaign-using-app-marketing-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-edit-competitor-record-sales.md",
+      "redirect_url": "/dynamics365/sales/create-edit-competitor-record-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-edit-goal-metric.md",
+      "redirect_url": "/dynamics365/sales/create-edit-goal-metric",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-edit-goal-rollup-query-sales.md",
+      "redirect_url": "/dynamics365/sales/create-edit-goal-rollup-query-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-edit-goal-sales.md",
+      "redirect_url": "/dynamics365/sales/create-edit-goal-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-edit-invoice-sales.md",
+      "redirect_url": "/dynamics365/sales/create-edit-invoice-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-edit-lead-sales.md",
+      "redirect_url": "/dynamics365/sales/create-edit-lead-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-edit-opportunity-sales.md",
+      "redirect_url": "/dynamics365/sales/create-edit-opportunity-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-edit-order-sales.md",
+      "redirect_url": "/dynamics365/sales/create-edit-order-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-edit-quote-sales.md",
+      "redirect_url": "/dynamics365/sales/create-edit-quote-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-insight-cards-flow.md",
+      "redirect_url": "/dynamics365/sales/create-insight-cards-flow",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-manage-assignment-rules-lead-routing.md",
+      "redirect_url": "/dynamics365/sales/create-manage-assignment-rules-lead-routing",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-manage-assignment-rules.md",
+      "redirect_url": "/dynamics365/sales/create-manage-assignment-rules",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-manage-sequences.md",
+      "redirect_url": "/dynamics365/sales/create-manage-sequences",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-marketing-list-using-app-marketing-sales.md",
+      "redirect_url": "/dynamics365/sales/create-marketing-list-using-app-marketing-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md",
+      "redirect_url": "/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-product-bundles-sell-multiple-items-together.md",
+      "redirect_url": "/dynamics365/sales/create-product-bundles-sell-multiple-items-together",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-product-family.md",
+      "redirect_url": "/dynamics365/sales/create-product-family",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-product-sales.md",
+      "redirect_url": "/dynamics365/sales/create-product-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-quick-campaign-using-app-marketing-sales.md",
+      "redirect_url": "/dynamics365/sales/create-quick-campaign-using-app-marketing-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-quote-pdf.md",
+      "redirect_url": "/dynamics365/sales/create-quote-pdf",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-sales-literature.md",
+      "redirect_url": "/dynamics365/sales/create-sales-literature",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/create-unit-group-add-units-that-group.md",
+      "redirect_url": "/dynamics365/sales/create-unit-group-add-units-that-group",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/customize-add-products-dialog-box.md",
+      "redirect_url": "/dynamics365/sales/customize-add-products-dialog-box",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/customize-business-card-scan-control.md",
+      "redirect_url": "/dynamics365/sales/customize-business-card-scan-control",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/customize-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/customize-deal-manager",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/customize-opportunity-close-experience.md",
+      "redirect_url": "/dynamics365/sales/customize-opportunity-close-experience",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/customize-sales-accelerator-sellers.md",
+      "redirect_url": "/dynamics365/sales/customize-sales-accelerator-sellers",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/customize-template-apps.md",
+      "redirect_url": "/dynamics365/sales/customize-template-apps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/customize-zoominfo-app.md",
+      "redirect_url": "/dynamics365/sales/customize-zoominfo-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/dashboards.md",
+      "redirect_url": "/dynamics365/sales/dashboards",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/data-retention-deletion-policy.md",
+      "redirect_url": "/dynamics365/sales/data-retention-deletion-policy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/deactivate-delete-forecast.md",
+      "redirect_url": "/dynamics365/sales/deactivate-delete-forecast",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/deal-manager-overview.md",
+      "redirect_url": "/dynamics365/sales/deal-manager-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/deal-manager-seller-overview.md",
+      "redirect_url": "/dynamics365/sales/deal-manager-seller-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/decimal-precision-currency-pricing.md",
+      "redirect_url": "/dynamics365/sales/decimal-precision-currency-pricing",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/define-general-properties-scheduling-forecast.md",
+      "redirect_url": "/dynamics365/sales/define-general-properties-scheduling-forecast",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/define-lead-qualification-experience.md",
+      "redirect_url": "/dynamics365/sales/define-lead-qualification-experience",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/define-playbook-categories.md",
+      "redirect_url": "/dynamics365/sales/define-playbook-categories",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/define-related-products-increase-chances-sales.md",
+      "redirect_url": "/dynamics365/sales/define-related-products-increase-chances-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/delete-a-sequence.md",
+      "redirect_url": "/dynamics365/sales/delete-a-sequence",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/delete-deactivate-a-segment.md",
+      "redirect_url": "/dynamics365/sales/delete-deactivate-a-segment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/delete-deactivate-assignment-rule.md",
+      "redirect_url": "/dynamics365/sales/delete-deactivate-assignment-rule",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/delete-family-product-bundle.md",
+      "redirect_url": "/dynamics365/sales/delete-family-product-bundle",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/deprecations-sales.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/dynamics-365-sales-gdpr.md",
+      "redirect_url": "/dynamics365/sales/dynamics-365-sales-gdpr",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/dynamics365-sales-insights-app-home-page.md",
+      "redirect_url": "/dynamics365/sales/dynamics365-sales-insights-app-home-page",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/dynamics365-sales-insights-app.md",
+      "redirect_url": "/dynamics365/sales/dynamics365-sales-insights-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/edit-a-segment.md",
+      "redirect_url": "/dynamics365/sales/edit-a-segment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/edit-a-sequence.md",
+      "redirect_url": "/dynamics365/sales/edit-a-sequence",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/edit-active-sequence.md",
+      "redirect_url": "/dynamics365/sales/edit-active-sequence",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/edit-assignment-rule.md",
+      "redirect_url": "/dynamics365/sales/edit-assignment-rule",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/edit-insight-cards.md",
+      "redirect_url": "/dynamics365/sales/edit-insight-cards",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/editable-product-grid-forms.md",
+      "redirect_url": "/dynamics365/sales/editable-product-grid-forms",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/email-engagement.md",
+      "redirect_url": "/dynamics365/sales/email-engagement",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/embedded-intelligence-gdpr.md",
+      "redirect_url": "/dynamics365/sales/embedded-intelligence-gdpr",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/enable-configure-sales-accelerator.md",
+      "redirect_url": "/dynamics365/sales/enable-configure-sales-accelerator",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/enable-deal-manager-preview.md",
+      "redirect_url": "/dynamics365/sales/enable-deal-manager-preview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/enable-enhanced-add-product-experience.md",
+      "redirect_url": "/dynamics365/sales/enable-enhanced-add-product-experience",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/enable-opportunity-close-customization.md",
+      "redirect_url": "/dynamics365/sales/enable-opportunity-close-customization",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/enable-pdf-generation-quote.md",
+      "redirect_url": "/dynamics365/sales/enable-pdf-generation-quote",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/enable-preview-features-sales-insights-app.md",
+      "redirect_url": "/dynamics365/sales/enable-preview-features-sales-insights-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/enforce-best-practices-playbooks.md",
+      "redirect_url": "/dynamics365/sales/enforce-best-practices-playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/enhanced-email.md",
+      "redirect_url": "/dynamics365/sales/enhanced-email",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/entity-reference.md",
+      "redirect_url": "/dynamics365/sales/entity-reference",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/extend-relationship-assistant-card.md",
+      "redirect_url": "/dynamics365/sales/extend-relationship-assistant-card",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/faqs-sales-insights.md",
+      "redirect_url": "/dynamics365/sales/faqs-sales-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/faqs-sales.md",
+      "redirect_url": "/dynamics365/sales/faqs-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/find-your-way-around-sales-hub-app.md",
+      "redirect_url": "/dynamics365/sales/find-your-way-around-sales-hub-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/forecast-configure-advanced-settings.md",
+      "redirect_url": "/dynamics365/sales/forecast-configure-advanced-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/forecast-different-data-types.md",
+      "redirect_url": "/dynamics365/sales/forecast-different-data-types",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/fre-setup-sales-insight-app.md",
+      "redirect_url": "/dynamics365/sales/fre-setup-sales-insight-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/free-auto-capture.md",
+      "redirect_url": "/dynamics365/sales/free-auto-capture",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/get-started-app-marketing-sales.md",
+      "redirect_url": "/dynamics365/sales/get-started-app-marketing-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/goals-overview.md",
+      "redirect_url": "/dynamics365/sales/goals-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/grant-access-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/grant-access-deal-manager",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/help-hub.md",
+      "redirect_url": "/dynamics365/sales/help-hub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/install-lsi-solution.md",
+      "redirect_url": "/dynamics365/sales/install-lsi-solution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/install-zoominfo-app.md",
+      "redirect_url": "/dynamics365/sales/install-zoominfo-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/integrate-sample-softphone.md",
+      "redirect_url": "/dynamics365/sales/integrate-sample-softphone",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/intro-admin-guide-sales-insights.md",
+      "redirect_url": "/dynamics365/sales/intro-admin-guide-sales-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/introduction-sales-template-apps.md",
+      "redirect_url": "/dynamics365/sales/introduction-sales-template-apps",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/keep-forecast-data-up-to-date.md",
+      "redirect_url": "/dynamics365/sales/keep-forecast-data-up-to-date",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/launch-playbook.md",
+      "redirect_url": "/dynamics365/sales/launch-playbook",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/learning-administrator.md",
+      "redirect_url": "/dynamics365/sales/learning-administrator",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/learning-bdm.md",
+      "redirect_url": "/dynamics365/sales/learning-bdm",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/learning-bus-user.md",
+      "redirect_url": "/dynamics365/sales/learning-bus-user",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/learning-catalog.md",
+      "redirect_url": "/dynamics365/sales/learning-catalog",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/learning-developer.md",
+      "redirect_url": "/dynamics365/sales/learning-developer",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/learning-functional-consultant.md",
+      "redirect_url": "/dynamics365/sales/learning-functional-consultant",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/learning-project-manager.md",
+      "redirect_url": "/dynamics365/sales/learning-project-manager",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/learning-sales.md",
+      "redirect_url": "/dynamics365/sales/learning-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/linkedin-activities-sequence.md",
+      "redirect_url": "/dynamics365/sales/linkedin-activities-sequence",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/live-org-chart.md",
+      "redirect_url": "/dynamics365/sales/live-org-chart",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/lock-unlock-price-order-invoice.md",
+      "redirect_url": "/dynamics365/sales/lock-unlock-price-order-invoice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/make-price-list-optional.md",
+      "redirect_url": "/dynamics365/sales/make-price-list-optional",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/manage-activities.md",
+      "redirect_url": "/dynamics365/sales/manage-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/manage-custom-cards-flow.md",
+      "redirect_url": "/dynamics365/sales/manage-custom-cards-flow",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/manage-playbook-templates.md",
+      "redirect_url": "/dynamics365/sales/manage-playbook-templates",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/manage-sales-teams.md",
+      "redirect_url": "/dynamics365/sales/manage-sales-teams",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/manage-sample-data.md",
+      "redirect_url": "/dynamics365/sales/manage-sample-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/manage-segments.md",
+      "redirect_url": "/dynamics365/sales/manage-segments",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/manage-seller-attributes.md",
+      "redirect_url": "/dynamics365/sales/manage-seller-attributes",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/manage-snapshots-forecast.md",
+      "redirect_url": "/dynamics365/sales/manage-snapshots-forecast",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/mark-playbook-completed.md",
+      "redirect_url": "/dynamics365/sales/mark-playbook-completed",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/match-fields-between-dynamics365-zoominfo.md",
+      "redirect_url": "/dynamics365/sales/match-fields-between-dynamics365-zoominfo",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/monitor-call-insight-processing.md",
+      "redirect_url": "/dynamics365/sales/monitor-call-insight-processing",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/move-sales-enterprise-sales-professional.md",
+      "redirect_url": "/dynamics365/sales/move-sales-enterprise-sales-professional",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/no-longer-working-lead-sales.md",
+      "redirect_url": "/dynamics365/sales/no-longer-working-lead-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/notes-analysis.md",
+      "redirect_url": "/dynamics365/sales/notes-analysis",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/nurture-sales-from-lead-order-sales.md",
+      "redirect_url": "/dynamics365/sales/nurture-sales-from-lead-order-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/opportunity-kanban-view.md",
+      "redirect_url": "/dynamics365/sales/opportunity-kanban-view",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/optimize-ranking-insight-cards.md",
+      "redirect_url": "/dynamics365/sales/optimize-ranking-insight-cards",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/optout-relationship-analytics-gdpr.md",
+      "redirect_url": "/dynamics365/sales/optout-relationship-analytics-gdpr",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/overview-premium-capabilities.md",
+      "redirect_url": "/dynamics365/sales/overview-premium-capabilities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/overview.md",
+      "redirect_url": "/dynamics365/sales/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/personalize-deal-manager.md",
+      "redirect_url": "/dynamics365/sales/personalize-deal-manager",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/personalize-sales-accelerator.md",
+      "redirect_url": "/dynamics365/sales/personalize-sales-accelerator",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/premium-auto-capture.md",
+      "redirect_url": "/dynamics365/sales/premium-auto-capture",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/prereq-sales-insights-app.md",
+      "redirect_url": "/dynamics365/sales/prereq-sales-insights-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/price-calculation-opportunity-quote-order-invoice-records.md",
+      "redirect_url": "/dynamics365/sales/price-calculation-opportunity-quote-order-invoice-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/pricing-product-bundles.md",
+      "redirect_url": "/dynamics365/sales/pricing-product-bundles",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/print-records.md",
+      "redirect_url": "/dynamics365/sales/print-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/prioritize-sales-pipeline-through-work-list.md",
+      "redirect_url": "/dynamics365/sales/prioritize-sales-pipeline-through-work-list",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/privacy-notice.md",
+      "redirect_url": "/dynamics365/sales/privacy-notice",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/project-accurate-revenue-sales-forecasting.md",
+      "redirect_url": "/dynamics365/sales/project-accurate-revenue-sales-forecasting",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/provide-permissions-forecast.md",
+      "redirect_url": "/dynamics365/sales/provide-permissions-forecast",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/publish-product-bundle-make-available-selling.md",
+      "redirect_url": "/dynamics365/sales/publish-product-bundle-make-available-selling",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/qualify-lead-convert-opportunity-sales.md",
+      "redirect_url": "/dynamics365/sales/qualify-lead-convert-opportunity-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/re-open-lead-sales.md",
+      "redirect_url": "/dynamics365/sales/re-open-lead-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/recalculate-opportunity.md",
+      "redirect_url": "/dynamics365/sales/recalculate-opportunity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/relationship-analytics.md",
+      "redirect_url": "/dynamics365/sales/relationship-analytics",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/retain-business-card-image-after-scanning.md",
+      "redirect_url": "/dynamics365/sales/retain-business-card-image-after-scanning",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/retire-product.md",
+      "redirect_url": "/dynamics365/sales/retire-product",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md",
+      "redirect_url": "/dynamics365/sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/revise-product.md",
+      "redirect_url": "/dynamics365/sales/revise-product",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-accelerator-assignment-rules.md",
+      "redirect_url": "/dynamics365/sales/sales-accelerator-assignment-rules",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-accelerator-intro.md",
+      "redirect_url": "/dynamics365/sales/sales-accelerator-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-pipeline-chart.md",
+      "redirect_url": "/dynamics365/sales/sales-pipeline-chart",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-previews-in-trial.md",
+      "redirect_url": "/dynamics365/sales/sales-previews-in-trial",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-team-member.md",
+      "redirect_url": "/dynamics365/sales/sales-team-member",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-transactions.md",
+      "redirect_url": "/dynamics365/sales/sales-transactions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-trial-faq.md",
+      "redirect_url": "/dynamics365/sales/sales-trial-faq",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sample-extend-relationship-assistant-card-type.md",
+      "redirect_url": "/dynamics365/sales/sample-extend-relationship-assistant-card-type",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sample-softphone-integration.md",
+      "redirect_url": "/dynamics365/sales/sample-softphone-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/scan-business-cards.md",
+      "redirect_url": "/dynamics365/sales/scan-business-cards",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/security-roles-for-sales.md",
+      "redirect_url": "/dynamics365/sales/security-roles-for-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/select-template-forecast.md",
+      "redirect_url": "/dynamics365/sales/select-template-forecast",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/set-up-discount-list.md",
+      "redirect_url": "/dynamics365/sales/set-up-discount-list",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/set-up-dynamics-365-sales.md",
+      "redirect_url": "/dynamics365/sales/set-up-dynamics-365-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/set-up-enhanced-email.md",
+      "redirect_url": "/dynamics365/sales/set-up-enhanced-email",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/set-up-product-catalog-walkthrough.md",
+      "redirect_url": "/dynamics365/sales/set-up-product-catalog-walkthrough",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sign-up-for-sales-trial.md",
+      "redirect_url": "/dynamics365/sales/sign-up-for-sales-trial",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/stakeholders-sales-team-members.md",
+      "redirect_url": "/dynamics365/sales/stakeholders-sales-team-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/system-settings-sales-tab.md",
+      "redirect_url": "/dynamics365/sales/system-settings-sales-tab",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/talking-points.md",
+      "redirect_url": "/dynamics365/sales/talking-points",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md",
+      "redirect_url": "/dynamics365/sales/track-marketing-campaign-response-using-app-marketing-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/track-playbook-activities.md",
+      "redirect_url": "/dynamics365/sales/track-playbook-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/translate-product-names-properties-into-multiple-languages.md",
+      "redirect_url": "/dynamics365/sales/translate-product-names-properties-into-multiple-languages",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/troubleshooting-sp.md",
+      "redirect_url": "/dynamics365/sales/troubleshooting-sp",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/troubleshooting.md",
+      "redirect_url": "/dynamics365/sales/troubleshooting",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-currency-pricelist.md",
+      "redirect_url": "/dynamics365/sales/ts-currency-pricelist",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-email.md",
+      "redirect_url": "/dynamics365/sales/ts-email",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-forecasts.md",
+      "redirect_url": "/dynamics365/sales/ts-forecasts",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-inapp-marketing.md",
+      "redirect_url": "/dynamics365/sales/ts-inapp-marketing",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-leads.md",
+      "redirect_url": "/dynamics365/sales/ts-leads",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-opportunities.md",
+      "redirect_url": "/dynamics365/sales/ts-opportunities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-oqoi.md",
+      "redirect_url": "/dynamics365/sales/ts-oqoi",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-orders.md",
+      "redirect_url": "/dynamics365/sales/ts-orders",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-products.md",
+      "redirect_url": "/dynamics365/sales/ts-products",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-sales-pipeline.md",
+      "redirect_url": "/dynamics365/sales/ts-sales-pipeline",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-unified-interface.md",
+      "redirect_url": "/dynamics365/sales/ts-unified-interface",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/ts-views.md",
+      "redirect_url": "/dynamics365/sales/ts-views",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/understand-forecast-projection-through-trend-chart.md",
+      "redirect_url": "/dynamics365/sales/understand-forecast-projection-through-trend-chart",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/understand-lsi-accounts-form.md",
+      "redirect_url": "/dynamics365/sales/understand-lsi-accounts-form",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/uninstall-sales-insights.md",
+      "redirect_url": "/dynamics365/sales/uninstall-sales-insights",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/upgrade-sales-professional-sales-enterprise.md",
+      "redirect_url": "/dynamics365/sales/upgrade-sales-professional-sales-enterprise",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/use-properties-describe-product.md",
+      "redirect_url": "/dynamics365/sales/use-properties-describe-product",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md",
+      "redirect_url": "/dynamics365/sales/use-sales-hub-on-dynamics-365-mobile",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/use-sales-hub-on-mobile-app.md",
+      "redirect_url": "/dynamics365/sales/use-sales-hub-on-mobile-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/use-zoominfo-app-data.md",
+      "redirect_url": "/dynamics365/sales/use-zoominfo-app-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/user-guide-learn-basics.md",
+      "redirect_url": "/dynamics365/sales/user-guide-learn-basics",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/user-guide.md",
+      "redirect_url": "/dynamics365/sales/user-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/view-and-manage-underlying-opportunities.md",
+      "redirect_url": "/dynamics365/sales/view-and-manage-underlying-opportunities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/view-and-understand-call-summary.md",
+      "redirect_url": "/dynamics365/sales/view-and-understand-call-summary",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/view-export-KPI-data-gdpr.md",
+      "redirect_url": "/dynamics365/sales/view-export-KPI-data-gdpr",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/view-forecasts.md",
+      "redirect_url": "/dynamics365/sales/view-forecasts",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/view-prediction-model-status.md",
+      "redirect_url": "/dynamics365/sales/view-prediction-model-status",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/view-product-hierarchy.md",
+      "redirect_url": "/dynamics365/sales/view-product-hierarchy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/view-sequence-details-connected-records.md",
+      "redirect_url": "/dynamics365/sales/view-sequence-details-connected-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/view-snapshots.md",
+      "redirect_url": "/dynamics365/sales/view-snapshots",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/view-understand-data-through-drill-down.md",
+      "redirect_url": "/dynamics365/sales/view-understand-data-through-drill-down",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/whats-new.md",
+      "redirect_url": "/dynamics365/sales/whats-new",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/who-knows-whom.md",
+      "redirect_url": "/dynamics365/sales/who-knows-whom",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/work-predictive-lead-scoring.md",
+      "redirect_url": "/dynamics365/sales/work-predictive-lead-scoring",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/work-predictive-opportunity-scoring.md",
+      "redirect_url": "/dynamics365/sales/work-predictive-opportunity-scoring",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/work-with-linkedin-activities.md",
+      "redirect_url": "/dynamics365/sales/work-with-linkedin-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/custom-plugin-handling-shared-variable.md",
+      "redirect_url": "/dynamics365/sales/developer/custom-plugin-handling-shared-variable",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/developer-guide.md",
+      "redirect_url": "/dynamics365/sales/developer/developer-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/enable-sales-order-processing-integration.md",
+      "redirect_url": "/dynamics365/sales/developer/enable-sales-order-processing-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/exportpdf-api.md",
+      "redirect_url": "/dynamics365/sales/developer/exportpdf-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/marketingformdisplayattributessetApi.md",
+      "redirect_url": "/dynamics365/sales/developer/marketingformdisplayattributessetApi",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/custom-actions-manual-forecasting.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/custom-actions-manual-forecasting",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/playbook-entity-reference.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/playbook-entity-reference",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/recalculateprice-action.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/recalculateprice-action",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/custom-actions/events-context.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/custom-actions/events-context",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/custom-actions/msdyn_ForecastApi",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/playbooks-entities/msdyn_callablecontext.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/playbooks-entities/msdyn_callablecontext",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivity.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/playbooks-entities/msdyn_playbookactivity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookactivityattribute.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/playbooks-entities/msdyn_playbookactivityattribute",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookcategory.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/playbooks-entities/msdyn_playbookcategory",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/playbooks-entities/msdyn_playbookinstance.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/playbooks-entities/msdyn_playbookinstance",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer/reference/playbooks-entities/msdyn_playbooktemplate.md",
+      "redirect_url": "/dynamics365/sales/developer/reference/playbooks-entities/msdyn_playbooktemplate",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer-sp/msdyn-ConnectSequence-action.md",
+      "redirect_url": "/dynamics365/sales/developer-sp/msdyn-ConnectSequence-action",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer-sp/msdyn_predictivemodelscore.md",
+      "redirect_url": "/dynamics365/sales/developer-sp/msdyn_predictivemodelscore",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer-sp/msdyn_predictivescore.md",
+      "redirect_url": "/dynamics365/sales/developer-sp/msdyn_predictivescore",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/app-settings.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/app-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/configure-app-intune.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/configure-app-intune",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/configure-quick-create.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/configure-quick-create",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/create-contact.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/create-contact",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/create-push-notification.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/create-push-notification",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/dynamics-365-sales-mobile-app.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/dynamics-365-sales-mobile-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/install-mobile-app.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/install-mobile-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/learn-basics-mobile-app.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/learn-basics-mobile-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/modify-quick-view-form.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/modify-quick-view-form",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/open-record.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/open-record",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/prereq-sales-mobile.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/prereq-sales-mobile",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/search-records.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/search-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/use-sales-mobile-app.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/use-sales-mobile-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/view-agenda.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/view-agenda",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/view-edit-add-note.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/view-edit-add-note",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-requirements.md",
+      "redirect_url": "system-requirements-omnichannel",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-install.md",
+      "redirect_url": "omnichannel-provision-license",
+      "redirect_document_id": "false"
     }
   ]
 }

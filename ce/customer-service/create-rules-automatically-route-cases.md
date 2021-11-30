@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 07/28/2021
+ms.date: 11/30/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -98,16 +98,16 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
       - **Add related entity:** Select to add a condition for a specific entity.
 
-      > [!NOTE]
-      > The following limitations are applicable when defining a rule criteria in Customer Service Hub:
-
-      > - You can’t select a time value for the Date and Time data type. If you try to edit an existing rule item that was created in the web client, the time will be set to 00:00.
-      > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
-      > - The related entity inside a group of the and/or clause is not supported.
-      > - By design, the attribute with "Multi Select Option Set" data type is not supported.
-      > - The "in" and "not in" operators for the Single Line of Text and Multiple Lines of Text data types and the "not-on" operator for the Date data type are not supported.
-      > - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported.
-      > - In the Add related entity list, the "One to Many" and "Many to Many" options are not supported even though the application lets you select them.
+        > [!NOTE]
+        > The following limitations are applicable when defining a rule criteria in Customer Service Hub:
+        >
+        > - You can’t select a time value for the Date and Time data type. If you try to edit an existing rule item that was created in the web client, the time will be set to 00:00.
+        > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
+        > - The related entity inside a group of the and/or clause is not supported.
+        > - By design, the attribute with "Multi Select Option Set" data type is not supported.
+        > - The "in" and "not in" operators for the Single Line of Text and Multiple Lines of Text data types and the "not-on" operator for the Date data type are not supported.
+        > - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported.
+        > - In the Add related entity list, the "One to Many" and "Many to Many" options are not supported even though the application lets you select them.
 
     c. In **Action** > **Route to**, select queue or user/team.
 
@@ -121,9 +121,10 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 7. In the **Routing Rule Set** record, select **Activate**. The ruleset is applied to cases that match the conditions in the rule.
 
     > [!NOTE]
-
-    > - Only one routing ruleset can be active at any point in time. If you try to activate a rule when another rule is active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
+    >
+    > - When unified routing is not enabled, only one routing ruleset can be active at a time. If you try to activate a rule when another rule is active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
     > - If you want to edit an active routing ruleset, you must deactivate it. To successfully import a solution that includes an active routing ruleset into an organization where a rule exists with the same ID, deactivate the rule in the organization.
+
 
 ## Create a routing ruleset (Customer Service app)
 
@@ -194,7 +195,7 @@ Perform the following steps to manually apply the rule to any existing or manual
 
 > [!NOTE]
 >
-> - If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.
+> - If you’re importing bulk records, and don’t want the routing rules to be applied to the cases that you’re importing, add a column **Route Case** to the spreadsheet used for importing the records, and add the value **No** for all the cases that you don’t want to route.
 > - Cases can be created and routed programmatically. If you want to override this behavior, set the value for the RouteCase attribute to "No".
 
 ## Recommendation to upgrade solution

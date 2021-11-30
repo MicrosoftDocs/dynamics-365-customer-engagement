@@ -9,7 +9,8 @@ manager: annbe
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
+  - D365-Entity-opportunity
   - D365-Entity-lead
   - D365-UI-*
   - Dynamics 365
@@ -84,7 +85,7 @@ Your system administrator defines what happens to a lead when it is qualified:
     If you see a prompt to select which records to create when the lead is qualified, select **Yes** for the records that you want to create, and then select **OK**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select which records to create in the Qualify lead dialog box.](../sales-enterprise/media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
+    > ![Select which records to create in the Qualify lead dialog box.](../sales/media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
 
     If you don’t see a prompt, qualifying a lead will automatically create an account, contact, and opportunity record.
 
@@ -104,7 +105,7 @@ To qualify multiple leads at once, go to the list of lead records. Select the ch
 When qualifying a lead, if a duplicate account or contact is detected while creating new records, a “Duplicate warning ” dialog box is shown to you.
 
 > [!div class="mx-imgBorder"]
-> ![Duplicate warning while qualifying a lead.](../sales-enterprise/media/lead-qualification-duplicate-warning.png "Duplicate warning while qualifying a lead")
+> ![Duplicate warning while qualifying a lead.](../sales/media/lead-qualification-duplicate-warning.png "Duplicate warning while qualifying a lead")
 
 In the **Account** and **Contact** fields, select the matching account and contact record and select **Continue**. To ignore the duplicate warning and create new records, leave the Account and Contact fields blank, and select **Continue**.
 

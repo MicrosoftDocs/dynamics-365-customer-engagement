@@ -5,13 +5,7 @@ ms.date: 07/31/2020
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
-searchScope: 
-  - D365-App-msdyn_salespro
-  - D365-Entity-opportunity
-  - D365-UI-Form
-  - Dynamics 365
-  - Sales
+manager: shujoshi
 ---
 
 # Customize the Opportunity Close form (Sales Professional)
@@ -54,7 +48,7 @@ To capture any additional custom information during opportunity close, custom at
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced Settings option on the Settings menu.](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    > ![Advanced Settings option on the Settings menu.](../sales/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
 2.  On the navigation bar, select **Settings**, and then under **Application**, select **My Apps**.
 
@@ -85,14 +79,14 @@ To create fields,
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Advanced Settings option on the Settings menu.](../sales-enterprise/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    > ![Advanced Settings option on the Settings menu.](../sales/media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
 
 2.  On the navigation bar, select **Settings**, and then select **Customizations**.
 
     > [!div class="mx-imgBorder"]
-    > ![Customization option on the site map.](../sales-enterprise/media/customization-in-sitemap.png "Customization option on the site map")
+    > ![Customization option on the site map.](../sales/media/customization-in-sitemap.png "Customization option on the site map")
 
 3.  On the **Customization** page, select **Customize the System**.
 
@@ -112,7 +106,7 @@ After you’ve created the fields that are required by your organization, add th
 2.  Under **Opportunity Close** node, select **Forms**.
 
     > [!div class="mx-imgBorder"]
-    >![Forms node in Solution explorer.](../sales-enterprise/media/forms-node-solution-explorer.png "Forms node in Solution explorer")
+    >![Forms node in Solution explorer.](../sales/media/forms-node-solution-explorer.png "Forms node in Solution explorer")
 
 3.  Open the **Opportunity Close** form of type **Quick Create**.
 

@@ -7,6 +7,13 @@ ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - developer
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-knowledgearticle
+ - D365-UI-*
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement
 ---
 
 # Work with knowledge articles
@@ -188,6 +195,7 @@ Use the following for help with migration:
 
 - [Knowledge Base Entities](../customerengagement/on-premises/developer/knowledge-management-entities.md)
 - [KnowledgeArticle Entity](../customerengagement/on-premises/developer/entities/knowledgearticle.md)
+- [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)
 - [KnowledgeArticleViews Entity](../customerengagement/on-premises/developer/entities/knowledgearticleviews.md)
 - [KnowledgeBaseRecord Entity](../customerengagement/on-premises/developer/entities/knowledgebaserecord.md)
 - [LanguageLocale Entity](../customerengagement/on-premises/developer/entities/languagelocale.md)

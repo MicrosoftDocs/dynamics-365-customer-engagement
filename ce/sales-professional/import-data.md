@@ -9,10 +9,9 @@ manager: annbe
 ms.custom: 
   - dyn365-sales
 searchScope: 
-  - D365-App-msdyn_salespro
+  - D365-App-msdynce_salespro
   - D365-Entity-account
   - D365-Entity-contact
-  - D365-Entity-lead
   - D365-UI-*
   - Dynamics 365
   - Sales
@@ -263,40 +262,6 @@ You must wait for an import job to complete before you can repair failures.
 
     -   **Delete All**. This deletes the import file along with the records that were imported from the import file.
 
-## Import data from Exchange in Dynamics 365 Sales Professional
-
-If you’ve been keeping track of all your contacts in Microsoft Exchange, you can quickly get all your contacts in Dynamics 365 Sales Professional so you have
-all your data in one place.
-
-### Prerequisites
-
-To be able to import from Exchange:
-
--   You must have a valid Exchange subscription and license.
-
--    Your mailbox must be tested and enabled. Talk to your administrator if you receive an error.
-
-1.   If you’re a user with a Sales Professional or Sales Professional Manager role, go to the list of contacts. On the command bar, select **Import
-    from Excel** \> **Import from Exchange**.
-
-    ![Import from Exchange option.](media/import-from-exchange-option.png "Import from Exchange option")
-
-    -OR-
-
-2.  If you’re a user with a System Administrator role, in the site map, select **Sales Settings**. Under **Standard settings**, select **Import data**. 
-
-3. In the **Data type** drop-down list, select the type of records you want to import. In the **File type** drop-down list, select **Exchange**, and then select **Start Import**.
-
-    The **Track data from Exchange** dialog box opens.
-
-    ![Track data from Exchange dialog box.](media/track-data-from-exchange-dialog-box.png "Track data from Exchange dialog box")
-
-4. Select **Track**.
-
-    All the contacts from Exchange will start importing to Dynamics 365 Sales Professional. Any changes that you make to contacts in your Exchange mailbox are automatically updated in the contact records in Dynamics 365 Sales Professional.
-
->[!IMPORTANT]
->You won’t be able to remove or untrack a contact from Dynamics 365 Sales Professional. Use the Dynamics 365 App for Outlook to do this.
 
 
 ### See also

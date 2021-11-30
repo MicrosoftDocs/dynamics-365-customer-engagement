@@ -1,6 +1,6 @@
 ---
-title: "Main form presentations with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how main forms appear when displayed on different devices"
+title: "Appearance of main forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "Any main forms that exist may be displayed differently depending on various factors. When you design a main form, consider how it will appear in each display."
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# How main forms appear on different devices
+# How main forms appear on different devices and displays
 
 The main form is used by all app clients. This form provides a consistent user experience whether someone is using a web browser,  [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
 

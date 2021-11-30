@@ -1,6 +1,6 @@
 ---
-title: "Sign in to LinkedIn Sales Navigator | Microsoft Docs"
-description: "Sign in to LinkedIn Sales Navigator in Dynamics 365 Sales to see lead information on forms."
+title: "View LinkedIn Sales Navigator controls on forms"
+description: "Sign in to the LinkedIn Navigator in Dynamics 365 to view controls on forms. Learn how to work with controls to ensure correct profile matching."
 keywords: sign in, authenticate, sales navigator, customized form
 ms.date: 04/30/2019
 ms.topic: article
@@ -19,7 +19,7 @@ applies_to:
 ms.assetid: efbe4fd6-a486-d97d-3b2c-8c4020e9d57b
 ---
 
-# View Sales Navigator controls on forms
+# View and work with LinkedIn Sales Navigator controls on forms
 
 To use the Sales Navigator controls, an admin needs to [enable the Sales Navigator integration](install-sales-navigator.md) and you need to be a [LinkedIn Sales Navigator Seat Holder](https://www.linkedin.com/help/sales-navigator/answer/50233/adding-or-removing-seat-holders-in-sales-navigator). To customize the form with Sales Navigator controls [a customizer needs to add the controls to a form](add-sales-navigator-controls-forms.md). 
 

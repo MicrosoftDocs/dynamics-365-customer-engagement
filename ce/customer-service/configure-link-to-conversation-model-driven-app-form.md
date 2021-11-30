@@ -12,8 +12,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 This topic describes how you, as a system customizer, can configure the **Link to conversation** button in the model-driven app entity form for agents using Omnichannel for Customer Service app.
 
 When an agent accepts a conversation request, and there is no record in Omnichannel for Customer Service linked to this conversation, the agent wants to search for a contact or account record and link the record to the conversation. As a system customizer, you need to configure the **Link to conversation** button in the model-driven app entity (contact, account or case) form so agents can link a record to the current conversation. After you link a record to the conversation, the **Customer summary** page loads and displays the record that you linked.
@@ -299,13 +297,13 @@ In this step you need to import the customized ribbon.
 
 To learn more, see [Import the ribbon](/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon).
 
-## See also
+### See also
 
-[Export, prepare to edit, and import the ribbon](/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon)
+[Export, prepare to edit, and import the ribbon](/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon)  
 
-[Define ribbon enable rules](/powerapps/developer/model-driven-apps/define-ribbon-enable-rules)
+[Define ribbon enable rules](/powerapps/developer/model-driven-apps/define-ribbon-enable-rules)  
 
-[Pass data from a page as a parameter to Ribbon Actions](/powerapps/developer/model-driven-apps/pass-data-page-parameter-ribbon-actions)
+[Pass data from a page as a parameter to Ribbon Actions](/powerapps/developer/model-driven-apps/pass-data-page-parameter-ribbon-actions)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

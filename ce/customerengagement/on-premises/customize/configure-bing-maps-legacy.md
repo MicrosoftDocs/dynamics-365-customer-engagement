@@ -1,6 +1,6 @@
 ---
-title: "Configure Bing maps in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: Learn how to configure Bing maps for your apps
+title: "Show Bing Maps on forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to enable Bing Maps to be displayed on a form, and configure properties such as labels and formatting."
 ms.custom: 
 ms.date: 01/31/2019
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Configure Bing maps
+# Configure Bing Maps to be displayed on forms
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure a map on a form](/powerapps/maker/model-driven-apps/configure-bing-maps-legacy)
 
