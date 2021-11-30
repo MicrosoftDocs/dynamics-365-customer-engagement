@@ -50,14 +50,15 @@ The following Customer Service Hub entities have the **Main** forms created out-
 > [!NOTE]
 >  Apart from these entities, you can also create or customize interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 
-You can see the forms for each entity in their list of forms given in the solution explorer in the **Customization** area. The default form type for the Unified interface based Customer Service Hub is **Case for Interactive experience - Main**. For more information on the types of forms available, see [Types of forms](#types-of-forms).
+You can see the forms for each entity in their list of forms given in the solution explorer in the **Customization** area. The default form type for Unified Interface-based Customer Service Hub is **Case for Interactive experience - Main**. For more information on the types of forms available, see [Types of forms](#types-of-forms).
 
 ![form-type.](media/form-type-csh.png "See Form type")
 
 Both the **Main** type forms are available to use in the Customer Service Hub.
 
 ### Enable custom entities in the Customer Service Hub
-You can enable any custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable a custom entity for Unified interface experience, ensure that the flag **Enable for mobile** is checked in the **Outlook & Mobile** section in the entity metadata:
+
+You can enable any custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable a custom entity for the Unified Interface experience, ensure that the flag **Enable for mobile** is checked in the **Outlook & Mobile** section in the entity metadata:
 
 ![enable-custom-entity.](media/enable-custom-entity.png "Enable custom entity")
 
@@ -68,8 +69,9 @@ As a customizer, you can customize these forms in a way that it is easier for th
 > [!NOTE]
 > All customization tasks for the Customer Service Hub must be done in Microsoft Dataverse.
 
-## Types of forms  
- The following table describes the types of forms in that are used rendering data in Customer Service Hub:  
+## Types of forms
+
+ The following table describes the types of forms in that are used rendering data in Customer Service Hub. 
 
 
 |    Form Type     |                                                                                                                                                                                                                                                                                                                                                                  Description                                                                                                                                                                                                                                                                                                                                                                   |
