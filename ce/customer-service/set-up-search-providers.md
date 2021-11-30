@@ -15,6 +15,14 @@ search.app:
 ms.custom: 
   - dyn365-customerservice
   - intro-internal
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-msdyn_kmfederatedsearchconfig
+ - D365-Entity-incident
+ - D365-UI-form
+ - Dynamics 365 
+ - Customer Service
+ - Customer Engagement
 ---
 
 # Set up a search provider in Customer Service Hub

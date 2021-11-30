@@ -1,7 +1,7 @@
 ---
 title: "Customize your Teams webinar participant follow-up (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to customize your follow-up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 09/14/2021
+ms.date: 11/29/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -22,7 +22,10 @@ search.app:
 
 In just a few steps, you can use contacts, segments, and a customer journey to follow up with Teams webinar participants, [even if you are not an existing Dynamics 365 Marketing user](teams-journey.md). The tools within Dynamics 365 Marketing allow you to create groups of participants and send tailored messages, create and send surveys, improve outcomes with email analytics, save participant details for future use, attract participants with personalized invitations, and increase attendance with automated confirmations and reminders.
 
-Before you continue and customize the conversation with webinar participants, it's helpful to familiarize yourself with some Dynamics 365 Marketing terminology.
+> [!NOTE]
+> To follow up with Teams webinar participants, you need to enable Teams engagement reports by going to **Meetings** > **Meeting policies**, and setting the policy to **Enabled**. Learn more: [Engagement report](/microsoftteams/meeting-policies-in-teams-general#engagement-report).
+>
+> If you are an existing Dynamics 365 Marketing user, make sure to also set the [required permissions](teams-webinar-follow-up.md#required-permissions-to-follow-up-with-participants) in the Marketing app.
 
 ## Using the automatically created customer journey with your webinar data
 
@@ -61,6 +64,26 @@ Any existing Marketing user who follows up with Teams participants must be the [
 > [!NOTE]
 > To learn how to work with user accounts, licenses, and security roles in Marketing, see [Manage user accounts, user licenses, and security roles](admin-users-licenses-roles.md). All Marketing entities can be found in the **Custom Entities** tab in the **Security role** window, while the **User** entity can be found in the **Business Management** tab.
 
+## Troubleshoot synchronization errors
+
+Synchronization failures between Teams and Dynamics 365 Marketing are often related to customizations to the following entities:
+
+- Custom registration field
+- Customer journey
+- Event
+- Event custom registration field
+- File
+- Marketing email
+- Segment
+- Speaker
+- Speaker engagement
+ 
+To address synchronization failures, verify the following:
+
+-	Check for customizations on the above-listed entities that might trigger the error on creation or update. Customizations might include SDK message processing steps or workflows.
+-	The Marketing service user might lack required privileges related to operations that are triggered as a dependency on an entity that is created or updated during the synchronization flow. For instance, a custom SDK message processing step might trigger the creation of a dependent entity after a new event is created. Permissions required for these dependent operations need to be added to the pre-configured user called **MarketingServices ApplicationUser**. For details, see [Manage user accounts, user licenses, and security roles](admin-users-licenses-roles.md#dont-modify-or-remove-marketing-service-users).
+
+To get more details about the error and to retrigger the synchronization flow for the affected event, [contact support](troubleshoot-faq.md#how-can-i-create-a-support-ticket-from-the-power-platform-admin-center).
 
 ## Customize your journey or create a new one
 

@@ -1,35 +1,23 @@
 ---
-title: "Set up workstreams and queues for the voice channel | MicrosoftDocs"
-description: "Learn about how to set up workstreams and queues for the voice channel in Omnichannel for Customer Service."
+title: "Set up inbound calling for the voice channel | MicrosoftDocs"
+description: "Learn about how to set up workstreams and queues for inbound calling in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/27/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Preview: Set up workstreams and queues for the voice channel using unified routing
+# Set up inbound calling
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
 
 ## Introduction
 
 A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and voice.
 
-You'll perform the steps mentioned in this article in the Omnichannel admin center app. 
+You'll perform the steps mentioned in this article in the Omnichannel admin center app.
 
 ## Set up a voice workstream
 
@@ -51,7 +39,7 @@ Do the following to configure a workstream for voice:
 
 ## Configure a voice channel
 
-To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. To acquire a new number, you can select **Add number** on the **Phone numbers** page. More information: [Acquire a phone number](#acquire-a-phone-number).
+To configure the voice channel, you'll need to associate the workstream with a phone number for routing the calls. You can view the list of available phone numbers by selecting **Phone numbers** in the left pane. To get a new number, you can select **Add number** on the **Phone numbers** page. More information: [Acquire a phone number](#acquire-a-phone-number)
 
 **To configure the voice channel**
 
@@ -62,32 +50,30 @@ To configure the voice channel, you'll need to associate the workstream with a p
     > [!NOTE]
     > Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.
 
-    ![](media/image20.png)
+3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi-language-contact-center.md)
 
-3. On the **Music** page, select **Next** again. In private preview, the option to select the audio for ring tone is not available.
-
-4. On the **Language** page, select **Next**. In private preview, only English is supported.
-
-5. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
+4. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
 
    - Notify position in queue
-   - Notify average wait time 
+   - Notify average wait time
 
-6. Turn on the **Channel operating hours** toggle, and select an operating hour record.
+5. Turn on the **Channel operating hours** toggle, and select an operating hour record. More information: [Configure operating hours for your business](create-operating-hours.md)
 
-7. Configure the settings for transcription and recording of the calls in the **Transcription and recording** area.
+6. Configure the settings for transcription and recording of the calls in the **Transcription and recording** area. More information: [Configure call recordings and transcripts](voice-channel-configure-transcripts.md)
 
-8. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
+7. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
 
-9. Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
+8. Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
+
+    :::image type="content" source="media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
+
+9. Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
 
 10. On the **Summary** page, select **Save and close**.
 
-    ![Voice setup preview.](media/image22.png "Voice setup preview.")
-
 The phone number is associated with the workstream.
 
-   ![Phone number association with workstream.](media/image23.png "Phone number association with workstream.")
+:::image type="content" source="media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
 
 ## Acquire a phone number
 
@@ -103,7 +89,7 @@ In this section, we'll cover information on how to create a queue for the voice 
 
 In the left pane, select **Queues**, and then complete the following steps to create a queue for the voice channel:
 
-1. On the **Queues** page, select **New**, and on **Create a queue** dialog, enter the following details:
+1. On the **Queues** page, select **New**, and on **Create a queue** dialog, enter the following details.
 
     - **Name**: Specify a name.
     - **Type**: Select **Voice**.
@@ -123,7 +109,7 @@ With call overflow, you can reduce long wait times for customer calls by setting
 
 ### Assignment rules for a queue
 
-By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. More information: [Assignment methods](assignment-methods.md).
+By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. More information: [Assignment methods](assignment-methods.md)
 
 For a simple and quick voice call routing, you'll not need to set up any rules for unified routing. By default, all the incoming voice calls will get routed to the "default voice queue" and will get assigned to the agents with the round robin assignment methodology.
 
@@ -164,3 +150,8 @@ You can configure work classification rules for the voice workstream to add deta
 [Overview of voice channel in Omnichannel for Customer Service](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  
 [Assignment methods](assignment-methods.md)  
+[Set up outbound calling](voice-channel-outbound-calling.md)  
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)   
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -1,7 +1,7 @@
 ---
 title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 02/12/2021
+ms.date: 10/27/2021
 ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
@@ -43,7 +43,7 @@ The Field Service Settings page allows system administrators to set default sett
 | Calculate tax | Tax codes calculate and add taxes to used products and services. Set to *No* to remove the tax code field and calculations from all related forms. New environments created with Field Service v8.8.39.37+ will have this setting set to *No* by default. |
 | Calculate price | The work order has a number of pricing related fields and functions. By default, this field is set to *Yes* which will ensure all pricing related fields and logic are enabled. When this setting it set to *No* the work order's, work order product's, and work order service's pricing related fields are removed and pricing logic is disabled. Further, work order's will not generate invoices when the work order is set to "Posted".|
 | Generate actuals | When set to **Yes** many actuals records are created related to a work order over the course of a work order's lifecycle. If set to *No*, work order related actuals will not be automatically created. |
-| Show simplified work order commands | This setting influences the command bar on the work order's grid and form. By default, this field will be set to *Yes*, which means that a focused set of work order commands will be shown on the work order form and work order list view. The following commands will be hidden from the form: deactivate, check access, process, add to queue, queue item details, assign, share, email a link, flow, Word templates. The following commands will be hidden from the list view when no records are selected: email a link, flow, Excel templates, import from Excel. The following commands will be hidden from the list view when a record is selected: activate, deactivate, email a link, add to queue, flow, Word templates. When set to *No* all commands will be visible on the work order form and work order list view. |
+| Show simplified work order commands | This setting influences the command bar on the work order's grid and form. By default, this field will be set to *Yes*, which means that a focused set of work order commands will be shown on the work order form and work order list view. When set to _Yes_, the following commands will be hidden from the form: deactivate, check access, process, add to queue, queue item details, assign, share, email a link, flow, Word templates. The following commands will be hidden from the list view when no records are selected: email a link, flow, import from Excel. The following commands will be hidden from the list view when a record is selected: activate, deactivate, email a link, add to queue, flow, Word templates, Excel templates (also hidden when a record is selected). When set to *No* all commands will be visible on the work order form and work order list view. |
 | Resource  pay type  |  Choose from pay types that you have created in the system to calculate timestamp-based labor cost on booking journals when a booking is marked as complete. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up resource pay types](../field-service/set-up-resource-pay-types.md)  |
 | Work pay type   |  Select the pay type that will be used in conjunction with work performed during the resource’s normal work hours.   |
 | Business closure pay type  |  Select the pay type that will be applied on days that have been marked with **Business Closures**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](../customer-service/set-when-business-closed-cs-app.md) |
@@ -54,8 +54,7 @@ The Field Service Settings page allows system administrators to set default sett
 |  Default Crew Strategy  |   Select the strategy that will be applied, by default, to any crews created in the system. Upon install, this field is set to "Crew Leader Management." While this setting does apply a default value, this value can be managed independently for each crew.  |
 |  Schedule assistant  |  Choose default options for the schedule assistant.   |
 |  Auto filter service territory  |  Select whether the schedule assistant should automatically filter search results based on the work order territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)    |
-|  Default radius value    |   Select a default radius the schedule assistant will use when searching for resources for  work orders. For example, if you choose a 20 mile radius, then the schedule assistant will find resources within 20 miles of the work order  booking location.   |
-|  Default radius unit     |    Select miles or kilometers.      |
+
 
   
 ## Schedule board settings  
@@ -94,7 +93,7 @@ The Field Service Settings page allows system administrators to set default sett
 | RTV prefix | Select a default prefix for a return to vendor (RTV). The prefix will  be added to the beginning of the RTV number. This  helps you easily identify  an RTV from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md). |
 | RTV starting number |  Select a starting number for RTVs. For example, if you choose 2000, then your first RTV will be 2000, and second one will be 2001, and so on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md).    |
   
-### Agreement  
+## Agreement  
   
 |  Options   |    Description    |
 |------------|-------------------|
@@ -106,14 +105,14 @@ The Field Service Settings page allows system administrators to set default sett
 | Generate agreement work order X days in advance |  When auto generate work orders is set to **Yes**, the system will generate work order records based on the recurrence schedule and the existing booking dates. This setting determines how many days in advance of the booking date to generate the work order record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md)                                                         |
 |  Generate agreement invoices X days in advance  |  The system will generate invoice records based on the invoice recurrence schedule and the existing invoice dates. This setting determines how many days in advance of the invoice date to generate the invoice record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md)     |
 |  Record Generation Timing  | This field defines the default time which daily processes will run against agreement booking setups to generate work orders and agreement invoice setups to generate invoices. This value can also be managed independently for each agreement. |
-|  Pre/Post Booking Flexibility Date Field Population  | When defining an agreement, pre and post booking flexibility fields can be defined which will define the dynamic window in which each work order should plan to be booked. This Setting defines whether work orders generated from agreements will populate this window in the the "Date Window Start" and "Date Window End" fields or the "Time From Promised" and "Time To Promised" fields. Going forward, all new environments will automatically be set to **Populate Time From Promised/Time To Promised**. When configured this way, the "Date Window Start" and "Date Window End" fields will be hidden from the work order form.|
+|  Pre/Post Booking Flexibility Date Field Population  | When defining an agreement, pre and post booking flexibility fields can be defined which will define the dynamic window in which each work order should plan to be booked. This setting defines whether work orders generated from agreements will populate this window in the **Date Window Start** and **Date Window End** fields or the **Time From Promised** and **Time To Promised** fields. If set to **Populate Time From Promised/Time To Promised** then the _Pre and Post Booking Flexibility_ fields on the agreement will populate the **Time From Promised**/**Time To Promised** fields on the work order. When configured this way, the **Date Window Start** and **Date Window End** fields will be hidden from the work order form. Similary if set to **Populate Date Window Start/Date Window End** then the **Pre and Post Booking Flexibility** fields on the agreement will populate the **Date Window Start** and **Date Window End** fields on the work order. Going forward, all new environments will automatically be set to **Populate Time From Promised/Time To Promised**. |
   
 ## Purchase order settings 
   
 |  Options  |  Description  |
 |-----------|---------------|
 | Purchase order prefix  |  Select a default prefix for purchase orders. The prefix will  be added to the beginning of the purchase order number. This  helps you easily identify  purchase orders from other data in the system.  |
-| Purchase order approval required |  Select if a purchase order needs an approval before the status can be  changed to **Submitted**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a purchase order](../field-service/create-purchase-order.md)   |
+| Purchase order approval required |  Select if a purchase order needs an approval before the status can be changed to **Submitted** based on the **Purchase Order Approval Required** field on the purchase order. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a purchase order](../field-service/create-purchase-order.md)   |
 | Purchase order starting number  |   Select a starting number for purchase orders. For example, if you choose 4000, then your first purchase order will be 4000, and second one will be 4001, and so on.   |
 |   Use of product out of stock   | Select how the system reacts when a work order product is used for a product that is not currently in stock. **Confirm** will prompt the user to decide whether to continue or not, and **Restrict** will keep the work order product from being used. |
   
@@ -151,7 +150,6 @@ The Field Service Settings page allows system administrators to set default sett
   
 |   Options  |      Description     |
 |------------|----------------------|
-|  Bing API key   | The default key allows geocode and mapping functionality. If you need to use your own  key, specify it here.    |
 |  Entity number length  |   Enter the number of digits the entity numbers will be. For example, if you enter 5, the first work order number would be 00001.  |
 | Auto allocate estimate products | When products are added to a work order before the work begins, then the line status of the work order product record defaults to **Estimated**. This setting determines whether the work order product record is set to **Allocated** when the line status is still **Estimated**, as opposed to **Used**. |
 |  Auto geo code addresses |  Specify whether the system should automatically add the appropriate latitude and longitude values based on the account's address. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)   |
@@ -165,19 +163,10 @@ The Field Service Settings page allows system administrators to set default sett
 > ![Screenshot of the administration settings on the other section.](./media/administration-settings-other-section.png) 
 
 
-## GPS data settings
- [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] can be integrated with third-party GPS providers to allow the real-time location of resources or vehicles on schedule maps. These settings allow you to map the integrated GPS data to the [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] system.  
-  
-|  Options  |  Description   |  
-|-------------|-----------------|  
-| Custom GPS data | Select whether the system will use  a custom entity for its source  of geo locations for resources to be displayed on the map view.|  
-| Custom GPS resource field | Shows the logical name of the resource to be used for geo locations.|  
-| Custom GPS latitude field | Shows the logical name of the latitude to be used for geo locations.|  
-| GPS location expires after X minutes | Enter when GPS location expires.|  
-| Custom GPS location entity | Shows the logical name of customer entity to use for geo locations.|  
-| Custom GPS timestamp field | Shows the logical name of the timestamp to use for geo locations.|  
-| Custom GPS longitude field | Show the logical name of the longitude to be used for geo locations.|  
-   
+
+## Resource scheduling settings
+
+For settings related to resource scheduling, see the article on [Scheduling paramters in resource scheduling (Settings)](scheduling-parameters-settings.md).
   
 ### See also  
  [Overview](../field-service/overview.md)   
