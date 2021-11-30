@@ -115,12 +115,9 @@ After you have configured knowledge management on your app, you must also set up
     * Type: Select **URL**. 
     * URL: Enter  ```/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings```
 
-## Set up AI suggestions for article keywords and description (preview)
+## Set up AI suggestions for article keywords and description
 
-> [!IMPORTANT]
-> This section is pre-release documentation and is subject to change.
-
-You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description-preview).
+You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
 
 ## Set up knowledge search logic
 
