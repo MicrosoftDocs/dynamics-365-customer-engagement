@@ -209,12 +209,12 @@ For more information about identifying plug-ins registered on creation of an ent
 
 **Reason:**  
 
-The out-of-the-box **Qualify lead** command is visible on the Lead form only if Account, Contact, Lead, and Opportunity entities are set as editable in the Unified Interface, and the Account, Contact, and Opportunity entities are available in Mobile offline. 
+The out-of-the-box **Qualify lead** command is visible on the Lead form only if Account, Contact, Lead, and Opportunity entities are set as editable in Unified Interface, and the Account, Contact, and Opportunity entities are available in Mobile offline. 
 
 **Resolution:**
 
 If the **Qualify lead** command isn't available, check the following:
-- Account, Contact, Lead or Opportunity entities are set to read-only for mobile. If they are, clear the **Read-only in mobile** check box in entity customization so that the entity becomes editable for Unified Interface. More information: [Troubleshooting issues with the Unified Interface](ts-unified-interface.md)
+- Account, Contact, Lead or Opportunity entities are set to read-only for mobile. If they are, clear the **Read-only in mobile** check box in entity customization so that the entity becomes editable for Unified Interface. More information: [Troubleshooting issues with Unified Interface](ts-unified-interface.md)
 - Check if the Account, Contact, and Opportunity entities are part of the mobile offline profile. If they aren't, add these entities to the profile and publish the changes. More information: [Enable entities for mobile offline synchronization](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
 
 
