@@ -1,7 +1,7 @@
 ---
 title: "Continue the conversation with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to continue the conversation with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 11/24/2021
+ms.date: 11/29/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -29,6 +29,7 @@ The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in 
 
 To sign up for a 6-month Dynamics 365 Marketing trial:
 
+1. Enable Teams engagement reports by going to **Meetings** > **Meeting policies**, and setting the policy to **Enabled**. Learn more: [Engagement report](/microsoftteams/meeting-policies-in-teams-general#engagement-report).
 1. [Host a webinar in Teams](/microsoftteams/set-up-webinars) with at least one attendee.
 1. In Teams, select the **Attendance** tab to view the attendance report.
 1. On the top bar, select **Follow up with participants**.
