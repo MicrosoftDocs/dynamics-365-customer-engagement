@@ -37,7 +37,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 > Knowledge management is available out of the box through the Customer Service Hub app module, and it works with other customer apps as well. Articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
 
 > [!NOTE]
-> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means we don't expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with Knowledge articles](work-knowledge-articles.md)
+> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means we don't expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with knowledge articles](work-knowledge-articles.md)
 
 ## Knowledge management process
 
@@ -78,27 +78,27 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
    As the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article toward completeness. You can customize the stages in the Business Process flow to suit your  requirements.
 
 
-
+<!-- editor note: Should it be "Business Process flow bar" in step 7, below? -->
 
 
 7. On the Business process bar, select **Author**.  
 
 8. In the **Set Keywords** text box, add keywords for your article.
   
-9. In the **Article Subject** drop-down list, choose the subject of the article to help with article searches.  
+9. In the **Article Subject** dropdown list, choose the subject of the article to help with article searches.  
   
-10. In the **Assign Primary Author** drop-down list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
+10. In the **Assign Primary Author** dropdown list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
 
     Once a new article is created, the author value will be replicated to Primary author if it is a system user but not a team. The knowledge article author must be a single user (not a team) in order for it to be searchable and to load properly.
     
     You can mark the article complete by selecting the checkbox at this stage.
 
 > [!TIP]
-> Select the icon ![flyout icon.](media/flyout.png) to pin the stage flyout vertically.
+> Select the icon ![Flyout icon.](media/flyout.png) to pin the stage flyout vertically.
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
 
-## Use AI suggested article keywords and descriptions
+## Use AI-suggested article keywords and descriptions
 
 If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description)
 
@@ -107,18 +107,22 @@ However, either the **Title** or **Content** fields&mdash;or any other correspon
 1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description** link appears.
 
 1. Select the **View suggested keywords and description** link.
-    :::image type="content" source="media/v9-add-content-article.PNG" alt-text="View suggested keywords and description":::
+ 
+   :::image type="content" source="media/v9-add-content-article.PNG" alt-text="View suggested keywords and description.":::
 
 1. In the **Suggested keywords and description** dialog, do the following:
 
-   - Select the keywords that you want to add to your keywords list or select the **Insert all keywords** link to insert all the suggested keywords to the Keywords field. You can also type a keyword in the Keyword field and select the Enter key to add it to the Keywords field.
-   - Select **Insert suggested description**, to add the description to the **Description** field.
+   - Select the keywords that you want to add to your keywords list or select the **Insert all keywords** link to insert all the suggested keywords to the Keywords field. You can also type a keyword in the Keywords field and select **Enter** to add it.
+   - Select **Insert suggested description** to add the description to the **Description** field.
 
-    :::image type="content" source="media/v9-suggested-keywords-description-dialog.png" alt-text="Screenshot showing a Keyword field containing keywords that were selected from the list of suggested keywords below it.":::
+     :::image type="content" source="media/v9-suggested-keywords-description-dialog.png" alt-text="Screenshot showing a Keyword field containing keywords that were selected from the list of suggested keywords below it.":::
 
 1. Select **Apply Changes**.
 
 The selected keywords and description appear in the **Keywords** and **Description** fields of the knowledge article form.
+
+
+
 
 ## Personalize your language preferences for authoring knowledge articles
 
