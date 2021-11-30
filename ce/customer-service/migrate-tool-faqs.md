@@ -74,7 +74,7 @@ No. We currently only support one level of the related entity hierarchy. For suc
   
 **a.**	Premigration web client view.
 
-![Web view.](media/migration-tool-11-a.png "Web view")
+![Web view before migration.](media/migration-tool-11-a.png "Web view before migration")
     
 **Example: Post-migration Unified Interface view** 
   
@@ -83,7 +83,7 @@ No. We currently only support one level of the related entity hierarchy. For suc
 **2b.** The same standard placeholder **Created On equals 2200-01-01** is added to the condition.
 
 
-![Unified Interface view.](media/migration-tool-11-b.png "Unified Interface view")
+![Post migration Unified Interface view.](media/migration-tool-11-b.png "Post migration Unified Interface view")
 
 ### Why do my rule items or conditions with a DateType field that uses a "not on" operator fail during the premigration checkup and actual migration?
 
@@ -93,7 +93,7 @@ The **Not on** operator for the **Date** data type is not supported in Unified I
     
 **a.**	Premigration web client view.
         
-![Web view.](media/migration-tool-12-a.png "Web view")
+![Web view prior to migration for not on operator.](media/migration-tool-12-a.png "Web view prior to migration for not on operator")
 
 **Example: Post-migration Unified Interface view**
     
@@ -116,7 +116,7 @@ A separate time field doesn't exist in Unified Interface, so the DateTime field 
     
 **b.**	Premigration **Date only** location.
     
-![Web view.](media/faq-arc-sla-web-view-13.png "Web view")
+![Web view prior to migration for DateTime field.](media/faq-arc-sla-web-view-13.png "Web view prior to migration for DateTime field")
 
 **Example: Post-migration Unified Interface view** 
 
@@ -124,7 +124,7 @@ A separate time field doesn't exist in Unified Interface, so the DateTime field 
 
 **b.**	Post-migration **Date only** location
 
-![Unified Interface view.](media\faq-arc-sla-uci-view-13.png "Unified Interface view")
+![Unified Interface view - Date only.](media\faq-arc-sla-uci-view-13.png "Unified Interface view - Date only")
 
 ### Why are some of my operator fields blank in Unified Interface after migration?**
 
@@ -140,11 +140,12 @@ For lookup data types, only the **equal / not equal, null /not null** operators 
 
 **b.**	Post-migration Unified Interface view.
     
- ![Unified Interface view.](media\faq-arc-sla-uci-14.png "Unified Interface view")
+ ![Unified Interface view - operator field.](media\faq-arc-sla-uci-14.png "Unified Interface view - operator field")
 
 > [!Note]
 >
 > The following limitations are applicable when defining a condition in Customer Service Hub:
+>
 > - The Date & Time picker control is no longer available in the conditions; however, you can still edit the date and time in the text field.
 > - Only one level of the related entity hierarchy is supported, though the application lets you select nested, related entities.
 > - The related entity inside a group of the and/or clause is not supported.
@@ -185,7 +186,7 @@ Any activity party-type attribute assigned to another activity party-type field 
 
 **b.**	The **To** field will migrate.
     
-![Web view.](media/faq-arc-sla-web-client-17.png "Web view")
+![Web view prior to migration of activity party-type attribute.](media/faq-arc-sla-web-client-17.png "Web view prior to migration of activity party-type attribute")
 
 **Example: Post-migration Unified Interface view**
 
