@@ -48,7 +48,7 @@ After knowledge management is set up, users will be able to:
 
 ## Setup overview
 
-You can set up knowledge management either on the Customer Service Hub or manually for a model-driven app.
+You can set up knowledge management on the Customer Service Admin Center, Customer Service Hub, or manually for a model-driven app.
 
 - [Set up knowledge management (Customer Service Hub)](#set-up-knowledge-management-customer-service-hub)
 - [Set up knowledge management settings page manually for a model-driven app](#set-up-knowledge-management-settings-page-manually-for-a-model-driven-app)
@@ -60,13 +60,23 @@ After you have configured knowledge management on your app, you must also set up
 - [Set up AI suggestions for article keywords and description (preview)](#set-up-ai-suggestions-for-article-keywords-and-description-preview)
 - [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub)
 
-## Set up knowledge management (Customer Service Hub)
+## Set up knowledge management
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
   
-1. In the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
+1. Go to the **Settings** page.
+
+### [Customer Service Admin Center](#tab/customerserviceadmincenter )
+
+In Customer Service Admin Center site map, select **Knowledge** in **Experiences**. On the **Knowledge** page, **Other Settings** section, select **Manage**.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+In Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
+
+---
   
-2. In the **Knowledge Base Management Settings** wizard, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
+2. On the **Settings** page, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
 
   
 3. In the **Support Portal Connection** section, enter the following:  
