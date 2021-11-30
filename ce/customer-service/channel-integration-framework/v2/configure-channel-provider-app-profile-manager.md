@@ -40,7 +40,7 @@ Channel Integration Framework version 2.0 is for multisession applications such 
 |Label|The label is displayed as the title on the widget.|
 |Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework.|
 |Enable Outbound Communication|Selecting a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
-|Channel Order|The order precedence of the channel providers. That is, the priority to display the channel for the agents and unified Interface Apps.|
+|Channel Order|The order precedence of the channel providers. That is, the priority to display the channel for the agents and unified Interface apps.|
 |API Version|The version of the Channel Integration Framework APIs.|
 |Trusted Domain| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
 |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
