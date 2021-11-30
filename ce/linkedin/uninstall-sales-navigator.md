@@ -1,6 +1,6 @@
 ---
-title: "Uninstall LinkedIn Sales Navigator in Dynamics 365 | Microsoft Docs"
-description: "How to uninstall LinkedIn Sales Navigator in Dynamics 365."
+title: "Remove LinkedIn Sales Navigator from Dynamics 365"
+description: "If you want to uninstall LinkedIn Sales Navigator, follow these steps to delete the appropriate solutions in the correct order."
 ms.date: 06/25/2020
 ms.topic: article
 author: udaykirang
