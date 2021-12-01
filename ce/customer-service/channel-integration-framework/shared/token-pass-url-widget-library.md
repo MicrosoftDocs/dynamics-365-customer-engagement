@@ -5,8 +5,8 @@ To access the Dynamics 365 Channel Integration Framework (CIF) APIs, you need to
 
 A Dynamics 365 URL to a widget library can be passed by using one of the following methods.
 
-- Add attributes to the script tag
-- Add a URL parameter
+- Add attributes to the script tag.
+- Add a URL parameter.
 
 ## Add attributes to the script tag
 

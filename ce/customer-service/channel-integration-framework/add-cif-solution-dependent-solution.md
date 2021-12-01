@@ -23,7 +23,7 @@ ms.custom:
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
 
-[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
+[Authenticate channel users to log in to the channel (widget)](authenticate-channel-users.md)
 
 [Pass a Dynamics 365 URL to a widget library](pass-url-widget-library.md)
 
