@@ -112,7 +112,7 @@ In addition, you can select the **Regarding** record to view which opportunity o
 
 Use the Dynamics 365 for phones and tablets app to compose an email within the app with the following capabilities:
 
-- Full email editor formatting supported as available in the Unified Interface apps.
+- Full email editor formatting supported as available in Unified Interface apps.
 - Add attachments to an email.
 - Search for and apply a predefined template to an email. 
 
