@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 10/11/2021
+ms.date: 11/30/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -195,7 +195,7 @@ Perform the following steps to manually apply the rule to any existing or manual
 
 > [!NOTE]
 >
-> - If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.
+> - If you’re importing bulk records, and don’t want the routing rules to be applied to the cases that you’re importing, add a column **Route Case** to the spreadsheet used for importing the records, and add the value **No** for all the cases that you don’t want to route.
 > - Cases can be created and routed programmatically. If you want to override this behavior, set the value for the RouteCase attribute to "No".
 
 ## Recommendation to upgrade solution
