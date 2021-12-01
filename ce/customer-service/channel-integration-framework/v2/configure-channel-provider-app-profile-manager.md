@@ -8,7 +8,7 @@ ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 searchScope: 
- - D365-App-msdyn_channelintegrationframeworkapp 
+ - D365-App-customerservicehub 
  - D365-Entity-msdyn_channelprovider
  - D365-UI-view
  - Dynamics 365 
@@ -20,7 +20,9 @@ searchScope:
 
 The app profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../app-profile-manager/overview.md)
 
-Channel Integration Framework version 2.0 is for multisession applications such as Omnichannel for Customer Service and Customer Service workspace. Use the app profile manager as follows to configure a third-party voice channel provider with a multisession application:
+Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Customer Service workspace.
+
+**To configure a third-party channel provider with a multisession application**
 
 1. Sign in to your [Power Apps](https://make.powerapps.com) portal.
 
@@ -43,11 +45,11 @@ Channel Integration Framework version 2.0 is for multisession applications such 
 | Field | Description |
 |-------|-------|
 |Name|Name of the channel provider.|
-|Unique Name|A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT:** The following are required for the unique name:<ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li><li>An underscore must be there between the prefix and name</li></ul>|
+|Unique Name|A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT:** The following are required for the unique name:<ul><li> The prefix has to be alphanumeric with a length of 3-8 characters.</li><li>The prefix must include an underscore</li></ul>|
 |Label|The label is displayed as the title on the widget.|
 |Channel URL|The URL of the provider to host in the widget. See the JavaScript APIs on how to develop communication widget with Dynamics 365 Channel Integration Framework.|
 |Enable Outbound Communication|Selecting a phone number in the Dynamics 365 Unified Interface page, the widget initiates the call or outbound communication.|
-|Channel Order|The order precedence of the channel providers. That is, the priority to display the channel for the agents and unified Interface Apps.|
+|Channel Order|The order of precedence of the channel providers. That is, the priority to display the channel for the agents and Unified Interface apps.|
 |API Version|The version of the Channel Integration Framework APIs.|
 |Trusted Domain| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
 |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|

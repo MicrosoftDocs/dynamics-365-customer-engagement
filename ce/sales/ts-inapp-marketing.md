@@ -119,7 +119,7 @@ Provide sufficient permissions for the **Send Email as another User** option to 
 
 **Reason**
 
-The Unified Interface implementation of the email template selector used during campaign distribution relies on certain access levels for different entities.
+The email template selector  in Unified Interface relies on certain access levels for different entities.
 
 **Resolution**
 
