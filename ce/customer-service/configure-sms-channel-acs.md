@@ -23,7 +23,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 - [Connect to Azure Communication Services](voice-channel-acs-resource.md).  
   
    If you’ve connected your existing Azure resource, ensure that you’ve [created an event subscription endpoint for SMS](voice-channel-acs-resource.md#create-event-subscription-endpoint-for-sms).
-- Provision a phone number that's enabled for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number features. More information: [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)
+- Provision a phone number that's enabled for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number features in Omnichannel admin center. More information: [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)
    
     If you're using an existing phone number that's not enabled for SMS, then you can upgrade your plan. More information: [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
 
@@ -41,7 +41,8 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
      - [Configure post-conversation survey](configure-post-conversation-survey.md).
    4. On the **User features** page, turn on the **File attachments** toggle and select the following options for file exchange:
      - **Customers can send file attachments**
-     - **Agents can send file attachments** - For more information about file attachments, see [Configure file attachment](configure-file-attachment.md).
+     - **Agents can send file attachments**<br>
+        For information about file attachments, see [Configure file attachment](configure-file-attachment.md).
    5. Verify the settings on the **Summary** page, and then select **Finish**. The SMS channel is now configured.
 3. [Configure routing rules](configure-work-classification.md).
 4. [Configure work distribution](create-workstreams.md#configure-work-distribution).
