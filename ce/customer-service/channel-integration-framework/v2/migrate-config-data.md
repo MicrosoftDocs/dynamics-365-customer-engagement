@@ -13,7 +13,7 @@ search.audienceType:
 
 # Migrate third-party channel configuration data
 
-This topic provides information about how you can migrate third-party channel configuration data from Dynamics 365 Channel Integration Framework 1.0 to Channel Integration Framework 2.0 in both the Customer Service workspace and Omnichannel for Customer Service apps.
+This topic provides information about how you as an administrator can migrate third-party channel configuration data from Dynamics 365 Channel Integration Framework 1.0 to Channel Integration Framework 2.0 in both the Customer Service workspace and Omnichannel for Customer Service apps.
 
 ## Migrate channel configuration data in Customer Service workspace
 
@@ -25,9 +25,9 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 3. [Assign user to this profile](/app-profile-manager/app-profile-manager#assign-profiles-to-users).
 
-4. In the channel provider code, make sure the widget mode is visible. You can use the [setMode](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API to make the widget visible.
+4. In the channel provider code, make sure that the communication panel state is set to the docked state using the [setMode(1)](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API.
 
-5. Open Customer Service workspace and check if the chat widget is visible.
+5. Open Customer Service workspace and check if the communication panel is visible.
 
 ## Migrate channel configuration data in Omnichannel for Customer Service
 
@@ -43,9 +43,9 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 4. [Assign user to this profile](/app-profile-manager/app-profile-manager#assign-profiles-to-users).
 5. Make sure that the **Active Channel Providers** view is enabled.
-6. In the channel provider code, make sure the widget mode is visible. You can use the [setMode](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API to make the widget visible.
+6. In the channel provider code, make sure that the communication panel state is set to the docked state using the [setMode(1)](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API.
 
-7. Open Omnichannel for Customer Service and check if the chat widget is visible.
+7. Open Omnichannel for Customer Service and check if the communical panel is visible.
 
 ## Check your migration
 
