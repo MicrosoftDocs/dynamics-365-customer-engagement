@@ -686,6 +686,8 @@
       items: 
       - name: Set up SMS channels
         items: 
+        - name: Configure an SMS channel using Azure Communication Services
+          href: configure-sms-channel-acs.md
         - name: Configure an SMS channel for TeleSign
           href: configure-sms-channel.md
         - name: Configure an SMS channel for Twilio
