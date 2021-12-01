@@ -49,7 +49,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 ## Check your migration
 
-You can check whether the migration is successful and validate your configuration data by performing the following steps:
+You can check whether the migration is successful and validate your configuration data by performing the following steps.
 
 1. Check whether Channel Integration Framework 2.0 library is loaded correctly.
     To do so, open your web browser and in the **Developer Tools** > **Sources** tab, search for **msdyn_channelintegrationframework.js**. If the file is found, it means that the Channel Integration Framework 2.0 library is loaded correctly.
