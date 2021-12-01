@@ -43,8 +43,8 @@ Customers edit out-of-the-box fields to accommodate their business needs. Howeve
 To avoid errors, don't add, edit, or remove _option set values_ for the following fields:
 
 - Work order
- - System status
- - Work location
+  - System status
+  - Work location
 - Work order product
   - Line status
 - Work order service
