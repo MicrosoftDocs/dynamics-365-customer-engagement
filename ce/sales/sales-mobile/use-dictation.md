@@ -62,6 +62,118 @@ The Dynamics 365 Sales mobile app allows you to dictate text in a [compliant and
 
 6. Once you finish speaking and the text is written on the screen, tap the microphone button to stop listening. 
 
+## Supported languages 
+
+The following languages are supported by the dictation capability in the mobile app.
+
+|     Language              |     Country/Region                  |
+|---------------------------|-------------------------------------|
+|     Arabic                |     Algeria                         |
+|     Arabic                |     Bahrain                         |
+|     Arabic                |     Egypt                           |
+|     Arabic                |     Iraq                            |
+|     Arabic                |     Israel                          |
+|     Arabic                |     Jordan                          |
+|     Arabic                |     Kuwait                          |
+|     Arabic                |     Lebanon                         |
+|     Arabic                |     Libya                           |
+|     Arabic                |     Morocco                         |
+|     Arabic                |     Oman                            |
+|     Arabic                |     Qatar                           |
+|     Arabic                |     Saudi Arabia                    |
+|     Arabic                |     Palestinian   Authority         |
+|     Arabic                |     Syria                           |
+|     Arabic                |     Tunisia                         |
+|     Arabic                |     United Arab   Emirates          |
+|     Arabic                |     Yemen                           |
+|     Bulgarian             |     Bulgaria                        |
+|     Catalan               |     Catalan                         |
+|     Chinese               |     Traditional,   Hong Kong SAR    |
+|     Chinese               |     Simplified,   China             |
+|     Chinese               |     Traditional,   Taiwan           |
+|     Croatian              |     Croatia                         |
+|     Czech                 |     Czechia                         |
+|     Danish                |     Denmark                         |
+|     Dutch                 |     Netherlands                     |
+|     English               |     Australia                       |
+|     English               |     Canada                          |
+|     English               |     Ghana                           |
+|     English               |     Hong Kong SAR                   |
+|     English               |     India                           |
+|     English               |     Ireland                         |
+|     English               |     Kenya                           |
+|     English               |     New Zealand                     |
+|     English               |     Nigeria                         |
+|     English               |     Philippines                     |
+|     English               |     Singapore                       |
+|     English               |     South Africa                    |
+|     English               |     Tanzania                        |
+|     English               |     United   Kingdom                |
+|     English               |     United States                   |
+|     Estonian              |     Estonia                         |
+|     Filipino              |     Philippines                     |
+|     Finnish               |     Finland                         |
+|     French                |     Canada                          |
+|     French                |     France                          |
+|     French                |     Switzerland                     |
+|     German                |     Austria                         |
+|     German                |     Switzerland                     |
+|     German                |     Germany                         |
+|     Greek                 |     Greece                          |
+|     Gujarati              |     India                           |
+|     Hebrew                |     Israel                          |
+|     Hindi                 |     India                           |
+|     Hungarian             |     Hungary                         |
+|     Indonesian            |     Indonesia                       |
+|     Irish                 |     Ireland                         |
+|     Italian               |     Italy                           |
+|     Japanese              |     Japan                           |
+|     Korean                |     Korea                           |
+|     Latvian               |     Latvia                          |
+|     Lithuanian            |     Lithuania                       |
+|     Malay                 |     Malaysia                        |
+|     Maltese               |     Malta                           |
+|     Marathi               |     India                           |
+|     Norwegian   Bokmål    |     Norway                          |
+|     Persian               |     Iran                            |
+|     Polish                |     Poland                          |
+|     Portuguese            |     Brazil                          |
+|     Portuguese            |     Portugal                        |
+|     Romanian              |     Romania                         |
+|     Russian               |     Russia                          |
+|     Slovak                |     Slovakia                        |
+|     Slovenian             |     Slovenia                        |
+|     Spanish               |     Argentina                       |
+|     Spanish               |     Bolivia                         |
+|     Spanish               |     Chile                           |
+|     Spanish               |     Colombia                        |
+|     Spanish               |     Costa Rica                      |
+|     Spanish               |     Cuba                            |
+|     Spanish               |     Dominican   Republic            |
+|     Spanish               |     Ecuador                         |
+|     Spanish               |     El Salvador                     |
+|     Spanish               |     Equatorial   Guinea             |
+|     Spanish               |     Guatemala                       |
+|     Spanish               |     Honduras                        |
+|     Spanish               |     Mexico                          |
+|     Spanish               |     Nicaragua                       |
+|     Spanish               |     Panama                          |
+|     Spanish               |     Paraguay                        |
+|     Spanish               |     Peru                            |
+|     Spanish               |     Puerto Rico                     |
+|     Spanish               |     Spain,   International Sort     |
+|     Spanish               |     Uruguay                         |
+|     Spanish               |     United States                   |
+|     Spanish               |     Venezuela                       |
+|     Kiswahili             |     Kenya                           |
+|     Swedish               |     Sweden                          |
+|     Tamil                 |     India                           |
+|     Telugu                |     India                           |
+|     Thai                  |     Thailand                        |
+|     Turkish               |     Turkey                          |
+|     Vietnamese            |     Vietnam                         |
+|||
+
 ### See also
 
 [Manage notes](view-edit-add-note.md)
