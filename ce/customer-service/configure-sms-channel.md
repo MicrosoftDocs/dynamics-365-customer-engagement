@@ -160,7 +160,9 @@ When you validate the API key while setting up the SMS channel, a call is made t
 ### See also
 
 [Overview of channels](channels.md) <br />
-[Understand and create work streams](create-workstreams.md)  <br />
+[Understand and create workstreams](create-workstreams.md)  <br />
+[Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
+[Configure SMS channel using Twilio](configure-sms-channel-twilio.md)	
 [Create and manage routing rules](routing-rules.md) <br />
 [Configure automated messages](configure-automated-message.md) <br />
 [Delete a configured channel](delete-channel.md)<br />
