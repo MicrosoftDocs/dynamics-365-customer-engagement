@@ -61,4 +61,3 @@ Microsoft.CIFramework.deleteRecord(entityLogicalName, id).then(
     }
 );
 ```
-5af02e2a-d0d1-e811-8158-000d3af97055

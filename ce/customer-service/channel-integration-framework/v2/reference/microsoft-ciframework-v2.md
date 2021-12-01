@@ -1,6 +1,6 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Read about the APIs of Dynamics 365 Channel Integration Framework."
+description: "Includes information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 02/28/2020
 ms.topic: reference
 author: mh-jaya
@@ -15,7 +15,7 @@ ms.custom:
 
 Provides methods to use JavaScript API to manage the communication panel (widget), notification, application tab, sessions, records, and forms in the Dynamics 365 model-driven app.
 
-## Communication Panel Management APIs
+## Communication panel management APIs
 
 The communication panel is where you as an agent interact with the customer. Partner widgets built using Channel Integration Framework 2.0 are loaded in this panel. The communication widget in this version is displayed to the left of the session panel and supports Docked, Minimized, and Hidden modes.
 
@@ -28,7 +28,7 @@ You can use the following APIs to manage the state of the communication panel(wi
 | [setMode](microsoft-ciframework/setMode.md) | [!INCLUDE[setMode-description](microsoft-ciframework/includes/setMode-description.md)] |
 | [getMode](microsoft-ciframework/getMode.md) | [!INCLUDE[getMode-description](microsoft-ciframework/includes/setMode-description.md)] |
 
-## CRUD Operations APIs
+## CRUD operations APIs
 
 These APIs enable you to perform CRUD operations on entity records.
 
@@ -39,13 +39,13 @@ These APIs enable you to perform CRUD operations on entity records.
 | [updateRecord](microsoft-ciframework/updateRecord.md) | [!INCLUDE[updateRecord-description](microsoft-ciframework/includes/updateRecord-description.md)] |
 | [deleteRecord](microsoft-ciframework/deleteRecord.md) | [!INCLUDE[deleteRecord-description](microsoft-ciframework/includes/deleteRecord-description.md)] |
 
-## Notification Management APIs
+## Notification management APIs
 
 | Methods | Description |
 |---------|-------------|
 | [notifyEvent](microsoft-ciframework/notifyEvent.md)| Displays a notification that can be used to inform agent about an incoming conversation. |
 
-## Application Tab Management APIs
+## Application tab management APIs
 
 These APIs enable you to create and manage the state of an application tab.
 
@@ -58,7 +58,7 @@ These APIs enable you to create and manage the state of an application tab.
 | [refreshTab](microsoft-ciframework/refreshtab.md) | Refreshes the tab. |
 | [setTabTitle](microsoft-ciframework/settabtitle.md) | Sets the title of the tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.|
 
-## Session Management APIs
+## Session management APIs
 
 These APIs allow you to manage sessions in a multisession provider environment.
 
@@ -72,7 +72,7 @@ These APIs allow you to manage sessions in a multisession provider environment.
 | [setSessionTitle](microsoft-ciframework/setsessiontitle.md) | Sets the session title, if the session belongs to the channel provider. |
 | [requestFocusSession](microsoft-ciframework/requestFocusSession.md) | Sets the focus on the session whose Session Id is passed as a parameter, if the session belongs to the channel provider. |
 
-## Channel Analytics APIs
+## Channel analytics APIs
 
 Channel Analytics APIs enable you to track event analytics.
 
@@ -81,7 +81,7 @@ Channel Analytics APIs enable you to track event analytics.
 | [initLogAnalytics](/dynamics365/customer-service/channel-integration-framework/v2/reference/updateConversation) | Invoke this method on an incoming conversation to log analytics.|
 | [logAnalyticsEvent](microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events.|
 
-## Session Indicator APIs
+## Session indicator APIs
 
 Session indicator APIs indicate a KPI breach and can be used to update the number of new activities in a particular session.
 
@@ -90,7 +90,7 @@ Session indicator APIs indicate a KPI breach and can be used to update the numbe
 | [notifyKpiBreach](microsoft-ciframework/notifyKPIBreach.md) | This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.|
 | [notifyNewActivity](microsoft-ciframework/notifyNewActivity.md) | This method is used to update the number of new activities in a particular session.|
 
-## Miscellaneous Methods
+## Miscellaneous methods
 
 | Methods | Description |
 |---------|-------------|
@@ -103,13 +103,13 @@ Session indicator APIs indicate a KPI breach and can be used to update the numbe
 | [renderSearchPage](microsoft-ciframework/renderSearchPage.md)| [!INCLUDE[openForm-description](microsoft-ciframework/includes/renderSearchPage-description.md)] |
 | [addHandler](microsoft-ciframework/addHandler.md) | [!INCLUDE[addHandler-description](microsoft-ciframework/includes/addHandler-description.md)] |
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/includes/removeHandler-description.md)] |
-| [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set automation dictionary. |
+| [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 
 ### See also
 
-[What's new in Channel Integration Framework](../../whats-new-channel-integration-framework.md)
+[What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)
 
-[System requirements for Channel Integration Framework](../../system-requirements-channel-integration-framework.md)
+[System requirements of Dynamics 365 Channel Integration Framework](../../system-requirements-channel-integration-framework.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

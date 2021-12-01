@@ -44,7 +44,7 @@ On success, returns a promise containing a string with the attributes and their 
 
 ## Examples
 
-The sample code demonstrates to create a sample contact record.
+The sample code demonstrates how to create a sample contact record.
 
 ```JavaScript
 var entityLogicalName = "contact";
@@ -92,5 +92,4 @@ Microsoft.CIFramework.createRecord("account",jsonData).then(
           //handle error conditions
       }
 );
-
 ```
