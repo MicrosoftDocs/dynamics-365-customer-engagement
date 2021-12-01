@@ -16,7 +16,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 
 > [!NOTE]
 > - SMS is currently available for toll-free numbers in the United States only. 
-> - SMS is not supported with Azure direct routing.
+> - SMS is not supported with [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing).
 
 ## Prerequisites
 
