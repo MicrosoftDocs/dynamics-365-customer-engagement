@@ -25,7 +25,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 3. [Assign user to this profile](/app-profile-manager/app-profile-manager#assign-profiles-to-users).
 
-4. In the channel provider code, make sure that the communication panel state is set to the docked state using the [setMode(1)](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API.
+4. In the channel provider code, make sure that the communication panel is set to the docked state using the [setMode(1)](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API.
 
 5. Open Customer Service workspace and check if the communication panel is visible.
 
@@ -43,7 +43,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 4. [Assign user to this profile](/app-profile-manager/app-profile-manager#assign-profiles-to-users).
 5. Make sure that the **Active Channel Providers** view is enabled.
-6. In the channel provider code, make sure that the communication panel state is set to the docked state using the [setMode(1)](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API.
+6. In the channel provider code, make sure that the communication panel is set to the docked state using the [setMode(1)](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API.
 
 7. Open Omnichannel for Customer Service and check if the communication panel is visible.
 
