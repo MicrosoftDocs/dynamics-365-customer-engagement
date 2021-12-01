@@ -57,7 +57,7 @@ After you have configured knowledge management on your app, you must also set up
 
 - [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
 - [Knowledge article templates](create-templates-knowledge-article.md#knowledge-article-templates)
-- [Set up AI suggestions for article keywords and description (preview)](#set-up-ai-suggestions-for-article-keywords-and-description-preview)
+- [Set up AI suggestions for article keywords and description](#set-up-ai-suggestions-for-article-keywords-and-description)
 - [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub)
 
 ## Set up knowledge management (Customer Service Hub)
