@@ -25,7 +25,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 3. [Assign user to this profile](/app-profile-manager/app-profile-manager#assign-profiles-to-users).
 
-4. In the channel provider code, make sure the widget mode is visible. You can use the [Microsoft.CIFramework.setMode(1)](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API to make the widget visible.
+4. In the channel provider code, make sure the widget mode is visible. You can use the [setMode](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API to make the widget visible.
 
 5. Open Customer Service workspace and check if the chat widget is visible.
 
@@ -43,7 +43,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 4. [Assign user to this profile](/app-profile-manager/app-profile-manager#assign-profiles-to-users).
 5. Make sure that the **Active Channel Providers** view is enabled.
-6. In the channel provider code, make sure the widget mode is visible. You can use the [Microsoft.CIFramework.setMode(1)](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API to make the widget visible.
+6. In the channel provider code, make sure the widget mode is visible. You can use the [setMode](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API to make the widget visible.
 
 7. Open Omnichannel for Customer Service and check if the chat widget is visible.
 
