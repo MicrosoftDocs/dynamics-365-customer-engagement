@@ -55,7 +55,7 @@ Go to the schedule board and use the toggle button in the top right of the sched
 
 The new schedule board is not turned on by default, so you'll have to enable it in order to use it in your organization.
 
-To enable the new schedule board, go to Scheduling > Administration > Scheduling Parameters and switch on the **Enable new Schedule Board** toggle.
+To enable the new schedule board, go to **Scheduling** > **Administration** > **Scheduling Parameters** and switch on the **Enable new Schedule Board** toggle.
 
 > [!div class="mx-imgBorder"]
 > ![Scheduling parameters in Field Service, showing the toggle to enable the new schedule board.](../../field-service/media/schedule-board-new-opt-in-organization.png)
