@@ -1,5 +1,5 @@
 ---
-title: "onSizeChanged (JavaScript API Reference) for Dynamics Channel Integration Framework 2.0 | MicrosoftDocs"
+title: "onSizeChanged (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about onSizeChanged event and its syntax for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 12/31/2019
 ms.topic: reference
