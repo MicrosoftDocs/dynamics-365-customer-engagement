@@ -199,8 +199,6 @@ You can choose a specific format or style for the content you’re writing. The 
    > You can access your browser's context menu by pressing **Ctrl+right-click**. This is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.
 
 
-<!-- Please check to see if the image for Paragraph Format is in the Media folder. I don't see the image in preview view. -->
-
 <!-- For the font size description, is "the topmost font name of your selection is displayed" correct, or should it be "the topmost font size"? -->
 
 
@@ -253,8 +251,8 @@ You can insert an image by directly copying and pasting it inline in the editor,
 
 Before using inline images, keep in mind the following: 
 
-- The following formats are supported: .PNG, .JPG., or .GIF
-- The following browsers are supported: Microsoft Edge, Chrome, Firefox, Safari
+- These are the supported formats: PNG, JPG, or GIF
+- These are the supported browsers: Microsoft Edge, Chrome, Firefox, Safari
 
 
 **Drag and drop an image**
@@ -262,7 +260,7 @@ Before using inline images, keep in mind the following:
 > [!Note]
 > You can only drag and drop an image in an editable area of the editor.
 
-1. Drag and drop the image either on top of the content or in the middle of the content in the editor.
+1. Drag and drop the image either above the content or in the middle of the content in the editor.
 
 2. Drag any corner of the image to resize it to your desired size in the editor.
 
@@ -275,7 +273,12 @@ Before using inline images, keep in mind the following:
 
 2. Right-click the image, then select **Copy**.
 
-3. Go to the desired location in the editor where you want to insert the image, and then either right-click and select **Paste**, or select press **Ctrl+V**.
+
+
+<!-- Below, do you need to right-click if you select Ctrl+V? If so, I suggest changing the wording to "then right-click and either select ...." -->
+
+
+3. Go to the desired location in the editor where you want to insert the image, and then either right-click and select **Paste**, or select **Ctrl+V**.
 
 **Insert a URL for an image**
 
@@ -284,7 +287,9 @@ To insert an image by using a URL or navigating to the local image:
 1. In the editor, choose **Insert Image**.
 2. In the **Image** property dialog, choose from the following options:
    - Specify the web address of the image, and also specify properties to define how the image will appear in the email or article.
-   **Note:** If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.
+    
+     **Note:** If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, top-most window, same window, or parent window.
+
    - Select **Browse** to navigate to the image on your computer.
 
   
@@ -292,12 +297,12 @@ To insert an image by using a URL or navigating to the local image:
 
 You can author and edit the article in the HTML tab of the Content editor panel, using HTML tags.
 
-![HTML panel.](media/html-panel.png "HTML pane in content editor for knowledge article")
+![HTML panel.](media/html-panel.PNG "HTML pane in content editor for knowledge article")
 
 
 ### Preview
 
-You can preview the content to view its compatibility on multiple devices, like Tablets, or Phones.
+You can preview the content to view its compatibility on multiple devices, like tablets or phones.
 
 ![Preview panel.](media/preview-panel.png "Preview pane in content editor for knowledge article")
 
@@ -316,7 +321,7 @@ When you're creating a knowledge article, you can attach one or more files to it
 
 To attach a file to a knowledge article:
 
-1. Open the knowledge article where you want to add a file attachment, and then on the **Content** tab, on the right-hand side of the screen, select **Attach Files From**.
+1. Open the knowledge article where you want to add a file attachment, and then on the **Content** tab, on the right side of the screen, select **Attach Files From**.
  
    ![Attach a file.](media/attach-file-knowledge-article.png "Attach files to a knowledge article")
 
@@ -331,9 +336,14 @@ The **Attached files** section displays all of your knowledge article attachment
 For your attached files, use these commands to do the following:
 
 - **Select**: Allows you to select one or more attachments by clicking the box that appears on the attachments, and then you can either **Remove** or **Download** the selected files.
-- **Sort**: Allows you to sort records by a specific filter, such a file name or size.
+- **Sort**: Allows you to sort records by a specific filter, such as file name or size.
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
+
+
+
+
+
 
 #### User permissions to view and download file attachments
 
