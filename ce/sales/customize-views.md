@@ -1,6 +1,6 @@
 ---
 title: "Customize views (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "Use views in Dynamics 365 Sales Professional to define how a list of records for a specific entity is displayed."
+description: "Use views in Dynamics 365 Sales to define how a list of records for a specific entity is displayed."
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01
@@ -10,12 +10,21 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Customize views (Sales Professional)
+# Customize views 
 
-> [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
+In Dynamics 365 Sales, use views to define how a list of records for a specific entity is displayed. 
 
-In Dynamics 365 Sales Professional, use views to define how a list of records for a specific entity is displayed. A view defines: 
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator, Sales Manager, or Sales Professional Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## What's a view
+
+A view defines: 
 
 -   The columns to be displayed.
 
@@ -31,17 +40,31 @@ are used in the application. 
 
 ## Types of views 
 
-There are two types of views in Dynamics 365 Sales Professional: System views and personal views. System views are views that are included with the app
-or that are created by customizers and made available to some or all users. As a system administrator or system customizer, you can edit system views. System views are
-special views the application depends on, which exist for system entities or are automatically created when you create custom entities. These views have specific
-purposes and some additional capabilities.
+There are two types of views in Dynamics 365 Sales: 
+- **System or public views** 
 
-Personal views are created by individual users. They are visible only to that user or to other users they choose to share their personal views with. As a user,
-you can create a new personal view based on a system or public view. You can't create a system or public view based on a personal view. 
+    System or public views are views that are included with the app or that are created by customizers and made available to some or all users. As a system administrator or system customizer, you can edit the views. System or public views are special views the application depends on, which exist for system entities or are automatically created when you create custom entities. These views have specific purposes and some additional capabilities.
+
+- **Personal views** 
+
+    Personal views are created by individual users. They are visible only to that user or to other users they choose to share their personal views with. As a user, you can create a new personal view based on a system or public view. You can't create a system or public view based on a personal view. 
+
+## Create a system view
+
+Depending on the license you have, select one of the following tabs for more information:
+
+# [Sales Premium and Sales Enterprise](#tab/SE)
+
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+
+2. Follow the instructions in [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer?context=/dynamics365/context/sales-context) to create views.  
+
+# [Sales Professional](#tab/SP)
+
 
 This topic covers how to create system views as a customizer. 
 
-## Open a system view
+### Open a system view
 
 1.  In the site map, select **Sales Settings**.
 
@@ -54,7 +77,7 @@ This topic covers how to create system views as a customizer. 
     ![List of views.](media/view-list.png "List of views")
 
   
-## Create a new system view
+### Create a new system view
 
 You can create your own views, specific to your organization's practices and processes. 
 
@@ -80,7 +103,7 @@ You can create your own views, specific to your organization's practices and pro
 
         The name is set when you click or tab outside the text box. You can change the name later by clicking it again, or by changing it in the **Properties** tab. 
 
-## Add a column to your view
+### Add a column to your view
 
 Views display records in a table that contains rows and columns. Each row is a record, and the fields from the records are determined by the columns you add to
 the view. 
@@ -99,7 +122,7 @@ the view. 
 
 -   You can also move the columns around after they are added to your view. 
 
-## Set column width
+### Set column width
 
 After adding the columns, you can change the width of the column. 
 
@@ -107,7 +130,7 @@ After adding the columns, you can change the width of the column. 
 
 2.  In the **Properties** tab, set the width to the value you want by using the arrows to increase or decrease the column width.
 
-## Set the primary and secondary column sort order
+### Set the primary and secondary column sort order
 
 When a view is opened, the records displayed are sorted in the order you set when creating the view. You can sort on a single column or sort on two
 columns with a primary and secondary sort order. When the view is opened, the records are sorted by the column defined as the primary sort, and then
@@ -125,7 +148,7 @@ by the column defined as the secondary sort.  
     > [!NOTE]
     > If you remove the column defined as the primary sort, the column defined as the secondary sort becomes the primary sort. 
 
-## Set the order for the primary sort 
+### Set the order for the primary sort 
 
 You can set the sort order to ascending or descending for the column defined as the primary sort column: 
 
@@ -140,7 +163,7 @@ When the arrow is pointing up, the sort order is ascending. When the arrow is po
 
 <!--note from editor: some of the co. names in the graphic above, eg "Litware" and "Coho Winery" not on approved list that I have access to on the CELA website.  -->
 
-## Rearrange columns in a view 
+### Rearrange columns in a view 
 
 You can change the order of the columns already included in your view. 
 
@@ -156,7 +179,7 @@ You can change the order of the columns already included in your view. 
 >[!NOTE]
 >You can also rearrange columns by using the Ctrl+X and Ctrl+V keyboard shortcuts.
 
-## Remove a column from a view 
+### Remove a column from a view 
 
 You might want to remove a column from a default system view, or one that you added to a form but no longer want to use. 
 
@@ -167,7 +190,7 @@ You might want to remove a column from a default system view, or one that you ad
     ![Remove column.](media/remove-column.png "Remove column")
    
 
-## Define filter criteria 
+### Define filter criteria 
 
 You can set filter criteria so that only a subset of the records is displayed in a view. When someone opens the view, only the records that meet the defined
 filter criteria are displayed. You can select fields from both the primary and related entities to filter on. 
@@ -186,7 +209,7 @@ filter criteria are displayed. You can select fields from both the primary and r
 
 5.  Enter a value to filter on in the field in the third column. 
 
-## Group multiple filters
+### Group multiple filters
 
 You can add multiple filters to your view if you want to filter records using
 more than one field, and then group on fields: 
@@ -204,7 +227,7 @@ more than one field, and then group on fields: 
     When you select **Group And**, records that meet both criteria are displayed in the view. When you select **Group Or**, records that meet any of the
     filter criteria are displayed. For example, in the preceding example, to show records for contacts with an address in Seattle or Portland, select **Group Or**. 
 
-## Remove a filter group 
+### Remove a filter group 
 
 1.  Select the check box for the group. 
 
@@ -213,15 +236,7 @@ more than one field, and then group on fields: 
     ![Ungroup filters.](media/ungroup-filters.png "Ungroup filters")
 
 
-## Clear filters 
-
-You can remove any filters you have created: 
-
-1.  In the **Filter Criteria** section, select **Clear**. 
-
-2.  Select **OK**. 
-
-## Save a view 
+### Save a view 
 
 As you are working on your view, save it often to avoid losing any changes. 
 
@@ -234,7 +249,7 @@ As you are working on your view, save it often to avoid losing any changes. 
     >[!NOTE]
     >To make a copy of your view, select **Save As** to save the current view with a different name.   
 
-## Publish a system view 
+### Publish a system view 
 ----------------------
 
 When you're finished creating or updating a view, you need to publish it so people in your organization can use it: 
@@ -242,6 +257,10 @@ When you're finished creating or updating a view, you need to publish it so peop
 1.  Open the view you want to publish.  
 
 2.  In the designer, select **Publish**. 
+
+---
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

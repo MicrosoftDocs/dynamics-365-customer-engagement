@@ -174,6 +174,7 @@ An administrator can use the **Advanced Settings** page to upload the Word templ
 
 5.  Select **Finish**.
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

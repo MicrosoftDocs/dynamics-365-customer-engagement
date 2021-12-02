@@ -1,5 +1,5 @@
 ---
-title: "Customize business process flows - Sales Professional | MicrosoftDocs"
+title: "Customize business process flows | MicrosoftDocs"
 description: "Creating business process flow to provide users a guided experience to enter data consistently by following the same process."
 ms.date: 10/01/2019
 ms.topic: article
@@ -10,12 +10,19 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Customize business process flows (Sales Professional)
+# Customize business process flows
 
-> [!IMPORTANT]
-> This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
+With Dynamics 365 Sales, you can help ensure that users enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that users get approval for an invoice before submitting an order.  
 
-With Dynamics 365 Sales Professional, you can help ensure that users enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that users get approval for an invoice before submitting an order. 
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or System Customizer  <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## How do business process flows help? 
 
 Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes.
 
@@ -69,6 +76,20 @@ process flow:
 -   User
 
 ## Create a business process flow
+
+Depending on the license you have, select one of the following tabs for more information:
+
+# [Sales Premium and Sales Enterprise](#tab/SE)
+
+1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**.
+ 
+1. Select **Settings** > **Customizations** > **Customize the System**, and then select the customization area that you want.
+
+2. Follow the instructions in [Create a business process flow](/power-automate/create-business-process-flow?context=/dynamics365/context/sales-context) to create or customize a business process flow.  
+
+# [Sales Professional](#tab/SP)
+
+### Customize a business process flow
 
 1.  Make sure you have the System Administrator or System Customizer security role or equivalent permissions.
 
@@ -265,6 +286,10 @@ You can easily create an image of your business process flow from within the des
 To create the image:
 
 -   Open the business process flow you want to create an image from, and then choose **Snapshot** at the top of the screen. The .png file that is created shows up in the lower-left corner of the screen.
+
+---
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

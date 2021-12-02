@@ -69,9 +69,9 @@
   - name: Customize your sales app
     items:
     - name: Create and customize a form
-      href: /powerapps/maker/model-driven-apps/create-and-edit-a-model-driven-form?context=/dynamics365/context/sales-context
+      href: customize-forms.md
     - name: Create and customize a view
-      href: /powerapps/maker/model-driven-apps/create-edit-views-app-designer?context=/dynamics365/context/sales-context
+      href: customize-views.md
     - name: Set up branding and theming
       href: change-color-scheme-logo.md
     - name: Customize the app
@@ -367,8 +367,8 @@
       items:
       - name: Business process flows overview
         href: /power-automate/business-process-flows-overview?context=/dynamics365/context/sales-context
-      - name: Create a business process flow
-        href: /power-automate/create-business-process-flow?context=/dynamics365/context/sales-context
+      - name: Create or customize a business process flow
+        href: customize-business-process-flows.md
     - name: Configure assistant
       items:
       - name: Configure the assistant
