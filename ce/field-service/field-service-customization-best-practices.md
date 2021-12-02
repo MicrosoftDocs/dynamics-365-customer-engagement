@@ -1,7 +1,7 @@
 ---
 title: "Best practices for customizing Dynamics 365 Field Service  | MicrosoftDocs"
 description: Learn about how to get the most out of your Dynamics 365 Field Service customizations.
-ms.date: 11/18/2021
+ms.date: 12/1/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -27,43 +27,41 @@ If so, this article is for you.
 
 Follow these best practices to avoid performance, usability, and supportability issues with Dynamics 365 Field Service.
 
-## Minimize custom fields
+## Minimize custom fields on forms
 
-System customizers add custom fields to entity forms to capture information specific to their industry and business, to run business processes, and to collect information to report on. However, too many custom fields, especially on the first tab of the form, cause performance issues.
+System customizers add custom fields to entity forms to capture information specific to their industry and business, to run business processes, and to collect information to report on. However, too many custom fields on a form can cause performance issues.
 
 To avoid performance issues:
 
-- Minimize the number of custom fields.
-- Move custom fields from the first form tab to other form tabs.
+- Minimize the number of custom fields on all forms. Starting with the work order form is a good idea if that is your most used form in the Field Service app.
+- Among custom fields, minimizing _lookup_ type fields and _subgrids_ will have the greatest impact on form performance, like load times.
+- Move custom fields (especially lookups and subgrids) from the first form tab to other form tabs.
+- Hide lesser used fields by default on the form. 
 
-## Don't edit or remove out-of-box fields
+## Don't edit or remove out-of-box fields from forms
 
-Customers edit out-of-the-box fields to accommodate their business needs. However, editing out-of-the-box calculated fields or editing the option sets of out-of-the-box fields can cause errors, especially when processes depend on those field values.
+Customers edit out-of-the-box fields to accommodate their business needs. However, editing out-of-the-box fields can cause errors, especially when processes depend on those field values.
 
-To avoid errors, don't add, edit, or remove _option set values_ for the following fields:
+To avoid errors:
+- hide unwanted fields from a form. 
+- move unwanted fields to another form tab.
 
-- Work order
-  - System status
-  - Work location
-- Work order product
-  - Line status
-- Work order service
-  - Line status
+Here is just one example: Field Service processes calculate the _Estimated Arrival Time_ field value on the Bookable Resource Booking record to indicate when a frontline worker is expected to arrive on site. If your organization does not need this field, simply hide it on the form rather than remove it.
 
-Don't edit, override, or remove the following calculated fields:
-
-- Bookable resource booking
-  - Start time
-  - Estimated arrival time
-  - Actual arrival time
-  - Duration
-  - End time
-- Work order
-  - Total amount
-  - Subtotal amount
-  - Total estimated duration
 
 For more information, see this article: [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
+
+## Do not edit option set (choice) values
+
+Editing the option set values of out-of-the-box fields can cause errors, especially when processes depend on those field values or during upgrades.
+
+To avoid errors:
+- only edit option set _labels_ and **never** edit option set _values_ of out-of-the-box fields.
+- Do not remove any option set choices. 
+- Do not add any option set chocies.
+  
+Here is just one example: The Field Service work order includes a field called "System Status" by default. This field is an option set (type "choice") with options like Unscheduled, Scheduled, In progress, Completed, Canceled, etc. Each of these options has a label and an associated numeric value. System administrators can edit the labels of option sets (like "Unscheduled") but can never edit the associated numeric value of the label.    
+
 
 ## Use fewer custom scripts and follow best practices
 
@@ -95,6 +93,50 @@ If you have code that only supports OnChange events for columns or the OnSave ev
 ### Use collapsed tabs to defer loading web resources
 
 When web resources or IFRAMES are included in sections inside a collapsed tab, they will not be loaded if the tab is collapsed. They will be loaded when the tab is expanded. When the tab state changes the TabStateChange event occurs. Any code that is required to support web resources or IFRAMEs within collapsed tabs can use event handlers for the TabStateChange event and reduce code that might otherwise have to occur in the OnLoad event.
+
+
+### from onenote #1
+
+Do: Avoid any sync scripts in client side code.
+
+Alternative: Change the implementation of the event to leverage asynchronous network requests, that will allow the form to continue to load. Please see this article for more details: [Article link](https://powerapps.microsoft.com/en-us/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests). 
+Async Await in any place we may require multiple network calls related to same entity and record. [Link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+
+Implication: Sync scripts will block the loading of the form and will have a bad impact on performance.
+? Describe implication in 'on change'
+
+Severity: High
+
+Area: client
+
+### from onenote #2
+
+
+Do: Avoid duplicate network requests in client side code.
+
+Alternatives: Consolidate network requests, and/or cache the value of these requests. Link?
+In addition, consider having these network requests done async <refer to sync best practice>.
+
+Implication: multiple network requests can cause browser stall and impact form load time. Reducing the number of request can bring great performance improvements.
+
+Severity: high
+
+Area: client
+
+
+### from onenote #3
+
+Do: Avoid using roles and system user specific calls if the relevant information is available in XRM Apis
+
+Alternatives: use XRM apis to avoid network requests to get user privilege info: [Article link](https://powerapps.microsoft.com/en-us/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests).  Similarly avoid systemusers calls if the information from xrm apis suffice the requirement.
+
+Implication: multiple network requests can cause browser stall and impact form load time. Reducing the number of request can bring great performance improvements.
+
+Severity: High
+
+Area: client
+
+
 
 ### Set default visibility options
 
