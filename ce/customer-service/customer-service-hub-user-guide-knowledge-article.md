@@ -340,11 +340,6 @@ For your attached files, use these commands to do the following:
 
 When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
 
-
-
-
-
-
 #### User permissions to view and download file attachments
 
 For users to be able to view and download file attachments, you'll need to grant the following permissions to the Knowledge Article table:
@@ -365,10 +360,10 @@ With this new attachment capability, you'll need to stop using notes attachments
 
 By using knowledge article attachments for the portal, keep in mind the following:
 
-- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type)
+- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](https://docs.microsoft.com/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type)
 - We'll do a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, we'll only migrate the notes attachments that are used in the portal to new attachments before the middle of October 2022 for all users.  
 
-For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
+For more information, see [Display file attachments with knowledge articles](https://docs.microsoft.com/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
@@ -377,7 +372,7 @@ By default, the rich text editor functionality is available for use with knowled
 
 2. On the **Field Properties** dialog, select the **Controls** tab.
 
-3. Under **Control**, select **Rich Text Editor Control.
+3. Under **Controls**, select **Rich Text Editor Control**.
 
     > [!div class=mx-imgBorder]
     > ![Select the Controls tab on the properties page.](media/csh-rte-add-form.png "Select the Controls tab, and then select the rich text editor control")
@@ -392,12 +387,16 @@ By default, the rich text editor functionality is available for use with knowled
 4. In the **Bind to a static value** field, enter the following text: **webResources/msdyncrm_/RichTextEditorControl/KnowledgeArticleRTEconfig.js** 
 
     > [!div class=mx-imgBorder]
-    > ![Enter value in Bind to a static filed.](media/csh-rte-enter-static-value.png "Enter the value in the Bind to a static value field")
+    > ![Enter value in Bind to a static value field.](media/csh-rte-enter-static-value.png "Enter the value in the Bind to a static value field")
 
 5. Select **OK** > **OK**, and then select **Save and Publish**.
 
 
-For more information about rich text control properties, see [Rich text editor control configuration options](/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
+For more information about rich text control properties, see [Rich text editor control configuration options](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
+
+
+
+
 
   
 ## Mark a knowledge article for review  
