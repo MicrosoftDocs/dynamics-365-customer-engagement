@@ -59,7 +59,7 @@ You can either fix the rule in the web client based on the problem details and r
 Yes, you can rerun the migration tool for a specific migrated rule based on the following:
     
 - **For incomplete or failed migration rules:** Select the same rule when you rerun the migration tool. It automatically replaces the existing failed or incomplete rule with the newly migrated one.
-- **For successfully migrated rules:** Delete the migrated rule in the Unified Interface before rerunning the migration tool.
+- **For successfully migrated rules:** Delete the migrated rule in Unified Interface before rerunning the migration tool.
 
 
 ## Known condition conversion issues
@@ -74,7 +74,7 @@ No. We currently only support one level of the related entity hierarchy. For suc
   
 **a.**	Premigration web client view.
 
-![Web view.](media/migration-tool-11-a.png "Web view")
+![Web view before migration.](media/migration-tool-11-a.png "Web view before migration")
     
 **Example: Post-migration Unified Interface view** 
   
@@ -83,7 +83,7 @@ No. We currently only support one level of the related entity hierarchy. For suc
 **2b.** The same standard placeholder **Created On equals 2200-01-01** is added to the condition.
 
 
-![Unified Interface view.](media/migration-tool-11-b.png "Unified Interface view")
+![Post migration Unified Interface view.](media/migration-tool-11-b.png "Post migration Unified Interface view")
 
 ### Why do my rule items or conditions with a DateType field that uses a "not on" operator fail during the premigration checkup and actual migration?
 
@@ -93,7 +93,7 @@ The **Not on** operator for the **Date** data type is not supported in Unified I
     
 **a.**	Premigration web client view.
         
-![Web view.](media/migration-tool-12-a.png "Web view")
+![Web view prior to migration for not on operator.](media/migration-tool-12-a.png "Web view prior to migration for not on operator")
 
 **Example: Post-migration Unified Interface view**
     
@@ -108,7 +108,7 @@ The **Not on** operator for the **Date** data type is not supported in Unified I
 
 ### Why does the data in my DateTime field change during migration?
 
-A separate time field doesn't exist in the Unified Interface, so the DateTime field will change from a calendar control to text field. Input should be in a specific format as shown in the text box below:
+A separate time field doesn't exist in Unified Interface, so the DateTime field will change from a calendar control to text field. Input should be in a specific format as shown in the text box below:
     
 **Example: Premigration view**
     
@@ -116,7 +116,7 @@ A separate time field doesn't exist in the Unified Interface, so the DateTime fi
     
 **b.**	Premigration **Date only** location.
     
-![Web view.](media/faq-arc-sla-web-view-13.png "Web view")
+![Web view prior to migration for DateTime field.](media/faq-arc-sla-web-view-13.png "Web view prior to migration for DateTime field")
 
 **Example: Post-migration Unified Interface view** 
 
@@ -124,11 +124,11 @@ A separate time field doesn't exist in the Unified Interface, so the DateTime fi
 
 **b.**	Post-migration **Date only** location
 
-![Unified Interface view.](media\faq-arc-sla-uci-view-13.png "Unified Interface view")
+![Unified Interface view - Date only.](media\faq-arc-sla-uci-view-13.png "Unified Interface view - Date only")
 
 ### Why are some of my operator fields blank in Unified Interface after migration?**
 
-For lookup data types, only the **equal / not equal, null /not null** operators are supported in Unified Interface and are supported in the migration tool. **Under** and **not-under** operators are not supported in Unified Interface, and therefore are not supported in the migration tool. Any conditions that have **under** or **not-under** operators are translated as **related entities** after migration and are shown as blank in Unified Interface after migration, and cannot be edited. 
+For lookup data types, only the **equal / not equal, null /not null** operators are supported in Unified Interface and are supported in the migration tool. **Under** and **not-under** operators are not supported in Unified Interface, and therefore are not supported in the migration tool. Any conditions that have **under** or **not-under** operators are translated as **related entities** after migration and are shown as blank in Unified Interface after migration, and cannot be edited.
 
 **Example: Premigration view**
     
@@ -140,11 +140,12 @@ For lookup data types, only the **equal / not equal, null /not null** operators 
 
 **b.**	Post-migration Unified Interface view.
     
- ![Unified Interface view.](media\faq-arc-sla-uci-14.png "Unified Interface view")
+ ![Unified Interface view - operator field.](media\faq-arc-sla-uci-14.png "Unified Interface view - operator field")
 
 > [!Note]
 >
 > The following limitations are applicable when defining a condition in Customer Service Hub:
+>
 > - The Date & Time picker control is no longer available in the conditions; however, you can still edit the date and time in the text field.
 > - Only one level of the related entity hierarchy is supported, though the application lets you select nested, related entities.
 > - The related entity inside a group of the and/or clause is not supported.
@@ -185,7 +186,7 @@ Any activity party-type attribute assigned to another activity party-type field 
 
 **b.**	The **To** field will migrate.
     
-![Web view.](media/faq-arc-sla-web-client-17.png "Web view")
+![Web view prior to migration of activity party-type attribute.](media/faq-arc-sla-web-client-17.png "Web view prior to migration of activity party-type attribute")
 
 **Example: Post-migration Unified Interface view**
 
@@ -198,14 +199,14 @@ Any activity party-type attribute assigned to another activity party-type field 
 In legacy workflows, a lookup field can be mapped with multiple expressions where you check and assign the **First Not Null** expression, as shown in the web client example below. Currently, this is not supported as part of workflow-to-flow conversion, as this is a known limitation from the legacy workflow designer. Therefore, the workflow converter assigns the first expression (without performing the null check) and removes the rest of the expressions, irrespective of whether they have **non-null** values. In the sample snapshot that follows, the flow will only have **Regarding(Email)** in the **Customer** field within this step.
 
 **Example: Premigration view**
-    
+
 **a. Unified Interface view:** In Flow, the Customer field will only have: **Regarding(Email)** regardless of whether it is null.
 
 
-**b. Web client view:** In the workflow, the Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}** 
+**b. Web client view:** In the workflow, the Customer field has: **{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))}**
 
 
-![Web view.](media/faq-arc-sla-web-client-18.png "Web view")
+![Web view for Regarding field.](media/faq-arc-sla-web-client-18.png "Web view for Regarding field")
 
 > [!Important] 
 > 
