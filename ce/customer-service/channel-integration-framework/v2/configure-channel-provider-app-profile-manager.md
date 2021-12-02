@@ -22,7 +22,7 @@ The app profile manager is an out-of-the-box solution that lets you create targe
 
 Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Customer Service workspace.
 
-**To configure a third-party channel provider with a multisession application**
+**To configure a third-party channel provider for multisession applications**
 
 1. Sign in to the [Power Apps](https://make.powerapps.com) portal.
 
