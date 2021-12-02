@@ -19,7 +19,7 @@ Provides methods to use JavaScript API to manage the communication panel, record
 
 ## Communication panel management APIs
 
-The Communication Panel is where you, as an agent, interact with the customer. Partner widgets built using Channel Integration Framework 1.0 are loaded in this panel. The communication widget in this version is displayed to the right of the screen and supports Docked and Minimized modes.
+The communication panel is where you, as an agent, interact with the customer. Partner widgets built using Channel Integration Framework 1.0 are loaded in this panel. The widget in this version is displayed to the right of the screen and supports Docked and Minimized modes.
 
 You can use the APIs mentioned below to manage the state of the communication panel (widget).
 
