@@ -1,7 +1,7 @@
 ---
 title: Configure faceted search results web template off your portal| MicrosoftDocs
 description: Know how the faceted search results web template can be configured of your portal.
-ms.date: 11/25/2021
+ms.date: 12/02/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,13 +17,25 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure faceted search results web template off your portal
+# Configure faceted search results web template off your portal (preview)
 
-You can view and search for knowledge article attachments on the portal. To do so, you must configure faceted search results web template off your portal.
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+
+You can view and search for knowledge article attachments on the portal based on Dataverse search. To do so, you must configure faceted search results web template off your portal.
 
   1. On the Portal Management sitemap, **Content** area, select **Web Templates**.
   1. From the Active Web Templates dropdown, select your knowledge article web template.
   1. On the **Web Template** page, **General** tab, add the following snippet to the **Source** field.
+  
   ```{{#if relatedAttachments}}
 								{{#each relatedAttachments}}
 									<li class="note-item">
@@ -36,9 +48,7 @@ You can view and search for knowledge article attachments on the portal. To do s
 									</li>
 								{{/each}}
 							{{/if}}
-```
-
-```<script type="text/javascript">
+<script type="text/javascript">
 		function downloadKbAttachmentFile(attachmentElementId, fileName, fileSize, mimeType, downloadBlockUrl, initializeUrl) {
 					// Download block API supports max 4MB block size
 					const blockSizeInBytes = 4096 * 1024;
@@ -94,6 +104,7 @@ You can view and search for knowledge article attachments on the portal. To do s
 				}
 		</script>
 ```
+
   4. Select **Save**.
 
 ### See also

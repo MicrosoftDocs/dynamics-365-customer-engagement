@@ -1,7 +1,7 @@
 ---
 title: Knowledge base search options in Dynamics 365 Customer Service| MicrosoftDocs
 description: Know how the Knowledge base search methods work in Microsoft Dynamics 365 Customer Service.
-ms.date: 11/25/2021
+ms.date: 12/02/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -72,16 +72,16 @@ With each of the previous search areas, the search results might vary based on t
 |  |    - Quick find in Grids     |   Full-text search |
 |  |   -Global search     |   Relevance search or Categorized search (based on what you configure)    |
 
-
-## Search the knowledge base on portals (preview)
-
-> [!IMPORTANT]
-> This section is pre-release documentation and is subject to change.
+## Search the knowledge base on portals
 
 You can use the following search options to search the knowledge base on the portal.
 
-- **Global search**: Global search uses an external search index that is based on Lucene.Net and is used to search within multiple tables and fields at once. More information: [Global Search](/powerapps/maker/portals/configure/search#global-search)
-- **Dataverse search**: Let's you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro). 
+- Lucene. Net search: Lucene. Net searches within multiple tables and fields at once. More information: [Search](/powerapps/maker/portals/configure/search)
+- **Dataverse search** **(preview)**: 
+> [!IMPORTANT]
+> This section is pre-release documentation and is subject to change.
+
+Let's you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro). 
 
 You can further refine your search through Progressive search, which let's you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
 
@@ -101,7 +101,9 @@ While performing a search on the portal, you might sometimes encounter an error 
 ### See also
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
+
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+
 [Manage knowledge articles by using content access levels](/powerapps/maker/portals/customer-engagement-apps/manage-knowledge-articles-content-levels)
 
 
