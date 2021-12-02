@@ -81,9 +81,8 @@ Make sure that the following requirements are met:
 
 ### Enable AI suggestions for article keywords and description in a custom form
 
-1. In your Dynamics 365 environment, go to an app, select **Settings** > **Advanced Settings**.
-1. From the **Settings** dropdown, select **Customizations**.
-1. On the **Customizations** page, select **Customize the System**.
+1. In Dynamics 365, go to **Customizations** in **Advanced Settings**.
+1. Select **Customize the System** to open the default solution.
 1. From the **Solution: Default Solution** navigation pane, select **Components** > **Entities** > **Knowledge Article** > **Forms**.
 1. Select the form that you want to customize.
 1. From **Field Explorer**, select **Keywords and Description Suggestion control** and add it to the form.

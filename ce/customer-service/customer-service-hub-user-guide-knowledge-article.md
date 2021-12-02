@@ -60,13 +60,13 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 4. In the **Article Content** section, fill in the following details:  
   
-   - **Title**. Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
+   - **Title**: Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
-   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
+   - **Keywords**: Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
   
-   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
-   :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article":::
-
+   - **Description**: Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
+   
+     :::image type="content" source="media/v9-add-content-article.png" alt-text="Add article content":::
        
 5. In the **Content** section, add the content for your knowledge article.  
   
