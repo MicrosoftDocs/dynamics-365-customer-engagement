@@ -72,7 +72,7 @@ Microsoft.CIFramework.createRecord(entityLogicalName,jsonData).then(
   ); 
 ``` 
 
-The below example shows how you can pass lookup value instead of plain text in the variable `data`.
+The below example shows how you can pass a lookup value instead of plain text in the variable `data`.
 
 ```JavaScript
 var data =

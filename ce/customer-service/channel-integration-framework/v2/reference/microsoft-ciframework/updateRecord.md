@@ -1,5 +1,5 @@
 ---
-title: "updateRecord (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+title: "updateRecord (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about updateRecord (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 12/31/2019
 ms.topic: reference
