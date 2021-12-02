@@ -15,6 +15,7 @@ ms.service: dynamics-365-customerservice
 
 ## Supported regions
 
+
 The following table lists the upcoming regions and clouds where the voice channel for Omnichannel for Customer Service will soon be available:
 
 |Geographic location | Availability | Availability in Customer Service trial|
@@ -26,7 +27,9 @@ The following table lists the upcoming regions and clouds where the voice channe
 |South America	|To be announced | To be announced|
 |Country clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom	|To be announced |To be announced|
 |Government Community Cloud (GCC) |To be announced |To be announced|
- 
+
+The use of your own number from any carrier through Azure direct routing is dependent on the availability of the Azure Communication Services resource in the region of your choice. For information on bringing your own number, see [Bring your own numbers](voice-channel-bring-your-own-number.md).
+
 ## Supported languages and locale codes
 
 | Language Name |Locale Code |
@@ -93,7 +96,7 @@ We're planning to support additional languages for the GA release in 2021. See t
  
 | Feature |	List of supported languages |
 | ---- | ---- |
-| Transcription | [Language and speech support](/azure/cognitive-services/speech-service/language-support) | 
+| Transcription | [Language and speech support](/azure/cognitive-services/speech-service/language-support) |
 | Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](/power-virtual-agents/authoring-language-support) |
 | Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)  |
 | AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions) |
