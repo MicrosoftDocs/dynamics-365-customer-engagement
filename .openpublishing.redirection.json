@@ -23251,7 +23251,7 @@
     },
     {
       "source_path": "ce/sales-professional/manage-leads-sales-professional.md",
-      "redirect_url": "\"/dynamics365/sales/create-edit-lead-sales ",
+      "redirect_url": "/dynamics365/sales/create-edit-lead-sales ",
       "redirect_document_id": "false"
     },
     {
@@ -23531,7 +23531,7 @@
     },
     {
       "source_path": "ce/sales-professional/sample-softphone-integration-sp.md",
-      "redirect_url": "/dynamics365/sales/sample-softphone-integration-sp",
+      "redirect_url": "/dynamics365/sales/sample-softphone-integration",
       "redirect_document_id": "false"
     }
   ]
