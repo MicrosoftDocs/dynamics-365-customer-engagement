@@ -391,13 +391,7 @@ By default, the rich text editor functionality is available for use with knowled
 
 5. Select **OK** > **OK**, and then select **Save and Publish**.
 
-
 For more information about rich text control properties, see [Rich text editor control configuration options](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
-
-
-
-
-
   
 ## Mark a knowledge article for review  
 
@@ -405,7 +399,7 @@ To make sure the content you’ve created is accurate, have someone review it.
   
 You can mark an article for review or directly assign it to a specific person or queue. When you mark an article for review, it starts appearing in the knowledge manager’s dashboard. The knowledge manager can then assign the article to specific team members or a queue for review.  
   
-1.  In the article you want to mark for review, in the **Status Reason** drop-down list, select **Needs Review**.  
+1.  In the article you want to mark for review, in the **Status Reason** dropdown list, select **Needs Review**.  
   
 2.  On the Business process flow, select **Author**.  
   
@@ -423,14 +417,18 @@ You can mark an article for review or directly assign it to a specific person or
 It’s important to review articles for accuracy before they’re published or made available to others.  
   
 > [!IMPORTANT]
->  To approve a knowledge article, you must have **Approve** permissions for the knowledge article record type. This permission is added by default to the Knowledge Manager, Customer Service Manager, Customer Service Representative, or System Administrator role or equivalent permissions.  
+>  To approve a knowledge article, you must have **Approve** permissions for the knowledge article record type. This permission is added by default to the knowledge manager, customer service manager, customer service representative, or system administrator role or equivalent permissions.  
   
 |To|Do this|  
 |--------|-------------|  
 |Pick an article assigned to you|Go to **Service** > **My Knowledge Dashboard**, and then see the **My Active Articles** stream.<br /><br /> **-OR-**<br /><br /> In the Customer Service Hub, go to **Service** > **Queue Items**, and then select the **Items available to work on** view.|  
-|To suggest review feedback|1.  On the Business process bar, in the **Review** stage, in the **Review** field, select **Reject**. Give the reason for rejection in the **Reject Knowledge Article** flyout. <br />2.  To add details about the changes you want in the knowledge article, go to **Summary** tab and in the **Timeline** section, select **+** to add a note.<br /><br /> The rejected article is  assigned back to the primary author of the knowledge article.|  
+|To suggest review feedback|1.  On the Business process bar, in the **Review** stage, in the **Review** field, select **Reject**. Give the reason for rejection in the **Reject Knowledge Article** flyout. <br /><br />2.  To add details about the changes you want in the knowledge article, go to **Summary** tab and in the **Timeline** section, select **+** to add a note.<br /><br /> The rejected article is  assigned back to the primary author of the knowledge article.|  
 |Approve the content of the article|When you approve the content of an article, it means that the content is ready to be consumed by other customer service reps, and also ready to be published.<br /><br /> On the Business process bar, in the **Review** stage, in the **Review** field, select **Approve**.<br /><br /> The article is now ready to be published.|  
-  
+
+
+
+
+
  
 ## Update knowledge articles to capture feedback  
 
