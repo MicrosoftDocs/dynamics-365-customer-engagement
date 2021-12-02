@@ -95,32 +95,14 @@ If you have code that only supports OnChange events for columns or the OnSave ev
 When web resources or IFRAMES are included in sections inside a collapsed tab, they will not be loaded if the tab is collapsed. They will be loaded when the tab is expanded. When the tab state changes the TabStateChange event occurs. Any code that is required to support web resources or IFRAMEs within collapsed tabs can use event handlers for the TabStateChange event and reduce code that might otherwise have to occur in the OnLoad event.
 
 
-### from onenote #2
+### Avoid duplicate network requests in client side code
+
+Multiple or duplicate network requests can cause the web browser to stall and impact form load time. Reducing the number of requests canimprove performance. An alternative is to consolidate network requests and cache the value of these requests. Also consider having these network requests done asynchonously as mentioned above. 
 
 
-Do: Avoid duplicate network requests in client side code.
+### Avoid using roles and system user specific calls if the relevant information is available in XRM APIs
 
-Alternatives: Consolidate network requests, and/or cache the value of these requests. Link?
-In addition, consider having these network requests done async <refer to sync best practice>.
-
-Implication: multiple network requests can cause browser stall and impact form load time. Reducing the number of request can bring great performance improvements.
-
-Severity: high
-
-Area: client
-
-
-### from onenote #3
-
-Do: Avoid using roles and system user specific calls if the relevant information is available in XRM Apis
-
-Alternatives: use XRM apis to avoid network requests to get user privilege info: [Article link](https://powerapps.microsoft.com/en-us/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests).  Similarly avoid systemusers calls if the information from xrm apis suffice the requirement.
-
-Implication: multiple network requests can cause browser stall and impact form load time. Reducing the number of request can bring great performance improvements.
-
-Severity: High
-
-Area: client
+Use XRM APIs to avoid network requests to get user privilege info. See the following article on [transitioning away from synchronous requests](https://powerapps.microsoft.com/en-us/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests). Similarly avoid system user calls if the information from XRM APIs meet your requirements. 
 
 
 
