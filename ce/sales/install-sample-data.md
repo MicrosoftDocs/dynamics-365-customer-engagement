@@ -1,6 +1,6 @@
 ---
 title: "Add or remove sample data in Dynamics 365 Sales Professional | MicrosoftDocs"
-description: "Experiment as you learn with sample data in Dynamics 365 Sales Professional."
+description: "Explore Dynamics 365 Sales Professional with sample data."
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01
@@ -36,8 +36,6 @@ Or, if sample data isn’t installed on your system, you might want to add it fo
 
 ### See also
 
-[Admin settings overview](admin-settings-overview.md)    
-[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
-
+[Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

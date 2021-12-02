@@ -540,7 +540,7 @@
       href: work-predictive-opportunity-scoring.md        
     - name: Manage opportunities using deal manager
       items:
-      - name: Using the deal manager workspace
+      - name: Deal manager workspace overview
         href: deal-manager-seller-overview.md
       - name: Access the deal manager workspace
         href: access-deal-manager.md

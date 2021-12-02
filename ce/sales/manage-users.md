@@ -10,7 +10,7 @@ ms.custom:
   - "dyn365-sales"
 ---
 
-# Create users and assign security roles
+# Create users and give them access
 
 Create user accounts and assign security roles to give your employees access to Dynamics 365 Sales.
 

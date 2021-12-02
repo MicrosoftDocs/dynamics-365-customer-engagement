@@ -313,8 +313,9 @@ To be able to import from Exchange:
 
 ### See also
 
-[Export data or template](export-data.md)  
 
+[Export data to Excel](/powerapps/user/export-data-excel)
+[Export sales records to PDF](create-quote-pdf.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

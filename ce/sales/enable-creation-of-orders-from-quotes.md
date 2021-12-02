@@ -1,6 +1,6 @@
 ---
-title: "Enable creation of orders from quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
-description: "Quickly create orders from quotes in Dynamics 365 Sales Professional so the relevant data is populated from the quote."
+title: "Enable creation of orders from quotes | MicrosoftDocs"
+description: "Quickly create orders from quotes in Dynamics 365 Sales so the relevant data is populated from the quote."
 ms.date: 07/21/2020
 ms.topic: article
 author: lavanyakr01
@@ -40,6 +40,6 @@ Quotes have important data about the customers and the products they're interest
 
 ### See also
 
-[Create and manage orders in Dynamics 365 Sales](create-edit-order-sales#create-an-order-from-a-quote)
+[Create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

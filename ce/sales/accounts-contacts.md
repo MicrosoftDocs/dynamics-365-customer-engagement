@@ -10,7 +10,7 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Work with accounts and contacts
+# Manage your customers using accounts and contacts
 
 Use accounts to store information about companies that you do business with and contacts to store information about people that you work with.
 

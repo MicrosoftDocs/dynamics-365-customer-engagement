@@ -75,7 +75,6 @@ In the marketing area, use standard campaigns to manage the end-to-end process o
  [Add an activity to a campaign using in-app marketing](add-activity-campaign-using-app-marketing-sales.md)   
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
  [Track a marketing campaign response using in-app marketing](track-marketing-campaign-response-using-app-marketing-sales.md)   
- [Overview of Sales](user-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

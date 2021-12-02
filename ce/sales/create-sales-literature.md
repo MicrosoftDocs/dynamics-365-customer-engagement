@@ -64,7 +64,6 @@ There are two ways to send the sales literature to other users:
 ### See also  
 [Create or edit a competitor record](create-edit-competitor-record-sales.md)  
 [Set up a product](create-product-sales.md)  
-[User Guide](user-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

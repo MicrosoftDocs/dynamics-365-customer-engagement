@@ -57,7 +57,7 @@ To be able to configure SharePoint, you must have:
 
     The following configuration happens in the background:
 
-    1.  A SharePoint subsite is created with the SharePoint default root URL. This URL is used to configure SharePoint. For example, a subsite /Dynamics 365/<orgname> is created under tenant.sharepoint.com.
+    1.  A SharePoint subsite is created with the SharePoint default root URL. This URL is used to configure SharePoint. For example, a subsite /Dynamics 365/*orgname* is created under tenant.sharepoint.com.
 
     2.  The SharePoint site is validated.
 
@@ -101,9 +101,6 @@ To be able to configure SharePoint, you must have:
 
 ### See also
 
-[Manage your SharePoint documents](develop-sales-lead-to-cash-sales-professional.md)  
-[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
-[Admin settings overview](admin-settings-overview.md)
-
+[Collaborate using SharePoint](collaborate-using-sharepoint-sales.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,10 +59,6 @@ Based on your license, select the appropriate tab to know how to enable or disab
 
 
 
-### See also
-
-[Admin settings overview](admin-settings-overview.md)    
-[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

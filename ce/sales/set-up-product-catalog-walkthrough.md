@@ -58,7 +58,7 @@ Watch this video to understand the components of a product catalog and how to se
 
 ### See Also
  [Create a product family](create-product-family.md)  
- [Overview of Sales](user-guide.md)
+ [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

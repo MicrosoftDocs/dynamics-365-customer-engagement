@@ -8,7 +8,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Preview: Using the deal manager workspace 
+# Preview: Manage opportunities using the deal manager workspace 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
