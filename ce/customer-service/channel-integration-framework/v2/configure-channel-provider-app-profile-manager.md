@@ -26,7 +26,7 @@ Channel Integration Framework 2.0 is intended for multisession applications such
 
 1. Sign in to the [Power Apps](https://make.powerapps.com) portal.
 
-2. Under the available apps, select the ellipses to the right of **Omnichannel for Customer Service** or **Customer Service workspace**.
+2. Under the available apps, select the ellipses next to **Omnichannel for Customer Service** or **Customer Service workspace**.
 
 3. On the menu that appears, select **App profile manager**.
 
