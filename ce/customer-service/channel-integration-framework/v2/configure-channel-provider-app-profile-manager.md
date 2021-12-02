@@ -40,7 +40,7 @@ Channel Integration Framework 2.0 is intended for multisession applications such
 
   > ![Create new channel provider.](../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
 
-7. Fill in all the following details.
+7. Enter the following details.
 
 | Field | Description |
 |-------|-------|
