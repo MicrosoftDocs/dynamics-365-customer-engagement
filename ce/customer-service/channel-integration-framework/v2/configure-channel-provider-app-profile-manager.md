@@ -10,7 +10,7 @@ ms.custom:
 searchScope: 
  - D365-App-customerservicehub 
  - D365-Entity-msdyn_channelprovider
- - D365-UI-view
+ - D365-UI-*
  - Dynamics 365 
  - Customer Service 
  - Customer Engagement
@@ -24,7 +24,7 @@ Channel Integration Framework 2.0 is intended for multisession applications such
 
 **To configure a third-party channel provider with a multisession application**
 
-1. Sign in to your [Power Apps](https://make.powerapps.com) portal.
+1. Sign in to the [Power Apps](https://make.powerapps.com) portal.
 
 2. Under the available apps, select the ellipses to the right of **Omnichannel for Customer Service** or **Customer Service workspace**.
 
@@ -36,11 +36,11 @@ Channel Integration Framework 2.0 is intended for multisession applications such
 
   > ![Select app profiles.](../media/channel-app-profile-manager.PNG "Select app profiles")
 
-6. Select **Add channel providers** and then, select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
+6. Select **Add channel providers**, and then select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
 
   > ![Create new channel provider.](../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
 
-7. Fill in all the required details to configure a new channel provider.
+7. Fill in all the following details.
 
 | Field | Description |
 |-------|-------|
@@ -60,7 +60,7 @@ Channel Integration Framework 2.0 is intended for multisession applications such
   > [!NOTE]
   > The `Api Version` field is set to `2` when you navigate from the app profile manager.
 
-8. After you have configured the channel provider, go back to the app profile manager and add the channel provider to the app profile.
+8. After you've configured the channel provider, go back to the app profile manager and add the channel provider to the app profile.
   
 ### See also
 
