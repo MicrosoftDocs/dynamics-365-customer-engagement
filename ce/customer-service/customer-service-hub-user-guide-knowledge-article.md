@@ -66,7 +66,8 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
    - **Description**: Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
    
-     :::image type="content" source="media/v9-add-content-article.png" alt-text="Add article content":::
+       :::image type="content" source="media/v9-add-cont_article.png" alt-text="Add article content":::
+     
        
 5. In the **Content** section, add the content for your knowledge article.  
   
@@ -102,7 +103,7 @@ However, either the **Title** or **Content** fields&mdash;or any other correspon
 1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description** link appears.
 
 1. Select the **View suggested keywords and description** link.
-    :::image type="content" source="media/v9-add-content-article.png" alt-text="View suggested keywords and description":::
+      :::image type="content" source="media/v9-view-suggested-keywords.png" alt-text="View suggested keywords and description link":::
 
 1. In the **Suggested keywords and description** dialog, do the following:
 
