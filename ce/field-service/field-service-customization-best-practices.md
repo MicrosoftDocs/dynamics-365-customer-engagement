@@ -80,7 +80,7 @@ The higher the number of network requests made during a form load, and the more 
 
 ### Avoid using synchronous network requests
 
-Synchronous network requests can cause slow page loads and unresponsive forms. [Use asynchronous requests instead](/powerapps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously). See this [blog post](https://powerapps.microsoft.com/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests/) for more examples.
+Synchronous network requests can cause slow page loads and unresponsive forms. [Use asynchronous requests instead](/powerapps/developer/model-driven-apps/best-practices/business-logic/interact-http-https-resources-asynchronously). See this [blog post](https://powerapps.microsoft.com/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests/) for more examples. In addition, consider using "async and wait" in any scenario where multiple network calls for the same entity and record are needed; find [more details here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await).
 
 ### Avoid including unnecessary JavaScript web resource libraries
 
@@ -94,20 +94,6 @@ If you have code that only supports OnChange events for columns or the OnSave ev
 
 When web resources or IFRAMES are included in sections inside a collapsed tab, they will not be loaded if the tab is collapsed. They will be loaded when the tab is expanded. When the tab state changes the TabStateChange event occurs. Any code that is required to support web resources or IFRAMEs within collapsed tabs can use event handlers for the TabStateChange event and reduce code that might otherwise have to occur in the OnLoad event.
 
-
-### from onenote #1
-
-Do: Avoid any sync scripts in client side code.
-
-Alternative: Change the implementation of the event to leverage asynchronous network requests, that will allow the form to continue to load. Please see this article for more details: [Article link](https://powerapps.microsoft.com/en-us/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests). 
-Async Await in any place we may require multiple network calls related to same entity and record. [Link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
-
-Implication: Sync scripts will block the loading of the form and will have a bad impact on performance.
-? Describe implication in 'on change'
-
-Severity: High
-
-Area: client
 
 ### from onenote #2
 
