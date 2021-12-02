@@ -65,7 +65,8 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
    - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
   
    - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
-    :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article.":::
+   :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article":::
+
        
 5. In the **Content** section, add the content for your knowledge article.  
   
@@ -101,11 +102,11 @@ However, either the **Title** or **Content** fields&mdash;or any other correspon
 1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description** link appears.
 
 1. Select the **View suggested keywords and description** link.
-    :::image type="content" source="media/v9-add-content-article.PNG" alt-text="View suggested keywords and description":::
+    :::image type="content" source="media/v9-add-content-article.png" alt-text="View suggested keywords and description":::
 
 1. In the **Suggested keywords and description** dialog, do the following:
 
-   - Select the keywords that you want to add to your keywords list or select the **Insert all keywords** link to insert all the suggested keywords to the Keywords field. You can also type a keyword in the Keyword field and select the Enter key to add it to the Keywords field.
+   - Select the keywords that you want to add to your keywords list or select the **Insert all keywords** link to insert all the suggested keywords to the Keywords field. You can enter a keyword in the Keyword field to add to existing list.
    - Select **Insert suggested description**, to add the description to the **Description** field.
 
     :::image type="content" source="media/v9-suggested-keywords-description-dialog.png" alt-text="Screenshot showing a Keyword field containing keywords that were selected from the list of suggested keywords below it.":::
