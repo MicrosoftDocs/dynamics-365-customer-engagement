@@ -2,7 +2,7 @@
 title: "How to deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: How to deploy and install Dynamics 365 App for Outlook
-ms.date: 05/20/2021
+ms.date: 12/02/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -143,7 +143,7 @@ App for Outlook also requires server-side synchronization to be properly configu
 | prvReadQuery                            | View               | Customization                                       |
 | prvReadIncident                         | Case               | Service                                             |
 | prvSearchAvailability                   |                    | Service Management &gt; Miscellaneous Privileges    |
-| prvOverrideCreatedOnCreatedBy           |                    | Service Management &gt; Miscellaneous Privileges    |
+| prvOverrideCreatedOnCreatedBy           |                    | Business Management &gt; Miscellaneous Privileges    |
 
 
 > [!NOTE]
