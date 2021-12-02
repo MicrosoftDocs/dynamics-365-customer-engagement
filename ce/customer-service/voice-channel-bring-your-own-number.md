@@ -60,5 +60,6 @@ The new phone number will be displayed in the Phone numbers list and is ready fo
 [Set up inbound calling](voice-channel-route-queues.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
+[Regional availability and supported languages for the voice channel](voice-channel-region-availability.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
