@@ -1,5 +1,5 @@
 ---
-title: SSync user info with Active Directory in Dynamics 365 Customer Engagement (on-premises)"
+title: Sync user info with Active Directory in Dynamics 365 Customer Engagement (on-premises)"
 description: "To make sure a user can successfully log on, update the info in the Customer Engagement (on-premises) user record so that it matches the Active Directory."
 ms.custom: 
 ms.date: 10/01/2019
