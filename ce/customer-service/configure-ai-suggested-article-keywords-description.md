@@ -1,7 +1,7 @@
 ---
 title: Configure AI suggestions for article keywords and description | MicrosoftDocs
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
-ms.date: 11/24/2021
+ms.date: 12/03/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -63,7 +63,7 @@ The language used in AI-generated suggestions is based on the language that the 
 Make sure that the following requirements are met:
 
 - You have the System Administrator role.
-- Knowledge authors have the AIB roles and the AIB SML roles.
+- Knowledge authors have the AIB Roles and the AIB SML Roles.
 
 ## Enable AI suggestions for article keywords and description
 
@@ -81,14 +81,13 @@ Make sure that the following requirements are met:
 
 ### Enable AI suggestions for article keywords and description in a custom form
 
-1. In your Dynamics 365 environment site map, go to **Settings** > **Advanced Settings**.
-1. From the **Settings** dropdown, select **Customizations**.
-1. On the **Customizations** page, select **Customize the System**.
+1. In Dynamics 365, go to **Customizations** in **Advanced Settings**.
+1. Select **Customize the System** to open the default solution.
 1. From the **Solution: Default Solution** navigation pane, select **Components** > **Entities** > **Knowledge Article** > **Forms**.
 1. Select the form that you want to customize.
 1. From **Field Explorer**, select **Keywords and Description Suggestion control** and add it to the form.
 1. Select **Keywords and Description Suggestion control** in the form and then select **Change Properties** on the ribbon.
-1. On the **Field Properties** dialog, go to the **Controls** tab and select **Add Control**.
+1. On the **Field Properties** dialog, go to the **Controls** tab, and select **Add Control**.
 1. On the **Add Control** dialog, select **Knowledge Suggestion Section Control** > **Add**.
 1. On the **Field Properties** dialog, **Controls** tab, select **Web**, **Phone**, and **Tablet** for **Knowledge Suggestion Section Control**.
 1. Select **OK**.
