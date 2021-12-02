@@ -85,7 +85,7 @@ To control individual resources, go to the **Scheduling** tab on the resource fo
 
 ## Step 3: Call the search resource availability API with ```ConsiderOutlookSchedules``` as _true_
 
-Call the search resource availability API with **ConsiderOutlookSchedules** as _true_. The feature is available for search resource availability APIs for both requirements ([msdyn_SearchResourceAvailability](https://docs.microsoft.com/en-us/dynamics365/field-service/search-resource-availability-api)) and requirement groups ([msdyn_SearchResourceAvailabilityForRequirementGroup](https://docs.microsoft.com/en-us/dynamics365/field-service/search-resource-availability-api)).
+Call the search resource availability API with **ConsiderOutlookSchedules** as _true_. The feature is available for search resource availability APIs for both requirements ([msdyn_SearchResourceAvailability](/dynamics365/field-service/search-resource-availability-api)) and requirement groups ([msdyn_SearchResourceAvailabilityForRequirementGroup](/dynamics365/field-service/search-resource-availability-api)).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
