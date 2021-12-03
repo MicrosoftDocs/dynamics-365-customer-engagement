@@ -13,6 +13,13 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-knowledgearticle
+ - D365-UI-form
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement 
 ---
 
 # Configure origins allow list for knowledge articles

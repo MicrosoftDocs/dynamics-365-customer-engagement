@@ -196,7 +196,7 @@ More information on details and settings for Teams live events: [Schedule a Team
 | Event owner                  | The user who owns the event record in Dynamics 365 Marketing. | Set the event owner by using the **Assign** button on the event ribbon |
 | Teams meeting owner          | The user who originally created the live event in Marketing. The Teams meeting owner is designated as the owner of the event in Teams. Changing the owner of the event record in Marketing does not change the owner of the live event in Teams. Any change to the event record in Dynamics will only reflect in Teams when done by this user or when they select **Sync to Teams**. | Sign in as this user in Dynamics 365 Marketing and create a new event with a live event or meeting stream. |
 | Presenter                    | In a Teams live event, a presenter is a person who presents audio, video, or a screen to the live event, or moderates Q&A. Presenters can only share audio, video, or a screen (desktop or window) in live events produced in Teams.| If you want to invite another person to present to the live event, add them as a speaker to the event or the session. To add the person as a speaker, create a speaker engagement at the event (or session) level. The speaker is added as the “presenter” for the live event. Ensure that the speaker email ID is filled in.
-| Producer                     | A producer is a host that makes sure attendees have a great viewing experience by controlling the live event stream. If you want another user to have the ability to produce the live event, you can add the producer user as an **Event Team Member**. This will only work when the Event Team Member is a Dynamics 365 Marketing and Microsoft Teams user. On an event, navigate to the **Additional Information** tab and add the team members. Team members can have any role in Dynamics 365 Marketing, but they will always be producers in the Teams live event. |
+| Producer                     | A producer is a host that makes sure attendees have a great viewing experience by controlling the live event stream. If you want another user to have the ability to produce the live event, you can add the producer user as an **Event Team Member**. This will only work when the Event Team Member is a Dynamics 365 Marketing and Microsoft Teams user. On an event, navigate to the **Additional information** tab and add the team members. Team members can have any role in Dynamics 365 Marketing, but they will always be producers in the Teams live event. |
 
 > [!Important]
 >
@@ -226,10 +226,13 @@ The Teams attendee URL is created when you save a Marketing event that is being 
 
 ## Calendar integration
 
-Once a live event or meeting is created or updated, and the producers and presenters are added (by adding Team members and Speakers) - the meeting will show up in their Outlook calendar as well in their Teams calendar. This would be a **read-only** version of the event, and changes made to this event (from the Teams meeting owner's calendar) would not reflect back in Dynamics 365 Marketing. The speakers and team members can join the live event from their calendar.
+Once a live event or meeting is created or updated and the producers and presenters are added (by adding Team members and speakers), the meeting will show up in their Outlook calendar and in their Teams calendar. The calendar item is a **read-only** version of the event. Changes made to the event from the Teams meeting owner's calendar will not update the event in Dynamics 365 Marketing. The speakers and team members can join the live event from their calendars.
 
 > [!NOTE]
 > Guest users as presenters will not see the event on their calendar. Send guest users the attendee link from the event in Dynamics 365 Marketing.
+
+> [!IMPORTANT]
+> The calendar integration feature for producers and presenters is not affected by the **Calendar content** field in the **Additional information** tab in the event planning work area. The **Calendar content** field only affects .ics files sent through the email designer. Learn more: [Generate iCalendar files for events and sessions](add-to-calendar.md).
 
 ## Inviting registrants to attend the live event through email
 

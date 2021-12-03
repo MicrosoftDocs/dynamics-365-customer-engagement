@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
-ms.date: 10/22/2019
+ms.date: 11/17/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -82,6 +82,12 @@ Verifies that all work orders that were supposed to be generated over the last s
 There are agreement recurrences that haven't been processed correctly, and work orders haven't been generated that should have been.
 
 ### How to fix
+
+Identify the reason the work order was not generated, along with the cause of failure, and address that. Then regenerate the record generation by changing the agreement status back to "estimate," then to "active" again.
+
+
+> [!div class="mx-imgBorder"]
+> ![Solution health agreement generation in Solution Health Hub.](./media/solution-health-agreement-generation.png)
 
 ## Check failing workflow related to agreement
 

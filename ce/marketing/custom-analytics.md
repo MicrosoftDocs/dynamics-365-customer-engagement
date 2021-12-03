@@ -53,7 +53,7 @@ for a quick overview of all the data that is available for your marketing analyt
 >
 > If your organization implemented custom processing (on top of the Marketing export) which relies on the blobs' immutability or names, the process may need to be updated. Contact customer support for more details or for switching the export feature to the previous non-optimized mode.
 >
-> If your storage is overwhelmed by blobs from previous exports, resync the insights data from. To resync the data:
+> If your storage is overwhelmed by blobs from previous exports, resync the insights data from scratch. To resync the data:
 >
 > 1. Stop ongoing export using the configuration in the Marketing app.
 > 1. Delete the container with existing interactions data.
