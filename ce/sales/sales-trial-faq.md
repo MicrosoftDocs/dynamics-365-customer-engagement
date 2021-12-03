@@ -47,7 +47,7 @@ Install the Sales mobile app and explore the functionalities that you can access
 
 **Deep dive into more scenarios**
 
-If you want to test scenarios beyond the ones covered in the product tour, go ahead and take a plunge. Browse through other capabilities from the sitemap (left pane). Visit the [Help hub](help-hub.md) for assistance.
+If you want to test scenarios beyond the ones covered in the product tour, go ahead and take a plunge. Browse through other capabilities from the sitemap (left pane). Visit the [Help hub](help-hub.yml) for assistance.
 
 ### What features are available in the trial?
 
