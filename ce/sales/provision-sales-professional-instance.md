@@ -40,17 +40,17 @@ To provision a new Dynamics 365 environment:
 1.	Go to [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home#/homepage), and in the navigation pane, select **Show All**. 
 
     > [!div class="mx-imgBorder"]
-    > ![Select the Show all option in the Microsoft 365 admin center navigation pane.](../sales-professional/media/microsoft-365-admin-center-sitemap-show-all.png "Select the Show all option in the Microsoft 365 admin center navigation pane")
+    > ![Select the Show all option in the Microsoft 365 admin center navigation pane.](media/microsoft-365-admin-center-sitemap-show-all.png "Select the Show all option in the Microsoft 365 admin center navigation pane")
 
 2. In the navigation pane, under **Admin centers**, select **All admin centers**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select All admin centers in the navigation pane.](../sales-professional/media/all-admin-centers-in-microsoft365-admin-center.png "Select All admin centers in the navigation pane")
+    > ![Select All admin centers in the navigation pane.](media/all-admin-centers-in-microsoft365-admin-center.png "Select All admin centers in the navigation pane")
 
 3. Select **Dynamics 365**.
 
     > [!div class="mx-imgBorder"]
-    > ![Dynamics 365 option in the All admin centers page.](../sales-professional/media/dynamics-365-admin-center-all-admin-centers.png "Dynamics 365 option in the All admin centers page")
+    > ![Dynamics 365 option in the All admin centers page.](media/dynamics-365-admin-center-all-admin-centers.png "Dynamics 365 option in the All admin centers page")
 
     The Power Platform admin center opens.
 
