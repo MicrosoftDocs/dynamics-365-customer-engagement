@@ -590,33 +590,28 @@ After the content in the article is complete and reviewed, you can publish the a
 > [!NOTE]
 > In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](https://docs.microsoft.com/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer)
 
-
-
-
-
-
-
 ## Track basic details of an article  
 
 Use the **Summary** tab to track some basic details of the article. In the **Summary** tab, you can:
 
-- View or edit **Basic settings** for the article. These include details like Language, Article Public Number, and many more.
-- View or edit **Publish settings** for the article
+- View or edit **Basic settings** for the article. These include details like Language, Article Public Number, and more.
+- View or edit **Publish settings** for the article.
 - See the **Timeline**. Add notes, or view what you have missed.
-- View related information about the article in the **Related Information** section. These include related versions, translations, categories, articles, and products
+- View related information about the article in the **Related Information** section. These include related versions, translations, categories, articles, and products.
 
   
 ### Track knowledge article analytics  
 
 Tracking your content helps you and your authoring team assess its value to your organization and your customers. Knowing and understanding when, where, and how many times an article was viewed tells you how much your customers and team members rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
   
- To view an article’s view counts and other statistics, open the article you want to track, and then select the **Analytics** tab.  
+To view an article’s view counts and other statistics, open the article you want to track, and then select the **Analytics** tab.  
   
-- **Views**. Shows you the total number of times that this article has been viewed. This figure represents the total views of all versions and all translations of this article combined. It also shows individual article views on specific days. You can select the column headers to sort by chronological order or by the number of views. 
+- **Views**. Shows you the total number of times this article has been viewed. This figure represents the total views of all versions and all translations of this article combined. It also shows individual article views on specific days. You can select the column headers to sort by chronological order or by the number of views. 
 
-- **Feedback**. Captures all the feedback and ratings on the knowledge articles and update  the articles  accordingly. If your articles are published on a portal, customers and users can provide their feedback and also give ratings on an article.   The Feedback subgrid shows all feedback received for the current knowledge article.  
+- **Feedback**. Captures all the feedback and ratings on the knowledge articles and updates the articles accordingly. If your articles are published on a portal, customers and users can provide their feedback and also give ratings on an article. The Feedback subgrid shows all feedback received for the current knowledge article.  
 
    The **Rating** field calculates the average rating of the article based on the amount of feedback and number of ratings received.  
+   
    > [!NOTE]
    > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](../customerengagement/on-premises/customize/define-rollup-fields.md).
 
@@ -624,7 +619,12 @@ Tracking your content helps you and your authoring team assess its value to your
   
      By reviewing cases that have used your articles, you can gain valuable insights into the questions that customers are asking, as well as what avenues they tried before asking for help. This data can help you expose your knowledge articles better and provide more useful information to your customers and team members.  
   
-  
+
+
+
+
+
+
 #### Add feedback to an article  
   
 1. In the **Feedback** subgrid, select **Create Feedback**. You can also select ![Add a record button.](../customer-service/media/add-recordbutton.gif "Add a record button") in the nav bar and then go to **Feedback** to create a feedback.  
