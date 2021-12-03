@@ -160,7 +160,7 @@ Authors can use the templates to create knowledge articles quickly because the f
 
 3.	To create an article from a template, select **+ New From Template**.
   
-4.	In the **Select Knowledge Article Template** dialog box, select the template to use as a base on which you author the article and select **OK**. In this example, we are selecting the template as **Getting Started With Template**.
+4.	In the **Select Knowledge Article Template** dialog, select the template to use as a base on which you author the article and select **OK**. In this example, we are selecting the template as **Getting Started With Template**.
 
     > [!div class=mx-imgBorder]
     > ![Select knowledge article template.](media/ka-select-template.png "Select knowledge article template")
@@ -199,7 +199,7 @@ You can choose a specific format or style for the content you’re writing. The 
    > You can access your browser's context menu by pressing **Ctrl+right-click**. This is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.
 
 
-<!-- For the font size description, is "the topmost font name of your selection is displayed" correct, or should it be "the topmost font size"? -->
+<!-- For the font size description (line 211), is "the topmost font name of your selection is displayed" correct, or should it be "the topmost font size"? -->
 
 
 |Icon | Name | Shortcut key | Description |
@@ -222,7 +222,7 @@ You can choose a specific format or style for the content you’re writing. The 
 |![Align Left.](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
 |![Align Center.](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
 |![Align Right.](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link.](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to webpages and files.<br /><br />URL text that you paste or enter is converted into a link.<br>For example, **ht&#8203;tp://myexample.com** will become <a href="http://myexample.com">http://myexample.com</a>.<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert. <br /><br />Use the **Link Info** tab to choose the link type and set the link protocol and URL. <br /><br />The type of links that you can add are defined by your administrator. If you add links whose origin link doesn't match any of the links specified in the origins list, an error will be displayed when users open an article. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" will appear. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md) <br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
+|![Link.](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to webpages and files.<br /><br />URL text that you paste or enter is converted into a link.<br>For example, **ht&#8203;tp://myexample.com** will become <a href="http://myexample.com">http://myexample.com</a>.<br /><br /> In the **Link** dialog, choose the type of link you'd like to insert. <br /><br />Use the **Link Info** tab to choose the link type and set the link protocol and URL. <br /><br />The type of links that you can add are defined by your administrator. If you add links whose origin link doesn't match any of the links specified in the origins list, an error will be displayed when users open an article. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" will appear. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md) <br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
 |![Remove Link.](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
 |![Superscript.](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
 |![Subscript.](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
@@ -235,9 +235,9 @@ You can choose a specific format or style for the content you’re writing. The 
 |![Clear All Formatting.](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
 |![Add a Table.](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
 |![Create Collapsible Section.](../customer-service/media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This is useful in articles with a lot of information. Collapsed sections help agents find relative information more quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you have already typed and then click the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. |
-|![Embed Media.](../customer-service/media/embed-media.png "Embed Media")| Embed Media | | To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button. The **Embed Video** dialog box opens.<br /><br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**. |
+|![Embed Media.](../customer-service/media/embed-media.png "Embed Media")| Embed Media | | To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button. The **Embed Video** dialog opens.<br /><br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**. |
 |![Create Div Container.](../customer-service/media/div-container.png "Create Div Container") | Create Div Container | | Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure additional div element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties.<br /><br />**Note**: This option is available in the expanded mode only. |
-|![Create Anchor](../customer-service/media/create-anchor.png "Create Anchor") | Create Anchor | | You can add anchors in document text and then link to them for easier navigation.<br /><br />**Note**: The anchor feature only works when an article is open. It doesn't work if you are viewing an article from the **Preview** tab.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button. The **Anchor Properties** dialog box opens.<br /><br />2.  Enter a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor. |   
+|![Create Anchor](../customer-service/media/create-anchor.png "Create Anchor") | Create Anchor | | You can add anchors in document text and then link to them for easier navigation.<br /><br />**Note**: The anchor feature only works when an article is open. It doesn't work if you are viewing an article from the **Preview** tab.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button. The **Anchor Properties** dialog opens.<br /><br />2.  Enter a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor. |   
   
 > [!IMPORTANT]
 >  You can’t use client-side code (script tags or [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]) in articles or emails. If you want to associate CSS or [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], use web resources. 
@@ -509,7 +509,7 @@ Your knowledge article must reach your customers irrespective of their market or
   
 1. Open the article you want to translate, and from the command bar, select **Translate**.  
   
-2. In the **Create new translation** dialog box, do the following:
+2. In the **Create new translation** dialog, do the following:
    * From the **Pick a language** dropdown list, search for and select the language you want.  
    * In the **Create new version** field, select either **Major** or **Minor** version for your translation.  
 
@@ -543,13 +543,6 @@ After you have published a translation for an article, you can manage it and any
     -   Edit or update a translation.  
     -   Create a new major or minor version of a translation.  
     -   Delete a translation or version of a translation.  
-  
-
-
-
-
-
-
 
 ## Schedule or publish an article  
 
@@ -558,7 +551,7 @@ After the content in the article is complete and reviewed, you can publish the a
 > [!IMPORTANT]
 >  If your organization is using a portal for publishing the knowledge articles, your customizer can write a plug-in that can pick the published articles and post on your portal, and also report the article views back.  
   
-1.  Make sure that you have the Publish and Update permission on the Knowledge Article record type. These permissions are added by default to the Knowledge Manager, Customer Service Manager, Customer Service Representative, or System Administrator role.  
+1.  Make sure that you have the Publish and Update permission on the Knowledge Article record type. These permissions are added by default to the roles of knowledge manager, customer service manager, customer service representative, or system administrator.  
   
 2.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
@@ -568,16 +561,16 @@ After the content in the article is complete and reviewed, you can publish the a
   
     1.  On the command bar, select **More** > **Relate Product**.  
   
-    2.  In the **Select Product to Associate with** field, select the **Lookup** button, elect a product this article is about, and then, select **Associate**.  
+    2.  In the **Select Product to Associate with** field, select the **Lookup** button, elect a product this article is about, and then select **Associate**.  
   
          The associated article appears in the **Related Products** list in the **Related Information** section of the **Summary** tab.  
   
 5.  On the Business process bar, select the **Publish** stage.  
   
-6.  In **the Set Product Associations** field, select **Mark as Complete**.  
+6.  In the **Set Product Associations** field, select **Mark as Complete**.  
   
 7.  If you want to schedule the article to publish on a later date, on the **Summary** tab, in the **Publish On** field, select a date and time to publish the article.  
-  
+
 8.  Select **Finish**. The Publish dialog is displayed.
   
     -   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
@@ -588,13 +581,20 @@ After the content in the article is complete and reviewed, you can publish the a
   
     -   If you’ve set an expiration date, in the **Expiration Status** field, select the status the knowledge article should be set to after it expires.  
   
-    -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article**, select **Yes**.  
+    -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article** field, select **Yes**.  
   
     -   Select **Publish**. 
+       
     :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
     
 > [!NOTE]
-> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer).
+> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](https://docs.microsoft.com/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer)
+
+
+
+
+
+
 
 ## Track basic details of an article  
 
