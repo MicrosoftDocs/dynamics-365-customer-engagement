@@ -15,7 +15,7 @@ This topic lists the system requirements for Dynamics 365 Channel Integration Fr
 
 ## Dynamics 365
 
-Dynamics 365 (online) version 9.1 and later.
+Dynamics 365 (online) 9.1 and later.
 
 ## Supported browsers
 
@@ -30,7 +30,7 @@ Dynamics 365 (online) version 9.1 and later.
 
 The domain of the channel URL should use HTTPS protocol.
 
-## See also
+### See also
 
 [Get Dynamics 365 Channel Integration Framework 2.0](get-channel-integration-framework.md)
 
