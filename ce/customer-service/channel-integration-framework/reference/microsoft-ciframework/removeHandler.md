@@ -1,6 +1,6 @@
 ---
-title: "removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 1.0 | MicrosoftDocs"
-description: ""
+title: "removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the removeHandler method in JavaScript API Reference for Channel Integration Framework 1.0. "
 ms.date: 12/31/2018
 ms.topic: reference
 author: mh-jaya
@@ -13,24 +13,24 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# removeHandler (CIF JavaScript API Reference)
+# removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[removeHandler-description](includes/removeHandler-description.md)] 
 
 [!INCLUDE[token-removeHandler](../../shared/token-removeHandler.md)]
 
 
-## Related topics
+### See also
 
-[onclicktoact](../events/onclicktoact.md)
+[onClickToAct](../events/onclicktoact.md)
 
-[onmodechanged](../events/onmodechanged.md)
+[onModeChanged](../events/onmodechanged.md)
 
-[onpagenavigate](../events/onpagenavigate.md)
+[onPageNavigate](../events/onpagenavigate.md)
 
-[onsendkbarticle](../events/onsendkbarticle.md)
+[onSendKBArticle](../events/onsendkbarticle.md)
 
-[onsizechanged](../events/onsizechanged.md)
+[onSizeChanged](../events/onsizechanged.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
