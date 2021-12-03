@@ -1,7 +1,7 @@
 
 You can enable outbound communication by these two options:
 
-1. Using customizations on the phone control. Follow steps 1-4.
+1. Using customizations on the phone control. Follow steps 1 through 4.
 2. Without any customizations. Follow steps 1, 3, and 4.
 
 

@@ -15,7 +15,7 @@ ms.custom:
 > [!IMPORTANT]
 > Minimum versions required to get this feature working without any customizations.
 > -	Platform version: 9.1.0000.15343
-> -	Channel Integration Framework 1.0: 9.1.0.412.
+> -	Dynamics 365 Channel Integration Framework 1.0: 9.1.0.412.
 
 [!INCLUDE[token-enable-outbound-communication-clicktoact](shared/token-enable-outbound-communication-clicktoact.md)]
 

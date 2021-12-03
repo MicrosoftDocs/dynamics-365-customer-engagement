@@ -68,7 +68,7 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
 2. To configure the widget in your Dynamics 365 instance, follow the steps described here: [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
 
-  Once the preceding steps are completed, open one of the Unified Interface apps that you selected while configuring the widget in Dynamics 365 Channel Integration Framework, and you will see the communication widget in the right-side panel. To open one of your selected Unified Interface apps, go to `https://[Organization URI]/apps`.
+  After the preceding steps are completed, open one of the Unified Interface apps that you selected while configuring the widget in Dynamics 365 Channel Integration Framework, and you will see the communication widget in the right-side panel. To open one of your selected Unified Interface apps, go to `https://[Organization URI]/apps`.
 
   The published widget should look like this.<br />
 
