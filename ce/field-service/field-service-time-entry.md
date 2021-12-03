@@ -27,7 +27,7 @@ Time entries are useful for:
 - billing and invoicing for service 
 
 > [!Note]
-> Field Service time entry utilizes the same entity that Project Service Automation has always used. This creates a consistent time capture process, regardless of whether your organization uses Field Service, Project Service Automation, or both.
+> Field Service time entry utilizes the same entity that Project Service Automation has always used. This creates a consistent time capture process, regardless of whether your organization uses Field Service, Project Service Automation, or both. However, the custom calendar control introduced by Project Service is tailored to work specifically for Project Service type Time Entry records.
 
 There are three ways time entries are created in Dynamics 365 Field Service: 
 
@@ -134,6 +134,8 @@ Import [the latest mobile project template](https://aka.ms/fsmobile-project) int
 Time entries are only automatically created for work order bookings and not for independent bookings or bookings related to other entities such as cases or custom entities.
 
 Time entries are not created in offline mode, but are created upon sync. 
+
+The Project Service introduced calendar control is built specifically to display project service type time entries. Field Service and other time entries will, in most cases, be filtered out of displayed data from the control regardless of the parameters defined in the view.
 
 ### See also
 

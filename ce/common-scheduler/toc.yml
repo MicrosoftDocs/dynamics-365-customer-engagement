@@ -64,6 +64,8 @@
       href: developer/extending-urs-step-by-step.md
     - name: Universal FetchXML
       href: developer/universal-fetchxml.md
+  - name: Consider Outlook free/busy in search resource availability API
+    href: developer/outlook-free-busy-in-search-resource-availability-API.md
 - name: Deprecations
   href: deprecations.md
 - name: Bug fixes
