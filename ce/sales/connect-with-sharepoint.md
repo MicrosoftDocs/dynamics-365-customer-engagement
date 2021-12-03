@@ -25,7 +25,7 @@ the Sales app by integrating with SharePoint Online.
 
 ## Configure the integration
 
-Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information.
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 

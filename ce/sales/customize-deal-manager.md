@@ -98,7 +98,7 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
     > [!NOTE]
     > -	The function names in the JavaScript file must match the event names and must accept the context object parameter. 
-    > -	The deal manager context object that's referred to in the example is different from the execution context of Common Data Service. Currently, the  deal manager context object is the same as the forecasting context object and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
+    > -	The deal manager context object that's referred to in the example is different from the execution context of Microsoft Dataverse. Currently, the  deal manager context object is the same as the forecasting context object and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
 
 1.	Add your JavaScript code in a script web resource:  
 

@@ -4,8 +4,7 @@
 
 title: Help resources for administrator and sales manager
 
-summary: Index page showing administration, system, user, and application configurations for Dynamics 365 Sales.
-
+summary: Navigate to the administration and configuration documentation based on what you want to do.
 
 
 metadata:
@@ -40,7 +39,7 @@ landingContent:
 # Card 
   - title: User and team management 
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
 
           - text: Create users and assign security roles 
@@ -55,7 +54,7 @@ landingContent:
 # Card 
   - title: Sales & product catalog setup 
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
 
           - text: Set up sales territories to organize business markets by geographical area 
@@ -76,7 +75,7 @@ landingContent:
 # Card 
   - title: Goal management
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
 
           - text: Goals settings 
@@ -91,7 +90,7 @@ landingContent:
 # Card 
   - title: Troubleshooting
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
 
           - text: Dynamics 365 Sales troubleshooting guide 
@@ -100,7 +99,7 @@ landingContent:
 # Card 
   - title: Upgrade/downgrade
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
 
           - text: Upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise 
@@ -111,9 +110,14 @@ landingContent:
 # Card 
   - title: Sales Premium
     linkLists:
-       - linkListType: overview
+       - linkListType: concept
          links:
-
+          - text: About premium forecasting 
+            url: configure-premium-forecasting.md
+          - text: First-run setup experience for conversation intelligence 
+            url: fre-setup-sales-insight-app.md
+       - linkListType: how-to-guide
+         links:         
           - text: Configure the sales accelerator 
             url: enable-configure-sales-accelerator.md
           - text: Configure the assistant 
@@ -122,17 +126,13 @@ landingContent:
             url: configure-predictive-lead-scoring.md
           - text: Configure predictive opportunity scoring 
             url: configure-predictive-opportunity-scoring.md
-          - text: About premium forecasting 
-            url: configure-premium-forecasting.md
           - text: Configure relationship analytics and health 
             url: configure-relationship-analytics.md
-          - text: First-run setup experience for conversation intelligence 
-            url: fre-setup-sales-insight-app.md
 
 # Card 
   - title: Dynamics 365 Sales mobile app
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
           - text: Prerequisites for the mobile app 
             url: sales-mobile/prereq-sales-mobile.md

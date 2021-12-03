@@ -34,7 +34,7 @@ landingContent:
 # Card 
   - title: Basics
     linkLists:
-       - linkListType: overview
+       - linkListType: quickstart
          links:
 
           - text: Overview of Sales and Sales Hub 
@@ -49,13 +49,13 @@ landingContent:
             url: manage-activities.md
           - text: Work with business processes 
             url: /powerapps/user/work-with-business-processes
-          - text: Set personal options? 
+          - text: Set personal options 
             url: /powerapps/user/set-personal-options
 
 # Card 
   - title: Keep track of your customers
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
 
           - text: Work with accounts and contacts 
@@ -72,7 +72,7 @@ landingContent:
 # Card 
   - title: Increase sales
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
 
           - text: Understand the sales process 
@@ -92,7 +92,7 @@ landingContent:
 # Card 
   - title: Create and work with collateral
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
 
           - text: Create or edit quotes 
@@ -105,7 +105,7 @@ landingContent:
 # Card 
   - title: Create a marketing campaign 
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
 
    
@@ -125,7 +125,7 @@ landingContent:
 # Card 
   - title: Manage data
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
 
           - text: Import data 
@@ -134,7 +134,7 @@ landingContent:
             url: /powerapps/user/export-data-excel
           - text: Merge duplicate records 
             url: /powerapps/user/merge-duplicate-records
-          - text: Search options in Common Data Service 
+          - text: Search options in Microsoft Dataverse 
             url: /powerapps/user/search
 
 # Card 
@@ -153,7 +153,7 @@ landingContent:
 # Card 
   - title: Get better sales intelligence
     linkLists:
-       - linkListType: overview
+       - linkListType: concept
          links:
 
           - text: Boost sales with Versium Predict 
@@ -164,7 +164,7 @@ landingContent:
 # Card 
   - title: Dynamics 365 Sales mobile app
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
           - text: Overview of the mobile app 
             url: sales-mobile/prereq-sales-mobile.md
@@ -179,7 +179,7 @@ landingContent:
 # Card 
   - title: Sales Premium
     linkLists:
-       - linkListType: overview
+       - linkListType: concept
          links:
           - text: What is the Sales accelerator? 
             url: sales-accelerator-intro.md
@@ -189,17 +189,20 @@ landingContent:
             url: work-predictive-lead-scoring.md
           - text: Prioritize opportunities through scores 
             url: work-predictive-opportunity-scoring.md
+          - text: Overview of Conversation Intelligence 
+            url: dynamics365-sales-insights-app.md
+       - linkListType: concept
+         links:
           - text: Project accurate revenue with sales forecasting 
             url: project-accurate-revenue-sales-forecasting.md
           - text: View customer activity history 
             url: relationship-analytics.md
-          - text: Overview of Conversation Intelligence 
-            url: dynamics365-sales-insights-app.md
+
 
 # Card 
   - title: Work with Outlook
     linkLists:
-       - linkListType: overview
+       - linkListType: how-to-guide
          links:
           - text: Dynamics 365 App for Outlook User Guide 
             url: ../outlook-app/dynamics-365-app-outlook-user-s-guide.md

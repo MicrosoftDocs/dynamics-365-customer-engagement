@@ -19,10 +19,12 @@ The Dynamics 365 Sales application is a modular app built to provide capabilitie
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator or System Customizer <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-Based on your license, select the appropriate tab to know how to enable or disable PDF generation in Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional.
+## Customize the app
+
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium or Sales Enterprise](#tab/sales)
 
@@ -57,8 +59,9 @@ Based on your license, select the appropriate tab to know how to enable or disab
  
 4. Add or edit components to the app, as required. More information: [Add or edit app components](/powerapps/maker/model-driven-apps/add-edit-app-components)
 
+---
 
-
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

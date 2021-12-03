@@ -26,7 +26,7 @@ Create user accounts and assign security roles to give your employees access to 
 
 ## Create and manage users
 
-Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information.
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 

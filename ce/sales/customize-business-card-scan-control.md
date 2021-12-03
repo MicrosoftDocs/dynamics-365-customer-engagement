@@ -69,7 +69,7 @@ To customize the mappings:
 
 
 > [!NOTE]
-> Salespeople must have the Common Data Service User role assigned to them to use the business card scan control.
+> Salespeople must have the Microsoft Dataverse User role assigned to them to use the business card scan control.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

@@ -10,7 +10,7 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Create and manage Word templates in Dynamics 365 Sales
+# Create and manage Word templates
 
 Microsoft Word provides powerful ways to present your Dynamics 365 Sales data in a standardized and well-formatted document. Use Word templates to ensure that all the documents that go out to your customers have a consistent look per your organization’s branding. You can easily create and share your template with others.
 
@@ -173,6 +173,8 @@ An administrator can use the **Advanced Settings** page to upload the Word templ
     You’ll see the summary of the file you’re uploading.
 
 5.  Select **Finish**.
+
+---
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

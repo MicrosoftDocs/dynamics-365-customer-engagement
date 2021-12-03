@@ -22,7 +22,7 @@ You can create a custom look and feel (a theme), for your app by making changes 
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-Based on your license, select the appropriate tab to know how to enable or disable PDF generation in Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional.
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium or Sales Enterprise](#tab/sales)
 

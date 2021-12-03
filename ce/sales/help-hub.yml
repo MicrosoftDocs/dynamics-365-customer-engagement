@@ -1,11 +1,11 @@
 ### YamlMime:Landing
 
 title: Dynamics 365 Sales documentation
-summary: Create powerful apps with easy to use tools that run across the spectrum of devices. 
+summary: Navigate through the Dynamics 365 Sales documentation based on what you want to do.  
 
 metadata:
   title: Dynamics 365 Sales documentation
-  description: Provides access to highlighted areas within the Dynamics 365 Sales documentation
+  description: Navigate through the Dynamics 365 Sales documentation based on what you want to do.  
   services: service
   ms.service: dynamics-365-sales 
   ms.topic: landing-page 
@@ -25,6 +25,10 @@ landingContent:
         links:
         - text: Dynamics 365 Sales Overview 
           url: overview.md
+        - text: Understand the sales process 
+          url: nurture-sales-from-lead-order-sales.md
+      - linkListType: quickstart
+        links:
         - text: Sign up for a free trial 
           url: sign-up-for-sales-trial.md
         - text: Set up Dynamics 365 Sales 
@@ -33,9 +37,7 @@ landingContent:
           url: user-guide-learn-basics.md
         - text: Set up Sales premium features 
           url: intro-admin-guide-sales-insights.md
-        - text: Understand the sales process 
-          url: nurture-sales-from-lead-order-sales.md
-
+        
 # Card 
 - title: Administer the system
   linkLists:
@@ -47,13 +49,11 @@ landingContent:
           url: set-up-product-catalog-walkthrough.md
         - text: Define sales settings 
           url: /power-platform/admin/system-settings-dialog-box-sales-tab
-        - text: Define Goals settings 
-          url: /power-platform/admin/system-settings-dialog-box-goals-tab
-        - text: Create or edit goals 
-          url: create-edit-goal-sales.md
         - text: Configure forecasts in your organization 
           url: configure-forecast.md
-        - text: Set up sales territories to organize business markets by geographical area 
+        - text: Configure sales accelerator
+          url: enable-configure-sales-accelerator.md
+        - text: Set up sales territories 
           url: /power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area
         - text: More help resources for admins... 
           url: ../sales-enterprise/admin-guide.yml
@@ -61,16 +61,18 @@ landingContent:
 # Card 
 - title: Increase sales
   linkLists:
-      - linkListType: how-to-guide
+      - linkListType: concept
         links:
         - text: Nurture sales from lead to cash 
           url: nurture-sales-from-lead-order-sales.md
+      - linkListType: how-to-guide
+        links:
         - text: Create or edit leads 
           url: create-edit-lead-sales.md
-        - text: Qualify or convert leads 
-          url: qualify-lead-convert-opportunity-sales.md
         - text: Create or edit opportunities 
           url: create-edit-opportunity-sales.md
+        - text: Track your progress with dashboards and charts 
+          url: /powerapps/user/track-your-progress-with-dashboard-and-charts
         - text: More help resources for salespeople... 
           url: user-guide-learn-basics.md
 
@@ -106,7 +108,7 @@ landingContent:
 # Card 
 - title: Develop
   linkLists:
-      - linkListType: how-to-guide
+      - linkListType: concept
         links:
         - text: Sales entities (lead, opportunity, competitor, quote, order, invoice) 
           url: ../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md
@@ -124,7 +126,7 @@ landingContent:
 # Card 
 - title: GDPR
   linkLists:
-      - linkListType: overview
+      - linkListType: concept
         links:
         - text: Dynamics 365 Sales and GDPR 
           url: ../sales-enterprise/dynamics-365-sales-gdpr.md

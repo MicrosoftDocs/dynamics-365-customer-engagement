@@ -38,6 +38,8 @@ Quotes have important data about the customers and the products they're interest
 6.  Select **Save**. 
 7.  Open a quote, activate it, and verify if the **Create Order** option is available on the command bar. You can now select **Create Order** to create an order based on the quote. 
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+
 ### See also
 
 [Create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote)

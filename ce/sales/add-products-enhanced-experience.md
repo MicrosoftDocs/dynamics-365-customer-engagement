@@ -1,5 +1,5 @@
 ---
-title: "Find and add multiple products to opportunity-Sales Enterprise | MicrosoftDocs"
+title: "Find and add multiple products to opportunity | MicrosoftDocs"
 description: "Use the enhanced experience to quickly identify and add multiple products from catalog to opportunities."
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Preview: Add products to an opportunity by using the enhanced experience 
+# Preview: Find and add multiple products to an opportunity
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

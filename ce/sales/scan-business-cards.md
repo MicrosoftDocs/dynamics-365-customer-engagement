@@ -35,7 +35,7 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 
 ## Scan a business card
 
-1. Make sure you have the Common Data Service User role and AI Builder add-on license assigned.
+1. Make sure you have the Microsoft Dataverse User role and AI Builder add-on license assigned.
 
 2.  On the Quick Create form of a **Contact** or **Lead** form, select **Scan business card**.
 

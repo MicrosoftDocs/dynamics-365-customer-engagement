@@ -56,4 +56,8 @@ When you activate a quote or invoice, a word document for the quote or invoice i
 1. Select the account for which you've activated the quote.
     You'll find the quote folder with the auto-generated quote document.
 
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

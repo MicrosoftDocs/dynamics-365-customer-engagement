@@ -41,7 +41,7 @@ You can import data from the following file types and sources:
 
 ## Import data
 
-Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information.
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium and Sales Enterprise](#tab/SESP)
 
@@ -310,6 +310,9 @@ To be able to import from Exchange:
 >[!IMPORTANT]
 >You won’t be able to remove or untrack a contact from Dynamics 365 Sales. Use the Dynamics 365 App for Outlook to do this.
 
+---
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

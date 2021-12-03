@@ -26,7 +26,7 @@ Give your salespeople the flexibility to choose which records to create—accoun
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## To define the experience 
+## Define the experience  
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 

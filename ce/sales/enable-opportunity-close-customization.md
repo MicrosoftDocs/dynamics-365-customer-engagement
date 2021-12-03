@@ -26,7 +26,7 @@ To allow users in your organization to capture more relevant details about an op
 > [!NOTE]
 > The capability to customize the **Opportunity Close** form is supported only in the sales app built on Unified Interface.
 
-Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information.
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 

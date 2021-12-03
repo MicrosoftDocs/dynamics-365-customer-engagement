@@ -24,7 +24,7 @@ Set up the enhanced email experience so sales reps can compose and send email wi
 
 ## Enable the enhanced email
 
-Depending on the Dynamics 365 Sales license you have, select one of the tabs for specific information. 
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 

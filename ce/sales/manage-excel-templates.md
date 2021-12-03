@@ -10,7 +10,7 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Create and manage Excel templates in Dynamics 365 Sales
+# Create and manage Excel templates
 
 Microsoft Excel provides powerful ways to analyze and present your Dynamics 365 Sales data. With Excel templates, you can easily create and share your customized analysis with others in your organization.
 
@@ -37,7 +37,7 @@ You can use Excel templates for:
 
 ## Create an Excel template
 
-Templates display information from the view defined for a record type (entity). Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information.
+Templates display information from the view defined for a record type (entity). Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
@@ -185,6 +185,9 @@ Here are some things you need to be aware of to create and make the best use of 
     Excel templates will not open in Windows 8.1 devices with the Office Mobile app. You’ll get the following error message: “We’ve recovered as much of your document as we could, but you can’t edit it. Try to open and repair the document on your PC to fix the problem.”
 
     This is a known issue. Use table column names and range names in formulas. When you create Excel formulas, don’t use column titles or cell numbers. Instead, use the table column names, and define names for cells or cell ranges.
+---
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

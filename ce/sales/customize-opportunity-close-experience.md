@@ -19,7 +19,7 @@ Customize the opportunity close form so that sellers can capture details about w
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## How does the customization help
+## How does the customization help?
 
 Enable sales managers to draw key insights based on the information the sales representatives fill in while closing an opportunity.
 

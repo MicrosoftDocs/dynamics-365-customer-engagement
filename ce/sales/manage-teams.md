@@ -1,5 +1,5 @@
 ---
-title: "Add or manage teams in Dynamics 365 Sales | MicrosoftDocs"
+title: "Create or manage teams in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 Sales."
 ms.date: 11/18/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.custom:
   - "dyn365-sales"
 ---
 
-# Add or manage teams
+# Create or manage teams
 
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
@@ -22,9 +22,9 @@ A team is a group of users who share and collaborate on business records. A user
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Manage teams
+## Create a team
 
-Based on your license, select the appropriate tab to know how to enable or disable PDF generation in Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional.
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium or Sales Enterprise](#tab/sales)
 
@@ -55,7 +55,7 @@ Based on your license, select the appropriate tab to know how to enable or disab
       > [!div class="mx-imgBorder"]
       > ![Add New Team pane.](media/add-new-team-dialog-box.png "Add New Team pane")
 
-## Add members to the team
+### Add members to the team
 
 1. On the **Team management** page, select the team you want to add members to.
 
@@ -63,13 +63,13 @@ Based on your license, select the appropriate tab to know how to enable or disab
 
 3. In the **Lookup Records** panel, search for and select the required members, and then select **Add**.
 
-## Remove members from the team
+### Remove members from the team
 
 1. On the **Team Management** page, select the team you want to remove the members from
 
 2. In the **Team members** section, select the members you want to remove, and then select **Remove**.
 
-## Manage security roles
+### Manage security roles
 
 When a team is assigned a role, the team members are assigned the set of privileges associated with that role.
 

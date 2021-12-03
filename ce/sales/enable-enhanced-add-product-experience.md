@@ -49,7 +49,7 @@ Enable your salespeople to quickly find and add multiple products to an opportun
 
 ## Enable or disable the enhanced experience
 
-Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information. 
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 

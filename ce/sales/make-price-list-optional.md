@@ -31,7 +31,7 @@ When adding products to opportunities, quotes, orders, or invoices, at times, sa
 
 ## Make price list optional
 
-Depending on the Dynamics 365 Sales license that you have, select one of the tabs for specific information. 
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 

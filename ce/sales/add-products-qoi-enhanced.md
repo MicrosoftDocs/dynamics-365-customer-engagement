@@ -18,7 +18,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Preview: Add products to quotes, orders, or invoices by using the enhanced experience 
+# Preview: Find and add multiple products to quotes, orders, or invoices
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
