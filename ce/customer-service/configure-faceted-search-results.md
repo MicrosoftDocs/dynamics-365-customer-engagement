@@ -1,7 +1,7 @@
 ---
 title: Configure faceted search results web template off your portal| MicrosoftDocs
 description: Know how the faceted search results web template can be configured of your portal.
-ms.date: 12/02/2021
+ms.date: 12/03/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
