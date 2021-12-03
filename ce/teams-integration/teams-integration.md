@@ -1,7 +1,7 @@
 ---
 title: "Overview of Microsoft Teams integration with Dynamics 365 apps"
 description: "Dynamics 365 for Microsoft Teams integration enables users to easily work with customer engagement apps and share files directly from Microsoft Teams."
-ms.date: 11/15/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.service: crm-online
 search.app: 
@@ -14,9 +14,9 @@ manager: shujoshi
 
 # Overview of Microsoft Teams integration
 
-In today’s business scenario, business groups often collaborate across departments while working on a marketing campaign, pursuing a sales opportunity, or solving a customer issue. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. 
+In today's business scenario, business groups often collaborate across departments while working on a marketing campaign, pursuing a sales opportunity, or solving a customer issue. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. 
 
-Using Teams integration, you can invite anyone in the organization to view and collaborate on customer records right within a Teams chat or channel. As a seller, you can share details on the sales opportunity, customer history, and more. As a customer service representative, you can share the customer case record, troubleshooting steps, and track the follow-up tasks.
+Using Teams integration, you can invite anyone in the organization to view and collaborate on customer records right within a Teams chat or channel. You can also call your customers from within Dynamics 365 and get the work done more effectively. As a seller, you can share details on the sales opportunity, customer history, and more. As a customer service representative, you can share the customer case record, troubleshooting steps, and track the follow-up tasks.
 
 Teams can be integrated with Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation.
 
@@ -44,7 +44,16 @@ Dynamics 365 and Teams integration is built around the following pillars:
 
 ## Features of Teams integration
 
-Connect and collaborate in the flow of work with anyone, anywhere with Dynamics 365 and Microsoft Teams. 
+Connect and collaborate in the flow of work with anyone, anywhere with Dynamics 365 and Microsoft Teams.
+
+- **In Dynamics 365**
+
+  - **Engage in Teams chat**: You can engage in a Teams chat conversation from within Dynamics 365 while working on a record. More information: [Engage in Microsoft Teams chats from within Dynamics 365](teams-collaboration-in-dynamics.md) and [Using Microsoft Teams chat in Dynamics 365](using-teams-chat-in-dynamics.md)
+
+  - **Collaboration hub**: You can easily connect a Dynamics 365 record to an existing Teams channel or create a new team or channel. More information: [Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](teams-collaboration-enhanced-experience.md)
+
+  - **Configure Teams dialer**: Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly from within the Dynamics 365 Sales app. More information: [Configure Microsoft Teams dialer](../sales/configure-microsoft-teams-dialer.md)
+
 
 - **In Microsoft Teams**
 
@@ -52,19 +61,7 @@ Connect and collaborate in the flow of work with anyone, anywhere with Dynamics 
 
   - **File integration**: You can co-author documents using Microsoft 365 and automatically sync with Dynamics 365 records that are linked to a Teams channel. Files uploaded to a Teams channel are associated with the Dynamics 365 record. Similarly, files uploaded to the linked Dynamics 365 record are visible in the Teams channel. More information: [Document management with Microsoft Teams integration](teams-doc-management.md)
 
-
-
-<!-- Please review the rewording of the following to make sure it is correct. -->
-
   - **Personal dashboard**: You can use the Dynamics 365 app to view your personal dashboard in Teams. More information: [View your personal dashboard with the Dynamics 365 app for Microsoft Teams](teams-personal-use.md)
-
-- **In Dynamics 365**
-
-  - **Collaboration hub**: You can easily connect a Dynamics 365 record to an existing Teams channel or create a new team or channel. More information: [Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](teams-collaboration-enhanced-experience.md)
-
-  - **Configure Teams dialer**: Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly from within the Dynamics 365 Sales app. More information: [Configure Microsoft Teams dialer](../sales/configure-microsoft-teams-dialer.md)
-
-  - **Embed Teams chat**: You can engage in a Teams chat conversation from within Dynamics 365 while working on a record. More information: [Engage in Microsoft Teams chats from within Dynamics 365](teams-collaboration-in-dynamics.md)
 
 
 ## Questions and feedback
@@ -72,10 +69,6 @@ Connect and collaborate in the flow of work with anyone, anywhere with Dynamics 
  If you have additional feedback or questions regarding this feature, contact [D365forTeams@microsoft.com](mailto:D365forTeams@microsoft.com).
 
 ## Privacy notice
-
-
-<!-- I made some revisions to the following based on this style guide entry: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=48260. Also, I think it should be "Azure Bot Service" rather than bot framework, based on the link and on this style guide entry: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=42286. If this is text you obtained from CELA, you should ask if the changes are OK. -->
-
 
 While using customer engagement apps in a Dynamics 365 bot in Microsoft Teams, the user’s text inputs are analyzed for understanding the underlying query/intent. The user’s input such as “Search account Contoso” is routed to a service within Azure Cognitive Services called Language Understanding (LUIS). [Read more about LUIS.](https://www.luis.ai/) The LUIS service disambiguates or understands the intent of user input (in this case, the intent is to find information) and the target entity (in this case, the intended entity is an account named Contoso). This information is then passed on to Microsoft’s [Azure Bot Service](https://azure.microsoft.com/services/bot-service/), which interacts with Dynamics 365 data and retrieves the desired information for the user query.
 
