@@ -332,7 +332,7 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 
 ### See also
 
-[User Guide (Sales and Sales Hub)](user-guide.md)
+[User Guide](user-guide.yml)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

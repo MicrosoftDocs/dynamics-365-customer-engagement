@@ -102,7 +102,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 2. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](/powerapps/maker/model-driven-apps/choose-and-configure-columns#add-columns-to-views).
 1. Publish the customization.  
-     The changes should now be visible in the Add products dialog of the corresponding entity. See, [Add products to an opportunity by using the enhanced experience (Sales Professional)](add-products-enhanced-experience-sp.md)
+     The changes should now be visible in the Add products dialog of the corresponding entity. See, [Preview: Find and add multiple products to an opportunity](add-products-enhanced-experience.md)
    
 ---
 
@@ -152,7 +152,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 1. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](/powerapps/maker/model-driven-apps/choose-and-configure-columns#add-columns-to-views).  
 
 1. Save and publish the customization.
-     The changes should now be visible in the Product column of the Add products dialog for all entities. See, [Add products to an opportunity by using the enhanced experience (Sales Professional)](add-products-enhanced-experience-sp.md) 
+     The changes should now be visible in the Product column of the Add products dialog for all entities. See, [Preview: Find and add multiple products to an opportunity](add-products-enhanced-experience.md)
 --- 
 
 ## Customize the fields to search  

@@ -1,7 +1,8 @@
 ---
 title: Administrators learning catalog in sales
 description: Find all the training options for administrators. 
-author: loreleishannonmsft
+author: lavanyakr01
+ms.author: lavanyakr
 ms.topic: article
 ms.date: 01/08/2020
 ms.author: v-lshann

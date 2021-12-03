@@ -56,7 +56,8 @@ landingContent:
         - text: Set up sales territories 
           url: /power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area
         - text: More help resources for admins... 
-          url: ../sales-enterprise/admin-guide.yml
+          url: ../sales-enterprise/admin-guide
+
 
 # Card 
 - title: Increase sales
@@ -74,7 +75,7 @@ landingContent:
         - text: Track your progress with dashboards and charts 
           url: /powerapps/user/track-your-progress-with-dashboard-and-charts
         - text: More help resources for salespeople... 
-          url: user-guide-learn-basics.md
+          url: user-guide
 
 # Card 
 - title: In-app marketing

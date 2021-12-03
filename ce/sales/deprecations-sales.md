@@ -50,7 +50,7 @@ Effective April 1, 2021, Dynamics 365 – Gamification is deprecated. Until Sept
 
 ### Dynamics 365 assistant application for Teams
 
-|||
+| &nbsp; | &nbsp; | 
 |-------------|------------|
 | Reason for deprecation/removal | Not legally required. |
 | Replaced by another feature? | Yes. An improved version of the application for mobile devices with features that include some of the capabilities of Dynamics 365 assistant application for Teams. |

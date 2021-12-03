@@ -31,7 +31,7 @@ You must perform the following steps to configure Sales Analytics for Dynamics 3
 3. [Connect your Dynamics 365 Sales organization to the Power BI template app](#step-3-connect-your-dynamics-365-sales-organization-to-the-power-bi-template-app).
 4. [Configure the refresh frequency for the Power BI dataset](#step-4-configure-the-refresh-frequency-for-the-power-bi-dataset).
 5. [Publish the application within your organization](#step-5-publish-the-application-within-your-organization).
-6. [Enable Power BI reporting in the Microsoft Dataverse platform (optional)](#step-6-enable-power-bi-reporting-in-the-common-data-service-platform).
+6. [Step 6: Enable Power BI reporting in the Microsoft Dataverse platform](#step-6-enable-power-bi-reporting-in-the-microsoft-dataverse-platform).
 7. [Add the Power BI Dashboard to the Sales Hub app (optional)](#step-7-add-power-bi-dashboards-to-the-sales-hub-app).
 
 > [!NOTE]

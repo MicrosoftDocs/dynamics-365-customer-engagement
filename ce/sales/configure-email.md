@@ -108,10 +108,5 @@ For more information about managing subscriptions, go to [Manage Microsoft Dynam
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
-
-[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
-[Admin settings overview](admin-settings-overview.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

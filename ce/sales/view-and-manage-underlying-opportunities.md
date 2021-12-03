@@ -97,7 +97,7 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
     You can identify whether the selected opportunities belong to a team, an individual, a single cell value, or a full row by looking at the table heading. The format of the heading is described in the following table:
 
-    | Heading format | Description |
+    | **Heading format** | **Description** |
     |----------------|-------------|
     | Username (Group) – All opportunities | All the opportunities across different forecast categories that the selected user and that user's team own. |
     | Username - All opportunities | All the opportunities across different forecast categories that the selected user owns. |
