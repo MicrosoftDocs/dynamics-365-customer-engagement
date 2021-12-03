@@ -4,38 +4,13 @@
 
 ## Parameters
 
-<table style="width:100%">
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>entityLogicalName</td>
-<td>String</td>
-<td>Yes</td>
-<td>The entity logical name of the record you want to delete. For example: &quot;account&quot;. </td>
-</tr>
-<tr>
-<td>id</td>
-<td>String</td>
-<td>Yes</td>
-<td>GUID of the entity record you want to delete.</td>
-</tr>
-<tr>
-<td>successCallback</td>
-<td>Function</td>
-<td>No</td>
-<td><p>A function to call when a record is deleted.</td>
-</tr>
-<tr>
-<td>errorCallback</td>
-<td>Function</td>
-<td>No</td>
-<td>A function to call when the operation fails.</td>
-</tr>
-</table>
+| Name | Type  | Required  | Description |
+| ---- | ----  | --------  | ----------- |
+| entityLogicalName | String | Yes | The entity logical name of the record you want to delete. For example: "account".|
+ | id   | String | Yes | GUID of the entity record you want to delete.| 
+| successCallback | Function | No |  A function to call when a record is deleted. |
+| errorCallback | Function  | No  | A function to call when the operation fails. |
+||||
 
 ## Return Value
 
