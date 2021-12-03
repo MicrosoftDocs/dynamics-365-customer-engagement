@@ -43,11 +43,11 @@ To avoid performance issues:
 Customers edit out-of-the-box fields to accommodate their business needs. However, editing out-of-the-box fields can cause errors, especially when processes depend on those field values.
 
 To avoid errors:
-- hide unwanted fields from a form. 
-- move unwanted fields to another form tab.
 
-Here is just one example: Field Service processes calculate the _Estimated Arrival Time_ field value on the Bookable Resource Booking record to indicate when a frontline worker is expected to arrive on site. If your organization does not need this field, simply hide it on the form rather than remove it.
+- Hide unwanted fields from a form. 
+- Move unwanted fields to another form tab.
 
+Here is just one example: Field Service processes calculate the _Estimated Arrival Time_ field value on the Bookable Resource Booking record to indicate when a frontline worker is expected to arrive on site. If your organization does not need this field, hide it on the form rather than remove it.
 
 For more information, see this article: [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
 
@@ -56,9 +56,9 @@ For more information, see this article: [Optimize model-driven app form performa
 Editing the option set values of out-of-the-box fields can cause errors, especially when processes depend on those field values or during upgrades.
 
 To avoid errors:
-- only edit option set _labels_ and **never** edit option set _values_ of out-of-the-box fields.
+- Only edit option set _labels_ and **never** edit option set _values_ of out-of-the-box fields.
 - Do not remove any option set choices. 
-- Do not add any option set chocies.
+- Do not add any option set choices.
   
 Here is just one example: The Field Service work order includes a field called "System Status" by default. This field is an option set (type "choice") with options like Unscheduled, Scheduled, In progress, Completed, Canceled, etc. Each of these options has a label and an associated numeric value. System administrators can edit the labels of option sets (like "Unscheduled") but can never edit the associated numeric value of the label.    
 
@@ -95,14 +95,14 @@ If you have code that only supports OnChange events for columns or the OnSave ev
 When web resources or IFRAMES are included in sections inside a collapsed tab, they will not be loaded if the tab is collapsed. They will be loaded when the tab is expanded. When the tab state changes the TabStateChange event occurs. Any code that is required to support web resources or IFRAMEs within collapsed tabs can use event handlers for the TabStateChange event and reduce code that might otherwise have to occur in the OnLoad event.
 
 
-### Avoid duplicate network requests in client side code
+### Avoid duplicate network requests in client-side code
 
-Multiple or duplicate network requests can cause the web browser to stall and impact form load time. Reducing the number of requests canimprove performance. An alternative is to consolidate network requests and cache the value of these requests. Also consider having these network requests done asynchonously as mentioned above. 
+Multiple or duplicate network requests can cause the web browser to stall and affect form load time. Reducing the number of requests can improve performance. An alternative is to consolidate network requests and cache the value of these requests. Also consider having these network requests done asynchronously as mentioned above.
 
 
 ### Avoid using roles and system user specific calls if the relevant information is available in XRM APIs
 
-Use XRM APIs to avoid network requests to get user privilege info. See the following article on [transitioning away from synchronous requests](https://powerapps.microsoft.com/en-us/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests). Similarly avoid system user calls if the information from XRM APIs meet your requirements. 
+Use XRM APIs to avoid network requests to get user privilege info. See the following article on [transitioning away from synchronous requests](https://powerapps.microsoft.com/en-us/blog/turbocharge-your-model-driven-apps-by-transitioning-away-from-synchronous-requests). Similarly avoid system user calls if the information from XRM APIs meets your requirements. 
 
 
 
