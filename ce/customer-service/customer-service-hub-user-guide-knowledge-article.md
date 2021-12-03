@@ -424,11 +424,6 @@ It’s important to review articles for accuracy before they’re published or m
 |Pick an article assigned to you|Go to **Service** > **My Knowledge Dashboard**, and then see the **My Active Articles** stream.<br /><br /> **-OR-**<br /><br /> In the Customer Service Hub, go to **Service** > **Queue Items**, and then select the **Items available to work on** view.|  
 |To suggest review feedback|1.  On the Business process bar, in the **Review** stage, in the **Review** field, select **Reject**. Give the reason for rejection in the **Reject Knowledge Article** flyout. <br /><br />2.  To add details about the changes you want in the knowledge article, go to **Summary** tab and in the **Timeline** section, select **+** to add a note.<br /><br /> The rejected article is  assigned back to the primary author of the knowledge article.|  
 |Approve the content of the article|When you approve the content of an article, it means that the content is ready to be consumed by other customer service reps, and also ready to be published.<br /><br /> On the Business process bar, in the **Review** stage, in the **Review** field, select **Approve**.<br /><br /> The article is now ready to be published.|  
-
-
-
-
-
  
 ## Update knowledge articles to capture feedback  
 
@@ -444,7 +439,7 @@ Make sure that your articles are up to date and accurate at all times by updatin
   
 4.  Select **Save**.  
   
-5.  To assign the article back to the reviewer for approval or publishing, on the command bar, select **Assign**, and then select a user or a team  
+5.  To assign the article back to the reviewer for approval or publishing, on the command bar, select **Assign**, and then select a user or a team.  
   
 ## Update published knowledge articles  
 
@@ -462,7 +457,7 @@ If the article has information that complements an existing knowledge article, a
   
 1.  In the knowledge article, on the command bar, select **More** > **Relate Article**.  
   
-2.  In the **Select Article to Associate** field, select the **Lookup** button, select an existing article, and then, select **Associate**.  
+2.  In the **Select Article to Associate** field, select the **Lookup** button, select an existing article, and then select **Associate**.  
   
      The associated article appears in the **Related Articles** list in the **Related Information** section of the **Summary** tab.  
   
@@ -471,7 +466,7 @@ If the article has information that complements an existing knowledge article, a
 
 Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services.  
   
- This capability helps you to keep accurate records of the features your organization provides and go back to previous versions if you need to.  
+This capability helps you to keep accurate records of the features your organization provides and go back to previous versions if you need to.  
   
 1.  In the Customer Service Hub, select **Services** and choose **Knowledge Articles**.  
   
@@ -494,7 +489,7 @@ When you are done making changes, you can push the new version of your article t
   
 ### Manage article versions  
 
-Managing your article versions means publishing and archiving different versions of each article to provide the most accurate information to your customers and internal employees. Keep in mind that only one version of an article can be published at a time; it’s important to keep track of the changes that are made to each version and publish them when it is appropriate.  
+Managing your article versions means publishing and archiving different versions of each article to provide the most accurate information to your customers and internal employees. Keep in mind that only one version of an article can be published at a time; it’s important to keep track of the changes that are made to each version and publish them when it's appropriate.  
   
 1.  In the knowledge article, select the **Summary** tab.  
   
@@ -514,10 +509,14 @@ Your knowledge article must reach your customers irrespective of their market or
   
 1. Open the article you want to translate, and from the command bar, select **Translate**.  
   
-2. On the **Create new translation** dialog, do the following:
-   * From the **Pick a language** dropdown, search and select the language you want.  
+2. In the **Create new translation** dialog box, do the following:
+   * From the **Pick a language** dropdown list, search for and select the language you want.  
    * In the **Create new version** field, select either **Major** or **Minor** version for your translation.  
-  
+
+
+<!-- Should the following sentence say "set" or "select" languages? -->
+
+
      You can set languages that are supported by your Dynamics 365 instance.
   
 4. Select **Create**.  
@@ -525,11 +524,8 @@ Your knowledge article must reach your customers irrespective of their market or
 5. Enter your translated text in the appropriate fields. You can enter translated text for the following fields:  
   
    -   Title  
-  
    -   Keywords  
-  
    -   Article Description  
-  
    -   Content  
   
 6. When you are done reviewing and your article is ready for publish, select **More** > **Publish**. Select how and when you want to publish your new version. You can publish your new version immediately, schedule the publish for a future date, or leave it as a draft to publish it manually at a later point in time. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article)
@@ -544,12 +540,16 @@ After you have published a translation for an article, you can manage it and any
   
      From here, you can:  
   
-    -   Edit or update a translation  
+    -   Edit or update a translation.  
+    -   Create a new major or minor version of a translation.  
+    -   Delete a translation or version of a translation.  
   
-    -   Create a new major or minor version of a translation  
-  
-    -   Delete a translation or version of a translation  
-  
+
+
+
+
+
+
 
 ## Schedule or publish an article  
 
