@@ -210,8 +210,12 @@
     href: mobile-power-app-use.md
   - name: Booking maps
     href: mobile-powerapp-booking-maps.md
-  - name: Customize the app
+  - name: Customize the home screen (Site Map)
     href: mobile-power-app-configure.md
+  - name: Customize calendar columns
+    href: mobile-powerapp-customize-booking-calendar.md
+  - name: Edit the Booking and Work Order form (Form Component Control)
+    href: mobile-powerapp-booking-work-order-form.md
   - name: Offline data and sync filters
     href: mobile-power-app-system-offline.md
   - name: Barcode scanning and global search
