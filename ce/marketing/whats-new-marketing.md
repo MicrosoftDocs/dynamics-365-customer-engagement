@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/01/2021
+ms.date: 12/03/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -31,7 +31,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### December 2021 update
 
-With the Dynamics 365 Marketing December 2021 update you can export images from outbound marketing to real-time marketing, use Content ideas in the real-time marketing email editor, send Customer Voice surveys in real-time marketing SMS messages and push notifications, track interaction and contact quota usage, create attribute conditions over all attribute types in CDS, and export customer interaction records from Azure Blob Storage to Power BI more quickly. The update also includes general performance upgrades and bug fixes.
+With the Dynamics 365 Marketing December 2021 update you can create conditional checks for real-time marketing journeys using relative and partial dates, use real-time marketing features more quickly after install, track unsubscribed users in real-time marketing insights, and manage Microsoft Teams meeting options from the Dynamics 365 Marketing app. The update also includes general performance upgrades and bug fixes.
 
 #### Version number
 
@@ -46,27 +46,17 @@ With the Dynamics 365 Marketing December 2021 update you can export images from 
 
 ##### Real-time marketing
 
-- **Asset library**
-    - 
 - **Customer journeys**
-    - 
-- **Marketing emails**
-    - 
+    - Create more powerful conditional checks using relative dates (for example, "anniversary in the next three months") and partial dates (for example, "birthday is November").
+- **First run experience**
+    - Real-time marketing is now pre-provisioned alongside outbound marketing, allowing you to get up and running with real-time marketing features more quickly after trial or paid install.
 - **Marketing insights**
     - Added an **Unsubscribe** interaction type to real-time marketing to track the number of users that remove themselves from a mailing list. Learn more: [Insights glossary](insights-glossary.md#unsubscribes).
-- **Mobile channel**
-    - 
-- **Scale**
-    - 
 
 ##### Outbound marketing
 
-- **Marketing insights**
-    - 
-
-##### Global updates
-
-- 
+- **Event management**
+    - Expanded Dynamics 365 Marketing interface allows you to set Microsoft Teams meetings options in the Marketing app just as you would in the Teams UI. Learn more: [Teams meetings](teams-webinar.md#teams-meetings).
 
 #### Bug fixes
 
