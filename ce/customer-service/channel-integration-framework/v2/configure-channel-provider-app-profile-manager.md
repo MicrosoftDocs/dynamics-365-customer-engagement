@@ -4,13 +4,14 @@ description: "Learn how to configure a channel provider using the app profile ma
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 12/02/2021
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 searchScope: 
  - D365-App-customerservicehub 
  - D365-Entity-msdyn_channelprovider
- - D365-UI-view
+ - D365-UI-*
  - Dynamics 365 
  - Customer Service 
  - Customer Engagement
@@ -22,11 +23,11 @@ The app profile manager is an out-of-the-box solution that lets you create targe
 
 Channel Integration Framework 2.0 is intended for multisession applications such as Omnichannel for Customer Service and Customer Service workspace.
 
-**To configure a third-party channel provider with a multisession application**
+**To configure a third-party channel provider for multisession applications**
 
-1. Sign in to your [Power Apps](https://make.powerapps.com) portal.
+1. Sign in to the [Power Apps](https://make.powerapps.com) portal.
 
-2. Under the available apps, select the ellipses to the right of **Omnichannel for Customer Service** or **Customer Service workspace**.
+2. Under the available apps, select the ellipses next to **Omnichannel for Customer Service** or **Customer Service workspace**.
 
 3. On the menu that appears, select **App profile manager**.
 
@@ -36,11 +37,11 @@ Channel Integration Framework 2.0 is intended for multisession applications such
 
   > ![Select app profiles.](../media/channel-app-profile-manager.PNG "Select app profiles")
 
-6. Select **Add channel providers** and then, select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
+6. Select **Add channel providers**, and then select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
 
   > ![Create new channel provider.](../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
 
-7. Fill in all the required details to configure a new channel provider.
+7. Enter the following details.
 
 | Field | Description |
 |-------|-------|
@@ -60,7 +61,7 @@ Channel Integration Framework 2.0 is intended for multisession applications such
   > [!NOTE]
   > The `Api Version` field is set to `2` when you navigate from the app profile manager.
 
-8. After you have configured the channel provider, go back to the app profile manager and add the channel provider to the app profile.
+8. After you've configured the channel provider, go back to the app profile manager and add the channel provider to the app profile.
   
 ### See also
 
