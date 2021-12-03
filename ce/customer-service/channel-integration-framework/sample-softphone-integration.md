@@ -14,7 +14,7 @@ ms.custom:
 [Download](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version1) the softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 1.0.
 
 > [!NOTE]
-> The sample code is not supported on Internet Explorer and on browsers that do not have webRTC support. More information: [WebRTC](https://webrtc.org/)
+> The sample code is not supported on Internet Explorer and on browsers that do not have WebRTC support. More information: [WebRTC](https://webrtc.org/)
 
 > [!Important]
 > - This sample code currently has limited availability.
@@ -50,7 +50,7 @@ A valid Azure subscription is required to publish the sample app to Azure.
 
 1. Create sample code for the **client-voice** function.<br> Refer to the function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
 
-2. Use the sample code for the **capability-token** function.<br> Refer to function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
+2. Use the sample code for the **capability-token** function.<br> Refer to the function from the readme file packaged with the sample softphone integration in the [Dynamics 365 Insider Portal](https://go.microsoft.com/fwlink/p/?linkid=2025867).
 
 > [!Note]
 > Save the URL for the **capability-token** function you obtain from the above sample code. For example, the URL is `https://sampleinteg.sample/capability-token`.
@@ -59,7 +59,7 @@ A valid Azure subscription is required to publish the sample app to Azure.
 
 ## Configure a sample app in Dynamics 365
 
-1. Note the base URL of the Dynamics 365 org in which all web resources are stored. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example, `https://sampleorg.crm10.dynamics.com`
+1. Note the base URL of the Dynamics 365 org in which all web resources are stored. For an online org, this should be of the form `https://<orgname>.crmXX.dynamics.com`. For example, `https://sampleorg.crm10.dynamics.com`.
 
 1. Get the **Dynamics 365 Channel Integration Framework** solution. For more information, see [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md).
 
@@ -96,7 +96,7 @@ A valid Azure subscription is required to publish the sample app to Azure.
 
 [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
 
-[Configure the channel provider](configure-channel-provider-channel-integration-framework.md)
+[Configure a channel provider](configure-channel-provider-channel-integration-framework.md)
 
 [Microsoft.CIFramework](reference/microsoft-ciframework.md)
 
