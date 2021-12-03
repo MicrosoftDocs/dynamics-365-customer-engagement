@@ -46,31 +46,29 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
 3. To create a customer service schedule, select **New**.  
   
-    -OR-  
-  
-    To edit a schedule that you already have, select the schedule in the list of records, and on the command bar, select **Edit**.  
+    To edit an existing schedule, select the schedule in the list of records, and on the command bar, select **Edit**.  
   
 4. In the **Create Customer Service Schedule** dialog box, in the **Name** box, type a meaningful name for the schedule, like “APAC Customer Schedule”, and select **Create**.  
   
-5. In the **Weekly Schedule** dialog box, follow these steps:  
+5. In the **Weekly Schedule** dialog, follow these steps:  
    
    1. For work hours, select one of these options:  
   
       - **Are the same each day**: The schedule is the same for every day of the week. After you select this option, to select the days of the week that the customer support is available, select **Set Work Hours**.  
   
-           To set the work hours for the days, select **Set Work Hours**. For more information, see the **Define work hours for the customer service schedule section** in this topic.  
+           To set the work hours for the days, select **Set Work Hours**. For more information, see [Define work hours for the customer service schedule](#define-the-work-hours-for-the-schedule).  
   
       - **Vary by day**: The new schedule is different for one or more days of the week. After you select this option, select the days of the week that the customer support is available, and also specify the work hours for each day.  
   
-      - **24 x 7 support**: The customer support is available 24 hours a day, and all days a week.  
+      - **24 x 7 support**: The customer support is available 24 hours a day, and all days of the week.  
   
    2. For **Work Days**, select the check box for each day that the customer support resources will be available and working.  
   
    3. For **Holiday Schedule**, select **Observe** to specify when your service organization will be closed.  
   
-       If you selected **Observe**, select a holiday schedule from the lookup box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)  
+       If you selected **Observe**, select a holiday schedule from the lookup box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)  
   
-6. Under **Select the time zone**, in the **Time Zone** drop-down box, select the time zone in which your customer support resources will work.  
+6. Under **Select the time zone**, in the **Time Zone** dropdown box, select the time zone in which your customer support resources will work. If applicable, the daylight saving time is taken into account for the selected time zone. 
   
 7. Select **Save**.  
 
