@@ -22,9 +22,10 @@ The system automatically timestamps every activity and shows who created it. You
 To get the most out of Dynamics 365 Sales, it's important for everyone in the organization to track all their customer interactions by adding an activity for every email, phone call, task, or appointment. That way, a customer's history is complete. 
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -36,6 +37,13 @@ You can find your activities under **My Work** in the site map.
 > ![Activities link in the site map.](media/activities-in-sitemap.png "Activities link in the site map")
 
 ## See activities in List, Calendar, or Kanban view
+
+1. In the site map, select **Activities**.
+
+2. On the command bar, select the **More commands** icon ![More commands icon.](media/more-commands-icon.png "More commands icon"), and then select **Show As**, and then the view type such as, **Kanban**, **Calendar Control**, or **Read Only Grid**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Show activities in the Kanban view.](media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
 
 You can see the activities in three different views:
 -  **List.** Shows a list of all activities. 
@@ -53,14 +61,7 @@ You can see the activities in three different views:
     > [!div class="mx-imgBorder"]  
     > ![Activities in the Kanban view.](media/activities-kanban-view.png "Activities in the Kanban view") 
 
-To switch to a different view:
 
-1. In the site map, select **Activities**.
-
-2. On the command bar, select the **More commands** icon ![More commands icon.](media/more-commands-icon.png "More commands icon"), and then select **Show As**, and then the view type such as, **Kanban**, **Calendar Control**, or **Read Only Grid**.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Show activities in the Kanban view.](media/activity-show-as-kanban-view.png "Show activities in the Kanban view") 
 
 ## Change your activities view
 
@@ -97,7 +98,7 @@ Most often, you'll want to add an activity associated with a contact, opportunit
 
 As your organization's relationship with a customer builds over time, you and other people on your team can look through the activity feed as you work with the customer, and see the history of your interactions. Activities can also be included in reports to track your ongoing progress.
 
-To add an activity for a customer:
+**To add an activity for a customer:**
 
 1. Open the record. You can use Quick Search on the navigation bar to find a record quickly.
 
@@ -109,7 +110,7 @@ Add a task or note for yourself when you want a reminder to do something persona
 
 Otherwise, to keep a history of your interactions with a customer, you should add new activities that are associated with a customer's record, so  those activities become part of the history that other people on your team can view.  
   
-To add an activity for yourself:
+**To add an activity for yourself:**
 
 1.  On the navigation bar, select **Create** and then select the icon or tile for the activity.  
   
@@ -117,30 +118,25 @@ To add an activity for yourself:
   
 ## Attach a document  
 
-Documents, spreadsheets, pictures, and just about any type of file can be attached to email, appointments, and notes.  
+Documents, spreadsheets, pictures, and just about any type of file can be attached to emails and notes.  
 
-To attach a document to email:
+**To attach a document to an email:**
   
-1. Open the email form.   
+1. Open the email form.  
   
 2. On the command bar, select **Attach File**.
-
-    The Add attachment dialog box opens.
-   
-    > [!div class="mx-imgBorder"] 
-    > ![Add attachment.](media/add-attachment-dialog-box.png "Add attachment")
   
-3. Browse to and then select the file that you want to attach, and then select **Attach**.   
+3. Browse to and then select the file that you want to attach.
+    The selected file appears in the **Attachment** pane.
 
-To attach a document to appointments:
-
-1. Open the appointment form.   
-
-2. Enter data in the required fields and save the form. 
-   
-3. In the **Attachment** section, select **New Attachment**.
-
-4. In the **Manage Attachment** dialog box, browse to and then select the file that you want to attach, and then select **Attach**.
+**To attach a document to a note:**
+  
+1. In the **Timeline** pane, select **+** and then select **Note**. 
+  
+2. Add the note and select the attachment icon before the **Add note** button. 
+  
+3. Browse to and then select the file that you want to attach.
+    The selected file appears above the **Add note** button.
   
 ## Mark an activity complete  
 
@@ -154,7 +150,6 @@ After you call someone, complete a task, send an email, or go to an appointment,
    > ![Mark an activity as complete.](media/mark-activity-complete.png "Mark an activity as complete")  
   
 ## Mark several activities complete at the same time  
-
 
 1.  On the list of activities, select all the activities that you want to mark complete.  
   

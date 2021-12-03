@@ -25,7 +25,8 @@ Let’s look at an example. **Amber Rodriguez** is a seller who's associated wit
 > ![Forecast drill-down view.](media/forecast-drill-down-view.png "Forecast drill-down view")
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
