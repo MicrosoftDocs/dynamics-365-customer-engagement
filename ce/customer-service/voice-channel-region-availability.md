@@ -4,7 +4,7 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/30/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -15,8 +15,7 @@ ms.service: dynamics-365-customerservice
 
 ## Supported regions
 
-
-The following table lists the upcoming regions and clouds where the voice channel for Omnichannel for Customer Service will soon be available:
+The following table lists the upcoming availability of the voice channel in Omnichannel for Customer Service:
 
 |Geographic location | Availability | Availability in Customer Service trial|
 |----------|---------|-----|
@@ -24,11 +23,11 @@ The following table lists the upcoming regions and clouds where the voice channe
 |Europe	|December 2021 |January 2022|
 |Asia Pacific |December 2021 |January 2022|
 |Australia	|December 2021 |January 2022|
-|South America	|To be announced | To be announced|
+|South America|To be announced | To be announced|
 |Country clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom	|To be announced |To be announced|
 |Government Community Cloud (GCC) |To be announced |To be announced|
 
-The use of your own number from any carrier through Azure direct routing is dependent on the availability of the Azure Communication Services resource in the region of your choice. For information on bringing your own number, see [Bring your own numbers](voice-channel-bring-your-own-number.md).
+The use of bringing any carrier through Azure direct routing is dependent on the availability of the Azure Communication Services resource in the region of your choice. For information on integrating your own number or carrier, see [Bring your own numbers and carriers](voice-channel-bring-your-own-number.md).
 
 ## Supported languages and locale codes
 
