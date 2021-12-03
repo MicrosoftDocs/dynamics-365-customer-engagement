@@ -12,7 +12,7 @@ ms.custom:
 # Collaborate using SharePoint  
 
 ## Requirements
-|  | |
+| &nbsp; | &nbsp; | 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -126,7 +126,7 @@ When you select one or more documents in the Documents list, you can take the fo
 
 ### See also
 
-[SharePoint, OneNote, and OneDrive integration with Common Data Service](/powerapps/maker/common-data-service/sharepoint-onedrive-onenote-intro)
+[SharePoint, OneNote, and OneDrive integration with Microsoft Dataverse](/    powerapps/maker/common-data-service/sharepoint-onedrive-onenote-intro)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

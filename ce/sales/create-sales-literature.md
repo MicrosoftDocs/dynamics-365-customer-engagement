@@ -22,7 +22,8 @@ Sales literature in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)
 You can associate a sales literature to a competitor or a product.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -63,7 +64,6 @@ There are two ways to send the sales literature to other users:
 ### See also  
 [Create or edit a competitor record](create-edit-competitor-record-sales.md)  
 [Set up a product](create-product-sales.md)  
-[User Guide](user-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

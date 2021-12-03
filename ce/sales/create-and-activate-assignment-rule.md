@@ -17,7 +17,8 @@ When a lead or opportunity record is created in an organization, assignment rule
 >For the example in this procedure, we create a lead assignment rule. Similarly, you can use this procedure to create an opportunity assignment rule. 
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
