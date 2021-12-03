@@ -12,7 +12,8 @@ manager: shujoshi
 The Dynamics 365 Sales mobile app supports quick creation of records and activities. As an administrator, you can control which records and activities are available for quick creation and which fields are available in the quick creation form.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System administrator <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|

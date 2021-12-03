@@ -1,7 +1,7 @@
 ---
 title: "Export sales records to PDF"
 description: "Create PDF files of sales records that look professional and read-only using your standard word templates and share it with your customers."
-ms.date: 10/26/2021
+ms.date: 11/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,9 +20,10 @@ searchScope:
 Create PDF files of sales records that look professional and read-only using your standard word templates and share it with your customers.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -48,7 +49,7 @@ Your system administrator can choose the entities for which PDF generation is en
     A preview based on the selected template is shown, and the PDF file name is populated. If you'd like to use a different template than the one selected, search for and select it in the **Select a template to generate PDF document** box. After you select the template, the preview will be refreshed.
 
     > [!IMPORTANT]
-    > - Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. To learn more about using Word templates, see [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365). 
+    > - Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. To learn more about using Word templates, see [Create and manage Word templates in Dynamics 365 Sales](manage-word-templates.md).  
     > - If there are multiple Word templates available for the entity, by default the first template in the list is selected. 
     > - If the setting to view or download a PDF file automatically is disabled in your browser settings, the preview functionality won't work. 
 
@@ -91,7 +92,7 @@ If you're using Dynamics 365 for phones on a mobile device, the capability for g
     > Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. 
 
     > [!TIP]
-    > To learn more about using Word templates, see [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365). 
+    > To learn more about using Word templates, see [Create and manage Word templates in Dynamics 365 Sales](manage-word-templates.md). 
 
 3. In the dialog box that appears, save or download the PDF.
 
