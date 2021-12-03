@@ -489,7 +489,9 @@
     - name: How notes analysis assists you with suggestion
       href: notes-analysis.md   
     - name: Manage sales literature
-      href: create-sales-literature.md        
+      href: create-sales-literature.md
+    - name: Call using Microsoft Teams
+      href: call-using-microsoft-teams.md          
     - name: Collaborate using Microsoft Teams
       href: /dynamics365/teams-integration/teams-collaboration?context=/dynamics365/context/sales-context
     - name: Using Microsoft Teams chat in Dynamics 365
@@ -662,6 +664,8 @@
       items:
       - name: View and understand call summary
         href: view-and-understand-call-summary-sales-app.md
+      - name: Get real-time call data through Teams call
+        href: get-real-time-call-data-through-teams-call.md  
   - name: Dynamics 365 Sales mobile
     items:
     - name: Overview
