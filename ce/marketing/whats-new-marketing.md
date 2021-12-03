@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/03/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -49,7 +49,7 @@ With the Dynamics 365 Marketing December 2021 update you can create conditional 
 - **Customer journeys**
     - Create more powerful conditional checks using relative dates (for example, "anniversary in the next three months") and partial dates (for example, "birthday is November").
 - **First run experience**
-    - Real-time marketing is now pre-provisioned alongside outbound marketing, allowing you to get up and running with real-time marketing features more quickly after trial or paid install.
+    - Real-time marketing is now pre-provisioned alongside outbound marketing, allowing you to get up and running with real-time marketing features more quickly after trial or new paid installs.
 - **Marketing insights**
     - Added an **Unsubscribe** interaction type to real-time marketing to track the number of users that remove themselves from a mailing list. Learn more: [Insights glossary](insights-glossary.md#unsubscribes).
 
