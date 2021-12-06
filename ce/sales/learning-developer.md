@@ -1,11 +1,10 @@
 ---
 title: Developers learning catalog for sales
-description: Find all the training options for developers. 
+description: Find all the Dynamics 365 Sales training options for developers. 
 author: lavanyakr01
 ms.author: lavanyakr
 ms.topic: article
 ms.date: 01/08/2020
-ms.author: v-lshann
 ---
 
 # Developers Learning Catalog for sales
