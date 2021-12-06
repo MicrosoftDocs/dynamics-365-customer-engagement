@@ -1,7 +1,7 @@
 ---
 title: Set up a search provider in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 08/12/2021
+ms.date: 12/06/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -50,30 +50,20 @@ From an authentication perspective, your agents must have access to external con
 >
 > Before you set up a search provider, ensure that your firewall doesn't block the https://www.d365ccafpi.com/ domain. Otherwise, users will encounter errors.
 
-To set up a search provider, do the following:
+To set up a search provider:
 
-1.	Open the **Customer Service Hub** app and select **Change area > Service Management**.
+1.	In the Customer Service Hub site map, go to **Service Management**, and select **Search providers** in **Knowledge Base Management**.
 
-    > [!div class=mx-imgBorder]
-    > ![Select service management.](media/ka-select-service-management.png "Select service management")
+2.	In the **Knowledge Base Management Search providers** wizard, select **New**.
 
-2.	Under the **Knowledge Base Management** section, select **Search providers**, and then select **New**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select search providers.](media/select-search-providers.png "Select search providers")
-    
-    The **New Search provider** page is displayed.
-
-3.	Under **General**, enter the name and owner information for the search provider. You can optionally also enter a description.
-    
-4. If you want this search provider to be your default provider, toggle **Set as default** to **Yes**.
-    
-5. Under **Details**, from the drop-down menu, select the type of search provider you want to use and the organization.
+3.	On the **New Search provider** page, **General** section, enter the name and owner of the search provider. Optionally, you can  enter a description.
+     
+5. In the **Details** section, select the organization and the type of search provider you want to use from the **Select organization** and the **Search Type** dropdown, respectively.
 
     > [!div class=mx-imgBorder]
     > ![Select the search provider type and organization.](media/search-provider-details.png "Select the search provider type and organization")
 
-6. When you are finished, select **Save** in the lower-right corner.
+6. Select **Save**.
 
 ## Post-configuration agent experience
 
