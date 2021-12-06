@@ -60,8 +60,7 @@ To set up a search provider:
      
 5. In the **Details** section, select the organization and the type of search provider you want to use from the **Select organization** and the **Search Type** dropdown, respectively.
 
-    > [!div class=mx-imgBorder]
-    > ![Select the search provider type and organization.](media/search-provider-details.png "Select the search provider type and organization")
+    :::image type="content" source="media/search-provider-details.png" alt-text="Search provider details":::
 
 6. Select **Save**.
 
