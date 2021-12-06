@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing journey tile reference (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing tiles in Dynamics 365 Marketing."
-ms.date: 10/04/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -33,7 +33,7 @@ The journey start configuration lets you define how customers can start the jour
 - **Exclude this segment**: Members of this segment will not be allowed to start the journey. This is an easy way to filter out certain segments of customers from starting the journey, even if they performed the event trigger to start the journey.  
 - **Journey Timing**: Lets you specify the time window in which customers can start the journey. Customers must perform the journey start event trigger after the start time to enter the journey. No new customers will be allowed to start the journey after the end time. The end time only affects when customers can start the journey. If a customer is already in the journey, they will be allowed to continue the journey even after the end time.
 - **Handling unresolved profile**: This option is only available for event-based journeys that target Customer Insights profiles. It takes time to create a full Customer Insights profile. If the full profile isn’t available at the time the person triggers the journey, they can either start the journey immediately using defaults for any missing profile data or wait for the full profile to be available before starting the journey. To successfully communicate with someone without a profile, the event trigger must specify email (contactpoint_email) or phone (contactpoint_phone) attributes. See [Create a custom event trigger](real-time-marketing-custom-events.md). <br>
-For journeys like sending purchase order confirmations, both new customers and existing customers can trigger the journey. A new customer may not have a full profile when they make the purchase. By selecting the option to start the journey immediately even if the full profile is not available you can ensure new users will get the order confirmation immediately without having to wait. All profile attributes for these new users will be treated as empty so its important to always include default fallbacks in personalized content as well as attribute branches.
+For journeys such as sending purchase order confirmations, both new customers and existing customers can trigger the journey. A new customer may not have a full profile when they make the purchase. By selecting the option to start the journey immediately even if the full profile is not available, you can ensure new users will get the order confirmation immediately without having to wait. All profile attributes for these new users will be treated as empty, so it's important to always include default fallbacks in personalized content as well as attribute branches.
 
 ### Segment-based journey
 
