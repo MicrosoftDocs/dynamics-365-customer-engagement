@@ -618,12 +618,6 @@ To view an article’s view counts and other statistics, open the article you wa
 - **Cases**. Shows a list of the cases that have used this article. Double-click a case to view its details.  
   
      By reviewing cases that have used your articles, you can gain valuable insights into the questions that customers are asking, as well as what avenues they tried before asking for help. This data can help you expose your knowledge articles better and provide more useful information to your customers and team members.  
-  
-
-
-
-
-
 
 #### Add feedback to an article  
   
@@ -632,15 +626,16 @@ To view an article’s view counts and other statistics, open the article you wa
 2. In the **Create Feedback** flyout, fill in the information:  
   
    - **Title**. Type a descriptive  title for the feedback. For example, if the feedback is about customer satisfaction, type that.  
+   
    - **Regarding**. Look for relevant records to associate the feedback.
   
    - **Source**. Select whether the feedback is internal or from a portal. If you received the feedback via a phone call, you can select **Internal**.  
   
    - **Comments**. Type any feedback comments that you want.  
   
-   - **Rating**. Type a number to specify how useful the related record is. For example, if you are tracking the customer satisfaction for a case, and you want to rate it a 2 on a scale of 1 - 10, type 2.  
+   - **Rating**. Type a number to specify how useful the related record is. For example, if you are tracking the customer satisfaction for a case, and you want to rate it a 2 on a scale of 1–10, type 2.  
   
-   - **Minimum Rating Value** and **Maximum Rating Value**. Specify a minimum and maximum rating to define a rating scale. For example, you want to give a rating of 2  on the scale of 1 - 10, type 1 as the minimum rating and 10 as the maximum rating.  
+   - **Minimum Rating Value** and **Maximum Rating Value**. Specify a minimum and maximum rating to define a rating scale. For example, you want to give a rating of 2  on the scale of 1–10, type 1 as the minimum rating and 10 as the maximum rating.  
   
    - **Created by (Contact)**. If you're creating the feedback on behalf of a customer contact, select the contact here.  
   
@@ -650,7 +645,7 @@ To view an article’s view counts and other statistics, open the article you wa
   
 3. Select **Save**.
 
-   ![Knowledge article feedback.](media/ka-feedback.png)
+   ![Knowledge article feedback.](media/ka-feedback.png "Knowledge article feedback.")
 
 > [!NOTE]
 > You can also update the owner of the feedback in the flyout.
@@ -663,9 +658,9 @@ Knowledge managers and authors can now monitor the status of knowledge articles 
 > [!NOTE]
 >  If these dashboards don’t offer what you need, you can create new interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive experience dashboards](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622067(v=crm.8))  
   
-### My knowledge Dashboard  
+### My Knowledge Dashboard  
 
-This dashboard is designed for authors to give them a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like article expiring in the month and articles in review.  
+This dashboard is designed to give authors a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like articles expiring in the month and articles in review.  
   
  ![My Knowledge Dashboard for authors.](../customer-service/media/v9-my-knowledge-dashboard.PNG "My Knowledge Dashboard for authors")  
   
@@ -684,23 +679,19 @@ This dashboard is designed specifically for knowledge managers. As a knowledge m
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
 #### Manage versions in alternate keys for knowledge article entity
-If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../customerengagement/on-premises/developer/define-alternate-keys-entity.md).
+If you are creating an alternate key for a Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../customerengagement/on-premises/developer/define-alternate-keys-entity.md).
 
 ## Prevent duplicate workflows with knowledge article operations   
 
-If you use [workflow processes](../customerengagement/on-premises/customize/workflow-processes.md) to perform knowledge article operations, such as:
-- Create a knowledge article
--	Update a knowledge article
+If you use [workflow processes](../customerengagement/on-premises/customize/workflow-processes.md) to perform knowledge article operations, such as creating or updating a knowledge article, the update operation is further classified into suboperations, such as:
 
-The update operation is further classified into sub-operations, such as:
--	Update a knowledge article version
--	Manage a knowledge article version
--	Translate a knowledge article
+-	Update a knowledge article version.
+-	Manage a knowledge article version.
+-	Translate a knowledge article.
 
-For the create and update operations, be aware of the following when using the workflow process:
-Whenever you create a new knowledge article manually, the system creates two articles: a root article and a base article, which means:
+For the create and update operations, be aware of the following when using the workflow process: 
 
-If you use a workflow process that is triggered on a create operation, the workflow is triggered twice—once each for the creation of base article and root article.
+Whenever you create a new knowledge article manually, the system creates two articles: a root article and a base article. This means if you use a workflow process that is triggered on a create operation, the workflow is triggered twice—once each for the creation of the base article and the root article.
 
 When you use a workflow process to perform the following update operations, the workflow is triggered twice—once each for the base article and the root article:
 -	Create major version
@@ -708,9 +699,12 @@ When you use a workflow process to perform the following update operations, the 
 -	Translate
   
    > [!NOTE]
-   >  Other update operations, such as updating a field or approve/publish do not trigger the second workflow.
+   >  Other update operations, such as updating a field or approve/publish, do not trigger the second workflow.
 
-To avoid triggering the workflow twice, in the workflow itself, set the trigger condition for the knowledge article as follows: For a create operation, set the root article to Yes. For an update operation, set the root article to No. 
+To avoid triggering the workflow twice, in the workflow itself, set the trigger condition for the knowledge article as follows: 
+
+- For a create operation, set the root article to **Yes**. 
+- For an update operation, set the root article to **No**. 
 
 Follow these steps:
   
@@ -722,28 +716,28 @@ Follow these steps:
 
 4. Select the knowledge article flow you created. The workflow process opens in a new browser window.
   
-5. In the **General** tab, select the **Add Step** drop-down list, and then select **Check Condition**. A new step will be added.
+5. In the **General** tab, select the **Add Step** dropdown list, and then select **Check Condition**. A new step will be added.
 
     > [!div class=mx-imgBorder]
-    > ![Select Check Condition.](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
+    > ![Select Check Condition.](media/workflows-check-condition.png "Select Check Condition from the Add Step dropdown list")
   
 6. In the step, select **&lt;condition&gt; (click to configure)**. The **Specify condition** page opens in a new browser window.
 
     > [!div class=mx-imgBorder]
     > ![Select the condition to configure.](media/workflows-configure-condition.png "Select the condition to configure")
   
-7. From the entity drop-down, select **Knowledge Article**.
+7. From the entity dropdown list, select **Knowledge Article**.
 
-8. From the field drop-down, select **Root Article**.
+8. From the field dropdown list, select **Root Article**.
 
-9. From the condition drop-down, select **Equals**.
+9. From the condition dropdown list, select **Equals**.
 
-10. From the value drop-down, select a value:
+10. From the value dropdown list, select a value:
     - **Yes** for the create operation.
     - **No** for the update operation.
 
     > [!div class=mx-imgBorder]
-    > ![Set workflow condition.](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the drop-down list")
+    > ![Set workflow condition.](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the dropdown list")
 
 11.	Select **Save and Close** to save the condition and close the window.
 
