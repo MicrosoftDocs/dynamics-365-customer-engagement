@@ -122,7 +122,7 @@ The Power Apps solution checker is a useful tool from Microsoft that checks Powe
 
 For more information, see these resources:
 
-- [Use solution checker to validate your apps in Power Apps](/powerapps/maker/data-platform/use-powerapps-checker#best-practice-rules-used-by-solution-checker)
+- [Use solution checker to validate your apps in Power Apps](/powerapps/maker/data-platform/use-powerapps-checker)
 - [How to run and use the Power Apps solution checker](https://carldesouza.com/how-to-run-and-use-the-power-apps-solution-checker/)
 - [Dataverse Solution Checker](https://dynamics-chronicles.com/article/dataverse-solution-checker)
 
