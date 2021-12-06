@@ -1,4 +1,4 @@
-Dynamics 365 Channel Integration Framework version 2.0 supports following modes.
+Dynamics 365 Channel Integration Framework 2.0 supports the following modes.
 
 ## Docked
 
