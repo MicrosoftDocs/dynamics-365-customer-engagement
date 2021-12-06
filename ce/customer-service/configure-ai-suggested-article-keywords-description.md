@@ -22,7 +22,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 ## Introduction
 
 
-<!-- The term "knowledge author" seems awkward, and I can't find any guidance on it, so I changed it to "author." Are you OK with that? -->
+<!-- The term "knowledge author" seems awkward, and I can't find any guidance on it, so I changed it to "author." The other team editors agree with that change. -->
 
 
 Correct metadata helps to locate articles that users search for. When authors create or update knowledge articles, AI suggestions for article keywords and descriptions can help them select the right metadata, thereby improving their productivity.
