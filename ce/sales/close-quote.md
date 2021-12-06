@@ -1,5 +1,5 @@
 ---
-title: "Close a quote - Sales Enterprise | MicrosoftDocs"
+title: "Close a quote | MicrosoftDocs"
 description: "A quote can be closed when it's lost, canceled, or revised."
 ms.date: 10/25/2021
 ms.topic: topic

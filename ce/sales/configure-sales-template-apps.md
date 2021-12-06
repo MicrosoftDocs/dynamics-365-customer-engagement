@@ -1,5 +1,5 @@
 ---
-title: "Configure Power BI template apps for Sales - Sales Enterprise | MicrosoftDocs"
+title: "Configure Power BI template apps for Sales | MicrosoftDocs"
 description: "Establish a two-way communication between Dynamics 365 and Power BI template app and configure Sales Analytics and Process Analytics."
 ms.date: 10/25/2021
 ms.topic: article

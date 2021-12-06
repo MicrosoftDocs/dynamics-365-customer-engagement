@@ -1,5 +1,5 @@
 ---
-title: "Define playbook categories - Sales Enterprise | MicrosoftDocs"
+title: "Define playbook categories | MicrosoftDocs"
 description: "Create playbook categories to classify playbooks based on the audience, objective, or any other criteria."
 ms.date: 10/25/2021
 ms.topic: article

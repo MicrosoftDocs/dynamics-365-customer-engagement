@@ -1,5 +1,5 @@
 ---
-title: "Close opportunities as won or lost - Sales Enterprise | MicrosoftDocs"
+title: "Close opportunities as won or lost | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost. You can reopen it in future if the customer is interested in pursuing the opportunity."
 ms.date: 11/02/2021
 ms.topic: article

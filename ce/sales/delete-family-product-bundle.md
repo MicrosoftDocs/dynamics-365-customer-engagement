@@ -1,5 +1,5 @@
 ---
-title: "Delete a family, product, or bundle - Sales Enterprise | MicrosoftDocs"
+title: "Delete a family, product, or bundle | MicrosoftDocs"
 description: "To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted."
 ms.date: 10/26/2021
 ms.topic: article

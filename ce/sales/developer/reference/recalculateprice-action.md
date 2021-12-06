@@ -1,5 +1,5 @@
 ---
-title: "RecalculatePrice Action - Developer Guide - Sales Enterprise | MicrosoftDocs"
+title: "RecalculatePrice Action - Developer Guide | MicrosoftDocs"
 description: "Programmatically trigger the out-of-the-box price calculation for Opportunity, Quote, Sales Order or Invoice entities."
 ms.date: 04/25/2019
 ms.topic: article

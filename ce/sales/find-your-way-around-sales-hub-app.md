@@ -1,5 +1,5 @@
 ---
-title: "Find your way around the Sales Hub app - Sales Enterprise | MicrosoftDocs"
+title: "Find your way around the Sales Hub app | MicrosoftDocs"
 description: "Learn how to get started with and navigate through the Sales Hub app. Get familiar with the nav bar and menu options in the app."
 ms.date: 10/01/2019
 ms.topic: get-started-article

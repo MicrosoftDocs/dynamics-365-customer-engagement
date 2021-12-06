@@ -1,5 +1,5 @@
 ---
-title: "Enable or disable the enhanced add products experience - Sales Enterprise | MicrosoftDocs"
+title: "Enable or disable the enhanced add products experience | MicrosoftDocs"
 description: "Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience."
 ms.date: 10/26/2021
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: "Define product pricing - Sales Enterprise | MicrosoftDocs"
+title: "Define product pricing | MicrosoftDocs"
 description: "Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory."
 ms.date: 10/26/2021
 ms.topic: get-started-article

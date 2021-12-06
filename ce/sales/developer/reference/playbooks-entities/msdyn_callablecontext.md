@@ -1,5 +1,5 @@
 ---
-title: "msdyn_callablecontext EntityType - Sales Enterprise | MicrosoftDocs"
+title: "msdyn_callablecontext EntityType | MicrosoftDocs"
 description: "As developer, use this reference information to understand the msdyn_forecastdefinition EntityType and its properties."
 ms.date: 04/08/2019
 ms.topic: article

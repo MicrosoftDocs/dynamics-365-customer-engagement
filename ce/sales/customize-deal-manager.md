@@ -1,5 +1,5 @@
 ---
-title: "Customize deal manager - Sales Enterprise | MicrosoftDocs"
+title: "Customize deal manager | MicrosoftDocs"
 description: "Customize the grid, side panel, and charts displayed in deal manager according to your sales team's requirement."
 ms.date: 10/26/2021
 ms.topic: article

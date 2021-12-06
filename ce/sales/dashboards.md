@@ -1,5 +1,5 @@
 ---
-title: "Gain insights with dashboards - Sales Enterprise | MicrosoftDocs"
+title: "Gain insights with dashboards | MicrosoftDocs"
 description: "Get a quick glance of important and actionable business data using pre-built dashboards. Get insights into how your sales team is doing."
 ms.date: 10/25/2021
 ms.topic: article

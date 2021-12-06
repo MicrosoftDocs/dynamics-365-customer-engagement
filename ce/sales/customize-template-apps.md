@@ -1,5 +1,5 @@
 ---
-title: "Customize Power BI template apps for Sales - Sales Enterprise | MicrosoftDocs"
+title: "Customize Power BI template apps for Sales | MicrosoftDocs"
 description: "Use Power BI template apps to visualize and analyze the sales data. Extend Power BI reports to include custom fields."
 ms.date: 10/25/2021
 ms.topic: article

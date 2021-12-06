@@ -1,5 +1,5 @@
 ---
-title: "Entity reference for playbooks - Sales Enterprise | MicrosoftDocs"
+title: "Entity reference for playbooks | MicrosoftDocs"
 description: "As developer, use this reference documentation to understand the operations that can be performed on playbooks."
 ms.date: 04/08/2019
 ms.topic: reference

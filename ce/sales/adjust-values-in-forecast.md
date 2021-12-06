@@ -1,5 +1,5 @@
 ---
-title: "Adjust forecast values in sales forecasting - Sales Enterprise | MicrosoftDocs"
+title: "Adjust forecast values in sales forecasting | MicrosoftDocs"
 description: "Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period."
 ms.date: 02/03/2020
 ms.topic: article

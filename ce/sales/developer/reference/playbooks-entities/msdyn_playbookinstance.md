@@ -1,5 +1,5 @@
 ---
-title: "msdyn_playbookinstance EntityType - Sales Enterprise | MicrosoftDocs"
+title: "msdyn_playbookinstance EntityType | MicrosoftDocs"
 description: "As developer, use this reference information to understand the msdyn_playbookinstance EntityType and its properties."
 ms.date: 04/08/2019
 ms.topic: article
