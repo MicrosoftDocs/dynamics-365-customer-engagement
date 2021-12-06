@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
-ms.date: 11/17/2021
+ms.date: 12/06/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -26,13 +26,14 @@ Here are a few common issues the Solution Health Hub detects:
 2. If processes that will cause an upgrade to fail are assigned to disabled users 
 3. Customized web resources that will later lead to runtime issues
 
+In addition to running Solution Health Hub, check out [best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md) and 
+[running Solution Checker to improve scripts, plugins, HTML, workflows, etc](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/use-powerapps-checker). 
+
 ## Prerequisites
 
 - Field Service v8.4.0.338+ (Unified Interface) or v7.5.7.87+ (Web)
 - The Solution Health Hub extends the [Power Apps checker](/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment. 
-
-> [!Note]
-> Currently, the ruleset uses 15 rules to verify the environment is in a good state. 
+ 
 
 ## Run a health check
 
@@ -599,6 +600,8 @@ Add Field Service resource security role and field security profile to the user.
 
 ### See also
 
+- [Run Solution Checker to improve scripts, plugins, HTML, workflows, etc](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/use-powerapps-checker)
+- [Best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md)
 - [Frequently asked questions](./troubleshoot-faq.yml)
 
 
