@@ -27,7 +27,7 @@ Here are a few common issues the Solution Health Hub detects:
 3. Customized web resources that will later lead to runtime issues
 
 In addition to running Solution Health Hub, check out [best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md) and 
-[running Solution Checker to improve scripts, plugins, HTML, workflows, etc](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/use-powerapps-checker). 
+[running Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
 
 ## Prerequisites
 
@@ -600,7 +600,7 @@ Add Field Service resource security role and field security profile to the user.
 
 ### See also
 
-- [Run Solution Checker to improve scripts, plugins, HTML, workflows, etc](https://docs.microsoft.com/en-us/powerapps/maker/data-platform/use-powerapps-checker)
+- [Run Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
 - [Best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md)
 - [Frequently asked questions](./troubleshoot-faq.yml)
 
