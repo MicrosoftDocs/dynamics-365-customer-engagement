@@ -1,7 +1,7 @@
 ---
 title: "Add surveys to your Dynamics 365 Marketing campaigns (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create surveys in Dynamics 365 Marketing using Microsoft Dynamics 365 Customer Voice."
-ms.date: 09/28/2020
+ms.date: 11/30/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -52,13 +52,15 @@ To use survey data in segments:
 
 ## Dynamics 365 Customer Voice survey links in email messages
 
-To add a Dynamics 365 Customer Voice survey to an email message, go to the [email content designer](email-design.md). Then go to **Toolbox** > **Advanced elements** > **Dynamics 365 Customer Voice**. Drag and drop the **Customer Voice survey** element into your email.
+To add a Dynamics 365 Customer Voice survey to an email message, go to the [email content designer](email-design.md). Then go to **Toolbox** > **Elements** > **Button**. Drag and drop the **Button** element into your email.
 
-![Drag and drop Dynamics 365 Customer Voice into an email.](media/customer-voice-email-drag.png "Drag and drop Dynamics 365 Customer Voice into an email")
+> [!div class="mx-imgBorder"]
+> ![Drag and drop a button into an email.](media/customer-voice-email-button.png "Drag and drop a button into an email")
 
-In the **Properties** tab, choose the survey you would like to use.
+Select the button to edit the properties. Set the **Link to** dropdown to **Survey**, set the **Button text**, then choose the survey you would like to use.
 
-![Choose an email survey.](media/customer-voice-choose-survey2.png "Choose an email survey")
+> [!div class="mx-imgBorder"]
+> ![Choose an email survey.](media/customer-voice-choose-survey3.png "Choose an email survey")
 
 After you choose a survey, you can customize the email styling just as you would with any other email message.
 

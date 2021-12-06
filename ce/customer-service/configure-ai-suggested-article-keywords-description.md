@@ -1,7 +1,7 @@
 ---
 title: Configure AI suggestions for article keywords and description | MicrosoftDocs
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
-ms.date: 11/24/2021
+ms.date: 12/03/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -65,6 +65,7 @@ The language used in AI-generated suggestions is based on the language that the 
 ## Prerequisites
 
 
+
 <!-- Not sure what AIB and SML stand for. Can you spell those out? -->
 
 
@@ -72,6 +73,7 @@ Make sure to meet the following requirements:
 
 - You have the system administrator role.
 - Authors have the AIB roles and the AIB SML roles.
+
 
 ## Enable AI suggestions for article keywords and description
 
@@ -90,14 +92,12 @@ Make sure to meet the following requirements:
 ### Enable AI suggestions for article keywords and description in a custom form
 
 
+
 <!-- It would be helpful to the reader to add one or more screenshots to this section. -->
 
+1. In Dynamics 365, go to **Customizations** in **Advanced Settings**.
 
-1. In your Dynamics 365 environment site map, go to **Settings** > **Advanced Settings**.
-
-1. From the **Settings** dropdown list, select **Customizations**.
-
-1. On the **Customizations** page, select **Customize the System**.
+1. Select **Customize the System** to open the default solution.
 
 1. From the **Solution: Default Solution** navigation pane, select **Components** > **Entities** > **Knowledge Article** > **Forms**.
 
@@ -107,7 +107,7 @@ Make sure to meet the following requirements:
 
 1. Select **Keywords and Description Suggestion control** in the form and then select **Change Properties** on the ribbon.
 
-1. On the **Field Properties** dialog, go to the **Controls** tab and select **Add Control**.
+1. On the **Field Properties** dialog, go to the **Controls** tab, and select **Add Control**.
 
 1. On the **Add Control** dialog, select **Knowledge Suggestion Section Control** > **Add**.
 
