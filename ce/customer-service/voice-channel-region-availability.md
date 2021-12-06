@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 
 
-<!-- What is IVR? -->
+<!-- What is IVR? It's not spelled out at first use. -->
 
 
 
