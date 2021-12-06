@@ -1,7 +1,7 @@
 ---
 title: "Call customers through Microsoft Teams dialer in Dynamics 365 Sales"
 description: "Call customers through Microsoft Teams dialer through records and up next widget in Dynamics 365 Sales."
-ms.date: 12/03/2021
+ms.date: 12/06/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -27,8 +27,9 @@ Microsoft Teams dialer helps you to be more productive and get work done effecti
 | **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
->[!IMPORTANT]
->An administrator must configure the Microsoft Teams dialer in your organization to use. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md). 
+>[!NOTE]
+>- An administrator must configure the Microsoft Teams dialer in your organization to use. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md). 
+>- You can't make emergency calls using Teams dialer in Dynamics 365 Sales.
 
 ## Open Teams calls dialer
 
