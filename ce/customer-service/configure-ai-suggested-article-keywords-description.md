@@ -22,6 +22,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 ## Introduction
 
 
+
 <!-- The term "knowledge author" seems awkward, and I can't find any guidance on it, so I changed it to "author." The other team editors agree with that change. -->
 
 
