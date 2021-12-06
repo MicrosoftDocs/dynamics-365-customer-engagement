@@ -187,9 +187,9 @@ Set **Show Simplified Work Order Commands** to **No** to show the full list of r
 > [!Note]
 > The **Show Chart** ribbon command is *not* impacted by the **Show Simplified Work Order Commands** setting.
 
-## Additional Notes
+## Additional notes
 
-The Getting Started Work Order create form does not support switching forms. If added as a form to other parts of the app, switching to this form will leave you unable to switch back.
+The getting started work order create form does not support switching forms. If added as a form to other parts of the app, switching to this form will leave you unable to switch back.
 
 ### See also  
     
